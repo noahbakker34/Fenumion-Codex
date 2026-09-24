@@ -2176,6 +2176,15 @@ const subchannelMap = {
 };
 
 const byId = new Map(articles.map(article => [article.id, article]));
+const hubPages = [
+  { id: "people-directory", label: "Characters", detail: "Heroes · NPCs · Gods", image: "assets/archive/wrath.gif" },
+  { id: "living-timeline", label: "Timeline", detail: "Causes · Events · Consequences", image: "assets/archive/abyss.png" },
+  { id: "visual-archive", label: "Locations", detail: "Regions · Settlements · Landmarks", image: "assets/archive/world-map.jpeg" },
+  { id: "memorable-quotes", label: "Quotes", detail: "Words the world remembers", image: "assets/archive/throne.png" },
+  { id: "conversation", label: "Living Archive", detail: "Memory · Evidence · Consequence", image: "assets/archive/fein-uaill.jpeg" },
+  { id: "reading-the-codex", label: "How to Read", detail: "Evidence · Perspective · Uncertainty", image: "assets/archive/pristinia.webp" }
+];
+const hubPageById = new Map(hubPages.map(page => [page.id, page]));
 const navigation = document.querySelector("#navigation");
 const articleContent = document.querySelector("#article-content");
 const breadcrumbs = document.querySelector("#breadcrumbs");
@@ -2215,7 +2224,9 @@ function renderArticle(route, pushHash = true) {
   const routeParams = new URLSearchParams(routeQuery);
   const requestedMapId = routeParams.get("map") || "";
   const article = byId.get(id) || articles[0];
+  const hubPage = hubPageById.get(article.id);
   document.body.classList.toggle("home-view", article.id === "world-index");
+  document.body.classList.toggle("hub-view", Boolean(hubPage));
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
   const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : ""}`;
   if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
@@ -2233,6 +2244,10 @@ function renderArticle(route, pushHash = true) {
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "");
   const sourceLedger = article.sources?.length ? `<details class="source-ledger"><summary><span>Documents used</span><strong>${article.sources.length}</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
   const subchannels = renderSubchannels(article.id);
+  const hubSwitcher = hubPage ? `
+    <nav class="hub-switcher" aria-label="Explore the Codex">
+      ${hubPages.map(page => `<button class="gateway-tile${page.id === article.id ? " active" : ""}" data-article="${page.id}" style="--tile-image:url('${page.image}')"${page.id === article.id ? ' aria-current="page"' : ""}><span>${page.label}</span><small>${page.detail}</small></button>`).join("")}
+    </nav>` : "";
   const atlasBanner = article.id === "visual-archive" ? `
     <section class="atlas-banner" aria-labelledby="interactive-maps-title">
       <div class="atlas-banner-copy">
@@ -2243,14 +2258,15 @@ function renderArticle(route, pushHash = true) {
       <div id="interactive-atlas" class="interactive-atlas"></div>
     </section>` : "";
   articleContent.innerHTML = `
-    <header class="article-header">
+    <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubPage.image}')"` : ""}>
       <p class="article-kicker">${article.type}</p>
       <h1>${article.title}</h1>
       <p class="dek">${article.dek}</p>
       <div class="article-meta">${article.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div>
     </header>
+    ${hubSwitcher}
     ${atlasBanner}
-    ${hero}
+    ${hubPage ? "" : hero}
     <div class="source-strip"><span>Archive basis</span><p>Drawn from preserved campaign scenes, chronicles, maps, and visual records.</p></div>
     ${sourceLedger}
     ${subchannels}

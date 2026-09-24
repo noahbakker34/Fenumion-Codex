@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081512">
+  <meta name="description" content="The living lore, history, people, and places of Fenumion.">
+  <title>The Fenumion Codex</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css?v=33">
+  <script src="app.js?v=33" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#article">Skip to article</a>
+  <header class="topbar">
+    <button class="menu-button" id="menu-button" aria-label="Open codex navigation" aria-expanded="false" aria-controls="sidebar">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="brand" href="#world-index" aria-label="The Fenumion Codex home">
+      <span class="brand-mark" aria-hidden="true">F</span>
+      <span><strong>The Fenumion Codex</strong><small>A living world archive</small></span>
+    </a>
+    <button class="search-toggle" id="search-toggle" aria-label="Search the Codex">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg>
+    </button>
+    <label class="search-shell">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg>
+      <span class="sr-only">Search the codex</span>
+      <input id="search" type="search" placeholder="Search people, places, ideas…" autocomplete="off">
+      <kbd>/</kbd>
+    </label>
+    <button class="source-button" data-article="world-index">Explore index</button>
+  </header>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Codex navigation">
+      <div class="sidebar-intro">
+        <p class="eyebrow">Begin here</p>
+        <button class="featured-link" data-article="world-index">
+          <span class="sigil" aria-hidden="true">⌘</span>
+          <span><strong>World index</strong><small>Characters · Timeline · Locations</small></span>
+        </button>
+        <button class="browse-link" data-article="conversation"><span>Begin the chronicle</span><strong>How Fenumion remembers</strong></button>
+      </div>
+      <nav id="navigation"></nav>
+      <div class="archive-note">
+        <span class="archive-number">303</span>
+        <span>preserved campaign records<br><small>the foundation of this codex</small></span>
+      </div>
+    </aside>
+
+    <main id="article" tabindex="-1">
+      <div class="article-wrap">
+        <div class="breadcrumbs" id="breadcrumbs"></div>
+        <article id="article-content" aria-live="polite"></article>
+      </div>
+    </main>
+
+    <aside class="article-rail" aria-label="On this page">
+      <p class="eyebrow">On this page</p>
+      <nav id="contents"></nav>
+      <div class="rail-card">
+        <p class="eyebrow">Reading key</p>
+        <p><span class="key-dot canon"></span><strong>Objective canon</strong><br>Supported as part of the world’s actual structure.</p>
+        <p><span class="key-dot observed"></span><strong>Observed fact</strong><br>Witnessed in a scene, record, map, or image.</p>
+        <p><span class="key-dot claimed"></span><strong>Character claim</strong><br>A belief or statement that keeps its speaker.</p>
+        <p><span class="key-dot interpreted"></span><strong>Interpretation</strong><br>A synthesis that may change with new evidence.</p>
+        <p><span class="key-dot governance"></span><strong>Governance</strong><br>An OOC ruling kept separate from world fact.</p>
+        <p><span class="key-dot unresolved"></span><strong>Unresolved</strong><br>A contradiction, missing fact, or open question.</p>
+      </div>
+    </aside>
+  </div>
+
+  <div class="search-panel" id="search-panel" hidden>
+    <div class="search-panel-head"><span id="search-count">Search results</span><button id="close-search" aria-label="Close search">Esc</button></div>
+    <div id="search-results"></div>
+  </div>
+  <div class="scrim" id="scrim" hidden></div>
+</body>
+</html>

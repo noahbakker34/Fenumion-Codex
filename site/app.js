@@ -65,12 +65,9 @@ const articles = [
     id: "visual-archive", title: "Location Atlas", category: "Places", type: "Searchable region & sublocation index",
     dek: "A nested atlas of Fenumion’s regions, settlements, ruins, estates, forests, civic spaces, and other named places.",
     tags: ["Locations", "Maps", "Regions", "Sublocations", "Search"],
-    facts: { Records: "79 places", Maps: "7 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
+    facts: { Records: "83 places", Maps: "7 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
     body: `
       <p>This atlas restores the geographic hierarchy visible across the surviving records. Major regions contain their settlements and landmarks: <strong>Caisleán na Brón belongs within Fein Uaill</strong>; Hope and the Tower belong within Gael; Pristinia’s civic sites belong within Prima. Search accepts spelling variants such as “Caselean De Broin.”</p>
-      <h2 id="interactive-maps">Explore the maps</h2>
-      <p>Choose a map, then hover, focus, or tap a marker to reveal what the archive knows. Every marker distinguishes recovered history from a name preserved only by a map.</p>
-      <div id="interactive-atlas" class="interactive-atlas"></div>
       <h2 id="place-directory">Search every recovered place</h2>
       <div id="location-explorer" class="location-explorer" aria-live="polite"></div>
       <h2 id="reading-place-records">How to read place records</h2>
@@ -81,7 +78,7 @@ const articles = [
     id: "memorable-quotes", title: "Memorable Quotes", category: "Archive", type: "Voices preserved in the archive",
     dek: "Lines that condensed a character, changed the meaning of a scene, or became part of Fenumion’s shared moral language.",
     tags: ["Quotes", "Characters", "Memory", "Primary archive"],
-    facts: { Selection: "49 recovered lines", Standard: "Memorable and narratively consequential", Attribution: "Speaker name only", Source: "Campaign records" },
+    facts: { Selection: "51 recovered lines", Standard: "Memorable and narratively consequential", Attribution: "Speaker name only", Source: "Campaign records" },
     sources: ["Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings", "Character and location dossiers — previously recovered lines and linked historical context"],
     body: `
       <p>Fenumion’s most memorable lines name choices, expose wounds, and give later people language for arguments the world has not finished having. The gallery preserves the words and the speaker; open any card for the history around it.</p>
@@ -114,6 +111,7 @@ const articles = [
         <button class="quote-card" data-article="roderick-wrath"><blockquote>“The world broke my beloved. Now I break it. Welcome to my pain.”</blockquote><cite>Roderick / Wrath</cite></button>
         <button class="quote-card" data-article="olokun"><blockquote>“My pain. Not everyone’s.”</blockquote><cite>Olokun</cite></button>
         <button class="quote-card" data-article="olokun"><blockquote>“I told you no pana. When a man says no, is no. Accept my rejection.”</blockquote><cite>Olokun</cite></button>
+        <button class="quote-card" data-article="olokun"><blockquote>“I want you guys to find the answer, I just don’t want to tell you myself.”</blockquote><cite>Olokun</cite></button>
         <button class="quote-card" data-article="papirak-paloma"><blockquote>“Immolation. Atonement.”</blockquote><cite>Papirak</cite></button>
       </div>
       <h2 id="protection-and-responsibility">Protection and responsibility</h2>
@@ -123,6 +121,7 @@ const articles = [
         <button class="quote-card" data-article="olokun"><blockquote>“If we could have saved them all, we would! We should have!”</blockquote><cite>Olokun</cite></button>
         <button class="quote-card" data-article="olokun"><blockquote>“We kill and we die to protect this realm, but we, over everything else, protect!”</blockquote><cite>Olokun</cite></button>
         <button class="quote-card" data-article="olokun"><blockquote>“What is it that you really want?”</blockquote><cite>Olokun</cite></button>
+        <button class="quote-card" data-article="olokun"><blockquote>“There is no glory in pointless death. We must rest.”</blockquote><cite>Olokun</cite></button>
         <button class="quote-card" data-article="gartina"><blockquote>“You’ve got to have a code.”</blockquote><cite>Gartina</cite></button>
         <button class="quote-card" data-article="sildithas"><blockquote>“Danger is where I best belong. Standing in front, thwarting its progress.”</blockquote><cite>Sildithas</cite></button>
         <button class="quote-card" data-article="gael"><blockquote>“Gael is free of Wrath’s taint. What was lost can begin to grow anew.”</blockquote><cite>Gartina</cite></button>
@@ -163,6 +162,7 @@ const articles = [
   {
     id: "fein-uaill", title: "Fein Uaill", category: "Places", type: "Major region",
     image: "assets/archive/fein-uaill.jpeg", imageAlt: "Annotated map of Fein Uaill", imageCaption: "Fein Uaill — regional map preserved in the archive.",
+    mapId: "fein-uaill", mapLinkLabel: "Explore the interactive Fein Uaill map",
     dek: "The wider Zarathian region: cities, estates, sacred sites, walls, libraries, and memorial landscapes gathered around a mortal claim to greatness.",
     tags: ["Fein Uaill", "Zarathis", "Ciaránach", "Locations"],
     facts: { Type: "Major region", "Developed center": "Zarathis", "Sacred city": "Ciaránach", "Named sites": "15 recovered sublocations" },
@@ -178,6 +178,7 @@ const articles = [
   {
     id: "gael", title: "Gael", category: "Places", type: "Major region",
     image: "assets/archive/gael.jpeg", imageAlt: "Annotated map of Gael", imageCaption: "Gael — regional map preserved in the archive.",
+    mapId: "gael", mapLinkLabel: "Explore the interactive Gael map",
     dek: "A harsh, emptied landscape beginning to recover after liberation from Wrath, with Hope as a small but material beachhead for life.",
     tags: ["Gael", "Hope", "Wrath", "Locations"],
     facts: { Guardian: "Akarian", Recovery: "Underway by February 2025", "Living centers": "Hope · Stake", "Named sites": "19 recovered sublocations" },
@@ -198,6 +199,90 @@ const articles = [
       <p>Thorn’s history preserves an unresolved causal chain: she died during a Gael husk hunt, her team left her body, a cult later attempted to use her in a shard-destruction ritual, and she was alive in Prima by September 2026. The archive does not yet establish how she returned or how the ritual ended.</p>
       <h2 id="trials-and-ruins">Trials, ruins, and testimony</h2>
       <p>Sildithas died in the Plains of Trial and was resurrected hours later, remembering that the place “took my measure, and I failed.” Mage’s Ruin is where the Red Lady, Endora, first appears in the recovered record; the scene does not establish her as hostile. The Coast, Library of Nuru, Sanctum of the Wise, Shadow Angel Forest, Crustacean Cove, Cathedral, Road, and other named sites expand Gael beyond its principal map labels.</p>`
+  },
+  {
+    id: "the-void", title: "The Void", category: "Places", type: "Interregional and cosmological location",
+    image: "assets/archive/world-map.jpeg", imageAlt: "World map of Fenumion showing separated lands around the Void", imageCaption: "The Void separates Fenumion’s surviving lands and makes the world’s shattered geography materially consequential.",
+    mapId: "world", mapLinkLabel: "Explore the interactive Fenumion world map",
+    dek: "The dangerous medium between Fenumion’s shattered lands: barrier, predator-space, knowledge boundary, moral problem, and changing measure of inter-island connection.",
+    tags: ["The Void", "Travel", "Death’s dragons", "Interregional history", "Whose sacrifice?"],
+    facts: { Type: "Interregional / cosmological location", Status: "Active and incompletely understood", "Early danger": "Death-associated dragons and other monstrosities", "Known passage": "Ships, specialized creatures, magic, and limited transport networks", Confidence: "High for observed travel; mixed for metaphysics" },
+    sources: ["The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits", "Gael expedition and Nienna testimony — June 2024", "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"],
+    body: `
+      <p>The Void is not empty distance. It is the dangerous interregional medium that separates Fenumion’s shattered lands, makes travel consequential, and contains or attracts beings capable of preying on those who cross it. Its history is measured not only by what inhabits it, but by how people learn to cross, communicate across, exploit, and sometimes bypass it.</p>
+      <div class="callout gold"><p><strong>The archival boundary:</strong> Death is strongly associated with early Void danger, but the surviving evidence does not establish that Death created, owns, or governs the Void—or that every creature within it serves him.</p></div>
+      <h2 id="void-expedition">By 12 June 2024 · the route to Gael</h2>
+      <p>Nienna’s expedition reached Gael through a causal chain rather than an abstract transition: she acquired a ship and freed or gathered a crew; the travelers encountered an island-scale moving turtle; they discovered a seed of the Great Tree; they learned that dragons associated with Death haunted the Void; and only then did they reach Gael and Titan’s Watch.</p>
+      <p>Nienna believed that attempting the voyage alone would have ended with her death. The crossing therefore made shattered geography lived experience: exploration succeeded because people accepted danger together.</p>
+      <div class="quote">I would have come alone you know. And I would have met my end. Alone, in the void, cold and alone.<cite>Nienna</cite></div>
+      <h2 id="void-dragons">Death’s dragons</h2>
+      <p>Gartina remembers extraordinarily powerful dragons of Death haunting the Void and suspects stronger examples may exist. Their presence is established; their origin, ecology, hierarchy, distribution, and relationship to other Void predators are not. The record also does not establish that every Void monstrosity is one of these dragons.</p>
+      <h2 id="void-soul-passage">13 June 2024 · the soul-fed passage</h2>
+      <p>Pressed about previous travel, Nienna disclosed one safer method: dangerous inhabitants or minions were fed unwilling souls while travelers passed. She said dozens might be consumed and regarded the practice as horrific.</p>
+      <div class="quote">Yes and... unwilling souls. It was... awful.<cite>Nienna</cite></div>
+      <p>This is evidence of a historical practice known to Nienna—not a natural law. The archive does not know who institutionalized it, which beings consumed the souls, whether they were the same dragons, or how widely the method was used. It cannot be generalized into a claim that all Void travel demands sacrifice.</p>
+      <h2 id="void-knowledge">A boundary between kinds of knowledge</h2>
+      <p>Regional isolation distributes knowledge unevenly. Ephraith could speak of the arcane and knowledge of the Void while dismissing Death as a fairy tale. In October 2025, Míriel of the Emerald Veil said her people had developed their shores without ever traveling the Void. Political, magical, or cultural sophistication on one island does not guarantee interregional experience.</p>
+      <h2 id="void-exploration">2025 · from barrier to exploration space</h2>
+      <p>Lady Aria later said her group had deliberately explored the Void and failed to find what they sought. The disputed target appears connected to an artifact and ancient temporal laws, but the record does not establish that Aria recovered it. Her testimony still marks a historical shift: the Void had become a place people investigated, not merely survived while crossing.</p>
+      <p>Aria also claimed that Void monstrosities are known to feed on power. That statement remains character testimony, but it creates a consequential possibility: the strongest travelers may also be the most noticeable.</p>
+      <h2 id="void-ships">Ships, beasts, and uneven traditions</h2>
+      <p>On 26 October 2025, Magnus asked whether a Void beast would still be necessary if ships capable of sailing the Void could be built. The question confirms active engineering and transport concerns without resolving what a Void beast is, how one is used, or which cultures possess reliable routes.</p>
+      <h2 id="void-connection">Communication and safer passage</h2>
+      <p>By February 2025, Scribonia could communicate with Gartina across the Void even while physical passage remained dangerous. By September 2026, Thorn described a friend able to transport known people safely to Gael from any island. The mechanism remains unknown, and access appears relational rather than universal.</p>
+      <p>The historical progression is therefore <strong>dangerous expeditionary crossing → specialized, magical, or social routes → limited bypass of historic travel danger</strong>. The Void has not been solved. Its isolating force has become less absolute for some people.</p>
+      <h2 id="void-functions">What the Void does to history</h2>
+      <ol>
+        <li><strong>Barrier:</strong> it makes the separated islands materially consequential.</li>
+        <li><strong>Predator-space:</strong> travelers encounter dragons and other power-feeding monstrosities.</li>
+        <li><strong>Moral test:</strong> safer travel may transfer danger onto unwilling people.</li>
+        <li><strong>Knowledge boundary:</strong> regions develop different evidence and travel traditions.</li>
+        <li><strong>Measure of connectivity:</strong> new communication and transport reveal how relationships can alter geography without erasing it.</li>
+      </ol>
+      <h2 id="void-open-record">The open record</h2>
+      <p>The Void’s relationship to the original Shattering, Death, Void beasts, the Shadow Roads, island boundaries, and power-feeding predation remains unresolved. The archive also lacks the complete route of Nienna’s expedition, the builders of soul-fed passage, and a full account of what changed between 2024 travel and safer 2026 transport.</p>`
+  },
+  {
+    id: "voraketh", title: "Voraketh", category: "Places", type: "Isolated island and active mystery",
+    dek: "A hostile island where the Maw, a self-maintained Delerium Chain, suppressed power, divine traces, and missing history force action without reliable answers.",
+    tags: ["Voraketh", "The Maw", "Delerium Chain", "Talan", "Physisia", "Unresolved"],
+    facts: { Type: "Island / region", Status: "Active mystery and ongoing exploration", Authority: "Cultivation’s regional material", "Known sites": "The Maw · Delerium Chain · hostile wastes", Confidence: "High for observed conditions; incomplete for origins and motives" },
+    sources: ["Voraketh_Location_Profile_and_History.md — consolidated location history, knowledge states, people, and evidence limits", "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, and Pappy around the Chain and Maw", "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers"],
+    body: `
+      <p>Voraketh is an isolated, hostile island whose recovered history is dominated by the Maw, a massive Delerium Chain, dangerous constructs, magical suppression, and evidence of a contained or imprisoned figure whose identity and moral status remain unresolved. Its deeper answers belong to regional material not known to the investigating characters—or to the players behind them.</p>
+      <div class="callout gold"><p><strong>The governing rule:</strong> investigation is not revelation. Ithilrûnë’s theories remain theories, Sildithas’s interpretations remain interpretations, and a recovered name is not a solved identity.</p></div>
+      <h2 id="voraketh-earliest">21 September 2025 · the earliest recovered Maw knowledge</h2>
+      <p>Sildithas reported secondhand information about “a strange anomaly” called the Maw. People were said to have emerged from its location long ago; it might lead to another island; it was now growing and consuming; and its noise attracted beasts. When asked what it did, he answered only: “Consume, from what I gather.”</p>
+      <p>The knowledge state matters. The expedition began with behavior and local testimony, not cosmological explanation.</p>
+      <h2 id="voraketh-misrat">Misrat and the Destroyer</h2>
+      <p>Sildithas identified Misrat as a source for the claim that the Maw could summon something called <strong>the Destroyer</strong>. The chain of evidence is local testimony → possible summoning → unknown identity and mechanism. Nothing yet proves that the Destroyer is the figure in the Maw, the watching presence, Derya Thorne, or even a single stable entity.</p>
+      <h2 id="voraketh-environment">A dangerous environmental system</h2>
+      <p>The Maw affects survival before anyone understands its purpose. Its noise attracts beasts, and local people reportedly use that behavior when gathering food. Voraketh is not a place where nobody knows anything: practical knowledge exists alongside missing history.</p>
+      <p>The island’s recovered environmental identity includes hostile waste, difficult travel, sparse information, magical suppression, powerful constructs, Delerium infrastructure, anomalous physical pull, and magic consumption. The Maw is central, but it is not the whole island.</p>
+      <h2 id="voraketh-maw">September 2026 · direct encounter with the Maw</h2>
+      <p>Ithilrûnë spent much of the encounter resisting the Maw’s pull and believed it could tear her apart. Magic failed as a source of distance or mastery because the phenomenon consumed it.</p>
+      <div class="quote">It just eats my magic like it was a simple snack.<cite>Ithilrûnë</cite></div>
+      <div class="quote">It is an artifact of outrageous power. Or a prison of stupendous security. I just wish I knew.<cite>Ithilrûnë</cite></div>
+      <p>The pull, magical consumption, dangerous proximity, failed communication, and a figure within or associated with the Maw are observed. “Artifact,” “prison,” “victim,” “enemy,” and “rescue” remain competing interpretations.</p>
+      <h2 id="voraketh-chain">The Delerium Chain</h2>
+      <p>A massive Chain made from or strongly associated with Delerium suppresses powerful visitors. Ithilrûnë and Coralyn are substantially diminished. Someone previously broke or damaged the Chain; it was repaired; and dangerous constructs defend or restore it. A breach may therefore become an ongoing contest against a system that actively preserves itself.</p>
+      <div class="quote">I know someone broke it at some point, but it was repaired. We would also have to fight to keep it from being repaired.<cite>Ithilrûnë</cite></div>
+      <p>The system’s persistence proves that something maintains or values its function. It does not reveal who, why, when, what would happen if the Chain failed, or whether breaking it would be liberation, catastrophe, or both.</p>
+      <h2 id="voraketh-divine-traces">Talan, Physisia, and divine traces</h2>
+      <p>The evidence caused the expedition to associate Talan with the containment problem, and Sildithas asked whether it was wise to free something destructive enough to cause a god fear. The question preserves caution without proving that Talan built the Maw, forged the Chain, ordered the imprisonment, or understood the prisoner correctly.</p>
+      <p>Sildithas also communed with Physisia in the island’s tree context, then realized he had not asked what might lie at the Maw’s heart. The missed question remains missed. Divine contact does not retroactively supply knowledge.</p>
+      <h2 id="voraketh-figures">Derya Thorne and the two figures</h2>
+      <p>The name <strong>Derya Thorne</strong> has been recovered, but the archive cannot yet identify the person or connect the name reliably to the prisoner, watcher, Destroyer, a god, a mortal, a victim, a villain, or either structure’s creator. It is a clue, not a biography.</p>
+      <p>Current evidence also distinguishes a figure appearing trapped within the Maw from another presence that may be watching. They must not be silently merged.</p>
+      <h2 id="voraketh-expedition">Power redistributed by suppression</h2>
+      <p>The Chain changes what the expedition can contribute. Coralyn’s magical strengths are reduced. Pappy’s physical resilience becomes more valuable because a front-line defender can buy time for suppressed casters. Ithilrûnë considers Scribonia’s research, Draygar’s force, additional Vanguard support, ancient null-magic armor, and direct extraction. She calls the armor plan reckless; the Codex preserves it as an attempt to recover agency, not a recommended solution.</p>
+      <p>Voraketh also removes the party’s ordinary information infrastructure. There is no useful library, archive, scroll collection, or informed population capable of simply explaining the system. Evidence must be reconstructed from physical traces, local testimony, divine contact, failed experiments, observed behavior, and names without explanations.</p>
+      <h2 id="voraketh-feast">A feast beside unresolved horror</h2>
+      <p>Unable to solve the Maw, undermanned, suppressed, and watching Ithilrûnë fray, Sildithas proposed a feast. Food would not fix the Chain. The choice preserved fellowship, joy, beauty, respite, and identity while the threat remained.</p>
+      <div class="quote">That is not my form of wisdom. But my form of wisdom hasn’t gotten us anywhere, maybe we need less cunning and more cooking. I agree Sildithas and I....will follow your lead.<cite>Ithilrûnë</cite></div>
+      <div class="quote">Keep what is most truly you from flickering out.<cite>Sildithas</cite></div>
+      <h2 id="voraketh-open-record">The open record</h2>
+      <p>Voraketh’s first discovery, routes of access, inhabitants, settlements, ruins, wider landscape, relationship to the Shadow Roads, the Maw’s origin and growth, the Chain’s builders and repair resources, the Destroyer, Derya Thorne, the trapped and watching figures, Talan’s actual role, Physisia’s knowledge, and the consequences of breaking or preserving the system all remain open. The archive will not choose among those answers before the world does.</p>`
   },
   {
     id: "eovar-harbor", title: "Eovar Harbor", category: "Places", type: "Harbor settlement",
@@ -394,7 +479,7 @@ const articles = [
       <p>Elenia’s increasing power, Magnus’s pursuit of truth and leverage, Gartina’s stewardship, and the Vanguard’s survival work all move mortals into decisions once reserved for divine beings. Elenia’s central question is not whether she becomes powerful, but whether she can become a caretaker without becoming an owner. Magnus demonstrates that knowledge without stewardship can violate agency as surely as force.</p>
       <p>Babel-Ashur shows the cosmic war continuing in an exhausted region whose Shard resists familiar categories. Its defenders inherit obligations created by ancient powers without receiving the power or certainty those obligations seem to demand.</p>
       <h2 id="cosmos-maw">The Chain and Maw</h2>
-      <p>In September 2026, Ithilrûnë, Sildithas, Coralyn, Pappy, and others confront an isolated land where a Delerium Chain suppresses power and dangerous constructs defend or repair it. The Maw consumes magic and exerts tremendous pull. One figure appears trapped within; another may be watching. The name Derya Thorne has been recovered, but identities and allegiances remain unknown.</p>
+      <p>In September 2026, Ithilrûnë, Sildithas, Coralyn, Pappy, and others confront <a href="#voraketh">Voraketh</a>, an isolated land where a Delerium Chain suppresses power and dangerous constructs defend or repair it. The Maw consumes magic and exerts tremendous pull. One figure appears trapped within; another may be watching. The name Derya Thorne has been recovered, but identities and allegiances remain unknown.</p>
       <p>The evidence places Talan, Delerium, imprisonment, and divine fear inside the same problem without explaining their relationship. Ithilrûnë’s competing theories remain theories. Sildithas answers the absence of sufficient knowledge by returning to an oath of mercy, flourishing, joy, beauty, courage, and hope—and proposing a feast beside the unresolved horror.</p>
       <h2 id="cosmos-spine">The connective spine</h2>
       <p><strong>Ada creates free persons and caretakers → caretakers receive power without ownership → divine conflict corrupts the Sap → Delerium damages reality and enables divine death → Death gains access → the gods complete the Shattering as a firebreak → mortals inherit fallible authorities → Death argues for final surrender → Hope preserves possibility → mortals gain enough power to face the gods’ original test.</strong></p>
@@ -606,6 +691,7 @@ const articles = [
   {
     id: "prima-pristinia", title: "Prima", category: "Places", type: "Island and parent location",
     image: "assets/archive/pristinia.webp", imageAlt: "Illustrated landscape and settlement of Pristinia", imageCaption: "Pristinia — original image preserved in the archive.",
+    mapId: "pristinia", mapLinkLabel: "Explore the interactive Prima and Pristinia map",
     dek: "A hidden island where the Gate, The Before, Pristinia, Delerium, and Papirak’s sacrifice form one continuous history.",
     tags: ["Prima", "Locations", "The Gate", "The Before"],
     facts: { Type: "Island / major region", Settlement: "Pristinia", Sublocations: "The Gate · The Before", "Civic memory": "The Common Man → Pilgrim’s Hearth", "Ancient wound": "A Delerium vein beneath The Before" },
@@ -622,6 +708,7 @@ const articles = [
   {
     id: "pristinia", title: "Pristinia", category: "Places", type: "Prima sublocation · settlement",
     image: "assets/archive/pristinia.webp", imageAlt: "Illustrated landscape and settlement of Pristinia", imageCaption: "Pristinia — original image preserved in the archive.",
+    mapId: "pristinia", mapLinkLabel: "Explore the interactive Pristinia map",
     dek: "Prima’s growing settlement, built through walls, food, farms, taverns, promises, and the ordinary labor that makes cosmic survival worth having.",
     tags: ["Prima", "Pristinia", "Settlement", "Community"],
     facts: { Parent: "Prima", Type: "Settlement", Pressure: "Population, winter, food supply", Defenses: "Player-built walls" },
@@ -985,18 +1072,62 @@ const articles = [
       </ul>`
   },
   {
-    id: "olokun", title: "Olokun", category: "People", type: "Adventurer; moral center",
-    dek: "Olo’s relationships accumulate instead of resetting. That becomes both his greatest strength and his most dangerous vulnerability.",
-    tags: ["Agency", "Dignity", "Community", "Aria"],
-    facts: { "Known as": "Olokun; Olo", "Core value": "Agency and dignity", Strength: "Relational memory", Risk: "Attachment becoming fear and control" },
+    id: "olokun", title: "Olokun", category: "People", type: "Adventurer; protector; moral center",
+    dek: "A social, deeply attached protector forced to discover what love is allowed to do—and whether care can remain care when fear wants control.",
+    tags: ["Olokun", "Agency", "Protection", "Rahu", "Aria", "Arjahn", "Resurrection"],
+    facts: { "Known as": "Olokun; Olo; ‘Optimistic Olokun’", "Core principle": "Protection without ownership", Belonging: "Rahu and chosen community", Strength: "Relationship memory", "Defining test": "Care versus control", Status: "Resurrected; responsibility continues" },
+    sources: ["Olokun_Ultimate_Character_History_and_Codex_Profile.md — longitudinal character history, dated scenes, quotations, cautions, and retrieval anchors", "CHARACTER_BIBLE.md — character synthesis and relationships", "MASTER_TIMELINE.md — dated event spine", "Fenumion_Codex_Words_the_World_Remembers.md — verified memorable lines"],
     body: `
-      <p>Olokun experiences the world through people. Social orientation becomes attachment; attachment accumulates memory; memory becomes responsibility. He treats expertise without hierarchy and understands strength as compatible with feelings, injury, forgiveness, and the need to be acknowledged.</p>
-      <h2 id="agency">Dignity and agency</h2>
-      <p>Being distrusted to exercise his own judgment wounds him more deeply than a simple insult. His later history makes this central: capability does not confer ownership, and caring for someone does not entitle a protector to spend that person’s choices.</p>
+      <p>Olokun’s philosophy begins as sociability, not doctrine. He jokes, sails, competes, arm-wrestles, encourages strangers, and becomes part of communities quickly. People become important to him; shared history makes them harder to abandon; responsibility follows. His development runs from <strong>belonging → attachment → conflicting loyalties → principle → triage and loss → death → return</strong>.</p>
+      <div class="callout gold"><p><strong>Core proposition:</strong> differences in strength, knowledge, authority, and capability are real. Ownership does not follow from them. One may volunteer oneself; love or power does not automatically grant the right to spend another person.</p></div>
+      <h2 id="optimistic-olokun">2024 · the person before the principle</h2>
+      <p>A 10 July chronicle calls him <strong>“Optimistic Olokun”</strong>: cheerful, courageous, kind, and already beloved around Pristinia, with victories in Oiche Arena and an arm-wrestling contest. On 23 June, however, his engagement with a creature in a burned forest accidentally freed a minion associated with Death. Early Olo acts inside uncertainty; sometimes that helps, and sometimes it makes the world worse.</p>
+      <p>His first explicit boundary arrives in an ordinary dispute on 12 July, when Grokthar keeps pressing after a rejected challenge.</p>
+      <div class="quote">I told you no pana. When a man says no, is no. Accept my rejection.<cite>Olokun</cite></div>
+      <p>The scene does not make him a fully formed philosopher. It plants the question that later scales upward: what does strength, love, fear, knowledge, or authority permit one person to do to another?</p>
+      <h2 id="gate-and-arjahn">30 July 2024 · fear, the Gate, and Arjahn</h2>
+      <p>Olo is frightened by the Gate’s sea or pool aspect, yet he steadies Arjahn by asking him to think of the people they can help and the family they can honor. His courage is behavioral, not an absence of fear. That early care later becomes causal history: after Olo gives Arjahn the Scepter of Faith, Arjahn will use that same gift to return him from death.</p>
+      <h2 id="rahu">September 2024 · belonging without surrendered conscience</h2>
+      <p>Becoming Rahu gives Olo power, knowledge, secrecy, obligations, and relationships with Ephraith, Dasa, and others. Only weeks later, a Delerium secret pits his oath against his friends. He wants them to find the answer but refuses simply to hand it over.</p>
+      <div class="quote">I want you guys to find the answer, I just don’t want to tell you myself.<cite>Olokun</cite></div>
+      <p>He neither declares the oath meaningless nor treats friendship as irrelevant. His discomfort with the Dasa life-force system makes the same point: he can belong to a people without surrendering judgment to them. Papirak becomes “sweet gramps,” an example of Olo’s habit of accumulating family through repeated presence rather than blood.</p>
+      <h2 id="warden">30 December 2024 · the Warden</h2>
+      <p>The Warden pursues Olo relentlessly. His attacks initially achieve little, though a strike against its blue clock-heart interrupts it; allies heal, hasten, reposition, and rescue him. His refusal to let Death take him again preserves an essential truth: survival matters to him. Later self-risk is not indifference to living.</p>
+      <h2 id="aria">2025 · Aria becomes a person without becoming safe</h2>
+      <p>Olo’s history with Aria moves through <strong>hostility → repeated contact → personalization → understanding → attachment → continued moral disagreement</strong>. Scribonia’s imprisonment in a gemstone keeps her harm concrete. The bath, teasing, attraction, a kiss, dance, and vulnerability let Olo see the frightened “small child” beneath Pride without erasing the ruler capable of coercion and cruelty.</p>
+      <p>On 10 October, Aria invites him to help raise humanity high enough to reshape the world. Olo refuses to spend Zarathians in a celestial war. Their difference is not whether people deserve safety; it is who may authorize the cost.</p>
+      <h2 id="world-is-good">27 September 2025 · a mortal answer to divine failure</h2>
+      <p>After hearing of divine war and a damaged creation, Olo refuses the conclusion that failed caretakers make the world worthless.</p>
+      <div class="quote">World is good. The people that live it, they make it good, not only gods.<cite>Olokun</cite></div>
+      <p>This is not naïveté. He has already seen dead Gael and answers that friends remain there healing it. Mortals participate in what makes creation worth continuing even when gods conceal history, make mistakes, and leave others living with the consequences.</p>
+      <h2 id="leadership">5 October 2025 · leadership as stopping</h2>
+      <p>When Arandiel wants to continue through exhaustion and loss, Olo argues that Zarathis will lose important leaders if they push on. He says there is no glory in pointless death, calls for rest, and offers to keep watch himself. His strongest leadership often restrains escalation: protection before glory.</p>
+      <h2 id="hidden-history">17 October 2025 · Aionia and the world map</h2>
+      <p>Olo tells Eugene that time travel with Aionia let the group obtain a world map and overhear younger Cala and Nuru discussing the Gate and Papirak’s Wish. He remembers the gods acknowledging fault and insisting adventurers must never know. Direct evidence of divine concealment deepens his skepticism without making Aria’s war automatically right. The group uses access to history to gain knowledge, not to treat past lives as editable material.</p>
+      <h2 id="whose-sacrifice">The War Council · whose sacrifice?</h2>
+      <p>Aria says pain must sometimes be endured for victory. Olo answers with the compressed form of his mature ethic:</p>
+      <div class="quote">My pain. Not everyone’s.<cite>Olokun</cite></div>
+      <p>Both want safety and both will fight. Aria increasingly accepts suffering imposed on others for the future she considers necessary. Olo insists that willingness to suffer does not confer the right to volunteer everyone else.</p>
+      <h2 id="aria-death">6 November 2025 · unfinished grief and the protector’s manifesto</h2>
+      <p>Talan kills Aria unexpectedly, leaving no final reconciliation and no clean proof that either of them won the argument. When Death appears for her body, Olo rebukes allies for treating wounded enemies as disposable, insists that the purpose of killing and dying is protection, and asks Death what he actually wants.</p>
+      <p>His speech reveals both virtue and danger. He continues seeing people inside enemies and monsters. Yet “If we could have saved them all, we would! We should have!” turns every unsaved person into a possible personal failure. Refusing to abandon anyone can slide into believing he must prevent every loss.</p>
+      <h2 id="death-and-return">January 2026 · choice, death, and return</h2>
+      <p>During the Abyss or Kurayami confrontation, Olo must choose between Wren and Aravil. He chooses Wren; Aravil is taken as a trophy. The archive does not declare the choice correct. It is triage, and it destroys the fantasy that enough care can always save everyone.</p>
+      <p>The Abyss commands “Olokun. Die.” Olo dies. Arjahn then resurrects him with the Scepter of Faith that Olo had once given him. The causal chain matters: <strong>gift → relationship → retained object → death → another person’s choice → return</strong>. Resurrection does not erase Aravil, the decision, or the terror. It proves that Olo’s own survival can depend on having empowered someone else.</p>
+      <h2 id="after-return">March–May 2026 · fear survives resurrection</h2>
+      <p>In a March retreat involving worms, Olo supports the right to withdraw but lashes out at Arjahn from fear, then continues mapping and practical work. He returns with resolve, not purification. By May, Babel-Ashur confronts him with exhausted defenders, a losing Vanguard, fallen friends, and the question of how many people anyone can remain responsible for.</p>
+      <h2 id="mature-philosophy">The mature distinctions</h2>
+      <ul>
+        <li><strong>Power is not permission.</strong> Capability does not settle moral authority.</li>
+        <li><strong>Love is not ownership.</strong> Wrath, Aria, and Death all show that sincere attachment can coexist with terrible control.</li>
+        <li><strong>Understanding is not obedience.</strong> A wound can deserve understanding without gaining the right to command.</li>
+        <li><strong>Belonging is not surrendered conscience.</strong> Rahu, friends, Aria, Pristinia, and the wider world create obligations that no single loyalty erases.</li>
+        <li><strong>Strength exists to protect.</strong> Violence is instrumental, never the measure of victory by itself.</li>
+      </ul>
       <h2 id="flaw">Where the virtue breaks</h2>
-      <p>Losses do not reset either. Every companion taken or nearly lost can turn memory into fear. In that state, attachment risks becoming control—the very violation Olo normally resists.</p>
-      <h2 id="legacy">The social footprint</h2>
-      <p>His death is understood through the people left behind: regret, impossible rescue attempts, questions about whether preparation mattered, and the refusal to treat a finished life as a failed arc. Olo’s meaning is visible in the decisions other people make when he is no longer there to explain himself.</p>`
+      <p>Olo can move from “I cannot abandon people” to “I am responsible for preventing their loss,” and from there to “I may need to stop them from making dangerous choices.” His continuing test is whether he can protect people without deciding that loving them gives him authority over choices that remain theirs.</p>
+      <h2 id="open-record">The open record</h2>
+      <p>Important gaps remain: his exact arrival and earliest sailing, Rahu initiation ritual, relationships with Ephraith, Dasa, Sophina, and Anky, the original transfer of the Scepter, the full Aria chronology, the Void expedition, precise world-map alteration mechanics, the complete Wren–Aravil choice, and his later Babel-Ashur history. The archive will not turn those gaps into certainty.</p>`
   },
   {
     id: "jiangshi", title: "Jiangshi", category: "People", type: "Adventurer; returned dead",
@@ -1176,7 +1307,7 @@ const articles = [
       <p>The tear in reality is almost designed to test her. Where others see an unknown danger, Ithilrûnë sees offered knowledge: an explanation of the world, perhaps new lands, and therefore new choices. She votes to enter.</p>
       <p>Her flaw appears when she calls refusal cowardice. A personal compulsion to know becomes a judgment about what everyone else must risk. Ithilrûnë is strongest when understanding enlarges another person’s choices and most dangerous when it convinces her that she should decide which choices are legitimate.</p>
       <h2 id="ithilrune-maw">The Chain and Maw crisis</h2>
-      <p>By the September 2026 Chain/Maw crisis, Ithilrûnë is unkempt, listless, distracted, and irritable. The isolated land has attacked the foundation of her normal competence. A Delerium chain suppresses her magical strength and dangerous constructs defend or repair it; the Maw consumes magic with frightening ease. The force within may be an artifact, a prison, or both.</p>
+      <p>By the September 2026 Chain/Maw crisis, Ithilrûnë is unkempt, listless, distracted, and irritable. <a href="#voraketh">Voraketh</a> has attacked the foundation of her normal competence. A Delerium chain suppresses her magical strength and dangerous constructs defend or repair it; the Maw consumes magic with frightening ease. The force within may be an artifact, a prison, or both.</p>
       <p>One figure appears trapped inside and another may be watching. The name <strong>Derya Thorne</strong> has been recovered, but Ithilrûnë cannot connect it reliably to an identity, allegiance, or history. She cannot determine whether the prisoner is victim, enemy, god, eldritch danger, or evidence of a divine mistake. Each possibility changes the morality of intervention, and the evidence cannot yet distinguish among them.</p>
       <div class="callout gold"><p><strong>The broken sequence:</strong> Ithilrûnë normally moves from observation to understanding, manipulation, and preserved choice. The Maw stops the sequence at understanding.</p></div>
       <h2 id="ithilrune-ignorance">“I know fucking nothing. I hate it.”</h2>
@@ -1192,7 +1323,7 @@ const articles = [
       <h2 id="ithilrune-trajectory">A more difficult form of wisdom</h2>
       <p>Her current movement is <strong>competence through knowledge → radical uncertainty → escalating attempts to recover agency → admission of ignorance → willingness to borrow another person’s wisdom</strong>. The arc is not “knowledge is bad.” It asks whether Ithilrûnë can keep investigating without making decisive danger preferable to responsible uncertainty.</p>
       <h2 id="ithilrune-unresolved">What remains unresolved</h2>
-      <p>The archive dates the crisis to September 2026 but does not yet know the exact day or name of the isolated land, what the Maw is, who is trapped inside, who may be watching, who Derya Thorne is, why Delerium forms the Chain, what roles Talan and Physisia actually play, whether the Chain can be altered safely, or whether the proposed feast takes place.</p>`
+      <p>The archive identifies the island as Voraketh and dates the crisis to September 2026, but it does not yet know the exact day, what the Maw is, who is trapped inside, who may be watching, who Derya Thorne is, why Delerium forms the Chain, what roles Talan and Physisia actually play, whether the Chain can be altered safely, or whether the proposed feast takes place.</p>`
   },
   {
     id: "sildithas", title: "Sildithas", category: "People", type: "Oathbound defender",
@@ -1212,7 +1343,7 @@ const articles = [
       <p>At the Shadow Roads, Ithilrûnë enters for knowledge. Sildithas enters because danger threatens others and he believes his place is before it. Coralyn says she does not think they should go. He does not shame or command her; he explains his own obligation and refuses to turn it into hers.</p>
       <p>Duty governs Sildithas without automatically authorizing him to govern somebody else. His courage is most defensible when it remains a demand he places on himself.</p>
       <h2 id="sildithas-maw">Listening at the Maw</h2>
-      <p>The September 2026 Chain/Maw crisis resists normal power and explanation. The Delerium Chain suppresses magic and dangerous constructs defend or repair it. The Maw consumes magic. A figure may be imprisoned inside, another may be watching, and intervention may be rescue or catastrophe.</p>
+      <p>The September 2026 Chain/Maw crisis on <a href="#voraketh">Voraketh</a> resists normal power and explanation. The Delerium Chain suppresses magic and dangerous constructs defend or repair it. The Maw consumes magic. A figure may be imprisoned inside, another may be watching, and intervention may be rescue or catastrophe.</p>
       <p>Sildithas follows advice attributed to Murr: <strong>listen first, act second</strong>. He asks how the Maw’s pull compares with the Shadow Roads, whether anyone attempted communication, whether the Chain can be renewed, whether its constructs possess finite resources, and whether one concentrated breach would be safer than repeated attacks. Patience is not passivity; it is how he tries to make action responsible.</p>
       <h2 id="sildithas-theology">When divine hierarchy stops being neat</h2>
       <p>Ithilrûnë admits that Talan’s apparent use of Delerium has shaken her understanding. Sildithas responds by exposing his own uncertainty. Since arriving through the Gate, the gods have seemed surprisingly person-like. He cannot tell whether his theology changed because he grew or because he finally saw divine beings clearly.</p>
@@ -1231,7 +1362,7 @@ const articles = [
       <h2 id="sildithas-trajectory">Faith after certainty</h2>
       <p>His current movement is <strong>secure instrument of divine will → opaque or fallible divine caretakers → uncertainty about hierarchy → return to oath rather than certainty → moral action without complete metaphysical understanding</strong>. This is not apostasy. It may be a more mature faith, grounded in responsibility rather than the assumption that power is automatically correct.</p>
       <h2 id="sildithas-unresolved">What remains unresolved</h2>
-      <p>The archive dates the Chain/Maw crisis to September 2026 but does not identify the exact day or isolated land. It also has not established what Sildithas learned while communing with Physisia, the fuller history of Murr, whether the feast occurs, or how his ethical faith will respond if a divine caretaker directly commands something his oath appears to reject.</p>`
+      <p>The archive identifies the island as Voraketh and dates the Chain/Maw crisis to September 2026, but it does not identify the exact day. It also has not established what Sildithas learned while communing with Physisia, the fuller history of Murr, whether the feast occurs, or how his ethical faith will respond if a divine caretaker directly commands something his oath appears to reject.</p>`
   },
   {
     id: "aravil", title: "Aravil", category: "People", type: "Oathbound hunter",
@@ -1498,9 +1629,9 @@ const archiveIndex = {
     { title: "Cala calls for heroes", meta: "May 2024", sort: "2024-05", era: "2024 · The Calling", kind: "Divine summons", article: "cala", location: "Fenumion", people: "Cala; the adventurers", tags: ["heroes", "gods", "war"], summary: "The goddess frames the crisis as a need for heroes while the recruits still lack the divine order’s older responsibility for it." },
     { title: "Elenia meets Mya", meta: "Jun 2024", sort: "2024-06", era: "2024 · The Calling", kind: "Divine relationship", article: "mya", location: "Fenumion", people: "Elenia; Mya", tags: ["Hope", "light", "wonder"], summary: "Mya tells Elenia to be a child of wonder and a light where darkness is strongest; Elenia answers by literally casting Light." },
     { title: "Evidence prevents an unjust Rahu execution", meta: "1 Jun 2024", sort: "2024-06-01", era: "2024 · The Calling", kind: "Civic intervention", article: "pristinia", location: "Pristinia; Prima", people: "Ada Tricks; Rahu authorities", tags: ["evidence", "justice", "Rahu"], summary: "An innocent person facing execution is spared when evidence enters the proceeding, an early example of ordinary process resisting institutional power." },
-    { title: "Nienna’s expedition reaches Gael", meta: "By 12 Jun 2024", sort: "2024-06-11", era: "2024 · The Calling", kind: "Interregional expedition", article: "gael", location: "The Void; Gael", people: "Nienna; Gartina; Quake; the expedition", tags: ["ship", "Great Tree seed", "Void dragons"], summary: "A chain involving a freed crew, an island-sized turtle, a Great Tree seed, and Death’s dragons culminates in the first recovered arrival in Gael; earlier exact dates remain unresolved." },
+    { title: "Nienna’s expedition reaches Gael", meta: "By 12 Jun 2024", sort: "2024-06-11", era: "2024 · The Calling", kind: "Interregional expedition", article: "the-void", location: "The Void; Gael", people: "Nienna; Gartina; Quake; the expedition", tags: ["ship", "Great Tree seed", "Void dragons"], summary: "A chain involving a freed crew, an island-sized turtle, a Great Tree seed, and Death’s dragons culminates in the first recovered arrival in Gael; earlier exact dates remain unresolved." },
     { title: "Titan’s Watch reveals Death’s victory", meta: "12–13 Jun 2024", sort: "2024-06-12", era: "2024 · The Calling", kind: "Regional discovery", article: "gael", location: "Titan’s Watch; Gael", people: "Gartina; Nienna; the expedition", tags: ["Titans", "cathedral", "Death"], summary: "Ruined Titan statues, a decayed cathedral, and lifeless terrain show the adventurers what a land defeated by Death looks like." },
-    { title: "Nienna testifies to soul-fed Void passage", meta: "Known by 13 Jun 2024", sort: "2024-06-13", era: "2024 · The Calling", kind: "First-person testimony", article: "nienna", location: "The Void", people: "Nienna", tags: ["travel", "unwilling souls", "provenance"], summary: "Nienna describes one safer crossing method that feeds unwilling souls to the Void’s inhabitants; the record does not establish it as the method for all travel." },
+    { title: "Nienna testifies to soul-fed Void passage", meta: "Known by 13 Jun 2024", sort: "2024-06-13", era: "2024 · The Calling", kind: "First-person testimony", article: "the-void", location: "The Void", people: "Nienna", tags: ["travel", "unwilling souls", "provenance"], summary: "Nienna describes one safer crossing method that feeds unwilling souls to the Void’s inhabitants; the record does not establish it as the method for all travel." },
     { title: "Nienna orders a retreat when Jiangshi is lost", meta: "Jun 2024 · exact day unresolved", sort: "2024-06-20", era: "2024 · The Calling", kind: "Triage and loss", article: "nienna", location: "Gael; the Void", people: "Nienna; Jiangshi; Adelia; Bitoshi; Gartina", tags: ["retreat", "cowardice", "survival"], summary: "Adelia and Bitoshi blame Nienna for leaving Jiangshi, while Gartina argues that returning would probably have produced another unrecoverable death. The later sacrifice does not erase this earlier choice." },
     { title: "Olo accidentally frees a servant of Death", meta: "23 Jun 2024", sort: "2024-06-23", era: "2024 · The Calling", kind: "Unintended consequence", article: "olokun", location: "Burned forest", people: "Olokun; servant of Death", tags: ["curiosity", "mistake", "Death"], summary: "A conversation with a creature in a burned forest ends with Olo accidentally freeing a minion of Death, preserving an early example of curiosity creating consequences." },
     { title: "Olo helps de-escalate a tavern conflict", meta: "29 Jun 2024", sort: "2024-06-29", era: "2024 · The Calling", kind: "Social responsibility", article: "olokun", location: "Tavern", people: "Olokun; Scribonia", tags: ["de-escalation", "responsibility", "belonging"], summary: "Olo’s role around Scribonia shows social obligation developing before his later moral principles are fully articulated." },
@@ -1533,6 +1664,9 @@ const archiveIndex = {
     { title: "Three philosophies meet in a Zarathis garden", meta: "11 Aug 2025", sort: "2025-08-11", era: "2025 · Truth and authority", kind: "Philosophical encounter", article: "gartina", location: "Zarathis; Fein Uaill", people: "Gartina; Jiangshi; Tulaine", tags: ["gardening", "stewardship", "knowledge", "love"], summary: "Tulaine emphasizes attentive harmony, Gartina demands a specific code for intervention, and Jiangshi tests whether love requires conscious reciprocal choice. Their garden becomes a debate about stewardship and sacrifice." },
     { title: "Magnus and Aria discuss power and usefulness", meta: "6 Sep 2025", sort: "2025-09-06", era: "2025 · Truth and authority", kind: "Political relationship", article: "magnus", location: "Fenumion", people: "Magnus; Aria", tags: ["power", "alliance", "instrumentality"], summary: "Their exchange strengthens the recurring question of whether capability and shared enemies create trust—or merely make people useful to one another." },
     { title: "The party enters the Shadow Roads", meta: "14 Sep 2025", sort: "2025-09-14", era: "2025 · Truth and authority", kind: "Expedition", article: "coralyn", location: "Shadow Roads; the portal", people: "Ithilrûnë; Sildithas; Coralyn; Carmen; Brianna; Ghilsen; St. Anky", tags: ["portal", "dissent", "risk"], summary: "Ithilrûnë crosses for knowledge, Sildithas for duty, and Coralyn warns that they should not go. Brianna takes Ghilsen’s hand into the darkness." },
+    { title: "Sildithas relays the earliest recovered Maw knowledge", meta: "21 Sep 2025", sort: "2025-09-21", era: "2025 · Truth and authority", kind: "Local testimony", article: "voraketh", location: "Voraketh", people: "Sildithas; Misrat; Carmen; Ithilrûnë", tags: ["Maw", "Destroyer", "local knowledge", "provenance"], summary: "Secondhand testimony describes a growing anomaly that consumes, attracts beasts, may connect to another island, and may summon something called the Destroyer. Behavior is established before explanation." },
+    { title: "The Void becomes an exploration space", meta: "2025 · exact date unresolved", sort: "2025-10-01", era: "2025 · Truth and authority", kind: "Interregional exploration", article: "the-void", location: "The Void", people: "Aria / Pride; her expedition", tags: ["Void", "exploration", "artifact", "uncertainty"], summary: "Aria says her group explored the Void and failed to find what they sought. The target and any connection to an ancient temporal artifact remain unresolved." },
+    { title: "Magnus asks whether ships could replace Void beasts", meta: "26 Oct 2025", sort: "2025-10-26", era: "2025 · Truth and authority", kind: "Travel inquiry", article: "the-void", location: "Interregional discussion", people: "Magnus; Míriel of the Emerald Veil", tags: ["ships", "Void beast", "travel traditions"], summary: "Magnus asks whether a Void beast is necessary if Void-sailing ships can be built. Míriel says her people have never crossed the Void, revealing uneven travel knowledge between developed cultures." },
     { title: "Paco pays the return from the Roads", meta: "After 14 Sep 2025 · exact day unresolved", sort: "2025-09-15", era: "2025 · Truth and authority", kind: "Sacrifice", article: "carmen", location: "Shadow Roads; Prima", people: "Paco; Carmen; Sildithas; Coralyn; Ithilrûnë", tags: ["forced pact", "return", "price"], summary: "Paco sacrifices himself so Carmen can bring the others home and returns changed, forcing Carmen to confront a debt she never consented for him to pay." },
     { title: "The Gate and Papirak history is pieced together", meta: "17 Oct 2025", sort: "2025-10-17", era: "2025 · Truth and authority", kind: "Historical synthesis", article: "papirak-paloma", location: "Fenumion", people: "Olokun; Eugene; Scribonia; Papirak; Cala; Nuru", tags: ["Gate", "Wish", "map"], summary: "The time-travel account, the realm’s isolation, and Papirak’s madness are discussed together, years before the complete price of the Wish is understood." },
     { title: "Eugene receives a Delerium-channeling weapon", meta: "17 Oct 2025", sort: "2025-10-17b", era: "2025 · Truth and authority", kind: "Dangerous inheritance", article: "eugene", location: "Beside fallen Grace", people: "Eugene; Scribonia", tags: ["Delerium", "weapon", "worthiness"], summary: "A sword capable of channeling moderate Delerium without harming its wielder appears in Eugene’s cloak. He doubts his worthiness while Scribonia privately recognizes his brilliance." },
@@ -1567,10 +1701,9 @@ const archiveIndex = {
     { title: "The Delerium cave answers Vessalia’s song", meta: "20 Sep 2026", sort: "2026-09-20", era: "2026 · Consequences", kind: "Unresolved discovery", article: "cave-company", location: "Unmapped cave", people: "Vessalia; Moira Eshdin; Di’trillio; Saoirse; Pell; Djöhandrai", tags: ["violet crystals", "Delerium", "harpies", "unresolved"], summary: "The party finds a contaminated corpse, strange tracks, violet crystals that do not all produce expected Delerium feedback, and malformed harpy-like creatures. Something deeper in the cave mimics Vessalia’s song; the crystals’ nature remains unknown." },
     { title: "Nienna gives herself so Hope can live", meta: "Modern era · exact date unresolved", sort: "9990-01", era: "Undated consequences", kind: "Voluntary sacrifice", article: "nienna", location: "Fenumion", people: "Nienna; Elenia; Hope", tags: ["sacrifice", "legacy", "one last time"], summary: "Afraid and wanting to live, Nienna spends her life to create an opportunity rather than a guaranteed victory; her absence continues to cause later choices." },
     { title: "Jiangshi dies and returns", meta: "Modern era · exact dates unresolved", sort: "9990-02", era: "Undated consequences", kind: "Death and return", article: "jiangshi", location: "The Shadowlands; Fenumion", people: "Jiangshi; Adelia; Namo’o", tags: ["souls", "memorial", "return"], summary: "Seven and a half months of death do not remove Jiangshi from relationship. Her return makes the world confront the difference between a dead body and a finished person." },
-    { title: "Olokun dies", meta: "Modern era · exact date unresolved", sort: "9990-03", era: "Undated consequences", kind: "Death", article: "olokun", location: "Fenumion", people: "Olokun; Gartina; the community", tags: ["loss", "preparation", "relationship memory"], summary: "A wrong choice and exhausted resources contribute to the death of a person whose relationships had been allowed to accumulate instead of reset." },
     { title: "Adelia gives herself for Hope", meta: "Modern era · exact date unresolved", sort: "9990-04", era: "Undated consequences", kind: "Ascension", article: "adelia-hope", location: "The Tree", people: "Adelia; Hope; Nienna; Jiangshi", tags: ["Hope", "Tree", "renewal"], summary: "A life repeatedly rebuilt after loss culminates in Adelia becoming part of the Tree so Hope can continue." },
-    { title: "The Chain and Maw defeat Ithilrûnë’s working model", meta: "Sep 2026 · exact day and isolated land unresolved", sort: "2026-09-21a", era: "2026 · Consequences", kind: "Epistemological crisis", article: "ithilrune", location: "Unidentified isolated land; the Delerium Chain and Maw", people: "Ithilrûnë; Sildithas; Coralyn; Pappy", tags: ["Maw", "Delerium Chain", "Derya Thorne", "uncertainty"], summary: "A magic-consuming Maw, a Chain that suppresses power, dangerous constructs that defend or repair it, and an unidentified prisoner resist Ithilrûnë’s attempts to form a reliable model. Her explanations about Talan, Physisia, and the trapped figure remain explicitly unproven." },
-    { title: "Sildithas proposes a feast beside the Maw", meta: "Sep 2026 · exact day and isolated land unresolved", sort: "2026-09-21b", era: "2026 · Consequences", kind: "Oath and preservation", article: "sildithas", location: "Unidentified isolated land; beside the Chain and Maw", people: "Sildithas; Ithilrûnë; the island expedition", tags: ["oath", "feast", "joy", "moral uncertainty"], summary: "Unable to solve the Maw, Sildithas returns to an oath centered on mercy, flourishing, courage, and joy. He proposes a feast as a small good that preserves the people facing the unresolved horror, and Ithilrûnë agrees to follow his lead." },
+    { title: "The Chain and Maw defeat Ithilrûnë’s working model", meta: "Sep 2026 · exact day unresolved", sort: "2026-09-21a", era: "2026 · Consequences", kind: "Epistemological crisis", article: "voraketh", location: "Voraketh; the Delerium Chain and Maw", people: "Ithilrûnë; Sildithas; Coralyn; Pappy", tags: ["Maw", "Delerium Chain", "Derya Thorne", "uncertainty"], summary: "A magic-consuming Maw, a Chain that suppresses power, dangerous constructs that defend or repair it, and an unidentified prisoner resist Ithilrûnë’s attempts to form a reliable model. Her explanations about Talan, Physisia, and the trapped figure remain explicitly unproven." },
+    { title: "Sildithas proposes a feast beside the Maw", meta: "Sep 2026 · exact day unresolved", sort: "2026-09-21b", era: "2026 · Consequences", kind: "Oath and preservation", article: "sildithas", location: "Voraketh; beside the Chain and Maw", people: "Sildithas; Ithilrûnë; the island expedition", tags: ["oath", "feast", "joy", "moral uncertainty"], summary: "Unable to solve the Maw, Sildithas returns to an oath centered on mercy, flourishing, courage, and joy. He proposes a feast as a small good that preserves the people facing the unresolved horror, and Ithilrûnë agrees to follow his lead." },
     { title: "Pristinia answers hunger with a hunt", meta: "15 Dec 2024", sort: "2024-12-15a", era: "2024 · The Calling", kind: "Community consequence", article: "common-man", location: "The Common Man; Pristinia", people: "Farmer Frank; Herb; Aravil; Tobias", tags: ["food", "winter", "ecology", "civilian labor"], summary: "A tavern conversation exposes failed harvest help, an overworked farmer, and dwindling stores. A hunt forms while Herb limits it so immediate hunger does not destroy next year’s elk population." },
     { title: "Skye makes Lichen safe through music", meta: "15 Dec 2024", sort: "2024-12-15b", era: "2024 · The Calling", kind: "Belonging", article: "common-man", location: "The Common Man; Pristinia", people: "Skye; Lichen", tags: ["music", "money", "friendship", "First Forest"], summary: "Skye refuses most of a ten-gold gift worth roughly a year’s wages, learns who Lichen is, and connects a strange newcomer to the First Forest through music and conversation." }
   ],
@@ -1597,7 +1730,7 @@ const archiveIndex = {
     { title: "Minerva", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Nienna", meta: "Character record", article: "nienna", summary: "An absent presence whose sacrifice continues to act through the living." },
     { title: "Nymera", meta: "Character sighting", article: "elenia", summary: "A follower of Cala who questions why other devotees reach for violence when protection does not require it." },
-    { title: "Olokun", meta: "Character record", article: "olokun", summary: "An adventurer whose defense of chosen pain becomes a recurring moral answer." },
+    { title: "Olokun", meta: "Protector; Rahu; resurrected adventurer", article: "olokun", summary: "A deeply attached protector whose mature ethic separates care from ownership while fear keeps testing that boundary." },
     { title: "Pappy", meta: "Plainspoken protector", article: "pappy", summary: "A simple, good man whose Rift rescue exposes the boundary between character knowledge and later governance disputes." },
     { title: "Pelagia", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Quake", meta: "Character sighting", article: "roderick-wrath", summary: "Refuses Wrath’s bargain before its full danger is understood; protected by Elenia’s practiced memory of earlier loss." },
@@ -1655,12 +1788,16 @@ const archiveIndex = {
     { title: "Vysaeth", meta: "King, lich, witness", article: "vysaeth", summary: "A ruler whose testimony becomes an early lens on Roderick and Endora." }
   ],
   islands: [
-    { title: "Fenumion & the Void", region: "World", parent: "World", type: "world geography", meta: "World · geography", article: "fenumion", summary: "Inhabited lands survive as separated pockets around the enormous, branching geographic and cosmological Void.", source: "Chronicle + world map", aliases: ["The Void"], image: "assets/archive/world-map.jpeg", level: "region" },
+    { title: "Fenumion & the Void", region: "World", parent: "World", type: "world geography", meta: "World · geography", article: "fenumion", summary: "Inhabited lands survive as separated pockets around the enormous, branching geographic and cosmological Void.", source: "Chronicle + world map", aliases: ["Shattered world"], image: "assets/archive/world-map.jpeg", level: "region" },
+    { title: "The Void", region: "World", parent: "World", type: "interregional / cosmological location", meta: "World · interregional medium", article: "the-void", summary: "The dangerous space between shattered lands: barrier, predator-space, knowledge boundary, moral problem, and changing measure of connection.", source: "Consolidated location profile + scenes + testimony", aliases: ["Void"], image: "assets/archive/world-map.jpeg", level: "region" },
     { title: "Prima", region: "Prima", parent: "World", type: "major region", meta: "Prima · major region", article: "prima-pristinia", summary: "A hidden island containing Pristinia, The Gate, The Before, and an accumulated civic landscape.", source: "Scene + map", aliases: [], image: "assets/archive/pristinia.webp", level: "region" },
     { title: "Fein Uaill", region: "Fein Uaill", parent: "World", type: "major region", meta: "Fein Uaill · major region", article: "fein-uaill", summary: "The wider Zarathian region containing cities, estates, sacred sites, walls, libraries, and shores.", source: "Chronicle + map + images", aliases: ["Féin-Uaill", "Fein-Uaill"], image: "assets/archive/fein-uaill.jpeg", level: "region" },
     { title: "Gael", region: "Gael", parent: "World", type: "major region", meta: "Gael · major region", article: "gael", summary: "A harsh land liberated from Wrath whose small green center, Hope, marks the beginning of recovery.", source: "Scene + map + screenshots", aliases: [], image: "assets/archive/gael.jpeg", level: "region" },
     { title: "Eovar Harbor", region: "Eovar Harbor", parent: "World", type: "harbor settlement", meta: "Eovar Harbor · settlement", article: "eovar-harbor", summary: "A dense, defended port of roughly two thousand people, shaped by shipping and controlled water access.", source: "Chronicle + map + image", aliases: [], image: "assets/archive/eovar-harbor.jpeg", level: "region" },
     { title: "Babel-Ashur", region: "Babel-Ashur", parent: "World", type: "vast island", meta: "Babel-Ashur · major region", article: "babel-ashur", summary: "An enormous island defined by wild biomes and a vast central wound rather than one dominant city.", source: "Chronicle + map", aliases: ["Babel Ashur"], image: "assets/archive/babel-ashur.webp", level: "region" },
+    { title: "Voraketh", region: "Voraketh", parent: "World", type: "isolated island", meta: "World · isolated island", article: "voraketh", summary: "A hostile island defined by suppressed power, sparse information, a self-maintained Delerium Chain, and the unresolved Maw.", source: "Consolidated location profile + scenes", aliases: [], level: "region" },
+    { title: "The Maw", region: "Voraketh", parent: "Voraketh", type: "magic-consuming anomaly", meta: "Voraketh · anomaly", article: "voraketh", summary: "A growing anomaly that exerts deadly pull, consumes magic, and contains or is associated with an unidentified figure.", source: "Direct encounter + local testimony", aliases: ["Maw"], level: "site" },
+    { title: "The Delerium Chain", region: "Voraketh", parent: "Voraketh", type: "containment structure", meta: "Voraketh · Delerium structure", article: "voraketh", summary: "A massive suppressive Chain that has been damaged and repaired while constructs defend or maintain its function.", source: "Direct observation + character testimony", aliases: ["Delerium Chain", "The Chain"], level: "site" },
     { title: "Greyward Littoral", region: "Babel-Ashur", parent: "Babel-Ashur", type: "coastal subregion", meta: "Babel-Ashur · southern shore", article: "grayward-littoral", summary: "Babel-Ashur’s named southern shore, mapped with a landing beach, safe routes, refuge, volcanic crystal, caverns, ruins, and sulphuric swamps.", source: "User-confirmed name + annotated map", aliases: ["Grayward Littoral", "Babel-Ashur Southern Coast", "Babel-Ashur Southern Shore", "Southern Coast", "Southern Shore"], image: "assets/archive/babel-ashur-southern-coast.webp", level: "subregion" },
     { title: "Reheva", region: "Other regions", parent: "World", type: "major region", meta: "World · named region", article: "visual-archive", summary: "The world map confirms Reheva as a named land; its internal geography has not yet been recovered here.", source: "World map", aliases: [], level: "region" },
     { title: "Rahu", region: "Other regions", parent: "World", type: "external polity", meta: "World · polity", article: "visual-archive", summary: "Rahu is represented in Pristinia by an embassy; its wider geography remains to be reconciled.", source: "Chronicle + image", aliases: [], level: "region" },
@@ -1917,6 +2054,7 @@ const navigationRegions = [
         { label: "Gael overview", article: "gael", parent: true }
       ]},
       { title: "Other regions", items: [
+        { label: "The Void", article: "the-void" }, { label: "Voraketh", article: "voraketh" },
         { label: "Eovar Harbor", article: "eovar-harbor" },
         { label: "Babel-Ashur", article: "babel-ashur" }, { label: "Greyward Littoral", article: "grayward-littoral" }
       ]}
@@ -1957,6 +2095,8 @@ articlePaths.set("the-before-melian", ["Locations", "Prima", "The Before"]);
 articlePaths.set("fein-uaill", ["Locations", "Fein Uaill"]);
 articlePaths.set("zarathis", ["Locations", "Fein Uaill", "Zarathis"]);
 articlePaths.set("gael", ["Locations", "Gael"]);
+articlePaths.set("the-void", ["Locations", "The Void"]);
+articlePaths.set("voraketh", ["Locations", "Voraketh"]);
 articlePaths.set("eovar-harbor", ["Locations", "Eovar Harbor"]);
 articlePaths.set("babel-ashur", ["Locations", "Babel-Ashur"]);
 articlePaths.set("grayward-littoral", ["Locations", "Babel-Ashur", "Greyward Littoral"]);
@@ -2012,7 +2152,9 @@ const subchannelMap = {
   "visual-archive": [
     { label: "Prima", article: "prima-pristinia", summary: "Pristinia, The Gate, The Before, and the island’s accumulated civic geography." },
     { label: "Fein Uaill", article: "fein-uaill", summary: "Zarathis, Caisleán na Brón, Ciaránach, walls, estates, libraries, and sacred sites." },
-    { label: "Gael", article: "gael", summary: "Hope, trials, ruins, towers, forests, and a wounded landscape beginning to recover." }
+    { label: "Gael", article: "gael", summary: "Hope, trials, ruins, towers, forests, and a wounded landscape beginning to recover." },
+    { label: "The Void", article: "the-void", summary: "Dangerous passage, predation, sacrifice, uneven knowledge, and changing connections between islands." },
+    { label: "Voraketh", article: "voraketh", summary: "The Maw, the Delerium Chain, suppressed power, local testimony, and an investigation still without answers." }
   ],
   "fein-uaill": [
     { label: "Zarathis", article: "zarathis", summary: "A developed cultural center within the wider Fein Uaill region." },
@@ -2020,6 +2162,16 @@ const subchannelMap = {
   ],
   "gael": [
     { label: "All Gael places", article: "visual-archive", summary: "Search Hope, the Tower, Plains of Trial, Mage’s Ruin, forests, coast, and more." }
+  ],
+  "the-void": [
+    { label: "Fenumion", article: "fenumion", summary: "The world made playable through persistent history and separated lands." },
+    { label: "Gael", article: "gael", summary: "The destination of Nienna’s dangerous early Void expedition." },
+    { label: "Voraketh", article: "voraketh", summary: "An isolated island whose route and relationship to other interregional spaces remain unresolved." }
+  ],
+  "voraketh": [
+    { label: "Ithilrûnë", article: "ithilrune", summary: "Knowledge fails to become a reliable model at the Chain and Maw." },
+    { label: "Sildithas", article: "sildithas", summary: "Listening, divine uncertainty, and a feast beside unresolved horror." },
+    { label: "Pappy", article: "pappy", summary: "Physical resilience becomes unusually valuable while the Chain suppresses magic." }
   ]
 };
 
@@ -2058,22 +2210,38 @@ function renderNavigation() {
       <button class="nav-link" data-article="${item.article}" data-nav-article="${item.article}"><span>${item.label}</span><span>›</span></button>`).join("")}</section>`;
 }
 
-function renderArticle(id, pushHash = true) {
+function renderArticle(route, pushHash = true) {
+  const [id, routeQuery = ""] = String(route || "").split("?");
+  const routeParams = new URLSearchParams(routeQuery);
+  const requestedMapId = routeParams.get("map") || "";
   const article = byId.get(id) || articles[0];
   document.body.classList.toggle("home-view", article.id === "world-index");
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
-  if (pushHash && location.hash !== `#${article.id}`) history.pushState(null, "", `#${article.id}`);
+  const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : ""}`;
+  if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
   document.title = `${article.title} — The Fenumion Codex`;
   const path = articlePaths.get(article.id) || [article.category, article.title];
   breadcrumbs.innerHTML = `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
   const facts = Object.entries(article.facts).map(([label, value]) => `<div class="fact"><dt>${label}</dt><dd>${value}</dd></div>`).join("");
   const allowAutoplay = !matchMedia("(prefers-reduced-motion: reduce)").matches;
   const heroClass = `article-hero${article.imageLayout ? ` ${article.imageLayout}` : ""}`;
+  const mapHero = article.image && article.mapId
+    ? `<figure class="${heroClass} map-linked-hero"><button type="button" class="article-map-link" data-open-map="${escapeHtml(article.mapId)}" aria-label="${escapeHtml(article.mapLinkLabel || `Explore the interactive ${article.title} map`)}"><img src="${article.image}" alt="${article.imageAlt || ""}"><span class="article-map-cta"><small>Interactive map</small><strong>${escapeHtml(article.mapLinkLabel || `Explore ${article.title}`)} <span aria-hidden="true">→</span></strong></span></button><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>`
+    : "";
   const hero = article.video
     ? `<figure class="${heroClass}"><video ${allowAutoplay ? "autoplay " : ""}muted loop playsinline controls preload="metadata" poster="${article.image || ""}" aria-label="${article.videoAlt || article.title}"><source src="${article.video}" type="video/mp4">Your browser does not support this video.</video><figcaption>${article.videoCaption || "Video preserved in the Fenumion archive."}</figcaption></figure>`
-    : article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "";
+    : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "");
   const sourceLedger = article.sources?.length ? `<details class="source-ledger"><summary><span>Documents used</span><strong>${article.sources.length}</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
   const subchannels = renderSubchannels(article.id);
+  const atlasBanner = article.id === "visual-archive" ? `
+    <section class="atlas-banner" aria-labelledby="interactive-maps-title">
+      <div class="atlas-banner-copy">
+        <p class="eyebrow">Interactive world atlas</p>
+        <h2 id="interactive-maps-title">Explore Fenumion from the world outward</h2>
+        <p>Choose a map, then hover or focus an area to reveal its marker and name. Tap markers on touch devices. Each location card separates recovered history from map-only evidence.</p>
+      </div>
+      <div id="interactive-atlas" class="interactive-atlas"></div>
+    </section>` : "";
   articleContent.innerHTML = `
     <header class="article-header">
       <p class="article-kicker">${article.type}</p>
@@ -2081,6 +2249,7 @@ function renderArticle(id, pushHash = true) {
       <p class="dek">${article.dek}</p>
       <div class="article-meta">${article.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div>
     </header>
+    ${atlasBanner}
     ${hero}
     <div class="source-strip"><span>Archive basis</span><p>Drawn from preserved campaign scenes, chronicles, maps, and visual records.</p></div>
     ${sourceLedger}
@@ -2090,7 +2259,7 @@ function renderArticle(id, pushHash = true) {
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
   if (article.id === "world-index") setupWorldBrowser();
-  if (article.id === "visual-archive") { setupInteractiveAtlas(); setupLocationExplorer(); }
+  if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
   if (article.id === "living-timeline") setupTimelineExplorer();
   document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
@@ -2173,14 +2342,17 @@ function setupWorldBrowser() {
   render();
 }
 
-function setupInteractiveAtlas() {
+function setupInteractiveAtlas(initialMapId = "") {
   const atlas = document.querySelector("#interactive-atlas");
   if (!atlas) return;
-  let activeMapId = interactiveMaps[0].id;
-  let activeLocationTitle = interactiveMaps[0].pins[0].title;
+  const initialMap = interactiveMaps.find(map => map.id === initialMapId) || interactiveMaps[0];
+  let activeMapId = initialMap.id;
+  let activeLocationTitle = initialMap.pins[0]?.title || "";
   let hoverTimer = null;
 
   const findLocation = title => archiveIndex.islands.find(item => item.title === title);
+  const linkedMapIds = new Map([["Gael", "gael"], ["Prima", "pristinia"], ["Pristinia", "pristinia"], ["Fein Uaill", "fein-uaill"]]);
+  const syncMapRoute = () => history.replaceState(null, "", `#visual-archive?map=${encodeURIComponent(activeMapId)}`);
 
   const renderDetail = title => {
     const locationRecord = findLocation(title);
@@ -2192,11 +2364,16 @@ function setupInteractiveAtlas() {
       button.setAttribute("aria-pressed", String(active));
     });
     const detail = atlas.querySelector(".map-detail");
+    const linkedMapId = linkedMapIds.get(locationRecord.title);
+    const mapLayerLink = linkedMapId && linkedMapId !== activeMapId
+      ? `<button type="button" class="map-layer-link" data-map-id="${linkedMapId}">Explore ${locationRecord.title === "Prima" ? "Prima / Pristinia" : escapeHtml(locationRecord.title)} map <span aria-hidden="true">⌖</span></button>`
+      : "";
     detail.innerHTML = `
       <span class="map-detail-kicker">${escapeHtml(locationRecord.meta)}</span>
       <h3>${escapeHtml(locationRecord.title)}</h3>
       <p>${escapeHtml(locationRecord.summary)}</p>
       <span class="map-detail-source">Evidence · ${escapeHtml(locationRecord.source)}</span>
+      ${mapLayerLink}
       <button type="button" class="map-history-link" data-article="${locationRecord.article}">Open location history <span aria-hidden="true">→</span></button>`;
   };
 
@@ -2232,6 +2409,7 @@ function setupInteractiveAtlas() {
     if (mapButton) {
       activeMapId = mapButton.dataset.mapId;
       activeLocationTitle = interactiveMaps.find(map => map.id === activeMapId)?.pins[0]?.title || "";
+      syncMapRoute();
       renderMap();
       return;
     }
@@ -2263,6 +2441,7 @@ function setupInteractiveAtlas() {
       const nextIndex = event.key === "Home" ? 0 : event.key === "End" ? interactiveMaps.length - 1 : (index + (event.key === "ArrowRight" ? 1 : -1) + interactiveMaps.length) % interactiveMaps.length;
       activeMapId = interactiveMaps[nextIndex].id;
       activeLocationTitle = interactiveMaps[nextIndex].pins[0]?.title || "";
+      syncMapRoute();
       renderMap();
       atlas.querySelector(`[data-map-id="${activeMapId}"]`)?.focus();
       return;
@@ -2284,7 +2463,7 @@ function setupInteractiveAtlas() {
 function setupLocationExplorer() {
   const explorer = document.querySelector("#location-explorer");
   if (!explorer) return;
-  const regionOrder = ["Prima", "Fein Uaill", "Gael", "Eovar Harbor", "Babel-Ashur", "World", "Other regions"];
+  const regionOrder = ["Prima", "Fein Uaill", "Gael", "Voraketh", "Eovar Harbor", "Babel-Ashur", "World", "Other regions"];
   const regions = [...new Set(archiveIndex.islands.map(item => item.region))].sort((a, b) => regionOrder.indexOf(a) - regionOrder.indexOf(b));
   let activeRegion = "All regions";
   let direction = "asc";
@@ -2537,6 +2716,11 @@ function closePanels() {
 }
 
 document.addEventListener("click", event => {
+  const mapTrigger = event.target.closest("[data-open-map]");
+  if (mapTrigger) {
+    renderArticle(`visual-archive?map=${encodeURIComponent(mapTrigger.dataset.openMap)}`);
+    return;
+  }
   const trigger = event.target.closest("[data-article]");
   if (trigger) {
     if (trigger.classList.contains("search-result")) {
@@ -2577,8 +2761,9 @@ document.addEventListener("keydown", event => {
 });
 window.addEventListener("popstate", () => renderArticle(location.hash.slice(1), false));
 window.addEventListener("hashchange", () => {
-  const id = location.hash.slice(1);
-  if (byId.has(id)) renderArticle(id, false);
+  const route = location.hash.slice(1);
+  const [id] = route.split("?");
+  if (byId.has(id)) renderArticle(route, false);
 });
 
 renderNavigation();

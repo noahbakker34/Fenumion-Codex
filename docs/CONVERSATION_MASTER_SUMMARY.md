@@ -95,6 +95,8 @@ Aria's public power in Zarathis depended on provenance, memory, and an audience'
 
 Aria argued that attachment creates weakness and that power can create security. Olokun's counterargument preserved agency: “My pain. Not everyone's.” Talan killed Aria in a confrontation that was not intended as her final battle. The event is powerful and also an artistic loss; persistent worlds can destroy richer possible futures.
 
+The Void also shifted from a barrier endured during travel into a space deliberately explored. Aria's expedition reportedly failed to find its target, and her claim that some Void monstrosities feed on power remains testimony rather than established cosmology. Magnus's later question about ships and Void beasts exposed how uneven interregional travel knowledge remained even among developed cultures.
+
 After Aria's death, Dumuzi asked for her body rather than simply taking it. The party did not fully pursue the implication that perhaps he could not. Important revelations can be missed.
 
 ### 2026: consequence at divine scale
@@ -108,6 +110,8 @@ Magnus restored Papirak's memory of Paloma. Papirak entered the flames. The even
 Gael continued becoming a society: Veilguard, husk hunts, cult threats, markets, safer known-person transport, and people naming Gael as home. Adelia's later transformation bound her to Hope and dramatically expanded life, but did not erase the communal restoration that preceded her.
 
 Pristinia continued through ordinary history: the Common Man's destruction, Pilgrim's Hearth on its foundations, food pressures, hunts shaped by ecological restraint, a Magic Academy, markets, teaching, travel, memorials, and relationships.
+
+On Voraketh, a direct encounter with the Maw and Delerium Chain broke Ithilrûnë's working model. The Maw pulled bodies and consumed magic; the Chain suppressed powerful visitors and was defended or repaired by constructs. A figure appeared trapped and another presence may have watched. Derya Thorne, the Destroyer, Talan's role, the builders of the system, and the moral consequences of breaking it remain unresolved.
 
 ## Regions and location hierarchy
 
@@ -141,7 +145,19 @@ The southern shore is the Greyward Littoral. Its mapped sublocations include the
 
 ### Other regions
 
-Eovar Harbor, Pristinia's connected wilderness, the Void, the Sea of Dreams, Atrax, and later frontiers such as Verdelune appear as distinct travel, settlement, or metaphysical contexts. Do not assign organizations permanently to the region where they were first encountered.
+Eovar Harbor, Pristinia's connected wilderness, the Sea of Dreams, Atrax, and later frontiers such as Verdelune appear as distinct travel, settlement, or metaphysical contexts. Do not assign organizations permanently to the region where they were first encountered.
+
+### The Void
+
+Primary pattern: separation, predation, unequal travel knowledge, moral cost, and gradually increasing but still limited connectivity.
+
+Nienna's 2024 expedition established dangerous physical passage, Death's dragons, and one horrific safer method that fed unwilling souls to dangerous inhabitants. That testimony does not prove that every crossing needs souls. Later communication could cross the Void while travel remained dangerous; by September 2026, at least one transporter could safely carry known people to Gael from any island. The mechanism is unresolved and relational access is not universal access.
+
+### Voraketh
+
+Primary pattern: suppressed power, missing archives, self-maintaining containment, practical local knowledge, and investigation without revelation.
+
+Known features include the Maw, a Delerium Chain, dangerous constructs, hostile wastes, magical suppression, anomalous pull, and magic consumption. The earliest recovered Maw knowledge comes through Sildithas relaying Misrat's local testimony on 21 September 2025: it consumes, grows, attracts beasts, may connect elsewhere, and may summon a Destroyer. By September 2026 the expedition observed the system directly. Keep the trapped figure, watching presence, Destroyer, and Derya Thorne distinct unless later evidence joins them.
 
 ## Core character summaries
 
@@ -159,11 +175,15 @@ Open test: retrieve failures, selfish choices, reckless uses of power, or moment
 
 ### Olokun / Olo
 
-Trajectory: belonging → attachment → competing loyalties → responsibility → principle.
+Trajectory: social person → belonging → attachment → conflicting loyalties → principle → triage and loss → death → return → continued responsibility.
 
-His Rahu trial exposed fear of dying without living. Believing the choice was between Rahu belonging and a cure, he chose the Rahu because their knowledge might help others; the refined Delerium later cured him as well. He can voluntarily submit to trusted authority without surrendering conscience. His mature principle is that one may offer oneself but not everyone else.
+Early Olo is “Optimistic Olokun”: social, competitive, cheerful, and relational before he is philosophical. A burned-forest mistake frees a servant of Death; an ordinary rejected arm-wrestling challenge produces the early boundary “When a man says no, is no.” Becoming Rahu makes loyalty consequential. His response to a protected Delerium truth—he wants friends to find the answer but will not simply betray the oath—shows belonging without surrendered conscience.
 
-His relationship with Aria preserves personhood without erasing danger or disagreement. Core lines include “My pain. Not everyone's” and “World is good. The people that live it, they make it good, not only gods.”
+His mature principle is protection without ownership. Capability differences are real, but strength, knowledge, authority, love, and fear do not automatically transfer another person's will. His relationship with Aria preserves personhood without erasing harm or disagreement. “World is good” is a mortal answer to failed divine stewardship, not naïveté; he has seen dead Gael and knows people are still healing it.
+
+The War Council line “My pain. Not everyone's” compresses the recurring question of who may authorize sacrifice. After Aria dies, his insistence that everyone should have been saved exposes the danger within his virtue: refusal to abandon people can become an impossible personal responsibility and then a temptation to control those he fears losing.
+
+In January 2026, Olo chooses Wren over Aravil, Aravil is taken, and the Abyss kills Olo. Arjahn resurrects him with the Scepter of Faith Olo had previously given him. The return is consequence, not reset: an old gift becomes the mechanical cause of survival, while Aravil and the choice remain. Later fear still makes Olo lash out at Arjahn even as they resume practical work together.
 
 ### Nienna
 
@@ -380,6 +400,9 @@ Known source anchors:
 - `Pasted markdown(6).md` — Vaerik and Terroir combat material.
 - `Fenumion_Codex_Update_Regional_History_2026-09-19.md` — conservative regional history update.
 - `Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md` — interpretive framework and retrieval priorities.
+- `The_Void_Location_Profile_and_History.md` — Void travel, predation, moral cost, communication, and unresolved mechanics.
+- `Voraketh_Location_Profile_and_History.md` — Maw, Delerium Chain, local testimony, evidence boundaries, and open questions.
+- `Olokun_Ultimate_Character_History_and_Codex_Profile.md` — full Olo chronology, developmental spine, quotations, cautions, and retrieval anchors.
 
 ## Maintenance rule
 

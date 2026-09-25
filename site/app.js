@@ -774,6 +774,30 @@ const articles = [
       <p>The founder and owner, Herb’s and Skye’s fuller histories, the exact fire, the staff’s fate, the builder of Pilgrim’s Hearth, surviving objects or traditions, and the structure’s physical inheritance remain unknown. The archive preserves the succession without inventing those links.</p>`
   },
   {
+    id: "herb", title: "Herb", category: "People", type: "Bartender; civilian anchor of Pristinia",
+    video: "herb-portrait.mp4", imageLayout: "landscape-hero", videoAlt: "Animated portrait of Herb smiling behind the bar", videoCaption: "Herb — bartender, neighbor, and keeper of Pristinia’s everyday needs.",
+    dek: "A bartender whose memory for people, stores, labor, and the next year’s herd turns ordinary tavern work into civic stewardship.",
+    tags: ["Herb", "The Common Man", "Pristinia", "Food", "Civilian life", "Stewardship"],
+    facts: { Role: "Bartender and tavern staff", Institution: "The Common Man", Strength: "Turns local knowledge into useful action", Principle: "Meet today’s need without destroying tomorrow’s supply", Ownership: "Not established" },
+    sources: ["The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits", "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene", "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession"],
+    body: `
+      <p>Herb is one of Pristinia’s clearest civilian anchors. He wipes counters, serves food and drink, remembers regulars’ habits, follows the settlement’s stores, and speaks openly when agricultural problems require help. His work shows how much of a town’s history is carried by people who notice what is running low before a crisis becomes spectacular.</p>
+      <h2 id="regulars">Remembering the regulars</h2>
+      <p>When Aravil orders tequila, Herb already knows she normally wants two. The exchange is small, but it marks accumulated familiarity: the Common Man is not only where adventurers receive information. It is a workplace where the people serving them remember who they are.</p>
+      <div class="quote">Comin’ right on up! I assume two no?<cite>Herb</cite></div>
+      <h2 id="inventory">A town measured through inventory</h2>
+      <p>On 15 December 2024, Pristinia’s growing population and incomplete harvest help become visible through Herb’s stores. Sourdough remains available. Dried fruit is running low. Tina’s farm is not being worked enough. A bartender’s inventory becomes a record of migration, labor, winter pressure, and promises that did not fully materialize.</p>
+      <div class="quote">Got plenty of the sourdough, but the fruit be runnin low. Growing population puttin stress on us. Wish Tina’s farm was gettin actively worked.<cite>Herb</cite></div>
+      <h2 id="elk">Today’s hunger and next year’s herd</h2>
+      <p>Herb converts shortage into actionable work: forage and hunt elk. He also sets a limit. Pristinia needs roughly a dozen elk’s worth of meat, but taking too many would damage the next year’s population. Immediate survival does not cancel responsibility for what follows.</p>
+      <div class="quote">Well we could use about a dozen or so Elks worth of meat. Not more mind you don’t be hurtin next years poplator!<cite>Herb</cite></div>
+      <p>Aravil hears the need and recognizes that hunting may be how she belongs in the settlement. Herb therefore acts as a civilian information node: local knowledge passes through ordinary conversation and becomes a way for someone else to contribute.</p>
+      <h2 id="common-man">The Common Man</h2>
+      <p>Herb helps make <a href="#common-man">the Common Man</a> legible as an institution rather than scenery. Food, wages, tips, exhausted farmers, music, strangers, and regular orders all meet at the bar. The record sometimes calls it “Herb’s tavern,” but legal ownership has not been recovered; the Codex preserves him as a major staff figure without inventing a title.</p>
+      <h2 id="open-record">After the fire</h2>
+      <p>Zombie pirates later burn the Common Man, and Pilgrim’s Hearth rises on the same foundations. The surviving record does not establish Herb’s fate, his role in the successor tavern, or his complete history before the December scene. Those gaps remain open.</p>`
+  },
+  {
     id: "zarathis", title: "Zarathis", category: "Places", type: "Fein Uaill · civilization",
     image: "assets/archive/fein-uaill.jpeg", imageAlt: "Regional map of Fein Uaill containing Zarathis", imageCaption: "Zarathis is one developed center within the wider Fein Uaill region.",
     dek: "A powerful human civilization within Fein Uaill, built around mastery, memory, natural boundaries, and the conviction that one life must be enough.",
@@ -855,6 +879,7 @@ const articles = [
         <li><a href="#nienna"><strong>Nienna</strong></a> — an absent presence whose voluntary sacrifice remains causally active.</li>
         <li><a href="#jiangshi"><strong>Jiangshi</strong></a> and <a href="#adelia-hope"><strong>Adelia</strong></a> — return, care, Hope, and the boundary between presence and possession.</li>
         <li><a href="#magnus"><strong>Magnus Niriin</strong></a> — ambition, cultural belonging, political leverage, and a soul permanently owned by Death.</li>
+        <li><a href="#herb"><strong>Herb</strong></a> — ordinary tavern work turned into civic memory, food planning, and stewardship of the future.</li>
       </ul>
       <h2 id="other-heroes">Other indexed heroes</h2>
       <div class="directory-grid">
@@ -867,7 +892,7 @@ const articles = [
       <ul>
         <li><strong>Paco</strong> — Carmen’s companion, whose sacrifice and forced pact make him a person rather than an account to settle.</li>
         <li><strong>Draegar</strong> — remembered beside Gartina in the community’s romantic history.</li>
-        <li><a href="#common-man"><strong>Herb, Serra, and Alessio</strong></a> — Common Man workers whose service, local knowledge, and economic observations make the tavern a civilian institution rather than scenery.</li>
+        <li><a href="#herb"><strong>Herb</strong></a>, <a href="#common-man"><strong>Serra and Alessio</strong></a> — Common Man workers whose service, local knowledge, and economic observations make the tavern a civilian institution rather than scenery.</li>
         <li><strong>Farmer Frank</strong> — carries the ordinary cost when promised agricultural help does not return.</li>
         <li><a href="#common-man"><strong>Skye and Lichen</strong></a> — a small study in refusing exploitation and making a visibly strange newcomer feel safe.</li>
         <li><strong>Eugene</strong> — begins a Pristinia battle trying to sound heroic and ends it behaving heroically while barely able to speak.</li>
@@ -919,16 +944,21 @@ const articles = [
     id: "papirak-paloma", title: "Papirak & Paloma", category: "People", type: "Sacrifice and memory",
     dek: "One of Fenumion’s most devastating histories: a Wish that saved Prima, a wife who voluntarily became its price, and a mercy that removed the truth from the survivor.",
     tags: ["Papirak", "Paloma", "Wish", "Whose sacrifice?"],
-    facts: { Crisis: "Delerium threatened to spread", Act: "Papirak cast the extraordinary Wish", Price: "Paloma chose complete erasure", Aftermath: "Namo’o removed Papirak’s memory" },
+    facts: { Crisis: "Delerium threatened to spread", Act: "Papirak cast the extraordinary Wish", Price: "Paloma chose complete erasure", Aftermath: "Namo’o removed Papirak’s memory", End: "Immolation and atonement", Legacy: "His death destroys a historical source" },
+    sources: ["CHARACTER_BIBLE.md — Papirak, Paloma, Wish, memory, and evidence limits", "MASTER_TIMELINE.md — recovered sequence and Magnus’s intervention", "Fenumion High-Presence Character Context Set — consolidated Papirak context"],
     body: `
       <p>Papirak agreed to use an extraordinary form of Wish to isolate and save Prima. He was warned that it would break him. The expected cost was his future access to Wish—but Paloma, his wife, voluntarily became the substitute price. She was erased completely: body, mind, and soul.</p>
       <div class="callout gold"><p><strong>Fenumion’s recurring question becomes unavoidable here:</strong> Papirak consented to sacrifice himself. Paloma consented to spare him. The world was saved. Who is allowed to decide that the outcome justified the cost?</p></div>
       <h2 id="chain-of-consent">A chain of consent</h2>
       <p>The gods needed the realm isolated. Papirak agreed to be broken for them. Paloma chose erasure so he would not pay the expected price. Namo’o then removed Papirak’s memory of her so he could survive what she had done. Everyone tried to spare someone. The result remained horrifying.</p>
       <h2 id="mercy-and-violation">Mercy and violation</h2>
-      <p>The destroyed memory first appeared to be censorship. Later evidence changed that reading. Namo’o’s act was also mercy—but mercy exercised through extraordinary authority over another person’s self. The revision does not make him innocent; it makes the choice harder.</p>
+      <p>The destroyed memory first appeared to be censorship. Later evidence changed that reading. Namo’o’s act was also mercy and, in the recovered account, was performed at Papirak’s request. Consent changes the moral structure without making the intervention simple: one person still used extraordinary authority over another’s memory and selfhood.</p>
       <h2 id="magnus-reopens">Magnus reopens the wound</h2>
-      <p>Two thousand years later, Magnus broke through the protection around Papirak’s memory. Papirak remembered Paloma and afterward walked into the flames: “Immolation. Atonement.” The later revelation did not replace what the players knew. It told them they had possessed the facts without yet understanding their meaning.</p>`
+      <p>Two thousand years later, Magnus seeks hidden knowledge from Papirak. He initially attempts to limit the harm, then breaks through the protection when it blocks the objective. The truth he restores is real; that does not automatically grant him the right to force it back into Papirak’s life.</p>
+      <h2 id="atonement">Immolation and atonement</h2>
+      <p>After remembering Paloma, Papirak chooses his end.</p>
+      <div class="quote">Immolation. Atonement.<cite>Papirak</cite></div>
+      <p>The line cannot be detached from Paloma, erased memory, returned guilt, and the violence of recovered truth. Papirak’s death also destroys a living historical source. In Fenumion, mortality can change not only what happens next, but what anyone can still prove about what happened before.</p>`
   },
   {
     id: "magnus", title: "Magnus Niriin", category: "People", type: "Tiefling warlock; Silver Star; political figure",
@@ -1021,19 +1051,27 @@ const articles = [
     id: "aria-pride", title: "Aria / Pride", category: "People", type: "Knight II of Death",
     image: "aria-pride-portrait.png", imageLayout: "portrait-hero", imageAlt: "Aria, Pride and Knight II of Death, standing in pale armor with a long sword and dark cape", imageCaption: "Aria / Pride — Knight II of Death.",
     dek: "A political and social antagonist whose sharpest weapon is not force, but memory, provenance, and knowing exactly what an audience already believes.",
-    tags: ["Pride", "Death", "Zarathis", "Attachment"],
-    facts: { Title: "Pride, Knight II", Father: "Dumuzi / Death", "Power center": "Belief and social history", Counterpoint: "Attachment as weakness" },
-    sources: ["Pasted markdown(20260919-035308).md — public confrontation, 5 Aug 2025", "Pasted markdown(20260919-034634).md — the bath scene and sibling contradiction", "Pasted markdown(20260910-045846).md — coded conversation and social strategy", "Pasted markdown(20260919-145618).md — Olokun’s later interpretation"],
+    tags: ["Pride", "Death", "Zarathis", "Attachment", "Olokun", "Talan"],
+    facts: { Title: "Pride, Knight II", Father: "Dumuzi / Death", Origin: "Institutional failure and childhood pain", "Power center": "Belief and social history", Counterpoint: "Attachment as weakness", End: "Killed unexpectedly by Talan" },
+    sources: ["Pasted markdown(20260919-035308).md — public confrontation, 5 Aug 2025", "Pasted markdown(20260919-034634).md — the bath scene and sibling contradiction", "Pasted markdown(20260910-045846).md — coded conversation and social strategy", "Pasted markdown(20260919-145618).md — Olokun’s later interpretation", "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — childhood, imprisonment, war council, death, and succession", "Fenumion High-Presence Character Context Set — consolidated Aria trajectory"],
     body: `
       <p>Aria’s great strength is provenance. She remembers what people did, what their cultures believe, what promises they made, and what contradictions an audience will recognize. Her encounters can operate as political arguments because the crowd is not scenery; existing belief is part of the battlefield.</p>
+      <h2 id="origin">Failed authority and the birth of Pride</h2>
+      <p>Recovered childhood material places young Aria in a village suffering winter, flood, and failed prayers. A temple associated with Talan becomes the emblem of an institution that did not protect the people who trusted it; she leaves and burns it. The scene helps explain her hostility toward moral authority without excusing what she later does with power.</p>
+      <p>An older brother appears in this early account, while Aria later says she has no siblings. The contradiction remains open rather than being reconciled into a preferred version.</p>
+      <h2 id="scribonia-gem">Knowledge made captive · July 2025</h2>
+      <p>Aria traps Scribonia in a gemstone amid larger struggles over leverage and god-killing knowledge. The act condenses her political method: people, research, grievance, and fear can all become instruments when she decides the outcome warrants control.</p>
       <h2 id="public-power">Public power</h2>
       <p>On 5 August 2025, Aria confronts Adelia in front of a crowd. She uses Adelia’s resurrection history and the culture’s charged relationship to divine magic; the audience shifts because her claims fit memories it already possesses. Olokun counters with private shared history, but Aria denies that history publicly and suggests his mind was altered. A truthful relationship is not automatically persuasive when the crowd cannot verify it.</p>
       <h2 id="attachment">Attachment as weakness</h2>
       <p>Aria argues that loving people creates helplessness: eventually the person cannot be protected. Olokun’s answer is that protection is not ownership. People help each other become better, then allow the younger generation to act for itself. He later reads Aria as afraid—of gods, of mistakes, and of being small—without treating fear as absolution.</p>
       <h2 id="private-aria">The person beneath Pride</h2>
-      <p>In a private scene, Aria’s performance breaks when Olokun reciprocates her attraction. The larger-than-life antagonist becomes visibly young and frightened. She also says she has no sibling, contradicting a record that describes an older brother who left with her and helped burn a Talan temple. The Codex keeps the contradiction open: lie, denial, altered history, or something not yet understood.</p>
+      <p>In a private scene, Aria’s performance breaks when Olokun reciprocates her attraction. The larger-than-life antagonist becomes visibly young and frightened. Their relationship moves through enemy, familiarity, personhood, attraction, genuine care, and continuing disagreement. Understanding does not become forgiveness, and affection does not complete a redemption arc.</p>
+      <h2 id="war-council">The War of Hearts</h2>
+      <p>At the later war council, Aria argues that victory requires imposed pain. Olokun answers that he may offer his own pain, not everyone else’s. Scribonia challenges Aria’s logic, and High Lord Bowene removes alliance with Death from consideration. The disagreement is not whether sacrifice exists, but who possesses the authority to assign its cost.</p>
       <h2 id="death">After her death</h2>
-      <p>Talan kills Aria on 6 November 2025 in a confrontation not intended as her final battle. The narration returns to the image already seen in private: Pride dies as a scared little girl, small at a god’s feet. Dumuzi later comes for her body and calls it her temple. The party’s refusal exposes limits in his apparent omnipotence, while the body itself becomes an unresolved clue.</p>`
+      <p>Talan kills Aria on 6 November 2025 in a confrontation not intended as her final battle. The narration returns to the image already seen in private: Pride dies as a scared little girl, small at a god’s feet. Dumuzi later comes for his daughter’s body and calls it her temple. The party’s refusal exposes limits in his apparent omnipotence, while the body itself becomes an unresolved clue.</p>
+      <p>Her death creates succession rather than moral closure: unfinished relationships, contested political memory, Magnus’s ascent, and futures nobody expected to inherit. Aria remains consequential because the world must continue without receiving a final answer about who she might have become.</p>`
   },
   {
     id: "elenia", title: "Elenia", category: "People", type: "Cleric; bearer of light",
@@ -1174,13 +1212,21 @@ const articles = [
   },
   {
     id: "jiangshi", title: "Jiangshi", category: "People", type: "Adventurer; returned dead",
-    dek: "A philosophy of care built around presence without possession: comfort offered freely, pain never demanded as the price of closeness.",
-    tags: ["Shadows", "Adelia", "Death", "Care"],
-    facts: { "Core promise": "We are here for you. To comfort.", History: "Dead for seven and a half months", Image: "Comforting shadows", Fear: "Losing Adelia" },
+    dek: "A philosophy of care built around consciously chosen presence: comfort offered freely, pain never demanded as the price of closeness.",
+    tags: ["Shadows", "Adelia", "Death", "Care", "Gael", "Zarathis"],
+    facts: { "Core promise": "We are here for you. To comfort.", History: "Dead for seven and a half months", Image: "Comforting shadows", "Central distinction": "Sustaining is not the same as choosing to love", Fear: "Losing Adelia" },
+    sources: ["CHARACTER_BIBLE.md — Jiangshi’s loss, return, and care", "RELATIONSHIPS.md — Jiangshi, Adelia, Nienna, and Gartina", "Fenumion High-Presence Character Context Set — consolidated Jiangshi context"],
     body: `
       <p>Before her own death, Jiangshi already practiced a distinctive care: she could wrap a wing around someone, listen if they wanted to speak, and refuse to pry. Death intensified that instinct rather than creating it.</p>
+      <h2 id="gael-loss">The loss that keeps acting</h2>
+      <p>Jiangshi’s earlier loss in Gael becomes central to Nienna’s crisis over retreat and cowardice. Even while absent, what happened to her continues to alter Nienna, Gartina, Adelia, and the moral meaning of survival. Her history demonstrates that absence does not end causality.</p>
       <h2 id="shadows">Shadows</h2>
       <p>Jiangshi’s imagery refuses the simple equation of shadow with evil. A shadow can conceal, frighten, shelter, or comfort. Her later language around the Shadowlands and Death’s door gives that symbolism personal weight.</p>
+      <h2 id="garden">The Zarathis garden conversation</h2>
+      <p>In the garden, Jiangshi speaks through bonsai, Wabi-Sabi, ancestry, patience, harmony, tea, and shadows as rest. Her sharpest question tests love of nature at the point of sacrifice: is there a person for whom one would choose family over nature?</p>
+      <p>The question separates being sustained, comforted, or protected by a system from being consciously loved by another person. Nature may keep someone alive; a shadow may shelter them; neither necessarily chooses them.</p>
+      <h2 id="presence">Presence instead of victory</h2>
+      <p>When Gartina becomes vulnerable about her dead parents, Jiangshi does not answer with another theory. She places a hand on Gartina’s shoulder. The gesture does not defeat Gartina’s argument; it demonstrates the relational care Jiangshi believes analysis alone cannot replace.</p>
       <h2 id="return">The unsaid word</h2>
       <p>After returning, she struggles to say that she was dead. The gap matters. Her fear of losing Adelia is not abstract dependency; it is shaped by months in which the world continued without her and people gathered for her memorial.</p>`
   },
@@ -1192,9 +1238,19 @@ const articles = [
     imageAlt: "Adelia hooded in black beneath a pale moon, holding a staff",
     imageCaption: "Adelia — bound to Hope.",
     imageLayout: "portrait-hero",
-    facts: { Arc: "Death → perseverance → renewed life", Culmination: "Adelia gives herself for Hope", Legacy: "Becomes part of the Tree", Context: "Built from years of relationships" },
+    facts: { Arc: "Early Gael → Hope → sacrifice → transformation", Culmination: "Adelia gives herself for Hope", Legacy: "Demigod and Tree-linked existence", Protection: "Can later Gate others from danger", Context: "Built from years of relationships" },
+    sources: ["CHARACTER_BIBLE.md — Adelia’s Gael, Hope, political, and protection history", "MASTER_TIMELINE.md — event sequence and unresolved transformation date", "RELATIONSHIPS.md — Nienna, Jiangshi, Magnus, and Pappy", "Fenumion High-Presence Character Context Set — consolidated Adelia trajectory"],
     body: `
       <p>Adelia’s ascension is not arbitrary apotheosis. The archive connects a long pattern: family dies and a new family forms; faith nearly dies and is renewed; friendship ruptures and is repaired; Gael dies and Hope brings life. When Hope itself is dying, Adelia gives herself.</p>
+      <h2 id="early-gael">Before the transformation</h2>
+      <p>Adelia and Elenia help establish or prove an early living foothold in Gael. Adelia’s affection for Hope, her involvement in the Hallowing, and her grief after Nienna’s death make the later sacrifice part of a long relationship with living Gael rather than an isolated promotion into divinity.</p>
+      <h2 id="political-life">Power among other people</h2>
+      <p>Before becoming inseparable from Hope, Adelia remains active in political conflict. Aria publicly presses her about resurrection, divine power, and the beliefs of the watching crowd. Adelia later supports Magnus during Zarathian political developments. Neither event becomes a complete verdict on her judgment; together they preserve a mortal actor making consequential choices before her transformation.</p>
+      <h2 id="transformation">Protector becoming what she protects</h2>
+      <p>During the 2026 Hope crisis, sacrifice binds Adelia more deeply to Hope and life. She later exists as a demigod or Tree-associated being on Gael and can use Gate. The exact sequence and mechanism remain incomplete.</p>
+      <p>Her central question therefore changes scale: what happens when a protector becomes increasingly inseparable from the thing she protects? Power may deepen care while also making boundaries, perspective, and ordinary consent harder to preserve.</p>
+      <h2 id="pappy">Protection after ascension</h2>
+      <p>In the Rift era, Adelia senses danger and Gates Pappy away from an ambush. The rescue later becomes central to a dispute about awareness, PvP, and metagaming. The Codex separates the in-world act of protection from the later governance argument rather than using either layer to erase the other.</p>
       <h2 id="writer">The Writer’s synthesis</h2>
       <p>The transformation gathers years of choices into a sequence: death, perseverance, renewed life, Hope. The point is not simply that Adelia receives a cosmic status. It is that the world remembers what her life kept doing.</p>
       <h2 id="nienna">No solitary hero</h2>
@@ -1512,18 +1568,30 @@ const articles = [
   },
   {
     id: "scribonia", title: "Scribonia", category: "People", type: "Magi; scholar; thri-kreen",
+    image: "scribonia-portrait.png", imageLayout: "portrait-hero", imageAlt: "Scribonia, a pale moth-like thri-kreen scholar with four arms, patterned wings, writing tools, and a tall staff", imageCaption: "Scribonia — Magi, scholar, teacher, and seeker of dangerous knowledge.",
     dek: "Scribonia refuses to be reduced by anyone else’s category. His reason gives him courage before gods and tyrants—and makes it very hard for him to stop prosecuting an argument.",
-    tags: ["Scribonia", "Knowledge", "Identity", "Aria"],
-    facts: { Identity: "Scribonia before every label", Strength: "Reason under intimidation", Appetite: "Useful knowledge and mastery", Risk: "Argument becoming authority" },
-    sources: ["Pasted markdown(20260909-023111).md — Scribonia confronts Aria", "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy", "Pasted markdown(20260909-024010).md — Zarathian research"],
+    tags: ["Scribonia", "Knowledge", "Identity", "Aria", "Eugene", "Delerium"],
+    facts: { Pronouns: "He / him", Identity: "Scribonia before every label", Strength: "Reason under intimidation", Appetite: "Useful knowledge and mastery", Institution: "Students and scholarly responsibility", Risk: "Argument becoming authority" },
+    sources: ["Pasted markdown(20260909-023111).md — Scribonia confronts Aria", "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy", "Pasted markdown(20260909-024010).md — Zarathian research", "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium", "Fenumion High-Presence Character Context Set — consolidated Scribonia context"],
     body: `
       <p>Scribonia is a collector of useful knowledge. Where Wren asks how a culture knows its stories are true, he returns from its libraries with literacy rates, years of study, Papirak, Wish, and the metaphysics of truth. He thinks mastery is protective and that a sound argument remains unfinished until it is answered.</p>
       <h2 id="identity">“I am Scribonia”</h2>
-      <p>When Aria tries to diminish him as a common moth, he refuses the premise. Moth, Magi, thri-kreen—other people may use any category they like. His identity does not depend on their permission. That self-possession lets him step toward a physically overwhelming opponent and challenge the hatred beneath her logic.</p>
+      <p>When Aria tries to diminish him as a common moth, Scribonia refuses the premise. Moth, Magi, thri-kreen—other people may use any category they like. His identity does not depend on their permission. That self-possession lets him step toward a physically overwhelming opponent and challenge the hatred beneath Aria’s logic.</p>
+      <h2 id="knowledge-and-freedom">Knowledge as freedom and leverage</h2>
+      <p>Scribonia understands that ignorance creates dependence. His Delerium research, teaching, and willingness to confront powers such as Aria all grow from the conviction that understanding can create freedom. The danger is symmetrical: mastery can also become leverage over people who do not possess it.</p>
+      <p>Aria makes that danger physical by trapping Scribonia in a gemstone in July 2025. Scholarship does not protect him from becoming an object inside somebody else’s strategy.</p>
+      <h2 id="eugene-boundary">Eugene and a boundary he keeps</h2>
+      <p>When Eugene receives a Delerium-channeling weapon, Scribonia feels envy. He has been entrusted with something Scribonia worked and suffered to understand. Scribonia does not convert that feeling into entitlement.</p>
+      <div class="quote">I am not your teacher anymore, you do not owe me an explanation in every aspect of your life.<cite>Scribonia</cite></div>
+      <p>The boundary matters because it is not automatic innocence. Scribonia still wants knowledge and control; here, he recognizes that mentorship does not make another person’s life an extension of his authority.</p>
+      <h2 id="institution">Knowledge that outlives one scholar</h2>
+      <p>Students and scholarly responsibility make Scribonia’s knowledge institutional rather than merely personal. What he teaches can protect people, create dangerous capability, or reproduce his own assumptions after he leaves the room.</p>
       <h2 id="growth">The capacity to yield</h2>
       <p>Some records show real growth: he recognizes that Gartina has more wisdom for a frightened newcomer and initially waits. The achievement is fragile. Minutes later, he is issuing commands and moral judgments again. Scribonia can identify that someone else is better suited to lead before his certainty drags him back into control.</p>
       <h2 id="last-word">The last word</h2>
-      <p>Even after ordered to stop arguing with Aria, he preserves a final declaration that the issue is not dead. This is both character strength and collaborative hazard. Reason makes him difficult to intimidate; it can also persuade him that any conversation remains his until his position has been fully heard.</p>`
+      <p>Even after ordered to stop arguing with Aria, he preserves a final declaration that the issue is not dead. This is both character strength and collaborative hazard. Reason makes him difficult to intimidate; it can also persuade him that any conversation remains his until his position has been fully heard.</p>
+      <h2 id="scribonia-open-record">The incomplete chronology</h2>
+      <p>Scribonia’s earliest appearances, Academy history, full Delerium sequence, imprisonment and release, students, and later 2026 scenes remain incomplete. The stronger thematic model does not authorize the Codex to invent the missing transitions.</p>`
   },
   {
     id: "dale", title: "Dale", category: "People", type: "Musician; builder of ordinary continuities",
@@ -1533,6 +1601,9 @@ const articles = [
     sources: ["CHARACTER_BIBLE.md — Dale chronology and pattern", "MASTER_TIMELINE.md — Gael settlement and later expedition evidence", "RELATIONSHIPS.md — Dale and Saray"],
     body: `
       <p>Dale’s importance comes from the way care becomes material. He can sing courage into defenders, but he also notices bowls, spoons, lumber, shelter, and the need to ask displaced people what they actually want.</p>
+      <h2 id="nienna">Nienna’s final choice</h2>
+      <p>Dale sings courage into the defenders around Hope and is present for Nienna’s final sacrifice. Nienna says goodbye to “sweet Dale.” His answer preserves both admiration and unease instead of declaring that her death was simply correct.</p>
+      <div class="quote">You’re foolish, Miss Nienna, but oh so brave.<cite>Dale</cite></div>
       <h2 id="saray">Care that does not seize the mind</h2>
       <p>After Nienna’s death, Saray blames herself. Dale supports her while recognizing that he cannot simply argue her out of guilt. He tells Adelia that Saray must reach the realization herself that nothing could have been done. His care respects an internal process he cannot own.</p>
       <h2 id="gael-work">Gael’s practical work</h2>
@@ -1550,10 +1621,13 @@ const articles = [
       <p>Eugene says he is afraid of failure and of becoming a burden. The archive’s answer is behavioral rather than reassuring: he doubts himself, then asks the question the room needs.</p>
       <h2 id="useful-questions">Competence after the disclaimer</h2>
       <p>During the Rahu secrecy crisis, Eugene says he is not good at thinking on his feet and then integrates Scribonia’s Delerium research into practical questions about Olo’s oath and Death. His low self-presentation is not evidence of low importance.</p>
+      <p>In July 2025, he recognizes another shy person’s discomfort because he recognizes the pattern in himself. His insecurity becomes socially useful when it helps him notice somebody else rather than remaining only self-judgment.</p>
       <h2 id="dangerous-inheritance">Dangerous inheritance</h2>
       <p>A weapon capable of channeling Delerium appears in his cloak. Eugene doubts his worthiness; Scribonia privately regards him as brilliant. Later, Elenia materially invests in his spellbook. The recurring pressure is not whether he can accumulate knowledge, but whether he can experience himself as someone trusted to carry its responsibility.</p>
       <h2 id="mentor-boundary">Beyond teacher and student</h2>
-      <p>Scribonia’s envy does not become a claim on Eugene’s life or every explanation he could provide. Their relationship preserves a meaningful boundary: instruction can shape a person without owning what that person later becomes.</p>`
+      <p>Scribonia’s envy does not become a claim on Eugene’s life or every explanation he could provide. Their relationship preserves a meaningful boundary: instruction can shape a person without owning what that person later becomes.</p>
+      <h2 id="magnus">Competence amid hostility</h2>
+      <p>After Aria’s death and Death’s invocation of ownership over Magnus, Eugene attempts to heal Magnus while others’ trust is collapsing. The act does not prove a final judgment about Magnus. It shows Eugene acting usefully inside a crisis before certainty about the person in front of him is available.</p>`
   },
   {
     id: "saray", title: "Saray", category: "People", type: "Survivor of grief; Wrath’s final opponent",
@@ -1828,7 +1902,7 @@ const archiveIndex = {
     { title: "Saray", meta: "Survivor of grief", article: "saray", summary: "Carries guilt after Nienna’s death and later lands the final blow against Wrath; the connecting chronology remains incomplete." },
     { title: "Rahn", meta: "Character sighting", article: "people-directory", summary: "A sparsely recorded flying adventurer preserved in the recovered scene catalogue." },
     { title: "St. Anky", meta: "Adventurer; peace-linked figure", article: "st-anky", image: "st-anky-portrait.png", summary: "A recurring companion associated with the Gate, the Shadow Roads, and peace between Rahu and Pristinia." },
-    { title: "Scribonia", meta: "Magi and scholar", article: "scribonia", summary: "Self-defined before every label; brave in argument and often unable to relinquish the last word." },
+    { title: "Scribonia", meta: "Magi and scholar", article: "scribonia", image: "scribonia-portrait.png", summary: "Self-defined before every label; brave in argument and often unable to relinquish the last word." },
     { title: "Selwyn", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Severina", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Sildithas", meta: "Oathbound defender", article: "sildithas", image: "sildithas-portrait.png", summary: "Meets uncertain divine authority by returning to an oath of mercy, flourishing, courage, and preserved joy." },
@@ -1859,7 +1933,7 @@ const archiveIndex = {
     { title: "Endora", meta: "Roderick’s beloved", article: "roderick-wrath", summary: "A woman whose choices are repeatedly filtered through the people who tried to keep or preserve her." },
     { title: "Alessio", meta: "Common Man worker", article: "common-man", summary: "Works the tables, cleans mugs, and makes the tavern legible as a civilian workplace." },
     { title: "Farmer Frank", meta: "Pristinia farmer", article: "common-man", summary: "Carries the ordinary cost when promised harvest help does not return." },
-    { title: "Herb", meta: "Common Man bartender", article: "common-man", summary: "Local knowledge connecting food stores, regulars, labor needs, and ecological restraint." },
+    { title: "Herb", meta: "Common Man bartender", article: "herb", video: "herb-portrait.mp4", summary: "Local knowledge connecting food stores, regulars, labor needs, and ecological restraint." },
     { title: "Lichen", meta: "Pristinia newcomer", article: "people-directory", summary: "A visibly strange newcomer who learns that Skye can be a safe friend." },
     { title: "Melian", meta: "Witness of The Before", article: "the-before-melian", summary: "A survivor who answers catastrophe with preparation rather than denial." },
     { title: "Aionia", meta: "Goddess of time and space", article: "the-gate", summary: "Permits one tightly limited historical change; interference with time attracts consequences." },
@@ -2083,7 +2157,7 @@ const navigationRegions = [
         { label: "Coralyn", article: "coralyn" }, { label: "Dale", article: "dale" },
         { label: "Elenia", article: "elenia" },
         { label: "Eugene", article: "eugene" }, { label: "Gartina", article: "gartina" },
-        { label: "Ghilsen", article: "ghilsen" }, { label: "Ithilrûnë", article: "ithilrune" },
+        { label: "Ghilsen", article: "ghilsen" }, { label: "Herb", article: "herb" }, { label: "Ithilrûnë", article: "ithilrune" },
         { label: "Jéane Rose", article: "jeane-rose" }, { label: "Jiangshi", article: "jiangshi" }
       ]},
       { title: "Characters N–W", items: [

@@ -1073,6 +1073,7 @@ const articles = [
   },
   {
     id: "olokun", title: "Olokun", category: "People", type: "Adventurer; protector; moral center",
+    image: "olokun-poster.png", imageLayout: "portrait-hero", imageAlt: "Olokun standing with a trident amid a sweeping ring of water", imageCaption: "Olokun — protector, sailor, and Rahu adventurer.",
     dek: "A social, deeply attached protector forced to discover what love is allowed to do—and whether care can remain care when fear wants control.",
     tags: ["Olokun", "Agency", "Protection", "Rahu", "Aria", "Arjahn", "Resurrection"],
     facts: { "Known as": "Olokun; Olo; ‘Optimistic Olokun’", "Core principle": "Protection without ownership", Belonging: "Rahu and chosen community", Strength: "Relationship memory", "Defining test": "Care versus control", Status: "Resurrected; responsibility continues" },
@@ -1175,9 +1176,10 @@ const articles = [
   },
   {
     id: "gartina", title: "Gartina", category: "People", type: "Halfling chef; protector; adventurer",
+    image: "gartina-chibi.png", imageLayout: "portrait-hero", imageAlt: "Chibi portrait of Gartina smiling while holding a large red heart", imageCaption: "Gartina — character emoji by Ececilia.",
     dek: "Gartina turns attention into care: tea, tactics, ecological balance, practical questions—and an increasingly desperate hope that preparation can prevent loss.",
     tags: ["Gartina", "Gael", "Hope", "Pristinia", "Zarathis", "Care", "Stewardship", "Refugees"],
-    facts: { Role: "Chef, gardener, investigator, protector", Method: "Understand → act → observe → revise", Relationship: "Draegar", "Love model": "Attention → knowledge → competent care", Tension: "Preparation becoming self-blame" },
+    facts: { Role: "Chef, gardener, investigator, protector", Method: "Understand → act → observe → revise", Relationship: "Draegar", "Love model": "Attention → knowledge → competent care", Tension: "Preparation becoming self-blame", Artwork: "Character emoji by Ececilia" },
     sources: ["GARTINA_HISTORY.md — consolidated profile and chronology", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine", "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis"],
     body: `
       <p>Gartina often enters history carrying food or drink. Tea, coffee prepared specifically for Olokun, and scones are not decorative quirks; they are how she brings a crisis down to a scale where people can think together. Her intelligence is practical, observant, and willing to revise itself.</p>
@@ -1720,7 +1722,7 @@ const archiveIndex = {
     { title: "Dale", meta: "Musician and practical caretaker", article: "dale", summary: "Turns concern into courage, food, shelter, tools, and consultation without trying to own another person’s grief." },
     { title: "Dez", meta: "Character sighting", article: "people-directory", summary: "A tavern-scene presence who repeatedly opens conversational space for Ghilsen and Magnus." },
     { title: "Elenia", meta: "Character record", article: "elenia", summary: "A bearer of light whose devotion does not require moral blindness." },
-    { title: "Gartina", meta: "Character record", article: "gartina", summary: "A chef and protector for whom preparation is care—and can become self-blame." },
+    { title: "Gartina", meta: "Character record", article: "gartina", image: "gartina-chibi.png", summary: "A chef and protector for whom preparation is care—and can become self-blame." },
     { title: "Farkur", meta: "Character sighting", article: "people-directory", summary: "A rain-soaked adventurer with a mechanical wolf, a ready smile, and a distrust miracles do not simply erase." },
     { title: "Ghilsen Hendrickson", meta: "Former slave; adventurer", article: "ghilsen", summary: "Suspicion, freedom, and the hope that strength can prevent anyone from owning him again." },
     { title: "Ithilrûnë", meta: "Scholar and seeker", article: "ithilrune", summary: "Uses knowledge to preserve choice; the Maw forces her to admit ignorance and accept another person’s wisdom without abandoning her own." },
@@ -1730,7 +1732,7 @@ const archiveIndex = {
     { title: "Minerva", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Nienna", meta: "Character record", article: "nienna", summary: "An absent presence whose sacrifice continues to act through the living." },
     { title: "Nymera", meta: "Character sighting", article: "elenia", summary: "A follower of Cala who questions why other devotees reach for violence when protection does not require it." },
-    { title: "Olokun", meta: "Protector; Rahu; resurrected adventurer", article: "olokun", summary: "A deeply attached protector whose mature ethic separates care from ownership while fear keeps testing that boundary." },
+    { title: "Olokun", meta: "Protector; Rahu; resurrected adventurer", article: "olokun", image: "olokun-poster.png", summary: "A deeply attached protector whose mature ethic separates care from ownership while fear keeps testing that boundary." },
     { title: "Pappy", meta: "Plainspoken protector", article: "pappy", summary: "A simple, good man whose Rift rescue exposes the boundary between character knowledge and later governance disputes." },
     { title: "Pelagia", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Quake", meta: "Character sighting", article: "roderick-wrath", summary: "Refuses Wrath’s bargain before its full danger is understood; protected by Elenia’s practiced memory of earlier loss." },
@@ -1880,7 +1882,7 @@ const archiveIndex = {
 
 const interactiveMaps = [
   {
-    id: "world", title: "World", shortTitle: "World", image: "assets/archive/world-map.jpeg",
+    id: "world", title: "World", shortTitle: "World", image: "assets/archive/world-map.jpeg", width: 2048, height: 2048,
     alt: "Illustrated world map of Fenumion, showing separated lands around the branching Void",
     description: "The surviving world map places the recovered lands around the Void. Several landmasses remain unnamed or only partially documented.",
     pins: [
@@ -1892,7 +1894,7 @@ const interactiveMaps = [
     ]
   },
   {
-    id: "pristinia", title: "Pristinia", shortTitle: "Pristinia", image: "assets/archive/pristinia.webp",
+    id: "pristinia", title: "Pristinia", shortTitle: "Pristinia", image: "assets/archive/pristinia.webp", width: 2048, height: 1536,
     alt: "Annotated civic map of Pristinia with walls, homes, businesses, temples, and public spaces",
     description: "A civic map of accumulated ordinary life: defenses, trade, worship, food, learning, and the tavern that became a vessel for communal memory.",
     pins: [
@@ -1915,7 +1917,7 @@ const interactiveMaps = [
     ]
   },
   {
-    id: "gael", title: "Gael", shortTitle: "Gael", image: "assets/archive/gael.jpeg",
+    id: "gael", title: "Gael", shortTitle: "Gael", image: "assets/archive/gael.jpeg", width: 800, height: 800,
     alt: "Regional map of Gael showing Hope, ruins, the Plains of Trial, tombs, a tower, and an underwater temple",
     description: "Gael’s map makes recovery visible against the scale of catastrophe: Hope is a small green foothold among ruins, trials, tombs, and old strongholds.",
     pins: [
@@ -1930,7 +1932,7 @@ const interactiveMaps = [
     ]
   },
   {
-    id: "fein-uaill", title: "Fein Uaill", shortTitle: "Fein Uaill", image: "assets/archive/fein-uaill.jpeg",
+    id: "fein-uaill", title: "Fein Uaill", shortTitle: "Fein Uaill", image: "assets/archive/fein-uaill.jpeg", width: 2048, height: 2048,
     alt: "Regional map of Fein Uaill showing cities, a shard, the Titanwall, and the Gates of Aelthor",
     description: "The regional map separates Fein Uaill from Zarathis and preserves a network of cities, fortifications, sacred sites, and monumental boundaries.",
     pins: [
@@ -1943,13 +1945,13 @@ const interactiveMaps = [
     ]
   },
   {
-    id: "eovar", title: "Eovar Harbor", shortTitle: "Eovar", image: "assets/archive/eovar-harbor.jpeg",
+    id: "eovar", title: "Eovar Harbor", shortTitle: "Eovar", image: "assets/archive/eovar-harbor.jpeg", width: 1066, height: 800,
     alt: "Map of Eovar Harbor showing a walled waterfront settlement, ships, and nearby farmland",
     description: "The harbor’s form is its history: ships, walls, a compact waterfront, controlled approaches, and agricultural support beyond the urban core.",
     pins: [{ title: "Eovar Harbor", x: 53, y: 49 }]
   },
   {
-    id: "babel-ashur", title: "Babel-Ashur", shortTitle: "Babel-Ashur", image: "assets/archive/babel-ashur.webp",
+    id: "babel-ashur", title: "Babel-Ashur", shortTitle: "Babel-Ashur", image: "assets/archive/babel-ashur.webp", width: 2048, height: 2048,
     alt: "Full island map of Babel-Ashur dominated by wild biomes and a vast central crater",
     description: "An island organized visually around a central wound. Its southern coast opens into the more detailed expedition geography of Greyward Littoral.",
     pins: [
@@ -1958,7 +1960,7 @@ const interactiveMaps = [
     ]
   },
   {
-    id: "greyward", title: "Greyward Littoral", shortTitle: "Greyward", image: "assets/archive/babel-ashur-southern-coast.webp",
+    id: "greyward", title: "Greyward Littoral", shortTitle: "Greyward", image: "assets/archive/babel-ashur-southern-coast.webp", width: 4096, height: 3072,
     alt: "Annotated expedition map of Greyward Littoral on Babel-Ashur’s southern coast",
     description: "The most operational map in the archive: it marks arrival, routes, refuge, resources, caverns, ruins, and hazardous wetlands.",
     pins: [
@@ -2395,6 +2397,8 @@ function setupInteractiveAtlas(initialMapId = "") {
 
   const renderMap = () => {
     const map = interactiveMaps.find(candidate => candidate.id === activeMapId) || interactiveMaps[0];
+    const landscape = map.width / map.height > 1.1;
+    const mapCanvasWidth = landscape ? "min(100%, 96vh)" : "min(100%, 72vh)";
     const pins = map.pins.map(pin => ({ ...pin, record: findLocation(pin.title) })).filter(pin => pin.record);
     if (!pins.some(pin => pin.title === activeLocationTitle)) activeLocationTitle = pins[0]?.title || "";
     atlas.innerHTML = `
@@ -2407,9 +2411,11 @@ function setupInteractiveAtlas(initialMapId = "") {
       </div>
       <div class="map-workspace" id="atlas-map-panel" role="tabpanel" aria-labelledby="map-tab-${map.id}">
         <div class="map-frame">
-          <img src="${map.image}" alt="${escapeHtml(map.alt)}" loading="eager">
-          <div class="map-pin-layer" aria-label="Mapped locations in ${escapeHtml(map.title)}">
-            ${pins.map((pin, index) => `<button type="button" class="map-pin ${pin.title === activeLocationTitle ? "active" : ""}" style="--pin-x:${pin.x}%;--pin-y:${pin.y}%" data-map-location="${escapeHtml(pin.title)}" aria-label="${escapeHtml(pin.title)}: ${escapeHtml(pin.record.summary)}" aria-pressed="${pin.title === activeLocationTitle}"><span class="map-pin-number" aria-hidden="true"><span class="map-pin-index">${index + 1}</span></span><span class="map-pin-label">${escapeHtml(pin.title)}</span></button>`).join("")}
+          <div class="map-canvas" style="width:${mapCanvasWidth};aspect-ratio:${map.width} / ${map.height}">
+            <img src="${map.image}" width="${map.width}" height="${map.height}" alt="${escapeHtml(map.alt)}" loading="eager">
+            <div class="map-pin-layer" aria-label="Mapped locations in ${escapeHtml(map.title)}">
+              ${pins.map((pin, index) => `<button type="button" class="map-pin ${pin.title === activeLocationTitle ? "active" : ""}" style="--pin-x:${pin.x}%;--pin-y:${pin.y}%" data-map-location="${escapeHtml(pin.title)}" aria-label="${escapeHtml(pin.title)}: ${escapeHtml(pin.record.summary)}" aria-pressed="${pin.title === activeLocationTitle}"><span class="map-pin-number" aria-hidden="true"><span class="map-pin-index">${index + 1}</span></span><span class="map-pin-label">${escapeHtml(pin.title)}</span></button>`).join("")}
+            </div>
           </div>
         </div>
         <aside class="map-detail" aria-live="polite"></aside>

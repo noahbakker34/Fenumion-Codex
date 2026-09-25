@@ -68,12 +68,12 @@ a:hover { color: var(--gold-bright); }
   width: 42px;
   height: 42px;
   flex: 0 0 auto;
-  color: #0c1a14;
-  background: var(--gold);
+  overflow: hidden;
+  background: #fff;
   border: 1px solid var(--gold-bright);
-  clip-path: polygon(50% 0, 91% 22%, 91% 76%, 50% 100%, 9% 76%, 9% 22%);
-  font: 700 1.3rem/1 var(--serif);
+  border-radius: 50%;
 }
+.brand-mark img { display: block; width: 100%; height: 100%; object-fit: cover; transform: scale(1.52); }
 .brand strong { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 600 1.05rem/1.2 var(--serif); letter-spacing: .035em; }
 .brand small { display: block; margin-top: .15rem; color: var(--muted); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
 
@@ -228,7 +228,7 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .home-view .topbar { display: none; }
 .home-view .app-shell { grid-template-columns: 78px minmax(0, 1fr); justify-content: stretch; min-height: 100vh; }
 .home-view .sidebar { top: 0; z-index: 50; width: 78px; max-height: 100vh; padding: 1.1rem .55rem; background: rgba(14,17,23,.98); border-right: 1px solid rgba(212,180,109,.14); }
-.home-view .sidebar::before { content: "F"; display: grid; width: 48px; height: 48px; margin: 0 auto 1.3rem; place-items: center; color: #111319; background: var(--gold); clip-path: polygon(50% 0, 91% 22%, 91% 76%, 50% 100%, 9% 76%, 9% 22%); font: 700 1.35rem/1 var(--serif); }
+.home-view .sidebar::before { content: ""; display: block; width: 48px; height: 48px; margin: 0 auto 1.3rem; background: #fff url('fenumion-logo.png') center / 152% no-repeat; border: 1px solid var(--gold-bright); border-radius: 50%; box-shadow: 0 0 0 5px rgba(212,180,109,.06); }
 .home-view .sidebar-intro, .home-view .nav-region-tree, .home-view .archive-note, .home-view .archive-links { display: none; }
 .home-view .nav-region { margin: 0 0 .55rem; padding: 0 0 .55rem; border-color: rgba(255,255,255,.06); }
 .home-view .nav-region-link { display: grid; width: 58px; height: 58px; grid-template-columns: 1fr; padding: 0; place-items: center; background: transparent; border-color: transparent; }
@@ -246,7 +246,8 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .gateway-hero-inner { position: relative; z-index: 2; width: min(760px, 100%); }
 .gateway-motion-toggle { position: absolute; z-index: 3; top: 1rem; right: 1rem; padding: .45rem .65rem; color: #ddd6c8; background: rgba(14,17,23,.68); border: 1px solid rgba(212,180,109,.4); border-radius: 3px; font-size: .7rem; letter-spacing: .04em; cursor: pointer; backdrop-filter: blur(6px); }
 .gateway-motion-toggle:hover, .gateway-motion-toggle:focus-visible { color: #fff; border-color: var(--gold-bright); outline: none; }
-.gateway-sigil { display: grid; width: 58px; height: 58px; margin: 0 auto 1.2rem; place-items: center; color: #15171d; background: var(--gold); clip-path: polygon(50% 0, 91% 22%, 91% 76%, 50% 100%, 9% 76%, 9% 22%); font: 700 1.55rem/1 var(--serif); }
+.gateway-sigil { display: grid; width: 104px; height: 104px; margin: 0 auto 1.2rem; overflow: hidden; place-items: center; background: #fff; border: 2px solid var(--gold-bright); border-radius: 50%; box-shadow: 0 14px 42px rgba(0,0,0,.34), 0 0 0 7px rgba(212,180,109,.08); }
+.gateway-sigil img { display: block; width: 100%; height: 100%; object-fit: cover; transform: scale(1.52); }
 .article-body .gateway-overline { margin: 0; color: var(--gold-bright); font-size: .76rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
 .article-body .gateway-hero h2 { margin: .45rem 0 .7rem; padding: 0; color: #fff; font: 500 clamp(3.1rem, 8vw, 6.9rem)/.92 var(--serif); letter-spacing: -.055em; text-shadow: 0 5px 25px rgba(0,0,0,.55); }
 .article-body .gateway-hero p:not(.gateway-overline) { max-width: 620px; margin: 0 auto; color: #ddd6c8; font: 1.12rem/1.55 var(--serif); }
@@ -613,8 +614,7 @@ body:not(.home-view) .topbar {
 }
 
 body:not(.home-view) .brand-mark {
-  color: #17181d;
-  background: var(--gold);
+  background: #fff;
   box-shadow: 0 0 0 5px rgba(217, 185, 95, .06);
 }
 
@@ -866,16 +866,15 @@ body.hub-view .sidebar {
   border-right: 1px solid rgba(212,180,109,.14);
 }
 body.hub-view .sidebar::before {
-  content: "F";
-  display: grid;
+  content: "";
+  display: block;
   width: 48px;
   height: 48px;
   margin: 0 auto 1.3rem;
-  place-items: center;
-  color: #111319;
-  background: var(--gold);
-  clip-path: polygon(50% 0, 91% 22%, 91% 76%, 50% 100%, 9% 76%, 9% 22%);
-  font: 700 1.35rem/1 var(--serif);
+  background: #fff url('fenumion-logo.png') center / 152% no-repeat;
+  border: 1px solid var(--gold-bright);
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px rgba(212,180,109,.06);
 }
 body.hub-view .sidebar-intro,
 body.hub-view .nav-region-tree,

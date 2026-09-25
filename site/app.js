@@ -37,7 +37,7 @@ const articles = [
         <video id="gateway-banner-video" class="gateway-banner-video" muted loop playsinline preload="metadata" poster="assets/archive/world-map.jpeg" aria-hidden="true" tabindex="-1"><source src="assets/archive/fenumion-banner.mp4" type="video/mp4"></video>
         <button id="gateway-motion-toggle" class="gateway-motion-toggle" type="button" aria-pressed="false">Play motion</button>
         <div class="gateway-hero-inner">
-          <span class="gateway-sigil" aria-hidden="true">F</span>
+          <span class="gateway-sigil" aria-hidden="true"><img src="fenumion-logo.png" alt=""></span>
           <p class="gateway-overline">A living history reconstructed from play</p>
           <p>Characters leave fingerprints. Places remember. The past keeps acting on the present.</p>
           <label class="gateway-search"><span aria-hidden="true">⌕</span><span class="sr-only">Search the archive</span><input id="gateway-search" type="search" placeholder="Search the archive" autocomplete="off"><kbd>/</kbd></label>
@@ -362,11 +362,13 @@ const articles = [
   {
     id: "fenumion", title: "Fenumion", category: "Foundations", type: "World overview",
     dek: "A persistent D&D world where history accumulates, people leave fingerprints, and the past keeps acting on the present.",
-    tags: ["Living world", "West Marches", "Continuity", "Community"],
+    tags: ["Living world", "West Marches", "Continuity", "Community", "Consequence"],
     facts: { Form: "Persistent shared world", Center: "People and consequences", Method: "Rotating parties, continuous history", Theme: "Choice, sacrifice, responsibility" },
+    sources: ["Fenumion_Core_Most_Important_Parts_2026-09-24.zip — high-value interpretive core; synthesis rather than primary evidence", "Campaign scenes, chronicles, maps, and table outcomes"],
     body: `
       <p>Fenumion is less a collection of adventures than a place where adventuring has been happening for years. Parties rotate, characters rise and die, communities change, and the consequences remain. A building may exist because players founded it. A political relationship may trace back to a quest months earlier. A dead character can remain active in the grammar, grief, and decisions of the living.</p>
       <div class="callout gold"><p><strong>The shortest useful definition:</strong> Fenumion is accumulated history made playable.</p></div>
+      <div class="quote">You don’t primarily tell players stories. You build the world carefully enough that when players live inside it, stories happen.<cite>Fenumion design principle</cite></div>
       <h2 id="what-makes-it-living">What makes it living</h2>
       <p>The world does not reset around the current party. New players enter a history already in motion, while veteran characters keep discovering that old choices have acquired new meanings. The community is therefore not outside the setting; it is one of the setting’s authors.</p>
       <ul>
@@ -374,7 +376,10 @@ const articles = [
         <li><strong>People matter at every scale.</strong> A quiet tavern conversation can create a hunting expedition; a personal grief can become a cosmological crisis.</li>
         <li><strong>Truth arrives through provenance.</strong> Journals, gods, enemies, witnesses, and legends offer claims—not interchangeable omniscient narration.</li>
         <li><strong>Characters may be wrong.</strong> The world respects a sincere belief without promising that it is correct.</li>
+        <li><strong>Table outcomes become history.</strong> Honest rulings, dice, mistakes, missed clues, and unfinished arcs can create consequences without requiring secret predestination.</li>
+        <li><strong>Agency is not narrative ownership.</strong> A player character can change the world without becoming its sole protagonist or forcing reality to arrange itself around an intended arc.</li>
       </ul>
+      <div class="callout"><p><strong>Causal method:</strong> event → what became true → who inherited it → later choice → new consequence.</p></div>
       <h2 id="central-question">The central question</h2>
       <p>Across divine wars, resurrection, friendship, empire, and ordinary care, the same question recurs: <strong>whose sacrifice?</strong> Fenumion repeatedly tests whether power gives someone the right to spend another person’s life, soul, future, or freedom.</p>
       <div class="quote">My pain. Not everyone’s.<cite>Olokun</cite></div>
@@ -386,7 +391,7 @@ const articles = [
     dek: "The records come first. This Codex preserves corrections, disagreements, discovery order, and uncertainty instead of flattening every statement into fact.",
     tags: ["Primary source", "Provenance", "Chronology", "Canon"],
     facts: { Primary: "Campaign scenes and chronicles", Evidence: "303 preserved records", Taxonomy: "Six evidence kinds", Secondary: "Interpretive guides and mechanics corroboration", Rule: "Claims keep their speaker" },
-    sources: ["Fenumion_Wiki_Project_Folder — editorial architecture and evidence taxonomy, supplied 23 Sep 2026", "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — interpretive framework; not a replacement for primary logs", "Campaign logs, transcripts, maps, and chronicles", "docs/EDITORIAL_ARCHITECTURE.md — adapted working standard", "docs/SOURCE_MANIFEST.md — processed synthesis index"],
+    sources: ["Fenumion_Wiki_Project_Folder — editorial architecture and evidence taxonomy, supplied 23 Sep 2026", "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — interpretive framework; not a replacement for primary logs", "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — interpretive core and anti-flattening safeguards", "Campaign logs, transcripts, maps, and chronicles", "docs/EDITORIAL_ARCHITECTURE.md — adapted working standard", "docs/SOURCE_MANIFEST.md — processed synthesis index"],
     body: `
       <p>The Codex is a structured reading of 303 preserved campaign records. Scenes are compared, corrected, and re-read when later material changes their meaning. Mechanics files are used only as a secondary check where a name or implemented rule needs corroboration.</p>
       <div class="callout gold"><p><strong>Source hierarchy:</strong> primary scenes and records first; later synthesis second; mechanics corroboration only where relevant.</p></div>
@@ -401,19 +406,21 @@ const articles = [
       </div>
       <h2 id="consequence">The unit of history is consequence</h2>
       <p>The Codex does not stop at naming a quest. It asks what became true afterward: who remembers, which relationship changed, what place was altered, what knowledge entered or left the world, who paid the price, and which later event depended on it. Ordinary meals, markets, teaching, transport, jokes, and memorials belong in history when they change continuity.</p>
+      <p>If an outcome happened honestly at the table, it belongs to history. Dice, missed clues, failed plans, and character deaths may acquire later meaning without being rewritten as predestination. A coherent record preserves the contingency that made the choice real.</p>
       <h2 id="chronology">Discovery order matters</h2>
       <p>The players did not receive a clean biography of Wrath. They met fragments: a hostile journal, a terrifying first encounter, a trade involving Delerium, and a later Legend Lore. Each revelation changed the meaning of the earlier one. The Codex preserves that sequence because <em>how people learned something</em> is part of what happened.</p>
       <h2 id="knowledge-at-the-time">What was knowable at the time</h2>
       <p>A later answer does not grant earlier participants retroactive knowledge. Major histories distinguish what people observed, what they concluded, which choice followed, what later evidence changed, and which consequences were already irreversible. Wrong theories remain historical evidence when people acted on them.</p>
       <h2 id="distributed-knowledge">No automatic omniscience</h2>
       <p>Divine power, faction rank, regional authorship, or administrative authority does not automatically make a speaker omniscient. A regional secret may remain unknown elsewhere. “Scribonia concluded this,” “Talan judged this,” and “this is objectively true” are three different statements.</p>
+      <p>World authority is distributed. A person can steward one region and enter another as a genuinely uncertain participant. The archive preserves who authored a place, who knew what, which theory belonged to whom, and what still has no answer.</p>
       <h2 id="spoilers">Spoilers and perspective</h2>
       <p>This first edition is an out-of-character world guide. It includes major historical revelations. Rumor-only and contested material is labeled in the prose rather than quietly promoted to fact.</p>
       <h2 id="revisions-as-record">Revisions are part of the record</h2>
       <p>The chronicle preserves the moment an interpretation changed: Papirak’s memory loss first looked like divine censorship, then Paloma’s sacrifice revealed it as mercy as well as violation. Those revisions are part of the archive’s value. They show which conclusions survived contact with new evidence.</p>
       <h2 id="article-standard">What a complete record tries to preserve</h2>
       <p>Where evidence permits, an article records current state, confidence, chronology, participants, knowledge at the time, attributed beliefs, immediate and later consequences, changed relationships, unresolved questions, and source provenance. A short entry means the surviving archive supports less synthesis—not that its subject mattered less.</p>
-      <div class="callout"><p><strong>Editorial principle:</strong> help a newcomer understand the world without erasing the uncertainty, argument, and revision through which it was understood.</p></div>`
+      <div class="callout"><p><strong>Editorial principle:</strong> help a newcomer understand the world without erasing the uncertainty, argument, and revision through which it was understood. A referee, regional author, or god is not Ada; stewardship never turns interpretation into automatic truth.</p></div>`
   },
   {
     id: "cosmology-guide", title: "Cosmology & Metaphysics", category: "Cosmology", type: "Structural guide",
@@ -499,7 +506,7 @@ const articles = [
     dek: "The questions that recur across divine catastrophe, ordinary care, political power, grief, and the choices people make under pressure.",
     tags: ["Whose sacrifice?", "Stewardship", "Knowledge", "Hope", "Ordinary life"],
     facts: { "Central question": "Whose sacrifice?", Counterweight: "Power does not create permission", Measure: "Ordinary life", Method: "Evidence before interpretation" },
-    sources: ["THEMES_AND_STYLE.md — thematic and literary framework", "CANON_RULES.md — operating principles", "MASTER_TIMELINE.md — cross-timeline thematic links"],
+    sources: ["THEMES_AND_STYLE.md — thematic and literary framework", "CANON_RULES.md — operating principles", "MASTER_TIMELINE.md — cross-timeline thematic links", "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — five core questions and thematic cautions"],
     body: `
       <p>Fenumion’s themes are recurring questions, not verdicts that every scene must announce. They become visible because different people answer them differently and then live inside the consequences.</p>
       <div class="evidence-stack">
@@ -509,6 +516,8 @@ const articles = [
         <section class="evidence-card"><span>04</span><div><h3>Understanding is not forgiveness</h3><p>A villain may love, suffer, or tell the truth and remain dangerous. Explanation does not neutralize the sword.</p></div></section>
         <section class="evidence-card"><span>05</span><div><h3>The past keeps acting</h3><p>An old gift enables a resurrection; a burned tavern determines where people gather; a retreat changes the meaning of a later sacrifice.</p></div></section>
         <section class="evidence-card"><span>06</span><div><h3>Ordinary life is evidence</h3><p>Soup, bowls, schools, farms, markets, gardens, transport, and friendships show whether a cosmic victory produced a world worth living in.</p></div></section>
+        <section class="evidence-card"><span>07</span><div><h3>Knowledge does not create ownership</h3><p>Knowing a truth—or possessing the power to reveal it—does not automatically grant authority to force it into another person’s life.</p></div></section>
+        <section class="evidence-card"><span>08</span><div><h3>Relationships make history possible</h3><p>Gifts, trust, grief, mentorship, belonging, and unfinished love can determine which choices remain possible years later.</p></div></section>
       </div>
       <h2 id="hope-without-guarantee">Hope without guarantee</h2>
       <p>Hope does not promise survival, victory, fairness, or rescue. Nienna’s sacrifice could fail. A random Reincarnate result could change identity. Aria could die before her arc resolved. The Common Man could burn. Hope preserves possibility: tomorrow is not owned by today’s suffering. That makes it a structural answer to Dumuzi’s promise of finality without reducing it to guaranteed providence.</p>
@@ -520,9 +529,10 @@ const articles = [
     dek: "Relationships are historical objects: they acquire triggers, asymmetries, reversals, obligations, and consequences over time.",
     tags: ["Relationships", "Change over time", "Agency", "Memory"],
     facts: { Model: "Prior state → event → change → consequence", Rule: "Never only friend or enemy", Focus: "Behavior and asymmetry", Coverage: "Major recovered arcs" },
-    sources: ["RELATIONSHIPS.md — longitudinal relationship index", "CHARACTER_BIBLE.md — person-level chronology", "MASTER_TIMELINE.md — dated consequences"],
+    sources: ["RELATIONSHIPS.md — longitudinal relationship index", "CHARACTER_BIBLE.md — person-level chronology", "MASTER_TIMELINE.md — dated consequences", "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — relationships as causal infrastructure"],
     body: `
       <p>A static label such as <em>friend</em>, <em>enemy</em>, <em>teacher</em>, or <em>romance</em> cannot preserve what a relationship did to history. The archive tracks what came before, which event altered it, what each person believed, what behavior changed, and what remained unresolved.</p>
+      <div class="callout gold"><p><strong>Relationship method:</strong> what each person wanted → what changed through contact → how behavior changed → which later event became possible → what obligation survived separation or death.</p></div>
       <h2 id="love-and-opposition">Love without moral agreement</h2>
       <p><a href="#olokun"><strong>Olokun and Aria</strong></a> move from enemies toward familiarity, enjoyment, emotional importance, and love without resolving their political or moral opposition. Olo’s tenderness does not erase Scribonia’s imprisonment; Aria’s harms do not make Olo’s experience false.</p>
       <h2 id="old-actions-return">Old actions return through people</h2>
@@ -531,6 +541,8 @@ const articles = [
       <p><a href="#dale"><strong>Dale supports Saray</strong></a> while recognizing he cannot command her out of guilt. Gartina and Jiangshi compare analytic and embodied models of care without the record declaring a winner. Elenia’s relationships with Nienna, Adelia, and Magnus repeatedly test whether protection can remain stewardship rather than possession.</p>
       <h2 id="knowledge-and-boundaries">Knowledge and boundaries</h2>
       <p><a href="#eugene"><strong>Scribonia and Eugene</strong></a> move beyond teacher and student. Scribonia envies the dangerous knowledge entrusted to Eugene, yet recognizes that a former student does not owe every explanation. <a href="#casimir-alioth"><strong>Casimir and Alioth</strong></a> expose competing interpretations of loyalty: interpersonal strength to Alioth, institutional failure to Ephraith.</p>
+      <h2 id="obligations-that-survive">Obligations that survive</h2>
+      <p><a href="#elenia"><strong>Nienna remains active in Elenia’s choices</strong></a> after death. <a href="#papirak-paloma"><strong>Papirak and Paloma</strong></a> connect love, voluntary cost, erased memory, restored truth, and atonement across two millennia. <a href="#olokun"><strong>Olokun’s belonging to Rahu</strong></a> makes his criticism an obligation from within rather than dismissal from outside.</p>
       <h2 id="magnus-network">Magnus and contested belonging</h2>
       <p><a href="#magnus"><strong>Magnus Niriin</strong></a> belongs to no single relationship verdict. Dumuzi owns his soul; Zarathis remains the culture he sincerely calls his own; Aria’s fall destabilizes him; Elenia opposes him through terrifying force; Adelia supports and revives him before their later rupture; Miriel advances his political legitimacy; Wren’s trust collapses; Eugene still tries to heal him; and Olokun resists treating him as disposable.</p>
       <h2 id="love-and-possession">When love becomes possession</h2>

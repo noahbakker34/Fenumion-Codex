@@ -932,6 +932,7 @@ const articles = [
   },
   {
     id: "magnus", title: "Magnus Niriin", category: "People", type: "Tiefling warlock; Silver Star; political figure",
+    image: "magnus-portrait.jpg", imageLayout: "portrait-hero", imageAlt: "Magnus Niriin, a blue-skinned tiefling warlock with curled horns, glowing eyes, dark hair, and gold-trimmed black clothing", imageCaption: "Magnus Niriin — warlock, Silver Star, and political figure.",
     dek: "An ambitious Zarathian who seeks autonomy through power and leverage while his permanent bargain makes him the property of Death.",
     tags: ["Magnus Niriin", "Zarathis", "Silver Star", "Death", "Papirak"],
     facts: { Pattern: "Ambition → shortcut → leverage → dependency", Allegiance: "Silver Star; Zarathian political figure", "Soul bond": "Permanently belongs to Death", Record: "High confidence; early chronology partial" },
@@ -1314,6 +1315,7 @@ const articles = [
   },
   {
     id: "carmen", title: "Carmen", category: "People", type: "Deep gnome warlock; keeper of accounts",
+    image: "carmen-portrait.jpg", imageLayout: "portrait-hero", imageAlt: "Carmen, a purple-skinned deep gnome warlock in a feathered black hat, smiling behind a violet hand fan", imageCaption: "Carmen — warlock, negotiator, and keeper of accounts.",
     dek: "Carmen understands obligation as a ledger—who caused the damage, who fixed it, and who owes—but Paco forces her to confront the difference between price and value.",
     tags: ["Carmen", "Paco", "Prima", "Reciprocity"],
     facts: { Role: "Warlock and negotiator", Companion: "Paco", Instinct: "Track obligations and reciprocity", Question: "Can love exist without ownership?" },
@@ -1396,6 +1398,7 @@ const articles = [
   },
   {
     id: "sildithas", title: "Sildithas", category: "People", type: "Oathbound defender",
+    image: "sildithas-portrait.png", imageLayout: "portrait-hero", imageAlt: "Sildithas, a green-skinned elven defender wearing a blue cloak and leafy mantle", imageCaption: "Sildithas — oathbound defender and keeper of the light.",
     dek: "Sildithas begins as an instrument of near-divine will. When the gods stop fitting a neat moral hierarchy, he discovers that an oath can still preserve mercy, hope, flourishing, and joy without pretending certainty.",
     tags: ["Sildithas", "Duty", "Death", "Shadow Roads", "Oath", "The Maw", "Faith", "Joy"],
     facts: { Trial: "Died and returned after the Plains of Trial", Method: "Listen first, act second", Crisis: "Divine hierarchy no longer explains itself", "Moral floor": "Mercy · flourishing · joy · courage · hope", Response: "Create a small good while horror remains" },
@@ -1591,6 +1594,25 @@ const articles = [
       <p>The physical rescue, the characters’ knowledge, the mechanical ruling, and the later out-of-character dispute are separate layers of evidence. The Codex preserves Pappy’s danger and escape without using sympathy to settle the governance question.</p>`
   },
   {
+    id: "st-anky", title: "St. Anky", category: "People", type: "Adventurer; peace-linked figure",
+    image: "st-anky-portrait.png", imageLayout: "portrait-hero", imageAlt: "St. Anky, a small dark-skinned gnome in a green hood and cloak, raising a wooden tankard", imageCaption: "St. Anky — adventurer, traveler, and remembered ally.",
+    dek: "A recurring companion in journeys through ancient history, the Shadow Roads, and the later struggle to preserve peace between Rahu and Pristinia.",
+    tags: ["St. Anky", "Nuru", "Rahu", "Pristinia", "Shadow Roads", "Babel-Ashur"],
+    facts: { Encounters: "The Gate · Shadow Roads · Babel-Ashur era", Association: "Nuru; Rahu–Pristinia peace", Status: "Remembered as dead by May 2026", Record: "Fragmentary" },
+    sources: ["MASTER_TIMELINE.md — Gate journey, Shadow Roads, and May 2026 remembrance", "CHARACTER_BIBLE.md — Nuru and the Rahu/Pristinia peace context", "Olokun_Ultimate_Character_History_and_Codex_Profile.md — relationship gaps and later remembrance"],
+    body: `
+      <p>St. Anky appears across several major thresholds in the recovered record. He travels with the group that witnesses the Gate’s construction in ancient Prima, later arrives at the Shadow Roads, and remains part of Olokun’s remembered circle during the Babel-Ashur crisis.</p>
+      <h2 id="gate">Witness to the Gate’s construction</h2>
+      <p>On 30 December 2024, St. Anky travels with Olokun, Cecil, Coralyn, and Fenwick into ancient Prima. The travelers encounter young Papirus, Cala, and Nuru while the Gate is being built. Their intervention takes the form of information—a map of the shattered world—rather than an attempt to rewrite the catastrophe outright.</p>
+      <h2 id="shadow-roads">The Shadow Roads</h2>
+      <p>St. Anky is present when the party enters the Shadow Roads on 14 September 2025. The recovered summary places his arrival alongside Ithilrûnë’s crossing and the emergence of another dark being, but his exact actions and knowledge during the encounter have not yet been recovered.</p>
+      <h2 id="peace">Rahu, Pristinia, and Nuru</h2>
+      <p>Later records associate Anky and Nuru with peace between Rahu and Pristinia. The surviving evidence does not yet establish Anky’s precise office, negotiations, or relationship with Olokun, so the Codex preserves the association without inventing the missing political history.</p>
+      <h2 id="remembrance">Remembered among the dead</h2>
+      <p>During the Babel-Ashur crisis of 5 May 2026, Olokun remembers Dale and Anky as dead. That remembrance establishes the loss but not its date, place, or cause. Those circumstances remain one of the open gaps in St. Anky’s history.</p>
+      <div class="callout gold"><p><strong>Record boundary:</strong> St. Anky’s presence, peace association, and later death are supported. His origins, full relationship with Olokun, and the circumstances of his death remain unresolved.</p></div>`
+  },
+  {
     id: "thorn", title: "Thorn", category: "People", type: "Veilguard; returned survivor",
     dek: "Thorn belongs to the Veilguard, died on a Gael husk hunt, and later returned—while the mechanism connecting those facts remains unknown.",
     tags: ["Thorn", "Veilguard", "Gael", "Unresolved return"],
@@ -1784,7 +1806,7 @@ const archiveIndex = {
     { title: "Arjahn", meta: "Soldier and mapper", article: "arjahn", summary: "A disciplined protector who plans routes home and makes other people’s solutions stronger." },
     { title: "Brianna", meta: "Character sighting", article: "ghilsen", summary: "Ghilsen’s ‘Wifey’; enters the Shadow Roads holding him close and later confronts darkness pulled from her body." },
     { title: "Cecil", meta: "Character sighting", article: "new-year-address", summary: "A careful observer remembered for attention to individual vines and leaves; travels through time with Olokun." },
-    { title: "Carmen", meta: "Character record", article: "carmen", summary: "A deep gnome warlock whose ledger of obligation is tested by Paco’s unchosen sacrifice." },
+    { title: "Carmen", meta: "Character record", article: "carmen", image: "carmen-portrait.jpg", summary: "A deep gnome warlock whose ledger of obligation is tested by Paco’s unchosen sacrifice." },
     { title: "Coralyn", meta: "Aquatic adventurer", article: "coralyn", summary: "Explains cosmology through the sea and openly dissents when the Shadow Roads feel wrong." },
     { title: "Dale", meta: "Musician and practical caretaker", article: "dale", summary: "Turns concern into courage, food, shelter, tools, and consultation without trying to own another person’s grief." },
     { title: "Dez", meta: "Character sighting", article: "people-directory", summary: "A tavern-scene presence who repeatedly opens conversational space for Ghilsen and Magnus." },
@@ -1795,7 +1817,7 @@ const archiveIndex = {
     { title: "Ithilrûnë", meta: "Scholar and seeker", article: "ithilrune", summary: "Uses knowledge to preserve choice; the Maw forces her to admit ignorance and accept another person’s wisdom without abandoning her own." },
     { title: "Jéane Rose", meta: "Speedster and explorer", article: "jeane-rose", summary: "Experiences thought, friendship, travel, and the obligation to protect at extraordinary speed." },
     { title: "Jiangshi", meta: "Character record", article: "jiangshi", summary: "An adventurer returned from death whose story tests care, grief, and agency." },
-    { title: "Magnus Niriin", meta: "Warlock, Silver Star, political figure", article: "magnus", summary: "An ambitious Zarathian whose pursuit of leverage succeeds even as it deepens his dependence on Death and fractures trust." },
+    { title: "Magnus Niriin", meta: "Warlock, Silver Star, political figure", article: "magnus", image: "magnus-portrait.jpg", summary: "An ambitious Zarathian whose pursuit of leverage succeeds even as it deepens his dependence on Death and fractures trust." },
     { title: "Minerva", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Nienna", meta: "Character record", article: "nienna", image: "nienna-portrait.png", summary: "An absent presence whose sacrifice continues to act through the living." },
     { title: "Nymera", meta: "Character sighting", article: "elenia", summary: "A follower of Cala who questions why other devotees reach for violence when protection does not require it." },
@@ -1805,11 +1827,11 @@ const archiveIndex = {
     { title: "Quake", meta: "Character sighting", article: "roderick-wrath", summary: "Refuses Wrath’s bargain before its full danger is understood; protected by Elenia’s practiced memory of earlier loss." },
     { title: "Saray", meta: "Survivor of grief", article: "saray", summary: "Carries guilt after Nienna’s death and later lands the final blow against Wrath; the connecting chronology remains incomplete." },
     { title: "Rahn", meta: "Character sighting", article: "people-directory", summary: "A sparsely recorded flying adventurer preserved in the recovered scene catalogue." },
-    { title: "Saint Anky", meta: "Character sighting", article: "ithilrune", summary: "Arrives at the Shadow Roads as Ithilrûnë crosses and another dark being emerges." },
+    { title: "St. Anky", meta: "Adventurer; peace-linked figure", article: "st-anky", image: "st-anky-portrait.png", summary: "A recurring companion associated with the Gate, the Shadow Roads, and peace between Rahu and Pristinia." },
     { title: "Scribonia", meta: "Magi and scholar", article: "scribonia", summary: "Self-defined before every label; brave in argument and often unable to relinquish the last word." },
     { title: "Selwyn", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Severina", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
-    { title: "Sildithas", meta: "Oathbound defender", article: "sildithas", summary: "Meets uncertain divine authority by returning to an oath of mercy, flourishing, courage, and preserved joy." },
+    { title: "Sildithas", meta: "Oathbound defender", article: "sildithas", image: "sildithas-portrait.png", summary: "Meets uncertain divine authority by returning to an oath of mercy, flourishing, courage, and preserved joy." },
     { title: "Swiftfoot", meta: "Character sighting", article: "new-year-address", summary: "Remembered in the community retrospective for a sacrifice carried into shared history." },
     { title: "Thorn", meta: "Veilguard and returned survivor", article: "thorn", summary: "Dies on a Gael husk hunt, is later caught in a cult ritual, and returns by September 2026 through an unresolved mechanism." },
     { title: "Tshuka", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
@@ -2068,7 +2090,7 @@ const navigationRegions = [
         { label: "Nienna", article: "nienna" }, { label: "Olokun", article: "olokun" },
         { label: "Pappy", article: "pappy" }, { label: "Saray", article: "saray" },
         { label: "Scribonia", article: "scribonia" }, { label: "Sildithas", article: "sildithas" },
-        { label: "Thorn", article: "thorn" }, { label: "Vaerik", article: "vaerik" },
+        { label: "St. Anky", article: "st-anky" }, { label: "Thorn", article: "thorn" }, { label: "Vaerik", article: "vaerik" },
         { label: "Wren", article: "wren" }
       ]},
       { title: "Groups & orders", items: [

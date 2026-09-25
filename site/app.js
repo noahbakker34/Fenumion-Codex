@@ -879,6 +879,27 @@ const articles = [
       </ul>`
   },
   {
+    id: "ececilia-emojis", title: "Ececilia’s Emoji Gallery", category: "People", type: "Community artist appreciation",
+    dek: "A small gallery celebrating the character emojis Ececilia creates for the Fenumion community.",
+    tags: ["Ececilia", "Character art", "Community archive", "Gartina", "Elenia"],
+    facts: { Artist: "Ececilia", Collection: "2 character emojis", Characters: "Gartina · Elenia", Purpose: "Thanks and community recognition" },
+    sources: ["Chibi_Tina.png — Gartina character emoji supplied by the creator", "Chibi_Elenia-2-removebg-preview.png — Elenia character emoji supplied by the creator"],
+    body: `
+      <p>Fenumion is remembered not only through chronicles, maps, and campaign scenes, but through the art its community makes for one another. Ececilia’s emojis preserve the characters at their most immediate: expressive, affectionate, and ready to become part of everyday conversation.</p>
+      <div class="callout gold"><p><strong>Thank you, Ececilia,</strong> for giving the people of Fenumion another way to see, share, and celebrate the characters they love.</p></div>
+      <div class="emoji-gallery" aria-label="Character emoji artwork by Ececilia">
+        <figure class="emoji-card">
+          <div class="emoji-art-frame"><img src="gartina-chibi.png" alt="Chibi emoji of Gartina smiling while holding a large red heart" loading="lazy"></div>
+          <figcaption><strong>Gartina</strong><span>Character emoji by Ececilia.</span></figcaption>
+        </figure>
+        <figure class="emoji-card">
+          <div class="emoji-art-frame"><img src="elenia-chibi.png" alt="Chibi emoji of Elenia cheering with flowers woven through her blond hair" loading="lazy"></div>
+          <figcaption><strong>Elenia</strong><span>Character emoji by Ececilia.</span></figcaption>
+        </figure>
+      </div>
+      <p>This is a living gallery. Future Ececilia character emojis can join the collection without displacing the artwork already preserved here.</p>`
+  },
+  {
     id: "akarian", title: "Akarian", category: "People", type: "Warrior; Guardian of Gael",
     video: "assets/archive/akarian.mp4", videoAlt: "Animated portrait of Akarian", videoCaption: "Akarian — Guardian of Gael.",
     dek: "A practical warrior remembered by the surviving record as the Guardian of Gael—a title that binds one person to a recovering land.",
@@ -997,7 +1018,7 @@ const articles = [
   },
   {
     id: "aria-pride", title: "Aria / Pride", category: "People", type: "Knight II of Death",
-    image: "assets/archive/knight-of-death-2.png", imageAlt: "Second armored Knight of Death artwork", imageCaption: "Knight of Death II — preserved character study.",
+    image: "aria-pride-portrait.png", imageLayout: "portrait-hero", imageAlt: "Aria, Pride and Knight II of Death, standing in pale armor with a long sword and dark cape", imageCaption: "Aria / Pride — Knight II of Death.",
     dek: "A political and social antagonist whose sharpest weapon is not force, but memory, provenance, and knowing exactly what an audience already believes.",
     tags: ["Pride", "Death", "Zarathis", "Attachment"],
     facts: { Title: "Pride, Knight II", Father: "Dumuzi / Death", "Power center": "Belief and social history", Counterpoint: "Attachment as weakness" },
@@ -1015,10 +1036,11 @@ const articles = [
   },
   {
     id: "elenia", title: "Elenia", category: "People", type: "Cleric; bearer of light",
+    image: "elenia-portrait.png", imageLayout: "medallion-hero", imageAlt: "Elenia, a satyr cleric, gathering golden light in her hands beneath a bright sky", imageCaption: "Elenia — satyr cleric and bearer of light.",
     dek: "Wonder becomes practice, practice becomes responsibility, and responsibility becomes the question of what one person should be allowed to do with divine-scale power.",
     tags: ["Elenia", "Cala", "Hope", "Nienna", "Mya", "Gael", "Pristinia", "Power and permission"],
     facts: { Role: "Cleric and bearer of light", "Public title": "Savior of Pristinia", Trajectory: "Wonder → practice → responsibility", Patron: "Cala", Transformation: "Returned as a satyr", Danger: "Capability becoming authority" },
-    sources: ["ELENIA_HISTORY.md — consolidated profile and chronology", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — changing relationship histories", "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map", "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record"],
+    sources: ["ELENIA_HISTORY.md — consolidated profile and chronology", "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — changing relationship histories", "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map", "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record"],
     body: `
       <p>Elenia can move through extraordinary magic with casual delight and still take another person’s spiritual crisis seriously. Her wisdom is not superior intelligence or permanent solemnity. It is a repeated process: wonder leads to curiosity; curiosity becomes experience; experience becomes meaning; and meaning changes what she does the next time somebody is in danger.</p>
       <div class="quote">Just be the light.<cite>Elenia</cite></div>
@@ -1026,7 +1048,11 @@ const articles = [
       <h2 id="wonder">Wonder before certainty · April 2024</h2>
       <p>Early Elenia barely knows Cala as the “lady of light … or something like that.” She follows a possible divine call through a forest, repeatedly noticing flowers and beauty, and admits that perhaps she was only hopeful. She experiments with the environment instead of waiting passively for revelation, places her hands on the ground, and offers herself as an instrument to carry light into dark places.</p>
       <div class="quote">I think Cala was calling me … but maybe I was just hopeful.<cite>Elenia</cite></div>
-      <p>She says, “I am here, tell me where to go,” then offers to serve as an instrument of light. Later Elenia outgrows the idea that faithful service means surrendering judgment. Her authority does not begin with chosen-one certainty; it begins with curiosity, vulnerability, and action taken without pretending she already understands.</p>
+      <p>When Cala tells her that she hopes Elenia knows how to pray, Elenia does not claim certainty. She accepts that action will reveal what devotion means.</p>
+      <div class="quote">I suppose this is where we find out Lady Cala.<cite>Elenia</cite></div>
+      <p>She says, “I am here, tell me where to go,” then offers to serve as an instrument of light. In another early scene, listening has a physical cost: acid burns her back while others hold attackers away, and she stops long enough to hear Cala.</p>
+      <div class="quote">I am sorry Cala! I will listen now!<cite>Elenia</cite></div>
+      <p>Later Elenia outgrows the idea that faithful service means surrendering judgment. Her authority does not begin with chosen-one certainty; it begins with curiosity, vulnerability, and action taken without pretending she already understands.</p>
       <h2 id="mya-gael">Mya and the first living Gael · June 2024</h2>
       <p>Mya tells Elenia to remain a child of wonder and a light where darkness is strongest. Elenia answers by literally casting Light. Their relationship turns Hope into a method: wonder is not proof, but it can create a reason to act carefully and discover what might become true.</p>
       <p>Elenia and Adelia belong to the communal history of Gael’s first living foothold. They help establish or prove life in a land defeated by Death; Gartina turns toward practical ecological restoration; Nienna, Dale, and others bring labor, defense, resources, and sacrifice. Hope is not the achievement of one chosen hero.</p>
@@ -1043,20 +1069,21 @@ const articles = [
       <h2 id="faith">Faith with conditions</h2>
       <p>Elenia’s earliest offer is almost complete surrender: let me serve, let me be your instrument. Her mature faith is more demanding. She can trust Mya, question Talan, judge Nuru and Aionia independently, and ask the gods to demonstrate that they remain worth following.</p>
       <p>Her purpose in Fein Uaill is described as less about rekindling her own faith than kindling any faith among the Zarathians. She can believe in light without requiring the divine order to be morally flawless.</p>
+      <div class="quote">Less to rekindle my faith, more to kindle any faith in the Zarathians.<cite>Elenia</cite></div>
       <h2 id="magnus">Magnus and the limit of restraint · December 2025</h2>
       <p>After a divine battle in which Elenia says she restored roughly one hundred people, Magnus challenges her or tries to turn others against her in a fight-to-the-death context—a duel over who was right. Elenia wins but does not kill him. Instead, she uses divine magic to remove or erase his face.</p>
       <div class="quote">It was a duel to see who was right, but I didn’t want to kill him.<cite>Elenia</cite></div>
       <p>The choice is restraint without innocence. Refusing to kill does not make the alternative gentle, and preserving a life does not automatically grant permission to transform a body. The scene exposes the question at the center of later Elenia: when she can do almost anything, who decides what she should do?</p>
       <p>The detailed Magnus profile and current chronology connect the wider reaction to Elenia’s exile from Fein Uaill. One derivative timeline summary instead names Magnus as banished. The archive favors the detailed account while preserving the discrepancy until the original battle and judgment record is recovered.</p>
       <h2 id="ordinary-care">Ink, Brianna, and healing forward · 2026</h2>
-      <p>On 15 January, Elenia obtains ink for Eugene’s spellbook. She materially invests in the learning of someone who often doubts his own worth. The archive places this errand beside resurrection, bodily alteration, and exile because cosmic authority does not remove her from the small needs of another person.</p>
+      <p>On 15 January, Elenia obtains ink for Eugene’s spellbook. She materially invests in the learning of someone who often doubts his own worth. The archive places this errand beside resurrection, bodily alteration, and exile because cosmic authority does not remove her from the small needs of another person. The measure of great power is partly whether ordinary people remain visible from that height.</p>
       <p>After Magnus forces Delerium into Brianna, Elenia calls Mya. Hope sanctifies or cleanses the crystal rather than pretending the violation never occurred. This is healing through history: transform what remains without erasing what happened.</p>
       <h2 id="miracle">The Miracle of Fenumion · 2026</h2>
       <p>Elenia dies and Reincarnate returns her as a satyr through an unfudged one-in-250 result. The party had already accepted that she might return changed. The event feels like grace precisely because nobody guaranteed it. The archive does not claim Ada caused the roll, and Elenia’s cause of death and exact place in the 2026 chronology remain unresolved.</p>
       <h2 id="mountain">Biblical destruction · August 2026</h2>
       <p>Elenia joins Scribonia, Eugene, Arjahn, and others in unmaking a mountain through catastrophic weather and Earthquake: fissures, avalanche, floodwater, lava, boulders, and a vast column of steam and smoke. Before acting, she prays that any unknown people in the storm’s path be sheltered or removed. During the retreat she looks for anyone else trying to escape and accepts environmental limits rather than demanding that her power override them.</p>
       <div class="quote">As the storm rages on, the mountain claws at its own face … Nothing is visible except for biblical destruction.<cite>The mountain expedition</cite></div>
-      <p>She asks where the boundary is, accepts “no,” and uses Gate to send Nymera home. The scene does not absolve the participants because their objective is justified. It asks whether mortals were ever meant to hold this degree of power and whether there can be a return after using it. Elenia’s attention still returns to individual people—but the radius of what she can destroy has become enormous.</p>
+      <p>She asks where the boundary is, accepts “no,” and uses Gate to send Nymera home. The scene does not absolve the participants because their objective is justified. It asks whether mortals were ever meant to hold this degree of power and whether there can be a return after using it. Elenia’s attention still returns to individual people—she continues looking sideways even while acting at enormous scale—but the radius of what she can destroy has become enormous.</p>
       <h2 id="relationships">Relationships that carry the history</h2>
       <ul>
         <li><strong>Cala:</strong> early patron and call toward light; later faith no longer suspends Elenia’s judgment.</li>
@@ -1072,7 +1099,9 @@ const articles = [
       </ul>
       <h2 id="danger">The danger inside her virtue</h2>
       <p>Elenia’s strength is not refusing power. She uses it quickly and aggressively when she thinks action is required. Her danger is the inference that competence can become permission: <em>I understand the threat; I can bear the cost; therefore I should decide.</em></p>
-      <p>Elenia is compelling because she remains attentive while becoming mighty—not because might makes her automatically right. Her strongest future evidence will be failures and corrections: moments when help becomes authority, when someone refuses her intervention, or when listening costs more than action.</p>
+      <p>Elenia is compelling because she remains attentive while becoming mighty—not because might makes her automatically right. She does not need to become cruel for care to become dangerous; certainty would be enough. Her strongest future evidence will be failures and corrections: moments when help becomes authority, when someone refuses her intervention, or when listening costs more than action.</p>
+      <h2 id="interpretive-boundary">Interpretive boundary</h2>
+      <p>The supplied “favorite character” essay identifies the stewardship problem with unusual clarity, but it is an analyst’s interpretation rather than objective canon. The record does not declare Elenia destined for greatness, excuse the violence done to Magnus because she spared his life, or pre-answer whether she will become a caretaker without becoming an owner. That test remains live.</p>
       <h2 id="unresolved-elenia">Unresolved record</h2>
       <ul>
         <li>Her history before Cala’s possible call in April 2024.</li>
@@ -1171,32 +1200,55 @@ const articles = [
       <p>Hope is also Nienna’s legacy. Later language still names Nienna alongside Adelia and Elenia even after her death. The grammar preserves the truth that the living result belongs partly to someone no longer present.</p>`
   },
   {
-    id: "nienna", title: "Nienna", category: "People", type: "Absent presence",
-    dek: "A friend remembered as a sister whose sacrifice continues to shape Hope, Elenia, and the moral language of the living.",
-    tags: ["Hope", "Elenia", "Sacrifice", "Memory"],
-    facts: { Relation: "Elenia’s friend and sister in feeling", Event: "Died so Hope could live", Presence: "Named in later achievements", Theme: "Love remains worthwhile after loss" },
+    id: "nienna", title: "Nienna", category: "People", type: "Explorer; bearer of Hope; absent presence",
+    image: "nienna-portrait.png", imageLayout: "landscape-hero", imageAlt: "Nienna seated beside a dark dragon above a purple sea beneath a burning twilight sky", imageCaption: "Nienna — explorer, survivor, and bearer of Hope.",
+    dek: "A frightened woman who learned that survival can be wise, then recognized the rare moment when her own life truly was hers to spend.",
+    tags: ["Nienna", "Hope", "Elenia", "Gartina", "Jiangshi", "Dale", "Sacrifice", "Memory", "Agency"],
+    facts: { "Defining question": "When is survival wisdom, and when is sacrifice courage?", Wound: "Believed flight revealed cowardice", "Final choice": "Voluntary sacrifice during the Hallowing of Hope", Presence: "Continues through memory and later choices", Theme: "The person spending a life must own the choice" },
+    sources: ["Nienna_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon", "MASTER_TIMELINE.md — dated and unresolved event spine", "CHARACTER_BIBLE.md — character and relationship synthesis", "RELATIONSHIPS.md — Nienna’s continuing influence through Elenia, Dale, and Saray", "Fenumion_Codex_Words_the_World_Remembers.md — preserved dialogue"],
     body: `
-      <p>Nienna demonstrates one of Fenumion’s clearest rules: death does not remove a person from causality. Her sacrifice makes Hope possible, and later characters continue to speak as though she participated in what followed—because she did.</p>
+      <p>Nienna demonstrates one of Fenumion’s clearest rules: death does not remove a person from causality. Her history is not a simple ascent from cowardice to courage. She first survives a retreat whose morality remains unresolved; later, in a different crisis, she chooses to spend the life she had learned was worth preserving. Her final act changes what the earlier flight means without proving that flight was wrong.</p>
+      <div class="callout gold"><p><strong>Core distinction:</strong> Nienna does not learn that survival is shameful. She learns that survival has value—and therefore understands the price when she finally chooses to spend it.</p></div>
       <h2 id="gael-expedition">The expedition to Gael</h2>
       <p>Nienna acquired a ship and freed or sprung its crew, then joined the chain of discoveries that reached Gael by June 2024. She said she would have attempted the journey alone and believed the Void would have killed her. Her testimony also preserves one horrific crossing method in which unwilling souls were fed to the Void’s inhabitants; it does not establish that all historical travel worked that way.</p>
-      <h2 id="retreat">Retreat is not betrayal</h2>
-      <p>Nienna carried shame for fleeing the disaster involving Jiangshi, especially after Adelia and Bitoshi blamed her and Nuru called her a coward. Gartina argued that returning would only have killed more people and that “never leave an ally behind” can produce needless deaths. This matters because Nienna did not begin as someone eager for heroic self-sacrifice; her later willingness to pay a voluntary personal price was a choice, not the inevitable expression of a death wish.</p>
-      <h2 id="elenia">Elenia’s answer</h2>
-      <p>Elenia does not transform grief into a warning against attachment. She carries forward what Nienna represented. That memory becomes part of how she resists Aria’s claim that love is merely a future weakness.</p>
-      <h2 id="history">History in grammar</h2>
-      <p>When later accounts name Nienna beside the living builders of Hope, the world quietly refuses to flatten accomplishment into whoever survived long enough to receive credit.</p>`
+      <div class="quote">I would have come alone you know. And I would have met my end. Alone, in the void, cold and alone.<cite>Nienna</cite></div>
+      <h2 id="jiangshi">Jiangshi and the wound in her self-conception</h2>
+      <p>After Jiangshi is lost, Nienna does not discuss cowardice as an abstraction. Adelia and Bitoshi blame her for leaving. She reports that Nuru—the god of her people, whom she once worshipped—looked on the others with approval and named her a “pathetic coward.” Nienna does not dismiss the judgment as cruelty. She fears it reveals what she truly is.</p>
+      <div class="quote">This is about Nuru seeing the true condition of my heart.<cite>Nienna</cite></div>
+      <p>The archive preserves the attribution carefully: this is Nienna’s report of Nuru’s judgment and Nienna’s belief about herself, not an objective verdict from the Codex.</p>
+      <h2 id="retreat">Gartina’s defense of retreat</h2>
+      <p>Gartina refuses the easy answer that brave people never run. Returning for Jiangshi would probably have produced another corpse and left both bodies unrecoverable. “Never leave an ally behind” can turn loyalty into pointless death; knowing how, why, and when to flee may be knowledge that other people lack.</p>
+      <p>This defense keeps the earlier event morally open. The Jiangshi retreat and Nienna’s later sacrifice answer different circumstances. Her death does not prove Adelia, Bitoshi, or Nuru right, and it does not prove Gartina wrong.</p>
+      <h2 id="hallowing">The Hallowing of Hope</h2>
+      <p>During the Hallowing, Nienna does not become fearless or abandon the instincts that once kept her alive. She behaves tactically, conserves resources, remembers where danger came from, trusts defenses, and tries to survive. When the Gate threatens everything, the situation changes. She draws the enemy away and runs toward the place where spending her life can preserve Hope and allow the others’ work to continue.</p>
+      <div class="quote">Please, let me run.......one last time.<cite>Nienna</cite></div>
+      <p>The repeated action carries the transformation: she does not become courageous by ceasing to run. She decides what she is willing to run toward. The exact date and full sequence of the Hallowing remain unresolved in the recovered chronology.</p>
+      <h2 id="choice">A sacrifice she owns</h2>
+      <p>Nobody selects Nienna as an acceptable casualty. She identifies the price herself and acts so that the people who love her cannot overrule her. Its moral force comes from agency: the life being spent belongs to the person spending it. Her act therefore stands against systems in which powerful figures volunteer other people for a future they have chosen.</p>
+      <p>She also wants to live. Her farewell is affectionate, frightened, hopeful, and still reaching toward a future she will not see. That desire makes death a real price rather than a dramatic pose.</p>
+      <div class="quote">Dale, maybe if you have a daughter.......name her after me?<cite>Nienna</cite></div>
+      <div class="quote">You’re foolish, Miss Nienna, but oh so brave.<cite>Dale</cite></div>
+      <h2 id="death">Her answer to Death</h2>
+      <p>Death declares that nobody will come to her aid. Nienna does not answer with greater power or guaranteed rescue. She dies, but refuses to let death decide whether everyone else’s story continues.</p>
+      <div class="quote">Fight on. This is not the end. See you in another life.<cite>Nienna</cite></div>
+      <h2 id="afterlife">Consequence outlives presence</h2>
+      <p>Elenia does not transform grief into a warning against attachment. Dale carries Nienna’s memory. Saray’s guilt and later choices remain connected to the loss. The witnesses to Nienna’s decision carry it into the world’s understanding of Hope, courage, and continuation.</p>
+      <p>When later accounts name Nienna beside the living builders of Hope, the world refuses to flatten accomplishment into whoever survived long enough to receive credit. Her history follows a central Fenumion sequence: person → choice → consequence → memory → later choice.</p>
+      <h2 id="record-boundary">Record boundary</h2>
+      <p>The supplied “favorite character” essay is an explicitly interpretive reading, not objective canon. Its strongest synthesis is preserved here because it fits the recovered scenes, but its preference remains the analyst’s. The Codex does not declare Nienna one of the world’s “best” characters, retroactively condemn her retreat, or turn her sacrifice into a universal rule for anyone else.</p>`
   },
   {
     id: "gartina", title: "Gartina", category: "People", type: "Halfling chef; protector; adventurer",
-    image: "gartina-chibi.png", imageLayout: "portrait-hero", imageAlt: "Chibi portrait of Gartina smiling while holding a large red heart", imageCaption: "Gartina — character emoji by Ececilia.",
-    dek: "Gartina turns attention into care: tea, tactics, ecological balance, practical questions—and an increasingly desperate hope that preparation can prevent loss.",
+    image: "gartina-portrait.png", imageLayout: "landscape-hero", imageAlt: "Gartina, a friendly dark-haired halfling chef and gardener, carrying food against a painted autumn landscape", imageCaption: "Gartina — chef, gardener, protector, and adventurer.",
+    dek: "Gartina asks what it means to accept responsibility for something one does not own—and answers through attention, soil, food, consultation, and revision.",
     tags: ["Gartina", "Gael", "Hope", "Pristinia", "Zarathis", "Care", "Stewardship", "Refugees"],
-    facts: { Role: "Chef, gardener, investigator, protector", Method: "Understand → act → observe → revise", Relationship: "Draegar", "Love model": "Attention → knowledge → competent care", Tension: "Preparation becoming self-blame", Artwork: "Character emoji by Ececilia" },
-    sources: ["GARTINA_HISTORY.md — consolidated profile and chronology", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine", "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis"],
+    facts: { Role: "Chef, gardener, investigator, protector", "Defining question": "What work does responsible care require?", Method: "Understand → act → observe → revise", Relationship: "Draegar", "Love model": "Attention → knowledge → competent care", Tension: "Preparation becoming self-blame", Artwork: "Portrait; Ececilia emoji in the artist gallery" },
+    sources: ["GARTINA_HISTORY.md — consolidated profile and chronology", "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine", "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis"],
     body: `
       <p>Gartina often enters history carrying food or drink. Tea, coffee prepared specifically for Olokun, and scones are not decorative quirks; they are how she brings a crisis down to a scale where people can think together. Her intelligence is practical, observant, and willing to revise itself.</p>
       <div class="quote">You’ve got to have a code.<cite>Gartina</cite></div>
       <div class="callout gold"><p><strong>Core proposition:</strong> if you care about something, learn it well enough that your care becomes competent.</p></div>
+      <p>Her care is not an argument for non-intervention. Gardening, farming, conservation, protection, governance, and divine stewardship all choose what may flourish. Gartina’s demand is that caretakers admit those choices, learn enough to make them responsibly, observe what actually follows, and revise themselves when reality proves them wrong.</p>
       <h2 id="origins">Cooking, gardening, and her parents</h2>
       <p>Gartina was a gardener and cook before the better-documented Gael history. She learned through spectacular culinary failure, reading, repeated practice, observation, and trying again. The same loop later governs her ecology and strategy: <em>try → fail → observe → learn → try again.</em></p>
       <p>Her parents followed her work from poor restaurants to increasingly ambitious cuisine. They repeatedly showed up, expressed pride, and wanted her to reach her potential. Both are dead by the Zarathis garden conversation. Their love becomes Gartina’s model of care: attention creates curiosity; curiosity creates knowledge; knowledge makes support competent.</p>
@@ -1210,14 +1262,14 @@ const articles = [
       <h2 id="restoration">Making life durable</h2>
       <p>Elenia and Adelia help establish or prove a living foothold; Gartina turns toward contaminated soil, viable plants, remediation, seeds, pollination, ecological succession, and practical expansion. By 24 February 2025, Hope and Stake are visible from the Tower, Shadowangel Forest is new, and Gartina says she helped spring the changed terrain into existence.</p>
       <div class="quote">Gael is free of Wrath’s taint. What was lost can begin to grow anew.<cite>Gartina</cite></div>
-      <p>Her importance lies in continuity. Somebody must remain after a miracle and determine how tomorrow works. Adelia’s later transformation expands an existing restoration; it does not erase the earlier communal labor.</p>
+      <p>Her importance lies in continuity. Gael gives her a world-sized gardening problem, and the miracle is not enough. Somebody must remain afterward and determine how tomorrow works: what grows, where seeds come from, how pollination continues, and how restored life spreads. Adelia’s later transformation expands an existing restoration; it does not erase the earlier communal labor.</p>
       <h2 id="staying">The choice to remain</h2>
       <p>Before February 2025, Adelia leaves Gael with a group that includes Elenia. Gartina does not know where they went. The Tower becomes quieter. She wants eventually to catch up, but remains because refugees need care, Shadowangel Forest needs exploration, and too few new arrivals from Prima are replacing those who left.</p>
       <p>It is continuity work rather than spectacle: staying where the need remains after attention has moved elsewhere.</p>
       <h2 id="refugees">Soup, shelter, and consultation · 24 February 2025</h2>
       <p>Refugees around the Tower live in huts and shacks with occasional magical shelter. Their ship crashed near Crustacean Cove and may be beyond repair. Gartina worries they may feel forgotten, so she and Dale make chicken noodle soup. The discovery that there are no bowls or utensils leads Dale to spend roughly four hundred gold pieces on bowls and spoons.</p>
       <p>Immediate care becomes settlement planning. Dale proposes salvaging the wreck for a longhouse. Gartina considers Draygar’s materials and stone or metal from safer parts of the Plains. Then Dale asks whether anyone has consulted the refugees about leadership or their settlement. Gartina admits survival needs had displaced that conversation.</p>
-      <p>The correction matters: feeding, sheltering, and planning for people do not grant ownership of their future. Dale goes to ask about using the wreckage.</p>
+      <p>The correction matters: feeding, sheltering, and planning for people do not grant ownership of their future. Dale goes to ask about using the wreckage. Gartina’s work converts cosmic victory into a place where somebody can safely eat dinner, then asks whether the people being helped still control what that place becomes.</p>
       <h2 id="zarathis-garden">The Zarathis garden debate · 11 August 2025</h2>
       <p>In a garden physically located in Zarathis, Tulaine describes stewardship through patience, hands, instinct, faith, and magic used only as a last resort. Gartina challenges the vagueness of “balance.” Cultivation is already intervention: farmers favor crops over weeds and aphids, while grove keepers draw other boundaries. Every caretaker chooses.</p>
       <p>Her demand is blunt: <strong>you’ve got to have a code.</strong> Acting without knowledge is dangerous. Caring should create curiosity, and love without nurturing understanding is incomplete. Her method is <em>understand → decide → act → observe</em>.</p>
@@ -1226,6 +1278,7 @@ const articles = [
       <h2 id="attention-as-care">Attention as care</h2>
       <p>Gartina notices Adelia drifting, regulates her own emotion through breath and routine, recounts what happened, and asks what can be done. She reads blight through relationships among soil, plants, wolves, deer, and human choices while also asking whether she has overstepped. She watches herself think.</p>
       <p>Food, ecology, tactics, and settlement are one philosophy expressed at different scales. Tea gives frightened people time to speak. A bowl turns soup into usable care. A map of enemy tactics preserves costly experience. A question asked of refugees limits the authority of helpers.</p>
+      <p>This is not pure rationalism. Her parents’ attention came before expertise; knowledge grew because love made her life worth understanding. Gartina’s principle is not “know everything before you care,” but “if you care, become curious enough that your care stops being careless.”</p>
       <h2 id="relationships">Relationships that shape the method</h2>
       <ul>
         <li><strong>Her parents:</strong> repeated attention becomes her model of love and growth.</li>
@@ -1246,6 +1299,8 @@ const articles = [
       <p>A preserved mechanical history records Gartina moving from a grasslands-and-fields identity toward a protector role and losing access to Hallow. The lost ability becomes part of her biography: what she can do changes with what kind of caretaker she has chosen to become. The exact date and scene remain unresolved.</p>
       <h2 id="limitations">The danger inside her knowledge</h2>
       <p>Gartina may undervalue embodied, intuitive, or traditional expertise when the person carrying it cannot explain a causal framework. Her demand for knowledge is a strength, but it can make other forms of competent care look unserious. She can also plan so thoroughly that ordinary uncertainty feels like personal failure.</p>
+      <h2 id="interpretive-boundary-gartina">Interpretive boundary</h2>
+      <p>The supplied “favorite character” essay offers an interpretive synthesis, not an objective ranking or a declaration that Gartina’s framework is always correct. The Codex preserves Tulaine and Jiangshi as independent thinkers rather than props in Gartina’s argument. It also keeps her central risk visible: a person devoted to competent care may fail to recognize knowledge that cannot explain itself in her preferred language.</p>
       <h2 id="unresolved-gartina">Unresolved record</h2>
       <ul>
         <li>Her childhood, restaurant chronology, parents’ names, and the circumstances of their deaths.</li>
@@ -1733,8 +1788,8 @@ const archiveIndex = {
     { title: "Coralyn", meta: "Aquatic adventurer", article: "coralyn", summary: "Explains cosmology through the sea and openly dissents when the Shadow Roads feel wrong." },
     { title: "Dale", meta: "Musician and practical caretaker", article: "dale", summary: "Turns concern into courage, food, shelter, tools, and consultation without trying to own another person’s grief." },
     { title: "Dez", meta: "Character sighting", article: "people-directory", summary: "A tavern-scene presence who repeatedly opens conversational space for Ghilsen and Magnus." },
-    { title: "Elenia", meta: "Character record", article: "elenia", summary: "A bearer of light whose devotion does not require moral blindness." },
-    { title: "Gartina", meta: "Character record", article: "gartina", image: "gartina-chibi.png", summary: "A chef and protector for whom preparation is care—and can become self-blame." },
+    { title: "Elenia", meta: "Character record", article: "elenia", image: "elenia-portrait.png", summary: "A bearer of light whose devotion does not require moral blindness." },
+    { title: "Gartina", meta: "Character record", article: "gartina", image: "gartina-portrait.png", summary: "A chef and protector for whom preparation is care—and can become self-blame." },
     { title: "Farkur", meta: "Character sighting", article: "people-directory", summary: "A rain-soaked adventurer with a mechanical wolf, a ready smile, and a distrust miracles do not simply erase." },
     { title: "Ghilsen Hendrickson", meta: "Former slave; adventurer", article: "ghilsen", summary: "Suspicion, freedom, and the hope that strength can prevent anyone from owning him again." },
     { title: "Ithilrûnë", meta: "Scholar and seeker", article: "ithilrune", summary: "Uses knowledge to preserve choice; the Maw forces her to admit ignorance and accept another person’s wisdom without abandoning her own." },
@@ -1742,7 +1797,7 @@ const archiveIndex = {
     { title: "Jiangshi", meta: "Character record", article: "jiangshi", summary: "An adventurer returned from death whose story tests care, grief, and agency." },
     { title: "Magnus Niriin", meta: "Warlock, Silver Star, political figure", article: "magnus", summary: "An ambitious Zarathian whose pursuit of leverage succeeds even as it deepens his dependence on Death and fractures trust." },
     { title: "Minerva", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
-    { title: "Nienna", meta: "Character record", article: "nienna", summary: "An absent presence whose sacrifice continues to act through the living." },
+    { title: "Nienna", meta: "Character record", article: "nienna", image: "nienna-portrait.png", summary: "An absent presence whose sacrifice continues to act through the living." },
     { title: "Nymera", meta: "Character sighting", article: "elenia", summary: "A follower of Cala who questions why other devotees reach for violence when protection does not require it." },
     { title: "Olokun", meta: "Protector; Rahu; resurrected adventurer", article: "olokun", image: "olokun-poster.png", summary: "A deeply attached protector whose mature ethic separates care from ownership while fear keeps testing that boundary." },
     { title: "Pappy", meta: "Plainspoken protector", article: "pappy", summary: "A simple, good man whose Rift rescue exposes the boundary between character knowledge and later governance disputes." },
@@ -1774,7 +1829,7 @@ const archiveIndex = {
     { title: "Vessalia", meta: "Contaminated singer", article: "cave-company", summary: "Uses song to manage fear, accepts correction when it attracts danger, and remains attentive to Pell." }
   ],
   npcs: [
-    { title: "Aria / Pride", meta: "Knight II of Death", article: "aria-pride", summary: "A daughter of Death whose philosophy treats attachment as future weakness.", image: "assets/archive/knight-of-death-2.png" },
+    { title: "Aria / Pride", meta: "Knight II of Death", article: "aria-pride", summary: "A daughter of Death whose philosophy treats attachment as future weakness.", image: "aria-pride-portrait.png" },
     { title: "High Lord Bowene", meta: "Political authority", article: "aria-pride", summary: "Stops a council’s pursuit of alliance with Death and eventually ends an argument Aria has dominated." },
     { title: "Cala", meta: "Divine figure", article: "cala", image: "assets/archive/cala-poster.png", summary: "A goddess of light and heroism who also carries responsibility for the old catastrophe." },
     { title: "Death / Dumuzi", meta: "Cosmic power", article: "death-dumuzi", summary: "A destroyer and bargainer constrained by the mortal soul’s need to choose.", image: "assets/archive/throne.png" },
@@ -1995,6 +2050,9 @@ const navigationRegions = [
     branches: [
       { title: "Directory", items: [
         { label: "All characters", article: "people-directory", parent: true }
+      ]},
+      { title: "Artist gallery", items: [
+        { label: "Ececilia emojis", article: "ececilia-emojis", parent: true }
       ]},
       { title: "Characters A–J", items: [
         { label: "Adelia & Hope", article: "adelia-hope" }, { label: "Akarian", article: "akarian" },

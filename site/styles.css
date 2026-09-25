@@ -156,7 +156,19 @@ h1 { max-width: 760px; margin: 0; font: 500 clamp(2.45rem, 6vw, 4.7rem)/.98 var(
 .article-hero video { display: block; width: 100%; max-height: 510px; object-fit: cover; object-position: center; }
 .article-hero.portrait-hero { background: radial-gradient(circle at 50% 42%, #1a2924 0, #07110e 68%); }
 .article-hero.portrait-hero img { width: auto; max-width: 100%; max-height: 680px; margin: 0 auto; object-fit: contain; }
+.article-hero.landscape-hero img { width: 100%; height: auto; max-height: none; object-fit: contain; }
+.article-hero.medallion-hero { padding: clamp(1.4rem, 4vw, 3.2rem); background: radial-gradient(circle at 50% 44%, rgba(69,100,111,.58), #07110e 66%); }
+.article-hero.medallion-hero img { width: min(100%, 430px); height: auto; margin: 0 auto; object-fit: contain; filter: drop-shadow(0 20px 34px rgba(0,0,0,.38)); }
+.article-hero.medallion-hero figcaption { margin: clamp(1.4rem, 4vw, 3.2rem) clamp(-3.2rem, -4vw, -1.4rem) clamp(-3.2rem, -4vw, -1.4rem); }
 .article-hero figcaption { padding: .6rem .8rem; color: var(--muted); border-top: 1px solid var(--line-soft); font-size: .7rem; letter-spacing: .025em; }
+.emoji-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
+.emoji-card { overflow: hidden; margin: 0; background: linear-gradient(145deg, rgba(23,52,41,.72), rgba(8,23,18,.92)); border: 1px solid var(--line); border-radius: 10px; }
+.emoji-art-frame { display: grid; min-height: 250px; padding: 1.25rem; place-items: center; background: radial-gradient(circle, rgba(217,185,95,.11), transparent 64%), #09130f; }
+.emoji-art-frame img { display: block; width: auto; height: auto; max-width: 100%; max-height: 220px; object-fit: contain; filter: drop-shadow(0 12px 24px rgba(0,0,0,.28)); }
+.emoji-card figcaption { padding: .8rem .9rem; border-top: 1px solid var(--line-soft); }
+.emoji-card figcaption strong, .emoji-card figcaption span { display: block; }
+.emoji-card figcaption strong { color: var(--gold-bright); font: 600 1.05rem/1.25 var(--serif); }
+.emoji-card figcaption span { margin-top: .25rem; color: var(--muted); font-size: .74rem; }
 .article-map-link { position: relative; display: block; width: 100%; overflow: hidden; padding: 0; color: inherit; background: #040b08; border: 0; cursor: pointer; text-align: left; }
 .article-map-link::after { position: absolute; inset: 0; content: ""; pointer-events: none; background: linear-gradient(180deg, transparent 48%, rgba(3, 8, 6, .86)); opacity: .68; transition: opacity .2s ease; }
 .article-map-link img { transition: filter .22s ease, transform .22s ease; }
@@ -546,7 +558,7 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
   .archive-dashboard { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .browser-toolbar { display: block; }
   .sort-direction { margin-top: .6rem; }
-  .browser-grid, .image-gallery { grid-template-columns: 1fr; }
+  .browser-grid, .image-gallery, .emoji-gallery { grid-template-columns: 1fr; }
   .timeline-controls { grid-template-columns: 1fr; }
   .map-heading { display: block; }
   .map-heading a { display: inline-block; margin-top: .75rem; }

@@ -65,7 +65,7 @@ const articles = [
     id: "visual-archive", title: "Location Atlas", category: "Places", type: "Searchable region & sublocation index",
     dek: "A nested atlas of Fenumion’s regions, settlements, ruins, estates, forests, civic spaces, and other named places.",
     tags: ["Locations", "Maps", "Regions", "Sublocations", "Search"],
-    facts: { Records: "83 places", Maps: "7 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
+    facts: { Records: "87 places", Maps: "8 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
     body: `
       <p>This atlas restores the geographic hierarchy visible across the surviving records. Major regions contain their settlements and landmarks: <strong>Caisleán na Brón belongs within Fein Uaill</strong>; Hope and the Tower belong within Gael; Pristinia’s civic sites belong within Prima. Search accepts spelling variants such as “Caselean De Broin.”</p>
       <h2 id="place-directory">Search every recovered place</h2>
@@ -244,45 +244,63 @@ const articles = [
   },
   {
     id: "voraketh", title: "Voraketh", category: "Places", type: "Isolated island and active mystery",
-    dek: "A hostile island where the Maw, a self-maintained Delerium Chain, suppressed power, divine traces, and missing history force action without reliable answers.",
-    tags: ["Voraketh", "The Maw", "Delerium Chain", "Talan", "Physisia", "Unresolved"],
-    facts: { Type: "Island / region", Status: "Active mystery and ongoing exploration", Authority: "Cultivation’s regional material", "Known sites": "The Maw · Delerium Chain · hostile wastes", Confidence: "High for observed conditions; incomplete for origins and motives" },
-    sources: ["Voraketh_Location_Profile_and_History.md — consolidated location history, knowledge states, people, and evidence limits", "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, and Pappy around the Chain and Maw", "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers"],
+    image: "voraketh-map.png", imageLayout: "landscape-hero", imageAlt: "Anky’s illustrated map of Voraketh, showing a forested island surrounding an enormous devastated central region", imageCaption: "Anky’s Map of Voraketh — known by 21 March 2026 and commissioned from an angel.",
+    dek: "An island where old divine protection has become, according to Physisia, a curse—and where surviving the Maw requires preserving evidence before the island can take it away.",
+    tags: ["Voraketh", "The Maw", "The Chains", "Wasteland", "Temple of Secrets", "Last Grove", "St. Anky", "Unresolved"],
+    facts: { Type: "Island / region", Status: "Active mystery and ongoing exploration", Authority: "Cultivation’s regional material", Map: "Anky’s angel-made map · 21 Mar 2026", "Known systems": "Chains · Wasteland · Maw · Last Grove · Temple of Secrets", "Attributed creator": "Talan made the Chains and guardians · Nuru → Anky", Confidence: "High for observed conditions; incomplete for origins, identities, and motives" },
+    sources: ["Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards", "Voraketh-2.png — Anky’s map of Voraketh", "Voraketh_Location_Profile_and_History.md — earlier consolidated location history", "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky", "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers"],
     body: `
-      <p>Voraketh is an isolated, hostile island whose recovered history is dominated by the Maw, a massive Delerium Chain, dangerous constructs, magical suppression, and evidence of a contained or imprisoned figure whose identity and moral status remain unresolved. Its deeper answers belong to regional material not known to the investigating characters—or to the players behind them.</p>
-      <div class="callout gold"><p><strong>The governing rule:</strong> investigation is not revelation. Ithilrûnë’s theories remain theories, Sildithas’s interpretations remain interpretations, and a recovered name is not a solved identity.</p></div>
-      <h2 id="voraketh-earliest">21 September 2025 · the earliest recovered Maw knowledge</h2>
-      <p>Sildithas reported secondhand information about “a strange anomaly” called the Maw. People were said to have emerged from its location long ago; it might lead to another island; it was now growing and consuming; and its noise attracted beasts. When asked what it did, he answered only: “Consume, from what I gather.”</p>
-      <p>The knowledge state matters. The expedition began with behavior and local testimony, not cosmological explanation.</p>
-      <h2 id="voraketh-misrat">Misrat and the Destroyer</h2>
-      <p>Sildithas identified Misrat as a source for the claim that the Maw could summon something called <strong>the Destroyer</strong>. The chain of evidence is local testimony → possible summoning → unknown identity and mechanism. Nothing yet proves that the Destroyer is the figure in the Maw, the watching presence, Derya Thorne, or even a single stable entity.</p>
-      <h2 id="voraketh-environment">A dangerous environmental system</h2>
-      <p>The Maw affects survival before anyone understands its purpose. Its noise attracts beasts, and local people reportedly use that behavior when gathering food. Voraketh is not a place where nobody knows anything: practical knowledge exists alongside missing history.</p>
-      <p>The island’s recovered environmental identity includes hostile waste, difficult travel, sparse information, magical suppression, powerful constructs, Delerium infrastructure, anomalous physical pull, and magic consumption. The Maw is central, but it is not the whole island.</p>
-      <h2 id="voraketh-maw">September 2026 · direct encounter with the Maw</h2>
+      <p>Voraketh is divided by competing conditions of reality. One side appears unnaturally ordered and preserved. Beyond enormous Chains lies the Wasteland, where power becomes unreliable, dangerous creatures roam, and memory or other parts of the self may be lost. Deeper still, the growing Maw consumes magic and pulls at bodies while refusing every available explanation.</p>
+      <div class="callout gold"><p><strong>The governing rule:</strong> investigation is not revelation. Ithilrûnë’s theories remain theories, Sildithas’s interpretations remain interpretations, Coralyn’s refusal to connect strange facts remains important, and a recovered name is not a solved identity.</p></div>
+      <h2 id="voraketh-map">Anky’s map · geographic evidence</h2>
+      <p>By 21 March 2026, Anky had an angel make a map of Voraketh. It shows forested outer land surrounding an enormous gray-brown devastated interior, with mountains toward the north and northwest. It does not visibly label the Maw, Chains, Last Grove, Veiled Watch, Temple of Secrets, or other named sites. The map is evidence of geography—not an automatic key to the island’s mysteries.</p>
+      <h2 id="voraketh-systems">An island of interlocking systems</h2>
+      <p>The current record distinguishes the ordered side, the Chains and their guardians, the Wasteland, the Maw, magical motes, the Last Grove and its tree, the Temple of Secrets, the name Deyara Thorn, a Maw-associated figure, a separate blurred watcher, and older testimony about the Destroyer. Their coexistence does not prove that they share one creator, purpose, or solution.</p>
+      <h2 id="voraketh-chains">The Chains · protection becoming curse</h2>
+      <p>The Chains separate the comparatively ordered side from the Wasteland, suppress magic nearby, and are defended and repaired by guardians. Alfred Riverheart damaged a Chain with a one-use Delerium-filled “bottle comet” and nearly died. Anky later described guardians swarming the breach and repair occurring amid purple haze, which he interpreted as corrupted Delerium.</p>
+      <p>The evidence for authorship is now stronger than the earlier archive allowed: Anky says <strong>Nuru confirmed that Talan made the Chains and their guardians</strong>. Anky also reports that Physisia told Pappy the Chains were good at first but had become a curse. The provenance matters, and so does the tension. The record does not establish why Talan built them, what they originally held back, why their function changed, or what would happen if they failed.</p>
+      <h2 id="voraketh-wasteland">The Wasteland · loss over time</h2>
+      <p>The Wasteland is not merely barren ground. Prolonged exposure can cost explorers mental information, memory, or connections. Anky believed an earlier expedition caused Stinky to go silent and described the Maw as “sucking” things from a person. His practical rule became: pass the Chains, move quickly, gather what is needed, and leave before the place takes more.</p>
+      <p>Hostile creatures there can leave magical motes. The motes have been brought to the Last Grove’s tree, which gives things in return. Anky later theorized that they might function as medicine for a weakening goddess or tree. That remains Anky’s theory, not established cosmology.</p>
+      <h2 id="voraketh-maw-history">The Maw · behavior before explanation</h2>
+      <p>On 21 September 2025, Sildithas relayed secondhand knowledge of “a strange anomaly” called the Maw. People supposedly emerged from its location long ago; it might lead elsewhere; its noise attracted beasts; and it consumed and grew. Asked what it did, he answered only: “Consume, from what I gather.” Misrat was the source for another claim: the Maw could summon something called <strong>the Destroyer</strong>. The Destroyer’s identity and mechanism remain unknown.</p>
+      <h2 id="voraketh-maw">September 2026 · direct encounter</h2>
       <p>Ithilrûnë spent much of the encounter resisting the Maw’s pull and believed it could tear her apart. Magic failed as a source of distance or mastery because the phenomenon consumed it.</p>
       <div class="quote">It just eats my magic like it was a simple snack.<cite>Ithilrûnë</cite></div>
       <div class="quote">It is an artifact of outrageous power. Or a prison of stupendous security. I just wish I knew.<cite>Ithilrûnë</cite></div>
-      <p>The pull, magical consumption, dangerous proximity, failed communication, and a figure within or associated with the Maw are observed. “Artifact,” “prison,” “victim,” “enemy,” and “rescue” remain competing interpretations.</p>
-      <h2 id="voraketh-chain">The Delerium Chain</h2>
-      <p>A massive Chain made from or strongly associated with Delerium suppresses powerful visitors. Ithilrûnë and Coralyn are substantially diminished. Someone previously broke or damaged the Chain; it was repaired; and dangerous constructs defend or restore it. A breach may therefore become an ongoing contest against a system that actively preserves itself.</p>
-      <div class="quote">I know someone broke it at some point, but it was repaired. We would also have to fight to keep it from being repaired.<cite>Ithilrûnë</cite></div>
-      <p>The system’s persistence proves that something maintains or values its function. It does not reveal who, why, when, what would happen if the Chain failed, or whether breaking it would be liberation, catastrophe, or both.</p>
-      <h2 id="voraketh-divine-traces">Talan, Physisia, and divine traces</h2>
-      <p>The evidence caused the expedition to associate Talan with the containment problem, and Sildithas asked whether it was wise to free something destructive enough to cause a god fear. The question preserves caution without proving that Talan built the Maw, forged the Chain, ordered the imprisonment, or understood the prisoner correctly.</p>
-      <p>Sildithas also communed with Physisia in the island’s tree context, then realized he had not asked what might lie at the Maw’s heart. The missed question remains missed. Divine contact does not retroactively supply knowledge.</p>
-      <h2 id="voraketh-figures">Derya Thorne and the two figures</h2>
-      <p>The name <strong>Derya Thorne</strong> has been recovered, but the archive cannot yet identify the person or connect the name reliably to the prisoner, watcher, Destroyer, a god, a mortal, a victim, a villain, or either structure’s creator. It is a clue, not a biography.</p>
-      <p>Current evidence also distinguishes a figure appearing trapped within the Maw from another presence that may be watching. They must not be silently merged.</p>
+      <p>The pull, magical consumption, dangerous proximity, failed communication, and a figure or presence associated with the Maw are observed. “Artifact,” “prison,” “victim,” “enemy,” and “rescue” remain competing interpretations. A separate blurred presence has been reported near or behind the Maw and must not be merged with the associated figure.</p>
+      <h2 id="voraketh-last-grove">The Last Grove and its tree</h2>
+      <p>The Last Grove is an anomalous surviving natural site. Its tree accepts motes and gives things in return; Physisia has communicated through or in connection with it. A separate entity has offered resurrection, and spores later spread across the tree and became associated with a plague. The archive does not identify Physisia, the tree, the resurrection entity, and the spores or plague as one actor or system.</p>
+      <h2 id="voraketh-temple">The Temple of Secrets · memory shelter</h2>
+      <p>Voraketh’s attack on knowledge produced its most important institution. After losing something in the Wasteland, Anky asked Nuru for help. He said information written in the Temple’s books would remain and help explorers resist losing more “mind bits.” The Temple became protected memory, research space, scroll repository, shared equipment pool, and an inheritance for people who arrived later.</p>
+      <p>Anky opposed hoarding useful secrets. When Cerwin lacked an item to contribute in exchange for a Wand of Magic Missiles, Anky supplied his own Golden Boar Ring so the communal rule could remain reciprocal without excluding someone who needed help. He called this his duty as a “sharing knight.”</p>
+      <h2 id="voraketh-anky">St. Anky · records that outlive the recorder</h2>
+      <p>Anky wanted to leave because Voraketh was affecting his mind, but he said Nuru personally asked him for a full report. “Me is a gnome of my word!” On 20 April 2026, after rejecting a northern boat plan, he proposed gathering motes, wrote a protective secret, shared healing supplies, and entered Portho’s Portal with Alfred Riverheart and Cerwin Rayolet.</p>
+      <p>The expedition’s fatal sequence is missing. By 6:00 PM on 21 April, Anky was walking the road to the afterlife. Cerwin reached him there on 24 April, wounded and apologizing that he was late. The Codex does not invent what killed Anky. His historical sequence is clearer: Voraketh took knowledge from him; he built a place where knowledge could survive; he returned to investigate; he died; the records remained.</p>
+      <h2 id="voraketh-coralyn">Coralyn and disciplined uncertainty</h2>
+      <p>Coralyn’s model develops from an early belief that the Chains protect the living side into a much denser September record: unnatural order, whale-sized antimagic Chains, Talan’s constructs, Wasteland creatures and motes, a growing Maw, the blurred watcher, the Last Grove, Physisia, the resurrection offer, spores, plague, and the difficult name Deyara Thorn.</p>
+      <div class="quote">I don’t want to connect things simply because they are strange.<cite>Coralyn</cite></div>
+      <p>Her refusal is not indecision. It is one of the island’s strongest evidence safeguards: healing Voraketh requires distinguishing what is natural, what is being forcibly preserved, and what only appears connected because every part is strange.</p>
+      <h2 id="voraketh-deyara">Deyara Thorn · a name, not a biography</h2>
+      <p><strong>Deyara Thorn</strong> is the primary recent spelling; <strong>Derya Thorne</strong> remains an older archive variant. Coralyn reports that the name becomes hushed or strange and cannot be properly written into Nuru’s memory book at the Veiled Watch. Nothing establishes Deyara as the Maw figure, blurred watcher, Destroyer, resurrection entity, Physisia, creator, victim, or villain.</p>
       <h2 id="voraketh-expedition">Power redistributed by suppression</h2>
-      <p>The Chain changes what the expedition can contribute. Coralyn’s magical strengths are reduced. Pappy’s physical resilience becomes more valuable because a front-line defender can buy time for suppressed casters. Ithilrûnë considers Scribonia’s research, Draygar’s force, additional Vanguard support, ancient null-magic armor, and direct extraction. She calls the armor plan reckless; the Codex preserves it as an attempt to recover agency, not a recommended solution.</p>
-      <p>Voraketh also removes the party’s ordinary information infrastructure. There is no useful library, archive, scroll collection, or informed population capable of simply explaining the system. Evidence must be reconstructed from physical traces, local testimony, divine contact, failed experiments, observed behavior, and names without explanations.</p>
+      <p>The Chains change what an expedition can contribute. Coralyn’s magical strengths are reduced. Pappy’s physical resilience becomes more valuable because a front-line defender can buy time for suppressed casters. Ithilrûnë considers Scribonia’s research, Draygar’s force, additional Vanguard support, ancient null-magic armor, and direct extraction. She calls the armor plan reckless; the Codex preserves it as an attempt to recover agency, not a recommended solution.</p>
       <h2 id="voraketh-feast">A feast beside unresolved horror</h2>
       <p>Unable to solve the Maw, undermanned, suppressed, and watching Ithilrûnë fray, Sildithas proposed a feast. Food would not fix the Chain. The choice preserved fellowship, joy, beauty, respite, and identity while the threat remained.</p>
       <div class="quote">That is not my form of wisdom. But my form of wisdom hasn’t gotten us anywhere, maybe we need less cunning and more cooking. I agree Sildithas and I....will follow your lead.<cite>Ithilrûnë</cite></div>
       <div class="quote">Keep what is most truly you from flickering out.<cite>Sildithas</cite></div>
+      <h2 id="voraketh-history">The evidence history</h2>
+      <ol class="timeline">
+        <li><time>21 Sep 2025</time><p>Sildithas relays the earliest recovered Maw knowledge: it consumes, grows, attracts beasts, and may be tied to the Destroyer.</p></li>
+        <li><time>Before 5 Mar 2026</time><p>Anky suffers a Wasteland loss and asks Nuru for protection; the Temple of Secrets follows.</p></li>
+        <li><time>5–6 Mar</time><p>Coralyn and Anky discuss motes and Chains. Anky reports Talan’s authorship and Physisia’s judgment that the Chains became a curse.</p></li>
+        <li><time>21–29 Mar</time><p>Anky commissions the map, leaves notes, and develops the Temple into shared research and resource infrastructure.</p></li>
+        <li><time>20–24 Apr</time><p>Anky’s last expedition begins; he is dead the next day; wounded Cerwin later reaches him on the road to the afterlife.</p></li>
+        <li><time>22 Sep 2026</time><p>Coralyn records the expanded system while refusing premature connections.</p></li>
+        <li><time>Sep 2026</time><p>Ithilrûnë directly experiences the Maw; Sildithas answers unresolved horror with caution, oath, and fellowship.</p></li>
+      </ol>
       <h2 id="voraketh-open-record">The open record</h2>
-      <p>Voraketh’s first discovery, routes of access, inhabitants, settlements, ruins, wider landscape, relationship to the Shadow Roads, the Maw’s origin and growth, the Chain’s builders and repair resources, the Destroyer, Derya Thorne, the trapped and watching figures, Talan’s actual role, Physisia’s knowledge, and the consequences of breaking or preserving the system all remain open. The archive will not choose among those answers before the world does.</p>`
+      <p>The Wasteland’s origin, the Chains’ original emergency, the reason they became a curse, the Maw’s nature and growth, the Destroyer, Deyara Thorn, the associated figure, the blurred watcher, the motes, the Last Grove’s exchanges, the resurrection entity, the spores and plague, Anky’s cause of death, and the consequences of breaking or preserving any part of the system remain open. The archive will not choose among those answers before the world does.</p>`
   },
   {
     id: "eovar-harbor", title: "Eovar Harbor", category: "Places", type: "Harbor settlement",
@@ -486,7 +504,7 @@ const articles = [
       <p>Elenia’s increasing power, Magnus’s pursuit of truth and leverage, Gartina’s stewardship, and the Vanguard’s survival work all move mortals into decisions once reserved for divine beings. Elenia’s central question is not whether she becomes powerful, but whether she can become a caretaker without becoming an owner. Magnus demonstrates that knowledge without stewardship can violate agency as surely as force.</p>
       <p>Babel-Ashur shows the cosmic war continuing in an exhausted region whose Shard resists familiar categories. Its defenders inherit obligations created by ancient powers without receiving the power or certainty those obligations seem to demand.</p>
       <h2 id="cosmos-maw">The Chain and Maw</h2>
-      <p>In September 2026, Ithilrûnë, Sildithas, Coralyn, Pappy, and others confront <a href="#voraketh">Voraketh</a>, an isolated land where a Delerium Chain suppresses power and dangerous constructs defend or repair it. The Maw consumes magic and exerts tremendous pull. One figure appears trapped within; another may be watching. The name Derya Thorne has been recovered, but identities and allegiances remain unknown.</p>
+      <p>In September 2026, Ithilrûnë, Sildithas, Coralyn, Pappy, and others confront <a href="#voraketh">Voraketh</a>, an isolated land where enormous Chains attributed to Talan suppress power and dangerous constructs defend or repair them. The Maw consumes magic and exerts tremendous pull. One figure is associated with it; another may be watching. The name Deyara Thorn has been recovered, with Derya Thorne preserved as an older spelling, but identities and allegiances remain unknown.</p>
       <p>The evidence places Talan, Delerium, imprisonment, and divine fear inside the same problem without explaining their relationship. Ithilrûnë’s competing theories remain theories. Sildithas answers the absence of sufficient knowledge by returning to an oath of mercy, flourishing, joy, beauty, courage, and hope—and proposing a feast beside the unresolved horror.</p>
       <h2 id="cosmos-spine">The connective spine</h2>
       <p><strong>Ada creates free persons and caretakers → caretakers receive power without ownership → divine conflict corrupts the Sap → Delerium damages reality and enables divine death → Death gains access → the gods complete the Shattering as a firebreak → mortals inherit fallible authorities → Death argues for final surrender → Hope preserves possibility → mortals gain enough power to face the gods’ original test.</strong></p>
@@ -497,7 +515,7 @@ const articles = [
         <li>Universal rules for souls, resurrection, and Dumuzi’s requirement of choice.</li>
         <li>The exact primordial sequence and Ada’s frequency of direct intervention.</li>
         <li>Kurayami’s origin and the relationship among Death, the Abyss, blood, gifts, and collection.</li>
-        <li>Derya Thorne’s identity, the Maw’s purpose, the observing figure, the Chain’s history, and Talan’s actual role.</li>
+        <li>Deyara Thorn’s identity, the older Derya Thorne spelling, the Maw’s purpose, the observing figure, the Chains’ original emergency, and Talan’s present position.</li>
       </ul>
       <div class="callout"><p><strong>Reading rule:</strong> a god’s explanation is evidence from a powerful witness, not automatically Ada’s voice or objective truth.</p></div>`
   },
@@ -629,6 +647,26 @@ const articles = [
       <p>This reframes the world map. The broken places are not simply territory claimed by an outside enemy. They are the price of a decision: an intact world had become more dangerous than a shattered one.</p>
       <h2 id="moral-weight">The moral weight</h2>
       <p>The gods’ act can be both horrifying and heroic. They helped cause the catastrophe, then accepted an almost unthinkable cost to contain it. Fenumion’s divine order is therefore neither a clean pantheon of protectors nor a simple conspiracy of villains. It is a group of powerful beings living inside the consequences of what they chose.</p>`
+  },
+  {
+    id: "wyrm-worlds-end", title: "The Wyrm of the World’s End", category: "Cosmology", type: "Existential enemy",
+    video: "wyrm-worlds-end.mp4", imageLayout: "landscape-hero", videoAlt: "The Wyrm of the World’s End moving through a dark cosmic scene", videoCaption: "The Wyrm of the World’s End — the catastrophe creation was shattered to slow.",
+    dek: "The Wyrm is not background mythology. It is the surviving world’s actionable endgame enemy—the hunger Dumuzi fed and the Great Fracture was meant to slow.",
+    tags: ["The Wyrm", "World’s End", "Dumuzi", "Great Fracture", "Endgame"],
+    facts: { "Known role": "Actionable endgame enemy", "Ancient link": "Dumuzi fed dead gods to it", Containment: "The Great Fracture slowed it", Status: "Still a threat", Unknowns: "Origin, nature, and full relationship to Death" },
+    sources: ["Fenumion Core conversation summary — actionable endgame enemy", "COSMOLOGICAL_HISTORY.md — dead gods fed to the Wyrm", "COSMOLOGICAL_IMPORTANT_EVENTS.md — the Great Fracture as firebreak", "Wyrm-2.mp4 — supplied moving visual record"],
+    body: `
+      <p>The archive supports a small number of enormous facts about the Wyrm. During the primordial catastrophe, Dumuzi gained access to the world’s structure and fed dead gods to it. The surviving gods then shattered creation into separated remnants, hiding survivors and slowing Death and the Wyrm at a cost still written into every map.</p>
+      <h2 id="not-a-metaphor">Not a metaphor</h2>
+      <p>The Wyrm is more than an image for collapse or appetite. The consolidated record identifies it as the actionable endgame enemy. Its threat is therefore unfinished history: the Great Fracture delayed the catastrophe without resolving it.</p>
+      <h2 id="fed-by-death">Fed by Death</h2>
+      <p>Dumuzi is tied to the Wyrm, but the archive does not collapse them into one being. The established claim is specific: Death fed dead gods to the Wyrm. Whether he commands it, serves it, cultivates it, or merely shares its annihilative purpose remains unresolved.</p>
+      <h2 id="firebreak">The world as firebreak</h2>
+      <p>Fenumion’s broken geography is one of the Wyrm’s clearest surviving footprints. The gods judged an intact plane easier for the catastrophe to consume or cross, so they completed the Shattering. Every isolated island and dangerous passage through the Void inherits that defensive choice.</p>
+      <h2 id="scale">A threat measured in worlds</h2>
+      <p>The phrase “World’s End” names scale rather than supplying a complete biography. The Wyrm belongs beside dead gods, the Void, corrupted Sap, and the breaking of creation. A confrontation with it cannot be understood as merely another battle with a very large creature.</p>
+      <h2 id="wyrm-open-record">The unresolved record</h2>
+      <p>The Wyrm’s origin, intelligence, physical limits, hunger, present location, and precise relationship to Dumuzi and Ada remain unrecovered. The Codex preserves those absences rather than turning the new visual record into unsupported anatomy or motive.</p>`
   },
   {
     id: "death-dumuzi", title: "Death / Dumuzi", category: "Cosmology", type: "Cosmic power",
@@ -1214,12 +1252,12 @@ const articles = [
     id: "jiangshi", title: "Jiangshi", category: "People", type: "Adventurer; returned dead",
     dek: "A philosophy of care built around consciously chosen presence: comfort offered freely, pain never demanded as the price of closeness.",
     tags: ["Shadows", "Adelia", "Death", "Care", "Gael", "Zarathis"],
-    facts: { "Core promise": "We are here for you. To comfort.", History: "Dead for seven and a half months", Image: "Comforting shadows", "Central distinction": "Sustaining is not the same as choosing to love", Fear: "Losing Adelia" },
+    facts: { "Core promise": "We are here for you. To comfort.", History: "Lost in Jun 2024; returned about 7½ months later", Image: "Comforting shadows", "Central distinction": "Sustaining is not the same as choosing to love", Fear: "Losing Adelia" },
     sources: ["CHARACTER_BIBLE.md — Jiangshi’s loss, return, and care", "RELATIONSHIPS.md — Jiangshi, Adelia, Nienna, and Gartina", "Fenumion High-Presence Character Context Set — consolidated Jiangshi context"],
     body: `
       <p>Before her own death, Jiangshi already practiced a distinctive care: she could wrap a wing around someone, listen if they wanted to speak, and refuse to pry. Death intensified that instinct rather than creating it.</p>
       <h2 id="gael-loss">The loss that keeps acting</h2>
-      <p>Jiangshi’s earlier loss in Gael becomes central to Nienna’s crisis over retreat and cowardice. Even while absent, what happened to her continues to alter Nienna, Gartina, Adelia, and the moral meaning of survival. Her history demonstrates that absence does not end causality.</p>
+      <p>Jiangshi’s loss belongs to the June 2024 Gael and Void history. It becomes central to Nienna’s crisis over retreat and cowardice. Even while absent, what happened to her continues to alter Nienna, Gartina, Adelia, and the moral meaning of survival. Her history demonstrates that absence does not end causality.</p>
       <h2 id="shadows">Shadows</h2>
       <p>Jiangshi’s imagery refuses the simple equation of shadow with evil. A shadow can conceal, frighten, shelter, or comfort. Her later language around the Shadowlands and Death’s door gives that symbolism personal weight.</p>
       <h2 id="garden">The Zarathis garden conversation</h2>
@@ -1228,7 +1266,7 @@ const articles = [
       <h2 id="presence">Presence instead of victory</h2>
       <p>When Gartina becomes vulnerable about her dead parents, Jiangshi does not answer with another theory. She places a hand on Gartina’s shoulder. The gesture does not defeat Gartina’s argument; it demonstrates the relational care Jiangshi believes analysis alone cannot replace.</p>
       <h2 id="return">The unsaid word</h2>
-      <p>After returning, she struggles to say that she was dead. The gap matters. Her fear of losing Adelia is not abstract dependency; it is shaped by months in which the world continued without her and people gathered for her memorial.</p>`
+      <p>After approximately seven and a half months, Jiangshi returns. The exact day of her June 2024 loss and the exact day of her return remain unresolved. She struggles to say that she was dead. The gap matters. Her fear of losing Adelia is not abstract dependency; it is shaped by months in which the world continued without her and people gathered for her memorial.</p>`
   },
   {
     id: "adelia-hope", title: "Adelia & Hope", category: "People", type: "Ascension and legacy",
@@ -1241,13 +1279,13 @@ const articles = [
     facts: { Arc: "Early Gael → Hope → sacrifice → transformation", Culmination: "Adelia gives herself for Hope", Legacy: "Demigod and Tree-linked existence", Protection: "Can later Gate others from danger", Context: "Built from years of relationships" },
     sources: ["CHARACTER_BIBLE.md — Adelia’s Gael, Hope, political, and protection history", "MASTER_TIMELINE.md — event sequence and unresolved transformation date", "RELATIONSHIPS.md — Nienna, Jiangshi, Magnus, and Pappy", "Fenumion High-Presence Character Context Set — consolidated Adelia trajectory"],
     body: `
-      <p>Adelia’s ascension is not arbitrary apotheosis. The archive connects a long pattern: family dies and a new family forms; faith nearly dies and is renewed; friendship ruptures and is repaired; Gael dies and Hope brings life. When Hope itself is dying, Adelia gives herself.</p>
+      <p>Adelia’s ascension is not arbitrary apotheosis. The archive connects a long pattern: family dies and a new family forms; faith nearly dies and is renewed; friendship ruptures and is repaired; Gael dies and Hope brings life. In 2026, after Magnus harms Hope and Hope itself is dying, Adelia gives herself to restore and save Hope.</p>
       <h2 id="early-gael">Before the transformation</h2>
       <p>Adelia and Elenia help establish or prove an early living foothold in Gael. Adelia’s affection for Hope, her involvement in the Hallowing, and her grief after Nienna’s death make the later sacrifice part of a long relationship with living Gael rather than an isolated promotion into divinity.</p>
       <h2 id="political-life">Power among other people</h2>
       <p>Before becoming inseparable from Hope, Adelia remains active in political conflict. Aria publicly presses her about resurrection, divine power, and the beliefs of the watching crowd. Adelia later supports Magnus during Zarathian political developments. Neither event becomes a complete verdict on her judgment; together they preserve a mortal actor making consequential choices before her transformation.</p>
       <h2 id="transformation">Protector becoming what she protects</h2>
-      <p>During the 2026 Hope crisis, sacrifice binds Adelia more deeply to Hope and life. She later exists as a demigod or Tree-associated being on Gael and can use Gate. The exact sequence and mechanism remain incomplete.</p>
+      <p>During the 2026 Hope crisis, sacrifice binds Adelia more deeply to Hope and life. She becomes part of the Tree, leading into the Spirit of Adelia state, and can later use Gate. The exact date, full sequence, and mechanism remain incomplete.</p>
       <p>Her central question therefore changes scale: what happens when a protector becomes increasingly inseparable from the thing she protects? Power may deepen care while also making boundaries, perspective, and ordinary consent harder to preserve.</p>
       <h2 id="pappy">Protection after ascension</h2>
       <p>In the Rift era, Adelia senses danger and Gates Pappy away from an ambush. The rescue later becomes central to a dispute about awareness, PvP, and metagaming. The Codex separates the in-world act of protection from the later governance argument rather than using either layer to erase the other.</p>
@@ -1279,7 +1317,7 @@ const articles = [
       <h2 id="hallowing">The Hallowing of Hope</h2>
       <p>During the Hallowing, Nienna does not become fearless or abandon the instincts that once kept her alive. She behaves tactically, conserves resources, remembers where danger came from, trusts defenses, and tries to survive. When the Gate threatens everything, the situation changes. She draws the enemy away and runs toward the place where spending her life can preserve Hope and allow the others’ work to continue.</p>
       <div class="quote">Please, let me run.......one last time.<cite>Nienna</cite></div>
-      <p>The repeated action carries the transformation: she does not become courageous by ceasing to run. She decides what she is willing to run toward. The exact date and full sequence of the Hallowing remain unresolved in the recovered chronology.</p>
+      <p>The repeated action carries the transformation: she does not become courageous by ceasing to run. She decides what she is willing to run toward. Nienna crosses the Gate and spends her life on 6 September 2024, creating an opportunity for Hope to survive rather than guaranteeing victory; parts of the Hallowing’s full sequence remain unresolved.</p>
       <h2 id="choice">A sacrifice she owns</h2>
       <p>Nobody selects Nienna as an acceptable casualty. She identifies the price herself and acts so that the people who love her cannot overrule her. Its moral force comes from agency: the life being spent belongs to the person spending it. Her act therefore stands against systems in which powerful figures volunteer other people for a future they have chosen.</p>
       <p>She also wants to live. Her farewell is affectionate, frightened, hopeful, and still reaching toward a future she will not see. That desire makes death a real price rather than a dramatic pose.</p>
@@ -1421,7 +1459,7 @@ const articles = [
   {
     id: "ithilrune", title: "Ithilrûnë", category: "People", type: "Scholar; seeker of knowledge",
     dek: "Ithilrûnë builds safety from understanding. At the Maw, where evidence will not become a usable model, she must decide whether knowledge can still preserve choice when knowledge is unavailable.",
-    tags: ["Ithilrûnë", "Knowledge", "Choice", "Shadow Roads", "The Maw", "Delerium Chain", "Sildithas"],
+    tags: ["Ithilrûnë", "Knowledge", "Choice", "Shadow Roads", "The Maw", "The Chains", "Sildithas"],
     facts: { Principle: "Knowledge preserves choice", Method: "Observe → understand → manipulate → preserve options", Crisis: "The Chain and Maw resist understanding", Growth: "Admits ignorance and follows another form of wisdom", Risk: "Decisive action may become preferable to uncertainty" },
     sources: ["CHARACTER_BIBLE.md — expanded Ithilrûnë profile and Chain/Maw conversation, supplied 23 Sep 2026", "Pasted markdown(20260909-025456).md — Sildithas’s death and the Shadow Roads decision", "Fenumion_Conversation_Catalogue.md — earlier character synthesis", "docs/ITHILRUNE_HISTORY.md — reconciled internal dossier"],
     body: `
@@ -1435,7 +1473,7 @@ const articles = [
       <p>Her flaw appears when she calls refusal cowardice. A personal compulsion to know becomes a judgment about what everyone else must risk. Ithilrûnë is strongest when understanding enlarges another person’s choices and most dangerous when it convinces her that she should decide which choices are legitimate.</p>
       <h2 id="ithilrune-maw">The Chain and Maw crisis</h2>
       <p>By the September 2026 Chain/Maw crisis, Ithilrûnë is unkempt, listless, distracted, and irritable. <a href="#voraketh">Voraketh</a> has attacked the foundation of her normal competence. A Delerium chain suppresses her magical strength and dangerous constructs defend or repair it; the Maw consumes magic with frightening ease. The force within may be an artifact, a prison, or both.</p>
-      <p>One figure appears trapped inside and another may be watching. The name <strong>Derya Thorne</strong> has been recovered, but Ithilrûnë cannot connect it reliably to an identity, allegiance, or history. She cannot determine whether the prisoner is victim, enemy, god, eldritch danger, or evidence of a divine mistake. Each possibility changes the morality of intervention, and the evidence cannot yet distinguish among them.</p>
+      <p>One figure appears associated with the Maw and another may be watching. The primary recent spelling <strong>Deyara Thorn</strong> has been recovered, with <strong>Derya Thorne</strong> preserved as an older variant, but Ithilrûnë cannot connect the name reliably to an identity, allegiance, or history. She cannot determine whether the associated figure is victim, enemy, god, eldritch danger, or evidence of a divine mistake. Each possibility changes the morality of intervention, and the evidence cannot yet distinguish among them.</p>
       <div class="callout gold"><p><strong>The broken sequence:</strong> Ithilrûnë normally moves from observation to understanding, manipulation, and preserved choice. The Maw stops the sequence at understanding.</p></div>
       <h2 id="ithilrune-ignorance">“I know fucking nothing. I hate it.”</h2>
       <p>The admission is more than frustration at an unsolved objective. Ithilrûnë’s usual source of safety, value, and care is failing in public. She can generate explanations—Talan may be concealing a mistake, Talan and Physisia may be in conflict, a mortal may have angered him, or the prisoner may truly be too dangerous to release—but she cannot responsibly rank them. The Codex preserves every one as theory.</p>
@@ -1450,7 +1488,7 @@ const articles = [
       <h2 id="ithilrune-trajectory">A more difficult form of wisdom</h2>
       <p>Her current movement is <strong>competence through knowledge → radical uncertainty → escalating attempts to recover agency → admission of ignorance → willingness to borrow another person’s wisdom</strong>. The arc is not “knowledge is bad.” It asks whether Ithilrûnë can keep investigating without making decisive danger preferable to responsible uncertainty.</p>
       <h2 id="ithilrune-unresolved">What remains unresolved</h2>
-      <p>The archive identifies the island as Voraketh and dates the crisis to September 2026, but it does not yet know the exact day, what the Maw is, who is trapped inside, who may be watching, who Derya Thorne is, why Delerium forms the Chain, what roles Talan and Physisia actually play, whether the Chain can be altered safely, or whether the proposed feast takes place.</p>`
+      <p>The archive identifies the island as Voraketh and dates the crisis to September 2026, but it does not yet know the exact day, what the Maw is, who is associated with it, who may be watching, who Deyara Thorn is, why Talan originally made the Chains, why Physisia says they became a curse, whether they can be altered safely, or whether the proposed feast takes place.</p>`
   },
   {
     id: "sildithas", title: "Sildithas", category: "People", type: "Oathbound defender",
@@ -1471,7 +1509,7 @@ const articles = [
       <p>At the Shadow Roads, Ithilrûnë enters for knowledge. Sildithas enters because danger threatens others and he believes his place is before it. Coralyn says she does not think they should go. He does not shame or command her; he explains his own obligation and refuses to turn it into hers.</p>
       <p>Duty governs Sildithas without automatically authorizing him to govern somebody else. His courage is most defensible when it remains a demand he places on himself.</p>
       <h2 id="sildithas-maw">Listening at the Maw</h2>
-      <p>The September 2026 Chain/Maw crisis on <a href="#voraketh">Voraketh</a> resists normal power and explanation. The Delerium Chain suppresses magic and dangerous constructs defend or repair it. The Maw consumes magic. A figure may be imprisoned inside, another may be watching, and intervention may be rescue or catastrophe.</p>
+      <p>The September 2026 Chains/Maw crisis on <a href="#voraketh">Voraketh</a> resists normal power and explanation. Enormous antimagic Chains attributed to Talan suppress magic while dangerous constructs defend or repair them. The Maw consumes magic. A figure is associated with it, another may be watching, and intervention may be rescue or catastrophe.</p>
       <p>Sildithas follows advice attributed to Murr: <strong>listen first, act second</strong>. He asks how the Maw’s pull compares with the Shadow Roads, whether anyone attempted communication, whether the Chain can be renewed, whether its constructs possess finite resources, and whether one concentrated breach would be safer than repeated attacks. Patience is not passivity; it is how he tries to make action responsible.</p>
       <h2 id="sildithas-theology">When divine hierarchy stops being neat</h2>
       <p>Ithilrûnë admits that Talan’s apparent use of Delerium has shaken her understanding. Sildithas responds by exposing his own uncertainty. Since arriving through the Gate, the gods have seemed surprisingly person-like. He cannot tell whether his theology changed because he grew or because he finally saw divine beings clearly.</p>
@@ -1668,23 +1706,37 @@ const articles = [
       <p>The physical rescue, the characters’ knowledge, the mechanical ruling, and the later out-of-character dispute are separate layers of evidence. The Codex preserves Pappy’s danger and escape without using sympathy to settle the governance question.</p>`
   },
   {
-    id: "st-anky", title: "St. Anky", category: "People", type: "Adventurer; peace-linked figure",
+    id: "st-anky", title: "St. Anky", category: "People", type: "Nuru’s saint; chronicler; sharing knight",
     image: "st-anky-portrait.png", imageLayout: "portrait-hero", imageAlt: "St. Anky, a small dark-skinned gnome in a green hood and cloak, raising a wooden tankard", imageCaption: "St. Anky — adventurer, traveler, and remembered ally.",
-    dek: "A recurring companion in journeys through ancient history, the Shadow Roads, and the later struggle to preserve peace between Rahu and Pristinia.",
-    tags: ["St. Anky", "Nuru", "Rahu", "Pristinia", "Shadow Roads", "Babel-Ashur"],
-    facts: { Encounters: "The Gate · Shadow Roads · Babel-Ashur era", Association: "Nuru; Rahu–Pristinia peace", Status: "Remembered as dead by May 2026", Record: "Fragmentary" },
-    sources: ["MASTER_TIMELINE.md — Gate journey, Shadow Roads, and May 2026 remembrance", "CHARACTER_BIBLE.md — Nuru and the Rahu/Pristinia peace context", "Olokun_Ultimate_Character_History_and_Codex_Profile.md — relationship gaps and later remembrance"],
+    dek: "When Voraketh began taking knowledge from him, Anky answered by building an institution where memory, secrets, tools, and questions could outlive their keepers.",
+    tags: ["St. Anky", "Nuru", "Voraketh", "Temple of Secrets", "Chains", "Maw", "Sharing knight"],
+    facts: { Patron: "Nuru", Titles: "Saint · cupbearer · sharing knight", "Voraketh role": "Early chronicler and Temple of Secrets founder/co-founder", Map: "Commissioned Anky’s Map of Voraketh", Death: "21 Apr 2026 · exact cause unrecovered", Legacy: "Records and communal infrastructure" },
+    sources: ["Voraketh_Full_Codex_2026-09-25.md — Anky’s full Voraketh evidence history", "MASTER_TIMELINE.md — Gate journey, Shadow Roads, and later remembrance", "CHARACTER_BIBLE.md — Nuru and the Rahu/Pristinia peace context", "Olokun_Ultimate_Character_History_and_Codex_Profile.md — relationship gaps and later remembrance"],
     body: `
-      <p>St. Anky appears across several major thresholds in the recovered record. He travels with the group that witnesses the Gate’s construction in ancient Prima, later arrives at the Shadow Roads, and remains part of Olokun’s remembered circle during the Babel-Ashur crisis.</p>
-      <h2 id="gate">Witness to the Gate’s construction</h2>
-      <p>On 30 December 2024, St. Anky travels with Olokun, Cecil, Coralyn, and Fenwick into ancient Prima. The travelers encounter young Papirus, Cala, and Nuru while the Gate is being built. Their intervention takes the form of information—a map of the shattered world—rather than an attempt to rewrite the catastrophe outright.</p>
-      <h2 id="shadow-roads">The Shadow Roads</h2>
-      <p>St. Anky is present when the party enters the Shadow Roads on 14 September 2025. The recovered summary places his arrival alongside Ithilrûnë’s crossing and the emergence of another dark being, but his exact actions and knowledge during the encounter have not yet been recovered.</p>
-      <h2 id="peace">Rahu, Pristinia, and Nuru</h2>
-      <p>Later records associate Anky and Nuru with peace between Rahu and Pristinia. The surviving evidence does not yet establish Anky’s precise office, negotiations, or relationship with Olokun, so the Codex preserves the association without inventing the missing political history.</p>
-      <h2 id="remembrance">Remembered among the dead</h2>
-      <p>During the Babel-Ashur crisis of 5 May 2026, Olokun remembers Dale and Anky as dead. That remembrance establishes the loss but not its date, place, or cause. Those circumstances remain one of the open gaps in St. Anky’s history.</p>
-      <div class="callout gold"><p><strong>Record boundary:</strong> St. Anky’s presence, peace association, and later death are supported. His origins, full relationship with Olokun, and the circumstances of his death remain unresolved.</p></div>`
+      <p>Anky’s record crosses ancient history, divine service, peace-making, the Shadow Roads, and Voraketh. The island provides the clearest longitudinal history: a frightened and disordered mind becomes one of the community’s strongest builders of memory.</p>
+      <h2 id="anky-gate">Witness to the Gate’s construction</h2>
+      <p>On 30 December 2024, St. Anky travels with Olokun, Cecil, Coralyn, and Fenwick into ancient Prima. They encounter young Papirus, Cala, and Nuru while the Gate is being built and choose to contribute information—a map of the shattered world—rather than rewrite the catastrophe outright.</p>
+      <h2 id="anky-nuru">Nuru’s mad saint</h2>
+      <p>On 30 May 2025, Nuru addresses Anky as a “trembling vessel of shattered thought,” recognizes an intact shard of reason beneath his disorder, calls him “O mad saint,” and grants him the powers of a death cleric. Nuru also says the gods are fighting and losing while using their remaining strength to stave off “the end......of all things.”</p>
+      <p>During the 24 June peace negotiation with Ephraith, Anky identifies himself as Nuru’s holy saint and cupbearer, offers to bear burdens, and proposes peace through mutual respect and acknowledged boundaries. Nuru manifests and publicly declares: “MY CUPBEARER HAS SPOKEN!” The later phrase “Nuru... me pal....” therefore rests on an observed relationship, not merely imagined intimacy.</p>
+      <h2 id="anky-shadow-roads">The Shadow Roads</h2>
+      <p>Anky is present when the party enters the Shadow Roads on 14 September 2025. His precise actions during the crossing remain unrecovered, but the event places him among the travelers repeatedly entering dangerous systems without complete knowledge.</p>
+      <h2 id="anky-loss">Voraketh takes something</h2>
+      <p>Before 5 March 2026, Anky had already entered Voraketh’s Wasteland and lost something important. He said Stinky had gone silent and believed the Maw could suck things out of a person. He asked Nuru for help so later explorers would not lose everything they carried in their minds.</p>
+      <h2 id="anky-temple">The Temple of Secrets</h2>
+      <p>Anky said that secrets written in the Temple’s books would stay and help explorers resist further mental loss. What began as protection became an institution: notes, scrolls, collaborative theories, a communal equipment pool, and a record for whoever came next.</p>
+      <p>He opposed hoarding useful information. When Cerwin could not contribute an item in exchange for a Wand of Magic Missiles, Anky gave him his own Golden Boar Ring so the communal system could remain reciprocal without denying help. “It’s me job! Me duty as a sharing knight!!”</p>
+      <h2 id="anky-divine-evidence">What Anky reported</h2>
+      <p>On 6 March, Anky said Nuru told him Voraketh was Physisia’s favorite island and confirmed that Talan made the Chains and their guardians. He also relayed Physisia’s message through Pappy: the Chains were good at first but had become a curse. Anky did not leap from that evidence to destruction. He wanted to learn what the Chains held back before deciding what should happen.</p>
+      <h2 id="anky-map">Map, scrolls, and shared research</h2>
+      <p>By 21 March, Anky had an angel make a map of Voraketh, placed scrolls at the Temple, and encouraged others to theorize together and build a plan for surviving and eventually leaving. By 29 March, he openly said the island was making him lose things and that its excessive order disturbed him.</p>
+      <p>He wanted to leave. He stayed because Nuru had asked him, according to Anky, for a full report. His explanation was simple: “Me is a gnome of my word!”</p>
+      <h2 id="anky-final-expedition">The final recovered expedition</h2>
+      <p>On 20 April, Anky abandoned a proposed northern boat journey after his divine sense warned against it. He instead proposed gathering motes as possible “medicine” for the goddess or tree, wrote a protective secret, distributed healing potions, and used Portho’s Portal with Alfred Riverheart and Cerwin Rayolet to reach the furthest point he had previously visited.</p>
+      <p>The surviving Veiled Watch log does not contain the fatal sequence. By 6:00 PM on 21 April, Anky was walking the road to the afterlife. Cerwin reached him there on 24 April, wounded and apologizing that he was late.</p>
+      <h2 id="anky-legacy">The records remain</h2>
+      <p>Anky’s importance is not that he was destined to die. Voraketh took something from him; he built a place where knowledge could survive; he shared rather than hoarded; he remained from duty despite wanting to leave; and after his death, later explorers inherited an evidence base instead of beginning alone.</p>
+      <div class="callout gold"><p><strong>Record boundary:</strong> the April 20 expedition, Anky’s death by April 21, and Cerwin’s later arrival are established. The precise fatal event and cause of death remain unrecovered.</p></div>`
   },
   {
     id: "thorn", title: "Thorn", category: "People", type: "Veilguard; returned survivor",
@@ -1776,7 +1828,7 @@ const archiveIndex = {
     { title: "Etz Chaim sustains creation", meta: "First age · undated", sort: "0000-01", era: "Ancient world", kind: "Cosmic cause", article: "great-fracture", location: "Creation", people: "Ada; the gods", tags: ["One Tree", "life", "Sap"], summary: "The One Tree exists as the architecture of life and a source of divine strength before it becomes an object of conquest." },
     { title: "The gods struggle for the Tree’s power", meta: "First age · undated", sort: "0000-02", era: "Ancient world", kind: "Divine war", article: "great-fracture", location: "Etz Chaim", people: "Ada’s children", tags: ["divine war", "power", "authority"], summary: "Rivalry turns the source of life into something the divine order believes it may control." },
     { title: "Sap is corrupted into Delerium", meta: "First age · undated", sort: "0000-03", era: "Ancient world", kind: "Cosmic rupture", article: "delerium", location: "Etz Chaim", people: "Cala; Nuru; Death", tags: ["Delerium", "Sap", "corruption"], summary: "Cala and Nuru learn that the Tree’s Sap can be corrupted; Death enables the opening, but the gods retain responsibility for the choice." },
-    { title: "Death enters creation", meta: "First age · undated", sort: "0000-04", era: "Ancient world", kind: "Cosmic rupture", article: "death-dumuzi", location: "The fracture; the Void", people: "Dumuzi; dead gods; the Wyrm", tags: ["Death", "Void", "Wyrm"], summary: "The corrupted wound gives Dumuzi a foothold. Dead gods are fed to the Wyrm and the divine war becomes an existential catastrophe." },
+    { title: "Death enters creation", meta: "First age · undated", sort: "0000-04", era: "Ancient world", kind: "Cosmic rupture", article: "wyrm-worlds-end", location: "The fracture; the Void", people: "Dumuzi; dead gods; the Wyrm", tags: ["Death", "Void", "Wyrm"], summary: "The corrupted wound gives Dumuzi a foothold. Dead gods are fed to the Wyrm and the divine war becomes an existential catastrophe." },
     { title: "The Great Fracture", meta: "First age · undated", sort: "0000-05", era: "Ancient world", kind: "World-shaping event", article: "great-fracture", location: "All creation", people: "The surviving gods", tags: ["shattering", "islands", "firebreak"], summary: "The gods deliberately break the plane into separated remnants, hiding survivors and slowing Death and the Wyrm at a terrible cost." },
     { title: "Delerium becomes a means of divine death", meta: "Persistent cosmological rule", sort: "0000-06", era: "Ancient world", kind: "Cosmological law", article: "delerium", location: "Creation", people: "The gods", tags: ["Delerium", "divine death", "cosmology"], summary: "The surviving record establishes that gods can be killed only through Delerium, one another, or power on a comparable scale." },
     { title: "Dumuzi’s bargains require a choice", meta: "Persistent cosmological rule", sort: "0000-07", era: "Ancient world", kind: "Metaphysical limit", article: "death-dumuzi", location: "Fenumion", people: "Dumuzi", tags: ["choice", "souls", "bargains"], summary: "Dumuzi may tempt, bargain, persuade, and frame the truth, but his own words preserve a crucial boundary: “You must choose me.” The exact mechanism remains unresolved." },
@@ -1848,6 +1900,14 @@ const archiveIndex = {
     { title: "Elenia supplies ink for Eugene’s spellbook", meta: "15 Jan 2026", sort: "2026-01-15", era: "2026 · Consequences", kind: "Investment in knowledge", article: "elenia", location: "Fenumion", people: "Elenia; Eugene", tags: ["spellbook", "ink", "learning"], summary: "Elenia materially supports Eugene’s learning, evidence that others increasingly regard his growing capacity as worth investing in." },
     { title: "Magnus serves as a Zarathian cultural guide", meta: "27 Jan 2026", sort: "2026-01-27", era: "2026 · Consequences", kind: "Hospitality and cultural instruction", article: "magnus", location: "Zarathis; Fein Uaill", people: "Magnus; Adelia; Ghilsen; Miriel", tags: ["Silver Star", "hospitality", "tradition", "factions"], summary: "Over tea, Magnus warns against open divine service, explains Zarathian factions and reputation, offers lodging, and offers to speak to Miriel—showing cultural attachment and social competence beside his larger harms." },
     { title: "Olokun and Arjahn turn fear into a map", meta: "Mar 2026", sort: "2026-03", era: "2026 · Consequences", kind: "Conflict and repair", article: "arjahn", location: "The refuge and surrounding tunnels", people: "Olokun; Arjahn; Wren; Dale; Aravil", tags: ["mapping", "loss", "reconciliation"], summary: "Repeated near-deaths and Aravil’s disappearance make Olokun lash out. Arjahn defends his agency; days later they preserve the disagreement by working on the map together." },
+    { title: "Voraketh takes something from Anky", meta: "Before 5 Mar 2026", sort: "2026-03-04", era: "2026 · Consequences", kind: "Wasteland loss", article: "st-anky", location: "Voraketh; the Wasteland", people: "St. Anky; Stinky; Nuru", tags: ["memory", "loss", "Temple of Secrets"], summary: "Anky says an earlier Wasteland expedition took something important and left Stinky silent. He asks Nuru for protection against further loss." },
+    { title: "Coralyn and Anky form an early Chain model", meta: "5 Mar 2026", sort: "2026-03-05", era: "2026 · Consequences", kind: "Working theory", article: "voraketh", location: "Voraketh", people: "Coralyn; St. Anky", tags: ["Chains", "motes", "protection"], summary: "After three motes prove difficult to gather, Coralyn proposes that the Chains protect the living side from what can consume beyond them. Anky initially agrees they should be preserved." },
+    { title: "Anky reports the Chains’ divine evidence", meta: "6 Mar 2026", sort: "2026-03-06", era: "2026 · Consequences", kind: "Attributed revelation", article: "voraketh", location: "Temple of Secrets; Voraketh", people: "St. Anky; Nuru; Physisia; Pappy; Talan; Alfred Riverheart", tags: ["Chains", "guardians", "provenance"], summary: "Anky says Nuru confirmed Talan made the Chains and guardians, while Physisia told Pappy they were good at first but had become a curse. He seeks what they hold back before choosing destruction or preservation." },
+    { title: "Anky commissions the Voraketh map", meta: "21 Mar 2026", sort: "2026-03-21", era: "2026 · Consequences", kind: "Knowledge infrastructure", article: "voraketh", location: "Voraketh; Temple of Secrets", people: "St. Anky; angelic mapmaker", tags: ["map", "scrolls", "collaborative research"], summary: "Anky has an angel make a map, leaves scrolls and notes, and asks later explorers to theorize together rather than hoard useful secrets." },
+    { title: "The Temple of Secrets becomes a communal institution", meta: "29 Mar 2026", sort: "2026-03-29", era: "2026 · Consequences", kind: "Institutional development", article: "st-anky", location: "Temple of Secrets; Voraketh", people: "St. Anky; Cerwin Rayolet; Nuru; the Bookkeeper", tags: ["memory shelter", "shared gear", "duty"], summary: "Protected records, a research space, and a communal resource pool give later explorers inherited knowledge. Anky wants to leave but stays because he promised Nuru a full report." },
+    { title: "Anky’s final recovered expedition begins", meta: "20 Apr 2026", sort: "2026-04-20", era: "2026 · Consequences", kind: "Expedition", article: "st-anky", location: "Veiled Watch; Voraketh", people: "St. Anky; Alfred Riverheart; Cerwin Rayolet", tags: ["Portho’s Portal", "motes", "missing sequence"], summary: "Anky, Alfred, and Cerwin enter a portal after Anky proposes gathering motes as possible medicine. The surviving log does not preserve what happens next." },
+    { title: "St. Anky walks the road to the afterlife", meta: "21 Apr 2026 · 6:00 PM", sort: "2026-04-21", era: "2026 · Consequences", kind: "Death", article: "st-anky", location: "Road to the afterlife", people: "St. Anky", tags: ["death", "unrecovered cause", "Voraketh"], summary: "By the evening after the expedition began, Anky is dead. The fatal event and cause are absent from the surviving Veiled Watch record." },
+    { title: "Cerwin reaches Anky after death", meta: "24 Apr 2026", sort: "2026-04-24", era: "2026 · Consequences", kind: "Afterlife encounter", article: "st-anky", location: "Road to the afterlife", people: "St. Anky; Cerwin Rayolet", tags: ["aftermath", "missing history"], summary: "A wounded Cerwin catches up to Anky, apologizing that he was not there and that he is late. The missing expedition sequence remains unresolved." },
     { title: "Babel-Ashur reaches a crisis of survival", meta: "5 May 2026", sort: "2026-05-05", era: "2026 · Consequences", kind: "Regional crisis", article: "babel-ashur", location: "Babel-Ashur", people: "Mya; Olokun; Arjahn; the Vanguard; Dale; Anky", tags: ["Babel-Ashur", "Mya", "Vanguard", "Shard", "survival"], summary: "A battered Mya insists that all lands are worth saving. Babel’s Shard is not simply a tree, Arjahn’s vanguard is losing, and the surviving choice is to pass strength onward or reunite and prove the gods wrong." },
     { title: "Brianna chooses sanctification", meta: "2026 · exact date unresolved", sort: "2026-06", era: "2026 · Consequences", kind: "Healing forward", article: "elenia", location: "Fenumion", people: "Brianna; Elenia; Mya; Adelia; Farkur; Magnus", tags: ["Delerium", "Sacrament", "Hope"], summary: "After Magnus forces Delerium into Brianna, Elenia calls Mya. Hope cleanses rather than removes the crystal, transforming the residue of violation without erasing what happened." },
     { title: "The Miracle of Fenumion follows accepted loss", meta: "2026 · exact date unresolved", sort: "2026-06-15", era: "2026 · Consequences", kind: "Contingent grace", article: "elenia", location: "Fenumion", people: "The adventurers", tags: ["Reincarnate", "miracle", "chance"], summary: "An unfudged one-in-250 Reincarnate result occurs only after the party has accepted loss and change. Its meaning is preserved without claiming Ada caused the roll." },
@@ -1864,11 +1924,12 @@ const archiveIndex = {
     { title: "Pilgrim’s Hearth returns ordinary social life", meta: "19 Sep 2026", sort: "2026-09-19c", era: "2026 · Consequences", kind: "Civic continuity", article: "common-man", location: "Pilgrim’s Hearth; Pristinia", people: "Thorn; Aurélia; Marius; Saoirse", tags: ["Common Man", "tavern", "rebuilding"], summary: "The successor tavern on the Common Man’s foundations functions as a place for tea, news, and social connection after destruction and rebuilding." },
     { title: "Prima’s Magic Academy is open", meta: "Confirmed 19 Sep 2026", sort: "2026-09-19d", era: "2026 · Consequences", kind: "Institutional development", article: "scribonia", location: "Pristinia; Prima", people: "Scribonia; Marius; Aurélia; Saoirse", tags: ["academy", "teaching", "magic"], summary: "Students identify Scribonia as their teacher, while Saoirse prepares lessons for a future turn teaching younger learners." },
     { title: "The Delerium cave answers Vessalia’s song", meta: "20 Sep 2026", sort: "2026-09-20", era: "2026 · Consequences", kind: "Unresolved discovery", article: "cave-company", location: "Unmapped cave", people: "Vessalia; Moira Eshdin; Di’trillio; Saoirse; Pell; Djöhandrai", tags: ["violet crystals", "Delerium", "harpies", "unresolved"], summary: "The party finds a contaminated corpse, strange tracks, violet crystals that do not all produce expected Delerium feedback, and malformed harpy-like creatures. Something deeper in the cave mimics Vessalia’s song; the crystals’ nature remains unknown." },
-    { title: "Nienna gives herself so Hope can live", meta: "Modern era · exact date unresolved", sort: "9990-01", era: "Undated consequences", kind: "Voluntary sacrifice", article: "nienna", location: "Fenumion", people: "Nienna; Elenia; Hope", tags: ["sacrifice", "legacy", "one last time"], summary: "Afraid and wanting to live, Nienna spends her life to create an opportunity rather than a guaranteed victory; her absence continues to cause later choices." },
-    { title: "Jiangshi dies and returns", meta: "Modern era · exact dates unresolved", sort: "9990-02", era: "Undated consequences", kind: "Death and return", article: "jiangshi", location: "The Shadowlands; Fenumion", people: "Jiangshi; Adelia; Namo’o", tags: ["souls", "memorial", "return"], summary: "Seven and a half months of death do not remove Jiangshi from relationship. Her return makes the world confront the difference between a dead body and a finished person." },
-    { title: "Adelia gives herself for Hope", meta: "Modern era · exact date unresolved", sort: "9990-04", era: "Undated consequences", kind: "Ascension", article: "adelia-hope", location: "The Tree", people: "Adelia; Hope; Nienna; Jiangshi", tags: ["Hope", "Tree", "renewal"], summary: "A life repeatedly rebuilt after loss culminates in Adelia becoming part of the Tree so Hope can continue." },
-    { title: "The Chain and Maw defeat Ithilrûnë’s working model", meta: "Sep 2026 · exact day unresolved", sort: "2026-09-21a", era: "2026 · Consequences", kind: "Epistemological crisis", article: "voraketh", location: "Voraketh; the Delerium Chain and Maw", people: "Ithilrûnë; Sildithas; Coralyn; Pappy", tags: ["Maw", "Delerium Chain", "Derya Thorne", "uncertainty"], summary: "A magic-consuming Maw, a Chain that suppresses power, dangerous constructs that defend or repair it, and an unidentified prisoner resist Ithilrûnë’s attempts to form a reliable model. Her explanations about Talan, Physisia, and the trapped figure remain explicitly unproven." },
-    { title: "Sildithas proposes a feast beside the Maw", meta: "Sep 2026 · exact day unresolved", sort: "2026-09-21b", era: "2026 · Consequences", kind: "Oath and preservation", article: "sildithas", location: "Voraketh; beside the Chain and Maw", people: "Sildithas; Ithilrûnë; the island expedition", tags: ["oath", "feast", "joy", "moral uncertainty"], summary: "Unable to solve the Maw, Sildithas returns to an oath centered on mercy, flourishing, courage, and joy. He proposes a feast as a small good that preserves the people facing the unresolved horror, and Ithilrûnë agrees to follow his lead." },
+    { title: "Jiangshi dies and returns", meta: "Jun 2024 — death/loss · return ~7½ months later · exact days unresolved", sort: "2024-06", era: "2024 · The Calling", kind: "Death and return", article: "jiangshi", location: "Gael; the Void; the Shadowlands; Fenumion", people: "Jiangshi; Adelia; Nienna; Namo’o", tags: ["souls", "memorial", "return"], summary: "Jiangshi’s death or loss belongs to the June 2024 Gael and Void history. Approximately seven and a half months of death do not remove her from relationship; her return makes the world confront the difference between a dead body and a finished person." },
+    { title: "Nienna gives herself so Hope can live", meta: "Sep 6, 2024", sort: "2024-09-06", era: "2024 · The Calling", kind: "Voluntary sacrifice", article: "nienna", location: "Fenumion", people: "Nienna; Elenia; Hope", tags: ["sacrifice", "legacy", "one last time"], summary: "Afraid and wanting to live after the retreat that followed Jiangshi’s June loss, Nienna crosses the Gate and spends her life to create an opportunity for Hope to survive rather than a guaranteed victory. Her absence continues to shape later choices." },
+    { title: "Adelia gives herself for Hope", meta: "2026 · exact date unresolved", sort: "2026-99", era: "2026 · Consequences", kind: "Ascension", article: "adelia-hope", location: "The Tree", people: "Adelia; Hope; Magnus; Nienna; Jiangshi", tags: ["Hope", "Tree", "renewal", "Spirit of Adelia"], summary: "After Magnus harms Hope, a life repeatedly rebuilt after loss culminates in Adelia sacrificing herself to restore and save Hope. She becomes part of the Tree, leading into the Spirit of Adelia state." },
+    { title: "The Chains and Maw defeat Ithilrûnë’s working model", meta: "Sep 2026 · exact day unresolved", sort: "2026-09-21a", era: "2026 · Consequences", kind: "Epistemological crisis", article: "voraketh", location: "Voraketh; the Chains and Maw", people: "Ithilrûnë; Sildithas; Coralyn; Pappy", tags: ["Maw", "Chains", "Deyara Thorn", "uncertainty"], summary: "A magic-consuming Maw, antimagic Chains, dangerous constructs, an associated figure, and a separate watcher resist Ithilrûnë’s attempts to form a reliable model. Talan’s authorship of the Chains is attributed; his motives and the figures’ identities remain unknown." },
+    { title: "Coralyn preserves Voraketh’s unanswered connections", meta: "22 Sep 2026", sort: "2026-09-22", era: "2026 · Consequences", kind: "Evidence synthesis", article: "voraketh", location: "Voraketh", people: "Coralyn; Deyara Thorn; Physisia; Talan", tags: ["evidence discipline", "Last Grove", "plague", "blurred watcher"], summary: "Coralyn records the island’s unnatural order, Chains, Wasteland, Maw, watcher, motes, tree, resurrection offer, spores, plague, and difficult name—while refusing to connect them merely because they are strange." },
+    { title: "Sildithas proposes a feast beside the Maw", meta: "Sep 2026 · exact day unresolved", sort: "2026-09-21b", era: "2026 · Consequences", kind: "Oath and preservation", article: "sildithas", location: "Voraketh; beside the Chains and Maw", people: "Sildithas; Ithilrûnë; the island expedition", tags: ["oath", "feast", "joy", "moral uncertainty"], summary: "Unable to solve the Maw, Sildithas returns to an oath centered on mercy, flourishing, courage, and joy. He proposes a feast as a small good that preserves the people facing the unresolved horror, and Ithilrûnë agrees to follow his lead." },
     { title: "Pristinia answers hunger with a hunt", meta: "15 Dec 2024", sort: "2024-12-15a", era: "2024 · The Calling", kind: "Community consequence", article: "common-man", location: "The Common Man; Pristinia", people: "Farmer Frank; Herb; Aravil; Tobias", tags: ["food", "winter", "ecology", "civilian labor"], summary: "A tavern conversation exposes failed harvest help, an overworked farmer, and dwindling stores. A hunt forms while Herb limits it so immediate hunger does not destroy next year’s elk population." },
     { title: "Skye makes Lichen safe through music", meta: "15 Dec 2024", sort: "2024-12-15b", era: "2024 · The Calling", kind: "Belonging", article: "common-man", location: "The Common Man; Pristinia", people: "Skye; Lichen", tags: ["music", "money", "friendship", "First Forest"], summary: "Skye refuses most of a ten-gold gift worth roughly a year’s wages, learns who Lichen is, and connects a strange newcomer to the First Forest through music and conversation." }
   ],
@@ -1901,7 +1962,7 @@ const archiveIndex = {
     { title: "Quake", meta: "Character sighting", article: "roderick-wrath", summary: "Refuses Wrath’s bargain before its full danger is understood; protected by Elenia’s practiced memory of earlier loss." },
     { title: "Saray", meta: "Survivor of grief", article: "saray", summary: "Carries guilt after Nienna’s death and later lands the final blow against Wrath; the connecting chronology remains incomplete." },
     { title: "Rahn", meta: "Character sighting", article: "people-directory", summary: "A sparsely recorded flying adventurer preserved in the recovered scene catalogue." },
-    { title: "St. Anky", meta: "Adventurer; peace-linked figure", article: "st-anky", image: "st-anky-portrait.png", summary: "A recurring companion associated with the Gate, the Shadow Roads, and peace between Rahu and Pristinia." },
+    { title: "St. Anky", meta: "Nuru’s saint and chronicler", article: "st-anky", image: "st-anky-portrait.png", summary: "Built Voraketh’s Temple of Secrets so knowledge, questions, and communal resources could survive their keepers." },
     { title: "Scribonia", meta: "Magi and scholar", article: "scribonia", image: "scribonia-portrait.png", summary: "Self-defined before every label; brave in argument and often unable to relinquish the last word." },
     { title: "Selwyn", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Severina", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
@@ -1929,6 +1990,7 @@ const archiveIndex = {
     { title: "High Lord Bowene", meta: "Political authority", article: "aria-pride", summary: "Stops a council’s pursuit of alliance with Death and eventually ends an argument Aria has dominated." },
     { title: "Cala", meta: "Divine figure", article: "cala", image: "assets/archive/cala-poster.png", summary: "A goddess of light and heroism who also carries responsibility for the old catastrophe." },
     { title: "Death / Dumuzi", meta: "Cosmic power", article: "death-dumuzi", summary: "A destroyer and bargainer constrained by the mortal soul’s need to choose.", image: "assets/archive/throne.png" },
+    { title: "The Wyrm of the World’s End", meta: "Existential enemy", article: "wyrm-worlds-end", video: "wyrm-worlds-end.mp4", summary: "The hunger fed with dead gods and slowed—but not ended—by the Great Fracture." },
     { title: "Draegar", meta: "Recurring figure", article: "gartina", summary: "Remembered beside Gartina in the community’s romantic history." },
     { title: "Endora", meta: "Roderick’s beloved", article: "roderick-wrath", summary: "A woman whose choices are repeatedly filtered through the people who tried to keep or preserve her." },
     { title: "Alessio", meta: "Common Man worker", article: "common-man", summary: "Works the tables, cleans mugs, and makes the tavern legible as a civilian workplace." },
@@ -1960,9 +2022,13 @@ const archiveIndex = {
     { title: "Gael", region: "Gael", parent: "World", type: "major region", meta: "Gael · major region", article: "gael", summary: "A harsh land liberated from Wrath whose small green center, Hope, marks the beginning of recovery.", source: "Scene + map + screenshots", aliases: [], image: "assets/archive/gael.jpeg", level: "region" },
     { title: "Eovar Harbor", region: "Eovar Harbor", parent: "World", type: "harbor settlement", meta: "Eovar Harbor · settlement", article: "eovar-harbor", summary: "A dense, defended port of roughly two thousand people, shaped by shipping and controlled water access.", source: "Chronicle + map + image", aliases: [], image: "assets/archive/eovar-harbor.jpeg", level: "region" },
     { title: "Babel-Ashur", region: "Babel-Ashur", parent: "World", type: "vast island", meta: "Babel-Ashur · major region", article: "babel-ashur", summary: "An enormous island defined by wild biomes and a vast central wound rather than one dominant city.", source: "Chronicle + map", aliases: ["Babel Ashur"], image: "assets/archive/babel-ashur.webp", level: "region" },
-    { title: "Voraketh", region: "Voraketh", parent: "World", type: "isolated island", meta: "World · isolated island", article: "voraketh", summary: "A hostile island defined by suppressed power, sparse information, a self-maintained Delerium Chain, and the unresolved Maw.", source: "Consolidated location profile + scenes", aliases: [], level: "region" },
+    { title: "Voraketh", region: "Voraketh", parent: "World", type: "isolated island", meta: "World · isolated island", article: "voraketh", summary: "An island of unnatural order, old Chains, a memory-taking Wasteland, a growing Maw, and deliberately unresolved relationships.", source: "Full Codex + direct observations + map", aliases: [], image: "voraketh-map.png", level: "region" },
     { title: "The Maw", region: "Voraketh", parent: "Voraketh", type: "magic-consuming anomaly", meta: "Voraketh · anomaly", article: "voraketh", summary: "A growing anomaly that exerts deadly pull, consumes magic, and contains or is associated with an unidentified figure.", source: "Direct encounter + local testimony", aliases: ["Maw"], level: "site" },
-    { title: "The Delerium Chain", region: "Voraketh", parent: "Voraketh", type: "containment structure", meta: "Voraketh · Delerium structure", article: "voraketh", summary: "A massive suppressive Chain that has been damaged and repaired while constructs defend or maintain its function.", source: "Direct observation + character testimony", aliases: ["Delerium Chain", "The Chain"], level: "site" },
+    { title: "The Chains", region: "Voraketh", parent: "Voraketh", type: "containment / protection structure", meta: "Voraketh · divine structure", article: "voraketh", summary: "Whale-sized antimagic structures attributed to Talan; reportedly good at first and now a curse.", source: "Direct observation + Nuru → Anky + Physisia → Pappy → Anky", aliases: ["The Chain", "Delerium Chain", "The Delerium Chain"], level: "site" },
+    { title: "The Wasteland", region: "Voraketh", parent: "Voraketh", type: "hostile interior", meta: "Voraketh · hostile interior", article: "voraketh", summary: "Land beyond the Chains where creatures roam, magic becomes unreliable, motes can be found, and parts of a person may be lost.", source: "Expedition testimony + direct observation", aliases: ["Voraketh Wasteland"], level: "site" },
+    { title: "The Last Grove", region: "Voraketh", parent: "Voraketh", type: "anomalous natural site", meta: "Voraketh · grove", article: "voraketh", summary: "A surviving grove whose tree accepts motes, gives things in return, and is connected to Physisia without resolving the island’s other mysteries.", source: "Character testimony + later notes", aliases: ["Last Grove", "The Grove"], level: "site" },
+    { title: "Temple of Secrets", region: "Voraketh", parent: "Voraketh", type: "memory shelter and research institution", meta: "Voraketh · archive", article: "voraketh", summary: "Anky’s protected repository for secrets, scrolls, theories, and communal gear—built so knowledge could survive the island’s losses.", source: "Anky testimony + Temple scenes", aliases: ["The Temple of Secrets", "Anky’s Temple"], level: "site" },
+    { title: "Veiled Watch", region: "Voraketh", parent: "Voraketh", type: "expedition record site", meta: "Voraketh · watch / record", article: "voraketh", summary: "A source of expedition logs, including the last recovered record before Anky’s fatal April journey.", source: "Veiled Watch records", aliases: ["The Veiled Watch"], level: "site" },
     { title: "Greyward Littoral", region: "Babel-Ashur", parent: "Babel-Ashur", type: "coastal subregion", meta: "Babel-Ashur · southern shore", article: "grayward-littoral", summary: "Babel-Ashur’s named southern shore, mapped with a landing beach, safe routes, refuge, volcanic crystal, caverns, ruins, and sulphuric swamps.", source: "User-confirmed name + annotated map", aliases: ["Grayward Littoral", "Babel-Ashur Southern Coast", "Babel-Ashur Southern Shore", "Southern Coast", "Southern Shore"], image: "assets/archive/babel-ashur-southern-coast.webp", level: "subregion" },
     { title: "Reheva", region: "Other regions", parent: "World", type: "major region", meta: "World · named region", article: "visual-archive", summary: "The world map confirms Reheva as a named land; its internal geography has not yet been recovered here.", source: "World map", aliases: [], level: "region" },
     { title: "Rahu", region: "Other regions", parent: "World", type: "external polity", meta: "World · polity", article: "visual-archive", summary: "Rahu is represented in Pristinia by an embassy; its wider geography remains to be reconciled.", source: "Chronicle + image", aliases: [], level: "region" },
@@ -2108,6 +2174,12 @@ const interactiveMaps = [
     ]
   },
   {
+    id: "voraketh", title: "Voraketh", shortTitle: "Voraketh", image: "voraketh-map.png", width: 1536, height: 1024,
+    alt: "Anky’s illustrated map of Voraketh, showing forests and mountains around a vast devastated interior",
+    description: "Anky’s angel-made map, known by 21 March 2026. The image preserves the island’s broad geography but does not label the Chains, Maw, Last Grove, Veiled Watch, or Temple of Secrets; their exact positions must not be inferred from appearance alone.",
+    pins: [{ title: "Voraketh", x: 50, y: 50 }]
+  },
+  {
     id: "eovar", title: "Eovar Harbor", shortTitle: "Eovar", image: "assets/archive/eovar-harbor.jpeg", width: 1066, height: 800,
     alt: "Map of Eovar Harbor showing a walled waterfront settlement, ships, and nearby farmland",
     description: "The harbor’s form is its history: ships, walls, a compact waterfront, controlled approaches, and agricultural support beyond the urban core.",
@@ -2179,7 +2251,7 @@ const navigationRegions = [
         { label: "Cosmology & Metaphysics", article: "cosmology-guide", parent: true },
         { label: "Death / Dumuzi", article: "death-dumuzi" }, { label: "Cala", article: "cala" }, { label: "Mya", article: "mya" },
         { label: "Namo’o", article: "namoo" }, { label: "Papirak & Paloma", article: "papirak-paloma" },
-        { label: "Vysaeth", article: "vysaeth" }, { label: "Magnus Niriin", article: "magnus" }
+        { label: "The Wyrm of the World’s End", article: "wyrm-worlds-end" }, { label: "Vysaeth", article: "vysaeth" }, { label: "Magnus Niriin", article: "magnus" }
       ]}
     ]
   },
@@ -2290,7 +2362,21 @@ const subchannelMap = {
   "cosmology-guide": [
     { label: "The Great Fracture", article: "great-fracture", summary: "Divine conflict, corrupted Sap, Death’s access, and the firebreak." },
     { label: "Death / Dumuzi", article: "death-dumuzi", summary: "Soul bargains, choice, and the truths told by an annihilative power." },
+    { label: "The Wyrm of the World’s End", article: "wyrm-worlds-end", summary: "The actionable endgame threat the Shattering slowed without ending." },
     { label: "Unresolved Record", article: "open-questions", summary: "The metaphysical mechanisms the evidence does not yet settle." }
+  ],
+  "great-fracture": [
+    { label: "The Wyrm of the World’s End", article: "wyrm-worlds-end", summary: "The catastrophe the broken world was built to slow." },
+    { label: "Death / Dumuzi", article: "death-dumuzi", summary: "The power that entered through the primordial wound and fed the Wyrm." }
+  ],
+  "death-dumuzi": [
+    { label: "The Wyrm of the World’s End", article: "wyrm-worlds-end", summary: "Linked to Death without being collapsed into the same being." },
+    { label: "The Great Fracture", article: "great-fracture", summary: "The firebreak that divided creation to slow them both." }
+  ],
+  "wyrm-worlds-end": [
+    { label: "The Great Fracture", article: "great-fracture", summary: "Why creation was broken into separated remnants." },
+    { label: "Death / Dumuzi", article: "death-dumuzi", summary: "The cosmic power who fed dead gods to the Wyrm." },
+    { label: "Cosmology & Metaphysics", article: "cosmology-guide", summary: "The larger structure of catastrophe, stewardship, and survival." }
   ],
   "relationships": [
     { label: "Olokun & Aria", article: "olokun", summary: "Love and personhood without ideological agreement or erased harm." },
@@ -2322,7 +2408,7 @@ const subchannelMap = {
     { label: "Fein Uaill", article: "fein-uaill", summary: "Zarathis, Caisleán na Brón, Ciaránach, walls, estates, libraries, and sacred sites." },
     { label: "Gael", article: "gael", summary: "Hope, trials, ruins, towers, forests, and a wounded landscape beginning to recover." },
     { label: "The Void", article: "the-void", summary: "Dangerous passage, predation, sacrifice, uneven knowledge, and changing connections between islands." },
-    { label: "Voraketh", article: "voraketh", summary: "The Maw, the Delerium Chain, suppressed power, local testimony, and an investigation still without answers." }
+    { label: "Voraketh", article: "voraketh", summary: "The Maw, Talan’s Chains, the Wasteland, Temple of Secrets, Last Grove, and an investigation still without answers." }
   ],
   "fein-uaill": [
     { label: "Zarathis", article: "zarathis", summary: "A developed cultural center within the wider Fein Uaill region." },
@@ -2337,9 +2423,16 @@ const subchannelMap = {
     { label: "Voraketh", article: "voraketh", summary: "An isolated island whose route and relationship to other interregional spaces remain unresolved." }
   ],
   "voraketh": [
-    { label: "Ithilrûnë", article: "ithilrune", summary: "Knowledge fails to become a reliable model at the Chain and Maw." },
+    { label: "St. Anky", article: "st-anky", summary: "The chronicler whose Temple, map, and shared records let knowledge outlive him." },
+    { label: "Coralyn", article: "coralyn", summary: "Evidence discipline and the refusal to connect mysteries merely because they are strange." },
+    { label: "Ithilrûnë", article: "ithilrune", summary: "Knowledge fails to become a reliable model at the Chains and Maw." },
     { label: "Sildithas", article: "sildithas", summary: "Listening, divine uncertainty, and a feast beside unresolved horror." },
-    { label: "Pappy", article: "pappy", summary: "Physical resilience becomes unusually valuable while the Chain suppresses magic." }
+    { label: "Pappy", article: "pappy", summary: "Physical resilience becomes unusually valuable while the Chains suppress magic." }
+  ],
+  "st-anky": [
+    { label: "Voraketh", article: "voraketh", summary: "The island that took from Anky and inherited the records he built to resist it." },
+    { label: "The Gate", article: "the-gate", summary: "The ancient construction Anky witnessed with Nuru, Cala, and young Papirus." },
+    { label: "Coralyn", article: "coralyn", summary: "A fellow investigator whose later discipline inherits Voraketh’s accumulated evidence." }
   ]
 };
 
@@ -2410,7 +2503,7 @@ function renderArticle(route, pushHash = true) {
   const hero = article.video
     ? `<figure class="${heroClass}"><video ${allowAutoplay ? "autoplay " : ""}muted loop playsinline controls preload="metadata" poster="${article.image || ""}" aria-label="${article.videoAlt || article.title}"><source src="${article.video}" type="video/mp4">Your browser does not support this video.</video><figcaption>${article.videoCaption || "Video preserved in the Fenumion archive."}</figcaption></figure>`
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "");
-  const sourceLedger = article.sources?.length ? `<details class="source-ledger"><summary><span>Documents used</span><strong>${article.sources.length}</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
+  const sourceLedger = article.sources?.length ? `<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} document${article.sources.length === 1 ? "" : "s"} used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
   const subchannels = renderSubchannels(article.id);
   const hubSwitcher = hubPage ? `
     <nav class="hub-switcher" aria-label="Explore the Codex">
@@ -2435,7 +2528,6 @@ function renderArticle(route, pushHash = true) {
     ${hubSwitcher}
     ${atlasBanner}
     ${hubPage ? "" : hero}
-    <div class="source-strip"><span>Archive basis</span><p>Drawn from preserved campaign scenes, chronicles, maps, and visual records.</p></div>
     ${sourceLedger}
     ${subchannels}
     <div class="lead-grid">

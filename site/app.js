@@ -64,7 +64,7 @@ const articles = [
     id: "visual-archive", title: "Location Atlas", category: "Places", type: "Searchable region & sublocation index",
     dek: "A nested atlas of Fenumion’s regions, settlements, ruins, estates, forests, civic spaces, and other named places.",
     tags: ["Locations", "Maps", "Regions", "Sublocations", "Search"],
-    facts: { Records: "88 places", Maps: "9 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
+    facts: { Records: "89 places", Maps: "9 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
     body: `
       <p>This atlas restores the geographic hierarchy visible across the surviving records. Major regions contain their settlements and landmarks: <strong>Caisleán na Brón belongs within Fein Uaill</strong>; Hope and the Tower belong within Gael; Pristinia’s civic sites belong within Prima. Search accepts spelling variants such as “Caselean De Broin.”</p>
       <h2 id="place-directory">Search every recovered place</h2>
@@ -164,15 +164,35 @@ const articles = [
     mapId: "fein-uaill", mapLinkLabel: "Explore the interactive Fein Uaill map",
     dek: "The wider Zarathian region: cities, estates, sacred sites, walls, libraries, and memorial landscapes gathered around a mortal claim to greatness.",
     tags: ["Fein Uaill", "Zarathis", "Ciaránach", "Locations"],
-    facts: { Type: "Major region", "Developed center": "Zarathis", "Sacred city": "Ciaránach", "Named sites": "15 recovered sublocations" },
+    facts: { Type: "Major region", "Developed center": "Zarathis", "Sacred city": "Ciaránach", "Named sites": "16 recovered sublocations" },
     body: `
       <p>Fein Uaill is the larger region that contains Zarathis and its surrounding network of cities and landmarks. Zarathis is one developed center within this land—not a label for the whole island. The supplied map and location directory preserve settlements, fortifications, estates, libraries, forests, shores, tombs, and sites of divine catastrophe.</p>
       <h2 id="centers">Centers and civic places</h2>
-      <p><strong>Zarathis</strong> is the best-developed cultural center in the record. <strong>Ciaránach</strong> is the sacred nexus where Grace died and where Zarathian belief confronts the possibility that gods can fail. <strong>Caisleán na Brón</strong> appears as a major fortified place; the user’s “Caselean De Broin” and the unaccented “Caislean na Bron” are preserved as search aliases. The Radiant Bazaar, Niriin Estate, and Thalanbor’s Library show a region with civic, private, and scholarly geography.</p>
+      <p><strong>Zarathis</strong> is the best-developed cultural center in the record. <a href="#ciaranach"><strong>Ciaránach</strong></a> is a sacred city whose oldest divine history remains protected in player-safe view. <strong>Caisleán na Brón</strong> appears as a major fortified place; the user’s “Caselean De Broin” and the unaccented “Caislean na Bron” are preserved as search aliases. The Radiant Bazaar, Niriin Estate, and Thalanbor’s Library show a region with civic, private, and scholarly geography.</p>
+      <p data-vault-only>Keeper records identify Ciaránach as the nexus where Nuru killed Grace and where Zarathian belief confronts the possibility that gods can fail.</p>
       <h2 id="boundaries">Boundaries and wounds</h2>
       <p>The <a href="#shining-shores">Gates of Aelthor</a>, the city on the Shining Shores, were attacked by Aionia’s heavenly host: civilians died, the city burned, and victory helped propel a later march against the gods. The user confirms <strong>Aelthor</strong> as the proper spelling; “Aethor” in the supplied profile and the older “Arthor” rendering remain searchable source variants. Aelthor is remembered as the first king after the breaking of the world. The Titanwall of Eryndor and the Shard of Fein Uaill remain named defensive or monumental features. Aria’s Tomb belongs in Fein Uaill proper; the archive explicitly corrects the assumption that it lies inside Ciaránach.</p>
       <h2 id="sea-of-dreams">The Sea of Dreams</h2>
       <p>Scribonia’s Teleportation Circle offered an escape route through the Sea of Dreams after catastrophe. A later account from Mya says Scribonia was unmade there by a divine or Void relic. The Codex preserves that as an attributed claim rather than omniscient narration.</p>`
+  },
+  {
+    id: "ciaranach", title: "Ciaránach", category: "Places", type: "Sacred city of Fein Uaill",
+    video: "ciaranach.mp4", videoType: "video/mp4", videoLayout: "landscape-hero", videoAlt: "A moving visual record of Ciaránach", videoCaption: "Ciaránach — user-supplied moving city record, 27 September 2026.",
+    dek: "A sacred city within Fein Uaill, now preserved through moving records of the city and one of its temples.",
+    tags: ["Ciaránach", "Fein Uaill", "Sacred city", "Temple", "Locations"],
+    facts: { Region: "Fein Uaill", Type: "Sacred city", "Recovered sublocation": "Temple in Ciaránach", "Ancient history": "Protected keeper record", Evidence: "Regional chronicle · two moving visual records" },
+    sources: ["User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city", "Fein Uaill regional chronicle — geographic parent and protected sacred history"],
+    body: `
+      <p>Ciaránach is a sacred city within <a href="#fein-uaill">Fein Uaill</a>. The supplied moving records now give the Codex a visual identity for both the wider city and a temple within it, while the regional archive establishes Ciaránach as a distinct settlement rather than another name for Zarathis or Fein Uaill itself.</p>
+      <div class="callout gold"><p><strong>Evidence boundary:</strong> these videos establish the intended appearance of Ciaránach and its temple. They do not establish the city’s population, government, age, architectural chronology, the temple’s dedication, or a precise location on the regional map.</p></div>
+      <h2 id="ciaranach-temple">The temple in Ciaránach</h2>
+      <p>The temple is preserved as a distinct sublocation of the city. Its proper name, divine dedication, custodians, rites, and relationship to other sacred sites remain unrecovered.</p>
+      <figure class="article-hero landscape-hero"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"><source src="ciaranach-temple.mp4" type="video/mp4">Your browser does not support this video.</video><figcaption>Temple in Ciaránach — user-supplied moving location record, 27 September 2026.</figcaption></figure>
+      <h2 id="ciaranach-sacred-history">Why the city is sacred</h2>
+      <p>The public record preserves Ciaránach’s sacred importance without disclosing the ancient divine event that gave the city that weight.</p>
+      <p data-vault-only>Keeper records identify Ciaránach as the sacred nexus where Nuru killed Grace. That ancient catastrophe makes divine failure part of the city’s geography and of later Zarathian arguments about mortal authority.</p>
+      <h2 id="ciaranach-open-record">The open record</h2>
+      <p>The city’s founding, present leadership, inhabitants, districts, routes, relationship to Zarathis, and the temple’s formal identity remain unresolved. Future records should add those details without inferring them from visual appearance alone.</p>`
   },
   {
     id: "shining-shores", title: "The Shining Shores", category: "Places", type: "Coastal region and city shore",
@@ -1037,7 +1057,8 @@ const articles = [
       <h2 id="silver-star">The Silver Star</h2>
       <p>The Silver Star safeguards Zarathian history and culture. When Magnus dies, returns, and seeks public standing, the conflict is structural: if its custodians accept him without consequence, what do they preserve?</p>
       <h2 id="sacred-geography">Sacred geography</h2>
-      <p>Ciaránach is the sacred city where Grace died and the proposition that mortals may be trusted with creation more than divinity became geography. At the Gates of Aelthor, Aionia’s heavenly host killed civilians and burned the city before being driven back. These places make Zarathian confidence intelligible—and preserve the danger that mortal success can harden into pride.</p>
+      <p><a href="#ciaranach">Ciaránach</a> is a sacred city whose oldest divine history remains a protected keeper record. At the Gates of Aelthor, Aionia’s heavenly host killed civilians and burned the city before being driven back. These places make Zarathian confidence intelligible—and preserve the danger that mortal success can harden into pride.</p>
+      <p data-vault-only>Keeper records identify Ciaránach as the city where Grace died and where the proposition that mortals may be trusted with creation more than divinity became geography.</p>
       <h2 id="magnus">Magnus’s counterargument</h2>
       <p>Magnus wants Zarathis to gain the strength and knowledge to determine its own future—even beyond the world. His program is coherent, but it projects his dissatisfaction onto a culture that already chose a different kind of greatness.</p>`
   },
@@ -2326,7 +2347,8 @@ const archiveIndex = {
 
     { title: "Zarathis", region: "Fein Uaill", parent: "Fein Uaill", type: "civilization", meta: "Fein Uaill · civilization", article: "zarathis", summary: "A developed center organized around memory, mastery, and the boundary of one mortal life.", source: "Chronicle + map", aliases: ["Zerathis"], level: "settlement" },
     { title: "Caisleán na Brón", region: "Fein Uaill", parent: "Fein Uaill", type: "fortified place", meta: "Fein Uaill · fortified place", article: "fein-uaill", summary: "A major fortified place confirmed by the Fein Uaill map and screenshot directory.", source: "Map + screenshot", aliases: ["Caselean De Broin", "Caislean na Bron", "Caisleán De Bróin"], level: "site" },
-    { title: "Ciaránach", region: "Fein Uaill", parent: "Fein Uaill", type: "sacred city", meta: "Fein Uaill · sacred city", article: "fein-uaill", summary: "The sacred nexus where Nuru killed Grace and Zarathian belief confronts divine failure.", source: "Chronicle + image", aliases: ["Ciaranach"], level: "settlement" },
+    { title: "Ciaránach", region: "Fein Uaill", parent: "Fein Uaill", type: "sacred city", meta: "Fein Uaill · sacred city", article: "ciaranach", summary: "A sacred city whose visual identity now includes the wider settlement and a temple within it.", source: "Regional chronicle + user-supplied moving records", aliases: ["Ciaranach"], video: "ciaranach.mp4", level: "settlement" },
+    { title: "Temple in Ciaránach", region: "Fein Uaill", parent: "Ciaránach", type: "temple", meta: "Fein Uaill › Ciaránach · temple", article: "ciaranach", summary: "A temple preserved through a moving visual record; its proper name, dedication, and deeper history remain unrecovered.", source: "User-supplied moving record", aliases: ["Ciaránach Temple", "Ciaranach Temple", "Temple of Ciaránach"], video: "ciaranach-temple.mp4", level: "site" },
     { title: "Gates of Aelthor", region: "Fein Uaill", parent: "The Shining Shores", type: "coastal city / battle site", meta: "Fein Uaill › Shining Shores · city", article: "shining-shores", summary: "A city of white streets, bustling markets, and soaring towers, named for the first king after the breaking of the world; later battle records preserve a devastating attack by Aionia’s host.", source: "Location profile + scene + map + screenshot + user spelling correction", aliases: ["The Gates of Aelthor", "Gates of Aethor", "The Gates of Aethor", "Gates of Arthor"], level: "settlement" },
     { title: "Seraphis", region: "Fein Uaill", parent: "Fein Uaill", type: "city", meta: "Fein Uaill · city", article: "fein-uaill", summary: "A major settlement confirmed by the Fein Uaill map and supplied screenshot directory.", source: "Map + screenshot", aliases: [], level: "settlement" },
     { title: "The Titanwall of Eryndor", region: "Fein Uaill", parent: "Fein Uaill", type: "fortification", meta: "Fein Uaill · fortification", article: "fein-uaill", summary: "A monumental wall confirmed by the regional map and supplied screenshot directory.", source: "Map + screenshot", aliases: ["Titanwall of Eryndor", "Titanwall of Eanndor"], level: "site" },
@@ -2537,7 +2559,7 @@ const navigationRegions = [
       ]},
       { title: "Fein Uaill", items: [
         { label: "Fein Uaill overview", article: "fein-uaill", parent: true },
-        { label: "Zarathis", article: "zarathis" }, { label: "The Shining Shores", article: "shining-shores" }
+        { label: "Zarathis", article: "zarathis" }, { label: "Ciaránach", article: "ciaranach" }, { label: "The Shining Shores", article: "shining-shores" }
       ]},
       { title: "Gael", items: [
         { label: "Gael overview", article: "gael", parent: true }
@@ -2586,6 +2608,7 @@ articlePaths.set("the-gate", ["Locations", "Prima", "The Gate"]);
 articlePaths.set("the-before-melian", ["Locations", "Prima", "The Before"]);
 articlePaths.set("fein-uaill", ["Locations", "Fein Uaill"]);
 articlePaths.set("zarathis", ["Locations", "Fein Uaill", "Zarathis"]);
+articlePaths.set("ciaranach", ["Locations", "Fein Uaill", "Ciaránach"]);
 articlePaths.set("shining-shores", ["Locations", "Fein Uaill", "The Shining Shores"]);
 articlePaths.set("gael", ["Locations", "Gael"]);
 articlePaths.set("the-void", ["Locations", "The Void"]);
@@ -2688,8 +2711,14 @@ const subchannelMap = {
   ],
   "fein-uaill": [
     { label: "Zarathis", article: "zarathis", summary: "A developed cultural center within the wider Fein Uaill region." },
+    { label: "Ciaránach", article: "ciaranach", summary: "A sacred city with a newly preserved moving record and a distinct temple sublocation." },
     { label: "The Shining Shores", article: "shining-shores", summary: "The Gates of Aelthor, warm sands, sea arrivals, and a quieter coast for reflection and diplomacy." },
     { label: "All Fein Uaill places", article: "visual-archive", summary: "Search every recovered city, estate, tomb, forest, wall, shore, and landmark." }
+  ],
+  "ciaranach": [
+    { label: "Fein Uaill", article: "fein-uaill", summary: "The wider region containing Ciaránach, Zarathis, the Shining Shores, and other recovered places." },
+    { label: "Zarathis", article: "zarathis", summary: "A separate developed center within Fein Uaill whose relationship to Ciaránach remains only partly recovered." },
+    { label: "All Fein Uaill places", article: "visual-archive", summary: "Search the region’s cities, sacred sites, walls, estates, forests, shores, and landmarks." }
   ],
   "shining-shores": [
     { label: "Fein Uaill", article: "fein-uaill", summary: "The wider region containing the Shining Shores and the Gates of Aelthor." },

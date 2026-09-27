@@ -34,8 +34,7 @@ const articles = [
     facts: { Regions: "Characters · Timeline · Locations", Structure: "Region → subject → subentry", Ordering: "Chronological or alphabetical", Foundation: "Campaign records, maps, and chronicles" },
     body: `
       <section class="gateway-hero">
-        <video id="gateway-banner-video" class="gateway-banner-video" muted loop playsinline preload="metadata" poster="assets/archive/world-map.jpeg" aria-hidden="true" tabindex="-1"><source src="assets/archive/fenumion-banner.mp4" type="video/mp4"></video>
-        <button id="gateway-motion-toggle" class="gateway-motion-toggle" type="button" aria-pressed="false">Play motion</button>
+        <video class="gateway-banner-video ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/world-map.jpeg" aria-hidden="true" tabindex="-1"><source src="assets/archive/fenumion-banner.mp4" type="video/mp4"></video>
         <div class="gateway-hero-inner">
           <span class="gateway-sigil" aria-hidden="true"><img src="fenumion-logo.png" alt=""></span>
           <p class="gateway-overline">A living history reconstructed from play</p>
@@ -59,7 +58,7 @@ const articles = [
       </section>
       <div class="gateway-section-title"><span></span><h2>Complete index</h2><span></span></div>
       <p class="gateway-index-intro">Browse every recovered character, event, and place. Sort by name or chronology, then open the exact record you need.</p>
-      <div id="world-browser" class="world-browser" aria-live="polite"></div>`
+      <div id="world-browser" class="world-browser"></div>`
   },
   {
     id: "visual-archive", title: "Location Atlas", category: "Places", type: "Searchable region & sublocation index",
@@ -69,7 +68,7 @@ const articles = [
     body: `
       <p>This atlas restores the geographic hierarchy visible across the surviving records. Major regions contain their settlements and landmarks: <strong>Caisleán na Brón belongs within Fein Uaill</strong>; Hope and the Tower belong within Gael; Pristinia’s civic sites belong within Prima. Search accepts spelling variants such as “Caselean De Broin.”</p>
       <h2 id="place-directory">Search every recovered place</h2>
-      <div id="location-explorer" class="location-explorer" aria-live="polite"></div>
+      <div id="location-explorer" class="location-explorer"></div>
       <h2 id="reading-place-records">How to read place records</h2>
       <p><strong>Scene-backed</strong> entries have history recovered from roleplay or campaign records. <strong>Map + screenshot</strong> entries have a confirmed name and geographic parent. <strong>Screenshot directory</strong> entries preserve a visible label while refusing to invent a function or history that has not yet been recovered.</p>
       <div class="callout"><p>Names are canonicalized from the clearest supplied label, while alternate spellings remain searchable. The screenshots are evidence, not instructions, and deleted forum posts are not treated as lore.</p></div>`
@@ -484,7 +483,7 @@ const articles = [
       <p>Farkur S. Gemblenagin is a founder and one of the three main members of the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>. His central achievement is not a single victory or building. It is the organization itself: a system intended to connect specialized people, fund durable work, welcome newcomers, and carry its members’ names farther than isolated adventuring could.</p>
       <h2 id="farkur-visual-records">Visual records</h2>
       <p>The archive preserves Farkur in both pirate regalia and an Ale-Chemy tavern or workshop setting. These supplied depictions establish his visual identity; background details are not treated as proof of a particular dated event.</p>
-      <figure class="article-hero portrait-hero"><video muted loop playsinline controls preload="metadata" aria-label="Farkur beside an Ale-Chemy tavern or brewery"><source src="farkur-tavern.mp4" type="video/mp4">Your browser does not support this video.</video><figcaption>Farkur at an Ale-Chemy tavern or workshop — user-supplied moving character portrait, 26 September 2026.</figcaption></figure>
+      <figure class="article-hero portrait-hero"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"><source src="farkur-tavern.mp4" type="video/mp4">Your browser does not support this video.</video><figcaption>Farkur at an Ale-Chemy tavern or workshop — user-supplied moving character portrait, 26 September 2026.</figcaption></figure>
       <h2 id="farkur-principles">Build something larger than yourself</h2>
       <p>Farkur repeatedly values finishing work, honoring obligations, putting more into the world than one takes, and acting meaningfully even when nothing lasts forever. His Builder skill becomes an institutional philosophy. Scouts find resources; hunters retrieve them; crafters and smiths transform them; pooled funds keep work moving; builders turn the result into public infrastructure.</p>
       <p>He also recognizes the uncomfortable role of money. Farkur wants honest work and dislikes morally dubious funding, but accepts that walls, equipment, property, reconstruction, and war logistics cannot run on goodwill alone. That pragmatism creates both the Knights’ capacity and legitimate reasons for outsiders to question their influence.</p>
@@ -2025,7 +2024,7 @@ const articles = [
     sources: ["Fenumion_Codex_Master_Timeline_2026-09-20.md — event chronology, evidence levels, and causal spines", "Fenumion Archive Catalogue — chronology and source anchors", "New Year.pdf — community retrospective", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — undated 2026 Babel-Ashur reconnaissance sequence"],
     body: `
       <p>The history is presented in causal order, but each event also records when modern adventurers discovered it. Exact dates are used only where the documents provide them; approximate and unresolved dates are labeled instead of silently invented. The public record begins with the modern Calling, while keeper access reveals the protected ancient and divine chronology.</p>
-      <div id="timeline-explorer" class="timeline-explorer" aria-live="polite"></div>
+      <div id="timeline-explorer" class="timeline-explorer"></div>
       <h2 id="narrative-arc">The narrative arc</h2>
       <p data-vault-only>Fenumion begins with an act of protection corrupted by authority. The gods turn the source of life into a weapon, open creation to Death, and then shatter the world to save what remains. Papirak, Paloma, The Before, Roderick, and Aria repeat that first pattern at human scale: love and safety become dangerous when one person claims the right to determine another person’s cost.</p>
       <p>The modern history begins differently. Adventurers build a wall, teach each other, map danger, carry memories forward, and sometimes refuse the offered sacrifice. Their victories matter because farms, food stores, marriages, memorials, and friendships survive beside them.</p>
@@ -2767,9 +2766,43 @@ const vaultDialog = document.querySelector("#vault-dialog");
 const vaultForm = document.querySelector("#vault-form");
 const vaultPassword = document.querySelector("#vault-password");
 const vaultError = document.querySelector("#vault-error");
+let ambientVideoObserver = null;
 
 function escapeHtml(value) {
   return value.replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
+}
+
+function setupAmbientVideos(root = document) {
+  ambientVideoObserver?.disconnect();
+  ambientVideoObserver = null;
+  const videos = [...root.querySelectorAll("video[data-ambient-video]")];
+  if (!videos.length) return;
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  videos.forEach(video => {
+    video.controls = false;
+    video.muted = true;
+    video.defaultMuted = true;
+    video.loop = true;
+    video.playsInline = true;
+    video.disablePictureInPicture = true;
+    video.setAttribute("controlslist", "nodownload nofullscreen noremoteplayback");
+    video.setAttribute("tabindex", "-1");
+    video.setAttribute("aria-hidden", "true");
+    if (reduceMotion) video.pause();
+  });
+  if (reduceMotion) return;
+  if (!("IntersectionObserver" in window)) {
+    videos.forEach(video => video.play().catch(() => {}));
+    return;
+  }
+  ambientVideoObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const video = entry.target;
+      if (entry.isIntersecting) video.play().catch(() => {});
+      else video.pause();
+    });
+  }, { rootMargin: "120px 0px", threshold: .08 });
+  videos.forEach(video => ambientVideoObserver.observe(video));
 }
 
 function isRestrictedArticle(id) {
@@ -2833,7 +2866,7 @@ function renderVaultGate(article) {
 function renderNavigation() {
   navigation.innerHTML = navigationRegions.map(region => `
     <section class="nav-region">
-      <button class="nav-region-link${isPlayerSafeArticle(region.article) ? "" : " restricted-link"}" data-article="${region.article}" data-nav-article="${region.article}">
+      <button type="button" class="nav-region-link${isPlayerSafeArticle(region.article) ? "" : " restricted-link"}" data-article="${region.article}" data-nav-article="${region.article}" data-label="${escapeHtml(region.title)}" aria-label="Browse ${escapeHtml(region.title)}">
         <span class="nav-region-glyph" aria-hidden="true">${region.glyph}</span><strong>${region.title}${restrictedMark(region.article)}</strong><span>›</span>
       </button>
       <div class="nav-region-tree">${region.branches.map(branch => `
@@ -2869,14 +2902,13 @@ function renderArticle(route, pushHash = true) {
     return;
   }
   const facts = Object.entries(article.facts).map(([label, value]) => `<div class="fact"><dt>${label}</dt><dd>${value}</dd></div>`).join("");
-  const allowAutoplay = !matchMedia("(prefers-reduced-motion: reduce)").matches;
   const heroClass = `article-hero${article.imageLayout ? ` ${article.imageLayout}` : ""}`;
   const videoHeroClass = `article-hero${article.videoLayout ? ` ${article.videoLayout}` : article.imageLayout ? ` ${article.imageLayout}` : ""}`;
   const mapHero = article.image && article.mapId
     ? `<figure class="${heroClass} map-linked-hero"><button type="button" class="article-map-link" data-open-map="${escapeHtml(article.mapId)}" aria-label="${escapeHtml(article.mapLinkLabel || `Explore the interactive ${article.title} map`)}"><img src="${article.image}" alt="${article.imageAlt || ""}"><span class="article-map-cta"><small>Interactive map</small><strong>${escapeHtml(article.mapLinkLabel || `Explore ${article.title}`)} <span aria-hidden="true">→</span></strong></span></button><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>`
     : "";
   const videoHero = article.video
-    ? `<figure class="${videoHeroClass}"><video ${allowAutoplay ? "autoplay " : ""}muted loop playsinline controls preload="metadata" poster="${article.image || ""}" aria-label="${article.videoAlt || article.title}"><source src="${article.video}" type="${article.videoType || "video/mp4"}">Your browser does not support this video.</video><figcaption>${article.videoCaption || "Video preserved in the Fenumion archive."}</figcaption></figure>`
+    ? `<figure class="${videoHeroClass}"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="${article.image || ""}" aria-hidden="true" tabindex="-1"><source src="${article.video}" type="${article.videoType || "video/mp4"}">Your browser does not support this video.</video><figcaption>${article.videoCaption || "Video preserved in the Fenumion archive."}</figcaption></figure>`
     : "";
   const hero = article.video
     ? `${mapHero}${videoHero}`
@@ -2915,6 +2947,7 @@ function renderArticle(route, pushHash = true) {
   if (article.id === "world-index") setupWorldBrowser();
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
   if (article.id === "living-timeline") setupTimelineExplorer();
+  setupAmbientVideos(articleContent);
   applyPlayerSafeRedactions();
   document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
@@ -2952,27 +2985,6 @@ function applyPlayerSafeRedactions() {
 }
 
 function setupWorldBrowser() {
-  const bannerVideo = document.querySelector("#gateway-banner-video");
-  const motionToggle = document.querySelector("#gateway-motion-toggle");
-  if (bannerVideo && motionToggle) {
-    const setMotion = playing => {
-      if (playing) {
-        bannerVideo.play().then(() => {
-          motionToggle.textContent = "Pause motion";
-          motionToggle.setAttribute("aria-pressed", "true");
-        }).catch(() => {
-          motionToggle.textContent = "Play motion";
-          motionToggle.setAttribute("aria-pressed", "false");
-        });
-      } else {
-        bannerVideo.pause();
-        motionToggle.textContent = "Play motion";
-        motionToggle.setAttribute("aria-pressed", "false");
-      }
-    };
-    setMotion(!matchMedia("(prefers-reduced-motion: reduce)").matches);
-    motionToggle.addEventListener("click", () => setMotion(bannerVideo.paused));
-  }
   const browser = document.querySelector("#world-browser");
   if (!browser) return;
   const browserData = {
@@ -2995,14 +3007,15 @@ function setupWorldBrowser() {
         <div class="browser-tabs">${Object.keys(labels).map(key => `<button class="browser-tab ${key === activeView ? "active" : ""}" data-view="${key}" aria-pressed="${key === activeView}">${labels[key]}<span>${browserData[key].length}</span></button>`).join("")}</div>
         <button class="sort-direction" data-sort-direction="${direction}" aria-label="Reverse sort order">${activeView === "timeline" ? "Chronological" : "A–Z"} <span>${direction === "asc" ? "↑" : "↓"}</span></button>
       </div>
-      <div class="browser-summary"><strong>${items.length}</strong> ${labels[activeView].toLowerCase()} records · ${activeView === "timeline" ? "ordered by discovery" : "ordered by name"}</div>
+      <div class="browser-summary" role="status" aria-live="polite"><strong>${items.length}</strong> ${labels[activeView].toLowerCase()} records · ${activeView === "timeline" ? "ordered by discovery" : "ordered by name"}</div>
       <div class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}">${items.map(item => {
         const protectedRecord = activeView === "timeline" ? isRestrictedTimelineEvent(item) : !isPlayerSafeArticle(item.article);
         return `
         <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}">
-          ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video src="${item.video}" muted loop playsinline preload="metadata" ${matchMedia("(prefers-reduced-motion: reduce)").matches ? "" : "autoplay"} aria-hidden="true"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
+          ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
           <span class="index-card-copy"><small>${protectedRecord ? "Protected record" : item.meta}</small><strong>${item.title}${restrictedMark(item.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
         </button>`; }).join("")}</div>`;
+    setupAmbientVideos(articleContent);
   };
 
   browser.addEventListener("click", event => {
@@ -3164,7 +3177,7 @@ function setupLocationExplorer() {
     <div class="location-filter-row" aria-label="Filter locations by region">
       ${["All regions", ...regions].map(region => `<button class="location-filter ${region === activeRegion ? "active" : ""}" type="button" data-region="${escapeHtml(region)}" aria-pressed="${region === activeRegion}">${escapeHtml(region)}</button>`).join("")}
     </div>
-    <div class="location-results-summary"></div>
+    <div class="location-results-summary" role="status" aria-live="polite"></div>
     <div class="location-results"></div>`;
 
   const input = explorer.querySelector("input");
@@ -3259,7 +3272,7 @@ function setupTimelineExplorer() {
     <div class="timeline-filter-row" aria-label="Filter timeline by era">
       ${["All eras", ...eras].map(era => `<button class="timeline-filter ${era === activeEra ? "active" : ""}" type="button" data-era="${escapeHtml(era)}" aria-pressed="${era === activeEra}">${escapeHtml(era)}</button>`).join("")}
     </div>
-    <div class="timeline-results-summary"></div>
+    <div class="timeline-results-summary" role="status" aria-live="polite"></div>
     <div class="timeline-results"></div>`;
 
   const input = explorer.querySelector("input");

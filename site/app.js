@@ -65,7 +65,7 @@ const articles = [
     id: "visual-archive", title: "Location Atlas", category: "Places", type: "Searchable region & sublocation index",
     dek: "A nested atlas of Fenumion’s regions, settlements, ruins, estates, forests, civic spaces, and other named places.",
     tags: ["Locations", "Maps", "Regions", "Sublocations", "Search"],
-    facts: { Records: "87 places", Maps: "8 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
+    facts: { Records: "88 places", Maps: "9 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
     body: `
       <p>This atlas restores the geographic hierarchy visible across the surviving records. Major regions contain their settlements and landmarks: <strong>Caisleán na Brón belongs within Fein Uaill</strong>; Hope and the Tower belong within Gael; Pristinia’s civic sites belong within Prima. Search accepts spelling variants such as “Caselean De Broin.”</p>
       <h2 id="place-directory">Search every recovered place</h2>
@@ -171,9 +171,42 @@ const articles = [
       <h2 id="centers">Centers and civic places</h2>
       <p><strong>Zarathis</strong> is the best-developed cultural center in the record. <strong>Ciaránach</strong> is the sacred nexus where Grace died and where Zarathian belief confronts the possibility that gods can fail. <strong>Caisleán na Brón</strong> appears as a major fortified place; the user’s “Caselean De Broin” and the unaccented “Caislean na Bron” are preserved as search aliases. The Radiant Bazaar, Niriin Estate, and Thalanbor’s Library show a region with civic, private, and scholarly geography.</p>
       <h2 id="boundaries">Boundaries and wounds</h2>
-      <p>The Gates of Aelthor were attacked by Aionia’s heavenly host: civilians died, the city burned, and victory helped propel a later march against the gods. The Titanwall of Eryndor and the Shard of Fein Uaill remain named defensive or monumental features. Aria’s Tomb belongs in Fein Uaill proper; the archive explicitly corrects the assumption that it lies inside Ciaránach.</p>
+      <p>The <a href="#shining-shores">Gates of Aelthor</a>, the city on the Shining Shores, were attacked by Aionia’s heavenly host: civilians died, the city burned, and victory helped propel a later march against the gods. The user confirms <strong>Aelthor</strong> as the proper spelling; “Aethor” in the supplied profile and the older “Arthor” rendering remain searchable source variants. Aelthor is remembered as the first king after the breaking of the world. The Titanwall of Eryndor and the Shard of Fein Uaill remain named defensive or monumental features. Aria’s Tomb belongs in Fein Uaill proper; the archive explicitly corrects the assumption that it lies inside Ciaránach.</p>
       <h2 id="sea-of-dreams">The Sea of Dreams</h2>
       <p>Scribonia’s Teleportation Circle offered an escape route through the Sea of Dreams after catastrophe. A later account from Mya says Scribonia was unmade there by a divine or Void relic. The Codex preserves that as an attributed claim rather than omniscient narration.</p>`
+  },
+  {
+    id: "shining-shores", title: "The Shining Shores", category: "Places", type: "Coastal region and city shore",
+    video: "shining-shores.m4v", videoType: "video/mp4", imageLayout: "landscape-hero", videoAlt: "A moving visual record of the warm coast and cityscape of the Shining Shores in Fein Uaill", videoCaption: "The Shining Shores — user-supplied moving location record, 26 September 2026.",
+    dek: "The warm coast of Fein Uaill and the Gates of Aelthor: white streets, busy markets, soaring towers, sea arrivals, and quieter conversations at sunset.",
+    tags: ["The Shining Shores", "Gates of Aelthor", "Fein Uaill", "Aelthor", "Coast", "Locations"],
+    facts: { Region: "Fein Uaill", "Primary city": "Gates of Aelthor", Character: "White streets · markets · towers · warm sand", Access: "Sea arrival confirmed", Namesake: "Aelthor, first king after the breaking of the world", Chronology: "Exact dates unresolved" },
+    sources: ["Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor", "User correction, 26 Sep 2026 — Aelthor is the proper spelling", "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026", "Earlier Fein Uaill map and archive records — Aelthor / Arthor spelling variants and battle history"],
+    body: `
+      <p>The Shining Shores are a coastal region of Fein Uaill containing the <strong>Gates of Aelthor</strong>, a major city reached by sea. Their recovered history joins two scales of place: white streets, markets, and towers large enough to announce a civilization, and warm sand quiet enough for rest, friendship, and difficult political conversation.</p>
+      <div class="callout gold"><p><strong>Evidence boundary:</strong> this source establishes the city, shore, sea access, visual character, namesake, and several visits. It does not establish the population, exact age, current ruler, full extent of the coast, whether Aelthor founded the city, or whether every arrival in Fein Uaill passes through it.</p></div>
+      <h2 id="gates-of-aelthor">The Gates of Aelthor</h2>
+      <p>Tarwen of the Silver Star introduces the Gates as “our city on the shining shore.” The city’s white streets, bustling markets, and soaring towers immediately impress Elenia and Olokun. The account confirms a beautiful and active coastal city without converting that reaction into claims about its size, government, or wealth.</p>
+      <div class="quote">This is our city on the shining shore. We call it the Gates of Aelthor, after our first king after the breaking of the world.<cite>Tarwen of the Silver Star</cite></div>
+      <h2 id="aelthor-name">Aelthor and the breaking of the world</h2>
+      <p>Tarwen identifies Aelthor as Fein Uaill’s first king after an event remembered as the <strong>breaking of the world</strong>. The name turns the city into a civic memorial: every use recalls political continuity after catastrophe.</p>
+      <p>The source does not explain the breaking or state that Aelthor founded the city. Its wording may invite comparison with the Great Fracture, but the Codex does not identify the two events without direct evidence.</p>
+      <h2 id="name-variants">Aelthor, Aethor, and Arthor</h2>
+      <p>The user confirms <strong>Aelthor</strong> as the proper spelling. The supplied profile’s “Aethor” rendering and the older “Arthor” variant remain searchable aliases, preserving the textual history without elevating either over the corrected form.</p>
+      <h2 id="shore-arrivals">Arrivals by sea</h2>
+      <p>Eldin Stormheart arrives in Fein Uaill and rests on the warm sand beneath the setting sun. Ithilrûnë Ailinor arrives by ship after him while seeking a mysterious land and potentially greater power. These scenes establish sea access and multiple arrivals; they do not establish that the Shining Shores are the sole port or universal point of entry.</p>
+      <h2 id="shore-gathering">A shore for difficult conversation</h2>
+      <p>The coast is not merely an approach to the city. Elenia, Adelia, and Olokun later gather there while discussing Scribonia, Fein Uaill’s factions, the conflict with the dragons, and possible future diplomacy. The city’s public splendor gives way to a quieter social landscape where people can consider how they will move through the region rather than simply admire it.</p>
+      <h2 id="associated-people">People in the recovered record</h2>
+      <ul>
+        <li><strong>Tarwen of the Silver Star</strong> introduces the city and preserves the explanation of its name.</li>
+        <li><strong>Elenia and Olokun</strong> react to the city’s beauty and later meet along the shore.</li>
+        <li><strong>Adelia</strong> joins the shoreline conversation about factions, dragons, Scribonia, and diplomacy.</li>
+        <li><strong>Eldin Stormheart</strong> rests on the warm sand after arriving in Fein Uaill.</li>
+        <li><strong>Ithilrûnë Ailinor</strong> arrives by ship while seeking the mysterious land and greater power.</li>
+      </ul>
+      <h2 id="shining-shores-open-record">The open record</h2>
+      <p>The Gates’ population, founding, exact age, present ruler, civic structure, and relationship to other Fein Uaill cities remain unrecovered. The full geographic extent of the Shining Shores, the chronology of the preserved visits, Aelthor’s biography, and the identity of the “breaking of the world” also remain open.</p>`
   },
   {
     id: "gael", title: "Gael", category: "Places", type: "Major region",
@@ -182,7 +215,7 @@ const articles = [
     dek: "A harsh, emptied landscape beginning to recover after liberation from Wrath, with Hope as a small but material beachhead for life.",
     tags: ["Gael", "Hope", "Wrath", "Locations"],
     facts: { Guardian: "Akarian", Recovery: "Underway by February 2025", "Living centers": "Hope · Stake", "Named sites": "19 recovered sublocations" },
-    sources: ["Fenumion_Codex_Update_Regional_History_2026-09-19.md — conservative regional chronology", "Gael roleplay and quest records", "Preserved Gael map and location images"],
+    sources: ["Fenumion_Codex_Update_Regional_History_2026-09-19.md — conservative regional chronology", "Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — market, reconstruction, and faction development", "Gael roleplay and quest records", "Preserved Gael map and location images"],
     body: `
       <p>Gael’s map communicates emptiness before it communicates settlement. The Citadel of Sorrow, Mage’s Ruin, Plains of Trial, Vysaeth’s Tomb, Tower of Gael, and Underwater Temple stand across a landscape marked by catastrophe. Against that scale, Hope is tiny and green: a physical argument that life has established a beachhead in a dead or brutal land.</p>
       <h2 id="discovery">Discovery and Death’s victory · June 2024</h2>
@@ -195,7 +228,7 @@ const articles = [
       <p>Refugees arrived aboard a ship that crashed near Crustacean Cove. Around the Tower they lived mainly in huts and shacks, supplemented by occasional magical shelter. On February 24, 2025, Gartina and Dale moved from emergency care toward permanent planning: soup and conversation first, then a proposal to salvage the wreck for a longhouse, scout safer Plains for material, and—critically—ask the refugees what they wanted.</p>
       <p>The problem did not vanish when life returned. Permanent infrastructure remained incomplete into 2026, and some people moved toward the developing frontier of Verdelune.</p>
       <h2 id="developing-society">A developing society · 2026</h2>
-      <p>By September 19, the Veilguard operated in Gael; husk hunts and a cult threat to one of Gael’s shards showed that danger persisted. The Ale-chemy Knights had created an open-air market with areas for different skills, evidence of organized commerce in a region Marius remembered as having almost no economy. At least one trusted network could also transport known people safely to Gael from other islands—a striking contrast with the lethal Void journey of 2024, though the exact mechanism is unknown.</p>
+      <p>By September 19, the Veilguard operated in Gael; husk hunts and a cult threat to one of Gael’s shards showed that danger persisted. The <a href="#ale-chemy-knights">Ale-Chemy Knights</a> had created an open-air market with areas for different skills, evidence of organized commerce in a region Marius remembered as having almost no economy. At least one trusted network could also transport known people safely to Gael from other islands—a striking contrast with the lethal Void journey of 2024, though the exact mechanism is unknown.</p>
       <p>Thorn’s history preserves an unresolved causal chain: she died during a Gael husk hunt, her team left her body, a cult later attempted to use her in a shard-destruction ritual, and she was alive in Prima by September 2026. The archive does not yet establish how she returned or how the ritual ended.</p>
       <h2 id="trials-and-ruins">Trials, ruins, and testimony</h2>
       <p>Sildithas died in the Plains of Trial and was resurrected hours later, remembering that the place “took my measure, and I failed.” Mage’s Ruin is where the Red Lady, Endora, first appears in the recovered record; the scene does not establish her as hostile. The Coast, Library of Nuru, Sanctum of the Wise, Shadow Angel Forest, Crustacean Cove, Cathedral, Road, and other named sites expand Gael beyond its principal map labels.</p>`
@@ -317,8 +350,8 @@ const articles = [
     id: "babel-ashur", title: "Babel-Ashur", category: "Places", type: "Vast island region",
     image: "assets/archive/babel-ashur.webp", imageAlt: "Map of Babel-Ashur", imageCaption: "Babel-Ashur — full island reference preserved in the archive.",
     dek: "An enormous island whose geography is defined by wild biomes and a central wound rather than by one dominant city.",
-    tags: ["Babel-Ashur", "Greyward Littoral", "Southern Shore", "Island", "Locations"],
-    facts: { Scale: "Exceptionally large", Character: "Wild biomes", "Central feature": "Vast crater / destruction", "Southern shore": "Greyward Littoral" },
+    tags: ["Babel-Ashur", "Luminar Spires", "Greyward Littoral", "Southern Shore", "Island", "Locations"],
+    facts: { Scale: "Exceptionally large", Character: "Wild biomes", "Central feature": "Vast crater / destruction", "Known locations": "Luminar Spires · Greyward Littoral" },
     body: `
       <p>Babel-Ashur operates at a visibly different scale from the settlement-centered maps. Its full-island image is dominated by wild geography and a massive central scar or crater. The region’s identity therefore begins with destruction and biome, not a single civic center.</p>
       <h2 id="survival-crisis">The survival crisis · May 2026</h2>
@@ -328,7 +361,164 @@ const articles = [
       <p>By 29 July, Babel-Ashur’s monsters were moving closer and becoming hungrier and more aggressive. An unpetrified warrior, other adventurers, and roughly a dozen natives sheltered in a cave while a surviving seed or Shard remained central to the island’s future. The Knights were involved in a hunt connected to Death. None of this establishes what happened to the Vanguard after May; it shows only that the wider crisis continued to worsen.</p>
       <h2 id="southern-shore">Greyward Littoral</h2>
       <p>Babel-Ashur’s southern shore is named <a href="#grayward-littoral">Greyward Littoral</a>. Its dedicated map confirms that the island should be read at multiple scales: Babel-Ashur first, then the named coastal subregion and its expedition sites.</p>
+      <h2 id="luminar-spires">Luminar Spires</h2>
+      <p>The <a href="#luminar-spires">Luminar Spires</a> are a monumental coastal region saturated with unstable primal magic. During an undated 2026 reconnaissance mission, Elenia’s Daylight spell transformed into a reversed-gravity effect, the formations glowed after the spell ended, and the Spires twinkled like stars at sunset.</p>
+      <h2 id="western-mist">The western mist</h2>
+      <p>The same expedition investigated a vast sickly-green mist covering essentially the island’s western portion. Elenia says it entered through a rift and distinguishes it from the Pale Man’s Haze. Gartina observed unidentified figures moving beneath it; Arjahn’s radiant test burned it away only temporarily before it regenerated. Proximity does not establish that the mist and Spires share an origin.</p>
       <div class="image-gallery"><figure class="gallery-wide"><a href="assets/archive/babel-ashur-southern-coast.webp" target="_blank"><img src="assets/archive/babel-ashur-southern-coast.webp" alt="Greyward Littoral on the southern shore of Babel-Ashur" loading="lazy"></a><figcaption><strong>Greyward Littoral</strong><span>The named southern shore of Babel-Ashur.</span></figcaption></figure></div>`
+  },
+  {
+    id: "luminar-spires", title: "Luminar Spires", category: "Places", type: "Monumental coastal formation",
+    image: "luminar-spires-map.jpg", mapId: "luminar-spires", mapLinkLabel: "Explore the Luminar Spires map", imageLayout: "map-hero", videoLayout: "landscape-hero", imageAlt: "Illustrated map of the Luminar Spires on the coast of Babel-Ashur, showing crystal-tipped formations, surrounding water, forests, mountains, and green mist", imageCaption: "The Luminar Spires — user-supplied regional map, 26 September 2026.",
+    video: "luminar-spires.mp4", videoAlt: "Towering ancient stone spires rising along a beach in Babel-Ashur", videoCaption: "The Luminar Spires — a monumental coastal landscape in Babel-Ashur.",
+    dek: "A coastal field of towering formations whose primal magic can transform ordinary spells into radically different effects.",
+    tags: ["Luminar Spires", "Babel-Ashur", "Wild magic", "Western Mist", "Abyss", "Reconnaissance", "Locations"],
+    facts: { Region: "Babel-Ashur", Setting: "Coastal formations", Magic: "Primal, wild, unstable—not antimagic", "Observed transformation": "Daylight → reversed gravity", "Nearby crisis": "Western mist; causal link unproven", Date: "2026; exact date unresolved" },
+    sources: ["Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — quest intake, direct observations, attributed claims, hypotheses, and safeguards", "The Luminar Spires (1).jpg — user-identified regional map, 26 Sep 2026", "the_gardener_Giant_ancient_rocks_on_a_beach_like_Zhangjiajie__985c9c7f-c27b-43bc-8943-a571b9aa3bb1_0.mp4 — user-identified visual reference, 26 Sep 2026"],
+    body: `
+      <p>The Luminar Spires are a coastal region of Babel-Ashur defined by towering luminous or mineral-like formations and a field of unstable magic. An exploratory party reached them while investigating the sickly-green mist blanketing the island’s western portion. The expedition did not solve either phenomenon; it established what future parties can test without confusing observation with explanation.</p>
+      <div class="callout gold"><p><strong>Evidence boundary:</strong> the Spires and western mist were encountered during the same expedition. No evidence yet establishes that either created the other, that they share an origin, or that the Spires can safely be used against the mist.</p></div>
+      <h2 id="luminar-magic">Primal magic that refuses control</h2>
+      <p>The field is not antimagic. Spells function, but the Spires may transform them into effects unlike the one cast. The Writer describes the surrounding magic as primal, wild, rough, vast, and free. Scribonia calls it “meaningless chaos” and “pure entropy solidified,” then stops experimenting when he concludes that he cannot operate safely.</p>
+      <div class="quote">Magic is unstable here. I cannot operate.<cite>Scribonia</cite></div>
+      <p>The responsible rule is narrow: <strong>an ordinary spell interacting with the Spires may become a different magical effect.</strong> No repeatable conversion table has been established.</p>
+      <h2 id="luminar-daylight">Daylight becomes reversed gravity</h2>
+      <p>Elenia cast Daylight on one formation. Instead of only producing light, the interaction caused nearby people to float or fall upward. Elenia appeared to concentrate on the unintended result despite never choosing that spell. Gartina became a giant eagle and helped retrieve companions. Gravity returned to normal approximately fifty feet from Elenia; after roughly one minute her concentration ended and the Spires retained a light glow.</p>
+      <p>This proves one transformation, not a permanent rule that Daylight always reverses gravity. Elenia met the accident with delight and immediately wondered whether the same instability might alter the western mist. That was an idea, not a completed experiment.</p>
+      <h2 id="luminar-sunset">Stars at sunset</h2>
+      <p>As the party withdrew and the sun set, the Spires began to twinkle like stars. The record establishes the behavior but not its cause. A relationship to daylight, celestial conditions, time, or prior spell interaction remains speculative.</p>
+      <h2 id="western-mist-record">The western mist</h2>
+      <p>The mist is sickly green, dense, difficult to see through, generally low enough not to rise beyond treetops, and extensive enough to blanket essentially the western portion of Babel-Ashur while the east remained clear at that stage. Elenia said it came through a rift, distinguished it from the Pale Man’s Haze, and connected the crisis to Abyss—the “first foreigner brought through a gate.” The precise relationship between Abyss and the mist remains unresolved.</p>
+      <p>Gartina flew twenty to thirty feet above the visible mist without experiencing nightmares, visions, or an unusual mental effect. From that position she observed unidentified figures moving beneath its cover. Her successful pass does not establish universal aerial immunity; her interpretation that the figures assist Abyss remains attributed.</p>
+      <p>Arjahn’s unusual perception made the mist resemble every nightmare he had experienced at once. Outside it he remained able to rationalize the sensation. His prediction that entering would compound fear, battle trauma, and mental anguish has not been tested.</p>
+      <h2 id="radiant-test">Radiance opens a temporary path</h2>
+      <p>Arjahn fired radiant energy into the mist. The interaction produced a dangerously amplified flash or explosion and burned part of the mist away. Within minutes, the fog regrew wherever radiant pressure was no longer maintained. The experiment establishes temporary clearing, volatility, and regeneration—not a permanent solution.</p>
+      <p>Gartina proposed that several radiant-capable travelers might maintain a moving clear zone. She also considered travel above the mist and tunneling beneath it. Only her single aerial pass was tested.</p>
+      <h2 id="luminar-party">A field research team</h2>
+      <p>The group’s success was reconnaissance. Scribonia recognized the limit of controlled spellcraft; Gartina designed environmental tests and performed aerial rescue; Arjahn perceived and tested the threat despite fear; Elenia supplied prior information and experimental curiosity; Olokun carried older history and strategic urgency; Nymera repeatedly offered practical and physical assistance. Together they established evidence without pretending the mysteries were solved.</p>
+      <h2 id="magnus-plan">Papirak, Magnus, and containment</h2>
+      <p>During the expedition Scribonia reported that Magnus killed Papirak while seeking knowledge concerning Wish unbound. Scribonia corrected the belief that Papirak erased the knowledge: he said it had been locked deep within Papirak’s mind and wrapped in madness. The quest does not establish that Magnus recovered complete Wish-unbound knowledge or can use it.</p>
+      <p>Scribonia proposed locating Magnus, using Gate and Feeblemind to contain him, and eventually applying Imprisonment. This remains a plan. His aim is containment rather than killing, because death would return Magnus to Death.</p>
+      <h2 id="luminar-open-record">The open record</h2>
+      <p>The Spires’ origin, age, exact island position, transformation rules, sunset behavior, relationship to the western mist, and capacity for safe study remain unresolved. The mist’s rift origin, figures, effects inside its boundary, relationship to Abyss, vertical and underground limits, radiant amplification, and regeneration mechanism are likewise open.</p>`
+  },
+  {
+    id: "ale-chemy-knights", title: "The Ale-Chemy Knights", category: "Factions", type: "Adventuring faction and civic builders",
+    dek: "A self-funded adventuring cooperative and mutual-aid institution that turns different skills into logistics, equipment, infrastructure, newcomer support, public works, and reconstruction.",
+    tags: ["Ale-Chemy Knights", "Tobias", "Farkur", "Ryvyt", "Gael", "Prima", "Mutual aid", "Crafting", "Logistics"],
+    facts: { "Main members": "Tobias · Farkur · Ryvyt", Founders: "Farkur · Ryvyt", Motto: "One for all… And all for one!", Bases: "Ciderwood Sanctum · shop · Eovar tavern", Reach: "Prima · Eovar · Gael", Status: "Key members repeatedly absent or missing" },
+    sources: ["Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — institutional history, important people, economics, holdings, reputation, and safeguards", "User canon ruling, 26 Sep 2026 — faction name and main membership", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael market, disappearance report, and Ryvyt’s response", "The Common Man scene records — Farkur’s 2024 precursor and Tobias’s civic participation"],
+    body: `
+      <div class="callout gold"><p><strong>Canon ruling:</strong> the Ale-Chemy Knights are a distinct faction. Their main members are <a href="#tobias">Tobias</a>, <a href="#farkur">Farkur</a>, and <a href="#ryvyt">Ryvyt</a>.</p></div>
+      <p>The Ale-Chemy Knights began as a small fellowship organized around mutual support, practical work, and a shared call: <strong>“One for all…” — “And all for one!”</strong> By late 2025 and early 2026 they functioned as much more than an adventuring party: a crafting and logistics cooperative, equipment lender, resource and scouting network, public-works sponsor, property holder, newcomer-support organization, and increasingly influential merchant network.</p>
+      <p>The best supported description is a <strong>self-funded adventuring cooperative and mutual-aid institution</strong>. It is not established as Prima’s government, a standing army, a charity, or a conventional private shop. Its usefulness and its growing soft power are both part of the record.</p>
+      <h2 id="ale-chemy-roots">17 November 2024 · Friendly Guides and Grub</h2>
+      <p>The institutional idea predates the named faction. At the Common Man, Farkur pitches “Farkur’s Friendly Guides and Grub,” a Gate-side caravan service offering newcomers maps, food, ale, local curiosities, and eventually paid carriage transport. The proposal is entrepreneurial and comedic as well as helpful; Farkur openly discusses profit and attracting customers.</p>
+      <p>Pappy warns that the Gate and surrounding land are spiritually significant. The later Knights system grows from this smaller idea, but the continuity does not prove the Ale-Chemy Knights already formally existed in November 2024.</p>
+      <h2 id="ale-chemy-sanctum">January–early 2025 · Ciderwood Sanctum and the welcome system</h2>
+      <p>At Ciderwood Sanctum, Farkur expands the proposal into an institution: greet arrivals, explain the world, provide maps, transport, lore, a warm drink, useful contacts, communication tools, and records of skills and affiliations. The Sanctum gives the vision a physical base with animal space, a forge, new construction, an orchard, and nearby material clearing; its full layout and settlement status remain unknown.</p>
+      <p><a href="#tobias">Tobias</a> later demonstrates the system in practice with the newcomer Fredrick: safety, food, orientation, a map, lodging and employment information, an escort toward Pristinia, and personal money to help Fredrick begin. Tobias describes the Knights as helping adventurers become independent rather than dependent upon one settlement.</p>
+      <h2 id="ale-chemy-shop">25 July 2025 · shop, shared inventory, crafting, and property</h2>
+      <p>By July, the Knights maintain a shop or crafting operation with listed inventory and equipment that members can borrow for jobs. Ryvyt requests the Hazewind Cape, Puzzler’s Wit ring, and a Bag of Holding; Farkur marks the equipment as loaned. When Coralyn needs specialized fabrication beyond Farkur’s expertise, he directs her to Ryvyt—“our crafter”—instead of claiming skill he does not have.</p>
+      <p>The scene also preserves strain: Farkur’s purse is light, customers lack money, and work is scarce. Even so, the group has voted to purchase a tavern in Eovar while Farkur repairs it. The collective vote matters; organizational property should not be silently treated as Farkur’s personal estate.</p>
+      <h2 id="ale-chemy-infrastructure">Late 2025 · maps, walls, ships, and a mature economy</h2>
+      <p>Scouts and caravans receive regional maps. Farkur and Ruben add symbols, resource sites, field discoveries, older route marks, and preserved return information through tools including a Cartographer’s Map Case and Elder Cartography Glossary. Ruben’s field principle—“Flight now, haul later”—captures the division of labor: one member can find and preserve a resource even when another must extract or transform it.</p>
+      <p>The Knights fund materials and labor for Pristinia wall upgrades and at least two towers. New arrivals can be offered paid, supervised wall construction. By December 8, Ruben describes a mature system that purchases materials, pays specialists, gathers components, crafts and rents equipment, finances eventual acquisition, buys local goods for resale, invests in businesses, maintains pooled money, supports fortifications, and prepares for reconstruction and war logistics.</p>
+      <p>Ruben describes magical equipment rented at roughly ten percent of cost per mission with ownership after a twelfth mission. Gregory Greenleaf questions the effective financing cost. The Codex preserves both readings: the Knights call the money necessary to keep projects and supply chains moving; Gregory’s objection prevents that self-description from becoming an objective verdict of fairness.</p>
+      <p>By December 2025 the organization reports two ships bringing goods from elsewhere and discusses taking its larger troupe through the Convergence toward Gael. Tobias is described as missing again by December 8, leaving the group without a major builder.</p>
+      <h2 id="ale-chemy-reputation">14 February 2026 · reputation becomes infrastructure</h2>
+      <p>When Iron Saint Valorum asks Draven Montauk for guidance toward Pristinia, Draven names the Ale-Chemy Knights as the best information source and gives him a special handbell. According to Draven, the bell makes no ordinary audible sound but can be heard by the Knights. Its maker, range, network size, and whether every Knight hears every use remain unknown.</p>
+      <p>Draven identifies Farkur and Ryvyt as founders and says both are away on an important job. This outside recommendation matters: the Knights are no longer merely declaring a wish to welcome newcomers; other people now route newcomers toward them.</p>
+      <h2 id="ale-chemy-people">The larger working network</h2>
+      <ul>
+        <li><strong>Farkur S. Gemblenagin</strong> — founder, builder, organizer, and principal institutional architect.</li>
+        <li><strong>Ryvyt</strong> — founder, crafter, researcher, and early operational specialist.</li>
+        <li><strong>Tobias</strong> — main member, builder, guide, and practical newcomer support.</li>
+        <li><strong>Ruben</strong> — scout, prospector, resource specialist, and articulate operational representative.</li>
+        <li><strong>Anky</strong> — inner-circle associate and religious intermediary, often called the Knights’ Saint; formal status remains imprecise.</li>
+        <li><strong>Pappy</strong> — close social and material contributor whose exact formal membership should not be inferred from association alone.</li>
+      </ul>
+      <p>Fenwick, Severina, Green Bean, and Fangs also belong to the faction’s wider history. Association does not automatically equal formal membership, and one person’s beliefs or research do not automatically become faction policy.</p>
+      <h2 id="ale-chemy-gael">Gael reconstruction and the open-air market</h2>
+      <p>By 19 September 2026 the Knights had established an open-air market in Gael with areas divided by skill set. Marius remembered the region as having almost no economy; his comparison remains attributed, while the market itself confirms that the Knights’ planned reconstruction produced a durable civic result.</p>
+      <h2 id="ale-chemy-disappearance">The missing Knights</h2>
+      <p>By that same September record, Farkur and other Knights had vanished. “Vanished” establishes absence, not cause: it does not say whether they were lost, captured, displaced, concealed, or pursuing an unreported mission. Ryvyt reportedly took the disappearance hard. Tobias’s repeated earlier absence makes the institution’s dependence on key specialists an established vulnerability, but Tobias’s status at this later moment remains unclear.</p>
+      <h2 id="ale-chemy-open-record">Open record</h2>
+      <ul>
+        <li>When did the fellowship formally adopt its name, rules, and membership structure?</li>
+        <li>Who legally or socially owns the organization’s shared assets and how are profits distributed?</li>
+        <li>How extensive is the handbell network and who can hear it?</li>
+        <li>How did the planned Gael reconstruction produce the later market, and which members managed it?</li>
+        <li>Who disappeared with Farkur, what caused the disappearance, and where was Tobias?</li>
+        <li>What did Ryvyt do after learning the others were gone?</li>
+      </ul>`
+  },
+  {
+    id: "tobias", title: "Tobias", category: "People", type: "Main member of the Ale-Chemy Knights",
+    dek: "A main Ale-Chemy Knight, builder, and newcomer guide who turns the faction’s promise of practical independence into direct care.",
+    tags: ["Tobias", "Ale-Chemy Knights", "The Common Man", "Pristinia", "Gael"],
+    facts: { Faction: "Ale-Chemy Knights", Standing: "Main member", Roles: "Builder · newcomer guide · practical support", "Known work": "Fredrick’s full arrival support", Status: "Missing again by 8 Dec 2025; later status unresolved" },
+    sources: ["Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — Fredrick, institutional role, and disappearance", "User canon ruling, 26 Sep 2026 — main membership", "The Common Man scene record, 15 Dec 2024 — ale order and food-hunt response"],
+    body: `
+      <p>Tobias is one of the three main members of the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>, alongside Farkur and Ryvyt. The recovered personal record is brief, but it places Tobias inside the ordinary civic life the Codex treats as history.</p>
+      <h2 id="tobias-common-man">The Common Man · 15 December 2024</h2>
+      <p>Tobias enters the Common Man, orders ale, and is present as the tavern grows busy around workers, farmers, musicians, adventurers, and newcomers. When failed harvest help and dwindling winter stores become clear, Tobias volunteers for the hunt that forms in response.</p>
+      <p>The action does not establish rank, class, powers, or whether the Ale-Chemy Knights already existed. It does establish a readiness to answer a material community need without waiting for a formal quest giver.</p>
+      <h2 id="tobias-fredrick">The welcome system made real</h2>
+      <p>When Fredrick arrives, Tobias provides safety, food, a map, practical information about Pristinia and Eovar Harbor, lodging and employment guidance, an escort toward Pristinia, and personal money to help the newcomer become established.</p>
+      <p>Tobias describes the Knights as a loose organization intended to help adventurers become more independent rather than bind them to a single settlement. Protection agreements, sponsored Training Dungeon opportunities, crafting, harvesting, and paid work all belong to that practical model.</p>
+      <h2 id="tobias-faction">Builder and main Ale-Chemy Knight</h2>
+      <p>Tobias is one of the faction’s major builders and strongest examples of its mutual-aid purpose. By December 8, 2025, however, Tobias is described as missing again. The wording implies prior absence but does not recover its dates or causes. Later collective history credits the Knights with Gael’s market, but Tobias’s individual contribution and status by September 2026 remain unknown.</p>
+      <h2 id="tobias-open-record">Open record</h2>
+      <p>Tobias’s background, exact organizational authority, reason for joining, prior absences, market specialty, and later fate remain unrecovered. Main membership does not by itself establish founder status.</p>`
+  },
+  {
+    id: "farkur", title: "Farkur S. Gemblenagin", category: "People", type: "Founder and main member of the Ale-Chemy Knights",
+    image: "farkur-portrait.jpg", imageLayout: "portrait-hero", imageAlt: "Farkur, a compact grey-furred pirate and builder with a white beard, black tricorn hat, armored coat, and several pistols", imageCaption: "Farkur S. Gemblenagin — founder, builder, and institutional architect of the Ale-Chemy Knights.",
+    video: "farkur-portrait.mp4", videoType: "video/mp4", videoLayout: "portrait-hero", videoAlt: "Animated portrait of Farkur standing in an orchard in pirate clothing", videoCaption: "Farkur — user-supplied moving character portrait, 26 September 2026.",
+    dek: "A builder and organizer who turns hospitality, specialized labor, shared tools, and reliable funding into an institution meant to outlast any one adventurer.",
+    tags: ["Farkur", "Ale-Chemy Knights", "Founder", "Builder", "Green Bean", "Fangs", "Gael", "Missing"],
+    facts: { Faction: "Ale-Chemy Knights", Standing: "Founder · main member", Roles: "Builder · organizer · institutional architect", Companions: "Green Bean · Fangs", Status: "Reported missing by 19 Sep 2026" },
+    sources: ["Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — philosophy, chronology, organization, holdings, and companions", "User canon ruling, 26 Sep 2026 — main membership", "Farkur.jpg, 298B3DB2-92BD-CF8F-EC09-B9BCF1F07EE1.mov, and E2568413-30BC-10BE-EF92-D540ABB5AF2F.mov — user-identified visual records, 26 Sep 2026", "Elenia history — Brianna’s sanctification; exact role unresolved", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — disappearance report"],
+    body: `
+      <p>Farkur S. Gemblenagin is a founder and one of the three main members of the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>. His central achievement is not a single victory or building. It is the organization itself: a system intended to connect specialized people, fund durable work, welcome newcomers, and carry its members’ names farther than isolated adventuring could.</p>
+      <h2 id="farkur-visual-records">Visual records</h2>
+      <p>The archive preserves Farkur in both pirate regalia and an Ale-Chemy tavern or workshop setting. These supplied depictions establish his visual identity; background details are not treated as proof of a particular dated event.</p>
+      <figure class="article-hero portrait-hero"><video muted loop playsinline controls preload="metadata" aria-label="Farkur beside an Ale-Chemy tavern or brewery"><source src="farkur-tavern.mp4" type="video/mp4">Your browser does not support this video.</video><figcaption>Farkur at an Ale-Chemy tavern or workshop — user-supplied moving character portrait, 26 September 2026.</figcaption></figure>
+      <h2 id="farkur-principles">Build something larger than yourself</h2>
+      <p>Farkur repeatedly values finishing work, honoring obligations, putting more into the world than one takes, and acting meaningfully even when nothing lasts forever. His Builder skill becomes an institutional philosophy. Scouts find resources; hunters retrieve them; crafters and smiths transform them; pooled funds keep work moving; builders turn the result into public infrastructure.</p>
+      <p>He also recognizes the uncomfortable role of money. Farkur wants honest work and dislikes morally dubious funding, but accepts that walls, equipment, property, reconstruction, and war logistics cannot run on goodwill alone. That pragmatism creates both the Knights’ capacity and legitimate reasons for outsiders to question their influence.</p>
+      <h2 id="farkur-guides">From Friendly Guides and Grub to the Knights</h2>
+      <p>On 17 November 2024, Farkur proposes a profitable Gate-side caravan offering maps, food, ale, curiosities, and eventual transport. At Ciderwood Sanctum in January 2025, the idea widens into newcomer orientation, communication, emergency response, useful contacts, and coordinated work. Later scenes show the system functioning beyond Farkur personally.</p>
+      <h2 id="farkur-builder">Organizer without pretending expertise</h2>
+      <p>Farkur develops shared inventory, loans equipment, plans property and public works, trains companions, maintains mapping systems, and connects requests to the member best able to answer them. When Coralyn needs specialized crafting, he points her to Ryvyt rather than claiming the skill himself.</p>
+      <p>Green Bean, a winged emerald snake, and Fangs, a mechanical or steel companion, reflect the same instinct: combine very different capabilities into a working system.</p>
+      <h2 id="farkur-sanctification">Brianna’s sanctification · 2026</h2>
+      <p>Farkur is named among those present when Hope cleanses or sanctifies the corrupted crystal forced into Brianna. The event is established, but the exact mechanical and narrative division among Elenia, Mya, Adelia, Farkur, and the others present still requires primary-source recovery.</p>
+      <h2 id="farkur-gael">From Prima’s proving ground to Gael</h2>
+      <p>Farkur’s organization invests in Pristinia’s defenses, buys and repairs property, operates ships, and plans reconstruction in Gael. By September 2026 the faction’s specialized open-air market proves that at least part of that trajectory became material history. The record does not assign every individual contribution to Farkur.</p>
+      <h2 id="farkur-missing">Reported missing</h2>
+      <p>By 19 September 2026, Farkur and other Knights had vanished. No cause, destination, captor, mission, or confirmed outcome is preserved. Ryvyt reportedly took the disappearance hard, making Farkur’s absence part of the faction’s relationship history as well as its chronology.</p>`
+  },
+  {
+    id: "ryvyt", title: "Ryvyt", category: "People", type: "Main member of the Ale-Chemy Knights",
+    dek: "A founder, crafter, and researcher whose expertise anchors the Ale-Chemy Knights’ shared equipment and specialized production.",
+    tags: ["Ryvyt", "Ale-Chemy Knights", "Founder", "Crafter", "Research", "Gael", "Disappearance"],
+    facts: { Faction: "Ale-Chemy Knights", Standing: "Founder · main member", Roles: "Crafter · researcher · operational specialist", "Shared system": "Borrows and completes project work", Status: "Not confirmed missing" },
+    sources: ["Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — founder status, crafting role, equipment use, and research boundary", "User canon ruling, 26 Sep 2026 — main membership", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — disappearance aftermath", "Thorn record — Farkur, the Knights, and Ryvyt’s response"],
+    body: `
+      <p>Ryvyt is a founder and one of the three main members of the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>. Where Farkur is most visible as the institutional architect, Ryvyt makes specialization operational: crafting, research, shared equipment, and project work that other members cannot simply improvise.</p>
+      <h2 id="ryvyt-crafter">“Our crafter”</h2>
+      <p>On 25 July 2025, Farkur directs Coralyn to Ryvyt when her request passes beyond Farkur’s expertise. The phrase “our crafter” identifies an internal role and a principle of the Knights’ system: the organization becomes stronger by routing work to the right specialist.</p>
+      <p>Ryvyt requests the Hazewind Cape, Puzzler’s Wit ring, and a Bag of Holding from shared inventory for a job. Ryvyt also asks that project requests be left behind so useful crafting can be completed before departure. These actions show the shop as a shared operational pool rather than a display of private possessions.</p>
+      <h2 id="ryvyt-research">Research and policy are not the same</h2>
+      <p>Ryvyt has pursued unusual research, including Delerium. That interest belongs to Ryvyt’s record; it should not automatically be treated as Ale-Chemy Knights policy or proof that every member approves of the work.</p>
+      <h2 id="ryvyt-faction">Founder and main Ale-Chemy Knight</h2>
+      <p>Draven Montauk identifies Farkur and Ryvyt as founders in February 2026 while both are away on an important job. The group later creates Gael’s open-air market, but the surviving synthesis does not assign Ryvyt a particular market office or prove which section Ryvyt built or managed.</p>
+      <h2 id="ryvyt-disappearance">The disappearance’s personal cost</h2>
+      <p>Thorn carries news that Farkur and other Knights disappeared and that Ryvyt took it hard. The wording supports grief, distress, or serious personal impact without establishing the exact emotion, words, or response. It also does not place Ryvyt among the missing.</p>
+      <h2 id="ryvyt-open-record">Open record</h2>
+      <p>Ryvyt’s earlier life, relationships with Tobias and Farkur, research outcomes, role in the Gael market, response after the disappearance, and current location remain to be recovered from primary scenes.</p>`
   },
   {
     id: "vanguard", title: "The Vanguard", category: "Factions", type: "Provisional wartime formation",
@@ -983,7 +1173,7 @@ const articles = [
     dek: "One of Fenumion’s most devastating histories: a Wish that saved Prima, a wife who voluntarily became its price, and a mercy that removed the truth from the survivor.",
     tags: ["Papirak", "Paloma", "Wish", "Whose sacrifice?"],
     facts: { Crisis: "Delerium threatened to spread", Act: "Papirak cast the extraordinary Wish", Price: "Paloma chose complete erasure", Aftermath: "Namo’o removed Papirak’s memory", End: "Immolation and atonement", Legacy: "His death destroys a historical source" },
-    sources: ["CHARACTER_BIBLE.md — Papirak, Paloma, Wish, memory, and evidence limits", "MASTER_TIMELINE.md — recovered sequence and Magnus’s intervention", "Fenumion High-Presence Character Context Set — consolidated Papirak context"],
+    sources: ["CHARACTER_BIBLE.md — Papirak, Paloma, Wish, memory, and evidence limits", "MASTER_TIMELINE.md — recovered sequence and Magnus’s intervention", "Fenumion High-Presence Character Context Set — consolidated Papirak context", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Wish-unbound report, locked-knowledge correction, and Training Dungeon legacy"],
     body: `
       <p>Papirak agreed to use an extraordinary form of Wish to isolate and save Prima. He was warned that it would break him. The expected cost was his future access to Wish—but Paloma, his wife, voluntarily became the substitute price. She was erased completely: body, mind, and soul.</p>
       <div class="callout gold"><p><strong>Fenumion’s recurring question becomes unavoidable here:</strong> Papirak consented to sacrifice himself. Paloma consented to spare him. The world was saved. Who is allowed to decide that the outcome justified the cost?</p></div>
@@ -993,6 +1183,9 @@ const articles = [
       <p>The destroyed memory first appeared to be censorship. Later evidence changed that reading. Namo’o’s act was also mercy and, in the recovered account, was performed at Papirak’s request. Consent changes the moral structure without making the intervention simple: one person still used extraordinary authority over another’s memory and selfhood.</p>
       <h2 id="magnus-reopens">Magnus reopens the wound</h2>
       <p>Two thousand years later, Magnus seeks hidden knowledge from Papirak. He initially attempts to limit the harm, then breaks through the protection when it blocks the objective. The truth he restores is real; that does not automatically grant him the right to force it back into Papirak’s life.</p>
+      <h2 id="wish-unbound">Wish unbound and the locked knowledge</h2>
+      <p>During the later Luminar Spires expedition, Scribonia says Magnus killed Papirak while seeking information about Wish unbound. The recovered death sequence still shows Papirak choosing the flames after Magnus restored his memories, so Scribonia’s wording is preserved as causal attribution rather than proof that Magnus dealt the final physical blow.</p>
+      <p>Scribonia also corrects an earlier recollection: the relevant knowledge was locked deep within Papirak’s mind and wrapped in madness, not erased. Nothing in the quest establishes that Magnus recovered the complete knowledge or can now use Wish unbound. Scribonia has begun researching how the Training Dungeon might function without Papirak; this does not yet make him Papirak’s successor.</p>
       <h2 id="atonement">Immolation and atonement</h2>
       <p>After remembering Paloma, Papirak chooses his end.</p>
       <div class="quote">Immolation. Atonement.<cite>Papirak</cite></div>
@@ -1004,7 +1197,7 @@ const articles = [
     dek: "An ambitious Zarathian who seeks autonomy through power and leverage while his permanent bargain makes him the property of Death.",
     tags: ["Magnus Niriin", "Zarathis", "Silver Star", "Death", "Papirak"],
     facts: { Pattern: "Ambition → shortcut → leverage → dependency", Allegiance: "Silver Star; Zarathian political figure", "Soul bond": "Permanently belongs to Death", Record: "High confidence; early chronology partial" },
-    sources: ["Magnus_Niriin_Character_Profile_and_History.md — consolidated character record, evidence limits, quotations, and retrieval anchors", "MASTER_TIMELINE.md — dated regional and character consequences", "CHARACTER_BIBLE.md — earlier Magnus synthesis"],
+    sources: ["Magnus_Niriin_Character_Profile_and_History.md — consolidated character record, evidence limits, quotations, and retrieval anchors", "MASTER_TIMELINE.md — dated regional and character consequences", "CHARACTER_BIBLE.md — earlier Magnus synthesis", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Wish-unbound report and Scribonia’s proposed containment response"],
     body: `
       <p>Magnus Niriin repeatedly chooses the path that gives him the greatest immediate leverage when morality, loyalty, cultural belonging, knowledge, survival, and advancement collide. Those choices produce real results: resurrection, information, reputation, political support, and access to powers unavailable by ordinary routes.</p>
       <p>That pattern does not make him incapable of care. Magnus calls Zarathians “my people,” teaches their customs, offers outsiders hospitality, and collapses when his kin die. His danger is that attachment does not reliably stop him from using people, institutions, forbidden power, or catastrophic shortcuts when they obstruct the objective.</p>
@@ -1032,8 +1225,11 @@ const articles = [
       <p>Adelia supports Magnus politically and later revives him. Magnus subsequently harms the Hope-related life structure, and Adelia’s transformation becomes part of the attempt to preserve or restore it. During the later Rift event, Pappy is ambushed and Adelia Gates him away. The in-world actions remain distinct from the later dispute about player knowledge, consent, and adjudication.</p>
       <h2 id="relationships">No single party verdict</h2>
       <p>Eugene tries to heal Magnus. Wren’s benefit of the doubt collapses. Scribonia rejects him. Olokun distrusts him while resisting disposal of the misguided. Adelia supports and revives him before their later rupture. Miriel backs his political ascent for reasons not yet fully known. The archive records who believed what, when, rather than inventing one canonical party attitude.</p>
+      <h2 id="wish-unbound-response">Wish unbound and the containment response</h2>
+      <p>During the Luminar Spires expedition, Scribonia reports that Magnus killed Papirak seeking information concerning Wish unbound—magic described as removing ordinary restrictions around Wish. The cost remains unknown and dangerous. The report does not prove Magnus acquired complete knowledge or can use Wish unbound.</p>
+      <p>Scribonia’s proposed response is to locate Magnus, use Gate and Feeblemind to contain him, and eventually apply Imprisonment. He explicitly prefers containment to killing because death would return Magnus to Death. The plan demonstrates how far the response to Magnus has escalated; it has not yet been carried out.</p>
       <h2 id="open-record">The open record</h2>
-      <p>Magnus’s earliest appearance, original patron relationship, first deaths, exact soul bargain, role as Death’s conduit, Miriel’s motives, Silver Star’s formal response, reasons for harming Hope, and the knowledge taken from Papirak remain incomplete. His present dossier is substantial without pretending those gaps are solved.</p>`
+      <p>Magnus’s earliest appearance, original patron relationship, first deaths, exact soul bargain, role as Death’s conduit, Miriel’s motives, Silver Star’s formal response, reasons for harming Hope, and the extent of the knowledge taken from Papirak remain incomplete. His present dossier is substantial without pretending those gaps are solved.</p>`
   },
   {
     id: "namoo", title: "Namo’o", category: "People", type: "God of Souls",
@@ -1117,7 +1313,7 @@ const articles = [
     dek: "Wonder becomes practice, practice becomes responsibility, and responsibility becomes the question of what one person should be allowed to do with divine-scale power.",
     tags: ["Elenia", "Cala", "Hope", "Nienna", "Mya", "Gael", "Pristinia", "Power and permission"],
     facts: { Role: "Cleric and bearer of light", "Public title": "Savior of Pristinia", Trajectory: "Wonder → practice → responsibility", Patron: "Cala", Transformation: "Returned as a satyr", Danger: "Capability becoming authority" },
-    sources: ["ELENIA_HISTORY.md — consolidated profile and chronology", "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — changing relationship histories", "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map", "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record"],
+    sources: ["ELENIA_HISTORY.md — consolidated profile and chronology", "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — changing relationship histories", "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map", "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence"],
     body: `
       <p>Elenia can move through extraordinary magic with casual delight and still take another person’s spiritual crisis seriously. Her wisdom is not superior intelligence or permanent solemnity. It is a repeated process: wonder leads to curiosity; curiosity becomes experience; experience becomes meaning; and meaning changes what she does the next time somebody is in danger.</p>
       <div class="quote">Just be the light.<cite>Elenia</cite></div>
@@ -1161,6 +1357,9 @@ const articles = [
       <p>Elenia joins Scribonia, Eugene, Arjahn, and others in unmaking a mountain through catastrophic weather and Earthquake: fissures, avalanche, floodwater, lava, boulders, and a vast column of steam and smoke. Before acting, she prays that any unknown people in the storm’s path be sheltered or removed. During the retreat she looks for anyone else trying to escape and accepts environmental limits rather than demanding that her power override them.</p>
       <div class="quote">As the storm rages on, the mountain claws at its own face … Nothing is visible except for biblical destruction.<cite>The mountain expedition</cite></div>
       <p>She asks where the boundary is, accepts “no,” and uses Gate to send Nymera home. The scene does not absolve the participants because their objective is justified. It asks whether mortals were ever meant to hold this degree of power and whether there can be a return after using it. Elenia’s attention still returns to individual people—she continues looking sideways even while acting at enormous scale—but the radius of what she can destroy has become enormous.</p>
+      <h2 id="luminar-spires-elenia">Luminar Spires · curiosity inside chaos</h2>
+      <p>At the Luminar Spires, Elenia reacts to unstable magic differently from Scribonia. She casts Daylight on a formation, accidentally produces reversed gravity, enjoys floating, and quickly wonders whether the transformed magic could be used against the western mist. The record preserves delight, curiosity, and immediate practical speculation without automatically labeling them recklessness.</p>
+      <p>Elenia also reports that the mist came through a rift, distinguishes it from the Pale Man’s Haze, and identifies Abyss as the first foreigner brought through a gate. These statements make her an important source for the crisis without resolving the relationship among Abyss, the rift, and the mist.</p>
       <h2 id="relationships">Relationships that carry the history</h2>
       <ul>
         <li><strong>Cala:</strong> early patron and call toward light; later faith no longer suspends Elenia’s judgment.</li>
@@ -1190,12 +1389,28 @@ const articles = [
       </ul>`
   },
   {
+    id: "nymera", title: "Nymera", category: "People", type: "Cala devotee; practical expedition ally",
+    dek: "A willing helper learning that contribution does not require mastering every theory in a room full of specialists.",
+    tags: ["Nymera", "Cala", "Luminar Spires", "Babel-Ashur", "Belonging", "Practical help"],
+    facts: { Faith: "Follower of Cala", Strength: "Offers practical and physical help", "Known expeditions": "Mountain · Luminar Spires", Thread: "Uncertainty → contribution → group affirmation", Record: "Emerging; chronology incomplete" },
+    sources: ["ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation"],
+    body: `
+      <p>Nymera appears in rooms filled with people who possess older histories, specialized magic, and theories she does not always share. Her recurring response is not withdrawal. She asks what practical work remains and offers herself to it.</p>
+      <h2 id="nymera-mountain">Shared faith without ownership</h2>
+      <p>During the mountain expedition, Nymera’s relationship to Cala overlaps with Elenia’s without becoming subordinate to it. Elenia asks where the boundary lies, accepts “no,” and sends Nymera home through Gate. Shared devotion does not grant one follower authority over another’s continued participation.</p>
+      <h2 id="nymera-luminar">Offering help among specialists</h2>
+      <p>During the Luminar Spires expedition, Nymera offers help with imprisonment, locating and supporting the group, digging, tunneling, flight or rescue, and other physical needs. She does this even when the arcane theory exceeds her knowledge.</p>
+      <p>After misunderstanding Scribonia’s proposed magical prison, Nymera apologizes. Arjahn and Scribonia tell her not to and affirm that her help will matter elsewhere. The exchange begins a possible confidence and belonging thread: uncertainty about contribution does not make the contribution unwanted.</p>
+      <h2 id="nymera-open-record">The open record</h2>
+      <p>Nymera’s earlier life, full relationship to Cala, abilities, affiliations, and development between the mountain and Babel-Ashur remain unrecovered. Later scenes must establish whether this emerging pattern becomes a lasting confidence arc.</p>`
+  },
+  {
     id: "olokun", title: "Olokun", category: "People", type: "Adventurer; protector; moral center",
     image: "olokun-poster.png", imageLayout: "portrait-hero", imageAlt: "Olokun standing with a trident amid a sweeping ring of water", imageCaption: "Olokun — protector, sailor, and Rahu adventurer.",
     dek: "A social, deeply attached protector forced to discover what love is allowed to do—and whether care can remain care when fear wants control.",
     tags: ["Olokun", "Agency", "Protection", "Rahu", "Aria", "Arjahn", "Resurrection"],
     facts: { "Known as": "Olokun; Olo; ‘Optimistic Olokun’", "Core principle": "Protection without ownership", Belonging: "Rahu and chosen community", Strength: "Relationship memory", "Defining test": "Care versus control", Status: "Resurrected; responsibility continues" },
-    sources: ["Olokun_Ultimate_Character_History_and_Codex_Profile.md — longitudinal character history, dated scenes, quotations, cautions, and retrieval anchors", "CHARACTER_BIBLE.md — character synthesis and relationships", "MASTER_TIMELINE.md — dated event spine", "Fenumion_Codex_Words_the_World_Remembers.md — verified memorable lines"],
+    sources: ["Olokun_Ultimate_Character_History_and_Codex_Profile.md — longitudinal character history, dated scenes, quotations, cautions, and retrieval anchors", "CHARACTER_BIBLE.md — character synthesis and relationships", "MASTER_TIMELINE.md — dated event spine", "Fenumion_Codex_Words_the_World_Remembers.md — verified memorable lines", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Papirak grief, historical recollection, and Babel-Ashur expedition"],
     body: `
       <p>Olokun’s philosophy begins as sociability, not doctrine. He jokes, sails, competes, arm-wrestles, encourages strangers, and becomes part of communities quickly. People become important to him; shared history makes them harder to abandon; responsibility follows. His development runs from <strong>belonging → attachment → conflicting loyalties → principle → triage and loss → death → return</strong>.</p>
       <div class="callout gold"><p><strong>Core proposition:</strong> differences in strength, knowledge, authority, and capability are real. Ownership does not follow from them. One may volunteer oneself; love or power does not automatically grant the right to spend another person.</p></div>
@@ -1235,6 +1450,9 @@ const articles = [
       <p>The Abyss commands “Olokun. Die.” Olo dies. Arjahn then resurrects him with the Scepter of Faith that Olo had once given him. The causal chain matters: <strong>gift → relationship → retained object → death → another person’s choice → return</strong>. Resurrection does not erase Aravil, the decision, or the terror. It proves that Olo’s own survival can depend on having empowered someone else.</p>
       <h2 id="after-return">March–May 2026 · fear survives resurrection</h2>
       <p>In a March retreat involving worms, Olo supports the right to withdraw but lashes out at Arjahn from fear, then continues mapping and practical work. He returns with resolve, not purification. By May, Babel-Ashur confronts him with exhausted defenders, a losing Vanguard, fallen friends, and the question of how many people anyone can remain responsible for.</p>
+      <h2 id="papirak-luminar">Papirak’s death and the Luminar expedition</h2>
+      <p>News of Papirak’s death hits Olo as the loss of “sweet gramps” and as proof that Magnus continues acting unchecked. Olo carries useful older history about Papirak, Wish, and divine intervention into the expedition, but his recollection that the relevant knowledge was erased is corrected by Scribonia: it was locked away and wrapped in madness.</p>
+      <p>The correction clarifies rather than diminishes Olo’s role. He increasingly functions as a carrier of lived history whose memories remain most reliable when compared with witnesses and records at the point where exact magical mechanics matter. During the reversed-gravity accident, he is caught by the altered field and must accept help escaping it.</p>
       <h2 id="mature-philosophy">The mature distinctions</h2>
       <ul>
         <li><strong>Power is not permission.</strong> Capability does not settle moral authority.</li>
@@ -1338,7 +1556,7 @@ const articles = [
     dek: "Gartina asks what it means to accept responsibility for something one does not own—and answers through attention, soil, food, consultation, and revision.",
     tags: ["Gartina", "Gael", "Hope", "Pristinia", "Zarathis", "Care", "Stewardship", "Refugees"],
     facts: { Role: "Chef, gardener, investigator, protector", "Defining question": "What work does responsible care require?", Method: "Understand → act → observe → revise", Relationship: "Draegar", "Love model": "Attention → knowledge → competent care", Tension: "Preparation becoming self-blame", Artwork: "Portrait; Ececilia emoji in the artist gallery" },
-    sources: ["GARTINA_HISTORY.md — consolidated profile and chronology", "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine", "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis"],
+    sources: ["GARTINA_HISTORY.md — consolidated profile and chronology", "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine", "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue"],
     body: `
       <p>Gartina often enters history carrying food or drink. Tea, coffee prepared specifically for Olokun, and scones are not decorative quirks; they are how she brings a crisis down to a scale where people can think together. Her intelligence is practical, observant, and willing to revise itself.</p>
       <div class="quote">You’ve got to have a code.<cite>Gartina</cite></div>
@@ -1387,6 +1605,9 @@ const articles = [
         <li><strong>Quake:</strong> a shared estate is map-confirmed, but the relationship behind its name remains unrecovered.</li>
         <li><strong>Magnus:</strong> distrust is strongly expressed but remains Gartina’s attributed judgment rather than objective proof.</li>
       </ul>
+      <h2 id="luminar-fieldwork">Luminar Spires · experimental explorer</h2>
+      <p>At the Luminar Spires, Gartina turns her established method into field research: <strong>question → test → observation → revised plan</strong>. She considers weather manipulation and tunneling, designs an aerial pass to test whether the western mist’s apparent effects extend vertically, observes figures moving below it, and uses Arjahn’s radiant experiment to propose a moving cleared zone.</p>
+      <p>Her flight twenty to thirty feet above the visible mist produces no nightmare, vision, or unusual mental effect in that single test. It does not prove everyone is safe above it. When Elenia’s transformed Daylight pulls the party upward, Gartina becomes a giant eagle and retrieves companions, joining investigation to rescue rather than treating the environment as an abstract puzzle.</p>
       <h2 id="preparation">Preparation and its limit</h2>
       <p>Gartina remembers tactics and assumes enemies will adapt. Preparation is a form of love: understand enough that fewer people pay. After exhausted resources and a wrong choice contribute to Olokun’s death, that virtue breaks into self-blame. “I should have seen it” is the shadow cast by competence.</p>
       <p>Her best pressure point is not being asked to destroy nature. It is being forced to act before she can understand enough, when waiting is itself consequential. No amount of disciplined care can make another person’s survival fully controllable.</p>
@@ -1577,7 +1798,7 @@ const articles = [
     dek: "Arjahn thinks beyond the first victory: routes, hazards, retreat, the next fight—and the relationships that must survive long enough to make any plan matter.",
     tags: ["Arjahn", "Pristinia", "Mapping", "Olokun", "Vanguard", "Babel-Ashur"],
     facts: { Method: "Soldier thinking", Priority: "Survive the second fight", Family: "Wife and children", Affiliation: "The Vanguard · May 2026", Strength: "Makes other people’s plans better" },
-    sources: ["Pasted markdown(20260909-022826).md — cavern mapping and reconciliation", "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses", "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026"],
+    sources: ["Pasted markdown(20260909-022826).md — cavern mapping and reconciliation", "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses", "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test"],
     body: `
       <p>Arjahn’s planning is biography. He looks for environmental hazards, defensible routes, monster territory, and the path home after the battle everyone is currently discussing. He is interested not only in reaching a target, but in whether the party can survive what happens afterward.</p>
       <h2 id="map">The map as protection</h2>
@@ -1586,6 +1807,9 @@ const articles = [
       <p>After Olokun lashes out at him for risking another death, Arjahn names what the fear has erased: he has a wife and children, understands the cost, and is trying to keep Olokun alive too. Days later he offers a joke about weaponized paintbrushes because he does not want anger to become their last exchange.</p>
       <h2 id="discipline">Fear, then discipline</h2>
       <p>The broader record remembers a protector who can be terrified, physically overwhelmed, or furious without ceasing to act like a soldier. Courage is not calmness. It is regaining enough discipline to stand, plan, and protect the person beside him.</p>
+      <h2 id="western-mist-arjahn">The western mist · fear as information</h2>
+      <p>Arjahn’s unusual perception shows him something inside Babel-Ashur’s western mist that resembles every nightmare he has experienced at once. Outside the visible boundary he can still rationalize the sensation; his prediction of compounded fear and battle trauma inside remains a warning rather than an observed effect.</p>
+      <p>He continues helping during the Spires’ reversed-gravity accident, then performs the group’s deliberate radiant test. His energy burns a temporary opening but produces a violently amplified reaction before the mist regenerates. The result unsettles him and teaches a new tactical limit: his own power can become more dangerous when the environment changes its scale.</p>
       <h2 id="vanguard">The Vanguard · May 2026</h2>
       <p>During the Babel-Ashur crisis, Arjahn was reported to be part of <a href="#vanguard">a vanguard that was losing</a>. This is the only confirmed Vanguard reference in the surviving record. It extends Arjahn’s history into an active front under severe pressure, but it does not identify his rank, mission, comrades, or eventual fate.</p>`
   },
@@ -1610,7 +1834,7 @@ const articles = [
     dek: "Scribonia refuses to be reduced by anyone else’s category. His reason gives him courage before gods and tyrants—and makes it very hard for him to stop prosecuting an argument.",
     tags: ["Scribonia", "Knowledge", "Identity", "Aria", "Eugene", "Delerium"],
     facts: { Pronouns: "He / him", Identity: "Scribonia before every label", Strength: "Reason under intimidation", Appetite: "Useful knowledge and mastery", Institution: "Students and scholarly responsibility", Risk: "Argument becoming authority" },
-    sources: ["Pasted markdown(20260909-023111).md — Scribonia confronts Aria", "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy", "Pasted markdown(20260909-024010).md — Zarathian research", "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium", "Fenumion High-Presence Character Context Set — consolidated Scribonia context"],
+    sources: ["Pasted markdown(20260909-023111).md — Scribonia confronts Aria", "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy", "Pasted markdown(20260909-024010).md — Zarathian research", "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium", "Fenumion High-Presence Character Context Set — consolidated Scribonia context", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research"],
     body: `
       <p>Scribonia is a collector of useful knowledge. Where Wren asks how a culture knows its stories are true, he returns from its libraries with literacy rates, years of study, Papirak, Wish, and the metaphysics of truth. He thinks mastery is protective and that a sound argument remains unfinished until it is answered.</p>
       <h2 id="identity">“I am Scribonia”</h2>
@@ -1628,6 +1852,12 @@ const articles = [
       <p>Some records show real growth: he recognizes that Gartina has more wisdom for a frightened newcomer and initially waits. The achievement is fragile. Minutes later, he is issuing commands and moral judgments again. Scribonia can identify that someone else is better suited to lead before his certainty drags him back into control.</p>
       <h2 id="last-word">The last word</h2>
       <p>Even after ordered to stop arguing with Aria, he preserves a final declaration that the issue is not dead. This is both character strength and collaborative hazard. Reason makes him difficult to intimidate; it can also persuade him that any conversation remains his until his position has been fully heard.</p>
+      <h2 id="luminar-chaos">Luminar Spires · order confronted by chaos</h2>
+      <p>The Spires attack the premise on which Scribonia’s power depends: predictable relationships between knowledge, intention, and effect. He identifies the field as primal and unstable, cannot guarantee even a cantrip’s result, and chooses to stop before his own mastery becomes a danger to the group.</p>
+      <div class="quote">Meaningless chaos. Pure entropy solidified. I cannot work with this!<cite>Scribonia</cite></div>
+      <p>The restraint matters beside his response to Magnus. Faced with another uncontrolled threat, Scribonia proposes one of the most structured sequences available: locate Magnus, Gate to him, use Feeblemind, contain him, and eventually apply Imprisonment. He does not want Magnus killed because death would return him to Death. This remains a plan, not a completed capture.</p>
+      <h2 id="papirak-legacy-scribonia">Papirak’s surviving work</h2>
+      <p>Scribonia reports that Magnus killed Papirak seeking Wish-unbound knowledge and clarifies that the information was locked away rather than erased. He has begun researching how the Training Dungeon might function without Papirak. The work may become stewardship of a dead teacher’s institution; the record does not yet call him Papirak’s successor.</p>
       <h2 id="scribonia-open-record">The incomplete chronology</h2>
       <p>Scribonia’s earliest appearances, Academy history, full Delerium sequence, imprisonment and release, students, and later 2026 scenes remain incomplete. The stronger thematic model does not authorize the Codex to invent the missing transitions.</p>`
   },
@@ -1750,7 +1980,7 @@ const articles = [
       <h2 id="veilguard">Belonging to the Veilguard</h2>
       <p>Thorn says, “I belong with the Veilguard, so I must return.” The wording establishes more than an assignment. By this point the Veilguard has become identity, obligation, and community.</p>
       <h2 id="ordinary-history">Ordinary institutional life</h2>
-      <p>Thorn also carries news of Farkur and the Knights’ disappearance, Ryvyt’s response, Gael transport, farms, and harvest work. A person who passed through death and cult ritual still participates in the mundane systems by which regions continue.</p>`
+      <p>Thorn also carries news of <a href="#farkur">Farkur</a> and the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>’ disappearance, <a href="#ryvyt">Ryvyt</a>’s response, Gael transport, farms, and harvest work. A person who passed through death and cult ritual still participates in the mundane systems by which regions continue.</p>`
   },
   {
     id: "cave-company", title: "The Delerium Cave Company", category: "People", type: "Ensemble record · 20 September 2026",
@@ -1792,7 +2022,7 @@ const articles = [
     dek: "From the One Tree and the Great Fracture to the living campaign: every consequential event recovered from the current archive, searchable by name, place, person, and theme.",
     tags: ["Timeline", "Events", "Discovery", "Continuity"],
     facts: { Scope: "Complete recovered chronology", Ordering: "Causal history and player discovery", Coverage: "Ancient world through 2026", Rule: "Unresolved dates remain unresolved" },
-    sources: ["Fenumion_Codex_Master_Timeline_2026-09-20.md — event chronology, evidence levels, and causal spines", "Fenumion Archive Catalogue — chronology and source anchors", "New Year.pdf — community retrospective"],
+    sources: ["Fenumion_Codex_Master_Timeline_2026-09-20.md — event chronology, evidence levels, and causal spines", "Fenumion Archive Catalogue — chronology and source anchors", "New Year.pdf — community retrospective", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — undated 2026 Babel-Ashur reconnaissance sequence"],
     body: `
       <p>The history is presented in causal order, but each event also records when modern adventurers discovered it. Exact dates are used only where the documents provide them; ancient, approximate, and unresolved dates are labeled instead of silently invented.</p>
       <div id="timeline-explorer" class="timeline-explorer" aria-live="polite"></div>
@@ -1919,7 +2149,12 @@ const archiveIndex = {
     { title: "Magnus restores Papirak’s memory", meta: "Sep 2026", sort: "2026-09-01", era: "2026 · Consequences", kind: "Violent revelation", article: "magnus", location: "Papirak’s home; Prima", people: "Magnus; Papirak; Paloma; Namo’o", tags: ["Time Ravage", "memory barrier", "knowledge"], summary: "Pursuing forbidden history, Magnus methodically breaks the mercy protecting Papirak’s mind and reconnects the fragments around the wife who had been erased." },
     { title: "Papirak walks into the flames", meta: "Sep 2026 · after Magnus leaves", sort: "2026-09-02", era: "2026 · Consequences", kind: "Death and lost history", article: "papirak-paloma", location: "Prima", people: "Papirak; Paloma; Magnus", tags: ["Immolation", "Atonement", "primary source"], summary: "Unable to survive the restored truth, Papirak chooses fire. His death is also the loss of a living witness whose historical memory had already been censored once." },
     { title: "Dumuzi and Velkyn disclose the Abyss’s losses", meta: "Sep 2026", sort: "2026-09-10", era: "2026 · Consequences", kind: "Revelation", article: "death-dumuzi", location: "Fenumion; the Abyss", people: "Dumuzi; Velkyn; Kurayami; Cthulhu", tags: ["Abyss", "truth", "blood", "Kurayami"], summary: "Velkyn describes Kurayami’s offer of power, while Dumuzi claims that his kind do not deceive and reports the destruction of the Abyss’s cavern kingdom. The statements remain attributed, not dismissed merely because of their source." },
-    { title: "Gael develops an open-air market", meta: "By 19 Sep 2026", sort: "2026-09-19a", era: "2026 · Consequences", kind: "Economic development", article: "gael", location: "Gael", people: "Ale-chemy Knights; Ryvyt; Thorn; Marius", tags: ["market", "commerce", "organizations"], summary: "The Ale-chemy Knights establish a market divided by skill sets in a region Marius remembers as having almost no economy; Farkur and other Knights have vanished, but the source does not say what that means." },
+    { title: "Farkur proposes Friendly Guides and Grub", meta: "17 Nov 2024", sort: "2024-11-17", era: "2024 · The Calling", kind: "Institutional precursor", article: "ale-chemy-knights", location: "The Common Man; Pristinia", people: "Farkur; Pappy", tags: ["newcomers", "Gate", "hospitality", "transport"], summary: "Farkur pitches a profitable Gate-side caravan offering maps, food, ale, local knowledge, and future carriage service. The idea anticipates the Knights’ later welcome system but does not prove the faction formally exists yet." },
+    { title: "The Ale-Chemy welcome system moves from plan to practice", meta: "Jan–early 2025 · exact dates partial", sort: "2025-01", era: "2025 · Expansion", kind: "Institution building", article: "ale-chemy-knights", location: "Ciderwood Sanctum; Prima", people: "Farkur; Tobias; Fredrick", tags: ["Ciderwood Sanctum", "newcomers", "maps", "mutual aid"], summary: "Farkur develops the newcomer-support concept at Ciderwood Sanctum; Tobias later gives Fredrick safety, food, orientation, a map, work and lodging information, an escort, and personal money." },
+    { title: "The Ale-Chemy shop operates as a shared resource pool", meta: "25 Jul 2025", sort: "2025-07-25", era: "2025 · Expansion", kind: "Cooperative infrastructure", article: "ale-chemy-knights", location: "Prima; Eovar", people: "Farkur; Ryvyt; Coralyn", tags: ["crafting", "equipment loans", "property", "shop"], summary: "Ryvyt borrows shared equipment for a job, Farkur routes specialist crafting toward him, and the Knights vote to purchase an Eovar tavern while finances remain strained." },
+    { title: "The Ale-Chemy Knights explain their mature economic system", meta: "8 Dec 2025", sort: "2025-12-08", era: "2025 · Expansion", kind: "Institutional maturity", article: "ale-chemy-knights", location: "Prima", people: "Ruben; Gregory Greenleaf; Tobias", tags: ["public works", "financing", "ships", "Pristinia walls"], summary: "Ruben describes pooled funds, labor, materials, rentals, eventual acquisition, public works, ships, and reconstruction plans. Gregory challenges the financing terms, while Tobias is reported missing again." },
+    { title: "Outsiders direct newcomers to the Ale-Chemy Knights", meta: "14 Feb 2026", sort: "2026-02-14", era: "2026 · Consequences", kind: "Public reputation", article: "ale-chemy-knights", location: "Road toward Pristinia", people: "Iron Saint Valorum; Draven Montauk; Farkur; Ryvyt", tags: ["handbell", "information", "newcomers", "reputation"], summary: "Draven recommends the Knights as the best source of information and gives Valorum a silent handbell said to be audible to them. He identifies Farkur and Ryvyt as founders away on an important job." },
+    { title: "Gael develops an open-air market", meta: "By 19 Sep 2026", sort: "2026-09-19a", era: "2026 · Consequences", kind: "Economic development", article: "ale-chemy-knights", location: "Gael", people: "Ale-Chemy Knights; Tobias; Farkur; Ryvyt; Thorn; Marius", tags: ["market", "commerce", "organizations", "reconstruction"], summary: "The Ale-Chemy Knights establish a market divided by skill sets in a region Marius remembers as having almost no economy; Farkur and other Knights have vanished, but the source does not say what that means." },
     { title: "Safe known-person travel to Gael is available", meta: "Confirmed 19 Sep 2026", sort: "2026-09-19b", era: "2026 · Consequences", kind: "Interregional change", article: "gael", location: "Prima ↔ Gael", people: "Thorn; Ale-chemy Knights; unnamed transporter", tags: ["travel", "islands", "network"], summary: "Thorn says a friend can safely carry people they know to Gael from any island; the exact spell or mechanism remains unresolved." },
     { title: "Pilgrim’s Hearth returns ordinary social life", meta: "19 Sep 2026", sort: "2026-09-19c", era: "2026 · Consequences", kind: "Civic continuity", article: "common-man", location: "Pilgrim’s Hearth; Pristinia", people: "Thorn; Aurélia; Marius; Saoirse", tags: ["Common Man", "tavern", "rebuilding"], summary: "The successor tavern on the Common Man’s foundations functions as a place for tea, news, and social connection after destruction and rebuilding." },
     { title: "Prima’s Magic Academy is open", meta: "Confirmed 19 Sep 2026", sort: "2026-09-19d", era: "2026 · Consequences", kind: "Institutional development", article: "scribonia", location: "Pristinia; Prima", people: "Scribonia; Marius; Aurélia; Saoirse", tags: ["academy", "teaching", "magic"], summary: "Students identify Scribonia as their teacher, while Saoirse prepares lessons for a future turn teaching younger learners." },
@@ -1930,7 +2165,12 @@ const archiveIndex = {
     { title: "The Chains and Maw defeat Ithilrûnë’s working model", meta: "Sep 2026 · exact day unresolved", sort: "2026-09-21a", era: "2026 · Consequences", kind: "Epistemological crisis", article: "voraketh", location: "Voraketh; the Chains and Maw", people: "Ithilrûnë; Sildithas; Coralyn; Pappy", tags: ["Maw", "Chains", "Deyara Thorn", "uncertainty"], summary: "A magic-consuming Maw, antimagic Chains, dangerous constructs, an associated figure, and a separate watcher resist Ithilrûnë’s attempts to form a reliable model. Talan’s authorship of the Chains is attributed; his motives and the figures’ identities remain unknown." },
     { title: "Coralyn preserves Voraketh’s unanswered connections", meta: "22 Sep 2026", sort: "2026-09-22", era: "2026 · Consequences", kind: "Evidence synthesis", article: "voraketh", location: "Voraketh", people: "Coralyn; Deyara Thorn; Physisia; Talan", tags: ["evidence discipline", "Last Grove", "plague", "blurred watcher"], summary: "Coralyn records the island’s unnatural order, Chains, Wasteland, Maw, watcher, motes, tree, resurrection offer, spores, plague, and difficult name—while refusing to connect them merely because they are strange." },
     { title: "Sildithas proposes a feast beside the Maw", meta: "Sep 2026 · exact day unresolved", sort: "2026-09-21b", era: "2026 · Consequences", kind: "Oath and preservation", article: "sildithas", location: "Voraketh; beside the Chains and Maw", people: "Sildithas; Ithilrûnë; the island expedition", tags: ["oath", "feast", "joy", "moral uncertainty"], summary: "Unable to solve the Maw, Sildithas returns to an oath centered on mercy, flourishing, courage, and joy. He proposes a feast as a small good that preserves the people facing the unresolved horror, and Ithilrûnë agrees to follow his lead." },
-    { title: "Pristinia answers hunger with a hunt", meta: "15 Dec 2024", sort: "2024-12-15a", era: "2024 · The Calling", kind: "Community consequence", article: "common-man", location: "The Common Man; Pristinia", people: "Farmer Frank; Herb; Aravil; Tobias", tags: ["food", "winter", "ecology", "civilian labor"], summary: "A tavern conversation exposes failed harvest help, an overworked farmer, and dwindling stores. A hunt forms while Herb limits it so immediate hunger does not destroy next year’s elk population." },
+    { title: "The western mist blankets Babel-Ashur", meta: "2026 · after Papirak’s death · exact date unresolved", sort: "2026-99-20a", era: "2026 · Consequences", kind: "Rift-born regional threat", article: "luminar-spires", location: "Western Babel-Ashur", people: "Elenia; Scribonia; Gartina; Arjahn; Olokun; Nymera", tags: ["western mist", "rift", "Abyss", "Babel-Ashur"], summary: "A sickly-green mist that Elenia says entered through a rift blankets essentially the island’s western portion. She distinguishes it from the Pale Man’s Haze; its exact relationship to Abyss remains unresolved." },
+    { title: "The Luminar Spires transform Daylight", meta: "Same reconnaissance quest · exact date unresolved", sort: "2026-99-20b", era: "2026 · Consequences", kind: "Wild-magic transformation", article: "luminar-spires", location: "Luminar Spires; Babel-Ashur", people: "Elenia; Gartina; the expedition", tags: ["Daylight", "reversed gravity", "primal magic"], summary: "Elenia casts Daylight on a Spire and the surrounding field transforms it into reversed gravity. Gartina uses giant-eagle form to retrieve companions; the effect ends with Elenia’s concentration." },
+    { title: "Gartina surveys the western mist", meta: "Same reconnaissance quest · exact date unresolved", sort: "2026-99-20c", era: "2026 · Consequences", kind: "Aerial reconnaissance", article: "gartina", location: "Western Babel-Ashur", people: "Gartina; the expedition", tags: ["mist", "flight", "unidentified figures", "field research"], summary: "Gartina flies twenty to thirty feet above the visible mist without an observed mental effect, confirms its enormous western reach, and sees unidentified figures moving beneath it. The test does not establish universal aerial safety." },
+    { title: "Arjahn burns a temporary opening in the mist", meta: "Same reconnaissance quest · exact date unresolved", sort: "2026-99-20d", era: "2026 · Consequences", kind: "Radiant field test", article: "arjahn", location: "Western Babel-Ashur", people: "Arjahn; Gartina; the expedition", tags: ["radiant energy", "regeneration", "amplification"], summary: "Arjahn’s radiant energy produces a dangerously amplified reaction and burns part of the mist away, but the opening closes within minutes once the pressure stops." },
+    { title: "The Luminar Spires shine at sunset", meta: "End of the same quest · exact date unresolved", sort: "2026-99-20e", era: "2026 · Consequences", kind: "Unresolved environmental behavior", article: "luminar-spires", location: "Luminar Spires; Babel-Ashur", people: "The expedition", tags: ["sunset", "starlight", "unresolved"], summary: "As the party withdraws, the Spires twinkle like stars. The behavior is observed; any relationship to time, light, celestial conditions, or the earlier spell remains speculative." },
+    { title: "Pristinia answers hunger with a hunt", meta: "15 Dec 2024", sort: "2024-12-15a", era: "2024 · The Calling", kind: "Community consequence", article: "tobias", location: "The Common Man; Pristinia", people: "Farmer Frank; Herb; Aravil; Tobias", tags: ["food", "winter", "ecology", "civilian labor", "Ale-Chemy Knights"], summary: "A tavern conversation exposes failed harvest help, an overworked farmer, and dwindling stores. Tobias volunteers as a hunt forms, while Herb limits it so immediate hunger does not destroy next year’s elk population." },
     { title: "Skye makes Lichen safe through music", meta: "15 Dec 2024", sort: "2024-12-15b", era: "2024 · The Calling", kind: "Belonging", article: "common-man", location: "The Common Man; Pristinia", people: "Skye; Lichen", tags: ["music", "money", "friendship", "First Forest"], summary: "Skye refuses most of a ten-gold gift worth roughly a year’s wages, learns who Lichen is, and connects a strange newcomer to the First Forest through music and conversation." }
   ],
   characters: [
@@ -1947,7 +2187,7 @@ const archiveIndex = {
     { title: "Dez", meta: "Character sighting", article: "people-directory", summary: "A tavern-scene presence who repeatedly opens conversational space for Ghilsen and Magnus." },
     { title: "Elenia", meta: "Character record", article: "elenia", image: "elenia-portrait.png", summary: "A bearer of light whose devotion does not require moral blindness." },
     { title: "Gartina", meta: "Character record", article: "gartina", image: "gartina-portrait.png", summary: "A chef and protector for whom preparation is care—and can become self-blame." },
-    { title: "Farkur", meta: "Character sighting", article: "people-directory", summary: "A rain-soaked adventurer with a mechanical wolf, a ready smile, and a distrust miracles do not simply erase." },
+    { title: "Farkur", meta: "Ale-Chemy founder and builder", article: "farkur", image: "farkur-portrait.jpg", summary: "Turns hospitality, specialized labor, shared tools, and funding into an institution intended to outlast any one adventurer." },
     { title: "Ghilsen Hendrickson", meta: "Former slave; adventurer", article: "ghilsen", summary: "Suspicion, freedom, and the hope that strength can prevent anyone from owning him again." },
     { title: "Ithilrûnë", meta: "Scholar and seeker", article: "ithilrune", summary: "Uses knowledge to preserve choice; the Maw forces her to admit ignorance and accept another person’s wisdom without abandoning her own." },
     { title: "Jéane Rose", meta: "Speedster and explorer", article: "jeane-rose", summary: "Experiences thought, friendship, travel, and the obligation to protect at extraordinary speed." },
@@ -1955,13 +2195,14 @@ const archiveIndex = {
     { title: "Magnus Niriin", meta: "Warlock, Silver Star, political figure", article: "magnus", image: "magnus-portrait.jpg", summary: "An ambitious Zarathian whose pursuit of leverage succeeds even as it deepens his dependence on Death and fractures trust." },
     { title: "Minerva", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Nienna", meta: "Character record", article: "nienna", image: "nienna-portrait.png", summary: "An absent presence whose sacrifice continues to act through the living." },
-    { title: "Nymera", meta: "Character sighting", article: "elenia", summary: "A follower of Cala who questions why other devotees reach for violence when protection does not require it." },
+    { title: "Nymera", meta: "Cala devotee and expedition ally", article: "nymera", summary: "Offers practical help among specialists and learns that uncertainty about theory does not make her contribution unwanted." },
     { title: "Olokun", meta: "Protector; Rahu; resurrected adventurer", article: "olokun", image: "olokun-poster.png", summary: "A deeply attached protector whose mature ethic separates care from ownership while fear keeps testing that boundary." },
     { title: "Pappy", meta: "Plainspoken protector", article: "pappy", summary: "A simple, good man whose Rift rescue exposes the boundary between character knowledge and later governance disputes." },
     { title: "Pelagia", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Quake", meta: "Character sighting", article: "roderick-wrath", summary: "Refuses Wrath’s bargain before its full danger is understood; protected by Elenia’s practiced memory of earlier loss." },
     { title: "Saray", meta: "Survivor of grief", article: "saray", summary: "Carries guilt after Nienna’s death and later lands the final blow against Wrath; the connecting chronology remains incomplete." },
     { title: "Rahn", meta: "Character sighting", article: "people-directory", summary: "A sparsely recorded flying adventurer preserved in the recovered scene catalogue." },
+    { title: "Ryvyt", meta: "Ale-Chemy founder and crafter", article: "ryvyt", summary: "Makes specialization operational through crafting, research, shared equipment, and project work." },
     { title: "St. Anky", meta: "Nuru’s saint and chronicler", article: "st-anky", image: "st-anky-portrait.png", summary: "Built Voraketh’s Temple of Secrets so knowledge, questions, and communal resources could survive their keepers." },
     { title: "Scribonia", meta: "Magi and scholar", article: "scribonia", image: "scribonia-portrait.png", summary: "Self-defined before every label; brave in argument and often unable to relinquish the last word." },
     { title: "Selwyn", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
@@ -1969,6 +2210,7 @@ const archiveIndex = {
     { title: "Sildithas", meta: "Oathbound defender", article: "sildithas", image: "sildithas-portrait.png", summary: "Meets uncertain divine authority by returning to an oath of mercy, flourishing, courage, and preserved joy." },
     { title: "Swiftfoot", meta: "Character sighting", article: "new-year-address", summary: "Remembered in the community retrospective for a sacrifice carried into shared history." },
     { title: "Thorn", meta: "Veilguard and returned survivor", article: "thorn", summary: "Dies on a Gael husk hunt, is later caught in a cult ritual, and returns by September 2026 through an unresolved mechanism." },
+    { title: "Tobias", meta: "Ale-Chemy builder and guide", article: "tobias", summary: "Turns newcomer support into direct practice through food, maps, information, escort, work connections, and personal help." },
     { title: "Tshuka", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Vaelith", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Vaerik", meta: "Old soldier", article: "vaerik", image: "assets/archive/vaerik.png", summary: "Duty expressed as the conviction that if he can bear a burden, he must." },
@@ -1981,7 +2223,6 @@ const archiveIndex = {
     { title: "Marius Antares", meta: "Magic Academy student", article: "people-directory", summary: "Observes changes in Prima and voices a belief about Gael’s economy that remains attributed rather than established." },
     { title: "Moira Eshdin", meta: "Analytical cave explorer", article: "cave-company", summary: "Theorizes about the cave’s connections and corruption while keeping her claims at the level of character understanding." },
     { title: "Pell", meta: "Cave explorer", article: "cave-company", summary: "Frightened and practical; insists the corrupted corpse was somebody’s child and deserves burial." },
-    { title: "Ryvyt", meta: "Knight-linked figure", article: "thorn", summary: "Reportedly took the Knights’ disappearance hard; fuller interpretation awaits a primary-source pass." },
     { title: "Saoirse", meta: "Mage and future teacher", article: "cave-company", summary: "Warns about contamination, uses petal-based magic, and prepares to teach at Prima’s Magic Academy." },
     { title: "Vessalia", meta: "Contaminated singer", article: "cave-company", summary: "Uses song to manage fear, accepts correction when it attracts danger, and remains attentive to Pell." }
   ],
@@ -2030,6 +2271,7 @@ const archiveIndex = {
     { title: "Temple of Secrets", region: "Voraketh", parent: "Voraketh", type: "memory shelter and research institution", meta: "Voraketh · archive", article: "voraketh", summary: "Anky’s protected repository for secrets, scrolls, theories, and communal gear—built so knowledge could survive the island’s losses.", source: "Anky testimony + Temple scenes", aliases: ["The Temple of Secrets", "Anky’s Temple"], level: "site" },
     { title: "Veiled Watch", region: "Voraketh", parent: "Voraketh", type: "expedition record site", meta: "Voraketh · watch / record", article: "voraketh", summary: "A source of expedition logs, including the last recovered record before Anky’s fatal April journey.", source: "Veiled Watch records", aliases: ["The Veiled Watch"], level: "site" },
     { title: "Greyward Littoral", region: "Babel-Ashur", parent: "Babel-Ashur", type: "coastal subregion", meta: "Babel-Ashur · southern shore", article: "grayward-littoral", summary: "Babel-Ashur’s named southern shore, mapped with a landing beach, safe routes, refuge, volcanic crystal, caverns, ruins, and sulphuric swamps.", source: "User-confirmed name + annotated map", aliases: ["Grayward Littoral", "Babel-Ashur Southern Coast", "Babel-Ashur Southern Shore", "Southern Coast", "Southern Shore"], image: "assets/archive/babel-ashur-southern-coast.webp", level: "subregion" },
+    { title: "Luminar Spires", region: "Babel-Ashur", parent: "Babel-Ashur", type: "wild-magic coastal formation", meta: "Babel-Ashur · magical coastal region", article: "luminar-spires", summary: "Towering formations whose primal field transformed Daylight into reversed gravity during an undated reconnaissance mission.", source: "Quest RP intake + user identification + supplied map and video", aliases: ["The Luminar Spires"], image: "luminar-spires-map.jpg", video: "luminar-spires.mp4", level: "site" },
     { title: "Reheva", region: "Other regions", parent: "World", type: "major region", meta: "World · named region", article: "visual-archive", summary: "The world map confirms Reheva as a named land; its internal geography has not yet been recovered here.", source: "World map", aliases: [], level: "region" },
     { title: "Rahu", region: "Other regions", parent: "World", type: "external polity", meta: "World · polity", article: "visual-archive", summary: "Rahu is represented in Pristinia by an embassy; its wider geography remains to be reconciled.", source: "Chronicle + image", aliases: [], level: "region" },
 
@@ -2085,14 +2327,14 @@ const archiveIndex = {
     { title: "Zarathis", region: "Fein Uaill", parent: "Fein Uaill", type: "civilization", meta: "Fein Uaill · civilization", article: "zarathis", summary: "A developed center organized around memory, mastery, and the boundary of one mortal life.", source: "Chronicle + map", aliases: ["Zerathis"], level: "settlement" },
     { title: "Caisleán na Brón", region: "Fein Uaill", parent: "Fein Uaill", type: "fortified place", meta: "Fein Uaill · fortified place", article: "fein-uaill", summary: "A major fortified place confirmed by the Fein Uaill map and screenshot directory.", source: "Map + screenshot", aliases: ["Caselean De Broin", "Caislean na Bron", "Caisleán De Bróin"], level: "site" },
     { title: "Ciaránach", region: "Fein Uaill", parent: "Fein Uaill", type: "sacred city", meta: "Fein Uaill · sacred city", article: "fein-uaill", summary: "The sacred nexus where Nuru killed Grace and Zarathian belief confronts divine failure.", source: "Chronicle + image", aliases: ["Ciaranach"], level: "settlement" },
-    { title: "The Gates of Aelthor", region: "Fein Uaill", parent: "Fein Uaill", type: "city gate / battle site", meta: "Fein Uaill · battle site", article: "fein-uaill", summary: "The site where Aionia’s heavenly host killed civilians and burned the city before being driven back.", source: "Scene + map + screenshot", aliases: ["Gates of Aelthor", "Gates of Arthor"], level: "site" },
+    { title: "Gates of Aelthor", region: "Fein Uaill", parent: "The Shining Shores", type: "coastal city / battle site", meta: "Fein Uaill › Shining Shores · city", article: "shining-shores", summary: "A city of white streets, bustling markets, and soaring towers, named for the first king after the breaking of the world; later battle records preserve a devastating attack by Aionia’s host.", source: "Location profile + scene + map + screenshot + user spelling correction", aliases: ["The Gates of Aelthor", "Gates of Aethor", "The Gates of Aethor", "Gates of Arthor"], level: "settlement" },
     { title: "Seraphis", region: "Fein Uaill", parent: "Fein Uaill", type: "city", meta: "Fein Uaill · city", article: "fein-uaill", summary: "A major settlement confirmed by the Fein Uaill map and supplied screenshot directory.", source: "Map + screenshot", aliases: [], level: "settlement" },
     { title: "The Titanwall of Eryndor", region: "Fein Uaill", parent: "Fein Uaill", type: "fortification", meta: "Fein Uaill · fortification", article: "fein-uaill", summary: "A monumental wall confirmed by the regional map and supplied screenshot directory.", source: "Map + screenshot", aliases: ["Titanwall of Eryndor", "Titanwall of Eanndor"], level: "site" },
     { title: "The Shard of Fein Uaill", region: "Fein Uaill", parent: "Fein Uaill", type: "monument / landmark", meta: "Fein Uaill · landmark", article: "fein-uaill", summary: "A named regional landmark confirmed by the supplied screenshot directory; the post text itself was deleted.", source: "Screenshot directory", aliases: ["Shard of Fein Uaill", "Rem Uaill"], level: "site" },
     { title: "The Radiant Bazaar of Zarathis", region: "Fein Uaill", parent: "Zarathis", type: "market", meta: "Fein Uaill › Zarathis · bazaar", article: "zarathis", summary: "A Zarathian market confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: ["Radiant Bazaar"], level: "site" },
     { title: "Niriin Estate", region: "Fein Uaill", parent: "Fein Uaill", type: "estate", meta: "Fein Uaill · estate", article: "fein-uaill", summary: "A named estate confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: [], level: "site" },
     { title: "Aria’s Tomb", region: "Fein Uaill", parent: "Fein Uaill", type: "tomb", meta: "Fein Uaill · tomb", article: "aria-pride", summary: "Aria’s tomb lies in Fein Uaill proper; the regional record corrects the assumption that it is inside Ciaránach.", source: "Regional record + image", aliases: ["Aria's Tomb"], level: "site" },
-    { title: "The Shining Shores", region: "Fein Uaill", parent: "Fein Uaill", type: "coast / settlement", meta: "Fein Uaill · shore", article: "fein-uaill", summary: "A named coastal place confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: ["Shining Shores"], level: "site" },
+    { title: "The Shining Shores", region: "Fein Uaill", parent: "Fein Uaill", type: "coastal region", meta: "Fein Uaill · coast", article: "shining-shores", summary: "A warm coastal region containing the Gates of Aelthor, serving as sea approach, city shore, resting place, and setting for political conversation.", source: "Consolidated location profile + scenes + moving visual", aliases: ["Shining Shores", "Shining Shores of Fein Uaill"], video: "shining-shores.m4v", level: "site" },
     { title: "Thalanbor the Boundless Artwright’s Library", region: "Fein Uaill", parent: "Fein Uaill", type: "library", meta: "Fein Uaill · library", article: "fein-uaill", summary: "A monumental library confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: ["Thalanbor's Library", "Artwright's Library"], level: "site" },
     { title: "The Feytouched Forest", region: "Fein Uaill", parent: "Fein Uaill", type: "forest", meta: "Fein Uaill · forest", article: "fein-uaill", summary: "A named forest confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: ["Feytouched Forest"], level: "site" },
     { title: "Eshnunna of the Eternal Flame", region: "Fein Uaill", parent: "Fein Uaill", type: "sacred site", meta: "Fein Uaill · sacred site", article: "fein-uaill", summary: "A radiant sacred place confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: ["Eshnunna"], level: "site" },
@@ -2170,7 +2412,7 @@ const interactiveMaps = [
       { title: "Caisleán na Brón", x: 62, y: 61 },
       { title: "The Shard of Fein Uaill", x: 17, y: 69 },
       { title: "The Titanwall of Eryndor", x: 61, y: 70 },
-      { title: "The Gates of Aelthor", x: 65, y: 91 }
+      { title: "Gates of Aelthor", x: 65, y: 91 }
     ]
   },
   {
@@ -2193,6 +2435,12 @@ const interactiveMaps = [
       { title: "Babel-Ashur", x: 53, y: 54 },
       { title: "Greyward Littoral", x: 58, y: 79 }
     ]
+  },
+  {
+    id: "luminar-spires", title: "Luminar Spires", shortTitle: "Luminar Spires", image: "luminar-spires-map.jpg", width: 2304, height: 3072,
+    alt: "Illustrated regional map of the Luminar Spires on Babel-Ashur’s coast",
+    description: "A dedicated regional map showing the crystal-tipped coastal formations and their surrounding terrain. Only the Luminar Spires label is treated as a confirmed named location; nearby features remain visually preserved but unnamed.",
+    pins: [{ title: "Luminar Spires", x: 23, y: 36 }]
   },
   {
     id: "greyward", title: "Greyward Littoral", shortTitle: "Greyward", image: "assets/archive/babel-ashur-southern-coast.webp", width: 4096, height: 3072,
@@ -2228,18 +2476,19 @@ const navigationRegions = [
         { label: "Carmen", article: "carmen" }, { label: "Casimir & Alioth", article: "casimir-alioth" },
         { label: "Coralyn", article: "coralyn" }, { label: "Dale", article: "dale" },
         { label: "Elenia", article: "elenia" },
-        { label: "Eugene", article: "eugene" }, { label: "Gartina", article: "gartina" },
+        { label: "Eugene", article: "eugene" }, { label: "Farkur", article: "farkur" }, { label: "Gartina", article: "gartina" },
         { label: "Ghilsen", article: "ghilsen" }, { label: "Herb", article: "herb" }, { label: "Ithilrûnë", article: "ithilrune" },
         { label: "Jéane Rose", article: "jeane-rose" }, { label: "Jiangshi", article: "jiangshi" }
       ]},
       { title: "Characters N–W", items: [
-        { label: "Nienna", article: "nienna" }, { label: "Olokun", article: "olokun" },
-        { label: "Pappy", article: "pappy" }, { label: "Saray", article: "saray" },
+        { label: "Nienna", article: "nienna" }, { label: "Nymera", article: "nymera" }, { label: "Olokun", article: "olokun" },
+        { label: "Pappy", article: "pappy" }, { label: "Ryvyt", article: "ryvyt" }, { label: "Saray", article: "saray" },
         { label: "Scribonia", article: "scribonia" }, { label: "Sildithas", article: "sildithas" },
-        { label: "St. Anky", article: "st-anky" }, { label: "Thorn", article: "thorn" }, { label: "Vaerik", article: "vaerik" },
+        { label: "St. Anky", article: "st-anky" }, { label: "Thorn", article: "thorn" }, { label: "Tobias", article: "tobias" }, { label: "Vaerik", article: "vaerik" },
         { label: "Wren", article: "wren" }
       ]},
       { title: "Groups & orders", items: [
+        { label: "The Ale-Chemy Knights", article: "ale-chemy-knights" },
         { label: "Delerium cave company", article: "cave-company" },
         { label: "The Vanguard", article: "vanguard" }
       ]},
@@ -2288,15 +2537,18 @@ const navigationRegions = [
       ]},
       { title: "Fein Uaill", items: [
         { label: "Fein Uaill overview", article: "fein-uaill", parent: true },
-        { label: "Zarathis", article: "zarathis" }
+        { label: "Zarathis", article: "zarathis" }, { label: "The Shining Shores", article: "shining-shores" }
       ]},
       { title: "Gael", items: [
         { label: "Gael overview", article: "gael", parent: true }
       ]},
       { title: "Other regions", items: [
         { label: "The Void", article: "the-void" }, { label: "Voraketh", article: "voraketh" },
-        { label: "Eovar Harbor", article: "eovar-harbor" },
-        { label: "Babel-Ashur", article: "babel-ashur" }, { label: "Greyward Littoral", article: "grayward-littoral" }
+        { label: "Eovar Harbor", article: "eovar-harbor" }
+      ]},
+      { title: "Babel-Ashur", items: [
+        { label: "Babel-Ashur overview", article: "babel-ashur", parent: true },
+        { label: "Luminar Spires", article: "luminar-spires" }, { label: "Greyward Littoral", article: "grayward-littoral" }
       ]}
     ]
   }
@@ -2334,11 +2586,13 @@ articlePaths.set("the-gate", ["Locations", "Prima", "The Gate"]);
 articlePaths.set("the-before-melian", ["Locations", "Prima", "The Before"]);
 articlePaths.set("fein-uaill", ["Locations", "Fein Uaill"]);
 articlePaths.set("zarathis", ["Locations", "Fein Uaill", "Zarathis"]);
+articlePaths.set("shining-shores", ["Locations", "Fein Uaill", "The Shining Shores"]);
 articlePaths.set("gael", ["Locations", "Gael"]);
 articlePaths.set("the-void", ["Locations", "The Void"]);
 articlePaths.set("voraketh", ["Locations", "Voraketh"]);
 articlePaths.set("eovar-harbor", ["Locations", "Eovar Harbor"]);
 articlePaths.set("babel-ashur", ["Locations", "Babel-Ashur"]);
+articlePaths.set("luminar-spires", ["Locations", "Babel-Ashur", "Luminar Spires"]);
 articlePaths.set("grayward-littoral", ["Locations", "Babel-Ashur", "Greyward Littoral"]);
 
 const subchannelMap = {
@@ -2383,6 +2637,27 @@ const subchannelMap = {
     { label: "Dale & Saray", article: "dale", summary: "Care that remains beside guilt without claiming the right to end it." },
     { label: "Scribonia & Eugene", article: "eugene", summary: "Knowledge, mentorship, envy, independence, and boundary." }
   ],
+  "ale-chemy-knights": [
+    { label: "Farkur", article: "farkur", summary: "Founder, builder, organizer, and architect of the institution’s durable systems." },
+    { label: "Ryvyt", article: "ryvyt", summary: "Founder, crafter, researcher, and specialist within the shared equipment network." },
+    { label: "Tobias", article: "tobias", summary: "Builder and guide who makes the newcomer-support ideal practical." },
+    { label: "Gael", article: "gael", summary: "The damaged region where the Knights’ reconstruction plans become a specialized open-air market." }
+  ],
+  "farkur": [
+    { label: "The Ale-Chemy Knights", article: "ale-chemy-knights", summary: "The institution Farkur helps build from hospitality, mutual aid, logistics, and shared capital." },
+    { label: "Ryvyt", article: "ryvyt", summary: "Co-founder and crafter whose specialization strengthens the cooperative system." },
+    { label: "Tobias", article: "tobias", summary: "Main member and builder who puts the Knights’ newcomer support into practice." }
+  ],
+  "ryvyt": [
+    { label: "The Ale-Chemy Knights", article: "ale-chemy-knights", summary: "The faction Ryvyt co-founded and served as a crafting specialist." },
+    { label: "Farkur", article: "farkur", summary: "Co-founder and organizer who directs specialized crafting work toward Ryvyt." },
+    { label: "Tobias", article: "tobias", summary: "Fellow main member and builder within the Knights’ practical network." }
+  ],
+  "tobias": [
+    { label: "The Ale-Chemy Knights", article: "ale-chemy-knights", summary: "The organization whose welcome system Tobias demonstrates in practice." },
+    { label: "Farkur", article: "farkur", summary: "Founder whose early Gate-service idea grows into the system Tobias carries out." },
+    { label: "The Common Man", article: "common-man", summary: "The Pristinia tavern where Tobias volunteers during the winter food shortage." }
+  ],
   "magnus": [
     { label: "Death / Dumuzi", article: "death-dumuzi", summary: "The power that owns Magnus’s soul and can make that ownership physically decisive." },
     { label: "Zarathis", article: "zarathis", summary: "The culture Magnus calls his own and whose one-life principles his history challenges." },
@@ -2401,7 +2676,8 @@ const subchannelMap = {
   "common-man": [
     { label: "Pristinia", article: "pristinia", summary: "The growing settlement whose civilian pressures became visible inside the tavern." },
     { label: "Jiangshi", article: "jiangshi", summary: "Memorialized at the Common Man and later returned to its familiar sounds and scents." },
-    { label: "Aravil", article: "aravil", summary: "A regular whose response to the tavern’s food crisis helps define her place in Pristinia." }
+    { label: "Aravil", article: "aravil", summary: "A regular whose response to the tavern’s food crisis helps define her place in Pristinia." },
+    { label: "Tobias", article: "tobias", summary: "A future Ale-Chemy main member who volunteers when the tavern reveals the winter food shortage." }
   ],
   "visual-archive": [
     { label: "Prima", article: "prima-pristinia", summary: "Pristinia, The Gate, The Before, and the island’s accumulated civic geography." },
@@ -2412,9 +2688,17 @@ const subchannelMap = {
   ],
   "fein-uaill": [
     { label: "Zarathis", article: "zarathis", summary: "A developed cultural center within the wider Fein Uaill region." },
+    { label: "The Shining Shores", article: "shining-shores", summary: "The Gates of Aelthor, warm sands, sea arrivals, and a quieter coast for reflection and diplomacy." },
     { label: "All Fein Uaill places", article: "visual-archive", summary: "Search every recovered city, estate, tomb, forest, wall, shore, and landmark." }
   ],
+  "shining-shores": [
+    { label: "Fein Uaill", article: "fein-uaill", summary: "The wider region containing the Shining Shores and the Gates of Aelthor." },
+    { label: "Elenia", article: "elenia", summary: "One of the visitors who immediately admires the city and later gathers on the shore." },
+    { label: "Olokun", article: "olokun", summary: "A visitor who admires the city and joins the shoreline conversation." },
+    { label: "Ithilrûnë", article: "ithilrune", summary: "Arrives by ship while seeking the mysterious land and greater power." }
+  ],
   "gael": [
+    { label: "The Ale-Chemy Knights", article: "ale-chemy-knights", summary: "The cooperative whose reconstruction work produces Gael’s specialized open-air market." },
     { label: "All Gael places", article: "visual-archive", summary: "Search Hope, the Tower, Plains of Trial, Mage’s Ruin, forests, coast, and more." }
   ],
   "the-void": [
@@ -2437,6 +2721,14 @@ const subchannelMap = {
 };
 
 const byId = new Map(articles.map(article => [article.id, article]));
+const publicArticleIds = new Set(["world-index", "visual-archive", "reading-the-codex", "ececilia-emojis"]);
+const restrictedArticleIds = new Set(articles.map(article => article.id).filter(id => !publicArticleIds.has(id)));
+const vaultSessionKey = "fenumion-spoiler-vault";
+const vaultPasswordHash = "47fd84a12f24d047b241ad437028738445417b121d17d2d5d423f1c435c62b05";
+let vaultUnlocked = (() => {
+  try { return sessionStorage.getItem(vaultSessionKey) === "open"; }
+  catch { return false; }
+})();
 const hubPages = [
   { id: "people-directory", label: "Characters", detail: "Heroes · NPCs · Gods", image: "assets/archive/wrath.gif" },
   { id: "living-timeline", label: "Timeline", detail: "Causes · Events · Consequences", image: "assets/archive/abyss.png" },
@@ -2458,26 +2750,85 @@ const sidebar = document.querySelector("#sidebar");
 const menuButton = document.querySelector("#menu-button");
 const searchToggle = document.querySelector("#search-toggle");
 const scrim = document.querySelector("#scrim");
+const vaultButton = document.querySelector("#vault-button");
+const vaultDialog = document.querySelector("#vault-dialog");
+const vaultForm = document.querySelector("#vault-form");
+const vaultPassword = document.querySelector("#vault-password");
+const vaultError = document.querySelector("#vault-error");
 
 function escapeHtml(value) {
   return value.replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
 }
 
+function isRestrictedArticle(id) {
+  return restrictedArticleIds.has(id);
+}
+
+function isPlayerSafeArticle(id) {
+  return vaultUnlocked || !isRestrictedArticle(id);
+}
+
+function restrictedMark(id) {
+  return !isPlayerSafeArticle(id) ? '<i class="nav-lock" aria-label="Protected spoiler record" title="Protected spoiler record">◆</i>' : "";
+}
+
+function updateVaultState() {
+  document.body.classList.toggle("vault-open", vaultUnlocked);
+  vaultButton.classList.toggle("unlocked", vaultUnlocked);
+  vaultButton.setAttribute("aria-label", vaultUnlocked ? "Lock the spoiler vault" : "Open the spoiler vault");
+  vaultButton.setAttribute("aria-haspopup", vaultUnlocked ? "false" : "dialog");
+  vaultButton.querySelector("strong").textContent = vaultUnlocked ? "Keeper view" : "Spoiler vault";
+  vaultButton.querySelector("small").textContent = vaultUnlocked ? "Unlocked · click to lock" : "Locked";
+}
+
+function openVaultDialog() {
+  vaultError.textContent = "";
+  vaultPassword.value = "";
+  if (typeof vaultDialog.showModal === "function") vaultDialog.showModal();
+  else vaultDialog.setAttribute("open", "");
+  requestAnimationFrame(() => vaultPassword.focus());
+}
+
+function closeVaultDialog() {
+  if (typeof vaultDialog.close === "function") vaultDialog.close();
+  else vaultDialog.removeAttribute("open");
+}
+
+async function sha256(value) {
+  if (!globalThis.crypto?.subtle) return value === ["Du", "mu", "zi"].join("") ? vaultPasswordHash : "";
+  const bytes = new TextEncoder().encode(value);
+  const digest = await crypto.subtle.digest("SHA-256", bytes);
+  return [...new Uint8Array(digest)].map(byte => byte.toString(16).padStart(2, "0")).join("");
+}
+
+function renderVaultGate(article) {
+  articleContent.innerHTML = `
+    <section class="vault-gate" aria-labelledby="protected-record-title">
+      <span class="vault-gate-sigil" aria-hidden="true">◆</span>
+      <p class="article-kicker">Protected spoiler record</p>
+      <h1 id="protected-record-title">${escapeHtml(article.title)}</h1>
+      <p>This page contains hidden lore, secret motives, future consequences, or information that player characters may not know.</p>
+      <button type="button" data-open-vault>Enter keeper password</button>
+      <small>The public index and maps remain available in player-safe mode.</small>
+    </section>`;
+  contents.innerHTML = "";
+}
+
 function renderNavigation() {
   navigation.innerHTML = navigationRegions.map(region => `
     <section class="nav-region">
-      <button class="nav-region-link" data-article="${region.article}" data-nav-article="${region.article}">
-        <span class="nav-region-glyph" aria-hidden="true">${region.glyph}</span><strong>${region.title}</strong><span>›</span>
+      <button class="nav-region-link${isPlayerSafeArticle(region.article) ? "" : " restricted-link"}" data-article="${region.article}" data-nav-article="${region.article}">
+        <span class="nav-region-glyph" aria-hidden="true">${region.glyph}</span><strong>${region.title}${restrictedMark(region.article)}</strong><span>›</span>
       </button>
       <div class="nav-region-tree">${region.branches.map(branch => `
         <details class="nav-branch">
           <summary>${branch.title}<span>${branch.items.length}</span></summary>
           <div>${branch.items.map(item => `
-            <button class="nav-link ${item.parent ? "nav-parent" : "nav-child"}" data-article="${item.article}" data-nav-article="${item.article}"><span>${item.label}</span><span>›</span></button>`).join("")}</div>
+            <button class="nav-link ${item.parent ? "nav-parent" : "nav-child"}${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}"><span>${item.label}${restrictedMark(item.article)}</span><span>›</span></button>`).join("")}</div>
         </details>`).join("")}</div>
     </section>`).join("") + `
     <section class="nav-group archive-links"><h2 class="nav-group-title">Archive reference</h2>${archiveLinks.map(item => `
-      <button class="nav-link" data-article="${item.article}" data-nav-article="${item.article}"><span>${item.label}</span><span>›</span></button>`).join("")}</section>`;
+      <button class="nav-link${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}"><span>${item.label}${restrictedMark(item.article)}</span><span>›</span></button>`).join("")}</section>`;
 }
 
 function renderArticle(route, pushHash = true) {
@@ -2494,20 +2845,31 @@ function renderArticle(route, pushHash = true) {
   document.title = `${article.title} — The Fenumion Codex`;
   const path = articlePaths.get(article.id) || [article.category, article.title];
   breadcrumbs.innerHTML = `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
+  if (!isPlayerSafeArticle(article.id)) {
+    renderVaultGate(article);
+    document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));
+    closePanels();
+    window.scrollTo({ top: 0, behavior: "auto" });
+    return;
+  }
   const facts = Object.entries(article.facts).map(([label, value]) => `<div class="fact"><dt>${label}</dt><dd>${value}</dd></div>`).join("");
   const allowAutoplay = !matchMedia("(prefers-reduced-motion: reduce)").matches;
   const heroClass = `article-hero${article.imageLayout ? ` ${article.imageLayout}` : ""}`;
+  const videoHeroClass = `article-hero${article.videoLayout ? ` ${article.videoLayout}` : article.imageLayout ? ` ${article.imageLayout}` : ""}`;
   const mapHero = article.image && article.mapId
     ? `<figure class="${heroClass} map-linked-hero"><button type="button" class="article-map-link" data-open-map="${escapeHtml(article.mapId)}" aria-label="${escapeHtml(article.mapLinkLabel || `Explore the interactive ${article.title} map`)}"><img src="${article.image}" alt="${article.imageAlt || ""}"><span class="article-map-cta"><small>Interactive map</small><strong>${escapeHtml(article.mapLinkLabel || `Explore ${article.title}`)} <span aria-hidden="true">→</span></strong></span></button><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>`
     : "";
+  const videoHero = article.video
+    ? `<figure class="${videoHeroClass}"><video ${allowAutoplay ? "autoplay " : ""}muted loop playsinline controls preload="metadata" poster="${article.image || ""}" aria-label="${article.videoAlt || article.title}"><source src="${article.video}" type="${article.videoType || "video/mp4"}">Your browser does not support this video.</video><figcaption>${article.videoCaption || "Video preserved in the Fenumion archive."}</figcaption></figure>`
+    : "";
   const hero = article.video
-    ? `<figure class="${heroClass}"><video ${allowAutoplay ? "autoplay " : ""}muted loop playsinline controls preload="metadata" poster="${article.image || ""}" aria-label="${article.videoAlt || article.title}"><source src="${article.video}" type="video/mp4">Your browser does not support this video.</video><figcaption>${article.videoCaption || "Video preserved in the Fenumion archive."}</figcaption></figure>`
+    ? `${mapHero}${videoHero}`
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "");
   const sourceLedger = article.sources?.length ? `<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} document${article.sources.length === 1 ? "" : "s"} used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
   const subchannels = renderSubchannels(article.id);
   const hubSwitcher = hubPage ? `
     <nav class="hub-switcher" aria-label="Explore the Codex">
-      ${hubPages.map(page => `<button class="gateway-tile${page.id === article.id ? " active" : ""}" data-article="${page.id}" style="--tile-image:url('${page.image}')"${page.id === article.id ? ' aria-current="page"' : ""}><span>${page.label}</span><small>${page.detail}</small></button>`).join("")}
+      ${hubPages.map(page => `<button class="gateway-tile${page.id === article.id ? " active" : ""}${isPlayerSafeArticle(page.id) ? "" : " locked-record"}" data-article="${page.id}" style="--tile-image:url('${page.image}')"${page.id === article.id ? ' aria-current="page"' : ""}><span>${page.label}${restrictedMark(page.id)}</span><small>${isPlayerSafeArticle(page.id) ? page.detail : "Protected record"}</small></button>`).join("")}
     </nav>` : "";
   const atlasBanner = article.id === "visual-archive" ? `
     <section class="atlas-banner" aria-labelledby="interactive-maps-title">
@@ -2537,6 +2899,7 @@ function renderArticle(route, pushHash = true) {
   if (article.id === "world-index") setupWorldBrowser();
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
   if (article.id === "living-timeline") setupTimelineExplorer();
+  applyPlayerSafeRedactions();
   document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
   buildContents();
@@ -2549,7 +2912,26 @@ function renderSubchannels(id) {
   if (!items?.length) return "";
   const label = id === "prima-pristinia" ? "Within Prima" : id === "pristinia" ? "Within Pristinia" : "Subchannels";
   return `<section class="subchannels" aria-label="${label}"><p class="eyebrow">${label}</p><div>${items.map(item => `
-    <button class="subchannel-card" data-article="${item.article}"><strong>${item.label}</strong><span>${item.summary}</span><i aria-hidden="true">›</i></button>`).join("")}</div></section>`;
+    <button class="subchannel-card${isPlayerSafeArticle(item.article) ? "" : " locked-record"}" data-article="${item.article}"><strong>${item.label}${restrictedMark(item.article)}</strong><span>${isPlayerSafeArticle(item.article) ? item.summary : "Protected record · unlock the spoiler vault to read."}</span><i aria-hidden="true">›</i></button>`).join("")}</div></section>`;
+}
+
+function applyPlayerSafeRedactions() {
+  if (vaultUnlocked) return;
+  articleContent.querySelectorAll("[data-article]").forEach(button => {
+    const id = button.dataset.article;
+    if (!isRestrictedArticle(id)) return;
+    button.classList.add("locked-record");
+    const title = byId.get(id)?.title || button.textContent.trim();
+    button.setAttribute("aria-label", `Protected spoiler record: ${title}`);
+    if (button.classList.contains("feature-card")) {
+      button.innerHTML = `<span class="feature-label">Protected record</span><span class="feature-copy"><strong>${escapeHtml(title)} <i class="nav-lock" aria-hidden="true">◆</i></strong><small>Unlock the spoiler vault to view this history.</small></span>`;
+    } else if (button.classList.contains("gateway-tile")) {
+      const detail = button.querySelector("small");
+      if (detail) detail.textContent = "Protected record";
+      const heading = button.querySelector("span");
+      if (heading && !heading.querySelector(".nav-lock")) heading.insertAdjacentHTML("beforeend", restrictedMark(id));
+    }
+  });
 }
 
 function setupWorldBrowser() {
@@ -2597,11 +2979,13 @@ function setupWorldBrowser() {
         <button class="sort-direction" data-sort-direction="${direction}" aria-label="Reverse sort order">${activeView === "timeline" ? "Chronological" : "A–Z"} <span>${direction === "asc" ? "↑" : "↓"}</span></button>
       </div>
       <div class="browser-summary"><strong>${items.length}</strong> ${labels[activeView].toLowerCase()} records · ${activeView === "timeline" ? "ordered by discovery" : "ordered by name"}</div>
-      <div class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}">${items.map(item => `
-        <button class="index-card" data-article="${item.article}">
+      <div class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}">${items.map(item => {
+        const protectedRecord = !isPlayerSafeArticle(item.article);
+        return `
+        <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}">
           ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video src="${item.video}" muted loop playsinline preload="metadata" ${matchMedia("(prefers-reduced-motion: reduce)").matches ? "" : "autoplay"} aria-hidden="true"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
-          <span class="index-card-copy"><small>${item.meta}</small><strong>${item.title}</strong><span>${item.summary}</span></span>
-        </button>`).join("")}</div>`;
+          <span class="index-card-copy"><small>${protectedRecord ? "Protected record" : item.meta}</small><strong>${item.title}${restrictedMark(item.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
+        </button>`; }).join("")}</div>`;
   };
 
   browser.addEventListener("click", event => {
@@ -2627,7 +3011,7 @@ function setupInteractiveAtlas(initialMapId = "") {
   let hoverTimer = null;
 
   const findLocation = title => archiveIndex.islands.find(item => item.title === title);
-  const linkedMapIds = new Map([["Gael", "gael"], ["Prima", "pristinia"], ["Pristinia", "pristinia"], ["Fein Uaill", "fein-uaill"]]);
+  const linkedMapIds = new Map([["Gael", "gael"], ["Prima", "pristinia"], ["Pristinia", "pristinia"], ["Fein Uaill", "fein-uaill"], ["Gates of Aelthor", "fein-uaill"], ["The Shining Shores", "fein-uaill"], ["Babel-Ashur", "babel-ashur"], ["Luminar Spires", "luminar-spires"], ["Greyward Littoral", "greyward"], ["Voraketh", "voraketh"], ["Eovar Harbor", "eovar"]]);
   const syncMapRoute = () => history.replaceState(null, "", `#visual-archive?map=${encodeURIComponent(activeMapId)}`);
 
   const renderDetail = title => {
@@ -2644,13 +3028,14 @@ function setupInteractiveAtlas(initialMapId = "") {
     const mapLayerLink = linkedMapId && linkedMapId !== activeMapId
       ? `<button type="button" class="map-layer-link" data-map-id="${linkedMapId}">Explore ${locationRecord.title === "Prima" ? "Prima / Pristinia" : escapeHtml(locationRecord.title)} map <span aria-hidden="true">⌖</span></button>`
       : "";
+    const protectedRecord = !isPlayerSafeArticle(locationRecord.article);
     detail.innerHTML = `
-      <span class="map-detail-kicker">${escapeHtml(locationRecord.meta)}</span>
+      <span class="map-detail-kicker">${protectedRecord ? "Protected location history" : escapeHtml(locationRecord.meta)}</span>
       <h3>${escapeHtml(locationRecord.title)}</h3>
-      <p>${escapeHtml(locationRecord.summary)}</p>
-      <span class="map-detail-source">Evidence · ${escapeHtml(locationRecord.source)}</span>
+      <p>${protectedRecord ? "This map marker is public. Its history and evidence are kept inside the spoiler vault." : escapeHtml(locationRecord.summary)}</p>
+      <span class="map-detail-source">${protectedRecord ? "Keeper access required" : `Evidence · ${escapeHtml(locationRecord.source)}`}</span>
       ${mapLayerLink}
-      <button type="button" class="map-history-link" data-article="${locationRecord.article}">Open location history <span aria-hidden="true">→</span></button>`;
+      <button type="button" class="map-history-link${protectedRecord ? " locked-record" : ""}" data-article="${locationRecord.article}">${protectedRecord ? "Unlock location history" : "Open location history"} <span aria-hidden="true">${protectedRecord ? "◆" : "→"}</span></button>`;
   };
 
   const renderMap = () => {
@@ -2672,7 +3057,7 @@ function setupInteractiveAtlas(initialMapId = "") {
           <div class="map-canvas" style="width:${mapCanvasWidth};aspect-ratio:${map.width} / ${map.height}">
             <img src="${map.image}" width="${map.width}" height="${map.height}" alt="${escapeHtml(map.alt)}" loading="eager">
             <div class="map-pin-layer" aria-label="Mapped locations in ${escapeHtml(map.title)}">
-              ${pins.map((pin, index) => `<button type="button" class="map-pin ${pin.title === activeLocationTitle ? "active" : ""}" style="--pin-x:${pin.x}%;--pin-y:${pin.y}%" data-map-location="${escapeHtml(pin.title)}" aria-label="${escapeHtml(pin.title)}: ${escapeHtml(pin.record.summary)}" aria-pressed="${pin.title === activeLocationTitle}"><span class="map-pin-number" aria-hidden="true"><span class="map-pin-index">${index + 1}</span></span><span class="map-pin-label">${escapeHtml(pin.title)}</span></button>`).join("")}
+              ${pins.map((pin, index) => `<button type="button" class="map-pin ${pin.title === activeLocationTitle ? "active" : ""}" style="--pin-x:${pin.x}%;--pin-y:${pin.y}%" data-map-location="${escapeHtml(pin.title)}" aria-label="${escapeHtml(pin.title)}${isPlayerSafeArticle(pin.record.article) ? `: ${escapeHtml(pin.record.summary)}` : ": protected location history"}" aria-pressed="${pin.title === activeLocationTitle}"><span class="map-pin-number" aria-hidden="true"><span class="map-pin-index">${index + 1}</span></span><span class="map-pin-label">${escapeHtml(pin.title)}</span></button>`).join("")}
             </div>
           </div>
         </div>
@@ -2796,16 +3181,18 @@ function setupLocationExplorer() {
     results.innerHTML = filtered.length ? orderedGroups.map(([region, items]) => `
       <section class="location-region" aria-label="${escapeHtml(region)}">
         <header class="location-region-header"><h3>${escapeHtml(region)}</h3><span>${items.length} place${items.length === 1 ? "" : "s"}</span></header>
-        <div class="location-grid">${items.map(item => `
-          <button class="place-card ${item.level === "region" ? "region-card" : ""}" type="button" data-article="${item.article}">
+        <div class="location-grid">${items.map(item => {
+          const protectedRecord = !isPlayerSafeArticle(item.article);
+          return `
+          <button class="place-card ${item.level === "region" ? "region-card" : ""}${protectedRecord ? " locked-record" : ""}" type="button" data-article="${item.article}">
             ${item.image ? `<img class="place-card-image" src="${item.image}" alt="" loading="lazy">` : `<span class="place-glyph" aria-hidden="true">⌖</span>`}
             <span class="place-copy">
-              <span class="place-kicker">${escapeHtml(item.parent === item.region ? item.type : `${item.parent} · ${item.type}`)}</span>
-              <strong>${escapeHtml(item.title)}${mappedLocationTitles.has(item.title) ? `<i class="place-map-badge">Mapped</i>` : ""}</strong>
-              <span class="place-summary">${escapeHtml(item.summary)}</span>
-              <span class="place-source">${escapeHtml(item.source)}</span>
+              <span class="place-kicker">${protectedRecord ? "Protected location history" : escapeHtml(item.parent === item.region ? item.type : `${item.parent} · ${item.type}`)}</span>
+              <strong>${escapeHtml(item.title)}${restrictedMark(item.article)}${mappedLocationTitles.has(item.title) ? `<i class="place-map-badge">Mapped</i>` : ""}</strong>
+              <span class="place-summary">${protectedRecord ? "Unlock the spoiler vault to read its history." : escapeHtml(item.summary)}</span>
+              <span class="place-source">${protectedRecord ? "Keeper access required" : escapeHtml(item.source)}</span>
             </span>
-          </button>`).join("")}</div>
+          </button>`; }).join("")}</div>
       </section>`).join("") : `<div class="location-empty"><strong>No recovered place matches that search.</strong><span>Try a region, landmark, building type, or alternate spelling.</span></div>`;
   };
 
@@ -2917,7 +3304,7 @@ function setupTimelineExplorer() {
 
 function renderRelated(article) {
   const related = articles
-    .filter(candidate => candidate.id !== article.id)
+    .filter(candidate => candidate.id !== article.id && isPlayerSafeArticle(candidate.id))
     .map(candidate => ({ article: candidate, score: candidate.tags.filter(tag => article.tags.includes(tag)).length + (candidate.category === article.category ? 1 : 0) }))
     .sort((a, b) => b.score - a.score)
     .slice(0, 2)
@@ -2941,7 +3328,7 @@ function runSearch(query) {
   const normalized = query.trim().toLowerCase();
   if (!normalized) { searchPanel.hidden = true; scrim.hidden = true; return; }
   const terms = normalized.split(/\s+/).filter(Boolean);
-  const articleResults = articles.map(article => {
+  const articleResults = articles.filter(article => isPlayerSafeArticle(article.id)).map(article => {
     const path = articlePaths.get(article.id) || [article.category, article.title];
     const haystack = `${path.join(" ")} ${article.title} ${article.category} ${article.type} ${article.dek} ${article.tags.join(" ")} ${(article.sources || []).join(" ")} ${article.body.replace(/<[^>]+>/g, " ")}`.toLowerCase();
     const titleMatch = article.title.toLowerCase().includes(normalized) ? 4 : 0;
@@ -2965,7 +3352,7 @@ function runSearch(query) {
       path: [group, item.title],
       score: titleMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0)
     };
-  })).filter(result => result.score && !matchedArticleTitles.has(result.article.title.toLowerCase()));
+  })).filter(result => result.score && isPlayerSafeArticle(result.article.id) && !matchedArticleTitles.has(result.article.title.toLowerCase()));
   const seen = new Set();
   const results = [...articleResults, ...indexResults]
     .sort((a, b) => b.score - a.score || a.article.title.localeCompare(b.article.title))
@@ -2996,6 +3383,10 @@ function closePanels() {
 }
 
 document.addEventListener("click", event => {
+  if (event.target.closest("[data-open-vault]")) {
+    openVaultDialog();
+    return;
+  }
   const mapTrigger = event.target.closest("[data-open-map]");
   if (mapTrigger) {
     renderArticle(`visual-archive?map=${encodeURIComponent(mapTrigger.dataset.openMap)}`);
@@ -3025,6 +3416,36 @@ menuButton.addEventListener("click", () => {
   menuButton.setAttribute("aria-expanded", String(open));
 });
 searchToggle.addEventListener("click", () => { openSearch(); search.focus(); });
+vaultButton.addEventListener("click", () => {
+  if (!vaultUnlocked) {
+    openVaultDialog();
+    return;
+  }
+  vaultUnlocked = false;
+  try { sessionStorage.removeItem(vaultSessionKey); } catch {}
+  updateVaultState();
+  renderNavigation();
+  renderArticle(location.hash.slice(1) || "world-index", false);
+});
+document.querySelector("#vault-close").addEventListener("click", closeVaultDialog);
+vaultDialog.addEventListener("click", event => {
+  if (event.target === vaultDialog) closeVaultDialog();
+});
+vaultForm.addEventListener("submit", async event => {
+  event.preventDefault();
+  const candidateHash = await sha256(vaultPassword.value.trim());
+  if (candidateHash !== vaultPasswordHash) {
+    vaultError.textContent = "That password did not open the vault.";
+    vaultPassword.select();
+    return;
+  }
+  vaultUnlocked = true;
+  try { sessionStorage.setItem(vaultSessionKey, "open"); } catch {}
+  closeVaultDialog();
+  updateVaultState();
+  renderNavigation();
+  renderArticle(location.hash.slice(1) || "world-index", false);
+});
 document.addEventListener("keydown", event => {
   if (event.key === "/" && !/input|textarea/i.test(document.activeElement.tagName)) {
     event.preventDefault();
@@ -3046,5 +3467,6 @@ window.addEventListener("hashchange", () => {
   if (byId.has(id)) renderArticle(route, false);
 });
 
+updateVaultState();
 renderNavigation();
 renderArticle(location.hash.slice(1) || "world-index", false);

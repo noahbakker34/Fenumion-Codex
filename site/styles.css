@@ -1,4 +1,12 @@
 @font-face {
+  font-family: "Ringbearer";
+  src: url("assets/fonts/ringbearer-font/RingbearerMedium-51mgZ.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Fenumion Display";
   src: url("assets/fonts/CinzelDecorative-Bold.ttf") format("truetype");
   font-style: normal;
@@ -39,7 +47,7 @@
   --green-bright: #7bd6a7;
   --wine: #a66770;
   --shadow: 0 24px 80px rgba(0, 0, 0, .34);
-  --serif: "Fenumion Display", Cinzel, Georgia, "Times New Roman", serif;
+  --serif: "Ringbearer", "Fenumion Display", Cinzel, Georgia, "Times New Roman", serif;
   --sans: "Fenumion UI", Cinzel, Georgia, serif;
   --text: "Fenumion Text", "Palatino Linotype", Palatino, Georgia, serif;
 }
@@ -62,8 +70,16 @@ body {
 }
 
 button, input { font: inherit; }
-button, input, select, textarea, label, summary, kbd { font-family: var(--sans); }
-button { color: inherit; }
+input, select, textarea, label, summary, kbd { font-family: var(--sans); }
+button { color: inherit; font-family: var(--serif); letter-spacing: .025em; }
+.gateway-tile small,
+.subchannel-card span,
+.index-card-copy > span,
+.event-summary,
+.event-people,
+.place-summary,
+.place-source,
+.search-result span { font-family: var(--text); letter-spacing: normal; }
 a { color: var(--green-bright); }
 a:hover { color: var(--gold-bright); }
 ::selection { background: rgba(212, 180, 109, .28); }

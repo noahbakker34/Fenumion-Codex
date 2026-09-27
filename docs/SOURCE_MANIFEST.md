@@ -1,9 +1,10 @@
 # Fenumion Codex — Source Manifest
 
-This is a working manifest of the major synthesis and profile documents already processed into the Living Codex. It is not yet an exhaustive index of all 303 primary campaign records.
+This is a working manifest of the major primary, synthesis, and profile records already processed into the Living Codex. It includes the complete main quest-channel export but is not yet an exhaustive file-by-file index of all 303 supporting campaign records.
 
 | Source ID | Supplied / compiled | Type | Author / authority | Principal scope | Canon relevance | Processed into |
 |---|---|---|---|---|---|---|
+| `Fenumion (The Sea of Dreams) - 🔮Quest Rooms - quest-rp [1199083630354501673].json` | Exported 9 Sep 2026; supplied 27 Sep 2026 | Complete primary quest-channel transcript | Discord scene archive; individual messages retain their speakers | Main quest play from 4 Mar 2024 through 7 Sep 2026 | 108,619 scene messages, 785 displayed speaker identities, 2,728 attachments, 1,275 embeds, 12,078 reaction groups; primary verification source for chronology, observations, claims, and consequences | `docs/QUEST_ARCHIVE_INDEX.md`, `The Complete Quest Record`, Living Archive statistics; primary-source expansions to Ciaránach, Shining Shores, The Before Survey, Elenia, Minerva, Lady Severina, Thorn, Farkur, Ryvyt, Ale-Chemy Knights, and Narrative History; session-by-session synthesis ongoing |
 | `CANON_RULES.md` | Supplied Sep 2026 | Canon and editorial synthesis | User-supplied; authorship not otherwise established | Whole world | Provenance hierarchy, contradiction handling, non-invention rules | Reading guide, continuation brief, all editorial work |
 | `MASTER_TIMELINE.md` | Supplied Sep 2026 | Timeline synthesis | User-supplied; compiled from campaign records | Whole world, 2024–2026 | Dates, participants, consequence chains, chronology gaps | Narrative History, character and location articles |
 | `CHARACTER_BIBLE.md` | Updated 23 Sep 2026 | Character synthesis | User-supplied; authorship not otherwise established | PCs, NPCs, caretakers | Longitudinal character patterns and cautions | Character dossiers, directory, relationships, timeline |
@@ -13,7 +14,7 @@ This is a working manifest of the major synthesis and profile documents already 
 | `COSMOLOGICAL_IMPORTANT_EVENTS.md` | Compiled 23 Sep 2026 | Connective cosmological history | User-supplied | 26 events from creation to the Maw | Causal spine, confidence boundaries, Hope/Death interpretation, Sep 2026 Maw dating | `docs/COSMOLOGICAL_HISTORY.md`, Cosmology & Metaphysics, Gate, Death, Mya, timeline |
 | `OPEN_QUESTIONS_AND_CONTRADICTIONS.md` | Supplied Sep 2026 | Uncertainty register | User-supplied | Cosmology, chronology, people | Explicit contradictions and research gaps | Unresolved Record and dossier question sections |
 | `THEMES_AND_STYLE.md` | Supplied Sep 2026 | Interpretive framework | User-supplied | Whole world | Recurring questions, thematic safeguards, prose approach | Themes of Fenumion and article synthesis |
-| `Fenumion_Codex_Master_Timeline_2026-09-20.md` | 20 Sep 2026 | Timeline synthesis | User-supplied | Whole world | Expanded date and causal coverage | 98-event public timeline and article chronology |
+| `Fenumion_Codex_Master_Timeline_2026-09-20.md` | 20 Sep 2026 | Timeline synthesis | User-supplied | Whole world | Expanded date and causal coverage | Initial 98-event public timeline and article chronology; later primary-source additions are tracked separately |
 | `Fenumion_Codex_Update_Regional_History_2026-09-19.md` | 19 Sep 2026 | Regional update | User-supplied | Prima, Gael, Fein Uaill, travel | September 2026 regional state and institutions | Location articles, atlas, timeline |
 | `Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md` | 20 Sep 2026 | Character and style synthesis | User-supplied | Characters and editorial interpretation | Character through-lines and public presentation | Character articles and Reading the Codex |
 | `Magnus_Niriin_Character_Profile_and_History.md` | Supplied Sep 2026 | Character profile | User-supplied | Magnus Niriin | Detailed chronology, relationships, contradictions, permanent bargain | `Magnus Niriin` article and timeline |
@@ -38,7 +39,8 @@ This is a working manifest of the major synthesis and profile documents already 
 
 ## Manifest limitations
 
+- The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.
 - “User-supplied” identifies provenance of delivery, not in-world authorship or DM authority.
 - Synthesis documents may organize primary evidence but do not automatically override the underlying scenes.
 - Dates in filenames identify compilation dates unless explicitly described as in-world dates.
-- Raw scene-level source IDs, DMs, participants, and file locations should be added incrementally as the 303-record archive is processed.
+- The complete quest export now supplies message-level IDs, speakers, and timestamps. The 303 supporting records still require incremental file-level indexing as they are processed.

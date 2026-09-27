@@ -4,15 +4,16 @@ const articles = [
     image: "assets/archive/world-map.jpeg", imageAlt: "Illustrated map of Fenumion", imageCaption: "The world map preserved in the Fenumion archive.",
     dek: "Fenumion is a world whose choices accumulate: its wars, relationships, settlements, failures, and acts of care remain alive in everything that follows.",
     tags: ["Living history", "Continuity", "Consequences", "Memory"],
-    facts: { Foundation: "303 preserved campaign records", Scope: "Cosmology · regions · people · institutions", Method: "Event → consequence → later meaning", Principle: "Uncertainty is preserved" },
+    facts: { Foundation: "108,619 quest messages · 303 supporting records", Scope: "Cosmology · regions · people · institutions", Method: "Event → consequence → later meaning", Principle: "Uncertainty is preserved" },
+    sources: ["Complete quest-rp Discord export — 108,619 messages from 4 Mar 2024 through 7 Sep 2026", "docs/QUEST_ARCHIVE_INDEX.md — checksum, coverage statistics, and 329 candidate review sessions", "303 supporting campaign records, maps, profiles, corrections, and chronicles"],
     body: `
-      <p>This Codex begins with the surviving record: campaign logs, quest transcripts, character scenes, maps, timelines, corrections, and later revelations. Together they preserve a world whose history is larger than any one campaign and whose truths often emerge only after earlier events acquire new consequences.</p>
+      <p>This Codex begins with the surviving record: a complete 108,619-message export of the main quest channel, alongside campaign logs, character scenes, maps, timelines, corrections, and later revelations. Together they preserve a world whose history is larger than any one campaign and whose truths often emerge only after earlier events acquire new consequences.</p>
       <div class="callout gold"><p><strong>The central finding:</strong> Fenumion’s accumulated history is its protagonist. Characters matter because their choices remain inside the world after their scenes end.</p></div>
       <div class="archive-dashboard" aria-label="Fenumion archive overview">
-        <div class="archive-stat"><strong>303</strong><span>attached records</span></div>
-        <div class="archive-stat"><strong>3</strong><span>primary indexes</span></div>
-        <div class="archive-stat"><strong>4</strong><span>regional spines</span></div>
-        <div class="archive-stat"><strong>1</strong><span>persistent world</span></div>
+        <div class="archive-stat"><strong>108,619</strong><span>quest messages</span></div>
+        <div class="archive-stat"><strong>329</strong><span>candidate sessions</span></div>
+        <div class="archive-stat"><strong>363</strong><span>active dates</span></div>
+        <div class="archive-stat"><strong>785</strong><span>speaker identities</span></div>
       </div>
       <h2 id="what-it-became">A history measured in consequences</h2>
       <p>Fenumion’s chronicle moves between individual scenes and large questions about gods, grief, consent, institutions, choice, and what it means for a community to inherit a past it did not personally witness. An event matters not only when it occurs, but when someone later inherits the truth it created.</p>
@@ -25,7 +26,7 @@ const articles = [
       </div>
       <h2 id="read-the-source">Enter the record</h2>
       <p>The Codex keeps established events, attributed beliefs, interpretation, and unresolved questions visibly distinct. It is organized to make the world searchable without turning incomplete history into false certainty.</p>
-      <p>Continue with the <a href="#world-index">World Index</a> to browse Characters, Timeline, and Locations; <a href="#reading-the-codex">How to Read the Codex</a> for the evidence key; or <a href="#fenumion">Fenumion</a> for the world at a glance.</p>`
+      <p>Continue with the <a href="#world-index">World Index</a> to browse Characters, Timeline, and Locations; the <a href="#quest-record">Complete Quest Record</a> for the transcript’s coverage and review method; <a href="#reading-the-codex">How to Read the Codex</a> for the evidence key; or <a href="#fenumion">Fenumion</a> for the world at a glance.</p>`
   },
   {
     id: "world-index", title: "World Index", category: "Archive", type: "Living world gateway",
@@ -64,7 +65,7 @@ const articles = [
     id: "visual-archive", title: "Location Atlas", category: "Places", type: "Searchable region & sublocation index",
     dek: "A nested atlas of Fenumion’s regions, settlements, ruins, estates, forests, civic spaces, and other named places.",
     tags: ["Locations", "Maps", "Regions", "Sublocations", "Search"],
-    facts: { Records: "89 places", Maps: "9 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
+    facts: { Records: "92 places", Maps: "9 interactive layers", Structure: "Region → settlement → sublocation", Search: "Names, aliases, regions, and evidence", Provenance: "Campaign records, maps, and preserved images" },
     body: `
       <p>This atlas restores the geographic hierarchy visible across the surviving records. Major regions contain their settlements and landmarks: <strong>Caisleán na Brón belongs within Fein Uaill</strong>; Hope and the Tower belong within Gael; Pristinia’s civic sites belong within Prima. Search accepts spelling variants such as “Caselean De Broin.”</p>
       <h2 id="place-directory">Search every recovered place</h2>
@@ -178,29 +179,37 @@ const articles = [
   {
     id: "ciaranach", title: "Ciaránach", category: "Places", type: "Sacred city of Fein Uaill",
     video: "ciaranach.mp4", videoType: "video/mp4", videoLayout: "landscape-hero", videoAlt: "A moving visual record of Ciaránach", videoCaption: "Ciaránach — user-supplied moving city record, 27 September 2026.",
-    dek: "A sacred city within Fein Uaill, now preserved through moving records of the city and one of its temples.",
-    tags: ["Ciaránach", "Fein Uaill", "Sacred city", "Temple", "Locations"],
-    facts: { Region: "Fein Uaill", Type: "Sacred city", "Recovered sublocation": "Temple in Ciaránach", "Ancient history": "Protected keeper record", Evidence: "Regional chronicle · two moving visual records" },
-    sources: ["User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city", "Fein Uaill regional chronicle — geographic parent and protected sacred history"],
+    dek: "A cloistered mountain city reached by pilgrimage from Zarathis, where the Golden Ones preserve truth and counsel Zarathian law.",
+    tags: ["Ciaránach", "Fein Uaill", "Sacred city", "Golden Ones", "Pilgrimage", "Temple"],
+    facts: { Region: "Fein Uaill", Type: "Sacred mountain city", Route: "Holy road from Zarathis", Custodians: "The Golden Ones", "First recovered pilgrimage": "27 Sep 2025", "Ancient history": "Protected keeper record" },
+    sources: ["Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones", "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict", "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city", "Fein Uaill regional chronicle — geographic parent and protected sacred history"],
     body: `
-      <p>Ciaránach is a sacred city within <a href="#fein-uaill">Fein Uaill</a>. The supplied moving records now give the Codex a visual identity for both the wider city and a temple within it, while the regional archive establishes Ciaránach as a distinct settlement rather than another name for Zarathis or Fein Uaill itself.</p>
-      <div class="callout gold"><p><strong>Evidence boundary:</strong> these videos establish the intended appearance of Ciaránach and its temple. They do not establish the city’s population, government, age, architectural chronology, the temple’s dedication, or a precise location on the regional map.</p></div>
+      <p>Ciaránach is a sacred mountain city within <a href="#fein-uaill">Fein Uaill</a>, distinct from Zarathis and reached from it by a steep pilgrimage road. A complete quest transcript now supplies the city’s first scene-backed modern history alongside the preserved moving records.</p>
+      <h2 id="ciaranach-pilgrimage">27 September 2025 · the holy road</h2>
+      <p>The recovered pilgrimage begins at Zarathis, follows the river valley through orchards, and climbs into cold, largely untouched mountains. High Lord Bowene calls it a road for the deserving; Captain Haelith describes the journey as a yearly lesson in Zarathian identity. Access is therefore cultural and permission-bound rather than ordinary civic travel.</p>
+      <p>After an hour of ascent the travelers see a white-and-gold city above the cloud line: ivory-bright walls, silver spires, immaculate streets, and architecture presented as untouched by age or storm. Elenia, Olokun, Scribonia, and Eugene enter with Haelith. Their reactions establish the city’s effect on visitors without proving the narrator’s poetic language to be literal immunity from time.</p>
+      <h2 id="ciaranach-golden-ones">The Golden Ones</h2>
+      <p>The Golden Ones identify themselves as Ciaránach’s nameless keepers of truth and speak directly into visitors’ minds. Haelith calls them priests devoted to preserving “The Truth” and reports a rumor that they are Verdant Circle mages who discovered immortality. The Codex preserves the first description as their claim and the immortality account as rumor, not settled fact.</p>
+      <p>Visitors are asked to open their minds and accept the burden of knowledge. Ciaránach is thus more than a shrine or beautiful city: it is a controlled archive whose custodians test whether outsiders may receive what it holds.</p>
       <h2 id="ciaranach-temple">The temple in Ciaránach</h2>
       <p>The temple is preserved as a distinct sublocation of the city. Its proper name, divine dedication, custodians, rites, and relationship to other sacred sites remain unrecovered.</p>
       <figure class="article-hero landscape-hero"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"><source src="ciaranach-temple.mp4" type="video/mp4">Your browser does not support this video.</video><figcaption>Temple in Ciaránach — user-supplied moving location record, 27 September 2026.</figcaption></figure>
       <h2 id="ciaranach-sacred-history">Why the city is sacred</h2>
       <p>The public record preserves Ciaránach’s sacred importance without disclosing the ancient divine event that gave the city that weight.</p>
       <p data-vault-only>Keeper records identify Ciaránach as the sacred nexus where Nuru killed Grace. That ancient catastrophe makes divine failure part of the city’s geography and of later Zarathian arguments about mortal authority.</p>
+      <h2 id="ciaranach-verdict">December 2025 · counsel becomes law</h2>
+      <p>After Elenia’s confrontation with Magnus, Bowene withdraws to Ciaránach and consults the Golden Ones. On 22 December he descends alone to deliver a compromise: Elenia must leave Fein Uaill, but the door will not be closed forever. Olokun and Aravil stand with her; Adelia and Magnus support exile. Bowene gives Elenia a sending stone, promises continued dialogue, and arranges departure through the <a href="#shining-shores">Shining Shores</a> toward Babel-Ashur.</p>
+      <p>The decision exposes Ciaránach’s political function. Its counsel does not merely preserve the past; it can shape present law. Bowene reports that the Golden Ones agree Zarathian customs may need to change, while insisting that change must be chosen by the people rather than imposed from outside.</p>
       <h2 id="ciaranach-open-record">The open record</h2>
-      <p>The city’s founding, present leadership, inhabitants, districts, routes, relationship to Zarathis, and the temple’s formal identity remain unresolved. Future records should add those details without inferring them from visual appearance alone.</p>`
+      <p>The city’s founding, population, districts, formal government, temple dedication, the Golden Ones’ actual nature, and the limits of their authority remain unresolved. Their claims, Haelith’s report, Bowene’s use of their counsel, and the city’s observed appearance remain separate kinds of evidence.</p>`
   },
   {
     id: "shining-shores", title: "The Shining Shores", category: "Places", type: "Coastal region and city shore",
     video: "shining-shores.m4v", videoType: "video/mp4", imageLayout: "landscape-hero", videoAlt: "A moving visual record of the warm coast and cityscape of the Shining Shores in Fein Uaill", videoCaption: "The Shining Shores — user-supplied moving location record, 26 September 2026.",
     dek: "The warm coast of Fein Uaill and the Gates of Aelthor: white streets, busy markets, soaring towers, sea arrivals, and quieter conversations at sunset.",
     tags: ["The Shining Shores", "Gates of Aelthor", "Fein Uaill", "Aelthor", "Coast", "Locations"],
-    facts: { Region: "Fein Uaill", "Primary city": "Gates of Aelthor", Character: "White streets · markets · towers · warm sand", Access: "Sea arrival confirmed", Namesake: "Aelthor, first king after the breaking of the world", Chronology: "Exact dates unresolved" },
-    sources: ["Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor", "User correction, 26 Sep 2026 — Aelthor is the proper spelling", "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026", "Earlier Fein Uaill map and archive records — Aelthor / Arthor spelling variants and battle history"],
+    facts: { Region: "Fein Uaill", "Primary city": "Gates of Aelthor", Character: "White streets · markets · towers · warm sand", "Recovered arrival": "10 Jan 2025", "Heavenly Host attack": "15 Oct 2025", "Exile departure": "22 Dec 2025", Namesake: "Aelthor, first king after the breaking of the world" },
+    sources: ["Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description", "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host", "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles", "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor", "User correction, 26 Sep 2026 — Aelthor is the proper spelling", "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026"],
     body: `
       <p>The Shining Shores are a coastal region of Fein Uaill containing the <strong>Gates of Aelthor</strong>, a major city reached by sea. Their recovered history joins two scales of place: white streets, markets, and towers large enough to announce a civilization, and warm sand quiet enough for rest, friendship, and difficult political conversation.</p>
       <div class="callout gold"><p><strong>Evidence boundary:</strong> this source establishes the city, shore, sea access, visual character, namesake, and several visits. It does not establish the population, exact age, current ruler, full extent of the coast, whether Aelthor founded the city, or whether every arrival in Fein Uaill passes through it.</p></div>
@@ -213,9 +222,13 @@ const articles = [
       <h2 id="name-variants">Aelthor, Aethor, and Arthor</h2>
       <p>The user confirms <strong>Aelthor</strong> as the proper spelling. The supplied profile’s “Aethor” rendering and the older “Arthor” variant remain searchable aliases, preserving the textual history without elevating either over the corrected form.</p>
       <h2 id="shore-arrivals">Arrivals by sea</h2>
-      <p>Eldin Stormheart arrives in Fein Uaill and rests on the warm sand beneath the setting sun. Ithilrûnë Ailinor arrives by ship after him while seeking a mysterious land and potentially greater power. These scenes establish sea access and multiple arrivals; they do not establish that the Shining Shores are the sole port or universal point of entry.</p>
+      <p>On 10 January 2025, Elenia, Olokun, Draygar, Adelia, Scribonia, Eugene, Krone, and others reach the city. The Writer closes the arrival with white towers, grand shops, and sprawling civilization: “Welcome. To the Shining Shores.” Eldin Stormheart later rests on the warm sand beneath the setting sun, and Ithilrûnë Ailinor arrives by ship after him. Together these scenes establish sea access and multiple arrivals without making this the region’s only port.</p>
+      <h2 id="aelthor-attack">15 October 2025 · the Heavenly Host</h2>
+      <p>The Gates fall silent as Aionia’s Heavenly Host approaches beneath a cloud during an eclipse. Ships move downriver toward the sea, waves strike the walls, and radiant clouds swallow the red sky. Magnus, Adelia, Elenia, Scribonia, Olokun, Aria, and others assemble for the defense. The battle’s exact casualty sequence still requires a dedicated pass, but the transcript fixes the attack to 15 October 2025 and confirms the coast as a battlefield rather than only a place of arrival and reflection.</p>
       <h2 id="shore-gathering">A shore for difficult conversation</h2>
       <p>The coast is not merely an approach to the city. Elenia, Adelia, and Olokun later gather there while discussing Scribonia, Fein Uaill’s factions, the conflict with the dragons, and possible future diplomacy. The city’s public splendor gives way to a quieter social landscape where people can consider how they will move through the region rather than simply admire it.</p>
+      <h2 id="shore-exile">22 December 2025 · departure into exile</h2>
+      <p>After Bowene delivers Ciaránach’s verdict, Elenia, Olokun, and Aravil are told to meet at the Shining Shores before sunset. The coast becomes the threshold between judgment and the Babel-Ashur campaign: an escort point, a farewell site, and the last place in Fein Uaill before an exile intended to remain revisable rather than permanent.</p>
       <h2 id="associated-people">People in the recovered record</h2>
       <ul>
         <li><strong>Tarwen of the Silver Star</strong> introduces the city and preserves the explanation of its name.</li>
@@ -225,7 +238,27 @@ const articles = [
         <li><strong>Ithilrûnë Ailinor</strong> arrives by ship while seeking the mysterious land and greater power.</li>
       </ul>
       <h2 id="shining-shores-open-record">The open record</h2>
-      <p>The Gates’ population, founding, exact age, present ruler, civic structure, and relationship to other Fein Uaill cities remain unrecovered. The full geographic extent of the Shining Shores, the chronology of the preserved visits, Aelthor’s biography, and the identity of the “breaking of the world” also remain open.</p>`
+      <p>The Gates’ population, founding, exact age, present ruler, civic structure, full battle losses, and relationship to other Fein Uaill cities remain unrecovered. The full geographic extent of the Shining Shores, Aelthor’s biography, and the identity of the “breaking of the world” also remain open.</p>`
+  },
+  {
+    id: "before-survey", title: "The Before Survey", category: "Places", type: "Modern expedition into the ruins",
+    dek: "A 27 March 2026 peace-agreement survey found a briar-sealed sinkhole, Delerium haze, worked stone, shattered remains, and an underground swarm beneath The Before.",
+    tags: ["The Before", "Prima", "Rahu", "Survey", "Delerium contamination", "Quest archive"],
+    facts: { Date: "27 Mar 2026", Quest: "Wherever We Are Now", Entrance: "Briar wall · 80-foot sinkhole", Findings: "Worked stone · fountain · broken arch · skeletons", Outcome: "Stirge attack · retreat · survey camp" },
+    sources: ["Complete quest-rp export, candidate session 277, 27 Mar 2026 — Quest: Wherever We Are Now; messages 1487240286638833705 through 1487295545021305003"],
+    body: `
+      <p>The modern survey of <strong>The Before</strong> is public campaign history even though the ruins’ ancient origin remains protected. On 27 March 2026, Pristinian adventurers wait outside town for a Rahuvian scholarly delegation. The expedition is an obligation of the peace agreement that ended the war, making historical investigation part of diplomacy rather than private treasure hunting.</p>
+      <div class="callout gold"><p><strong>Evidence boundary:</strong> this record describes what the expedition observed in 2026. It does not publicly disclose who built the ruins, what destroyed them, or the protected history beneath their contamination.</p></div>
+      <h2 id="before-survey-party">The survey company</h2>
+      <p>Thorn, Camilla, Lady Severina, Saoirse, Miri and the Rahuvian scholars, and other companions approach together. Thorn leads once the delegation arrives. The scholars remain tightly grouped, recording evidence while the adventurers manage threats.</p>
+      <h2 id="before-survey-entrance">A sealed approach</h2>
+      <p>The best-known entrance has changed. Thick briars surround it, cracks in their stems emit a faint purple glow, and Thorn identifies the smell as Delerium. Burning the barrier replaces it with low purple mist. Wind magic can clear only a temporary space, and the haze flows into an eighty-foot sinkhole descending to the cavern.</p>
+      <h2 id="before-survey-ruins">Worked stone under the earth</h2>
+      <p>Below, a northern passage of cracked carved stone opens into a larger chamber. The party observes a ruined fountain, a broken archway, side caverns, humanoid skeletons, and an anguished outstretched statue. The placement of the remains suggests people once ran from something. When approached, the statue collapses into fine purple-hued dust.</p>
+      <h2 id="before-survey-swarm">The western cavern</h2>
+      <p>A growing buzz from the silent western passage becomes hundreds of stirges. The party protects the scholars and retreats to the first cavern, where the delegation raises a fabric barrier and prepares to camp. The quest ends with the survey incomplete: evidence has been secured, but the northern ruins, eastern glow, western threat, and contamination mechanism remain unresolved.</p>
+      <h2 id="before-survey-consequence">What became true</h2>
+      <p>The peace agreement now has material consequences: Rahuvian scholars are physically present in Prima, a known entrance to The Before has changed, and a formal survey has begun. The ruins are not a static historical footnote. Their hazards continue to alter, spread, and demand joint investigation.</p>`
   },
   {
     id: "gael", title: "Gael", category: "Places", type: "Major region",
@@ -426,7 +459,7 @@ const articles = [
     dek: "A self-funded adventuring cooperative and mutual-aid institution that turns different skills into logistics, equipment, infrastructure, newcomer support, public works, and reconstruction.",
     tags: ["Ale-Chemy Knights", "Tobias", "Farkur", "Ryvyt", "Gael", "Prima", "Mutual aid", "Crafting", "Logistics"],
     facts: { "Main members": "Tobias · Farkur · Ryvyt", Founders: "Farkur · Ryvyt", Motto: "One for all… And all for one!", Bases: "Ciderwood Sanctum · shop · Eovar tavern", Reach: "Prima · Eovar · Gael", Status: "Key members repeatedly absent or missing" },
-    sources: ["Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — institutional history, important people, economics, holdings, reputation, and safeguards", "User canon ruling, 26 Sep 2026 — faction name and main membership", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael market, disappearance report, and Ryvyt’s response", "The Common Man scene records — Farkur’s 2024 precursor and Tobias’s civic participation"],
+    sources: ["Complete quest-rp export, candidate sessions 278, 285, 295, 299, and 324 — Farkur’s confession, Pristinia policy, civic construction, Ryvyt’s return, and Eovar’s assessment", "Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — institutional history, important people, economics, holdings, reputation, and safeguards", "User canon ruling, 26 Sep 2026 — faction name and main membership", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael market, disappearance report, and Ryvyt’s response", "The Common Man scene records — Farkur’s 2024 precursor and Tobias’s civic participation"],
     body: `
       <div class="callout gold"><p><strong>Canon ruling:</strong> the Ale-Chemy Knights are a distinct faction. Their main members are <a href="#tobias">Tobias</a>, <a href="#farkur">Farkur</a>, and <a href="#ryvyt">Ryvyt</a>.</p></div>
       <p>The Ale-Chemy Knights began as a small fellowship organized around mutual support, practical work, and a shared call: <strong>“One for all…” — “And all for one!”</strong> By late 2025 and early 2026 they functioned as much more than an adventuring party: a crafting and logistics cooperative, equipment lender, resource and scouting network, public-works sponsor, property holder, newcomer-support organization, and increasingly influential merchant network.</p>
@@ -448,6 +481,15 @@ const articles = [
       <h2 id="ale-chemy-reputation">14 February 2026 · reputation becomes infrastructure</h2>
       <p>When Iron Saint Valorum asks Draven Montauk for guidance toward Pristinia, Draven names the Ale-Chemy Knights as the best information source and gives him a special handbell. According to Draven, the bell makes no ordinary audible sound but can be heard by the Knights. Its maker, range, network size, and whether every Knight hears every use remain unknown.</p>
       <p>Draven identifies Farkur and Ryvyt as founders and says both are away on an important job. This outside recommendation matters: the Knights are no longer merely declaring a wish to welcome newcomers; other people now route newcomers toward them.</p>
+      <h2 id="ale-chemy-confession">29 March 2026 · a founder submits to judgment</h2>
+      <p>Farkur voluntarily disarms and accepts shackles before the Guardians. He admits repairing the escape ship whose restored rudder enabled the flight connected to Commander Yvette’s murder. He denies knowing about or participating in the killing, but accepts responsibility for enabling the escape and failing to report what he knew. He repeats that account under truth-working.</p>
+      <p>The Guardians neither imprison nor execute him. Farkur identifies himself and Ryvyt as the Knights’ founders, offers the faction’s bell as a promise of future aid, and visits the graves with Gregory. The scene does not erase culpability; it shows the organization’s public ideals being tested against a founder’s own actions.</p>
+      <h2 id="ale-chemy-civic-power">April–May 2026 · civic power becomes measurable</h2>
+      <p>By 17 April, Melian reports Pristinia’s finances as stable and calls the Knights’ contributions invaluable. In the same policy debate, Camilla argues that their influx of gold can finance defense, agriculture, and trade. The exchange confirms that Ale-Chemy capital has become part of public planning, while leaving the fairness and durability of that dependence open to scrutiny.</p>
+      <p>On 15 May, Lady Severina offers the Knights’ Eovar tower as a place for petrified victims and ties restoration of the quarry to completing walls the Knights began. Their holdings, construction, and money are therefore no longer background flavor: each has become infrastructure other communities plan around.</p>
+      <h2 id="ale-chemy-remaining-founder">26 May–21 August 2026 · loss and a mixed legacy</h2>
+      <p>Ryvyt arrives aboard an Ale-Chemy ship on 26 May and calls himself the “remaining founder.” The phrase proves that Ryvyt understands the founders’ situation as a loss; it does not by itself establish whether Farkur is dead, missing, absent, or removed from leadership.</p>
+      <p>On 21 August, Eovar Harbor Master Raven Joyner credits Master Fenwick and the Ale-Chemy Knights with substantial good work. Her assessment is deliberately mixed: adventurers saved people from pirates, later staged a prison break, attract danger, and nevertheless rebuild and improve lives. The Knights’ public role is neither spotless heroism nor simple corruption. It is consequential civic power whose benefits and risks are both visible.</p>
       <h2 id="ale-chemy-people">The larger working network</h2>
       <ul>
         <li><strong>Farkur S. Gemblenagin</strong> — founder, builder, organizer, and principal institutional architect.</li>
@@ -498,7 +540,7 @@ const articles = [
     dek: "A builder and organizer who turns hospitality, specialized labor, shared tools, and reliable funding into an institution meant to outlast any one adventurer.",
     tags: ["Farkur", "Ale-Chemy Knights", "Founder", "Builder", "Green Bean", "Fangs", "Gael", "Missing"],
     facts: { Faction: "Ale-Chemy Knights", Standing: "Founder · main member", Roles: "Builder · organizer · institutional architect", Companions: "Green Bean · Fangs", Status: "Reported missing by 19 Sep 2026" },
-    sources: ["Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — philosophy, chronology, organization, holdings, and companions", "User canon ruling, 26 Sep 2026 — main membership", "Farkur.jpg, 298B3DB2-92BD-CF8F-EC09-B9BCF1F07EE1.mov, and E2568413-30BC-10BE-EF92-D540ABB5AF2F.mov — user-identified visual records, 26 Sep 2026", "Elenia history — Brianna’s sanctification; exact role unresolved", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — disappearance report"],
+    sources: ["Complete quest-rp export, candidate session 278, 29 Mar 2026 — confession before the Guardians, judgment, bell offer, and memorial", "Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — philosophy, chronology, organization, holdings, and companions", "User canon ruling, 26 Sep 2026 — main membership", "Farkur.jpg, 298B3DB2-92BD-CF8F-EC09-B9BCF1F07EE1.mov, and E2568413-30BC-10BE-EF92-D540ABB5AF2F.mov — user-identified visual records, 26 Sep 2026", "Elenia history — Brianna’s sanctification; exact role unresolved", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — disappearance report"],
     body: `
       <p>Farkur S. Gemblenagin is a founder and one of the three main members of the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>. His central achievement is not a single victory or building. It is the organization itself: a system intended to connect specialized people, fund durable work, welcome newcomers, and carry its members’ names farther than isolated adventuring could.</p>
       <h2 id="farkur-visual-records">Visual records</h2>
@@ -516,6 +558,9 @@ const articles = [
       <p>Farkur is named among those present when Hope cleanses or sanctifies the corrupted crystal forced into Brianna. The event is established, but the exact mechanical and narrative division among Elenia, Mya, Adelia, Farkur, and the others present still requires primary-source recovery.</p>
       <h2 id="farkur-gael">From Prima’s proving ground to Gael</h2>
       <p>Farkur’s organization invests in Pristinia’s defenses, buys and repairs property, operates ships, and plans reconstruction in Gael. By September 2026 the faction’s specialized open-air market proves that at least part of that trajectory became material history. The record does not assign every individual contribution to Farkur.</p>
+      <h2 id="farkur-confession">29 March 2026 · truth before the Guardians</h2>
+      <p>Farkur voluntarily surrenders his weapons, accepts shackles, and confesses that he repaired the rudder of an escape ship connected to Commander Yvette’s murder. He says he did not know the mission, never set foot on the land, and never fired a weapon, but his work enabled escape and he failed to report what followed. Under a truth-working he repeats the account and submits to judgment.</p>
+      <p>The Guardians do not execute or imprison him. Farkur accepts their distrust, offers future aid, identifies himself and Ryvyt as the Knights’ founders, and leaves a bell by which the faction can be called. He then visits the graves with Gregory Greenleaf and pays respect in silence. The scene turns his institution-building from abstract atonement into direct admission of the harm still in front of him.</p>
       <h2 id="farkur-missing">Reported missing</h2>
       <p>By 19 September 2026, Farkur and other Knights had vanished. No cause, destination, captor, mission, or confirmed outcome is preserved. Ryvyt reportedly took the disappearance hard, making Farkur’s absence part of the faction’s relationship history as well as its chronology.</p>`
   },
@@ -524,7 +569,7 @@ const articles = [
     dek: "A founder, crafter, and researcher whose expertise anchors the Ale-Chemy Knights’ shared equipment and specialized production.",
     tags: ["Ryvyt", "Ale-Chemy Knights", "Founder", "Crafter", "Research", "Gael", "Disappearance"],
     facts: { Faction: "Ale-Chemy Knights", Standing: "Founder · main member", Roles: "Crafter · researcher · operational specialist", "Shared system": "Borrows and completes project work", Status: "Not confirmed missing" },
-    sources: ["Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — founder status, crafting role, equipment use, and research boundary", "User canon ruling, 26 Sep 2026 — main membership", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — disappearance aftermath", "Thorn record — Farkur, the Knights, and Ryvyt’s response"],
+    sources: ["Complete quest-rp export, candidate session 278, 29 Mar 2026 — Farkur’s surrender and Ryvyt’s presence", "Complete quest-rp export, candidate session 299, 26 May 2026 — Ale-Chemy ship arrival and ‘remaining founder’ statement", "Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — founder status, crafting role, equipment use, and research boundary", "User canon ruling, 26 Sep 2026 — main membership", "Fenumion_Codex_Update_Regional_History_2026-09-19.md — disappearance aftermath", "Thorn record — Farkur, the Knights, and Ryvyt’s response"],
     body: `
       <p>Ryvyt is a founder and one of the three main members of the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>. Where Farkur is most visible as the institutional architect, Ryvyt makes specialization operational: crafting, research, shared equipment, and project work that other members cannot simply improvise.</p>
       <h2 id="ryvyt-crafter">“Our crafter”</h2>
@@ -534,6 +579,7 @@ const articles = [
       <p>Ryvyt has pursued unusual research, including Delerium. That interest belongs to Ryvyt’s record; it should not automatically be treated as Ale-Chemy Knights policy or proof that every member approves of the work.</p>
       <h2 id="ryvyt-faction">Founder and main Ale-Chemy Knight</h2>
       <p>Draven Montauk identifies Farkur and Ryvyt as founders in February 2026 while both are away on an important job. The group later creates Gael’s open-air market, but the surviving synthesis does not assign Ryvyt a particular market office or prove which section Ryvyt built or managed.</p>
+      <p>On 26 May, Ryvyt arrives at a small island settlement aboard an Ale-Chemy ship and introduces himself as “the remaining founder of the Ale-Chemy Knights.” The narration notes hurt in his broken tone. The wording proves that Ryvyt experiences founder-loss by that date; it does not by itself establish whether Farkur was dead, missing, absent, or no longer active.</p>
       <h2 id="ryvyt-disappearance">The disappearance’s personal cost</h2>
       <p>Thorn carries news that Farkur and other Knights disappeared and that Ryvyt took it hard. The wording supports grief, distress, or serious personal impact without establishing the exact emotion, words, or response. It also does not place Ryvyt among the missing.</p>
       <h2 id="ryvyt-open-record">Open record</h2>
@@ -617,10 +663,10 @@ const articles = [
     id: "reading-the-codex", title: "How to Read the Codex", category: "Archive", type: "Evidence and interpretation",
     dek: "The records come first. This Codex preserves corrections, disagreements, discovery order, and uncertainty instead of flattening every statement into fact.",
     tags: ["Primary source", "Provenance", "Chronology", "Canon"],
-    facts: { Primary: "Campaign scenes and chronicles", Evidence: "303 preserved records", Taxonomy: "Six evidence kinds", Secondary: "Interpretive guides and mechanics corroboration", Rule: "Claims keep their speaker" },
-    sources: ["Fenumion_Wiki_Project_Folder — editorial architecture and evidence taxonomy, supplied 23 Sep 2026", "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — interpretive framework; not a replacement for primary logs", "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — interpretive core and anti-flattening safeguards", "Campaign logs, transcripts, maps, and chronicles", "docs/EDITORIAL_ARCHITECTURE.md — adapted working standard", "docs/SOURCE_MANIFEST.md — processed synthesis index"],
+    facts: { Primary: "108,619 quest messages and campaign scenes", Evidence: "Complete transcript · 303 supporting records", Taxonomy: "Six evidence kinds", Secondary: "Interpretive guides and mechanics corroboration", Rule: "Claims keep their speaker" },
+    sources: ["Complete quest-rp Discord export — scene-level record supplied 27 Sep 2026", "docs/QUEST_ARCHIVE_INDEX.md — source checksum and candidate-session ledger", "Fenumion_Wiki_Project_Folder — editorial architecture and evidence taxonomy, supplied 23 Sep 2026", "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — interpretive framework; not a replacement for primary logs", "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — interpretive core and anti-flattening safeguards", "Campaign logs, transcripts, maps, and chronicles", "docs/EDITORIAL_ARCHITECTURE.md — adapted working standard", "docs/SOURCE_MANIFEST.md — processed synthesis index"],
     body: `
-      <p>The Codex is a structured reading of 303 preserved campaign records. Scenes are compared, corrected, and re-read when later material changes their meaning. Mechanics files are used only as a secondary check where a name or implemented rule needs corroboration.</p>
+      <p>The Codex is a structured reading of the complete 108,619-message main quest archive and 303 supporting campaign records. Scenes are compared, corrected, and re-read when later material changes their meaning. Mechanics files are used only as a secondary check where a name or implemented rule needs corroboration.</p>
       <div class="callout gold"><p><strong>Source hierarchy:</strong> primary scenes and records first; later synthesis second; mechanics corroboration only where relevant.</p></div>
       <h2 id="evidence-levels">Six kinds of evidence</h2>
       <div class="evidence-stack">
@@ -792,6 +838,31 @@ const articles = [
       <p>An early account gives Aria an older brother; a later statement says she has no siblings. Saray’s history between Nienna’s death and the final blow against Wrath is incomplete. Dale, Adelia, Scribonia, Casimir, and Alioth still need fuller longitudinal recovery.</p>
       <h2 id="cave-questions">The September cave</h2>
       <p>The violet crystals’ nature, the corpse’s identity and contamination source, the cave’s destination, and the malformed harpies’ origin are all unresolved. Moira’s theory that the cave connects to a known Delerium source is preserved as her hypothesis—not geography.</p>`
+  },
+  {
+    id: "quest-record", title: "The Complete Quest Record", category: "Archive", type: "Primary transcript index",
+    dek: "The complete quest-rp archive gives the Codex a scene-level evidentiary spine across 108,619 messages and more than two years of play.",
+    tags: ["Primary source", "Quest transcript", "Chronology", "Provenance"],
+    facts: { Coverage: "4 Mar 2024 – 7 Sep 2026", Messages: "108,619", "Active dates": "363", "Speaker identities": "785", "Review units": "329 candidate sessions" },
+    sources: ["Fenumion (The Sea of Dreams) — quest-rp Discord export, supplied 27 Sep 2026", "docs/QUEST_ARCHIVE_INDEX.md — derived checksum, annual coverage, explicit headings, and candidate-session ledger"],
+    body: `
+      <p>The main quest channel is now represented by a complete export rather than selected excerpts. It contains <strong>108,619 messages</strong>, <strong>2,728 attachments</strong>, <strong>1,275 embeds</strong>, and <strong>12,078 reaction groups</strong> from 4 March 2024 through 7 September 2026.</p>
+      <div class="callout gold"><p><strong>What this changes:</strong> character, location, faction, and timeline claims can now be checked against the scene-level record instead of relying only on later summaries.</p></div>
+      <div class="archive-dashboard" aria-label="Complete quest transcript overview">
+        <div class="archive-stat"><strong>52,492</strong><span>messages in 2024</span></div>
+        <div class="archive-stat"><strong>39,095</strong><span>messages in 2025</span></div>
+        <div class="archive-stat"><strong>17,032</strong><span>messages in 2026</span></div>
+        <div class="archive-stat"><strong>329</strong><span>review units</span></div>
+      </div>
+      <h2 id="quest-record-boundaries">A review index, not invented quest titles</h2>
+      <p>The transcript contains continuous and asynchronous roleplay. For research, messages separated by more than twelve hours of inactivity are grouped into 329 <em>candidate sessions</em>. These are mechanical review units only: they are not automatically canon quests, chapters, parties, or adventure names.</p>
+      <p>Only four messages use an explicit <strong>Quest:</strong> heading: <strong>You Better Watch Out</strong> on 16 December 2025, <strong>Wherever We Are Now</strong> on 27 March 2026, <strong>Acolyte</strong> on 19 May 2026, and <strong>Howl</strong> on 29 May 2026. The Codex will not manufacture titles for the rest.</p>
+      <h2 id="quest-record-evidence">How scenes become Codex history</h2>
+      <p>Each session pass separates direct observation, character claims, OOC rulings, interpretation, and unresolved questions. A speaker can be sincere and wrong. A narrator can describe an event without making every participant’s explanation true. Exact claims should keep a timestamp or message anchor so later corrections remain traceable.</p>
+      <p>The raw export is 242 MB and remains outside the public site. The repository carries a checksum and a complete date-and-volume ledger, but not the full conversation. This keeps the published Codex focused, avoids duplicating private player speech, and prevents protected lore from leaking through a downloadable transcript.</p>
+      <h2 id="quest-record-protection">Player-safe handling</h2>
+      <p>Modern characters, factions, locations, and campaign events can be synthesized publicly. Material concerning the gods, ancient history, or origins such as Delerium’s remains restricted to the spoiler vault. The presence of a statement in the transcript does not make it player-safe or elevate it above the archive’s canon rules.</p>
+      <div class="callout"><p><strong>Research standard:</strong> use the transcript to verify scenes; use consequences to decide what belongs in history; preserve uncertainty when the evidence does not settle an answer.</p></div>`
   },
   {
     id: "source-catalogue", title: "The Source Catalogue", category: "Archive", type: "Record index",
@@ -1333,7 +1404,7 @@ const articles = [
     dek: "Wonder becomes practice, practice becomes responsibility, and responsibility becomes the question of what one person should be allowed to do with divine-scale power.",
     tags: ["Elenia", "Cala", "Hope", "Nienna", "Mya", "Gael", "Pristinia", "Power and permission"],
     facts: { Role: "Cleric and bearer of light", "Public title": "Savior of Pristinia", Trajectory: "Wonder → practice → responsibility", Patron: "Cala", Transformation: "Returned as a satyr", Danger: "Capability becoming authority" },
-    sources: ["ELENIA_HISTORY.md — consolidated profile and chronology", "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — changing relationship histories", "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map", "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence"],
+    sources: ["Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict", "ELENIA_HISTORY.md — consolidated profile and chronology", "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon", "MASTER_TIMELINE.md — dated event spine", "CHARACTER_BIBLE.md — character synthesis", "RELATIONSHIPS.md — changing relationship histories", "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map", "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence"],
     body: `
       <p>Elenia can move through extraordinary magic with casual delight and still take another person’s spiritual crisis seriously. Her wisdom is not superior intelligence or permanent solemnity. It is a repeated process: wonder leads to curiosity; curiosity becomes experience; experience becomes meaning; and meaning changes what she does the next time somebody is in danger.</p>
       <div class="quote">Just be the light.<cite>Elenia</cite></div>
@@ -1367,7 +1438,10 @@ const articles = [
       <p>After a divine battle in which Elenia says she restored roughly one hundred people, Magnus challenges her or tries to turn others against her in a fight-to-the-death context—a duel over who was right. Elenia wins but does not kill him. Instead, she uses divine magic to remove or erase his face.</p>
       <div class="quote">It was a duel to see who was right, but I didn’t want to kill him.<cite>Elenia</cite></div>
       <p>The choice is restraint without innocence. Refusing to kill does not make the alternative gentle, and preserving a life does not automatically grant permission to transform a body. The scene exposes the question at the center of later Elenia: when she can do almost anything, who decides what she should do?</p>
-      <p>The detailed Magnus profile and current chronology connect the wider reaction to Elenia’s exile from Fein Uaill. One derivative timeline summary instead names Magnus as banished. The archive favors the detailed account while preserving the discrepancy until the original battle and judgment record is recovered.</p>
+      <p>The primary transcript now resolves the older exile discrepancy. On 22 December, Bowene asks directly who supports banishment. Magnus and Adelia do; Olokun and Aravil stand with Elenia. Bowene chooses exile rather than permanent banishment, gives Elenia a sending stone, and sends the departing party toward Babel-Ashur while leaving open the possibility that Zarathian law may change.</p>
+      <h2 id="elenia-exile">22 December 2025 · exile without a closed door</h2>
+      <p>Elenia accepts responsibility for using Hope’s power to alter Magnus’s face and says she will follow the judgment as best she can. She asks that Zarathis return its attention to mortal flourishing—towers, statues, gardens, and people—rather than continue losing lives in war against the gods. The argument does not win immediate permission to stay, but it changes the terms of departure.</p>
+      <p>Bowene distinguishes exile from banishment. Elenia, Olokun, and Aravil are escorted through the Shining Shores, with other companions allowed to join. The sending stone and promise of continued work preserve relationship across punishment: she leaves her people without being declared permanently outside them.</p>
       <h2 id="ordinary-care">Ink, Brianna, and healing forward · 2026</h2>
       <p>On 15 January, Elenia obtains ink for Eugene’s spellbook. She materially invests in the learning of someone who often doubts his own worth. The archive places this errand beside resurrection, bodily alteration, and exile because cosmic authority does not remove her from the small needs of another person. The measure of great power is partly whether ordinary people remain visible from that height.</p>
       <p>After Magnus forces Delerium into Brianna, Elenia calls Mya. Hope sanctifies or cleanses the crystal rather than pretending the violation never occurred. This is healing through history: transform what remains without erasing what happened.</p>
@@ -1403,7 +1477,7 @@ const articles = [
         <li>Her history before Cala’s possible call in April 2024.</li>
         <li>The precise division of labor in Gael’s first living foothold and the destination of Adelia’s departing group.</li>
         <li>The mechanics of her recovery after Wrath and the event that later led to Reincarnate.</li>
-        <li>The full Rahu siege, hundred-person restoration, Magnus duel, and terms of the Fein Uaill banishment.</li>
+        <li>The full Rahu siege, the precise hundred-person restoration sequence, and the complete mechanics of the Magnus duel.</li>
         <li>The exact chronology of Brianna’s sanctification and the mountain expedition.</li>
         <li>How her Gate ability relates—or does not relate—to the ancient divine Gate.</li>
       </ul>`
@@ -1989,18 +2063,57 @@ const articles = [
       <div class="callout gold"><p><strong>Record boundary:</strong> the April 20 expedition, Anky’s death by April 21, and Cerwin’s later arrival are established. The precise fatal event and cause of death remain unrecovered.</p></div>`
   },
   {
+    id: "minerva", title: "Minerva", category: "People", type: "Witch; investigator; difficult ally",
+    dek: "A suspicious and forceful investigator whose methods strain alliances, yet whose attention repeatedly turns toward hidden danger and vulnerable people.",
+    tags: ["Minerva", "Witch", "Investigation", "You Better Watch Out", "Howl", "Quest archive"],
+    facts: { "Primary archive coverage": "Jun 2025 – Aug 2026", "Named quests": "You Better Watch Out · Howl", Strength: "Arcane and creature investigation", Tension: "Information, trust, and coercive methods", Status: "Active through Aug 2026" },
+    sources: ["Complete quest-rp export — 918 Minerva messages across 23 active dates", "Candidate session 255, 16 Dec 2025 — You Better Watch Out", "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning", "Candidate session 301, 29 May 2026 — Howl"],
+    body: `
+      <p>Minerva’s quest record resists a simple verdict. She is watchful, magically informed, willing to pursue danger, and often convinced that others’ caution is blindness. The same intensity that uncovers threats also makes cooperation brittle when she treats disputed conclusions as emergencies everyone else must accept.</p>
+      <h2 id="minerva-krampus">16 December 2025 · You Better Watch Out</h2>
+      <p>Minerva and Gregory are the first to notice a shadow moving through the silent village street. During the fight she keeps track of the rooftop creature carrying a missing child while the party battles animated toys. Ruben’s final shot drops Krampus and the child is recovered. The scene establishes Minerva’s vigilance inside a successful communal rescue.</p>
+      <h2 id="minerva-guardians">29 March 2026 · warning without trust</h2>
+      <p>Minerva attempts to deliver documents she believes describe a plan to corrupt living trees. Her companions restrain her after a breakdown in trust, while she accuses them of obstructing urgent evidence. Before the Guardians she names initials and reports the suspected plot. The priestess listens; Chief Guardian Horgrith refuses to rely on information from a party that cannot trust itself.</p>
+      <p>The Codex preserves three different facts: Minerva delivers a warning; her companions dispute her conduct and reliability; and the Guardians’ refusal is a security judgment rather than proof that her information is false.</p>
+      <h2 id="minerva-howl">29 May 2026 · Howl</h2>
+      <p>On the winter forest expedition, Minerva recognizes lore about beasts drawn toward magic and afraid of fire. She investigates the attacked cabin, questions whether young Ingrid carries latent magic, and sits beside the child rather than interrogating from a distance. The later discovery of the real Timothy’s body reveals that the father at the cabin is a doppelganger; Minerva’s suspicion belongs beside, not instead of, her attempt to keep Ingrid calm.</p>
+      <h2 id="minerva-boundary">The unresolved boundary</h2>
+      <p>Minerva is not made correct by intensity or wrong by conflict. Her history repeatedly asks how a group should respond when one person believes the danger is immediate and everyone else believes the method of warning may itself create harm. Later passes should recover the missing connective scenes without resolving that tension into a fixed moral label.</p>`
+  },
+  {
+    id: "lady-severina", title: "Lady Severina", category: "People", type: "Commander; civic and expedition leader",
+    dek: "A field commander who treats defense as both battlefield discipline and long-term civic infrastructure.",
+    tags: ["Lady Severina", "Commander", "Pristinia", "The Before", "Acolyte", "Civic defense"],
+    facts: { "Primary archive coverage": "Nov 2025 – Sep 2026", Roles: "Commander · council participant · expedition protector", "Named quests": "Wherever We Are Now · Acolyte", Holdings: "The Bastion · access to an Eovar tower", Status: "Active through Sep 2026" },
+    sources: ["Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates", "Candidate session 277, 27 Mar 2026 — Wherever We Are Now", "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates", "Candidate session 296, 19 May 2026 — Acolyte"],
+    body: `
+      <p>Lady Severina’s recovered scenes join command, public policy, and practical defense. She does not treat those as separate vocations: protecting a scholar in a ruin, deciding where petrified people can be kept safely, restoring a quarry, and holding Pristinia’s wall all belong to the same problem of keeping a community alive.</p>
+      <h2 id="severina-before">27 March 2026 · Wherever We Are Now</h2>
+      <p>Severina joins the peace-agreement survey of <a href="#before-survey">The Before</a>, keeps close to the Rahuvian scholars, studies the newly grown briars, and helps examine the underground ruins. Her attention remains on whether the delegation can survive long enough to do its work rather than on claiming the discovery personally.</p>
+      <h2 id="severina-civic">April–May 2026 · defense becomes policy</h2>
+      <p>In Pristinia’s civic debates, Severina supports workable revenue and the continued completion of the walls. She offers guarded space in the Eovar tower built by the Ale-Chemy Knights for petrified victims and recommends using restored quarry production both for adventurer needs and public construction. The Bastion is another protected site she can open by exception when safety requires it.</p>
+      <h2 id="severina-acolyte">19 May 2026 · Acolyte</h2>
+      <p>When Death-aligned forces emerge from the mist near Pristinia’s walls, Severina directs deliberate attacks, warns that some skeletons explode on death, protects Kasiri, and keeps attention on the next wave. After the mist retreats, she immediately checks and heals Saoirse’s wound. The victory has no deaths, but Camilla’s warning remains: the pressure against the defenses will continue.</p>
+      <h2 id="severina-command">A commander’s scale</h2>
+      <p>Severina’s record measures leadership by continuity. Winning one encounter matters because scholars return, wounded people recover, walls remain staffed, materials keep moving, and the next attack finds a more prepared city.</p>`
+  },
+  {
     id: "thorn", title: "Thorn", category: "People", type: "Veilguard; returned survivor",
     dek: "Thorn belongs to the Veilguard, died on a Gael husk hunt, and later returned—while the mechanism connecting those facts remains unknown.",
     tags: ["Thorn", "Veilguard", "Gael", "Unresolved return"],
     facts: { Death: "Gael husk hunt", Aftermath: "Body left; cult ritual attempted", Return: "Alive by 19 Sep 2026", Belonging: "Veilguard" },
-    sources: ["CHARACTER_BIBLE.md — Thorn chronology", "REGIONS_FACTIONS_INSTITUTIONS.md — Gael and Veilguard", "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — return gap"],
+    sources: ["Complete quest-rp export, candidate session 277, 27 Mar 2026 — The Before survey", "Complete quest-rp export, candidate session 301, 29 May 2026 — Howl", "CHARACTER_BIBLE.md — Thorn chronology", "REGIONS_FACTIONS_INSTITUTIONS.md — Gael and Veilguard", "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — return gap"],
     body: `
       <p>Thorn dies during a husk hunt in Gael. The team is forced to leave the body. A cult later attempts to use Thorn in a ritual aimed at one of Gael’s Shards. By September 19, 2026, Thorn is alive in Prima.</p>
       <div class="callout gold"><p><strong>Unresolved:</strong> the record does not yet establish how Thorn returned, what became of the ritual, or how those events connect.</p></div>
       <h2 id="veilguard">Belonging to the Veilguard</h2>
       <p>Thorn says, “I belong with the Veilguard, so I must return.” The wording establishes more than an assignment. By this point the Veilguard has become identity, obligation, and community.</p>
       <h2 id="ordinary-history">Ordinary institutional life</h2>
-      <p>Thorn also carries news of <a href="#farkur">Farkur</a> and the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>’ disappearance, <a href="#ryvyt">Ryvyt</a>’s response, Gael transport, farms, and harvest work. A person who passed through death and cult ritual still participates in the mundane systems by which regions continue.</p>`
+      <p>Thorn also carries news of <a href="#farkur">Farkur</a> and the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>’ disappearance, <a href="#ryvyt">Ryvyt</a>’s response, Gael transport, farms, and harvest work. A person who passed through death and cult ritual still participates in the mundane systems by which regions continue.</p>
+      <h2 id="thorn-before-survey">27 March 2026 · leading into The Before</h2>
+      <p>Thorn leads the joint Pristinian–Rahuvian survey once the scholars arrive. She identifies the briars’ Delerium scent, bottles some of the purple haze for later study, and helps move the group through the changed entrance. The work places her at the boundary between field instinct and formal scholarship.</p>
+      <h2 id="thorn-howl">29 May 2026 · tracking through Howl</h2>
+      <p>Thorn helps free and heal a deer caught in a bear trap, searches around the winter cabin, and later finds the wolf tracks that lead toward the den. Her contribution is not a single finishing blow. It is the sequence that turns a frightened wilderness scene into a route the party can follow.</p>`
   },
   {
     id: "cave-company", title: "The Delerium Cave Company", category: "People", type: "Ensemble record · 20 September 2026",
@@ -2041,8 +2154,8 @@ const articles = [
     id: "living-timeline", title: "Narrative History", category: "History", type: "Complete recovered event chronology",
     dek: "The living campaign’s consequential history, searchable by name, place, person, and theme; keeper access also reveals the protected ancient record.",
     tags: ["Timeline", "Events", "Discovery", "Continuity"],
-    facts: { Scope: "Recovered campaign chronology", Ordering: "Causal history and player discovery", Coverage: "The Calling through 2026 · ancient world in keeper view", Rule: "Unresolved dates remain unresolved" },
-    sources: ["Fenumion_Codex_Master_Timeline_2026-09-20.md — event chronology, evidence levels, and causal spines", "Fenumion Archive Catalogue — chronology and source anchors", "New Year.pdf — community retrospective", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — undated 2026 Babel-Ashur reconnaissance sequence"],
+    facts: { Events: "131 recovered entries", Scope: "Recovered campaign chronology", Ordering: "Causal history and player discovery", Coverage: "The Calling through 2026 · ancient world in keeper view", Rule: "Unresolved dates remain unresolved" },
+    sources: ["Complete quest-rp export — primary scene verification and twelve newly recovered 2025–2026 events", "docs/QUEST_ARCHIVE_INDEX.md — 329 candidate-session review ledger", "Fenumion_Codex_Master_Timeline_2026-09-20.md — event chronology, evidence levels, and causal spines", "Fenumion Archive Catalogue — chronology and source anchors", "New Year.pdf — community retrospective", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — undated 2026 Babel-Ashur reconnaissance sequence"],
     body: `
       <p>The history is presented in causal order, but each event also records when modern adventurers discovered it. Exact dates are used only where the documents provide them; approximate and unresolved dates are labeled instead of silently invented. The public record begins with the modern Calling, while keeper access reveals the protected ancient and divine chronology.</p>
       <div id="timeline-explorer" class="timeline-explorer"></div>
@@ -2192,7 +2305,19 @@ const archiveIndex = {
     { title: "Arjahn burns a temporary opening in the mist", meta: "Same reconnaissance quest · exact date unresolved", sort: "2026-99-20d", era: "2026 · Consequences", kind: "Radiant field test", article: "arjahn", location: "Western Babel-Ashur", people: "Arjahn; Gartina; the expedition", tags: ["radiant energy", "regeneration", "amplification"], summary: "Arjahn’s radiant energy produces a dangerously amplified reaction and burns part of the mist away, but the opening closes within minutes once the pressure stops." },
     { title: "The Luminar Spires shine at sunset", meta: "End of the same quest · exact date unresolved", sort: "2026-99-20e", era: "2026 · Consequences", kind: "Unresolved environmental behavior", article: "luminar-spires", location: "Luminar Spires; Babel-Ashur", people: "The expedition", tags: ["sunset", "starlight", "unresolved"], summary: "As the party withdraws, the Spires twinkle like stars. The behavior is observed; any relationship to time, light, celestial conditions, or the earlier spell remains speculative." },
     { title: "Pristinia answers hunger with a hunt", meta: "15 Dec 2024", sort: "2024-12-15a", era: "2024 · The Calling", kind: "Community consequence", article: "tobias", location: "The Common Man; Pristinia", people: "Farmer Frank; Herb; Aravil; Tobias", tags: ["food", "winter", "ecology", "civilian labor", "Ale-Chemy Knights"], summary: "A tavern conversation exposes failed harvest help, an overworked farmer, and dwindling stores. Tobias volunteers as a hunt forms, while Herb limits it so immediate hunger does not destroy next year’s elk population." },
-    { title: "Skye makes Lichen safe through music", meta: "15 Dec 2024", sort: "2024-12-15b", era: "2024 · The Calling", kind: "Belonging", article: "common-man", location: "The Common Man; Pristinia", people: "Skye; Lichen", tags: ["music", "money", "friendship", "First Forest"], summary: "Skye refuses most of a ten-gold gift worth roughly a year’s wages, learns who Lichen is, and connects a strange newcomer to the First Forest through music and conversation." }
+    { title: "Skye makes Lichen safe through music", meta: "15 Dec 2024", sort: "2024-12-15b", era: "2024 · The Calling", kind: "Belonging", article: "common-man", location: "The Common Man; Pristinia", people: "Skye; Lichen", tags: ["music", "money", "friendship", "First Forest"], summary: "Skye refuses most of a ten-gold gift worth roughly a year’s wages, learns who Lichen is, and connects a strange newcomer to the First Forest through music and conversation." },
+    { title: "The party reaches the Shining Shores", meta: "10 Jan 2025", sort: "2025-01-10", era: "2025 · Wider shores", kind: "Arrival and reconnaissance", article: "shining-shores", location: "The Shining Shores; Gates of Aelthor", people: "Elenia; Olokun; Draygar; Adelia; Scribonia; Eugene; Krone", tags: ["arrival", "city", "coast"], summary: "A recovered expedition reaches a warm coast and a civilization of white towers, grand shops, and extensive streets, establishing the party’s first dated arrival at the Shining Shores." },
+    { title: "Pilgrims enter Ciaránach by the Holy Road", meta: "27 Sep 2025", sort: "2025-09-27", era: "2025 · Wider shores", kind: "Pilgrimage and cultural encounter", article: "ciaranach", location: "Zarathis; Holy Road; Ciaránach", people: "Elenia; Olokun; Scribonia; Eugene; Captain Haelith", tags: ["pilgrimage", "Golden Ones", "identity"], summary: "Travelers pass from Zarathis through orchard valleys and high mountains into the white-and-gold city above the clouds, where Captain Haelith and the Golden Ones preserve a yearly lesson in identity." },
+    { title: "The Heavenly Host attacks Aelthor", meta: "15 Oct 2025", sort: "2025-10-15", era: "2025 · Wider shores", kind: "Battle", article: "shining-shores", location: "Gates of Aelthor; Shining Shores", people: "Magnus; Adelia; Elenia; Scribonia; Olokun; Aria", tags: ["Heavenly Host", "eclipse", "Aelthor"], summary: "Under darkened skies, Aionia’s Heavenly Host strikes the Gates of Aelthor. The recovered scene places six major figures together at a defining battle on the Shining Shores." },
+    { title: "You Better Watch Out", meta: "16 Dec 2025", sort: "2025-12-16", era: "2025 · Winter trials", kind: "Rescue", article: "minerva", location: "Winter village", people: "Minerva; Gregory; Ruben; Krampus", tags: ["missing children", "Krampus", "living dolls"], summary: "A search for missing children becomes a confrontation with Krampus and living dolls. Ruben’s shot brings the creature down and the party rescues a child." },
+    { title: "Bowene exiles Elenia without closing the door", meta: "22 Dec 2025", sort: "2025-12-22", era: "2025 · Judgment", kind: "Political judgment", article: "elenia", location: "Shining Shores; Babel-Ashur", people: "Elenia; Bowene; Magnus; Adelia; Olokun; Aravil", tags: ["exile", "banishment", "sending stone"], summary: "Magnus and Adelia support banishment while Olokun and Aravil stand with Elenia. Bowene chooses exile rather than permanent banishment, gives Elenia a sending stone, and sends her toward Babel-Ashur." },
+    { title: "Wherever We Are Now begins The Before survey", meta: "27 Mar 2026", sort: "2026-03-27", era: "2026 · Renewed expeditions", kind: "Joint survey", article: "before-survey", location: "The Before; Prima", people: "Thorn; Camilla; Lady Severina; Saoirse; Miri", tags: ["Pristinia", "Rahu", "Delerium", "stirges"], summary: "A survey required by a Pristinia–Rahu peace agreement finds glowing briars, Delerium haze, an eighty-foot sinkhole, worked ruins, purple dust, and a stirge swarm before the party withdraws to camp." },
+    { title: "Farkur confesses before the Guardians", meta: "29 Mar 2026", sort: "2026-03-29", era: "2026 · Civic reckoning", kind: "Confession and judgment", article: "farkur", location: "The Guardians’ seat; graves", people: "Farkur; Gregory; Commander Yvette", tags: ["Ale-Chemy Knights", "truth-working", "accountability"], summary: "Farkur admits repairing an escape ship and failing to report what he knew while denying participation in Yvette’s murder. The Guardians spare him; he offers the Knights’ bell and visits the graves." },
+    { title: "Ale-Chemy wealth enters Pristinia policy", meta: "17 Apr 2026", sort: "2026-04-17", era: "2026 · Civic reckoning", kind: "Economic policy", article: "ale-chemy-knights", location: "Pristinia", people: "Melian; Camilla; Ale-Chemy Knights", tags: ["finance", "taxes", "defense", "trade"], summary: "Melian calls Ale-Chemy contributions invaluable to stable finances while Camilla argues that the faction’s gold can support defense, agriculture, and trade, making private wealth a public-policy question." },
+    { title: "Acolyte tests Pristinia’s walls", meta: "19 May 2026", sort: "2026-05-19", era: "2026 · Civic defense", kind: "Siege defense", article: "lady-severina", location: "Pristinia", people: "Camilla; Lady Severina; Saoirse; Thorn; Kasiri; Karnak", tags: ["undead", "mist", "walls"], summary: "A Death-aligned mist halts outside Pristinia while waves of undead attack. The defenders suffer no deaths and force the mist back, but its departing voice promises further tests." },
+    { title: "Ryvyt returns as the remaining founder", meta: "26 May 2026", sort: "2026-05-26", era: "2026 · Ale-Chemy transition", kind: "Return and uncertain loss", article: "ryvyt", location: "Ale-Chemy ship", people: "Ryvyt; Farkur", tags: ["Ale-Chemy Knights", "founder", "loss"], summary: "Ryvyt arrives aboard an Ale-Chemy vessel and calls himself the remaining founder. The wording records his understanding of a loss without proving whether Farkur is dead, missing, or otherwise absent." },
+    { title: "Howl exposes the false Timothy", meta: "29 May 2026", sort: "2026-05-29", era: "2026 · Renewed expeditions", kind: "Investigation", article: "minerva", location: "Winter path; cabin; wolf den", people: "Minerva; Thorn; Jéane Rose; Pelagia; Aurélia; Timothy", tags: ["wolves", "doppelganger", "fey magic"], summary: "After freeing an injured deer and tracking wolves, the party finds the real Timothy’s body in a den. The Timothy at the cabin is exposed as a doppelganger, with faint fey magic lingering nearby." },
+    { title: "Eovar records the adventurers’ mixed legacy", meta: "21 Aug 2026", sort: "2026-08-21", era: "2026 · Public memory", kind: "Civic testimony", article: "ale-chemy-knights", location: "Eovar Harbor", people: "Raven Joyner; Fenwick; Ale-Chemy Knights", tags: ["harbor", "pirates", "prison break", "reconstruction"], summary: "Harbor Master Raven Joyner credits Fenwick and the Knights with good work while remembering both rescues and a prison break: adventurers attract danger, then rebuild and improve lives." }
   ],
   characters: [
     { title: "Adelia & Hope", meta: "Character record", article: "adelia-hope", image: "assets/archive/adelia.jpeg", summary: "Ascension, inheritance, and the life made possible by Nienna’s sacrifice." },
@@ -2214,7 +2339,7 @@ const archiveIndex = {
     { title: "Jéane Rose", meta: "Speedster and explorer", article: "jeane-rose", summary: "Experiences thought, friendship, travel, and the obligation to protect at extraordinary speed." },
     { title: "Jiangshi", meta: "Character record", article: "jiangshi", summary: "An adventurer returned from death whose story tests care, grief, and agency." },
     { title: "Magnus Niriin", meta: "Warlock, Silver Star, political figure", article: "magnus", image: "magnus-portrait.jpg", summary: "An ambitious Zarathian whose pursuit of leverage succeeds even as it deepens his dependence on Death and fractures trust." },
-    { title: "Minerva", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
+    { title: "Minerva", meta: "Witch and difficult ally", article: "minerva", summary: "Investigates concealed threats, strains trust through forceful methods, and still turns careful attention toward people in danger." },
     { title: "Nienna", meta: "Character record", article: "nienna", image: "nienna-portrait.png", summary: "An absent presence whose sacrifice continues to act through the living." },
     { title: "Nymera", meta: "Cala devotee and expedition ally", article: "nymera", summary: "Offers practical help among specialists and learns that uncertainty about theory does not make her contribution unwanted." },
     { title: "Olokun", meta: "Protector; Rahu; resurrected adventurer", article: "olokun", image: "olokun-poster.png", summary: "A deeply attached protector whose mature ethic separates care from ownership while fear keeps testing that boundary." },
@@ -2227,7 +2352,7 @@ const archiveIndex = {
     { title: "St. Anky", meta: "Nuru’s saint and chronicler", article: "st-anky", image: "st-anky-portrait.png", summary: "Built Voraketh’s Temple of Secrets so knowledge, questions, and communal resources could survive their keepers." },
     { title: "Scribonia", meta: "Magi and scholar", article: "scribonia", image: "scribonia-portrait.png", summary: "Self-defined before every label; brave in argument and often unable to relinquish the last word." },
     { title: "Selwyn", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
-    { title: "Severina", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
+    { title: "Lady Severina", meta: "Commander and civic defender", article: "lady-severina", summary: "Connects field discipline, scholar protection, walls, quarry production, and guarded refuge into one practice of defense." },
     { title: "Sildithas", meta: "Oathbound defender", article: "sildithas", image: "sildithas-portrait.png", summary: "Meets uncertain divine authority by returning to an oath of mercy, flourishing, courage, and preserved joy." },
     { title: "Swiftfoot", meta: "Character sighting", article: "new-year-address", summary: "Remembered in the community retrospective for a sacrifice carried into shared history." },
     { title: "Thorn", meta: "Veilguard and returned survivor", article: "thorn", summary: "Dies on a Gael husk hunt, is later caught in a cult ritual, and returns by September 2026 through an unresolved mechanism." },
@@ -2299,6 +2424,8 @@ const archiveIndex = {
     { title: "Pristinia", region: "Prima", parent: "Prima", type: "settlement", meta: "Prima · settlement", article: "pristinia", summary: "A growing community whose walls, farms, taverns, public spaces, and memorials record player action.", source: "Scene + map + screenshots", aliases: [], image: "assets/archive/pristinia.webp", level: "settlement" },
     { title: "The Gate", region: "Prima", parent: "Prima", type: "ancient structure", meta: "Prima · ancient structure", article: "the-gate", summary: "The ancient mechanism that awakened when modern adventurers began arriving.", source: "Scene + screenshot", aliases: [], level: "site" },
     { title: "The Before", region: "Prima", parent: "Prima", type: "ruined city", meta: "Prima · ruined city", article: "the-before-melian", summary: "Melian’s home, destroyed when Delerium corrupted a civilization from beneath.", source: "Scene + screenshot", aliases: [], level: "site" },
+    { title: "The Before Survey Entrance", region: "Prima", parent: "The Before", type: "changed ruin entrance", meta: "Prima › The Before · survey entrance", article: "before-survey", summary: "A once-known entrance found behind purple-glowing briars and an eighty-foot sinkhole during the 27 March 2026 peace-agreement survey.", source: "Complete quest-rp export · 27 Mar 2026", aliases: ["Briar Entrance", "The Before Sinkhole"], level: "site" },
+    { title: "The Before Survey Caverns", region: "Prima", parent: "The Before", type: "underground ruins", meta: "Prima › The Before · underground ruins", article: "before-survey", summary: "Worked-stone caverns containing a ruined fountain, broken arch, skeletons, purple dust, branching passages, and a stirge swarm.", source: "Complete quest-rp export · 27 Mar 2026", aliases: ["Survey Caverns", "Ruins Beneath The Before"], level: "site" },
     { title: "Oiche Arena", region: "Prima", parent: "Pristinia", type: "arena", meta: "Prima › Pristinia · arena", article: "pristinia", summary: "A named Pristinia arena confirmed by the settlement map.", source: "Map", aliases: ["Oíche Arena"], level: "site" },
     { title: "Melian’s House", region: "Prima", parent: "Pristinia", type: "residence", meta: "Prima › Pristinia · residence", article: "the-before-melian", summary: "Melian’s Pristinia residence is confirmed by the settlement map and connected scenes.", source: "Scene + map", aliases: [], level: "site" },
     { title: "Stella and Sola’s Shop", region: "Prima", parent: "Pristinia", type: "shop", meta: "Prima › Pristinia · shop", article: "pristinia", summary: "A Pristinia shop used in the Papirak and Melian record.", source: "Scene + map", aliases: ["Stella & Sola's Shop"], level: "site" },
@@ -2348,6 +2475,7 @@ const archiveIndex = {
     { title: "Zarathis", region: "Fein Uaill", parent: "Fein Uaill", type: "civilization", meta: "Fein Uaill · civilization", article: "zarathis", summary: "A developed center organized around memory, mastery, and the boundary of one mortal life.", source: "Chronicle + map", aliases: ["Zerathis"], level: "settlement" },
     { title: "Caisleán na Brón", region: "Fein Uaill", parent: "Fein Uaill", type: "fortified place", meta: "Fein Uaill · fortified place", article: "fein-uaill", summary: "A major fortified place confirmed by the Fein Uaill map and screenshot directory.", source: "Map + screenshot", aliases: ["Caselean De Broin", "Caislean na Bron", "Caisleán De Bróin"], level: "site" },
     { title: "Ciaránach", region: "Fein Uaill", parent: "Fein Uaill", type: "sacred city", meta: "Fein Uaill · sacred city", article: "ciaranach", summary: "A sacred city whose visual identity now includes the wider settlement and a temple within it.", source: "Regional chronicle + user-supplied moving records", aliases: ["Ciaranach"], video: "ciaranach.mp4", level: "settlement" },
+    { title: "Holy Road to Ciaránach", region: "Fein Uaill", parent: "Ciaránach", type: "pilgrimage route", meta: "Fein Uaill › Ciaránach · pilgrimage route", article: "ciaranach", summary: "A permission-bound route from Zarathis through orchards and high mountains, used for the yearly lesson and the approach to the Golden Ones.", source: "Complete quest-rp export · 27 Sep 2025", aliases: ["Holy Road", "Road to Ciaranach"], level: "site" },
     { title: "Temple in Ciaránach", region: "Fein Uaill", parent: "Ciaránach", type: "temple", meta: "Fein Uaill › Ciaránach · temple", article: "ciaranach", summary: "A temple preserved through a moving visual record; its proper name, dedication, and deeper history remain unrecovered.", source: "User-supplied moving record", aliases: ["Ciaránach Temple", "Ciaranach Temple", "Temple of Ciaránach"], video: "ciaranach-temple.mp4", level: "site" },
     { title: "Gates of Aelthor", region: "Fein Uaill", parent: "The Shining Shores", type: "coastal city / battle site", meta: "Fein Uaill › Shining Shores · city", article: "shining-shores", summary: "A city of white streets, bustling markets, and soaring towers, named for the first king after the breaking of the world; later battle records preserve a devastating attack by Aionia’s host.", source: "Location profile + scene + map + screenshot + user spelling correction", aliases: ["The Gates of Aelthor", "Gates of Aethor", "The Gates of Aethor", "Gates of Arthor"], level: "settlement" },
     { title: "Seraphis", region: "Fein Uaill", parent: "Fein Uaill", type: "city", meta: "Fein Uaill · city", article: "fein-uaill", summary: "A major settlement confirmed by the Fein Uaill map and supplied screenshot directory.", source: "Map + screenshot", aliases: [], level: "settlement" },
@@ -2503,6 +2631,7 @@ const navigationRegions = [
         { label: "Jéane Rose", article: "jeane-rose" }, { label: "Jiangshi", article: "jiangshi" }
       ]},
       { title: "Characters N–W", items: [
+        { label: "Lady Severina", article: "lady-severina" }, { label: "Minerva", article: "minerva" },
         { label: "Nienna", article: "nienna" }, { label: "Nymera", article: "nymera" }, { label: "Olokun", article: "olokun" },
         { label: "Pappy", article: "pappy" }, { label: "Ryvyt", article: "ryvyt" }, { label: "Saray", article: "saray" },
         { label: "Scribonia", article: "scribonia" }, { label: "Sildithas", article: "sildithas" },
@@ -2554,7 +2683,7 @@ const navigationRegions = [
       { title: "Prima", items: [
         { label: "Prima overview", article: "prima-pristinia", parent: true },
         { label: "Pristinia", article: "pristinia" }, { label: "The Common Man", article: "common-man" },
-        { label: "The Gate", article: "the-gate" },
+        { label: "The Before Survey", article: "before-survey" }, { label: "The Gate", article: "the-gate" },
         { label: "The Before", article: "the-before-melian" }
       ]},
       { title: "Fein Uaill", items: [
@@ -2578,6 +2707,7 @@ const navigationRegions = [
 
 const archiveLinks = [
   { label: "The Living Archive", article: "conversation" },
+  { label: "The Complete Quest Record", article: "quest-record" },
   { label: "The Source Catalogue", article: "source-catalogue" },
   { label: "How to Read the Codex", article: "reading-the-codex" },
   { label: "Relationships in Motion", article: "relationships" },
@@ -2605,6 +2735,7 @@ articlePaths.set("prima-pristinia", ["Locations", "Prima"]);
 articlePaths.set("pristinia", ["Locations", "Prima", "Pristinia"]);
 articlePaths.set("common-man", ["Locations", "Prima", "Pristinia", "The Common Man"]);
 articlePaths.set("the-gate", ["Locations", "Prima", "The Gate"]);
+articlePaths.set("before-survey", ["Locations", "Prima", "The Before Survey"]);
 articlePaths.set("the-before-melian", ["Locations", "Prima", "The Before"]);
 articlePaths.set("fein-uaill", ["Locations", "Fein Uaill"]);
 articlePaths.set("zarathis", ["Locations", "Fein Uaill", "Zarathis"]);
@@ -2689,6 +2820,7 @@ const subchannelMap = {
   "prima-pristinia": [
     { label: "Pristinia", article: "pristinia", summary: "Settlement, walls, farms, winter stores, and belonging." },
     { label: "The Common Man", article: "common-man", summary: "Pristinia’s accumulated civilian room and the foundations inherited by Pilgrim’s Hearth." },
+    { label: "The Before Survey", article: "before-survey", summary: "A public 2026 expedition into the ruins, separated from the protected ancient history beneath them." },
     { label: "The Gate", article: "the-gate", summary: "Ancient mechanism and divine contingency." },
     { label: "The Before", article: "the-before-melian", summary: "Ruined city, Delerium vein, and Melian’s witness." }
   ],

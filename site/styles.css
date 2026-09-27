@@ -451,6 +451,12 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .people-gallery-search span { color: var(--gold); font-size: .65rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .people-gallery-search input { width: 100%; min-height: 44px; padding: .7rem .8rem; color: var(--ink); background: #202129; border: 1px solid #4c4d52; border-radius: 7px; outline: none; font: .82rem/1.2 var(--sans); }
 .people-gallery-search input:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(212,180,109,.1); }
+.people-gallery-filters { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1rem; padding-top: .9rem; border-top: 1px solid #3e4046; }
+.people-kind-filter { display: inline-flex; gap: .45rem; align-items: center; padding: .48rem .68rem; color: #c5c0b4; background: #202129; border: 1px solid #4a4b50; border-radius: 999px; cursor: pointer; font-size: .78rem; }
+.people-kind-filter span { display: grid; min-width: 1.45rem; height: 1.45rem; place-items: center; color: #b8b1a1; background: #15161b; border-radius: 999px; font: 700 .62rem/1 var(--sans); }
+.people-kind-filter:hover, .people-kind-filter:focus-visible { color: #fff; border-color: var(--gold); outline: none; }
+.people-kind-filter.active { color: #17150f; background: var(--gold); border-color: var(--gold-bright); }
+.people-kind-filter.active span { color: #f3dfaa; background: #302a1c; }
 .people-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .index-card { display: grid; grid-template-columns: 82px minmax(0, 1fr); min-height: 118px; overflow: hidden; padding: 0; color: inherit; text-align: left; background: linear-gradient(145deg, rgba(21,52,40,.72), rgba(10,27,21,.88)); border: 1px solid var(--line); cursor: pointer; }
 .index-card:hover { border-color: var(--gold); transform: translateY(-1px); }
@@ -460,6 +466,13 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .index-card-copy { display: block; padding: .85rem .9rem; }
 .index-card-copy small, .index-card-copy strong, .index-card-copy > span { display: block; }
 .index-card-copy small { margin-bottom: .18rem; color: var(--green-bright); font-size: .63rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+.character-card-kicker { display: flex !important; flex-wrap: wrap; gap: .35rem .45rem; align-items: center; margin-bottom: .28rem; }
+.index-card-copy .character-card-kicker small { display: inline; margin: 0; }
+.character-kind { flex: 0 0 auto; padding: .18rem .38rem; border: 1px solid currentColor; border-radius: 999px; font: 700 .52rem/1.15 var(--sans); font-style: normal; letter-spacing: .07em; text-transform: uppercase; }
+.character-kind.player { color: #98e0b9; background: rgba(85,184,137,.1); }
+.character-kind.npc { color: #e4bdc2; background: rgba(166,103,112,.11); }
+.character-card.player-record { border-left-color: rgba(85,184,137,.78); }
+.character-card.npc-record { border-left-color: rgba(166,103,112,.8); }
 .index-card-copy strong { color: #f0f2eb; font: 600 1.05rem/1.25 var(--serif); }
 .index-card-copy > span { margin-top: .35rem; color: var(--muted); font-size: .75rem; line-height: 1.4; }
 .timeline-view { grid-template-columns: 1fr; }

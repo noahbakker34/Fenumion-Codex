@@ -2644,7 +2644,7 @@ const navigationRegions = [
     title: "Characters", article: "people-directory", glyph: "✦",
     branches: [
       { title: "Directory", items: [
-        { label: "All characters", article: "people-directory", parent: true }
+        { label: "All players & NPCs", article: "people-directory", parent: true }
       ]},
       { title: "Artist gallery", items: [
         { label: "Ececilia emojis", article: "ececilia-emojis", parent: true }
@@ -3134,6 +3134,7 @@ function renderArticle(route, pushHash = true) {
         <div><p class="eyebrow">Visual character archive</p><h2 id="people-gallery-title">Meet the people of Fenumion</h2><p>Browse every indexed hero, ally, ruler, witness, god, and recurring figure. Portraits appear wherever the archive includes a named visual record.</p></div>
         <label class="people-gallery-search" for="people-gallery-query"><span>Search characters</span><input id="people-gallery-query" type="search" placeholder="Name, role, or story…" autocomplete="off"></label>
       </div>
+      <div class="people-gallery-filters" id="people-gallery-filters" role="toolbar" aria-label="Filter people by character type"></div>
       <p class="browser-summary" id="people-gallery-count" role="status" aria-live="polite"></p>
       <div class="browser-grid people-gallery" id="people-gallery"></div>
     </section>` : "";
@@ -3171,16 +3172,31 @@ function setupPeopleGallery() {
   const gallery = document.querySelector("#people-gallery");
   const queryInput = document.querySelector("#people-gallery-query");
   const count = document.querySelector("#people-gallery-count");
-  if (!gallery || !queryInput || !count) return;
-  const people = [...archiveIndex.characters, ...archiveIndex.npcs]
+  const filters = document.querySelector("#people-gallery-filters");
+  if (!gallery || !queryInput || !count || !filters) return;
+  const people = [
+    ...archiveIndex.characters.map(person => ({ ...person, personKind: "player", personLabel: "Player character" })),
+    ...archiveIndex.npcs.map(person => ({ ...person, personKind: "npc", personLabel: "NPC" }))
+  ]
     .sort((left, right) => left.title.localeCompare(right.title));
+  let activeKind = "all";
+
+  const kindOptions = [
+    { id: "all", label: "All people", count: people.length },
+    { id: "player", label: "Players", count: archiveIndex.characters.length },
+    { id: "npc", label: "NPCs", count: archiveIndex.npcs.length }
+  ];
+
+  filters.innerHTML = kindOptions.map(option => `<button type="button" class="people-kind-filter${option.id === activeKind ? " active" : ""}" data-people-kind="${option.id}" aria-pressed="${option.id === activeKind}">${option.label}<span>${option.count}</span></button>`).join("");
 
   const render = () => {
     const query = queryInput.value.trim().toLocaleLowerCase();
+    const scopedPeople = activeKind === "all" ? people : people.filter(person => person.personKind === activeKind);
     const matches = query
-      ? people.filter(person => `${person.title} ${person.meta} ${person.summary}`.toLocaleLowerCase().includes(query))
-      : people;
-    count.innerHTML = `<strong>${matches.length}</strong> of ${people.length} character records${query ? ` matching “${escapeHtml(queryInput.value.trim())}”` : ""}`;
+      ? scopedPeople.filter(person => `${person.title} ${person.meta} ${person.summary}`.toLocaleLowerCase().includes(query))
+      : scopedPeople;
+    const scopeLabel = activeKind === "player" ? "player characters" : activeKind === "npc" ? "NPC records" : "people records";
+    count.innerHTML = `<strong>${matches.length}</strong> of ${scopedPeople.length} ${scopeLabel}${query ? ` matching “${escapeHtml(queryInput.value.trim())}”` : ""}`;
     gallery.innerHTML = matches.length ? matches.map(person => {
       const protectedRecord = !isPlayerSafeArticle(person.article);
       const media = person.image
@@ -3188,15 +3204,26 @@ function setupPeopleGallery() {
         : person.video
           ? `<video class="ambient-video" data-ambient-video src="${person.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>`
           : `<span class="index-glyph" aria-hidden="true">✦</span>`;
-      return `<button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${person.article}" aria-label="${protectedRecord ? "Protected spoiler record: " : "Open character: "}${escapeHtml(person.title)}">
+      return `<button class="index-card character-card ${person.personKind}-record${protectedRecord ? " locked-record" : ""}" data-article="${person.article}" aria-label="${person.personLabel}: ${protectedRecord ? "protected spoiler record, " : ""}${escapeHtml(person.title)}">
         ${media}
-        <span class="index-card-copy"><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small><strong>${escapeHtml(person.title)}${restrictedMark(person.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
+        <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${escapeHtml(person.title)}${restrictedMark(person.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
       </button>`;
     }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
     setupAmbientVideos(gallery);
   };
 
   queryInput.addEventListener("input", render);
+  filters.addEventListener("click", event => {
+    const filter = event.target.closest("[data-people-kind]");
+    if (!filter) return;
+    activeKind = filter.dataset.peopleKind;
+    filters.querySelectorAll("[data-people-kind]").forEach(button => {
+      const active = button.dataset.peopleKind === activeKind;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    render();
+  });
   render();
 }
 
@@ -3232,7 +3259,10 @@ function setupWorldBrowser() {
   const browser = document.querySelector("#world-browser");
   if (!browser) return;
   const browserData = {
-    characters: [...archiveIndex.characters, ...archiveIndex.npcs],
+    characters: [
+      ...archiveIndex.characters.map(person => ({ ...person, personKind: "player", personLabel: "Player character" })),
+      ...archiveIndex.npcs.map(person => ({ ...person, personKind: "npc", personLabel: "NPC" }))
+    ],
     timeline: archiveIndex.timeline,
     locations: archiveIndex.islands
   };
@@ -3257,7 +3287,7 @@ function setupWorldBrowser() {
         return `
         <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}">
           ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
-          <span class="index-card-copy"><small>${protectedRecord ? "Protected record" : item.meta}</small><strong>${item.title}${restrictedMark(item.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
+          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : item.meta}</small>`}<strong>${item.title}${restrictedMark(item.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
         </button>`; }).join("")}</div>`;
     setupAmbientVideos(articleContent);
   };

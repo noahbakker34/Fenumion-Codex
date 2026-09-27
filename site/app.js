@@ -3439,7 +3439,11 @@ function setupLocationExplorer() {
         const haystack = `${item.title} ${item.region} ${item.parent} ${item.type} ${item.meta} ${item.summary} ${item.source} ${(item.aliases || []).join(" ")}`.toLowerCase();
         return terms.every(term => haystack.includes(term));
       })
-      .sort((a, b) => a.title.localeCompare(b.title) * (direction === "asc" ? 1 : -1));
+      .sort((a, b) => {
+        const levelDifference = (a.level === "region" ? 0 : 1) - (b.level === "region" ? 0 : 1);
+        if (levelDifference) return levelDifference;
+        return a.title.localeCompare(b.title) * (direction === "asc" ? 1 : -1);
+      });
     const grouped = filtered.reduce((groups, item) => {
       if (!groups.has(item.region)) groups.set(item.region, []);
       groups.get(item.region).push(item);

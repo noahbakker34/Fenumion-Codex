@@ -2019,20 +2019,21 @@ const articles = [
   },
   {
     id: "living-timeline", title: "Narrative History", category: "History", type: "Complete recovered event chronology",
-    dek: "From the One Tree and the Great Fracture to the living campaign: every consequential event recovered from the current archive, searchable by name, place, person, and theme.",
+    dek: "The living campaign’s consequential history, searchable by name, place, person, and theme; keeper access also reveals the protected ancient record.",
     tags: ["Timeline", "Events", "Discovery", "Continuity"],
-    facts: { Scope: "Complete recovered chronology", Ordering: "Causal history and player discovery", Coverage: "Ancient world through 2026", Rule: "Unresolved dates remain unresolved" },
+    facts: { Scope: "Recovered campaign chronology", Ordering: "Causal history and player discovery", Coverage: "The Calling through 2026 · ancient world in keeper view", Rule: "Unresolved dates remain unresolved" },
     sources: ["Fenumion_Codex_Master_Timeline_2026-09-20.md — event chronology, evidence levels, and causal spines", "Fenumion Archive Catalogue — chronology and source anchors", "New Year.pdf — community retrospective", "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — undated 2026 Babel-Ashur reconnaissance sequence"],
     body: `
-      <p>The history is presented in causal order, but each event also records when modern adventurers discovered it. Exact dates are used only where the documents provide them; ancient, approximate, and unresolved dates are labeled instead of silently invented.</p>
+      <p>The history is presented in causal order, but each event also records when modern adventurers discovered it. Exact dates are used only where the documents provide them; approximate and unresolved dates are labeled instead of silently invented. The public record begins with the modern Calling, while keeper access reveals the protected ancient and divine chronology.</p>
       <div id="timeline-explorer" class="timeline-explorer" aria-live="polite"></div>
       <h2 id="narrative-arc">The narrative arc</h2>
-      <p>Fenumion begins with an act of protection corrupted by authority. The gods turn the source of life into a weapon, open creation to Death, and then shatter the world to save what remains. Papirak, Paloma, The Before, Roderick, and Aria repeat that first pattern at human scale: love and safety become dangerous when one person claims the right to determine another person’s cost.</p>
+      <p data-vault-only>Fenumion begins with an act of protection corrupted by authority. The gods turn the source of life into a weapon, open creation to Death, and then shatter the world to save what remains. Papirak, Paloma, The Before, Roderick, and Aria repeat that first pattern at human scale: love and safety become dangerous when one person claims the right to determine another person’s cost.</p>
       <p>The modern history begins differently. Adventurers build a wall, teach each other, map danger, carry memories forward, and sometimes refuse the offered sacrifice. Their victories matter because farms, food stores, marriages, memorials, and friendships survive beside them.</p>
       <h2 id="discovery-order">History changes when it is discovered</h2>
-      <p>Roderick is first encountered through Vysaeth’s hostile account, then as Wrath, then through the Liar’s Delerium trade, and finally through Legend Lore. Papirak begins as a comic trainer in March 2024; his lucid seams appear in July; time travel reveals young Papirus in December; the truth of Paloma arrives much later. The timeline keeps those revelations attached to their discovery dates because later evidence does not erase the experience of not yet knowing.</p>
+      <p>Roderick is first encountered through Vysaeth’s hostile account, then as Wrath, then through the Liar’s Delerium trade, and finally through Legend Lore. The timeline keeps revelations attached to their discovery dates because later evidence does not erase the experience of not yet knowing.</p>
+      <p data-vault-only>Papirak begins as a comic trainer in March 2024; his lucid seams appear in July; time travel reveals young Papirus in December; the truth of Paloma arrives much later.</p>
       <h2 id="date-policy">What “complete” means here</h2>
-      <p>This is the complete consequential chronology recoverable from the current archive. It includes ancient causes, dated campaign events, later revelations, and major undated consequences. A missing day is treated as an archival limit, not permission to manufacture one.</p>`
+      <p>This is the consequential chronology recoverable from the current archive. Player-safe mode includes dated campaign events, later revelations, and major undated consequences; keeper view adds protected ancient causes. A missing day is treated as an archival limit, not permission to manufacture one.</p>`
   },
   {
     id: "community", title: "The Community as Protagonist", category: "History", type: "World structure",
@@ -2721,8 +2722,19 @@ const subchannelMap = {
 };
 
 const byId = new Map(articles.map(article => [article.id, article]));
-const publicArticleIds = new Set(["world-index", "visual-archive", "reading-the-codex", "ececilia-emojis"]);
-const restrictedArticleIds = new Set(articles.map(article => article.id).filter(id => !publicArticleIds.has(id)));
+const restrictedArticleIds = new Set([
+  "cosmology-guide",
+  "great-fracture",
+  "wyrm-worlds-end",
+  "death-dumuzi",
+  "cala",
+  "mya",
+  "namoo",
+  "delerium",
+  "the-gate",
+  "the-before-melian",
+  "papirak-paloma"
+]);
 const vaultSessionKey = "fenumion-spoiler-vault";
 const vaultPasswordHash = "47fd84a12f24d047b241ad437028738445417b121d17d2d5d423f1c435c62b05";
 let vaultUnlocked = (() => {
@@ -2766,6 +2778,10 @@ function isRestrictedArticle(id) {
 
 function isPlayerSafeArticle(id) {
   return vaultUnlocked || !isRestrictedArticle(id);
+}
+
+function isRestrictedTimelineEvent(item) {
+  return !vaultUnlocked && (item.era === "Ancient world" || isRestrictedArticle(item.article));
 }
 
 function restrictedMark(id) {
@@ -2917,6 +2933,7 @@ function renderSubchannels(id) {
 
 function applyPlayerSafeRedactions() {
   if (vaultUnlocked) return;
+  articleContent.querySelectorAll("[data-vault-only]").forEach(element => element.remove());
   articleContent.querySelectorAll("[data-article]").forEach(button => {
     const id = button.dataset.article;
     if (!isRestrictedArticle(id)) return;
@@ -2980,7 +2997,7 @@ function setupWorldBrowser() {
       </div>
       <div class="browser-summary"><strong>${items.length}</strong> ${labels[activeView].toLowerCase()} records · ${activeView === "timeline" ? "ordered by discovery" : "ordered by name"}</div>
       <div class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}">${items.map(item => {
-        const protectedRecord = !isPlayerSafeArticle(item.article);
+        const protectedRecord = activeView === "timeline" ? isRestrictedTimelineEvent(item) : !isPlayerSafeArticle(item.article);
         return `
         <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}">
           ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video src="${item.video}" muted loop playsinline preload="metadata" ${matchMedia("(prefers-reduced-motion: reduce)").matches ? "" : "autoplay"} aria-hidden="true"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
@@ -3225,7 +3242,8 @@ function setupLocationExplorer() {
 function setupTimelineExplorer() {
   const explorer = document.querySelector("#timeline-explorer");
   if (!explorer) return;
-  const eras = [...new Set(archiveIndex.timeline.map(item => item.era))];
+  const availableTimeline = archiveIndex.timeline.filter(item => !isRestrictedTimelineEvent(item));
+  const eras = [...new Set(availableTimeline.map(item => item.era))];
   let activeEra = "All eras";
   let direction = "asc";
   let query = "";
@@ -3251,7 +3269,7 @@ function setupTimelineExplorer() {
 
   const renderResults = () => {
     const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    const filtered = archiveIndex.timeline
+    const filtered = availableTimeline
       .filter(item => activeEra === "All eras" || item.era === activeEra)
       .filter(item => {
         const haystack = `${item.title} ${item.meta} ${item.summary} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(" ")}`.toLowerCase();
@@ -3343,7 +3361,7 @@ function runSearch(query) {
     ["Timeline", archiveIndex.timeline],
     ["Locations", archiveIndex.islands]
   ];
-  const indexResults = indexGroups.flatMap(([group, items]) => items.map(item => {
+  const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => group !== "Timeline" || !isRestrictedTimelineEvent(item)).map(item => {
     const haystack = `${group} ${item.title} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`.toLowerCase();
     const titleMatch = item.title.toLowerCase().includes(normalized) ? 4 : 0;
     const allTermsMatch = terms.every(term => haystack.includes(term));

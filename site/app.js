@@ -566,6 +566,7 @@ const articles = [
   },
   {
     id: "ryvyt", title: "Ryvyt", category: "People", type: "Main member of the Ale-Chemy Knights",
+    image: "assets/characters/ryvyt.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Ryvyt, Ale-Chemy founder, crafter, and researcher", imageCaption: "Ryvyt — Ale-Chemy founder, crafter, and researcher.",
     dek: "A founder, crafter, and researcher whose expertise anchors the Ale-Chemy Knights’ shared equipment and specialized production.",
     tags: ["Ryvyt", "Ale-Chemy Knights", "Founder", "Crafter", "Research", "Gael", "Disappearance"],
     facts: { Faction: "Ale-Chemy Knights", Standing: "Founder · main member", Roles: "Crafter · researcher · operational specialist", "Shared system": "Borrows and completes project work", Status: "Not confirmed missing" },
@@ -950,7 +951,7 @@ const articles = [
   },
   {
     id: "death-dumuzi", title: "Death / Dumuzi", category: "Cosmology", type: "Cosmic power",
-    image: "assets/archive/throne.png", imageAlt: "A dark throne associated with the Death image archive", imageCaption: "Throne — supplied alongside the archive’s Death and Knight imagery.",
+    image: "assets/characters/death.png", imageLayout: "portrait-hero", imageAlt: "Hooded portrait of Death with glowing golden eyes", imageCaption: "Death / Dumuzi — the End and master of the numbered Knights.",
     video: "assets/archive/death-dumuzi.mp4", videoAlt: "Death / Dumuzi, his golden eyes emanating power as the view moves closer", videoCaption: "Death / Dumuzi — supplied moving character portrait.",
     dek: "Death can destroy, bargain, and corrupt—but the mortal soul is the territory he cannot simply conquer.",
     tags: ["Death", "Knights", "Choice", "Soul"],
@@ -1245,6 +1246,7 @@ const articles = [
   },
   {
     id: "akarian", title: "Akarian", category: "People", type: "Warrior; Guardian of Gael",
+    image: "assets/characters/akarian.png", imageLayout: "landscape-hero", imageAlt: "Akarian, a long-haired elven warrior carrying a sword in a mountain forest", imageCaption: "Akarian — warrior and Guardian of Gael.",
     video: "assets/archive/akarian.mp4", videoAlt: "Animated portrait of Akarian", videoCaption: "Akarian — Guardian of Gael.",
     dek: "A practical warrior remembered by the surviving record as the Guardian of Gael—a title that binds one person to a recovering land.",
     tags: ["Akarian", "Gael", "Guardian", "Warrior"],
@@ -1484,6 +1486,7 @@ const articles = [
   },
   {
     id: "nymera", title: "Nymera", category: "People", type: "Cala devotee; practical expedition ally",
+    image: "assets/characters/nymera.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Nymera, a Cala devotee and expedition ally", imageCaption: "Nymera — Cala devotee and practical expedition ally.",
     dek: "A willing helper learning that contribution does not require mastering every theory in a room full of specialists.",
     tags: ["Nymera", "Cala", "Luminar Spires", "Babel-Ashur", "Belonging", "Practical help"],
     facts: { Faith: "Follower of Cala", Strength: "Offers practical and physical help", "Known expeditions": "Mountain · Luminar Spires", Thread: "Uncertainty → contribution → group affirmation", Record: "Emerging; chronology incomplete" },
@@ -1742,6 +1745,7 @@ const articles = [
   },
   {
     id: "ghilsen", title: "Ghilsen Hendrickson", category: "People", type: "Former slave; adventurer",
+    image: "assets/characters/ghilsen.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Ghilsen Hendrickson", imageCaption: "Ghilsen Hendrickson — survivor and adventurer.",
     dek: "A survivor whose suspicion of generosity, hunger for freedom, and pursuit of strength all begin with the experience of having been owned.",
     tags: ["Ghilsen", "Freedom", "Strength", "Brianna"],
     facts: { History: "Formerly enslaved", Drive: "Freedom through strength", Relationship: "Brianna / ‘Wifey’", Status: "Later reported fallen" },
@@ -1757,6 +1761,7 @@ const articles = [
   },
   {
     id: "coralyn", title: "Coralyn", category: "People", type: "Aquatic adventurer",
+    image: "assets/characters/coralyn.png", imageLayout: "portrait-hero", imageAlt: "Coralyn, an aquatic adventurer with blue hair and oceanic adornments", imageCaption: "Coralyn — aquatic adventurer and explorer.",
     dek: "Coralyn makes cosmology legible through the sea: islands float in an endless ocean, Shadow Roads become snakes, and the Void is terrifying because it cannot be swum.",
     tags: ["Coralyn", "Aquatic", "Shadow Roads", "Void"],
     facts: { Lens: "The world understood as ocean", Strength: "Distinctive explanation through metaphor", Fear: "The Shadow Roads", Relationships: "Sildithas · Carmen · Jéane Rose" },
@@ -1773,6 +1778,7 @@ const articles = [
   },
   {
     id: "ithilrune", title: "Ithilrûnë", category: "People", type: "Scholar; seeker of knowledge",
+    image: "assets/characters/ithilrune.webp", imageLayout: "portrait-hero", imageAlt: "Portrait of Ithilrûnë, a scholar and seeker of knowledge", imageCaption: "Ithilrûnë — scholar, seeker, and preserver of choice.",
     dek: "Ithilrûnë builds safety from understanding. At the Maw, where evidence will not become a usable model, she must decide whether knowledge can still preserve choice when knowledge is unavailable.",
     tags: ["Ithilrûnë", "Knowledge", "Choice", "Shadow Roads", "The Maw", "The Chains", "Sildithas"],
     facts: { Principle: "Knowledge preserves choice", Method: "Observe → understand → manipulate → preserve options", Crisis: "The Chain and Maw resist understanding", Growth: "Admits ignorance and follows another form of wisdom", Risk: "Decisive action may become preferable to uncertainty" },
@@ -1847,6 +1853,7 @@ const articles = [
   },
   {
     id: "aravil", title: "Aravil", category: "People", type: "Oathbound hunter",
+    image: "assets/characters/aravil.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Aravil, an oathbound hunter", imageCaption: "Aravil — oathbound hunter and practical protector.",
     dek: "Separated from her Queen but not released from her oath, Aravil finds a second form of belonging by becoming useful to Pristinia.",
     tags: ["Aravil", "Queen", "Oath", "Pristinia"],
     facts: { Identity: "Subject separated from her Queen", Principle: "Distance does not annul duty", Mistake: "Acted without understanding the players", "New role": "Hunter for Pristinia" },
@@ -1860,6 +1867,7 @@ const articles = [
   },
   {
     id: "jeane-rose", title: "Jéane Rose", category: "People", type: "Speedster; explorer; protector",
+    image: "assets/characters/jeane-rose.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Jéane Rose, a speedster and explorer", imageCaption: "Jéane Rose — speedster, explorer, and protector.",
     dek: "Rose experiences thought, movement, curiosity, and friendship at speed—while carrying a slower and heavier obligation not to fail people again.",
     tags: ["Jéane Rose", "Speed", "Exploration", "Protection"],
     facts: { Power: "Extraordinary speed", Desire: "See and explore the world", Obligation: "Keep people safe", Tension: "Joy in movement beside fear of failure" },
@@ -1889,6 +1897,7 @@ const articles = [
   },
   {
     id: "arjahn", title: "Arjahn", category: "People", type: "Soldier; mapper; protector",
+    image: "assets/characters/arjahn.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Arjahn, a soldier, mapper, and protector", imageCaption: "Arjahn — soldier, mapper, and protector.",
     dek: "Arjahn thinks beyond the first victory: routes, hazards, retreat, the next fight—and the relationships that must survive long enough to make any plan matter.",
     tags: ["Arjahn", "Pristinia", "Mapping", "Olokun", "Vanguard", "Babel-Ashur"],
     facts: { Method: "Soldier thinking", Priority: "Survive the second fight", Family: "Wife and children", Affiliation: "The Vanguard · May 2026", Strength: "Makes other people’s plans better" },
@@ -1909,6 +1918,7 @@ const articles = [
   },
   {
     id: "wren", title: "Wren", category: "People", type: "Druidic investigator",
+    image: "assets/characters/wren.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Wren, a druidic investigator", imageCaption: "Wren — druidic investigator and reader of the living world.",
     dek: "Wren’s core verb is understand: ask the land, test a claim, notice contradictions, and avoid pretending that inherited certainty is evidence.",
     tags: ["Wren", "Investigation", "Nature", "Zarathis"],
     facts: { "Core verb": "Understand", Method: "Environment as information network", Magic: "Communion rather than command", Habit: "Withhold conclusions when observation is unsafe" },
@@ -1957,6 +1967,7 @@ const articles = [
   },
   {
     id: "dale", title: "Dale", category: "People", type: "Musician; builder of ordinary continuities",
+    image: "assets/characters/dale.png", imageLayout: "portrait-hero", imageAlt: "Dale playing a small stringed instrument", imageCaption: "Dale — musician and practical caretaker.",
     dek: "Dale turns concern into courage, food, tools, shelter, and consultation without pretending care gives him control over another person’s grief.",
     tags: ["Dale", "Saray", "Gael", "Practical care"],
     facts: { Pattern: "Concern → practical care → consultation", Relationship: "Saray", Region: "Gael", Method: "Logistics that remain human" },
@@ -1975,6 +1986,7 @@ const articles = [
   },
   {
     id: "eugene", title: "Eugene", category: "People", type: "Scholar; reluctant bearer of dangerous knowledge",
+    image: "assets/characters/eugene.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Eugene, a scholar and bearer of dangerous knowledge", imageCaption: "Eugene — scholar and reluctant bearer.",
     dek: "Eugene repeatedly names himself as a burden immediately before becoming the person who asks the useful question or carries the difficult knowledge.",
     tags: ["Eugene", "Scribonia", "Delerium", "Knowledge"],
     facts: { Fear: "Failure and burdening others", Pattern: "Self-doubt followed by competence", Mentor: "Scribonia", Trust: "Dangerous weapon and spellbook learning" },
@@ -1993,6 +2005,7 @@ const articles = [
   },
   {
     id: "saray", title: "Saray", category: "People", type: "Survivor of grief; Wrath’s final opponent",
+    image: "assets/characters/saray.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Saray, survivor of grief and opponent of Wrath", imageCaption: "Saray — survivor of grief and Wrath’s final opponent.",
     dek: "Saray carries guilt after Nienna’s death and later lands the final blow on Wrath; the history between those moments remains deliberately open.",
     tags: ["Saray", "Nienna", "Dale", "Wrath"],
     facts: { Wound: "Self-blame after Nienna’s death", Support: "Dale", "Known turning point": "Final blow against Wrath", Confidence: "Partial chronology" },
@@ -2018,6 +2031,7 @@ const articles = [
   },
   {
     id: "pappy", title: "Pappy", category: "People", type: "Druid-barbarian; plainspoken protector",
+    image: "assets/characters/pappy.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Pappy, a druid-barbarian and plainspoken protector", imageCaption: "Pappy — druid-barbarian and plainspoken protector.",
     dek: "A simple, good man placed inside conflicts where goodness does not guarantee safety or clear information.",
     tags: ["Pappy", "Rift", "Adelia", "Dumuzi"],
     facts: { Identity: "Voraketh druid-barbarian", Disposition: "Simple and good", Crisis: "Ambushed during Rift", Escape: "Adelia’s Gate" },
@@ -2064,6 +2078,7 @@ const articles = [
   },
   {
     id: "minerva", title: "Minerva", category: "People", type: "Witch; investigator; difficult ally",
+    image: "assets/characters/minerva.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Minerva, a witch and investigator", imageCaption: "Minerva — witch, investigator, and difficult ally.",
     dek: "A suspicious and forceful investigator whose methods strain alliances, yet whose attention repeatedly turns toward hidden danger and vulnerable people.",
     tags: ["Minerva", "Witch", "Investigation", "You Better Watch Out", "Howl", "Quest archive"],
     facts: { "Primary archive coverage": "Jun 2025 – Aug 2026", "Named quests": "You Better Watch Out · Howl", Strength: "Arcane and creature investigation", Tension: "Information, trust, and coercive methods", Status: "Active through Aug 2026" },
@@ -2082,6 +2097,7 @@ const articles = [
   },
   {
     id: "lady-severina", title: "Lady Severina", category: "People", type: "Commander; civic and expedition leader",
+    image: "assets/characters/lady-severina.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Lady Severina, a commander and civic defender", imageCaption: "Lady Severina — commander and civic defender.",
     dek: "A field commander who treats defense as both battlefield discipline and long-term civic infrastructure.",
     tags: ["Lady Severina", "Commander", "Pristinia", "The Before", "Acolyte", "Civic defense"],
     facts: { "Primary archive coverage": "Nov 2025 – Sep 2026", Roles: "Commander · council participant · expedition protector", "Named quests": "Wherever We Are Now · Acolyte", Holdings: "The Bastion · access to an Eovar tower", Status: "Active through Sep 2026" },
@@ -2099,6 +2115,7 @@ const articles = [
   },
   {
     id: "thorn", title: "Thorn", category: "People", type: "Veilguard; returned survivor",
+    image: "assets/characters/thorn.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Thorn, a Veilguard and returned survivor", imageCaption: "Thorn — Veilguard and returned survivor.",
     dek: "Thorn belongs to the Veilguard, died on a Gael husk hunt, and later returned—while the mechanism connecting those facts remains unknown.",
     tags: ["Thorn", "Veilguard", "Gael", "Unresolved return"],
     facts: { Death: "Gael husk hunt", Aftermath: "Body left; cult ritual attempted", Return: "Alive by 19 Sep 2026", Belonging: "Veilguard" },
@@ -2321,85 +2338,93 @@ const archiveIndex = {
   ],
   characters: [
     { title: "Adelia & Hope", meta: "Character record", article: "adelia-hope", image: "assets/archive/adelia.jpeg", summary: "Ascension, inheritance, and the life made possible by Nienna’s sacrifice." },
-    { title: "Akarian", meta: "Guardian of Gael", article: "akarian", video: "assets/archive/akarian.mp4", summary: "A practical warrior remembered as the Guardian of a wounded region in recovery." },
+    { title: "Akarian", meta: "Guardian of Gael", article: "akarian", image: "assets/characters/akarian.png", video: "assets/archive/akarian.mp4", summary: "A practical warrior remembered as the Guardian of a wounded region in recovery." },
     { title: "Aleister / Alastair", meta: "Character index", article: "people-directory", summary: "A spelling variant preserved from the source catalogue." },
-    { title: "Aravil", meta: "Oathbound hunter", article: "aravil", summary: "Separated from her Queen but not from her oath; finds belonging through useful work in Pristinia." },
-    { title: "Arjahn", meta: "Soldier and mapper", article: "arjahn", summary: "A disciplined protector who plans routes home and makes other people’s solutions stronger." },
-    { title: "Brianna", meta: "Character sighting", article: "ghilsen", summary: "Ghilsen’s ‘Wifey’; enters the Shadow Roads holding him close and later confronts darkness pulled from her body." },
-    { title: "Cecil", meta: "Character sighting", article: "new-year-address", summary: "A careful observer remembered for attention to individual vines and leaves; travels through time with Olokun." },
+    { title: "Aravil", meta: "Oathbound hunter", article: "aravil", image: "assets/characters/aravil.png", summary: "Separated from her Queen but not from her oath; finds belonging through useful work in Pristinia." },
+    { title: "Arjahn", meta: "Soldier and mapper", article: "arjahn", image: "assets/characters/arjahn.png", summary: "A disciplined protector who plans routes home and makes other people’s solutions stronger." },
+    { title: "Brianna", meta: "Character sighting", article: "ghilsen", image: "assets/characters/brianna.png", summary: "Ghilsen’s ‘Wifey’; enters the Shadow Roads holding him close and later confronts darkness pulled from her body." },
+    { title: "Cecil", meta: "Character sighting", article: "new-year-address", image: "assets/characters/cecil.png", summary: "A careful observer remembered for attention to individual vines and leaves; travels through time with Olokun." },
     { title: "Carmen", meta: "Character record", article: "carmen", image: "carmen-portrait.jpg", summary: "A deep gnome warlock whose ledger of obligation is tested by Paco’s unchosen sacrifice." },
-    { title: "Coralyn", meta: "Aquatic adventurer", article: "coralyn", summary: "Explains cosmology through the sea and openly dissents when the Shadow Roads feel wrong." },
-    { title: "Dale", meta: "Musician and practical caretaker", article: "dale", summary: "Turns concern into courage, food, shelter, tools, and consultation without trying to own another person’s grief." },
+    { title: "Coralyn", meta: "Aquatic adventurer", article: "coralyn", image: "assets/characters/coralyn.png", summary: "Explains cosmology through the sea and openly dissents when the Shadow Roads feel wrong." },
+    { title: "Dale", meta: "Musician and practical caretaker", article: "dale", image: "assets/characters/dale.png", summary: "Turns concern into courage, food, shelter, tools, and consultation without trying to own another person’s grief." },
     { title: "Dez", meta: "Character sighting", article: "people-directory", summary: "A tavern-scene presence who repeatedly opens conversational space for Ghilsen and Magnus." },
     { title: "Elenia", meta: "Character record", article: "elenia", image: "elenia-portrait.png", summary: "A bearer of light whose devotion does not require moral blindness." },
     { title: "Gartina", meta: "Character record", article: "gartina", image: "gartina-portrait.png", summary: "A chef and protector for whom preparation is care—and can become self-blame." },
     { title: "Farkur", meta: "Ale-Chemy founder and builder", article: "farkur", image: "farkur-portrait.jpg", summary: "Turns hospitality, specialized labor, shared tools, and funding into an institution intended to outlast any one adventurer." },
-    { title: "Ghilsen Hendrickson", meta: "Former slave; adventurer", article: "ghilsen", summary: "Suspicion, freedom, and the hope that strength can prevent anyone from owning him again." },
-    { title: "Ithilrûnë", meta: "Scholar and seeker", article: "ithilrune", summary: "Uses knowledge to preserve choice; the Maw forces her to admit ignorance and accept another person’s wisdom without abandoning her own." },
-    { title: "Jéane Rose", meta: "Speedster and explorer", article: "jeane-rose", summary: "Experiences thought, friendship, travel, and the obligation to protect at extraordinary speed." },
+    { title: "Ghilsen Hendrickson", meta: "Former slave; adventurer", article: "ghilsen", image: "assets/characters/ghilsen.png", summary: "Suspicion, freedom, and the hope that strength can prevent anyone from owning him again." },
+    { title: "Ithilrûnë", meta: "Scholar and seeker", article: "ithilrune", image: "assets/characters/ithilrune.webp", summary: "Uses knowledge to preserve choice; the Maw forces her to admit ignorance and accept another person’s wisdom without abandoning her own." },
+    { title: "Jéane Rose", meta: "Speedster and explorer", article: "jeane-rose", image: "assets/characters/jeane-rose.png", summary: "Experiences thought, friendship, travel, and the obligation to protect at extraordinary speed." },
     { title: "Jiangshi", meta: "Character record", article: "jiangshi", summary: "An adventurer returned from death whose story tests care, grief, and agency." },
     { title: "Magnus Niriin", meta: "Warlock, Silver Star, political figure", article: "magnus", image: "magnus-portrait.jpg", summary: "An ambitious Zarathian whose pursuit of leverage succeeds even as it deepens his dependence on Death and fractures trust." },
-    { title: "Minerva", meta: "Witch and difficult ally", article: "minerva", summary: "Investigates concealed threats, strains trust through forceful methods, and still turns careful attention toward people in danger." },
+    { title: "Minerva", meta: "Witch and difficult ally", article: "minerva", image: "assets/characters/minerva.png", summary: "Investigates concealed threats, strains trust through forceful methods, and still turns careful attention toward people in danger." },
     { title: "Nienna", meta: "Character record", article: "nienna", image: "nienna-portrait.png", summary: "An absent presence whose sacrifice continues to act through the living." },
-    { title: "Nymera", meta: "Cala devotee and expedition ally", article: "nymera", summary: "Offers practical help among specialists and learns that uncertainty about theory does not make her contribution unwanted." },
+    { title: "Nymera", meta: "Cala devotee and expedition ally", article: "nymera", image: "assets/characters/nymera.png", summary: "Offers practical help among specialists and learns that uncertainty about theory does not make her contribution unwanted." },
     { title: "Olokun", meta: "Protector; Rahu; resurrected adventurer", article: "olokun", image: "olokun-poster.png", summary: "A deeply attached protector whose mature ethic separates care from ownership while fear keeps testing that boundary." },
-    { title: "Pappy", meta: "Plainspoken protector", article: "pappy", summary: "A simple, good man whose Rift rescue exposes the boundary between character knowledge and later governance disputes." },
+    { title: "Pappy", meta: "Plainspoken protector", article: "pappy", image: "assets/characters/pappy.png", summary: "A simple, good man whose Rift rescue exposes the boundary between character knowledge and later governance disputes." },
     { title: "Pelagia", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Quake", meta: "Character sighting", article: "roderick-wrath", summary: "Refuses Wrath’s bargain before its full danger is understood; protected by Elenia’s practiced memory of earlier loss." },
-    { title: "Saray", meta: "Survivor of grief", article: "saray", summary: "Carries guilt after Nienna’s death and later lands the final blow against Wrath; the connecting chronology remains incomplete." },
+    { title: "Saray", meta: "Survivor of grief", article: "saray", image: "assets/characters/saray.png", summary: "Carries guilt after Nienna’s death and later lands the final blow against Wrath; the connecting chronology remains incomplete." },
     { title: "Rahn", meta: "Character sighting", article: "people-directory", summary: "A sparsely recorded flying adventurer preserved in the recovered scene catalogue." },
-    { title: "Ryvyt", meta: "Ale-Chemy founder and crafter", article: "ryvyt", summary: "Makes specialization operational through crafting, research, shared equipment, and project work." },
+    { title: "Ryvyt", meta: "Ale-Chemy founder and crafter", article: "ryvyt", image: "assets/characters/ryvyt.png", summary: "Makes specialization operational through crafting, research, shared equipment, and project work." },
     { title: "St. Anky", meta: "Nuru’s saint and chronicler", article: "st-anky", image: "st-anky-portrait.png", summary: "Built Voraketh’s Temple of Secrets so knowledge, questions, and communal resources could survive their keepers." },
     { title: "Scribonia", meta: "Magi and scholar", article: "scribonia", image: "scribonia-portrait.png", summary: "Self-defined before every label; brave in argument and often unable to relinquish the last word." },
     { title: "Selwyn", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
-    { title: "Lady Severina", meta: "Commander and civic defender", article: "lady-severina", summary: "Connects field discipline, scholar protection, walls, quarry production, and guarded refuge into one practice of defense." },
+    { title: "Lady Severina", meta: "Commander and civic defender", article: "lady-severina", image: "assets/characters/lady-severina.png", summary: "Connects field discipline, scholar protection, walls, quarry production, and guarded refuge into one practice of defense." },
     { title: "Sildithas", meta: "Oathbound defender", article: "sildithas", image: "sildithas-portrait.png", summary: "Meets uncertain divine authority by returning to an oath of mercy, flourishing, courage, and preserved joy." },
     { title: "Swiftfoot", meta: "Character sighting", article: "new-year-address", summary: "Remembered in the community retrospective for a sacrifice carried into shared history." },
-    { title: "Thorn", meta: "Veilguard and returned survivor", article: "thorn", summary: "Dies on a Gael husk hunt, is later caught in a cult ritual, and returns by September 2026 through an unresolved mechanism." },
+    { title: "Thorn", meta: "Veilguard and returned survivor", article: "thorn", image: "assets/characters/thorn.png", summary: "Dies on a Gael husk hunt, is later caught in a cult ritual, and returns by September 2026 through an unresolved mechanism." },
     { title: "Tobias", meta: "Ale-Chemy builder and guide", article: "tobias", summary: "Turns newcomer support into direct practice through food, maps, information, escort, work connections, and personal help." },
-    { title: "Tshuka", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
-    { title: "Vaelith", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
+    { title: "Tshuka", meta: "Character index", article: "people-directory", image: "assets/characters/tshuka.png", summary: "A player character preserved in the recovered catalogue." },
+    { title: "Vaelith", meta: "Character index", article: "people-directory", image: "assets/characters/vaelith.png", summary: "A player character preserved in the recovered catalogue." },
     { title: "Vaerik", meta: "Old soldier", article: "vaerik", image: "assets/archive/vaerik.png", summary: "Duty expressed as the conviction that if he can bear a burden, he must." },
-    { title: "Wren", meta: "Druidic investigator", article: "wren", summary: "Asks the land, tests inherited stories, and treats understanding as a collective practice." },
+    { title: "Wren", meta: "Druidic investigator", article: "wren", image: "assets/characters/wren.png", summary: "Asks the land, tests inherited stories, and treats understanding as a collective practice." },
     { title: "Alioth", meta: "Rahu trial participant", article: "casimir-alioth", summary: "Calls loyalty to Casimir a strength where Ephraith judges the same choice an institutional failure." },
     { title: "Aurélia / Night", meta: "Magic Academy student", article: "people-directory", summary: "A student by September 2026 whose fuller chronology still needs primary-source recovery." },
     { title: "Casimir", meta: "Procedural thinker", article: "casimir-alioth", summary: "Tests constraints, questions, silence, and institutional rules rather than trying to overpower them." },
     { title: "Di’trillio", meta: "Contamination-sensitive explorer", article: "cave-company", summary: "Reads the contaminated corpse and nearby crystals differently, then argues that the cave should be cleared or collapsed." },
-    { title: "Djöhandrai", meta: "Cautious cave explorer", article: "cave-company", summary: "Wants to leave but chooses to help prevent the corpse’s fate from reaching others." },
+    { title: "Djöhandrai", meta: "Cautious cave explorer", article: "cave-company", image: "assets/characters/djohandrai.png", summary: "Wants to leave but chooses to help prevent the corpse’s fate from reaching others." },
     { title: "Marius Antares", meta: "Magic Academy student", article: "people-directory", summary: "Observes changes in Prima and voices a belief about Gael’s economy that remains attributed rather than established." },
     { title: "Moira Eshdin", meta: "Analytical cave explorer", article: "cave-company", summary: "Theorizes about the cave’s connections and corruption while keeping her claims at the level of character understanding." },
-    { title: "Pell", meta: "Cave explorer", article: "cave-company", summary: "Frightened and practical; insists the corrupted corpse was somebody’s child and deserves burial." },
-    { title: "Saoirse", meta: "Mage and future teacher", article: "cave-company", summary: "Warns about contamination, uses petal-based magic, and prepares to teach at Prima’s Magic Academy." },
-    { title: "Vessalia", meta: "Contaminated singer", article: "cave-company", summary: "Uses song to manage fear, accepts correction when it attracts danger, and remains attentive to Pell." }
+    { title: "Pell", meta: "Cave explorer", article: "cave-company", image: "assets/characters/pell.png", summary: "Frightened and practical; insists the corrupted corpse was somebody’s child and deserves burial." },
+    { title: "Saoirse", meta: "Mage and future teacher", article: "cave-company", image: "assets/characters/saoirse.png", summary: "Warns about contamination, uses petal-based magic, and prepares to teach at Prima’s Magic Academy." },
+    { title: "Vessalia", meta: "Contaminated singer", article: "cave-company", image: "assets/characters/vessalia.jpg", summary: "Uses song to manage fear, accepts correction when it attracts danger, and remains attentive to Pell." }
   ],
   npcs: [
     { title: "Aria / Pride", meta: "Knight II of Death", article: "aria-pride", summary: "A daughter of Death whose philosophy treats attachment as future weakness.", image: "aria-pride-portrait.png" },
-    { title: "High Lord Bowene", meta: "Political authority", article: "aria-pride", summary: "Stops a council’s pursuit of alliance with Death and eventually ends an argument Aria has dominated." },
+    { title: "High Lord Bowene", meta: "Political authority", article: "aria-pride", image: "assets/characters/bowene.png", summary: "Stops a council’s pursuit of alliance with Death and eventually ends an argument Aria has dominated." },
     { title: "Cala", meta: "Divine figure", article: "cala", image: "assets/archive/cala-poster.png", summary: "A goddess of light and heroism who also carries responsibility for the old catastrophe." },
-    { title: "Death / Dumuzi", meta: "Cosmic power", article: "death-dumuzi", summary: "A destroyer and bargainer constrained by the mortal soul’s need to choose.", image: "assets/archive/throne.png" },
+    { title: "Death / Dumuzi", meta: "Cosmic power", article: "death-dumuzi", summary: "A destroyer and bargainer constrained by the mortal soul’s need to choose.", image: "assets/characters/death.png" },
     { title: "The Wyrm of the World’s End", meta: "Existential enemy", article: "wyrm-worlds-end", video: "wyrm-worlds-end.mp4", summary: "The hunger fed with dead gods and slowed—but not ended—by the Great Fracture." },
     { title: "Draegar", meta: "Recurring figure", article: "gartina", summary: "Remembered beside Gartina in the community’s romantic history." },
     { title: "Endora", meta: "Roderick’s beloved", article: "roderick-wrath", summary: "A woman whose choices are repeatedly filtered through the people who tried to keep or preserve her." },
-    { title: "Alessio", meta: "Common Man worker", article: "common-man", summary: "Works the tables, cleans mugs, and makes the tavern legible as a civilian workplace." },
+    { title: "Alessio", meta: "Common Man worker", article: "common-man", image: "assets/characters/alessio.png", summary: "Works the tables, cleans mugs, and makes the tavern legible as a civilian workplace." },
     { title: "Farmer Frank", meta: "Pristinia farmer", article: "common-man", summary: "Carries the ordinary cost when promised harvest help does not return." },
     { title: "Herb", meta: "Common Man bartender", article: "herb", video: "herb-portrait.mp4", summary: "Local knowledge connecting food stores, regulars, labor needs, and ecological restraint." },
     { title: "Lichen", meta: "Pristinia newcomer", article: "people-directory", summary: "A visibly strange newcomer who learns that Skye can be a safe friend." },
-    { title: "Melian", meta: "Witness of The Before", article: "the-before-melian", summary: "A survivor who answers catastrophe with preparation rather than denial." },
-    { title: "Aionia", meta: "Goddess of time and space", article: "the-gate", summary: "Permits one tightly limited historical change; interference with time attracts consequences." },
-    { title: "Eugene", meta: "Scholar and reluctant bearer", article: "eugene", summary: "Names himself as a burden immediately before asking the useful question or carrying difficult knowledge." },
+    { title: "Melian", meta: "Witness of The Before", article: "the-before-melian", image: "assets/characters/melian.png", summary: "A survivor who answers catastrophe with preparation rather than denial." },
+    { title: "Aionia", meta: "Goddess of time and space", article: "the-gate", image: "assets/characters/aionia.png", summary: "Permits one tightly limited historical change; interference with time attracts consequences." },
+    { title: "Eugene", meta: "Scholar and reluctant bearer", article: "eugene", image: "assets/characters/eugene.png", summary: "Names himself as a burden immediately before asking the useful question or carrying difficult knowledge." },
     { title: "Mya", meta: "Goddess of Hope", article: "mya", image: "assets/archive/mya.jpeg", summary: "Follows Elenia, cleanses Brianna’s corrupted crystal, and makes a future through rather than around prior harm." },
     { title: "Namo’o", meta: "God of Souls", article: "namoo", summary: "A god whose act toward Papirak is both mercy and violation." },
     { title: "Paloma", meta: "Sacrifice and memory", article: "papirak-paloma", summary: "The wife who voluntarily became the complete price of Papirak’s Wish." },
     { title: "Papirak", meta: "Keeper of the Gate", article: "papirak-paloma", summary: "A savior whose erased memory returned two thousand years later." },
     { title: "Paco", meta: "Carmen’s companion", article: "carmen", summary: "His sacrifice turns obligation into a question about love, choice, and ownership." },
     { title: "Roderick / Wrath", meta: "Knight I of Death", article: "roderick-wrath", summary: "A duke and Knight whose history reaches the players in consequential fragments.", image: "assets/archive/wrath.gif" },
-    { title: "Nuru", meta: "Divine power", article: "great-fracture", summary: "A secretive pragmatist who helped discover Delerium and bears responsibility for the catastrophe that followed." },
+    { title: "Nuru", meta: "Divine power", article: "great-fracture", image: "assets/characters/nuru.webp", summary: "A secretive pragmatist who helped discover Delerium and bears responsibility for the catastrophe that followed." },
     { title: "Serra", meta: "Common Man barmaid", article: "common-man", summary: "A tavern worker whose observation about declining tips preserves the civilian economic effect of an adventurer’s absence." },
     { title: "Skye", meta: "Musician and safe friend", article: "common-man", summary: "Refuses to exploit Lichen’s generosity and connects a newcomer to the First Forest through music and conversation." },
-    { title: "Talan", meta: "God of Justice and Order", article: "aria-pride", summary: "Aria’s childhood symbol of failed divine authority and the god who eventually kills her." },
+    { title: "Talan", meta: "God of Justice and Order", article: "great-fracture", image: "assets/characters/talan.png", summary: "Aria’s childhood symbol of failed divine authority and the god who eventually kills her." },
+    { title: "Moirah", meta: "Goddess of Fate", article: "great-fracture", image: "assets/characters/moirah.png", summary: "A divine caretaker of fate preserved in the protected record of the ancient world." },
     { title: "The Liar", meta: "Imprisoned divine figure", article: "roderick-wrath", summary: "Trades Delerium to Roderick for Eldrin’s relic, enabling Endora’s corrupted return." },
     { title: "Tutora Rhex", meta: "Dragon and historical witness", article: "roderick-wrath", summary: "Carries Elenia home from the Liar’s prison and preserves a source account of the Delerium trade." },
-    { title: "Vysaeth", meta: "King, lich, witness", article: "vysaeth", summary: "A ruler whose testimony becomes an early lens on Roderick and Endora." }
+    { title: "Vysaeth", meta: "King, lich, witness", article: "vysaeth", summary: "A ruler whose testimony becomes an early lens on Roderick and Endora." },
+    { title: "Alfred Riverheart", meta: "Voraketh expedition ally", article: "voraketh", image: "assets/characters/alfred-riverheart.png", summary: "Nearly dies damaging a Chain and later enters Portho’s Portal beside Anky and Cerwin." },
+    { title: "Camilla", meta: "Pristinian civic advocate", article: "before-survey", image: "assets/characters/camilla.png", summary: "Joins The Before survey and argues that private wealth should strengthen defense, agriculture, and trade." },
+    { title: "Cerwin Rayolet", meta: "Voraketh expedition ally", article: "st-anky", image: "assets/characters/cerwin-rayolet.png", summary: "Travels through Portho’s Portal with Anky and later reaches him wounded on the road to the afterlife." },
+    { title: "Commander Yvette", meta: "Commander remembered through consequence", article: "farkur", image: "assets/characters/commander-yvette.png", summary: "Her murder becomes the civic wound behind Farkur’s confession and the Guardians’ judgment." },
+    { title: "Ephraith", meta: "Rahu authority", article: "casimir-alioth", image: "assets/characters/ephraith.webp", summary: "Judges Casimir and Alioth’s loyalty as institutional failure where Alioth sees interpersonal strength." },
+    { title: "Gregory Greenleaf", meta: "Investigator and institutional critic", article: "ale-chemy-knights", image: "assets/characters/gregory-greenleaf.png", summary: "Challenges Ale-Chemy financing, helps rescue a child from Krampus, and accompanies Farkur to the graves." },
+    { title: "Miri", meta: "The Before survey participant", article: "before-survey", image: "assets/characters/miri.png", summary: "Joins the Pristinian–Rahuvian survey of The Before and helps carry its recovered evidence forward." }
   ],
   islands: [
     { title: "Fenumion & the Void", region: "World", parent: "World", type: "world geography", meta: "World · geography", article: "fenumion", summary: "Inhabited lands survive as separated pockets around the enormous, branching geographic and cosmological Void.", source: "Chronicle + world map", aliases: ["Shattered world"], image: "assets/archive/world-map.jpeg", level: "region" },
@@ -3099,6 +3124,15 @@ function renderArticle(route, pushHash = true) {
       </div>
       <div id="interactive-atlas" class="interactive-atlas"></div>
     </section>` : "";
+  const peopleGallery = article.id === "people-directory" ? `
+    <section class="people-gallery-shell" aria-labelledby="people-gallery-title">
+      <div class="people-gallery-heading">
+        <div><p class="eyebrow">Visual character archive</p><h2 id="people-gallery-title">Meet the people of Fenumion</h2><p>Browse every indexed hero, ally, ruler, witness, god, and recurring figure. Portraits appear wherever the archive includes a named visual record.</p></div>
+        <label class="people-gallery-search" for="people-gallery-query"><span>Search characters</span><input id="people-gallery-query" type="search" placeholder="Name, role, or story…" autocomplete="off"></label>
+      </div>
+      <p class="browser-summary" id="people-gallery-count" role="status" aria-live="polite"></p>
+      <div class="browser-grid people-gallery" id="people-gallery"></div>
+    </section>` : "";
   articleContent.innerHTML = `
     <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubPage.image}')"` : ""}>
       <p class="article-kicker">${article.type}</p>
@@ -3111,11 +3145,13 @@ function renderArticle(route, pushHash = true) {
     ${hubPage ? "" : hero}
     ${sourceLedger}
     ${subchannels}
+    ${peopleGallery}
     <div class="lead-grid">
       <div class="article-body">${article.body}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
   if (article.id === "world-index") setupWorldBrowser();
+  if (article.id === "people-directory") setupPeopleGallery();
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
   if (article.id === "living-timeline") setupTimelineExplorer();
   setupAmbientVideos(articleContent);
@@ -3125,6 +3161,39 @@ function renderArticle(route, pushHash = true) {
   buildContents();
   closePanels();
   window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+}
+
+function setupPeopleGallery() {
+  const gallery = document.querySelector("#people-gallery");
+  const queryInput = document.querySelector("#people-gallery-query");
+  const count = document.querySelector("#people-gallery-count");
+  if (!gallery || !queryInput || !count) return;
+  const people = [...archiveIndex.characters, ...archiveIndex.npcs]
+    .sort((left, right) => left.title.localeCompare(right.title));
+
+  const render = () => {
+    const query = queryInput.value.trim().toLocaleLowerCase();
+    const matches = query
+      ? people.filter(person => `${person.title} ${person.meta} ${person.summary}`.toLocaleLowerCase().includes(query))
+      : people;
+    count.innerHTML = `<strong>${matches.length}</strong> of ${people.length} character records${query ? ` matching “${escapeHtml(queryInput.value.trim())}”` : ""}`;
+    gallery.innerHTML = matches.length ? matches.map(person => {
+      const protectedRecord = !isPlayerSafeArticle(person.article);
+      const media = person.image
+        ? `<img src="${person.image}" alt="" loading="lazy">`
+        : person.video
+          ? `<video class="ambient-video" data-ambient-video src="${person.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>`
+          : `<span class="index-glyph" aria-hidden="true">✦</span>`;
+      return `<button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${person.article}" aria-label="${protectedRecord ? "Protected spoiler record: " : "Open character: "}${escapeHtml(person.title)}">
+        ${media}
+        <span class="index-card-copy"><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small><strong>${escapeHtml(person.title)}${restrictedMark(person.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
+      </button>`;
+    }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
+    setupAmbientVideos(gallery);
+  };
+
+  queryInput.addEventListener("input", render);
+  render();
 }
 
 function renderSubchannels(id) {

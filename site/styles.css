@@ -401,6 +401,15 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .browser-summary { padding: .7rem .2rem; color: var(--faint); font-size: .72rem; letter-spacing: .04em; }
 .browser-summary strong { color: var(--gold-bright); }
 .browser-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; }
+.people-gallery-shell { margin: 1.5rem 0 2.4rem; padding: 1.15rem; background: #17181e; border: 1px solid #44454b; border-radius: 10px; box-shadow: 0 18px 50px rgba(0,0,0,.18); }
+.people-gallery-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 340px); gap: 1.25rem; align-items: end; }
+.people-gallery-heading h2 { margin: .18rem 0 .35rem; color: #f1ead8; font: 600 clamp(1.55rem, 3vw, 2.25rem)/1.08 var(--serif); }
+.people-gallery-heading p:not(.eyebrow) { max-width: 68ch; margin: 0; color: var(--muted); }
+.people-gallery-search { display: grid; gap: .38rem; }
+.people-gallery-search span { color: var(--gold); font-size: .65rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.people-gallery-search input { width: 100%; min-height: 44px; padding: .7rem .8rem; color: var(--ink); background: #202129; border: 1px solid #4c4d52; border-radius: 7px; outline: none; font: .82rem/1.2 var(--sans); }
+.people-gallery-search input:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(212,180,109,.1); }
+.people-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .index-card { display: grid; grid-template-columns: 82px minmax(0, 1fr); min-height: 118px; overflow: hidden; padding: 0; color: inherit; text-align: left; background: linear-gradient(145deg, rgba(21,52,40,.72), rgba(10,27,21,.88)); border: 1px solid var(--line); cursor: pointer; }
 .index-card:hover { border-color: var(--gold); transform: translateY(-1px); }
 .index-card img,
@@ -941,6 +950,9 @@ body:not(.home-view) mark { color: #18160f; background: var(--gold-bright); }
   body:not(.home-view) .index-card video { width: 88px; min-height: 126px; }
   body:not(.home-view) .index-glyph { min-height: 126px; }
   body:not(.home-view) .search-panel { top: 128px; }
+  .people-gallery-shell { padding: .85rem; }
+  .people-gallery-heading { grid-template-columns: 1fr; align-items: stretch; }
+  .people-gallery { grid-template-columns: 1fr; }
 }
 
 /* Gateway pages

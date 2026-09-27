@@ -2897,6 +2897,8 @@ const restrictedArticleIds = new Set([
 ]);
 const vaultSessionKey = "fenumion-spoiler-vault";
 const vaultPasswordHash = "47fd84a12f24d047b241ad437028738445417b121d17d2d5d423f1c435c62b05";
+const toolsPasswordHash = "eaba80fc4e070e25c8e64b49918195c883d9ff348e899c5e85ca49b9ec23aff6";
+const toolsDestination = "https://dnd-combat-engine-production.up.railway.app";
 let vaultUnlocked = (() => {
   try { return sessionStorage.getItem(vaultSessionKey) === "open"; }
   catch { return false; }
@@ -2927,6 +2929,10 @@ const vaultDialog = document.querySelector("#vault-dialog");
 const vaultForm = document.querySelector("#vault-form");
 const vaultPassword = document.querySelector("#vault-password");
 const vaultError = document.querySelector("#vault-error");
+const toolsDialog = document.querySelector("#tools-dialog");
+const toolsForm = document.querySelector("#tools-form");
+const toolsPassword = document.querySelector("#tools-password");
+const toolsError = document.querySelector("#tools-error");
 let ambientVideoObserver = null;
 
 function escapeHtml(value) {
@@ -3005,7 +3011,11 @@ function closeVaultDialog() {
 }
 
 async function sha256(value) {
-  if (!globalThis.crypto?.subtle) return value === ["Du", "mu", "zi"].join("") ? vaultPasswordHash : "";
+  if (!globalThis.crypto?.subtle) {
+    if (value === ["Du", "mu", "zi"].join("")) return vaultPasswordHash;
+    if (value === ["Ada", "and", "Herb"].join("")) return toolsPasswordHash;
+    return "";
+  }
   const bytes = new TextEncoder().encode(value);
   const digest = await crypto.subtle.digest("SHA-256", bytes);
   return [...new Uint8Array(digest)].map(byte => byte.toString(16).padStart(2, "0")).join("");
@@ -3637,6 +3647,33 @@ vaultForm.addEventListener("submit", async event => {
   updateVaultState();
   renderNavigation();
   renderArticle(location.hash.slice(1) || "world-index", false);
+});
+function openToolsDialog() {
+  toolsError.textContent = "";
+  toolsPassword.value = "";
+  if (typeof toolsDialog.showModal === "function") toolsDialog.showModal();
+  else toolsDialog.setAttribute("open", "");
+  requestAnimationFrame(() => toolsPassword.focus());
+}
+function closeToolsDialog() {
+  if (typeof toolsDialog.close === "function") toolsDialog.close();
+  else toolsDialog.removeAttribute("open");
+}
+document.querySelectorAll("[data-tools-gate]").forEach(button => button.addEventListener("click", openToolsDialog));
+document.querySelector("#tools-close").addEventListener("click", closeToolsDialog);
+toolsDialog.addEventListener("click", event => {
+  if (event.target === toolsDialog) closeToolsDialog();
+});
+toolsForm.addEventListener("submit", async event => {
+  event.preventDefault();
+  const candidateHash = await sha256(toolsPassword.value.trim());
+  if (candidateHash !== toolsPasswordHash) {
+    toolsError.textContent = "That password did not open the campaign tools.";
+    toolsPassword.select();
+    return;
+  }
+  closeToolsDialog();
+  location.assign(toolsDestination);
 });
 document.addEventListener("keydown", event => {
   if (event.key === "/" && !/input|textarea/i.test(document.activeElement.tagName)) {

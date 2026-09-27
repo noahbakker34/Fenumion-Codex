@@ -1193,7 +1193,7 @@ const articles = [
         <li><a href="#casimir-alioth"><strong>Casimir &amp; Alioth</strong></a> — loyalty interpreted differently by the people who chose it and the institution that judged it.</li>
         <li><a href="#pappy"><strong>Pappy</strong></a> — plainspoken goodness tested by the Rift ambush and Adelia’s intervention.</li>
         <li><a href="#thorn"><strong>Thorn</strong></a> — a Veilguard whose death, ritual aftermath, and return remain partly unresolved.</li>
-        <li><a href="#cave-company"><strong>The Delerium cave company</strong></a> — six people whose responses to contamination preserve the full ensemble.</li>
+        <li><a href="#cave-company"><strong>The Seekers</strong></a> — Vessalia, Di’Trillio, Pell, Minerva, and Fenwick, united by dangerous investigation.</li>
         <li><a href="#elenia"><strong>Elenia</strong></a> — a bearer of light who converts loss into practical hope.</li>
         <li><a href="#olokun"><strong>Olokun</strong></a> — relationships, dignity, and the refusal to universalize pain.</li>
         <li><a href="#nienna"><strong>Nienna</strong></a> — an absent presence whose voluntary sacrifice remains causally active.</li>
@@ -2080,11 +2080,12 @@ const articles = [
     id: "minerva", title: "Minerva", category: "People", type: "Witch; investigator; difficult ally",
     image: "assets/characters/minerva.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Minerva, a witch and investigator", imageCaption: "Minerva — witch, investigator, and difficult ally.",
     dek: "A suspicious and forceful investigator whose methods strain alliances, yet whose attention repeatedly turns toward hidden danger and vulnerable people.",
-    tags: ["Minerva", "Witch", "Investigation", "You Better Watch Out", "Howl", "Quest archive"],
-    facts: { "Primary archive coverage": "Jun 2025 – Aug 2026", "Named quests": "You Better Watch Out · Howl", Strength: "Arcane and creature investigation", Tension: "Information, trust, and coercive methods", Status: "Active through Aug 2026" },
-    sources: ["Complete quest-rp export — 918 Minerva messages across 23 active dates", "Candidate session 255, 16 Dec 2025 — You Better Watch Out", "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning", "Candidate session 301, 29 May 2026 — Howl"],
+    tags: ["Minerva", "The Seekers", "Witch", "Investigation", "You Better Watch Out", "Howl", "Quest archive"],
+    facts: { "Primary archive coverage": "Jun 2025 – Aug 2026", Company: "The Seekers", "Named quests": "You Better Watch Out · Howl", Strength: "Arcane and creature investigation", Tension: "Information, trust, and coercive methods", Status: "Active through Aug 2026" },
+    sources: ["User canon correction, 27 Sep 2026 — confirmed member of the Seekers", "Complete quest-rp export — 918 Minerva messages across 23 active dates", "Candidate session 255, 16 Dec 2025 — You Better Watch Out", "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning", "Candidate session 301, 29 May 2026 — Howl"],
     body: `
       <p>Minerva’s quest record resists a simple verdict. She is watchful, magically informed, willing to pursue danger, and often convinced that others’ caution is blindness. The same intensity that uncovers threats also makes cooperation brittle when she treats disputed conclusions as emergencies everyone else must accept.</p>
+      <p>Minerva is a confirmed member of <a href="#cave-company">the Seekers</a> alongside Vessalia, Di’Trillio, Pell, and Fenwick. Her investigative record gives that membership context without making every one of her personal conclusions company doctrine.</p>
       <h2 id="minerva-krampus">16 December 2025 · You Better Watch Out</h2>
       <p>Minerva and Gregory are the first to notice a shadow moving through the silent village street. During the fight she keeps track of the rooftop creature carrying a missing child while the party battles animated toys. Ruben’s final shot drops Krampus and the child is recovered. The scene establishes Minerva’s vigilance inside a successful communal rescue.</p>
       <h2 id="minerva-guardians">29 March 2026 · warning without trust</h2>
@@ -2133,21 +2134,23 @@ const articles = [
       <p>Thorn helps free and heal a deer caught in a bear trap, searches around the winter cabin, and later finds the wolf tracks that lead toward the den. Her contribution is not a single finishing blow. It is the sequence that turns a frightened wilderness scene into a route the party can follow.</p>`
   },
   {
-    id: "cave-company", title: "The Delerium Cave Company", category: "People", type: "Ensemble record · 20 September 2026",
-    dek: "Six people enter an unmapped cave and reveal themselves through fear, contamination, curiosity, song, care, and competing judgments about what danger requires.",
-    tags: ["Di’trillio", "Pell", "Vessalia", "Moira Eshdin", "Djöhandrai", "Saoirse"],
-    facts: { Date: "20 Sep 2026", Site: "Unmapped cave", Threats: "Contaminated corpse · crystals · malformed harpies", Status: "Unresolved" },
-    sources: ["CHARACTER_BIBLE.md — cave ensemble records", "MASTER_TIMELINE.md — 20 September event", "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — cave questions"],
+    id: "cave-company", title: "The Seekers", category: "People", type: "Expedition company · investigators",
+    dek: "Vessalia, Di’Trillio, Pell, Minerva, and Fenwick form an investigative company drawn toward contamination, dangerous places, and unresolved threats.",
+    tags: ["The Seekers", "Vessalia", "Di’Trillio", "Pell", "Minerva", "Fenwick", "Delerium investigation"],
+    facts: { Members: "Vessalia · Di’Trillio · Pell · Minerva · Fenwick", Evidence: "Cave investigation", Threats: "Contamination · crystals · malformed harpies", Status: "Active record" },
+    sources: ["User canon correction, 27 Sep 2026 — proper company name and confirmed membership", "CHARACTER_BIBLE.md — cave ensemble records", "MASTER_TIMELINE.md — 20 September event", "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — cave questions"],
     body: `
-      <p>The cave record matters because nobody is reduced to evidence for the loudest person. Each response makes a different part of the danger legible while the larger mechanism remains unknown.</p>
+      <p><strong>The Seekers</strong> is the company’s proper name. Its confirmed members are Vessalia, Di’Trillio, Pell, Minerva, and Fenwick. The earlier archive mistakenly treated everyone present in a single cave account as the organization’s roster; scene participation and faction membership are now kept separate.</p>
+      <h2 id="seeker-members">Confirmed members</h2>
       <div class="directory-grid">
-        <section><h3>Di’trillio</h3><p>Recognizes contamination and shard fragments in the corpse while nearby violet crystals do not produce identical feedback. Decisive about collapsing the cave, yet gentle when Vessalia’s song creates risk.</p></section>
+        <section><h3>Vessalia</h3><p>A contaminated singer who uses song to hold fear at bay, remains attentive to Pell, and accepts correction when her magic creates risk.</p></section>
+        <section><h3>Di’Trillio</h3><p>Recognizes contamination and shard fragments in the corpse while nearby violet crystals do not produce identical feedback. Decisive about collapsing the cave, yet gentle when Vessalia’s song creates risk.</p></section>
         <section><h3>Pell</h3><p>Frightened, practical, and still drawn toward dangerous understanding. The corpse becomes human history when he says it was somebody’s child and argues for burial.</p></section>
-        <section><h3>Vessalia</h3><p>Already contaminated, cautious around the crystals, and attentive to Pell. She uses song to hold fear at bay; when it attracts attention, she accepts correction.</p></section>
-        <section><h3>Moira Eshdin</h3><p>Immediately asks where the cave might connect and how corruption spreads. Her theory is useful and remains a theory rather than established geography.</p></section>
-        <section><h3>Djöhandrai</h3><p>Wants to leave, then decides they must prevent the corpse’s fate from reaching someone else. Fear and obligation remain present together.</p></section>
-        <section><h3>Saoirse</h3><p>Warns Pell based on her understanding of contamination, focuses the group, uses petal-based magic, and is preparing to teach at Prima’s Magic Academy.</p></section>
+        <section><h3>Minerva</h3><p>A watchful witch and investigator whose sensitivity to concealed threats is valuable even when her forceful methods strain trust.</p></section>
+        <section><h3>Fenwick</h3><p>A confirmed Seeker also remembered in Eovar’s public record. His precise duties within the company have not yet been recovered.</p></section>
       </div>
+      <h2 id="seeker-cave-record">The cave record</h2>
+      <p>The recovered cave investigation preserves a contaminated corpse, strange tracks, violet crystals, malformed harpy-like creatures, and something deeper that imitates Vessalia’s song. Those events reveal the kind of danger associated with the Seekers without making every person present a company member.</p>
       <h2 id="what-remains-unknown">What remains unknown</h2>
       <p>The crystals may not be Delerium. The corpse’s identity and contamination source are unknown. The cave’s connection to other sites is unproven. The malformed harpies’ origin is unresolved. Something deeper imitates Vessalia’s song; the record does not yet say what.</p>`
   },
@@ -2309,7 +2312,7 @@ const archiveIndex = {
     { title: "Safe known-person travel to Gael is available", meta: "Confirmed 19 Sep 2026", sort: "2026-09-19b", era: "2026 · Consequences", kind: "Interregional change", article: "gael", location: "Prima ↔ Gael", people: "Thorn; Ale-chemy Knights; unnamed transporter", tags: ["travel", "islands", "network"], summary: "Thorn says a friend can safely carry people they know to Gael from any island; the exact spell or mechanism remains unresolved." },
     { title: "Pilgrim’s Hearth returns ordinary social life", meta: "19 Sep 2026", sort: "2026-09-19c", era: "2026 · Consequences", kind: "Civic continuity", article: "common-man", location: "Pilgrim’s Hearth; Pristinia", people: "Thorn; Aurélia; Marius; Saoirse", tags: ["Common Man", "tavern", "rebuilding"], summary: "The successor tavern on the Common Man’s foundations functions as a place for tea, news, and social connection after destruction and rebuilding." },
     { title: "Prima’s Magic Academy is open", meta: "Confirmed 19 Sep 2026", sort: "2026-09-19d", era: "2026 · Consequences", kind: "Institutional development", article: "scribonia", location: "Pristinia; Prima", people: "Scribonia; Marius; Aurélia; Saoirse", tags: ["academy", "teaching", "magic"], summary: "Students identify Scribonia as their teacher, while Saoirse prepares lessons for a future turn teaching younger learners." },
-    { title: "The Delerium cave answers Vessalia’s song", meta: "20 Sep 2026", sort: "2026-09-20", era: "2026 · Consequences", kind: "Unresolved discovery", article: "cave-company", location: "Unmapped cave", people: "Vessalia; Moira Eshdin; Di’trillio; Saoirse; Pell; Djöhandrai", tags: ["violet crystals", "Delerium", "harpies", "unresolved"], summary: "The party finds a contaminated corpse, strange tracks, violet crystals that do not all produce expected Delerium feedback, and malformed harpy-like creatures. Something deeper in the cave mimics Vessalia’s song; the crystals’ nature remains unknown." },
+    { title: "The Seekers investigate the Delerium cave", meta: "20 Sep 2026", sort: "2026-09-20", era: "2026 · Consequences", kind: "Unresolved discovery", article: "cave-company", location: "Unmapped cave", people: "Vessalia; Di’Trillio; Pell; Minerva; Fenwick", tags: ["The Seekers", "violet crystals", "Delerium", "harpies", "unresolved"], summary: "The Seekers’ record preserves a contaminated corpse, strange tracks, violet crystals that do not all produce expected Delerium feedback, and malformed harpy-like creatures. Something deeper in the cave mimics Vessalia’s song; the crystals’ nature remains unknown." },
     { title: "Jiangshi dies and returns", meta: "Jun 2024 — death/loss · return ~7½ months later · exact days unresolved", sort: "2024-06", era: "2024 · The Calling", kind: "Death and return", article: "jiangshi", location: "Gael; the Void; the Shadowlands; Fenumion", people: "Jiangshi; Adelia; Nienna; Namo’o", tags: ["souls", "memorial", "return"], summary: "Jiangshi’s death or loss belongs to the June 2024 Gael and Void history. Approximately seven and a half months of death do not remove her from relationship; her return makes the world confront the difference between a dead body and a finished person." },
     { title: "Nienna gives herself so Hope can live", meta: "Sep 6, 2024", sort: "2024-09-06", era: "2024 · The Calling", kind: "Voluntary sacrifice", article: "nienna", location: "Fenumion", people: "Nienna; Elenia; Hope", tags: ["sacrifice", "legacy", "one last time"], summary: "Afraid and wanting to live after the retreat that followed Jiangshi’s June loss, Nienna crosses the Gate and spends her life to create an opportunity for Hope to survive rather than a guaranteed victory. Her absence continues to shape later choices." },
     { title: "Adelia gives herself for Hope", meta: "2026 · exact date unresolved", sort: "2026-99", era: "2026 · Consequences", kind: "Ascension", article: "adelia-hope", location: "The Tree", people: "Adelia; Hope; Magnus; Nienna; Jiangshi", tags: ["Hope", "Tree", "renewal", "Spirit of Adelia"], summary: "After Magnus harms Hope, a life repeatedly rebuilt after loss culminates in Adelia sacrificing herself to restore and save Hope. She becomes part of the Tree, leading into the Spirit of Adelia state." },
@@ -2356,7 +2359,7 @@ const archiveIndex = {
     { title: "Jéane Rose", meta: "Speedster and explorer", article: "jeane-rose", image: "assets/characters/jeane-rose.png", summary: "Experiences thought, friendship, travel, and the obligation to protect at extraordinary speed." },
     { title: "Jiangshi", meta: "Character record", article: "jiangshi", summary: "An adventurer returned from death whose story tests care, grief, and agency." },
     { title: "Magnus Niriin", meta: "Warlock, Silver Star, political figure", article: "magnus", image: "magnus-portrait.jpg", summary: "An ambitious Zarathian whose pursuit of leverage succeeds even as it deepens his dependence on Death and fractures trust." },
-    { title: "Minerva", meta: "Witch and difficult ally", article: "minerva", image: "assets/characters/minerva.png", summary: "Investigates concealed threats, strains trust through forceful methods, and still turns careful attention toward people in danger." },
+    { title: "Minerva", meta: "Seeker · witch and difficult ally", article: "minerva", image: "assets/characters/minerva.png", summary: "A confirmed member of the Seekers who investigates concealed threats, strains trust through forceful methods, and still turns careful attention toward people in danger." },
     { title: "Nienna", meta: "Character record", article: "nienna", image: "nienna-portrait.png", summary: "An absent presence whose sacrifice continues to act through the living." },
     { title: "Nymera", meta: "Cala devotee and expedition ally", article: "nymera", image: "assets/characters/nymera.png", summary: "Offers practical help among specialists and learns that uncertainty about theory does not make her contribution unwanted." },
     { title: "Olokun", meta: "Protector; Rahu; resurrected adventurer", article: "olokun", image: "olokun-poster.png", summary: "A deeply attached protector whose mature ethic separates care from ownership while fear keeps testing that boundary." },
@@ -2381,13 +2384,14 @@ const archiveIndex = {
     { title: "Alioth", meta: "Rahu trial participant", article: "casimir-alioth", summary: "Calls loyalty to Casimir a strength where Ephraith judges the same choice an institutional failure." },
     { title: "Aurélia / Night", meta: "Magic Academy student", article: "people-directory", summary: "A student by September 2026 whose fuller chronology still needs primary-source recovery." },
     { title: "Casimir", meta: "Procedural thinker", article: "casimir-alioth", summary: "Tests constraints, questions, silence, and institutional rules rather than trying to overpower them." },
-    { title: "Di’trillio", meta: "Contamination-sensitive explorer", article: "cave-company", summary: "Reads the contaminated corpse and nearby crystals differently, then argues that the cave should be cleared or collapsed." },
-    { title: "Djöhandrai", meta: "Cautious cave explorer", article: "cave-company", image: "assets/characters/djohandrai.png", summary: "Wants to leave but chooses to help prevent the corpse’s fate from reaching others." },
+    { title: "Di’Trillio", meta: "Seeker · contamination-sensitive explorer", article: "cave-company", summary: "Reads the contaminated corpse and nearby crystals differently, then argues that the cave should be cleared or collapsed." },
+    { title: "Djöhandrai", meta: "Cautious cave explorer", article: "people-directory", image: "assets/characters/djohandrai.png", summary: "Wants to leave but chooses to help prevent the corpse’s fate from reaching others; he is not a member of the Seekers." },
+    { title: "Fenwick", meta: "Seeker · investigator", article: "cave-company", summary: "A confirmed member of the Seekers whose exact company duties remain to be recovered." },
     { title: "Marius Antares", meta: "Magic Academy student", article: "people-directory", summary: "Observes changes in Prima and voices a belief about Gael’s economy that remains attributed rather than established." },
-    { title: "Moira Eshdin", meta: "Analytical cave explorer", article: "cave-company", summary: "Theorizes about the cave’s connections and corruption while keeping her claims at the level of character understanding." },
-    { title: "Pell", meta: "Cave explorer", article: "cave-company", image: "assets/characters/pell.png", summary: "Frightened and practical; insists the corrupted corpse was somebody’s child and deserves burial." },
-    { title: "Saoirse", meta: "Mage and future teacher", article: "cave-company", image: "assets/characters/saoirse.png", summary: "Warns about contamination, uses petal-based magic, and prepares to teach at Prima’s Magic Academy." },
-    { title: "Vessalia", meta: "Contaminated singer", article: "cave-company", image: "assets/characters/vessalia.jpg", summary: "Uses song to manage fear, accepts correction when it attracts danger, and remains attentive to Pell." }
+    { title: "Moira Eshdin", meta: "Analytical cave explorer", article: "people-directory", summary: "Theorizes about the cave’s connections and corruption while keeping her claims at the level of character understanding; she is not a member of the Seekers." },
+    { title: "Pell", meta: "Seeker · cave explorer", article: "cave-company", image: "assets/characters/pell.png", summary: "Frightened and practical; insists the corrupted corpse was somebody’s child and deserves burial." },
+    { title: "Saoirse", meta: "Mage and future teacher", article: "people-directory", image: "assets/characters/saoirse.png", summary: "Warns about contamination, uses petal-based magic, and prepares to teach at Prima’s Magic Academy; she is not a member of the Seekers." },
+    { title: "Vessalia", meta: "Seeker · contaminated singer", article: "cave-company", image: "assets/characters/vessalia.jpg", summary: "Uses song to manage fear, accepts correction when it attracts danger, and remains attentive to Pell." }
   ],
   npcs: [
     { title: "Aria / Pride", meta: "Knight II of Death", article: "aria-pride", summary: "A daughter of Death whose philosophy treats attachment as future weakness.", image: "aria-pride-portrait.png" },
@@ -2665,7 +2669,7 @@ const navigationRegions = [
       ]},
       { title: "Groups & orders", items: [
         { label: "The Ale-Chemy Knights", article: "ale-chemy-knights" },
-        { label: "Delerium cave company", article: "cave-company" },
+        { label: "The Seekers", article: "cave-company" },
         { label: "The Vanguard", article: "vanguard" }
       ]},
       { title: "Death’s Knights", items: [

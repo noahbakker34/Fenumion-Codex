@@ -177,6 +177,21 @@ const articles = [
       <p>Scribonia’s Teleportation Circle offered an escape route through the Sea of Dreams after catastrophe. A later account from Mya says Scribonia was unmade there by a divine or Void relic. The Codex preserves that as an attributed claim rather than omniscient narration.</p>`
   },
   {
+    id: "caislean-na-bron", title: "Caisleán na Brón", category: "Places", type: "Fortified place in Fein Uaill",
+    image: "assets/archive/fein-uaill.jpeg", imageAlt: "Map of Fein Uaill marking Caisleán na Brón", imageCaption: "Caisleán na Brón — position preserved on the Fein Uaill regional map.",
+    mapId: "fein-uaill", mapLinkLabel: "Return to the interactive Fein Uaill map",
+    dek: "A major fortified place in Fein Uaill whose map position and variant names survive more clearly than its political and military history.",
+    tags: ["Caisleán na Brón", "Fein Uaill", "Fortification", "Mapped location"],
+    facts: { Region: "Fein Uaill", Type: "Fortified place", Evidence: "Regional map · screenshot directory", Aliases: "Caselean De Broin · Caislean na Bron · Caisleán De Bróin" },
+    sources: ["Fein Uaill regional map — named position", "Supplied Fein Uaill screenshot directory — location confirmation and spelling variants"],
+    body: `
+      <p>Caisleán na Brón is a major fortified place within <a href="#fein-uaill">Fein Uaill</a>. Its name and approximate regional position are preserved on the supplied map. The forms “Caselean De Broin,” “Caislean na Bron,” and “Caisleán De Bróin” remain searchable aliases so older records and player spellings continue to lead to this entry.</p>
+      <h2 id="caislean-map">A place established by the map</h2>
+      <p>The surviving cartographic evidence supports the location’s existence, fortified character, and placement in relation to Zarathis, Seraphis, the Titanwall of Eryndor, and the Gates of Aelthor. It does not yet establish exact travel distances, borders, elevation, or control of the surrounding territory.</p>
+      <h2 id="caislean-open-record">The open record</h2>
+      <p>The meaning of the name, builders, age, rulers, garrison, population, conflicts, and present condition of Caisleán na Brón remain unrecovered. This page keeps those absences visible rather than turning the map’s imagery into unsupported history.</p>`
+  },
+  {
     id: "niriin-estate", title: "Niriin Estate", category: "Places", type: "Estate in Fein Uaill",
     video: "assets/archive/niriin-estate.mp4", videoType: "video/mp4", videoLayout: "landscape-hero", videoAlt: "A moving visual record of the Niriin Estate", videoCaption: "Niriin Estate — user-supplied moving location record, 27 September 2026.",
     dek: "A named estate within Fein Uaill, now preserved through a moving visual record while its owners, founding, and civic role remain open questions.",
@@ -2958,7 +2973,7 @@ const archiveIndex = {
     { title: "Underwater Temple", region: "Gael", parent: "Gael", type: "temple", meta: "Gael · temple", article: "gael", summary: "A submerged sacred site named on the Gael map.", source: "Map", aliases: ["The Underwater Temple"], level: "site" },
 
     { title: "Zarathis", region: "Fein Uaill", parent: "Fein Uaill", type: "civilization", meta: "Fein Uaill · civilization", article: "zarathis", summary: "A developed center organized around memory, mastery, and the boundary of one mortal life.", source: "Chronicle + map + moving visual", aliases: ["Zerathis"], video: "assets/archive/zarathis.mp4", level: "settlement" },
-    { title: "Caisleán na Brón", region: "Fein Uaill", parent: "Fein Uaill", type: "fortified place", meta: "Fein Uaill · fortified place", article: "fein-uaill", summary: "A major fortified place confirmed by the Fein Uaill map and screenshot directory.", source: "Map + screenshot", aliases: ["Caselean De Broin", "Caislean na Bron", "Caisleán De Bróin"], level: "site" },
+    { title: "Caisleán na Brón", region: "Fein Uaill", parent: "Fein Uaill", type: "fortified place", meta: "Fein Uaill · fortified place", article: "caislean-na-bron", summary: "A major fortified place confirmed by the Fein Uaill map and screenshot directory.", source: "Map + screenshot", aliases: ["Caselean De Broin", "Caislean na Bron", "Caisleán De Bróin"], level: "site" },
     { title: "Ciaránach", region: "Fein Uaill", parent: "Fein Uaill", type: "sacred city", meta: "Fein Uaill · sacred city", article: "ciaranach", summary: "A sacred city whose visual identity now includes the wider settlement and a temple within it.", source: "Regional chronicle + user-supplied moving records", aliases: ["Ciaranach"], video: "ciaranach.mp4", level: "settlement" },
     { title: "Holy Road to Ciaránach", region: "Fein Uaill", parent: "Ciaránach", type: "pilgrimage route", meta: "Fein Uaill › Ciaránach · pilgrimage route", article: "ciaranach", summary: "A permission-bound route from Zarathis through orchards and high mountains, used for the yearly lesson and the approach to the Golden Ones.", source: "Complete quest-rp export · 27 Sep 2025", aliases: ["Holy Road", "Road to Ciaranach"], level: "site" },
     { title: "Temple in Ciaránach", region: "Fein Uaill", parent: "Ciaránach", type: "temple", meta: "Fein Uaill › Ciaránach · temple", article: "ciaranach", summary: "A temple preserved through a moving visual record; its proper name, dedication, and deeper history remain unrecovered.", source: "User-supplied moving record", aliases: ["Ciaránach Temple", "Ciaranach Temple", "Temple of Ciaránach"], video: "ciaranach-temple.mp4", level: "site" },
@@ -3173,7 +3188,7 @@ const navigationRegions = [
       ]},
       { title: "Fein Uaill", items: [
         { label: "Fein Uaill overview", article: "fein-uaill", parent: true },
-        { label: "Zarathis", article: "zarathis" }, { label: "Ciaránach", article: "ciaranach" }, { label: "The Shining Shores", article: "shining-shores" },
+        { label: "Zarathis", article: "zarathis" }, { label: "Caisleán na Brón", article: "caislean-na-bron" }, { label: "Ciaránach", article: "ciaranach" }, { label: "The Shining Shores", article: "shining-shores" },
         { label: "Niriin Estate", article: "niriin-estate" }, { label: "Aria’s Tomb", article: "arias-tomb" },
         { label: "The Titanwall of Eryndor", article: "titanwall-eryndor" }, { label: "Thalanbor’s Library", article: "thalanbor-library" }
       ]},
@@ -3226,6 +3241,7 @@ articlePaths.set("before-survey", ["Locations", "Prima", "The Before Survey"]);
 articlePaths.set("the-before-melian", ["Locations", "Prima", "The Before"]);
 articlePaths.set("fein-uaill", ["Locations", "Fein Uaill"]);
 articlePaths.set("zarathis", ["Locations", "Fein Uaill", "Zarathis"]);
+articlePaths.set("caislean-na-bron", ["Locations", "Fein Uaill", "Caisleán na Brón"]);
 articlePaths.set("ciaranach", ["Locations", "Fein Uaill", "Ciaránach"]);
 articlePaths.set("shining-shores", ["Locations", "Fein Uaill", "The Shining Shores"]);
 articlePaths.set("niriin-estate", ["Locations", "Fein Uaill", "Niriin Estate"]);
@@ -3701,7 +3717,7 @@ function renderArticle(route, pushHash = true) {
       <div class="atlas-banner-copy">
         <p class="eyebrow">Interactive world atlas</p>
         <h2 id="interactive-maps-title">Explore Fenumion from the world outward</h2>
-        <p>Choose a map, then hover or focus an area to reveal its marker and name. Tap markers on touch devices. Each location card separates recovered history from map-only evidence.</p>
+        <p>Choose a map, then hover or focus a marker to preview its location. Select the marker or its numbered button to open that place’s Codex record. Each location page separates recovered history from map-only evidence.</p>
       </div>
       <div id="interactive-atlas" class="interactive-atlas"></div>
     </section>` : "";
@@ -3914,7 +3930,6 @@ function setupInteractiveAtlas(initialMapId = "") {
     atlas.querySelectorAll("[data-map-location]").forEach(button => {
       const active = button.dataset.mapLocation === title;
       button.classList.toggle("active", active);
-      button.setAttribute("aria-pressed", String(active));
     });
     const detail = atlas.querySelector(".map-detail");
     const linkedMapId = linkedMapIds.get(locationRecord.title);
@@ -3952,14 +3967,14 @@ function setupInteractiveAtlas(initialMapId = "") {
           <div class="map-canvas" style="width:${mapCanvasWidth};aspect-ratio:${map.width} / ${map.height}">
             <img src="${map.image}" width="${map.width}" height="${map.height}" alt="${escapeHtml(map.alt)}" loading="eager">
             <div class="map-pin-layer" aria-label="Mapped locations in ${escapeHtml(map.title)}">
-              ${pins.map((pin, index) => { const protectedRecord = !isPlayerSafeArticle(pin.record.article); return `<button type="button" class="map-pin ${pin.title === activeLocationTitle ? "active" : ""}${protectedRecord ? " veiled-map-marker" : ""}" style="--pin-x:${pin.x}%;--pin-y:${pin.y}%" data-map-location="${escapeHtml(pin.title)}" aria-label="${protectedRecordAria(`${pin.title}: ${pin.record.summary}`, protectedRecord)}" aria-pressed="${pin.title === activeLocationTitle}"><span class="map-pin-number" aria-hidden="true"><span class="map-pin-index">${index + 1}</span></span><span class="map-pin-label">${protectedRecord ? "Veiled marker" : escapeHtml(pin.title)}</span></button>`; }).join("")}
+              ${pins.map((pin, index) => { const protectedRecord = !isPlayerSafeArticle(pin.record.article); return `<button type="button" class="map-pin ${pin.title === activeLocationTitle ? "active" : ""}${protectedRecord ? " veiled-map-marker" : ""}" style="--pin-x:${pin.x}%;--pin-y:${pin.y}%" data-map-location="${escapeHtml(pin.title)}" aria-label="${protectedRecordAria(`Open ${pin.title} record. ${pin.record.summary}`, protectedRecord)}"><span class="map-pin-number" aria-hidden="true"><span class="map-pin-index">${index + 1}</span></span><span class="map-pin-label">${protectedRecord ? "Veiled marker" : escapeHtml(pin.title)}</span></button>`; }).join("")}
             </div>
           </div>
         </div>
         <aside class="map-detail" aria-live="polite"></aside>
       </div>
       <div class="map-location-list" aria-label="Locations marked on ${escapeHtml(map.title)}">
-        ${pins.map((pin, index) => { const protectedRecord = !isPlayerSafeArticle(pin.record.article); return `<button type="button" class="map-location-chip ${pin.title === activeLocationTitle ? "active" : ""}${protectedRecord ? " restricted-link" : ""}" data-map-location="${escapeHtml(pin.title)}" aria-label="${protectedRecordAria(pin.title, protectedRecord)}" aria-pressed="${pin.title === activeLocationTitle}"><span>${index + 1}</span>${protectedRecord ? "Veiled marker" : escapeHtml(pin.title)}</button>`; }).join("")}
+        ${pins.map((pin, index) => { const protectedRecord = !isPlayerSafeArticle(pin.record.article); return `<button type="button" class="map-location-chip ${pin.title === activeLocationTitle ? "active" : ""}${protectedRecord ? " restricted-link" : ""}" data-map-location="${escapeHtml(pin.title)}" aria-label="${protectedRecordAria(`Open ${pin.title} record`, protectedRecord)}"><span>${index + 1}</span>${protectedRecord ? "Veiled marker" : escapeHtml(pin.title)}</button>`; }).join("")}
       </div>`;
     if (activeLocationTitle) renderDetail(activeLocationTitle);
   };
@@ -3974,7 +3989,10 @@ function setupInteractiveAtlas(initialMapId = "") {
       return;
     }
     const locationButton = event.target.closest("[data-map-location]");
-    if (locationButton) renderDetail(locationButton.dataset.mapLocation);
+    if (locationButton) {
+      const locationRecord = findLocation(locationButton.dataset.mapLocation);
+      if (locationRecord) renderArticle(locationRecord.article);
+    }
   });
   atlas.addEventListener("pointerover", event => {
     const locationButton = event.target.closest(".map-pin[data-map-location]");

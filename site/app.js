@@ -1927,12 +1927,17 @@ const articles = [
   {
     id: "aravil", title: "Aravil", category: "People", type: "Oathbound hunter",
     image: "assets/characters/aravil.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Aravil, an oathbound hunter", imageCaption: "Aravil — oathbound hunter and practical protector.",
-    dek: "Separated from her Queen but not released from her oath, Aravil finds a second form of belonging by becoming useful to Pristinia.",
-    tags: ["Aravil", "Queen", "Oath", "Pristinia"],
-    facts: { Identity: "Subject separated from her Queen", Principle: "Distance does not annul duty", Mistake: "Acted without understanding the players", "New role": "Hunter for Pristinia" },
-    sources: ["Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath", "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting"],
+    dek: "An oathbound hunter whose reputation lives in remembered battles, Aravil returns when war sharpens and recognizes old comrades by what they survived together.",
+    tags: ["Aravil", "Queen", "Oath", "Pristinia", "Jiangshi", "Olokun"],
+    facts: { Identity: "Veteran oathbound hunter", Principle: "Distance does not annul duty", Method: "Observe → remember → assess → act", "Shared history": "Fey Forest hunt with Jiangshi and Scribonia", "New role": "Hunter for Pristinia" },
+    sources: ["Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath", "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting", "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis"],
     body: `
-      <p>Aravil arrives hungry, lonely, and still defined by service. She describes herself as a tool separated from its artisan, but corrects Magnus when he assumes that means she wants a new master: her oath remains while she draws breath.</p>
+      <p>Aravil arrives hungry, lonely, and still defined by service. She describes herself as a tool separated from its artisan, but corrects Magnus when he assumes that means she wants a new master: her oath remains while she draws breath. Separation has taken away proximity, not obligation.</p>
+      <p>Her wider history gives that discipline a social dimension. Aravil remembers adventurers by the work they did under pressure, and they remember her in return. She does not need to perform experience because shared history has already made it visible.</p>
+      <h2 id="aravil-martial-directness">Action after judgment</h2>
+      <p>Aravil is direct without being mindless. Once she believes a fight has truly arrived, she commits without demanding a speech first. In October 2025, when the company presses toward a demonic island, she heads into the battle rather than waiting for ceremony. Her comfort with war is not simple bloodlust; crisis is a condition in which her identity, judgment, and training become unusually clear.</p>
+      <h2 id="aravil-remembers">The people she remembers</h2>
+      <p>When Aravil meets Jiangshi again, she recalls their Fey Forest hunt with Scribonia and even Jiangshi’s “violent hairpins.” The specificity is the point. Affection and respect appear as operational memory: a hunt, a method, a moment of competence. Olokun likewise greets her as a returning veteran rather than a new arrival, and Aravil answers the thrum of war as though returning to unfinished work.</p>
       <h2 id="admitting-error">Admitting error</h2>
       <p>She openly says she involved herself in a conflict without knowing the people or their capabilities. Competence does not require pretending she was right. The admission becomes part of her posture toward a world she is still learning.</p>
       <h2 id="useful-belonging">Useful belonging</h2>
@@ -1992,18 +1997,27 @@ const articles = [
   {
     id: "wren", title: "Wren", category: "People", type: "Druidic investigator",
     image: "assets/characters/wren.png", imageLayout: "portrait-hero", imageAlt: "Portrait of Wren, a druidic investigator", imageCaption: "Wren — druidic investigator and reader of the living world.",
-    dek: "Wren’s core verb is understand: ask the land, test a claim, notice contradictions, and avoid pretending that inherited certainty is evidence.",
-    tags: ["Wren", "Investigation", "Nature", "Zarathis"],
-    facts: { "Core verb": "Understand", Method: "Environment as information network", Magic: "Communion rather than command", Habit: "Withhold conclusions when observation is unsafe" },
-    sources: ["Pasted markdown(20260909-022826).md — mapping through clothes, plants, and Commune with Nature", "Pasted markdown(20260909-024010).md — Zarathian claims and cautious reporting"],
+    dek: "Wren makes history emotionally legible: she notices who is frightened, who has fallen, and what every loss asks of the people still standing.",
+    tags: ["Wren", "Investigation", "Nature", "Vaemyr", "Community", "Wrath"],
+    facts: { "Core pattern": "Notice → care → absorb the cost → continue", Method: "Environment and people as information networks", Magic: "Communion rather than command", "Central bond": "Vaemyr", Risk: "Self-erasure through universal responsibility" },
+    sources: ["Pasted markdown(20260909-022826).md — mapping through clothes, plants, and Commune with Nature", "Pasted markdown(20260909-024010).md — Zarathian claims and cautious reporting", "Wren_Codex_Character_Profile.md — emotional continuity, relationships, and Quest RP synthesis"],
     body: `
       <p>Wren discovers solutions through the world around her. Old clothes become weatherproof route markers; mushrooms may become witnesses; Commune with Nature becomes a way to map danger. Her abilities do not arrive as a list from a character sheet. They arise from attention to the environment.</p>
+      <p>That same attention governs her relationships. Wren registers what catastrophe does to individual people and continues functioning inside grief rather than waiting for grief to disappear. She can cry and still heal, fear the next loss and still make a tactical choice, or feel the world suffering through earth and root without reducing that knowledge to strategy.</p>
       <h2 id="ask-the-earth">Ask the earth</h2>
       <p>When she communes, Wren presses a palm to the ground as if greeting an old friend and asks the mother of root and stone. The posture defines the magic: relationship, not extraction. Nature is not scenery around her adventure; it is another participant capable of answering.</p>
       <h2 id="epistemic-caution">Epistemic caution</h2>
       <p>In Zarathis she notices that guides accept cultural stories without testing their premises. She also realizes that some conclusions should not be spoken while the party may be watched. Understanding requires both skepticism and judgment about when evidence can safely be compared.</p>
+      <h2 id="wren-wrath">The battle against Wrath</h2>
+      <p>During the November 2024 catastrophe, Dale falls and Wren’s eyes fill with tears. She immediately heals Arjahn because the party cannot afford another loss. Later she looks across Dale, Gartina, Adelia, Bitoshi, Elenia, Arjahn, Scribonia, Quake, Krone, Draygar, Saray, and Vaemyr and draws resolve from the group as a community rather than a collection of combatants.</p>
+      <p>When Jiangshi falls at a distance, Wren grieves despite not knowing her closely. She remembers recovering Jiangshi’s body before and understands how much Jiangshi means to other people. Another person’s place in somebody else’s heart is enough to make that danger matter.</p>
+      <h2 id="wren-vaemyr">Vaemyr and the danger of standing alone</h2>
+      <p>Vaemyr is one of Wren’s central anchors, but the relationship contains a real moral conflict. Wren cannot stand by while people she loves die and repeatedly offers more of herself to save them. Vaemyr hears that universal responsibility as another form of abandonment: she promised they would fight together, yet her instinct is to stand alone when everyone is threatened.</p>
+      <p>The tension should not be simplified into protector and protected. Wren’s love for the whole group creates courage and healing, but it can also become self-erasure. Vaemyr’s love asks her to let the person beside her share both the risk and the choice.</p>
+      <h2 id="wren-aftermath">Grief that remains in the body</h2>
+      <p>After Wrath, Wren withdraws with regret and trauma before returning with renewed determination. During the later search for Gartina, old signs connected to Wrath turn present danger into remembered fear. By November 2025, when worlds and armies collide, she senses damage through the earth and the roots of Etz Chaim: even cosmic catastrophe remains embodied and relational.</p>
       <h2 id="not-performance">Inquiry without performance</h2>
-      <p>Wren shares Scribonia’s appetite for knowledge but not his need to display mastery. She investigates assumptions, looks for contradictions, and leaves room for other accounts. Her intelligence is strongest when it creates a network of people, plants, and observations rather than a hierarchy.</p>`
+      <p>Wren shares Scribonia’s appetite for knowledge but not his need to display mastery. She investigates assumptions, looks for contradictions, and leaves room for other accounts. Her intelligence is strongest when it creates a network of people, plants, observations, and remembered costs rather than a hierarchy.</p>`
   },
   {
     id: "scribonia", title: "Scribonia", category: "People", type: "Magi; scholar; thri-kreen",
@@ -2041,21 +2055,27 @@ const articles = [
   {
     id: "dale", title: "Dale", category: "People", type: "Musician; builder of ordinary continuities",
     image: "assets/characters/dale.png", imageLayout: "portrait-hero", imageAlt: "Dale playing a small stringed instrument", imageCaption: "Dale — musician and practical caretaker.",
-    dek: "Dale turns concern into courage, food, tools, shelter, and consultation without pretending care gives him control over another person’s grief.",
-    tags: ["Dale", "Saray", "Gael", "Practical care"],
-    facts: { Pattern: "Concern → practical care → consultation", Relationship: "Saray", Region: "Gael", Method: "Logistics that remain human" },
-    sources: ["CHARACTER_BIBLE.md — Dale chronology and pattern", "MASTER_TIMELINE.md — Gael settlement and later expedition evidence", "RELATIONSHIPS.md — Dale and Saray"],
+    dek: "Dale makes life inside catastrophe funny, familiar, and worth protecting; his simple loyalty gives ordinary affection the weight of history.",
+    tags: ["Dale", "Gartina", "Arjahn", "Wren", "Gael", "Practical care"],
+    facts: { Pattern: "Enjoy → accept the absurdity → protect friends", Strength: "Immediate loyalty", "Social history": "Wedding, shared meals, jokes, and expeditions", Region: "Gael", Method: "Logistics that remain human" },
+    sources: ["CHARACTER_BIBLE.md — Dale chronology and pattern", "MASTER_TIMELINE.md — Gael settlement and later expedition evidence", "RELATIONSHIPS.md — Dale and Saray", "Dale_Codex_Character_Profile.md — humor, communal grief, Gartina, and Quest RP synthesis"],
     body: `
-      <p>Dale’s importance comes from the way care becomes material. He can sing courage into defenders, but he also notices bowls, spoons, lumber, shelter, and the need to ask displaced people what they actually want.</p>
+      <p>Dale’s importance comes from the way care becomes material. He can sing courage into defenders, but he also notices bowls, spoons, lumber, shelter, and the need to ask displaced people what they actually want. He is easy to underestimate because the same history also remembers a shark transformation, a successful attempt to hide behind a potted plant, and private relief when directions spare him from revealing trouble with left and right.</p>
+      <p>The comedy does not make danger fake. Dale remains himself while consequences are real, and his apparently simple reasoning often reaches the emotional truth faster than more elaborate philosophies: a friend is in danger, so help the friend.</p>
       <h2 id="nienna">Nienna’s final choice</h2>
       <p>Dale sings courage into the defenders around Hope and is present for Nienna’s final sacrifice. Nienna says goodbye to “sweet Dale.” His answer preserves both admiration and unease instead of declaring that her death was simply correct.</p>
       <div class="quote">You’re foolish, Miss Nienna, but oh so brave.<cite>Dale</cite></div>
       <h2 id="saray">Care that does not seize the mind</h2>
       <p>After Nienna’s death, Saray blames herself. Dale supports her while recognizing that he cannot simply argue her out of guilt. He tells Adelia that Saray must reach the realization herself that nothing could have been done. His care respects an internal process he cannot own.</p>
+      <h2 id="dale-loss">The loss that reveals the community</h2>
+      <p>During the November 2024 catastrophe, Dale’s death or apparent death changes the whole company. Wren cries while continuing to heal. Arjahn becomes desperate enough to devise an extraordinarily dangerous rescue and then directs his grief toward Bahamut when divine help does not come. Jiangshi and others worry about whether Dale can be recovered.</p>
+      <p>Dale does not need a grand speech to prove his importance. The reactions around him establish that people had built part of their ordinary lives around his presence. His social weight accumulated through jokes, travel, weddings, food, and the simple pleasure of having him there.</p>
+      <h2 id="dale-gartina">Gartina, the wedding, and immediate loyalty</h2>
+      <p>During the 2025 search for the real Gartina, impostors invoke Dale’s wedding and the cake Gartina made for it as evidence of intimacy. Those memories are credible because Dale and Gartina share a mundane social history deep enough to become an identity test. When he understands that she has been taken, his reasoning becomes direct: “These things took Gartina. Dale smash.” The phrasing is funny; the loyalty is absolute.</p>
       <h2 id="gael-work">Gael’s practical work</h2>
       <p>In the refugee settlement, Dale helps turn emergency survival toward civic continuity: food, eating tools, permanent housing, salvaged lumber, and direct consultation. The actions are humble beside Gael’s divine history, but they are how liberation becomes a place people can inhabit.</p>
       <h2 id="incomplete-record">The incomplete chronology</h2>
-      <p>Dale’s strong pattern is established, but his full longitudinal history is not. The Codex preserves the repeated behavior without manufacturing a total biography from a handful of consequential scenes.</p>`
+      <p>Dale’s strong pattern is established, but his full longitudinal history is not. His arc is accumulation rather than transformation: each ridiculous decision, rescue, meal, wedding, and act of loyalty makes later danger matter more. The Codex preserves that repeated behavior without manufacturing a total biography from a handful of consequential scenes.</p>`
   },
   {
     id: "eugene", title: "Eugene", category: "People", type: "Scholar; reluctant bearer of dangerous knowledge",
@@ -2122,7 +2142,7 @@ const articles = [
     dek: "When Voraketh began taking knowledge from him, Anky answered by building an institution where memory, secrets, tools, and questions could outlive their keepers.",
     tags: ["St. Anky", "Nuru", "Voraketh", "Temple of Secrets", "Chains", "Maw", "Sharing knight"],
     facts: { Patron: "Nuru", Titles: "Saint · cupbearer · sharing knight", "Voraketh role": "Early chronicler and Temple of Secrets founder/co-founder", Map: "Commissioned Anky’s Map of Voraketh", Death: "21 Apr 2026 · exact cause unrecovered", Legacy: "Records and communal infrastructure" },
-    sources: ["Voraketh_Full_Codex_2026-09-25.md — Anky’s full Voraketh evidence history", "MASTER_TIMELINE.md — Gate journey, Shadow Roads, and later remembrance", "CHARACTER_BIBLE.md — Nuru and the Rahu/Pristinia peace context", "Olokun_Ultimate_Character_History_and_Codex_Profile.md — relationship gaps and later remembrance"],
+    sources: ["Voraketh_Full_Codex_2026-09-25.md — Anky’s full Voraketh evidence history", "MASTER_TIMELINE.md — Gate journey, Shadow Roads, and later remembrance", "CHARACTER_BIBLE.md — Nuru and the Rahu/Pristinia peace context", "Olokun_Ultimate_Character_History_and_Codex_Profile.md — relationship gaps and later remembrance", "St_Anky_Codex_Character_Profile.md — epistemic humility and Quest RP synthesis"],
     body: `
       <p>Anky’s record crosses ancient history, divine service, peace-making, the Shadow Roads, and Voraketh. The island provides the clearest longitudinal history: a frightened and disordered mind becomes one of the community’s strongest builders of memory.</p>
       <h2 id="anky-gate">Witness to the Gate’s construction</h2>
@@ -2139,6 +2159,9 @@ const articles = [
       <p>He opposed hoarding useful information. When Cerwin could not contribute an item in exchange for a Wand of Magic Missiles, Anky gave him his own Golden Boar Ring so the communal system could remain reciprocal without denying help. “It’s me job! Me duty as a sharing knight!!”</p>
       <h2 id="anky-divine-evidence">What Anky reported</h2>
       <p>On 6 March, Anky said Nuru told him Voraketh was Physisia’s favorite island and confirmed that Talan made the Chains and their guardians. He also relayed Physisia’s message through Pappy: the Chains were good at first but had become a curse. Anky did not leap from that evidence to destruction. He wanted to learn what the Chains held back before deciding what should happen.</p>
+      <h2 id="anky-uncertainty">Wisdom without pretending certainty</h2>
+      <p>Anky’s occasional wisdom and his comedy grow from the same habit: he is comfortable admitting that he does not fully understand the world. In February 2025, a spiritual encounter connected to Cala leaves him with answers to questions he did not know and no answers to the questions he did. His conclusion is not polished enlightenment. He found enough of himself inside himself to know why he is who he is—and that is enough to continue.</p>
+      <p>The scene remains physically and unmistakably Anky: he guards a tight “hobo pile” of his belongings, gives a thumbs-up, and vomits into a bucket. Growth integrates with the person he already is rather than replacing him with a solemn prophet.</p>
       <h2 id="anky-map">Map, scrolls, and shared research</h2>
       <p>By 21 March, Anky had an angel make a map of Voraketh, placed scrolls at the Temple, and encouraged others to theorize together and build a plan for surviving and eventually leaving. By 29 March, he openly said the island was making him lose things and that its excessive order disturbed him.</p>
       <p>He wanted to leave. He stayed because Nuru had asked him, according to Anky, for a full report. His explanation was simple: “Me is a gnome of my word!”</p>
@@ -2147,7 +2170,29 @@ const articles = [
       <p>The surviving Veiled Watch log does not contain the fatal sequence. By 6:00 PM on 21 April, Anky was walking the road to the afterlife. Cerwin reached him there on 24 April, wounded and apologizing that he was late.</p>
       <h2 id="anky-legacy">The records remain</h2>
       <p>Anky’s importance is not that he was destined to die. Voraketh took something from him; he built a place where knowledge could survive; he shared rather than hoarded; he remained from duty despite wanting to leave; and after his death, later explorers inherited an evidence base instead of beginning alone.</p>
+      <p>His lasting method is a question rather than a doctrine: if nobody knows what a system is doing, learn before destroying it. That humility makes him useful in a world where ancient structures may be prisons, protections, curses, or all three at once.</p>
       <div class="callout gold"><p><strong>Record boundary:</strong> the April 20 expedition, Anky’s death by April 21, and Cerwin’s later arrival are established. The precise fatal event and cause of death remain unrecovered.</p></div>`
+  },
+  {
+    id: "vaemyr", title: "Vaemyr", category: "People", type: "Diplomat; consequence-minded adventurer",
+    dek: "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve.",
+    tags: ["Vaemyr", "Wren", "Olokun", "Prima", "Responsibility"],
+    facts: { Pattern: "Think → admit uncertainty → determine what is owed → commit", "Central bonds": "Wren and Olokun", Strength: "Consequential compassion", Method: "Diplomacy without moral softness", Arc: "Guarded responsibility → irrevocable commitment" },
+    sources: ["Complete quest-rp export — Vaemyr scenes and internal narration", "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis"],
+    body: `
+      <p>Vaemyr often appears to be the reasonable person in a dangerous room, but reasonableness is only the surface of his character. His recurring question is what responsibility becomes once he chooses to care about another person. He is cautious because promises have consequences, not because he lacks the courage to make them.</p>
+      <p>That concern makes him practical without making him cold. When Olokun wants to keep helping vulnerable commoners during a dangerous journey, Vaemyr says that he wants to help too, then asks whether the company can actually keep them safe. For him, a heroic gesture does not finish at the moment of rescue; responsibility includes what happens to the rescued afterward.</p>
+      <h2 id="vaemyr-diplomacy">Diplomacy under pressure</h2>
+      <p>During the conflict involving Talon, the Duchess, and the Rahu, Vaemyr favors cooler heads and available diplomatic channels. He distinguishes what he knows from what he assumes rather than bluffing certainty. Yet he is not morally soft. In the Vasatzi Alavara crisis, he faces whether one person’s desire to live can outweigh the lives of an entire continent, acknowledging the victim’s fear without letting sympathy erase the cost to everyone else.</p>
+      <h2 id="vaemyr-olokun">Olokun, his pana</h2>
+      <p>Olokun welcomes Vaemyr into Prima and gradually becomes his <em>pana</em>. The word’s first recovered use visibly delights Olokun; later it becomes natural between them. Olokun models belonging, challenges caution without mocking it, and can pull Vaemyr back into the present when fear threatens to consume him.</p>
+      <p>When Olokun is brutally killed during the November 2024 catastrophe, Vaemyr nearly loses the will to continue. His internal narration remembers the man who welcomed him to Prima and guided him toward the person he became. Only Wren is identified as a greater influence. Vaemyr’s identity is not self-created; it is built through chosen attachment.</p>
+      <h2 id="vaemyr-wren">Wren and the refusal to leave</h2>
+      <p>Wren is Vaemyr’s strongest personal bond and the point where careful responsibility becomes absolute commitment. When she urges him to leave her and save himself during the catastrophic battle, he refuses, tells her he loves her, and insists that they will fight together.</p>
+      <p>Their bond also contains conflict. Wren’s responsibility to everyone can lead her to spend herself alone, while Vaemyr experiences that sacrifice as abandonment of the person who promised to stand beside him. He does not merely want to protect her; he wants their danger to remain a shared choice.</p>
+      <h2 id="vaemyr-development">What attachment changes</h2>
+      <p>Vaemyr’s development is not a simple movement from caution to bravery. Early on, he asks whether he can responsibly take people under his protection. Through Wren, Olokun, and the community around Prima, those people stop being variables considered from outside and become part of who he is.</p>
+      <p>By late 2024 he remains thoughtful, restrained, and capable of diplomacy, but he has accepted that love creates obligations even when protection cannot be guaranteed. The more carefully he understands responsibility, the more people he becomes unable to abandon.</p>`
   },
   {
     id: "minerva", title: "Minerva", category: "People", type: "Witch; investigator; difficult ally",
@@ -2407,7 +2452,7 @@ const questEventConsequences = {
 const questPlayerAdditions = [
   { title: "Alyhotep bin Baladin", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world." },
   { title: "Quoth", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer whose long quest record includes Hin expeditions, disappearances, rescues, and later regional journeys." },
-  { title: "Vaemyr", meta: "Player character · quest-RP", article: "people-directory", summary: "A persistent explorer of dungeons, portals, corruption sites, and Pristinia’s difficult civic choices." },
+  { title: "Vaemyr", meta: "Diplomat and consequence-minded adventurer", article: "vaemyr", summary: "Tests what care demands, then commits fully to the people he chooses—especially Wren and his pana Olokun." },
   { title: "Krone", meta: "Player character · quest-RP", article: "people-directory", summary: "A frequently played adventurer active in The Before, Gael, Pristinia’s defenses, and the campaign against Wrath." },
   { title: "Saylor", meta: "Player character · quest-RP", article: "people-directory", summary: "A priestess and expedition member whose quest history includes the Hin crisis, Voraketh, and repeated rescue attempts." },
   { title: "Navi", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer in late-2024 and 2025 quest arcs, often traveling with Sparrow, Stormy, and Amity." },
@@ -2481,9 +2526,9 @@ const legacyCharacterProfiles = {
     relationships: "Rolen and Vigr Frami are his most consistent early companions, with Adelia, Bitoshi, Alyhotep, Wren, and Vaemyr joining later expeditions. These relationships are built through shared procedure—watching doors, recovering bodies, training volunteers, and accepting correction when coordination fails."
   },
   "Dale": {
-    personality: "Dale combines blunt judgment with deep attachment. He can call someone foolish without withdrawing his respect, and his most memorable words show a person who ranks allies above abstractions when a crisis makes both impossible to save.",
-    achievements: "He investigates Eovar, helps confront the meteor orb, explores the landslide ruins, sails toward new islands, and survives the wider Gael history. His death becomes the setting for Wrath’s first offer, while his return demonstrates that grief can be answered without accepting the bargain placed beside it.",
-    relationships: "Nienna is central to Dale’s emotional history, from affectionate criticism to the farewell that names Hope as more important than any one person. Elenia and Quake also shape the moment of his return: Quake refuses Wrath, and Elenia seeks another way, making Dale’s life a consequence of their shared refusal."
+    personality: "Dale is funny without being emotionally disposable. He turns into a shark, hides behind a potted plant, struggles with directions, and still recognizes the truth that matters fastest: when a friend is in danger, help the friend. His simplicity is an emotionally competent way of belonging, not proof that nothing inside him is serious.",
+    achievements: "He sings courage into Hope’s defenders, helps Gael’s refugees move from emergency food toward permanent settlement, and accumulates enough ordinary history that his apparent death shakes the entire company. His wedding, journeys, jokes, and practical work make community itself one of his achievements.",
+    relationships: "Gartina’s place in Dale’s life is preserved through the wedding cake and the fury her abduction produces. Arjahn’s desperate rescue plan and crisis of faith, Wren’s grief while healing the living, Nienna’s affectionate farewell, and Saray’s trusted grief all show how much social weight Dale carries without needing to announce it."
   },
   "Draygar WarSmash": {
     personality: "Draygar is boisterous, sociable, physically fearless, and frequently funny without being careless about other people’s danger. The archive shows him joking about food and height, then immediately hauling fallen companions clear, calling for a medic, or offering his hammers when a fight turns serious.",
@@ -2556,9 +2601,9 @@ const legacyCharacterProfiles = {
     relationships: "Alyhotep, Nienna, Olokun, Loistava, Gartina, Arjahn, Gudlaug, Vaemyr, and Leo recur through Tricks’s early history. These bonds are procedural and protective: companions test what Tricks finds, keep one another alive when inquiry becomes a trap, and carry evidence back to people who were not there."
   },
   "Vaemyr": {
-    personality: "Vaemyr is persistent, adaptable, and unusually willing to return to places that have already demonstrated their hostility. He carries uncertainty forward instead of demanding that survival produce a complete explanation.",
-    achievements: "He explores the sector dungeon, stabilizes Pristinia through community labor, survives Rehevä’s death-rigged ruins, investigates worm and corruption caves, and witnesses the Delerium-fragment crisis. His long record connects dungeon exploration to the town’s political and practical consequences.",
-    relationships: "Olokun, Scribonia, Eugene, Alyhotep, Bari, Leo, Gudlaug, Arjahn, and Tricks form the changing companies around him. Vaemyr’s relationships are built through repeated return: people know he will still be present after the first expedition fails to answer the question."
+    personality: "Vaemyr is careful because he takes consequences seriously. He admits uncertainty, tests whether compassion can actually protect the people it gathers, and can still reach severe moral conclusions when the alternative costs an entire continent. His restraint contains deep feeling rather than replacing it.",
+    achievements: "He survives repeated dungeon and corruption expeditions, helps stabilize Pristinia, and becomes a useful diplomatic voice during the Talon, Duchess, and Rahu crisis. His decisive achievement is relational: caution matures into a willingness to remain when survival would be easier through abandonment.",
+    relationships: "Wren is his deepest bond and the person he refuses to leave even when she asks him to save himself. Olokun is his pana, the man who welcomed him into Prima, pulls him back from fear, and helps shape who he becomes. Those attachments turn responsibility from a calculation into identity."
   },
   "Vigr Frami": {
     personality: "Vigr Frami is an early defender whose practical courage appears in recovery work, training, and negotiation as much as combat. He treats settlement survival as a task requiring prepared people and workable relationships with the surrounding land.",
@@ -2606,7 +2651,7 @@ const legacyCharacterProfiles = {
     relationships: "Vessalia, Di’Trillio, Pell, and Minerva are his confirmed company members. St. Anky, Olokun, Cecil, and Coralyn share the Gate journey, connecting Fenwick’s modern investigative role to one of the archive’s most consequential expeditions. Praise from Raven Joyner is deliberately mixed with criticism of adventurer disruption, making his public standing neither spotless nor dismissible."
   },
   "St. Anky": {
-    personality: "Anky is frightened, disordered, generous, and profoundly serious about keeping a promise. When Voraketh begins taking pieces of memory, he does not answer by hoarding what remains; he builds systems through which secrets, equipment, theories, and questions can outlive the person who first carried them.",
+    personality: "Anky is frightened, disordered, generous, and unusually comfortable admitting that he does not understand. His comedy and wisdom share that humility: he can guard a hobo pile, vomit after revelation, and still ask the question everyone else skipped—what do the Chains hold before anyone breaks more of them?",
     achievements: "He witnesses the Gate’s construction, serves Nuru as saint and cupbearer, helps articulate a peace founded on reciprocal boundaries, commissions a map of Voraketh, and establishes the Temple of Secrets as a communal memory shelter. On his final recovered expedition he prepares potions, writes protective knowledge, and chooses a route according to divine warning; his exact death remains unresolved rather than dramatized into false certainty.",
     relationships: "Nuru publicly recognizes Anky’s service, but Anky’s holiness is expressed most clearly through mortal sharing. Cerwin receives help even without an item to exchange and later reaches Anky on the road to the afterlife; Alfred joins the last known journey; Coralyn, Carmen, Sildithas, Brianna, and Ghilsen share the Shadow Roads history. His community inherits records instead of only grief."
   },
@@ -2661,9 +2706,9 @@ const legacyCharacterProfiles = {
     relationships: "Adelia’s rescue is central, though the later governance dispute requires a strict boundary between what characters knew and what players or systems later argued. St. Anky carries Physisia’s message through Pappy in the Voraketh record, while the wider Ale-Chemy network treats him as a close contributor without proving formal membership."
   },
   "Aravil": {
-    personality: "Aravil is separated from her Queen but not from the oath that gives her life direction. In Pristinia she discovers that belonging can be rebuilt through useful work, disciplined protection, and choices made beside people who were strangers when the journey began.",
-    achievements: "She serves as an oathbound hunter, contributes to Pristinia’s survival, and enters the Abyss with Olokun and Wren. When an impossible choice saves Wren and leaves Aravil taken as a trophy, her disappearance becomes one of the campaign’s most painful demonstrations that choosing one life does not make the other loss acceptable.",
-    relationships: "Her absent Queen remains the origin of her oath, but Pristinia becomes the place where duty grows into community. Olokun carries the moral injury of the Abyss choice, Wren survives inside the same event, and Elenia later stands against banishment in a way that keeps Aravil’s story connected to the broader question of who is allowed to belong after catastrophe."
+    personality: "Aravil is concise, observant, and decisive once a fight is truly necessary. She remembers people through the methods and battles they shared, making historical memory one of her clearest forms of respect. Experience appears in judgment and recognition rather than self-promotion.",
+    achievements: "She serves as an oathbound hunter, supports Pristinia through hunting, returns when the thrum of war calls, and enters the Abyss with Olokun and Wren. Her critical observation of Zarathian contradictions shows that martial directness does not exhaust her intelligence.",
+    relationships: "Her absent Queen remains the origin of her oath. Jiangshi and Scribonia live in her memory through the Fey Forest hunt, including Jiangshi’s violent hairpins; Olokun recognizes her as a returning veteran; and Pristinia becomes a second belonging built through useful work rather than replacement loyalty."
   },
   "Jéane Rose": {
     personality: "Jéane experiences thought, travel, and obligation at extraordinary speed, but her record is not only about motion. She notices danger quickly and treats that advantage as a responsibility to protect people whose bodies and decisions move at a different pace.",
@@ -2676,9 +2721,9 @@ const legacyCharacterProfiles = {
     relationships: "Vaerik’s bonds form through entrusted danger: companions rely on him to do what he says and to remain when the work becomes costly. The archive has not yet recovered enough named scenes to rank those relationships honestly, so his profile records the pattern of duty while leaving specific friendships open for future evidence."
   },
   "Wren": {
-    personality: "Wren is an investigator who listens to land, weather, bodies, and inherited stories before committing to an explanation. That caution is not passivity; she acts decisively when evidence is sufficient and is willing to say when it is not.",
-    achievements: "She guides the mountain-pass party away from flood danger, helps stop the reality-splitting ritual, explores the four-pillar ruins, survives the lich expedition, and continues through Gael, Voraketh, and the Abyss. Her judgment repeatedly converts environmental knowledge into survival.",
-    relationships: "Olokun’s choice to save Wren in the Abyss places her inside one of his most painful moral consequences, while Aravil becomes the person lost in the same decision. Dale, Arjahn, Elenia, Quake, Scribonia, and Adelia recur across her field history, and her trust is shaped by whether companions respect evidence, limits, and one another’s agency."
+    personality: "Wren notices people as closely as she reads earth, weather, and inherited stories. She can grieve while healing, fear while choosing, and remain operational without pretending emotion has disappeared. Jealousy and insecurity keep that care human rather than saintly.",
+    achievements: "She turns environmental attention into survival across mountain passes, ruins, Gael, Voraketh, and the Abyss. During the Wrath catastrophe she heals Arjahn through tears for Dale, draws resolve from the whole company, and grieves Jiangshi because she understands what Jiangshi means to others.",
+    relationships: "Vaemyr is her central bond and her clearest conflict: Wren feels responsible to everyone, while he fears her universal sacrifice will make her stand alone and abandon the person beside her. Dale, Gartina, Jiangshi, Arjahn, and the wider party establish Wren as the carrier of the community’s emotional continuity."
   }
 };
 
@@ -2822,13 +2867,13 @@ const archiveIndex = {
     { title: "Adelia & Hope", meta: "Character record", article: "adelia-hope", image: "assets/archive/adelia.jpeg", summary: "Ascension, inheritance, and the life made possible by Nienna’s sacrifice." },
     { title: "Akarian", meta: "Guardian of Gael", article: "akarian", image: "assets/characters/akarian.png", video: "assets/archive/akarian.mp4", summary: "A practical warrior remembered as the Guardian of a wounded region in recovery." },
     { title: "Aleister / Alastair", meta: "Character index", article: "people-directory", summary: "A spelling variant preserved from the source catalogue." },
-    { title: "Aravil", meta: "Oathbound hunter", article: "aravil", image: "assets/characters/aravil.png", summary: "Separated from her Queen but not from her oath; finds belonging through useful work in Pristinia." },
+    { title: "Aravil", meta: "Oathbound hunter and remembered veteran", article: "aravil", image: "assets/characters/aravil.png", summary: "Recognizes comrades by shared battles, admits error without surrendering competence, and returns when war becomes consequential." },
     { title: "Arjahn", meta: "Soldier and mapper", article: "arjahn", image: "assets/characters/arjahn.png", summary: "A disciplined protector who plans routes home and makes other people’s solutions stronger." },
     { title: "Brianna", meta: "Character sighting", article: "ghilsen", image: "assets/characters/brianna.png", summary: "Ghilsen’s ‘Wifey’; enters the Shadow Roads holding him close and later confronts darkness pulled from her body." },
     { title: "Cecil", meta: "Character sighting", article: "new-year-address", image: "assets/characters/cecil.png", summary: "A careful observer remembered for attention to individual vines and leaves; travels through time with Olokun." },
     { title: "Carmen", meta: "Character record", article: "carmen", image: "carmen-portrait.jpg", summary: "A deep gnome warlock whose ledger of obligation is tested by Paco’s unchosen sacrifice." },
     { title: "Coralyn", meta: "Aquatic adventurer", article: "coralyn", image: "assets/characters/coralyn.png", summary: "Explains cosmology through the sea and openly dissents when the Shadow Roads feel wrong." },
-    { title: "Dale", meta: "Musician and practical caretaker", article: "dale", image: "assets/characters/dale.png", summary: "Turns concern into courage, food, shelter, tools, and consultation without trying to own another person’s grief." },
+    { title: "Dale", meta: "Musician and loyal community-maker", article: "dale", image: "assets/characters/dale.png", summary: "Makes catastrophe funny without making it false, then answers danger to a friend with immediate and sincere loyalty." },
     { title: "Dez", meta: "Character sighting", article: "people-directory", summary: "A tavern-scene presence who repeatedly opens conversational space for Ghilsen and Magnus." },
     { title: "Elenia", meta: "Character record", article: "elenia", image: "elenia-portrait.png", summary: "A bearer of light whose devotion does not require moral blindness." },
     { title: "Gartina", meta: "Character record", article: "gartina", image: "gartina-portrait.png", summary: "A chef and protector for whom preparation is care—and can become self-blame." },
@@ -2848,7 +2893,7 @@ const archiveIndex = {
     { title: "Saray", meta: "Survivor of grief", article: "saray", image: "assets/characters/saray.png", summary: "Carries guilt after Nienna’s death and later lands the final blow against Wrath; the connecting chronology remains incomplete." },
     { title: "Rahn", meta: "Character sighting", article: "people-directory", summary: "A sparsely recorded flying adventurer preserved in the recovered scene catalogue." },
     { title: "Ryvyt", meta: "Ale-Chemy founder and crafter", article: "ryvyt", image: "assets/characters/ryvyt.png", summary: "Makes specialization operational through crafting, research, shared equipment, and project work." },
-    { title: "St. Anky", meta: "Nuru’s saint and chronicler", article: "st-anky", image: "st-anky-portrait.png", summary: "Built Voraketh’s Temple of Secrets so knowledge, questions, and communal resources could survive their keepers." },
+    { title: "St. Anky", meta: "Nuru’s saint and humble chronicler", article: "st-anky", image: "st-anky-portrait.png", summary: "Admits what nobody knows, asks before destroying, and built Voraketh’s Temple of Secrets so knowledge could survive its keepers." },
     { title: "Scribonia", meta: "Magi and scholar", article: "scribonia", image: "scribonia-portrait.png", summary: "Self-defined before every label; brave in argument and often unable to relinquish the last word." },
     { title: "Selwyn", meta: "Character index", article: "people-directory", summary: "A player character preserved in the recovered catalogue." },
     { title: "Lady Severina", meta: "Commander and civic defender", article: "lady-severina", image: "assets/characters/lady-severina.png", summary: "Connects field discipline, scholar protection, walls, quarry production, and guarded refuge into one practice of defense." },
@@ -2859,7 +2904,7 @@ const archiveIndex = {
     { title: "Tshuka", meta: "Character index", article: "people-directory", image: "assets/characters/tshuka.png", summary: "A player character preserved in the recovered catalogue." },
     { title: "Vaelith", meta: "Character index", article: "people-directory", image: "assets/characters/vaelith.png", summary: "A player character preserved in the recovered catalogue." },
     { title: "Vaerik", meta: "Old soldier", article: "vaerik", image: "assets/archive/vaerik.png", summary: "Duty expressed as the conviction that if he can bear a burden, he must." },
-    { title: "Wren", meta: "Druidic investigator", article: "wren", image: "assets/characters/wren.png", summary: "Asks the land, tests inherited stories, and treats understanding as a collective practice." },
+    { title: "Wren", meta: "Druidic investigator and emotional witness", article: "wren", image: "assets/characters/wren.png", summary: "Feels what history costs individual people and keeps helping inside grief, even when responsibility threatens to consume her." },
     { title: "Alioth", meta: "Rahu trial participant", article: "casimir-alioth", summary: "Calls loyalty to Casimir a strength where Ephraith judges the same choice an institutional failure." },
     { title: "Aurélia / Night", meta: "Magic Academy student", article: "people-directory", summary: "A student by September 2026 whose fuller chronology still needs primary-source recovery." },
     { title: "Casimir", meta: "Procedural thinker", article: "casimir-alioth", summary: "Tests constraints, questions, silence, and institutional rules rather than trying to overpower them." },
@@ -3135,7 +3180,7 @@ const navigationRegions = [
         { label: "Nienna", article: "nienna" }, { label: "Nymera", article: "nymera" }, { label: "Olokun", article: "olokun" },
         { label: "Pappy", article: "pappy" }, { label: "Ryvyt", article: "ryvyt" }, { label: "Saray", article: "saray" },
         { label: "Scribonia", article: "scribonia" }, { label: "Sildithas", article: "sildithas" },
-        { label: "St. Anky", article: "st-anky" }, { label: "Thorn", article: "thorn" }, { label: "Tobias", article: "tobias" }, { label: "Vaerik", article: "vaerik" },
+        { label: "St. Anky", article: "st-anky" }, { label: "Thorn", article: "thorn" }, { label: "Tobias", article: "tobias" }, { label: "Vaemyr", article: "vaemyr" }, { label: "Vaerik", article: "vaerik" },
         { label: "Wren", article: "wren" }
       ]},
       { title: "Groups & orders", items: [
@@ -3654,6 +3699,62 @@ function renderVaultGate(article) {
   contents.innerHTML = "";
 }
 
+function normalizePlaceName(value = "") {
+  return String(value)
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .replace(/[’‘]/g, "'")
+    .replace(/^the\s+/i, "")
+    .replace(/[^a-z0-9'&]+/gi, " ")
+    .trim()
+    .toLocaleLowerCase();
+}
+
+function renderLocationTimeline(article) {
+  if (article.category !== "Places" || article.id === "visual-archive") return "";
+  const placeNames = new Set([article.title]);
+  archiveIndex.islands
+    .filter(place => place.article === article.id)
+    .forEach(place => {
+      placeNames.add(place.title);
+      (place.aliases || []).forEach(alias => placeNames.add(alias));
+    });
+  const normalizedNames = new Set([...placeNames].map(normalizePlaceName).filter(Boolean));
+  const timelineItems = archiveIndex.timeline
+    .filter(item => !isRestrictedTimelineEvent(item))
+    .filter(item => {
+      if (item.article === article.id) return true;
+      const locationParts = String(item.location || "").split(/[;,/·]|\s+›\s+/).map(normalizePlaceName).filter(Boolean);
+      return locationParts.some(part => normalizedNames.has(part));
+    })
+    .filter((item, index, items) => items.findIndex(candidate => candidate.title === item.title && candidate.sort === item.sort) === index)
+    .sort((left, right) => left.sort.localeCompare(right.sort));
+  const lockedNote = !vaultUnlocked
+    ? `<p class="location-timeline-note"><span aria-hidden="true">◆</span> Protected ancient records remain veiled in player-safe view.</p>`
+    : "";
+  const events = timelineItems.length
+    ? `<ol class="location-timeline-list">${timelineItems.map(item => `
+        <li>
+          <button type="button" class="location-timeline-event" data-timeline-title="${escapeHtml(item.title)}">
+            <span class="location-timeline-date">${escapeHtml(item.meta)}</span>
+            <strong>${escapeHtml(item.title)}</strong>
+            <span>${escapeHtml(item.summary)}</span>
+            <small>${escapeHtml(item.kind)} · Open detailed record <b aria-hidden="true">→</b></small>
+          </button>
+        </li>`).join("")}</ol>`
+    : `<div class="timeline-empty location-timeline-empty"><strong>No dated events recovered for this place.</strong><span>The location remains indexed, and its chronology will appear here as new primary-source evidence is added.</span></div>`;
+  return `
+    <section class="location-history-timeline" aria-labelledby="location-timeline-${escapeHtml(article.id)}">
+      <header class="location-timeline-heading">
+        <div><p class="eyebrow">Place chronology</p><h2 id="location-timeline-${escapeHtml(article.id)}">${escapeHtml(article.title)} through time</h2></div>
+        <span>${timelineItems.length} recovered event${timelineItems.length === 1 ? "" : "s"}</span>
+      </header>
+      <p class="location-timeline-intro">Select an event for its full two-part account, people involved, historical meaning, and linked Codex record.</p>
+      ${events}
+      ${lockedNote}
+    </section>`;
+}
+
 function renderNavigation() {
   navigation.innerHTML = navigationRegions.map(region => `
     <section class="nav-region">
@@ -3708,6 +3809,7 @@ function renderArticle(route, pushHash = true) {
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "");
   const sourceLedger = article.sources?.length ? `<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} document${article.sources.length === 1 ? "" : "s"} used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
   const subchannels = renderSubchannels(article.id);
+  const locationTimeline = renderLocationTimeline(article);
   const hubSwitcher = hubPage ? `
     <nav class="hub-switcher" aria-label="Explore the Codex">
       ${hubPages.map(page => `<button class="gateway-tile${page.id === article.id ? " active" : ""}${isPlayerSafeArticle(page.id) ? "" : " locked-record"}" data-article="${page.id}" style="--tile-image:url('${page.image}')" aria-label="${protectedRecordAria(page.label, !isPlayerSafeArticle(page.id))}"${page.id === article.id ? ' aria-current="page"' : ""}><span>${protectedRecordTitle(page.label, !isPlayerSafeArticle(page.id))}</span><small>${isPlayerSafeArticle(page.id) ? page.detail : "Protected record"}</small></button>`).join("")}
@@ -3751,6 +3853,7 @@ function renderArticle(route, pushHash = true) {
     ${hubPage ? "" : hero}
     ${sourceLedger}
     ${subchannels}
+    ${locationTimeline}
     ${peopleGallery}
     <div class="lead-grid">
       <div class="article-body">${article.body}${renderRelated(article)}</div>

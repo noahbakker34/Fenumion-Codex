@@ -3579,7 +3579,17 @@ function isRestrictedTimelineEvent(item) {
 }
 
 function restrictedMark(id) {
-  return !isPlayerSafeArticle(id) ? '<i class="nav-lock" aria-label="Protected spoiler record" title="Protected spoiler record">◆</i>' : "";
+  return !isPlayerSafeArticle(id) ? '<i class="nav-lock" aria-hidden="true">◆</i>' : "";
+}
+
+function protectedRecordTitle(title, protectedRecord) {
+  return protectedRecord
+    ? '<span class="veiled-title">Veiled record</span><i class="nav-lock" aria-hidden="true">◆</i>'
+    : escapeHtml(title);
+}
+
+function protectedRecordAria(label, protectedRecord) {
+  return escapeHtml(protectedRecord ? "Protected spoiler record. Unlock the vault to reveal its title." : label);
 }
 
 function updateVaultState() {
@@ -3617,10 +3627,10 @@ async function sha256(value) {
 
 function renderVaultGate(article) {
   articleContent.innerHTML = `
-    <section class="vault-gate" aria-labelledby="protected-record-title">
+    <section class="vault-gate locked-record" aria-labelledby="protected-record-title">
       <span class="vault-gate-sigil" aria-hidden="true">◆</span>
       <p class="article-kicker">Protected spoiler record</p>
-      <h1 id="protected-record-title">${escapeHtml(article.title)}</h1>
+      <h1 id="protected-record-title" class="veiled-title">Veiled record</h1>
       <p>This page contains hidden lore, secret motives, future consequences, or information that player characters may not know.</p>
       <button type="button" data-open-vault>Enter keeper password</button>
       <small>The public index and maps remain available in player-safe mode.</small>
@@ -3631,18 +3641,18 @@ function renderVaultGate(article) {
 function renderNavigation() {
   navigation.innerHTML = navigationRegions.map(region => `
     <section class="nav-region">
-      <button type="button" class="nav-region-link${isPlayerSafeArticle(region.article) ? "" : " restricted-link"}" data-article="${region.article}" data-nav-article="${region.article}" data-label="${escapeHtml(region.title)}" aria-label="Browse ${escapeHtml(region.title)}">
-        <span class="nav-region-glyph" aria-hidden="true">${region.glyph}</span><strong>${region.title}${restrictedMark(region.article)}</strong><span>›</span>
+      <button type="button" class="nav-region-link${isPlayerSafeArticle(region.article) ? "" : " restricted-link"}" data-article="${region.article}" data-nav-article="${region.article}" data-label="${isPlayerSafeArticle(region.article) ? escapeHtml(region.title) : "Veiled record"}" aria-label="${protectedRecordAria(`Browse ${region.title}`, !isPlayerSafeArticle(region.article))}">
+        <span class="nav-region-glyph" aria-hidden="true">${region.glyph}</span><strong>${protectedRecordTitle(region.title, !isPlayerSafeArticle(region.article))}</strong><span>›</span>
       </button>
       <div class="nav-region-tree">${region.branches.map(branch => `
         <details class="nav-branch">
           <summary>${branch.title}<span>${branch.items.length}</span></summary>
           <div>${branch.items.map(item => `
-            <button class="nav-link ${item.parent ? "nav-parent" : "nav-child"}${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}"><span>${item.label}${restrictedMark(item.article)}</span><span>›</span></button>`).join("")}</div>
+            <button class="nav-link ${item.parent ? "nav-parent" : "nav-child"}${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}" aria-label="${protectedRecordAria(item.label, !isPlayerSafeArticle(item.article))}"><span>${protectedRecordTitle(item.label, !isPlayerSafeArticle(item.article))}</span><span>›</span></button>`).join("")}</div>
         </details>`).join("")}</div>
     </section>`).join("") + `
     <section class="nav-group archive-links"><h2 class="nav-group-title">Archive reference</h2>${archiveLinks.map(item => `
-      <button class="nav-link${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}"><span>${item.label}${restrictedMark(item.article)}</span><span>›</span></button>`).join("")}</section>`;
+      <button class="nav-link${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}" aria-label="${protectedRecordAria(item.label, !isPlayerSafeArticle(item.article))}"><span>${protectedRecordTitle(item.label, !isPlayerSafeArticle(item.article))}</span><span>›</span></button>`).join("")}</section>`;
 }
 
 function renderArticle(route, pushHash = true) {
@@ -3650,6 +3660,7 @@ function renderArticle(route, pushHash = true) {
   const routeParams = new URLSearchParams(routeQuery);
   const requestedMapId = routeParams.get("map") || "";
   const article = byId.get(id) || articles[0];
+  const protectedArticle = !isPlayerSafeArticle(article.id);
   const hubPage = hubPageById.get(article.id);
   document.body.classList.toggle("home-view", article.id === "world-index");
   document.body.classList.toggle("hub-view", Boolean(hubPage));
@@ -3657,10 +3668,10 @@ function renderArticle(route, pushHash = true) {
   document.body.classList.toggle("quotes-view", article.id === "memorable-quotes");
   const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : ""}`;
   if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
-  document.title = `${article.title} — The Fenumion Codex`;
+  document.title = `${protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`;
   const path = articlePaths.get(article.id) || [article.category, article.title];
-  breadcrumbs.innerHTML = `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
-  if (!isPlayerSafeArticle(article.id)) {
+  breadcrumbs.innerHTML = protectedArticle ? `Codex <span>·</span> Protected record` : `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
+  if (protectedArticle) {
     renderVaultGate(article);
     document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));
     closePanels();
@@ -3683,7 +3694,7 @@ function renderArticle(route, pushHash = true) {
   const subchannels = renderSubchannels(article.id);
   const hubSwitcher = hubPage ? `
     <nav class="hub-switcher" aria-label="Explore the Codex">
-      ${hubPages.map(page => `<button class="gateway-tile${page.id === article.id ? " active" : ""}${isPlayerSafeArticle(page.id) ? "" : " locked-record"}" data-article="${page.id}" style="--tile-image:url('${page.image}')"${page.id === article.id ? ' aria-current="page"' : ""}><span>${page.label}${restrictedMark(page.id)}</span><small>${isPlayerSafeArticle(page.id) ? page.detail : "Protected record"}</small></button>`).join("")}
+      ${hubPages.map(page => `<button class="gateway-tile${page.id === article.id ? " active" : ""}${isPlayerSafeArticle(page.id) ? "" : " locked-record"}" data-article="${page.id}" style="--tile-image:url('${page.image}')" aria-label="${protectedRecordAria(page.label, !isPlayerSafeArticle(page.id))}"${page.id === article.id ? ' aria-current="page"' : ""}><span>${protectedRecordTitle(page.label, !isPlayerSafeArticle(page.id))}</span><small>${isPlayerSafeArticle(page.id) ? page.detail : "Protected record"}</small></button>`).join("")}
     </nav>` : "";
   const atlasBanner = article.id === "visual-archive" ? `
     <section class="atlas-banner" aria-labelledby="interactive-maps-title">
@@ -3768,7 +3779,7 @@ function setupPeopleGallery() {
     const query = queryInput.value.trim().toLocaleLowerCase();
     const scopedPeople = activeKind === "all" ? people : people.filter(person => person.personKind === activeKind);
     const matches = query
-      ? scopedPeople.filter(person => `${person.title} ${person.meta} ${person.summary}`.toLocaleLowerCase().includes(query))
+      ? scopedPeople.filter(person => (!isPlayerSafeArticle(person.article) ? "protected veiled record" : `${person.title} ${person.meta} ${person.summary}`).toLocaleLowerCase().includes(query))
       : scopedPeople;
     const scopeLabel = activeKind === "player" ? "player characters" : activeKind === "npc" ? "NPC records" : "people records";
     kindBanner.innerHTML = activeKind === "npc" ? `<figure class="people-kind-banner-frame"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"><source src="assets/archive/aria-npc-banner.mp4" type="video/mp4"></video><figcaption>NPC archive · Aria / Pride, Knight II of Death.</figcaption></figure>` : "";
@@ -3780,9 +3791,9 @@ function setupPeopleGallery() {
         : person.video
           ? `<video class="ambient-video" data-ambient-video src="${person.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>`
           : `<span class="index-glyph" aria-hidden="true">✦</span>`;
-      return `<button class="index-card character-card ${person.personKind}-record${protectedRecord ? " locked-record" : ""}" data-article="${person.article}"${protectedRecord ? "" : ` data-character-title="${escapeHtml(person.title)}"`} aria-label="${person.personLabel}: ${protectedRecord ? "protected spoiler record, " : ""}${escapeHtml(person.title)}">
+      return `<button class="index-card character-card ${person.personKind}-record${protectedRecord ? " locked-record" : ""}" data-article="${person.article}"${protectedRecord ? "" : ` data-character-title="${escapeHtml(person.title)}"`} aria-label="${protectedRecordAria(`${person.personLabel}: ${person.title}`, protectedRecord)}">
         ${media}
-        <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${escapeHtml(person.title)}${restrictedMark(person.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
+        <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${protectedRecordTitle(person.title, protectedRecord)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
       </button>`;
     }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
     setupAmbientVideos(kindBanner.closest(".people-gallery-shell"));
@@ -3808,7 +3819,7 @@ function renderSubchannels(id) {
   if (!items?.length) return "";
   const label = id === "prima-pristinia" ? "Within Prima" : id === "pristinia" ? "Within Pristinia" : "Subchannels";
   return `<section class="subchannels" aria-label="${label}"><p class="eyebrow">${label}</p><div>${items.map(item => `
-    <button class="subchannel-card${isPlayerSafeArticle(item.article) ? "" : " locked-record"}" data-article="${item.article}"><strong>${item.label}${restrictedMark(item.article)}</strong><span>${isPlayerSafeArticle(item.article) ? item.summary : "Protected record · unlock the spoiler vault to read."}</span><i aria-hidden="true">›</i></button>`).join("")}</div></section>`;
+    <button class="subchannel-card${isPlayerSafeArticle(item.article) ? "" : " locked-record"}" data-article="${item.article}" aria-label="${protectedRecordAria(item.label, !isPlayerSafeArticle(item.article))}"><strong>${protectedRecordTitle(item.label, !isPlayerSafeArticle(item.article))}</strong><span>${isPlayerSafeArticle(item.article) ? item.summary : "Protected record · unlock the spoiler vault to read."}</span><i aria-hidden="true">›</i></button>`).join("")}</div></section>`;
 }
 
 function applyPlayerSafeRedactions() {
@@ -3818,15 +3829,17 @@ function applyPlayerSafeRedactions() {
     const id = button.dataset.article;
     if (!isRestrictedArticle(id)) return;
     button.classList.add("locked-record");
-    const title = byId.get(id)?.title || button.textContent.trim();
-    button.setAttribute("aria-label", `Protected spoiler record: ${title}`);
+    button.setAttribute("aria-label", protectedRecordAria("", true));
     if (button.classList.contains("feature-card")) {
-      button.innerHTML = `<span class="feature-label">Protected record</span><span class="feature-copy"><strong>${escapeHtml(title)} <i class="nav-lock" aria-hidden="true">◆</i></strong><small>Unlock the spoiler vault to view this history.</small></span>`;
+      button.innerHTML = `<span class="feature-label">Protected record</span><span class="feature-copy"><strong>${protectedRecordTitle("", true)}</strong><small>Unlock the spoiler vault to view this history.</small></span>`;
     } else if (button.classList.contains("gateway-tile")) {
       const detail = button.querySelector("small");
       if (detail) detail.textContent = "Protected record";
       const heading = button.querySelector("span");
-      if (heading && !heading.querySelector(".nav-lock")) heading.insertAdjacentHTML("beforeend", restrictedMark(id));
+      if (heading) heading.innerHTML = protectedRecordTitle("", true);
+    } else {
+      const heading = button.querySelector("strong");
+      if (heading) heading.innerHTML = protectedRecordTitle("", true);
     }
   });
 }
@@ -3861,9 +3874,9 @@ function setupWorldBrowser() {
       <div class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}">${items.map(item => {
         const protectedRecord = activeView === "timeline" ? isRestrictedTimelineEvent(item) : !isPlayerSafeArticle(item.article);
         return `
-        <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}"${protectedRecord ? "" : activeView === "timeline" ? ` data-timeline-title="${escapeHtml(item.title)}"` : activeView === "characters" ? ` data-character-title="${escapeHtml(item.title)}"` : ""}>
+        <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}" aria-label="${protectedRecordAria(item.title, protectedRecord)}"${protectedRecord ? "" : activeView === "timeline" ? ` data-timeline-title="${escapeHtml(item.title)}"` : activeView === "characters" ? ` data-character-title="${escapeHtml(item.title)}"` : ""}>
           ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
-          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : item.meta}</small>`}<strong>${item.title}${restrictedMark(item.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
+          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
         </button>`; }).join("")}</div>`;
     setupAmbientVideos(articleContent);
   };
@@ -3905,13 +3918,15 @@ function setupInteractiveAtlas(initialMapId = "") {
     });
     const detail = atlas.querySelector(".map-detail");
     const linkedMapId = linkedMapIds.get(locationRecord.title);
-    const mapLayerLink = linkedMapId && linkedMapId !== activeMapId
+    const protectedRecord = !isPlayerSafeArticle(locationRecord.article);
+    const mapLayerLink = !protectedRecord && linkedMapId && linkedMapId !== activeMapId
       ? `<button type="button" class="map-layer-link" data-map-id="${linkedMapId}">Explore ${locationRecord.title === "Prima" ? "Prima / Pristinia" : escapeHtml(locationRecord.title)} map <span aria-hidden="true">⌖</span></button>`
       : "";
-    const protectedRecord = !isPlayerSafeArticle(locationRecord.article);
+    detail.classList.toggle("locked-record", protectedRecord);
+    detail.setAttribute("aria-label", protectedRecordAria(locationRecord.title, protectedRecord));
     detail.innerHTML = `
       <span class="map-detail-kicker">${protectedRecord ? "Protected location history" : escapeHtml(locationRecord.meta)}</span>
-      <h3>${escapeHtml(locationRecord.title)}</h3>
+      <h3>${protectedRecordTitle(locationRecord.title, protectedRecord)}</h3>
       <p>${protectedRecord ? "This map marker is public. Its history and evidence are kept inside the spoiler vault." : escapeHtml(locationRecord.summary)}</p>
       <span class="map-detail-source">${protectedRecord ? "Keeper access required" : `Evidence · ${escapeHtml(locationRecord.source)}`}</span>
       ${mapLayerLink}
@@ -3937,14 +3952,14 @@ function setupInteractiveAtlas(initialMapId = "") {
           <div class="map-canvas" style="width:${mapCanvasWidth};aspect-ratio:${map.width} / ${map.height}">
             <img src="${map.image}" width="${map.width}" height="${map.height}" alt="${escapeHtml(map.alt)}" loading="eager">
             <div class="map-pin-layer" aria-label="Mapped locations in ${escapeHtml(map.title)}">
-              ${pins.map((pin, index) => `<button type="button" class="map-pin ${pin.title === activeLocationTitle ? "active" : ""}" style="--pin-x:${pin.x}%;--pin-y:${pin.y}%" data-map-location="${escapeHtml(pin.title)}" aria-label="${escapeHtml(pin.title)}${isPlayerSafeArticle(pin.record.article) ? `: ${escapeHtml(pin.record.summary)}` : ": protected location history"}" aria-pressed="${pin.title === activeLocationTitle}"><span class="map-pin-number" aria-hidden="true"><span class="map-pin-index">${index + 1}</span></span><span class="map-pin-label">${escapeHtml(pin.title)}</span></button>`).join("")}
+              ${pins.map((pin, index) => { const protectedRecord = !isPlayerSafeArticle(pin.record.article); return `<button type="button" class="map-pin ${pin.title === activeLocationTitle ? "active" : ""}${protectedRecord ? " veiled-map-marker" : ""}" style="--pin-x:${pin.x}%;--pin-y:${pin.y}%" data-map-location="${escapeHtml(pin.title)}" aria-label="${protectedRecordAria(`${pin.title}: ${pin.record.summary}`, protectedRecord)}" aria-pressed="${pin.title === activeLocationTitle}"><span class="map-pin-number" aria-hidden="true"><span class="map-pin-index">${index + 1}</span></span><span class="map-pin-label">${protectedRecord ? "Veiled marker" : escapeHtml(pin.title)}</span></button>`; }).join("")}
             </div>
           </div>
         </div>
         <aside class="map-detail" aria-live="polite"></aside>
       </div>
       <div class="map-location-list" aria-label="Locations marked on ${escapeHtml(map.title)}">
-        ${pins.map((pin, index) => `<button type="button" class="map-location-chip ${pin.title === activeLocationTitle ? "active" : ""}" data-map-location="${escapeHtml(pin.title)}" aria-pressed="${pin.title === activeLocationTitle}"><span>${index + 1}</span>${escapeHtml(pin.title)}</button>`).join("")}
+        ${pins.map((pin, index) => { const protectedRecord = !isPlayerSafeArticle(pin.record.article); return `<button type="button" class="map-location-chip ${pin.title === activeLocationTitle ? "active" : ""}${protectedRecord ? " restricted-link" : ""}" data-map-location="${escapeHtml(pin.title)}" aria-label="${protectedRecordAria(pin.title, protectedRecord)}" aria-pressed="${pin.title === activeLocationTitle}"><span>${index + 1}</span>${protectedRecord ? "Veiled marker" : escapeHtml(pin.title)}</button>`; }).join("")}
       </div>`;
     if (activeLocationTitle) renderDetail(activeLocationTitle);
   };
@@ -4042,7 +4057,7 @@ function setupLocationExplorer() {
       .filter(item => activeRegion === "All regions" || item.region === activeRegion)
       .filter(item => !mappedOnly || mappedLocationTitles.has(item.title))
       .filter(item => {
-        const haystack = `${item.title} ${item.region} ${item.parent} ${item.type} ${item.meta} ${item.summary} ${item.source} ${(item.aliases || []).join(" ")}`.toLowerCase();
+        const haystack = (!isPlayerSafeArticle(item.article) ? `protected veiled record ${item.region}` : `${item.title} ${item.region} ${item.parent} ${item.type} ${item.meta} ${item.summary} ${item.source} ${(item.aliases || []).join(" ")}`).toLowerCase();
         return terms.every(term => haystack.includes(term));
       })
       .sort((a, b) => {
@@ -4073,11 +4088,11 @@ function setupLocationExplorer() {
               ? `<img class="place-card-image" src="${item.image}" alt="" loading="lazy">`
               : `<span class="place-glyph" aria-hidden="true">⌖</span>`;
           return `
-          <button class="place-card ${item.level === "region" ? "region-card" : ""}${protectedRecord ? " locked-record" : ""}" type="button" data-article="${item.article}">
+          <button class="place-card ${item.level === "region" ? "region-card" : ""}${protectedRecord ? " locked-record" : ""}" type="button" data-article="${item.article}" aria-label="${protectedRecordAria(item.title, protectedRecord)}">
             ${media}
             <span class="place-copy">
               <span class="place-kicker">${protectedRecord ? "Protected location history" : escapeHtml(item.parent === item.region ? item.type : `${item.parent} · ${item.type}`)}</span>
-              <strong>${escapeHtml(item.title)}${restrictedMark(item.article)}${mappedLocationTitles.has(item.title) ? `<i class="place-map-badge">Mapped</i>` : ""}</strong>
+              <strong>${protectedRecordTitle(item.title, protectedRecord)}${!protectedRecord && mappedLocationTitles.has(item.title) ? `<i class="place-map-badge">Mapped</i>` : ""}</strong>
               <span class="place-summary">${protectedRecord ? "Unlock the spoiler vault to read its history." : escapeHtml(item.summary)}</span>
               <span class="place-source">${protectedRecord ? "Keeper access required" : escapeHtml(item.source)}</span>
             </span>

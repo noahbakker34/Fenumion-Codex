@@ -1686,6 +1686,9 @@ body.hub-view .atlas-banner-copy h2 { font-size: clamp(1.55rem, 2.8vw, 2.1rem); 
 .vault-dialog form > small { display: block; margin-top: .7rem; color: var(--faint); text-align: center; }
 
 .vault-gate {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   min-height: min(680px, calc(100vh - 150px));
   display: grid;
   align-content: center;
@@ -1693,16 +1696,57 @@ body.hub-view .atlas-banner-copy h2 { font-size: clamp(1.55rem, 2.8vw, 2.1rem); 
   max-width: 720px;
   padding: clamp(2rem, 7vw, 5rem) 0;
 }
+.vault-gate > * { position: relative; z-index: 6; }
 .vault-gate-sigil { display: grid; width: 68px; height: 68px; margin-bottom: 1.3rem; place-items: center; color: var(--gold-bright); background: rgba(217, 185, 95, .07); border: 1px solid rgba(217, 185, 95, .42); border-radius: 50%; font-size: 1.35rem; }
 .vault-gate h1 { font-size: clamp(2.8rem, 7vw, 5.5rem); }
 .vault-gate > p:not(.article-kicker) { max-width: 620px; margin: 1.25rem 0; color: var(--muted); font: 1.05rem/1.7 var(--serif); }
 .vault-gate button { min-height: 48px; padding: .7rem 1rem; color: #17181d; background: var(--gold); border: 1px solid var(--gold-bright); border-radius: 4px; cursor: pointer; font-weight: 800; }
 .vault-gate > small { margin-top: .8rem; color: var(--faint); }
 .nav-lock { display: inline-block; margin-left: .42rem; color: var(--gold); font-size: .62em; font-style: normal; vertical-align: .14em; }
-.restricted-link { opacity: .82; }
-.locked-record { position: relative; }
-.locked-record::after { position: absolute; z-index: 3; top: .55rem; right: .55rem; content: "Protected"; padding: .18rem .4rem; color: #f5dc92; background: rgba(19, 19, 23, .88); border: 1px solid rgba(217, 185, 95, .45); border-radius: 999px; font-size: .56rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; pointer-events: none; }
-.map-history-link.locked-record::after, .subchannel-card.locked-record::after { display: none; }
+.veiled-title { color: #d1d4d5; text-shadow: 0 0 10px rgba(210, 218, 220, .48), 0 0 22px rgba(111, 121, 126, .48); letter-spacing: .035em; }
+.restricted-link,
+.locked-record { position: relative; isolation: isolate; overflow: hidden; }
+.restricted-link { opacity: .88; }
+.restricted-link::before,
+.locked-record::before,
+.locked-record::after {
+  position: absolute;
+  z-index: 5;
+  inset: -38%;
+  content: "";
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 18% 42%, rgba(203, 208, 210, .78) 0 7%, rgba(116, 124, 129, .48) 18%, transparent 42%),
+    radial-gradient(ellipse at 66% 58%, rgba(183, 188, 191, .72) 0 9%, rgba(103, 111, 116, .44) 23%, transparent 48%),
+    radial-gradient(ellipse at 88% 30%, rgba(218, 221, 222, .62), rgba(94, 102, 107, .38) 25%, transparent 45%);
+  background-size: 76% 72%, 82% 68%, 65% 74%;
+  filter: blur(10px) saturate(.55);
+  opacity: .68;
+  transform: translate3d(-7%, 2%, 0) scale(1.08);
+  animation: vault-mist-drift 9s ease-in-out infinite alternate;
+}
+.locked-record::after {
+  z-index: 4;
+  background:
+    linear-gradient(102deg, transparent 7%, rgba(149, 157, 161, .5) 28%, rgba(215, 219, 220, .64) 46%, rgba(104, 112, 117, .45) 68%, transparent 92%);
+  filter: blur(14px);
+  opacity: .58;
+  transform: translate3d(8%, -3%, 0) scale(1.16);
+  animation-duration: 12s;
+  animation-direction: alternate-reverse;
+}
+.locked-record > *,
+.restricted-link > * { position: relative; z-index: 2; }
+.vault-gate.locked-record::before,
+.vault-gate.locked-record::after { opacity: .42; }
+.vault-gate.locked-record > * { z-index: 6; }
+.veiled-map-marker .map-pin-label { color: #d5d8d9; background: rgba(74, 80, 84, .92); border-color: rgba(192, 198, 200, .42); text-shadow: 0 0 8px #d6dcde; }
+
+@keyframes vault-mist-drift {
+  0% { background-position: 0% 44%, 38% 58%, 100% 34%; transform: translate3d(-7%, 2%, 0) scale(1.08); }
+  48% { background-position: 38% 36%, 72% 50%, 54% 62%; }
+  100% { background-position: 86% 58%, 14% 38%, 6% 46%; transform: translate3d(7%, -2%, 0) scale(1.14); }
+}
 
 @media (max-width: 760px) {
   .vault-fab { right: .65rem; bottom: .65rem; min-height: 44px; padding: .48rem .65rem; }
@@ -1710,6 +1754,12 @@ body.hub-view .atlas-banner-copy h2 { font-size: clamp(1.55rem, 2.8vw, 2.1rem); 
   .vault-fab > span { grid-row: auto; }
   .vault-dialog form { padding: 1.5rem; }
   .vault-gate { min-height: calc(100vh - 150px); padding: 2.5rem 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .restricted-link::before,
+  .locked-record::before,
+  .locked-record::after { animation: none; }
 }
 
 /* Memorable Quotes uses the supplied water film as a restrained living page

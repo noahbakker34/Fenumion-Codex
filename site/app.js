@@ -3594,6 +3594,35 @@ function openCharacterRecord(person, personLabel = "Character") {
   requestAnimationFrame(() => recordDialogClose?.focus());
 }
 
+function openLocationRecord(place) {
+  if (!recordDialog || !recordDialogContent) return;
+  const relatedLabel = place.article === "visual-archive" ? "Open the Location Atlas" : "Open related location history";
+  const aliases = (place.aliases || []).length
+    ? `<span>Also recorded as · ${escapeHtml(place.aliases.join(" · "))}</span>`
+    : "";
+  const media = place.image
+    ? `<figure class="record-dialog-media"><img src="${escapeHtml(place.image)}" alt="${escapeHtml(place.title)}"></figure>`
+    : place.video
+      ? `<figure class="record-dialog-media"><video data-ambient-video muted loop playsinline preload="metadata"><source src="${escapeHtml(place.video)}" type="video/mp4"></video></figure>`
+      : "";
+  recordDialogContent.innerHTML = `
+    ${media}
+    <p class="record-dialog-kicker">Location record · ${escapeHtml(place.type || "Recovered place")}</p>
+    <h2 id="record-dialog-title">${escapeHtml(place.title)}</h2>
+    <p class="record-dialog-dek">${escapeHtml(place.meta || `${place.region} · ${place.parent}`)}</p>
+    <div class="record-dialog-body">
+      <p><strong>Recovered record</strong>${escapeHtml(place.summary)}</p>
+      <p><strong>Archive position</strong>${escapeHtml(`${place.title} belongs to ${place.parent || place.region} within ${place.region}. Its present entry is supported by ${place.source || "the recovered archive"}.`)}</p>
+    </div>
+    <div class="record-dialog-meta"><span>Region · ${escapeHtml(place.region || "Unresolved")}</span><span>Parent · ${escapeHtml(place.parent || "Unresolved")}</span>${aliases}</div>
+    <button class="record-dialog-link" type="button" data-record-article="${escapeHtml(place.article)}">${relatedLabel} →</button>`;
+  setupAmbientVideos(recordDialogContent);
+  if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
+  else if (!recordDialog.open) recordDialog.setAttribute("open", "");
+  recordDialog.scrollTop = 0;
+  requestAnimationFrame(() => recordDialogClose?.focus());
+}
+
 function setupAmbientVideos(root = document) {
   ambientVideoObserver?.disconnect();
   ambientVideoObserver = null;
@@ -4362,7 +4391,7 @@ function runSearch(query) {
     const titleMatch = article.title.toLowerCase().includes(normalized) ? 4 : 0;
     const tagMatch = article.tags.some(tag => tag.toLowerCase().includes(normalized)) ? 2 : 0;
     const allTermsMatch = terms.every(term => haystack.includes(term));
-    return { article, path, score: titleMatch + tagMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0) };
+    return { article, path, kind: "article", record: article, score: titleMatch + tagMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0) };
   }).filter(result => result.score);
   const matchedArticleTitles = new Set(articleResults.map(result => result.article.title.toLowerCase()));
   const indexGroups = [
@@ -4378,6 +4407,8 @@ function runSearch(query) {
     return {
       article: { id: item.article, title: item.title, type: item.meta, dek: item.summary },
       path: [group, item.title],
+      kind: group === "Timeline" ? "timeline" : group === "Locations" ? "location" : "character",
+      record: item,
       score: titleMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0)
     };
   })).filter(result => result.score && isPlayerSafeArticle(result.article.id) && !matchedArticleTitles.has(result.article.title.toLowerCase()));
@@ -4391,8 +4422,8 @@ function runSearch(query) {
       return true;
     });
   searchCount.textContent = `${results.length} result${results.length === 1 ? "" : "s"}`;
-  searchResults.innerHTML = results.length ? results.map(({ article, path }) => `
-    <button class="search-result" data-article="${article.id}"><small>${path.join(" → ")} · ${article.type}</small><strong>${highlight(article.title, normalized)}</strong><span>${highlight(article.dek, normalized)}</span></button>`).join("") : `<div class="empty-search">No character, event, location, or source matches “${escapeHtml(query)}”.</div>`;
+  searchResults.innerHTML = results.length ? results.map(({ article, path, kind, record }) => `
+    <button class="search-result" data-search-kind="${kind}" data-search-title="${escapeHtml(record.title)}" data-article="${escapeHtml(article.id)}"><small>${path.map(escapeHtml).join(" → ")} · ${escapeHtml(article.type)}</small><strong>${highlight(article.title, normalized)}</strong><span>${highlight(article.dek, normalized)}</span></button>`).join("") : `<div class="empty-search">No character, event, location, or source matches “${escapeHtml(query)}”.</div>`;
   openSearch();
 }
 
@@ -4408,6 +4439,13 @@ function closePanels() {
   sidebar.classList.remove("open");
   document.querySelector(".search-shell").classList.remove("open");
   menuButton.setAttribute("aria-expanded", "false");
+}
+
+function clearSearchQuery() {
+  search.value = "";
+  const gatewaySearch = document.querySelector("#gateway-search");
+  if (gatewaySearch) gatewaySearch.value = "";
+  closePanels();
 }
 
 recordDialogClose?.addEventListener("click", closeRecordDialog);
@@ -4431,6 +4469,33 @@ document.addEventListener("click", event => {
     renderArticle(`visual-archive?map=${encodeURIComponent(mapTrigger.dataset.openMap)}`);
     return;
   }
+  const searchTrigger = event.target.closest(".search-result[data-search-kind]");
+  if (searchTrigger) {
+    const kind = searchTrigger.dataset.searchKind;
+    const title = searchTrigger.dataset.searchTitle;
+    const articleId = searchTrigger.dataset.article;
+    clearSearchQuery();
+    if (kind === "timeline") {
+      const item = archiveIndex.timeline.find(candidate => candidate.title === title);
+      if (item && !isRestrictedTimelineEvent(item)) openTimelineRecord(item);
+      return;
+    }
+    if (kind === "character") {
+      const player = archiveIndex.characters.find(person => person.title === title);
+      const npc = archiveIndex.npcs.find(person => person.title === title);
+      const person = player || npc;
+      if (person && isPlayerSafeArticle(person.article)) openCharacterRecord(person, player ? "Player character" : "NPC");
+      return;
+    }
+    if (kind === "location") {
+      const place = archiveIndex.islands.find(item => item.title === title);
+      if (place && isPlayerSafeArticle(place.article)) openLocationRecord(place);
+      return;
+    }
+    closeRecordDialog();
+    renderArticle(articleId);
+    return;
+  }
   const timelineTrigger = event.target.closest("[data-timeline-title]");
   if (timelineTrigger) {
     const timelineItem = archiveIndex.timeline.find(item => item.title === timelineTrigger.dataset.timelineTitle);
@@ -4452,11 +4517,6 @@ document.addEventListener("click", event => {
   }
   const trigger = event.target.closest("[data-article]");
   if (trigger) {
-    if (trigger.classList.contains("search-result")) {
-      search.value = "";
-      const gatewaySearch = document.querySelector("#gateway-search");
-      if (gatewaySearch) gatewaySearch.value = "";
-    }
     renderArticle(trigger.dataset.article);
   }
   const sectionTrigger = event.target.closest("[data-section]");

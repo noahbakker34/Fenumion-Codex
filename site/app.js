@@ -177,6 +177,62 @@ const articles = [
       <p>Scribonia’s Teleportation Circle offered an escape route through the Sea of Dreams after catastrophe. A later account from Mya says Scribonia was unmade there by a divine or Void relic. The Codex preserves that as an attributed claim rather than omniscient narration.</p>`
   },
   {
+    id: "niriin-estate", title: "Niriin Estate", category: "Places", type: "Estate in Fein Uaill",
+    video: "assets/archive/niriin-estate.mp4", videoType: "video/mp4", videoLayout: "landscape-hero", videoAlt: "A moving visual record of the Niriin Estate", videoCaption: "Niriin Estate — user-supplied moving location record, 27 September 2026.",
+    dek: "A named estate within Fein Uaill, now preserved through a moving visual record while its owners, founding, and civic role remain open questions.",
+    tags: ["Niriin Estate", "Fein Uaill", "Estate", "Locations"],
+    facts: { Region: "Fein Uaill", Type: "Estate", Evidence: "Location directory · moving visual", Status: "History still unrecovered" },
+    sources: ["Fein Uaill location directory — name and regional placement", "User-supplied moving visual record — Niriin Estate, 27 Sep 2026"],
+    body: `
+      <p>The Niriin Estate is a named estate in <a href="#fein-uaill">Fein Uaill</a>. Its presence in the regional directory and the supplied moving record establish it as a distinct location, but the current archive does not yet identify its founder, present occupants, legal status, or relationship to the wider Niriin family.</p>
+      <h2 id="niriin-evidence">What the archive can support</h2>
+      <p>The Codex treats the estate’s name, regional placement, and visual identity as observed evidence. A shared surname alone is not enough to assign ownership, inheritance, or residence to <a href="#magnus">Magnus Niriin</a>.</p>
+      <h2 id="niriin-open-record">The open record</h2>
+      <p>The estate’s age, household, grounds, staff, political importance, and history remain unrecovered. Those questions stay attached to this page for later scene or source evidence.</p>`
+  },
+  {
+    id: "arias-tomb", title: "Aria’s Tomb", category: "Places", type: "Tomb in Fein Uaill",
+    video: "assets/archive/arias-tomb.mp4", videoType: "video/mp4", videoLayout: "landscape-hero", videoAlt: "A moving visual record of Aria’s Tomb", videoCaption: "Aria’s Tomb — user-supplied moving location record, 27 September 2026.",
+    dek: "A memorial site for Aria / Pride in Fein Uaill proper, distinct from the sacred city of Ciaránach.",
+    tags: ["Aria’s Tomb", "Aria", "Pride", "Fein Uaill", "Locations"],
+    facts: { Region: "Fein Uaill", Type: "Tomb", Associated: "Aria / Pride", Correction: "Not inside Ciaránach" },
+    sources: ["Fein Uaill regional record — location correction", "User-supplied moving visual record — Aria’s Tomb, 27 Sep 2026"],
+    body: `
+      <p>Aria’s Tomb belongs to Fein Uaill proper. The regional record explicitly corrects an earlier assumption that the tomb lies inside <a href="#ciaranach">Ciaránach</a>. Its association is with <a href="#aria-pride">Aria / Pride</a>, Knight II of Death.</p>
+      <h2 id="arias-tomb-place">A place, not a substitute for a life</h2>
+      <p>The tomb gives Aria a lasting point in the landscape, but it does not resolve the competing memories of who she was, what she chose, or what others made of her death. Those questions remain in her character history.</p>
+      <h2 id="arias-tomb-open-record">The open record</h2>
+      <p>The builders, date, rites, custodians, contents, and public meaning of the tomb have not yet been recovered from the campaign record.</p>`
+  },
+  {
+    id: "titanwall-eryndor", title: "The Titanwall of Eryndor", category: "Places", type: "Fortification in Fein Uaill",
+    video: "assets/archive/titanwall-eryndor.mp4", videoType: "video/mp4", videoLayout: "landscape-hero", videoAlt: "A moving visual record of the Titanwall of Eryndor", videoCaption: "The Titanwall of Eryndor — user-supplied moving location record, 27 September 2026.",
+    dek: "A monumental fortification marked on the Fein Uaill map, with its construction and historical purpose still unrecovered.",
+    tags: ["Titanwall of Eryndor", "Fein Uaill", "Fortification", "Mapped location"],
+    facts: { Region: "Fein Uaill", Type: "Fortification", Evidence: "Regional map · moving visual", Status: "Purpose unresolved" },
+    sources: ["Fein Uaill regional map — named fortification", "User-supplied moving visual record — Titanwall of Eryndor, 27 Sep 2026"],
+    body: `
+      <p>The Titanwall of Eryndor is a named fortification in <a href="#fein-uaill">Fein Uaill</a>. It appears on the regional map and now has a supplied moving visual record, establishing it as a monumental boundary or defensive work without yet establishing which threat it faced.</p>
+      <h2 id="titanwall-map">A mapped boundary</h2>
+      <p>The interactive Fein Uaill map preserves the wall’s approximate marked position. That cartographic evidence should not be stretched into claims about its precise dimensions, route, garrison, or relationship to neighboring sites.</p>
+      <h2 id="titanwall-open-record">The open record</h2>
+      <p>Eryndor’s identity, the wall’s builders, construction era, military history, present condition, and custodians remain unrecovered.</p>`
+  },
+  {
+    id: "thalanbor-library", title: "Thalanbor the Boundless Artwright’s Library", category: "Places", type: "Library in Fein Uaill",
+    video: "assets/archive/thalanbor-library.mp4", videoType: "video/mp4", videoLayout: "landscape-hero", videoAlt: "A moving visual record of Thalanbor the Boundless Artwright’s Library", videoCaption: "Thalanbor the Boundless Artwright’s Library — user-supplied moving location record, 27 September 2026.",
+    dek: "A monumental library in Fein Uaill whose name survives more clearly than its founder, collections, or institutional history.",
+    tags: ["Thalanbor", "Artwright", "Library", "Fein Uaill", "Locations"],
+    facts: { Region: "Fein Uaill", Type: "Library", Namesake: "Thalanbor the Boundless Artwright", Status: "Collections unrecovered" },
+    sources: ["Fein Uaill location directory — full name and regional placement", "User-supplied moving visual record — Thalanbor the Boundless Artwright’s Library, 27 Sep 2026"],
+    body: `
+      <p>Thalanbor the Boundless Artwright’s Library is a named library in <a href="#fein-uaill">Fein Uaill</a>. The full title associates it with Thalanbor and the epithet “the Boundless Artwright,” but the current archive does not yet explain whether Thalanbor founded, designed, owned, endowed, or merely gave a name to the institution.</p>
+      <h2 id="thalanbor-evidence">A visual and a name</h2>
+      <p>The location directory and supplied moving record establish a monumental scholarly place. They do not establish the contents of its collections, who may enter, or how its knowledge relates to the Silver Star and other Zarathian custodians.</p>
+      <h2 id="thalanbor-open-record">The open record</h2>
+      <p>Thalanbor’s biography, the library’s date, administration, specialties, magical properties, and role in regional history remain unresolved.</p>`
+  },
+  {
     id: "ciaranach", title: "Ciaránach", category: "Places", type: "Sacred city of Fein Uaill",
     video: "ciaranach.mp4", videoType: "video/mp4", videoLayout: "landscape-hero", videoAlt: "A moving visual record of Ciaránach", videoCaption: "Ciaránach — user-supplied moving city record, 27 September 2026.",
     dek: "A cloistered mountain city reached by pilgrimage from Zarathis, where the Golden Ones preserve truth and counsel Zarathian law.",
@@ -1119,9 +1175,11 @@ const articles = [
   {
     id: "zarathis", title: "Zarathis", category: "Places", type: "Fein Uaill · civilization",
     image: "assets/archive/fein-uaill.jpeg", imageAlt: "Regional map of Fein Uaill containing Zarathis", imageCaption: "Zarathis is one developed center within the wider Fein Uaill region.",
+    video: "assets/archive/zarathis.mp4", videoType: "video/mp4", videoLayout: "landscape-hero", videoAlt: "A moving visual record of the city of Zarathis", videoCaption: "Zarathis — user-supplied moving city record, 27 September 2026.",
     dek: "A powerful human civilization within Fein Uaill, built around mastery, memory, natural boundaries, and the conviction that one life must be enough.",
     tags: ["Fein Uaill", "Nation", "Silver Star", "Resurrection", "Magnus"],
     facts: { Parent: "Fein Uaill", Ideal: "Perfect what is ours", Boundary: "One mortal life", Custodians: "The Silver Star" },
+    sources: ["User-supplied moving visual record — Zarathis, 27 Sep 2026", "Fein Uaill regional chronicle and map — geographic and cultural context"],
     body: `
       <p>Zarathis is presented as one of the greatest human civilizations in the setting and as one developed center inside <a href="#fein-uaill">Fein Uaill</a>. Its answer to greatness is not endless expansion or transcendence. It cultivates its own land, preserves its history, respects natural boundaries, and treats a single mortal life as the proper span in which greatness must be achieved.</p>
       <h2 id="one-life">You only get one life</h2>
@@ -2501,20 +2559,20 @@ const archiveIndex = {
     { title: "Plains of Trial", region: "Gael", parent: "Gael", type: "trial landscape", meta: "Gael · plains", article: "sildithas", summary: "The place where Sildithas died, returned hours later, and remembered having failed its measure.", source: "Scene + map", aliases: ["The Plains of Trial"], level: "site" },
     { title: "Underwater Temple", region: "Gael", parent: "Gael", type: "temple", meta: "Gael · temple", article: "gael", summary: "A submerged sacred site named on the Gael map.", source: "Map", aliases: ["The Underwater Temple"], level: "site" },
 
-    { title: "Zarathis", region: "Fein Uaill", parent: "Fein Uaill", type: "civilization", meta: "Fein Uaill · civilization", article: "zarathis", summary: "A developed center organized around memory, mastery, and the boundary of one mortal life.", source: "Chronicle + map", aliases: ["Zerathis"], level: "settlement" },
+    { title: "Zarathis", region: "Fein Uaill", parent: "Fein Uaill", type: "civilization", meta: "Fein Uaill · civilization", article: "zarathis", summary: "A developed center organized around memory, mastery, and the boundary of one mortal life.", source: "Chronicle + map + moving visual", aliases: ["Zerathis"], video: "assets/archive/zarathis.mp4", level: "settlement" },
     { title: "Caisleán na Brón", region: "Fein Uaill", parent: "Fein Uaill", type: "fortified place", meta: "Fein Uaill · fortified place", article: "fein-uaill", summary: "A major fortified place confirmed by the Fein Uaill map and screenshot directory.", source: "Map + screenshot", aliases: ["Caselean De Broin", "Caislean na Bron", "Caisleán De Bróin"], level: "site" },
     { title: "Ciaránach", region: "Fein Uaill", parent: "Fein Uaill", type: "sacred city", meta: "Fein Uaill · sacred city", article: "ciaranach", summary: "A sacred city whose visual identity now includes the wider settlement and a temple within it.", source: "Regional chronicle + user-supplied moving records", aliases: ["Ciaranach"], video: "ciaranach.mp4", level: "settlement" },
     { title: "Holy Road to Ciaránach", region: "Fein Uaill", parent: "Ciaránach", type: "pilgrimage route", meta: "Fein Uaill › Ciaránach · pilgrimage route", article: "ciaranach", summary: "A permission-bound route from Zarathis through orchards and high mountains, used for the yearly lesson and the approach to the Golden Ones.", source: "Complete quest-rp export · 27 Sep 2025", aliases: ["Holy Road", "Road to Ciaranach"], level: "site" },
     { title: "Temple in Ciaránach", region: "Fein Uaill", parent: "Ciaránach", type: "temple", meta: "Fein Uaill › Ciaránach · temple", article: "ciaranach", summary: "A temple preserved through a moving visual record; its proper name, dedication, and deeper history remain unrecovered.", source: "User-supplied moving record", aliases: ["Ciaránach Temple", "Ciaranach Temple", "Temple of Ciaránach"], video: "ciaranach-temple.mp4", level: "site" },
     { title: "Gates of Aelthor", region: "Fein Uaill", parent: "The Shining Shores", type: "coastal city / battle site", meta: "Fein Uaill › Shining Shores · city", article: "shining-shores", summary: "A city of white streets, bustling markets, and soaring towers, named for the first king after the breaking of the world; later battle records preserve a devastating attack by Aionia’s host.", source: "Location profile + scene + map + screenshot + user spelling correction", aliases: ["The Gates of Aelthor", "Gates of Aethor", "The Gates of Aethor", "Gates of Arthor"], level: "settlement" },
     { title: "Seraphis", region: "Fein Uaill", parent: "Fein Uaill", type: "city", meta: "Fein Uaill · city", article: "fein-uaill", summary: "A major settlement confirmed by the Fein Uaill map and supplied screenshot directory.", source: "Map + screenshot", aliases: [], level: "settlement" },
-    { title: "The Titanwall of Eryndor", region: "Fein Uaill", parent: "Fein Uaill", type: "fortification", meta: "Fein Uaill · fortification", article: "fein-uaill", summary: "A monumental wall confirmed by the regional map and supplied screenshot directory.", source: "Map + screenshot", aliases: ["Titanwall of Eryndor", "Titanwall of Eanndor"], level: "site" },
+    { title: "The Titanwall of Eryndor", region: "Fein Uaill", parent: "Fein Uaill", type: "fortification", meta: "Fein Uaill · fortification", article: "titanwall-eryndor", summary: "A monumental wall confirmed by the regional map and a supplied moving visual record.", source: "Map + moving visual", aliases: ["Titanwall of Eryndor", "Titanwall of Eanndor"], video: "assets/archive/titanwall-eryndor.mp4", level: "site" },
     { title: "The Shard of Fein Uaill", region: "Fein Uaill", parent: "Fein Uaill", type: "monument / landmark", meta: "Fein Uaill · landmark", article: "fein-uaill", summary: "A named regional landmark confirmed by the supplied screenshot directory; the post text itself was deleted.", source: "Screenshot directory", aliases: ["Shard of Fein Uaill", "Rem Uaill"], level: "site" },
     { title: "The Radiant Bazaar of Zarathis", region: "Fein Uaill", parent: "Zarathis", type: "market", meta: "Fein Uaill › Zarathis · bazaar", article: "zarathis", summary: "A Zarathian market confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: ["Radiant Bazaar"], level: "site" },
-    { title: "Niriin Estate", region: "Fein Uaill", parent: "Fein Uaill", type: "estate", meta: "Fein Uaill · estate", article: "fein-uaill", summary: "A named estate confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: [], level: "site" },
-    { title: "Aria’s Tomb", region: "Fein Uaill", parent: "Fein Uaill", type: "tomb", meta: "Fein Uaill · tomb", article: "aria-pride", summary: "Aria’s tomb lies in Fein Uaill proper; the regional record corrects the assumption that it is inside Ciaránach.", source: "Regional record + image", aliases: ["Aria's Tomb"], level: "site" },
+    { title: "Niriin Estate", region: "Fein Uaill", parent: "Fein Uaill", type: "estate", meta: "Fein Uaill · estate", article: "niriin-estate", summary: "A named estate confirmed by the location directory and a supplied moving visual record.", source: "Location directory + moving visual", aliases: [], video: "assets/archive/niriin-estate.mp4", level: "site" },
+    { title: "Aria’s Tomb", region: "Fein Uaill", parent: "Fein Uaill", type: "tomb", meta: "Fein Uaill · tomb", article: "arias-tomb", summary: "Aria’s tomb lies in Fein Uaill proper; the regional record corrects the assumption that it is inside Ciaránach.", source: "Regional record + moving visual", aliases: ["Aria's Tomb"], video: "assets/archive/arias-tomb.mp4", level: "site" },
     { title: "The Shining Shores", region: "Fein Uaill", parent: "Fein Uaill", type: "coastal region", meta: "Fein Uaill · coast", article: "shining-shores", summary: "A warm coastal region containing the Gates of Aelthor, serving as sea approach, city shore, resting place, and setting for political conversation.", source: "Consolidated location profile + scenes + moving visual", aliases: ["Shining Shores", "Shining Shores of Fein Uaill"], video: "shining-shores.m4v", level: "site" },
-    { title: "Thalanbor the Boundless Artwright’s Library", region: "Fein Uaill", parent: "Fein Uaill", type: "library", meta: "Fein Uaill · library", article: "fein-uaill", summary: "A monumental library confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: ["Thalanbor's Library", "Artwright's Library"], level: "site" },
+    { title: "Thalanbor the Boundless Artwright’s Library", region: "Fein Uaill", parent: "Fein Uaill", type: "library", meta: "Fein Uaill · library", article: "thalanbor-library", summary: "A monumental library confirmed by the location directory and a supplied moving visual record.", source: "Location directory + moving visual", aliases: ["Thalanbor's Library", "Artwright's Library"], video: "assets/archive/thalanbor-library.mp4", level: "site" },
     { title: "The Feytouched Forest", region: "Fein Uaill", parent: "Fein Uaill", type: "forest", meta: "Fein Uaill · forest", article: "fein-uaill", summary: "A named forest confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: ["Feytouched Forest"], level: "site" },
     { title: "Eshnunna of the Eternal Flame", region: "Fein Uaill", parent: "Fein Uaill", type: "sacred site", meta: "Fein Uaill · sacred site", article: "fein-uaill", summary: "A radiant sacred place confirmed by the supplied screenshot directory.", source: "Screenshot directory", aliases: ["Eshnunna"], level: "site" },
     { title: "Scribonia’s Teleportation Circle", region: "Fein Uaill", parent: "Sea of Dreams", type: "teleportation circle", meta: "Fein Uaill › Sea of Dreams · circle", article: "scribonia", summary: "An escape route unveiled after catastrophe; Mya later attributes Scribonia’s unmaking there to a divine or Void relic.", source: "Attributed scene + screenshot", aliases: ["Scribonia's Teleportation Circle in The Sea of Dreams", "Sea of Dreams"], level: "site" },
@@ -2717,7 +2775,9 @@ const navigationRegions = [
       ]},
       { title: "Fein Uaill", items: [
         { label: "Fein Uaill overview", article: "fein-uaill", parent: true },
-        { label: "Zarathis", article: "zarathis" }, { label: "Ciaránach", article: "ciaranach" }, { label: "The Shining Shores", article: "shining-shores" }
+        { label: "Zarathis", article: "zarathis" }, { label: "Ciaránach", article: "ciaranach" }, { label: "The Shining Shores", article: "shining-shores" },
+        { label: "Niriin Estate", article: "niriin-estate" }, { label: "Aria’s Tomb", article: "arias-tomb" },
+        { label: "The Titanwall of Eryndor", article: "titanwall-eryndor" }, { label: "Thalanbor’s Library", article: "thalanbor-library" }
       ]},
       { title: "Gael", items: [
         { label: "Gael overview", article: "gael", parent: true }
@@ -2770,6 +2830,10 @@ articlePaths.set("fein-uaill", ["Locations", "Fein Uaill"]);
 articlePaths.set("zarathis", ["Locations", "Fein Uaill", "Zarathis"]);
 articlePaths.set("ciaranach", ["Locations", "Fein Uaill", "Ciaránach"]);
 articlePaths.set("shining-shores", ["Locations", "Fein Uaill", "The Shining Shores"]);
+articlePaths.set("niriin-estate", ["Locations", "Fein Uaill", "Niriin Estate"]);
+articlePaths.set("arias-tomb", ["Locations", "Fein Uaill", "Aria’s Tomb"]);
+articlePaths.set("titanwall-eryndor", ["Locations", "Fein Uaill", "The Titanwall of Eryndor"]);
+articlePaths.set("thalanbor-library", ["Locations", "Fein Uaill", "Thalanbor the Boundless Artwright’s Library"]);
 articlePaths.set("gael", ["Locations", "Gael"]);
 articlePaths.set("the-void", ["Locations", "The Void"]);
 articlePaths.set("voraketh", ["Locations", "Voraketh"]);
@@ -3135,6 +3199,7 @@ function renderArticle(route, pushHash = true) {
         <label class="people-gallery-search" for="people-gallery-query"><span>Search characters</span><input id="people-gallery-query" type="search" placeholder="Name, role, or story…" autocomplete="off"></label>
       </div>
       <div class="people-gallery-filters" id="people-gallery-filters" role="toolbar" aria-label="Filter people by character type"></div>
+      <div class="people-kind-banner" id="people-kind-banner"></div>
       <p class="browser-summary" id="people-gallery-count" role="status" aria-live="polite"></p>
       <div class="browser-grid people-gallery" id="people-gallery"></div>
     </section>` : "";
@@ -3173,7 +3238,8 @@ function setupPeopleGallery() {
   const queryInput = document.querySelector("#people-gallery-query");
   const count = document.querySelector("#people-gallery-count");
   const filters = document.querySelector("#people-gallery-filters");
-  if (!gallery || !queryInput || !count || !filters) return;
+  const kindBanner = document.querySelector("#people-kind-banner");
+  if (!gallery || !queryInput || !count || !filters || !kindBanner) return;
   const people = [
     ...archiveIndex.characters.map(person => ({ ...person, personKind: "player", personLabel: "Player character" })),
     ...archiveIndex.npcs.map(person => ({ ...person, personKind: "npc", personLabel: "NPC" }))
@@ -3196,6 +3262,7 @@ function setupPeopleGallery() {
       ? scopedPeople.filter(person => `${person.title} ${person.meta} ${person.summary}`.toLocaleLowerCase().includes(query))
       : scopedPeople;
     const scopeLabel = activeKind === "player" ? "player characters" : activeKind === "npc" ? "NPC records" : "people records";
+    kindBanner.innerHTML = activeKind === "npc" ? `<figure class="people-kind-banner-frame"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"><source src="assets/archive/aria-npc-banner.mp4" type="video/mp4"></video><figcaption>NPC archive · Aria / Pride, Knight II of Death.</figcaption></figure>` : "";
     count.innerHTML = `<strong>${matches.length}</strong> of ${scopedPeople.length} ${scopeLabel}${query ? ` matching “${escapeHtml(queryInput.value.trim())}”` : ""}`;
     gallery.innerHTML = matches.length ? matches.map(person => {
       const protectedRecord = !isPlayerSafeArticle(person.article);
@@ -3209,7 +3276,7 @@ function setupPeopleGallery() {
         <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${escapeHtml(person.title)}${restrictedMark(person.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
       </button>`;
     }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
-    setupAmbientVideos(gallery);
+    setupAmbientVideos(kindBanner.closest(".people-gallery-shell"));
   };
 
   queryInput.addEventListener("input", render);
@@ -3491,9 +3558,14 @@ function setupLocationExplorer() {
         <header class="location-region-header"><h3>${escapeHtml(region)}</h3><span>${items.length} place${items.length === 1 ? "" : "s"}</span></header>
         <div class="location-grid">${items.map(item => {
           const protectedRecord = !isPlayerSafeArticle(item.article);
+          const media = item.video
+            ? `<video class="place-card-image ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata"${item.image ? ` poster="${item.image}"` : ""} aria-hidden="true" tabindex="-1"><source src="${item.video}"></video>`
+            : item.image
+              ? `<img class="place-card-image" src="${item.image}" alt="" loading="lazy">`
+              : `<span class="place-glyph" aria-hidden="true">⌖</span>`;
           return `
           <button class="place-card ${item.level === "region" ? "region-card" : ""}${protectedRecord ? " locked-record" : ""}" type="button" data-article="${item.article}">
-            ${item.image ? `<img class="place-card-image" src="${item.image}" alt="" loading="lazy">` : `<span class="place-glyph" aria-hidden="true">⌖</span>`}
+            ${media}
             <span class="place-copy">
               <span class="place-kicker">${protectedRecord ? "Protected location history" : escapeHtml(item.parent === item.region ? item.type : `${item.parent} · ${item.type}`)}</span>
               <strong>${escapeHtml(item.title)}${restrictedMark(item.article)}${mappedLocationTitles.has(item.title) ? `<i class="place-map-badge">Mapped</i>` : ""}</strong>
@@ -3502,6 +3574,7 @@ function setupLocationExplorer() {
             </span>
           </button>`; }).join("")}</div>
       </section>`).join("") : `<div class="location-empty"><strong>No recovered place matches that search.</strong><span>Try a region, landmark, building type, or alternate spelling.</span></div>`;
+    setupAmbientVideos(results);
   };
 
   input.addEventListener("input", event => { query = event.target.value; renderResults(); });

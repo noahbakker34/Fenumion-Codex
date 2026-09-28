@@ -452,6 +452,10 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .people-gallery-search input { width: 100%; min-height: 44px; padding: .7rem .8rem; color: var(--ink); background: #202129; border: 1px solid #4c4d52; border-radius: 7px; outline: none; font: .82rem/1.2 var(--sans); }
 .people-gallery-search input:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(212,180,109,.1); }
 .people-gallery-filters { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1rem; padding-top: .9rem; border-top: 1px solid #3e4046; }
+.people-kind-banner:empty { display: none; }
+.people-kind-banner-frame { position: relative; height: clamp(210px, 31vw, 390px); overflow: hidden; margin: 1rem 0 .25rem; background: #0e0f13; border: 1px solid #504b40; border-radius: 9px; }
+.people-kind-banner-frame video { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.people-kind-banner-frame figcaption { position: absolute; inset: auto 0 0; padding: 2.7rem 1rem .8rem; color: #eee6d5; background: linear-gradient(transparent, rgba(7,8,11,.9)); font: 600 .78rem/1.35 var(--serif); letter-spacing: .035em; }
 .people-kind-filter { display: inline-flex; gap: .45rem; align-items: center; padding: .48rem .68rem; color: #c5c0b4; background: #202129; border: 1px solid #4a4b50; border-radius: 999px; cursor: pointer; font-size: .78rem; }
 .people-kind-filter span { display: grid; min-width: 1.45rem; height: 1.45rem; place-items: center; color: #b8b1a1; background: #15161b; border-radius: 999px; font: 700 .62rem/1 var(--sans); }
 .people-kind-filter:hover, .people-kind-filter:focus-visible { color: #fff; border-color: var(--gold); outline: none; }
@@ -593,6 +597,7 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .place-card:hover, .place-card:focus-visible { border-color: var(--gold); transform: translateY(-1px); outline: none; }
 .place-card.region-card { grid-column: 1 / -1; grid-template-columns: minmax(160px, .38fr) minmax(0, 1fr); min-height: 190px; background: linear-gradient(135deg, rgba(31,72,54,.76), rgba(8,23,18,.94)); }
 .place-card-image { width: 100%; height: 100%; min-height: 152px; object-fit: cover; border-right: 1px solid var(--line-soft); }
+.place-card video.place-card-image { background: #101116; }
 .region-card .place-card-image { min-height: 190px; }
 .place-glyph { display: grid; height: 100%; min-height: 152px; place-items: center; color: var(--gold); background: radial-gradient(circle, rgba(212,180,109,.12), transparent 65%); border-right: 1px solid var(--line-soft); font: 1.5rem/1 var(--serif); }
 .place-copy { display: flex; min-width: 0; flex-direction: column; padding: .9rem 1rem; }

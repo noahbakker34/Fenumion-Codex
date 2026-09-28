@@ -2326,6 +2326,69 @@ const questTimelineAdditions = [
   { title: "The Gael mechanism drains nearby magic", meta: "10 Aug 2024 · quest-RP", sort: "2024-08-10q", era: "2024 · The Calling", kind: "Arcane discovery", article: "gael", location: "Gael ruins", people: "Scribonia; Gartina; Elenia; Saray; Dale", tags: ["mechanism", "Weave", "Gael"], summary: "Explorers force an ancient wheel to turn; magic drains from everyone nearby and their connection to the Weave vanishes until the mechanism settles." }
 ];
 
+const questEventConsequences = {
+  "The first Called arrive in Prima": "The arrival establishes the pattern that defines the early campaign: strangers are placed together before they understand the Gate, the gods, or one another. Their first important act is not conquest but accepting that an unfinished settlement and its people are now part of their responsibility.",
+  "The newcomers scout beyond Pristinia": "The patrol gives the new arrivals their first evidence that Prima is stranger than the settlement suggests. The enormous distant movement remains unidentified, while John’s severed branch demonstrates that even apparently ordinary natural objects may be sustained by relationships the party does not yet understand.",
+  "Melian gives the newcomers a town to improve": "Melian frames Pristinia as work rather than a reward. The meeting turns a collection of summoned adventurers into potential residents by asking them to notice roads, food, medicine, defense, and the material needs of people who cannot solve every problem with magic.",
+  "Forgax follows the pillar only he can see": "Because the pillar is visible only to Forgax, the expedition cannot treat sight as shared proof. The floating stones and ash create an early lesson in testimony: the company must decide whether to trust a companion’s perception when the world supplies no confirmation to anyone else.",
+  "A trapped route to Eovar is reopened": "Clearing the route connects Pristinia’s survival to the wider coast and establishes Eovar as a reachable civic center rather than a distant name. The trap also warns that travel between settlements is contested, making every reopened road a political and economic achievement as well as an adventure.",
+  "The Weary Traveler sends a rescue party": "The mission turns tavern conversation into obligation. Recovered weapons and armor become tools for bringing missing people home, beginning the Common Man’s long role as a place where rumors, civilian needs, and adventuring decisions become consequential action.",
+  "Pristinia organizes militia, medicine, and land": "The assignments show that Pristinia cannot be secured by combat alone. Melian distributes responsibility across public health, food, materials, and defense, creating an early civic model in which the adventurers’ usefulness depends on whether they can build systems that outlast a single fight.",
+  "The ritual-site assault is stopped": "Stopping the gathering prevents an immediate attack, but the old ritual ground proves that threats already have roots in Prima’s landscape. The victory gives Pristinia time while leaving open who prepared the site, why the pale creatures were drawn there, and what other dormant structures surround the settlement.",
+  "The mine dead and the missing companions are recovered": "Recovery matters as much as victory: the party returns bodies, identifies losses, and finds the people the Weary Traveler feared were gone. The mission gives the settlement something it can mourn and celebrate honestly instead of allowing the missing to disappear into an unnamed mine.",
+  "Pristinia celebrates rescue and resurrection": "The feast holds triumph and cost in the same room. Resurrection does not erase the dead, the fear, or the labor of recovery; the Common Man becomes the place where the town gives those events a shared meaning and begins building collective memory.",
+  "Four volunteers answer the militia’s call": "These four are not simply preparing for another quest. By training residents, they begin transferring competence away from exceptional adventurers and toward the community itself, an important step in making Pristinia defensible when its heroes are absent, divided, or dead.",
+  "A fog expedition reveals a hidden watcher": "The watcher’s brief appearance changes the patrol from a difficult journey into evidence of surveillance. Cobble cannot identify the armored figure or its purpose, so the record preserves the observation without turning it into a solved conspiracy.",
+  "The adventurers drill Pristinia’s volunteers": "The controlled course converts individual combat experience into a public resource. Rolen and Carandolchanar’s supervision also establishes a chain of responsibility: training must prepare people for danger without treating inexperienced volunteers as expendable material.",
+  "A dying messenger brings Eovar’s warning": "The message pulls Pristinia into Eovar’s crisis and ends with an enemy vessel destroyed, but the Compass remains a dangerous unresolved object. The order to destroy it implies knowledge the party does not possess and makes the pursuit’s apparent victory only the beginning of a larger problem.",
+  "Pristinia’s palisade and moat take shape": "The work is ordinary, visible, and cumulative: cut timber, treated logs, earthworks, stakes, and watchtowers. These defenses later matter precisely because people built them before the worst attack arrived, turning preparation into one of the campaign’s clearest forms of foresight.",
+  "A forest expedition finds a dead priest’s room": "The chamber offers no living witness and no easy explanation, only an overgrown room and human remains. Its restraint is important: the party learns that Prima contains abandoned histories whose meaning cannot be recovered merely by finding them.",
+  "Pristinia makes a pact with the wolves": "The agreement rejects extermination as the only answer to scarcity. Cigal becomes an intermediary between settlement and pack, tying the farm’s safety to Pristinia’s willingness to help when prey is scarce and making coexistence a continuing duty rather than a one-time success.",
+  "Seven glyphs open an underground city": "The revealed city greatly expands the scale of the ruins beneath Prima. Its seven glyphs and purple illumination indicate deliberate design, while the active defenses show that whatever ended the settlement did not render all of its systems harmless.",
+  "A Flying Horror escapes with lost intelligence": "The escape is recorded as a failure of coordination rather than softened into an inconclusive victory. The creature carries away information and denies the party answers, creating a consequence that may return to Pristinia long after the immediate encounter.",
+  "Pristinia holds after its allies abandon it": "The defense proves that the town’s preparations and remaining people can matter even when expected allies do not appear. It also leaves a social wound: survival does not answer why support failed, and the defenders must rebuild trust as well as damaged fortifications.",
+  "The mountain party survives the storm cave": "The cave saves the group from exposure but cannot give them comfort or certainty. Their short, cold rest makes the landscape itself an antagonist and shows how quickly an expedition can become a survival problem before any enemy appears.",
+  "The Eovar epidemic is traced to the water": "The discovery changes the response from treating individual sufferers to confronting shared infrastructure. It makes clean water, quarantine, and sanitation matters of regional security, while implicating the city’s crowded districts and neglected systems rather than blaming the sick.",
+  "A celestial test reveals the Wyrm’s hunger": "The radiant trial ends without explaining who designed it or what standard the participants were judged against. What remains is the sensed hunger beyond the test, a warning that even a successful encounter can reveal a threat far larger than the people who survived it.",
+  "Symin falls beyond the Gate": "Symin’s decision to answer the plea alone turns urgency into isolation, and the bark-covered dead deny the company even immediate possession of his body. His loss becomes a warning about rescue calls, ambushes, and the cost of acting without enough witnesses or support.",
+  "The Narrows reveals Eovar’s sanitation failure": "The canal makes the epidemic’s cause materially visible: waste and drinking water occupy the same civic space. The party’s discovery exposes how poverty and neglected infrastructure can kill as effectively as monsters, forcing Eovar’s crisis into the realm of policy and public works.",
+  "The mountain-pass party clears an undead valley": "Wren’s guidance prevents the group from entering a valley vulnerable to flooding, showing that judgment can be as important as strength. Surviving the undead attack then opens the route to the waiting host, converting caution into forward progress rather than retreat.",
+  "Pristinia adopts merchant penalties by two votes": "The narrow 31–29 result preserves genuine disagreement inside the town. The vote matters because it subjects merchants to public consequence and shows Pristinia attempting to govern through debate and recorded decisions instead of letting wealth or adventuring power decide by default.",
+  "Two captured doppelgangers are sent home": "The party survives the captives’ psychic resistance without choosing execution. Nienna’s sense that the pair arrived alive makes the banishment an act of difficult mercy and establishes that returning an enemy home can sometimes serve safety better than killing them.",
+  "The walking dead reach Pristinia’s approaches": "The horde is defeated, but the dead leave contaminated ground and a practical question about disposal. The aftermath refuses the clean ending of a battlefield victory: bodies, necrotic residue, and frightened residents still require labor after the fighting stops.",
+  "A reality-splitting ritual is foiled": "The rival beacons and Quake’s staff provide enough evidence to stop the ritual but not enough to understand its full design. Destroying the site prevents the immediate rupture while burying clues, forcing later investigators to work from fragments instead of a complete explanation.",
+  "The meteor orb opens after the spider falls": "Saray’s shot ends the immediate threat, but the opening orb replaces danger with uncertainty. The party has won access to an object of unknown origin and purpose, making curiosity, containment, and the decision to interact with it the next stage of the event.",
+  "Passage is secured toward the Thundering Coast light": "The lifted quarantine restores Eovar’s harbor as a route rather than a boundary. Securing a ship turns the distant beacon into a reachable objective and ties the coming expedition to sailors, supplies, weather, and the cooperation of a city still recovering from disease.",
+  "Nienna is found bound in a forest clearing": "The Dimensional Shackles make Nienna’s captivity more than a physical restraint and demonstrate that her captors planned for magical escape. The dead body and surrounding figures leave a violent scene whose motive must be reconstructed while the rescuers first decide how to get her free.",
+  "A landslide exposes the four-pillar ruins": "Fernir’s death and the newly opened chamber bind discovery to cost. Mapping the geometric pillars and recovering journals give the party evidence, but the landslide also warns that the archive they seek is embedded in unstable terrain and incomplete lives.",
+  "A sea expedition discovers a new island": "The keelboat journey expands the known geography beyond established routes. Reaching the high platform requires physical cooperation after threading dangerous cliffs, so the discovery is not merely a point on a map but proof that the party can make the passage again.",
+  "The Before’s distress call proves to be a lure": "The mimicry weaponizes the party’s willingness to answer familiar voices. Escaping into daylight preserves their lives but leaves the hidden caller active, making future rescue signals harder to trust and turning communication itself into contested terrain.",
+  "Rehevä’s cliffside dragon nest is cleared": "The rope descent and battle remove a direct threat beneath the town, while Mayor Jovaz’s celebration makes the result publicly legible. Rehevä’s gratitude also gives the adventurers a regional relationship that extends beyond Pristinia’s immediate needs.",
+  "Nienna’s condemned sailors return to service": "The sailors begin the scene awaiting death as mutineers and end it provisioning Nienna’s ship. Their return to service preserves people and practical knowledge that execution would have destroyed, while leaving the history of the mutiny as part of the crew’s future trust.",
+  "The party breaks the harbor blockade": "Acting through heavy rain, the company turns reconnaissance into a breach of the blockade and follows Huoth into a magically charged tower. The harbor opens, but Huoth’s role and the tower’s power carry the conflict beyond the ships and bridge.",
+  "The colossal archway’s false floor is found": "The probing spear discovers the trap before a person falls through it. The flickering square establishes that the structure manipulates perception, rewarding slow testing and making every apparently solid surface beyond the archway suspect.",
+  "The Rahu open their Pristinia enclave": "The enclave brings a disciplined nocturnal institution into the settlement and gives the Rahu a permanent civic presence. Its violet altar-like focus is observed without a settled explanation, preserving both the opportunity for diplomacy and the unease surrounding unfamiliar power.",
+  "The screaming dungeon’s blood altar is cleansed": "Following the screams brings the party to a chamber whose horror is both physical and personal. When the blood boils away and a voice singles out Alyhotep, cleansing the altar becomes the beginning of a threat directed at a specific adventurer rather than the end of the dungeon’s danger.",
+  "Pristinia’s quarry corridor is stabilized": "Sylvaaran’s seamless brace answers workers’ fear with a material repair, protecting both lives and the stone supply needed for the settlement’s growth. The event shows adventuring magic used as infrastructure rather than spectacle.",
+  "Water guardians emerge in the sector dungeon": "Saturnia’s interference with the room’s water triggers four elemental defenders, revealing that the dungeon reacts to intrusion through systems as well as creatures. The encounter makes the party’s method of investigation part of the danger it produces.",
+  "The lich’s lair collapses": "The slain lich and ruined lair end one immediate threat, but the undead woman and Melian’s refusal to admit her into town create a harder question about safety and personhood. Victory outside the portal does not settle who may belong inside Pristinia.",
+  "Rehevä forgets an unseen act of heroism": "The party protects people who never learn what was done for them because the arcane displacement tears the witnesses and rescuers apart. The event preserves heroism without recognition and demonstrates how magical disruption can erase public memory without erasing the deed itself.",
+  "The dungeon survivors return to a mayor’s reward": "The mayor’s surprise confirms that the town had already accepted the party as dead. Their return converts presumed loss into celebration and reward, but it also records how completely the dungeon severed communication with those waiting outside.",
+  "Gudlaug and Beefy Boy win the race": "The dangerous race gives the public a rare event measured by skill, endurance, and celebration rather than catastrophe. Gudlaug’s victory becomes communal memory and shows that the world’s history includes joy and spectacle alongside sacrifice.",
+  "Pristinia’s townsfolk openly support the adventurers": "Residents arrive with tools because they still believe the adventurers’ work can improve the town. Ending the day with Melian’s practical instruction places trust beside labor: support is offered, but the heroes are still expected to learn how to build responsibly.",
+  "The Azarian Peaks expedition reaches the storm": "Liora’s research carries the party across the sea and into an environment saturated with danger and magic. The glowing dead creature suggests that the Peaks alter even what no longer lives, deepening the expedition’s mystery without explaining the prophecy that led them there.",
+  "Jiangshi’s coffin reaches Gael’s shore": "The landing is a recovery operation rather than a triumphant arrival. Adelia carrying the weakened Jiangshi from the water and the sailors handling the coffin show a group protecting both the living person before them and the unresolved meaning of what they have transported.",
+  "The worm hunt traps the party underground": "Following Scout Lilian’s evidence leads to a collapse that turns investigators into trapped survivors. The faint haze inside the sealed cave raises the stakes: escape must happen before exhaustion and possible contamination make the original worm sightings irrelevant.",
+  "The corruption cave leaves its explorers defeated": "The party exits with recognizable bodies but not with confidence that the encounter ended at the cave mouth. Their shared sense of being followed turns survival into psychological and possibly supernatural uncertainty, an outcome that cannot be measured by wounds alone.",
+  "Wrath drives the tomb expedition toward retreat": "The blows outside and the ravens overhead show that Wrath can pressure the party without entering the tomb. With the company already wounded, continuing becomes a test of judgment: completing the objective must be weighed against giving Wrath more people to destroy.",
+  "The cave-trapped party digs free with a crystal": "Hours of excavation turn escape into collective endurance rather than a single spell or attack. Arjahn’s recovered fragments and the wave he feels preserve evidence of possible contamination, ensuring that freedom from the cave does not end the need for observation.",
+  "Delerium fragments rain outside Pristinia": "The explosion transforms the field beyond the wall into a contamination zone and leaves a haze-born spectre still at large. Recovering fragments may offer evidence, but every piece is also a hazard that threatens the people and defenses the adventurers are trying to protect.",
+  "The Gael tomb mission escapes through the statues": "Quake’s crown and command activate the statues at the moment ordinary exits are no longer safe. The revealed tunnel lets the party finish the mission without accepting annihilation, making retreat a completed objective rather than a failure of courage.",
+  "Moirah returns with Jiangshi at a cost": "Moirah’s diminished condition makes the recovery visibly costly even though the unseen struggle remains unknown. Elenia’s magic restores the goddess enough to continue, reversing the usual direction of divine aid and showing mortals supporting a wounded divine power.",
+  "Pristinia debates gold, business, and public need": "The council forces the adventurers’ wealth into a civic argument: who benefits from new construction, which businesses deserve support, and how ordinary residents participate in growth. Offering gold does not settle those questions; it makes the need for accountable decisions more urgent.",
+  "The Gael mechanism drains nearby magic": "The wheel removes access to the Weave from everyone nearby, turning a successful activation into an immediate loss of capability. Because the effect later settles, the party gains a dangerous piece of evidence about the ruins without learning who built the mechanism or what it was meant to power."
+};
+
 const questPlayerAdditions = [
   { title: "Alyhotep bin Baladin", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world." },
   { title: "Quoth", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer whose long quest record includes Hin expeditions, disappearances, rescues, and later regional journeys." },
@@ -2370,6 +2433,129 @@ const questPlayerAdditions = [
   { title: "Lichen", meta: "Player character · Pristinia newcomer", article: "people-directory", summary: "A visibly strange newcomer who learns that Skye can be a safe friend." },
   { title: "Miri", meta: "Player character · scholar", article: "before-survey", image: "assets/characters/miri.png", summary: "Joins the Pristinian–Rahuvian survey of The Before and helps carry its recovered evidence forward." }
 ];
+
+const legacyCharacterProfiles = {
+  "Adelia & Hope": {
+    personality: "Adelia repeatedly answers grief with care rather than withdrawal. She can be fiercely protective and emotionally direct, yet her defining strength is her willingness to keep recognizing another person after death, transformation, or failure has changed what recognition costs.",
+    achievements: "She carries Jiangshi from Gael’s shore, helps preserve the community through its early crises, and later gives herself to restore Hope after Magnus harms her. That final deed completes a long pattern: Adelia uses power to keep another life possible, even when the price becomes her own separate future.",
+    relationships: "Her history is bound most closely to Jiangshi, Nienna, and Hope. Jiangshi’s loss and return make memory an active relationship; Nienna’s sacrifice gives Hope a life Adelia later protects; and Adelia’s choices repeatedly force the wider company to decide whether love means possession, rescue, remembrance, or letting another person continue differently."
+  },
+  "Alyhotep bin Baladin": {
+    personality: "Alyhotep is preserved as a dependable healer and investigator who continues working when a scene becomes frightening, strange, or morally unclear. His steadiness is practical rather than theatrical: he watches, treats, asks questions, and remains with companions long enough for incomplete evidence to become useful.",
+    achievements: "He helps stop the ritual-site assault, recovers the mine dead, trains Pristinia’s volunteers, investigates Eovar’s epidemic, and survives both the sector dungeon and Rehevä’s death-rigged ruins. The blood altar’s threat against him makes his persistence personal without ending his service to the group.",
+    relationships: "Alyhotep’s story is distributed across teams rather than one exclusive bond. He repeatedly works beside Cobble, Rolen, Loistava, Olokun, Scribonia, Vaemyr, Bari, and Eugene, becoming one of the connective figures between Pristinia’s earliest defenders and the broader expeditions that follow."
+  },
+  "Arjahn": {
+    personality: "Arjahn thinks like a soldier responsible for bringing people home. He can become sharp when fear or loss overwhelms a plan, but he values routes, maps, accountability, and the difficult work of repairing trust after people have said what pressure made them say.",
+    achievements: "He helps expose the false distress call in The Before, survives the cave collapse and contamination crisis, resurrects Olokun with the Scepter of Faith, and later burns a temporary opening in Babel-Ashur’s western mist. His best deeds combine force with preparation: escape routes, shared maps, and evidence that others can use.",
+    relationships: "His bond with Olokun survives anger, near-death, and reconciliation through work. Wren, Dale, Vaemyr, Gudlaug, Tricks, and Leo appear across his field history, while his later service with the Vanguard places him inside a larger responsibility to people who may never know the individual choices that kept them alive."
+  },
+  "Bari": {
+    personality: "Bari is a field adventurer whose record shows willingness to enter dangerous places without demanding that every mystery already be solved. He is practical enough to move with a group and resilient enough to return after expeditions turn into traps, ambushes, or political complications.",
+    achievements: "He joins the Eovar response, helps send two doppelgangers home alive, explores the colossal archway, survives the screaming sector dungeon, and returns from Rehevä’s death-rigged ruins. His deeds make him part of the connective tissue between Prima’s civic problems and its wider geographic discoveries.",
+    relationships: "Bari repeatedly works beside Alyhotep, Olokun, Scribonia, Vaemyr, Loistava, and Dale. His role is less defined by a single celebrated partnership than by reliability across changing companies, which is itself an important relationship skill in a campaign whose parties rarely remain fixed."
+  },
+  "Bitoshi Nakamoto": {
+    personality: "Bitoshi is an early explorer whose courage is complicated by blame, grief, and the need to keep moving after plans fail. He notices what abandonment costs and does not easily separate a tactical retreat from the person left behind.",
+    achievements: "He helps reopen roads, survives the mountain storm and undead valley, explores the buried city, witnesses the Flying Horror’s escape, and participates in Jiangshi’s recovery at Gael. His broad early record makes him one of the people through whom Prima, The Before, and Gael first become connected histories.",
+    relationships: "Jiangshi’s loss places him in direct conflict with Nienna’s decision to retreat, while Gartina argues that returning would have caused another death. That disagreement is central to his relationships: loyalty, grief, and survival do not produce the same answer for everyone, even when all of them care about the person who was lost."
+  },
+  "Cobble": {
+    personality: "Cobble is observant, practical, and willing to test a dangerous environment rather than accept its surface appearance. He is also capable of carrying an unresolved sighting without pretending to know more than he saw, as shown by his report of the armored watcher in the fog.",
+    achievements: "He helps stop the ritual-site assault, recovers the mine dead, trains Pristinia’s militia, explores the buried city, and survives the lich expedition. His early work joins civic defense to archaeology: he protects the settlement while learning how much dangerous history lies beneath and around it.",
+    relationships: "Rolen and Vigr Frami are his most consistent early companions, with Adelia, Bitoshi, Alyhotep, Wren, and Vaemyr joining later expeditions. These relationships are built through shared procedure—watching doors, recovering bodies, training volunteers, and accepting correction when coordination fails."
+  },
+  "Dale": {
+    personality: "Dale combines blunt judgment with deep attachment. He can call someone foolish without withdrawing his respect, and his most memorable words show a person who ranks allies above abstractions when a crisis makes both impossible to save.",
+    achievements: "He investigates Eovar, helps confront the meteor orb, explores the landslide ruins, sails toward new islands, and survives the wider Gael history. His death becomes the setting for Wrath’s first offer, while his return demonstrates that grief can be answered without accepting the bargain placed beside it.",
+    relationships: "Nienna is central to Dale’s emotional history, from affectionate criticism to the farewell that names Hope as more important than any one person. Elenia and Quake also shape the moment of his return: Quake refuses Wrath, and Elenia seeks another way, making Dale’s life a consequence of their shared refusal."
+  },
+  "Draygar WarSmash": {
+    personality: "Draygar is boisterous, sociable, physically fearless, and frequently funny without being careless about other people’s danger. The archive shows him joking about food and height, then immediately hauling fallen companions clear, calling for a medic, or offering his hammers when a fight turns serious.",
+    achievements: "He becomes a major recurring adventurer across Pristinia, Gael, The Before, and the campaign against Wrath. Early scenes show him rescuing the fallen during battle and volunteering strong hands for the town; later records preserve more than a thousand messages under a stable player-controller link.",
+    relationships: "Krone is repeatedly called his brother and anchors much of Draygar’s early warmth and comedy. He also builds easy familiarity with Herb, Jon, Gareth, Melian, and changing expedition parties, making fellowship—food, ale, teasing, and rapid practical help—part of how he keeps a group together."
+  },
+  "Elenia": {
+    personality: "Elenia is driven by wonder, faith, and the fear that her faith may be only hope speaking back to her. She can be gentle, apologetic, and fiercely protective, but her divine power also makes her capable of terrifying force when conviction hardens into judgment.",
+    achievements: "She helps train Pristinia’s militia, answers Eovar’s warning, protects Quake with Death Ward, restores a diminished Moirah, defeats Magnus, and continues searching for people even while a mountain destroys itself around her. Her public history moves from uncertain calling to a power great enough to reshape political relationships.",
+    relationships: "Cala is the divine relationship Elenia most openly questions and longs to repair. Nienna and Gartina ground her among mortals; Quake’s earlier rescue earns later protection; Magnus becomes the opponent she defeats but does not wish to kill; and Bowene’s exile preserves both consequence and the possibility of return."
+  },
+  "Eugene": {
+    personality: "Eugene is intelligent, self-doubting, and often most useful precisely when he believes himself to be a burden. He asks the question other people have stepped around, carries knowledge he does not feel worthy to hold, and gradually becomes braver without losing the uncertainty that makes him careful.",
+    achievements: "He survives the sector dungeon and Rehevä, helps the town through practical labor, receives a weapon able to channel Delerium, and continues enlarging his spellbook with Elenia’s support. During crisis he moves from trying to sound heroic to acting heroically when speech and confidence are nearly gone.",
+    relationships: "Scribonia recognizes Eugene’s brilliance before he can accept it himself, while Elenia materially invests in his learning. His expeditions with Olokun, Vaemyr, Alyhotep, Leo, Gudlaug, and Scribonia place him among people who repeatedly need his mind even when he doubts his place beside them."
+  },
+  "Gartina": {
+    personality: "Gartina treats preparation as care. Cooking, reconnaissance, codes of conduct, and rescue all belong to the same instinct: understand what people need before the danger reaches them, then accept more responsibility than is always fair to place on one person.",
+    achievements: "She helps establish Pristinia, investigates Eovar’s epidemic, crosses toward Gael, survives the tomb mission under Wrath’s pressure, witnesses Moirah’s costly return, and later surveys Babel-Ashur’s western mist in giant-eagle form. Her field work repeatedly turns mobility and attention into other people’s survival.",
+    relationships: "Nienna and Elenia form the emotional center of Gartina’s history, with Quake, Jiangshi, Dale, and Scribonia recurring across early expeditions. She defends Nienna’s retreat when others call it cowardice, showing that her loyalty includes protecting a friend from a false moral judgment, not merely protecting a body from attack."
+  },
+  "Jiangshi": {
+    personality: "Jiangshi is defined less by death than by continuity through death. The archive treats her as a person whose relationships survive bodily absence, recovery, and transformation, forcing everyone around her to distinguish mourning from deciding that someone is finished.",
+    achievements: "She belongs to the first Calling, helps open Prima’s earliest roads, is lost during the Gael and Void history, and later returns after approximately seven and a half months of death. Her coffin reaches Gael, Moirah brings her body back at visible cost, and her return gives earlier memorials a new meaning without erasing them.",
+    relationships: "Adelia’s refusal to stop recognizing her is central, while Nienna’s retreat and the blame from Bitoshi and Adelia expose the cost of choosing who can still be saved. When Jiangshi returns to the Common Man, the room holds both Bitoshi’s memory of her memorial and her own recognition of ordinary scents and sounds."
+  },
+  "Loistava": {
+    personality: "Loistava is a steady expedition member whose record favors practical participation over dramatic self-definition. He continues through disease investigations, settlement defense, sea travel, and supernatural threats while remaining responsive to the needs of the current group.",
+    achievements: "He helps recover the mine dead, trains Pristinia’s volunteers, defends the town after allies fail to arrive, investigates Eovar’s epidemic, helps return the doppelgangers alive, and sails toward the Thundering Coast. He also joins the rescue that finds Nienna in Dimensional Shackles.",
+    relationships: "Alyhotep, Nienna, Olokun, Dale, Adelia, and Bari recur across Loistava’s work. His relationships are built through shared endurance and rescue rather than a single declared bond, making him one of the reliable figures who allows very different parties to function."
+  },
+  "Nienna": {
+    personality: "Nienna is brave enough to appear reckless and responsible enough to know when courage must become retreat. She carries grief openly, treats hope as more important than personal survival, and refuses to let love become an excuse for sacrificing everyone who remains.",
+    achievements: "She helps build Pristinia’s defenses, brokers the wolves’ survival pact, secures a crew and ship, reaches Gael through a terrible interregional journey, and later gives herself so Hope can live. Her history also includes captivity, command under impossible pressure, death, memory, and a legacy that continues through Adelia and Hope.",
+    relationships: "Dale, Gartina, Elenia, Adelia, and Jiangshi shape her most consequential choices. Gartina defends her when the Gael retreat is called cowardice; Dale receives her farewells and admiration; Elenia is one of the people she trusts to finish the work; and Jiangshi’s loss ensures that Nienna’s command decisions remain morally alive long after the battle."
+  },
+  "Olokun": {
+    personality: "Olokun is curious, socially generous, and morally stubborn about consent. He makes mistakes—sometimes enormous ones—but his strongest principle is that protection belongs to people rather than institutions, gods, or the glory of a cause.",
+    achievements: "He explores ruins, seas, dungeons, Rehevä, Voraketh, and Babel-Ashur; helps de-escalate conflict; survives the Abyss; and returns when Arjahn uses the Scepter of Faith he had earlier given away. He also refuses Death’s logic at the war council and repeatedly argues against abandoning the misguided as disposable.",
+    relationships: "Arjahn’s friendship carries anger, resurrection, and repair through shared mapping. Wren is the person Olo chooses under impossible pressure; Aravil is the loss inside that choice; Scribonia challenges and sharpens his thinking; and his arguments with Aria make his phrase “My pain. Not everyone’s” part of the world’s moral vocabulary."
+  },
+  "Quake": {
+    personality: "Quake is direct, forceful, and often willing to stand where uncertainty becomes action. His record shows both martial decisiveness and the ability to refuse a tempting solution when its moral price is hidden inside grief.",
+    achievements: "He belongs to the first Calling, helps reopen Eovar’s route, organizes Pristinia, pursues the Compass crisis, helps build the walls, and uses the Gael crown to command ancient statues and reveal an escape. When Wrath offers restoration after Dale’s death, Quake refuses and creates space for another answer.",
+    relationships: "Elenia later protects Quake because he previously saved Nienna and her, turning an earlier deed into a lasting obligation of care. Gartina, Jiangshi, Adelia, Saray, Wren, and Dale accompany many of his defining expeditions, while his refusal of Wrath links personal loyalty to the campaign’s wider rejection of coerced sacrifice."
+  },
+  "Rolen Ofandrus": {
+    personality: "Rolen is an organizer before he is a symbol. He approaches danger through training, patrols, chains of command, and the belief that ordinary volunteers deserve preparation rather than heroic rhetoric.",
+    achievements: "He helps reopen Eovar’s road, leads militia planning, recovers bodies and missing companions from the mine, drills Pristinia’s volunteers, investigates the fog road, and responds to Eovar’s warning. His earliest deeds make him central to the settlement’s transformation from vulnerable camp into a place capable of defending itself.",
+    relationships: "Cobble and Vigr Frami are his closest recurring partners in early defense work, while Claire, Quake, Elenia, Adelia, Alyhotep, and Loistava move through the teams he helps coordinate. His relationships are expressed through entrusted roles: who scouts, who trains, who carries the dead, and who is prepared to take over when he is absent."
+  },
+  "Saray": {
+    personality: "Saray is a decisive field adventurer whose presence becomes clearest at moments when hesitation would cost the party its opening. She contributes observation, ranged precision, and the willingness to continue through ruins, ships, storms, and tombs.",
+    achievements: "Her arrow kills the giant abomination guarding the meteor orb, and she later helps investigate the reality-splitting ritual, recover Jiangshi at Gael, break Eovar’s blockade, and escape the Gael tomb. These deeds place her in several of the early campaign’s most dangerous turning points.",
+    relationships: "Dale, Elenia, Quake, Gartina, Wren, Scribonia, and Adelia recur across Saray’s expeditions. Her record is that of a trusted teammate within a dense company rather than a solitary legend, with relationships made visible by coordinated action under pressure."
+  },
+  "Scribonia": {
+    personality: "Scribonia is analytical, candid, and capable of separating care from control. He values knowledge but resists the idea that teaching creates ownership over another person’s choices, and he can admit uncertainty without surrendering the obligation to keep investigating.",
+    achievements: "He belongs to the first Calling, helps map Prima’s earliest dangers, explores the sector dungeon, reaches Gael, preserves Voraketh evidence, teaches at Prima’s Magic Academy, and repeatedly turns fragmentary encounters into records other people can use. His identity as an artwright joins making, magic, and memory.",
+    relationships: "Eugene’s brilliance is something Scribonia recognizes and supports without demanding obedience. Olokun is a frequent moral and intellectual counterpart; Gartina, Elenia, Jiangshi, Vaemyr, and Alyhotep share much of his expedition history; and his later students make his legacy institutional rather than merely personal."
+  },
+  "Sildithas": {
+    personality: "Sildithas defines courage as standing in front of danger without pretending that strength guarantees understanding. Duty drives him, but his mature wisdom includes mercy, flourishing, and joy—especially when cleverness has reached the edge of what it can solve.",
+    achievements: "He joins the meteor expedition, organizes defense training, enters the Shadow Roads, carries early knowledge of Voraketh’s Maw, and later proposes a feast beside that unresolved horror. His record turns apparent failure in the Plains of Trial into a more humane oath rather than a demand for harsher power.",
+    relationships: "Ithilrûnë is his most important intellectual companion at Voraketh: when her model fails, she agrees to follow his different form of wisdom. Coralyn, Carmen, St. Anky, Brianna, and Ghilsen share the Shadow Roads history, while his oath positions him as a protector whose duty is to preserve people’s inner light as well as their bodies."
+  },
+  "Tricks": {
+    personality: "Tricks is an investigator who repeatedly enters problems where evidence is contaminated, incomplete, or deliberately misleading. The record shows persistence and curiosity, but also the vulnerability of someone whose willingness to pursue a lead can be used against the party.",
+    achievements: "Tricks investigates Eovar’s water crisis, follows the Narrows evidence, helps rescue Nienna, survives the worm-cave collapse, and confronts the Delerium fragments outside Pristinia. Across these scenes, investigation is never separate from medical, civic, or contamination risk.",
+    relationships: "Alyhotep, Nienna, Olokun, Loistava, Gartina, Arjahn, Gudlaug, Vaemyr, and Leo recur through Tricks’s early history. These bonds are procedural and protective: companions test what Tricks finds, keep one another alive when inquiry becomes a trap, and carry evidence back to people who were not there."
+  },
+  "Vaemyr": {
+    personality: "Vaemyr is persistent, adaptable, and unusually willing to return to places that have already demonstrated their hostility. He carries uncertainty forward instead of demanding that survival produce a complete explanation.",
+    achievements: "He explores the sector dungeon, stabilizes Pristinia through community labor, survives Rehevä’s death-rigged ruins, investigates worm and corruption caves, and witnesses the Delerium-fragment crisis. His long record connects dungeon exploration to the town’s political and practical consequences.",
+    relationships: "Olokun, Scribonia, Eugene, Alyhotep, Bari, Leo, Gudlaug, Arjahn, and Tricks form the changing companies around him. Vaemyr’s relationships are built through repeated return: people know he will still be present after the first expedition fails to answer the question."
+  },
+  "Vigr Frami": {
+    personality: "Vigr Frami is an early defender whose practical courage appears in recovery work, training, and negotiation as much as combat. He treats settlement survival as a task requiring prepared people and workable relationships with the surrounding land.",
+    achievements: "He helps stop the ritual-site assault, recovers the mine dead, trains militia volunteers, investigates the fog road and buried city, negotiates Pristinia’s pact with the wolves, and joins the response to the undead horde. His work repeatedly reduces danger for people who are not adventurers.",
+    relationships: "Rolen and Cobble are his closest recurring partners, with Alyhotep, Adelia, Nienna, Jako, Bitoshi, and Loistava joining key missions. The trust among them is built through shared public duty: they train replacements, recover one another, and choose coexistence when killing would have been easier."
+  },
+  "Wren": {
+    personality: "Wren is an investigator who listens to land, weather, bodies, and inherited stories before committing to an explanation. That caution is not passivity; she acts decisively when evidence is sufficient and is willing to say when it is not.",
+    achievements: "She guides the mountain-pass party away from flood danger, helps stop the reality-splitting ritual, explores the four-pillar ruins, survives the lich expedition, and continues through Gael, Voraketh, and the Abyss. Her judgment repeatedly converts environmental knowledge into survival.",
+    relationships: "Olokun’s choice to save Wren in the Abyss places her inside one of his most painful moral consequences, while Aravil becomes the person lost in the same decision. Dale, Arjahn, Elenia, Quake, Scribonia, and Adelia recur across her field history, and her trust is shaped by whether companions respect evidence, limits, and one another’s agency."
+  }
+};
 
 const archiveIndex = {
   timeline: [
@@ -3128,10 +3314,92 @@ const toolsDialog = document.querySelector("#tools-dialog");
 const toolsForm = document.querySelector("#tools-form");
 const toolsPassword = document.querySelector("#tools-password");
 const toolsError = document.querySelector("#tools-error");
+const recordDialog = document.querySelector("#record-dialog");
+const recordDialogContent = document.querySelector("#record-dialog-content");
+const recordDialogClose = document.querySelector("#record-dialog-close");
 let ambientVideoObserver = null;
 
 function escapeHtml(value) {
   return value.replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
+}
+
+function timelineDetailParagraphs(item) {
+  const participants = item.people && item.people !== "—" ? item.people : "the people preserved in the surviving account";
+  const firstParagraph = `The recovered record dates this event to ${item.meta} and places ${participants} at ${item.location}. ${item.summary}`;
+  const kind = item.kind.toLowerCase();
+  const impact = /death|loss|sacrifice/.test(kind)
+    ? "Its losses change the emotional and practical choices available to every survivor who follows."
+    : /discover|revelation|testimony|knowledge|investigation/.test(kind)
+      ? "What becomes known here changes how later witnesses interpret the danger, the people involved, and the choices still available."
+      : /rescue|defen|battle|assault|siege|slaying|interception/.test(kind)
+        ? "The outcome measures more than victory: it determines who survives, what remains protected, and which threat is allowed to continue."
+        : /civic|politic|institution|construction|policy|accord|community/.test(kind)
+          ? "Its consequence endures through institutions and ordinary lives, turning a single scene into part of the world people must inhabit afterward."
+          : /return|resurrection|healing|repair|mercy/.test(kind)
+            ? "The event does not erase the harm that precedes it; it creates a changed life and a new obligation for the people who receive that second chance."
+            : /expedition|exploration|reconnaissance|travel|voyage|arrival/.test(kind)
+              ? "The journey expands the community’s map of danger and possibility, giving later expeditions knowledge purchased through these participants’ risk."
+              : "The outcome becomes part of the cause-and-consequence chain carried into later quests rather than remaining an isolated scene.";
+  const secondParagraph = questEventConsequences[item.title] || `${impact} The surviving record ties ${item.title.toLowerCase()} most closely to ${(item.tags || []).join(", ") || item.location} and to ${participants}. Where the archive does not yet preserve a fuller aftermath, that limit remains explicit rather than being filled with invention.`;
+  return [firstParagraph, secondParagraph];
+}
+
+function characterProfileParagraphs(person) {
+  const recovered = legacyCharacterProfiles[person.title];
+  if (recovered) return [recovered.personality, recovered.achievements, recovered.relationships];
+  return [
+    `${person.title} appears in the recovered archive as ${person.meta.toLowerCase()}. ${person.summary} This profile keeps interpretation proportional to the scenes currently preserved, so temperament is drawn from witnessed choices rather than guessed private motives.`,
+    `${person.title}’s documented importance begins with the contribution summarized above and continues through the quests, locations, and factions connected to that record. Their deeds are treated as part of an unfolding history: accomplishments are credited where the source is clear, while unrecorded exploits remain open for later recovery.`,
+    `${person.title}’s relationships are carried through the adventuring parties, institutions, rivals, and communities that share their scenes. Where the archive does not yet preserve enough named interaction to describe a bond responsibly, the Codex leaves that relationship unresolved instead of manufacturing friendship, romance, or conflict.`
+  ];
+}
+
+function closeRecordDialog() {
+  if (!recordDialog) return;
+  if (typeof recordDialog.close === "function" && recordDialog.open) recordDialog.close();
+  else recordDialog.removeAttribute("open");
+}
+
+function openTimelineRecord(item) {
+  if (!recordDialog || !recordDialogContent) return;
+  const [whatHappened, whyItMatters] = timelineDetailParagraphs(item);
+  const relatedButton = item.article && item.article !== "living-timeline"
+    ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(item.article)}">Open related Codex record →</button>`
+    : "";
+  recordDialogContent.innerHTML = `
+    <p class="record-dialog-kicker">Timeline record · ${escapeHtml(item.kind)}</p>
+    <h2 id="record-dialog-title">${escapeHtml(item.title)}</h2>
+    <p class="record-dialog-dek">${escapeHtml(item.meta)} · ${escapeHtml(item.location)}</p>
+    <div class="record-dialog-body">
+      <p><strong>What happened</strong>${escapeHtml(whatHappened)}</p>
+      <p><strong>Why it matters</strong>${escapeHtml(whyItMatters)}</p>
+    </div>
+    <div class="record-dialog-meta"><span>People · ${escapeHtml(item.people || "Unrecorded")}</span>${(item.tags || []).map(tag => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
+    ${relatedButton}`;
+  if (typeof recordDialog.showModal === "function") recordDialog.showModal();
+  else recordDialog.setAttribute("open", "");
+  requestAnimationFrame(() => recordDialogClose?.focus());
+}
+
+function openCharacterRecord(person, personLabel = "Character") {
+  if (!recordDialog || !recordDialogContent) return;
+  const [personality, achievements, relationships] = characterProfileParagraphs(person);
+  const relatedButton = person.article && person.article !== "people-directory"
+    ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(person.article)}">Open related Codex record →</button>`
+    : "";
+  recordDialogContent.innerHTML = `
+    <p class="record-dialog-kicker">${escapeHtml(personLabel)} · Expanded profile</p>
+    <h2 id="record-dialog-title">${escapeHtml(person.title)}</h2>
+    <p class="record-dialog-dek">${escapeHtml(person.meta)}</p>
+    <div class="record-dialog-body">
+      <p><strong>Personality</strong>${escapeHtml(personality)}</p>
+      <p><strong>Achievements &amp; deeds</strong>${escapeHtml(achievements)}</p>
+      <p><strong>Relationships</strong>${escapeHtml(relationships)}</p>
+    </div>
+    ${relatedButton}`;
+  if (typeof recordDialog.showModal === "function") recordDialog.showModal();
+  else recordDialog.setAttribute("open", "");
+  requestAnimationFrame(() => recordDialogClose?.focus());
 }
 
 function setupAmbientVideos(root = document) {
@@ -3255,6 +3523,7 @@ function renderArticle(route, pushHash = true) {
   document.body.classList.toggle("home-view", article.id === "world-index");
   document.body.classList.toggle("hub-view", Boolean(hubPage));
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
+  document.body.classList.toggle("quotes-view", article.id === "memorable-quotes");
   const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : ""}`;
   if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
   document.title = `${article.title} — The Fenumion Codex`;
@@ -3305,7 +3574,14 @@ function renderArticle(route, pushHash = true) {
       <p class="browser-summary" id="people-gallery-count" role="status" aria-live="polite"></p>
       <div class="browser-grid people-gallery" id="people-gallery"></div>
     </section>` : "";
+  const quotesBackdrop = article.id === "memorable-quotes" ? `
+    <div class="quotes-water-backdrop" aria-hidden="true">
+      <video data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" tabindex="-1">
+        <source src="assets/archive/quotes-water-ripples.mp4" type="video/mp4">
+      </video>
+    </div>` : "";
   articleContent.innerHTML = `
+    ${quotesBackdrop}
     <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubPage.image}')"` : ""}>
       <p class="article-kicker">${article.type}</p>
       <h1>${article.title}</h1>
@@ -3373,7 +3649,7 @@ function setupPeopleGallery() {
         : person.video
           ? `<video class="ambient-video" data-ambient-video src="${person.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>`
           : `<span class="index-glyph" aria-hidden="true">✦</span>`;
-      return `<button class="index-card character-card ${person.personKind}-record${protectedRecord ? " locked-record" : ""}" data-article="${person.article}" aria-label="${person.personLabel}: ${protectedRecord ? "protected spoiler record, " : ""}${escapeHtml(person.title)}">
+      return `<button class="index-card character-card ${person.personKind}-record${protectedRecord ? " locked-record" : ""}" data-article="${person.article}"${protectedRecord ? "" : ` data-character-title="${escapeHtml(person.title)}"`} aria-label="${person.personLabel}: ${protectedRecord ? "protected spoiler record, " : ""}${escapeHtml(person.title)}">
         ${media}
         <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${escapeHtml(person.title)}${restrictedMark(person.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
       </button>`;
@@ -3454,7 +3730,7 @@ function setupWorldBrowser() {
       <div class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}">${items.map(item => {
         const protectedRecord = activeView === "timeline" ? isRestrictedTimelineEvent(item) : !isPlayerSafeArticle(item.article);
         return `
-        <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}">
+        <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}"${protectedRecord ? "" : activeView === "timeline" ? ` data-timeline-title="${escapeHtml(item.title)}"` : activeView === "characters" ? ` data-character-title="${escapeHtml(item.title)}"` : ""}>
           ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
           <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : item.meta}</small>`}<strong>${item.title}${restrictedMark(item.article)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
         </button>`; }).join("")}</div>`;
@@ -3738,7 +4014,7 @@ function setupTimelineExplorer() {
     const filtered = availableTimeline
       .filter(item => activeEra === "All eras" || item.era === activeEra)
       .filter(item => {
-        const haystack = `${item.title} ${item.meta} ${item.summary} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(" ")}`.toLowerCase();
+        const haystack = `${item.title} ${item.meta} ${item.summary} ${questEventConsequences[item.title] || ""} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(" ")}`.toLowerCase();
         return terms.every(term => haystack.includes(term));
       })
       .sort((a, b) => a.sort.localeCompare(b.sort) * (direction === "asc" ? 1 : -1));
@@ -3753,7 +4029,7 @@ function setupTimelineExplorer() {
       <section class="timeline-era" aria-label="${escapeHtml(era)}">
         <header class="timeline-era-header"><h3>${escapeHtml(era)}</h3><span>${items.length} event${items.length === 1 ? "" : "s"}</span></header>
         <div class="event-timeline">${items.map(item => `
-          <button class="event-card" type="button" data-article="${item.article}">
+          <button class="event-card" type="button" data-article="${item.article}" data-timeline-title="${escapeHtml(item.title)}">
             <span class="event-date">${escapeHtml(item.meta)}</span>
             <span class="event-copy">
               <span class="event-kind">${escapeHtml(item.kind)} <i>·</i> ${escapeHtml(item.location)}</span>
@@ -3761,6 +4037,7 @@ function setupTimelineExplorer() {
               <span class="event-summary">${escapeHtml(item.summary)}</span>
               <span class="event-people"><b>People</b> ${escapeHtml(item.people)}</span>
               <span class="event-tags">${(item.tags || []).map(tag => `<i>${escapeHtml(tag)}</i>`).join("")}</span>
+              <span class="event-expand">Open full event <i aria-hidden="true">→</i></span>
             </span>
           </button>`).join("")}</div>
       </section>`).join("") : `<div class="timeline-empty"><strong>No recovered event matches that search.</strong><span>Try a character, location, theme, or consequence.</span></div>`;
@@ -3866,7 +4143,18 @@ function closePanels() {
   menuButton.setAttribute("aria-expanded", "false");
 }
 
+recordDialogClose?.addEventListener("click", closeRecordDialog);
+recordDialog?.addEventListener("click", event => {
+  if (event.target === recordDialog) closeRecordDialog();
+});
+
 document.addEventListener("click", event => {
+  const relatedRecord = event.target.closest("[data-record-article]");
+  if (relatedRecord) {
+    closeRecordDialog();
+    renderArticle(relatedRecord.dataset.recordArticle);
+    return;
+  }
   if (event.target.closest("[data-open-vault]")) {
     openVaultDialog();
     return;
@@ -3875,6 +4163,25 @@ document.addEventListener("click", event => {
   if (mapTrigger) {
     renderArticle(`visual-archive?map=${encodeURIComponent(mapTrigger.dataset.openMap)}`);
     return;
+  }
+  const timelineTrigger = event.target.closest("[data-timeline-title]");
+  if (timelineTrigger) {
+    const timelineItem = archiveIndex.timeline.find(item => item.title === timelineTrigger.dataset.timelineTitle);
+    if (timelineItem && (!isRestrictedTimelineEvent(timelineItem) || vaultUnlocked)) {
+      openTimelineRecord(timelineItem);
+      return;
+    }
+  }
+  const characterTrigger = event.target.closest("[data-character-title]");
+  if (characterTrigger) {
+    const title = characterTrigger.dataset.characterTitle;
+    const player = archiveIndex.characters.find(person => person.title === title);
+    const npc = archiveIndex.npcs.find(person => person.title === title);
+    const person = player || npc;
+    if (person && (isPlayerSafeArticle(person.article) || vaultUnlocked)) {
+      openCharacterRecord(person, player ? "Player character" : "NPC");
+      return;
+    }
   }
   const trigger = event.target.closest("[data-article]");
   if (trigger) {

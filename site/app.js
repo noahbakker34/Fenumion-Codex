@@ -2550,6 +2550,116 @@ const legacyCharacterProfiles = {
     achievements: "He helps stop the ritual-site assault, recovers the mine dead, trains militia volunteers, investigates the fog road and buried city, negotiates Pristinia’s pact with the wolves, and joins the response to the undead horde. His work repeatedly reduces danger for people who are not adventurers.",
     relationships: "Rolen and Cobble are his closest recurring partners, with Alyhotep, Adelia, Nienna, Jako, Bitoshi, and Loistava joining key missions. The trust among them is built through shared public duty: they train replacements, recover one another, and choose coexistence when killing would have been easier."
   },
+  "Magnus Niriin": {
+    personality: "Magnus is ambitious, urbane, and unusually skilled at making power sound like hospitality. He explains Zarathian customs, offers tea and lodging, and warns visitors about dangerous allegiances; at the same time, he measures people by usefulness and keeps searching for leverage when trust would require him to become vulnerable.",
+    achievements: "He rises as a Silver Star and political figure, becomes a cultural guide to Zarathis, and survives encounters with powers and rivals that destroy less prepared people. His schemes eventually provoke Elenia’s decisive defeat of him, but even that loss leaves a consequential record: Magnus changes regional politics by forcing allies to decide how much manipulation they will tolerate from someone whose knowledge remains valuable.",
+    relationships: "Aria is his most dangerous partnership, joining philosophical intimacy to the pursuit of greater power. His maneuvering fractures trust with Wren, Scribonia, and Olokun, while the harm done to Hope brings him into direct conflict with Elenia and Adelia. Bowene’s judgment preserves consequence without treating execution as the only possible answer, leaving Magnus alive inside a network of damaged obligations."
+  },
+  "Farkur": {
+    personality: "Farkur is a builder before he is a hero: pragmatic about money, serious about promises, and convinced that specialized people can accomplish more together than isolated adventurers can. He welcomes newcomers with food, maps, tools, and useful work, yet he is also capable of recognizing when practical help has made him complicit in harm.",
+    achievements: "He co-founds the Ale-Chemy Knights, develops their shared equipment and funding systems, supports Pristinia’s defenses, and helps turn reconstruction plans into the later Gael market. When his repair of an escape ship becomes connected to Commander Yvette’s murder, he surrenders voluntarily, repeats his confession under truth-working, offers the Guardians future aid, and visits the graves rather than using his good works to erase responsibility.",
+    relationships: "Ryvyt is his fellow founder and specialist counterpart, while Tobias embodies the newcomer care their institution promises. Gregory accompanies Farkur to the graves; Green Bean and Fangs reflect his habit of joining unlike abilities into one working system. His later disappearance wounds Ryvyt and exposes how much an organization designed to outlast individuals still depends on the people who built it."
+  },
+  "Ryvyt": {
+    personality: "Ryvyt is a crafter, researcher, and operational thinker who makes specialization real. Rather than treating every problem as something one charismatic leader should solve, Ryvyt borrows the right shared equipment, takes on project work, and gives the Knights a place where unusual expertise can become communal capacity.",
+    achievements: "As Farkur’s co-founder, Ryvyt anchors the Ale-Chemy Knights’ crafting system and contributes to the faction’s expansion from newcomer aid into ships, property, construction, and regional reconstruction. The surviving record also preserves Delerium research as Ryvyt’s personal inquiry, carefully separated from official faction policy, and records Ryvyt arriving by ship as the ‘remaining founder.’",
+    relationships: "Farkur is the relationship around which Ryvyt’s public history turns: collaborator, co-founder, and later absence. Tobias completes the recognized trio of main Knights, while Coralyn’s request demonstrates how others rely on Ryvyt when work exceeds Farkur’s expertise. Reports that Ryvyt took the disappearances hard establish real grief without inventing the words or later choices the archive has not recovered."
+  },
+  "Tobias": {
+    personality: "Tobias treats welcome as a sequence of concrete acts. He does not merely reassure a newcomer; he finds food, explains the map, offers an escort, identifies lodging and work, and contributes his own money. His helpfulness is practical, mobile, and aimed at making another person independent rather than indebted.",
+    achievements: "He volunteers for the winter hunt when failed harvests threaten the Common Man’s community, becomes one of the Ale-Chemy Knights’ three main members, and helps make their mutual-aid model visible at an individual scale. His builder and guide work connects the faction’s grand projects to the ordinary problem of getting one frightened arrival safely established.",
+    relationships: "Farkur and Ryvyt are his principal institutional partners, but Tobias’s most revealing relationship is with the strangers he chooses to help before they possess status or usefulness. Repeated absences make his later record uncertain and show the vulnerability of a support network whose most trusted guides can themselves disappear."
+  },
+  "Minerva": {
+    personality: "Minerva is watchful, suspicious, and forceful enough to make cooperation difficult when she believes other people are underestimating danger. Yet her attention repeatedly turns toward concealed threats and vulnerable people: a shadow on a silent roof, a frightened child, an injured animal, or a familiar person whose behavior no longer fits the evidence.",
+    achievements: "She helps rescue a child from Krampus, investigates a disputed threat before the Guardians, exposes the false Timothy during the Howl expedition, and contributes to the Seekers’ work around contamination and dangerous caves. Her record is valuable precisely because it does not make intensity equivalent to correctness; it preserves both the warnings she delivers and the trust her methods sometimes damage.",
+    relationships: "Gregory and Ruben share the Krampus rescue, while Thorn and Jéane Rose help turn the Howl investigation into a trackable sequence of evidence. Vessalia, Di’Trillio, Pell, and Fenwick are her fellow Seekers, but her conclusions remain her own rather than automatic company doctrine. The Guardians’ refusal to rely on a divided party becomes one of her clearest lessons about truth without trust."
+  },
+  "Vessalia": {
+    personality: "Vessalia uses song to manage fear and preserve a sense of self inside contamination. She is expressive rather than reckless: when companions explain that her magic is attracting danger, she accepts correction, adjusts, and continues caring for people around her instead of turning embarrassment into conflict.",
+    achievements: "During the Seekers’ cave investigation, she survives the malformed creatures, violet crystals, and corrupted remains that make the site dangerous both physically and psychologically. Her magic helps the company endure, while the consequences of its sound become useful evidence about how threats in the cave perceive and pursue them.",
+    relationships: "Pell receives Vessalia’s closest attention in the recovered scene, especially when fear threatens to become paralysis. Di’Trillio provides firm but gentle correction, and Minerva and Fenwick share the company’s investigative burden. These relationships show the Seekers at their best: fear is acknowledged, mistakes are corrected, and no member is reduced to the moment in which they need help."
+  },
+  "Pell": {
+    personality: "Pell is frightened in ways the record never mocks and practical in ways fear does not erase. The most important part of Pell’s cave history is moral clarity: a corrupted corpse is still somebody’s child, and danger does not cancel the obligation to recognize a life that existed before the horror.",
+    achievements: "Pell helps the Seekers explore a cave marked by contamination, crystalline anomalies, malformed harpies, and a dead body whose condition becomes evidence. Staying present long enough to observe, argue for burial, and continue with the company is an achievement of endurance rather than spectacle.",
+    relationships: "Vessalia’s attention gives Pell emotional shelter, while Di’Trillio’s technical observations and Minerva and Fenwick’s investigation give the fear a shared structure. Pell’s insistence on burial also changes the group’s relationship with the dead: the body cannot be treated only as a clue, obstacle, or contaminated object."
+  },
+  "Fenwick": {
+    personality: "Fenwick is preserved as an investigator whose exact specialty remains less complete than the roles of the companions around him. The Codex therefore treats restraint as part of his profile: membership, presence, and credited work are real, while personality traits not demonstrated in surviving scenes remain open.",
+    achievements: "He is a confirmed Seeker, participates in the ancient Gate journey that gives modern adventurers a glimpse of its construction, and is later credited by Eovar’s Harbor Master alongside the Ale-Chemy Knights for substantial work that improved lives. The record also places him among investigations where contamination and incomplete knowledge make careful procedure essential.",
+    relationships: "Vessalia, Di’Trillio, Pell, and Minerva are his confirmed company members. St. Anky, Olokun, Cecil, and Coralyn share the Gate journey, connecting Fenwick’s modern investigative role to one of the archive’s most consequential expeditions. Praise from Raven Joyner is deliberately mixed with criticism of adventurer disruption, making his public standing neither spotless nor dismissible."
+  },
+  "St. Anky": {
+    personality: "Anky is frightened, disordered, generous, and profoundly serious about keeping a promise. When Voraketh begins taking pieces of memory, he does not answer by hoarding what remains; he builds systems through which secrets, equipment, theories, and questions can outlive the person who first carried them.",
+    achievements: "He witnesses the Gate’s construction, serves Nuru as saint and cupbearer, helps articulate a peace founded on reciprocal boundaries, commissions a map of Voraketh, and establishes the Temple of Secrets as a communal memory shelter. On his final recovered expedition he prepares potions, writes protective knowledge, and chooses a route according to divine warning; his exact death remains unresolved rather than dramatized into false certainty.",
+    relationships: "Nuru publicly recognizes Anky’s service, but Anky’s holiness is expressed most clearly through mortal sharing. Cerwin receives help even without an item to exchange and later reaches Anky on the road to the afterlife; Alfred joins the last known journey; Coralyn, Carmen, Sildithas, Brianna, and Ghilsen share the Shadow Roads history. His community inherits records instead of only grief."
+  },
+  "Carmen": {
+    personality: "Carmen understands relationships through accounts, bargains, and the danger of an unpaid price. That can make her guarded, but not cold: her attention to debt is the language of someone who knows that gifts, rescues, and sacrifices can become forms of ownership when consent disappears.",
+    achievements: "She crosses the Shadow Roads and survives the crisis in which Paco pays a cost to bring others home. Her importance lies less in a single combat victory than in preserving the moral distinction between being saved and agreeing to the price of salvation.",
+    relationships: "Paco’s sacrifice becomes the central wound in Carmen’s record because she did not consent to let him pay it. Coralyn, St. Anky, Sildithas, Ithilrûnë, Brianna, and Ghilsen share parts of the Shadow Roads history, giving Carmen a company in which obligation, fear, protection, and ownership must be negotiated rather than assumed."
+  },
+  "Coralyn": {
+    personality: "Coralyn is curious, articulate, and disciplined about evidence. She explains difficult cosmology through the sea, but she is willing to dissent when a path feels wrong and refuses to connect mysteries merely because both are strange. Her skepticism is a form of care for the people who would have to live with a bad conclusion.",
+    achievements: "She participates in the Gate journey, enters the Shadow Roads despite openly warning against them, contributes to Voraketh’s Chain investigations, and repeatedly helps groups distinguish observation from theory. Her explanations make dangerous ideas usable without pretending that metaphor is proof.",
+    relationships: "St. Anky is a major investigative partner, especially in the effort to preserve knowledge on Voraketh. Sildithas and Ithilrûnë share the burden of interpreting the Maw and Chains, while Carmen and Ghilsen share the Shadow Roads crossing. Farkur’s referral to Ryvyt also shows Coralyn working through a wider network of specialists rather than forcing every problem into her own expertise."
+  },
+  "Ithilrûnë": {
+    personality: "Ithilrûnë seeks knowledge because informed people possess more meaningful choices. She is intellectually confident but not incapable of humility: when the Maw defeats her model, she admits what she does not know and accepts another person’s wisdom without pretending that uncertainty has ended the inquiry.",
+    achievements: "She crosses the Shadow Roads, studies Voraketh’s impossible systems, and helps preserve a method of investigation that separates witnessed effects from attractive explanations. At the Maw, her willingness to stop performing certainty becomes as important as any successful theory.",
+    relationships: "Sildithas is her clearest philosophical counterpart. When analysis reaches its limit, his proposal of fellowship and a feast offers a different form of wisdom, and Ithilrûnë chooses to follow without surrendering her identity as a scholar. Coralyn, Carmen, St. Anky, Brianna, and Ghilsen widen that relationship into a company joined by danger and incomplete knowledge."
+  },
+  "Aria / Pride": {
+    personality: "Aria presents attachment as a weakness that eventually makes protection impossible. She is elegant, persuasive, and afraid of the smallness that comes with allowing another person to choose beyond her control. Her public profile describes the philosophy witnessed by adventurers while keeping protected ancient origins inside the spoiler vault.",
+    achievements: "As Pride, she manipulates public memory, imprisons Scribonia in a gemstone, tests the Void, and builds an alliance with Magnus around knowledge and power. Talan eventually kills her, but her influence persists in Bowene’s succession and in the arguments her choices force other people to articulate.",
+    relationships: "Magnus is her closest visible ally and one of the people most tempted by her model of leverage. Scribonia becomes a captive rather than a student, while Olokun directly rejects her belief that protection creates ownership and answers that people must be allowed to grow beyond their protectors. Her story therefore survives as a conflict over love, control, and fear rather than as a list of powers."
+  },
+  "Roderick / Wrath": {
+    personality: "Roderick is Wrath made legible through grief. He offers impossible restoration at the precise moment loss makes refusal hardest, yet the surviving scenes also reveal a person beneath the title—someone whose attachment to Endora cannot be dismissed even when the bargains built from it remain dangerous.",
+    achievements: "He dominates Gael’s early political and military history, confronts the adventurers through tombs and offers, and is ultimately defeated by Saray. His fall becomes more than a battlefield victory because it reveals that the campaign’s enemy can be mourned without allowing grief to excuse coercion.",
+    relationships: "Endora is the private center around which Roderick’s public wrath turns. Quake refuses his offer after Dale’s death, Elenia searches for a different path, and Saray delivers the decisive strike. Dumuzi’s response to the fallen knight adds another relationship of ownership and mourning, but the oldest causes remain protected lore rather than material exposed in this public profile."
+  },
+  "Lady Severina": {
+    personality: "Severina treats command as continuity rather than spectacle. A ruin survey, a guarded tower, a working quarry, a staffed wall, and a healed soldier all belong to the same discipline: protect people long enough for civic life to continue after the battle ends.",
+    achievements: "She protects the Rahuvian delegation during the survey of The Before, offers secure space for petrified victims, argues for restored quarry production and completed walls, and commands Pristinia’s defense during the Acolyte attack. Her warning that certain skeletons explode and her immediate care for Saoirse show battlefield knowledge applied at human scale.",
+    relationships: "Camilla shares her civic concern while pressing its economic and political implications. Kasiri and Saoirse appear in the wall defense as people Severina protects rather than pieces she spends, while the Rahuvian scholars depend on her discipline during the survey. Her connection to the Ale-Chemy tower shows institutions cooperating without erasing the question of who holds power over shared infrastructure."
+  },
+  "Thorn": {
+    personality: "Thorn is a field leader who treats belonging as an obligation: the Veilguard is not merely an assignment but the community to which she must return. She combines instinctive caution with practical curiosity, gathering evidence without pretending that every contaminated sign already has an explanation.",
+    achievements: "She leads the joint survey into The Before, identifies the briars’ Delerium scent, bottles the purple haze for study, frees and heals a trapped deer during Howl, and finds the tracks that move the investigation forward. Her earlier death on a Gael husk hunt, later use in a cult ritual, and eventual return remain a deliberately unresolved chain rather than a manufactured resurrection story.",
+    relationships: "The Veilguard anchors Thorn’s sense of self. Lady Severina, Miri, and the Rahuvian scholars share her survey work, while Minerva and Jéane Rose help transform the Howl clues into action. Thorn also carries news of Farkur’s disappearance and Ryvyt’s grief, showing that a returned survivor still participates in the ordinary work of remembering other people’s losses."
+  },
+  "Camilla": {
+    personality: "Camilla thinks in public consequences. She is willing to argue that private wealth and adventuring success create obligations beyond the people who earned them, especially when farms, walls, trade, and ordinary households must absorb the costs of repeated crises.",
+    achievements: "She joins the diplomatic survey of The Before, contributes to Pristinia’s policy debates, and stands in the defense against Death-aligned forces during Acolyte. Her proposals connect Ale-Chemy capital to defense, agriculture, and trade, turning a conversation about treasure into a question about what makes a settlement durable.",
+    relationships: "Lady Severina is Camilla’s clearest civic counterpart: both care about defense, but Camilla continually widens the frame toward finance and the public that defense serves. The survey delegation and the wall defenders place her among scholars, soldiers, and adventurers whose interests must become a shared policy rather than a competition for attention."
+  },
+  "Ghilsen Hendrickson": {
+    personality: "Ghilsen’s suspicion grows from lived experience of ownership. Freedom is not abstract to him, and strength matters because he wants a world in which neither he nor another vulnerable person can be reduced to property again.",
+    achievements: "He survives the Shadow Roads, helps the travelers move through a system that turns trust and proximity into practical necessities, and carries his history without allowing it to define the full limit of his future. His contribution is often protective presence rather than a single celebrated finishing blow.",
+    relationships: "Brianna is an important companion in the archive, while Carmen, Coralyn, St. Anky, Sildithas, and Ithilrûnë share the Shadow Roads ordeal. Holding hands to survive that passage gives Ghilsen’s relationships particular weight: dependence can be chosen, reciprocal, and temporary rather than another form of possession."
+  },
+  "Pappy": {
+    personality: "Pappy is plainspoken, warm, and fundamentally inclined to protect. His simplicity is not foolishness; it is a refusal to let complicated politics obscure whether a person in front of him needs help.",
+    achievements: "He survives the Rift ambush when Adelia senses betrayal and Gates him out, then continues into later disputes and the physical dangers of Voraketh. Near the Maw, antimagic makes bodily resilience more important than elaborate powers, allowing Pappy’s direct strength to become exactly the kind of protection the company needs.",
+    relationships: "Adelia’s rescue is central, though the later governance dispute requires a strict boundary between what characters knew and what players or systems later argued. St. Anky carries Physisia’s message through Pappy in the Voraketh record, while the wider Ale-Chemy network treats him as a close contributor without proving formal membership."
+  },
+  "Aravil": {
+    personality: "Aravil is separated from her Queen but not from the oath that gives her life direction. In Pristinia she discovers that belonging can be rebuilt through useful work, disciplined protection, and choices made beside people who were strangers when the journey began.",
+    achievements: "She serves as an oathbound hunter, contributes to Pristinia’s survival, and enters the Abyss with Olokun and Wren. When an impossible choice saves Wren and leaves Aravil taken as a trophy, her disappearance becomes one of the campaign’s most painful demonstrations that choosing one life does not make the other loss acceptable.",
+    relationships: "Her absent Queen remains the origin of her oath, but Pristinia becomes the place where duty grows into community. Olokun carries the moral injury of the Abyss choice, Wren survives inside the same event, and Elenia later stands against banishment in a way that keeps Aravil’s story connected to the broader question of who is allowed to belong after catastrophe."
+  },
+  "Jéane Rose": {
+    personality: "Jéane experiences thought, travel, and obligation at extraordinary speed, but her record is not only about motion. She notices danger quickly and treats that advantage as a responsibility to protect people whose bodies and decisions move at a different pace.",
+    achievements: "She joins the Howl investigation, helps the party move through the winter wilderness, and contributes to the sequence that exposes the false Timothy and follows the wolves’ trail. Her speed is most useful when it becomes shared time—warning, scouting, and creating room for companions to act.",
+    relationships: "Minerva and Thorn are her clearest partners in the recovered investigation, combining suspicion, tracking, and rapid response. Ingrid and the endangered family give that cooperation a human purpose. Jéane’s wider relationship record remains incomplete, so the Codex preserves the demonstrated protective pattern without inventing intimacy the surviving scenes do not show."
+  },
+  "Vaerik": {
+    personality: "Vaerik is an old soldier who expresses duty through the conviction that if he can carry a burden, he must. That principle makes him reliable and dangerous to himself: service can become self-erasure when capacity is treated as proof that rest or help is undeserved.",
+    achievements: "He brings precision, experience, and controlled violence to the companies he joins, often taking the position where a disciplined fighter can keep confusion from becoming catastrophe. His lasting achievement is the standard his conduct sets—competence placed in service of other people rather than personal legend.",
+    relationships: "Vaerik’s bonds form through entrusted danger: companions rely on him to do what he says and to remain when the work becomes costly. The archive has not yet recovered enough named scenes to rank those relationships honestly, so his profile records the pattern of duty while leaving specific friendships open for future evidence."
+  },
   "Wren": {
     personality: "Wren is an investigator who listens to land, weather, bodies, and inherited stories before committing to an explanation. That caution is not passivity; she acts decisively when evidence is sufficient and is willing to say when it is not.",
     achievements: "She guides the mountain-pass party away from flood danger, helps stop the reality-splitting ritual, explores the four-pillar ruins, survives the lich expedition, and continues through Gael, Voraketh, and the Abyss. Her judgment repeatedly converts environmental knowledge into survival.",
@@ -3363,9 +3473,20 @@ function closeRecordDialog() {
 function openTimelineRecord(item) {
   if (!recordDialog || !recordDialogContent) return;
   const [whatHappened, whyItMatters] = timelineDetailParagraphs(item);
+  const readableTimeline = archiveIndex.timeline
+    .filter(candidate => !isRestrictedTimelineEvent(candidate))
+    .sort((left, right) => left.sort.localeCompare(right.sort));
+  const currentIndex = readableTimeline.findIndex(candidate => candidate.title === item.title);
+  const previousItem = currentIndex > 0 ? readableTimeline[currentIndex - 1] : null;
+  const nextItem = currentIndex >= 0 && currentIndex < readableTimeline.length - 1 ? readableTimeline[currentIndex + 1] : null;
   const relatedButton = item.article && item.article !== "living-timeline"
     ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(item.article)}">Open related Codex record →</button>`
     : "";
+  const timelineNavigation = previousItem || nextItem ? `
+    <nav class="record-dialog-nav" aria-label="Browse timeline records">
+      ${previousItem ? `<button type="button" data-timeline-title="${escapeHtml(previousItem.title)}"><small>Previous event</small><strong>← ${escapeHtml(previousItem.title)}</strong></button>` : `<span></span>`}
+      ${nextItem ? `<button type="button" data-timeline-title="${escapeHtml(nextItem.title)}"><small>Next event</small><strong>${escapeHtml(nextItem.title)} →</strong></button>` : ""}
+    </nav>` : "";
   recordDialogContent.innerHTML = `
     <p class="record-dialog-kicker">Timeline record · ${escapeHtml(item.kind)}</p>
     <h2 id="record-dialog-title">${escapeHtml(item.title)}</h2>
@@ -3375,19 +3496,27 @@ function openTimelineRecord(item) {
       <p><strong>Why it matters</strong>${escapeHtml(whyItMatters)}</p>
     </div>
     <div class="record-dialog-meta"><span>People · ${escapeHtml(item.people || "Unrecorded")}</span>${(item.tags || []).map(tag => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
-    ${relatedButton}`;
-  if (typeof recordDialog.showModal === "function") recordDialog.showModal();
-  else recordDialog.setAttribute("open", "");
+    ${relatedButton}
+    ${timelineNavigation}`;
+  if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
+  else if (!recordDialog.open) recordDialog.setAttribute("open", "");
+  recordDialog.scrollTop = 0;
   requestAnimationFrame(() => recordDialogClose?.focus());
 }
 
 function openCharacterRecord(person, personLabel = "Character") {
   if (!recordDialog || !recordDialogContent) return;
   const [personality, achievements, relationships] = characterProfileParagraphs(person);
+  const profileMedia = person.image
+    ? `<figure class="record-dialog-media"><img src="${escapeHtml(person.image)}" alt="Portrait of ${escapeHtml(person.title)}"></figure>`
+    : person.video
+      ? `<figure class="record-dialog-media"><video data-ambient-video muted loop playsinline preload="metadata"><source src="${escapeHtml(person.video)}" type="video/mp4"></video></figure>`
+      : "";
   const relatedButton = person.article && person.article !== "people-directory"
     ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(person.article)}">Open related Codex record →</button>`
     : "";
   recordDialogContent.innerHTML = `
+    ${profileMedia}
     <p class="record-dialog-kicker">${escapeHtml(personLabel)} · Expanded profile</p>
     <h2 id="record-dialog-title">${escapeHtml(person.title)}</h2>
     <p class="record-dialog-dek">${escapeHtml(person.meta)}</p>
@@ -3397,8 +3526,10 @@ function openCharacterRecord(person, personLabel = "Character") {
       <p><strong>Relationships</strong>${escapeHtml(relationships)}</p>
     </div>
     ${relatedButton}`;
-  if (typeof recordDialog.showModal === "function") recordDialog.showModal();
-  else recordDialog.setAttribute("open", "");
+  if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
+  else if (!recordDialog.open) recordDialog.setAttribute("open", "");
+  recordDialog.scrollTop = 0;
+  setupAmbientVideos(recordDialogContent);
   requestAnimationFrame(() => recordDialogClose?.focus());
 }
 

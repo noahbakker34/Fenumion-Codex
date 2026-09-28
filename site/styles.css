@@ -1791,6 +1791,24 @@ body.quotes-view .article-body > h2 { text-shadow: 0 2px 14px rgba(0, 0, 0, .82)
 }
 .record-dialog::backdrop { background: rgba(3, 6, 8, .82); backdrop-filter: blur(7px); }
 .record-dialog > article { position: relative; padding: clamp(1.4rem, 4vw, 2.5rem); }
+.record-dialog-media {
+  position: relative;
+  height: clamp(180px, 28vh, 270px);
+  margin: calc(clamp(1.4rem, 4vw, 2.5rem) * -1) calc(clamp(1.4rem, 4vw, 2.5rem) * -1) 1.4rem;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 36%, rgba(217, 185, 95, .15), transparent 55%), #101319;
+  border-bottom: 1px solid rgba(217, 185, 95, .35);
+}
+.record-dialog-media::after {
+  position: absolute;
+  inset: auto 0 0;
+  height: 45%;
+  background: linear-gradient(transparent, #171a20);
+  content: "";
+  pointer-events: none;
+}
+.record-dialog-media img,
+.record-dialog-media video { width: 100%; height: 100%; object-fit: contain; object-position: center; }
 .record-dialog-close {
   position: sticky;
   z-index: 3;
@@ -1825,6 +1843,29 @@ body.quotes-view .article-body > h2 { text-shadow: 0 2px 14px rgba(0, 0, 0, .82)
 .record-dialog-meta span { padding: .35rem .55rem; color: #cfc9bb; background: #24272e; border: 1px solid #474841; border-radius: 999px; font-size: .7rem; }
 .record-dialog-link { display: inline-flex; margin-top: 1.25rem; padding: .7rem .9rem; color: #1b1912; background: var(--gold); border: 1px solid var(--gold-bright); border-radius: 5px; cursor: pointer; font-weight: 800; }
 .record-dialog-link:hover { background: var(--gold-bright); }
+.record-dialog-nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .75rem;
+  margin-top: 1.5rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid #393b3b;
+}
+.record-dialog-nav button {
+  min-height: 76px;
+  padding: .8rem .9rem;
+  color: #ded9cb;
+  background: #20232a;
+  border: 1px solid #454742;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+}
+.record-dialog-nav button:last-child { text-align: right; }
+.record-dialog-nav button:hover,
+.record-dialog-nav button:focus-visible { color: #fff5c8; border-color: var(--gold); background: #292a28; }
+.record-dialog-nav small { display: block; margin-bottom: .3rem; color: #9b978d; font: 700 .63rem/1.2 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
+.record-dialog-nav strong { display: block; font: 500 .92rem/1.35 var(--serif); }
 .event-expand {
   display: inline-flex;
   align-items: center;
@@ -1843,6 +1884,10 @@ body.quotes-view .article-body > h2 { text-shadow: 0 2px 14px rgba(0, 0, 0, .82)
 @media (max-width: 620px) {
   .record-dialog { width: calc(100vw - 1rem); max-height: 92vh; }
   .record-dialog > article { padding: 1.15rem; }
+  .record-dialog-media { margin: -1.15rem -1.15rem 1.15rem; }
   .record-dialog h2 { font-size: 2.15rem; }
   .record-dialog-body p { padding: .85rem; font-size: .96rem; }
+  .record-dialog-nav { grid-template-columns: 1fr; }
+  .record-dialog-nav > span { display: none; }
+  .record-dialog-nav button:last-child { text-align: left; }
 }

@@ -3811,7 +3811,7 @@ const questPlayerAdditions = [
   { title: "Willow", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring Pristinia adventurer tied to harvest defense, Hin expeditions, festivals, and later journeys." },
   { title: "Leo", meta: "Player character · quest-RP", article: "people-directory", summary: "An explorer active in the sector dungeon, quarry mission, Rehevä crisis, and early Delerium investigations." },
   { title: "Cobble", meta: "Player character · quest-RP", article: "people-directory", summary: "An early Pristinia defender, militia trainer, ruin explorer, and witness to the town’s first hidden threats." },
-  { title: "Bitoshi Nakamoto", meta: "Player character · quest-RP", article: "people-directory", summary: "An early adventurer present in The Before, the mountain pass, Gael, and the expeditions surrounding Jiangshi’s return." },
+  { title: "Bitoshi Nakamoto", meta: "Player character · quest-RP", article: "people-directory", image: "assets/archive/bitoshi-nakamoto-portrait.jpg", aliases: ["Bitoshi"], summary: "An early adventurer present in The Before, the mountain pass, Gael, and the expeditions surrounding Jiangshi’s return." },
   { title: "Fulmin", meta: "Player character · quest-RP", article: "people-directory", summary: "A repeatedly controlled adventurer with a substantial later-archive presence." },
   { title: "Empty", meta: "Player character · quest-RP", article: "people-directory", summary: "A player-controlled explorer involved in the sector dungeon, Delerium sites, and Pristinia’s early contamination crisis." },
   { title: "Elysian ‘Eli’ Voss", meta: "Player character · quest-RP", article: "people-directory", summary: "A musician-adventurer active in Pristinia’s defense, festivals, and late-2024 expeditions." },
@@ -7216,6 +7216,8 @@ const archiveIndex = {
       "title": "Bitoshi Nakamoto",
       "meta": "Player character · quest-RP",
       "article": "people-directory",
+      "image": "assets/archive/bitoshi-nakamoto-portrait.jpg",
+      "aliases": ["Bitoshi"],
       "summary": "An early adventurer present in The Before, the mountain pass, Gael, and the expeditions surrounding Jiangshi’s return."
     },
     {

@@ -2349,6 +2349,10 @@ const articles = [
     "title": "Vaemyr",
     "category": "People",
     "type": "Diplomat; consequence-minded adventurer",
+    "image": "assets/archive/vaemyr-portrait.webp",
+    "imageLayout": "portrait-hero",
+    "imageAlt": "Close portrait of Vaemyr, a youthful red-skinned tiefling with great curved horns, dark hair, facial runes, and weathered armor",
+    "imageCaption": "Vaemyr — consequence-minded adventurer, diplomat, and chosen companion.",
     "dek": "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve.",
     "tags": [
       "Vaemyr",
@@ -6976,6 +6980,7 @@ const archiveIndex = {
       "title": "Vaemyr",
       "meta": "Diplomat and consequence-minded adventurer",
       "article": "vaemyr",
+      "image": "assets/archive/vaemyr-portrait.webp",
       "summary": "Tests what care demands, then commits fully to the people he chooses—especially Wren and his pana Olokun."
     },
     {

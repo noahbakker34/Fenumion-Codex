@@ -6,17 +6,17 @@
   <meta name="theme-color" content="#081512">
   <meta name="description" content="The living lore, history, people, and places of Fenumion.">
   <title>The Fenumion Codex</title>
-  <link rel="icon" type="image/png" sizes="1024x1024" href="fenumion-logo.png?v=94">
-  <link rel="shortcut icon" type="image/png" href="fenumion-logo.png?v=94">
-  <link rel="apple-touch-icon" href="fenumion-logo.png?v=94">
-  <link rel="stylesheet" href="styles.css?v=94">
-  <script src="app.js?v=94" defer></script>
+  <link rel="icon" type="image/png" sizes="1024x1024" href="fenumion-logo.png?v=95">
+  <link rel="shortcut icon" type="image/png" href="fenumion-logo.png?v=95">
+  <link rel="apple-touch-icon" href="fenumion-logo.png?v=95">
+  <link rel="stylesheet" href="styles.css?v=95">
+  <script src="app.js?v=95" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#article">Skip to article</a>
   <div class="home-external-actions" aria-label="Fenumion companion sites">
     <a class="approved-content-link" href="https://catalog.fenumion.com" aria-label="Open Fenumion approved content">Fenumion approved content <span aria-hidden="true">↗</span></a>
-    <button class="campaign-tools-button" type="button" data-tools-gate>Campaign tools <span aria-hidden="true">◆</span></button>
+    <a class="campaign-tools-button" href="https://dnd-combat-engine-production.up.railway.app">Campaign tools <span aria-hidden="true">↗</span></a>
   </div>
   <button class="vault-fab" id="vault-button" type="button" aria-haspopup="dialog" aria-controls="vault-dialog">
     <span aria-hidden="true">◆</span><strong>Spoiler vault</strong><small>Locked</small>
@@ -40,7 +40,7 @@
     </label>
     <div class="topbar-actions">
       <a class="approved-content-link" href="https://catalog.fenumion.com" aria-label="Open Fenumion approved content">Fenumion approved content <span aria-hidden="true">↗</span></a>
-      <button class="campaign-tools-button" type="button" data-tools-gate>Campaign tools <span aria-hidden="true">◆</span></button>
+      <a class="campaign-tools-button" href="https://dnd-combat-engine-production.up.railway.app">Campaign tools <span aria-hidden="true">↗</span></a>
       <button class="index-button" type="button" data-article="world-index">World index</button>
     </div>
   </header>
@@ -90,32 +90,15 @@
   </div>
   <div class="scrim" id="scrim" hidden></div>
   <dialog class="vault-dialog" id="vault-dialog" aria-labelledby="vault-title">
-    <form id="vault-form">
+    <div class="vault-panel">
       <button class="vault-close" id="vault-close" type="button" aria-label="Close spoiler vault">×</button>
       <span class="vault-sigil" aria-hidden="true">◆</span>
       <p class="eyebrow">Keeper access</p>
       <h2 id="vault-title">Open the spoiler vault</h2>
-      <p>Divine dossiers, ancient history, the Great Fracture, and secrets such as Delerium’s origins are hidden in player-safe mode. Modern characters, factions, locations, and campaign history remain public.</p>
-      <label for="vault-password">Password</label>
-      <input id="vault-password" type="password" autocomplete="current-password" required>
-      <p class="vault-error" id="vault-error" role="alert" aria-live="polite"></p>
-      <button class="vault-submit" type="submit">Unlock hidden lore</button>
-      <small>This unlock lasts only for the current browser session.</small>
-    </form>
-  </dialog>
-  <dialog class="vault-dialog tools-dialog" id="tools-dialog" aria-labelledby="tools-title">
-    <form id="tools-form">
-      <button class="vault-close" id="tools-close" type="button" aria-label="Close campaign tools access">×</button>
-      <span class="vault-sigil" aria-hidden="true">◆</span>
-      <p class="eyebrow">Protected companion site</p>
-      <h2 id="tools-title">Open campaign tools</h2>
-      <p>Enter the campaign access password to continue to the private Fenumion combat engine.</p>
-      <label for="tools-password">Password</label>
-      <input id="tools-password" type="password" autocomplete="current-password" required>
-      <p class="vault-error" id="tools-error" role="alert" aria-live="polite"></p>
-      <button class="vault-submit" type="submit">Continue to campaign tools</button>
-      <small>The destination opens only after the password is accepted.</small>
-    </form>
+      <p id="vault-message" role="status" aria-live="polite">Divine dossiers, ancient history, and secrets such as Delerium’s origins require a Fenumion Discord account with keeper access.</p>
+      <button class="vault-submit" id="vault-signin" type="button">Sign in with Discord</button>
+      <small id="vault-account">Access is checked through the Fenumion Discord server.</small>
+    </div>
   </dialog>
   <dialog class="record-dialog" id="record-dialog" aria-labelledby="record-dialog-title">
     <article>

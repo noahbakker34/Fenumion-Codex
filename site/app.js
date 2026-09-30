@@ -3797,7 +3797,7 @@ const questEventConsequences = {
 };
 
 const questPlayerAdditions = [
-  { title: "Alyhotep bin Baladin", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world." },
+  { title: "Alyhotep bin Baladin", meta: "Player character · quest-RP", article: "people-directory", image: "assets/archive/alyhotep-portrait.jpg", aliases: ["Alyhotep", "Aly"], summary: "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world." },
   { title: "Quoth", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer whose long quest record includes Hin expeditions, disappearances, rescues, and later regional journeys." },
   { title: "Vaemyr", meta: "Diplomat and consequence-minded adventurer", article: "vaemyr", summary: "Tests what care demands, then commits fully to the people he chooses—especially Wren and his pana Olokun." },
   { title: "Krone", meta: "Giant-blooded vanguard · player character", article: "krone", image: "assets/archive/krone-portrait.webp", summary: "A joyous front-line protector whose primordial strength and loyalty carry him from Pristinia and Gael into the battle against Wrath." },
@@ -7125,6 +7125,11 @@ const archiveIndex = {
       "title": "Alyhotep bin Baladin",
       "meta": "Player character · quest-RP",
       "article": "people-directory",
+      "image": "assets/archive/alyhotep-portrait.jpg",
+      "aliases": [
+        "Alyhotep",
+        "Aly"
+      ],
       "summary": "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world."
     },
     {

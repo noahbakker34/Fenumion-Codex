@@ -347,9 +347,7 @@ const articles = [
     "title": "The Shining Shores",
     "category": "Places",
     "type": "Coastal region and city shore",
-    "video": "shining-shores.m4v",
     "videoType": "video/mp4",
-    "image": "assets/archive/shining-shores-alternate.webp",
     "imageLayout": "landscape-hero",
     "videoAlt": "A moving visual record of the warm coast and cityscape of the Shining Shores in Fein Uaill",
     "videoCaption": "The Shining Shores — user-supplied moving location record, 26 September 2026.",
@@ -1454,11 +1452,9 @@ const articles = [
     "title": "Akarian",
     "category": "People",
     "type": "Warrior; Guardian of Gael",
-    "image": "assets/characters/akarian.png",
     "imageLayout": "landscape-hero",
     "imageAlt": "Akarian, a long-haired elven warrior carrying a sword in a mountain forest",
     "imageCaption": "Akarian — warrior and Guardian of Gael.",
-    "video": "assets/archive/akarian.mp4",
     "videoAlt": "Animated portrait of Akarian",
     "videoCaption": "Akarian — Guardian of Gael.",
     "dek": "A practical warrior remembered by the surviving record as the Guardian of Gael—a title that binds one person to a recovering land.",
@@ -1549,7 +1545,6 @@ const articles = [
     "title": "Roderick / Wrath",
     "category": "People",
     "type": "Duke; Knight I of Death",
-    "image": "assets/archive/wrath.gif",
     "imageAlt": "Wrath, an armored Knight of Death carrying a burning sword through fire",
     "imageCaption": "Wrath — Knight I of Death.",
     "dek": "A grieving husband reconstructed backward through hostile testimony, corrupted resurrection, and the consequences of refusing to let someone go.",
@@ -1634,7 +1629,6 @@ const articles = [
     "title": "Vain",
     "category": "People",
     "type": "Knight of Death; hunter of Shards",
-    "video": "assets/archive/vain-knight-of-death.mp4",
     "videoLayout": "landscape-hero",
     "videoAlt": "Vain, a heavily armed Knight of Death, poised for battle",
     "videoCaption": "Vain — Knight of Death and hunter of the world’s Shards.",
@@ -3797,7 +3791,7 @@ const questEventConsequences = {
 };
 
 const questPlayerAdditions = [
-  { title: "Alyhotep bin Baladin", meta: "Player character · quest-RP", article: "people-directory", image: "assets/archive/alyhotep-portrait.jpg", aliases: ["Alyhotep", "Aly"], summary: "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world." },
+  { title: "Alyhotep bin Baladin", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world." },
   { title: "Quoth", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer whose long quest record includes Hin expeditions, disappearances, rescues, and later regional journeys." },
   { title: "Vaemyr", meta: "Diplomat and consequence-minded adventurer", article: "vaemyr", summary: "Tests what care demands, then commits fully to the people he chooses—especially Wren and his pana Olokun." },
   { title: "Krone", meta: "Giant-blooded vanguard · player character", article: "krone", image: "assets/archive/krone-portrait.webp", summary: "A joyous front-line protector whose primordial strength and loyalty carry him from Pristinia and Gael into the battle against Wrath." },
@@ -3810,8 +3804,8 @@ const questPlayerAdditions = [
   { title: "Oya", meta: "Player character · quest-RP", article: "people-directory", summary: "A frequently played adventurer whose later campaign record crosses expeditions and community scenes." },
   { title: "Willow", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring Pristinia adventurer tied to harvest defense, Hin expeditions, festivals, and later journeys." },
   { title: "Leo", meta: "Player character · quest-RP", article: "people-directory", summary: "An explorer active in the sector dungeon, quarry mission, Rehevä crisis, and early Delerium investigations." },
-  { title: "Cobble", meta: "Player character · quest-RP", article: "people-directory", image: "assets/archive/cobble-portrait.png", summary: "An early Pristinia defender, militia trainer, ruin explorer, and witness to the town’s first hidden threats." },
-  { title: "Bitoshi Nakamoto", meta: "Player character · quest-RP", article: "people-directory", image: "assets/archive/bitoshi-nakamoto-portrait.jpg", aliases: ["Bitoshi"], summary: "An early adventurer present in The Before, the mountain pass, Gael, and the expeditions surrounding Jiangshi’s return." },
+  { title: "Cobble", meta: "Player character · quest-RP", article: "people-directory", summary: "An early Pristinia defender, militia trainer, ruin explorer, and witness to the town’s first hidden threats." },
+  { title: "Bitoshi Nakamoto", meta: "Player character · quest-RP", article: "people-directory", summary: "An early adventurer present in The Before, the mountain pass, Gael, and the expeditions surrounding Jiangshi’s return." },
   { title: "Fulmin", meta: "Player character · quest-RP", article: "people-directory", summary: "A repeatedly controlled adventurer with a substantial later-archive presence." },
   { title: "Empty", meta: "Player character · quest-RP", article: "people-directory", summary: "A player-controlled explorer involved in the sector dungeon, Delerium sites, and Pristinia’s early contamination crisis." },
   { title: "Elysian ‘Eli’ Voss", meta: "Player character · quest-RP", article: "people-directory", summary: "A musician-adventurer active in Pristinia’s defense, festivals, and late-2024 expeditions." },
@@ -7125,11 +7119,6 @@ const archiveIndex = {
       "title": "Alyhotep bin Baladin",
       "meta": "Player character · quest-RP",
       "article": "people-directory",
-      "image": "assets/archive/alyhotep-portrait.jpg",
-      "aliases": [
-        "Alyhotep",
-        "Aly"
-      ],
       "summary": "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world."
     },
     {
@@ -7210,15 +7199,12 @@ const archiveIndex = {
       "title": "Cobble",
       "meta": "Player character · quest-RP",
       "article": "people-directory",
-      "image": "assets/archive/cobble-portrait.png",
       "summary": "An early Pristinia defender, militia trainer, ruin explorer, and witness to the town’s first hidden threats."
     },
     {
       "title": "Bitoshi Nakamoto",
       "meta": "Player character · quest-RP",
       "article": "people-directory",
-      "image": "assets/archive/bitoshi-nakamoto-portrait.jpg",
-      "aliases": ["Bitoshi"],
       "summary": "An early adventurer present in The Before, the mountain pass, Gael, and the expeditions surrounding Jiangshi’s return."
     },
     {
@@ -7400,8 +7386,6 @@ const archiveIndex = {
       "title": "Akarian",
       "meta": "Guardian of Gael",
       "article": "akarian",
-      "image": "assets/characters/akarian.png",
-      "video": "assets/archive/akarian.mp4",
       "summary": "A practical warrior remembered as the Guardian of a wounded region in recovery."
     },
     {
@@ -7684,23 +7668,18 @@ const archiveIndex = {
       "title": "Aurélia / Night",
       "meta": "Magic Academy student",
       "article": "people-directory",
-      "image": "assets/archive/aurelia-portrait.jpg",
-      "aliases": ["Aurelia", "Night"],
       "summary": "A student by September 2026 whose fuller chronology still needs primary-source recovery."
     },
     {
       "title": "Casimir",
       "meta": "Procedural thinker",
       "article": "casimir-alioth",
-      "image": "assets/archive/casimir-portrait.jpg",
       "summary": "Tests constraints, questions, silence, and institutional rules rather than trying to overpower them."
     },
     {
       "title": "Di’Trillio",
       "meta": "Seeker · contamination-sensitive explorer",
       "article": "cave-company",
-      "image": "assets/archive/ditrillio-portrait.jpg",
-      "aliases": ["Di'trillio", "Ditrillio"],
       "summary": "Reads the contaminated corpse and nearby crystals differently, then argues that the cave should be cleared or collapsed."
     },
     {
@@ -7762,8 +7741,7 @@ const archiveIndex = {
       "title": "Vain",
       "meta": "Knight of Death · Shard hunter",
       "article": "vain",
-      "summary": "Death’s most trusted Knight according to Aionia, hunting Shards for the Wyrm and seeking divine grace.",
-      "video": "assets/archive/vain-knight-of-death.mp4"
+      "summary": "Death’s most trusted Knight according to Aionia, hunting Shards for the Wyrm and seeking divine grace."
     },
     {
       "title": "High Lord Bowene",
@@ -7807,8 +7785,7 @@ const archiveIndex = {
       "title": "Roderick / Wrath",
       "meta": "Knight I of Death",
       "article": "roderick-wrath",
-      "summary": "A duke and Knight whose history reaches the players in consequential fragments.",
-      "image": "assets/archive/wrath.gif"
+      "summary": "A duke and Knight whose history reaches the players in consequential fragments."
     },
     {
       "title": "Serra",
@@ -8917,8 +8894,6 @@ const archiveIndex = {
         "Shining Shores",
         "Shining Shores of Fein Uaill"
       ],
-      "video": "shining-shores.m4v",
-      "image": "assets/archive/shining-shores-alternate.webp",
       "level": "site"
     },
     {
@@ -10642,6 +10617,26 @@ const subchannelMap = {
 };
 
 const byId = new Map(articles.map(article => [article.id, article]));
+
+function mergeMedia(record, media) {
+  if (!record || !media) return;
+  const { aliases = [], ...fields } = media;
+  Object.assign(record, fields);
+  if (aliases.length) record.aliases = [...new Set([...(record.aliases || []), ...aliases])];
+}
+
+function applyMediaCatalog(catalog = window.FENUMION_MEDIA || {}) {
+  const people = [...questPlayerAdditions, ...archiveIndex.characters, ...archiveIndex.npcs];
+  Object.entries(catalog.characters || {}).forEach(([title, media]) => {
+    people.filter(person => person.title === title).forEach(person => mergeMedia(person, media));
+  });
+  Object.entries(catalog.locations || {}).forEach(([title, media]) => {
+    archiveIndex.islands.filter(place => place.title === title).forEach(place => mergeMedia(place, media));
+  });
+  Object.entries(catalog.articles || {}).forEach(([id, media]) => mergeMedia(byId.get(id), media));
+}
+
+applyMediaCatalog();
 const restrictedArticleIds = new Set([
   "cosmology-guide",
   "great-fracture",

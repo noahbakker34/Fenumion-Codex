@@ -7681,6 +7681,8 @@ const archiveIndex = {
       "title": "Aurélia / Night",
       "meta": "Magic Academy student",
       "article": "people-directory",
+      "image": "assets/archive/aurelia-portrait.jpg",
+      "aliases": ["Aurelia", "Night"],
       "summary": "A student by September 2026 whose fuller chronology still needs primary-source recovery."
     },
     {

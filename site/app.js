@@ -102,6 +102,14 @@ const articles = [
     "image": "assets/archive/fein-uaill.jpeg",
     "imageAlt": "Annotated map of Fein Uaill",
     "imageCaption": "Fein Uaill — regional map preserved in the archive.",
+    "gallery": [
+      {
+        "image": "assets/archive/shining-shores-alternate.webp",
+        "alt": "White fortresses and towers rising along the shining coastal cliffs of Fein Uaill",
+        "title": "The coast of Fein Uaill",
+        "caption": "An alternate visual record of the white cliffside fortresses along the Shining Shores."
+      }
+    ],
     "mapId": "fein-uaill",
     "mapLinkLabel": "Explore the interactive Fein Uaill map",
     "dek": "The wider Zarathian region: cities, estates, sacred sites, walls, libraries, and memorial landscapes gathered around a mortal claim to greatness.",
@@ -118,6 +126,39 @@ const articles = [
       "Named sites": "16 recovered sublocations"
     },
     "body": "<p>Fein Uaill is the larger region that contains Zarathis and its surrounding network of cities and landmarks. Zarathis is one developed center within this land—not a label for the whole island. The supplied map and location directory preserve settlements, fortifications, estates, libraries, forests, shores, tombs, and sites of divine catastrophe.</p>\n      <h2 id=\"centers\">Centers and civic places</h2>\n      <p><strong>Zarathis</strong> is the best-developed cultural center in the record. <a href=\"#ciaranach\"><strong>Ciaránach</strong></a> is a sacred city whose oldest divine history remains protected in player-safe view. <strong>Caisleán na Brón</strong> appears as a major fortified place; the user’s “Caselean De Broin” and the unaccented “Caislean na Bron” are preserved as search aliases. The Radiant Bazaar, Niriin Estate, and Thalanbor’s Library show a region with civic, private, and scholarly geography.</p>\n      <h2 id=\"boundaries\">Boundaries and wounds</h2>\n      <p>The <a href=\"#shining-shores\">Gates of Aelthor</a>, the city on the Shining Shores, were attacked by Aionia’s heavenly host: civilians died, the city burned, and victory helped propel a later march against the gods. The user confirms <strong>Aelthor</strong> as the proper spelling; “Aethor” in the supplied profile and the older “Arthor” rendering remain searchable source variants. Aelthor is remembered as the first king after the breaking of the world. The Titanwall of Eryndor and the Shard of Fein Uaill remain named defensive or monumental features. Aria’s Tomb belongs in Fein Uaill proper; the archive explicitly corrects the assumption that it lies inside Ciaránach.</p>\n      <h2 id=\"sea-of-dreams\">The Sea of Dreams</h2>\n      <p>Scribonia’s Teleportation Circle offered an escape route through the Sea of Dreams after catastrophe. A later account from Mya says Scribonia was unmade there by a divine or Void relic. The Codex preserves that as an attributed claim rather than omniscient narration.</p>"
+  },
+  {
+    "id": "shard-of-fein-uaill",
+    "title": "The Shard of Fein Uaill",
+    "category": "Places",
+    "type": "Monument and regional landmark",
+    "image": "assets/archive/shard-of-fein-uaill.webp",
+    "imageLayout": "landscape-hero",
+    "imageAlt": "A radiant white tree rising above an immense elven city surrounded by mountains",
+    "imageCaption": "The Shard of Fein Uaill — a monumental landmark at the heart of a luminous cityscape.",
+    "mapId": "fein-uaill",
+    "mapLinkLabel": "Locate the Shard on the interactive Fein Uaill map",
+    "dek": "A monumental named landmark of Fein Uaill, preserved by the regional map and a new visual record while its deeper nature and history remain deliberately unresolved.",
+    "tags": [
+      "Shard of Fein Uaill",
+      "Rem Uaill",
+      "Fein Uaill",
+      "Monument",
+      "Mapped location"
+    ],
+    "facts": {
+      "Region": "Fein Uaill",
+      "Type": "Monument / landmark",
+      "Evidence": "Regional map · location directory · supplied visual",
+      "Aliases": "Shard of Fein Uaill · Rem Uaill",
+      "Public status": "Nature and ancient history unresolved"
+    },
+    "sources": [
+      "Fein Uaill regional map — named position",
+      "Supplied location directory — name and aliases",
+      "User-supplied visual record — The Shard of Fein Uaill, 30 Sep 2026"
+    ],
+    "body": "<p>The Shard of Fein Uaill is a named monumental landmark within <a href=\"#fein-uaill\">Fein Uaill</a>. The regional map places it among the land’s major civic and defensive features, while the supplied visual record depicts a radiant white tree towering over an immense city framed by mountains and water.</p>\n      <p>The image establishes the Shard’s intended scale and visual identity, but it does not by itself settle whether the tree is living, constructed, transformed, symbolic, or only one visible part of a larger structure. The Codex therefore treats the cityscape as a visual record and keeps its metaphysical explanation open.</p>\n      <h2 id=\"shard-map\">A landmark large enough to organize a city</h2>\n      <p>The surviving image makes the Shard the landscape’s dominant vertical feature. Streets, towers, gardens, water, and fortifications appear to gather around it, showing how a monumental place can orient civic space even when its government and founding story remain unrecovered.</p>\n      <h2 id=\"shard-public-boundary\">The public boundary</h2>\n      <p>The Shard’s ancient origin, divine significance, powers, custodians, and relationship to the world’s oldest catastrophes are not part of the public record. Those questions belong behind the keeper boundary until players discover them in the campaign.</p>\n      <h2 id=\"shard-open-record\">The open record</h2>\n      <p>The settlement surrounding the Shard, the meaning of the alias Rem Uaill, access to the monument, present-day rites, and its relationship to Zarathis, Ciaránach, and the Shining Shores remain unresolved.</p>"
   },
   {
     "id": "caislean-na-bron",
@@ -308,9 +349,18 @@ const articles = [
     "type": "Coastal region and city shore",
     "video": "shining-shores.m4v",
     "videoType": "video/mp4",
+    "image": "assets/archive/shining-shores-alternate.webp",
     "imageLayout": "landscape-hero",
     "videoAlt": "A moving visual record of the warm coast and cityscape of the Shining Shores in Fein Uaill",
     "videoCaption": "The Shining Shores — user-supplied moving location record, 26 September 2026.",
+    "gallery": [
+      {
+        "image": "assets/archive/shining-shores-alternate.webp",
+        "alt": "White fortresses and towers rising along sunlit coastal cliffs above the Shining Shores",
+        "title": "White fortresses above the Shining Shores",
+        "caption": "An alternate view of Fein Uaill’s luminous coastal architecture."
+      }
+    ],
     "dek": "The warm coast of Fein Uaill and the Gates of Aelthor: white streets, busy markets, soaring towers, sea arrivals, and quieter conversations at sunset.",
     "tags": [
       "The Shining Shores",
@@ -335,7 +385,8 @@ const articles = [
       "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
       "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
       "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
-      "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026"
+      "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+      "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
     ],
     "body": "<p>The Shining Shores are a coastal region of Fein Uaill containing the <strong>Gates of Aelthor</strong>, a major city reached by sea. Their recovered history joins two scales of place: white streets, markets, and towers large enough to announce a civilization, and warm sand quiet enough for rest, friendship, and difficult political conversation.</p>\n      <div class=\"callout gold\"><p><strong>Evidence boundary:</strong> this source establishes the city, shore, sea access, visual character, namesake, and several visits. It does not establish the population, exact age, current ruler, full extent of the coast, whether Aelthor founded the city, or whether every arrival in Fein Uaill passes through it.</p></div>\n      <h2 id=\"gates-of-aelthor\">The Gates of Aelthor</h2>\n      <p>Tarwen of the Silver Star introduces the Gates as “our city on the shining shore.” The city’s white streets, bustling markets, and soaring towers immediately impress Elenia and Olokun. The account confirms a beautiful and active coastal city without converting that reaction into claims about its size, government, or wealth.</p>\n      <div class=\"quote\">This is our city on the shining shore. We call it the Gates of Aelthor, after our first king after the breaking of the world.<cite>Tarwen of the Silver Star</cite></div>\n      <h2 id=\"aelthor-name\">Aelthor and the breaking of the world</h2>\n      <p>Tarwen identifies Aelthor as Fein Uaill’s first king after an event remembered as the <strong>breaking of the world</strong>. The name turns the city into a civic memorial: every use recalls political continuity after catastrophe.</p>\n      <p>The source does not explain the breaking or state that Aelthor founded the city. Its wording may invite comparison with the Great Fracture, but the Codex does not identify the two events without direct evidence.</p>\n      <h2 id=\"name-variants\">Aelthor, Aethor, and Arthor</h2>\n      <p>The user confirms <strong>Aelthor</strong> as the proper spelling. The supplied profile’s “Aethor” rendering and the older “Arthor” variant remain searchable aliases, preserving the textual history without elevating either over the corrected form.</p>\n      <h2 id=\"shore-arrivals\">Arrivals by sea</h2>\n      <p>On 10 January 2025, Elenia, Olokun, Draygar, Adelia, Scribonia, Eugene, Krone, and others reach the city. The Writer closes the arrival with white towers, grand shops, and sprawling civilization: “Welcome. To the Shining Shores.” Eldin Stormheart later rests on the warm sand beneath the setting sun, and Ithilrûnë Ailinor arrives by ship after him. Together these scenes establish sea access and multiple arrivals without making this the region’s only port.</p>\n      <h2 id=\"aelthor-attack\">15 October 2025 · the Heavenly Host</h2>\n      <p>The Gates fall silent as Aionia’s Heavenly Host approaches beneath a cloud during an eclipse. Ships move downriver toward the sea, waves strike the walls, and radiant clouds swallow the red sky. Magnus, Adelia, Elenia, Scribonia, Olokun, Aria, and others assemble for the defense. The battle’s exact casualty sequence still requires a dedicated pass, but the transcript fixes the attack to 15 October 2025 and confirms the coast as a battlefield rather than only a place of arrival and reflection.</p>\n      <h2 id=\"shore-gathering\">A shore for difficult conversation</h2>\n      <p>The coast is not merely an approach to the city. Elenia, Adelia, and Olokun later gather there while discussing Scribonia, Fein Uaill’s factions, the conflict with the dragons, and possible future diplomacy. The city’s public splendor gives way to a quieter social landscape where people can consider how they will move through the region rather than simply admire it.</p>\n      <h2 id=\"shore-exile\">22 December 2025 · departure into exile</h2>\n      <p>After Bowene delivers Ciaránach’s verdict, Elenia, Olokun, and Aravil are told to meet at the Shining Shores before sunset. The coast becomes the threshold between judgment and the Babel-Ashur campaign: an escort point, a farewell site, and the last place in Fein Uaill before an exile intended to remain revisable rather than permanent.</p>\n      <h2 id=\"associated-people\">People in the recovered record</h2>\n      <ul>\n        <li><strong>Tarwen of the Silver Star</strong> introduces the city and preserves the explanation of its name.</li>\n        <li><strong>Elenia and Olokun</strong> react to the city’s beauty and later meet along the shore.</li>\n        <li><strong>Adelia</strong> joins the shoreline conversation about factions, dragons, Scribonia, and diplomacy.</li>\n        <li><strong>Eldin Stormheart</strong> rests on the warm sand after arriving in Fein Uaill.</li>\n        <li><strong>Ithilrûnë Ailinor</strong> arrives by ship while seeking the mysterious land and greater power.</li>\n      </ul>\n      <h2 id=\"shining-shores-open-record\">The open record</h2>\n      <p>The Gates’ population, founding, exact age, present ruler, civic structure, full battle losses, and relationship to other Fein Uaill cities remain unrecovered. The full geographic extent of the Shining Shores, Aelthor’s biography, and the identity of the “breaking of the world” also remain open.</p>"
   },
@@ -402,6 +453,43 @@ const articles = [
       "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026"
     ],
     "body": "<p>Gael’s map communicates emptiness before it communicates settlement. The Citadel of Sorrow, Mage’s Ruin, Plains of Trial, Vysaeth’s Tomb, Tower of Gael, and Underwater Temple stand across a landscape marked by catastrophe. Against that scale, Hope is tiny and green: a physical argument that life has established a beachhead in a dead or brutal land.</p>\n      <h2 id=\"gael-learned-geography\">Danger becomes remembered geography</h2>\n      <p>On 19 September 2024, a failed group navigation effort carried travelers into a quarter-mile field of gas geysers and salt-preserved bones. Going around risked night travel; crossing meant accepting the toxic ground directly. When another journey returned near the same field on 20 October, Saray recognized it, the party debated safer routes, Adelia tried to collect the yellow material, and Scribonia studied the geothermal rhythm. The terrain had not reset between quests. Prior experience changed what the next party could attempt.</p>\n      <h2 id=\"discovery\">Discovery and Death’s victory · June 2024</h2>\n      <p>Nienna’s expedition reached Gael only after acquiring a ship and crew, encountering an island-sized moving turtle, finding a seed of the Great Tree, and learning that Death’s dragons haunted the Void. Titan’s Watch was the last safe land under the Eye. Its ruined Titan statues, decayed cathedral, and lifeless terrain showed what happened when Death defeated a place. The exact earlier dates in that expedition remain unresolved.</p>\n      <p>Nienna also knew of a supposedly safer Void route that fed unwilling souls to its inhabitants. The source establishes her testimony about one method—not that every historical crossing used it.</p>\n      <h2 id=\"recovery\">Liberation and early restoration · late 2024–2025</h2>\n      <p>Gael was liberated from Wrath around late 2024, though fiendish stragglers remained on the Plains. Gartina’s statement—“Gael is free of Wrath’s taint. What was lost can begin to grow anew.”—defines the island’s present tense. It is wounded, but unlike a truly dead island, it can recover. Akarian is named as Guardian of Gael.</p>\n      <p>By February 24, 2025, <strong>Hope and Stake already existed</strong>, and Shadowangel Forest was new enough to require exploration. Gartina said she helped bring the changed terrain into existence. Adelia’s later 2026 transformation therefore expanded a restoration already underway; it did not begin life in an otherwise unchanged wasteland.</p>\n      <h2 id=\"settlement\">Refugees and settlement</h2>\n      <p>Refugees arrived aboard a ship that crashed near Crustacean Cove. Around the Tower they lived mainly in huts and shacks, supplemented by occasional magical shelter. On February 24, 2025, Gartina and Dale moved from emergency care toward permanent planning: soup and conversation first, then a proposal to salvage the wreck for a longhouse, scout safer Plains for material, and—critically—ask the refugees what they wanted.</p>\n      <p>The problem did not vanish when life returned. Permanent infrastructure remained incomplete into 2026, and some people moved toward the developing frontier of Verdelune.</p>\n      <h2 id=\"developing-society\">A developing society · 2026</h2>\n      <p>By September 19, the Veilguard operated in Gael; husk hunts and a cult threat to one of Gael’s shards showed that danger persisted. The <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a> had created an open-air market with areas for different skills, evidence of organized commerce in a region Marius remembered as having almost no economy. At least one trusted network could also transport known people safely to Gael from other islands—a striking contrast with the lethal Void journey of 2024, though the exact mechanism is unknown.</p>\n      <p>Thorn’s history preserves an unresolved causal chain: she died during a Gael husk hunt, her team left her body, a cult later attempted to use her in a shard-destruction ritual, and she was alive in Prima by September 2026. The archive does not yet establish how she returned or how the ritual ended.</p>\n      <h2 id=\"gael-departure-routes\">A departure point for newer roads</h2>\n      <p>By 7 September 2026, parties gathered on Gael’s coast for the many-hour journey through Verdelune toward <a href=\"#larkhollow\">Larkhollow</a>. Gael had become familiar enough to serve as a staging ground while remaining unfinished in its own right: known routes and remembered hazards coexist with large regions that have never been meaningfully explored.</p>\n      <h2 id=\"trials-and-ruins\">Trials, ruins, and testimony</h2>\n      <p>Sildithas died in the Plains of Trial and was resurrected hours later, remembering that the place “took my measure, and I failed.” Mage’s Ruin is where the Red Lady, Endora, first appears in the recovered record; the scene does not establish her as hostile. The Coast, Library of Nuru, Sanctum of the Wise, Shadow Angel Forest, Crustacean Cove, Cathedral, Road, and other named sites expand Gael beyond its principal map labels.</p>\n      <h2 id=\"gael-open-record\">The open record</h2>\n      <p>Gael’s unexplored regions, the permanence of wartime and supernatural damage, the origin of its environmental hazards, and the durability of its settlements remain uncertain. The keeper vault preserves additional divine and cosmological questions whose answers should not be visible in the public history.</p>"
+  },
+  {
+    "id": "tower-of-gael",
+    "title": "The Tower of Gael",
+    "category": "Places",
+    "type": "Coastal tower and refugee settlement",
+    "image": "assets/archive/tower-of-gael.webp",
+    "imageLayout": "portrait-hero",
+    "imageAlt": "A tall stone tower and fortress standing on a steep, snow-dusted coastal mountain in Gael",
+    "imageCaption": "The Tower of Gael — a principal landmark and gathering place in the recovering region.",
+    "mapId": "gael",
+    "mapLinkLabel": "Locate the Tower on the interactive Gael map",
+    "dek": "A principal Gael landmark whose surrounding huts, shelters, and salvaged plans became one of the region’s first practical answers to displacement after Wrath.",
+    "tags": [
+      "Tower of Gael",
+      "Gael",
+      "Refugees",
+      "Gartina",
+      "Dale",
+      "Moirah"
+    ],
+    "facts": {
+      "Region": "Gael",
+      "Type": "Tower and settlement anchor",
+      "Mapped": "Gael regional map",
+      "Refugee community": "Established by 24 Feb 2025",
+      "Known visitors": "Gartina · Dale · Moirah · Jiangshi",
+      "Current status": "Recovery and permanent housing incomplete"
+    },
+    "sources": [
+      "Gael regional map and screenshot directory — location confirmation",
+      "Complete quest-RP export, 5 Aug 2024 — Moirah returns with Jiangshi at a cost",
+      "Gael roleplay, 24 Feb 2025 — refugees, soup, wreck salvage, and longhouse planning",
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — regional recovery synthesis",
+      "User-supplied Tower of Gael visual record, 30 Sep 2026"
+    ],
+    "body": "<p>The Tower of Gael is one of the region’s principal mapped landmarks. Its stone height survives against a landscape emptied by catastrophe, but its modern importance comes from the people who gather around it. Refugees live in huts, shacks, and occasional magical shelters nearby, turning the Tower’s surroundings into a settlement before anyone can claim that recovery is complete.</p>\n      <p>The supplied visual record presents a fortress-like tower above a steep coastal approach. That image establishes the intended severity and isolation of the landmark; it does not prove the builder, age, original military purpose, or present government. The Codex keeps those questions separate from the modern community documented around it.</p>\n      <h2 id=\"tower-return\">5 August 2024 · Moirah and Jiangshi</h2>\n      <p>Moirah’s return with Jiangshi reaches the Tower at personal cost. The event ties the landmark to resurrection, aftermath, and the difficult work of bringing someone home rather than to conquest alone. The exact mechanism and full price belong in their character histories; the Tower’s role is the place where return becomes part of Gael’s lived record.</p>\n      <h2 id=\"tower-refugees\">24 February 2025 · a settlement around the Tower</h2>\n      <p>Refugees whose ship crashed near Crustacean Cove were living around the Tower by February 2025. Gartina and Dale began with food and conversation, offering soup before imposing a plan. They then considered salvaging the wreck for a longhouse and scouting safer parts of the Plains for building material.</p>\n      <p>The sequence matters. Shelter is not treated as an abstract construction project imposed on displaced people. The recovered plan explicitly includes asking the refugees what they want, making consent and consultation part of Gael’s reconstruction history.</p>\n      <h2 id=\"tower-recovery\">A landmark made civic</h2>\n      <p>The Tower’s earlier monumental purpose remains unknown, but the settlement around it gives the structure a modern civic function: orientation point, sheltering center, meeting place, and material anchor for a community surviving amid a vast wounded region. Gael’s recovery becomes visible not because the Tower is restored to imagined former glory, but because people build ordinary life in its shadow.</p>\n      <h2 id=\"tower-open-record\">The open record</h2>\n      <p>The Tower’s builders, original name, age, interior, defenses, custodians, and relationship to Gael’s older monuments remain unrecovered. The number of refugees, completion of the longhouse, later population, and present condition of the settlement also require newer scene evidence.</p>"
   },
   {
     "id": "the-void",
@@ -2309,6 +2397,75 @@ const articles = [
     "body": "<p>Pappy is remembered through plainspoken care, hot springs, and a fundamentally good disposition. That simplicity does not keep him outside the setting’s hardest moral problems.</p>\n      <h2 id=\"rift\">The Rift ambush</h2>\n      <p>Pappy joins the Rift alongside characters with very different moral commitments and is ambushed. Adelia senses betrayal and Gates him out. The event later becomes a dispute about what Adelia could know in character and what deeper mechanics permitted.</p>\n      <h2 id=\"separate-layers\">Character and governance</h2>\n      <p>The physical rescue, the characters’ knowledge, the mechanical ruling, and the later out-of-character dispute are separate layers of evidence. The Codex preserves Pappy’s danger and escape without using sympathy to settle the governance question.</p>"
   },
   {
+    "id": "quake",
+    "title": "Quake",
+    "category": "People",
+    "type": "Warrior-mage; defender of Pristinia",
+    "image": "assets/archive/quake-portrait.webp",
+    "imageLayout": "portrait-hero",
+    "imageAlt": "Quake, a horned tiefling warrior-mage in ornate gold-trimmed armor carrying a staff",
+    "imageCaption": "Quake — warrior-mage, first-wave adventurer, and defender of Pristinia.",
+    "dek": "One of Pristinia’s earliest Called adventurers, Quake turns magical force toward scouting, rescue, fortification, and the stubborn defense of a settlement still learning how to survive.",
+    "tags": [
+      "Quake",
+      "Player character",
+      "Pristinia",
+      "Elenia",
+      "Nienna",
+      "Gartina"
+    ],
+    "facts": {
+      "Role": "Warrior-mage and settlement defender",
+      "Arrival": "4 March 2024 · first recovered company",
+      "Signature evidence": "Corrupted-radiant staff",
+      "Major bond": "Saved Elenia and Nienna before Elenia returned that protection",
+      "Civic work": "Rescue · militia · walls · defense",
+      "Player status": "Player character"
+    },
+    "sources": [
+      "Complete Quest RP export — March–May 2024 expeditions, civic work, and defenses",
+      "Fenumion Codex Master Timeline — Quake’s arrival, rescue work, ritual disruption, and Death Ward",
+      "CHARACTER_BIBLE.md — Elenia, Nienna, and the returned debt of protection",
+      "Fenumion Codex Character Priority Roster — recurring footprint and profile priority",
+      "User-supplied Quake visual record, 30 Sep 2026"
+    ],
+    "body": "<p>Quake belongs to the first recovered company of Called adventurers who arrives in Prima on 4 March 2024. The early record does not isolate Quake from the settlement’s collective labor: scouting the roads, searching for missing people, training volunteers, raising defenses, and answering threats before Pristinia has the institutions to survive them alone.</p>\n      <p>That breadth is the clearest guide to Quake’s personality. Quake repeatedly enters work whose reward is communal stability rather than personal revelation. Courage appears through return and reliability—going back beyond the gate, standing with an undermanned defense, and carrying dangerous magic into situations where incomplete knowledge cannot be an excuse for inaction.</p>\n      <p>Quake’s strongest recovered relationships are built through protection remembered over time. Quake saves Elenia and Nienna in an earlier danger. On 18 July 2024, Elenia answers that history by placing Death Ward on Quake and naming the reason. The exchange turns rescue into continuity: a life saved in one crisis becomes the protection available in the next.</p>\n      <h2 id=\"first-wave\">The first wave · March 2024</h2>\n      <p>Within two days of arrival, Quake joins the reconnaissance west of Pristinia that spots something of island-like scale moving in the distance. Quake then helps answer the Weary Traveler’s request to find missing friends and participates as Melian divides the newcomers among militia planning, medical work, material searches, and surveys of usable land.</p>\n      <p>This sequence places Quake inside both exploration and government at the moment each is improvised. Adventuring is not separate from settlement-building; the same people who investigate the unknown must decide how a town trains defenders, treats injuries, and uses land.</p>\n      <h2 id=\"pristinia-defense\">Building and defending Pristinia</h2>\n      <p>Quake helps drill Pristinia’s volunteers, responds to the dying messenger from Eovar, and works beside the crews raising the treated-log palisade, staked moat, and first watchtowers. Quake also participates in the accord with Cigal’s wolves, choosing negotiated protection of the farms over extermination.</p>\n      <p>On 27 April, with Rolen gone and the Travelers absent, Quake stands among the remaining adventurers and townsfolk who finish Pristinia’s defenses and repel an attack. The achievement is not a solitary victory. Its importance is precisely that Quake remains when the settlement cannot depend on its usual allies.</p>\n      <h2 id=\"staff-and-ritual\">The staff and the coastal ritual</h2>\n      <p>On 18 May, Quake’s corrupted-radiant staff points the company toward rival beacons at a reality-splitting ritual on Prima’s coast. The party stops the ritual, but its last-minute destruction buries most of the evidence. The staff is therefore both instrument and unresolved clue: useful enough to locate a threat, strange enough that its own history still requires recovery.</p>\n      <h2 id=\"quake-relationships\">Relationships carried through action</h2>\n      <ul>\n        <li><strong>Elenia and Nienna:</strong> Quake’s earlier rescue becomes Elenia’s reason for using Death Ward, preserving a debt as active care rather than sentiment.</li>\n        <li><strong>Gartina:</strong> the regional map confirms a shared Gartina and Quake Estate, though the personal and civic history behind the name remains unrecovered.</li>\n        <li><strong>Pristinia:</strong> scouting, rescue, militia work, construction, negotiation, and defense make the settlement itself one of Quake’s longest relationships.</li>\n        <li><strong>Wrath:</strong> when Wrath offers grieving adventurers a path through Death after Dale’s fall, Quake refuses before the party fully understands the bargain’s danger.</li>\n      </ul>\n      <h2 id=\"open-record\">The open record</h2>\n      <p>Quake’s life before the Calling, the origin and full properties of the staff, the exact earlier rescue of Elenia and Nienna, the history of the estate shared with Gartina, later chronology after the 2024 campaigns, and the details of Quake’s magical training remain incomplete. The surviving record establishes a major early footprint without inventing the missing private biography.</p>"
+  },
+  {
+    "id": "krone",
+    "title": "Krone",
+    "category": "People",
+    "type": "Giant-blooded vanguard; player character",
+    "image": "assets/archive/krone-portrait.webp",
+    "imageLayout": "portrait-hero",
+    "imageAlt": "Krone, a massive vermilion-skinned giant-blooded warrior with a dark beard under vivid blue and magenta light",
+    "imageCaption": "Krone — giant-blooded adventurer, front-line protector, and sworn brother to Draygar.",
+    "dek": "A joyful force of appetite, loyalty, and primordial strength whose famous urge to smash is ultimately governed by a simpler promise: protect the people he calls family.",
+    "tags": [
+      "Krone",
+      "Player character",
+      "Draygar WarSmash",
+      "Gael",
+      "Wrath",
+      "Shining Shores"
+    ],
+    "facts": {
+      "Role": "Front-line warrior and protector",
+      "Player status": "Player character",
+      "Signature": "Maul · giant growth · primordial energy",
+      "Central bond": "Draygar WarSmash · sworn brother",
+      "Major campaign": "The battle against Wrath",
+      "Recovered span": "29 Aug 2024 – 28 Jul 2025"
+    },
+    "sources": [
+      "Complete quest-RP export — Krone-authored scenes from 29 Aug 2024 through 28 Jul 2025",
+      "Fenumion Codex timeline — Gael, Wrath, and Shining Shores events",
+      "Wren_Codex_Character_Profile.md — party composition and emotional record during the Wrath campaign",
+      "User-supplied Krone portrait, 30 Sep 2026"
+    ],
+    "body": "<p>Krone’s first recovered scenes make him instantly legible: ale, enormous appetite, a maul, uncomplicated enthusiasm, and the recurring question of whether the current problem may be smashed. The comedy is genuine, but it is not the whole person. When tainted wildlife threatens others, he explains that corruption once touched his home village. When Doll needs treatment, he ends the expedition and carries her back. When new companions are endangered, he declares that he will smash to protect his new friends.</p>\n      <p>His personality is direct rather than empty. Krone often needs others to explain an unfamiliar place or plan, yet he can stop himself when force would endanger the party. During the campaign against Wrath, he resists the urge to attack a more tempting enemy because survival demands that he hold the front. He worries that he may not be strong enough, admits that he may have failed, and accepts help from the friends who make failure survivable.</p>\n      <p>Krone’s relationships turn a changing adventuring company into family. Draygar is his brother in nearly every sense the archive can observe: they eat, joke, fight, compete, plan, and protect one another. Squiddy’s rescue ends with Krone realizing that the people around him are not merely friends but family. Wren, Gartina, Dale, Saray, Elenia, Arjahn, and the rest of the Wrath company become people he is willing to stand before even when he does not understand the cosmic bargain unfolding around them.</p>\n      <h2 id=\"krone-first-expeditions\">Taint, the village, and the first expeditions</h2>\n      <p>On 29 August 2024, Krone joins an investigation into tainted wildlife after telling Myndl’lay that a similar corruption once touched his home village. His attack on an affected creature drives purple energy through his maul and into his body, leaving him babbling until the effect passes. Rather than push deeper after Doll is hurt, he calls for treatment and carries her toward the settlement.</p>\n      <p>The following weeks place him in forests, ruins, Gael-bound expeditions, civic festivals, rescues, and dangerous crossings. His power is visibly giant-blooded: he can grow, throw tremendous weight, carry companions, and channel fiery or primordial energy through his maul. Yet the meaningful pattern is not how hard he hits. It is how quickly he turns that strength toward the person beside him.</p>\n      <h2 id=\"krone-draygar\">Brotherhood with Draygar</h2>\n      <p>Draygar repeatedly calls Krone brother, and Krone answers in kind. Their partnership is affectionate and practical: each notices when the other is missing, hurt, or overwhelmed; each makes room for the other’s strengths; and their shared bravado gives frightened companions something loud and reliable to stand behind.</p>\n      <p>During the November 2024 battles, Krone breaks formation to help Draygar, carries him when he falls, and insists that his brother will not die first. The relationship sharpens Krone’s priorities. His rage may be indiscriminate at its edge, but his loyalty is specific enough to pull him across a battlefield.</p>\n      <h2 id=\"krone-wrath\">The campaign against Wrath</h2>\n      <p>Krone joins Dale, Gartina, Adelia, Bitoshi, Elenia, Arjahn, Scribonia, Quake, Draygar, Saray, Vaemyr, Wren, and others in the catastrophe surrounding Wrath. He holds the front, coordinates targets in his own blunt language, and restrains himself when striking the wrong enemy would leave the company exposed.</p>\n      <p>After the worst losses, his certainty breaks. Krone asks others to stay, turns to Gartina in tears because he does not know what to do, and finally urges the company to go home and make a new plan. That retreat is not cowardice. It is the moment his protective instinct becomes larger than the need to prove strength through one more attack.</p>\n      <h2 id=\"krone-wider-world\">Beyond Gael</h2>\n      <p>Krone later reaches the Shining Shores with Elenia, Olokun, Draygar, Adelia, Scribonia, and Eugene on 10 January 2025. The journey places him within Fein Uaill’s wider civic world after months defined by Pristinia, The Before, Gael, and Wrath. By July he remains active in major battles, surviving necrotic force through will and giant-blooded resilience even when rage is turned against allies.</p>\n      <h2 id=\"krone-open-record\">The open record</h2>\n      <p>Krone’s home village, family history, the exact nature of his primordial connection, how he and Draygar became brothers, and the consequences of the July 2025 battles remain incompletely recovered. The archive supports his giant-blooded strength and protective history without assigning a narrower ancestry or class that the surviving scenes do not explicitly establish.</p>"
+  },
+  {
     "id": "st-anky",
     "title": "St. Anky",
     "category": "People",
@@ -3643,7 +3800,7 @@ const questPlayerAdditions = [
   { title: "Alyhotep bin Baladin", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world." },
   { title: "Quoth", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer whose long quest record includes Hin expeditions, disappearances, rescues, and later regional journeys." },
   { title: "Vaemyr", meta: "Diplomat and consequence-minded adventurer", article: "vaemyr", summary: "Tests what care demands, then commits fully to the people he chooses—especially Wren and his pana Olokun." },
-  { title: "Krone", meta: "Player character · quest-RP", article: "people-directory", summary: "A frequently played adventurer active in The Before, Gael, Pristinia’s defenses, and the campaign against Wrath." },
+  { title: "Krone", meta: "Giant-blooded vanguard · player character", article: "krone", image: "assets/archive/krone-portrait.webp", summary: "A joyous front-line protector whose primordial strength and loyalty carry him from Pristinia and Gael into the battle against Wrath." },
   { title: "Saylor", meta: "Player character · quest-RP", article: "people-directory", summary: "A priestess and expedition member whose quest history includes the Hin crisis, Voraketh, and repeated rescue attempts." },
   { title: "Navi", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer in late-2024 and 2025 quest arcs, often traveling with Sparrow, Stormy, and Amity." },
   { title: "Loistava", meta: "Player character · quest-RP", article: "people-directory", summary: "An early Pristinia defender, Eovar investigator, voyager, and witness to the doppelganger return." },
@@ -6985,9 +7142,10 @@ const archiveIndex = {
     },
     {
       "title": "Krone",
-      "meta": "Player character · quest-RP",
-      "article": "people-directory",
-      "summary": "A frequently played adventurer active in The Before, Gael, Pristinia’s defenses, and the campaign against Wrath."
+      "meta": "Giant-blooded vanguard · player character",
+      "article": "krone",
+      "image": "assets/archive/krone-portrait.webp",
+      "summary": "A joyous front-line protector whose primordial strength and loyalty carry him from Pristinia and Gael into the battle against Wrath."
     },
     {
       "title": "Saylor",
@@ -7397,9 +7555,10 @@ const archiveIndex = {
     },
     {
       "title": "Quake",
-      "meta": "Character sighting",
-      "article": "roderick-wrath",
-      "summary": "Refuses Wrath’s bargain before its full danger is understood; protected by Elenia’s practiced memory of earlier loss."
+      "meta": "Warrior-mage · defender of Pristinia",
+      "article": "quake",
+      "image": "assets/archive/quake-portrait.webp",
+      "summary": "A first-wave adventurer whose scouting, rescue work, civic labor, and battlefield resolve help turn Pristinia into a defensible home."
     },
     {
       "title": "Saray",
@@ -8391,12 +8550,13 @@ const archiveIndex = {
       "parent": "Gael",
       "type": "tower",
       "meta": "Gael · tower",
-      "article": "gael",
-      "summary": "A principal Gael landmark visible in both the regional map and screenshot directory.",
-      "source": "Map + screenshot",
+      "article": "tower-of-gael",
+      "summary": "A principal Gael landmark and settlement anchor where refugees build ordinary life amid regional recovery.",
+      "source": "Map + scenes + supplied visual",
       "aliases": [
         "The Tower of Gael"
       ],
+      "image": "assets/archive/tower-of-gael.webp",
       "level": "site"
     },
     {
@@ -8675,13 +8835,14 @@ const archiveIndex = {
       "parent": "Fein Uaill",
       "type": "monument / landmark",
       "meta": "Fein Uaill · landmark",
-      "article": "fein-uaill",
-      "summary": "A named regional landmark confirmed by the supplied screenshot directory; the post text itself was deleted.",
-      "source": "Screenshot directory",
+      "article": "shard-of-fein-uaill",
+      "summary": "A monumental regional landmark whose radiant visual identity is preserved while its ancient history remains protected.",
+      "source": "Map + location directory + supplied visual",
       "aliases": [
         "Shard of Fein Uaill",
         "Rem Uaill"
       ],
+      "image": "assets/archive/shard-of-fein-uaill.webp",
       "level": "site"
     },
     {
@@ -8740,6 +8901,7 @@ const archiveIndex = {
         "Shining Shores of Fein Uaill"
       ],
       "video": "shining-shores.m4v",
+      "image": "assets/archive/shining-shores-alternate.webp",
       "level": "site"
     },
     {
@@ -9098,7 +9260,8 @@ const interactiveMaps = [
       {
         "title": "Tower of Gael",
         "x": 81,
-        "y": 69
+        "y": 69,
+        "article": "tower-of-gael"
       },
       {
         "title": "Underwater Temple",
@@ -9135,7 +9298,8 @@ const interactiveMaps = [
       {
         "title": "The Shard of Fein Uaill",
         "x": 17,
-        "y": 69
+        "y": 69,
+        "article": "shard-of-fein-uaill"
       },
       {
         "title": "The Titanwall of Eryndor",
@@ -9377,8 +9541,12 @@ const navigationRegions = [
         ]
       },
       {
-        "title": "Characters N–W",
+        "title": "Characters K–W",
         "items": [
+          {
+            "label": "Krone",
+            "article": "krone"
+          },
           {
             "label": "Lady Severina",
             "article": "lady-severina"
@@ -9402,6 +9570,10 @@ const navigationRegions = [
           {
             "label": "Pappy",
             "article": "pappy"
+          },
+          {
+            "label": "Quake",
+            "article": "quake"
           },
           {
             "label": "Ryvyt",
@@ -9680,6 +9852,10 @@ const navigationRegions = [
             "article": "shining-shores"
           },
           {
+            "label": "The Shard of Fein Uaill",
+            "article": "shard-of-fein-uaill"
+          },
+          {
             "label": "Niriin Estate",
             "article": "niriin-estate"
           },
@@ -9704,6 +9880,10 @@ const navigationRegions = [
             "label": "Gael overview",
             "article": "gael",
             "parent": true
+          },
+          {
+            "label": "The Tower of Gael",
+            "article": "tower-of-gael"
           }
         ]
       },
@@ -9778,6 +9958,7 @@ const fixedArticlePaths = new Map([
   ["pilgrims-hearth", ["Locations", "Prima", "Pristinia", "The Pilgrim’s Hearth"]],
   ["before-survey", ["Locations", "Prima", "The Before Survey"]],
   ["fein-uaill", ["Locations", "Fein Uaill"]],
+  ["shard-of-fein-uaill", ["Locations", "Fein Uaill", "The Shard of Fein Uaill"]],
   ["zarathis", ["Locations", "Fein Uaill", "Zarathis"]],
   ["caislean-na-bron", ["Locations", "Fein Uaill", "Caisleán na Brón"]],
   ["ciaranach", ["Locations", "Fein Uaill", "Ciaránach"]],
@@ -9787,6 +9968,7 @@ const fixedArticlePaths = new Map([
   ["titanwall-eryndor", ["Locations", "Fein Uaill", "The Titanwall of Eryndor"]],
   ["thalanbor-library", ["Locations", "Fein Uaill", "Thalanbor the Boundless Artwright’s Library"]],
   ["gael", ["Locations", "Gael"]],
+  ["tower-of-gael", ["Locations", "Gael", "The Tower of Gael"]],
   ["the-void", ["Locations", "The Void"]],
   ["voraketh", ["Locations", "Voraketh"]],
   ["eovar-harbor", ["Locations", "Eovar Harbor"]],
@@ -9833,6 +10015,45 @@ const subchannelMap = {
       "label": "Relationships in Motion",
       "article": "relationships",
       "summary": "How bonds change through events, asymmetries, choices, and consequences."
+    }
+  ],
+  "quake": [
+    {
+      "label": "Elenia",
+      "article": "elenia",
+      "summary": "Returns Quake’s earlier protection with Death Ward and preserves the reason in words."
+    },
+    {
+      "label": "Nienna",
+      "article": "nienna",
+      "summary": "One of the companions Quake saved before that act became part of Elenia’s later protective memory."
+    },
+    {
+      "label": "Gartina",
+      "article": "gartina",
+      "summary": "Shares a map-confirmed estate with Quake; the fuller history of their connection remains unrecovered."
+    },
+    {
+      "label": "Pristinia",
+      "article": "pristinia",
+      "summary": "The settlement Quake scouts, builds, negotiates for, and repeatedly defends."
+    }
+  ],
+  "krone": [
+    {
+      "label": "Gael",
+      "article": "gael",
+      "summary": "The region where Krone joins the campaign against Wrath and helps carry the company through catastrophe."
+    },
+    {
+      "label": "Wren",
+      "article": "wren",
+      "summary": "A companion Krone asks to remain when grief and disagreement threaten to break the party apart."
+    },
+    {
+      "label": "The Shining Shores",
+      "article": "shining-shores",
+      "summary": "The Fein Uaill coast Krone reaches with the January 2025 company."
     }
   ],
   "living-timeline": [
@@ -10267,6 +10488,23 @@ const subchannelMap = {
       "summary": "Arrives by ship while seeking the mysterious land and greater power."
     }
   ],
+  "shard-of-fein-uaill": [
+    {
+      "label": "Fein Uaill",
+      "article": "fein-uaill",
+      "summary": "The wider region whose map preserves the Shard among its principal landmarks."
+    },
+    {
+      "label": "The Shining Shores",
+      "article": "shining-shores",
+      "summary": "The luminous coast and Gates of Aelthor elsewhere in Fein Uaill."
+    },
+    {
+      "label": "All Fein Uaill places",
+      "article": "visual-archive",
+      "summary": "Explore the region’s cities, monuments, walls, estates, forests, and shores."
+    }
+  ],
   "gael": [
     {
       "label": "The Ale-Chemy Knights",
@@ -10282,6 +10520,33 @@ const subchannelMap = {
       "label": "Larkhollow",
       "article": "larkhollow",
       "summary": "A newer destination reached from Gael’s coast through Verdelune, marked by a ruined tower and a still-young player history."
+    },
+    {
+      "label": "The Tower of Gael",
+      "article": "tower-of-gael",
+      "summary": "The mapped landmark around which refugees began building a more permanent community."
+    }
+  ],
+  "tower-of-gael": [
+    {
+      "label": "Gael",
+      "article": "gael",
+      "summary": "The recovering region containing the Tower, Hope, the Plains of Trial, and other surviving landmarks."
+    },
+    {
+      "label": "Gartina",
+      "article": "gartina",
+      "summary": "Helped turn emergency relief around the Tower into plans made with the refugees."
+    },
+    {
+      "label": "Dale",
+      "article": "dale",
+      "summary": "Joined Gartina in feeding the settlement and considering salvage for a longhouse."
+    },
+    {
+      "label": "Jiangshi",
+      "article": "jiangshi",
+      "summary": "Her costly return with Moirah is attached to the Tower’s recovered history."
     }
   ],
   "the-void": [
@@ -10872,6 +11137,7 @@ function renderArticle(route, pushHash = true) {
   const hero = article.video
     ? `${mapHero}${videoHero}`
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "");
+  const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
   const sourceLedger = article.sources?.length ? `<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} document${article.sources.length === 1 ? "" : "s"} used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
   const subchannels = renderSubchannels(article.id);
   const locationTimeline = renderLocationTimeline(article);
@@ -10916,6 +11182,7 @@ function renderArticle(route, pushHash = true) {
     ${hubSwitcher}
     ${atlasBanner}
     ${hubPage ? "" : hero}
+    ${hubPage ? "" : gallery}
     ${sourceLedger}
     ${subchannels}
     ${locationTimeline}

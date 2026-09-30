@@ -358,12 +358,16 @@ const articles = [
       "Quest": "Wherever We Are Now",
       "Entrance": "Briar wall · 80-foot sinkhole",
       "Findings": "Worked stone · fountain · broken arch · skeletons",
-      "Outcome": "Stirge attack · retreat · survey camp"
+      "Outcome": "Stirge attack · retreat · survey camp",
+      "First recovered signal": "8 Jun 2024",
+      "Local memory": "Recognized by long-time Pristinia residents",
+      "Control": "Incomplete and disputed"
     },
     "sources": [
-      "Complete quest-rp export, candidate session 277, 27 Mar 2026 — Quest: Wherever We Are Now; messages 1487240286638833705 through 1487295545021305003"
+      "Complete quest-rp export, candidate session 277, 27 Mar 2026 — Quest: Wherever We Are Now; messages 1487240286638833705 through 1487295545021305003",
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026"
     ],
-    "body": "<p>The modern survey of <strong>The Before</strong> is public campaign history even though the ruins’ ancient origin remains protected. On 27 March 2026, Pristinian adventurers wait outside town for a Rahuvian scholarly delegation. The expedition is an obligation of the peace agreement that ended the war, making historical investigation part of diplomacy rather than private treasure hunting.</p>\n      <div class=\"callout gold\"><p><strong>Evidence boundary:</strong> this record describes what the expedition observed in 2026. It does not publicly disclose who built the ruins, what destroyed them, or the protected history beneath their contamination.</p></div>\n      <h2 id=\"before-survey-party\">The survey company</h2>\n      <p>Thorn, Camilla, Lady Severina, Saoirse, Miri and the Rahuvian scholars, and other companions approach together. Thorn leads once the delegation arrives. The scholars remain tightly grouped, recording evidence while the adventurers manage threats.</p>\n      <h2 id=\"before-survey-entrance\">A sealed approach</h2>\n      <p>The best-known entrance has changed. Thick briars surround it, cracks in their stems emit a faint purple glow, and Thorn identifies the smell as Delerium. Burning the barrier replaces it with low purple mist. Wind magic can clear only a temporary space, and the haze flows into an eighty-foot sinkhole descending to the cavern.</p>\n      <h2 id=\"before-survey-ruins\">Worked stone under the earth</h2>\n      <p>Below, a northern passage of cracked carved stone opens into a larger chamber. The party observes a ruined fountain, a broken archway, side caverns, humanoid skeletons, and an anguished outstretched statue. The placement of the remains suggests people once ran from something. When approached, the statue collapses into fine purple-hued dust.</p>\n      <h2 id=\"before-survey-swarm\">The western cavern</h2>\n      <p>A growing buzz from the silent western passage becomes hundreds of stirges. The party protects the scholars and retreats to the first cavern, where the delegation raises a fabric barrier and prepares to camp. The quest ends with the survey incomplete: evidence has been secured, but the northern ruins, eastern glow, western threat, and contamination mechanism remain unresolved.</p>\n      <h2 id=\"before-survey-consequence\">What became true</h2>\n      <p>The peace agreement now has material consequences: Rahuvian scholars are physically present in Prima, a known entrance to The Before has changed, and a formal survey has begun. The ruins are not a static historical footnote. Their hazards continue to alter, spread, and demand joint investigation.</p>"
+    "body": "<p>The modern survey of <strong>The Before</strong> is public campaign history even though the ruins’ ancient origin remains protected. On 27 March 2026, Pristinian adventurers wait outside town for a Rahuvian scholarly delegation. The expedition is an obligation of the peace agreement that ended the war, making historical investigation part of diplomacy rather than private treasure hunting.</p>\n      <div class=\"callout gold\"><p><strong>Evidence boundary:</strong> this record describes what the expedition observed in 2026. It does not publicly disclose who built the ruins, what destroyed them, or the protected history beneath their contamination.</p></div>\n      <h2 id=\"before-survey-first-contact\">A feared place before it was an expedition</h2>\n      <p>On 8 June 2024, a strange signal from The Before pierced the air. Long-time Pristinia residents recognized it immediately, reacting with hope, fear, and reluctance to say what it might mean. The adventurers were not discovering a brand-new dungeon; they were entering a place the local population already remembered.</p>\n      <p>Later testimony weakened every simple theory of ownership. Arjahn remembered a wizard warning that he did not control everything in the ruins, naming an Aboleth as one example, and recalled a gargantuan metal creature within the caves. The warning itself may not be wholly trustworthy, but repeated expeditions support the narrower conclusion: no recovered faction can be assumed to control every system, creature, or passage in The Before.</p>\n      <h2 id=\"before-survey-changing-place\">A ruin that changes between visits</h2>\n      <p>Repeated expeditions turned scattered fear into accumulated preparation. Signals could be imitated, creatures could escape with information, caves could collapse, and contamination could persist. By 2026 the best-known entrance had physically changed behind a dense barrier of faintly glowing briars. Player knowledge grew without converting the site into conquered territory.</p>\n      <h2 id=\"before-survey-party\">The survey company</h2>\n      <p>Thorn, Camilla, Lady Severina, Saoirse, Miri and the Rahuvian scholars, and other companions approach together. Thorn leads once the delegation arrives. The scholars remain tightly grouped, recording evidence while the adventurers manage threats.</p>\n      <h2 id=\"before-survey-entrance\">A sealed approach</h2>\n      <p>The best-known entrance has changed. Thick briars surround it, cracks in their stems emit a faint purple glow, and Thorn identifies the smell as Delerium. Burning the barrier replaces it with low purple mist. Wind magic can clear only a temporary space, and the haze flows into an eighty-foot sinkhole descending to the cavern.</p>\n      <h2 id=\"before-survey-ruins\">Worked stone under the earth</h2>\n      <p>Below, a northern passage of cracked carved stone opens into a larger chamber. The party observes a ruined fountain, a broken archway, side caverns, humanoid skeletons, and an anguished outstretched statue. The placement of the remains suggests people once ran from something. When approached, the statue collapses into fine purple-hued dust.</p>\n      <h2 id=\"before-survey-swarm\">The western cavern</h2>\n      <p>A growing buzz from the silent western passage becomes hundreds of stirges. The party protects the scholars and retreats to the first cavern, where the delegation raises a fabric barrier and prepares to camp. The quest ends with the survey incomplete: evidence has been secured, but the northern ruins, eastern glow, western threat, and contamination mechanism remain unresolved.</p>\n      <h2 id=\"before-survey-consequence\">What became true</h2>\n      <p>The peace agreement now has material consequences: Rahuvian scholars are physically present in Prima, a known entrance to The Before has changed, and a formal survey has begun. The ruins are not a static historical footnote. Their hazards continue to alter, spread, and demand joint investigation.</p>\n      <h2 id=\"before-survey-open-record\">Current state and open questions</h2>\n      <p>The survey remains incomplete. Who built the oldest systems, whether the Rahu ever exercised complete control, which inhabitants are native or deliberately placed, why the entrance changed, and what other passages remain undiscovered are all open. The public record preserves what modern expeditions observed; the protected vault holds the ancient history that player characters should not automatically know.</p>"
   },
   {
     "id": "gael",
@@ -386,15 +390,18 @@ const articles = [
       "Guardian": "Akarian",
       "Recovery": "Underway by February 2025",
       "Living centers": "Hope · Stake",
-      "Named sites": "19 recovered sublocations"
+      "Named sites": "19 recovered sublocations",
+      "Learned route": "Gas geyser field recognized by Oct 2024",
+      "Later travel": "Coastal departure toward Verdelune and Larkhollow"
     },
     "sources": [
       "Fenumion_Codex_Update_Regional_History_2026-09-19.md — conservative regional chronology",
       "Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — market, reconstruction, and faction development",
       "Gael roleplay and quest records",
-      "Preserved Gael map and location images"
+      "Preserved Gael map and location images",
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026"
     ],
-    "body": "<p>Gael’s map communicates emptiness before it communicates settlement. The Citadel of Sorrow, Mage’s Ruin, Plains of Trial, Vysaeth’s Tomb, Tower of Gael, and Underwater Temple stand across a landscape marked by catastrophe. Against that scale, Hope is tiny and green: a physical argument that life has established a beachhead in a dead or brutal land.</p>\n      <h2 id=\"discovery\">Discovery and Death’s victory · June 2024</h2>\n      <p>Nienna’s expedition reached Gael only after acquiring a ship and crew, encountering an island-sized moving turtle, finding a seed of the Great Tree, and learning that Death’s dragons haunted the Void. Titan’s Watch was the last safe land under the Eye. Its ruined Titan statues, decayed cathedral, and lifeless terrain showed what happened when Death defeated a place. The exact earlier dates in that expedition remain unresolved.</p>\n      <p>Nienna also knew of a supposedly safer Void route that fed unwilling souls to its inhabitants. The source establishes her testimony about one method—not that every historical crossing used it.</p>\n      <h2 id=\"recovery\">Liberation and early restoration · late 2024–2025</h2>\n      <p>Gael was liberated from Wrath around late 2024, though fiendish stragglers remained on the Plains. Gartina’s statement—“Gael is free of Wrath’s taint. What was lost can begin to grow anew.”—defines the island’s present tense. It is wounded, but unlike a truly dead island, it can recover. Akarian is named as Guardian of Gael.</p>\n      <p>By February 24, 2025, <strong>Hope and Stake already existed</strong>, and Shadowangel Forest was new enough to require exploration. Gartina said she helped bring the changed terrain into existence. Adelia’s later 2026 transformation therefore expanded a restoration already underway; it did not begin life in an otherwise unchanged wasteland.</p>\n      <h2 id=\"settlement\">Refugees and settlement</h2>\n      <p>Refugees arrived aboard a ship that crashed near Crustacean Cove. Around the Tower they lived mainly in huts and shacks, supplemented by occasional magical shelter. On February 24, 2025, Gartina and Dale moved from emergency care toward permanent planning: soup and conversation first, then a proposal to salvage the wreck for a longhouse, scout safer Plains for material, and—critically—ask the refugees what they wanted.</p>\n      <p>The problem did not vanish when life returned. Permanent infrastructure remained incomplete into 2026, and some people moved toward the developing frontier of Verdelune.</p>\n      <h2 id=\"developing-society\">A developing society · 2026</h2>\n      <p>By September 19, the Veilguard operated in Gael; husk hunts and a cult threat to one of Gael’s shards showed that danger persisted. The <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a> had created an open-air market with areas for different skills, evidence of organized commerce in a region Marius remembered as having almost no economy. At least one trusted network could also transport known people safely to Gael from other islands—a striking contrast with the lethal Void journey of 2024, though the exact mechanism is unknown.</p>\n      <p>Thorn’s history preserves an unresolved causal chain: she died during a Gael husk hunt, her team left her body, a cult later attempted to use her in a shard-destruction ritual, and she was alive in Prima by September 2026. The archive does not yet establish how she returned or how the ritual ended.</p>\n      <h2 id=\"trials-and-ruins\">Trials, ruins, and testimony</h2>\n      <p>Sildithas died in the Plains of Trial and was resurrected hours later, remembering that the place “took my measure, and I failed.” Mage’s Ruin is where the Red Lady, Endora, first appears in the recovered record; the scene does not establish her as hostile. The Coast, Library of Nuru, Sanctum of the Wise, Shadow Angel Forest, Crustacean Cove, Cathedral, Road, and other named sites expand Gael beyond its principal map labels.</p>"
+    "body": "<p>Gael’s map communicates emptiness before it communicates settlement. The Citadel of Sorrow, Mage’s Ruin, Plains of Trial, Vysaeth’s Tomb, Tower of Gael, and Underwater Temple stand across a landscape marked by catastrophe. Against that scale, Hope is tiny and green: a physical argument that life has established a beachhead in a dead or brutal land.</p>\n      <h2 id=\"gael-learned-geography\">Danger becomes remembered geography</h2>\n      <p>On 19 September 2024, a failed group navigation effort carried travelers into a quarter-mile field of gas geysers and salt-preserved bones. Going around risked night travel; crossing meant accepting the toxic ground directly. When another journey returned near the same field on 20 October, Saray recognized it, the party debated safer routes, Adelia tried to collect the yellow material, and Scribonia studied the geothermal rhythm. The terrain had not reset between quests. Prior experience changed what the next party could attempt.</p>\n      <h2 id=\"discovery\">Discovery and Death’s victory · June 2024</h2>\n      <p>Nienna’s expedition reached Gael only after acquiring a ship and crew, encountering an island-sized moving turtle, finding a seed of the Great Tree, and learning that Death’s dragons haunted the Void. Titan’s Watch was the last safe land under the Eye. Its ruined Titan statues, decayed cathedral, and lifeless terrain showed what happened when Death defeated a place. The exact earlier dates in that expedition remain unresolved.</p>\n      <p>Nienna also knew of a supposedly safer Void route that fed unwilling souls to its inhabitants. The source establishes her testimony about one method—not that every historical crossing used it.</p>\n      <h2 id=\"recovery\">Liberation and early restoration · late 2024–2025</h2>\n      <p>Gael was liberated from Wrath around late 2024, though fiendish stragglers remained on the Plains. Gartina’s statement—“Gael is free of Wrath’s taint. What was lost can begin to grow anew.”—defines the island’s present tense. It is wounded, but unlike a truly dead island, it can recover. Akarian is named as Guardian of Gael.</p>\n      <p>By February 24, 2025, <strong>Hope and Stake already existed</strong>, and Shadowangel Forest was new enough to require exploration. Gartina said she helped bring the changed terrain into existence. Adelia’s later 2026 transformation therefore expanded a restoration already underway; it did not begin life in an otherwise unchanged wasteland.</p>\n      <h2 id=\"settlement\">Refugees and settlement</h2>\n      <p>Refugees arrived aboard a ship that crashed near Crustacean Cove. Around the Tower they lived mainly in huts and shacks, supplemented by occasional magical shelter. On February 24, 2025, Gartina and Dale moved from emergency care toward permanent planning: soup and conversation first, then a proposal to salvage the wreck for a longhouse, scout safer Plains for material, and—critically—ask the refugees what they wanted.</p>\n      <p>The problem did not vanish when life returned. Permanent infrastructure remained incomplete into 2026, and some people moved toward the developing frontier of Verdelune.</p>\n      <h2 id=\"developing-society\">A developing society · 2026</h2>\n      <p>By September 19, the Veilguard operated in Gael; husk hunts and a cult threat to one of Gael’s shards showed that danger persisted. The <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a> had created an open-air market with areas for different skills, evidence of organized commerce in a region Marius remembered as having almost no economy. At least one trusted network could also transport known people safely to Gael from other islands—a striking contrast with the lethal Void journey of 2024, though the exact mechanism is unknown.</p>\n      <p>Thorn’s history preserves an unresolved causal chain: she died during a Gael husk hunt, her team left her body, a cult later attempted to use her in a shard-destruction ritual, and she was alive in Prima by September 2026. The archive does not yet establish how she returned or how the ritual ended.</p>\n      <h2 id=\"gael-departure-routes\">A departure point for newer roads</h2>\n      <p>By 7 September 2026, parties gathered on Gael’s coast for the many-hour journey through Verdelune toward <a href=\"#larkhollow\">Larkhollow</a>. Gael had become familiar enough to serve as a staging ground while remaining unfinished in its own right: known routes and remembered hazards coexist with large regions that have never been meaningfully explored.</p>\n      <h2 id=\"trials-and-ruins\">Trials, ruins, and testimony</h2>\n      <p>Sildithas died in the Plains of Trial and was resurrected hours later, remembering that the place “took my measure, and I failed.” Mage’s Ruin is where the Red Lady, Endora, first appears in the recovered record; the scene does not establish her as hostile. The Coast, Library of Nuru, Sanctum of the Wise, Shadow Angel Forest, Crustacean Cove, Cathedral, Road, and other named sites expand Gael beyond its principal map labels.</p>\n      <h2 id=\"gael-open-record\">The open record</h2>\n      <p>Gael’s unexplored regions, the permanence of wartime and supernatural damage, the origin of its environmental hazards, and the durability of its settlements remain uncertain. The keeper vault preserves additional divine and cosmological questions whose answers should not be visible in the public history.</p>"
   },
   {
     "id": "the-void",
@@ -474,7 +481,7 @@ const articles = [
     "image": "assets/archive/eovar-harbor.jpeg",
     "imageAlt": "Map of Eovar Harbor",
     "imageCaption": "Eovar Harbor — settlement map preserved in the archive.",
-    "dek": "A dense, defended port of roughly two thousand people, built around shipping, controlled water access, and agricultural support.",
+    "dek": "A rough, walled harbor larger than Pristinia, where shipping, rebuilding, crime, and regional reputation meet—and where maritime life had nearly stopped by August 2026.",
     "tags": [
       "Eovar Harbor",
       "Port",
@@ -485,9 +492,15 @@ const articles = [
       "Population": "About 2,000",
       "Function": "Port and controlled water access",
       "Defense": "Walled perimeter",
-      "Supply": "Agricultural land outside the core"
+      "Supply": "Agricultural land outside the core",
+      "Origin": "Old pirate cove",
+      "Relationship": "Trade, labor, and reputation shared with Pristinia",
+      "Latest pressure": "Ships missing · sailors refusing to depart"
     },
-    "body": "<p>Eovar Harbor is built around what it does. Its map shows a dense waterfront, ships, defensive walls, constrained routes, and farm fields beyond the urban core. Unlike places organized around a palace or sacred center, its geography reads as infrastructure: movement, trade, supply, and control of access over water.</p>\n      <h2 id=\"working-port\">A working port</h2>\n      <p>The surviving records estimate a population of roughly two thousand. The scale is large enough to require meaningful defenses and external agriculture, but compact enough that the harbor’s function visibly shapes the whole settlement.</p>"
+    "body": "<p>Eovar was introduced not as a polished commercial port but as something rougher. On 30 August 2024, Melian described it as “really more of an old pirates cove than a true port.” It grew into a settlement larger than Pristinia while retaining stronger ties to sailors, smugglers, bandits, and people comfortable working outside polite authority. Its harbor is not scenery; it is the reason the settlement exists.</p>\n      <h2 id=\"eovar-first-contact\">A neighboring harbor already carrying damage</h2>\n      <p>Pristinian adventurers reached the road overlooking Eovar by March 2024 and responded to emergencies there throughout the spring. By 7 September, rebuilding Eovar after a large fire had become a regional manpower question. The harbor therefore entered the surviving record as an existing civic center with infrastructure, illness, blockade, trade, and damage—not as an empty port waiting for adventurers.</p>\n      <h2 id=\"eovar-working-port\">Trade makes distance practical</h2>\n      <p>The preserved map shows a dense waterfront, ships, defensive walls, constrained approaches, and agricultural land beyond the core. The estimated population of roughly two thousand is large enough to require meaningful defenses and external supply, yet compact enough that the harbor’s function visibly shapes the entire settlement.</p>\n      <p>By July 2026, materials for rebuilding Pristinia were moving through Eovar. Expensive cedar paneling meant to protect the rebuilt Common Man from another fire was stolen there. Recovering it required the adventurers to negotiate Eovar’s underworld while trying not to implicate “Pristinian’s adventurers” in another major fight. Reputation had become regional: violence in one settlement could alter how another was treated.</p>\n      <h2 id=\"eovar-silent-harbor\">21 August 2026 · the harbor falls quiet</h2>\n      <p>Normal maritime activity had nearly stopped. Boats remained moored, sailors refused to sail, and rumors spread of strange events at sea, missing ships, and at least one vessel said to have returned. The silence mattered precisely because Eovar’s apparent strength came from movement over water; a port too frightened to leave harbor was a regional crisis rather than a local inconvenience.</p>\n      <h2 id=\"eovar-player-consequence\">How adventurers changed Eovar</h2>\n      <p>Adventurers reopened roads, investigated disease and sanitation, broke blockades, sought ships, joined reconstruction, recovered stolen materials, and entered the harbor’s social networks for information. Harbor Master Raven Joyner’s later testimony preserves the mixed result: adventurers attract danger, participate in disorder, rescue people, rebuild, and improve lives. Eovar remembers the full pattern rather than awarding a single heroic verdict.</p>\n      <h2 id=\"eovar-current-state\">Current state and open record</h2>\n      <p>At the latest recovered point, Eovar remains larger and rougher than Pristinia but its maritime life is badly disrupted. The cause of the strange events, the fate of the missing ships, what returned aboard the rumored vessel, and the organization or tolerance of local criminal power remain unresolved. Its future relationship with Pristinia may become partnership, rivalry, or both.</p>",
+    "sources": [
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026"
+    ]
   },
   {
     "id": "babel-ashur",
@@ -1081,14 +1094,16 @@ const articles = [
       "Parent": "Prima",
       "Type": "Settlement",
       "Pressure": "Population, winter, food supply",
-      "Defenses": "Player-built walls"
+      "Defenses": "Player-built walls",
+      "Regional position": "Rahu embassy · Eovar route · The Before · Guardians to the south"
     },
     "sources": [
       "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
       "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
-      "New Year.pdf — retrospective on what the community built"
+      "New Year.pdf — retrospective on what the community built",
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026"
     ],
-    "body": "<p>Pristinia is where Prima’s cosmic stakes become measurable. It needs defenses, harvest labor, winter stores, laws, festivals, and people willing to notice when a neighbor is carrying too much.</p>\n      <h2 id=\"wall\">The wall became history</h2>\n      <p>In April 2024, adventurers—including Nienna—spent hours finishing Pristinia’s wall. In July an army struck it. The wall held a mighty blow because the players had built it; then sections began to fall. A routine community task returned three months later as material protection and emotional cost.</p>\n      <p>The assault also taught Delerium mechanically. Contamination made people feel stronger but less alive, while a haze fed on its energy, passed the defenses, and entered town. The siege engines were a distraction. The event ended; its contamination did not.</p>\n      <h2 id=\"ordinary-pressure\">A town under ordinary pressure</h2>\n      <p>Population growth overworks Farmer Frank and strains winter food. Inside <a href=\"#common-man\">the Common Man</a>, Herb mentions dwindling dried fruit and an underworked farm. Aravil asks whether foraging can help; Tobias volunteers; a hunting expedition forms without a quest giver. Herb’s limit is as important as the need: take roughly twelve elk, not so many that next year’s herd is destroyed.</p>\n      <h2 id=\"belonging\">Belonging through usefulness</h2>\n      <p>Aravil recognizes that hunting may be her place in the town. Skye refuses to exploit Lichen’s ignorance of money and makes an alarming stranger feel safe. Herb knows stores, habits, wages, and ecology. Pristinia is governed as much through local knowledge and mutual restraint as through spectacular heroism.</p>\n      <h2 id=\"rebuilding-2026\">Rebuilding becomes ordinary · 2026</h2>\n      <p>After zombie pirates burned <a href=\"#common-man\">the Common Man</a>, Pilgrim’s Hearth rose on the same foundations. By September 19 it was again a place where adventurers drank tea, socialized, and exchanged news. The Magic Academy was open: Marius and Aurélia studied under Scribonia, while Saoirse prepared material for her future turn teaching younger students. Thorn’s plan to bless the farm before returning to Gael adds a smaller but telling continuity—adventurers contributing directly to the harvest.</p>\n      <p>Return to the <a href=\"#prima-pristinia\">Prima overview</a> for The Gate, The Before, and the island’s ancient history.</p>"
+    "body": "<p>Pristinia is where Prima’s cosmic stakes become measurable. It needs defenses, harvest labor, winter stores, laws, festivals, and people willing to notice when a neighbor is carrying too much.</p>\n      <h2 id=\"regional-position\">A settlement between older powers</h2>\n      <p>By 30 August 2024, Melian Starguard described Pristinia as the chosen entry point into a cataclysmic regional struggle. The Rahu maintained an embassy in town, Eovar Harbor lay nearby, the Guardians of the Shard were to the south, and the ruins called The Before remained a threat in the surrounding woods. Pristinia was never only a quest hub; it was a vulnerable settlement between trade routes, dangerous places, and powers older than its present population.</p>\n      <p>Even the early archive speaks of people who had called Pristinia home “for a long time.” The current adventurers therefore entered an existing community rather than founding an empty one. Their importance grew as they became residents, workers, defenders, donors, and political actors whose choices could bring consequences back to the town.</p>\n      <h2 id=\"wall\">The wall became history</h2>\n      <p>In April 2024, adventurers—including Nienna—spent hours finishing Pristinia’s wall. In July an army struck it. The wall held a mighty blow because the players had built it; then sections began to fall. A routine community task returned three months later as material protection and emotional cost.</p>\n      <p>The assault also taught Delerium mechanically. Contamination made people feel stronger but less alive, while a haze fed on its energy, passed the defenses, and entered town. The siege engines were a distraction. The event ended; its contamination did not.</p>\n      <h2 id=\"ordinary-pressure\">A town under ordinary pressure</h2>\n      <p>Population growth overworks Farmer Frank and strains winter food. Inside <a href=\"#common-man\">the Common Man</a>, Herb mentions dwindling dried fruit and an underworked farm. Aravil asks whether foraging can help; Tobias volunteers; a hunting expedition forms without a quest giver. Herb’s limit is as important as the need: take roughly twelve elk, not so many that next year’s herd is destroyed.</p>\n      <h2 id=\"belonging\">Belonging through usefulness</h2>\n      <p>Aravil recognizes that hunting may be her place in the town. Skye refuses to exploit Lichen’s ignorance of money and makes an alarming stranger feel safe. Herb knows stores, habits, wages, and ecology. Pristinia is governed as much through local knowledge and mutual restraint as through spectacular heroism.</p>\n      <h2 id=\"rebuilding-2026\">Rebuilding becomes ordinary · 2026</h2>\n      <p>After zombie pirates burned <a href=\"#common-man\">the Common Man</a>, its blackened frame remained visible while Pristinia rebuilt around it. By 3 July 2026, townsfolk were hauling charred beams, salvaging stone, bringing timber and nails, and spending resources donated by adventurers. The replacement was planned as a larger refuge for lost and wandering souls as well as old familiar faces; expensive cedar paneling was purchased to make another fire less likely, linking the civic project directly to Eovar when those materials were stolen there.</p>\n      <p>Pilgrim’s Hearth ultimately rose on the same foundations. By September 19 it was again a place where adventurers drank tea, socialized, and exchanged news. The Magic Academy was open: Marius and Aurélia studied under Scribonia, while Saoirse prepared material for her future turn teaching younger students. Thorn’s plan to bless the farm before returning to Gael adds a smaller but telling continuity—adventurers contributing directly to the harvest.</p>\n      <h2 id=\"pristinia-open-record\">The open record</h2>\n      <p>Pristinia’s eventual size, its political independence beside the Rahu, its relationship with the larger and rougher Eovar, and the durability of adventurer-built institutions remain unsettled. Its strongest continuity is not invulnerability but the practice of rebuilding without pretending destruction never happened.</p>\n      <p>Return to the <a href=\"#prima-pristinia\">Prima overview</a> for the island’s public geography and the entrance to its protected ancient record.</p>"
   },
   {
     "id": "common-man",
@@ -2419,6 +2434,30 @@ const articles = [
       "Result": "The setting keeps other people’s fingerprints"
     },
     "body": "<p>Individual characters may become legendary, but Fenumion’s durable protagonist is the community. It is the only participant present across every generation of quests, and it carries memory when any one character cannot.</p>\n      <h2 id=\"fingerprints\">Characters leave fingerprints</h2>\n      <p>Institutions, buildings, alliances, taboos, griefs, and running arguments remain after their originators leave. A low-level newcomer can eventually become one of the setting’s defining figures because the world permits small actions to accumulate.</p>\n      <h2 id=\"ordinary-scenes\">Ordinary scenes do worldbuilding</h2>\n      <p>A lunch can reveal a food shortage. A memorial can introduce someone to a person they never met. A disagreement about whether to rescue a body can expose an entire philosophy of agency. These scenes are not downtime between the real plot. They are how the world learns what the plot cost.</p>\n      <p>The <a href=\"#new-year-address\">New Year address</a> makes this explicit: killing Tiamat and surviving Wrath belong beside tending Eovar’s wounded, raising Pristinia’s walls, making laws and festivals, and celebrating relationships.</p>\n      <h2 id=\"stewardship\">The burden of stewardship</h2>\n      <p>Persistent worlds are messy because memory is labor. Continuity has to be protected without becoming a cage, and new contributors need room to matter without erasing what came before. The Codex exists to make that history easier to enter.</p>"
+  },
+  {
+    "id": "larkhollow",
+    "title": "Larkhollow",
+    "category": "Places",
+    "type": "Remote settlement · persistent RP location",
+    "dek": "A newly reached settlement associated with a ruined tower, connected to Gael by a long route through Verdelune and still near the beginning of its history with adventurers.",
+    "tags": [
+      "Larkhollow",
+      "Verdelune",
+      "Ruined tower",
+      "Settlement",
+      "Quest archive"
+    ],
+    "facts": {
+      "First recovered arrival": "29 Jun 2026",
+      "Landmark": "Ruined tower",
+      "Route": "Gael coast → Verdelune → Larkhollow",
+      "Persistent access": "Opened for continued roleplay"
+    },
+    "sources": [
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026"
+    ],
+    "body": "<p>Larkhollow is much newer to the recorded adventuring history than Pristinia, Gael, or The Before. That distinction matters: the archive can still separate what existed before contact from what adventurers have actually learned. The settlement lies far enough from established centers that reaching it requires meaningful travel, and a ruined tower already gives the place a visible history older than the visiting parties.</p>\n      <h2 id=\"larkhollow-first-contact\">29 June 2026 · first recovered arrival</h2>\n      <p>Travelers reach Larkhollow and find lodging with a view toward the ruined tower. At the expedition’s end, the location opens for continued roleplay, turning a destination on one journey into a place characters can revisit and inhabit socially. This is the beginning of Larkhollow’s player-facing history, not the beginning of the settlement itself.</p>\n      <h2 id=\"larkhollow-tower\">The ruined tower</h2>\n      <p>By 28 July, characters refer to relics associated with the old tower. The record confirms that the ruin has material remains and local significance without yet establishing who built it, why it fell, or what the settlement’s people believe happened there.</p>\n      <h2 id=\"larkhollow-route\">A destination on the wider travel network</h2>\n      <p>By 7 September, another company prepares to travel from the coast of Gael through Verdelune toward Larkhollow, a journey described as taking many hours. The settlement is no longer merely the endpoint of one quest. It is a recognized destination with a repeatable route.</p>\n      <h2 id=\"larkhollow-current-state\">Current state and open record</h2>\n      <p>Larkhollow is reachable, inhabitable, and only lightly explored. The tower’s builders and destruction, the settlement’s economy and political relationships, the dangers along its routes, and the effect of regular adventurer traffic remain open. Its history should be allowed to accumulate rather than being completed in advance.</p>"
   }
 ];
 
@@ -3445,7 +3484,17 @@ const questEventConsequences = {
   "The Gael tomb mission escapes through the statues": "Quake’s crown and command activate the statues at the moment ordinary exits are no longer safe. The revealed tunnel lets the party finish the mission without accepting annihilation, making retreat a completed objective rather than a failure of courage.",
   "Moirah returns with Jiangshi at a cost": "Moirah’s diminished condition makes the recovery visibly costly even though the unseen struggle remains unknown. Elenia’s magic restores the goddess enough to continue, reversing the usual direction of divine aid and showing mortals supporting a wounded divine power.",
   "Pristinia debates gold, business, and public need": "The council forces the adventurers’ wealth into a civic argument: who benefits from new construction, which businesses deserve support, and how ordinary residents participate in growth. Offering gold does not settle those questions; it makes the need for accountable decisions more urgent.",
-  "The Gael mechanism drains nearby magic": "The wheel removes access to the Weave from everyone nearby, turning a successful activation into an immediate loss of capability. Because the effect later settles, the party gains a dangerous piece of evidence about the ruins without learning who built the mechanism or what it was meant to power."
+  "The Gael mechanism drains nearby magic": "The wheel removes access to the Weave from everyone nearby, turning a successful activation into an immediate loss of capability. Because the effect later settles, the party gains a dangerous piece of evidence about the ruins without learning who built the mechanism or what it was meant to power.",
+  "Melian places Pristinia among neighboring powers": "The briefing makes clear that Pristinia’s apparent smallness is not isolation. Its survival depends on diplomacy, roads, nearby settlements, and the older dangers around it; every later civic decision occurs inside that regional web.",
+  "Eovar’s fire makes rebuilding a regional concern": "The request for workers turns another settlement’s disaster into a shared labor problem. It establishes an early precedent for Pristinia and Eovar affecting one another through people and infrastructure rather than existing as self-contained quest locations.",
+  "Pristinia’s cedar is stolen in Eovar": "The theft converts a decorative construction choice into regional consequence. Protecting the successor to the Common Man now depends on Eovar’s trade and underworld, while the adventurers must weigh recovery against the cost of damaging Pristinia’s reputation.",
+  "Eovar’s sailors refuse the sea": "Because shipping is Eovar’s organizing function, fear at the docks threatens food, movement, work, and every settlement relying on the harbor. The unanswered question is not only what happened at sea, but how long a port can remain itself without sailing.",
+  "Arjahn warns that no one controls all of The Before": "The warning disciplines every later expedition: a guide can know part of the ruin without owning it, and a faction can occupy chambers without controlling the systems around them. Uncertainty becomes operational knowledge rather than an invitation to invent certainty.",
+  "The gas geyser field tests Gael’s travelers": "The choice turns geography into a party-level decision with costs on both sides. The bones show that the hazard predates the travelers, while the failed navigation makes their route part of the event rather than mere transition between encounters.",
+  "Prior knowledge changes the second geyser crossing": "The return proves that exploration can create durable advantage without conquering a place. Recognition, route planning, sampling, and prediction are all consequences of memory, and future parties inherit a location instead of a reset encounter.",
+  "Travelers reach Larkhollow and open it to return": "Opening Larkhollow for continued life changes the meaning of arrival. The party does not merely complete a journey; it adds a settlement to the world’s repeatable social geography, where later relationships can accumulate beyond the originating quest.",
+  "Relics tie Larkhollow to its ruined tower": "The relics make the tower more than scenery without settling its explanation. They provide a material question future stories can answer while preserving the difference between evidence of an older history and a finished account of that history.",
+  "Gael’s coast becomes a route toward Larkhollow": "A repeatable route turns separate names into a connected travel network. Gael now functions as a departure point, Verdelune as a passage, and Larkhollow as a destination whose accessibility can shape future movement and trade."
 };
 
 const questPlayerAdditions = [
@@ -6555,6 +6604,170 @@ const archiveIndex = {
       "era": "",
       "article": "death-dumuzi",
       "veiled": true
+    },
+    {
+      "title": "Melian places Pristinia among neighboring powers",
+      "meta": "30 Aug 2024",
+      "sort": "2024-08-30p",
+      "era": "2024 · The Calling",
+      "kind": "Regional briefing",
+      "article": "pristinia",
+      "location": "Pristinia; Prima",
+      "people": "Melian Starguard; newer adventurers",
+      "tags": [
+        "Rahu",
+        "Eovar",
+        "The Before",
+        "regional politics"
+      ],
+      "summary": "Melian describes Pristinia as the chosen entry point into a larger conflict, with a Rahu embassy in town, Eovar nearby, Guardians to the south, and The Before threatening the surrounding woods."
+    },
+    {
+      "title": "Eovar’s fire makes rebuilding a regional concern",
+      "meta": "7 Sep 2024",
+      "sort": "2024-09-07e",
+      "era": "2024 · The Calling",
+      "kind": "Reconstruction",
+      "article": "eovar-harbor",
+      "location": "Eovar Harbor; Pristinia",
+      "people": "Nerias; Pristinia residents",
+      "tags": [
+        "fire",
+        "labor",
+        "rebuilding"
+      ],
+      "summary": "After a large fire damages Eovar, Nerias argues that Pristinia can contribute able workers, making recovery in the harbor part of the wider region’s practical responsibilities."
+    },
+    {
+      "title": "Pristinia’s cedar is stolen in Eovar",
+      "meta": "3 Jul 2026",
+      "sort": "2026-07-03e",
+      "era": "2026 · Consequences",
+      "kind": "Theft and civic supply",
+      "article": "eovar-harbor",
+      "location": "Eovar Harbor; Pristinia",
+      "people": "Pristinian adventurers; Eovar contacts",
+      "tags": [
+        "Common Man",
+        "cedar",
+        "underworld",
+        "reconstruction"
+      ],
+      "summary": "Fire-resistant cedar intended for the rebuilt Common Man is stolen in Eovar, forcing adventurers into the harbor’s criminal networks while they try to protect Pristinia’s reputation."
+    },
+    {
+      "title": "Eovar’s sailors refuse the sea",
+      "meta": "21 Aug 2026",
+      "sort": "2026-08-21a",
+      "era": "2026 · Public memory",
+      "kind": "Maritime crisis",
+      "article": "eovar-harbor",
+      "location": "Eovar Harbor",
+      "people": "Eovar sailors; missing crews; harbor residents",
+      "tags": [
+        "missing ships",
+        "rumors",
+        "harbor",
+        "fear"
+      ],
+      "summary": "Boats remain moored and sailors refuse to leave amid reports of strange events, missing ships, and a vessel rumored to have returned. A working port becomes unnaturally quiet."
+    },
+    {
+      "title": "Arjahn warns that no one controls all of The Before",
+      "meta": "30 Aug 2024",
+      "sort": "2024-08-30b",
+      "era": "2024 · The Calling",
+      "kind": "Recovered warning",
+      "article": "before-survey",
+      "location": "Pristinia; The Before",
+      "people": "Arjahn; Melian; newer adventurers",
+      "tags": [
+        "Aboleth",
+        "metal creature",
+        "uncertain control"
+      ],
+      "summary": "Arjahn recalls a wizard admitting that he did not control everything in the ruins and warns that neither the guide’s claims nor any faction’s ownership should be treated as complete."
+    },
+    {
+      "title": "The gas geyser field tests Gael’s travelers",
+      "meta": "19 Sep 2024",
+      "sort": "2024-09-19g",
+      "era": "2024 · The Calling",
+      "kind": "Environmental hazard",
+      "article": "gael",
+      "location": "Gas geyser field; Gael",
+      "people": "Gael expedition",
+      "tags": [
+        "geysers",
+        "salt flats",
+        "navigation",
+        "bones"
+      ],
+      "summary": "A failed group navigation effort carries travelers into a quarter-mile field of toxic fissures and salt-preserved bones, forcing a choice between dangerous ground and night travel."
+    },
+    {
+      "title": "Prior knowledge changes the second geyser crossing",
+      "meta": "20 Oct 2024",
+      "sort": "2024-10-20g",
+      "era": "2024 · The Calling",
+      "kind": "Learned geography",
+      "article": "gael",
+      "location": "Gas geyser field; Gael",
+      "people": "Saray; Adelia; Scribonia; traveling party",
+      "tags": [
+        "geysers",
+        "memory",
+        "geothermal study"
+      ],
+      "summary": "Returning near the same field, Saray recognizes the danger, the party debates routes, Adelia samples the yellow material, and Scribonia studies the eruption cycle instead of meeting the terrain as unknown."
+    },
+    {
+      "title": "Travelers reach Larkhollow and open it to return",
+      "meta": "29 Jun 2026",
+      "sort": "2026-06-29l",
+      "era": "2026 · Wider shores",
+      "kind": "First recovered arrival",
+      "article": "larkhollow",
+      "location": "Larkhollow",
+      "people": "Traveling adventurers; Larkhollow residents",
+      "tags": [
+        "settlement",
+        "lodging",
+        "ruined tower"
+      ],
+      "summary": "The party reaches lodging overlooking Larkhollow’s ruined tower, and the settlement becomes a persistent roleplay location rather than a one-quest destination."
+    },
+    {
+      "title": "Relics tie Larkhollow to its ruined tower",
+      "meta": "28 Jul 2026",
+      "sort": "2026-07-28l",
+      "era": "2026 · Wider shores",
+      "kind": "Historical clue",
+      "article": "larkhollow",
+      "location": "Larkhollow; ruined tower",
+      "people": "Larkhollow visitors",
+      "tags": [
+        "relics",
+        "tower",
+        "unresolved history"
+      ],
+      "summary": "References to relics from the old tower establish that the ruin has material remains and remembered significance, while its builders and destruction remain unknown."
+    },
+    {
+      "title": "Gael’s coast becomes a route toward Larkhollow",
+      "meta": "7 Sep 2026",
+      "sort": "2026-09-07l",
+      "era": "2026 · Wider shores",
+      "kind": "Established travel route",
+      "article": "larkhollow",
+      "location": "Gael coast; Verdelune; Larkhollow",
+      "people": "Traveling party",
+      "tags": [
+        "travel",
+        "Verdelune",
+        "Gael"
+      ],
+      "summary": "A company gathers on Gael’s coast for the many-hour journey through Verdelune, confirming Larkhollow as a recognized destination on a wider travel network."
     }
   ],
   "characters": [
@@ -8505,6 +8718,18 @@ const archiveIndex = {
         "Sulfuric Swamps"
       ],
       "level": "site"
+    },
+    {
+      "title": "Larkhollow",
+      "region": "Other regions",
+      "parent": "Route through Verdelune",
+      "type": "remote settlement",
+      "meta": "Wider world · settlement",
+      "article": "larkhollow",
+      "summary": "A reachable settlement overlooking a ruined tower, opened to continued adventurer life after June 2026.",
+      "source": "Quest archive · Jun–Sep 2026",
+      "aliases": [],
+      "level": "settlement"
     }
   ]
 };
@@ -9275,6 +9500,10 @@ const navigationRegions = [
           {
             "label": "Eovar Harbor",
             "article": "eovar-harbor"
+          },
+          {
+            "label": "Larkhollow",
+            "article": "larkhollow"
           }
         ]
       },
@@ -9732,6 +9961,11 @@ const subchannelMap = {
       "label": "All Gael places",
       "article": "visual-archive",
       "summary": "Search Hope, the Tower, Plains of Trial, Mage’s Ruin, forests, coast, and more."
+    },
+    {
+      "label": "Larkhollow",
+      "article": "larkhollow",
+      "summary": "A newer destination reached from Gael’s coast through Verdelune, marked by a ruined tower and a still-young player history."
     }
   ],
   "the-void": [
@@ -9793,6 +10027,18 @@ const subchannelMap = {
       "label": "Coralyn",
       "article": "coralyn",
       "summary": "A fellow investigator whose later discipline inherits Voraketh’s accumulated evidence."
+    }
+  ],
+  "larkhollow": [
+    {
+      "label": "Gael",
+      "article": "gael",
+      "summary": "The established coastal departure point for the later route through Verdelune."
+    },
+    {
+      "label": "Location Atlas",
+      "article": "visual-archive",
+      "summary": "Return to the complete recovered geography of Fenumion."
     }
   ]
 };
@@ -10103,7 +10349,7 @@ function isPlayerSafeArticle(id) {
 }
 
 function isRestrictedTimelineEvent(item) {
-  return !vaultUnlocked && (item.era === "Ancient world" || isRestrictedArticle(item.article));
+  return !vaultUnlocked && (item.vaultOnly || item.era === "Ancient world" || isRestrictedArticle(item.article));
 }
 
 function restrictedMark(id) {

@@ -7691,6 +7691,7 @@ const archiveIndex = {
       "title": "Casimir",
       "meta": "Procedural thinker",
       "article": "casimir-alioth",
+      "image": "assets/archive/casimir-portrait.jpg",
       "summary": "Tests constraints, questions, silence, and institutional rules rather than trying to overpower them."
     },
     {

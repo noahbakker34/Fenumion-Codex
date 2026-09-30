@@ -1099,16 +1099,49 @@ const articles = [
     "body": "<p>Prima compresses Fenumion’s whole argument into one island: an ancient Gate, a civilization destroyed by corrupted life, a new settlement above the wound, and a community attempting a different relationship with power.</p>\n      <h2 id=\"sublocations\">Sublocations</h2>\n      <p><a href=\"#pristinia\"><strong>Pristinia</strong></a> is the growing settlement where walls, farms, taverns, and food stores make history tangible. <a href=\"#common-man\"><strong>The Common Man</strong></a> was its accumulated civilian room; after zombie pirates burned it, Pilgrim’s Hearth inherited the same foundations. <span class=\"protected-inline\">Protected record</span> is the ancient mechanism that awakened when modern adventurers began arriving. <span class=\"protected-inline\">Protected record</span> is Melian’s ruined city, built above the Delerium vein that destroyed it.</p>\n      <h2 id=\"old-wounds\">The Before beneath the future</h2>\n      <p>Melian’s people found Delerium, tried to use it, and were consumed from below. Her answer is not to prohibit knowledge but to make it preparation. The Gate had been dormant since an age when gods walked openly; it awakened only when modern adventurers began arriving. Prima therefore joins ancient divine failure, mortal repetition, and the possibility of a different response.</p>\n      <h2 id=\"papirak\">The cost of saving Prima</h2>\n      <p>Papirak’s extraordinary Wish isolated the realm from spreading Delerium. Paloma voluntarily became its complete price, and Namo’o later removed Papirak’s memory as mercy. Prima was saved, but the island’s survival cannot be separated from the archive’s hardest question: <em>whose sacrifice?</em></p>"
   },
   {
+    "id": "first-forest",
+    "title": "The First Forest",
+    "category": "Places",
+    "type": "Prima old-growth forest and travel corridor",
+    "image": "assets/archive/first-forest.webp",
+    "imageAlt": "Travelers moving among immense moss-covered trees in the First Forest",
+    "imageCaption": "The First Forest — old-growth woodland bordering Pristinia and the roads beyond it.",
+    "dek": "An old-growth forest at Pristinia’s edge: beautiful, misted, traveled, repeatedly reclaimed by nature, and dangerous enough that no familiar road stays merely scenery.",
+    "tags": [
+      "Prima",
+      "Pristinia",
+      "First Forest",
+      "Old growth",
+      "Travel",
+      "Exploration"
+    ],
+    "facts": {
+      "Parent": "Prima",
+      "Nearest settlement": "Pristinia",
+      "Observed trees": "Pine · oak · birch",
+      "Routes": "Eovar road · Old Earth Hills · quarry approach",
+      "First recovered expedition": "11 Apr 2024"
+    },
+    "sources": [
+      "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
+      "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
+      "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
+      "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
+      "User-supplied First Forest visual record, 29 Sep 2026"
+    ],
+    "body": "<p>The First Forest begins at Pristinia’s edge and functions as both wilderness and corridor. Roads toward Eovar, the Old Earth Hills, the quarry, and other Prima sites pass through or skirt it, so the forest repeatedly becomes the place where civic errands turn into expeditions.</p>\n      <h2 id=\"forest-landscape\">Old growth and mist</h2>\n      <p>A 2 May 2024 journey records towering pine, oak, and birch providing deep shelter from the elements. Pockets of mist stood thirty to fifty yards from the road and gave the old-growth woodland an ethereal quality. Toward the Old Earth Hills, the trees became shorter and thinner before yielding to bushes, scrubland, and switchback roads.</p>\n      <p>The forest is not a sealed dungeon. It is working geography: beautiful enough to change a traveler’s mood, dense enough to hide danger, and close enough to Pristinia that trade, lumber, patrols, hunting, and rescue all depend on how safely people can cross it.</p>\n      <h2 id=\"forest-priest-room\">11 April 2024 · the priest’s room</h2>\n      <p>Elenia, Cobble, Talon, and Vigr Frami explored near the settlement and found an overgrown room containing the bones of a priest. The chamber supplied evidence of an older human presence but no living witness or convenient explanation. Its builder, faith, abandonment, and relationship to later events remain unresolved.</p>\n      <h2 id=\"forest-symin\">4 May 2024 · an ambush answers rescue</h2>\n      <p>After a Pristinian patrol was ambushed in the First Forest, Symin answered the plea to find Tavorchanor and the missing group. He was killed near the ambush site, and bark-covered undead carried away his body. The loss made the forest’s proximity more dangerous rather than less: a threat did not need to cross a distant frontier to reach the settlement’s people.</p>\n      <h2 id=\"forest-changing-routes\">A landscape that reclaims its routes</h2>\n      <p>By May 2026, travelers heading toward the quarry found that intermittent use had allowed nature to reclaim the old path. The company crossed into more mountainous terrain, reached a stone bridge over a frozen stream, and encountered wolves. The route’s condition connected Pristinia’s materials and labor directly to the forest’s changing ecology.</p>\n      <p>Another May expedition destroyed two sigils associated with blue mist. Holy energy turned the mist to glitter and made a large part of the forest safe again; ghostly butterflies escorted the company toward Pristinia. The account establishes a recovered area, not permanent safety for the entire forest.</p>\n      <h2 id=\"forest-open-record\">The open record</h2>\n      <p>The forest’s full boundaries, connection to Al-Shomer, the priest’s identity, the source and reach of the bark-covered dead, the long-term state of the blue mist, and the durability of its routes remain incomplete. The new visual record establishes the forest’s scale and atmosphere without turning those unknowns into answers.</p>"
+  },
+  {
     "id": "pristinia",
     "title": "Pristinia",
     "category": "Places",
     "type": "Prima sublocation · settlement",
-    "image": "assets/archive/pristinia.webp",
-    "imageAlt": "Illustrated landscape and settlement of Pristinia",
-    "imageCaption": "Pristinia — original image preserved in the archive.",
+    "image": "assets/archive/pristinia-arrival.gif",
+    "imageAlt": "The first distant view of Pristinia after walking from the Gate",
+    "imageCaption": "First sight of Pristinia — reached after a two-to-three-hour walk from the Gate.",
     "mapId": "pristinia",
     "mapLinkLabel": "Explore the interactive Pristinia map",
-    "dek": "Prima’s growing settlement, built through walls, food, farms, taverns, promises, and the ordinary labor that makes cosmic survival worth having.",
+    "dek": "Prima’s growing settlement, first seen after a two-to-three-hour walk from the Gate and built through walls, food, farms, taverns, promises, and ordinary labor.",
     "tags": [
       "Prima",
       "Pristinia",
@@ -1118,6 +1151,7 @@ const articles = [
     "facts": {
       "Parent": "Prima",
       "Type": "Settlement",
+      "Arrival from the Gate": "2–3 hours on foot",
       "Pressure": "Population, winter, food supply",
       "Defenses": "Player-built walls",
       "Regional position": "Rahu embassy · Eovar route · The Before · Guardians to the south"
@@ -1126,7 +1160,8 @@ const articles = [
       "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
       "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
       "New Year.pdf — retrospective on what the community built",
-      "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026"
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+      "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate"
     ],
     "body": "<p>Pristinia is where Prima’s cosmic stakes become measurable. It needs defenses, harvest labor, winter stores, laws, festivals, and people willing to notice when a neighbor is carrying too much.</p>\n      <h2 id=\"regional-position\">A settlement between older powers</h2>\n      <p>By 30 August 2024, Melian Starguard described Pristinia as the chosen entry point into a cataclysmic regional struggle. The Rahu maintained an embassy in town, Eovar Harbor lay nearby, the Guardians of the Shard were to the south, and the ruins called The Before remained a threat in the surrounding woods. Pristinia was never only a quest hub; it was a vulnerable settlement between trade routes, dangerous places, and powers older than its present population.</p>\n      <p>Even the early archive speaks of people who had called Pristinia home “for a long time.” The current adventurers therefore entered an existing community rather than founding an empty one. Their importance grew as they became residents, workers, defenders, donors, and political actors whose choices could bring consequences back to the town.</p>\n      <h2 id=\"wall\">The wall became history</h2>\n      <p>In April 2024, adventurers—including Nienna—spent hours finishing Pristinia’s wall. In July an army struck it. The wall held a mighty blow because the players had built it; then sections began to fall. A routine community task returned three months later as material protection and emotional cost.</p>\n      <p>The assault also taught Delerium mechanically. Contamination made people feel stronger but less alive, while a haze fed on its energy, passed the defenses, and entered town. The siege engines were a distraction. The event ended; its contamination did not.</p>\n      <h2 id=\"ordinary-pressure\">A town under ordinary pressure</h2>\n      <p>Population growth overworks Farmer Frank and strains winter food. Inside <a href=\"#common-man\">the Common Man</a>, Herb mentions dwindling dried fruit and an underworked farm. Aravil asks whether foraging can help; Tobias volunteers; a hunting expedition forms without a quest giver. Herb’s limit is as important as the need: take roughly twelve elk, not so many that next year’s herd is destroyed.</p>\n      <h2 id=\"belonging\">Belonging through usefulness</h2>\n      <p>Aravil recognizes that hunting may be her place in the town. Skye refuses to exploit Lichen’s ignorance of money and makes an alarming stranger feel safe. Herb knows stores, habits, wages, and ecology. Pristinia is governed as much through local knowledge and mutual restraint as through spectacular heroism.</p>\n      <h2 id=\"rebuilding-2026\">Rebuilding becomes ordinary · 2026</h2>\n      <p>After zombie pirates burned <a href=\"#common-man\">the Common Man</a>, its blackened frame remained visible while Pristinia rebuilt around it. By 3 July 2026, townsfolk were hauling charred beams, salvaging stone, bringing timber and nails, and spending resources donated by adventurers. The replacement was planned as a larger refuge for lost and wandering souls as well as old familiar faces; expensive cedar paneling was purchased to make another fire less likely, linking the civic project directly to Eovar when those materials were stolen there.</p>\n      <p>Pilgrim’s Hearth ultimately rose on the same foundations. By September 19 it was again a place where adventurers drank tea, socialized, and exchanged news. The Magic Academy was open: Marius and Aurélia studied under Scribonia, while Saoirse prepared material for her future turn teaching younger students. Thorn’s plan to bless the farm before returning to Gael adds a smaller but telling continuity—adventurers contributing directly to the harvest.</p>\n      <h2 id=\"pristinia-open-record\">The open record</h2>\n      <p>Pristinia’s eventual size, its political independence beside the Rahu, its relationship with the larger and rougher Eovar, and the durability of adventurer-built institutions remain unsettled. Its strongest continuity is not invulnerability but the practice of rebuilding without pretending destruction never happened.</p>\n      <p>Return to the <a href=\"#prima-pristinia\">Prima overview</a> for the island’s public geography and the entrance to its protected ancient record.</p>"
   },
@@ -1155,6 +1190,38 @@ const articles = [
       "State of the World record — destruction aftermath and Pilgrim’s Hearth succession"
     ],
     "body": "<p>The Common Man became one of Pristinia’s most important places because people kept returning. Adventurers drank there, civilians worked there, newcomers met the world there, musicians played for coppers, memorials were held, and the material pressures of a growing settlement became impossible to ignore.</p>\n      <div class=\"callout gold\"><p><strong>Ordinary life is evidence.</strong> The Common Man converted world state into lived state: population pressure became dwindling fruit, labor shortage became an exhausted farmer, wealth inequality became a startling tip, and historical continuity became a returned woman recognizing the tavern where she had once been mourned.</p></div>\n      <h2 id=\"ordinary-room\">An ordinary room</h2>\n      <p>The surviving record establishes wooden floors, tables, a bar and work area, food and drink service, and live music. The exact floor plan remains unrecovered. More important is the social mixture: farmers, tavern workers, chroniclers, adventurers, musicians, and visibly strange newcomers share the same room without an elite threshold.</p>\n      <h2 id=\"people-at-work\">The people who made it function</h2>\n      <p><strong>Herb</strong> wipes counters, remembers regulars’ orders, knows the stores, and turns local shortages into actionable civic knowledge. <strong>Serra</strong> serves patrons and notices how an adventurer’s absence changes tips. <strong>Alessio</strong> cleans mugs, works the tables, and makes the tavern legible as a workplace. <strong>Skye</strong>, a goblin bard, plays for coppers and connects newcomers to the First Forest and Al-Shomer traditions.</p>\n      <p><strong>Ada</strong>, the town chronicler, drinks sweet ale while sketching a new face for an article. Pristinia’s public memory is therefore produced inside the same ordinary life it records. <strong>Farmer Frank</strong> brings the cost of failed harvest help into the room in his own exhaustion.</p>\n      <h2 id=\"december-15\">15 December 2024 · the town from below</h2>\n      <p>Almost nothing epic happens. Herb cleans. Ada sketches. Skye plays. Frank rests after work. Alessio serves. Lichen enters. Aravil orders her usual tequila. Tobias orders ale. Sosdrielle dances. The tavern becomes unusually busy—and in doing so reveals how Pristinia actually lives.</p>\n      <h3 id=\"food-pressure\">Food, labor, and the next herd</h3>\n      <p>Frank explains that adventurers promised harvest help but appeared only once while the settlement gained more mouths. Herb reports that sourdough remains available, dried fruit is running low, and Tina’s farm needs labor. He suggests hunting about a dozen elk while warning against damaging next year’s population. Immediate hunger does not erase stewardship of the future.</p>\n      <div class=\"quote\">We was relyin’ on harvest help from these adventurers, with so many more mouths to feed and all. But damn, they only showed once.<cite>Farmer Frank</cite></div>\n      <p>Aravil hears a civilian need and recognizes a possible place for herself as a hunter. No proclamation is required: a problem is spoken aloud, a person discovers how she can help, and the town’s history changes.</p>\n      <h3 id=\"lichen-and-skye\">Lichen and Skye</h3>\n      <p>Lichen offers Skye ten gold pieces for music—roughly a year’s wages by Skye’s reaction. Skye refuses to exploit the mistake, accepts one coin, and begins telling Lichen about the First Forest. Adventurer-scale wealth and civilian-scale economy meet in the same room; restraint turns the collision into relationship.</p>\n      <h2 id=\"newcomer-threshold\">A threshold into the world</h2>\n      <p>The Common Man lets a person arrive without already holding a place in the world’s hierarchy. Enter town; enter the tavern; meet someone; hear a problem, history, or rumor; acquire a relationship; watch the world expand. By January 2026, Daffodil can flutter in, order tea, and meet Adelia and Jiangshi through the same soft threshold.</p>\n      <h2 id=\"memory-space\">Memorial and return</h2>\n      <p>Bitoshi first comes to Pristinia looking for Jiangshi and instead finds her memorial service at the Common Man. After Jiangshi returns, he later drinks beside her in the same room and remembers the memorial. The later event does not erase the earlier truth. The building holds both: she was mourned here, and she lived to return here.</p>\n      <p>On January 5, 2026, Jiangshi enters again to familiar scents and sounds. Adelia says only, “It’s been awhile.” Daffodil, Bitoshi, Oni, old relationships, newcomers, and talk of crops occupy one room. The tavern allows different eras of their lives to become simultaneous.</p>\n      <h2 id=\"destruction\">The fire</h2>\n      <p>Zombie pirates eventually burn the Common Man. The exact date, circumstances, people present, and casualties remain unresolved; by July 29, 2026, the destruction is established past history and revenge hunts continue. The loss matters because the target was not a generic tavern. It was where people worked, ate, danced, worried, remembered, and learned how to belong.</p>\n      <h2 id=\"succession\">Pilgrim’s Hearth</h2>\n      <p>By July 29, Pilgrim’s Hearth stands on the Common Man’s foundations as “a symbol of growth and change.” By September it is again an active social room for tea, news, and ordinary conversation. The Common Man was not restored exactly, and it was not erased.</p>\n      <ol class=\"timeline\"><li><time>Common Man</time><p>Years of work, music, meals, memorial, newcomers, and returning patrons accumulate.</p></li><li><time>Destruction</time><p>Zombie pirates burn the tavern; exact chronology remains open.</p></li><li><time>Same ground</time><p>Pilgrim’s Hearth rises on the foundations rather than pretending the earlier place never existed.</p></li><li><time>Ordinary life</time><p>People again drink tea, exchange news, and carry old history without making every conversation about it.</p></li></ol>\n      <h2 id=\"open-record\">The open record</h2>\n      <p>The founder and owner, Herb’s and Skye’s fuller histories, the exact fire, the staff’s fate, the builder of Pilgrim’s Hearth, surviving objects or traditions, and the structure’s physical inheritance remain unknown. The archive preserves the succession without inventing those links.</p>"
+  },
+  {
+    "id": "pilgrims-hearth",
+    "title": "The Pilgrim’s Hearth",
+    "category": "Places",
+    "type": "Pristinia tavern; successor institution",
+    "video": "assets/archive/pilgrims-hearth.mp4",
+    "imageLayout": "landscape-hero",
+    "videoAlt": "The newly finished Pilgrim’s Hearth tavern in Pristinia",
+    "videoCaption": "The Pilgrim’s Hearth — a new tavern raised on the Common Man’s foundations.",
+    "dek": "A larger tavern raised after the Common Man burned: Pristinia’s deliberate return to hospitality, news, tea, and ordinary life on remembered ground.",
+    "tags": [
+      "The Pilgrim’s Hearth",
+      "Pristinia",
+      "The Common Man",
+      "Rebuilding",
+      "Ordinary life"
+    ],
+    "facts": {
+      "Parent": "Pristinia · Prima",
+      "Predecessor": "The Common Man",
+      "Foundation": "The Common Man’s former site",
+      "Established": "Standing by 29 Jul 2026",
+      "Confirmed active": "19 Sep 2026"
+    },
+    "sources": [
+      "The_Common_Man_Location_Profile_and_History.md — succession and evidence limits",
+      "State of the World record — standing on the Common Man’s foundations by 29 Jul 2026",
+      "Quest-RP scene, 19 Sep 2026 — tea, news, and social life in the completed tavern",
+      "User-supplied moving location record, 29 Sep 2026"
+    ],
+    "body": "<p>The Pilgrim’s Hearth is the tavern that followed <a href=\"#common-man\">the Common Man</a> after zombie pirates burned Pristinia’s accumulated civilian room. It stands on the same foundations without pretending that the earlier institution was never lost.</p>\n      <div class=\"callout gold\"><p><strong>Continuity without replacement:</strong> the Hearth is a new place on remembered ground. The archive treats rebuilding as history, not as a reset.</p></div>\n      <h2 id=\"hearth-rebuilding\">Rebuilding becomes civic life</h2>\n      <p>By 3 July 2026, townsfolk were hauling charred beams, salvaging usable stone, bringing timber and nails, and spending resources donated by adventurers. The planned replacement was larger than its predecessor and intended as a refuge for lost and wandering souls as well as familiar faces. Expensive cedar paneling was purchased to make another fire less likely, tying the project to Eovar when those materials were stolen there.</p>\n      <p>By 29 July, the Pilgrim’s Hearth stood on the Common Man’s foundations and was described as a symbol of growth and change. That description establishes its public meaning without identifying its architect, owner, builder, or precise physical inheritance.</p>\n      <h2 id=\"hearth-ordinary-life\">19 September 2026 · ordinary life returns</h2>\n      <p>The Hearth is active again as a social room. Thorn, Aurélia, Marius, and Saoirse drink tea, exchange news, and speak about Gael, the Magic Academy, teaching, and the farm. The scene is important precisely because the rebuilt tavern no longer needs to make every conversation about its own destruction.</p>\n      <p>The new structure restores a civic threshold: a place where adventurers and residents can enter without already belonging to a quest, encounter the settlement’s needs, and allow small conversations to become later history.</p>\n      <h2 id=\"hearth-inheritance\">What the Hearth inherits</h2>\n      <p>It inherits location, public purpose, and the community’s need for an ordinary gathering room. It does not automatically inherit every employee, custom, object, ownership claim, or relationship attached to the Common Man. Those continuities require direct evidence rather than assumption.</p>\n      <h2 id=\"hearth-open-record\">The open record</h2>\n      <p>The builder and owner, its complete floor plan, the fate of the Common Man’s surviving staff, which furnishings or traditions crossed into the new tavern, and how Pristinia formally understands the institution remain unresolved. The supplied moving record establishes the Hearth’s visual identity but does not answer those historical questions.</p>"
   },
   {
     "id": "herb",
@@ -2733,7 +2800,7 @@ const questTimelineAdditions = [
     "sort": "2024-04-11q",
     "era": "2024 · The Calling",
     "kind": "Local exploration",
-    "article": "prima-pristinia",
+    "article": "first-forest",
     "location": "First Forest",
     "people": "Elenia; Cobble; Talon; Vigr Frami",
     "tags": [
@@ -2861,7 +2928,7 @@ const questTimelineAdditions = [
     "sort": "2024-05-04q",
     "era": "2024 · The Calling",
     "kind": "Death",
-    "article": "pristinia",
+    "article": "first-forest",
     "location": "First Forest beyond the Gate",
     "people": "Symin; Bari; Tavorchanor",
     "tags": [
@@ -3466,6 +3533,8 @@ const questEventConsequences = {
   "A dying messenger brings Eovar’s warning": "The message pulls Pristinia into Eovar’s crisis and ends with an enemy vessel destroyed, but the Compass remains a dangerous unresolved object. The order to destroy it implies knowledge the party does not possess and makes the pursuit’s apparent victory only the beginning of a larger problem.",
   "Pristinia’s palisade and moat take shape": "The work is ordinary, visible, and cumulative: cut timber, treated logs, earthworks, stakes, and watchtowers. These defenses later matter precisely because people built them before the worst attack arrived, turning preparation into one of the campaign’s clearest forms of foresight.",
   "A forest expedition finds a dead priest’s room": "The chamber offers no living witness and no easy explanation, only an overgrown room and human remains. Its restraint is important: the party learns that Prima contains abandoned histories whose meaning cannot be recovered merely by finding them.",
+  "Two blue-mist sigils are broken in the First Forest": "Holy energy makes the mist glitter and recede, and the company confirms that this part of the forest has been cleared rather than declaring the entire danger ended. Their exhausted return to Pristinia, accompanied by ghostly butterflies, leaves both a practical method—find the marked trees and destroy the sigils—and an unresolved question about who placed them.",
+  "The First Forest reclaims the quarry road": "The expedition proves that a useful road can vanish when civic work becomes intermittent. Reaching the frozen stream and surviving the wolves restores knowledge of the route for the moment, but it also ties Pristinia’s access to stone and construction material to continued travel, maintenance, and respect for a landscape that does not remain passive.",
   "Pristinia makes a pact with the wolves": "The agreement rejects extermination as the only answer to scarcity. Cigal becomes an intermediary between settlement and pack, tying the farm’s safety to Pristinia’s willingness to help when prey is scarce and making coexistence a continuing duty rather than a one-time success.",
   "Seven glyphs open an underground city": "The revealed city greatly expands the scale of the ruins beneath Prima. Its seven glyphs and purple illumination indicate deliberate design, while the active defenses show that whatever ended the settlement did not render all of its systems harmless.",
   "A Flying Horror escapes with lost intelligence": "The escape is recorded as a failure of coordination rather than softened into an inconclusive victory. The creature carries away information and denies the party answers, creating a consequence that may return to Pristinia long after the immediate encounter.",
@@ -4048,7 +4117,7 @@ const archiveIndex = {
       "sort": "2024-04-11q",
       "era": "2024 · The Calling",
       "kind": "Local exploration",
-      "article": "prima-pristinia",
+      "article": "first-forest",
       "location": "First Forest",
       "people": "Elenia; Cobble; Talon; Vigr Frami",
       "tags": [
@@ -4176,7 +4245,7 @@ const archiveIndex = {
       "sort": "2024-05-04q",
       "era": "2024 · The Calling",
       "kind": "Death",
-      "article": "pristinia",
+      "article": "first-forest",
       "location": "First Forest beyond the Gate",
       "people": "Symin; Bari; Tavorchanor",
       "tags": [
@@ -5765,6 +5834,40 @@ const archiveIndex = {
       "summary": "A battered Mya insists that all lands are worth saving. Babel’s Shard is not simply a tree, Arjahn’s vanguard is losing, and the surviving choice is to pass strength onward or reunite and prove the gods wrong."
     },
     {
+      "title": "Two blue-mist sigils are broken in the First Forest",
+      "meta": "5 May 2026 · quest-RP",
+      "sort": "2026-05-05f",
+      "era": "2026 · Consequences",
+      "kind": "Forest cleansing",
+      "article": "first-forest",
+      "location": "First Forest; Prima",
+      "people": "Marius Antares; Heahmund Stormground; Kaelen",
+      "tags": [
+        "blue mist",
+        "sigils",
+        "holy energy",
+        "ghostly butterflies"
+      ],
+      "summary": "Responding to disappearances and reports of dead voices in the First Forest, Marius, Heahmund, and Kaelen find the blue mist and destroy two sigils. Holy flame turns the mist to glitter, clears the affected part of the forest, and reveals a repeatable way to resist the phenomenon."
+    },
+    {
+      "title": "The First Forest reclaims the quarry road",
+      "meta": "8 May 2026 · quest-RP",
+      "sort": "2026-05-08",
+      "era": "2026 · Consequences",
+      "kind": "Quarry expedition",
+      "article": "first-forest",
+      "location": "First Forest; quarry road; Prima",
+      "people": "Camilla; Lady Severina; Karnak; Selwyn Bloostone",
+      "tags": [
+        "quarry",
+        "reclaimed road",
+        "frozen stream",
+        "wolves"
+      ],
+      "summary": "Camilla, Lady Severina, Karnak, and Selwyn take the intermittently used quarry route through the First Forest and find that nature has reclaimed its path. They keep their direction into the foothills, reach a stone bridge over a frozen stream, and face a hungry wolf pack on the approach."
+    },
+    {
       "title": "Brianna chooses sanctification",
       "meta": "2026 · exact date unresolved",
       "sort": "2026-06",
@@ -5820,7 +5923,7 @@ const archiveIndex = {
       "era": "2026 · Consequences",
       "kind": "Regional aftermath",
       "article": "pristinia",
-      "location": "Prima; Fein Uaill",
+      "location": "Pilgrim’s Hearth; Pristinia; Prima; Fein Uaill",
       "people": "Jon; Miriel; Magnus",
       "tags": [
         "expansion",
@@ -6018,7 +6121,7 @@ const archiveIndex = {
       "sort": "2026-09-19c",
       "era": "2026 · Consequences",
       "kind": "Civic continuity",
-      "article": "common-man",
+      "article": "pilgrims-hearth",
       "location": "Pilgrim’s Hearth; Pristinia",
       "people": "Thorn; Aurélia; Marius; Saoirse",
       "tags": [
@@ -8037,7 +8140,7 @@ const archiveIndex = {
       "parent": "Pristinia",
       "type": "tavern / successor institution",
       "meta": "Prima › Pristinia · tavern",
-      "article": "common-man",
+      "article": "pilgrims-hearth",
       "summary": "Built on the Common Man’s foundations and active by September 2026 as a place for tea, news, and ordinary social life.",
       "source": "State of the World + scene + screenshot",
       "aliases": [
@@ -8067,7 +8170,7 @@ const archiveIndex = {
       "parent": "Prima",
       "type": "forest",
       "meta": "Prima · forest",
-      "article": "prima-pristinia",
+      "article": "first-forest",
       "summary": "An active exploration and hunting location associated with Al-Shomer.",
       "source": "Scene + screenshot",
       "aliases": [
@@ -9442,8 +9545,16 @@ const navigationRegions = [
             "article": "pristinia"
           },
           {
+            "label": "The First Forest",
+            "article": "first-forest"
+          },
+          {
             "label": "The Common Man",
             "article": "common-man"
+          },
+          {
+            "label": "The Pilgrim’s Hearth",
+            "article": "pilgrims-hearth"
           },
           {
             "label": "The Before Survey",
@@ -9576,7 +9687,9 @@ const fixedArticlePaths = new Map([
   ["visual-archive", ["Locations", "Location Atlas"]],
   ["prima-pristinia", ["Locations", "Prima"]],
   ["pristinia", ["Locations", "Prima", "Pristinia"]],
+  ["first-forest", ["Locations", "Prima", "The First Forest"]],
   ["common-man", ["Locations", "Prima", "Pristinia", "The Common Man"]],
+  ["pilgrims-hearth", ["Locations", "Prima", "Pristinia", "The Pilgrim’s Hearth"]],
   ["before-survey", ["Locations", "Prima", "The Before Survey"]],
   ["fein-uaill", ["Locations", "Fein Uaill"]],
   ["zarathis", ["Locations", "Fein Uaill", "Zarathis"]],
@@ -9835,9 +9948,19 @@ const subchannelMap = {
       "summary": "Settlement, walls, farms, winter stores, and belonging."
     },
     {
+      "label": "The First Forest",
+      "article": "first-forest",
+      "summary": "Old-growth woodland, travel corridor, recovered routes, and dangers at Pristinia’s edge."
+    },
+    {
       "label": "The Common Man",
       "article": "common-man",
       "summary": "Pristinia’s accumulated civilian room and the foundations inherited by Pilgrim’s Hearth."
+    },
+    {
+      "label": "The Pilgrim’s Hearth",
+      "article": "pilgrims-hearth",
+      "summary": "The rebuilt tavern that restored ordinary hospitality on the Common Man’s foundations."
     },
     {
       "label": "The Before Survey",
@@ -9857,9 +9980,19 @@ const subchannelMap = {
   ],
   "pristinia": [
     {
+      "label": "The First Forest",
+      "article": "first-forest",
+      "summary": "The old-growth woodland beginning at the settlement’s edge and carrying its roads toward wider Prima."
+    },
+    {
       "label": "The Common Man",
       "article": "common-man",
       "summary": "Work, music, hunger, memorial, destruction, and succession on the same foundations."
+    },
+    {
+      "label": "The Pilgrim’s Hearth",
+      "article": "pilgrims-hearth",
+      "summary": "The larger successor tavern standing on remembered ground by July 2026."
     },
     {
       "label": "Prima overview",
@@ -9868,6 +10001,11 @@ const subchannelMap = {
     }
   ],
   "common-man": [
+    {
+      "label": "The Pilgrim’s Hearth",
+      "article": "pilgrims-hearth",
+      "summary": "The successor tavern that rose on the Common Man’s foundations after the fire."
+    },
     {
       "label": "Pristinia",
       "article": "pristinia",
@@ -9887,6 +10025,40 @@ const subchannelMap = {
       "label": "Tobias",
       "article": "tobias",
       "summary": "A future Ale-Chemy main member who volunteers when the tavern reveals the winter food shortage."
+    }
+  ],
+  "pilgrims-hearth": [
+    {
+      "label": "The Common Man",
+      "article": "common-man",
+      "summary": "The destroyed tavern whose foundations and civic purpose the Hearth inherits."
+    },
+    {
+      "label": "Pristinia",
+      "article": "pristinia",
+      "summary": "The settlement whose residents and adventurers rebuilt an ordinary gathering place."
+    },
+    {
+      "label": "Eovar Harbor",
+      "article": "eovar-harbor",
+      "summary": "The port where cedar purchased for the rebuilding was stolen."
+    }
+  ],
+  "first-forest": [
+    {
+      "label": "Pristinia",
+      "article": "pristinia",
+      "summary": "The settlement at the forest’s edge and the destination of its returning expeditions."
+    },
+    {
+      "label": "Prima overview",
+      "article": "prima-pristinia",
+      "summary": "The island geography that connects the forest to the Gate, Eovar, and the Old Earth Hills."
+    },
+    {
+      "label": "Eovar Harbor",
+      "article": "eovar-harbor",
+      "summary": "The nearby port reached by roads that pass through or skirt the First Forest."
     }
   ],
   "visual-archive": [

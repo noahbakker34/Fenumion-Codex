@@ -1446,6 +1446,17 @@ const articles = [
     "body": ""
   },
   {
+    "id": "kurayami",
+    "category": "People",
+    "title": "",
+    "type": "",
+    "dek": "",
+    "tags": [],
+    "facts": {},
+    "sources": [],
+    "body": ""
+  },
+  {
     "id": "roderick-wrath",
     "title": "Roderick / Wrath",
     "category": "People",
@@ -9428,6 +9439,10 @@ const navigationRegions = [
           },
           {
             "label": "Veiled record",
+            "article": "kurayami"
+          },
+          {
+            "label": "Veiled record",
             "article": "papirak-paloma"
           },
           {
@@ -9684,6 +9699,7 @@ const fixedArticlePaths = new Map([
   ["themes", ["Timeline", "Foundations", "Themes of Fenumion"]],
   ["relationships", ["Archive", "Relationships in Motion"]],
   ["open-questions", ["Archive", "Unresolved Record"]],
+  ["kurayami", ["Characters", "Gods & witnesses", "Kurayami / Abyss"]],
   ["visual-archive", ["Locations", "Location Atlas"]],
   ["prima-pristinia", ["Locations", "Prima"]],
   ["pristinia", ["Locations", "Prima", "Pristinia"]],
@@ -10250,6 +10266,7 @@ const restrictedArticleIds = new Set([
   "cala",
   "mya",
   "namoo",
+  "kurayami",
   "delerium",
   "the-gate",
   "the-before-melian",

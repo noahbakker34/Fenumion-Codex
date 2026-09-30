@@ -7397,10 +7397,15 @@ const archiveIndex = {
       "summary": "A practical warrior remembered as the Guardian of a wounded region in recovery."
     },
     {
-      "title": "Aleister / Alastair",
-      "meta": "Character index",
+      "title": "Alesteir",
+      "meta": "Player character · character index",
       "article": "people-directory",
-      "summary": "A spelling variant preserved from the source catalogue."
+      "image": "assets/characters/alesteir.png",
+      "aliases": [
+        "Aleister",
+        "Alastair"
+      ],
+      "summary": "A player character whose portrait is now correctly assigned; older spelling variants remain searchable."
     },
     {
       "title": "Aravil",
@@ -7764,7 +7769,6 @@ const archiveIndex = {
       "title": "Alessio",
       "meta": "Common Man worker",
       "article": "common-man",
-      "image": "assets/characters/alessio.png",
       "summary": "Works the tables, cleans mugs, and makes the tavern legible as a civilian workplace."
     },
     {

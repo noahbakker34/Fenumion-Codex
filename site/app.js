@@ -1542,6 +1542,39 @@ const articles = [
     "body": "<p>Aria’s great strength is provenance. She remembers what people did, what their cultures believe, what promises they made, and what contradictions an audience will recognize. Her encounters can operate as political arguments because the crowd is not scenery; existing belief is part of the battlefield.</p>\n      <h2 id=\"origin\">Failed authority and the birth of Pride</h2>\n      <p>Recovered childhood material places young Aria in a village suffering winter, flood, and failed prayers. A temple associated with Talan becomes the emblem of an institution that did not protect the people who trusted it; she leaves and burns it. The scene helps explain her hostility toward moral authority without excusing what she later does with power.</p>\n      <p>An older brother appears in this early account, while Aria later says she has no siblings. The contradiction remains open rather than being reconciled into a preferred version.</p>\n      <h2 id=\"scribonia-gem\">Knowledge made captive · July 2025</h2>\n      <p>Aria traps Scribonia in a gemstone amid larger struggles over leverage and god-killing knowledge. The act condenses her political method: people, research, grievance, and fear can all become instruments when she decides the outcome warrants control.</p>\n      <h2 id=\"public-power\">Public power</h2>\n      <p>On 5 August 2025, Aria confronts Adelia in front of a crowd. She uses Adelia’s resurrection history and the culture’s charged relationship to divine magic; the audience shifts because her claims fit memories it already possesses. Olokun counters with private shared history, but Aria denies that history publicly and suggests his mind was altered. A truthful relationship is not automatically persuasive when the crowd cannot verify it.</p>\n      <h2 id=\"attachment\">Attachment as weakness</h2>\n      <p>Aria argues that loving people creates helplessness: eventually the person cannot be protected. Olokun’s answer is that protection is not ownership. People help each other become better, then allow the younger generation to act for itself. He later reads Aria as afraid—of gods, of mistakes, and of being small—without treating fear as absolution.</p>\n      <h2 id=\"private-aria\">The person beneath Pride</h2>\n      <p>In a private scene, Aria’s performance breaks when Olokun reciprocates her attraction. The larger-than-life antagonist becomes visibly young and frightened. Their relationship moves through enemy, familiarity, personhood, attraction, genuine care, and continuing disagreement. Understanding does not become forgiveness, and affection does not complete a redemption arc.</p>\n      <h2 id=\"war-council\">The War of Hearts</h2>\n      <p>At the later war council, Aria argues that victory requires imposed pain. Olokun answers that he may offer his own pain, not everyone else’s. Scribonia challenges Aria’s logic, and High Lord Bowene removes alliance with Death from consideration. The disagreement is not whether sacrifice exists, but who possesses the authority to assign its cost.</p>\n      <h2 id=\"death\">After her death</h2>\n      <p>Talan kills Aria on 6 November 2025 in a confrontation not intended as her final battle. The narration returns to the image already seen in private: Pride dies as a scared little girl, small at a god’s feet. Dumuzi later comes for his daughter’s body and calls it her temple. The party’s refusal exposes limits in his apparent omnipotence, while the body itself becomes an unresolved clue.</p>\n      <p>Her death creates succession rather than moral closure: unfinished relationships, contested political memory, Magnus’s ascent, and futures nobody expected to inherit. Aria remains consequential because the world must continue without receiving a final answer about who she might have become.</p>"
   },
   {
+    "id": "vain",
+    "title": "Vain",
+    "category": "People",
+    "type": "Knight of Death; hunter of Shards",
+    "video": "assets/archive/vain-knight-of-death.mp4",
+    "videoLayout": "landscape-hero",
+    "videoAlt": "Vain, a heavily armed Knight of Death, poised for battle",
+    "videoCaption": "Vain — Knight of Death and hunter of the world’s Shards.",
+    "dek": "Death’s most trusted Knight, according to Aionia: a distant but proven threat who hunts Shards for the Wyrm and seeks the grace of gods.",
+    "tags": [
+      "Vain",
+      "Death’s Knights",
+      "Dumuzi",
+      "Wyrm",
+      "Shards",
+      "Aionia"
+    ],
+    "facts": {
+      "Allegiance": "Death / Dumuzi",
+      "Standing": "Death’s most trusted Knight, according to Aionia",
+      "Method": "Hunts Shards for the Wyrm",
+      "Other objective": "Attempts to steal divine grace",
+      "Confirmed victory": "Defeated Aionia before 3 April 2026",
+      "Player status": "Non-player character"
+    },
+    "sources": [
+      "Quest RP, 3 Apr 2026 — Aionia’s account of her defeat, the lost tree, and the consumed island Shard",
+      "Quest RP, 3 Apr 2026 — Aionia identifies Vain as Death’s most trusted Knight and describes his objectives",
+      "User-supplied Vain visual record, 30 Sep 2026"
+    ],
+    "body": "<p>Vain enters the recovered history through damage already done. On 3 April 2026, Aionia tells Serath and the gathered adventurers that Vain defeated her. Death then took another tree, and Death’s worm devoured an island’s Shard until the land was left in ash. Her testimony establishes Vain as more than a ceremonial champion: he has overcome a divine power and helped create the conditions for the destruction of a living world-fragment.</p>\n      <p>The strongest description of his place among Death’s forces also comes from Aionia. She calls him Death’s most trusted Knight and says he hunts Shards for the Wyrm while attempting to steal the gods’ grace. These are consequential claims from a wounded participant rather than neutral narration, but the defeat she bears gives them immediate weight.</p>\n      <p>Vain’s personality remains mostly visible through method. He is a hunter operating across distance, pursuing sources of world-sustaining power rather than merely holding territory. Aionia considers him a far-off threat to the adventurers at that moment, yet she is hiding with her strength depleted and fears another follower of Death is already tracking her. The danger lies in reach, patience, and the ability to turn victory over a god into fuel for something larger.</p>\n      <h2 id=\"aionias-defeat\">The defeat of Aionia · 3 April 2026</h2>\n      <p>Aionia reports herself wounded and defeated. She says Vain tried to strip away her dominion and that she now lacks the strength to resist even a simple warrior. Her account connects personal defeat to a wider sequence: Death takes a tree, the Wyrm’s agent consumes a Shard, and an island is reduced to ash.</p>\n      <h2 id=\"the-hunt\">Hunting Shards for the Wyrm</h2>\n      <p>Vain’s target is not described as treasure in the ordinary sense. Shards sustain lands, histories, and surviving pieces of creation. Hunting them makes him an instrument of attrition against the structure of the world itself. Aionia separately describes a mist-like pursuer seeking to steal her remaining strength and feed it to the Wyrm; the record does not yet prove whether that pursuer is Vain, his servant, or another follower of Death.</p>\n      <h2 id=\"relationships\">Relationships and opposition</h2>\n      <p>Dumuzi is Vain’s master and source of rank. The Wyrm is the beneficiary of his Shard-hunting. Aionia is his known defeated opponent and a source who survived long enough to warn Serath, Thorn, Modeli, and their companions. Those adventurers inherit the practical consequence of his deeds even before they face him directly: protecting what remains of Aionia while learning that entire islands can be fed to the enemy.</p>\n      <h2 id=\"open-record\">The open record</h2>\n      <p>Vain’s mortal identity, numbered place among the Knights, origin, appearance before entering Death’s service, exact powers, role in taking the tree, and present location remain unrecovered. The visual record establishes his battle presentation, not the missing biography beneath the armor.</p>"
+  },
+  {
     "id": "elenia",
     "title": "Elenia",
     "category": "People",
@@ -6507,6 +6540,23 @@ const archiveIndex = {
       "summary": "Farkur admits repairing an escape ship and failing to report what he knew while denying participation in Yvette’s murder. The Guardians spare him; he offers the Knights’ bell and visits the graves."
     },
     {
+      "title": "Aionia names Vain as Death’s Shard hunter",
+      "meta": "3 Apr 2026",
+      "sort": "2026-04-03",
+      "era": "2026 · The war for the Shards",
+      "kind": "Divine defeat and warning",
+      "article": "vain",
+      "location": "Unrecovered refuge",
+      "people": "Vain; Aionia; Serath; Thorn; Modeli",
+      "tags": [
+        "Death’s Knights",
+        "Shards",
+        "Wyrm",
+        "divine grace"
+      ],
+      "summary": "A wounded Aionia says Vain defeated her before Death took another tree and the Wyrm’s agent consumed an island Shard. She names Vain as Death’s most trusted Knight, a hunter of Shards who attempts to steal divine grace."
+    },
+    {
       "title": "Ale-Chemy wealth enters Pristinia policy",
       "meta": "17 Apr 2026",
       "sort": "2026-04-17",
@@ -7525,6 +7575,13 @@ const archiveIndex = {
       "article": "aria-pride",
       "summary": "A daughter of Death whose philosophy treats attachment as future weakness.",
       "image": "aria-pride-portrait.png"
+    },
+    {
+      "title": "Vain",
+      "meta": "Knight of Death · Shard hunter",
+      "article": "vain",
+      "summary": "Death’s most trusted Knight according to Aionia, hunting Shards for the Wyrm and seeking divine grace.",
+      "video": "assets/archive/vain-knight-of-death.mp4"
     },
     {
       "title": "High Lord Bowene",
@@ -9370,6 +9427,10 @@ const navigationRegions = [
             "article": "tobias"
           },
           {
+            "label": "Vain",
+            "article": "vain"
+          },
+          {
             "label": "Vaemyr",
             "article": "vaemyr"
           },
@@ -9410,6 +9471,10 @@ const navigationRegions = [
           {
             "label": "Aria / Pride",
             "article": "aria-pride"
+          },
+          {
+            "label": "Vain",
+            "article": "vain"
           }
         ]
       },
@@ -9823,6 +9888,11 @@ const subchannelMap = {
   ],
   "death-dumuzi": [
     {
+      "label": "Vain",
+      "article": "vain",
+      "summary": "Aionia identifies him as Death’s most trusted Knight and a hunter acting for the Wyrm."
+    },
+    {
       "label": "Veiled record",
       "article": "wyrm-worlds-end",
       "summary": "Protected record."
@@ -9833,7 +9903,34 @@ const subchannelMap = {
       "summary": "Protected record."
     }
   ],
+  "vain": [
+    {
+      "label": "Veiled record",
+      "article": "death-dumuzi",
+      "summary": "Vain’s master and the source of his authority among Death’s Knights."
+    },
+    {
+      "label": "Veiled record",
+      "article": "wyrm-worlds-end",
+      "summary": "The world-ending power for which Vain hunts Shards."
+    },
+    {
+      "label": "Aria / Pride",
+      "article": "aria-pride",
+      "summary": "Another of Death’s Knights, whose recovered history reveals how the order turns wounds into instruments."
+    },
+    {
+      "label": "Roderick / Wrath",
+      "article": "roderick-wrath",
+      "summary": "Knight I of Death and an earlier example of the order’s bargains and consequences."
+    }
+  ],
   "wyrm-worlds-end": [
+    {
+      "label": "Vain",
+      "article": "vain",
+      "summary": "Death’s Shard hunter, described by Aionia as acting to feed the Wyrm."
+    },
     {
       "label": "Veiled record",
       "article": "great-fracture",

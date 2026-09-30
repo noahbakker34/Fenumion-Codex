@@ -7699,6 +7699,8 @@ const archiveIndex = {
       "title": "Di’Trillio",
       "meta": "Seeker · contamination-sensitive explorer",
       "article": "cave-company",
+      "image": "assets/archive/ditrillio-portrait.jpg",
+      "aliases": ["Di'trillio", "Ditrillio"],
       "summary": "Reads the contaminated corpse and nearby crystals differently, then argues that the cave should be cleared or collapsed."
     },
     {
@@ -11245,7 +11247,7 @@ function setupPeopleGallery() {
     const query = queryInput.value.trim().toLocaleLowerCase();
     const scopedPeople = activeKind === "all" ? people : people.filter(person => person.personKind === activeKind);
     const matches = query
-      ? scopedPeople.filter(person => (!isPlayerSafeArticle(person.article) ? "protected veiled record" : `${person.title} ${person.meta} ${person.summary}`).toLocaleLowerCase().includes(query))
+      ? scopedPeople.filter(person => (!isPlayerSafeArticle(person.article) ? "protected veiled record" : `${person.title} ${(person.aliases || []).join(" ")} ${person.meta} ${person.summary}`).toLocaleLowerCase().includes(query))
       : scopedPeople;
     const scopeLabel = activeKind === "player" ? "player characters" : activeKind === "npc" ? "NPC records" : "people records";
     kindBanner.innerHTML = activeKind === "npc" ? `<figure class="people-kind-banner-frame"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"><source src="assets/archive/aria-npc-banner.mp4" type="video/mp4"></video><figcaption>NPC archive · Aria / Pride, Knight II of Death.</figcaption></figure>` : "";

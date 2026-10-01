@@ -2794,6 +2794,43 @@ const articles = [
   }
 ];
 
+// The player ethos and the editorial reading guide belong together: one explains
+// how to inhabit Fenumion, while the other explains how to interpret its record.
+// Keep the former as the canonical route and absorb the legacy guide at startup.
+const ethosArticle = articles.find(article => article.id === "ethos-of-fenumion");
+const readingGuideIndex = articles.findIndex(article => article.id === "reading-the-codex");
+const readingGuide = readingGuideIndex >= 0 ? articles[readingGuideIndex] : null;
+if (ethosArticle && readingGuide) {
+  ethosArticle.type = "Player ethos & chronicle guide";
+  ethosArticle.dek = "How to inhabit Fenumion as a player—and how to read its chronicle without flattening perspective, uncertainty, or consequence.";
+  ethosArticle.tags = [...new Set([...ethosArticle.tags, ...readingGuide.tags, "Evidence"])];
+  ethosArticle.facts = { ...ethosArticle.facts, ...readingGuide.facts };
+  ethosArticle.sources = [...new Set([...ethosArticle.sources, ...readingGuide.sources])];
+  ethosArticle.body += `
+    <section class="chronicle-reading-guide" aria-labelledby="how-to-read-the-chronicle">
+      <p class="eyebrow">The Chronicle</p>
+      <h2 id="how-to-read-the-chronicle">How to read the Chronicle</h2>
+      <p class="chronicle-guide-intro">The same principles that govern play also govern the archive: people act with incomplete knowledge, claims keep their speakers, later revelations do not create retroactive certainty, and consequences remain part of history.</p>
+      ${readingGuide.body}
+    </section>`;
+  articles.splice(readingGuideIndex, 1);
+}
+
+const worldIndexArticle = articles.find(article => article.id === "world-index");
+if (worldIndexArticle) {
+  worldIndexArticle.body = worldIndexArticle.body
+    .replace('data-article="reading-the-codex"', 'data-article="ethos-of-fenumion"')
+    .replace('<span>How to Read</span><small>Evidence · Perspective · Uncertainty</small>', '<span>Ethos &amp; Chronicle Guide</span><small>Play · Evidence · Perspective</small>');
+}
+
+const livingArchiveArticle = articles.find(article => article.id === "conversation");
+if (livingArchiveArticle) {
+  livingArchiveArticle.body = livingArchiveArticle.body.replace(
+    '<a href="#reading-the-codex">How to Read the Codex</a> for the evidence key',
+    '<a href="#ethos-of-fenumion">The Ethos of Fenumion</a> for the player principles and evidence key'
+  );
+}
+
 const questTimelineAdditions = [
   {
     "title": "The first Called arrive in Prima",
@@ -10093,7 +10130,6 @@ const archiveLinks = [
   { label: "The Living Archive", article: "conversation" },
   { label: "The Complete Quest Record", article: "quest-record" },
   { label: "The Source Catalogue", article: "source-catalogue" },
-  { label: "How to Read the Codex", article: "reading-the-codex" },
   { label: "Relationships in Motion", article: "relationships" },
   { label: "Memorable Quotes", article: "memorable-quotes" },
   { label: "Unresolved Record", article: "open-questions" },
@@ -10942,6 +10978,7 @@ Object.entries(majorLocationSupplements).forEach(([id, supplement]) => {
 });
 
 const byId = new Map(articles.map(article => [article.id, article]));
+const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"]]);
 
 function mergeMedia(record, media) {
   if (!record || !media) return;
@@ -11068,7 +11105,7 @@ const hubPages = [
   { id: "visual-archive", label: "Locations", detail: "Regions · Settlements · Landmarks", image: "assets/archive/world-map.jpeg" },
   { id: "memorable-quotes", label: "Quotes", detail: "Words the world remembers", image: "assets/archive/throne.png" },
   { id: "conversation", label: "Living Archive", detail: "Memory · Evidence · Consequence", image: "assets/archive/fein-uaill.jpeg" },
-  { id: "reading-the-codex", label: "How to Read", detail: "Evidence · Perspective · Uncertainty", image: "assets/archive/pristinia.webp" }
+  { id: "ethos-of-fenumion", label: "Ethos & Guide", detail: "Play · Evidence · Perspective", image: "assets/archive/pristinia.webp" }
 ];
 const hubPageById = new Map(hubPages.map(page => [page.id, page]));
 const navigation = document.querySelector("#navigation");
@@ -11423,7 +11460,7 @@ function renderNavigation() {
   navigation.innerHTML = `
     <button type="button" class="ethos-sidebar-link" data-article="ethos-of-fenumion" data-nav-article="ethos-of-fenumion" data-label="The Ethos of Fenumion">
       <span class="ethos-sidebar-glyph" aria-hidden="true">✦</span>
-      <span class="ethos-sidebar-copy"><strong>The Ethos of Fenumion</strong><small>A guide for players</small></span>
+      <span class="ethos-sidebar-copy"><strong>The Ethos of Fenumion</strong><small>Player ethos &amp; chronicle guide</small></span>
       <span aria-hidden="true">›</span>
     </button>` + navigationRegions.map(region => `
     <section class="nav-region">
@@ -11442,7 +11479,8 @@ function renderNavigation() {
 }
 
 function renderArticle(route, pushHash = true) {
-  const [id, routeQuery = ""] = String(route || "").split("?");
+  const [requestedId, routeQuery = ""] = String(route || "").split("?");
+  const id = routeAliases.get(requestedId) || requestedId;
   const routeParams = new URLSearchParams(routeQuery);
   const requestedMapId = routeParams.get("map") || "";
   const article = byId.get(id) || articles[0];
@@ -11453,7 +11491,8 @@ function renderArticle(route, pushHash = true) {
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
   document.body.classList.toggle("quotes-view", article.id === "memorable-quotes");
   const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : ""}`;
-  if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
+  if (requestedId !== id && location.hash !== routeHash) history.replaceState(null, "", routeHash);
+  else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
   document.title = `${protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`;
   const path = articlePaths.get(article.id) || [article.category, article.title];
   breadcrumbs.innerHTML = protectedArticle ? `Codex <span>·</span> Protected record` : `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
@@ -12204,7 +12243,7 @@ window.addEventListener("popstate", () => renderArticle(location.hash.slice(1), 
 window.addEventListener("hashchange", () => {
   const route = location.hash.slice(1);
   const [id] = route.split("?");
-  if (byId.has(id)) renderArticle(route, false);
+  if (byId.has(id) || routeAliases.has(id)) renderArticle(route, false);
 });
 
 rebuildDerivedData();

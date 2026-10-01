@@ -11088,6 +11088,7 @@ const vaultDialog = document.querySelector("#vault-dialog");
 const vaultMessage = document.querySelector("#vault-message");
 const vaultSignin = document.querySelector("#vault-signin");
 const vaultAccount = document.querySelector("#vault-account");
+const campaignToolsButtons = [...document.querySelectorAll(".campaign-tools-button")];
 const recordDialog = document.querySelector("#record-dialog");
 const recordDialogContent = document.querySelector("#record-dialog-content");
 const recordDialogClose = document.querySelector("#record-dialog-close");
@@ -11287,6 +11288,7 @@ function protectedRecordAria(label, protectedRecord) {
 
 function updateVaultState() {
   document.body.classList.toggle("vault-open", vaultUnlocked);
+  campaignToolsButtons.forEach(button => { button.hidden = !vaultUnlocked; });
   vaultButton.classList.toggle("unlocked", vaultUnlocked);
   vaultButton.setAttribute("aria-label", vaultUnlocked ? "Lock the spoiler vault" : "Open the spoiler vault");
   vaultButton.setAttribute("aria-haspopup", vaultUnlocked ? "false" : "dialog");

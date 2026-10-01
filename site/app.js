@@ -1256,20 +1256,40 @@ const articles = [
     "title": "Papirak’s Legacy",
     "category": "History",
     "type": "Funeral, inheritance, and civic stewardship",
-    "dek": "A public record of Papirak’s Staff of Power, the missing grimoire, the work of his funeral, and a Pristinian decision still in progress.",
+    "dek": "Pristinia’s funeral for Papirak: a civic procession, a contested inheritance buried under magical protection, and mourning deliberately returned to living community.",
     "tags": ["Papirak", "Pristinia", "Staff of Power", "Grimoire", "Funeral", "Civic vote"],
     "facts": {
       "Staff": "Walking stick revealed as a Staff of Power",
       "Provenance": "Cherry-tree wood · final gift from Papirak’s wife",
-      "Public process": "Vote opened by Town Clerk Poe on 30 Sep 2026",
-      "Current disposition": "Unresolved",
+      "Funeral": "30 Sep 2026 · Pristinia",
+      "Current disposition": "Buried with Papirak under Sequester",
       "Grimoire": "Missing; hidden spells seen with Truesight"
     },
     "sources": [
       "Fenumion_Codex_Recommended_Additions_2026-09-30.md — provenance, civic vote, grimoire evidence chain, and unresolved questions",
-      "Quest-RP archive — earlier custody and investigation record summarized by the recommendation"
+      "Quest-RP archive — earlier custody and investigation record summarized by the recommendation",
+      "Papiraks_Funeral_Fenumion_2026-09-30.md — procession, burial, Sequester, speeches, celebration, and canon boundaries"
     ],
-    "body": "<p>Papirak’s death left Pristinia with more than a funeral to arrange. His belongings carry power, memory, monetary value, and unfinished questions. The public record therefore keeps three matters distinct: the fate of his walking stick, the disappearance of his grimoire, and the work of remembering a person whose projects continue after him.</p>\n      <div class=\"callout gold\"><p><strong>Unresolved by design.</strong> The vote was still developing when this record was prepared. No final result, lawful owner, moral winner, or disposition of the staff is encoded here.</p></div>\n      <h2 id=\"papirak-staff\">The walking stick was a Staff of Power</h2>\n      <p>Papirak’s walking stick is both a formidable magical object and a personal relic. Its wood came from a cherry tree planted on his wedding day, and his wife gave it to him as her final gift. Calling it a Staff of Power identifies what it can do; that mechanical identity does not erase where it came from or decide who may claim it.</p>\n      <p>Camilla Blackwood identified a possible sale value exceeding sixty thousand gold and recommended sale to the highest bidder. Her proposal makes civic utility concrete: such wealth could materially affect Pristinia. It remains a proposal, not proof of greed and not a final decision.</p>\n      <h2 id=\"papirak-public-process\">From private recommendation to public vote</h2>\n      <p>Camilla contacted Melian Starguard by Sending. Melian answered that the staff belonged with Papirak regardless of earthly value, yet she did not end the matter by decree. She referred it to public decision, and Town Clerk Poe announced the vote on 30 September 2026. The sequence matters: expertise identified value, civic leadership stated a contrary principle, and an institution gave the community a procedure.</p>\n      <p>Early positions remained attributed to their speakers. Aurélia favored Scribonia as a trusted custodian while expressing discomfort with taking the staff from Papirak. Vessalia also named Scribonia, emphasizing capability and unselfishness. Saoirse judged burial impractical under present threats and favored Scribonia or another future wielder capable of bearing the responsibility. Tshuka argued either for burial with Papirak or for retaining the staff in Pristinia’s defense. These positions document the debate; none is recorded as the outcome.</p>\n      <h2 id=\"papirak-grimoire\">The missing grimoire</h2>\n      <p>The grimoire follows a separate evidence chain. Papirak once held it and passed it to Stash. Fredrick later found an inscribed book whose pages appeared blank to him. After Fredrick died, the Ale-Chemy Knights looted his body and the book entered their stocks. Minerva examined the matter in February 2026 and found nothing. After Papirak’s later death, Fenwick noticed that his spellbook was absent.</p>\n      <p>In September 2026, Ryvyt and Jiangshi used Truesight and saw hidden spells in the book. The strongest supported conclusion is perceptual rather than accusatory: information was present when earlier observers could not perceive it. The record does not treat the book’s presence with any faction as proof of murder, theft from Papirak after his death, or knowing concealment by a named person.</p>\n      <h2 id=\"papirak-nonlinear\">A mystery whose world state changes</h2>\n      <p>Fredrick’s blank pages and Minerva’s unsuccessful search remain correct history because they record what those investigators could establish under their conditions. Truesight changed the available evidence without making earlier observers foolish or dishonest.</p>\n      <p>The funeral similarly gathers living consequences rather than closing them. Pell of Pristinia works on burial, mausoleum plans, and fundraising even while damage to Pell’s own memory complicates the act of preserving another’s. Fenwick’s magical capability may help identify and protect dangerous objects, but capability alone does not grant authority over Papirak’s belongings.</p>\n      <h2 id=\"papirak-stewardship\">Power, ownership, and stewardship</h2>\n      <p>The dispute places several legitimate values beside one another: personal ownership and memory, civic utility, trusted custodianship, institutional stewardship, and the temptation to treat adventuring capability as entitlement. Pristinia’s process is historically important precisely because it does not collapse those questions into one.</p>\n      <p>Still open are the final vote, whether that vote is binding, whether Melian will accept its result, the staff’s eventual disposition, Papirak’s intended inheritance, local inheritance custom, the grimoire’s present custody, and the future of his Training Dungeon. Later records should resolve only what later scenes actually settle.</p>"
+    "body": "<p>On 30 September 2026, Pristinia gathered to bury Papirak the Strange. The town assembled at the ice house, where Pell had prepared the body with incense and preservative spices. A simple fife played Eldin’s funeral dirge while Melian Starguard carried a torch at the head of the procession toward Papirak’s hill and Training Dungeon.</p>\n      <div class=\"callout gold\"><p><strong>Evidence boundary:</strong> this record distinguishes what happened from what mourners believed. Pappy’s funeral story is preserved as something he said, Camilla’s theft theory as her interpretation, and Scribonia’s ability to restore the Training Dungeon as an unproven belief.</p></div>\n      <h2 id=\"papirak-procession\">The Rite of the Flame</h2>\n      <p>Melian asked whether Pristinia was ready, and the town answered together. As rain fell, she recited a rite about bearing onward the light left by the dead. Scribonia’s wings joined the dirge with a low vibration. A newly carved statue by Jon stood along the road, gathering white wreaths and scattered wildflower seeds.</p>\n      <p>The route mattered. Generations of adventurers had walked it toward Papirak’s hut and the place commonly called the Training Dungeon. The town buried him inside the physical landscape of the work through which it knew him.</p>\n      <h2 id=\"papirak-staff\">The walking stick and the public decision</h2>\n      <p>Papirak’s familiar walking stick had been identified as a Staff of Power worth more than sixty thousand gold. It was also made from a cherry tree planted on his wedding day and given to him by his wife as her final gift. Camilla proposed selling it; Melian believed it belonged with Papirak; Aurélia, Vessalia, and Saoirse proposed trusted custodianship; and Tshuka supported burial or civic defense.</p>\n      <p>Scribonia refused to claim the staff. Melian then announced that it would remain Papirak’s final worldly possession. The public discussion did not produce a universally shared philosophy of inheritance, but it did produce a disposition: the staff was placed with Papirak.</p>\n      <h2 id=\"papirak-sequester\">Fenwick’s Sequester</h2>\n      <p>Pell invited Fenwick into the mausoleum. With Pell’s permission, Fenwick cast <strong>Sequester</strong> upon the staff, returned it, and allowed the burial to continue. Pell placed it with Papirak and the heavy stone lid was lowered. Fenwick used magical capability to protect another person’s ownership rather than treating capability as authority to claim the object.</p>\n      <p>Camilla could no longer detect the staff and warned Melian that it might have been stolen. Her observation was accurate; her interpretation was not established fact. Melian trusted Pell and Fenwick and continued the funeral, while Camilla left more suspicious of Pristinia’s security and leadership.</p>\n      <h2 id=\"papirak-final-words\">What the mourners carried forward</h2>\n      <p>Fenwick honored Papirak’s accomplishments despite not understanding his final behavior. Pell described the burial as meaningful service to Pristinia. Pappy poured whiskey, called on nature spirits, and told a story about completing the Gate with Papirak; the speech and ritual happened, but the claimed shared history is not independently established.</p>\n      <p>Scribonia admitted guilt that he had not protected Papirak, promised to Hallow the tomb, and publicly committed himself to attempting to restore the Training Dungeon. He also promised to leave a portion of himself in Pristinia to guard, teach, aid, and offer knowledge. The promise is canon. His belief that complete restoration is possible remains a sincere but unproven character belief.</p>\n      <h2 id=\"papirak-light\">Melian’s last words</h2>\n      <p>Melian remembered Papirak’s light as strange, mad, lost, and entirely his own. She described sacrifice as choosing that someone else should receive the light one might have kept, then asked the living to carry what Papirak had given them. She spoke for herself rather than imposing one meaning on every mourner.</p>\n      <h2 id=\"papirak-celebration\">To living—and dying</h2>\n      <p>Herb broke the solemnity by insisting Papirak would have wanted a life celebrated. Fireballs and magical displays filled the sky, Scribonia conjured the illusion of an Ancient Gold Dragon, and the crowd moved toward <a href=\"#pilgrims-hearth\">the Pilgrim’s Hearth</a> for food, drink, music, and company. The rain, tomb, and grief remained; they were no longer the only things present.</p>\n      <h2 id=\"papirak-grimoire\">The unfinished grimoire</h2>\n      <p>Papirak’s missing grimoire remains a separate investigation. Fredrick saw inscribed covers and blank pages, Minerva later found no readable spell record, and Ryvyt and Jiangshi eventually used Truesight to perceive hidden spells. The changing evidence does not establish murder, knowing concealment, or theft by a named faction.</p>\n      <h2 id=\"papirak-consequences\">What became true</h2>\n      <p>Papirak is entombed in Pristinia. His staff lies with him under Sequester. Pell’s service, Fenwick’s protection, Scribonia’s promise, Camilla’s suspicion, Melian’s rite, and Herb’s celebration now belong to the town’s history. The mausoleum and Training Dungeon remain persistent places whose future will test whether memory can guide stewardship without becoming ownership.</p>"
+  },
+  {
+    "id": "papiraks-mausoleum",
+    "title": "Papirak’s Mausoleum",
+    "category": "Places",
+    "type": "Pristinia memorial and magically protected tomb",
+    "dek": "Papirak’s final resting place beside the Training Dungeon, made into a persistent civic landmark by burial, protection, suspicion, and promises for the future.",
+    "tags": ["Papirak", "Pristinia", "Mausoleum", "Funeral", "Sequester", "Memorial"],
+    "facts": {
+      "Parent": "Pristinia · Prima",
+      "Entombment": "30 Sep 2026",
+      "Burial prepared by": "Pell",
+      "Staff protection": "Fenwick’s Sequester",
+      "Further protection": "Scribonia and local nature spirits"
+    },
+    "sources": [
+      "Papiraks_Funeral_Fenumion_2026-09-30.md — construction, entombment, protections, and civic aftermath"
+    ],
+    "body": "<p>Papirak’s Mausoleum stands near the hill and Training Dungeon that shaped his public life in Pristinia. Pell prepared the burial and carried it through to completion on 30 September 2026, turning earlier plans, fundraising, and practical service into a permanent place of memory.</p>\n      <h2 id=\"mausoleum-burial\">The burial</h2>\n      <p>Pell carried Papirak and his walking stick inside. With Pell’s permission, Fenwick cast Sequester upon the Staff of Power, returned it, and watched the heavy stone lid close. The staff’s disappearance from magical detection later alarmed Camilla, but it remained where the funeral had placed it.</p>\n      <h2 id=\"mausoleum-protections\">Layered protections</h2>\n      <p>Scribonia placed holy protection over the tomb and promised to Hallow Papirak’s resting place. Nature spirits were called to watch it, and Fenwick’s Sequester concealed the staff within. These acts make the mausoleum more than a grave: it is a protected civic site shaped by several people whose motives range from grief and service to vigilance and fear.</p>\n      <h2 id=\"mausoleum-landscape\">A tomb beneath unfinished work</h2>\n      <p>The Training Dungeon remains visible from the burial landscape. Scribonia’s public promise to attempt its restoration binds the tomb to future teaching, research, and possible failure. The mausoleum therefore records both an ending and an obligation the living have chosen to inherit.</p>\n      <h2 id=\"mausoleum-open-record\">Open record</h2>\n      <p>The exact architecture, completeness of Pell’s intended wards, long-term guardianship, public access, and future threats remain unresolved. Camilla’s suspicion is part of the site’s social history, but no theft is established.</p>"
   },
   {
     "id": "common-man",
@@ -1319,13 +1339,15 @@ const articles = [
       "Predecessor": "The Common Man",
       "Foundation": "The Common Man’s former site",
       "Established": "Standing by 29 Jul 2026",
-      "Confirmed active": "19 Sep 2026"
+      "Confirmed active": "19 Sep 2026",
+      "Papirak’s wake": "30 Sep 2026"
     },
     "sources": [
       "The_Common_Man_Location_Profile_and_History.md — succession and evidence limits",
       "State of the World record — standing on the Common Man’s foundations by 29 Jul 2026",
       "Quest-RP scene, 19 Sep 2026 — tea, news, and social life in the completed tavern",
-      "User-supplied moving location record, 29 Sep 2026"
+      "User-supplied moving location record, 29 Sep 2026",
+      "Papiraks_Funeral_Fenumion_2026-09-30.md — communal celebration after Papirak’s burial"
     ],
     "body": "<p>The Pilgrim’s Hearth is the tavern that followed <a href=\"#common-man\">the Common Man</a> after zombie pirates burned Pristinia’s accumulated civilian room. It stands on the same foundations without pretending that the earlier institution was never lost.</p>\n      <div class=\"callout gold\"><p><strong>Continuity without replacement:</strong> the Hearth is a new place on remembered ground. The archive treats rebuilding as history, not as a reset.</p></div>\n      <h2 id=\"hearth-rebuilding\">Rebuilding becomes civic life</h2>\n      <p>By 3 July 2026, townsfolk were hauling charred beams, salvaging usable stone, bringing timber and nails, and spending resources donated by adventurers. The planned replacement was larger than its predecessor and intended as a refuge for lost and wandering souls as well as familiar faces. Expensive cedar paneling was purchased to make another fire less likely, tying the project to Eovar when those materials were stolen there.</p>\n      <p>By 29 July, the Pilgrim’s Hearth stood on the Common Man’s foundations and was described as a symbol of growth and change. That description establishes its public meaning without identifying its architect, owner, builder, or precise physical inheritance.</p>\n      <h2 id=\"hearth-ordinary-life\">19 September 2026 · ordinary life returns</h2>\n      <p>The Hearth is active again as a social room. Thorn, Aurélia, Marius, and Saoirse drink tea, exchange news, and speak about Gael, the Magic Academy, teaching, and the farm. The scene is important precisely because the rebuilt tavern no longer needs to make every conversation about its own destruction.</p>\n      <p>The new structure restores a civic threshold: a place where adventurers and residents can enter without already belonging to a quest, encounter the settlement’s needs, and allow small conversations to become later history.</p>\n      <h2 id=\"hearth-inheritance\">What the Hearth inherits</h2>\n      <p>It inherits location, public purpose, and the community’s need for an ordinary gathering room. It does not automatically inherit every employee, custom, object, ownership claim, or relationship attached to the Common Man. Those continuities require direct evidence rather than assumption.</p>\n      <h2 id=\"hearth-open-record\">The open record</h2>\n      <p>The builder and owner, its complete floor plan, the fate of the Common Man’s surviving staff, which furnishings or traditions crossed into the new tavern, and how Pristinia formally understands the institution remain unresolved. The supplied moving record establishes the Hearth’s visual identity but does not answer those historical questions.</p>"
   },
@@ -3739,7 +3761,10 @@ const questEventConsequences = {
   "Minerva finds no readable trace in Papirak’s grimoire": "The failed observation remains evidence rather than an embarrassment to be erased. Fredrick had also seen inscribed covers and blank pages, so Minerva’s result preserves the conditions under which capable investigators could honestly find nothing; it does not prove that the book was empty, substituted, or knowingly concealed.",
   "Truesight reveals the grimoire’s hidden spells": "The revelation changes the mystery’s world state instead of awarding retroactive progress. A new perceptual condition makes existing information visible, narrowing the question from whether the pages contain anything to why the writing was hidden, who knew how to reveal it, and what responsibilities follow from that knowledge.",
   "Pell prepares Papirak’s burial and memorial": "The work makes memory material through a grave, a possible mausoleum, and the ordinary problem of paying for both. Pell’s damaged memory gives the labor additional weight: a person struggling to preserve parts of their own past is nevertheless helping a community preserve Papirak’s place in its history.",
-  "Pristinia opens a vote on Papirak’s Staff of Power": "The process distinguishes value from authority. Camilla can identify what a sale might fund, Melian can state that personal belonging should outweigh price, and powerful mages can be proposed as custodians without any of those facts automatically establishing ownership. Until a later scene records a result, every position remains a position rather than canonized policy.",
+  "Pristinia opens a vote on Papirak’s Staff of Power": "The process distinguishes value from authority. Camilla identifies what a sale might fund, Melian argues that personal belonging should outweigh price, and several residents propose trusted custodians without treating magical capability as ownership. The funeral later resolves the immediate disposition when Scribonia refuses the staff and Melian orders it buried with Papirak.",
+  "Pristinia carries Papirak to his hill": "The procession makes Papirak’s death civic history rather than a private loss. The Rite of the Flame asks the living to carry what the dead can no longer bear, while the road, statue, Training Dungeon, rain, music, and assembled townspeople turn Pristinia’s landscape into an active memorial. Pappy’s later claims about an older shared history remain attributed speech, not retroactive fact.",
+  "Papirak’s staff is entombed under Sequester": "The burial converts a debate about wealth and utility into a decision about provenance and stewardship. Fenwick’s spell protects the chosen disposition without granting him ownership; Camilla’s failed detection accurately records the spell’s effect but not her conclusion that theft occurred. The resulting mistrust becomes a continuing social consequence even though the object remains in the tomb.",
+  "Papirak’s mourners turn toward living": "The funeral creates obligations rather than closure. Scribonia’s promise to work on the Training Dungeon is real even though success is not established, Pell discovers meaning in service, and Camilla leaves with greater suspicion. Herb’s call to the Pilgrim’s Hearth lets celebration coexist with grief, returning the town to food, drink, music, and relationships without pretending the loss is finished.",
   "The first Called arrive in Prima": "The arrival establishes the pattern that defines the early campaign: strangers are placed together before they understand the Gate, the gods, or one another. Their first important act is not conquest but accepting that an unfinished settlement and its people are now part of their responsibility.",
   "The newcomers scout beyond Pristinia": "The patrol gives the new arrivals their first evidence that Prima is stranger than the settlement suggests. The enormous distant movement remains unidentified, while John’s severed branch demonstrates that even apparently ordinary natural objects may be sustained by relationships the party does not yet understand.",
   "Melian gives the newcomers a town to improve": "Melian frames Pristinia as work rather than a reward. The meeting turns a collection of summoned adventurers into potential residents by asking them to notice roads, food, medicine, defense, and the material needs of people who cannot solve every problem with magic.",
@@ -4140,7 +4165,43 @@ const archiveIndex = {
       "location": "Pristinia",
       "people": "Poe; Melian Starguard; Camilla Blackwood; Aurélia; Scribonia; Vessalia; Saoirse; Tshuka Hayim",
       "tags": ["Staff of Power", "inheritance", "vote", "stewardship"],
-      "summary": "After Camilla proposes selling Papirak’s staff and Melian argues it belongs with him regardless of earthly value, Town Clerk Poe opens the question to a public vote whose result remains unresolved."
+      "summary": "After Camilla proposes selling Papirak’s staff and Melian argues it belongs with him regardless of earthly value, Town Clerk Poe opens the question to public deliberation before the funeral."
+    },
+    {
+      "title": "Pristinia carries Papirak to his hill",
+      "meta": "30 Sep 2026 · funeral",
+      "sort": "2026-09-30p1",
+      "era": "2026 · Civic stewardship",
+      "kind": "Funeral procession",
+      "article": "papirak-legacy",
+      "location": "Ice House; Papirak’s Hill; Pristinia",
+      "people": "Papirak; Melian Starguard; Pell; Scribonia; Fenwick; Pappy; Aurélia; Vessalia; Di’Trillio; Bitoshi; Jiangshi; Saoirse; Herb; Pristinia residents",
+      "tags": ["funeral", "Rite of the Flame", "procession", "memory"],
+      "summary": "The town gathers at the ice house and follows Melian’s torch through rain toward Papirak’s Training Dungeon, carrying the prepared casket past Jon’s new statue while Eldin’s dirge and Scribonia’s wings sound together."
+    },
+    {
+      "title": "Papirak’s staff is entombed under Sequester",
+      "meta": "30 Sep 2026 · funeral",
+      "sort": "2026-09-30p2",
+      "era": "2026 · Civic stewardship",
+      "kind": "Burial and stewardship",
+      "article": "papiraks-mausoleum",
+      "location": "Papirak’s Mausoleum; Pristinia",
+      "people": "Papirak; Pell; Fenwick; Melian Starguard; Camilla Blackwood",
+      "tags": ["Staff of Power", "Sequester", "burial", "ownership"],
+      "summary": "After Scribonia refuses the proposed custodianship, Melian places the staff with Papirak. Fenwick casts Sequester with Pell’s permission, returns the staff for burial, and Camilla’s later inability to detect it becomes suspicion rather than evidence of theft."
+    },
+    {
+      "title": "Papirak’s mourners turn toward living",
+      "meta": "30 Sep 2026 · funeral",
+      "sort": "2026-09-30p3",
+      "era": "2026 · Civic stewardship",
+      "kind": "Memorial and community celebration",
+      "article": "pilgrims-hearth",
+      "location": "Papirak’s Mausoleum; Pilgrim’s Hearth; Pristinia",
+      "people": "Melian Starguard; Scribonia; Herb; Fenwick; Pell; Pappy; Camilla Blackwood; Pristinia residents",
+      "tags": ["final words", "fireworks", "Pilgrim’s Hearth", "continuity"],
+      "summary": "Scribonia promises to attempt restoration of the Training Dungeon, Melian speaks of carrying Papirak’s light, and Herb breaks the solemnity with a call to celebrate. Magical fireworks lead the town toward food, drink, and music at the Pilgrim’s Hearth."
     },
     {
       "title": "The first Called arrive in Prima",
@@ -7806,13 +7867,13 @@ const archiveIndex = {
       "title": "Papirak",
       "meta": "Wizard · builder · subject of an unfinished estate",
       "article": "papirak-legacy",
-      "summary": "A Pristinian wizard whose death leaves a funeral, Training Dungeon, missing grimoire, and deeply personal Staff of Power for the living to steward without erasing their provenance."
+      "summary": "A Pristinian wizard formally entombed beside his Training Dungeon, with his Staff of Power buried under Sequester and his unfinished institutions inherited by the living."
     },
     {
       "title": "Melian Starguard",
       "meta": "Pristinian civic leader",
       "article": "papirak-legacy",
-      "summary": "Rejects earthly value as the sole measure of Papirak’s staff and refers its disposition to public decision instead of settling the matter by decree."
+      "summary": "Leads Papirak’s Rite of the Flame, hears the public dispute over his staff, and ultimately returns it to him as his final worldly possession."
     },
     {
       "title": "Poe",
@@ -8462,6 +8523,22 @@ const archiveIndex = {
       "aliases": [
         "The Pilgrim's Hearth",
         "Pilgrims Hearth"
+      ],
+      "level": "site"
+    },
+    {
+      "title": "Papirak’s Mausoleum",
+      "region": "Prima",
+      "parent": "Pristinia",
+      "type": "mausoleum / memorial",
+      "meta": "Prima › Pristinia · protected tomb",
+      "article": "papiraks-mausoleum",
+      "summary": "Papirak’s final resting place beside the Training Dungeon, where Pell completed the burial and Fenwick concealed the entombed Staff of Power with Sequester.",
+      "source": "Papirak’s funeral record",
+      "aliases": [
+        "Papirak Mausoleum",
+        "Papirak’s Tomb",
+        "Papirak's Mausoleum"
       ],
       "level": "site"
     },
@@ -11965,7 +12042,7 @@ function runSearch(query) {
     ["Timeline", archiveIndex.timeline],
     ["Locations", archiveIndex.islands]
   ];
-  const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => group !== "Timeline" || !isRestrictedTimelineEvent(item)).map(item => {
+  const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => item?.title && (group !== "Timeline" || !isRestrictedTimelineEvent(item))).map(item => {
     const haystack = `${group} ${item.title} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`.toLowerCase();
     const titleMatch = item.title.toLowerCase().includes(normalized) ? 4 : 0;
     const allTermsMatch = terms.every(term => haystack.includes(term));

@@ -1538,22 +1538,27 @@ const articles = [
     "imageLayout": "portrait-hero",
     "imageAlt": "Magnus Niriin, a blue-skinned tiefling warlock with curled horns, glowing eyes, dark hair, and gold-trimmed black clothing",
     "imageCaption": "Magnus Niriin — warlock, Silver Star, and political figure.",
-    "dek": "An ambitious Zarathian who seeks autonomy through power and leverage while his permanent bargain makes him the property of Death.",
+    "dek": "A Prima adventurer who became a Rahu informant and field commander within two months, then sought autonomy through power even as his bargains made him increasingly dependent on Death.",
     "tags": [
       "Magnus Niriin",
+      "Prima",
+      "Rahu–Pristinia War",
       "Zarathis",
       "Silver Star",
       "Death",
       "Papirak"
     ],
     "facts": {
-      "Pattern": "Ambition → shortcut → leverage → dependency",
-      "Allegiance": "Silver Star; Zarathian political figure",
+      "Pattern": "Criticism → sympathy → access → intelligence → allegiance → violence",
+      "Early allegiance": "Rahu operative during the 2025 siege",
+      "Later allegiance": "Silver Star; Zarathian political figure",
       "Soul bond": "Permanently belongs to Death",
-      "Record": "High confidence; early chronology partial"
+      "Player status": "Player character",
+      "Record": "High confidence; formal Rahu initiation unresolved"
     },
     "sources": [
       "Magnus_Niriin_Character_Profile_and_History.md — consolidated character record, evidence limits, quotations, and retrieval anchors",
+      "Magnus_Early_Prima_and_Rahu_War.md — reconstructed April–June 2025 chronology, direct scenes, contemporary testimony, and evidence limits",
       "MASTER_TIMELINE.md — dated regional and character consequences",
       "CHARACTER_BIBLE.md — earlier Magnus synthesis",
       "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Wish-unbound report and Scribonia’s proposed containment response"
@@ -2732,7 +2737,7 @@ const articles = [
       "Continuity"
     ],
     "facts": {
-      "Events": "191 recovered entries",
+      "Events": "192 recovered entries",
       "Scope": "Recovered campaign chronology",
       "Ordering": "Causal history and player discovery",
       "Coverage": "The Calling through 2026 · ancient world in keeper view",
@@ -2793,6 +2798,40 @@ const articles = [
     "body": "<p>Larkhollow is much newer to the recorded adventuring history than Pristinia, Gael, or The Before. That distinction matters: the archive can still separate what existed before contact from what adventurers have actually learned. The settlement lies far enough from established centers that reaching it requires meaningful travel, and a ruined tower already gives the place a visible history older than the visiting parties.</p>\n      <h2 id=\"larkhollow-first-contact\">29 June 2026 · first recovered arrival</h2>\n      <p>Travelers reach Larkhollow and find lodging with a view toward the ruined tower. At the expedition’s end, the location opens for continued roleplay, turning a destination on one journey into a place characters can revisit and inhabit socially. This is the beginning of Larkhollow’s player-facing history, not the beginning of the settlement itself.</p>\n      <h2 id=\"larkhollow-tower\">The ruined tower</h2>\n      <p>By 28 July, characters refer to relics associated with the old tower. The record confirms that the ruin has material remains and local significance without yet establishing who built it, why it fell, or what the settlement’s people believe happened there.</p>\n      <h2 id=\"larkhollow-route\">A destination on the wider travel network</h2>\n      <p>By 7 September, another company prepares to travel from the coast of Gael through Verdelune toward Larkhollow, a journey described as taking many hours. The settlement is no longer merely the endpoint of one quest. It is a recognized destination with a repeatable route.</p>\n      <h2 id=\"larkhollow-current-state\">Current state and open record</h2>\n      <p>Larkhollow is reachable, inhabitable, and only lightly explored. The tower’s builders and destruction, the settlement’s economy and political relationships, the dangers along its routes, and the effect of regular adventurer traffic remain open. Its history should be allowed to accumulate rather than being completed in advance.</p>"
   }
 ];
+
+// The recovered Rahu-war dossier closes the largest gap in Magnus's early
+// chronology. Keep the source-level article readable while adding the new
+// evidence as a distinct, provenance-aware opening arc.
+const magnusArticle = articles.find(article => article.id === "magnus");
+if (magnusArticle) {
+  const earlyMagnusArc = [
+    '<h2 id="prima-arrival">Arrival on Prima · 6 April 2025</h2>',
+    '<p>Magnus arrives with Dez and Brianna in the discrete event remembered as Ada Arrival Three. He does not enter the record as an obvious enemy of Pristinia. Within days he is part of ordinary adventuring life: he has traveled into the Before with Fredrick, shops with Aravil, and answers Papirak’s raven summons beside Brianna, Pappy, Ghilsen, and people he will soon meet across a battlefield.</p>',
+    '<p>This baseline matters. Magnus’s betrayal is not the unveiling of a stranger who had always stood outside the community. It is a rapid political realignment by somebody who had eaten, traveled, shopped, and taken risks among the people affected by his later choices.</p>',
+    '<h2 id="rahu-sympathy">Criticism, Rahu sympathy, and access · 7 May 2025</h2>',
+    '<p>Magnus openly criticizes Pristinia’s government for paying adventurers rather than developing the town and argues that compensation should follow the importance of the work. He presents the Rahu as “good people,” hopes trade with them will improve the economy, and urges others not to judge an entire people before meeting Ambassador Sophina. These are his documented political claims; the record does not pretend to know whether they were wholly sincere, opportunistic, or both.</p>',
+    '<p>Sympathy becomes access-seeking. Magnus bows to Sophina, offers his help, tries to accompany sensitive negotiations, and is warned not to overstep. He later seeks her out with information about people he says intend to thwart a Rahu agreement. Strange Talon separately gives him a Rahu account of grievances involving Aravil and Ithilrûnë. The formal moment of enlistment remains unrecovered, but the progression from interest to intelligence-sharing is visible.</p>',
+    '<h2 id="rahu-battle">Choosing the Rahu side · 25 May 2025</h2>',
+    '<p>When Rahu forces assault Pristinia, Magnus prepares to fight not against them but against the settlement’s defenders. He joins Rahuvian troops, operates through invisibility and concealment, helps shape battlefield conditions with magic, and fights former companions. Asked by Ghilsen why he is fighting them, Magnus answers: “Because this is the right thing to do.” His words establish his expressed moral position without making the Codex endorse it.</p>',
+    '<p>Contemporary testimony later says Magnus attempted to sabotage the walls so the Rahu could breach them more easily; that allegation is preserved as witness testimony because the underlying action has not been separately recovered. During the battle Ruben brings Magnus down and fires again into his body. He is treated as dead, but is unquestionably active by 4 June. Later history associates an early return with the Rahu, although the mechanism of this particular resurrection remains unresolved.</p>',
+    '<h2 id="brianna-warning">The bridge warning</h2>',
+    '<p>Magnus’s choice is not emotionally clean. While invisible and already working with the Rahu, he secretly warns Brianna that a bridge is trapped, tells her to warn the others, and asks her not to reveal him as the source. He is neither secretly still on Pristinia’s side nor incapable of personal concern. The contradiction is more consequential: he can care about people while choosing causes and structures that endanger them.</p>',
+    '<h2 id="melian-abduction">The abduction of Melian · 4 June 2025</h2>',
+    '<p>Magnus returns as the leader of a covert Rahu operation inside Pristinia. He incapacitates Melian Starguard with yielding gas, orders soldiers to disguise her as a corpse, and prepares an extraction past the town’s defenses. When Herb and Scout Lilian approach, Magnus commands: “No witnesses. No survivors.” Both are killed in the resulting violence. Magnus withdraws through magical passage and delivers Melian to Strange Talon.</p>',
+    '<p>This is planned political violence rather than battlefield confusion. The following investigation recovers blood, a fallen chair, chemical residue, and the gas bottle, establishing that Melian did not leave willingly and that the attackers could bypass Pristinia’s defenses. Herb is later restored, but resurrection does not erase Magnus’s order or Lilian’s death.</p>',
+    '<h2 id="early-relationships">Relationships transformed by war</h2>',
+    '<p>Brianna arrives with Magnus and receives his secret warning even after he changes sides. Fredrick travels into the Before with him and later fights him. Aravil shops and quests with him before becoming part of the Rahu grievance story Strange Talon tells. Sophina is the diplomatic bridge through which interest becomes usefulness; Strange Talon receives the captive Melian; Carmen fights Magnus and later names him an open traitor; Herb and Lilian become the human cost of his field command.</p>',
+    '<p>The early trajectory is therefore not <em>new arrival → inexplicable evil turn</em>. It is <strong>new adventurer → criticism of Pristinia → attraction to Rahu order → political access → intelligence-sharing → military allegiance → operational command</strong>. Exactly when Magnus formally joined the Rahu, what oath or initiation existed, and how he privately justified the no-witness order remain unresolved.</p>'
+  ].join("\n");
+  const firstSection = magnusArticle.body.indexOf("<h2");
+  magnusArticle.body = firstSection >= 0
+    ? magnusArticle.body.slice(0, firstSection) + earlyMagnusArc + magnusArticle.body.slice(firstSection)
+    : magnusArticle.body + earlyMagnusArc;
+  magnusArticle.body = magnusArticle.body.replace(
+    "Magnus’s earliest appearance, original patron relationship, first deaths, exact soul bargain, role as Death’s conduit",
+    "The precise moment of Magnus’s formal Rahu commitment, the mechanism of his May–June 2025 return, his original patron relationship, exact soul bargain, role as Death’s conduit"
+  );
+}
 
 // The player ethos and the editorial reading guide belong together: one explains
 // how to inhabit Fenumion, while the other explains how to interpret its record.
@@ -3795,6 +3834,13 @@ const questTimelineAdditions = [
 ];
 
 const questEventConsequences = {
+  "Magnus quests beside Pristinia’s adventurers": "The scene establishes that the people Magnus later fights are companions rather than abstractions. His curiosity, appetite for useful objects, and preference for letting a better-positioned speaker handle Papirak are recognizable early traits, but nothing in the recovered expedition yet proves Rahu allegiance or hostility toward Pristinia.",
+  "Magnus becomes a Rahu information source": "The transition matters because political criticism becomes operational usefulness. Sophina still limits his access and warns him not to overstep, so Magnus is not yet shown as a Rahu decision-maker; what is established is that he actively cultivates the relationship and supplies information favorable to Rahu interests.",
+  "Magnus fights Pristinia for the Rahu": "His hidden bridge warning keeps the event from becoming a simple story of vanished feeling. Magnus chooses the attacking faction and endangers former companions while still trying to spare some of them from one trap. The alleged wall sabotage remains Paco’s contemporary testimony rather than a directly recovered action.",
+  "Magnus falls and returns during the Rahu war": "The return becomes the first major gap in a resurrection history that later defines Magnus. Later accounts connect his repeated returns to Rahu, Death, and Aria, but the present evidence does not assign a precise patron, rite, or mechanism to the interval between this fall and his reappearance.",
+  "The Rahu siege grinds against Pristinia": "The continuing bombardment shows that the war was not one decisive clash. Siege engines, disease-bearing bodies, fire, structural damage, and deteriorating morale turn survival into civic labor, placing builders and responders such as the Ale-Chemy Knights inside the same history as battlefield champions.",
+  "Magnus abducts Melian for the Rahu": "This mission establishes Magnus as an operational leader rather than a sympathetic outsider or ordinary combatant. The no-witness order directly creates the circumstances of Herb’s and Lilian’s deaths; Herb’s later restoration does not erase the choice, the violence, or Lilian’s loss.",
+  "Pristinia reconstructs Melian’s abduction": "The physical evidence narrows what the town can responsibly claim: Melian was incapacitated, violence occurred, and the attackers possessed a route past the defenses. The investigation does not by itself reveal every participant or mechanism, preserving the difference between what witnesses know and what the broader archive can reconstruct.",
   "Minerva finds no readable trace in Papirak’s grimoire": "The failed observation remains evidence rather than an embarrassment to be erased. Fredrick had also seen inscribed covers and blank pages, so Minerva’s result preserves the conditions under which capable investigators could honestly find nothing; it does not prove that the book was empty, substituted, or knowingly concealed.",
   "Truesight reveals the grimoire’s hidden spells": "The revelation changes the mystery’s world state instead of awarding retroactive progress. A new perceptual condition makes existing information visible, narrowing the question from whether the pages contain anything to why the writing was hidden, who knew how to reveal it, and what responsibilities follow from that knowledge.",
   "Pell prepares Papirak’s burial and memorial": "The work makes memory material through a grave, a possible mausoleum, and the ordinary problem of paying for both. Pell’s damaged memory gives the labor additional weight: a person struggling to preserve parts of their own past is nevertheless helping a community preserve Papirak’s place in its history.",
@@ -4038,9 +4084,9 @@ const legacyCharacterProfiles = {
     relationships: "Rolen and Cobble are his closest recurring partners, with Alyhotep, Adelia, Nienna, Jako, Bitoshi, and Loistava joining key missions. The trust among them is built through shared public duty: they train replacements, recover one another, and choose coexistence when killing would have been easier."
   },
   "Magnus Niriin": {
-    personality: "Magnus is ambitious, urbane, and unusually skilled at making power sound like hospitality. He explains Zarathian customs, offers tea and lodging, and warns visitors about dangerous allegiances; at the same time, he measures people by usefulness and keeps searching for leverage when trust would require him to become vulnerable.",
-    achievements: "He rises as a Silver Star and political figure, becomes a cultural guide to Zarathis, and survives encounters with powers and rivals that destroy less prepared people. His schemes eventually provoke Elenia’s decisive defeat of him, but even that loss leaves a consequential record: Magnus changes regional politics by forcing allies to decide how much manipulation they will tolerate from someone whose knowledge remains valuable.",
-    relationships: "Aria is his most dangerous partnership, joining philosophical intimacy to the pursuit of greater power. His maneuvering fractures trust with Wren, Scribonia, and Olokun, while the harm done to Hope brings him into direct conflict with Elenia and Adelia. Bowene’s judgment preserves consequence without treating execution as the only possible answer, leaving Magnus alive inside a network of damaged obligations."
+    personality: "Magnus is ambitious, urbane, and unusually skilled at making power sound like hospitality or reform. In Prima he frames Rahu trade as an answer to poor government, seeks diplomatic access, and makes himself useful through information; later he explains Zarathian customs, offers tea and lodging, and warns visitors about dangerous allegiances. Across both periods he keeps searching for leverage when trust would require vulnerability.",
+    achievements: "Within two months of reaching Prima, Magnus moves from adventurer to Rahu informant, hidden battlefield asset, and commander of the operation that captures Melian Starguard. He later rises as a Silver Star and political figure, becomes a cultural guide to Zarathis, and survives encounters that destroy less prepared people. These are consequential accomplishments without being moral endorsements.",
+    relationships: "Brianna, Fredrick, Aravil, Carmen, Herb, Lilian, Sophina, and Strange Talon define the early Rahu arc: companions become opponents, diplomats become patrons, and personal concern fails to restrain political violence. Aria later becomes his most dangerous partnership. His maneuvering fractures trust with Wren, Scribonia, and Olokun, while the harm done to Hope brings him into direct conflict with Elenia and Adelia."
   },
   "Farkur": {
     personality: "Farkur is a builder before he is a hero: pragmatic about money, serious about promises, and convinced that specialized people can accomplish more together than isolated adventurers can. He welcomes newcomers with food, maps, tools, and useful work, yet he is also capable of recognizing when practical help has made him complicit in harm.",
@@ -5648,6 +5694,125 @@ const archiveIndex = {
         "newcomers"
       ],
       "summary": "Magnus, Dez, and Brianna arrive in the discrete event remembered as Ada Arrival Three; it is not merged with the earlier Gate opening."
+    },
+    {
+      "title": "Magnus quests beside Pristinia’s adventurers",
+      "meta": "17 Apr 2025",
+      "sort": "2025-04-17",
+      "era": "2025 · Truth and authority",
+      "kind": "Early adventuring life",
+      "article": "magnus",
+      "location": "Papirak’s hut; Prima",
+      "people": "Magnus; Aravil; Brianna; Fredrick; Pappy; Ghilsen; Papirak",
+      "tags": [
+        "Papirak",
+        "Prima",
+        "community",
+        "baseline"
+      ],
+      "summary": "After traveling into the Before with Fredrick and shopping beside Aravil, Magnus answers Papirak’s raven summons with adventurers who will soon face him on opposite sides of a war."
+    },
+    {
+      "title": "Magnus becomes a Rahu information source",
+      "meta": "7 May 2025",
+      "sort": "2025-05-07",
+      "era": "2025 · Truth and authority",
+      "kind": "Political realignment",
+      "article": "magnus",
+      "location": "Pristinia; Prima",
+      "people": "Magnus; Ambassador Sophina; Strange Talon; Aravil; Ithilrûnë",
+      "tags": [
+        "Rahu",
+        "Sophina",
+        "trade",
+        "intelligence"
+      ],
+      "summary": "Magnus criticizes Pristinia’s government, advocates Rahu trade, seeks access to Sophina’s negotiations, and warns her that people intend to interfere with a Rahu agreement."
+    },
+    {
+      "title": "Magnus fights Pristinia for the Rahu",
+      "meta": "25 May 2025",
+      "sort": "2025-05-25",
+      "era": "2025 · Truth and authority",
+      "kind": "Betrayal in battle",
+      "article": "magnus",
+      "location": "Pristinia walls; Prima",
+      "people": "Magnus; Brianna; Ghilsen; Carmen; Fredrick; Ruben; Paco",
+      "tags": [
+        "Rahu–Pristinia War",
+        "betrayal",
+        "bridge",
+        "testimony"
+      ],
+      "summary": "Magnus joins the Rahuvian assault and declares that fighting former companions is right, yet secretly warns Brianna about a trapped bridge. Paco later alleges that Magnus also tried to sabotage the walls."
+    },
+    {
+      "title": "Magnus falls and returns during the Rahu war",
+      "meta": "25 May–4 Jun 2025",
+      "sort": "2025-05-25b",
+      "era": "2025 · Truth and authority",
+      "kind": "Death and unresolved return",
+      "article": "magnus",
+      "location": "Pristinia; Prima",
+      "people": "Magnus; Ruben; Rahu forces",
+      "tags": [
+        "death",
+        "resurrection",
+        "Rahu",
+        "unresolved"
+      ],
+      "summary": "Ruben brings Magnus down and fires again into his body; the battlefield treats him as dead. Magnus is active by 4 June, but the exact mechanism of this return is not established."
+    },
+    {
+      "title": "The Rahu siege grinds against Pristinia",
+      "meta": "29 May 2025",
+      "sort": "2025-05-29",
+      "era": "2025 · Truth and authority",
+      "kind": "Extended siege",
+      "article": "pristinia",
+      "location": "Pristinia; Prima",
+      "people": "Pristinia’s defenders; Rahu forces; Ale-Chemy Knights",
+      "tags": [
+        "siege engines",
+        "disease",
+        "fires",
+        "Rahu–Pristinia War"
+      ],
+      "summary": "Catapults and ballistae continue firing, corpses are launched into town, and the Ale-Chemy Knights help contain fires as the assault becomes a campaign of attrition."
+    },
+    {
+      "title": "Magnus abducts Melian for the Rahu",
+      "meta": "4 Jun 2025",
+      "sort": "2025-06-04",
+      "era": "2025 · Truth and authority",
+      "kind": "Covert abduction",
+      "article": "magnus",
+      "location": "Pristinia; Prima",
+      "people": "Magnus; Melian Starguard; Herb; Scout Lilian; Strange Talon",
+      "tags": [
+        "abduction",
+        "yielding gas",
+        "no witnesses",
+        "Rahu–Pristinia War"
+      ],
+      "summary": "Magnus incapacitates Melian with yielding gas and orders approaching witnesses killed. Herb and Scout Lilian die before Magnus extracts Melian and delivers her to Strange Talon."
+    },
+    {
+      "title": "Pristinia reconstructs Melian’s abduction",
+      "meta": "5 Jun 2025",
+      "sort": "2025-06-05",
+      "era": "2025 · Truth and authority",
+      "kind": "Forensic investigation",
+      "article": "pristinia",
+      "location": "Pristinia; Prima",
+      "people": "Melian Starguard; Herb; Scout Lilian; Pristinia’s investigators",
+      "tags": [
+        "investigation",
+        "chemical residue",
+        "Rahu",
+        "defenses"
+      ],
+      "summary": "Blood, a fallen chair, chemical residue, and the yielding-gas bottle show that Melian did not leave willingly and that the attackers bypassed the settlement’s defenses."
     },
     {
       "title": "Elenia breaks the Rahu siege towers",
@@ -7677,7 +7842,7 @@ const archiveIndex = {
       "meta": "Warlock, Silver Star, political figure",
       "article": "magnus",
       "image": "magnus-portrait.jpg",
-      "summary": "An ambitious Zarathian whose pursuit of leverage succeeds even as it deepens his dependence on Death and fractures trust."
+      "summary": "A Prima adventurer turned Rahu operative whose pursuit of leverage later carries him into Zarathian politics and deepening dependence on Death."
     },
     {
       "title": "Minerva",

@@ -9604,7 +9604,7 @@ const navigationRegions = [
   {
     "title": "Characters",
     "article": "people-directory",
-    "glyph": "✦",
+    "glyph": "♙",
     "branches": [
       {
         "title": "Directory",

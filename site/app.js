@@ -10734,6 +10734,136 @@ const subchannelMap = {
   ]
 };
 
+// Major-region supplements keep the long-form geographic history together without
+// making the primary article catalogue harder to reconcile with new source files.
+// These additions are all player-safe: ancient origins and divine explanations stay
+// in the protected vault unless the public record explicitly establishes them.
+const majorLocationSupplements = {
+  "fein-uaill": {
+    facts: {
+      "Coastal arrival": "Shining Shores · Gates of Aelthor",
+      "Mountain pilgrimage": "Zarathis → Ciaránach",
+      "Public history": "Modern encounters and consequences only"
+    },
+    sources: [
+      "Fenumion_Codex_The_Shining_Shores.md — the Gates of Aelthor, coastal arrival, and source safeguards",
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — Ciaránach pilgrimage and regional contact history"
+    ],
+    body: `
+      <h2 id="fein-regional-structure">A region of connected centers</h2>
+      <p>Fein Uaill is best understood as a network rather than a single city-state. The <a href="#shining-shores">Shining Shores</a> provide a maritime threshold; the Gates of Aelthor turn that coast into a civic arrival point; Zarathis anchors the fertile valley and the region’s mortal institutions; and the road to <a href="#ciaranach">Ciaránach</a> climbs away from ordinary settlement into a guarded sacred landscape. Estates, libraries, markets, walls, tombs, and fortified places fill the space between those centers.</p>
+      <p>That structure explains why travel within Fein Uaill changes meaning as it proceeds. A visitor may arrive through a city of white streets, warm sand, markets, and towers, then pass through Zarathian civic life before becoming a pilgrim on the mountain road. Geography organizes access: the coast welcomes trade and arrival, the valley sustains public life, and the heights restrict what outsiders may see.</p>
+      <h2 id="fein-contact-history">What adventurers changed</h2>
+      <p>Adventurers did not found Fein Uaill’s cities or introduce it to history. Their effect was to connect previously separated traditions and crises. They crossed from public streets into guarded institutions, witnessed the aftermath of attack at the Gates of Aelthor, entered Ciaránach with permission, and made Zarathian judgments consequential beyond the region. Later departures through the Shining Shores linked local law to Babel-Ashur and the wider campaign.</p>
+      <p>The result is a region increasingly legible to outsiders without becoming fully open. Routes are known, major landmarks can be named, and several institutions now have scene-backed histories. The oldest explanations for the Shard, sacred cities, and divine catastrophes remain protected; the public Codex records what travelers saw, what residents claimed, and what their choices changed.</p>
+      <h2 id="fein-current-state">Present condition and unresolved geography</h2>
+      <p>Fein Uaill remains inhabited, internally differentiated, and politically capable of enforcing its own customs. Its coast has endured assault, its custodians have confronted resurrection and exile, and its relationship with outsiders is no longer hypothetical. Yet the government of the wider region, the authority linking its cities, travel times between mapped sites, and the present condition of many fortifications and estates remain unrecovered.</p>`
+  },
+  "zarathis": {
+    facts: {
+      "Geographic setting": "Fertile valley below Ciaránach",
+      "Known tension": "Continuity · change · resurrection",
+      "Regional role": "Civic gateway to the holy road"
+    },
+    sources: [
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — September 2025 pilgrimage route and outsider contact",
+      "Complete quest-rp export, candidate session 232, 27 Sep 2025 — departure from Zarathis and ascent to Ciaránach"
+    ],
+    body: `
+      <h2 id="zarathis-valley">The inhabited valley</h2>
+      <p>The first recovered pilgrimage to Ciaránach begins in Zarathis and follows a river valley through orchards before reaching the cold mountain ascent. That route places the city within a cultivated landscape rather than an isolated monument. Zarathian ideals are expressed through worked land, preserved memory, civic institutions, and the confidence that mortal hands can make a civilization worthy of inheritance.</p>
+      <p>Zarathis is also the practical threshold between ordinary regional life and sacred restriction. Travelers can gather, debate, and receive escort there; beyond it, the same travelers are treated as pilgrims whose access depends on conduct and permission. The city’s importance therefore comes partly from mediation: it is where private conviction becomes public custom and where outsiders first encounter the rules that shape the mountain city above.</p>
+      <h2 id="zarathis-conflict">A civilization tested by its own principles</h2>
+      <p>The disputes surrounding Magnus and Elenia reveal that Zarathian tradition is neither decorative nor unanimous. Resurrection tests the commitment to one mortal life. Exile tests who may enforce custom and whether mercy can coexist with continuity. Bowene’s consultation with Ciaránach shows civic law drawing authority from sacred counsel, while his promise that customs may change preserves disagreement within the culture rather than reducing Zarathis to a single voice.</p>
+      <p>Adventurers changed Zarathis less through conquest than through precedent. Their deaths, returns, arguments, loyalties, and departures forced institutions to rule on cases their inherited principles could not leave abstract. Those rulings now travel with the people affected by them, making Zarathian law part of interregional history.</p>
+      <h2 id="zarathis-present">Present record</h2>
+      <p>Zarathis remains a functioning center capable of receiving visitors, supporting pilgrimage, and maintaining cultural authority. Its exact population, current sovereign, districts, economy, military organization, and legal process are still incomplete in the archive. The public page therefore preserves the civilization’s demonstrated principles and decisions without inventing a comprehensive state apparatus.</p>`
+  },
+  "ciaranach": {
+    facts: {
+      "Approach": "River valley · orchards · cold mountain road",
+      "Access": "Permission-bound pilgrimage",
+      "Modern contact": "Outsiders admitted 27 Sep 2025"
+    },
+    sources: [
+      "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+    ],
+    body: `
+      <h2 id="ciaranach-separation">Separation as part of the city</h2>
+      <p>Ciaránach’s distance from Zarathis is not empty travel time. The road rises from cultivated land into cold, largely untouched mountains, turning physical ascent into preparation. Tradition says the stones remember ancestors who carried civilization into the heights. Whether that language is literal, ceremonial, or both remains unresolved, but it shows how residents understand the journey: reaching the city is itself participation in inherited memory.</p>
+      <p>The city’s pale gold and white architecture, high spires, processions, and restricted gates express the same principle. The proud and merely curious are said to be turned away, while accepted travelers join a movement already governed by ritual. Ciaránach is not a repository that outsiders may freely search; its architecture, custodians, and rules decide how knowledge is approached.</p>
+      <h2 id="ciaranach-player-impact">Contact without conquest</h2>
+      <p>The admitted party’s greatest established effect was on understanding, not on buildings or government. Their questions, skepticism, reverence, and later dependence on the Golden Ones’ counsel created contact between traditions that had defined themselves through separation. The archive does not yet show the city remade by that encounter, and it should not pretend otherwise.</p>
+      <p>What changed is the campaign’s relationship to Ciaránach. A remote sacred name became a place player characters had climbed toward, entered, and carried away in memory. Its counsel later shaped Elenia’s exile, proving that guarded history can still exercise direct political force beyond the mountain.</p>
+      <h2 id="ciaranach-current-state">A living sanctuary</h2>
+      <p>Ciaránach remains a functioning holy city rather than an exhausted quest site. Its deepest traditions, the Eternal Flame, the Golden Ones’ knowledge, internal disagreements, and the balance between religious custom and practical protection remain only partly available to outsiders. Those subjects stay unresolved—or protected—until the campaign establishes more.</p>`
+  },
+  "gael": {
+    facts: {
+      "Early threshold": "Titan’s Watch · June 2024",
+      "Settlement anchor": "Tower of Gael",
+      "Economic development": "Ale-Chemy market by Sep 2026"
+    },
+    sources: [
+      "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Titan’s Watch, refugee settlement, restoration, commerce, and unresolved chronology"
+    ],
+    body: `
+      <h2 id="gael-scale-of-recovery">Recovery at three scales</h2>
+      <p>Gael’s recovery is easiest to understand at three scales. At the environmental scale, Hope, Stake, and Shadowangel Forest prove that life had already begun returning by February 2025. At the civic scale, refugees around the <a href="#tower-of-gael">Tower of Gael</a> moved from emergency shelter toward consultation, salvage, and permanent housing. At the regional scale, the Ale-Chemy market and later departure routes show Gael beginning to support commerce and onward travel rather than serving only as a battlefield.</p>
+      <p>Those scales do not advance evenly. A green place can exist while nearby plains still hold fiends. A market can open while key builders are missing. A trusted traveler may bypass old Void dangers while refugees still lack finished infrastructure. “Restored” is therefore the wrong single label: Gael contains recovery, danger, abandonment, settlement, and exploration at the same time.</p>
+      <h2 id="gael-memory-map">A map made from repeated experience</h2>
+      <p>The regional map names monuments, but lived history adds a second geography. Titan’s Watch marks the evidence of Death’s victory. The gas geyser field becomes recognizable after repeated crossings. Crustacean Cove holds the wreck that may become building material. The Tower anchors displaced people. Shadowangel Forest is new enough to demand exploration. The coast becomes the departure point for Verdelune and Larkhollow. Each place gains meaning because later parties inherit earlier observations.</p>
+      <p>This accumulated memory is one of the adventurers’ most durable changes to Gael. They have not made the region safe or fully known. They have made some dangers predictable, some routes repeatable, and some civic choices possible. The distinction matters: knowledge reduces isolation without erasing risk.</p>
+      <h2 id="gael-present-tensions">The region now</h2>
+      <p>Gael is becoming a society while still carrying the consequences of liberation. The Veilguard, the Ale-Chemy Knights, refugees, pilgrims, market workers, academy students, and scattered adventurers do not necessarily share one government or program. Their coexistence is evidence of growth, not proof of political unity.</p>
+      <p>Major open questions remain public: who completed or abandoned the refugee housing plans, how the newer settlements govern themselves, what became of missing builders such as Farkur, how safe transport works, and which interior regions remain unexplored. Questions about the oldest nature of Etz Chaim and divine origins remain behind the keeper boundary.</p>`
+  },
+  "eovar-harbor": {
+    facts: {
+      "Historical pressures": "Fire · disease · blockade · missing ships",
+      "Regional dependency": "Labor · cedar · sea passage",
+      "Latest state": "Maritime traffic nearly stopped"
+    },
+    body: `
+      <h2 id="eovar-regional-role">The coast’s practical hinge</h2>
+      <p>Eovar matters because it converts the sea into labor, food, passage, rumor, and material. Pristinia can discuss rebuilding in civic terms, but cedar, workers, ships, and information must move through an actual harbor. When Eovar functions, nearby settlements gain reach. When sailors refuse to depart, the resulting paralysis spreads well beyond its walls.</p>
+      <p>Its rougher identity is equally important. The old pirate-cove memory, criminal contacts, salvage culture, and willingness to work outside polite authority are not side notes to an otherwise conventional port. They shape how people recover stolen goods, obtain transport, and learn what official channels do not know. Eovar’s civic life and underworld occupy the same waterfront.</p>
+      <h2 id="eovar-shared-history">A shared history with Pristinia</h2>
+      <p>The two settlements have become entangled through crisis. Pristinian adventurers responded to Eovar’s road emergencies, illness, blockade, fire damage, and maritime fear. Eovar supplied labor and building material to Pristinia, while conflict over stolen cedar threatened the reputation of Pristinia’s entire adventuring community. Aid and resentment can therefore grow from the same relationship.</p>
+      <p>Harbor Master Raven Joyner’s mixed judgment is the most honest summary of that contact: adventurers can attract danger, create disorder, rescue people, and rebuild what was damaged. Eovar is not merely grateful or hostile. It remembers consequences and adjusts its trust accordingly.</p>
+      <h2 id="eovar-future">What the silence threatens</h2>
+      <p>The nearly silent harbor of August 2026 threatens more than commerce. It interrupts travel, weakens food and material networks, isolates neighboring communities, and gives rumor greater authority than verified news. Until the missing ships and reported return are investigated, Eovar’s strongest asset—its connection to the sea—also remains its greatest uncertainty.</p>`
+  },
+  "babel-ashur": {
+    facts: {
+      "Western crisis": "Rift-borne green mist",
+      "Southern subregion": "Greyward Littoral",
+      "Expedition status": "Survival and reconnaissance ongoing"
+    },
+    sources: [
+      "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires expedition, western mist, and evidence safeguards"
+    ],
+    body: `
+      <h2 id="babel-regional-reading">A region read at multiple scales</h2>
+      <p>Babel-Ashur’s full map should be read from region to subregion to expedition site. The island-scale crater establishes a wound vast enough to organize the landscape. The Greyward Littoral gives the southern coast its own identity. The Luminar Spires then become one specific field of unstable magic rather than a synonym for all of Babel-Ashur. This hierarchy keeps a single dramatic encounter from flattening an enormous island.</p>
+      <p>The same caution applies to the west. The green mist covered essentially the western portion of the island during the recorded reconnaissance, but its vertical limit, underground reach, inhabitants, and permanence were not established. Gartina’s flight above it, Arjahn’s perception, and the radiant test are local observations—not a complete map of the phenomenon.</p>
+      <h2 id="babel-survival-geography">Survival changes the meaning of distance</h2>
+      <p>By May and July 2026, distance on Babel-Ashur was measured in defensible shelter, proximity of monsters, remaining allies, and access to the surviving seed or Shard. A cave holding natives and adventurers could matter as much as a formal city because survival pressure had compressed public life into places that could still be defended.</p>
+      <p>The Luminar expedition adds a different kind of foothold: shared method. Scribonia recognized limits, Gartina tested the environment and performed rescue, Arjahn risked direct observation, Elenia supplied prior knowledge, Olokun carried strategic history, and Nymera provided practical assistance. Their achievement was not conquest. It was the creation of a first disciplined record future expeditions can challenge and extend.</p>
+      <h2 id="babel-current-state">An island not reducible to one disaster</h2>
+      <p>Babel-Ashur remains under severe pressure, but the surviving record shows people making choices rather than merely awaiting destruction. Defenders hold a losing line, residents shelter together, explorers test routes, and knowledge passes between generations of adventurers. The central scar, western mist, Spires, Littoral, monsters, and Shard may interact, but the archive does not force them into one cause without evidence.</p>
+      <p>The current government, surviving settlements, safe routes between subregions, exact scale of evacuation, fate of the Vanguard, and relationship among the island’s crises remain open. Protected divine explanations are intentionally absent from the public entry.</p>`
+  }
+};
+
+Object.entries(majorLocationSupplements).forEach(([id, supplement]) => {
+  const article = articles.find(entry => entry.id === id);
+  if (!article) return;
+  article.body += supplement.body;
+  article.facts = { ...(article.facts || {}), ...(supplement.facts || {}) };
+  article.sources = [...new Set([...(article.sources || []), ...(supplement.sources || [])])];
+});
+
 const byId = new Map(articles.map(article => [article.id, article]));
 
 function mergeMedia(record, media) {

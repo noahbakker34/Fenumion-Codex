@@ -1252,6 +1252,26 @@ const articles = [
     "body": "<p>Pristinia is where Prima’s cosmic stakes become measurable. It needs defenses, harvest labor, winter stores, laws, festivals, and people willing to notice when a neighbor is carrying too much.</p>\n      <h2 id=\"regional-position\">A settlement between older powers</h2>\n      <p>By 30 August 2024, Melian Starguard described Pristinia as the chosen entry point into a cataclysmic regional struggle. The Rahu maintained an embassy in town, Eovar Harbor lay nearby, the Guardians of the Shard were to the south, and the ruins called The Before remained a threat in the surrounding woods. Pristinia was never only a quest hub; it was a vulnerable settlement between trade routes, dangerous places, and powers older than its present population.</p>\n      <p>Even the early archive speaks of people who had called Pristinia home “for a long time.” The current adventurers therefore entered an existing community rather than founding an empty one. Their importance grew as they became residents, workers, defenders, donors, and political actors whose choices could bring consequences back to the town.</p>\n      <h2 id=\"wall\">The wall became history</h2>\n      <p>In April 2024, adventurers—including Nienna—spent hours finishing Pristinia’s wall. In July an army struck it. The wall held a mighty blow because the players had built it; then sections began to fall. A routine community task returned three months later as material protection and emotional cost.</p>\n      <p>The assault also taught Delerium mechanically. Contamination made people feel stronger but less alive, while a haze fed on its energy, passed the defenses, and entered town. The siege engines were a distraction. The event ended; its contamination did not.</p>\n      <h2 id=\"ordinary-pressure\">A town under ordinary pressure</h2>\n      <p>Population growth overworks Farmer Frank and strains winter food. Inside <a href=\"#common-man\">the Common Man</a>, Herb mentions dwindling dried fruit and an underworked farm. Aravil asks whether foraging can help; Tobias volunteers; a hunting expedition forms without a quest giver. Herb’s limit is as important as the need: take roughly twelve elk, not so many that next year’s herd is destroyed.</p>\n      <h2 id=\"belonging\">Belonging through usefulness</h2>\n      <p>Aravil recognizes that hunting may be her place in the town. Skye refuses to exploit Lichen’s ignorance of money and makes an alarming stranger feel safe. Herb knows stores, habits, wages, and ecology. Pristinia is governed as much through local knowledge and mutual restraint as through spectacular heroism.</p>\n      <h2 id=\"rebuilding-2026\">Rebuilding becomes ordinary · 2026</h2>\n      <p>After zombie pirates burned <a href=\"#common-man\">the Common Man</a>, its blackened frame remained visible while Pristinia rebuilt around it. By 3 July 2026, townsfolk were hauling charred beams, salvaging stone, bringing timber and nails, and spending resources donated by adventurers. The replacement was planned as a larger refuge for lost and wandering souls as well as old familiar faces; expensive cedar paneling was purchased to make another fire less likely, linking the civic project directly to Eovar when those materials were stolen there.</p>\n      <p>Pilgrim’s Hearth ultimately rose on the same foundations. By September 19 it was again a place where adventurers drank tea, socialized, and exchanged news. The Magic Academy was open: Marius and Aurélia studied under Scribonia, while Saoirse prepared material for her future turn teaching younger students. Thorn’s plan to bless the farm before returning to Gael adds a smaller but telling continuity—adventurers contributing directly to the harvest.</p>\n      <h2 id=\"pristinia-open-record\">The open record</h2>\n      <p>Pristinia’s eventual size, its political independence beside the Rahu, its relationship with the larger and rougher Eovar, and the durability of adventurer-built institutions remain unsettled. Its strongest continuity is not invulnerability but the practice of rebuilding without pretending destruction never happened.</p>\n      <p>Return to the <a href=\"#prima-pristinia\">Prima overview</a> for the island’s public geography and the entrance to its protected ancient record.</p>"
   },
   {
+    "id": "papirak-legacy",
+    "title": "Papirak’s Legacy",
+    "category": "History",
+    "type": "Funeral, inheritance, and civic stewardship",
+    "dek": "A public record of Papirak’s Staff of Power, the missing grimoire, the work of his funeral, and a Pristinian decision still in progress.",
+    "tags": ["Papirak", "Pristinia", "Staff of Power", "Grimoire", "Funeral", "Civic vote"],
+    "facts": {
+      "Staff": "Walking stick revealed as a Staff of Power",
+      "Provenance": "Cherry-tree wood · final gift from Papirak’s wife",
+      "Public process": "Vote opened by Town Clerk Poe on 30 Sep 2026",
+      "Current disposition": "Unresolved",
+      "Grimoire": "Missing; hidden spells seen with Truesight"
+    },
+    "sources": [
+      "Fenumion_Codex_Recommended_Additions_2026-09-30.md — provenance, civic vote, grimoire evidence chain, and unresolved questions",
+      "Quest-RP archive — earlier custody and investigation record summarized by the recommendation"
+    ],
+    "body": "<p>Papirak’s death left Pristinia with more than a funeral to arrange. His belongings carry power, memory, monetary value, and unfinished questions. The public record therefore keeps three matters distinct: the fate of his walking stick, the disappearance of his grimoire, and the work of remembering a person whose projects continue after him.</p>\n      <div class=\"callout gold\"><p><strong>Unresolved by design.</strong> The vote was still developing when this record was prepared. No final result, lawful owner, moral winner, or disposition of the staff is encoded here.</p></div>\n      <h2 id=\"papirak-staff\">The walking stick was a Staff of Power</h2>\n      <p>Papirak’s walking stick is both a formidable magical object and a personal relic. Its wood came from a cherry tree planted on his wedding day, and his wife gave it to him as her final gift. Calling it a Staff of Power identifies what it can do; that mechanical identity does not erase where it came from or decide who may claim it.</p>\n      <p>Camilla Blackwood identified a possible sale value exceeding sixty thousand gold and recommended sale to the highest bidder. Her proposal makes civic utility concrete: such wealth could materially affect Pristinia. It remains a proposal, not proof of greed and not a final decision.</p>\n      <h2 id=\"papirak-public-process\">From private recommendation to public vote</h2>\n      <p>Camilla contacted Melian Starguard by Sending. Melian answered that the staff belonged with Papirak regardless of earthly value, yet she did not end the matter by decree. She referred it to public decision, and Town Clerk Poe announced the vote on 30 September 2026. The sequence matters: expertise identified value, civic leadership stated a contrary principle, and an institution gave the community a procedure.</p>\n      <p>Early positions remained attributed to their speakers. Aurélia favored Scribonia as a trusted custodian while expressing discomfort with taking the staff from Papirak. Vessalia also named Scribonia, emphasizing capability and unselfishness. Saoirse judged burial impractical under present threats and favored Scribonia or another future wielder capable of bearing the responsibility. Tshuka argued either for burial with Papirak or for retaining the staff in Pristinia’s defense. These positions document the debate; none is recorded as the outcome.</p>\n      <h2 id=\"papirak-grimoire\">The missing grimoire</h2>\n      <p>The grimoire follows a separate evidence chain. Papirak once held it and passed it to Stash. Fredrick later found an inscribed book whose pages appeared blank to him. After Fredrick died, the Ale-Chemy Knights looted his body and the book entered their stocks. Minerva examined the matter in February 2026 and found nothing. After Papirak’s later death, Fenwick noticed that his spellbook was absent.</p>\n      <p>In September 2026, Ryvyt and Jiangshi used Truesight and saw hidden spells in the book. The strongest supported conclusion is perceptual rather than accusatory: information was present when earlier observers could not perceive it. The record does not treat the book’s presence with any faction as proof of murder, theft from Papirak after his death, or knowing concealment by a named person.</p>\n      <h2 id=\"papirak-nonlinear\">A mystery whose world state changes</h2>\n      <p>Fredrick’s blank pages and Minerva’s unsuccessful search remain correct history because they record what those investigators could establish under their conditions. Truesight changed the available evidence without making earlier observers foolish or dishonest.</p>\n      <p>The funeral similarly gathers living consequences rather than closing them. Pell of Pristinia works on burial, mausoleum plans, and fundraising even while damage to Pell’s own memory complicates the act of preserving another’s. Fenwick’s magical capability may help identify and protect dangerous objects, but capability alone does not grant authority over Papirak’s belongings.</p>\n      <h2 id=\"papirak-stewardship\">Power, ownership, and stewardship</h2>\n      <p>The dispute places several legitimate values beside one another: personal ownership and memory, civic utility, trusted custodianship, institutional stewardship, and the temptation to treat adventuring capability as entitlement. Pristinia’s process is historically important precisely because it does not collapse those questions into one.</p>\n      <p>Still open are the final vote, whether that vote is binding, whether Melian will accept its result, the staff’s eventual disposition, Papirak’s intended inheritance, local inheritance custom, the grimoire’s present custody, and the future of his Training Dungeon. Later records should resolve only what later scenes actually settle.</p>"
+  },
+  {
     "id": "common-man",
     "title": "The Common Man",
     "category": "Places",
@@ -3716,6 +3736,10 @@ const questTimelineAdditions = [
 ];
 
 const questEventConsequences = {
+  "Minerva finds no readable trace in Papirak’s grimoire": "The failed observation remains evidence rather than an embarrassment to be erased. Fredrick had also seen inscribed covers and blank pages, so Minerva’s result preserves the conditions under which capable investigators could honestly find nothing; it does not prove that the book was empty, substituted, or knowingly concealed.",
+  "Truesight reveals the grimoire’s hidden spells": "The revelation changes the mystery’s world state instead of awarding retroactive progress. A new perceptual condition makes existing information visible, narrowing the question from whether the pages contain anything to why the writing was hidden, who knew how to reveal it, and what responsibilities follow from that knowledge.",
+  "Pell prepares Papirak’s burial and memorial": "The work makes memory material through a grave, a possible mausoleum, and the ordinary problem of paying for both. Pell’s damaged memory gives the labor additional weight: a person struggling to preserve parts of their own past is nevertheless helping a community preserve Papirak’s place in its history.",
+  "Pristinia opens a vote on Papirak’s Staff of Power": "The process distinguishes value from authority. Camilla can identify what a sale might fund, Melian can state that personal belonging should outweigh price, and powerful mages can be proposed as custodians without any of those facts automatically establishing ownership. Until a later scene records a result, every position remains a position rather than canonized policy.",
   "The first Called arrive in Prima": "The arrival establishes the pattern that defines the early campaign: strangers are placed together before they understand the Gate, the gods, or one another. Their first important act is not conquest but accepting that an unfinished settlement and its people are now part of their responsibility.",
   "The newcomers scout beyond Pristinia": "The patrol gives the new arrivals their first evidence that Prima is stranger than the settlement suggests. The enormous distant movement remains unidentified, while John’s severed branch demonstrates that even apparently ordinary natural objects may be sustained by relationships the party does not yet understand.",
   "Melian gives the newcomers a town to improve": "Melian frames Pristinia as work rather than a reward. The meeting turns a collection of summoned adventurers into potential residents by asking them to notice roads, food, medicine, defense, and the material needs of people who cannot solve every problem with magic.",
@@ -4070,6 +4094,54 @@ const legacyCharacterProfiles = {
 
 const archiveIndex = {
   "timeline": [
+    {
+      "title": "Minerva finds no readable trace in Papirak’s grimoire",
+      "meta": "Feb 2026",
+      "sort": "2026-02-15p",
+      "era": "2026 · Unfinished inheritances",
+      "kind": "Investigation",
+      "article": "papirak-legacy",
+      "location": "Pristinia",
+      "people": "Minerva; Papirak; Stash; Fredrick; Ale-Chemy Knights",
+      "tags": ["grimoire", "hidden writing", "evidence", "Ale-Chemy Knights"],
+      "summary": "Following a custody chain through Stash, Fredrick, and the Ale-Chemy stocks, Minerva examines the inscribed book but finds no accessible spell record."
+    },
+    {
+      "title": "Truesight reveals the grimoire’s hidden spells",
+      "meta": "Sep 2026",
+      "sort": "2026-09-15g",
+      "era": "2026 · Unfinished inheritances",
+      "kind": "Arcane revelation",
+      "article": "papirak-legacy",
+      "location": "Pristinia",
+      "people": "Ryvyt; Jiangshi; Papirak; Minerva; Fredrick",
+      "tags": ["grimoire", "Truesight", "perception", "hidden spells"],
+      "summary": "Ryvyt and Jiangshi use Truesight and perceive spells that earlier observers could not see, changing the evidence without invalidating their earlier reports."
+    },
+    {
+      "title": "Pell prepares Papirak’s burial and memorial",
+      "meta": "Sep 2026",
+      "sort": "2026-09-28p",
+      "era": "2026 · Unfinished inheritances",
+      "kind": "Funeral preparation",
+      "article": "papirak-legacy",
+      "location": "Pristinia",
+      "people": "Pell; Papirak; Fenwick; Pristinia residents",
+      "tags": ["funeral", "mausoleum", "fundraising", "memory"],
+      "summary": "Pell works on burial, mausoleum planning, and fundraising while Fenwick’s notice of the absent spellbook keeps Papirak’s unfinished affairs in public view."
+    },
+    {
+      "title": "Pristinia opens a vote on Papirak’s Staff of Power",
+      "meta": "30 Sep 2026",
+      "sort": "2026-09-30p",
+      "era": "2026 · Civic stewardship",
+      "kind": "Civic vote",
+      "article": "papirak-legacy",
+      "location": "Pristinia",
+      "people": "Poe; Melian Starguard; Camilla Blackwood; Aurélia; Scribonia; Vessalia; Saoirse; Tshuka Hayim",
+      "tags": ["Staff of Power", "inheritance", "vote", "stewardship"],
+      "summary": "After Camilla proposes selling Papirak’s staff and Melian argues it belongs with him regardless of earthly value, Town Clerk Poe opens the question to a public vote whose result remains unresolved."
+    },
     {
       "title": "The first Called arrive in Prima",
       "meta": "4 Mar 2024 · quest-RP",
@@ -7331,9 +7403,9 @@ const archiveIndex = {
     {
       "title": "Camilla",
       "meta": "Player character · civic advocate",
-      "article": "before-survey",
+      "article": "papirak-legacy",
       "image": "assets/characters/camilla.png",
-      "summary": "Joins The Before survey and argues that private wealth should strengthen defense, agriculture, and trade."
+      "summary": "A civic advocate who identifies the extraordinary value of Papirak’s staff and proposes a sale while placing the recommendation before Melian rather than claiming authority to decide."
     },
     {
       "title": "Cerwin Rayolet",
@@ -7514,7 +7586,7 @@ const archiveIndex = {
       "meta": "Seeker · witch and difficult ally",
       "article": "minerva",
       "image": "assets/characters/minerva.png",
-      "summary": "A confirmed member of the Seekers who investigates concealed threats, strains trust through forceful methods, and still turns careful attention toward people in danger."
+      "summary": "A confirmed Seeker who investigates concealed threats and honestly records failed observation—including finding no accessible result when she examined the mystery surrounding Papirak’s grimoire."
     },
     {
       "title": "Nienna",
@@ -7575,7 +7647,7 @@ const archiveIndex = {
       "meta": "Ale-Chemy founder and crafter",
       "article": "ryvyt",
       "image": "assets/characters/ryvyt.png",
-      "summary": "Makes specialization operational through crafting, research, shared equipment, and project work."
+      "summary": "Makes specialization operational through crafting and research; with Jiangshi, uses Truesight to reveal spells hidden in Papirak’s grimoire."
     },
     {
       "title": "St. Anky",
@@ -7589,7 +7661,7 @@ const archiveIndex = {
       "meta": "Magi and scholar",
       "article": "scribonia",
       "image": "scribonia-portrait.png",
-      "summary": "Self-defined before every label; brave in argument and often unable to relinquish the last word."
+      "summary": "Self-defined before every label; named by several early voters as a possible custodian of Papirak’s staff, though the vote remains unresolved."
     },
     {
       "title": "Selwyn",
@@ -7635,7 +7707,7 @@ const archiveIndex = {
       "meta": "Character index",
       "article": "people-directory",
       "image": "assets/characters/tshuka.png",
-      "summary": "A player character preserved in the recovered catalogue."
+      "summary": "Argues that Papirak’s staff should either be buried with him or retained for Pristinia’s defense, preserving both memory and civic need in the debate."
     },
     {
       "title": "Vaelith",
@@ -7668,7 +7740,7 @@ const archiveIndex = {
       "title": "Aurélia / Night",
       "meta": "Magic Academy student",
       "article": "people-directory",
-      "summary": "A student by September 2026 whose fuller chronology still needs primary-source recovery."
+      "summary": "A Magic Academy student who favors Scribonia as custodian of Papirak’s staff while voicing discomfort with taking the object from him."
     },
     {
       "title": "Casimir",
@@ -7692,8 +7764,8 @@ const archiveIndex = {
     {
       "title": "Fenwick",
       "meta": "Seeker · investigator",
-      "article": "cave-company",
-      "summary": "A confirmed member of the Seekers whose exact company duties remain to be recovered."
+      "article": "papirak-legacy",
+      "summary": "A powerful Seeker and investigator who notices Papirak’s missing spellbook; his capability may aid the inquiry but does not itself grant authority over the estate."
     },
     {
       "title": "Marius Antares",
@@ -7712,24 +7784,42 @@ const archiveIndex = {
       "meta": "Seeker · cave explorer",
       "article": "cave-company",
       "image": "assets/characters/pell.png",
-      "summary": "Frightened and practical; insists the corrupted corpse was somebody’s child and deserves burial."
+      "summary": "A memory-damaged Seeker from Pristinia who insists the dead deserve burial and later works on Papirak’s grave, mausoleum plans, and fundraising."
     },
     {
       "title": "Saoirse",
       "meta": "Mage and future teacher",
       "article": "people-directory",
       "image": "assets/characters/saoirse.png",
-      "summary": "Warns about contamination, uses petal-based magic, and prepares to teach at Prima’s Magic Academy; she is not a member of the Seekers."
+      "summary": "A mage and future teacher who considers burial of the staff impractical under present threats and favors a capable, responsible custodian; she is not a Seeker."
     },
     {
       "title": "Vessalia",
       "meta": "Seeker · contaminated singer",
       "article": "cave-company",
       "image": "assets/characters/vessalia.jpg",
-      "summary": "Uses song to manage fear, accepts correction when it attracts danger, and remains attentive to Pell."
+      "summary": "A Seeker who uses song to manage fear and supports Scribonia as custodian of Papirak’s staff because she considers him capable and unselfish."
     }
   ],
   "npcs": [
+    {
+      "title": "Papirak",
+      "meta": "Wizard · builder · subject of an unfinished estate",
+      "article": "papirak-legacy",
+      "summary": "A Pristinian wizard whose death leaves a funeral, Training Dungeon, missing grimoire, and deeply personal Staff of Power for the living to steward without erasing their provenance."
+    },
+    {
+      "title": "Melian Starguard",
+      "meta": "Pristinian civic leader",
+      "article": "papirak-legacy",
+      "summary": "Rejects earthly value as the sole measure of Papirak’s staff and refers its disposition to public decision instead of settling the matter by decree."
+    },
+    {
+      "title": "Poe",
+      "meta": "Town Clerk of Pristinia",
+      "article": "papirak-legacy",
+      "summary": "Administers the public vote on Papirak’s Staff of Power, making procedure and recordkeeping active forces in Pristinia’s history."
+    },
     {
       "title": "Aria / Pride",
       "meta": "Knight II of Death",
@@ -9945,6 +10035,7 @@ const fixedArticlePaths = new Map([
   ["visual-archive", ["Locations", "Location Atlas"]],
   ["prima-pristinia", ["Locations", "Prima"]],
   ["pristinia", ["Locations", "Prima", "Pristinia"]],
+  ["papirak-legacy", ["Locations", "Prima", "Pristinia", "Papirak’s Legacy"]],
   ["first-forest", ["Locations", "Prima", "The First Forest"]],
   ["common-man", ["Locations", "Prima", "Pristinia", "The Common Man"]],
   ["pilgrims-hearth", ["Locations", "Prima", "Pristinia", "The Pilgrim’s Hearth"]],
@@ -10311,6 +10402,11 @@ const subchannelMap = {
   ],
   "pristinia": [
     {
+      "label": "Papirak’s Legacy",
+      "article": "papirak-legacy",
+      "summary": "The Staff of Power, missing grimoire, funeral work, and a civic vote whose outcome remains open."
+    },
+    {
       "label": "The First Forest",
       "article": "first-forest",
       "summary": "The old-growth woodland beginning at the settlement’s edge and carrying its roads toward wider Prima."
@@ -10329,6 +10425,28 @@ const subchannelMap = {
       "label": "Prima overview",
       "article": "prima-pristinia",
       "summary": "The island’s settlements, ancient structures, and inherited wounds."
+    }
+  ],
+  "papirak-legacy": [
+    {
+      "label": "Pristinia",
+      "article": "pristinia",
+      "summary": "The settlement whose civic institutions carry Papirak’s unfinished legacy into public decision."
+    },
+    {
+      "label": "Scribonia",
+      "article": "scribonia",
+      "summary": "Named by several voters as a possible custodian; the proposal is not a recorded outcome."
+    },
+    {
+      "label": "Ale-Chemy Knights",
+      "article": "ale-chemy-knights",
+      "summary": "One stage in the grimoire’s documented custody chain after Fredrick’s death."
+    },
+    {
+      "label": "The Pilgrim’s Hearth",
+      "article": "pilgrims-hearth",
+      "summary": "Pristinia’s renewed public room during the season of Papirak’s funeral and vote."
     }
   ],
   "common-man": [
@@ -10769,7 +10887,7 @@ const recordDialogClose = document.querySelector("#record-dialog-close");
 let ambientVideoObserver = null;
 
 function escapeHtml(value) {
-  return value.replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
+  return String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
 }
 
 function timelineDetailParagraphs(item) {
@@ -11595,7 +11713,9 @@ function setupLocationExplorer() {
 function setupTimelineExplorer() {
   const explorer = document.querySelector("#timeline-explorer");
   if (!explorer) return;
-  const availableTimeline = archiveIndex.timeline.filter(item => !isRestrictedTimelineEvent(item));
+  const availableTimeline = archiveIndex.timeline.filter(item =>
+    !isRestrictedTimelineEvent(item) && item.title && item.meta && item.era && item.kind && item.location && item.people
+  );
   const eras = [...new Set(availableTimeline.map(item => item.era))];
   let activeEra = "All eras";
   let direction = "asc";

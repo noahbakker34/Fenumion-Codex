@@ -1,0 +1,8 @@
+# Local source archives and ChatGPT upload chunks contain raw campaign messages.
+chatgpt-json-chunks/
+
+# Keeper-only lore is deployed directly to Cloudflare KV and must never enter
+# the public GitHub Pages bundle or repository history.
+vault.json
+site/vault.json
+private/vault*.json

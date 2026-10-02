@@ -2799,6 +2799,46 @@ const articles = [
   }
 ];
 
+// The order-level record is player-safe. It compares witnessed conduct without
+// exposing the divine or ancient material that belongs in the authenticated vault.
+articles.push({
+  id: "knights-of-death",
+  title: "The Knights of Death",
+  category: "People",
+  type: "Antagonistic order · recovered comparative history",
+  image: "assets/archive/knight-of-death.png",
+  imageLayout: "landscape-hero",
+  imageAlt: "An armored Knight of Death seated above a blasted landscape",
+  imageCaption: "The Knights of Death — an order understood through the choices of its members.",
+  dek: "Wrath, Pride, and Abyss are not interchangeable bosses. Each turns a recognizably human fear or wound into permission to own another person’s suffering, safety, or self.",
+  tags: ["Knights of Death", "Wrath", "Pride", "Abyss", "Vain", "Choice"],
+  facts: {
+    "First recovered arcs": "Wrath · Pride · Abyss",
+    "Later known Knight": "Vain",
+    "Shared pattern": "Pain, protection, or power becomes claimed ownership",
+    "Adventurers’ answer": "Sacrifice must remain chosen",
+    "Evidence status": "Order-level interpretation grounded in dated scenes"
+  },
+  sources: [
+    "Fenumion_Codex_Knights_of_Death_Deep_Dossier.md — comparative thesis, dated arcs, source map, and canon guardrails",
+    "Complete quest-rp export — Wrath’s final assault, Pride’s public and private confrontations, and the Abyss cavern campaign"
+  ],
+  body: `<p>The first three recovered Knights function as foils rather than palette-swapped enemies. Roderick / Wrath begins with love and grief, then decides his suffering permits him to make the world suffer. Aria / Pride begins with failed protection, then decides that knowing what safety requires permits her to assign what others must endure. Kurayami / Abyss appears through strength made possessive: people become statues, trophies, pets, and toys.</p>
+    <div class="callout gold"><p><strong>The shared danger:</strong> a real wound or capability becomes a claim of jurisdiction over somebody else.</p></div>
+    <h2 id="knights-wrath">Wrath · pain as entitlement</h2>
+    <p><a href="#roderick-wrath">Roderick</a> loved Endora, but refused to accept her separateness. Influence replaced consent; corrupted resurrection replaced mourning; private grief became a program imposed on strangers. His defeat does not erase the person beneath the armor, and understanding that person does not make Wrath harmless.</p>
+    <h2 id="knights-pride">Pride · protection as jurisdiction</h2>
+    <p><a href="#aria-pride">Aria</a> learned that institutions and prayers could fail the people who trusted them. Her answer was not simply to become stronger, but to claim the authority to decide what pain everyone else should bear. Olokun’s boundary—“My pain. Not everyone’s.”—names the argument the order repeatedly forces into the open.</p>
+    <h2 id="knights-abyss">Abyss · strength as possession</h2>
+    <p><a href="#kurayami">Kurayami</a> is first recovered through a cavern kingdom of mechanical petrification and collected people. The party’s answer is imperfect but important: triage, a freely given scepter, resurrection, retreat, and a later rescue preserve relationship without pretending every loss was reversed.</p>
+    <h2 id="knights-vain">Vain and the unfinished order</h2>
+    <p><a href="#vain">Vain</a> is a later proven threat whose Shard-hunting campaign expands the order beyond these first three moral studies. His complete place in the succession remains unfinished, so the Codex does not force him into a symmetry the record has not established.</p>
+    <h2 id="knights-interpretation">Interpretation, not a secret title</h2>
+    <p>The dossier’s “anti-Genesis” reading is useful analysis: each Knight offers a false creation in which another person is remade as sufferer, subject, trophy, or resource. It is not an in-world name for the order. The historical record keeps interpretation, attributed belief, observed action, and unresolved origin distinct.</p>
+    <h2 id="knights-answer">Whose sacrifice?</h2>
+    <p>The adventurers do not answer the Knights by becoming painless or perfectly consistent. They answer by contesting ownership: Arjahn may choose his own cost, Olokun may offer his own pain, and gifts may return through another person’s judgment. Victory is continuation with consequences, not domination disguised as protection.</p>`
+});
+
 // The recovered Rahu-war dossier closes the largest gap in Magnus's early
 // chronology. Keep the source-level article readable while adding the new
 // evidence as a distinct, provenance-aware opening arc.
@@ -10003,12 +10043,20 @@ const navigationRegions = [
         "title": "Death’s Knights",
         "items": [
           {
+            "label": "Order overview",
+            "article": "knights-of-death"
+          },
+          {
             "label": "Roderick / Wrath",
             "article": "roderick-wrath"
           },
           {
             "label": "Aria / Pride",
             "article": "aria-pride"
+          },
+          {
+            "label": "Kurayami / Abyss",
+            "article": "kurayami"
           },
           {
             "label": "Vain",
@@ -10309,7 +10357,8 @@ const fixedArticlePaths = new Map([
   ["themes", ["Timeline", "Foundations", "Themes of Fenumion"]],
   ["relationships", ["Archive", "Relationships in Motion"]],
   ["open-questions", ["Archive", "Unresolved Record"]],
-  ["kurayami", ["Characters", "Gods & witnesses", "Kurayami / Abyss"]],
+  ["knights-of-death", ["Characters", "Death’s Knights"]],
+  ["kurayami", ["Characters", "Death’s Knights", "Kurayami / Abyss"]],
   ["visual-archive", ["Locations", "Location Atlas"]],
   ["prima-pristinia", ["Locations", "Prima"]],
   ["pristinia", ["Locations", "Prima", "Pristinia"]],
@@ -10364,8 +10413,8 @@ const subchannelMap = {
     },
     {
       "label": "Death’s Knights",
-      "article": "roderick-wrath",
-      "summary": "Wrath, Pride, and the lives behind their titles."
+      "article": "knights-of-death",
+      "summary": "Wrath, Pride, Abyss, Vain, and the choices behind their titles."
     },
     {
       "label": "Veiled record",
@@ -10376,6 +10425,28 @@ const subchannelMap = {
       "label": "Relationships in Motion",
       "article": "relationships",
       "summary": "How bonds change through events, asymmetries, choices, and consequences."
+    }
+  ],
+  "knights-of-death": [
+    {
+      "label": "Roderick / Wrath",
+      "article": "roderick-wrath",
+      "summary": "Love and grief become an entitlement to make strangers inherit his pain."
+    },
+    {
+      "label": "Aria / Pride",
+      "article": "aria-pride",
+      "summary": "Failed protection becomes a claim to decide what everyone else must endure."
+    },
+    {
+      "label": "Veiled record",
+      "article": "kurayami",
+      "summary": "Protected record."
+    },
+    {
+      "label": "Vain",
+      "article": "vain",
+      "summary": "A later Knight whose Shard-hunting campaign expands the order’s threat."
     }
   ],
   "quake": [
@@ -11210,6 +11281,9 @@ function mergeVaultRecords(group, records = []) {
 }
 
 function applyVault(data) {
+  if (!data || typeof data !== "object" || !Array.isArray(data.articles)) {
+    throw new TypeError("The vault payload is missing its article collection.");
+  }
   for (const full of data.articles || []) {
     const stub = byId.get(full.id);
     if (stub) Object.assign(stub, full);
@@ -11218,6 +11292,10 @@ function applyVault(data) {
   for (const [id, body] of Object.entries(data.bodies || {})) {
     const article = byId.get(id);
     if (article) article.body = body;
+  }
+  for (const [id, body] of Object.entries(data.bodyAppends || {})) {
+    const article = byId.get(id);
+    if (article && !article.body.includes(body)) article.body += body;
   }
   for (const [group, records] of Object.entries(data.index || {})) mergeVaultRecords(group, records);
   for (const record of data.quest?.timelineAdditions || []) {

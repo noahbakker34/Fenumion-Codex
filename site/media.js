@@ -32,6 +32,10 @@ window.FENUMION_MEDIA = {
       image: "assets/archive/ditrillio-portrait.jpg",
       aliases: ["Di'trillio", "Ditrillio"]
     },
+    "Dumuzi / Death": {
+      image: "assets/characters/death.gif",
+      aliases: ["Death", "Dumuzi"]
+    },
     "Draygar WarSmash": {
       image: "assets/characters/draygar-warsmash.png",
       aliases: ["Dragyar", "Draygar"]
@@ -41,6 +45,10 @@ window.FENUMION_MEDIA = {
     },
     "Fenwick": {
       video: "assets/characters/fenwick.mp4"
+    },
+    "Melian Starguard": {
+      image: "assets/characters/melian.png",
+      aliases: ["Melian"]
     },
     "Roderick / Wrath": {
       image: "assets/archive/wrath.gif"
@@ -53,6 +61,9 @@ window.FENUMION_MEDIA = {
     }
   },
   locations: {
+    "Citadel of Sorrow": {
+      image: "assets/locations/citadel-of-sorrow.gif"
+    },
     "Old Earth Hills": {
       video: "assets/locations/old-earth-hills.mp4"
     },
@@ -76,11 +87,31 @@ window.FENUMION_MEDIA = {
       imageAlt: "Ancient elven palace ruins overtaken by a luminous violet forest in The Before",
       imageCaption: "The Before — living forest gathered around the remains of an older world."
     },
+    "cala": {
+      gallery: [
+        {
+          image: "assets/characters/cala-alternate.gif",
+          title: "Cala · alternate visual",
+          alt: "Cala standing in radiant stormlight with a luminous spear",
+          caption: "An alternate animated visual record of Cala."
+        }
+      ]
+    },
     "draygar-warsmash": {
       image: "assets/characters/draygar-warsmash.png",
       imageAlt: "Portrait of Draygar WarSmash, a broad warrior in dark furs holding a heavy axe",
       imageCaption: "Draygar WarSmash — strength placed in service of rescue and fellowship.",
       aliases: ["Dragyar", "Draygar"]
+    },
+    "death-dumuzi": {
+      image: "assets/characters/death.gif",
+      imageAlt: "A shadowed figure representing Death emerging through luminous teal mist",
+      imageCaption: "Dumuzi / Death — supplied animated visual record."
+    },
+    "melian-starguard": {
+      image: "assets/characters/melian.png",
+      imageAlt: "Melian Starguard, a pale-haired elven civic leader in silver armor and a rose-colored cloak",
+      imageCaption: "Melian Starguard — keeper of Pristinia’s civic continuity."
     },
     "roderick-wrath": {
       image: "assets/archive/wrath.gif"

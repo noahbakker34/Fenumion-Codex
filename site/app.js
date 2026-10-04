@@ -4744,6 +4744,115 @@ if (gaelArticleForWithering && !gaelArticleForWithering.body.includes("id=\"hope
   gaelArticleForWithering.sources = [...new Set([...(gaelArticleForWithering.sources || []), "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Hope's wounding and immediate response"] )];
 }
 
+const herbDeepDive = articles.find(article => article.id === "herb");
+if (herbDeepDive && !herbDeepDive.body.includes("id=\"herb-melian\"")) {
+  herbDeepDive.title = "Herb Shepherd";
+  herbDeepDive.dek = "Pristinia’s civilian anchor: a bartender who turns shortages into shared work, carries dinner into a war zone, survives death and the loss of his tavern, and still returns mourners to ordinary life.";
+  herbDeepDive.tags = [...new Set([...(herbDeepDive.tags || []), "Melian", "Ada", "Pilgrim’s Hearth", "Papirak"] )];
+  herbDeepDive.facts = { ...(herbDeepDive.facts || {}), "Canonical name": "Herb Shepherd", "Later association": "Pilgrim’s Hearth", "Defining ethic": "Small joys in difficult times", "Historical status": "Killed 4 Jun 2025; later restored" };
+  herbDeepDive.sources = [...new Set([...(herbDeepDive.sources || []), "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role"] )];
+  herbDeepDive.body = herbDeepDive.body.replace(
+    '<h2 id="open-record">After the fire</h2>\n      <p>Zombie pirates later burn the Common Man, and Pilgrim’s Hearth rises on the same foundations. The surviving record does not establish Herb’s fate, his role in the successor tavern, or his complete history before the December scene. Those gaps remain open.</p>',
+    `<h2 id="herb-melian">Melian and a meal carried into war</h2>
+      <p>Herb’s clearest recovered relationship with Melian Starguard arrives on 4 June 2025. He approaches her location with Scout Lilian carrying a special meal because he knows the strain of the Rahu crisis has reached her personally. He does not bring political advice or a weapon. He brings food.</p>
+      <div class="quote">We all need to find small joys in this difficult time.<cite>Herb Shepherd</cite></div>
+      <p>Unknown to them, Magnus and Rahu forces have already incapacitated Melian and prepared her for abduction. Lilian recognizes the danger. Magnus orders that there be no witnesses and no survivors. Herb and Lilian are killed. Herb did not arrive to fight an army; he arrived carrying dinner. His death is therefore one of the clearest measures of the moment war crossed into ordinary Pristinian life.</p>
+      <h2 id="herb-return">Murder, resurrection, and continuity</h2>
+      <p>Herb is later restored to life. The exact resurrection scene and mechanism remain unrecovered, and the Codex does not invent them. His return does not erase Magnus’s order or the experience of his death. It creates continuity: the civilian killed because war reached ordinary Pristinia returns to participate in ordinary Pristinia again.</p>
+      <h2 id="herb-ada">Ada and the recording of ordinary life</h2>
+      <p>Ada signs himself “Town Chronicler, best friend of Herb.” The small declaration links Pristinia’s public memory to the person who most visibly lives its daily rhythms. Ada records the town; Herb feeds it, remembers it, and notices what it needs. The full history of their friendship remains open.</p>
+      <h2 id="herb-after-fire">The loss of the Common Man</h2>
+      <p>Zombie pirates later burn the Common Man, and <a href="#pilgrims-hearth">Pilgrim’s Hearth</a> rises on the same foundations. Herb survives both a personal death and the destruction of the ordinary place through which the archive first knows him. The source associates him with the successor era without establishing that he founded, owns, or formally manages the new tavern.</p>
+      <h2 id="herb-funeral">Papirak’s funeral · 30 September 2026</h2>
+      <p>After Melian gives Papirak’s death ritual, procession, and language, Herb changes the gathering’s emotional register. He insists Papirak would prefer celebration of a life well lived. Magic fills the sky and the town moves toward food, drink, music, and the Pilgrim’s Hearth. Herb returns people from death toward life without asking them to forget the dead.</p>
+      <div class="callout gold"><p><strong>Melian carries the flame. Herb keeps the hearth.</strong> One gives public memory structure; the other restores the texture of ordinary life afterward.</p></div>
+      <h2 id="herb-open-record">The open record</h2>
+      <p>Herb’s birth and origin, first arrival in Pristinia, exact resurrection, complete pre-war history with Melian, legal relationship to the Common Man, role at Pilgrim’s Hearth, and the full chronology of his friendship with Ada remain unresolved.</p>`
+  );
+}
+
+if (!articles.some(article => article.id === "melian-starguard")) {
+  articles.push({
+    id: "melian-starguard",
+    title: "Melian Starguard",
+    category: "People",
+    type: "Pristinian civic leader; keeper of continuity",
+    dek: "A leader whose authority is measured not by heroic supremacy but by remaining responsible for Pristinia before, during, and after the miracles, wars, betrayals, and departures that reshape it.",
+    tags: ["Melian", "Pristinia", "Herb", "Rahu War", "Papirak", "Civic authority"],
+    facts: { "Role": "Major Pristinian civic authority", "Leadership method": "Continuity, defense, ritual, and judgment", "Defining crisis": "Abducted by Magnus · 4 Jun 2025", "Later office": "Keeper of Papirak’s civic memory", "Exact constitutional title": "Unresolved" },
+    sources: [
+      "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civic history, abduction, relationships, funeral, and evidence boundaries",
+      "Complete quest-RP archive — early Pristinia, Rahu crisis, capture, and later civic scenes",
+      "Papiraks_Funeral_Fenumion_2026-09-30.md — Rite of the Flame, Staff of Power decision, trust, and burial"
+    ],
+    body: `<p>Melian Starguard is one of Fenumion’s clearest examples of civic leadership without heroic supremacy. She remains responsible for Pristinia while people with greater wealth, magic, mobility, and destructive power arrive, leave, fight gods, betray one another, die, return, and move on. Adventurers may save the town; Melian still has to help run it afterward.</p>
+      <div class="callout gold"><p><strong>Core distinction:</strong> power is not the same thing as civic authority. Pristinia still needs food, labor, walls, diplomacy, funerals, public property, and trust after spectacular intervention ends.</p></div>
+      <h2 id="melian-early-pristinia">Interpreter of a vulnerable settlement</h2>
+      <p>In Pristinia’s earliest recovered history, Melian meets newcomers over a map and leads them through the settlement whose needs will shape their work. By August 2024 she can explain the town’s geopolitical position among Rahu influence, Eovar, the Guardians of the Shard, and The Before. Her leadership predates the siege: she knows the region, interprets it for outsiders, and carries institutional memory.</p>
+      <h2 id="melian-last-banner">The last banner of Pristinia</h2>
+      <p>During the Rahu crisis, Ada’s frightened chronicle calls Melian the last banner of Pristinia. She takes position at the Northeast Tower and helps turn palisades, terrain, smiths, miners, crafters, and loyalists into a town capable of enduring. Elenia’s later extraordinary intervention can break siege engines; Melian’s different task is to remain responsible before, during, and after the miracle.</p>
+      <h2 id="melian-capture">4 June 2025 · political abduction</h2>
+      <p>Melian is alone with tea when Magnus and the Rahu arrive. She rises, draws her sword, and faces a consequence she has anticipated without pretending she can guarantee victory.</p>
+      <div class="quote">I knew this day would come. Let us see what comes of it.<cite>Melian Starguard</cite></div>
+      <p>Magnus immediately uses yielding gas. Melian collapses, is wrapped to resemble a corpse, and is carried away. The Rahu target her not because she is Pristinia’s most dangerous combatant, but because she represents it institutionally. The attack is political kidnapping rather than an ordinary battlefield defeat.</p>
+      <p>Herb and Scout Lilian approach while Herb carries a meal meant to cheer her. Magnus orders both witnesses killed. The operation therefore wounds Melian’s office, body, friendships, and civilian community at the same time.</p>
+      <h2 id="melian-survivor">Leadership as remaining</h2>
+      <p>Melian survives into Pristinia’s later history. The details of her captivity and return remain incomplete, but she is not reduced to “the NPC who was kidnapped.” She becomes a continuity figure who witnesses the Rahu crisis, the growth of adventurer factions, the destruction and rebuilding of institutions, Papirak’s death, and the accumulation of a town’s memory.</p>
+      <h2 id="melian-papirak">Papirak’s funeral · carrying the flame</h2>
+      <p>On 30 September 2026, Melian leads the procession and performs the Rite of the Flame. Her language makes survival an obligation to carry something forward for those who cannot.</p>
+      <div class="quote">What light they leave behind now lives within my hands.<cite>Melian Starguard</cite></div>
+      <div class="quote">I walk because they cannot, and I shine where they are gone.<cite>Melian Starguard</cite></div>
+      <p>Papirak’s walking stick is revealed as a Staff of Power worth an enormous sum. Melian refuses to reduce its meaning to utility and determines that it belongs with Papirak. When Fenwick Sequesters it with Pell’s permission and Camilla can no longer detect it, Melian trusts them enough to continue the rite. Suspicion remains part of the history; it does not become proof of theft.</p>
+      <h2 id="melian-herb">The flame and the hearth</h2>
+      <p>Melian gives grief structure through ritual, memory, and civic language. Herb restores ordinary life through food, drink, laughter, and gathering afterward. Their relationship is most clearly shown not by a formal declaration but by Herb carrying dinner through a war zone because he knows Melian is struggling.</p>
+      <h2 id="melian-open-record">The open record</h2>
+      <p>Melian’s exact title and constitutional powers at each stage, early biography, founding role, complete captivity and return, pre-war friendship with Herb, and authority over Pristinia’s council, treasury, militia, and adventurers remain unresolved. “Major civic leader” is established; a more specific office must wait for evidence.</p>`
+  });
+}
+
+const zarathisDeepDive = articles.find(article => article.id === "zarathis");
+if (zarathisDeepDive && !zarathisDeepDive.body.includes("id=\"zarathis-capital\"")) {
+  zarathisDeepDive.type = "Fein Uaill · capital and political-cultural center";
+  zarathisDeepDive.dek = "The capital where Zarathian legitimacy becomes public: hierarchy, ceremony, cultural memory, gardens, and a political order in which truth matters but trust has history.";
+  zarathisDeepDive.tags = [...new Set([...(zarathisDeepDive.tags || []), "Aria", "Bowene", "Verdant Circle", "Political legitimacy"] )];
+  zarathisDeepDive.facts = { ...(zarathisDeepDive.facts || {}), "Political role": "Capital of Zarathis", "Public principle": "Power made public", "Cultural institutions": "Silver Star; Verdant Circle", "Post-Aria order": "Bowene · peace and reconciliation" };
+  zarathisDeepDive.sources = [...new Set([...(zarathisDeepDive.sources || []), "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — capital identity, public reckoning, culture, hierarchy, and succession"] )];
+  zarathisDeepDive.body += `<h2 id="zarathis-capital">The capital is not the whole region</h2>
+      <p>The City of Zarathis is the capital and public political center of Zarathis within Fein Uaill. It must not be collapsed into the entire region, the holy city of <a href="#ciaranach">Ciaránach</a>, the private adventurer residence at <a href="#caislean-na-bron">Caisleán na Brón</a>, or Aria personally. Archive spellings such as “Zerathis” remain searchable without creating a second place.</p>
+      <p>The contrast with Caisleán is especially clear on 5 August 2025: adventurers prepare in their castle, then travel to the heart of Zarathis for public reckoning. Private strategy becomes accountable before a population.</p>
+      <h2 id="zarathis-reckoning">5 August 2025 · the war of hearts</h2>
+      <p>After the dragon-island campaign and the Wyrm’s catastrophic appearance, Aria gives her account before the city. The adventurers bring their own evidence, but the population brings years of memory. Olokun understands that the crowd is not the enemy and that a hostile performance would strengthen the very legitimacy they hope to challenge.</p>
+      <p>Aria’s power in Zarathis is not reducible to Pride or coercion. Accomplishment, familiarity, cultural belonging, and institutional history make her claims persuasive. A single speech cannot erase what people believe they have lived. The city’s political lesson is therefore severe: <strong>truth matters, but trust has history.</strong></p>
+      <h2 id="zarathis-verdant-circle">11 August 2025 · the Verdant Circle</h2>
+      <p>The garden scene prevents the capital from becoming only “Aria’s political city.” Tulaine and roughly a dozen gardeners tend cultivated spaces integrated with Silver Star architecture. Gartina, Jiangshi, and Tulaine debate balance, intervention, instinct, knowledge, and whether caretakers must name the code by which they choose.</p>
+      <p>The scene establishes a cultural tradition without supplying a complete institutional chart. Safe public description includes formal gardens, Silver Star urban design, and nature integrated into built space; the exact city plan and Verdant Circle hierarchy remain unresolved.</p>
+      <h2 id="zarathis-hierarchy">Rank, protocol, and adventurer outsiders</h2>
+      <p>Zarathian society makes status and procedure legible. Magnus later explains that higher-ranked figures speak first and those without rank or political experience follow. Adventurers enter this culture as outsiders, then become witnesses, soldiers, challengers, residents, custodians of Aria’s possessions, and participants in succession. Their actions become part of Zarathian history without making them owners of it.</p>
+      <h2 id="zarathis-after-aria">Death without ideological closure</h2>
+      <p>Talan kills Aria on 6 November 2025 during a confrontation not intended as her final resolution. Zarathis therefore inherits supporters, grief, military consequences, unfinished relationships, and succession rather than a clean verdict on Pride. High Lord Bowene rises afterward; by July 2026 the wider Fein Uaill order is described as entering peace and reconciliation, though Miriel’s influence and anxiety around Magnus remain.</p>
+      <p>Old Zarathian society’s unease with Magnus centers on the culture’s “one law: death.” The line establishes a real cultural conflict while leaving the law’s complete history and application open for further recovery.</p>
+      <h2 id="zarathis-open-record">The open city record</h2>
+      <p>Zarathis’s population, districts, palace and governmental buildings, constitution, exact Silver Star architecture, Verdant Circle structure, succession law, relationship to Ciaránach’s religious authority, and the shifting use of “Zarathis” for city, polity, or society remain unresolved.</p>`;
+}
+
+if (memorableQuotesArticle && !memorableQuotesArticle.body.includes("small joys in this difficult time")) {
+  memorableQuotesArticle.body = memorableQuotesArticle.body
+    .replace('<h2 id="protection-and-responsibility">Protection and responsibility</h2>\n      <div class="quote-gallery">', '<h2 id="protection-and-responsibility">Protection and responsibility</h2>\n      <div class="quote-gallery">\n        <button class="quote-card" data-article="herb"><blockquote>“We all need to find small joys in this difficult time.”</blockquote><cite>Herb Shepherd</cite></button>')
+    .replace('<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">', '<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I knew this day would come. Let us see what comes of it.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“What light they leave behind now lives within my hands.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I walk because they cannot, and I shine where they are gone.”</blockquote><cite>Melian Starguard</cite></button>');
+  memorableQuotesArticle.facts.Selection = "56 recovered lines";
+  memorableQuotesArticle.sources = [...new Set([...(memorableQuotesArticle.sources || []), "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations"] )];
+}
+
+const melianAbductionTimeline = questTimelineAdditions.find(item => item.title === "Magnus abducts Melian for the Rahu");
+if (melianAbductionTimeline) {
+  melianAbductionTimeline.article = "melian-starguard";
+  melianAbductionTimeline.summary = "Magnus incapacitates Melian with yielding gas and prepares her political abduction. Herb arrives with a meal meant to cheer her; Magnus orders the approaching witnesses killed, and Herb and Scout Lilian die before Melian is extracted.";
+}
+const zarathisReckoningTimeline = questTimelineAdditions.find(item => item.title === "Aria turns public memory against Adelia");
+if (zarathisReckoningTimeline) zarathisReckoningTimeline.article = "zarathis";
+const boweneSuccessionTimeline = questTimelineAdditions.find(item => item.title === "High Lord Bowene ascends after Aria’s death");
+if (boweneSuccessionTimeline) boweneSuccessionTimeline.article = "zarathis";
+
 if (!questTimelineAdditions.some(item => item.title === "Magnus returns and Hope withers")) {
   questTimelineAdditions.push({
     title: "Magnus returns and Hope withers",
@@ -8634,8 +8743,8 @@ const archiveIndex = {
     {
       "title": "Melian Starguard",
       "meta": "Pristinian civic leader",
-      "article": "papirak-legacy",
-      "summary": "Leads Papirak’s Rite of the Flame, hears the public dispute over his staff, and ultimately returns it to him as his final worldly possession."
+      "article": "melian-starguard",
+      "summary": "A civic authority who carries Pristinia through siege, abduction, return, and remembrance without treating extraordinary power as a substitute for public responsibility."
     },
     {
       "title": "Poe",
@@ -8682,11 +8791,11 @@ const archiveIndex = {
       "summary": "Carries the ordinary cost when promised harvest help does not return."
     },
     {
-      "title": "Herb",
-      "meta": "Common Man bartender",
+      "title": "Herb Shepherd",
+      "meta": "Bartender · Pristinian civic anchor",
       "article": "herb",
       "video": "herb-portrait.mp4",
-      "summary": "Local knowledge connecting food stores, regulars, labor needs, and ecological restraint."
+      "summary": "Local knowledge, remembered habits, practical care, and ecological restraint make Herb a keeper of Pristinia’s ordinary continuity."
     },
     {
       "title": "Paco",
@@ -10477,6 +10586,10 @@ const navigationRegions = [
             "article": "lady-severina"
           },
           {
+            "label": "Melian Starguard",
+            "article": "melian-starguard"
+          },
+          {
             "label": "Minerva",
             "article": "minerva"
           },
@@ -10896,6 +11009,7 @@ const fixedArticlePaths = new Map([
   ["visual-archive", ["Locations", "Location Atlas"]],
   ["prima-pristinia", ["Locations", "Prima"]],
   ["pristinia", ["Locations", "Prima", "Pristinia"]],
+  ["melian-starguard", ["Characters", "Melian Starguard"]],
   ["papirak-legacy", ["Locations", "Prima", "Pristinia", "Papirak’s Legacy"]],
   ["first-forest", ["Locations", "Prima", "The First Forest"]],
   ["common-man", ["Locations", "Prima", "Pristinia", "The Common Man"]],
@@ -13019,14 +13133,138 @@ const relationshipMaps = {
       { label: "Historical force", value: "Her absence", note: "Death changes Nienna, Wren, Adelia, and the company before Jiangshi returns." },
       { label: "Living distinction", value: "Sustaining is not choosing", note: "Protection and nature are not identical to a person deliberately loving another." }
     ]
+  },
+  herb: {
+    title: "Herb Shepherd’s relationship web",
+    intro: "Herb’s history is built from remembered orders, shared meals, hard limits, death, restoration, and the work of keeping a public room alive. Select a tie to see how ordinary care becomes civic continuity.",
+    center: { title: "Herb Shepherd", subtitle: "The hearth Pristinia keeps rebuilding" },
+    filters: [
+      { id: "all", label: "All ties" }, { id: "bond", label: "Friendship & care" },
+      { id: "power", label: "Death & restoration" }, { id: "conflict", label: "Violence & loss" },
+      { id: "politics", label: "Work & community" }
+    ],
+    nodes: [
+      {
+        id: "melian", title: "Melian Starguard", subtitle: "A special meal in a time of crisis", category: "bond", strength: 3, x: 50, y: 8, direction: "mutual",
+        relation: "Care offered before catastrophe",
+        history: "On 4 June 2025, Herb and Scout Lilian carry a special meal to Melian because Herb knows the Rahu crisis has reached her personally. They encounter Magnus’s abduction operation and are killed after his order that there be no witnesses.",
+        consequence: "The scene makes hospitality politically consequential without turning it into strategy. Herb’s care and Melian’s survival remain connected to a murder that restoration cannot erase.",
+        evidence: "The meal, deaths, and abduction are established; Herb’s exact restoration mechanism remains unresolved.", article: "melian-starguard"
+      },
+      {
+        id: "ada", title: "Ada", subtitle: "Town chronicler and best friend", category: "bond", strength: 3, x: 80, y: 24, direction: "mutual",
+        relation: "Friendship preserved in the public record",
+        history: "Ada signs herself as Pristinia’s town chronicler and Herb’s best friend. Her writing preserves the people whose ordinary labor could otherwise disappear behind adventurers’ larger deeds.",
+        consequence: "Herb is not only remembered because heroes used his tavern. A friend with a civic vocation deliberately writes him into the town’s history.",
+        evidence: "Ada’s title and self-described friendship are established; their fuller private history remains unrecovered.", article: "ada-town-chronicler"
+      },
+      {
+        id: "hearth", title: "The Common Man & Pilgrim’s Hearth", subtitle: "One foundation, two public rooms", category: "politics", strength: 3, x: 82, y: 68, direction: "mutual",
+        relation: "A person and institution remade together",
+        history: "Herb’s work makes the Common Man a source of food, news, memory, and restraint. After zombie pirates burn it, Pilgrim’s Hearth rises on the same foundations as a larger refuge.",
+        consequence: "The replacement does not erase the fire. It turns continuity into a practice: use the same ground, remember the loss, and make the next refuge more durable.",
+        evidence: "Destruction and rebuilding are established; Herb’s complete role in construction remains incomplete.", article: "pilgrims-hearth"
+      },
+      {
+        id: "magnus", title: "Magnus Niriin", subtitle: "No witnesses, no survivors", category: "conflict", strength: 3, x: 58, y: 90, direction: "toward",
+        relation: "Civilian care meets covert violence",
+        history: "Magnus leads the operation that incapacitates Melian and orders Herb and Scout Lilian killed when their act of care brings them too close to the extraction.",
+        consequence: "Herb’s later restoration does not soften the command or remove it from Magnus’s history. Survival and accountability remain separate questions.",
+        evidence: "The order and resulting deaths are established; later consequences for the killers remain incomplete.", article: "magnus"
+      },
+      {
+        id: "aravil", title: "Aravil", subtitle: "A regular known by her order", category: "bond", strength: 2, x: 24, y: 72, direction: "mutual",
+        relation: "Belonging through remembered habit and useful work",
+        history: "Herb remembers Aravil’s usual two tequilas and turns a conversation about dwindling food into a practical hunting effort with an ecological limit.",
+        consequence: "Recognition and responsibility arrive together. Being known in Pristinia means both having a place at the bar and helping the settlement survive without stripping its future.",
+        evidence: "The remembered order, food pressure, and elk limit are established.", article: "aravil"
+      },
+      {
+        id: "papirak", title: "Papirak and Pristinia’s mourners", subtitle: "Grief carried toward celebration", category: "politics", strength: 2, x: 18, y: 30, direction: "toward",
+        relation: "Hospitality as a communal mourning practice",
+        history: "At Papirak’s funeral, Herb breaks the solemnity by insisting that Papirak would have wanted his life celebrated, then helps turn the wake toward food, drink, music, and company.",
+        consequence: "The gesture does not end grief. It gives grief a public room in which the living can remain together.",
+        evidence: "Herb’s intervention and the wake are directly preserved.", article: "papirak-legacy"
+      }
+    ],
+    insights: [
+      { label: "Central bond", value: "Melian", note: "A meal offered in crisis makes ordinary care part of political history." },
+      { label: "Keeper of memory", value: "Ada", note: "The chronicler records her best friend as more than background scenery." },
+      { label: "Living institution", value: "The hearth", note: "A tavern can burn while its civic purpose survives." },
+      { label: "Characteristic wisdom", value: "Take enough, not everything", note: "Present need must not consume the future herd." }
+    ]
+  },
+  "melian-starguard": {
+    title: "Melian Starguard’s relationship web",
+    intro: "Melian’s authority is measured by what remains after extraordinary people leave: a town, its procedures, its dead, and the responsibility to keep deciding. Select a tie to follow that civic burden through crisis and remembrance.",
+    center: { title: "Melian Starguard", subtitle: "Continuity without heroic supremacy" },
+    filters: [
+      { id: "all", label: "All ties" }, { id: "bond", label: "Care & remembrance" },
+      { id: "power", label: "Authority & intervention" }, { id: "conflict", label: "Capture & distrust" },
+      { id: "politics", label: "Civic responsibility" }
+    ],
+    nodes: [
+      {
+        id: "herb", title: "Herb Shepherd", subtitle: "The hearth beside the flame", category: "bond", strength: 3, x: 50, y: 8, direction: "mutual",
+        relation: "Two forms of Pristinian continuity",
+        history: "Herb brings Melian a special meal during the Rahu crisis and is killed during her abduction. Both later return to Pristinia’s life, where Melian carries formal remembrance and Herb gathers the living afterward.",
+        consequence: "Their paired history joins civic leadership to hospitality. The flame and the hearth are different forms of keeping a community alive.",
+        evidence: "The meal, murder, later presence, and funeral roles are established; the mechanics between death and return remain incomplete.", article: "herb"
+      },
+      {
+        id: "magnus", title: "Magnus Niriin", subtitle: "The returning adventurer who abducts her", category: "conflict", strength: 3, x: 80, y: 24, direction: "toward",
+        relation: "Civic authority targeted by covert force",
+        history: "Magnus returns as leader of a Rahu operation, incapacitates Melian with yielding gas, disguises her as a corpse, orders the killing of witnesses, and delivers her to Strange Talon.",
+        consequence: "The abduction demonstrates how quickly adventurer power can become violence against the settlement it once moved through. Melian’s later survival does not cancel the political rupture.",
+        evidence: "The operation is directly preserved; captivity, release, and full aftermath remain unresolved.", article: "magnus"
+      },
+      {
+        id: "elenia", title: "Elenia", subtitle: "Intervention beside continuity", category: "power", strength: 2, x: 82, y: 68, direction: "mutual",
+        relation: "Two necessary forms of leadership",
+        history: "During Pristinia’s crisis, Melian organizes civic resistance while Elenia embodies the extraordinary intervention capable of changing a battlefield.",
+        consequence: "The contrast prevents either role from consuming the other. A town needs someone able to act against catastrophe and someone responsible for what still exists when the intervention ends.",
+        evidence: "Their distinct crisis functions are established; a complete personal relationship chronology is not.", article: "elenia"
+      },
+      {
+        id: "papirak", title: "Papirak", subtitle: "A light carried after death", category: "bond", strength: 3, x: 58, y: 90, direction: "toward",
+        relation: "Public memory made into civic stewardship",
+        history: "Melian leads Papirak’s Rite of the Flame and argues that his Staff of Power should remain his final worldly possession rather than become a liquid asset or prize.",
+        consequence: "Her decision treats power, property, and grief as questions the community must answer without converting the dead into resources for the living.",
+        evidence: "The rite, public discussion, and burial decision are directly preserved.", article: "papirak-legacy"
+      },
+      {
+        id: "camilla", title: "Camilla Blackwood", subtitle: "Security suspicion at the tomb", category: "conflict", strength: 2, x: 24, y: 72, direction: "mutual",
+        relation: "Trust tested by invisible evidence",
+        history: "After Fenwick casts Sequester on Papirak’s staff, Camilla can no longer detect it and warns Melian that it may have been stolen. Melian trusts Pell and Fenwick and continues the funeral.",
+        consequence: "The disagreement preserves a real civic tension: security vigilance can be sincere without making its interpretation fact, while trust remains a decision made under uncertainty.",
+        evidence: "Camilla’s observation, interpretation, and Melian’s response are established; theft is not.", article: "papirak-legacy"
+      },
+      {
+        id: "pristinia", title: "Pristinia", subtitle: "The constituency that remains", category: "politics", strength: 3, x: 18, y: 30, direction: "mutual",
+        relation: "Responsibility amid unequal power",
+        history: "Melian briefs newcomers, organizes resistance, survives being made a political hostage, and later conducts public remembrance while adventurers and divine powers move through the settlement.",
+        consequence: "Her record asks what legitimate civic authority looks like when residents depend on people whose power exceeds local institutions and whose presence is temporary.",
+        evidence: "These public roles are established; her exact constitutional title and powers remain unresolved.", article: "pristinia"
+      }
+    ],
+    insights: [
+      { label: "Central constituency", value: "Pristinia", note: "Leadership is answerable to the people who remain after heroes leave." },
+      { label: "Closest civic counterpart", value: "Herb", note: "The flame and hearth preserve different parts of communal life." },
+      { label: "Greatest rupture", value: "Magnus", note: "Former adventurer power becomes covert violence against the town." },
+      { label: "Defining practice", value: "Carry the light", note: "Remembrance becomes a responsibility of the living, not ownership of the dead." }
+    ]
   }
 };
 
 function mergeMedia(record, media) {
   if (!record || !media) return;
-  const { aliases = [], ...fields } = media;
+  const { aliases = [], gallery = [], ...fields } = media;
   Object.assign(record, fields);
   if (aliases.length) record.aliases = [...new Set([...(record.aliases || []), ...aliases])];
+  if (gallery.length) {
+    const existingGallery = record.gallery || [];
+    record.gallery = [...existingGallery, ...gallery.filter(item => !existingGallery.some(existing => existing.image === item.image))];
+  }
 }
 
 function applyMediaCatalog(catalog = window.FENUMION_MEDIA || {}) {
@@ -13117,6 +13355,7 @@ function applyVault(data) {
   }
   Object.assign(legacyCharacterProfiles, data.profiles || {});
   Object.assign(subchannelMap, data.subchannels || {});
+  applyMediaCatalog();
   rebuildDerivedData();
 }
 

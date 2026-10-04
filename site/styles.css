@@ -1,32 +1,8 @@
 @font-face {
-  font-family: "Ringbearer";
-  src: url("assets/fonts/ringbearer-font/RingbearerMedium-51mgZ.ttf") format("truetype");
+  font-family: "Vespasian2018";
+  src: url("assets/fonts/vespasian2018/Vespasian2018-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Fenumion Display";
-  src: url("assets/fonts/CinzelDecorative-Bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Fenumion UI";
-  src: url("assets/fonts/Cinzel-Variable.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400 900;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Fenumion Text";
-  src: url("assets/fonts/CormorantGaramond-Variable.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 300 700;
   font-display: swap;
 }
 
@@ -47,9 +23,9 @@
   --green-bright: #7bd6a7;
   --wine: #a66770;
   --shadow: 0 24px 80px rgba(0, 0, 0, .34);
-  --serif: "Ringbearer", "Fenumion Display", Cinzel, Georgia, "Times New Roman", serif;
-  --sans: "Fenumion UI", Cinzel, Georgia, serif;
-  --text: "Fenumion Text", "Palatino Linotype", Palatino, Georgia, serif;
+  --serif: "Vespasian2018", Georgia, "Times New Roman", serif;
+  --sans: "Vespasian2018", Georgia, "Times New Roman", serif;
+  --text: "Vespasian2018", Georgia, "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
@@ -86,6 +62,77 @@ a:hover { color: var(--gold-bright); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 .skip-link { position: fixed; z-index: 100; top: .6rem; left: .6rem; padding: .7rem 1rem; background: var(--gold); color: #101710; transform: translateY(-160%); transition: transform .15s; }
 .skip-link:focus { transform: translateY(0); }
+
+/* Persistent soundtrack player */
+.music-player {
+  position: fixed;
+  z-index: 70;
+  top: 86px;
+  left: 12px;
+  width: min(292px, calc(100vw - 24px));
+}
+.music-toggle {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: .55rem;
+  padding: .55rem .78rem;
+  color: var(--gold-bright);
+  background: rgba(7, 18, 15, .94);
+  border: 1px solid #6c5a34;
+  border-radius: 999px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .34);
+  cursor: pointer;
+  backdrop-filter: blur(14px);
+}
+.music-toggle:hover,
+.music-toggle:focus-visible { color: #fff6d7; border-color: var(--gold-bright); }
+.music-toggle-icon { display: grid; width: 27px; height: 27px; place-items: center; color: #17140d; background: var(--gold); border-radius: 50%; font: 800 1rem/1 var(--sans); }
+.music-toggle-label { font: 700 .7rem/1 var(--sans); letter-spacing: .11em; text-transform: uppercase; }
+.music-toggle.playing .music-toggle-icon { animation: soundtrack-pulse 1.8s ease-in-out infinite; }
+.music-panel {
+  margin-top: .55rem;
+  padding: .9rem;
+  background: linear-gradient(150deg, rgba(16, 34, 27, .98), rgba(6, 15, 13, .99));
+  border: 1px solid #6c5a34;
+  border-radius: 10px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, .52);
+  backdrop-filter: blur(18px);
+}
+.music-panel[hidden] { display: none; }
+.music-heading { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: .65rem; align-items: center; }
+.music-heading > span { color: var(--gold); }
+.music-heading small,
+.music-heading strong { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.music-heading small { color: var(--muted); font: 700 .58rem/1.2 var(--sans); letter-spacing: .12em; text-transform: uppercase; }
+.music-heading strong { margin-top: .22rem; color: #fff6dc; font: 600 .92rem/1.25 var(--serif); }
+.music-heading button { width: 31px; height: 31px; color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 50%; cursor: pointer; }
+.music-heading button:hover,
+.music-heading button:focus-visible { color: #fff; border-color: var(--gold); }
+.music-progress-row { display: grid; grid-template-columns: 34px 1fr 34px; gap: .5rem; align-items: center; margin: .9rem 0 .65rem; color: var(--faint); font: 600 .58rem/1 var(--sans); }
+.music-progress-row input,
+.music-footer input { width: 100%; accent-color: var(--gold); cursor: pointer; }
+.music-controls { display: flex; justify-content: center; gap: .55rem; align-items: center; }
+.music-controls button { display: grid; width: 38px; height: 38px; place-items: center; color: #e7dfc9; background: rgba(255,255,255,.025); border: 1px solid var(--line); border-radius: 50%; cursor: pointer; font: 700 1.35rem/1 var(--sans); }
+.music-controls button:hover,
+.music-controls button:focus-visible { color: #fff; border-color: var(--gold); background: rgba(212,180,109,.1); }
+.music-controls .music-play { width: 48px; height: 48px; padding-left: .2rem; color: #17140d; background: var(--gold); border-color: var(--gold-bright); font-size: 1rem; }
+.music-controls .music-play:hover,
+.music-controls .music-play:focus-visible { color: #0b0f0d; background: var(--gold-bright); }
+.music-controls .music-loop { margin-left: .4rem; color: var(--faint); font-size: 1rem; }
+.music-controls .music-loop.active { color: var(--gold-bright); border-color: #6c5a34; }
+.music-footer { display: grid; grid-template-columns: 1fr 94px; gap: .7rem; align-items: center; margin-top: .75rem; color: var(--muted); font: 600 .6rem/1.2 var(--sans); letter-spacing: .04em; }
+.music-footer label { display: grid; grid-template-columns: auto 1fr; gap: .35rem; align-items: center; }
+.music-status { margin: .5rem 0 0; color: var(--faint); font: 600 .56rem/1.3 var(--sans); text-align: center; }
+@keyframes soundtrack-pulse { 50% { box-shadow: 0 0 0 5px rgba(212, 180, 109, .16); transform: scale(1.04); } }
+
+@media (prefers-reduced-motion: reduce) { .music-toggle.playing .music-toggle-icon { animation: none; } }
+
+@media (max-width: 760px) {
+  .music-player { top: 82px; left: 8px; width: min(286px, calc(100vw - 16px)); }
+  .music-toggle-label { display: none; }
+  .music-toggle { width: 44px; padding: .42rem; }
+}
 
 .topbar {
   position: sticky;

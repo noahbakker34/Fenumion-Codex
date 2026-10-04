@@ -93,7 +93,7 @@ Keep “what was knowable at the time” attached to major event histories. Regi
 
 These are durable organizing truths in the archive:
 
-- Ada is the creator and made genuine free will possible.
+- Free will is treated as genuine rather than as an illusion imposed by divine authority.
 - Divine caretakers were entrusted with domains; stewardship did not grant ownership over mortal choice.
 - Etz Chaim, the One Tree, is central to creation and the world's continuity.
 - The Sap, Delerium, and their corrupting consequences connect divine catastrophe to mortal history.
@@ -197,7 +197,7 @@ Major events incorporated from the master timeline include:
 - Wrath's assault and defeat;
 - Aionia's warning;
 - Adelia's departure;
-- Ada's third arrival;
+- the third arrival;
 - the siege of Rahu;
 - Aria trapping Scribonia;
 - Gartina, Jiangshi, and Tulaine in the garden;
@@ -259,7 +259,7 @@ Elenia and Gartina now have full working dossiers in `docs/ELENIA_HISTORY.md` an
 - Thorn's return
 - The cave crystals
 - The exact mechanism of Dumuzi's choice
-- Ada's intervention
+- direct intervention by higher powers
 - The mechanism of the Shattering
 - The relationship among the One Tree, the Shards, and Hope
 - The origins and volition of newcomers through the Gate
@@ -369,9 +369,9 @@ The `COSMOLOGICAL_IMPORTANT_EVENTS.md` synthesis supplied on 23 September 2026 h
 
 The updated record now explicitly preserves:
 
-- twenty-six connected cosmological events, from Ada's creation of genuine wills through the September 2026 Chain/Maw crisis;
+- twenty-six connected cosmological events, from the primordial order of genuine wills through the September 2026 Chain/Maw crisis;
 - the full entrusted domains of Cala, Nuru, Physisia, Aionia, Mya, Namo'o, Talan, and Moirah;
-- Etz Chaim as part of life's original order but not Ada, with Tree–Shard–Hope relationships still unresolved;
+- Etz Chaim as part of life's original order, with Tree–Shard–Hope relationships still unresolved;
 - the gods as both contributors to the primordial catastrophe and emergency responders who completed the Shattering as a firebreak;
 - Dumuzi's philosophy of surrender and Hope as possibility rather than guaranteed rescue;
 - the 30 July 2024 Gate details, four archways or runes, realm pools, seven newcomers, and Talan's refusal of resurrection;

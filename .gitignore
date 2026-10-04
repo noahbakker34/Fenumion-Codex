@@ -6,3 +6,6 @@ chatgpt-json-chunks/
 vault.json
 site/vault.json
 private/vault*.json
+
+# macOS Finder metadata is local-only.
+.DS_Store

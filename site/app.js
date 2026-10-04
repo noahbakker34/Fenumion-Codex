@@ -926,7 +926,7 @@ const articles = [
       "docs/EDITORIAL_ARCHITECTURE.md — adapted working standard",
       "docs/SOURCE_MANIFEST.md — processed synthesis index"
     ],
-    "body": "<p>The Codex is a structured reading of the complete 108,619-message main quest archive and 303 supporting campaign records. Scenes are compared, corrected, and re-read when later material changes their meaning. Mechanics files are used only as a secondary check where a name or implemented rule needs corroboration.</p>\n      <div class=\"callout gold\"><p><strong>Source hierarchy:</strong> primary scenes and records first; later synthesis second; mechanics corroboration only where relevant.</p></div>\n      <h2 id=\"evidence-levels\">Six kinds of evidence</h2>\n      <div class=\"evidence-stack\">\n        <section class=\"evidence-card\"><span>01</span><div><h3>Objective canon</h3><p>A supported truth about the world’s actual structure rather than merely a participant’s assertion.</p></div></section>\n        <section class=\"evidence-card\"><span>02</span><div><h3>Observed fact</h3><p>Something witnessed in a scene, quest, transcript, map, screenshot, or other primary record. Observation does not make every interpretation correct.</p></div></section>\n        <section class=\"evidence-card\"><span>03</span><div><h3>Character claim or belief</h3><p>A statement that keeps its speaker. It may be sincere, mistaken, incomplete, interested, or substantially true without becoming omniscient narration.</p></div></section>\n        <section class=\"evidence-card\"><span>04</span><div><h3>Historical interpretation</h3><p>A supported synthesis connecting multiple records. It explains a pattern without pretending to be a direct observation.</p></div></section>\n        <section class=\"evidence-card\"><span>05</span><div><h3>Governance precedent</h3><p>An OOC ruling about consent, adjudication, policy, or play. It may shape history but does not become in-world metaphysics.</p></div></section>\n        <section class=\"evidence-card\"><span>06</span><div><h3>Unknown or unresolved</h3><p>A deliberate record of missing dates, contradictions, competing theories, and incomplete regional knowledge.</p></div></section>\n      </div>\n      <h2 id=\"consequence\">The unit of history is consequence</h2>\n      <p>The Codex does not stop at naming a quest. It asks what became true afterward: who remembers, which relationship changed, what place was altered, what knowledge entered or left the world, who paid the price, and which later event depended on it. Ordinary meals, markets, teaching, transport, jokes, and memorials belong in history when they change continuity.</p>\n      <p>If an outcome happened honestly at the table, it belongs to history. Dice, missed clues, failed plans, and character deaths may acquire later meaning without being rewritten as predestination. A coherent record preserves the contingency that made the choice real.</p>\n      <h2 id=\"chronology\">Discovery order matters</h2>\n      <p>The players did not receive a clean biography of Wrath. They met fragments: a hostile journal, a terrifying first encounter, a trade involving Delerium, and a later Legend Lore. Each revelation changed the meaning of the earlier one. The Codex preserves that sequence because <em>how people learned something</em> is part of what happened.</p>\n      <h2 id=\"knowledge-at-the-time\">What was knowable at the time</h2>\n      <p>A later answer does not grant earlier participants retroactive knowledge. Major histories distinguish what people observed, what they concluded, which choice followed, what later evidence changed, and which consequences were already irreversible. Wrong theories remain historical evidence when people acted on them.</p>\n      <h2 id=\"distributed-knowledge\">No automatic omniscience</h2>\n      <p>Divine power, faction rank, regional authorship, or administrative authority does not automatically make a speaker omniscient. A regional secret may remain unknown elsewhere. “Scribonia concluded this,” “Talan judged this,” and “this is objectively true” are three different statements.</p>\n      <p>World authority is distributed. A person can steward one region and enter another as a genuinely uncertain participant. The archive preserves who authored a place, who knew what, which theory belonged to whom, and what still has no answer.</p>\n      <h2 id=\"spoilers\">Spoilers and perspective</h2>\n      <p>This first edition is an out-of-character world guide. It includes major historical revelations. Rumor-only and contested material is labeled in the prose rather than quietly promoted to fact.</p>\n      <h2 id=\"revisions-as-record\">Revisions are part of the record</h2>\n      <p>The chronicle preserves the moment an interpretation changed: Papirak’s memory loss first looked like divine censorship, then Paloma’s sacrifice revealed it as mercy as well as violation. Those revisions are part of the archive’s value. They show which conclusions survived contact with new evidence.</p>\n      <h2 id=\"article-standard\">What a complete record tries to preserve</h2>\n      <p>Where evidence permits, an article records current state, confidence, chronology, participants, knowledge at the time, attributed beliefs, immediate and later consequences, changed relationships, unresolved questions, and source provenance. A short entry means the surviving archive supports less synthesis—not that its subject mattered less.</p>\n      <div class=\"callout\"><p><strong>Editorial principle:</strong> help a newcomer understand the world without erasing the uncertainty, argument, and revision through which it was understood. A referee, regional author, or god is not Ada; stewardship never turns interpretation into automatic truth.</p></div>"
+    "body": "<p>The Codex is a structured reading of the complete 108,619-message main quest archive and 303 supporting campaign records. Scenes are compared, corrected, and re-read when later material changes their meaning. Mechanics files are used only as a secondary check where a name or implemented rule needs corroboration.</p>\n      <div class=\"callout gold\"><p><strong>Source hierarchy:</strong> primary scenes and records first; later synthesis second; mechanics corroboration only where relevant.</p></div>\n      <h2 id=\"evidence-levels\">Six kinds of evidence</h2>\n      <div class=\"evidence-stack\">\n        <section class=\"evidence-card\"><span>01</span><div><h3>Objective canon</h3><p>A supported truth about the world’s actual structure rather than merely a participant’s assertion.</p></div></section>\n        <section class=\"evidence-card\"><span>02</span><div><h3>Observed fact</h3><p>Something witnessed in a scene, quest, transcript, map, screenshot, or other primary record. Observation does not make every interpretation correct.</p></div></section>\n        <section class=\"evidence-card\"><span>03</span><div><h3>Character claim or belief</h3><p>A statement that keeps its speaker. It may be sincere, mistaken, incomplete, interested, or substantially true without becoming omniscient narration.</p></div></section>\n        <section class=\"evidence-card\"><span>04</span><div><h3>Historical interpretation</h3><p>A supported synthesis connecting multiple records. It explains a pattern without pretending to be a direct observation.</p></div></section>\n        <section class=\"evidence-card\"><span>05</span><div><h3>Governance precedent</h3><p>An OOC ruling about consent, adjudication, policy, or play. It may shape history but does not become in-world metaphysics.</p></div></section>\n        <section class=\"evidence-card\"><span>06</span><div><h3>Unknown or unresolved</h3><p>A deliberate record of missing dates, contradictions, competing theories, and incomplete regional knowledge.</p></div></section>\n      </div>\n      <h2 id=\"consequence\">The unit of history is consequence</h2>\n      <p>The Codex does not stop at naming a quest. It asks what became true afterward: who remembers, which relationship changed, what place was altered, what knowledge entered or left the world, who paid the price, and which later event depended on it. Ordinary meals, markets, teaching, transport, jokes, and memorials belong in history when they change continuity.</p>\n      <p>If an outcome happened honestly at the table, it belongs to history. Dice, missed clues, failed plans, and character deaths may acquire later meaning without being rewritten as predestination. A coherent record preserves the contingency that made the choice real.</p>\n      <h2 id=\"chronology\">Discovery order matters</h2>\n      <p>The players did not receive a clean biography of Wrath. They met fragments: a hostile journal, a terrifying first encounter, a trade involving Delerium, and a later Legend Lore. Each revelation changed the meaning of the earlier one. The Codex preserves that sequence because <em>how people learned something</em> is part of what happened.</p>\n      <h2 id=\"knowledge-at-the-time\">What was knowable at the time</h2>\n      <p>A later answer does not grant earlier participants retroactive knowledge. Major histories distinguish what people observed, what they concluded, which choice followed, what later evidence changed, and which consequences were already irreversible. Wrong theories remain historical evidence when people acted on them.</p>\n      <h2 id=\"distributed-knowledge\">No automatic omniscience</h2>\n      <p>Divine power, faction rank, regional authorship, or administrative authority does not automatically make a speaker omniscient. A regional secret may remain unknown elsewhere. “Scribonia concluded this,” “Talan judged this,” and “this is objectively true” are three different statements.</p>\n      <p>World authority is distributed. A person can steward one region and enter another as a genuinely uncertain participant. The archive preserves who authored a place, who knew what, which theory belonged to whom, and what still has no answer.</p>\n      <h2 id=\"spoilers\">Spoilers and perspective</h2>\n      <p>This first edition is an out-of-character world guide. It includes major historical revelations. Rumor-only and contested material is labeled in the prose rather than quietly promoted to fact.</p>\n      <h2 id=\"revisions-as-record\">Revisions are part of the record</h2>\n      <p>The chronicle preserves the moment an interpretation changed: Papirak’s memory loss first looked like divine censorship, then Paloma’s sacrifice revealed it as mercy as well as violation. Those revisions are part of the archive’s value. They show which conclusions survived contact with new evidence.</p>\n      <h2 id=\"article-standard\">What a complete record tries to preserve</h2>\n      <p>Where evidence permits, an article records current state, confidence, chronology, participants, knowledge at the time, attributed beliefs, immediate and later consequences, changed relationships, unresolved questions, and source provenance. A short entry means the surviving archive supports less synthesis—not that its subject mattered less.</p>\n      <div class=\"callout\"><p><strong>Editorial principle:</strong> help a newcomer understand the world without erasing the uncertainty, argument, and revision through which it was understood. A referee, regional author, or god is not automatically an objective narrator; stewardship never turns interpretation into truth.</p></div>"
   },
   {
     "id": "cosmology-guide",
@@ -1015,7 +1015,7 @@ const articles = [
       "COSMOLOGY_AND_METAPHYSICS.md — metaphysical red flags",
       "MASTER_TIMELINE.md — chronology gaps"
     ],
-    "body": "<p>Absence is data. A missing mechanism, conflicting memory, or unverified theory belongs in the Codex when pretending certainty would distort the world.</p>\n      <div class=\"callout gold\"><p><strong>Resolution rule:</strong> when evidence answers an old question, preserve the former uncertainty and append the resolution. Discovery order is part of history.</p></div>\n      <h2 id=\"cosmology-questions\">Cosmology</h2>\n      <ul><li>When and how does Ada intervene directly?</li><li>Why must Dumuzi be chosen?</li><li>What precisely connects the One Tree, Shards, regional Trees, and Hope?</li><li>What was the full mechanism and sequence of the Shattering?</li><li>What universal rules, if any, govern souls and resurrection?</li><li>What is Kurayami’s origin?</li></ul>\n      <h2 id=\"chronology-questions\">Chronology</h2>\n      <ul><li>What happened between Gael’s June 2024 devastation and its established restoration by February 2025?</li><li>When and how was Death defeated in Gael?</li><li>What are the exact sequences of Nienna’s final sacrifice and Adelia’s transformation?</li><li>When did the Common Man burn?</li><li>What is Eovar’s broader history?</li><li>What happened to Thorn between death, the cult ritual, and her return?</li></ul>\n      <h2 id=\"contradictions\">People and contradiction</h2>\n      <p>An early account gives Aria an older brother; a later statement says she has no siblings. Saray’s history between Nienna’s death and the final blow against Wrath is incomplete. Dale, Adelia, Scribonia, Casimir, and Alioth still need fuller longitudinal recovery.</p>\n      <h2 id=\"cave-questions\">The September cave</h2>\n      <p>The violet crystals’ nature, the corpse’s identity and contamination source, the cave’s destination, and the malformed harpies’ origin are all unresolved. Moira’s theory that the cave connects to a known Delerium source is preserved as her hypothesis—not geography.</p>"
+    "body": "<p>Absence is data. A missing mechanism, conflicting memory, or unverified theory belongs in the Codex when pretending certainty would distort the world.</p>\n      <div class=\"callout gold\"><p><strong>Resolution rule:</strong> when evidence answers an old question, preserve the former uncertainty and append the resolution. Discovery order is part of history.</p></div>\n      <h2 id=\"cosmology-questions\">Cosmology</h2>\n      <ul><li>When and how do higher powers intervene directly?</li><li>Why must Dumuzi be chosen?</li><li>What precisely connects the One Tree, Shards, regional Trees, and Hope?</li><li>What was the full mechanism and sequence of the Shattering?</li><li>What universal rules, if any, govern souls and resurrection?</li><li>What is Kurayami’s origin?</li></ul>\n      <h2 id=\"chronology-questions\">Chronology</h2>\n      <ul><li>What happened between Gael’s June 2024 devastation and its established restoration by February 2025?</li><li>When and how was Death defeated in Gael?</li><li>What are the exact sequences of Nienna’s final sacrifice and Adelia’s transformation?</li><li>When did the Common Man burn?</li><li>What is Eovar’s broader history?</li><li>What happened to Thorn between death, the cult ritual, and her return?</li></ul>\n      <h2 id=\"contradictions\">People and contradiction</h2>\n      <p>An early account gives Aria an older brother; a later statement says she has no siblings. Saray’s history between Nienna’s death and the final blow against Wrath is incomplete. Dale, Adelia, Scribonia, Casimir, and Alioth still need fuller longitudinal recovery.</p>\n      <h2 id=\"cave-questions\">The September cave</h2>\n      <p>The violet crystals’ nature, the corpse’s identity and contamination source, the cave’s destination, and the malformed harpies’ origin are all unresolved. Moira’s theory that the cave connects to a known Delerium source is preserved as her hypothesis—not geography.</p>"
   },
   {
     "id": "quest-record",
@@ -1742,7 +1742,7 @@ const articles = [
       "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
       "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence"
     ],
-    "body": "<p>Elenia can move through extraordinary magic with casual delight and still take another person’s spiritual crisis seriously. Her wisdom is not superior intelligence or permanent solemnity. It is a repeated process: wonder leads to curiosity; curiosity becomes experience; experience becomes meaning; and meaning changes what she does the next time somebody is in danger.</p>\n      <div class=\"quote\">Just be the light.<cite>Elenia</cite></div>\n      <div class=\"callout gold\"><p><strong>Core question:</strong> can Elenia become a caretaker without becoming an owner? Her history is not about refusing power. It is about whether growing power continues to preserve other people’s agency.</p></div>\n      <h2 id=\"wonder\">Wonder before certainty · April 2024</h2>\n      <p>Early Elenia barely knows Cala as the “lady of light … or something like that.” She follows a possible divine call through a forest, repeatedly noticing flowers and beauty, and admits that perhaps she was only hopeful. She experiments with the environment instead of waiting passively for revelation, places her hands on the ground, and offers herself as an instrument to carry light into dark places.</p>\n      <div class=\"quote\">I think Cala was calling me … but maybe I was just hopeful.<cite>Elenia</cite></div>\n      <p>When Cala tells her that she hopes Elenia knows how to pray, Elenia does not claim certainty. She accepts that action will reveal what devotion means.</p>\n      <div class=\"quote\">I suppose this is where we find out Lady Cala.<cite>Elenia</cite></div>\n      <p>She says, “I am here, tell me where to go,” then offers to serve as an instrument of light. In another early scene, listening has a physical cost: acid burns her back while others hold attackers away, and she stops long enough to hear Cala.</p>\n      <div class=\"quote\">I am sorry Cala! I will listen now!<cite>Elenia</cite></div>\n      <p>Later Elenia outgrows the idea that faithful service means surrendering judgment. Her authority does not begin with chosen-one certainty; it begins with curiosity, vulnerability, and action taken without pretending she already understands.</p>\n      <h2 id=\"mya-gael\">Mya and the first living Gael · June 2024</h2>\n      <p>Mya tells Elenia to remain a child of wonder and a light where darkness is strongest. Elenia answers by literally casting Light. Their relationship turns Hope into a method: wonder is not proof, but it can create a reason to act carefully and discover what might become true.</p>\n      <p>Elenia and Adelia belong to the communal history of Gael’s first living foothold. They help establish or prove life in a land defeated by Death; Gartina turns toward practical ecological restoration; Nienna, Dale, and others bring labor, defense, resources, and sacrifice. Hope is not the achievement of one chosen hero.</p>\n      <h2 id=\"wrath-year\">Wrath’s year · July–November 2024</h2>\n      <p>When Wrath kills Dale and offers a path through Death on 8 July, Quake refuses and Elenia asks Cala for another way. A diamond makes restoration possible. Ten days later, Elenia casts Death Ward on Quake because the spell previously saved her and Nienna. History becomes a protective practice rather than an emotional callback.</p>\n      <div class=\"quote\">This saved Nienna and I.<cite>Elenia</cite></div>\n      <p>When Wrath appears, she also attacks the useful portal instead of allowing his argument to control the encounter. Elenia can be spiritually open without surrendering practical judgment.</p>\n      <p>On 21 November, Wrath cuts Elenia catastrophically during the final assault. A later community retrospective remembers Gartina calling her back after Wrath cleaved her in two. The precise recovery mechanics remain missing, but Elenia’s return becomes part of the community’s shared memory rather than a disposable combat outcome.</p>\n      <h2 id=\"nienna-aria\">Nienna, Aria, and what loss teaches</h2>\n      <p>Nienna’s death does not convince Elenia that attachment is foolish. Nienna remains sister, memory, and causal presence. In a private encounter Elenia asks Aria about siblings and describes Nienna as her own sister in feeling. She uses the loss to understand Pride’s fear without accepting Aria’s conclusion that dependence should be escaped through domination.</p>\n      <p>Love can create vulnerability without becoming a mistake. Understanding why Aria is afraid does not require agreement, obedience, or forgiveness.</p>\n      <h2 id=\"rahu-siege\">Savior of Pristinia · 2025</h2>\n      <p>During the Rahu siege, Elenia destroys the siege towers and is publicly remembered as the Savior of Pristinia. The title records reputation, not solitary authorship of the settlement’s survival. It marks a decisive increase in scale: the uncertain forest pilgrim has become a figure whose intervention can alter a siege and whose name can become civic memory.</p>\n      <h2 id=\"faith\">Faith with conditions</h2>\n      <p>Elenia’s earliest offer is almost complete surrender: let me serve, let me be your instrument. Her mature faith is more demanding. She can trust Mya, question Talan, judge Nuru and Aionia independently, and ask the gods to demonstrate that they remain worth following.</p>\n      <p>Her purpose in Fein Uaill is described as less about rekindling her own faith than kindling any faith among the Zarathians. She can believe in light without requiring the divine order to be morally flawless.</p>\n      <div class=\"quote\">Less to rekindle my faith, more to kindle any faith in the Zarathians.<cite>Elenia</cite></div>\n      <h2 id=\"magnus\">Magnus and the limit of restraint · December 2025</h2>\n      <p>After a divine battle in which Elenia says she restored roughly one hundred people, Magnus challenges her or tries to turn others against her in a fight-to-the-death context—a duel over who was right. Elenia wins but does not kill him. Instead, she uses divine magic to remove or erase his face.</p>\n      <div class=\"quote\">It was a duel to see who was right, but I didn’t want to kill him.<cite>Elenia</cite></div>\n      <p>The choice is restraint without innocence. Refusing to kill does not make the alternative gentle, and preserving a life does not automatically grant permission to transform a body. The scene exposes the question at the center of later Elenia: when she can do almost anything, who decides what she should do?</p>\n      <p>The primary transcript now resolves the older exile discrepancy. On 22 December, Bowene asks directly who supports banishment. Magnus and Adelia do; Olokun and Aravil stand with Elenia. Bowene chooses exile rather than permanent banishment, gives Elenia a sending stone, and sends the departing party toward Babel-Ashur while leaving open the possibility that Zarathian law may change.</p>\n      <h2 id=\"elenia-exile\">22 December 2025 · exile without a closed door</h2>\n      <p>Elenia accepts responsibility for using Hope’s power to alter Magnus’s face and says she will follow the judgment as best she can. She asks that Zarathis return its attention to mortal flourishing—towers, statues, gardens, and people—rather than continue losing lives in war against the gods. The argument does not win immediate permission to stay, but it changes the terms of departure.</p>\n      <p>Bowene distinguishes exile from banishment. Elenia, Olokun, and Aravil are escorted through the Shining Shores, with other companions allowed to join. The sending stone and promise of continued work preserve relationship across punishment: she leaves her people without being declared permanently outside them.</p>\n      <h2 id=\"ordinary-care\">Ink, Brianna, and healing forward · 2026</h2>\n      <p>On 15 January, Elenia obtains ink for Eugene’s spellbook. She materially invests in the learning of someone who often doubts his own worth. The archive places this errand beside resurrection, bodily alteration, and exile because cosmic authority does not remove her from the small needs of another person. The measure of great power is partly whether ordinary people remain visible from that height.</p>\n      <p>After Magnus forces Delerium into Brianna, Elenia calls Mya. Hope sanctifies or cleanses the crystal rather than pretending the violation never occurred. This is healing through history: transform what remains without erasing what happened.</p>\n      <h2 id=\"miracle\">The Miracle of Fenumion · 2026</h2>\n      <p>Elenia dies and Reincarnate returns her as a satyr through an unfudged one-in-250 result. The party had already accepted that she might return changed. The event feels like grace precisely because nobody guaranteed it. The archive does not claim Ada caused the roll, and Elenia’s cause of death and exact place in the 2026 chronology remain unresolved.</p>\n      <h2 id=\"mountain\">Biblical destruction · August 2026</h2>\n      <p>Elenia joins Scribonia, Eugene, Arjahn, and others in unmaking a mountain through catastrophic weather and Earthquake: fissures, avalanche, floodwater, lava, boulders, and a vast column of steam and smoke. Before acting, she prays that any unknown people in the storm’s path be sheltered or removed. During the retreat she looks for anyone else trying to escape and accepts environmental limits rather than demanding that her power override them.</p>\n      <div class=\"quote\">As the storm rages on, the mountain claws at its own face … Nothing is visible except for biblical destruction.<cite>The mountain expedition</cite></div>\n      <p>She asks where the boundary is, accepts “no,” and uses Gate to send Nymera home. The scene does not absolve the participants because their objective is justified. It asks whether mortals were ever meant to hold this degree of power and whether there can be a return after using it. Elenia’s attention still returns to individual people—she continues looking sideways even while acting at enormous scale—but the radius of what she can destroy has become enormous.</p>\n      <h2 id=\"luminar-spires-elenia\">Luminar Spires · curiosity inside chaos</h2>\n      <p>At the Luminar Spires, Elenia reacts to unstable magic differently from Scribonia. She casts Daylight on a formation, accidentally produces reversed gravity, enjoys floating, and quickly wonders whether the transformed magic could be used against the western mist. The record preserves delight, curiosity, and immediate practical speculation without automatically labeling them recklessness.</p>\n      <p>Elenia also reports that the mist came through a rift, distinguishes it from the Pale Man’s Haze, and identifies Abyss as the first foreigner brought through a gate. These statements make her an important source for the crisis without resolving the relationship among Abyss, the rift, and the mist.</p>\n      <h2 id=\"relationships\">Relationships that carry the history</h2>\n      <ul>\n        <li><strong>Cala:</strong> early patron and call toward light; later faith no longer suspends Elenia’s judgment.</li>\n        <li><strong>Mya:</strong> wonder becomes enacted Hope, costly restoration, and healing through prior harm.</li>\n        <li><strong>Nienna:</strong> sisterhood and sacrifice remain active in Elenia’s later protection and philosophy of attachment.</li>\n        <li><strong>Adelia:</strong> shared Gael restoration followed by incompletely documented diverging paths.</li>\n        <li><strong>Quake:</strong> earlier aid returns as Death Ward; care becomes causal continuity.</li>\n        <li><strong>Aria:</strong> understanding fear without accepting Pride’s ownership logic.</li>\n        <li><strong>Magnus:</strong> the boundary between mercy, overwhelming force, and bodily domination.</li>\n        <li><strong>Eugene:</strong> divine-scale power placed beside the material support of another person’s learning.</li>\n        <li><strong>Gartina:</strong> miraculous possibility and the practical labor that makes survival durable.</li>\n        <li><strong>Nymera:</strong> shared faith does not become a claim on another devotee’s continued participation.</li>\n      </ul>\n      <h2 id=\"danger\">The danger inside her virtue</h2>\n      <p>Elenia’s strength is not refusing power. She uses it quickly and aggressively when she thinks action is required. Her danger is the inference that competence can become permission: <em>I understand the threat; I can bear the cost; therefore I should decide.</em></p>\n      <p>Elenia is compelling because she remains attentive while becoming mighty—not because might makes her automatically right. She does not need to become cruel for care to become dangerous; certainty would be enough. Her strongest future evidence will be failures and corrections: moments when help becomes authority, when someone refuses her intervention, or when listening costs more than action.</p>\n      <h2 id=\"interpretive-boundary\">Interpretive boundary</h2>\n      <p>The supplied “favorite character” essay identifies the stewardship problem with unusual clarity, but it is an analyst’s interpretation rather than objective canon. The record does not declare Elenia destined for greatness, excuse the violence done to Magnus because she spared his life, or pre-answer whether she will become a caretaker without becoming an owner. That test remains live.</p>\n      <h2 id=\"unresolved-elenia\">Unresolved record</h2>\n      <ul>\n        <li>Her history before Cala’s possible call in April 2024.</li>\n        <li>The precise division of labor in Gael’s first living foothold and the destination of Adelia’s departing group.</li>\n        <li>The mechanics of her recovery after Wrath and the event that later led to Reincarnate.</li>\n        <li>The full Rahu siege, the precise hundred-person restoration sequence, and the complete mechanics of the Magnus duel.</li>\n        <li>The exact chronology of Brianna’s sanctification and the mountain expedition.</li>\n        <li>How her Gate ability relates—or does not relate—to the ancient divine Gate.</li>\n      </ul>"
+    "body": "<p>Elenia can move through extraordinary magic with casual delight and still take another person’s spiritual crisis seriously. Her wisdom is not superior intelligence or permanent solemnity. It is a repeated process: wonder leads to curiosity; curiosity becomes experience; experience becomes meaning; and meaning changes what she does the next time somebody is in danger.</p>\n      <div class=\"quote\">Just be the light.<cite>Elenia</cite></div>\n      <div class=\"callout gold\"><p><strong>Core question:</strong> can Elenia become a caretaker without becoming an owner? Her history is not about refusing power. It is about whether growing power continues to preserve other people’s agency.</p></div>\n      <h2 id=\"wonder\">Wonder before certainty · April 2024</h2>\n      <p>Early Elenia barely knows Cala as the “lady of light … or something like that.” She follows a possible divine call through a forest, repeatedly noticing flowers and beauty, and admits that perhaps she was only hopeful. She experiments with the environment instead of waiting passively for revelation, places her hands on the ground, and offers herself as an instrument to carry light into dark places.</p>\n      <div class=\"quote\">I think Cala was calling me … but maybe I was just hopeful.<cite>Elenia</cite></div>\n      <p>When Cala tells her that she hopes Elenia knows how to pray, Elenia does not claim certainty. She accepts that action will reveal what devotion means.</p>\n      <div class=\"quote\">I suppose this is where we find out Lady Cala.<cite>Elenia</cite></div>\n      <p>She says, “I am here, tell me where to go,” then offers to serve as an instrument of light. In another early scene, listening has a physical cost: acid burns her back while others hold attackers away, and she stops long enough to hear Cala.</p>\n      <div class=\"quote\">I am sorry Cala! I will listen now!<cite>Elenia</cite></div>\n      <p>Later Elenia outgrows the idea that faithful service means surrendering judgment. Her authority does not begin with chosen-one certainty; it begins with curiosity, vulnerability, and action taken without pretending she already understands.</p>\n      <h2 id=\"mya-gael\">Mya and the first living Gael · June 2024</h2>\n      <p>Mya tells Elenia to remain a child of wonder and a light where darkness is strongest. Elenia answers by literally casting Light. Their relationship turns Hope into a method: wonder is not proof, but it can create a reason to act carefully and discover what might become true.</p>\n      <p>Elenia and Adelia belong to the communal history of Gael’s first living foothold. They help establish or prove life in a land defeated by Death; Gartina turns toward practical ecological restoration; Nienna, Dale, and others bring labor, defense, resources, and sacrifice. Hope is not the achievement of one chosen hero.</p>\n      <h2 id=\"wrath-year\">Wrath’s year · July–November 2024</h2>\n      <p>When Wrath kills Dale and offers a path through Death on 8 July, Quake refuses and Elenia asks Cala for another way. A diamond makes restoration possible. Ten days later, Elenia casts Death Ward on Quake because the spell previously saved her and Nienna. History becomes a protective practice rather than an emotional callback.</p>\n      <div class=\"quote\">This saved Nienna and I.<cite>Elenia</cite></div>\n      <p>When Wrath appears, she also attacks the useful portal instead of allowing his argument to control the encounter. Elenia can be spiritually open without surrendering practical judgment.</p>\n      <p>On 21 November, Wrath cuts Elenia catastrophically during the final assault. A later community retrospective remembers Gartina calling her back after Wrath cleaved her in two. The precise recovery mechanics remain missing, but Elenia’s return becomes part of the community’s shared memory rather than a disposable combat outcome.</p>\n      <h2 id=\"nienna-aria\">Nienna, Aria, and what loss teaches</h2>\n      <p>Nienna’s death does not convince Elenia that attachment is foolish. Nienna remains sister, memory, and causal presence. In a private encounter Elenia asks Aria about siblings and describes Nienna as her own sister in feeling. She uses the loss to understand Pride’s fear without accepting Aria’s conclusion that dependence should be escaped through domination.</p>\n      <p>Love can create vulnerability without becoming a mistake. Understanding why Aria is afraid does not require agreement, obedience, or forgiveness.</p>\n      <h2 id=\"rahu-siege\">Savior of Pristinia · 2025</h2>\n      <p>During the Rahu siege, Elenia destroys the siege towers and is publicly remembered as the Savior of Pristinia. The title records reputation, not solitary authorship of the settlement’s survival. It marks a decisive increase in scale: the uncertain forest pilgrim has become a figure whose intervention can alter a siege and whose name can become civic memory.</p>\n      <h2 id=\"faith\">Faith with conditions</h2>\n      <p>Elenia’s earliest offer is almost complete surrender: let me serve, let me be your instrument. Her mature faith is more demanding. She can trust Mya, question Talan, judge Nuru and Aionia independently, and ask the gods to demonstrate that they remain worth following.</p>\n      <p>Her purpose in Fein Uaill is described as less about rekindling her own faith than kindling any faith among the Zarathians. She can believe in light without requiring the divine order to be morally flawless.</p>\n      <div class=\"quote\">Less to rekindle my faith, more to kindle any faith in the Zarathians.<cite>Elenia</cite></div>\n      <h2 id=\"magnus\">Magnus and the limit of restraint · December 2025</h2>\n      <p>After a divine battle in which Elenia says she restored roughly one hundred people, Magnus challenges her or tries to turn others against her in a fight-to-the-death context—a duel over who was right. Elenia wins but does not kill him. Instead, she uses divine magic to remove or erase his face.</p>\n      <div class=\"quote\">It was a duel to see who was right, but I didn’t want to kill him.<cite>Elenia</cite></div>\n      <p>The choice is restraint without innocence. Refusing to kill does not make the alternative gentle, and preserving a life does not automatically grant permission to transform a body. The scene exposes the question at the center of later Elenia: when she can do almost anything, who decides what she should do?</p>\n      <p>The primary transcript now resolves the older exile discrepancy. On 22 December, Bowene asks directly who supports banishment. Magnus and Adelia do; Olokun and Aravil stand with Elenia. Bowene chooses exile rather than permanent banishment, gives Elenia a sending stone, and sends the departing party toward Babel-Ashur while leaving open the possibility that Zarathian law may change.</p>\n      <h2 id=\"elenia-exile\">22 December 2025 · exile without a closed door</h2>\n      <p>Elenia accepts responsibility for using Hope’s power to alter Magnus’s face and says she will follow the judgment as best she can. She asks that Zarathis return its attention to mortal flourishing—towers, statues, gardens, and people—rather than continue losing lives in war against the gods. The argument does not win immediate permission to stay, but it changes the terms of departure.</p>\n      <p>Bowene distinguishes exile from banishment. Elenia, Olokun, and Aravil are escorted through the Shining Shores, with other companions allowed to join. The sending stone and promise of continued work preserve relationship across punishment: she leaves her people without being declared permanently outside them.</p>\n      <h2 id=\"ordinary-care\">Ink, Brianna, and healing forward · 2026</h2>\n      <p>On 15 January, Elenia obtains ink for Eugene’s spellbook. She materially invests in the learning of someone who often doubts his own worth. The archive places this errand beside resurrection, bodily alteration, and exile because cosmic authority does not remove her from the small needs of another person. The measure of great power is partly whether ordinary people remain visible from that height.</p>\n      <p>After Magnus forces Delerium into Brianna, Elenia calls Mya. Hope sanctifies or cleanses the crystal rather than pretending the violation never occurred. This is healing through history: transform what remains without erasing what happened.</p>\n      <h2 id=\"miracle\">The Miracle of Fenumion · 2026</h2>\n      <p>Elenia dies and Reincarnate returns her as a satyr through an unfudged one-in-250 result. The party had already accepted that she might return changed. The event feels like grace precisely because nobody guaranteed it. The archive does not claim a higher power caused the roll, and Elenia’s cause of death and exact place in the 2026 chronology remain unresolved.</p>\n      <h2 id=\"mountain\">Biblical destruction · August 2026</h2>\n      <p>Elenia joins Scribonia, Eugene, Arjahn, and others in unmaking a mountain through catastrophic weather and Earthquake: fissures, avalanche, floodwater, lava, boulders, and a vast column of steam and smoke. Before acting, she prays that any unknown people in the storm’s path be sheltered or removed. During the retreat she looks for anyone else trying to escape and accepts environmental limits rather than demanding that her power override them.</p>\n      <div class=\"quote\">As the storm rages on, the mountain claws at its own face … Nothing is visible except for biblical destruction.<cite>The mountain expedition</cite></div>\n      <p>She asks where the boundary is, accepts “no,” and uses Gate to send Nymera home. The scene does not absolve the participants because their objective is justified. It asks whether mortals were ever meant to hold this degree of power and whether there can be a return after using it. Elenia’s attention still returns to individual people—she continues looking sideways even while acting at enormous scale—but the radius of what she can destroy has become enormous.</p>\n      <h2 id=\"luminar-spires-elenia\">Luminar Spires · curiosity inside chaos</h2>\n      <p>At the Luminar Spires, Elenia reacts to unstable magic differently from Scribonia. She casts Daylight on a formation, accidentally produces reversed gravity, enjoys floating, and quickly wonders whether the transformed magic could be used against the western mist. The record preserves delight, curiosity, and immediate practical speculation without automatically labeling them recklessness.</p>\n      <p>Elenia also reports that the mist came through a rift, distinguishes it from the Pale Man’s Haze, and identifies Abyss as the first foreigner brought through a gate. These statements make her an important source for the crisis without resolving the relationship among Abyss, the rift, and the mist.</p>\n      <h2 id=\"relationships\">Relationships that carry the history</h2>\n      <ul>\n        <li><strong>Cala:</strong> early patron and call toward light; later faith no longer suspends Elenia’s judgment.</li>\n        <li><strong>Mya:</strong> wonder becomes enacted Hope, costly restoration, and healing through prior harm.</li>\n        <li><strong>Nienna:</strong> sisterhood and sacrifice remain active in Elenia’s later protection and philosophy of attachment.</li>\n        <li><strong>Adelia:</strong> shared Gael restoration followed by incompletely documented diverging paths.</li>\n        <li><strong>Quake:</strong> earlier aid returns as Death Ward; care becomes causal continuity.</li>\n        <li><strong>Aria:</strong> understanding fear without accepting Pride’s ownership logic.</li>\n        <li><strong>Magnus:</strong> the boundary between mercy, overwhelming force, and bodily domination.</li>\n        <li><strong>Eugene:</strong> divine-scale power placed beside the material support of another person’s learning.</li>\n        <li><strong>Gartina:</strong> miraculous possibility and the practical labor that makes survival durable.</li>\n        <li><strong>Nymera:</strong> shared faith does not become a claim on another devotee’s continued participation.</li>\n      </ul>\n      <h2 id=\"danger\">The danger inside her virtue</h2>\n      <p>Elenia’s strength is not refusing power. She uses it quickly and aggressively when she thinks action is required. Her danger is the inference that competence can become permission: <em>I understand the threat; I can bear the cost; therefore I should decide.</em></p>\n      <p>Elenia is compelling because she remains attentive while becoming mighty—not because might makes her automatically right. She does not need to become cruel for care to become dangerous; certainty would be enough. Her strongest future evidence will be failures and corrections: moments when help becomes authority, when someone refuses her intervention, or when listening costs more than action.</p>\n      <h2 id=\"interpretive-boundary\">Interpretive boundary</h2>\n      <p>The supplied “favorite character” essay identifies the stewardship problem with unusual clarity, but it is an analyst’s interpretation rather than objective canon. The record does not declare Elenia destined for greatness, excuse the violence done to Magnus because she spared his life, or pre-answer whether she will become a caretaker without becoming an owner. That test remains live.</p>\n      <h2 id=\"unresolved-elenia\">Unresolved record</h2>\n      <ul>\n        <li>Her history before Cala’s possible call in April 2024.</li>\n        <li>The precise division of labor in Gael’s first living foothold and the destination of Adelia’s departing group.</li>\n        <li>The mechanics of her recovery after Wrath and the event that later led to Reincarnate.</li>\n        <li>The full Rahu siege, the precise hundred-person restoration sequence, and the complete mechanics of the Magnus duel.</li>\n        <li>The exact chronology of Brianna’s sanctification and the mountain expedition.</li>\n        <li>How her Gate ability relates—or does not relate—to the ancient divine Gate.</li>\n      </ul>"
   },
   {
     "id": "nymera",
@@ -2839,6 +2839,368 @@ articles.push({
     <p>The adventurers do not answer the Knights by becoming painless or perfectly consistent. They answer by contesting ownership: Arjahn may choose his own cost, Olokun may offer his own pain, and gifts may return through another person’s judgment. Victory is continuation with consequences, not domination disguised as protection.</p>`
 });
 
+// Public additions recovered from the 3 October dossier set. These records are
+// modern campaign history; no protected ancient cosmology is embedded here.
+articles.push(
+  {
+    id: "veilguard",
+    title: "The Veilguard",
+    category: "Factions",
+    type: "Inter-island protective company · successor to the new vanguard",
+    dek: "A faction built to replace a missing frontline function with earned leadership, rapid response, shared equipment, and responsibility that continues after rescue fails.",
+    tags: ["Veilguard", "New Vanguard", "Lady Severina", "Pelagia", "Thorn", "Camilla", "Kasiri", "Modeli", "Gael"],
+    facts: {
+      "Faction status": "Distinct faction, separate from the Ale-Chemy Knights",
+      "Leadership selection": "14 Apr 2026",
+      "Leader": "Lady Severina Blackveil",
+      "Founding participants": "Severina · Pelagia · Thorn · Camilla · Kasiri · Modeli",
+      "Name in public use": "By 25 May 2026",
+      "Operating principle": "Members watch out for one another"
+    },
+    sources: [
+      "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+      "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+      "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights"
+    ],
+    body: `<div class="callout gold"><p><strong>Canon ruling:</strong> the Veilguard is a distinct faction, not another name for the Ale-Chemy Knights. It grew from the 2026 effort to form a new vanguard and became an inter-island protective company under Lady Severina Blackveil.</p></div>
+      <p>The Veilguard began with a practical absence. Fenumion still needed people able to travel toward regional danger, support less experienced adventurers, and act together under pressure, but the earlier Vanguard could no longer be assumed to fill that role. The answer was not to grant a legendary title to the strongest available fighters. Candidates were asked what leadership meant, whom they trusted, and why.</p>
+      <h2 id="veilguard-selection">14 April 2026 · leadership must be earned</h2>
+      <p>Lady Severina, Pelagia, Thorn, Camilla Blackwood, Kasiri Ruza, and Modeli are directly present in the recovered selection. Kumai-218 tests their definitions of leadership because Namo’o is concerned with their hearts as well as their strength. Pelagia defines leadership as being worthy of followers and aligning them toward a common goal. Thorn warns that honeyed words mean little until conduct proves them.</p>
+      <p>Kasiri chooses Severina because she trusts her judgment even when acting rightly might cost Kasiri personally. Camilla chooses her for duty, discipline, and the ability to act without surrendering judgment to fear or sentiment. Severina is surprised to receive the strongest support. Her authority begins in peer confidence, not self-coronation.</p>
+      <div class="quote">Leadership is being worthy of your followers and aligning them toward a common goal.<cite>Pelagia</cite></div>
+      <h2 id="veilguard-name">April–May 2026 · a temporary role becomes an institution</h2>
+      <p>On 14 April the group is still the <strong>new vanguard</strong>. By 20 May, Severina says she has gathered people, selected a name, and begun seeking equipment for rapid travel to other islands. By 25 May she publicly uses <strong>Veilguard</strong> while discussing the Ahau, support for newer adventurers, and preparation for a wider Great War. The exact naming day remains unrecovered.</p>
+      <h2 id="veilguard-doctrine">Structure under pressure</h2>
+      <p>Severina’s strongest model is adaptive rather than ceremonial: observe people, identify strengths, organize roles, protect the vulnerable, preserve a reserve, and revise when circumstances change. Mobility, communication, and portable equipment are institutional infrastructure because the faction is meant to reinforce crises beyond one settlement.</p>
+      <p>The recovered record does not establish a complete charter or permanent roster. It does establish a culture in which authority must remain accountable, actions matter more than speeches, followers are not expendable currency, resources serve people, and promises remain meaningful when they become expensive.</p>
+      <h2 id="veilguard-thorn">August–September 2026 · Thorn becomes the test</h2>
+      <p>Thorn’s loss tests the faction’s founding claims. Severina and Pelagia discuss pooled gold, husks, crafting, favors, and portable magical resources rather than treating recovery as a private purchase. Pelagia offers the clearest informal statement of the faction’s resource ethic: “We love people and use items. Not the other way around.”</p>
+      <p>On 27 August Severina promises to bring Thorn back. When Thorn’s body is found on 6 September, Severina apologizes, applies Gentle Repose, summons Øblivion, and carries her home. The event does not prove that good leadership prevents every loss. It establishes the harder principle that failure does not erase responsibility.</p>
+      <p>By 19 September, Thorn identifies herself as Veilguard and feels obligated to return to Gael. Her explanation—“We all watch out for each other”—shows that the organization’s culture is no longer only its leader’s theory.</p>
+      <div class="quote">We love people and use items. Not the other way around.<cite>Pelagia</cite></div>
+      <h2 id="veilguard-people">People in the recovered faction history</h2>
+      <ul>
+        <li><a href="#lady-severina"><strong>Lady Severina Blackveil</strong></a> — selected leader and principal organizer.</li>
+        <li><strong>Pelagia</strong> — founding participant, advocate of worthy leadership, and contributor to shared recovery resources.</li>
+        <li><a href="#thorn"><strong>Thorn</strong></a> — founding skeptic, later explicit member, and the person whose loss tests the faction’s promises.</li>
+        <li><strong>Camilla Blackwood</strong> — founding participant who supports Severina on the basis of duty, discipline, and judgment.</li>
+        <li><strong>Kasiri Ruza</strong> — founding participant whose vote establishes trust without demanding blind obedience.</li>
+        <li><strong>Modeli</strong> — founding participant praised for compassion, reasoning, and refusing to waste lives.</li>
+        <li><strong>Karnak, Ryvyt, and Øblivion</strong> — later operational links whose exact formal status should not be overstated.</li>
+      </ul>
+      <h2 id="veilguard-timeline">Faction timeline</h2>
+      <ol class="timeline">
+        <li><time>Before Apr 2026</time><p>The earlier Vanguard no longer reliably fills Fenumion’s frontline role.</p></li>
+        <li><time>14 Apr 2026</time><p>Candidates define leadership, judge one another, and choose Severina.</p></li>
+        <li><time>20–25 May 2026</time><p>Personnel, equipment, mobility, diplomacy, and the Veilguard name turn succession into an institution.</p></li>
+        <li><time>20–27 Aug 2026</time><p>Thorn’s recovery becomes a shared logistical and moral obligation.</p></li>
+        <li><time>6–19 Sep 2026</time><p>Thorn is recovered and later names mutual watchfulness as the faction’s lived culture.</p></li>
+      </ol>
+      <h2 id="veilguard-open-record">Open record</h2>
+      <p>The exact formal naming date, written charter, complete membership at every date, relationship to the original Vanguard, equipment inventory, command structure beneath Severina, and limits of any alliance with the Ahau remain unresolved. Association in one operation does not automatically establish membership.</p>`
+  },
+  {
+    id: "draygar-warsmash",
+    title: "Draygar WarSmash",
+    category: "People",
+    type: "Player character · warrior, rescuer, and champion against Wrath",
+    dek: "A formidable warrior whose strength becomes most legible when he uses it to pull others clear, carry warnings, refuse Death’s bargains, and make a life with Gartina beyond battle.",
+    tags: ["Draygar WarSmash", "Player character", "Wrath", "Cala", "Gartina", "Rescue", "Strength as service"],
+    facts: {
+      "Primary recovered period": "Oct 2024 – Dec 2025",
+      "Patron relationship": "Cala",
+      "Central conflict": "Refuses Death’s bargain during the assault on Wrath",
+      "Major relationship": "Gartina",
+      "Strength": "Rescue, endurance, and direct action",
+      "Open record": "Origins and later chronology remain incomplete"
+    },
+    sources: [
+      "Draygar_WarSmash_Deep_Character_Dossier.md — rescue record, Wrath assault, hammer bargain, faith, Gartina relationship, and chronology",
+      "Complete quest-rp export — Oct–Nov 2024 and Dec 2025 scenes"
+    ],
+    body: `<p>Draygar is physically imposing, sociable, and often funny, but the record does not reduce strength to spectacle. His defining pattern is service: withstand danger, move the injured, relay what others need to know, and put force between a threat and the people it would consume.</p>
+      <h2 id="draygar-rescue">October 2024 · strength used practically</h2>
+      <p>Early scenes establish that Draygar can survive punishment without being invulnerable. He rescues fallen companions, calls for medical help, and uses his body as transport and cover rather than treating endurance as permission to ignore risk. Physical power matters because it changes who can be brought home.</p>
+      <h2 id="draygar-cala">Cala and the warhammer</h2>
+      <p>Draygar’s relationship with Cala is a faith expressed through action rather than naïve deference. The warhammer connects divine calling to his own judgment, while later choices show that receiving power does not end his responsibility to decide what should be done with it.</p>
+      <h2 id="draygar-wrath">The assault on Wrath · refusing the bargain</h2>
+      <p>During the campaign against Wrath, Draygar approaches Death and is offered a bargain involving his hammer. The temptation is concrete because it touches the tool, calling, and strength through which he understands himself. He refuses to let the bargain decide his allegiance and later throws Wrath’s sword away, denying the enemy both possession and symbolic control.</p>
+      <h2 id="draygar-gartina">Gartina · trust beyond the battlefield</h2>
+      <p>Gartina becomes far more than an attachment added to a warrior’s profile. Their relationship grows through consultation, food, domestic life, and the ability to seek another person’s judgment before acting. By December 2025, Draygar’s language toward her includes “my love,” giving the public record a relationship that joins battle history to an ordinary future.</p>
+      <h2 id="draygar-danger">The danger inside strength</h2>
+      <p>Draygar’s failure mode is not simple rage. It is the belief that because he can bear a burden, he should accept it before asking whether another plan exists. His strongest scenes resist that trap by making strength collaborative: rescue someone, carry information, consult Gartina, and refuse an enemy’s attempt to define service as surrender.</p>
+      <h2 id="draygar-open-record">Open record</h2>
+      <p>Draygar’s life before October 2024, the full origin and rules of his bond with Cala, the complete sequence of the hammer bargain, the beginning of his relationship with Gartina, and his later status remain incompletely recovered.</p>`
+  },
+  {
+    id: "pappys-hotsprings",
+    title: "Pappy’s Hotsprings",
+    category: "Places",
+    type: "Prima refuge · family place · social sanctuary",
+    dek: "Created by Pappy and his mother so weary people would have somewhere warm to rest, the Hotsprings turn hospitality and family memory into civic infrastructure.",
+    tags: ["Pappy’s Hotsprings", "Prima", "Pappy", "Cala’s Brew", "Hospitality", "Recovery"],
+    facts: {
+      "Region": "Prima",
+      "Founders": "Pappy and his mother",
+      "Purpose": "Rest and recovery in difficult times",
+      "Family tradition": "Cala’s Brew",
+      "Earliest recovered reference": "23 Sep 2024",
+      "Exact location and layout": "Unresolved"
+    },
+    sources: [
+      "Pappys_Hotsprings_Location_Profile_and_History.md — founding, visitors, planar-water discussion, Cala’s Brew, remembrance, and source ledger",
+      "Complete quest-rp export — 23 Sep and 16 Oct 2024; 13 Oct 2025",
+      "Town chronicler remembrance — Hotsprings as a place of solace"
+    ],
+    body: `<p>Pappy’s Hotsprings matter without being a capital, fortress, dungeon, or battlefield. Pappy says that he and his mother created the place for moments when people need to relax. That purpose makes the springs an extension of his social role: he meets danger at the Gate, then gives survivors somewhere warm to recover.</p>
+      <div class="quote">Relax in my hotsprings, times like this is why mother and I created the place.<cite>Pappy · 16 October 2024</cite></div>
+      <h2 id="hotsprings-family">A family place before a public landmark</h2>
+      <p>The exact founding date and physical construction remain unknown, but the place belongs to Pappy and his mother before it belongs to later legend. She also planted the crop used for <strong>Cala’s Brew</strong> nearby. Its species and magical qualities are unresolved; its value as family memory is established.</p>
+      <h2 id="hotsprings-plane-shift">23 September 2024 · water carried into a planar debate</h2>
+      <p>Adelia proposes Hotsprings water as a possible material link during discussion of travel between realms. Scribonia explains that ordinary material from a destination is insufficient for precise Plane Shift without the proper enchanted tuning fork. The failed idea establishes that the water can be carried and that the Hotsprings were already a known Prima landmark; it does not make the springs a portal nexus.</p>
+      <h2 id="hotsprings-invitations">October–November 2024 · hospitality becomes public</h2>
+      <p>Pappy directs an exhausted Vaemyr toward the springs and later invites Riven to visit him either at the Gate or there. The location is not treated as a sealed private retreat. It becomes a low-pressure offer of rest without a quest, bargain, or test attached.</p>
+      <h2 id="hotsprings-thalen">13 October 2025 · an answer to isolation</h2>
+      <p>When Thalen is described as someone long alone, Pappy does not demand confession or offer a grand cure. He quietly gives directions: “If you have time, check out the Hotsprings.” Warmth and company become a form of care that leaves the choice to the person receiving it.</p>
+      <h2 id="hotsprings-remembrance">Remembered sanctuary</h2>
+      <p><strong>Ada, Pristinia’s town chronicler,</strong> later remembers travelers finding solace there. A New Year remembrance calls the water “warm as the breath of the world’s deep heart.” These are historical and literary memories rather than technical claims about geology or magic, but they show that a place of rest earned a place beside the world’s better-known marvels.</p>
+      <h2 id="hotsprings-timeline">Location timeline</h2>
+      <ol class="timeline">
+        <li><time>Before Sep 2024</time><p>Pappy and his mother create or develop the Hotsprings as a family place for rest.</p></li>
+        <li><time>23 Sep 2024</time><p>Water from the springs enters a Plane Shift discussion and is correctly rejected as an adequate tuning focus.</p></li>
+        <li><time>16 Oct–17 Nov 2024</time><p>Pappy offers the springs to Vaemyr and Riven, establishing open hospitality.</p></li>
+        <li><time>13 Oct 2025</time><p>Pappy explains Cala’s Brew and quietly directs the isolated Thalen toward the springs.</p></li>
+        <li><time>Later remembrance</time><p>The place becomes part of Prima’s shared memory of welcome and recovery.</p></li>
+      </ol>
+      <h2 id="hotsprings-open-record">Open record</h2>
+      <p>The exact site, size, layout, magical properties, later ownership, complete visitor history, and full identity of Pappy’s mother remain unresolved. The Codex preserves social sanctuary without inventing legal neutrality, divine protection, or portal mechanics.</p>`
+  }
+);
+
+// Ada is preserved as a civic chronicler rather than an omniscient narrator.
+// The attached dossier is editorial source material; its claims remain
+// attributed to Ada and do not supersede scene-level quest evidence.
+articles.push({
+  id: "ada-town-chronicler",
+  title: "Ada",
+  category: "People",
+  type: "NPC · town chronicler of Pristinia",
+  dek: "Pristinia’s civic chronicler, preserving how ordinary people understood adventurers, crises, factions, departures, rebuilding, and the legends forming around them.",
+  tags: ["Ada", "Town chronicler", "Pristinia", "Public memory", "Reputation", "Contemporary chronicle"],
+  facts: {
+    "Role": "Town chronicler",
+    "Primary base": "Pristinia · Prima",
+    "Recovered activity": "Apr 2024 – Sep 2026",
+    "Best evidence for": "Public reputation · civic mood · contemporary memory",
+    "Reliability boundary": "Variable for private motives, exact mechanics, rumors, and distant events",
+    "Canon status": "Attributed secondary source"
+  },
+  sources: [
+    "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — article ledger, source classification, civic-memory synthesis, and editorial boundaries",
+    "Ada’s recovered town chronicles — Apr 2024 through Sep 2026"
+  ],
+  body: `<p>Ada is Pristinia’s town chronicler: a civilian writer concerned with the people passing through the settlement, the reputations they acquire, the institutions they build, the absences they leave behind, and the emotional weather of a town learning to survive. The chronicles are not an objective transcript of Fenumion. They are evidence of what Fenumion’s people believed was happening around them.</p>
+    <div class="callout gold"><p><strong>Source rule:</strong> when Ada conflicts with a direct quest record, the direct record controls what happened. Ada remains authoritative evidence for how the event was publicly understood, remembered, simplified, feared, or celebrated.</p></div>
+    <h2 id="ada-work">What a town chronicler preserves</h2>
+    <p>Quest scenes preserve action, dialogue, combat, immediate decisions, and what participants could observe. Ada preserves a different layer: who had become publicly important, which traits people repeated about them, how factions changed ordinary life, which losses made taverns and marketplaces feel emptier, and when a capable adventurer crossed the uncertain boundary into local legend.</p>
+    <p>This distinction lets the Codex hold several histories at once: what happened; what participants said happened; what Pristinia believed happened; and what later evidence made of it. Public memory may be incomplete without being historically useless.</p>
+    <h2 id="ada-early-voice">2024 · remarkable people in a young town</h2>
+    <p>Ada’s earliest recovered writing is intimate and celebratory. Gartina is remembered through baking, healing, farming, and community; Quake through defense, militia, and sacrifice; Adelia through shadow, Jiangshi, grief, and defiance of death; Jako Lantern, Saray, Alyhotep, Tricks, Swift Foot, Olokun, Arjahn, and Vaemyr through the qualities by which Pristinia first learned their names.</p>
+    <p>The 5 May tribute to the original Vanguard records not merely a roster but an absence: quieter taverns, a changed marketplace, missing guardians, and the vulnerability left when familiar protectors departed. That civic memory later gives the New Vanguard—and eventually the <a href="#veilguard">Veilguard</a>—a cultural inheritance without proving that every person Ada associated with the tradition held formal membership.</p>
+    <h2 id="ada-institutions">Late 2024–2025 · people become institutions</h2>
+    <p>As Pristinia changes, Ada’s subject changes with it. Farkur and Pappy become part of the Gate’s culture of arrival and orientation. The Ale-Chemy Knights, Pappy’s Family, and Vital Chain mark a turn from heroic individuals toward organizations capable of preserving work beyond one person. Fenwick’s public identity joins healing to Eovar’s civic renewal, while Carmen’s reputation captures the gap between loudly performed selfishness and repeated reluctant responsibility.</p>
+    <p>Ada’s 6 April 2025 account of Magnus, Dez, and Brianna preserves an essential before-state: Magnus entered public memory as a promising and ambitious new adventurer, not an obvious enemy. That contemporary reputation makes later allegiance, betrayal, and violence historical change rather than a trait retroactively projected onto his arrival.</p>
+    <h2 id="ada-crisis">The Rahu War · the chronicler becomes a witness to fear</h2>
+    <p>By 8 May 2025, Ada’s writing has become a crisis chronicle. Pristinia may fall; absent heroes are invoked because the town feels their absence; factionalism, greed, and despair become civic facts; and Melian Starguard appears as a visible organizer of resistance. The voice that once introduced remarkable newcomers now asks whether the settlement will survive.</p>
+    <p>After the siege, Ada names Elenia the <strong>Savior of Pristinia</strong>. The title establishes civic reputation even where poetic descriptions cannot establish exact magical mechanics. Elenia became part of how the town explained its own survival.</p>
+    <h2 id="ada-memory">Myth, absence, and the cost of survival</h2>
+    <p>Later chronicles remember Krone and Draygar together: Krone as advancing force and laughter, Draygar as the steadiness that holds. Pappy becomes hospitality as resistance to despair. Farkur becomes proof that markets, circulation, and systems can alter a world as surely as combat. The chronicler increasingly writes not only about deeds but about the shapes people leave in collective memory.</p>
+    <p>In “A Little Boat,” Ada contrasts an earlier Pristinia of open fields, loose fellowship, optimism, chaos, and inexperience with a later town of walls, factions, suspicion, efficiency, and exhaustion. The point is not that the old days were simply better. Pristinia survived by becoming harder, and that survival had a psychological price.</p>
+    <h2 id="ada-world">2026 · from town record to world-state chronicle</h2>
+    <p>By 2026 the recovered writing reaches beyond Pristinia. Ada records public reputations from the Great Contest between Steel and Sorcery and produces a regional snapshot spanning Prima, Gael, Fein Uaill, Babel-Ashur, Voraketh, and Gedankin. Vessalia’s September profile returns the chronicle to a smaller scale: after war and rebuilding, a musician and traveler can still fill an empty social space and become part of the town.</p>
+    <h2 id="ada-limitations">How to use the chronicles</h2>
+    <ul>
+      <li><strong>Use Ada for public reputation:</strong> how a person or faction was understood at a particular time.</li>
+      <li><strong>Use Ada for civic mood:</strong> fear, confidence, grief, nostalgia, admiration, and social change.</li>
+      <li><strong>Check exact events against direct logs:</strong> mechanics, chronology, private motives, and remote events may be simplified or secondhand.</li>
+      <li><strong>Keep titles attributed:</strong> a public honorific can be historically important without being an official office or objective verdict.</li>
+      <li><strong>Preserve error and exaggeration:</strong> a mistaken belief may still explain why people acted as they did.</li>
+    </ul>
+    <div class="callout"><p><strong>Standard citation:</strong> Contemporary Chronicle — Ada, Town Chronicler. Reliable for how Pristinia perceived people and events; exact mechanics, motivations, and distant events require comparison with primary quest records.</p></div>`
+});
+
+const readingCodexArticle = articles.find(article => article.id === "reading-the-codex");
+if (readingCodexArticle) {
+  readingCodexArticle.facts["Civic chronicle"] = "Ada preserves contemporary reputation and public memory";
+  readingCodexArticle.sources = [...new Set([...(readingCodexArticle.sources || []), "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — contemporary-chronicle evidence layer"])];
+  readingCodexArticle.body = readingCodexArticle.body.replace(
+    '<h2 id="consequence">',
+    `<h2 id="contemporary-chronicle">Contemporary chronicle is its own evidence layer</h2>
+      <p><a href="#ada-town-chronicler">Ada, Pristinia’s town chronicler,</a> records what people believed, feared, admired, and repeated about events while their consequences were still unfolding. A direct quest log answers <em>what happened in the scene</em>; Ada often answers <em>what the town thought had happened</em>. Neither question should erase the other.</p>
+      <p>Public titles, heroic language, rumors, and simplified motives remain attributed to the chronicler. When a chronicle conflicts with a direct event record, the direct record controls the event while the chronicle remains evidence of contemporary reputation and civic mood.</p>
+      <h2 id="consequence">`
+  );
+}
+
+const adaReputationNotes = {
+  gartina: ["10 April 2024", "Ada’s early profile remembers Gartina simultaneously as baker, healer, farmer, adventurer, and community-builder. The public reputation supports the larger record’s central point: feeding people and maintaining ordinary life were part of her heroism, not an intermission from it."],
+  quake: ["20 April 2024", "Ada remembers Quake through sacrifice, reincarnation, farming with Gartina, militia training, and defense. The chronicle is evidence that Pristinia understood Quake as both supernatural survivor and builder of local continuity; direct records still govern the exact mechanics of those events."],
+  carmen: ["28 January 2025", "Ada’s public Carmen is greedy, destructive, bad with names, quick to complain, and surprisingly dependable when somebody truly needs help. That reputation independently preserves the gap between Carmen’s performed selfishness and her repeated reluctant responsibility."],
+  magnus: ["6 April 2025", "Ada records Magnus’s arrival with Dez and Brianna as the entrance of a charming, powerful, ambitious adventurer with apparent promise. This before-state matters: his later Rahu alignment was not something Pristinia universally recognized at first sight."],
+  elenia: ["14 June 2025", "In the Rahu War’s aftermath, Ada calls Elenia the Savior of Pristinia. The title is a civic reputation rather than proof that every poetic description is mechanically literal; it establishes the scale of the place Elenia occupied in the town’s memory."],
+  "draygar-warsmash": ["15 July and 30 August 2025", "Ada first remembers Draygar beside Krone—the force that holds beside the force that advances—then emphasizes Draygar’s ability to calm conflict, support grieving companions, and prevent despair from becoming violence. The public record therefore remembers emotional steadiness alongside martial strength."],
+  farkur: ["12 December 2024 and 31 August 2025", "Ada’s chronicles follow Farkur from Gate-side guide and entrepreneur to founder remembered for markets, item circulation, organizations, and belonging. The reputation makes institution-building a form of world-changing power in its own right."],
+  pappy: ["12 December 2024 and 2 September 2025", "Ada remembers Pappy as a welcoming elder, informal historian, host, mentor, and guardian whose authority does not depend on claiming leadership. In public memory, the Gate and Hotsprings make welcome itself part of Prima’s defense against despair."],
+  vaemyr: ["19 August 2024", "Ada’s profile remembers Vaemyr as arcane defender, strategist, explorer of The Before, investigator of the Pale Man, and dream-correspondent of Scribonia. This is evidence of the intellectual and protective reputation Vaemyr held in Pristinia at the time."]
+};
+
+Object.entries(adaReputationNotes).forEach(([id, [date, text]]) => {
+  const article = articles.find(candidate => candidate.id === id);
+  if (!article || article.body.includes(`ada-reputation-${id}`)) return;
+  article.sources = [...new Set([...(article.sources || []), `Contemporary Chronicle — Ada, Town Chronicler · ${date}`])];
+  article.body += `<h2 id="ada-reputation-${id}">Contemporary reputation · ${date}</h2><p>${text} <a href="#ada-town-chronicler">Read the chronicler’s evidence boundary.</a></p>`;
+});
+
+const adaPristiniaArticle = articles.find(article => article.id === "pristinia");
+if (adaPristiniaArticle && !adaPristiniaArticle.body.includes("pristinia-public-memory")) {
+  adaPristiniaArticle.sources = [...new Set([...(adaPristiniaArticle.sources || []), "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record"])];
+  adaPristiniaArticle.body += `<h2 id="pristinia-public-memory">The town as Ada remembered it</h2><p><a href="#ada-town-chronicler">Ada’s civic chronicles</a> preserve Pristinia’s changing emotional climate: early excitement over remarkable newcomers; quieter taverns after familiar defenders departed; the rise of businesses and factions; terror during the Rahu War; relief transformed into civic legend; and a later town made safer, harder, more organized, and less innocent by survival.</p><p>Those writings do not replace direct records of walls, battles, laws, or rebuilding. They preserve what physical chronology alone cannot: how those changes felt to people who had to keep living in the town afterward.</p>`;
+}
+
+const adaVeilguardArticle = articles.find(article => article.id === "veilguard");
+if (adaVeilguardArticle && !adaVeilguardArticle.body.includes("veilguard-first-memory")) {
+  adaVeilguardArticle.sources = [...new Set([...(adaVeilguardArticle.sources || []), "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance"])];
+  adaVeilguardArticle.body += `<h2 id="veilguard-first-memory">Before the New Vanguard · a remembered absence</h2><p>On 5 May 2024, <a href="#ada-town-chronicler">Ada</a> publicly associated an early generation of Pristinian defenders with the Vanguard tradition and described their departure through the town’s quieter taverns, altered marketplace, and sense of missing guardians. The chronicle proves civic association and loss, not formal membership for every person named.</p><p>That memory supplies the 2026 project with a cultural prehistory. The New Vanguard was asked to inherit a role Pristinia already remembered; the Veilguard became a deliberate institution rather than remaining an imitation of the people who first made the title meaningful.</p>`;
+}
+
+const carmenArticle = articles.find(article => article.id === "carmen");
+if (carmenArticle) {
+  Object.assign(carmenArticle, {
+    type: "Player character · deep gnome warlock and survival-minded moral accountant",
+    dek: "Carmen values survival, civilization, and reciprocity without apology; beneath the hard accounting lies a fierce refusal to let powerful people spend those who never chose the cost.",
+    tags: [...new Set([...carmenArticle.tags, "Civilization", "Survival", "Magnus", "Ithilrûnë", "Sildithas"])],
+    facts: {
+      ...carmenArticle.facts,
+      "Primary recovered period": "Mar 2025 – May 2026",
+      "Core ethic": "People own their choices; power does not authorize spending the unconsenting",
+      "Major enemy": "Magnus during the Rahu assault",
+      "Preferred world": "Roads, shelter, taverns, and predictable civic order"
+    },
+    sources: [...new Set([...carmenArticle.sources, "Carmen_Deep_Character_Dossier.md — Paco, Rahu war, civilization, sacrifice, relationships, and chronology"])]
+  });
+  carmenArticle.body = `<p>Carmen is unusually honest about things many adventurers pretend not to value: staying alive, having money, eating warm food, sleeping beneath a roof, and moving through a landscape where roads and institutions make tomorrow less arbitrary. She distrusts romanticized danger and heroic posturing, but that survival instinct repeatedly sharpens into moral judgment when the powerful treat other lives as expendable.</p>
+    <div class="callout gold"><p><strong>Core ethic:</strong> people own the consequences of choices they can meaningfully make. Power does not grant permission to spend people who never chose the risk.</p></div>
+    <h2 id="carmen-paco">March 2025 · Paco at the center</h2>
+    <p>Paco scouts, observes, reports, and remains near Carmen through difficult expeditions. Carmen trusts his information, protects his place beside her, embraces him when he returns, and makes plans with his safety in mind. Their possessive language remains morally charged, but the lived relationship carries responsibility and affection rather than disposability.</p>
+    <div class="quote">Let’s go Paquito. Time to become rich!<cite>Carmen</cite></div>
+    <h2 id="carmen-soldiers">12 May 2025 · “These were just kids”</h2>
+    <p>During fighting with Rahu forces, Carmen recognizes that ordinary young soldiers are being fed into a battle against adventurers vastly beyond them. She leaves and condemns the people who sent them. Minutes later, when powerful adult adventurers choose their own chaos, she refuses to manage every consequence for them: “They are all grown ups. They will solve it as they see fit.” The contrast is the ethic.</p>
+    <h2 id="carmen-magnus">25 May 2025 · Magnus under the bridge</h2>
+    <p>When Fredrick detects Magnus concealed near the bridge, Carmen delegates surveillance to Paco and keeps her attention on the larger battle. After Magnus openly turns against Pristinia, she fights him and treats his betrayal as a threat to the settlement. She withdraws only when the company’s failure to act coherently makes continued participation feel suicidal and strategically useless.</p>
+    <h2 id="carmen-civilization">Civilization as predictability</h2>
+    <p>Carmen’s preference for buildings, roads, taverns, gambling houses, food, and markets is not merely aesthetic. Civilization means somebody has invested enough labor that survival is no longer renegotiated every hour. She can be caustic about wilderness and discomfort because she recognizes that reliable shelter is an achievement, not the default condition of the world.</p>
+    <h2 id="carmen-ithilrune">Ithilrûnë and weaponized insight</h2>
+    <p>Carmen and Ithilrûnë can see through one another. Their exchanges show how accurate insight can become a weapon when used to win rather than understand. Carmen’s own armor is wit, transaction, and age-worn impatience; being perceptive does not exempt her from the need to let another person define herself.</p>
+    <h2 id="carmen-sildithas">Sildithas and uncomfortable usefulness</h2>
+    <p>Sildithas becomes a useful counterweight because he can offer moral seriousness without sharing Carmen’s premises. Their company preserves the possibility that people do not need the same philosophy to keep one another alive.</p>
+    <h2 id="carmen-price-value">Paco’s sacrifice · price is not value</h2>
+    <p>Paco later sacrifices himself so Carmen can get everyone home and returns psychologically altered under a forced Pact of the Chain. Carmen knows a debt exists because he paid what she did not consent for him to pay. Her unresolved test is whether care can release its claim: if Paco wanted something she did not, could she recognize that love is not ownership?</p>
+    <h2 id="carmen-open-record">Open record</h2>
+    <p>Carmen’s life before March 2025, the full origin and nature of Paco, her broader history with Pristinia, and the later outcome of the forced pact remain incomplete. The record supports a transactional morality with real limits and real care—not a hidden saint, a coward, or a joke about greed.</p>`;
+}
+
+const severinaArticle = articles.find(article => article.id === "lady-severina");
+if (severinaArticle) {
+  Object.assign(severinaArticle, {
+    title: "Lady Severina Blackveil",
+    type: "Player character · Veilguard leader and civic defender",
+    dek: "A commander who believes care must become durable structure—and whose leadership is tested most severely when disciplined preparation still cannot save everyone.",
+    tags: [...new Set([...severinaArticle.tags, "Veilguard", "Thorn", "Kasiri", "Camilla", "Øblivion"])],
+    facts: {
+      ...severinaArticle.facts,
+      "Faction": "Leader of the Veilguard",
+      "Leadership model": "Observe · organize · protect · adapt · remain accountable",
+      "Founding selection": "14 Apr 2026",
+      "Defining burden": "Promise and responsibility toward Thorn"
+    },
+    sources: [...new Set([...severinaArticle.sources, "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology", "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context"])]
+  });
+  severinaArticle.body = `<p>Lady Severina’s defining belief is that care must become structure before it can reliably protect anyone. Compassion matters, but a wall, a clear role, a tested route, a shared resource, or a promise someone remains accountable for is what allows good intent to survive pressure.</p>
+    <div class="callout gold"><p><strong>Central question:</strong> can Severina build order as an instrument of protection without treating her preferred structure as proof that only her judgment is legitimate?</p></div>
+    <h2 id="severina-walls">10 September 2025 · the Pristinia walls</h2>
+    <p>Severina studies plans and measurements, insisting that a wall is more than timber and stone: it is discipline made material and a shield for everyone within. Kaelen reminds her that protection and care give the structure meaning. Severina concedes the point while preserving her own: intent without disciplined execution is fragile.</p>
+    <div class="quote">Protection demands order, not only intent. A wall built with heart but without discipline may crumble when tested.<cite>Lady Severina</cite></div>
+    <h2 id="severina-false-order">25 November 2025 · false order</h2>
+    <p>At Kasiri’s nearly empty magic-item shop, Severina criticizes factions that hide chaos behind the appearance of law. She compares Pristinia’s young institutions to glowing, untempered iron: promising, but not yet proven strong. The judgment remains hers, but it shows that she does not value rules merely because somebody calls them orderly.</p>
+    <p>She also notices the shop’s material problems—supply, organization, interest, and competition—and begins looking for crafters and components. Her instinct is consistent: identify weakness, organize resources, and make the system function.</p>
+    <h2 id="severina-selection">14 April 2026 · chosen by peers</h2>
+    <p>During the new vanguard selection, Severina argues that a company should observe people’s strengths before assigning leadership and roles. Kasiri and Camilla choose her for judgment, discipline, and duty. Severina’s surprise matters: the <a href="#veilguard">Veilguard</a> begins with authority granted by people who expect her to justify their trust.</p>
+    <h2 id="severina-protection">Protection before familiarity</h2>
+    <p>During the joint survey of The Before, Severina places herself among vulnerable Rahuvian scholars and extends protection to people she scarcely knows. Later she helps preserve petrified workers, offers guarded space, remembers enemy capabilities from earlier encounters, and adjusts tactics to protect specialists before threats can overwhelm the party.</p>
+    <h2 id="severina-social-limit">Aleister and the limit of formal care</h2>
+    <p>Severina can organize danger more easily than vulnerability. When Aleister asks whether he is not a friend, she interrupts her travel and listens, but must consciously make room for the possibility that what he needs is not a plan but an embrace. Her social limitation is not lack of feeling; it is a habit of translating feeling into structure before recognizing the immediate human request.</p>
+    <h2 id="severina-thorn">August–September 2026 · promise becomes burden</h2>
+    <p>Severina commits money, husks, favors, crafting contacts, and personal debt toward recovering Thorn. She raises a toast and promises to bring her back. When Thorn’s body is found, Severina apologizes, uses Gentle Repose, summons Øblivion, and carries her home while guilt breaks through her composure.</p>
+    <p>The scene does not establish that a leader can prevent all loss. It shows Severina refusing the easier conclusion that failure cancels obligation. That response becomes one of the clearest proofs—and costs—of the leadership her peers selected.</p>
+    <h2 id="severina-relationships">Relationships that test the structure</h2>
+    <ul>
+      <li><strong>Kasiri Ruza:</strong> trust strong enough to choose Severina while remaining grounded in observed judgment.</li>
+      <li><strong>Camilla Blackwood:</strong> shared language of duty and discipline, with civic consequences always close behind.</li>
+      <li><strong>Kaelen / Alpha:</strong> the counterargument that structure without humane intent can become a prison.</li>
+      <li><strong>Aleister Sun-ðuren:</strong> friendship requiring attention that cannot be reduced to command.</li>
+      <li><strong>Thorn:</strong> the promise through which leadership becomes grief, accountability, and continuing care.</li>
+      <li><strong>Ryvyt and Øblivion:</strong> practical partners and capabilities that expand what the Veilguard can build, carry, and recover.</li>
+    </ul>
+    <h2 id="severina-open-record">Open record</h2>
+    <p>Severina’s life before September 2025, the full origin of Øblivion, the Veilguard’s complete charter and roster, the exact Lilly Estate/Bastion distinction, and the long-term consequences of Thorn’s recovery remain unresolved.</p>`;
+}
+
+const caisleanArticle = articles.find(article => article.id === "caislean-na-bron");
+if (caisleanArticle) {
+  Object.assign(caisleanArticle, {
+    type: "Adventurer residence, political threshold, and refuge in Fein Uaill",
+    dek: "An adventurer-held castle that becomes private war room, shared home, storehouse of grief, diplomatic flashpoint, and surviving refuge after Aria’s fall.",
+    tags: [...new Set([...caisleanArticle.tags, "Olokun", "Wren", "Magnus", "Arjahn", "Aria", "Bowene", "Residence"])],
+    facts: {
+      ...caisleanArticle.facts,
+      "Earliest recovered use": "5 Aug 2025 · private political preparation",
+      "Explicitly named": "23 Nov 2025",
+      "Residential anchor": "Olokun’s room; Aria’s possessions stored after her death",
+      "Later state": "Occupied refuge by 29 Jul 2026",
+      "Ownership and founding": "Unresolved"
+    },
+    sources: [...new Set([...caisleanArticle.sources, "Caselean_de_Broin_Location_Profile_and_History.md — political, residential, diplomatic, and refuge history"])]
+  });
+  caisleanArticle.body = `<p>Caisleán na Brón is the adventurers’ Fein Uaill home made historical. It first appears as a private castle where people prepare to confront Aria’s political power; later it becomes a residence holding Aria’s possessions and old enemies beneath one roof, the place where a grieving Zarathian delegation arrives demanding answers, and finally a surviving refuge in a quieter order.</p>
+    <div class="callout gold"><p><strong>Name boundary:</strong> “Caselean de Broin,” “Caislean na Bron,” and “Caisleán De Bróin” remain searchable source forms. The exact translation, naming date, builder, and legal owner are unresolved.</p></div>
+    <h2 id="caislean-backstage">5 August 2025 · political backstage</h2>
+    <p>Before a public confrontation with Aria, adventurers gather in what the record calls “your castle.” The room functions as a place to compare risks, rehearse positions, and decide what can be said in public. The identification of this unnamed castle with later Caselean is a strong continuity inference rather than a directly preserved label.</p>
+    <h2 id="caislean-waiting">19 August 2025 · newcomers wait and listen</h2>
+    <p>Eldin Stormheart stays at the castle and listens while people discuss the tangled history of Magnus and Scribonia. The building is already more than a command post. It gives a newer arrival somewhere to remain while other people’s old conflicts are explained around him.</p>
+    <h2 id="caislean-after-aria">23 November 2025 · after Aria</h2>
+    <p>The castle is explicitly called Caselean. Olokun has a room there, and Aria’s possessions are kept inside after her death. Eugene, Magnus, Arjahn, and others occupy the same domestic-political space while a Zarathian envoy and an immense body of troops approach. A residence becomes the threshold at which private grief meets national consequence.</p>
+    <p>Magnus and Arjahn under one roof make restraint part of the location’s history. Arjahn carries profound grievance and does not pretend it has disappeared; he chooses not to turn the castle into another battlefield. Olokun’s custody of Aria’s things similarly preserves memory without settling every claim to inheritance or forgiveness.</p>
+    <h2 id="caislean-court">Court etiquette and political succession</h2>
+    <p>Bowene’s delegation brings etiquette, succession, and the unresolved legitimacy of adventurer power to the castle door. Caselean is neither a sovereign capital nor a neutral zone in the recovered record. It is a political threshold: a private home important enough that history comes looking for its residents there.</p>
+    <h2 id="caislean-respite">29 July 2026 · respite</h2>
+    <p>Later state-of-the-world testimony says people still dwell in Caselean de Broin and find respite there amid Fein Uaill’s abundance. The castle survives the immediate Aria crisis and becomes a home with accumulated layers rather than a set piece discarded after one confrontation.</p>
+    <h2 id="caislean-timeline">Location timeline</h2>
+    <ol class="timeline">
+      <li><time>5 Aug 2025</time><p>An adventurer castle serves as private preparation space before public confrontation.</p></li>
+      <li><time>19 Aug 2025</time><p>Eldin waits there while older histories are explained.</p></li>
+      <li><time>23 Nov 2025</time><p>Caselean is named; Aria’s possessions, Magnus, Arjahn, Olokun, Eugene, and a Zarathian delegation converge.</p></li>
+      <li><time>29 Jul 2026</time><p>The castle remains inhabited and is remembered as a place of respite.</p></li>
+    </ol>
+    <h2 id="caislean-open-record">Open record</h2>
+    <p>The founding date, builder, owners, acquisition, layout, permanent residents, legal status, and exact relationship between the August “your castle” and named Caselean remain incomplete. References to another “estate” must not be merged into this location without proof.</p>`;
+}
+
+const pappyArticle = articles.find(article => article.id === "pappy");
+if (pappyArticle) {
+  pappyArticle.body += `<h2 id="pappy-hotsprings">The Gate and the Hotsprings</h2><p>Pappy’s two most characteristic places complete one another: the Gate is arrival, duty, watchfulness, and defense; <a href="#pappys-hotsprings">Pappy’s Hotsprings</a> are welcome, rest, recovery, and belonging. He protects people when they arrive and gives them somewhere to recover once they are safe.</p>`;
+  pappyArticle.sources = [...new Set([...(pappyArticle.sources || []), "Pappys_Hotsprings_Location_Profile_and_History.md — family origin, hospitality, Cala’s Brew, and visitor history"])];
+}
+
 // The recovered Rahu-war dossier closes the largest gap in Magnus's early
 // chronology. Keep the source-level article readable while adding the new
 // evidence as a distinct, provenance-aware opening arc.
@@ -2846,7 +3208,7 @@ const magnusArticle = articles.find(article => article.id === "magnus");
 if (magnusArticle) {
   const earlyMagnusArc = [
     '<h2 id="prima-arrival">Arrival on Prima · 6 April 2025</h2>',
-    '<p>Magnus arrives with Dez and Brianna in the discrete event remembered as Ada Arrival Three. He does not enter the record as an obvious enemy of Pristinia. Within days he is part of ordinary adventuring life: he has traveled into the Before with Fredrick, shops with Aravil, and answers Papirak’s raven summons beside Brianna, Pappy, Ghilsen, and people he will soon meet across a battlefield.</p>',
+    '<p>Magnus arrives with Dez and Brianna in the discrete event remembered as the Third Arrival. He does not enter the record as an obvious enemy of Pristinia. Within days he is part of ordinary adventuring life: he has traveled into the Before with Fredrick, shops with Aravil, and answers Papirak’s raven summons beside Brianna, Pappy, Ghilsen, and people he will soon meet across a battlefield.</p>',
     '<p>This baseline matters. Magnus’s betrayal is not the unveiling of a stranger who had always stood outside the community. It is a rapid political realignment by somebody who had eaten, traveled, shopped, and taken risks among the people affected by his later choices.</p>',
     '<h2 id="rahu-sympathy">Criticism, Rahu sympathy, and access · 7 May 2025</h2>',
     '<p>Magnus openly criticizes Pristinia’s government for paying adventurers rather than developing the town and argues that compensation should follow the importance of the work. He presents the Rahu as “good people,” hopes trade with them will improve the economy, and urges others not to judge an entire people before meeting Ambassador Sophina. These are his documented political claims; the record does not pretend to know whether they were wholly sincere, opportunistic, or both.</p>',
@@ -2911,6 +3273,71 @@ if (livingArchiveArticle) {
 }
 
 const questTimelineAdditions = [
+  {
+    "title": "The new vanguard entrusts leadership to Severina",
+    "meta": "14 Apr 2026 · recovered faction history",
+    "sort": "2026-04-14v",
+    "era": "2026 · New alliances",
+    "kind": "Faction formation",
+    "article": "veilguard",
+    "location": "Pristinia",
+    "people": "Lady Severina Blackveil; Pelagia; Thorn; Camilla Blackwood; Kasiri Ruza; Modeli; Kumai-218",
+    "tags": ["Veilguard", "leadership", "new vanguard"],
+    "summary": "Kumai-218 asks six candidates to define leadership and choose whom they would follow. Kasiri and Camilla entrust the role to Severina for her judgment, discipline, and duty.",
+    "consequence": "The leadership test becomes the Veilguard’s founding precedent: people are observed, heard, and trusted according to demonstrated judgment before roles are assigned."
+  },
+  {
+    "title": "Severina turns the new vanguard into an organization",
+    "meta": "20 May 2026 · recovered faction history",
+    "sort": "2026-05-20v",
+    "era": "2026 · New alliances",
+    "kind": "Institution building",
+    "article": "veilguard",
+    "location": "Pristinia and the inter-island routes",
+    "people": "Lady Severina Blackveil; the forming Veilguard",
+    "tags": ["Veilguard", "equipment", "mobility"],
+    "summary": "Severina reports that she has gathered people, selected a name, and begun seeking equipment for rapid response beyond one settlement. The April leadership exercise is becoming an institution in practice.",
+    "consequence": "The new vanguard gains the logistical shape needed to operate as a lasting faction rather than an improvised quest party."
+  },
+  {
+    "title": "The Veilguard name enters the public record",
+    "meta": "25 May 2026 · recovered faction history",
+    "sort": "2026-05-25v",
+    "era": "2026 · New alliances",
+    "kind": "Public identity",
+    "article": "veilguard",
+    "location": "Pristinia",
+    "people": "Lady Severina Blackveil; Veilguard; Ahau",
+    "tags": ["Veilguard", "Ahau", "Great War"],
+    "summary": "Severina publicly uses the name Veilguard while discussing the Ahau, support for newer adventurers, and preparation for a wider Great War. The forming company now has a public identity and mission.",
+    "consequence": "The Veilguard becomes a named public faction, separate from both the earlier Vanguard and the Ale-Chemy Knights."
+  },
+  {
+    "title": "The Veilguard prepares to recover Thorn",
+    "meta": "20–27 Aug 2026 · recovered faction history",
+    "sort": "2026-08-20v",
+    "era": "2026 · New alliances",
+    "kind": "Recovery operation",
+    "article": "veilguard",
+    "location": "Gael",
+    "people": "Lady Severina Blackveil; Thorn; Veilguard",
+    "tags": ["Veilguard", "Thorn", "recovery"],
+    "summary": "After Thorn dies during a husk hunt, reports say a cult intends to use her in a ritual against one of Gael’s Shards. The Veilguard pools resources, and Severina promises to bring her home.",
+    "consequence": "The attempt to bring Thorn home becomes the first major test of whether the Veilguard’s language of mutual protection survives catastrophe."
+  },
+  {
+    "title": "Thorn returns and names the Veilguard as home",
+    "meta": "6–19 Sep 2026 · recovered faction history",
+    "sort": "2026-09-19v",
+    "era": "2026 · New alliances",
+    "kind": "Return and belonging",
+    "article": "veilguard",
+    "location": "Prima; route toward Gael",
+    "people": "Thorn; Lady Severina Blackveil; Veilguard",
+    "tags": ["Veilguard", "Thorn", "belonging"],
+    "summary": "Thorn’s body is found on 6 September, yet by 19 September she is alive in Prima and says she belongs with the Veilguard. Her words define membership as mutual watchfulness and obligation.",
+    "consequence": "The Veilguard’s identity is confirmed from within by a returned member, while the mechanism of her return remains an open question rather than fabricated lore."
+  },
   {
     "title": "The first Called arrive in Prima",
     "meta": "4 Mar 2024 · quest-RP",
@@ -3962,6 +4389,14 @@ const questEventConsequences = {
   "Gael’s coast becomes a route toward Larkhollow": "A repeatable route turns separate names into a connected travel network. Gael now functions as a departure point, Verdelune as a passage, and Larkhollow as a destination whose accessibility can shape future movement and trade."
 };
 
+Object.assign(questEventConsequences, {
+  "The new vanguard entrusts leadership to Severina": "The decision establishes the moral foundation of the future Veilguard: command is an entrusted obligation, not a prize for strength or reputation. The meeting does not yet prove a permanent roster or even the final faction name, but it turns a vacancy in Fenumion’s protective institutions into a shared project with an accountable leader.",
+  "Severina turns the new vanguard into an organization": "The new vanguard gains the logistical shape needed to operate as a lasting faction rather than an improvised quest party. The exact naming day remains unrecovered, and participation in the founding discussion does not automatically prove lifelong membership, but the company now has continuity beyond a single meeting.",
+  "The Veilguard name enters the public record": "The name gives other people a faction they can recognize and a standard against which its conduct can be judged. It also establishes the Veilguard as separate from both the earlier Vanguard and the Ale-Chemy Knights without denying that their operations and relationships may overlap.",
+  "The Veilguard prepares to recover Thorn": "The attempt to bring Thorn home becomes the first major test of whether the Veilguard’s language of mutual protection survives catastrophe. A member is not reduced to equipment, intelligence, or acceptable loss, while the missing steps of the operation and Thorn’s later return remain unresolved.",
+  "Thorn returns and names the Veilguard as home": "Thorn’s own words confirm the Veilguard as a lived community rather than only Severina’s organizational theory. The mechanism of her return, the cult ritual’s outcome, and the full recovery company remain open instead of being converted into invented certainty."
+});
+
 const questPlayerAdditions = [
   { title: "Alyhotep bin Baladin", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world." },
   { title: "Quoth", meta: "Player character · quest-RP", article: "people-directory", summary: "A recurring adventurer whose long quest record includes Hin expeditions, disappearances, rescues, and later regional journeys." },
@@ -4000,7 +4435,7 @@ const questPlayerAdditions = [
   { title: "Alfred Riverheart", meta: "Player character · Voraketh expedition", article: "voraketh", image: "assets/characters/alfred-riverheart.png", summary: "Nearly dies damaging a Chain and later enters Portho’s Portal beside Anky and Cerwin." },
   { title: "Camilla", meta: "Player character · civic advocate", article: "before-survey", image: "assets/characters/camilla.png", summary: "Joins The Before survey and argues that private wealth should strengthen defense, agriculture, and trade." },
   { title: "Cerwin Rayolet", meta: "Player character · Voraketh expedition", article: "st-anky", image: "assets/characters/cerwin-rayolet.png", summary: "Travels through Portho’s Portal with Anky and later reaches him wounded on the road to the afterlife." },
-  { title: "Draygar WarSmash", meta: "Player character · recurring adventurer", article: "people-directory", summary: "A heavily documented adventurer active in Pristinia, Gael, The Before, and the campaign against Wrath." },
+  { title: "Draygar WarSmash", meta: "Player character · strength in service", article: "draygar-warsmash", summary: "A rescuer, sworn brother, and front-line protector whose great strength matters most when it carries another person out of danger." },
   { title: "Eugene", meta: "Player character · scholar and reluctant bearer", article: "eugene", image: "assets/characters/eugene.png", summary: "Names himself as a burden immediately before asking the useful question or carrying difficult knowledge." },
   { title: "Gregory Greenleaf", meta: "Player character · investigator", article: "ale-chemy-knights", image: "assets/characters/gregory-greenleaf.png", summary: "Challenges Ale-Chemy financing, helps rescue a child from Krampus, and accompanies Farkur to the graves." },
   { title: "Lichen", meta: "Player character · Pristinia newcomer", article: "people-directory", summary: "A visibly strange newcomer who learns that Skye can be a safe friend." },
@@ -4044,9 +4479,9 @@ const legacyCharacterProfiles = {
     relationships: "Gartina’s place in Dale’s life is preserved through the wedding cake and the fury her abduction produces. Arjahn’s desperate rescue plan and crisis of faith, Wren’s grief while healing the living, Nienna’s affectionate farewell, and Saray’s trusted grief all show how much social weight Dale carries without needing to announce it."
   },
   "Draygar WarSmash": {
-    personality: "Draygar is boisterous, sociable, physically fearless, and frequently funny without being careless about other people’s danger. The archive shows him joking about food and height, then immediately hauling fallen companions clear, calling for a medic, or offering his hammers when a fight turns serious.",
-    achievements: "He becomes a major recurring adventurer across Pristinia, Gael, The Before, and the campaign against Wrath. Early scenes show him rescuing the fallen during battle and volunteering strong hands for the town; later records preserve more than a thousand messages under a stable player-controller link.",
-    relationships: "Krone is repeatedly called his brother and anchors much of Draygar’s early warmth and comedy. He also builds easy familiarity with Herb, Jon, Gareth, Melian, and changing expedition parties, making fellowship—food, ale, teasing, and rapid practical help—part of how he keeps a group together."
+    personality: "Draygar is boisterous, sociable, physically fearless, and frequently funny without being careless about other people’s danger. His strength is not an identity he hoards; it is a service he can offer. The same person who jokes about food and height immediately hauls fallen companions clear, calls for a medic, or puts an enormous body between danger and someone who cannot withstand it.",
+    achievements: "Across Pristinia, Gael, The Before, and the campaign against Wrath, Draygar repeatedly makes overwhelming force answer to rescue. He carries the warhammer Cala, rejects Death’s attempt to turn grief into a bargain, and throws Wrath’s sword away rather than letting the enemy’s weapon define the victory. His deeds matter not because he is difficult to move, but because he chooses what his strength will move for.",
+    relationships: "Krone is his sworn brother and the clearest anchor of Draygar’s fellowship, while Gartina brings tenderness, trust, and the possibility of a life beyond the next battle into his record. Herb, Jon, Gareth, Melian, and many changing expedition parties know a man who makes belonging through food, ale, teasing, and immediate practical help. He is most fully himself when another person needs to be carried home."
   },
   "Elenia": {
     personality: "Elenia is driven by wonder, faith, and the fear that her faith may be only hope speaking back to her. She can be gentle, apologetic, and fiercely protective, but her divine power also makes her capable of terrifying force when conviction hardens into judgment.",
@@ -4169,9 +4604,9 @@ const legacyCharacterProfiles = {
     relationships: "Nuru publicly recognizes Anky’s service, but Anky’s holiness is expressed most clearly through mortal sharing. Cerwin receives help even without an item to exchange and later reaches Anky on the road to the afterlife; Alfred joins the last known journey; Coralyn, Carmen, Sildithas, Brianna, and Ghilsen share the Shadow Roads history. His community inherits records instead of only grief."
   },
   "Carmen": {
-    personality: "Carmen understands relationships through accounts, bargains, and the danger of an unpaid price. That can make her guarded, but not cold: her attention to debt is the language of someone who knows that gifts, rescues, and sacrifices can become forms of ownership when consent disappears.",
-    achievements: "She crosses the Shadow Roads and survives the crisis in which Paco pays a cost to bring others home. Her importance lies less in a single combat victory than in preserving the moral distinction between being saved and agreeing to the price of salvation.",
-    relationships: "Paco’s sacrifice becomes the central wound in Carmen’s record because she did not consent to let him pay it. Coralyn, St. Anky, Sildithas, Ithilrûnë, Brianna, and Ghilsen share parts of the Shadow Roads history, giving Carmen a company in which obligation, fear, protection, and ownership must be negotiated rather than assumed."
+    personality: "Carmen understands civilization as a promise of reciprocity: people survive because they restrain appetite, honor bargains, and refuse to make the vulnerable pay every cost. That can make her guarded and severe, but not cold. Her attention to debt is the language of someone who knows that gifts, rescues, and sacrifices become forms of ownership when consent disappears.",
+    achievements: "She crosses the Shadow Roads, survives the crisis in which Paco pays a cost to bring others home, and later condemns the use of young Rahu soldiers as expendable material. During the May 2025 conflict she finds Magnus beneath the bridge, delegates Paco’s surveillance, and acts rather than confusing moral caution with passivity. Her record repeatedly defends adult agency while refusing to treat unconsenting victims as the price of someone else’s decision.",
+    relationships: "Paco is the center of Carmen’s history: companion, witness, and a person whose sacrifice she cannot reduce to a settled account because she did not consent to let him pay it. Coralyn, St. Anky, Sildithas, Ithilrûnë, Brianna, and Ghilsen share the Shadow Roads ordeal, while the Rahu war forces Carmen to distinguish negotiated risk from coercion. Her relationships ask the same hard question in different forms: when does care preserve another person’s freedom, and when does it quietly claim them?"
   },
   "Coralyn": {
     personality: "Coralyn is curious, articulate, and disciplined about evidence. She explains difficult cosmology through the sea, but she is willing to dissent when a path feels wrong and refuses to connect mysteries merely because both are strange. Her skepticism is a form of care for the people who would have to live with a bad conclusion.",
@@ -4194,9 +4629,9 @@ const legacyCharacterProfiles = {
     relationships: "Endora is the private center around which Roderick’s public wrath turns. Quake refuses his offer after Dale’s death, Elenia searches for a different path, and Saray delivers the decisive strike. Dumuzi’s response to the fallen knight adds another relationship of ownership and mourning, but the oldest causes remain protected lore rather than material exposed in this public profile."
   },
   "Lady Severina": {
-    personality: "Severina treats command as continuity rather than spectacle. A ruin survey, a guarded tower, a working quarry, a staffed wall, and a healed soldier all belong to the same discipline: protect people long enough for civic life to continue after the battle ends.",
-    achievements: "She protects the Rahuvian delegation during the survey of The Before, offers secure space for petrified victims, argues for restored quarry production and completed walls, and commands Pristinia’s defense during the Acolyte attack. Her warning that certain skeletons explode and her immediate care for Saoirse show battlefield knowledge applied at human scale.",
-    relationships: "Camilla shares her civic concern while pressing its economic and political implications. Kasiri and Saoirse appear in the wall defense as people Severina protects rather than pieces she spends, while the Rahuvian scholars depend on her discipline during the survey. Her connection to the Ale-Chemy tower shows institutions cooperating without erasing the question of who holds power over shared infrastructure."
+    personality: "Severina treats command as continuity rather than spectacle. A ruin survey, a guarded tower, a working quarry, a staffed wall, and a healed soldier all belong to the same discipline: protect people long enough for civic life to continue after the battle ends. Her opposition to false order is therefore practical; a system that looks disciplined while spending its people has failed the purpose of discipline.",
+    achievements: "She protects the Rahuvian delegation during the survey of The Before, secures space for petrified victims, argues for restored quarry production and completed walls, and commands Pristinia’s defense during the Acolyte attack. In April 2026, Kasiri and Camilla entrust her with leadership of the new vanguard; she then turns the role into the Veilguard, an inter-island company with personnel, equipment needs, and an ethic of mutual recovery.",
+    relationships: "Camilla and Kasiri grant Severina authority because they trust her judgment and duty rather than because she seizes command. Aleister’s friendship broadens the private life behind the officer, while the Rahuvian scholars and Saoirse show her protection at human scale. Thorn becomes the heaviest test: leaving a fallen member as an acceptable loss would contradict everything Severina believes command is for, so the promise to recover Thorn becomes both personal loyalty and institutional doctrine."
   },
   "Thorn": {
     personality: "Thorn is a field leader who treats belonging as an obligation: the Veilguard is not merely an assignment but the community to which she must return. She combines instinctive caution with practical curiosity, gathering evidence without pretending that every contaminated sign already has an explanation.",
@@ -4239,6 +4674,91 @@ const legacyCharacterProfiles = {
     relationships: "Vaemyr is her central bond and her clearest conflict: Wren feels responsible to everyone, while he fears her universal sacrifice will make her stand alone and abandon the person beside her. Dale, Gartina, Jiangshi, Arjahn, and the wider party establish Wren as the carrier of the community’s emotional continuity."
   }
 };
+
+// Carmen's dossier is rebuilt later than the general reputation pass above,
+// so restore the contemporary chronicle note after that synthesis is complete.
+const adaCarmenArticle = articles.find(article => article.id === "carmen");
+if (adaCarmenArticle && !adaCarmenArticle.body.includes("ada-reputation-carmen")) {
+  adaCarmenArticle.body += `<h2 id="ada-reputation-carmen">Contemporary reputation · 28 January 2025</h2><p>Ada’s public Carmen is greedy, destructive, bad with names, quick to complain, and surprisingly dependable when somebody truly needs help. That reputation independently preserves the gap between Carmen’s performed selfishness and her repeated reluctant responsibility. <a href="#ada-town-chronicler">Read the chronicler’s evidence boundary.</a></p>`;
+}
+
+// The Withering of Hope is kept as its own event record so Magnus's choice can
+// be read beside the people, place, and divine powers it affected. Interpretive
+// claims remain attributed instead of being promoted into omniscient fact.
+if (!articles.some(article => article.id === "withering-of-hope")) {
+  articles.push({
+    id: "withering-of-hope",
+    title: "The Withering of Hope",
+    category: "History",
+    type: "Resurrection, betrayal, and the wounding of Hope",
+    dek: "Adelia called Magnus back as a friend. Minutes later, he accepted Dumuzi's gift, turned its death-working power upon Hope, and declared that only Ambition remained.",
+    tags: ["Magnus", "Hope", "Adelia", "Moirah", "Dumuzi", "Betrayal", "Resurrection", "Gael"],
+    facts: {
+      "Date": "27 February 2026",
+      "Location": "Hope, Gael",
+      "Event ID": "FEN-TL-20260227-HOPE-WITHERS",
+      "Principal figures": "Adelia, Jiangshi, Bitoshi, Alyhotep, Magnus, Moirah, Dumuzi",
+      "Status": "Scene-backed historical event"
+    },
+    sources: [
+      "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — event reconstruction, dialogue, chronology, and evidence boundaries",
+      "Discord quest-RP scene · 27 February 2026 — primary scene cited by the reconstruction"
+    ],
+    body: `<p>At Hope, reunion and catastrophe occupy the same scene. Jiangshi speaks of Hope, Love, and Faith while Adelia turns toward the golden tree and asks for the return of Magnus Niriin. Her Divine Intervention succeeds. Magnus receives a fresh body and is addressed not as a weapon or political asset, but as Adelia's friend.</p>
+      <h2 id="the-return">A final return</h2>
+      <p>Moirah arrives haggard and furious. She says that she fights Death constantly and that restoring Magnus required her to retrieve a soul Death owns. Death laughed while she did it. The scene establishes the cost and the claimed ownership; it does not establish that Death planned every detail, deliberately permitted the resurrection, or possessed foreknowledge of everything Magnus would do next.</p>
+      <p>Adelia tells Magnus, “This is the last time.” Jiangshi frames the return as another chance for redemption. Those words make the resurrection an act of trust with limits: the company has not forgotten Magnus's history, but it has chosen once more to leave him room to choose differently.</p>
+      <h2 id="dumuzis-gift">Dumuzi's gift</h2>
+      <p>Dumuzi appears, praises Magnus, and offers him a gift. Magnus accepts before learning its exact nature. The gift is then revealed as a special expression of <em>Power Word Kill</em>, capable of affecting beings who arrived through the Gate and Tree Shards such as Hope. Magnus calls Dumuzi “a friend.” The record shows acceptance, disclosure, and use in that order; it does not supply a hidden private conversation or prove that every divine power consented to the exchange.</p>
+      <h2 id="only-ambition-remains">“Hope is dead. Only Ambition remains.”</h2>
+      <blockquote><p>“Hope is dead. Only Ambition remains.”</p><cite>Magnus Niriin, 27 February 2026</cite></blockquote>
+      <p>Magnus turns toward Hope and speaks the line before using the gifted death-working power. Hope begins to wither. He then Plane Shifts toward Fein Uaill. The sentence is memorable not because it explains every motive, but because it makes the choice unmistakable: resurrection offered a renewed life, and Magnus immediately defines that life through Ambition at Hope's expense.</p>
+      <h2 id="immediate-response">The work of saving what remains</h2>
+      <p>Adelia and Jiangshi act immediately to preserve Hope. Bitoshi calls the act “a betrayal of the highest magnitude.” Adelia declares an intention to kill Magnus and later blames herself for restoring him. Her guilt belongs in the record because it shapes her response, but it is her judgment of herself—not objective proof that she bears moral responsibility for the decision Magnus made after his return.</p>
+      <p>Alyhotep, Bitoshi, Jiangshi, and Adelia become witnesses to a rupture that reaches beyond one relationship. Hope is a living part of Gael's recovery and a symbol made materially vulnerable by the same trust that returned Magnus. Restoration and accountability can no longer be discussed as separate questions.</p>
+      <h2 id="responsibility-boundaries">What the scene proves—and what it does not</h2>
+      <p>The scene directly establishes Adelia's intervention, Moirah's retrieval of a Death-owned soul, Magnus's acceptance of Dumuzi's gift, its announced capacity, Magnus's words, Hope's withering, and his departure. It does not prove that betrayal was inevitable, that Dumuzi engineered every preceding event, that Death intentionally allowed Magnus to escape ownership, or that Adelia caused the attack by offering mercy.</p>
+      <div class="callout gold"><p>The Withering of Hope is therefore both a historical event and a moral boundary in Magnus's record: another person paid to restore his capacity to choose, and he used that capacity against the living emblem of recovery before him.</p></div>`
+  });
+}
+
+if (magnusArticle && !magnusArticle.body.includes("id=\"withering-of-hope-magnus\"")) {
+  magnusArticle.body += `<h2 id="withering-of-hope-magnus">The Withering of Hope · 27 February 2026</h2><p>Adelia's Divine Intervention returns Magnus in a fresh body at Hope after Moirah retrieves the soul that Death claims to own. Adelia calls him her friend and warns that this is the last time; Jiangshi names the return another chance for redemption. The resurrection is not absolution. It is a costly restoration of Magnus's ability to choose.</p><p>Dumuzi then offers Magnus a gift, which Magnus accepts before learning its exact form: a special <em>Power Word Kill</em> able to affect Gate-arrivals and Tree Shards. Magnus calls Dumuzi a friend, turns toward Hope, and says, <strong>“Hope is dead. Only Ambition remains.”</strong> Hope begins to wither, and Magnus Plane Shifts toward Fein Uaill while Adelia and Jiangshi try to save what remains. <a href="#withering-of-hope">Read the complete event and its evidence boundaries.</a></p><p>The scene sharpens the central contradiction of Magnus's history. He is not denied mercy, loyalty, or renewed life; he receives all three and makes their cost part of somebody else's wound. Adelia later blames herself, but her guilt is a relationship consequence—not evidence that she authored Magnus's decision.</p>`;
+  magnusArticle.facts = { ...(magnusArticle.facts || {}), "Defining rupture": "The Withering of Hope · 27 February 2026" };
+  magnusArticle.sources = [...new Set([...(magnusArticle.sources || []), "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — resurrection, Dumuzi's gift, attack on Hope, and aftermath"] )];
+}
+
+const memorableQuotesArticle = articles.find(article => article.id === "memorable-quotes");
+if (memorableQuotesArticle && !memorableQuotesArticle.body.includes("Only Ambition remains")) {
+  memorableQuotesArticle.body = memorableQuotesArticle.body.replace(
+    '<h2 id="choice-and-possession">Choice, suffering, and possession</h2>\n      <div class="quote-gallery">',
+    '<h2 id="choice-and-possession">Choice, suffering, and possession</h2>\n      <div class="quote-gallery">\n        <button class="quote-card" data-article="withering-of-hope"><blockquote>“Hope is dead. Only Ambition remains.”</blockquote><cite>Magnus Niriin</cite></button>'
+  );
+  memorableQuotesArticle.facts.Selection = "52 recovered lines";
+  memorableQuotesArticle.sources = [...new Set([...(memorableQuotesArticle.sources || []), "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope"] )];
+}
+
+const gaelArticleForWithering = articles.find(article => article.id === "gael");
+if (gaelArticleForWithering && !gaelArticleForWithering.body.includes("id=\"hope-withers\"")) {
+  gaelArticleForWithering.body += `<h2 id="hope-withers">Hope withers · 27 February 2026</h2><p>Hope becomes the site of Magnus Niriin's final resurrection and immediate betrayal. After Adelia's Divine Intervention restores him, Magnus accepts a death-working gift from Dumuzi and turns it upon the Tree Shard. Hope begins to wither while Adelia and Jiangshi attempt to preserve her. The event transforms Hope from Gael's emblem of recovery into a wounded participant in its history. <a href="#withering-of-hope">Read the complete event.</a></p>`;
+  gaelArticleForWithering.sources = [...new Set([...(gaelArticleForWithering.sources || []), "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Hope's wounding and immediate response"] )];
+}
+
+if (!questTimelineAdditions.some(item => item.title === "Magnus returns and Hope withers")) {
+  questTimelineAdditions.push({
+    title: "Magnus returns and Hope withers",
+    meta: "27 Feb 2026 · quest-RP",
+    sort: "2026-02-27",
+    era: "2026 · Resurrection and rupture",
+    kind: "Resurrection and betrayal",
+    article: "withering-of-hope",
+    location: "Hope, Gael",
+    people: "Adelia; Jiangshi; Bitoshi Nakamoto; Alyhotep; Magnus Niriin; Moirah; Dumuzi",
+    tags: ["Hope", "Magnus", "resurrection", "betrayal", "Death", "Tree Shards"],
+    summary: "Adelia restores Magnus through Divine Intervention; he accepts Dumuzi's gift, declares that only Ambition remains, wounds Hope, and leaves for Fein Uaill."
+  });
+}
+questEventConsequences["Magnus returns and Hope withers"] = "Moirah reveals that restoring Magnus required retrieving a soul Death owns, while Dumuzi's gift gives Magnus a death-working power capable of affecting Tree Shards. Hope begins to wither as Adelia and Jiangshi try to save her. Adelia's self-blame is preserved as her belief, not proof that she is responsible for Magnus's choice.";
 
 const archiveIndex = {
   "timeline": [
@@ -5374,7 +5894,7 @@ const archiveIndex = {
       "kind": "Civic intervention",
       "article": "pristinia",
       "location": "Pristinia; Prima",
-      "people": "Ada Tricks; Rahu authorities",
+      "people": "Pristinian advocate; Rahu authorities",
       "tags": [
         "evidence",
         "justice",
@@ -5720,7 +6240,7 @@ const archiveIndex = {
       "summary": "Jiangshi offers comfort without possession, establishing the ethic that will later shape how her own death and return are understood."
     },
     {
-      "title": "Ada Arrival Three brings Magnus, Dez, and Brianna",
+      "title": "The Third Arrival brings Magnus, Dez, and Brianna",
       "meta": "6 Apr 2025",
       "sort": "2025-04-06",
       "era": "2025 · Truth and authority",
@@ -5733,7 +6253,7 @@ const archiveIndex = {
         "Prima",
         "newcomers"
       ],
-      "summary": "Magnus, Dez, and Brianna arrive in the discrete event remembered as Ada Arrival Three; it is not merged with the earlier Gate opening."
+      "summary": "Magnus, Dez, and Brianna arrive in the discrete event remembered as the Third Arrival; it is not merged with the earlier Gate opening."
     },
     {
       "title": "Magnus quests beside Pristinia’s adventurers",
@@ -6471,7 +6991,7 @@ const archiveIndex = {
         "miracle",
         "chance"
       ],
-      "summary": "An unfudged one-in-250 Reincarnate result occurs only after the party has accepted loss and change. Its meaning is preserved without claiming Ada caused the roll."
+      "summary": "An unfudged one-in-250 Reincarnate result occurs only after the party has accepted loss and change. Its meaning is preserved without assigning the roll to a higher power."
     },
     {
       "title": "Zombie pirates burn the Common Man",
@@ -9904,6 +10424,10 @@ const navigationRegions = [
             "article": "dale"
           },
           {
+            "label": "Draygar WarSmash",
+            "article": "draygar-warsmash"
+          },
+          {
             "label": "Elenia",
             "article": "elenia"
           },
@@ -10028,6 +10552,10 @@ const navigationRegions = [
           {
             "label": "The Ale-Chemy Knights",
             "article": "ale-chemy-knights"
+          },
+          {
+            "label": "The Veilguard",
+            "article": "veilguard"
           },
           {
             "label": "The Seekers",
@@ -10223,6 +10751,10 @@ const navigationRegions = [
             "article": "pilgrims-hearth"
           },
           {
+            "label": "Pappy’s Hotsprings",
+            "article": "pappys-hotsprings"
+          },
+          {
             "label": "The Before Survey",
             "article": "before-survey"
           },
@@ -10358,6 +10890,8 @@ const fixedArticlePaths = new Map([
   ["relationships", ["Archive", "Relationships in Motion"]],
   ["open-questions", ["Archive", "Unresolved Record"]],
   ["knights-of-death", ["Characters", "Death’s Knights"]],
+  ["veilguard", ["Characters", "Groups & orders", "The Veilguard"]],
+  ["draygar-warsmash", ["Characters", "Draygar WarSmash"]],
   ["kurayami", ["Characters", "Death’s Knights", "Kurayami / Abyss"]],
   ["visual-archive", ["Locations", "Location Atlas"]],
   ["prima-pristinia", ["Locations", "Prima"]],
@@ -10366,6 +10900,7 @@ const fixedArticlePaths = new Map([
   ["first-forest", ["Locations", "Prima", "The First Forest"]],
   ["common-man", ["Locations", "Prima", "Pristinia", "The Common Man"]],
   ["pilgrims-hearth", ["Locations", "Prima", "Pristinia", "The Pilgrim’s Hearth"]],
+  ["pappys-hotsprings", ["Locations", "Prima", "Pappy’s Hotsprings"]],
   ["before-survey", ["Locations", "Prima", "The Before Survey"]],
   ["fein-uaill", ["Locations", "Fein Uaill"]],
   ["shard-of-fein-uaill", ["Locations", "Fein Uaill", "The Shard of Fein Uaill"]],
@@ -11083,6 +11618,99 @@ const subchannelMap = {
   ]
 };
 
+Object.assign(subchannelMap, {
+  "veilguard": [
+    {
+      label: "Lady Severina Blackveil",
+      article: "lady-severina",
+      summary: "The entrusted leader who turned a succession exercise into an accountable protective company."
+    },
+    {
+      label: "Thorn",
+      article: "thorn",
+      summary: "A returned member whose words make mutual recovery central to the faction’s identity."
+    },
+    {
+      label: "The Ale-Chemy Knights",
+      article: "ale-chemy-knights",
+      summary: "A separate mutual-aid and logistics faction that sometimes overlaps with Veilguard operations."
+    },
+    {
+      label: "Gael",
+      article: "gael",
+      summary: "The recovering region where the Veilguard’s doctrine is tested by husk hunts, cult danger, and Thorn’s loss."
+    }
+  ],
+  "lady-severina": [
+    {
+      label: "The Veilguard",
+      article: "veilguard",
+      summary: "The inter-island protective company entrusted to Severina’s leadership."
+    },
+    {
+      label: "Thorn",
+      article: "thorn",
+      summary: "The fallen member whose recovery becomes Severina’s most personal test of command."
+    },
+    {
+      label: "The Before Survey",
+      article: "before-survey",
+      summary: "The joint expedition where protection, scholarship, and political trust meet."
+    }
+  ],
+  "draygar-warsmash": [
+    {
+      label: "Krone",
+      article: "krone",
+      summary: "Draygar’s sworn brother and the clearest anchor of his fellowship."
+    },
+    {
+      label: "Gartina",
+      article: "gartina",
+      summary: "A relationship of tenderness and trust beyond the next battle."
+    },
+    {
+      label: "Roderick / Wrath",
+      article: "roderick-wrath",
+      summary: "The enemy whose bargains and weapons Draygar refuses to let define him."
+    }
+  ],
+  "pappys-hotsprings": [
+    {
+      label: "Pappy",
+      article: "pappy",
+      summary: "Co-creator of the springs and the host whose protection continues as hospitality."
+    },
+    {
+      label: "Prima",
+      article: "prima-pristinia",
+      summary: "The wider island whose Gate, settlements, and roads give the retreat its context."
+    },
+    {
+      label: "Pristinia",
+      article: "pristinia",
+      summary: "The nearby community whose adventurers repeatedly receive invitations to rest here."
+    }
+  ],
+  "caislean-na-bron": [
+    {
+      label: "Fein Uaill",
+      article: "fein-uaill",
+      summary: "The wider region containing the castle and its political history."
+    },
+    {
+      label: "Olokun",
+      article: "olokun",
+      summary: "A resident whose room helps turn the stronghold into a lived adventurers’ home."
+    },
+    {
+      label: "Aria / Pride",
+      article: "aria-pride",
+      summary: "Her possessions, conflicts, and legacy shape several of the castle’s recovered scenes."
+    }
+  ]
+});
+
 // Major-region supplements keep the long-form geographic history together without
 // making the primary article catalogue harder to reconcile with new source files.
 // These additions are all player-safe: ancient origins and divine explanations stay
@@ -11213,8 +11841,1186 @@ Object.entries(majorLocationSupplements).forEach(([id, supplement]) => {
   article.sources = [...new Set([...(article.sources || []), ...(supplement.sources || [])])];
 });
 
+archiveIndex.characters
+  .filter(record => record.title === "Draygar WarSmash")
+  .forEach(record => {
+    record.article = "draygar-warsmash";
+    record.meta = "Player character · strength in service";
+    record.summary = "A rescuer, sworn brother, and front-line protector whose great strength matters most when it carries another person out of danger.";
+  });
+
+if (!archiveIndex.islands.some(record => record.article === "pappys-hotsprings")) {
+  archiveIndex.islands.push({
+    title: "Pappy’s Hotsprings",
+    region: "Prima",
+    parent: "Prima",
+    type: "retreat and gathering place",
+    meta: "Prima · retreat and gathering place",
+    article: "pappys-hotsprings",
+    summary: "A warm refuge created by Pappy and his mother where adventurers are invited to recover, talk, and belong between dangers.",
+    source: "Pappys_Hotsprings_Location_Profile_and_History.md",
+    aliases: ["Pappys Hotsprings", "Pappy's Hotsprings"],
+    level: "site"
+  });
+}
+
+archiveIndex.islands
+  .filter(record => record.article === "caislean-na-bron")
+  .forEach(record => {
+    record.meta = "Fein Uaill · adventurers’ stronghold and refuge";
+    record.summary = "A fortified home whose rooms hold political planning, Aria’s legacy, visiting delegations, old enemies, and the quieter work of shelter.";
+  });
+
+questTimelineAdditions.forEach(record => {
+  const duplicate = archiveIndex.timeline.some(item => item.title === record.title && item.sort === record.sort);
+  if (!duplicate) archiveIndex.timeline.push(record);
+});
+
+const publicTimelineCount = archiveIndex.timeline.filter(item =>
+  item.title && item.meta && item.era && item.kind && item.location && item.people
+).length;
+const livingTimelineArticle = articles.find(article => article.id === "living-timeline");
+if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${publicTimelineCount} recovered entries`;
+
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"]]);
+
+const relationshipMaps = {
+  magnus: {
+    title: "Magnus Niriin’s relationship web",
+    intro: "This map treats a relationship as a force that changes choices over time—not as a permanent label. Select a connection to read what bound the two sides together, what changed, and what remains unresolved.",
+    center: { title: "Magnus Niriin", subtitle: "Leverage seeking autonomy" },
+    filters: [
+      { id: "all", label: "All ties" },
+      { id: "bond", label: "Bonds & care" },
+      { id: "power", label: "Power & ownership" },
+      { id: "conflict", label: "Conflict & distrust" },
+      { id: "politics", label: "Politics & belonging" }
+    ],
+    nodes: [
+      {
+        id: "death",
+        title: "Dumuzi / Death",
+        subtitle: "Owner of his soul",
+        category: "power",
+        strength: 3,
+        x: 50,
+        y: 8,
+        direction: "toward",
+        relation: "Ownership disguised as leverage",
+        history: "Magnus seeks extraordinary power through Death, but the surviving record makes the asymmetry explicit: Dumuzi can incapacitate him by invoking a soul-bond that already exists.",
+        consequence: "His strongest source of leverage is also the clearest limit on his autonomy. Scribonia therefore prefers containment to killing, because death may return Magnus directly to the power that owns him.",
+        evidence: "Directly demonstrated soul-bond; the exact bargain remains unresolved.",
+        article: "death-dumuzi"
+      },
+      {
+        id: "aria",
+        title: "Aria / Pride",
+        subtitle: "Dangerous partnership",
+        category: "power",
+        strength: 3,
+        x: 76,
+        y: 17,
+        direction: "mutual",
+        relation: "Alliance through exceptional power",
+        history: "Aria becomes Magnus’s most dangerous partnership: a connection joining ambition, Zarathian politics, Death-aligned power, and the belief that exceptional people can exceed ordinary limits.",
+        consequence: "Her fall destabilizes him personally and politically. The deaths around her expose genuine attachment while deepening the party’s fear of what Magnus will authorize next.",
+        evidence: "Strong causal connection; the private terms of their alliance remain incomplete.",
+        article: "aria-pride"
+      },
+      {
+        id: "miriel",
+        title: "Miriel",
+        subtitle: "Political sponsor",
+        category: "politics",
+        strength: 2,
+        x: 84,
+        y: 42,
+        direction: "toward",
+        relation: "Legitimacy through public support",
+        history: "Miriel speaks publicly for Magnus during his rise in Zarathian politics, helping transform a controversial adventurer into a viable candidate for authority.",
+        consequence: "Her support gives Magnus legitimacy that personal power alone could not provide. Why she judges him worthy remains an open part of the record.",
+        evidence: "Public support is established; motive is unresolved.",
+        article: "zarathis"
+      },
+      {
+        id: "zarathis",
+        title: "Zarathis & Silver Star",
+        subtitle: "Culture, order, constituency",
+        category: "politics",
+        strength: 3,
+        x: 80,
+        y: 73,
+        direction: "mutual",
+        relation: "Belonging that becomes political capital",
+        history: "Magnus calls Zarathians his people, teaches their customs, belongs to Silver Star, hosts outsiders, and presents himself as a defender of cultural honor and continuity.",
+        consequence: "The connection makes his ambition more than opportunism, but it also sharpens the contradiction between Zarathian traditions and his repeated resurrection and permanent bond to Death.",
+        evidence: "Belonging and political activity are established; institutional consensus is not.",
+        article: "zarathis"
+      },
+      {
+        id: "adelia",
+        title: "Adelia & Hope",
+        subtitle: "Support, revival, rupture",
+        category: "bond",
+        strength: 3,
+        x: 58,
+        y: 90,
+        direction: "mutual",
+        relation: "Trust that survives death, then breaks",
+        history: "Adelia supports Magnus politically and, on 27 February 2026, uses Divine Intervention to retrieve and restore him at Hope. She calls him her friend while warning that this is the last time.",
+        consequence: "Minutes after receiving renewed life, Magnus accepts Dumuzi’s gift, declares that only Ambition remains, turns its power upon Hope, and leaves. Adelia’s trust becomes rupture; her later self-blame remains her belief rather than proof she caused his choice.",
+        evidence: "The resurrection, gift, declaration, attack, and immediate response are directly observed; Dumuzi’s larger planning remains unresolved.",
+        article: "withering-of-hope"
+      },
+      {
+        id: "elenia",
+        title: "Elenia",
+        subtitle: "Moral and political opponent",
+        category: "conflict",
+        strength: 3,
+        x: 31,
+        y: 87,
+        direction: "mutual",
+        relation: "A duel whose final premise she refuses",
+        history: "Their conflict reaches a fight framed as a duel to determine who was right. Elenia answers with overwhelming divine force but refuses to make death the final proof of moral correctness.",
+        consequence: "Magnus survives, and the conflict becomes regional politics rather than a closed personal verdict. Her later banishment shows how their opposition reshapes more than either individual.",
+        evidence: "The confrontation and survival are established; some surrounding adjudication remains disputed.",
+        article: "elenia"
+      },
+      {
+        id: "olokun",
+        title: "Olokun",
+        subtitle: "Distrust without disposal",
+        category: "conflict",
+        strength: 2,
+        x: 16,
+        y: 68,
+        direction: "mutual",
+        relation: "Resistance to both Magnus and his dehumanization",
+        history: "Olokun distrusts Magnus and recognizes the danger around him, yet rejects the idea that a misguided person can simply be abandoned or killed once inconvenient.",
+        consequence: "The relationship prevents the party’s judgment from becoming unanimous. It preserves a moral distinction between restraining dangerous choices and treating the chooser as disposable.",
+        evidence: "Olokun’s stated position is established; later trust remains uncertain.",
+        article: "olokun"
+      },
+      {
+        id: "scribonia",
+        title: "Scribonia",
+        subtitle: "Rejection and containment",
+        category: "conflict",
+        strength: 3,
+        x: 16,
+        y: 39,
+        direction: "mutual",
+        relation: "From party member to containment target",
+        history: "Scribonia interprets Death’s power over Magnus as ownership and eventually concludes that ordinary trust is no longer an adequate safeguard.",
+        consequence: "His proposed Gate, Feeblemind, and Imprisonment plan marks the relationship’s escalation from disagreement to planned containment—while still rejecting execution as strategically disastrous.",
+        evidence: "The proposed plan is established; it has not been carried out.",
+        article: "scribonia"
+      },
+      {
+        id: "wren",
+        title: "Wren",
+        subtitle: "Benefit of the doubt collapsed",
+        category: "conflict",
+        strength: 2,
+        x: 22,
+        y: 15,
+        direction: "mutual",
+        relation: "Trust broken by accumulated evidence",
+        history: "Wren’s relationship with Magnus preserves a change rather than a static verdict: she once extends benefit of the doubt, then reaches the point of shooting him after the catastrophe around Aria.",
+        consequence: "Her action makes the party’s loss of trust physical. It also demonstrates that empathy and patience can end without becoming proof that every earlier attempt at trust was foolish.",
+        evidence: "The change in trust and the shooting are established; reconciliation is not.",
+        article: "wren"
+      },
+      {
+        id: "eugene",
+        title: "Eugene",
+        subtitle: "Care amid suspicion",
+        category: "bond",
+        strength: 1,
+        x: 34,
+        y: 31,
+        direction: "toward",
+        relation: "Healing without a complete verdict",
+        history: "Eugene attempts to heal Magnus during the crisis around Aria even as other companions decide Magnus no longer belongs among them.",
+        consequence: "The act preserves a narrow but important truth: care can remain possible before trust or judgment has been resolved.",
+        evidence: "The healing attempt is established; the wider relationship is sparsely recovered.",
+        article: "eugene"
+      },
+      {
+        id: "brianna",
+        title: "Brianna",
+        subtitle: "Early companion and confidante",
+        category: "bond",
+        strength: 2,
+        x: 67,
+        y: 33,
+        direction: "mutual",
+        relation: "Personal concern inside political betrayal",
+        history: "Brianna arrives with Magnus, receives a secret warning from him even after he changes sides, and connects his early adventuring life to the Rahu war that turns companions into opponents.",
+        consequence: "Their bond complicates any clean conversion story. Political allegiance changes faster than personal concern, leaving loyalty divided rather than erased.",
+        evidence: "Shared arrival and warning are established; the later relationship is incomplete.",
+        article: "people-directory"
+      }
+    ],
+    insights: [
+      { label: "Strongest force", value: "Death’s ownership", note: "The thickest and most one-sided connection in the map." },
+      { label: "Greatest fracture", value: "Adelia & Hope", note: "Support and resurrection make the later harm more consequential." },
+      { label: "Key counterweight", value: "Olokun", note: "Opposes Magnus without accepting that danger makes a person disposable." },
+      { label: "Open hinge", value: "Miriel’s motive", note: "Political legitimacy is established; the reason for granting it is not." }
+    ]
+  },
+  scribonia: {
+    title: "Scribonia’s relationship web",
+    intro: "Knowledge is never solitary in Scribonia’s history. Select a connection to see where teaching becomes inheritance, curiosity becomes power, and the pursuit of safety risks becoming control.",
+    center: { title: "Scribonia", subtitle: "Knowledge seeking freedom" },
+    filters: [
+      { id: "all", label: "All ties" },
+      { id: "bond", label: "Trust & teaching" },
+      { id: "power", label: "Knowledge & control" },
+      { id: "conflict", label: "Conflict & correction" },
+      { id: "politics", label: "Institutions & legacy" }
+    ],
+    nodes: [
+      {
+        id: "eugene",
+        title: "Eugene",
+        subtitle: "Former student, independent scholar",
+        category: "bond",
+        strength: 3,
+        x: 50, y: 8,
+        direction: "mutual",
+        relation: "Teaching that must release its claim",
+        history: "Scribonia privately recognizes Eugene’s brilliance even when Eugene presents himself as a burden. Their shared history includes dangerous knowledge, spellbook learning, and the habits of teacher and student.",
+        consequence: "The relationship matures when Scribonia accepts that Eugene is no longer his student and does not owe him every explanation. Instruction remains causal without becoming ownership.",
+        evidence: "Mentorship and later autonomy are established; the full early teaching chronology is incomplete.",
+        article: "eugene"
+      },
+      {
+        id: "aria",
+        title: "Aria / Pride",
+        subtitle: "Captor and philosophical enemy",
+        category: "power",
+        strength: 3,
+        x: 76, y: 17,
+        direction: "toward",
+        relation: "Knowledge subjected to coercion",
+        history: "Aria humiliates, coerces, and imprisons Scribonia in a gemstone. Her claim that power can secure freedom becomes intimate evidence of what power does when another person’s will is treated as expendable.",
+        consequence: "Scribonia’s suffering cannot define every relationship Aria had, but it prevents later tenderness around her from erasing the danger she represented to him.",
+        evidence: "Coercion and imprisonment are established; every private motive around them is not.",
+        article: "aria-pride"
+      },
+      {
+        id: "magnus",
+        title: "Magnus Niriin",
+        subtitle: "Containment target",
+        category: "conflict",
+        strength: 3,
+        x: 84, y: 42,
+        direction: "mutual",
+        relation: "Distrust converted into a plan",
+        history: "Scribonia reads Death’s hold over Magnus as ownership and concludes that ordinary trust cannot safely contain the risk. He proposes Gate, Feeblemind, and Imprisonment rather than execution.",
+        consequence: "The plan reveals both discipline and danger: he rejects killing Magnus while becoming willing to remove Magnus’s practical agency for the sake of collective safety.",
+        evidence: "The containment proposal is established; it has not been carried out.",
+        article: "magnus"
+      },
+      {
+        id: "academy",
+        title: "Magic Academy",
+        subtitle: "Students and institutional legacy",
+        category: "politics",
+        strength: 3,
+        x: 80, y: 73,
+        direction: "toward",
+        relation: "Private mastery becomes public transmission",
+        history: "Scribonia’s academy turns knowledge from a personal defense into an institution. Marius, Aurélia, Saoirse, and future students inherit not only spells but the habits, fears, and ethical boundaries of their teachers.",
+        consequence: "His historical importance can outlast his body. The academy also makes his methods answerable to the people who must live with what its students learn to do.",
+        evidence: "The academy and teaching activity are established; its full curriculum and governance remain open.",
+        article: "pristinia"
+      },
+      {
+        id: "papirak",
+        title: "Papirak",
+        subtitle: "Lost witness and inherited obligation",
+        category: "bond",
+        strength: 3,
+        x: 58, y: 90,
+        direction: "mutual",
+        relation: "Grief becomes archival responsibility",
+        history: "Papirak’s death removes a person and an irreplaceable historical witness. At the funeral, Scribonia admits guilt that he did not protect him and promises to attempt restoration of the Training Dungeon.",
+        consequence: "The promise binds mourning to future work. Scribonia can preserve and teach what remains without pretending reconstruction will restore everything Papirak knew.",
+        evidence: "The grief, promise, and funeral are established; complete restoration remains an unproven belief.",
+        article: "papirak-legacy"
+      },
+      {
+        id: "elenia",
+        title: "Elenia",
+        subtitle: "Peer in world-altering power",
+        category: "power",
+        strength: 2,
+        x: 31, y: 87,
+        direction: "mutual",
+        relation: "Shared capability under moral pressure",
+        history: "Scribonia and Elenia participate in a mountain-scale intervention of storm, earthquake, avalanche, flood, lava, and steam. At the Luminar Spires, their responses to unstable magic diverge: analysis and containment beside curiosity and experiment.",
+        consequence: "Their combined capability makes cooperation effective and morally dangerous. Each becomes evidence that knowing how to alter the world does not settle whether the alteration is permitted.",
+        evidence: "Shared expeditions are established; their complete personal relationship is sparsely recovered.",
+        article: "elenia"
+      },
+      {
+        id: "jiangshi",
+        title: "Jiangshi",
+        subtitle: "Colleague in hidden knowledge",
+        category: "bond",
+        strength: 2,
+        x: 16, y: 68,
+        direction: "mutual",
+        relation: "Different ways of making the concealed legible",
+        history: "Scribonia and Jiangshi are associated with research that makes hidden magical writing visible, including the Truesight examination of Papirak’s grimoire. Jiangshi’s ethic of presence also resists reducing care to explanation alone.",
+        consequence: "The connection joins technical revelation to a reminder that not every truth a person needs is solved by analysis.",
+        evidence: "The shared investigation is established; a broader working partnership remains incomplete.",
+        article: "jiangshi"
+      },
+      {
+        id: "olokun",
+        title: "Olokun",
+        subtitle: "Living memory subject to correction",
+        category: "conflict",
+        strength: 2,
+        x: 16, y: 39,
+        direction: "mutual",
+        relation: "Memory corrected without being dismissed",
+        history: "Olokun carries older history about Papirak, Wish, and divine intervention. Scribonia corrects one exact point: relevant knowledge was locked away and wrapped in madness, not simply erased.",
+        consequence: "The exchange models useful correction. Olo remains a vital carrier of lived history while Scribonia supplies precision where magical mechanics matter.",
+        evidence: "The correction is established; neither person becomes an omniscient source.",
+        article: "olokun"
+      },
+      {
+        id: "nymera",
+        title: "Nymera",
+        subtitle: "Help beyond specialization",
+        category: "bond",
+        strength: 1,
+        x: 22, y: 15,
+        direction: "mutual",
+        relation: "Expertise making room for contribution",
+        history: "Nymera misunderstands Scribonia’s proposed magical prison and apologizes. Scribonia and Arjahn refuse the apology and affirm that her practical help remains valuable elsewhere.",
+        consequence: "A small exchange tests whether specialized knowledge will humiliate outsiders or help them find a meaningful place in shared work.",
+        evidence: "The Luminar Spires exchange is established; the later relationship remains open.",
+        article: "nymera"
+      }
+    ],
+    insights: [
+      { label: "Strongest bond", value: "Eugene", note: "Teaching matters most when the student is allowed to become independent." },
+      { label: "Deepest wound", value: "Aria’s imprisonment", note: "Knowledge and personhood were both placed under another’s control." },
+      { label: "Public legacy", value: "Magic Academy", note: "Private mastery becomes a system other people will inherit." },
+      { label: "Central danger", value: "Containment as protection", note: "Safety can become domination even when execution is rejected." }
+    ]
+  },
+  elenia: {
+    title: "Elenia’s relationship web",
+    intro: "Elenia’s relationships turn wonder into practice and practice into responsibility. Select a tie to see when care preserves another person’s agency—and when immense power begins to decide for them.",
+    center: { title: "Elenia", subtitle: "Caretaking at divine scale" },
+    filters: [
+      { id: "all", label: "All ties" },
+      { id: "bond", label: "Care & continuity" },
+      { id: "power", label: "Faith & power" },
+      { id: "conflict", label: "Moral conflict" },
+      { id: "politics", label: "People & consequence" }
+    ],
+    nodes: [
+      {
+        id: "cala",
+        title: "Cala",
+        subtitle: "First call toward light",
+        category: "power",
+        strength: 3,
+        x: 50, y: 8,
+        direction: "toward",
+        relation: "Faith that matures beyond obedience",
+        history: "Elenia follows what may be Cala’s call while admitting uncertainty and offers herself as an instrument of light. Early devotion begins in wonder rather than chosen-one certainty.",
+        consequence: "Experience makes her faith conditional and morally active. She can continue serving light while judging divine failure instead of surrendering responsibility to it.",
+        evidence: "The call and prayers are established; divine intention is not always independently verifiable.",
+        article: "cala"
+      },
+      {
+        id: "mya",
+        title: "Mya",
+        subtitle: "Hope as enacted possibility",
+        category: "power",
+        strength: 3,
+        x: 76, y: 17,
+        direction: "mutual",
+        relation: "Wonder becomes a method",
+        history: "Mya asks Elenia to remain a child of wonder and a light where darkness is strongest. Their later history includes Gael’s renewal and Brianna’s sanctification through harm that cannot simply be erased.",
+        consequence: "Hope becomes action without becoming certainty. Elenia trusts Mya while refusing to treat trust in one god as proof that divine power is morally flawless.",
+        evidence: "Their encounters and invocations are established; exact divisions of divine and mortal action remain incomplete.",
+        article: "mya"
+      },
+      {
+        id: "nienna",
+        title: "Nienna",
+        subtitle: "Sisterhood carried beyond death",
+        category: "bond",
+        strength: 3,
+        x: 84, y: 42,
+        direction: "mutual",
+        relation: "Loss transformed into protective practice",
+        history: "Nienna is sister in feeling, survivor of shame, and the person whose final self-chosen sacrifice refuses the idea that retreat made her a coward.",
+        consequence: "Elenia carries Nienna into later decisions: Death Ward, her response to Aria’s fear of attachment, and her insistence that love can create vulnerability without becoming a mistake.",
+        evidence: "The sisterhood and sacrifice are established; parts of their earliest shared history remain missing.",
+        article: "nienna"
+      },
+      {
+        id: "adelia",
+        title: "Adelia & Hope",
+        subtitle: "Shared restoration, diverging paths",
+        category: "bond",
+        strength: 3,
+        x: 80, y: 73,
+        direction: "mutual",
+        relation: "Miraculous care made communal",
+        history: "Elenia and Adelia help establish or prove an early living foothold in Gael, then leave together before their later paths diverge. Both become examples of extraordinary power tied to caretaking.",
+        consequence: "Adelia’s later transformation expands restoration rather than replacing the earlier communal labor. Their complete divergence after Gael remains an open history.",
+        evidence: "Shared Gael work and departure are established; the later relationship is incomplete.",
+        article: "adelia-hope"
+      },
+      {
+        id: "quake",
+        title: "Quake",
+        subtitle: "Protection returned through time",
+        category: "bond",
+        strength: 2,
+        x: 58, y: 90,
+        direction: "mutual",
+        relation: "An old rescue becomes future care",
+        history: "Quake earlier saves Elenia and Nienna. On 18 July 2024, Elenia answers that remembered aid by placing Death Ward on Quake.",
+        consequence: "The relationship is one of the Codex’s cleanest causal chains: care remains available because somebody remembered receiving it.",
+        evidence: "The returned protection is established; the exact earlier rescue remains incompletely recovered.",
+        article: "quake"
+      },
+      {
+        id: "magnus",
+        title: "Magnus Niriin",
+        subtitle: "Mercy without innocence",
+        category: "conflict",
+        strength: 3,
+        x: 31, y: 87,
+        direction: "mutual",
+        relation: "Refusal to kill becomes bodily domination",
+        history: "Elenia wins a duel framed around who was right and refuses to kill Magnus. She instead uses overwhelming divine magic to remove or erase his face.",
+        consequence: "Her restraint does not make the act gentle. The confrontation leads to exile and exposes the central danger in her care: capability becoming permission to choose another person’s salvation or punishment.",
+        evidence: "The duel, alteration, and exile verdict are established; some precise mechanics remain unresolved.",
+        article: "magnus"
+      },
+      {
+        id: "aria",
+        title: "Aria / Pride",
+        subtitle: "Fear understood, ownership refused",
+        category: "conflict",
+        strength: 2,
+        x: 16, y: 68,
+        direction: "mutual",
+        relation: "Attachment as the disputed premise",
+        history: "Elenia uses her love for Nienna to understand Aria’s fear that attachment creates vulnerability. She refuses the conclusion that safety requires domination or escape from dependence.",
+        consequence: "The relationship proves that understanding an enemy’s wound need not become obedience, agreement, or absolution.",
+        evidence: "The philosophical encounter is established; a full personal chronology is not.",
+        article: "aria-pride"
+      },
+      {
+        id: "eugene",
+        title: "Eugene",
+        subtitle: "Ordinary investment beside miracles",
+        category: "bond",
+        strength: 1,
+        x: 16, y: 39,
+        direction: "toward",
+        relation: "Great power notices a small need",
+        history: "Elenia obtains ink for Eugene’s spellbook while carrying far larger divine and political burdens. She materially supports the learning of someone who often doubts his own worth.",
+        consequence: "The errand keeps her history grounded. The measure of divine-scale power includes whether an individual’s ordinary need remains visible from that height.",
+        evidence: "The ink errand is established; the broader friendship is only partly recovered.",
+        article: "eugene"
+      },
+      {
+        id: "gartina",
+        title: "Gartina",
+        subtitle: "Possibility made durable",
+        category: "bond",
+        strength: 2,
+        x: 22, y: 15,
+        direction: "mutual",
+        relation: "Miracle followed by maintenance",
+        history: "Their histories meet in Gael’s first restoration, the assault on Wrath, and the remembered effort to call Elenia back after catastrophic injury.",
+        consequence: "Elenia creates openings at miraculous scale; Gartina stays to make survival ecological, practical, and durable. Neither form of care replaces the other.",
+        evidence: "Shared events are established; exact divisions of labor remain incomplete.",
+        article: "gartina"
+      },
+      {
+        id: "zarathis",
+        title: "Zarathis",
+        subtitle: "People, law, exile, open door",
+        category: "politics",
+        strength: 3,
+        x: 34, y: 31,
+        direction: "mutual",
+        relation: "Accountability without permanent exclusion",
+        history: "Elenia seeks to kindle faith among Zarathians, intervenes at extraordinary scale, and accepts responsibility after altering Magnus. Bowene orders exile rather than permanent banishment.",
+        consequence: "A sending stone and promise of continued work preserve political relationship across punishment. Her departure changes the region without declaring either side finished with the other.",
+        evidence: "The 22 December verdict is established; the long-term legal and cultural consequences remain open.",
+        article: "zarathis"
+      }
+    ],
+    insights: [
+      { label: "Foundational bond", value: "Nienna", note: "Sisterhood and loss remain active in Elenia’s later choices." },
+      { label: "Divine method", value: "Mya’s Hope", note: "Wonder becomes action without pretending uncertainty has vanished." },
+      { label: "Greatest failure", value: "Magnus", note: "Refusing death did not make imposed bodily transformation morally innocent." },
+      { label: "Living question", value: "Caretaker or owner?", note: "Increasing ability keeps testing whether help preserves choice." }
+    ]
+  },
+  gartina: {
+    title: "Gartina’s relationship web",
+    intro: "Gartina’s relationships show care becoming food, knowledge, shelter, restoration, and preparation. Select a tie to see where competence sustains people—and where it becomes arrogance or impossible self-blame.",
+    center: { title: "Gartina", subtitle: "Care made competent" },
+    filters: [
+      { id: "all", label: "All ties" },
+      { id: "bond", label: "Care & belonging" },
+      { id: "power", label: "Stewardship & knowledge" },
+      { id: "conflict", label: "Disagreement & distrust" },
+      { id: "politics", label: "Community & continuity" }
+    ],
+    nodes: [
+      {
+        id: "parents",
+        title: "Her parents",
+        subtitle: "Attention as a model of love",
+        category: "bond",
+        strength: 3,
+        x: 50, y: 8,
+        direction: "toward",
+        relation: "Repeated presence teaches competent care",
+        history: "Gartina’s parents followed her work from poor restaurants toward greater ambition, repeatedly showing up, expressing pride, and wanting her to reach her potential.",
+        consequence: "Their pattern becomes her philosophy: attention creates curiosity; curiosity produces knowledge; knowledge lets support become competent rather than careless.",
+        evidence: "The remembered pattern is established; their names, deaths, and full family history remain unresolved.",
+        article: "gartina"
+      },
+      {
+        id: "jiangshi",
+        title: "Jiangshi",
+        subtitle: "Presence beyond explanation",
+        category: "bond",
+        strength: 3,
+        x: 76, y: 17,
+        direction: "mutual",
+        relation: "Care demonstrated rather than argued",
+        history: "In the Zarathis garden debate, Jiangshi distinguishes being sustained by nature from being consciously loved by another person. When Gartina becomes vulnerable about her parents, Jiangshi simply places a hand on her shoulder.",
+        consequence: "The gesture gives Gartina a form of care that does not need to win an argument or provide a causal theory before it can be real.",
+        evidence: "The garden exchange is directly preserved; their wider friendship remains partly recovered.",
+        article: "jiangshi"
+      },
+      {
+        id: "tulaine",
+        title: "Tulaine",
+        subtitle: "Embodied stewardship challenged",
+        category: "conflict",
+        strength: 2,
+        x: 84, y: 42,
+        direction: "mutual",
+        relation: "Explicit code meets practiced intuition",
+        history: "Gartina demands that caretakers name what they favor and why. Tulaine trusts patience, instinct, faith, and hands-on practice that may resist Gartina’s preferred causal language.",
+        consequence: "Neither method simply defeats the other. Gartina exposes hidden choices inside stewardship; Tulaine exposes knowledge that can be competent without explaining itself in Gartina’s terms.",
+        evidence: "The debate is established; neither philosophy is declared objectively complete.",
+        article: "zarathis"
+      },
+      {
+        id: "dale",
+        title: "Dale",
+        subtitle: "Relief becomes settlement",
+        category: "politics",
+        strength: 2,
+        x: 80, y: 73,
+        direction: "mutual",
+        relation: "Practical partnership corrected by consultation",
+        history: "Gartina and Dale make soup for Gael’s refugees, acquire bowls and spoons, consider salvaged housing, and move from emergency care toward permanent settlement.",
+        consequence: "Dale asks whether anyone consulted the refugees. Gartina accepts the correction: feeding and planning for people do not grant ownership of their future.",
+        evidence: "The relief and consultation sequence is established; the settlement’s later outcome remains incomplete.",
+        article: "dale"
+      },
+      {
+        id: "draygar",
+        title: "Draygar WarSmash",
+        subtitle: "Love beyond catastrophe",
+        category: "bond",
+        strength: 3,
+        x: 58, y: 90,
+        direction: "mutual",
+        relation: "Domestic trust beside martial history",
+        history: "Their relationship grows through consultation, food, domestic life, and Draygar’s willingness to seek Gartina’s judgment. Later language identifies her as his love.",
+        consequence: "The bond keeps both characters from becoming only functions—warrior and caretaker—and places an ordinary shared future beside world-scale danger.",
+        evidence: "The romance and later intimacy are established; its beginning and full chronology remain incomplete.",
+        article: "draygar-warsmash"
+      },
+      {
+        id: "olokun",
+        title: "Olokun",
+        subtitle: "Ordinary attention, impossible guilt",
+        category: "bond",
+        strength: 3,
+        x: 31, y: 87,
+        direction: "mutual",
+        relation: "Preparation becomes self-blame after loss",
+        history: "Gartina prepares coffee specifically for Olo, remembers tactical patterns around him, and later carries the belief that she should have foreseen the choices contributing to his death.",
+        consequence: "The relationship exposes the shadow of competence: careful love can become a false promise that nobody important will be lost if she prepares well enough.",
+        evidence: "The pattern and self-blame are established; the complete later death sequence remains unresolved.",
+        article: "olokun"
+      },
+      {
+        id: "elenia",
+        title: "Elenia",
+        subtitle: "Miracle and maintenance",
+        category: "power",
+        strength: 2,
+        x: 16, y: 68,
+        direction: "mutual",
+        relation: "Different scales of restoration",
+        history: "Elenia helps create miraculous possibility in Gael; Gartina reads soil, seeds, pollination, shelter, and the work required to make that possibility survive tomorrow.",
+        consequence: "Their histories resist solitary-hero mythology. World-changing intervention and sustained ecological labor are complementary forms of care.",
+        evidence: "The shared restoration context is established; exact individual contributions remain partly unresolved.",
+        article: "elenia"
+      },
+      {
+        id: "adelia",
+        title: "Adelia & Hope",
+        subtitle: "Attention before and after departure",
+        category: "power",
+        strength: 2,
+        x: 16, y: 39,
+        direction: "mutual",
+        relation: "Restoration continues after the miracle leaves",
+        history: "Gartina notices Adelia’s state, shares the early living Gael context, and remains after Adelia departs. Adelia’s later transformation expands a restoration already maintained by many hands.",
+        consequence: "Neither divine transformation nor early practical labor erases the other. Hope survives as accumulated relationship rather than individual authorship.",
+        evidence: "The broad sequence is established; intermediate chronology remains incomplete.",
+        article: "adelia-hope"
+      },
+      {
+        id: "nienna",
+        title: "Nienna",
+        subtitle: "Retreat defended as moral choice",
+        category: "bond",
+        strength: 2,
+        x: 22, y: 15,
+        direction: "toward",
+        relation: "Survival protected from heroic shame",
+        history: "After Jiangshi is lost, Gartina rejects the claim that Nienna should have returned to an impossible rescue. Another body would not have restored the first.",
+        consequence: "Nienna’s later self-chosen sacrifice does not rewrite retreat as cowardice. Gartina preserves the distinction between choosing one’s own cost and dying because a slogan forbids survival.",
+        evidence: "Gartina’s defense and Nienna’s later choice are established; some intervening scenes remain incomplete.",
+        article: "nienna"
+      },
+      {
+        id: "quake",
+        title: "Quake",
+        subtitle: "Shared estate, incomplete story",
+        category: "politics",
+        strength: 1,
+        x: 34, y: 31,
+        direction: "mutual",
+        relation: "A geographic bond awaiting biography",
+        history: "Pristinia’s map names Gartina and Quake’s Estate, giving their association a durable place in the settlement’s geography. Ada also remembers them as farming partners.",
+        consequence: "The location proves shared civic history while refusing to invent the private relationship behind its name.",
+        evidence: "The estate and public association are established; ownership, origin, and personal chronology remain unresolved.",
+        article: "quake"
+      },
+      {
+        id: "magnus",
+        title: "Magnus Niriin",
+        subtitle: "Distrust kept attributed",
+        category: "conflict",
+        strength: 1,
+        x: 67, y: 33,
+        direction: "toward",
+        relation: "A caretaker’s suspicion, not omniscient proof",
+        history: "Gartina regards Magnus’s claim to have changed after Pride’s death as transparently false and views parts of his political rise with suspicion.",
+        consequence: "Her judgment matters because it shapes trust and future preparation. It remains testimony rather than an automatic verdict on every hidden motive.",
+        evidence: "Gartina’s distrust is established; the Codex does not promote it to objective omniscience.",
+        article: "magnus"
+      }
+    ],
+    insights: [
+      { label: "Original model", value: "Her parents", note: "Love begins as repeated attention to another person’s growth." },
+      { label: "Best correction", value: "Dale’s question", note: "Competent help still has to ask what people want." },
+      { label: "Greatest vulnerability", value: "Olokun’s loss", note: "Preparation breaks into the belief that she should have prevented everything." },
+      { label: "Open bond", value: "Gartina & Quake’s Estate", note: "The shared place is known; the relationship behind it is not." }
+    ]
+  },
+  olokun: {
+    title: "Olokun’s relationship web",
+    intro: "Olokun becomes philosophical because people matter to him first. Select a relationship to trace belonging, attachment, conflicting loyalties, triage, loss, death, and the continuing test of protection without ownership.",
+    center: { title: "Olokun", subtitle: "Protection without ownership" },
+    filters: [
+      { id: "all", label: "All ties" },
+      { id: "bond", label: "Love & chosen family" },
+      { id: "power", label: "Life, death & sacrifice" },
+      { id: "conflict", label: "Conflict & impossible choice" },
+      { id: "politics", label: "Belonging & conscience" }
+    ],
+    nodes: [
+      {
+        id: "aria",
+        title: "Aria / Pride",
+        subtitle: "Enemy, person, attachment",
+        category: "bond",
+        strength: 3,
+        x: 50, y: 8,
+        direction: "mutual",
+        relation: "Understanding without surrender",
+        history: "Their history moves from hostility through repeated contact, teasing, attraction, dance, vulnerability, and attachment. Olo sees the frightened person beneath Pride without forgetting her coercion and cruelty.",
+        consequence: "Their central disagreement concerns sacrifice: Aria accepts suffering imposed for the future she wants; Olo answers, ‘My pain. Not everyone’s.’ Her death leaves both grief and argument unfinished.",
+        evidence: "The relationship arc and disagreement are established; parts of the chronology remain incomplete.",
+        article: "aria-pride"
+      },
+      {
+        id: "arjahn",
+        title: "Arjahn",
+        subtitle: "Gift returned as life",
+        category: "bond",
+        strength: 3,
+        x: 76, y: 17,
+        direction: "mutual",
+        relation: "Empowerment makes rescue possible",
+        history: "Olo gives Arjahn the Scepter of Faith. After Abyss commands Olo to die, Arjahn uses that retained gift to resurrect him.",
+        consequence: "The causal chain—gift, relationship, death, another person’s choice, return—proves that survival can depend on having empowered somebody else. Later fear still makes Olo lash out at Arjahn.",
+        evidence: "Gift and resurrection are established; the original transfer’s full context remains incomplete.",
+        article: "arjahn"
+      },
+      {
+        id: "rahu",
+        title: "The Rahu",
+        subtitle: "Belonging with retained conscience",
+        category: "politics",
+        strength: 3,
+        x: 84, y: 42,
+        direction: "mutual",
+        relation: "Oath, secrecy, kinship, disagreement",
+        history: "Becoming Rahu gives Olo power, knowledge, obligations, and relationships. A protected Delerium truth immediately places his oath against his desire to help friends discover the answer.",
+        consequence: "He refuses both easy betrayal and surrendered judgment. Belonging becomes morally serious precisely because it does not erase other loyalties.",
+        evidence: "Initiation and oath consequences are established; many individual Rahu relationships remain incomplete.",
+        article: "casimir-alioth"
+      },
+      {
+        id: "wren",
+        title: "Wren",
+        subtitle: "The person he chose",
+        category: "conflict",
+        strength: 3,
+        x: 80, y: 73,
+        direction: "toward",
+        relation: "Triage without a clean moral victory",
+        history: "In the Abyss confrontation, Olo must choose between Wren and Aravil. He chooses Wren; the archive refuses to declare the choice correct merely because she survives.",
+        consequence: "The decision destroys the fantasy that care and strength can always save everyone. Wren’s survival remains bound to the person not chosen.",
+        evidence: "The choice is established; its full circumstances and later relational aftermath remain incomplete.",
+        article: "wren"
+      },
+      {
+        id: "aravil",
+        title: "Aravil",
+        subtitle: "The person he could not save",
+        category: "conflict",
+        strength: 3,
+        x: 58, y: 90,
+        direction: "toward",
+        relation: "Absence preserved as consequence",
+        history: "When Olo chooses Wren, Aravil is taken as a trophy. His later death and return do not retroactively make the original triage harmless or inevitable.",
+        consequence: "Aravil becomes the enduring cost inside Olo’s protector identity: a person he loved did not become less real because the choice was impossible.",
+        evidence: "The taking is established; the full choice mechanics and later reconciliation remain open.",
+        article: "aravil"
+      },
+      {
+        id: "abyss",
+        title: "Kurayami / Abyss",
+        subtitle: "Power that commands death",
+        category: "power",
+        strength: 3,
+        x: 31, y: 87,
+        direction: "toward",
+        relation: "Personhood reduced to obedience",
+        history: "After forcing the Wren–Aravil choice, Abyss commands, ‘Olokun. Die.’ Olo dies. The act is domination in its most compressed form: another will treats his life as an executable instruction.",
+        consequence: "Resurrection answers the command without erasing its terror or the choice preceding it. Olo returns because another relationship intervenes.",
+        evidence: "The command, death, and resurrection are established; parts of the confrontation remain unrecovered.",
+        article: "kurayami"
+      },
+      {
+        id: "papirak",
+        title: "Papirak",
+        subtitle: "Sweet gramps and living history",
+        category: "bond",
+        strength: 2,
+        x: 16, y: 68,
+        direction: "mutual",
+        relation: "Chosen family becomes historical memory",
+        history: "Olo calls Papirak ‘sweet gramps’ and carries memories of Papirak, Wish, and divine intervention into later expeditions. Papirak is both beloved person and irreplaceable historical witness.",
+        consequence: "His death becomes grief and an archival crisis. Olo’s recollection remains valuable even where Scribonia must correct the exact magical mechanism.",
+        evidence: "The affection and remembered history are established; Olo’s account is not treated as mechanically infallible.",
+        article: "papirak-legacy"
+      },
+      {
+        id: "magnus",
+        title: "Magnus Niriin",
+        subtitle: "Danger without disposability",
+        category: "conflict",
+        strength: 2,
+        x: 16, y: 39,
+        direction: "mutual",
+        relation: "Restraint without abandonment",
+        history: "Olo distrusts Magnus and recognizes the danger around him, yet resists the conclusion that a misguided person may simply be discarded or killed once inconvenient.",
+        consequence: "His position keeps judgment from becoming dehumanization. It also tests whether refusing to abandon someone can become another attempt to control them.",
+        evidence: "Olokun’s stated position is established; later trust remains unresolved.",
+        article: "magnus"
+      },
+      {
+        id: "gartina",
+        title: "Gartina",
+        subtitle: "Coffee, tactics, grief",
+        category: "bond",
+        strength: 2,
+        x: 22, y: 15,
+        direction: "mutual",
+        relation: "Ordinary care beside mortal stakes",
+        history: "Gartina prepares coffee specifically for Olo and remembers the tactical patterns surrounding danger to him. Her later self-blame shows how deeply his survival mattered.",
+        consequence: "The relationship joins small attentions to an impossible question: whether anyone can prepare well enough to guarantee that another person returns.",
+        evidence: "The care and later guilt are established; the full chronology remains incomplete.",
+        article: "gartina"
+      },
+      {
+        id: "elenia",
+        title: "Elenia",
+        subtitle: "Standing together through exile",
+        category: "politics",
+        strength: 2,
+        x: 34, y: 31,
+        direction: "mutual",
+        relation: "Support under public judgment",
+        history: "During the 22 December verdict, Olo stands with Elenia while Magnus and Adelia support exile. He then leaves Zarathis with her and Aravil through the Shining Shores.",
+        consequence: "The act makes loyalty political without erasing disagreement. Their departure preserves companionship while accepting that the region’s judgment has material force.",
+        evidence: "The vote and departure are established; the broader friendship remains incompletely documented.",
+        article: "elenia"
+      }
+    ],
+    insights: [
+      { label: "Defining relationship", value: "Aria", note: "Attachment and disagreement remain true at the same time." },
+      { label: "Life returned", value: "Arjahn’s choice", note: "An old gift becomes the practical cause of resurrection." },
+      { label: "Permanent cost", value: "Wren and Aravil", note: "Triage preserves one life without making the other expendable." },
+      { label: "Central danger", value: "Protection becoming control", note: "Refusing abandonment can become ownership if another person’s agency disappears." }
+    ]
+  },
+  wren: {
+    title: "Wren’s relationship web",
+    intro: "Wren reads people as attentively as she reads root, weather, and stone. Select a tie to see how care becomes courage—and how responsibility for everyone can become self-erasure.",
+    center: { title: "Wren", subtitle: "The world felt through relationship" },
+    filters: [
+      { id: "all", label: "All ties" },
+      { id: "bond", label: "Love & belonging" },
+      { id: "power", label: "Nature & sacrifice" },
+      { id: "conflict", label: "Fear & impossible choice" },
+      { id: "politics", label: "Community & memory" }
+    ],
+    nodes: [
+      {
+        id: "vaemyr", title: "Vaemyr", subtitle: "Anchor and moral counterweight", category: "bond", strength: 3, x: 50, y: 8, direction: "mutual",
+        relation: "Love tested by solitary sacrifice",
+        history: "Wren cannot stand by while people she loves die and repeatedly offers more of herself to save them. Vaemyr hears her universal responsibility as another form of abandonment: she promised they would fight together, yet tries to stand alone when everyone is threatened.",
+        consequence: "Their conflict asks Wren to let the person beside her share both risk and choice. Vaemyr does not make her care smaller; he challenges the belief that loving everyone requires erasing herself.",
+        evidence: "The bond and central disagreement are established; its full chronology remains incomplete.", article: "vaemyr"
+      },
+      {
+        id: "olokun", title: "Olokun", subtitle: "The life chosen in an impossible choice", category: "conflict", strength: 3, x: 78, y: 20, direction: "toward",
+        relation: "Survival carrying another person’s cost",
+        history: "When Kurayami forces Olokun to choose between Wren and Aravil, he chooses Wren. The archive does not turn her survival into proof that the decision was morally clean.",
+        consequence: "Wren’s continued life becomes inseparable from Aravil’s taking and from Olo’s burden of triage. Later return cannot retroactively make the original cost unreal.",
+        evidence: "The choice and its immediate result are established; Wren’s private response remains incompletely recovered.", article: "olokun"
+      },
+      {
+        id: "aravil", title: "Aravil", subtitle: "The person not chosen", category: "conflict", strength: 3, x: 82, y: 63, direction: "toward",
+        relation: "Absence inside survival",
+        history: "Aravil is taken as a trophy when Olokun chooses Wren. His loss prevents the rescue from becoming a simple story in which care and strength save everybody.",
+        consequence: "Aravil remains the absent third person inside Wren and Olo’s survival. His later history does not erase what the forced choice did to the company.",
+        evidence: "The taking is established; the later relational aftermath remains open.", article: "aravil"
+      },
+      {
+        id: "dale", title: "Dale", subtitle: "Grief that immediately becomes action", category: "bond", strength: 2, x: 60, y: 90, direction: "mutual",
+        relation: "Ordinary affection revealed by loss",
+        history: "When Dale falls during the Wrath catastrophe, Wren cries and immediately heals Arjahn because the company cannot afford another death. Dale’s later reappearance shocks her because she has already begun carrying him as one of the dead.",
+        consequence: "Their tie shows how ordinary companionship becomes historical weight. Wren’s grief does not suspend her care for the people still reachable.",
+        evidence: "The battle reaction and later shock are established; their wider friendship is only partly recovered.", article: "dale"
+      },
+      {
+        id: "gartina", title: "Gartina", subtitle: "A missing friend and remembered danger", category: "politics", strength: 2, x: 28, y: 86, direction: "mutual",
+        relation: "Community remembered through the body",
+        history: "Gartina’s disappearance sends Wren back through places and signs associated with Wrath. Present uncertainty activates earlier trauma because Gartina already belongs to the future Wren imagines for the group.",
+        consequence: "Searching becomes both rescue and confrontation with memory. Wren’s community is not an abstraction; every missing person changes how the landscape feels.",
+        evidence: "The search and trauma pattern are established; some connecting scenes remain incomplete.", article: "gartina"
+      },
+      {
+        id: "arjahn", title: "Arjahn", subtitle: "Her knowledge made shareable", category: "politics", strength: 2, x: 16, y: 50, direction: "mutual",
+        relation: "Communion translated into protection",
+        history: "Wren gathers information from the living landscape. Arjahn asks who will map what she learns and offers magic to improve the work rather than competing for ownership of the discovery.",
+        consequence: "Their collaboration converts private perception into a route the whole party can use. Knowledge becomes protective when it is preserved and shared.",
+        evidence: "The mapping exchange is directly preserved; their broader field history remains partial.", article: "arjahn"
+      },
+      {
+        id: "jiangshi", title: "Jiangshi", subtitle: "Grief inherited through other people’s love", category: "bond", strength: 2, x: 22, y: 18, direction: "toward",
+        relation: "Another person matters because she matters to others",
+        history: "Wren grieves Jiangshi despite not knowing her closely. She remembers recovering Jiangshi’s body before and understands the place Jiangshi holds in Adelia, Gartina, and the wider company.",
+        consequence: "The bond demonstrates Wren’s relational imagination: intimacy is not required before another life’s danger becomes morally real.",
+        evidence: "Wren’s grief and recovered-body memory are established; direct intimacy between them is not.", article: "jiangshi"
+      }
+    ],
+    insights: [
+      { label: "Central bond", value: "Vaemyr", note: "Love asks her to share danger instead of disappearing into it." },
+      { label: "Permanent cost", value: "Wren, Olokun & Aravil", note: "One saved life does not make the unchosen life expendable." },
+      { label: "Characteristic gift", value: "Relational attention", note: "She reads landscapes, people, and grief as connected information." },
+      { label: "Central danger", value: "Self-erasure", note: "Responsibility for everyone can deny others the chance to stand beside her." }
+    ]
+  },
+  eugene: {
+    title: "Eugene’s relationship web",
+    intro: "Eugene’s relationships repeatedly place trust beside self-doubt. Select a tie to see how teachers, companions, dangerous knowledge, and uncertain enemies test whether he can accept responsibility without believing he is a burden.",
+    center: { title: "Eugene", subtitle: "The reluctant bearer" },
+    filters: [
+      { id: "all", label: "All ties" }, { id: "bond", label: "Trust & mentorship" },
+      { id: "power", label: "Knowledge & danger" }, { id: "conflict", label: "Doubt & uncertainty" },
+      { id: "politics", label: "Witness & community" }
+    ],
+    nodes: [
+      {
+        id: "scribonia", title: "Scribonia", subtitle: "Mentor who releases ownership", category: "bond", strength: 3, x: 50, y: 8, direction: "mutual",
+        relation: "Teaching that survives a boundary",
+        history: "Scribonia recognizes Eugene’s brilliance, teaches him, and feels envy when a Delerium-channeling weapon chooses Eugene. He nevertheless says Eugene no longer owes his former teacher an explanation for every part of his life.",
+        consequence: "Their bond separates influence from ownership. Eugene can carry knowledge shaped by Scribonia without becoming an extension of Scribonia’s authority.",
+        evidence: "Mentorship, envy, and the stated boundary are established; the complete teaching chronology remains incomplete.", article: "scribonia"
+      },
+      {
+        id: "delerium", title: "The Delerium weapon", subtitle: "Trust without an explanation", category: "power", strength: 3, x: 80, y: 25, direction: "toward",
+        relation: "Dangerous capability tests self-worth",
+        history: "A weapon capable of channeling Delerium appears in Eugene’s cloak. He does not experience the selection as triumph; he questions what he did to be considered worthy.",
+        consequence: "The weapon makes his private self-doubt a public responsibility. Competence is no longer something he can dismiss when other people may depend on how he carries it.",
+        evidence: "The weapon and Eugene’s response are established; who placed it and why remain unresolved.", article: "delerium"
+      },
+      {
+        id: "elenia", title: "Elenia", subtitle: "Material investment in his future", category: "bond", strength: 2, x: 82, y: 69, direction: "toward",
+        relation: "Trust expressed through capability",
+        history: "Elenia materially invests in Eugene’s spellbook, giving him greater capacity rather than merely assuring him that he is useful.",
+        consequence: "Her support turns confidence into something Eugene must practice. The gift does not prove he will never fail; it demonstrates that another person considers his future work worth enabling.",
+        evidence: "The spellbook investment is established; their broader relationship is only partly recovered.", article: "elenia"
+      },
+      {
+        id: "olokun", title: "Olokun", subtitle: "A carrier of hidden history", category: "politics", strength: 2, x: 58, y: 90, direction: "mutual",
+        relation: "Questions turn memory into usable knowledge",
+        history: "Olokun tells Eugene about time travel with Aionia, the world map, younger Cala and Nuru, the Gate, and Papirak’s Wish. Eugene receives lived testimony whose exact mechanics still require comparison with other witnesses.",
+        consequence: "The exchange places Eugene between memory and scholarship. His value lies not in accepting or rejecting the account wholesale, but in asking what can responsibly be carried forward.",
+        evidence: "Olokun’s account to Eugene is established; some recalled mechanics are later corrected.", article: "olokun"
+      },
+      {
+        id: "magnus", title: "Magnus Niriin", subtitle: "Care before certainty", category: "conflict", strength: 2, x: 22, y: 68, direction: "toward",
+        relation: "Useful action amid collapsing trust",
+        history: "After Aria’s death and Death’s invocation of ownership over Magnus, Eugene attempts to heal Magnus while the company’s trust in him is breaking apart.",
+        consequence: "Healing does not become endorsement. Eugene acts on the immediate need before the room possesses a final moral judgment about the person in front of him.",
+        evidence: "The healing attempt is established; it does not prove Eugene’s final view of Magnus.", article: "magnus"
+      },
+      {
+        id: "shy-newcomer", title: "A shy newcomer", subtitle: "Recognition turned outward", category: "bond", strength: 1, x: 18, y: 30, direction: "toward",
+        relation: "Insecurity becomes social perception",
+        history: "Eugene recognizes another shy person’s discomfort because he recognizes the pattern in himself. His own fear becomes a way of noticing rather than only a reason to withdraw.",
+        consequence: "The scene offers a small but important form of growth: self-knowledge becomes hospitality when it helps another person feel seen.",
+        evidence: "The recognition is established; the newcomer’s identity and later relationship remain incomplete.", article: "eugene"
+      }
+    ],
+    insights: [
+      { label: "Defining mentor", value: "Scribonia", note: "A teacher’s influence survives without ownership." },
+      { label: "Greatest trust", value: "The Delerium weapon", note: "Dangerous capability arrives before Eugene feels worthy of it." },
+      { label: "Characteristic strength", value: "The useful question", note: "He doubts himself, then asks what the room needs." },
+      { label: "Living question", value: "Can he accept being trusted?", note: "Responsibility cannot remain somebody else’s mistaken opinion forever." }
+    ]
+  },
+  dale: {
+    title: "Dale’s relationship web",
+    intro: "Dale’s importance accumulates through meals, jokes, weddings, rescues, and immediate loyalty. Select a tie to see how ordinary affection becomes part of the world’s history.",
+    center: { title: "Dale", subtitle: "Ordinary continuity made consequential" },
+    filters: [
+      { id: "all", label: "All ties" }, { id: "bond", label: "Friends & family" },
+      { id: "power", label: "Loss & survival" }, { id: "conflict", label: "Danger & rescue" },
+      { id: "politics", label: "Community & settlement" }
+    ],
+    nodes: [
+      {
+        id: "nienna", title: "Nienna", subtitle: "Goodbye to sweet Dale", category: "power", strength: 3, x: 50, y: 8, direction: "mutual",
+        relation: "Courage admired without romanticizing death",
+        history: "Dale sings courage into the defenders around Hope and witnesses Nienna’s final sacrifice. She says goodbye to ‘sweet Dale’; he calls her foolish and brave.",
+        consequence: "His response preserves affection, admiration, and unease together. Love does not require him to pretend that her death was simple or painless.",
+        evidence: "The farewell and Dale’s reply are directly preserved.", article: "nienna"
+      },
+      {
+        id: "saray", title: "Saray", subtitle: "Care without seizing her grief", category: "bond", strength: 3, x: 78, y: 20, direction: "toward",
+        relation: "Support that respects internal change",
+        history: "After Nienna’s death, Saray blames herself. Dale remains beside her and tells Adelia that Saray must reach for herself the realization that nothing could have been done.",
+        consequence: "He refuses both abandonment and forced reassurance. His care recognizes that closeness does not give him control over another person’s grief.",
+        evidence: "Saray’s guilt and Dale’s support are established; their wider chronology remains partial.", article: "saray"
+      },
+      {
+        id: "gartina", title: "Gartina", subtitle: "Cake, relief work, and rescue", category: "bond", strength: 3, x: 82, y: 65, direction: "mutual",
+        relation: "Mundane history becomes an identity test",
+        history: "Gartina makes the cake for Dale’s wedding and later works beside him feeding Gael’s refugees. Impostors use those memories because the ordinary history is credible enough to test belonging.",
+        consequence: "When Gartina is taken, Dale’s response is immediate: rescue her. Their relationship proves that shared domestic and civic life can carry as much historical weight as a battlefield oath.",
+        evidence: "Wedding, cake, Gael work, and rescue response are established; the full friendship remains incomplete.", article: "gartina"
+      },
+      {
+        id: "arjahn", title: "Arjahn", subtitle: "Desperation after Dale falls", category: "conflict", strength: 2, x: 58, y: 90, direction: "toward",
+        relation: "Loss reveals accumulated affection",
+        history: "Dale’s apparent death drives Arjahn toward an extraordinarily dangerous rescue and then toward anger at Bahamut when divine aid does not come.",
+        consequence: "Arjahn’s response measures Dale’s social importance more clearly than any formal rank. Ordinary companionship has become something he cannot accept losing quietly.",
+        evidence: "The grief and rescue response are established; every step of Dale’s recovery remains incomplete.", article: "arjahn"
+      },
+      {
+        id: "wren", title: "Wren", subtitle: "Tears, healing, and remembered death", category: "bond", strength: 2, x: 24, y: 72, direction: "mutual",
+        relation: "Grief carried while another life is saved",
+        history: "Wren cries when Dale falls and immediately heals Arjahn. Dale’s later reappearance shocks her because she has already started carrying him as one of the dead.",
+        consequence: "The bond joins grief to continued action. Dale matters not because he dominates the scene, but because the group’s imagined future already includes him.",
+        evidence: "Wren’s reactions are established; the broader friendship remains partly recovered.", article: "wren"
+      },
+      {
+        id: "gael-refugees", title: "Gael’s refugees", subtitle: "People, not a logistics problem", category: "politics", strength: 2, x: 18, y: 30, direction: "toward",
+        relation: "Relief corrected by consultation",
+        history: "Dale helps provide soup, bowls, spoons, lumber, and shelter, then asks whether anyone has actually consulted the displaced people about permanent settlement.",
+        consequence: "The question limits benevolent ownership. Caring for people’s survival does not grant the company authority to decide their future without them.",
+        evidence: "The relief work and consultation question are established; the settlement’s later outcome remains incomplete.", article: "gael"
+      }
+    ],
+    insights: [
+      { label: "Foundational farewell", value: "Nienna", note: "Bravery and foolishness can remain true together." },
+      { label: "Deepest social proof", value: "The company’s grief", note: "Other people reveal how much ordinary life had formed around him." },
+      { label: "Best correction", value: "Ask the refugees", note: "Practical care still has to respect another person’s future." },
+      { label: "Character method", value: "Immediate loyalty", note: "When a friend is endangered, help the friend." }
+    ]
+  },
+  "adelia-hope": {
+    title: "Adelia & Hope’s relationship web",
+    intro: "Adelia’s life moves through loss, chosen family, restoration, betrayal, and transformation. Select a tie to see why becoming part of Hope is the culmination of relationships rather than a solitary ascension.",
+    center: { title: "Adelia & Hope", subtitle: "The protector becoming what she protects" },
+    filters: [
+      { id: "all", label: "All ties" }, { id: "bond", label: "Love & chosen family" },
+      { id: "power", label: "Faith & transformation" }, { id: "conflict", label: "Trust & betrayal" },
+      { id: "politics", label: "Community & consequence" }
+    ],
+    nodes: [
+      {
+        id: "jiangshi", title: "Jiangshi", subtitle: "Loss, return, and chosen presence", category: "bond", strength: 3, x: 50, y: 8, direction: "mutual",
+        relation: "Fear shaped by having already lost one another",
+        history: "Jiangshi’s death in Gael continues altering Adelia during the seven and a half months of absence. After returning, Jiangshi’s fear of losing Adelia is rooted in a world that already continued without her once.",
+        consequence: "Their bond gives Adelia’s later transformation a human scale. Becoming part of Hope does not erase the person Jiangshi is afraid to lose.",
+        evidence: "Loss, return, and mutual importance are established; the full intimate chronology remains incomplete.", article: "jiangshi"
+      },
+      {
+        id: "hope", title: "Hope", subtitle: "Living legacy and transformed existence", category: "power", strength: 3, x: 80, y: 24, direction: "mutual",
+        relation: "Protection becomes inseparability",
+        history: "Adelia’s affection for Hope begins before ascension. After Magnus wounds the Tree Shard, Adelia gives herself to restore and save Hope, becoming more deeply bound to the life she protected.",
+        consequence: "The sacrifice creates the Spirit of Adelia state and expands her protective power, while making ordinary boundaries and consent harder to separate from the being she has become.",
+        evidence: "Sacrifice and Tree-linked transformation are established; exact mechanics and date remain incomplete.", article: "gael"
+      },
+      {
+        id: "nienna", title: "Nienna", subtitle: "The absent co-author of Hope", category: "bond", strength: 3, x: 82, y: 68, direction: "toward",
+        relation: "Legacy that survives the person",
+        history: "Nienna’s sacrifice and the Hallowing make Hope possible. Later language still names Nienna with Adelia and Elenia even after her death.",
+        consequence: "Adelia’s ascension cannot become solitary-hero mythology. The living result belongs partly to a person no longer present to claim it.",
+        evidence: "Nienna’s sacrifice and continuing association are established; some ritual mechanics remain incomplete.", article: "nienna"
+      },
+      {
+        id: "magnus", title: "Magnus Niriin", subtitle: "Mercy answered with rupture", category: "conflict", strength: 3, x: 58, y: 90, direction: "mutual",
+        relation: "A final restoration followed by betrayal",
+        history: "Adelia supports Magnus politically and later calls him her friend while using Divine Intervention to restore him at Hope. Minutes later he accepts Dumuzi’s gift and turns it against Hope.",
+        consequence: "Adelia’s trust becomes rupture and self-blame. Her guilt remains a consequence of the relationship, not proof that she caused the decision Magnus made after resurrection.",
+        evidence: "Resurrection, attack, and immediate response are directly observed; hidden preplanning remains unresolved.", article: "withering-of-hope"
+      },
+      {
+        id: "elenia", title: "Elenia", subtitle: "Shared beginnings, divergent judgments", category: "politics", strength: 2, x: 24, y: 72, direction: "mutual",
+        relation: "Restoration joined to political disagreement",
+        history: "Adelia and Elenia help establish an early living foothold in Gael and share history around Hope. They later stand differently in the political judgment surrounding Magnus and Zarathis.",
+        consequence: "Their relationship resists reducing either woman to a single vote. Shared restoration does not guarantee permanent agreement about justice, mercy, or risk.",
+        evidence: "Gael work and later political divergence are established; the complete interpersonal aftermath remains open.", article: "elenia"
+      },
+      {
+        id: "pappy", title: "Pappy", subtitle: "Protection after transformation", category: "power", strength: 2, x: 18, y: 30, direction: "toward",
+        relation: "Expanded awareness used as rescue",
+        history: "In the Rift era, Adelia senses danger and Gates Pappy away from an ambush. The rescue later becomes part of an out-of-character dispute over awareness and metagaming.",
+        consequence: "The in-world protection and governance dispute remain separate records. Neither layer is used to erase the other.",
+        evidence: "The rescue is established; disputed governance claims remain attributed to their own layer.", article: "pappy"
+      }
+    ],
+    insights: [
+      { label: "Central bond", value: "Jiangshi", note: "Transformation remains answerable to the person who fears losing Adelia." },
+      { label: "Living legacy", value: "Hope and Nienna", note: "No single person authors renewal alone." },
+      { label: "Greatest rupture", value: "Magnus", note: "A final act of trust is answered with harm to Hope." },
+      { label: "Central question", value: "Protector or protected?", note: "Adelia becomes increasingly inseparable from what she saves." }
+    ]
+  },
+  jiangshi: {
+    title: "Jiangshi’s relationship web",
+    intro: "Jiangshi understands care as consciously chosen presence: comfort offered without prying and love distinguished from mere protection. Select a tie to see how death, return, and memory deepen that philosophy.",
+    center: { title: "Jiangshi", subtitle: "Presence chosen after absence" },
+    filters: [
+      { id: "all", label: "All ties" }, { id: "bond", label: "Love & comfort" },
+      { id: "power", label: "Death & return" }, { id: "conflict", label: "Fear & sacrifice" },
+      { id: "politics", label: "Memory & community" }
+    ],
+    nodes: [
+      {
+        id: "adelia", title: "Adelia", subtitle: "The person she fears losing", category: "bond", strength: 3, x: 50, y: 8, direction: "mutual",
+        relation: "Chosen love after enforced absence",
+        history: "Jiangshi is lost in Gael and remains dead or absent for roughly seven and a half months. After returning, her fear of losing Adelia is shaped by knowing that the world and its relationships can continue without her.",
+        consequence: "Adelia’s later binding to Hope cannot be only a cosmic transformation. For Jiangshi, it is also the possible loss or alteration of a person she consciously chooses.",
+        evidence: "Loss, return, and fear are established; their full private chronology remains incomplete.", article: "adelia-hope"
+      },
+      {
+        id: "nienna", title: "Nienna", subtitle: "Survival burdened by Jiangshi’s loss", category: "conflict", strength: 3, x: 80, y: 24, direction: "toward",
+        relation: "Absence that changes another person’s moral memory",
+        history: "Jiangshi’s loss becomes central to Nienna’s crisis over retreat and cowardice. Nienna carries the question of whether survival abandoned someone who could not be saved.",
+        consequence: "Jiangshi’s later return does not retroactively make Nienna’s fear and guilt unreal. Absence has already acted upon the living.",
+        evidence: "The loss and its effect on Nienna are established; every step of the original Gael event remains incomplete.", article: "nienna"
+      },
+      {
+        id: "gartina", title: "Gartina", subtitle: "A hand instead of a rebuttal", category: "bond", strength: 3, x: 82, y: 68, direction: "mutual",
+        relation: "Care demonstrated rather than won",
+        history: "In the Zarathis garden, Jiangshi and Gartina debate nature, knowledge, family, and chosen love. When Gartina becomes vulnerable about her dead parents, Jiangshi places a hand on her shoulder.",
+        consequence: "The gesture enacts Jiangshi’s argument: consciously chosen presence can do something explanation and sustaining systems cannot do alone.",
+        evidence: "The garden exchange and gesture are directly preserved; their wider friendship remains partial.", article: "gartina"
+      },
+      {
+        id: "wren", title: "Wren", subtitle: "Mourned through the love of others", category: "politics", strength: 2, x: 58, y: 90, direction: "toward",
+        relation: "Relational memory without close intimacy",
+        history: "Wren grieves Jiangshi despite not knowing her closely because she remembers recovering Jiangshi’s body and understands what Jiangshi means to Adelia, Gartina, and the company.",
+        consequence: "Jiangshi’s social presence extends beyond direct friendship. Another person can carry her importance by witnessing the love around her.",
+        evidence: "Wren’s grief is established; a close independent friendship is not.", article: "wren"
+      },
+      {
+        id: "death", title: "Death and the Shadowlands", subtitle: "The threshold she crossed", category: "power", strength: 3, x: 22, y: 70, direction: "toward",
+        relation: "Experience that changes the meaning of shadow",
+        history: "Jiangshi’s later language about the Shadowlands and Death’s door gives personal weight to imagery she already understood as capable of shelter as well as fear.",
+        consequence: "Her return does not make death merely symbolic. She struggles even to say she was dead, preserving the wound between experience and narration.",
+        evidence: "Death, return, and difficulty naming the experience are established; exact afterlife mechanics remain unresolved.", article: "death-dumuzi"
+      },
+      {
+        id: "magnus", title: "Magnus Niriin", subtitle: "Redemption offered, betrayal witnessed", category: "conflict", strength: 2, x: 18, y: 30, direction: "toward",
+        relation: "Another chance followed by immediate rupture",
+        history: "At Hope, Jiangshi frames Magnus’s resurrection as another chance for redemption. After he accepts Dumuzi’s gift and wounds Hope, she acts with Adelia to save what remains.",
+        consequence: "The scene tests Jiangshi’s care at its limit. Offering the possibility of change does not require denying betrayal once a person chooses it.",
+        evidence: "Her words and immediate response are directly observed; her later judgment remains incompletely recovered.", article: "withering-of-hope"
+      }
+    ],
+    insights: [
+      { label: "Central bond", value: "Adelia", note: "Love is consciously chosen presence after the world has already separated them once." },
+      { label: "Philosophy enacted", value: "Gartina’s shoulder", note: "Comfort can be offered without winning an argument." },
+      { label: "Historical force", value: "Her absence", note: "Death changes Nienna, Wren, Adelia, and the company before Jiangshi returns." },
+      { label: "Living distinction", value: "Sustaining is not choosing", note: "Protection and nature are not identical to a person deliberately loving another." }
+    ]
+  }
+};
 
 function mergeMedia(record, media) {
   if (!record || !media) return;
@@ -11699,9 +13505,88 @@ function renderLocationTimeline(article) {
     </section>`;
 }
 
+function renderRelationshipMap(article) {
+  const map = relationshipMaps[article.id];
+  if (!map) return "";
+  const lines = map.nodes.map(node => `<line data-relationship-edge="${escapeHtml(node.id)}" data-relationship-category="${escapeHtml(node.category)}" x1="50" y1="50" x2="${node.x}" y2="${node.y}" class="relationship-edge relationship-${escapeHtml(node.category)} strength-${node.strength}${node.direction === "toward" ? " directed" : ""}" vector-effect="non-scaling-stroke" />`).join("");
+  const nodes = map.nodes.map((node, index) => `<button type="button" class="relationship-node relationship-${escapeHtml(node.category)}${index === 0 ? " active" : ""}" data-relationship-node="${escapeHtml(node.id)}" data-relationship-category="${escapeHtml(node.category)}" style="--node-x:${node.x}%;--node-y:${node.y}%" aria-pressed="${index === 0}"><strong>${escapeHtml(node.title)}</strong><small>${escapeHtml(node.subtitle)}</small></button>`).join("");
+  const first = map.nodes[0];
+  return `<section class="relationship-atlas" data-relationship-map="${escapeHtml(article.id)}" aria-labelledby="relationship-map-${escapeHtml(article.id)}">
+    <header class="relationship-atlas-heading">
+      <div><p class="eyebrow">Interactive relationship map</p><h2 id="relationship-map-${escapeHtml(article.id)}">${escapeHtml(map.title)}</h2></div>
+      <p>${escapeHtml(map.intro)}</p>
+    </header>
+    <div class="relationship-filters" role="toolbar" aria-label="Filter relationships by type">${map.filters.map((filter, index) => `<button type="button" data-relationship-filter="${escapeHtml(filter.id)}" class="${index === 0 ? "active" : ""}" aria-pressed="${index === 0}">${escapeHtml(filter.label)}</button>`).join("")}</div>
+    <div class="relationship-map-layout">
+      <div class="relationship-map-stage">
+        <svg class="relationship-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">${lines}</svg>
+        <div class="relationship-center"><strong>${escapeHtml(map.center.title)}</strong><small>${escapeHtml(map.center.subtitle)}</small></div>
+        ${nodes}
+      </div>
+      <aside class="relationship-detail" aria-live="polite">
+        <p class="relationship-detail-kicker">${escapeHtml(first.relation)}</p>
+        <h3>${escapeHtml(first.title)}</h3>
+        <p>${escapeHtml(first.history)}</p>
+        <p>${escapeHtml(first.consequence)}</p>
+        <div><strong>Evidence boundary</strong><span>${escapeHtml(first.evidence)}</span></div>
+        <button type="button" data-article="${escapeHtml(first.article)}">Open linked record <span aria-hidden="true">→</span></button>
+      </aside>
+    </div>
+    <div class="relationship-insights">${map.insights.map(item => `<article><small>${escapeHtml(item.label)}</small><strong>${escapeHtml(item.value)}</strong><p>${escapeHtml(item.note)}</p></article>`).join("")}</div>
+    <p class="relationship-method-note"><strong>How to read it:</strong> line weight represents the relationship’s historical force, not affection. Arrowed lines mark primarily one-way influence or power. Filters reveal different systems around the same person.</p>
+  </section>`;
+}
+
+function setupRelationshipMap(article) {
+  const map = relationshipMaps[article.id];
+  const atlas = articleContent.querySelector(`[data-relationship-map="${article.id}"]`);
+  if (!map || !atlas) return;
+  const detail = atlas.querySelector(".relationship-detail");
+  let activeFilter = "all";
+
+  const selectNode = id => {
+    const node = map.nodes.find(candidate => candidate.id === id);
+    if (!node) return;
+    atlas.querySelectorAll("[data-relationship-node]").forEach(button => {
+      const active = button.dataset.relationshipNode === id;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    atlas.querySelectorAll("[data-relationship-edge]").forEach(line => line.classList.toggle("active", line.dataset.relationshipEdge === id));
+    detail.innerHTML = `
+      <p class="relationship-detail-kicker">${escapeHtml(node.relation)}</p>
+      <h3>${escapeHtml(node.title)}</h3>
+      <p>${escapeHtml(node.history)}</p>
+      <p>${escapeHtml(node.consequence)}</p>
+      <div><strong>Evidence boundary</strong><span>${escapeHtml(node.evidence)}</span></div>
+      <button type="button" data-article="${escapeHtml(node.article)}">Open linked record <span aria-hidden="true">→</span></button>`;
+  };
+
+  atlas.addEventListener("click", event => {
+    const filter = event.target.closest("[data-relationship-filter]");
+    if (filter) {
+      activeFilter = filter.dataset.relationshipFilter;
+      atlas.querySelectorAll("[data-relationship-filter]").forEach(button => {
+        const active = button.dataset.relationshipFilter === activeFilter;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", String(active));
+      });
+      atlas.querySelectorAll("[data-relationship-category]").forEach(element => {
+        element.classList.toggle("filtered-out", activeFilter !== "all" && element.dataset.relationshipCategory !== activeFilter);
+      });
+      const current = atlas.querySelector("[data-relationship-node].active:not(.filtered-out)");
+      const fallback = atlas.querySelector("[data-relationship-node]:not(.filtered-out)");
+      if (!current && fallback) selectNode(fallback.dataset.relationshipNode);
+      return;
+    }
+    const node = event.target.closest("[data-relationship-node]");
+    if (node && !node.classList.contains("filtered-out")) selectNode(node.dataset.relationshipNode);
+  });
+}
+
 function renderNavigation() {
   navigation.innerHTML = `
-    <button type="button" class="ethos-sidebar-link" data-article="ethos-of-fenumion" data-nav-article="ethos-of-fenumion" data-label="The Ethos of Fenumion">
+    <button type="button" class="ethos-sidebar-link nav-only-ethos" data-article="ethos-of-fenumion" data-nav-article="ethos-of-fenumion" data-label="Begin the Chronicle · The Ethos of Fenumion">
       <span class="ethos-sidebar-glyph" aria-hidden="true">✦</span>
       <span class="ethos-sidebar-copy"><strong>The Ethos of Fenumion</strong><small>Player ethos &amp; chronicle guide</small></span>
       <span aria-hidden="true">›</span>
@@ -11761,6 +13646,7 @@ function renderArticle(route, pushHash = true) {
   const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
   const sourceLedger = article.sources?.length ? `<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} document${article.sources.length === 1 ? "" : "s"} used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
   const subchannels = renderSubchannels(article.id);
+  const relationshipMap = renderRelationshipMap(article);
   const locationTimeline = renderLocationTimeline(article);
   const hubSwitcher = hubPage ? `
     <nav class="hub-switcher" aria-label="Explore the Codex">
@@ -11806,6 +13692,7 @@ function renderArticle(route, pushHash = true) {
     ${hubPage ? "" : gallery}
     ${sourceLedger}
     ${subchannels}
+    ${relationshipMap}
     ${locationTimeline}
     ${peopleGallery}
     <div class="lead-grid">
@@ -11816,6 +13703,7 @@ function renderArticle(route, pushHash = true) {
   if (article.id === "people-directory") setupPeopleGallery();
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
   if (article.id === "living-timeline") setupTimelineExplorer();
+  setupRelationshipMap(article);
   setupAmbientVideos(articleContent);
   applyPlayerSafeRedactions();
   document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));

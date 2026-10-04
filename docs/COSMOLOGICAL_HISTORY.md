@@ -4,22 +4,22 @@ This dossier reconciles the 26-event cosmological spine supplied on 23 September
 
 ## Evidence rule
 
-Fenumion contains objective cosmology, incomplete mortal knowledge, interested divine testimony, factional doctrine, and later interpretation. These layers must remain distinct. A god's explanation is evidence from a powerful witness; it is not automatically Ada's voice or objective truth.
+Fenumion contains objective cosmology, incomplete mortal knowledge, interested divine testimony, factional doctrine, and later interpretation. These layers must remain distinct. A god's explanation is evidence from a powerful witness; it is not automatically objective truth.
 
 ## The central structure
 
-Ada creates free persons and divine caretakers. The caretakers possess real power but do not own other wills. Divine conflict corrupts Etz Chaim's Sap, creating the material associated with Delerium and damaging reality. Death gains access and benefits from the catastrophe. The gods complete the Shattering as a desperate firebreak. Mortals inherit a broken world and morally non-final divine authorities. Death offers surrender and finality; Hope preserves possibility. Mortals eventually acquire enough power to face the same stewardship test the gods failed.
+Free persons and divine caretakers belong to the world's primordial order. The caretakers possess real power but do not own other wills. Divine conflict corrupts Etz Chaim's Sap, creating the material associated with Delerium and damaging reality. Death gains access and benefits from the catastrophe. The gods complete the Shattering as a desperate firebreak. Mortals inherit a broken world and morally non-final divine authorities. Death offers surrender and finality; Hope preserves possibility. Mortals eventually acquire enough power to face the same stewardship test the gods failed.
 
 The resulting question is not only **Can this be saved?** It is:
 
 **What are you allowed to do to someone else in order to save it?**
 
-## 1. Ada creates reality and genuinely free persons
+## 1. The primordial order includes genuinely free persons
 
 **Era:** Primordial  
 **Confidence:** Established
 
-Ada is the ultimate Creator layer. The beings mortals call gods are created caretakers beneath Ada. Mortals and other persons possess genuine wills.
+The beings mortals call gods are caretakers rather than owners of creation. Mortals and other persons possess genuine wills.
 
 The fundamental consequences are:
 
@@ -42,7 +42,7 @@ A caretaker can fail, disagree, hide information, become ashamed, or misuse dele
 **Era:** Primordial  
 **Confidence:** High; exact ontology incomplete
 
-Etz Chaim, the One Tree, belongs to the original order of life and pure goodness. It is not Ada. Later Trees, Shards, Hope, Gael, restoration, and corruption echo or intersect with it, but the archive does not force those resemblances into a single metaphysical family tree.
+Etz Chaim, the One Tree, belongs to the original order of life and pure goodness. Later Trees, Shards, Hope, Gael, restoration, and corruption echo or intersect with it, but the archive does not force those resemblances into a single metaphysical family tree.
 
 ## 4. Divine conflict corrupts the Sap
 
@@ -92,7 +92,7 @@ Yet Dumuzi also says, **“You must choose me.”** In the relevant bargains, ch
 **Era:** All later mortal history  
 **Confidence:** Structural consequence
 
-Mortals inhabit a world where gods demonstrably exist and can help, yet can also be wrong. The landscape records their failures. Death can reveal uncomfortable truths. Ada does not routinely resolve ambiguity.
+Mortals inhabit a world where gods demonstrably exist and can help, yet can also be wrong. The landscape records their failures. Death can reveal uncomfortable truths, and higher powers do not routinely resolve ambiguity.
 
 Faith therefore concerns trust, gratitude, obedience, responsibility, and judgment—not simply belief that powerful beings exist.
 
@@ -198,7 +198,7 @@ The moral distinction is that Adelia chooses to spend herself. Her later power r
 **Date:** 2026  
 **Confidence:** Event established; ultimate cause restrained
 
-The Miracle allows characters to experience wonder or grace without the archive declaring every improbable rescue direct intervention by Ada. If chance is converted into a divine receipt, genuine uncertainty and faith collapse into bookkeeping.
+The Miracle allows characters to experience wonder or grace without the archive declaring every improbable rescue direct intervention by a higher power. If chance is converted into a divine receipt, genuine uncertainty and faith collapse into bookkeeping.
 
 ## 22. Elenia approaches the gods' old precipice
 
@@ -257,7 +257,7 @@ The evidence places Talan, Delerium, imprisonment, and divine fear inside one pr
 - **Is knowing the truth enough?** Information can preserve choice or violate it depending on stewardship.
 - **What does Hope promise?** Possibility, not guaranteed rescue.
 - **Can the gods be trusted?** Sometimes and in some things; capacity is not infallibility.
-- **Where is Ada?** Ada provides a metaphysical floor without becoming the automatic explanation for every fortunate event.
+- **What lies beyond the caretakers?** The archive leaves the ultimate metaphysical order unresolved rather than treating it as the automatic explanation for every fortunate event.
 
 ## Safeguards
 
@@ -278,4 +278,3 @@ The evidence places Talan, Delerium, imprisonment, and divine fear inside one pr
 - `CHARACTER_BIBLE.md` — character-specific development.
 - `RELATIONSHIPS.md` — causal relationships across events.
 - Existing reconciled Codex articles and dossiers.
-

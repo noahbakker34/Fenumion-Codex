@@ -22,7 +22,7 @@ Later discoveries may change the interpretation of an earlier event without chan
 
 A setting truth supported as part of the world's actual structure rather than merely asserted by a participant.
 
-Examples include Ada's position as Creator and the genuine existence of free will. Objective canon should still retain a source trail.
+Examples include the genuine existence of free will and the established limits of divine authority. Objective canon should still retain a source trail.
 
 ### 2. Observed fact
 
@@ -202,4 +202,3 @@ Every imported source should eventually record:
 - Record failed plans, missed information, unfinished arcs, and wrong theories.
 - Do not flatten recurring people into evidence for louder characters.
 - Treat ambiguity as a first-class archival result.
-

@@ -129,7 +129,7 @@ This episode is one of the clearest examples of Elenia and Mya acting through pr
 
 Elenia dies and is returned through Reincarnate as a satyr. The mechanical result was an unfudged one-in-250 roll. Before the result, the party had accepted that she might return changed.
 
-The event functions like grace because it remained contingent. It should not be canonized as direct intervention by Ada unless later lore explicitly establishes that claim. Its force depends on the fact that nobody guaranteed the result and the players had already accepted loss and transformation.
+The event functions like grace because it remained contingent. It should not be canonized as direct intervention by a higher power unless later lore explicitly establishes that claim. Its force depends on the fact that nobody guaranteed the result and the players had already accepted loss and transformation.
 
 The exact date, cause of Elenia’s death, and relationship between this event and the surrounding 2026 chronology remain unresolved in the current synthesis.
 
@@ -258,4 +258,3 @@ Mature Elenia knows more about divine failure than early Elenia and still remain
 - `Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md`
 - `Magnus_Niriin_Character_Profile_and_History.md`
 - `CONVERSATION_MASTER_SUMMARY.md`
-

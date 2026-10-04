@@ -48,8 +48,7 @@ Continuity means preserving causality, not merely remembering canon.
 
 Treat these as the current objective synthesis unless later material revises them. Do not assume every character knows them.
 
-- Ada is the father of the gods.
-- The gods are Ada's children and caretakers of domains; caretaking does not automatically make them owners.
+- The gods are caretakers of domains; caretaking does not automatically make them owners.
 - Etz Chaim, the One Tree, is natural order, life, and pure goodness rather than simply another god.
 - Cala and Nuru learned that the Tree's Sap could be corrupted into Delerium.
 - Death/Dumuzi enabled or exploited that discovery, but the gods retained agency and responsibility.
@@ -57,7 +56,7 @@ Treat these as the current objective synthesis unless later material revises the
 - The gods deliberately completed the Great Fracture as a terrible defensive firebreak, hiding surviving regions and slowing Death and the Wyrm.
 - Death fed dead gods to the Wyrm.
 - Mortal souls must choose Dumuzi; he can kill, bargain, tempt, and arrange pressure, but cannot simply own every soul.
-- The actionable endgame enemy is the Wyrm. Ada's relationship to Death belongs to the larger divine resolution.
+- The actionable endgame enemy is the Wyrm. Death's place in the larger divine order remains unresolved.
 
 ## Narrative history
 

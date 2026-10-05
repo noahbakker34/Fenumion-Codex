@@ -13418,7 +13418,7 @@ const recordDialog = document.querySelector("#record-dialog");
 const recordDialogContent = document.querySelector("#record-dialog-content");
 const recordDialogClose = document.querySelector("#record-dialog-close");
 let ambientVideoObserver = null;
-let featuredQuoteTimer = null;
+let featuredContentTimer = null;
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
@@ -13847,7 +13847,7 @@ function renderNavigation() {
 }
 
 function renderArticle(route, pushHash = true) {
-  clearTimeout(featuredQuoteTimer);
+  clearTimeout(featuredContentTimer);
   const [requestedId, routeQuery = ""] = String(route || "").split("?");
   const id = routeAliases.get(requestedId) || requestedId;
   const routeParams = new URLSearchParams(routeQuery);
@@ -13942,7 +13942,7 @@ function renderArticle(route, pushHash = true) {
     </div>`;
   if (article.id === "world-index") {
     setupWorldBrowser();
-    setupFeaturedQuote();
+    setupFeaturedContent();
   }
   if (article.id === "people-directory") setupPeopleGallery();
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
@@ -14048,8 +14048,8 @@ function applyPlayerSafeRedactions() {
   });
 }
 
-function setupFeaturedQuote() {
-  clearTimeout(featuredQuoteTimer);
+function setupFeaturedContent() {
+  clearTimeout(featuredContentTimer);
   const featured = articleContent.querySelector(".feature-quote");
   const source = byId.get("memorable-quotes");
   if (!featured || !source) return;
@@ -14066,6 +14066,18 @@ function setupFeaturedQuote() {
 
   const hour = 60 * 60 * 1000;
   const now = Date.now();
+  // Two distinct locations advance through the requested order each hour.
+  const locations = ["prima-pristinia", "babel-ashur", "gael", "voraketh", "fein-uaill"]
+    .map(id => byId.get(id)).filter(Boolean);
+  articleContent.querySelectorAll(".gateway-featured .feature-image").forEach((card, index) => {
+    const location = locations[(Math.floor(now / hour) + index) % locations.length];
+    if (!location) return;
+    card.dataset.article = location.id;
+    card.querySelector("strong").textContent = location.title;
+    card.querySelector("small").textContent = location.dek;
+    card.style.setProperty("--feature-image", `url(${JSON.stringify(location.image || "assets/archive/world-map.jpeg")})`);
+  });
+
   // A shared hourly slot stays consistent across refreshes and visits.
   const quote = quotes[Math.floor(now / hour) % quotes.length];
   featured.querySelector("blockquote").textContent = quote.text;
@@ -14075,11 +14087,11 @@ function setupFeaturedQuote() {
     ? "assets/archive/olokun-memorable-quote.png"
     : (isPlayerSafeArticle(quote.articleId) && speaker?.image) || "assets/archive/world-map.jpeg";
   featured.style.setProperty("--featured-quote-image", `url(${JSON.stringify(image)})`);
-  featuredQuoteTimer = setTimeout(setupFeaturedQuote, hour - (now % hour) + 25);
+  featuredContentTimer = setTimeout(setupFeaturedContent, hour - (now % hour) + 25);
 }
 
 document.addEventListener("visibilitychange", () => {
-  if (!document.hidden) setupFeaturedQuote();
+  if (!document.hidden) setupFeaturedContent();
 });
 
 function setupWorldBrowser() {

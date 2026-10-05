@@ -1,3 +1,27 @@
+const musicStyles = [
+  { id: "all", label: "All styles", description: "The complete Fenumion soundtrack." },
+  { id: "adventure", label: "Adventure & Wonder", description: "Journeys, discoveries, heroes, and radiant places." },
+  { id: "battle", label: "Battle & Pursuit", description: "Combat, chases, sieges, and rising stakes." },
+  { id: "dark", label: "Darkness & Horror", description: "Dread, corruption, death, and dangerous realms." },
+  { id: "mystery", label: "Mystery & Intrigue", description: "Secrets, schemes, betrayals, and veiled truths." },
+  { id: "emotion", label: "Reflection & Sorrow", description: "Memory, sacrifice, grief, and quiet character moments." },
+  { id: "magic", label: "Magic & Ceremony", description: "Gods, ancient rites, wonder, and the arcane." },
+  { id: "exploration", label: "Ruins & Exploration", description: "Dungeons, wilderness, forgotten halls, and uneasy travel." }
+];
+
+const musicStyleRules = [
+  ["battle", /assault|aggressive|apocalypse|battlefield|chokepoint|combat|conflict|daring|destruction|dramatic drums|dramatic legatos|eleventh hour|gulch drums|harsh brass|legion|massive epic|no time left|showdown|vigor|viking drum|viking war/i],
+  ["dark", /blackrock|corruption|descent|horror|lord of destruction|necrotic|omen|outbreak|rot ambience|\bshadow\b|tarnished|terror|trapped|unholy|anxious/i],
+  ["mystery", /conspiracy|cryptic|deceit|deception|detective|entropy|etropy|foreshadow|infiltrate|plot twist|politically dramatic|spiraling|stray|veil/i],
+  ["emotion", /alice guitar|cello atmos|desperate prayer|emotional|lacrimosa|longing|moor|out of time|outplayed|somber|sour piano/i],
+  ["magic", /choir|dulcimer|genesis|improvisation|olympus|paragon|sanctum|starfield/i],
+  ["adventure", /alterac|assemble|dragonflight|embers|exodus|hightower|inspirational seeker|intervention|middle earth|meta heroic|outskirts|stepstones|viking encampment/i]
+];
+
+function classifyMusicStyle(title) {
+  return musicStyleRules.find(([, pattern]) => pattern.test(title))?.[0] || "exploration";
+}
+
 const fenumionSoundtrack = [
   ["Alterac", "alterac.mp3"],
   ["Assault", "assault.mp3"],
@@ -138,14 +162,25 @@ const fenumionSoundtrack = [
   ["Viking Encampment C", "viking-encampment-c.mp3"],
   ["Viking Encampment", "viking-encampment.mp3"],
   ["Viking War", "viking-war.mp3"]
-].map(([title, file]) => ({ title, src: `assets/music/action-drama/${file}` }));
+].map(([title, file]) => ({ title, file, style: classifyMusicStyle(title), src: `assets/music/action-drama/${file}` }))
+  .sort((a, b) => {
+    const styleOrder = musicStyles.findIndex(style => style.id === a.style) - musicStyles.findIndex(style => style.id === b.style);
+    return styleOrder || a.title.localeCompare(b.title);
+  });
 
 const musicPlayer = document.querySelector("#music-player");
 const musicToggle = document.querySelector("#music-toggle");
+const musicToggleNow = document.querySelector("#music-toggle-now");
 const musicPanel = document.querySelector("#music-panel");
 const musicClose = document.querySelector("#music-close");
 const musicAudio = document.querySelector("#music-audio");
 const musicTitle = document.querySelector("#music-title");
+const musicStyleLabel = document.querySelector("#music-style-label");
+const musicStyleSelect = document.querySelector("#music-style");
+const musicTrackSelect = document.querySelector("#music-track-select");
+const musicRecommendation = document.querySelector("#music-recommendation");
+const musicRecommendationTitle = document.querySelector("#music-recommendation-title");
+const musicRecommendationReason = document.querySelector("#music-recommendation-reason");
 const musicPlay = document.querySelector("#music-play");
 const musicPrevious = document.querySelector("#music-previous");
 const musicNext = document.querySelector("#music-next");
@@ -157,9 +192,88 @@ const musicTrackNumber = document.querySelector("#music-track-number");
 const musicVolume = document.querySelector("#music-volume");
 const musicStatus = document.querySelector("#music-status");
 
-let musicIndex = Number.parseInt(localStorage.getItem("fenumion-music-track") || "0", 10);
+const musicRecommendations = [
+  { match: /aria|pride/, title: "Mother of Deceit Reprise", reason: "A beautiful, treacherous theme for Aria and the pride that shadows her story." },
+  { match: /world index|home|the fenumion codex/, title: "Middle Earth", reason: "A welcoming overture for entering the world of Fenumion." },
+  { match: /magnus/, title: "Politically Dramatic Piano", reason: "Measured tension for Magnus, his authority, and the cost of betrayal." },
+  { match: /wren/, title: "Longing", reason: "A reflective theme for Wren's bonds, burdens, and unfinished paths." },
+  { match: /death|vain|citadel-of-sorrow|citadel of sorrow/, title: "Unholy", reason: "A grave, otherworldly atmosphere for death and its dominion." },
+  { match: /the-before|before/, title: "Elven Corruption", reason: "Ancient beauty made uneasy among the ruins of the Before." },
+  { match: /cala|namo|god|divine/, title: "Olympus", reason: "Ceremonial scale for the divine powers of Fenumion." },
+  { match: /zarathis|melian/, title: "Hightower Evolved", reason: "Grandeur and unease for Zarathis and the history bound to it." },
+  { match: /fein-uaill|shining-shore|shard/, title: "Hightower", reason: "A radiant, elevated theme for the wonders of Fein Uaill." },
+  { match: /gael|tower-of-gael/, title: "Embers", reason: "Solitude, endurance, and a distant light for the Tower of Gael." },
+  { match: /pristinia|pilgrim|common-man/, title: "Middle Earth B", reason: "A gentler road theme for settlements, hearths, and arriving travelers." },
+  { match: /knight|wyrm|titanwall|war|battle/, title: "Massive Epic Ensemble", reason: "Heroic scale for battles, monsters, and impossible defenses." },
+  { match: /ethos|chronicle|how-to-read/, title: "The Inspirational Seeker", reason: "A thoughtful beginning for learning how Fenumion remembers." },
+  { match: /quote|memory|funeral/, title: "Emotional Atmos", reason: "A restrained bed for remembrance and the words that endure." }
+];
+
+function getMusicContext() {
+  const route = decodeURIComponent(location.hash.replace(/^#/, "") || "world-index").replaceAll("-", " ");
+  const recordDialog = document.querySelector("#record-dialog");
+  const recordHeading = recordDialog?.open ? document.querySelector("#record-dialog-title")?.textContent || "" : "";
+  const heading = recordHeading || document.querySelector("#article h1")?.textContent || "";
+  return `${route} ${heading}`.toLowerCase();
+}
+
+function getMusicRecommendation() {
+  const context = getMusicContext();
+  return musicRecommendations.find(recommendation => recommendation.match.test(context)) || {
+    title: "Middle Earth",
+    reason: "A broad Fenumion theme suited to exploring this part of the Codex."
+  };
+}
+
+function findMusicTrack(title) {
+  return fenumionSoundtrack.findIndex(track => track.title === title);
+}
+
+let activeMusicStyle = localStorage.getItem("fenumion-music-style") || "all";
+if (!musicStyles.some(style => style.id === activeMusicStyle)) activeMusicStyle = "all";
+const savedMusicFile = localStorage.getItem("fenumion-music-file");
+const firstRecommendation = getMusicRecommendation();
+let musicIndex = savedMusicFile ? fenumionSoundtrack.findIndex(track => track.file === savedMusicFile) : findMusicTrack(firstRecommendation.title);
 let musicLoops = localStorage.getItem("fenumion-music-loop") !== "false";
 musicIndex = Number.isInteger(musicIndex) && musicIndex >= 0 && musicIndex < fenumionSoundtrack.length ? musicIndex : 0;
+
+function musicStyle(styleId) {
+  return musicStyles.find(style => style.id === styleId) || musicStyles[0];
+}
+
+function visibleMusicTracks() {
+  return activeMusicStyle === "all" ? fenumionSoundtrack : fenumionSoundtrack.filter(track => track.style === activeMusicStyle);
+}
+
+function populateMusicStyles() {
+  musicStyleSelect.replaceChildren(...musicStyles.map(style => {
+    const option = document.createElement("option");
+    option.value = style.id;
+    option.textContent = style.label;
+    return option;
+  }));
+  musicStyleSelect.value = activeMusicStyle;
+}
+
+function populateMusicTracks() {
+  const tracks = visibleMusicTracks();
+  musicTrackSelect.replaceChildren(...tracks.map(track => {
+    const option = document.createElement("option");
+    option.value = track.file;
+    option.textContent = track.title;
+    return option;
+  }));
+  const current = fenumionSoundtrack[musicIndex];
+  if (tracks.includes(current)) musicTrackSelect.value = current.file;
+}
+
+function updateMusicRecommendation() {
+  const recommendation = getMusicRecommendation();
+  musicRecommendationTitle.textContent = recommendation.title;
+  musicRecommendationReason.textContent = recommendation.reason;
+  musicRecommendation.dataset.track = recommendation.title;
+  musicRecommendation.setAttribute("aria-label", `Play suggested track: ${recommendation.title}`);
+}
 
 function formatMusicTime(value) {
   if (!Number.isFinite(value)) return "0:00";
@@ -179,15 +293,48 @@ function updateMusicState() {
 function loadMusicTrack(index, { autoplay = false } = {}) {
   musicIndex = (index + fenumionSoundtrack.length) % fenumionSoundtrack.length;
   const track = fenumionSoundtrack[musicIndex];
+  const tracks = visibleMusicTracks();
+  const playlistIndex = tracks.indexOf(track);
   musicAudio.src = track.src;
   musicTitle.textContent = track.title;
-  musicTrackNumber.textContent = `Track ${musicIndex + 1} of ${fenumionSoundtrack.length}`;
+  musicToggleNow.textContent = track.title;
+  musicStyleLabel.textContent = musicStyle(track.style).label;
+  musicTrackNumber.textContent = playlistIndex >= 0
+    ? `Track ${playlistIndex + 1} of ${tracks.length} · ${fenumionSoundtrack.length} total`
+    : `${fenumionSoundtrack.length} tracks`;
+  populateMusicTracks();
+  musicTrackSelect.value = track.file;
   musicProgress.value = 0;
   musicCurrentTime.textContent = "0:00";
   musicDuration.textContent = "0:00";
   musicStatus.textContent = autoplay ? `Loading ${track.title}` : "Ready to play";
-  localStorage.setItem("fenumion-music-track", String(musicIndex));
+  localStorage.setItem("fenumion-music-file", track.file);
   if (autoplay) musicAudio.play().catch(() => { musicStatus.textContent = "Press play to begin"; });
+}
+
+function stepMusicTrack(direction, { autoplay = false } = {}) {
+  const tracks = visibleMusicTracks();
+  const currentTrack = fenumionSoundtrack[musicIndex];
+  const currentIndex = Math.max(0, tracks.indexOf(currentTrack));
+  const nextIndex = (currentIndex + direction + tracks.length) % tracks.length;
+  loadMusicTrack(fenumionSoundtrack.indexOf(tracks[nextIndex]), { autoplay });
+}
+
+function selectMusicStyle(styleId, { loadFirst = true } = {}) {
+  activeMusicStyle = musicStyles.some(style => style.id === styleId) ? styleId : "all";
+  musicStyleSelect.value = activeMusicStyle;
+  localStorage.setItem("fenumion-music-style", activeMusicStyle);
+  const tracks = visibleMusicTracks();
+  const currentTrack = fenumionSoundtrack[musicIndex];
+  populateMusicTracks();
+  if (loadFirst && !tracks.includes(currentTrack) && tracks.length) {
+    loadMusicTrack(fenumionSoundtrack.indexOf(tracks[0]), { autoplay: !musicAudio.paused });
+  } else {
+    const currentPlaylistIndex = tracks.indexOf(currentTrack);
+    musicTrackNumber.textContent = currentPlaylistIndex >= 0
+      ? `Track ${currentPlaylistIndex + 1} of ${tracks.length} · ${fenumionSoundtrack.length} total`
+      : `${tracks.length} tracks · ${fenumionSoundtrack.length} total`;
+  }
 }
 
 function openMusicPanel(open = true) {
@@ -198,6 +345,18 @@ function openMusicPanel(open = true) {
 
 musicToggle.addEventListener("click", () => openMusicPanel(musicPanel.hidden));
 musicClose.addEventListener("click", () => { openMusicPanel(false); musicToggle.focus(); });
+musicRecommendation.addEventListener("click", () => {
+  const index = findMusicTrack(musicRecommendation.dataset.track);
+  if (index < 0) return;
+  activeMusicStyle = fenumionSoundtrack[index].style;
+  selectMusicStyle(activeMusicStyle, { loadFirst: false });
+  loadMusicTrack(index, { autoplay: true });
+});
+musicStyleSelect.addEventListener("change", () => selectMusicStyle(musicStyleSelect.value));
+musicTrackSelect.addEventListener("change", () => {
+  const index = fenumionSoundtrack.findIndex(track => track.file === musicTrackSelect.value);
+  if (index >= 0) loadMusicTrack(index, { autoplay: !musicAudio.paused });
+});
 musicPlay.addEventListener("click", () => {
   if (musicAudio.paused) {
     musicStatus.textContent = `Loading ${fenumionSoundtrack[musicIndex].title}`;
@@ -211,9 +370,9 @@ musicPrevious.addEventListener("click", () => {
     musicAudio.currentTime = 0;
     return;
   }
-  loadMusicTrack(musicIndex - 1, { autoplay: !musicAudio.paused });
+  stepMusicTrack(-1, { autoplay: !musicAudio.paused });
 });
-musicNext.addEventListener("click", () => loadMusicTrack(musicIndex + 1, { autoplay: !musicAudio.paused }));
+musicNext.addEventListener("click", () => stepMusicTrack(1, { autoplay: !musicAudio.paused }));
 musicLoop.addEventListener("click", () => {
   musicLoops = !musicLoops;
   musicLoop.classList.toggle("active", musicLoops);
@@ -236,13 +395,20 @@ musicAudio.addEventListener("timeupdate", () => {
 musicAudio.addEventListener("play", () => { musicStatus.textContent = `Playing ${fenumionSoundtrack[musicIndex].title}`; updateMusicState(); });
 musicAudio.addEventListener("pause", () => { if (!musicAudio.ended) musicStatus.textContent = "Paused"; updateMusicState(); });
 musicAudio.addEventListener("ended", () => {
-  const hasNext = musicIndex < fenumionSoundtrack.length - 1;
-  if (hasNext || musicLoops) loadMusicTrack(musicIndex + 1, { autoplay: true });
+  const tracks = visibleMusicTracks();
+  const currentPlaylistIndex = tracks.indexOf(fenumionSoundtrack[musicIndex]);
+  const hasNext = currentPlaylistIndex >= 0 && currentPlaylistIndex < tracks.length - 1;
+  if (hasNext || musicLoops) stepMusicTrack(1, { autoplay: true });
   else { musicStatus.textContent = "Playlist complete"; updateMusicState(); }
 });
 musicAudio.addEventListener("error", () => { musicStatus.textContent = "This track could not be loaded"; updateMusicState(); });
 document.addEventListener("keydown", event => {
   if (event.key === "Escape" && !musicPanel.hidden) openMusicPanel(false);
+});
+window.addEventListener("hashchange", () => setTimeout(updateMusicRecommendation, 0));
+window.addEventListener("popstate", () => setTimeout(updateMusicRecommendation, 0));
+document.addEventListener("click", event => {
+  if (event.target.closest("button, [data-article], a[href^='#']")) setTimeout(updateMusicRecommendation, 60);
 });
 
 const savedMusicVolume = Number(localStorage.getItem("fenumion-music-volume"));
@@ -250,5 +416,8 @@ musicAudio.volume = Number.isFinite(savedMusicVolume) && savedMusicVolume >= 0 &
 musicVolume.value = String(musicAudio.volume);
 musicLoop.classList.toggle("active", musicLoops);
 musicLoop.setAttribute("aria-pressed", String(musicLoops));
+populateMusicStyles();
+selectMusicStyle(activeMusicStyle, { loadFirst: false });
+updateMusicRecommendation();
 loadMusicTrack(musicIndex);
 updateMusicState();

@@ -13418,6 +13418,7 @@ const recordDialog = document.querySelector("#record-dialog");
 const recordDialogContent = document.querySelector("#record-dialog-content");
 const recordDialogClose = document.querySelector("#record-dialog-close");
 let ambientVideoObserver = null;
+let featuredQuoteTimer = null;
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
@@ -13846,6 +13847,7 @@ function renderNavigation() {
 }
 
 function renderArticle(route, pushHash = true) {
+  clearTimeout(featuredQuoteTimer);
   const [requestedId, routeQuery = ""] = String(route || "").split("?");
   const id = routeAliases.get(requestedId) || requestedId;
   const routeParams = new URLSearchParams(routeQuery);
@@ -13938,7 +13940,10 @@ function renderArticle(route, pushHash = true) {
       <div class="article-body">${article.body}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
-  if (article.id === "world-index") setupWorldBrowser();
+  if (article.id === "world-index") {
+    setupWorldBrowser();
+    setupFeaturedQuote();
+  }
   if (article.id === "people-directory") setupPeopleGallery();
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
   if (article.id === "living-timeline") setupTimelineExplorer();
@@ -14042,6 +14047,40 @@ function applyPlayerSafeRedactions() {
     }
   });
 }
+
+function setupFeaturedQuote() {
+  clearTimeout(featuredQuoteTimer);
+  const featured = articleContent.querySelector(".feature-quote");
+  const source = byId.get("memorable-quotes");
+  if (!featured || !source) return;
+
+  // Read the live gallery so newly added memorable quotes join the rotation.
+  const gallery = document.createElement("template");
+  gallery.innerHTML = source.body;
+  const quotes = [...gallery.content.querySelectorAll(".quote-card")].map(card => ({
+    text: card.querySelector("blockquote")?.textContent.trim(),
+    speaker: card.querySelector("cite")?.textContent.trim(),
+    articleId: card.dataset.article
+  })).filter(quote => quote.text && quote.speaker);
+  if (!quotes.length) return;
+
+  const hour = 60 * 60 * 1000;
+  const now = Date.now();
+  // A shared hourly slot stays consistent across refreshes and visits.
+  const quote = quotes[Math.floor(now / hour) % quotes.length];
+  featured.querySelector("blockquote").textContent = quote.text;
+  featured.querySelector("cite").textContent = quote.speaker;
+  const speaker = byId.get(quote.articleId);
+  const image = quote.articleId === "olokun"
+    ? "assets/archive/olokun-memorable-quote.png"
+    : (isPlayerSafeArticle(quote.articleId) && speaker?.image) || "assets/archive/world-map.jpeg";
+  featured.style.setProperty("--featured-quote-image", `url(${JSON.stringify(image)})`);
+  featuredQuoteTimer = setTimeout(setupFeaturedQuote, hour - (now % hour) + 25);
+}
+
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) setupFeaturedQuote();
+});
 
 function setupWorldBrowser() {
   const browser = document.querySelector("#world-browser");
@@ -14426,17 +14465,28 @@ function renderRelated(article) {
 function buildContents() {
   const headings = [...articleContent.querySelectorAll(".article-body h2")];
   contents.innerHTML = headings.map(heading => `<button type="button" class="toc-link" data-section="${heading.id}">${heading.textContent}</button>`).join("");
+  const mobileContents = document.querySelector("#mobile-contents");
+  mobileContents.hidden = headings.length === 0;
+  mobileContents.open = false;
+  document.querySelector("#mobile-contents-links").innerHTML = contents.innerHTML;
 }
 
 function openSearch() {
+  sidebar.classList.remove("open");
+  menuButton.setAttribute("aria-expanded", "false");
   searchPanel.hidden = false;
   scrim.hidden = false;
+  document.body.classList.toggle("panels-open", innerWidth <= 760);
   if (innerWidth <= 760) document.querySelector(".search-shell").classList.add("open");
 }
 
 function runSearch(query) {
   const normalized = query.trim().toLowerCase();
-  if (!normalized) { searchPanel.hidden = true; scrim.hidden = true; return; }
+  if (!normalized) {
+    searchPanel.hidden = true;
+    if (!document.querySelector(".search-shell").classList.contains("open")) closePanels();
+    return;
+  }
   const terms = normalized.split(/\s+/).filter(Boolean);
   const articleResults = articles.filter(article => isPlayerSafeArticle(article.id)).map(article => {
     const path = articlePaths.get(article.id) || [article.category, article.title];
@@ -14487,12 +14537,15 @@ function highlight(text, query) {
 }
 
 function closePanels() {
+  document.body.classList.remove("panels-open");
   searchPanel.hidden = true;
   scrim.hidden = true;
   sidebar.classList.remove("open");
   document.querySelector(".search-shell").classList.remove("open");
   menuButton.setAttribute("aria-expanded", "false");
 }
+
+matchMedia("(max-width: 760px)").addEventListener("change", closePanels);
 
 function clearSearchQuery() {
   search.value = "";
@@ -14573,7 +14626,10 @@ document.addEventListener("click", event => {
     renderArticle(trigger.dataset.article);
   }
   const sectionTrigger = event.target.closest("[data-section]");
-  if (sectionTrigger) document.getElementById(sectionTrigger.dataset.section)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  if (sectionTrigger) {
+    document.querySelector("#mobile-contents").open = false;
+    document.getElementById(sectionTrigger.dataset.section)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  }
 });
 search.addEventListener("input", event => runSearch(event.target.value));
 search.addEventListener("focus", () => { if (search.value) runSearch(search.value); });
@@ -14583,6 +14639,7 @@ menuButton.addEventListener("click", () => {
   const open = !sidebar.classList.contains("open");
   closePanels();
   sidebar.classList.toggle("open", open);
+  document.body.classList.toggle("panels-open", open && innerWidth <= 760);
   scrim.hidden = !open;
   menuButton.setAttribute("aria-expanded", String(open));
 });

@@ -12086,6 +12086,93 @@ for (const id of ["herb", "melian-starguard", "magnus"]) {
 const lilianQuoteRecord = articles.find(article => article.id === "memorable-quotes");
 if (lilianQuoteRecord) lilianQuoteRecord.body = lilianQuoteRecord.body.replace('<h2 id="why-these-lines-remain">', '<h2 id="lilian-voices">A scout’s responsibility</h2><div class="quote-gallery"><button class="quote-card" data-article="scout-lilian"><blockquote>“But talking wastes time. The clock forever turns forward.”</blockquote><cite>Scout Lilian</cite></button><button class="quote-card" data-article="scout-lilian"><blockquote>“This is for you all to decide. You have your choice, we do not order you.”</blockquote><cite>Scout Lilian</cite></button><button class="quote-card" data-article="scout-lilian"><blockquote>“Fly! Get help!”</blockquote><cite>Scout Lilian</cite></button></div><h2 id="why-these-lines-remain">');
 
+// Rahu officials: public interactions only; confidential records remain in the vault.
+const rahuOfficials = [
+  {
+    "id": "strange-talon",
+    "title": "Strange Talon",
+    "category": "People",
+    "type": "Rahu Master of Intelligence",
+    "dek": "An Owlin intelligence chief whose conditional hospitality becomes a lasting grievance against the adventurers he believes escaped Rahu justice.",
+    "tags": [
+      "Rahu",
+      "Owlin",
+      "Intelligence",
+      "Ephiraith",
+      "Sophina",
+      "Aravil",
+      "Ithilrûnë"
+    ],
+    "facts": {
+      "Office": "Master of Intelligence",
+      "People": "Owlin",
+      "Allegiance": "Rahu · Witch Queen Ephiraith",
+      "First major recovered scene": "18 June 2024",
+      "Last dated scene in dossier": "8 June 2025 · duel accepted",
+      "Later fate": "Unresolved"
+    },
+    "sources": [
+      "Strange_Talon_NPC_Master.md — supplied 5 October 2026; consolidated NPC history and evidence distinctions"
+    ],
+    "body": "<p>Strange Talon is the Rahu <strong>Master of Intelligence</strong>, an Owlin and senior official beneath Witch Queen Ephiraith. He gathers information, evaluates dangerous knowledge, trades for useful discoveries, and remembers offenses against Rahu personnel. His authority comes from awareness and institutional standing as well as his capacity to fight.</p>\n<h2 id=\"talon-first-contact\">18 June 2024: conditional hospitality</h2>\n<p>At an aviary or outpost, Talon initially receives the Pristinian visitors with watchful curiosity. Rahu-controlled space is open to guests who respect its rules; welcome does not imply unrestricted access or permanent trust. He notices what adventurers carry and asks where their knowledge came from.</p>\n<p>His exchanges with <a href=\"#scribonia\">Scribonia</a> show this earlier Talon clearly. He already has reports of Scribonia’s encounters with dangerous magic, offers payment for information and samples, and argues that mutually useful knowledge deserves reciprocal exchange. He can bargain, explain, and engage intellectually. Suspicion has not yet become an indiscriminate refusal to speak.</p>\n<h2 id=\"talon-honor\">Knowledge, discipline, and honor</h2>\n<p>Talon treats information as a resource that should be acquired deliberately and disclosed selectively. His conception of honor joins obligation, reputation, cultural law, and the consequences of breaking agreements. Rahu discipline does not require rejecting wealth or abundance; it requires control over desire and attention to proper use.</p>\n<p>These are Talon’s expressed values and Rahu positions. They do not make him an omniscient witness, establish that every Rahu historical claim is objective truth, or remove his capacity for bias.</p>\n<h2 id=\"talon-assault\">The assault that changes the relationship</h2>\n<p>By 7 August 2024, a wound on Talon’s arm remains visible and his hostility is explicit. He accuses adventurers of trying to kill him and then questioning his honor. Yet apology, compensation, and a declaration that the group had not collectively endorsed the attack still produce a change: he asks why they had not said so earlier and wants the offender denounced.</p>\n<p>His grievance concerns the response of a community as well as the actions of an attacker. Recognition of the offense and meaningful repudiation can still matter. He can also acknowledge an enemy’s combat skill while condemning how that skill was used.</p>\n<p>At the council convened by <a href=\"#melian-starguard\">Melian Starguard</a> on 20 January 2025, <a href=\"#sophina\">Ambassador Sophina</a> presents the Rahu account: Talon was magically compelled and prevented from performing his duty on Rahu land, then nearly killed when he confronted those involved. She characterizes the offenses as compulsion, obstruction of justice, and attempted murder, and says Rahu law requires death.</p>\n<p><a href=\"#aravil\">Aravil</a> and <a href=\"#ithilrune\">Ithilrûnë</a> are central to this grievance. The recovered dossier does <strong>not</strong> assign every described act to both people individually. Sophina’s legal framing, Talon’s account, and the unresolved allocation of specific actions remain distinct.</p>\n<h2 id=\"talon-magnus\">May 2025: grievance becomes a political argument</h2>\n<p>When <a href=\"#magnus\">Magnus Niriin</a> meets him in May, Talon’s scars visibly speak to pain. He directs Magnus toward the histories of Aravil and Ithilrûnë and accuses the adventuring community of protecting them.</p>\n<div class=\"quote\">Ask about Aravil and Ithilrune some time. You will know. Your kind protected them.<cite>Strange Talon</cite></div>\n<p>“Your kind” marks the widening of a specific injury into suspicion of a whole class. Talon’s position is that the community closes ranks when its members violate Rahu law. The biography preserves this as his interpretation rather than a verdict on every adventurer. Sophina’s competent diplomacy and Talon’s grievance together form part of the visible pathway by which Magnus moves closer to the Rahu.</p>\n<h2 id=\"talon-war\">June 2025: custody and direct combat</h2>\n<p>On 4 June, Magnus returns from the covert abduction of Melian and reports to Strange Talon with her in custody. <a href=\"#scout-lilian\">Scout Lilian</a> and <a href=\"#herb\">Herb</a> have been killed during the operation. Talon’s position at the receiving end establishes senior authority within the Rahu operation.</p>\n<p><strong>Receiving Melian does not establish that Talon designed the kidnapping, ordered the killing of witnesses, or knew every tactical detail in advance.</strong> Magnus’s documented field orders retain their own attribution.</p>\n<p>On 8 June, Talon accepts a direct challenge, tells others not to interfere, allows the guards to move aside, and steps forward to fight. The intelligence chief who once preferred observation and negotiation now confronts the adventurers personally. The dossier does not establish the full outcome of that duel.</p>\n<h2 id=\"talon-relationships\">The institutions and people around him</h2>\n<ul><li><strong>Witch Queen Ephiraith:</strong> Talon’s sovereign. His loyalty is established; a family connection, romance, rivalry, or her approval of each decision is not.</li><li><a href=\"#sophina\"><strong>Ambassador Sophina:</strong></a> the diplomatic counterpart who turns his grievance into a formal Rahu legal demand. Their professional alignment does not require an invented private friendship.</li><li><strong>Captain Hildethrax:</strong> a senior military figure with overlapping state responsibilities. Intelligence, diplomacy, and military logistics are distinguishable functions, without a complete recovered constitutional chart.</li><li><a href=\"#olokun\"><strong>Olokun:</strong></a> an early participant in a matter of justice and later an antagonist in disputes about Rahu honor.</li><li><a href=\"#scribonia\"><strong>Scribonia:</strong></a> a source of strategically valuable knowledge and a reminder that Talon could engage constructively before grievance dominated his dealings.</li></ul>\n<h2 id=\"talon-open-record\">The open record</h2>\n<p>Talon’s age, earlier life, appointment, complete informant network, the individual sequence of the assault, the Queen’s private judgment, the duel’s outcome, and his later fate remain unresolved. His history joins a real grievance to increasingly broad hostility without treating either pain or honor as proof that every later choice was justified.</p>"
+  },
+  {
+    "id": "sophina",
+    "title": "Ambassador Sophina",
+    "category": "People",
+    "type": "Rahu ambassador and state intermediary",
+    "dek": "The polished diplomatic voice of Rahu interests: willing to bargain and cooperate while defending the law and sovereignty of her own people.",
+    "tags": [
+      "Sophina",
+      "Ambassador Sophina",
+      "Rahu",
+      "Diplomacy",
+      "Ephiraith",
+      "Strange Talon",
+      "Magnus"
+    ],
+    "facts": {
+      "Office": "Ambassador · not royalty",
+      "Sovereign": "Witch Queen Ephiraith",
+      "Region": "Prima",
+      "Political priority": "Rahu law, honor, and interests",
+      "Recovered period": "January–May 2025",
+      "Species and later fate": "Unresolved"
+    },
+    "sources": [
+      "Ambassador_Sophina_NPC_Master.md — supplied 5 October 2026; consolidated NPC history and evidence distinctions"
+    ],
+    "body": "<p>Ambassador Sophina is a principal diplomatic representative of the Rahu, serving <strong>Witch Queen Ephiraith</strong>. She negotiates, listens, trades, evaluates reputations, and maintains boundaries around state business. Her courtesy can be genuine while her priority remains the Rahu.</p>\n<div class=\"quote\">We can lend an ear, but know, honor dictates that we always do what is best for the Rahu.<cite>Ambassador Sophina</cite></div>\n<h2 id=\"sophina-office\">An ambassador, not a queen</h2>\n<p>Sophina explicitly corrects people who address her as royalty. To confuse her office with Ephiraith’s sovereignty is an insult to the Witch Queen. She represents delegated state authority, not an independent claim to rule Prima.</p>\n<p>Her formal entourages, access to evaluated information, and coordination with <a href=\"#strange-talon\">Strange Talon</a>, Captain Hildethrax, treasurers, and guards make diplomacy part of an institution. Her species, age, and private relationship with Ephiraith are not established.</p>\n<h2 id=\"sophina-council\">20 January 2025: power requires governance</h2>\n<p>At an inter-faction council convened by <a href=\"#melian-starguard\">Melian Starguard</a>, Sophina argues that adventurers must be governed. Extraordinary wealth, magical power, mobility, and limited restraint can make them dangerous to the communities around them. Her response is external accountability; the conflict remains over whose authority and law should govern.</p>\n<p>She formally raises the assault on Strange Talon, calling him the Rahu’s noble and vigilant master of intelligence. In her account he was magically compelled, prevented from performing his duty on Rahu land, and nearly killed when he confronted those involved. She calls compulsion an act of extreme violence and treats the incident as a matter of Rahu sovereignty.</p>\n<p>When Fenwick d’Jorasco proposes lesser punishment, Sophina refuses. She maintains that Rahu law requires death for the offenses and that guests on Rahu territory owe obligations to their hosts. The account preserves her jurisdictional claim and severe legal position without presenting her demand as universally accepted law.</p>\n<h2 id=\"sophina-practical\">Food, transport, and the price of cooperation</h2>\n<p>Sophina also addresses ordinary survival. Asked about food, she answers that the Rahu will sell it. Transport costs money, and reducing reserves creates risk for her own people. Assistance is therefore possible without surrendering Rahu priorities.</p>\n<div class=\"quote\">He who waits is oft rewarded, and he who plans for the future greets it warmly.<cite>Ambassador Sophina</cite></div>\n<p>She can speak condescendingly about <a href=\"#eovar-harbor\">Eovar</a> while recognizing Fenwick as an honest and honorable individual according to Rahu sources. Reputation matters and can change with conduct, as her reassessment of Aidan also demonstrates. Cultural superiority, selective respect, and practical cooperation coexist in her diplomacy.</p>\n<h2 id=\"sophina-magnus\">May 2025: access must be earned</h2>\n<p>On 7 May, Sophina leads a delegation of roughly a dozen Rahu figures. <a href=\"#magnus\">Magnus Niriin</a> approaches, bows, and offers assistance. She allows limited accompaniment while refusing access to sensitive negotiations. Proximity to an ambassador does not make someone a state insider.</p>\n<p>When Magnus presses the boundary, she warns him not to overstep. Later he supplies information about people intending to interfere with a Rahu agreement, and she recognizes his usefulness. His progression is gradual: outsider, useful contact, information source, and eventually Rahu-aligned actor. It is not immediate trust or proof that she privately despises him.</p>\n<p>Sophina’s office provides a diplomatic bridge into the Rahu leadership. That role does not establish that she knew or ordered every later military operation, including the abduction of Melian.</p>\n<h2 id=\"sophina-relationships\">Diplomatic relationships</h2>\n<ul><li><strong>Witch Queen Ephiraith:</strong> the sovereign whose office gives Sophina’s words authority.</li><li><a href=\"#strange-talon\"><strong>Strange Talon:</strong></a> the intelligence chief whose grievance she publicly defends as an institutional and legal issue.</li><li><strong>Captain Hildethrax:</strong> a practical contact for transport and operational coordination. Their functional division is observed, not a complete formal hierarchy.</li><li><a href=\"#melian-starguard\"><strong>Melian Starguard:</strong></a> a political counterpart trying to protect a vulnerable settlement while Sophina speaks for a more confident state.</li><li><strong>Fenwick d’Jorasco:</strong> a respected intermediary whose reputation has practical value.</li><li><strong>Captain Jeele:</strong> a commercially useful negotiating partner whom Sophina can consider uncultured yet capable of a fair bargain.</li><li><a href=\"#magnus\"><strong>Magnus Niriin:</strong></a> an outsider who earns increasing attention through useful information while being reminded of his limits.</li></ul>\n<h2 id=\"sophina-open-record\">The open record</h2>\n<p>Her tenure, species, age, independent operational authority, private relationship with Ephiraith, knowledge of later covert plans, and postwar fate remain unresolved. Sophina’s willingness to talk does not make her neutral: she can compromise on means while remaining committed to Rahu interests.</p>"
+  }
+];
+for (const official of rahuOfficials) {
+  articles.push(official);
+  archiveIndex.npcs.push({ title: official.title, aliases: official.id === "sophina" ? ["Sophina"] : ["Rahu Master of Intelligence"], meta: official.type, article: official.id, summary: official.dek });
+  fixedArticlePaths.set(official.id, ["Characters", official.title]);
+  const branchTitle = official.id === "sophina" ? "Characters A–J" : "Characters K–W";
+  const branch = navigationRegions.find(region => region.title === "Characters").branches.find(branch => branch.title === branchTitle);
+  if (branch) {
+    const position = branch.items.findIndex(item => item.label.localeCompare(official.title) > 0);
+    branch.items.splice(position < 0 ? branch.items.length : position, 0, { label: official.title, article: official.id });
+  }
+}
+subchannelMap["strange-talon"] = [
+  { label: "Ambassador Sophina", article: "sophina", summary: "Diplomacy turns a grievance into a Rahu legal position." },
+  { label: "Magnus Niriin", article: "magnus", summary: "An outsider who becomes a Rahu operative." },
+  { label: "Ithilrûnë", article: "ithilrune", summary: "A central name in the grievance, with specific responsibility preserved carefully." }
+];
+subchannelMap["sophina"] = [
+  { label: "Strange Talon", article: "strange-talon", summary: "The intelligence chief whose case she represents." },
+  { label: "Magnus Niriin", article: "magnus", summary: "A useful contact who earns increasing proximity." },
+  { label: "Melian Starguard", article: "melian-starguard", summary: "Her counterpart in Pristinian diplomacy." }
+];
+for (const id of ["magnus", "olokun", "melian-starguard", "aravil", "ithilrune"]) {
+  const related = articles.find(article => article.id === id);
+  if (related) related.body = related.body.replace(/Ambassador Sophina/g, '<a href="#sophina">Ambassador Sophina</a>').replace(/Strange Talon/g, '<a href="#strange-talon">Strange Talon</a>');
+}
+const rahuQuoteRecord = articles.find(article => article.id === "memorable-quotes");
+if (rahuQuoteRecord) rahuQuoteRecord.body = rahuQuoteRecord.body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"rahu-voices\">Honor, law, and Rahu interests</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"sophina\"><blockquote>“We can lend an ear, but know, honor dictates that we always do what is best for the Rahu.”</blockquote><cite>Ambassador Sophina</cite></button><button class=\"quote-card\" data-article=\"sophina\"><blockquote>“He who waits is oft rewarded, and he who plans for the future greets it warmly.”</blockquote><cite>Ambassador Sophina</cite></button><button class=\"quote-card\" data-article=\"strange-talon\"><blockquote>“Ask about Aravil and Ithilrune some time. You will know. Your kind protected them.”</blockquote><cite>Strange Talon</cite></button></div><h2 id=\"why-these-lines-remain\">");
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -12093,7 +12180,7 @@ const livingTimelineArticle = articles.find(article => article.id === "living-ti
 if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${publicTimelineCount} recovered entries`;
 
 const byId = new Map(articles.map(article => [article.id, article]));
-const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"]]);
+const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"]]);
 
 const relationshipMaps = {
   magnus: {
@@ -13387,7 +13474,9 @@ const restrictedArticleIds = new Set([
   "delerium",
   "the-gate",
   "the-before-melian",
-  "papirak-paloma"
+  "papirak-paloma",
+  "strange-talon-statecraft",
+  "sophina-statecraft"
 ]);
 const AUTH_ORIGIN = "https://auth.fenumion.com";
 const VAULT_LOCK_KEY = "fenumion-vault-locked";

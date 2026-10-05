@@ -50,6 +50,9 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Scout_Lilian_NPC_Master.md` | Supplied 5 Oct 2026 | NPC master dossier | User-supplied synthesis of quest and raid records | Scout Lilian / Lillian | Scout history, fieldcraft, warnings, Rahu siege, direct command responsibility, and evidence limits | Scout Lilian biography, NPC directory, related character links, memorable quotations |
 
+| `Strange_Talon_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC master dossier | User-supplied; complete source retained privately | Strange Talon, Rahu intelligence, honor, and grievances | Public encounters and carefully attributed responsibility; restricted material excluded from the website bundle | Strange Talon biography, NPC directory, navigation, related records, quotation pool |
+| `Ambassador_Sophina_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC master dossier | User-supplied; complete source retained privately | Ambassador Sophina, Rahu diplomacy, jurisdiction, and practical cooperation | Office distinguished from sovereignty; restricted material excluded from the website bundle | Ambassador Sophina biography, NPC directory, navigation, related records, quotation pool |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

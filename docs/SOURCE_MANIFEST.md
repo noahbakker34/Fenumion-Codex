@@ -60,6 +60,9 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Zarathis_Dragonsisters_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC group master dossier | User-supplied; restricted operational details excluded | Sheeva, Kaiya / Kaiyah, Minyah; Zarathis within Fein Uaill | Public covert-service honors, distinct postwar lives, precise relationship evidence and aliases | Group and three individual biographies, directory, navigation, related pages, timeline, and quotes |
 
+| `Captain_Hildethrax_NPC_Master.md` | User-supplied 5 Oct 2026 | Public biography, Rahu links, three timeline entries, four quotations; hierarchy and Talon spelling uncertainty preserved. |
+| `Deyara_Thorn_Derya_Thorne_Mystery_Dossier.md` | User-supplied 5 Oct 2026 | Unresolved-name dossier, aliases, regional links, and month-level recording-anomaly entry; identity left unknown. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

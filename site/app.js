@@ -12498,6 +12498,104 @@ for (const event of [
 const dragonsisterQuotes = articles.find(article => article.id === "memorable-quotes");
 if (dragonsisterQuotes) dragonsisterQuotes.body = dragonsisterQuotes.body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"dragonsister-voices\">Service out of sight</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"dragonsisters\"><blockquote>“Without them, there is no victory.”</blockquote><cite>Captain Zythienne, honoring the Dragonsisters</cite></button><button class=\"quote-card\" data-article=\"kaiya-dragonsister\"><blockquote>“our story is in service, and out of sight.”</blockquote><cite>Kaiya Dragonsister</cite></button><button class=\"quote-card\" data-article=\"kaiya-dragonsister\"><blockquote>“Combat is not for me. I prefer guile and tact.”</blockquote><cite>Kaiya Dragonsister</cite></button><button class=\"quote-card\" data-article=\"minyah-dragonsister\"><blockquote>“I am a warrior with a mind. I must use it.”</blockquote><cite>Minyah Dragonsister</cite></button></div><h2 id=\"why-these-lines-remain\">");
 
+// Hildethrax’s public statecraft and Deyara’s unresolved evidence.
+const hildethraxDeyaraRecords = [
+  {
+    "id": "captain-hildethrax",
+    "title": "Captain Hildethrax",
+    "category": "People",
+    "type": "Rahu captain and operational officer",
+    "dek": "Second rank, guarded archives, investigations, and supply routes: the practical work behind Rahu authority.",
+    "tags": [
+      "Hildethrax",
+      "Captain Hildethrax",
+      "Rahu",
+      "Second rank",
+      "Prima",
+      "Logistics",
+      "Security"
+    ],
+    "facts": {
+      "Allegiance": "Rahu · Witch Queen Ephraith",
+      "Title": "Captain",
+      "Self-described standing": "Second rank · exact hierarchy unresolved",
+      "Responsibilities": "Investigation · access · security · logistics",
+      "Recovered scenes": "31 May 2024–20 January 2025",
+      "Species and later fate": "Unknown"
+    },
+    "sources": [
+      "Captain_Hildethrax_NPC_Master.md — supplied 5 October 2026; quest-RP parts 005, 006, 009, 016, 018"
+    ],
+    "body": "<p>Captain Hildethrax is a senior Rahu officer whose responsibilities bring together investigation, security, logistics, institutional access, and implementation. He serves within <a href=\"#ephraith\">Witch Queen Ephraith’s</a> state on <a href=\"#prima-pristinia\">Prima</a>, and introduces himself with precise attention to title, honor, and standing.</p>\n<div class=\"quote\">I am the honorable Captain Hildethrax, second rank.<cite>Captain Hildethrax</cite></div>\n<p>The meaning of second rank remains unresolved. His authority is established through what he does; the title alone does not make him second-in-command of the entire Rahu.</p>\n<h2 id=\"hildethrax-investigation\">31 May 2024: the Edran investigation</h2>\n<p>When the Rahu acolyte Edran is murdered, Hildethrax knows the condition of the scene and the evidence behind the suspicion of <a href=\"#nienna\">Nienna</a>. He confirms that the body has not been touched and reports that she was found in trees across the river to the west, with wet clothing.</p>\n<p>The accusation is later disproved. Ephraith accepts the evidence clearing Nienna and provides restitution. Hildethrax’s involvement establishes an investigative role, while the recovered account gives no basis for treating him as a knowing participant in a frame-up.</p>\n<h2 id=\"hildethrax-exchange\">18 June 2024: the cost of assistance</h2>\n<p>Asked whether Rahu assistance comes without strings, Hildethrax says that the bank can bear a short-term burden because it expects value over time. Loans are not free. Competition for scarce magical objects is, in his words, “Honest competition.” He names material interests plainly rather than pretending resources are unlimited.</p>\n<h2 id=\"hildethrax-archives\">7 August 2024: rank and guarded knowledge</h2>\n<p><a href=\"#olokun\">Olokun</a> asks to consult Rahu contamination records. Hildethrax refuses access because the visitors lack the required rank. The archives are guarded, and their contents have both cultural and strategic value.</p>\n<div class=\"quote\">Knowledge is sacred....and valuable.<cite>Captain Hildethrax</cite></div>\n<p>His refusal has limits. He is willing to send Rahu personnel to investigate credible contamination reports, even while withholding protected records and methods. A threat to Rahu interests can change the case for committing resources.</p>\n<p>He also explains a broad path toward membership: living among the Rahu, swearing allegiance on sacred ground, and undergoing initiation. That outline does not make him the final ritual authority or disclose the private rites themselves.</p>\n<h2 id=\"hildethrax-talon\">Talon’s wound and the limits of hospitality</h2>\n<p>Hildethrax offers <a href=\"#strange-talon\">Strange Talon</a> as an investigator, calling him “our best” and “a true bastion of our forces.” The offer is useful and pointed: the officer the outsiders need is also the man the Rahu believe they have wronged.</p>\n<p>When the grievance is challenged, Hildethrax points to the wound and weapon evidence. The archive sometimes calls this official Swift Talon or Sir Talon; the wider recovered Rahu material identifies the intelligence figure as Strange Talon. Those scene variants do not establish a separate senior official.</p>\n<p>Olokun invokes the offending adventurer’s wider heroic history. Hildethrax focuses on the injury under Rahu jurisdiction. His patience ends when guests continue questioning his people inside their home; he tells them to leave and perhaps not return. The dispute exposes how differently adventurers and state officials weigh reputation, evidence, and sovereignty.</p>\n<h2 id=\"hildethrax-security\">22 December 2024: at the door</h2>\n<p>At a formal gathering Hildethrax personally checks invitations. His repeated “Invitation, please” shows a captain enforcing an ordinary rule of access as directly as he guards more consequential institutions.</p>\n<h2 id=\"hildethrax-logistics\">20 January 2025: agreements need implementation</h2>\n<p>At the inter-faction council he greets Yllandaer cordially. His severity depends on the circumstances; he can smile and welcome an outsider’s interest.</p>\n<p>When <a href=\"#sophina\">Ambassador Sophina</a> agrees in principle to sell food to Fenwick d’Jorasco, she directs him to work out the arrangements with Hildethrax. Transport is expensive, and drawing down Rahu reserves carries risk. Negotiation must become a practical plan for moving supplies.</p>\n<h2 id=\"hildethrax-office\">The operational officer</h2>\n<p>Ephraith exercises sovereignty, Sophina represents Rahu interests diplomatically, Talon gathers intelligence, and <a href=\"#yami-no-majo\">Yami no Majo</a> handles specialist knowledge and teaching. Hildethrax’s recovered work turns decisions into procedures, guarded doors, investigations, and logistics. These observed functions leave the complete chain of command open.</p>\n<p>He is proud, practical, hierarchical, protective, and capable of cooperation within firm boundaries. His species, age, appointment, exact authority over Talon, individual battlefield actions in the 2025 war, and later fate remain unknown.</p>"
+  },
+  {
+    "id": "deyara-thorn",
+    "title": "Deyara Thorn",
+    "category": "People",
+    "type": "Unresolved Voraketh name · mystery dossier",
+    "dek": "A recovered name that resists preservation in Nuru’s memory book. The identity behind it remains unknown.",
+    "tags": [
+      "Deyara Thorn",
+      "Derya Thorne",
+      "Voraketh",
+      "Mystery",
+      "Coralyn",
+      "Memory",
+      "Veiled Watch"
+    ],
+    "facts": {
+      "Record status": "Unresolved name; identity unknown",
+      "Recent spelling": "Deyara Thorn",
+      "Older archive spelling": "Derya Thorne · relationship unresolved",
+      "Region of investigation": "Voraketh",
+      "Reported anomaly": "Coralyn · September 2026",
+      "Recording system": "Nuru’s memory book at the Veiled Watch"
+    },
+    "sources": [
+      "Deyara_Thorn_Derya_Thorne_Mystery_Dossier.md — supplied 5 October 2026; Voraketh full Codex 25 September 2026 and older location history"
+    ],
+    "body": "<p><strong>Deyara Thorn</strong> is a name recovered in the investigation of <a href=\"#voraketh\">Voraketh</a>. An older archive records <strong>Derya Thorne</strong>. Who or what either spelling identifies remains unresolved.</p>\n<p>This record preserves evidence about a name. It does not yet establish a person’s biography, species, gender, allegiance, location, or fate.</p>\n<h2 id=\"deyara-spellings\">Two spellings in the record</h2>\n<p>Recent Voraketh notes use Deyara Thorn; the older location archive uses Derya Thorne. Both spellings remain searchable. The difference could reflect transcription, damaged memory, separate names, or another cause. No current evidence settles it, or proves that the two forms identify one being.</p>\n<h2 id=\"deyara-recording\">September 2026: a name that resists preservation</h2>\n<p><a href=\"#coralyn\">Coralyn</a> reports that the name becomes strange or hushed when she attempts to preserve it in Nuru’s memory book at the Veiled Watch. It cannot be properly written there.</p>\n<p>That reported failure is the strongest direct evidence beyond the recovered name. Its cause remains unknown, as does whether the same difficulty occurs in other books, languages, or forms of communication.</p>\n<p>The memory book at the Veiled Watch is distinct from the Temple of Secrets. The Temple preserves knowledge against Voraketh’s losses; the reported difficulty with this name is specifically associated with Nuru’s memory book. The record does not establish the same failure in both systems.</p>\n<h2 id=\"deyara-evidence\">What the evidence supports</h2>\n<ul><li>The name occurs in the wider Voraketh investigation.</li><li>Recent and older records preserve different spellings.</li><li>Coralyn reports an unusual failure to record the name in a particular memory system.</li><li>No reliable current source identifies who or what the name belongs to.</li></ul>\n<h2 id=\"deyara-unknown-links\">The island’s other mysteries</h2>\n<p>Voraketh also contains the Maw, a figure associated with it, a possibly separate blurred watcher, the Chains, the Last Grove, and a resurrection-associated entity. Local testimony introduces the Destroyer tradition. None of those identities is established as Deyara.</p>\n<p>Anky reports that Nuru confirmed Talan made the Chains and their guardians. That attributed evidence strengthens the history of the Chains; it provides no direct link between Talan and this name. Physisia’s account that the Chains were once good and later became a curse likewise leaves Deyara’s involvement unknown.</p>\n<p>The recording anomaly does not establish that Nuru erased the name, that the Maw causes it, or that Deyara is more powerful than a god. Coralyn’s wider investigation keeps observations separate from connections inferred only because several things are strange.</p>\n<h2 id=\"deyara-open-questions\">Questions still open</h2>\n<p>Where was the name first recovered? Why does it resist recording? Do both spellings refer to the same thing? Can it be preserved elsewhere? Does any witness recognize it?</p>\n<p>Until further evidence answers those questions, the recovered name and the failure to keep it are the history available. Deyara’s identity, motives, moral character, and connections remain open.</p>"
+  }
+];
+for (const person of hildethraxDeyaraRecords) {
+  articles.push(person);
+  archiveIndex.npcs.push({ title: person.title, aliases: person.id === "deyara-thorn" ? ["Derya Thorne", "Deyara", "Derya"] : ["Hildethrax"], meta: person.type, article: person.id, summary: person.dek });
+  fixedArticlePaths.set(person.id, ["Characters", person.title]);
+  const branch = navigationRegions.find(region => region.title === "Characters").branches.find(branch => branch.title === "Characters A–J");
+  const position = branch.items.findIndex(item => item.label.localeCompare(person.title) > 0);
+  branch.items.splice(position < 0 ? branch.items.length : position, 0, { label: person.title, article: person.id });
+}
+subchannelMap["captain-hildethrax"] = [
+  { label: "Witch Queen Ephraith", article: "ephraith", summary: "Sovereign authority within the state Hildethrax serves." },
+  { label: "Ambassador Sophina", article: "sophina", summary: "Diplomatic agreements whose logistics she entrusts to Hildethrax." },
+  { label: "Strange Talon", article: "strange-talon", summary: "The intelligence official whose grievance Hildethrax defends." },
+  { label: "Nienna", article: "nienna", summary: "The wrongly suspected figure in the Edran investigation." }
+];
+subchannelMap["deyara-thorn"] = [
+  { label: "Voraketh", article: "voraketh", summary: "Regional context; the name’s connection to other mysteries remains unknown." },
+  { label: "Coralyn", article: "coralyn", summary: "The investigator reporting the name’s recording anomaly." }
+];
+for (const id of ["ephraith", "sophina", "strange-talon"]) {
+  const person = articles.find(article => article.id === id);
+  if (person) person.body = person.body.replaceAll("Captain Hildethrax", '<a href="#captain-hildethrax">Captain Hildethrax</a>');
+  (subchannelMap[id] || (subchannelMap[id] = [])).push({ label: "Captain Hildethrax", article: "captain-hildethrax", summary: "Rahu investigation, guarded access, and practical logistics." });
+}
+for (const id of ["voraketh", "coralyn", "ithilrune"]) {
+  (subchannelMap[id] || (subchannelMap[id] = [])).push({ label: "Deyara Thorn", article: "deyara-thorn", summary: "A recovered name and recording anomaly; its identity remains unresolved." });
+}
+const vorakethDeyaraRecord = articles.find(article => article.id === "voraketh");
+if (vorakethDeyaraRecord) vorakethDeyaraRecord.body = vorakethDeyaraRecord.body.replace('<strong>Deyara Thorn</strong> is the primary recent spelling', '<a href="#deyara-thorn"><strong>Deyara Thorn</strong></a> is the primary recent spelling');
+for (const event of [
+  { title: "Hildethrax reports the Edran investigation", meta: "31 May 2024", sort: "2024-05-31h", era: "2024 · Early encounters", kind: "Investigation", article: "captain-hildethrax", location: "Rahu territory; Prima", people: "Captain Hildethrax; Nienna; Edran; Ephraith", tags: ["Rahu", "evidence"], summary: "Hildethrax reports the scene and the evidence behind suspicion of Nienna. The accusation is later disproved." },
+  { title: "Hildethrax guards the Rahu archives", meta: "7 Aug 2024", sort: "2024-08-07h", era: "2024 · Early encounters", kind: "Rahu statecraft", article: "captain-hildethrax", location: "Rahu territory; Prima", people: "Captain Hildethrax; Olokun; Vaemyr; Talon", tags: ["rank", "archives", "sovereignty"], summary: "The second-rank captain refuses archive access, offers investigative cooperation, and defends Talon’s grievance." },
+  { title: "Sophina delegates food logistics to Hildethrax", meta: "20 Jan 2025", sort: "2025-01-20h", era: "2025 · Truth and authority", kind: "Supply logistics", article: "captain-hildethrax", location: "Inter-faction council; Prima", people: "Captain Hildethrax; Ambassador Sophina; Fenwick d’Jorasco", tags: ["Rahu", "food", "transport"], summary: "After agreeing in principle to sell food, Sophina directs Fenwick to Hildethrax to arrange transport and practical terms." },
+  { title: "Coralyn reports the Deyara recording anomaly", meta: "Sep 2026", sort: "2026-09", era: "2026 · Memory and evidence", kind: "Mystery evidence", article: "deyara-thorn", location: "Veiled Watch; Voraketh investigation", people: "Coralyn; Deyara Thorn / Derya Thorne (identity unresolved)", tags: ["memory", "name", "uncertainty"], summary: "Coralyn reports that the recovered name cannot be properly written in Nuru’s memory book. Its identity and the cause remain unknown." }
+]) {
+  if (!archiveIndex.timeline.some(item => item.title === event.title && item.sort === event.sort)) archiveIndex.timeline.push(event);
+}
+const hildethraxQuoteGallery = articles.find(article => article.id === "memorable-quotes");
+if (hildethraxQuoteGallery) hildethraxQuoteGallery.body = hildethraxQuoteGallery.body.replace('<h2 id="why-these-lines-remain">', '<h2 id="hildethrax-voices">Rank, resources, and guarded doors</h2><div class="quote-gallery"><button class="quote-card" data-article="captain-hildethrax"><blockquote>“I am the honorable Captain Hildethrax, second rank.”</blockquote><cite>Captain Hildethrax</cite></button><button class="quote-card" data-article="captain-hildethrax"><blockquote>“Knowledge is sacred....and valuable.”</blockquote><cite>Captain Hildethrax</cite></button><button class="quote-card" data-article="captain-hildethrax"><blockquote>“Honest competition.”</blockquote><cite>Captain Hildethrax</cite></button><button class="quote-card" data-article="captain-hildethrax"><blockquote>“Invitation, please.”</blockquote><cite>Captain Hildethrax</cite></button></div><h2 id="why-these-lines-remain">');
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -12505,7 +12603,11 @@ const livingTimelineArticle = articles.find(article => article.id === "living-ti
 if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${publicTimelineCount} recovered entries`;
 
 const byId = new Map(articles.map(article => [article.id, article]));
-const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"], ["sheeva", "sheeva-dragonsister"], ["sheeva-dragosister", "sheeva-dragonsister"], ["kaiya", "kaiya-dragonsister"], ["kaiyah", "kaiya-dragonsister"], ["kaiyah-dragonsister", "kaiya-dragonsister"], ["minyah", "minyah-dragonsister"]]);
+const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
+  ["hildethrax", "captain-hildethrax"],
+  ["derya-thorne", "deyara-thorn"],
+  ["deyara", "deyara-thorn"],
+  ["derya", "deyara-thorn"], ["sheeva", "sheeva-dragonsister"], ["sheeva-dragosister", "sheeva-dragonsister"], ["kaiya", "kaiya-dragonsister"], ["kaiyah", "kaiya-dragonsister"], ["kaiyah-dragonsister", "kaiya-dragonsister"], ["minyah", "minyah-dragonsister"]]);
 
 const relationshipMaps = {
   magnus: {

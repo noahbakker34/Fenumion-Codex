@@ -12173,6 +12173,69 @@ for (const id of ["magnus", "olokun", "melian-starguard", "aravil", "ithilrune"]
 const rahuQuoteRecord = articles.find(article => article.id === "memorable-quotes");
 if (rahuQuoteRecord) rahuQuoteRecord.body = rahuQuoteRecord.body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"rahu-voices\">Honor, law, and Rahu interests</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"sophina\"><blockquote>“We can lend an ear, but know, honor dictates that we always do what is best for the Rahu.”</blockquote><cite>Ambassador Sophina</cite></button><button class=\"quote-card\" data-article=\"sophina\"><blockquote>“He who waits is oft rewarded, and he who plans for the future greets it warmly.”</blockquote><cite>Ambassador Sophina</cite></button><button class=\"quote-card\" data-article=\"strange-talon\"><blockquote>“Ask about Aravil and Ithilrune some time. You will know. Your kind protected them.”</blockquote><cite>Strange Talon</cite></button></div><h2 id=\"why-these-lines-remain\">");
 
+// Huoth: angel identity publicly revealed by the current user canon update.
+const huothRecord = {
+  "id": "huoth",
+  "title": "Huoth, Emissary of Nuru",
+  "category": "People",
+  "type": "Angel of Nuru · caretaker of Gael",
+  "dek": "The guardian who kept Gael’s last sanctuary alive until mortals could carry its watch—and whose angelic nature was revealed after his physical service ended.",
+  "tags": [
+    "Huoth",
+    "Huon",
+    "Nuru",
+    "Angel",
+    "Gael",
+    "Sanctuary",
+    "Plains of Trial",
+    "Service"
+  ],
+  "facts": {
+    "Nature": "Angel of Nuru · subtype unknown",
+    "Role": "Emissary and caretaker of Gael",
+    "Sanctuary": "Tower of Gael · Nuru’s Eye",
+    "First recovered meeting": "11 June 2024",
+    "Physical service ended": "3 March 2025",
+    "Later manifestation": "Shadow or echo at Nuru’s altar · 2026",
+    "Early name variant": "Huon"
+  },
+  "sources": [
+    "Huoth_Emissary_of_Nuru_NPC_Master.md — supplied 5 October 2026; consolidated Gael history and dated departure",
+    "Current canon update supplied with dossier — angel identity now revealed; other restricted material remains private"
+  ],
+  "body": "<p>Huoth, Emissary of Nuru, guarded the <a href=\"#tower-of-gael\">Tower of Gael</a> and its sanctuary while the surrounding island remained devastated. He welcomed adventurers, guided their first expeditions, distributed gifts, coordinated reinforcements, and protected the possibility of a living <a href=\"#gael\">Gael</a>.</p>\n<p>His newly revealed nature is <strong>an angel of Nuru</strong>. That later revelation clarifies who had kept the watch; it does not mean the first adventurers knew his full identity when they met him. No specific celestial subtype is established.</p>\n<h2 id=\"huoth-arrival\">11 June 2024: a home prepared for them</h2>\n<p>The arriving party entered a protected area whose magic searched the soul and threatened fiends and undead. Huoth emerged from the rocks, having expected them. His face was described as darkness and beautiful arcane power. The description does not establish a particular humanoid species or that his original body was literally stone or shadow.</p>\n<div class=\"quote\">My master has long prepared this to be your home. Welcome to the real fight.<cite>Huoth</cite></div>\n<p>His first introduction used “Huon, caretaker of Gael.” The archive retains Huon as an early dialogue variant rather than inventing a separate person. The Tower had once served the island’s people; in the ruined land it became a last sanctuary, with a library, forge, arcanum, sleeping quarters, meditation chambers, stone guardians, and a protective beacon.</p>\n<h2 id=\"huoth-boundary\">Nuru’s Eye and the limits of his watch</h2>\n<p>Huoth’s duty was bound by a geas to the protected place. He could lead adventurers to the boundary, but his power waned beyond Nuru’s Eye. The great guardian statues marked the edge of that extraordinary protection. Its full mechanics remain unrecovered.</p>\n<p>That limit shaped the work. Huoth could prepare, advise, reward, and preserve a refuge; the adventurers had to cross into the wasteland themselves. He treated the Tower as their inheritance and a responsibility they would eventually be strong enough to carry.</p>\n<h2 id=\"huoth-trial\">17 June 2024: the Plains of Trial</h2>\n<p>Huoth directed the party to remove the evil infesting Gael, make exploration safer, study the devastation, and recover knowledge useful against Death. Bringing back evidence of defeated creatures made the hunt a means of learning and restoration as well as combat.</p>\n<p>At Titan’s Gate, enormous ruined statues prompted questions he could not fully answer. He openly admitted that even Nuru did not know or remember everything. Beyond the sanctuary lay poisoned air, smog, lifeless soil, fiends, and undead: a land where destruction was being maintained rather than simply remembered.</p>\n<p>Huoth’s warnings about Death and the Knights were strategic guidance from a knowledgeable emissary. They retain their speaker and do not turn every theological explanation into an unqualified universal rule. The party would need patience and growth before confronting those powers.</p>\n<h2 id=\"huoth-wisdom\">A teacher who valued doubt</h2>\n<p>Huoth withheld some answers until a seeker was ready. When Saray doubted him, he praised doubt as wisdom. He described his own practice as twisting truth without lying: selective explanation and careful phrasing could guide someone without supplying every conclusion.</p>\n<div class=\"quote\">It’s good to have a little doubt. We call that wisdom.<cite>Huoth</cite></div>\n<p>His insight into people was associated with Nuru’s sacred space; it does not establish unrestricted mind-reading everywhere. He encouraged <a href=\"#dale\">Dale</a> to stop fearing the hero within, recognized Saray’s bravery and wisdom, and trusted <a href=\"#gartina\">Gartina</a> to learn how the land could heal.</p>\n<p>Warmth and humor accompanied the mystery. Huoth teased Quake’s seriousness, called Gartina a brave baker, and became familiar enough for her to joke about his fondness for fondant. His gifts and encouragement made the sanctuary a place of relationship as well as power.</p>\n<h2 id=\"huoth-wrath\">July 2024: the danger changes</h2>\n<p>Wrath’s arrival made Huoth visibly worried. Nienna’s death had reduced the party’s magical strength, and he helped arrange a return to Pristinia for reinforcements, identifying Bitoshi, Scribonia, Adelia, Wren, and Akarian among possible allies.</p>\n<p>On 18 July he urgently asked the adventurers to defend Vysaeth’s tomb, believing Wrath wanted its secrets and fearing that its loss would bring Gael’s evils closer to the sanctuary. Huoth’s fear was part of his care for the land, not a failure of his role.</p>\n<p>When the wider war made victory seem uncertain, he answered with continued effort rather than a promise that everything would be well.</p>\n<div class=\"quote\">Does it matter? All we can do is strive, until our breath gives out, or our souls.<cite>Huoth</cite></div>\n<h2 id=\"huoth-farewell\">3 March 2025: the watch ends</h2>\n<p>By March, refugees depended on the protected lands around the Tower. Huoth appeared tired but smiling when the guards located the last major hostile force threatening the restored area. The adventurers defeated the final Doomcaller, Deathwolf, and devils, and the narration declared Gael safe for refugees to repopulate.</p>\n<p>Safety at that milestone did not mean an entire civilization had already been rebuilt. It meant the sanctuary’s old defensive purpose could finally give way to life returning beyond it.</p>\n<p>Huoth thanked the victorious adventurers and announced that he was no longer needed. Dale asked him to stay; Saray was saddened; <a href=\"#adelia-hope\">Adelia</a> said she was honored to have known him. His departure completed his service. His physical body dissolved into black dust and left his robes behind, which Adelia gathered for honoring him.</p>\n<div class=\"quote\">So one watch ends, and another begins.<cite>Huoth</cite></div>\n<h2 id=\"huoth-revelation\">The later revelation: an angel of Nuru</h2>\n<p>In a later 2026 encounter, Fenwick d’Jorasco met a shadow or preserved echo at Nuru’s altar. It identified itself with Huoth, whose physical watch had already ended. Asked about his earlier nature, Huoth answered directly:</p>\n<div class=\"quote\">I am....or was an angel of Nuru.<cite>Huoth</cite></div>\n<p>The revelation belongs to this later stage of knowledge. <strong>Angel of Nuru</strong> is established; Deva, Planetar, Solar, or another more specific classification is not. The appearance of an echo does not by itself establish ordinary resurrection, a restored physical body, or continuous consciousness outside those encounters.</p>\n<h2 id=\"huoth-relationships\">The people who inherited his watch</h2>\n<ul><li><strong>Nuru:</strong> the master Huoth served and the source of his sanctuary responsibilities. Devotion did not make either figure omniscient.</li><li><a href=\"#gartina\"><strong>Gartina:</strong></a> a recipient of encouragement and the Rogue’s Mantle, whose gratitude and humor show the personal life of the watch.</li><li><a href=\"#dale\"><strong>Dale:</strong></a> a hero Huoth urged to recognize his own capacity, and one of those who wanted him to remain.</li><li><strong>Saray:</strong> a doubtful seeker whose bravery and wisdom he recognized, and a witness saddened by his departure.</li><li><a href=\"#elenia\"><strong>Elenia:</strong></a> his “little light lady,” a recipient of a crown and part of Gael’s early learning.</li><li><a href=\"#wren\"><strong>Wren:</strong></a> a fighter whose intensity he believed the wider war would need and who understood something of the burden of service.</li><li><a href=\"#adelia-hope\"><strong>Adelia:</strong></a> an ally who arrived as reinforcement, exchanged gratitude with him, and cared for the robes he left.</li><li><strong>Fenwick d’Jorasco:</strong> the later seeker who encountered the remnant and heard the explicit angel identification.</li></ul>\n<h2 id=\"huoth-open-record\">The open record</h2>\n<p>Huoth’s creation, age, duration of the watch, exact celestial classification, the Huon variant, the fate of his robes, and the precise nature of the lingering shadow remain open. His success changed the island’s obligations: a sanctuary preserved long enough for others to become its caretakers.</p>"
+};
+articles.push(huothRecord);
+archiveIndex.npcs.push({ title: huothRecord.title, aliases: ["Huoth", "Huon"], meta: "Angel of Nuru · caretaker of Gael", article: "huoth", summary: huothRecord.dek });
+fixedArticlePaths.set("huoth", ["Characters", huothRecord.title]);
+const huothBranch = navigationRegions.find(region => region.title === "Characters").branches.find(branch => branch.title === "Characters A–J");
+if (huothBranch) {
+  const position = huothBranch.items.findIndex(item => item.label.localeCompare(huothRecord.title) > 0);
+  huothBranch.items.splice(position < 0 ? huothBranch.items.length : position, 0, { label: huothRecord.title, article: "huoth" });
+}
+subchannelMap["huoth"] = [
+  { label: "Gael", article: "gael", summary: "The land whose sanctuary he guarded." },
+  { label: "Tower of Gael", article: "tower-of-gael", summary: "The protected home prepared for the adventurers." },
+  { label: "Gartina", article: "gartina", summary: "A brave baker encouraged to learn how the land could heal." },
+  { label: "Adelia & Hope", article: "adelia-hope", summary: "An ally who honored the robes he left behind." }
+];
+for (const id of ["gael", "tower-of-gael", "gartina", "dale", "elenia", "wren", "adelia-hope"]) {
+  const related = articles.find(article => article.id === id);
+  if (related) related.body = related.body.replace(/\bHuoth\b/g, '<a href="#huoth">Huoth</a>');
+}
+for (const id of ["gael", "tower-of-gael"]) {
+  const relatedChannels = subchannelMap[id] || (subchannelMap[id] = []);
+  if (!relatedChannels.some(item => item.article === "huoth")) relatedChannels.push({ label: "Huoth, Emissary of Nuru", article: "huoth", summary: "The angel who guarded the sanctuary until the adventurers could continue its watch." });
+}
+for (const event of [
+  { title: "Huoth welcomes the Gael adventurers", meta: "11 Jun 2024", sort: "2024-06-11b", era: "2024 · The Calling", kind: "Sanctuary and inheritance", article: "huoth", location: "Tower of Gael; Gael", people: "Huoth; the early Gael adventurers", tags: ["Gael", "sanctuary", "Huoth"], summary: "The caretaker welcomes the adventurers to the protected Tower and the wider war. His angel identity is revealed in a later encounter, rather than assumed as knowledge at this first meeting." },
+  { title: "Huoth completes his watch as Gael becomes safe", meta: "3 Mar 2025", sort: "2025-03-03", era: "2025 · Truth and authority", kind: "Restoration and farewell", article: "huoth", location: "Gael; Tower sanctuary", people: "Huoth; Gael adventurers; refugees", tags: ["Gael", "service", "restoration"], summary: "The final major force threatening the restored lands is defeated and refugees can repopulate Gael. Huoth thanks the adventurers, ends his physical watch, and dissolves into black dust, leaving his robes." }
+]) {
+  if (!archiveIndex.timeline.some(item => item.title === event.title && item.sort === event.sort)) archiveIndex.timeline.push(event);
+}
+const huothQuotes = articles.find(article => article.id === "memorable-quotes");
+if (huothQuotes) huothQuotes.body = huothQuotes.body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"huoth-voices\">Wisdom and the long watch</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"huoth\"><blockquote>“It’s good to have a little doubt. We call that wisdom.”</blockquote><cite>Huoth</cite></button><button class=\"quote-card\" data-article=\"huoth\"><blockquote>“Does it matter? All we can do is strive, until our breath gives out, or our souls.”</blockquote><cite>Huoth</cite></button><button class=\"quote-card\" data-article=\"huoth\"><blockquote>“So one watch ends, and another begins.”</blockquote><cite>Huoth</cite></button><button class=\"quote-card\" data-article=\"huoth\"><blockquote>“I am....or was an angel of Nuru.”</blockquote><cite>Huoth</cite></button></div><h2 id=\"why-these-lines-remain\">");
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -12180,7 +12243,7 @@ const livingTimelineArticle = articles.find(article => article.id === "living-ti
 if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${publicTimelineCount} recovered entries`;
 
 const byId = new Map(articles.map(article => [article.id, article]));
-const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"]]);
+const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"]]);
 
 const relationshipMaps = {
   magnus: {

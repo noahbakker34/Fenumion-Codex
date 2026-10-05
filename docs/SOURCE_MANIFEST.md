@@ -53,6 +53,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 | `Strange_Talon_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC master dossier | User-supplied; complete source retained privately | Strange Talon, Rahu intelligence, honor, and grievances | Public encounters and carefully attributed responsibility; restricted material excluded from the website bundle | Strange Talon biography, NPC directory, navigation, related records, quotation pool |
 | `Ambassador_Sophina_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC master dossier | User-supplied; complete source retained privately | Ambassador Sophina, Rahu diplomacy, jurisdiction, and practical cooperation | Office distinguished from sovereignty; restricted material excluded from the website bundle | Ambassador Sophina biography, NPC directory, navigation, related records, quotation pool |
 
+| `Huoth_Emissary_of_Nuru_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC master dossier | User-supplied; angel identity explicitly released in accompanying canon update | Huoth / Huon, Gael, sanctuary, service, and later revelation | Public caretaker history and newly revealed angel identity; remaining restricted lore excluded | Huoth biography, directory, navigation, related pages, aliases, and quotations |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

@@ -2253,3 +2253,12 @@ body.quotes-view .article-body > h2 { text-shadow: 0 2px 14px rgba(0, 0, 0, .82)
   .faction-interaction-atlas .relationship-center { width: 100%; }
   .relationship-node.filtered-out { display: none; }
 }
+
+/* Voice controls sit beside the quote’s existing navigation button. */
+.quote-voice { display: grid; min-width: 0; position: relative; }
+.quote-voice > .quote-card, .quote-voice > .feature-quote { width: 100%; }
+.quote-voice-play { min-width: 8rem; white-space: nowrap; justify-self: start; margin: .35rem 0 .65rem; padding: .35rem .65rem; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--gold-bright); font: .75rem/1.4 var(--text); cursor: pointer; }
+.quote-voice-play:hover, .quote-voice-play:focus-visible { border-color: var(--gold); outline: 2px solid var(--gold); outline-offset: 2px; }
+.quote-voice.voice-playing > .quote-voice-play { color: #fff; border-color: var(--gold); }
+.quote-voice-inline { display: inline-flex; flex-wrap: wrap; align-items: center; max-width: 100%; }
+.quote-voice-inline > .quote-voice-play { margin-left: .4rem; }

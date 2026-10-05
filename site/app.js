@@ -14552,7 +14552,74 @@ function renderNavigation() {
       <button class="nav-link${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}" aria-label="${protectedRecordAria(item.label, !isPlayerSafeArticle(item.article))}"><span>${protectedRecordTitle(item.label, !isPlayerSafeArticle(item.article))}</span><span>›</span></button>`).join("")}</section>`;
 }
 
+const magnusQuoteVoice = new Audio("assets/voices/magnus-hope-is-dead.mp3");
+magnusQuoteVoice.preload = "none";
+let activeQuoteVoice = null;
+
+function stopQuoteVoice() {
+  magnusQuoteVoice.pause();
+  magnusQuoteVoice.currentTime = 0;
+  if (activeQuoteVoice) {
+    activeQuoteVoice.classList.remove("voice-playing");
+    const control = activeQuoteVoice.querySelector(".quote-voice-play");
+    if (control) { control.textContent = "▶ Play voice"; control.setAttribute("aria-pressed", "false"); }
+  }
+  activeQuoteVoice = null;
+}
+magnusQuoteVoice.addEventListener("ended", stopQuoteVoice);
+document.addEventListener("visibilitychange", () => { if (document.hidden) stopQuoteVoice(); });
+
+function setupQuoteVoices() {
+  // Rebuild the featured quote’s controls when its hourly text changes.
+  articleContent.querySelectorAll(".quote-voice").forEach(wrapper => {
+    if (wrapper === activeQuoteVoice) stopQuoteVoice();
+    const quote = wrapper.firstElementChild;
+    wrapper.replaceWith(quote);
+  });
+  const normalize = text => text.toLowerCase().replace(/[^a-z]/g, "");
+  const targetText = "hopeisdeadonlyambitionremains";
+  const candidates = articleContent.querySelectorAll(".quote-card, .feature-quote, .article-body > blockquote, .article-body strong");
+  candidates.forEach(quote => {
+    const words = quote.matches(".quote-card, .feature-quote") ? quote.querySelector("blockquote") : quote;
+    const text = quote.matches("blockquote") ? quote.querySelector("p") || quote : words;
+    if (!text || normalize(text.textContent) !== targetText) return;
+    const wrapper = document.createElement("span");
+    wrapper.className = `quote-voice${quote.matches("strong") ? " quote-voice-inline" : ""}`;
+    quote.before(wrapper);
+    wrapper.append(quote);
+    const control = document.createElement("button");
+    control.type = "button";
+    control.className = "quote-voice-play";
+    control.textContent = "▶ Play voice";
+    control.setAttribute("aria-label", "Play Magnus Niriin’s voice: Hope is dead, only ambition remains");
+    control.setAttribute("aria-pressed", "false");
+    control.title = "Hover to hear Magnus, or press to play";
+    wrapper.append(control);
+    const play = () => {
+      stopQuoteVoice();
+      activeQuoteVoice = wrapper;
+      wrapper.classList.add("voice-playing");
+      control.textContent = "■ Stop voice";
+      control.setAttribute("aria-pressed", "true");
+      // Browsers can require a click before permitting hover audio.
+      magnusQuoteVoice.play().catch(() => { if (activeQuoteVoice === wrapper) stopQuoteVoice(); });
+    };
+    wrapper.addEventListener("pointerenter", event => {
+      if (event.pointerType === "mouse" && !document.elementFromPoint(event.clientX, event.clientY)?.closest(".quote-voice-play")) play();
+    });
+    wrapper.addEventListener("pointerleave", event => { if (event.pointerType === "mouse" && activeQuoteVoice === wrapper) stopQuoteVoice(); });
+    quote.addEventListener("focus", play);
+    wrapper.addEventListener("focusout", event => { if (!wrapper.contains(event.relatedTarget) && activeQuoteVoice === wrapper) stopQuoteVoice(); });
+    control.addEventListener("click", event => {
+      event.stopPropagation();
+      if (activeQuoteVoice === wrapper && !magnusQuoteVoice.paused) stopQuoteVoice();
+      else play();
+    });
+  });
+}
+
 function renderArticle(route, pushHash = true) {
+  stopQuoteVoice();
   clearTimeout(featuredContentTimer);
   const [requestedId, routeQuery = ""] = String(route || "").split("?");
   const id = routeAliases.get(requestedId) || requestedId;
@@ -14656,6 +14723,7 @@ function renderArticle(route, pushHash = true) {
   setupRelationshipMap(article);
   setupAmbientVideos(articleContent);
   applyPlayerSafeRedactions();
+  setupQuoteVoices();
   document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
   buildContents();
@@ -14793,6 +14861,7 @@ function setupFeaturedContent() {
     ? "assets/archive/olokun-memorable-quote.png"
     : (isPlayerSafeArticle(quote.articleId) && speaker?.image) || "assets/archive/world-map.jpeg";
   featured.style.setProperty("--featured-quote-image", `url(${JSON.stringify(image)})`);
+  setupQuoteVoices();
   featuredContentTimer = setTimeout(setupFeaturedContent, hour - (now % hour) + 25);
 }
 

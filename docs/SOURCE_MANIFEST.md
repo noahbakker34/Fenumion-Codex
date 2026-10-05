@@ -55,6 +55,9 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Huoth_Emissary_of_Nuru_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC master dossier | User-supplied; angel identity explicitly released in accompanying canon update | Huoth / Huon, Gael, sanctuary, service, and later revelation | Public caretaker history and newly revealed angel identity; remaining restricted lore excluded | Huoth biography, directory, navigation, related pages, aliases, and quotations |
 
+| `Yami_no_Majo_NPC_Master.md` | Supplied 5 Oct 2026 | NPC master dossier | User-supplied, primarily player-facing | Yami no Majo, Rahu knowledge, Dasa etiquette | Direct statements distinguished from Eugene’s theories and Lucido’s reported discoveries | New biography, directory, navigation, related records, timeline, and quotes |
+| `Witch_Queen_Ephraith_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC master dossier | User-supplied; private rites excluded | Ephraith / Ephiraith / Epriath, justice, war, peace | Correct primary spelling, public restitution and diplomacy, attributed conflict accounts | Queen biography and existing portrait, updated directory, aliases, related records, timeline, and quotes |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

@@ -12343,6 +12343,161 @@ for (const event of [
 const rahuKnowledgeQuotes = articles.find(article => article.id === "memorable-quotes");
 if (rahuKnowledgeQuotes) rahuKnowledgeQuotes.body = rahuKnowledgeQuotes.body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"rahu-knowledge-and-peace\">Belonging, correction, and peace</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"yami-no-majo\"><blockquote>“But of course, for you would be one of us.”</blockquote><cite>Yami no Majo</cite></button><button class=\"quote-card\" data-article=\"yami-no-majo\"><blockquote>“Of course, though teaching others would be strictly prohibited.”</blockquote><cite>Yami no Majo</cite></button><button class=\"quote-card\" data-article=\"ephraith\"><blockquote>“You were right, your friend was innocent.”</blockquote><cite>Witch Queen Ephraith</cite></button><button class=\"quote-card\" data-article=\"ephraith\"><blockquote>“Questions are wise. Continue.”</blockquote><cite>Witch Queen Ephraith</cite></button><button class=\"quote-card\" data-article=\"ephraith\"><blockquote>“While this is noble, we also must be practical.”</blockquote><cite>Witch Queen Ephraith</cite></button></div><h2 id=\"why-these-lines-remain\">");
 
+// Dragonsisters: public honors and personal history; operational details excluded.
+const dragonsisterRecords = [
+  {
+    "id": "dragonsisters",
+    "title": "The Dragonsisters",
+    "category": "People",
+    "type": "Zarathian Dragonborn sisters and deep-cover agents",
+    "dek": "Sheeva, Kaiya, and Minyah spent five years out of sight; Zarathis brought their service into the light, then each chose a different life after the war.",
+    "tags": [
+      "Dragonsisters",
+      "Dragonborn",
+      "Sheeva",
+      "Kaiya",
+      "Kaiyah",
+      "Minyah",
+      "Zarathis",
+      "Fein Uaill"
+    ],
+    "facts": {
+      "Members": "Sheeva · Kaiya / Kaiyah · Minyah",
+      "People": "Dragonborn",
+      "Allegiance": "Zarathis · Fein Uaill",
+      "Covert service": "Approximately five years",
+      "Public recognition": "15 July 2025",
+      "Honor": "Ladies of the lands; care promised to their families",
+      "Later individual fates": "Unresolved"
+    },
+    "sources": [
+      "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+    ],
+    "body": "<p>The Dragonsisters are <a href=\"#sheeva-dragonsister\">Sheeva</a>, <a href=\"#kaiya-dragonsister\">Kaiya</a>, and <a href=\"#minyah-dragonsister\">Minyah</a>, three Dragonborn women whose long-term intelligence work helped <a href=\"#zarathis\">Zarathis</a> win its war against the draconic cultists. Their home and service place them within <a href=\"#fein-uaill\">Fein Uaill</a>.</p>\n<p>They served Zarathis while living among its enemies. Their public recognition followed that work; the source does not describe enemy collaborators opportunistically changing sides. They are presented as genuinely close and sincerely aligned with the state they served.</p>\n<h2 id=\"dragonsisters-cover\">Five years living out of sight</h2>\n<p>Captain Zythienne’s public account describes approximately five years studying the enemy, living among them, learning ranks and customs, and risking exposure to bring intelligence home. The approximate duration does not establish an exact starting date or the identities each sister used.</p>\n<p>The enemy is described as dragon or draconic cultists. Its formal faction name is not recovered here. The sisters’ work gave Zarathis knowledge of its opponent’s society and conduct alongside information useful to the war.</p>\n<h2 id=\"dragonsisters-honor\">15 July 2025: service becomes public</h2>\n<p>At the victory celebration, Zythienne calls Sheeva, Kaiyah, and Minyah before the crowd. He credits the sisters with making victory possible and singles out Sheeva for discovering that the enemy fed enslaved captives to dragons.</p>\n<div class=\"quote\">Without them, there is no victory.<cite>Captain Zythienne, honoring the Dragonsisters</cite></div>\n<p>This is a publicly attributed discovery. Its exact circumstances, whether Sheeva directly witnessed a feeding, and whether it caused her scar remain unknown.</p>\n<p>The sisters are elevated to <strong>ladies of the lands</strong>, and their families are promised honor and care across generations. The source establishes status and gratitude, without supplying estates, acreage, succession rights, council seats, or military command.</p>\n<h2 id=\"dragonsisters-names\">Names and different presences</h2>\n<p>Kaiyah is the spelling used in the public introduction; later scenes use Kaiya Dragonsister, which the Codex adopts as the primary display name. Both are aliases. Sheeva’s occasional “Dragosister” label is normalized to Dragonsister.</p>\n<p>At the ceremony Minyah waves, Kaiya hides shyly, and Sheeva stands proudly. Later observation identifies Sheeva as the social leader and confirms their closeness. Social leadership does not establish that she formally commanded the five-year operation.</p>\n<h2 id=\"dragonsisters-after\">Three paths after the war</h2>\n<ul><li><a href=\"#sheeva-dragonsister\"><strong>Sheeva</strong></a> takes a reprieve, paints, and develops an openly mutual romantic attachment with Eugene. Her efforts to heal remain her own work; the relationship does not erase her earlier service.</li><li><a href=\"#kaiya-dragonsister\"><strong>Kaiya</strong></a> prefers guile and tact, describes herself as “of the Veil,” and pursues research into Dragonborn origins. Her exact institutional status remains unresolved.</li><li><a href=\"#minyah-dragonsister\"><strong>Minyah</strong></a> stays modest about the honor and prepares for another mission, treating thought and fieldwork as part of being a warrior.</li></ul>\n<p>Their shared mission creates a national legend without making their personalities or later ambitions identical.</p>\n<h2 id=\"dragonsisters-relationships\">Zarathis and the people around them</h2>\n<p>Zythienne makes their hidden contribution publicly visible, but the dossier does not establish that he recruited or managed them throughout the operation. The exact family relationship among the three remains open even though their dialogue and conduct clearly treat them as sisters.</p>\n<p><a href=\"#eugene\">Eugene</a> becomes important to Sheeva; Eldin Stormheart discusses history and arranges a library date with Kaiya; <a href=\"#scribonia\">Scribonia</a> learns Minyah’s plans while dancing with her. These are distinct relationships with different levels of evidence.</p>\n<h2 id=\"dragonsisters-open-record\">The open record</h2>\n<p>Their ages, Dragonborn ancestries, genealogy, recruitment, cover identities, untold experiences during the five years, exact meaning of their honors, and later fates remain unresolved. Wartime operational details are preserved separately from this public history.</p>"
+  },
+  {
+    "id": "sheeva-dragonsister",
+    "title": "Sheeva Dragonsister",
+    "category": "People",
+    "type": "Zarathian operative, honored lady, and painter",
+    "dek": "A soldierly intelligence operative whose public service, painting, and growing trust in Eugene preserve different parts of her life after war.",
+    "tags": [
+      "Sheeva",
+      "Sheeva Dragosister",
+      "Dragonsisters",
+      "Dragonborn",
+      "Zarathis",
+      "Fein Uaill",
+      "Eugene",
+      "Painting"
+    ],
+    "facts": {
+      "People": "Dragonborn",
+      "Sisters": "Kaiya and Minyah",
+      "Service": "Five-year Zarathian deep-cover operation",
+      "Public accomplishment": "Discovery of captives being fed to dragons",
+      "Recognition": "Lady of the lands · 15 July 2025",
+      "Postwar pursuits": "Painting and relationship with Eugene",
+      "Marriage or betrothal": "Not established"
+    },
+    "sources": [
+      "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+    ],
+    "body": "<p>Sheeva is one of <a href=\"#dragonsisters\">the Dragonsisters</a>, the three Dragonborn agents whose long infiltration helped <a href=\"#zarathis\">Zarathis</a> understand and defeat the draconic cultists. Captain Zythienne specifically credits her with discovering the feeding of enslaved captives to dragons.</p>\n<h2 id=\"sheeva-service\">A public hero with a history beneath the mask</h2>\n<p>At the July 2025 ceremony Sheeva stands proudly, and later observation identifies her as the sisters’ social leader. Her role in the mission remains broader than one named discovery, but the recovered record does not give her a formal rank over Kaiya and Minyah.</p>\n<p>In the July interaction that leads Eugene toward her, the paired sister is described as soldierly, masked, apparently concealing a battle scar, and letting the others speak. Later dialogue resolves that pairing onto Sheeva. Kaiya is separately described as normally masked, so the mask is not an exclusive means of identifying Sheeva.</p>\n<p>The origin of the scar and her exact experiences undercover remain unrecovered. Her presentation supports a history touched by violence without supplying a diagnosis or an invented account of how she was injured.</p>\n<h2 id=\"sheeva-july\">15 July: Eugene notices the reserve</h2>\n<p><a href=\"#eugene\">Eugene</a> first notices discomfort in the crowd because he recognizes something familiar in it. Later that evening he addresses Sheeva by name, apologizes when an urgent discussion pulls him away, and returns to the leap they had planned together. The record establishes his return to her, without recovering the full details of the leap.</p>\n<h2 id=\"sheeva-august\">19 August: painting and mutual interest</h2>\n<p>At their reunion Eugene asks Lady Sheeva to dance. She says she missed him and responds affectionately. She takes interest in his Shadow Roads research and invites a future walk together. His intellectual life is part of what she wants to know.</p>\n<p>Sheeva has been painting because she has heard it can heal the heart and mind. She shows him a work centered on Eugene, whom she calls the thing occupying her thoughts. The scene joins her own attempt to recover after the war with an emerging relationship; it does not establish that Eugene cured her distress.</p>\n<p>By August her interest is openly reciprocal. She wants to leave with her gallant man, while <a href=\"#kaiya-dragonsister\">Kaiya</a> approves of Eugene’s humility and the dignity with which he treats her sister.</p>\n<h2 id=\"sheeva-december\">5 December: familiarity and trusted company</h2>\n<p>Sheeva and Eugene greet each other warmly after another absence. Before treating the evening as theirs alone, he insists they first pay respects and offer condolences in her home. She calls this honorable; he also declines credit for an idea that was not his own.</p>\n<p>Later distress leads Sheeva to ask for his company rather than being alone. This shows vulnerability and trust alongside the brave, teasing public figure. The biography preserves the emotional significance without making the relationship her entire identity.</p>\n<h2 id=\"sheeva-limits\">The relationship and the open record</h2>\n<p>Repeated reunions, affection, explicit flirtation, the painting, and Kaiya’s approval establish a meaningful mutual attachment. Marriage, engagement, exclusivity, children, formal vows, relocation, or abandonment of either person’s other obligations are not established.</p>\n<p>Her five-year service predates Eugene. Its exact methods, her ancestry, age, scar’s origin, later artistic work, and eventual fate remain open. Sheeva’s history includes intelligence, national recognition, recovery, and affection without allowing one part to replace the others.</p>"
+  },
+  {
+    "id": "kaiya-dragonsister",
+    "title": "Kaiya Dragonsister",
+    "category": "People",
+    "type": "Zarathian intelligence operative and scholar",
+    "dek": "Patient and cautious, Kaiya turns the instincts of a long-hidden operative toward the poorly documented origins of her own people.",
+    "tags": [
+      "Kaiya",
+      "Kaiyah",
+      "Kaiyah Dragonsister",
+      "Dragonsisters",
+      "Dragonborn",
+      "Zarathis",
+      "Fein Uaill",
+      "The Veil",
+      "Scholarship"
+    ],
+    "facts": {
+      "Alias": "Kaiyah Dragonsister",
+      "People": "Dragonborn",
+      "Sisters": "Sheeva and Minyah",
+      "Stated affiliation": "“Of the Veil” · exact status unresolved",
+      "Preferred approach": "Guile and tact",
+      "Postwar study": "Origins and ancestry of Dragonborn",
+      "Later fate": "Unresolved"
+    },
+    "sources": [
+      "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+    ],
+    "body": "<p>Kaiya is one of <a href=\"#dragonsisters\">the Dragonsisters</a>, honored for approximately five years of covert service to <a href=\"#zarathis\">Zarathis</a>. Captain Zythienne introduces her as Kaiyah at the July 2025 celebration; later scenes use Kaiya, and both names are retained.</p>\n<h2 id=\"kaiya-presence\">A reluctant place in the spotlight</h2>\n<p>Kaiya hides shyly when the sisters are presented to the crowd. She later describes herself as patient and cautious. The skill of operating unseen does not guarantee comfort with national celebration.</p>\n<p>She normally wears a mask. That detail is also associated with Sheeva in the July Eugene scene, so masks do not distinguish the sisters absolutely.</p>\n<h2 id=\"kaiya-veil\">Guile and tact</h2>\n<p>Kaiya explicitly says she is “of the Veil,” then explains her preference:</p>\n<div class=\"quote\">Combat is not for me. I prefer guile and tact.<cite>Kaiya Dragonsister</cite></div>\n<p>Her own description supports indirect action and careful judgment. Her precise status within the Veil, mechanical abilities, and full institutional relationship are not recovered; this affiliation is not automatically equated with a different group merely because its name is similar.</p>\n<h2 id=\"kaiya-scholar\">Studying Dragonborn origins</h2>\n<p>After the war Kaiya takes the opportunity to pursue passion studies. She asks how Dragonborn first came to be, who their ancestors were, and how far the lineage can be traced through poorly documented history.</p>\n<p>In the August social scene Eldin Stormheart dances with her and discusses that research. They arrange what Kaiya calls a date at the library over strong tea. The record supports that invitation without supplying a permanent partnership.</p>\n<h2 id=\"kaiya-family\">A sister watching how Sheeva is treated</h2>\n<p>When Eldin comments on Sheeva’s influence over Eugene, Kaiya calls him simple, humble, and a man who treats her sister with dignity. Her approval is grounded in conduct rather than power or prestige.</p>\n<p>Her relationship with Eugene is that of an observing sister, distinct from <a href=\"#sheeva-dragonsister\">Sheeva’s</a> romance. <a href=\"#minyah-dragonsister\">Minyah’s</a> return to fieldwork offers another response to the freedom they have gained after the shared mission.</p>\n<h2 id=\"kaiya-open-record\">The open record</h2>\n<p>Her age, ancestry, earlier life, exact Veil status, research findings, future relationship with Eldin, and later fate remain unresolved. Guile and scholarship are established interests; the archive does not invent an origin theory that her research has not yet proved.</p>"
+  },
+  {
+    "id": "minyah-dragonsister",
+    "title": "Minyah Dragonsister",
+    "category": "People",
+    "type": "Zarathian operative and thinking warrior",
+    "dek": "Public honor changes Minyah’s status, but she still calls herself a lowly spy and looks toward the next mission.",
+    "tags": [
+      "Minyah",
+      "Dragonsisters",
+      "Dragonborn",
+      "Zarathis",
+      "Fein Uaill",
+      "Fieldcraft",
+      "Scribonia"
+    ],
+    "facts": {
+      "People": "Dragonborn",
+      "Sisters": "Sheeva and Kaiya",
+      "Recognition": "Lady of the lands · July 2025",
+      "Self-description": "“Simply lowly spies”",
+      "Postwar plan": "Preparing for another mission",
+      "Next mission and later fate": "Unresolved"
+    },
+    "sources": [
+      "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+    ],
+    "body": "<p>Minyah is one of <a href=\"#dragonsisters\">the Dragonsisters</a>, whose long-term intelligence service helped <a href=\"#zarathis\">Zarathis</a> win its war. She waves during the public introduction and shares the elevation to lady of the lands with <a href=\"#sheeva-dragonsister\">Sheeva</a> and <a href=\"#kaiya-dragonsister\">Kaiya</a>.</p>\n<h2 id=\"minyah-honor\">Honor has not changed her self-description</h2>\n<p>At the later August gathering, Minyah tells <a href=\"#scribonia\">Scribonia</a> that the sisters are unused to such invitations. Their wartime work earned them recognition, but she still describes them as simply lowly spies.</p>\n<p>This is her self-perception, not proof that the state never elevated them. The difference preserves the experience of an operative whose work mattered long before the public knew her name.</p>\n<h2 id=\"minyah-mission\">A warrior with a mind</h2>\n<p>While Kaiya turns toward scholarship and Sheeva takes a reprieve, Minyah prepares to go back out. She joins martial identity to the work of thinking:</p>\n<div class=\"quote\">I am a warrior with a mind. I must use it.<cite>Minyah Dragonsister</cite></div>\n<p>The war’s end does not end her sense of usefulness. The next mission’s destination, objectives, and outcome are not supplied by this record.</p>\n<h2 id=\"minyah-relationships\">Service and the sisters</h2>\n<p>Her conversation while dancing with Scribonia is evidence of modesty, unfamiliarity with high society, and continued commitment to work. It does not establish a romantic arc comparable to Sheeva’s relationship with Eugene.</p>\n<p>The sisters remain close while choosing different postwar lives. Minyah’s views on Eugene, her deeper relationship with Eldin, age, ancestry, full wartime experience, and later fate remain unknown.</p>"
+  }
+];
+for (const person of dragonsisterRecords) {
+  articles.push(person);
+  archiveIndex.npcs.push({ title: person.title, aliases: person.id === "kaiya-dragonsister" ? ["Kaiya", "Kaiyah", "Kaiyah Dragonsister"] : person.id === "sheeva-dragonsister" ? ["Sheeva", "Sheeva Dragosister"] : person.id === "minyah-dragonsister" ? ["Minyah"] : ["Dragonsisters", "Zarathis Dragonsisters"], meta: person.type, article: person.id, summary: person.dek });
+  fixedArticlePaths.set(person.id, person.id === "dragonsisters" ? ["Characters", person.title] : ["Characters", "The Dragonsisters", person.title]);
+  const branch = navigationRegions.find(region => region.title === "Characters").branches.find(branch => branch.title === "Characters K–Z");
+  const position = branch.items.findIndex(item => item.label.localeCompare(person.title) > 0);
+  branch.items.splice(position < 0 ? branch.items.length : position, 0, { label: person.title, article: person.id });
+}
+subchannelMap["dragonsisters"] = [
+  { label: "Sheeva Dragonsister", article: "sheeva-dragonsister", summary: "Public service, painting, and growing trust in Eugene." },
+  { label: "Kaiya Dragonsister", article: "kaiya-dragonsister", summary: "Guile, tact, and research into Dragonborn origins." },
+  { label: "Minyah Dragonsister", article: "minyah-dragonsister", summary: "The thinking warrior preparing for her next mission." },
+  { label: "Zarathis", article: "zarathis", summary: "The state that honors their long-hidden service." }
+];
+for (const id of ["sheeva-dragonsister", "kaiya-dragonsister", "minyah-dragonsister"]) {
+  subchannelMap[id] = [{ label: "The Dragonsisters", article: "dragonsisters", summary: "The shared five-year service and public honor." }, ...dragonsisterRecords.filter(person => person.id !== "dragonsisters" && person.id !== id).map(person => ({ label: person.title, article: person.id, summary: person.dek }))];
+}
+subchannelMap["sheeva-dragonsister"].push({ label: "Eugene", article: "eugene", summary: "A mutual romantic attachment that develops across repeated meetings." });
+subchannelMap["minyah-dragonsister"].push({ label: "Scribonia", article: "scribonia", summary: "A conversation partner who hears her postwar plans." });
+for (const id of ["zarathis", "fein-uaill", "eugene"]) {
+  const links = subchannelMap[id] || (subchannelMap[id] = []);
+  links.push({ label: id === "eugene" ? "Sheeva Dragonsister" : "The Dragonsisters", article: id === "eugene" ? "sheeva-dragonsister" : "dragonsisters", summary: id === "eugene" ? "A relationship formed through recognition, affection, and dignity." : "Three Dragonborn agents publicly honored for service that helped secure Zarathian victory." });
+}
+for (const event of [
+  { title: "Zarathis honors the Dragonsisters", meta: "15 Jul 2025", sort: "2025-07-15d", era: "2025 · Truth and authority", kind: "Public recognition of covert service", article: "dragonsisters", location: "Zarathis; Fein Uaill", people: "Captain Zythienne; Sheeva; Kaiya; Minyah", tags: ["Dragonborn", "Zarathis", "intelligence"], summary: "Zythienne credits the sisters’ five-year infiltration with making victory possible, singles out Sheeva’s discovery of enemy atrocities, and elevates them to ladies of the lands." },
+  { title: "The Dragonsisters describe life after the war", meta: "19 Aug 2025", sort: "2025-08-19d", era: "2025 · Truth and authority", kind: "Postwar choices and relationships", article: "dragonsisters", location: "Zarathis; Fein Uaill", people: "Sheeva; Kaiya; Minyah; Eugene; Eldin; Scribonia", tags: ["painting", "scholarship", "service"], summary: "Sheeva paints and renews her mutual attachment with Eugene; Kaiya pursues Dragonborn history and a library date with Eldin; Minyah describes preparing for another mission." },
+  { title: "Sheeva and Eugene renew their trust", meta: "5 Dec 2025", sort: "2025-12-05s", era: "2025 · Truth and authority", kind: "Personal history", article: "sheeva-dragonsister", location: "Zarathis; Fein Uaill", people: "Sheeva; Eugene", tags: ["dignity", "companionship", "trust"], summary: "Their warm reunion includes paying respects and offering condolences before turning to their own evening. Later distress leads Sheeva to seek Eugene’s trusted company." }
+]) {
+  if (!archiveIndex.timeline.some(item => item.title === event.title && item.sort === event.sort)) archiveIndex.timeline.push(event);
+}
+const dragonsisterQuotes = articles.find(article => article.id === "memorable-quotes");
+if (dragonsisterQuotes) dragonsisterQuotes.body = dragonsisterQuotes.body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"dragonsister-voices\">Service out of sight</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"dragonsisters\"><blockquote>“Without them, there is no victory.”</blockquote><cite>Captain Zythienne, honoring the Dragonsisters</cite></button><button class=\"quote-card\" data-article=\"kaiya-dragonsister\"><blockquote>“our story is in service, and out of sight.”</blockquote><cite>Kaiya Dragonsister</cite></button><button class=\"quote-card\" data-article=\"kaiya-dragonsister\"><blockquote>“Combat is not for me. I prefer guile and tact.”</blockquote><cite>Kaiya Dragonsister</cite></button><button class=\"quote-card\" data-article=\"minyah-dragonsister\"><blockquote>“I am a warrior with a mind. I must use it.”</blockquote><cite>Minyah Dragonsister</cite></button></div><h2 id=\"why-these-lines-remain\">");
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -12350,7 +12505,7 @@ const livingTimelineArticle = articles.find(article => article.id === "living-ti
 if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${publicTimelineCount} recovered entries`;
 
 const byId = new Map(articles.map(article => [article.id, article]));
-const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"]]);
+const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"], ["sheeva", "sheeva-dragonsister"], ["sheeva-dragosister", "sheeva-dragonsister"], ["kaiya", "kaiya-dragonsister"], ["kaiyah", "kaiya-dragonsister"], ["kaiyah-dragonsister", "kaiya-dragonsister"], ["minyah", "minyah-dragonsister"]]);
 
 const relationshipMaps = {
   magnus: {

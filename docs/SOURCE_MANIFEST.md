@@ -58,6 +58,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 | `Yami_no_Majo_NPC_Master.md` | Supplied 5 Oct 2026 | NPC master dossier | User-supplied, primarily player-facing | Yami no Majo, Rahu knowledge, Dasa etiquette | Direct statements distinguished from Eugene’s theories and Lucido’s reported discoveries | New biography, directory, navigation, related records, timeline, and quotes |
 | `Witch_Queen_Ephraith_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC master dossier | User-supplied; private rites excluded | Ephraith / Ephiraith / Epriath, justice, war, peace | Correct primary spelling, public restitution and diplomacy, attributed conflict accounts | Queen biography and existing portrait, updated directory, aliases, related records, timeline, and quotes |
 
+| `Zarathis_Dragonsisters_NPC_Master.md` | Supplied 5 Oct 2026 | Mixed-visibility NPC group master dossier | User-supplied; restricted operational details excluded | Sheeva, Kaiya / Kaiyah, Minyah; Zarathis within Fein Uaill | Public covert-service honors, distinct postwar lives, precise relationship evidence and aliases | Group and three individual biographies, directory, navigation, related pages, timeline, and quotes |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

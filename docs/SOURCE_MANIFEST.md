@@ -63,6 +63,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 | `Captain_Hildethrax_NPC_Master.md` | User-supplied 5 Oct 2026 | Public biography, Rahu links, three timeline entries, four quotations; hierarchy and Talon spelling uncertainty preserved. |
 | `Deyara_Thorn_Derya_Thorne_Mystery_Dossier.md` | User-supplied 5 Oct 2026 | Unresolved-name dossier, aliases, regional links, and month-level recording-anomaly entry; identity left unknown. |
 
+| `Murr_the_Old_Wolf_NPC_Master.md` | User-supplied 5 Oct 2026 | Public wolf biography, Voraketh and explorer connections, three timeline entries, five quotations; master-only magical explanation excluded. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

@@ -12596,6 +12596,64 @@ for (const event of [
 const hildethraxQuoteGallery = articles.find(article => article.id === "memorable-quotes");
 if (hildethraxQuoteGallery) hildethraxQuoteGallery.body = hildethraxQuoteGallery.body.replace('<h2 id="why-these-lines-remain">', '<h2 id="hildethrax-voices">Rank, resources, and guarded doors</h2><div class="quote-gallery"><button class="quote-card" data-article="captain-hildethrax"><blockquote>“I am the honorable Captain Hildethrax, second rank.”</blockquote><cite>Captain Hildethrax</cite></button><button class="quote-card" data-article="captain-hildethrax"><blockquote>“Knowledge is sacred....and valuable.”</blockquote><cite>Captain Hildethrax</cite></button><button class="quote-card" data-article="captain-hildethrax"><blockquote>“Honest competition.”</blockquote><cite>Captain Hildethrax</cite></button><button class="quote-card" data-article="captain-hildethrax"><blockquote>“Invitation, please.”</blockquote><cite>Captain Hildethrax</cite></button></div><h2 id="why-these-lines-remain">');
 
+// Murr: public testimony and survival history; master-only explanation excluded.
+const murrPublicRecord = {
+  "id": "murr",
+  "title": "Murr the Old Wolf",
+  "category": "People",
+  "type": "Voraketh wolf, guide, and surviving witness",
+  "dek": "An old wolf who knows the island’s paths and remembers an earlier world, while Voraketh erodes the memories she carries.",
+  "tags": [
+    "Murr",
+    "Murr the Old Wolf",
+    "Wolf",
+    "Voraketh",
+    "Guide",
+    "Memory",
+    "Singing Chains",
+    "Upright folk"
+  ],
+  "facts": {
+    "People": "Wolf · she/her",
+    "Home": "Voraketh’s woods",
+    "Role": "Independent guide and historical witness",
+    "First recovered direct scene": "27 October 2025 · earlier contacts established",
+    "Last dated scene in dossier": "28 May 2026",
+    "Near the Chains": "Reports losing thought and falling into instinct",
+    "Exact age and pack’s fate": "Unknown"
+  },
+  "sources": [
+    "Murr_the_Old_Wolf_NPC_Master.md — supplied 5 October 2026; quest-RP parts 029, 033, 034; public testimony separated from master-only clarification"
+  ],
+  "body": "<p>Murr the Old Wolf is an aged, scarred, speaking wolf native to <a href=\"#voraketh\">Voraketh</a>. She knows its woods, scents, paths, and dangers, and remembers fragments of an island different from the one the explorers encounter. Important parts of that history have been taken from her.</p>\n<p>Her clouded amber eyes, ash-and-shadow coat, scarred muzzle, and deliberate movement show her age. Strength remains beneath the old body, but by May 2026 she pants more easily and rises with difficulty. Her exact age is unknown.</p>\n<h2 id=\"murr-camp\">27 October 2025: the occupied camp</h2>\n<p>Murr emerges from the woods and warns the strangers: “Easy now. If I meant harm, you’d already know it.” She already knows <a href=\"#coralyn\">Coralyn</a> and <a href=\"#st-anky\">St. Anky Bloomers III</a>. Anky calls her wondrous and says he has written about her in a scroll left in the magic tree. Their earlier meetings are not recovered.</p>\n<p>She evaluates outsiders through scent and intent: are they hunting, hiding, or unaware of what they have entered? <a href=\"#carmen\">Carmen</a> smells of “ash and old storms.” Murr calls adventuring groups packs and tracks people by their distinctive odors, even when she does not know their names.</p>\n<h2 id=\"murr-guide\">A guide who expects to be heard</h2>\n<p>The woods have been her domain for a long time. When she guides a group, she expects it to follow her pace and step where she steps. Near the “singing chains,” her instructions become urgent: draw close, stay low, and move slowly and quietly.</p>\n<p>The dangers do not always announce themselves. Some Chains screech, others move quietly, and some threats leave no scent. Murr becomes nervous and frightened on the approach, yet continues because she promised to guide the group.</p>\n<div class=\"quote\">If you won’t hide, then learn to walk quiet.<cite>Murr the Old Wolf</cite></div>\n<p>Her authority rests on survival knowledge. She recognizes competence without accepting bravado as protection, and keeps firm boundaries around how far she will risk her own life.</p>\n<h2 id=\"murr-island\">The island she remembers</h2>\n<p>Murr describes Voraketh as sick. In her account, darkness leaks from its heart, the Chains slow the spread, and order and chaos both rot. She says life and death have forgotten their places. These are her observations and interpretations, not a complete explanation of the island.</p>\n<p>She preserves competing traditions about the Chains: perhaps the land was bound too tightly to keep darkness out; perhaps the bindings keep something beyond from coming through. Her own warning is that chains hold rather than heal.</p>\n<div class=\"quote\">Maybe I once knew the answers to your questions.<cite>Murr the Old Wolf</cite></div>\n<p>The Chains are older than her available memory. She also reports that reaching them took days when she was a pup, while the journey is now shorter. Whether that reflects changed geography, distance, memory, or another cause remains unresolved.</p>\n<h2 id=\"murr-pappy\">Old spirits and possible healing</h2>\n<p><a href=\"#pappy\">Pappy</a> asks whether the island can heal. Murr softens: perhaps, but not by tooth or claw. She believes the place remembers what it was and imagines hands and hearts remembering with it. Restoration remains a hope rather than a proven method.</p>\n<p>She recognizes Pappy’s old spiritual language and says few still speak to the old spirits, fewer listen. She has had no connection to the ancestors for many moons. The nature of that earlier connection and the cause of its loss are unknown.</p>\n<h2 id=\"murr-chain\">24 April 2026: the cost of approaching</h2>\n<p>Murr reports that a pack-mate has died; the party identifies him as Cirilo. She believes he went too close to the Chain. She helps track other missing adventurers by scent and mentions a large shore cave that appeared suddenly, without supplying its origin.</p>\n<p>She guides the group toward the body, then refuses to go farther. The Chain and its shining monsters are deadly, and she has no desire to risk her life for a corpse.</p>\n<p>Asked why she helps people who might overcome the Chain, she gives a personal answer: perhaps things could be as they once were, and she could run with her pack again. The record leaves the pack’s fate unknown and does not establish that removing a Chain would restore it.</p>\n<div class=\"quote\">I quickly begin to lose myself, falling into pure instinct. Losing thought.<cite>Murr the Old Wolf</cite></div>\n<p>That is Murr’s own description of what happens near the Chain. Her boundary protects her thought as well as her body. Asked why she can speak at all, she does not know: perhaps she was always this way.</p>\n<h2 id=\"murr-memory\">28 May 2026: the upright folk</h2>\n<p>Murr remembers former inhabitants, long gone, whom she calls the “upright folk.” She has not seen a book since their time. Their identity and relationship with her remain unknown; the phrase is her description rather than an established faction name.</p>\n<p>Details have been taken from her, she says, as a river takes a stone. She compares recovering memory to returning to a lost scent.</p>\n<p><a href=\"#ithilrune\">Ithilrûnë Ailinor</a> considers whether the Veiled Watch might help. Murr is curious and goes there, but the surviving scene shows no immediate recovery. Old caves and places of former habitation remain possible leads, without a guarantee that they will restore her memories.</p>\n<h2 id=\"murr-relationships\">The explorers around her</h2>\n<p>Coralyn’s familiarity and Anky’s questions draw out Murr’s testimony. Pappy shares a language of age, nature, and spirits. Ithilrûnë presses for reasons and later considers how to help her memory. Carmen’s sharpness meets an equally stubborn response. <a href=\"#sildithas\">Sildithas</a> encounters her through Coralyn’s accounts and asks about her losses.</p>\n<p>Murr remains independent. She offers practical help, warnings, and historical fragments while refusing the role of an all-knowing elder. Her lost memories, pack, ancestors, origin of speech, and later fate remain open.</p>"
+};
+articles.push(murrPublicRecord);
+archiveIndex.npcs.push({ title: murrPublicRecord.title, aliases: ["Murr", "The Old Wolf"], meta: murrPublicRecord.type, article: "murr", summary: murrPublicRecord.dek });
+fixedArticlePaths.set("murr", ["Characters", "Murr the Old Wolf"]);
+const murrNavBranch = navigationRegions.find(region => region.title === "Characters").branches.find(branch => branch.title === "Characters K–Z");
+const murrNavPosition = murrNavBranch.items.findIndex(item => item.label.localeCompare(murrPublicRecord.title) > 0);
+murrNavBranch.items.splice(murrNavPosition < 0 ? murrNavBranch.items.length : murrNavPosition, 0, { label: murrPublicRecord.title, article: "murr" });
+subchannelMap["murr"] = [
+  { label: "Voraketh", article: "voraketh", summary: "The island Murr knows through paths, scents, and damaged memory." },
+  { label: "Coralyn", article: "coralyn", summary: "An explorer Murr already knows before her first recovered scene." },
+  { label: "St. Anky Bloomers III", article: "st-anky", summary: "An earlier acquaintance whose questions draw out her account of the island." },
+  { label: "Pappy", article: "pappy", summary: "A fellow old creature who listens to her thoughts on spirits and healing." },
+  { label: "Ithilrûnë Ailinor", article: "ithilrune", summary: "An investigator seeking historical answers and help for Murr’s memory." },
+  { label: "Carmen", article: "carmen", summary: "A sharp-tongued explorer who often tests Murr’s patience." }
+];
+for (const id of ["voraketh", "coralyn", "st-anky", "pappy", "ithilrune", "carmen", "sildithas"]) {
+  (subchannelMap[id] || (subchannelMap[id] = [])).push({ label: "Murr the Old Wolf", article: "murr", summary: "An independent wolf guide carrying fragments of old Voraketh." });
+}
+for (const event of [
+  { title: "Murr guides the pack toward the singing chains", meta: "27 Oct 2025", sort: "2025-10-27m", era: "2025 · Truth and authority", kind: "Local testimony and guidance", article: "murr", location: "Voraketh woods; Chain approach", people: "Murr; Coralyn; Anky; Pappy; Ithilrûnë; Carmen", tags: ["guide", "memory", "Chains"], summary: "Already known to Coralyn and Anky, Murr warns the explorers, describes a sick island, and guides them despite fear. She reports a shorter journey than in her puphood." },
+  { title: "Murr reports a death and explains her Chain boundary", meta: "24 Apr 2026", sort: "2026-04-24m", era: "2026 · Memory and evidence", kind: "Recovery expedition", article: "murr", location: "Voraketh; Chain approach", people: "Murr; Cirilo; Ithilrûnë; Pappy; Carmen", tags: ["survival", "pack", "thought"], summary: "Murr reports a death the party identifies as Cirilo’s, guides them partway, and describes losing thought near the Chain. She longs to run with her pack again." },
+  { title: "Murr recalls the upright folk and tests a memory lead", meta: "28 May 2026", sort: "2026-05-28m", era: "2026 · Memory and evidence", kind: "Historical testimony", article: "murr", location: "Voraketh; Veiled Watch", people: "Murr; Coralyn; Ithilrûnë; Carmen; Sildithas", tags: ["memory", "upright folk", "old caves"], summary: "Murr recalls long-gone inhabitants and says details were taken from her. A visit to the Veiled Watch brings no immediate recovery; old caves remain a lead." }
+]) {
+  if (!archiveIndex.timeline.some(item => item.title === event.title && item.sort === event.sort)) archiveIndex.timeline.push(event);
+}
+const murrQuotes = articles.find(article => article.id === "memorable-quotes");
+if (murrQuotes) murrQuotes.body = murrQuotes.body.replace('<h2 id="why-these-lines-remain">', '<h2 id="murr-voices">The old wolf’s paths and memories</h2><div class="quote-gallery"><button class="quote-card" data-article="murr"><blockquote>“If you won’t hide, then learn to walk quiet.”</blockquote><cite>Murr the Old Wolf</cite></button><button class="quote-card" data-article="murr"><blockquote>“Maybe I once knew the answers to your questions.”</blockquote><cite>Murr the Old Wolf</cite></button><button class="quote-card" data-article="murr"><blockquote>“You project far too much wisdom on this old wolf.”</blockquote><cite>Murr the Old Wolf</cite></button><button class="quote-card" data-article="murr"><blockquote>“I quickly begin to lose myself, falling into pure instinct. Losing thought.”</blockquote><cite>Murr the Old Wolf</cite></button><button class="quote-card" data-article="murr"><blockquote>“I have not seen a book since the upright folk.”</blockquote><cite>Murr the Old Wolf</cite></button></div><h2 id="why-these-lines-remain">');
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -12605,6 +12663,8 @@ if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${public
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
+  ["murr-the-old-wolf", "murr"],
+  ["old-wolf", "murr"],
   ["derya-thorne", "deyara-thorn"],
   ["deyara", "deyara-thorn"],
   ["derya", "deyara-thorn"], ["sheeva", "sheeva-dragonsister"], ["sheeva-dragosister", "sheeva-dragonsister"], ["kaiya", "kaiya-dragonsister"], ["kaiyah", "kaiya-dragonsister"], ["kaiyah-dragonsister", "kaiya-dragonsister"], ["minyah", "minyah-dragonsister"]]);

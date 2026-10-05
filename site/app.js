@@ -12033,6 +12033,59 @@ questTimelineAdditions.forEach(record => {
   if (!duplicate) archiveIndex.timeline.push(record);
 });
 
+// Scout Lilian: public history from the supplied NPC master dossier.
+articles.push({
+  "id": "scout-lilian",
+  "title": "Scout Lilian",
+  "category": "People",
+  "type": "Pristinian scout and early-warning coordinator",
+  "dek": "The scout who made danger legible to Pristinia—and tried to get one final warning home when Magnus ordered her death.",
+  "tags": [
+    "Lilian",
+    "Lillian",
+    "Scout Lillian",
+    "Prima",
+    "Pristinia",
+    "Rahu War",
+    "Raven",
+    "Fieldcraft"
+  ],
+  "facts": {
+    "Primary spelling": "Lilian; Lillian is an alias",
+    "Home": "Pristinia · Prima",
+    "Role": "Scout, guide, and scout-network coordinator",
+    "Status": "Killed · 4 June 2025",
+    "Death": "Rahu archers acting on Magnus’s direct order",
+    "Restoration": "Not established",
+    "Companions": "Unnamed husband; unnamed raven"
+  },
+  "sources": [
+    "Scout_Lilian_NPC_Master.md — supplied 5 October 2026; consolidated NPC history and primary raid record",
+    "Fenumion Quest RP parts 001–005, 007, 010, 022 — source ledger within supplied dossier",
+    "June 4, 2025 primary raid/combat record — quoted and distinguished from the June 5 investigation in the supplied dossier"
+  ],
+  "body": "<p>Scout Lilian was a field scout, wilderness guide, and early-warning coordinator for <a href=\"#pristinia\">Pristinia</a>. She watched roads, tracked enemies, brought exhausted warnings home, and helped adventurers find the dangers they were strong enough to confront. Her importance came from practical knowledge and professional judgment, rather than extraordinary combat power.</p>\n<p>The primary quest logs use <strong>Lilian</strong>; Scout Lillian and Lillian are alternate spellings. She was killed on <strong>4 June 2025</strong>. Herb was later restored to life, but the recovered record does not establish Lilian’s resurrection.</p>\n<h2 id=\"lilian-scout\">A scout, not a warrior</h2>\n<p>Lilian could use a bow, stalk through the woods, establish signals, and assess routes. She also knew when observation had become too dangerous. In March 2024 she reported purple-glowing creatures near the ruins and their shadow scouts, then retreated with enough information to warn the town. She did not need complete certainty before bringing an actionable report home.</p>\n<p>Fear and exhaustion recur in her scenes. Neither prevented her from returning to the field. Her job was to learn enough, survive, and make stronger allies understand where they were needed. The May 2025 narration explicitly calls her a scout, not a warrior.</p>\n<h2 id=\"lilian-recruit\">From recruit to coordinator</h2>\n<p>In April 2024, Lilian admitted she was still new and apologized when irritation made her unprofessional. She worked around Rolen Ofandrus’s archery and scouting training, helped prepare defenses, and learned to combine field observation with clear reporting.</p>\n<p>By May 2025 she spoke of “my scouts,” verified enemy movements, and tracked several fronts during the Rahu siege. She reported the loss of the road to the Before, allied Ahau engagements, approaching siege engines, and likely arrival windows. She ordered preparations to evacuate Pristinia while leaving the adventurers’ response to their own judgment.</p>\n<div class=\"quote\">This is for you all to decide. You have your choice, we do not order you.<cite>Scout Lilian</cite></div>\n<h2 id=\"lilian-fieldcraft\">Knowledge that kept people alive</h2>\n<p>Lilian understood roads, bandits, winter sea winds, fog, darkness, and the limits of local travel. She reminded visiting adventurers that Pristinia was a frontier community of a few hundred, whose horses mostly worked rather than waited to carry heroes.</p>\n<p>Her expertise extended to magical specimens. During a July 2024 predator hunt she quickly harvested wolf fangs before their magical lifeforce dissipated and explained that useful properties depended on the creature and the body part. Witnesses recognized a professional at work.</p>\n<p>She also challenged the information gap between powerful adventurers and ordinary residents. Townsfolk often heard only rumors of missions that affected their safety. Regular debriefs offered a practical way to make knowledge serve the community.</p>\n<h2 id=\"lilian-warnings\">Warnings carried through fear</h2>\n<p>On 31 May 2024 she returned in tears and out of breath with news of Nienna’s capture, then offered to lead the rescue. Delay mattered because the Rahu could conceal their tracks.</p>\n<p>On 6 September 2024, she ran for hours to warn that <a href=\"#eovar-harbor\">Eovar</a> was burning under attack by strangers. After witnessing an eldritch worm kill a man, she openly admitted she was not all right. She still supplied the harbor’s location, direction, travel estimates, and the crucial distinction that these attackers were not the enemies Pristinia already knew.</p>\n<div class=\"quote\">But talking wastes time. The clock forever turns forward.<cite>Scout Lilian</cite></div>\n<h2 id=\"lilian-relationships\">A life within Pristinia</h2>\n<ul>\n<li><a href=\"#melian-starguard\"><strong>Melian Starguard</strong></a> was a trusted leader. Lilian respected her scouting orders, resented people who bullied her, and helped arrange a meal to cheer her during the war.</li>\n<li><a href=\"#herb\"><strong>Herb</strong></a> accompanied Lilian on that final visit. The record supports this act of shared care without inventing a lifelong intimate friendship.</li>\n<li><strong>Her raven</strong> was a working companion and emergency messenger. Its name is not established.</li>\n<li><strong>Her husband</strong> appears in early scenes as the target of familiar, sharp teasing. His name, later fate, and full relationship history remain unknown.</li>\n<li><strong>Rolen Ofandrus and the adventurers</strong> connected her fieldwork to training, defense, and stronger combatants. She informed the adventurers without assuming the right to command them.</li>\n</ul>\n<h2 id=\"lilian-last-warning\">4 June 2025: the final warning</h2>\n<p>Lilian and Herb approached Melian’s hiding place with a special meal. They were visiting a tired friend, not attacking a Rahu force. <a href=\"#magnus\">Magnus Niriin</a> had already led a covert Rahu operation into Pristinia, incapacitated Melian with gas, and prepared her abduction.</p>\n<p>Lilian recognized the Rahu and shouted, “Herb! Run! It’s the Rahu!” Magnus ordered that no witnesses survive, then explicitly commanded, “Kill the scout first!” Lilian sent her raven toward home with “Fly! Get help!” and attempted to escape.</p>\n<p><strong>Rahu archers acting on Magnus’s direct order shot Lilian in the back and killed her.</strong> Herb died moments later. Magnus personally pursued and killed the escaping raven with Eldritch Blast. He did not fire the arrows that killed Lilian; he led the operation, selected her as the first target, ordered her death, and destroyed her attempt to warn Pristinia.</p>\n<h2 id=\"lilian-evidence\">5 June: the bodies become evidence</h2>\n<p>Investigators found Lilian, Herb, and the raven dead, with Melian missing. Black-fletched arrows were in Lilian’s back and Herb’s front; the raven bore eldritch burns. Fulmin began connecting the burns with Magnus’s known magic. The master record’s directly observed raid and the investigators’ developing deductions are distinct stages of knowledge.</p>\n<p>The warning did not escape in time to prevent the abduction, but the bodies and physical evidence allowed the operation to be reconstructed. Lilian’s death damaged Pristinia’s ability to see danger coming as well as ending one person’s life.</p>\n<h2 id=\"lilian-open-record\">The open record</h2>\n<p>Her husband’s name and fate, the raven’s name, her formal rank, the size of her scout network, its later recovery, and how Pristinia separately memorialized her remain unresolved. No clear source establishes that she returned to life. Her biography preserves the growth from a new recruit to a responsible coordinator without turning her into a secretly powerful warrior.</p>"
+});
+archiveIndex.npcs.push({"title": "Scout Lilian", "aliases": ["Lilian", "Lillian", "Scout Lillian"], "meta": "Pristinian scout · killed 4 June 2025", "article": "scout-lilian", "summary": "A field guide and early-warning coordinator killed by Rahu archers on Magnus’s direct order while attempting to warn Pristinia."});
+fixedArticlePaths.set("scout-lilian", ["Characters", "Scout Lilian"]);
+subchannelMap["scout-lilian"] = [
+  { label: "Pristinia", article: "pristinia", summary: "The community her scouting kept informed." },
+  { label: "Melian Starguard", article: "melian-starguard", summary: "The leader Lilian respected and tried to support." },
+  { label: "Herb", article: "herb", summary: "Her companion on the final visit to Melian." },
+  { label: "Magnus Niriin", article: "magnus", summary: "The commander who ordered her death and killed her messenger." }
+];
+const lilianNavigation = navigationRegions.find(region => region.title === "Characters").branches.find(branch => branch.title === "Characters K–W");
+if (lilianNavigation) {
+  const position = lilianNavigation.items.findIndex(item => item.label.localeCompare("Scout Lilian") > 0);
+  lilianNavigation.items.splice(position < 0 ? lilianNavigation.items.length : position, 0, { label: "Scout Lilian", article: "scout-lilian" });
+}
+for (const id of ["herb", "melian-starguard", "magnus"]) {
+  const record = articles.find(article => article.id === id);
+  if (record) record.body = record.body.replace(/Scout Lilian/g, '<a href="#scout-lilian">Scout Lilian</a>');
+}
+const lilianQuoteRecord = articles.find(article => article.id === "memorable-quotes");
+if (lilianQuoteRecord) lilianQuoteRecord.body = lilianQuoteRecord.body.replace('<h2 id="why-these-lines-remain">', '<h2 id="lilian-voices">A scout’s responsibility</h2><div class="quote-gallery"><button class="quote-card" data-article="scout-lilian"><blockquote>“But talking wastes time. The clock forever turns forward.”</blockquote><cite>Scout Lilian</cite></button><button class="quote-card" data-article="scout-lilian"><blockquote>“This is for you all to decide. You have your choice, we do not order you.”</blockquote><cite>Scout Lilian</cite></button><button class="quote-card" data-article="scout-lilian"><blockquote>“Fly! Get help!”</blockquote><cite>Scout Lilian</cite></button></div><h2 id="why-these-lines-remain">');
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -12040,7 +12093,7 @@ const livingTimelineArticle = articles.find(article => article.id === "living-ti
 if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${publicTimelineCount} recovered entries`;
 
 const byId = new Map(articles.map(article => [article.id, article]));
-const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"]]);
+const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"]]);
 
 const relationshipMaps = {
   magnus: {

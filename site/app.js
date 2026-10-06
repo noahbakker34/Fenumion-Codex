@@ -14621,7 +14621,7 @@ function setupQuoteVoices() {
     const text = quote.matches("blockquote") ? quote.querySelector("p") || quote : words;
     if (!text || normalize(text.textContent) !== targetText) return;
     const wrapper = document.createElement("span");
-    wrapper.className = `quote-voice${quote.matches("strong") ? " quote-voice-inline" : ""}`;
+    wrapper.className = `quote-voice${quote.matches("strong") ? " quote-voice-inline" : quote.matches(".quote-card, .feature-quote") ? " quote-voice-card" : ""}`;
     quote.before(wrapper);
     wrapper.append(quote);
     const control = document.createElement("button");

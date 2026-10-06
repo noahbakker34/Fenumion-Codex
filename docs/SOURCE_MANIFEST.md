@@ -69,6 +69,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Swift-Foot_Complete_Fenumion_RP_Dossier.md` | User-supplied 5 Oct 2026 | Five attributed Swift Foot quotes in four searchable groups and a linked character profile; existing retrospective directory entry promoted to his own page. |
 
+| `Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md` | User-supplied 6 Oct 2026 | Expanded existing Dale and Vaemyr profiles, seven grouped quotations and relationship links; recovery mechanisms, exact builds, and restricted ancient lore left unresolved. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

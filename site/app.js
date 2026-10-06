@@ -12713,6 +12713,60 @@ for (const event of [
 const rahuviaQuotes = articles.find(article => article.id === "memorable-quotes");
 if (rahuviaQuotes) rahuviaQuotes.body = rahuviaQuotes.body.replace('<h2 id="why-these-lines-remain">', '<h2 id="rahuvia-voices">Home and sacred thresholds</h2><div class="quote-gallery"><button class="quote-card" data-article="rahuvia"><blockquote>“Behold. Our home. Rahuvia.”</blockquote><cite>Hoshi Daemon, 23 June 2025</cite></button></div><h2 id="why-these-lines-remain">');
 
+// Swift Foot: source-grounded quotes and the character context they open.
+const swiftFootRecord = {
+  "id": "swift-foot",
+  "title": "Swift Foot",
+  "category": "People",
+  "type": "Harengon ranger · scout and contested martyr",
+  "dek": "Quick with a bow and a joke, Swift Foot argues for ordinary people’s freedom and leaves a contested legacy after his final stand against Rahu authority.",
+  "tags": [
+    "Swift Foot",
+    "Swiftfoot",
+    "Swift-Foot",
+    "Swift the Martyr",
+    "Harengon",
+    "Ranger",
+    "Pristinia",
+    "Agency"
+  ],
+  "facts": {
+    "People": "Harengon",
+    "Role": "Ranger · archer · scout",
+    "Appearance": "Grey fur · forest-green antlers",
+    "Home connection": "Pristinia · adventuring company",
+    "Death": "6 August 2024 · killed by Strange Talon",
+    "Legacy": "Swift the Martyr · contested among Rahu and companions"
+  },
+  "sources": [
+    "Swift-Foot_Complete_Fenumion_RP_Dossier.md — supplied 5 October 2026; quest-RP parts 004, 005, 006, 008, 009, 024; August side-RP and witness excerpt; Pristinia chronicle"
+  ],
+  "body": "<p>Swift Foot was a Harengon ranger, archer, scout, and explorer connected to <a href=\"#pristinia\">Pristinia</a> and its adventuring company. Grey fur and forest-green antlers made him recognizable; quick jokes, practical courage, and concern for ordinary people shaped how his companions remembered him.</p>\n<h2 id=\"swift-civic\">Justice and the people without adventurers’ power</h2>\n<p>At Pristinia’s civic debate on 13 May 2024, Swift asks why adventurers should make the town’s decisions and whose interests they serve. He argues for representation without domination and systems that continue working after powerful visitors leave.</p>\n<div class=\"quote\">You got to consider their lives, too. The regular person doesn’t have our resources.<cite>Swift Foot</cite></div>\n<p>His approach to punishment leaves room for atonement and amends. He objects to innocent deaths under the law, questions execution, and distinguishes the harm of fraudulent medicine from a worthless cosmetic. Fair institutions must account for the people who cannot rely on adventurer magic.</p>\n<h2 id=\"swift-humor\">The scout who keeps joking</h2>\n<p>In June he follows a distress signal into underground danger and helps the group reach <a href=\"#scribonia\">Scribonia</a>. He volunteers for risk, protects wounded companions, and jokes through poisoned coughing. Ada’s 10 June chronicle calls him “The New Arrow of Pristinia’s Horizon,” remembering a wit as quick as his bow.</p>\n<div class=\"quote\">Am I still poisoned or did Luci just rhyme?<cite>Swift Foot, 8 June 2024</cite></div>\n<p>The quarry expedition shows the same restless scout, checking passages and keeping watch. His humor sits beside compassion, guilt, and an unresolved personal thread involving Nimbus and the Feywild. The recovered record does not settle that relationship.</p>\n<h2 id=\"swift-agency\">Freedom and the Rahu confrontation</h2>\n<p>Swift’s June visit to the Rahu embassy deepens his objections to caste, dependency, and authority. By 6 August he returns with his own mission. He speaks to the workers, including Ummo, and argues that their station need not determine their lives.</p>\n<p>He describes having escaped a situation once presented to him as normal, where he was at another’s beck and call. That personal history informs his commitment to agency, while its full circumstances remain unresolved.</p>\n<p>The August confrontation becomes violent. Swift attacks <a href=\"#strange-talon\">Strange Talon</a> from concealment and wounds him. The dossier records his intention to wound for a political demonstration; Rahu witnesses describe the attack as an assassination attempt. Intent, the act itself, and the witnesses’ interpretation remain distinct.</p>\n<p>Swift throws down his sword, claims responsibility, and explicitly separates his action from Melian and Pristinia. He then deliberately refuses to continue fighting, intending Talon’s response to demonstrate the consequences of challenging a master. Talon kills him on 6 August 2024.</p>\n<h2 id=\"swift-legacy\">A contested martyr</h2>\n<p>The narration names him Swift the Martyr. Later accounts report Dasa talking about his actions, Ummo breaking free, and the chant “Swift Foot lives.” Rahu authorities continue condemning him as an attacker, while friends debate investigation, revenge, and how to honor him.</p>\n<p>His legacy preserves both the advocate for ordinary lives and the danger of his final certainty. His death does not erase his wit or earlier service, and the later chant is testimony about remembrance rather than dialogue spoken by Swift himself.</p>\n<p><a href=\"#memorable-quotes\">Read Swift Foot’s lines in the quote gallery</a>, grouped by freedom, justice, humor, and his final words.</p>"
+};
+articles.push(swiftFootRecord);
+const swiftFootIndex = archiveIndex.characters.find(person => person.title === "Swiftfoot");
+if (swiftFootIndex) Object.assign(swiftFootIndex, { title: "Swift Foot", meta: swiftFootRecord.type, article: "swift-foot", aliases: ["Swiftfoot", "Swift-Foot", "Swift the Martyr"], summary: swiftFootRecord.dek });
+else archiveIndex.characters.push({ title: "Swift Foot", meta: swiftFootRecord.type, article: "swift-foot", aliases: ["Swiftfoot", "Swift-Foot", "Swift the Martyr"], summary: swiftFootRecord.dek });
+fixedArticlePaths.set("swift-foot", ["Characters", "Swift Foot"]);
+const swiftFootBranch = navigationRegions.find(region => region.title === "Characters").branches.find(branch => branch.title === "Characters K–Z");
+const swiftFootPosition = swiftFootBranch.items.findIndex(item => item.label.localeCompare("Swift Foot") > 0);
+swiftFootBranch.items.splice(swiftFootPosition < 0 ? swiftFootBranch.items.length : swiftFootPosition, 0, { label: "Swift Foot", article: "swift-foot" });
+subchannelMap["swift-foot"] = [
+  { label: "Memorable Quotes", article: "memorable-quotes", summary: "Swift’s arguments, jokes, declarations of freedom, and final words." },
+  { label: "Pristinia", article: "pristinia", summary: "The town whose civic choices bring out his concern for ordinary lives." },
+  { label: "Strange Talon", article: "strange-talon", summary: "The Rahu official Swift attacks and who kills him in the August confrontation." },
+  { label: "Scribonia", article: "scribonia", summary: "The captive reached during the June underground expedition." },
+  { label: "Olokun", article: "olokun", summary: "A companion who later argues over Swift’s legacy and Rahu conduct." }
+];
+for (const id of ["pristinia", "strange-talon", "new-year-address"]) {
+  (subchannelMap[id] || (subchannelMap[id] = [])).push({ label: "Swift Foot", article: "swift-foot", summary: "The ranger’s own words and the history behind his contested legacy." });
+}
+const swiftFootQuotes = articles.find(article => article.id === "memorable-quotes");
+if (swiftFootQuotes) {
+  swiftFootQuotes.body = swiftFootQuotes.body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"swift-foot-justice\">Swift Foot · Justice and ordinary lives</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“Why are we the ones making decisions? Because we want to help or to benefit us?”</blockquote><cite>Swift Foot</cite></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“One innocent death by the system is a faulty system.”</blockquote><cite>Swift Foot</cite></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“I still believe that even the most violent offender can atone and make amends.”</blockquote><cite>Swift Foot</cite></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“You got to consider their lives, too. The regular person doesn&#x27;t have our resources.”</blockquote><cite>Swift Foot</cite></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“Eye for an eye leaves the whole world blind. Can&#x27;t see the carrot patch in the grass.”</blockquote><cite>Swift Foot</cite></button></div><h2 id=\"swift-foot-freedom\">Swift Foot · Freedom and agency</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“You CAN do anything you set your mind to, just like them.”</blockquote><cite>Swift Foot</cite></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“I escaped from a situation I was told was normal. A situation that had me at the beck and call of another. And I broke free!”</blockquote><cite>Swift Foot</cite></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“No, I&#x27;m no master.”</blockquote><cite>Swift Foot</cite></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“There are no masters. You are a fool.”</blockquote><cite>Swift Foot</cite></button></div><h2 id=\"swift-foot-wit\">Swift Foot · Wit under pressure</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“Of course, everyone of my tonics are HARE tonics.”</blockquote><cite>Swift Foot</cite></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“Am I still poisoned or did Luci just rhyme?”</blockquote><cite>Swift Foot</cite></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“I adore a good door.”</blockquote><cite>Swift Foot</cite></button></div><h2 id=\"swift-foot-last-words\">Swift Foot · Final words</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“So afraid. Like a child in the night. They&#x27;ll see. You can&#x27;t fool them forever.”</blockquote><cite>Swift Foot · 6 August 2024</cite></button></div>" + '<h2 id="why-these-lines-remain">');
+  swiftFootQuotes.sources = [...new Set([...swiftFootQuotes.sources, "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words"] )];
+}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -12722,6 +12776,8 @@ if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${public
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
+  ["swiftfoot", "swift-foot"],
+  ["swift-the-martyr", "swift-foot"],
   ["rahu-capital", "rahuvia"],
   ["rahuvian-capital", "rahuvia"],
   ["murr-the-old-wolf", "murr"],

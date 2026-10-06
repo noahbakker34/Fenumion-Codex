@@ -1518,25 +1518,33 @@ const articles = [
     "title": "Ececilia’s Emoji Gallery",
     "category": "People",
     "type": "Community artist appreciation",
-    "dek": "A small gallery celebrating the character emojis Ececilia creates for the Fenumion community.",
+    "dek": "A growing gallery celebrating the character emojis Ececilia creates for the Fenumion community.",
     "tags": [
       "Ececilia",
       "Character art",
       "Community archive",
       "Gartina",
-      "Elenia"
+      "Elenia",
+      "Magnus",
+      "Paco",
+      "Scribonia",
+      "Vessalia"
     ],
     "facts": {
       "Artist": "Ececilia",
-      "Collection": "2 character emojis",
-      "Characters": "Gartina · Elenia",
+      "Collection": "6 character emojis",
+      "Characters": "Gartina · Elenia · Magnus · Paco · Scribonia · Vessalia",
       "Purpose": "Thanks and community recognition"
     },
     "sources": [
       "Chibi_Tina.png — Gartina character emoji supplied by the creator",
-      "Chibi_Elenia-2-removebg-preview.png — Elenia character emoji supplied by the creator"
+      "Chibi_Elenia-2-removebg-preview.png — Elenia character emoji supplied by the creator",
+      "Magnus_RIP.png — artwork attributed to Ececilia by the user, supplied 6 October 2026",
+      "Paco_pwease.png — artwork attributed to Ececilia by the user, supplied 6 October 2026",
+      "Scrib_chibi.png — artwork attributed to Ececilia by the user, supplied 6 October 2026",
+      "Vess_Chibi.png — artwork attributed to Ececilia by the user, supplied 6 October 2026"
     ],
-    "body": "<p>Fenumion is remembered not only through chronicles, maps, and campaign scenes, but through the art its community makes for one another. Ececilia’s emojis preserve the characters at their most immediate: expressive, affectionate, and ready to become part of everyday conversation.</p>\n      <div class=\"callout gold\"><p><strong>Thank you, Ececilia,</strong> for giving the people of Fenumion another way to see, share, and celebrate the characters they love.</p></div>\n      <div class=\"emoji-gallery\" aria-label=\"Character emoji artwork by Ececilia\">\n        <figure class=\"emoji-card\">\n          <div class=\"emoji-art-frame\"><img src=\"gartina-chibi.png\" alt=\"Chibi emoji of Gartina smiling while holding a large red heart\" loading=\"lazy\"></div>\n          <figcaption><strong>Gartina</strong><span>Character emoji by Ececilia.</span></figcaption>\n        </figure>\n        <figure class=\"emoji-card\">\n          <div class=\"emoji-art-frame\"><img src=\"elenia-chibi.png\" alt=\"Chibi emoji of Elenia cheering with flowers woven through her blond hair\" loading=\"lazy\"></div>\n          <figcaption><strong>Elenia</strong><span>Character emoji by Ececilia.</span></figcaption>\n        </figure>\n      </div>\n      <p>This is a living gallery. Future Ececilia character emojis can join the collection without displacing the artwork already preserved here.</p>"
+    "body": "<p>Fenumion is remembered not only through chronicles, maps, and campaign scenes, but through the art its community makes for one another. Ececilia’s emojis preserve the characters at their most immediate: expressive, affectionate, and ready to become part of everyday conversation.</p>\n      <div class=\"callout gold\"><p><strong>Thank you, Ececilia,</strong> for giving the people of Fenumion another way to see, share, and celebrate the characters they love.</p></div>\n      <div class=\"emoji-gallery\" aria-label=\"Character emoji artwork by Ececilia\">\n        <figure class=\"emoji-card\">\n          <div class=\"emoji-art-frame\"><img src=\"gartina-chibi.png\" alt=\"Chibi emoji of Gartina smiling while holding a large red heart\" loading=\"lazy\"></div>\n          <figcaption><strong>Gartina</strong><span>Character emoji by Ececilia.</span></figcaption>\n        </figure>\n        <figure class=\"emoji-card\">\n          <div class=\"emoji-art-frame\"><img src=\"elenia-chibi.png\" alt=\"Chibi emoji of Elenia cheering with flowers woven through her blond hair\" loading=\"lazy\"></div>\n          <figcaption><strong>Elenia</strong><span>Character emoji by Ececilia.</span></figcaption>\n        </figure>\n<figure class=\"emoji-card\"><div class=\"emoji-art-frame\"><a href=\"assets/community/ececilia/magnus-rip.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open Magnus · RIP artwork at full size\"><img src=\"assets/community/ececilia/magnus-rip.png\" alt=\"Chibi Magnus with crossed-out eyes, flames and RIP lettering\" loading=\"lazy\"></a></div><figcaption><strong><a href=\"#magnus\">Magnus · RIP</a></strong><span>Character emoji by Ececilia.</span></figcaption></figure>\n<figure class=\"emoji-card\"><div class=\"emoji-art-frame\"><a href=\"assets/community/ececilia/paco-pwease.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open Paco · Pwease artwork at full size\"><img src=\"assets/community/ececilia/paco-pwease.png\" alt=\"Chibi Paco with horns, wide pleading eyes and outstretched hands\" loading=\"lazy\"></a></div><figcaption><strong><a href=\"#carmen\">Paco · Pwease</a></strong><span>Character emoji by Ececilia.</span></figcaption></figure>\n<figure class=\"emoji-card\"><div class=\"emoji-art-frame\"><a href=\"assets/community/ececilia/scribonia-chibi.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open Scribonia artwork at full size\"><img src=\"assets/community/ececilia/scribonia-chibi.png\" alt=\"Chibi Scribonia with glasses, a blue hood, antennae and a glowing idea bulb\" loading=\"lazy\"></a></div><figcaption><strong><a href=\"#scribonia\">Scribonia</a></strong><span>Character emoji by Ececilia.</span></figcaption></figure>\n<figure class=\"emoji-card\"><div class=\"emoji-art-frame\"><a href=\"assets/community/ececilia/vessalia-chibi.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open Vessalia artwork at full size\"><img src=\"assets/community/ececilia/vessalia-chibi.png\" alt=\"Chibi Vessalia with pointed ears, dark braided hair and sparkling star-shaped pupils\" loading=\"lazy\"></a></div><figcaption><strong><a href=\"#cave-company\">Vessalia</a></strong><span>Character emoji by Ececilia.</span></figcaption></figure>\n      </div>\n      <p>This is a living gallery. Future Ececilia character emojis can join the collection without displacing the artwork already preserved here.</p>"
   },
   {
     "id": "akarian",
@@ -12783,6 +12791,12 @@ for (const id of ["dale", "vaemyr"]) {
 const daleVaemyrQuotes = articles.find(article => article.id === "memorable-quotes");
 daleVaemyrQuotes.body = daleVaemyrQuotes.body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"dale-affection\">Dale \u00b7 Affection and loyalty</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"dale\"><blockquote>\u201cMiss Saray! May, um, may, um, may I see you come through this safely.\u201d</blockquote><cite>Dale</cite></button><button class=\"quote-card\" data-article=\"dale\"><blockquote>\u201cThey make you smile again. That makes them precious.\u201d</blockquote><cite>Dale</cite></button><button class=\"quote-card\" data-article=\"dale\"><blockquote>\u201cNothing can allure Dale since he met Saray!\u201d</blockquote><cite>Dale</cite></button></div><h2 id=\"vaemyr-context-quotes\">Vaemyr \u00b7 Knowledge and responsibility</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"vaemyr\"><blockquote>\u201cWe&#x27;ve all been in situations where we chose violence first. It worked out then that our mistake didn&#x27;t cost us. All I&#x27;m saying is we consider that our first plan shouldn&#x27;t be to kill when we do not understand the context.\u201d</blockquote><cite>Vaemyr</cite></button></div><h2 id=\"vaemyr-bonds-quotes\">Vaemyr \u00b7 Chosen bonds</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"vaemyr\"><blockquote>\u201cNo pity date. Only an honest desire to learn from a good person.\u201d</blockquote><cite>Vaemyr</cite></button><button class=\"quote-card\" data-article=\"vaemyr\"><blockquote>\u201cFor you, Wren, I would make any sacrifice.\u201d</blockquote><cite>Vaemyr</cite></button><button class=\"quote-card\" data-article=\"vaemyr\"><blockquote>\u201cI love you. Let&#x27;s fight together.\u201d</blockquote><cite>Vaemyr</cite></button></div>" + '<h2 id="why-these-lines-remain">');
 daleVaemyrQuotes.sources.push("Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue");
+
+// Ececilia’s community artwork remains separate from the existing character portraits.
+for (const id of ["magnus", "carmen", "scribonia", "cave-company"]) {
+  const links = subchannelMap[id] || (subchannelMap[id] = []);
+  if (!links.some(item => item.article === "ececilia-emojis")) links.push({ label: "Ececilia’s Emoji Gallery", article: "ececilia-emojis", summary: "Community character artwork by Ececilia, including Magnus, Paco, Scribonia, and Vessalia." });
+}
 
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people

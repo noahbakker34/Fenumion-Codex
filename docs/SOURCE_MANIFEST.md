@@ -71,6 +71,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md` | User-supplied 6 Oct 2026 | Expanded existing Dale and Vaemyr profiles, seven grouped quotations and relationship links; recovery mechanisms, exact builds, and restricted ancient lore left unresolved. |
 
+| `Magnus_RIP.png`, `Paco_pwease.png`, `Scrib_chibi.png`, `Vess_Chibi.png` | User-supplied 6 Oct 2026 | Four original PNG artworks credited to Ececilia in her existing six-piece emoji gallery; character links and full-size originals. Artwork titles do not establish new biographical events. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

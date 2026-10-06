@@ -2262,3 +2262,5 @@ body.quotes-view .article-body > h2 { text-shadow: 0 2px 14px rgba(0, 0, 0, .82)
 .quote-voice.voice-playing > .quote-voice-play { color: #fff; border-color: var(--gold); }
 .quote-voice-inline { display: inline-flex; flex-wrap: wrap; align-items: center; max-width: 100%; }
 .quote-voice-inline > .quote-voice-play { margin-left: .4rem; }
+
+.quote-card .quote-group { display: block; position: relative; z-index: 1; margin: 0 0 .65rem; color: var(--gold-bright); font: .72rem/1.5 var(--serif); letter-spacing: .055em; }

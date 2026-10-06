@@ -14552,6 +14552,43 @@ function renderNavigation() {
       <button class="nav-link${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}" aria-label="${protectedRecordAria(item.label, !isPlayerSafeArticle(item.article))}"><span>${protectedRecordTitle(item.label, !isPlayerSafeArticle(item.article))}</span><span>›</span></button>`).join("")}</section>`;
 }
 
+function memorableQuoteRecords() {
+  const template = document.createElement("template");
+  template.innerHTML = byId.get("memorable-quotes")?.body || "";
+  let group = "Memorable quotes";
+  let groupId = "";
+  const records = [];
+  template.content.querySelectorAll("h2, .quote-card").forEach(element => {
+    if (element.matches("h2")) {
+      group = element.textContent.trim();
+      groupId = element.id;
+    } else {
+      const text = element.querySelector("blockquote")?.textContent.trim();
+      const speaker = element.querySelector("cite")?.textContent.trim();
+      if (text && speaker) records.push({ title: text, speaker, group, groupId, article: element.dataset.article, quoteId: `memorable-quote-${records.length}` });
+    }
+  });
+  return records;
+}
+
+function setupQuoteGroups() {
+  const records = memorableQuoteRecords();
+  articleContent.querySelectorAll(".quote-card").forEach((card, index) => {
+    const record = records[index];
+    if (!record) return;
+    card.id = record.quoteId;
+    const label = document.createElement("span");
+    label.className = "quote-group";
+    label.textContent = record.group;
+    card.prepend(label);
+  });
+  const jump = articleContent.querySelector(".quote-jump");
+  if (jump) {
+    const groups = [...new Map(records.map(record => [record.groupId, record.group])).entries()];
+    jump.innerHTML = groups.map(([id, title]) => `<button type="button" data-section="${escapeHtml(id)}">${escapeHtml(title)}</button>`).join("");
+  }
+}
+
 const magnusQuoteVoice = new Audio("assets/voices/magnus-hope-is-dead.mp3");
 magnusQuoteVoice.preload = "none";
 let activeQuoteVoice = null;
@@ -14723,6 +14760,7 @@ function renderArticle(route, pushHash = true) {
   setupRelationshipMap(article);
   setupAmbientVideos(articleContent);
   applyPlayerSafeRedactions();
+  if (article.id === "memorable-quotes") setupQuoteGroups();
   setupQuoteVoices();
   document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
@@ -14856,6 +14894,8 @@ function setupFeaturedContent() {
   const quote = quotes[Math.floor(now / hour) % quotes.length];
   featured.querySelector("blockquote").textContent = quote.text;
   featured.querySelector("cite").textContent = quote.speaker;
+  const quoteGroup = memorableQuoteRecords().find(record => record.title === quote.text && record.speaker === quote.speaker)?.group;
+  featured.querySelector(".feature-label").textContent = quoteGroup ? `Memorable quote · ${quoteGroup}` : "Memorable quote";
   const speaker = byId.get(quote.articleId);
   const image = quote.articleId === "olokun"
     ? "assets/archive/olokun-memorable-quote.png"
@@ -15302,8 +15342,14 @@ function runSearch(query) {
       score: titleMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0)
     };
   })).filter(result => result.score && isPlayerSafeArticle(result.article.id) && !matchedArticleTitles.has(result.article.title.toLowerCase()));
+  const quoteTerms = normalized.replace(/[^\p{L}\p{N}]+/gu, " ").trim().split(/\s+/).filter(Boolean);
+  const quoteResults = memorableQuoteRecords().filter(record => isPlayerSafeArticle(record.article)).map(record => {
+    const haystack = `${record.title} ${record.speaker} ${record.group}`.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ");
+    const matches = quoteTerms.length && quoteTerms.every(term => haystack.includes(term));
+    return { article: { id: "memorable-quotes", title: record.title, type: "Memorable quote", dek: record.speaker }, path: ["Quotes", record.group], kind: "quote", record, score: matches ? 7 : 0 };
+  }).filter(result => result.score);
   const seen = new Set();
-  const results = [...articleResults, ...indexResults]
+  const results = [...articleResults, ...indexResults, ...quoteResults]
     .sort((a, b) => b.score - a.score || a.article.title.localeCompare(b.article.title))
     .filter(result => {
       const key = `${result.article.title.toLowerCase()}|${result.article.id}`;
@@ -15313,7 +15359,7 @@ function runSearch(query) {
     });
   searchCount.textContent = `${results.length} result${results.length === 1 ? "" : "s"}`;
   searchResults.innerHTML = results.length ? results.map(({ article, path, kind, record }) => `
-    <button class="search-result" data-search-kind="${kind}" data-search-title="${escapeHtml(record.title)}" data-article="${escapeHtml(article.id)}"><small>${path.map(escapeHtml).join(" → ")} · ${escapeHtml(article.type)}</small><strong>${highlight(article.title, normalized)}</strong><span>${highlight(article.dek, normalized)}</span></button>`).join("") : `<div class="empty-search">No character, event, location, or source matches “${escapeHtml(query)}”.</div>`;
+    <button class="search-result" data-search-kind="${kind}" data-search-title="${escapeHtml(record.title)}" data-article="${escapeHtml(article.id)}"><small>${path.map(escapeHtml).join(" → ")} · ${escapeHtml(article.type)}</small><strong>${highlight(article.title, normalized)}</strong><span>${highlight(article.dek, normalized)}</span></button>`).join("") : `<div class="empty-search">No character, quote, event, location, or source matches “${escapeHtml(query)}”.</div>`;
   openSearch();
 }
 
@@ -15368,6 +15414,17 @@ document.addEventListener("click", event => {
     const title = searchTrigger.dataset.searchTitle;
     const articleId = searchTrigger.dataset.article;
     clearSearchQuery();
+    if (kind === "quote") {
+      const record = memorableQuoteRecords().find(quote => quote.title === title && isPlayerSafeArticle(quote.article));
+      if (record) {
+        closeRecordDialog();
+        renderArticle("memorable-quotes");
+        const card = document.getElementById(record.quoteId);
+        card?.focus({ preventScroll: true });
+        card?.scrollIntoView({ block: "center", behavior: "instant" });
+      }
+      return;
+    }
     if (kind === "timeline") {
       const item = archiveIndex.timeline.find(candidate => candidate.title === title);
       if (item && !isRestrictedTimelineEvent(item)) openTimelineRecord(item);

@@ -67,7 +67,7 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Rahuvia_Rahu_Capital_Location_and_History.md` | User-supplied 5 Oct 2026 | Capital location and public history, Prima hierarchy, institutional links, three timeline entries, one quote; restricted initiation details excluded. |
 
-| `Swift-Foot_Complete_Fenumion_RP_Dossier.md` | User-supplied 5 Oct 2026 | Thirteen attributed Swift Foot quotes in four searchable groups and a linked character profile; existing retrospective directory entry promoted to his own page. |
+| `Swift-Foot_Complete_Fenumion_RP_Dossier.md` | User-supplied 5 Oct 2026 | Five attributed Swift Foot quotes in four searchable groups and a linked character profile; existing retrospective directory entry promoted to his own page. |
 
 ## Manifest limitations
 

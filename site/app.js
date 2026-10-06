@@ -12654,6 +12654,65 @@ for (const event of [
 const murrQuotes = articles.find(article => article.id === "memorable-quotes");
 if (murrQuotes) murrQuotes.body = murrQuotes.body.replace('<h2 id="why-these-lines-remain">', '<h2 id="murr-voices">The old wolf’s paths and memories</h2><div class="quote-gallery"><button class="quote-card" data-article="murr"><blockquote>“If you won’t hide, then learn to walk quiet.”</blockquote><cite>Murr the Old Wolf</cite></button><button class="quote-card" data-article="murr"><blockquote>“Maybe I once knew the answers to your questions.”</blockquote><cite>Murr the Old Wolf</cite></button><button class="quote-card" data-article="murr"><blockquote>“You project far too much wisdom on this old wolf.”</blockquote><cite>Murr the Old Wolf</cite></button><button class="quote-card" data-article="murr"><blockquote>“I quickly begin to lose myself, falling into pure instinct. Losing thought.”</blockquote><cite>Murr the Old Wolf</cite></button><button class="quote-card" data-article="murr"><blockquote>“I have not seen a book since the upright folk.”</blockquote><cite>Murr the Old Wolf</cite></button></div><h2 id="why-these-lines-remain">');
 
+// Rahuvia: observed capital geography and peace history; restricted rites excluded.
+const rahuviaRecord = {
+  "id": "rahuvia",
+  "title": "Rahuvia",
+  "category": "Locations",
+  "type": "Rahu capital · Prima",
+  "dek": "A walled valley capital of cherry blossoms, guarded knowledge, sacred thresholds, and the June 2025 peace accord.",
+  "tags": [
+    "Rahuvia",
+    "Rahu capital",
+    "Rahuvian capital",
+    "Prima",
+    "Rahu",
+    "Cherry blossoms",
+    "Peace accord",
+    "Dasa"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Polity": "Rahu",
+    "Ruler in recovered record": "Witch Queen Ephraith",
+    "Setting": "Mountain-valley approach · fortified city",
+    "Observed features": "Walls · cherry blossoms · inner castle · sacred retreat",
+    "Direct naming": "Hoshi Daemon · 23 June 2025",
+    "Major event": "Peace accord · 23–24 June 2025",
+    "Founding, population and later status": "Unresolved"
+  },
+  "sources": [
+    "Rahuvia_Rahu_Capital_Location_and_History.md — supplied 5 October 2026; quest-RP part 024, public observations, attributed Dasa findings, and location safeguards"
+  ],
+  "body": "<p>Rahuvia is the walled capital and spiritual-political center of the Rahu on <a href=\"#prima-pristinia\">Prima</a>. <a href=\"#ephraith\">Witch Queen Ephraith</a> rules the state whose diplomats, investigators, guards, priests, specialists, and service workers give the city its institutional life.</p>\n<div class=\"quote\">Behold. Our home. Rahuvia.<cite>Hoshi Daemon, 23 June 2025</cite></div>\n<p>Hoshi names the city as the peace delegation reaches its walls. Earlier records often say the Rahu capital or Rahuvian capital. Rahuvia names the city; Rahu remains the identity of the people and polity. A scene in Rahu territory is not automatically a scene inside these walls.</p>\n<h2 id=\"rahuvia-approach\">A valley road and the remembrance of the dead</h2>\n<p>The June 2025 delegation follows a road through a mountain valley. Religious statues along the approach serve as prayer sites and guides for souls entering the afterlife. <a href=\"#st-anky\">St. Anky</a> asks to pray for those killed on both sides, and <a href=\"#captain-hildethrax\">Captain Hildethrax</a> approves honoring the dead as good and noble.</p>\n<p>The city’s mighty walls mark a defended political center. Their height, thickness, gates, and possible wards are not recorded. Nor are the valley’s name, exact coordinates, population, or travel time from Pristinia.</p>\n<h2 id=\"rahuvia-streets\">Cherry blossoms at sunrise</h2>\n<p>Inside Rahuvia, the rising sun reveals pink cherry blossoms among the streets. Beauty and fortification coexist with ceremony, orderly hospitality, and cultivated civic space. The blossoms give the capital a distinctive observed character, without establishing a formal religious emblem.</p>\n<p>Royal Dasa silently attend the visiting delegation. Hoshi orders that guests’ needs be met, and the service appears carefully anticipated. That refinement also brings the people sustaining it into view.</p>\n<h2 id=\"rahuvia-institutions\">A state with specialized work</h2>\n<p>Ephraith’s sovereignty works through delegated responsibilities. <a href=\"#sophina\">Ambassador Sophina</a> handles diplomacy; Hildethrax enforces access and arranges practical operations; <a href=\"#strange-talon\">Strange Talon</a> serves as Master of Intelligence; <a href=\"#yami-no-majo\">Yami no Majo</a> represents specialist magical knowledge and cultural instruction. Hoshi Daemon supplies spiritual leadership, while architects, guards, acolytes, and servants carry other work.</p>\n<p>The Rahu maintain guarded archives and ancient historical libraries. Rank and belonging affect access, and knowledge is treated as sacred and valuable. The full constitutional hierarchy and the placement of each institution within the city remain unresolved.</p>\n<p>Earlier conference rooms and the September 2024 Trial sanctum belong to Rahu institutional life, but their precise relationship to Rahuvia is not established. The older sanctum is not automatically the Queen’s June 2025 retreat.</p>\n<h2 id=\"rahuvia-dasa\">Service and the people made invisible</h2>\n<p>Dasa etiquette aims at service that barely interrupts a room. Fans can signal requests, but the complete signaling language is not recovered. Silent attendance and the expectation of near-invisibility are part of the culture visitors encounter.</p>\n<p>Lucido Spettoro describes the Dasa as a lowest, numerous labor and service caste and reports magical control. He further alleges that some Rahu construction uses Dasa life-force alongside material and magic; when questioned, he means literal energy rather than simply forced labor.</p>\n<p>These are attributed outsider findings. Their scope remains unresolved. They do not establish that every building uses life-force, or that Ephraith, Yami, or the architect Yoshida personally ordered the alleged practice. The claims nevertheless raise a serious question about the cost of Rahuvian order to those doing its least visible work.</p>\n<h2 id=\"rahuvia-sacred\">The inner castle and sacred retreat</h2>\n<p>During the peace mission Hildethrax leads the delegation toward the Queen’s retreat. Chakanbi guides them deeper into the castle, past statues, to a sacred bathing ground and changing space. Visitors leave worldly garments behind and receive silvery dark ceremonial robes. Moonlight seems particularly drawn to the changing building.</p>\n<p>Entering the temple in other clothing is treated as sacrilegious. Some visitors refuse and withdraw. The scene does not establish a universal mechanical cleansing rule or a complete floor plan.</p>\n<p>Hoshi calls the sanctum the holiest of grounds, a place even he does not casually enter. Ephraith is found in prayer. The precinct is more than a throne room: sacred practice constrains political behavior. During this mission, the Rahu hold its religious protection above wartime hostility, granting the enemy negotiators sanctuary within it.</p>\n<h2 id=\"rahuvia-peace\">23 June 2025: the capital becomes a place of negotiation</h2>\n<p>The delegation enters under escort rather than conquering the city. Ephraith and the visitors dispute sovereignty, blame, oathbreaking, repentance, and atonement. <a href=\"#eugene\">Eugene</a> offers his life for another person’s wrongs, and she chooses practical negotiation over his death. Sincere apologies and proposed concessions begin moving the discussion toward peace before Nuru appears.</p>\n<p>Nuru’s manifestation changes the evidence and commands good-faith negotiation. Ephraith is visibly shaken and accepts that his wishes must be honored. The scene establishes a turning point rather than a complete account of later Rahu theology.</p>\n<p>The resulting terms include ending conflict, ceasing attacks on the Ahau, granting access to Rahu lands and ancient historical libraries, routing future Pristinian-facing business through <a href=\"#eovar-harbor\">Eovar</a>, and offering wealth and material cooperation. The full later implementation remains open.</p>\n<h2 id=\"rahuvia-oath\">An agreement made sacred</h2>\n<p>Ephraith takes a ceremonial stone knife from an altar, cuts her palm, and lets blood fall onto the sacred floor. She invokes her forebears against herself if her people break the terms and asks named negotiators to give their own word.</p>\n<p>Ancestry, religion, sovereignty, and political obligation meet in this act. Its exact magical enforcement is unknown, and invoking forebears alone does not establish hereditary succession.</p>\n<h2 id=\"rahuvia-fallen\">24 June 2025: remembering both sides</h2>\n<p>When Adelia asks about the war dead, Ephraith confirms a burial plot honoring the fallen on both sides and provides a map. Its position inside or outside the city walls is not securely established.</p>\n<p>The immediate war ends with an agreement and shared remembrance. Rahuvia’s founding, complete layout, ordinary residential life, later government, the accord’s durability, and any sustained outside access to its libraries remain unresolved.</p>"
+};
+articles.push(rahuviaRecord);
+archiveIndex.islands.push({ title: "Rahuvia", region: "Prima", parent: "Prima", type: "Rahu capital and sacred political center", meta: "Prima · walled Rahu capital", article: "rahuvia", summary: rahuviaRecord.dek, source: "Rahuvia_Rahu_Capital_Location_and_History.md", aliases: ["Rahu capital", "Rahuvian capital"], level: "settlement" });
+fixedArticlePaths.set("rahuvia", ["Locations", "Prima", "Rahuvia"]);
+const rahuviaBranch = navigationRegions.find(region => region.title === "Locations").branches.find(branch => branch.title === "Prima");
+rahuviaBranch.items.splice(2, 0, { label: "Rahuvia", article: "rahuvia" });
+subchannelMap["rahuvia"] = [
+  { label: "Prima", article: "prima-pristinia", summary: "The island containing the Rahu capital." },
+  { label: "Witch Queen Ephraith", article: "ephraith", summary: "The sovereign who negotiates and swears the accord in her sacred retreat." },
+  { label: "Ambassador Sophina", article: "sophina", summary: "The diplomatic representative of the state centered here." },
+  { label: "Captain Hildethrax", article: "captain-hildethrax", summary: "The operational officer escorting the peace delegation." },
+  { label: "Strange Talon", article: "strange-talon", summary: "Rahu intelligence and state security." },
+  { label: "Yami no Majo", article: "yami-no-majo", summary: "Specialist knowledge and cultural boundaries." },
+  { label: "Eovar", article: "eovar-harbor", summary: "The intermediary named in post-war arrangements." }
+];
+for (const id of ["prima-pristinia", "ephraith", "sophina", "captain-hildethrax", "strange-talon", "yami-no-majo", "eovar-harbor"]) {
+  (subchannelMap[id] || (subchannelMap[id] = [])).push({ label: "Rahuvia", article: "rahuvia", summary: "The Rahu capital on Prima and site of the June 2025 peace accord." });
+}
+for (const event of [
+  { title: "The peace delegation enters Rahuvia", meta: "23 Jun 2025", sort: "2025-06-23r1", era: "2025 · Truth and authority", kind: "Capital visit", article: "rahuvia", location: "Rahuvia; Prima", people: "Hoshi Daemon; Hildethrax; Anky; peace delegation", tags: ["Rahu", "capital", "sanctuary"], summary: "A valley road, prayer statues, mighty walls, and cherry blossoms mark the escorted arrival. Hoshi names the capital, and sacred etiquette governs access to the Queen’s retreat." },
+  { title: "Peace is negotiated and sworn in Rahuvia", meta: "23 Jun 2025", sort: "2025-06-23r2", era: "2025 · Truth and authority", kind: "Peace accord", article: "rahuvia", location: "Queen’s sanctum; Rahuvia", people: "Ephraith; Eugene; Anky; Coralyn; Nuru; negotiators", tags: ["peace", "oath", "Rahu"], summary: "Negotiation moves before Nuru’s appearance; his command strengthens good-faith talks. Ephraith agrees to substantial concessions and swears before her forebears." },
+  { title: "The Rahu honor the fallen on both sides", meta: "24 Jun 2025", sort: "2025-06-24r", era: "2025 · Truth and authority", kind: "Shared remembrance", article: "rahuvia", location: "Rahu burial plot; exact position relative to Rahuvia unresolved", people: "Ephraith; Adelia; fallen of both sides", tags: ["burial", "peace", "memory"], summary: "Ephraith confirms a burial plot honoring those killed on both sides and provides a map; the site’s relation to the city walls remains unresolved." }
+]) {
+  if (!archiveIndex.timeline.some(item => item.title === event.title && item.sort === event.sort)) archiveIndex.timeline.push(event);
+}
+const rahuviaQuotes = articles.find(article => article.id === "memorable-quotes");
+if (rahuviaQuotes) rahuviaQuotes.body = rahuviaQuotes.body.replace('<h2 id="why-these-lines-remain">', '<h2 id="rahuvia-voices">Home and sacred thresholds</h2><div class="quote-gallery"><button class="quote-card" data-article="rahuvia"><blockquote>“Behold. Our home. Rahuvia.”</blockquote><cite>Hoshi Daemon, 23 June 2025</cite></button></div><h2 id="why-these-lines-remain">');
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -12663,6 +12722,8 @@ if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${public
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
+  ["rahu-capital", "rahuvia"],
+  ["rahuvian-capital", "rahuvia"],
   ["murr-the-old-wolf", "murr"],
   ["old-wolf", "murr"],
   ["derya-thorne", "deyara-thorn"],

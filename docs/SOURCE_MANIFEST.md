@@ -65,6 +65,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Murr_the_Old_Wolf_NPC_Master.md` | User-supplied 5 Oct 2026 | Public wolf biography, Voraketh and explorer connections, three timeline entries, five quotations; master-only magical explanation excluded. |
 
+| `Rahuvia_Rahu_Capital_Location_and_History.md` | User-supplied 5 Oct 2026 | Capital location and public history, Prima hierarchy, institutional links, three timeline entries, one quote; restricted initiation details excluded. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

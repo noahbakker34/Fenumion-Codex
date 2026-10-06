@@ -14611,6 +14611,7 @@ function setupQuoteVoices() {
   articleContent.querySelectorAll(".quote-voice").forEach(wrapper => {
     if (wrapper === activeQuoteVoice) stopQuoteVoice();
     const quote = wrapper.firstElementChild;
+    quote.querySelectorAll(".quote-voice-play").forEach(control => control.remove());
     wrapper.replaceWith(quote);
   });
   const normalize = text => text.toLowerCase().replace(/[^a-z]/g, "");
@@ -14620,9 +14621,22 @@ function setupQuoteVoices() {
     const words = quote.matches(".quote-card, .feature-quote") ? quote.querySelector("blockquote") : quote;
     const text = quote.matches("blockquote") ? quote.querySelector("p") || quote : words;
     if (!text || normalize(text.textContent) !== targetText) return;
+    if (quote.matches("button.quote-card")) {
+      const card = document.createElement("div");
+      card.className = quote.className;
+      card.id = quote.id;
+      card.dataset.article = quote.dataset.article;
+      card.tabIndex = -1;
+      quote.removeAttribute("id");
+      quote.className = "quote-voice-open";
+      quote.before(card);
+      card.append(quote);
+      quote = card;
+    }
     const wrapper = document.createElement("span");
     wrapper.className = `quote-voice${quote.matches("strong") ? " quote-voice-inline" : quote.matches(".quote-card, .feature-quote") ? " quote-voice-card" : ""}`;
     quote.before(wrapper);
+    if (quote.matches(".quote-card")) wrapper.classList.add("quote-voice-gallery");
     wrapper.append(quote);
     const control = document.createElement("button");
     control.type = "button";
@@ -14631,7 +14645,8 @@ function setupQuoteVoices() {
     control.setAttribute("aria-label", "Play Magnus Niriin’s voice: Hope is dead, only ambition remains");
     control.setAttribute("aria-pressed", "false");
     control.title = "Hover to hear Magnus, or press to play";
-    wrapper.append(control);
+    if (quote.matches(".quote-card")) quote.append(control);
+    else wrapper.append(control);
     const play = () => {
       stopQuoteVoice();
       activeQuoteVoice = wrapper;
@@ -14645,7 +14660,7 @@ function setupQuoteVoices() {
       if (event.pointerType === "mouse" && !document.elementFromPoint(event.clientX, event.clientY)?.closest(".quote-voice-play")) play();
     });
     wrapper.addEventListener("pointerleave", event => { if (event.pointerType === "mouse" && activeQuoteVoice === wrapper) stopQuoteVoice(); });
-    quote.addEventListener("focus", play);
+    (quote.querySelector(".quote-voice-open") || quote).addEventListener("focus", play);
     wrapper.addEventListener("focusout", event => { if (!wrapper.contains(event.relatedTarget) && activeQuoteVoice === wrapper) stopQuoteVoice(); });
     control.addEventListener("click", event => {
       event.stopPropagation();

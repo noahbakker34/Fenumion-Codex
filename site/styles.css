@@ -2270,3 +2270,11 @@ body.quotes-view .article-body > h2 { text-shadow: 0 2px 14px rgba(0, 0, 0, .82)
 body .quote-voice-card > .quote-card { border: 0; box-shadow: none; background: transparent; transform: none; }
 body .quote-voice-card > .feature-quote { border: 0; box-shadow: none; transform: none; }
 .quote-voice-card > .quote-voice-play { position: relative; z-index: 1; margin: 0 1.15rem 1rem; }
+
+body .quote-voice-gallery { border: 0; background: transparent; box-shadow: none; backdrop-filter: none; }
+body .quote-voice-gallery > .quote-card { border: 1px solid rgba(203,224,218,.25); border-radius: 4px; background: linear-gradient(145deg, rgba(18,35,38,.78), rgba(8,18,23,.9)); box-shadow: 0 16px 42px rgba(0,0,0,.22); }
+body .quote-voice-gallery > .quote-card:focus-within, body .quote-voice-gallery > .quote-card:hover { border-color: var(--gold); }
+.quote-voice-open { display: block; width: 100%; margin: 0; padding: 0; border: 0; background: transparent; color: inherit; text-align: left; cursor: pointer; }
+.quote-voice-open:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+.quote-voice-gallery .quote-voice-play { position: relative; z-index: 1; margin: .85rem 0 0; }
+.quote-voice.voice-playing .quote-voice-play { color: #fff; border-color: var(--gold); }

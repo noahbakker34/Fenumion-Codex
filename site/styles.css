@@ -2286,6 +2286,8 @@ body.ethos-view .app-shell { position: relative; z-index: 2; box-shadow: none; }
 .ethos-video-backdrop { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; background: #080e0d; }
 .ethos-video-backdrop video { width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: .65; }
 .ethos-video-backdrop::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(3,8,7,.42), rgba(3,8,7,.72)); }
+/* Keep all article sections above the fixed video, including static body text. */
+body.ethos-view #article-content > :not(.ethos-video-backdrop) { position: relative; z-index: 1; }
 body.ethos-view .article-header { background: linear-gradient(145deg, rgba(12,21,18,.8), rgba(12,18,17,.65)); }
 body.ethos-view .article-body { background: rgba(7,14,12,.62); padding: clamp(1rem, 3vw, 2rem); border-radius: 4px; text-shadow: 0 1px 4px rgba(0,0,0,.85); }
 body.ethos-view .ethos-principle, body.ethos-view .ethos-closing { background-color: rgba(9,20,16,.6); }

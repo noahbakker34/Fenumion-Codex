@@ -14745,6 +14745,7 @@ function renderArticle(route, pushHash = true) {
   document.body.classList.toggle("hub-view", Boolean(hubPage));
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
   document.body.classList.toggle("quotes-view", article.id === "memorable-quotes");
+  document.body.classList.toggle("ethos-view", article.id === "ethos-of-fenumion");
   const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : ""}`;
   if (requestedId !== id && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
@@ -14805,8 +14806,14 @@ function renderArticle(route, pushHash = true) {
         <source src="assets/archive/quotes-water-ripples.mp4" type="video/mp4">
       </video>
     </div>` : "";
+  const ethosBackdrop = article.id === "ethos-of-fenumion" ? `
+    <div class="ethos-video-backdrop" aria-hidden="true">
+      <video data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/ethos-eye-poster.webp" tabindex="-1">
+        <source src="assets/archive/ethos-eye-background.mp4" type="video/mp4">
+      </video>
+    </div>` : "";
   articleContent.innerHTML = `
-    ${quotesBackdrop}
+    ${quotesBackdrop}${ethosBackdrop}
     <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubPage.image}')"` : ""}>
       <p class="article-kicker">${article.type}</p>
       <h1>${article.title}</h1>

@@ -14818,7 +14818,9 @@ const melianQuoteVoice = new Audio("assets/voices/melian-what-light-they-leave-b
 const melianWalkQuoteVoice = new Audio("assets/voices/melian-i-walk.mp3");
 const melianDayQuoteVoice = new Audio("assets/voices/melian-this-day-would-come.mp3");
 const ariaEndureQuoteVoice = new Audio("assets/voices/aria-pain-must-be-endured.mp3");
+const ariaImageQuoteVoice = new Audio("assets/voices/aria-in-our-image.mp3");
 const quoteVoiceRecordings = [
+  { text: "thenmakethisyourpeoplebringhumanitytonewheightssowecanreshapethisworldinourimage", speaker: "Aria", label: "Then make this your people. Bring humanity to new heights, so we can reshape this world, in our image", audio: ariaImageQuoteVoice },
   { text: "sometimespainmustbeenduredtoensurevictoryiunderstandthatdoyou", speaker: "Aria", label: "Sometimes pain must be endured to ensure victory. I understand that. Do you?", audio: ariaEndureQuoteVoice },
   { text: "hopeisdeadonlyambitionremains", speaker: "Magnus Niriin", label: "Hope is dead, only ambition remains", audio: magnusQuoteVoice },
   { text: "whatlighttheyleavebehindnowliveswithinmyhands", speaker: "Melian Starguard", label: "What light they leave behind now lives within my hands", audio: melianQuoteVoice },

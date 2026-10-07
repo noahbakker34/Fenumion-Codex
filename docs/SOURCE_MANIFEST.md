@@ -87,6 +87,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Endure.mp3` | User-supplied 6 Oct 2026 | Aria’s “Sometimes pain must be endured to ensure victory…” recording; shared in-box playback in her character collection, quotation gallery and matching hourly feature. |
 
+| `In Our Image.mp3` | User-supplied 6 Oct 2026 | Aria’s “Then make this your people…reshape this world, in our image” recording; shared in-box playback in her collection, quote gallery and matching hourly feature. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

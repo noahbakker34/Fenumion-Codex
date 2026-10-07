@@ -9,11 +9,12 @@
   <link rel="icon" type="image/png" sizes="1024x1024" href="fenumion-logo.png?v=111">
   <link rel="shortcut icon" type="image/png" href="fenumion-logo.png?v=111">
   <link rel="apple-touch-icon" href="fenumion-logo.png?v=111">
-  <link rel="stylesheet" href="styles.css?v=146">
+  <link rel="stylesheet" href="styles.css?v=147">
   <script src="media.js?v=122" defer></script>
   <script src="music.js?v=3" defer></script>
   <script src="faction-maps.js?v=1" defer></script>
-  <script src="app.js?v=153" defer></script>
+  <script src="character-map-expansion.js?v=1" defer></script>
+  <script src="app.js?v=154" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#article">Skip to article</a>
@@ -145,6 +146,13 @@
 
   <div class="search-panel" id="search-panel" hidden>
     <div class="search-panel-head"><span id="search-count">Search results</span><button id="close-search" aria-label="Close search">Esc</button></div>
+    <div id="search-filters" class="search-filters" role="group" aria-label="Filter search results">
+      <button type="button" data-search-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-search-filter="character" aria-pressed="false">Characters</button>
+      <button type="button" data-search-filter="location" aria-pressed="false">Locations</button>
+      <button type="button" data-search-filter="timeline" aria-pressed="false">Events</button>
+      <button type="button" data-search-filter="quote" aria-pressed="false">Quotes</button>
+    </div>
     <div id="search-results"></div>
   </div>
   <div class="scrim" id="scrim" hidden></div>

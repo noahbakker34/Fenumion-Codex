@@ -12848,6 +12848,35 @@ archiveIndex.timeline.push({ title: "Melian survives the burning of her house", 
 const melianVoiceQuotes = articles.find(article => article.id === "memorable-quotes");
 melianVoiceQuotes.sources.push("User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come");
 
+const starterRecord = {
+  "id": "start-here",
+  "title": "Start Here",
+  "category": "Foundations",
+  "type": "A new reader’s path through the Codex",
+  "dek": "Find your bearings through the Ethos, world map, characters, factions, connected histories, and the voices of Fenumion.",
+  "tags": [
+    "New readers",
+    "Reading guide",
+    "World atlas",
+    "Characters",
+    "Factions"
+  ],
+  "facts": {
+    "Path": "6 optional steps",
+    "Progress": "Saved on this device",
+    "Next step": "Follow your curiosity"
+  },
+  "sources": [
+    "Existing public Codex records — editorial reading path; no new lore claims"
+  ],
+  "body": "<p>You do not need to read the entire archive in order. Follow this short path, then choose a person, place, or question that interests you. Mark steps as read to keep your place on this device.</p><div data-reading-path><p class=\"reading-progress\" data-reading-progress role=\"status\" aria-live=\"polite\"></p><section class=\"reading-step\"><span class=\"reading-step-number\">01</span><div><h2 id=\"reading-ethos\">Begin with the Ethos</h2><p>Learn how Fenumion treats its people, consequences, and recovered evidence.</p><div class=\"exploration-links\"><a href=\"#ethos-of-fenumion\">Read the Ethos of Fenumion →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"ethos\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">02</span><div><h2 id=\"reading-world\">Find your bearings</h2><p>Open the world atlas, choose an island, then select a marker to explore a place.</p><div class=\"exploration-links\"><a href=\"#visual-archive\">Explore the world atlas →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"world\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">03</span><div><h2 id=\"reading-people\">Meet a few people</h2><p>Start with the ordinary lives that make the world worth saving. A character’s art, quotes, and relationships offer different ways into their history.</p><div class=\"exploration-links\"><a href=\"#dale\">Meet Dale</a><a href=\"#melian-starguard\">Meet Melian Starguard</a><a href=\"#people-directory\">Browse the character directory →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"people\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">04</span><div><h2 id=\"reading-factions\">Follow a shared purpose</h2><p>Explore the Ale-Chemy Knights and the Veilguard. Their interaction maps show the people, resources, and responsibilities behind each group.</p><div class=\"exploration-links\"><a href=\"#ale-chemy-knights\">The Ale-Chemy Knights</a><a href=\"#veilguard\">The Veilguard</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"factions\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">05</span><div><h2 id=\"reading-history\">Follow one place through time</h2><p>Try Melian’s House: select its Pristinia map marker, read the location history, and open its dated events to follow the people involved.</p><div class=\"exploration-links\"><a href=\"#visual-archive?map=pristinia\">Open the Pristinia map</a><a href=\"#melians-house\">Read Melian’s House</a><a href=\"#living-timeline\">Explore the Living Timeline →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"history\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">06</span><div><h2 id=\"reading-voices\">Listen to the world’s voices</h2><p>Read the memorable quotes, play the available recordings, and explore the community’s character artwork. Use search filters whenever you want to follow a particular person or place.</p><div class=\"exploration-links\"><a href=\"#memorable-quotes\">Read and hear memorable quotes</a><a href=\"#ececilia-emojis\">Explore Ececilia’s art →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"voices\"> Mark this step as read</label></div></section></div>"
+};
+articles.push(starterRecord);
+fixedArticlePaths.set("start-here", ["Foundations", "Start Here"]);
+const starterBanner = '<section class="starter-banner"><div><p class="eyebrow">New to Fenumion?</p><h2>A few doors into a living world</h2><p>Find your bearings through the map, characters, factions, and the stories connecting them.</p></div><button type="button" data-article="start-here">Start exploring →</button></section>';
+articles.find(article => article.id === 'world-index').body = articles.find(article => article.id === 'world-index').body.replace('<section class="gateway-categories"', starterBanner + '<section class="gateway-categories"');
+(subchannelMap['ethos-of-fenumion'] || (subchannelMap['ethos-of-fenumion'] = [])).unshift({ label: 'Start Here', article: 'start-here', summary: 'A six-step path through the world, people, factions, and remembered voices.' });
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -14124,6 +14153,8 @@ const relationshipMaps = {
   }
 };
 
+Object.assign(relationshipMaps, window.FENUMION_CHARACTER_MAPS || {});
+
 function mergeMedia(record, media) {
   if (!record || !media) return;
   const { aliases = [], gallery = [], ...fields } = media;
@@ -14357,6 +14388,7 @@ function openTimelineRecord(item) {
       <p><strong>Why it matters</strong>${escapeHtml(whyItMatters)}</p>
     </div>
     <div class="record-dialog-meta"><span>People · ${escapeHtml(item.people || "Unrecorded")}</span>${(item.tags || []).map(tag => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
+    ${renderEventConnections(item)}
     ${relatedButton}
     ${timelineNavigation}`;
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
@@ -14571,24 +14603,8 @@ function normalizePlaceName(value = "") {
 }
 
 function renderLocationTimeline(article) {
-  if (article.category !== "Places" || article.id === "visual-archive") return "";
-  const placeNames = new Set([article.title]);
-  archiveIndex.islands
-    .filter(place => place.article === article.id)
-    .forEach(place => {
-      placeNames.add(place.title);
-      (place.aliases || []).forEach(alias => placeNames.add(alias));
-    });
-  const normalizedNames = new Set([...placeNames].map(normalizePlaceName).filter(Boolean));
-  const timelineItems = archiveIndex.timeline
-    .filter(item => !isRestrictedTimelineEvent(item))
-    .filter(item => {
-      if (item.article === article.id) return true;
-      const locationParts = String(item.location || "").split(/[;,/·]|\s+›\s+/).map(normalizePlaceName).filter(Boolean);
-      return locationParts.some(part => normalizedNames.has(part));
-    })
-    .filter((item, index, items) => items.findIndex(candidate => candidate.title === item.title && candidate.sort === item.sort) === index)
-    .sort((left, right) => left.sort.localeCompare(right.sort));
+  if (!isLocationArticle(article)) return "";
+  const timelineItems = locationTimelineItems(article);
   const lockedNote = !vaultUnlocked
     ? `<p class="location-timeline-note"><span aria-hidden="true">◆</span> Protected ancient records remain veiled in player-safe view.</p>`
     : "";
@@ -14662,6 +14678,7 @@ function renderRelationshipMap(article) {
         <p class="relationship-detail-kicker">${escapeHtml(first.relation)}</p>
         <h3>${escapeHtml(first.title)}</h3>
         <p>${escapeHtml(first.history)}</p>
+        ${renderRelationshipMoments(first)}
         ${interaction ? renderInteractionFields(first) : `<p>${escapeHtml(first.consequence)}</p>`}
         <div><strong>Evidence boundary</strong><span>${escapeHtml(first.evidence)}</span></div>
         <button type="button" data-article="${escapeHtml(first.article)}">Open linked record <span aria-hidden="true">→</span></button>
@@ -14694,6 +14711,7 @@ function setupRelationshipMap(article) {
       <p class="relationship-detail-kicker">${escapeHtml(node.relation)}</p>
       <h3>${escapeHtml(node.title)}</h3>
       <p>${escapeHtml(node.history)}</p>
+      ${renderRelationshipMoments(node)}
       ${map.kind === "interaction" ? renderInteractionFields(node) : `<p>${escapeHtml(node.consequence)}</p>`}
       <div><strong>Evidence boundary</strong><span>${escapeHtml(node.evidence)}</span></div>
       <button type="button" data-article="${escapeHtml(node.article)}">Open linked record <span aria-hidden="true">→</span></button>`;
@@ -14729,7 +14747,7 @@ function setupRelationshipMap(article) {
 }
 
 function renderNavigation() {
-  navigation.innerHTML = `
+  navigation.innerHTML = `<button type="button" class="nav-link starter-nav-link" data-article="start-here"><span>Start Here · New readers</span><span>→</span></button>
     <button type="button" class="ethos-sidebar-link nav-only-ethos" data-article="ethos-of-fenumion" data-nav-article="ethos-of-fenumion" data-label="Begin the Chronicle · The Ethos of Fenumion">
       <span class="ethos-sidebar-glyph" aria-hidden="true">✦</span>
       <span class="ethos-sidebar-copy"><strong>The Ethos of Fenumion</strong><small>Player ethos &amp; chronicle guide</small></span>
@@ -14895,6 +14913,7 @@ function renderArticle(route, pushHash = true) {
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
   document.body.classList.toggle("quotes-view", article.id === "memorable-quotes");
   document.body.classList.toggle("ethos-view", article.id === "ethos-of-fenumion");
+  document.body.classList.toggle("starter-view", article.id === "start-here");
   const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : ""}`;
   if (requestedId !== id && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
@@ -14921,7 +14940,7 @@ function renderArticle(route, pushHash = true) {
     ? `${mapHero}${videoHero}`
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "");
   const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
-  const sourceLedger = article.sources?.length ? `<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} document${article.sources.length === 1 ? "" : "s"} used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
+  const sourceLedger = article.id !== "start-here" && article.sources?.length ? `<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} document${article.sources.length === 1 ? "" : "s"} used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
   const subchannels = renderSubchannels(article.id);
   const relationshipMap = renderRelationshipMap(article);
   const locationTimeline = renderLocationTimeline(article);
@@ -14976,10 +14995,11 @@ function renderArticle(route, pushHash = true) {
     ${sourceLedger}
     ${subchannels}
     ${relationshipMap}
+    ${renderLocationConnections(article)}
     ${locationTimeline}
     ${peopleGallery}
     <div class="lead-grid">
-      <div class="article-body">${article.body}${renderRelated(article)}</div>
+      <div class="article-body">${article.body}${renderCharacterCollection(article)}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
   if (article.id === "world-index") {
@@ -14990,6 +15010,7 @@ function renderArticle(route, pushHash = true) {
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
   if (article.id === "living-timeline") setupTimelineExplorer();
   setupRelationshipMap(article);
+  setupReadingPath();
   setupAmbientVideos(articleContent);
   applyPlayerSafeRedactions();
   if (article.id === "memorable-quotes") setupQuoteGroups();
@@ -15510,6 +15531,109 @@ function setupTimelineExplorer() {
   renderResults();
 }
 
+// Galleries use only supplied media and public quotation records.
+const communityCharacterArt = [
+  { article: 'gartina', image: 'gartina-chibi.png', title: 'Gartina', alt: 'Gartina holding a red heart' },
+  { article: 'elenia', image: 'elenia-chibi.png', title: 'Elenia', alt: 'Elenia cheering with flowers in her hair' },
+  { article: 'magnus', image: 'assets/community/ececilia/magnus-rip.png', title: 'Magnus · RIP', alt: 'Chibi Magnus with crossed-out eyes and flames' },
+  { article: 'carmen', image: 'assets/community/ececilia/paco-pwease.png', title: 'Paco · Pwease', alt: 'Paco with wide pleading eyes and outstretched hands' },
+  { article: 'scribonia', image: 'assets/community/ececilia/scribonia-chibi.png', title: 'Scribonia', alt: 'Scribonia with glasses and a glowing idea bulb' },
+  { article: 'cave-company', image: 'assets/community/ececilia/vessalia-chibi.png', title: 'Vessalia', alt: 'Vessalia with sparkling star-shaped pupils' }
+];
+
+function renderCharacterCollection(article) {
+  const artwork = communityCharacterArt.filter(item => item.article === article.id);
+  const person = [...archiveIndex.characters, ...archiveIndex.npcs].some(item => item.article === article.id && normalizePlaceName(item.title) === normalizePlaceName(article.title));
+  if ((!person && article.category !== 'People' && !artwork.length) || ['people-directory', 'ececilia-emojis'].includes(article.id)) return '';
+  const quotes = memorableQuoteRecords().filter(record => isPlayerSafeArticle(record.article) && (record.article === article.id || normalizePlaceName(record.speaker) === normalizePlaceName(article.title)));
+  const media = [
+    ...(article.image ? [{ image: article.image, title: article.title, alt: article.imageAlt || article.title, caption: article.imageCaption || 'Portrait preserved in the Codex archive.' }] : []),
+    ...artwork.map(item => ({ ...item, caption: 'Character artwork by Ececilia.' }))
+  ];
+  if (!media.length && !quotes.length) return '';
+  return `<section class="character-collection exploration-section" aria-labelledby="collection-${article.id}">
+    <p class="eyebrow">Portraits, community art & remembered words</p><h2 id="collection-${article.id}">Art & words · ${escapeHtml(article.title)}</h2>
+    ${media.length ? `<div class="character-art-grid">${media.map(item => `<figure><a href="${escapeHtml(item.image)}" target="_blank" rel="noopener" aria-label="Open ${escapeHtml(item.title)} artwork at full size"><img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.alt)}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.caption)}</span></figcaption></figure>`).join('')}</div>` : ''}
+    ${artwork.length ? '<p class="collection-credit"><a href="#ececilia-emojis">Explore Ececilia’s complete emoji gallery →</a></p>' : ''}
+    ${quotes.length ? `<h3>In their own words</h3><div class="character-quote-grid">${quotes.map(record => `<div class="quote-card character-quote"><span class="quote-group">${escapeHtml(record.group)}</span><blockquote>${escapeHtml(record.title)}</blockquote><cite>${escapeHtml(record.speaker)}</cite></div>`).join('')}</div><p><a href="#memorable-quotes">Explore all memorable quotes →</a></p>` : ''}
+  </section>`;
+}
+
+function isLocationArticle(article) {
+  return ['Places', 'Locations'].includes(article.category) && article.id !== 'visual-archive';
+}
+
+function locationTimelineItems(article) {
+  const records = archiveIndex.islands.filter(place => place.article === article.id);
+  const names = new Set([article.title, ...records.flatMap(place => [place.title, ...(place.aliases || [])])].map(normalizePlaceName).filter(Boolean));
+  return archiveIndex.timeline.filter(item => !isRestrictedTimelineEvent(item) && isPlayerSafeArticle(item.article))
+    .filter(item => item.article === article.id || String(item.location || '').split(/[;,/·]|\s+›\s+/).map(normalizePlaceName).some(part => names.has(part)))
+    .filter((item, index, items) => items.findIndex(candidate => candidate.title === item.title && candidate.sort === item.sort) === index)
+    .sort((a, b) => a.sort.localeCompare(b.sort));
+}
+
+function resolvePublicPerson(name) {
+  const normalized = normalizePlaceName(name);
+  const people = [...archiveIndex.characters, ...archiveIndex.npcs].filter(person => isPlayerSafeArticle(person.article));
+  const exact = people.find(person => [person.title, ...(person.aliases || []), byId.get(person.article)?.title].filter(Boolean).some(title => normalizePlaceName(title) === normalized));
+  if (exact) return exact;
+  const expanded = people.filter(person => normalizePlaceName(person.title).startsWith(normalized + ' '));
+  return expanded.length === 1 ? expanded[0] : null;
+}
+
+function renderLocationConnections(article) {
+  if (!isLocationArticle(article)) return '';
+  const places = archiveIndex.islands.filter(place => place.article === article.id);
+  const names = new Set([article.title, ...places.flatMap(place => [place.title, ...(place.aliases || [])])]);
+  const maps = interactiveMaps.filter(map => map.pins.some(pin => names.has(pin.title)));
+  const people = [...new Map(locationTimelineItems(article).flatMap(event => String(event.people || '').split(';').map(name => resolvePublicPerson(name.trim())).filter(Boolean)).map(person => [person.title, person])).values()];
+  const children = archiveIndex.islands.filter(place => names.has(place.parent) && !names.has(place.title) && isPlayerSafeArticle(place.article));
+  const parents = [...new Set(places.map(place => place.parent).filter(parent => parent && !names.has(parent)))].map(name => archiveIndex.islands.find(place => place.title === name && isPlayerSafeArticle(place.article))).filter(Boolean);
+  if (!maps.length && !people.length && !children.length && !parents.length) return '';
+  return `<section class="location-connections exploration-section" aria-labelledby="connections-${article.id}"><p class="eyebrow">Follow the place’s history</p><h2 id="connections-${article.id}">People & places connected here</h2>
+    ${maps.length ? `<div class="exploration-links">${maps.map(map => `<button type="button" data-open-map="${map.id}">Explore the ${escapeHtml(map.title)} map →</button>`).join('')}</div>` : ''}
+    ${parents.length ? `<p class="location-parent">Part of ${parents.map(parent => `<button type="button" data-location-title="${escapeHtml(parent.title)}">${escapeHtml(parent.title)}</button>`).join(' · ')}</p>` : ''}
+    ${people.length ? `<details class="connection-group" open><summary>People in the recovered events <span>${people.length}</span></summary><div class="exploration-grid">${people.map(person => `<button type="button" data-character-title="${escapeHtml(person.title)}"><strong>${escapeHtml(person.title)}</strong><small>${escapeHtml(person.meta)}</small></button>`).join('')}</div></details>` : ''}
+    ${children.length ? `<details class="connection-group"><summary>Explore places within ${escapeHtml(article.title)} <span>${children.length}</span></summary><div class="exploration-grid">${children.map(place => `<button type="button" data-location-title="${escapeHtml(place.title)}"><strong>${escapeHtml(place.title)}</strong><small>${escapeHtml(place.type || place.meta)}</small></button>`).join('')}</div></details>` : ''}
+  </section>`;
+}
+
+function renderEventConnections(item) {
+  const people = [...new Map(String(item.people || '').split(';').map(name => resolvePublicPerson(name.trim())).filter(Boolean).map(person => [person.title, person])).values()];
+  const locationNames = String(item.location || '').split(/[;,/·]|\s+›\s+/).map(normalizePlaceName);
+  const places = archiveIndex.islands.filter(place => isPlayerSafeArticle(place.article) && [place.title, ...(place.aliases || [])].some(name => locationNames.includes(normalizePlaceName(name))));
+  if (!people.length && !places.length) return '';
+  return `<nav class="record-connections" aria-label="People and places in this event"><h3>Follow this event</h3><div class="exploration-links">${people.map(person => `<button type="button" data-character-title="${escapeHtml(person.title)}">${escapeHtml(person.title)}</button>`).join('')}${places.map(place => `<button type="button" data-location-title="${escapeHtml(place.title)}">${escapeHtml(place.title)}</button>`).join('')}</div></nav>`;
+}
+
+function renderRelationshipMoments(node) {
+  if (!node.moments?.length) return '';
+  return `<ol class="relationship-moments" aria-label="How this relationship changes over time">${node.moments.map(moment => `<li><strong>${escapeHtml(moment.when)}</strong><span>${escapeHtml(moment.text)}</span></li>`).join('')}</ol>`;
+}
+
+function searchCategory(article) {
+  if (isLocationArticle(article)) return 'location';
+  if ([...archiveIndex.characters, ...archiveIndex.npcs].some(person => person.article === article.id && [person.title, ...(person.aliases || [])].some(name => normalizePlaceName(name) === normalizePlaceName(article.title)))) return 'character';
+  return 'article';
+}
+
+function setupReadingPath() {
+  const path = articleContent.querySelector('[data-reading-path]');
+  if (!path) return;
+  const storageKey = 'fenumion-reading-path-v1';
+  let completed = [];
+  try { completed = JSON.parse(localStorage.getItem(storageKey) || '[]'); if (!Array.isArray(completed)) completed = []; } catch {}
+  const inputs = [...path.querySelectorAll('[data-reading-step]')];
+  inputs.forEach(input => { input.checked = completed.includes(input.dataset.readingStep); });
+  const update = () => {
+    const done = inputs.filter(input => input.checked).map(input => input.dataset.readingStep);
+    path.querySelector('[data-reading-progress]').textContent = `${done.length} of ${inputs.length} steps marked as read`;
+    try { localStorage.setItem(storageKey, JSON.stringify(done)); } catch {}
+  };
+  path.addEventListener('change', update);
+  update();
+}
+
 function renderRelated(article) {
   const related = articles
     .filter(candidate => candidate.id !== article.id && isPlayerSafeArticle(candidate.id))
@@ -15539,6 +15663,8 @@ function openSearch() {
   if (innerWidth <= 760) document.querySelector(".search-shell").classList.add("open");
 }
 
+let activeSearchCategory = "all";
+
 function runSearch(query) {
   const normalized = query.trim().toLowerCase();
   if (!normalized) {
@@ -15553,9 +15679,8 @@ function runSearch(query) {
     const titleMatch = article.title.toLowerCase().includes(normalized) ? 4 : 0;
     const tagMatch = article.tags.some(tag => tag.toLowerCase().includes(normalized)) ? 2 : 0;
     const allTermsMatch = terms.every(term => haystack.includes(term));
-    return { article, path, kind: "article", record: article, score: titleMatch + tagMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0) };
+    return { article, path, kind: "article", record: article, filterKind: searchCategory(article), score: titleMatch + tagMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0) };
   }).filter(result => result.score);
-  const matchedArticleTitles = new Set(articleResults.map(result => result.article.title.toLowerCase()));
   const indexGroups = [
     ["Characters", archiveIndex.characters],
     ["NPCs & divine figures", archiveIndex.npcs],
@@ -15573,7 +15698,7 @@ function runSearch(query) {
       record: item,
       score: titleMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0)
     };
-  })).filter(result => result.score && isPlayerSafeArticle(result.article.id) && !matchedArticleTitles.has(result.article.title.toLowerCase()));
+  })).filter(result => result.score && isPlayerSafeArticle(result.article.id));
   const quoteTerms = normalized.replace(/[^\p{L}\p{N}]+/gu, " ").trim().split(/\s+/).filter(Boolean);
   const quoteResults = memorableQuoteRecords().filter(record => isPlayerSafeArticle(record.article)).map(record => {
     const haystack = `${record.title} ${record.speaker} ${record.group}`.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ");
@@ -15582,6 +15707,7 @@ function runSearch(query) {
   }).filter(result => result.score);
   const seen = new Set();
   const results = [...articleResults, ...indexResults, ...quoteResults]
+    .filter(result => activeSearchCategory === "all" || (result.filterKind || result.kind) === activeSearchCategory)
     .sort((a, b) => b.score - a.score || a.article.title.localeCompare(b.article.title))
     .filter(result => {
       const key = `${result.article.title.toLowerCase()}|${result.article.id}`;
@@ -15590,8 +15716,9 @@ function runSearch(query) {
       return true;
     });
   searchCount.textContent = `${results.length} result${results.length === 1 ? "" : "s"}`;
+  document.querySelectorAll("[data-search-filter]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.searchFilter === activeSearchCategory)));
   searchResults.innerHTML = results.length ? results.map(({ article, path, kind, record }) => `
-    <button class="search-result" data-search-kind="${kind}" data-search-title="${escapeHtml(record.title)}" data-article="${escapeHtml(article.id)}"><small>${path.map(escapeHtml).join(" → ")} · ${escapeHtml(article.type)}</small><strong>${highlight(article.title, normalized)}</strong><span>${highlight(article.dek, normalized)}</span></button>`).join("") : `<div class="empty-search">No character, quote, event, location, or source matches “${escapeHtml(query)}”.</div>`;
+    <button class="search-result" data-search-category="${kind === "article" ? searchCategory(byId.get(article.id)) : kind}" data-search-kind="${kind}" data-search-title="${escapeHtml(record.title)}" data-article="${escapeHtml(article.id)}"><small>${path.map(escapeHtml).join(" → ")} · ${escapeHtml(article.type)}</small><strong>${highlight(article.title, normalized)}</strong><span>${highlight(article.dek, normalized)}</span></button>`).join("") : `<div class="empty-search">No character, quote, event, location, or source matches “${escapeHtml(query)}”.</div>`;
   openSearch();
 }
 
@@ -15614,6 +15741,8 @@ matchMedia("(max-width: 760px)").addEventListener("change", closePanels);
 
 function clearSearchQuery() {
   search.value = "";
+  activeSearchCategory = "all";
+  document.querySelectorAll("[data-search-filter]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.searchFilter === "all")));
   const gatewaySearch = document.querySelector("#gateway-search");
   if (gatewaySearch) gatewaySearch.value = "";
   closePanels();
@@ -15625,6 +15754,12 @@ recordDialog?.addEventListener("click", event => {
 });
 
 document.addEventListener("click", event => {
+  const locationTrigger = event.target.closest('[data-location-title]');
+  if (locationTrigger) {
+    const place = archiveIndex.islands.find(item => item.title === locationTrigger.dataset.locationTitle);
+    if (place && isPlayerSafeArticle(place.article)) openLocationRecord(place);
+    return;
+  }
   const relatedRecord = event.target.closest("[data-record-article]");
   if (relatedRecord) {
     closeRecordDialog();
@@ -15706,6 +15841,12 @@ document.addEventListener("click", event => {
     document.querySelector("#mobile-contents").open = false;
     document.getElementById(sectionTrigger.dataset.section)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
   }
+});
+document.querySelector('#search-filters').addEventListener('click', event => {
+  const button = event.target.closest('[data-search-filter]');
+  if (!button) return;
+  activeSearchCategory = button.dataset.searchFilter;
+  runSearch(search.value);
 });
 search.addEventListener("input", event => runSearch(event.target.value));
 search.addEventListener("focus", () => { if (search.value) runSearch(search.value); });

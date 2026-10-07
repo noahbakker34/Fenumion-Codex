@@ -81,6 +81,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `This day would come.mp3` | User-supplied 6 Oct 2026 | Recording for Melian’s existing “I knew this day would come. Let us see what comes of it.” quotation, with shared in-box voice controls on the gallery, matching article quotes and homepage feature. |
 
+| Codex exploration expansion | Requested 6 Oct 2026 | Existing public biographies, quotation gallery, supplied community art, location directory and timelines reused for character collections, connected histories, typed search, five additional relationship maps and an editorial new-reader path. No new historical claims inferred from search or map position. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

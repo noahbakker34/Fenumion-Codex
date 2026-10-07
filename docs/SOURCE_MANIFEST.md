@@ -75,6 +75,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Melians_House_Fenumion_Codex.md` | User-supplied 6 Oct 2026 | New lakeside residence history, selectable marker at the existing Pristinia source-map label, location directory, related pages, October fire timeline and precise June event locations; later condition and cellar survival remain unresolved. |
 
+| `ElevenLabs_2026-10-07T02_38_57_Elven LAdy_gen_sp108_s50_sb75_v4.mp3` | User-supplied 6 Oct 2026 | Melian’s “What light they leave behind...... now lives within my hands.” quote recording, inline and gallery playback, search and hourly rotation. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

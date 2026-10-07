@@ -4859,7 +4859,7 @@ if (!articles.some(article => article.id === "melian-starguard")) {
       <p>Melian survives into Pristinia’s later history. The details of her captivity and return remain incomplete, but she is not reduced to “the NPC who was kidnapped.” She becomes a continuity figure who witnesses the Rahu crisis, the growth of adventurer factions, the destruction and rebuilding of institutions, Papirak’s death, and the accumulation of a town’s memory.</p>
       <h2 id="melian-papirak">Papirak’s funeral · carrying the flame</h2>
       <p>On 30 September 2026, Melian leads the procession and performs the Rite of the Flame. Her language makes survival an obligation to carry something forward for those who cannot.</p>
-      <div class="quote">What light they leave behind now lives within my hands.<cite>Melian Starguard</cite></div>
+      <div class="quote">What light they leave behind...... now lives within my hands.<cite>Melian Starguard</cite></div>
       <div class="quote">I walk because they cannot, and I shine where they are gone.<cite>Melian Starguard</cite></div>
       <p>Papirak’s walking stick is revealed as a Staff of Power worth an enormous sum. Melian refuses to reduce its meaning to utility and determines that it belongs with Papirak. When Fenwick Sequesters it with Pell’s permission and Camilla can no longer detect it, Melian trusts them enough to continue the rite. Suspicion remains part of the history; it does not become proof of theft.</p>
       <h2 id="melian-herb">The flame and the hearth</h2>
@@ -4897,7 +4897,7 @@ if (zarathisDeepDive && !zarathisDeepDive.body.includes("id=\"zarathis-capital\"
 if (memorableQuotesArticle && !memorableQuotesArticle.body.includes("small joys in this difficult time")) {
   memorableQuotesArticle.body = memorableQuotesArticle.body
     .replace('<h2 id="protection-and-responsibility">Protection and responsibility</h2>\n      <div class="quote-gallery">', '<h2 id="protection-and-responsibility">Protection and responsibility</h2>\n      <div class="quote-gallery">\n        <button class="quote-card" data-article="herb"><blockquote>“We all need to find small joys in this difficult time.”</blockquote><cite>Herb Shepherd</cite></button>')
-    .replace('<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">', '<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I knew this day would come. Let us see what comes of it.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“What light they leave behind now lives within my hands.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I walk because they cannot, and I shine where they are gone.”</blockquote><cite>Melian Starguard</cite></button>');
+    .replace('<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">', '<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I knew this day would come. Let us see what comes of it.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“What light they leave behind...... now lives within my hands.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I walk because they cannot, and I shine where they are gone.”</blockquote><cite>Melian Starguard</cite></button>');
   memorableQuotesArticle.facts.Selection = "56 recovered lines";
   memorableQuotesArticle.sources = [...new Set([...(memorableQuotesArticle.sources || []), "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations"] )];
 }
@@ -12844,6 +12844,10 @@ for (const event of archiveIndex.timeline) {
 }
 archiveIndex.timeline.push({ title: "Melian survives the burning of her house", meta: "12 Oct 2024", sort: "2024-10-12mh", era: "2024 · Arrival and consequence", kind: "Arson and rescue", article: "melians-house", location: "Melian’s House; Pristinia; Prima", people: "Melian Starguard; Olokun; Fenwick; Ink; Krasteline", tags: ["arson", "poison", "rescue", "Pristinia"], summary: "Drugged and locked in her basement while a magically intensified fire burns above, Melian is rescued. Only the house’s stone frames remain; the perpetrator is not established by this location record." });
 
+// Melian’s supplied recording accompanies her existing searchable quotation.
+const melianVoiceQuotes = articles.find(article => article.id === "memorable-quotes");
+melianVoiceQuotes.sources.push("User-supplied Melian quotation and voice recording — 6 October 2026");
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -14784,12 +14788,16 @@ function setupQuoteGroups() {
 }
 
 const magnusQuoteVoice = new Audio("assets/voices/magnus-hope-is-dead.mp3");
-magnusQuoteVoice.preload = "none";
+const melianQuoteVoice = new Audio("assets/voices/melian-what-light-they-leave-behind.mp3");
+const quoteVoiceRecordings = [
+  { text: "hopeisdeadonlyambitionremains", speaker: "Magnus Niriin", label: "Hope is dead, only ambition remains", audio: magnusQuoteVoice },
+  { text: "whatlighttheyleavebehindnowliveswithinmyhands", speaker: "Melian Starguard", label: "What light they leave behind now lives within my hands", audio: melianQuoteVoice }
+];
+quoteVoiceRecordings.forEach(record => { record.audio.preload = "none"; });
 let activeQuoteVoice = null;
 
 function stopQuoteVoice() {
-  magnusQuoteVoice.pause();
-  magnusQuoteVoice.currentTime = 0;
+  quoteVoiceRecordings.forEach(({ audio }) => { audio.pause(); audio.currentTime = 0; });
   if (activeQuoteVoice) {
     activeQuoteVoice.classList.remove("voice-playing");
     const control = activeQuoteVoice.querySelector(".quote-voice-play");
@@ -14797,7 +14805,7 @@ function stopQuoteVoice() {
   }
   activeQuoteVoice = null;
 }
-magnusQuoteVoice.addEventListener("ended", stopQuoteVoice);
+quoteVoiceRecordings.forEach(({ audio }) => audio.addEventListener("ended", stopQuoteVoice));
 document.addEventListener("visibilitychange", () => { if (document.hidden) stopQuoteVoice(); });
 
 function setupQuoteVoices() {
@@ -14809,12 +14817,16 @@ function setupQuoteVoices() {
     wrapper.replaceWith(quote);
   });
   const normalize = text => text.toLowerCase().replace(/[^a-z]/g, "");
-  const targetText = "hopeisdeadonlyambitionremains";
-  const candidates = articleContent.querySelectorAll(".quote-card, .feature-quote, .article-body > blockquote, .article-body strong");
+  const candidates = articleContent.querySelectorAll(".quote-card, .feature-quote, .article-body > blockquote, .article-body strong, .article-body .quote");
   candidates.forEach(quote => {
     const words = quote.matches(".quote-card, .feature-quote") ? quote.querySelector("blockquote") : quote;
     const text = quote.matches("blockquote") ? quote.querySelector("p") || quote : words;
-    if (!text || normalize(text.textContent) !== targetText) return;
+    if (!text) return;
+    const spoken = text.cloneNode(true);
+    spoken.querySelectorAll("cite, .quote-voice-play").forEach(element => element.remove());
+    const recording = quoteVoiceRecordings.find(record => normalize(spoken.textContent) === record.text);
+    if (!recording) return;
+    const audio = recording.audio;
     if (quote.matches("button.quote-card")) {
       const card = document.createElement("div");
       card.className = quote.className;
@@ -14836,10 +14848,10 @@ function setupQuoteVoices() {
     control.type = "button";
     control.className = "quote-voice-play";
     control.textContent = "▶ Play voice";
-    control.setAttribute("aria-label", "Play Magnus Niriin’s voice: Hope is dead, only ambition remains");
+    control.setAttribute("aria-label", `Play ${recording.speaker}’s voice: ${recording.label}`);
     control.setAttribute("aria-pressed", "false");
-    control.title = "Hover to hear Magnus, or press to play";
-    if (quote.matches(".quote-card")) quote.append(control);
+    control.title = `Hover to hear ${recording.speaker}, or press to play`;
+    if (quote.matches(".quote-card, .quote")) quote.append(control);
     else wrapper.append(control);
     const play = () => {
       stopQuoteVoice();
@@ -14848,7 +14860,7 @@ function setupQuoteVoices() {
       control.textContent = "■ Stop voice";
       control.setAttribute("aria-pressed", "true");
       // Browsers can require a click before permitting hover audio.
-      magnusQuoteVoice.play().catch(() => { if (activeQuoteVoice === wrapper) stopQuoteVoice(); });
+      audio.play().catch(() => { if (activeQuoteVoice === wrapper) stopQuoteVoice(); });
     };
     wrapper.addEventListener("pointerenter", event => {
       if (event.pointerType === "mouse" && !document.elementFromPoint(event.clientX, event.clientY)?.closest(".quote-voice-play")) play();
@@ -14858,7 +14870,7 @@ function setupQuoteVoices() {
     wrapper.addEventListener("focusout", event => { if (!wrapper.contains(event.relatedTarget) && activeQuoteVoice === wrapper) stopQuoteVoice(); });
     control.addEventListener("click", event => {
       event.stopPropagation();
-      if (activeQuoteVoice === wrapper && !magnusQuoteVoice.paused) stopQuoteVoice();
+      if (activeQuoteVoice === wrapper && !audio.paused) stopQuoteVoice();
       else play();
     });
   });

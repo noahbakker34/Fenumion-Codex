@@ -79,6 +79,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `I walk.mp3` | User-supplied 6 Oct 2026 | Recording for Melian’s existing “I walk because they cannot, and I shine... where they are gone.” quotation; profile, gallery and hourly-feature playback. |
 
+| `This day would come.mp3` | User-supplied 6 Oct 2026 | Recording for Melian’s existing “I knew this day would come. Let us see what comes of it.” quotation, with shared in-box voice controls on the gallery, matching article quotes and homepage feature. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

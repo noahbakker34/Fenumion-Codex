@@ -12846,7 +12846,7 @@ archiveIndex.timeline.push({ title: "Melian survives the burning of her house", 
 
 // Melian’s supplied recording accompanies her existing searchable quotation.
 const melianVoiceQuotes = articles.find(article => article.id === "memorable-quotes");
-melianVoiceQuotes.sources.push("User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind and I walk because they cannot");
+melianVoiceQuotes.sources.push("User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come");
 
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
@@ -14790,10 +14790,12 @@ function setupQuoteGroups() {
 const magnusQuoteVoice = new Audio("assets/voices/magnus-hope-is-dead.mp3");
 const melianQuoteVoice = new Audio("assets/voices/melian-what-light-they-leave-behind.mp3");
 const melianWalkQuoteVoice = new Audio("assets/voices/melian-i-walk.mp3");
+const melianDayQuoteVoice = new Audio("assets/voices/melian-this-day-would-come.mp3");
 const quoteVoiceRecordings = [
   { text: "hopeisdeadonlyambitionremains", speaker: "Magnus Niriin", label: "Hope is dead, only ambition remains", audio: magnusQuoteVoice },
   { text: "whatlighttheyleavebehindnowliveswithinmyhands", speaker: "Melian Starguard", label: "What light they leave behind now lives within my hands", audio: melianQuoteVoice },
-  { text: "iwalkbecausetheycannotandishinewheretheyaregone", speaker: "Melian Starguard", label: "I walk because they cannot, and I shine where they are gone", audio: melianWalkQuoteVoice }
+  { text: "iwalkbecausetheycannotandishinewheretheyaregone", speaker: "Melian Starguard", label: "I walk because they cannot, and I shine where they are gone", audio: melianWalkQuoteVoice },
+  { text: "iknewthisdaywouldcomeletusseewhatcomesofit", speaker: "Melian Starguard", label: "I knew this day would come. Let us see what comes of it", audio: melianDayQuoteVoice }
 ];
 quoteVoiceRecordings.forEach(record => { record.audio.preload = "none"; });
 let activeQuoteVoice = null;

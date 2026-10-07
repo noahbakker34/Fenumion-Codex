@@ -83,6 +83,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | Codex exploration expansion | Requested 6 Oct 2026 | Existing public biographies, quotation gallery, supplied community art, location directory and timelines reused for character collections, connected histories, typed search, five additional relationship maps and an editorial new-reader path. No new historical claims inferred from search or map position. |
 
+| `Aria_Pride_Ultimate_Fenumion_Codex_Entry.md` and `Aria_Pride_Words_the_World_Remembers_Additions.md` | User-supplied 6 Oct 2026 | Expanded revealed biography, five attributed quotes, and a dated relationship map. Unrevealed ancient history excluded; complete dossiers retained locally in the private vault. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

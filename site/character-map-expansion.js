@@ -634,5 +634,182 @@ window.FENUMION_CHARACTER_MAPS = {
         "note": "Each selected person or place opens a related Codex record."
       }
     ]
+  },
+  "aria-pride": {
+    "title": "Aria’s relationship web",
+    "intro": "Follow the people and political ties that reveal different sides of Pride. Dates mark documented scenes; unresolved histories remain open.",
+    "center": {
+      "title": "Aria / Pride",
+      "subtitle": "Protection, attachment, and imposed sacrifice"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "Bonds & care"
+      },
+      {
+        "id": "conflict",
+        "label": "Conflict"
+      },
+      {
+        "id": "politics",
+        "label": "Political ties"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "olokun",
+        "article": "olokun",
+        "title": "Olokun",
+        "category": "bond",
+        "subtitle": "Attachment without agreement",
+        "relation": "Attachment without agreement",
+        "history": "Hostility becomes familiarity, attraction, and care. Olokun sees her vulnerability while resisting imposed sacrifice.",
+        "consequence": "Understanding her does not resolve their conflict over consent.",
+        "evidence": "Aria dossier and quotation additions; revealed scenes. Interpretations remain attributed to their speakers.",
+        "strength": 3,
+        "direction": "mutual",
+        "moments": [
+          {
+            "when": "20 August 2025",
+            "text": "A dance combines flirtation with a dangerous reference to his sister Oya."
+          },
+          {
+            "when": "9–10 October 2025",
+            "text": "They debate attachment, protection, and remaking humanity’s future."
+          },
+          {
+            "when": "26 October 2025",
+            "text": "He accepts his own pain, refusing to volunteer everyone else’s."
+          },
+          {
+            "when": "6 November 2025",
+            "text": "After her death he rejects Death’s claim to fatherhood."
+          }
+        ],
+        "x": 50,
+        "y": 8
+      },
+      {
+        "id": "scribonia",
+        "article": "scribonia",
+        "title": "Scribonia",
+        "category": "conflict",
+        "subtitle": "A person converted into leverage",
+        "relation": "A person converted into leverage",
+        "history": "Aria imprisons Scribonia inside a gemstone and uses him in a demand tied to killing a god.",
+        "consequence": "His hatred preserves the victim’s perspective beside the affection others feel.",
+        "evidence": "Aria dossier and quotation additions; revealed scenes. Interpretations remain attributed to their speakers.",
+        "strength": 3,
+        "direction": "mutual",
+        "moments": [
+          {
+            "when": "15–16 July 2025",
+            "text": "Pride is revealed and Scribonia’s captivity becomes explicit."
+          },
+          {
+            "when": "15 October 2025",
+            "text": "She turns his accusation of Pride back on him."
+          },
+          {
+            "when": "6 November 2025",
+            "text": "His response to her death remains shaped by captivity."
+          }
+        ],
+        "x": 82,
+        "y": 28
+      },
+      {
+        "id": "elenia",
+        "article": "elenia",
+        "title": "Elenia",
+        "category": "bond",
+        "subtitle": "Compassion at the edge of despair",
+        "relation": "Compassion at the edge of despair",
+        "history": "Elenia meets Aria’s bleak view of suffering with compassion and asks about the family subject Aria avoids.",
+        "consequence": "Their exchanges expose vulnerability without settling her brother’s fate.",
+        "evidence": "Aria dossier and quotation additions; revealed scenes. Interpretations remain attributed to their speakers.",
+        "strength": 3,
+        "direction": "mutual",
+        "moments": [
+          {
+            "when": "9 October 2025",
+            "text": "Aria says no place without suffering exists on earth, then urges Elenia to enjoy what they have."
+          },
+          {
+            "when": "October 2025 · sibling discussion",
+            "text": "Elenia asks whether she is someone’s big sister; Aria changes the conversation."
+          }
+        ],
+        "x": 78,
+        "y": 76
+      },
+      {
+        "id": "adelia",
+        "article": "adelia-hope",
+        "title": "Adelia",
+        "category": "conflict",
+        "subtitle": "A contest before a listening crowd",
+        "relation": "A contest before a listening crowd",
+        "history": "Aria uses Adelia’s resurrection history and Zarathian beliefs in their public confrontation.",
+        "consequence": "Adelia’s testimony encounters the accumulated trust of Aria’s audience.",
+        "evidence": "Aria dossier and quotation additions; revealed scenes. Interpretations remain attributed to their speakers.",
+        "strength": 3,
+        "direction": "mutual",
+        "moments": [
+          {
+            "when": "5 August 2025",
+            "text": "Olokun and Wren offer testimony, but Aria’s established reputation shapes the crowd’s response."
+          }
+        ],
+        "x": 22,
+        "y": 76
+      },
+      {
+        "id": "zarathis",
+        "article": "zarathis",
+        "title": "Zarathis",
+        "category": "politics",
+        "subtitle": "Protection becomes political authority",
+        "relation": "Protection becomes political authority",
+        "history": "Years of visible history make Aria a trusted protector and cultural figure. She promises mortal independence and lasting safety.",
+        "consequence": "Her death leaves contested memories and institutions that outlive her.",
+        "evidence": "Aria dossier and quotation additions; revealed scenes. Interpretations remain attributed to their speakers.",
+        "strength": 3,
+        "direction": "mutual",
+        "moments": [
+          {
+            "when": "5 August 2025",
+            "text": "The public confrontation demonstrates the force of established trust."
+          },
+          {
+            "when": "26 October 2025",
+            "text": "She describes a legacy of safety, security, and unbound potential."
+          },
+          {
+            "when": "After 6 November 2025",
+            "text": "Bowene’s later rise offers a different political future; by mid-2026 relative peace and reconciliation are described."
+          }
+        ],
+        "x": 18,
+        "y": 28
+      }
+    ],
+    "insights": [
+      {
+        "label": "Different witnesses",
+        "value": "Affection and captivity",
+        "note": "Political trust and personal attachment coexist with Scribonia’s experience as her prisoner."
+      },
+      {
+        "label": "Central disagreement",
+        "value": "Whose sacrifice?",
+        "note": "Responsibility for protection does not settle who may assign its costs."
+      }
+    ]
   }
 };

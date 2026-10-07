@@ -73,6 +73,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Magnus_RIP.png`, `Paco_pwease.png`, `Scrib_chibi.png`, `Vess_Chibi.png` | User-supplied 6 Oct 2026 | Four original PNG artworks credited to Ececilia in her existing six-piece emoji gallery; character links and full-size originals. Artwork titles do not establish new biographical events. |
 
+| `Melians_House_Fenumion_Codex.md` | User-supplied 6 Oct 2026 | New lakeside residence history, selectable marker at the existing Pristinia source-map label, location directory, related pages, October fire timeline and precise June event locations; later condition and cellar survival remain unresolved. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

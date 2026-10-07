@@ -12798,6 +12798,52 @@ for (const id of ["magnus", "carmen", "scribonia", "cave-company"]) {
   if (!links.some(item => item.article === "ececilia-emojis")) links.push({ label: "Ececilia’s Emoji Gallery", article: "ececilia-emojis", summary: "Community character artwork by Ececilia, including Magnus, Paco, Scribonia, and Vessalia." });
 }
 
+
+// Melian’s House: its existing printed map label now opens a location history.
+const meliansHouseRecord = {
+  "id": "melians-house",
+  "title": "Melian’s House",
+  "category": "Locations",
+  "type": "Private residence · historical site",
+  "dek": "A modest lakeside home in Pristinia, rebuilt after an arson attempt and later the site of Melian Starguard’s abduction.",
+  "tags": [
+    "Melian Starguard",
+    "Pristinia",
+    "Prima",
+    "Residence",
+    "House fire",
+    "Rahu siege"
+  ],
+  "facts": {
+    "Location": "Lakeside · Pristinia · Prima",
+    "Resident": "Melian Starguard",
+    "Original house": "Destroyed by fire · 12 October 2024",
+    "Rebuilt cabin": "Documented June 2025",
+    "Later condition": "Not established"
+  },
+  "sources": [
+    "Melians_House_Fenumion_Codex.md — user-supplied 6 October 2026; physical descriptions, event chronology and evidence limits",
+    "Pristinia source map — existing Melian’s House label"
+  ],
+  "body": "<p><a href=\"#melian-starguard\">Melian Starguard</a>’s house is a modest lakeside residence in <a href=\"#pristinia\">Pristinia</a>, on <a href=\"#prima-pristinia\">Prima</a>. Its ordinary appearance contrasts with its resident’s civic importance: a private home repeatedly reached by political and military violence.</p>\n<h2 id=\"house-by-the-lake\">A nondescript home by the lake</h2>\n<p>By June 2025, the repaired house is a cabin behind a five-foot hedge, with one opening facing the front door. A small chimney rises above it, and faint charring remains despite skillful repairs. Inside, a single room holds a bed on the far side, a kitchen to the right, and a sitting area with a fireplace, couch, window-sill seating, and two chairs.</p>\n<p>The earlier house had a cellar with an outside entrance, a laundry chute, a kitchen, bedroom, fireplace, and an attic or upper area. The later description does not establish that this entire layout survived reconstruction.</p>\n<h2 id=\"october-house-fire\">12 October 2024: poison and fire</h2>\n<p>After a state function at which Melian had advocated land shares for adventurers, she drank wine at home. Sleep poison left her unconscious; she awoke locked in the basement while the house burned above her. Investigators found that magic had intensified a natural fireplace fire and that the basement exit had been made unusable.</p>\n<p>Adventurers rescued her through a struggle involving the narrow laundry chute and damaged cellar exit. <a href=\"#olokun\">Olokun</a> helped with the rescue and investigation; Fenwick examined the magical origin of the blaze, Krasteline identified poisoned wine residue, and Ink participated and painted the burning house. Only stone frames remained after the fire.</p>\n<p>The attack occurred amid local political tensions, but the recovered location record does not identify a confirmed perpetrator. Investigators found no continuing magical traps or surveillance. Melian opposed humiliating or coercing Pristinian suspects with magic even after her own near-murder.</p>\n<h2 id=\"house-reconstruction\">Rebuilding an ordinary life</h2>\n<p>The house was repaired or substantially rebuilt between the October fire and June siege. The later cabin’s calm appearance did not erase the charring. Neither the completion date nor survival of the original basement is established.</p>\n<h2 id=\"june-house-abduction\">4 June 2025: the abduction</h2>\n<p>During the siege, <a href=\"#magnus\">Magnus Niriin</a> led a Rahu strike force through the damaged settlement to the cabin. Melian was alone with tea in the kitchen. Faced with armed intruders, she rose in armor and drew her sword.</p>\n<div class=\"quote\">I knew this day would come. Let us see what comes of it.<cite>Melian Starguard</cite></div>\n<p>Magnus incapacitated her with poison gas for abduction. <a href=\"#herb\">Herb</a>, carrying a special meal for Melian, and <a href=\"#scout-lilian\">Scout Lilian</a> approached the house and became witnesses. Magnus ordered that none survive. Black-fletched arrows killed Herb and Lilian outside; magic killed Lilian’s raven. Melian was taken.</p>\n<h2 id=\"house-investigation\">5 June 2025: reconstructing the attack</h2>\n<p>The next investigation found the bodies, an open front door, Melian missing, a little of her blood, and a fallen chair. Tracks and positions suggested disciplined attackers. The evidence established that she had not left willingly.</p>\n<h2 id=\"house-public-life\">A private home in public history</h2>\n<p>The house follows Pristinia’s changing dangers: a covert arson attempt amid civic disagreement, then an abduction during regional war. Its modest scale is consistent with Melian’s description of herself as a humble public servant. Political importance did not make her home a council chamber or fortress.</p>\n<h2 id=\"house-latest-record\">The latest recovered condition</h2>\n<p>The house-specific record ends with the repaired cabin and the June 2025 attack. Later records establish Melian’s survival and eventual election as an Elder, but do not document subsequent alterations to the property. Its present condition and the survival of the old cellar remain open.</p>\n<p><a href=\"#visual-archive?map=pristinia\">Find Melian’s House on the Pristinia map</a>. The selectable marker follows the label already printed on the supplied map.</p>"
+};
+articles.push(meliansHouseRecord);
+archiveIndex.islands.push({"title": "Melian’s House", "region": "Prima", "parent": "Pristinia", "type": "Residence / historical site", "meta": "Prima › Pristinia · private residence", "article": "melians-house", "summary": "A modest lakeside home in Pristinia, rebuilt after an arson attempt and later the site of Melian Starguard’s abduction.", "source": "Supplied location dossier + Pristinia map", "aliases": ["Melian's House", "Melians House", "Melian Starguard’s home"], "level": "site"});
+interactiveMaps.find(map => map.id === "pristinia").pins.push({ title: "Melian’s House", x: 53.2, y: 6.8 });
+fixedArticlePaths.set("melians-house", ["Locations", "Prima", "Pristinia", "Melian’s House"]);
+navigationRegions.find(region => region.title === "Locations").branches.find(branch => branch.title === "Prima").items.push({ label: "Melian’s House", article: "melians-house" });
+subchannelMap["melians-house"] = [];
+for (const id of ["pristinia", "melian-starguard", "herb", "scout-lilian", "magnus", "olokun"]) {
+  const target = articles.find(article => article.id === id);
+  if (target) subchannelMap["melians-house"].push({ label: target.title, article: id, summary: target.dek });
+  const links = subchannelMap[id] || (subchannelMap[id] = []);
+  links.push({ label: "Melian’s House", article: "melians-house", summary: meliansHouseRecord.dek });
+}
+for (const event of archiveIndex.timeline) {
+  if (["Magnus abducts Melian for the Rahu", "Pristinia reconstructs Melian’s abduction"].includes(event.title)) event.location = "Melian’s House; Pristinia; Prima";
+}
+archiveIndex.timeline.push({ title: "Melian survives the burning of her house", meta: "12 Oct 2024", sort: "2024-10-12mh", era: "2024 · Arrival and consequence", kind: "Arson and rescue", article: "melians-house", location: "Melian’s House; Pristinia; Prima", people: "Melian Starguard; Olokun; Fenwick; Ink; Krasteline", tags: ["arson", "poison", "rescue", "Pristinia"], summary: "Drugged and locked in her basement while a magically intensified fire burns above, Melian is rescued. Only the house’s stone frames remain; the perpetrator is not established by this location record." });
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

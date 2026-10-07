@@ -14817,7 +14817,9 @@ const magnusQuoteVoice = new Audio("assets/voices/magnus-hope-is-dead.mp3");
 const melianQuoteVoice = new Audio("assets/voices/melian-what-light-they-leave-behind.mp3");
 const melianWalkQuoteVoice = new Audio("assets/voices/melian-i-walk.mp3");
 const melianDayQuoteVoice = new Audio("assets/voices/melian-this-day-would-come.mp3");
+const ariaEndureQuoteVoice = new Audio("assets/voices/aria-pain-must-be-endured.mp3");
 const quoteVoiceRecordings = [
+  { text: "sometimespainmustbeenduredtoensurevictoryiunderstandthatdoyou", speaker: "Aria", label: "Sometimes pain must be endured to ensure victory. I understand that. Do you?", audio: ariaEndureQuoteVoice },
   { text: "hopeisdeadonlyambitionremains", speaker: "Magnus Niriin", label: "Hope is dead, only ambition remains", audio: magnusQuoteVoice },
   { text: "whatlighttheyleavebehindnowliveswithinmyhands", speaker: "Melian Starguard", label: "What light they leave behind now lives within my hands", audio: melianQuoteVoice },
   { text: "iwalkbecausetheycannotandishinewheretheyaregone", speaker: "Melian Starguard", label: "I walk because they cannot, and I shine where they are gone", audio: melianWalkQuoteVoice },

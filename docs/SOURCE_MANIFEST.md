@@ -85,6 +85,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Aria_Pride_Ultimate_Fenumion_Codex_Entry.md` and `Aria_Pride_Words_the_World_Remembers_Additions.md` | User-supplied 6 Oct 2026 | Expanded revealed biography, five attributed quotes, and a dated relationship map. Unrevealed ancient history excluded; complete dossiers retained locally in the private vault. |
 
+| `Endure.mp3` | User-supplied 6 Oct 2026 | Aria’s “Sometimes pain must be endured to ensure victory…” recording; shared in-box playback in her character collection, quotation gallery and matching hourly feature. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

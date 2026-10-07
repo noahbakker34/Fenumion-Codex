@@ -4860,7 +4860,7 @@ if (!articles.some(article => article.id === "melian-starguard")) {
       <h2 id="melian-papirak">Papirak’s funeral · carrying the flame</h2>
       <p>On 30 September 2026, Melian leads the procession and performs the Rite of the Flame. Her language makes survival an obligation to carry something forward for those who cannot.</p>
       <div class="quote">What light they leave behind...... now lives within my hands.<cite>Melian Starguard</cite></div>
-      <div class="quote">I walk because they cannot, and I shine where they are gone.<cite>Melian Starguard</cite></div>
+      <div class="quote">I walk because they cannot, and I shine... where they are gone.<cite>Melian Starguard</cite></div>
       <p>Papirak’s walking stick is revealed as a Staff of Power worth an enormous sum. Melian refuses to reduce its meaning to utility and determines that it belongs with Papirak. When Fenwick Sequesters it with Pell’s permission and Camilla can no longer detect it, Melian trusts them enough to continue the rite. Suspicion remains part of the history; it does not become proof of theft.</p>
       <h2 id="melian-herb">The flame and the hearth</h2>
       <p>Melian gives grief structure through ritual, memory, and civic language. Herb restores ordinary life through food, drink, laughter, and gathering afterward. Their relationship is most clearly shown not by a formal declaration but by Herb carrying dinner through a war zone because he knows Melian is struggling.</p>
@@ -4897,7 +4897,7 @@ if (zarathisDeepDive && !zarathisDeepDive.body.includes("id=\"zarathis-capital\"
 if (memorableQuotesArticle && !memorableQuotesArticle.body.includes("small joys in this difficult time")) {
   memorableQuotesArticle.body = memorableQuotesArticle.body
     .replace('<h2 id="protection-and-responsibility">Protection and responsibility</h2>\n      <div class="quote-gallery">', '<h2 id="protection-and-responsibility">Protection and responsibility</h2>\n      <div class="quote-gallery">\n        <button class="quote-card" data-article="herb"><blockquote>“We all need to find small joys in this difficult time.”</blockquote><cite>Herb Shepherd</cite></button>')
-    .replace('<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">', '<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I knew this day would come. Let us see what comes of it.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“What light they leave behind...... now lives within my hands.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I walk because they cannot, and I shine where they are gone.”</blockquote><cite>Melian Starguard</cite></button>');
+    .replace('<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">', '<h2 id="faith-and-knowledge">Faith, knowledge, and authority</h2>\n      <div class="quote-gallery">\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I knew this day would come. Let us see what comes of it.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“What light they leave behind...... now lives within my hands.”</blockquote><cite>Melian Starguard</cite></button>\n        <button class="quote-card" data-article="melian-starguard"><blockquote>“I walk because they cannot, and I shine... where they are gone.”</blockquote><cite>Melian Starguard</cite></button>');
   memorableQuotesArticle.facts.Selection = "56 recovered lines";
   memorableQuotesArticle.sources = [...new Set([...(memorableQuotesArticle.sources || []), "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations"] )];
 }
@@ -12846,7 +12846,7 @@ archiveIndex.timeline.push({ title: "Melian survives the burning of her house", 
 
 // Melian’s supplied recording accompanies her existing searchable quotation.
 const melianVoiceQuotes = articles.find(article => article.id === "memorable-quotes");
-melianVoiceQuotes.sources.push("User-supplied Melian quotation and voice recording — 6 October 2026");
+melianVoiceQuotes.sources.push("User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind and I walk because they cannot");
 
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
@@ -14789,9 +14789,11 @@ function setupQuoteGroups() {
 
 const magnusQuoteVoice = new Audio("assets/voices/magnus-hope-is-dead.mp3");
 const melianQuoteVoice = new Audio("assets/voices/melian-what-light-they-leave-behind.mp3");
+const melianWalkQuoteVoice = new Audio("assets/voices/melian-i-walk.mp3");
 const quoteVoiceRecordings = [
   { text: "hopeisdeadonlyambitionremains", speaker: "Magnus Niriin", label: "Hope is dead, only ambition remains", audio: magnusQuoteVoice },
-  { text: "whatlighttheyleavebehindnowliveswithinmyhands", speaker: "Melian Starguard", label: "What light they leave behind now lives within my hands", audio: melianQuoteVoice }
+  { text: "whatlighttheyleavebehindnowliveswithinmyhands", speaker: "Melian Starguard", label: "What light they leave behind now lives within my hands", audio: melianQuoteVoice },
+  { text: "iwalkbecausetheycannotandishinewheretheyaregone", speaker: "Melian Starguard", label: "I walk because they cannot, and I shine where they are gone", audio: melianWalkQuoteVoice }
 ];
 quoteVoiceRecordings.forEach(record => { record.audio.preload = "none"; });
 let activeQuoteVoice = null;

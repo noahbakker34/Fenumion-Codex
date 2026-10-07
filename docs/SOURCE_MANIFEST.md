@@ -77,6 +77,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `ElevenLabs_2026-10-07T02_38_57_Elven LAdy_gen_sp108_s50_sb75_v4.mp3` | User-supplied 6 Oct 2026 | Melian’s “What light they leave behind...... now lives within my hands.” quote recording, inline and gallery playback, search and hourly rotation. |
 
+| `I walk.mp3` | User-supplied 6 Oct 2026 | Recording for Melian’s existing “I walk because they cannot, and I shine... where they are gone.” quotation; profile, gallery and hourly-feature playback. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

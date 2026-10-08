@@ -144,6 +144,9 @@ window.GedankinData = {
         "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2024-10-07–2026-05-17 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2024-10-06–2024-10-11 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "shore-oasis-marker-trail"
       ]
     },
     {
@@ -966,6 +969,10 @@ window.GedankinData = {
       "body": "<h2>Protecting friends</h2><p>Fayn tells Leon about defending animal friends and trees from hunters. These are Fayn’s accounts of earlier encounters, rather than a map of a newly established Gedankin forest.</p><h2>Making room for Ossi</h2><p>When Ossi objects to the noise, Fayn offers to leave and then lowers her voice. Hearing Ossi mention a Ringmaster, she promises to keep that person from hurting her new friend. Ossi responds warmly. The scene records a promise of protection, not a confrontation with the Ringmaster.</p><h2>Letters and company</h2><p>Leon writes their names during an introductory reading lesson. Fayn stays with Ossi, then follows when he leaves. Neither is shown becoming a fluent reader in this single encounter.</p>",
       "sources": [
         "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "rune-dawnbreaker",
+        "thora-friberg"
       ]
     },
     {
@@ -1102,6 +1109,10 @@ window.GedankinData = {
         "Ryu",
         "Ryuske",
         "Ryusuke"
+      ],
+      "relatedRecords": [
+        "rune-dawnbreaker",
+        "thora-friberg"
       ]
     },
     {
@@ -1155,6 +1166,58 @@ window.GedankinData = {
       "aliases": [
         "Sahira"
       ]
+    },
+    {
+      "id": "rune-dawnbreaker",
+      "title": "Rune Dawnbreaker",
+      "category": "People",
+      "type": "Character",
+      "summary": "A guarded arrival who helps Ryuske to his feet and looks for their missing companions.",
+      "dek": "A guarded arrival who helps Ryuske to his feet and looks for their missing companions.",
+      "tags": [
+        "Gedankin",
+        "Rune Dawnbreaker"
+      ],
+      "facts": {
+        "World": "Gedankin"
+      },
+      "body": "<h2>Arrival at the Shore</h2><p>Rune awakens on the Shore and immediately searches for their group. They help <a href=\"#ryuske-kaslana\">Ryuske</a> up; the pair then look for Fayn and Thora. Rune notices that the unfamiliar land is inhabited and takes a defensive stance while asking where they are.</p><h2>A cautious introduction</h2><p>When <a href=\"#victor-ashstone\">Victor Ashstone</a> introduces himself, Rune gives their own name and introduces Ryuske. The exchange eases Rune’s stance without establishing trust beyond this first encounter.</p>",
+      "sources": [
+        "Rune_Dawnbreaker.md — Shore scenes posted 13 July 2026 — reviewed embedded RP excerpts; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "ryuske-kaslana",
+        "fayn",
+        "thora-friberg",
+        "victor-ashstone",
+        "strange-shore"
+      ]
+    },
+    {
+      "id": "thora-friberg",
+      "title": "Thora Friberg",
+      "category": "People",
+      "type": "Character",
+      "summary": "A formidable Shore arrival who regroups with familiar companions and recovers her kanabo.",
+      "dek": "A formidable Shore arrival who regroups with familiar companions and recovers her kanabo.",
+      "tags": [
+        "Gedankin",
+        "Thora Friberg"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Weapon": "Kanabo"
+      },
+      "body": "<h2>Finding the company</h2><p>Thora rises from the sand and takes stock of the Shore. She recognises that Fayn and other companions have also arrived and asks after Rune. Her first response is blunt and practical.</p><h2>The weapon in the sand</h2><p>As the company considers its unfamiliar surroundings, Thora looks for her kanabo. She finds it protruding from the sand nearby and retrieves it. Her kimono is held by a massive rope belt with tarnished bells that sound as she walks.</p><h2>An uncertain way home</h2><p>Thora reasons that they must adapt because they do not know what brought them here. This is her assessment; the scene does not establish that returning home is impossible.</p>",
+      "sources": [
+        "Thora_Friberg.md — Shore scenes posted 15–17 July 2026 — reviewed embedded RP excerpts; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "rune-dawnbreaker",
+        "fayn",
+        "ryuske-kaslana",
+        "strange-shore"
+      ]
     }
   ],
   "locations": [
@@ -1177,13 +1240,17 @@ window.GedankinData = {
         "Beyond the sand": "Waterless void",
         "Inland refuge": "The Oasis"
       },
-      "body": "<h2>The place of arrival</h2><p>The first company awakens beside bleach-white dunes, with a kaleidoscopic void below and stars overhead. Their previous journeys do not explain how they arrived.</p><h2>A fragile foothold</h2><p>Shrubs and rapidly growing palms provide some food, but the vegetation eventually withers. This is an observed resource limit, not an inexhaustible paradise.</p><h2>The waterless edge</h2><p>The sand ends abruptly where a sea would normally begin. Beyond it are empty space and the colours of nebulae; scrub and rolling dunes lie inland. The accounts often describe a pillar of light at an arrival. Guides use it to notice newcomers, but its appearance does not identify who brought them here or explain the means of crossing.</p><h2>The first people you meet</h2><p><a href=\"#kara-vash\">Kara</a> leads Sixtus and Rhalor toward camp. <a href=\"#atrax\">Atrax</a> greets the early Aurora, Bramble, Ossi and Vaerik. <a href=\"#shinjuro\">Shinjurō</a> checks for people before thirst can claim them. <a href=\"#vespere\">Vespere</a> guides Manzur; later <a href=\"#manzur\">Manzur</a> welcomes Gisan in turn. Their knowledge differs, and not every explanation they offer is certain.</p><h2>Finding the Oasis</h2><p>Arrival does not place a traveller inside the refuge. Reaching <a href=\"#oasis\">the Oasis</a> means crossing the dunes. Atrax places palm-trunk markers, while warning that wind and storms can shift the sand. The Oasis sometimes seems to shimmer into view only at the final rise. Neither a reliable travel time nor a permanent marked path is established.</p><h2>Each welcome is a choice</h2><p>For one person the crossing means exile; for Ossi it offers hope of freedom. Some ask whether they have died, while others look for a task. These are responses to the Shore, not proof that every arrival shares one origin, purpose or fate.</p><p><a href=\"#world-map\">Find the Shore on Gedankin’s map →</a></p>",
+      "body": "<h2>The place of arrival</h2><p>The first company awakens beside bleach-white dunes, with a kaleidoscopic void below and stars overhead. Their previous journeys do not explain how they arrived.</p><h2>A fragile foothold</h2><p>Shrubs and rapidly growing palms provide some food, but the vegetation eventually withers. This is an observed resource limit, not an inexhaustible paradise.</p><h2>The waterless edge</h2><p>The sand ends abruptly where a sea would normally begin. Beyond it are empty space and the colours of nebulae; scrub and rolling dunes lie inland. The accounts often describe a pillar of light at an arrival. Guides use it to notice newcomers, but its appearance does not identify who brought them here or explain the means of crossing.</p><h2>The first people you meet</h2><p><a href=\"#kara-vash\">Kara</a> leads Sixtus and Rhalor toward camp. <a href=\"#atrax\">Atrax</a> greets the early Aurora, Bramble, Ossi and Vaerik. <a href=\"#shinjuro\">Shinjurō</a> checks for people before thirst can claim them. <a href=\"#vespere\">Vespere</a> guides Manzur; later <a href=\"#manzur\">Manzur</a> welcomes Gisan in turn. Their knowledge differs, and not every explanation they offer is certain.</p><h2>Finding the Oasis</h2><p>Arrival does not place a traveller inside the refuge. Reaching <a href=\"#oasis\">the Oasis</a> means crossing the dunes. Atrax places palm-trunk markers, while warning that wind and storms can shift the sand. The Oasis sometimes seems to shimmer into view only at the final rise. Atrax later credits Irenhour with helping place the markers. The route requires maintenance; a reliable travel time and a permanent, storm-proof path are not established.</p><h2>Each welcome is a choice</h2><p>For one person the crossing means exile; for Ossi it offers hope of freedom. Some ask whether they have died, while others look for a task. These are responses to the Shore, not proof that every arrival shares one origin, purpose or fate.</p><p><a href=\"#world-map\">Find the Shore on Gedankin’s map →</a></p>",
       "sources": [
         "2024-rp.md — 28 September 2024; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2024-09-25–2026-09-22 (UTC posting dates; in-world dates unestablished)."
       ],
       "aliases": [
         "The Strange Shore"
+      ],
+      "relatedRecords": [
+        "void-sea",
+        "shore-oasis-marker-trail"
       ]
     },
     {
@@ -1212,6 +1279,9 @@ window.GedankinData = {
         "gedankin-the-oasis.md — 2024-10-05–2026-09-03 (UTC posting dates; in-world dates unestablished).",
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2026-06-01–2026-09-21 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "shore-oasis-marker-trail"
       ]
     },
     {
@@ -1261,7 +1331,10 @@ window.GedankinData = {
       "image": "assets/khars-madar.png",
       "imageLayout": "landscape-hero",
       "imageAlt": "Khars Madar: towering sandstone terraces, carved columns and a blue pool overlooking a sprawling desert city",
-      "imageCaption": "Khars Madar — Gedankin."
+      "imageCaption": "Khars Madar — Gedankin.",
+      "relatedRecords": [
+        "khars-madar-ziggurat"
+      ]
     },
     {
       "id": "chaymas-hostel",
@@ -1462,6 +1535,83 @@ window.GedankinData = {
       "body": "<h2>The merchant’s request</h2><p><a href=\"#salim-jalusiwa\">Salim</a> reports disturbing sounds at ruins on his route and asks the company to investigate. His directions lead beyond the Shore in the opposite general direction from their earlier journeys. The exact map position is unconfirmed; this descriptive title does not establish Salim’s ownership.</p><h2>Creatures in the broken house</h2><p>After escaping a mirage and quicksand, the party reaches the remains of a house on a rocky outcrop. They find three burned, red-cloaked bodies, one bearing a wreath, crossed swords and an eight-pointed star. No faction is identified. Three small shelled creatures shelter inside; a much larger one breaks through the ground, then leaves with them unharmed after the party backs away.</p><h2>The passage below</h2><p>The disturbance exposes a bedrock corridor lined with engraved sarcophagi. Some carry the star-and-swords emblem and others a tree. Vaerik opens several, taking a ring and a blue bottle. Opening the tree-marked tomb is followed by the skeletons rising and attacking.</p><h2>Escape, not clearance</h2><p>Exploding skeletons destabilise the entrance as more undead approach. The company escapes before it caves in; Sombra’s summoned fairy is no longer visible. The record establishes neither the destruction of all undead nor the spirit’s permanent death. No confirmed link joins this site to the separately marked <a href=\"#mausoleum\">Mausoleum</a>.</p>",
       "sources": [
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "void-sea",
+      "title": "The Void Sea",
+      "category": "Locations",
+      "type": "Cosmic shoreline phenomenon",
+      "summary": "The waterless expanse beside the Shore, filled with shifting colours, stars and nebular light.",
+      "dek": "The waterless expanse beside the Shore, filled with shifting colours, stars and nebular light.",
+      "tags": [
+        "Gedankin",
+        "The Void Sea"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Water": "None described",
+        "Adjacent place": "The Shore"
+      },
+      "body": "<h2>A sea without water</h2><p>Beside the bleach-white sand of <a href=\"#strange-shore\">the Shore</a>, the expected ocean is a kaleidoscopic void. Narrator descriptions show swirling reds, blues, yellows and oranges, with stars visible where water should be and across the sky above.</p><h2>Unanswered questions</h2><p>Arrivals offer many explanations for this landscape. Its appearance alone does not establish an afterlife or identify a familiar plane. No ordinary water supply is present in the expanse.</p>",
+      "sources": [
+        "The_Void_Sea.md — narrator descriptions posted 28 September 2024 and 4 October 2024 — reviewed embedded RP excerpts; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "strange-shore"
+      ]
+    },
+    {
+      "id": "shore-oasis-marker-trail",
+      "title": "Shore–Oasis Marker Trail",
+      "category": "Locations",
+      "type": "Waymarked route",
+      "summary": "Atrax’s palm markers help newcomers find the Oasis when no guide is waiting at the Shore.",
+      "dek": "Atrax’s palm markers help newcomers find the Oasis when no guide is waiting at the Shore.",
+      "tags": [
+        "Gedankin",
+        "Shore–Oasis Marker Trail"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Markers": "Palm trunks and wooden stakes",
+        "Purpose": "Guide ungreeted arrivals toward the Oasis"
+      },
+      "body": "<h2>A welcome left in the dunes</h2><p><a href=\"#atrax\">Atrax</a> places pieces of palm trees on every third dune to guide arrivals toward <a href=\"#oasis\">the Oasis</a>. He later describes half-sunken trunks and wooden stakes, and credits <a href=\"#irenhour\">Irenhour</a> with helping place them.</p><h2>Keeping the route visible</h2><p>Atrax checks his markers while travelling to greet newcomers, watching for damage from shifting sand and wind. He wants something more permanent. The markers offer a chance of reaching shelter; they do not establish a guaranteed safe passage or a fixed journey time.</p>",
+      "sources": [
+        "Shore_Oasis_Marker_Trail.md — Atrax’s scenes posted 7–28 October 2024, 15 April 2025 and 24 March 2026 — reviewed embedded RP excerpts; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "strange-shore",
+        "oasis",
+        "atrax",
+        "irenhour"
+      ]
+    },
+    {
+      "id": "khars-madar-ziggurat",
+      "title": "Khars Madar Ziggurat",
+      "category": "Locations",
+      "type": "City landmark",
+      "summary": "The stepped centre of Khars Madar, where the city’s districts rise toward an arena at the top.",
+      "dek": "The stepped centre of Khars Madar, where the city’s districts rise toward an arena at the top.",
+      "tags": [
+        "Gedankin",
+        "Khars Madar Ziggurat"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Structure": "Four levels in the street description",
+        "Uppermost level": "Arena"
+      },
+      "body": "<h2>The city rises around it</h2><p>The streets of <a href=\"#khars-madar\">Khars Madar</a> zigzag uphill around a ziggurat described as extending four levels into the sky. Narrator scenes place the arena at its uppermost level.</p><h2>Four sides of the city</h2><p><a href=\"#chayma\">Chayma</a> explains that each of the three Houses controls streets along one side of the ziggurat up to the top, while the Free Quarter forms the fourth side. She warns that entry to the House quadrants is tightly controlled. Her tour describes the city’s organisation without granting visitors access to every district.</p>",
+      "sources": [
+        "Khars_Madar_Ziggurat.md — Chayma’s tour posted 30 April and 14 May 2026; narrator arena scene posted 4 May 2026 — reviewed embedded RP excerpts; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "khars-madar",
+        "chayma",
+        "adijit-arena"
       ]
     }
   ],

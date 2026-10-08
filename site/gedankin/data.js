@@ -712,6 +712,78 @@ window.GedankinData = {
       "sources": [
         "2024-rp.md — 24 September 2026; dates refer to UTC posting dates, not established in-world dates."
       ]
+    },
+    {
+      "id": "seven-sands",
+      "title": "The Seven Sands",
+      "summary": "The desert region labelled The Seven Sands on the Gedankin map.",
+      "dek": "The desert region labelled The Seven Sands on the Gedankin map.",
+      "tags": [
+        "Gedankin",
+        "World map"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Record": "Map landmark"
+      },
+      "body": "<h2>On the map</h2><p>The desert region labelled The Seven Sands on the Gedankin map.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
+      "sources": [
+        "Gedankin.png — world map supplied by the user."
+      ]
+    },
+    {
+      "id": "mausoleum",
+      "title": "Mausoleum",
+      "summary": "A landmark marked northeast of The Shore on the supplied map.",
+      "dek": "A landmark marked northeast of The Shore on the supplied map.",
+      "tags": [
+        "Gedankin",
+        "World map"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Record": "Map landmark"
+      },
+      "body": "<h2>On the map</h2><p>A landmark marked northeast of The Shore on the supplied map.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
+      "sources": [
+        "Gedankin.png — world map supplied by the user."
+      ]
+    },
+    {
+      "id": "quicksand",
+      "title": "Quicksand",
+      "summary": "A marked hazard on the eastern side of the northern desert.",
+      "dek": "A marked hazard on the eastern side of the northern desert.",
+      "tags": [
+        "Gedankin",
+        "World map"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Record": "Map landmark"
+      },
+      "body": "<h2>On the map</h2><p>A marked hazard on the eastern side of the northern desert.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
+      "sources": [
+        "Gedankin.png — world map supplied by the user."
+      ]
+    },
+    {
+      "id": "large-skeleton",
+      "title": "Large Skeleton",
+      "summary": "A landmark marked at the eastern end of the mapped desert route.",
+      "dek": "A landmark marked at the eastern end of the mapped desert route.",
+      "tags": [
+        "Gedankin",
+        "World map"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Record": "Map landmark"
+      },
+      "body": "<h2>On the map</h2><p>A landmark marked at the eastern end of the mapped desert route.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
+      "sources": [
+        "Gedankin.png — world map supplied by the user."
+      ]
     }
   ],
   "factions": [
@@ -1331,6 +1403,90 @@ window.GedankinData = {
         "World rulings": "To be recorded"
       },
       "body": "<h2 id=\"ruleset\">Playing in Gedankin</h2><p>Gedankin uses the 2024 ruleset. This is the rules baseline for this world.</p><h2 id=\"world-rulings\">World rulings</h2><p>Gedankin’s approved options and any additional world-specific rulings will be recorded here as they are supplied.</p>"
+    },
+    {
+      "id": "world-map",
+      "title": "Map of Gedankin",
+      "type": "World map",
+      "category": "Atlas",
+      "dek": "Explore the shores, sands and settlements of Gedankin.",
+      "tags": [
+        "Gedankin",
+        "Map",
+        "Atlas",
+        "The Shore",
+        "Mausoleum",
+        "Quicksand",
+        "The Seven Sands",
+        "The Oasis",
+        "Large Skeleton",
+        "Albayt Alkabir",
+        "Khars Madar"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Source": "User-supplied world map",
+        "Landmarks": "8 labelled places"
+      },
+      "map": true,
+      "body": "<h2>Explore Gedankin</h2><p>Select a numbered marker or a place below to read its Codex entry. Zoom in to read the map labels, then scroll or swipe across the map.</p>",
+      "sources": [
+        "Gedankin.png — world map supplied by the user."
+      ]
     }
-  ]
+  ],
+  "worldMap": {
+    "image": "assets/gedankin-map.png",
+    "alt": "Gedankin hex map showing The Shore, Mausoleum, Quicksand, The Seven Sands, The Oasis, Large Skeleton, Albayt Alkabir and Khars Madar, with mountains and snowfields farther south.",
+    "places": [
+      {
+        "id": "strange-shore",
+        "label": "The Shore",
+        "x": 27,
+        "y": 18.5
+      },
+      {
+        "id": "mausoleum",
+        "label": "Mausoleum",
+        "x": 51.5,
+        "y": 23.5
+      },
+      {
+        "id": "quicksand",
+        "label": "Quicksand",
+        "x": 57,
+        "y": 32.5
+      },
+      {
+        "id": "seven-sands",
+        "label": "The Seven Sands",
+        "x": 27,
+        "y": 43
+      },
+      {
+        "id": "oasis",
+        "label": "The Oasis",
+        "x": 33,
+        "y": 51.5
+      },
+      {
+        "id": "large-skeleton",
+        "label": "Large Skeleton",
+        "x": 86,
+        "y": 55
+      },
+      {
+        "id": "albayt-alkabir",
+        "label": "Albayt Alkabir",
+        "x": 33,
+        "y": 64.5
+      },
+      {
+        "id": "khars-madar",
+        "label": "Khars Madar",
+        "x": 62.5,
+        "y": 68
+      }
+    ]
+  }
 };

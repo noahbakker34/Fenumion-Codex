@@ -12937,6 +12937,224 @@ subchannelMap.vessalia = [{ label: "The Seekers", article: "cave-company", summa
 const seekerArticle = articles.find(article => article.id === "cave-company");
 seekerArticle.body = seekerArticle.body.replace("<h3>Vessalia</h3>", '<h3><a href="#vessalia">Vessalia</a></h3>');
 articles.find(article => article.id === "ececilia-emojis").body = articles.find(article => article.id === "ececilia-emojis").body.replace('href="#cave-company">Vessalia', 'href="#vessalia">Vessalia');
+
+// Dated raw posts anchor these records; no complete in-world chronology is inferred.
+const vessaliaTimelineEvents = [
+  {
+    "title": "Vessalia arrives at the Gate",
+    "meta": "17 Aug 2026 · transcript posting date",
+    "sort": "2026-08-17-vess-00",
+    "era": "2026 · Consequences",
+    "kind": "Arrival and welcome",
+    "article": "vessalia",
+    "location": "The Gate; Prima",
+    "people": "Vessalia; Aurélia / Night",
+    "tags": [
+      "Vessalia",
+      "arrival",
+      "music",
+      "Nébula"
+    ],
+    "summary": "Nébula welcomes Vessalia, explains Prima’s war against Death, and guides her toward a place to stay. Vessalia offers her service and heads for the tavern with her lute."
+  },
+  {
+    "title": "Vessalia intervenes when Bohlale falls",
+    "meta": "29 Aug 2026 · transcript posting date",
+    "sort": "2026-08-29-vess-01",
+    "era": "2026 · Consequences",
+    "kind": "Aid during a quest",
+    "article": "vessalia",
+    "location": "Prima; first-quest expedition",
+    "people": "Vessalia; Bohlale Katsaros; Aleister Sun-duren",
+    "tags": [
+      "Vessalia",
+      "first quest",
+      "healing",
+      "companions"
+    ],
+    "summary": "When violence breaks out between companions, Vessalia calls for it to stop and runs to Bohlale as he falls. She kneels beside him with her hands glowing."
+  },
+  {
+    "title": "Vessalia supports the harpy expedition with music and magic",
+    "meta": "5 Sep 2026 · transcript posting date",
+    "sort": "2026-09-05-vess-02",
+    "era": "2026 · Consequences",
+    "kind": "Harpy expedition",
+    "article": "vessalia",
+    "location": "Prima; harpy expedition",
+    "people": "Vessalia; Di’Trillio; Bohlale Katsaros",
+    "tags": [
+      "Vessalia",
+      "harpies",
+      "bard",
+      "spell support"
+    ],
+    "summary": "Vessalia joins another quest and greets Bohlale and Di’trillio. During the harpy fight she brings out her lute and casts a spell: two enemies are outlined, while two escape it."
+  },
+  {
+    "title": "Ada welcomes Vessalia in the Pristinia Press",
+    "meta": "10 Sep 2026 · transcript posting date",
+    "sort": "2026-09-10-vess-03",
+    "era": "2026 · Consequences",
+    "kind": "Community welcome",
+    "article": "vessalia",
+    "location": "Pristinia",
+    "people": "Vessalia; Ada",
+    "tags": [
+      "Vessalia",
+      "Pristinia Press",
+      "music",
+      "community"
+    ],
+    "summary": "Ada’s column presents Vessalia as a newcomer bringing art, music, laughter, and company into Pristinia, and calls on readers to welcome her."
+  },
+  {
+    "title": "Vessalia gains contamination in the Before’s haze",
+    "meta": "18 Sep 2026 · transcript posting date",
+    "sort": "2026-09-18-vess-04",
+    "era": "2026 · Consequences",
+    "kind": "Exploration and contamination",
+    "article": "vessalia",
+    "location": "The Before; Prima",
+    "people": "Vessalia; Di’Trillio; Pell",
+    "tags": [
+      "Vessalia",
+      "The Before",
+      "contamination",
+      "haze"
+    ],
+    "summary": "Vessalia covers her mouth and nose and extinguishes her magical lights after Pell’s warning. Following Di’trillio into the haze, she feels nauseated; the Writer explicitly records a contamination gain."
+  },
+  {
+    "title": "Vessalia and Di’trillio discuss the arena’s aftermath",
+    "meta": "20 Sep 2026 · transcript posting date",
+    "sort": "2026-09-20-vess-05",
+    "era": "2026 · Consequences",
+    "kind": "Relationship repair",
+    "article": "vessalia",
+    "location": "Prima; forest walk",
+    "people": "Vessalia; Di’Trillio",
+    "tags": [
+      "Vessalia",
+      "Celestial Arena",
+      "Clearing the Air",
+      "trust"
+    ],
+    "summary": "Di’trillio apologizes for hurting Vessalia in the arena; she acknowledges striking first. She tells him she fears someone may die because she reacts too slowly or chooses the wrong spell."
+  },
+  {
+    "title": "Vessalia questions Minerva’s Seekers invitation",
+    "meta": "22 Sep 2026 · transcript posting date",
+    "sort": "2026-09-22-vess-06",
+    "era": "2026 · Consequences",
+    "kind": "Recruitment discussion",
+    "article": "vessalia",
+    "location": "The Sisters of Sorrow Soirée; Prima",
+    "people": "Vessalia; Di’Trillio; Minerva",
+    "tags": [
+      "Vessalia",
+      "Dark Signs",
+      "Seekers",
+      "informed choice"
+    ],
+    "summary": "Minerva invites Vessalia and Di’trillio to the Seekers. Vessalia asks what the research is for and why she is wanted, saying she does not want to accept an arrangement without knowing what she is agreeing to."
+  },
+  {
+    "title": "Vessalia seeks comfort after the recruitment discussion",
+    "meta": "25 Sep 2026 · transcript posting date",
+    "sort": "2026-09-25-vess-07",
+    "era": "2026 · Consequences",
+    "kind": "Distress and support",
+    "article": "vessalia",
+    "location": "Eovar Harbor; Adventurer’s Emporium; Pristinia",
+    "people": "Vessalia; Aurélia / Night; Di’Trillio",
+    "tags": [
+      "Vessalia",
+      "beach",
+      "Selwyn’s letter",
+      "support"
+    ],
+    "summary": "A separate beach scene shows Vessalia shaking and crying beside the sea. At the Emporium, she accepts Aurélia’s comfort, reads Selwyn’s letter, and speaks about fearing a repetition of a life she does not wish to relive."
+  },
+  {
+    "title": "Vessalia and Di’trillio discuss recruitment and a shared home",
+    "meta": "26–27 Sep 2026 · transcript posting dates",
+    "sort": "2026-09-26-vess-08",
+    "era": "2026 · Consequences",
+    "kind": "Choices and domestic plans",
+    "article": "vessalia",
+    "location": "The Lilly Patch; Prima",
+    "people": "Vessalia; Di’Trillio",
+    "tags": [
+      "Vessalia",
+      "Shelter",
+      "recruitment",
+      "home"
+    ],
+    "summary": "They weigh the potential value and risks of the Seekers’ research and discuss Selwyn’s faction. Vessalia will not ask Di’trillio to abandon potentially useful knowledge solely for her comfort. They also talk about a home and learning to cook together."
+  },
+  {
+    "title": "Vessalia considers Gael alliances and magical study",
+    "meta": "29 Sep 2026 · transcript posting date",
+    "sort": "2026-09-29-vess-09",
+    "era": "2026 · Consequences",
+    "kind": "Faction offers and study",
+    "article": "vessalia",
+    "location": "Tower of Gael; Gael",
+    "people": "Vessalia; Lady Severina Blackveil; Camilla Blackwood",
+    "tags": [
+      "Vessalia",
+      "Veilguard",
+      "Hellknights",
+      "Scribonia",
+      "study"
+    ],
+    "summary": "Severina and Camilla discuss protection and possible roles with Vessalia, leaving her time to choose. She accepts armor from Severina, describes hopes for life after the war, and reports accepting Scribonia’s teaching offer while a formal interview may still be pending."
+  },
+  {
+    "title": "Vessalia and Di’trillio share their new cottage",
+    "meta": "3–4 Oct 2026 · transcript posting dates",
+    "sort": "2026-10-03-vess-10",
+    "era": "2026 · Consequences",
+    "kind": "A new home",
+    "article": "vessalia",
+    "location": "The Lilly Patch; Prima",
+    "people": "Vessalia; Di’Trillio; Camilla Blackwood",
+    "tags": [
+      "Vessalia",
+      "home",
+      "cottage",
+      "Scribonia",
+      "future"
+    ],
+    "summary": "Di’trillio surprises Vessalia with their cottage and gives her a key. He credits Camilla with building it after arranging the costs. They explore and dance in their home; Vessalia later reaffirms her intention to study magic with Scribonia."
+  }
+];
+archiveIndex.timeline.push(...vessaliaTimelineEvents);
+Object.assign(questEventConsequences, {
+  "Vessalia arrives at the Gate": "Source: Vessalia_RP_and_Quests.txt, First Vess RP pp. 2–7, 21–22. This records her own arrival and response to the war; it does not reconstruct her life before the Gate. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Vessalia intervenes when Bohlale falls": "Source: Vessalia_RP_and_Quests.txt, First Quest pp. 15–17. Her intervention and distress are directly recorded; the excerpt does not assign her sole responsibility for the outcome. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Vessalia supports the harpy expedition with music and magic": "Source: Vessalia_RP_and_Quests.txt, Second Quest pp. 1–2, 30. The result shows a particular contribution, without converting the whole expedition into a solo victory. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Ada welcomes Vessalia in the Pristinia Press": "Source: Vessalia_RP_and_Quests.txt, Pristinia Press pp. 1–2. This is Ada’s attributed public assessment, rather than an objective account of every private relationship. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Vessalia gains contamination in the Before’s haze": "Source: Vessalia_RP_and_Quests.txt, Back Again pp. 39–41. Harpy Part II p. 32 later describes her as always having been contaminated. The original source and duration of her condition remain unresolved. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Vessalia and Di’trillio discuss the arena’s aftermath": "Source: Vessalia_RP_and_Quests.txt, Clearing the Air pp. 2–7. Their conversation explicitly follows the arena fight. Its posting date does not settle its placement relative to the other September quests. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Vessalia questions Minerva’s Seekers invitation": "Source: Vessalia_RP_and_Quests.txt, Dark Signs pp. 12–14, 39. The scene records an invitation and questions, not a completed membership oath. Her concern about the conversation remains her assessment of it. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Vessalia seeks comfort after the recruitment discussion": "Source: Vessalia_RP_and_Quests.txt, IMG_6191.png and Selwyn’s Letter pp. 1–8. The beach and shop are distinct scenes, not extensions of the meeting transcript. Headerless continuation text is not assigned a new speaker. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Vessalia and Di’trillio discuss recruitment and a shared home": "Source: Vessalia_RP_and_Quests.txt, Shelter pp. 3–9, 25–28. These are conversations and plans. They do not establish marriage, children, or a completed faction decision. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Vessalia considers Gael alliances and magical study": "Source: Vessalia_RP_and_Quests.txt, Sev and Vess pp. 22–25, 44–46, 52–53. Offers are distinguished from completed oaths. The study statement is Vessalia’s report, without proof of completed lessons. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established.",
+  "Vessalia and Di’trillio share their new cottage": "Source: Vessalia_RP_and_Quests.txt, Di and Vess’s Estate pp. 1–11, 33. The cottage is present in the scene; the marriage and children they discuss remain future hopes. Dates shown anchor the surviving posts; exact in-world dates and a complete story order are not established."
+});
+const vessaliaCaveEvent = archiveIndex.timeline.find(event => event.title === "The Seekers investigate the Delerium cave");
+if (vessaliaCaveEvent) {
+  vessaliaCaveEvent.title = "Vessalia’s party investigates the harpy cave";
+  vessaliaCaveEvent.meta = "19–26 Sep 2026 · transcript posting dates";
+  vessaliaCaveEvent.sort = "2026-09-19-vess-cave";
+  vessaliaCaveEvent.people = "Vessalia; Di’Trillio; Pell; Moira Eshdin; Saoirse; Djöhandrai";
+  questEventConsequences[vessaliaCaveEvent.title] = "Source: Vessalia_RP_and_Quests.txt, Harpy Part II pp. 32–38 and appended quest screenshots. The recovered posts name the expedition participants separately from the Seekers’ later membership roster. Violet color alone does not settle the crystals’ nature, and party theories remain attributed. The displayed dates are transcript dates, not a definitive in-world chronology.";
+}
+vessaliaRecord.body = vessaliaRecord.body.replace("That decision is recorded; completed lessons or qualifications are not.", "In her conversation with Severina she also says a formal interview may still be pending. Completed lessons or qualifications are not established.");
+vessaliaRecord.body += '<h2 id="vess-recovered-events">Vessalia in the timeline</h2><p>These dates identify the surviving posts. Exact in-world dates and the complete order of the scenes remain unconfirmed. Select an event for its source and evidence limits.</p><ol class="location-timeline-list">' + [...vessaliaTimelineEvents, vessaliaCaveEvent].filter(Boolean).sort((a,b) => a.sort.localeCompare(b.sort)).map(event => `<li><button type="button" class="location-timeline-event" data-timeline-title="${escapeHtml(event.title)}"><span class="location-timeline-date">${escapeHtml(event.meta)}</span><strong>${escapeHtml(event.title)}</strong><span>${escapeHtml(event.summary)}</span><small>Open timeline record →</small></button></li>`).join('') + '</ol>';
+subchannelMap.vessalia.push({ label: "Living Timeline", article: "living-timeline", summary: "Find Vessalia’s recovered events and source chronology." });
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

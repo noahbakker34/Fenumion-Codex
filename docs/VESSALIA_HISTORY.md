@@ -33,3 +33,11 @@ Five excerpts were checked against the supplied raw text with whitespace collaps
 Dedicated `vessalia` page and `vess` route; character directory/modal; sidebar and related records; five themed searchable quotes in the hourly pool; existing portrait and Ececilia art. The Seekers remains a group article. Its established membership roster is retained, while the new biography does not infer a joining date from the recruitment conversation.
 
 The complete transcript is retained in the local private source archive, not shipped in the public site. Explicit intimate detail, unspoken backstory particulars and unsupported reconstruction are excluded. No scene posting date is silently promoted to a definitive in-world event date.
+
+## Timeline follow-up
+
+At the user’s explicit request, eleven raw-scene event records were added and the existing harpy-cave event was refined rather than duplicated. All dates are visibly labeled as transcript posting dates; no editorial chronology corrections were promoted to canon. Each detail dialog includes a source-page trail and specific evidence limits. A selectable chronology on Vessalia’s page opens the same shared timeline records. Location chronologies and search receive these events through the existing index.
+
+The older cave event’s title, date qualification and participant list now follow the supplied quest posts rather than equating the group roster with the expedition party. Its unresolved crystal/body/voice evidence remains intact.
+
+Sev and Vess pp. 52–53 also records her report of accepting Scribonia’s offer, with a formal interview possibly pending. The later estate conversation reaffirms the intention rather than establishing its first occurrence.

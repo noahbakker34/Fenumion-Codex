@@ -2350,3 +2350,10 @@ body.ethos-view .ethos-principle, body.ethos-view .ethos-closing { background-co
 body.starter-view .infobox { display: none; }
 body.starter-view .lead-grid { display: block; }
 body.starter-view .article-body { max-width: 900px; margin-inline: auto; }
+
+/* Character chronology summaries are reading copy within actionable cards. */
+.article-body .location-timeline-event > span:not(.location-timeline-date) {
+  font-family: var(--text);
+  font-size: 1.05rem;
+  line-height: 1.45;
+}

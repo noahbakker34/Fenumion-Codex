@@ -89,7 +89,7 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `In Our Image.mp3` | User-supplied 6 Oct 2026 | Aria’s “Then make this your people…reshape this world, in our image” recording; shared in-box playback in her collection, quote gallery and matching hourly feature. |
 
-| `Vessalia_RP_and_Quests.txt` | User-supplied 7 Oct 2026; compilation by Vessalia’s player | Dedicated biography from attributed raw RP/quest posts, five text-checked quote excerpts, existing portrait and community art, directory and navigation integration. OCR gaps and conflicting contamination statements remain unresolved; editorial chronology and continuity notes are not used as canon. Full raw source retained locally in the private archive. |
+| `Vessalia_RP_and_Quests.txt` | User-supplied 7 Oct 2026; compilation by Vessalia’s player | Dedicated biography from attributed raw RP/quest posts, five text-checked quote excerpts, eleven new timeline records and one refined cave record, existing portrait and community art, directory and navigation integration. Timeline dates explicitly identify transcript postings. OCR gaps and conflicting contamination statements remain unresolved; editorial chronology and continuity notes are not used as canon. Full raw source retained locally in the private archive. |
 
 ## Manifest limitations
 

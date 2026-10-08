@@ -101,3 +101,13 @@ body.gedankin-world { isolation: isolate; background: #111319; }
 .gedankin-world:is(.characters-background,.timeline-background,.locations-background,.quotes-background,.overview-background,.factions-background) .gedankin-record { background: rgba(22,24,31,.88); }
 
 .gedankin-world.quotes-background .quote-card { background: rgba(22,24,31,.9); }
+
+/* Reveal the world backdrop on narrow screens instead of covering it with the shared reading canvas. */
+.gedankin-world .gedankin-backdrop { z-index: 0; }
+.gedankin-world .app-shell { background: transparent; }
+body.gedankin-world main { position: relative; z-index: 1; background: transparent; }
+.gedankin-world .article-rail { z-index: 1; }
+.gedankin-world:not(.home-view) .article-header { background: linear-gradient(125deg,rgba(28,30,39,.72),rgba(17,20,29,.82)); }
+.gedankin-world:not(.home-view) .article-body { padding: clamp(.9rem,2vw,1.5rem); border: 1px solid rgba(212,180,109,.12); border-radius: 8px; background: rgba(16,19,27,.8); }
+.gedankin-world:is(.characters-background,.timeline-background,.locations-background,.quotes-background,.overview-background,.factions-background) .app-shell { background: transparent; }
+@media (max-width: 760px) { .gedankin-world.panels-open .topbar { z-index: 80; } }

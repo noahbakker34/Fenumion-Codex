@@ -43,7 +43,7 @@
   }
   function render() {
     closePanels();
-    document.querySelectorAll('audio').forEach(audio=>audio.pause());
+    document.querySelectorAll('audio, video').forEach(media=>media.pause());
     const id=location.hash.slice(1) || 'world-index';
     const article=byId.get(id);
     const isHome=id==='world-index';
@@ -63,7 +63,7 @@
       }
       if (article.section?.key === 'events') body = '<p class="gedankin-date-note">Dates below are UTC message posting dates. In-world dates have not been established. This chronicle covers selected reviewed scenes; it is not a complete account of every session.</p>'+body;
       const facts=Object.entries(article.facts || {}).map(([k,v])=>`<div class="fact"><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('');
-      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : ''}<div class="lead-grid"><div class="article-body">${body}${article.sources?.length ? `<details class="gedankin-sources"><summary>Sources</summary><ul>${article.sources.map(source=>`<li>${esc(source)}</li>`).join('')}</ul></details>` : ''}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
+      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video controls muted loop playsinline preload="metadata" ${matchMedia('(prefers-reduced-motion: reduce)').matches ? '' : 'autoplay'} poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video. <a href="${esc(article.video)}">Watch ${esc(article.title)}</a></video>${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : ''}<div class="lead-grid"><div class="article-body">${body}${article.sources?.length ? `<details class="gedankin-sources"><summary>Sources</summary><ul>${article.sources.map(source=>`<li>${esc(source)}</li>`).join('')}</ul></details>` : ''}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
     }
     const headings=[...content.querySelectorAll('.article-body h2, .article-body h3')].filter(e=>!e.closest('.gateway-section-title'));
     const toc=headings.map((h,i)=>{if(!h.id)h.id='section-'+i;return `<a href="#${esc(id)}" data-section="${esc(h.id)}">${esc(h.textContent)}</a>`;}).join('');

@@ -61,7 +61,12 @@ window.GedankinData = {
       "body": "<h2>The offer</h2><p>Cala appears with a radiant sword and asks for warriors against Death’s agents. She reveals <a href=\"#oasis\">the Oasis</a> as a place where the company can meet its physical needs.</p><h2>An unanswered arrival</h2><p>When Kara asks whether she brought them here, Cala says she did not. She speaks of other forces, but their identity remains unresolved. Her warning that Death will eventually find the company is a warning, not a recorded invasion.</p>",
       "sources": [
         "2024-rp.md — 4 October 2024; dates refer to UTC posting dates, not established in-world dates."
-      ]
+      ],
+      "video": "assets/cala.mp4",
+      "poster": "assets/cala-poster.jpg",
+      "imageLayout": "portrait-hero",
+      "imageAlt": "Cala — Gedankin character video",
+      "imageCaption": "Cala — Gedankin."
     },
     {
       "id": "kara-vash",

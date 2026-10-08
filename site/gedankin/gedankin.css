@@ -36,3 +36,5 @@
 .gedankin-search-field input { width: 100%; min-height: 44px; padding: .65rem .8rem; background: #161b20; border: 1px solid var(--line); border-radius: 5px; color: var(--ink); font: 16px/1.4 var(--sans); }
 .gedankin-world .search-panel { background: #191c25; }
 @media (max-width: 760px) { .gedankin-world .search-panel { top: 72px; max-height: calc(100dvh - 88px); } }
+
+.gedankin-world .article-hero.portrait-hero video { width: auto; max-width: 100%; height: auto; max-height: min(72svh, 680px); margin: 0 auto; object-fit: contain; }

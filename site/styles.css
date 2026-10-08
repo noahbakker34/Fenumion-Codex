@@ -2362,3 +2362,19 @@ body.starter-view .article-body { max-width: 900px; margin-inline: auto; }
 .arrival-recording { margin: 1rem 0 1.8rem; background: #101719; border: 1px solid var(--line); }
 .arrival-recording video { display: block; width: 100%; height: auto; max-height: 70vh; object-fit: contain; }
 .arrival-recording figcaption { padding: .65rem .85rem; color: var(--muted); font-family: var(--text); font-size: 1rem; border-top: 1px solid var(--line-soft); }
+
+/* Each connected world has its own archive and a persistent sidebar switch. */
+.world-switcher { display: grid; gap: .35rem; margin: 0 0 1.3rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
+.world-switcher .eyebrow { margin-bottom: .25rem; }
+.world-switch { display: flex; align-items: center; gap: .65rem; min-height: 44px; padding: .55rem .65rem; color: var(--muted); text-decoration: none; border: 1px solid transparent; border-radius: 5px; }
+.world-switch:hover, .world-switch:focus-visible { color: var(--ink); border-color: var(--gold); background: rgba(212,180,109,.08); }
+.world-switch.active { color: var(--gold-bright); border-color: rgba(212,180,109,.35); background: rgba(212,180,109,.08); }
+.world-switch-glyph { width: 25px; display: grid; flex: 0 0 25px; height: 25px; place-items: center; border: 1px solid currentColor; border-radius: 50%; font: 1rem/1 Georgia, serif; }
+.world-switch-name { font: .85rem/1.4 var(--serif); }
+.world-switch small { margin-left: auto; font: .65rem/1.3 var(--sans); color: var(--muted); }
+@media (min-width: 761px) {
+  .home-view .world-switcher { gap: .45rem; margin-bottom: 1rem; padding-bottom: .8rem; }
+  .home-view .world-switcher .eyebrow, .home-view .world-switch small { display: none; }
+  .home-view .world-switch { display: grid; justify-items: center; gap: .35rem; padding: .5rem .1rem; }
+  .home-view .world-switch-name { font: .6rem/1.3 var(--sans); }
+}

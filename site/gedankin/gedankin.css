@@ -1,0 +1,38 @@
+.gedankin-rules-badge { color: var(--gold-bright); font: .7rem/1.4 var(--sans); border: 1px solid var(--line); border-radius: 999px; padding: .45rem .7rem; white-space: nowrap; }
+.gedankin-world .brand-mark { overflow: hidden; background: transparent; }
+.gedankin-world .brand-mark img { transform: none; object-fit: contain; width: 100%; height: 100%; }
+.gedankin-world .sidebar::before { background: transparent url('sigil.svg') center / contain no-repeat; }
+.gedankin-world .gateway-hero { min-height: 440px; background: radial-gradient(ellipse at 50% 20%, #424052 0, #212532 40%, #111319 85%); }
+.gedankin-world .gateway-hero::before { background: repeating-linear-gradient(125deg, transparent 0 85px, rgba(212,180,109,.035) 86px 87px, transparent 88px 170px), radial-gradient(ellipse at center, transparent, #111319); }
+.gedankin-world .gateway-sigil { background: transparent; box-shadow: 0 0 60px rgba(212,180,109,.12); }
+.gedankin-world .gateway-sigil img { transform: none; }
+.gedankin-world .gateway-categories { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.gedankin-world .gateway-tile { background: linear-gradient(125deg, #272733, #171a22); }
+.gedankin-world .gateway-featured { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 3rem; }
+.gedankin-world .gedankin-feature { display: flex; flex-direction: column; min-height: 210px; padding: 1.5rem; background: radial-gradient(ellipse at top right, rgba(212,180,109,.1), transparent 75%), #191c25; }
+.gedankin-feature > small { color: var(--gold); text-transform: uppercase; letter-spacing: .1em; font: .65rem/1.4 var(--sans); }
+.gedankin-feature > strong { margin: auto 0 .5rem; font: 1.5rem/1.3 var(--serif); }
+.gedankin-feature > p { margin: 0; color: var(--muted); font: 1.1rem/1.5 var(--text); }
+.gedankin-empty { margin: 1.5rem 0; padding: 1.5rem; border: 1px solid var(--line); border-radius: 6px; background: rgba(212,180,109,.035); }
+.gedankin-empty p { margin: .6rem 0 0; }
+.gedankin-empty strong { color: var(--gold-bright); font: 1rem/1.5 var(--serif); }
+.gedankin-records { display: grid; gap: .8rem; margin: 1.2rem 0; }
+.gedankin-record { display: block; padding: 1.2rem; border: 1px solid var(--line); border-radius: 5px; text-decoration: none; background: rgba(255,255,255,.02); }
+.gedankin-record:hover { border-color: var(--gold); }
+.gedankin-record strong { color: var(--gold-bright); }
+.gedankin-record p { margin-bottom: 0; }
+.gedankin-world .search-result { width: 100%; text-align: left; cursor: pointer; }
+.gedankin-world .gateway-index-intro { padding-bottom: 1rem; }
+@media (max-width: 1100px) { .gedankin-world .gateway-categories { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 760px) {
+  .gedankin-world .gateway-hero { min-height: 405px; padding: 3rem 1.2rem 4rem; }
+  .gedankin-world .gateway-featured { grid-template-columns: 1fr; }
+  .gedankin-world .gedankin-feature { min-height: 180px; }
+  .gedankin-rules-badge { display: none; }
+}
+@media (max-width: 420px) { .gedankin-world .gateway-categories { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.gedankin-world .gateway-hero h1 { margin: .45rem 0 .7rem; color: #fff; font: 500 clamp(3.1rem, 8vw, 6.9rem)/1.05 var(--serif); letter-spacing: -.04em; text-shadow: 0 5px 25px rgba(0,0,0,.55); }
+.gedankin-search-field { display: block; margin: .8rem 1rem; }
+.gedankin-search-field input { width: 100%; min-height: 44px; padding: .65rem .8rem; background: #161b20; border: 1px solid var(--line); border-radius: 5px; color: var(--ink); font: 16px/1.4 var(--sans); }
+.gedankin-world .search-panel { background: #191c25; }
+@media (max-width: 760px) { .gedankin-world .search-panel { top: 72px; max-height: calc(100dvh - 88px); } }

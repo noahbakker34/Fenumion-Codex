@@ -2357,3 +2357,8 @@ body.starter-view .article-body { max-width: 900px; margin-inline: auto; }
   font-size: 1.05rem;
   line-height: 1.45;
 }
+
+/* Preserve the full arrival recording and retain native playback controls. */
+.arrival-recording { margin: 1rem 0 1.8rem; background: #101719; border: 1px solid var(--line); }
+.arrival-recording video { display: block; width: 100%; height: auto; max-height: 70vh; object-fit: contain; }
+.arrival-recording figcaption { padding: .65rem .85rem; color: var(--muted); font-family: var(--text); font-size: 1rem; border-top: 1px solid var(--line-soft); }

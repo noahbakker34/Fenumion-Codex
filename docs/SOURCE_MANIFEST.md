@@ -91,6 +91,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Vessalia_RP_and_Quests.txt` | User-supplied 7 Oct 2026; compilation by Vessalia’s player | Dedicated biography from attributed raw RP/quest posts, five text-checked quote excerpts, eleven new timeline records and one refined cave record, existing portrait and community art, directory and navigation integration. Timeline dates explicitly identify transcript postings. OCR gaps and conflicting contamination statements remain unresolved; editorial chronology and continuity notes are not used as canon. Full raw source retained locally in the private archive. |
 
+| Saturnia arrival video and goddess portrait (`947604d2…_0.mp4`, `4f5f954a…_1.png`) | User-supplied 7 Oct 2026 | Dedicated Saturnia entry, searchable directory record, separate native video player and goddess portrait. Identifications come directly from the user. No arrival date, ascension event, domain, relationships or intervening biography inferred; dossier forthcoming. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

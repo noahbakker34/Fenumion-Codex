@@ -13155,6 +13155,42 @@ if (vessaliaCaveEvent) {
 vessaliaRecord.body = vessaliaRecord.body.replace("That decision is recorded; completed lessons or qualifications are not.", "In her conversation with Severina she also says a formal interview may still be pending. Completed lessons or qualifications are not established.");
 vessaliaRecord.body += '<h2 id="vess-recovered-events">Vessalia in the timeline</h2><p>These dates identify the surviving posts. Exact in-world dates and the complete order of the scenes remain unconfirmed. Select an event for its source and evidence limits.</p><ol class="location-timeline-list">' + [...vessaliaTimelineEvents, vessaliaCaveEvent].filter(Boolean).sort((a,b) => a.sort.localeCompare(b.sort)).map(event => `<li><button type="button" class="location-timeline-event" data-timeline-title="${escapeHtml(event.title)}"><span class="location-timeline-date">${escapeHtml(event.meta)}</span><strong>${escapeHtml(event.title)}</strong><span>${escapeHtml(event.summary)}</span><small>Open timeline record →</small></button></li>`).join('') + '</ol>';
 subchannelMap.vessalia.push({ label: "Living Timeline", article: "living-timeline", summary: "Find Vessalia’s recovered events and source chronology." });
+
+// Saturnia’s supplied depictions; no intervening history inferred before her dossier.
+const saturniaMediaRecord = {
+  "id": "saturnia",
+  "title": "Saturnia",
+  "category": "People",
+  "type": "Arrival and divine depictions",
+  "image": "assets/characters/saturnia-goddess.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Saturnia the goddess, with luminous moth wings, pale flowing robes and purple hair against a starry blue background",
+  "imageCaption": "Saturnia the goddess.",
+  "dek": "Young Saturnia on arrival, and Saturnia the goddess.",
+  "tags": [
+    "Saturnia",
+    "Young Saturnia",
+    "Arrival",
+    "Goddess",
+    "Moth"
+  ],
+  "facts": {
+    "Arrival depiction": "Young Saturnia · video",
+    "Divine depiction": "Saturnia the goddess · portrait"
+  },
+  "sources": [
+    "User-supplied 7 October 2026: young Saturnia on arrival video; identification supplied directly by the user",
+    "User-supplied 7 October 2026: Saturnia the goddess portrait; identification supplied directly by the user"
+  ],
+  "body": "<p>Two depictions of Saturnia: young Saturnia on arrival, preserved in motion, and Saturnia the goddess in the portrait above.</p><h2 id=\"saturnia-arrival\">Young Saturnia on arrival</h2><figure class=\"arrival-recording\"><video controls muted loop playsinline preload=\"metadata\" aria-label=\"Young Saturnia on arrival\"><source src=\"assets/characters/saturnia-arrival.mp4\" type=\"video/mp4\">Your browser does not support this video. <a href=\"assets/characters/saturnia-arrival.mp4\">Open the arrival video.</a></video><figcaption>Young Saturnia on arrival.</figcaption></figure>"
+};
+articles.push(saturniaMediaRecord);
+archiveIndex.characters.push({ title: "Saturnia", meta: "Arrival and divine depictions", article: "saturnia", image: saturniaMediaRecord.image, summary: saturniaMediaRecord.dek });
+fixedArticlePaths.set("saturnia", ["Characters", "Saturnia"]);
+const saturniaNavBranch = navigationRegions.find(region => region.title === "Characters").branches.find(branch => branch.title === "Characters K–Z");
+saturniaNavBranch.items.push({ label: "Saturnia", article: "saturnia" });
+saturniaNavBranch.items.sort((a,b) => a.label.localeCompare(b.label));
+legacyCharacterProfiles.Saturnia = { personality: "The supplied video depicts young Saturnia on arrival. Her personality history awaits the forthcoming dossier.", achievements: "The supplied portrait identifies Saturnia as a goddess. No date, divine domain, or account of her transformation is established by these images alone.", relationships: "No relationships are assigned from these visual depictions." };
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

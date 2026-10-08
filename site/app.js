@@ -13530,6 +13530,46 @@ articles.find(record => record.id === "herb").body = articles.find(record => rec
 articles.find(record => record.id === "herb").title = "Herb Shepard";
 articles.find(record => record.id === "herb").facts["Canonical name"] = "Herb Shepard · self-introduction; Shepherd / Sheperd variants also recorded";
 
+// Public Gate scenes are independent of the protected ancient Gate dossier.
+const gateRecoveredRecords = window.FENUMION_GATE_RECORDS;
+if (gateRecoveredRecords) {
+  for (const record of gateRecoveredRecords.articles) {
+    const {directory, aliases = [], ...article} = record;
+    articles.push(article);
+    fixedArticlePaths.set(record.id, record.category === 'Places' ? ['Locations','Prima',record.title] : ['Characters','At the Gate',record.title]);
+    if (directory) {
+      const existing = [...archiveIndex.characters,...archiveIndex.npcs].find(person => [record.title,...aliases].includes(person.title));
+      const entry = {title:record.title,aliases,meta:record.type,article:record.id,summary:record.dek};
+      if (existing) Object.assign(existing,entry);
+      else archiveIndex[directory].push(entry);
+    }
+    subchannelMap[record.id] = [{label:'The Gate',article:'gate-clearing',summary:'Arrivals, watch and the road to Pristinia.'},{label:'Pristinia',article:'pristinia',summary:'Shelter and civic life beyond the threshold.'}].filter(link=>link.article!==record.id);
+  }
+  for (const [id, sections] of Object.entries(gateRecoveredRecords.appends)) {
+    const article = articles.find(record=>record.id===id);
+    if (!article) continue;
+    article.body += sections.join('');
+    article.sources = [...new Set([...(article.sources || []),'Gate chronicle · primary arrival and welcome scenes'])];
+  }
+  navigationRegions.find(region=>region.title==='Characters').branches.push({title:'At the Gate',items:gateRecoveredRecords.articles.filter(record=>record.category==='People').map(record=>({label:record.title,article:record.id}))});
+  navigationRegions.find(region=>region.title==='Locations').branches.find(branch=>branch.title==='Prima').items.push({label:'The Gate',article:'gate-clearing'});
+  archiveIndex.islands.push({title:'The Gate',region:'Prima',parent:'Prima',type:'Arrival clearing and watch',meta:'Prima · woodland threshold',article:'gate-clearing',summary:gateRecoveredRecords.articles.find(record=>record.id==='gate-clearing').dek,source:'Gate chronicle · public arrival scenes',aliases:['The Gate clearing','Celestial Gate'],level:'site'});
+  subchannelMap['prima-pristinia'].push({label:'The Gate',article:'gate-clearing',summary:'The public history of arrivals and the people who answer them.'});
+  articles.find(record=>record.id==='pristinia').body += '<h2 id="pristinia-gate-welcome">The road from the Gate</h2><p>The town’s welcome begins before its walls. At <a href="#gate-clearing">the Gate</a>, guides answer arrivals with shelter, orientation and choices about how to contribute. The road is also vulnerable: the siege-era accounts preserve smoke, attacks and a Rahu search party. Later, Vessalia’s welcome of Star shows the work continuing through a new generation of guides.</p>';
+  archiveIndex.timeline.push(...gateRecoveredRecords.events);
+  for (const event of gateRecoveredRecords.events) questEventConsequences[event.title] = 'Source: the-gate.md, reviewed scene. Date shown is the UTC posting date; exact in-world date unestablished. '+event.summary;
+  const arrival = archiveIndex.timeline.find(event=>event.title==='Vessalia arrives at the Gate');
+  if (arrival) {
+    arrival.meta='18 Aug 2026 · posting date (UTC; earlier dossier labels 17 Aug)';
+    arrival.sort='2026-08-18-vess-00';
+    questEventConsequences[arrival.title] += ' The Gate export anchors this exchange to 18 August 2026 UTC; the earlier dossier labels it 17 August. The record does not establish a different in-world date or the reason for that calendar difference.';
+  }
+  const quoteArticle=articles.find(record=>record.id==='memorable-quotes');
+  const quoteHtml=[...new Set(gateRecoveredRecords.quotes.map(quote=>quote.group))].map((group,i)=>'<h2 id="gate-quote-group-'+i+'">'+group+'</h2><div class="quote-gallery">'+gateRecoveredRecords.quotes.filter(quote=>quote.group===group).map(quote=>'<button class="quote-card" data-article="'+quote.article+'"><blockquote>“'+quote.text+'”</blockquote><cite>'+quote.speaker+'</cite></button>').join('')+'</div>').join('');
+  quoteArticle.body=quoteArticle.body.replace('<h2 id="why-these-lines-remain">',quoteHtml+'<h2 id="why-these-lines-remain">');
+  quoteArticle.sources.push('Gate chronicle · five attributed lines from reviewed public scenes');
+}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

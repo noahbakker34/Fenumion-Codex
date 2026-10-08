@@ -97,6 +97,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `babel-quest-rp.md` | User-supplied 7 Oct 2026; 4,362 primary messages | Selected complete scenes: Akarian training, Babel rescue and survivors’ campfire, mountain offensive and closing reconnaissance. Six People records, Skylight Refuge article/map link, five new and five refined timeline records, five exact quote excerpts and affected biographies. Coverage limits: `docs/BABEL_PRIMARY_SOURCE_HISTORY.md`; full source and message ledger remain local/private. |
 
+| `the-gate.md` | User-supplied 8 Oct 2026; 25,043 primary messages | Selective recovery of public arrival and welcome scenes: nine People profiles, public Gate clearing, seven biography supplements, eleven timeline records and five exact quotations. Protected ancient Gate dossier remains restricted. Coverage and date discrepancy: `docs/GATE_HISTORY.md`. Raw source and message provenance remain local/private. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

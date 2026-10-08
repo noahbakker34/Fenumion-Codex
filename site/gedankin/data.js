@@ -401,8 +401,13 @@ window.GedankinData = {
       },
       "body": "<h2>Entry and shelter</h2><p>After the ambush, Saira provides the dinars needed for entry and leads the survivors toward the Mirage Arfaj hostel. She explains that their usual lodging is unavailable or too expensive.</p><h2>Continuing the route</h2><p>Azhar and Azlaan later speak of returning to caravan work with her. No further fate is established in the reviewed scenes.</p>",
       "sources": [
-        "2024-rp.md — 11–18 June 2026; dates refer to UTC posting dates, not established in-world dates."
-      ]
+        "2024-rp.md — 11–18 June 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "Saira.png — artwork supplied by the user."
+      ],
+      "image": "assets/saira.png",
+      "imageLayout": "portrait-hero",
+      "imageAlt": "Saira in a sand-coloured hood and flowing desert robes with an orange sash",
+      "imageCaption": "Saira — Gedankin."
     },
     {
       "id": "zrurg",

@@ -29,7 +29,10 @@ window.GedankinData = {
         "House Adijit",
         "Khars Madar",
         "Atrax",
-        "The Shore"
+        "The Shore",
+        "Ossi",
+        "Victor Ashstone",
+        "Ruined House and Crypt"
       ],
       "facts": {
         "Identity": "Old soldier",
@@ -43,9 +46,11 @@ window.GedankinData = {
         "Pasted markdown(6).md — Vaerik combat and Heih",
         "Fenumion_Conversation_Catalogue.md — Vaerik synthesis and source map",
         "2024-rp.md — 10 June–16 July 2026 (UTC posting dates).",
-        "gedankin-the-shore.md — 2026-05-17 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2026-05-17 (UTC posting dates; in-world dates unestablished).",
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-06-01–2026-09-13 (UTC posting dates; in-world dates unestablished)."
       ],
-      "body": "<p>Vaerik is defined less by speeches than by forward motion. He wastes little movement, uses subtle magic, and looks for the killing stroke. The same precision governs his ethics: once he believes a burden can be carried, the fact that it will hurt him is not a reason to refuse it.</p>\n      <h2 id=\"if-i-can\">“If I can, then I must”</h2>\n      <p>His duty is genuinely other-directed. He will burn himself to keep other people alive. The danger is that willingness to suffer can become a private grant of moral permission—first to destroy himself, then potentially to decide what costs a mission requires from everyone else.</p>\n      <h2 id=\"heih\">Heih and the names</h2>\n      <p>Heih dies; Vaerik continues the mission, solves the immediate problem, carries the body, and later cuts the name into his arm. The act matters because his transformation has already taken other names from him. Memory becomes something he has to inscribe physically so relentless continuation cannot erase it.</p>\n      <h2 id=\"old-soldier\">An old soldier’s grammar</h2>\n      <p>Fire, lost names, Second Wind, controlled violence, and the refusal to stop all point toward one wound: if there is anything left in him, he believes he must find it and spend it. Vaerik’s future test is not whether he can endure. It is whether he can accept that ability does not always create obligation.</p><h2 id=\"vaerik-personality\">Personality and duty</h2><p>Vaerik is an old soldier who expresses duty through the conviction that if he can carry a burden, he must. That principle makes him reliable and dangerous to himself: service can become self-erasure when capacity is treated as proof that rest or help is undeserved.</p><h2 id=\"vaerik-achievements\">Service through experience</h2><p>He brings precision, experience, and controlled violence to the companies he joins, often taking the position where a disciplined fighter can keep confusion from becoming catastrophe. His lasting achievement is the standard his conduct sets—competence placed in service of other people rather than personal legend.</p><h2 id=\"vaerik-relationships\">Entrusted danger</h2><p>Vaerik’s bonds form through entrusted danger: companions rely on him to do what he says and to remain when the work becomes costly. The quest record names Aurora, Fife and Heih among those he protects on the caravan journey. He carries an exhausted Aurora, retrieves Heih’s body after the ambush, and continues to Khars Madar. Later, he explores the Tayyeb passages with Xuan, Vespere and Eudora; Vespere cheers him in the arena.</p><h2>The caravan and the arena</h2><p>In the caravan ambush, Vaerik kills a staff-bearing mage and breaks the staff. The attackers become uncontrolled, but the battle still costs Heih and four caravan guards their lives. Vaerik carries Heih onward. In House Adijit’s arena, he later defeats two enormous apes with disciplined shield work and a burning blade, emerging visibly worn. Chayma reports that her winning wager has been refused; his promise to intervene is not a completed recovery.</p><h2>Before the caravan</h2><p>At the Shore, Vaerik accepts Atrax’s offer of a route to the Oasis, while saying he cannot quite remember where he came from. Their conversation is blunt: he dislikes formalities, finds little comfort in the camp’s meagre supplies, but takes an interest in the fighting Atrax describes. The encounter gives his later service a difficult beginning, without resolving his missing memories or proving why he was brought here.</p>"
+      "body": "<p>Vaerik is defined less by speeches than by forward motion. He wastes little movement, uses subtle magic, and looks for the killing stroke. The same precision governs his ethics: once he believes a burden can be carried, the fact that it will hurt him is not a reason to refuse it.</p>\n      <h2 id=\"if-i-can\">“If I can, then I must”</h2>\n      <p>His duty is genuinely other-directed. He will burn himself to keep other people alive. The danger is that willingness to suffer can become a private grant of moral permission—first to destroy himself, then potentially to decide what costs a mission requires from everyone else.</p>\n      <h2 id=\"heih\">Heih and the names</h2>\n      <p>Heih dies; Vaerik continues the mission, solves the immediate problem, carries the body, and later cuts the name into his arm. The act matters because his transformation has already taken other names from him. Memory becomes something he has to inscribe physically so relentless continuation cannot erase it.</p>\n      <h2 id=\"old-soldier\">An old soldier’s grammar</h2>\n      <p>Fire, lost names, Second Wind, controlled violence, and the refusal to stop all point toward one wound: if there is anything left in him, he believes he must find it and spend it. Vaerik’s future test is not whether he can endure. It is whether he can accept that ability does not always create obligation.</p><h2 id=\"vaerik-personality\">Personality and duty</h2><p>Vaerik is an old soldier who expresses duty through the conviction that if he can carry a burden, he must. That principle makes him reliable and dangerous to himself: service can become self-erasure when capacity is treated as proof that rest or help is undeserved.</p><h2 id=\"vaerik-achievements\">Service through experience</h2><p>He brings precision, experience, and controlled violence to the companies he joins, often taking the position where a disciplined fighter can keep confusion from becoming catastrophe. His lasting achievement is the standard his conduct sets—competence placed in service of other people rather than personal legend.</p><h2 id=\"vaerik-relationships\">Entrusted danger</h2><p>Vaerik’s bonds form through entrusted danger: companions rely on him to do what he says and to remain when the work becomes costly. The quest record names Aurora, Fife and Heih among those he protects on the caravan journey. He carries an exhausted Aurora, retrieves Heih’s body after the ambush, and continues to Khars Madar. Later, he explores the Tayyeb passages with Xuan, Vespere and Eudora; Vespere cheers him in the arena.</p><h2>The caravan and the arena</h2><p>In the caravan ambush, Vaerik kills a staff-bearing mage and breaks the staff. The attackers become uncontrolled, but the battle still costs Heih and four caravan guards their lives. Vaerik carries Heih onward. In House Adijit’s arena, he later defeats two enormous apes with disciplined shield work and a burning blade, emerging visibly worn. Chayma reports that her winning wager has been refused; his promise to intervene is not a completed recovery.</p><h2>Before the caravan</h2><p>At the Shore, Vaerik accepts Atrax’s offer of a route to the Oasis, while saying he cannot quite remember where he came from. Their conversation is blunt: he dislikes formalities, finds little comfort in the camp’s meagre supplies, but takes an interest in the fighting Atrax describes. The encounter gives his later service a difficult beginning, without resolving his missing memories or proving why he was brought here.</p><h2>The mirage and the crypt</h2><p>Before the caravan journey, Vaerik escapes a quicksand pit and uses a rope and javelin to pull Fife free, then hauls Vespere to safety. At Salim’s ruins he accepts Heih’s advice to back away from the burrowing creatures. Below the house he opens sarcophagi and takes a ring and bottle; the tombs’ defenders rise. He warns that the explosions could collapse the tunnel and escapes before it seals.</p><h2>The cost of a bargain</h2><p>Salim later gives him a dinar. Vaerik declines a helmet after testing the merchant’s price. His journey earns a reward without becoming a complete clearance of the ruins.</p><h2>A tent for Ossi</h2><p>Vaerik helps untangle Ossi’s rope and drives a tent stake with his sword’s pommel. Ossi says he wants freedom and no longer wants to hurt people. Vaerik offers training to protect that freedom, then lends his hut while offering to finish the tent. Ossi accepts the lodging; a training programme is not shown.</p><h2>Questioning a guardian</h2><p>He challenges Victor Ashstone’s claim to decide who should remain dead, suggesting that such authority makes him divine. Victor denies being a god. The exchange records disagreement rather than a settled account of Victor’s powers.</p>"
     },
     {
       "id": "cala",
@@ -151,15 +156,19 @@ window.GedankinData = {
         "Luxcit",
         "Chayma",
         "Saffiah",
-        "Icyscale Roost"
+        "Icyscale Roost",
+        "Flayfair",
+        "Ruined House and Crypt"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Light and remembrance</h2><p>Sombra attunes to <a href=\"#luxcit\">Luxcit</a> in Albayt Alkabir and brings the lantern outside. He asks how to honour its fallen Lightbringer, Harlan Rayburn.</p><h2>Lives carried home</h2><p>During the approach to <a href=\"#khars-madar\">Khars Madar</a>, Sombra helps fight the stirges, provides food and carries Saffiah’s body after the company saves Chayma. The two sisters reach the city together, though only Chayma survives.</p><h2>Return to the mountain</h2><p>In the September rescue expedition, Sombra takes a giant owl’s form to ferry companions onto the glacier. The company later frees four chained kobolds and reaches Icyscale Roost.</p><h2>Food beneath the stars</h2><p>Sombra shares magical fruit with Eudora and Rhalor while they talk about the unfamiliar refuge. Later he offers fruit to the wounded Khemset and Aurora. His hospitality gives the camp a welcome even when it cannot provide answers or a cure.</p>",
+      "body": "<h2>Light and remembrance</h2><p>Sombra attunes to <a href=\"#luxcit\">Luxcit</a> in Albayt Alkabir and brings the lantern outside. He asks how to honour its fallen Lightbringer, Harlan Rayburn.</p><h2>Lives carried home</h2><p>During the approach to <a href=\"#khars-madar\">Khars Madar</a>, Sombra helps fight the stirges, provides food and carries Saffiah’s body after the company saves Chayma. The two sisters reach the city together, though only Chayma survives.</p><h2>Return to the mountain</h2><p>In the September rescue expedition, Sombra takes a giant owl’s form to ferry companions onto the glacier. The company later frees four chained kobolds and reaches Icyscale Roost.</p><h2>Food beneath the stars</h2><p>Sombra shares magical fruit with Eudora and Rhalor while they talk about the unfamiliar refuge. Later he offers fruit to the wounded Khemset and Aurora. His hospitality gives the camp a welcome even when it cannot provide answers or a cure.</p><h2>A guide through the mirage</h2><p>Sombra helps the company regain the route after its quicksand escape. His summoned fairy, Flayfair, scouts ahead at the ruins and later stays behind as the company flees the collapsing crypt. He thanks the brave spirit when she is no longer visible. The account does not establish her permanent destruction.</p><h2>Water for the journey</h2><p>Salim gives him a dinar after the expedition. Sombra asks the merchant to look for a vessel that can provide endless water, explaining the need in their desert journeys. The request is not a confirmed delivery.</p>",
       "sources": [
         "2024-rp.md — 25 October 2024; 16 April and 24 September 2026; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-oasis.md — 2024-10-05–2024-10-11 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-10-05–2024-10-11 (UTC posting dates; in-world dates unestablished).",
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-06-01 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -195,16 +204,23 @@ window.GedankinData = {
         "House Nazif",
         "Vaerik",
         "Manzur",
-        "The Shore"
+        "The Shore",
+        "Myllo",
+        "Salim Jalusiwa"
       ],
       "facts": {
         "World": "Gedankin",
         "Appearance": "A stitched doll, about two feet tall"
       },
-      "body": "<h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p><h2>Guiding Manzur</h2><p>At the Shore, Vespere startles the newly arrived Manzur, offers to check his injuries and brings out her surgical tools. He insists he is unharmed and declines treatment. She puts the saw away, then guides him to the Oasis, where he thanks her. Her claim that Cala called the arrivals is her explanation; Cala’s own earlier denial of summoning the company remains in the record.</p>",
+      "body": "<h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p><h2>Guiding Manzur</h2><p>At the Shore, Vespere startles the newly arrived Manzur, offers to check his injuries and brings out her surgical tools. He insists he is unharmed and declines treatment. She puts the saw away, then guides him to the Oasis, where he thanks her. Her claim that Cala called the arrivals is her explanation; Cala’s own earlier denial of summoning the company remains in the record.</p><h2>From the sand to the shop</h2><p>Vaerik pulls Vespere free when quicksand rises around her. At the ruins she examines burned bodies and prepares protective magic for willing companions; all escape the collapsing crypt. On return she buys Salim’s Bag of Holding.</p><h2>News carried between companions</h2><p>Vespere explains the city’s houses and entry coin to Aurora Luminaria, and later tells Myllo that Heih died. These moments place her beside the newcomers and the absent as well as on expeditions.</p>",
       "sources": [
         "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-shore.md — 2026-06-01 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2026-06-01 (UTC posting dates; in-world dates unestablished).",
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-06-01–2026-07-09 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Vespere Hollowstich"
       ]
     },
     {
@@ -255,15 +271,19 @@ window.GedankinData = {
         "Gedankin",
         "Vaerik",
         "Fife",
-        "Caravan"
+        "Caravan",
+        "Myllo",
+        "Balance"
       ],
       "facts": {
         "World": "Gedankin",
         "Recorded fate": "Dies during the caravan ambush"
       },
-      "body": "<h2>Holding the line</h2><p>Heih fights in the caravan’s defence when hyena-like attackers and hostile magic strike. He falls while protecting Fife and does not survive the battle.</p><h2>Carried onward</h2><p>Vaerik retrieves Heih’s body and carries it toward Khars Madar. This loss gives a named history to Vaerik’s practice of carrying others’ burdens.</p>",
+      "body": "<h2>Holding the line</h2><p>Heih fights in the caravan’s defence when hyena-like attackers and hostile magic strike. He falls while protecting Fife and does not survive the battle.</p><h2>Carried onward</h2><p>Vaerik retrieves Heih’s body and carries it toward Khars Madar. This loss gives a named history to Vaerik’s practice of carrying others’ burdens.</p><h2>Restraint before the loss</h2><p>In the earlier expedition to Salim’s ruins, Heih escapes quicksand and warns the others to back away from the small burrowing creatures before their larger protector arrives. He urges nonlethal treatment. The creatures leave unharmed. He later escapes the collapsing crypt with the party.</p><h2>Balance and another traveller</h2><p>At the Oasis he meditates on balance, then challenges Myllo’s contempt for others. He argues that even an ant can teach something and reminds him that every master began as a novice.</p><h2>Remembered afterward</h2><p>In July, Myllo asks where the monk has gone. Vespere tells him Heih died in the desert. Myllo remembers his wisdom; this is a later response to the already recorded caravan death, not a second death or another dated battle.</p>",
       "sources": [
-        "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-06-04–2026-07-10 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -279,16 +299,19 @@ window.GedankinData = {
         "Healing",
         "Ashbriar",
         "House Vita Imperatoris",
-        "The Shore"
+        "The Shore",
+        "Sahira al-Azar",
+        "Manzur"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>A healer on the road</h2><p>Aurora describes herself as an heir of a House of Healing, trained as an army healer and honour guard. The quest record does not supply a fuller institutional history.</p><h2>The ambush</h2><p>Vaerik carries Aurora when she is exhausted and later entrusts the caravan’s protection to her. During the attack she cannot reach every fallen companion in time. She survives and enters the city with the remaining company.</p><h2>A promise at the threshold</h2><p>Aurora Luminaria’s Shore arrival names her as heir to House Vita Imperatoris. She suspects a rival house of arranging her displacement, but the cause is not established. Ashbriar guides her while condemning the felling of the Oasis palms. Their argument becomes an offer: she promises to help find trees and restore a grove. That promise is not a completed restoration.</p><h2>Two distinct people</h2><p>The earlier Shore traveller known simply as <a href=\"#aurora-early-shore\">Aurora</a> is a separate person from Aurora Luminaria. Their shared given name does not connect their histories.</p>",
+      "body": "<h2>A healer on the road</h2><p>Aurora describes herself as an heir of a House of Healing, trained as an army healer and honour guard. The quest record does not supply a fuller institutional history.</p><h2>The ambush</h2><p>Vaerik carries Aurora when she is exhausted and later entrusts the caravan’s protection to her. During the attack she cannot reach every fallen companion in time. She survives and enters the city with the remaining company.</p><h2>A promise at the threshold</h2><p>Aurora Luminaria’s Shore arrival names her as heir to House Vita Imperatoris. She suspects a rival house of arranging her displacement, but the cause is not established. Ashbriar guides her while condemning the felling of the Oasis palms. Their argument becomes an offer: she promises to help find trees and restore a grove. That promise is not a completed restoration.</p><h2>Two distinct people</h2><p>The earlier Shore traveller known simply as <a href=\"#aurora-early-shore\">Aurora</a> is a separate person from Aurora Luminaria. Their shared given name does not connect their histories.</p><h2>Medicine, craft and command</h2><p>Aurora exchanges information with Sahira al-Azar, an artificer seeking workshop space. She describes healing as part of her house’s approach to military leadership. Their reports of dungeon success reflect their knowledge at that encounter, rather than an independently established record of who first reached each level.</p><h2>The argument over the tombs</h2><p>She tells Manzur of fighting a mummy and other undead after a magical puzzle was solved. He asks whether the group disturbed a seal that was doing its work. She defends acting before the evil could escape and says the dead can now rest. Their argument ends without agreement, and it does not identify the map’s Mausoleum with a particular expedition site.</p>",
       "sources": [
         "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2026-06-02 (UTC posting dates; in-world dates unestablished).",
-        "World creator clarification — 8 October 2026: Aurora and Aurora Luminaria are distinct characters."
+        "World creator clarification — 8 October 2026: Aurora and Aurora Luminaria are distinct characters.",
+        "gedankin-the-oasis.md — 2026-06-03–2026-06-07 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -300,14 +323,16 @@ window.GedankinData = {
         "Gedankin",
         "Heih",
         "Aurora",
-        "Vaerik"
+        "Vaerik",
+        "Ruined House and Crypt"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Companions in the desert</h2><p>Fife journeys with Aurora, Heih and Vaerik, speaking of family, fighting and song.</p><h2>A costly escape</h2><p>In the caravan ambush, Heih holds off attackers to protect Fife. Fife seeks support during the battle, but Heih dies.</p>",
+      "body": "<h2>Companions in the desert</h2><p>Fife journeys with Aurora, Heih and Vaerik, speaking of family, fighting and song.</p><h2>A costly escape</h2><p>In the caravan ambush, Heih holds off attackers to protect Fife. Fife seeks support during the battle, but Heih dies.</p><h2>A first expedition</h2><p>Fife joins Salim’s investigation while still learning the names of the people and places around them. A vision of water turns out to be a mirage; Vaerik pulls them from quicksand. They apologise for pointing it out, and he answers that he would have approached it too.</p><h2>Mercy and retreat</h2><p>Fife supports leaving the burrowing creatures unharmed, lights the crypt with Dancing Lights and urges retreat as the entrance destabilises. They escape just before the collapse. Their songs support the party without making the expedition a complete victory.</p>",
       "sources": [
-        "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -389,6 +414,9 @@ window.GedankinData = {
       "body": "<h2>The scorpion passages</h2><p>Xuan accompanies the expedition beneath the Tayyeb quarter. Faced with guards in a furnished cavern, Xuan negotiates while Vaerik threatens. A brass scorpion pin is offered as a way to make contact in Peddlers Passage.</p><h2>A different allegiance</h2><p>Xuan passes the pin to Vaerik. Possessing it is not confirmed Tayyeb membership. Xuan later reports to Ibin Ali with Vespere; both are admitted to House Nazif.</p>",
       "sources": [
         "2024-rp.md — 25 June–16 July 2026; dates refer to UTC posting dates, not established in-world dates."
+      ],
+      "aliases": [
+        "Xuan"
       ]
     },
     {
@@ -409,6 +437,10 @@ window.GedankinData = {
       "body": "<h2>After the attack</h2><p>Azhar and Azlaan survive the caravan battle with Vaerik, Aurora and Fife. They speak in near unison and explain a custom of returning the dead to the sand. The record does not establish that they are brothers or twins.</p><h2>A debt remembered</h2><p>Later, recovered from their wounds, they express gratitude to Vaerik and Aurora and prepare to travel with Saira again.</p>",
       "sources": [
         "2024-rp.md — 11–18 June 2026; dates refer to UTC posting dates, not established in-world dates."
+      ],
+      "aliases": [
+        "Azhar",
+        "Azlaan"
       ]
     },
     {
@@ -483,14 +515,22 @@ window.GedankinData = {
         "Gedankin",
         "Icyscale Roost",
         "Zrurg",
-        "Kaia Veyra"
+        "Kaia Veyra",
+        "Espera Token",
+        "Huntrix",
+        "Mathew Bear"
       ],
       "facts": {
-        "World": "Gedankin"
+        "World": "Gedankin",
+        "Introduced name": "Espera Token"
       },
-      "body": "<h2>Reaching the glacier</h2><p>Espera identifies a climbing route during the September expedition. When she slips, the others hold the rope and she regains her grip. The party helps the kobolds fighting for freedom.</p><h2>Returning with help</h2><p>Espera leads the next expedition back toward the mountain. That company discovers chained prisoners, defeats their escort and reaches Icyscale Roost with the freed kobolds.</p>",
+      "body": "<h2>Reaching the glacier</h2><p>Espera identifies a climbing route during the September expedition. When she slips, the others hold the rope and she regains her grip. The party helps the kobolds fighting for freedom.</p><h2>Returning with help</h2><p>Espera leads the next expedition back toward the mountain. That company discovers chained prisoners, defeats their escort and reaches Icyscale Roost with the freed kobolds.</p><h2>Espera Token</h2><p>At the Oasis she introduces herself to Mathew as Espera Token. She tells Leon of a pact and a persistent voice, saying she does not understand what her patron wants. The public conversation does not identify that patron or resolve its motives.</p><h2>Trust comes slowly</h2><p>Espera prefers reluctant acquaintances to Kaia’s talk of friendship and sisterhood. She questions what others want in exchange for help, while Kaia keeps offering companionship. Mathew answers her distrust with his own memories of being raised by a village.</p><h2>Memories with gaps</h2><p>She identifies herself with the drow and says she has no memories from before the age of two hundred. Her explanation of elven adulthood is her cultural account, not a universal rule for every people in Gedankin.</p>",
       "sources": [
-        "2024-rp.md — 18–24 September 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 18–24 September 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Espera Token"
       ]
     },
     {
@@ -502,14 +542,22 @@ window.GedankinData = {
         "Gedankin",
         "Kobolds",
         "Icyscale Roost",
-        "Espera"
+        "Espera",
+        "Kaia",
+        "Huntrix",
+        "Mathew Bear",
+        "Golden"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Finding a way inside</h2><p>Kaia accompanies Espera’s return to the glacier and helps discover an underwater fissure before the company finds another entrance.</p><h2>Four prisoners freed</h2><p>After the fight with the dragonkin escort, Kaia sunders the prisoners’ chain. Four kobolds are freed and guide the company to Icyscale Roost. Their immediate rescue is confirmed; the fall of the wider tyranny is not.</p>",
+      "body": "<h2>Finding a way inside</h2><p>Kaia accompanies Espera’s return to the glacier and helps discover an underwater fissure before the company finds another entrance.</p><h2>Four prisoners freed</h2><p>After the fight with the dragonkin escort, Kaia sunders the prisoners’ chain. Four kobolds are freed and guide the company to Icyscale Roost. Their immediate rescue is confirmed; the fall of the wider tyranny is not.</p><h2>A hunter who wants an audience</h2><p>Kaia rehearses with her scythe, shines with golden light and imagines crowds of fans. She uses <a href=\"#huntrix\">Huntrix</a> as a working group name and describes protecting people and hunting demons as its purpose. Leon accompanies a rehearsal on harp; no permanent band or public festival is established.</p><h2>A reluctant partner</h2><p>She calls Espera a friend and future sister. Espera resists those labels and distrusts easy offers of help. Kaia promises to stand beside her and eventually agrees to some silence. Their later shared rescue does not erase the differences in this beginning.</p><h2>Cooperation without an oath</h2><p>Kaia and Mathew Bear shake hands on cooperation between her hunters and his proposed Wildlife Watch. She defers his initiation oath. Her ambitions to raise a barrier against evil remain ambitions, not a completed defence or an established cosmological rule.</p>",
       "sources": [
-        "2024-rp.md — 24 September 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 24 September 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Kaia"
       ]
     },
     {
@@ -607,6 +655,9 @@ window.GedankinData = {
       "sources": [
         "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2024-10-05 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Rhalor Valtaryn"
       ]
     },
     {
@@ -675,17 +726,24 @@ window.GedankinData = {
         "Athkatla",
         "Ossimandi",
         "Fayn",
-        "Leon Zantharis"
+        "Leon Zantharis",
+        "Vaerik"
       ],
       "facts": {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis",
-        "Full name": "Ossimandi"
+        "Full name": "Ossimandi",
+        "Kind": "Gnoll, as described in the Oasis scene"
       },
-      "body": "<h2>Peace offered at a distance</h2><p>Ossi initially recoils from Atrax and insists he will not go back. Atrax keeps his distance, warns him about the edge and offers a route to water without demanding payment. Ossi cautiously follows.</p><h2>A fresh start</h2><p>He gives his name as Ossi and says he has been carted to Athkatla for entertainment. The account does not identify everyone responsible for that past. Atrax’s assurances about returning home are his understanding, not a demonstrated law; for Ossi they nevertheless offer hope of freedom.</p><h2>Freedom is not another master</h2><p>As Atrax describes Cala’s task, Ossi challenges the idea of becoming a god’s pet after gaining his freedom. He reaches the Oasis, thanks his guide and apologises for his first response. Accepting help does not settle every question about whose cause he will serve.</p><h2>A name and a first lesson</h2><p>At the Oasis, he gives his name as Ossimandi, with Ossi as the familiar form. Leon’s insistence on reading lessons reminds him of a Ringmaster; Ossi initially refuses, then decides to try. Leon writes Ossi’s and Fayn’s names. Ossi leaves still puzzled, and Fayn follows, having promised protection and offered friendship.</p>",
+      "body": "<h2>Peace offered at a distance</h2><p>Ossi initially recoils from Atrax and insists he will not go back. Atrax keeps his distance, warns him about the edge and offers a route to water without demanding payment. Ossi cautiously follows.</p><h2>A fresh start</h2><p>He gives his name as Ossi and says he has been carted to Athkatla for entertainment. The account does not identify everyone responsible for that past. Atrax’s assurances about returning home are his understanding, not a demonstrated law; for Ossi they nevertheless offer hope of freedom.</p><h2>Freedom is not another master</h2><p>As Atrax describes Cala’s task, Ossi challenges the idea of becoming a god’s pet after gaining his freedom. He reaches the Oasis, thanks his guide and apologises for his first response. Accepting help does not settle every question about whose cause he will serve.</p><h2>A name and a first lesson</h2><p>At the Oasis, he gives his name as Ossimandi, with Ossi as the familiar form. Leon’s insistence on reading lessons reminds him of a Ringmaster; Ossi initially refuses, then decides to try. Leon writes Ossi’s and Fayn’s names. Ossi leaves still puzzled, and Fayn follows, having promised protection and offered friendship.</p><h2>Freedom needs shelter too</h2><p>Ossi struggles with tent poles and rope at the camp’s edge until Vaerik helps. He describes being kept in a cage for entertainment and choosing an offered escape. He says he wants freedom, not another life of hurting others. Vaerik offers training and lends him a hut while offering to finish the tent. Ossi accepts the shelter; no completed training is shown.</p>",
       "sources": [
         "gedankin-the-shore.md — 2026-03-25 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-09-13 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Ossi",
+        "Ossimandi"
       ]
     },
     {
@@ -701,15 +759,18 @@ window.GedankinData = {
         "Vespere",
         "Nnadunggisan",
         "Elements",
-        "Stoneborn"
+        "Stoneborn",
+        "Victor Ashstone",
+        "Sparring"
       ],
       "facts": {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis"
       },
-      "body": "<h2>A stoneborn on the sand</h2><p>Manzur wakes at the Shore, disoriented but unharmed. Vespere’s sudden appearance and offers of surgery do little to calm him; he repeatedly declines treatment but accepts her guidance to the Oasis. He treats sand as Earth, one of the elements he reveres.</p><h2>An oath carried from elsewhere</h2><p>He later tells Gisan that magic awakened him from a statue’s vigilance during a siege of the Host Temple of the Elements. He names Earth, Air, Fire and Water as the foundation of his oath. That origin is his testimony; it does not place his former temple in Gedankin.</p><h2>Offering the next welcome</h2><p>When <a href=\"#nnadunggisan\">Nnadunggisan</a> arrives, Manzur offers company, water and the route he knows. He admits he has never visited Khars Madar and will not pretend to guide someone there. He also makes clear that he is no acolyte of Cala and has not met her; what he reports about her comes from others.</p><h2>Perseverance, not splendour</h2><p>He checks his pace so Gisan can keep up, and brings him to the Oasis. His hopes of improving its meagre supplies remain intentions. The scene establishes a welcome and a new acquaintance, not a completed building programme or a new allegiance.</p>",
+      "body": "<h2>A stoneborn on the sand</h2><p>Manzur wakes at the Shore, disoriented but unharmed. Vespere’s sudden appearance and offers of surgery do little to calm him; he repeatedly declines treatment but accepts her guidance to the Oasis. He treats sand as Earth, one of the elements he reveres.</p><h2>An oath carried from elsewhere</h2><p>He later tells Gisan that magic awakened him from a statue’s vigilance during a siege of the Host Temple of the Elements. He names Earth, Air, Fire and Water as the foundation of his oath. That origin is his testimony; it does not place his former temple in Gedankin.</p><h2>Offering the next welcome</h2><p>When <a href=\"#nnadunggisan\">Nnadunggisan</a> arrives, Manzur offers company, water and the route he knows. He admits he has never visited Khars Madar and will not pretend to guide someone there. He also makes clear that he is no acolyte of Cala and has not met her; what he reports about her comes from others.</p><h2>Perseverance, not splendour</h2><p>He checks his pace so Gisan can keep up, and brings him to the Oasis. His hopes of improving its meagre supplies remain intentions. The scene establishes a welcome and a new acquaintance, not a completed building programme or a new allegiance.</p><h2>Standards for the living and the dead</h2><p>Manzur challenges Aurora Luminaria over opening burial places and awakening their guardians. She defends destroying the undead as restoring the dead to rest. He questions whether her company first examined what it was unsealing. Both leave unconvinced; neither view is adopted as an authoritative account of every tomb.</p><h2>A friend’s blades</h2><p>After describing defeat in an unfamiliar arena, Manzur accepts Victor’s offer of a friendly spar. He repeatedly knocks Victor down, heals him after the first fall and pauses to let him recover. They compare Victor’s spectral defence with Vaerik’s techniques, then thank one another.</p><h2>What time is for</h2><p>In a discussion with Vaerik and Victor, Manzur answers fatalism with the belief that short lives still leave room for kindness, love and growth. The statement stands beside, rather than erasing, his strict demands about the treatment of the dead.</p>",
       "sources": [
-        "gedankin-the-shore.md — 2026-06-01–2026-09-22 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2026-06-01–2026-09-22 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-06-07–2026-07-31 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -733,6 +794,9 @@ window.GedankinData = {
       "body": "<h2>First impressions</h2><p>Nnadunggisan wakes at the waterless Shore and asks whether it is the afterlife. He introduces himself to Manzur with Gisan as a shorter name. He says he has moved from mines through several temples, without staying long in any of them.</p><h2>Questions before allegiance</h2><p>He asks about Cala, immortality and a proper town. Manzur declines to promise immortality or lead him to a city he has never visited. Gisan follows him to the Oasis instead, welcoming the prospect of new faces without old grudges.</p><h2>A possible contribution</h2><p>Hearing Manzur’s account of the Albayt’s replenishing rooms, Gisan suggests rotating groups through the fighting and healing. This is a suggestion, not an operation shown to have been carried out. At the Oasis he thanks Manzur and goes to find a drink.</p>",
       "sources": [
         "gedankin-the-shore.md — 2026-09-22 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Gisan"
       ]
     },
     {
@@ -780,6 +844,9 @@ window.GedankinData = {
       "body": "<h2>A gentle hand</h2><p>Shinjurō offers Kurze Koza a large clawed hand when the orc awakens. He calls their situation a new beginning, while readily admitting he does not know what that beginning entails.</p><h2>Knowing the limits of his knowledge</h2><p>He says he has not ventured far beyond the Oasis and hopes returning travellers can tell him more. He does not claim to be the oldest resident or to know all the land’s dangers.</p><h2>A watcher’s purpose</h2><p>He explains that he came to the Shore to check for arrivals before dehydration could claim them. He points out the distant peaks as a landmark, then takes Kurze to the temporary lean-tos and unfinished longhouse.</p>",
       "sources": [
         "gedankin-the-shore.md — 2026-01-23 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Shinjuro"
       ]
     },
     {
@@ -840,15 +907,21 @@ window.GedankinData = {
         "Wandering Wares",
         "Wandering Emporium",
         "Wadi",
-        "Seven Sands"
+        "Seven Sands",
+        "Zinichi",
+        "Dinar",
+        "Ruined House and Crypt"
       ],
       "facts": {
         "World": "Gedankin",
-        "Recorded at": "The Oasis"
+        "Recorded at": "The Oasis",
+        "Kind": "Half-elf, as described in the quest account"
       },
-      "body": "<h2>Wares on the sands</h2><p>Salim arrives at the Oasis with his camel Wadi and a flying carpet. He introduces his trade as Wandering Wares, also calling it the Wandering Emporium. He offers potions, orbs and other magical goods. His sales claims remain his claims; the scene does show Irenhour buying a lantern and Kara obtaining a diamond.</p><h2>Supplies for a settlement</h2><p>Irenhour asks for live goats, spices and wood. Salim hopes to find the goats on a later visit. This is an arrangement to seek supplies, not evidence that a herd arrived. His account of the Seven Sands offers a traveller’s perspective, without charting every place it can lead.</p><h2>Three cups of tea</h2><p>Salim invites Irenhour to share tea as a way to know one another. Irenhour offers water and berries, heats the pot with magic and pours. Their hospitality sits alongside the bargaining. Wadi’s reluctance to approach the distant structure is an observed reaction, not a proven explanation of its dangers.</p>",
+      "body": "<h2>Wares on the sands</h2><p>Salim arrives at the Oasis with his camel Wadi and a flying carpet. He introduces his trade as Wandering Wares, also calling it the Wandering Emporium. He offers potions, orbs and other magical goods. His sales claims remain his claims; the scene does show Irenhour buying a lantern and Kara obtaining a diamond.</p><h2>Supplies for a settlement</h2><p>Irenhour asks for live goats, spices and wood. Salim hopes to find the goats on a later visit. This is an arrangement to seek supplies, not evidence that a herd arrived. His account of the Seven Sands offers a traveller’s perspective, without charting every place it can lead.</p><h2>Three cups of tea</h2><p>Salim invites Irenhour to share tea as a way to know one another. Irenhour offers water and berries, heats the pot with magic and pours. Their hospitality sits alongside the bargaining. Wadi’s reluctance to approach the distant structure is an observed reaction, not a proven explanation of its dangers.</p><h2>A favour before the sale</h2><p>On a later visit, Salim sends Vaerik, Fife, Heih, Sombra and Vespere to investigate disturbing sounds at ruins along his route. He agrees to remain at the Oasis until they return, offering discounts or a dinar for those who make no purchase. The expedition escapes a collapsed crypt rather than clearing every danger.</p><h2>Keeping the bargain</h2><p>Back at camp he gives dinars to Vaerik and Sombra, sells Vespere a Bag of Holding and trades weapons with Manzur. Vaerik declines the helmet after probing its price. The exchange shows payment and trade, without proving Salim knew everything waiting below the ruins.</p><h2>Camels named in different visits</h2><p>The earlier tea scene names his camel Wadi; these later conversations call his mount Zinichi. The records do not explain whether the names refer to the same animal.</p>",
       "sources": [
-        "gedankin-the-oasis.md — 2024-11-02 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-11-02 (UTC posting dates; in-world dates unestablished).",
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-06-01 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -907,15 +980,180 @@ window.GedankinData = {
         "Leon",
         "Ossi",
         "Fayn",
-        "Reading"
+        "Reading",
+        "Kaia Veyra",
+        "Espera"
       ],
       "facts": {
         "World": "Gedankin",
         "Recorded at": "The Oasis"
       },
-      "body": "<h2>An introduction at the Oasis</h2><p>Leon introduces himself to Fayn as a businessman. Their conversation turns to hunting, friendship and Ossi’s difficulty reading.</p><h2>Learning on Ossi’s terms</h2><p>Leon presses the benefits of literacy. Ossi initially resists, saying he will ask when ready, and compares the pressure to his former Ringmaster. Leon denies that role. Ossi then chooses to try learning; Leon writes O-S-S-I and F-A-Y-N and begins explaining the letters.</p><h2>A beginning, not mastery</h2><p>Ossi leaves still confused, with Fayn following. The exchange starts a lesson but does not establish lasting tuition, completed literacy or authority over either traveller.</p>",
+      "body": "<h2>An introduction at the Oasis</h2><p>Leon introduces himself to Fayn as a businessman. Their conversation turns to hunting, friendship and Ossi’s difficulty reading.</p><h2>Learning on Ossi’s terms</h2><p>Leon presses the benefits of literacy. Ossi initially resists, saying he will ask when ready, and compares the pressure to his former Ringmaster. Leon denies that role. Ossi then chooses to try learning; Leon writes O-S-S-I and F-A-Y-N and begins explaining the letters.</p><h2>A beginning, not mastery</h2><p>Ossi leaves still confused, with Fayn following. The exchange starts a lesson but does not establish lasting tuition, completed literacy or authority over either traveller.</p><h2>Before the reading lesson</h2><p>Leon discusses pacts with Espera, saying his own has lasted seven or eight years. He offers sympathy while her patron’s motives remain unknown. Later he plays harp while Kaia rehearses a scythe dance. This is an accompaniment, not confirmed membership in her planned group.</p>",
       "sources": [
-        "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Leon"
+      ]
+    },
+    {
+      "id": "myllo",
+      "title": "Myllo",
+      "type": "Satarre · seeker of knowledge",
+      "summary": "A proud traveller studying an elusive tome, warning of a cosmic Father whose power he says he wants to escape.",
+      "dek": "A proud traveller studying an elusive tome, warning of a cosmic Father whose power he says he wants to escape.",
+      "tags": [
+        "Gedankin",
+        "ai-Myllorpaek",
+        "Satarre",
+        "Sightless",
+        "Heih",
+        "Ryuske Kaslana"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Self-described kind": "Satarre",
+        "Known as": "Myllo"
+      },
+      "body": "<h2>A name in the common tongue</h2><p>Myllo introduces himself by that name to Victor and later Ryuske. He identifies his kind as Satarre, objecting when Vespere calls him a fish. His contempt for the camp sits alongside a persistent search for knowledge and a wish for comfort.</p><h2>The book and the warning</h2><p>He tells <a href=\"#heih\">Heih</a> that he obtained a book belonging to his Father and hopes to recover the means of travelling between stars. He calls that Father the Sightless and He Who Blinks And Makes No More, describing a devourer of worlds. These are Myllo’s claims; they do not establish the cause of arrivals, a confirmed threat approaching Gedankin or the true nature of its cosmos.</p><h2>An absent companion</h2><p>When Myllo asks after the monk he spoke with, Vespere tells him Heih died in the desert. He calls the loss a shame and remembers Heih’s wisdom. The conversation follows the caravan death already recorded in the quest chronicle.</p><h2>Learning to listen</h2><p>After a vortex deposits him at the Oasis, he argues with <a href=\"#ryuske-kaslana\">Ryuske</a> about souls, magic and inherited knowledge. Ryuske demonstrates a martial hymn, winning a reluctant compliment. They discuss exchanging instruction, but the scene establishes no completed apprenticeship or safe translation of Myllo’s book.</p><h2>A journey proposed</h2><p>In July he agrees to follow Victor toward Khars Madar. Later that month he says he has not reached the city and needs a guide. Their earlier departure is not treated as proof of a completed visit.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-06-04–2026-07-25 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "victor-ashstone",
+      "title": "Victor Ashstone",
+      "type": "Crypt guard · mounted fighter",
+      "summary": "A guardian of the dead who names his duty while refusing Vaerik’s suggestion that it makes him a god.",
+      "dek": "A guardian of the dead who names his duty while refusing Vaerik’s suggestion that it makes him a god.",
+      "tags": [
+        "Gedankin",
+        "Victor",
+        "Vik",
+        "Crypt guard",
+        "Manzur",
+        "Vaerik"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Self-described duty": "Guarding the dead",
+        "Divinity": "Denies being a god"
+      },
+      "body": "<h2>The crypt guard</h2><p>Victor names himself a crypt guard, charged with watching those who should remain at rest. He says his former life ended when he took on this mantle. Vaerik questions the authority to decide who returns; Victor argues that some hateful souls and rulers seeking unending life should not. He explicitly denies being a god.</p><h2>At the Oasis</h2><p>His hollow voice, unusual eyes and uncanny presence draw questions from Myllo, Vespere and Vaerik. He describes duty rather than revenge as his purpose. Neither their suspicions nor his title establishes the identity of every spirit or power involved in his condition.</p><h2>Testing the blades</h2><p>Victor offers <a href=\"#manzur\">Manzur</a> a friendly spar. Manzur repeatedly knocks him down and heals him after the first fall, then gives him time to recover. Spectral protection softens Victor’s injuries. He explains the protection as himself defending his mortal shell, rather than another fighter’s arcane trick. Both end the bout on speaking terms and thank one another.</p><h2>A watcher on horseback</h2><p>He patrols near the Oasis with his horse and speaks of mounted techniques not demonstrated in the spar. The encounter does not kill him, permanently injure him or settle his debate with Vaerik.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-07-09–2026-07-31 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "mathew-bear",
+      "title": "Mathew Bear",
+      "type": "Tiefling druid · would-be Watch founder",
+      "summary": "Bear Man seeks a new Wildlife Watch, balancing the protection of living things with his ambitions in trade.",
+      "dek": "Bear Man seeks a new Wildlife Watch, balancing the protection of living things with his ambitions in trade.",
+      "tags": [
+        "Gedankin",
+        "Matt Bear",
+        "Camel Matt",
+        "Bear Man",
+        "Wildlife Watch",
+        "Kaia Veyra",
+        "Espera"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Known as": "Bear Man",
+        "Kind": "Self-described tiefling druid",
+        "Local Watch": "Proposed revival"
+      },
+      "body": "<h2>Bear Man at the water</h2><p>Mathew introduces himself as Mathew Bear, also known as Bear Man. He calls himself a tiefling and a druid, and transforms into a camel before returning to his usual form. These appearances belong to the same conversation, rather than separate people.</p><h2>A watch to rebuild</h2><p>He says he led a <a href=\"#wildlife-watch\">Wildlife Watch</a> back home and wants to recreate it here. For him, balance includes the small creatures and plants around the Oasis. He agrees to cooperate with Kaia’s demon hunters; her offer of payment is not his stated motive.</p><h2>The oath deferred</h2><p>He offers to teach Kaia a watcher’s oath of neutrality and balance before teaching her his art. She postpones, and he agrees to wait. No oath is taken and no transformation is taught to her in this scene.</p><h2>Goodness and restraint</h2><p><a href=\"#espera\">Espera</a> challenges his trust in others. Mathew answers with his memory of villagers raising him after his parents’ deaths, refusing to trade him away for wealth. He also recalls raising a drow he calls Fish, who remains in his home continent. His account does not place that daughter or his former village in Gedankin.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Matt Bear",
+        "Bear Man",
+        "Camel Matt"
+      ]
+    },
+    {
+      "id": "ryuske-kaslana",
+      "title": "Ryuske Kaslana",
+      "type": "Taoist swordsman · martial hymns",
+      "summary": "A traveller who brings music, martial practice and a willingness to welcome another displaced druid.",
+      "dek": "A traveller who brings music, martial practice and a willingness to welcome another displaced druid.",
+      "tags": [
+        "Gedankin",
+        "Ryuske",
+        "Ryu",
+        "Ryusuke",
+        "Mount Hua",
+        "Taoist"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Reported origin": "Central Plains · Mount Hua Sect"
+      },
+      "body": "<h2>The path of Mount Hua</h2><p>Ryuske, who also accepts Ryu, describes himself as a Taoist pursuing his path as a swordsman. He tells Ren of the Central Plains and the mountain monastery of the Mount Hua Sect. Those are his reported origins, not new locations on Gedankin’s map.</p><h2>A hymn demonstrated</h2><p>His flute interrupts <a href=\"#myllo\">Myllo’s</a> monologue. Their argument about souls and knowledge becomes a discussion of martial hymns passed from master to student. Using a stick as a sword, Ryuske demonstrates what he calls the first verse of a Mount Hua hymn. Myllo admits he is impressed. Tales of masters tearing dragons apart remain tales, not feats shown by Ryuske here.</p><h2>Another arrival</h2><p>He later greets <a href=\"#ren-gardner\">Ren</a>, asks whether he washed up at the Shore and insists they are of equal importance. His explanation that the arrivals were brought to fight a war is what he says he has been told; it does not override Cala’s denial of summoning them or resolve the crossing’s cause.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-07-25–2026-09-21 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Ryu",
+        "Ryuske",
+        "Ryusuke"
+      ]
+    },
+    {
+      "id": "ren-gardner",
+      "title": "Ren Gardner",
+      "type": "Half-elf · nomadic druid",
+      "summary": "A displaced druid seeking a conversation, a place in the camp and an explanation for the war he is told about.",
+      "dek": "A displaced druid seeking a conversation, a place in the camp and an explanation for the war he is told about.",
+      "tags": [
+        "Gedankin",
+        "Ren",
+        "Ryuske Kaslana",
+        "Harshire",
+        "Druid"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Reported origin": "Harshire"
+      },
+      "body": "<h2>Unplanned arrival</h2><p>Ren appears at the Oasis in a heavy cloak unsuited to the heat. He introduces himself as a nomadic druid whose arrival was unplanned and asks <a href=\"#ryuske-kaslana\">Ryuske</a> to fill the gaps in his understanding.</p><h2>Harshire remembered</h2><p>He names Harshire as his former home, calling it one of the last bastions for all races. He doubts he can return at present. That is his recollection and belief, rather than a mapped Gedankin settlement or a settled law of return.</p><h2>The value of a druid</h2><p>Ren describes druids being distrusted or treated as commodities in the society he knew. Ryuske offers a different view of them as sages and insists Ren matters as much as he does. Ren then asks why the reported war began and whether druids took part. The available exchange does not answer those questions.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-09-21 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Ren"
+      ]
+    },
+    {
+      "id": "sahira-al-azar",
+      "title": "Sahira al-Azar",
+      "type": "Rimekin · artificer",
+      "summary": "An artificer gathering information and seeking the space and materials that camp life cannot supply.",
+      "dek": "An artificer gathering information and seeking the space and materials that camp life cannot supply.",
+      "tags": [
+        "Gedankin",
+        "Sahira",
+        "Artificer",
+        "Aurora Luminaria",
+        "Memnon",
+        "Calimshan"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Reported origin": "Memnon · Calimshan",
+        "Record distinction": "Separate from Saira"
+      },
+      "body": "<h2>A workshop wanted</h2><p>Sahira works on her armour and gauntlets beneath a lean-to, frustrated by the lack of a proper workshop. She says tools alone are not enough: she needs materials and room for several projects.</p><h2>Introductions after the dungeon</h2><p>She introduces herself to <a href=\"#aurora\">Aurora Luminaria</a> as Sahira al-Azar, from Memnon in Calimshan. They discuss healing, military leadership and their recent dungeon fighting. Sahira credits strategy for their improved progress; her belief that they were the first to reach that far remains her understanding.</p><h2>Learning the city by report</h2><p>She asks Aurora to repeat what Vespere said about Khars Madar. This is information passed between travellers, not Sahira’s own documented city visit. Sahira and the caravan survivor <a href=\"#saira\">Saira</a> have separate records.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-06-03 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Sahira"
       ]
     }
   ],
@@ -943,6 +1181,9 @@ window.GedankinData = {
       "sources": [
         "2024-rp.md — 28 September 2024; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2024-09-25–2026-09-22 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "The Strange Shore"
       ]
     },
     {
@@ -960,11 +1201,13 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Shelter in the desert</h2><p>Cala reveals an elliptical oasis between two dunes, with palms, reeds and lean-tos. She calls it her creation and offers it as a place to meet the company’s physical needs.</p><h2>A gathering place</h2><p>The Oasis receives travellers, wounded visitors and pleas for help. Zrurg reaches it seeking aid for the Blue Scales. Later expeditions depart for the city and mountains; by September the settlement includes unfinished palm-log construction.</p><h2>Building a welcome</h2><p>Arrivals from the Shore repeatedly find temporary lean-tos and a half-built longhouse. Atrax patrols the perimeter, guides newcomers and describes improving the shelter one small task at a time. Bramble’s offered flower and Manzur’s later welcome of Gisan show a camp sustained by ordinary acts as well as expeditions.</p><h2>A grove promised</h2><p>Ashbriar fears that cutting palms will undermine the refuge; Aurora Luminaria promises to help restore trees. His account of the damage and her promised remedy are preserved as warning and intention, without inventing a completed planting or a final fate for the water.</p><h2>The beginnings of a home</h2><p>The early camp has music, shared fruit and olive branches offered in peace. Eudora plays while Sombra feeds companions and Rhalor tries to make peace with their circumstances. On 6–7 October 2024, in the posting record, Irenhour and Atrax begin preparing a common longhouse, intending to preserve denser palms for shade. This records the beginning of construction, not a completed building.</p><h2>A place for survivors</h2><p><a href=\"#khemset\">Khemset</a> returns wounded from the Albayt with Atrax and Irenhour. Sombra offers food and the early Aurora offers care. Khemset’s account of lost companions and a lantern left inside precedes the later recovery of Luxcit.</p><h2>Trade and small kindnesses</h2><p><a href=\"#salim-jalusiwa\">Salim</a> brings wares and shares tea; requested goats remain a hoped-for delivery. Bramble cools the struggling treants. Later, <a href=\"#leon-zantharis\">Leon</a> begins a reading lesson after Ossi chooses to try, while <a href=\"#fayn\">Fayn</a> offers friendship. The refuge is built through these ordinary encounters as well as expeditions.</p>",
+      "body": "<h2>Shelter in the desert</h2><p>Cala reveals an elliptical oasis between two dunes, with palms, reeds and lean-tos. She calls it her creation and offers it as a place to meet the company’s physical needs.</p><h2>A gathering place</h2><p>The Oasis receives travellers, wounded visitors and pleas for help. Zrurg reaches it seeking aid for the Blue Scales. Later expeditions depart for the city and mountains; by September the settlement includes unfinished palm-log construction.</p><h2>Building a welcome</h2><p>Arrivals from the Shore repeatedly find temporary lean-tos and a half-built longhouse. Atrax patrols the perimeter, guides newcomers and describes improving the shelter one small task at a time. Bramble’s offered flower and Manzur’s later welcome of Gisan show a camp sustained by ordinary acts as well as expeditions.</p><h2>A grove promised</h2><p>Ashbriar fears that cutting palms will undermine the refuge; Aurora Luminaria promises to help restore trees. His account of the damage and her promised remedy are preserved as warning and intention, without inventing a completed planting or a final fate for the water.</p><h2>The beginnings of a home</h2><p>The early camp has music, shared fruit and olive branches offered in peace. Eudora plays while Sombra feeds companions and Rhalor tries to make peace with their circumstances. On 6–7 October 2024, in the posting record, Irenhour and Atrax begin preparing a common longhouse, intending to preserve denser palms for shade. This records the beginning of construction, not a completed building.</p><h2>A place for survivors</h2><p><a href=\"#khemset\">Khemset</a> returns wounded from the Albayt with Atrax and Irenhour. Sombra offers food and the early Aurora offers care. Khemset’s account of lost companions and a lantern left inside precedes the later recovery of Luxcit.</p><h2>Trade and small kindnesses</h2><p><a href=\"#salim-jalusiwa\">Salim</a> brings wares and shares tea; requested goats remain a hoped-for delivery. Bramble cools the struggling treants. Later, <a href=\"#leon-zantharis\">Leon</a> begins a reading lesson after Ossi chooses to try, while <a href=\"#fayn\">Fayn</a> offers friendship. The refuge is built through these ordinary encounters as well as expeditions.</p><h2>The expedition that came back</h2><p>Salim sends a company to investigate a ruined house beyond the Shore. They survive quicksand and a collapsing crypt, then return to rewards and trade. The trip opens a new chapter for the camp without removing all dangers at the site.</p><h2>Arguments around the water</h2><p>Myllo warns of a cosmic Father, Victor names his duty as a crypt guard, and Manzur disputes Aurora’s approach to sealed tombs. The refuge holds competing beliefs; their conversations do not make one person’s explanation the law of this world.</p><h2>Practice, partnership and shelter</h2><p>Ryuske demonstrates a martial hymn. Manzur and Victor spar, heal and part amicably. Kaia’s proposed Huntrix and Mathew’s hoped-for Wildlife Watch begin with conversation and a handshake, while Espera remains wary. Vaerik lends Ossi his hut, and Ryuske welcomes Ren. Building a community remains ongoing work.</p>",
       "sources": [
         "2024-rp.md — 4 October 2024–18 September 2026; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2024-10-07–2026-09-22 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2024-10-05–2026-09-03 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-10-05–2026-09-03 (UTC posting dates; in-world dates unestablished).",
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-06-01–2026-09-21 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -1006,9 +1249,10 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>The quarters</h2><p>House Tayyeb, House Adijit and House Nazif occupy three sides of the ziggurat. The fourth is the Free Quarter, with livestock, merchants, taverns and hostels. These descriptions come from visits and Chayma’s explanations.</p><h2>The price of entry</h2><p>Entry requires a dinar. The coins bear animal emblems associated with the houses: scorpion, rattlesnake and hyena. House affiliation can affect access; newcomers do not automatically belong to any house.</p><h2>Lives beneath the politics</h2><p>The city offers trade, work and shelter, but also ambush, coercion and violent arena entertainment. Chayma’s recovering hostel and the disputes surrounding Vaerik’s victory show how those pressures touch ordinary residents.</p>",
+      "body": "<h2>The quarters</h2><p>House Tayyeb, House Adijit and House Nazif occupy three sides of the ziggurat. The fourth is the Free Quarter, with livestock, merchants, taverns and hostels. These descriptions come from visits and Chayma’s explanations.</p><h2>The price of entry</h2><p>Entry requires a dinar. The coins bear animal emblems associated with the houses: scorpion, rattlesnake and hyena. House affiliation can affect access; newcomers do not automatically belong to any house.</p><h2>Lives beneath the politics</h2><p>The city offers trade, work and shelter, but also ambush, coercion and violent arena entertainment. Chayma’s recovering hostel and the disputes surrounding Vaerik’s victory show how those pressures touch ordinary residents.</p><h2>Coins earned beyond the walls</h2><p>After the ruins expedition, Salim awards dinars to Vaerik and Sombra. Sombra describes them as a means of entering the city without the escort they previously had. This gives their search for trade and equipment a connection to the dangers outside the city.</p>",
       "sources": [
-        "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-oasis.md — 2026-06-01 (UTC posting dates; in-world dates unestablished)."
       ],
       "image": "assets/khars-madar.png",
       "imageLayout": "landscape-hero",
@@ -1131,6 +1375,9 @@ window.GedankinData = {
         "Gedankin.png — world map supplied by the user.",
         "gedankin-the-shore.md — 2025-12-07–2026-09-22 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2024-11-02 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "aliases": [
+        "Seven Sands"
       ]
     },
     {
@@ -1158,15 +1405,17 @@ window.GedankinData = {
       "dek": "A marked hazard on the eastern side of the northern desert.",
       "tags": [
         "Gedankin",
-        "World map"
+        "World map",
+        "Mirage"
       ],
       "facts": {
         "World": "Gedankin",
         "Record": "Map landmark"
       },
-      "body": "<h2>On the map</h2><p>A marked hazard on the eastern side of the northern desert.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
+      "body": "<h2>On the map</h2><p>A marked hazard on the eastern side of the northern desert.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p><h2>A hazard encountered</h2><p>During Salim’s ruins expedition, a convincing vision of another oasis dissolves and leaves the company caught in quicksand. Vaerik escapes first and pulls Fife and Vespere free; Sombra and Heih also reach firm ground. The exact relationship between that pit and the hazard marked on this map has not been established.</p>",
       "sources": [
-        "Gedankin.png — world map supplied by the user."
+        "Gedankin.png — world map supplied by the user.",
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -1185,6 +1434,30 @@ window.GedankinData = {
       "body": "<h2>On the map</h2><p>A landmark marked at the eastern end of the mapped desert route.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
       "sources": [
         "Gedankin.png — world map supplied by the user."
+      ]
+    },
+    {
+      "id": "ruined-house-crypt",
+      "title": "Ruined House and Crypt",
+      "type": "Ruins · expedition site",
+      "summary": "A shattered house where burrowing creatures expose a tomb passage, later sealed by a collapse.",
+      "dek": "A shattered house where burrowing creatures expose a tomb passage, later sealed by a collapse.",
+      "tags": [
+        "Gedankin",
+        "Ruined house",
+        "Crypt",
+        "Salim’s ruins",
+        "Tombs"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Name": "Descriptive label; original name unrecorded",
+        "Last shown condition": "Entrance collapsed",
+        "Map position": "Unconfirmed"
+      },
+      "body": "<h2>The merchant’s request</h2><p><a href=\"#salim-jalusiwa\">Salim</a> reports disturbing sounds at ruins on his route and asks the company to investigate. His directions lead beyond the Shore in the opposite general direction from their earlier journeys. The exact map position is unconfirmed; this descriptive title does not establish Salim’s ownership.</p><h2>Creatures in the broken house</h2><p>After escaping a mirage and quicksand, the party reaches the remains of a house on a rocky outcrop. They find three burned, red-cloaked bodies, one bearing a wreath, crossed swords and an eight-pointed star. No faction is identified. Three small shelled creatures shelter inside; a much larger one breaks through the ground, then leaves with them unharmed after the party backs away.</p><h2>The passage below</h2><p>The disturbance exposes a bedrock corridor lined with engraved sarcophagi. Some carry the star-and-swords emblem and others a tree. Vaerik opens several, taking a ring and a blue bottle. Opening the tree-marked tomb is followed by the skeletons rising and attacking.</p><h2>Escape, not clearance</h2><p>Exploding skeletons destabilise the entrance as more undead approach. The company escapes before it caves in; Sombra’s summoned fairy is no longer visible. The record establishes neither the destruction of all undead nor the spirit’s permanent death. No confirmed link joins this site to the separately marked <a href=\"#mausoleum\">Mausoleum</a>.</p>",
+      "sources": [
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished)."
       ]
     }
   ],
@@ -1266,6 +1539,54 @@ window.GedankinData = {
       "body": "<h2>The appeal</h2><p>Zrurg reaches the Oasis injured and says his people live at Bigrock Purple Mountain. He reports disappearances and a dangerous ruler; not every reported cause is independently witnessed.</p><h2>Freedom remains unfinished</h2><p>Later, Zrurg and Blotlox thank travellers who fight alongside freedom-seeking kobolds. Four other prisoners are freed in a subsequent expedition. These successes do not establish the liberation of the entire tribe or the defeat of the overlord.</p>",
       "sources": [
         "2024-rp.md — 17 February 2025–24 September 2026; dates refer to UTC posting dates, not established in-world dates."
+      ]
+    },
+    {
+      "id": "huntrix",
+      "title": "Huntrix",
+      "type": "Proposed demon-hunting group",
+      "summary": "Kaia’s working name for a group combining demon hunting, performance and hopes of future fans.",
+      "dek": "Kaia’s working name for a group combining demon hunting, performance and hopes of future fans.",
+      "tags": [
+        "Gedankin",
+        "Kaia Veyra",
+        "Espera",
+        "Mathew Bear",
+        "Demon hunters"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Status": "Working name and developing proposal",
+        "Cooperation": "Kaia and Mathew agree to team up",
+        "Membership": "Kaia’s account; Espera remains reluctant"
+      },
+      "body": "<h2>A name still being made</h2><p><a href=\"#kaia-veyra\">Kaia</a> uses Huntrix while discussing a two-person group with <a href=\"#espera\">Espera</a>. She wants a band, a singer, a manager and an audience, as well as victories against demons. Leon plays harp while she rehearses, but this does not establish him as a permanent band member.</p><h2>Different ideas of partnership</h2><p>Kaia calls Espera a friend and future sister. Espera resists those labels and prefers reluctant acquaintances. They continue interacting, and later undertake the same kobold-rescue expedition, but the Oasis conversations do not show Espera accepting every role Kaia imagines for her.</p><h2>An offered alliance</h2><p><a href=\"#mathew-bear\">Mathew Bear</a> shakes hands with Kaia and agrees to cooperation between her hunters and his proposed Wildlife Watch. Kaia does not take his watcher’s oath. Her hopes of restoring a barrier and defeating demons remain goals, not completed achievements or confirmed rules of this world.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "wildlife-watch",
+      "title": "Wildlife Watch",
+      "type": "Proposed revival · balance and neutrality",
+      "summary": "Mathew Bear’s plan to rebuild the Watch he says he led in his former home.",
+      "dek": "Mathew Bear’s plan to rebuild the Watch he says he led in his former home.",
+      "tags": [
+        "Gedankin",
+        "Mathew Bear",
+        "Bear Man",
+        "Neutrality",
+        "Balance"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Local status": "Proposed revival",
+        "Founder by his account": "Mathew Bear",
+        "Initiation shown": "None"
+      },
+      "body": "<h2>Balance among living things</h2><p><a href=\"#mathew-bear\">Mathew</a> describes a Watch dedicated to balance between people and wildlife, from large animals to the smallest creatures and plants. He wants to establish it anew in Gedankin.</p><h2>The watcher’s oath</h2><p>He offers Kaia an oath of neutrality and balance as a condition of instruction. She defers and he accepts the delay. Their handshake agrees cooperation in demon hunting, not her initiation into the Watch.</p><h2>A beginning rather than an institution</h2><p>No completed local chapter, headquarters, roster or trained disciples are shown. Mathew’s accounts of his former Watch and students are retained as his history; they do not establish that those people arrived here.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished)."
       ]
     }
   ],
@@ -1406,7 +1727,12 @@ window.GedankinData = {
         "Katya",
         "Yaotl"
       ],
-      "location": "The Oasis / Bigrock Purple Mountain"
+      "location": "The Oasis / Bigrock Purple Mountain",
+      "relatedRecords": [
+        "oasis",
+        "bigrock-purple-mountain",
+        "blue-scales"
+      ]
     },
     {
       "id": "chayma-rescued",
@@ -1444,7 +1770,10 @@ window.GedankinData = {
         "Eudora",
         "Keagan SilentHammer"
       ],
-      "location": "The road to Khars Madar"
+      "location": "The road to Khars Madar",
+      "relatedRecords": [
+        "khars-madar"
+      ]
     },
     {
       "id": "street-ambush-in-khars",
@@ -1498,7 +1827,7 @@ window.GedankinData = {
         "World": "Gedankin",
         "Posting date (UTC)": "2026-06-11",
         "Location": "The desert caravan route",
-        "Participants": "Vaerik, Heih, Aurora, Fife, Azhar, Azlaan, Saira",
+        "Participants": "Vaerik, Heih, Aurora Luminaria, Fife, Azhar, Azlaan, Saira",
         "Chronology": "Posting date; in-world date unestablished"
       },
       "body": "<h2>The battle</h2><p>The journey begins in messages posted on 10 June and the decisive battle continues on 11 June. Vaerik kills a staff-bearing mage and breaks the staff; the attackers become uncontrolled rather than immediately disappearing.</p><h2>The losses</h2><p>Heih dies protecting Fife. Four caravan guards are dead and only two remain able to fight. Most noncombatants escape. Vaerik retrieves Heih’s body.</p><h2>Onward</h2><p>Azhar and Azlaan explain a burial custom of returning the dead to sand. Saira supplies dinars for entry into Khars Madar and finds lodging for the survivors.</p>",
@@ -1510,13 +1839,16 @@ window.GedankinData = {
       "people": [
         "Vaerik",
         "Heih",
-        "Aurora",
+        "Aurora Luminaria",
         "Fife",
         "Azhar",
         "Azlaan",
         "Saira"
       ],
-      "location": "The desert caravan route"
+      "location": "The desert caravan route",
+      "relatedRecords": [
+        "khars-madar"
+      ]
     },
     {
       "id": "hostel-rebuilt",
@@ -1582,7 +1914,11 @@ window.GedankinData = {
         "Eudora",
         "Sombra Estrellar"
       ],
-      "location": "Beneath the Tayyeb quarter"
+      "location": "Beneath the Tayyeb quarter",
+      "relatedRecords": [
+        "house-tayyeb",
+        "khars-madar"
+      ]
     },
     {
       "id": "nazif-admits-xuan-and-vespere",
@@ -1614,7 +1950,10 @@ window.GedankinData = {
         "Xuan",
         "Vespere"
       ],
-      "location": "Khars Madar"
+      "location": "Khars Madar",
+      "relatedRecords": [
+        "house-nazif"
+      ]
     },
     {
       "id": "vaerik-wins-adijit-bout",
@@ -1650,7 +1989,10 @@ window.GedankinData = {
         "Pac",
         "Arena Master"
       ],
-      "location": "House Adijit Arena"
+      "location": "House Adijit Arena",
+      "relatedRecords": [
+        "house-adijit"
+      ]
     },
     {
       "id": "kobold-freedom-skirmish",
@@ -1688,7 +2030,11 @@ window.GedankinData = {
         "Zrurg",
         "Blotlox"
       ],
-      "location": "The icy mountain"
+      "location": "The icy mountain",
+      "relatedRecords": [
+        "bigrock-purple-mountain",
+        "blue-scales"
+      ]
     },
     {
       "id": "four-kobolds-freed",
@@ -1724,7 +2070,12 @@ window.GedankinData = {
         "Sombra Estrellar",
         "Eudora"
       ],
-      "location": "The glacier / Icyscale Roost"
+      "location": "The glacier / Icyscale Roost",
+      "relatedRecords": [
+        "bigrock-purple-mountain",
+        "icyscale-roost",
+        "blue-scales"
+      ]
     },
     {
       "id": "sixtus-finds-a-guide",
@@ -2202,6 +2553,351 @@ window.GedankinData = {
         "Leon Zantharis"
       ],
       "location": "The Oasis"
+    },
+    {
+      "id": "salim-ruins-expedition",
+      "title": "The Company Escapes Salim’s Ruins Expedition",
+      "type": "Chronicle",
+      "summary": "A merchant’s request leads through quicksand to a crypt whose entrance collapses behind the escaping party.",
+      "dek": "A merchant’s request leads through quicksand to a crypt whose entrance collapses behind the escaping party.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Vaerik",
+        "Fife",
+        "Heih",
+        "Sombra Estrellar",
+        "Vespere",
+        "Salim Jalusiwa"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-05-28",
+        "Location": "Ruined House and Crypt",
+        "Participants": "Vaerik, Fife, Heih, Sombra Estrellar, Vespere, Salim Jalusiwa",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>The bargain</h2><p>Salim asks the company to investigate disturbing sounds at ruins on his route. He promises to stay for their return and offers favourable trade or a dinar.</p><h2>Mercy above ground</h2><p>A mirage lures the company into quicksand. Vaerik rescues Fife and Vespere after escaping; Heih and Sombra also get free. At the ruined house, Heih warns them to back away from small burrowing creatures. A larger one appears and leaves with them unharmed, exposing a passage.</p><h2>Disturbing the tombs</h2><p>Below, Vaerik opens sarcophagi and takes a ring and bottle. Skeletal defenders rise, then their explosions destabilise the entrance. The party escapes before it caves in. Sombra’s summoned fairy is no longer visible. More undead were approaching: the expedition does not clear the entire crypt.</p>",
+      "sources": [
+        "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-05-28-oasis-review",
+      "meta": "2026-05-28",
+      "people": [
+        "Vaerik",
+        "Fife",
+        "Heih",
+        "Sombra Estrellar",
+        "Vespere",
+        "Salim Jalusiwa"
+      ],
+      "location": "Ruined House and Crypt",
+      "relatedRecords": [
+        "oasis",
+        "quicksand",
+        "seven-sands"
+      ]
+    },
+    {
+      "id": "salim-ruins-rewards",
+      "title": "Salim Pays the Returning Investigators",
+      "type": "Chronicle",
+      "summary": "Earned dinars and completed purchases follow a dangerous expedition.",
+      "dek": "Earned dinars and completed purchases follow a dangerous expedition.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Salim Jalusiwa",
+        "Vaerik",
+        "Sombra Estrellar",
+        "Vespere",
+        "Manzur"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-06-01",
+        "Location": "The Oasis",
+        "Participants": "Salim Jalusiwa, Vaerik, Sombra Estrellar, Vespere, Manzur",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>A bargain kept</h2><p>Vaerik complains that Salim’s information was insufficient. Salim insists he gave what he knew, then gives Vaerik and Sombra dinars. Vespere buys a Bag of Holding and Manzur exchanges equipment for lighter swords. The scene shows payment and trade, not proof the merchant anticipated every danger or that the ruins were fully cleared.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-06-01 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-06-01-oasis-review",
+      "meta": "2026-06-01",
+      "people": [
+        "Salim Jalusiwa",
+        "Vaerik",
+        "Sombra Estrellar",
+        "Vespere",
+        "Manzur"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "heih-myllo-warning",
+      "title": "Heih Challenges Myllo’s Contempt",
+      "type": "Chronicle",
+      "summary": "Meditation at the Oasis becomes a conversation about knowledge, humility and a feared cosmic Father.",
+      "dek": "Meditation at the Oasis becomes a conversation about knowledge, humility and a feared cosmic Father.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Heih",
+        "Myllo"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-06-04",
+        "Location": "The Oasis",
+        "Participants": "Heih, Myllo",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>The value of a small life</h2><p>Myllo describes an elusive book and the destructive Father he says he is escaping. Heih challenges his dismissal of others and argues that even an ant can teach something. Myllo ends with a warning rather than a demonstrated prophecy. This conversation precedes Heih’s recorded death.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-06-04 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-06-04-oasis-review",
+      "meta": "2026-06-04",
+      "people": [
+        "Heih",
+        "Myllo"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "victor-names-crypt-guard-duty",
+      "title": "Victor Names His Duty as a Crypt Guard",
+      "type": "Chronicle",
+      "summary": "News of Heih’s death and questions about Victor’s condition lead to a dispute over who may return from death.",
+      "dek": "News of Heih’s death and questions about Victor’s condition lead to a dispute over who may return from death.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Victor Ashstone",
+        "Myllo",
+        "Vespere",
+        "Vaerik",
+        "Manzur"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-07-09–2026-07-10",
+        "Location": "The Oasis",
+        "Participants": "Victor Ashstone, Myllo, Vespere, Vaerik, Manzur",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>An absent monk</h2><p>Vespere tells Myllo that Heih died in the desert. Myllo recalls his wisdom. Victor describes guarding those who should remain at rest.</p><h2>A claim disputed</h2><p>In the following posting-day exchange, Victor calls himself a crypt guard. Vaerik challenges his authority and suggests it makes him divine; Victor denies being a god. Neither man accepts the other’s interpretation. The conversation does not establish a new death or resurrection.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-07-09–2026-07-10 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-07-09-oasis-review",
+      "meta": "2026-07-09–2026-07-10",
+      "people": [
+        "Victor Ashstone",
+        "Myllo",
+        "Vespere",
+        "Vaerik",
+        "Manzur"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "aurora-manzur-burial-debate",
+      "title": "Aurora and Manzur Dispute the Opening of Tombs",
+      "type": "Chronicle",
+      "summary": "Two opponents of undeath disagree over whether unsealing a tomb was necessary or reckless.",
+      "dek": "Two opponents of undeath disagree over whether unsealing a tomb was necessary or reckless.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Aurora Luminaria",
+        "Manzur"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-06-07",
+        "Location": "The Oasis",
+        "Participants": "Aurora Luminaria, Manzur",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Restoring rest, or breaking a seal?</h2><p>Aurora describes defeating a mummy and zombies after a magical puzzle. Manzur asks whether the group disturbed a seal that already held evil in check. She defends intervention as restoring the dead to rest. They part without agreement. The exchange supplies conflicting interpretations rather than an independently verified account of the whole expedition.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-06-07 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-06-07-oasis-review",
+      "meta": "2026-06-07",
+      "people": [
+        "Aurora Luminaria",
+        "Manzur"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "ryuske-demonstrates-martial-hymn",
+      "title": "Ryuske Demonstrates a Martial Hymn",
+      "type": "Chronicle",
+      "summary": "An argument over knowledge becomes a demonstration that earns Myllo’s reluctant respect.",
+      "dek": "An argument over knowledge becomes a demonstration that earns Myllo’s reluctant respect.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Ryuske Kaslana",
+        "Myllo",
+        "Victor Ashstone"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-07-25",
+        "Location": "The Oasis",
+        "Participants": "Ryuske Kaslana, Myllo, Victor Ashstone",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Words and footwork</h2><p>After a vortex deposits Myllo at the Oasis, his complaints lead to an argument with Ryuske about souls and magic. Ryuske demonstrates what he calls the first verse of a Mount Hua martial hymn using a wooden stick. Myllo admits he is impressed. An exchange of instruction is proposed, but neither safe translation of the tome nor completed teaching is shown.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-07-25 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-07-25-oasis-review",
+      "meta": "2026-07-25",
+      "people": [
+        "Ryuske Kaslana",
+        "Myllo",
+        "Victor Ashstone"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "manzur-victor-friendly-spar",
+      "title": "Manzur and Victor Test Their Blades",
+      "type": "Chronicle",
+      "summary": "A friendly spar exposes spectral protection and ends with thanks rather than a permanent injury.",
+      "dek": "A friendly spar exposes spectral protection and ends with thanks rather than a permanent injury.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Manzur",
+        "Victor Ashstone"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-07-31",
+        "Location": "The Oasis",
+        "Participants": "Manzur, Victor Ashstone",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Practice after defeat</h2><p>Manzur describes losing in an unfamiliar arena and accepts Victor’s invitation to spar. He repeatedly knocks Victor down, heals him after the first fall and allows recovery. Victor’s spectral defence softens blows. They discuss the difference between that protection and Vaerik’s techniques, then end the bout amicably.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-07-31 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-07-31-oasis-review",
+      "meta": "2026-07-31",
+      "people": [
+        "Manzur",
+        "Victor Ashstone"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "huntrix-watch-oasis-partnership",
+      "title": "Huntrix and Wildlife Watch Plans Take Shape",
+      "type": "Chronicle",
+      "summary": "Enthusiasm, distrust and a handshake begin two proposed groups without completing either organisation.",
+      "dek": "Enthusiasm, distrust and a handshake begin two proposed groups without completing either organisation.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Kaia Veyra",
+        "Espera",
+        "Mathew Bear",
+        "Leon Zantharis"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-08-25–2026-08-27",
+        "Location": "The Oasis",
+        "Participants": "Kaia Veyra, Espera, Mathew Bear, Leon Zantharis",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Reluctant company</h2><p>Kaia offers friendship and a demon-hunting partnership to Espera, who resists the labels and questions her motives. They continue spending time near one another.</p><h2>A handshake and a deferred oath</h2><p>Mathew Bear agrees to cooperate with Kaia’s hunters while planning a local Wildlife Watch. Kaia postpones his watcher’s oath. Leon later plays harp for her rehearsal. No completed band, Watch chapter, initiation or restored barrier is shown.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-08-25-oasis-review",
+      "meta": "2026-08-25–2026-08-27",
+      "people": [
+        "Kaia Veyra",
+        "Espera",
+        "Mathew Bear",
+        "Leon Zantharis"
+      ],
+      "location": "The Oasis",
+      "relatedRecords": [
+        "huntrix",
+        "wildlife-watch"
+      ]
+    },
+    {
+      "id": "vaerik-helps-ossi-shelter",
+      "title": "Vaerik Offers Ossi Shelter and Training",
+      "type": "Chronicle",
+      "summary": "Practical help with a tent becomes an offer of lodging and a conversation about protecting freedom.",
+      "dek": "Practical help with a tent becomes an offer of lodging and a conversation about protecting freedom.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Vaerik",
+        "Ossi “The Tynged”"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-09-13",
+        "Location": "The Oasis",
+        "Participants": "Vaerik, Ossi “The Tynged”",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>A place to sleep</h2><p>Vaerik helps untangle Ossi’s rope and hammer a stake. Ossi describes escaping a cage and says he no longer wants to hurt people. Vaerik offers training, then lends him a hut while offering to finish the tent. Ossi accepts the lodging. The scene does not show a completed tent or training course.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-09-13 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-09-13-oasis-review",
+      "meta": "2026-09-13",
+      "people": [
+        "Vaerik",
+        "Ossi “The Tynged”"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "ryuske-welcomes-ren",
+      "title": "Ryuske Welcomes Ren at the Oasis",
+      "type": "Chronicle",
+      "summary": "Two travellers exchange accounts of home and question the value and purpose of a displaced druid.",
+      "dek": "Two travellers exchange accounts of home and question the value and purpose of a displaced druid.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Ryuske Kaslana",
+        "Ren Gardner"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-09-21",
+        "Location": "The Oasis",
+        "Participants": "Ryuske Kaslana, Ren Gardner",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Equal importance</h2><p>Ren introduces himself as a lost nomadic druid from Harshire. Ryuske speaks of Mount Hua and insists the druid matters as much as he does. Their differing experiences shape what they expect from this place. Ren’s questions about the reported war remain unanswered in the available exchange.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-09-21 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-09-21-oasis-review",
+      "meta": "2026-09-21",
+      "people": [
+        "Ryuske Kaslana",
+        "Ren Gardner"
+      ],
+      "location": "The Oasis"
     }
   ],
   "quotes": [
@@ -2317,6 +3013,54 @@ window.GedankinData = {
       "speaker": "Fayn",
       "group": "The Oasis · Friendship",
       "article": "fayn"
+    },
+    {
+      "text": "Look not upon another's triumph and despair of thine own beginning; for every master was once a novice",
+      "speaker": "Heih",
+      "group": "The Oasis · Humility",
+      "article": "heih"
+    },
+    {
+      "text": "To give name over something gives you dominion over it.",
+      "speaker": "Myllo",
+      "group": "The Oasis · Knowledge",
+      "article": "myllo"
+    },
+    {
+      "text": "Even amid the ashes of destruction, the seeds of growth can be planted. No matter how all life ends, it is what we do with the time we have which truly matters.",
+      "speaker": "Manzur",
+      "group": "The Oasis · Life and kindness",
+      "article": "manzur"
+    },
+    {
+      "text": "I watch over those deemed to be at rest for eternity, or those who shouldn’t be brought back, that is what I am",
+      "speaker": "Victor Ashstone",
+      "group": "The Oasis · Duty",
+      "article": "victor-ashstone"
+    },
+    {
+      "text": "If someone needs help, and I can help them… then I help",
+      "speaker": "Kaia Veyra",
+      "group": "The Oasis · Helping others",
+      "article": "kaia-veyra"
+    },
+    {
+      "text": "I trust in nothing. Experience these last few years has taught me that I can only trust in myself.",
+      "speaker": "Espera",
+      "group": "The Oasis · Trust",
+      "article": "espera"
+    },
+    {
+      "text": "Well, I'm not looking for fans, I'm looking for balance.",
+      "speaker": "Mathew Bear",
+      "group": "The Oasis · Balance",
+      "article": "mathew-bear"
+    },
+    {
+      "text": "Strength isn't in who uses it, it is about who has it and chooses when they use it.",
+      "speaker": "Vaerik",
+      "group": "The Oasis · Freedom",
+      "article": "vaerik"
     }
   ],
   "articles": [

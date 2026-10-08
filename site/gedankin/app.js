@@ -63,8 +63,8 @@
       if(article.section) {const records=data[article.section.key];body=records.length ? (article.section.key==='quotes' ? quoteCards(records) : cards([...records].sort((a,b)=>article.section.key==='events' ? String(a.sort || '').localeCompare(String(b.sort || '')) : a.title.localeCompare(b.title)))) : empty(article.section);}
       if(article.id === 'location-directory') body='<p><a href="#world-map">Explore these places on the world map →</a></p>'+body;
       if (!article.section && article.category !== 'Timeline') {
-        const names = [article.title, ...(article.tags || [])].map(name=>name.toLocaleLowerCase());
-        const related = data.events.filter(event=>[...(event.people || []),event.location || ''].some(name=>names.includes(name.toLocaleLowerCase())));
+        const names = [article.title, ...(article.aliases || [])].map(name=>name.toLocaleLowerCase());
+        const related = data.events.filter(event=>(event.relatedRecords || []).includes(article.id) || [...(event.people || []),event.location || ''].some(name=>names.includes(name.toLocaleLowerCase())));
         if (related.length) body += '<h2>In the chronicle</h2>'+cards(related);
       }
       if (article.section?.key === 'events') body = '<p class="gedankin-date-note">Dates below are UTC message posting dates. In-world dates have not been established. This chronicle covers selected reviewed scenes; it is not a complete account of every session.</p>'+body;
@@ -85,7 +85,7 @@
     const needle=query.trim().toLocaleLowerCase();
     let pool=filter==='all' ? articles : data[filterKeys[filter]];
     if(filter==='all') pool=[...pool,...data.quotes.map(q=>({...q,title:q.speaker,summary:q.text,id:q.article || 'memorable-quotes',category:'Quotes'}))];
-    const results=pool.filter(a=>`${a.title || a.speaker} ${a.summary || ''} ${a.dek || ''} ${(a.tags || []).join(' ')} ${String(a.body || '').replace(/<[^>]*>/g,' ')} ${a.text || ''} ${a.group || ''} ${a.meta || ''} ${a.location || ''} ${(a.people || []).join(' ')} ${Object.values(a.facts || {}).join(' ')}`.toLocaleLowerCase().includes(needle));
+    const results=pool.filter(a=>`${a.title || a.speaker} ${a.summary || ''} ${a.dek || ''} ${(a.tags || []).join(' ')} ${(a.aliases || []).join(' ')} ${String(a.body || '').replace(/<[^>]*>/g,' ')} ${a.text || ''} ${a.group || ''} ${a.meta || ''} ${a.location || ''} ${(a.people || []).join(' ')} ${Object.values(a.facts || {}).join(' ')}`.toLocaleLowerCase().includes(needle));
     document.querySelector('#search-count').textContent=`${results.length} ${results.length===1?'result':'results'} in Gedankin`;
     document.querySelector('#search-results').innerHTML=results.length ? results.map(a=>`<button type="button" class="search-result" data-article="${esc(a.id || a.article || 'memorable-quotes')}"><small>${esc(a.category || 'Gedankin')}</small><strong>${esc(a.title || a.speaker)}</strong><p>${esc(a.summary || a.dek || a.text || '')}</p></button>`).join('') : '<p class="gedankin-empty">No matching records in Gedankin yet.</p>';
   }

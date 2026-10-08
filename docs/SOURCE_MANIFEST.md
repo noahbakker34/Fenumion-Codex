@@ -105,6 +105,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `gedankin-the-oasis.md` | User-supplied 8 Oct 2026; 3,159 messages | Selective Oasis history for Gedankin’s 2024 ruleset: five People records, ten biography supplements, six timeline entries and six exact quote excerpts. Oasis, Albayt and Seven Sands expanded. Coverage: `docs/GEDANKIN_OASIS_HISTORY.md`. Full export and message provenance stay local/private. |
 
+| Gedankin depth review: `gedankin-the-oasis.md` and `2024-rp.md` | Follow-up requested 8 Oct 2026 | Ten additional timeline entries, six People records, two explicitly developing groups, a ruined-house/crypt location, twelve biography supplements and eight exact quotes. Cross-source recovery of Salim’s expedition and rewards; public testimony remains attributed. Coverage and unresolved points: `docs/GEDANKIN_DEPTH_REVIEW.md`. Evidence ledger stays local/private. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

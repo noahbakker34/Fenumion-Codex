@@ -3,6 +3,53 @@
   'use strict';
   const data = window.GedankinData;
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const background = document.querySelector('#world-background');
+  const backgroundToggle = document.querySelector('#background-toggle');
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  let animateBackground = !reducedMotion.matches;
+  let backgroundAsset = '';
+  function selectBackground(id) {
+    const characters = id === 'people-directory' || data.characters.some(record=>record.id === id);
+    const timeline = id === 'living-timeline' || data.events.some(record=>record.id === id);
+    const locations = id === 'location-directory' || id === 'world-map' || data.locations.some(record=>record.id === id);
+    const quotes = id === 'memorable-quotes';
+    const overview = id === 'about-gedankin';
+    const factions = id === 'factions' || data.factions.some(record=>record.id === id);
+    const asset = factions ? 'gedankin-factions' : overview ? 'gedankin-overview' : quotes ? 'gedankin-quotes' : locations ? 'gedankin-locations' : timeline ? 'gedankin-timeline' : characters ? 'gedankin-characters' : 'gedankin-night-sky';
+    document.body.classList.toggle('characters-background', characters);
+    document.body.classList.toggle('timeline-background', timeline);
+    document.body.classList.toggle('locations-background', locations);
+    document.body.classList.toggle('quotes-background', quotes);
+    document.body.classList.toggle('overview-background', overview);
+    document.body.classList.toggle('factions-background', factions);
+    if (backgroundAsset === asset) return;
+    backgroundAsset = asset;
+    background.pause();
+    background.removeAttribute('src');
+    background.poster = 'assets/'+asset+'.jpg';
+    background.parentElement.style.backgroundImage = 'url("assets/'+asset+'.jpg")';
+    background.load();
+    updateBackground();
+  }
+  function updateBackground() {
+    if (animateBackground && !document.hidden) {
+      if (!background.getAttribute('src')) background.src = 'assets/'+backgroundAsset+'.mp4';
+      background.play().catch(error=>{ if(error.name !== 'AbortError') { animateBackground=false; updateBackground(); } });
+    } else background.pause();
+    const playing = animateBackground && !background.paused;
+    backgroundToggle.textContent = playing ? 'Pause motion' : 'Play motion';
+    backgroundToggle.setAttribute('aria-label', playing ? 'Pause background animation' : 'Play background animation');
+  }
+  background.addEventListener('playing', updateBackgroundLabel);
+  background.addEventListener('pause', updateBackgroundLabel);
+  function updateBackgroundLabel() {
+    const playing = !background.paused;
+    backgroundToggle.textContent = playing ? 'Pause motion' : 'Play motion';
+    backgroundToggle.setAttribute('aria-label', playing ? 'Pause background animation' : 'Play background animation');
+  }
+  backgroundToggle.addEventListener('click',()=>{animateBackground=!animateBackground;updateBackground();});
+  reducedMotion.addEventListener('change',()=>{animateBackground=!reducedMotion.matches;updateBackground();});
+  document.addEventListener('visibilitychange',updateBackground);
   const sections = [
     {id:'people-directory', key:'characters', title:'Characters', glyph:'♙', description:'The people who shape this world', empty:'Gedankin’s characters will appear here as their stories are added.'},
     {id:'living-timeline', key:'events', title:'Timeline', glyph:'⌛', description:'Events and their consequences', empty:'Gedankin’s history will take shape here as events are recorded.'},
@@ -47,8 +94,9 @@
   }
   function render() {
     closePanels();
-    document.querySelectorAll('audio, video').forEach(media=>media.pause());
+    content.querySelectorAll('audio, video').forEach(media=>media.pause());
     const id=location.hash.slice(1) || 'world-index';
+    selectBackground(id);
     const article=byId.get(id);
     const isHome=id==='world-index';
     document.body.classList.toggle('home-view',isHome);

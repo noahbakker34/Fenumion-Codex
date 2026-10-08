@@ -58,3 +58,46 @@
 .gedankin-map-preview img { display: block; width: 100%; max-height: 360px; object-fit: contain; }
 .gedankin-map-preview span { display: block; padding: .8rem; background: #191c25; }
 @media (max-width: 420px) { .gedankin-map-places { grid-template-columns: 1fr; } }
+
+/* Keep the full navigation calm and readable; the desktop home rail stays compact. */
+.gedankin-world .sidebar .sidebar-intro { padding-bottom: 1rem; margin-bottom: 1rem; border-bottom: 1px solid var(--line-soft); }
+.gedankin-world .sidebar-intro > .eyebrow { margin: 0 0 .7rem; font: .65rem/1.4 var(--sans); letter-spacing: .15em; }
+.gedankin-world .sidebar .featured-link { min-height: 78px; gap: .75rem; padding: .85rem; border-radius: 8px; background: linear-gradient(100deg,rgba(14,17,23,.94),rgba(14,17,23,.7)),url('assets/gedankin-map.png') center 45% / cover; border-color: rgba(212,180,109,.4); }
+.gedankin-world .sidebar .featured-link .sigil { flex: 0 0 24px; font-size: 1.5rem; }
+.gedankin-world .sidebar .featured-link strong { font: 600 1.05rem/1.3 var(--serif); }
+.gedankin-world .sidebar .featured-link small { margin-top: .25rem; font: 1rem/1.3 var(--text); color: var(--muted); }
+.gedankin-world .sidebar .browse-link { display: block; box-sizing: border-box; width: 100%; margin-top: .5rem; padding: .7rem .85rem; border-radius: 7px; background: rgba(255,255,255,.025); border-color: var(--line-soft); text-decoration: none; }
+.gedankin-world .sidebar .browse-link > span { font: .6rem/1.4 var(--sans); letter-spacing: .1em; color: var(--muted); }
+.gedankin-world .sidebar .browse-link strong { display: flex; align-items: center; justify-content: space-between; margin-top: .25rem; font: 600 1.05rem/1.3 var(--text); color: var(--ink); }
+.gedankin-world .sidebar .browse-link strong span { font: 1rem/1 var(--sans); color: var(--gold); }
+.gedankin-world .sidebar .nav-region { margin: 0 0 .4rem; padding: 0; border: 0; }
+.gedankin-world .sidebar .nav-region-link { min-height: 48px; height: auto; grid-template-columns: 24px minmax(0,1fr) 12px; gap: .75rem; padding: .7rem .8rem; border: 1px solid transparent; border-radius: 7px; background: transparent; box-shadow: none; }
+.gedankin-world .sidebar .nav-region-link strong { font: 600 1.1rem/1.3 var(--text); text-shadow: none; color: var(--ink); }
+.gedankin-world .sidebar .nav-region-glyph { font-size: 1.15rem; text-shadow: none; }
+.gedankin-world .sidebar :is(.browse-link,.featured-link,.nav-region-link):hover,
+.gedankin-world .sidebar .nav-region-link.active { background: rgba(212,180,109,.08); border-color: rgba(212,180,109,.35); }
+.gedankin-world .sidebar :is(.browse-link,.featured-link,.nav-region-link):focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+@media (min-width: 761px) {
+  .gedankin-world.home-view .sidebar .nav-region { margin: 0 0 .55rem; padding: 0 0 .55rem; border-bottom: 1px solid rgba(255,255,255,.06); }
+  .gedankin-world.home-view .sidebar .nav-region-link { width: 58px; height: 58px; grid-template-columns: 1fr; padding: 0; }
+}
+
+body.gedankin-world { isolation: isolate; background: #111319; }
+.gedankin-backdrop { position: fixed; z-index: -1; inset: 0; pointer-events: none; background: #111319 url('assets/gedankin-night-sky.jpg') center / cover no-repeat; }
+.gedankin-backdrop video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.gedankin-backdrop::after { content: ''; position: absolute; inset: 0; background: rgba(12,15,24,.85); transition: background .2s; }
+.home-view .gedankin-backdrop::after { background: linear-gradient(rgba(12,15,24,.3),rgba(12,15,24,.6) 65%,rgba(12,15,24,.9)); }
+.gedankin-world .gateway-hero { background: transparent; }
+.gedankin-world .gateway-hero::before { background: linear-gradient(transparent 55%,rgba(17,19,25,.65)); }
+.gedankin-world .gateway-hero-inner { text-shadow: 0 2px 12px #000; }
+.gedankin-world .gateway-sigil { background: rgba(13,17,28,.5); }
+.background-toggle { display: block; width: 100%; margin: 1rem 0; min-height: 44px; padding: .55rem .9rem; border: 1px solid rgba(212,180,109,.45); border-radius: 999px; background: rgba(14,17,25,.94); color: var(--gold-bright); font: 1rem/1.3 var(--text); cursor: pointer; }
+.background-toggle:hover { border-color: var(--gold-bright); }
+.background-toggle:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+@media (min-width: 761px) { .home-view .background-toggle { width: 58px; padding: .45rem .2rem; font-size: .8rem; } }
+@media (prefers-reduced-motion: reduce) { .gedankin-backdrop::after { transition: none; } }
+.gedankin-world:is(.characters-background,.timeline-background,.locations-background,.quotes-background,.overview-background,.factions-background) .gedankin-backdrop::after { background: rgba(12,15,24,.4); }
+.gedankin-world:is(.characters-background,.timeline-background,.locations-background,.quotes-background,.overview-background,.factions-background) .app-shell { background: rgba(20,21,27,.6); }
+.gedankin-world:is(.characters-background,.timeline-background,.locations-background,.quotes-background,.overview-background,.factions-background) .gedankin-record { background: rgba(22,24,31,.88); }
+
+.gedankin-world.quotes-background .quote-card { background: rgba(22,24,31,.9); }

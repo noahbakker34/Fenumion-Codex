@@ -10,11 +10,14 @@
   <link rel="shortcut icon" type="image/svg+xml" href="sigil.svg">
   <link rel="apple-touch-icon" href="sigil.svg">
   <link rel="stylesheet" href="../styles.css?v=151">
-  <link rel="stylesheet" href="gedankin.css?v=3">
-  <script src="data.js?v=12" defer></script>
-  <script src="app.js?v=7" defer></script>
+  <link rel="stylesheet" href="gedankin.css?v=12">
+  <script src="data.js?v=13" defer></script>
+  <script src="app.js?v=15" defer></script>
 </head>
 <body class="gedankin-world">
+  <div class="gedankin-backdrop" aria-hidden="true">
+    <video id="world-background" muted loop playsinline preload="none" poster="assets/gedankin-night-sky.jpg" disablepictureinpicture disableremoteplayback tabindex="-1"></video>
+  </div>
   <a class="skip-link" href="#article">Skip to article</a>
   <header class="topbar">
     <button class="menu-button" id="menu-button" aria-label="Open codex navigation" aria-expanded="false" aria-controls="sidebar">
@@ -48,12 +51,13 @@
         <p class="eyebrow">Begin here</p>
         <button class="featured-link" data-article="world-index">
           <span class="sigil" aria-hidden="true">⌘</span>
-          <span><strong>World index</strong><small>Characters · Timeline · Locations</small></span>
+          <span><strong>World index</strong><small>People, places & history</small></span>
         </button>
         <button class="browse-link" type="button" data-article="about-gedankin"><span>Begin the chronicle</span><strong>About Gedankin</strong></button>
+        <a class="browse-link" href="#world-map"><span>Explore the world</span><strong>Map of Gedankin <span aria-hidden="true">→</span></strong></a>
       </div>
-      <a class="browse-link" href="#world-map"><span>Explore Gedankin</span><strong>World map →</strong></a>
       <nav id="navigation"></nav>
+      <button class="background-toggle" id="background-toggle" type="button" aria-label="Play background animation">Play background</button>
       <div class="archive-note"><span class="archive-number">2024</span><span>ruleset<br><small>Gedankin’s own world record</small></span></div>
     </aside>
 

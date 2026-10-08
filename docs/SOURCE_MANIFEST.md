@@ -107,6 +107,23 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | Gedankin depth review: `gedankin-the-oasis.md` and `2024-rp.md` | Follow-up requested 8 Oct 2026 | Ten additional timeline entries, six People records, two explicitly developing groups, a ruined-house/crypt location, twelve biography supplements and eight exact quotes. Cross-source recovery of Salim’s expedition and rewards; public testimony remains attributed. Coverage and unresolved points: `docs/GEDANKIN_DEPTH_REVIEW.md`. Evidence ledger stays local/private. |
 
+| `fenumion-caselean-de-broin.md` | User-supplied 8 Oct 2026; 6,540 messages | Selective January 2025 castle review: Tarwen profile, six biography/regional supplements, earlier residence history, five timeline records and four exact quote excerpts. Existing castle route and map position preserved; protected Gate essay excluded. Coverage: `docs/CASTLE_PRIMARY_SOURCE_HISTORY.md`. Raw source and message provenance remain local/private. |
+
+| Gedankin night-sky background video (`aa8acab8…_1.mp4`) | User-supplied 8 Oct 2026 | Main Gedankin backdrop, muted looping playback, extracted poster fallback, navigation pause/play control and reduced-motion support. Decorative media does not establish new map geography or lore. |
+| Gedankin Characters background video (`5e99800a…_0.mp4`) | User-supplied 8 Oct 2026 | Background for the Characters directory and individual character records, with an extracted poster, shared pause/play preference and reduced-motion fallback. The main night-sky background remains on the world index. The depicted figure is decorative, not an identified character. |
+
+| Gedankin Oasis video (`c4779bea…_0.mp4`) | User-supplied 8 Oct 2026 | Location video on the existing Oasis record, with controls, muted inline playback and extracted poster fallback. The visual does not establish a construction completion date or override the scene-backed history. |
+
+| Gedankin Timeline background video (`68dfdb23…_2.mp4`) | User-supplied 8 Oct 2026 | Background for the Timeline directory and individual event records, with an extracted poster and shared pause/play and reduced-motion behavior. Decorative tomb imagery does not establish the location or subject of any event. |
+
+| Gedankin Locations background video (`0c3fb527…_1.mp4`) | User-supplied 8 Oct 2026 | Background for the Locations directory, individual location records and world map, with an extracted poster and shared pause/play and reduced-motion behavior. Existing location videos, including the Oasis, remain separate playable visuals. Decorative imagery does not establish new geography. |
+
+| Gedankin Quotes background video (`8160bdbe…_1.mp4`) | User-supplied 8 Oct 2026 | Background for the Memorable Quotes gallery, with extracted poster and shared pause/play and reduced-motion behavior. Quote cards retain a dark reading surface. The depicted figure is decorative, not an identified speaker. |
+
+| Gedankin panoramic desert video (`8e3fd521…_1.mp4`) | User-supplied 8 Oct 2026; placement delegated by user | Background for About Gedankin, chosen for its broad desert vista. Extracted poster, shared pause/play and reduced-motion behavior. Depicted ruins and figures remain decorative and are not assigned canonical identities. |
+
+| Gedankin Factions dust-storm video (`51917bad…_1.mp4`) | User-supplied 8 Oct 2026 | Background for the Factions directory and individual faction records, with extracted poster and shared pause/play and reduced-motion behavior. Decorative imagery does not establish new faction lore. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

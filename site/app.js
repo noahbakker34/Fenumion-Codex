@@ -13570,6 +13570,41 @@ if (gateRecoveredRecords) {
   quoteArticle.sources.push('Gate chronicle · five attributed lines from reviewed public scenes');
 }
 
+const castleRecoveredRecords = window.FENUMION_CASTLE_RECORDS;
+if (castleRecoveredRecords) {
+  for (const record of castleRecoveredRecords.articles) {
+    const {directory, aliases = [], ...article} = record;
+    articles.push(article);
+    fixedArticlePaths.set(record.id, ['Characters', 'Fein Uaill', record.title]);
+    archiveIndex[directory].push({title:record.title, aliases, meta:record.type, article:record.id, summary:record.dek});
+    subchannelMap[record.id] = [{label:'Caisleán na Brón',article:'caislean-na-bron',summary:'The company’s castle in Fein Uaill.'},{label:'Fein Uaill',article:'fein-uaill',summary:'The wider region and its institutions.'}];
+  }
+  navigationRegions.find(region=>region.title==='Characters').branches.push({title:'Fein Uaill hosts',items:castleRecoveredRecords.articles.map(record=>({label:record.title,article:record.id}))});
+  for (const [id, sections] of Object.entries(castleRecoveredRecords.appends)) {
+    const article = articles.find(record=>record.id===id);
+    if (!article) continue;
+    article.body += sections.join('');
+    article.sources = [...new Set([...(article.sources || []),'Castle chronicle · selected January 2025 public scenes'])];
+  }
+  const castle = articles.find(record=>record.id==='caislean-na-bron');
+  castle.facts['Earliest recovered use'] = '12 Jan 2025 · welcome (UTC posting date)';
+  castle.facts.Evidence = 'Regional map · residential and political scenes';
+  castle.facts.Aliases += ' · Caisleán na Bróin';
+  castle.facts['Ownership and founding'] = 'Given to the company in January; legal deed, builder and founding unestablished';
+  castle.body = castle.body.replace('It first appears as a private castle where people prepare to confront Aria’s political power; later', 'Its January welcome records fields, vineyards and a home offered to the company. By August it serves as a private castle where people prepare to confront Aria’s political power; later');
+  castle.body = castle.body.replace('The exact translation, naming date, builder, and legal owner are unresolved.', 'The newer chronicle also uses “Caisleán na Bróin.” The exact translation, naming date, builder, and legal deed are unresolved; the January welcome records the castle being given to the company.');
+  castle.body = castle.body.replace('The founding date, builder, owners, acquisition, layout, permanent residents, legal status, and exact relationship between the August “your castle” and named Caselean remain incomplete.', 'The January welcome establishes the company’s acquisition of the residence and describes its fields, vineyards, courtyard and teleportation circle. The founding date, builder, legal title, complete layout, permanent residents and exact continuity of every unnamed castle scene remain incomplete.');
+  const place = archiveIndex.islands.find(record=>record.article==='caislean-na-bron');
+  place.aliases = [...new Set([...(place.aliases||[]),'Caisleán na Bróin'])];
+  place.source = 'Regional map + castle chronicle';
+  archiveIndex.timeline.push(...castleRecoveredRecords.events);
+  for (const event of castleRecoveredRecords.events) questEventConsequences[event.title] = 'Castle chronicle · reviewed scene. Date shown is the UTC posting date, not an established in-world date. '+event.summary;
+  const quoteArticle = articles.find(record=>record.id==='memorable-quotes');
+  const quoteHtml = [...new Set(castleRecoveredRecords.quotes.map(quote=>quote.group))].map((group,i)=>'<h2 id="castle-quote-group-'+i+'">'+escapeHtml(group)+'</h2><div class="quote-gallery">'+castleRecoveredRecords.quotes.filter(quote=>quote.group===group).map(quote=>'<button class="quote-card" data-article="'+quote.article+'"><blockquote>“'+escapeHtml(quote.text)+'”</blockquote><cite>'+escapeHtml(quote.speaker)+'</cite></button>').join('')+'</div>').join('');
+  quoteArticle.body = quoteArticle.body.replace('<h2 id="why-these-lines-remain">',quoteHtml+'<h2 id="why-these-lines-remain">');
+  quoteArticle.sources.push('Castle chronicle · four attributed excerpts from January 2025 scenes');
+}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

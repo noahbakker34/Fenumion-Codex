@@ -1189,6 +1189,10 @@ window.GedankinData = {
     {
       "id": "oasis",
       "title": "The Oasis",
+      "video": "assets/oasis.mp4",
+      "poster": "assets/oasis.jpg",
+      "imageAlt": "A palm-wood and grass shelter beside water and palms in the desert",
+      "imageCaption": "The Oasis — visual supplied for Gedankin.",
       "summary": "Cala’s refuge between the dunes, and the starting point of expeditions into Gedankin.",
       "dek": "Cala’s refuge between the dunes, and the starting point of expeditions into Gedankin.",
       "tags": [

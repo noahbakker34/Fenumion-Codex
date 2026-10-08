@@ -576,7 +576,11 @@ window.GedankinData = {
       "body": "<h2>The quarters</h2><p>House Tayyeb, House Adijit and House Nazif occupy three sides of the ziggurat. The fourth is the Free Quarter, with livestock, merchants, taverns and hostels. These descriptions come from visits and Chayma’s explanations.</p><h2>The price of entry</h2><p>Entry requires a dinar. The coins bear animal emblems associated with the houses: scorpion, rattlesnake and hyena. House affiliation can affect access; newcomers do not automatically belong to any house.</p><h2>Lives beneath the politics</h2><p>The city offers trade, work and shelter, but also ambush, coercion and violent arena entertainment. Chayma’s recovering hostel and the disputes surrounding Vaerik’s victory show how those pressures touch ordinary residents.</p>",
       "sources": [
         "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates."
-      ]
+      ],
+      "image": "assets/khars-madar.png",
+      "imageLayout": "landscape-hero",
+      "imageAlt": "Khars Madar: towering sandstone terraces, carved columns and a blue pool overlooking a sprawling desert city",
+      "imageCaption": "Khars Madar — Gedankin."
     },
     {
       "id": "chaymas-hostel",

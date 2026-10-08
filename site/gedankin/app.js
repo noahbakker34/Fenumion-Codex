@@ -52,11 +52,11 @@
   document.addEventListener('visibilitychange',updateBackground);
   const sections = [
     {id:'people-directory', key:'characters', title:'Characters', glyph:'♙', description:'The people who shape this world', empty:'Gedankin’s characters will appear here as their stories are added.'},
-    {id:'living-timeline', key:'events', title:'Timeline', glyph:'⌛', description:'Events and their consequences', empty:'Gedankin’s history will take shape here as events are recorded.'},
+    {id:'living-timeline', key:'events', title:'Timeline', glyph:'◷', description:'Events and their consequences', empty:'Gedankin’s history will take shape here as events are recorded.'},
     {id:'location-directory', key:'locations', title:'Locations', glyph:'⌖', description:'Places, settlements and maps', empty:'Gedankin’s places and maps will appear here as they are added.'},
     {id:'factions', key:'factions', title:'Factions', glyph:'⚑', description:'Alliances, orders and rivalries', empty:'Gedankin’s factions will appear here as their records are added.'},
     {id:'memorable-quotes', key:'quotes', title:'Quotes', glyph:'❞', description:'Words the world remembers', empty:'Memorable words from Gedankin will be collected here with their speakers.'},
-    {id:'rules-2024', title:'Rules', glyph:'◇', description:'The 2024 ruleset'}
+    {id:'about-gedankin', title:'Guide', glyph:'◇', description:'World, play and the chronicle'}
   ];
   const articles = [...data.articles];
   for (const section of sections.filter(s => s.key)) {
@@ -75,9 +75,31 @@
   const scrim = document.querySelector('#scrim');
   let filter = 'all';
   const filterKeys = {character:'characters',location:'locations',timeline:'events',quote:'quotes'};
-  document.querySelector('#navigation').innerHTML = sections.map(s => `<section class="nav-region"><button class="nav-region-link" type="button" data-article="${s.id}" data-label="${s.title}" aria-label="${s.title}"><span class="nav-region-glyph" aria-hidden="true">${s.glyph}</span><strong>${s.title}</strong><span>›</span></button></section>`).join('');
+  const navGroups = section => {
+    if (section.key === 'characters') return ['A–J','K–Z'].map((label,i)=>({label,records:data.characters.filter(record=>(record.title[0].toUpperCase()<'K') === (i===0))}));
+    if (section.key === 'events') return [...new Set(data.events.map(record=>(record.sort||'').slice(0,4)))].sort().map(year=>({label:year,records:data.events.filter(record=>(record.sort||'').startsWith(year))}));
+    if (section.key === 'locations') return [{label:'Places and settlements',records:data.locations}];
+    if (section.key === 'factions') return [{label:'Groups & orders',records:data.factions}];
+    if (section.id === 'about-gedankin') return [{label:'Read and explore',records:[{id:'about-gedankin',title:'About Gedankin'},{id:'rules-2024',title:'The 2024 ruleset'},{id:'world-map',title:'World map'}]}];
+    return [];
+  };
+  document.querySelector('#navigation').innerHTML = '<button class="nav-link starter-nav-link" type="button" data-article="about-gedankin" data-label="Start Here · New readers"><span class="starter-nav-icon" aria-hidden="true">♧</span><span class="starter-nav-copy"><strong>Start Here</strong><small>New readers</small></span><span class="starter-nav-arrow" aria-hidden="true">›</span></button>'+sections.map(s => `<section class="nav-region"><button class="nav-region-link" type="button" data-article="${s.id}" data-label="${s.title}" aria-label="${s.title}"><span class="nav-region-glyph" aria-hidden="true">${s.glyph}</span><strong>${s.title}</strong><span>›</span></button><div class="nav-region-tree">${navGroups(s).map(group=>`<details class="nav-branch"><summary>${esc(group.label)}<span>${group.records.length}</span></summary><div>${[...group.records].sort((a,b)=>a.title.localeCompare(b.title)).map(record=>`<button type="button" class="nav-link nav-child" data-article="${esc(record.id)}"><span>${esc(record.title)}</span><span>›</span></button>`).join('')}</div></details>`).join('')}</div></section>`).join('');
   const empty = section => `<div class="gedankin-empty"><strong>No ${esc(section.title.toLowerCase())} recorded yet</strong><p>${esc(section.empty)}</p></div>`;
   const cards = records => `<div class="gedankin-records">${records.map(r => `<a class="gedankin-record" href="#${esc(r.id)}"><strong>${esc(r.title)}</strong>${r.meta ? `<small> · ${esc(r.meta)}</small>` : ''}<p>${esc(r.summary || r.dek || '')}</p></a>`).join('')}</div>`;
+  function directory(section) {
+    return `<section class="world-directory" data-directory="${section.key}"><div class="world-directory-toolbar"><label class="world-directory-search">Search ${esc(section.title.toLowerCase())}<input id="directory-query" type="search" placeholder="Name, role, place, or story…" autocomplete="off"></label><label>Sort<select id="directory-sort"><option value="default">${section.key==='events'?'Oldest first':'A–Z'}</option><option value="reverse">${section.key==='events'?'Newest first':'Z–A'}</option></select></label></div><p class="browser-summary" id="directory-count" role="status"></p><div id="directory-records"></div></section>`;
+  }
+  function updateDirectory() {
+    const shell=content.querySelector('[data-directory]');
+    if (!shell) return;
+    const key=shell.dataset.directory, needle=content.querySelector('#directory-query').value.trim().toLocaleLowerCase();
+    let records=data[key].filter(record=>`${record.title||''} ${record.speaker||''} ${record.text||''} ${record.summary||record.dek||''} ${(record.tags||[]).join(' ')} ${(record.aliases||[]).join(' ')} ${record.meta||''} ${record.location||''} ${(record.people||[]).join(' ')}`.toLocaleLowerCase().includes(needle));
+    if(key!=='quotes') records=[...records].sort((a,b)=>key==='events'?String(a.sort||'').localeCompare(String(b.sort||'')):a.title.localeCompare(b.title));
+    if(content.querySelector('#directory-sort').value==='reverse') records.reverse();
+    content.querySelector('#directory-count').textContent=`${records.length} of ${data[key].length} records`;
+    const html=key==='quotes'?quoteCards(records):`<div class="browser-grid">${records.map(record=>`<button class="index-card" type="button" data-article="${esc(record.id)}">${record.image||record.poster?`<img src="${esc(record.image||record.poster)}" alt="" loading="lazy">`:`<span class="index-glyph" aria-hidden="true">${key==='events'?'◷':key==='locations'?'⌖':key==='factions'?'⚑':'♙'}</span>`}<span class="index-card-copy">${record.meta?`<small>${esc(record.meta)}</small>`:''}<strong>${esc(record.title)}</strong><span>${esc(record.summary||record.dek||'')}</span></span></button>`).join('')}</div>`;
+    content.querySelector('#directory-records').innerHTML=records.length?html:'<p>No matching records. Try another search.</p>';
+  }
   function quoteCards(records) {
     return [...new Set(records.map(q=>q.group || 'Memorable words'))].map(group => `<h2>${esc(group)}</h2><div class="quote-gallery">${records.filter(q=>(q.group || 'Memorable words')===group).map(q=>`<div class="quote-card"><blockquote>“${esc(q.text)}”</blockquote><cite>${esc(q.speaker)}</cite>${q.article && byId.has(q.article) ? `<a href="#${esc(q.article)}">Read their story →</a>` : ''}${q.audio ? `<audio controls preload="none" src="${esc(q.audio)}"></audio>` : ''}</div>`).join('')}</div>`).join('');
   }
@@ -100,6 +122,8 @@
     const article=byId.get(id);
     const isHome=id==='world-index';
     document.body.classList.toggle('home-view',isHome);
+    const isHub=Boolean(article?.section) || id==='about-gedankin';
+    document.body.classList.toggle('hub-view',isHub);
     document.title=`${isHome ? 'World index' : article?.title || 'Record not found'} — The Gedankin Codex`;
     document.querySelector('#breadcrumbs').textContent=isHome ? '' : 'Gedankin · '+(article?.category || 'Archive');
     document.querySelectorAll('#navigation [data-article]').forEach(link=>{const active=link.dataset.article===id;link.classList.toggle('active',active);if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});
@@ -108,7 +132,7 @@
     else {
       let body=article.body || '';
       if(article.map) body+=mapView();
-      if(article.section) {const records=data[article.section.key];body=records.length ? (article.section.key==='quotes' ? quoteCards(records) : cards([...records].sort((a,b)=>article.section.key==='events' ? String(a.sort || '').localeCompare(String(b.sort || '')) : a.title.localeCompare(b.title)))) : empty(article.section);}
+      if(article.section) body=directory(article.section);
       if(article.id === 'location-directory') body='<p><a href="#world-map">Explore these places on the world map →</a></p>'+body;
       if (!article.section && article.category !== 'Timeline') {
         const names = [article.title, ...(article.aliases || [])].map(name=>name.toLocaleLowerCase());
@@ -116,9 +140,16 @@
         if (related.length) body += '<h2>In the chronicle</h2>'+cards(related);
       }
       if (article.section?.key === 'events') body = '<p class="gedankin-date-note">Dates below are UTC message posting dates. In-world dates have not been established. This chronicle covers selected reviewed scenes; it is not a complete account of every session.</p>'+body;
+      const sourceLedger=article.sources?.length?`<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} documents used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source=>`<li>${esc(source)}</li>`).join('')}</ul></details>`:'';
+      const linkedIds=[...new Set([...(article.people||[]).flatMap(name=>data.characters.filter(record=>[record.title,...(record.aliases||[])].includes(name)).map(record=>record.id)),...(article.relatedRecords||[])])];
+      const connected=linkedIds.map(id=>byId.get(id)).filter(Boolean);
+      const connections=connected.length?`<section class="subchannels"><p class="eyebrow">Related records</p><div>${connected.map(record=>`<button class="subchannel-card" type="button" data-article="${esc(record.id)}"><strong>${esc(record.title)}</strong><span>${esc(record.dek||record.summary||'')}</span><i aria-hidden="true">›</i></button>`).join('')}</div></section>`:'';
+      const switcher=isHub?`<nav class="hub-switcher" aria-label="Explore the Codex">${sections.map(section=>`<button type="button" class="gateway-tile${section.id===id?' active':''}" data-article="${section.id}" ${section.id===id?'aria-current="page"':''}><span>${section.title}</span><small>${section.description}</small></button>`).join('')}</nav>`:'';
       const facts=Object.entries(article.facts || {}).map(([k,v])=>`<div class="fact"><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('');
-      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video controls muted loop playsinline preload="metadata" ${matchMedia('(prefers-reduced-motion: reduce)').matches ? '' : 'autoplay'} poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video. <a href="${esc(article.video)}">Watch ${esc(article.title)}</a></video>${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : ''}<div class="lead-grid"><div class="article-body">${body}${article.sources?.length ? `<details class="gedankin-sources"><summary>Sources</summary><ul>${article.sources.map(source=>`<li>${esc(source)}</li>`).join('')}</ul></details>` : ''}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
+      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${switcher}${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video controls muted loop playsinline preload="metadata" ${matchMedia('(prefers-reduced-motion: reduce)').matches ? '' : 'autoplay'} poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video. <a href="${esc(article.video)}">Watch ${esc(article.title)}</a></video>${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : ''}<div class="record-context">${sourceLedger}${connections}</div><div class="lead-grid"><div class="article-body">${body}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
     }
+    updateDirectory();
+    document.querySelectorAll('.nav-branch').forEach(branch=>{branch.open=Boolean(branch.querySelector(`[data-article="${id}"]`));});
     const headings=[...content.querySelectorAll('.article-body h2, .article-body h3')].filter(e=>!e.closest('.gateway-section-title'));
     const toc=headings.map((h,i)=>{if(!h.id)h.id='section-'+i;return `<a href="#${esc(id)}" data-section="${esc(h.id)}">${esc(h.textContent)}</a>`;}).join('');
     document.querySelector('#contents').innerHTML=toc;
@@ -154,7 +185,8 @@
     const section=event.target.closest('[data-section]');if(section){event.preventDefault();document.getElementById(section.dataset.section)?.scrollIntoView({behavior:'smooth'});return;}
     const choice=event.target.closest('[data-search-filter]');if(choice){filter=choice.dataset.searchFilter;document.querySelectorAll('[data-search-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===choice)));runSearch(search.value);}
   });
-  document.addEventListener('input',event=>{if(event.target===search || event.target===worldSearch || event.target.id==='gateway-search'){runSearch(event.target.value);if(event.target.id==='gateway-search')worldSearch.focus();}});
+  document.addEventListener('input',event=>{if(event.target.id==='directory-query'){updateDirectory();return;}if(event.target===search || event.target===worldSearch || event.target.id==='gateway-search'){runSearch(event.target.value);if(event.target.id==='gateway-search')worldSearch.focus();}});
+  document.addEventListener('change',event=>{if(event.target.id==='directory-sort')updateDirectory();});
   document.querySelector('#search-toggle').addEventListener('click',()=>{runSearch();worldSearch.focus();});
   document.querySelector('#close-search').addEventListener('click',closePanels);
   scrim.addEventListener('click',closePanels);

@@ -10,15 +10,16 @@
   <link rel="shortcut icon" type="image/png" href="fenumion-logo.png?v=111">
   <link rel="apple-touch-icon" href="fenumion-logo.png?v=111">
   <link rel="stylesheet" href="styles.css?v=151">
+  <link rel="stylesheet" href="codex-layout.css?v=1">
   <script src="media.js?v=122" defer></script>
   <script src="music.js?v=3" defer></script>
   <script src="faction-maps.js?v=1" defer></script>
   <script src="character-map-expansion.js?v=2" defer></script>
   <script src="gate-records.js?v=1" defer></script>
   <script src="castle-records.js?v=1" defer></script>
-  <script src="app.js?v=167" defer></script>
+  <script src="app.js?v=168" defer></script>
 </head>
-<body>
+<body class="codex-world fenumion-world">
   <a class="skip-link" href="#article">Skip to article</a>
   <div class="music-player" id="music-player">
     <button class="music-toggle" id="music-toggle" type="button" aria-expanded="false" aria-controls="music-panel">
@@ -106,17 +107,10 @@
         <p class="eyebrow">Begin here</p>
         <button class="featured-link" data-article="world-index">
           <span class="sigil" aria-hidden="true">⌘</span>
-          <span><strong>World index</strong><small>Characters · Timeline · Locations</small></span>
+          <span><strong>World index</strong><small>People, places &amp; history</small></span>
         </button>
-        <button class="ethos-sidebar-link chronicle-ethos-link" type="button" data-article="ethos-of-fenumion" data-nav-article="ethos-of-fenumion" data-label="Begin the Chronicle">
-          <span class="ethos-sidebar-glyph" aria-hidden="true">✦</span>
-          <span class="ethos-sidebar-copy">
-            <small class="chronicle-entry-overline">Begin the Chronicle</small>
-            <strong>The Ethos of Fenumion</strong>
-            <span class="chronicle-entry-detail">How Fenumion remembers · Player ethos &amp; chronicle guide</span>
-          </span>
-          <span aria-hidden="true">›</span>
-        </button>
+        <button class="browse-link" type="button" data-article="ethos-of-fenumion"><span>Begin the chronicle</span><strong>About Fenumion</strong></button>
+        <a class="browse-link" href="#visual-archive"><span>Explore the world</span><strong>Map of Fenumion <span aria-hidden="true">→</span></strong></a>
       </div>
       <nav id="navigation"></nav>
       <div class="archive-note">

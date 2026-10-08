@@ -46,7 +46,7 @@ const articles = [
       "Ordering": "Chronological or alphabetical",
       "Foundation": "Campaign records, maps, and chronicles"
     },
-    "body": "<section class=\"gateway-hero\">\n        <video class=\"gateway-banner-video ambient-video\" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload=\"metadata\" poster=\"assets/archive/world-map.jpeg\" aria-hidden=\"true\" tabindex=\"-1\"><source src=\"assets/archive/fenumion-banner.mp4\" type=\"video/mp4\"></video>\n        <div class=\"gateway-hero-inner\">\n          <span class=\"gateway-sigil\" aria-hidden=\"true\"><img src=\"fenumion-logo.png\" alt=\"\"></span>\n          <p class=\"gateway-overline\">A living history reconstructed from play</p>\n          <p>Characters leave fingerprints. Places remember. The past keeps acting on the present.</p>\n          <label class=\"gateway-search\"><span aria-hidden=\"true\">⌕</span><span class=\"sr-only\">Search the archive</span><input id=\"gateway-search\" type=\"search\" placeholder=\"Search the archive\" autocomplete=\"off\"><kbd>/</kbd></label>\n          <a class=\"community-join-button\" href=\"https://discord.gg/TqXRfGKtNv\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Join the Fenumion community</span><span aria-hidden=\"true\">↗</span></a>\n        </div>\n      </section>\n      <section class=\"gateway-categories\" aria-label=\"Explore the Codex\">\n        <button class=\"gateway-tile\" data-article=\"people-directory\" style=\"--tile-image:url('assets/archive/wrath.gif')\"><span>Characters</span><small>Heroes · NPCs · Gods</small></button>\n        <button class=\"gateway-tile\" data-article=\"living-timeline\" style=\"--tile-image:url('assets/archive/abyss.png')\"><span>Timeline</span><small>Causes · Events · Consequences</small></button>\n        <button class=\"gateway-tile\" data-article=\"visual-archive\" style=\"--tile-image:url('assets/archive/world-map.jpeg')\"><span>Locations</span><small>Regions · Settlements · Landmarks</small></button>\n        <button class=\"gateway-tile\" data-article=\"memorable-quotes\" style=\"--tile-image:url('assets/archive/throne.png')\"><span>Quotes</span><small>Words the world remembers</small></button>\n        <button class=\"gateway-tile\" data-article=\"conversation\" style=\"--tile-image:url('assets/archive/fein-uaill.jpeg')\"><span>Living Archive</span><small>Memory · Evidence · Consequence</small></button>\n        <button class=\"gateway-tile\" data-article=\"reading-the-codex\" style=\"--tile-image:url('assets/archive/pristinia.webp')\"><span>How to Read</span><small>Evidence · Perspective · Uncertainty</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Featured</h2><span></span></div>\n      <section class=\"gateway-featured\">\n        <button class=\"feature-card feature-image\" data-article=\"gael\" style=\"--feature-image:url('assets/archive/gael.jpeg')\"><span class=\"feature-label\">Regional history</span><span class=\"feature-copy\"><strong>Gael</strong><small>From Death’s wasteland to Hope, settlement, markets, and an unfinished recovery.</small></span></button>\n        <button class=\"feature-card feature-image\" data-article=\"fein-uaill\" style=\"--feature-image:url('assets/archive/fein-uaill.jpeg')\"><span class=\"feature-label\">Location atlas</span><span class=\"feature-copy\"><strong>Fein Uaill</strong><small>Zarathis, Caisleán na Brón, Ciaránach, walls, libraries, tombs, and shores.</small></span></button>\n        <button class=\"feature-card feature-quote\" data-article=\"memorable-quotes\"><span class=\"feature-label\">Memorable quote</span><blockquote>“My pain. Not everyone’s.”</blockquote><cite>Olokun</cite><small>Read the words that became part of Fenumion’s moral memory.</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Complete index</h2><span></span></div>\n      <p class=\"gateway-index-intro\">Browse every recovered character, event, and place. Sort by name or chronology, then open the exact record you need.</p>\n      <div id=\"world-browser\" class=\"world-browser\"></div>"
+    "body": "<section class=\"gateway-hero\">\n        <video class=\"gateway-banner-video ambient-video\" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload=\"metadata\" poster=\"assets/archive/world-map.jpeg\" aria-hidden=\"true\" tabindex=\"-1\"><source src=\"assets/archive/fenumion-banner.mp4\" type=\"video/mp4\"></video>\n        <div class=\"gateway-hero-inner\">\n          <span class=\"gateway-sigil\" aria-hidden=\"true\"><img src=\"fenumion-logo.png\" alt=\"\"></span>\n          <p class=\"gateway-overline\">A living history reconstructed from play</p>\n          <p>Characters leave fingerprints. Places remember. The past keeps acting on the present.</p>\n          <label class=\"gateway-search\"><span aria-hidden=\"true\">⌕</span><span class=\"sr-only\">Search the archive</span><input id=\"gateway-search\" type=\"search\" placeholder=\"Search the archive\" autocomplete=\"off\"><kbd>/</kbd></label>\n          <a class=\"community-join-button\" href=\"https://discord.gg/TqXRfGKtNv\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Join the Fenumion community</span><span aria-hidden=\"true\">↗</span></a>\n        </div>\n      </section>\n      <section class=\"gateway-categories\" aria-label=\"Explore the Codex\">\n        <button class=\"gateway-tile\" data-article=\"people-directory\" style=\"--tile-image:url('assets/archive/wrath.gif')\"><span>Characters</span><small>Heroes · NPCs · Gods</small></button>\n        <button class=\"gateway-tile\" data-article=\"living-timeline\" style=\"--tile-image:url('assets/archive/abyss.png')\"><span>Timeline</span><small>Causes · Events · Consequences</small></button>\n        <button class=\"gateway-tile\" data-article=\"visual-archive\" style=\"--tile-image:url('assets/archive/world-map.jpeg')\"><span>Locations</span><small>Regions · Settlements · Landmarks</small></button>\n        <button class=\"gateway-tile\" data-article=\"factions\" style=\"--tile-image:url('assets/archive/fein-uaill.jpeg')\"><span>Factions</span><small>Companies · Orders · Alliances</small></button><button class=\"gateway-tile\" data-article=\"memorable-quotes\" style=\"--tile-image:url('assets/archive/throne.png')\"><span>Quotes</span><small>Words the world remembers</small></button>\n        \n        <button class=\"gateway-tile\" data-article=\"reading-the-codex\" style=\"--tile-image:url('assets/archive/pristinia.webp')\"><span>Guide</span><small>Evidence · Perspective · Uncertainty</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Featured</h2><span></span></div>\n      <section class=\"gateway-featured\">\n        <button class=\"feature-card feature-image\" data-article=\"gael\" style=\"--feature-image:url('assets/archive/gael.jpeg')\"><span class=\"feature-label\">Regional history</span><span class=\"feature-copy\"><strong>Gael</strong><small>From Death’s wasteland to Hope, settlement, markets, and an unfinished recovery.</small></span></button>\n        <button class=\"feature-card feature-image\" data-article=\"fein-uaill\" style=\"--feature-image:url('assets/archive/fein-uaill.jpeg')\"><span class=\"feature-label\">Location atlas</span><span class=\"feature-copy\"><strong>Fein Uaill</strong><small>Zarathis, Caisleán na Brón, Ciaránach, walls, libraries, tombs, and shores.</small></span></button>\n        <button class=\"feature-card feature-quote\" data-article=\"memorable-quotes\"><span class=\"feature-label\">Memorable quote</span><blockquote>“My pain. Not everyone’s.”</blockquote><cite>Olokun</cite><small>Read the words that became part of Fenumion’s moral memory.</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Complete index</h2><span></span></div>\n      <p class=\"gateway-index-intro\">Browse every recovered character, event, and place. Sort by name or chronology, then open the exact record you need.</p>\n      <div id=\"world-browser\" class=\"world-browser\"></div>"
   },
   {
     "id": "visual-archive",
@@ -3295,7 +3295,7 @@ const worldIndexArticle = articles.find(article => article.id === "world-index")
 if (worldIndexArticle) {
   worldIndexArticle.body = worldIndexArticle.body
     .replace('data-article="reading-the-codex"', 'data-article="ethos-of-fenumion"')
-    .replace('<span>How to Read</span><small>Evidence · Perspective · Uncertainty</small>', '<span>Ethos &amp; Chronicle Guide</span><small>Play · Evidence · Perspective</small>');
+    .replace('<span>Guide</span><small>Evidence · Perspective · Uncertainty</small>', '<span>Guide</span><small>Play · Evidence · Perspective</small>');
 }
 
 const livingArchiveArticle = articles.find(article => article.id === "conversation");
@@ -13605,6 +13605,18 @@ if (castleRecoveredRecords) {
   quoteArticle.sources.push('Castle chronicle · four attributed excerpts from January 2025 scenes');
 }
 
+const factionDirectoryItems = [
+  {label:'The Ale-Chemy Knights',article:'ale-chemy-knights'},
+  {label:'The Veilguard',article:'veilguard'},
+  {label:'The Seekers',article:'cave-company'},
+  {label:'The Vanguard',article:'vanguard'}
+];
+articles.push({id:'factions',title:'Factions',category:'Archive',type:'Groups and orders',dek:'The companies, orders and alliances that shape Fenumion.',tags:['Factions','Groups','Orders'],facts:{Scope:'Recorded groups and alliances'},sources:[],body:'<div class="world-directory"><label class="world-directory-search">Search factions<input type="search" id="faction-query" placeholder="Name, purpose, or story…"></label><p class="browser-summary" id="faction-count" role="status"></p><div class="browser-grid" id="faction-records"></div></div>'});
+fixedArticlePaths.set('factions',['Factions']);
+const characterNavigation = navigationRegions.find(region=>region.title==='Characters');
+characterNavigation.branches = characterNavigation.branches.filter(branch=>branch.title!=='Groups & orders');
+navigationRegions.push({title:'Factions',article:'factions',glyph:'⚑',branches:[{title:'Groups & orders',items:factionDirectoryItems}]},{title:'Quotes',article:'memorable-quotes',glyph:'❞',branches:[]},{title:'Guide',article:'ethos-of-fenumion',glyph:'◇',branches:[{title:'Read and explore',items:[{label:'Start Here',article:'start-here'},{label:'The Living Archive',article:'conversation'}]}]});
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -15025,9 +15037,9 @@ const hubPages = [
   { id: "people-directory", label: "Characters", detail: "Heroes · NPCs · Gods", image: "assets/archive/wrath.gif" },
   { id: "living-timeline", label: "Timeline", detail: "Causes · Events · Consequences", image: "assets/archive/abyss.png" },
   { id: "visual-archive", label: "Locations", detail: "Regions · Settlements · Landmarks", image: "assets/archive/world-map.jpeg" },
+  { id: "factions", label: "Factions", detail: "Companies · Orders · Alliances", image: "assets/archive/fein-uaill.jpeg" },
   { id: "memorable-quotes", label: "Quotes", detail: "Words the world remembers", image: "assets/archive/throne.png" },
-  { id: "conversation", label: "Living Archive", detail: "Memory · Evidence · Consequence", image: "assets/archive/fein-uaill.jpeg" },
-  { id: "ethos-of-fenumion", label: "Ethos & Guide", detail: "Play · Evidence · Perspective", image: "assets/archive/pristinia.webp" }
+  { id: "ethos-of-fenumion", label: "Guide", detail: "Play · Evidence · Perspective", image: "assets/archive/pristinia.webp" }
 ];
 const hubPageById = new Map(hubPages.map(page => [page.id, page]));
 const navigation = document.querySelector("#navigation");
@@ -15746,6 +15758,7 @@ function renderArticle(route, pushHash = true) {
     setupFeaturedContent();
   }
   if (article.id === "people-directory") setupPeopleGallery();
+  if (article.id === "factions") setupFactionDirectory();
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
   if (article.id === "living-timeline") setupTimelineExplorer();
   setupRelationshipMap(article);
@@ -15759,6 +15772,19 @@ function renderArticle(route, pushHash = true) {
   buildContents();
   closePanels();
   window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+}
+
+function setupFactionDirectory() {
+  const query = articleContent.querySelector('#faction-query');
+  const records = factionDirectoryItems.map(item=>byId.get(item.article)).filter(record=>record && isPlayerSafeArticle(record.id));
+  const render = () => {
+    const needle=query.value.trim().toLocaleLowerCase();
+    const matches=records.filter(record=>`${record.title} ${record.dek} ${record.tags.join(' ')}`.toLocaleLowerCase().includes(needle));
+    articleContent.querySelector('#faction-count').textContent=`${matches.length} factions`;
+    articleContent.querySelector('#faction-records').innerHTML=matches.map(record=>`<button class="index-card" data-article="${escapeHtml(record.id)}"><span class="index-glyph" aria-hidden="true">⚑</span><span class="index-card-copy"><strong>${escapeHtml(record.title)}</strong><span>${escapeHtml(record.dek)}</span></span></button>`).join('') || '<p>No matching factions.</p>';
+  };
+  query.addEventListener('input',render);
+  render();
 }
 
 function setupPeopleGallery() {

@@ -1,0 +1,48 @@
+/* Shared layout and organization for both world codices. */
+.fenumion-world { --world-map: url('assets/archive/world-map.jpeg'); }
+.gedankin-world { --world-map: url('gedankin/assets/gedankin-map.png'); }
+.codex-world .sidebar .sidebar-intro { padding-bottom: 1rem; margin-bottom: 1rem; border-bottom: 1px solid var(--line-soft); }
+.codex-world .sidebar-intro > .eyebrow { margin: 0 0 .7rem; font: .65rem/1.4 var(--sans); letter-spacing: .15em; }
+.codex-world .sidebar .featured-link { min-height: 78px; gap: .75rem; padding: .85rem; border-radius: 8px; background: linear-gradient(100deg,rgba(14,17,23,.94),rgba(14,17,23,.7)),var(--world-map) center 45% / cover; border-color: rgba(212,180,109,.4); }
+.codex-world .sidebar .featured-link .sigil { flex: 0 0 24px; font-size: 1.5rem; }
+.codex-world .sidebar .featured-link strong { font: 600 1.05rem/1.3 var(--serif); }
+.codex-world .sidebar .featured-link small { margin-top: .25rem; font: 1rem/1.3 var(--text); color: var(--muted); }
+.codex-world .sidebar .browse-link { display: block; box-sizing: border-box; width: 100%; margin-top: .5rem; padding: .7rem .85rem; border-radius: 7px; background: rgba(255,255,255,.025); border-color: var(--line-soft); text-decoration: none; }
+.codex-world .sidebar .browse-link > span { font: .6rem/1.4 var(--sans); letter-spacing: .1em; color: var(--muted); }
+.codex-world .sidebar .browse-link strong { display: flex; align-items: center; justify-content: space-between; margin-top: .25rem; font: 600 1.05rem/1.3 var(--text); color: var(--ink); }
+.codex-world .sidebar .browse-link strong span { font: 1rem/1 var(--sans); color: var(--gold); }
+.codex-world .sidebar .nav-region { margin: 0 0 .4rem; padding: 0; border: 0; }
+.codex-world .sidebar .nav-region-link { min-height: 48px; height: auto; grid-template-columns: 24px minmax(0,1fr) 12px; gap: .75rem; padding: .7rem .8rem; border: 1px solid transparent; border-radius: 7px; background: transparent; box-shadow: none; }
+.codex-world .sidebar .nav-region-link strong { font: 600 1.1rem/1.3 var(--text); text-shadow: none; color: var(--ink); }
+.codex-world .sidebar .nav-region-glyph { font-size: 1.15rem; text-shadow: none; }
+.codex-world .sidebar :is(.browse-link,.featured-link,.nav-region-link):hover,
+.codex-world .sidebar .nav-region-link.active { background: rgba(212,180,109,.08); border-color: rgba(212,180,109,.35); }
+.codex-world .sidebar :is(.browse-link,.featured-link,.nav-region-link):focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+@media (min-width: 761px) {
+  .codex-world.home-view .sidebar .nav-region { margin: 0 0 .55rem; padding: 0 0 .55rem; border-bottom: 1px solid rgba(255,255,255,.06); }
+  .codex-world.home-view .sidebar .nav-region-link { width: 58px; height: 58px; grid-template-columns: 1fr; padding: 0; }
+}
+
+.codex-world .nav-only-ethos { display: none; }
+.codex-world .world-directory-toolbar { display: flex; align-items: end; flex-wrap: wrap; gap: 1rem; }
+.codex-world .world-directory-search { display: grid; gap: .4rem; flex: 1; min-width: 160px; }
+.codex-world .world-directory input, .codex-world .world-directory select { min-height: 44px; width: 100%; padding: .65rem .8rem; border: 1px solid var(--line); border-radius: 6px; background: #191c25; color: var(--ink); font: 1rem/1.3 var(--text); }
+.codex-world .world-directory-toolbar > label { display: grid; gap: .4rem; }
+.codex-world .world-directory .browser-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .75rem; }
+.codex-world .world-directory .index-card { width: 100%; margin: 0; text-align: left; }
+.codex-world.hub-view .article-rail { display: none; }
+.codex-world.hub-view .lead-grid { display: block; }
+.codex-world.hub-view .infobox { display: none; }
+.codex-world.hub-view .hub-switcher { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); position: relative; z-index: 2; }
+.codex-world.hub-view .article-header { min-height: 280px; padding: 3.5rem clamp(1rem,4vw,3rem) 4rem; border-radius: 0; }
+.codex-world.hub-view .record-context { width: min(1080px,calc(100% - 3rem)); margin-inline: auto; }
+.codex-world :is(input,select,button,a):focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+@media (min-width: 1101px) { .codex-world.hub-view .app-shell { grid-template-columns: 250px minmax(0,1fr); } }
+@media (max-width: 1100px) { .codex-world.hub-view .hub-switcher { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@media (max-width: 760px) {
+  .codex-world.hub-view .hub-switcher { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .codex-world .world-directory .browser-grid { grid-template-columns: 1fr; }
+  .codex-world.hub-view .article-header { min-height: 260px; padding: 2.5rem 1rem 3.5rem; }
+  .codex-world.hub-view .record-context { width: calc(100% - 2rem); }
+  .codex-world.panels-open .topbar { z-index: 80; }
+}

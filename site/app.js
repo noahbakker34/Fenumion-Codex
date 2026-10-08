@@ -15445,7 +15445,7 @@ function setupRelationshipMap(article) {
 }
 
 function renderNavigation() {
-  navigation.innerHTML = `<button type="button" class="nav-link starter-nav-link" data-article="start-here"><span>Start Here · New readers</span><span>→</span></button>
+  navigation.innerHTML = `<button type="button" class="nav-link starter-nav-link" data-article="start-here" data-nav-article="start-here" data-label="Start Here · New readers" aria-label="Start Here · Guide for new readers"><span class="starter-nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C9 3.7 5.7 3.4 2.5 4.5v15c3.2-1.1 6.5-.8 9.5 1 3-1.8 6.3-2.1 9.5-1v-15c-3.2-1.1-6.5-.8-9.5 1Z"/><path d="M12 5.5v15M6 8h2.5M6 11h2.5M15.5 8H18M15.5 11H18"/></svg></span><span class="starter-nav-copy"><strong>Start Here</strong><small>New readers</small></span><span class="starter-nav-arrow" aria-hidden="true">›</span></button>
     <button type="button" class="ethos-sidebar-link nav-only-ethos" data-article="ethos-of-fenumion" data-nav-article="ethos-of-fenumion" data-label="Begin the Chronicle · The Ethos of Fenumion">
       <span class="ethos-sidebar-glyph" aria-hidden="true">✦</span>
       <span class="ethos-sidebar-copy"><strong>The Ethos of Fenumion</strong><small>Player ethos &amp; chronicle guide</small></span>

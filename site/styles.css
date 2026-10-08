@@ -2328,7 +2328,65 @@ body.ethos-view .ethos-principle, body.ethos-view .ethos-closing { background-co
 .starter-banner h2 { margin: .25rem 0 .65rem; color: var(--gold-bright); font: 1.65rem/1.25 var(--serif); }
 .starter-banner p:not(.eyebrow) { margin: 0; max-width: 52rem; color: var(--ink); font: 1.2rem/1.55 var(--text); }
 .starter-banner > button { flex-shrink: 0; }
-.starter-nav-link { margin-bottom: .85rem; border: 1px solid var(--line); color: var(--gold-bright); }
+/* The reader guide follows the compact home rail and expanded article menu. */
+.starter-nav-link {
+  position: relative;
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  gap: .7rem;
+  min-height: 64px;
+  margin-bottom: .85rem;
+  padding: .75rem .7rem;
+  border: 1px solid rgba(217,185,95,.32);
+  border-radius: 6px;
+  color: var(--gold-bright);
+  background: linear-gradient(110deg, rgba(217,185,95,.09), rgba(217,185,95,.02));
+}
+.starter-nav-link:hover, .starter-nav-link.active {
+  color: var(--gold-bright);
+  border-color: var(--gold);
+  background: rgba(217,185,95,.12);
+}
+.starter-nav-link:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+.starter-nav-icon { display: grid; place-items: center; }
+.starter-nav-icon svg { display: block; width: 24px; height: 24px; }
+.starter-nav-copy { min-width: 0; }
+.starter-nav-copy strong { display: block; font: 600 .9rem/1.3 var(--serif); }
+.starter-nav-copy small { display: block; margin-top: .2rem; color: var(--muted); font: .9rem/1.3 var(--text); }
+@media (min-width: 761px) {
+  .home-view .starter-nav-link {
+    width: 58px;
+    height: 58px;
+    min-height: 58px;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 0;
+    margin: 0 0 .55rem;
+    padding: 0;
+  }
+  .home-view .starter-nav-copy, .home-view .starter-nav-arrow { display: none; }
+  .home-view .starter-nav-link::after {
+    content: attr(data-label);
+    position: absolute;
+    z-index: 80;
+    top: 50%;
+    left: calc(100% + .7rem);
+    width: max-content;
+    max-width: 180px;
+    padding: .4rem .58rem;
+    color: #f7f2e7;
+    background: rgba(20,21,27,.98);
+    border: 1px solid rgba(217,185,95,.48);
+    border-radius: 4px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.36);
+    font: .85rem/1.4 var(--text);
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  .home-view .starter-nav-link:hover::after,
+  .home-view .starter-nav-link:focus-visible::after { opacity: 1; }
+}
 .reading-progress { padding: .85rem 1rem; background: var(--panel); border: 1px solid var(--line); border-radius: 5px; }
 .reading-step { display: grid; grid-template-columns: 2.5rem minmax(0,1fr); gap: 1rem; padding: 1.5rem 0; border-bottom: 1px solid var(--line); }
 .reading-step h2 { margin-top: 0; }

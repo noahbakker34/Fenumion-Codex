@@ -103,6 +103,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | Aurora identity clarification | World creator, 8 Oct 2026 | The early Shore traveller Aurora and Aurora Luminaria are confirmed distinct characters; separate biographies and chronologies retained. |
 
+| `gedankin-the-oasis.md` | User-supplied 8 Oct 2026; 3,159 messages | Selective Oasis history for Gedankin’s 2024 ruleset: five People records, ten biography supplements, six timeline entries and six exact quote excerpts. Oasis, Albayt and Seven Sands expanded. Coverage: `docs/GEDANKIN_OASIS_HISTORY.md`. Full export and message provenance stay local/private. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

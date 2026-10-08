@@ -108,9 +108,10 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Lost among the stars</h2><p>Irenhour cannot identify the strange shore with certainty. His suggestions about its nature remain interpretations, rather than an established name for this world.</p><h2>The need for a refuge</h2><p>After the desert’s dangers, Irenhour presses the practical need for rest and shelter. He joins the company that receives Cala’s invitation to the Oasis and later explores Albayt Alkabir.</p>",
+      "body": "<h2>Lost among the stars</h2><p>Irenhour cannot identify the strange shore with certainty. His suggestions about its nature remain interpretations, rather than an established name for this world.</p><h2>The need for a refuge</h2><p>After the desert’s dangers, Irenhour presses the practical need for rest and shelter. He joins the company that receives Cala’s invitation to the Oasis and later explores Albayt Alkabir.</p><h2>Making a shelter</h2><p>Irenhour and Atrax start a shared longhouse. They discuss preserving the denser palms for shade and work with isolated trees, drying and preparing the wood with elemental magic. Both admit their lack of building experience. Manacles and caltrops are suggested as sources of nails; the discussion does not prove those nails were made.</p><h2>Hospitality and supplies</h2><p>After helping escort Khemset to camp, Irenhour later bargains with Salim for a lantern and asks about goats, spices and wood. He also shares water, berries and tea with the merchant. The purchased lantern is separate from the lost lantern in Khemset’s account.</p>",
       "sources": [
-        "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-oasis.md — 2024-10-06–2024-11-02 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -133,10 +134,11 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Among the arrivals</h2><p>Atrax awakens beside the other strangers and admits he does not recognise their surroundings. His stated rank belongs to his introduction; the record does not establish a Gedankin branch of that organisation.</p><h2>The recovered light</h2><p>At Albayt Alkabir, Atrax helps recognise the lantern’s request and welcomes Luxcit into the company.</p><h2>The work of welcome</h2><p>Atrax repeatedly walks from the Oasis to the Shore to meet newcomers. With the early traveller Aurora, he describes placing palm-trunk markers on every third dune. They discuss their vulnerability to wind and a possible living path of native plants; no completed permanent route is shown.</p><h2>Patience with limits</h2><p>His welcomes are practical rather than effortless. Bramble’s remarks about his heritage anger him, but he continues after her apology and accepts the flower she offers. With Ossi he stays back, keeps his hands away from his weapon and offers water without barter. With Vaerik he drops formal speech and gives a blunt account of the camp’s hardships.</p><h2>One foot in front of the other</h2><p>He describes endurance as finding any small task that improves their situation. The partially built longhouse and his repeated patrols give that belief a daily form. His reports about Cala, absent explorers and the impossibility of returning home remain his knowledge at the time, rather than universal guarantees.</p>",
+      "body": "<h2>Among the arrivals</h2><p>Atrax awakens beside the other strangers and admits he does not recognise their surroundings. His stated rank belongs to his introduction; the record does not establish a Gedankin branch of that organisation.</p><h2>The recovered light</h2><p>At Albayt Alkabir, Atrax helps recognise the lantern’s request and welcomes Luxcit into the company.</p><h2>The work of welcome</h2><p>Atrax repeatedly walks from the Oasis to the Shore to meet newcomers. With the early traveller Aurora, he describes placing palm-trunk markers on every third dune. They discuss their vulnerability to wind and a possible living path of native plants; no completed permanent route is shown.</p><h2>Patience with limits</h2><p>His welcomes are practical rather than effortless. Bramble’s remarks about his heritage anger him, but he continues after her apology and accepts the flower she offers. With Ossi he stays back, keeps his hands away from his weapon and offers water without barter. With Vaerik he drops formal speech and gives a blunt account of the camp’s hardships.</p><h2>One foot in front of the other</h2><p>He describes endurance as finding any small task that improves their situation. The partially built longhouse and his repeated patrols give that belief a daily form. His reports about Cala, absent explorers and the impossibility of returning home remain his knowledge at the time, rather than universal guarantees.</p><h2>The first longhouse</h2><p>Atrax argues for shelter before more ambitious works and helps Irenhour prepare palms for a common longhouse. He admits his inexperience and offers iron manacles as possible material for nails. In their conversation he says he is good at violence but has no love for it.</p><h2>Bringing Khemset back</h2><p>At the Albayt he helps defuse Irenhour’s confrontation with the injured Khemset, then offers his shoulder for the walk to the Oasis. Her testimony supplies news of the earlier failed expedition.</p>",
       "sources": [
         "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-shore.md — 2024-10-07–2026-05-17 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2024-10-07–2026-05-17 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2024-10-06–2024-10-11 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -154,9 +156,10 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Light and remembrance</h2><p>Sombra attunes to <a href=\"#luxcit\">Luxcit</a> in Albayt Alkabir and brings the lantern outside. He asks how to honour its fallen Lightbringer, Harlan Rayburn.</p><h2>Lives carried home</h2><p>During the approach to <a href=\"#khars-madar\">Khars Madar</a>, Sombra helps fight the stirges, provides food and carries Saffiah’s body after the company saves Chayma. The two sisters reach the city together, though only Chayma survives.</p><h2>Return to the mountain</h2><p>In the September rescue expedition, Sombra takes a giant owl’s form to ferry companions onto the glacier. The company later frees four chained kobolds and reaches Icyscale Roost.</p>",
+      "body": "<h2>Light and remembrance</h2><p>Sombra attunes to <a href=\"#luxcit\">Luxcit</a> in Albayt Alkabir and brings the lantern outside. He asks how to honour its fallen Lightbringer, Harlan Rayburn.</p><h2>Lives carried home</h2><p>During the approach to <a href=\"#khars-madar\">Khars Madar</a>, Sombra helps fight the stirges, provides food and carries Saffiah’s body after the company saves Chayma. The two sisters reach the city together, though only Chayma survives.</p><h2>Return to the mountain</h2><p>In the September rescue expedition, Sombra takes a giant owl’s form to ferry companions onto the glacier. The company later frees four chained kobolds and reaches Icyscale Roost.</p><h2>Food beneath the stars</h2><p>Sombra shares magical fruit with Eudora and Rhalor while they talk about the unfamiliar refuge. Later he offers fruit to the wounded Khemset and Aurora. His hospitality gives the camp a welcome even when it cannot provide answers or a cure.</p>",
       "sources": [
-        "2024-rp.md — 25 October 2024; 16 April and 24 September 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 25 October 2024; 16 April and 24 September 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-oasis.md — 2024-10-05–2024-10-11 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -174,9 +177,10 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Recovered from the darkness</h2><p>Sombra finds the lantern attached to a dead man’s belt in Albayt Alkabir. It readily bonds with him, and its condition improves when the company brings it outside into the light.</p><h2>The previous Lightbringer</h2><p>Luxcit names its previous bearer as Harlan Rayburn, whom it describes as a radiant servant of Pelor. It asks the rescuers to honour him by fighting evil. These identifications come from Luxcit’s own account.</p>",
+      "body": "<h2>Recovered from the darkness</h2><p>Sombra finds the lantern attached to a dead man’s belt in Albayt Alkabir. It readily bonds with him, and its condition improves when the company brings it outside into the light.</p><h2>The previous Lightbringer</h2><p>Luxcit names its previous bearer as Harlan Rayburn, whom it describes as a radiant servant of Pelor. It asks the rescuers to honour him by fighting evil. These identifications come from Luxcit’s own account.</p><h2>Before the recovery</h2><p>Khemset’s earlier account describes Harlan carrying a lantern into the Albayt. She says its light died when he fell and that her injuries prevented its recovery. Her testimony supplies the human cost behind the company’s later discovery of Luxcit; she does not identify the structure’s taunting voice.</p>",
       "sources": [
-        "2024-rp.md — 25 October 2024; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -217,9 +221,10 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>The road to Khars Madar</h2><p>Eudora travels with Sombra, Vespere and Keagan. During the attack on the two sisters, she uses music and a threatening dragon illusion against a hyena. She asks the company to bring the dead sister’s body with them.</p><h2>Below the city and beyond</h2><p>Eudora accompanies the exploration beneath the Tayyeb quarter and the later expedition that frees four kobolds near Icyscale Roost. Her earlier military title is her own account, not an independently documented Gedankin commission.</p>",
+      "body": "<h2>The road to Khars Madar</h2><p>Eudora travels with Sombra, Vespere and Keagan. During the attack on the two sisters, she uses music and a threatening dragon illusion against a hyena. She asks the company to bring the dead sister’s body with them.</p><h2>Below the city and beyond</h2><p>Eudora accompanies the exploration beneath the Tayyeb quarter and the later expedition that frees four kobolds near Icyscale Roost. Her earlier military title is her own account, not an independently documented Gedankin commission.</p><h2>Music at the refuge</h2><p>At the Oasis, Eudora plays the viol and describes teaching herself despite her family’s lack of enthusiasm. Sombra thanks her for guidance in battle. She answers that a soldier helps the team succeed, connecting her music to the work of keeping companions alive.</p>",
       "sources": [
-        "2024-rp.md — 16 April–24 September 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 16 April–24 September 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-oasis.md — 2024-10-05 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -590,15 +595,18 @@ window.GedankinData = {
         "The Strange Shore",
         "Research",
         "Kara Vash",
-        "Sixtus"
+        "Sixtus",
+        "Rhalor Valtaryn"
       ],
       "facts": {
         "World": "Gedankin",
-        "Recorded at": "The Shore and route to the Oasis"
+        "Recorded at": "The Shore and route to the Oasis",
+        "Full name": "Rhalor Valtaryn"
       },
-      "body": "<h2>A mind on the experiment</h2><p>Rhalor appears as a pale high elf with tattoos along his forearm. He tells Sixtus and Kara that he remembers mixing a purple compound into purified water, then seeing the Void and waking on the beach. This remains his account, rather than proof that the experiment caused the crossing.</p><h2>Finding the others again</h2><p>Kara finds him at the Shore after he has wandered away from the meteorite camp. He has missed the meeting with Cala and asks who she is. He joins Kara and Sixtus on the way toward the new Oasis camp, still talking about the equipment his research needs.</p>",
+      "body": "<h2>A mind on the experiment</h2><p>Rhalor appears as a pale high elf with tattoos along his forearm. He tells Sixtus and Kara that he remembers mixing a purple compound into purified water, then seeing the Void and waking on the beach. This remains his account, rather than proof that the experiment caused the crossing.</p><h2>Finding the others again</h2><p>Kara finds him at the Shore after he has wandered away from the meteorite camp. He has missed the meeting with Cala and asks who she is. He joins Kara and Sixtus on the way toward the new Oasis camp, still talking about the equipment his research needs.</p><h2>Olive branches</h2><p>At the Oasis he introduces himself as Rhalor Valtaryn. Seeking greater understanding and mastery of himself, he conjures olive twigs for Eudora and Sombra. His offer to make peace with their situation includes a willingness to defend it by force.</p>",
       "sources": [
-        "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2024-10-05 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -619,10 +627,11 @@ window.GedankinData = {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis"
       },
-      "body": "<h2>A guide in need of a guide</h2><p>After a burst of celestial light, Aurora wakes on the sands and accepts <a href=\"#atrax\">Atrax’s</a> offer to lead her to water. She says she formerly worked as a guide, helping people while living close to the elements.</p><h2>A living path</h2><p>Atrax explains his palm-trunk waymarkers and the shifting dunes. Aurora proposes growing native plants along the route as a longer-term alternative. The idea is discussed, not shown as a completed path. She offers what help she can and reaches the Oasis, where Atrax points her toward Sombra for food.</p><h2>Two distinct people</h2><p>This early Shore traveller is Aurora, a separate person from <a href=\"#aurora\">Aurora Luminaria</a> of House Vita Imperatoris. Their shared given name does not connect their histories.</p>",
+      "body": "<h2>A guide in need of a guide</h2><p>After a burst of celestial light, Aurora wakes on the sands and accepts <a href=\"#atrax\">Atrax’s</a> offer to lead her to water. She says she formerly worked as a guide, helping people while living close to the elements.</p><h2>A living path</h2><p>Atrax explains his palm-trunk waymarkers and the shifting dunes. Aurora proposes growing native plants along the route as a longer-term alternative. The idea is discussed, not shown as a completed path. She offers what help she can and reaches the Oasis, where Atrax points her toward Sombra for food.</p><h2>Two distinct people</h2><p>This early Shore traveller is Aurora, a separate person from <a href=\"#aurora\">Aurora Luminaria</a> of House Vita Imperatoris. Their shared given name does not connect their histories.</p><h2>Care for a survivor</h2><p>At the Oasis, Aurora supports the wounded Khemset and asks whether she needs healing. She offers help through the Way of the Elements after hearing Khemset’s fears about her failing magic. No successful treatment is shown. This is the early traveller Aurora, distinct from Aurora Luminaria.</p>",
       "sources": [
         "gedankin-the-shore.md — 2024-10-07–2024-10-08 (UTC posting dates; in-world dates unestablished).",
-        "World creator clarification — 8 October 2026: Aurora and Aurora Luminaria are distinct characters."
+        "World creator clarification — 8 October 2026: Aurora and Aurora Luminaria are distinct characters.",
+        "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -644,9 +653,10 @@ window.GedankinData = {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis"
       },
-      "body": "<h2>A rough beginning</h2><p>Bramble wakes with sand in her mouth beneath a pillar of light. She initially suspects Atrax of abducting her. Her remarks about his heritage turn their conversation hostile; when she apologises and admits she is frightened and overwhelmed, he continues guiding her.</p><h2>A small act of repair</h2><p>The desert seems to rearrange as the Oasis appears. Bramble asks whether they may become friends; Atrax’s answer is guarded. She makes a flower bloom from a seed and offers it to him. He accepts it with thanks, and she begins pitching her tent beside the unfinished longhouse.</p><h2>On the other side of the welcome</h2><p>In a later encounter, Bramble uses her reflective wings to draw Tarset Caskbloom’s attention. Their argument ends with her returning to the Oasis without him. Having once needed a guide has not made every welcome easy or successful.</p>",
+      "body": "<h2>A rough beginning</h2><p>Bramble wakes with sand in her mouth beneath a pillar of light. She initially suspects Atrax of abducting her. Her remarks about his heritage turn their conversation hostile; when she apologises and admits she is frightened and overwhelmed, he continues guiding her.</p><h2>A small act of repair</h2><p>The desert seems to rearrange as the Oasis appears. Bramble asks whether they may become friends; Atrax’s answer is guarded. She makes a flower bloom from a seed and offers it to him. He accepts it with thanks, and she begins pitching her tent beside the unfinished longhouse.</p><h2>On the other side of the welcome</h2><p>In a later encounter, Bramble uses her reflective wings to draw Tarset Caskbloom’s attention. Their argument ends with her returning to the Oasis without him. Having once needed a guide has not made every welcome easy or successful.</p><h2>Cooling the treants</h2><p>Bramble meets Grimthorne while staying near Ashbriar. She disputes Grimthorne’s dismissive description of her, apologises when Ashbriar objects to her nickname, and offers to tend his leaves and bark. Seeing their distress in the heat, she cools the air with magic; Grimthorne falls asleep and Ashbriar rests in the water.</p>",
       "sources": [
-        "gedankin-the-shore.md — 2025-12-07–2026-01-25 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2025-12-07–2026-01-25 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-02-10 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -662,15 +672,20 @@ window.GedankinData = {
         "Ossi",
         "The Tynged",
         "Atrax",
-        "Athkatla"
+        "Athkatla",
+        "Ossimandi",
+        "Fayn",
+        "Leon Zantharis"
       ],
       "facts": {
         "World": "Gedankin",
-        "Recorded at": "The Shore and route to the Oasis"
+        "Recorded at": "The Shore and route to the Oasis",
+        "Full name": "Ossimandi"
       },
-      "body": "<h2>Peace offered at a distance</h2><p>Ossi initially recoils from Atrax and insists he will not go back. Atrax keeps his distance, warns him about the edge and offers a route to water without demanding payment. Ossi cautiously follows.</p><h2>A fresh start</h2><p>He gives his name as Ossi and says he has been carted to Athkatla for entertainment. The account does not identify everyone responsible for that past. Atrax’s assurances about returning home are his understanding, not a demonstrated law; for Ossi they nevertheless offer hope of freedom.</p><h2>Freedom is not another master</h2><p>As Atrax describes Cala’s task, Ossi challenges the idea of becoming a god’s pet after gaining his freedom. He reaches the Oasis, thanks his guide and apologises for his first response. Accepting help does not settle every question about whose cause he will serve.</p>",
+      "body": "<h2>Peace offered at a distance</h2><p>Ossi initially recoils from Atrax and insists he will not go back. Atrax keeps his distance, warns him about the edge and offers a route to water without demanding payment. Ossi cautiously follows.</p><h2>A fresh start</h2><p>He gives his name as Ossi and says he has been carted to Athkatla for entertainment. The account does not identify everyone responsible for that past. Atrax’s assurances about returning home are his understanding, not a demonstrated law; for Ossi they nevertheless offer hope of freedom.</p><h2>Freedom is not another master</h2><p>As Atrax describes Cala’s task, Ossi challenges the idea of becoming a god’s pet after gaining his freedom. He reaches the Oasis, thanks his guide and apologises for his first response. Accepting help does not settle every question about whose cause he will serve.</p><h2>A name and a first lesson</h2><p>At the Oasis, he gives his name as Ossimandi, with Ossi as the familiar form. Leon’s insistence on reading lessons reminds him of a Ringmaster; Ossi initially refuses, then decides to try. Leon writes Ossi’s and Fayn’s names. Ossi leaves still puzzled, and Fayn follows, having promised protection and offered friendship.</p>",
       "sources": [
-        "gedankin-the-shore.md — 2026-03-25 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2026-03-25 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -738,9 +753,10 @@ window.GedankinData = {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis"
       },
-      "body": "<h2>Far from the grove</h2><p>Ashbriar appears in the Shore accounts as a treant. He identifies himself to Aurora Luminaria as a former cultivator and calls himself the last tree. That is how he describes his situation, not a census of all living trees in Gedankin.</p><h2>Shelter at a cost</h2><p>When Aurora meets him, he condemns the felling of palms for shelter and fears the loss of their roots will imperil the Oasis’s water. His ecological warning and his claim that nothing remains to plant stay attributed to him; the wider fate of the Oasis is not established by the argument.</p><h2>A promise to search</h2><p>Aurora challenges his hostility, but offers to help find and grow new trees. Ashbriar says a distant tree called to him from the bones of an ancient entity he believes was primordial. Their exchange offers a lead and hope for a grove, not proof of the entity’s identity or a completed restoration. He guides her to the settlement.</p>",
+      "body": "<h2>Far from the grove</h2><p>Ashbriar appears in the Shore accounts as a treant. He identifies himself to Aurora Luminaria as a former cultivator and calls himself the last tree. That is how he describes his situation, not a census of all living trees in Gedankin.</p><h2>Shelter at a cost</h2><p>When Aurora meets him, he condemns the felling of palms for shelter and fears the loss of their roots will imperil the Oasis’s water. His ecological warning and his claim that nothing remains to plant stay attributed to him; the wider fate of the Oasis is not established by the argument.</p><h2>A promise to search</h2><p>Aurora challenges his hostility, but offers to help find and grow new trees. Ashbriar says a distant tree called to him from the bones of an ancient entity he believes was primordial. Their exchange offers a lead and hope for a grove, not proof of the entity’s identity or a completed restoration. He guides her to the settlement.</p><h2>A brother and a little shade</h2><p>At the Oasis, Ashbriar describes a vision of a mighty tree to Grimthorne and argues that they need other travellers’ help to survive the search. Bramble apologises for an unwelcome nickname and offers care. When she cools the air, both treants rest beside or in the water. Her magic offers immediate relief, not a restored grove.</p>",
       "sources": [
-        "gedankin-the-shore.md — 2026-05-21–2026-06-02 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2026-05-21–2026-06-02 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2026-02-10 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -787,6 +803,120 @@ window.GedankinData = {
       "sources": [
         "gedankin-the-shore.md — 2026-01-23 (UTC posting dates; in-world dates unestablished)."
       ]
+    },
+    {
+      "id": "khemset",
+      "title": "Khemset",
+      "type": "Wounded survivor",
+      "summary": "A survivor of the first failed Albayt expedition, carrying news of lost companions and a light left behind.",
+      "dek": "A survivor of the first failed Albayt expedition, carrying news of lost companions and a light left behind.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Albayt Alkabir",
+        "Harlan",
+        "Lantern",
+        "Plains of Dust"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Oasis"
+      },
+      "body": "<h2>Out of the Grand House</h2><p>Khemset emerges injured from <a href=\"#albayt-alkabir\">Albayt Alkabir</a>. She asks <a href=\"#atrax\">Atrax</a> and <a href=\"#irenhour\">Irenhour</a> for an escort to the Oasis in exchange for what she knows. Atrax helps her walk; their tense meeting becomes a rescue.</p><h2>The expedition she remembers</h2><p>She says four people entered the structure, encountering monsters, traps, an unseen taunting voice and an interior larger than its exterior suggested. She credits herself with naming it Albayt Alkabir, the Great or Grand House. Her companions did not survive, she says, and she refuses to go back.</p><h2>The light left inside</h2><p>Khemset remembers Harlan carrying a special lantern. Its light went out when he fell, and her wounds kept her from recovering it. Her testimony precedes the later recovery of <a href=\"#luxcit\">Luxcit</a>; she does not identify the unseen voice or explain every secret of the building.</p><h2>A refuge without a cure</h2><p>At the Oasis, Sombra shares fruit and the early traveller Aurora offers support and healing. Khemset says she comes from the Plains of Dust and is cut off from the moons Solinari, Lunitari and Nuitari. She fears that her molting and dwindling magic will kill her. That is her prognosis: this scene shows neither a cure nor her death. She finally asks for time alone.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "salim-jalusiwa",
+      "title": "Salim Jalusiwa",
+      "type": "Travelling merchant",
+      "summary": "A merchant of the Seven Sands who brings magical wares, offers of future supplies and a shared pot of tea.",
+      "dek": "A merchant of the Seven Sands who brings magical wares, offers of future supplies and a shared pot of tea.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Salim",
+        "Wandering Wares",
+        "Wandering Emporium",
+        "Wadi",
+        "Seven Sands"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Oasis"
+      },
+      "body": "<h2>Wares on the sands</h2><p>Salim arrives at the Oasis with his camel Wadi and a flying carpet. He introduces his trade as Wandering Wares, also calling it the Wandering Emporium. He offers potions, orbs and other magical goods. His sales claims remain his claims; the scene does show Irenhour buying a lantern and Kara obtaining a diamond.</p><h2>Supplies for a settlement</h2><p>Irenhour asks for live goats, spices and wood. Salim hopes to find the goats on a later visit. This is an arrangement to seek supplies, not evidence that a herd arrived. His account of the Seven Sands offers a traveller’s perspective, without charting every place it can lead.</p><h2>Three cups of tea</h2><p>Salim invites Irenhour to share tea as a way to know one another. Irenhour offers water and berries, heats the pot with magic and pours. Their hospitality sits alongside the bargaining. Wadi’s reluctance to approach the distant structure is an observed reaction, not a proven explanation of its dangers.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2024-11-02 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "grimthorne",
+      "title": "Grimthorne",
+      "type": "Treant",
+      "summary": "Ashbriar’s fellow treant, hostile to change and struggling with the desert’s heat and sunless sky.",
+      "dek": "Ashbriar’s fellow treant, hostile to change and struggling with the desert’s heat and sunless sky.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Treant",
+        "Ashbriar",
+        "Bramble Blackberry"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Oasis"
+      },
+      "body": "<h2>Guardians far from home</h2><p>Grimthorne and <a href=\"#ashbriar\">Ashbriar</a> call one another brother. They describe themselves as guardians grown from seed, rather than raised by druids. Grimthorne treats other peoples with open contempt and speaks of harvesting them to nourish soil; this is his stated intent, not an act shown in the encounter.</p><h2>A calling still to follow</h2><p>Ashbriar describes a vision of a mighty tree and argues that they will need other travellers to survive the search. Grimthorne reluctantly agrees to listen. Their hopes do not establish the tree’s location or identity.</p><h2>A little relief</h2><p>Heat drives both treants toward the water. <a href=\"#bramble-blackberry\">Bramble</a> cools the air around them with magic. Grimthorne sighs with relief and falls asleep; Ashbriar settles into the water. The kindness eases the moment without solving the refuge’s longer-term problems.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-02-10 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "fayn",
+      "title": "Fayn",
+      "type": "Forest defender",
+      "summary": "A protective traveller who offers Ossi friendship without demanding anything in return.",
+      "dek": "A protective traveller who offers Ossi friendship without demanding anything in return.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Ossi",
+        "Leon Zantharis",
+        "Friendship"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Oasis"
+      },
+      "body": "<h2>Protecting friends</h2><p>Fayn tells Leon about defending animal friends and trees from hunters. These are Fayn’s accounts of earlier encounters, rather than a map of a newly established Gedankin forest.</p><h2>Making room for Ossi</h2><p>When Ossi objects to the noise, Fayn offers to leave and then lowers her voice. Hearing Ossi mention a Ringmaster, she promises to keep that person from hurting her new friend. Ossi responds warmly. The scene records a promise of protection, not a confrontation with the Ringmaster.</p><h2>Letters and company</h2><p>Leon writes their names during an introductory reading lesson. Fayn stays with Ossi, then follows when he leaves. Neither is shown becoming a fluent reader in this single encounter.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "leon-zantharis",
+      "title": "Leon Zantharis",
+      "type": "Businessman · would-be tutor",
+      "summary": "A self-described businessman whose insistent offer of instruction becomes Ossi’s first shown reading lesson.",
+      "dek": "A self-described businessman whose insistent offer of instruction becomes Ossi’s first shown reading lesson.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Leon",
+        "Ossi",
+        "Fayn",
+        "Reading"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Oasis"
+      },
+      "body": "<h2>An introduction at the Oasis</h2><p>Leon introduces himself to Fayn as a businessman. Their conversation turns to hunting, friendship and Ossi’s difficulty reading.</p><h2>Learning on Ossi’s terms</h2><p>Leon presses the benefits of literacy. Ossi initially resists, saying he will ask when ready, and compares the pressure to his former Ringmaster. Leon denies that role. Ossi then chooses to try learning; Leon writes O-S-S-I and F-A-Y-N and begins explaining the letters.</p><h2>A beginning, not mastery</h2><p>Ossi leaves still confused, with Fayn following. The exchange starts a lesson but does not establish lasting tuition, completed literacy or authority over either traveller.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished)."
+      ]
     }
   ],
   "locations": [
@@ -822,22 +952,19 @@ window.GedankinData = {
       "dek": "Cala’s refuge between the dunes, and the starting point of expeditions into Gedankin.",
       "tags": [
         "Gedankin",
-        "Cala",
-        "Blue Scales",
+        "The Oasis",
         "Refuge",
-        "The Shore",
-        "Bramble Blackberry",
-        "Manzur",
-        "Ashbriar",
-        "Aurora Luminaria"
+        "Longhouse",
+        "Trade"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Shelter in the desert</h2><p>Cala reveals an elliptical oasis between two dunes, with palms, reeds and lean-tos. She calls it her creation and offers it as a place to meet the company’s physical needs.</p><h2>A gathering place</h2><p>The Oasis receives travellers, wounded visitors and pleas for help. Zrurg reaches it seeking aid for the Blue Scales. Later expeditions depart for the city and mountains; by September the settlement includes unfinished palm-log construction.</p><h2>Building a welcome</h2><p>Arrivals from the Shore repeatedly find temporary lean-tos and a half-built longhouse. Atrax patrols the perimeter, guides newcomers and describes improving the shelter one small task at a time. Bramble’s offered flower and Manzur’s later welcome of Gisan show a camp sustained by ordinary acts as well as expeditions.</p><h2>A grove promised</h2><p>Ashbriar fears that cutting palms will undermine the refuge; Aurora Luminaria promises to help restore trees. His account of the damage and her promised remedy are preserved as warning and intention, without inventing a completed planting or a final fate for the water.</p>",
+      "body": "<h2>Shelter in the desert</h2><p>Cala reveals an elliptical oasis between two dunes, with palms, reeds and lean-tos. She calls it her creation and offers it as a place to meet the company’s physical needs.</p><h2>A gathering place</h2><p>The Oasis receives travellers, wounded visitors and pleas for help. Zrurg reaches it seeking aid for the Blue Scales. Later expeditions depart for the city and mountains; by September the settlement includes unfinished palm-log construction.</p><h2>Building a welcome</h2><p>Arrivals from the Shore repeatedly find temporary lean-tos and a half-built longhouse. Atrax patrols the perimeter, guides newcomers and describes improving the shelter one small task at a time. Bramble’s offered flower and Manzur’s later welcome of Gisan show a camp sustained by ordinary acts as well as expeditions.</p><h2>A grove promised</h2><p>Ashbriar fears that cutting palms will undermine the refuge; Aurora Luminaria promises to help restore trees. His account of the damage and her promised remedy are preserved as warning and intention, without inventing a completed planting or a final fate for the water.</p><h2>The beginnings of a home</h2><p>The early camp has music, shared fruit and olive branches offered in peace. Eudora plays while Sombra feeds companions and Rhalor tries to make peace with their circumstances. On 6–7 October 2024, in the posting record, Irenhour and Atrax begin preparing a common longhouse, intending to preserve denser palms for shade. This records the beginning of construction, not a completed building.</p><h2>A place for survivors</h2><p><a href=\"#khemset\">Khemset</a> returns wounded from the Albayt with Atrax and Irenhour. Sombra offers food and the early Aurora offers care. Khemset’s account of lost companions and a lantern left inside precedes the later recovery of Luxcit.</p><h2>Trade and small kindnesses</h2><p><a href=\"#salim-jalusiwa\">Salim</a> brings wares and shares tea; requested goats remain a hoped-for delivery. Bramble cools the struggling treants. Later, <a href=\"#leon-zantharis\">Leon</a> begins a reading lesson after Ossi chooses to try, while <a href=\"#fayn\">Fayn</a> offers friendship. The refuge is built through these ordinary encounters as well as expeditions.</p>",
       "sources": [
         "2024-rp.md — 4 October 2024–18 September 2026; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-shore.md — 2024-10-07–2026-09-22 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2024-10-07–2026-09-22 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2024-10-05–2026-09-03 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -856,10 +983,11 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>The recovered lantern</h2><p>The company explores the structure and finds a magical lantern attached to a dead bearer. Sombra bonds with it and carries it outside; it introduces itself as Luxcit and names the dead Lightbringer Harlan Rayburn.</p><h2>The record’s limits</h2><p>The lantern recovery is documented here. Other encounters in this large expedition have not yet received a complete scene-by-scene account in the Codex.</p><h2>What the guides report</h2><p>In the accounts posted in December 2025 and March 2026, Atrax says a major storm buried the structure and left the task incomplete. In May he describes repeated visits and changing rooms, without dating those expeditions. By September, Manzur reports reaching eight rooms and finding cleared chambers occupied again on return. These are dated reports of the company’s knowledge; they do not establish the exact reopening date or the defeat of the evil said to lie inside.</p>",
+      "body": "<h2>The recovered lantern</h2><p>The company explores the structure and finds a magical lantern attached to a dead bearer. Sombra bonds with it and carries it outside; it introduces itself as Luxcit and names the dead Lightbringer Harlan Rayburn.</p><h2>The record’s limits</h2><p>The lantern recovery is documented here. Other encounters in this large expedition have not yet received a complete scene-by-scene account in the Codex.</p><h2>What the guides report</h2><p>In the accounts posted in December 2025 and March 2026, Atrax says a major storm buried the structure and left the task incomplete. In May he describes repeated visits and changing rooms, without dating those expeditions. By September, Manzur reports reaching eight rooms and finding cleared chambers occupied again on return. These are dated reports of the company’s knowledge; they do not establish the exact reopening date or the defeat of the evil said to lie inside.</p><h2>The name and the lost expedition</h2><p>Khemset says she named the structure Albayt Alkabir, meaning Great or Grand House. Emerging wounded in the October 2024 posting record, she reports that four people entered, met monsters, traps and a taunting voice, and found the inside larger than expected. She says her companions fell and Harlan’s lantern went dark. These are her recollections; they do not establish the voice’s identity or an exact plan of the interior.</p><p><a href=\"#khemset\">Read Khemset’s account →</a></p>",
       "sources": [
         "2024-rp.md — 25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-shore.md — 2025-12-08–2026-09-22 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2025-12-08–2026-09-22 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -998,10 +1126,11 @@ window.GedankinData = {
         "World": "Gedankin",
         "Record": "Map landmark"
       },
-      "body": "<h2>On the map</h2><p>The desert region labelled The Seven Sands on the Gedankin map.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p><h2>A name carried by a traveller</h2><p>Atrax tells Bramble that a passing caravaneer called the desert the Seven Sands. Manzur later repeats the name while guiding Gisan. Their testimony gives the map label a place in everyday speech; the Shore record does not chart every boundary or establish an exhaustive list of settlements.</p>",
+      "body": "<h2>On the map</h2><p>The desert region labelled The Seven Sands on the Gedankin map.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p><h2>A name carried by a traveller</h2><p>Atrax tells Bramble that a passing caravaneer called the desert the Seven Sands. Manzur later repeats the name while guiding Gisan. Their testimony gives the map label a place in everyday speech; the Shore record does not chart every boundary or establish an exhaustive list of settlements.</p><h2>A merchant’s road</h2><p>Salim Jalusiwa calls these the Seven Sands and says they can lead to many lands. His Oasis visit shows trade reaching the refuge by camel and flying carpet. It does not establish the boundaries of every region or turn his promises of future supplies into completed deliveries.</p>",
       "sources": [
         "Gedankin.png — world map supplied by the user.",
-        "gedankin-the-shore.md — 2025-12-07–2026-09-22 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2025-12-07–2026-09-22 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-oasis.md — 2024-11-02 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -1879,6 +2008,200 @@ window.GedankinData = {
         "Nnadunggisan"
       ],
       "location": "The Shore"
+    },
+    {
+      "id": "oasis-fruit-music-olive-branches",
+      "title": "Fruit, Music and Olive Branches",
+      "summary": "The early refuge finds companionship in a meal, music and a gesture of peace.",
+      "dek": "The early refuge finds companionship in a meal, music and a gesture of peace.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Eudora",
+        "Sombra Estrellar",
+        "Rhalor"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2024-10-05",
+        "Location": "The Oasis",
+        "Participants": "Eudora, Sombra Estrellar, Rhalor",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>A shared beginning</h2><p>Eudora plays the viol, Sombra shares fruit and Rhalor introduces himself as Rhalor Valtaryn. Rhalor offers conjured olive twigs, proposing peace with their situation while allowing that it may need defending. Eudora speaks of helping her team succeed.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2024-10-05 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2024-10-05-oasis",
+      "meta": "2024-10-05",
+      "people": [
+        "Eudora",
+        "Sombra Estrellar",
+        "Rhalor"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "oasis-longhouse-begun",
+      "title": "Irenhour and Atrax Begin the Longhouse",
+      "summary": "Two inexperienced builders prepare palms for a shared shelter.",
+      "dek": "Two inexperienced builders prepare palms for a shared shelter.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Irenhour",
+        "Atrax"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2024-10-06–2024-10-07",
+        "Location": "The Oasis",
+        "Participants": "Irenhour, Atrax",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Shelter first</h2><p>Atrax prioritises shelter. Irenhour proposes preserving dense palms for shade and works on isolated trees with elemental magic. The two prepare timber for a common longhouse and discuss possible nails. The scene begins the work; it does not finish the building.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2024-10-06–2024-10-07 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2024-10-06-oasis",
+      "meta": "2024-10-06–2024-10-07",
+      "people": [
+        "Irenhour",
+        "Atrax"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "khemset-returns-from-albayt",
+      "title": "Khemset Returns with News of the Lost Expedition",
+      "summary": "An injured survivor reaches the Oasis and describes a lantern left in the Albayt.",
+      "dek": "An injured survivor reaches the Oasis and describes a lantern left in the Albayt.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Khemset",
+        "Atrax",
+        "Irenhour",
+        "Sombra Estrellar",
+        "Aurora (early Shore arrival)"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2024-10-11",
+        "Location": "Albayt Alkabir → The Oasis",
+        "Participants": "Khemset, Atrax, Irenhour, Sombra Estrellar, Aurora (early Shore arrival)",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>An escort and an account</h2><p>Atrax and Irenhour escort Khemset from the Albayt. At camp she recalls four entrants, lost companions, a taunting voice and Harlan’s extinguished lantern. She refuses to return. Sombra shares food and Aurora offers support; Khemset describes her failing magic and asks for solitude. Neither a cure nor her death is shown.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2024-10-11-oasis",
+      "meta": "2024-10-11",
+      "people": [
+        "Khemset",
+        "Atrax",
+        "Irenhour",
+        "Sombra Estrellar",
+        "Aurora (early Shore arrival)"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "salim-oasis-trade-tea",
+      "title": "Salim Brings Wares and Shares Tea",
+      "summary": "Trading for magical goods becomes an invitation to know one another over tea.",
+      "dek": "Trading for magical goods becomes an invitation to know one another over tea.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Salim Jalusiwa",
+        "Irenhour",
+        "Kara Vash"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2024-11-02",
+        "Location": "The Oasis",
+        "Participants": "Salim Jalusiwa, Irenhour, Kara Vash",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Bargaining and hospitality</h2><p>Salim arrives with Wadi and his carpet. Irenhour buys a lantern, Kara obtains a diamond, and future goats and other supplies are discussed. Salim invites Irenhour to share tea; Irenhour contributes water and berries and heats the pot. The goats are not shown arriving, and this lantern is separate from Luxcit.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2024-11-02 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2024-11-02-oasis",
+      "meta": "2024-11-02",
+      "people": [
+        "Salim Jalusiwa",
+        "Irenhour",
+        "Kara Vash"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "bramble-cools-the-treants",
+      "title": "Bramble Offers Relief to the Treants",
+      "summary": "A dispute about belonging and a distant tree ends with cooling magic beside the water.",
+      "dek": "A dispute about belonging and a distant tree ends with cooling magic beside the water.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Bramble Blackberry",
+        "Ashbriar",
+        "Grimthorne"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-02-10",
+        "Location": "The Oasis",
+        "Participants": "Bramble Blackberry, Ashbriar, Grimthorne",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Help in the heat</h2><p>Ashbriar tells Grimthorne of a mighty tree in a vision and argues for accepting other travellers’ help. Bramble offers care after an awkward introduction. She cools the air around the treants; Grimthorne sleeps and Ashbriar rests in the water. The scene provides relief rather than a completed restoration or located god tree.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-02-10 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-02-10-oasis",
+      "meta": "2026-02-10",
+      "people": [
+        "Bramble Blackberry",
+        "Ashbriar",
+        "Grimthorne"
+      ],
+      "location": "The Oasis"
+    },
+    {
+      "id": "ossi-fayn-first-reading-lesson",
+      "title": "Ossi Chooses a First Reading Lesson",
+      "summary": "A wary response to instruction becomes a voluntary attempt at reading and a new friendship.",
+      "dek": "A wary response to instruction becomes a voluntary attempt at reading and a new friendship.",
+      "tags": [
+        "Gedankin",
+        "The Oasis",
+        "Ossi “The Tynged”",
+        "Fayn",
+        "Leon Zantharis"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-09-03",
+        "Location": "The Oasis",
+        "Participants": "Ossi “The Tynged”, Fayn, Leon Zantharis",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Names on a page</h2><p>Ossi introduces himself as Ossimandi and initially resists Leon’s pressure to learn. Fayn offers friendship and protection. Ossi decides to try; Leon writes their names and starts explaining letters. Ossi leaves confused with Fayn following. The encounter begins learning without establishing mastery or a lasting arrangement.</p>",
+      "sources": [
+        "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-09-03-oasis",
+      "meta": "2026-09-03",
+      "people": [
+        "Ossi “The Tynged”",
+        "Fayn",
+        "Leon Zantharis"
+      ],
+      "location": "The Oasis"
     }
   ],
   "quotes": [
@@ -1958,6 +2281,42 @@ window.GedankinData = {
       "speaker": "Manzur",
       "group": "The Shore · Perseverance",
       "article": "manzur"
+    },
+    {
+      "text": "We will make peace with our situation. Whatever it may be.",
+      "speaker": "Rhalor",
+      "group": "The Oasis · Making peace",
+      "article": "rhalor"
+    },
+    {
+      "text": "I am good at violence, but unlike the other whom we met, I profess no love of it.",
+      "speaker": "Atrax",
+      "group": "The Oasis · Violence and survival",
+      "article": "atrax"
+    },
+    {
+      "text": "But I...I do not focus on the why. It is meaningless in the face of the here, now, and what now.",
+      "speaker": "Khemset",
+      "group": "The Oasis · Here and now",
+      "article": "khemset"
+    },
+    {
+      "text": "From these seven sands, you may reach many lands.",
+      "speaker": "Salim Jalusiwa",
+      "group": "The Oasis · Roads and possibilities",
+      "article": "salim-jalusiwa"
+    },
+    {
+      "text": "Your water is my water.",
+      "speaker": "Irenhour",
+      "group": "The Oasis · Hospitality",
+      "article": "irenhour"
+    },
+    {
+      "text": "Fayn make sure no one hurt friend. Fayn protect friend. Fayn not let Ringmaster touch friend.",
+      "speaker": "Fayn",
+      "group": "The Oasis · Friendship",
+      "article": "fayn"
     }
   ],
   "articles": [

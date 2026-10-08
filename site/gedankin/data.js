@@ -498,6 +498,34 @@ window.GedankinData = {
       "sources": [
         "2024-rp.md — 24 September 2026; dates refer to UTC posting dates, not established in-world dates."
       ]
+    },
+    {
+      "id": "pac",
+      "title": "Pac",
+      "type": "House Adijit · Arena contact",
+      "summary": "The House Adijit contact who brings Vaerik into the gladiator lodge and prepares him for his first bout.",
+      "dek": "The House Adijit contact who brings Vaerik into the gladiator lodge and prepares him for his first bout.",
+      "tags": [
+        "Gedankin",
+        "House Adijit",
+        "Vaerik",
+        "Arena"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Affiliation": "House Adijit",
+        "Recorded role": "Arranges Vaerik’s arena entry and preparation",
+        "Location": "Khars Madar"
+      },
+      "image": "assets/pac.webp",
+      "imageLayout": "portrait-hero",
+      "imageAlt": "Pac, a purple-scaled reptilian figure with golden eyes, wrapped in sand-coloured cloth and ornate gold jewellery",
+      "imageCaption": "Pac — House Adijit, Gedankin.",
+      "body": "<h2>The invitation to fight</h2><p>Pac meets Vaerik at the entrance to Khars Madar and asks whether he wants to fight. After Vaerik agrees, Pac vouches for him to the guards and takes him to the <a href=\"#adijit-gladiator-lodge\">House Adijit Gladiator Lodge</a>.</p><h2>Preparing the contestant</h2><p>At the lodge, Pac explains that indebted contestants usually fight in pairs, but Vaerik will enter alone because the bout is approaching. He describes a progression through beast fights before contests against the champions of the Three Houses, should Vaerik choose to continue.</p><h2>The crowd’s favour</h2><p>Pac stresses that survival and spectacle matter together: defensive attrition may win a fight, but can bore the audience. He checks that Vaerik is ready and sends him toward the arena, urging him to give the crowd a good show. The record establishes Pac’s practical role in preparing the fighter, without naming a formal rank within <a href=\"#house-adijit\">House Adijit</a>.</p>",
+      "sources": [
+        "2024-rp.md — Khars Madar entry and House Adijit Gladiator Lodge, 16 July 2026 (UTC posting date).",
+        "Pac.webp — artwork supplied by the user."
+      ]
     }
   ],
   "locations": [
@@ -636,7 +664,7 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Before the bout</h2><p>Attendants and established fighters share the lodge with newcomers. Pac explains expectations to Vaerik, who identifies himself as a soldier rather than a captain.</p><h2>How this scene fits</h2><p>The lodge exchange occurs on 16 July 2026 before Vaerik’s arena fight, although the export places the lodge channel after later September messages. The Codex orders the scene by its posting date and context.</p>",
+      "body": "<h2>Before the bout</h2><p>Attendants and established fighters share the lodge with newcomers. <a href=\"#pac\">Pac</a> explains expectations to Vaerik, who identifies himself as a soldier rather than a captain.</p><h2>How this scene fits</h2><p>The lodge exchange occurs on 16 July 2026 before Vaerik’s arena fight, although the export places the lodge channel after later September messages. The Codex orders the scene by its posting date and context.</p>",
       "sources": [
         "2024-rp.md — 16 July 2026; dates refer to UTC posting dates, not established in-world dates."
       ]

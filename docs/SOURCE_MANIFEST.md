@@ -95,6 +95,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `Saturnia_Ultimate_Fenumion_Codex_Entry.md` | User-supplied 7 Oct 2026 | Public biography, three attributed quotations and nine dated timeline records, respecting the dossier’s explicit disclosure boundary. See `docs/SATURNIA_HISTORY.md`. Full source retained only in the local private archive. |
 
+| `babel-quest-rp.md` | User-supplied 7 Oct 2026; 4,362 primary messages | Selected complete scenes: Akarian training, Babel rescue and survivors’ campfire, mountain offensive and closing reconnaissance. Six People records, Skylight Refuge article/map link, five new and five refined timeline records, five exact quote excerpts and affected biographies. Coverage limits: `docs/BABEL_PRIMARY_SOURCE_HISTORY.md`; full source and message ledger remain local/private. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

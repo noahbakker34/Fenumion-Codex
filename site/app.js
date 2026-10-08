@@ -13199,6 +13199,302 @@ const saturniaTimelineEvents = [{"title": "Scribonia’s spellbook manifests Sat
 archiveIndex.timeline.push(...saturniaTimelineEvents);
 Object.assign(questEventConsequences, {"Scribonia’s spellbook manifests Saturnia": "Source: Saturnia_Ultimate_Fenumion_Codex_Entry.md, §15–16; chronology §45. Manifest Mind scenes describe a spellbook manifestation; they do not by themselves prove direct divine presence. Ancient chronology and the mechanism of ascension remain unresolved.", "A temptation wears Saturnia’s face": "Source: Saturnia_Ultimate_Fenumion_Codex_Entry.md, §18; selected quotes §44. Manifest Mind scenes describe a spellbook manifestation; they do not by themselves prove direct divine presence. Ancient chronology and the mechanism of ascension remain unresolved.", "Saturnia’s manifestation dances through a library": "Source: Saturnia_Ultimate_Fenumion_Codex_Entry.md, chronology §45. Manifest Mind scenes describe a spellbook manifestation; they do not by themselves prove direct divine presence. Ancient chronology and the mechanism of ascension remain unresolved.", "Scribonia offers his knowledge to Moirah": "Source: Saturnia_Ultimate_Fenumion_Codex_Entry.md, §44–45. Manifest Mind scenes describe a spellbook manifestation; they do not by themselves prove direct divine presence. Ancient chronology and the mechanism of ascension remain unresolved.", "Saturnia’s manifestation helps Scribonia mirror a dance": "Source: Saturnia_Ultimate_Fenumion_Codex_Entry.md, chronology §45. Manifest Mind scenes describe a spellbook manifestation; they do not by themselves prove direct divine presence. Ancient chronology and the mechanism of ascension remain unresolved.", "Scribonia dances with a star-bright Saturnia": "Source: Saturnia_Ultimate_Fenumion_Codex_Entry.md, chronology §45. Manifest Mind scenes describe a spellbook manifestation; they do not by themselves prove direct divine presence. Ancient chronology and the mechanism of ascension remain unresolved.", "Vesperax names Saturnia’s arcane duty": "Source: Saturnia_Ultimate_Fenumion_Codex_Entry.md, §44–45. Manifest Mind scenes describe a spellbook manifestation; they do not by themselves prove direct divine presence. Ancient chronology and the mechanism of ascension remain unresolved.", "Scribonia investigates Saturnia through Legend Lore": "Source: Saturnia_Ultimate_Fenumion_Codex_Entry.md, chronology §45. Manifest Mind scenes describe a spellbook manifestation; they do not by themselves prove direct divine presence. Ancient chronology and the mechanism of ascension remain unresolved.", "Legend Lore reveals Saturnia’s arrival": "Source: Saturnia_Ultimate_Fenumion_Codex_Entry.md, §2, §4, §45–46. Manifest Mind scenes describe a spellbook manifestation; they do not by themselves prove direct divine presence. Ancient chronology and the mechanism of ascension remain unresolved."});
 articles.find(article => article.id === "memorable-quotes").body = articles.find(article => article.id === "memorable-quotes").body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"saturnia-remembered\">Saturnia · The sage and the keeper</h2><p>These lines are spoken to or about Saturnia. Their speakers are preserved.</p><button type=\"button\" class=\"quote-card\" data-article=\"saturnia\"><blockquote>“Welcome. I am Ser Kurayami. Welcome to the fractured continent of Fenumion. So the gods sent a scholar this time. Good. I hope you know the arcane. You will need it here.”</blockquote><cite>Ser Kurayami · welcoming young Saturnia</cite></button><button type=\"button\" class=\"quote-card\" data-article=\"saturnia\"><blockquote>“Keeper of the arcane secrets, an ancient vassal of the first god, forever bound to duty to protect the secrets of arcana in this realm.”</blockquote><cite>Vesperax · on Saturnia</cite></button><button type=\"button\" class=\"quote-card\" data-article=\"saturnia\"><blockquote>“I am sorry, Great Sage. But a sacrifice must be made. I wish to have met you. But alas, it was not to be. Goodbye, Saturnia.”</blockquote><cite>Scribonia · to Saturnia’s manifestation</cite></button>" + '<h2 id="why-these-lines-remain">');
+// Babel primary-source recovery: selected complete scenes, with posting dates kept distinct.
+const babelRecoveredArticles = [
+  {
+    "id": "skylight-refuge",
+    "title": "Skylight Refuge",
+    "category": "Places",
+    "type": "Babel-Ashur shelter",
+    "dek": "A rocky shelter where a hunted community gains food, a voice, and defenders amid Babel’s escalating war.",
+    "tags": [
+      "Babel-Ashur",
+      "Greyward Littoral",
+      "Refuge",
+      "Kvethe",
+      "Quille",
+      "Kyrin",
+      "Omari",
+      "Rhea"
+    ],
+    "facts": {
+      "Region": "Babel-Ashur · Greyward Littoral",
+      "Form": "Rocky chamber with high canyon walls",
+      "Use": "Shelter, recovery and planning",
+      "Status": "In use in the surviving September account"
+    },
+    "sources": [
+      "Greyward Littoral annotated map",
+      "Babel quest record · June, August and September 2026"
+    ],
+    "body": "<p><a href=\"#grayward-littoral\">Greyward Littoral’s</a> marked Skylight Refuge is more than an expedition base. Its rocky shelter becomes a place where rescued people eat, tell their history, debate evacuation, and ask whether the strangers who found them will stay. High canyon walls keep the refuge cool and dark into the morning, but the jungle beyond offers no lasting promise of safety.</p><h2 id=\"refuge-warning\">A warning and a rescue</h2><p>Aerrow reports that monsters are taking over the island and drawing closer to the caves. After a difficult argument over ambushes, fires and ecological damage, Olokun leads Elenia, Arjahn, Scribonia and Gartina back toward the caverns. A fresh blood painting depicts people being driven underground. Bloodied cloth leads them onward.</p><p>The party fights mechanical creatures and follows genuine cries for help. Beyond a sealed door, an executioner releases toxin among captives. Elenia calls for aid; Mya’s light frees the captives and protects them from the gas and contamination. That protection does not make them safe from every attack. The enemy’s armor ultimately shatters and its form slips away into the walls as mist, so a permanent destruction is not established.</p><p>A nomad recognizes Olokun as the painter and entrusts Elenia with a giant golden seed. The nomad calls it one of four and reports that the enemy has destroyed one. The party promises protection; Gartina begins offering food to the starving survivors. Their later presence at the refuge turns a rescue into an ongoing obligation.</p><h2 id=\"refuge-survivors\">The people around the fire</h2><ul><li><a href=\"#kvethe\">Kvethe</a> — A defender of Babel’s remaining people who balances secrecy, ecological knowledge, and a refusal to abandon her home.</li><li><a href=\"#quille\">Quille</a> — A young survivor carrying the weight of interrupted succession, hunger, and the daily work of keeping her people alive.</li><li><a href=\"#omari\">Omari</a> — A young voice preserving Babel’s stories while carefully distinguishing what the elders taught from what Omari has seen.</li><li><a href=\"#kyrin-the-lost\">Kyrin the Lost</a> — A survivor of petrification whose fragmented memories preserve a beautiful land and the pain of its loss.</li><li><a href=\"#rhea-babel\">Rhea</a> — A named participant in the survivors’ campfire whose individual history remains largely unrecovered.</li></ul><p>At the later campfire Gartina produces a full meal, and roughly a dozen survivors eat together. Kvethe explains why scattered tribes keep their seed locations secret. Quille describes the loss of the elder she was meant to succeed. Omari distinguishes inherited stories from personal experience. Kyrin recalls farms, vineyards and a lost abundance without claiming a complete memory.</p><p>Elenia offers a route to another refuge for those who wish to leave. Kvethe supports safety for the children but insists she will defend the land where she was born. Departure, staying, and hiding the seed elsewhere are discussed; this scene does not establish a completed evacuation or a restored tree.</p><h2 id=\"refuge-mountain\">The cost of going on the offensive</h2><p>Later, Elenia, Scribonia, Eugene and Arjahn plan to collapse and flood the cavern-bearing mountain. Their motives differ: healing the land, breaking an enemy stronghold, vengeance, and fear of what the campaign is doing to them. The storm and earthquakes reshape the mountain, but the full consequences remain obscured by water, smoke and steam. Arjahn carries Eugene to safety as Elenia escapes the rushing water.</p><p>The September gathering still takes place in the shelter, with warm honeyed tea and plans for the next danger. The group then investigates the <a href=\"#luminar-spires\">Luminar Spires and western mist</a>. Those scenes show a community continuing its work; they do not establish that every threat has been defeated.</p>"
+  },
+  {
+    "id": "kvethe",
+    "title": "Kvethe",
+    "category": "People",
+    "type": "Survivor · naturalist and local leader",
+    "dek": "A defender of Babel’s remaining people who balances secrecy, ecological knowledge, and a refusal to abandon her home.",
+    "tags": [
+      "Kvethe",
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Survivors"
+    ],
+    "facts": {
+      "Region": "Babel-Ashur",
+      "Recorded at": "Skylight Refuge",
+      "Account": "Surviving testimony; exact in-world date unresolved"
+    },
+    "sources": [
+      "Babel quest record · campfire testimony, August 2026"
+    ],
+    "body": "<p>Kvethe is a survivor of <a href=\"#babel-ashur\">Babel-Ashur</a> who appears to lead the group gathered around the fire at <a href=\"#skylight-refuge\">Skylight Refuge</a>. She describes scattered tribes that avoid contact so a captured person cannot reveal the others’ hiding places. In her account, memory-taking magic makes knowledge itself a danger.</p><h2 id=\"kvethe-seeds\">The seeds and the missing elders</h2><p>Kvethe says the other tribes are hiding two remaining seeds. She reports that her own group’s elder died the previous spring; elders in other sects may still preserve knowledge her group has lost. Her story about thawing an Ice King’s throne is inherited testimony, not a witnessed restoration or a proven method. She describes his desire to exchange the seeds for godhood as legend.</p><h2 id=\"kvethe-nature\">A naturalist under occupation</h2><p>She says both hostile rulers breed the jungle’s animals into creatures of darkness and excess. Even so, she believes twisted animals can be brought back into an ecosystem. Her account challenges the idea that the island’s dangerous wildlife must be beyond recovery. It does not establish a successful cure.</p><h2 id=\"kvethe-home\">A home worth defending</h2><p>Kvethe accepts that children might be evacuated and agrees that the entrusted seed could be hidden elsewhere until needed. For herself she insists on staying: the land is her birthplace, and she owes its earlier inhabitants her defense. Her willingness to fight is a personal commitment, not evidence that every survivor chooses the same future.</p>"
+  },
+  {
+    "id": "quille",
+    "title": "Quille",
+    "category": "People",
+    "type": "Survivor · intended elder successor",
+    "dek": "A young survivor carrying the weight of interrupted succession, hunger, and the daily work of keeping her people alive.",
+    "tags": [
+      "Quille",
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Survivors"
+    ],
+    "facts": {
+      "Region": "Babel-Ashur",
+      "Recorded at": "Skylight Refuge",
+      "Account": "Surviving testimony; exact in-world date unresolved"
+    },
+    "sources": [
+      "Babel quest record · campfire testimony, August 2026"
+    ],
+    "body": "<p>Quille is among Babel-Ashur’s survivors gathered at <a href=\"#skylight-refuge\">Skylight Refuge</a>. Although hardship makes her appear much older, the account places her in her twenties. Her testimony remembers alternating years of hiding and flight, with the present year the worst.</p><h2 id=\"quille-succession\">An interrupted succession</h2><p>Quille says she was meant to succeed a newly appointed elder. Before that succession could develop, a huge tigerlike creature seized the elder during sleep; almost nobody saw the attack. Quille describes planting knowledge and protective mental magic as things entrusted from elder to elder. The account does not establish that she completed that training, inherited the entire knowledge, or became an elder.</p><h2 id=\"quille-survival\">Counting sleeps</h2><p>Gartina’s meal matters to Quille because it has been years since real food, and some children scarcely know it. Asked how her people measure time, she answers that each night is a success and they count their sleeps. The statement preserves the scale of civilian survival beneath the larger war.</p>"
+  },
+  {
+    "id": "omari",
+    "title": "Omari",
+    "category": "People",
+    "type": "Survivor · keeper of inherited stories",
+    "dek": "A young voice preserving Babel’s stories while carefully distinguishing what the elders taught from what Omari has seen.",
+    "tags": [
+      "Omari",
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Survivors"
+    ],
+    "facts": {
+      "Region": "Babel-Ashur",
+      "Recorded at": "Skylight Refuge",
+      "Account": "Surviving testimony; exact in-world date unresolved"
+    },
+    "sources": [
+      "Babel quest record · campfire testimony, August 2026"
+    ],
+    "body": "<p>Omari joins the survivors’ campfire at <a href=\"#skylight-refuge\">Skylight Refuge</a>. Scarred and worn by flight, Omari describes eating worms and grubs without a fire because light and smoke could expose the group. The account later clarifies that Omari is young; apparent frailty should not be used to make Omari an elder.</p><h2 id=\"omari-stories\">Stories and the limits of memory</h2><p>Omari recounts what adults and elders taught about a floating island, the destruction of a great tree, and rulers who made both sunlight and darkness frightening. Omari explicitly says the floating island has not been personally seen. These stories preserve the community’s history without resolving every claim about the old catastrophe.</p><p>Moving between caves and jungles, the survivors try to map a landscape that seems almost alive. Stories keep the old walking and the young from growing weary. For Omari, memory is a practical resource for continuing, alongside shelter and food.</p>"
+  },
+  {
+    "id": "kyrin-the-lost",
+    "title": "Kyrin the Lost",
+    "category": "People",
+    "type": "Freed captive · witness to lost Babel",
+    "dek": "A survivor of petrification whose fragmented memories preserve a beautiful land and the pain of its loss.",
+    "tags": [
+      "Kyrin the Lost",
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Survivors"
+    ],
+    "facts": {
+      "Region": "Babel-Ashur",
+      "Recorded at": "Skylight Refuge",
+      "Account": "Surviving testimony; exact in-world date unresolved"
+    },
+    "sources": [
+      "Babel quest record · campfire testimony, August 2026"
+    ],
+    "body": "<p>Kyrin calls himself the Lost “in battle and in memory and in soul.” At the refuge’s campfire, Arjahn speaks of a man freed from a petrified prison; Kyrin answers for himself when others discuss his condition. His ability to speak does not erase the damage he describes or establish that his memories are whole.</p><h2 id=\"kyrin-memory\">The land he remembers</h2><p>Kyrin remembers mountain forts, valley farms and vineyards, followed by the sky falling and the tree breaking. He names the floating island Ashur and recalls abundant waters from its tree. The memory belongs to a distressed witness; neither its ancient date nor every cause of the catastrophe is settled by his recollection.</p><h2 id=\"kyrin-arjahn\">Help without speaking over him</h2><p>Arjahn initially asks someone else about the freed man’s mind, then apologizes for not addressing him directly. He explains that bodily healing is not the same as repairing memory or a soul, and offers support without promising an instant cure. Kyrin blames his own people’s failure to defend their land; Arjahn rejects that blame and insists that being attacked was not their fault.</p><p>Kyrin asks that the children be sent away from danger. He refuses to romanticize his captor and says surviving captives might know more than he does. Those possibilities remain leads, not completed rescues or recovered memories.</p>"
+  },
+  {
+    "id": "rhea-babel",
+    "title": "Rhea",
+    "category": "People",
+    "type": "Survivor at Skylight Refuge",
+    "dek": "A named participant in the survivors’ campfire whose individual history remains largely unrecovered.",
+    "tags": [
+      "Rhea",
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Survivors"
+    ],
+    "facts": {
+      "Region": "Babel-Ashur",
+      "Recorded at": "Skylight Refuge",
+      "Account": "Surviving testimony; exact in-world date unresolved"
+    },
+    "sources": [
+      "Babel quest record · campfire testimony, August 2026"
+    ],
+    "body": "<p>Rhea is named among those who draw closer as the survivors and adventurers begin talking at <a href=\"#skylight-refuge\">Skylight Refuge</a>. The surrounding conversation concerns food, scattered communities, the seeds, and the island’s lost history.</p><p>No individual speech or further biography for Rhea is established by this scene. The chronicle preserves the name without borrowing another survivor’s testimony, inventing a family, or assigning an age or profession.</p>"
+  },
+  {
+    "id": "aerrow",
+    "title": "Aerrow",
+    "category": "People",
+    "type": "Expedition witness",
+    "dek": "A frightened scout whose report presses Babel’s adventurers to return their attention to the island’s people.",
+    "tags": [
+      "Aerrow",
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Survivors"
+    ],
+    "facts": {
+      "Region": "Babel-Ashur",
+      "Recorded at": "Skylight Refuge",
+      "Account": "Surviving testimony; exact in-world date unresolved"
+    },
+    "sources": [
+      "Babel quest record · refuge warning, June 2026"
+    ],
+    "body": "<p>Aerrow is present at Skylight Refuge when the adventurers regroup. Worn down and startled by the sounds of enormous beasts, he reports finding slain natives while searching for food. He describes monsters drawing nearer to the caves and fears that the shadow from the tunnels is searching for the refuge.</p><p>His warning helps turn the group’s attention toward making contact with the people of Babel. He later suggests the hunters may be searching for a seed, while acknowledging that this could be his imagination. These are Aerrow’s reports and fears, not proof that he witnessed every enemy movement or knows the hunters’ full plans.</p>"
+  }
+];
+articles.push(...babelRecoveredArticles);
+for (const record of babelRecoveredArticles) {
+  fixedArticlePaths.set(record.id, record.category === "Places" ? ["Locations", "Babel-Ashur", record.title] : ["Characters", "Babel survivors", record.title]);
+  subchannelMap[record.id] = [{label:"Babel-Ashur",article:"babel-ashur",summary:"The wider island campaign."},{label:"Skylight Refuge",article:"skylight-refuge",summary:"The shelter and its surviving community."}].filter(link => link.article !== record.id);
+  if (record.category === "People") {
+    const directory = archiveIndex.npcs;
+    directory.push({title:record.title,meta:record.type,article:record.id,summary:record.dek});
+  }
+}
+navigationRegions.find(region => region.title === "Characters").branches.push({title:"Babel survivors",items:babelRecoveredArticles.filter(record => record.category === "People").map(record => ({label:record.title,article:record.id}))});
+navigationRegions.find(region => region.title === "Locations").branches.find(branch => branch.title === "Babel-Ashur").items.push({label:"Skylight Refuge",article:"skylight-refuge"});
+Object.assign(archiveIndex.islands.find(location => location.title === "Skylight Refuge"), {article:"skylight-refuge",summary:babelRecoveredArticles[0].dek});
+articles.find(record => record.id === "babel-ashur").body += "<h2 id=\"babel-survivors\">The people who kept the seeds</h2><p>The recovered expedition account follows a rescue from the caverns into a community at <a href=\"#skylight-refuge\">Skylight Refuge</a>. A nomad entrusts Elenia with a golden seed after Mya’s light frees the captives. At a later meal, Kvethe, Quille, Omari and Kyrin speak for themselves about scattered tribes, interrupted succession, lost farms and the daily labor of survival. Rhea is also named among the listeners. Their stories are testimony, not a complete reconstruction of the island’s ancient history.</p><p>Kyrin names the floating island Ashur and remembers the waters of its tree. Omari repeats stories learned from elders while explicitly admitting not having seen that island. The sources therefore preserve both memory and inherited tradition, without treating them as interchangeable proof.</p><h2 id=\"babel-mountain-assault\">The mountain assault</h2><p>In the account posted on 29 August 2026 (UTC), Scribonia and Eugene sustain two weather systems while Elenia and Arjahn redirect water and cast earthquakes. Rain, melting snow, fissures and avalanches reshape the cavern-bearing mountain; lava leaks near the caves and smoke obscures the result. Arjahn carries Eugene away from the flooding ground. The mountain is visibly altered, but the scene does not establish that Abyss was killed or that all captives and civilians escaped.</p><p>At the gathering posted on 26 September (UTC), companions describe having collapsed and flooded the stronghold, then turn toward the western mist and Luminar Spires. These are dates of the surviving account; exact in-world dates remain unresolved.</p>";
+articles.find(record => record.id === "luminar-spires").body += "<h2 id=\"luminar-primary-record\">The expedition in the surviving account</h2><p>The primary account was posted on 26 September 2026 (UTC). Elenia, Olokun, Scribonia, Gartina, Arjahn and Nymera leave the refuge together; Scribonia teleports the group closer to the mist and retains a seashell to help return to the coast.</p><p>Gartina’s wind test briefly shifts the mist, but it crowds the edge of the spell’s reach. No island-wide clearing follows. Arjahn’s enhanced sight identifies a nightmarelike field while the coastal pillars display a different, wild magic. During Scribonia’s examination, an attempted magical hand instead becomes a harmless fire bolt against the wall. The result and Elenia’s unintended reversed gravity supply two observed transformations, without establishing repeatable rules.</p><p>The party ends with reconnaissance rather than a cure. The mist’s regrowth, the Spires’ unpredictable spell changes and the sunset glow remain evidence for future work. <a href=\"#skylight-refuge\">Return to the refuge’s history.</a></p>";
+articles.find(record => record.id === "gartina").body += "<h2 id=\"gartina-babel-survivors\">Feeding Babel’s survivors</h2><p>When captives emerge from the Babel caverns, Gartina begins feeding them. At the later campfire she produces a full meal for roughly a dozen survivors and asks Quille about the seed and the loss of her elder. She urges the group to keep telling their stories and remembering the names of the absent, offering tea when their voices tire. Food and memory become two forms of resistance.</p><p>During the later coastal reconnaissance she tests wind against the mist, retrieves companions as a giant eagle, and surveys above the fog. Her proposals for tunneling or maintaining a moving radiant barrier remain proposals. The account is posted on 26 September 2026 (UTC); it supplies no exact in-world calendar date.</p>";
+articles.find(record => record.id === "arjahn").body += "<h2 id=\"arjahn-kyrin\">Learning to address the survivor</h2><p>At Skylight Refuge, Arjahn asks another survivor about the mind of the freed captive before speaking to Kyrin himself. He recognizes the mistake and apologizes. He distinguishes healing an arm from repairing a mind or soul, and offers help without promising a magical cure. When Kyrin blames his people for losing the land, Arjahn insists that being attacked was not their fault.</p><h2 id=\"arjahn-mountain-assault\">Vengeance and the mountain</h2><p>Before the mountain assault, Arjahn admits that his immediate desire is vengeance rather than rebuilding. He understands that collapsing the stronghold could endanger hidden people, yet argues that the offensive must proceed. He redirects water, casts an earthquake on the mountainside and carries Eugene out of the flood. His continued care for companions coexists with this darker turn; one does not erase the other. The account posted on 29 August 2026 (UTC) leaves the full aftermath unresolved.</p>";
+articles.find(record => record.id === "eugene").body += "<h2 id=\"eugene-babel-storm\">Holding the storm</h2><p>Eugene joins the plan to flood and collapse Babel’s cavern-bearing mountain, using Wish to cast Control Weather while Scribonia maintains another system. A beast threatens his concentration; he fights it off and the weather-working continues. He questions the plan’s repercussions and tells the others he dislikes how the island has changed them, while promising to stand at their sides.</p><p>As water rises and the earthquakes open the mountainside, Eugene cannot fly himself to safety. Arjahn carries him out. The account records successful withdrawal, not a certainty that the offensive killed its target or spared every bystander.</p>";
+articles.find(record => record.id === "elenia").body += "<h2 id=\"elenia-babel-seed\">A rescue and an entrusted seed</h2><p>During the Babel cavern rescue, Elenia calls for aid as an executioner releases gas among the captives. Mya’s light frees them and guards against the gas and contamination. After the confrontation a nomad places a golden seed in Elenia’s care; she promises to protect it. Later she offers the survivors a place elsewhere if they wish to leave, while Kvethe insists she herself will remain to defend Babel.</p><p>Elenia later proposes collapsing and flooding the hostile stronghold so the land can heal. She redirects water and calls an earthquake, then escapes the ensuing flood. Her hoped-for clean slate remains a goal, not proof that the attack restored the island or eliminated the Knight.</p>";
+articles.find(record => record.id === "scribonia").body += "<h2 id=\"scribonia-babel-campaign\">Trust, the caverns, and the storm</h2><p>Before returning to Babel’s caverns, Scribonia admits that earlier terrible ends have left him more afraid of mortality. Olokun offers reassurance; Scribonia resolves to rely more on his companions. In the dark passages he becomes the group’s eyes, sharing what he sees while Gartina supports their quiet approach. Their expedition reaches living captives, and its aftermath brings the survivors’ knowledge into the refuge.</p><p>Later he plans paired weather systems for the mountain offensive with Eugene. He wants a decisive strike, but afterward wonders whether the destruction has gone too far. His private appeal to Saturnia receives no answer established by this scene. The visible mountain damage does not settle the fate of Abyss or the island.</p>";
+articles.find(record => record.id === "olokun").body += "<h2 id=\"olokun-babel-painter\">The painter reaches the people</h2><p>Olokun’s attempts to communicate through paintings become consequential when a blood-painted warning leads the party toward Babel’s captives. He presses the group to stop delaying and follows the trail into the caves. During the rescue he draws the executioner’s attention away from the people and continues fighting with his friends’ support.</p><p>Afterward a nomad asks whether he is the painter. Olokun confirms it and promises safety, while acknowledging that the adventurers have arrived too late for some. At the refuge he listens to the survivors’ stories. Communication has become a responsibility toward living people, rather than simply a way to map an unfamiliar island.</p>";
+articles.find(record => record.id === "dale").body += "<h2 id=\"dale-akarian-training\">Trust tested in Akarian’s training</h2><p>The encounter recorded on 12 October 2024 (UTC) is an Akarian training exercise. Dale tells Saray he trusts her lead, but an enemy takes control of him and commands him to attack her. Saray fights to break that control and reassures him that the war needs him. The exercise ends in defeat, with Dale down and Saray unconscious. Akarian heals them and brings them out, warning that the opponents targeted their concern for each other, Saray’s reliance on blindsight, and their inability to stop spells. This is a lesson survived, not a Babel battlefield death.</p>";
+articles.find(record => record.id === "saray").body += "<h2 id=\"saray-training-dale\">Akarian’s lesson with Dale</h2><p>In the training account posted on 12 October 2024 (UTC), Saray urges Dale to keep his distance from their enemies. When magical control turns him against her, she attacks the source and calls for him to return to himself. Even as the fight worsens, she tells him that he is a decisive part of the war and that they need him. The pair lose the exercise; Akarian heals them and draws a lesson from the weaknesses the opponents exploited. Their defeat does not establish a death, a completed field mission, or a rupture between them.</p>";
+articles.find(record => record.id === "arjahn").body = articles.find(record => record.id === "arjahn").body.replace("This is the only confirmed Vanguard reference in the surviving record.", "This early Vanguard reference is supplemented by Mya’s account of a scattered first wave and Nuru preparing a more focused second force; formal ranks and membership remain unresolved.");
+const babelReconnaissanceTitles = [
+  "The western mist blankets Babel-Ashur",
+  "The Luminar Spires transform Daylight",
+  "Gartina surveys the western mist",
+  "Arjahn burns a temporary opening in the mist",
+  "The Luminar Spires shine at sunset"
+];
+for (const [index,title] of babelReconnaissanceTitles.entries()) {
+  const event = archiveIndex.timeline.find(record => record.title === title);
+  if (event) {event.meta="26 Sep 2026 · posting date (UTC)";event.sort=`2026-09-26-babel-recon-${index}`;event.people="Elenia; Olokun; Scribonia; Gartina; Arjahn; Nymera";}
+  questEventConsequences[title] = "Primary account: Babel quest record, closing reconnaissance. The surviving account was posted on 26 September 2026 (UTC); the exact in-world date is unresolved. Wind and radiance provide temporary effects, not a completed cure. Neither the Spires’ origin nor a common cause with the mist is established.";
+}
+const babelRecoveredTimeline = [
+  {
+    "title": "Akarian tests Dale and Saray’s defenses",
+    "meta": "12 Oct 2024 · posting date (UTC)",
+    "sort": "2024-10-12-babel-0",
+    "era": "2024 · The Calling",
+    "kind": "Training exercise",
+    "article": "akarian",
+    "location": "Akarian’s training chamber",
+    "people": "Dale; Saray; Akarian",
+    "tags": [
+      "Babel source",
+      "Training exercise",
+      "Dale",
+      "Saray"
+    ],
+    "summary": "Magical control turns Dale against Saray. The pair lose the exercise; Akarian heals them and explains how the enemies exploited their weaknesses."
+  },
+  {
+    "title": "Babel’s blood painting leads to living captives",
+    "meta": "23 Jun 2026 · posting date (UTC)",
+    "sort": "2026-06-23-babel-1",
+    "era": "2026 · Consequences",
+    "kind": "Rescue",
+    "article": "skylight-refuge",
+    "location": "Babel-Ashur caverns",
+    "people": "Olokun; Elenia; Scribonia; Gartina; Arjahn; Mya",
+    "tags": [
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Rescue"
+    ],
+    "summary": "Fresh blood paintings and torn cloth guide the party to captives. Mya’s light frees them and protects against gas and contamination during the confrontation."
+  },
+  {
+    "title": "A Babel nomad entrusts Elenia with a golden seed",
+    "meta": "23 Jun 2026 · posting date (UTC)",
+    "sort": "2026-06-23-babel-2",
+    "era": "2026 · Consequences",
+    "kind": "Seed entrusted",
+    "article": "skylight-refuge",
+    "location": "Babel-Ashur caverns",
+    "people": "Elenia; Olokun; Scribonia; Gartina; Arjahn; Babel survivors",
+    "tags": [
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Seed entrusted"
+    ],
+    "summary": "A nomad recognizes Olokun as the painter, gives Elenia a golden seed, and asks the party to protect it. Gartina begins feeding the survivors."
+  },
+  {
+    "title": "Babel’s survivors tell their own stories",
+    "meta": "5 Aug 2026 · posting date (UTC)",
+    "sort": "2026-08-05-babel-3",
+    "era": "2026 · Consequences",
+    "kind": "Testimony and care",
+    "article": "skylight-refuge",
+    "location": "Skylight Refuge",
+    "people": "Kvethe; Quille; Omari; Rhea; Kyrin the Lost; Elenia; Olokun; Scribonia; Gartina; Arjahn",
+    "tags": [
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Testimony and care"
+    ],
+    "summary": "Around Gartina’s meal, the survivors describe scattered tribes, the lost elder, hiding the seeds and remembered abundance. Kvethe chooses to defend her home while supporting safety for children."
+  },
+  {
+    "title": "Babel’s defenders reshape the cavern-bearing mountain",
+    "meta": "29 Aug 2026 · posting date (UTC)",
+    "sort": "2026-08-29-babel-4",
+    "era": "2026 · Consequences",
+    "kind": "Offensive and consequences",
+    "article": "babel-ashur",
+    "location": "Babel-Ashur mountains and caverns",
+    "people": "Scribonia; Eugene; Elenia; Arjahn",
+    "tags": [
+      "Babel-Ashur",
+      "Skylight Refuge",
+      "Offensive and consequences"
+    ],
+    "summary": "Paired weather systems, redirected water and earthquakes produce floods, avalanches and a lava fissure. Arjahn carries Eugene clear. Smoke conceals the full aftermath; the Knight’s death is not established."
+  }
+];
+archiveIndex.timeline.push(...babelRecoveredTimeline);
+Object.assign(questEventConsequences, {
+  "Akarian tests Dale and Saray’s defenses": "Primary account: Babel quest record. Dates shown are UTC posting dates, not established in-world dates. The opening training exercise ends with Akarian healing the pair; it is not a battlefield death.",
+  "Babel’s blood painting leads to living captives": "Primary account: Babel quest record. Dates shown are UTC posting dates, not established in-world dates. Survivor testimony remains attributed. Proposed evacuation, planting and the destruction of the Knight are not established as completed outcomes.",
+  "A Babel nomad entrusts Elenia with a golden seed": "Primary account: Babel quest record. Dates shown are UTC posting dates, not established in-world dates. Survivor testimony remains attributed. Proposed evacuation, planting and the destruction of the Knight are not established as completed outcomes.",
+  "Babel’s survivors tell their own stories": "Primary account: Babel quest record. Dates shown are UTC posting dates, not established in-world dates. Survivor testimony remains attributed. Proposed evacuation, planting and the destruction of the Knight are not established as completed outcomes.",
+  "Babel’s defenders reshape the cavern-bearing mountain": "Primary account: Babel quest record. Dates shown are UTC posting dates, not established in-world dates. Survivor testimony remains attributed. Proposed evacuation, planting and the destruction of the Knight are not established as completed outcomes."
+});
+articles.find(record => record.id === "memorable-quotes").body = articles.find(record => record.id === "memorable-quotes").body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"babel-quotes-3473\">Babel’s survivors · Nights, stories and promises</h2><button type=\"button\" class=\"quote-card\" data-article=\"quille\"><blockquote>“Each night is a success. Trust us, we count our sleeps.”</blockquote><cite>Quille</cite></button><button type=\"button\" class=\"quote-card\" data-article=\"omari\"><blockquote>“We got stories. Stories are what keep people going. Keep the old walking and the young from growing weary.”</blockquote><cite>Omari</cite></button><button type=\"button\" class=\"quote-card\" data-article=\"gartina\"><blockquote>“Sing the names of those you know but see no longer. Resist the erasure of your past with all you have.”</blockquote><cite>Gartina</cite></button><button type=\"button\" class=\"quote-card\" data-article=\"arjahn\"><blockquote>“We all break at some point. What matters is that we put ourselves back together. We don’t have to be the same as we were before. We don’t even have to be similar. We just have to live on.”</blockquote><cite>Arjahn</cite></button><h2 id=\"babel-quotes-126\">Dale and Saray · A lesson in trust</h2><button type=\"button\" class=\"quote-card\" data-article=\"saray\"><blockquote>“You got this Dale! I know you don&#x27;t believe you are too much. But believe when I tell you...you are a decisive piece in this war. We need you.”</blockquote><cite>Saray</cite></button>" + '<h2 id="why-these-lines-remain">');
+articles.find(record => record.id === "akarian").body += '<h2 id="akarian-dale-saray">A lesson in defended weaknesses</h2><p>In the training account posted on 12 October 2024 (UTC), Akarian tests Dale and Saray against enemies that exploit magical control, reliance on blindsight and their concern for one another. The exercise ends in defeat. He heals the pair and pulls them out, making the encounter a lesson to survive and learn from rather than a battlefield death.</p>';
+const babelVanguardRecord = articles.find(record => record.id === "vanguard");
+babelVanguardRecord.body = babelVanguardRecord.body.replace("first and only direct Vanguard reference", "early direct Vanguard reference");
+babelVanguardRecord.body += '<h2 id="vanguard-primary-context">The first wave and the next</h2><p>In the primary Babel account posted on 6 May 2026 (UTC), Mya describes the scattered and battered first wave and says Nuru is preparing a more focused second Vanguard. She asks the veterans either to help pass power and knowledge onward or to reunite and prove the gods wrong. At the later survivors’ gathering, Gartina also calls her companions Vanguard. These statements broaden the term’s surviving use; they do not supply a complete roster, ranks, charter or chain of command.</p>';
+for (const title of babelReconnaissanceTitles) {const event = archiveIndex.timeline.find(record => record.title === title); if (event) event.era = "2026 · Consequences";}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

@@ -434,3 +434,8 @@ The full preserved archive is large and may exceed a hosting upload limit. A pri
 7. Search the repository and supplied records for the exact person, event, quotation, place, aliases, and relationships before editing.
 
 This brief is internal working memory. It may explicitly discuss implementation and source provenance; the public Codex must retain its lore-and-history presentation.
+
+
+## Babel primary-source checkpoint — 7 October 2026
+
+Processed selected complete scenes from the newly supplied Babel thread; see `BABEL_PRIMARY_SOURCE_HISTORY.md` for coverage and remaining source review. New survivor records and Skylight Refuge connect civilian history to the rescue, mountain assault and Spires reconnaissance. UTC posting dates remain distinct from in-world chronology.

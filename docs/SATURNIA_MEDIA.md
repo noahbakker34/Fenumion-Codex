@@ -5,3 +5,5 @@ Received 7 October 2026. The user identifies the MP4 as young Saturnia on arriva
 Assets are preserved as supplied at assets/characters/saturnia-arrival.mp4 and saturnia-goddess.png. A dedicated People entry and directory record make them accessible through the existing sidebar and character search. The goddess portrait uses the existing full-image portrait layout. The arrival recording is separate, uncropped, with native play/pause controls and inline mobile playback; it is not treated as decorative ambient media.
 
 No timeline events or quotations are invented before the dossier arrives. Existing Saturnia references in recovered quest records are retained.
+
+The promised dossier was subsequently received and processed. See SATURNIA_HISTORY.md for the public biography, quotation and timeline treatment; the original media remain unchanged.

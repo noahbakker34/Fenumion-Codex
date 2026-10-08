@@ -101,6 +101,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `gedankin-the-shore.md` | User-supplied 8 Oct 2026; 3,936 messages | Gedankin landing-area history: ten People records, five expanded biographies, nine timeline entries and six exact quotes. Existing Shore URL and map marker preserved. Coverage and identity boundaries: `docs/GEDANKIN_SHORE_HISTORY.md`. Raw source and message provenance remain local/private. |
 
+| Aurora identity clarification | World creator, 8 Oct 2026 | The early Shore traveller Aurora and Aurora Luminaria are confirmed distinct characters; separate biographies and chronologies retained. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

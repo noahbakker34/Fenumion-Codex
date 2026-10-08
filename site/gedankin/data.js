@@ -279,10 +279,11 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>A healer on the road</h2><p>Aurora describes herself as an heir of a House of Healing, trained as an army healer and honour guard. The quest record does not supply a fuller institutional history.</p><h2>The ambush</h2><p>Vaerik carries Aurora when she is exhausted and later entrusts the caravan’s protection to her. During the attack she cannot reach every fallen companion in time. She survives and enters the city with the remaining company.</p><h2>A promise at the threshold</h2><p>Aurora Luminaria’s Shore arrival names her as heir to House Vita Imperatoris. She suspects a rival house of arranging her displacement, but the cause is not established. Ashbriar guides her while condemning the felling of the Oasis palms. Their argument becomes an offer: she promises to help find trees and restore a grove. That promise is not a completed restoration.</p><h2>A different early introduction</h2><p>The earlier Shore traveller known simply as <a href=\"#aurora-early-shore\">Aurora</a> is not identified as Luminaria in her scene. The shared given name alone does not join their histories.</p>",
+      "body": "<h2>A healer on the road</h2><p>Aurora describes herself as an heir of a House of Healing, trained as an army healer and honour guard. The quest record does not supply a fuller institutional history.</p><h2>The ambush</h2><p>Vaerik carries Aurora when she is exhausted and later entrusts the caravan’s protection to her. During the attack she cannot reach every fallen companion in time. She survives and enters the city with the remaining company.</p><h2>A promise at the threshold</h2><p>Aurora Luminaria’s Shore arrival names her as heir to House Vita Imperatoris. She suspects a rival house of arranging her displacement, but the cause is not established. Ashbriar guides her while condemning the felling of the Oasis palms. Their argument becomes an offer: she promises to help find trees and restore a grove. That promise is not a completed restoration.</p><h2>Two distinct people</h2><p>The earlier Shore traveller known simply as <a href=\"#aurora-early-shore\">Aurora</a> is a separate person from Aurora Luminaria. Their shared given name does not connect their histories.</p>",
       "sources": [
         "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-shore.md — 2026-06-02 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2026-06-02 (UTC posting dates; in-world dates unestablished).",
+        "World creator clarification — 8 October 2026: Aurora and Aurora Luminaria are distinct characters."
       ]
     },
     {
@@ -618,9 +619,10 @@ window.GedankinData = {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis"
       },
-      "body": "<h2>A guide in need of a guide</h2><p>After a burst of celestial light, Aurora wakes on the sands and accepts <a href=\"#atrax\">Atrax’s</a> offer to lead her to water. She says she formerly worked as a guide, helping people while living close to the elements.</p><h2>A living path</h2><p>Atrax explains his palm-trunk waymarkers and the shifting dunes. Aurora proposes growing native plants along the route as a longer-term alternative. The idea is discussed, not shown as a completed path. She offers what help she can and reaches the Oasis, where Atrax points her toward Sombra for food.</p><h2>A name with an open question</h2><p>This early account identifies her simply as Aurora. It does not establish that she is <a href=\"#aurora\">Aurora Luminaria</a>, whose later arrival names House Vita Imperatoris. Their histories remain distinct pending a confirmed connection.</p>",
+      "body": "<h2>A guide in need of a guide</h2><p>After a burst of celestial light, Aurora wakes on the sands and accepts <a href=\"#atrax\">Atrax’s</a> offer to lead her to water. She says she formerly worked as a guide, helping people while living close to the elements.</p><h2>A living path</h2><p>Atrax explains his palm-trunk waymarkers and the shifting dunes. Aurora proposes growing native plants along the route as a longer-term alternative. The idea is discussed, not shown as a completed path. She offers what help she can and reaches the Oasis, where Atrax points her toward Sombra for food.</p><h2>Two distinct people</h2><p>This early Shore traveller is Aurora, a separate person from <a href=\"#aurora\">Aurora Luminaria</a> of House Vita Imperatoris. Their shared given name does not connect their histories.</p>",
       "sources": [
-        "gedankin-the-shore.md — 2024-10-07–2024-10-08 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2024-10-07–2024-10-08 (UTC posting dates; in-world dates unestablished).",
+        "World creator clarification — 8 October 2026: Aurora and Aurora Luminaria are distinct characters."
       ]
     },
     {
@@ -1648,7 +1650,7 @@ window.GedankinData = {
         "Participants": "Atrax, Aurora (early Shore arrival), Sombra Estrellar",
         "Chronology": "Posting dates; in-world dates unestablished"
       },
-      "body": "<h2>A guide and an idea</h2><p>Atrax asks permission to approach and offers Aurora a route to water. His palm-trunk markers prompt her idea for native plants along the path. They reach the Oasis, and he points her toward Sombra for food. The planting remains an idea, and her identity is not equated with the later Aurora Luminaria.</p>",
+      "body": "<h2>A guide and an idea</h2><p>Atrax asks permission to approach and offers Aurora a route to water. His palm-trunk markers prompt her idea for native plants along the path. They reach the Oasis, and he points her toward Sombra for food. The planting remains an idea, and she is a separate person from the later Aurora Luminaria.</p>",
       "sources": [
         "gedankin-the-shore.md — 2024-10-07–2024-10-08 (UTC posting dates; in-world dates unestablished)."
       ],

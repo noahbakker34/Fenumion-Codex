@@ -1,0 +1,15 @@
+# Gedankin Shore recovery — 8 October 2026
+
+The user identifies the Shore as Gedankin’s landing area. Source: `gedankin-the-shore.md`, 2,831,606 bytes and 68,780 lines, containing 3,936 messages in one Shore thread. UTC posting bounds: 25 September 2024–22 September 2026. Dates are posting records, not established in-world dates. Missing-content placeholders and linked attachments do not supply the missing text or media evidence.
+
+This is a selective first pass, not a complete synthesis of all messages. Discovery excerpts guided scene selection. Reviewed passages include Sixtus/Rhalor/Kara (2–79), the early Aurora/Atrax exchange (183–264), Bramble’s arrival and reconciliation (1356–1441), Shinjurō/Kurze (1448–1472), Bramble/Tarset (1478–1504), Ossi/Atrax (1569–1616), Vaerik/Atrax (2141–2174), Manzur/Vespere (2366–2408), Aurora Luminaria/Ashbriar (2410–2448), and Gisan/Manzur (3871–3935). Some output was initially truncated; omitted relevant portions were reread in shorter selections. Narrative observations, speech and context were reviewed; embedded account metadata, OOC discussion, private thoughts and unreviewed attachments were excluded from synthesis. Many intervening welcomes remain uncurated.
+
+Ten new People records: Sixtus, Rhalor, the early Shore traveller Aurora, Bramble Blackberry, Ossi, Manzur, Nnadunggisan/Gisan, Ashbriar, Shinjurō and Kurze Koza. Five existing biographies expand: Atrax, Kara Vash, Vaerik, Vespere and Aurora Luminaria. The early Aurora account is not merged with Luminaria on the strength of a shared given name; the uncertainty is explicit and reversible.
+
+Nine new timeline entries and six text-checked attributed quote excerpts. The existing Shore location is renamed The Shore, preserving its stable `strange-shore` URL and existing map marker. Its earlier name stays searchable. The location now explains the waterless edge, arrival lights, guides and route inland. Oasis, Seven Sands and Albayt entries gain linked testimony and dated developments. Home features the Shore as the landing area.
+
+Boundaries: Cala’s denial of summoning is retained against guides’ explanations. Return-home assurances are attributed, not universal rules. Ossi’s hopeful response does not establish a new allegiance. Bramble’s later failed welcome is not rewritten into a rescue. Ashbriar’s ecological warning and Aurora’s restoration promise do not prove the Oasis’s final condition or completed replanting. The Albayt’s reported burial and later visits do not establish its reopening date or final clearance. Baldur’s Gate, Athkatla and the Host Temple of the Elements are reported places outside the local scenes, not new Gedankin map locations. Appearances here do not establish native origin or permanent residence.
+
+Raw export and message-level claim ledger remain in the local private archive, excluded from the public repository and deployment.
+
+Source SHA-256: `60f64f96b7b9d544df2fb83152273cb9190f6bbf0e12580637a32a016ab47e62`

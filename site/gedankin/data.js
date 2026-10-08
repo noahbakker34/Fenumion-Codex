@@ -27,7 +27,9 @@ window.GedankinData = {
         "Xuan",
         "Vespere",
         "House Adijit",
-        "Khars Madar"
+        "Khars Madar",
+        "Atrax",
+        "The Shore"
       ],
       "facts": {
         "Identity": "Old soldier",
@@ -40,9 +42,10 @@ window.GedankinData = {
       "sources": [
         "Pasted markdown(6).md — Vaerik combat and Heih",
         "Fenumion_Conversation_Catalogue.md — Vaerik synthesis and source map",
-        "2024-rp.md — 10 June–16 July 2026 (UTC posting dates)."
+        "2024-rp.md — 10 June–16 July 2026 (UTC posting dates).",
+        "gedankin-the-shore.md — 2026-05-17 (UTC posting dates; in-world dates unestablished)."
       ],
-      "body": "<p>Vaerik is defined less by speeches than by forward motion. He wastes little movement, uses subtle magic, and looks for the killing stroke. The same precision governs his ethics: once he believes a burden can be carried, the fact that it will hurt him is not a reason to refuse it.</p>\n      <h2 id=\"if-i-can\">“If I can, then I must”</h2>\n      <p>His duty is genuinely other-directed. He will burn himself to keep other people alive. The danger is that willingness to suffer can become a private grant of moral permission—first to destroy himself, then potentially to decide what costs a mission requires from everyone else.</p>\n      <h2 id=\"heih\">Heih and the names</h2>\n      <p>Heih dies; Vaerik continues the mission, solves the immediate problem, carries the body, and later cuts the name into his arm. The act matters because his transformation has already taken other names from him. Memory becomes something he has to inscribe physically so relentless continuation cannot erase it.</p>\n      <h2 id=\"old-soldier\">An old soldier’s grammar</h2>\n      <p>Fire, lost names, Second Wind, controlled violence, and the refusal to stop all point toward one wound: if there is anything left in him, he believes he must find it and spend it. Vaerik’s future test is not whether he can endure. It is whether he can accept that ability does not always create obligation.</p><h2 id=\"vaerik-personality\">Personality and duty</h2><p>Vaerik is an old soldier who expresses duty through the conviction that if he can carry a burden, he must. That principle makes him reliable and dangerous to himself: service can become self-erasure when capacity is treated as proof that rest or help is undeserved.</p><h2 id=\"vaerik-achievements\">Service through experience</h2><p>He brings precision, experience, and controlled violence to the companies he joins, often taking the position where a disciplined fighter can keep confusion from becoming catastrophe. His lasting achievement is the standard his conduct sets—competence placed in service of other people rather than personal legend.</p><h2 id=\"vaerik-relationships\">Entrusted danger</h2><p>Vaerik’s bonds form through entrusted danger: companions rely on him to do what he says and to remain when the work becomes costly. The quest record names Aurora, Fife and Heih among those he protects on the caravan journey. He carries an exhausted Aurora, retrieves Heih’s body after the ambush, and continues to Khars Madar. Later, he explores the Tayyeb passages with Xuan, Vespere and Eudora; Vespere cheers him in the arena.</p><h2>The caravan and the arena</h2><p>In the caravan ambush, Vaerik kills a staff-bearing mage and breaks the staff. The attackers become uncontrolled, but the battle still costs Heih and four caravan guards their lives. Vaerik carries Heih onward. In House Adijit’s arena, he later defeats two enormous apes with disciplined shield work and a burning blade, emerging visibly worn. Chayma reports that her winning wager has been refused; his promise to intervene is not a completed recovery.</p>"
+      "body": "<p>Vaerik is defined less by speeches than by forward motion. He wastes little movement, uses subtle magic, and looks for the killing stroke. The same precision governs his ethics: once he believes a burden can be carried, the fact that it will hurt him is not a reason to refuse it.</p>\n      <h2 id=\"if-i-can\">“If I can, then I must”</h2>\n      <p>His duty is genuinely other-directed. He will burn himself to keep other people alive. The danger is that willingness to suffer can become a private grant of moral permission—first to destroy himself, then potentially to decide what costs a mission requires from everyone else.</p>\n      <h2 id=\"heih\">Heih and the names</h2>\n      <p>Heih dies; Vaerik continues the mission, solves the immediate problem, carries the body, and later cuts the name into his arm. The act matters because his transformation has already taken other names from him. Memory becomes something he has to inscribe physically so relentless continuation cannot erase it.</p>\n      <h2 id=\"old-soldier\">An old soldier’s grammar</h2>\n      <p>Fire, lost names, Second Wind, controlled violence, and the refusal to stop all point toward one wound: if there is anything left in him, he believes he must find it and spend it. Vaerik’s future test is not whether he can endure. It is whether he can accept that ability does not always create obligation.</p><h2 id=\"vaerik-personality\">Personality and duty</h2><p>Vaerik is an old soldier who expresses duty through the conviction that if he can carry a burden, he must. That principle makes him reliable and dangerous to himself: service can become self-erasure when capacity is treated as proof that rest or help is undeserved.</p><h2 id=\"vaerik-achievements\">Service through experience</h2><p>He brings precision, experience, and controlled violence to the companies he joins, often taking the position where a disciplined fighter can keep confusion from becoming catastrophe. His lasting achievement is the standard his conduct sets—competence placed in service of other people rather than personal legend.</p><h2 id=\"vaerik-relationships\">Entrusted danger</h2><p>Vaerik’s bonds form through entrusted danger: companions rely on him to do what he says and to remain when the work becomes costly. The quest record names Aurora, Fife and Heih among those he protects on the caravan journey. He carries an exhausted Aurora, retrieves Heih’s body after the ambush, and continues to Khars Madar. Later, he explores the Tayyeb passages with Xuan, Vespere and Eudora; Vespere cheers him in the arena.</p><h2>The caravan and the arena</h2><p>In the caravan ambush, Vaerik kills a staff-bearing mage and breaks the staff. The attackers become uncontrolled, but the battle still costs Heih and four caravan guards their lives. Vaerik carries Heih onward. In House Adijit’s arena, he later defeats two enormous apes with disciplined shield work and a burning blade, emerging visibly worn. Chayma reports that her winning wager has been refused; his promise to intervene is not a completed recovery.</p><h2>Before the caravan</h2><p>At the Shore, Vaerik accepts Atrax’s offer of a route to the Oasis, while saying he cannot quite remember where he came from. Their conversation is blunt: he dislikes formalities, finds little comfort in the camp’s meagre supplies, but takes an interest in the fighting Atrax describes. The encounter gives his later service a difficult beginning, without resolving his missing memories or proving why he was brought here.</p>"
     },
     {
       "id": "cala",
@@ -77,14 +80,18 @@ window.GedankinData = {
         "Gedankin",
         "Cala",
         "Arrival",
-        "Luxcit"
+        "Luxcit",
+        "Sixtus",
+        "Rhalor",
+        "The Shore"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>A shore beyond the familiar</h2><p>Kara awakens on the white sands beside the star-filled void. She says her ship capsized in a storm and asks whether she has died; the account does not establish that explanation.</p><h2>A practical oath</h2><p>In speaking with Cala, Kara places the safety and suffering of her companions at the centre of her commitment. Later, she helps the company bring the recovered lantern into the light.</p>",
+      "body": "<h2>A shore beyond the familiar</h2><p>Kara awakens on the white sands beside the star-filled void. She says her ship capsized in a storm and asks whether she has died; the account does not establish that explanation.</p><h2>A practical oath</h2><p>In speaking with Cala, Kara places the safety and suffering of her companions at the centre of her commitment. Later, she helps the company bring the recovered lantern into the light.</p><h2>Returning for the next arrival</h2><p>Seeing a pillar of light, Kara finds Sixtus and Rhalor near the Shore. She says the camp has moved from the meteorite to an Oasis and leads them inland, explaining what the company has heard. Her suspicion that she died in a shipwreck remains a theory; her immediate action is to get the others to shelter.</p>",
       "sources": [
-        "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -115,14 +122,21 @@ window.GedankinData = {
         "Gedankin",
         "Arrival",
         "Luxcit",
-        "Flaming Fist"
+        "Flaming Fist",
+        "The Shore",
+        "Bramble Blackberry",
+        "Ossi",
+        "Vaerik",
+        "Aurora",
+        "Waymarkers"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Among the arrivals</h2><p>Atrax awakens beside the other strangers and admits he does not recognise their surroundings. His stated rank belongs to his introduction; the record does not establish a Gedankin branch of that organisation.</p><h2>The recovered light</h2><p>At Albayt Alkabir, Atrax helps recognise the lantern’s request and welcomes Luxcit into the company.</p>",
+      "body": "<h2>Among the arrivals</h2><p>Atrax awakens beside the other strangers and admits he does not recognise their surroundings. His stated rank belongs to his introduction; the record does not establish a Gedankin branch of that organisation.</p><h2>The recovered light</h2><p>At Albayt Alkabir, Atrax helps recognise the lantern’s request and welcomes Luxcit into the company.</p><h2>The work of welcome</h2><p>Atrax repeatedly walks from the Oasis to the Shore to meet newcomers. With the early traveller Aurora, he describes placing palm-trunk markers on every third dune. They discuss their vulnerability to wind and a possible living path of native plants; no completed permanent route is shown.</p><h2>Patience with limits</h2><p>His welcomes are practical rather than effortless. Bramble’s remarks about his heritage anger him, but he continues after her apology and accepts the flower she offers. With Ossi he stays back, keeps his hands away from his weapon and offers water without barter. With Vaerik he drops formal speech and gives a blunt account of the camp’s hardships.</p><h2>One foot in front of the other</h2><p>He describes endurance as finding any small task that improves their situation. The partially built longhouse and his repeated patrols give that belief a daily form. His reports about Cala, absent explorers and the impossibility of returning home remain his knowledge at the time, rather than universal guarantees.</p>",
       "sources": [
-        "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-shore.md — 2024-10-07–2026-05-17 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -175,15 +189,18 @@ window.GedankinData = {
         "Healing",
         "Xuan",
         "House Nazif",
-        "Vaerik"
+        "Vaerik",
+        "Manzur",
+        "The Shore"
       ],
       "facts": {
         "World": "Gedankin",
         "Appearance": "A stitched doll, about two feet tall"
       },
-      "body": "<h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p>",
+      "body": "<h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p><h2>Guiding Manzur</h2><p>At the Shore, Vespere startles the newly arrived Manzur, offers to check his injuries and brings out her surgical tools. He insists he is unharmed and declines treatment. She puts the saw away, then guides him to the Oasis, where he thanks her. Her claim that Cala called the arrivals is her explanation; Cala’s own earlier denial of summoning the company remains in the record.</p>",
       "sources": [
-        "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-shore.md — 2026-06-01 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -254,14 +271,18 @@ window.GedankinData = {
         "Vaerik",
         "Heih",
         "Fife",
-        "Healing"
+        "Healing",
+        "Ashbriar",
+        "House Vita Imperatoris",
+        "The Shore"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>A healer on the road</h2><p>Aurora describes herself as an heir of a House of Healing, trained as an army healer and honour guard. The quest record does not supply a fuller institutional history.</p><h2>The ambush</h2><p>Vaerik carries Aurora when she is exhausted and later entrusts the caravan’s protection to her. During the attack she cannot reach every fallen companion in time. She survives and enters the city with the remaining company.</p>",
+      "body": "<h2>A healer on the road</h2><p>Aurora describes herself as an heir of a House of Healing, trained as an army healer and honour guard. The quest record does not supply a fuller institutional history.</p><h2>The ambush</h2><p>Vaerik carries Aurora when she is exhausted and later entrusts the caravan’s protection to her. During the attack she cannot reach every fallen companion in time. She survives and enters the city with the remaining company.</p><h2>A promise at the threshold</h2><p>Aurora Luminaria’s Shore arrival names her as heir to House Vita Imperatoris. She suspects a rival house of arranging her displacement, but the cause is not established. Ashbriar guides her while condemning the felling of the Oasis palms. Their argument becomes an offer: she promises to help find trees and restore a grove. That promise is not a completed restoration.</p><h2>A different early introduction</h2><p>The earlier Shore traveller known simply as <a href=\"#aurora-early-shore\">Aurora</a> is not identified as Luminaria in her scene. The shared given name alone does not join their histories.</p>",
       "sources": [
-        "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-shore.md — 2026-06-02 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -531,25 +552,265 @@ window.GedankinData = {
         "2024-rp.md — Khars Madar entry and House Adijit Gladiator Lodge, 16 July 2026 (UTC posting date).",
         "Pac.webp — artwork supplied by the user."
       ]
+    },
+    {
+      "id": "sixtus",
+      "title": "Sixtus of Hillfar Meadow",
+      "type": "Forest gnome · guardsman",
+      "summary": "A young guardsman who faces the unfamiliar shore by seeking allies rather than picking a fight.",
+      "dek": "A young guardsman who faces the unfamiliar shore by seeking allies rather than picking a fight.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Sixtus",
+        "Hillfar Meadow",
+        "Kara Vash",
+        "Rhalor"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>Beyond the meadow walls</h2><p>Sixtus introduces himself as a guardsman from Hillfar Meadow. He says he was sent to investigate a fallen light during his night watch; touching it preceded the bewildering crossing. His recollection does not explain who brought him here.</p><h2>Choosing allies</h2><p>He meets <a href=\"#rhalor\">Rhalor</a> and <a href=\"#kara-vash\">Kara Vash</a>, tired and hungry with an oversized pack. Their values differ, but he keeps the conversation civil and asks for the camp. Kara leads them inland toward the Oasis.</p><h2>The value of a life</h2><p>When Kara wonders whether they have died, Sixtus offers his own view: the time to accomplish something is in life. Neither his belief nor her suspicion establishes the Shore as an afterlife.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "rhalor",
+      "title": "Rhalor",
+      "type": "High elf · researcher",
+      "summary": "A researcher whose curiosity survives displacement, even when it leaves him missing the group’s latest news.",
+      "dek": "A researcher whose curiosity survives displacement, even when it leaves him missing the group’s latest news.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Research",
+        "Kara Vash",
+        "Sixtus"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>A mind on the experiment</h2><p>Rhalor appears as a pale high elf with tattoos along his forearm. He tells Sixtus and Kara that he remembers mixing a purple compound into purified water, then seeing the Void and waking on the beach. This remains his account, rather than proof that the experiment caused the crossing.</p><h2>Finding the others again</h2><p>Kara finds him at the Shore after he has wandered away from the meteorite camp. He has missed the meeting with Cala and asks who she is. He joins Kara and Sixtus on the way toward the new Oasis camp, still talking about the equipment his research needs.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "aurora-early-shore",
+      "title": "Aurora (early Shore arrival)",
+      "type": "Traveller and former guide",
+      "summary": "An early arrival who answers uncertainty with offers of help and ideas for keeping the route alive.",
+      "dek": "An early arrival who answers uncertainty with offers of help and ideas for keeping the route alive.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Aurora",
+        "Atrax",
+        "Waymarkers"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>A guide in need of a guide</h2><p>After a burst of celestial light, Aurora wakes on the sands and accepts <a href=\"#atrax\">Atrax’s</a> offer to lead her to water. She says she formerly worked as a guide, helping people while living close to the elements.</p><h2>A living path</h2><p>Atrax explains his palm-trunk waymarkers and the shifting dunes. Aurora proposes growing native plants along the route as a longer-term alternative. The idea is discussed, not shown as a completed path. She offers what help she can and reaches the Oasis, where Atrax points her toward Sombra for food.</p><h2>A name with an open question</h2><p>This early account identifies her simply as Aurora. It does not establish that she is <a href=\"#aurora\">Aurora Luminaria</a>, whose later arrival names House Vita Imperatoris. Their histories remain distinct pending a confirmed connection.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2024-10-07–2024-10-08 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "bramble-blackberry",
+      "title": "Bramble Blackberry",
+      "type": "Fairy · displaced newcomer and later guide",
+      "summary": "A frightened arrival whose difficult welcome ends with a flower offered in thanks.",
+      "dek": "A frightened arrival whose difficult welcome ends with a flower offered in thanks.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Bramble",
+        "Fairy",
+        "Atrax",
+        "Tarset Caskbloom"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>A rough beginning</h2><p>Bramble wakes with sand in her mouth beneath a pillar of light. She initially suspects Atrax of abducting her. Her remarks about his heritage turn their conversation hostile; when she apologises and admits she is frightened and overwhelmed, he continues guiding her.</p><h2>A small act of repair</h2><p>The desert seems to rearrange as the Oasis appears. Bramble asks whether they may become friends; Atrax’s answer is guarded. She makes a flower bloom from a seed and offers it to him. He accepts it with thanks, and she begins pitching her tent beside the unfinished longhouse.</p><h2>On the other side of the welcome</h2><p>In a later encounter, Bramble uses her reflective wings to draw Tarset Caskbloom’s attention. Their argument ends with her returning to the Oasis without him. Having once needed a guide has not made every welcome easy or successful.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2025-12-07–2026-01-25 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "ossi",
+      "title": "Ossi “The Tynged”",
+      "type": "Wary newcomer",
+      "summary": "For Ossi, the possibility of remaining here sounds less like exile than a chance to be free.",
+      "dek": "For Ossi, the possibility of remaining here sounds less like exile than a chance to be free.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Ossi",
+        "The Tynged",
+        "Atrax",
+        "Athkatla"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>Peace offered at a distance</h2><p>Ossi initially recoils from Atrax and insists he will not go back. Atrax keeps his distance, warns him about the edge and offers a route to water without demanding payment. Ossi cautiously follows.</p><h2>A fresh start</h2><p>He gives his name as Ossi and says he has been carted to Athkatla for entertainment. The account does not identify everyone responsible for that past. Atrax’s assurances about returning home are his understanding, not a demonstrated law; for Ossi they nevertheless offer hope of freedom.</p><h2>Freedom is not another master</h2><p>As Atrax describes Cala’s task, Ossi challenges the idea of becoming a god’s pet after gaining his freedom. He reaches the Oasis, thanks his guide and apologises for his first response. Accepting help does not settle every question about whose cause he will serve.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-03-25 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "manzur",
+      "title": "Manzur",
+      "type": "Stoneborn · oath to the four elements",
+      "summary": "A stoneborn who first needs a guide, then offers the same practical help to another arrival.",
+      "dek": "A stoneborn who first needs a guide, then offers the same practical help to another arrival.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Vespere",
+        "Nnadunggisan",
+        "Elements",
+        "Stoneborn"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>A stoneborn on the sand</h2><p>Manzur wakes at the Shore, disoriented but unharmed. Vespere’s sudden appearance and offers of surgery do little to calm him; he repeatedly declines treatment but accepts her guidance to the Oasis. He treats sand as Earth, one of the elements he reveres.</p><h2>An oath carried from elsewhere</h2><p>He later tells Gisan that magic awakened him from a statue’s vigilance during a siege of the Host Temple of the Elements. He names Earth, Air, Fire and Water as the foundation of his oath. That origin is his testimony; it does not place his former temple in Gedankin.</p><h2>Offering the next welcome</h2><p>When <a href=\"#nnadunggisan\">Nnadunggisan</a> arrives, Manzur offers company, water and the route he knows. He admits he has never visited Khars Madar and will not pretend to guide someone there. He also makes clear that he is no acolyte of Cala and has not met her; what he reports about her comes from others.</p><h2>Perseverance, not splendour</h2><p>He checks his pace so Gisan can keep up, and brings him to the Oasis. His hopes of improving its meagre supplies remain intentions. The scene establishes a welcome and a new acquaintance, not a completed building programme or a new allegiance.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-06-01–2026-09-22 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "nnadunggisan",
+      "title": "Nnadunggisan",
+      "type": "Dwarf · newcomer",
+      "summary": "Gisan looks toward a better future, even while trying to get the sand out of his beard.",
+      "dek": "Gisan looks toward a better future, even while trying to get the sand out of his beard.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Gisan",
+        "Manzur",
+        "Dwarf"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>First impressions</h2><p>Nnadunggisan wakes at the waterless Shore and asks whether it is the afterlife. He introduces himself to Manzur with Gisan as a shorter name. He says he has moved from mines through several temples, without staying long in any of them.</p><h2>Questions before allegiance</h2><p>He asks about Cala, immortality and a proper town. Manzur declines to promise immortality or lead him to a city he has never visited. Gisan follows him to the Oasis instead, welcoming the prospect of new faces without old grudges.</p><h2>A possible contribution</h2><p>Hearing Manzur’s account of the Albayt’s replenishing rooms, Gisan suggests rotating groups through the fighting and healing. This is a suggestion, not an operation shown to have been carried out. At the Oasis he thanks Manzur and goes to find a drink.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-09-22 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "ashbriar",
+      "title": "Ashbriar",
+      "type": "Treant · former cultivator",
+      "summary": "A displaced treant whose concern for the Oasis’s trees turns an awkward welcome into a promise of restoration.",
+      "dek": "A displaced treant whose concern for the Oasis’s trees turns an awkward welcome into a promise of restoration.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Treant",
+        "Aurora Luminaria",
+        "Cultivator"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>Far from the grove</h2><p>Ashbriar appears in the Shore accounts as a treant. He identifies himself to Aurora Luminaria as a former cultivator and calls himself the last tree. That is how he describes his situation, not a census of all living trees in Gedankin.</p><h2>Shelter at a cost</h2><p>When Aurora meets him, he condemns the felling of palms for shelter and fears the loss of their roots will imperil the Oasis’s water. His ecological warning and his claim that nothing remains to plant stay attributed to him; the wider fate of the Oasis is not established by the argument.</p><h2>A promise to search</h2><p>Aurora challenges his hostility, but offers to help find and grow new trees. Ashbriar says a distant tree called to him from the bones of an ancient entity he believes was primordial. Their exchange offers a lead and hope for a grove, not proof of the entity’s identity or a completed restoration. He guides her to the settlement.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-05-21–2026-06-02 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "shinjuro",
+      "title": "Shinjurō",
+      "type": "Shore watcher and guide",
+      "summary": "A towering guide who goes out to keep newcomers from dying of thirst before they find the camp.",
+      "dek": "A towering guide who goes out to keep newcomers from dying of thirst before they find the camp.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Shinjuro",
+        "Kurze Koza",
+        "Shore watch"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>A gentle hand</h2><p>Shinjurō offers Kurze Koza a large clawed hand when the orc awakens. He calls their situation a new beginning, while readily admitting he does not know what that beginning entails.</p><h2>Knowing the limits of his knowledge</h2><p>He says he has not ventured far beyond the Oasis and hopes returning travellers can tell him more. He does not claim to be the oldest resident or to know all the land’s dangers.</p><h2>A watcher’s purpose</h2><p>He explains that he came to the Shore to check for arrivals before dehydration could claim them. He points out the distant peaks as a landmark, then takes Kurze to the temporary lean-tos and unfinished longhouse.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-01-23 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "kurze-koza",
+      "title": "Kurze Koza",
+      "type": "Orc · newcomer",
+      "summary": "A calm arrival whose questions expose how little even his welcoming guide can promise.",
+      "dek": "A calm arrival whose questions expose how little even his welcoming guide can promise.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Strange Shore",
+        "Kurze",
+        "Shinjurō"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Recorded at": "The Shore and route to the Oasis"
+      },
+      "body": "<h2>Questions on waking</h2><p>Kurze awakens in worn clothing, with a dark mohawk and scars across his bearded face. He takes Shinjurō’s offered hand without hesitation and asks what this new beginning entails.</p><h2>Listening before deciding</h2><p>He asks about danger, other residents and the temporary shelter, allowing his guide to explain before pressing further. Shinjurō points out the route and brings him to the Oasis. Their conversation does not settle whether the Shore is an afterlife; that remains a question the characters debate.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-01-23 (UTC posting dates; in-world dates unestablished)."
+      ]
     }
   ],
   "locations": [
     {
       "id": "strange-shore",
-      "title": "The Strange Shore",
-      "summary": "White sand ends at a star-filled void where an ocean should be.",
-      "dek": "White sand ends at a star-filled void where an ocean should be.",
+      "title": "The Shore",
+      "summary": "Gedankin’s landing area: a waterless edge beneath nebulae, where a guide can make the difference between wandering and finding water.",
+      "dek": "Gedankin’s landing area: a waterless edge beneath nebulae, where a guide can make the difference between wandering and finding water.",
       "tags": [
         "Gedankin",
         "Arrival",
-        "Desert"
+        "Desert",
+        "The Shore",
+        "The Strange Shore",
+        "Landing area"
       ],
       "facts": {
-        "World": "Gedankin"
+        "World": "Gedankin",
+        "Role": "Landing area for arrivals",
+        "Beyond the sand": "Waterless void",
+        "Inland refuge": "The Oasis"
       },
-      "body": "<h2>The place of arrival</h2><p>The first company awakens beside bleach-white dunes, with a kaleidoscopic void below and stars overhead. Their previous journeys do not explain how they arrived.</p><h2>A fragile foothold</h2><p>Shrubs and rapidly growing palms provide some food, but the vegetation eventually withers. This is an observed resource limit, not an inexhaustible paradise.</p>",
+      "body": "<h2>The place of arrival</h2><p>The first company awakens beside bleach-white dunes, with a kaleidoscopic void below and stars overhead. Their previous journeys do not explain how they arrived.</p><h2>A fragile foothold</h2><p>Shrubs and rapidly growing palms provide some food, but the vegetation eventually withers. This is an observed resource limit, not an inexhaustible paradise.</p><h2>The waterless edge</h2><p>The sand ends abruptly where a sea would normally begin. Beyond it are empty space and the colours of nebulae; scrub and rolling dunes lie inland. The accounts often describe a pillar of light at an arrival. Guides use it to notice newcomers, but its appearance does not identify who brought them here or explain the means of crossing.</p><h2>The first people you meet</h2><p><a href=\"#kara-vash\">Kara</a> leads Sixtus and Rhalor toward camp. <a href=\"#atrax\">Atrax</a> greets the early Aurora, Bramble, Ossi and Vaerik. <a href=\"#shinjuro\">Shinjurō</a> checks for people before thirst can claim them. <a href=\"#vespere\">Vespere</a> guides Manzur; later <a href=\"#manzur\">Manzur</a> welcomes Gisan in turn. Their knowledge differs, and not every explanation they offer is certain.</p><h2>Finding the Oasis</h2><p>Arrival does not place a traveller inside the refuge. Reaching <a href=\"#oasis\">the Oasis</a> means crossing the dunes. Atrax places palm-trunk markers, while warning that wind and storms can shift the sand. The Oasis sometimes seems to shimmer into view only at the final rise. Neither a reliable travel time nor a permanent marked path is established.</p><h2>Each welcome is a choice</h2><p>For one person the crossing means exile; for Ossi it offers hope of freedom. Some ask whether they have died, while others look for a task. These are responses to the Shore, not proof that every arrival shares one origin, purpose or fate.</p><p><a href=\"#world-map\">Find the Shore on Gedankin’s map →</a></p>",
       "sources": [
-        "2024-rp.md — 28 September 2024; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 28 September 2024; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-shore.md — 2024-09-25–2026-09-22 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -561,14 +822,20 @@ window.GedankinData = {
         "Gedankin",
         "Cala",
         "Blue Scales",
-        "Refuge"
+        "Refuge",
+        "The Shore",
+        "Bramble Blackberry",
+        "Manzur",
+        "Ashbriar",
+        "Aurora Luminaria"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Shelter in the desert</h2><p>Cala reveals an elliptical oasis between two dunes, with palms, reeds and lean-tos. She calls it her creation and offers it as a place to meet the company’s physical needs.</p><h2>A gathering place</h2><p>The Oasis receives travellers, wounded visitors and pleas for help. Zrurg reaches it seeking aid for the Blue Scales. Later expeditions depart for the city and mountains; by September the settlement includes unfinished palm-log construction.</p>",
+      "body": "<h2>Shelter in the desert</h2><p>Cala reveals an elliptical oasis between two dunes, with palms, reeds and lean-tos. She calls it her creation and offers it as a place to meet the company’s physical needs.</p><h2>A gathering place</h2><p>The Oasis receives travellers, wounded visitors and pleas for help. Zrurg reaches it seeking aid for the Blue Scales. Later expeditions depart for the city and mountains; by September the settlement includes unfinished palm-log construction.</p><h2>Building a welcome</h2><p>Arrivals from the Shore repeatedly find temporary lean-tos and a half-built longhouse. Atrax patrols the perimeter, guides newcomers and describes improving the shelter one small task at a time. Bramble’s offered flower and Manzur’s later welcome of Gisan show a camp sustained by ordinary acts as well as expeditions.</p><h2>A grove promised</h2><p>Ashbriar fears that cutting palms will undermine the refuge; Aurora Luminaria promises to help restore trees. His account of the damage and her promised remedy are preserved as warning and intention, without inventing a completed planting or a final fate for the water.</p>",
       "sources": [
-        "2024-rp.md — 4 October 2024–18 September 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 4 October 2024–18 September 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-shore.md — 2024-10-07–2026-09-22 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -580,14 +847,17 @@ window.GedankinData = {
         "Gedankin",
         "Luxcit",
         "Sombra Estrellar",
-        "Harlan Rayburn"
+        "Harlan Rayburn",
+        "Storm",
+        "Changing rooms"
       ],
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>The recovered lantern</h2><p>The company explores the structure and finds a magical lantern attached to a dead bearer. Sombra bonds with it and carries it outside; it introduces itself as Luxcit and names the dead Lightbringer Harlan Rayburn.</p><h2>The record’s limits</h2><p>The lantern recovery is documented here. Other encounters in this large expedition have not yet received a complete scene-by-scene account in the Codex.</p>",
+      "body": "<h2>The recovered lantern</h2><p>The company explores the structure and finds a magical lantern attached to a dead bearer. Sombra bonds with it and carries it outside; it introduces itself as Luxcit and names the dead Lightbringer Harlan Rayburn.</p><h2>The record’s limits</h2><p>The lantern recovery is documented here. Other encounters in this large expedition have not yet received a complete scene-by-scene account in the Codex.</p><h2>What the guides report</h2><p>In the accounts posted in December 2025 and March 2026, Atrax says a major storm buried the structure and left the task incomplete. In May he describes later visits and changing rooms. By September, Manzur reports reaching eight rooms and finding cleared chambers occupied again on return. These are dated reports of the company’s knowledge; they do not establish the exact reopening date or the defeat of the evil said to lie inside.</p>",
       "sources": [
-        "2024-rp.md — 25 October 2024; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-shore.md — 2025-12-08–2026-09-22 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -726,9 +996,10 @@ window.GedankinData = {
         "World": "Gedankin",
         "Record": "Map landmark"
       },
-      "body": "<h2>On the map</h2><p>The desert region labelled The Seven Sands on the Gedankin map.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
+      "body": "<h2>On the map</h2><p>The desert region labelled The Seven Sands on the Gedankin map.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p><h2>A name carried by a traveller</h2><p>Atrax tells Bramble that a passing caravaneer called the desert the Seven Sands. Manzur later repeats the name while guiding Gisan. Their testimony gives the map label a place in everyday speech; the Shore record does not chart every boundary or establish an exhaustive list of settlements.</p>",
       "sources": [
-        "Gedankin.png — world map supplied by the user."
+        "Gedankin.png — world map supplied by the user.",
+        "gedankin-the-shore.md — 2025-12-07–2026-09-22 (UTC posting dates; in-world dates unestablished)."
       ]
     },
     {
@@ -1323,6 +1594,289 @@ window.GedankinData = {
         "Eudora"
       ],
       "location": "The glacier / Icyscale Roost"
+    },
+    {
+      "id": "sixtus-finds-a-guide",
+      "title": "Kara Guides Sixtus and Rhalor Inland",
+      "summary": "A new guardsman finds company and a route to the Oasis.",
+      "dek": "A new guardsman finds company and a route to the Oasis.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "Arrival",
+        "Kara Vash",
+        "Sixtus of Hillfar Meadow",
+        "Rhalor"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2024-10-05",
+        "Location": "The Shore → The Oasis",
+        "Participants": "Kara Vash, Sixtus of Hillfar Meadow, Rhalor",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>The next step</h2><p>Sixtus seeks information after waking far from his watch at Hillfar Meadow. Kara finds him and Rhalor after seeing the arrival light, explains that the camp has moved, and leads them toward the Oasis. Their theories about death or magic do not establish the cause of arrival.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2024-10-05-shore",
+      "meta": "2024-10-05",
+      "people": [
+        "Kara Vash",
+        "Sixtus of Hillfar Meadow",
+        "Rhalor"
+      ],
+      "location": "The Shore"
+    },
+    {
+      "id": "aurora-early-welcome",
+      "title": "Atrax Welcomes Aurora and Discusses a Living Path",
+      "summary": "A route to water becomes a discussion of waymarkers, planting and shared survival.",
+      "dek": "A route to water becomes a discussion of waymarkers, planting and shared survival.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "Arrival",
+        "Atrax",
+        "Aurora (early Shore arrival)",
+        "Sombra Estrellar"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2024-10-07–08",
+        "Location": "The Shore → The Oasis",
+        "Participants": "Atrax, Aurora (early Shore arrival), Sombra Estrellar",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>A guide and an idea</h2><p>Atrax asks permission to approach and offers Aurora a route to water. His palm-trunk markers prompt her idea for native plants along the path. They reach the Oasis, and he points her toward Sombra for food. The planting remains an idea, and her identity is not equated with the later Aurora Luminaria.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2024-10-07–2024-10-08 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2024-10-07-shore",
+      "meta": "2024-10-07–08",
+      "people": [
+        "Atrax",
+        "Aurora (early Shore arrival)",
+        "Sombra Estrellar"
+      ],
+      "location": "The Shore"
+    },
+    {
+      "id": "bramble-flower-of-thanks",
+      "title": "Bramble Reaches the Oasis and Offers a Flower",
+      "summary": "A difficult first meeting ends with guidance, an apology and a small offered kindness.",
+      "dek": "A difficult first meeting ends with guidance, an apology and a small offered kindness.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "Arrival",
+        "Bramble Blackberry",
+        "Atrax"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2025-12-07–08",
+        "Location": "The Shore → The Oasis",
+        "Participants": "Bramble Blackberry, Atrax",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Repairing the welcome</h2><p>Bramble’s suspicion and remarks about Atrax’s heritage strain the encounter. She apologises and asks for help; he continues guiding her. At the Oasis she grows a flower from a seed and gives it to him. Atrax accepts, while friendship remains something to build.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2025-12-07–2025-12-08 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2025-12-07-shore",
+      "meta": "2025-12-07–08",
+      "people": [
+        "Bramble Blackberry",
+        "Atrax"
+      ],
+      "location": "The Shore"
+    },
+    {
+      "id": "shinjuro-guides-kurze",
+      "title": "Shinjurō Brings Kurze to the Camp",
+      "summary": "A watcher’s patrol gives a questioning newcomer a hand and a route to shelter.",
+      "dek": "A watcher’s patrol gives a questioning newcomer a hand and a route to shelter.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "Arrival",
+        "Shinjurō",
+        "Kurze Koza"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-01-23",
+        "Location": "The Shore → The Oasis",
+        "Participants": "Shinjurō, Kurze Koza",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>A limited but useful answer</h2><p>Shinjurō does not pretend to know the purpose of the crossing or the whole desert. He can offer Kurze a hand, directions and the knowledge of a nearby camp. He explains that checking for arrivals before they dehydrate is why he came to the Shore.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-01-23 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-01-23-shore",
+      "meta": "2026-01-23",
+      "people": [
+        "Shinjurō",
+        "Kurze Koza"
+      ],
+      "location": "The Shore"
+    },
+    {
+      "id": "ossi-accepts-a-fresh-start",
+      "title": "Ossi Accepts Help without Surrendering His Freedom",
+      "summary": "A wary arrival follows Atrax to water while questioning the price of a divine cause.",
+      "dek": "A wary arrival follows Atrax to water while questioning the price of a divine cause.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "Arrival",
+        "Ossi “The Tynged”",
+        "Atrax"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-03-25",
+        "Location": "The Shore → The Oasis",
+        "Participants": "Ossi “The Tynged”, Atrax",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Help without barter</h2><p>Atrax stays back when Ossi panics, warns him about the edge and offers water. Ossi cautiously follows and begins to hope for a fresh start. He challenges the prospect of becoming a god’s pet; at the Oasis he nevertheless thanks Atrax and apologises. No permanent allegiance is established.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-03-25 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-03-25-shore",
+      "meta": "2026-03-25",
+      "people": [
+        "Ossi “The Tynged”",
+        "Atrax"
+      ],
+      "location": "The Shore"
+    },
+    {
+      "id": "vaerik-atrax-shore-welcome",
+      "title": "Vaerik Takes Atrax’s Route to the Oasis",
+      "summary": "A blunt welcome gives the old soldier shelter and news of a task.",
+      "dek": "A blunt welcome gives the old soldier shelter and news of a task.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "Arrival",
+        "Vaerik",
+        "Atrax"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-05-17",
+        "Location": "The Shore → The Oasis",
+        "Participants": "Vaerik, Atrax",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>A difficult beginning</h2><p>Vaerik asks Atrax to drop the formalities, accepts his offer of shelter and says he cannot quite remember his home. Atrax explains the sparse comforts and fighting at the Albayt; Vaerik expresses interest in the task. They reach the Oasis. The conversation does not explain the crossing or recover his missing memories.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-05-17 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-05-17-shore",
+      "meta": "2026-05-17",
+      "people": [
+        "Vaerik",
+        "Atrax"
+      ],
+      "location": "The Shore"
+    },
+    {
+      "id": "vespere-guides-manzur",
+      "title": "Vespere Guides the Uninjured Manzur",
+      "summary": "Manzur declines surgery but accepts help finding the camp.",
+      "dek": "Manzur declines surgery but accepts help finding the camp.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "Arrival",
+        "Vespere",
+        "Manzur"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-06-01",
+        "Location": "The Shore → The Oasis",
+        "Participants": "Vespere, Manzur",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>The help he needs</h2><p>Vespere’s unsettling welcome includes offers of treatment. Manzur repeatedly says he is unharmed; she puts her saw away and leads him to the Oasis. He thanks her, acknowledging he might not have found it alone. His immediate need is orientation rather than healing.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-06-01 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-06-01-shore",
+      "meta": "2026-06-01",
+      "people": [
+        "Vespere",
+        "Manzur"
+      ],
+      "location": "The Shore"
+    },
+    {
+      "id": "aurora-ashbriar-grove-promise",
+      "title": "Aurora Luminaria Promises to Help Ashbriar Find Trees",
+      "summary": "An argument over shelter and felled palms becomes a promise to help restore a grove.",
+      "dek": "An argument over shelter and felled palms becomes a promise to help restore a grove.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "Arrival",
+        "Aurora Luminaria",
+        "Ashbriar"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-06-02",
+        "Location": "The Shore → The Oasis",
+        "Participants": "Aurora Luminaria, Ashbriar",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>A shared possibility</h2><p>Ashbriar guides Aurora from the Shore while condemning the felling of the Oasis palms. She challenges his contempt for the settlers, then promises help finding and growing trees. His account of a distant calling tree offers a possible lead. The scene ends with arrival at camp; no restored grove is shown.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-06-02 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-06-02-shore",
+      "meta": "2026-06-02",
+      "people": [
+        "Aurora Luminaria",
+        "Ashbriar"
+      ],
+      "location": "The Shore"
+    },
+    {
+      "id": "manzur-welcomes-gisan",
+      "title": "Manzur Welcomes Gisan to the Oasis",
+      "summary": "The former newcomer becomes a guide who admits what he does not know.",
+      "dek": "The former newcomer becomes a guide who admits what he does not know.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "Arrival",
+        "Manzur",
+        "Nnadunggisan"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-09-22",
+        "Location": "The Shore → The Oasis",
+        "Participants": "Manzur, Nnadunggisan",
+        "Chronology": "Posting dates; in-world dates unestablished"
+      },
+      "body": "<h2>Passing the welcome onward</h2><p>Manzur guides the dwarf Nnadunggisan, or Gisan, toward water. He admits he has never visited Khars Madar or met Cala, distinguishes his elemental oath from service to her, and checks his walking pace. Gisan offers questions and optimism; the Oasis shimmers into view and he thanks his guide.</p>",
+      "sources": [
+        "gedankin-the-shore.md — 2026-09-22 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "sort": "2026-09-22-shore",
+      "meta": "2026-09-22",
+      "people": [
+        "Manzur",
+        "Nnadunggisan"
+      ],
+      "location": "The Shore"
     }
   ],
   "quotes": [
@@ -1366,6 +1920,42 @@ window.GedankinData = {
       "group": "The struggle for freedom",
       "article": "zrurg",
       "source": "2024-rp.md — 17 February 2025 (UTC posting date)"
+    },
+    {
+      "text": "We have time to get stuff done in our life, not in our death. That’s what makes it valuable.",
+      "speaker": "Sixtus of Hillfar Meadow",
+      "group": "The Shore · Life and purpose",
+      "article": "sixtus"
+    },
+    {
+      "text": "I'm not sure who this Death is, but if it has won, we are proof of resistance.",
+      "speaker": "Aurora (early Shore arrival)",
+      "group": "The Shore · Shared survival",
+      "article": "aurora-early-shore"
+    },
+    {
+      "text": "Well, I'm certainly not going to leave someone brought here against their will to cast about in the wasteland alone, that's for certain!",
+      "speaker": "Atrax",
+      "group": "The Shore · Shared survival",
+      "article": "atrax"
+    },
+    {
+      "text": "By putting one foot in front of the other. Day. After day. After day. Finding a task, any task, no matter how small, to try and improve our situation.",
+      "speaker": "Atrax",
+      "group": "The Shore · Perseverance",
+      "article": "atrax"
+    },
+    {
+      "text": "Listen, I'm fine with getting gifts from horses, but I didn't get free just to be some pet to gods... ain't worth dying over, is all I'm sayin'.",
+      "speaker": "Ossi “The Tynged”",
+      "group": "The Shore · Freedom",
+      "article": "ossi"
+    },
+    {
+      "text": "It's short on splendor, that much is true. But it is long on heart. We endure by perseverance.",
+      "speaker": "Manzur",
+      "group": "The Shore · Perseverance",
+      "article": "manzur"
     }
   ],
   "articles": [

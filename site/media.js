@@ -61,6 +61,7 @@ window.FENUMION_MEDIA = {
     }
   },
   locations: {
+    "The Last Grove": { image: "assets/locations/last-grove.png" },
     "Citadel of Sorrow": {
       image: "assets/locations/citadel-of-sorrow.gif"
     },

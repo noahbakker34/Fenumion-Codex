@@ -91,12 +91,21 @@ window.GedankinData = {
         "The Shore"
       ],
       "facts": {
-        "World": "Gedankin"
+        "World": "Gedankin",
+        "Reported arrival": "After a storm capsized her ship"
       },
-      "body": "<h2>A shore beyond the familiar</h2><p>Kara awakens on the white sands beside the star-filled void. She says her ship capsized in a storm and asks whether she has died; the account does not establish that explanation.</p><h2>A practical oath</h2><p>In speaking with Cala, Kara places the safety and suffering of her companions at the centre of her commitment. Later, she helps the company bring the recovered lantern into the light.</p><h2>Returning for the next arrival</h2><p>Seeing a pillar of light, Kara finds Sixtus and Rhalor near the Shore. She says the camp has moved from the meteorite to an Oasis and leads them inland, explaining what the company has heard. Her suspicion that she died in a shipwreck remains a theory; her immediate action is to get the others to shelter.</p>",
+      "body": "<h2>A shipwreck remembered</h2><p>Kara says a storm capsized her ship and asks whether the company is in the celestial realms. Her opening questions are anxious and direct. Her later return for newcomers shows how that uncertainty becomes practical care for others.</p><h2>A shore beyond the familiar</h2><p>Kara awakens on the white sands beside the star-filled void. She says her ship capsized in a storm and asks whether she has died; the account does not establish that explanation.</p><h2>A practical oath</h2><p>In speaking with Cala, Kara places the safety and suffering of her companions at the centre of her commitment. Later, she helps the company bring the recovered lantern into the light.</p><h2>Returning for the next arrival</h2><p>Seeing a pillar of light, Kara finds Sixtus and Rhalor near the Shore. She says the camp has moved from the meteorite to an Oasis and leads them inland, explaining what the company has heard. Her suspicion that she died in a shipwreck remains a theory; her immediate action is to get the others to shelter.</p>",
       "sources": [
         "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished).",
+        "Kara_Vash.md — 28 September 2024 — reviewed embedded arrival scene (UTC posting dates)."
+      ],
+      "relatedRecords": [
+        "irenhour",
+        "sixtus",
+        "rhalor",
+        "cala",
+        "strange-shore"
       ]
     },
     {
@@ -111,12 +120,21 @@ window.GedankinData = {
         "Oasis"
       ],
       "facts": {
-        "World": "Gedankin"
+        "World": "Gedankin",
+        "Self-description": "Nephalim of the Celestial realms",
+        "Community work": "Shelter, supplies and waymarkers"
       },
-      "body": "<h2>Lost among the stars</h2><p>Irenhour cannot identify the strange shore with certainty. His suggestions about its nature remain interpretations, rather than an established name for this world.</p><h2>The need for a refuge</h2><p>After the desert’s dangers, Irenhour presses the practical need for rest and shelter. He joins the company that receives Cala’s invitation to the Oasis and later explores Albayt Alkabir.</p><h2>Making a shelter</h2><p>Irenhour and Atrax start a shared longhouse. They discuss preserving the denser palms for shade and work with isolated trees, drying and preparing the wood with elemental magic. Both admit their lack of building experience. Manacles and caltrops are suggested as sources of nails; the discussion does not prove those nails were made.</p><h2>Hospitality and supplies</h2><p>After helping escort Khemset to camp, Irenhour later bargains with Salim for a lantern and asks about goats, spices and wood. He also shares water, berries and tea with the merchant. The purchased lantern is separate from the lost lantern in Khemset’s account.</p>",
+      "body": "<h2>A title without an answer</h2><p>Irenhour introduces himself as a Nephalim of the Celestial realms, then admits he cannot name the place around him. He says he is lost and shamed by it. His claimed celestial standing supplies neither a reliable map nor certainty about what has happened.</p><h2>Lost among the stars</h2><p>Irenhour cannot identify the strange shore with certainty. His suggestions about its nature remain interpretations, rather than an established name for this world.</p><h2>The need for a refuge</h2><p>After the desert’s dangers, Irenhour presses the practical need for rest and shelter. He joins the company that receives Cala’s invitation to the Oasis and later explores Albayt Alkabir.</p><h2>Making a shelter</h2><p>Irenhour and Atrax start a shared longhouse. They discuss preserving the denser palms for shade and work with isolated trees, drying and preparing the wood with elemental magic. Both admit their lack of building experience. Manacles and caltrops are suggested as sources of nails; the discussion does not prove those nails were made.</p><h2>Hospitality and supplies</h2><p>After helping escort Khemset to camp, Irenhour later bargains with Salim for a lantern and asks about goats, spices and wood. He also shares water, berries and tea with the merchant. The purchased lantern is separate from the lost lantern in Khemset’s account.</p>",
       "sources": [
         "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-oasis.md — 2024-10-06–2024-11-02 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-10-06–2024-11-02 (UTC posting dates; in-world dates unestablished).",
+        "Irenhour.md — 28 September 2024 — reviewed embedded arrival scene (UTC posting dates)."
+      ],
+      "relatedRecords": [
+        "atrax",
+        "kara-vash",
+        "oasis",
+        "shore-oasis-marker-trail"
       ]
     },
     {
@@ -146,7 +164,8 @@ window.GedankinData = {
         "gedankin-the-oasis.md — 2024-10-06–2024-10-11 (UTC posting dates; in-world dates unestablished)."
       ],
       "relatedRecords": [
-        "shore-oasis-marker-trail"
+        "shore-oasis-marker-trail",
+        "jacques-rayne"
       ]
     },
     {
@@ -213,17 +232,26 @@ window.GedankinData = {
       ],
       "facts": {
         "World": "Gedankin",
-        "Appearance": "A stitched doll, about two feet tall"
+        "Appearance": "A stitched doll, about two feet tall",
+        "Work": "Healing and surgical care"
       },
-      "body": "<h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p><h2>Guiding Manzur</h2><p>At the Shore, Vespere startles the newly arrived Manzur, offers to check his injuries and brings out her surgical tools. He insists he is unharmed and declines treatment. She puts the saw away, then guides him to the Oasis, where he thanks her. Her claim that Cala called the arrivals is her explanation; Cala’s own earlier denial of summoning the company remains in the record.</p><h2>From the sand to the shop</h2><p>Vaerik pulls Vespere free when quicksand rises around her. At the ruins she examines burned bodies and prepares protective magic for willing companions; all escape the collapsing crypt. On return she buys Salim’s Bag of Holding.</p><h2>News carried between companions</h2><p>Vespere explains the city’s houses and entry coin to Aurora Luminaria, and later tells Myllo that Heih died. These moments place her beside the newcomers and the absent as well as on expeditions.</p>",
+      "body": "<h2>The doll on the Shore</h2><p>Vespere’s earliest scene presents a motionless doll on the sand, with cloth and stitched skin gathering grains as she begins to move. She asks a stranger to play and protests when threatened with being pushed. Her desire for company sits beside the unsettling precision of her movements.</p><h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p><h2>Guiding Manzur</h2><p>At the Shore, Vespere startles the newly arrived Manzur, offers to check his injuries and brings out her surgical tools. He insists he is unharmed and declines treatment. She puts the saw away, then guides him to the Oasis, where he thanks her. Her claim that Cala called the arrivals is her explanation; Cala’s own earlier denial of summoning the company remains in the record.</p><h2>From the sand to the shop</h2><p>Vaerik pulls Vespere free when quicksand rises around her. At the ruins she examines burned bodies and prepares protective magic for willing companions; all escape the collapsing crypt. On return she buys Salim’s Bag of Holding.</p><h2>News carried between companions</h2><p>Vespere explains the city’s houses and entry coin to Aurora Luminaria, and later tells Myllo that Heih died. These moments place her beside the newcomers and the absent as well as on expeditions.</p>",
       "sources": [
         "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2026-06-01 (UTC posting dates; in-world dates unestablished).",
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2026-06-01–2026-07-09 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-06-01–2026-07-09 (UTC posting dates; in-world dates unestablished).",
+        "Vespere.md — 25 March 2026 — reviewed embedded arrival scene (UTC posting dates)."
       ],
       "aliases": [
         "Vespere Hollowstich"
+      ],
+      "relatedRecords": [
+        "chayma",
+        "vaerik",
+        "xuan",
+        "manzur",
+        "mahdi-al-bilardi"
       ]
     },
     {
@@ -238,12 +266,21 @@ window.GedankinData = {
         "Icyscale Roost"
       ],
       "facts": {
-        "World": "Gedankin"
+        "World": "Gedankin",
+        "Instrument": "Viol",
+        "Self-described title": "Dancing General"
       },
-      "body": "<h2>The road to Khars Madar</h2><p>Eudora travels with Sombra, Vespere and Keagan. During the attack on the two sisters, she uses music and a threatening dragon illusion against a hyena. She asks the company to bring the dead sister’s body with them.</p><h2>Below the city and beyond</h2><p>Eudora accompanies the exploration beneath the Tayyeb quarter and the later expedition that frees four kobolds near Icyscale Roost. Her earlier military title is her own account, not an independently documented Gedankin commission.</p><h2>Music at the refuge</h2><p>At the Oasis, Eudora plays the viol and describes teaching herself despite her family’s lack of enthusiasm. Sombra thanks her for guidance in battle. She answers that a soldier helps the team succeed, connecting her music to the work of keeping companions alive.</p>",
+      "body": "<h2>Music at the first meeting</h2><p>Eudora approaches the early company while playing her viol. She asks whether they are locals and recalls walking to the barracks before waking here. Her description of paradise as a battlefield among comrades is her own, placing a martial voice beside the music.</p><h2>The road to Khars Madar</h2><p>Eudora travels with Sombra, Vespere and Keagan. During the attack on the two sisters, she uses music and a threatening dragon illusion against a hyena. She asks the company to bring the dead sister’s body with them.</p><h2>Below the city and beyond</h2><p>Eudora accompanies the exploration beneath the Tayyeb quarter and the later expedition that frees four kobolds near Icyscale Roost. Her earlier military title is her own account, not an independently documented Gedankin commission.</p><h2>Music at the refuge</h2><p>At the Oasis, Eudora plays the viol and describes teaching herself despite her family’s lack of enthusiasm. Sombra thanks her for guidance in battle. She answers that a soldier helps the team succeed, connecting her music to the work of keeping companions alive.</p>",
       "sources": [
         "2024-rp.md — 16 April–24 September 2026; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-oasis.md — 2024-10-05 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-10-05 (UTC posting dates; in-world dates unestablished).",
+        "Eudora.md — 4 October 2024 — reviewed embedded arrival scene (UTC posting dates)."
+      ],
+      "relatedRecords": [
+        "sombra-estrellar",
+        "vespere",
+        "chayma",
+        "icyscale-roost"
       ]
     },
     {
@@ -412,14 +449,23 @@ window.GedankinData = {
         "Xuan"
       ],
       "facts": {
-        "World": "Gedankin"
+        "World": "Gedankin",
+        "Travel": "Spider limbs",
+        "Affiliation in reviewed scenes": "Admitted to House Nazif"
       },
-      "body": "<h2>The scorpion passages</h2><p>Xuan accompanies the expedition beneath the Tayyeb quarter. Faced with guards in a furnished cavern, Xuan negotiates while Vaerik threatens. A brass scorpion pin is offered as a way to make contact in Peddlers Passage.</p><h2>A different allegiance</h2><p>Xuan passes the pin to Vaerik. Possessing it is not confirmed Tayyeb membership. Xuan later reports to Ibin Ali with Vespere; both are admitted to House Nazif.</p>",
+      "body": "<h2>Poise on the sands</h2><p>Xuan’s first questions concern where she is and whether civilisation lies nearby: buildings, roads and bath houses. She moves on spider limbs rather than soil her shoes. Her later search for information in Khars Madar grows from this early attention to the unfamiliar world around her.</p><h2>The scorpion passages</h2><p>Xuan accompanies the expedition beneath the Tayyeb quarter. Faced with guards in a furnished cavern, Xuan negotiates while Vaerik threatens. A brass scorpion pin is offered as a way to make contact in Peddlers Passage.</p><h2>A different allegiance</h2><p>Xuan passes the pin to Vaerik. Possessing it is not confirmed Tayyeb membership. Xuan later reports to Ibin Ali with Vespere; both are admitted to House Nazif.</p>",
       "sources": [
-        "2024-rp.md — 25 June–16 July 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 25 June–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "Xuan_Jie.md — 28 October 2025 — reviewed embedded arrival scene (UTC posting dates)."
       ],
       "aliases": [
         "Xuan"
+      ],
+      "relatedRecords": [
+        "vespere",
+        "vaerik",
+        "house-nazif",
+        "house-tayyeb"
       ]
     },
     {
@@ -488,6 +534,11 @@ window.GedankinData = {
       "body": "<h2>A plea at the Oasis</h2><p>An injured Zrurg reaches the Oasis and asks for help for the Blue Scales. Katya gives water and healing; Yaotl joins the journey toward Bigrock Purple Mountain.</p><h2>The fight for freedom</h2><p>In September, Zrurg thanks another company for fighting beside the freedom-seeking kobolds. He describes a tyrant and opponents who support their enslavement. Winning this encounter does not establish the tyrant’s defeat or complete liberation.</p>",
       "sources": [
         "2024-rp.md — 17 February 2025 and 18 September 2026; dates refer to UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "yaotl",
+        "katya",
+        "mountain-cliff-route"
       ]
     },
     {
@@ -686,6 +737,9 @@ window.GedankinData = {
         "gedankin-the-shore.md — 2024-10-07–2024-10-08 (UTC posting dates; in-world dates unestablished).",
         "World creator clarification — 8 October 2026: Aurora and Aurora Luminaria are distinct characters.",
         "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "lux"
       ]
     },
     {
@@ -1002,6 +1056,10 @@ window.GedankinData = {
       ],
       "aliases": [
         "Leon"
+      ],
+      "relatedRecords": [
+        "azi",
+        "alcides"
       ]
     },
     {
@@ -1157,14 +1215,22 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin",
         "Reported origin": "Memnon · Calimshan",
-        "Record distinction": "Separate from Saira"
+        "Record distinction": "Separate from Saira",
+        "Craft": "Artifice and armour",
+        "Languages in the arrival scene": "Alzhedo and Common"
       },
-      "body": "<h2>A workshop wanted</h2><p>Sahira works on her armour and gauntlets beneath a lean-to, frustrated by the lack of a proper workshop. She says tools alone are not enough: she needs materials and room for several projects.</p><h2>Introductions after the dungeon</h2><p>She introduces herself to <a href=\"#aurora\">Aurora Luminaria</a> as Sahira al-Azar, from Memnon in Calimshan. They discuss healing, military leadership and their recent dungeon fighting. Sahira credits strategy for their improved progress; her belief that they were the first to reach that far remains her understanding.</p><h2>Learning the city by report</h2><p>She asks Aurora to repeat what Vespere said about Khars Madar. This is information passed between travellers, not Sahira’s own documented city visit. Sahira and the caravan survivor <a href=\"#saira\">Saira</a> have separate records.</p>",
+      "body": "<h2>A language before Common</h2><p>On waking, Sahira addresses the others in Alzhedo before switching to Common and repeating her questions. She asks Atrax to lead the way to the Oasis so she can learn more. Her practical search for tools and workspace continues this effort to regain her footing.</p><h2>A workshop wanted</h2><p>Sahira works on her armour and gauntlets beneath a lean-to, frustrated by the lack of a proper workshop. She says tools alone are not enough: she needs materials and room for several projects.</p><h2>Introductions after the dungeon</h2><p>She introduces herself to <a href=\"#aurora\">Aurora Luminaria</a> as Sahira al-Azar, from Memnon in Calimshan. They discuss healing, military leadership and their recent dungeon fighting. Sahira credits strategy for their improved progress; her belief that they were the first to reach that far remains her understanding.</p><h2>Learning the city by report</h2><p>She asks Aurora to repeat what Vespere said about Khars Madar. This is information passed between travellers, not Sahira’s own documented city visit. Sahira and the caravan survivor <a href=\"#saira\">Saira</a> have separate records.</p>",
       "sources": [
-        "gedankin-the-oasis.md — 2026-06-03 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-06-03 (UTC posting dates; in-world dates unestablished).",
+        "Sahira.md — 27 March 2026 — reviewed embedded arrival scene (UTC posting dates)."
       ],
       "aliases": [
         "Sahira"
+      ],
+      "relatedRecords": [
+        "atrax",
+        "aurora",
+        "oasis"
       ]
     },
     {
@@ -1218,6 +1284,534 @@ window.GedankinData = {
         "ryuske-kaslana",
         "strange-shore"
       ]
+    },
+    {
+      "id": "visaerk-animatia",
+      "title": "Visaerk Animatia",
+      "type": "Quick-footed arrival",
+      "category": "People",
+      "summary": "Visaerk lands on the sand mid-stride, then springs to his feet and greets the other displaced travellers.",
+      "dek": "Visaerk lands on the sand mid-stride, then springs to his feet and greets the other displaced travellers.",
+      "tags": [
+        "Gedankin",
+        "Visaerk Animatia",
+        "Quick-footed arrival"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Quick-footed arrival"
+      },
+      "sources": [
+        "Visaerk_Animatia.md — 28 September 2024 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "irenhour",
+        "kara-vash",
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Visaerk lands on the sand mid-stride, then springs to his feet and greets the other displaced travellers.</p><h2>Questions shared</h2><p>He asks how everyone arrived and says he had been “redistributin wealth” before appearing here. His playful introduction contrasts with Irenhour’s uncertainty; neither knows what brought the company to the Shore.</p>",
+      "aliases": []
+    },
+    {
+      "id": "yaotl",
+      "title": "Yaotl",
+      "type": "Tiefling explorer",
+      "category": "People",
+      "summary": "A face-painted tiefling with golden accessories, Yaotl approaches the other arrivals with a smile and asks where they are.",
+      "dek": "A face-painted tiefling with golden accessories, Yaotl approaches the other arrivals with a smile and asks where they are.",
+      "tags": [
+        "Gedankin",
+        "Yaotl",
+        "Tiefling explorer"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Tiefling explorer"
+      },
+      "sources": [
+        "Yaotl.md — 11 December 2024; Bigrock_Purple_Mountain.md — 17 February 2025 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "katya",
+        "zrurg",
+        "bigrock-purple-mountain"
+      ],
+      "body": "<h2>At a glance</h2><p>A face-painted tiefling with golden accessories, Yaotl approaches the other arrivals with a smile and asks where they are.</p><h2>Toward Bigrock</h2><p>Yaotl later travels with Katya and Zrurg toward Bigrock Purple Mountain. Their route involves climbing, scorpion swarms and a difficult descent. Reaching the mountain is established; completing the liberation is not.</p>",
+      "aliases": []
+    },
+    {
+      "id": "katya",
+      "title": "Katya",
+      "type": "Curious witch and traveller",
+      "category": "People",
+      "summary": "Katya greets the unfamiliar Shore with questions about its dancing wall of energy, nearby shelter and the people who live there.",
+      "dek": "Katya greets the unfamiliar Shore with questions about its dancing wall of energy, nearby shelter and the people who live there.",
+      "tags": [
+        "Gedankin",
+        "Katya",
+        "Curious witch and traveller"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Curious witch and traveller"
+      },
+      "sources": [
+        "Katya.md — 9 January 2025; Bigrock_Purple_Mountain.md — 17 February 2025 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "yaotl",
+        "zrurg",
+        "bigrock-purple-mountain"
+      ],
+      "body": "<h2>At a glance</h2><p>Katya greets the unfamiliar Shore with questions about its dancing wall of energy, nearby shelter and the people who live there.</p><h2>Exploration and assumptions</h2><p>She introduces herself to Yaotl and calls herself a visitor from the Isles. Her excitement leads her to assume that horns, pointed ears and magic make him a witch. Later she joins Yaotl and Zrurg on the journey to Bigrock Purple Mountain.</p>",
+      "aliases": []
+    },
+    {
+      "id": "lux",
+      "title": "Lux",
+      "type": "Traveller of the winds",
+      "category": "People",
+      "summary": "Lux greets fellow travellers warmly, but admits she cannot explain waking on sand that suddenly comes to an end.",
+      "dek": "Lux greets fellow travellers warmly, but admits she cannot explain waking on sand that suddenly comes to an end.",
+      "tags": [
+        "Gedankin",
+        "Lux",
+        "Traveller of the winds"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Traveller of the winds"
+      },
+      "sources": [
+        "Lux.md — 28 October 2025 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "jaren",
+        "aurora-early-shore",
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Lux greets fellow travellers warmly, but admits she cannot explain waking on sand that suddenly comes to an end.</p><h2>Following a guide</h2><p>She meets Jaren and accepts the early Aurora’s offer of guidance. Her words about winds following no map express her response to uncertainty. Lux and the recovered Lightbringer Luxcit have separate records; these scenes do not establish a shared identity.</p>",
+      "aliases": []
+    },
+    {
+      "id": "jaren",
+      "title": "Jaren Myrvale",
+      "type": "Arrival with uncertain memories",
+      "category": "People",
+      "summary": "Jaren’s first public exchanges show a traveller struggling to place himself and asking whether others have met an older version of him.",
+      "dek": "Jaren’s first public exchanges show a traveller struggling to place himself and asking whether others have met an older version of him.",
+      "tags": [
+        "Gedankin",
+        "Jaren Myrvale",
+        "Arrival with uncertain memories"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Arrival with uncertain memories"
+      },
+      "sources": [
+        "Jaren.md — 27 October 2025; Acheron.md — 28 October 2025 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "acheron",
+        "lux",
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Jaren’s first public exchanges show a traveller struggling to place himself and asking whether others have met an older version of him.</p><h2>Helping another newcomer</h2><p>When Acheron struggles with the unfamiliar sand and air, Jaren offers guidance. She eventually thanks him and agrees to follow. His questions about his past do not establish repeated visits or explain the arrival of either traveller.</p>",
+      "aliases": [
+        "Jaren"
+      ]
+    },
+    {
+      "id": "sol",
+      "title": "Sol",
+      "type": "Bewildered Shore arrival",
+      "category": "People",
+      "summary": "Sol wakes covered in sand, with a headache and no recollection of planning a beach visit.",
+      "dek": "Sol wakes covered in sand, with a headache and no recollection of planning a beach visit.",
+      "tags": [
+        "Gedankin",
+        "Sol",
+        "Bewildered Shore arrival"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Bewildered Shore arrival"
+      },
+      "sources": [
+        "Sol.md — 6 October 2024 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Sol wakes covered in sand, with a headache and no recollection of planning a beach visit.</p><h2>A name before explanations</h2><p>When offered music, he asks first for an introduction and then gives his own name. His repeated question is straightforward: where has he landed? The scene establishes an arrival, without explaining its cause.</p>",
+      "aliases": []
+    },
+    {
+      "id": "alcides",
+      "title": "Alcides",
+      "type": "Defiant newcomer",
+      "category": "People",
+      "summary": "Alcides arrives with a heavy impact in blood and sand, then demands to know who the people around him are and where he has landed.",
+      "dek": "Alcides arrives with a heavy impact in blood and sand, then demands to know who the people around him are and where he has landed.",
+      "tags": [
+        "Gedankin",
+        "Alcides",
+        "Defiant newcomer"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Defiant newcomer"
+      },
+      "sources": [
+        "Alcides.md — 1 September 2026 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "leon-zantharis",
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Alcides arrives with a heavy impact in blood and sand, then demands to know who the people around him are and where he has landed.</p><h2>A trial, in his own words</h2><p>He shouts upward at his father, asking how much more he must prove, and responds rudely to Leon. His language frames the experience as another trial; the scene does not identify who caused his arrival.</p>",
+      "aliases": []
+    },
+    {
+      "id": "flayfair",
+      "title": "Flayfair",
+      "type": "Flying expedition companion",
+      "category": "People",
+      "summary": "Flayfair introduces herself in flight and urges a skeletal giant to drop its weapons rather than hurt anyone.",
+      "dek": "Flayfair introduces herself in flight and urges a skeletal giant to drop its weapons rather than hurt anyone.",
+      "tags": [
+        "Gedankin",
+        "Flayfair",
+        "Flying expedition companion"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Flying expedition companion"
+      },
+      "sources": [
+        "Flayfair.md — 28 May and 4 June 2026 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [],
+      "body": "<h2>At a glance</h2><p>Flayfair introduces herself in flight and urges a skeletal giant to drop its weapons rather than hurt anyone.</p><h2>A route recalled</h2><p>After a burial hazard, she reports escaping into a fey hollow and recalls a hallway to the north, while admitting that she could be mistaken. Her report is useful to the company without becoming a certain map of the ruins.</p>",
+      "aliases": []
+    },
+    {
+      "id": "mahdi-al-bilardi",
+      "title": "Mahdi al-Bilardi",
+      "type": "Jeweller of Khars Madar",
+      "category": "People",
+      "summary": "Mahdi welcomes customers from behind his counter, setting aside an agate bracelet to greet Sombra, Vespere and Chayma.",
+      "dek": "Mahdi welcomes customers from behind his counter, setting aside an agate bracelet to greet Sombra, Vespere and Chayma.",
+      "tags": [
+        "Gedankin",
+        "Mahdi al-Bilardi",
+        "Jeweller of Khars Madar"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Jeweller of Khars Madar"
+      },
+      "sources": [
+        "Mahdi_al-Bilardi.md — 30 April 2026 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "sombra-estrellar",
+        "vespere",
+        "chayma",
+        "khars-madar"
+      ],
+      "body": "<h2>At a glance</h2><p>Mahdi welcomes customers from behind his counter, setting aside an agate bracelet to greet Sombra, Vespere and Chayma.</p><h2>Preserving a flower</h2><p>He examines Sombra’s flower and discusses permanently preserving it in metal. His shop deals in jewellery and fineries; when Vespere asks about knives, he directs her toward other merchants rather than pretending to be an arms dealer.</p>",
+      "aliases": []
+    },
+    {
+      "id": "azi",
+      "title": "Azi",
+      "type": "Seaborne arrival",
+      "category": "People",
+      "summary": "Azi’s teal-scaled tail gives way to legs as she rises on the sand, still carrying armour and a cutlass.",
+      "dek": "Azi’s teal-scaled tail gives way to legs as she rises on the sand, still carrying armour and a cutlass.",
+      "tags": [
+        "Gedankin",
+        "Azi",
+        "Seaborne arrival"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Seaborne arrival"
+      },
+      "sources": [
+        "Azi.md — 31 August 2026 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "leon-zantharis",
+        "strange-shore",
+        "oasis"
+      ],
+      "body": "<h2>At a glance</h2><p>Azi’s teal-scaled tail gives way to legs as she rises on the sand, still carrying armour and a cutlass.</p><h2>Questions at the refuge</h2><p>Leon accompanies her to the Oasis. She tells him that his answers offer little usable information and asks where people go after resting there. She accepts the need for rest without accepting an explanation of how she arrived.</p>",
+      "aliases": []
+    },
+    {
+      "id": "tarset-caskbloom",
+      "title": "Tarset Caskbloom",
+      "type": "Vine-covered traveller",
+      "category": "People",
+      "summary": "Vines loosen their hold on the sand as Tarset stands and takes in his unfamiliar surroundings.",
+      "dek": "Vines loosen their hold on the sand as Tarset stands and takes in his unfamiliar surroundings.",
+      "tags": [
+        "Gedankin",
+        "Tarset Caskbloom",
+        "Vine-covered traveller"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Vine-covered traveller"
+      },
+      "sources": [
+        "Tarset_Caskbloom.md — 25 January 2026 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Vines loosen their hold on the sand as Tarset stands and takes in his unfamiliar surroundings.</p><h2>An empty waterskin</h2><p>He walks along the Shore and approaches a bright signal, annoyed by its glare. Finding his waterskin empty turns the encounter toward immediate needs: water, orientation and a way forward.</p>",
+      "aliases": []
+    },
+    {
+      "id": "acheron",
+      "title": "Acheron",
+      "type": "Laneshi displaced from the depths",
+      "category": "People",
+      "summary": "Acheron struggles to speak above water and to stand on shifting sand, using her staff for support in an unfamiliar environment.",
+      "dek": "Acheron struggles to speak above water and to stand on shifting sand, using her staff for support in an unfamiliar environment.",
+      "tags": [
+        "Gedankin",
+        "Acheron",
+        "Laneshi displaced from the depths"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Laneshi displaced from the depths"
+      },
+      "sources": [
+        "Acheron.md — 28 October 2025 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "jaren",
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Acheron struggles to speak above water and to stand on shifting sand, using her staff for support in an unfamiliar environment.</p><h2>Accepting help cautiously</h2><p>She challenges Jaren to explain what has happened, then agrees to follow his guidance. Her alarm eases enough to thank him, though his uncertain memory offers little assurance. The scene does not establish a destination beyond the help he offers.</p>",
+      "aliases": []
+    },
+    {
+      "id": "sylva-wren",
+      "title": "Sylva Wren",
+      "type": "Cautious arrival",
+      "category": "People",
+      "summary": "Sylva asks how she moved from lush terrain to the sandy Shore, keeping her distance from the first stranger who offers reassurance.",
+      "dek": "Sylva asks how she moved from lush terrain to the sandy Shore, keeping her distance from the first stranger who offers reassurance.",
+      "tags": [
+        "Gedankin",
+        "Sylva Wren",
+        "Cautious arrival"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Cautious arrival"
+      },
+      "sources": [
+        "Sylva_Wren.md — 27 March 2026 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "sahira-al-azar",
+        "ukarn",
+        "strange-shore",
+        "oasis"
+      ],
+      "body": "<h2>At a glance</h2><p>Sylva asks how she moved from lush terrain to the sandy Shore, keeping her distance from the first stranger who offers reassurance.</p><h2>Trust before travel</h2><p>As more people arrive, she watches rather than immediately joining them. She asks how far away the Oasis is and says she does not plan to stay long. That intention does not establish a successful departure.</p>",
+      "aliases": []
+    },
+    {
+      "id": "vain-eleuthereus-iii",
+      "title": "Vain Eleuthereus III",
+      "type": "Self-styled hero",
+      "category": "People",
+      "summary": "Vain asks a soldier where they have landed and whether the unfamiliar desert has a local inn.",
+      "dek": "Vain asks a soldier where they have landed and whether the unfamiliar desert has a local inn.",
+      "tags": [
+        "Gedankin",
+        "Vain Eleuthereus III",
+        "Self-styled hero"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Self-styled hero"
+      },
+      "sources": [
+        "Vain_Eleuthereus_III.md — 18 October 2024 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Vain asks a soldier where they have landed and whether the unfamiliar desert has a local inn.</p><h2>Seeking a worthy deed</h2><p>He calls the situation a waste of their talents and asks whether any deeds worthy of a great hero await. His grand manner is part of his introduction, rather than evidence of a commission or recognised rank in Gedankin.</p>",
+      "aliases": []
+    },
+    {
+      "id": "jacques-rayne",
+      "title": "Jacques Rayne",
+      "type": "Archivist and former heir",
+      "category": "People",
+      "summary": "A white-haired traveller in glasses and fine clothes, Jacques introduces himself as an archivist and former heir of House Rayne.",
+      "dek": "A white-haired traveller in glasses and fine clothes, Jacques introduces himself as an archivist and former heir of House Rayne.",
+      "tags": [
+        "Gedankin",
+        "Jacques Rayne",
+        "Archivist and former heir"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Archivist and former heir"
+      },
+      "sources": [
+        "Jacques_Rayne.md — 28 October 2024; Shore_Oasis_Marker_Trail.md — 28 October 2024 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "atrax",
+        "shore-oasis-marker-trail",
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>A white-haired traveller in glasses and fine clothes, Jacques introduces himself as an archivist and former heir of House Rayne.</p><h2>A practical welcome</h2><p>He recognises Atrax’s Flaming Fist affiliation and follows the route inland. On seeing the palm markers, Jacques calls the arrangement prudent and thoughtful. This encounter connects his arrival to the community’s work of guiding strangers.</p>",
+      "aliases": []
+    },
+    {
+      "id": "julian",
+      "title": "Julian",
+      "type": "Improvised Shore camper",
+      "category": "People",
+      "summary": "Julian makes a ramshackle canopy from stray debris and settles beside a small fire while trying to orient himself.",
+      "dek": "Julian makes a ramshackle canopy from stray debris and settles beside a small fire while trying to orient himself.",
+      "tags": [
+        "Gedankin",
+        "Julian",
+        "Improvised Shore camper"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Improvised Shore camper"
+      },
+      "sources": [
+        "Julian.md — 1 July 2026 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Julian makes a ramshackle canopy from stray debris and settles beside a small fire while trying to orient himself.</p><h2>A doll that answers back</h2><p>Finding a speaking doll, he initially searches for a mechanism that might explain its voice. When another person approaches, he replies with sarcasm and asks for directions. The encounter shows bewilderment beneath his guarded humour.</p>",
+      "aliases": []
+    },
+    {
+      "id": "kaladan",
+      "title": "Kaladan",
+      "type": "Servant of Lathander",
+      "category": "People",
+      "summary": "Kaladan, a bronze dragonborn, rises from the sand and admits that he cannot identify the place around him.",
+      "dek": "Kaladan, a bronze dragonborn, rises from the sand and admits that he cannot identify the place around him.",
+      "tags": [
+        "Gedankin",
+        "Kaladan",
+        "Servant of Lathander"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Servant of Lathander"
+      },
+      "sources": [
+        "Kaladan.md — 11 December 2024 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "yaotl",
+        "valerian-houridan",
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Kaladan, a bronze dragonborn, rises from the sand and admits that he cannot identify the place around him.</p><h2>Peace on unfamiliar ground</h2><p>He returns Yaotl’s greeting, shakes sand from his armour and invites another arrival closer provided their peaceful intentions hold. He names himself a servant of Lathander, a faith he brings to Gedankin rather than a local office.</p>",
+      "aliases": []
+    },
+    {
+      "id": "valerian-houridan",
+      "title": "Valerian Houridan",
+      "type": "Knight of the Righteous Brand",
+      "category": "People",
+      "summary": "Valerian introduces himself as a knight serving a band he calls the Righteous Brand, finding the unfamiliar landscape strange.",
+      "dek": "Valerian introduces himself as a knight serving a band he calls the Righteous Brand, finding the unfamiliar landscape strange.",
+      "tags": [
+        "Gedankin",
+        "Valerian Houridan",
+        "Knight of the Righteous Brand"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Knight of the Righteous Brand"
+      },
+      "sources": [
+        "Valerian_Houridan.md — 11 December 2024 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "kaladan",
+        "yaotl",
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Valerian introduces himself as a knight serving a band he calls the Righteous Brand, finding the unfamiliar landscape strange.</p><h2>A common beginning</h2><p>He stands with the other arrivals and agrees with Kaladan that they must begin where they are. He concludes that they share a starting point and will have to work to make a life here.</p>",
+      "aliases": []
+    },
+    {
+      "id": "ukarn",
+      "title": "Ukarn",
+      "type": "Orc far from colder lands",
+      "category": "People",
+      "summary": "Ukarn rises in thick furs with an axe, visibly ill-equipped for the unfamiliar sands around him.",
+      "dek": "Ukarn rises in thick furs with an axe, visibly ill-equipped for the unfamiliar sands around him.",
+      "tags": [
+        "Gedankin",
+        "Ukarn",
+        "Orc far from colder lands"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Orc far from colder lands"
+      },
+      "sources": [
+        "Ukarn.md — 27 March 2026 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "sylva-wren",
+        "sahira-al-azar",
+        "strange-shore"
+      ],
+      "body": "<h2>At a glance</h2><p>Ukarn rises in thick furs with an axe, visibly ill-equipped for the unfamiliar sands around him.</p><h2>Following cautiously</h2><p>The pale orc follows the company while listening to what they say about Gedankin. A report of great beasts draws a grin. These first exchanges establish curiosity and caution without assigning him a local allegiance.</p>",
+      "aliases": []
+    },
+    {
+      "id": "valadin",
+      "title": "Valadin",
+      "type": "Desert expedition traveller",
+      "category": "People",
+      "summary": "Valadin emerges from an Oasis hut after a sandstorm and calls back to let the company know he is present.",
+      "dek": "Valadin emerges from an Oasis hut after a sandstorm and calls back to let the company know he is present.",
+      "tags": [
+        "Gedankin",
+        "Valadin",
+        "Desert expedition traveller"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Desert expedition traveller"
+      },
+      "sources": [
+        "Valadin.md — 29 October 2025; The_Mountain_Cliff_Route.md — 10 November 2025 — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "oasis"
+      ],
+      "body": "<h2>At a glance</h2><p>Valadin emerges from an Oasis hut after a sandstorm and calls back to let the company know he is present.</p><h2>Water and shelter</h2><p>During a later expedition he calls the others toward water and shelter near a cliffside. The practical needs of an exhausted company shape his actions; these scenes do not establish ownership of the refuge.</p>",
+      "aliases": []
     }
   ],
   "locations": [
@@ -1333,7 +1927,13 @@ window.GedankinData = {
       "imageAlt": "Khars Madar: towering sandstone terraces, carved columns and a blue pool overlooking a sprawling desert city",
       "imageCaption": "Khars Madar — Gedankin.",
       "relatedRecords": [
-        "khars-madar-ziggurat"
+        "khars-madar-ziggurat",
+        "free-quarter",
+        "peddlers-passage",
+        "nazif-quarter",
+        "adijit-quarter",
+        "tayyeb-quarter",
+        "mahdi-al-bilardi"
       ]
     },
     {
@@ -1354,6 +1954,9 @@ window.GedankinData = {
       "body": "<h2>A bed in gratitude</h2><p>After her rescue, Chayma offers the company free lodging. Initially the hostel has few beds and broken or missing household supplies.</p><h2>A visible change</h2><p>The adventurers prioritise beds, rugs, plates and cookware. On a later visit, fresh linens, pillows and flowers show the practical effect of their help.</p>",
       "sources": [
         "2024-rp.md — 30 April–18 June 2026; dates refer to UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "free-quarter"
       ]
     },
     {
@@ -1393,6 +1996,9 @@ window.GedankinData = {
       "body": "<h2>Before the bout</h2><p>Attendants and established fighters share the lodge with newcomers. <a href=\"#pac\">Pac</a> explains expectations to Vaerik, who identifies himself as a soldier rather than a captain.</p><h2>How this scene fits</h2><p>The lodge exchange occurs on 16 July 2026 before Vaerik’s arena fight, although the export places the lodge channel after later September messages. The Codex orders the scene by its posting date and context.</p>",
       "sources": [
         "2024-rp.md — 16 July 2026; dates refer to UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "free-quarter"
       ]
     },
     {
@@ -1412,6 +2018,11 @@ window.GedankinData = {
       "body": "<h2>The first appeal</h2><p>Zrurg asks the Oasis company to help free his people. Katya and Yaotl accompany the effort; markers, scorpions, climbing and equipment shape their approach.</p><h2>A larger struggle</h2><p>Later expeditions reach an icy mountain landscape beneath pink-purple light and encounter competing kobold and dragonkin groups. The reviewed record does not establish that every named mountain community is identical, or that reaching the mountain defeats its tyrant.</p>",
       "sources": [
         "2024-rp.md — 17 February 2025; September 2026; dates refer to UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "yaotl",
+        "katya",
+        "mountain-cliff-route"
       ]
     },
     {
@@ -1613,6 +2224,214 @@ window.GedankinData = {
         "chayma",
         "adijit-arena"
       ]
+    },
+    {
+      "id": "free-quarter",
+      "title": "The Free Quarter",
+      "type": "Khars Madar district",
+      "category": "Locations",
+      "summary": "The fourth side of Khars Madar’s ziggurat, outside the three Houses’ own quarters.",
+      "dek": "The fourth side of Khars Madar’s ziggurat, outside the three Houses’ own quarters.",
+      "tags": [
+        "Gedankin",
+        "The Free Quarter",
+        "Khars Madar district"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Khars Madar district"
+      },
+      "sources": [
+        "GEDANKIN_LOCATION_ARCHITECTURE.md; Free_Quarter.md and House_Adijit_Quarter.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "khars-madar",
+        "chaymas-hostel",
+        "peddlers-passage",
+        "adijit-gladiator-lodge"
+      ],
+      "body": "<h2>Overview</h2><p>The fourth side of Khars Madar’s ziggurat, outside the three Houses’ own quarters.</p><h2>A place for visitors</h2><p>The Free Quarter brings outsiders, caravan trade and the city’s households into contact. Chayma leads the company through it while showing them what they can buy and where they can stay. “Free” does not mean untouched by House influence.</p><h2>City life below the alliances</h2><p>Chayma’s hostel and the route to Peddler’s Passage give the quarter a daily life beyond political negotiations. The House Adijit Gladiator Lodge is also identified as being in the Free Quarter; House affiliation and district location are separate facts.</p>",
+      "aliases": []
+    },
+    {
+      "id": "peddlers-passage",
+      "title": "Peddler’s Passage",
+      "type": "Market corridor",
+      "category": "Locations",
+      "summary": "A crowded market in Khars Madar, full of colourful stalls, exotic wares and people in varied dress.",
+      "dek": "A crowded market in Khars Madar, full of colourful stalls, exotic wares and people in varied dress.",
+      "tags": [
+        "Gedankin",
+        "Peddler’s Passage",
+        "Market corridor"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Market corridor"
+      },
+      "sources": [
+        "GEDANKIN_LOCATION_ARCHITECTURE.md; Peddler_s_Passage.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "khars-madar",
+        "free-quarter",
+        "mahdi-al-bilardi",
+        "chayma"
+      ],
+      "body": "<h2>Overview</h2><p>A crowded market in Khars Madar, full of colourful stalls, exotic wares and people in varied dress.</p><h2>Through the market</h2><p>Chayma’s tour approaches through streets lined with livestock pens, hostels and taverns. The bustle makes the Passage a useful introduction to the city’s trade as well as a difficult place to take everything in at once.</p><h2>Moving between quarters</h2><p>A later narrator scene explains that the company must descend to the Free Quarter’s first level before continuing around the ziggurat. The Passage is part of a travelled city, rather than a shortcut granting entry to restricted House districts.</p>",
+      "aliases": [
+        "Peddler's Passage",
+        "Peddlers Passage"
+      ]
+    },
+    {
+      "id": "nazif-quarter",
+      "title": "House Nazif Quarter",
+      "type": "House-controlled district",
+      "category": "Locations",
+      "summary": "The side of Khars Madar associated with House Nazif, whose emblem is the hyena.",
+      "dek": "The side of Khars Madar associated with House Nazif, whose emblem is the hyena.",
+      "tags": [
+        "Gedankin",
+        "House Nazif Quarter",
+        "House-controlled district"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "House-controlled district"
+      },
+      "sources": [
+        "GEDANKIN_LOCATION_ARCHITECTURE.md; House_Nazif_Quarter.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "khars-madar",
+        "khars-madar-ziggurat",
+        "house-nazif",
+        "ibin-ali",
+        "xuan",
+        "vespere"
+      ],
+      "body": "<h2>Overview</h2><p>The side of Khars Madar associated with House Nazif, whose emblem is the hyena.</p><h2>Security and entry</h2><p>Chayma describes Nazif as the largest House, responsible for the city’s protection and the creation of new dinar. These responsibilities explain why visitors encounter its authority before understanding its internal politics.</p><h2>A boundary with conditions</h2><p>The company meets a guard who refuses entrance to a Nazif-only passage. Xuan and Vespere later gain House membership through their report to Ibin Ali. Their admission does not make all Nazif spaces public.</p>",
+      "aliases": []
+    },
+    {
+      "id": "adijit-quarter",
+      "title": "House Adijit Quarter",
+      "type": "House-controlled district",
+      "category": "Locations",
+      "summary": "The serpent-marked side of Khars Madar belongs to House Adijit, a power tied to water and the Arena.",
+      "dek": "The serpent-marked side of Khars Madar belongs to House Adijit, a power tied to water and the Arena.",
+      "tags": [
+        "Gedankin",
+        "House Adijit Quarter",
+        "House-controlled district"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "House-controlled district"
+      },
+      "sources": [
+        "GEDANKIN_LOCATION_ARCHITECTURE.md; House_Adijit_Quarter.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "khars-madar",
+        "khars-madar-ziggurat",
+        "house-adijit",
+        "adijit-arena",
+        "adijit-gladiator-lodge",
+        "pac"
+      ],
+      "body": "<h2>Overview</h2><p>The serpent-marked side of Khars Madar belongs to House Adijit, a power tied to water and the Arena.</p><h2>Water and spectacle</h2><p>Chayma describes Adijit as controlling the city’s flow of water. Its arena interests add another form of influence: contests, wagers and the chance for outsiders to earn dinar.</p><h2>House and district</h2><p>The Arena stands atop the ziggurat, while the Adijit Gladiator Lodge is in the Free Quarter. The House’s activities extend beyond its own political side of the city.</p>",
+      "aliases": []
+    },
+    {
+      "id": "tayyeb-quarter",
+      "title": "House Tayyeb Quarter",
+      "type": "House-controlled district",
+      "category": "Locations",
+      "summary": "The scorpion-marked side of Khars Madar is associated with House Tayyeb, the smallest of its three Houses.",
+      "dek": "The scorpion-marked side of Khars Madar is associated with House Tayyeb, the smallest of its three Houses.",
+      "tags": [
+        "Gedankin",
+        "House Tayyeb Quarter",
+        "House-controlled district"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "House-controlled district"
+      },
+      "sources": [
+        "GEDANKIN_LOCATION_ARCHITECTURE.md; House_Tayyeb_Quarter.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "khars-madar",
+        "house-tayyeb",
+        "xuan",
+        "vespere",
+        "vaerik"
+      ],
+      "body": "<h2>Overview</h2><p>The scorpion-marked side of Khars Madar is associated with House Tayyeb, the smallest of its three Houses.</p><h2>A small House that endures</h2><p>Chayma describes Tayyeb as vulnerable to its larger rivals yet still holding its own. The account leaves the means of that resilience unresolved.</p><h2>Beneath the streets</h2><p>Xuan, Vespere and Vaerik’s expedition finds guarded passages and a furnished cavern below the district. A brass scorpion pin offers a possible contact, without establishing that its bearer has joined the House.</p>",
+      "aliases": []
+    },
+    {
+      "id": "gedankin-desert",
+      "title": "The Gedankin Desert",
+      "type": "Desert wilderness",
+      "category": "Locations",
+      "summary": "Dunes connect the arrival Shore, the Oasis and the explored ruins, settlements and mountain approaches.",
+      "dek": "Dunes connect the arrival Shore, the Oasis and the explored ruins, settlements and mountain approaches.",
+      "tags": [
+        "Gedankin",
+        "The Gedankin Desert",
+        "Desert wilderness"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Desert wilderness"
+      },
+      "sources": [
+        "GEDANKIN_LOCATION_ARCHITECTURE.md; The_Gedankin_Desert.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "strange-shore",
+        "shore-oasis-marker-trail",
+        "oasis",
+        "albayt-alkabir",
+        "khars-madar",
+        "seven-sands"
+      ],
+      "body": "<h2>Overview</h2><p>Dunes connect the arrival Shore, the Oasis and the explored ruins, settlements and mountain approaches.</p><h2>A landscape that changes</h2><p>Sandstorms alter the visible landscape and complicate travel. Waymarkers must be checked and maintained. A line of palms can help a newcomer reach water, but the desert does not become safe simply because someone has crossed it before.</p><h2>More than empty sand</h2><p>Trade caravans, Khars Madar and the mountain peoples show a larger inhabited world beyond the first company’s horizon. The Seven Sands names that broader network without supplying a complete map of its societies.</p>",
+      "aliases": []
+    },
+    {
+      "id": "mountain-cliff-route",
+      "title": "The Mountain and Cliff Route",
+      "type": "Frontier approach",
+      "category": "Locations",
+      "summary": "A sheer cliff beyond the desert forms part of the journey toward Bigrock Purple Mountain.",
+      "dek": "A sheer cliff beyond the desert forms part of the journey toward Bigrock Purple Mountain.",
+      "tags": [
+        "Gedankin",
+        "The Mountain and Cliff Route",
+        "Frontier approach"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Role": "Frontier approach"
+      },
+      "sources": [
+        "GEDANKIN_LOCATION_ARCHITECTURE.md; The_Mountain_Cliff_Route.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "albayt-alkabir",
+        "bigrock-purple-mountain",
+        "zrurg",
+        "yaotl",
+        "katya",
+        "espera"
+      ],
+      "body": "<h2>Overview</h2><p>A sheer cliff beyond the desert forms part of the journey toward Bigrock Purple Mountain.</p><h2>Climbing and descent</h2><p>Zrurg leads Yaotl and Katya from dunes to rock, where narrow handholds and footholds offer a difficult climb. Narrator scenes later describe anchored pitons and the pair descending before Bigrock comes into view.</p><h2>Routes learned by returning</h2><p>Later travellers return past Albayt Alkabir to a cliff approach. These scenes establish journeys and landmarks, while leaving the full extent of the mountain terrain unmapped.</p>",
+      "aliases": []
     }
   ],
   "factions": [
@@ -1634,6 +2453,9 @@ window.GedankinData = {
       "body": "<h2>Power in Khars Madar</h2><p>Chayma describes Nazif as the largest house, responsible for defence, entry dinars and taxes. Ibin Ali acts as its Free Quarter representative.</p><h2>The adventurers’ dealings</h2><p>Nazif guards intervene in the street ambush. Later, Xuan and Vespere exchange information about the Tayyeb passages for membership. Vaerik’s participation in the expedition does not establish his membership.</p>",
       "sources": [
         "2024-rp.md — 30 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "nazif-quarter"
       ]
     },
     {
@@ -1654,6 +2476,9 @@ window.GedankinData = {
       "body": "<h2>Resources and spectacle</h2><p>Chayma associates Adijit with water and arena entertainment. Its caravans and gladiator facilities connect desert travel with the city’s economy.</p><h2>An unresolved dispute</h2><p>Vaerik wins his arena bout. Chayma subsequently says her winning wager was refused on an accusation of cheating. Her report establishes the dispute, not its eventual outcome.</p>",
       "sources": [
         "2024-rp.md — 30 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "adijit-quarter"
       ]
     },
     {
@@ -1674,6 +2499,9 @@ window.GedankinData = {
       "body": "<h2>A hidden presence</h2><p>Chayma describes Tayyeb as the smallest and most pressured of the three houses. The company finds deserted streets, scorpion mechanisms and passages below its quarter.</p><h2>Contact, not confirmation</h2><p>Guards in a furnished cavern provide a brass scorpion pin for contact in Peddlers Passage. Xuan gives the pin to Vaerik. No formal initiation into House Tayyeb is witnessed.</p>",
       "sources": [
         "2024-rp.md — 30 April–25 June 2026; dates refer to UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "tayyeb-quarter"
       ]
     },
     {
@@ -1870,9 +2698,10 @@ window.GedankinData = {
         "Participants": "Zrurg, Katya, Yaotl",
         "Chronology": "Posting date; in-world date unestablished"
       },
-      "body": "<h2>The request</h2><p>Katya gives Zrurg water and healing. He asks for help to free his tribe and leads the company toward the mountain.</p><h2>What is confirmed</h2><p>The journey and difficult approach are recorded. The ruler’s defeat is not.</p>",
+      "body": "<h2>The request</h2><p>Katya gives Zrurg water and healing. He asks for help to free his tribe and leads the company toward the mountain.</p><h2>What is confirmed</h2><p>The journey and difficult approach are recorded. The ruler’s defeat is not.</p><h2>The mountain reached</h2><p>Zrurg leads Yaotl and Katya into the mountains. After a climb, scorpion swarms and a difficult descent, the narrator places Bigrock Purple Mountain before them. Arrival at the destination does not establish that the tribe has been freed.</p>",
       "sources": [
-        "2024-rp.md — 2025-02-17; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 2025-02-17; dates refer to UTC posting dates, not established in-world dates.",
+        "Bigrock_Purple_Mountain.md — narrator scene posted 17 February 2025 (UTC posting date)."
       ],
       "sort": "2025-02-17-01",
       "meta": "2025-02-17",
@@ -1885,7 +2714,11 @@ window.GedankinData = {
       "relatedRecords": [
         "oasis",
         "bigrock-purple-mountain",
-        "blue-scales"
+        "blue-scales",
+        "zrurg",
+        "yaotl",
+        "katya",
+        "mountain-cliff-route"
       ]
     },
     {
@@ -3052,6 +3885,79 @@ window.GedankinData = {
         "Ren Gardner"
       ],
       "location": "The Oasis"
+    },
+    {
+      "id": "atrax-marks-route",
+      "title": "Atrax Marks a Route for Future Arrivals",
+      "summary": "Palm markers offer newcomers a chance to reach the Oasis even when no guide sees their arrival.",
+      "dek": "Palm markers offer newcomers a chance to reach the Oasis even when no guide sees their arrival.",
+      "tags": [
+        "Gedankin",
+        "Atrax",
+        "Shore–Oasis Marker Trail"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2024-10-07",
+        "Location": "Shore–Oasis Marker Trail",
+        "Chronology": "Posting date; in-world date unestablished"
+      },
+      "body": "<h2>Planning for strangers</h2><p>Atrax explains that he is placing palm pieces on every third dune so people arriving unnoticed can find their way inland. Later scenes show him inspecting and maintaining the markers. The work offers a practical welcome without making the desert crossing certain or safe.</p>",
+      "people": [
+        "Atrax"
+      ],
+      "relatedRecords": [
+        "atrax",
+        "shore-oasis-marker-trail",
+        "strange-shore",
+        "oasis"
+      ],
+      "location": "Shore–Oasis Marker Trail",
+      "sort": "2024-10-07-02",
+      "meta": "2024-10-07",
+      "sources": [
+        "Shore_Oasis_Marker_Trail.md — Atrax’s scene posted 7 October 2024 (UTC posting date)"
+      ]
+    },
+    {
+      "id": "chayma-explains-four-quarters",
+      "title": "Chayma Explains Khars Madar’s Four Quarters",
+      "summary": "A tour through the market reveals how the ziggurat divides the city among three Houses and the Free Quarter.",
+      "dek": "A tour through the market reveals how the ziggurat divides the city among three Houses and the Free Quarter.",
+      "tags": [
+        "Gedankin",
+        "Chayma",
+        "Sombra Estrellar",
+        "Vespere",
+        "Khars Madar"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-04-30",
+        "Location": "Khars Madar",
+        "Chronology": "Posting date; in-world date unestablished"
+      },
+      "body": "<h2>Learning the city</h2><p>Chayma leads the visitors toward Peddler’s Passage and explains the Houses’ emblems and responsibilities. Her account connects the city’s physical layout to water, protection and political power. The tour does not grant entry to each House’s district.</p>",
+      "people": [
+        "Chayma",
+        "Sombra Estrellar",
+        "Vespere"
+      ],
+      "relatedRecords": [
+        "chayma",
+        "sombra-estrellar",
+        "vespere",
+        "khars-madar",
+        "khars-madar-ziggurat",
+        "free-quarter",
+        "peddlers-passage"
+      ],
+      "location": "Khars Madar",
+      "sort": "2026-04-30-02",
+      "meta": "2026-04-30",
+      "sources": [
+        "Khars_Madar_Ziggurat.md and Peddler_s_Passage.md — tour posted 30 April 2026 (UTC posting date)"
+      ]
     }
   ],
   "quotes": [
@@ -3215,6 +4121,62 @@ window.GedankinData = {
       "speaker": "Vaerik",
       "group": "The Oasis · Freedom",
       "article": "vaerik"
+    },
+    {
+      "article": "kara-vash",
+      "speaker": "Kara Vash",
+      "text": "The storm capsized the ship. I assumed I was dead.",
+      "group": "The Shore · Displacement",
+      "source": "Kara_Vash.md — 28 September 2024 (UTC posting date)"
+    },
+    {
+      "article": "irenhour",
+      "speaker": "Irenhour",
+      "text": "Unless this is Stygia.....it is not one of the nine hells. I am lost, and shamed by it.",
+      "group": "The Shore · Displacement",
+      "source": "Irenhour.md — 28 September 2024 (UTC posting date)"
+    },
+    {
+      "article": "vespere",
+      "speaker": "Vespere",
+      "text": "...Dolls listen, they sit beside you when you are alone.",
+      "group": "The Shore · Companionship",
+      "source": "Vespere.md — 25 March 2026; excerpt from her reply about dolls (UTC posting date)"
+    },
+    {
+      "article": "xuan",
+      "speaker": "Xuan Jie",
+      "text": "We don't understand them, silly head, we give them a purpose. The branches of a tree spread with the purpose of seeking water, and the stars are used to sail. Purpose, not understanding per say. We could find a purpose for this symbols, but it doesn't necessarily needs to be understood.",
+      "group": "Knowledge and purpose",
+      "source": "Xuan_Jie.md — 29 December 2025 (UTC posting date)"
+    },
+    {
+      "article": "lux",
+      "speaker": "Lux",
+      "text": "The winds follows no map, no mark, no master... it merely flows as it is meant to.",
+      "group": "The Shore · Roads and possibilities",
+      "source": "Lux.md — 28 October 2025 (UTC posting date)"
+    },
+    {
+      "article": "jacques-rayne",
+      "speaker": "Jacques Rayne",
+      "text": "I see. That is prudent of you, thoughtful too.",
+      "group": "The Shore · Shared survival",
+      "source": "Shore_Oasis_Marker_Trail.md — 28 October 2024 (UTC posting date)"
+    },
+    {
+      "article": "valerian-houridan",
+      "speaker": "Valerian Houridan",
+      "text": "it sounds like we all start from the same place and will have to work to eke out a life here",
+      "group": "The Shore · Shared survival",
+      "source": "Valerian_Houridan.md — 11 December 2024 (UTC posting date)"
+    },
+    {
+      "article": "eudora",
+      "speaker": "Eudora",
+      "text": "paradise? Paradise is on the field of battle with my brothers and sisters in arms.",
+      "group": "Comrades and battle",
+      "source": "Eudora.md — 4 October 2024 (UTC posting date)"
     }
   ],
   "articles": [
@@ -3233,7 +4195,7 @@ window.GedankinData = {
         "Connection": "Fenumion",
         "Ruleset": "2024"
       },
-      "body": "<h2 id=\"a-world-of-its-own\">A world of its own</h2><p>Gedankin is a separate world connected to Fenumion. Its people, places, factions and events belong to its own record.</p><h2 id=\"the-chronicle\">The chronicle</h2><p>This Codex brings together Gedankin’s characters, history, locations and memorable words. As accounts are added, their sources and the difference between witnessed events, character beliefs and unanswered questions will remain part of the record.</p><h2 id=\"connected-worlds\">Connected worlds</h2><p>The nature and history of the connection have yet to be recorded. You can visit either world using the sidebar.</p><p><a href=\"/#world-index\">Visit the Fenumion Codex →</a></p><h2>From the shore to the mountain</h2><p>The recovered quest record begins with strangers on a shore beside a cosmic void. Their journeys lead through Cala’s Oasis, the houses of Khars Madar and the struggle to free the mountain’s kobolds. <a href=\"#living-timeline\">Follow the chronicle</a> or <a href=\"#people-directory\">meet the people</a>.</p><h2>Reading the record</h2><p>Timeline dates are the dates messages were posted in UTC, not confirmed in-world dates. This first pass selects important reviewed scenes from a much larger export. Unreviewed intervals are not treated as empty history, and unresolved outcomes remain open.</p>"
+      "body": "<h2 id=\"a-world-of-its-own\">A world of its own</h2><p>Gedankin is a separate world connected to Fenumion. Its people, places, factions and events belong to its own record.</p><h2 id=\"the-chronicle\">The chronicle</h2><p>This Codex brings together Gedankin’s characters, history, locations and memorable words. As accounts are added, their sources and the difference between witnessed events, character beliefs and unanswered questions will remain part of the record.</p><h2 id=\"connected-worlds\">Connected worlds</h2><p>The nature and history of the connection have yet to be recorded. You can visit either world using the sidebar.</p><p><a href=\"/#world-index\">Visit the Fenumion Codex →</a></p><h2>From the shore to the mountain</h2><p>The recovered quest record begins with strangers on a shore beside a cosmic void. Their journeys lead through Cala’s Oasis, the houses of Khars Madar and the struggle to free the mountain’s kobolds. <a href=\"#living-timeline\">Follow the chronicle</a> or <a href=\"#people-directory\">meet the people</a>.</p><h2>Reading the record</h2><p>Timeline dates are the dates messages were posted in UTC, not confirmed in-world dates. This first pass selects important reviewed scenes from a much larger export. Unreviewed intervals are not treated as empty history, and unresolved outcomes remain open.</p><h2>A route into the world</h2><p>Start with <a href=\"#geography-of-gedankin\">Geography of Gedankin</a> to follow the arrival corridor, explore Khars Madar’s districts and find the mountain frontier. Character pages connect these journeys to the people, words and decisions that shape them.</p>"
     },
     {
       "id": "rules-2024",
@@ -3278,10 +4240,36 @@ window.GedankinData = {
         "Landmarks": "8 labelled places"
       },
       "map": true,
-      "body": "<h2>Explore Gedankin</h2><p>Select a numbered marker or a place below to read its Codex entry. Zoom in to read the map labels, then scroll or swipe across the map.</p>",
+      "body": "<h2>Explore Gedankin</h2><p>Select a numbered marker or a place below to read its Codex entry. Zoom in to read the map labels, then scroll or swipe across the map.</p><p><a href=\"#geography-of-gedankin\">Read the geography guide →</a> The guide also covers places without confirmed positions on this map.</p>",
       "sources": [
         "Gedankin.png — world map supplied by the user."
       ]
+    },
+    {
+      "id": "geography-of-gedankin",
+      "title": "Geography of Gedankin",
+      "type": "Places and journeys",
+      "category": "Guide",
+      "summary": "Gedankin first appears as an unfamiliar Shore and an expanse of dunes. Journeys gradually reveal a refuge, ancient ruins, a city and distant mountain communities. This guide connects the places encountered in the chronicle without assigning new distances or borders.",
+      "dek": "Gedankin first appears as an unfamiliar Shore and an expanse of dunes. Journeys gradually reveal a refuge, ancient ruins, a city and distant mountain communities. This guide connects the places encountered in the chronicle without assigning new distances or borders.",
+      "tags": [
+        "Gedankin",
+        "Geography of Gedankin",
+        "Places and journeys"
+      ],
+      "facts": {
+        "World": "Gedankin"
+      },
+      "sources": [
+        "GEDANKIN_LOCATION_ARCHITECTURE.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+      ],
+      "relatedRecords": [
+        "world-map",
+        "khars-madar",
+        "bigrock-purple-mountain"
+      ],
+      "body": "<h2>A shore, a refuge, a wider world</h2><p>Gedankin first appears as an unfamiliar Shore and an expanse of dunes. Journeys gradually reveal a refuge, ancient ruins, a city and distant mountain communities. This guide connects the places encountered in the chronicle without assigning new distances or borders.</p><h2>The arrival corridor</h2><p>The Shore opens onto a waterless Void Sea. Inland, Atrax’s palm markers offer a route toward the Oasis. Beyond the refuge, expeditions visit Albayt Alkabir before probing farther into the desert and mountain approaches. This is a reading route through explored geography, not a claim that every arrival follows the same journey.</p><h2>Khars Madar: a city with four sides</h2><p>Khars Madar is organised around its ziggurat. Nazif, Adijit and Tayyeb hold three political sides; the Free Quarter forms the fourth. Peddler’s Passage, Chayma’s hostel and the Arena reveal trade, shelter and spectacle alongside the Houses’ rivalries.</p><h2>The distant frontier</h2><p>Zrurg calls Bigrock Purple Mountain the sacred home of the Blue Scales and asks for help against its oppressor. The cliff journeys make this a destination reached through danger, while later liberation scenes leave the wider struggle unfinished.</p><h2>The Seven Sands</h2><p>Merchants and caravans place Khars Madar in a larger desert network. The records name the Seven Sands but do not reconstruct all of its settlements. References to a traveller’s previous home remain distinct from places shown in Gedankin.</p><h2>Follow the arrival route</h2><p><a href=\"#strange-shore\">The Shore</a> · <a href=\"#shore-oasis-marker-trail\">Shore–Oasis Marker Trail</a> · <a href=\"#oasis\">The Oasis</a> · <a href=\"#albayt-alkabir\">Albayt Alkabir</a></p><h2>Explore the city</h2><p><a href=\"#khars-madar-ziggurat\">Khars Madar Ziggurat</a> · <a href=\"#free-quarter\">The Free Quarter</a> · <a href=\"#peddlers-passage\">Peddler’s Passage</a> · <a href=\"#nazif-quarter\">House Nazif Quarter</a> · <a href=\"#adijit-quarter\">House Adijit Quarter</a> · <a href=\"#tayyeb-quarter\">House Tayyeb Quarter</a></p><h2>Beyond the first settlements</h2><p><a href=\"#mountain-cliff-route\">The Mountain and Cliff Route</a> · <a href=\"#bigrock-purple-mountain\">Bigrock Purple Mountain</a> · <a href=\"#seven-sands\">The Seven Sands</a></p>",
+      "aliases": []
     }
   ],
   "worldMap": {
@@ -3337,5 +4325,51 @@ window.GedankinData = {
         "y": 68
       }
     ]
-  }
+  },
+  "locationGroups": [
+    {
+      "title": "Arrival and refuge",
+      "ids": [
+        "strange-shore",
+        "void-sea",
+        "shore-oasis-marker-trail",
+        "oasis"
+      ]
+    },
+    {
+      "title": "Khars Madar",
+      "ids": [
+        "khars-madar",
+        "khars-madar-ziggurat",
+        "free-quarter",
+        "peddlers-passage",
+        "nazif-quarter",
+        "adijit-quarter",
+        "tayyeb-quarter",
+        "chaymas-hostel",
+        "adijit-arena",
+        "adijit-gladiator-lodge"
+      ]
+    },
+    {
+      "title": "Desert and frontier",
+      "ids": [
+        "gedankin-desert",
+        "albayt-alkabir",
+        "ruined-house-crypt",
+        "mountain-cliff-route",
+        "bigrock-purple-mountain",
+        "icyscale-roost",
+        "seven-sands"
+      ]
+    },
+    {
+      "title": "Map landmarks",
+      "ids": [
+        "mausoleum",
+        "quicksand",
+        "large-skeleton"
+      ]
+    }
+  ]
 };

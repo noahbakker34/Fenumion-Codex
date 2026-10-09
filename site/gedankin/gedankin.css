@@ -111,3 +111,12 @@ body.gedankin-world main { position: relative; z-index: 1; background: transpare
 .gedankin-world:not(.home-view) .article-body { padding: clamp(.9rem,2vw,1.5rem); border: 1px solid rgba(212,180,109,.12); border-radius: 8px; background: rgba(16,19,27,.8); }
 .gedankin-world:is(.characters-background,.timeline-background,.locations-background,.quotes-background,.overview-background,.factions-background) .app-shell { background: transparent; }
 @media (max-width: 760px) { .gedankin-world.panels-open .topbar { z-index: 80; } }
+
+/* Reading links and quotations share the surrounding article's Garamond type. */
+.gedankin-world .geography-intro { margin: 0 0 1.5rem; padding: 1rem 1.25rem; border: 1px solid var(--line-soft); border-radius: 10px; background: rgba(18,22,30,.65); }
+.gedankin-world .geography-intro h2 { margin-top: 0; }
+.gedankin-world .geography-intro a { display: inline-block; margin: .25rem 1rem .25rem 0; }
+.gedankin-world .character-words { margin-top: 2rem; }
+.gedankin-world .quote-source { display: block; margin-top: .75rem; font: .9rem/1.5 var(--text); color: var(--muted); overflow-wrap: anywhere; }
+.gedankin-world .character-words .quote-gallery { grid-template-columns: minmax(0,1fr); }
+body.gedankin-world:not(.home-view) .subchannel-card { background: linear-gradient(100deg,rgba(9,10,13,.96),rgba(9,10,13,.7)),url('assets/gedankin-map.png') center / cover; }

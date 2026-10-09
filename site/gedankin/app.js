@@ -11,7 +11,7 @@
   function selectBackground(id) {
     const characters = id === 'people-directory' || data.characters.some(record=>record.id === id);
     const timeline = id === 'living-timeline' || data.events.some(record=>record.id === id);
-    const locations = id === 'location-directory' || id === 'world-map' || data.locations.some(record=>record.id === id);
+    const locations = id === 'location-directory' || id === 'world-map' || id === 'geography-of-gedankin' || data.locations.some(record=>record.id === id);
     const quotes = id === 'memorable-quotes';
     const overview = id === 'about-gedankin';
     const factions = id === 'factions' || data.factions.some(record=>record.id === id);
@@ -78,9 +78,9 @@
   const navGroups = section => {
     if (section.key === 'characters') return ['A–J','K–Z'].map((label,i)=>({label,records:data.characters.filter(record=>(record.title[0].toUpperCase()<'K') === (i===0))}));
     if (section.key === 'events') return [...new Set(data.events.map(record=>(record.sort||'').slice(0,4)))].sort().map(year=>({label:year,records:data.events.filter(record=>(record.sort||'').startsWith(year))}));
-    if (section.key === 'locations') return [{label:'Places and settlements',records:data.locations}];
+    if (section.key === 'locations') return (data.locationGroups || [{title:'Places and settlements',ids:data.locations.map(record=>record.id)}]).map(group=>({label:group.title,records:group.ids.map(id=>data.locations.find(record=>record.id===id)).filter(Boolean)}));
     if (section.key === 'factions') return [{label:'Groups & orders',records:data.factions}];
-    if (section.id === 'about-gedankin') return [{label:'Read and explore',records:[{id:'about-gedankin',title:'About Gedankin'},{id:'rules-2024',title:'The 2024 ruleset'},{id:'world-map',title:'World map'}]}];
+    if (section.id === 'about-gedankin') return [{label:'Read and explore',records:[{id:'about-gedankin',title:'About Gedankin'},{id:'rules-2024',title:'The 2024 ruleset'},{id:'world-map',title:'World map'},{id:'geography-of-gedankin',title:'Geography of Gedankin'}]}];
     return [];
   };
   document.querySelector('#navigation').innerHTML = '<button class="nav-link starter-nav-link" type="button" data-article="about-gedankin" data-label="Start Here · New readers"><span class="starter-nav-icon" aria-hidden="true">♧</span><span class="starter-nav-copy"><strong>Start Here</strong><small>New readers</small></span><span class="starter-nav-arrow" aria-hidden="true">›</span></button>'+sections.map(s => `<section class="nav-region"><button class="nav-region-link" type="button" data-article="${s.id}" data-label="${s.title}" aria-label="${s.title}"><span class="nav-region-glyph" aria-hidden="true">${s.glyph}</span><strong>${s.title}</strong><span>›</span></button><div class="nav-region-tree">${navGroups(s).map(group=>`<details class="nav-branch"><summary>${esc(group.label)}<span>${group.records.length}</span></summary><div>${[...group.records].sort((a,b)=>a.title.localeCompare(b.title)).map(record=>`<button type="button" class="nav-link nav-child" data-article="${esc(record.id)}"><span>${esc(record.title)}</span><span>›</span></button>`).join('')}</div></details>`).join('')}</div></section>`).join('');
@@ -100,8 +100,8 @@
     const html=key==='quotes'?quoteCards(records):`<div class="browser-grid">${records.map(record=>`<button class="index-card" type="button" data-article="${esc(record.id)}">${record.image||record.poster?`<img src="${esc(record.image||record.poster)}" alt="" loading="lazy">`:`<span class="index-glyph" aria-hidden="true">${key==='events'?'◷':key==='locations'?'⌖':key==='factions'?'⚑':'♙'}</span>`}<span class="index-card-copy">${record.meta?`<small>${esc(record.meta)}</small>`:''}<strong>${esc(record.title)}</strong><span>${esc(record.summary||record.dek||'')}</span></span></button>`).join('')}</div>`;
     content.querySelector('#directory-records').innerHTML=records.length?html:'<p>No matching records. Try another search.</p>';
   }
-  function quoteCards(records) {
-    return [...new Set(records.map(q=>q.group || 'Memorable words'))].map(group => `<h2>${esc(group)}</h2><div class="quote-gallery">${records.filter(q=>(q.group || 'Memorable words')===group).map(q=>`<div class="quote-card"><blockquote>“${esc(q.text)}”</blockquote><cite>${esc(q.speaker)}</cite>${q.article && byId.has(q.article) ? `<a href="#${esc(q.article)}">Read their story →</a>` : ''}${q.audio ? `<audio controls preload="none" src="${esc(q.audio)}"></audio>` : ''}</div>`).join('')}</div>`).join('');
+  function quoteCards(records, heading='h2', currentArticle='') {
+    return [...new Set(records.map(q=>q.group || 'Memorable words'))].map(group => `<${heading}>${esc(group)}</${heading}><div class="quote-gallery">${records.filter(q=>(q.group || 'Memorable words')===group).map(q=>`<div class="quote-card"><blockquote>“${esc(q.text)}”</blockquote><cite>${esc(q.speaker)}</cite>${q.article && q.article !== currentArticle && byId.has(q.article) ? `<a href="#${esc(q.article)}">Read their story →</a>` : ''}${q.source ? `<small class="quote-source">${esc(q.source)}</small>` : ''}${q.audio ? `<audio controls preload="none" src="${esc(q.audio)}"></audio>` : ''}</div>`).join('')}</div>`).join('');
   }
   function mapView() {
     const map=data.worldMap;
@@ -133,7 +133,11 @@
       let body=article.body || '';
       if(article.map) body+=mapView();
       if(article.section) body=directory(article.section);
-      if(article.id === 'location-directory') body='<p><a href="#world-map">Explore these places on the world map →</a></p>'+body;
+      if(article.id === 'location-directory') body='<section class="geography-intro"><h2>Find your way through Gedankin</h2><p>Follow the arrival corridor, explore Khars Madar’s districts, or trace the mountain journeys.</p><p><a href="#geography-of-gedankin">Read the geography guide →</a> <a href="#world-map">Explore the world map →</a></p></section>'+body;
+      if (data.characters.some(record=>record.id===id)) {
+        const words=data.quotes.filter(quote=>quote.article===id);
+        if(words.length) body+='<section class="character-words"><h2>Words the world remembers</h2>'+quoteCards(words,'h3',id)+'</section>';
+      }
       if (!article.section && article.category !== 'Timeline') {
         const names = [article.title, ...(article.aliases || [])].map(name=>name.toLocaleLowerCase());
         const related = data.events.filter(event=>(event.relatedRecords || []).includes(article.id) || [...(event.people || []),event.location || ''].some(name=>names.includes(name.toLocaleLowerCase())));

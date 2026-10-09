@@ -46,3 +46,12 @@
   .codex-world.hub-view .record-context { width: calc(100% - 2rem); }
   .codex-world.panels-open .topbar { z-index: 80; }
 }
+
+/* Start with the story on narrow screens; supporting facts follow it. */
+.codex-world .infobox:has(.fact):before { content: none; }
+.codex-world .infobox:not(:has(.fact)) { display: none; }
+.codex-world .infobox-title { padding-top: 1rem; }
+@media (max-width: 1100px) {
+  .codex-world:not(.home-view) .lead-grid > .article-body { grid-row: 1; }
+  .codex-world:not(.home-view) .lead-grid > .infobox { grid-row: 2; }
+}

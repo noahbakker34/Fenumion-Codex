@@ -58,6 +58,7 @@
     {id:'memorable-quotes', key:'quotes', title:'Quotes', glyph:'❞', description:'Words the world remembers', empty:'Memorable words from Gedankin will be collected here with their speakers.'},
     {id:'about-gedankin', title:'Guide', glyph:'◇', description:'World, play and the chronicle'}
   ];
+  for (const key of ["articles", "characters", "locations", "events", "factions"]) data[key].forEach(window.cleanCodexRecord);
   const articles = [...data.articles];
   for (const section of sections.filter(s => s.key)) {
     for (const record of data[section.key]) {
@@ -93,15 +94,15 @@
     const shell=content.querySelector('[data-directory]');
     if (!shell) return;
     const key=shell.dataset.directory, needle=content.querySelector('#directory-query').value.trim().toLocaleLowerCase();
-    let records=data[key].filter(record=>`${record.title||''} ${record.speaker||''} ${record.text||''} ${record.summary||record.dek||''} ${(record.tags||[]).join(' ')} ${(record.aliases||[]).join(' ')} ${record.meta||''} ${record.location||''} ${(record.people||[]).join(' ')}`.toLocaleLowerCase().includes(needle));
-    if(key!=='quotes') records=[...records].sort((a,b)=>key==='events'?String(a.sort||'').localeCompare(String(b.sort||'')):a.title.localeCompare(b.title));
+    let records=data[key].filter(record=>`${record.title||''} ${record.speaker||''} ${record.text||''} ${record.group||''} ${record.summary||record.dek||''} ${(record.tags||[]).join(' ')} ${(record.aliases||[]).join(' ')} ${record.meta||''} ${record.location||''} ${(record.people||[]).join(' ')}`.toLocaleLowerCase().includes(needle));
+    records=[...records].sort((a,b)=>key==='events'?String(a.sort||'').localeCompare(String(b.sort||'')):key==='quotes'?`${a.group||''} ${a.speaker} ${a.text}`.localeCompare(`${b.group||''} ${b.speaker} ${b.text}`):a.title.localeCompare(b.title));
     if(content.querySelector('#directory-sort').value==='reverse') records.reverse();
     content.querySelector('#directory-count').textContent=`${records.length} of ${data[key].length} records`;
     const html=key==='quotes'?quoteCards(records):`<div class="browser-grid">${records.map(record=>`<button class="index-card" type="button" data-article="${esc(record.id)}">${record.image||record.poster?`<img src="${esc(record.image||record.poster)}" alt="" loading="lazy">`:`<span class="index-glyph" aria-hidden="true">${key==='events'?'◷':key==='locations'?'⌖':key==='factions'?'⚑':'♙'}</span>`}<span class="index-card-copy">${record.meta?`<small>${esc(record.meta)}</small>`:''}<strong>${esc(record.title)}</strong><span>${esc(record.summary||record.dek||'')}</span></span></button>`).join('')}</div>`;
     content.querySelector('#directory-records').innerHTML=records.length?html:'<p>No matching records. Try another search.</p>';
   }
   function quoteCards(records, heading='h2', currentArticle='') {
-    return [...new Set(records.map(q=>q.group || 'Memorable words'))].map(group => `<${heading}>${esc(group)}</${heading}><div class="quote-gallery">${records.filter(q=>(q.group || 'Memorable words')===group).map(q=>`<div class="quote-card"><blockquote>“${esc(q.text)}”</blockquote><cite>${esc(q.speaker)}</cite>${q.article && q.article !== currentArticle && byId.has(q.article) ? `<a href="#${esc(q.article)}">Read their story →</a>` : ''}${q.source ? `<small class="quote-source">${esc(q.source)}</small>` : ''}${q.audio ? `<audio controls preload="none" src="${esc(q.audio)}"></audio>` : ''}</div>`).join('')}</div>`).join('');
+    return [...new Set(records.map(q=>q.group || 'Memorable words'))].map(group => `<${heading}>${esc(group)}</${heading}><div class="quote-gallery">${records.filter(q=>(q.group || 'Memorable words')===group).map(q=>`<div class="quote-card"><blockquote>“${esc(q.text)}”</blockquote><cite>${esc(q.speaker)}</cite>${q.article && q.article !== currentArticle && byId.has(q.article) ? `<a href="#${esc(q.article)}">Read their story →</a>` : ''}${q.audio ? `<audio controls preload="none" src="${esc(q.audio)}"></audio>` : ''}</div>`).join('')}</div>`).join('');
   }
   function mapView() {
     const map=data.worldMap;
@@ -143,14 +144,14 @@
         const related = data.events.filter(event=>(event.relatedRecords || []).includes(article.id) || [...(event.people || []),event.location || ''].some(name=>names.includes(name.toLocaleLowerCase())));
         if (related.length) body += '<h2>In the chronicle</h2>'+cards(related);
       }
-      if (article.section?.key === 'events') body = '<p class="gedankin-date-note">Dates below are UTC message posting dates. In-world dates have not been established. This chronicle covers selected reviewed scenes; it is not a complete account of every session.</p>'+body;
-      const sourceLedger=article.sources?.length?`<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} documents used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source=>`<li>${esc(source)}</li>`).join('')}</ul></details>`:'';
+      if (article.section?.key === 'events') body = '<p class="gedankin-date-note">Dates track the chronicle; the in-world calendar may differ.</p>'+body;
+
       const linkedIds=[...new Set([...(article.people||[]).flatMap(name=>data.characters.filter(record=>[record.title,...(record.aliases||[])].includes(name)).map(record=>record.id)),...(article.relatedRecords||[])])];
       const connected=linkedIds.map(id=>byId.get(id)).filter(Boolean);
       const connections=connected.length?`<section class="subchannels"><p class="eyebrow">Related records</p><div>${connected.map(record=>`<button class="subchannel-card" type="button" data-article="${esc(record.id)}"><strong>${esc(record.title)}</strong><span>${esc(record.dek||record.summary||'')}</span><i aria-hidden="true">›</i></button>`).join('')}</div></section>`:'';
       const switcher=isHub?`<nav class="hub-switcher" aria-label="Explore the Codex">${sections.map(section=>`<button type="button" class="gateway-tile${section.id===id?' active':''}" data-article="${section.id}" ${section.id===id?'aria-current="page"':''}><span>${section.title}</span><small>${section.description}</small></button>`).join('')}</nav>`:'';
       const facts=Object.entries(article.facts || {}).map(([k,v])=>`<div class="fact"><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('');
-      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${switcher}${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video controls muted loop playsinline preload="metadata" ${matchMedia('(prefers-reduced-motion: reduce)').matches ? '' : 'autoplay'} poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video. <a href="${esc(article.video)}">Watch ${esc(article.title)}</a></video>${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : ''}<div class="record-context">${sourceLedger}${connections}</div><div class="lead-grid"><div class="article-body">${body}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
+      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${switcher}${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video controls muted loop playsinline preload="metadata" ${matchMedia('(prefers-reduced-motion: reduce)').matches ? '' : 'autoplay'} poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video. <a href="${esc(article.video)}">Watch ${esc(article.title)}</a></video>${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${article.imageCaption ? `<figcaption>${esc(article.imageCaption)}</figcaption>` : ''}</figure>` : ''}<div class="lead-grid"><div class="article-body">${body}${connections}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
     }
     updateDirectory();
     document.querySelectorAll('.nav-branch').forEach(branch=>{branch.open=Boolean(branch.querySelector(`[data-article="${id}"]`));});
@@ -186,7 +187,7 @@
       return;
     }
     const article=event.target.closest('[data-article]');if(article){const hash='#'+article.dataset.article;if(location.hash===hash)render();else location.hash=hash;return;}
-    const section=event.target.closest('[data-section]');if(section){event.preventDefault();document.getElementById(section.dataset.section)?.scrollIntoView({behavior:'smooth'});return;}
+    const section=event.target.closest('[data-section]');if(section){event.preventDefault();document.getElementById(section.dataset.section)?.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth'});return;}
     const choice=event.target.closest('[data-search-filter]');if(choice){filter=choice.dataset.searchFilter;document.querySelectorAll('[data-search-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===choice)));runSearch(search.value);}
   });
   document.addEventListener('input',event=>{if(event.target.id==='directory-query'){updateDirectory();return;}if(event.target===search || event.target===worldSearch || event.target.id==='gateway-search'){runSearch(event.target.value);if(event.target.id==='gateway-search')worldSearch.focus();}});

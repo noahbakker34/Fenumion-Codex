@@ -2091,7 +2091,7 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Before the bout</h2><p>Attendants and established fighters share the lodge with newcomers. <a href=\"#pac\">Pac</a> explains expectations to Vaerik, who identifies himself as a soldier rather than a captain.</p><h2>How this scene fits</h2><p>The lodge exchange occurs on 16 July 2026 before Vaerik’s arena fight, although the export places the lodge channel after later September messages. The Codex orders the scene by its posting date and context.</p>",
+      "body": "<h2>Before the bout</h2><p>Attendants and established fighters share the lodge with newcomers. <a href=\"#pac\">Pac</a> explains expectations to Vaerik, who identifies himself as a soldier rather than a captain.</p><h2>How this scene fits</h2><p>The lodge exchange precedes Vaerik’s arena fight in the chronicle of 16 July 2026.</p>",
       "sources": [
         "2024-rp.md — 16 July 2026; dates refer to UTC posting dates, not established in-world dates."
       ],
@@ -2205,7 +2205,7 @@ window.GedankinData = {
         "World": "Gedankin",
         "Record": "Map landmark"
       },
-      "body": "<h2>On the map</h2><p>A landmark marked northeast of The Shore on the supplied map.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
+      "body": "<h2>On the map</h2><p>A landmark marked northeast of The Shore on the supplied map.</p><p>The landmark’s history remains unknown.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
       "sources": [
         "Gedankin.png — world map supplied by the user."
       ]
@@ -2224,7 +2224,7 @@ window.GedankinData = {
         "World": "Gedankin",
         "Record": "Map landmark"
       },
-      "body": "<h2>On the map</h2><p>A marked hazard on the eastern side of the northern desert.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p><h2>A hazard encountered</h2><p>During Salim’s ruins expedition, a convincing vision of another oasis dissolves and leaves the company caught in quicksand. Vaerik escapes first and pulls Fife and Vespere free; Sombra and Heih also reach firm ground. The exact relationship between that pit and the hazard marked on this map has not been established.</p>",
+      "body": "<h2>On the map</h2><p>A marked hazard on the eastern side of the northern desert.</p><p>The landmark’s history remains unknown.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p><h2>A hazard encountered</h2><p>During Salim’s ruins expedition, a convincing vision of another oasis dissolves and leaves the company caught in quicksand. Vaerik escapes first and pulls Fife and Vespere free; Sombra and Heih also reach firm ground. The exact relationship between that pit and the hazard marked on this map has not been established.</p>",
       "sources": [
         "Gedankin.png — world map supplied by the user.",
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished)."
@@ -4637,7 +4637,7 @@ window.GedankinData = {
         "Connection": "Fenumion",
         "Ruleset": "2024"
       },
-      "body": "<h2 id=\"a-world-of-its-own\">A world of its own</h2><p>Gedankin is a separate world connected to Fenumion. Its people, places, factions and events belong to its own record.</p><h2 id=\"the-chronicle\">The chronicle</h2><p>This Codex brings together Gedankin’s characters, history, locations and memorable words. As accounts are added, their sources and the difference between witnessed events, character beliefs and unanswered questions will remain part of the record.</p><h2 id=\"connected-worlds\">Connected worlds</h2><p>The nature and history of the connection have yet to be recorded. You can visit either world using the sidebar.</p><p><a href=\"/#world-index\">Visit the Fenumion Codex →</a></p><h2>From the shore to the mountain</h2><p>The recovered quest record begins with strangers on a shore beside a cosmic void. Their journeys lead through Cala’s Oasis, the houses of Khars Madar and the struggle to free the mountain’s kobolds. <a href=\"#living-timeline\">Follow the chronicle</a> or <a href=\"#people-directory\">meet the people</a>.</p><h2>Reading the record</h2><p>Timeline dates are the dates messages were posted in UTC, not confirmed in-world dates. This first pass selects important reviewed scenes from a much larger export. Unreviewed intervals are not treated as empty history, and unresolved outcomes remain open.</p><h2>A route into the world</h2><p>Start with <a href=\"#geography-of-gedankin\">Geography of Gedankin</a> to follow the arrival corridor, explore Khars Madar’s districts and find the mountain frontier. Character pages connect these journeys to the people, words and decisions that shape them.</p>"
+      "body": "<h2 id=\"a-world-of-its-own\">A world of its own</h2><p>Gedankin is a separate world connected to Fenumion. Its people, places, factions and events belong to its own record.</p><h2 id=\"the-chronicle\">The chronicle</h2><p>Explore Gedankin’s people, places, factions and history. Follow a journey from the Shore, meet the Houses of Khars Madar, or venture toward the mountain frontier.</p><h2 id=\"connected-worlds\">Connected worlds</h2><p>The nature and history of the connection have yet to be recorded. You can visit either world using the sidebar.</p><p><a href=\"/#world-index\">Visit the Fenumion Codex →</a></p><h2>From the shore to the mountain</h2><p>The recovered quest record begins with strangers on a shore beside a cosmic void. Their journeys lead through Cala’s Oasis, the houses of Khars Madar and the struggle to free the mountain’s kobolds. <a href=\"#living-timeline\">Follow the chronicle</a> or <a href=\"#people-directory\">meet the people</a>.</p><h2>Reading the record</h2><p>Dates identify the chronicle entries and may differ from the in-world calendar.</p><h2>A route into the world</h2><p>Start with <a href=\"#geography-of-gedankin\">Geography of Gedankin</a> to follow the arrival corridor, explore Khars Madar’s districts and find the mountain frontier. Character pages connect these journeys to the people, words and decisions that shape them.</p>"
     },
     {
       "id": "rules-2024",

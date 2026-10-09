@@ -25,7 +25,7 @@ const articles = [
       "docs/QUEST_ARCHIVE_INDEX.md — checksum, coverage statistics, and 329 candidate review sessions",
       "303 supporting campaign records, maps, profiles, corrections, and chronicles"
     ],
-    "body": "<p>This Codex begins with the surviving record: a complete 108,619-message export of the main quest channel, alongside campaign logs, character scenes, maps, timelines, corrections, and later revelations. Together they preserve a world whose history is larger than any one campaign and whose truths often emerge only after earlier events acquire new consequences.</p>\n      <div class=\"callout gold\"><p><strong>The central finding:</strong> Fenumion’s accumulated history is its protagonist. Characters matter because their choices remain inside the world after their scenes end.</p></div>\n      <div class=\"archive-dashboard\" aria-label=\"Fenumion archive overview\">\n        <div class=\"archive-stat\"><strong>108,619</strong><span>quest messages</span></div>\n        <div class=\"archive-stat\"><strong>329</strong><span>candidate sessions</span></div>\n        <div class=\"archive-stat\"><strong>363</strong><span>active dates</span></div>\n        <div class=\"archive-stat\"><strong>785</strong><span>speaker identities</span></div>\n      </div>\n      <h2 id=\"what-it-became\">A history measured in consequences</h2>\n      <p>Fenumion’s chronicle moves between individual scenes and large questions about gods, grief, consent, institutions, choice, and what it means for a community to inherit a past it did not personally witness. An event matters not only when it occurs, but when someone later inherits the truth it created.</p>\n      <h2 id=\"main-conclusions\">The main conclusions</h2>\n      <div class=\"evidence-stack\">\n        <section class=\"evidence-card\"><span>01</span><div><h3>The history is the protagonist</h3><p>Fenumion feels like a place where D&amp;D has been happening for years. Buildings, deaths, relationships, reputations, and unfinished arguments keep acting on the present.</p></div></section>\n        <section class=\"evidence-card\"><span>02</span><div><h3>Power is measured by who pays</h3><p>The recurring moral question is not simply whether power works. It is who chooses the price, who is allowed to consent, and whose life or soul becomes the cost.</p></div></section>\n        <section class=\"evidence-card\"><span>03</span><div><h3>Small acts keep the world alive</h3><p>Cosmic events give the setting scale, but meals, memorials, farms, apologies, gifts, and ordinary acts of care give it continuity.</p></div></section>\n        <section class=\"evidence-card\"><span>04</span><div><h3>Discovery order is part of canon</h3><p>A hostile journal, a first encounter, and a revelation months later are not interchangeable. The order in which people learned the truth changed what the truth meant.</p></div></section>\n      </div>\n      <h2 id=\"read-the-source\">Enter the record</h2>\n      <p>The Codex keeps established events, attributed beliefs, interpretation, and unresolved questions visibly distinct. It is organized to make the world searchable without turning incomplete history into false certainty.</p>\n      <p>Continue with the <a href=\"#world-index\">World Index</a> to browse Characters, Timeline, and Locations; the <a href=\"#quest-record\">Complete Quest Record</a> for the transcript’s coverage and review method; <a href=\"#reading-the-codex\">How to Read the Codex</a> for the evidence key; or <a href=\"#fenumion\">Fenumion</a> for the world at a glance.</p>"
+    "body": "<p>This Codex begins with the surviving record: a complete 108,619-message export of the main quest channel, alongside campaign logs, character scenes, maps, timelines, corrections, and later revelations. Together they preserve a world whose history is larger than any one campaign and whose truths often emerge only after earlier events acquire new consequences.</p>\n      <div class=\"callout gold\"><p><strong>The central finding:</strong> Fenumion’s accumulated history is its protagonist. Characters matter because their choices remain inside the world after their scenes end.</p></div>\n      <div class=\"archive-dashboard\" aria-label=\"Fenumion archive overview\">\n        <div class=\"archive-stat\"><strong>108,619</strong><span>quest messages</span></div>\n        <div class=\"archive-stat\"><strong>329</strong><span>candidate sessions</span></div>\n        <div class=\"archive-stat\"><strong>363</strong><span>active dates</span></div>\n        <div class=\"archive-stat\"><strong>785</strong><span>speaker identities</span></div>\n      </div>\n      <h2 id=\"what-it-became\">A history measured in consequences</h2>\n      <p>Fenumion’s chronicle moves between individual scenes and large questions about gods, grief, consent, institutions, choice, and what it means for a community to inherit a past it did not personally witness. An event matters not only when it occurs, but when someone later inherits the truth it created.</p>\n      <h2 id=\"main-conclusions\">The main conclusions</h2>\n      <div class=\"evidence-stack\">\n        <section class=\"evidence-card\"><span>01</span><div><h3>The history is the protagonist</h3><p>Fenumion feels like a place where D&amp;D has been happening for years. Buildings, deaths, relationships, reputations, and unfinished arguments keep acting on the present.</p></div></section>\n        <section class=\"evidence-card\"><span>02</span><div><h3>Power is measured by who pays</h3><p>The recurring moral question is not simply whether power works. It is who chooses the price, who is allowed to consent, and whose life or soul becomes the cost.</p></div></section>\n        <section class=\"evidence-card\"><span>03</span><div><h3>Small acts keep the world alive</h3><p>Cosmic events give the setting scale, but meals, memorials, farms, apologies, gifts, and ordinary acts of care give it continuity.</p></div></section>\n        <section class=\"evidence-card\"><span>04</span><div><h3>Discovery order is part of canon</h3><p>A hostile journal, a first encounter, and a revelation months later are not interchangeable. The order in which people learned the truth changed what the truth meant.</p></div></section>\n      </div>\n      <h2 id=\"read-the-source\">Enter the record</h2>\n      <p>The Codex keeps established events, attributed beliefs, interpretation, and unresolved questions visibly distinct. It is organized to make the world searchable without turning incomplete history into false certainty.</p>\n      <p>Continue with the <a href=\"#world-index\">World Index</a> to browse Characters, Timeline, and Locations; the <a href=\"#quest-record\">Adventures</a> for the transcript’s coverage and review method; <a href=\"#reading-the-codex\">How to Read the Codex</a> for the evidence key; or <a href=\"#fenumion\">Fenumion</a> for the world at a glance.</p>"
   },
   {
     "id": "world-index",
@@ -1019,7 +1019,7 @@ const articles = [
   },
   {
     "id": "quest-record",
-    "title": "The Complete Quest Record",
+    "title": "Adventures",
     "category": "Archive",
     "type": "Primary transcript index",
     "dek": "The complete quest-rp archive gives the Codex a scene-level evidentiary spine across 108,619 messages and more than two years of play.",
@@ -3295,7 +3295,7 @@ const worldIndexArticle = articles.find(article => article.id === "world-index")
 if (worldIndexArticle) {
   worldIndexArticle.body = worldIndexArticle.body
     .replace('data-article="reading-the-codex"', 'data-article="ethos-of-fenumion"')
-    .replace('<span>Guide</span><small>Evidence · Perspective · Uncertainty</small>', '<span>Guide</span><small>Play · Evidence · Perspective</small>');
+    .replace('<span>Guide</span><small>Evidence · Perspective · Uncertainty</small>', '<span>Guide</span><small>World · Play · Principles</small>');
 }
 
 const livingArchiveArticle = articles.find(article => article.id === "conversation");
@@ -10990,7 +10990,7 @@ const navigationRegions = [
 
 const archiveLinks = [
   { label: "The Living Archive", article: "conversation" },
-  { label: "The Complete Quest Record", article: "quest-record" },
+  { label: "Adventures", article: "quest-record" },
   { label: "The Source Catalogue", article: "source-catalogue" },
   { label: "Relationships in Motion", article: "relationships" },
   { label: "Memorable Quotes", article: "memorable-quotes" },
@@ -15039,7 +15039,7 @@ const hubPages = [
   { id: "visual-archive", label: "Locations", detail: "Regions · Settlements · Landmarks", image: "assets/archive/world-map.jpeg" },
   { id: "factions", label: "Factions", detail: "Companies · Orders · Alliances", image: "assets/archive/fein-uaill.jpeg" },
   { id: "memorable-quotes", label: "Quotes", detail: "Words the world remembers", image: "assets/archive/throne.png" },
-  { id: "ethos-of-fenumion", label: "Guide", detail: "Play · Evidence · Perspective", image: "assets/archive/pristinia.webp" }
+  { id: "ethos-of-fenumion", label: "Guide", detail: "World · Play · Principles", image: "assets/archive/pristinia.webp" }
 ];
 const hubPageById = new Map(hubPages.map(page => [page.id, page]));
 const navigation = document.querySelector("#navigation");
@@ -15071,34 +15071,12 @@ function escapeHtml(value) {
 }
 
 function timelineDetailParagraphs(item) {
-  const participants = item.people && item.people !== "—" ? item.people : "the people preserved in the surviving account";
-  const firstParagraph = `The recovered record dates this event to ${item.meta} and places ${participants} at ${item.location}. ${item.summary}`;
-  const kind = item.kind.toLowerCase();
-  const impact = /death|loss|sacrifice/.test(kind)
-    ? "Its losses change the emotional and practical choices available to every survivor who follows."
-    : /discover|revelation|testimony|knowledge|investigation/.test(kind)
-      ? "What becomes known here changes how later witnesses interpret the danger, the people involved, and the choices still available."
-      : /rescue|defen|battle|assault|siege|slaying|interception/.test(kind)
-        ? "The outcome measures more than victory: it determines who survives, what remains protected, and which threat is allowed to continue."
-        : /civic|politic|institution|construction|policy|accord|community/.test(kind)
-          ? "Its consequence endures through institutions and ordinary lives, turning a single scene into part of the world people must inhabit afterward."
-          : /return|resurrection|healing|repair|mercy/.test(kind)
-            ? "The event does not erase the harm that precedes it; it creates a changed life and a new obligation for the people who receive that second chance."
-            : /expedition|exploration|reconnaissance|travel|voyage|arrival/.test(kind)
-              ? "The journey expands the community’s map of danger and possibility, giving later expeditions knowledge purchased through these participants’ risk."
-              : "The outcome becomes part of the cause-and-consequence chain carried into later quests rather than remaining an isolated scene.";
-  const secondParagraph = questEventConsequences[item.title] || `${impact} The surviving record ties ${item.title.toLowerCase()} most closely to ${(item.tags || []).join(", ") || item.location} and to ${participants}. Where the archive does not yet preserve a fuller aftermath, that limit remains explicit rather than being filled with invention.`;
-  return [firstParagraph, secondParagraph];
+  return [item.summary, window.codexReadingText(questEventConsequences[item.title])];
 }
 
 function characterProfileParagraphs(person) {
-  const recovered = legacyCharacterProfiles[person.title];
-  if (recovered) return [recovered.personality, recovered.achievements, recovered.relationships];
-  return [
-    `${person.title} appears in the recovered archive as ${person.meta.toLowerCase()}. ${person.summary} This profile keeps interpretation proportional to the scenes currently preserved, so temperament is drawn from witnessed choices rather than guessed private motives.`,
-    `${person.title}’s documented importance begins with the contribution summarized above and continues through the quests, locations, and factions connected to that record. Their deeds are treated as part of an unfolding history: accomplishments are credited where the source is clear, while unrecorded exploits remain open for later recovery.`,
-    `${person.title}’s relationships are carried through the adventuring parties, institutions, rivals, and communities that share their scenes. Where the archive does not yet preserve enough named interaction to describe a bond responsibly, the Codex leaves that relationship unresolved instead of manufacturing friendship, romance, or conflict.`
-  ];
+  const profile = legacyCharacterProfiles[person.title];
+  return profile ? [profile.personality, profile.achievements, profile.relationships] : [person.summary, '', ''];
 }
 
 function closeRecordDialog() {
@@ -15130,7 +15108,7 @@ function openTimelineRecord(item) {
     <p class="record-dialog-dek">${escapeHtml(item.meta)} · ${escapeHtml(item.location)}</p>
     <div class="record-dialog-body">
       <p><strong>What happened</strong>${escapeHtml(whatHappened)}</p>
-      <p><strong>Why it matters</strong>${escapeHtml(whyItMatters)}</p>
+      ${whyItMatters ? `<p><strong>Consequences</strong>${escapeHtml(whyItMatters)}</p>` : ""}
     </div>
     <div class="record-dialog-meta"><span>People · ${escapeHtml(item.people || "Unrecorded")}</span>${(item.tags || []).map(tag => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
     ${renderEventConnections(item)}
@@ -15159,9 +15137,9 @@ function openCharacterRecord(person, personLabel = "Character") {
     <h2 id="record-dialog-title">${escapeHtml(person.title)}</h2>
     <p class="record-dialog-dek">${escapeHtml(person.meta)}</p>
     <div class="record-dialog-body">
-      <p><strong>Personality</strong>${escapeHtml(personality)}</p>
-      <p><strong>Achievements &amp; deeds</strong>${escapeHtml(achievements)}</p>
-      <p><strong>Relationships</strong>${escapeHtml(relationships)}</p>
+      <p>${escapeHtml(personality)}</p>
+      ${achievements ? `<p><strong>Achievements &amp; deeds</strong>${escapeHtml(achievements)}</p>` : ""}
+      ${relationships ? `<p><strong>Relationships</strong>${escapeHtml(relationships)}</p>` : ""}
     </div>
     ${relatedButton}`;
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
@@ -15188,8 +15166,8 @@ function openLocationRecord(place) {
     <h2 id="record-dialog-title">${escapeHtml(place.title)}</h2>
     <p class="record-dialog-dek">${escapeHtml(place.meta || `${place.region} · ${place.parent}`)}</p>
     <div class="record-dialog-body">
-      <p><strong>Recovered record</strong>${escapeHtml(place.summary)}</p>
-      <p><strong>Archive position</strong>${escapeHtml(`${place.title} belongs to ${place.parent || place.region} within ${place.region}. Its present entry is supported by ${place.source || "the recovered archive"}.`)}</p>
+      <p>${escapeHtml(place.summary)}</p>
+
     </div>
     <div class="record-dialog-meta"><span>Region · ${escapeHtml(place.region || "Unresolved")}</span><span>Parent · ${escapeHtml(place.parent || "Unresolved")}</span>${aliases}</div>
     <button class="record-dialog-link" type="button" data-record-article="${escapeHtml(place.article)}">${relatedLabel} →</button>`;
@@ -15382,7 +15360,7 @@ function renderInteractionFields(node) {
     <div><dt>Resources & knowledge</dt><dd>${escapeHtml(node.resource)}</dd></div>
     <div><dt>Contribution to the faction</dt><dd>${escapeHtml(node.consequence)}</dd></div>
     <div><dt>Faction response</dt><dd>${escapeHtml(node.receives)}</dd></div>
-  </dl><p class="interaction-source">Source: ${escapeHtml(node.source)}</p>`;
+  </dl>`;
 }
 
 Object.assign(relationshipMaps, window.FENUMION_FACTION_MAPS || {});
@@ -15425,7 +15403,7 @@ function renderRelationshipMap(article) {
         <p>${escapeHtml(first.history)}</p>
         ${renderRelationshipMoments(first)}
         ${interaction ? renderInteractionFields(first) : `<p>${escapeHtml(first.consequence)}</p>`}
-        <div><strong>Evidence boundary</strong><span>${escapeHtml(first.evidence)}</span></div>
+        <div><strong>What is known</strong><span>${escapeHtml(first.evidence)}</span></div>
         <button type="button" data-article="${escapeHtml(first.article)}">Open linked record <span aria-hidden="true">→</span></button>
       </aside>
     </div>
@@ -15458,7 +15436,7 @@ function setupRelationshipMap(article) {
       <p>${escapeHtml(node.history)}</p>
       ${renderRelationshipMoments(node)}
       ${map.kind === "interaction" ? renderInteractionFields(node) : `<p>${escapeHtml(node.consequence)}</p>`}
-      <div><strong>Evidence boundary</strong><span>${escapeHtml(node.evidence)}</span></div>
+      <div><strong>What is known</strong><span>${escapeHtml(node.evidence)}</span></div>
       <button type="button" data-article="${escapeHtml(node.article)}">Open linked record <span aria-hidden="true">→</span></button>`;
   };
 
@@ -15656,7 +15634,7 @@ function renderArticle(route, pushHash = true) {
   const id = routeAliases.get(requestedId) || requestedId;
   const routeParams = new URLSearchParams(routeQuery);
   const requestedMapId = routeParams.get("map") || "";
-  const article = byId.get(id) || articles[0];
+  const article = byId.get(id) || byId.get("world-index");
   const protectedArticle = !isPlayerSafeArticle(article.id);
   const hubPage = hubPageById.get(article.id);
   document.body.classList.toggle("home-view", article.id === "world-index");
@@ -15678,7 +15656,7 @@ function renderArticle(route, pushHash = true) {
     window.scrollTo({ top: 0, behavior: "auto" });
     return;
   }
-  const facts = Object.entries(article.facts).map(([label, value]) => `<div class="fact"><dt>${label}</dt><dd>${value}</dd></div>`).join("");
+  const facts = Object.entries(article.facts || {}).map(([label, value]) => `<div class="fact"><dt>${label}</dt><dd>${value}</dd></div>`).join("");
   const heroClass = `article-hero${article.imageLayout ? ` ${article.imageLayout}` : ""}`;
   const videoHeroClass = `article-hero${article.videoLayout ? ` ${article.videoLayout}` : article.imageLayout ? ` ${article.imageLayout}` : ""}`;
   const mapHero = article.image && article.mapId
@@ -15691,7 +15669,7 @@ function renderArticle(route, pushHash = true) {
     ? `${mapHero}${videoHero}`
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "");
   const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
-  const sourceLedger = article.id !== "start-here" && article.sources?.length ? `<details class="source-ledger"><summary><span><b>Sources &amp; provenance</b><small>${article.sources.length} document${article.sources.length === 1 ? "" : "s"} used for this record</small></span><strong aria-hidden="true">+</strong></summary><ul>${article.sources.map(source => `<li>${escapeHtml(source)}</li>`).join("")}</ul></details>` : "";
+
   const subchannels = renderSubchannels(article.id);
   const relationshipMap = renderRelationshipMap(article);
   const locationTimeline = renderLocationTimeline(article);
@@ -15704,14 +15682,14 @@ function renderArticle(route, pushHash = true) {
       <div class="atlas-banner-copy">
         <p class="eyebrow">Interactive world atlas</p>
         <h2 id="interactive-maps-title">Explore Fenumion from the world outward</h2>
-        <p>Choose a map, then hover or focus a marker to preview its location. Select the marker or its numbered button to open that place’s Codex record. Each location page separates recovered history from map-only evidence.</p>
+        <p>Choose a map, then hover or focus a marker to preview its location. Select the marker or its numbered button to open that place’s Codex record. Browse locations below for their stories and landmarks.</p>
       </div>
       <div id="interactive-atlas" class="interactive-atlas"></div>
     </section>` : "";
   const peopleGallery = article.id === "people-directory" ? `
     <section class="people-gallery-shell" aria-labelledby="people-gallery-title">
       <div class="people-gallery-heading">
-        <div><p class="eyebrow">Visual character archive</p><h2 id="people-gallery-title">Meet the people of Fenumion</h2><p>Browse every indexed hero, ally, ruler, witness, god, and recurring figure. Portraits appear wherever the archive includes a named visual record.</p></div>
+        <div><p class="eyebrow">Visual character archive</p><h2 id="people-gallery-title">Meet the people of Fenumion</h2><p>Browse every indexed hero, ally, ruler, witness, god, and recurring figure. Open a portrait to read their story.</p></div>
         <label class="people-gallery-search" for="people-gallery-query"><span>Search characters</span><input id="people-gallery-query" type="search" placeholder="Name, role, or story…" autocomplete="off"></label>
       </div>
       <div class="people-gallery-filters" id="people-gallery-filters" role="toolbar" aria-label="Filter people by character type"></div>
@@ -15743,14 +15721,10 @@ function renderArticle(route, pushHash = true) {
     ${atlasBanner}
     ${hubPage ? "" : hero}
     ${hubPage ? "" : gallery}
-    ${sourceLedger}
-    ${subchannels}
-    ${relationshipMap}
     ${renderLocationConnections(article)}
-    ${locationTimeline}
     ${peopleGallery}
     <div class="lead-grid">
-      <div class="article-body">${article.body}${renderCharacterCollection(article)}${renderRelated(article)}</div>
+      <div class="article-body">${article.body}${renderCharacterCollection(article)}${locationTimeline}${relationshipMap}${subchannels}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
   if (article.id === "world-index") {
@@ -16010,7 +15984,7 @@ function setupInteractiveAtlas(initialMapId = "") {
       <span class="map-detail-kicker">${protectedRecord ? "Protected location history" : escapeHtml(locationRecord.meta)}</span>
       <h3>${protectedRecordTitle(locationRecord.title, protectedRecord)}</h3>
       <p>${protectedRecord ? "This map marker is public. Its history and evidence are kept inside the spoiler vault." : escapeHtml(locationRecord.summary)}</p>
-      <span class="map-detail-source">${protectedRecord ? "Keeper access required" : `Evidence · ${escapeHtml(locationRecord.source)}`}</span>
+
       ${mapLayerLink}
       <button type="button" class="map-history-link${protectedRecord ? " locked-record" : ""}" data-article="${locationRecord.article}">${protectedRecord ? "Unlock location history" : "Open location history"} <span aria-hidden="true">${protectedRecord ? "◆" : "→"}</span></button>`;
   };
@@ -16179,7 +16153,7 @@ function setupLocationExplorer() {
               <span class="place-kicker">${protectedRecord ? "Protected location history" : escapeHtml(item.parent === item.region ? item.type : `${item.parent} · ${item.type}`)}</span>
               <strong>${protectedRecordTitle(item.title, protectedRecord)}${!protectedRecord && mappedLocationTitles.has(item.title) ? `<i class="place-map-badge">Mapped</i>` : ""}</strong>
               <span class="place-summary">${protectedRecord ? "Unlock the spoiler vault to read its history." : escapeHtml(item.summary)}</span>
-              <span class="place-source">${protectedRecord ? "Keeper access required" : escapeHtml(item.source)}</span>
+
             </span>
           </button>`; }).join("")}</div>
       </section>`).join("") : `<div class="location-empty"><strong>No recovered place matches that search.</strong><span>Try a region, landmark, building type, or alternate spelling.</span></div>`;
@@ -16247,7 +16221,7 @@ function setupTimelineExplorer() {
     const filtered = availableTimeline
       .filter(item => activeEra === "All eras" || item.era === activeEra)
       .filter(item => {
-        const haystack = `${item.title} ${item.meta} ${item.summary} ${questEventConsequences[item.title] || ""} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(" ")}`.toLowerCase();
+        const haystack = `${item.title} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(" ")}`.toLowerCase();
         return terms.every(term => haystack.includes(term));
       })
       .sort((a, b) => a.sort.localeCompare(b.sort) * (direction === "asc" ? 1 : -1));
@@ -16440,7 +16414,7 @@ function runSearch(query) {
   const terms = normalized.split(/\s+/).filter(Boolean);
   const articleResults = articles.filter(article => isPlayerSafeArticle(article.id)).map(article => {
     const path = articlePaths.get(article.id) || [article.category, article.title];
-    const haystack = `${path.join(" ")} ${article.title} ${article.category} ${article.type} ${article.dek} ${article.tags.join(" ")} ${(article.sources || []).join(" ")} ${article.body.replace(/<[^>]+>/g, " ")}`.toLowerCase();
+    const haystack = `${path.join(" ")} ${article.title} ${article.category} ${article.type} ${article.dek} ${article.tags.join(" ")} ${article.body.replace(/<[^>]+>/g, " ")}`.toLowerCase();
     const titleMatch = article.title.toLowerCase().includes(normalized) ? 4 : 0;
     const tagMatch = article.tags.some(tag => tag.toLowerCase().includes(normalized)) ? 2 : 0;
     const allTermsMatch = terms.every(term => haystack.includes(term));
@@ -16483,7 +16457,7 @@ function runSearch(query) {
   searchCount.textContent = `${results.length} result${results.length === 1 ? "" : "s"}`;
   document.querySelectorAll("[data-search-filter]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.searchFilter === activeSearchCategory)));
   searchResults.innerHTML = results.length ? results.map(({ article, path, kind, record }) => `
-    <button class="search-result" data-search-category="${kind === "article" ? searchCategory(byId.get(article.id)) : kind}" data-search-kind="${kind}" data-search-title="${escapeHtml(record.title)}" data-article="${escapeHtml(article.id)}"><small>${path.map(escapeHtml).join(" → ")} · ${escapeHtml(article.type)}</small><strong>${highlight(article.title, normalized)}</strong><span>${highlight(article.dek, normalized)}</span></button>`).join("") : `<div class="empty-search">No character, quote, event, location, or source matches “${escapeHtml(query)}”.</div>`;
+    <button class="search-result" data-search-category="${kind === "article" ? searchCategory(byId.get(article.id)) : kind}" data-search-kind="${kind}" data-search-title="${escapeHtml(record.title)}" data-article="${escapeHtml(article.id)}"><small>${path.map(escapeHtml).join(" → ")} · ${escapeHtml(article.type)}</small><strong>${highlight(article.title, normalized)}</strong><span>${highlight(article.dek, normalized)}</span></button>`).join("") : `<div class="empty-search">No character, quote, event, or location matches “${escapeHtml(query)}”.</div>`;
   openSearch();
 }
 
@@ -16635,7 +16609,7 @@ vaultSignin.addEventListener("click", () => {
   location.assign(`${AUTH_ORIGIN}/login?next=${encodeURIComponent(vaultReturnUrl())}`);
 });
 document.addEventListener("keydown", event => {
-  if (event.key === "/" && !/input|textarea/i.test(document.activeElement.tagName)) {
+  if (event.key === "/" && !/input|textarea|select/i.test(document.activeElement.tagName) && !document.activeElement.isContentEditable) {
     event.preventDefault();
     const gatewaySearch = document.querySelector("#gateway-search");
     if (gatewaySearch) gatewaySearch.focus();
@@ -16651,10 +16625,10 @@ document.addEventListener("keydown", event => {
 window.addEventListener("popstate", () => renderArticle(location.hash.slice(1), false));
 window.addEventListener("hashchange", () => {
   const route = location.hash.slice(1);
-  const [id] = route.split("?");
-  if (byId.has(id) || routeAliases.has(id)) renderArticle(route, false);
+  renderArticle(route || "world-index", false);
 });
 
+articles.forEach(window.cleanCodexRecord);
 rebuildDerivedData();
 updateVaultState();
 renderNavigation();

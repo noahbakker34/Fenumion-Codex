@@ -2155,7 +2155,10 @@ window.GedankinData = {
         "Desert",
         "Meteorite",
         "Exploration",
-        "Survival"
+        "Survival",
+        "Khydiir",
+        "Ansar",
+        "Alifa"
       ],
       "facts": {
         "World": "Gedankin",
@@ -2163,12 +2166,13 @@ window.GedankinData = {
         "Approach": "Inland from the Shore",
         "Routes": "Oasis, ruins and farther settlements"
       },
-      "body": "<h2>Beyond the Shore</h2><p>The Seven Sands is the region reached by setting out inland from <a href=\"#strange-shore\">the Shore</a>. It comprises the largest portion of Gedankin’s island. The map’s broad desert label contains more than a single destination: makeshift camps, routes between refuges and the search for places the first arrivals have not yet seen.</p><h2>The meteorite camp</h2><p>Before the Oasis becomes their refuge, Atrax and Irenhour keep watch beside a meteorite under a palm-frond lean-to made by Visaerk. They debate food, shelter and what might be inside the fallen stone. Rhalor later joins the investigation; purple dust is visible in the sand along the impact channel.</p><h2>Survival does not settle every argument</h2><p>The early company disagrees about discipline, magical risk and whether desperate circumstances justify coercion. Atrax distinguishes people stranded against their will from soldiers who chose to enlist. These conversations shape how the survivors work together without giving the camp a single agreed leader or doctrine.</p><h2>Searching beyond the refuge</h2><p>Grimthorne and Ashbriar walk out from the Oasis seeking signs of life better suited to them. Later, Atrax and the early Aurora probe for the buried Albayt Alkabir. Sahira and Sombra use another walk to exchange knowledge of ruins, colossal bones, magical stones and possible ways of improving the settlement.</p><h2>Navigation under unfamiliar stars</h2><p>Sombra tells Sahira that his star maps cannot navigate here as they did at home. They discuss fixed landmarks, signals and markers amid shifting dunes. His explanation remains his understanding of the sky; no completed survey or working replacement map is shown.</p><h2>A merchant’s road</h2><p>Salim Jalusiwa’s visits and the caravans reaching Khars Madar show trade across the sands. His promises of supplies and the travellers’ proposals for crops or irrigation remain distinct from completed deliveries or construction.</p><p><a href=\"#geography-of-gedankin\">Follow Gedankin’s places and journeys →</a> · <a href=\"#world-map\">Explore the world map →</a></p>",
+      "body": "<h2>Beyond the Shore</h2><p>The Seven Sands is the region reached by setting out inland from <a href=\"#strange-shore\">the Shore</a>. It comprises the largest portion of Gedankin’s island. The map’s broad desert label contains more than a single destination: makeshift camps, routes between refuges and the search for places the first arrivals have not yet seen.</p><h2>The meteorite camp</h2><p>Before the Oasis becomes their refuge, Atrax and Irenhour keep watch beside a meteorite under a palm-frond lean-to made by Visaerk. They debate food, shelter and what might be inside the fallen stone. Rhalor later joins the investigation; purple dust is visible in the sand along the impact channel.</p><h2>Survival does not settle every argument</h2><p>The early company disagrees about discipline, magical risk and whether desperate circumstances justify coercion. Atrax distinguishes people stranded against their will from soldiers who chose to enlist. These conversations shape how the survivors work together without giving the camp a single agreed leader or doctrine.</p><h2>Searching beyond the refuge</h2><p>Grimthorne and Ashbriar walk out from the Oasis seeking signs of life better suited to them. Later, Atrax and the early Aurora probe for the buried Albayt Alkabir. Sahira and Sombra use another walk to exchange knowledge of ruins, colossal bones, magical stones and possible ways of improving the settlement.</p><h2>Navigation under unfamiliar stars</h2><p>Sombra tells Sahira that his star maps cannot navigate here as they did at home. They discuss fixed landmarks, signals and markers amid shifting dunes. His explanation remains his understanding of the sky; no completed survey or working replacement map is shown.</p><h2>A merchant’s road</h2><p>Salim Jalusiwa’s visits and the caravans reaching Khars Madar show trade across the sands. His promises of supplies and the travellers’ proposals for crops or irrigation remain distinct from completed deliveries or construction.</p><p><a href=\"#geography-of-gedankin\">Follow Gedankin’s places and journeys →</a> · <a href=\"#world-map\">Explore the world map →</a></p><h2>Further regional leads</h2><p>The supplied geography synthesis names Khydiir as a destination beyond or along a route staged through Khars Madar. Ansar and Alifa are also named, with no confirmed placement. These leads show a wider inhabited region without establishing exact coordinates or completed journeys to each place.</p>",
       "sources": [
         "Gedankin.png — world map supplied by the user.",
         "gedankin-the-shore.md — 2025-12-07–2026-09-22 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2024-11-02 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-seven-sands.md — 2024-09-25–2026-04-02 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-seven-sands.md — 2024-09-25–2026-04-02 (UTC posting dates; in-world dates unestablished).",
+        "GEDANKIN_LOCATION_MASTER.md — supplied qualitative geography synthesis; reported routes and unresolved positions."
       ],
       "aliases": [
         "Seven Sands"
@@ -2240,10 +2244,11 @@ window.GedankinData = {
         "Record": "Mapped landmark; expedition recalled by Sombra",
         "Identification": "Unconfirmed; dragon turtle suggested in Sombra’s account"
       },
-      "body": "<h2>A landmark in the sands</h2><p>The map labels this site Large Skeleton at the eastern end of the desert route. Sombra later describes approaching what first looked like a distant white pillar and finding the bones of a huge creature.</p><h2>Sombra’s account</h2><p>Speaking with Sahira, Sombra says members of his expedition touched the bones and received visions. He describes his own as a temple associated with the Ahua. He also recalls nearby viscous pools, watery guardians and geodes brought back by the company.</p><h2>What remains uncertain</h2><p>Sombra recalls that some thought the creature might have been a dragon turtle. Its species is not established here. Nor does the conversation confirm how the stones, pools and visions relate, or locate the temple he describes. Sahira’s questions are later research, rather than proof she attended that expedition.</p><p><a href=\"#world-map\">Find the labelled landmark on the map →</a></p>",
+      "body": "<h2>A landmark in the sands</h2><p>The map labels this site Large Skeleton at the eastern end of the desert route. Sombra later describes approaching what first looked like a distant white pillar and finding the bones of a huge creature.</p><h2>Sombra’s account</h2><p>Speaking with Sahira, Sombra says members of his expedition touched the bones and received visions. He describes his own as a temple associated with the Ahua. He also recalls nearby viscous pools, watery guardians and geodes brought back by the company.</p><h2>What remains uncertain</h2><p>Sombra recalls that some thought the creature might have been a dragon turtle. Its species is not established here. Nor does the conversation confirm how the stones, pools and visions relate, or locate the temple he describes. Sahira’s questions are later research, rather than proof she attended that expedition.</p><p><a href=\"#world-map\">Find the labelled landmark on the map →</a></p><h2>Remembered directions</h2><p>The supplied geography synthesis records Sombra’s uncertain recollection of the skeleton as roughly northwest of the Oasis. The world map’s labelled position is preserved separately; this tentative account does not move its marker or establish a surveyed bearing.</p>",
       "sources": [
         "Gedankin.png — world map supplied by the user.",
-        "gedankin-the-seven-sands.md — 2026-04-02 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-seven-sands.md — 2026-04-02 (UTC posting dates; in-world dates unestablished).",
+        "GEDANKIN_LOCATION_MASTER.md — supplied qualitative geography synthesis; reported routes and unresolved positions."
       ],
       "relatedRecords": [
         "sombra-estrellar",
@@ -2252,7 +2257,9 @@ window.GedankinData = {
       ],
       "aliases": [
         "Colossal bones",
-        "Great bones"
+        "Great bones",
+        "Great Skeleton",
+        "White Pillar"
       ]
     },
     {
@@ -2552,7 +2559,8 @@ window.GedankinData = {
         "Role": "Frontier approach"
       },
       "sources": [
-        "GEDANKIN_LOCATION_ARCHITECTURE.md; The_Mountain_Cliff_Route.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+        "GEDANKIN_LOCATION_ARCHITECTURE.md; The_Mountain_Cliff_Route.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates.",
+        "GEDANKIN_LOCATION_MASTER.md — supplied qualitative geography synthesis; reported routes and unresolved positions."
       ],
       "relatedRecords": [
         "albayt-alkabir",
@@ -2562,7 +2570,7 @@ window.GedankinData = {
         "katya",
         "espera"
       ],
-      "body": "<h2>Overview</h2><p>A sheer cliff beyond the desert forms part of the journey toward Bigrock Purple Mountain.</p><h2>Climbing and descent</h2><p>Zrurg leads Yaotl and Katya from dunes to rock, where narrow handholds and footholds offer a difficult climb. Narrator scenes later describe anchored pitons and the pair descending before Bigrock comes into view.</p><h2>Routes learned by returning</h2><p>Later travellers return past Albayt Alkabir to a cliff approach. These scenes establish journeys and landmarks, while leaving the full extent of the mountain terrain unmapped.</p>",
+      "body": "<h2>Overview</h2><p>A sheer cliff beyond the desert forms part of the journey toward Bigrock Purple Mountain.</p><h2>Climbing and descent</h2><p>Zrurg leads Yaotl and Katya from dunes to rock, where narrow handholds and footholds offer a difficult climb. Narrator scenes later describe anchored pitons and the pair descending before Bigrock comes into view.</p><h2>Routes learned by returning</h2><p>Later travellers return past Albayt Alkabir to a cliff approach. These scenes establish journeys and landmarks, while leaving the full extent of the mountain terrain unmapped.</p><h2>A route, not a single corridor</h2><p>The supplied geography synthesis places Bigrock far into the mountains and describes Zrurg’s approach as not requiring a close passage by Albayt Alkabir. Later journeys past the ruin therefore do not establish that every mountain expedition follows the same route.</p>",
       "aliases": []
     },
     {
@@ -4684,26 +4692,30 @@ window.GedankinData = {
       "title": "Geography of Gedankin",
       "type": "Places and journeys",
       "category": "Guide",
-      "summary": "Gedankin first appears as an unfamiliar Shore and an expanse of dunes. Journeys gradually reveal a refuge, ancient ruins, a city and distant mountain communities. This guide connects the places encountered in the chronicle without assigning new distances or borders.",
-      "dek": "Gedankin first appears as an unfamiliar Shore and an expanse of dunes. Journeys gradually reveal a refuge, ancient ruins, a city and distant mountain communities. This guide connects the places encountered in the chronicle without assigning new distances or borders.",
+      "summary": "Follow Gedankin from the arrival Shore to the Oasis, desert mysteries, mountain homelands and Khars Madar, with reported routes and prophetic leads kept distinct from surveyed geography.",
+      "dek": "Follow Gedankin from the arrival Shore to the Oasis, desert mysteries, mountain homelands and Khars Madar, with reported routes and prophetic leads kept distinct from surveyed geography.",
       "tags": [
         "Gedankin",
         "Geography of Gedankin",
         "Places and journeys"
       ],
       "facts": {
-        "World": "Gedankin"
+        "World": "Gedankin",
+        "Geography": "Relative routes; precise distances and coordinates remain incomplete",
+        "Uncharted areas": "Unknown, rather than confirmed empty"
       },
       "sources": [
         "GEDANKIN_LOCATION_ARCHITECTURE.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates.",
-        "gedankin-the-seven-sands.md — 2024-09-25 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-seven-sands.md — 2024-09-25 (UTC posting dates; in-world dates unestablished).",
+        "GEDANKIN_LOCATION_MASTER.md — supplied geography synthesis; qualitative directions and stages of discovery, not a coordinate survey.",
+        "INDEX.md — supplied location dossier inventory; linked dossier contents are not evidence supplied by this index."
       ],
       "relatedRecords": [
         "world-map",
         "khars-madar",
         "bigrock-purple-mountain"
       ],
-      "body": "<h2>A shore, a refuge, a wider world</h2><p>Gedankin first appears as an unfamiliar Shore and an expanse of dunes. Journeys gradually reveal a refuge, ancient ruins, a city and distant mountain communities. This guide connects the places encountered in the chronicle without assigning new distances or borders.</p><h2>The arrival corridor</h2><p>The Shore opens onto a waterless Void Sea. Inland, Atrax’s palm markers offer a route toward the Oasis. Beyond the refuge, expeditions visit Albayt Alkabir before probing farther into the desert and mountain approaches. This is a reading route through explored geography, not a claim that every arrival follows the same journey.</p><h2>Khars Madar: a city with four sides</h2><p>Khars Madar is organised around its ziggurat. Nazif, Adijit and Tayyeb hold three political sides; the Free Quarter forms the fourth. Peddler’s Passage, Chayma’s hostel and the Arena reveal trade, shelter and spectacle alongside the Houses’ rivalries.</p><h2>The distant frontier</h2><p>Zrurg calls Bigrock Purple Mountain the sacred home of the Blue Scales and asks for help against its oppressor. The cliff journeys make this a destination reached through danger, while later liberation scenes leave the wider struggle unfinished.</p><h2>The Seven Sands</h2><p>The Seven Sands covers most of Gedankin’s island beyond the Shore. Merchants and caravans connect refuges and settlements across this interior, but the full extent of its inhabited places remains uncharted. References to a traveller’s previous home remain distinct from places shown in Gedankin.</p><h2>Follow the arrival route</h2><p><a href=\"#strange-shore\">The Shore</a> · <a href=\"#shore-oasis-marker-trail\">Shore–Oasis Marker Trail</a> · <a href=\"#oasis\">The Oasis</a> · <a href=\"#albayt-alkabir\">Albayt Alkabir</a></p><h2>Explore the city</h2><p><a href=\"#khars-madar-ziggurat\">Khars Madar Ziggurat</a> · <a href=\"#free-quarter\">The Free Quarter</a> · <a href=\"#peddlers-passage\">Peddler’s Passage</a> · <a href=\"#nazif-quarter\">House Nazif Quarter</a> · <a href=\"#adijit-quarter\">House Adijit Quarter</a> · <a href=\"#tayyeb-quarter\">House Tayyeb Quarter</a></p><h2>Beyond the first settlements</h2><p><a href=\"#mountain-cliff-route\">The Mountain and Cliff Route</a> · <a href=\"#bigrock-purple-mountain\">Bigrock Purple Mountain</a> · <a href=\"#seven-sands\">The Seven Sands</a></p>",
+      "body": "<h2>A world learned through journeys</h2><p>Gedankin first appears as a strange Shore and an expanse of dunes. Shelter, expeditions and encounters gradually reveal a much wider inhabited world. The stages below follow that expanding knowledge; they are not a prescribed itinerary or an exact calendar of every expedition.</p><h2>1 · Arrival at the Shore</h2><p><a href=\"#strange-shore\">The Shore</a> meets the waterless <a href=\"#void-sea\">Void Sea</a>. Dunes lead inland. The first arrivals’ impression of emptiness describes what they can see, rather than proving that the world has no other inhabitants.</p><h2>2 · Making survival repeatable</h2><p>The <a href=\"#shore-oasis-marker-trail\">marker trail</a> helps newcomers reach <a href=\"#oasis\">the Oasis</a>, where water, shelter, food and shared knowledge make survival more reliable. The <a href=\"#meteorite-camp\">meteorite camp</a> belongs to the early struggle for refuge and the investigation of local anomalies.</p><h2>3 · A mystery that persists</h2><p><a href=\"#albayt-alkabir\">Albayt Alkabir</a> lies beyond the Oasis in the broad direction of the mountains. Reports of changing rooms, returning occupants and burial beneath sand leave an unfinished problem across repeated visits. It is not a ruin the company simply clears and leaves behind.</p><h2>4 · Pools, bones and visions</h2><p>Exploration expands toward pools described as living water and the <a href=\"#large-skeleton\">Great Skeleton</a>, first appearing to Sombra as a distant white pillar. His account connects bones, geodes, guardians and visions within an expedition’s recollection. A temple seen in a vision does not acquire a confirmed physical position through that testimony alone.</p><h2>5 · A mountain homeland</h2><p>The <a href=\"#mountain-cliff-route\">mountain and cliff frontier</a> leads toward <a href=\"#bigrock-purple-mountain\">Bigrock Purple Mountain</a>, the home Zrurg asks the company to help free. These are inhabited lands, rather than empty terrain waiting for newcomers. The supplied geography account describes Zrurg’s route as not requiring a close passage by Albayt; different recorded journeys need not use one identical approach.</p><h2>6 · Khars Madar and its Houses</h2><p>Later travellers reach <a href=\"#khars-madar\">Khars Madar</a> after multi-day desert journeys. The gates and dinar introduce a political city whose streets rise around a <a href=\"#khars-madar-ziggurat\">ziggurat</a>. The <a href=\"#free-quarter\">Free Quarter</a>, <a href=\"#peddlers-passage\">Peddler’s Passage</a> and <a href=\"#chaymas-hostel\">Mirage Arfaj</a> give visitors places to trade and stay. The quarters of <a href=\"#nazif-quarter\">Nazif</a>, <a href=\"#adijit-quarter\">Adijit</a> and <a href=\"#tayyeb-quarter\">Tayyeb</a>, together with the <a href=\"#adijit-arena\">Arena</a>, reveal the city’s competing powers.</p><h2>7 · Beyond the city</h2><p>The <a href=\"#seven-sands\">Seven Sands</a> covers most of Gedankin’s island. Khars Madar is a staging point for further journeys, including a route toward Khydiir. Ansar and Alifa are named regional leads whose placement remains unconfirmed. These names broaden the known world without supplying a complete network of roads, settlements or distances.</p><h2>8 · Prophetic geography</h2><p>A southwestern cave, dark spire, possible temple and rot appear in the supplied geography synthesis as prophetic leads. Their direction belongs to dreams, visions and partial instructions, rather than a verified survey. They remain leads here, without new pins or a claim that the cave, spire and temple are one established site.</p><h2>Reading directions with care</h2><p>The Oasis is inland across dunes; early travel takes hours, but shifting sand and individual journeys prevent a single reliable travel time. Mountains and cliffs offer more stable reference points than the dunes. Sombra tentatively recalls the Great Skeleton as roughly northwest of the Oasis. His uncertain recollection remains distinct from the labelled position shown on the supplied world map; neither is silently used to correct the other.</p><h2>A survivor’s map</h2><p>Atrax’s 2026 map represents knowledge gathered by survivors: places reached, remembered routes, landmarks left visible after storms and reports the community can compare. It is not an omniscient survey. Blank areas remain unknown, and a direction mentioned in a vision remains different from a place travellers have reached.</p><p><a href=\"#world-map\">Explore the supplied world map →</a> · <a href=\"#location-directory\">Browse the location directory →</a> · <a href=\"#living-timeline\">Follow the chronicle →</a></p>",
       "aliases": []
     }
   ],

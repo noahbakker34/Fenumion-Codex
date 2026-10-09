@@ -50,7 +50,10 @@ window.GedankinData = {
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2026-06-01–2026-09-13 (UTC posting dates; in-world dates unestablished)."
       ],
-      "body": "<p>Vaerik is defined less by speeches than by forward motion. He wastes little movement, uses subtle magic, and looks for the killing stroke. The same precision governs his ethics: once he believes a burden can be carried, the fact that it will hurt him is not a reason to refuse it.</p>\n      <h2 id=\"if-i-can\">“If I can, then I must”</h2>\n      <p>His duty is genuinely other-directed. He will burn himself to keep other people alive. The danger is that willingness to suffer can become a private grant of moral permission—first to destroy himself, then potentially to decide what costs a mission requires from everyone else.</p>\n      <h2 id=\"heih\">Heih and the names</h2>\n      <p>Heih dies; Vaerik continues the mission, solves the immediate problem, carries the body, and later cuts the name into his arm. The act matters because his transformation has already taken other names from him. Memory becomes something he has to inscribe physically so relentless continuation cannot erase it.</p>\n      <h2 id=\"old-soldier\">An old soldier’s grammar</h2>\n      <p>Fire, lost names, Second Wind, controlled violence, and the refusal to stop all point toward one wound: if there is anything left in him, he believes he must find it and spend it. Vaerik’s future test is not whether he can endure. It is whether he can accept that ability does not always create obligation.</p><h2 id=\"vaerik-personality\">Personality and duty</h2><p>Vaerik is an old soldier who expresses duty through the conviction that if he can carry a burden, he must. That principle makes him reliable and dangerous to himself: service can become self-erasure when capacity is treated as proof that rest or help is undeserved.</p><h2 id=\"vaerik-achievements\">Service through experience</h2><p>He brings precision, experience, and controlled violence to the companies he joins, often taking the position where a disciplined fighter can keep confusion from becoming catastrophe. His lasting achievement is the standard his conduct sets—competence placed in service of other people rather than personal legend.</p><h2 id=\"vaerik-relationships\">Entrusted danger</h2><p>Vaerik’s bonds form through entrusted danger: companions rely on him to do what he says and to remain when the work becomes costly. The quest record names Aurora, Fife and Heih among those he protects on the caravan journey. He carries an exhausted Aurora, retrieves Heih’s body after the ambush, and continues to Khars Madar. Later, he explores the Tayyeb passages with Xuan, Vespere and Eudora; Vespere cheers him in the arena.</p><h2>The caravan and the arena</h2><p>In the caravan ambush, Vaerik kills a staff-bearing mage and breaks the staff. The attackers become uncontrolled, but the battle still costs Heih and four caravan guards their lives. Vaerik carries Heih onward. In House Adijit’s arena, he later defeats two enormous apes with disciplined shield work and a burning blade, emerging visibly worn. Chayma reports that her winning wager has been refused; his promise to intervene is not a completed recovery.</p><h2>Before the caravan</h2><p>At the Shore, Vaerik accepts Atrax’s offer of a route to the Oasis, while saying he cannot quite remember where he came from. Their conversation is blunt: he dislikes formalities, finds little comfort in the camp’s meagre supplies, but takes an interest in the fighting Atrax describes. The encounter gives his later service a difficult beginning, without resolving his missing memories or proving why he was brought here.</p><h2>The mirage and the crypt</h2><p>Before the caravan journey, Vaerik escapes a quicksand pit and uses a rope and javelin to pull Fife free, then hauls Vespere to safety. At Salim’s ruins he accepts Heih’s advice to back away from the burrowing creatures. Below the house he opens sarcophagi and takes a ring and bottle; the tombs’ defenders rise. He warns that the explosions could collapse the tunnel and escapes before it seals.</p><h2>The cost of a bargain</h2><p>Salim later gives him a dinar. Vaerik declines a helmet after testing the merchant’s price. His journey earns a reward without becoming a complete clearance of the ruins.</p><h2>A tent for Ossi</h2><p>Vaerik helps untangle Ossi’s rope and drives a tent stake with his sword’s pommel. Ossi says he wants freedom and no longer wants to hurt people. Vaerik offers training to protect that freedom, then lends his hut while offering to finish the tent. Ossi accepts the lodging; a training programme is not shown.</p><h2>Questioning a guardian</h2><p>He challenges Victor Ashstone’s claim to decide who should remain dead, suggesting that such authority makes him divine. Victor denies being a god. The exchange records disagreement rather than a settled account of Victor’s powers.</p>"
+      "body": "<p>Vaerik is defined less by speeches than by forward motion. He wastes little movement, uses subtle magic, and looks for the killing stroke. The same precision governs his ethics: once he believes a burden can be carried, the fact that it will hurt him is not a reason to refuse it.</p>\n      <h2 id=\"if-i-can\">“If I can, then I must”</h2>\n      <p>His duty is genuinely other-directed. He will burn himself to keep other people alive. The danger is that willingness to suffer can become a private grant of moral permission—first to destroy himself, then potentially to decide what costs a mission requires from everyone else.</p>\n      <h2 id=\"heih\">Heih and the names</h2>\n      <p>Heih dies; Vaerik continues the mission, solves the immediate problem, carries the body, and later cuts the name into his arm. The act matters because his transformation has already taken other names from him. Memory becomes something he has to inscribe physically so relentless continuation cannot erase it.</p>\n      <h2 id=\"old-soldier\">An old soldier’s grammar</h2>\n      <p>Fire, lost names, Second Wind, controlled violence, and the refusal to stop all point toward one wound: if there is anything left in him, he believes he must find it and spend it. Vaerik’s future test is not whether he can endure. It is whether he can accept that ability does not always create obligation.</p><h2 id=\"vaerik-personality\">Personality and duty</h2><p>Vaerik is an old soldier who expresses duty through the conviction that if he can carry a burden, he must. That principle makes him reliable and dangerous to himself: service can become self-erasure when capacity is treated as proof that rest or help is undeserved.</p><h2 id=\"vaerik-achievements\">Service through experience</h2><p>He brings precision, experience, and controlled violence to the companies he joins, often taking the position where a disciplined fighter can keep confusion from becoming catastrophe. His lasting achievement is the standard his conduct sets—competence placed in service of other people rather than personal legend.</p><h2 id=\"vaerik-relationships\">Entrusted danger</h2><p>Vaerik’s bonds form through entrusted danger: companions rely on him to do what he says and to remain when the work becomes costly. The quest record names Aurora, Fife and Heih among those he protects on the caravan journey. He carries an exhausted Aurora, retrieves Heih’s body after the ambush, and continues to Khars Madar. Later, he explores the Tayyeb passages with Xuan, Vespere and Eudora; Vespere cheers him in the arena.</p><h2>The caravan and the arena</h2><p>In the caravan ambush, Vaerik kills a staff-bearing mage and breaks the staff. The attackers become uncontrolled, but the battle still costs Heih and four caravan guards their lives. Vaerik carries Heih onward. In House Adijit’s arena, he later defeats two enormous apes with disciplined shield work and a burning blade, emerging visibly worn. Chayma reports that her winning wager has been refused; his promise to intervene is not a completed recovery.</p><h2>Before the caravan</h2><p>At the Shore, Vaerik accepts Atrax’s offer of a route to the Oasis, while saying he cannot quite remember where he came from. Their conversation is blunt: he dislikes formalities, finds little comfort in the camp’s meagre supplies, but takes an interest in the fighting Atrax describes. The encounter gives his later service a difficult beginning, without resolving his missing memories or proving why he was brought here.</p><h2>The mirage and the crypt</h2><p>Before the caravan journey, Vaerik escapes a quicksand pit and uses a rope and javelin to pull Fife free, then hauls Vespere to safety. At Salim’s ruins he accepts Heih’s advice to back away from the burrowing creatures. Below the house he opens sarcophagi and takes a ring and bottle; the tombs’ defenders rise. He warns that the explosions could collapse the tunnel and escapes before it seals.</p><h2>The cost of a bargain</h2><p>Salim later gives him a dinar. Vaerik declines a helmet after testing the merchant’s price. His journey earns a reward without becoming a complete clearance of the ruins.</p><h2>A tent for Ossi</h2><p>Vaerik helps untangle Ossi’s rope and drives a tent stake with his sword’s pommel. Ossi says he wants freedom and no longer wants to hurt people. Vaerik offers training to protect that freedom, then lends his hut while offering to finish the tent. Ossi accepts the lodging; a training programme is not shown.</p><h2>Questioning a guardian</h2><p>He challenges Victor Ashstone’s claim to decide who should remain dead, suggesting that such authority makes him divine. Victor denies being a god. The exchange records disagreement rather than a settled account of Victor’s powers.</p>",
+      "relatedRecords": [
+        "chaymas-hostel"
+      ]
     },
     {
       "id": "cala",
@@ -124,17 +127,21 @@ window.GedankinData = {
         "Self-description": "Nephalim of the Celestial realms",
         "Community work": "Shelter, supplies and waymarkers"
       },
-      "body": "<h2>A title without an answer</h2><p>Irenhour introduces himself as a Nephalim of the Celestial realms, then admits he cannot name the place around him. He says he is lost and shamed by it. His claimed celestial standing supplies neither a reliable map nor certainty about what has happened.</p><h2>Lost among the stars</h2><p>Irenhour cannot identify the strange shore with certainty. His suggestions about its nature remain interpretations, rather than an established name for this world.</p><h2>The need for a refuge</h2><p>After the desert’s dangers, Irenhour presses the practical need for rest and shelter. He joins the company that receives Cala’s invitation to the Oasis and later explores Albayt Alkabir.</p><h2>Making a shelter</h2><p>Irenhour and Atrax start a shared longhouse. They discuss preserving the denser palms for shade and work with isolated trees, drying and preparing the wood with elemental magic. Both admit their lack of building experience. Manacles and caltrops are suggested as sources of nails; the discussion does not prove those nails were made.</p><h2>Hospitality and supplies</h2><p>After helping escort Khemset to camp, Irenhour later bargains with Salim for a lantern and asks about goats, spices and wood. He also shares water, berries and tea with the merchant. The purchased lantern is separate from the lost lantern in Khemset’s account.</p>",
+      "body": "<h2>A title without an answer</h2><p>Irenhour introduces himself as a Nephalim of the Celestial realms, then admits he cannot name the place around him. He says he is lost and shamed by it. His claimed celestial standing supplies neither a reliable map nor certainty about what has happened.</p><h2>Lost among the stars</h2><p>Irenhour cannot identify the strange shore with certainty. His suggestions about its nature remain interpretations, rather than an established name for this world.</p><h2>The need for a refuge</h2><p>After the desert’s dangers, Irenhour presses the practical need for rest and shelter. He joins the company that receives Cala’s invitation to the Oasis and later explores Albayt Alkabir.</p><h2>Making a shelter</h2><p>Irenhour and Atrax start a shared longhouse. They discuss preserving the denser palms for shade and work with isolated trees, drying and preparing the wood with elemental magic. Both admit their lack of building experience. Manacles and caltrops are suggested as sources of nails; the discussion does not prove those nails were made.</p><h2>Hospitality and supplies</h2><p>After helping escort Khemset to camp, Irenhour later bargains with Salim for a lantern and asks about goats, spices and wood. He also shares water, berries and tea with the merchant. The purchased lantern is separate from the lost lantern in Khemset’s account.</p><h2>Exile, in his own account</h2><p>Irenhour tells Atrax and Rhalor that he is the child of Leira and Garyx and was exiled as a forbidden union of divine and draconic power. This is the parentage and banishment he claims, rather than an independently established explanation for Gedankin. Meeting other arrivals leaves him less certain why he is here.</p><h2>Power that needs direction</h2><p>He describes his own impulses as dangerous and argues that destruction becomes power only when directed. His demand that the group stop fighting can turn coercive: he tells Rhalor he considered controlling his mind. Atrax’s emphasis on choice offers a different answer to their need for cooperation.</p><h2>An investigator under pressure</h2><p>At the meteorite, Irenhour searches markings and asks Rhalor to sift the purple dust. He wants knowledge to produce food or shelter, not merely satisfy curiosity. His interpretation of infernal signs and the stone’s living contents remains his testimony.</p>",
       "sources": [
         "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-oasis.md — 2024-10-06–2024-11-02 (UTC posting dates; in-world dates unestablished).",
-        "Irenhour.md — 28 September 2024 — reviewed embedded arrival scene (UTC posting dates)."
+        "Irenhour.md — 28 September 2024 — reviewed embedded arrival scene (UTC posting dates).",
+        "gedankin-the-seven-sands.md — 2024-09-29–2024-09-30 (UTC posting dates; in-world dates unestablished)."
       ],
       "relatedRecords": [
         "atrax",
         "kara-vash",
         "oasis",
-        "shore-oasis-marker-trail"
+        "shore-oasis-marker-trail",
+        "rhalor",
+        "meteorite-camp",
+        "seven-sands"
       ]
     },
     {
@@ -157,15 +164,22 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Among the arrivals</h2><p>Atrax awakens beside the other strangers and admits he does not recognise their surroundings. His stated rank belongs to his introduction; the record does not establish a Gedankin branch of that organisation.</p><h2>The recovered light</h2><p>At Albayt Alkabir, Atrax helps recognise the lantern’s request and welcomes Luxcit into the company.</p><h2>The work of welcome</h2><p>Atrax repeatedly walks from the Oasis to the Shore to meet newcomers. With the early traveller Aurora, he describes placing palm-trunk markers on every third dune. They discuss their vulnerability to wind and a possible living path of native plants; no completed permanent route is shown.</p><h2>Patience with limits</h2><p>His welcomes are practical rather than effortless. Bramble’s remarks about his heritage anger him, but he continues after her apology and accepts the flower she offers. With Ossi he stays back, keeps his hands away from his weapon and offers water without barter. With Vaerik he drops formal speech and gives a blunt account of the camp’s hardships.</p><h2>One foot in front of the other</h2><p>He describes endurance as finding any small task that improves their situation. The partially built longhouse and his repeated patrols give that belief a daily form. His reports about Cala, absent explorers and the impossibility of returning home remain his knowledge at the time, rather than universal guarantees.</p><h2>The first longhouse</h2><p>Atrax argues for shelter before more ambitious works and helps Irenhour prepare palms for a common longhouse. He admits his inexperience and offers iron manacles as possible material for nails. In their conversation he says he is good at violence but has no love for it.</p><h2>Bringing Khemset back</h2><p>At the Albayt he helps defuse Irenhour’s confrontation with the injured Khemset, then offers his shoulder for the walk to the Oasis. Her testimony supplies news of the earlier failed expedition.</p>",
+      "body": "<h2>Among the arrivals</h2><p>Atrax awakens beside the other strangers and admits he does not recognise their surroundings. His stated rank belongs to his introduction; the record does not establish a Gedankin branch of that organisation.</p><h2>The recovered light</h2><p>At Albayt Alkabir, Atrax helps recognise the lantern’s request and welcomes Luxcit into the company.</p><h2>The work of welcome</h2><p>Atrax repeatedly walks from the Oasis to the Shore to meet newcomers. With the early traveller Aurora, he describes placing palm-trunk markers on every third dune. They discuss their vulnerability to wind and a possible living path of native plants; no completed permanent route is shown.</p><h2>Patience with limits</h2><p>His welcomes are practical rather than effortless. Bramble’s remarks about his heritage anger him, but he continues after her apology and accepts the flower she offers. With Ossi he stays back, keeps his hands away from his weapon and offers water without barter. With Vaerik he drops formal speech and gives a blunt account of the camp’s hardships.</p><h2>One foot in front of the other</h2><p>He describes endurance as finding any small task that improves their situation. The partially built longhouse and his repeated patrols give that belief a daily form. His reports about Cala, absent explorers and the impossibility of returning home remain his knowledge at the time, rather than universal guarantees.</p><h2>The first longhouse</h2><p>Atrax argues for shelter before more ambitious works and helps Irenhour prepare palms for a common longhouse. He admits his inexperience and offers iron manacles as possible material for nails. In their conversation he says he is good at violence but has no love for it.</p><h2>Bringing Khemset back</h2><p>At the Albayt he helps defuse Irenhour’s confrontation with the injured Khemset, then offers his shoulder for the walk to the Oasis. Her testimony supplies news of the earlier failed expedition.</p><h2>The family bargain</h2><p>At the meteorite camp, Atrax says an ancestor’s bargain with a lord of hell left his descendants bearing its consequences. He denies serving that lord and admits he had not fully considered what reversing the transformation would mean after decades of living with it. His resilience against fire has helped him survive sieges.</p><h2>Separated from the retinue</h2><p>Atrax recalls serving in Grand Duke Ulder Ravenguard’s retinue when Elturel was cast into Avernus. He says he became separated from his company while seeking a way out and then woke on the sand. This is his history before Gedankin, not a war or city relocated into the Seven Sands.</p><h2>Discipline and choice</h2><p>When Irenhour presses the case for hard discipline, Atrax describes the Flaming Fist’s training but distinguishes it from their predicament: recruits choose to enlist, whereas the stranded travellers did not choose Gedankin. He fears that becoming harsh toward one another could be as dangerous as the desert.</p><h2>A probe beneath the dunes</h2><p>With the early Aurora, Atrax uses two spears bound together by shaped sand to probe for the buried Albayt Alkabir. The improvised drill meets resistance, but the pair do not uncover an entrance. When large-scale digging is discussed, Atrax rejects using slaves.</p>",
       "sources": [
         "2024-rp.md — 28 September–25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2024-10-07–2026-05-17 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2024-10-06–2024-10-11 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-10-06–2024-10-11 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-seven-sands.md — 2024-09-29–2026-03-03 (UTC posting dates; in-world dates unestablished)."
       ],
       "relatedRecords": [
         "shore-oasis-marker-trail",
-        "jacques-rayne"
+        "jacques-rayne",
+        "irenhour",
+        "rhalor",
+        "meteorite-camp",
+        "aurora-early-shore",
+        "albayt-alkabir",
+        "seven-sands"
       ]
     },
     {
@@ -185,12 +199,19 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Light and remembrance</h2><p>Sombra attunes to <a href=\"#luxcit\">Luxcit</a> in Albayt Alkabir and brings the lantern outside. He asks how to honour its fallen Lightbringer, Harlan Rayburn.</p><h2>Lives carried home</h2><p>During the approach to <a href=\"#khars-madar\">Khars Madar</a>, Sombra helps fight the stirges, provides food and carries Saffiah’s body after the company saves Chayma. The two sisters reach the city together, though only Chayma survives.</p><h2>Return to the mountain</h2><p>In the September rescue expedition, Sombra takes a giant owl’s form to ferry companions onto the glacier. The company later frees four chained kobolds and reaches Icyscale Roost.</p><h2>Food beneath the stars</h2><p>Sombra shares magical fruit with Eudora and Rhalor while they talk about the unfamiliar refuge. Later he offers fruit to the wounded Khemset and Aurora. His hospitality gives the camp a welcome even when it cannot provide answers or a cure.</p><h2>A guide through the mirage</h2><p>Sombra helps the company regain the route after its quicksand escape. His summoned fairy, Flayfair, scouts ahead at the ruins and later stays behind as the company flees the collapsing crypt. He thanks the brave spirit when she is no longer visible. The account does not establish her permanent destruction.</p><h2>Water for the journey</h2><p>Salim gives him a dinar after the expedition. Sombra asks the merchant to look for a vessel that can provide endless water, explaining the need in their desert journeys. The request is not a confirmed delivery.</p>",
+      "body": "<h2>Light and remembrance</h2><p>Sombra attunes to <a href=\"#luxcit\">Luxcit</a> in Albayt Alkabir and brings the lantern outside. He asks how to honour its fallen Lightbringer, Harlan Rayburn.</p><h2>Lives carried home</h2><p>During the approach to <a href=\"#khars-madar\">Khars Madar</a>, Sombra helps fight the stirges, provides food and carries Saffiah’s body after the company saves Chayma. The two sisters reach the city together, though only Chayma survives.</p><h2>Return to the mountain</h2><p>In the September rescue expedition, Sombra takes a giant owl’s form to ferry companions onto the glacier. The company later frees four chained kobolds and reaches Icyscale Roost.</p><h2>Food beneath the stars</h2><p>Sombra shares magical fruit with Eudora and Rhalor while they talk about the unfamiliar refuge. Later he offers fruit to the wounded Khemset and Aurora. His hospitality gives the camp a welcome even when it cannot provide answers or a cure.</p><h2>A guide through the mirage</h2><p>Sombra helps the company regain the route after its quicksand escape. His summoned fairy, Flayfair, scouts ahead at the ruins and later stays behind as the company flees the collapsing crypt. He thanks the brave spirit when she is no longer visible. The account does not establish her permanent destruction.</p><h2>Water for the journey</h2><p>Salim gives him a dinar after the expedition. Sombra asks the merchant to look for a vessel that can provide endless water, explaining the need in their desert journeys. The request is not a confirmed delivery.</p><h2>Food, walls and future fields</h2><p>On a walk with Sahira, Sombra offers starfruit and recalls helping make early walls and a lean-to. They discuss irrigation, earth-moving magic and more varied food. His ability to feed travellers is shown; proposed farming and new settlement works are not completed in the conversation.</p><h2>Stars that do not guide him home</h2><p>Sombra says his star map cannot navigate this place and that the stars tell seasons instead. He turns to mountains, the Shore, colossal bones and small markers as possible aids. This is his account of the sky and his tools, not a demonstrated rule for every navigator.</p><h2>The visions he shares</h2><p>He tells Sahira that touching the great bones gave the expedition visions, and describes his own as a temple associated with the Ahua. He reports pools guarded by watery creatures, geodes and butterfly-like effects. These are remembered encounters; his temple’s location and the stones’ full workings remain unresolved.</p>",
       "sources": [
         "2024-rp.md — 25 October 2024; 16 April and 24 September 2026; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-oasis.md — 2024-10-05–2024-10-11 (UTC posting dates; in-world dates unestablished).",
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2026-06-01 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-06-01 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-seven-sands.md — 2026-04-01–2026-04-02 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "sahira-al-azar",
+        "large-skeleton",
+        "seven-sands",
+        "oasis"
       ]
     },
     {
@@ -235,13 +256,14 @@ window.GedankinData = {
         "Appearance": "A stitched doll, about two feet tall",
         "Work": "Healing and surgical care"
       },
-      "body": "<h2>The doll on the Shore</h2><p>Vespere’s earliest scene presents a motionless doll on the sand, with cloth and stitched skin gathering grains as she begins to move. She asks a stranger to play and protests when threatened with being pushed. Her desire for company sits beside the unsettling precision of her movements.</p><h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p><h2>Guiding Manzur</h2><p>At the Shore, Vespere startles the newly arrived Manzur, offers to check his injuries and brings out her surgical tools. He insists he is unharmed and declines treatment. She puts the saw away, then guides him to the Oasis, where he thanks her. Her claim that Cala called the arrivals is her explanation; Cala’s own earlier denial of summoning the company remains in the record.</p><h2>From the sand to the shop</h2><p>Vaerik pulls Vespere free when quicksand rises around her. At the ruins she examines burned bodies and prepares protective magic for willing companions; all escape the collapsing crypt. On return she buys Salim’s Bag of Holding.</p><h2>News carried between companions</h2><p>Vespere explains the city’s houses and entry coin to Aurora Luminaria, and later tells Myllo that Heih died. These moments place her beside the newcomers and the absent as well as on expeditions.</p>",
+      "body": "<h2>The doll on the Shore</h2><p>Vespere’s earliest scene presents a motionless doll on the sand, with cloth and stitched skin gathering grains as she begins to move. She asks a stranger to play and protests when threatened with being pushed. Her desire for company sits beside the unsettling precision of her movements.</p><h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p><h2>Guiding Manzur</h2><p>At the Shore, Vespere startles the newly arrived Manzur, offers to check his injuries and brings out her surgical tools. He insists he is unharmed and declines treatment. She puts the saw away, then guides him to the Oasis, where he thanks her. Her claim that Cala called the arrivals is her explanation; Cala’s own earlier denial of summoning the company remains in the record.</p><h2>From the sand to the shop</h2><p>Vaerik pulls Vespere free when quicksand rises around her. At the ruins she examines burned bodies and prepares protective magic for willing companions; all escape the collapsing crypt. On return she buys Salim’s Bag of Holding.</p><h2>News carried between companions</h2><p>Vespere explains the city’s houses and entry coin to Aurora Luminaria, and later tells Myllo that Heih died. These moments place her beside the newcomers and the absent as well as on expeditions.</p><h2>An automatic response</h2><p>At the Mirage Arfaj, Aurora Luminaria urges Vespere to change the way she speaks. When the doll tries saying “Blood,” her head turns and a recorded surgical response takes over; she struggles before dropping the knife. This visible reaction gives her avoidance of the word a concrete context. Aurora’s guesses about trauma remain her interpretations.</p><h2>Repairing a dress, hearing of a loss</h2><p>Xuan brings Vespere a damaged dress and insists on discreet repairs. Vespere stitches it while telling her that Heih died. Although she passes on the news, Vespere says she was not present at that fight. Xuan examines the finished dress, thanks her and wears it again.</p><h2>Registered to herself</h2><p>Xuan rejects Vespere’s belief that being a doll makes her an object that can simply be sold. When Chayma’s name is removed from her neck, Vespere demands a new owner and briefly reboots. Xuan writes “Vespere” in its place. The doll registers herself, points to herself and thanks Xuan with her cloth tears. Xuan offers etiquette practice alongside this small act of freedom.</p>",
       "sources": [
         "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2026-06-01 (UTC posting dates; in-world dates unestablished).",
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2026-06-01–2026-07-09 (UTC posting dates; in-world dates unestablished).",
-        "Vespere.md — 25 March 2026 — reviewed embedded arrival scene (UTC posting dates)."
+        "Vespere.md — 25 March 2026 — reviewed embedded arrival scene (UTC posting dates).",
+        "gedankin-the-mirage-arfaj.md — 2026-06-15–2026-06-26 (UTC posting dates; in-world dates unestablished)."
       ],
       "aliases": [
         "Vespere Hollowstich"
@@ -251,7 +273,10 @@ window.GedankinData = {
         "vaerik",
         "xuan",
         "manzur",
-        "mahdi-al-bilardi"
+        "mahdi-al-bilardi",
+        "aurora",
+        "chaymas-hostel",
+        "heih"
       ]
     },
     {
@@ -324,6 +349,9 @@ window.GedankinData = {
         "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates.",
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2026-06-04–2026-07-10 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "chaymas-hostel"
       ]
     },
     {
@@ -346,12 +374,19 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>A healer on the road</h2><p>Aurora describes herself as an heir of a House of Healing, trained as an army healer and honour guard. The quest record does not supply a fuller institutional history.</p><h2>The ambush</h2><p>Vaerik carries Aurora when she is exhausted and later entrusts the caravan’s protection to her. During the attack she cannot reach every fallen companion in time. She survives and enters the city with the remaining company.</p><h2>A promise at the threshold</h2><p>Aurora Luminaria’s Shore arrival names her as heir to House Vita Imperatoris. She suspects a rival house of arranging her displacement, but the cause is not established. Ashbriar guides her while condemning the felling of the Oasis palms. Their argument becomes an offer: she promises to help find trees and restore a grove. That promise is not a completed restoration.</p><h2>Two distinct people</h2><p>The earlier Shore traveller known simply as <a href=\"#aurora-early-shore\">Aurora</a> is a separate person from Aurora Luminaria. Their shared given name does not connect their histories.</p><h2>Medicine, craft and command</h2><p>Aurora exchanges information with Sahira al-Azar, an artificer seeking workshop space. She describes healing as part of her house’s approach to military leadership. Their reports of dungeon success reflect their knowledge at that encounter, rather than an independently established record of who first reached each level.</p><h2>The argument over the tombs</h2><p>She tells Manzur of fighting a mummy and other undead after a magical puzzle was solved. He asks whether the group disturbed a seal that was doing its work. She defends acting before the evil could escape and says the dead can now rest. Their argument ends without agreement, and it does not identify the map’s Mausoleum with a particular expedition site.</p>",
+      "body": "<h2>A healer on the road</h2><p>Aurora describes herself as an heir of a House of Healing, trained as an army healer and honour guard. The quest record does not supply a fuller institutional history.</p><h2>The ambush</h2><p>Vaerik carries Aurora when she is exhausted and later entrusts the caravan’s protection to her. During the attack she cannot reach every fallen companion in time. She survives and enters the city with the remaining company.</p><h2>A promise at the threshold</h2><p>Aurora Luminaria’s Shore arrival names her as heir to House Vita Imperatoris. She suspects a rival house of arranging her displacement, but the cause is not established. Ashbriar guides her while condemning the felling of the Oasis palms. Their argument becomes an offer: she promises to help find trees and restore a grove. That promise is not a completed restoration.</p><h2>Two distinct people</h2><p>The earlier Shore traveller known simply as <a href=\"#aurora-early-shore\">Aurora</a> is a separate person from Aurora Luminaria. Their shared given name does not connect their histories.</p><h2>Medicine, craft and command</h2><p>Aurora exchanges information with Sahira al-Azar, an artificer seeking workshop space. She describes healing as part of her house’s approach to military leadership. Their reports of dungeon success reflect their knowledge at that encounter, rather than an independently established record of who first reached each level.</p><h2>The argument over the tombs</h2><p>She tells Manzur of fighting a mummy and other undead after a magical puzzle was solved. He asks whether the group disturbed a seal that was doing its work. She defends acting before the evil could escape and says the dead can now rest. Their argument ends without agreement, and it does not identify the map’s Mausoleum with a particular expedition site.</p><h2>The limits of healing</h2><p>Speaking with Vespere at the Mirage Arfaj, Aurora says she can reverse death only in very specific circumstances soon after it occurs. She refuses the request to restore Saffiah and grieves that she could not save Heih. Her account of her powers does not establish that either death has been undone.</p><h2>Change and the doll</h2><p>Aurora challenges Vespere’s language and dependence on an owner. She insists that change must begin with the doll herself. When Vespere’s attempt to say “Blood” triggers an automatic surgical response, the conversation exposes a constraint that advice alone does not resolve. They part without a complete reconciliation.</p>",
       "sources": [
         "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2026-06-02 (UTC posting dates; in-world dates unestablished).",
         "World creator clarification — 8 October 2026: Aurora and Aurora Luminaria are distinct characters.",
-        "gedankin-the-oasis.md — 2026-06-03–2026-06-07 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-06-03–2026-06-07 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-mirage-arfaj.md — 2026-06-15 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "vespere",
+        "chaymas-hostel",
+        "saffiah",
+        "heih"
       ]
     },
     {
@@ -373,6 +408,9 @@ window.GedankinData = {
       "sources": [
         "2024-rp.md — 10–11 June 2026; dates refer to UTC posting dates, not established in-world dates.",
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "chaymas-hostel"
       ]
     },
     {
@@ -390,9 +428,14 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>The sisters’ return</h2><p>The company rescues Chayma from stirges and carries her sister <a href=\"#saffiah\">Saffiah</a> home. Chayma directs them to the dinars needed for entry and offers beds in gratitude.</p><h2>Rebuilding the hostel</h2><p>Her hostel initially lacks basic furnishings and supplies. Assistance from the adventurers helps provide beds, rugs and cookware; a later visit finds fresh linens, pillows and flowers.</p><h2>Pressure from the city</h2><p>Chayma is attacked during a street ambush. She also reports that House Adijit refuses to pay her winning wager after Vaerik’s arena victory, accusing her of cheating. The supplied account ends before that dispute is resolved. Her warnings about the houses reflect her experience and judgement, not proof of every accusation.</p>",
+      "body": "<h2>The sisters’ return</h2><p>The company rescues Chayma from stirges and carries her sister <a href=\"#saffiah\">Saffiah</a> home. Chayma directs them to the dinars needed for entry and offers beds in gratitude.</p><h2>Rebuilding the hostel</h2><p>Her hostel initially lacks basic furnishings and supplies. Assistance from the adventurers helps provide beds, rugs and cookware; a later visit finds fresh linens, pillows and flowers.</p><h2>Pressure from the city</h2><p>Chayma is attacked during a street ambush. She also reports that House Adijit refuses to pay her winning wager after Vaerik’s arena victory, accusing her of cheating. The supplied account ends before that dispute is resolved. Her warnings about the houses reflect her experience and judgement, not proof of every accusation.</p><h2>The Mirage Arfaj</h2><p>Chayma runs <a href=\"#chaymas-hostel\">the Mirage Arfaj</a> in the Free Quarter, where an arfaj flower marks every room. The hostel shelters the caravan survivors and becomes a place where other travellers repair clothing, exchange difficult news and debate what freedom means. Vespere calls Chayma her owner, but these scenes do not show Chayma buying or selling her.</p>",
       "sources": [
-        "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-mirage-arfaj.md — 2026-06-11–2026-06-25 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "chaymas-hostel",
+        "free-quarter"
       ]
     },
     {
@@ -453,10 +496,11 @@ window.GedankinData = {
         "Travel": "Spider limbs",
         "Affiliation in reviewed scenes": "Admitted to House Nazif"
       },
-      "body": "<h2>Poise on the sands</h2><p>Xuan’s first questions concern where she is and whether civilisation lies nearby: buildings, roads and bath houses. She moves on spider limbs rather than soil her shoes. Her later search for information in Khars Madar grows from this early attention to the unfamiliar world around her.</p><h2>The scorpion passages</h2><p>Xuan accompanies the expedition beneath the Tayyeb quarter. Faced with guards in a furnished cavern, Xuan negotiates while Vaerik threatens. A brass scorpion pin is offered as a way to make contact in Peddlers Passage.</p><h2>A different allegiance</h2><p>Xuan passes the pin to Vaerik. Possessing it is not confirmed Tayyeb membership. Xuan later reports to Ibin Ali with Vespere; both are admitted to House Nazif.</p>",
+      "body": "<h2>Poise on the sands</h2><p>Xuan’s first questions concern where she is and whether civilisation lies nearby: buildings, roads and bath houses. She moves on spider limbs rather than soil her shoes. Her later search for information in Khars Madar grows from this early attention to the unfamiliar world around her.</p><h2>The scorpion passages</h2><p>Xuan accompanies the expedition beneath the Tayyeb quarter. Faced with guards in a furnished cavern, Xuan negotiates while Vaerik threatens. A brass scorpion pin is offered as a way to make contact in Peddlers Passage.</p><h2>A different allegiance</h2><p>Xuan passes the pin to Vaerik. Possessing it is not confirmed Tayyeb membership. Xuan later reports to Ibin Ali with Vespere; both are admitted to House Nazif.</p><h2>Care in the needlework</h2><p>At the Mirage Arfaj, Xuan asks Vespere to mend a delicate dress. She is exacting about its appearance but thanks the doll and puts the repaired garment back on. During the work she learns of Heih’s death and speaks of her surprise at losing someone from the company.</p><h2>A doll’s own name</h2><p>Xuan tells Vespere that she is a living being capable of making decisions. She removes Chayma’s name from the doll’s neck, then writes Vespere’s own name when the doll’s automatic response demands an owner. She declines the chance to put herself in that role and begins teaching posture and etiquette for their intended entry into House Nazif. Their later admission is a separate event.</p>",
       "sources": [
         "2024-rp.md — 25 June–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
-        "Xuan_Jie.md — 28 October 2025 — reviewed embedded arrival scene (UTC posting dates)."
+        "Xuan_Jie.md — 28 October 2025 — reviewed embedded arrival scene (UTC posting dates).",
+        "gedankin-the-mirage-arfaj.md — 2026-06-25–2026-06-26 (UTC posting dates; in-world dates unestablished)."
       ],
       "aliases": [
         "Xuan"
@@ -465,7 +509,9 @@ window.GedankinData = {
         "vespere",
         "vaerik",
         "house-nazif",
-        "house-tayyeb"
+        "house-tayyeb",
+        "chaymas-hostel",
+        "heih"
       ]
     },
     {
@@ -698,20 +744,28 @@ window.GedankinData = {
         "Research",
         "Kara Vash",
         "Sixtus",
-        "Rhalor Valtaryn"
+        "Rhalor Valtaryn",
+        "Rhalor Voltaryn"
       ],
       "facts": {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis",
         "Full name": "Rhalor Valtaryn"
       },
-      "body": "<h2>A mind on the experiment</h2><p>Rhalor appears as a pale high elf with tattoos along his forearm. He tells Sixtus and Kara that he remembers mixing a purple compound into purified water, then seeing the Void and waking on the beach. This remains his account, rather than proof that the experiment caused the crossing.</p><h2>Finding the others again</h2><p>Kara finds him at the Shore after he has wandered away from the meteorite camp. He has missed the meeting with Cala and asks who she is. He joins Kara and Sixtus on the way toward the new Oasis camp, still talking about the equipment his research needs.</p><h2>Olive branches</h2><p>At the Oasis he introduces himself as Rhalor Valtaryn. Seeking greater understanding and mastery of himself, he conjures olive twigs for Eudora and Sombra. His offer to make peace with their situation includes a willingness to defend it by force.</p>",
+      "body": "<h2>A mind on the experiment</h2><p>Rhalor appears as a pale high elf with tattoos along his forearm. He tells Sixtus and Kara that he remembers mixing a purple compound into purified water, then seeing the Void and waking on the beach. This remains his account, rather than proof that the experiment caused the crossing.</p><h2>Finding the others again</h2><p>Kara finds him at the Shore after he has wandered away from the meteorite camp. He has missed the meeting with Cala and asks who she is. He joins Kara and Sixtus on the way toward the new Oasis camp, still talking about the equipment his research needs.</p><h2>Olive branches</h2><p>At the Oasis he introduces himself as Rhalor Valtaryn. Seeking greater understanding and mastery of himself, he conjures olive twigs for Eudora and Sombra. His offer to make peace with their situation includes a willingness to defend it by force.</p><h2>Books, rebellion and unfinished study</h2><p>Rhalor tells Irenhour that he grew up among talented relatives, discovered magic young and excelled with books. He recalls working on a final school research experiment before waking here. His possible interest in abjuration and evocation is still an intention at this point, not a completed specialisation.</p><h2>Curiosity against urgency</h2><p>Rhalor questions the decision to abandon the earlier resources and asks what actually grows from the meteorite. Irenhour presses him to make his knowledge useful for survival. Their disagreement exposes a tension between testing a hypothesis and meeting the group’s immediate needs.</p><h2>The name in the accounts</h2><p>In this conversation he calls himself Rhalor Voltaryn. Another introduction records Valtaryn. Both spellings are retained as aliases of this existing Rhalor record rather than treated as evidence of another traveller.</p>",
       "sources": [
         "gedankin-the-shore.md — 2024-10-04–2024-10-05 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2024-10-05 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-10-05 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-seven-sands.md — 2024-09-30 (UTC posting dates; in-world dates unestablished)."
       ],
       "aliases": [
-        "Rhalor Valtaryn"
+        "Rhalor Valtaryn",
+        "Rhalor Voltaryn"
+      ],
+      "relatedRecords": [
+        "irenhour",
+        "meteorite-camp",
+        "seven-sands"
       ]
     },
     {
@@ -732,14 +786,18 @@ window.GedankinData = {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis"
       },
-      "body": "<h2>A guide in need of a guide</h2><p>After a burst of celestial light, Aurora wakes on the sands and accepts <a href=\"#atrax\">Atrax’s</a> offer to lead her to water. She says she formerly worked as a guide, helping people while living close to the elements.</p><h2>A living path</h2><p>Atrax explains his palm-trunk waymarkers and the shifting dunes. Aurora proposes growing native plants along the route as a longer-term alternative. The idea is discussed, not shown as a completed path. She offers what help she can and reaches the Oasis, where Atrax points her toward Sombra for food.</p><h2>Two distinct people</h2><p>This early Shore traveller is Aurora, a separate person from <a href=\"#aurora\">Aurora Luminaria</a> of House Vita Imperatoris. Their shared given name does not connect their histories.</p><h2>Care for a survivor</h2><p>At the Oasis, Aurora supports the wounded Khemset and asks whether she needs healing. She offers help through the Way of the Elements after hearing Khemset’s fears about her failing magic. No successful treatment is shown. This is the early traveller Aurora, distinct from Aurora Luminaria.</p>",
+      "body": "<h2>A guide in need of a guide</h2><p>After a burst of celestial light, Aurora wakes on the sands and accepts <a href=\"#atrax\">Atrax’s</a> offer to lead her to water. She says she formerly worked as a guide, helping people while living close to the elements.</p><h2>A living path</h2><p>Atrax explains his palm-trunk waymarkers and the shifting dunes. Aurora proposes growing native plants along the route as a longer-term alternative. The idea is discussed, not shown as a completed path. She offers what help she can and reaches the Oasis, where Atrax points her toward Sombra for food.</p><h2>Two distinct people</h2><p>This early Shore traveller is Aurora, a separate person from <a href=\"#aurora\">Aurora Luminaria</a> of House Vita Imperatoris. Their shared given name does not connect their histories.</p><h2>Care for a survivor</h2><p>At the Oasis, Aurora supports the wounded Khemset and asks whether she needs healing. She offers help through the Way of the Elements after hearing Khemset’s fears about her failing magic. No successful treatment is shown. This is the early traveller Aurora, distinct from Aurora Luminaria.</p><h2>Finding the buried house</h2><p>Aurora asks Atrax to lead her toward Albayt Alkabir. She shapes sand around two spears to make a long probe, which meets resistance below the dunes. The pair infer that excavation will take more work and return to the Oasis without reopening the structure.</p><h2>Comfort and dependence</h2><p>The excursion brings her frustration with camp life into the open. She worries about depending on the Oasis’s water and food, while Atrax warns against wandering without a reliable refuge. She shares conjured water for cooling, warning him not to drink it; the scene does not create a lasting water supply.</p>",
       "sources": [
         "gedankin-the-shore.md — 2024-10-07–2024-10-08 (UTC posting dates; in-world dates unestablished).",
         "World creator clarification — 8 October 2026: Aurora and Aurora Luminaria are distinct characters.",
-        "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-seven-sands.md — 2026-03-03 (UTC posting dates; in-world dates unestablished)."
       ],
       "relatedRecords": [
-        "lux"
+        "lux",
+        "atrax",
+        "albayt-alkabir",
+        "seven-sands"
       ]
     },
     {
@@ -874,10 +932,15 @@ window.GedankinData = {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis"
       },
-      "body": "<h2>Far from the grove</h2><p>Ashbriar appears in the Shore accounts as a treant. He identifies himself to Aurora Luminaria as a former cultivator and calls himself the last tree. That is how he describes his situation, not a census of all living trees in Gedankin.</p><h2>Shelter at a cost</h2><p>When Aurora meets him, he condemns the felling of palms for shelter and fears the loss of their roots will imperil the Oasis’s water. His ecological warning and his claim that nothing remains to plant stay attributed to him; the wider fate of the Oasis is not established by the argument.</p><h2>A promise to search</h2><p>Aurora challenges his hostility, but offers to help find and grow new trees. Ashbriar says a distant tree called to him from the bones of an ancient entity he believes was primordial. Their exchange offers a lead and hope for a grove, not proof of the entity’s identity or a completed restoration. He guides her to the settlement.</p><h2>A brother and a little shade</h2><p>At the Oasis, Ashbriar describes a vision of a mighty tree to Grimthorne and argues that they need other travellers’ help to survive the search. Bramble apologises for an unwelcome nickname and offers care. When she cools the air, both treants rest beside or in the water. Her magic offers immediate relief, not a restored grove.</p>",
+      "body": "<h2>Far from the grove</h2><p>Ashbriar appears in the Shore accounts as a treant. He identifies himself to Aurora Luminaria as a former cultivator and calls himself the last tree. That is how he describes his situation, not a census of all living trees in Gedankin.</p><h2>Shelter at a cost</h2><p>When Aurora meets him, he condemns the felling of palms for shelter and fears the loss of their roots will imperil the Oasis’s water. His ecological warning and his claim that nothing remains to plant stay attributed to him; the wider fate of the Oasis is not established by the argument.</p><h2>A promise to search</h2><p>Aurora challenges his hostility, but offers to help find and grow new trees. Ashbriar says a distant tree called to him from the bones of an ancient entity he believes was primordial. Their exchange offers a lead and hope for a grove, not proof of the entity’s identity or a completed restoration. He guides her to the settlement.</p><h2>A brother and a little shade</h2><p>At the Oasis, Ashbriar describes a vision of a mighty tree to Grimthorne and argues that they need other travellers’ help to survive the search. Bramble apologises for an unwelcome nickname and offers care. When she cools the air, both treants rest beside or in the water. Her magic offers immediate relief, not a restored grove.</p><h2>A small cloud for a brother</h2><p>Walking beyond the Oasis, Ashbriar casts fog around Grimthorne and guides him to attend to the moisture on his bark. He offers a moment’s reminder of home, not restored sunlight or a cure for the desert. He then urges their return and reminds Grimthorne that even tall trees are vulnerable alone.</p>",
       "sources": [
         "gedankin-the-shore.md — 2026-05-21–2026-06-02 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2026-02-10 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-02-10 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-seven-sands.md — 2026-02-12 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "grimthorne",
+        "seven-sands"
       ]
     },
     {
@@ -998,9 +1061,14 @@ window.GedankinData = {
         "World": "Gedankin",
         "Recorded at": "The Oasis"
       },
-      "body": "<h2>Guardians far from home</h2><p>Grimthorne and <a href=\"#ashbriar\">Ashbriar</a> call one another brother. They describe themselves as guardians grown from seed, rather than raised by druids. Grimthorne treats other peoples with open contempt and speaks of harvesting them to nourish soil; this is his stated intent, not an act shown in the encounter.</p><h2>A calling still to follow</h2><p>Ashbriar describes a vision of a mighty tree and argues that they will need other travellers to survive the search. Grimthorne reluctantly agrees to listen. Their hopes do not establish the tree’s location or identity.</p><h2>A little relief</h2><p>Heat drives both treants toward the water. <a href=\"#bramble-blackberry\">Bramble</a> cools the air around them with magic. Grimthorne sighs with relief and falls asleep; Ashbriar settles into the water. The kindness eases the moment without solving the refuge’s longer-term problems.</p>",
+      "body": "<h2>Guardians far from home</h2><p>Grimthorne and <a href=\"#ashbriar\">Ashbriar</a> call one another brother. They describe themselves as guardians grown from seed, rather than raised by druids. Grimthorne treats other peoples with open contempt and speaks of harvesting them to nourish soil; this is his stated intent, not an act shown in the encounter.</p><h2>A calling still to follow</h2><p>Ashbriar describes a vision of a mighty tree and argues that they will need other travellers to survive the search. Grimthorne reluctantly agrees to listen. Their hopes do not establish the tree’s location or identity.</p><h2>A little relief</h2><p>Heat drives both treants toward the water. <a href=\"#bramble-blackberry\">Bramble</a> cools the air around them with magic. Grimthorne sighs with relief and falls asleep; Ashbriar settles into the water. The kindness eases the moment without solving the refuge’s longer-term problems.</p><h2>Relief beyond the water</h2><p>Grimthorne walks with Ashbriar into the Seven Sands, mourning the absence of familiar sun, rain and leaves. Ashbriar’s fog gives him a brief cooling reprieve. They turn back toward the Oasis; neither the proposed expansion of the refuge nor a way to travel without wilting is completed in this scene.</p>",
       "sources": [
-        "gedankin-the-oasis.md — 2026-02-10 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-02-10 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-seven-sands.md — 2026-02-12 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "ashbriar",
+        "seven-sands"
       ]
     },
     {
@@ -1219,10 +1287,11 @@ window.GedankinData = {
         "Craft": "Artifice and armour",
         "Languages in the arrival scene": "Alzhedo and Common"
       },
-      "body": "<h2>A language before Common</h2><p>On waking, Sahira addresses the others in Alzhedo before switching to Common and repeating her questions. She asks Atrax to lead the way to the Oasis so she can learn more. Her practical search for tools and workspace continues this effort to regain her footing.</p><h2>A workshop wanted</h2><p>Sahira works on her armour and gauntlets beneath a lean-to, frustrated by the lack of a proper workshop. She says tools alone are not enough: she needs materials and room for several projects.</p><h2>Introductions after the dungeon</h2><p>She introduces herself to <a href=\"#aurora\">Aurora Luminaria</a> as Sahira al-Azar, from Memnon in Calimshan. They discuss healing, military leadership and their recent dungeon fighting. Sahira credits strategy for their improved progress; her belief that they were the first to reach that far remains her understanding.</p><h2>Learning the city by report</h2><p>She asks Aurora to repeat what Vespere said about Khars Madar. This is information passed between travellers, not Sahira’s own documented city visit. Sahira and the caravan survivor <a href=\"#saira\">Saira</a> have separate records.</p>",
+      "body": "<h2>A language before Common</h2><p>On waking, Sahira addresses the others in Alzhedo before switching to Common and repeating her questions. She asks Atrax to lead the way to the Oasis so she can learn more. Her practical search for tools and workspace continues this effort to regain her footing.</p><h2>A workshop wanted</h2><p>Sahira works on her armour and gauntlets beneath a lean-to, frustrated by the lack of a proper workshop. She says tools alone are not enough: she needs materials and room for several projects.</p><h2>Introductions after the dungeon</h2><p>She introduces herself to <a href=\"#aurora\">Aurora Luminaria</a> as Sahira al-Azar, from Memnon in Calimshan. They discuss healing, military leadership and their recent dungeon fighting. Sahira credits strategy for their improved progress; her belief that they were the first to reach that far remains her understanding.</p><h2>Learning the city by report</h2><p>She asks Aurora to repeat what Vespere said about Khars Madar. This is information passed between travellers, not Sahira’s own documented city visit. Sahira and the caravan survivor <a href=\"#saira\">Saira</a> have separate records.</p><h2>A book in a crystal</h2><p>Sahira explains to Sombra that her shard is a book she can mentally write in without freeing her hands. She describes training in artifice, study under a wizard and some innate magic from her genie heritage. The shard records knowledge rather than being established as the source of all her power.</p><h2>Plans for a lasting settlement</h2><p>She proposes irrigation and more dependable food, and asks about maps and seeds. Sombra offers earth-moving magic and explains the refuge’s reliance on starfruit. Their conversation produces plans for settlement work, not a completed aqueduct, crop or survey.</p><h2>Learning from a witness</h2><p>Sahira questions Sombra about the colossal bones, pools and geodes he says he visited, recording his account in her shard. She handles the stone with his permission, but no new vision or discovery from that contact is shown. The report guides her curiosity without making her a participant in the earlier expedition.</p>",
       "sources": [
         "gedankin-the-oasis.md — 2026-06-03 (UTC posting dates; in-world dates unestablished).",
-        "Sahira.md — 27 March 2026 — reviewed embedded arrival scene (UTC posting dates)."
+        "Sahira.md — 27 March 2026 — reviewed embedded arrival scene (UTC posting dates).",
+        "gedankin-the-seven-sands.md — 2026-04-01–2026-04-02 (UTC posting dates; in-world dates unestablished)."
       ],
       "aliases": [
         "Sahira"
@@ -1230,7 +1299,10 @@ window.GedankinData = {
       "relatedRecords": [
         "atrax",
         "aurora",
-        "oasis"
+        "oasis",
+        "sombra-estrellar",
+        "large-skeleton",
+        "seven-sands"
       ]
     },
     {
@@ -1307,7 +1379,8 @@ window.GedankinData = {
       "relatedRecords": [
         "irenhour",
         "kara-vash",
-        "strange-shore"
+        "strange-shore",
+        "meteorite-camp"
       ],
       "body": "<h2>At a glance</h2><p>Visaerk lands on the sand mid-stride, then springs to his feet and greets the other displaced travellers.</p><h2>Questions shared</h2><p>He asks how everyone arrived and says he had been “redistributin wealth” before appearing here. His playful introduction contrasts with Irenhour’s uncertainty; neither knows what brought the company to the Shore.</p>",
       "aliases": []
@@ -1875,14 +1948,15 @@ window.GedankinData = {
         "gedankin-the-oasis.md — 2026-06-01–2026-09-21 (UTC posting dates; in-world dates unestablished)."
       ],
       "relatedRecords": [
-        "shore-oasis-marker-trail"
+        "shore-oasis-marker-trail",
+        "seven-sands"
       ]
     },
     {
       "id": "albayt-alkabir",
       "title": "Albayt Alkabir",
-      "summary": "A stone structure whose dark interior holds the lantern Luxcit.",
-      "dek": "A stone structure whose dark interior holds the lantern Luxcit.",
+      "summary": "A buried stone structure from which Luxcit was recovered, with an unfinished history of dangerous expeditions.",
+      "dek": "A buried stone structure from which Luxcit was recovered, with an unfinished history of dangerous expeditions.",
       "tags": [
         "Gedankin",
         "Luxcit",
@@ -1894,11 +1968,17 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>The recovered lantern</h2><p>The company explores the structure and finds a magical lantern attached to a dead bearer. Sombra bonds with it and carries it outside; it introduces itself as Luxcit and names the dead Lightbringer Harlan Rayburn.</p><h2>The record’s limits</h2><p>The lantern recovery is documented here. Other encounters in this large expedition have not yet received a complete scene-by-scene account in the Codex.</p><h2>What the guides report</h2><p>In the accounts posted in December 2025 and March 2026, Atrax says a major storm buried the structure and left the task incomplete. In May he describes repeated visits and changing rooms, without dating those expeditions. By September, Manzur reports reaching eight rooms and finding cleared chambers occupied again on return. These are dated reports of the company’s knowledge; they do not establish the exact reopening date or the defeat of the evil said to lie inside.</p><h2>The name and the lost expedition</h2><p>Khemset says she named the structure Albayt Alkabir, meaning Great or Grand House. Emerging wounded in the October 2024 posting record, she reports that four people entered, met monsters, traps and a taunting voice, and found the inside larger than expected. She says her companions fell and Harlan’s lantern went dark. These are her recollections; they do not establish the voice’s identity or an exact plan of the interior.</p><p><a href=\"#khemset\">Read Khemset’s account →</a></p>",
+      "body": "<h2>The recovered lantern</h2><p>The company explores the structure and finds a magical lantern attached to a dead bearer. Sombra bonds with it and carries it outside; it introduces itself as Luxcit and names the dead Lightbringer Harlan Rayburn.</p><h2>The record’s limits</h2><p>The lantern recovery is documented here. Other encounters in this large expedition have not yet received a complete scene-by-scene account in the Codex.</p><h2>What the guides report</h2><p>In the accounts posted in December 2025 and March 2026, Atrax says a major storm buried the structure and left the task incomplete. In May he describes repeated visits and changing rooms, without dating those expeditions. By September, Manzur reports reaching eight rooms and finding cleared chambers occupied again on return. These are dated reports of the company’s knowledge; they do not establish the exact reopening date or the defeat of the evil said to lie inside.</p><h2>The name and the lost expedition</h2><p>Khemset says she named the structure Albayt Alkabir, meaning Great or Grand House. Emerging wounded in the October 2024 posting record, she reports that four people entered, met monsters, traps and a taunting voice, and found the inside larger than expected. She says her companions fell and Harlan’s lantern went dark. These are her recollections; they do not establish the voice’s identity or an exact plan of the interior.</p><p><a href=\"#khemset\">Read Khemset’s account →</a></p><h2>The March probing attempt</h2><p>Atrax and the early Aurora approach the buried structure with two spears joined by shaped sand. Their makeshift drill meets resistance near the end of its reach. Atrax recalls a two-storey house and estimates the entrance lies deeper; that estimate is not a surveyed measurement. They return to the Oasis without digging it open.</p>",
       "sources": [
         "2024-rp.md — 25 October 2024; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2025-12-08–2026-09-22 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-10-11 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-seven-sands.md — 2026-03-03 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "atrax",
+        "aurora-early-shore",
+        "seven-sands"
       ]
     },
     {
@@ -1938,9 +2018,9 @@ window.GedankinData = {
     },
     {
       "id": "chaymas-hostel",
-      "title": "Chayma’s Hostel",
-      "summary": "A modest refuge in Khars Madar rebuilt with help from the travellers.",
-      "dek": "A modest refuge in Khars Madar rebuilt with help from the travellers.",
+      "title": "The Mirage Arfaj",
+      "summary": "Chayma’s flower-filled hostel in the Free Quarter: a refuge for travellers, grief and the slow work of finding a place to belong.",
+      "dek": "Chayma’s flower-filled hostel in the Free Quarter: a refuge for travellers, grief and the slow work of finding a place to belong.",
       "tags": [
         "Gedankin",
         "Chayma",
@@ -1949,15 +2029,33 @@ window.GedankinData = {
         "Free Quarter"
       ],
       "facts": {
-        "World": "Gedankin"
+        "World": "Gedankin",
+        "Keeper": "Chayma",
+        "District": "Free Quarter · Khars Madar",
+        "Household detail": "An arfaj flower in every room"
       },
-      "body": "<h2>A bed in gratitude</h2><p>After her rescue, Chayma offers the company free lodging. Initially the hostel has few beds and broken or missing household supplies.</p><h2>A visible change</h2><p>The adventurers prioritise beds, rugs, plates and cookware. On a later visit, fresh linens, pillows and flowers show the practical effect of their help.</p>",
+      "body": "<h2>A flower in every room</h2><p>The Mirage Arfaj is run by <a href=\"#chayma\">Chayma</a> in <a href=\"#free-quarter\">the Free Quarter</a> of Khars Madar. Its namesake flower appears in every room, and its welcome extends to adventurers in need of lodging.</p><h2>A bed in gratitude</h2><p>After her rescue, Chayma offers the company free lodging. Initially the hostel has few beds and broken or missing household supplies.</p><h2>A visible change</h2><p>The adventurers prioritise beds, rugs, plates and cookware. On a later visit, fresh linens, pillows and flowers show the practical effect of their help.</p><h2>Shelter after the caravan</h2><p>Vaerik, Aurora Luminaria and Fife are brought here with Heih’s body after entering the settlement. Later, Aurora tells Vespere she could not restore Heih and cannot bring back Saffiah. The hostel offers shelter for survivors without erasing their losses.</p><h2>Needles, manners and freedom</h2><p>Vespere comes looking for Chayma and instead speaks with Aurora Luminaria about her unsettling habits and automatic responses. On a later visit, Xuan brings a damaged dress to Vespere’s room. The repair becomes a conversation about whether a living doll needs an owner.</p><h2>A name of her own</h2><p>Xuan removes Chayma’s name from Vespere’s neck, provoking an automatic demand to register an owner. She then writes Vespere’s own name there. The doll registers herself and thanks Xuan. The exchange establishes a change in that moment, not proof that every constraint of her making has disappeared.</p>",
       "sources": [
-        "2024-rp.md — 30 April–18 June 2026; dates refer to UTC posting dates, not established in-world dates."
+        "2024-rp.md — 30 April–18 June 2026; dates refer to UTC posting dates, not established in-world dates.",
+        "gedankin-the-mirage-arfaj.md — 2026-06-11–2026-06-26 (UTC posting dates; in-world dates unestablished)."
       ],
       "relatedRecords": [
-        "free-quarter"
-      ]
+        "free-quarter",
+        "chayma",
+        "vespere",
+        "xuan",
+        "aurora",
+        "vaerik",
+        "fife",
+        "heih"
+      ],
+      "aliases": [
+        "Chayma’s Hostel",
+        "Chayma's Hostel",
+        "Mirage Arfaj",
+        "Miraj Arfaj"
+      ],
+      "type": "Hostel · Free Quarter"
     },
     {
       "id": "adijit-arena",
@@ -2048,24 +2146,46 @@ window.GedankinData = {
     {
       "id": "seven-sands",
       "title": "The Seven Sands",
-      "summary": "The desert region labelled The Seven Sands on the Gedankin map.",
-      "dek": "The desert region labelled The Seven Sands on the Gedankin map.",
+      "summary": "The broad inland region beyond the Shore, covering most of Gedankin’s island: dunes, uncertain routes and communities learning to endure.",
+      "dek": "The broad inland region beyond the Shore, covering most of Gedankin’s island: dunes, uncertain routes and communities learning to endure.",
       "tags": [
         "Gedankin",
-        "World map"
+        "Seven Sands",
+        "Island interior",
+        "Desert",
+        "Meteorite",
+        "Exploration",
+        "Survival"
       ],
       "facts": {
         "World": "Gedankin",
-        "Record": "Map landmark"
+        "Extent": "Most of the island’s interior",
+        "Approach": "Inland from the Shore",
+        "Routes": "Oasis, ruins and farther settlements"
       },
-      "body": "<h2>On the map</h2><p>The desert region labelled The Seven Sands on the Gedankin map.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p><h2>A name carried by a traveller</h2><p>Atrax tells Bramble that a passing caravaneer called the desert the Seven Sands. Manzur later repeats the name while guiding Gisan. Their testimony gives the map label a place in everyday speech; the Shore record does not chart every boundary or establish an exhaustive list of settlements.</p><h2>A merchant’s road</h2><p>Salim Jalusiwa calls these the Seven Sands and says they can lead to many lands. His Oasis visit shows trade reaching the refuge by camel and flying carpet. It does not establish the boundaries of every region or turn his promises of future supplies into completed deliveries.</p>",
+      "body": "<h2>Beyond the Shore</h2><p>The Seven Sands is the region reached by setting out inland from <a href=\"#strange-shore\">the Shore</a>. It comprises the largest portion of Gedankin’s island. The map’s broad desert label contains more than a single destination: makeshift camps, routes between refuges and the search for places the first arrivals have not yet seen.</p><h2>The meteorite camp</h2><p>Before the Oasis becomes their refuge, Atrax and Irenhour keep watch beside a meteorite under a palm-frond lean-to made by Visaerk. They debate food, shelter and what might be inside the fallen stone. Rhalor later joins the investigation; purple dust is visible in the sand along the impact channel.</p><h2>Survival does not settle every argument</h2><p>The early company disagrees about discipline, magical risk and whether desperate circumstances justify coercion. Atrax distinguishes people stranded against their will from soldiers who chose to enlist. These conversations shape how the survivors work together without giving the camp a single agreed leader or doctrine.</p><h2>Searching beyond the refuge</h2><p>Grimthorne and Ashbriar walk out from the Oasis seeking signs of life better suited to them. Later, Atrax and the early Aurora probe for the buried Albayt Alkabir. Sahira and Sombra use another walk to exchange knowledge of ruins, colossal bones, magical stones and possible ways of improving the settlement.</p><h2>Navigation under unfamiliar stars</h2><p>Sombra tells Sahira that his star maps cannot navigate here as they did at home. They discuss fixed landmarks, signals and markers amid shifting dunes. His explanation remains his understanding of the sky; no completed survey or working replacement map is shown.</p><h2>A merchant’s road</h2><p>Salim Jalusiwa’s visits and the caravans reaching Khars Madar show trade across the sands. His promises of supplies and the travellers’ proposals for crops or irrigation remain distinct from completed deliveries or construction.</p><p><a href=\"#geography-of-gedankin\">Follow Gedankin’s places and journeys →</a> · <a href=\"#world-map\">Explore the world map →</a></p>",
       "sources": [
         "Gedankin.png — world map supplied by the user.",
         "gedankin-the-shore.md — 2025-12-07–2026-09-22 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2024-11-02 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2024-11-02 (UTC posting dates; in-world dates unestablished).",
+        "gedankin-the-seven-sands.md — 2024-09-25–2026-04-02 (UTC posting dates; in-world dates unestablished)."
       ],
       "aliases": [
         "Seven Sands"
+      ],
+      "type": "Island interior · desert region",
+      "relatedRecords": [
+        "strange-shore",
+        "meteorite-camp",
+        "oasis",
+        "albayt-alkabir",
+        "khars-madar",
+        "large-skeleton",
+        "atrax",
+        "irenhour",
+        "rhalor",
+        "sahira-al-azar",
+        "sombra-estrellar"
       ]
     },
     {
@@ -2109,19 +2229,30 @@ window.GedankinData = {
     {
       "id": "large-skeleton",
       "title": "Large Skeleton",
-      "summary": "A landmark marked at the eastern end of the mapped desert route.",
-      "dek": "A landmark marked at the eastern end of the mapped desert route.",
+      "summary": "Colossal bones marked on Gedankin’s map, remembered by Sombra as a place where an expedition received visions.",
+      "dek": "Colossal bones marked on Gedankin’s map, remembered by Sombra as a place where an expedition received visions.",
       "tags": [
         "Gedankin",
         "World map"
       ],
       "facts": {
         "World": "Gedankin",
-        "Record": "Map landmark"
+        "Record": "Mapped landmark; expedition recalled by Sombra",
+        "Identification": "Unconfirmed; dragon turtle suggested in Sombra’s account"
       },
-      "body": "<h2>On the map</h2><p>A landmark marked at the eastern end of the mapped desert route.</p><p>This entry records the supplied map label. Its history and encounters have not yet been incorporated into the Codex.</p><p><a href=\"#world-map\">Explore the Gedankin map →</a></p>",
+      "body": "<h2>A landmark in the sands</h2><p>The map labels this site Large Skeleton at the eastern end of the desert route. Sombra later describes approaching what first looked like a distant white pillar and finding the bones of a huge creature.</p><h2>Sombra’s account</h2><p>Speaking with Sahira, Sombra says members of his expedition touched the bones and received visions. He describes his own as a temple associated with the Ahua. He also recalls nearby viscous pools, watery guardians and geodes brought back by the company.</p><h2>What remains uncertain</h2><p>Sombra recalls that some thought the creature might have been a dragon turtle. Its species is not established here. Nor does the conversation confirm how the stones, pools and visions relate, or locate the temple he describes. Sahira’s questions are later research, rather than proof she attended that expedition.</p><p><a href=\"#world-map\">Find the labelled landmark on the map →</a></p>",
       "sources": [
-        "Gedankin.png — world map supplied by the user."
+        "Gedankin.png — world map supplied by the user.",
+        "gedankin-the-seven-sands.md — 2026-04-02 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "sombra-estrellar",
+        "sahira-al-azar",
+        "seven-sands"
+      ],
+      "aliases": [
+        "Colossal bones",
+        "Great bones"
       ]
     },
     {
@@ -2398,7 +2529,8 @@ window.GedankinData = {
         "oasis",
         "albayt-alkabir",
         "khars-madar",
-        "seven-sands"
+        "seven-sands",
+        "meteorite-camp"
       ],
       "body": "<h2>Overview</h2><p>Dunes connect the arrival Shore, the Oasis and the explored ruins, settlements and mountain approaches.</p><h2>A landscape that changes</h2><p>Sandstorms alter the visible landscape and complicate travel. Waymarkers must be checked and maintained. A line of palms can help a newcomer reach water, but the desert does not become safe simply because someone has crossed it before.</p><h2>More than empty sand</h2><p>Trade caravans, Khars Madar and the mountain peoples show a larger inhabited world beyond the first company’s horizon. The Seven Sands names that broader network without supplying a complete map of its societies.</p>",
       "aliases": []
@@ -2432,6 +2564,36 @@ window.GedankinData = {
       ],
       "body": "<h2>Overview</h2><p>A sheer cliff beyond the desert forms part of the journey toward Bigrock Purple Mountain.</p><h2>Climbing and descent</h2><p>Zrurg leads Yaotl and Katya from dunes to rock, where narrow handholds and footholds offer a difficult climb. Narrator scenes later describe anchored pitons and the pair descending before Bigrock comes into view.</p><h2>Routes learned by returning</h2><p>Later travellers return past Albayt Alkabir to a cliff approach. These scenes establish journeys and landmarks, while leaving the full extent of the mountain terrain unmapped.</p>",
       "aliases": []
+    },
+    {
+      "id": "meteorite-camp",
+      "title": "The Meteorite Camp",
+      "type": "Early survival camp",
+      "summary": "A palm-frond shelter beside a fallen meteorite, where the first company debates how to survive the Seven Sands.",
+      "dek": "A palm-frond shelter beside a fallen meteorite, where the first company debates how to survive the Seven Sands.",
+      "tags": [
+        "Gedankin",
+        "Seven Sands",
+        "Meteorite",
+        "Purple dust",
+        "Visaerk"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Shelter": "Visaerk’s palm-frond lean-to",
+        "Observed trace": "Purple dust in the impact channel"
+      },
+      "body": "<h2>Shelter beside the fallen stone</h2><p>Atrax sits beneath a lean-to made by Visaerk while watching the meteorite. Irenhour worries about dwindling food, predators and exposure. The shelter is makeshift, and the fallen stone offers a question rather than a secure livelihood.</p><h2>Life inside, according to Irenhour</h2><p>Irenhour says attacking the meteorite caused ooze-like creatures to emerge and identifies markings he believes infernal. Atrax shares concern about the creatures. These reports do not establish the meteorite’s origin or make it a safe source of life.</p><h2>Purple dust</h2><p>The narrator describes specks of purple dust mixed with sand along the impact channel. Rhalor and Irenhour discuss separating the dust for study. The account shows investigation and an improvised shelter, without establishing a useful discovery from the material.</p>",
+      "sources": [
+        "gedankin-the-seven-sands.md — 2024-09-29–2024-09-30 (UTC posting dates; in-world dates unestablished)."
+      ],
+      "relatedRecords": [
+        "seven-sands",
+        "atrax",
+        "irenhour",
+        "rhalor",
+        "visaerk-animatia"
+      ]
     }
   ],
   "factions": [
@@ -3958,6 +4120,229 @@ window.GedankinData = {
       "sources": [
         "Khars_Madar_Ziggurat.md and Peddler_s_Passage.md — tour posted 30 April 2026 (UTC posting date)"
       ]
+    },
+    {
+      "id": "meteorite-camp-survival-debate",
+      "title": "Survival and Choice at the Meteorite Camp",
+      "type": "Chronicle event",
+      "summary": "The early company studies the fallen stone while arguing over discipline, food and the cost of survival.",
+      "dek": "The early company studies the fallen stone while arguing over discipline, food and the cost of survival.",
+      "tags": [
+        "Gedankin",
+        "Atrax",
+        "Irenhour",
+        "Rhalor",
+        "The Meteorite Camp"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2024-09-29–2024-09-30",
+        "Location": "The Meteorite Camp",
+        "Chronology": "Posting date; in-world date unestablished"
+      },
+      "body": "<h2>A shelter and an unanswered object</h2><p>Atrax and Irenhour watch the meteorite beneath Visaerk’s lean-to. Rhalor later joins the investigation, and purple dust is observed along the impact channel. The stone does not yield a demonstrated solution to their food or shelter needs.</p><h2>Choosing cooperation</h2><p>Irenhour presses for control and discipline. Atrax distinguishes their involuntary displacement from voluntary enlistment, while Rhalor challenges decisions made on uncertain evidence. The exchange does not appoint a leader or establish a binding code for the company.</p>",
+      "people": [
+        "Atrax",
+        "Irenhour",
+        "Rhalor"
+      ],
+      "relatedRecords": [
+        "meteorite-camp",
+        "seven-sands",
+        "atrax",
+        "irenhour",
+        "rhalor",
+        "visaerk-animatia"
+      ],
+      "location": "The Meteorite Camp",
+      "sort": "2024-09-29-03",
+      "meta": "2024-09-29–2024-09-30",
+      "sources": [
+        "gedankin-the-seven-sands.md — 2024-09-29–2024-09-30 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "ashbriar-fog-for-grimthorne",
+      "title": "Ashbriar Offers Grimthorne a Reminder of Home",
+      "type": "Chronicle event",
+      "summary": "A small cloud brings a treant relief during a difficult walk beyond the Oasis.",
+      "dek": "A small cloud brings a treant relief during a difficult walk beyond the Oasis.",
+      "tags": [
+        "Gedankin",
+        "Ashbriar",
+        "Grimthorne",
+        "The Seven Sands"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-02-12",
+        "Location": "The Seven Sands",
+        "Chronology": "Posting date; in-world date unestablished"
+      },
+      "body": "<h2>Moisture on bark</h2><p>Ashbriar surrounds Grimthorne with fog and guides him to attend to its cool moisture. The reprieve eases their homesickness without restoring a forest. They turn back toward the Oasis, still dependent on refuge and companionship.</p>",
+      "people": [
+        "Ashbriar",
+        "Grimthorne"
+      ],
+      "relatedRecords": [
+        "ashbriar",
+        "grimthorne",
+        "seven-sands",
+        "oasis"
+      ],
+      "location": "The Seven Sands",
+      "sort": "2026-02-12-03",
+      "meta": "2026-02-12",
+      "sources": [
+        "gedankin-the-seven-sands.md — 2026-02-12 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "atrax-aurora-probe-buried-albayt",
+      "title": "Atrax and Aurora Probe the Buried Albayt",
+      "type": "Chronicle event",
+      "summary": "The early Aurora binds two spears with shaped sand so Atrax can test how deep the buried structure lies.",
+      "dek": "The early Aurora binds two spears with shaped sand so Atrax can test how deep the buried structure lies.",
+      "tags": [
+        "Gedankin",
+        "Atrax",
+        "Aurora (early Shore arrival)",
+        "Albayt Alkabir"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-03-03",
+        "Location": "Albayt Alkabir",
+        "Chronology": "Posting date; in-world date unestablished"
+      },
+      "body": "<h2>An improvised drill</h2><p>The pair approach Albayt Alkabir and work with spears joined by hardened, shaped sand. The probe meets resistance at the end of its reach. They discuss the greater difficulty of reaching an entrance and return without reopening it.</p><h2>A distinct Aurora</h2><p>This is the early Shore traveller Aurora, not Aurora Luminaria. Her debate with Atrax pits a desire to move beyond camp against the risk of leaving a reliable refuge.</p>",
+      "people": [
+        "Atrax",
+        "Aurora (early Shore arrival)"
+      ],
+      "relatedRecords": [
+        "atrax",
+        "aurora-early-shore",
+        "albayt-alkabir",
+        "seven-sands"
+      ],
+      "location": "Albayt Alkabir",
+      "sort": "2026-03-03-03",
+      "meta": "2026-03-03",
+      "sources": [
+        "gedankin-the-seven-sands.md — 2026-03-03 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "sahira-sombra-knowledge-walk",
+      "title": "Sahira Records Sombra’s Desert Accounts",
+      "type": "Chronicle event",
+      "summary": "A walk becomes a discussion of settlement work, navigation and the visions Sombra remembers from the colossal bones.",
+      "dek": "A walk becomes a discussion of settlement work, navigation and the visions Sombra remembers from the colossal bones.",
+      "tags": [
+        "Gedankin",
+        "Sahira al-Azar",
+        "Sombra Estrellar",
+        "The Seven Sands"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-04-01–2026-04-02",
+        "Location": "The Seven Sands",
+        "Chronology": "Posting date; in-world date unestablished"
+      },
+      "body": "<h2>Knowledge carried in a shard</h2><p>Sahira records Sombra’s reports in her spellshard. They discuss food, irrigation, maps, magical pools and the great bones. Sombra permits her to examine his stone, but no new vision is shown.</p><h2>Plans and reports</h2><p>This is a later exchange of knowledge, not the original bones expedition. The proposed irrigation, farming and mapmaking remain proposals when they return to the Oasis.</p>",
+      "people": [
+        "Sahira al-Azar",
+        "Sombra Estrellar"
+      ],
+      "relatedRecords": [
+        "sahira-al-azar",
+        "sombra-estrellar",
+        "large-skeleton",
+        "seven-sands",
+        "oasis"
+      ],
+      "location": "The Seven Sands",
+      "sort": "2026-04-01-03",
+      "meta": "2026-04-01–2026-04-02",
+      "sources": [
+        "gedankin-the-seven-sands.md — 2026-04-01–2026-04-02 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "vespere-aurora-limits-and-loss",
+      "title": "Vespere and Aurora Confront Limits and Loss",
+      "type": "Chronicle event",
+      "summary": "At the Mirage Arfaj, an automatic response exposes Vespere’s constraints while talk of healing returns to Saffiah and Heih.",
+      "dek": "At the Mirage Arfaj, an automatic response exposes Vespere’s constraints while talk of healing returns to Saffiah and Heih.",
+      "tags": [
+        "Gedankin",
+        "Vespere",
+        "Aurora Luminaria",
+        "The Mirage Arfaj"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-06-15",
+        "Location": "The Mirage Arfaj",
+        "Chronology": "Posting date; in-world date unestablished"
+      },
+      "body": "<h2>A word that triggers a response</h2><p>Urged by Aurora Luminaria to speak differently, Vespere says “Blood” and enters an automatic surgical response. She struggles before dropping the knife. The conversation does not establish that her constraints have been removed.</p><h2>Healing has limits</h2><p>Aurora refuses Vespere’s request to restore Saffiah and says Heih is beyond her ability to save. Both deaths remain in the record.</p>",
+      "people": [
+        "Vespere",
+        "Aurora Luminaria"
+      ],
+      "relatedRecords": [
+        "vespere",
+        "aurora",
+        "chaymas-hostel",
+        "saffiah",
+        "heih"
+      ],
+      "location": "The Mirage Arfaj",
+      "sort": "2026-06-15-03",
+      "meta": "2026-06-15",
+      "sources": [
+        "gedankin-the-mirage-arfaj.md — 2026-06-15 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "xuan-vespere-self-ownership",
+      "title": "Xuan Writes Vespere’s Own Name",
+      "type": "Chronicle event",
+      "summary": "A repaired dress leads to Xuan replacing the doll’s owner label with Vespere’s own name.",
+      "dek": "A repaired dress leads to Xuan replacing the doll’s owner label with Vespere’s own name.",
+      "tags": [
+        "Gedankin",
+        "Xuan Jie",
+        "Vespere",
+        "The Mirage Arfaj"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-06-25–2026-06-26",
+        "Location": "The Mirage Arfaj",
+        "Chronology": "Posting date; in-world date unestablished"
+      },
+      "body": "<h2>More than an object</h2><p>While Vespere repairs her dress, Xuan learns of Heih’s death and challenges the doll’s belief that she must belong to someone. She removes Chayma’s name from Vespere’s neck. The doll then demands a new owner and briefly reboots.</p><h2>Registered to herself</h2><p>Xuan writes Vespere’s own name. Vespere registers herself and thanks her, while Xuan turns to etiquette practice for their planned approach to House Nazif. This moment does not establish complete freedom from every automatic response or make their later House membership happen earlier.</p>",
+      "people": [
+        "Xuan Jie",
+        "Vespere"
+      ],
+      "relatedRecords": [
+        "xuan",
+        "vespere",
+        "chaymas-hostel",
+        "heih",
+        "house-nazif"
+      ],
+      "location": "The Mirage Arfaj",
+      "sort": "2026-06-25-03",
+      "meta": "2026-06-25–2026-06-26",
+      "sources": [
+        "gedankin-the-mirage-arfaj.md — 2026-06-25–2026-06-26 (UTC posting dates; in-world dates unestablished)."
+      ]
     }
   ],
   "quotes": [
@@ -4177,6 +4562,55 @@ window.GedankinData = {
       "text": "paradise? Paradise is on the field of battle with my brothers and sisters in arms.",
       "group": "Comrades and battle",
       "source": "Eudora.md — 4 October 2024 (UTC posting date)"
+    },
+    {
+      "article": "xuan",
+      "speaker": "Xuan Jie",
+      "text": "You are good enough to be your own owner.",
+      "group": "The Mirage Arfaj · Freedom",
+      "source": "gedankin-the-mirage-arfaj.md — 2026-06-26 (UTC posting dates; in-world dates unestablished)."
+    },
+    {
+      "article": "vespere",
+      "speaker": "Vespere",
+      "text": "But I dont want to be abandoned again... it feel good to have a name behind my neck and an home...",
+      "group": "The Mirage Arfaj · Belonging",
+      "source": "gedankin-the-mirage-arfaj.md — 2026-06-26 (UTC posting dates; in-world dates unestablished)."
+    },
+    {
+      "article": "aurora",
+      "speaker": "Aurora Luminaria",
+      "text": "If you want to make a change, it’s you who has to do it. People can help, but only you can change.",
+      "group": "The Mirage Arfaj · Change",
+      "source": "gedankin-the-mirage-arfaj.md — 2026-06-15 (UTC posting dates; in-world dates unestablished)."
+    },
+    {
+      "article": "atrax",
+      "speaker": "Atrax",
+      "text": "This land seems harsh enough. For us to harden and become harsh toward one another would seem to doom us all as certainly as any predator.",
+      "group": "The Seven Sands · Shared survival",
+      "source": "gedankin-the-seven-sands.md — 2024-09-29 (UTC posting dates; in-world dates unestablished)."
+    },
+    {
+      "article": "irenhour",
+      "speaker": "Irenhour",
+      "text": "Destruction is only power when directed.",
+      "group": "The Seven Sands · Power and restraint",
+      "source": "gedankin-the-seven-sands.md — 2024-09-29 (UTC posting dates; in-world dates unestablished)."
+    },
+    {
+      "article": "ashbriar",
+      "speaker": "Ashbriar",
+      "text": "Do not forget.... Grimthorne..... the growth you might achieve in solitude... but.... the tallest trees fall to wind borne alone.",
+      "group": "The Seven Sands · Companionship",
+      "source": "gedankin-the-seven-sands.md — 2026-02-12 (UTC posting dates; in-world dates unestablished)."
+    },
+    {
+      "article": "sahira-al-azar",
+      "speaker": "Sahira al-Azar",
+      "text": "I'm not a builder but I could be if thats whats needed!",
+      "group": "The Seven Sands · Building a future",
+      "source": "gedankin-the-seven-sands.md — 2026-04-01 (UTC posting dates; in-world dates unestablished)."
     }
   ],
   "articles": [
@@ -4261,14 +4695,15 @@ window.GedankinData = {
         "World": "Gedankin"
       },
       "sources": [
-        "GEDANKIN_LOCATION_ARCHITECTURE.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates."
+        "GEDANKIN_LOCATION_ARCHITECTURE.md — embedded scene evidence; dates are UTC posting dates, not established in-world dates.",
+        "gedankin-the-seven-sands.md — 2024-09-25 (UTC posting dates; in-world dates unestablished)."
       ],
       "relatedRecords": [
         "world-map",
         "khars-madar",
         "bigrock-purple-mountain"
       ],
-      "body": "<h2>A shore, a refuge, a wider world</h2><p>Gedankin first appears as an unfamiliar Shore and an expanse of dunes. Journeys gradually reveal a refuge, ancient ruins, a city and distant mountain communities. This guide connects the places encountered in the chronicle without assigning new distances or borders.</p><h2>The arrival corridor</h2><p>The Shore opens onto a waterless Void Sea. Inland, Atrax’s palm markers offer a route toward the Oasis. Beyond the refuge, expeditions visit Albayt Alkabir before probing farther into the desert and mountain approaches. This is a reading route through explored geography, not a claim that every arrival follows the same journey.</p><h2>Khars Madar: a city with four sides</h2><p>Khars Madar is organised around its ziggurat. Nazif, Adijit and Tayyeb hold three political sides; the Free Quarter forms the fourth. Peddler’s Passage, Chayma’s hostel and the Arena reveal trade, shelter and spectacle alongside the Houses’ rivalries.</p><h2>The distant frontier</h2><p>Zrurg calls Bigrock Purple Mountain the sacred home of the Blue Scales and asks for help against its oppressor. The cliff journeys make this a destination reached through danger, while later liberation scenes leave the wider struggle unfinished.</p><h2>The Seven Sands</h2><p>Merchants and caravans place Khars Madar in a larger desert network. The records name the Seven Sands but do not reconstruct all of its settlements. References to a traveller’s previous home remain distinct from places shown in Gedankin.</p><h2>Follow the arrival route</h2><p><a href=\"#strange-shore\">The Shore</a> · <a href=\"#shore-oasis-marker-trail\">Shore–Oasis Marker Trail</a> · <a href=\"#oasis\">The Oasis</a> · <a href=\"#albayt-alkabir\">Albayt Alkabir</a></p><h2>Explore the city</h2><p><a href=\"#khars-madar-ziggurat\">Khars Madar Ziggurat</a> · <a href=\"#free-quarter\">The Free Quarter</a> · <a href=\"#peddlers-passage\">Peddler’s Passage</a> · <a href=\"#nazif-quarter\">House Nazif Quarter</a> · <a href=\"#adijit-quarter\">House Adijit Quarter</a> · <a href=\"#tayyeb-quarter\">House Tayyeb Quarter</a></p><h2>Beyond the first settlements</h2><p><a href=\"#mountain-cliff-route\">The Mountain and Cliff Route</a> · <a href=\"#bigrock-purple-mountain\">Bigrock Purple Mountain</a> · <a href=\"#seven-sands\">The Seven Sands</a></p>",
+      "body": "<h2>A shore, a refuge, a wider world</h2><p>Gedankin first appears as an unfamiliar Shore and an expanse of dunes. Journeys gradually reveal a refuge, ancient ruins, a city and distant mountain communities. This guide connects the places encountered in the chronicle without assigning new distances or borders.</p><h2>The arrival corridor</h2><p>The Shore opens onto a waterless Void Sea. Inland, Atrax’s palm markers offer a route toward the Oasis. Beyond the refuge, expeditions visit Albayt Alkabir before probing farther into the desert and mountain approaches. This is a reading route through explored geography, not a claim that every arrival follows the same journey.</p><h2>Khars Madar: a city with four sides</h2><p>Khars Madar is organised around its ziggurat. Nazif, Adijit and Tayyeb hold three political sides; the Free Quarter forms the fourth. Peddler’s Passage, Chayma’s hostel and the Arena reveal trade, shelter and spectacle alongside the Houses’ rivalries.</p><h2>The distant frontier</h2><p>Zrurg calls Bigrock Purple Mountain the sacred home of the Blue Scales and asks for help against its oppressor. The cliff journeys make this a destination reached through danger, while later liberation scenes leave the wider struggle unfinished.</p><h2>The Seven Sands</h2><p>The Seven Sands covers most of Gedankin’s island beyond the Shore. Merchants and caravans connect refuges and settlements across this interior, but the full extent of its inhabited places remains uncharted. References to a traveller’s previous home remain distinct from places shown in Gedankin.</p><h2>Follow the arrival route</h2><p><a href=\"#strange-shore\">The Shore</a> · <a href=\"#shore-oasis-marker-trail\">Shore–Oasis Marker Trail</a> · <a href=\"#oasis\">The Oasis</a> · <a href=\"#albayt-alkabir\">Albayt Alkabir</a></p><h2>Explore the city</h2><p><a href=\"#khars-madar-ziggurat\">Khars Madar Ziggurat</a> · <a href=\"#free-quarter\">The Free Quarter</a> · <a href=\"#peddlers-passage\">Peddler’s Passage</a> · <a href=\"#nazif-quarter\">House Nazif Quarter</a> · <a href=\"#adijit-quarter\">House Adijit Quarter</a> · <a href=\"#tayyeb-quarter\">House Tayyeb Quarter</a></p><h2>Beyond the first settlements</h2><p><a href=\"#mountain-cliff-route\">The Mountain and Cliff Route</a> · <a href=\"#bigrock-purple-mountain\">Bigrock Purple Mountain</a> · <a href=\"#seven-sands\">The Seven Sands</a></p>",
       "aliases": []
     }
   ],
@@ -4360,7 +4795,8 @@ window.GedankinData = {
         "mountain-cliff-route",
         "bigrock-purple-mountain",
         "icyscale-roost",
-        "seven-sands"
+        "seven-sands",
+        "meteorite-camp"
       ]
     },
     {

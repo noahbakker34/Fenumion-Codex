@@ -155,3 +155,15 @@ const fenwickMedia = {
 window.FENUMION_MEDIA.characters.Fenwick = fenwickMedia;
 window.FENUMION_MEDIA.characters["Fenwick d'Jorasco"] = fenwickMedia;
 window.FENUMION_MEDIA.articles.fenwick = fenwickMedia;
+
+const silverSpireMedia = {
+  image: 'assets/locations/silver-spire-poster.webp',
+  video: 'assets/locations/silver-spire.mp4',
+  imageAlt: 'Fenwick’s clock tower rising above Eovar’s waterfront',
+  imageCaption: 'The Silver Spire',
+  videoCaption: 'The Silver Spire',
+  imageLayout: 'landscape-hero'
+};
+window.FENUMION_MEDIA.articles['fenwicks-tower'] = silverSpireMedia;
+window.FENUMION_MEDIA.locations['The Silver Spire'] = silverSpireMedia;
+window.FENUMION_MEDIA.locations['Fenwick’s Tower'] = silverSpireMedia;

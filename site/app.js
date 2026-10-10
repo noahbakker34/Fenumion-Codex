@@ -13770,17 +13770,20 @@ if(civicDossiers) {
     subchannelMap[record.id]=links;
   }
   Object.assign(legacyCharacterProfiles,civicDossiers.profiles);
-  archiveIndex.islands.push({title:'Fenwick’s Tower',region:'Prima',parent:'Eovar Harbor',level:'site',type:'Residence & public bounty board',meta:'Prima › Eovar Harbor · public work',article:'fenwicks-tower',summary:civicDossiers.records.find(record=>record.id==='fenwicks-tower').dek,aliases:["Fenwick's Tower"]});
+  const tower=civicDossiers.records.find(record=>record.id==='fenwicks-tower');
+  archiveIndex.islands.push({title:tower.title,region:'Prima',parent:'Eovar Harbor',level:'site',type:tower.type,meta:'Prima › Eovar Harbor · baths & healing house',article:tower.id,summary:tower.dek,aliases:tower.aliases});
   {
     const branch=navigationRegions.find(region=>region.title==='Locations').branches.find(branch=>branch.title==='Prima');
-    branch.items.push({label:'Fenwick’s Tower',article:'fenwicks-tower'});
+    branch.items.push({label:tower.title,article:tower.id});
   }
   factionDirectoryItems.push({label:'Vital Chain',article:'vital-chain'});
   for(const id of ['eovar-harbor','ale-chemy-knights','farkur','cave-company','papirak-legacy','papiraks-mausoleum']) {
     const links=subchannelMap[id] || (subchannelMap[id]=[]);
     if(!links.some(link=>link.article==='fenwick'))links.push({label:"Fenwick d'Jorasco",article:'fenwick',summary:civicDossiers.records[0].dek});
   }
-  subchannelMap['eovar-harbor'].push({label:'Fenwick’s Tower',article:'fenwicks-tower',summary:'Public material bounties and the city’s information network.'},{label:'Vital Chain',article:'vital-chain',summary:'Healing and community in Eovar’s renewal.'});
+  subchannelMap['eovar-harbor'].push({label:tower.title,article:tower.id,summary:tower.dek},{label:'Vital Chain',article:'vital-chain',summary:'Healing and community in Eovar’s renewal.'});
+  subchannelMap['ale-chemy-knights'].push({label:tower.title,article:tower.id,summary:'Tobias’s building work and Fenwick’s public services in Eovar.'});
+  articles.find(record=>record.id==='eovar-harbor').body += '<h2 id="eovar-silver-spire">The Silver Spire · care that stays in Eovar</h2><p><a href="#fenwicks-tower">Fenwick’s Wizarding Clock Tower</a> becomes the Silver Spire Public Baths, Arcane Market &amp; Healing House. Its public rooms offer baths, food, shelter and medical support coordinated with the infirmary; its upper floors hold staff space, secure rooms and private magical work.</p><p><a href="#tobias">Tobias Goodbarrel</a> helps build the tower and later house-sits it. <a href="#fenwick">Fenwick</a> hosts families during miserable winter weather and signs the Spire’s public notice as a citizen of Eovar. The building gives his ambition for a healthier, more independent city a lasting home.</p>';
   for(const event of civicDossiers.events) {
     if(!archiveIndex.timeline.some(item=>item.title===event.title))archiveIndex.timeline.push(event);
     questEventConsequences[event.title]=event.consequence;

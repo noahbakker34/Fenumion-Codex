@@ -57,6 +57,7 @@
     template.innerHTML = result;
     template.content.querySelectorAll('.callout').forEach(el => { if (!el.textContent.trim() && !el.querySelector('img,video,a')) el.remove(); });
     template.content.querySelectorAll('h2,h3').forEach(h => {
+      if (h.closest('.blessing-theme-heading')) return;
       if (!h.nextElementSibling || /^H[23]$/.test(h.nextElementSibling.tagName)) h.remove();
     });
     return template.innerHTML;

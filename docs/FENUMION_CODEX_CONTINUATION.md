@@ -455,3 +455,7 @@ The user authorized publishing each completed update in this chat after validati
 ## 10 October 2026 · Blessings sidebar and tables
 
 Added top-level Blessings navigation, a twelve-path overview and full boon tables, plus the supplied level 26–30 advancement/capstone/spell reference. Public spreadsheet snapshots are in `site/blessings-data.js`; read-only source scope and interpretation boundaries in `docs/BLESSINGS_REFERENCE.md`. Preserve mechanical wording and do not infer additional purchase rules. User has authorized validation followed by publication for each update in this chat.
+
+## 10 October 2026 · Blessings visual clarity
+
+Blessing pages use a full-width reference layout, overview path cards, clear theme headers and tier/cost badges. The full original wording and table comparison remain available. Existing source data unchanged; the revision improves presentation without balancing or rewriting rules.

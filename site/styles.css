@@ -2495,3 +2495,47 @@ body.narrative-history-view .article-body { padding: clamp(1rem,3vw,2rem); backg
 .blessing-spell { border-bottom: 1px solid var(--line, #45443e); padding: .8rem 0; }
 .blessing-spell summary { cursor: pointer; font-weight: 700; }
 .blessing-source { font-size: .88rem; }
+
+/* Blessing references use the full reading area rather than an empty story rail. */
+.codex-world.blessings-view.record-layout-view .record-overview { display: block; }
+.codex-world.blessings-view .record-visual-rail { display: none; }
+.codex-world.blessings-view .record-summary:empty { display: none; }
+.codex-world.blessings-view .record-overview-copy { min-width: 0; }
+.blessings-view .article-body { font-family: var(--text); }
+.blessing-reading-guide, .blessing-path-intro { padding: 1.2rem 1.4rem; border: 1px solid #484333; border-radius: 10px; background: linear-gradient(110deg, rgba(193,160,83,.09), rgba(20,21,27,.7)); margin-bottom: 1.5rem; }
+.blessing-reading-guide > strong { color: var(--gold-bright); font-size: 1.2rem; }
+.blessing-reading-guide p, .blessing-path-intro p { margin: .6rem 0 1rem; max-width: 70ch; font-size: 1rem; line-height: 1.6; }
+.blessing-cost-guide { display: flex; gap: .7rem; }
+.blessing-cost-guide > div { display: flex; align-items: baseline; gap: .6rem; padding: .5rem .8rem; border: 1px solid #484333; border-radius: 6px; background: #1c1d23; font-size: .9rem; }
+.blessing-cost-guide strong { color: var(--gold-bright); font-size: 1.25rem; }
+.blessing-cost-guide small { color: var(--muted); }
+.blessing-path-directory { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; }
+.blessing-path-card { display: flex; flex-direction: column; align-items: flex-start; padding: 1.2rem; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; background: #191a21; transition: border-color .15s, background .15s; }
+.blessing-path-card:hover { border-color: var(--gold-bright); background: #22222a; }
+.blessing-path-card:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+.blessing-path-number { font-size: .8rem; color: var(--muted); letter-spacing: .1em; }
+.blessing-path-card > strong { font-family: var(--text); font-size: 1.15rem; line-height: 1.4; color: var(--gold-bright); margin: .5rem 0 .8rem; }
+.blessing-theme-list { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: 1rem; }
+.blessing-theme-list > span { padding: .2rem .5rem; font-size: .8rem; line-height: 1.5; color: var(--ink); background: #25262d; border-radius: 4px; }
+.blessing-open { margin-top: auto; color: var(--muted); font-size: .85rem; }
+.blessing-theme-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); align-items: start; gap: 1rem; }
+.blessing-theme-panel { min-width: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #191a21; }
+.blessing-theme-heading { padding: 1rem 1.2rem; border-bottom: 1px solid #59503a; background: linear-gradient(120deg,#302b20,#202127); }
+.blessing-theme-heading > span { font-size: .75rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); }
+.blessing-theme-heading h3 { font-family: var(--text); font-size: 1.2rem; line-height: 1.4; margin: .3rem 0 0; color: var(--gold-bright); }
+.blessing-boon { padding: 1.1rem 1.2rem; border-bottom: 1px solid var(--line); }
+.blessing-boon:last-child { border-bottom: 0; }
+.blessing-boon-heading { display: flex; justify-content: space-between; gap: .5rem; align-items: center; font-size: .8rem; font-weight: 700; }
+.blessing-cost { border: 1px solid #675735; border-radius: 20px; padding: .2rem .6rem; color: var(--gold-bright); font-weight: 400; }
+.blessing-cost b { font-size: 1rem; margin-left: .25rem; }
+.blessings-view .blessing-rule { font-size: .95rem; line-height: 1.65; margin: .8rem 0; color: var(--ink); }
+.blessing-original { font-size: .85rem; color: var(--muted); }
+.blessing-original summary { cursor: pointer; padding: .3rem 0; }
+.blessing-original p { font-size: .85rem; line-height: 1.6; }
+.blessing-comparison { margin: 1.5rem 0; padding: .9rem 1.1rem; border: 1px solid var(--line); border-radius: 8px; }
+.blessing-comparison > summary { cursor: pointer; color: var(--gold-bright); font-size: .95rem; min-height: 28px; }
+.blessing-advancement-link { display: flex; flex-direction: column; gap: .3rem; padding: 1.1rem 1.3rem; margin: 1.4rem 0; border-left: 3px solid var(--gold-bright); background: #202127; text-decoration: none; font-size: .95rem; }
+.blessing-advancement-link strong { color: var(--gold-bright); }
+.blessing-back { font-size: .9rem; }
+@media(max-width:1200px) { .blessing-path-directory { grid-template-columns: repeat(2,minmax(0,1fr)); } .blessing-theme-grid { grid-template-columns: minmax(0,1fr); } }
+@media(max-width:600px) { .blessing-path-directory { grid-template-columns: minmax(0,1fr); } .blessing-cost-guide { gap: .4rem; flex-wrap: wrap; } .blessing-cost-guide > div { padding: .4rem .6rem; gap: .4rem; } .blessing-path-intro, .blessing-reading-guide { padding: 1rem; } }

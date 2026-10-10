@@ -131,3 +131,13 @@ window.FENUMION_MEDIA = {
 const thunderingCoastMedia = {image:'assets/archive/thundering-coast-poster.webp',video:'assets/archive/thundering-coast.mp4',imageAlt:'Aerial landscape of the Thundering Coast on Prima',imageCaption:'The Thundering Coast · Prima',videoCaption:'The Thundering Coast · Prima'};
 window.FENUMION_MEDIA.locations['The Thundering Coast'] = thunderingCoastMedia;
 window.FENUMION_MEDIA.articles['thundering-coast'] = thunderingCoastMedia;
+
+const tobiasMedia = {
+  image: 'assets/characters/tobias-poster.webp',
+  video: 'assets/characters/tobias.mp4',
+  imageAlt: 'Tobias, a stout halfling with a shaved head and dark beard, wearing ornate armor and a green cloak',
+  imageCaption: 'Tobias',
+  videoCaption: 'Tobias'
+};
+window.FENUMION_MEDIA.characters.Tobias = tobiasMedia;
+window.FENUMION_MEDIA.articles.tobias = tobiasMedia;

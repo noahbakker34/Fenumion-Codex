@@ -13701,6 +13701,40 @@ for (const id of ['gael','tower-of-gael','huoth','nienna','elenia','adelia-hope'
   links.push({label:'Gael · Making Life Possible Again',article:'gael-restoration',summary:'Follow the shared work of refuge, renewal and rebuilding across people and places.'});
 }
 
+// Add the expanded histories before deriving search, routes and counts.
+const characterDossiers = window.FENUMION_BOWENE_JIANGSHI;
+if(characterDossiers) {
+  const bowene=characterDossiers.bowene;
+  articles.push(bowene);
+  const jiangshi=articles.find(record=>record.id==='jiangshi');
+  Object.assign(jiangshi,{dek:characterDossiers.jiangshi.dek,facts:{...jiangshi.facts,...characterDossiers.jiangshi.facts},tags:[...new Set([...jiangshi.tags,'Ancestors','Family','Hope','Bitoshi','Trust'])],body:jiangshi.body+characterDossiers.jiangshi.suffix});
+  for(const record of [bowene,jiangshi]) {
+    const pool=record.id==='bowene'?archiveIndex.npcs:archiveIndex.characters;
+    const entry=pool.find(person=>person.article===record.id || person.title===record.title);
+    const updated={title:record.title,meta:record.type,article:record.id,summary:record.dek,...(record.aliases?{aliases:record.aliases}:{}),...(record.image?{image:record.image}:{})};
+    if(entry)Object.assign(entry,updated);else pool.push(updated);
+    fixedArticlePaths.set(record.id,['Characters',record.title]);
+  }
+  let boweneNav=false;
+  for(const region of navigationRegions)for(const branch of region.branches || [])for(const item of branch.items || [])if(/Bowene|Bowen/.test(item.label)){item.article='bowene';boweneNav=true;}
+  if(!boweneNav)navigationRegions.find(region=>region.title==='Characters').branches.find(branch=>branch.title==='Characters A–J').items.push({label:'High Lord Bowene',article:'bowene'});
+  for(const event of characterDossiers.events)if(!archiveIndex.timeline.some(item=>item.title===event.title && item.sort===event.sort))archiveIndex.timeline.push(event);
+  const comfort=archiveIndex.timeline.find(item=>item.title==='Jiangshi comforts Adelia');
+  if(comfort)Object.assign(comfort,{meta:'25 Apr 2025',sort:'2025-04-25',summary:'After Adelia returns from a horrific fight, Jiangshi offers calming herbs, healing shadow-smoke, Smokey and closeness without demanding an explanation. Her trust in family and ancestors accompanies her care.'});
+  const exile=archiveIndex.timeline.find(item=>item.title==='Bowene exiles Elenia without closing the door');
+  if(exile)Object.assign(exile,{article:'bowene',people:'High Lord Bowene; Elenia; Aravil; Olokun',summary:'Bowene exiles Elenia, Aravil and Olokun, offers information and support for the struggle in Babel-Ashur, and gives Elenia a sending stone. He acknowledges Aria’s imperfections and leaves future coexistence possible without erasing the punishment.'});
+  const succession=archiveIndex.timeline.find(item=>item.title==='High Lord Bowene ascends after Aria’s death');
+  if(succession)Object.assign(succession,{article:'bowene',sort:'2025-11-06z',summary:'Bowene becomes High Lord in the post-Aria political order. Aria dies on 6 November 2025; his accession’s exact date and mechanism are not established.'});
+  const loss=archiveIndex.timeline.find(item=>item.title==='Nienna orders a retreat when Jiangshi is lost');
+  if(loss)loss.sort='2024-06';
+  const quotesArticle=articles.find(record=>record.id==='memorable-quotes');
+  const freshQuotes=characterDossiers.quotes.filter(quote=>!quotesArticle.body.includes(escapeHtml(quote.text)) && !quotesArticle.body.includes(quote.text));
+  const quoteHtml=[...new Set(freshQuotes.map(quote=>quote.group))].map((group,index)=>'<h2 id="character-dossier-quotes-'+index+'">'+escapeHtml(group)+'</h2><div class="quote-gallery">'+freshQuotes.filter(quote=>quote.group===group).map(quote=>'<button type="button" class="quote-card" data-article="'+quote.article+'"><blockquote>“'+escapeHtml(quote.text)+'”</blockquote><cite>'+escapeHtml(quote.speaker)+'</cite></button>').join('')+'</div>').join('');
+  quotesArticle.body=quotesArticle.body.replace('<h2 id="why-these-lines-remain">',quoteHtml+'<h2 id="why-these-lines-remain">');
+  subchannelMap.bowene=[{label:'Aria / Pride',article:'aria-pride',summary:'The predecessor whose legitimacy, harm and memory his rule inherits.'},{label:'Zarathis',article:'zarathis',summary:'The society whose dignity and laws he must preserve and reconsider.'},{label:'Elenia',article:'elenia',summary:'Extraordinary power judged under Zarathian law.'},{label:'Olokun',article:'olokun',summary:'An intimate witness to Aria’s legacy, dissenter and exile.'},{label:'Gartina',article:'gartina',summary:'Outsider participation in public political proceedings.'}];
+  for(const id of ['aria-pride','zarathis','fein-uaill','elenia','ciaranach']){const links=subchannelMap[id] || (subchannelMap[id]=[]);if(!links.some(link=>link.article==='bowene'))links.push({label:'High Lord Bowene',article:'bowene',summary:bowene.dek});}
+}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -13719,6 +13753,9 @@ const routeAliases = new Map([["vess", "vessalia"],["reading-the-codex", "ethos-
   ["derya-thorne", "deyara-thorn"],
   ["deyara", "deyara-thorn"],
   ["derya", "deyara-thorn"], ["sheeva", "sheeva-dragonsister"], ["sheeva-dragosister", "sheeva-dragonsister"], ["kaiya", "kaiya-dragonsister"], ["kaiyah", "kaiya-dragonsister"], ["kaiyah-dragonsister", "kaiya-dragonsister"], ["minyah", "minyah-dragonsister"]]);
+
+routeAliases.set('high-lord-bowene','bowene');
+routeAliases.set('bowen','bowene');
 
 const relationshipMaps = {
   magnus: {
@@ -15004,6 +15041,11 @@ function applyMediaCatalog(catalog = window.FENUMION_MEDIA || {}) {
     archiveIndex.islands.filter(place => place.title === title).forEach(place => mergeMedia(place, media));
   });
   Object.entries(catalog.articles || {}).forEach(([id, media]) => mergeMedia(byId.get(id), media));
+}
+
+if(characterDossiers && relationshipMaps.jiangshi) {
+  const shadowTie=relationshipMaps.jiangshi.nodes.find(node=>node.id==='death');
+  if(shadowTie){Object.assign(shadowTie,{title:'Ancestors & Shadowlands',subtitle:'Connection within the darkness',relation:'Personal testimony of ancestors and visitors',history:'Jiangshi remembers cold, desolate Shadowlands in which ancestors and visitors reached her. Her shadows can preserve care and connection.',consequence:'The experience supports her trust in continuity without making death harmless or equating ancestral shadow with Dumuzi.',evidence:'Her testimony is preserved; a complete afterlife geography and resurrection mechanism remain unresolved.'});delete shadowTie.article;}
 }
 
 applyMediaCatalog();

@@ -134,6 +134,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | Seekers symbol (`seekers.png`) | Supplied 10 Oct 2026 | Faction emblem image | User identifies as The Seekers’ symbol; artist unstated | The Seekers | Visual identity only; no inferred identity for the depicted tree or crystal | `site/assets/archive/seekers-symbol.png`; The Seekers article (`cave-company`) |
 
+| Ale-Chemy Knights symbol (`Alechemy Knights.png`) | Supplied 10 Oct 2026 | Faction emblem image | User identifies as Ale-Chemy Knights symbol; artist unstated | Ale-Chemy Knights | Visual identity only; no inferred origin or additional symbolism | `site/assets/archive/ale-chemy-knights-symbol.png`; faction article; `docs/ALE_CHEMY_KNIGHTS_HISTORY.md` |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

@@ -656,6 +656,9 @@ const articles = [
   {
     "id": "ale-chemy-knights",
     "title": "The Ale-Chemy Knights",
+    "image": "assets/archive/ale-chemy-knights-symbol.png",
+    "imageAlt": "Ale-Chemy Knights symbol: a shield containing a hammer, a potion flask and a foaming ale tankard on a parchment background",
+    "imageCaption": "The symbol of the Ale-Chemy Knights.",
     "category": "Factions",
     "type": "Adventuring faction and civic builders",
     "dek": "A self-funded adventuring cooperative and mutual-aid institution that turns different skills into logistics, equipment, infrastructure, newcomer support, public works, and reconstruction.",

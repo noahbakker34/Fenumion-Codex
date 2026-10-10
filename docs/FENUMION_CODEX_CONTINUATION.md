@@ -493,3 +493,7 @@ Audited runtime article IDs (163 initial, 173 final including generated records)
 ## 10 October 2026 · Veilguard symbol
 
 Added the user-identified Veilguard symbol unchanged as `site/assets/archive/veilguard-symbol.png`, displayed on the faction article and reused by article-image consumers. Visual description only; no invented heraldic or religious meaning.
+
+## 10 October 2026 · Seekers symbol
+
+Added the user-identified symbol of The Seekers unchanged at `site/assets/archive/seekers-symbol.png`, displayed on their faction page (`cave-company`) and reused by article-image consumers. Caption and alt text describe visual identity; the tree and crystal are not assigned a canonical identity or religious meaning.

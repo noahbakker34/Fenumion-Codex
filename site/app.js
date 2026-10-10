@@ -2709,6 +2709,9 @@ const articles = [
   {
     "id": "cave-company",
     "title": "The Seekers",
+    "image": "assets/archive/seekers-symbol.png",
+    "imageAlt": "The Seekers symbol: a branching tree with roots surrounding a violet crystal, against a star-filled sky within a circular ornamental frame",
+    "imageCaption": "The symbol of The Seekers.",
     "category": "People",
     "type": "Expedition company · investigators",
     "dek": "Vessalia, Di’Trillio, Pell, Minerva, and Fenwick form an investigative company drawn toward contamination, dangerous places, and unresolved threats.",

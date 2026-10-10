@@ -15951,6 +15951,7 @@ function renderArticle(route, pushHash = true) {
   );
   document.body.classList.toggle('death-view',deathRelated);
   document.body.classList.toggle("home-view", article.id === "world-index");
+  document.body.classList.remove("character-dossier-view");
   document.body.classList.toggle("hub-view", Boolean(hubPage));
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
   document.body.classList.toggle("factions-view", article.id === "factions");
@@ -16050,6 +16051,7 @@ function renderArticle(route, pushHash = true) {
       <div class="article-body">${article.body}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
+  window.organizeCharacterPage?.(articleContent, article.category === "People");
   if (article.id === "world-index") {
     setupWorldBrowser();
     setupFeaturedContent();
@@ -16901,6 +16903,7 @@ document.addEventListener("click", event => {
   const sectionTrigger = event.target.closest("[data-section]");
   if (sectionTrigger) {
     document.querySelector("#mobile-contents").open = false;
+    window.revealCharacterSection?.(document.getElementById(sectionTrigger.dataset.section));
     document.getElementById(sectionTrigger.dataset.section)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
   }
 });

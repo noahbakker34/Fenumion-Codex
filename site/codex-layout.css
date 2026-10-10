@@ -130,7 +130,7 @@
 .codex-world:not(.home-view) .infobox:not(:has(.fact)) { display: none; }
 .codex-world:not(.home-view) .infobox-title { grid-column: 1 / -1; padding: 0 0 1rem; margin: 0; }
 .codex-world:not(.home-view) .infobox .fact { min-width: 0; overflow-wrap: anywhere; }
-.codex-world:not(.home-view) .article-hero:not(.map-hero):not(.medallion-hero) :is(img,video) {
+.codex-world:not(.home-view):not(.character-dossier-view) .article-hero:not(.map-hero):not(.medallion-hero) :is(img,video) {
   width: 100%; max-width: 100%; height: auto; max-height: none;
   margin-inline: 0; object-fit: contain;
 }
@@ -160,4 +160,44 @@
 }
 .codex-world .character-art-grid:has(> figure:only-child) { grid-template-columns: minmax(0,1fr); }
 .codex-world .character-art-grid:has(> figure:only-child) figure > a { padding: 0; }
-.codex-world .character-art-grid:has(> figure:only-child) img { width: 100%; height: auto; max-height: none; }
+.codex-world:not(.character-dossier-view) .character-art-grid:has(> figure:only-child) img { width: 100%; height: auto; max-height: none; }
+
+/* Long character histories start with a compact overview and readable chapters. */
+.codex-world :is(.death-video-backdrop,.ethos-video-backdrop,.locations-video-backdrop,.factions-video-backdrop,.history-video-backdrop) { z-index: -1; }
+.codex-world.character-dossier-view .article-header { padding: 1.3rem 1.5rem; margin-bottom: 1.25rem; }
+.codex-world.character-dossier-view .article-header h1 { font-size: clamp(2.4rem,4vw,3.6rem); }
+.character-overview { display: grid; grid-template-columns: minmax(0,.7fr) minmax(0,1.3fr); gap: 1.25rem; margin-bottom: 1.25rem; align-items: start; }
+.character-overview:not(:has(> .article-hero)) { grid-template-columns: minmax(0,1fr); }
+.codex-world.character-dossier-view .character-overview > .article-hero { margin: 0; }
+.codex-world.character-dossier-view .character-overview > .medallion-hero { padding: 0; }
+.codex-world.character-dossier-view .character-overview > .medallion-hero figcaption { margin: 0; }
+.codex-world.character-dossier-view .character-overview figcaption.media-name-caption { padding: .8rem; font-size: 1.5rem; }
+.codex-world.character-dossier-view .character-overview .article-hero :is(img,video) { width: 100%; height: auto; max-height: 480px; object-fit: contain; }
+.character-overview-copy { min-width: 0; padding: 1.25rem; background: rgba(20,21,27,.94); border: 1px solid var(--line); border-radius: 10px; }
+.character-introduction { font-family: var(--text); font-size: 1.12rem; line-height: 1.7; }
+.character-introduction > :first-child { margin-top: 0; }
+.codex-world.character-dossier-view .character-overview .infobox { position: static; width: 100%; margin: 1rem 0 0; padding: 1rem 0 0; background: none; border: 0; border-top: 1px solid var(--line); box-shadow: none; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 1.25rem; }
+.character-overview .infobox-title { grid-column: 1 / -1; padding: 0; margin: 0 0 .6rem; }
+.character-overview .fact { min-width: 0; overflow-wrap: anywhere; font-size: .9rem; }
+.codex-world.character-dossier-view .article-body { padding: 0; background: none; }
+.character-reading-controls { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; font: 1rem/1.4 var(--text); color: var(--muted); }
+.character-reading-controls button { color: var(--gold-bright); border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: .6rem .8rem; min-height: 44px; cursor: pointer; font: inherit; }
+.character-chapter { margin: .75rem 0; padding: 0 1.25rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(20,21,27,.95); }
+.character-chapter > summary { cursor: pointer; min-height: 64px; padding: 1rem 0; list-style: none; display: flex; align-items: center; gap: .8rem; }
+.character-chapter > summary::-webkit-details-marker { display: none; }
+.character-chapter > summary::after { content: '+'; margin-left: auto; flex: 0 0 auto; color: var(--gold-bright); font: 1.5rem/1 var(--text); }
+.character-chapter[open] > summary::after { content: '−'; }
+.codex-world .character-chapter > summary h2 { margin: 0; padding: 0; border: 0; font-size: clamp(1.15rem,1.4vw,1.5rem); line-height: 1.4; }
+.character-chapter[open] > summary { border-bottom: 1px solid var(--line); margin-bottom: 1rem; }
+.character-chapter[open] { padding-bottom: 1rem; }
+.character-chapter > section { border: 0; margin-top: 0; padding-inline: 0; }
+.character-chapter .character-art-grid img { max-height: 420px; width: 100%; object-fit: contain; }
+@media (max-width: 900px) {
+  .character-overview { grid-template-columns: minmax(0,1fr); }
+  .codex-world.character-dossier-view .character-overview .article-hero :is(img,video) { max-height: 400px; }
+}
+@media (max-width: 600px) {
+  .codex-world.character-dossier-view .character-overview .infobox { grid-template-columns: minmax(0,1fr); }
+  .character-chapter { padding-inline: .85rem; }
+  .codex-world.character-dossier-view .article-header { padding: 1rem; }
+}

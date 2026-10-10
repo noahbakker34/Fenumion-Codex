@@ -136,6 +136,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | Ale-Chemy Knights symbol (`Alechemy Knights.png`) | Supplied 10 Oct 2026 | Faction emblem image | User identifies as Ale-Chemy Knights symbol; artist unstated | Ale-Chemy Knights | Visual identity only; no inferred origin or additional symbolism | `site/assets/archive/ale-chemy-knights-symbol.png`; faction article; `docs/ALE_CHEMY_KNIGHTS_HISTORY.md` |
 
+| Vital Chain symbol (`the_gardener_A_symbol_for_a_group_called_the_Vital_chain_of_h_93bf07e8-0d2d-4c6c-a2a7-47db372f4266_1.mp4`) | Supplied 10 Oct 2026 | Animated faction emblem | User identifies as Vital Chain symbol; artist unstated | Vital Chain | Visual identity only; no inferred meaning or history | Unchanged video at `site/assets/archive/vital-chain-symbol.mp4`; extracted first-frame poster at `site/assets/archive/vital-chain-symbol-poster.png`; Vital Chain article |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

@@ -501,3 +501,7 @@ Added the user-identified symbol of The Seekers unchanged at `site/assets/archiv
 ## 10 October 2026 · Ale-Chemy Knights symbol
 
 Added the user-identified Ale-Chemy Knights symbol unchanged at `site/assets/archive/ale-chemy-knights-symbol.png`, displayed on the faction article and reused by article-image consumers. Caption and alt text identify the emblem without inventing heraldic history or meaning.
+
+## 10 October 2026 · Vital Chain symbol
+
+Added the supplied Vital Chain animation unchanged at `site/assets/archive/vital-chain-symbol.mp4` with an extracted first-frame poster at `site/assets/archive/vital-chain-symbol-poster.png`. The article uses the existing muted, looping ambient-video presentation, which pauses offscreen and respects reduced-motion preferences. The poster also supplies a still emblem for article-image consumers. Captions identify the symbol without adding invented lore. Bumped the civic-record script cache version.

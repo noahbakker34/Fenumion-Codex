@@ -133,6 +133,11 @@ window.FENUMION_FENWICK_TOBIAS = {
     {
       "id": "vital-chain",
       "title": "Vital Chain",
+      "image": "assets/archive/vital-chain-symbol-poster.png",
+      "imageAlt": "Vital Chain symbol: interwoven gold, blue, violet and green luminous loops around a central light within an ornate circular frame",
+      "imageCaption": "The symbol of Vital Chain.",
+      "video": "assets/archive/vital-chain-symbol.mp4",
+      "videoCaption": "The animated symbol of Vital Chain.",
       "category": "Factions",
       "type": "Healing & community institution",
       "dek": "The healing and community network founded by Fenwick and associated with Eovar’s renewal.",

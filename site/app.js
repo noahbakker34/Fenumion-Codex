@@ -13822,63 +13822,75 @@ const primaIslandMap = {
   "title": "Prima",
   "shortTitle": "Prima",
   "image": "assets/archive/prima-map.jpg",
-  "width": 2048,
-  "height": 1536,
+  "width": 3072,
+  "height": 2304,
   "alt": "Map of Prima showing Eovar Harbor, the Thundering Coast, Pristinia, the Gate, the Before, Old Earth Hills, the First Forest, Kinich Ahau, the Rahu, Lost Shacks and the Shard",
   "description": "The island of Prima connects Eovar Harbor and the Thundering Coast with Pristinia, the Gate, the Before and the island’s other named landscapes. Pristinia and Eovar retain separate settlement maps.",
   "pins": [
     {
       "title": "Eovar Harbor",
+      "article": "eovar-harbor",
       "x": 52,
       "y": 44
     },
     {
       "title": "The Thundering Coast",
+      "article": "thundering-coast",
       "x": 41.6,
       "y": 36.8
     },
     {
       "title": "Pristinia",
+      "article": "pristinia",
       "x": 61.5,
       "y": 51
     },
     {
       "title": "The Gate",
+      "article": "gate-clearing",
       "x": 65,
       "y": 40
     },
     {
       "title": "The First Forest",
+      "article": "first-forest",
       "x": 72,
       "y": 48.4
     },
     {
       "title": "Old Earth Hills",
+      "article": "old-earth-hills",
       "x": 60,
       "y": 19.5
     },
     {
-      "title": "The Before Survey Entrance",
+      "title": "The Before",
+      "article": "before-survey",
+      "summary": "The Before lies in northeastern Prima. Its public survey history follows the expedition into its ruins; the island marker does not locate the survey entrance precisely.",
       "x": 70.5,
       "y": 24.3
     },
     {
       "title": "Rahu",
+      "article": "rahu-lands",
       "x": 31,
       "y": 80.5
     },
     {
       "title": "Lost Shacks",
+      "article": "lost-shacks",
       "x": 31.6,
       "y": 28
     },
     {
       "title": "Kinich Ahau",
+      "article": "kinich-ahau",
       "x": 85.7,
       "y": 42
     },
     {
       "title": "The Shard of Prima",
+      "article": "shard-of-prima",
       "x": 82,
       "y": 66
     }
@@ -13911,6 +13923,51 @@ for(const [title,type,summary] of [
  ['Kinich Ahau','Map-labeled area','The Prima map labels the Kinich Ahau in the east of the island. Its exact boundaries are not defined by this marker.'],
  ['The Shard of Prima','Map-labeled landmark','The Prima map labels a southern landmark as “The Shard.” It is distinct from the Shard of Fein Uaill; its deeper history is not established here.']
 ])archiveIndex.islands.push({title,region:'Prima',parent:'Prima',level:'site',type,meta:'Prima · '+type,article:'prima-pristinia',summary});
+
+
+// Each named Prima landmark has a public destination, even when only its geography is known.
+const primaMapLocations = [
+  {
+    id:'old-earth-hills',title:'Old Earth Hills',type:'Hills',
+    dek:'Prima’s northeastern hills, reached from the First Forest by scrubland and switchback roads.',
+    facts:{'Approach':'The First Forest'},
+    body:'<p>The Old Earth Hills lie in northeastern <a href="#prima-pristinia">Prima</a>. The island map places their label north of <a href="#before-survey">The Before</a>.</p><h2 id="hills-approach">The road from the forest</h2><p>During the 2 May 2024 journey through <a href="#first-forest">the First Forest</a>, the trees become shorter and thinner toward the hills, giving way to bushes, scrubland, and switchback roads.</p><p>The hills are an exploration and hunting landscape. Their complete boundaries and internal sites remain unestablished.</p>'
+  },
+  {
+    id:'lost-shacks',title:'Lost Shacks',type:'Coastal site',
+    dek:'A named site on Prima’s northwestern coastal land.',
+    facts:{'Position':'Northwestern Prima'},
+    body:'<p>Lost Shacks is marked on the northwestern coastal land of <a href="#prima-pristinia">Prima</a>, north of <a href="#thundering-coast">the Thundering Coast</a>.</p><h2 id="shacks-known-geography">The place on the map</h2><p>The name and location are established by the island map. Its inhabitants, buildings, and history remain unconfirmed.</p>'
+  },
+  {
+    id:'kinich-ahau',title:'Kinich Ahau',aliases:['The Kinich Ahau'],type:'Named area',
+    dek:'The area labeled “The Kinich Ahau” in eastern Prima.',
+    facts:{'Position':'Eastern Prima'},
+    body:'<p>The <a href="#prima-pristinia">Prima</a> map labels an eastern area as “The Kinich Ahau,” east of <a href="#first-forest">the First Forest</a>.</p><h2 id="kinich-map">The mapped area</h2><p>The label establishes a place on the island. It does not define the area’s exact boundaries or the full relationship between the named land and the Ahau people.</p>'
+  },
+  {
+    id:'shard-of-prima',title:'The Shard of Prima',type:'Landmark',
+    dek:'The southern Prima landmark labeled “The Shard” on the island map.',
+    facts:{'Position':'Southern Prima'},
+    body:'<p>The island map places “The Shard” in southern <a href="#prima-pristinia">Prima</a>, south of <a href="#first-forest">the First Forest</a>.</p><h2 id="prima-shard-identity">A landmark of Prima</h2><p>This is a separate mapped landmark from <a href="#shard-of-fein-uaill">the Shard of Fein Uaill</a>. The Prima label alone does not establish its powers, origin, or deeper history.</p>'
+  },
+  {
+    id:'rahu-lands',title:'Rahu Lands',aliases:['Rahu','The Rahu'],type:'Rahu territory',
+    dek:'The Rahu lands marked in southwestern Prima, with Rahuvia as their capital.',
+    facts:{'Position':'Southwestern Prima','Capital':'Rahuvia'},
+    body:'<p>The <a href="#prima-pristinia">Prima</a> map marks the Rahu lands in the southwest of the island. <a href="#rahuvia">Rahuvia</a> is the Rahu capital; the regional map marker does not establish its precise position within those lands.</p><h2 id="rahu-capital-links">The capital and its connections</h2><p>Rahuvia’s public history follows its sacred precincts, political life, and the negotiations of June 2025. The agreement names <a href="#eovar-harbor">Eovar Harbor</a> as the intermediary for later Pristinian-facing business.</p><p>The capital is a more specific location than the regional label. Read <a href="#rahuvia">Rahuvia’s entry</a> for its recorded history.</p>'
+  }
+];
+for(const place of primaMapLocations) {
+  const record={...place,category:'Places',tags:['Prima',place.type],facts:{Region:'Prima',...place.facts},sources:[],image:primaIslandMap.image,imageAlt:primaIslandMap.alt,imageCaption:'Prima · island map',mapId:'prima',mapLinkLabel:'Explore the interactive Prima map'};
+  articles.push(record);
+  const indexed=archiveIndex.islands.find(item=>item.title===(place.id==='rahu-lands'?'Rahu':place.title));
+  Object.assign(indexed,{article:place.id,summary:place.dek,aliases:[...new Set([...(indexed.aliases || []),...(place.aliases || [])])]});
+  fixedArticlePaths.set(place.id,['Locations','Prima',place.title]);
+  locationsNav.branches.find(branch=>branch.title==='Prima').items.push({label:place.title,article:place.id});
+  subchannelMap[place.id]=[{label:'Prima',article:'prima-pristinia',summary:'The island around this place.'}];
+  subchannelMap['prima-pristinia'].push({label:place.title,article:place.id,summary:place.dek});
+}
 
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
@@ -16298,7 +16355,15 @@ function setupInteractiveAtlas(initialMapId = "") {
   let activeLocationTitle = initialMap.pins[0]?.title || "";
   let hoverTimer = null;
 
-  const findLocation = title => archiveIndex.islands.find(item => item.title === title);
+  const findLocation = title => {
+    const map=interactiveMaps.find(map=>map.id===activeMapId);
+    const pin=map?.pins.find(pin=>pin.title===title);
+    const indexed=archiveIndex.islands.find(item=>item.title===title);
+    if(!pin?.article) return indexed;
+    const article=byId.get(pin.article);
+    if(!article) return null;
+    return {...indexed,title,article:article.id,meta:indexed?.meta || `${map.title} · ${article.type}`,summary:pin.summary || indexed?.summary || article.dek};
+  };
   const linkedMapIds = new Map([["Gael", "gael"], ["Prima", "prima"], ["Pristinia", "pristinia"], ["Fein Uaill", "fein-uaill"], ["Gates of Aelthor", "fein-uaill"], ["The Shining Shores", "fein-uaill"], ["Babel-Ashur", "babel-ashur"], ["Luminar Spires", "luminar-spires"], ["Greyward Littoral", "greyward"], ["Voraketh", "voraketh"], ["Eovar Harbor", "eovar"]]);
   const syncMapRoute = () => history.replaceState(null, "", `#visual-archive?map=${encodeURIComponent(activeMapId)}`);
 
@@ -16662,7 +16727,7 @@ function renderLocationConnections(article) {
   if (!isLocationArticle(article)) return '';
   const places = archiveIndex.islands.filter(place => place.article === article.id);
   const names = new Set([article.title, ...places.flatMap(place => [place.title, ...(place.aliases || [])])]);
-  const maps = interactiveMaps.filter(map => map.pins.some(pin => names.has(pin.title)));
+  const maps = interactiveMaps.filter(map => map.pins.some(pin => pin.article === article.id || names.has(pin.title)));
   const people = [...new Map(locationTimelineItems(article).flatMap(event => String(event.people || '').split(';').map(name => resolvePublicPerson(name.trim())).filter(Boolean)).map(person => [person.title, person])).values()];
   const children = archiveIndex.islands.filter(place => names.has(place.parent) && !names.has(place.title) && isPlayerSafeArticle(place.article));
   const parents = [...new Set(places.map(place => place.parent).filter(parent => parent && !names.has(parent)))].map(name => archiveIndex.islands.find(place => place.title === name && isPlayerSafeArticle(place.article))).filter(Boolean);

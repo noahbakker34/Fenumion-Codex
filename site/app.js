@@ -15951,7 +15951,7 @@ function renderArticle(route, pushHash = true) {
   );
   document.body.classList.toggle('death-view',deathRelated);
   document.body.classList.toggle("home-view", article.id === "world-index");
-  document.body.classList.remove("character-dossier-view");
+  document.body.classList.remove("record-layout-view");
   document.body.classList.toggle("hub-view", Boolean(hubPage));
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
   document.body.classList.toggle("factions-view", article.id === "factions");
@@ -16055,9 +16055,16 @@ function renderArticle(route, pushHash = true) {
     .filter(node => node.article && node.article !== article.id && isPlayerSafeArticle(node.article))
     .map(node => ({ node, record: byId.get(node.article) }))
     .filter(({ record }) => record)
-    .slice(0, 4)
     .map(({ node, record }) => ({ id: record.id, title: record.title, subtitle: node.subtitle, image: record.image }));
-  window.organizeCharacterPage?.(articleContent, article.category === "People", visualConnections);
+  const linkedIds = [...(article.relatedRecords || []), ...[...articleContent.querySelectorAll('.article-body a[href^="#"], .subchannels [data-article]')].map(link => link.dataset.article || link.getAttribute('href').slice(1).split('?')[0])];
+  linkedIds.forEach(id => {
+    const record=byId.get(id);
+    if(record && record.id!==article.id && isPlayerSafeArticle(id) && !visualConnections.some(connection=>connection.id===id)) visualConnections.push({id,title:record.title,subtitle:record.type,image:record.image});
+  });
+  const hasConnections=visualConnections.length>0;
+  if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
+  const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
+  window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:Boolean(hubPage) && article.id!=='ethos-of-fenumion', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
   if (article.id === "world-index") {
     setupWorldBrowser();
     setupFeaturedContent();
@@ -16932,7 +16939,7 @@ document.addEventListener("click", event => {
   const sectionTrigger = event.target.closest("[data-section]");
   if (sectionTrigger) {
     document.querySelector("#mobile-contents").open = false;
-    window.revealCharacterSection?.(document.getElementById(sectionTrigger.dataset.section));
+    window.revealCodexSection?.(document.getElementById(sectionTrigger.dataset.section));
     document.getElementById(sectionTrigger.dataset.section)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
   }
 });

@@ -130,7 +130,7 @@
 .codex-world:not(.home-view) .infobox:not(:has(.fact)) { display: none; }
 .codex-world:not(.home-view) .infobox-title { grid-column: 1 / -1; padding: 0 0 1rem; margin: 0; }
 .codex-world:not(.home-view) .infobox .fact { min-width: 0; overflow-wrap: anywhere; }
-.codex-world:not(.home-view):not(.character-dossier-view) .article-hero:not(.map-hero):not(.medallion-hero) :is(img,video) {
+.codex-world:not(.home-view):not(.record-layout-view) .article-hero:not(.map-hero):not(.medallion-hero) :is(img,video) {
   width: 100%; max-width: 100%; height: auto; max-height: none;
   margin-inline: 0; object-fit: contain;
 }
@@ -160,59 +160,78 @@
 }
 .codex-world .character-art-grid:has(> figure:only-child) { grid-template-columns: minmax(0,1fr); }
 .codex-world .character-art-grid:has(> figure:only-child) figure > a { padding: 0; }
-.codex-world:not(.character-dossier-view) .character-art-grid:has(> figure:only-child) img { width: 100%; height: auto; max-height: none; }
+.codex-world:not(.record-layout-view) .character-art-grid:has(> figure:only-child) img { width: 100%; height: auto; max-height: none; }
 
-/* Long character histories start with a compact overview and readable chapters. */
+/* Records share a compact overview, visual column and readable chapters. */
 .codex-world :is(.death-video-backdrop,.ethos-video-backdrop,.locations-video-backdrop,.factions-video-backdrop,.history-video-backdrop) { z-index: -1; }
-.codex-world.character-dossier-view .article-header { padding: 1.3rem 1.5rem; margin-bottom: 1.25rem; }
-.codex-world.character-dossier-view .article-header h1 { font-size: clamp(2.4rem,4vw,3.6rem); }
-.character-overview { display: grid; grid-template-columns: minmax(220px,min(32%,360px)) minmax(0,1fr); gap: 1.25rem; margin-bottom: 1.25rem; align-items: start; }
-.character-overview:not(:has(> .character-visual-rail)) { grid-template-columns: minmax(0,1fr); }
-.codex-world.character-dossier-view .character-visual-rail > .article-hero { margin: 0; }
-.codex-world.character-dossier-view .character-visual-rail > .medallion-hero { padding: 0; }
-.codex-world.character-dossier-view .character-visual-rail > .medallion-hero figcaption { margin: 0; }
-.codex-world.character-dossier-view .character-overview figcaption.media-name-caption { padding: .8rem; font-size: 1.5rem; }
-.codex-world.character-dossier-view .character-overview .article-hero :is(img,video) { width: 100%; height: auto; max-height: 480px; object-fit: contain; }
-.character-overview-copy { min-width: 0; }
-.character-summary { padding: 1.25rem; margin-bottom: 1.25rem; background: rgba(20,21,27,.94); border: 1px solid var(--line); border-radius: 10px; }
-.character-visual-rail { position: sticky; top: 90px; max-height: calc(100vh - 110px); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--line) transparent; min-width: 0; display: grid; gap: 1rem; }
-.character-visual-links, .character-rail-art { padding: 1rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(20,21,27,.95); }
-.character-visual-rail h2 { margin: 0 0 .8rem; color: var(--gold-bright); font: 400 1.1rem/1.4 var(--serif); }
-.character-visual-links > summary { cursor: pointer; color: var(--gold-bright); font: 400 1.1rem/1.4 var(--serif); min-height: 44px; align-content: center; }
-.character-visual-links[open] > summary { margin-bottom: .5rem; }
-.character-visual-links a { display: flex; align-items: center; gap: .75rem; padding: .65rem 0; color: var(--ink); text-decoration: none; border-top: 1px solid var(--line-soft); }
-.character-visual-links img { width: 56px; height: 70px; object-fit: cover; object-position: top; border: 1px solid var(--line); border-radius: 5px; flex: 0 0 56px; }
-.character-visual-links strong { display: block; color: var(--gold-bright); font: 400 1.05rem/1.4 var(--serif); }
-.character-visual-links small { display: block; margin-top: .25rem; font: .95rem/1.4 var(--text); color: var(--muted); }
-.character-visual-links a:hover strong { color: var(--ink); }
-.character-rail-art .character-art-grid { grid-template-columns: minmax(0,1fr); }
-.character-rail-art .character-art-grid img { width: 100%; height: auto; max-height: 280px; object-fit: contain; }
-.character-rail-art .collection-credit { font: .95rem/1.5 var(--text); }
-.character-introduction { font-family: var(--text); font-size: 1.12rem; line-height: 1.7; }
-.character-introduction > :first-child { margin-top: 0; }
-.codex-world.character-dossier-view .character-overview .infobox { position: static; width: 100%; margin: 1rem 0 0; padding: 1rem 0 0; background: none; border: 0; border-top: 1px solid var(--line); box-shadow: none; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 1.25rem; }
-.character-overview .infobox-title { grid-column: 1 / -1; padding: 0; margin: 0 0 .6rem; }
-.character-overview .fact { min-width: 0; overflow-wrap: anywhere; font-size: .9rem; }
-.codex-world.character-dossier-view .article-body { padding: 0; background: none; }
-.character-reading-controls { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; font: 1rem/1.4 var(--text); color: var(--muted); }
-.character-reading-controls button { color: var(--gold-bright); border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: .6rem .8rem; min-height: 44px; cursor: pointer; font: inherit; }
-.character-chapter { margin: .75rem 0; padding: 0 1.25rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(20,21,27,.95); }
-.character-chapter > summary { cursor: pointer; min-height: 64px; padding: 1rem 0; list-style: none; display: flex; align-items: center; gap: .8rem; }
-.character-chapter > summary::-webkit-details-marker { display: none; }
-.character-chapter > summary::after { content: '+'; margin-left: auto; flex: 0 0 auto; color: var(--gold-bright); font: 1.5rem/1 var(--text); }
-.character-chapter[open] > summary::after { content: '−'; }
-.codex-world .character-chapter > summary h2 { margin: 0; padding: 0; border: 0; font-size: clamp(1.15rem,1.4vw,1.5rem); line-height: 1.4; }
-.character-chapter[open] > summary { border-bottom: 1px solid var(--line); margin-bottom: 1rem; }
-.character-chapter[open] { padding-bottom: 1rem; }
-.character-chapter > section { border: 0; margin-top: 0; padding-inline: 0; }
-.character-chapter .character-art-grid img { max-height: 420px; width: 100%; object-fit: contain; }
+.codex-world.record-layout-view .article-header { min-height: 0; padding: 1.3rem 1.5rem; margin-bottom: 1.25rem; }
+.codex-world.record-layout-view .article-header h1 { font-size: clamp(2.4rem,4vw,3.6rem); }
+.record-overview { display: grid; grid-template-columns: minmax(220px,min(32%,360px)) minmax(0,1fr); gap: 1.25rem; margin-bottom: 1.25rem; align-items: start; }
+.record-overview:not(:has(> .record-visual-rail)) { grid-template-columns: minmax(0,1fr); }
+.codex-world.record-layout-view .record-visual-rail > .article-hero { margin: 0; }
+.codex-world.record-layout-view .record-visual-rail > .medallion-hero { padding: 0; }
+.codex-world.record-layout-view .record-visual-rail > .medallion-hero figcaption { margin: 0; }
+.codex-world.record-layout-view .record-overview figcaption.media-name-caption { padding: .8rem; font-size: 1.5rem; }
+.codex-world.record-layout-view .record-overview .article-hero :is(img,video) { width: 100%; height: auto; max-height: 480px; object-fit: contain; }
+.record-overview-copy { min-width: 0; }
+.record-summary { padding: 1.25rem; margin-bottom: 1.25rem; background: rgba(20,21,27,.94); border: 1px solid var(--line); border-radius: 10px; }
+.record-visual-rail { position: sticky; top: 90px; max-height: calc(100vh - 110px); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--line) transparent; min-width: 0; display: grid; gap: 1rem; }
+.record-visual-links, .record-rail-art { padding: 1rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(20,21,27,.95); }
+.record-visual-rail h2 { margin: 0 0 .8rem; color: var(--gold-bright); font: 400 1.1rem/1.4 var(--serif); }
+.record-visual-links > summary { cursor: pointer; color: var(--gold-bright); font: 400 1.1rem/1.4 var(--serif); min-height: 44px; align-content: center; }
+.record-visual-links[open] > summary { margin-bottom: .5rem; }
+.record-visual-facts { padding: 1rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(20,21,27,.95); }
+.record-visual-facts > summary { color: var(--gold-bright); cursor: pointer; font: 400 1.1rem/1.4 var(--serif); min-height: 44px; align-content: center; }
+.codex-world.record-layout-view .record-visual-facts .infobox { grid-template-columns: minmax(0,1fr); }
+.codex-world.record-layout-view .record-visual-facts .fact { display: grid; grid-template-columns: 80px minmax(0,1fr); border-left: 0; padding: .6rem 0; }
+.record-visual-links a { display: flex; align-items: center; gap: .75rem; padding: .65rem 0; color: var(--ink); text-decoration: none; border-top: 1px solid var(--line-soft); }
+.record-visual-links img { width: 56px; height: 70px; object-fit: cover; object-position: top; border: 1px solid var(--line); border-radius: 5px; flex: 0 0 56px; }
+.record-visual-links strong { display: block; color: var(--gold-bright); font: 400 1.05rem/1.4 var(--serif); }
+.record-visual-links small { display: block; margin-top: .25rem; font: .95rem/1.4 var(--text); color: var(--muted); }
+.record-visual-links a:hover strong { color: var(--ink); }
+.record-rail-art .character-art-grid { grid-template-columns: minmax(0,1fr); }
+.record-rail-art .character-art-grid img { width: 100%; height: auto; max-height: 280px; object-fit: contain; }
+.record-rail-art .collection-credit { font: .95rem/1.5 var(--text); }
+.record-introduction { font-family: var(--text); font-size: 1.12rem; line-height: 1.7; }
+.record-introduction > :first-child { margin-top: 0; }
+.codex-world.record-layout-view .record-overview .infobox { position: static; width: 100%; margin: 1rem 0 0; padding: 1rem 0 0; background: none; border: 0; border-top: 1px solid var(--line); box-shadow: none; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 1.25rem; }
+.record-overview .infobox-title { grid-column: 1 / -1; padding: 0; margin: 0 0 .6rem; }
+.record-overview .fact { min-width: 0; overflow-wrap: anywhere; font-size: .9rem; }
+.codex-world.record-layout-view .article-body { padding: 0; background: none; }
+.record-reading-controls { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; font: 1rem/1.4 var(--text); color: var(--muted); }
+.record-reading-controls button { color: var(--gold-bright); border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: .6rem .8rem; min-height: 44px; cursor: pointer; font: inherit; }
+.record-chapter { margin: .75rem 0; padding: 0 1.25rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(20,21,27,.95); }
+.record-chapter > summary { cursor: pointer; min-height: 64px; padding: 1rem 0; list-style: none; display: flex; align-items: center; gap: .8rem; }
+.record-chapter > summary::-webkit-details-marker { display: none; }
+.record-chapter > summary::after { content: '+'; margin-left: auto; flex: 0 0 auto; color: var(--gold-bright); font: 1.5rem/1 var(--text); }
+.record-chapter[open] > summary::after { content: '−'; }
+.codex-world .record-chapter > summary h2 { margin: 0; padding: 0; border: 0; font-size: clamp(1.15rem,1.4vw,1.5rem); line-height: 1.4; }
+.record-chapter[open] > summary { border-bottom: 1px solid var(--line); margin-bottom: 1rem; }
+.record-chapter[open] { padding-bottom: 1rem; }
+.record-chapter > section { border: 0; margin-top: 0; padding-inline: 0; }
+.record-chapter .character-art-grid img { max-height: 420px; width: 100%; object-fit: contain; }
+.record-outline button { display: block; width: 100%; min-height: 44px; padding: .65rem 0; border: 0; border-top: 1px solid var(--line-soft); background: none; color: var(--gold-bright); cursor: pointer; text-align: left; font: 1rem/1.4 var(--text); }
+.codex-world.record-layout-view .record-visual-rail .article-gallery { grid-template-columns: minmax(0,1fr); margin: 0; }
+.codex-world.record-layout-view .record-visual-rail .article-gallery img { width: 100%; height: auto; max-height: 300px; object-fit: contain; }
+.record-visual-rail .article-map-cta { position: static; padding: .8rem; display: grid; gap: .35rem; background: var(--panel); }
+.record-visual-rail .article-map-cta strong { max-width: none; text-align: left; }
+.codex-world.record-layout-view .record-overview :is(.lead-grid,.atlas-banner,.subchannels) { width: 100%; max-width: none; margin-inline: 0; }
+.codex-world.hub-view.record-layout-view .article-wrap { padding: 1.65rem clamp(1rem,2.5vw,2.5rem) 6rem; }
+.codex-world.hub-view.record-layout-view .record-overview .atlas-banner-copy { grid-template-columns: minmax(0,1fr); }
+.codex-world.hub-view.record-layout-view .record-overview .article-body { padding: 1.25rem; border-radius: 8px; background: rgba(20,21,27,.95); }
+.codex-world.hub-view.record-layout-view .record-topic-art img { max-height: 240px; }
+.codex-world.hub-view.record-layout-view .record-visual-rail .hub-switcher { grid-template-columns: minmax(0,1fr); width: 100%; margin: 0; }
+.codex-world.hub-view.record-layout-view .record-visual-rail .gateway-tile { min-height: 64px; padding: .7rem .85rem; border-radius: 8px; }
 @media (max-width: 1200px) {
-  .character-overview { grid-template-columns: minmax(0,1fr); }
-  .character-visual-rail { position: static; max-height: none; overflow: visible; }
-  .codex-world.character-dossier-view .character-overview .article-hero :is(img,video) { max-height: 400px; }
+  .record-overview { grid-template-columns: minmax(0,1fr); }
+  .record-visual-rail { position: static; max-height: none; overflow: visible; }
+  .codex-world.record-layout-view .record-overview .article-hero :is(img,video) { max-height: 400px; }
+  .codex-world.hub-view.record-layout-view .record-topic-art { display: none; }
+  .codex-world.hub-view.record-layout-view .record-visual-rail .hub-switcher { grid-template-columns: repeat(3,minmax(0,1fr)); }
 }
 @media (max-width: 600px) {
-  .codex-world.character-dossier-view .character-overview .infobox { grid-template-columns: minmax(0,1fr); }
-  .character-chapter { padding-inline: .85rem; }
-  .codex-world.character-dossier-view .article-header { padding: 1rem; }
+  .codex-world.record-layout-view .record-overview .infobox { grid-template-columns: minmax(0,1fr); }
+  .record-chapter { padding-inline: .85rem; }
+  .codex-world.record-layout-view .article-header { padding: 1rem; }
+  .codex-world.hub-view.record-layout-view .record-visual-rail .hub-switcher { grid-template-columns: repeat(2,minmax(0,1fr)); }
 }

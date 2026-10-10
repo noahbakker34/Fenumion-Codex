@@ -194,8 +194,11 @@
       const heroCaption = article.imageCaption ? `<figcaption${article.imageCaption.length <= 80 && !/[.!?]/.test(article.imageCaption) ? ' class="media-name-caption"' : ''}><span>${esc(article.imageCaption)}</span></figcaption>` : '';
       content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${switcher}${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video class="ambient-video" muted loop playsinline disablepictureinpicture disableremoteplayback tabindex="-1" preload="metadata" poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video.</video>${heroCaption}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${heroCaption}</figure>` : ''}<div class="lead-grid"><div class="article-body">${body}${connections}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
     }
-    const visualConnections=(article?.relatedRecords || []).map(recordId=>byId.get(recordId)).filter(Boolean).slice(0,4).map(record=>({id:record.id,title:record.title,subtitle:record.type,image:record.image || record.poster}));
-    window.organizeCharacterPage?.(content,data.characters.some(record=>record.id===id),visualConnections);
+    const linkedIds=[...(article?.relatedRecords || []),...[...content.querySelectorAll('.article-body a[href^="#"], .subchannels [data-article]')].map(link=>link.dataset.article || link.getAttribute('href').slice(1))];
+    const visualConnections=[...new Set(linkedIds)].map(recordId=>byId.get(recordId)).filter(record=>record && record.id!==id).slice(0,4).map(record=>({id:record.id,title:record.title,subtitle:record.type,image:record.image || record.poster}));
+    const hasConnections=visualConnections.length>0;
+    if(!hasConnections && !isHub) sections.filter(section=>section.id!==id).slice(0,4).forEach(section=>visualConnections.push({id:section.id,title:section.title,subtitle:section.description}));
+    window.organizeCodexPage?.(content,{id,home:isHome,directory:Boolean(article?.section),image:isHub ? background.poster : '',connections:isHub ? [] : visualConnections,connectionsLabel:hasConnections?'Connected stories':'Explore the Codex'});
     artworkObserver.disconnect();
     artworkVideo=content.querySelector('.article-hero video');
     artworkVisible=false;
@@ -235,7 +238,7 @@
       return;
     }
     const article=event.target.closest('[data-article]');if(article){const hash='#'+article.dataset.article;if(location.hash===hash)render();else location.hash=hash;return;}
-    const section=event.target.closest('[data-section]');if(section){event.preventDefault();window.revealCharacterSection?.(document.getElementById(section.dataset.section));document.getElementById(section.dataset.section)?.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth'});return;}
+    const section=event.target.closest('[data-section]');if(section){event.preventDefault();window.revealCodexSection?.(document.getElementById(section.dataset.section));document.getElementById(section.dataset.section)?.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth'});return;}
     const choice=event.target.closest('[data-search-filter]');if(choice){filter=choice.dataset.searchFilter;document.querySelectorAll('[data-search-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===choice)));runSearch(search.value);}
   });
   document.addEventListener('input',event=>{if(event.target.id==='directory-query'){updateDirectory();return;}if(event.target===search || event.target===worldSearch || event.target.id==='gateway-search'){runSearch(event.target.value);if(event.target.id==='gateway-search'){worldSearch.focus();worldSearch.setSelectionRange(worldSearch.value.length,worldSearch.value.length);}}});

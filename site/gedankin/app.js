@@ -8,6 +8,17 @@
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   let animateBackground = !reducedMotion.matches;
   let backgroundAsset = '';
+  let artworkVideo = null;
+  let artworkVisible = false;
+  const artworkObserver = new IntersectionObserver(entries=>{
+    for(const entry of entries) if(entry.target===artworkVideo) artworkVisible=entry.isIntersecting;
+    updateArtwork();
+  },{threshold:.08});
+  function updateArtwork() {
+    if(!artworkVideo) return;
+    if(animateBackground && !document.hidden && artworkVisible) artworkVideo.play().catch(()=>{});
+    else artworkVideo.pause();
+  }
   function selectBackground(id) {
     const characters = id === 'people-directory' || data.characters.some(record=>record.id === id);
     const timeline = id === 'living-timeline' || data.events.some(record=>record.id === id);
@@ -32,6 +43,7 @@
     updateBackground();
   }
   function updateBackground() {
+    updateArtwork();
     if (animateBackground && !document.hidden) {
       if (!background.getAttribute('src')) background.src = 'assets/'+backgroundAsset+'.mp4';
       background.play().catch(error=>{ if(error.name !== 'AbortError') { animateBackground=false; updateBackground(); } });
@@ -179,8 +191,12 @@
       const switcher=isHub?`<nav class="hub-switcher" aria-label="Explore the Codex">${sections.map(section=>`<button type="button" class="gateway-tile${section.id===id?' active':''}" data-article="${section.id}" ${section.id===id?'aria-current="page"':''}><span>${section.title}</span><small>${section.description}</small></button>`).join('')}</nav>`:'';
       const facts=Object.entries(article.facts || {}).map(([k,v])=>`<div class="fact"><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('');
       const heroCaption = article.imageCaption ? `<figcaption${article.imageCaption.length <= 80 && !/[.!?]/.test(article.imageCaption) ? ' class="media-name-caption"' : ''}><span>${esc(article.imageCaption)}</span></figcaption>` : '';
-      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${switcher}${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video controls muted loop playsinline preload="metadata" ${matchMedia('(prefers-reduced-motion: reduce)').matches ? '' : 'autoplay'} poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video. <a href="${esc(article.video)}">Watch ${esc(article.title)}</a></video>${heroCaption}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${heroCaption}</figure>` : ''}<div class="lead-grid"><div class="article-body">${body}${connections}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
+      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${switcher}${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video class="ambient-video" muted loop playsinline disablepictureinpicture disableremoteplayback tabindex="-1" preload="metadata" poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video.</video>${heroCaption}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${heroCaption}</figure>` : ''}<div class="lead-grid"><div class="article-body">${body}${connections}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
     }
+    artworkObserver.disconnect();
+    artworkVideo=content.querySelector('.article-hero video');
+    artworkVisible=false;
+    if(artworkVideo){artworkVideo.muted=true;artworkObserver.observe(artworkVideo);}
     updateDirectory();
     document.querySelectorAll('.nav-branch').forEach(branch=>{branch.open=Boolean(branch.querySelector(`[data-article="${id}"]`));});
     const headings=[...content.querySelectorAll('.article-body h2, .article-body h3')].filter(e=>!e.closest('.gateway-section-title'));

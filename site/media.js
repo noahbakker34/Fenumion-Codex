@@ -141,3 +141,17 @@ const tobiasMedia = {
 };
 window.FENUMION_MEDIA.characters.Tobias = tobiasMedia;
 window.FENUMION_MEDIA.articles.tobias = tobiasMedia;
+
+window.FENUMION_MEDIA.characters['Tobias Goodbarrel'] = tobiasMedia;
+tobiasMedia.imageCaption = 'Tobias Goodbarrel';
+tobiasMedia.videoCaption = 'Tobias Goodbarrel';
+const fenwickMedia = {
+  image: 'assets/characters/fenwick-poster.webp',
+  video: 'assets/characters/fenwick.mp4',
+  imageAlt: 'Fenwick d’Jorasco, wearing round glasses and a green cloak, holding a glowing spell',
+  imageCaption: 'Fenwick d’Jorasco',
+  videoCaption: 'Fenwick d’Jorasco'
+};
+window.FENUMION_MEDIA.characters.Fenwick = fenwickMedia;
+window.FENUMION_MEDIA.characters["Fenwick d'Jorasco"] = fenwickMedia;
+window.FENUMION_MEDIA.articles.fenwick = fenwickMedia;

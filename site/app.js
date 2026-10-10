@@ -13751,6 +13751,46 @@ if(adeliaDossier) {
   if(withering)withering.summary='Adelia invokes Divine Intervention for a friend’s second chance. Moirah returns Magnus from Death’s possession and rebukes her; Magnus accepts Dumuzi’s gift, wounds Hope and flees. Adelia attempts to save the tree, then struggles with rage and guilt while Jiangshi and her companions remain.';
 }
 
+// Fold these public histories into records before deriving routes and search.
+const civicDossiers=window.FENUMION_FENWICK_TOBIAS;
+if(civicDossiers) {
+  for(const record of civicDossiers.records) {
+    const existing=articles.find(article=>article.id===record.id);
+    if(existing)Object.assign(existing,record);else articles.push(record);
+    fixedArticlePaths.set(record.id,[record.category==='People'?'Characters':record.category==='Factions'?'Factions':'Locations',...(record.category==='Places'?['Prima','Eovar Harbor']:[]),record.title]);
+    if(record.category==='People') {
+      const entry=[...archiveIndex.characters,...archiveIndex.npcs].find(person=>person.article===record.id || (record.aliases || []).includes(person.title));
+      const updated={title:record.title,meta:record.type,article:record.id,summary:record.dek,aliases:record.aliases};
+      if(entry)Object.assign(entry,updated);else archiveIndex.characters.push(updated);
+      let found=false;
+      for(const region of navigationRegions)for(const branch of region.branches || [])for(const item of branch.items || [])if(item.article===record.id || (record.aliases || []).includes(item.label)){item.label=record.title;item.article=record.id;found=true;}
+      if(!found)characterNavigation.branches.find(branch=>branch.title=== (record.id==='fenwick'?'Characters A–J':'Characters K–Z')).items.push({label:record.title,article:record.id});
+    }
+    const links=record.relatedRecords.map(id=>{const target=articles.find(article=>article.id===id) || civicDossiers.records.find(article=>article.id===id);return target?{label:target.title,article:id,summary:target.dek}:null;}).filter(Boolean);
+    subchannelMap[record.id]=links;
+  }
+  Object.assign(legacyCharacterProfiles,civicDossiers.profiles);
+  archiveIndex.islands.push({title:'Fenwick’s Tower',region:'Prima',parent:'Eovar Harbor',level:'site',type:'Residence & public bounty board',meta:'Prima › Eovar Harbor · public work',article:'fenwicks-tower',summary:civicDossiers.records.find(record=>record.id==='fenwicks-tower').dek,aliases:["Fenwick's Tower"]});
+  {
+    const branch=navigationRegions.find(region=>region.title==='Locations').branches.find(branch=>branch.title==='Prima');
+    branch.items.push({label:'Fenwick’s Tower',article:'fenwicks-tower'});
+  }
+  factionDirectoryItems.push({label:'Vital Chain',article:'vital-chain'});
+  for(const id of ['eovar-harbor','ale-chemy-knights','farkur','cave-company','papirak-legacy','papiraks-mausoleum']) {
+    const links=subchannelMap[id] || (subchannelMap[id]=[]);
+    if(!links.some(link=>link.article==='fenwick'))links.push({label:"Fenwick d'Jorasco",article:'fenwick',summary:civicDossiers.records[0].dek});
+  }
+  subchannelMap['eovar-harbor'].push({label:'Fenwick’s Tower',article:'fenwicks-tower',summary:'Public material bounties and the city’s information network.'},{label:'Vital Chain',article:'vital-chain',summary:'Healing and community in Eovar’s renewal.'});
+  for(const event of civicDossiers.events) {
+    if(!archiveIndex.timeline.some(item=>item.title===event.title))archiveIndex.timeline.push(event);
+    questEventConsequences[event.title]=event.consequence;
+  }
+  const quotesArticle=articles.find(record=>record.id==='memorable-quotes');
+  const fresh=civicDossiers.quotes.filter(quote=>!quotesArticle.body.includes(escapeHtml(quote.text)) && !quotesArticle.body.includes(quote.text));
+  const quoteHtml=[...new Set(fresh.map(quote=>quote.group))].map((group,index)=>'<h2 id="civic-quotes-'+index+'">'+escapeHtml(group)+'</h2><div class="quote-gallery">'+fresh.filter(quote=>quote.group===group).map(quote=>'<button type="button" class="quote-card" data-article="'+quote.article+'"><blockquote>“'+escapeHtml(quote.text)+'”</blockquote><cite>'+escapeHtml(quote.speaker)+'</cite></button>').join('')+'</div>').join('');
+  quotesArticle.body=quotesArticle.body.replace('<h2 id="why-these-lines-remain">',quoteHtml+'<h2 id="why-these-lines-remain">');
+}
+
 const kumaiRecord = {
   "id": "kumai-218",
   "title": "Kumai-218",

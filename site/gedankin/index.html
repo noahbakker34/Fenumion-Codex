@@ -10,11 +10,11 @@
   <link rel="shortcut icon" type="image/svg+xml" href="sigil.svg">
   <link rel="apple-touch-icon" href="sigil.svg">
   <link rel="stylesheet" href="../styles.css?v=151">
-  <link rel="stylesheet" href="gedankin.css?v=14">
+  <link rel="stylesheet" href="gedankin.css?v=15">
   <link rel="stylesheet" href="../codex-layout.css?v=5">
   <script src="data.js?v=20" defer></script>
   <script src="../reader-copy.js?v=1" defer></script>
-  <script src="app.js?v=19" defer></script>
+  <script src="app.js?v=20" defer></script>
 </head>
 <body class="codex-world gedankin-world">
   <div class="gedankin-backdrop" aria-hidden="true">
@@ -90,13 +90,14 @@
   </div>
 
   <div class="search-panel" id="search-panel" hidden>
-    <div class="search-panel-head"><span id="search-count">Search results</span><button id="close-search" aria-label="Close search">Esc</button></div>
+    <div class="search-panel-head"><span id="search-count" role="status" aria-live="polite">Search results</span><button id="close-search" aria-label="Close search">Esc</button></div>
     <label class="gedankin-search-field"><span class="sr-only">Search Gedankin records</span><input id="world-search" type="search" placeholder="Search Gedankin…" autocomplete="off"></label>
     <div id="search-filters" class="search-filters" role="group" aria-label="Filter search results">
       <button type="button" data-search-filter="all" aria-pressed="true">All</button>
       <button type="button" data-search-filter="character" aria-pressed="false">Characters</button>
       <button type="button" data-search-filter="location" aria-pressed="false">Locations</button>
       <button type="button" data-search-filter="timeline" aria-pressed="false">Events</button>
+      <button type="button" data-search-filter="faction" aria-pressed="false">Factions</button>
       <button type="button" data-search-filter="quote" aria-pressed="false">Quotes</button>
     </div>
     <div id="search-results"></div>

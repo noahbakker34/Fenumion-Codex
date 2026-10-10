@@ -120,3 +120,7 @@ body.gedankin-world main { position: relative; z-index: 1; background: transpare
 .gedankin-world .quote-source { display: block; margin-top: .75rem; font: .9rem/1.5 var(--text); color: var(--muted); overflow-wrap: anywhere; }
 .gedankin-world .character-words .quote-gallery { grid-template-columns: minmax(0,1fr); }
 body.gedankin-world:not(.home-view) .subchannel-card { background: linear-gradient(100deg,rgba(9,10,13,.96),rgba(9,10,13,.7)),url('assets/gedankin-map.png') center / cover; }
+
+/* Keep search previews readable without overwhelming the result title. */
+.gedankin-world .search-result p { margin: .4rem 0 0; color: var(--muted); font: 1rem/1.5 var(--text); overflow-wrap: anywhere; }
+.gedankin-world .search-result:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: -3px; }

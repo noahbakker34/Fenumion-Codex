@@ -75,7 +75,34 @@
   const worldSearch = document.querySelector('#world-search');
   const scrim = document.querySelector('#scrim');
   let filter = 'all';
-  const filterKeys = {character:'characters',location:'locations',timeline:'events',quote:'quotes'};
+  const filterKeys = {character:'characters',location:'locations',timeline:'events',quote:'quotes',faction:'factions'};
+  // Index visible text once, including aliases, facts and the complete story.
+  const normalizeSearch = value => String(value ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/['’]/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+  const textOnly = html => {const node=document.createElement('div');node.innerHTML=String(html || '').replace(/<\/(?:p|h[1-6]|li|div|blockquote|td|tr)>/gi,'$& ');return node.textContent.replace(/\s+/g,' ').trim();};
+  const searchEntries = new Map();
+  function searchEntry(record) {
+    if(searchEntries.has(record)) return searchEntries.get(record);
+    const title=record.title || record.speaker || '';
+    const summary=record.text || record.summary || record.dek || '';
+    const body=textOnly(record.body);
+    const entry={record,title,summary,body,names:[title,...(record.aliases || [])].map(normalizeSearch),details:normalizeSearch([summary,record.dek,record.type,record.group,record.meta,record.location,...(record.tags || []),...(record.people || []),...Object.values(record.facts || {})].join(' ')),story:normalizeSearch(body)};
+    entry.all=[...entry.names,entry.details,entry.story].join(' ');
+    searchEntries.set(record,entry);return entry;
+  }
+  const quoteEntries=data.quotes.map(q=>({...q,id:byId.has(q.article)?q.article:'memorable-quotes',title:q.speaker,category:'Quotes',isQuote:true}));
+  const searchPool=[...articles,...quoteEntries].map(searchEntry);
+  function matchingEntries(entries,query) {
+    const phrase=normalizeSearch(query),terms=phrase.split(' ').filter(Boolean);
+    return entries.filter(entry=>terms.every(term=>entry.all.includes(term))).map(entry=>({entry,score:Math.max(0,...entry.names.map(name=>name===phrase?1000:name.startsWith(phrase)?700:terms.every(term=>name.includes(term))?500+100*terms.length/name.split(' ').length:terms.reduce((score,term)=>score+(name.includes(term)?60:0),0)))+terms.reduce((score,term)=>score+(entry.details.includes(term)?15:0),0)})).sort((a,b)=>b.score-a.score || a.entry.title.localeCompare(b.entry.title)).map(result=>result.entry);
+  }
+  function searchExcerpt(entry,query) {
+    if(entry.record.isQuote) return '“'+entry.summary+'”';
+    const terms=normalizeSearch(query).split(' ').filter(Boolean);
+    const sentences=(entry.body.match(/[^.!?]+[.!?]*/g) || []);
+    const excerpt=terms.length && !terms.every(term=>normalizeSearch(entry.summary).includes(term)) ? sentences.find(sentence=>terms.every(term=>normalizeSearch(sentence).includes(term))) : '';
+    const copy=excerpt?.trim() || entry.summary;
+    return copy.length>260?copy.slice(0,257).replace(/\s+\S*$/,'')+'…':copy;
+  }
   const navGroups = section => {
     if (section.key === 'characters') return ['A–J','K–Z'].map((label,i)=>({label,records:data.characters.filter(record=>(record.title[0].toUpperCase()<'K') === (i===0))}));
     if (section.key === 'events') return [...new Set(data.events.map(record=>(record.sort||'').slice(0,4)))].sort().map(year=>({label:year,records:data.events.filter(record=>(record.sort||'').startsWith(year))}));
@@ -93,8 +120,8 @@
   function updateDirectory() {
     const shell=content.querySelector('[data-directory]');
     if (!shell) return;
-    const key=shell.dataset.directory, needle=content.querySelector('#directory-query').value.trim().toLocaleLowerCase();
-    let records=data[key].filter(record=>`${record.title||''} ${record.speaker||''} ${record.text||''} ${record.group||''} ${record.summary||record.dek||''} ${(record.tags||[]).join(' ')} ${(record.aliases||[]).join(' ')} ${record.meta||''} ${record.location||''} ${(record.people||[]).join(' ')}`.toLocaleLowerCase().includes(needle));
+    const key=shell.dataset.directory, needle=content.querySelector('#directory-query').value;
+    let records=matchingEntries(data[key].map(searchEntry),needle).map(entry=>entry.record);
     records=[...records].sort((a,b)=>key==='events'?String(a.sort||'').localeCompare(String(b.sort||'')):key==='quotes'?`${a.group||''} ${a.speaker} ${a.text}`.localeCompare(`${b.group||''} ${b.speaker} ${b.text}`):a.title.localeCompare(b.title));
     if(content.querySelector('#directory-sort').value==='reverse') records.reverse();
     content.querySelector('#directory-count').textContent=`${records.length} of ${data[key].length} records`;
@@ -167,13 +194,14 @@
     search.value=query; worldSearch.value=query;
     sidebar.classList.remove('open');menu.setAttribute('aria-expanded','false');
     document.body.classList.add('search-open','panels-open');panel.hidden=false;scrim.hidden=false;
-    const needle=query.trim().toLocaleLowerCase();
-    let pool=filter==='all' ? articles : data[filterKeys[filter]];
-    if(filter==='all') pool=[...pool,...data.quotes.map(q=>({...q,title:q.speaker,summary:q.text,id:q.article || 'memorable-quotes',category:'Quotes'}))];
-    const results=pool.filter(a=>`${a.title || a.speaker} ${a.summary || ''} ${a.dek || ''} ${(a.tags || []).join(' ')} ${(a.aliases || []).join(' ')} ${String(a.body || '').replace(/<[^>]*>/g,' ')} ${a.text || ''} ${a.group || ''} ${a.meta || ''} ${a.location || ''} ${(a.people || []).join(' ')} ${Object.values(a.facts || {}).join(' ')}`.toLocaleLowerCase().includes(needle));
-    document.querySelector('#search-count').textContent=`${results.length} ${results.length===1?'result':'results'} in Gedankin`;
-    document.querySelector('#search-results').innerHTML=results.length ? results.map(a=>`<button type="button" class="search-result" data-article="${esc(a.id || a.article || 'memorable-quotes')}"><small>${esc(a.category || 'Gedankin')}</small><strong>${esc(a.title || a.speaker)}</strong><p>${esc(a.summary || a.dek || a.text || '')}</p></button>`).join('') : '<p class="gedankin-empty">No matching records in Gedankin yet.</p>';
+    const needle=normalizeSearch(query);
+    const pool=filter==='all'?searchPool:filter==='quote'?quoteEntries.map(searchEntry):data[filterKeys[filter]].map(searchEntry);
+    const results=needle?matchingEntries(pool,query):pool.filter(entry=>entry.record.section);
+    document.querySelector('#search-count').textContent=needle?`${results.length} ${results.length===1?'result':'results'} in Gedankin`:'Search Gedankin';
+    document.querySelector('#search-results').innerHTML=results.length ? results.map(entry=>{const a=entry.record;return `<button type="button" class="search-result" data-article="${esc(a.id)}"><small>${esc(a.isQuote?'Quotes · '+(a.group || 'Memorable words'):a.category || (sections.find(s=>s.key===filterKeys[filter])?.title) || 'Gedankin')}</small><strong>${esc(entry.title)}</strong><p>${esc(searchExcerpt(entry,query))}</p></button>`;}).join('') : needle?'<p class="gedankin-empty">No matches. Try a shorter name, a place, or a few words from the story.</p>':'<p class="gedankin-empty">Search by name, place, event or words from a quote.</p>';
+    panel.scrollTop=0;
   }
+
   document.addEventListener('click',event=>{
     const zoom=event.target.closest('[data-map-zoom]');
     if(zoom){
@@ -191,13 +219,23 @@
     const section=event.target.closest('[data-section]');if(section){event.preventDefault();document.getElementById(section.dataset.section)?.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth'});return;}
     const choice=event.target.closest('[data-search-filter]');if(choice){filter=choice.dataset.searchFilter;document.querySelectorAll('[data-search-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===choice)));runSearch(search.value);}
   });
-  document.addEventListener('input',event=>{if(event.target.id==='directory-query'){updateDirectory();return;}if(event.target===search || event.target===worldSearch || event.target.id==='gateway-search'){runSearch(event.target.value);if(event.target.id==='gateway-search')worldSearch.focus();}});
+  document.addEventListener('input',event=>{if(event.target.id==='directory-query'){updateDirectory();return;}if(event.target===search || event.target===worldSearch || event.target.id==='gateway-search'){runSearch(event.target.value);if(event.target.id==='gateway-search'){worldSearch.focus();worldSearch.setSelectionRange(worldSearch.value.length,worldSearch.value.length);}}});
   document.addEventListener('change',event=>{if(event.target.id==='directory-sort')updateDirectory();});
-  document.querySelector('#search-toggle').addEventListener('click',()=>{runSearch();worldSearch.focus();});
+  document.querySelector('#search-toggle').addEventListener('click',()=>{runSearch(search.value);worldSearch.focus();});
   document.querySelector('#close-search').addEventListener('click',closePanels);
   scrim.addEventListener('click',closePanels);
   menu.addEventListener('click',()=>{const open=!sidebar.classList.contains('open');closePanels();sidebar.classList.toggle('open',open);scrim.hidden=!open;document.body.classList.toggle('panels-open',open);menu.setAttribute('aria-expanded',String(open));});
-  document.addEventListener('keydown',event=>{if(event.key==='Escape')closePanels();if(event.key==='/' && !event.ctrlKey && !event.metaKey && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){event.preventDefault();runSearch();worldSearch.focus();}});
+  document.addEventListener('keydown',event=>{
+    if(event.key==='Escape'){const wasOpen=!panel.hidden;closePanels();if(wasOpen)(matchMedia('(max-width: 760px)').matches?document.querySelector('#search-toggle'):search).focus();}
+    if(!panel.hidden && ['ArrowDown','ArrowUp','Enter'].includes(event.key)) {
+      const buttons=[...panel.querySelectorAll('.search-result')],active=document.activeElement;
+      if(active===search || active===worldSearch || buttons.includes(active)) {
+        if(event.key==='Enter' && !buttons.includes(active)){if(buttons[0]){event.preventDefault();buttons[0].click();}}
+        else if(event.key!=='Enter' && buttons.length){event.preventDefault();const index=buttons.indexOf(active),next=index<0?(event.key==='ArrowDown'?0:buttons.length-1):(index+(event.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length;buttons[next].focus();}
+      }
+    }
+    if(event.key==='/' && !event.ctrlKey && !event.metaKey && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){event.preventDefault();runSearch(search.value);worldSearch.focus();}
+  });
   matchMedia('(max-width: 760px)').addEventListener('change',closePanels);
   window.addEventListener('hashchange',render);
   render();

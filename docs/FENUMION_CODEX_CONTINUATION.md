@@ -1,8 +1,31 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-09-23
+Last updated: 2026-10-10
 
 This is the first file to read before continuing work on the Fenumion Living Codex. It records the project's durable decisions, current implementation state, canon rules, supplied media, and remaining priorities so the full development conversation does not need to be replayed.
+
+For deeper lore synthesis, also read `docs/CONVERSATION_MASTER_SUMMARY.md`. The current deployable source is `site/`; later dated additions below supersede earlier historical checkpoints.
+
+## Current project state · 10 October 2026
+
+- Public static source: `site/`; main data/rendering: `site/app.js`; markup: `site/index.html`; styling: `site/styles.css` and `site/codex-layout.css`.
+- Public site: https://fenumion.com/ (GitHub Pages).
+- Git repository: `noahbakker34/Fenumion-Codex`. Pushes to `main` deploy through `.github/workflows/pages.yml`.
+- Preserved media: `site/assets/archive/`; individual dossiers/data modules load from `site/index.html`.
+- Recent additions: Silver Spire civic history, Forevermoore/Ciderwood Sanctum, Ryvyting Creations, twelve blessing paths and epic advancement reference, and the blessing card layout.
+- Keeper-only records remain access-controlled; public hosting does not make protected dossiers public.
+- The user has authorized validating and publishing each completed update in this chat without asking again. This is scoped to this chat.
+
+Useful local checks:
+
+```bash
+node --check site/app.js
+git diff --check
+python3 -m http.server 8765 --directory site
+```
+
+<details>
+<summary>Historical September checkpoint (superseded deployment paths and state)</summary>
 
 For deeper lore synthesis, also read `docs/CONVERSATION_MASTER_SUMMARY.md`. For the current public implementation, treat `dist/app.js`, `dist/index.html`, and `dist/styles.css` as authoritative.
 
@@ -29,6 +52,9 @@ node --check dist/app.js
 git diff --check
 /usr/bin/python3 -m http.server 8765 --directory dist
 ```
+
+
+</details>
 
 ## Product goal
 
@@ -459,3 +485,7 @@ Added top-level Blessings navigation, a twelve-path overview and full boon table
 ## 10 October 2026 · Blessings visual clarity
 
 Blessing pages use a full-width reference layout, overview path cards, clear theme headers and tier/cost badges. The full original wording and table comparison remain available. Existing source data unchanged; the revision improves presentation without balancing or rewriting rules.
+
+## 10 October 2026 · Consistency audit
+
+Audited runtime article IDs (163 initial, 173 final including generated records), article-body routes, sidebar navigation, directory routes, connected-record routes and local article media. No missing targets, duplicate article IDs or missing local article assets found. Preserved full sentences in blessing previews so prerequisites cannot be clipped mid-sentence. Clarified the Knights’ historical bases and corrected the welcome-system timeline’s Forevermoore geography. Current source/deployment paths are recorded at the top of this brief; obsolete September state is explicitly historical. Full scope and limitations: `docs/CONSISTENCY_AUDIT_2026-10-10.md`.

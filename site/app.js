@@ -7237,7 +7237,7 @@ const archiveIndex = {
       "era": "2025 · Expansion",
       "kind": "Institution building",
       "article": "ale-chemy-knights",
-      "location": "Ciderwood Sanctum; Prima",
+      "location": "Ciderwood Sanctum; Forevermoore (off Eovar); Prima newcomer routes",
       "people": "Farkur; Tobias; Fredrick",
       "tags": [
         "Ciderwood Sanctum",
@@ -14026,7 +14026,7 @@ const ryvytingCrafter=articles.find(article=>article.id==='ryvyt');
 ryvytingCrafter.facts['Shop']='Ryvyting Creations · owner and operator';
 ryvytingCrafter.tags=[...new Set([...ryvytingCrafter.tags,'Ryvyting Creations','Pristinia'])];
 ryvytingCrafter.body=ryvytingCrafter.body.replace('<h2 id="ryvyt-research">','<h2 id="ryvyt-shop">Ryvyting Creations</h2><p>Ryvyt owns and operates <a href="#ryvyting-creations">Ryvyting Creations in Pristinia</a>. Its early material shortages frustrate him because he wants to use the forge, not merely sell recovered goods. His crafting turns the Knights’ scouting, supply and shared stock into equipment people can use.</p><p>At the shop he explains the Knights’ newcomer services and consultative membership process as well as their commercial work. The later retail closure during the shift toward Gael marks a change in the institution’s geography; the shop’s subsequent use remains unestablished.</p><h2 id="ryvyt-research">');
-knightsArticle.facts.Bases='Ciderwood Sanctum · Ryvyting Creations · Eovar tavern';
+knightsArticle.facts.Bases='Ciderwood Sanctum (Forevermoore) · Ryvyting Creations (Pristinia; retail closed) · Eovar tavern';
 knightsArticle.body+='<h2 id="ale-chemy-ryvyting">Ryvyting Creations in Pristinia</h2><p><a href="#ryvyting-creations">Ryvyt’s shop</a> gives the Knights a public crafting and trading location. Early shortages expose the need for dependable scouts, components, transport and bookkeeping. Equipment and spell access connect commerce to their newcomer-support work. The ordinary storefront later closes as staffing thins and the organization shifts its effort toward Gael.</p>';
 articles.find(article=>article.id==='pristinia').body+='<h2 id="pristinia-ryvyting">Ryvyt’s workshop</h2><p><a href="#ryvyting-creations">Ryvyting Creations</a>, owned and operated by <a href="#ryvyt">Ryvyt</a>, brings a forge, magic-item crafting and spell trade into the town’s commercial life. It also serves the Ale-Chemy Knights’ shared work; ordinary retail later ceases during their shift toward Gael.</p>';
 // Public blessing reference, transcribed from the two user-supplied sheets.
@@ -14043,7 +14043,10 @@ if(blessingData) {
     // Show the actionable source passage first, while retaining the entire original.
     const marker=/(?:You have (?:advantage|expertise|disadvantage|a bonus)|You are (?:immune|unaffected)|You may (?:cast|take|use|prepare|deal|choose|transform)|You can (?:use|grant|choose|spend)|You gain (?:resistance|expertise)|You see through|On a critical|Once per|A number of times|Gain (?:advantage|resistance|proficiency|one|a |expertise)|When you (?:take|reduce|roll|get|hit|expend|miss|drop)|When an ally|When an enemy|If you |If an ally|Allies within|Enemies have|Your walking speed|Your attack rolls|Your Planeshift|1st level illusion|Spells to change|Creatures that rely|Any persuasion|Targets have|For the purposes|Speak with)/i;
     const start=effect.search(marker);
-    const rule=start>=0?effect.slice(start):effect;
+    // Keep the whole sentence: conditions can precede the matched action.
+    const boundaries=[...effect.slice(0,Math.max(0,start)).matchAll(/[.!?]\s+/g)];
+    const sentenceStart=boundaries.length?boundaries.at(-1).index+boundaries.at(-1)[0].length:0;
+    const rule=start>=0?effect.slice(sentenceStart):effect;
     return '<div class="blessing-boon"><div class="blessing-boon-heading"><span>Tier '+tier+'</span><span class="blessing-cost">Cost <b>'+tier+'</b></span></div><p class="blessing-rule">'+escapeBlessing(rule)+'</p><details class="blessing-original"><summary>Full original wording</summary><p>'+escapeBlessing(effect)+'</p></details></div>';
   };
   const overview={id:'blessings-of-fenumion',title:'Blessings of Fenumion',category:'Guide',type:'Blessing reference',dek:'Find a blessing, explore its three themes, and compare the effects at each tier.',tags:['Blessings','Boons','Advancement'],facts:{},sources:[],body:readingGuide+'<div class="blessing-path-directory">'+blessingData.paths.map((path,i)=>'<a class="blessing-path-card" href="#'+path.id+'"><span class="blessing-path-number">'+String(i+1).padStart(2,'0')+'</span><strong>'+escapeBlessing(path.name)+'</strong><span class="blessing-theme-list">'+path.themes.map(theme=>'<span>'+escapeBlessing(themeName(theme))+'</span>').join('')+'</span><span class="blessing-open">Explore 9 boons <span aria-hidden="true">→</span></span></a>').join('')+'</div><details class="blessing-comparison"><summary>Compare all paths in a table</summary>'+referenceTable('Blessing paths',['Path','Three themes'],blessingData.paths.map(path=>['<a href="#'+path.id+'">'+escapeBlessing(path.name)+'</a>',path.themes.map(theme=>escapeBlessing(themeName(theme))).join('<br>')]))+'</details><a class="blessing-advancement-link" href="#fenumion-epic-advancement"><strong>Beyond level 25</strong><span>Levels 26–30, capstones and tenth-level spells →</span></a><p class="blessing-source">Read the <a href="'+blessingSheet+'" target="_blank" rel="noopener noreferrer">source blessing sheet</a> for subsequent changes. Costs are listed individually; a point budget and purchase prerequisites are not specified here.</p>'};

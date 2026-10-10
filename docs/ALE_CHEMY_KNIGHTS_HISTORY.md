@@ -161,3 +161,7 @@ These functions create value and influence. The faction should not be presented 
 ## Forevermoore location addition · 10 October 2026
 
 Ciderwood Sanctum now has a compact location entry under Forevermoore. The island remains a minor offshore holding in Eovar’s local context. Selectively reviewed primary evidence and construction-plan boundaries are recorded in `docs/FOREVERMOORE_HISTORY.md`.
+
+## Ryvyting Creations · 10 October 2026 addition
+
+Ryvyting Creations is a distinct Pristinia shop, owned and operated by Ryvyt under the user’s explicit ruling. The supplied synthesis describes May 2025 opening preparations, early component shortages, pooled stock, Farkur’s bookkeeping, Ruben’s scouting, Fenwick’s spell advertisements and later retail closure during the shift toward Gael. Pappy’s funding and deed discussions remain attributed accounts; they do not override the ownership ruling. Dates and exact primary wording have not been independently verified. See `docs/RYVYTING_CREATIONS_HISTORY.md` for section-level provenance and boundaries.

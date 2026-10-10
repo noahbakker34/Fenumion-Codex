@@ -126,6 +126,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `forevermoore-ciderwood-sanctum.md` | Supplied 10 Oct 2026 | Primary Discord transcript, selectively reviewed | User geography ruling; individual scene speakers | Forevermoore; Ciderwood Sanctum; Ale-Chemy Knights | Very small auxiliary island off Eovar’s coast; naming, grove, orchard work, proposed workspaces and boat travel. 1,286 messages; two missing-text messages; images unreviewed. | `site/app.js`; `docs/FOREVERMOORE_HISTORY.md`; `docs/ALE_CHEMY_KNIGHTS_HISTORY.md`. No raw transcript imported. |
 
+| `pristinia-ryvyting-creations-ryvyt-ale-chemy-knights.md` | Supplied 10 Oct 2026 | Narrative shop synthesis, read in full | User: Pristinia location; Ryvyt owner/operator. Synthesis author unstated | Ryvyt; Knights; Pristinia crafting, supply and spell trade | Opening shortages, shared work, advertised spells, property accounts and later retail closure; no primary message links supplied | `site/app.js` (`ryvyting-creations`, Ryvyt, Pristinia, Knights); `docs/RYVYTING_CREATIONS_HISTORY.md`; `docs/ALE_CHEMY_KNIGHTS_HISTORY.md` |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

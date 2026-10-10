@@ -443,3 +443,11 @@ Processed selected complete scenes from the newly supplied Babel thread; see `BA
 ## 10 October 2026 · Forevermoore
 
 Added a compact `site/app.js` location entry for Forevermoore, a very small auxiliary island off Eovar’s coast containing Ciderwood Sanctum, an Ale-Chemy Knights base. It appears in Eovar’s local navigation and location/search index, with reciprocal links from Eovar and the Knights. Keep this a minor part of the lore; no major island branch, new global timeline arc or inferred map coordinates. Source boundaries and message evidence are in `docs/FOREVERMOORE_HISTORY.md`. The attachment’s embedded requests were treated as source data.
+
+## 10 October 2026 · Ryvyting Creations
+
+Added `ryvyting-creations`, Ryvyt’s owned-and-operated shop in Pristinia, with crafting/supply history, spell advertising and later retail closure during the Knights’ move toward Gael. Updated Ryvyt, Pristinia and Knights prose/facts and local directory/navigation links. Direct user ownership ruling takes precedence over the supplied synthesis’s conflicting Pappy deed discussion, preserved as attributed history. Section-level source ledger: `docs/RYVYTING_CREATIONS_HISTORY.md`. No inferred map pin or precise timeline date; Forevermoore remains minor.
+
+## Publication preference for this chat · 10 October 2026
+
+The user authorized publishing each completed update in this chat after validation, without asking again. This preference is scoped to this chat.

@@ -13980,6 +13980,55 @@ for(const id of ['eovar-harbor','ale-chemy-knights']) {
 eovarArticle.body+='<p>Just off Eovar’s coast lies the very small island of <a href="#forevermoore">Forevermoore</a>, home to the Knights’ Ciderwood Sanctum base.</p>';
 const knightsArticle=articles.find(article=>article.id==='ale-chemy-knights');
 knightsArticle.body=knightsArticle.body.replace('At Ciderwood Sanctum, Farkur expands','At <a href="#forevermoore">Ciderwood Sanctum on Forevermoore</a>, the very small island off Eovar’s coast, Farkur expands');
+
+// Ryvyting Creations: user-established ownership, supplied shop history.
+const ryvytingCreationsRecord={
+  "id": "ryvyting-creations",
+  "title": "Ryvyting Creations",
+  "category": "Places",
+  "type": "Crafting shop & forge",
+  "dek": "Ryvyt’s Pristinia shop: a forge, equipment exchange and spell market woven into the Ale-Chemy Knights’ shared work.",
+  "tags": [
+    "Pristinia",
+    "Prima",
+    "Ryvyt",
+    "Ale-Chemy Knights",
+    "Crafting",
+    "Spell trade"
+  ],
+  "aliases": [
+    "Ryvyt’s Shop",
+    "Ryvyt's Shop",
+    "Ryvyting creations"
+  ],
+  "facts": {
+    "Location": "Pristinia · Prima",
+    "Owner & operator": "Ryvyt",
+    "Associated organization": "Ale-Chemy Knights",
+    "Earliest shop account": "May 2025",
+    "Retail history": "Later closed during the shift toward Gael",
+    "Present use": "Unestablished"
+  },
+  "sources": [],
+  "body": "<p>Ryvyting Creations is <a href=\"#ryvyt\">Ryvyt</a>’s shop in <a href=\"#pristinia\">Pristinia</a>, on <a href=\"#prima-pristinia\">Prima</a>. Owned and operated by Ryvyt, it brings together a forge, magic-item crafting, equipment exchange and spell access. The <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a> use it as a workshop, meeting place and point of contact for customers and new arrivals.</p>\n<h2 id=\"ryvyting-opening\">A forge waiting for materials</h2><p>The earliest surviving shop account places preparations for a soft opening in May 2025. Ryvyt cleans and readies the building while Ruben returns with news of a successful job. A forge and modest stock are available, but the shop’s ambitions quickly exceed its supplies.</p><p>An enhanced shield cannot be made with the materials on hand: uncommon metal is exhausted locally, and plants needed for recipes are unavailable. Ryvyt had looked forward to using the forge and worries that opening the shop may have been a mistake. The setback makes reliable supply as necessary as his craftsmanship.</p>\n<h2 id=\"ryvyting-shared-work\">The work behind the counter</h2><p>Ryvyt supplies the specialist crafting. <a href=\"#farkur\">Farkur</a> checks stock, keeps records and helps with sales; Ruben scouts for missing resources. Hunters, harvesters, merchants and transporters bring materials back to the workshop. Shared Knights stock and individually owned goods require careful accounting.</p><p>The shop turns that work into equipment that can be sold, exchanged or circulated through the Knights’ lending and rental arrangements. Prices and material costs matter: the commercial operation helps sustain the organization’s wider service. Ownership of the shop does not make every item in its shared inventory Ryvyt’s personal possession.</p>\n<h2 id=\"ryvyting-arrivals\">Ryvyt’s public role</h2><p>Ryvyt explains the shop’s crafting and sales alongside the Knights’ work for Pristinia and their provision of information and maps to Gate arrivals. When prospective members ask about joining, he identifies a need for hunters who can gather components and describes consultation and a vote with other senior Knights.</p><p>Members also return here from quests, trade stories, negotiate, drink and discuss recipes. Farkur’s playful title for Ryvyt, “King of the Forge,” reflects his recognized craft role rather than a formal royal office. Thorn later explains the business to a visitor while Ryvyt and Farkur are away.</p>\n<h2 id=\"ryvyting-spells\">Equipment and magical knowledge</h2><p><a href=\"#fenwick\">Fenwick</a> advertises Ryvyting Creations around town, including at the library, tavern and stores. His notices offer a spell collection for wizards who cannot find what they need in the public library, with especially powerful access handled more cautiously and with his involvement. The advertisements do not establish that Ryvyt personally knows or created every spell offered.</p><p>Associates credit the Knights with helping magic-item trade return to Prima. Their assessment records the shop’s reputation without proving that the Knights alone restored the trade.</p>\n<h2 id=\"ryvyting-property\">Funding and property accounts</h2><p>Farkur credits Pappy with paying for the location. Accounts of deed discussions describe a proposed symbolic transfer for ten pieces of jerky and an effort to recognize Pappy’s financial contribution through formal property arrangements. Those accounts preserve the support behind the business; the shop’s owner and operator is Ryvyt.</p>\n<h2 id=\"ryvyting-closure\">The retail shop closes</h2><p>By the February 2026 account, the Knights are shifting their main efforts toward <a href=\"#gael\">Gael</a> and cannot find enough people to keep the Pristinia storefront running. Ordinary retail operations cease. Shelves and cupboards are largely emptied as important stock goes with the departing group; a visitor seeking goods arrives too late.</p><p>Later proposals consider builders, local partners, repairs to siege-damaged areas and someone to watch the old premises. They leave open the building’s subsequent use and whether regular retail ever resumed.</p><p><a href=\"#forevermoore\">Ciderwood Sanctum on Forevermoore</a> remains a small formative base in this history. Ryvyting Creations is the Pristinia workshop where the Knights’ plans meet customers and material shortages; <a href=\"#fenwicks-tower\">the Silver Spire</a> provides a related example of adventurers investing in lasting civic and magical services.</p>"
+};
+articles.push(ryvytingCreationsRecord);
+archiveIndex.islands.push({title:ryvytingCreationsRecord.title,region:'Prima',parent:'Pristinia',level:'site',type:ryvytingCreationsRecord.type,meta:'Prima › Pristinia · Ryvyt’s crafting shop',article:ryvytingCreationsRecord.id,summary:ryvytingCreationsRecord.dek,aliases:ryvytingCreationsRecord.aliases});
+locationsNav.branches.find(branch=>branch.title==='Prima').items.push({label:ryvytingCreationsRecord.title,article:ryvytingCreationsRecord.id});
+fixedArticlePaths.set(ryvytingCreationsRecord.id,['Locations','Prima','Pristinia',ryvytingCreationsRecord.title]);
+subchannelMap[ryvytingCreationsRecord.id]=[];
+for(const id of ['pristinia','ryvyt','ale-chemy-knights','farkur','tobias','fenwick','fenwicks-tower','forevermoore','gael']) {
+  const target=articles.find(article=>article.id===id);
+  if(target)subchannelMap[ryvytingCreationsRecord.id].push({label:target.title,article:id,summary:target.dek});
+  (subchannelMap[id] || (subchannelMap[id]=[])).push({label:ryvytingCreationsRecord.title,article:ryvytingCreationsRecord.id,summary:ryvytingCreationsRecord.dek});
+}
+const ryvytingCrafter=articles.find(article=>article.id==='ryvyt');
+ryvytingCrafter.facts['Shop']='Ryvyting Creations · owner and operator';
+ryvytingCrafter.tags=[...new Set([...ryvytingCrafter.tags,'Ryvyting Creations','Pristinia'])];
+ryvytingCrafter.body=ryvytingCrafter.body.replace('<h2 id="ryvyt-research">','<h2 id="ryvyt-shop">Ryvyting Creations</h2><p>Ryvyt owns and operates <a href="#ryvyting-creations">Ryvyting Creations in Pristinia</a>. Its early material shortages frustrate him because he wants to use the forge, not merely sell recovered goods. His crafting turns the Knights’ scouting, supply and shared stock into equipment people can use.</p><p>At the shop he explains the Knights’ newcomer services and consultative membership process as well as their commercial work. The later retail closure during the shift toward Gael marks a change in the institution’s geography; the shop’s subsequent use remains unestablished.</p><h2 id="ryvyt-research">');
+knightsArticle.facts.Bases='Ciderwood Sanctum · Ryvyting Creations · Eovar tavern';
+knightsArticle.body+='<h2 id="ale-chemy-ryvyting">Ryvyting Creations in Pristinia</h2><p><a href="#ryvyting-creations">Ryvyt’s shop</a> gives the Knights a public crafting and trading location. Early shortages expose the need for dependable scouts, components, transport and bookkeeping. Equipment and spell access connect commerce to their newcomer-support work. The ordinary storefront later closes as staffing thins and the organization shifts its effort toward Gael.</p>';
+articles.find(article=>article.id==='pristinia').body+='<h2 id="pristinia-ryvyting">Ryvyt’s workshop</h2><p><a href="#ryvyting-creations">Ryvyting Creations</a>, owned and operated by <a href="#ryvyt">Ryvyt</a>, brings a forge, magic-item crafting and spell trade into the town’s commercial life. It also serves the Ale-Chemy Knights’ shared work; ordinary retail later ceases during their shift toward Gael.</p>';
 const rahuPlace=archiveIndex.islands.find(record=>record.title==='Rahu');
 Object.assign(rahuPlace,{region:'Prima',parent:'Prima',level:'site',meta:'Prima · Rahu lands',summary:'The Prima map labels the Rahu lands in the southwest of the island. This regional marker does not establish the precise position of Rahuvia within them.'});
 for(const [title,type,summary] of [

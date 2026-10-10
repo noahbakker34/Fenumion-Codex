@@ -15713,6 +15713,7 @@ function renderArticle(route, pushHash = true) {
   // Preserve existing bookmarks after Vaerik’s world correction.
   if (String(route).split("?")[0] === "vaerik") { location.replace("/gedankin/#vaerik"); return; }
   stopQuoteVoice();
+  articleContent.querySelectorAll("video[data-ambient-video]").forEach(video=>video.pause());
   clearTimeout(featuredContentTimer);
   const [requestedId, routeQuery = ""] = String(route || "").split("?");
   const id = routeAliases.get(requestedId) || requestedId;
@@ -15721,6 +15722,11 @@ function renderArticle(route, pushHash = true) {
   const article = byId.get(id) || byId.get("world-index");
   const protectedArticle = !isPlayerSafeArticle(article.id);
   const hubPage = hubPageById.get(article.id);
+  const deathRelated = !protectedArticle && !['world-index','people-directory','factions','living-timeline','visual-archive','memorable-quotes','ethos-of-fenumion','reading-the-codex','start-here'].includes(article.id) && (
+    /\b(?:Death|Dumuzi)\b/.test([article.title,article.type,...(article.tags || []),...Object.values(article.facts || {})].join(' ')) ||
+    (article.relatedRecords || []).includes('death-dumuzi') || /href=["']#death-dumuzi["']/.test(article.body || '') || /\b(?:Death|Dumuzi)\b/.test(String(article.body || '').replace(/<[^>]*>/g,' '))
+  );
+  document.body.classList.toggle('death-view',deathRelated);
   document.body.classList.toggle("home-view", article.id === "world-index");
   document.body.classList.toggle("hub-view", Boolean(hubPage));
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
@@ -15798,8 +15804,9 @@ function renderArticle(route, pushHash = true) {
         <source src="assets/archive/ethos-eye-background.mp4" type="video/mp4">
       </video>
     </div>` : "";
+  const deathBackdrop = deathRelated ? `<div class="death-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/death-background-poster.webp" tabindex="-1"><source src="assets/archive/death-background.mp4" type="video/mp4"></video></div>` : '';
   articleContent.innerHTML = `
-    ${quotesBackdrop}${ethosBackdrop}
+    ${quotesBackdrop}${ethosBackdrop}${deathBackdrop}
     <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubPage.image}')"` : ""}>
       <p class="article-kicker">${article.type}</p>
       <h1>${article.title}</h1>

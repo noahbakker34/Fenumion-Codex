@@ -147,3 +147,7 @@ This is a working manifest of the major primary, synthesis, and profile records 
 - The complete quest export now supplies message-level IDs, speakers, and timestamps. The 303 supporting records still require incremental file-level indexing as they are processed.
 
 | Vanguard symbol (`the_gardener_A_symbol_of_the_vanguard_of_light_and_courage_To_510c205d-8e84-475d-87ac-e6ca53af5b3b_1.mp4`) | Supplied 10 Oct 2026 | Animated faction emblem | User identifies as the Vanguard symbol; artist unstated | The Vanguard | Visual identity only; no inferred history or symbolism | `site/assets/archive/vanguard-symbol.mp4`; extracted first-frame poster `site/assets/archive/vanguard-symbol-poster.png`; Vanguard article |
+
+| Ale-Chemy Knights master-history merge guide | Supplied 10 Oct 2026 | Editorial synthesis / merge proposal | User-supplied; underlying primary quotations not independently reverified | Knights, Ciderwood, Ryvyting, allied people, public works, Gael | Preserves earlier canon and ownership rulings; no new primary verification claimed | `docs/ALE_CHEMY_KNIGHTS_HISTORY.md`; existing faction and supporting articles |
+
+Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616bb82069`.

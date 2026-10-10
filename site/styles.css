@@ -656,6 +656,11 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .index-glyph { display: grid; place-items: center; min-height: 118px; color: var(--gold); background: radial-gradient(circle, rgba(212,180,109,.12), transparent 64%); border-right: 1px solid var(--line-soft); font: 1.5rem/1 var(--serif); }
 #faction-records .faction-symbol { position: relative; background: #121318; }
 #faction-records .faction-symbol img { position: absolute; inset: 0; width: 100%; height: 100%; min-height: 0; padding: .5rem; box-sizing: border-box; object-fit: contain; }
+.history-table-scroll { max-width: 100%; overflow-x: auto; margin: 1rem 0; border: 1px solid var(--line); border-radius: 8px; }
+.history-table-scroll:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.history-table { width: 100%; border-collapse: collapse; font: 1rem/1.5 var(--text); }
+.history-table th, .history-table td { min-width: 10rem; padding: .8rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line-soft); }
+.history-table thead { color: var(--gold-bright); background: rgba(217,185,95,.08); }
 .index-card-copy { display: block; padding: .85rem .9rem; }
 .index-card-copy small, .index-card-copy strong, .index-card-copy > span { display: block; }
 .index-card-copy small { margin-bottom: .18rem; color: var(--green-bright); font-size: .63rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }

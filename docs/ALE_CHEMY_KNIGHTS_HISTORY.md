@@ -1,6 +1,6 @@
 # The Ale-Chemy Knights — Recovered History
 
-Last synthesized: 2026-09-26
+Last synthesized: 2026-10-10
 
 ## Canon status
 
@@ -22,7 +22,7 @@ Farkur’s companions include **Green Bean**, a winged emerald snake, and **Fang
 
 ### Ryvyt
 
-Ryvyt is a founder, crafter, researcher, and early operational specialist. Farkur explicitly calls Ryvyt “our crafter” when directing specialized work beyond his own expertise. Ryvyt borrows from shared inventory for jobs and asks that project requests be left behind for completion.
+Ryvyt is a founder, lead crafter, researcher, and productive specialist. The Ryvyting shop synthesis identifies him as lead crafter; “King of the Forge” remains a playful title. He owns and operates Ryvyting Creations under the user’s explicit ruling. Farkur explicitly calls Ryvyt “our crafter” when directing specialized work beyond his own expertise. Ryvyt borrows from shared inventory for jobs and asks that project requests be left behind for completion.
 
 Ryvyt’s research interests include Delerium. This belongs to Ryvyt’s personal record and is not automatically faction policy.
 
@@ -36,8 +36,8 @@ Tobias describes the Knights as helping adventurers become more independent rath
 
 - **Ruben** — scout, prospector, resource specialist, and operational representative. He locates and records resources, explains the economic system, and recognizes the organization as a legacy and family business.
 - **Anky** — inner-circle associate or founder-circle figure, religious intermediary, and the Knights’ “Saint.” Exact formal status remains imprecise.
-- **Pappy** — close social and material contributor. Association alone does not establish formal membership.
-- **Fenwick** — connected to Farkur’s early planning and proposed communication network.
+- **Pappy** — substantial property/financial supporter in Farkur’s account of the Pristinia shop, alongside his social and material contributions. Funding and proposed deed arrangements do not override Ryvyt’s established ownership or prove formal membership.
+- **Fenwick** — major civic and magical ally, connected to early planning, proposed communications and public spell-market promotion. The Silver Spire and Vital Chain remain distinct from the Knights.
 - **Severina** — materially connected through resurrection history, Pristinia public works, and economic interactions; not established as a defining leader.
 - **Green Bean and Fangs** — Farkur’s companions and part of his practical working system.
 
@@ -169,3 +169,24 @@ Ryvyting Creations is a distinct Pristinia shop, owned and operated by Ryvyt und
 ## Faction symbol · 10 October 2026
 
 The user identifies `Alechemy Knights.png` as the symbol of the Ale-Chemy Knights. Preserved unchanged at `site/assets/archive/ale-chemy-knights-symbol.png` and displayed as the faction article image, with an identifying caption and accessible description of the shield, hammer, potion flask and ale tankard. No artist, creation date or additional symbolic meaning is established. Article-image consumers can reuse it.
+
+## Master-history integration · 10 October 2026
+
+Reviewed `ale-chemy-knights-master-history-merge-guide.md` as an editorial synthesis, not a primary transcript or independent instruction authority. Its useful organizing argument is integrated into the existing faction article rather than published as a competing history. Historical claims come from the already supplied location/character records; no new exact primary dates, message identifiers or source quotations are manufactured.
+
+The public history now follows the development of capabilities:
+
+1. Friendly Guides and Grub: entrepreneurial newcomer-service precursor, without a retroactive founding date.
+2. Ciderwood: a worksite, coordinated skills, unfinished plans and resource constraints. Forevermoore remains a very small auxiliary holding.
+3. Tobias: a demonstrated welcome and independence philosophy, rather than a promise of universal service.
+4. Ryvyting: May opening preparations and component shortages force dependable supply.
+5. Shared inventory and bookkeeping: loans, recipes, costs and ownership records make cooperation repeatable.
+6. Spell access and Fenwick: advertised knowledge and allied civic infrastructure, with the Spire remaining separate.
+7. Public works, maps and ships: coordinated labor and materials support civic projects and wider logistics.
+8. Retail closure and Gael: staffing shortages and resource movement precede the later confirmed market.
+
+A five-stage economic loop and a compact chronology explain the system. Gregory’s financing criticism, Farkur’s confession, civic dependence, Ryvyt’s founder-loss, Raven Joyner’s mixed assessment, the Gael market and the disappearance remain preserved. The completed market supports one concrete reconstruction outcome, not success of every Gael plan.
+
+Updated supporting histories for Farkur, Ryvyt, Pappy, Tobias and Fenwick, plus compact forward links from Ciderwood and Ryvyting. Ruben’s scouting and economic role is expanded in the faction history; no separate biography is invented. Anky’s formal status remains imprecise. The shop synthesis’s report that Farkur called Tobias a founder remains attributed; confirmed founder facts stay Farkur and Ryvyt.
+
+The guide’s proposed assertion of Pappy as confirmed legal owner conflicts with the direct user ruling that Ryvyt owns and operates the shop. Preserve Pappy’s funding/deed discussions as attributed evidence without inventing a transfer chronology.

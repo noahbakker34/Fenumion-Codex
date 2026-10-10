@@ -517,3 +517,7 @@ Faction directory cards now use each article’s supplied emblem image, includin
 ## 10 October 2026 · New-reader sidebar entry
 
 Removed the World Index’s large “New to Fenumion?” banner so the main browsing sections move up and have more room. The existing Start Here / New readers sidebar entry remains available, with the guide itself unchanged. App cache version 201.
+
+## 10 October 2026 · Ale-Chemy institutional-history merge
+
+Integrated the supplied merge guide into the existing Knights history: distinct Ciderwood, Tobias, Ryvyting, supply, bookkeeping, spell-access and closure phases; role groupings; economic loop; chronology and institutional legacy. Retained later confession, civic-power, market and disappearance evidence. Updated linked character histories and compact location links. Ryvyt remains shop owner/operator, Pappy’s financial/property claims stay attributed, Tobias’s founder description stays unconfirmed, and Forevermoore stays minor. App version 202, civic records 4, stylesheet 160.

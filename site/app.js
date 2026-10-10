@@ -13735,6 +13735,22 @@ if(characterDossiers) {
   for(const id of ['aria-pride','zarathis','fein-uaill','elenia','ciaranach']){const links=subchannelMap[id] || (subchannelMap[id]=[]);if(!links.some(link=>link.article==='bowene'))links.push({label:'High Lord Bowene',article:'bowene',summary:bowene.dek});}
 }
 
+// Expand Adelia before deriving the public search and timeline indexes.
+const adeliaDossier = window.FENUMION_ADELIA;
+if(adeliaDossier) {
+  const adelia=articles.find(record=>record.id==='adelia-hope');
+  Object.assign(adelia,adeliaDossier.profile,{tags:[...new Set([...adelia.tags,...adeliaDossier.profile.tags])],sources:[]});
+  const entry=archiveIndex.characters.find(record=>record.article===adelia.id);
+  if(entry)Object.assign(entry,{meta:adelia.type,summary:adelia.dek,aliases:['Adelia','Shadow Sentinel','Spirit of Adelia','Empyrean','Life Knight']});
+  for(const event of adeliaDossier.events)if(!archiveIndex.timeline.some(record=>record.title===event.title))archiveIndex.timeline.push(event);
+  const transformation=archiveIndex.timeline.find(record=>record.title==='Adelia gives herself for Hope');
+  if(transformation)Object.assign(transformation,{location:'Hope; Gael',summary:'After Magnus wounds Hope, Adelia voluntarily gives up her former existence to restore or save it. She becomes bound to Hope and Gael as the Spirit of Adelia, Empyrean or Life Knight. Exact date and mechanics remain unresolved; Gael’s earlier restoration is communal.'});
+  const rift=archiveIndex.timeline.find(record=>record.title==='The Rift ambush tests knowledge and rescue');
+  if(rift)rift.sort='2026-99z';
+  const withering=archiveIndex.timeline.find(record=>record.title==='Magnus returns and Hope withers');
+  if(withering)withering.summary='Adelia invokes Divine Intervention for a friend’s second chance. Moirah returns Magnus from Death’s possession and rebukes her; Magnus accepts Dumuzi’s gift, wounds Hope and flees. Adelia attempts to save the tree, then struggles with rage and guilt while Jiangshi and her companions remain.';
+}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -13756,6 +13772,9 @@ const routeAliases = new Map([["vess", "vessalia"],["reading-the-codex", "ethos-
 
 routeAliases.set('high-lord-bowene','bowene');
 routeAliases.set('bowen','bowene');
+routeAliases.set('adelia','adelia-hope');
+routeAliases.set('spirit-of-adelia','adelia-hope');
+routeAliases.set('shadow-sentinel','adelia-hope');
 
 const relationshipMaps = {
   magnus: {

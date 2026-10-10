@@ -13817,6 +13817,101 @@ navigationRegions.find(region=>region.title==='Locations').branches.find(branch=
 subchannelMap[thunderingCoastRecord.id]=[{label:'Prima & Pristinia',article:'prima-pristinia',summary:'The wider island around the coast.'},{label:'Eovar Harbor',article:'eovar-harbor',summary:'The harbor from which the party seeks passage toward the beacon.'}];
 for(const id of ['prima-pristinia','eovar-harbor']){const links=subchannelMap[id] || (subchannelMap[id]=[]);links.push({label:thunderingCoastRecord.title,article:thunderingCoastRecord.id,summary:thunderingCoastRecord.dek});}
 
+const primaIslandMap = {
+  "id": "prima",
+  "title": "Prima",
+  "shortTitle": "Prima",
+  "image": "assets/archive/prima-map.jpg",
+  "width": 2048,
+  "height": 1536,
+  "alt": "Map of Prima showing Eovar Harbor, the Thundering Coast, Pristinia, the Gate, the Before, Old Earth Hills, the First Forest, Kinich Ahau, the Rahu, Lost Shacks and the Shard",
+  "description": "The island of Prima connects Eovar Harbor and the Thundering Coast with Pristinia, the Gate, the Before and the island’s other named landscapes. Pristinia and Eovar retain separate settlement maps.",
+  "pins": [
+    {
+      "title": "Eovar Harbor",
+      "x": 52,
+      "y": 44
+    },
+    {
+      "title": "The Thundering Coast",
+      "x": 41.6,
+      "y": 36.8
+    },
+    {
+      "title": "Pristinia",
+      "x": 61.5,
+      "y": 51
+    },
+    {
+      "title": "The Gate",
+      "x": 65,
+      "y": 40
+    },
+    {
+      "title": "The First Forest",
+      "x": 72,
+      "y": 48.4
+    },
+    {
+      "title": "Old Earth Hills",
+      "x": 60,
+      "y": 19.5
+    },
+    {
+      "title": "The Before Survey Entrance",
+      "x": 70.5,
+      "y": 24.3
+    },
+    {
+      "title": "Rahu",
+      "x": 31,
+      "y": 80.5
+    },
+    {
+      "title": "Lost Shacks",
+      "x": 31.6,
+      "y": 28
+    },
+    {
+      "title": "Kinich Ahau",
+      "x": 85.7,
+      "y": 42
+    },
+    {
+      "title": "The Shard of Prima",
+      "x": 82,
+      "y": 66
+    }
+  ]
+};
+interactiveMaps.splice(1,0,primaIslandMap);
+const primaOverview=articles.find(record=>record.id==='prima-pristinia');
+Object.assign(primaOverview,{image:primaIslandMap.image,imageAlt:primaIslandMap.alt,imageCaption:'Prima · island map',mapId:'prima',mapLinkLabel:'Explore the interactive Prima map'});
+primaOverview.facts.Settlements='Pristinia · Eovar Harbor';
+primaOverview.facts.Coast='The Thundering Coast';
+primaOverview.body='<p>Prima contains <a href="#eovar-harbor">Eovar Harbor</a> and <a href="#thundering-coast">the Thundering Coast</a>, alongside Pristinia and the island’s inland landscapes. The island map above shows their relationship; the settlement maps offer closer views.</p>'+primaOverview.body;
+const primaPlace=archiveIndex.islands.find(record=>record.title==='Prima');
+Object.assign(primaPlace,{image:primaIslandMap.image,summary:primaIslandMap.description});
+const eovarPlace=archiveIndex.islands.find(record=>record.article==='eovar-harbor');
+Object.assign(eovarPlace,{region:'Prima',parent:'Prima',level:'settlement',meta:'Prima · harbor settlement',aliases:[...new Set([...(eovarPlace.aliases || []),'Eovar'])]});
+const eovarArticle=articles.find(record=>record.id==='eovar-harbor');
+eovarArticle.facts.Region='Prima';
+eovarArticle.tags=[...new Set([...eovarArticle.tags,'Prima'])];
+eovarArticle.mapId='eovar';
+eovarArticle.mapLinkLabel='Explore the Eovar Harbor settlement map';
+eovarArticle.body='<p><strong>Eovar Harbor lies on <a href="#prima-pristinia">Prima</a></strong>, on the island’s coast near <a href="#thundering-coast">the Thundering Coast</a>.</p>'+eovarArticle.body;
+const locationsNav=navigationRegions.find(region=>region.title==='Locations');
+for(const branch of locationsNav.branches)branch.items=branch.items.filter(item=>item.article!=='eovar-harbor');
+locationsNav.branches.find(branch=>branch.title==='Prima').items.push({label:'Eovar Harbor',article:'eovar-harbor'});
+fixedArticlePaths.set('eovar-harbor',['Locations','Prima','Eovar Harbor']);
+const rahuPlace=archiveIndex.islands.find(record=>record.title==='Rahu');
+Object.assign(rahuPlace,{region:'Prima',parent:'Prima',level:'site',meta:'Prima · Rahu lands',summary:'The Prima map labels the Rahu lands in the southwest of the island. This regional marker does not establish the precise position of Rahuvia within them.'});
+for(const [title,type,summary] of [
+ ['Lost Shacks','Map-labeled site','A named site on Prima’s northwestern coastal land. Its inhabitants and history remain unconfirmed.'],
+ ['Kinich Ahau','Map-labeled area','The Prima map labels the Kinich Ahau in the east of the island. Its exact boundaries are not defined by this marker.'],
+ ['The Shard of Prima','Map-labeled landmark','The Prima map labels a southern landmark as “The Shard.” It is distinct from the Shard of Fein Uaill; its deeper history is not established here.']
+])archiveIndex.islands.push({title,region:'Prima',parent:'Prima',level:'site',type,meta:'Prima · '+type,article:'prima-pristinia',summary});
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -16189,7 +16284,7 @@ function setupInteractiveAtlas(initialMapId = "") {
   let hoverTimer = null;
 
   const findLocation = title => archiveIndex.islands.find(item => item.title === title);
-  const linkedMapIds = new Map([["Gael", "gael"], ["Prima", "pristinia"], ["Pristinia", "pristinia"], ["Fein Uaill", "fein-uaill"], ["Gates of Aelthor", "fein-uaill"], ["The Shining Shores", "fein-uaill"], ["Babel-Ashur", "babel-ashur"], ["Luminar Spires", "luminar-spires"], ["Greyward Littoral", "greyward"], ["Voraketh", "voraketh"], ["Eovar Harbor", "eovar"]]);
+  const linkedMapIds = new Map([["Gael", "gael"], ["Prima", "prima"], ["Pristinia", "pristinia"], ["Fein Uaill", "fein-uaill"], ["Gates of Aelthor", "fein-uaill"], ["The Shining Shores", "fein-uaill"], ["Babel-Ashur", "babel-ashur"], ["Luminar Spires", "luminar-spires"], ["Greyward Littoral", "greyward"], ["Voraketh", "voraketh"], ["Eovar Harbor", "eovar"]]);
   const syncMapRoute = () => history.replaceState(null, "", `#visual-archive?map=${encodeURIComponent(activeMapId)}`);
 
   const renderDetail = title => {
@@ -16204,7 +16299,7 @@ function setupInteractiveAtlas(initialMapId = "") {
     const linkedMapId = linkedMapIds.get(locationRecord.title);
     const protectedRecord = !isPlayerSafeArticle(locationRecord.article);
     const mapLayerLink = !protectedRecord && linkedMapId && linkedMapId !== activeMapId
-      ? `<button type="button" class="map-layer-link" data-map-id="${linkedMapId}">Explore ${locationRecord.title === "Prima" ? "Prima / Pristinia" : escapeHtml(locationRecord.title)} map <span aria-hidden="true">⌖</span></button>`
+      ? `<button type="button" class="map-layer-link" data-map-id="${linkedMapId}">Explore ${locationRecord.title === "Prima" ? "Prima" : escapeHtml(locationRecord.title)} map <span aria-hidden="true">⌖</span></button>`
       : "";
     detail.classList.toggle("locked-record", protectedRecord);
     detail.setAttribute("aria-label", protectedRecordAria(locationRecord.title, protectedRecord));

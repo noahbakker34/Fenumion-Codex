@@ -156,6 +156,7 @@
   }
   function render() {
     closePanels();
+    artworkObserver.disconnect();artworkVideo=null;artworkVisible=false;
     content.querySelectorAll('audio, video').forEach(media=>media.pause());
     const id=location.hash.slice(1) || 'world-index';
     selectBackground(id);

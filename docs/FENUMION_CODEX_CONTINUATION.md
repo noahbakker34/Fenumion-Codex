@@ -513,3 +513,7 @@ Added the supplied Vanguard animation unchanged at `site/assets/archive/vanguard
 ## 10 October 2026 · Faction directory symbols
 
 Faction directory cards now use each article’s supplied emblem image, including the Vanguard and Vital Chain still posters, instead of always rendering the generic flag. Images fit within their media column without cropping. Search rerenders preserve symbols; records without images retain the flag fallback. App cache version 200, stylesheet version 159.
+
+## 10 October 2026 · New-reader sidebar entry
+
+Removed the World Index’s large “New to Fenumion?” banner so the main browsing sections move up and have more room. The existing Start Here / New readers sidebar entry remains available, with the guide itself unchanged. App cache version 201.

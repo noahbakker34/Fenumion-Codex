@@ -12847,8 +12847,6 @@ const starterRecord = {
 };
 articles.push(starterRecord);
 fixedArticlePaths.set("start-here", ["Foundations", "Start Here"]);
-const starterBanner = '<section class="starter-banner"><div><p class="eyebrow">New to Fenumion?</p><h2>A few doors into a living world</h2><p>Find your bearings through the map, characters, factions, and the stories connecting them.</p></div><button type="button" data-article="start-here">Start exploring →</button></section>';
-articles.find(article => article.id === 'world-index').body = articles.find(article => article.id === 'world-index').body.replace('<section class="gateway-categories"', starterBanner + '<section class="gateway-categories"');
 (subchannelMap['ethos-of-fenumion'] || (subchannelMap['ethos-of-fenumion'] = [])).unshift({ label: 'Start Here', article: 'start-here', summary: 'A six-step path through the world, people, factions, and remembered voices.' });
 
 

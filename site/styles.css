@@ -2480,3 +2480,18 @@ body.narrative-history-view .app-shell { position: relative; z-index: 2; box-sha
 body.narrative-history-view #article-content > :not(.history-video-backdrop) { position: relative; z-index: 1; }
 body.narrative-history-view .article-header { background: linear-gradient(180deg,rgba(10,11,15,.25),rgba(10,11,15,.75)); }
 body.narrative-history-view .article-body { padding: clamp(1rem,3vw,2rem); background: rgba(16,17,23,.9); border-radius: 8px; }
+
+/* Blessing references preserve full rule text and scroll within narrow screens. */
+.blessing-table-scroll { max-width: 100%; overflow-x: auto; margin: 1.4rem 0; border: 1px solid var(--line, #45443e); border-radius: .35rem; }
+.blessing-table-scroll:focus-visible { outline: 2px solid #c9ad71; outline-offset: 3px; }
+.blessing-table { width: 100%; border-collapse: collapse; font-size: .92rem; line-height: 1.6; }
+.blessing-table caption { text-align: left; font-weight: 700; padding: .8rem 1rem; }
+.blessing-table th, .blessing-table td { text-align: left; vertical-align: top; padding: .85rem 1rem; border-top: 1px solid var(--line, #45443e); min-width: 13rem; }
+.blessing-table th:first-child { min-width: 8rem; }
+.blessing-table thead { background: rgba(160, 137, 88, .12); }
+.blessing-table tbody tr:nth-child(even) { background: rgba(160, 137, 88, .045); }
+.blessing-table td p:first-child { margin-top: 0; }
+.blessing-table td p:last-child { margin-bottom: 0; }
+.blessing-spell { border-bottom: 1px solid var(--line, #45443e); padding: .8rem 0; }
+.blessing-spell summary { cursor: pointer; font-weight: 700; }
+.blessing-source { font-size: .88rem; }

@@ -128,6 +128,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | `pristinia-ryvyting-creations-ryvyt-ale-chemy-knights.md` | Supplied 10 Oct 2026 | Narrative shop synthesis, read in full | User: Pristinia location; Ryvyt owner/operator. Synthesis author unstated | Ryvyt; Knights; Pristinia crafting, supply and spell trade | Opening shortages, shared work, advertised spells, property accounts and later retail closure; no primary message links supplied | `site/app.js` (`ryvyting-creations`, Ryvyt, Pristinia, Knights); `docs/RYVYTING_CREATIONS_HISTORY.md`; `docs/ALE_CHEMY_KNIGHTS_HISTORY.md` |
 
+| Blessings spreadsheets: `1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o`, `1ACa6vnVEZLX_065nDRO7fkkBKk9BwEhpFKM2dYFtqK4` | Read 10 Oct 2026 | User-supplied rules spreadsheets | Supplied references | Twelve blessing paths; level 26–30 rewards, capstones and tenth-level spells | Mechanical rules reference, with source wording retained; no new lore events inferred | `site/blessings-data.js`; `site/app.js`; `docs/BLESSINGS_REFERENCE.md` |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

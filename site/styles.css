@@ -2447,3 +2447,14 @@ body.death-view .app-shell { position: relative; z-index: 2; box-shadow: none; }
 body.death-view #article-content > :not(.death-video-backdrop) { position: relative; z-index: 1; }
 body.death-view .article-header, body.death-view .article-body { background: rgba(16,17,23,.86); }
 body.death-view .article-body { padding: clamp(1rem,3vw,2rem); border-radius: 8px; }
+
+/* The locations atlas sits over its own silent landscape. */
+body.atlas-view { background: #0c0d10; }
+body.atlas-view .app-shell, body.atlas-view main { background: transparent; }
+body.atlas-view .app-shell { position: relative; z-index: 2; box-shadow: none; }
+.locations-video-backdrop { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; background: #0c0d10 url('assets/archive/locations-background-poster.webp') center / cover; }
+.locations-video-backdrop video { width: 100%; height: 100%; object-fit: cover; opacity: .8; }
+.locations-video-backdrop::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg,rgba(6,7,10,.35),rgba(6,7,10,.75)); }
+body.atlas-view #article-content > :not(.locations-video-backdrop) { position: relative; z-index: 1; }
+body.atlas-view .article-header { background: linear-gradient(180deg,rgba(10,11,15,.25),rgba(10,11,15,.75)); }
+body.atlas-view .article-body { padding: clamp(1rem,3vw,2rem); background: rgba(16,17,23,.9); border-radius: 8px; }

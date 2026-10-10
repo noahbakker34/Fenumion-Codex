@@ -15865,9 +15865,10 @@ function renderArticle(route, pushHash = true) {
         <source src="assets/archive/ethos-eye-background.mp4" type="video/mp4">
       </video>
     </div>` : "";
+  const locationsBackdrop = article.id === 'visual-archive' ? `<div class="locations-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/locations-background-poster.webp" tabindex="-1"><source src="assets/archive/locations-background.mp4" type="video/mp4"></video></div>` : '';
   const deathBackdrop = deathRelated ? `<div class="death-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/death-background-poster.webp" tabindex="-1"><source src="assets/archive/death-background.mp4" type="video/mp4"></video></div>` : '';
   articleContent.innerHTML = `
-    ${quotesBackdrop}${ethosBackdrop}${deathBackdrop}
+    ${quotesBackdrop}${ethosBackdrop}${deathBackdrop}${locationsBackdrop}
     <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubPage.image}')"` : ""}>
       <p class="article-kicker">${article.type}</p>
       <h1>${article.title}</h1>

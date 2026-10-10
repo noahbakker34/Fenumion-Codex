@@ -96,3 +96,7 @@ Anything more specific would currently be invention.
 - `RELATIONSHIPS.md` — Olokun and Arjahn history.
 - `CONVERSATION_MASTER_SUMMARY.md` — conservative character and regional synthesis.
 
+
+## Veilguard symbol · 10 October 2026
+
+The user identifies the supplied `7450a6c7-0f9f-4544-a050-dbd1506d2043.png` as the symbol of the Veilguard. Preserved unchanged at `site/assets/archive/veilguard-symbol.png` and assigned as the faction article’s image, with accessible visual description and a plain identifying caption. This identification establishes the emblem; it does not establish additional religious meaning, a creation date or an artist. Faction cards and linked records can reuse the article image.

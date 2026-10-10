@@ -130,6 +130,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | Blessings spreadsheets: `1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o`, `1ACa6vnVEZLX_065nDRO7fkkBKk9BwEhpFKM2dYFtqK4` | Read 10 Oct 2026 | User-supplied rules spreadsheets | Supplied references | Twelve blessing paths; level 26–30 rewards, capstones and tenth-level spells | Mechanical rules reference, with source wording retained; no new lore events inferred | `site/blessings-data.js`; `site/app.js`; `docs/BLESSINGS_REFERENCE.md` |
 
+| Veilguard symbol (`7450a6c7-0f9f-4544-a050-dbd1506d2043.png`) | Supplied 10 Oct 2026 | Faction emblem image | User identifies as Veilguard symbol; artist unstated | Veilguard | Visual identity only; no inferred symbolism or history | `site/assets/archive/veilguard-symbol.png`; Veilguard article image; `docs/VANGUARD_HISTORY.md` |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

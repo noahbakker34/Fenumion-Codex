@@ -2879,6 +2879,10 @@ articles.push(
   {
     id: "veilguard",
     title: "The Veilguard",
+    image: "assets/archive/veilguard-symbol.png",
+    imageLayout: "portrait-hero",
+    imageAlt: "Veilguard symbol: a silver sword draped in a dark veil, flanked by two crescents inside an ornate thorned frame",
+    imageCaption: "The symbol of the Veilguard.",
     category: "Factions",
     type: "Inter-island protective company · successor to the new vanguard",
     dek: "A faction built to replace a missing frontline function with earned leadership, rapid response, shared equipment, and responsibility that continues after rescue fails.",

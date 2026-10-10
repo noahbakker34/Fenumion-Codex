@@ -489,3 +489,7 @@ Blessing pages use a full-width reference layout, overview path cards, clear the
 ## 10 October 2026 · Consistency audit
 
 Audited runtime article IDs (163 initial, 173 final including generated records), article-body routes, sidebar navigation, directory routes, connected-record routes and local article media. No missing targets, duplicate article IDs or missing local article assets found. Preserved full sentences in blessing previews so prerequisites cannot be clipped mid-sentence. Clarified the Knights’ historical bases and corrected the welcome-system timeline’s Forevermoore geography. Current source/deployment paths are recorded at the top of this brief; obsolete September state is explicitly historical. Full scope and limitations: `docs/CONSISTENCY_AUDIT_2026-10-10.md`.
+
+## 10 October 2026 · Veilguard symbol
+
+Added the user-identified Veilguard symbol unchanged as `site/assets/archive/veilguard-symbol.png`, displayed on the faction article and reused by article-image consumers. Visual description only; no invented heraldic or religious meaning.

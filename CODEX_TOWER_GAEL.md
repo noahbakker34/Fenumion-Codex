@@ -1,0 +1,7 @@
+# Tower of Gael expansion — 9 October 2026
+
+Reviewed all 1,536 lines of the supplied Tower dossier. Expanded the existing location entry while retaining its artwork, map link, Moirah/Jiangshi return and February 2025 refugee consultation. The page now covers sanctuary protections, domestic spaces, Huoth and the altar, homesickness, soil restoration, mourning, research, campaign transport, refugees and civilian rebuilding.
+
+Added nine timeline entries, alongside three existing Tower records, and four exact quotations under three searchable themes. Broad posting dates retain broad display labels; no in-world calendar is inferred. Other towers, Hope and the Golden Tree are not relocated into the Tower. Huoth’s physical departure and later echo remain consistent with his existing dossier. Soil chemistry, Life/Death comparisons and the Golden Tree’s environmental effects retain their character attribution. No private ledger or message IDs are included.
+
+Validation: JavaScript syntax and whitespace checks; exact quote/source comparison; local in-app browser renders all twelve Tower events and three quote groups; quote search returns the attributed line; artwork loads; mobile 390-pixel viewport has no horizontal overflow. Last Grove regression and the broader 123-page audit passed before the Tower addition. Publication remains pending because automatic approval review hit a usage limit during the earlier commit attempt.

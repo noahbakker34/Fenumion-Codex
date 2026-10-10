@@ -55,3 +55,87 @@
   .codex-world:not(.home-view) .lead-grid > .article-body { grid-row: 1; }
   .codex-world:not(.home-view) .lead-grid > .infobox { grid-row: 2; }
 }
+
+/* Short names beneath hero artwork use the Codex's display lettering. */
+.codex-world .article-hero figcaption.media-name-caption {
+  padding: 1rem 1.2rem 1.1rem;
+  text-align: center;
+  background: radial-gradient(ellipse at 50% 0%, rgba(212,180,109,.12), transparent 75%), #171b20;
+  border-top: 1px solid rgba(212,180,109,.32);
+  font: 400 clamp(1.4rem, 1.05rem + 1.2vw, 2rem)/1.35 var(--serif);
+  letter-spacing: .045em;
+  overflow-wrap: anywhere;
+}
+.codex-world .media-name-caption > span {
+  color: #e9cc86;
+  text-shadow: 0 1px 1px rgba(0,0,0,.7), 0 0 14px rgba(222,185,101,.28);
+}
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .codex-world .media-name-caption > span {
+    background: linear-gradient(180deg, #fff4d1 0%, #dec08a 36%, #ab864f 52%, #efd8a0 73%, #c7a768 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 14px rgba(222,185,101,.22);
+  }
+}
+@media (forced-colors: active) {
+  .codex-world .media-name-caption > span { background: none; color: CanvasText; text-shadow: none; }
+}
+
+/* Connected histories keep the route readable and each contribution distinct. */
+.codex-world .history-path, .codex-world .history-link {
+  display: flex; flex-direction: column; gap: .65rem;
+  padding: 1.25rem; border: 1px solid var(--line);
+  border-radius: 12px; background: linear-gradient(135deg, rgba(212,180,109,.07), rgba(10,17,20,.8));
+  color: var(--ink); text-decoration: none; min-width: 0;
+}
+.codex-world .history-path:hover, .codex-world .history-link:hover { border-color: var(--gold); background-color: rgba(212,180,109,.08); }
+.codex-world :is(.history-path,.history-link,.history-stages button,.history-next a):focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 4px; }
+.codex-world .history-path > strong { font: 400 clamp(1.4rem, 3vw, 2rem)/1.3 var(--serif); color: var(--gold-bright); }
+.codex-world .history-path-question { border-top: 1px solid var(--line-soft); padding-top: .75rem; font-style: italic; }
+.codex-world .history-link-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; margin: 1.25rem 0 2rem; }
+.codex-world .history-link > strong { font: 400 1.25rem/1.3 var(--serif); color: var(--gold-bright); }
+.codex-world .history-link-role { color: var(--muted); font-size: 1rem; }
+.codex-world .history-link-arrow { color: var(--gold-bright); font-size: 1rem; margin-top: auto; padding-top: .4rem; }
+.codex-world .history-question { border-left: 3px solid var(--gold); background: rgba(212,180,109,.06); padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.codex-world .history-question p { margin: 0; }
+.codex-world .history-question .eyebrow { margin-bottom: .5rem; }
+.codex-world .history-stages { display: flex; gap: .75rem; flex-wrap: wrap; margin: 1.25rem 0 2rem; }
+.codex-world .history-stages button { flex: 1 1 150px; background: transparent; text-align: left; font-family: var(--text); cursor: pointer; border: 1px solid var(--line); border-radius: 8px; padding: .8rem; color: var(--ink); text-decoration: none; }
+.codex-world .history-stages button:hover { border-color: var(--gold); }
+.codex-world .history-stages span { display: block; font: 400 1.15rem/1.4 var(--serif); color: var(--gold-bright); margin-bottom: .35rem; }
+.codex-world .history-perspective { border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; margin: 1.5rem 0; }
+.codex-world .history-perspective summary { cursor: pointer; color: var(--gold-bright); padding: .25rem 0; }
+.codex-world .history-next { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; margin: 2rem 0; }
+@media (max-width: 600px) {
+  .codex-world .history-link-grid { grid-template-columns: 1fr; }
+  .codex-world .history-stages button { flex-basis: 100%; }
+}
+
+/* Give each story and its artwork the whole article column. */
+.codex-world:not(.home-view) .lead-grid {
+  grid-template-columns: minmax(0,1fr);
+  gap: 1.5rem;
+}
+.codex-world:not(.home-view) .lead-grid > .article-body {
+  width: 100%; max-width: none; min-width: 0; grid-row: 1;
+}
+.codex-world:not(.home-view) .article-header :is(h1,.dek) { max-width: none; }
+.codex-world:not(.home-view) .lead-grid > .infobox {
+  grid-row: 2; width: 100%; min-width: 0;
+  display: grid; grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 0 1.5rem; margin: 0; padding: 1.25rem;
+}
+.codex-world:not(.home-view) .infobox:not(:has(.fact)) { display: none; }
+.codex-world:not(.home-view) .infobox-title { grid-column: 1 / -1; padding: 0 0 1rem; margin: 0; }
+.codex-world:not(.home-view) .infobox .fact { min-width: 0; overflow-wrap: anywhere; }
+.codex-world:not(.home-view) .article-hero:not(.map-hero):not(.medallion-hero) :is(img,video) {
+  width: 100%; max-width: 100%; height: auto; max-height: none;
+  margin-inline: 0; object-fit: contain;
+}
+.codex-world:not(.home-view) .article-gallery img { width: 100%; height: auto; max-height: none; object-fit: contain; }
+@media (max-width: 600px) {
+  .codex-world:not(.home-view) .lead-grid > .infobox { grid-template-columns: minmax(0,1fr); padding: 1rem; }
+}
+.codex-world.hub-view .lead-grid > .infobox { display: none; }

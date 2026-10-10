@@ -13605,6 +13605,81 @@ if (castleRecoveredRecords) {
   quoteArticle.sources.push('Castle chronicle · four attributed excerpts from January 2025 scenes');
 }
 
+// The Last Grove has its own location history; older links to Voraketh remain valid.
+const lastGrove = window.FENUMION_LAST_GROVE;
+if (lastGrove) {
+  articles.push(lastGrove.article);
+  fixedArticlePaths.set('last-grove', ['Locations','Voraketh','The Last Grove']);
+  const place = archiveIndex.islands.find(record => record.title === 'The Last Grove');
+  Object.assign(place, {article:'last-grove',type:'Ancient druidic sanctuary',summary:lastGrove.article.dek});
+  const regionalLinks = navigationRegions.find(region=>region.title==='Locations').branches.find(branch=>branch.title==='Other regions').items;
+  regionalLinks.splice(regionalLinks.findIndex(item=>item.article==='voraketh')+1,0,{label:'The Last Grove',article:'last-grove'});
+  subchannelMap['last-grove'] = [
+    {label:'Voraketh',article:'voraketh',summary:'The Chains, wasteland and devouring beyond the refuge.'},
+    {label:'Deyara Thorn',article:'deyara-thorn',summary:'The leader Physisia asks Pappy to find.'},
+    {label:'Pappy',article:'pappy',summary:'The druid who communes with Physisia and tends the Grove.'},
+    {label:'Coralyn',article:'coralyn',summary:'Ecological investigation, Alfred’s return and the outbreak.'}
+  ];
+  const region = articles.find(record=>record.id==='voraketh');
+  const heading = '<h2 id="voraketh-last-grove">The Last Grove and its tree</h2>';
+  region.body = region.body.replace(heading, heading+'<p><a href="#last-grove">Explore the Last Grove →</a> An ancient sanctuary whose modern history joins Physisia’s communion, Deyara’s lost trail, the druidic warning and the spore crisis following Alfred’s return.</p>');
+  region.body = region.body.replace('A separate entity has offered resurrection, and spores later spread across the tree and became associated with a plague.', 'An unidentified voice offers Coralyn Alfred’s life; his return is followed by erupting spores and a spreading forest infection. Physisia later tells Pappy that a fiend has invaded the forest and connects it with his return.');
+  region.body = region.body.replace('The archive does not identify Physisia, the tree, the resurrection entity, and the spores or plague as one actor or system.', 'The voice is not identified as Physisia, and the exact relationship between the bargain, fiend and tree remains unresolved.');
+  region.body = region.body.replace('<h2 id="voraketh-deyara">Deyara Thorn · a name, not a biography</h2>', '<h2 id="voraketh-deyara">Deyara Thorn · a lost leader’s trail</h2><p>At the Last Grove, Physisia asks Pappy to find Deyara Thorne, whom she calls a former leader of the people. She has not seen her for a very long time. <a href="#deyara-thorn">Follow the search for Deyara →</a></p>');
+  const sildithas = articles.find(record=>record.id==='sildithas');
+  sildithas.body = sildithas.body.replace('It also has not established what Sildithas learned while communing with Physisia, the fuller history of Murr, whether the feast occurs, or how his ethical faith will respond if a divine caretaker directly commands something his oath appears to reject.', 'The fuller history of Murr, whether the feast occurs, and how his ethical faith will respond if a divine caretaker directly commands something his oath appears to reject remain unresolved.');
+  for (const [id, section] of Object.entries(lastGrove.appends)) articles.find(record=>record.id===id).body += section;
+  archiveIndex.timeline.push(...lastGrove.events);
+  const alfred = archiveIndex.characters.find(record=>record.title==='Alfred Riverheart');
+  alfred.summary = 'Voraketh explorer who damages a Chain, later dies and returns through an unidentified voice at the Last Grove as unnatural spores erupt.';
+  const deyara = articles.find(record=>record.id==='deyara-thorn');
+  deyara.dek = 'Physisia names Deyara Thorne as a former leader and asks Pappy to find her. Her whereabouts and the anomaly surrounding her name remain unresolved.';
+  deyara.type = 'Lost leader · Voraketh mystery';
+  deyara.tags.push('Deyara Thorne','Physisia','Last Grove');
+  Object.assign(deyara.facts, {'Record status':'Former leadership named by Physisia; whereabouts unresolved','Historic connection':'Physisia calls Deyara Thorne a former leader of the people','Grove spelling':'Deyara Thorne','Present whereabouts':'Unknown'});
+  deyara.body = '<p>Physisia asks Pappy to find <strong>Deyara Thorne</strong>, whom she calls a former leader of the people. Elsewhere in Voraketh, the name is recorded as <strong>Deyara Thorn</strong>, with <strong>Derya Thorne</strong> in older accounts. The connection between those spellings and Deyara’s present circumstances remains unresolved.</p><h2 id="deyara-grove">Physisia’s instruction at the Last Grove</h2><p>During Pappy’s communion at <a href="#last-grove">the Last Grove</a> on 20 October 2025, Physisia names Deyara and warns that Talan’s creatures hold back what was lost. She has not seen Deyara or those associated with her for a very long time and hopes they are safe. Pappy may tell her that Physisia sent him.</p><p>Physisia’s testimony establishes a historic leadership connection, without revealing a current location, ancestry, allegiance or fate.</p><h2 id="deyara-recording">The name that resists preservation</h2><p><a href="#coralyn">Coralyn</a> later reports that the name becomes strange or hushed and cannot be properly written in Nuru’s memory book at the Veiled Watch. The cause is unknown. That particular book remains distinct from the Temple of Secrets, and the same failure has not been established in both places.</p><h2 id="deyara-unknown-links">Voraketh’s other mysteries</h2><p>The Maw’s associated figure, the separate blurred watcher, the Destroyer and the voice that restored Alfred remain unidentified. Physisia’s instruction does not establish any of them as Deyara. Nor does it show that Deyara made the Chains or caused the devouring.</p><h2 id="deyara-open-questions">The search still ahead</h2><p>Where is Deyara now? What happened to the people she once led? Why does her name resist preservation? Do all the recorded spellings refer to the same person? Physisia gives the search a direction, without supplying its answers.</p>';
+  const deyaraIndex = archiveIndex.npcs.find(record=>record.article==='deyara-thorn');
+  deyaraIndex.aliases.push('Deyara Thorne'); deyaraIndex.summary = deyara.dek; deyaraIndex.meta = deyara.type;
+  const gallery=articles.find(record=>record.id==='memorable-quotes');
+  const quoteHtml=[...new Set(lastGrove.quotes.map(quote=>quote.group))].map((group,i)=>'<h2 id="grove-quote-group-'+i+'">'+escapeHtml(group)+'</h2><div class="quote-gallery">'+lastGrove.quotes.filter(quote=>quote.group===group).map(quote=>'<button class="quote-card" data-article="last-grove"><blockquote>“'+escapeHtml(quote.text)+'”</blockquote><cite>'+escapeHtml(quote.speaker)+'</cite></button>').join('')+'</div>').join('');
+  gallery.body=gallery.body.replace('<h2 id="why-these-lines-remain">',quoteHtml+'<h2 id="why-these-lines-remain">');
+}
+
+// Tower history joins the established regional and Huoth accounts.
+const towerGael = window.FENUMION_TOWER_GAEL;
+if (towerGael) {
+  const tower = articles.find(record=>record.id==='tower-of-gael');
+  tower.body = towerGael.body;
+  tower.type = 'Sanctuary, explorer home and civic anchor';
+  tower.dek = 'The protected home of Gael’s explorers, where life under Nuru’s Eye grows into restoration research, refuge for displaced families and the work of rebuilding.';
+  tower.tags = [...new Set([...tower.tags,'Nuru’s Eye','Huoth','Sentinels','Saray','Scribonia','Restoration','Warping lattice','Golden Tree','Erebus','Lucido'])];
+  Object.assign(tower.facts, {'Divine association':'Nuru · Nuru’s Eye','Early caretaker':'Huoth · physical watch ended 3 March 2025','Defences':'Sentinel boundary and protected courts; full mechanics unresolved','Interior':'Living quarters · kitchen · library · forge · arcanum · altar','Later community':'Refugees, researchers and builders','Housing':'Three refugee homes reported by September 2026; more needed','Chronology':'Dates mark recorded events; the local calendar is unconfirmed'});
+  tower.sources.push('Tower of Gael chronicle · refuge, restoration, research and civilian rebuilding');
+  const place = archiveIndex.islands.find(record=>record.article==='tower-of-gael');
+  Object.assign(place,{summary:tower.dek,type:'Sanctuary and civic anchor',meta:'Gael · sanctuary and settlement'});
+  archiveIndex.timeline.push(...towerGael.events);
+  const gallery=articles.find(record=>record.id==='memorable-quotes');
+  const quoteHtml=[...new Set(towerGael.quotes.map(quote=>quote.group))].map((group,i)=>'<h2 id="tower-quote-group-'+i+'">'+escapeHtml(group)+'</h2><div class="quote-gallery">'+towerGael.quotes.filter(quote=>quote.group===group).map(quote=>'<button class="quote-card" data-article="tower-of-gael"><blockquote>“'+escapeHtml(quote.text)+'”</blockquote><cite>'+escapeHtml(quote.speaker)+'</cite></button>').join('')+'</div>').join('');
+  gallery.body=gallery.body.replace('<h2 id="why-these-lines-remain">',quoteHtml+'<h2 id="why-these-lines-remain">');
+}
+
+// Expand the existing refuge without losing its rescue and campfire history.
+const skylight = window.FENUMION_SKYLIGHT;
+if (skylight) {
+  const refuge=articles.find(record=>record.id==='skylight-refuge');
+  refuge.body=skylight.prefix+refuge.body.slice(refuge.body.indexOf('<h2 id="refuge-warning">'))+skylight.suffix;
+  refuge.type='Natural hideout, civilian shelter and seed sanctuary';
+  refuge.dek='An open-skied cavity where Babel’s adventurers and native survivors try to build safety, protect a Tree-associated seed and decide whether to hide or hold ground.';
+  refuge.tags=[...new Set([...refuge.tags,'Water','Seed','Aravil','Wren','Aerrow','Arjahn','Fortification'])];
+  Object.assign(refuge.facts,{Form:'Wooded cavity · approximately 100-foot radius',Skylight:'Opening approximately 250 feet above',Approach:'Narrow single-file canyon; open sky above',Resources:'Flowing water and vegetation; treatment and water origin unresolved',Defences:'Natural concealment; fortification and a door proposed',Custody:'Tree-associated seed · planting and permanent stronghold unconfirmed',Status:'Crowded civilian refuge; infrastructure incomplete',Chronology:'Dates mark recorded events; the local calendar is unconfirmed'});
+  refuge.sources.push('Skylight Refuge chronicle · geography, survival, recovery and fortification');
+  Object.assign(archiveIndex.islands.find(record=>record.article==='skylight-refuge'),{summary:refuge.dek,type:'Natural refuge and seed sanctuary'});
+  archiveIndex.timeline.push(...skylight.events);
+  const gallery=articles.find(record=>record.id==='memorable-quotes');
+  const quoteHtml=[...new Set(skylight.quotes.map(quote=>quote.group))].map((group,i)=>'<h2 id="skylight-quote-group-'+i+'">'+escapeHtml(group)+'</h2><div class="quote-gallery">'+skylight.quotes.filter(quote=>quote.group===group).map(quote=>'<button class="quote-card" data-article="skylight-refuge"><blockquote>“'+escapeHtml(quote.text)+'”</blockquote><cite>'+escapeHtml(quote.speaker)+'</cite></button>').join('')+'</div>').join('');
+  gallery.body=gallery.body.replace('<h2 id="why-these-lines-remain">',quoteHtml+'<h2 id="why-these-lines-remain">');
+}
+
 const factionDirectoryItems = [
   {label:'The Ale-Chemy Knights',article:'ale-chemy-knights'},
   {label:'The Veilguard',article:'veilguard'},
@@ -13616,6 +13691,15 @@ fixedArticlePaths.set('factions',['Factions']);
 const characterNavigation = navigationRegions.find(region=>region.title==='Characters');
 characterNavigation.branches = characterNavigation.branches.filter(branch=>branch.title!=='Groups & orders');
 navigationRegions.push({title:'Factions',article:'factions',glyph:'⚑',branches:[{title:'Groups & orders',items:factionDirectoryItems}]},{title:'Quotes',article:'memorable-quotes',glyph:'❞',branches:[]},{title:'Guide',article:'ethos-of-fenumion',glyph:'◇',branches:[{title:'Read and explore',items:[{label:'Start Here',article:'start-here'},{label:'The Living Archive',article:'conversation'}]}]});
+
+const connectedHistories = window.FENUMION_CONNECTED_HISTORIES || [];
+articles.push(...connectedHistories);
+for (const record of connectedHistories) fixedArticlePaths.set(record.id,['Guide','Connected Histories',...(record.id==='connected-histories'?[]:[record.title])]);
+navigationRegions.find(region=>region.title==='Guide').branches[0].items.push({label:'Connected Histories',article:'connected-histories'});
+for (const id of ['gael','tower-of-gael','huoth','nienna','elenia','adelia-hope','gartina','saray','dale','scribonia']) {
+  const links=subchannelMap[id] || (subchannelMap[id]=[]);
+  links.push({label:'Gael · Making Life Possible Again',article:'gael-restoration',summary:'Follow the shared work of refuge, renewal and rebuilding across people and places.'});
+}
 
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
@@ -15657,17 +15741,22 @@ function renderArticle(route, pushHash = true) {
     return;
   }
   const facts = Object.entries(article.facts || {}).map(([label, value]) => `<div class="fact"><dt>${label}</dt><dd>${value}</dd></div>`).join("");
+  const heroCaption = (caption, fallback) => {
+    const text = caption || fallback;
+    const isName = Boolean(caption && caption.length <= 80 && !/[.!?]/.test(caption));
+    return `<figcaption${isName ? ' class="media-name-caption"' : ''}><span>${text}</span></figcaption>`;
+  };
   const heroClass = `article-hero${article.imageLayout ? ` ${article.imageLayout}` : ""}`;
   const videoHeroClass = `article-hero${article.videoLayout ? ` ${article.videoLayout}` : article.imageLayout ? ` ${article.imageLayout}` : ""}`;
   const mapHero = article.image && article.mapId
-    ? `<figure class="${heroClass} map-linked-hero"><button type="button" class="article-map-link" data-open-map="${escapeHtml(article.mapId)}" aria-label="${escapeHtml(article.mapLinkLabel || `Explore the interactive ${article.title} map`)}"><img src="${article.image}" alt="${article.imageAlt || ""}"><span class="article-map-cta"><small>Interactive map</small><strong>${escapeHtml(article.mapLinkLabel || `Explore ${article.title}`)} <span aria-hidden="true">→</span></strong></span></button><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>`
+    ? `<figure class="${heroClass} map-linked-hero"><button type="button" class="article-map-link" data-open-map="${escapeHtml(article.mapId)}" aria-label="${escapeHtml(article.mapLinkLabel || `Explore the interactive ${article.title} map`)}"><img src="${article.image}" alt="${article.imageAlt || ""}"><span class="article-map-cta"><small>Interactive map</small><strong>${escapeHtml(article.mapLinkLabel || `Explore ${article.title}`)} <span aria-hidden="true">→</span></strong></span></button>${heroCaption(article.imageCaption, "Image preserved in the Fenumion archive.")}</figure>`
     : "";
   const videoHero = article.video
-    ? `<figure class="${videoHeroClass}"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="${article.image || ""}" aria-hidden="true" tabindex="-1"><source src="${article.video}" type="${article.videoType || "video/mp4"}">Your browser does not support this video.</video><figcaption>${article.videoCaption || "Video preserved in the Fenumion archive."}</figcaption></figure>`
+    ? `<figure class="${videoHeroClass}"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="${article.image || ""}" aria-hidden="true" tabindex="-1"><source src="${article.video}" type="${article.videoType || "video/mp4"}">Your browser does not support this video.</video>${heroCaption(article.videoCaption, "Video preserved in the Fenumion archive.")}</figure>`
     : "";
   const hero = article.video
     ? `${mapHero}${videoHero}`
-    : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}"><figcaption>${article.imageCaption || "Image preserved in the Fenumion archive."}</figcaption></figure>` : "");
+    : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}">${heroCaption(article.imageCaption, "Image preserved in the Fenumion archive.")}</figure>` : "");
   const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
 
   const subchannels = renderSubchannels(article.id);
@@ -15721,10 +15810,9 @@ function renderArticle(route, pushHash = true) {
     ${atlasBanner}
     ${hubPage ? "" : hero}
     ${hubPage ? "" : gallery}
-    ${renderLocationConnections(article)}
     ${peopleGallery}
     <div class="lead-grid">
-      <div class="article-body">${article.body}${renderCharacterCollection(article)}${locationTimeline}${relationshipMap}${subchannels}${renderRelated(article)}</div>
+      <div class="article-body">${article.body}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
   if (article.id === "world-index") {

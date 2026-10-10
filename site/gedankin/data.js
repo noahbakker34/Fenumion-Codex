@@ -147,6 +147,9 @@ window.GedankinData = {
     {
       "id": "atrax",
       "title": "Atrax",
+      "image": "assets/atrax.jpeg",
+      "imageAlt": "Atrax with swept-back dark hair, horns, dark armour, a red sash and a sword.",
+      "imageCaption": "Atrax",
       "summary": "A tiefling who identifies himself as a lieutenant in the Flaming Fist.",
       "dek": "A tiefling who identifies himself as a lieutenant in the Flaming Fist.",
       "tags": [
@@ -864,6 +867,10 @@ window.GedankinData = {
     {
       "id": "manzur",
       "title": "Manzur",
+      "video": "assets/manzur.mp4",
+      "poster": "assets/manzur-poster.jpg",
+      "imageAlt": "Animated portrait of Manzur.",
+      "imageCaption": "Manzur",
       "type": "Stoneborn · oath to the four elements",
       "summary": "A stoneborn who first needs a guide, then offers the same practical help to another arrival.",
       "dek": "A stoneborn who first needs a guide, then offers the same practical help to another arrival.",

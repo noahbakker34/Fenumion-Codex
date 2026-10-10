@@ -505,3 +505,7 @@ Added the user-identified Ale-Chemy Knights symbol unchanged at `site/assets/arc
 ## 10 October 2026 · Vital Chain symbol
 
 Added the supplied Vital Chain animation unchanged at `site/assets/archive/vital-chain-symbol.mp4` with an extracted first-frame poster at `site/assets/archive/vital-chain-symbol-poster.png`. The article uses the existing muted, looping ambient-video presentation, which pauses offscreen and respects reduced-motion preferences. The poster also supplies a still emblem for article-image consumers. Captions identify the symbol without adding invented lore. Bumped the civic-record script cache version.
+
+## 10 October 2026 · Vanguard symbol
+
+Added the supplied Vanguard animation unchanged at `site/assets/archive/vanguard-symbol.mp4` and an extracted first-frame poster at `site/assets/archive/vanguard-symbol-poster.png`. The faction article uses existing muted looping ambient-video behavior, with reduced-motion pause and the poster reused by article-image consumers. The visual identification does not add historical claims. Bumped app script cache version to 199.

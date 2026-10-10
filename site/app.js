@@ -798,6 +798,11 @@ const articles = [
   {
     "id": "vanguard",
     "title": "The Vanguard",
+    "image": "assets/archive/vanguard-symbol-poster.png",
+    "imageAlt": "The Vanguard symbol: an upright sword before a radiant sun over a mountain valley, framed by golden foliage",
+    "imageCaption": "The symbol of the Vanguard.",
+    "video": "assets/archive/vanguard-symbol.mp4",
+    "videoCaption": "The animated symbol of the Vanguard.",
     "category": "Factions",
     "type": "Provisional wartime formation",
     "dek": "A forward force linked to Arjahn and reported to be losing during Babel-Ashur’s 2026 crisis; its formal identity, membership, mission, and fate remain unresolved.",

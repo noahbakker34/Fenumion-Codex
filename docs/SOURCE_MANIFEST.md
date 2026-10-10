@@ -145,3 +145,5 @@ This is a working manifest of the major primary, synthesis, and profile records 
 - Synthesis documents may organize primary evidence but do not automatically override the underlying scenes.
 - Dates in filenames identify compilation dates unless explicitly described as in-world dates.
 - The complete quest export now supplies message-level IDs, speakers, and timestamps. The 303 supporting records still require incremental file-level indexing as they are processed.
+
+| Vanguard symbol (`the_gardener_A_symbol_of_the_vanguard_of_light_and_courage_To_510c205d-8e84-475d-87ac-e6ca53af5b3b_1.mp4`) | Supplied 10 Oct 2026 | Animated faction emblem | User identifies as the Vanguard symbol; artist unstated | The Vanguard | Visual identity only; no inferred history or symbolism | `site/assets/archive/vanguard-symbol.mp4`; extracted first-frame poster `site/assets/archive/vanguard-symbol-poster.png`; Vanguard article |

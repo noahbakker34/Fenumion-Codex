@@ -97,6 +97,10 @@ Anything more specific would currently be invention.
 - `CONVERSATION_MASTER_SUMMARY.md` — conservative character and regional synthesis.
 
 
+## Vanguard symbol · 10 October 2026
+
+The user identifies the supplied animation as the Vanguard’s symbol. Preserved unchanged at `site/assets/archive/vanguard-symbol.mp4`, with its first frame extracted to `site/assets/archive/vanguard-symbol-poster.png`. Assigned to the Vanguard article with a plain caption and visual description. This establishes the supplied emblem’s identity without settling the formation’s historical membership, mission or fate. The existing ambient-video behavior provides muted looping playback and a paused poster for reduced-motion viewing.
+
 ## Veilguard symbol · 10 October 2026
 
 The user identifies the supplied `7450a6c7-0f9f-4544-a050-dbd1506d2043.png` as the symbol of the Veilguard. Preserved unchanged at `site/assets/archive/veilguard-symbol.png` and assigned as the faction article’s image, with accessible visual description and a plain identifying caption. This identification establishes the emblem; it does not establish additional religious meaning, a creation date or an artist. Faction cards and linked records can reuse the article image.

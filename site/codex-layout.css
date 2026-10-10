@@ -139,3 +139,25 @@
   .codex-world:not(.home-view) .lead-grid > .infobox { grid-template-columns: minmax(0,1fr); padding: 1rem; }
 }
 .codex-world.hub-view .lead-grid > .infobox { display: none; }
+
+/* Use the window instead of reserving empty outer columns. */
+.codex-world:not(.home-view) .app-shell {
+  width: 100%; max-width: none; margin-inline: 0; justify-content: stretch;
+}
+@media (min-width: 1101px) {
+  .codex-world:not(.home-view) .app-shell { grid-template-columns: 232px minmax(0,1fr) 212px; }
+  .codex-world.hub-view .app-shell { grid-template-columns: 232px minmax(0,1fr); }
+}
+.codex-world:not(.home-view):not(.hub-view) .article-wrap {
+  max-width: none; padding-inline: clamp(1rem,2.5vw,2.5rem);
+}
+.codex-world.hub-view :is(.hub-switcher,.atlas-banner,.source-strip,.source-ledger,.subchannels,.lead-grid,.record-context) {
+  width: calc(100% - 3rem); max-width: none;
+}
+.codex-world.hub-view .article-body > p:first-child { max-width: none; }
+@media (max-width: 760px) {
+  .codex-world.hub-view :is(.hub-switcher,.atlas-banner,.source-strip,.source-ledger,.subchannels,.lead-grid,.record-context) { width: calc(100% - 2rem); }
+}
+.codex-world .character-art-grid:has(> figure:only-child) { grid-template-columns: minmax(0,1fr); }
+.codex-world .character-art-grid:has(> figure:only-child) figure > a { padding: 0; }
+.codex-world .character-art-grid:has(> figure:only-child) img { width: 100%; height: auto; max-height: none; }

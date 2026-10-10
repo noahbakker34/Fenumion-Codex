@@ -127,3 +127,7 @@ window.FENUMION_MEDIA = {
     }
   }
 };
+
+const thunderingCoastMedia = {image:'assets/archive/thundering-coast-poster.webp',video:'assets/archive/thundering-coast.mp4',imageAlt:'Aerial landscape of the Thundering Coast on Prima',imageCaption:'The Thundering Coast · Prima',videoCaption:'The Thundering Coast · Prima'};
+window.FENUMION_MEDIA.locations['The Thundering Coast'] = thunderingCoastMedia;
+window.FENUMION_MEDIA.articles['thundering-coast'] = thunderingCoastMedia;

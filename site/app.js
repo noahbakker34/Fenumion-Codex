@@ -13787,6 +13787,36 @@ subchannelMap[kumaiRecord.id]=[{label:'The Veilguard',article:'veilguard',summar
 const veilguardLinks=subchannelMap.veilguard || (subchannelMap.veilguard=[]);
 veilguardLinks.push({label:kumaiRecord.title,article:kumaiRecord.id,summary:kumaiRecord.dek});
 
+const thunderingCoastRecord = {
+  "id": "thundering-coast",
+  "title": "The Thundering Coast",
+  "category": "Places",
+  "type": "Coastal landscape · Prima",
+  "dek": "Prima’s Thundering Coast, seen from the approach to Eovar Harbor and crossed toward a distant beacon.",
+  "tags": [
+    "Thundering Coast",
+    "Prima",
+    "Eovar Harbor",
+    "Sea travel",
+    "Coast"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Connected harbor": "Eovar Harbor",
+    "Recorded approach": "13 March 2024",
+    "Voyage preparation": "27 May 2024",
+    "Geography": "Exact boundaries remain unconfirmed"
+  },
+  "sources": [],
+  "body": "<p>The Thundering Coast belongs to <a href=\"#prima-pristinia\">Prima</a>. It appears in the adventurers’ approach to <a href=\"#eovar-harbor\">Eovar Harbor</a> and in the preparations for a voyage toward a light beyond the coast.</p><h2 id=\"coast-eovar-approach\">13 March 2024 · the harbor comes into view</h2><p>After breaking a trap on the road to Eovar, Jiangshi, Scribonia, Rolen, John, Adelia and Forgax reach the final hill overlooking the harbor and the Thundering Coast.</p><h2 id=\"coast-beacon-voyage\">27 May 2024 · passage toward the light</h2><p>With Eovar’s quarantine lifted, Olokun, Loistava, Nienna, Adelia, Bari and Alyhotep seek passage at the docks toward the beacon shining beyond the Thundering Coast. The harbor reconnects the party to sailors, ships and travel beyond the shore.</p><p>The coast’s exact boundaries and the beacon’s precise position remain unconfirmed.</p>"
+};
+articles.push(thunderingCoastRecord);
+archiveIndex.islands.push({title:thunderingCoastRecord.title,region:'Prima',parent:'Prima',level:'site',type:'Coastal landscape',meta:'Prima · coast',article:thunderingCoastRecord.id,summary:thunderingCoastRecord.dek,aliases:['Thundering Coast']});
+fixedArticlePaths.set(thunderingCoastRecord.id,['Locations','Prima',thunderingCoastRecord.title]);
+navigationRegions.find(region=>region.title==='Locations').branches.find(branch=>branch.title==='Prima').items.push({label:thunderingCoastRecord.title,article:thunderingCoastRecord.id});
+subchannelMap[thunderingCoastRecord.id]=[{label:'Prima & Pristinia',article:'prima-pristinia',summary:'The wider island around the coast.'},{label:'Eovar Harbor',article:'eovar-harbor',summary:'The harbor from which the party seeks passage toward the beacon.'}];
+for(const id of ['prima-pristinia','eovar-harbor']){const links=subchannelMap[id] || (subchannelMap[id]=[]);links.push({label:thunderingCoastRecord.title,article:thunderingCoastRecord.id,summary:thunderingCoastRecord.dek});}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

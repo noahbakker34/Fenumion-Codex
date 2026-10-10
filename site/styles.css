@@ -654,6 +654,8 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .index-card img,
 .index-card video { width: 82px; height: 100%; min-height: 118px; object-fit: cover; }
 .index-glyph { display: grid; place-items: center; min-height: 118px; color: var(--gold); background: radial-gradient(circle, rgba(212,180,109,.12), transparent 64%); border-right: 1px solid var(--line-soft); font: 1.5rem/1 var(--serif); }
+#faction-records .faction-symbol { position: relative; background: #121318; }
+#faction-records .faction-symbol img { position: absolute; inset: 0; width: 100%; height: 100%; min-height: 0; padding: .5rem; box-sizing: border-box; object-fit: contain; }
 .index-card-copy { display: block; padding: .85rem .9rem; }
 .index-card-copy small, .index-card-copy strong, .index-card-copy > span { display: block; }
 .index-card-copy small { margin-bottom: .18rem; color: var(--green-bright); font-size: .63rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }

@@ -509,3 +509,7 @@ Added the supplied Vital Chain animation unchanged at `site/assets/archive/vital
 ## 10 October 2026 · Vanguard symbol
 
 Added the supplied Vanguard animation unchanged at `site/assets/archive/vanguard-symbol.mp4` and an extracted first-frame poster at `site/assets/archive/vanguard-symbol-poster.png`. The faction article uses existing muted looping ambient-video behavior, with reduced-motion pause and the poster reused by article-image consumers. The visual identification does not add historical claims. Bumped app script cache version to 199.
+
+## 10 October 2026 · Faction directory symbols
+
+Faction directory cards now use each article’s supplied emblem image, including the Vanguard and Vital Chain still posters, instead of always rendering the generic flag. Images fit within their media column without cropping. Search rerenders preserve symbols; records without images retain the flag fallback. App cache version 200, stylesheet version 159.

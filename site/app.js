@@ -16321,7 +16321,7 @@ function setupFactionDirectory() {
     const needle=query.value.trim().toLocaleLowerCase();
     const matches=records.filter(record=>`${record.title} ${record.dek} ${record.tags.join(' ')}`.toLocaleLowerCase().includes(needle));
     articleContent.querySelector('#faction-count').textContent=`${matches.length} factions`;
-    articleContent.querySelector('#faction-records').innerHTML=matches.map(record=>`<button class="index-card" data-article="${escapeHtml(record.id)}"><span class="index-glyph" aria-hidden="true">⚑</span><span class="index-card-copy"><strong>${escapeHtml(record.title)}</strong><span>${escapeHtml(record.dek)}</span></span></button>`).join('') || '<p>No matching factions.</p>';
+    articleContent.querySelector('#faction-records').innerHTML=matches.map(record=>`<button class="index-card" data-article="${escapeHtml(record.id)}">${record.image ? `<span class="index-glyph faction-symbol"><img src="${escapeHtml(record.image)}" alt="${escapeHtml(record.imageAlt || `${record.title} symbol`)}" loading="lazy"></span>` : '<span class="index-glyph" aria-hidden="true">⚑</span>'}<span class="index-card-copy"><strong>${escapeHtml(record.title)}</strong><span>${escapeHtml(record.dek)}</span></span></button>`).join('') || '<p>No matching factions.</p>';
   };
   query.addEventListener('input',render);
   render();

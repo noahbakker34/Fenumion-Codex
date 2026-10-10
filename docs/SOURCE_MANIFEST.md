@@ -124,6 +124,8 @@ This is a working manifest of the major primary, synthesis, and profile records 
 
 | Gedankin Factions dust-storm video (`51917bad…_1.mp4`) | User-supplied 8 Oct 2026 | Background for the Factions directory and individual faction records, with extracted poster and shared pause/play and reduced-motion behavior. Decorative imagery does not establish new faction lore. |
 
+| `forevermoore-ciderwood-sanctum.md` | Supplied 10 Oct 2026 | Primary Discord transcript, selectively reviewed | User geography ruling; individual scene speakers | Forevermoore; Ciderwood Sanctum; Ale-Chemy Knights | Very small auxiliary island off Eovar’s coast; naming, grove, orchard work, proposed workspaces and boat travel. 1,286 messages; two missing-text messages; images unreviewed. | `site/app.js`; `docs/FOREVERMOORE_HISTORY.md`; `docs/ALE_CHEMY_KNIGHTS_HISTORY.md`. No raw transcript imported. |
+
 ## Manifest limitations
 
 - The 242 MB raw quest export is identified by SHA-256 in `docs/QUEST_ARCHIVE_INDEX.md` but is not copied into the public repository. The derived ledger republishes no transcript prose or protected lore.

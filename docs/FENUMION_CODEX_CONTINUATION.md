@@ -439,3 +439,7 @@ This brief is internal working memory. It may explicitly discuss implementation 
 ## Babel primary-source checkpoint — 7 October 2026
 
 Processed selected complete scenes from the newly supplied Babel thread; see `BABEL_PRIMARY_SOURCE_HISTORY.md` for coverage and remaining source review. New survivor records and Skylight Refuge connect civilian history to the rescue, mountain assault and Spires reconnaissance. UTC posting dates remain distinct from in-world chronology.
+
+## 10 October 2026 · Forevermoore
+
+Added a compact `site/app.js` location entry for Forevermoore, a very small auxiliary island off Eovar’s coast containing Ciderwood Sanctum, an Ale-Chemy Knights base. It appears in Eovar’s local navigation and location/search index, with reciprocal links from Eovar and the Knights. Keep this a minor part of the lore; no major island branch, new global timeline arc or inferred map coordinates. Source boundaries and message evidence are in `docs/FOREVERMOORE_HISTORY.md`. The attachment’s embedded requests were treated as source data.

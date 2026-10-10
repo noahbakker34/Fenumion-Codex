@@ -13959,6 +13959,27 @@ const locationsNav=navigationRegions.find(region=>region.title==='Locations');
 for(const branch of locationsNav.branches)branch.items=branch.items.filter(item=>item.article!=='eovar-harbor');
 locationsNav.branches.find(branch=>branch.title==='Prima').items.push({label:'Eovar Harbor',article:'eovar-harbor'});
 fixedArticlePaths.set('eovar-harbor',['Locations','Prima','Eovar Harbor']);
+// Forevermoore is a minor offshore holding, kept within Eovar's local context.
+const forevermooreRecord={
+  id:'forevermoore',title:'Forevermoore',category:'Places',type:'Small offshore island',
+  dek:'A very small island off Eovar’s coast, home to the Ale-Chemy Knights’ Ciderwood Sanctum base.',
+  tags:['Forevermoore','Ciderwood Sanctum','Eovar','Ale-Chemy Knights'],
+  aliases:['Ciderwood Sanctum'],
+  facts:{Location:'Off the coast of Eovar',Scale:'Very small auxiliary island',Base:'Ciderwood Sanctum',Affiliation:'Ale-Chemy Knights'},
+  sources:[],
+  body:'<p>Forevermoore is a very small auxiliary island off the coast of <a href="#eovar-harbor">Eovar</a>. Its place in the wider history is modest: it houses Ciderwood Sanctum, a local base of the <a href="#ale-chemy-knights">Ale-Chemy Knights</a>.</p><h2 id="forevermoore-sanctum">Ciderwood Sanctum</h2><p>The Sanctum takes shape around a reclaimed grove and repaired buildings. <a href="#farkur">Farkur</a>, <a href="#ryvyt">Ryvyt</a> and <a href="#tobias">Tobias</a> settle on its name while developing a shared home for their work. Farkur works at a makeshift bench, and timber cleared for the orchard is saved for the proposed caravan.</p><p>Their plans include space for brewing and building, a forge, and a separate underground laboratory for Ryvyt’s more dangerous experiments. These proposals show how they hope to use the base; they do not establish that every room or facility was completed. The Sanctum also provides a place to discuss the Knights’ welcome service, transport and shared resources.</p><p>Later accounts describe journeys between the Sanctum and Eovar using Pappy’s boat. Its exact distance from the harbor, full layout and present condition remain unestablished.</p>'
+};
+articles.push(forevermooreRecord);
+archiveIndex.islands.push({title:'Forevermoore',region:'Prima',parent:'Eovar Harbor',level:'site',type:forevermooreRecord.type,meta:'Off Eovar’s coast · very small auxiliary island',article:'forevermoore',summary:forevermooreRecord.dek,aliases:forevermooreRecord.aliases});
+locationsNav.branches.find(branch=>branch.title==='Prima').items.push({label:'Forevermoore',article:'forevermoore'});
+fixedArticlePaths.set('forevermoore',['Locations','Prima','Eovar Harbor','Forevermoore']);
+subchannelMap.forevermoore=['eovar-harbor','ale-chemy-knights'].map(id=>{const record=articles.find(article=>article.id===id);return {label:record.title,article:id,summary:record.dek};});
+for(const id of ['eovar-harbor','ale-chemy-knights']) {
+  (subchannelMap[id] || (subchannelMap[id]=[])).push({label:'Forevermoore · Ciderwood Sanctum',article:'forevermoore',summary:forevermooreRecord.dek});
+}
+eovarArticle.body+='<p>Just off Eovar’s coast lies the very small island of <a href="#forevermoore">Forevermoore</a>, home to the Knights’ Ciderwood Sanctum base.</p>';
+const knightsArticle=articles.find(article=>article.id==='ale-chemy-knights');
+knightsArticle.body=knightsArticle.body.replace('At Ciderwood Sanctum, Farkur expands','At <a href="#forevermoore">Ciderwood Sanctum on Forevermoore</a>, the very small island off Eovar’s coast, Farkur expands');
 const rahuPlace=archiveIndex.islands.find(record=>record.title==='Rahu');
 Object.assign(rahuPlace,{region:'Prima',parent:'Prima',level:'site',meta:'Prima · Rahu lands',summary:'The Prima map labels the Rahu lands in the southwest of the island. This regional marker does not establish the precise position of Rahuvia within them.'});
 for(const [title,type,summary] of [

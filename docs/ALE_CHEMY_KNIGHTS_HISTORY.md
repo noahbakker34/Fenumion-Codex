@@ -55,7 +55,7 @@ The scene establishes practical civic response. It does not by itself date the f
 
 ## January–early 2025 — Ciderwood Sanctum and the welcome system
 
-At **Ciderwood Sanctum**, Farkur develops the Gate-service proposal into a wider institution: a proper welcome, orientation, transportation, lore, warm drinks, contacts, records of arrivals and skills, communication, and emergency response. Known or strongly supported Sanctum features include animal space, a forge, new construction, an orchard, and nearby material clearing. Its complete layout and formal settlement status remain unknown.
+At **Ciderwood Sanctum on Forevermoore**, the very small auxiliary island off Eovar’s coast established by the user on 10 October 2026, Farkur develops the Gate-service proposal into a wider institution: a proper welcome, orientation, transportation, lore, warm drinks, contacts, records of arrivals and skills, communication, and emergency response. Known or strongly supported Sanctum features include animal space, a forge, new construction, an orchard, and nearby material clearing. Its complete layout and formal settlement status remain unknown.
 
 Tobias later performs the system with Fredrick, turning the plan into practice.
 
@@ -157,3 +157,7 @@ These functions create value and influence. The faction should not be presented 
 - User canon ruling, 26 September 2026: Tobias, Farkur, and Ryvyt are the main members.
 - `Fenumion_Codex_Update_Regional_History_2026-09-19.md`
 - Recovered Common Man, Ciderwood Sanctum, shop, public-works, and newcomer scenes as synthesized in the supplied dossier.
+
+## Forevermoore location addition · 10 October 2026
+
+Ciderwood Sanctum now has a compact location entry under Forevermoore. The island remains a minor offshore holding in Eovar’s local context. Selectively reviewed primary evidence and construction-plan boundaries are recorded in `docs/FOREVERMOORE_HISTORY.md`.

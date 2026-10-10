@@ -1,5 +1,5 @@
 /* Shared organization for substantial character histories. */
-window.organizeCharacterPage = function(root, eligible) {
+window.organizeCharacterPage = function(root, eligible, connections=[]) {
   document.body.classList.remove('character-dossier-view');
   if(!eligible) return;
   const body=root.querySelector('.article-body');
@@ -13,13 +13,19 @@ window.organizeCharacterPage = function(root, eligible) {
   const introduction=document.createElement('div');
   introduction.className='character-introduction';
   while(body.firstElementChild && !body.firstElementChild.matches('h2')) introduction.append(body.firstElementChild);
-  if(hero) overview.append(hero);
+  const visualRail=document.createElement('aside');
+  visualRail.className='character-visual-rail';
+  visualRail.setAttribute('aria-label','Artwork and connected stories');
+  if(hero) visualRail.append(hero);
   const overviewCopy=document.createElement('div');
   overviewCopy.className='character-overview-copy';
-  overviewCopy.append(introduction);
-  if(facts?.querySelector('.fact')) overviewCopy.append(facts);
+  const summaryCard=document.createElement('section');
+  summaryCard.className='character-summary';
+  summaryCard.append(introduction);
+  if(facts?.querySelector('.fact')) summaryCard.append(facts);
   else facts?.remove();
-  overview.append(overviewCopy);
+  overviewCopy.append(summaryCard);
+  overview.append(visualRail,overviewCopy);
   root.querySelector('.lead-grid').before(overview);
 
   // Keep alternate artwork, but do not repeat the main portrait.
@@ -34,7 +40,48 @@ window.organizeCharacterPage = function(root, eligible) {
     const heading=collection.querySelector('h2');
     if(heading) heading.textContent='Remembered words';
   }
+  if(artGrid?.children.length) {
+    const artwork=document.createElement('section');
+    artwork.className='character-rail-art';
+    const label=document.createElement('h2');
+    label.textContent='Character artwork';
+    artwork.append(label,artGrid);
+    const credit=collection.querySelector('.collection-credit');
+    if(credit) artwork.append(credit);
+    visualRail.append(artwork);
+    collection.querySelector('h2').textContent='Remembered words';
+  }
   if(collection && !collection.querySelector('.character-art-grid,.character-quote-grid')) collection.remove();
+
+  if(connections.length) {
+    const connectedStories=document.createElement('details');
+    connectedStories.className='character-visual-links';
+    connectedStories.open=matchMedia('(min-width: 1201px)').matches;
+    const heading=document.createElement('summary');
+    heading.textContent='Connected stories';
+    const links=document.createElement('nav');
+    links.setAttribute('aria-label','Connected stories');
+    connectedStories.append(heading,links);
+    connections.forEach(record=>{
+      const link=document.createElement('a');
+      link.href='#'+record.id;
+      if(record.image){
+        const image=document.createElement('img');
+        image.src=record.image;image.alt='';image.loading='lazy';
+        link.append(image);
+      }
+      const label=document.createElement('span');
+      const name=document.createElement('strong');
+      name.textContent=record.title;
+      label.append(name);
+      if(record.subtitle){const subtitle=document.createElement('small');subtitle.textContent=record.subtitle;label.append(subtitle);}
+      link.append(label);
+      links.append(link);
+    });
+    visualRail.append(connectedStories);
+  }
+  if(!visualRail.children.length)visualRail.remove();
+  overviewCopy.append(root.querySelector('.lead-grid'));
 
   const chapters=[];
   let current;

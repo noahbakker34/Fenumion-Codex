@@ -166,14 +166,28 @@
 .codex-world :is(.death-video-backdrop,.ethos-video-backdrop,.locations-video-backdrop,.factions-video-backdrop,.history-video-backdrop) { z-index: -1; }
 .codex-world.character-dossier-view .article-header { padding: 1.3rem 1.5rem; margin-bottom: 1.25rem; }
 .codex-world.character-dossier-view .article-header h1 { font-size: clamp(2.4rem,4vw,3.6rem); }
-.character-overview { display: grid; grid-template-columns: minmax(0,.7fr) minmax(0,1.3fr); gap: 1.25rem; margin-bottom: 1.25rem; align-items: start; }
-.character-overview:not(:has(> .article-hero)) { grid-template-columns: minmax(0,1fr); }
-.codex-world.character-dossier-view .character-overview > .article-hero { margin: 0; }
-.codex-world.character-dossier-view .character-overview > .medallion-hero { padding: 0; }
-.codex-world.character-dossier-view .character-overview > .medallion-hero figcaption { margin: 0; }
+.character-overview { display: grid; grid-template-columns: minmax(220px,min(32%,360px)) minmax(0,1fr); gap: 1.25rem; margin-bottom: 1.25rem; align-items: start; }
+.character-overview:not(:has(> .character-visual-rail)) { grid-template-columns: minmax(0,1fr); }
+.codex-world.character-dossier-view .character-visual-rail > .article-hero { margin: 0; }
+.codex-world.character-dossier-view .character-visual-rail > .medallion-hero { padding: 0; }
+.codex-world.character-dossier-view .character-visual-rail > .medallion-hero figcaption { margin: 0; }
 .codex-world.character-dossier-view .character-overview figcaption.media-name-caption { padding: .8rem; font-size: 1.5rem; }
 .codex-world.character-dossier-view .character-overview .article-hero :is(img,video) { width: 100%; height: auto; max-height: 480px; object-fit: contain; }
-.character-overview-copy { min-width: 0; padding: 1.25rem; background: rgba(20,21,27,.94); border: 1px solid var(--line); border-radius: 10px; }
+.character-overview-copy { min-width: 0; }
+.character-summary { padding: 1.25rem; margin-bottom: 1.25rem; background: rgba(20,21,27,.94); border: 1px solid var(--line); border-radius: 10px; }
+.character-visual-rail { position: sticky; top: 90px; max-height: calc(100vh - 110px); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--line) transparent; min-width: 0; display: grid; gap: 1rem; }
+.character-visual-links, .character-rail-art { padding: 1rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(20,21,27,.95); }
+.character-visual-rail h2 { margin: 0 0 .8rem; color: var(--gold-bright); font: 400 1.1rem/1.4 var(--serif); }
+.character-visual-links > summary { cursor: pointer; color: var(--gold-bright); font: 400 1.1rem/1.4 var(--serif); min-height: 44px; align-content: center; }
+.character-visual-links[open] > summary { margin-bottom: .5rem; }
+.character-visual-links a { display: flex; align-items: center; gap: .75rem; padding: .65rem 0; color: var(--ink); text-decoration: none; border-top: 1px solid var(--line-soft); }
+.character-visual-links img { width: 56px; height: 70px; object-fit: cover; object-position: top; border: 1px solid var(--line); border-radius: 5px; flex: 0 0 56px; }
+.character-visual-links strong { display: block; color: var(--gold-bright); font: 400 1.05rem/1.4 var(--serif); }
+.character-visual-links small { display: block; margin-top: .25rem; font: .95rem/1.4 var(--text); color: var(--muted); }
+.character-visual-links a:hover strong { color: var(--ink); }
+.character-rail-art .character-art-grid { grid-template-columns: minmax(0,1fr); }
+.character-rail-art .character-art-grid img { width: 100%; height: auto; max-height: 280px; object-fit: contain; }
+.character-rail-art .collection-credit { font: .95rem/1.5 var(--text); }
 .character-introduction { font-family: var(--text); font-size: 1.12rem; line-height: 1.7; }
 .character-introduction > :first-child { margin-top: 0; }
 .codex-world.character-dossier-view .character-overview .infobox { position: static; width: 100%; margin: 1rem 0 0; padding: 1rem 0 0; background: none; border: 0; border-top: 1px solid var(--line); box-shadow: none; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 1.25rem; }
@@ -192,8 +206,9 @@
 .character-chapter[open] { padding-bottom: 1rem; }
 .character-chapter > section { border: 0; margin-top: 0; padding-inline: 0; }
 .character-chapter .character-art-grid img { max-height: 420px; width: 100%; object-fit: contain; }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .character-overview { grid-template-columns: minmax(0,1fr); }
+  .character-visual-rail { position: static; max-height: none; overflow: visible; }
   .codex-world.character-dossier-view .character-overview .article-hero :is(img,video) { max-height: 400px; }
 }
 @media (max-width: 600px) {

@@ -16051,7 +16051,13 @@ function renderArticle(route, pushHash = true) {
       <div class="article-body">${article.body}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
-  window.organizeCharacterPage?.(articleContent, article.category === "People");
+  const visualConnections = (relationshipMaps[article.id]?.nodes || [])
+    .filter(node => node.article && node.article !== article.id && isPlayerSafeArticle(node.article))
+    .map(node => ({ node, record: byId.get(node.article) }))
+    .filter(({ record }) => record)
+    .slice(0, 4)
+    .map(({ node, record }) => ({ id: record.id, title: record.title, subtitle: node.subtitle, image: record.image }));
+  window.organizeCharacterPage?.(articleContent, article.category === "People", visualConnections);
   if (article.id === "world-index") {
     setupWorldBrowser();
     setupFeaturedContent();
@@ -16729,6 +16735,24 @@ function openSearch() {
 
 let activeSearchCategory = "all";
 
+function normalizeSearchName(value) {
+  return String(value || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/['’]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+}
+
+function searchNameScore(query, names) {
+  const phrase = normalizeSearchName(query);
+  const terms = phrase.split(' ');
+  return Math.max(0, ...names.filter(Boolean).flatMap(name => {
+    const full = normalizeSearchName(name);
+    const parts = String(name).split(/[/·]/).map(normalizeSearchName);
+    if (full === phrase) return 1200;
+    if (parts.includes(phrase)) return 1100;
+    if ((' ' + full + ' ').includes(' ' + phrase + ' ')) return 700 + (full.startsWith(phrase + ' ') ? 100 : 0);
+    if (full.includes(phrase)) return 250;
+    return terms.every(term => (' ' + full + ' ').includes(' ' + term + ' ')) ? 500 : 0;
+  }));
+}
+
 function runSearch(query) {
   const normalized = query.trim().toLowerCase();
   if (!normalized) {
@@ -16736,14 +16760,17 @@ function runSearch(query) {
     if (!document.querySelector(".search-shell").classList.contains("open")) closePanels();
     return;
   }
-  const terms = normalized.split(/\s+/).filter(Boolean);
+  const phrase = normalizeSearchName(normalized);
+  if (!phrase) { closePanels(); return; }
+  const terms = phrase.split(/\s+/).filter(Boolean);
   const articleResults = articles.filter(article => isPlayerSafeArticle(article.id)).map(article => {
     const path = articlePaths.get(article.id) || [article.category, article.title];
-    const haystack = `${path.join(" ")} ${article.title} ${article.category} ${article.type} ${article.dek} ${article.tags.join(" ")} ${article.body.replace(/<[^>]+>/g, " ")}`.toLowerCase();
-    const titleMatch = article.title.toLowerCase().includes(normalized) ? 4 : 0;
-    const tagMatch = article.tags.some(tag => tag.toLowerCase().includes(normalized)) ? 2 : 0;
+    const names = [article.title, ...(article.aliases || [])];
+    const haystack = normalizeSearchName(`${path.join(" ")} ${names.join(' ')} ${article.category} ${article.type} ${article.dek} ${article.tags.join(" ")} ${article.body.replace(/<[^>]+>/g, " ")}`);
+    const titleMatch = searchNameScore(normalized, names);
+    const tagMatch = article.tags.some(tag => normalizeSearchName(tag).includes(phrase)) ? 30 : 0;
     const allTermsMatch = terms.every(term => haystack.includes(term));
-    return { article, path, kind: "article", record: article, filterKind: searchCategory(article), score: titleMatch + tagMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0) };
+    return { article, path, kind: "article", record: article, filterKind: searchCategory(article), score: allTermsMatch ? titleMatch + tagMatch + (haystack.includes(phrase) ? 20 : 0) + 10 : 0 };
   }).filter(result => result.score);
   const indexGroups = [
     ["Characters", archiveIndex.characters],
@@ -16752,22 +16779,24 @@ function runSearch(query) {
     ["Locations", archiveIndex.islands]
   ];
   const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => item?.title && (group !== "Timeline" || !isRestrictedTimelineEvent(item))).map(item => {
-    const haystack = `${group} ${item.title} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`.toLowerCase();
-    const titleMatch = item.title.toLowerCase().includes(normalized) ? 4 : 0;
+    const haystack = normalizeSearchName(`${group} ${item.title} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`);
+    const titleMatch = searchNameScore(normalized, [item.title, ...(item.aliases || [])]);
     const allTermsMatch = terms.every(term => haystack.includes(term));
     return {
       article: { id: item.article, title: item.title, type: item.meta, dek: item.summary },
       path: [group, item.title],
       kind: group === "Timeline" ? "timeline" : group === "Locations" ? "location" : "character",
       record: item,
-      score: titleMatch + (haystack.includes(normalized) ? 2 : 0) + (allTermsMatch ? 1 : 0)
+      score: allTermsMatch ? titleMatch + (haystack.includes(phrase) ? 20 : 0) + 10 : 0
     };
   })).filter(result => result.score && isPlayerSafeArticle(result.article.id));
-  const quoteTerms = normalized.replace(/[^\p{L}\p{N}]+/gu, " ").trim().split(/\s+/).filter(Boolean);
+  const quoteTerms = terms;
   const quoteResults = memorableQuoteRecords().filter(record => isPlayerSafeArticle(record.article)).map(record => {
-    const haystack = `${record.title} ${record.speaker} ${record.group}`.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ");
+    const haystack = normalizeSearchName(`${record.title} ${record.speaker} ${record.group}`);
     const matches = quoteTerms.length && quoteTerms.every(term => haystack.includes(term));
-    return { article: { id: "memorable-quotes", title: record.title, type: "Memorable quote", dek: record.speaker }, path: ["Quotes", record.group], kind: "quote", record, score: matches ? 7 : 0 };
+    const nameMatch = Math.min(400, searchNameScore(normalized, [record.speaker]));
+    const wordsMatch = Math.min(600, searchNameScore(normalized, [record.title]));
+    return { article: { id: "memorable-quotes", title: record.title, type: "Memorable quote", dek: record.speaker }, path: ["Quotes", record.group], kind: "quote", record, score: matches ? Math.max(nameMatch, wordsMatch) + 20 : 0 };
   }).filter(result => result.score);
   const seen = new Set();
   const results = [...articleResults, ...indexResults, ...quoteResults]

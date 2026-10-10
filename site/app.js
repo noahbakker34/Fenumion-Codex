@@ -13751,6 +13751,42 @@ if(adeliaDossier) {
   if(withering)withering.summary='Adelia invokes Divine Intervention for a friend’s second chance. Moirah returns Magnus from Death’s possession and rebukes her; Magnus accepts Dumuzi’s gift, wounds Hope and flees. Adelia attempts to save the tree, then struggles with rage and guilt while Jiangshi and her companions remain.';
 }
 
+const kumaiRecord = {
+  "id": "kumai-218",
+  "title": "Kumai-218",
+  "category": "People",
+  "type": "Examiner of the new vanguard",
+  "dek": "The examiner who asks future Veilguard members what leadership means—and whom they would choose to follow.",
+  "tags": [
+    "Kumai-218",
+    "Veilguard",
+    "Pristinia",
+    "Leadership",
+    "New vanguard"
+  ],
+  "image": "assets/archive/kumai-218-poster.webp",
+  "imageAlt": "Kumai-218 depicted as a warforged figure",
+  "imageCaption": "Kumai-218",
+  "imageLayout": "portrait-hero",
+  "video": "assets/archive/kumai-218.mp4",
+  "videoCaption": "Kumai-218",
+  "facts": {
+    "Known role": "Examines the new vanguard’s candidates",
+    "Recorded trial": "14 April 2026 · Pristinia",
+    "Connected faction": "The Veilguard",
+    "Open history": "Origins, earlier service and later activities remain unknown"
+  },
+  "sources": [],
+  "body": "<p>Kumai-218 appears at a formative moment for the company that becomes <a href=\"#veilguard\">the Veilguard</a>. The test concerns judgment and trust: candidates must explain what leadership means and choose someone they would follow.</p><h2 id=\"kumai-leadership-trial\">14 April 2026 · the leadership trial</h2><p>Lady Severina Blackveil, Pelagia, Thorn, Camilla Blackwood, Kasiri Ruza and Modeli take part. Pelagia describes leadership as being worthy of followers and aligning them toward a common goal. Thorn insists that conduct must prove what persuasive words promise.</p><p>Kasiri and Camilla choose Severina for her judgment, discipline and duty. Severina is surprised by the support. Kumai-218’s questions help make peer confidence the foundation of the new vanguard’s leadership, before the group adopts the Veilguard name.</p><h2 id=\"kumai-continuing-history\">A beginning for the Veilguard</h2><p>The trial establishes an early precedent: leadership is tested through choices and the trust of others. Kumai-218’s own origins, complete responsibilities and later activities remain unknown.</p><p><a href=\"#veilguard\">Continue into the Veilguard’s history →</a></p>"
+};
+articles.push(kumaiRecord);
+archiveIndex.npcs.push({title:kumaiRecord.title,article:kumaiRecord.id,meta:kumaiRecord.type,summary:kumaiRecord.dek,image:kumaiRecord.image,video:kumaiRecord.video,aliases:['Kumai','Kumai 218']});
+fixedArticlePaths.set(kumaiRecord.id,['Characters',kumaiRecord.title]);
+navigationRegions.find(region=>region.title==='Characters').branches.find(branch=>branch.title==='Characters K–Z').items.push({label:kumaiRecord.title,article:kumaiRecord.id});
+subchannelMap[kumaiRecord.id]=[{label:'The Veilguard',article:'veilguard',summary:'The company whose leadership begins in the candidates’ trust.'}];
+const veilguardLinks=subchannelMap.veilguard || (subchannelMap.veilguard=[]);
+veilguardLinks.push({label:kumaiRecord.title,article:kumaiRecord.id,summary:kumaiRecord.dek});
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;
@@ -13775,6 +13811,7 @@ routeAliases.set('bowen','bowene');
 routeAliases.set('adelia','adelia-hope');
 routeAliases.set('spirit-of-adelia','adelia-hope');
 routeAliases.set('shadow-sentinel','adelia-hope');
+routeAliases.set('kumai','kumai-218');
 
 const relationshipMaps = {
   magnus: {

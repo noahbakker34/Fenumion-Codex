@@ -14136,6 +14136,14 @@ for(const place of primaMapLocations) {
   subchannelMap['prima-pristinia'].push({label:place.title,article:place.id,summary:place.dek});
 }
 
+// The portrait identifies Scarlett as a farmer; no region or relationships are inferred.
+archiveIndex.npcs.push({
+  title: 'Farmer Scarlett',
+  meta: 'Farmer',
+  article: 'people-directory',
+  summary: 'A farmer whose wider story in Fenumion remains to be recorded.'
+});
+
 // Integrate the separately sourced continuation before deriving routes and search.
 const questContinuation = window.FENUMION_QUEST_CONTINUATION;
 if (questContinuation) {

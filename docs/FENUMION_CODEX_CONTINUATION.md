@@ -530,3 +530,8 @@ Created a separate Guide reference at `player-perspectives` from all 261 Story N
 ## 11 October 2026 — quest continuation
 
 Integrated the supplied post-7-September export and companion memo after checking primary scene evidence and overlap. Added Quest Continuation and focused records for Verdelune, Hana, Viota’s Monument, Tabitha, Kazhinju and the Dasa’s Appeal; developed existing histories and character entries, and extended the timeline without repeating the funeral or Vessalia’s contamination event. Latest included main quest post is 11 October 03:27 UTC / 10 October 23:27 EDT. Original archive statistics and the separate Player Perspectives range remain distinct. See `docs/QUEST_CONTINUATION_2026_10.md` for scope, checksums, source anchors and evidence boundaries. Raw/OOC material, absent Legend Lore response and protected ancient history remain outside the public payload. User’s standing authorization requires publication after validation.
+
+
+## 11 October 2026 — Sophina, Frank and Scarlett portraits
+
+Added the user-supplied PNG portraits unchanged to the central media registry. Sophina appears in her public article and character entry; Farmer Frank’s existing NPC entry gains his portrait. Added a minimal Farmer Scarlett NPC entry because no prior Scarlett record exists, without inferring a location, relationship or history from the artwork. Character cards and expanded profiles use the shared media registry. Validated identity mapping, image loading and display before publication under the standing user authorization.

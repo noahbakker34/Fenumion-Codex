@@ -167,3 +167,22 @@ const silverSpireMedia = {
 window.FENUMION_MEDIA.articles['fenwicks-tower'] = silverSpireMedia;
 window.FENUMION_MEDIA.locations['The Silver Spire'] = silverSpireMedia;
 window.FENUMION_MEDIA.locations['Fenwick’s Tower'] = silverSpireMedia;
+
+// Portrait identities supplied by the user on 11 October 2026.
+const sophinaPortrait = {
+  image: 'assets/characters/sophina.png',
+  imageAlt: 'Sophina in dark robes holding a sheathed sword beneath a red and white moon',
+  imageCaption: 'Ambassador Sophina'
+};
+window.FENUMION_MEDIA.characters['Ambassador Sophina'] = sophinaPortrait;
+window.FENUMION_MEDIA.articles.sophina = sophinaPortrait;
+window.FENUMION_MEDIA.characters['Farmer Frank'] = {
+  image: 'assets/characters/farmer-frank.png',
+  imageAlt: 'Farmer Frank carrying an axe over his shoulder beside fields',
+  imageCaption: 'Farmer Frank'
+};
+window.FENUMION_MEDIA.characters['Farmer Scarlett'] = {
+  image: 'assets/characters/farmer-scarlett.png',
+  imageAlt: 'Farmer Scarlett wearing a straw hat and blue overalls in a sunlit field',
+  imageCaption: 'Farmer Scarlett'
+};

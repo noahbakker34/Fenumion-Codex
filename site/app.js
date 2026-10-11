@@ -14136,6 +14136,71 @@ for(const place of primaMapLocations) {
   subchannelMap['prima-pristinia'].push({label:place.title,article:place.id,summary:place.dek});
 }
 
+// Integrate the separately sourced continuation before deriving routes and search.
+const questContinuation = window.FENUMION_QUEST_CONTINUATION;
+if (questContinuation) {
+  for (const record of questContinuation.records) {
+    articles.push(record);
+    const domain = record.category === 'Places' ? 'Locations' : record.category === 'People' ? 'Characters' : 'Guide';
+    fixedArticlePaths.set(record.id, [domain, record.title]);
+    const region = navigationRegions.find(item => item.title === domain);
+    const branch = domain === 'Locations'
+      ? region.branches.find(item => item.title === 'Other regions')
+      : domain === 'Characters'
+        ? region.branches.find(item => item.title === (record.title.localeCompare('K') < 0 ? 'Characters A–J' : 'Characters K–Z'))
+        : region.branches[0];
+    branch.items.push({ label: record.title, article: record.id });
+    if (record.category === 'Places') archiveIndex.islands.push({ title: record.title, region: 'Verdelune', parent: record.id === 'verdelune' ? 'Recorded route from Gael' : 'Larkhollow forest', level: record.id === 'verdelune' ? 'region' : 'site', type: record.type, meta: record.type, article: record.id, summary: record.dek });
+    if (record.category === 'People') archiveIndex.npcs.push({ title: record.title, meta: record.type, article: record.id, summary: record.dek, aliases: record.id === 'hana' ? ['Lady Hana'] : record.id === 'mama-tabitha' ? ['Old Tabitha', 'Tabitha'] : [] });
+  }
+  for (const [id, body] of Object.entries(questContinuation.updates)) {
+    const record = articles.find(item => item.id === id);
+    if (record) {
+      record.body += body;
+      record.sources = [...new Set([...(record.sources || []), questContinuation.records[0].sources[0]])];
+    }
+  }
+  const larkhollow = articles.find(item => item.id === 'larkhollow');
+  larkhollow.dek = 'A remote settlement with a Petal Market, a dangerous tower and forest roads whose changing routes draw adventurers back with new questions.';
+  const larkIndex = archiveIndex.islands.find(item => item.article === 'larkhollow' && item.title === 'Larkhollow');
+  if (larkIndex) larkIndex.summary = larkhollow.dek;
+  const ryvyt = articles.find(item => item.id === 'ryvyt');
+  ryvyt.body = ryvyt.body.replace('response after the disappearance, and current location remain to be recovered from primary scenes.', 'longer-term response after the disappearance and outcomes of his research remain unresolved. Later expeditions around Larkhollow are recorded below.');
+  for (const [name, update] of Object.entries(questContinuation.people)) {
+    let person = [...archiveIndex.characters, ...archiveIndex.npcs].find(item => item.title === name);
+    if (person) Object.assign(person, update);
+    else archiveIndex.characters.push({ title: name, article: 'quest-continuation', ...update });
+  }
+  for (const [name, additions] of Object.entries(questContinuation.profiles)) {
+    const profile = legacyCharacterProfiles[name] || (legacyCharacterProfiles[name] = {});
+    for (const [field, text] of Object.entries(additions)) profile[field] = [profile[field], text].filter(Boolean).join(' ');
+  }
+  for (const event of questContinuation.events) {
+    const { consequence, ...entry } = event;
+    const existing = event.title === 'The Before’s haze turns a shared dream into exposure'
+      ? archiveIndex.timeline.find(item => item.title === 'Vessalia gains contamination in the Before’s haze')
+      : null;
+    if (existing) {
+      Object.assign(existing, { meta: entry.meta, summary: entry.summary, people: entry.people });
+      questEventConsequences[existing.title] = consequence;
+    } else {
+      archiveIndex.timeline.push(entry);
+      questEventConsequences[event.title] = consequence;
+    }
+  }
+  const caveEvent = archiveIndex.timeline.find(item => item.title === 'Vessalia’s party investigates the harpy cave');
+  if (caveEvent) Object.assign(caveEvent, { meta: '19–20 Sep 2026 · Discord posting dates (America/New_York)', location: 'Old Earth Hills; harpy cave', article: 'old-earth-hills' });
+  for (const id of ['quest-record', 'larkhollow', 'old-earth-hills', 'ryvyt', 'fenwick', 'papirak-legacy', 'swift-foot', 'pristinia']) {
+    const links = subchannelMap[id] || (subchannelMap[id] = []);
+    links.push({ label: questContinuation.records[0].title, article: 'quest-continuation', summary: questContinuation.records[0].dek });
+  }
+  for (const record of questContinuation.records) {
+    subchannelMap[record.id] = record.relatedRecords.map(id => articles.find(item => item.id === id)).filter(Boolean).map(item => ({ label: item.title, article: item.id, summary: item.dek }));
+  }
+  const questRecord = articles.find(item => item.id === 'quest-record');
+  questRecord.facts['Continuation'] = '2,369 messages · supplied through 11 Oct 2026 UTC';
+}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

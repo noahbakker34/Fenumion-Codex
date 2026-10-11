@@ -2591,3 +2591,18 @@ body.codex-world.player-perspectives-view:not(.home-view) .article-body { font-f
   .perspective-filters label { flex-basis: 100%; }
   .perspective-pagination { gap: .5rem; }
 }
+
+/* Chapter links in the quest continuation overview. */
+.history-table .contents-link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--gold);
+  font: inherit;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  cursor: pointer;
+}
+.history-table .contents-link:hover { color: var(--ink); }
+.history-table .contents-link:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }

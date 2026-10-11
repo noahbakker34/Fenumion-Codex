@@ -525,3 +525,8 @@ Integrated the supplied merge guide into the existing Knights history: distinct 
 ## 10 October 2026 · Player Perspectives reference
 
 Created a separate Guide reference at `player-perspectives` from all 261 Story Notes index rows, with search, year/region/form filters, sorting and pagination. Dates and display names stay attributed; source forms/topics are retrieval labels; 19 external pointers are marked incomplete. Full notes and unseen attachments were not invented, and no claims were merged into existing lore. See `docs/PLAYER_PERSPECTIVES_REFERENCE.md`. App version 203; stylesheet 161; two new reference scripts version 1.
+
+
+## 11 October 2026 — quest continuation
+
+Integrated the supplied post-7-September export and companion memo after checking primary scene evidence and overlap. Added Quest Continuation and focused records for Verdelune, Hana, Viota’s Monument, Tabitha, Kazhinju and the Dasa’s Appeal; developed existing histories and character entries, and extended the timeline without repeating the funeral or Vessalia’s contamination event. Latest included main quest post is 11 October 03:27 UTC / 10 October 23:27 EDT. Original archive statistics and the separate Player Perspectives range remain distinct. See `docs/QUEST_CONTINUATION_2026_10.md` for scope, checksums, source anchors and evidence boundaries. Raw/OOC material, absent Legend Lore response and protected ancient history remain outside the public payload. User’s standing authorization requires publication after validation.

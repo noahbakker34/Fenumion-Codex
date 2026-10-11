@@ -2,6 +2,10 @@
 
 > Derived index of the complete `quest-rp` Discord export supplied on 27 September 2026. The raw 242 MB transcript remains outside the public repository; this file records its identity, coverage, and review units without republishing player conversation or protected lore.
 
+## Separate continuation supplied 11 October 2026
+
+A supplement contributes 2,369 messages: 2,362 main quest-rp posts and 7 Pristinia Library posts. Its latest included post is **11 October 2026 at 03:27 UTC**, equivalent to **10 October at 23:27 EDT**. These are posting dates, not in-world dates. Inaccessible private archived threads are excluded. The 108,619-message baseline and statistics below remain unchanged; [the continuation ledger](QUEST_CONTINUATION_2026_10.md) records the additional scope, checksums and synthesis.
+
 ## Source identity
 
 - **Guild:** Fenumion (The Sea of Dreams)

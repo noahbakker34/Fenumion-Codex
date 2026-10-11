@@ -2615,3 +2615,5 @@ body.codex-world.player-perspectives-view:not(.home-view) .article-body { font-f
 .people-pagination button:focus-visible, .people-gallery:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 .people-pagination span { text-align: center; }
 .people-gallery { scroll-margin-top: 6rem; }
+
+.quote-card .quote-context { display: block; margin-top: .85rem; color: var(--muted); font: .85rem/1.5 var(--sans); letter-spacing: normal; text-transform: none; }

@@ -559,3 +559,8 @@ Bounded the visual directory to 24 cards per page instead of mounting all 144 re
 ## 11 October 2026 — Djöhandrai character history
 
 Developed Djo’s existing directory record into a full public history with a richer expanded profile, preserved portrait and direct Djo aliases. Checked the supplied deep dive against the original quest scenes and full Story Notes: separation, comic fear, treatment of the wounded, Sister, Saoirse, food and Ahau observations. Interpretation is labeled; parents’ circumstances, Sister’s identity and Ada’s role remain unresolved. Existing cave participation and non-Seeker status stay intact. See `docs/DJOHANDRAI_HISTORY.md` for 23 source anchors and validation. Published under standing authorization. App version 207, Djo record version 1.
+
+
+## 11 October 2026 — Curated memorable quotations
+
+Reduced the accumulated memorable gallery from 147 to 36 deliberate selections, retaining distinctive character lines and consequential history. Added short context notes and seven themes. One reviewed catalogue supplies gallery, character collections, search and featured rotation; new dossier imports no longer automatically expand the published quote selection. Existing source wording/attribution and historical prose remain intact. See `docs/QUOTE_SELECTION.md`. App 208, stylesheet 164, quote selection 1. Validated before publication under standing authorization.

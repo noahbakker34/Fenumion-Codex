@@ -15530,6 +15530,20 @@ const relationshipMaps = {
 const ariaQuoteGallery = articles.find(article => article.id === "memorable-quotes");
 ariaQuoteGallery.sources.push("Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025");
 ariaQuoteGallery.body = ariaQuoteGallery.body.replace('<h2 id="why-these-lines-remain">', "<h2 id=\"aria-sacrifice\">Aria · Protection and sacrifice</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"aria-pride\"><blockquote>“Sometimes pain must be endured to ensure victory. I understand that. Do you?”</blockquote><cite>Aria / Pride · 26 October 2025</cite></button><button class=\"quote-card\" data-article=\"aria-pride\"><blockquote>“To ensure my people are never in danger again. To leave a legacy of saftey security and unbound potential.”</blockquote><cite>Aria / Pride · 26 October 2025</cite></button></div><h2 id=\"aria-attachment\">Aria · Attachment and vulnerability</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"aria-pride\"><blockquote>“Attachment like that is weakness, it holds you back. Even now you are powerless to help them.”</blockquote><cite>Aria / Pride · 9 October 2025</cite></button></div><h2 id=\"aria-mortal-future\">Aria · Mortal independence</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"aria-pride\"><blockquote>“Then make this your people. Bring humanity to new heights, so we can reshape this world, in our image.”</blockquote><cite>Aria / Pride · 10 October 2025</cite></button></div><h2 id=\"aria-circumstances\">Aria · Charm and possibility</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"aria-pride\"><blockquote>“Then let&#x27;s change the circumstances dear!”</blockquote><cite>Aria / Pride · 9 October 2025</cite></button></div>" + '<h2 id="why-these-lines-remain">');
+// Apply one deliberate selection after the historical quote imports. The gallery,
+// character collections, search and home-page rotation all read this same record.
+const quoteSelection = window.FENUMION_QUOTE_SELECTION;
+if (quoteSelection) {
+  const gallery = articles.find(article => article.id === 'memorable-quotes');
+  gallery.body = `<p>Words that reveal a person, mark a consequential choice, or give a lasting event its voice. Each line retains its speaker and links to the history that gives it meaning.</p>
+    <nav class="quote-jump" aria-label="Quote themes">${quoteSelection.themes.map(theme => `<button type="button" data-section="quotes-${theme.id}">${escapeHtml(theme.title)}</button>`).join('')}</nav>
+    ${quoteSelection.themes.map(theme => `<h2 id="quotes-${theme.id}">${escapeHtml(theme.title)}</h2><div class="quote-gallery">${quoteSelection.quotes.filter(quote => quote.theme === theme.id).map(quote => `<button class="quote-card" data-article="${escapeHtml(quote.article)}"><blockquote>${escapeHtml(quote.text)}</blockquote><cite>${escapeHtml(quote.speaker)}</cite><span class="quote-context">${escapeHtml(quote.context)}</span></button>`).join('')}</div>`).join('')}
+    <h2 id="why-these-lines-remain">Why these lines remain</h2><p>These lines hold a character’s convictions, contradictions or loss, or capture a turning point in the world’s history. Their context matters: a speaker’s belief remains their belief, even when the words are memorable.</p>`;
+  gallery.dek = 'A focused selection of character-defining words and voices from turning points in Fenumion’s history.';
+  gallery.facts.Selection = `${quoteSelection.quotes.length} selected quotations`;
+  gallery.facts.Scope = 'Character-defining lines and consequential history';
+  gallery.facts.Attribution = 'Original speaker and source labels';
+}
 Object.assign(relationshipMaps, window.FENUMION_CHARACTER_MAPS || {});
 
 function mergeMedia(record, media) {

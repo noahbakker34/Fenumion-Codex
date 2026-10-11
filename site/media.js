@@ -360,3 +360,12 @@ window.FENUMION_MEDIA.characters["Leo"] = {"image": "assets/characters/leo.jpg",
 window.FENUMION_MEDIA.characters["Lichen"] = {"image": "assets/characters/lichen.jpg", "imageAlt": "Lichen with leaf-like hair, a pink flower and bright green butterflies", "imageCaption": "Lichen"};
 window.FENUMION_MEDIA.characters["Loistava"] = {"image": "assets/characters/loistava.jpg", "imageAlt": "Loistava with white hair, pointed ears and pale blue armor", "imageCaption": "Loistava"};
 window.FENUMION_MEDIA.characters["Lucido Spettoro"] = {"image": "assets/characters/lucido-spettoro.jpeg", "imageAlt": "Lucido Spettoro in a monochrome portrait with dark hair, a beard and a fur-lined collar", "imageCaption": "Lucido Spettoro", "aliases": ["Lucido"]};
+
+// Mama Tabitha, Marius, Minyah and Murr portraits identified by the user.
+window.FENUMION_MEDIA.characters["Mama Tabitha"] = {"image": "assets/characters/mama-tabitha.jpg", "imageAlt": "Mama Tabitha pouring liquid into a bottle with a small companion beside her", "imageCaption": "Mama Tabitha"};
+window.FENUMION_MEDIA.articles["mama-tabitha"] = {"image": "assets/characters/mama-tabitha.jpg", "imageAlt": "Mama Tabitha pouring liquid into a bottle with a small companion beside her", "imageCaption": "Mama Tabitha", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.characters["Marius Antares"] = {"image": "assets/characters/marius-antares.jpeg", "imageAlt": "Marius Antares with brown hair, green eyes and a dark coat", "imageCaption": "Marius Antares", "aliases": ["Marius"]};
+window.FENUMION_MEDIA.characters["Minyah Dragonsister"] = {"image": "assets/characters/minyah-dragonsister.jpg", "imageAlt": "Minyah with long pale hair, horn-like adornments and dark armor, carrying a sword", "imageCaption": "Minyah Dragonsister"};
+window.FENUMION_MEDIA.articles["minyah-dragonsister"] = {"image": "assets/characters/minyah-dragonsister.jpg", "imageAlt": "Minyah with long pale hair, horn-like adornments and dark armor, carrying a sword", "imageCaption": "Minyah Dragonsister", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.characters["Murr the Old Wolf"] = {"image": "assets/characters/murr.jpg", "imageAlt": "Murr, a pale wolf walking along a forest path", "imageCaption": "Murr the Old Wolf"};
+window.FENUMION_MEDIA.articles["murr"] = {"image": "assets/characters/murr.jpg", "imageAlt": "Murr, a pale wolf walking along a forest path", "imageCaption": "Murr the Old Wolf", "imageLayout": "portrait-hero"};

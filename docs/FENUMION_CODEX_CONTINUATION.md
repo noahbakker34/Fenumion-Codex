@@ -616,3 +616,8 @@ Five primary channel exports and five companion analyses supplied: Alpine Forest
 ## Leo, Lichen, Loistava and Lucido portraits · 11 October 2026
 
 Four supplied portraits now resolve through `site/media.js?v=137` to existing directory identities and profile dialogs. Lucido maps to Lucido Spettoro with a short-name alias; no duplicate person or inferred lore. Larger files optimized for display; original source checksums in `docs/SOURCE_MANIFEST.md`. Chrome verified all four searchable cards, portrait loads, profile dialogs and mobile sizing without JavaScript errors.
+
+
+## Minyah, Murr, Mama Tabitha and Marius portraits · 11 October 2026
+
+Supplied artwork added to existing canonical identities: Minyah Dragonsister, Murr the Old Wolf, Mama Tabitha and Marius Antares. Three existing dossiers and their Fein Uaill, Voraketh and Prima NPC listings reuse the central media registry; Marius retains his directory identity with a short-name alias. Media version 138. Larger files optimized, original checksums in `docs/SOURCE_MANIFEST.md`. Chrome verified all four searchable cards, portrait/profile loads, three dossiers, island-listing portraits and mobile sizing without JavaScript errors. No new lore or duplicated person.

@@ -173,3 +173,11 @@ Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616b
 - `Lichen.png` (Lichen): SHA-256 `763f399ca6d1049f4511d4f77914dd8cd1f38ebf346349dd8d14e11612b65d00`.
 - `Loistava.jpg` (Loistava): SHA-256 `14c5ea7a23ff32e3db6194d388cc0a69f48bcd5c137d71c3ef206591df3f936b`.
 - `Lucido.jpeg` (Lucido Spettoro): SHA-256 `16135f2b493f02c6941e3585bcd8decc019cd138c7a5a7b855083b87c7dff1e2`.
+
+
+| Minyah, Murr, Mama Tabitha and Marius portraits | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing character and NPC profiles; three existing dossiers and island listings | Visual identity only; no inferred lore | Central media registry and character assets |
+
+- `Mama Tabitha.jpg` (Mama Tabitha): SHA-256 `c612aac8cf6d2bbf413493982e5b4d9691bbac6d18670f404987e805dd14ca15`.
+- `Marius.jpeg` (Marius Antares): SHA-256 `9bbec6048263dbd39350dc41e8adf0fe1a2d29b268ae4158b1a8854484eda737`.
+- `Minyah.png` (Minyah Dragonsister): SHA-256 `2686c2791d1fe50013f3be6fa34c530b1f721423fca29b0bd6ba132c1853432e`.
+- `Murr.png` (Murr the Old Wolf): SHA-256 `157547a67b326f2bc086a0f1c184e3286eb58068fc4d3beaa7fb4a3710595f93`.

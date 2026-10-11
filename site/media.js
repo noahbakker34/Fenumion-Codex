@@ -186,3 +186,22 @@ window.FENUMION_MEDIA.characters['Farmer Scarlett'] = {
   imageAlt: 'Farmer Scarlett wearing a straw hat and blue overalls in a sunlit field',
   imageCaption: 'Farmer Scarlett'
 };
+
+// Additional portraits identified by the user on 11 October 2026.
+const hildethraxPortrait = {
+  image: 'assets/characters/hildethrax.webp',
+  imageAlt: 'Hildethrax in a monochrome portrait wearing a dark coat and chains',
+  imageCaption: 'Captain Hildethrax'
+};
+window.FENUMION_MEDIA.characters['Captain Hildethrax'] = hildethraxPortrait;
+window.FENUMION_MEDIA.articles['captain-hildethrax'] = hildethraxPortrait;
+window.FENUMION_MEDIA.characters['Erebus Duskforge'] = {
+  image: 'assets/characters/erebus-duskforge.jpeg',
+  imageAlt: 'Erebus with a dark beard and braided hair, surrounded by glowing magic',
+  imageCaption: 'Erebus Duskforge'
+};
+window.FENUMION_MEDIA.characters['Eldin Stormheart'] = {
+  image: 'assets/characters/eldin-stormheart.png',
+  imageAlt: 'Eldin with long blond hair, a beard and a dark fur-lined cloak',
+  imageCaption: 'Eldin Stormheart'
+};

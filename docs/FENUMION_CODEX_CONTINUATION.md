@@ -535,3 +535,8 @@ Integrated the supplied post-7-September export and companion memo after checkin
 ## 11 October 2026 — Sophina, Frank and Scarlett portraits
 
 Added the user-supplied PNG portraits unchanged to the central media registry. Sophina appears in her public article and character entry; Farmer Frank’s existing NPC entry gains his portrait. Added a minimal Farmer Scarlett NPC entry because no prior Scarlett record exists, without inferring a location, relationship or history from the artwork. Character cards and expanded profiles use the shared media registry. Validated identity mapping, image loading and display before publication under the standing user authorization.
+
+
+## 11 October 2026 — Hildethrax, Erebus and Eldin portraits
+
+Added the user-identified portraits unchanged to the central media registry: `Hilde.webp` for Captain Hildethrax, `Erebus.jpeg` for Erebus Duskforge and `Eldin2.png` for Eldin Stormheart. Existing directory entries and expanded profiles receive their portraits; Hildethrax’s public article uses the same image. No character biography or hidden lore is inferred from the artwork. Checked image loading and responsive display before publishing under the standing authorization.

@@ -579,3 +579,8 @@ Added the four supplied images unchanged to their existing directory entries, ex
 ## 11 October 2026 — Kaiya, Karnak, Kasiri and Kazhinju portraits
 
 Added the four supplied portraits unchanged to existing directory entries and expanded profiles. Kaiya maps to Kaiya Dragonsister, Kasiri to Kasiri Ruza, and Kaz.jpg to Kazhinju. Kaiya and Kazhinju’s dedicated articles use their portraits. Karnak’s JFIF is an ordinary JPEG copied unchanged with a .jpg extension. No new identity, biography or abilities are inferred from artwork. Verified loading and desktop/mobile display before publication under standing authorization. Media version 134.
+
+
+## 11 October 2026 — Quest room branches
+
+Integrated 21 selected room scenes into 21 existing character, faction and location histories, with eleven expanded-profile updates and a linked Quest Room Branches reference. Primary-message anchors support repairs after the farmer rescue, Swift Foot investigation restraint, Rahu negotiations, refugee aid, Zarathian tours, ship/dock clues and later split-party encounters. Offers and testimony remain attributed; no additional quest titles or duplicate timeline events are invented. The source coverage is 50 accessible rooms / 4,949 messages, kept distinct from the original main-channel baseline. Existing Djo and Library evidence is not duplicated, and Jiangshi’s conflicting reunion chronology is not silently changed. Withheld material remains in the original source documents outside Git; the authenticated vault payload is unchanged. See `docs/QUEST_ROOM_EVIDENCE.md` for neutral dispositions and boundaries. App 209, quest thread records 1. Validate routes, source anchors, profiles, navigation and public-content boundaries before publishing under standing authorization.

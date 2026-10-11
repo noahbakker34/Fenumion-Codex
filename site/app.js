@@ -14209,6 +14209,35 @@ if (questContinuation) {
   questRecord.facts['Continuation'] = '2,369 messages · supplied through 11 Oct 2026 UTC';
 }
 
+// Room branches extend existing histories without becoming duplicate quests.
+const questThreads = window.FENUMION_QUEST_THREADS;
+if (questThreads) {
+  const reference = questThreads.record;
+  articles.push(reference);
+  fixedArticlePaths.set(reference.id, ['Guide', reference.title]);
+  navigationRegions.find(region => region.title === 'Guide').branches[0].items.push({ label: reference.title, article: reference.id });
+  for (const [id, body] of Object.entries(questThreads.updates)) {
+    const record = articles.find(item => item.id === id);
+    if (!record) throw new Error(`Missing quest room destination: ${id}`);
+    record.body += body;
+    record.sources = [...new Set([...(record.sources || []), reference.sources[0]])];
+    const links = subchannelMap[id] || (subchannelMap[id] = []);
+    links.push({ label: reference.title, article: reference.id, summary: reference.dek });
+  }
+  for (const [name, additions] of Object.entries(questThreads.profiles)) {
+    const person = archiveIndex.characters.find(item => item.title === name || (item.aliases || []).includes(name));
+    if (!person) throw new Error(`Missing quest room character: ${name}`);
+    const profile = legacyCharacterProfiles[person.title] || (legacyCharacterProfiles[person.title] = {});
+    for (const [field, text] of Object.entries(additions)) profile[field] = [profile[field], text].filter(Boolean).join(' ');
+  }
+  subchannelMap[reference.id] = reference.relatedRecords.map(id => articles.find(item => item.id === id)).filter(Boolean).map(item => ({ label: item.title, article: item.id, summary: item.dek }));
+  const adventure = articles.find(item => item.id === 'quest-record');
+  adventure.facts['Room archive'] = '50 accessible rooms · 4,949 messages';
+  adventure.body += '<h2 id="quest-room-evidence">Companion room evidence</h2><p>Separate rooms preserve simultaneous investigations, conversations and split-party encounters. Selected evidence from the supplied 50-room archive is woven into character and location histories. These rooms are branches of existing adventures, not fifty additional quests. <a href="#quest-branches">Follow the room branches and their coverage limits</a>.</p>';
+  const links = subchannelMap['quest-record'] || (subchannelMap['quest-record'] = []);
+  links.push({ label: reference.title, article: reference.id, summary: reference.dek });
+}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

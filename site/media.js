@@ -343,3 +343,11 @@ const kazhinjuPortrait = {
 };
 window.FENUMION_MEDIA.characters.Kazhinju = kazhinjuPortrait;
 window.FENUMION_MEDIA.articles.kazhinju = kazhinjuPortrait;
+
+// Portraits identified by the user; optimized for directory and article display.
+window.FENUMION_MEDIA.characters["Kvethe"] = {"image": "assets/characters/kvethe.jpg", "imageAlt": "Kvethe in a forest, with dark hair and feathered adornments", "imageCaption": "Kvethe", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.articles["kvethe"] = {"image": "assets/characters/kvethe.jpg", "imageAlt": "Kvethe in a forest, with dark hair and feathered adornments", "imageCaption": "Kvethe", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.characters["Kyrin the Lost"] = {"image": "assets/characters/kyrin.jpg", "imageAlt": "Kyrin with blue skin, horns and a gold forehead ornament", "imageCaption": "Kyrin the Lost", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.articles["kyrin-the-lost"] = {"image": "assets/characters/kyrin.jpg", "imageAlt": "Kyrin with blue skin, horns and a gold forehead ornament", "imageCaption": "Kyrin the Lost", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.characters["Krasteline"] = {"image": "assets/characters/krasteline.jpeg", "imageAlt": "Krasteline with blue skin, orange hair and illuminated goggles", "imageCaption": "Krasteline", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.articles["krasteline"] = {"image": "assets/characters/krasteline.jpeg", "imageAlt": "Krasteline with blue skin, orange hair and illuminated goggles", "imageCaption": "Krasteline", "imageLayout": "portrait-hero"};

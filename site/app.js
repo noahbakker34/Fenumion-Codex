@@ -14338,6 +14338,24 @@ if (djoDossier) {
   subchannelMap[record.id] = ['gate-clearing', 'old-earth-hills', 'cave-company', 'quest-continuation', 'player-perspectives'].map(id => articles.find(item => item.id === id)).filter(Boolean).map(item => ({ label: item.title, article: item.id, summary: item.dek }));
   subchannelMap['cave-company'].push({ label: record.title, article: record.id, summary: record.dek });
 }
+// Island browsing reuses NPC records rather than creating duplicate people.
+const npcIslandGroups = window.FENUMION_NPC_ISLANDS || [];
+if (npcIslandGroups.length) {
+  articles.push({id:'npc-islands',title:'NPCs by Island',category:'Archive',type:'NPC directory',dek:'Find local people, officials and surviving communities together by island.',tags:['NPCs','Islands','Directory'],facts:{Scope:'Documented homes and island connections'},sources:['Existing public NPC dossiers and location histories'],body:'<p>Browse NPCs by their documented home or island connection. The connection shown on each record explains why they appear here. A visit or a local role does not establish someone’s birthplace.</p>',npcIslandOverview:true});
+  fixedArticlePaths.set('npc-islands',['Characters','NPCs by Island']);
+  const items = [{label:'All islands',article:'npc-islands'}];
+  for (const group of npcIslandGroups) {
+    const id = 'npcs-'+group.id;
+    articles.push({id,title:group.title+' · NPCs',category:'Archive',type:'Island NPC directory',dek:group.article?'The documented NPC community of '+group.title+'.':'NPCs whose home island or local affiliation remains unresolved.',tags:['NPCs',group.title],facts:{Scope:'Public NPC records'},sources:['Existing public NPC dossiers and location histories'],body:'',npcIsland:group.id});
+    fixedArticlePaths.set(id,['Characters','NPCs by Island',group.title]);
+    items.push({label:group.title,article:id});
+    if (group.article) {
+      const links = subchannelMap[group.article] || (subchannelMap[group.article] = []);
+      links.push({label:group.title+' · NPCs',article:id,summary:'Browse the island’s NPCs together.'});
+    }
+  }
+  navigationRegions.find(region=>region.title==='Characters').branches.push({title:'NPCs by Island',items});
+}
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
@@ -15872,6 +15890,10 @@ function openCharacterRecord(person, personLabel = "Character") {
   const relatedButton = person.article && person.article !== "people-directory"
     ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(person.article)}">Open related Codex record →</button>`
     : "";
+  const npcGroup = archiveIndex.npcs.some(item=>item.title===person.title)
+    ? npcIslandGroups.find(group=>group.people.some(item=>item.name===person.title)) || npcIslandGroups.find(group=>group.id==='unplaced')
+    : null;
+  const islandButton = npcGroup ? `<button class="record-dialog-link" type="button" data-record-article="npcs-${escapeHtml(npcGroup.id)}">${escapeHtml(npcGroup.title)} · NPCs →</button>` : '';
   recordDialogContent.innerHTML = `
     ${profileMedia}
     <p class="record-dialog-kicker">${escapeHtml(personLabel)} · Expanded profile</p>
@@ -15882,7 +15904,7 @@ function openCharacterRecord(person, personLabel = "Character") {
       ${achievements ? `<p><strong>Achievements &amp; deeds</strong>${escapeHtml(achievements)}</p>` : ""}
       ${relationships ? `<p><strong>Relationships</strong>${escapeHtml(relationships)}</p>` : ""}
     </div>
-    ${relatedButton}`;
+    ${relatedButton}${islandButton}`;
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
   else if (!recordDialog.open) recordDialog.setAttribute("open", "");
   recordDialog.scrollTop = 0;
@@ -16489,7 +16511,7 @@ function renderArticle(route, pushHash = true) {
     ${hubPage ? "" : gallery}
     ${peopleGallery}
     <div class="lead-grid">
-      <div class="article-body">${article.body}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
+      <div class="article-body">${article.body}${renderIslandNpcCollection(article)}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
   const visualConnections = (relationshipMaps[article.id]?.nodes || [])
@@ -16505,7 +16527,7 @@ function renderArticle(route, pushHash = true) {
   const hasConnections=visualConnections.length>0;
   if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
   const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
-  window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:(Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
   if (article.id === "world-index") {
     setupWorldBrowser();
     setupFeaturedContent();
@@ -16575,7 +16597,12 @@ function setupPeopleGallery() {
 
   filters.innerHTML = kindOptions.map(option => `<button type="button" class="people-kind-filter${option.id === activeKind ? " active" : ""}" data-people-kind="${option.id}" aria-pressed="${option.id === activeKind}">${option.label}<span>${option.count}</span></button>`).join("");
 
+  const islandLink = document.createElement('p');
+  islandLink.className = 'exploration-links';
+  islandLink.innerHTML = '<a href="#npc-islands">Browse NPCs by island →</a>';
+  filters.after(islandLink);
   const render = () => {
+    islandLink.hidden = activeKind !== 'npc';
     const query = queryInput.value.trim().toLocaleLowerCase();
     const scopedPeople = activeKind === "all" ? people : people.filter(person => person.personKind === activeKind);
     const matches = query
@@ -17110,6 +17137,22 @@ const communityCharacterArt = [
   { article: 'scribonia', image: 'assets/community/ececilia/scribonia-chibi.png', title: 'Scribonia', alt: 'Scribonia with glasses and a glowing idea bulb' },
   { article: 'vessalia', image: 'assets/community/ececilia/vessalia-chibi.png', title: 'Vessalia', alt: 'Vessalia with sparkling star-shaped pupils' }
 ];
+
+function islandNpcPeople(group) {
+  const assignments = new Map(npcIslandGroups.flatMap(item => item.people.map(person => [person.name, {group:item.id,basis:person.basis}])));
+  return [...new Map(archiveIndex.npcs.filter(person => isPlayerSafeArticle(person.article))
+    .filter(person => group.id === 'unplaced' ? !assignments.has(person.title) : assignments.get(person.title)?.group === group.id)
+    .map(person => [person.title,{...person,islandBasis:assignments.get(person.title)?.basis || 'Island affiliation not established in the public record'}])).values()]
+    .sort((a,b)=>a.title.localeCompare(b.title));
+}
+
+function renderIslandNpcCollection(article) {
+  if (article.npcIslandOverview) return '<section class="exploration-section"><h2 id="island-npc-groups">Choose an island</h2><div class="exploration-grid">'+npcIslandGroups.map(group=>`<a href="#npcs-${group.id}"><strong>${escapeHtml(group.title)}</strong><small>${islandNpcPeople(group).length} NPC records</small></a>`).join('')+'</div></section>';
+  const group = npcIslandGroups.find(item=>item.id===article.npcIsland || item.article===article.id);
+  if (!group) return '';
+  const people = islandNpcPeople(group);
+  return `<section class="exploration-section island-npc-collection"><p class="eyebrow">Island community</p><h2 id="island-npc-community">NPCs · ${escapeHtml(group.title)}</h2><p>${group.article ? 'Local residents, officials and other NPCs with documented ties to this island.' : 'These NPCs remain available without assigning them an unsupported home island.'}</p><div class="exploration-links"><a href="#npc-islands">Browse NPCs by island →</a>${article.npcIsland && group.article ? `<a href="#${group.article}">Explore ${escapeHtml(group.title)} →</a>` : ''}</div><p>${people.length} public NPC records</p><div class="browser-grid">${people.map(person=>`<button type="button" class="index-card character-card npc-record" data-character-title="${escapeHtml(person.title)}" data-article="${escapeHtml(person.article)}">${person.image?`<img src="${escapeHtml(person.image)}" alt="" loading="lazy" decoding="async">`:'<span class="index-glyph" aria-hidden="true">✦</span>'}<span class="index-card-copy"><strong>${escapeHtml(person.title)}</strong><small>${escapeHtml(person.islandBasis)}</small><span>${escapeHtml(person.summary)}</span></span></button>`).join('')}</div></section>`;
+}
 
 function renderCharacterCollection(article) {
   const artwork = communityCharacterArt.filter(item => item.article === article.id);

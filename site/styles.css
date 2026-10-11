@@ -2314,11 +2314,11 @@ body.ethos-view .ethos-principle, body.ethos-view .ethos-closing { background-co
 .character-quote-grid .quote-card { width: 100%; height: 100%; }
 .exploration-links { display: flex; flex-wrap: wrap; gap: .65rem; margin: 1rem 0; }
 .exploration-links :is(a,button), .starter-banner > button { display: inline-flex; align-items: center; min-height: 44px; padding: .65rem .9rem; border: 1px solid var(--line); border-radius: 5px; color: var(--gold-bright); background: var(--panel); text-decoration: none; font: 1rem/1.45 var(--text); cursor: pointer; }
-.exploration-links :is(a,button):hover, .exploration-grid button:hover, .starter-banner > button:hover { border-color: var(--gold); }
-.exploration-grid button { min-width: 0; padding: .85rem; color: var(--ink); text-align: left; background: var(--panel); border: 1px solid var(--line); border-radius: 5px; cursor: pointer; }
-.exploration-grid button strong, .exploration-grid button small { display: block; overflow-wrap: anywhere; }
-.exploration-grid button strong { color: var(--gold-bright); font: 1rem/1.4 var(--serif); }
-.exploration-grid button small { margin-top: .4rem; color: var(--muted); font: 1rem/1.45 var(--text); }
+.exploration-links :is(a,button):hover, .exploration-grid :is(a,button):hover, .starter-banner > button:hover { border-color: var(--gold); }
+.exploration-grid :is(a,button) { min-width: 0; padding: .85rem; color: var(--ink); text-align: left; background: var(--panel); border: 1px solid var(--line); border-radius: 5px; cursor: pointer; }
+.exploration-grid :is(a,button) strong, .exploration-grid :is(a,button) small { display: block; overflow-wrap: anywhere; }
+.exploration-grid :is(a,button) strong { color: var(--gold-bright); font: 1rem/1.4 var(--serif); }
+.exploration-grid :is(a,button) small { margin-top: .4rem; color: var(--muted); font: 1rem/1.45 var(--text); }
 .connection-group { margin: 1rem 0; }
 .connection-group > summary { min-height: 44px; padding: .65rem 0; color: var(--gold-bright); cursor: pointer; font-family: var(--text); }
 .connection-group > summary span { margin-left: .5rem; color: var(--muted); }
@@ -2617,3 +2617,6 @@ body.codex-world.player-perspectives-view:not(.home-view) .article-body { font-f
 .people-gallery { scroll-margin-top: 6rem; }
 
 .quote-card .quote-context { display: block; margin-top: .85rem; color: var(--muted); font: .85rem/1.5 var(--sans); letter-spacing: normal; text-transform: none; }
+
+.exploration-grid a { text-decoration: none; }
+.exploration-links[hidden] { display: none; }

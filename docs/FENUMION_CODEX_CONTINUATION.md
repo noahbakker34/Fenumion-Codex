@@ -595,3 +595,11 @@ Five primary channel exports and five companion analyses supplied: Alpine Forest
 - Reconciled speaker attribution, individual ballots versus election results, distinct wall-building phases, public promises versus completed work, and Severina’s recorded death versus later active appearances without inventing a return mechanism.
 - Private guidance, prayers, concealed plans, ancient revelations and experiments were withheld. Raw documents remain outside Git; authenticated vault unchanged. No new quotation-gallery entries.
 - Validation: Chrome checks all 23 new/extended article routes, internal links and heading IDs; all ten profile additions resolve to canonical entries; 157 source citation occurrences match raw IDs (79 unique). Atlas entries remain unique, new navigation and timeline entries resolve, eight pages fit a 390px viewport, character directory remains bounded, protected Before stub stays empty, no JavaScript errors. Mobile layout visually inspected.
+
+
+## NPC islands and portraits · 11 October 2026
+
+- Supplied Kvethe, Kyrin and Krasteline portraits now resolve through the central media registry to their existing dossiers and directory entries. Large PNGs are optimized for web display.
+- `npc-islands` overview and seven `npcs-*` directories group all 44 public NPC records by explicit island connections, retaining ten unplaced records rather than inventing origins. Island pages, NPC profiles, the NPC tab and sidebar link these collections. Fein Uaill shows seven records together. Runtime filters preserve existing protected-record boundaries.
+- Source mapping and portrait checksums: `docs/NPC_ISLAND_DIRECTORY.md`; data: `site/npc-islands.js?v=1`. App 211, media 135, styles 165.
+- Chrome validation passed group coverage, portrait loads, island/card/profile navigation, NPC tab link, bounded character pagination, and mobile overflow checks; no JavaScript errors.

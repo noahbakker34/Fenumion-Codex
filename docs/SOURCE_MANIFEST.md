@@ -157,3 +157,8 @@ Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616b
 
 
 | Prima RP: Alpine Forest, Archery Range, Pristinia Walls, The Before, Public Square | Supplied 11 Oct 2026; raw UTC posting ranges 1 Mar 2024–11 Oct 2026, varying by channel | Five primary channel exports (43,204 messages) and five companion analyses | Message-level displayed speakers and narrators; analyses are interpretive locators | Public location histories, civic work, training, character encounters and institutional change | Selected exchanges verified; no exhaustive certification, private disclosure or invented outcomes | `site/prima-rp-records.js`; inventory/checksums and primary anchors in `docs/PRIMA_RP_EVIDENCE.md` |
+
+
+| Kvethe, Kyrin and Krasteline portraits | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing character and NPC records | Visual identity only; no inferred origin or history | Central media registry; `docs/NPC_ISLAND_DIRECTORY.md` checksums |
+
+| NPC island association index | 11 Oct 2026 | Derived public directory | Existing public NPC dossiers | Six documented island communities plus unresolved group | Island affiliation or local role does not imply birthplace; no geographic inference from incidental visits | `site/npc-islands.js`; evidence mapping in `docs/NPC_ISLAND_DIRECTORY.md` |

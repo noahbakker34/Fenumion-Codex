@@ -545,3 +545,8 @@ Added the user-identified portraits unchanged to the central media registry: `Hi
 ## 11 October 2026 — Aerrow, Alessio, Alioth and Animak portraits
 
 Added four supplied images unchanged, mapped to their existing character entries. Aerrow and Animak’s dedicated articles use their portraits; Alioth’s portrait is individually labeled in the shared Casimir & Alioth article gallery. Alessio’s portrait appears in the character directory and expanded profile. Artwork does not change biography, species or relationships. Checked image loading, identity mapping and mobile profiles before publishing under standing authorization.
+
+
+## 11 October 2026 — Bari, Dez, Dorian Ashwood and Eli Voss portraits
+
+Added the four user-supplied portraits unchanged to existing character entries and expanded profiles. Dorian Ashwood’s dedicated article uses the same portrait; Eli maps to the existing Elysian ‘Eli’ Voss record. No duplicate characters or new biography are introduced. Checked image loading and desktop/mobile display before publishing under standing authorization. Media version 131.

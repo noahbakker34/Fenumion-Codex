@@ -239,3 +239,27 @@ const animakPortrait = {
 };
 window.FENUMION_MEDIA.characters.Animak = animakPortrait;
 window.FENUMION_MEDIA.articles.animak = animakPortrait;
+
+// User-identified Bari, Dez, Dorian Ashwood and Eli Voss portraits, 11 October 2026.
+window.FENUMION_MEDIA.characters.Bari = {
+  image: 'assets/characters/bari.jpeg',
+  imageAlt: 'Bari with pale hair in a close-up portrait',
+  imageCaption: 'Bari'
+};
+window.FENUMION_MEDIA.characters.Dez = {
+  image: 'assets/characters/dez.jpg',
+  imageAlt: 'Dez wearing a hood and crouching on a rooftop lantern at sunset',
+  imageCaption: 'Dez'
+};
+const dorianAshwoodPortrait = {
+  image: 'assets/characters/dorian-ashwood.jpeg',
+  imageAlt: 'Dorian Ashwood with brown hair and a stringed instrument over his shoulder',
+  imageCaption: 'Dorian Ashwood'
+};
+window.FENUMION_MEDIA.characters['Dorian Ashwood'] = dorianAshwoodPortrait;
+window.FENUMION_MEDIA.articles['dorian-ashwood'] = dorianAshwoodPortrait;
+window.FENUMION_MEDIA.characters['Elysian ‘Eli’ Voss'] = {
+  image: 'assets/characters/eli-voss.jpeg',
+  imageAlt: 'Eli Voss wearing a green hood and carrying a sword in a town street',
+  imageCaption: 'Elysian ‘Eli’ Voss'
+};

@@ -188,3 +188,8 @@ Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616b
 - `Moira.jpg` (Moira Eshdin): SHA-256 `e3e84bf629eff1bd2edf1bd963006aab4d8073fa0cc27b86e97bd6cd9c5eab12`.
 - `Neemah.png` (Neemah): SHA-256 `052bc89d6649469a1fbee51e1620f979842eb06ce3f34143b7db66af763cee20`.
 - `Nerias.png` (Nerias): SHA-256 `d184342f38ef900906b1e13c15ef2242c08312683c21fe6d550d3da6e70f07d8`.
+
+
+| Navi portrait (`navi.png`) | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing Navi directory and profile | Visual identity only; no inferred lore | `site/assets/characters/navi.jpg`; media registry |
+
+Original SHA-256: `d24addc677981a0438d5a2906d53a496eee02bb7962771351f9cabfbb142f701`.

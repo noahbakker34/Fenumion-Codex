@@ -375,3 +375,10 @@ window.FENUMION_MEDIA.characters["Moira Eshdin"] = {"image": "assets/characters/
 window.FENUMION_MEDIA.characters["Neemah"] = {"image": "assets/characters/neemah.jpg", "imageAlt": "Neemah with textured dark skin and a bright blue forehead marking in the rain", "imageCaption": "Neemah"};
 window.FENUMION_MEDIA.articles["neemah"] = {"image": "assets/characters/neemah.jpg", "imageAlt": "Neemah with textured dark skin and a bright blue forehead marking in the rain", "imageCaption": "Neemah", "imageLayout": "portrait-hero"};
 window.FENUMION_MEDIA.characters["Nerias"] = {"image": "assets/characters/nerias.png", "imageAlt": "Nerias as a horned warrior carrying an ornate shield and sword", "imageCaption": "Nerias"};
+
+// Navi portrait identified by the user.
+window.FENUMION_MEDIA.characters.Navi = {
+  image: 'assets/characters/navi.jpg',
+  imageAlt: 'Navi with green eyes, black and green hair, and a pointed ear',
+  imageCaption: 'Navi'
+};

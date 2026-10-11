@@ -626,3 +626,8 @@ Supplied artwork added to existing canonical identities: Minyah Dragonsister, Mu
 ## Moira, Neemah and Nerias portraits · 11 October 2026
 
 Supplied artwork resolves to Moira Eshdin, Neemah and Nerias through media version 139. Moira has a short-name alias and remains distinct from Moirah. Neemah’s existing article and Prima NPC listing use the same portrait. Original checksums in `docs/SOURCE_MANIFEST.md`; larger images optimized. Chrome passed searchable cards, loaded profile portraits, Neemah article/listing and mobile sizing without JavaScript errors. No new lore or duplicate character.
+
+
+## Navi portrait · 11 October 2026
+
+Supplied Navi portrait added to her existing directory/profile through media version 140. PNG optimized as a 960px JPEG; original checksum in `docs/SOURCE_MANIFEST.md`. Chrome verified the searched card, loaded profile portrait and mobile sizing without JavaScript errors. No duplicated identity or inferred lore.

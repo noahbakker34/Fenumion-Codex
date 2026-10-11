@@ -603,3 +603,11 @@ Five primary channel exports and five companion analyses supplied: Alpine Forest
 - `npc-islands` overview and seven `npcs-*` directories group all 44 public NPC records by explicit island connections, retaining ten unplaced records rather than inventing origins. Island pages, NPC profiles, the NPC tab and sidebar link these collections. Fein Uaill shows seven records together. Runtime filters preserve existing protected-record boundaries.
 - Source mapping and portrait checksums: `docs/NPC_ISLAND_DIRECTORY.md`; data: `site/npc-islands.js?v=1`. App 211, media 135, styles 165.
 - Chrome validation passed group coverage, portrait loads, island/card/profile navigation, NPC tab link, bounded character pagination, and mobile overflow checks; no JavaScript errors.
+
+
+## Karnak, Kasiri and Nymera · 11 October 2026
+
+- Three user-supplied character deep dives now inform `site/character-improvements.js?v=1`. Karnak has a dedicated `karnak` dossier; existing Kasiri and Nymera dossiers, profiles, portraits and prior history are preserved and developed. Karnak’s canonical directory name remains Karnak, with his full name as an alias.
+- Primary scene checks clarify Karnak’s self-identified Hellion/protector role, conviction under Severina’s supervision, vigilance and protection of Camilla; Nymera’s wall labor, painful memories, questions about motives, old-axe attachment and scarred hands; and Kasiri’s civic testimony. The workshop account is explicitly a supplied synthesis with no message-level shop evidence, unnamed ownership and unresolved subsequent recovery. No shop duplicate or Knights ownership claim.
+- Two defining quotations added to the existing curated selection, with exact raw wording and posting-date provenance. No routine tactical quotes or new timeline events. No private oaths, altar discoveries, concealed history, invented diagnosis or future arc. Authenticated vault unchanged.
+- Evidence/checksums: `docs/CHARACTER_DEEP_DIVE_UPDATE.md`; 34 unique primary anchors verified. Chrome passed routes, profiles, prior-history retention, exact quotes, portraits, mobile sizing and directory-card interaction. App 212; media 136.

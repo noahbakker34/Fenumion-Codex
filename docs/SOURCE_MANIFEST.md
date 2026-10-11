@@ -162,3 +162,6 @@ Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616b
 | Kvethe, Kyrin and Krasteline portraits | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing character and NPC records | Visual identity only; no inferred origin or history | Central media registry; `docs/NPC_ISLAND_DIRECTORY.md` checksums |
 
 | NPC island association index | 11 Oct 2026 | Derived public directory | Existing public NPC dossiers | Six documented island communities plus unresolved group | Island affiliation or local role does not imply birthplace; no geographic inference from incidental visits | `site/npc-islands.js`; evidence mapping in `docs/NPC_ISLAND_DIRECTORY.md` |
+
+
+| Karnak von Runcandel, Kasiri Ruza and Nymera character deep dives | Supplied 11 Oct 2026 | User-supplied interpretive character dossiers | Underlying characters’ speech; dossier analysis not treated as primary narration | Conviction and protection; craft and civic debt; wall work and personal purpose | Selected primary verification, supplied-shop provenance retained, uncertainties preserved; no future arcs or private material published | `site/character-improvements.js`; `docs/CHARACTER_DEEP_DIVE_UPDATE.md` checksums and anchors |

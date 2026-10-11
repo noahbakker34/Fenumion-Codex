@@ -14356,6 +14356,50 @@ if (npcIslandGroups.length) {
   }
   navigationRegions.find(region=>region.title==='Characters').branches.push({title:'NPCs by Island',items});
 }
+// Character development preserves prior histories and the provenance of supplied interpretations.
+const characterImprovements = window.FENUMION_CHARACTER_IMPROVEMENTS;
+if (characterImprovements) {
+  const karnak = characterImprovements.karnak;
+  if (articles.some(record=>record.id===karnak.id)) throw new Error('Duplicate Karnak dossier');
+  articles.push(karnak);
+  fixedArticlePaths.set(karnak.id,['Characters',karnak.title]);
+  navigationRegions.find(region=>region.title==='Characters').branches.find(branch=>branch.title==='Characters K–Z').items.push({label:karnak.title,article:karnak.id});
+  const person = archiveIndex.characters.find(item=>item.title==='Karnak');
+  Object.assign(person,{article:karnak.id,meta:karnak.type,summary:karnak.dek,aliases:[...new Set([...(person.aliases || []),karnak.title])]});
+  for (const [id,key] of [['kasiri-ruza','kasiri'],['nymera','nymera']]) {
+    const record = articles.find(item=>item.id===id);
+    const update = characterImprovements[key];
+    record.dek = update.dek;
+    record.type = update.type;
+    if (id==='kasiri-ruza') record.body = update.body + record.body;
+    else {
+      record.body = record.body.replace(/<h2 id="nymera-open-record">[\s\S]*$/, '');
+      record.body += update.body + '<h2 id="nymera-open-record">The open record</h2><p>Nymera’s earlier life, the memories she avoids, the origins of her scars and the history of her greataxe remain unresolved. Her full relationship to Cala and her later choices require further evidence. The practical help she offers is already part of the record.</p>';
+    }
+    record.sources = [...new Set([...(record.sources || []),characterImprovements.source])];
+    const entry = archiveIndex.characters.find(item=>item.article===id);
+    Object.assign(entry,{meta:record.type,summary:record.dek});
+  }
+  for (const [name,profile] of Object.entries(characterImprovements.profiles)) {
+    const entry = archiveIndex.characters.find(item=>item.title===name);
+    if (!entry) throw new Error(`Missing character improvement target: ${name}`);
+    legacyCharacterProfiles[entry.title] = {...legacyCharacterProfiles[entry.title],...profile};
+  }
+  if (window.FENUMION_QUOTE_SELECTION) window.FENUMION_QUOTE_SELECTION.quotes.push(...characterImprovements.quotes);
+  const connections = {'karnak':['lady-severina','camilla','alpine-forest','prima-pristinia'],'kasiri-ruza':['public-square','pristinia','olokun','wren','lady-severina'],'nymera':['pristinia-walls','pappy','elenia']};
+  for (const [id,targets] of Object.entries(connections)) {
+    const links = subchannelMap[id] || (subchannelMap[id]=[]);
+    for (const target of targets) {
+      const record = articles.find(item=>item.id===target);
+      if (!links.some(item=>item.article===target)) links.push({label:record.title,article:record.id,summary:record.dek});
+    }
+  }
+  for (const [id,target] of [['alpine-forest','karnak'],['lady-severina','karnak'],['pristinia-walls','nymera'],['public-square','kasiri-ruza']]) {
+    const record=articles.find(item=>item.id===target);
+    const links=subchannelMap[id] || (subchannelMap[id]=[]);
+    if (!links.some(item=>item.article===target)) links.push({label:record.title,article:record.id,summary:record.dek});
+  }
+}
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],

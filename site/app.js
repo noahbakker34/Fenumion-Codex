@@ -14338,6 +14338,31 @@ if (djoDossier) {
   subchannelMap[record.id] = ['gate-clearing', 'old-earth-hills', 'cave-company', 'quest-continuation', 'player-perspectives'].map(id => articles.find(item => item.id === id)).filter(Boolean).map(item => ({ label: item.title, article: item.id, summary: item.dek }));
   subchannelMap['cave-company'].push({ label: record.title, article: record.id, summary: record.dek });
 }
+// Direct user canon corrections supersede the census classification leads.
+const pinArticle = {
+  id:'pin',title:'Pin',category:'People',type:'Player character',
+  dek:'An adventurer who introduces himself to the company, stays close to Carmen and offers healing after a fight.',
+  tags:['Pin','Player character','Carmen'],facts:{Role:'Player character'},
+  sources:['User canon clarification · 11 October 2026','Main quest-RP archive · introduction and healing scenes'],
+  body:'<p>Pin is a player character. In his introduction to the company, he gives his name and stays close to <a href="#carmen">Carmen</a> while meeting unfamiliar companions. The scene places him among the adventurers without establishing a home island.</p><h2 id="pin-practical-care">Care after the fight</h2><p>In a later encounter he offers healing and acknowledges Carmen’s final shot. This preserves an act of practical support without inventing a complete biography, allegiance or later fate.</p><h2 id="pin-source-scenes">Recorded scenes</h2><ul><li><a href="https://discord.com/channels/1177270231513694249/1199083630354501673/1328541217855770677">Pin introduces himself</a></li><li><a href="https://discord.com/channels/1177270231513694249/1199083630354501673/1341600560326901790">An offer of healing</a></li><li><a href="https://discord.com/channels/1177270231513694249/1199083630354501673/1341600728736731198">Acknowledging Carmen’s shot</a></li></ul>'
+};
+articles.push(pinArticle);
+archiveIndex.npcs = archiveIndex.npcs.filter(person=>person.title!=='Pin');
+let pinPerson=archiveIndex.characters.find(person=>person.title==='Pin');
+if (!pinPerson) {pinPerson={title:'Pin'};archiveIndex.characters.push(pinPerson);}
+Object.assign(pinPerson,{article:'pin',meta:'Player character',summary:pinArticle.dek});
+legacyCharacterProfiles.Pin={personality:'Introduces himself to unfamiliar companions while remaining close to Carmen.',achievements:'Offers healing after a fight and acknowledges Carmen’s final shot.',relationships:'Recorded alongside Carmen and the adventuring company; further relationships are not established here.'};
+fixedArticlePaths.set('pin',['Characters','Pin']);
+navigationRegions.find(region=>region.title==='Characters').branches.find(branch=>branch.title==='Characters K–Z').items.push({label:'Pin',article:'pin'});
+subchannelMap.pin=[{label:'Carmen',article:'carmen',summary:articles.find(article=>article.id==='carmen').dek}];
+const rahnPet=archiveIndex.characters.find(person=>person.title==='Rahn');
+Object.assign(rahnPet,{characterKind:'pet',meta:'Flying companion',aliases:[...new Set([...(rahnPet.aliases || []),'Rahn, the Net Breaker'])],summary:'A player-character pet recorded flying and scouting with the adventuring company. The owner is not identified here.'});
+legacyCharacterProfiles.Rahn={personality:'A player-character pet seen as a giant vulture in the recovered scenes.',achievements:'Flies and scouts with the company.',relationships:'Companion to a player character; the owner’s identity is not established by the supplied correction.'};
+const melianPerson=archiveIndex.npcs.find(person=>person.title==='Melian Starguard');
+melianPerson.aliases=[...new Set([...(melianPerson.aliases || []),'Melian','Definetly Melian','Definitely Melian'])];
+articles.find(article=>article.id==='melian-starguard').tags.push('Definetly Melian','Definitely Melian');
+articles.find(article=>article.id==='people-directory').body += '<p>Player-character pets are companions rather than separate player characters or world NPCs. Browse them with the Pets filter.</p>';
+
 // Recover public NPC histories only after checking their scenes and existing identities.
 const npcRecovery = window.FENUMION_NPC_RECOVERY;
 if (npcRecovery) {
@@ -15930,6 +15955,9 @@ function timelineDetailParagraphs(item) {
   return [item.summary, window.codexReadingText(questEventConsequences[item.title])];
 }
 
+function characterRecordKind(person) { return person.characterKind === 'pet' ? 'pet' : 'player'; }
+function characterRecordLabel(person) { return person.characterKind === 'pet' ? 'Player-character pet' : 'Player character'; }
+
 function characterProfileParagraphs(person) {
   const profile = legacyCharacterProfiles[person.title];
   return profile ? [profile.personality, profile.achievements, profile.relationships] : [person.summary, '', ''];
@@ -16668,7 +16696,7 @@ function setupPeopleGallery() {
   const kindBanner = document.querySelector("#people-kind-banner");
   if (!gallery || !queryInput || !count || !filters || !kindBanner) return;
   const people = [
-    ...archiveIndex.characters.map(person => ({ ...person, personKind: "player", personLabel: "Player character" })),
+    ...archiveIndex.characters.map(person => ({ ...person, personKind: characterRecordKind(person), personLabel: characterRecordLabel(person) })),
     ...archiveIndex.npcs.map(person => ({ ...person, personKind: "npc", personLabel: "NPC" }))
   ]
     .sort((left, right) => left.title.localeCompare(right.title));
@@ -16688,7 +16716,8 @@ function setupPeopleGallery() {
 
   const kindOptions = [
     { id: "all", label: "All people", count: people.length },
-    { id: "player", label: "Players", count: archiveIndex.characters.length },
+    { id: "player", label: "Players", count: archiveIndex.characters.filter(person=>characterRecordKind(person)==='player').length },
+    { id: "pet", label: "Pets", count: archiveIndex.characters.filter(person=>characterRecordKind(person)==='pet').length },
     { id: "npc", label: "NPCs", count: archiveIndex.npcs.length }
   ];
 
@@ -16853,7 +16882,7 @@ function setupWorldBrowser() {
   if (!browser) return;
   const browserData = {
     characters: [
-      ...archiveIndex.characters.map(person => ({ ...person, personKind: "player", personLabel: "Player character" })),
+      ...archiveIndex.characters.map(person => ({ ...person, personKind: characterRecordKind(person), personLabel: characterRecordLabel(person) })),
       ...archiveIndex.npcs.map(person => ({ ...person, personKind: "npc", personLabel: "NPC" }))
     ],
     timeline: archiveIndex.timeline,
@@ -17534,7 +17563,7 @@ document.addEventListener("click", event => {
       const player = archiveIndex.characters.find(person => person.title === title);
       const npc = archiveIndex.npcs.find(person => person.title === title);
       const person = player || npc;
-      if (person && isPlayerSafeArticle(person.article)) openCharacterRecord(person, player ? "Player character" : "NPC");
+      if (person && isPlayerSafeArticle(person.article)) openCharacterRecord(person, player ? characterRecordLabel(person) : "NPC");
       return;
     }
     if (kind === "location") {
@@ -17561,7 +17590,7 @@ document.addEventListener("click", event => {
     const npc = archiveIndex.npcs.find(person => person.title === title);
     const person = player || npc;
     if (person && (isPlayerSafeArticle(person.article) || vaultUnlocked)) {
-      openCharacterRecord(person, player ? "Player character" : "NPC");
+      openCharacterRecord(person, player ? characterRecordLabel(person) : "NPC");
       return;
     }
   }

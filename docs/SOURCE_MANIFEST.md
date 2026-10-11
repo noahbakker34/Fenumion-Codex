@@ -228,3 +228,6 @@ User correction: “Pell is Pelegia.” The prior Pelagia catalogue entry and Pe
 | NPC master registry and recovery map | Supplied 11 Oct 2026 | Secondary controller-aware recovery census | Curated 426 raw identities; not 426 confirmed NPCs | Research lead checked against original quest scenes | No raw appendix or secret payload published | `docs/NPC_REGISTRY_RECOVERY.md`; ten public NPC dossiers |
 
 Registry SHA-256: `6b9b1150a2ca4f65632a636ffe61cc5424f48c0bbd78219df0b6f712477d12b1`. Primary full quest archive SHA-256: `109d61f559cc3dd5e4a072cf206c885e934ac197c3dcd001d17dcb050c2b03d6`. 45 unique message anchors checked against the primary JSON.
+
+
+Direct user canon correction · 11 October 2026: “Pin is a player, Rahn is a pc pet, Melian is always Melian.” Classification and Melian identity continuity confirmed by the user; Pin’s short public history checks primary message IDs `1328541217855770677`, `1341600560326901790`, `1341600728736731198`. No Rahn owner or new private lore inferred.

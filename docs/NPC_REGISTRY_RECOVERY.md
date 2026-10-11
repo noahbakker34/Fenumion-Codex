@@ -24,10 +24,15 @@ Public NPC directory expands from 44 to 52 entries. All 52 appear once in the is
 
 ## Canonicalization decisions and remaining recovery
 
-The Cultivation-operated raw Rolen remains unresolved against Rolen Ofandrus; no second confirmed NPC and no destructive merge are created. The prior user-identified portrait/search shorthand stays attached to Rolen Ofandrus. Pin’s 148-post footprint contains adventurer-like agency and is not sufficient to publish as an NPC. Rahn’s registry classification conflicts with the existing player index, so the portrait and player identity remain unchanged pending controller-aware source reconstruction. Melian-like labels, cosmological aliases and unverified forms remain separate recovery leads. No speculative alias merges or NPC promotions occur.
+The Cultivation-operated raw Rolen remains unresolved against Rolen Ofandrus; no second confirmed NPC and no destructive merge are created. The prior user-identified portrait/search shorthand stays attached to Rolen Ofandrus. The user has now resolved Pin as a player character, Rahn as a player-character pet, and every Melian label as the same Melian. Those three flags are closed; no owner is inferred for Rahn. Cosmological aliases and unverified historical forms remain separate recovery leads. No speculative merges or NPC promotions occur.
 
 Existing public masters are linked rather than rewritten. Protected masters remain veiled. Further high-priority recovery must establish role, scene context, identity continuity and public visibility before new dossiers are published; an exhaustive census does not remove those requirements.
 
 ## Validation
 
 Chrome passed all eleven new article routes and the Prima NPC directory, internal links, unique heading IDs, representative card/dialog searches and aliases, and 390px sizing with no horizontal overflow or JavaScript errors. All 52 NPCs have unique group coverage; only one Scarlett and one Yvette remain. Protected article titles and bodies remain empty. Desktop guide and mobile dossier screenshots were inspected. All 46 citation occurrences resolve to 45 unique primary messages with matching guild and channel IDs. JavaScript syntax and Git diff checks passed.
+
+
+## User-resolved identities · 11 October 2026
+
+User explicitly confirms Pin is a player, Rahn is a PC pet, and Melian is always Melian. These override the earlier census review flags: Pin gains one player entry and source-anchored article; Rahn retains his portrait with a distinct pet kind and Pets filter, excluded from Players and NPC groups. No owner is inferred. Melian, Definetly Melian and Definitely Melian resolve to the existing Melian Starguard identity. The raw Rolen question remains unresolved. Public NPC count remains 52.

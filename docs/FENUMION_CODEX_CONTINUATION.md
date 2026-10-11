@@ -655,3 +655,8 @@ Chrome verified searched cards, loaded profile portraits, Quille’s dossier, bo
 
 Supplied portraits attached to existing profiles through media version 144. Rhea’s dossier and Babel-Ashur NPC listing and Rolen Ofandrus’s dossier reuse the registry media. Rolen and Rorry are search aliases for Rolen Ofandrus and Rory respectively. Larger PNGs optimized to 960px JPEGs; Rolen’s small original retained. Original checksums recorded in `docs/SOURCE_MANIFEST.md`. No new lore or duplicated identities.
 Chrome verified all four searched cards and loaded profile portraits, Rorry’s alias, Rhea and Rolen’s dossiers, Rhea’s Babel-Ashur listing and mobile sizing without JavaScript errors. Media syntax and diff checks passed.
+
+
+## NPC registry audit and civic recovery · 11 October 2026
+
+Audited all 426 raw-identity rows and retained 122 curated priority rows in the local recovery artifact `/tmp/Fenumion-NPC-registry-audit.json`; candidate matches are not identity proof. Added ten source-checked public dossiers, eight new NPC identities and the People Behind the Settlements guide. Scarlett and Commander Yvette keep their existing directory identities; Stella/Sola spellings linked by actual scenes. Vance’s Eovar connection corrects the registry’s Pristinia label; no uncertain Rolen/Pin/Rahn classification changes or cosmological merges. Public NPC coverage is 52, each once by island; Prima 28 and unplaced 8. Source evidence, privacy boundaries and verification in `docs/NPC_REGISTRY_RECOVERY.md`. New module `npc-recovery-records.js?v=1`, app 214. All 45 unique primary anchors checked; route, link, alias, mobile, unique-coverage and protected-stub checks passed. Screenshots inspected. Raw appendix and transcripts stay outside Git, authenticated vault unchanged.

@@ -73,3 +73,8 @@ Chrome verified all seven group routes, complete and unique NPC coverage, Fein U
 
 ### Island not established
 
+
+
+## Registry recovery update · 11 October 2026
+
+The checked NPC recovery adds Hawthorne, Vizsla, Stella & Sola, Vance, Hiram, Kaja, Magda and Orrik, and assigns existing Scarlett and Commander Yvette from explicit scenes. Prima now has 28 public NPC records and unplaced 8; total 52 with unique coverage. Vance is an Eovar guard on Prima, not a Pristinian guard. Yvette leads her own Guardian corps, not Pristinia’s militia. See `docs/NPC_REGISTRY_RECOVERY.md` for evidence and identity boundaries.

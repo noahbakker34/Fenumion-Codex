@@ -14338,6 +14338,39 @@ if (djoDossier) {
   subchannelMap[record.id] = ['gate-clearing', 'old-earth-hills', 'cave-company', 'quest-continuation', 'player-perspectives'].map(id => articles.find(item => item.id === id)).filter(Boolean).map(item => ({ label: item.title, article: item.id, summary: item.dek }));
   subchannelMap['cave-company'].push({ label: record.title, article: record.id, summary: record.dek });
 }
+// Recover public NPC histories only after checking their scenes and existing identities.
+const npcRecovery = window.FENUMION_NPC_RECOVERY;
+if (npcRecovery) {
+  const items = [{label:'People behind the settlements',article:'npc-community-memory'}];
+  const primaGroup = window.FENUMION_NPC_ISLANDS.find(group=>group.id==='prima');
+  for (const {article} of npcRecovery.records) {
+    if (articles.some(record=>record.id===article.id)) throw new Error(`Duplicate NPC recovery: ${article.id}`);
+    articles.push(article);
+  }
+  for (const recovery of npcRecovery.records) {
+    const record = recovery.article;
+    let person = archiveIndex.npcs.find(person=>person.title===(recovery.existing || record.title));
+    if (!person) {person={title:record.title};archiveIndex.npcs.push(person);}
+    Object.assign(person,{article:record.id,meta:record.type,summary:record.dek,aliases:[...new Set([...(person.aliases || []),...recovery.aliases,...(record.title !== person.title ? [record.title] : [])])]});
+    const profile = legacyCharacterProfiles[person.title] || (legacyCharacterProfiles[person.title]={});
+    profile.achievements = [profile.achievements,record.dek].filter(Boolean).join(' ');
+    fixedArticlePaths.set(record.id,['Characters','NPC communities',record.title]);
+    items.push({label:record.title,article:record.id});
+    if (!primaGroup.people.some(item=>item.name===person.title)) primaGroup.people.push({name:person.title,basis:record.id==='vance-the-guard'?'Eovar guard on Prima':record.id==='guardian-commander-yvette'?'Guardian corps service on Prima':'Pristinian civilian or institutional role'});
+    const links = subchannelMap[record.id] || (subchannelMap[record.id]=[]);
+    for (const id of recovery.links) {
+      const target = articles.find(article=>article.id===id);
+      if (!target) throw new Error(`Missing NPC context: ${id}`);
+      links.push({label:target.title,article:id,summary:target.dek});
+      const reciprocal=subchannelMap[id] || (subchannelMap[id]=[]);
+      if (!reciprocal.some(item=>item.article===record.id)) reciprocal.push({label:record.title,article:record.id,summary:record.dek});
+    }
+  }
+  articles.push({id:'npc-community-memory',title:'People Behind the Settlements',category:'Archive',type:'NPC history guide',dek:'The officials, tradespeople, caregivers and witnesses whose work makes Fenumion a lived-in world.',tags:['NPCs','Civic memory','Civilian life','Pristinia','Eovar'],facts:{Scope:'Public histories'},sources:['Public NPC dossiers; primary scene anchors in each recovered record'],body:`<p>A settlement survives through more than its battles. These histories follow the people who count votes, keep shops, carry water, provide care and remember what the community has lived through.</p><p><a href="#npc-islands">Find NPCs by island</a>, or read the work and relationships that connect them below.</p><h2 id="npc-civic-memory">Decisions and their record</h2><ul>${npcRecovery.records.filter(item=>['hawthorne','elder-hiram','elder-kaja','elder-magda','orrik-wheelwright','vizsla'].includes(item.article.id)).map(item=>`<li><a href="#${item.article.id}">${item.article.title}</a> — ${item.article.dek}</li>`).join('')}</ul><h2 id="npc-material-care">The work of survival</h2><ul>${npcRecovery.records.filter(item=>['farmer-scarlett','stella-sola','vance-the-guard','guardian-commander-yvette'].includes(item.article.id)).map(item=>`<li><a href="#${item.article.id}">${item.article.title}</a> — ${item.article.dek}</li>`).join('')}</ul><h2 id="npc-established-histories">Teaching, hospitality and witness</h2><ul><li><a href="#papirak">Papirak</a> — teaching, loss and the institutions that survive him.</li><li><a href="#herb">Herb</a> — the Common Man and ordinary continuity.</li><li><a href="#scout-lilian">Scout Lilian</a> — reconnaissance and the cost of warning.</li><li><a href="#murr">Murr the Old Wolf</a> — Voraketh’s living memory.</li><li><a href="#kvethe">Kvethe and Babel’s survivors</a> — a community that speaks for itself.</li><li><a href="#huoth">Huoth</a> — service and political testimony.</li></ul>`});
+  fixedArticlePaths.set('npc-community-memory',['Characters','NPC communities']);
+  navigationRegions.find(region=>region.title==='Characters').branches.push({title:'NPC communities',items});
+}
+
 // Island browsing reuses NPC records rather than creating duplicate people.
 const npcIslandGroups = window.FENUMION_NPC_ISLANDS || [];
 if (npcIslandGroups.length) {

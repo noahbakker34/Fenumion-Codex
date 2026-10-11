@@ -223,3 +223,8 @@ User correction: “Pell is Pelegia.” The prior Pelagia catalogue entry and Pe
 - `Rhea.png`: SHA-256 `17795622d3d1ff44a94b9dc832efd21d24d90752dfed860df2dbcc1f30442595`.
 - `Rolen.png`: SHA-256 `87ba7073710c04178fc8434a70f9d50f224e060189105fda882301285654a97d`.
 - `Rory.png`: SHA-256 `2c3bcdb83cd5037551aaadbba687c92e42192b353e1ae985b41a7dc2b0a16627`.
+
+
+| NPC master registry and recovery map | Supplied 11 Oct 2026 | Secondary controller-aware recovery census | Curated 426 raw identities; not 426 confirmed NPCs | Research lead checked against original quest scenes | No raw appendix or secret payload published | `docs/NPC_REGISTRY_RECOVERY.md`; ten public NPC dossiers |
+
+Registry SHA-256: `6b9b1150a2ca4f65632a636ffe61cc5424f48c0bbd78219df0b6f712477d12b1`. Primary full quest archive SHA-256: `109d61f559cc3dd5e4a072cf206c885e934ac197c3dcd001d17dcb050c2b03d6`. 45 unique message anchors checked against the primary JSON.

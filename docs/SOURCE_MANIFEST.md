@@ -181,3 +181,10 @@ Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616b
 - `Marius.jpeg` (Marius Antares): SHA-256 `9bbec6048263dbd39350dc41e8adf0fe1a2d29b268ae4158b1a8854484eda737`.
 - `Minyah.png` (Minyah Dragonsister): SHA-256 `2686c2791d1fe50013f3be6fa34c530b1f721423fca29b0bd6ba132c1853432e`.
 - `Murr.png` (Murr the Old Wolf): SHA-256 `157547a67b326f2bc086a0f1c184e3286eb58068fc4d3beaa7fb4a3710595f93`.
+
+
+| Moira, Neemah and Nerias portraits | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing Moira Eshdin, Neemah and Nerias records | Visual identity only; Moira Eshdin remains distinct from Moirah | Central media registry and character assets |
+
+- `Moira.jpg` (Moira Eshdin): SHA-256 `e3e84bf629eff1bd2edf1bd963006aab4d8073fa0cc27b86e97bd6cd9c5eab12`.
+- `Neemah.png` (Neemah): SHA-256 `052bc89d6649469a1fbee51e1620f979842eb06ce3f34143b7db66af763cee20`.
+- `Nerias.png` (Nerias): SHA-256 `d184342f38ef900906b1e13c15ef2242c08312683c21fe6d550d3da6e70f07d8`.

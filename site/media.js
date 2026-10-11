@@ -369,3 +369,9 @@ window.FENUMION_MEDIA.characters["Minyah Dragonsister"] = {"image": "assets/char
 window.FENUMION_MEDIA.articles["minyah-dragonsister"] = {"image": "assets/characters/minyah-dragonsister.jpg", "imageAlt": "Minyah with long pale hair, horn-like adornments and dark armor, carrying a sword", "imageCaption": "Minyah Dragonsister", "imageLayout": "portrait-hero"};
 window.FENUMION_MEDIA.characters["Murr the Old Wolf"] = {"image": "assets/characters/murr.jpg", "imageAlt": "Murr, a pale wolf walking along a forest path", "imageCaption": "Murr the Old Wolf"};
 window.FENUMION_MEDIA.articles["murr"] = {"image": "assets/characters/murr.jpg", "imageAlt": "Murr, a pale wolf walking along a forest path", "imageCaption": "Murr the Old Wolf", "imageLayout": "portrait-hero"};
+
+// Moira, Neemah and Nerias portraits identified by the user.
+window.FENUMION_MEDIA.characters["Moira Eshdin"] = {"image": "assets/characters/moira-eshdin.jpg", "imageAlt": "Moira Eshdin with short dark hair and an eyepatch, seated at a table", "imageCaption": "Moira Eshdin", "aliases": ["Moira"]};
+window.FENUMION_MEDIA.characters["Neemah"] = {"image": "assets/characters/neemah.jpg", "imageAlt": "Neemah with textured dark skin and a bright blue forehead marking in the rain", "imageCaption": "Neemah"};
+window.FENUMION_MEDIA.articles["neemah"] = {"image": "assets/characters/neemah.jpg", "imageAlt": "Neemah with textured dark skin and a bright blue forehead marking in the rain", "imageCaption": "Neemah", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.characters["Nerias"] = {"image": "assets/characters/nerias.png", "imageAlt": "Nerias as a horned warrior carrying an ornate shield and sword", "imageCaption": "Nerias"};

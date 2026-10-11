@@ -621,3 +621,8 @@ Four supplied portraits now resolve through `site/media.js?v=137` to existing di
 ## Minyah, Murr, Mama Tabitha and Marius portraits · 11 October 2026
 
 Supplied artwork added to existing canonical identities: Minyah Dragonsister, Murr the Old Wolf, Mama Tabitha and Marius Antares. Three existing dossiers and their Fein Uaill, Voraketh and Prima NPC listings reuse the central media registry; Marius retains his directory identity with a short-name alias. Media version 138. Larger files optimized, original checksums in `docs/SOURCE_MANIFEST.md`. Chrome verified all four searchable cards, portrait/profile loads, three dossiers, island-listing portraits and mobile sizing without JavaScript errors. No new lore or duplicated person.
+
+
+## Moira, Neemah and Nerias portraits · 11 October 2026
+
+Supplied artwork resolves to Moira Eshdin, Neemah and Nerias through media version 139. Moira has a short-name alias and remains distinct from Moirah. Neemah’s existing article and Prima NPC listing use the same portrait. Original checksums in `docs/SOURCE_MANIFEST.md`; larger images optimized. Chrome passed searchable cards, loaded profile portraits, Neemah article/listing and mobile sizing without JavaScript errors. No new lore or duplicate character.

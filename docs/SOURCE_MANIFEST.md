@@ -215,3 +215,11 @@ User correction: “Pell is Pelegia.” The prior Pelagia catalogue entry and Pe
 
 - `Quille.png`: SHA-256 `0434b6f27e9e63af231a8b9fc475eaf7ba467e8590cb4f46867960ae4cb62e1c`.
 - `Poe.png`: SHA-256 `4a62b61c731ca9d1bc45fa7a2051dec6f9be25459ab4a76d4cad7edc7a73bf0b`.
+
+
+| Rahn, Rhea, Rolen and Rory portraits | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing profiles and Rhea/Rolen dossiers | Visual identity only; Rorry searchable as alias of Rory | Central media registry and character assets |
+
+- `Rahn.png`: SHA-256 `67ca83df14454f1d04fa0f277538ad3fe056ded67dc3e0e9fdae04cca63a8032`.
+- `Rhea.png`: SHA-256 `17795622d3d1ff44a94b9dc832efd21d24d90752dfed860df2dbcc1f30442595`.
+- `Rolen.png`: SHA-256 `87ba7073710c04178fc8434a70f9d50f224e060189105fda882301285654a97d`.
+- `Rory.png`: SHA-256 `2c3bcdb83cd5037551aaadbba687c92e42192b353e1ae985b41a7dc2b0a16627`.

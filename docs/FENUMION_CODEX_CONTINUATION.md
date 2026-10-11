@@ -649,3 +649,9 @@ Chrome verified both new portraits, Papirak’s dossier and Prima listing, all t
 
 Supplied portraits optimized to 960px JPEGs and attached to existing profiles through media version 143. Quille’s dossier and Babel-Ashur NPC listing use the portrait; Poe’s Prima NPC listing uses his profile portrait. Poe’s shared Papirak legacy article retains its existing media. Original checksums recorded in `docs/SOURCE_MANIFEST.md`. No new lore or duplicated characters.
 Chrome verified searched cards, loaded profile portraits, Quille’s dossier, both island NPC listings and mobile sizing without JavaScript errors. Media syntax and diff checks passed.
+
+
+## Rahn, Rhea, Rolen and Rory portraits · 11 October 2026
+
+Supplied portraits attached to existing profiles through media version 144. Rhea’s dossier and Babel-Ashur NPC listing and Rolen Ofandrus’s dossier reuse the registry media. Rolen and Rorry are search aliases for Rolen Ofandrus and Rory respectively. Larger PNGs optimized to 960px JPEGs; Rolen’s small original retained. Original checksums recorded in `docs/SOURCE_MANIFEST.md`. No new lore or duplicated identities.
+Chrome verified all four searched cards and loaded profile portraits, Rorry’s alias, Rhea and Rolen’s dossiers, Rhea’s Babel-Ashur listing and mobile sizing without JavaScript errors. Media syntax and diff checks passed.

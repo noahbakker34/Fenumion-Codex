@@ -399,3 +399,11 @@ window.FENUMION_MEDIA.characters["Paw"] = {"image": "assets/characters/paw.jpg",
 window.FENUMION_MEDIA.characters["Quille"] = {"image": "assets/characters/quille.jpg", "imageAlt": "Quille with braided dark hair, pointed ears, beads and a pale shawl", "imageCaption": "Quille"};
 window.FENUMION_MEDIA.articles.quille = {"image": "assets/characters/quille.jpg", "imageAlt": "Quille with braided dark hair, pointed ears, beads and a pale shawl", "imageCaption": "Quille", "imageLayout": "portrait-hero"};
 window.FENUMION_MEDIA.characters["Poe"] = {"image": "assets/characters/poe.jpg", "imageAlt": "Poe with dark hair and round glasses, writing with a luminous feather quill", "imageCaption": "Poe"};
+
+// Rahn, Rhea, Rolen and Rory portraits identified by the user.
+window.FENUMION_MEDIA.characters["Rahn"] = {"image": "assets/characters/rahn.jpg", "imageAlt": "Rahn as a brown vulture perched on a rock", "imageCaption": "Rahn"};
+window.FENUMION_MEDIA.characters["Rhea"] = {"image": "assets/characters/rhea.jpg", "imageAlt": "Rhea with short brown hair, carrying a bow, arrows and a pack", "imageCaption": "Rhea"};
+window.FENUMION_MEDIA.articles["rhea-babel"] = {"image": "assets/characters/rhea.jpg", "imageAlt": "Rhea with short brown hair, carrying a bow, arrows and a pack", "imageCaption": "Rhea", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.characters["Rolen Ofandrus"] = {"image": "assets/characters/rolen.png", "imageAlt": "Rolen with pointed ears and armor, carrying swords", "imageCaption": "Rolen Ofandrus", "aliases": ["Rolen"]};
+window.FENUMION_MEDIA.articles["rolen"] = {"image": "assets/characters/rolen.png", "imageAlt": "Rolen with pointed ears and armor, carrying swords", "imageCaption": "Rolen Ofandrus", "aliases": ["Rolen"], "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.characters["Rory"] = {"image": "assets/characters/rory.jpg", "imageAlt": "Rory with purple hair, dark lipstick and silver jewelry", "imageCaption": "Rory", "aliases": ["Rorry"]};

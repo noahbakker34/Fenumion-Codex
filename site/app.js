@@ -14400,6 +14400,26 @@ if (characterImprovements) {
     if (!links.some(item=>item.article===target)) links.push({label:record.title,article:record.id,summary:record.dek});
   }
 }
+// The user identifies Pell and the catalogue's Pelagia as Pelegia, one character.
+const pelegiaRecords = archiveIndex.characters.filter(person => ['Pell', 'Pelagia'].includes(person.title));
+const pelegiaBase = pelegiaRecords.find(person => person.title === 'Pell');
+if (pelegiaBase) {
+  const mergedProfile = {};
+  for (const name of ['Pell', 'Pelagia']) {
+    for (const [field, text] of Object.entries(legacyCharacterProfiles[name] || {})) {
+      mergedProfile[field] = [mergedProfile[field], text].filter(Boolean).join(' ');
+    }
+  }
+  legacyCharacterProfiles.Pelegia = mergedProfile;
+  pelegiaBase.title = 'Pelegia';
+  pelegiaBase.aliases = [...new Set(['Pell', 'Pelagia', ...pelegiaRecords.flatMap(person => person.aliases || [])])];
+  pelegiaBase.summary = pelegiaRecords.map(person => person.summary).filter(Boolean).join(' ');
+  archiveIndex.characters = archiveIndex.characters.filter(person => person === pelegiaBase || !pelegiaRecords.includes(person));
+  const seekers = articles.find(article => article.id === 'cave-company');
+  seekers.body = '<p><strong>Pelegia</strong> is also known as <strong>Pell</strong>; the catalogue previously used the spelling <strong>Pelagia</strong>. These names refer to the same adventurer.</p>' + seekers.body;
+  seekers.tags = [...new Set([...seekers.tags, 'Pelegia', 'Pelagia'])];
+}
+
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],

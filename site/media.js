@@ -389,3 +389,8 @@ window.FENUMION_MEDIA.characters["Omari"] = {"image": "assets/characters/omari.j
 window.FENUMION_MEDIA.articles.omari = {"image": "assets/characters/omari.jpg", "imageAlt": "Omari with short dark hair, facial scars and a green cloak", "imageCaption": "Omari", "imageLayout": "portrait-hero"};
 window.FENUMION_MEDIA.characters["Oya"] = {"image": "assets/characters/oya.jpg", "imageAlt": "Oya with blue skin and hair, a pale pointed hat and a blue staff", "imageCaption": "Oya"};
 window.FENUMION_MEDIA.characters["Paco"] = {"image": "assets/characters/paco.jpg", "imageAlt": "Paco with purple coloring, long pointed ears and yellow eyes", "imageCaption": "Paco"};
+
+// Papirak and Paw portraits identified by the user.
+window.FENUMION_MEDIA.characters["Papirak the Strange"] = {"image": "assets/characters/papirak.jpg", "imageAlt": "Papirak with long pale hair and a beard, holding a glowing blue orb", "imageCaption": "Papirak the Strange"};
+window.FENUMION_MEDIA.articles.papirak = {"image": "assets/characters/papirak.jpg", "imageAlt": "Papirak with long pale hair and a beard, holding a glowing blue orb", "imageCaption": "Papirak the Strange", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.characters["Paw"] = {"image": "assets/characters/paw.jpg", "imageAlt": "Paw as a dark bear with glowing red eyes in a forest", "imageCaption": "Paw"};

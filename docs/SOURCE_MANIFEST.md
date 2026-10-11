@@ -201,3 +201,11 @@ Original SHA-256: `d24addc677981a0438d5a2906d53a496eee02bb7962771351f9cabfbb142f
 - `Omari.png` (Omari): SHA-256 `33b3eafacf2b830d4ba261ffb61c76488e4847f57fef0a60102e83d50f01f4c6`.
 - `Oya.jpg` (Oya): SHA-256 `979b6fc8af97938923ee5c2f9d241e7d47744fb7fc84cacad77a69eb2f3f2b81`.
 - `Paco.jpg` (Paco): SHA-256 `58e7c6a5b20b3649ac2426692fdab06ff7fe98eb2500ce00510e28ae53eca736`.
+
+
+| Papirak and Paw portraits; Pelegia identity correction | Supplied 11 Oct 2026 | User-identified artwork and direct canon correction | Artist unstated | Existing Papirak and Paw records; Pell/Pelagia merged as Pelegia | Visual identity and explicit name reconciliation only | Media registry, character assets and directory |
+
+- `Papirak.png`: SHA-256 `004866839af3a300769f6e0fc606caa264c748a4f33941208316872778539bfe`.
+- `Paw.png`: SHA-256 `224039d6bef543a85e4698c8722079b2a6a2db80086853cb708adceb0a1dc343`.
+
+User correction: “Pell is Pelegia.” The prior Pelagia catalogue entry and Pell dossier profile now share one Pelegia identity with both previous spellings searchable; existing scene wording and citations remain.

@@ -637,3 +637,9 @@ Supplied Navi portrait added to her existing directory/profile through media ver
 
 Supplied portraits attached to existing identities through media version 141. Olieander is a search alias for the existing Oleander record. Omari’s dossier and Babel-Ashur NPC directory reuse the portrait; Paco’s image applies to his own profile while Carmen retains her portrait. Larger images optimized as 960px JPEGs; Paco’s small original retained. Original checksums recorded in `docs/SOURCE_MANIFEST.md`. No new lore or duplicate identities.
 Chrome verified all four searched cards and loaded profile portraits, the Olieander alias, Omari’s dossier and Babel-Ashur listing, and mobile sizing without JavaScript errors. Media syntax and diff checks passed.
+
+
+## Papirak, Paw and Pelegia · 11 October 2026
+
+Papirak and Paw portraits optimized to 960px JPEGs and attached to their existing profiles, with Papirak’s dossier and Prima NPC listing sharing his portrait. User confirms Pell is Pelegia: merged the Pell and prior Pelagia directory entries, preserving both profiles’ history, Pell’s existing portrait and Seeker article link. Both older names remain search aliases; the Seeker article explains the naming. Media 142, app 213. Original image checksums in `docs/SOURCE_MANIFEST.md`.
+Chrome verified both new portraits, Papirak’s dossier and Prima listing, all three Pelegia search names resolving to one card, combined burial and tower history, the Seeker naming note and mobile sizing without JavaScript errors. App syntax and diff checks passed.

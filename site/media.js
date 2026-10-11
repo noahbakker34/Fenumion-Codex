@@ -407,3 +407,171 @@ window.FENUMION_MEDIA.articles["rhea-babel"] = {"image": "assets/characters/rhea
 window.FENUMION_MEDIA.characters["Rolen Ofandrus"] = {"image": "assets/characters/rolen.png", "imageAlt": "Rolen with pointed ears and armor, carrying swords", "imageCaption": "Rolen Ofandrus", "aliases": ["Rolen"]};
 window.FENUMION_MEDIA.articles["rolen"] = {"image": "assets/characters/rolen.png", "imageAlt": "Rolen with pointed ears and armor, carrying swords", "imageCaption": "Rolen Ofandrus", "aliases": ["Rolen"], "imageLayout": "portrait-hero"};
 window.FENUMION_MEDIA.characters["Rory"] = {"image": "assets/characters/rory.jpg", "imageAlt": "Rory with purple hair, dark lipstick and silver jewelry", "imageCaption": "Rory", "aliases": ["Rorry"]};
+
+// Additional named character depictions, reviewed 11 October 2026.
+Object.assign(window.FENUMION_MEDIA.characters, {
+  "Quoth": {
+    "image": "assets/characters/discord/d377c62851938fa129dde500420206c9f5d1f05efeb63d819a23dd0b7c744b48.png",
+    "imageAlt": "Discord depiction of Quoth",
+    "imageCaption": "Quoth"
+  },
+  "Vaemyr": {
+    "image": "assets/archive/vaemyr-portrait.webp"
+  },
+  "Saylor": {
+    "image": "assets/characters/discord/119481f8074b0a4529909ddb7b64179bc248b90099eaade8b0f59cfbfe972a94.png",
+    "imageAlt": "Discord depiction of Saylor",
+    "imageCaption": "Saylor"
+  },
+  "Trougar": {
+    "image": "assets/characters/discord/314f65fca19cdd65971d96d10272feaa7de4989266ad58b40fb05a95b0b7f9d9.png",
+    "imageAlt": "Discord depiction of Trougar",
+    "imageCaption": "Trougar"
+  },
+  "Willow": {
+    "image": "assets/characters/discord/71c50c4784ea1d6ecff0d45523f8951653aa28a1ff49e30827fad8d7caa3cfdb.png",
+    "imageAlt": "Discord depiction of Willow",
+    "imageCaption": "Willow"
+  },
+  "Vigr Frami": {
+    "image": "assets/characters/discord/35e6d03576ef4ac6b328bddd4019abd88c07669ece9d380d8196986343ecf3c2.png",
+    "imageAlt": "Discord depiction of Vigr Frami",
+    "imageCaption": "Vigr Frami"
+  },
+  "Tricks": {
+    "image": "assets/characters/discord/adab087aafcd1a22c251d6e94bea68888e4eed4dc7dea81bd57c1e04351c56a8.png",
+    "imageAlt": "Discord depiction of Tricks",
+    "imageCaption": "Tricks"
+  },
+  "Dorian": {
+    "image": "assets/characters/dorian-ashwood.jpeg",
+    "imageAlt": "Dorian Ashwood with brown hair and a stringed instrument over his shoulder",
+    "imageCaption": "Dorian Ashwood"
+  },
+  "Spicy": {
+    "image": "assets/characters/discord/87e21ddf3d386b926321be984337809d0cbefebc8e6b9202bbfc8af542d33f39.png",
+    "imageAlt": "Discord depiction of Spicy",
+    "imageCaption": "Spicy"
+  },
+  "Yllandaer": {
+    "image": "assets/characters/discord/7278cb82789fb670e74e7db33a99f605224053dc7638cce4bb6b260398351838.png",
+    "imageAlt": "Discord depiction of Yllandaer",
+    "imageCaption": "Yllandaer"
+  },
+  "Stormy": {
+    "image": "assets/characters/discord/7571e0a39bf4b7ad7cf2a9fd4d01b27bbd7ac6f0cbf827b4da330f369d06dfdb.png",
+    "imageAlt": "Discord depiction of Stormy",
+    "imageCaption": "Stormy"
+  },
+  "Selwyn": {
+    "image": "assets/characters/discord/b91beef3862cfec2be43480e91dc1be94b4b21364abe796d4042d6dbfb71b677.png",
+    "imageAlt": "Discord depiction of Selwyn",
+    "imageCaption": "Selwyn"
+  },
+  "Swift Foot": {
+    "image": "assets/characters/discord/d94534a13626f0754847ecc22a8ad0ec354b3174cd2f0ef1f55033e3100d7f7c.png",
+    "imageAlt": "Discord depiction of Swift Foot",
+    "imageCaption": "Swift Foot"
+  },
+  "Starojoss Destranoth": {
+    "image": "assets/characters/discord/19e59104772c5b8855a7e560e7a2b08a36efa11c53004890930edc30f80af4e5.png",
+    "imageAlt": "Discord depiction of Starojoss Destranoth",
+    "imageCaption": "Starojoss Destranoth"
+  },
+  "Serra": {
+    "image": "assets/characters/discord/92a87df1b1617501b18dc9bc3af2dab2f7d2952b76bfcc2e59b5665500431380.png",
+    "imageAlt": "Discord depiction of Serra",
+    "imageCaption": "Serra"
+  },
+  "Skye": {
+    "image": "assets/characters/discord/83d9e4f8e992b3a9a369352ba19d75bdfbcdb989a83c9ca4506793f65745d5ed.png",
+    "imageAlt": "Discord depiction of Skye",
+    "imageCaption": "Skye"
+  },
+  "Tutora Rhex": {
+    "image": "assets/characters/discord/3a28578b45c28dd240052f755b381f642b8f5b3c3dc2de5aa2e2cb586c9043e9.png",
+    "imageAlt": "Discord depiction of Tutora Rhex",
+    "imageCaption": "Tutora Rhex"
+  },
+  "Scout Lilian": {
+    "image": "assets/characters/discord/98a033dd2d938daea05bbd074dc661128fd78df3467b82718afcc769fad983f8.png",
+    "imageAlt": "Discord depiction of Scout Lilian",
+    "imageCaption": "Scout Lilian"
+  },
+  "Strange Talon": {
+    "image": "assets/characters/discord/ccc664a49d9b26187178d1dac7436d6fb9035f856a95e2b043a502419984e3d4.png",
+    "imageAlt": "Discord depiction of Strange Talon",
+    "imageCaption": "Strange Talon"
+  },
+  "Yami no Majo": {
+    "image": "assets/characters/discord/161dd5ea25a6dfa4e8cb644f3b52c707626d0e0784a1175a5e78463d5283100d.png",
+    "imageAlt": "Discord depiction of Yami no Majo",
+    "imageCaption": "Yami no Majo"
+  },
+  "Sheeva Dragonsister": {
+    "image": "assets/characters/discord/ae480417840e41b12e443a606da2672cf3072560ec1f045adb23b5ac77fab23a.png",
+    "imageAlt": "Discord depiction of Sheeva Dragonsister",
+    "imageCaption": "Sheeva Dragonsister"
+  },
+  "Tarwen of the Silver Star": {
+    "image": "assets/characters/discord/80fde22afa2248289525c20b98aa36463cab3c7b532c062b6c07acf1480fab38.png",
+    "imageAlt": "Discord depiction of Tarwen of the Silver Star",
+    "imageCaption": "Tarwen of the Silver Star"
+  },
+  "Ada": {
+    "image": "assets/characters/discord/6c07c94f146f65893e2b072ac65bd13d02ff660d31f0c6657e002fe7ab5142ac.png",
+    "imageAlt": "Discord depiction of Ada",
+    "imageCaption": "Ada",
+    "imageLayout": "portrait-hero"
+  }
+});
+Object.assign(window.FENUMION_MEDIA.articles, {
+  "swift-foot": {
+    "image": "assets/characters/discord/d94534a13626f0754847ecc22a8ad0ec354b3174cd2f0ef1f55033e3100d7f7c.png",
+    "imageAlt": "Discord depiction of Swift Foot",
+    "imageCaption": "Swift Foot",
+    "imageLayout": "portrait-hero"
+  },
+  "starojoss-destranoth": {
+    "image": "assets/characters/discord/19e59104772c5b8855a7e560e7a2b08a36efa11c53004890930edc30f80af4e5.png",
+    "imageAlt": "Discord depiction of Starojoss Destranoth",
+    "imageCaption": "Starojoss Destranoth",
+    "imageLayout": "portrait-hero"
+  },
+  "scout-lilian": {
+    "image": "assets/characters/discord/98a033dd2d938daea05bbd074dc661128fd78df3467b82718afcc769fad983f8.png",
+    "imageAlt": "Discord depiction of Scout Lilian",
+    "imageCaption": "Scout Lilian",
+    "imageLayout": "portrait-hero"
+  },
+  "strange-talon": {
+    "image": "assets/characters/discord/ccc664a49d9b26187178d1dac7436d6fb9035f856a95e2b043a502419984e3d4.png",
+    "imageAlt": "Discord depiction of Strange Talon",
+    "imageCaption": "Strange Talon",
+    "imageLayout": "portrait-hero"
+  },
+  "yami-no-majo": {
+    "image": "assets/characters/discord/161dd5ea25a6dfa4e8cb644f3b52c707626d0e0784a1175a5e78463d5283100d.png",
+    "imageAlt": "Discord depiction of Yami no Majo",
+    "imageCaption": "Yami no Majo",
+    "imageLayout": "portrait-hero"
+  },
+  "sheeva-dragonsister": {
+    "image": "assets/characters/discord/ae480417840e41b12e443a606da2672cf3072560ec1f045adb23b5ac77fab23a.png",
+    "imageAlt": "Discord depiction of Sheeva Dragonsister",
+    "imageCaption": "Sheeva Dragonsister",
+    "imageLayout": "portrait-hero"
+  },
+  "tarwen-silver-star": {
+    "image": "assets/characters/discord/80fde22afa2248289525c20b98aa36463cab3c7b532c062b6c07acf1480fab38.png",
+    "imageAlt": "Discord depiction of Tarwen of the Silver Star",
+    "imageCaption": "Tarwen of the Silver Star",
+    "imageLayout": "portrait-hero"
+  },
+  "ada-town-chronicler": {
+    "image": "assets/characters/discord/6c07c94f146f65893e2b072ac65bd13d02ff660d31f0c6657e002fe7ab5142ac.png",
+    "imageAlt": "Discord depiction of Ada",
+    "imageCaption": "Ada",
+    "imageLayout": "portrait-hero"
+  }
+});

@@ -205,3 +205,37 @@ window.FENUMION_MEDIA.characters['Eldin Stormheart'] = {
   imageAlt: 'Eldin with long blond hair, a beard and a dark fur-lined cloak',
   imageCaption: 'Eldin Stormheart'
 };
+
+// User-supplied Aerrow, Alessio, Alioth and Animak portraits, 11 October 2026.
+const aerrowPortrait = {
+  image: 'assets/characters/aerrow.webp',
+  imageAlt: 'Aerrow with long pale hair, a dark cloak and a large sword',
+  imageCaption: 'Aerrow'
+};
+window.FENUMION_MEDIA.characters.Aerrow = aerrowPortrait;
+window.FENUMION_MEDIA.articles.aerrow = aerrowPortrait;
+window.FENUMION_MEDIA.characters.Alessio = {
+  image: 'assets/characters/alessio.png',
+  imageAlt: 'Alessio with pink hair, green eyes and dark ornamental jewelry',
+  imageCaption: 'Alessio'
+};
+window.FENUMION_MEDIA.characters.Alioth = {
+  image: 'assets/characters/alioth.jpg',
+  imageAlt: 'Alioth with dark hair, blue armor and blue gemstone jewelry',
+  imageCaption: 'Alioth'
+};
+window.FENUMION_MEDIA.articles['casimir-alioth'] = {
+  gallery: [{
+    image: 'assets/characters/alioth.jpg',
+    title: 'Alioth',
+    alt: 'Alioth with dark hair, blue armor and blue gemstone jewelry',
+    caption: 'Alioth'
+  }]
+};
+const animakPortrait = {
+  image: 'assets/characters/animak.jpg',
+  imageAlt: 'Animak, a cloaked figure carrying a glowing lantern near a distant lighthouse',
+  imageCaption: 'Animak'
+};
+window.FENUMION_MEDIA.characters.Animak = animakPortrait;
+window.FENUMION_MEDIA.articles.animak = animakPortrait;

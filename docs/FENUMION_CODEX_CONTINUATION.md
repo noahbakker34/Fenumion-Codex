@@ -540,3 +540,8 @@ Added the user-supplied PNG portraits unchanged to the central media registry. S
 ## 11 October 2026 — Hildethrax, Erebus and Eldin portraits
 
 Added the user-identified portraits unchanged to the central media registry: `Hilde.webp` for Captain Hildethrax, `Erebus.jpeg` for Erebus Duskforge and `Eldin2.png` for Eldin Stormheart. Existing directory entries and expanded profiles receive their portraits; Hildethrax’s public article uses the same image. No character biography or hidden lore is inferred from the artwork. Checked image loading and responsive display before publishing under the standing authorization.
+
+
+## 11 October 2026 — Aerrow, Alessio, Alioth and Animak portraits
+
+Added four supplied images unchanged, mapped to their existing character entries. Aerrow and Animak’s dedicated articles use their portraits; Alioth’s portrait is individually labeled in the shared Casimir & Alioth article gallery. Alessio’s portrait appears in the character directory and expanded profile. Artwork does not change biography, species or relationships. Checked image loading, identity mapping and mobile profiles before publishing under standing authorization.

@@ -521,3 +521,7 @@ Removed the World Index’s large “New to Fenumion?” banner so the main brow
 ## 10 October 2026 · Ale-Chemy institutional-history merge
 
 Integrated the supplied merge guide into the existing Knights history: distinct Ciderwood, Tobias, Ryvyting, supply, bookkeeping, spell-access and closure phases; role groupings; economic loop; chronology and institutional legacy. Retained later confession, civic-power, market and disappearance evidence. Updated linked character histories and compact location links. Ryvyt remains shop owner/operator, Pappy’s financial/property claims stay attributed, Tobias’s founder description stays unconfirmed, and Forevermoore stays minor. App version 202, civic records 4, stylesheet 160.
+
+## 10 October 2026 · Player Perspectives reference
+
+Created a separate Guide reference at `player-perspectives` from all 261 Story Notes index rows, with search, year/region/form filters, sorting and pagination. Dates and display names stay attributed; source forms/topics are retrieval labels; 19 external pointers are marked incomplete. Full notes and unseen attachments were not invented, and no claims were merged into existing lore. See `docs/PLAYER_PERSPECTIVES_REFERENCE.md`. App version 203; stylesheet 161; two new reference scripts version 1.

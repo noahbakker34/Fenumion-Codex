@@ -14142,6 +14142,26 @@ const publicTimelineCount = archiveIndex.timeline.filter(item =>
 const livingTimelineArticle = articles.find(article => article.id === "living-timeline");
 if (livingTimelineArticle?.facts) livingTimelineArticle.facts.Events = `${publicTimelineCount} recovered entries`;
 
+// A separate reference for attributed player notes; no source claims merged into lore.
+articles.push({
+  "id": "player-perspectives",
+  "title": "Player Perspectives",
+  "category": "Archive",
+  "type": "Story Notes reference",
+  "dek": "Journals, recollections, research and public arguments: what people recorded, believed and remembered about Fenumion.",
+  "tags": [
+    "Player perspectives",
+    "Story Notes",
+    "Journals",
+    "Testimony",
+    "Fenumion"
+  ],
+  "facts": {},
+  "sources": [],
+  "body": "<p>These notes preserve how Fenumion looked to the people writing about it. Witnesses, journal writers and later commentators can disagree, misunderstand an event or revise their views. Their accounts belong alongside the wider history without becoming an omniscient version of it.</p>\n<div class=\"perspective-intro\"><strong>261 indexed posts</strong><span>28 January 2024 – 5 October 2026 · Discord #story-notes</span></div>\n<div class=\"perspective-reading-key\"><p><strong>Posted is not happened.</strong> Dates below identify when a note was posted, not necessarily when its events occurred.</p><p><strong>An excerpt is not the whole note.</strong> These are the supplied index’s short locators. Open the Discord message for its full context; some linked or attached material is not included.</p><p><strong>Keep the writer’s perspective.</strong> Author names are preserved as supplied display names, not independently confirmed character identities. Source forms and topic labels are retrieval aids, not canon classifications.</p></div>\n<h2 id=\"browse-player-perspectives\">Browse the notes</h2>\n<div class=\"perspective-browser\" data-player-perspectives>\n<div class=\"perspective-filters\"><label class=\"perspective-search\">Search notes<input type=\"search\" data-notes-query placeholder=\"Author, topic or words in an excerpt…\"></label><label>Posting year<select data-notes-year><option value=\"\">All years</option></select></label><label>Region label<select data-notes-region><option value=\"\">All regions</option></select></label><label>Source form<select data-notes-form><option value=\"\">All forms</option></select></label><label>Order<select data-notes-sort><option value=\"newest\">Newest posted first</option><option value=\"oldest\">Oldest posted first</option></select></label><button type=\"button\" data-notes-clear>Clear filters</button></div>\n<p class=\"perspective-count\" data-notes-count role=\"status\" aria-live=\"polite\"></p>\n<div class=\"perspective-results\" data-notes-results tabindex=\"-1\" aria-label=\"Matching Story Notes entries\"></div>\n<nav class=\"perspective-pagination\" aria-label=\"Story Notes result pages\"><button type=\"button\" data-notes-previous>← Previous</button><span data-notes-page></span><button type=\"button\" data-notes-next>Next →</button></nav>\n<noscript>This reference needs JavaScript to browse the supplied index.</noscript></div>\n<h2 id=\"perspectives-and-history\">Read alongside the history</h2><p>Compare a writer’s account with the <a href=\"#living-timeline\">timeline</a>, <a href=\"#people-directory\">character histories</a> and <a href=\"#factions\">faction records</a>. A contemporary impression and a later recollection can both matter without saying the same thing. Early references to “the Vanguard of Prima Isle” are preserved as the writers’ wording; the index does not establish their relationship to later formations called vanguards.</p>"
+});
+fixedArticlePaths.set("player-perspectives",["Guide","Player Perspectives"]);
+navigationRegions.find(region=>region.title==='Guide').branches[0].items.push({label:'Player Perspectives',article:'player-perspectives'});
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
@@ -16184,6 +16204,7 @@ function renderArticle(route, pushHash = true) {
   document.body.classList.toggle("ethos-view", article.id === "ethos-of-fenumion");
   document.body.classList.toggle("starter-view", article.id === "start-here");
   document.body.classList.toggle("blessings-view", article.tags.includes("Blessings"));
+  document.body.classList.toggle("player-perspectives-view", article.id === "player-perspectives");
   const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : ""}`;
   if (requestedId !== id && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
@@ -16289,13 +16310,14 @@ function renderArticle(route, pushHash = true) {
   const hasConnections=visualConnections.length>0;
   if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
   const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
-  window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:Boolean(hubPage) && article.id!=='ethos-of-fenumion', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:(Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
   if (article.id === "world-index") {
     setupWorldBrowser();
     setupFeaturedContent();
   }
   if (article.id === "people-directory") setupPeopleGallery();
   if (article.id === "factions") setupFactionDirectory();
+  if (article.id === "player-perspectives") window.setupPlayerPerspectives?.(articleContent);
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
   if (article.id === "living-timeline") setupTimelineExplorer();
   setupRelationshipMap(article);

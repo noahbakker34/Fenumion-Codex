@@ -151,3 +151,5 @@ This is a working manifest of the major primary, synthesis, and profile records 
 | Ale-Chemy Knights master-history merge guide | Supplied 10 Oct 2026 | Editorial synthesis / merge proposal | User-supplied; underlying primary quotations not independently reverified | Knights, Ciderwood, Ryvyting, allied people, public works, Gael | Preserves earlier canon and ownership rulings; no new primary verification claimed | `docs/ALE_CHEMY_KNIGHTS_HISTORY.md`; existing faction and supporting articles |
 
 Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616bb82069`.
+
+| Story Notes player-perspective index | Supplied 10 Oct 2026 | Source synthesis and 261-entry locator index | Supplied author/display names; form and topic classifications inferred by source | 2024–2026 testimony, journals, research and public argument | Posting dates are not event dates; excerpts are not full notes; 19 incomplete external pointers | Separate `player-perspectives` reference; `docs/PLAYER_PERSPECTIVES_REFERENCE.md` |

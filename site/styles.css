@@ -2546,3 +2546,48 @@ body.narrative-history-view .article-body { padding: clamp(1rem,3vw,2rem); backg
 .blessing-back { font-size: .9rem; }
 @media(max-width:1200px) { .blessing-path-directory { grid-template-columns: repeat(2,minmax(0,1fr)); } .blessing-theme-grid { grid-template-columns: minmax(0,1fr); } }
 @media(max-width:600px) { .blessing-path-directory { grid-template-columns: minmax(0,1fr); } .blessing-cost-guide { gap: .4rem; flex-wrap: wrap; } .blessing-cost-guide > div { padding: .4rem .6rem; gap: .4rem; } .blessing-path-intro, .blessing-reading-guide { padding: 1rem; } }
+
+/* Player-authored Story Notes reference. */
+body.codex-world.player-perspectives-view:not(.home-view) .article-rail { display: none; }
+body.codex-world.player-perspectives-view:not(.home-view) .app-shell { grid-template-columns: 232px minmax(0,1fr); }
+body.codex-world.player-perspectives-view:not(.home-view) .record-overview { display: block; }
+body.codex-world.player-perspectives-view:not(.home-view) .record-visual-rail { display: none; }
+body.codex-world.player-perspectives-view:not(.home-view) .record-overview-copy { min-width: 0; }
+body.codex-world.player-perspectives-view:not(.home-view) .article-body { font-family: var(--text); }
+.perspective-intro { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; margin: 0 0 1.25rem; color: var(--gold-bright); }
+.perspective-intro strong { font-size: 1.4rem; }
+.perspective-intro span { color: var(--muted); }
+.perspective-reading-key { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; padding: 1rem; border: 1px solid var(--line); border-radius: 8px; background: rgba(217,185,95,.05); }
+.perspective-reading-key p { margin: 0; font-size: 1rem; line-height: 1.6; }
+.perspective-reading-key strong { display: block; color: var(--gold-bright); margin-bottom: .35rem; }
+.perspective-filters { display: flex; flex-wrap: wrap; align-items: end; gap: .75rem; margin: 1rem 0; }
+.perspective-filters label { display: grid; gap: .4rem; flex: 1 1 150px; font-size: 1rem; }
+.perspective-filters .perspective-search { flex: 2 1 100%; }
+.perspective-filters :is(input,select,button), .perspective-pagination button { min-height: 44px; padding: .65rem .8rem; border: 1px solid var(--line); border-radius: 6px; color: var(--ink); background: #191c25; font: 1rem/1.4 var(--text); min-width: 0; width: 100%; }
+.perspective-filters button { width: auto; cursor: pointer; }
+.perspective-count { color: var(--muted); font-size: 1rem; }
+.perspective-results { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; scroll-margin-top: 100px; }
+.perspective-card { min-width: 0; display: flex; flex-direction: column; padding: 1.25rem; border: 1px solid var(--line); border-radius: 8px; background: #1b1d24; overflow-wrap: anywhere; }
+.perspective-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1rem; color: var(--muted); font: .85rem/1.5 var(--text); }
+.perspective-card h3 { margin: .8rem 0; color: var(--gold-bright); font: 1.35rem/1.4 var(--text); }
+.perspective-card .perspective-excerpt-label { margin: 0 0 .25rem; color: var(--faint); font: .8rem/1.5 var(--text); }
+.perspective-card .perspective-excerpt { margin: 0 0 1rem; font: 1.05rem/1.65 var(--text); }
+.perspective-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin: auto 0 1rem; }
+.perspective-tags span { padding: .2rem .5rem; border: 1px solid var(--line-soft); border-radius: 5px; color: var(--muted); font: .8rem/1.5 var(--text); }
+.perspective-card .perspective-incomplete { color: var(--gold-bright); font: .9rem/1.5 var(--text); margin: 0 0 .8rem; }
+.perspective-source { display: inline-block; padding-block: .4rem; color: var(--gold-bright); font: 1rem/1.5 var(--text); }
+.perspective-pagination { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; font: 1rem/1.5 var(--text); }
+.perspective-pagination button { width: auto; cursor: pointer; }
+.perspective-pagination button:disabled { opacity: .45; cursor: default; }
+.perspective-empty { grid-column: 1/-1; }
+.perspective-browser :is(input,select,button,a):focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
+@media (max-width: 1100px) {
+  body.codex-world.player-perspectives-view:not(.home-view) .app-shell { grid-template-columns: minmax(0,1fr); }
+  .perspective-reading-key { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .perspective-results { grid-template-columns: 1fr; }
+  .perspective-card { padding: 1rem; }
+  .perspective-filters label { flex-basis: 100%; }
+  .perspective-pagination { gap: .5rem; }
+}

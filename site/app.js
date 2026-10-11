@@ -16335,7 +16335,12 @@ function renderArticle(route, pushHash = true) {
       <div class="people-gallery-filters" id="people-gallery-filters" role="toolbar" aria-label="Filter people by character type"></div>
       <div class="people-kind-banner" id="people-kind-banner"></div>
       <p class="browser-summary" id="people-gallery-count" role="status" aria-live="polite"></p>
-      <div class="browser-grid people-gallery" id="people-gallery"></div>
+      <div class="browser-grid people-gallery" id="people-gallery" tabindex="-1" aria-label="Character results"></div>
+      <nav class="people-pagination" aria-label="Character result pages" hidden>
+        <button type="button" data-people-previous>← Previous</button>
+        <span data-people-page></span>
+        <button type="button" data-people-next>Next →</button>
+      </nav>
     </section>` : "";
   const quotesBackdrop = article.id === "memorable-quotes" ? `
     <div class="quotes-water-backdrop" aria-hidden="true">
@@ -16431,6 +16436,18 @@ function setupPeopleGallery() {
     ...archiveIndex.npcs.map(person => ({ ...person, personKind: "npc", personLabel: "NPC" }))
   ]
     .sort((left, right) => left.title.localeCompare(right.title));
+  // Normalize the searchable text once, rather than once per character per keystroke.
+  const searchText = new Map(people.map(person => [person,
+    (!isPlayerSafeArticle(person.article) ? "protected veiled record" : `${person.title} ${(person.aliases || []).join(" ")} ${person.meta} ${person.summary}`).toLocaleLowerCase()
+  ]));
+  const pageSize = 24;
+  const pagination = gallery.parentElement.querySelector(".people-pagination");
+  const previous = pagination.querySelector("[data-people-previous]");
+  const next = pagination.querySelector("[data-people-next]");
+  const pageLabel = pagination.querySelector("[data-people-page]");
+  let page = 0;
+  let searchTimer;
+  let bannerKind;
   let activeKind = "all";
 
   const kindOptions = [
@@ -16445,17 +16462,30 @@ function setupPeopleGallery() {
     const query = queryInput.value.trim().toLocaleLowerCase();
     const scopedPeople = activeKind === "all" ? people : people.filter(person => person.personKind === activeKind);
     const matches = query
-      ? scopedPeople.filter(person => (!isPlayerSafeArticle(person.article) ? "protected veiled record" : `${person.title} ${(person.aliases || []).join(" ")} ${person.meta} ${person.summary}`).toLocaleLowerCase().includes(query))
+      ? scopedPeople.filter(person => searchText.get(person).includes(query))
       : scopedPeople;
     const scopeLabel = activeKind === "player" ? "player characters" : activeKind === "npc" ? "NPC records" : "people records";
-    kindBanner.innerHTML = activeKind === "npc" ? `<figure class="people-kind-banner-frame"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"><source src="assets/archive/aria-npc-banner.mp4" type="video/mp4"></video><figcaption>NPC archive · Aria / Pride, Knight II of Death.</figcaption></figure>` : "";
-    count.innerHTML = `<strong>${matches.length}</strong> of ${scopedPeople.length} ${scopeLabel}${query ? ` matching “${escapeHtml(queryInput.value.trim())}”` : ""}`;
-    gallery.innerHTML = matches.length ? matches.map(person => {
+    if (bannerKind !== activeKind) {
+      kindBanner.querySelectorAll("video").forEach(video => video.pause());
+      kindBanner.innerHTML = activeKind === "npc" ? `<figure class="people-kind-banner-frame"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" aria-hidden="true" tabindex="-1"><source src="assets/archive/aria-npc-banner.mp4" type="video/mp4"></video><figcaption>NPC archive · Aria / Pride, Knight II of Death.</figcaption></figure>` : "";
+      bannerKind = activeKind;
+    }
+    const pages = Math.max(1, Math.ceil(matches.length / pageSize));
+    page = Math.min(page, pages - 1);
+    const start = page * pageSize;
+    const visiblePeople = matches.slice(start, start + pageSize);
+    count.innerHTML = `<strong>${matches.length}</strong> of ${scopedPeople.length} ${scopeLabel}${query ? ` matching “${escapeHtml(queryInput.value.trim())}”` : ""}${matches.length ? ` · Showing ${start + 1}–${start + visiblePeople.length}` : ""}`;
+    pagination.hidden = pages === 1;
+    previous.disabled = page === 0;
+    next.disabled = page === pages - 1;
+    pageLabel.textContent = `Page ${page + 1} of ${pages}`;
+    gallery.querySelectorAll("video").forEach(video => video.pause());
+    gallery.innerHTML = matches.length ? visiblePeople.map(person => {
       const protectedRecord = !isPlayerSafeArticle(person.article);
       const media = person.image
-        ? `<img src="${person.image}" alt="" loading="lazy">`
+        ? `<img src="${escapeHtml(person.image)}" alt="" loading="lazy" decoding="async">`
         : person.video
-          ? `<video class="ambient-video" data-ambient-video src="${person.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>`
+          ? `<video class="ambient-video" data-ambient-video src="${escapeHtml(person.video)}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" aria-hidden="true" tabindex="-1"></video>`
           : `<span class="index-glyph" aria-hidden="true">✦</span>`;
       return `<button class="index-card character-card ${person.personKind}-record${protectedRecord ? " locked-record" : ""}" data-article="${person.article}"${protectedRecord ? "" : ` data-character-title="${escapeHtml(person.title)}"`} aria-label="${protectedRecordAria(`${person.personLabel}: ${person.title}`, protectedRecord)}">
         ${media}
@@ -16465,10 +16495,28 @@ function setupPeopleGallery() {
     setupAmbientVideos(kindBanner.closest(".people-gallery-shell"));
   };
 
-  queryInput.addEventListener("input", render);
+  queryInput.addEventListener("input", () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      if (!gallery.isConnected) return;
+      page = 0;
+      render();
+    }, 100);
+  });
+  pagination.addEventListener("click", event => {
+    const button = event.target.closest("button");
+    if (!button || button.disabled) return;
+    clearTimeout(searchTimer);
+    page += button === next ? 1 : -1;
+    render();
+    gallery.focus({ preventScroll: true });
+    gallery.scrollIntoView({ block: "start" });
+  });
   filters.addEventListener("click", event => {
     const filter = event.target.closest("[data-people-kind]");
     if (!filter) return;
+    clearTimeout(searchTimer);
+    page = 0;
     activeKind = filter.dataset.peopleKind;
     filters.querySelectorAll("[data-people-kind]").forEach(button => {
       const active = button.dataset.peopleKind === activeKind;

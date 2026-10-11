@@ -550,3 +550,7 @@ Added four supplied images unchanged, mapped to their existing character entries
 ## 11 October 2026 — Bari, Dez, Dorian Ashwood and Eli Voss portraits
 
 Added the four user-supplied portraits unchanged to existing character entries and expanded profiles. Dorian Ashwood’s dedicated article uses the same portrait; Eli maps to the existing Elysian ‘Eli’ Voss record. No duplicate characters or new biography are introduced. Checked image loading and desktop/mobile display before publishing under standing authorization. Media version 131.
+
+## 11 October 2026 — Character directory responsiveness
+
+Bounded the visual directory to 24 cards per page instead of mounting all 144 records at once. Search still covers the complete directory, uses precomputed searchable text, and waits 100 ms to combine rapid keystrokes. Search and type changes reset to the first page. NPC searches preserve the existing banner video; removed card videos are paused, video metadata is not prefetched, and portraits decode asynchronously. Pagination has accessible labels and focus handling. Validated all 144 records across six pages, off-page search/profile opening, empty results, NPC filtering/banner identity, single-update rapid typing, mobile navigation/overflow and absence of JavaScript errors. App version 206, stylesheet 163. Published under the standing user authorization.

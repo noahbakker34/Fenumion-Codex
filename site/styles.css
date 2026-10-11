@@ -2606,3 +2606,12 @@ body.codex-world.player-perspectives-view:not(.home-view) .article-body { font-f
 }
 .history-table .contents-link:hover { color: var(--ink); }
 .history-table .contents-link:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+
+/* Keep character browsing bounded and page navigation usable on narrow screens. */
+.people-pagination { display: flex; align-items: center; justify-content: space-between; gap: .75rem; margin-top: 1rem; font: .85rem/1.4 var(--sans); }
+.people-pagination[hidden] { display: none; }
+.people-pagination button { min-height: 44px; padding: .6rem .8rem; color: var(--gold-bright); background: #202129; border: 1px solid #4a4b50; border-radius: 6px; cursor: pointer; }
+.people-pagination button:disabled { opacity: .45; cursor: default; }
+.people-pagination button:focus-visible, .people-gallery:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.people-pagination span { text-align: center; }
+.people-gallery { scroll-margin-top: 6rem; }

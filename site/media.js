@@ -394,3 +394,8 @@ window.FENUMION_MEDIA.characters["Paco"] = {"image": "assets/characters/paco.jpg
 window.FENUMION_MEDIA.characters["Papirak the Strange"] = {"image": "assets/characters/papirak.jpg", "imageAlt": "Papirak with long pale hair and a beard, holding a glowing blue orb", "imageCaption": "Papirak the Strange"};
 window.FENUMION_MEDIA.articles.papirak = {"image": "assets/characters/papirak.jpg", "imageAlt": "Papirak with long pale hair and a beard, holding a glowing blue orb", "imageCaption": "Papirak the Strange", "imageLayout": "portrait-hero"};
 window.FENUMION_MEDIA.characters["Paw"] = {"image": "assets/characters/paw.jpg", "imageAlt": "Paw as a dark bear with glowing red eyes in a forest", "imageCaption": "Paw"};
+
+// Quille and Poe portraits identified by the user.
+window.FENUMION_MEDIA.characters["Quille"] = {"image": "assets/characters/quille.jpg", "imageAlt": "Quille with braided dark hair, pointed ears, beads and a pale shawl", "imageCaption": "Quille"};
+window.FENUMION_MEDIA.articles.quille = {"image": "assets/characters/quille.jpg", "imageAlt": "Quille with braided dark hair, pointed ears, beads and a pale shawl", "imageCaption": "Quille", "imageLayout": "portrait-hero"};
+window.FENUMION_MEDIA.characters["Poe"] = {"image": "assets/characters/poe.jpg", "imageAlt": "Poe with dark hair and round glasses, writing with a luminous feather quill", "imageCaption": "Poe"};

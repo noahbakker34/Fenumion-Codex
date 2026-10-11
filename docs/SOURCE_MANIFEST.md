@@ -209,3 +209,9 @@ Original SHA-256: `d24addc677981a0438d5a2906d53a496eee02bb7962771351f9cabfbb142f
 - `Paw.png`: SHA-256 `224039d6bef543a85e4698c8722079b2a6a2db80086853cb708adceb0a1dc343`.
 
 User correction: “Pell is Pelegia.” The prior Pelagia catalogue entry and Pell dossier profile now share one Pelegia identity with both previous spellings searchable; existing scene wording and citations remain.
+
+
+| Quille and Poe portraits | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing Quille and Poe profiles and island NPC listings | Visual identity only; no inferred lore | Central media registry and character assets |
+
+- `Quille.png`: SHA-256 `0434b6f27e9e63af231a8b9fc475eaf7ba467e8590cb4f46867960ae4cb62e1c`.
+- `Poe.png`: SHA-256 `4a62b61c731ca9d1bc45fa7a2051dec6f9be25459ab4a76d4cad7edc7a73bf0b`.

@@ -643,3 +643,9 @@ Chrome verified all four searched cards and loaded profile portraits, the Oliean
 
 Papirak and Paw portraits optimized to 960px JPEGs and attached to their existing profiles, with Papirak’s dossier and Prima NPC listing sharing his portrait. User confirms Pell is Pelegia: merged the Pell and prior Pelagia directory entries, preserving both profiles’ history, Pell’s existing portrait and Seeker article link. Both older names remain search aliases; the Seeker article explains the naming. Media 142, app 213. Original image checksums in `docs/SOURCE_MANIFEST.md`.
 Chrome verified both new portraits, Papirak’s dossier and Prima listing, all three Pelegia search names resolving to one card, combined burial and tower history, the Seeker naming note and mobile sizing without JavaScript errors. App syntax and diff checks passed.
+
+
+## Quille and Poe portraits · 11 October 2026
+
+Supplied portraits optimized to 960px JPEGs and attached to existing profiles through media version 143. Quille’s dossier and Babel-Ashur NPC listing use the portrait; Poe’s Prima NPC listing uses his profile portrait. Poe’s shared Papirak legacy article retains its existing media. Original checksums recorded in `docs/SOURCE_MANIFEST.md`. No new lore or duplicated characters.
+Chrome verified searched cards, loaded profile portraits, Quille’s dossier, both island NPC listings and mobile sizing without JavaScript errors. Media syntax and diff checks passed.

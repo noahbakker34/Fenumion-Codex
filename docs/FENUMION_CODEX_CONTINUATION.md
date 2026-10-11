@@ -564,3 +564,8 @@ Developed Djo’s existing directory record into a full public history with a ri
 ## 11 October 2026 — Curated memorable quotations
 
 Reduced the accumulated memorable gallery from 147 to 36 deliberate selections, retaining distinctive character lines and consequential history. Added short context notes and seven themes. One reviewed catalogue supplies gallery, character collections, search and featured rotation; new dossier imports no longer automatically expand the published quote selection. Existing source wording/attribution and historical prose remain intact. See `docs/QUOTE_SELECTION.md`. App 208, stylesheet 164, quote selection 1. Validated before publication under standing authorization.
+
+
+## 11 October 2026 — Gudlaug, Goo, Fulmin and Empty portraits
+
+Added the four supplied images unchanged to existing character-directory entries and expanded profiles. File names map the portraits to Gudlaug, Goo, Fulmin and Empty; Goo’s existing dedicated article uses the same image. No new biography, abilities or duplicate characters are inferred from the artwork. Verified loading and desktop/mobile display before publication under standing authorization. Media version 132.

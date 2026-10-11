@@ -263,3 +263,27 @@ window.FENUMION_MEDIA.characters['Elysian ‘Eli’ Voss'] = {
   imageAlt: 'Eli Voss wearing a green hood and carrying a sword in a town street',
   imageCaption: 'Elysian ‘Eli’ Voss'
 };
+
+// Gudlaug, Goo, Fulmin and Empty portraits identified by the user, 11 October 2026.
+window.FENUMION_MEDIA.characters.Gudlaug = {
+  image: 'assets/characters/gudlaug.jpeg',
+  imageAlt: 'Gudlaug in dark armor carrying a sword in a snowy landscape',
+  imageCaption: 'Gudlaug'
+};
+const gooPortrait = {
+  image: 'assets/characters/goo.jpeg',
+  imageAlt: 'Goo depicted as a blue translucent figure',
+  imageCaption: 'Goo'
+};
+window.FENUMION_MEDIA.characters.Goo = gooPortrait;
+window.FENUMION_MEDIA.articles.goo = gooPortrait;
+window.FENUMION_MEDIA.characters.Fulmin = {
+  image: 'assets/characters/fulmin.jpeg',
+  imageAlt: 'Fulmin in armor with blue lightning and a long weapon',
+  imageCaption: 'Fulmin'
+};
+window.FENUMION_MEDIA.characters.Empty = {
+  image: 'assets/characters/empty.jpg',
+  imageAlt: 'Empty with spiked dark hair and black and red clothing against a dark red background',
+  imageCaption: 'Empty'
+};

@@ -574,3 +574,8 @@ Added the four supplied images unchanged to existing character-directory entries
 ## 11 October 2026 — Hana, Jiangshi, Huoth and Icarus portraits
 
 Added the four supplied images unchanged to their existing directory entries, expanded profiles and dedicated articles. Huoth maps to the existing “Huoth, Emissary of Nuru” identity. Artwork supplies portraits only: Hana’s nature and existing lore uncertainties remain unresolved, with no biography or abilities inferred from appearance. Checked image loading and desktop/mobile display before publishing under standing authorization. Media version 133.
+
+
+## 11 October 2026 — Kaiya, Karnak, Kasiri and Kazhinju portraits
+
+Added the four supplied portraits unchanged to existing directory entries and expanded profiles. Kaiya maps to Kaiya Dragonsister, Kasiri to Kasiri Ruza, and Kaz.jpg to Kazhinju. Kaiya and Kazhinju’s dedicated articles use their portraits. Karnak’s JFIF is an ordinary JPEG copied unchanged with a .jpg extension. No new identity, biography or abilities are inferred from artwork. Verified loading and desktop/mobile display before publication under standing authorization. Media version 134.

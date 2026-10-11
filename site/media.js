@@ -317,3 +317,29 @@ const icarusPortrait = {
 };
 window.FENUMION_MEDIA.characters.Icarus = icarusPortrait;
 window.FENUMION_MEDIA.articles.icarus = icarusPortrait;
+
+// Kaiya, Karnak, Kasiri and Kazhinju portraits identified by the user, 11 October 2026.
+const kaiyaPortrait = {
+  image: 'assets/characters/kaiya.png',
+  imageAlt: 'Kaiya with pale hair wearing dark armor and a pointed mask with blue glowing eyes',
+  imageCaption: 'Kaiya Dragonsister'
+};
+window.FENUMION_MEDIA.characters['Kaiya Dragonsister'] = kaiyaPortrait;
+window.FENUMION_MEDIA.articles['kaiya-dragonsister'] = kaiyaPortrait;
+window.FENUMION_MEDIA.characters.Karnak = {
+  image: 'assets/characters/karnak.jpg',
+  imageAlt: 'Karnak surrounded by golden light, carrying a large golden weapon',
+  imageCaption: 'Karnak'
+};
+window.FENUMION_MEDIA.characters['Kasiri Ruza'] = {
+  image: 'assets/characters/kasiri-ruza.png',
+  imageAlt: 'Kasiri with silver hair, freckles and layered armor',
+  imageCaption: 'Kasiri Ruza'
+};
+const kazhinjuPortrait = {
+  image: 'assets/characters/kazhinju.jpg',
+  imageAlt: 'Kazhinju with long gray hair, a tooth-adorned headband and a carved wooden staff',
+  imageCaption: 'Kazhinju'
+};
+window.FENUMION_MEDIA.characters.Kazhinju = kazhinjuPortrait;
+window.FENUMION_MEDIA.articles.kazhinju = kazhinjuPortrait;

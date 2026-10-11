@@ -554,3 +554,8 @@ Added the four user-supplied portraits unchanged to existing character entries a
 ## 11 October 2026 — Character directory responsiveness
 
 Bounded the visual directory to 24 cards per page instead of mounting all 144 records at once. Search still covers the complete directory, uses precomputed searchable text, and waits 100 ms to combine rapid keystrokes. Search and type changes reset to the first page. NPC searches preserve the existing banner video; removed card videos are paused, video metadata is not prefetched, and portraits decode asynchronously. Pagination has accessible labels and focus handling. Validated all 144 records across six pages, off-page search/profile opening, empty results, NPC filtering/banner identity, single-update rapid typing, mobile navigation/overflow and absence of JavaScript errors. App version 206, stylesheet 163. Published under the standing user authorization.
+
+
+## 11 October 2026 — Djöhandrai character history
+
+Developed Djo’s existing directory record into a full public history with a richer expanded profile, preserved portrait and direct Djo aliases. Checked the supplied deep dive against the original quest scenes and full Story Notes: separation, comic fear, treatment of the wounded, Sister, Saoirse, food and Ahau observations. Interpretation is labeled; parents’ circumstances, Sister’s identity and Ada’s role remain unresolved. Existing cave participation and non-Seeker status stay intact. See `docs/DJOHANDRAI_HISTORY.md` for 23 source anchors and validation. Published under standing authorization. App version 207, Djo record version 1.

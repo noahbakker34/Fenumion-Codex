@@ -14235,8 +14235,21 @@ articles.push({
 });
 fixedArticlePaths.set("player-perspectives",["Guide","Player Perspectives"]);
 navigationRegions.find(region=>region.title==='Guide').branches[0].items.push({label:'Player Perspectives',article:'player-perspectives'});
+// Develop the existing Djo directory entry without adding a duplicate character.
+const djoDossier = window.FENUMION_DJO_RECORD;
+if (djoDossier) {
+  const record = djoDossier.article;
+  articles.push(record);
+  const person = archiveIndex.characters.find(item => item.title === 'Djöhandrai');
+  Object.assign(person, { article: record.id, meta: 'Feline adventurer · courage while afraid', summary: record.dek, aliases: ['Djo', 'Djohandrai'] });
+  legacyCharacterProfiles['Djöhandrai'] = djoDossier.profile;
+  fixedArticlePaths.set(record.id, ['Characters', record.title]);
+  navigationRegions.find(item => item.title === 'Characters').branches.find(item => item.title === 'Characters A–J').items.push({ label: record.title, article: record.id });
+  subchannelMap[record.id] = ['gate-clearing', 'old-earth-hills', 'cave-company', 'quest-continuation', 'player-perspectives'].map(id => articles.find(item => item.id === id)).filter(Boolean).map(item => ({ label: item.title, article: item.id, summary: item.dek }));
+  subchannelMap['cave-company'].push({ label: record.title, article: record.id, summary: record.dek });
+}
 const byId = new Map(articles.map(article => [article.id, article]));
-const routeAliases = new Map([["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
+const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
   ["swiftfoot", "swift-foot"],
   ["swift-the-martyr", "swift-foot"],

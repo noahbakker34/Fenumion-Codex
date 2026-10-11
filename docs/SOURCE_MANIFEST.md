@@ -193,3 +193,11 @@ Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616b
 | Navi portrait (`navi.png`) | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing Navi directory and profile | Visual identity only; no inferred lore | `site/assets/characters/navi.jpg`; media registry |
 
 Original SHA-256: `d24addc677981a0438d5a2906d53a496eee02bb7962771351f9cabfbb142f701`.
+
+
+| Paco, Oleander, Omari and Oya portraits | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing character profiles and Omari dossier | Visual identity only; Olieander retained as alias of existing Oleander | Central media registry and character assets |
+
+- `Olieander.png` (Oleander): SHA-256 `91c3fb714ca53ae7e89b38f0f0236ea4c7bfb032a0bf00fbe52a564383e2d766`.
+- `Omari.png` (Omari): SHA-256 `33b3eafacf2b830d4ba261ffb61c76488e4847f57fef0a60102e83d50f01f4c6`.
+- `Oya.jpg` (Oya): SHA-256 `979b6fc8af97938923ee5c2f9d241e7d47744fb7fc84cacad77a69eb2f3f2b81`.
+- `Paco.jpg` (Paco): SHA-256 `58e7c6a5b20b3649ac2426692fdab06ff7fe98eb2500ce00510e28ae53eca736`.

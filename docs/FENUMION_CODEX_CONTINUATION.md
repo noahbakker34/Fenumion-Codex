@@ -631,3 +631,9 @@ Supplied artwork resolves to Moira Eshdin, Neemah and Nerias through media versi
 ## Navi portrait · 11 October 2026
 
 Supplied Navi portrait added to her existing directory/profile through media version 140. PNG optimized as a 960px JPEG; original checksum in `docs/SOURCE_MANIFEST.md`. Chrome verified the searched card, loaded profile portrait and mobile sizing without JavaScript errors. No duplicated identity or inferred lore.
+
+
+## Paco, Oleander, Omari and Oya portraits · 11 October 2026
+
+Supplied portraits attached to existing identities through media version 141. Olieander is a search alias for the existing Oleander record. Omari’s dossier and Babel-Ashur NPC directory reuse the portrait; Paco’s image applies to his own profile while Carmen retains her portrait. Larger images optimized as 960px JPEGs; Paco’s small original retained. Original checksums recorded in `docs/SOURCE_MANIFEST.md`. No new lore or duplicate identities.
+Chrome verified all four searched cards and loaded profile portraits, the Olieander alias, Omari’s dossier and Babel-Ashur listing, and mobile sizing without JavaScript errors. Media syntax and diff checks passed.

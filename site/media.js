@@ -287,3 +287,33 @@ window.FENUMION_MEDIA.characters.Empty = {
   imageAlt: 'Empty with spiked dark hair and black and red clothing against a dark red background',
   imageCaption: 'Empty'
 };
+
+// Hana, Jiangshi, Huoth and Icarus portraits identified by the user, 11 October 2026.
+const hanaPortrait = {
+  image: 'assets/characters/hana.png',
+  imageAlt: 'Hana with pale hair carrying a flower basket along a woodland path',
+  imageCaption: 'Hana'
+};
+window.FENUMION_MEDIA.characters.Hana = hanaPortrait;
+window.FENUMION_MEDIA.articles.hana = hanaPortrait;
+const jiangshiPortrait = {
+  image: 'assets/characters/jiangshi.jpeg',
+  imageAlt: 'Jiangshi in dark robes holding a decorated fan beneath pale blossoms',
+  imageCaption: 'Jiangshi'
+};
+window.FENUMION_MEDIA.characters.Jiangshi = jiangshiPortrait;
+window.FENUMION_MEDIA.articles.jiangshi = jiangshiPortrait;
+const huothPortrait = {
+  image: 'assets/characters/huoth.png',
+  imageAlt: 'Huoth in an ornate dark hood with luminous markings beneath his eyes',
+  imageCaption: 'Huoth'
+};
+window.FENUMION_MEDIA.characters['Huoth, Emissary of Nuru'] = huothPortrait;
+window.FENUMION_MEDIA.articles.huoth = huothPortrait;
+const icarusPortrait = {
+  image: 'assets/characters/icarus.jpeg',
+  imageAlt: 'Icarus as a robed rooster figure surrounded by chickens',
+  imageCaption: 'Icarus'
+};
+window.FENUMION_MEDIA.characters.Icarus = icarusPortrait;
+window.FENUMION_MEDIA.articles.icarus = icarusPortrait;

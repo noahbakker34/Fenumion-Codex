@@ -165,3 +165,11 @@ Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616b
 
 
 | Karnak von Runcandel, Kasiri Ruza and Nymera character deep dives | Supplied 11 Oct 2026 | User-supplied interpretive character dossiers | Underlying characters’ speech; dossier analysis not treated as primary narration | Conviction and protection; craft and civic debt; wall work and personal purpose | Selected primary verification, supplied-shop provenance retained, uncertainties preserved; no future arcs or private material published | `site/character-improvements.js`; `docs/CHARACTER_DEEP_DIVE_UPDATE.md` checksums and anchors |
+
+
+| Leo, Lichen, Loistava and Lucido portraits | Supplied 11 Oct 2026 | User-identified character artwork | Artist unstated | Existing character directory and profile records; Lucido resolves to Lucido Spettoro | Visual identity only, no inferred lore | Central media registry; character assets |
+
+- `Leo.jpg` (Leo): SHA-256 `ed92bf22d7e6480a811785bd98593d02d78aab971835321ea1d3b2c42b83aa1b`.
+- `Lichen.png` (Lichen): SHA-256 `763f399ca6d1049f4511d4f77914dd8cd1f38ebf346349dd8d14e11612b65d00`.
+- `Loistava.jpg` (Loistava): SHA-256 `14c5ea7a23ff32e3db6194d388cc0a69f48bcd5c137d71c3ef206591df3f936b`.
+- `Lucido.jpeg` (Lucido Spettoro): SHA-256 `16135f2b493f02c6941e3585bcd8decc019cd138c7a5a7b855083b87c7dff1e2`.

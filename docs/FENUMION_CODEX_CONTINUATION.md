@@ -611,3 +611,8 @@ Five primary channel exports and five companion analyses supplied: Alpine Forest
 - Primary scene checks clarify Karnak’s self-identified Hellion/protector role, conviction under Severina’s supervision, vigilance and protection of Camilla; Nymera’s wall labor, painful memories, questions about motives, old-axe attachment and scarred hands; and Kasiri’s civic testimony. The workshop account is explicitly a supplied synthesis with no message-level shop evidence, unnamed ownership and unresolved subsequent recovery. No shop duplicate or Knights ownership claim.
 - Two defining quotations added to the existing curated selection, with exact raw wording and posting-date provenance. No routine tactical quotes or new timeline events. No private oaths, altar discoveries, concealed history, invented diagnosis or future arc. Authenticated vault unchanged.
 - Evidence/checksums: `docs/CHARACTER_DEEP_DIVE_UPDATE.md`; 34 unique primary anchors verified. Chrome passed routes, profiles, prior-history retention, exact quotes, portraits, mobile sizing and directory-card interaction. App 212; media 136.
+
+
+## Leo, Lichen, Loistava and Lucido portraits · 11 October 2026
+
+Four supplied portraits now resolve through `site/media.js?v=137` to existing directory identities and profile dialogs. Lucido maps to Lucido Spettoro with a short-name alias; no duplicate person or inferred lore. Larger files optimized for display; original source checksums in `docs/SOURCE_MANIFEST.md`. Chrome verified all four searchable cards, portrait loads, profile dialogs and mobile sizing without JavaScript errors.

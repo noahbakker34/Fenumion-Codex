@@ -354,3 +354,9 @@ window.FENUMION_MEDIA.articles["krasteline"] = {"image": "assets/characters/kras
 
 window.FENUMION_MEDIA.articles.karnak = {...window.FENUMION_MEDIA.characters.Karnak, imageLayout:'portrait-hero'};
 window.FENUMION_MEDIA.articles['kasiri-ruza'] = {...window.FENUMION_MEDIA.characters['Kasiri Ruza'], imageLayout:'portrait-hero'};
+
+// Leo, Lichen, Loistava and Lucido portraits identified by the user.
+window.FENUMION_MEDIA.characters["Leo"] = {"image": "assets/characters/leo.jpg", "imageAlt": "Leo with silver hair and blue eyes, reading an open book amid blue lightning", "imageCaption": "Leo"};
+window.FENUMION_MEDIA.characters["Lichen"] = {"image": "assets/characters/lichen.jpg", "imageAlt": "Lichen with leaf-like hair, a pink flower and bright green butterflies", "imageCaption": "Lichen"};
+window.FENUMION_MEDIA.characters["Loistava"] = {"image": "assets/characters/loistava.jpg", "imageAlt": "Loistava with white hair, pointed ears and pale blue armor", "imageCaption": "Loistava"};
+window.FENUMION_MEDIA.characters["Lucido Spettoro"] = {"image": "assets/characters/lucido-spettoro.jpeg", "imageAlt": "Lucido Spettoro in a monochrome portrait with dark hair, a beard and a fur-lined collar", "imageCaption": "Lucido Spettoro", "aliases": ["Lucido"]};

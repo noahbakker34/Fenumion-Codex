@@ -14341,12 +14341,12 @@ if (djoDossier) {
 // Island browsing reuses NPC records rather than creating duplicate people.
 const npcIslandGroups = window.FENUMION_NPC_ISLANDS || [];
 if (npcIslandGroups.length) {
-  articles.push({id:'npc-islands',title:'NPCs by Island',category:'Archive',type:'NPC directory',dek:'Find local people, officials and surviving communities together by island.',tags:['NPCs','Islands','Directory'],facts:{Scope:'Documented homes and island connections'},sources:['Existing public NPC dossiers and location histories'],body:'<p>Browse NPCs by their documented home or island connection. The connection shown on each record explains why they appear here. A visit or a local role does not establish someone’s birthplace.</p>',npcIslandOverview:true});
+  articles.push({id:'npc-islands',title:'NPCs by Island',category:'Archive',type:'NPC directory',dek:'Find local people, officials and surviving communities together by island.',tags:['NPCs','Islands','Directory'],facts:{Scope:'NPCs'},sources:['Existing public NPC dossiers and location histories'],body:'<p>Browse NPCs by their documented home or island connection. The connection shown on each record explains why they appear here. A visit or a local role does not establish someone’s birthplace.</p>',npcIslandOverview:true});
   fixedArticlePaths.set('npc-islands',['Characters','NPCs by Island']);
   const items = [{label:'All islands',article:'npc-islands'}];
   for (const group of npcIslandGroups) {
     const id = 'npcs-'+group.id;
-    articles.push({id,title:group.title+' · NPCs',category:'Archive',type:'Island NPC directory',dek:group.article?'The documented NPC community of '+group.title+'.':'NPCs whose home island or local affiliation remains unresolved.',tags:['NPCs',group.title],facts:{Scope:'Public NPC records'},sources:['Existing public NPC dossiers and location histories'],body:'',npcIsland:group.id});
+    articles.push({id,title:group.title+' · NPCs',category:'Archive',type:'Island NPC directory',dek:group.article?'The documented NPC community of '+group.title+'.':'NPCs whose home island or local affiliation remains unresolved.',tags:['NPCs',group.title],facts:{Scope:'NPCs'},sources:['Existing public NPC dossiers and location histories'],body:'',npcIsland:group.id});
     fixedArticlePaths.set(id,['Characters','NPCs by Island',group.title]);
     items.push({label:group.title,article:id});
     if (group.article) {

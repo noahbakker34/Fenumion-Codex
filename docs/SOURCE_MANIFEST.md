@@ -154,3 +154,6 @@ This is a working manifest of the major primary, synthesis, and profile records 
 Merge-guide SHA-256: `0841c51ba7d344258ad57b688609b6b18e3b08385a4acbf36b6755616bb82069`.
 
 | Story Notes player-perspective index | Supplied 10 Oct 2026 | Source synthesis and 261-entry locator index | Supplied author/display names; form and topic classifications inferred by source | 2024–2026 testimony, journals, research and public argument | Posting dates are not event dates; excerpts are not full notes; 19 incomplete external pointers | Separate `player-perspectives` reference; `docs/PLAYER_PERSPECTIVES_REFERENCE.md` |
+
+
+| Prima RP: Alpine Forest, Archery Range, Pristinia Walls, The Before, Public Square | Supplied 11 Oct 2026; raw UTC posting ranges 1 Mar 2024–11 Oct 2026, varying by channel | Five primary channel exports (43,204 messages) and five companion analyses | Message-level displayed speakers and narrators; analyses are interpretive locators | Public location histories, civic work, training, character encounters and institutional change | Selected exchanges verified; no exhaustive certification, private disclosure or invented outcomes | `site/prima-rp-records.js`; inventory/checksums and primary anchors in `docs/PRIMA_RP_EVIDENCE.md` |

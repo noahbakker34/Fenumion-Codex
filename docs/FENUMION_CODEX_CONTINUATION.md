@@ -1,6 +1,6 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-10
+Last updated: 2026-10-11
 
 This is the first file to read before continuing work on the Fenumion Living Codex. It records the project's durable decisions, current implementation state, canon rules, supplied media, and remaining priorities so the full development conversation does not need to be replayed.
 
@@ -584,3 +584,14 @@ Added the four supplied portraits unchanged to existing directory entries and ex
 ## 11 October 2026 — Quest room branches
 
 Integrated 21 selected room scenes into 21 existing character, faction and location histories, with eleven expanded-profile updates and a linked Quest Room Branches reference. Primary-message anchors support repairs after the farmer rescue, Swift Foot investigation restraint, Rahu negotiations, refugee aid, Zarathian tours, ship/dock clues and later split-party encounters. Offers and testimony remain attributed; no additional quest titles or duplicate timeline events are invented. The source coverage is 50 accessible rooms / 4,949 messages, kept distinct from the original main-channel baseline. Existing Djo and Library evidence is not duplicated, and Jiangshi’s conflicting reunion chronology is not silently changed. Withheld material remains in the original source documents outside Git; the authenticated vault payload is unchanged. See `docs/QUEST_ROOM_EVIDENCE.md` for neutral dispositions and boundaries. App 209, quest thread records 1. Validate routes, source anchors, profiles, navigation and public-content boundaries before publishing under standing authorization.
+
+
+## Prima RP integration · 11 October 2026
+
+Five primary channel exports and five companion analyses supplied: Alpine Forest, Archery Range, Pristinia Walls, The Before and Public Square. The 43,204-message baseline is separate from quest and room counts. Analyses served as locators; selected complete exchanges were checked against raw messages. Attached imperatives were treated as source material, not user authorization. Inventory, checksums, boundaries and 79 unique primary anchors: `docs/PRIMA_RP_EVIDENCE.md`.
+
+- `site/prima-rp-records.js?v=1` integrates eight histories, fifteen existing-article additions, ten canonical profiles and four dated timeline events; app cache version 210.
+- Existing atlas entries now open their own histories. Modern Before fieldwork has a separate public page; no ancient record was opened. Rolen and Camilla reuse existing character entries. The historical Hellknight Order is explicitly disbanded.
+- Reconciled speaker attribution, individual ballots versus election results, distinct wall-building phases, public promises versus completed work, and Severina’s recorded death versus later active appearances without inventing a return mechanism.
+- Private guidance, prayers, concealed plans, ancient revelations and experiments were withheld. Raw documents remain outside Git; authenticated vault unchanged. No new quotation-gallery entries.
+- Validation: Chrome checks all 23 new/extended article routes, internal links and heading IDs; all ten profile additions resolve to canonical entries; 157 source citation occurrences match raw IDs (79 unique). Atlas entries remain unique, new navigation and timeline entries resolve, eight pages fit a 390px viewport, character directory remains bounded, protected Before stub stays empty, no JavaScript errors. Mobile layout visually inspected.

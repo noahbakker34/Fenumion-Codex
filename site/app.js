@@ -14238,6 +14238,67 @@ if (questThreads) {
   links.push({ label: reference.title, article: reference.id, summary: reference.dek });
 }
 
+// Primary Prima scenes extend the existing atlas and canonical character profiles.
+const primaRP = window.FENUMION_PRIMA_RP;
+if (primaRP) {
+  for (const record of primaRP.records) {
+    if (articles.some(item => item.id === record.id)) throw new Error(`Duplicate Prima record: ${record.id}`);
+    articles.push(record);
+    const domain = record.category === 'Places' ? 'Locations' : record.category === 'People' ? 'Characters' : 'Factions';
+    fixedArticlePaths.set(record.id, [domain, ...(domain === 'Locations' ? ['Prima'] : []), record.title]);
+    if (domain === 'Locations') {
+      navigationRegions.find(item => item.title === domain).branches.find(item => item.title === 'Prima').items.push({label:record.title, article:record.id});
+    } else if (domain === 'Characters') {
+      const person = archiveIndex.characters.find(item => item.title === (record.id === 'camilla' ? 'Camilla' : record.title));
+      if (!person) throw new Error(`Missing Prima character: ${record.title}`);
+      Object.assign(person, {article:record.id, summary:record.dek});
+      if (person.image) Object.assign(record, {image:person.image, imageAlt:`Portrait of ${record.title}`, imageLayout:'portrait-hero'});
+      if (record.id === 'camilla') person.aliases = [...new Set([...(person.aliases || []), 'Camilla Blackwood'])];
+      navigationRegions.find(item => item.title === domain).branches.find(item => item.title === (record.title.localeCompare('K') < 0 ? 'Characters A–J' : 'Characters K–Z')).items.push({label:record.title, article:record.id});
+    } else factionDirectoryItems.push({label:record.title, article:record.id});
+    subchannelMap[record.id] = record.relatedRecords.map(id => articles.find(item => item.id === id)).filter(Boolean).map(item => ({label:item.title, article:item.id, summary:item.dek}));
+  }
+  for (const [id, body] of Object.entries(primaRP.updates)) {
+    const record = articles.find(item => item.id === id);
+    if (!record) throw new Error(`Missing Prima history: ${id}`);
+    record.body += body;
+    record.sources = [...new Set([...(record.sources || []), primaRP.records[0].sources[0]])];
+    const contextIds = {
+      'pristinia':['archery-range','pristinia-walls','public-square'],
+      'prima-pristinia':['alpine-forest','before-fieldwork'],
+      'old-earth-hills':['alpine-forest'], 'before-survey':['before-fieldwork'],
+      'scribonia':['before-fieldwork'], 'minerva':['before-fieldwork'],
+      'wren':['pristinia-walls'], 'ryvyt':['pristinia-walls'],
+      'farkur':['public-square','pristinia-walls'], 'ale-chemy-knights':['public-square','pristinia-walls'],
+      'lady-severina':['alpine-forest'], 'eugene':['archery-range'], 'aerrow':['archery-range'],
+      'dale':['pristinia-walls'], 'olokun':['pristinia-walls']
+    };
+    const links = subchannelMap[id] || (subchannelMap[id] = []);
+    for (const target of contextIds[id] || []) {
+      const place = articles.find(item => item.id === target);
+      if (!links.some(item => item.article === target)) links.push({label:place.title,article:target,summary:place.dek});
+    }
+  }
+  for (const [name, additions] of Object.entries(primaRP.profiles)) {
+    const person = archiveIndex.characters.find(item => item.title === name || (item.aliases || []).includes(name));
+    if (!person) throw new Error(`Missing Prima profile: ${name}`);
+    const profile = legacyCharacterProfiles[person.title] || (legacyCharacterProfiles[person.title] = {});
+    for (const [field, text] of Object.entries(additions)) profile[field] = [profile[field], text].filter(Boolean).join(' ');
+  }
+  for (const [title, id] of Object.entries(primaRP.locationTargets)) {
+    const place = archiveIndex.islands.find(item => item.title === title);
+    if (!place) throw new Error(`Missing Prima atlas location: ${title}`);
+    Object.assign(place, {article:id, summary:articles.find(item => item.id === id).dek});
+  }
+  const fieldwork = primaRP.records.find(item => item.id === 'before-fieldwork');
+  archiveIndex.islands.push({title:fieldwork.title,region:'Prima',parent:'Prima',level:'site',type:fieldwork.type,meta:'Modern fieldwork · Prima',article:fieldwork.id,summary:fieldwork.dek});
+  for (const event of primaRP.events) {
+    const {consequence, ...entry} = event;
+    archiveIndex.timeline.push(entry);
+    questEventConsequences[event.title] = consequence;
+  }
+}
+
 const publicTimelineCount = archiveIndex.timeline.filter(item =>
   item.title && item.meta && item.era && item.kind && item.location && item.people
 ).length;

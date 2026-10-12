@@ -27,3 +27,7 @@ Never add the payload to `site/`, `app.js`, a public JSON file, an HTML data blo
 ## Public-bundle audit
 
 Search the public source for protected narrative text, not merely protected IDs or placeholder titles. The browser must receive only public summaries, empty protected stubs, and the code needed to request the authenticated payload. Interface fog, hidden elements, or client-side passwords do not protect content already downloaded by the browser.
+
+## Restored publisher · 12 October 2026
+
+The private repository’s automatic/manual publishers now target the established live namespace and share a concurrency group. The preferred Actions secret is `CLOUDFLARE_EXISTING_VAULT_TOKEN`, with the legacy name as fallback. User renewed the credential; run `38266179334` succeeded with full JSON read-back equality. Unauthenticated access returned 401. Private scene media stays embedded in the authenticated payload rather than public site assets. No credential values are retained in this repository.

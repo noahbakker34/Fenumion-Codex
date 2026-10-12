@@ -732,3 +732,8 @@ Character navigation: documented islands/collections, places, connected people, 
 Mobile loading: complete lossless WOFF2 fonts reduce font files 80.2%; pixel-identical WebP logo reduces file 22.2%. Original files/licenses retained. Glyph outlines, mappings, metrics, shaping/variation tables and browser text dimensions verified. Local slow-mobile DCL 30.27s → 26.32s in single diagnostic runs; production baseline 11.22s with CDN compression. Character/island navigation, portraits, exact event counts, mobile screenshots and protected empty stubs checked. App222, styles169, media152. Vault repair intentionally reserved until public work is deployed and verified.
 
 Public deployment `876fda9` succeeded and index/app/media/styles/WOFF2/logo matched tested bytes. Live cold slow-mobile DCL 11.22s → 10.18s in single traces; font/logo transferred bytes 899,960 → 656,962. NPC/navigation/loading work completed before starting vault repair.
+
+
+## Vault publishing restored · 12 October 2026
+
+User saved `CLOUDFLARE_EXISTING_VAULT_TOKEN`; no secret value was read or logged. Repaired publisher run `38266179334` on private commit `14f51ce` completed successfully: payload validation, upload to the existing live account/namespace and full JSON read-back verification all passed. The verified source contains the private embedded Death disappearance scene. Unauthenticated `https://auth.fenumion.com/vault/data` returned 401. No Worker roles or authorization settings changed. NPC audit, character navigation and mobile loading were completed and published before this final vault repair. All four requested follow-ups are now completed.

@@ -46,7 +46,7 @@ const articles = [
       "Ordering": "Chronological or alphabetical",
       "Foundation": "Campaign records, maps, and chronicles"
     },
-    "body": "<section class=\"gateway-hero\">\n        <video class=\"gateway-banner-video ambient-video\" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload=\"metadata\" poster=\"assets/archive/world-map.jpeg\" aria-hidden=\"true\" tabindex=\"-1\"><source src=\"assets/archive/fenumion-banner.mp4\" type=\"video/mp4\"></video>\n        <div class=\"gateway-hero-inner\">\n          <span class=\"gateway-sigil\" aria-hidden=\"true\"><img src=\"fenumion-logo.png\" alt=\"\"></span>\n          <p class=\"gateway-overline\">A living history reconstructed from play</p>\n          <p>Characters leave fingerprints. Places remember. The past keeps acting on the present.</p>\n          <label class=\"gateway-search\"><span aria-hidden=\"true\">⌕</span><span class=\"sr-only\">Search the archive</span><input id=\"gateway-search\" type=\"search\" placeholder=\"Search the archive\" autocomplete=\"off\"><kbd>/</kbd></label>\n          <a class=\"community-join-button\" href=\"https://discord.gg/TqXRfGKtNv\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Join the Fenumion community</span><span aria-hidden=\"true\">↗</span></a>\n        </div>\n      </section>\n      <section class=\"gateway-categories\" aria-label=\"Explore the Codex\">\n        <button class=\"gateway-tile\" data-article=\"people-directory\" style=\"--tile-image:url('assets/archive/wrath.gif')\"><span>Characters</span><small>Heroes · NPCs · Gods</small></button>\n        <button class=\"gateway-tile\" data-article=\"living-timeline\" style=\"--tile-image:url('assets/archive/abyss.png')\"><span>Timeline</span><small>Causes · Events · Consequences</small></button>\n        <button class=\"gateway-tile\" data-article=\"visual-archive\" style=\"--tile-image:url('assets/archive/world-map.jpeg')\"><span>Locations</span><small>Regions · Settlements · Landmarks</small></button>\n        <button class=\"gateway-tile\" data-article=\"factions\" style=\"--tile-image:url('assets/archive/fein-uaill.jpeg')\"><span>Factions</span><small>Companies · Orders · Alliances</small></button><button class=\"gateway-tile\" data-article=\"memorable-quotes\" style=\"--tile-image:url('assets/archive/throne.png')\"><span>Quotes</span><small>Words the world remembers</small></button>\n        \n        <button class=\"gateway-tile\" data-article=\"reading-the-codex\" style=\"--tile-image:url('assets/archive/pristinia.webp')\"><span>Guide</span><small>Evidence · Perspective · Uncertainty</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Featured</h2><span></span></div>\n      <section class=\"gateway-featured\">\n        <button class=\"feature-card feature-image\" data-article=\"gael\" style=\"--feature-image:url('assets/archive/gael.jpeg')\"><span class=\"feature-label\">Regional history</span><span class=\"feature-copy\"><strong>Gael</strong><small>From Death’s wasteland to Hope, settlement, markets, and an unfinished recovery.</small></span></button>\n        <button class=\"feature-card feature-image\" data-article=\"fein-uaill\" style=\"--feature-image:url('assets/archive/fein-uaill.jpeg')\"><span class=\"feature-label\">Location atlas</span><span class=\"feature-copy\"><strong>Fein Uaill</strong><small>Zarathis, Caisleán na Brón, Ciaránach, walls, libraries, tombs, and shores.</small></span></button>\n        <button class=\"feature-card feature-quote\" data-article=\"memorable-quotes\"><span class=\"feature-label\">Memorable quote</span><blockquote>“My pain. Not everyone’s.”</blockquote><cite>Olokun</cite><small>Read the words that became part of Fenumion’s moral memory.</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Complete index</h2><span></span></div>\n      <p class=\"gateway-index-intro\">Browse every recovered character, event, and place. Sort by name or chronology, then open the exact record you need.</p>\n      <div id=\"world-browser\" class=\"world-browser\"></div>"
+    "body": "<section class=\"gateway-hero\">\n        <video class=\"gateway-banner-video ambient-video\" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload=\"metadata\" poster=\"assets/archive/world-map.jpeg\" aria-hidden=\"true\" tabindex=\"-1\"><source data-src=\"assets/archive/fenumion-banner.mp4\" type=\"video/mp4\"></video>\n        <div class=\"gateway-hero-inner\">\n          <span class=\"gateway-sigil\" aria-hidden=\"true\"><img src=\"fenumion-logo.png\" alt=\"\"></span>\n          <p class=\"gateway-overline\">A living history reconstructed from play</p>\n          <p>Characters leave fingerprints. Places remember. The past keeps acting on the present.</p>\n          <label class=\"gateway-search\"><span aria-hidden=\"true\">⌕</span><span class=\"sr-only\">Search the archive</span><input id=\"gateway-search\" type=\"search\" placeholder=\"Search the archive\" autocomplete=\"off\"><kbd>/</kbd></label>\n          <a class=\"community-join-button\" href=\"https://discord.gg/TqXRfGKtNv\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Join the Fenumion community</span><span aria-hidden=\"true\">↗</span></a>\n        </div>\n      </section>\n      <section class=\"gateway-categories\" aria-label=\"Explore the Codex\">\n        <button class=\"gateway-tile\" data-article=\"people-directory\" style=\"--tile-image:url('assets/archive/wrath.gif')\"><span>Characters</span><small>Heroes · NPCs · Gods</small></button>\n        <button class=\"gateway-tile\" data-article=\"living-timeline\" style=\"--tile-image:url('assets/archive/abyss.png')\"><span>Timeline</span><small>Causes · Events · Consequences</small></button>\n        <button class=\"gateway-tile\" data-article=\"visual-archive\" style=\"--tile-image:url('assets/archive/world-map.jpeg')\"><span>Locations</span><small>Regions · Settlements · Landmarks</small></button>\n        <button class=\"gateway-tile\" data-article=\"factions\" style=\"--tile-image:url('assets/archive/fein-uaill.jpeg')\"><span>Factions</span><small>Companies · Orders · Alliances</small></button><button class=\"gateway-tile\" data-article=\"memorable-quotes\" style=\"--tile-image:url('assets/archive/throne.png')\"><span>Quotes</span><small>Words the world remembers</small></button>\n        \n        <button class=\"gateway-tile\" data-article=\"reading-the-codex\" style=\"--tile-image:url('assets/archive/pristinia.webp')\"><span>Guide</span><small>Evidence · Perspective · Uncertainty</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Featured</h2><span></span></div>\n      <section class=\"gateway-featured\">\n        <button class=\"feature-card feature-image\" data-article=\"gael\" style=\"--feature-image:url('assets/archive/gael.jpeg')\"><span class=\"feature-label\">Regional history</span><span class=\"feature-copy\"><strong>Gael</strong><small>From Death’s wasteland to Hope, settlement, markets, and an unfinished recovery.</small></span></button>\n        <button class=\"feature-card feature-image\" data-article=\"fein-uaill\" style=\"--feature-image:url('assets/archive/fein-uaill.jpeg')\"><span class=\"feature-label\">Location atlas</span><span class=\"feature-copy\"><strong>Fein Uaill</strong><small>Zarathis, Caisleán na Brón, Ciaránach, walls, libraries, tombs, and shores.</small></span></button>\n        <button class=\"feature-card feature-quote\" data-article=\"memorable-quotes\"><span class=\"feature-label\">Memorable quote</span><blockquote>“My pain. Not everyone’s.”</blockquote><cite>Olokun</cite><small>Read the words that became part of Fenumion’s moral memory.</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Complete index</h2><span></span></div>\n      <p class=\"gateway-index-intro\">Browse every recovered character, event, and place. Sort by name or chronology, then open the exact record you need.</p>\n      <div id=\"world-browser\" class=\"world-browser\"></div>"
   },
   {
     "id": "visual-archive",
@@ -15872,6 +15872,8 @@ let vaultData = null;
 let vaultIdentity = null;
 
 function rebuildDerivedData() {
+  searchTextCache = new WeakMap();
+  searchNameCache.clear();
   mappedLocationTitles = new Set(interactiveMaps.flatMap(map => map.pins.map(pin => pin.title)));
   articlePaths.clear();
   navigationRegions.forEach(region => {
@@ -16136,9 +16138,10 @@ function setupAmbientVideos(root = document) {
     return;
   }
   ambientVideoObserver = new IntersectionObserver(entries => {
+    const scenePlaying = [...document.querySelectorAll("video[data-story-scene]")].some(scene => !scene.paused && !scene.ended);
     entries.forEach(entry => {
       const video = entry.target;
-      if (entry.isIntersecting && !document.hidden && ![...document.querySelectorAll("video[data-story-scene]")].some(scene => !scene.paused && !scene.ended)) {activateAmbientSource(video);video.play().catch(() => {});}
+      if (entry.isIntersecting && !document.hidden && !scenePlaying) {activateAmbientSource(video);video.play().catch(() => {});}
       else video.pause();
     });
   }, { rootMargin: "120px 0px", threshold: .08 });
@@ -16438,9 +16441,12 @@ function renderNavigation() {
       <button class="nav-link${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}" aria-label="${protectedRecordAria(item.label, !isPlayerSafeArticle(item.article))}"><span>${protectedRecordTitle(item.label, !isPlayerSafeArticle(item.article))}</span><span>›</span></button>`).join("")}</section>`;
 }
 
+let memorableQuoteCache = null;
 function memorableQuoteRecords() {
+  const body = byId.get("memorable-quotes")?.body || "";
+  if (memorableQuoteCache?.body === body) return memorableQuoteCache.records;
   const template = document.createElement("template");
-  template.innerHTML = byId.get("memorable-quotes")?.body || "";
+  template.innerHTML = body;
   let group = "Memorable quotes";
   let groupId = "";
   const records = [];
@@ -16454,6 +16460,7 @@ function memorableQuoteRecords() {
       if (text && speaker) records.push({ title: text, speaker, group, groupId, article: element.dataset.article, quoteId: `memorable-quote-${records.length}` });
     }
   });
+  memorableQuoteCache = { body, records };
   return records;
 }
 
@@ -16629,7 +16636,7 @@ function renderArticle(route, pushHash = true) {
     ? `<figure class="${heroClass} map-linked-hero"><button type="button" class="article-map-link" data-open-map="${escapeHtml(article.mapId)}" aria-label="${escapeHtml(article.mapLinkLabel || `Explore the interactive ${article.title} map`)}"><img src="${article.image}" alt="${article.imageAlt || ""}"><span class="article-map-cta"><small>Interactive map</small><strong>${escapeHtml(article.mapLinkLabel || `Explore ${article.title}`)} <span aria-hidden="true">→</span></strong></span></button>${heroCaption(article.imageCaption, "Image preserved in the Fenumion archive.")}</figure>`
     : "";
   const videoHero = article.video
-    ? `<figure class="${videoHeroClass}"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="${article.image || ""}" aria-hidden="true" tabindex="-1"><source src="${article.video}" type="${article.videoType || "video/mp4"}">Your browser does not support this video.</video>${heroCaption(article.videoCaption, "Video preserved in the Fenumion archive.")}</figure>`
+    ? `<figure class="${videoHeroClass}"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="${article.image || ""}" aria-hidden="true" tabindex="-1"><source data-src="${article.video}" type="${article.videoType || "video/mp4"}">Your browser does not support this video.</video>${heroCaption(article.videoCaption, "Video preserved in the Fenumion archive.")}</figure>`
     : "";
   const hero = article.video
     ? `${mapHero}${videoHero}`
@@ -16677,15 +16684,15 @@ function renderArticle(route, pushHash = true) {
     </div>` : "";
   const ethosBackdrop = article.id === "ethos-of-fenumion" ? `
     <div class="ethos-video-backdrop" aria-hidden="true">
-      <video data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/ethos-eye-poster.webp" tabindex="-1">
-        <source src="assets/archive/ethos-eye-background.mp4" type="video/mp4">
+      <video data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="assets/archive/ethos-eye-poster.webp" tabindex="-1">
+        <source data-src="assets/archive/ethos-eye-background.mp4" type="video/mp4">
       </video>
     </div>` : "";
-  const locationsBackdrop = article.id === 'visual-archive' ? `<div class="locations-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/locations-background-poster.webp" tabindex="-1"><source src="assets/archive/locations-background.mp4" type="video/mp4"></video></div>` : '';
-  const factionsBackdrop = article.id === 'factions' ? `<div class="factions-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/factions-background-poster.webp" tabindex="-1"><source src="assets/archive/factions-background.mp4" type="video/mp4"></video></div>` : '';
-  const historyBackdrop = article.id === 'living-timeline' ? `<div class="history-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/narrative-history-background-poster.webp" tabindex="-1"><source src="assets/archive/narrative-history-background.mp4" type="video/mp4"></video></div>` : '';
+  const locationsBackdrop = article.id === 'visual-archive' ? `<div class="locations-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="assets/archive/locations-background-poster.webp" tabindex="-1"><source data-src="assets/archive/locations-background.mp4" type="video/mp4"></video></div>` : '';
+  const factionsBackdrop = article.id === 'factions' ? `<div class="factions-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="assets/archive/factions-background-poster.webp" tabindex="-1"><source data-src="assets/archive/factions-background.mp4" type="video/mp4"></video></div>` : '';
+  const historyBackdrop = article.id === 'living-timeline' ? `<div class="history-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="assets/archive/narrative-history-background-poster.webp" tabindex="-1"><source data-src="assets/archive/narrative-history-background.mp4" type="video/mp4"></video></div>` : '';
   const characterBackdrop=characterBackgroundTheme ? `<div class="character-video-backdrop" aria-hidden="true" style="--character-poster:url('${characterBackgroundTheme.poster}')"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="${characterBackgroundTheme.poster}" tabindex="-1"><source data-src="${characterBackgroundTheme.video}" type="video/mp4"></video></div>` : '';
-  const deathBackdrop = deathRelated ? `<div class="death-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/death-background-poster.webp" tabindex="-1"><source src="assets/archive/death-background.mp4" type="video/mp4"></video></div>` : '';
+  const deathBackdrop = deathRelated ? `<div class="death-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="assets/archive/death-background-poster.webp" tabindex="-1"><source data-src="assets/archive/death-background.mp4" type="video/mp4"></video></div>` : '';
   articleContent.innerHTML = `
     ${characterBackdrop}${quotesBackdrop}${ethosBackdrop}${deathBackdrop}${locationsBackdrop}${factionsBackdrop}${historyBackdrop}
     <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubPage.image}')"` : ""}>
@@ -16904,14 +16911,10 @@ function setupFeaturedContent() {
   const source = byId.get("memorable-quotes");
   if (!featured || !source) return;
 
-  // Read the live gallery so newly added memorable quotes join the rotation.
-  const gallery = document.createElement("template");
-  gallery.innerHTML = source.body;
-  const quotes = [...gallery.content.querySelectorAll(".quote-card")].map(card => ({
-    text: card.querySelector("blockquote")?.textContent.trim(),
-    speaker: card.querySelector("cite")?.textContent.trim(),
-    articleId: card.dataset.article
-  })).filter(quote => quote.text && quote.speaker);
+  // The cache follows the source body, including newly added quotations.
+  const quotes = memorableQuoteRecords().map(record => ({
+    text: record.title, speaker: record.speaker, articleId: record.article
+  }));
   if (!quotes.length) return;
 
   const hour = 60 * 60 * 1000;
@@ -17196,7 +17199,7 @@ function setupLocationExplorer() {
         <div class="location-grid">${items.map(item => {
           const protectedRecord = !isPlayerSafeArticle(item.article);
           const media = item.video
-            ? `<video class="place-card-image ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata"${item.image ? ` poster="${item.image}"` : ""} aria-hidden="true" tabindex="-1"><source src="${item.video}"></video>`
+            ? `<video class="place-card-image ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none"${item.image ? ` poster="${item.image}"` : ""} aria-hidden="true" tabindex="-1"><source data-src="${item.video}"></video>`
             : item.image
               ? `<img class="place-card-image" src="${item.image}" alt="" loading="lazy">`
               : `<span class="place-glyph" aria-hidden="true">⌖</span>`;
@@ -17478,12 +17481,28 @@ function normalizeSearchName(value) {
   return String(value || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/['’]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 }
 
-function searchNameScore(query, names) {
-  const phrase = normalizeSearchName(query);
+// Reuse normalized archive text; rebuilding vault-derived data invalidates it.
+let searchTextCache = new WeakMap();
+const searchNameCache = new Map();
+function cachedSearchText(record, kind, build) {
+  let cached = searchTextCache.get(record);
+  if (!cached || cached.body !== record.body) {
+    cached = { body: record.body, values: new Map() };
+    searchTextCache.set(record, cached);
+  }
+  if (!cached.values.has(kind)) cached.values.set(kind, build());
+  return cached.values.get(kind);
+}
+
+function searchNameScore(query, names, phrase = normalizeSearchName(query)) {
   const terms = phrase.split(' ');
   return Math.max(0, ...names.filter(Boolean).flatMap(name => {
-    const full = normalizeSearchName(name);
-    const parts = String(name).split(/[/·]/).map(normalizeSearchName);
+    let cached = searchNameCache.get(name);
+    if (!cached) {
+      cached = { full: normalizeSearchName(name), parts: String(name).split(/[/·]/).map(normalizeSearchName) };
+      searchNameCache.set(name, cached);
+    }
+    const { full, parts } = cached;
     if (full === phrase) return 1200;
     if (parts.includes(phrase)) return 1100;
     if ((' ' + full + ' ').includes(' ' + phrase + ' ')) return 700 + (full.startsWith(phrase + ' ') ? 100 : 0);
@@ -17505,9 +17524,9 @@ function runSearch(query) {
   const articleResults = articles.filter(article => isPlayerSafeArticle(article.id)).map(article => {
     const path = articlePaths.get(article.id) || [article.category, article.title];
     const names = [article.title, ...(article.aliases || [])];
-    const haystack = normalizeSearchName(`${path.join(" ")} ${names.join(' ')} ${article.category} ${article.type} ${article.dek} ${article.tags.join(" ")} ${article.body.replace(/<[^>]+>/g, " ")}`);
-    const titleMatch = searchNameScore(normalized, names);
-    const tagMatch = article.tags.some(tag => normalizeSearchName(tag).includes(phrase)) ? 30 : 0;
+    const haystack = cachedSearchText(article, "article", () => normalizeSearchName(`${path.join(" ")} ${names.join(' ')} ${article.category} ${article.type} ${article.dek} ${article.tags.join(" ")} ${article.body.replace(/<[^>]+>/g, " ")}`));
+    const titleMatch = searchNameScore(normalized, names, phrase);
+    const tagMatch = cachedSearchText(article, "tags", () => article.tags.map(normalizeSearchName)).some(tag => tag.includes(phrase)) ? 30 : 0;
     const allTermsMatch = terms.every(term => haystack.includes(term));
     return { article, path, kind: "article", record: article, filterKind: searchCategory(article), score: allTermsMatch ? titleMatch + tagMatch + (haystack.includes(phrase) ? 20 : 0) + 10 : 0 };
   }).filter(result => result.score);
@@ -17518,8 +17537,8 @@ function runSearch(query) {
     ["Locations", archiveIndex.islands]
   ];
   const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => item?.title && (group !== "Timeline" || !isRestrictedTimelineEvent(item))).map(item => {
-    const haystack = normalizeSearchName(`${group} ${item.title} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`);
-    const titleMatch = searchNameScore(normalized, [item.title, ...(item.aliases || [])]);
+    const haystack = cachedSearchText(item, group, () => normalizeSearchName(`${group} ${item.title} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`));
+    const titleMatch = searchNameScore(normalized, [item.title, ...(item.aliases || [])], phrase);
     const allTermsMatch = terms.every(term => haystack.includes(term));
     return {
       article: { id: item.article, title: item.title, type: item.meta, dek: item.summary },
@@ -17531,10 +17550,10 @@ function runSearch(query) {
   })).filter(result => result.score && isPlayerSafeArticle(result.article.id));
   const quoteTerms = terms;
   const quoteResults = memorableQuoteRecords().filter(record => isPlayerSafeArticle(record.article)).map(record => {
-    const haystack = normalizeSearchName(`${record.title} ${record.speaker} ${record.group}`);
+    const haystack = cachedSearchText(record, "quote", () => normalizeSearchName(`${record.title} ${record.speaker} ${record.group}`));
     const matches = quoteTerms.length && quoteTerms.every(term => haystack.includes(term));
-    const nameMatch = Math.min(400, searchNameScore(normalized, [record.speaker]));
-    const wordsMatch = Math.min(600, searchNameScore(normalized, [record.title]));
+    const nameMatch = Math.min(400, searchNameScore(normalized, [record.speaker], phrase));
+    const wordsMatch = Math.min(600, searchNameScore(normalized, [record.title], phrase));
     return { article: { id: "memorable-quotes", title: record.title, type: "Memorable quote", dek: record.speaker }, path: ["Quotes", record.group], kind: "quote", record, score: matches ? Math.max(nameMatch, wordsMatch) + 20 : 0 };
   }).filter(result => result.score);
   const seen = new Set();

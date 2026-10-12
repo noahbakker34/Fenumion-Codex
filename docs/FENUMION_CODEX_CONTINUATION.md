@@ -711,3 +711,8 @@ Chrome verification passed: Tarwen remains one NPC, original portrait preserved,
 User identifies the supplied clip as Aerrow. Inspected source frames; playable moving portrait added to public `aerrow`, preserving his existing portrait and biography. Visual flames and violet eyes establish no additional powers or events. Native controls, preload none and static poster; existing scene lifecycle reused. Silent H.264, 5.209 seconds, 518,784 bytes. Source `the_gardener_httpss.mj.runm31Gy_oF7nk_Flames_glowing_on_the_b_ccea8de2-b7b3-4d44-8fe5-45edbe3afb27_2.mp4`, SHA-256 `1cd3cacf6dba9fcdcbd44e2633806c3c51dc0371712edef21d7802f4a1968f95`. Media150; app220/styles168 unchanged. Protected records and private vault untouched.
 
 Chrome verification passed: original Aerrow portrait and single directory identity preserved, decoded video and native controls, route cleanup, mobile deferred loading and explicit playback, no overflow or JavaScript errors. Protected records remain empty; private Death scene absent from public catalog. Mobile screenshot inspected; syntax and diff checks passed.
+
+
+## Efficiency pass · 11 October 2026
+
+App221 caches normalized search text/names and source-aware quote extraction; vault-derived rebuilds clear search caches. Eight ambient templates defer sources until visible, with existing poster/static fallbacks. Observer scene detection occurs once per batch. Content, source media, routes, ranking, styles and vault unchanged. Local warmed search median 41.5ms → 1.8ms, identical output for 65 query/filter combinations. Seven normal-video routes, reduce/Save-Data, mobile, scene controls, body/quote/vault cache refresh and locked boundary verified. See `docs/PERFORMANCE.md` and reproducible `scripts/check_codex_efficiency.cjs`.

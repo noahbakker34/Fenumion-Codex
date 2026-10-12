@@ -14518,24 +14518,66 @@ if (characterImprovements) {
     if (!links.some(item=>item.article===target)) links.push({label:record.title,article:record.id,summary:record.dek});
   }
 }
-// The user identifies Pell and the catalogue's Pelagia as Pelegia, one character.
-const pelegiaRecords = archiveIndex.characters.filter(person => ['Pell', 'Pelagia'].includes(person.title));
+// User-confirmed aliases share one player record; the Seekers retain their group history.
+const pelegiaRecords = archiveIndex.characters.filter(person => ['Pell', 'Pelagia', 'Pin'].includes(person.title));
 const pelegiaBase = pelegiaRecords.find(person => person.title === 'Pell');
 if (pelegiaBase) {
   const mergedProfile = {};
-  for (const name of ['Pell', 'Pelagia']) {
+  for (const name of ['Pell', 'Pelagia', 'Pin']) {
     for (const [field, text] of Object.entries(legacyCharacterProfiles[name] || {})) {
       mergedProfile[field] = [mergedProfile[field], text].filter(Boolean).join(' ');
     }
   }
   legacyCharacterProfiles.Pelegia = mergedProfile;
   pelegiaBase.title = 'Pelegia';
-  pelegiaBase.aliases = [...new Set(['Pell', 'Pelagia', ...pelegiaRecords.flatMap(person => person.aliases || [])])];
+  pelegiaBase.aliases = [...new Set(['Pin', 'Pell', 'Pelagia', ...pelegiaRecords.flatMap(person => person.aliases || [])])];
   pelegiaBase.summary = pelegiaRecords.map(person => person.summary).filter(Boolean).join(' ');
+  pelegiaBase.article = 'pelegia';
   archiveIndex.characters = archiveIndex.characters.filter(person => person === pelegiaBase || !pelegiaRecords.includes(person));
+  const identity = '<p><strong>Pelegia</strong>, also recorded as <strong>Pin</strong>, <strong>Pell</strong> and <strong>Pelagia</strong>, is one player character.</p>';
   const seekers = articles.find(article => article.id === 'cave-company');
-  seekers.body = '<p><strong>Pelegia</strong> is also known as <strong>Pell</strong>; the catalogue previously used the spelling <strong>Pelagia</strong>. These names refer to the same adventurer.</p>' + seekers.body;
-  seekers.tags = [...new Set([...seekers.tags, 'Pelegia', 'Pelagia'])];
+  seekers.body = identity + seekers.body;
+  seekers.tags = [...new Set([...seekers.tags, 'Pelegia', 'Pin', 'Pelagia'])];
+  articles.splice(articles.indexOf(pinArticle), 1);
+  articles.push({id:'pelegia',title:'Pelegia',category:'People',type:pelegiaBase.meta,
+    dek:pelegiaBase.summary,tags:['Player character',...pelegiaBase.aliases,'Seekers','Pristinia'],
+    facts:{Role:'Player character',Aliases:'Pin · Pell · Pelagia'},image:pelegiaBase.image,
+    sources:[...pinArticle.sources,'User identity correction · 12 October 2026','The Seekers and quest continuation histories'],
+    body:identity+'<h2 id="pelegia-seeker">A Seeker and civic servant</h2><p>Pelegia explores the contaminated harpy cave with the Seekers. Fear does not erase the insistence that a corrupted corpse deserves burial: the dead person must remain more than an investigative clue. Vessalia offers emotional shelter while Di’Trillio, Minerva and Fenwick give the investigation a shared structure.</p><p>Later service includes gathering Mama Tabitha’s ingredients, preparing Papirak’s grave, planning a mausoleum and helping with fundraising. These trusted tasks give Pelegia purpose within Pristinia.</p><h2 id="pelegia-larkhollow">The Larkhollow expeditions</h2><p>Recorded as Pelagia, Pelegia urges retreat from Hana’s tower when the company is in danger, then returns with Ryvyt to question market residents about the forest. Their differing apparent travel durations remain unexplained.</p><h2 id="pelegia-pin">Meeting the company as Pin</h2>'+pinArticle.body+'<h2 id="pelegia-context">Shared histories</h2><p><a href="#cave-company">Read the Seekers’ complete history →</a></p>',
+    relatedRecords:['cave-company','carmen','papirak']});
+  fixedArticlePaths.delete('pin');
+  fixedArticlePaths.set('pelegia',['Characters','Pelegia']);
+  for (const region of navigationRegions) for (const branch of region.branches || []) {
+    branch.items = (branch.items || []).filter(item => item.article !== 'pin');
+  }
+  navigationRegions.find(region=>region.title==='Characters').branches.find(branch=>branch.title==='Characters K–Z').items.push({label:'Pelegia',article:'pelegia'});
+  subchannelMap.pelegia = [...(subchannelMap.pin || []),{label:'The Seekers',article:'cave-company',summary:seekers.dek}];
+  delete subchannelMap.pin;
+  for (const entry of npcDiscoveries?.entries || []) if (['Pin','Pell','Pelagia','Pelegia'].includes(entry.canonicalName)) {
+    entry.canonical = 'pelegia'; entry.canonicalName = 'Pelegia';
+    const record = articles.find(article=>article.id===entry.id);
+    if (record) record.body = record.body.replace(/href="#pin"/g,'href="#pelegia"').replace('existing Pin history','existing Pelegia history');
+  }
+}
+
+// Supplied dossiers extend the players' own histories, preserving existing archive context.
+for (const dossier of window.FENUMION_PLAYER_UPDATES || []) {
+  const person = archiveIndex.characters.find(record=>record.title===dossier.title);
+  if (!person) continue;
+  articles.push({...dossier,category:'People',image:person.image,
+    sources:['Supplied deep character dossier · 12 October 2026','Existing public campaign histories'],
+    facts:{Role:'Player character',Regions:dossier.regions.join(' · ')}});
+  Object.assign(person,{article:dossier.id,meta:dossier.type,summary:dossier.dek,
+    aliases:[...new Set([...(person.aliases || []),...(dossier.aliases || [])])]});
+  legacyCharacterProfiles[person.title] = {...legacyCharacterProfiles[person.title],...dossier.profile};
+  fixedArticlePaths.set(dossier.id,['Characters',dossier.title]);
+  navigationRegions.find(region=>region.title==='Characters').branches.find(branch=>branch.title==='Characters A–J').items.push({label:dossier.title,article:dossier.id});
+  for (const entry of npcDiscoveries?.entries || []) if (entry.canonicalName===dossier.title || (dossier.aliases || []).includes(entry.name)) {
+    const old = entry.canonical;
+    entry.canonical=dossier.id; entry.canonicalName=dossier.title;
+    const record=articles.find(article=>article.id===entry.id);
+    if (record && old) record.body=record.body.replace(`href="#${old}"`,`href="#${dossier.id}"`);
+  }
 }
 
 // Give each named NPC a focused route while retaining the complete source history.
@@ -14567,6 +14609,13 @@ articles.push({id:'art-of-fenumion',title:'The Art of Fenumion',category:'Archiv
 navigationRegions.push({title:'The Art of Fenumion',article:'art-of-fenumion',glyph:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18h1a2 2 0 0 0 1.5-3.3 1.5 1.5 0 0 1 1.2-2.5H18a3 3 0 0 0 3-3.2A9 9 0 0 0 12 3Z"/><circle cx="7" cy="10" r="1"/><circle cx="10" cy="6.5" r="1"/><circle cx="15" cy="7" r="1"/><circle cx="17.5" cy="11" r="1"/></svg>',branches:[{title:'Art & community',items:[{label:'The Art of Fenumion',article:'art-of-fenumion'},{label:'Ececilia’s collection',article:'ececilia-emojis'}]}]});
 fixedArticlePaths.set('art-of-fenumion',['The Art of Fenumion']);
 
+// Make the same regional evidence visible on the card, expanded profile and dossier.
+for (const person of archiveIndex.npcs) {
+  const article = articles.find(record=>record.id===person.article);
+  const group = npcIslandGroups.find(group=>group.people.some(record=>record.name===person.title));
+  if (article) article.facts = {...article.facts,Region:group && group.id !== 'unplaced' ? group.title : 'Unestablished'};
+}
+
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
@@ -14579,6 +14628,11 @@ const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai
   ["derya-thorne", "deyara-thorn"],
   ["deyara", "deyara-thorn"],
   ["derya", "deyara-thorn"], ["sheeva", "sheeva-dragonsister"], ["sheeva-dragosister", "sheeva-dragonsister"], ["kaiya", "kaiya-dragonsister"], ["kaiyah", "kaiya-dragonsister"], ["kaiyah-dragonsister", "kaiya-dragonsister"], ["minyah", "minyah-dragonsister"]]);
+
+for (const alias of ['pin','pell','pelagia']) routeAliases.set(alias,'pelegia');
+routeAliases.set('bitoshi','bitoshi-nakamoto');
+routeAliases.set('bearbri','brianna');
+routeAliases.set('batbri','brianna');
 
 routeAliases.set('high-lord-bowene','bowene');
 routeAliases.set('bowen','bowene');
@@ -16050,6 +16104,11 @@ function timelineDetailParagraphs(item) {
 function characterRecordKind(person) { return person.characterKind === 'pet' ? 'pet' : 'player'; }
 function characterRecordLabel(person) { return person.characterKind === 'pet' ? 'Player-character pet' : 'Player character'; }
 
+function npcRegionLabel(person) {
+  const group = npcIslandGroups.find(group=>group.people.some(record=>record.name===person.title));
+  return group && group.id !== 'unplaced' ? `Region · ${group.title}` : 'Region unestablished';
+}
+
 function characterProfileParagraphs(person) {
   const profile = legacyCharacterProfiles[person.title];
   return profile ? [profile.personality, profile.achievements, profile.relationships] : [person.summary, '', ''];
@@ -16115,7 +16174,7 @@ function openCharacterRecord(person, personLabel = "Character") {
     ${profileMedia}
     <p class="record-dialog-kicker">${escapeHtml(personLabel)} · Expanded profile</p>
     <h2 id="record-dialog-title">${escapeHtml(person.title)}</h2>
-    <p class="record-dialog-dek">${escapeHtml(person.meta)}</p>
+    <p class="record-dialog-dek">${escapeHtml(person.meta)}</p>${npcGroup ? `<p class="npc-region-label">${escapeHtml(npcRegionLabel(person))}</p>` : ""}
     <div class="record-dialog-body">
       <p>${escapeHtml(personality)}</p>
       ${achievements ? `<p><strong>Achievements &amp; deeds</strong>${escapeHtml(achievements)}</p>` : ""}
@@ -16838,7 +16897,7 @@ function setupPeopleGallery() {
     .sort((left, right) => left.title.localeCompare(right.title));
   // Normalize the searchable text once, rather than once per character per keystroke.
   const searchText = new Map(people.map(person => [person,
-    (!isPlayerSafeArticle(person.article) ? "protected veiled record" : `${person.title} ${(person.aliases || []).join(" ")} ${person.meta} ${person.summary}`).toLocaleLowerCase()
+    (!isPlayerSafeArticle(person.article) ? "protected veiled record" : `${person.title} ${(person.aliases || []).join(" ")} ${person.meta} ${person.summary} ${person.personKind === "npc" ? npcRegionLabel(person) : ""}`).toLocaleLowerCase()
   ]));
   const pageSize = 24;
   const pagination = gallery.parentElement.querySelector(".people-pagination");
@@ -16895,7 +16954,7 @@ function setupPeopleGallery() {
           : `<span class="index-glyph" aria-hidden="true">✦</span>`;
       return `<button class="index-card character-card ${person.personKind}-record${protectedRecord ? " locked-record" : ""}" data-article="${person.article}"${protectedRecord ? "" : ` data-character-title="${escapeHtml(person.title)}"`} aria-label="${protectedRecordAria(`${person.personLabel}: ${person.title}`, protectedRecord)}">
         ${media}
-        <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${protectedRecordTitle(person.title, protectedRecord)}</strong>${!protectedRecord && person.prominence ? `<small>Prominence ${person.prominence.score}/100 · ${escapeHtml(person.prominence.confidence)}</small>` : ""}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
+        <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${protectedRecordTitle(person.title, protectedRecord)}</strong>${!protectedRecord && person.personKind === "npc" ? `<small class="npc-region-label">${escapeHtml(npcRegionLabel(person))}</small>` : ""}${!protectedRecord && person.prominence ? `<small>Prominence ${person.prominence.score}/100 · ${escapeHtml(person.prominence.confidence)}</small>` : ""}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
       </button>`;
     }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
     setupAmbientVideos(kindBanner.closest(".people-gallery-shell"));
@@ -17412,7 +17471,7 @@ function renderIslandNpcCollection(article) {
   const group = npcIslandGroups.find(item=>item.id===article.npcIsland || item.article===article.id);
   if (!group) return '';
   const people = islandNpcPeople(group);
-  return `<section class="exploration-section island-npc-collection"><p class="eyebrow">Island community</p><h2 id="island-npc-community">NPCs · ${escapeHtml(group.title)}</h2><p>${group.article ? 'Local residents, officials and other NPCs with documented ties to this island.' : 'These NPCs remain available without assigning them an unsupported home island.'}</p><div class="exploration-links"><a href="#npc-islands">Browse NPCs by island →</a>${article.npcIsland && group.article ? `<a href="#${group.article}">Explore ${escapeHtml(group.title)} →</a>` : ''}</div><p>${people.length} public NPC records</p><div class="browser-grid">${people.map(person=>`<button type="button" class="index-card character-card npc-record" data-character-title="${escapeHtml(person.title)}" data-article="${escapeHtml(person.article)}">${person.image?`<img src="${escapeHtml(person.image)}" alt="" loading="lazy" decoding="async">`:'<span class="index-glyph" aria-hidden="true">✦</span>'}<span class="index-card-copy"><strong>${escapeHtml(person.title)}</strong><small>${escapeHtml(person.islandBasis)}</small><span>${escapeHtml(person.summary)}</span></span></button>`).join('')}</div></section>`;
+  return `<section class="exploration-section island-npc-collection"><p class="eyebrow">Island community</p><h2 id="island-npc-community">NPCs · ${escapeHtml(group.title)}</h2><p>${group.article ? 'Local residents, officials and other NPCs with documented ties to this island.' : 'These NPCs remain available without assigning them an unsupported home island.'}</p><div class="exploration-links"><a href="#npc-islands">Browse NPCs by island →</a>${article.npcIsland && group.article ? `<a href="#${group.article}">Explore ${escapeHtml(group.title)} →</a>` : ''}</div><p>${people.length} public NPC records</p><div class="browser-grid">${people.map(person=>`<button type="button" class="index-card character-card npc-record" data-character-title="${escapeHtml(person.title)}" data-article="${escapeHtml(person.article)}">${person.image?`<img src="${escapeHtml(person.image)}" alt="" loading="lazy" decoding="async">`:'<span class="index-glyph" aria-hidden="true">✦</span>'}<span class="index-card-copy"><strong>${escapeHtml(person.title)}</strong><small class="npc-region-label">${escapeHtml(npcRegionLabel(person))}</small><small>${escapeHtml(person.islandBasis)}</small><span>${escapeHtml(person.summary)}</span></span></button>`).join('')}</div></section>`;
 }
 
 function characterTimelineItems(person) {

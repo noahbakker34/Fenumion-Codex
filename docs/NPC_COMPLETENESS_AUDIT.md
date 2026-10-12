@@ -139,3 +139,7 @@ Fein Uaill: Aria / Pride, Captain Zythienne, High Lord Bowene, Kaiya Dragonsiste
 | Ziegler | `discovery-111` | prima | Yes | 118 |
 
 All figures above come from the locked public runtime. Protected titles/bodies remain empty; raw documents and private identity receipts are not added to the repository. Chrome verified unique routes/group coverage, canonical role corrections, recovered/reviewed portraits and mobile layout.
+
+## Identity and region presentation · 12 October 2026
+
+The user confirms Pin, Pell and Pelagia are Pelegia. Their histories now share one player record and a focused Pelegia route; the original alias bookmarks remain usable. Paw remains separate. Each NPC card, expanded profile and focused dossier shows its documented region, or an explicit unestablished label. Regional association does not imply birthplace.

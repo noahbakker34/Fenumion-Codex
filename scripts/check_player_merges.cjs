@@ -1,0 +1,50 @@
+const {chromium} = require('playwright');
+const assert = require('node:assert/strict');
+const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
+(async () => {
+  const browser = await chromium.launch({headless:true, ...(process.env.CHROME_PATH ? {executablePath:process.env.CHROME_PATH} : {})});
+  const page = await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+  const errors = [];
+  page.on('pageerror', error=>errors.push(error.message));
+  await page.goto(base+'#pelegia');
+  await page.locator('h1').waitFor();
+  const identity = await page.evaluate(()=>({
+    names:['Pin','Pell','Pelagia','Pelegia'].map(name=>resolvePublicPerson(name)?.title),
+    records:archiveIndex.characters.filter(p=>p.title==='Pelegia').length,
+    duplicates:archiveIndex.characters.filter(p=>['Pin','Pell','Pelagia'].includes(p.title)).length,
+    oldArticle:byId.has('pin'),image:archiveIndex.characters.find(p=>p.title==='Pelegia').image,
+    paw:archiveIndex.characters.find(p=>p.title==='Paw')?.article,
+    discovery:npcDiscoveries.entries.find(e=>e.name==='Pin').canonical,
+    sources:byId.get('pelegia').body.includes('1341600560326901790'),
+    regions:archiveIndex.npcs.map(p=>npcRegionLabel(p))
+  }));
+  assert.deepEqual(identity.names,['Pelegia','Pelegia','Pelegia','Pelegia']);
+  assert.equal(identity.records,1); assert.equal(identity.duplicates,0); assert.equal(identity.oldArticle,false);
+  assert(identity.image.includes('pell')); assert.notEqual(identity.paw,'pelegia');
+  assert.equal(identity.discovery,'pelegia'); assert(identity.sources);
+  assert.equal(identity.regions.filter(r=>r==='Region · Fein Uaill').length,8);
+  assert.equal(identity.regions.filter(r=>r==='Region unestablished').length,52);
+  for (const alias of ['pin','pell','pelagia']) {
+    await page.goto(base+'#'+alias); await page.locator('h1').waitFor();
+    assert.equal(await page.locator('h1').innerText(),'Pelegia');
+  }
+  for (const id of ['bitoshi-nakamoto','brianna']) {
+    await page.goto(base+'#'+id); await page.locator('h1').waitFor();
+    assert.equal(await page.locator('.character-reading-path').count(),1);
+    const links=await page.evaluate(()=>[...document.querySelectorAll('#article-content a[href^="#"]')].map(a=>a.hash.slice(1).split('?')[0]).filter(id=>id&&!byId.has(id)&&!routeAliases.has(id)&&!document.getElementById(id)));
+    assert.deepEqual(links,[]);
+  }
+  await page.goto(base+'#people-directory');await page.locator('#people-gallery-query').waitFor();
+  await page.locator('#people-gallery-query').fill('Pin');await page.waitForTimeout(250);
+  assert.equal(await page.locator('#people-gallery [data-character-title="Pelegia"]').count(),1);
+  assert.equal(await page.locator('#people-gallery [data-character-title="Pin"]').count(),0);
+  await page.locator('#people-gallery-query').fill('Poe');await page.waitForTimeout(250);
+  assert.equal(await page.locator('#people-gallery [data-character-title="Poe"] .npc-region-label').textContent(),'Region · Prima');
+  await page.setViewportSize({width:390,height:844});
+  await page.goto(base+'#brianna');await page.locator('h1').waitFor();
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await page.screenshot({path:'/tmp/brianna-dossier-mobile.png'});
+  assert.deepEqual(errors,[]);
+  console.log('PASS canonical player merge, aliases, preserved portrait/scenes, dedicated dossiers, all NPC region labels and mobile layout');
+  await browser.close();
+})().catch(error=>{console.error(error);process.exit(1)});

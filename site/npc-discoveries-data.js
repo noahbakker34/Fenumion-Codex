@@ -35,8 +35,8 @@ window.FENUMION_NPC_DISCOVERIES = {
       "island": "",
       "posts": 148,
       "span": "2025-01-13 → 2025-02-18",
-      "canonical": "pin",
-      "canonicalName": "Pin",
+      "canonical": "pelegia",
+      "canonicalName": "Pelegia",
       "sources": [
         "1328540440550572144"
       ],

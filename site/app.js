@@ -16130,7 +16130,7 @@ function setupAmbientVideos(root = document) {
     video.setAttribute("aria-hidden", "true");
     if (reduceMotion || conserveData) video.pause();
   });
-  if (reduceMotion || conserveData) return;
+  if (reduceMotion || conserveData || [...document.querySelectorAll("video[data-story-scene]")].some(video => !video.paused && !video.ended)) { videos.forEach(video => video.pause()); return; }
   if (!("IntersectionObserver" in window)) {
     videos.forEach(video => { activateAmbientSource(video); if(!document.hidden)video.play().catch(() => {}); });
     return;
@@ -16138,7 +16138,7 @@ function setupAmbientVideos(root = document) {
   ambientVideoObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       const video = entry.target;
-      if (entry.isIntersecting && !document.hidden) {activateAmbientSource(video);video.play().catch(() => {});}
+      if (entry.isIntersecting && !document.hidden && ![...document.querySelectorAll("video[data-story-scene]")].some(scene => !scene.paused && !scene.ended)) {activateAmbientSource(video);video.play().catch(() => {});}
       else video.pause();
     });
   }, { rootMargin: "120px 0px", threshold: .08 });
@@ -16153,7 +16153,7 @@ function activateAmbientSource(video) {
 }
 
 document.addEventListener('visibilitychange',()=>{
-  if(document.hidden)document.querySelectorAll('video[data-ambient-video]').forEach(video=>video.pause());
+  if(document.hidden)document.querySelectorAll('video[data-ambient-video], video[data-story-scene]').forEach(video=>video.pause());
   else setupAmbientVideos(document);
 });
 matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',()=>setupAmbientVideos(document));
@@ -16576,7 +16576,7 @@ function renderArticle(route, pushHash = true) {
   // Preserve existing bookmarks after Vaerik’s world correction.
   if (String(route).split("?")[0] === "vaerik") { location.replace("/gedankin/#vaerik"); return; }
   stopQuoteVoice();
-  articleContent.querySelectorAll("video[data-ambient-video]").forEach(video=>video.pause());
+  articleContent.querySelectorAll("video").forEach(video=>video.pause());
   clearTimeout(featuredContentTimer);
   const [requestedId, routeQuery = ""] = String(route || "").split("?");
   const id = routeAliases.get(requestedId) || requestedId;
@@ -16634,6 +16634,7 @@ function renderArticle(route, pushHash = true) {
   const hero = article.video
     ? `${mapHero}${videoHero}`
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}">${heroCaption(article.imageCaption, "Image preserved in the Fenumion archive.")}</figure>` : "");
+  const scenes = article.scenes?.length ? `<section class="character-scenes" aria-labelledby="character-scenes-title"><h2 id="character-scenes-title">Scenes from the story</h2><div class="image-gallery">${article.scenes.map(scene => `<figure class="gallery-wide"><video data-story-scene controls playsinline preload="none" poster="${escapeHtml(scene.poster)}" aria-label="${escapeHtml(scene.title)}"><source src="${escapeHtml(scene.video)}" type="video/mp4"></video><figcaption><strong>${escapeHtml(scene.title)}</strong><span>${escapeHtml(scene.caption)}</span></figcaption></figure>`).join('')}</div></section>` : '';
   const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
 
   const subchannels = renderSubchannels(article.id);
@@ -16699,7 +16700,7 @@ function renderArticle(route, pushHash = true) {
     ${hubPage ? "" : gallery}
     ${peopleGallery}
     <div class="lead-grid">
-      <div class="article-body">${article.body}${renderIslandNpcCollection(article)}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
+      <div class="article-body">${article.body}${scenes}${renderIslandNpcCollection(article)}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
   const visualConnections = (relationshipMaps[article.id]?.nodes || [])
@@ -16728,6 +16729,11 @@ function renderArticle(route, pushHash = true) {
   if (article.id === "living-timeline") setupTimelineExplorer();
   setupRelationshipMap(article);
   setupReadingPath();
+  articleContent.querySelectorAll('video[data-story-scene]').forEach(video => {
+    video.addEventListener('play', () => document.querySelectorAll('video[data-ambient-video]').forEach(ambient => ambient.pause()));
+    video.addEventListener('pause', () => { if (video.isConnected) setupAmbientVideos(document); });
+    video.addEventListener('ended', () => { if (video.isConnected) setupAmbientVideos(document); });
+  });
   setupAmbientVideos(articleContent);
   applyPlayerSafeRedactions();
   if (article.id === "memorable-quotes") setupQuoteGroups();

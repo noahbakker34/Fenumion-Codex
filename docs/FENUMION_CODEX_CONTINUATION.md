@@ -683,3 +683,10 @@ Visibility lifecycle also verified for a page opened while hidden: no initial vi
 ## Talan video and focused public record · 11 October 2026
 
 Inspected the supplied Talan clip, optimized to silent H.264 406x540 at 542KB, with frame poster. No prior standalone public Talan article existed; created `talan` using only already public Aria/Voraketh histories, attributed creation account preserved. One NPC record, still portrait and one animated `talan-order` backdrop; home island unestablished. Provisional prominence84 based on public consequence/institution/relationships and verified nine-post footprint. NPCs106 / unplaced52; background assignments32. Chrome passed playback, portrait, directory/dialog, internal links, protected-stub and mobile/static-fallback tests; screenshots inspected. App219, media146, character-backgrounds2, styles167. Source hash and asset/evidence details in `docs/CHARACTER_BACKGROUND_THEMES.md`.
+
+
+## Talan vs Aria scene · 11 October 2026
+
+User identified the supplied crossed-swords confrontation as Talan vs Aria. Inspected extracted frames and added the shared scene to both public dossiers. The scene has native playback controls and preload none; ambient backgrounds pause during explicit scene playback. Existing portraits and histories are preserved. Visual depiction adds no chronology, dialogue, outcome or secret lore. Optimized silent H.264 810x540, 5.209 seconds, 526,805 bytes. Source `social_nbakker3437_Slow_motion_staredown_between_two_bitter_enemies__abd1a286-e0d2-4450-9c87-b9c588e2012f_0.mp4`, SHA-256 `973ed27d03f38a4a53e116b09164e4041e8b2ec93fda418f818fc350f645f6eb`. App220, media147, styles168.
+
+Chrome verification passed on both profiles: visible scene panels, decoded playback, ambient pause, route cleanup, reduced-motion mobile zero automatic MP4 requests and successful explicit playback, no overflow or JavaScript errors, 106 NPCs and empty protected records. Mobile screenshot inspected; syntax and diff checks passed.

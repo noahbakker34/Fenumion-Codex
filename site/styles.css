@@ -2640,3 +2640,5 @@ body.character-background-view .mobile-contents { position: relative; z-index: 1
   body.character-background-view .article-rail { z-index: 2; }
 }
 body.character-background-view .breadcrumbs { color: #d7d2c5; text-shadow: 0 1px 3px #000; }
+
+.character-scenes video { display: block; width: 100%; height: auto; max-height: 540px; background: #040b08; }

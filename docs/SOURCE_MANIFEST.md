@@ -244,3 +244,8 @@ Original SHA-256: `d112999b83c85d63bfb7e2b43dc5a1f59c6e7a3b675a929adb31eeaa44a76
 | Talan video | Supplied 11 Oct 2026 | User-identified character depiction | Creator not inferred from filename | Focused public Talan entry; portrait and background | Visual identity only; public history reused from Aria/Voraketh | `site/assets/character-backgrounds/talan-order.mp4` and poster |
 
 Original `social_nbakker3437_An_imposing_god_of_order_prepared_for_battle_with_835951a8-d580-41c4-a0e4-a4b486593a5f_0.mp4` SHA-256: `d9abc767d7383a52fe0a02b4f659df4e174b21a215babadaac6bed478574bcf5`. Optimized video: 542,168 bytes, 406x540, H.264, about 5.209 seconds, silent.
+
+
+## Talan vs Aria scene · 11 October 2026
+
+User identified the supplied crossed-swords confrontation as Talan vs Aria. Inspected extracted frames and added the shared scene to both public dossiers. The scene has native playback controls and preload none; ambient backgrounds pause during explicit scene playback. Existing portraits and histories are preserved. Visual depiction adds no chronology, dialogue, outcome or secret lore. Optimized silent H.264 810x540, 5.209 seconds, 526,805 bytes. Source `social_nbakker3437_Slow_motion_staredown_between_two_bitter_enemies__abd1a286-e0d2-4450-9c87-b9c588e2012f_0.mp4`, SHA-256 `973ed27d03f38a4a53e116b09164e4041e8b2ec93fda418f818fc350f645f6eb`. App220, media147, styles168.

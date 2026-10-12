@@ -579,3 +579,13 @@ Object.assign(window.FENUMION_MEDIA.articles, {
 // User-identified Talan video: still-frame portrait and a single animated backdrop.
 window.FENUMION_MEDIA.characters.Talan = {image:'assets/character-backgrounds/talan-order.jpg',imageAlt:'Talan in ornate gold armor, holding a sword and shield in a mountain setting',imageCaption:'Talan'};
 window.FENUMION_MEDIA.articles.talan = {...window.FENUMION_MEDIA.characters.Talan,imageLayout:'portrait-hero'};
+
+// User identifies this shared visual scene as Talan versus Aria.
+for (const id of ['talan', 'aria-pride']) {
+  window.FENUMION_MEDIA.articles[id] = {...window.FENUMION_MEDIA.articles[id], scenes: [{
+    title: 'Talan vs Aria',
+    video: 'assets/character-scenes/talan-vs-aria.mp4',
+    poster: 'assets/character-scenes/talan-vs-aria.jpg',
+    caption: 'Talan and Aria face one another with crossed swords. A visual depiction of their rivalry.'
+  }]};
+}

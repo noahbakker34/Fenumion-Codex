@@ -716,3 +716,8 @@ Chrome verification passed: original Aerrow portrait and single directory identi
 ## Efficiency pass · 11 October 2026
 
 App221 caches normalized search text/names and source-aware quote extraction; vault-derived rebuilds clear search caches. Eight ambient templates defer sources until visible, with existing poster/static fallbacks. Observer scene detection occurs once per batch. Content, source media, routes, ranking, styles and vault unchanged. Local warmed search median 41.5ms → 1.8ms, identical output for 65 query/filter combinations. Seven normal-video routes, reduce/Save-Data, mobile, scene controls, body/quote/vault cache refresh and locked boundary verified. See `docs/PERFORMANCE.md` and reproducible `scripts/check_codex_efficiency.cjs`.
+
+
+## Missing NPC portraits · 11 October 2026
+
+Added 60 reviewed character-proxy depictions to previously empty public NPC entries; filled 81 empty NPC/discovery page portraits, reusing established images for aliases and new dossiers. All existing portraits and moving scenes retained. Four unresolved entries remain. See `NPC_PORTRAIT_UPDATE.md`; full provenance stays local. Media151; app221 and styles168 unchanged.

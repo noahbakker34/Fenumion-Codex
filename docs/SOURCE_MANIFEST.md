@@ -264,3 +264,8 @@ User identifies the supplied clip as Tarwen. Inspected source frames. Added a pl
 ## Aerrow moving portrait · 11 October 2026
 
 User identifies the supplied clip as Aerrow. Inspected source frames; playable moving portrait added to public `aerrow`, preserving his existing portrait and biography. Visual flames and violet eyes establish no additional powers or events. Native controls, preload none and static poster; existing scene lifecycle reused. Silent H.264, 5.209 seconds, 518,784 bytes. Source `the_gardener_httpss.mj.runm31Gy_oF7nk_Flames_glowing_on_the_b_ccea8de2-b7b3-4d44-8fe5-45edbe3afb27_2.mp4`, SHA-256 `1cd3cacf6dba9fcdcbd44e2633806c3c51dc0371712edef21d7802f4a1968f95`. Media150; app220/styles168 unchanged. Protected records and private vault untouched.
+
+
+## NPC portrait evidence · 11 October 2026
+
+Sixty named Discord character-proxy depictions reviewed for the newly expanded public NPC directory. Image identity follows exact proxy labels and declared aliases, with visual review; depiction adds no biography or canonical appearance claims. Portrait paths and alias reuse are recorded in `NPC_PORTRAIT_UPDATE.md`. Message-level receipt and raw archive remain local.

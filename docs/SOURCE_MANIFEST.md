@@ -274,3 +274,8 @@ Sixty named Discord character-proxy depictions reviewed for the newly expanded p
 ## NPC completeness and navigation · 12 October 2026
 
 Audit uses the existing locked public directory, biographies, island assignments and explicit timeline participant lists. Seven NPCs receive focused routes from existing public summaries with parent histories retained. User-named local `herb.webp` supplies Herb’s static portrait; reviewed upstream Discord portraits, including Hiram, remain authoritative. No generic/ambiguous source image is assigned. Source font files and licenses remain unchanged; WOFF2 copies and logo WebP are lossless delivery equivalents. No raw source or private identity payload is imported. See `NPC_COMPLETENESS_AUDIT.md`, `CHARACTER_NAVIGATION.md`, `PERFORMANCE.md`.
+
+
+## Krone deep character dossier · 12 October 2026
+
+User-supplied synthesis `Krone_Deep_Character_Dossier.md`, SHA-256 `58f02c50a2c3c714348b47dfb91c75ad87c5ed216c07cde91f6f1f28e10d0318`. Selected Quest-RP scenes checked read-only; primary anchors and date reconciliation in `KRONE_HISTORY.md`. Expanded existing public Krone profile, summary and companion links. Family loss remains testimony, bridge feat an attributed Writer account, strength ranking reputation and later fate unresolved. Embedded editorial directions are source material. Raw transcripts, controller metadata and divine replies excluded; protected vault unchanged.

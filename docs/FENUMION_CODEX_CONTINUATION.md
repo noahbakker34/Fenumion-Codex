@@ -742,3 +742,8 @@ User saved `CLOUDFLARE_EXISTING_VAULT_TOKEN`; no secret value was read or logged
 ## Public art gallery and consistent menu · 12 October 2026
 
 Added `art-of-fenumion` with 226 existing public artwork URLs, collection/search filters, 24-item pages, full-size viewing and story links. Community credit retained; no invented artist attribution. Private records and embedded media are always excluded, including after unlock. Persistent 78px desktop rail uses the supplied home-menu appearance across Fenumion and Gedankin; mobile keeps its labeled drawer. Shared layout10, Fenumion app223/art-gallery1 and Gedankin app26. Gallery, navigation, responsive layouts, source destinations and protected-content isolation checked in Chrome. See `ART_AND_NAVIGATION.md`. No private vault changes.
+
+
+## Krone deep character dossier · 12 October 2026
+
+Integrated supplied Krone synthesis into his existing article and navigation, preserving artwork and earlier expedition/castle history. Family grief, dragon vengeance and restraint, Elenia as chosen family, strength against helplessness, attributed bridge feat and remembered laughter deepen the record. Selected primary scenes verified; October/November and UTC/local posting-date distinctions documented in `KRONE_HISTORY.md`. Fate and absolute strength ranking remain unresolved; no direct Cala allegiance or new divine secrets. App224.

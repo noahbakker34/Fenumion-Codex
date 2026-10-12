@@ -589,3 +589,14 @@ for (const id of ['talan', 'aria-pride']) {
     caption: 'Talan and Aria face one another with crossed swords. A visual depiction of their rivalry.'
   }]};
 }
+
+// User-identified Zarathian fleet at the Shining Shores.
+for (const id of ['shining-shores', 'zarathis']) {
+  const media = window.FENUMION_MEDIA.articles[id] || {};
+  window.FENUMION_MEDIA.articles[id] = {...media, scenes: [...(media.scenes || []), {
+    title: 'The Zarathian fleet at the Shining Shores',
+    video: 'assets/location-scenes/zarathian-fleet.mp4',
+    poster: 'assets/location-scenes/zarathian-fleet.jpg',
+    caption: 'White-and-gold sails cross clear blue water. The Zarathian fleet at the Shining Shores, as identified in the supplied visual record.'
+  }]};
+}

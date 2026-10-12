@@ -249,3 +249,8 @@ Original `social_nbakker3437_An_imposing_god_of_order_prepared_for_battle_with_8
 ## Talan vs Aria scene · 11 October 2026
 
 User identified the supplied crossed-swords confrontation as Talan vs Aria. Inspected extracted frames and added the shared scene to both public dossiers. The scene has native playback controls and preload none; ambient backgrounds pause during explicit scene playback. Existing portraits and histories are preserved. Visual depiction adds no chronology, dialogue, outcome or secret lore. Optimized silent H.264 810x540, 5.209 seconds, 526,805 bytes. Source `social_nbakker3437_Slow_motion_staredown_between_two_bitter_enemies__abd1a286-e0d2-4450-9c87-b9c588e2012f_0.mp4`, SHA-256 `973ed27d03f38a4a53e116b09164e4041e8b2ec93fda418f818fc350f645f6eb`. App220, media147, styles168.
+
+
+## Zarathian fleet at the Shining Shores · 11 October 2026
+
+User identifies the supplied clip as the Zarathian fleet at the Shining Shore; existing canonical location remains The Shining Shores. Inspected frames show white-and-gold sails over clear blue water. Shared playable scene added to public Shining Shores and Zarathis entries without changing their existing artwork, history or location videos. No naval strength, command, date, destination, conflict or outcome inferred. Native controls, preload none, static poster and existing ambient pause behavior. Silent H.264 300x540, 5.209 seconds, 530,421 bytes. Source `the_gardener_Slowly_sailing_with_a_drone_shot_style_and_lens__6e02eafb-5ba9-456e-abb1-f9b8ec19c5d9_3.mp4`, SHA-256 `8fbd2ed7aea85c563355a1bcb31ccac1eb1fa45398dd45c838491f5af87069bf`. Media148; app220/styles168 reused. Death disappearance remains solely in the private vault and is not included in this public deployment.

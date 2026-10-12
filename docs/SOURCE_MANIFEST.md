@@ -259,3 +259,8 @@ User identifies the supplied clip as the Zarathian fleet at the Shining Shore; e
 ## Tarwen moving portrait · 11 October 2026
 
 User identifies the supplied clip as Tarwen. Inspected source frames. Added a playable moving portrait to `tarwen-silver-star`, preserving the existing Discord portrait, character directory identity and public biography. Depicted armor, wolf pelt and sword do not imply additional equipment powers, events or lore. Native playback controls, preload none, static poster and existing ambient pause behavior. Silent H.264 768x512, 5.209 seconds, 521,686 bytes. Source `the_gardener_A_grim_handsome_green_eyed_warrior_--ar_32_--mot_2208dc24-eccc-425c-8d92-e87571292c7d_0.mp4`, SHA-256 `edf579f834f3930210f42f735f05813dd424cf0f4b05298b07064f63a70467cc`. Media149; app220/styles168 reused. Protected records and vault payload untouched.
+
+
+## Aerrow moving portrait · 11 October 2026
+
+User identifies the supplied clip as Aerrow. Inspected source frames; playable moving portrait added to public `aerrow`, preserving his existing portrait and biography. Visual flames and violet eyes establish no additional powers or events. Native controls, preload none and static poster; existing scene lifecycle reused. Silent H.264, 5.209 seconds, 518,784 bytes. Source `the_gardener_httpss.mj.runm31Gy_oF7nk_Flames_glowing_on_the_b_ccea8de2-b7b3-4d44-8fe5-45edbe3afb27_2.mp4`, SHA-256 `1cd3cacf6dba9fcdcbd44e2633806c3c51dc0371712edef21d7802f4a1968f95`. Media150; app220/styles168 unchanged. Protected records and private vault untouched.

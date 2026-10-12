@@ -608,3 +608,11 @@ window.FENUMION_MEDIA.articles['tarwen-silver-star'].scenes = [{
   poster: 'assets/character-scenes/tarwen.jpg',
   caption: 'Tarwen in dark armor, with a wolf pelt and a sword on his back. Supplied moving portrait.'
 }];
+
+// User identifies the supplied moving portrait as Aerrow.
+window.FENUMION_MEDIA.articles.aerrow.scenes = [{
+  title: 'Aerrow · Moving portrait',
+  video: 'assets/character-scenes/aerrow.mp4',
+  poster: 'assets/character-scenes/aerrow.jpg',
+  caption: 'Aerrow with pale hair and glowing violet eyes, framed by flames and sparks. Supplied moving portrait.'
+}];

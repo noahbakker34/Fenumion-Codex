@@ -16142,12 +16142,10 @@ function activateAmbientSource(video) {
 }
 
 document.addEventListener('visibilitychange',()=>{
-  document.querySelectorAll('video[data-ambient-video]').forEach(video=>{
-    if(document.hidden){video.dataset.resumeAmbient=String(!video.paused);video.pause();}
-    else if(video.dataset.resumeAmbient==='true' && !matchMedia('(prefers-reduced-motion: reduce)').matches){video.play().catch(()=>{});delete video.dataset.resumeAmbient;}
-  });
+  if(document.hidden)document.querySelectorAll('video[data-ambient-video]').forEach(video=>video.pause());
+  else setupAmbientVideos(document);
 });
-matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',()=>setupAmbientVideos(articleContent));
+matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',()=>setupAmbientVideos(document));
 
 function isRestrictedArticle(id) {
   return restrictedArticleIds.has(id);

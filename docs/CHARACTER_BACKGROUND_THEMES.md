@@ -24,7 +24,7 @@ Only the active theme is mounted. Sources are deferred with `data-src` and loade
 
 Chrome verified all 31 assignment targets exist and are public, decoded one representative of all five themes, checked muted/loop/preload behavior, active route cleanup, hidden-tab pause/resume, and zero MP4 requests in reduced-motion and Save-Data modes. Mobile 390px layout has no horizontal overflow. Desktop/mobile screenshots were inspected and layering repaired to keep navigation and breadcrumbs visible. No JavaScript errors. Syntax and diff checks passed.
 
-Module `character-backgrounds.js?v=1`, app217, styles167. Authenticated vault and protected records are unchanged.
+Module `character-backgrounds.js?v=1`, app218, styles167. Authenticated vault and protected records are unchanged.
 
 ## Source receipt
 
@@ -33,3 +33,5 @@ Module `character-backgrounds.js?v=1`, app217, styles167. Authenticated vault an
 - `the_gardener_Gate_flashing_with_arcane_lightning_--ar_11_--vi_6583134c-8659-4e8a-817c-95b18696729d_0.mp4` → `arcane-gate`: original SHA-256 `26c7a2881246108c9f9bc406795708565867ca5c9f386a11ffd7bb6624f7bcd7`; optimized MP4 551195 bytes.
 - `the_gardener_Giant_elven_funeral_procession_tens_of_thousands_02c4651d-41e6-409a-83d1-4497ae8b5340_0.mp4` → `remembrance`: original SHA-256 `51f22ebb0d7e010b2ce18166d64f41c9dd83427237bb5e4565b432cc8604c4b6`; optimized MP4 545339 bytes.
 - `the_gardener_The_shadow_of_a_god_in_a_forest_with_stark_contr_1ead0dab-1d2d-4089-9f3e-b75e512b5d02_0.mp4` → `sacred-forest`: original SHA-256 `b634a9b38ecc229e3281e1fd643490a7e4f5b8a31536d1364f919b6980e879a3`; optimized MP4 532648 bytes.
+
+Visibility lifecycle also verified for a page opened while hidden: no initial video request, then normal playback on becoming visible. Reduced-motion changes apply to all ambient media, including dialogs.

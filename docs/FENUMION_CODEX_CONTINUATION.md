@@ -737,3 +737,8 @@ Public deployment `876fda9` succeeded and index/app/media/styles/WOFF2/logo matc
 ## Vault publishing restored · 12 October 2026
 
 User saved `CLOUDFLARE_EXISTING_VAULT_TOKEN`; no secret value was read or logged. Repaired publisher run `38266179334` on private commit `14f51ce` completed successfully: payload validation, upload to the existing live account/namespace and full JSON read-back verification all passed. The verified source contains the private embedded Death disappearance scene. Unauthenticated `https://auth.fenumion.com/vault/data` returned 401. No Worker roles or authorization settings changed. NPC audit, character navigation and mobile loading were completed and published before this final vault repair. All four requested follow-ups are now completed.
+
+
+## Public art gallery and consistent menu · 12 October 2026
+
+Added `art-of-fenumion` with 226 existing public artwork URLs, collection/search filters, 24-item pages, full-size viewing and story links. Community credit retained; no invented artist attribution. Private records and embedded media are always excluded, including after unlock. Persistent 78px desktop rail uses the supplied home-menu appearance across Fenumion and Gedankin; mobile keeps its labeled drawer. Shared layout10, Fenumion app223/art-gallery1 and Gedankin app26. Gallery, navigation, responsive layouts, source destinations and protected-content isolation checked in Chrome. See `ART_AND_NAVIGATION.md`. No private vault changes.

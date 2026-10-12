@@ -14547,6 +14547,10 @@ for (const [name, id] of [
   if (media) window.FENUMION_MEDIA.articles[id] = {...media, imageLayout: 'portrait-hero'};
 }
 
+articles.push({id:'art-of-fenumion',title:'The Art of Fenumion',category:'Archive',type:'Art gallery',dek:'Portraits, places, community creations and scenes from the Sea of Dreams.',tags:['Art','Portraits','Community','Places'],facts:{Collection:'Public artwork',Community:'Ececilia’s character art'},sources:['Existing public character portraits, location artwork and community collection'],body:`<p>Explore the faces, landscapes and imagined moments that give Fenumion its visual life. Open a work at full size, or follow it into the history it accompanies.</p><p><a href="#ececilia-emojis">Explore Ececilia’s complete community collection →</a></p><section class="fenumion-art-gallery" data-art-gallery aria-label="Browse The Art of Fenumion"><div class="art-controls"><label>Search artwork<input type="search" data-art-query placeholder="Name, place, or scene…"></label><label>Collection<select data-art-kind><option value="">All artwork</option><option>Characters</option><option>Places &amp; maps</option><option>Community art</option><option>Scenes</option></select></label></div><p data-art-count role="status" aria-live="polite"></p><div class="fenumion-art-grid" data-art-grid tabindex="-1"></div><div class="art-pagination"><button type="button" data-art-previous>Previous</button><span data-art-page></span><button type="button" data-art-next>Next</button></div></section>`});
+navigationRegions.push({title:'The Art of Fenumion',article:'art-of-fenumion',glyph:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18h1a2 2 0 0 0 1.5-3.3 1.5 1.5 0 0 1 1.2-2.5H18a3 3 0 0 0 3-3.2A9 9 0 0 0 12 3Z"/><circle cx="7" cy="10" r="1"/><circle cx="10" cy="6.5" r="1"/><circle cx="15" cy="7" r="1"/><circle cx="17.5" cy="11" r="1"/></svg>',branches:[{title:'Art & community',items:[{label:'The Art of Fenumion',article:'art-of-fenumion'},{label:'Ececilia’s collection',article:'ececilia-emojis'}]}]});
+fixedArticlePaths.set('art-of-fenumion',['The Art of Fenumion']);
+
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
@@ -16444,15 +16448,26 @@ function setupRelationshipMap(article) {
   });
 }
 
+function updateNavigationHighlight(article) {
+  const region = isPlayerSafeArticle(article.id) ? navigationRegions.find(region => region.article === article.id || region.branches.some(branch => branch.items.some(item => item.article === article.id))) : null;
+  const context = region?.article || (isPlayerSafeArticle(article.id) && searchCategory(article) === 'character' ? 'people-directory' : isLocationArticle(article) ? 'visual-archive' : null);
+  document.querySelectorAll('[data-nav-article]').forEach(link => {
+    const active = link.dataset.navArticle === article.id || (link.classList.contains('nav-region-link') && link.dataset.navArticle === context);
+    link.classList.toggle('active', active);
+    if (active) link.setAttribute('aria-current', link.dataset.navArticle === article.id ? 'page' : 'true');
+    else link.removeAttribute('aria-current');
+  });
+}
+
 function renderNavigation() {
-  navigation.innerHTML = `<button type="button" class="nav-link starter-nav-link" data-article="start-here" data-nav-article="start-here" data-label="Start Here · New readers" aria-label="Start Here · Guide for new readers"><span class="starter-nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C9 3.7 5.7 3.4 2.5 4.5v15c3.2-1.1 6.5-.8 9.5 1 3-1.8 6.3-2.1 9.5-1v-15c-3.2-1.1-6.5-.8-9.5 1Z"/><path d="M12 5.5v15M6 8h2.5M6 11h2.5M15.5 8H18M15.5 11H18"/></svg></span><span class="starter-nav-copy"><strong>Start Here</strong><small>New readers</small></span><span class="starter-nav-arrow" aria-hidden="true">›</span></button>
+  navigation.innerHTML = `<button type="button" class="nav-link starter-nav-link" data-article="start-here" data-nav-article="start-here" title="Start Here · New readers" data-label="Start Here · New readers" aria-label="Start Here · Guide for new readers"><span class="starter-nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C9 3.7 5.7 3.4 2.5 4.5v15c3.2-1.1 6.5-.8 9.5 1 3-1.8 6.3-2.1 9.5-1v-15c-3.2-1.1-6.5-.8-9.5 1Z"/><path d="M12 5.5v15M6 8h2.5M6 11h2.5M15.5 8H18M15.5 11H18"/></svg></span><span class="starter-nav-copy"><strong>Start Here</strong><small>New readers</small></span><span class="starter-nav-arrow" aria-hidden="true">›</span></button>
     <button type="button" class="ethos-sidebar-link nav-only-ethos" data-article="ethos-of-fenumion" data-nav-article="ethos-of-fenumion" data-label="Begin the Chronicle · The Ethos of Fenumion">
       <span class="ethos-sidebar-glyph" aria-hidden="true">✦</span>
       <span class="ethos-sidebar-copy"><strong>The Ethos of Fenumion</strong><small>Player ethos &amp; chronicle guide</small></span>
       <span aria-hidden="true">›</span>
     </button>` + navigationRegions.map(region => `
     <section class="nav-region">
-      <button type="button" class="nav-region-link${isPlayerSafeArticle(region.article) ? "" : " restricted-link"}" data-article="${region.article}" data-nav-article="${region.article}" data-label="${isPlayerSafeArticle(region.article) ? escapeHtml(region.title) : "Veiled record"}" aria-label="${protectedRecordAria(`Browse ${region.title}`, !isPlayerSafeArticle(region.article))}">
+      <button type="button" class="nav-region-link${isPlayerSafeArticle(region.article) ? "" : " restricted-link"}" data-article="${region.article}" data-nav-article="${region.article}" data-label="${isPlayerSafeArticle(region.article) ? escapeHtml(region.title) : "Veiled record"}" title="${isPlayerSafeArticle(region.article) ? escapeHtml(region.title) : "Veiled record"}" aria-label="${protectedRecordAria(`Browse ${region.title}`, !isPlayerSafeArticle(region.article))}">
         <span class="nav-region-glyph" aria-hidden="true">${region.glyph}</span><strong>${protectedRecordTitle(region.title, !isPlayerSafeArticle(region.article))}</strong><span>›</span>
       </button>
       <div class="nav-region-tree">${region.branches.map(branch => `
@@ -16627,6 +16642,7 @@ function renderArticle(route, pushHash = true) {
   document.body.classList.toggle('death-view',deathRelated);
   document.body.classList.toggle('character-background-view',Boolean(characterBackgroundTheme));
   document.body.classList.toggle("home-view", article.id === "world-index");
+  document.body.classList.toggle("art-view", article.id === "art-of-fenumion");
   document.body.classList.remove("record-layout-view");
   document.body.classList.toggle("hub-view", Boolean(hubPage));
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
@@ -16645,7 +16661,7 @@ function renderArticle(route, pushHash = true) {
   breadcrumbs.innerHTML = protectedArticle ? `Codex <span>·</span> Protected record` : `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
   if (protectedArticle) {
     renderVaultGate(article);
-    document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));
+    updateNavigationHighlight(article);
     closePanels();
     window.scrollTo({ top: 0, behavior: "auto" });
     return;
@@ -16749,12 +16765,13 @@ function renderArticle(route, pushHash = true) {
   const hasConnections=visualConnections.length>0;
   if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
   const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
-  window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
   if (article.id === "world-index") {
     setupWorldBrowser();
     setupFeaturedContent();
   }
   if (article.id === "people-directory") setupPeopleGallery();
+  if (article.id === "art-of-fenumion") window.setupFenumionArt?.(articleContent);
   if (article.id === "npc-discovery-registry") window.setupNpcDiscoveries?.(articleContent);
   if (article.id === "factions") setupFactionDirectory();
   if (article.id === "player-perspectives") window.setupPlayerPerspectives?.(articleContent);
@@ -16771,7 +16788,7 @@ function renderArticle(route, pushHash = true) {
   applyPlayerSafeRedactions();
   if (article.id === "memorable-quotes") setupQuoteGroups();
   setupQuoteVoices();
-  document.querySelectorAll("[data-nav-article]").forEach(link => link.classList.toggle("active", link.dataset.navArticle === article.id));
+  updateNavigationHighlight(article);
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
   buildContents();
   closePanels();

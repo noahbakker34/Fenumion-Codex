@@ -235,3 +235,86 @@
   .codex-world.record-layout-view .article-header { padding: 1rem; }
   .codex-world.hub-view.record-layout-view .record-visual-rail .hub-switcher { grid-template-columns: repeat(2,minmax(0,1fr)); }
 }
+
+/* One persistent compact desktop menu across both connected codices. */
+@media (min-width: 761px) {
+  body.codex-world .app-shell,
+  body.codex-world:not(.home-view) .app-shell {
+    width: calc(100% - 78px); margin: 0 0 0 78px; max-width: none;
+    grid-template-columns: minmax(0,1fr) 190px; border: 0;
+  }
+  body.codex-world.home-view .app-shell,
+  body.codex-world.hub-view .app-shell,
+  body.codex-world.player-perspectives-view .app-shell { grid-template-columns: minmax(0,1fr); }
+  body.codex-world .sidebar,
+  body.codex-world:not(.home-view) .sidebar {
+    position: fixed; inset: 0 auto 0 0; z-index: 80; width: 78px; height: 100vh;
+    max-height: 100vh; overflow: auto; padding: 1.1rem .55rem;
+    background: rgba(14,17,23,.98); border-right: 1px solid rgba(212,180,109,.14);
+    scrollbar-width: none; transform: none;
+  }
+  body.codex-world .sidebar::-webkit-scrollbar { display: none; }
+  body.codex-world .sidebar::before {
+    content: ''; display: block; width: 48px; height: 48px; margin: 0 auto 1.3rem;
+    background: #fff url('fenumion-logo.webp') center / 152% no-repeat;
+    border: 1px solid var(--gold-bright); border-radius: 50%; box-shadow: 0 0 0 5px rgba(212,180,109,.06);
+  }
+  body.gedankin-world .sidebar::before { background: transparent url('gedankin/sigil.svg') center / contain no-repeat; }
+  body.codex-world .sidebar :is(.sidebar-intro,.nav-region-tree,.archive-note,.archive-links,.nav-only-ethos),
+  body.codex-world .sidebar .world-switcher :is(.eyebrow,small) { display: none; }
+  body.codex-world .world-switcher { gap: .45rem; margin-bottom: 1rem; padding-bottom: .8rem; }
+  body.codex-world .world-switch { display: grid; justify-items: center; gap: .35rem; padding: .5rem .1rem; }
+  body.codex-world .world-switch-name { font: .6rem/1.3 var(--sans); }
+  body.codex-world .sidebar .nav-region { margin: 0 0 .55rem; padding: 0 0 .55rem; border-bottom: 1px solid rgba(255,255,255,.06); }
+  body.codex-world .sidebar :is(.nav-region-link,.starter-nav-link) {
+    display: grid; width: 58px; height: 58px; min-height: 58px; grid-template-columns: 1fr;
+    place-items: center; gap: 0; padding: 0; margin: 0; position: relative;
+    background: transparent; border: 1px solid transparent; border-radius: 5px;
+  }
+  body.codex-world .sidebar .starter-nav-link { margin-bottom: .55rem; }
+  body.codex-world .sidebar :is(.starter-nav-copy,.starter-nav-arrow,.nav-region-link strong,.nav-region-link > span:last-child) { display: none; }
+  body.codex-world .sidebar .nav-region-glyph { font-size: 1.15rem; }
+  body.codex-world .sidebar .nav-region-glyph svg { width: 23px; height: 23px; display: block; }
+  body.codex-world .sidebar :is(.nav-region-link,.starter-nav-link).active,
+  body.codex-world .sidebar :is(.nav-region-link,.starter-nav-link):hover { border-color: rgba(212,180,109,.45); background: rgba(212,180,109,.08); }
+  body.codex-world .sidebar :is(.nav-region-link,.starter-nav-link)::after { display: none; }
+  body.codex-world:not(.home-view) .topbar { margin-left: 78px; width: calc(100% - 78px); display: flex; }
+  body.codex-world:not(.home-view) .topbar .brand { flex: 0 1 220px; min-width: 0; }
+  body.codex-world:not(.home-view) .topbar .search-shell { flex: 1; min-width: 120px; }
+  body.codex-world:not(.home-view) .topbar .topbar-actions { flex: 0 0 auto; }
+  body.codex-world .article-rail { top: 72px; }
+}
+@media (min-width: 761px) and (max-width: 1100px) {
+  body.codex-world .app-shell, body.codex-world:not(.home-view) .app-shell { grid-template-columns: minmax(0,1fr); }
+  body.codex-world .topbar .topbar-actions { display: none; }
+}
+/* Keep the labeled mobile drawer consistent across home and reading pages. */
+@media (max-width: 760px) {
+  body.codex-world .sidebar { background: rgba(14,17,23,.98); }
+  body.codex-world .sidebar .nav-region-glyph svg { width: 24px; height: 24px; }
+}
+.fenumion-art-gallery { margin: 1.5rem 0; }
+.art-controls { display: flex; flex-wrap: wrap; gap: 1rem; }
+.art-controls label { display: grid; gap: .4rem; flex: 1; min-width: 180px; }
+.art-controls :is(input,select) { width: 100%; min-height: 44px; padding: .7rem; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 5px; font: inherit; }
+.fenumion-art-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.1rem; }
+.fenumion-art-card { margin: 0; overflow: hidden; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+.fenumion-art-card > a { display: grid; place-items: center; padding: .75rem; background: #080e0d; }
+.fenumion-art-card img { display: block; width: 100%; height: 280px; object-fit: contain; }
+.fenumion-art-card figcaption { padding: 1rem; }
+.fenumion-art-card h3 { margin: .35rem 0; font-size: 1.3rem; }
+.fenumion-art-card p { font-size: .95rem; }
+.fenumion-art-card small { color: var(--muted); }
+.art-pagination { display: flex; align-items: center; justify-content: center; gap: 1rem; margin: 1.5rem 0; }
+.art-pagination button { min-height: 44px; padding: .6rem .9rem; color: var(--gold-bright); background: var(--panel); border: 1px solid var(--line); border-radius: 5px; cursor: pointer; }
+.art-pagination button:disabled { opacity: .45; cursor: default; }
+@media (max-width: 1100px) { .fenumion-art-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 600px) { .fenumion-art-grid { grid-template-columns: minmax(0,1fr); } }
+@media (min-width: 761px) {
+  body.codex-world .sidebar .starter-nav-link { border-color: rgba(212,180,109,.45); background: rgba(212,180,109,.04); }
+  body.codex-world.art-view .app-shell { grid-template-columns: minmax(0,1fr); }
+}
+body.codex-world.art-view .article-rail,
+body.codex-world.art-view .infobox { display: none; }
+body.codex-world.art-view .lead-grid { display: block; }
+body.codex-world.art-view .article-body { max-width: none; }

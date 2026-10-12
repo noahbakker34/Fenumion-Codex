@@ -1409,3 +1409,693 @@ Object.assign(window.FENUMION_MEDIA.articles, {
 const herbRecoveredPortrait = {image:'assets/characters/herb.webp',imageAlt:'Herb seated in a tavern, holding a mug',imageCaption:'Herb Shepard'};
 window.FENUMION_MEDIA.characters['Herb Shepard'] = herbRecoveredPortrait;
 window.FENUMION_MEDIA.articles.herb = {...window.FENUMION_MEDIA.articles.herb,...herbRecoveredPortrait,imageLayout:'portrait-hero'};
+
+// BEGIN REVIEWED FEIN UAILL LOCATION ART 2026-10-12
+window.FENUMION_LOCATION_ART = [
+  {
+    "reviewNumber": 16,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/496ea1a8202644db8315250af60c21a77f56470caa735a700b2b2b88ad3fdada.webp",
+    "title": "Fein Uaill — map handout",
+    "confidence": "clear",
+    "originalSha256": "496ea1a8202644db8315250af60c21a77f56470caa735a700b2b2b88ad3fdada",
+    "publishedSha256": "bcc89e2ec3a4702b129213379f1939c53b737e75f808b4cc6929e91853881c38"
+  },
+  {
+    "reviewNumber": 39,
+    "article": "caislean-na-bron",
+    "image": "assets/locations/discord/bade7fd96ec0b9cc508839a653d28ea09e398240e2747b70281837fc04a667c8.webp",
+    "title": "Caisleán na Bróin — castle and vineyards",
+    "confidence": "clear",
+    "originalSha256": "bade7fd96ec0b9cc508839a653d28ea09e398240e2747b70281837fc04a667c8",
+    "publishedSha256": "2773a43c1f788b1e726b6e7eea7d89ee69e3be5d9aa1589cd234a943902b9b7a"
+  },
+  {
+    "reviewNumber": 41,
+    "article": "caislean-na-bron",
+    "image": "assets/locations/discord/e6191e0355405eac19c669f5d913d21944c8d3e11fc71faf09eb12b4f5100a75.webp",
+    "title": "Caisleán na Bróin — courtyard",
+    "confidence": "clear",
+    "originalSha256": "e6191e0355405eac19c669f5d913d21944c8d3e11fc71faf09eb12b4f5100a75",
+    "publishedSha256": "81f3c9f565883abbd4f3d8652098f57613d12ba3b45c8dbbd60af1e628b3bcf2"
+  },
+  {
+    "reviewNumber": 70,
+    "article": "zarathis",
+    "image": "assets/locations/discord/0aa0138417a114945e954814df87d2a33f7dfaf866b5ddfa2ef3a817fedd30a8.webp",
+    "title": "Zarathis — arena gates",
+    "confidence": "clear",
+    "originalSha256": "0aa0138417a114945e954814df87d2a33f7dfaf866b5ddfa2ef3a817fedd30a8",
+    "publishedSha256": "a964518d4c17a828c426fa01c2aae713c5799297ccc088ea3b0052160136a2a9"
+  },
+  {
+    "reviewNumber": 74,
+    "article": "zarathis",
+    "image": "assets/locations/discord/87ccb9795acec0513c423875dfbb7afadf6074737402ef9ecec4bac5bc097dd2.webp",
+    "title": "Zarathis — ceremony hall plan",
+    "confidence": "clear",
+    "originalSha256": "87ccb9795acec0513c423875dfbb7afadf6074737402ef9ecec4bac5bc097dd2",
+    "publishedSha256": "0296246c5b0017fc089dea26eb8e2cf101269944e2c36717eb3ad3ed72f5f2ea"
+  },
+  {
+    "reviewNumber": 79,
+    "article": "ciaranach",
+    "image": "assets/locations/discord/c22eb96c9ad83bf1e8bb9c4d420c3dccb37b379be37a55ff824d4e88c1119e9b.webp",
+    "title": "Ciaránach pilgrimage — old dirt path",
+    "confidence": "clear",
+    "originalSha256": "c22eb96c9ad83bf1e8bb9c4d420c3dccb37b379be37a55ff824d4e88c1119e9b",
+    "publishedSha256": "2d2194fe4493585b77bc1e0f021314ae116e1bd24556e8b2baf618508906c4d7"
+  },
+  {
+    "reviewNumber": 81,
+    "article": "ciaranach",
+    "image": "assets/locations/discord/40bbb6e2ea15a06f08c7dc4c3128042c15405632b9ae2ef5fdd3d666e858ab8f.webp",
+    "title": "Ciaránach pilgrimage — snowy mountains",
+    "confidence": "clear",
+    "originalSha256": "40bbb6e2ea15a06f08c7dc4c3128042c15405632b9ae2ef5fdd3d666e858ab8f",
+    "publishedSha256": "d1b8ee266cac9ff5388d58a8c33ebc80575b2319c3c5ebcdecdcc051a084ca8b"
+  },
+  {
+    "reviewNumber": 82,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/e4b37158af482ca5f2662ac1cce4aa3c4ec39a956b43c2a9cf7aa9b2290b5413.webp",
+    "title": "Old fortress northeast of Zarathis",
+    "confidence": "clear",
+    "originalSha256": "e4b37158af482ca5f2662ac1cce4aa3c4ec39a956b43c2a9cf7aa9b2290b5413",
+    "publishedSha256": "ba700d279bcec346e6737671698beb0278cdfd5f2584342b3f0d5a1199ab9c25"
+  },
+  {
+    "reviewNumber": 88,
+    "article": "zarathis",
+    "image": "assets/locations/discord/7b7daedd3e1e5abefc70da4b63d6ca23c53914ef461d3075c234300cd6e67580.webp",
+    "title": "Zarathis — city during mourning",
+    "confidence": "clear",
+    "originalSha256": "7b7daedd3e1e5abefc70da4b63d6ca23c53914ef461d3075c234300cd6e67580",
+    "publishedSha256": "ae552eec74290610a219635579e42f1227234bbc8bd4455436a3557ea9bf6325"
+  },
+  {
+    "reviewNumber": 89,
+    "article": "zarathis",
+    "image": "assets/locations/discord/6d7f6383c9776bf09b74432d9eadcc549cb7f6f2da1436cdb9bcffea7b468f62.webp",
+    "title": "Zarathis — private council pavilion",
+    "confidence": "clear",
+    "originalSha256": "6d7f6383c9776bf09b74432d9eadcc549cb7f6f2da1436cdb9bcffea7b468f62",
+    "publishedSha256": "43d43bf154e79021ae8fe8b7378c3a312761579369f8088fcc06a4f8af8d50e9"
+  },
+  {
+    "reviewNumber": 91,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/eb6e428df2c2b3c44d21cf2f4aacff99472fc4bb69e2c405e5635688a3ed995d.webp",
+    "title": "Fein Uaill memorial — evening venue",
+    "confidence": "qualified",
+    "originalSha256": "eb6e428df2c2b3c44d21cf2f4aacff99472fc4bb69e2c405e5635688a3ed995d",
+    "publishedSha256": "7bbc955922d15cfb40190a7e00508be63aa5ea0c02cb3b92b6086ccce163cad6"
+  },
+  {
+    "reviewNumber": 93,
+    "article": "ciaranach",
+    "image": "assets/locations/discord/5ab43580425b16e7c801036f0c7fce259841f0e1af6f34b9a0540f17caa25c3c.webp",
+    "title": "Ciaránach — white steps and public address",
+    "confidence": "clear",
+    "originalSha256": "5ab43580425b16e7c801036f0c7fce259841f0e1af6f34b9a0540f17caa25c3c",
+    "publishedSha256": "50c9f58e197aba4430ff7b91576ea1b50dd4d2e94105765db46c9151a8a99c2f"
+  },
+  {
+    "reviewNumber": 104,
+    "article": "shining-shores",
+    "image": "assets/locations/discord/e9587790cf9bc3392f0ca07402cf83c8d659001c4b15a65e38d3fed7d3d53be8.webp",
+    "title": "The Shining Shores — harbor-city reference",
+    "confidence": "clear",
+    "originalSha256": "e9587790cf9bc3392f0ca07402cf83c8d659001c4b15a65e38d3fed7d3d53be8",
+    "publishedSha256": "e34f64c1d82a9d327f4e8139a6622b466bd9acc071df3d5e7bc959cdff6cbacb"
+  },
+  {
+    "reviewNumber": 108,
+    "article": "zarathis",
+    "image": "assets/locations/discord/b28f779f90f638bd590c747bec0c552dd4dace7537833460550762f1af2bd927.webp",
+    "title": "Zarathis — city overview",
+    "confidence": "clear",
+    "originalSha256": "b28f779f90f638bd590c747bec0c552dd4dace7537833460550762f1af2bd927",
+    "publishedSha256": "97c559443b9854bfa936ee3d81f4eea51fdf3c3b71c91087aa155477ccacdd69"
+  },
+  {
+    "reviewNumber": 109,
+    "article": "zarathis",
+    "image": "assets/locations/discord/f2c953d265ffec612af97e0ad5fc465ffe6aafe135645b305f0ad1a2afc804a1.webp",
+    "title": "Zarathis — library exterior",
+    "confidence": "clear",
+    "originalSha256": "f2c953d265ffec612af97e0ad5fc465ffe6aafe135645b305f0ad1a2afc804a1",
+    "publishedSha256": "7ee08ebdaa1326f0ef8376f86e18befa3ec3b3d50e1748de072297ffd99bbc6b"
+  },
+  {
+    "reviewNumber": 110,
+    "article": "zarathis",
+    "image": "assets/locations/discord/9afb5bd0134a536ed0ea5e95a66a707698aab52193b8d5903f5bcb8f1ee27c52.webp",
+    "title": "Zarathis — library interior",
+    "confidence": "clear",
+    "originalSha256": "9afb5bd0134a536ed0ea5e95a66a707698aab52193b8d5903f5bcb8f1ee27c52",
+    "publishedSha256": "fa1336811ab8b69a62058ed28994aeac673a25cbe694b29df8928d691d2e436d"
+  },
+  {
+    "reviewNumber": 111,
+    "article": "zarathis",
+    "image": "assets/locations/discord/fff0c09557e1c52e6de9b1888bfc6ce502b6f69e835b7a514ce5fc9a8c9b385c.webp",
+    "title": "Zarathis — greenhouse restaurant, first view",
+    "confidence": "clear",
+    "originalSha256": "fff0c09557e1c52e6de9b1888bfc6ce502b6f69e835b7a514ce5fc9a8c9b385c",
+    "publishedSha256": "3a698a5f1271954efde29ea03c301d33e3fc7b62b6849cd23f8ed889e5a47d19"
+  },
+  {
+    "reviewNumber": 112,
+    "article": "zarathis",
+    "image": "assets/locations/discord/a7a8aaf2f53f311ef7e31448316dc3826ec221289f5dce835d5778a692777bb4.webp",
+    "title": "Zarathis — greenhouse restaurant, second view",
+    "confidence": "clear",
+    "originalSha256": "a7a8aaf2f53f311ef7e31448316dc3826ec221289f5dce835d5778a692777bb4",
+    "publishedSha256": "6d6ced484d8f9f847aeb1b7290402dd47ac59eb8c8c383804af0dc94ca275ab4"
+  },
+  {
+    "reviewNumber": 116,
+    "article": "zarathis",
+    "image": "assets/locations/discord/18e717f667716a765e2ea49b3c9960257f6a8becbab4cf3eef983225c3f9e369.webp",
+    "title": "Zarathis — Silver Star-favored library exterior",
+    "confidence": "clear",
+    "originalSha256": "18e717f667716a765e2ea49b3c9960257f6a8becbab4cf3eef983225c3f9e369",
+    "publishedSha256": "bb84ea6fd49a7597891e5454ba501db2f284a9f058028f6c9973a93f14b67952"
+  },
+  {
+    "reviewNumber": 117,
+    "article": "zarathis",
+    "image": "assets/locations/discord/bdbdfef2809b2214a7667793f7e8f10ae97d050044330a3884c42d674c011beb.webp",
+    "title": "Zarathis — research library interior",
+    "confidence": "clear",
+    "originalSha256": "bdbdfef2809b2214a7667793f7e8f10ae97d050044330a3884c42d674c011beb",
+    "publishedSha256": "66a4ecf00fe423f577294db1628369ee4b19ff873358d46addc15b0c937b2401"
+  },
+  {
+    "reviewNumber": 118,
+    "article": "zarathis",
+    "image": "assets/locations/discord/dfbece5b60a62c3e3eb9114eb83c00529ed554c1c3244057c55288a3b9beb71e.webp",
+    "title": "Zarathis — Shard mural inside the library",
+    "confidence": "clear",
+    "originalSha256": "dfbece5b60a62c3e3eb9114eb83c00529ed554c1c3244057c55288a3b9beb71e",
+    "publishedSha256": "dcc301b330ad2ad2bf7da4cb062e59f62dae2af3cc6dcfdc98ea933595d4665e"
+  },
+  {
+    "reviewNumber": 120,
+    "article": "zarathis",
+    "image": "assets/locations/discord/893d250db645d3e087004b4e056166d303aa21c8590004593c00633f1fa86a43.webp",
+    "title": "Zarathis — library chamber with mountain ceiling",
+    "confidence": "clear",
+    "originalSha256": "893d250db645d3e087004b4e056166d303aa21c8590004593c00633f1fa86a43",
+    "publishedSha256": "88bee6771284f5895494ec126d6e170f33e3eafa65dec8924915358b64755b83"
+  },
+  {
+    "reviewNumber": 122,
+    "article": "shining-shores",
+    "image": "assets/locations/discord/c39242d182a4226e967e74550d9aabf6c81b01346d588164c68450e6d089c3db.webp",
+    "title": "The Gates of Aelthor — bridge approach",
+    "confidence": "clear",
+    "originalSha256": "c39242d182a4226e967e74550d9aabf6c81b01346d588164c68450e6d089c3db",
+    "publishedSha256": "821484c1c813294cdb7e6dee54684ee1d733942c2a6b05e610b71562f1e01c37"
+  },
+  {
+    "reviewNumber": 124,
+    "article": "shining-shores",
+    "image": "assets/locations/discord/d4001463d5a49ecc6cbacdfd8e2cdbe0fff8f4a324f08cbffd31c7f22a87059f.webp",
+    "title": "The Gates of Aelthor — guard-tower surroundings",
+    "confidence": "clear",
+    "originalSha256": "d4001463d5a49ecc6cbacdfd8e2cdbe0fff8f4a324f08cbffd31c7f22a87059f",
+    "publishedSha256": "3624b87f0cc119f729f2809f00135565500cd0aa13252e61d1a75b5a4144e88e"
+  },
+  {
+    "reviewNumber": 125,
+    "article": "titanwall-eryndor",
+    "image": "assets/locations/discord/cc4c982d260a7384fb5ee8b4ed7d486e517231864fbaa8c462909bf628bc16fa.webp",
+    "title": "The Titanwall of Eryndor — dam reference",
+    "confidence": "clear",
+    "originalSha256": "cc4c982d260a7384fb5ee8b4ed7d486e517231864fbaa8c462909bf628bc16fa",
+    "publishedSha256": "ca0dcacc0a82d40814b6c1b57e29af9090206d7969a82914aced97aa661c3ac8"
+  },
+  {
+    "reviewNumber": 126,
+    "article": "titanwall-eryndor",
+    "image": "assets/locations/discord/b50cfdd7dde6ec1c4a50397bdec71d9d48add2aa99037c2d6676589d8f7857e6.webp",
+    "title": "The Titanwall of Eryndor — castle and dam approach",
+    "confidence": "clear",
+    "originalSha256": "b50cfdd7dde6ec1c4a50397bdec71d9d48add2aa99037c2d6676589d8f7857e6",
+    "publishedSha256": "d4733958168d7acd2b0fa0c4eb5d80469a0e0fbfbbf2974ebbe5c48e096184e2"
+  },
+  {
+    "reviewNumber": 127,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/0c5988725d8a5be2e2dba5d65c0272989524fa72e6d90516d0f550b0c51dffe1.webp",
+    "title": "Fein Uaill — Olokun’s unnamed landscape painting",
+    "confidence": "qualified",
+    "originalSha256": "0c5988725d8a5be2e2dba5d65c0272989524fa72e6d90516d0f550b0c51dffe1",
+    "publishedSha256": "ad0a759da62c4b23d2cd0fd84f6010aa46d7cf31cff518032a803a3719ec6d11"
+  },
+  {
+    "reviewNumber": 128,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/ddc6bed9740f880b072831523178b6733a8a7ca6e3ffed442bc9e704b1598e42.webp",
+    "title": "Eshnunna of the Eternal Flame — inner sanctum",
+    "confidence": "clear",
+    "originalSha256": "ddc6bed9740f880b072831523178b6733a8a7ca6e3ffed442bc9e704b1598e42",
+    "publishedSha256": "0339e3273ca651698325b065b5c0316ce1dacc00e34d1e8a8bfa4ec87e875a44"
+  },
+  {
+    "reviewNumber": 133,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/0908fa2544433f254a5b713a8f38af4e3b2c40adb5e288d79a1584708ce6d2b6.webp",
+    "title": "Seraphis — holy city above Zarathis",
+    "confidence": "clear",
+    "originalSha256": "0908fa2544433f254a5b713a8f38af4e3b2c40adb5e288d79a1584708ce6d2b6",
+    "publishedSha256": "8c9d0ec84cf1c149ecef2ebd4a07b6bebc8fe0de3d77c04438afb01f11baeceb"
+  },
+  {
+    "reviewNumber": 134,
+    "article": "ciaranach",
+    "image": "assets/locations/discord/4f89eec1ef0b78129b2bd9c721090f03ef3f915ad2e4b98737a7c6bb7707c22e.webp",
+    "title": "Ciaránach — opening setting reference",
+    "confidence": "clear",
+    "originalSha256": "4f89eec1ef0b78129b2bd9c721090f03ef3f915ad2e4b98737a7c6bb7707c22e",
+    "publishedSha256": "890a1898d74718c13783fb1a06695b425dcd82a60e748b0ce332fdfc95fe2314"
+  },
+  {
+    "reviewNumber": 172,
+    "article": "caislean-na-bron",
+    "image": "assets/locations/discord/5385c331639a57f193afa3c9459eb2ceace09a19faeeee5ce7dfffe25ae0b906.webp",
+    "title": "Caisleán na Bróin — Olokun’s memorial altar",
+    "confidence": "clear",
+    "originalSha256": "5385c331639a57f193afa3c9459eb2ceace09a19faeeee5ce7dfffe25ae0b906",
+    "publishedSha256": "5dceb458581eef05391f22b8f3117a8087988ebc68768a6fe0f8b251df3cdccd"
+  },
+  {
+    "reviewNumber": 177,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/bab59876586250aec73c369510f0dce3bd934f63f2ade7444e26c8dc20807031.webp",
+    "title": "The Feytouched Forest — opening woodland reference",
+    "confidence": "clear",
+    "originalSha256": "bab59876586250aec73c369510f0dce3bd934f63f2ade7444e26c8dc20807031",
+    "publishedSha256": "91cde404264cb008918d9673c2f4aa3fc08152a3155f574b92f8f95e693c85f2"
+  },
+  {
+    "reviewNumber": 178,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/33ba2fd46e932103913e969026b09d20e0e43de0bf6e161d5a011070260c8f54.webp",
+    "title": "The Feytouched Forest — wooded terrace reference",
+    "confidence": "clear",
+    "originalSha256": "33ba2fd46e932103913e969026b09d20e0e43de0bf6e161d5a011070260c8f54",
+    "publishedSha256": "ac30654531741a8fd0ca82725661a1dfea41b43f8ab35aef3ed455892f7ac600"
+  },
+  {
+    "reviewNumber": 179,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/9da17a971df07f5c4337329d044f6bf4e89f3d7cfaf8f6b4c99865adbeb25eb2.webp",
+    "title": "The Feytouched Forest — additional forest view",
+    "confidence": "clear",
+    "originalSha256": "9da17a971df07f5c4337329d044f6bf4e89f3d7cfaf8f6b4c99865adbeb25eb2",
+    "publishedSha256": "19b96cf239bb0c329299291ae136a17a13cb667edbb684d3e6d5073f6af566b9"
+  },
+  {
+    "reviewNumber": 183,
+    "article": "fein-uaill",
+    "image": "assets/locations/discord/40829540fdf52cb206afc367df64b8d3a98821234ea08faf1f17699b8d2c3e0f.webp",
+    "title": "The Feytouched Forest — shimmering trail",
+    "confidence": "clear",
+    "originalSha256": "40829540fdf52cb206afc367df64b8d3a98821234ea08faf1f17699b8d2c3e0f",
+    "publishedSha256": "567b95aa15321acad43908b52d7dbb2c88ce4f887e40bafe9665b32e9d62059c"
+  },
+  {
+    "reviewNumber": 185,
+    "article": "niriin-estate",
+    "image": "assets/locations/discord/f9241381c43b6ff785d6bb056481c02a868afd32f92f44875e54bf241c4d857c.webp",
+    "title": "Niriin Estate — corridor to the dining hall",
+    "confidence": "clear",
+    "originalSha256": "f9241381c43b6ff785d6bb056481c02a868afd32f92f44875e54bf241c4d857c",
+    "publishedSha256": "cae21b4d20344bc655035470d525a596d1158925b6f6263ab0b89c2d3672eb32"
+  },
+  {
+    "reviewNumber": 186,
+    "article": "niriin-estate",
+    "image": "assets/locations/discord/781eca537ba5c8d83b4ff69fe7899ef8e74542a20f8772e45b199e90195a47ec.webp",
+    "title": "Niriin Estate — plant-filled dining hall",
+    "confidence": "clear",
+    "originalSha256": "781eca537ba5c8d83b4ff69fe7899ef8e74542a20f8772e45b199e90195a47ec",
+    "publishedSha256": "71e36632ba24a675167d7b014b6bd21ab02e610388251ed1172b7fdd89cef989"
+  },
+  {
+    "reviewNumber": 197,
+    "article": "niriin-estate",
+    "image": "assets/locations/discord/7f54e6fb9b6041df2c3890341e0e49204f8dfcc2c3063267a5de062f8f72219d.webp",
+    "title": "Niriin Estate — library doors",
+    "confidence": "clear",
+    "originalSha256": "7f54e6fb9b6041df2c3890341e0e49204f8dfcc2c3063267a5de062f8f72219d",
+    "publishedSha256": "09c8e789b9309ac66b3a8fbf71f4c6e9a9949573a669b864b275cfc91d59b9be"
+  },
+  {
+    "reviewNumber": 198,
+    "article": "niriin-estate",
+    "image": "assets/locations/discord/241d58ec001413eeeacbc981ea33e7ef23593ca7dc2092fe9551927503f7128f.webp",
+    "title": "Niriin Estate — public library interior",
+    "confidence": "clear",
+    "originalSha256": "241d58ec001413eeeacbc981ea33e7ef23593ca7dc2092fe9551927503f7128f",
+    "publishedSha256": "203d56b259615fc0f196c19b579b27a888563131108a34ef131ff62fa71dd55f"
+  }
+];
+const reviewedFeinLocationGalleries = {
+  "fein-uaill": [
+    {
+      "image": "assets/locations/discord/496ea1a8202644db8315250af60c21a77f56470caa735a700b2b2b88ad3fdada.webp",
+      "title": "Fein Uaill — map handout",
+      "alt": "Fein Uaill — map handout",
+      "caption": "The file names Fein Uaill; Mirwen offers a map of the land and the Writer attaches it while handing it over. The map depicts the island and named settlements.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1327845245756510293"
+    },
+    {
+      "image": "assets/locations/discord/e4b37158af482ca5f2662ac1cce4aa3c4ec39a956b43c2a9cf7aa9b2290b5413.webp",
+      "title": "Old fortress northeast of Zarathis",
+      "alt": "Old fortress northeast of Zarathis",
+      "caption": "The preceding narration explicitly places this old fortress northeast of Zarathis on Fein Uaill. Possible former use as prison or laboratory remains uncertain. It is not identified as the Titanwall or Niriin Estate.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424443473657987274"
+    },
+    {
+      "image": "assets/locations/discord/eb6e428df2c2b3c44d21cf2f4aacff99472fc4bb69e2c405e5635688a3ed995d.webp",
+      "title": "Fein Uaill memorial — evening venue",
+      "alt": "Fein Uaill memorial — evening venue",
+      "caption": "Qualified reference. The scene concerns Elenia and Adelia’s memorial in their estate while Zarathian guests arrive. The image depicts the evening venue, but the immediate text does not explicitly name that estate. It is not automatically Aria’s Tomb or Niriin Estate.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1446682738529665205"
+    },
+    {
+      "image": "assets/locations/discord/0c5988725d8a5be2e2dba5d65c0272989524fa72e6d90516d0f550b0c51dffe1.webp",
+      "title": "Fein Uaill — Olokun’s unnamed landscape painting",
+      "alt": "Fein Uaill — Olokun’s unnamed landscape painting",
+      "caption": "Qualified reference. Olokun calls this another scene of Fein. Although posted in the Titanwall thread, the pictured site is not specifically identified as the Titanwall.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747644879802489/1424933427949604954"
+    },
+    {
+      "image": "assets/locations/discord/ddc6bed9740f880b072831523178b6733a8a7ca6e3ffed442bc9e704b1598e42.webp",
+      "title": "Eshnunna of the Eternal Flame — inner sanctum",
+      "alt": "Eshnunna of the Eternal Flame — inner sanctum",
+      "caption": "Attached directly to the opening inner-sanctum description. Seraphis dialogue discusses Eshunna as its holy place; preserve naming variation and avoid adding a floor plan.",
+      "source": "https://discord.com/channels/1177270231513694249/1311748118743879830/1311748118743879830"
+    },
+    {
+      "image": "assets/locations/discord/0908fa2544433f254a5b713a8f38af4e3b2c40adb5e288d79a1584708ce6d2b6.webp",
+      "title": "Seraphis — holy city above Zarathis",
+      "alt": "Seraphis — holy city above Zarathis",
+      "caption": "Opening post identifies Seraphis as the holy city on a hill above Zarathis; the following guide explicitly points it out.",
+      "source": "https://discord.com/channels/1177270231513694249/1311749162169012254/1311749162169012254"
+    },
+    {
+      "image": "assets/locations/discord/bab59876586250aec73c369510f0dce3bd934f63f2ade7444e26c8dc20807031.webp",
+      "title": "The Feytouched Forest — opening woodland reference",
+      "alt": "The Feytouched Forest — opening woodland reference",
+      "caption": "Image is attached to the opening description naming the true wilds of Fein Uaill and the Verdant Circle’s sacred forest.",
+      "source": "https://discord.com/channels/1177270231513694249/1311793270799597628/1311793270799597628"
+    },
+    {
+      "image": "assets/locations/discord/33ba2fd46e932103913e969026b09d20e0e43de0bf6e161d5a011070260c8f54.webp",
+      "title": "The Feytouched Forest — wooded terrace reference",
+      "alt": "The Feytouched Forest — wooded terrace reference",
+      "caption": "Posted immediately after the forest’s opening description, as an additional setting reference before later quest roleplay.",
+      "source": "https://discord.com/channels/1177270231513694249/1311793270799597628/1311793388592431235"
+    },
+    {
+      "image": "assets/locations/discord/9da17a971df07f5c4337329d044f6bf4e89f3d7cfaf8f6b4c99865adbeb25eb2.webp",
+      "title": "The Feytouched Forest — additional forest view",
+      "alt": "The Feytouched Forest — additional forest view",
+      "caption": "Third opening setting image in the explicitly named Feytouched Forest post. No exact sublocation is supplied.",
+      "source": "https://discord.com/channels/1177270231513694249/1311793270799597628/1311793724958703689"
+    },
+    {
+      "image": "assets/locations/discord/40829540fdf52cb206afc367df64b8d3a98821234ea08faf1f17699b8d2c3e0f.webp",
+      "title": "The Feytouched Forest — shimmering trail",
+      "alt": "The Feytouched Forest — shimmering trail",
+      "caption": "The narrator describes the forest shimmering and seeming to move alongside the party as they advance; the attachment accompanies that description.",
+      "source": "https://discord.com/channels/1177270231513694249/1311793270799597628/1366589417669529713"
+    }
+  ],
+  "caislean-na-bron": [
+    {
+      "image": "assets/locations/discord/bade7fd96ec0b9cc508839a653d28ea09e398240e2747b70281837fc04a667c8.webp",
+      "title": "Caisleán na Bróin — castle and vineyards",
+      "alt": "Caisleán na Bróin — castle and vineyards",
+      "caption": "The Writer introduces an old castle and vineyard with wheat fields and grapevines in the castle RP thread. The depicted castle and fields agree. This is Fein Uaill, not Gedankin.",
+      "source": "https://discord.com/channels/1177270231513694249/1311776046554677291/1327856011163205764"
+    },
+    {
+      "image": "assets/locations/discord/e6191e0355405eac19c669f5d913d21944c8d3e11fc71faf09eb12b4f5100a75.webp",
+      "title": "Caisleán na Bróin — courtyard",
+      "alt": "Caisleán na Bróin — courtyard",
+      "caption": "The attached Writer caption explicitly says The courtyard in the castle RP thread. The image depicts a stone arch, stairs and courtyard vegetation.",
+      "source": "https://discord.com/channels/1177270231513694249/1311776046554677291/1328455894387785788"
+    },
+    {
+      "image": "assets/locations/discord/5385c331639a57f193afa3c9459eb2ceace09a19faeeee5ce7dfffe25ae0b906.webp",
+      "title": "Caisleán na Bróin — Olokun’s memorial altar",
+      "alt": "Caisleán na Bróin — Olokun’s memorial altar",
+      "caption": "Olokun takes Wreni to the altar he made for the fallen; the image is attached to this explicit castle scene.",
+      "source": "https://discord.com/channels/1177270231513694249/1311776046554677291/1452095038615191644"
+    }
+  ],
+  "zarathis": [
+    {
+      "image": "assets/locations/discord/0aa0138417a114945e954814df87d2a33f7dfaf866b5ddfa2ef3a817fedd30a8.webp",
+      "title": "Zarathis — arena gates",
+      "alt": "Zarathis — arena gates",
+      "caption": "The same caption explicitly identifies entry into Zarathis’s arena. The image depicts monumental stadium gates and stands; the filename’s artistic references do not relocate it to another fictional world.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1333603775302340709"
+    },
+    {
+      "image": "assets/locations/discord/87ccb9795acec0513c423875dfbb7afadf6074737402ef9ecec4bac5bc097dd2.webp",
+      "title": "Zarathis — ceremony hall plan",
+      "alt": "Zarathis — ceremony hall plan",
+      "caption": "The Writer identifies this as the floor plan of the hall in which the Zarathis gathering takes place, with major guests going to the roof. The source shows a long columned hall. The creator filename does not establish an official cathedral name.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1394857303647191405"
+    },
+    {
+      "image": "assets/locations/discord/7b7daedd3e1e5abefc70da4b63d6ca23c53914ef461d3075c234300cd6e67580.webp",
+      "title": "Zarathis — city during mourning",
+      "alt": "Zarathis — city during mourning",
+      "caption": "The same narration explicitly names Zarathis and its blue mourning flowers as the party travels toward the leadership council. It is a dated city illustration, not proof of permanent weather or floral conditions.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445129916827041862"
+    },
+    {
+      "image": "assets/locations/discord/6d7f6383c9776bf09b74432d9eadcc549cb7f6f2da1436cdb9bcffea7b468f62.webp",
+      "title": "Zarathis — private council pavilion",
+      "alt": "Zarathis — private council pavilion",
+      "caption": "The preceding narration explicitly ushers the party into the pavilion gathering Zarathis’s powers, opening toward the holy mountains to the northeast. The image shows the speaking stage and pavilion; no additional offices or institutions are invented.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445143883699847248"
+    },
+    {
+      "image": "assets/locations/discord/b28f779f90f638bd590c747bec0c552dd4dace7537833460550762f1af2bd927.webp",
+      "title": "Zarathis — city overview",
+      "alt": "Zarathis — city overview",
+      "caption": "The post opens with the description of Zarathis and uses this view immediately before the party arrives at the citadel.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746973241573549/1319325698632061028"
+    },
+    {
+      "image": "assets/locations/discord/f2c953d265ffec612af97e0ad5fc465ffe6aafe135645b305f0ad1a2afc804a1.webp",
+      "title": "Zarathis — library exterior",
+      "alt": "Zarathis — library exterior",
+      "caption": "Eldin leads Aravil through the city to a library, points it out, and they discuss its architecture. Its name is not stated; do not identify it as Thalanbor’s Library.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746973241573549/1410343105420595282"
+    },
+    {
+      "image": "assets/locations/discord/9afb5bd0134a536ed0ea5e95a66a707698aab52193b8d5903f5bcb8f1ee27c52.webp",
+      "title": "Zarathis — library interior",
+      "alt": "Zarathis — library interior",
+      "caption": "Eldin opens the library door for Aravil and the attached image accompanies the revealed interior. The library remains unnamed.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746973241573549/1410345316649140434"
+    },
+    {
+      "image": "assets/locations/discord/fff0c09557e1c52e6de9b1888bfc6ce502b6f69e835b7a514ce5fc9a8c9b385c.webp",
+      "title": "Zarathis — greenhouse restaurant, first view",
+      "alt": "Zarathis — greenhouse restaurant, first view",
+      "caption": "Magnus leads Scribonia to a restaurant that looks like a former greenhouse; this image is attached to that arrival. The restaurant has no recovered name.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746973241573549/1414342821803987086"
+    },
+    {
+      "image": "assets/locations/discord/a7a8aaf2f53f311ef7e31448316dc3826ec221289f5dce835d5778a692777bb4.webp",
+      "title": "Zarathis — greenhouse restaurant, second view",
+      "alt": "Zarathis — greenhouse restaurant, second view",
+      "caption": "Second image attached to the same explicit restaurant arrival; preserve as an alternative scene reference, not a separate named venue.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746973241573549/1414342821803987086"
+    },
+    {
+      "image": "assets/locations/discord/18e717f667716a765e2ea49b3c9960257f6a8becbab4cf3eef983225c3f9e369.webp",
+      "title": "Zarathis — Silver Star-favored library exterior",
+      "alt": "Zarathis — Silver Star-favored library exterior",
+      "caption": "Eldin explicitly visits a library preferred by the Silver Star for research. No source establishes it as Thalanbor’s Library.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443003160850333827"
+    },
+    {
+      "image": "assets/locations/discord/bdbdfef2809b2214a7667793f7e8f10ae97d050044330a3884c42d674c011beb.webp",
+      "title": "Zarathis — research library interior",
+      "alt": "Zarathis — research library interior",
+      "caption": "Eldin and Magnus enter the library, observing its apparently expanding magical interior. The source does not establish its exact name.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443007972782379100"
+    },
+    {
+      "image": "assets/locations/discord/dfbece5b60a62c3e3eb9114eb83c00529ed554c1c3244057c55288a3b9beb71e.webp",
+      "title": "Zarathis — Shard mural inside the library",
+      "alt": "Zarathis — Shard mural inside the library",
+      "caption": "Eldin points to a Shard mural while researching in the library. This depicts interior art, not a direct view of the Shard itself.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443014982269931725"
+    },
+    {
+      "image": "assets/locations/discord/893d250db645d3e087004b4e056166d303aa21c8590004593c00633f1fa86a43.webp",
+      "title": "Zarathis — library chamber with mountain ceiling",
+      "alt": "Zarathis — library chamber with mountain ceiling",
+      "caption": "The Writer’s direct reply describes library rooms with missing glass ceilings and apparent mountains growing from them. Preserve the characters’ uncertainty about illusion versus physical structure.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443341236227539115"
+    }
+  ],
+  "ciaranach": [
+    {
+      "image": "assets/locations/discord/c22eb96c9ad83bf1e8bb9c4d420c3dccb37b379be37a55ff824d4e88c1119e9b.webp",
+      "title": "Ciaránach pilgrimage — old dirt path",
+      "alt": "Ciaránach pilgrimage — old dirt path",
+      "caption": "Bowene leads the party out of Zarathis on an old dirt path, contrasting it with the city’s maintained roads. The following narration identifies the journey to Ciaránach. The artwork belongs to that route, not a new unnamed kingdom.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1421652174949056625"
+    },
+    {
+      "image": "assets/locations/discord/40bbb6e2ea15a06f08c7dc4c3128042c15405632b9ae2ef5fdd3d666e858ab8f.webp",
+      "title": "Ciaránach pilgrimage — snowy mountains",
+      "alt": "Ciaránach pilgrimage — snowy mountains",
+      "caption": "The Writer’s caption depicts snow on the pilgrimage; the next narrated arrival explicitly crests a pass toward Ciaránach. Treat it as approach-country, not the city itself.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1421667239714885704"
+    },
+    {
+      "image": "assets/locations/discord/5ab43580425b16e7c801036f0c7fce259841f0e1af6f34b9a0540f17caa25c3c.webp",
+      "title": "Ciaránach — white steps and public address",
+      "alt": "Ciaránach — white steps and public address",
+      "caption": "The attachment caption names Ciaránach; the expanded opening describes Bowene descending its white spine and steps. The image includes the architectural approach and speaker, so it is retained as a city scene rather than a standalone portrait.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1452824828154482788"
+    },
+    {
+      "image": "assets/locations/discord/4f89eec1ef0b78129b2bd9c721090f03ef3f915ad2e4b98737a7c6bb7707c22e.webp",
+      "title": "Ciaránach — opening setting reference",
+      "alt": "Ciaránach — opening setting reference",
+      "caption": "The two-message Ciaránach post opens with this GIF and its name; this is the post’s setting reference, not a source for additional architecture or history.",
+      "source": "https://discord.com/channels/1177270231513694249/1311750456808312852/1311750456808312852"
+    }
+  ],
+  "shining-shores": [
+    {
+      "image": "assets/locations/discord/e9587790cf9bc3392f0ca07402cf83c8d659001c4b15a65e38d3fed7d3d53be8.webp",
+      "title": "The Shining Shores — harbor-city reference",
+      "alt": "The Shining Shores — harbor-city reference",
+      "caption": "Opening harbor description and subsequent arrival dialogue identify this scene. A guide calls the shore city the Gates of Aethor; preserve that wording alongside the separately named Gates of Aelthor post.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746435460366377/1311795821888671958"
+    },
+    {
+      "image": "assets/locations/discord/c39242d182a4226e967e74550d9aabf6c81b01346d588164c68450e6d089c3db.webp",
+      "title": "The Gates of Aelthor — bridge approach",
+      "alt": "The Gates of Aelthor — bridge approach",
+      "caption": "The opening Gates of Aelthor description and guide’s mighty-bridge dialogue directly identify the outpost approach. The guide also spells its name Aethlor; do not silently resolve that variation.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747360220512318/1327709047222304909"
+    },
+    {
+      "image": "assets/locations/discord/d4001463d5a49ecc6cbacdfd8e2cdbe0fff8f4a324f08cbffd31c7f22a87059f.webp",
+      "title": "The Gates of Aelthor — guard-tower surroundings",
+      "alt": "The Gates of Aelthor — guard-tower surroundings",
+      "caption": "Tarwen offers a nearby guard tower for a private conversation; this image accompanies the movement there.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747360220512318/1426261161791324254"
+    }
+  ],
+  "titanwall-eryndor": [
+    {
+      "image": "assets/locations/discord/cc4c982d260a7384fb5ee8b4ed7d486e517231864fbaa8c462909bf628bc16fa.webp",
+      "title": "The Titanwall of Eryndor — dam reference",
+      "alt": "The Titanwall of Eryndor — dam reference",
+      "caption": "This image is attached to the opening description identifying the Titanwall as the dam city controlling the river.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747644879802489/1311747644879802489"
+    },
+    {
+      "image": "assets/locations/discord/b50cfdd7dde6ec1c4a50397bdec71d9d48add2aa99037c2d6676589d8f7857e6.webp",
+      "title": "The Titanwall of Eryndor — castle and dam approach",
+      "alt": "The Titanwall of Eryndor — castle and dam approach",
+      "caption": "Posted immediately after the Titanwall’s opening dam-city description as its setting illustration, before roleplay begins.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747644879802489/1318090312404697108"
+    }
+  ],
+  "niriin-estate": [
+    {
+      "image": "assets/locations/discord/f9241381c43b6ff785d6bb056481c02a868afd32f92f44875e54bf241c4d857c.webp",
+      "title": "Niriin Estate — corridor to the dining hall",
+      "alt": "Niriin Estate — corridor to the dining hall",
+      "caption": "Magnus leads Eldin down an extravagant hallway toward the estate’s dining room; this image is attached to that movement.",
+      "source": "https://discord.com/channels/1177270231513694249/1404850171640021103/1410681295629193236"
+    },
+    {
+      "image": "assets/locations/discord/781eca537ba5c8d83b4ff69fe7899ef8e74542a20f8772e45b199e90195a47ec.webp",
+      "title": "Niriin Estate — plant-filled dining hall",
+      "alt": "Niriin Estate — plant-filled dining hall",
+      "caption": "Magnus opens the dining-room door and describes its plant life and sunlight; the image accompanies that reveal.",
+      "source": "https://discord.com/channels/1177270231513694249/1404850171640021103/1410684000556810333"
+    },
+    {
+      "image": "assets/locations/discord/7f54e6fb9b6041df2c3890341e0e49204f8dfcc2c3063267a5de062f8f72219d.webp",
+      "title": "Niriin Estate — library doors",
+      "alt": "Niriin Estate — library doors",
+      "caption": "Adelia is directed to Magnus in the estate library; the narrator attaches this image while describing its massive doors.",
+      "source": "https://discord.com/channels/1177270231513694249/1404850171640021103/1474203608408133743"
+    },
+    {
+      "image": "assets/locations/discord/241d58ec001413eeeacbc981ea33e7ef23593ca7dc2092fe9551927503f7128f.webp",
+      "title": "Niriin Estate — public library interior",
+      "alt": "Niriin Estate — public library interior",
+      "caption": "Second image accompanying the same library-door reveal in Magnus’s estate. This is distinct from the city’s other libraries.",
+      "source": "https://discord.com/channels/1177270231513694249/1404850171640021103/1474203608408133743"
+    }
+  ]
+};
+Object.entries(reviewedFeinLocationGalleries).forEach(([id, gallery]) => {
+  const media = window.FENUMION_MEDIA.articles[id] || (window.FENUMION_MEDIA.articles[id] = {});
+  media.gallery = [...(media.gallery || []), ...gallery.filter(item => !(media.gallery || []).some(existing => existing.image === item.image))];
+});
+const reviewedFeinLocationViews = {
+  "The Shining Shores": {
+    "image": "assets/locations/discord/e9587790cf9bc3392f0ca07402cf83c8d659001c4b15a65e38d3fed7d3d53be8.webp",
+    "imageCaption": "Opening harbor description and subsequent arrival dialogue identify this scene. A guide calls the shore city the Gates of Aethor; preserve that wording alongside the separately named Gates of Aelthor post."
+  },
+  "Zarathis": {
+    "image": "assets/locations/discord/b28f779f90f638bd590c747bec0c552dd4dace7537833460550762f1af2bd927.webp",
+    "imageCaption": "The post opens with the description of Zarathis and uses this view immediately before the party arrives at the citadel."
+  },
+  "Gates of Aelthor": {
+    "image": "assets/locations/discord/c39242d182a4226e967e74550d9aabf6c81b01346d588164c68450e6d089c3db.webp",
+    "imageCaption": "The opening Gates of Aelthor description and guide’s mighty-bridge dialogue directly identify the outpost approach. The guide also spells its name Aethlor; do not silently resolve that variation."
+  },
+  "The Titanwall of Eryndor": {
+    "image": "assets/locations/discord/cc4c982d260a7384fb5ee8b4ed7d486e517231864fbaa8c462909bf628bc16fa.webp",
+    "imageCaption": "This image is attached to the opening description identifying the Titanwall as the dam city controlling the river."
+  },
+  "Eshnunna of the Eternal Flame": {
+    "image": "assets/locations/discord/ddc6bed9740f880b072831523178b6733a8a7ca6e3ffed442bc9e704b1598e42.webp",
+    "imageCaption": "Attached directly to the opening inner-sanctum description. Seraphis dialogue discusses Eshunna as its holy place; preserve naming variation and avoid adding a floor plan."
+  },
+  "Seraphis": {
+    "image": "assets/locations/discord/0908fa2544433f254a5b713a8f38af4e3b2c40adb5e288d79a1584708ce6d2b6.webp",
+    "imageCaption": "Opening post identifies Seraphis as the holy city on a hill above Zarathis; the following guide explicitly points it out."
+  },
+  "Ciaránach": {
+    "image": "assets/locations/discord/4f89eec1ef0b78129b2bd9c721090f03ef3f915ad2e4b98737a7c6bb7707c22e.webp",
+    "imageCaption": "The two-message Ciaránach post opens with this GIF and its name; this is the post’s setting reference, not a source for additional architecture or history."
+  },
+  "The Feytouched Forest": {
+    "image": "assets/locations/discord/bab59876586250aec73c369510f0dce3bd934f63f2ade7444e26c8dc20807031.webp",
+    "imageCaption": "Image is attached to the opening description naming the true wilds of Fein Uaill and the Verdant Circle’s sacred forest."
+  },
+  "Niriin Estate": {
+    "image": "assets/locations/discord/f9241381c43b6ff785d6bb056481c02a868afd32f92f44875e54bf241c4d857c.webp",
+    "imageCaption": "Magnus leads Eldin down an extravagant hallway toward the estate’s dining room; this image is attached to that movement."
+  }
+};
+Object.entries(reviewedFeinLocationViews).forEach(([title, media]) => {
+  Object.assign(window.FENUMION_MEDIA.locations[title] || (window.FENUMION_MEDIA.locations[title] = {}), media);
+});
+// END REVIEWED FEIN UAILL LOCATION ART 2026-10-12

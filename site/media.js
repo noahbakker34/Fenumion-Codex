@@ -575,3 +575,7 @@ Object.assign(window.FENUMION_MEDIA.articles, {
     "imageLayout": "portrait-hero"
   }
 });
+
+// User-identified Talan video: still-frame portrait and a single animated backdrop.
+window.FENUMION_MEDIA.characters.Talan = {image:'assets/character-backgrounds/talan-order.jpg',imageAlt:'Talan in ornate gold armor, holding a sword and shield in a mountain setting',imageCaption:'Talan'};
+window.FENUMION_MEDIA.articles.talan = {...window.FENUMION_MEDIA.characters.Talan,imageLayout:'portrait-hero'};

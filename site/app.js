@@ -14396,6 +14396,17 @@ if (npcRecovery) {
   navigationRegions.find(region=>region.title==='Characters').branches.push({title:'NPC communities',items});
 }
 
+// Talan’s focused public record reuses already published histories; the clip adds visual identity only.
+const talanRecord={id:'talan',title:'Talan',category:'People',type:'God of Justice and Order',dek:'A divine figure whose confrontation with Aria and attributed place in Voraketh’s history carry lasting consequences.',tags:['Talan','Justice','Order','Aria','Voraketh'],facts:{Role:'God of Justice and Order','Home island':'Not established'},sources:['Existing public Aria / Pride history','Existing public Voraketh history','User-identified Talan video · 11 October 2026'],body:'<p>Talan is a god of Justice and Order in Fenumion’s public record. <a href="#aria-pride">Aria’s history</a> remembers him through childhood fear, the destruction of his temple and the later confrontation in which he kills her. Her experience of him shapes how she speaks about safety and power.</p><h2 id="talan-consequences">Consequences that remain</h2><p>The recorded confrontation on 6 November 2025 ends Aria’s life but does not erase the people, institutions and harm she leaves behind. Talan’s role in that ending connects him to Zarathis’s subsequent memory and political history.</p><h2 id="talan-attributed-order">An attributed place in Voraketh</h2><p>The public <a href="#voraketh">Voraketh account</a> attributes the island’s Chains and guardians to Talan through Nuru’s testimony to Anky. This remains an attributed account, not a complete reconstruction of their creation or proof of Talan’s home island.</p>'};
+articles.push(talanRecord);
+const talanProminence={consequence:5,institution:4,relationships:4,recurrence:13,score:84,confidence:'Provisional',reason:'Aria’s death and the attributed Voraketh history give a brief recorded presence lasting consequences.'};
+archiveIndex.npcs.push({title:'Talan',article:'talan',meta:talanRecord.type,summary:talanRecord.dek,prominence:talanProminence});
+legacyCharacterProfiles.Talan={personality:'Known through public accounts of Justice and Order, Aria’s experience and the confrontation that ends her life.',achievements:'Kills Aria in the recorded confrontation. Nuru attributes Voraketh’s Chains and guardians to him.',relationships:'Aria’s history and Nuru’s testimony preserve different views of his place in Fenumion.'};
+fixedArticlePaths.set('talan',['Characters','Gods & witnesses','Talan']);
+navigationRegions.find(region=>region.title==='Characters').branches.find(branch=>branch.title==='Gods & witnesses').items.push({label:'Talan',article:'talan'});
+subchannelMap.talan=['aria-pride','voraketh','sildithas'].map(id=>{const record=articles.find(a=>a.id===id);return {label:record.title,article:id,summary:record.dek}});
+for(const id of ['aria-pride','voraketh']){const links=subchannelMap[id] || (subchannelMap[id]=[]);if(!links.some(link=>link.article==='talan'))links.push({label:'Talan',article:'talan',summary:talanRecord.dek});}
+
 // Every supplied discovery label has a stable record; proven aliases link to canonical dossiers.
 const npcDiscoveries=window.FENUMION_NPC_DISCOVERIES;
 if(npcDiscoveries){

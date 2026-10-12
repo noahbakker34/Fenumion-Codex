@@ -35,3 +35,10 @@ Module `character-backgrounds.js?v=1`, app218, styles167. Authenticated vault an
 - `the_gardener_The_shadow_of_a_god_in_a_forest_with_stark_contr_1ead0dab-1d2d-4089-9f3e-b75e512b5d02_0.mp4` → `sacred-forest`: original SHA-256 `b634a9b38ecc229e3281e1fd643490a7e4f5b8a31536d1364f919b6980e879a3`; optimized MP4 532648 bytes.
 
 Visibility lifecycle also verified for a page opened while hidden: no initial video request, then normal playback on becoming visible. Reduced-motion changes apply to all ambient media, including dialogs.
+
+
+## Talan video · 11 October 2026
+
+User identifies the supplied battle-ready figure as Talan. Inspected source frames and Chrome playback. Added the sixth theme, `talan-order`, assigned only to the new focused public Talan dossier: one deferred animated background plus still-frame portrait, using the existing pause/static-fallback lifecycle. The dossier reuses already public Aria and Voraketh histories and retains Nuru’s creation claim as attributed testimony. No additional cosmology, birthplace or motive is inferred. A provisional prominence score of 84 uses public consequences/institution/relationships (5/4/4) plus recurrence13 from the verified 9-post census footprint; timestamps are posting dates. Talan stays unplaced.
+
+32 public dossier background assignments; NPC directory 106, uniquely grouped, unplaced 52. Original video SHA-256 `d9abc767d7383a52fe0a02b4f659df4e174b21a215babadaac6bed478574bcf5`. H.264 406x540, 542,168 bytes, about 5.209 seconds, silent. App219, media146, backgrounds2; styles167. Chrome passed single decoded video, portrait and search/dialog, internal links, protected empty records, desktop/mobile layout and zero MP4 requests with reduced motion. Screenshots inspected; syntax and diff checks passed.

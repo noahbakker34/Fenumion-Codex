@@ -239,3 +239,8 @@ Original SHA-256: `d112999b83c85d63bfb7e2b43dc5a1f59c6e7a3b675a929adb31eeaa44a76
 
 
 | Five thematic character background clips | Supplied 11 Oct 2026 | User-supplied decorative video | Creator attribution not inferred from filenames | 31 existing public character dossiers | Visual themes only; no implied event, deity or biography facts | `site/assets/character-backgrounds`; checksums in `docs/CHARACTER_BACKGROUND_THEMES.md` |
+
+
+| Talan video | Supplied 11 Oct 2026 | User-identified character depiction | Creator not inferred from filename | Focused public Talan entry; portrait and background | Visual identity only; public history reused from Aria/Voraketh | `site/assets/character-backgrounds/talan-order.mp4` and poster |
+
+Original `social_nbakker3437_An_imposing_god_of_order_prepared_for_battle_with_835951a8-d580-41c4-a0e4-a4b486593a5f_0.mp4` SHA-256: `d9abc767d7383a52fe0a02b4f659df4e174b21a215babadaac6bed478574bcf5`. Optimized video: 542,168 bytes, 406x540, H.264, about 5.209 seconds, silent.

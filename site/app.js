@@ -14396,6 +14396,39 @@ if (npcRecovery) {
   navigationRegions.find(region=>region.title==='Characters').branches.push({title:'NPC communities',items});
 }
 
+// Every supplied discovery label has a stable record; proven aliases link to canonical dossiers.
+const npcDiscoveries=window.FENUMION_NPC_DISCOVERIES;
+if(npcDiscoveries){
+  // Saturnia is a world figure; Scribonia’s manifestation does not establish a separate player.
+  const saturniaPerson=archiveIndex.characters.find(person=>person.title==='Saturnia');
+  if(saturniaPerson){
+    archiveIndex.characters=archiveIndex.characters.filter(person=>person!==saturniaPerson);
+    if(!archiveIndex.npcs.some(person=>person.title==='Saturnia'))archiveIndex.npcs.push({...saturniaPerson,meta:'Ancestral scholar · world figure'});
+  }
+  for(const entry of npcDiscoveries.entries){
+    const links=entry.canonical && articles.some(a=>a.id===entry.canonical)?`<p><a href="#${entry.canonical}">Read the existing ${escapeHtml(entry.canonicalName)} history →</a></p>`:'';
+    const rating=entry.rating;
+    const ratingBody=rating?`<p><strong>Documented prominence: ${rating.score}/100 · ${rating.confidence}</strong></p><p>${escapeHtml(rating.reason)}</p><ul><li>Consequences: ${rating.consequence}/5 · weight 35</li><li>Institutional or witness role: ${rating.institution}/5 · weight 25</li><li>Relationships: ${rating.relationships}/5 · weight 20</li><li>Recorded presence: ${rating.recurrence}/20 · weight 20</li></ul>`:'<p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p>';
+    const facts=entry.kind==='veiled'?{}:{'Role':entry.role,'Island':entry.island||'Not established','Census posts':String(entry.posts),'Recorded span':entry.span,'Prominence':rating?`${rating.score}/100 · ${rating.confidence}`:'Unrated','Recorded presence':`${entry.presence}/20`};
+    const body=entry.kind==='veiled'?'':`<p>${escapeHtml(entry.summary)}</p>${links}<h2 id="${entry.id}-prominence">Prominence and evidence</h2>${ratingBody}<p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id="${entry.id}-record">Archive record</h2><p>The census records ${entry.posts} posts across ${escapeHtml(entry.span)}. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul>${entry.sources.map(id=>`<li><a href="https://discord.com/channels/1177270231513694249/1199083630354501673/${id}">Recorded scene · ${id}</a></li>`).join('')}</ul><p><a href="#npc-discovery-registry">Return to all discovery records →</a></p>`;
+    articles.push({id:entry.id,title:entry.kind==='veiled'?'':entry.name,category:'People',type:entry.kind==='veiled'?'Protected record':entry.role,dek:entry.kind==='veiled'?'':entry.summary,tags:entry.kind==='veiled'?[]:[entry.name,entry.kind,entry.island].filter(Boolean),facts,sources:entry.kind==='veiled'?[]:['Recently Discovered NPCs census · posting spans and raw labels','Source-checked quest-RP scene anchors'],body,discoveryProtected:entry.kind==='veiled'});
+    fixedArticlePaths.set(entry.id,['Characters','Discovery registry',entry.name]);
+    if(entry.kind==='npc' && !entry.canonical){
+      const existing=archiveIndex.npcs.find(person=>person.title===entry.canonicalName || (person.aliases||[]).includes(entry.name));
+      if(!existing){
+        const person={title:entry.name,article:entry.id,meta:entry.role,summary:entry.summary,prominence:entry.rating};archiveIndex.npcs.push(person);
+        if(entry.island){const group=window.FENUMION_NPC_ISLANDS.find(g=>g.title===entry.island);if(group&&!group.people.some(p=>p.name===entry.name))group.people.push({name:entry.name,basis:entry.role+' · recorded regional connection'});}
+      }
+    }
+    const person=[...archiveIndex.npcs,...archiveIndex.characters].find(person=>person.title===entry.canonicalName || (person.aliases||[]).includes(entry.name));
+    if(person&&rating&&(!person.prominence||person.prominence.score<rating.score))person.prominence=rating;
+  }
+  articles.push({id:'npc-discovery-registry',title:'NPC & World Identity Registry',category:'Archive',type:'Character and encounter reference',dek:'Find every supplied discovery: people, companions, manifestations, collectives and encounters, with their evidence and documented prominence.',tags:['NPCs','Characters','Companions','Prominence','Archive'],facts:{Records:'322'},sources:['Fenumion Recently Discovered NPCs · supplied 11 October 2026; raw census labels, not a distinct-person count'],body:`<p>These figures were present in Fenumion before their names reached the priority roster. Browse all 322 supplied labels here; aliases point to existing histories, while created entities, companions and generic encounters retain their distinctions.</p><p><a href="#npc-islands">Browse NPCs by island</a> · <a href="#people-directory">Open the character directory</a></p><section data-npc-discoveries class="perspective-browser"><div class="perspective-filters"><label>Search records<input type="search" data-discovery-query placeholder="Name, role, island or summary…"></label><label>Identity kind<select data-discovery-kind><option value="">All kinds</option></select></label><label>Island<select data-discovery-island><option value="">All islands</option><option value="unplaced">Island unestablished</option></select></label><label>Order<select data-discovery-order><option value="prominence">Highest rated prominence</option><option value="presence">Recorded presence</option><option value="name">Name A–Z</option></select></label><button type="button" data-discovery-clear>Clear filters</button></div><p role="status" aria-live="polite" data-discovery-count></p><div class="browser-grid" data-discovery-list tabindex="-1"></div><nav class="people-pagination" aria-label="Discovery result pages"><button type="button" data-discovery-previous>← Previous</button><span data-discovery-page></span><button type="button" data-discovery-next>Next →</button></nav></section><h2 id="discovery-prominence">How prominence is rated</h2><p>The editorial score weighs documented consequences (35%), institutional or witness role (25%), relationships (20%) and recorded presence (20%). Each rated entry explains its assessment and confidence. A high dialogue count does not establish high consequence. Where those impacts have not been established, prominence stays unrated and recorded presence is shown separately.</p><p>Recorded presence uses a logarithmic dialogue count worth up to 12 points and a posting span worth up to 8. It is a retrieval aid. Protected identities have no public names, scores, counts or source links.</p>`});
+  fixedArticlePaths.set('npc-discovery-registry',['Characters','Discovery registry']);
+  navigationRegions.find(region=>region.title==='Characters').branches.push({title:'Discovery registry',items:[{label:'All discoveries & prominence',article:'npc-discovery-registry'}]});
+  (subchannelMap['npc-community-memory'] || (subchannelMap['npc-community-memory']=[])).push({label:'All discoveries & prominence',article:'npc-discovery-registry',summary:'The full supplied registry, including companions, encounters and canonical links.'});
+}
+
 // Island browsing reuses NPC records rather than creating duplicate people.
 const npcIslandGroups = window.FENUMION_NPC_ISLANDS || [];
 if (npcIslandGroups.length) {
@@ -15805,6 +15838,7 @@ if(characterDossiers && relationshipMaps.jiangshi) {
 
 applyMediaCatalog();
 const restrictedArticleIds = new Set([
+  ...articles.filter(article=>article.discoveryProtected).map(article=>article.id),
   "cosmology-guide",
   "great-fracture",
   "wyrm-worlds-end",
@@ -16029,7 +16063,7 @@ function openCharacterRecord(person, personLabel = "Character") {
       ${achievements ? `<p><strong>Achievements &amp; deeds</strong>${escapeHtml(achievements)}</p>` : ""}
       ${relationships ? `<p><strong>Relationships</strong>${escapeHtml(relationships)}</p>` : ""}
     </div>
-    ${relatedButton}${islandButton}`;
+    ${person.prominence ? `<div class="record-dialog-body"><p><strong>Documented prominence · ${person.prominence.score}/100 · ${escapeHtml(person.prominence.confidence)}</strong>${escapeHtml(person.prominence.reason)}</p></div>` : ""}${relatedButton}${islandButton}`;
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
   else if (!recordDialog.open) recordDialog.setAttribute("open", "");
   recordDialog.scrollTop = 0;
@@ -16652,12 +16686,13 @@ function renderArticle(route, pushHash = true) {
   const hasConnections=visualConnections.length>0;
   if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
   const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
-  window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
   if (article.id === "world-index") {
     setupWorldBrowser();
     setupFeaturedContent();
   }
   if (article.id === "people-directory") setupPeopleGallery();
+  if (article.id === "npc-discovery-registry") window.setupNpcDiscoveries?.(articleContent);
   if (article.id === "factions") setupFactionDirectory();
   if (article.id === "player-perspectives") window.setupPlayerPerspectives?.(articleContent);
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
@@ -16759,7 +16794,7 @@ function setupPeopleGallery() {
           : `<span class="index-glyph" aria-hidden="true">✦</span>`;
       return `<button class="index-card character-card ${person.personKind}-record${protectedRecord ? " locked-record" : ""}" data-article="${person.article}"${protectedRecord ? "" : ` data-character-title="${escapeHtml(person.title)}"`} aria-label="${protectedRecordAria(`${person.personLabel}: ${person.title}`, protectedRecord)}">
         ${media}
-        <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${protectedRecordTitle(person.title, protectedRecord)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
+        <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${protectedRecordTitle(person.title, protectedRecord)}</strong>${!protectedRecord && person.prominence ? `<small>Prominence ${person.prominence.score}/100 · ${escapeHtml(person.prominence.confidence)}</small>` : ""}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
       </button>`;
     }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
     setupAmbientVideos(kindBanner.closest(".people-gallery-shell"));

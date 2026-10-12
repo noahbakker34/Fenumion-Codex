@@ -2620,3 +2620,10 @@ body.codex-world.player-perspectives-view:not(.home-view) .article-body { font-f
 
 .exploration-grid a { text-decoration: none; }
 .exploration-links[hidden] { display: none; }
+
+/* Discovery records have text and evidence instead of a portrait column. */
+.discovery-card { display: block; text-align: left; }
+.discovery-card .index-card-copy { display: flex; flex-direction: column; gap: .45rem; min-width: 0; width: auto; }
+.discovery-score { color: var(--gold); }
+[data-npc-discoveries] label { min-width: 0; }
+[data-npc-discoveries] input, [data-npc-discoveries] select { max-width: 100%; }

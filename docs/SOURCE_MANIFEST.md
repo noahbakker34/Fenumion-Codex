@@ -231,3 +231,8 @@ Registry SHA-256: `6b9b1150a2ca4f65632a636ffe61cc5424f48c0bbd78219df0b6f712477d1
 
 
 Direct user canon correction · 11 October 2026: “Pin is a player, Rahn is a pc pet, Melian is always Melian.” Classification and Melian identity continuity confirmed by the user; Pin’s short public history checks primary message IDs `1328541217855770677`, `1341600560326901790`, `1341600728736731198`. No Rahn owner or new private lore inferred.
+
+
+| Recently Discovered NPCs | Supplied 11 Oct 2026 | Complete 322-label recovery census | Names and footprints are archive evidence, not 322 proven canonical NPCs | Every row implemented; raw actor references checked | Public compact records and scrubbed protected stubs; no controller metadata shipped | `site/npc-discoveries-data.js`; `docs/NPC_DISCOVERIES_IMPLEMENTATION.md` |
+
+Original SHA-256: `d112999b83c85d63bfb7e2b43dc5a1f59c6e7a3b675a929adb31eeaa44a76889`. All 322 rows reconciled to raw actors; 308 unique public scene anchors verified. Full private import receipt remains outside Git.

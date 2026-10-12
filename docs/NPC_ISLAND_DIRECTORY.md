@@ -78,3 +78,8 @@ Chrome verified all seven group routes, complete and unique NPC coverage, Fein U
 ## Registry recovery update · 11 October 2026
 
 The checked NPC recovery adds Hawthorne, Vizsla, Stella & Sola, Vance, Hiram, Kaja, Magda and Orrik, and assigns existing Scarlett and Commander Yvette from explicit scenes. Prima now has 28 public NPC records and unplaced 8; total 52 with unique coverage. Vance is an Eovar guard on Prima, not a Pristinian guard. Yvette leads her own Guardian corps, not Pristinia’s militia. See `docs/NPC_REGISTRY_RECOVERY.md` for evidence and identity boundaries.
+
+
+## Complete discovery import · 11 October 2026
+
+Public directory now 105 NPCs: Prima 37, Fein Uaill 8, Gael 1, Babel-Ashur 5, Voraketh 2, Verdelune 1, unplaced 51. The full 322-label registry includes additional encounters, companions, manifestations and unresolved named archive identities without pretending each is an individual NPC. Every public NPC occurs once by island; sparse records remain unplaced unless the source supports an association. Details in `docs/NPC_DISCOVERIES_IMPLEMENTATION.md`.

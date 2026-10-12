@@ -26,3 +26,12 @@ CODEX_BASE_URL=http://127.0.0.1:8880/ node scripts/check_codex_efficiency.cjs
 ```
 
 Set `CHROME_PATH` to use a system Chrome executable; otherwise Playwright uses its installed Chromium. The test uses only synthetic vault data in its isolated browser. It never updates the real vault.
+
+
+## Lossless mobile assets · 12 October 2026
+
+The existing complete Cormorant Garamond and Vespasian fonts now have WOFF2 copies, preserving all glyphs, Unicode mappings, horizontal metrics, shaping and variation tables. Original TTF/OTF files and licenses remain available as CSS fallbacks. Font files shrink from 1,299,844 to 257,496 bytes (80.2%). The inline/logo-background PNG also has a pixel-identical lossless WebP copy: 512,044 to 398,566 bytes (22.2%); favicon/apple icon references retain the PNG. The large world-map JPEG was kept because a lossless WebP test was substantially larger. No media quality was reduced.
+
+Slow-mobile trace: 390×844, 150ms latency, 200,000 bytes/s downstream, 4× CPU slowdown, cold browser. Local uncompressed server DOMContentLoaded measured 30.27s before and 26.32s after in single runs; this is diagnostic, not a statistical benchmark. The current production baseline was 11.22s because the CDN compresses text and fonts; live post-deployment measurement is recorded separately. Largest remaining costs include the main data bundle, full-size map and decorative banner. An architecture change to lazy-load all biographies was deliberately left out of this focused update.
+
+Every glyph outline, mapping, metric and font layout/variation table was compared after conversion. Chrome confirmed identical text dimensions across both fonts and tested weights. The logo’s decoded RGBA pixels match exactly. Normal scene/background playback and reduced-motion behavior remain available.

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Vespasian2018";
-  src: url("assets/fonts/vespasian2018/Vespasian2018-Regular.otf") format("opentype");
+  src: url("assets/fonts/vespasian2018/Vespasian2018-Regular.woff2") format("woff2"), url("assets/fonts/vespasian2018/Vespasian2018-Regular.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Cormorant Garamond";
-  src: url("assets/fonts/CormorantGaramond-Variable.ttf") format("truetype");
+  src: url("assets/fonts/CormorantGaramond-Variable.woff2") format("woff2"), url("assets/fonts/CormorantGaramond-Variable.ttf") format("truetype");
   font-style: normal;
   font-weight: 300 700;
   font-display: swap;
@@ -473,7 +473,7 @@ body.atlas-view .fact dt { margin-bottom: .22rem; }
 .home-view .topbar { display: none; }
 .home-view .app-shell { grid-template-columns: 78px minmax(0, 1fr); justify-content: stretch; min-height: 100vh; }
 .home-view .sidebar { top: 0; z-index: 50; width: 78px; max-height: 100vh; overflow: visible; padding: 1.1rem .55rem; background: rgba(14,17,23,.98); border-right: 1px solid rgba(212,180,109,.14); }
-.home-view .sidebar::before { content: ""; display: block; width: 48px; height: 48px; margin: 0 auto 1.3rem; background: #fff url('fenumion-logo.png') center / 152% no-repeat; border: 1px solid var(--gold-bright); border-radius: 50%; box-shadow: 0 0 0 5px rgba(212,180,109,.06); }
+.home-view .sidebar::before { content: ""; display: block; width: 48px; height: 48px; margin: 0 auto 1.3rem; background: #fff url('fenumion-logo.webp') center / 152% no-repeat; border: 1px solid var(--gold-bright); border-radius: 50%; box-shadow: 0 0 0 5px rgba(212,180,109,.06); }
 .home-view .sidebar-intro, .home-view .nav-region-tree, .home-view .archive-note, .home-view .archive-links { display: none; }
 .home-view .nav-region { margin: 0 0 .55rem; padding: 0 0 .55rem; border-color: rgba(255,255,255,.06); }
 .home-view .nav-region-link { position: relative; display: grid; width: 58px; height: 58px; grid-template-columns: 1fr; padding: 0; place-items: center; background: transparent; border-color: transparent; }
@@ -2642,3 +2642,11 @@ body.character-background-view .mobile-contents { position: relative; z-index: 1
 body.character-background-view .breadcrumbs { color: #d7d2c5; text-shadow: 0 1px 3px #000; }
 
 .character-scenes video { display: block; width: 100%; height: auto; max-height: 540px; background: #040b08; }
+
+.character-path-group h3 { margin: 1rem 0 .45rem; font-size: 1rem; }
+.character-reading-path .exploration-links { margin: .5rem 0; }
+.character-event-links { margin-top: 1rem; }
+.character-event-links summary { cursor: pointer; color: var(--gold-bright); }
+.character-event-links ol { padding-left: 1.2rem; }
+.character-event-links button { display: grid; gap: .25rem; width: 100%; margin: .35rem 0; padding: .65rem; text-align: left; color: var(--ink); background: var(--deep); border: 1px solid var(--line); }
+.character-event-links small, .timeline-person-filter { color: var(--muted); }

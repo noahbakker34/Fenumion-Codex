@@ -46,7 +46,7 @@ const articles = [
       "Ordering": "Chronological or alphabetical",
       "Foundation": "Campaign records, maps, and chronicles"
     },
-    "body": "<section class=\"gateway-hero\">\n        <video class=\"gateway-banner-video ambient-video\" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload=\"metadata\" poster=\"assets/archive/world-map.jpeg\" aria-hidden=\"true\" tabindex=\"-1\"><source data-src=\"assets/archive/fenumion-banner.mp4\" type=\"video/mp4\"></video>\n        <div class=\"gateway-hero-inner\">\n          <span class=\"gateway-sigil\" aria-hidden=\"true\"><img src=\"fenumion-logo.png\" alt=\"\"></span>\n          <p class=\"gateway-overline\">A living history reconstructed from play</p>\n          <p>Characters leave fingerprints. Places remember. The past keeps acting on the present.</p>\n          <label class=\"gateway-search\"><span aria-hidden=\"true\">⌕</span><span class=\"sr-only\">Search the archive</span><input id=\"gateway-search\" type=\"search\" placeholder=\"Search the archive\" autocomplete=\"off\"><kbd>/</kbd></label>\n          <a class=\"community-join-button\" href=\"https://discord.gg/TqXRfGKtNv\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Join the Fenumion community</span><span aria-hidden=\"true\">↗</span></a>\n        </div>\n      </section>\n      <section class=\"gateway-categories\" aria-label=\"Explore the Codex\">\n        <button class=\"gateway-tile\" data-article=\"people-directory\" style=\"--tile-image:url('assets/archive/wrath.gif')\"><span>Characters</span><small>Heroes · NPCs · Gods</small></button>\n        <button class=\"gateway-tile\" data-article=\"living-timeline\" style=\"--tile-image:url('assets/archive/abyss.png')\"><span>Timeline</span><small>Causes · Events · Consequences</small></button>\n        <button class=\"gateway-tile\" data-article=\"visual-archive\" style=\"--tile-image:url('assets/archive/world-map.jpeg')\"><span>Locations</span><small>Regions · Settlements · Landmarks</small></button>\n        <button class=\"gateway-tile\" data-article=\"factions\" style=\"--tile-image:url('assets/archive/fein-uaill.jpeg')\"><span>Factions</span><small>Companies · Orders · Alliances</small></button><button class=\"gateway-tile\" data-article=\"memorable-quotes\" style=\"--tile-image:url('assets/archive/throne.png')\"><span>Quotes</span><small>Words the world remembers</small></button>\n        \n        <button class=\"gateway-tile\" data-article=\"reading-the-codex\" style=\"--tile-image:url('assets/archive/pristinia.webp')\"><span>Guide</span><small>Evidence · Perspective · Uncertainty</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Featured</h2><span></span></div>\n      <section class=\"gateway-featured\">\n        <button class=\"feature-card feature-image\" data-article=\"gael\" style=\"--feature-image:url('assets/archive/gael.jpeg')\"><span class=\"feature-label\">Regional history</span><span class=\"feature-copy\"><strong>Gael</strong><small>From Death’s wasteland to Hope, settlement, markets, and an unfinished recovery.</small></span></button>\n        <button class=\"feature-card feature-image\" data-article=\"fein-uaill\" style=\"--feature-image:url('assets/archive/fein-uaill.jpeg')\"><span class=\"feature-label\">Location atlas</span><span class=\"feature-copy\"><strong>Fein Uaill</strong><small>Zarathis, Caisleán na Brón, Ciaránach, walls, libraries, tombs, and shores.</small></span></button>\n        <button class=\"feature-card feature-quote\" data-article=\"memorable-quotes\"><span class=\"feature-label\">Memorable quote</span><blockquote>“My pain. Not everyone’s.”</blockquote><cite>Olokun</cite><small>Read the words that became part of Fenumion’s moral memory.</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Complete index</h2><span></span></div>\n      <p class=\"gateway-index-intro\">Browse every recovered character, event, and place. Sort by name or chronology, then open the exact record you need.</p>\n      <div id=\"world-browser\" class=\"world-browser\"></div>"
+    "body": "<section class=\"gateway-hero\">\n        <video class=\"gateway-banner-video ambient-video\" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload=\"metadata\" poster=\"assets/archive/world-map.jpeg\" aria-hidden=\"true\" tabindex=\"-1\"><source data-src=\"assets/archive/fenumion-banner.mp4\" type=\"video/mp4\"></video>\n        <div class=\"gateway-hero-inner\">\n          <span class=\"gateway-sigil\" aria-hidden=\"true\"><img src=\"fenumion-logo.webp\" alt=\"\"></span>\n          <p class=\"gateway-overline\">A living history reconstructed from play</p>\n          <p>Characters leave fingerprints. Places remember. The past keeps acting on the present.</p>\n          <label class=\"gateway-search\"><span aria-hidden=\"true\">⌕</span><span class=\"sr-only\">Search the archive</span><input id=\"gateway-search\" type=\"search\" placeholder=\"Search the archive\" autocomplete=\"off\"><kbd>/</kbd></label>\n          <a class=\"community-join-button\" href=\"https://discord.gg/TqXRfGKtNv\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Join the Fenumion community</span><span aria-hidden=\"true\">↗</span></a>\n        </div>\n      </section>\n      <section class=\"gateway-categories\" aria-label=\"Explore the Codex\">\n        <button class=\"gateway-tile\" data-article=\"people-directory\" style=\"--tile-image:url('assets/archive/wrath.gif')\"><span>Characters</span><small>Heroes · NPCs · Gods</small></button>\n        <button class=\"gateway-tile\" data-article=\"living-timeline\" style=\"--tile-image:url('assets/archive/abyss.png')\"><span>Timeline</span><small>Causes · Events · Consequences</small></button>\n        <button class=\"gateway-tile\" data-article=\"visual-archive\" style=\"--tile-image:url('assets/archive/world-map.jpeg')\"><span>Locations</span><small>Regions · Settlements · Landmarks</small></button>\n        <button class=\"gateway-tile\" data-article=\"factions\" style=\"--tile-image:url('assets/archive/fein-uaill.jpeg')\"><span>Factions</span><small>Companies · Orders · Alliances</small></button><button class=\"gateway-tile\" data-article=\"memorable-quotes\" style=\"--tile-image:url('assets/archive/throne.png')\"><span>Quotes</span><small>Words the world remembers</small></button>\n        \n        <button class=\"gateway-tile\" data-article=\"reading-the-codex\" style=\"--tile-image:url('assets/archive/pristinia.webp')\"><span>Guide</span><small>Evidence · Perspective · Uncertainty</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Featured</h2><span></span></div>\n      <section class=\"gateway-featured\">\n        <button class=\"feature-card feature-image\" data-article=\"gael\" style=\"--feature-image:url('assets/archive/gael.jpeg')\"><span class=\"feature-label\">Regional history</span><span class=\"feature-copy\"><strong>Gael</strong><small>From Death’s wasteland to Hope, settlement, markets, and an unfinished recovery.</small></span></button>\n        <button class=\"feature-card feature-image\" data-article=\"fein-uaill\" style=\"--feature-image:url('assets/archive/fein-uaill.jpeg')\"><span class=\"feature-label\">Location atlas</span><span class=\"feature-copy\"><strong>Fein Uaill</strong><small>Zarathis, Caisleán na Brón, Ciaránach, walls, libraries, tombs, and shores.</small></span></button>\n        <button class=\"feature-card feature-quote\" data-article=\"memorable-quotes\"><span class=\"feature-label\">Memorable quote</span><blockquote>“My pain. Not everyone’s.”</blockquote><cite>Olokun</cite><small>Read the words that became part of Fenumion’s moral memory.</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2>Complete index</h2><span></span></div>\n      <p class=\"gateway-index-intro\">Browse every recovered character, event, and place. Sort by name or chronology, then open the exact record you need.</p>\n      <div id=\"world-browser\" class=\"world-browser\"></div>"
   },
   {
     "id": "visual-archive",
@@ -14522,6 +14522,31 @@ if (pelegiaBase) {
   seekers.tags = [...new Set([...seekers.tags, 'Pelegia', 'Pelagia'])];
 }
 
+// Give each named NPC a focused route while retaining the complete source history.
+for (const [name, id] of [
+  ['Alessio', 'alessio'], ['Farmer Frank', 'farmer-frank'], ['Serra', 'serra'], ['Skye', 'skye'],
+  ['Endora', 'endora'], ['The Liar', 'the-liar'], ['Tutora Rhex', 'tutora-rhex']
+]) {
+  const person = archiveIndex.npcs.find(record => record.title === name);
+  if (!person || articles.some(record => record.id === id)) continue;
+  const history = articles.find(record => record.id === person.article);
+  if (!history) continue;
+  articles.push({id, title: name, category: 'People', type: person.meta, dek: person.summary,
+    tags: ['NPCs', name], facts: {Role: person.meta}, sources: [history.title + ' · existing public history'],
+    body: `<p>${escapeHtml(person.summary)}</p><h2 id="${id}-history">The surviving history</h2><p>Read <a href="#${history.id}">${escapeHtml(history.title)}</a> for the recorded scenes and their context.</p>`,
+    relatedRecords: [history.id]});
+  person.article = id;
+  fixedArticlePaths.set(id, ['Characters', name]);
+  subchannelMap[id] = [{label: history.title, article: history.id, summary: history.dek}];
+  const links = subchannelMap[history.id] || (subchannelMap[history.id] = []);
+  if (!links.some(link => link.article === id)) links.push({label: name, article: id, summary: person.summary});
+  for (const entry of npcDiscoveries?.entries || []) {
+    if (entry.canonicalName === name && entry.canonical === history.id) entry.canonical = id;
+  }
+  const media = window.FENUMION_MEDIA.characters[name];
+  if (media) window.FENUMION_MEDIA.articles[id] = {...media, imageLayout: 'portrait-hero'};
+}
+
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
@@ -16589,6 +16614,7 @@ function renderArticle(route, pushHash = true) {
   const id = routeAliases.get(requestedId) || requestedId;
   const routeParams = new URLSearchParams(routeQuery);
   const requestedMapId = routeParams.get("map") || "";
+  const requestedPersonId = routeParams.get("person") || "";
   const article = byId.get(id) || byId.get("world-index");
   const protectedArticle = !isPlayerSafeArticle(article.id);
   const hubPage = hubPageById.get(article.id);
@@ -16611,7 +16637,7 @@ function renderArticle(route, pushHash = true) {
   document.body.classList.toggle("starter-view", article.id === "start-here");
   document.body.classList.toggle("blessings-view", article.tags.includes("Blessings"));
   document.body.classList.toggle("player-perspectives-view", article.id === "player-perspectives");
-  const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : ""}`;
+  const routeHash = `#${article.id}${article.id === "visual-archive" && requestedMapId ? `?map=${encodeURIComponent(requestedMapId)}` : article.id === "living-timeline" && requestedPersonId ? `?person=${encodeURIComponent(requestedPersonId)}` : ""}`;
   if (requestedId !== id && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
   document.title = `${protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`;
@@ -16707,7 +16733,7 @@ function renderArticle(route, pushHash = true) {
     ${hubPage ? "" : gallery}
     ${peopleGallery}
     <div class="lead-grid">
-      <div class="article-body">${article.body}${scenes}${renderIslandNpcCollection(article)}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
+      <div class="article-body">${renderCharacterNavigation(article)}${article.body}${scenes}${renderIslandNpcCollection(article)}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
   const visualConnections = (relationshipMaps[article.id]?.nodes || [])
@@ -16733,7 +16759,7 @@ function renderArticle(route, pushHash = true) {
   if (article.id === "factions") setupFactionDirectory();
   if (article.id === "player-perspectives") window.setupPlayerPerspectives?.(articleContent);
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId); setupLocationExplorer(); }
-  if (article.id === "living-timeline") setupTimelineExplorer();
+  if (article.id === "living-timeline") setupTimelineExplorer(requestedPersonId);
   setupRelationshipMap(article);
   setupReadingPath();
   articleContent.querySelectorAll('video[data-story-scene]').forEach(video => {
@@ -17243,11 +17269,13 @@ function setupLocationExplorer() {
   renderResults();
 }
 
-function setupTimelineExplorer() {
+function setupTimelineExplorer(personId = "") {
   const explorer = document.querySelector("#timeline-explorer");
   if (!explorer) return;
+  const person = [...archiveIndex.characters, ...archiveIndex.npcs].find(record => record.article === personId && isPlayerSafeArticle(record.article));
+  const personEvents = person ? new Set(characterTimelineItems(person)) : null;
   const availableTimeline = archiveIndex.timeline.filter(item =>
-    !isRestrictedTimelineEvent(item) && item.title && item.meta && item.era && item.kind && item.location && item.people
+    !isRestrictedTimelineEvent(item) && item.title && item.meta && item.era && item.kind && item.location && item.people && (!personEvents || personEvents.has(item))
   );
   const eras = [...new Set(availableTimeline.map(item => item.era))];
   let activeEra = "All eras";
@@ -17255,6 +17283,7 @@ function setupTimelineExplorer() {
   let query = "";
 
   explorer.innerHTML = `
+    ${person ? `<p class="timeline-person-filter">Events involving <a href="#${person.article}">${escapeHtml(person.title)}</a> · <a href="#living-timeline">Show all events</a></p>` : ''}
     <div class="timeline-controls">
       <label class="timeline-search-shell">
         <span class="timeline-search-label">Search events</span>
@@ -17351,6 +17380,43 @@ function renderIslandNpcCollection(article) {
   if (!group) return '';
   const people = islandNpcPeople(group);
   return `<section class="exploration-section island-npc-collection"><p class="eyebrow">Island community</p><h2 id="island-npc-community">NPCs · ${escapeHtml(group.title)}</h2><p>${group.article ? 'Local residents, officials and other NPCs with documented ties to this island.' : 'These NPCs remain available without assigning them an unsupported home island.'}</p><div class="exploration-links"><a href="#npc-islands">Browse NPCs by island →</a>${article.npcIsland && group.article ? `<a href="#${group.article}">Explore ${escapeHtml(group.title)} →</a>` : ''}</div><p>${people.length} public NPC records</p><div class="browser-grid">${people.map(person=>`<button type="button" class="index-card character-card npc-record" data-character-title="${escapeHtml(person.title)}" data-article="${escapeHtml(person.article)}">${person.image?`<img src="${escapeHtml(person.image)}" alt="" loading="lazy" decoding="async">`:'<span class="index-glyph" aria-hidden="true">✦</span>'}<span class="index-card-copy"><strong>${escapeHtml(person.title)}</strong><small>${escapeHtml(person.islandBasis)}</small><span>${escapeHtml(person.summary)}</span></span></button>`).join('')}</div></section>`;
+}
+
+function characterTimelineItems(person) {
+  const resolved = new Map();
+  const matches = name => {
+    const key = name.trim();
+    if (!resolved.has(key)) resolved.set(key, resolvePublicPerson(key));
+    return resolved.get(key)?.title === person.title;
+  };
+  return archiveIndex.timeline.filter(event => event.title && event.meta && event.era && event.kind && event.location && event.people && !isRestrictedTimelineEvent(event) && isPlayerSafeArticle(event.article))
+    .filter(event => String(event.people || '').split(';').some(matches))
+    .filter((event, index, events) => events.findIndex(other => other.title === event.title && other.sort === event.sort) === index)
+    .sort((a, b) => String(a.sort).localeCompare(String(b.sort)));
+}
+
+function renderCharacterNavigation(article) {
+  const person = [...archiveIndex.characters, ...archiveIndex.npcs].find(record => record.article === article.id &&
+    [record.title, ...(record.aliases || [])].some(name => normalizePlaceName(name) === normalizePlaceName(article.title)));
+  if (!person) return '';
+  const group = npcIslandGroups.find(group => group.people.some(record => record.name === person.title));
+  const ids = new Set([...(article.relatedRecords || []), ...(subchannelMap[article.id] || []).map(link => link.article)]);
+  for (const match of article.body.matchAll(/href=["']#([^"']+)["']/g)) ids.add(match[1].split('?')[0]);
+  for (const node of relationshipMaps[article.id]?.nodes || []) if (node.article) ids.add(node.article);
+  const records = [...ids].map(id => byId.get(id)).filter(record => record && record.id !== article.id && isPlayerSafeArticle(record.id));
+  const places = records.filter(isLocationArticle).slice(0, 6);
+  const people = records.filter(record => searchCategory(record) === 'character').slice(0, 8);
+  const histories = records.filter(record => !isLocationArticle(record) && searchCategory(record) !== 'character').slice(0, 6);
+  const events = characterTimelineItems(person);
+  const linkList = (label, records) => records.length ? `<div class="character-path-group"><h3>${label}</h3><div class="exploration-links">${records.map(record => `<a href="#${record.id}">${escapeHtml(record.title)}</a>`).join('')}</div></div>` : '';
+  return `<section class="character-reading-path exploration-section" aria-labelledby="character-path-${article.id}">
+    <h2 id="character-path-${article.id}">Follow ${escapeHtml(person.title)}</h2>
+    <div class="exploration-links">${group ? `<a href="#${group.article}">${escapeHtml(group.title)} · island connection</a><a href="#npcs-${group.id}">All ${escapeHtml(group.title)} NPCs</a>` : archiveIndex.npcs.includes(person) ? '<a href="#npcs-unplaced">Island not established</a>' : ''}
+      ${relationshipMaps[article.id] ? `<button type="button" data-section="relationship-map-${article.id}">Explore relationships</button>` : ''}
+      ${events.length ? `<a href="#living-timeline?person=${encodeURIComponent(article.id)}">All ${events.length} recorded events</a>` : ''}</div>
+    ${linkList('Places in their history', places)}${linkList('Connected people', people)}${linkList('Quests & histories', histories)}
+    ${events.length ? `<details class="character-event-links"><summary>Recent recorded events</summary><ol>${events.slice(-5).reverse().map(event => `<li><button type="button" data-timeline-title="${escapeHtml(event.title)}" data-article="${escapeHtml(event.article)}"><small>${escapeHtml(event.meta)}</small>${escapeHtml(event.title)}</button></li>`).join('')}</ol></details>` : ''}
+  </section>`;
 }
 
 function renderCharacterCollection(article) {

@@ -1404,3 +1404,8 @@ Object.assign(window.FENUMION_MEDIA.articles, {
   }
 });
 // END REVIEWED NPC PORTRAITS 2026-10-11
+
+// Exact named local source portrait recovered during the NPC audit.
+const herbRecoveredPortrait = {image:'assets/characters/herb.webp',imageAlt:'Herb seated in a tavern, holding a mug',imageCaption:'Herb Shepard'};
+window.FENUMION_MEDIA.characters['Herb Shepard'] = herbRecoveredPortrait;
+window.FENUMION_MEDIA.articles.herb = {...window.FENUMION_MEDIA.articles.herb,...herbRecoveredPortrait,imageLayout:'portrait-hero'};

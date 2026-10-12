@@ -721,3 +721,12 @@ App221 caches normalized search text/names and source-aware quote extraction; va
 ## Missing NPC portraits · 11 October 2026
 
 Added 60 reviewed character-proxy depictions to previously empty public NPC entries; filled 81 empty NPC/discovery page portraits, reusing established images for aliases and new dossiers. All existing portraits and moving scenes retained. Four unresolved entries remain. See `NPC_PORTRAIT_UPDATE.md`; full provenance stays local. Media151; app221 and styles168 unchanged.
+
+
+## Ordered follow-up · 12 October 2026 · public work before vault repair
+
+NPC audit: 106 unique NPC titles, focused routes and island coverage; 8 Fein Uaill NPCs; 52 unplaced. Seven formerly shared-route identities get individual public entries linked to complete parent histories. Upstream reviewed portraits retained; Herb gains a named static portrait/poster. 101 static portraits, Vain video, four no-visual records; 31 brief focused records kept within evidence limits. Canonical Pin/Rahn/Melian/Pelegia boundaries preserved.
+
+Character navigation: documented islands/collections, places, connected people, quests/histories, relationship maps and explicit-participant events. Person-filtered timeline routes survive reload and can be cleared. Protected destinations filtered.
+
+Mobile loading: complete lossless WOFF2 fonts reduce font files 80.2%; pixel-identical WebP logo reduces file 22.2%. Original files/licenses retained. Glyph outlines, mappings, metrics, shaping/variation tables and browser text dimensions verified. Local slow-mobile DCL 30.27s → 26.32s in single diagnostic runs; production baseline 11.22s with CDN compression. Character/island navigation, portraits, exact event counts, mobile screenshots and protected empty stubs checked. App222, styles169, media152. Vault repair intentionally reserved until public work is deployed and verified.

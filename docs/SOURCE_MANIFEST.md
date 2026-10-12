@@ -269,3 +269,8 @@ User identifies the supplied clip as Aerrow. Inspected source frames; playable m
 ## NPC portrait evidence · 11 October 2026
 
 Sixty named Discord character-proxy depictions reviewed for the newly expanded public NPC directory. Image identity follows exact proxy labels and declared aliases, with visual review; depiction adds no biography or canonical appearance claims. Portrait paths and alias reuse are recorded in `NPC_PORTRAIT_UPDATE.md`. Message-level receipt and raw archive remain local.
+
+
+## NPC completeness and navigation · 12 October 2026
+
+Audit uses the existing locked public directory, biographies, island assignments and explicit timeline participant lists. Seven NPCs receive focused routes from existing public summaries with parent histories retained. User-named local `herb.webp` supplies Herb’s static portrait; reviewed upstream Discord portraits, including Hiram, remain authoritative. No generic/ambiguous source image is assigned. Source font files and licenses remain unchanged; WOFF2 copies and logo WebP are lossless delivery equivalents. No raw source or private identity payload is imported. See `NPC_COMPLETENESS_AUDIT.md`, `CHARACTER_NAVIGATION.md`, `PERFORMANCE.md`.

@@ -600,3 +600,11 @@ for (const id of ['shining-shores', 'zarathis']) {
     caption: 'White-and-gold sails cross clear blue water. The Zarathian fleet at the Shining Shores, as identified in the supplied visual record.'
   }]};
 }
+
+// User identifies the supplied moving portrait as Tarwen.
+window.FENUMION_MEDIA.articles['tarwen-silver-star'].scenes = [{
+  title: 'Tarwen of the Silver Star · Moving portrait',
+  video: 'assets/character-scenes/tarwen.mp4',
+  poster: 'assets/character-scenes/tarwen.jpg',
+  caption: 'Tarwen in dark armor, with a wolf pelt and a sword on his back. Supplied moving portrait.'
+}];

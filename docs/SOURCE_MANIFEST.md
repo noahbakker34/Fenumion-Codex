@@ -236,3 +236,6 @@ Direct user canon correction · 11 October 2026: “Pin is a player, Rahn is a p
 | Recently Discovered NPCs | Supplied 11 Oct 2026 | Complete 322-label recovery census | Names and footprints are archive evidence, not 322 proven canonical NPCs | Every row implemented; raw actor references checked | Public compact records and scrubbed protected stubs; no controller metadata shipped | `site/npc-discoveries-data.js`; `docs/NPC_DISCOVERIES_IMPLEMENTATION.md` |
 
 Original SHA-256: `d112999b83c85d63bfb7e2b43dc5a1f59c6e7a3b675a929adb31eeaa44a76889`. All 322 rows reconciled to raw actors; 308 unique public scene anchors verified. Full private import receipt remains outside Git.
+
+
+| Five thematic character background clips | Supplied 11 Oct 2026 | User-supplied decorative video | Creator attribution not inferred from filenames | 31 existing public character dossiers | Visual themes only; no implied event, deity or biography facts | `site/assets/character-backgrounds`; checksums in `docs/CHARACTER_BACKGROUND_THEMES.md` |

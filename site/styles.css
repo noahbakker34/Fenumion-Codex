@@ -2627,3 +2627,16 @@ body.codex-world.player-perspectives-view:not(.home-view) .article-body { font-f
 .discovery-score { color: var(--gold); }
 [data-npc-discoveries] label { min-width: 0; }
 [data-npc-discoveries] input, [data-npc-discoveries] select { max-width: 100%; }
+
+.character-video-backdrop { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; background: #0c0d10 var(--character-poster) center / cover; }
+.character-video-backdrop video { width: 100%; height: 100%; object-fit: cover; opacity: .7; }
+.character-video-backdrop::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg,rgba(6,7,10,.48),rgba(6,7,10,.78)); }
+body.character-background-view #article-content > :not(.character-video-backdrop) { position: relative; z-index: 1; }
+@media (prefers-reduced-motion: reduce) { .character-video-backdrop video { display: none; } }
+body.character-background-view .breadcrumbs,
+body.character-background-view .mobile-contents { position: relative; z-index: 1; }
+@media (min-width: 761px) {
+  body.character-background-view .sidebar,
+  body.character-background-view .article-rail { z-index: 2; }
+}
+body.character-background-view .breadcrumbs { color: #d7d2c5; text-shadow: 0 1px 3px #000; }

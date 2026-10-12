@@ -16106,6 +16106,7 @@ function setupAmbientVideos(root = document) {
   const videos = [...root.querySelectorAll("video[data-ambient-video]")];
   if (!videos.length) return;
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const conserveData=Boolean(navigator.connection?.saveData || ['slow-2g','2g'].includes(navigator.connection?.effectiveType));
   videos.forEach(video => {
     video.controls = false;
     video.muted = true;
@@ -16116,22 +16117,37 @@ function setupAmbientVideos(root = document) {
     video.setAttribute("controlslist", "nodownload nofullscreen noremoteplayback");
     video.setAttribute("tabindex", "-1");
     video.setAttribute("aria-hidden", "true");
-    if (reduceMotion) video.pause();
+    if (reduceMotion || conserveData) video.pause();
   });
-  if (reduceMotion) return;
+  if (reduceMotion || conserveData) return;
   if (!("IntersectionObserver" in window)) {
-    videos.forEach(video => video.play().catch(() => {}));
+    videos.forEach(video => { activateAmbientSource(video); if(!document.hidden)video.play().catch(() => {}); });
     return;
   }
   ambientVideoObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       const video = entry.target;
-      if (entry.isIntersecting) video.play().catch(() => {});
+      if (entry.isIntersecting && !document.hidden) {activateAmbientSource(video);video.play().catch(() => {});}
       else video.pause();
     });
   }, { rootMargin: "120px 0px", threshold: .08 });
   videos.forEach(video => ambientVideoObserver.observe(video));
 }
+
+function activateAmbientSource(video) {
+  const sources=video.querySelectorAll('source[data-src]');
+  if(!sources.length)return;
+  sources.forEach(source=>{source.src=source.dataset.src;source.removeAttribute('data-src');});
+  video.load();
+}
+
+document.addEventListener('visibilitychange',()=>{
+  document.querySelectorAll('video[data-ambient-video]').forEach(video=>{
+    if(document.hidden){video.dataset.resumeAmbient=String(!video.paused);video.pause();}
+    else if(video.dataset.resumeAmbient==='true' && !matchMedia('(prefers-reduced-motion: reduce)').matches){video.play().catch(()=>{});delete video.dataset.resumeAmbient;}
+  });
+});
+matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',()=>setupAmbientVideos(articleContent));
 
 function isRestrictedArticle(id) {
   return restrictedArticleIds.has(id);
@@ -16560,11 +16576,14 @@ function renderArticle(route, pushHash = true) {
   const article = byId.get(id) || byId.get("world-index");
   const protectedArticle = !isPlayerSafeArticle(article.id);
   const hubPage = hubPageById.get(article.id);
-  const deathRelated = !protectedArticle && !['world-index','people-directory','factions','living-timeline','visual-archive','memorable-quotes','ethos-of-fenumion','reading-the-codex','start-here'].includes(article.id) && (
+  const backgroundCatalog=window.FENUMION_CHARACTER_BACKGROUNDS;
+  const characterBackgroundTheme=!protectedArticle ? backgroundCatalog?.themes[backgroundCatalog.articles[article.id]] : null;
+  const deathRelated = !characterBackgroundTheme && !protectedArticle && !['world-index','people-directory','factions','living-timeline','visual-archive','memorable-quotes','ethos-of-fenumion','reading-the-codex','start-here'].includes(article.id) && (
     /\b(?:Death|Dumuzi)\b/.test([article.title,article.type,...(article.tags || []),...Object.values(article.facts || {})].join(' ')) ||
     (article.relatedRecords || []).includes('death-dumuzi') || /href=["']#death-dumuzi["']/.test(article.body || '') || /\b(?:Death|Dumuzi)\b/.test(String(article.body || '').replace(/<[^>]*>/g,' '))
   );
   document.body.classList.toggle('death-view',deathRelated);
+  document.body.classList.toggle('character-background-view',Boolean(characterBackgroundTheme));
   document.body.classList.toggle("home-view", article.id === "world-index");
   document.body.classList.remove("record-layout-view");
   document.body.classList.toggle("hub-view", Boolean(hubPage));
@@ -16655,9 +16674,10 @@ function renderArticle(route, pushHash = true) {
   const locationsBackdrop = article.id === 'visual-archive' ? `<div class="locations-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/locations-background-poster.webp" tabindex="-1"><source src="assets/archive/locations-background.mp4" type="video/mp4"></video></div>` : '';
   const factionsBackdrop = article.id === 'factions' ? `<div class="factions-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/factions-background-poster.webp" tabindex="-1"><source src="assets/archive/factions-background.mp4" type="video/mp4"></video></div>` : '';
   const historyBackdrop = article.id === 'living-timeline' ? `<div class="history-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/narrative-history-background-poster.webp" tabindex="-1"><source src="assets/archive/narrative-history-background.mp4" type="video/mp4"></video></div>` : '';
+  const characterBackdrop=characterBackgroundTheme ? `<div class="character-video-backdrop" aria-hidden="true" style="--character-poster:url('${characterBackgroundTheme.poster}')"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="${characterBackgroundTheme.poster}" tabindex="-1"><source data-src="${characterBackgroundTheme.video}" type="video/mp4"></video></div>` : '';
   const deathBackdrop = deathRelated ? `<div class="death-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" poster="assets/archive/death-background-poster.webp" tabindex="-1"><source src="assets/archive/death-background.mp4" type="video/mp4"></video></div>` : '';
   articleContent.innerHTML = `
-    ${quotesBackdrop}${ethosBackdrop}${deathBackdrop}${locationsBackdrop}${factionsBackdrop}${historyBackdrop}
+    ${characterBackdrop}${quotesBackdrop}${ethosBackdrop}${deathBackdrop}${locationsBackdrop}${factionsBackdrop}${historyBackdrop}
     <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubPage.image}')"` : ""}>
       <p class="article-kicker">${article.type}</p>
       <h1>${article.title}</h1>

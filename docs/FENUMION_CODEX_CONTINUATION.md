@@ -758,3 +758,10 @@ The two remaining songs, Breath of the Wild and Will Babel Claim You, complete t
 ## Mobile menu tap fix · 12 October 2026
 
 Reproduced the user-reported visible but untappable menu: themed `.app-shell` stacking contexts trapped the fixed drawer underneath the scrim. Shared mobile panel-open rule removes that parent z-index; both worlds use layout v11. Real touch navigation/backdrop tests passed across seven routes and 360–760px widths; desktop rail and Gedankin checked. See `MOBILE_NAVIGATION_FIX.md`. Publication pending.
+
+
+## Gael regional deep dive · 12 October 2026
+
+Expanded the existing region with first green ground, December 2024 Stake/forest creation, shared material work and older landscape. Added Crucible of Gael route, sidebar/place entry and training event; updated Tower, Gartina, shared restoration history and location summaries/aliases. Primary scene establishes planting and seed actions while participants’ initial permanence concerns remain visible; later testimony is distinct. Preserve existing Vysaeth facts, Withering/Adelia chronology and pre-Wrath active Mage’s Ruin circle. Source scope/anchors in `GAEL_DEEP_DIVE.md`; module `gael-deep-records.js?v=1`, app225. Publication pending.
+
+Gael final emphasis: two connected eras, renewed loss and inherited responsibility. Nienna’s July death and September Hallowing sacrifice remain distinct; Huoth’s angel identity retained; Jiangshi’s personal praise and Adelia’s community answer both preserved. Recall sanctuary work is separate from proposed temple buildings. Named 2024–2025 Vanguard testimony supersedes the old single-reference provisional account, without equating the May battlefield formation or merging it with Veilguard. Additional character links and histories, two more timeline entries, Place of Recall record. App226; publication pending.

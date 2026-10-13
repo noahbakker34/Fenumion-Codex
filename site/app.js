@@ -13730,6 +13730,41 @@ for (const id of ['gael','tower-of-gael','huoth','nienna','elenia','adelia-hope'
   links.push({label:'Gael · Making Life Possible Again',article:'gael-restoration',summary:'Follow the shared work of refuge, renewal and rebuilding across people and places.'});
 }
 
+// Reconcile the Gael synthesis with selected primary scenes and existing histories.
+const gaelDeep = window.FENUMION_GAEL_DEEP;
+if (gaelDeep) {
+  const gael = articles.find(record => record.id === 'gael');
+  gael.dek = 'A land where each generation inherits the work of keeping Death’s victory reversed: refuge, restoration, renewed loss and the choice to rebuild again.';
+  gael.body = '<p>Gael’s history follows two connected eras: the war for a land Death had devastated, and the keeping of what its people restored. Nienna helps open the road; Nuru and Huoth make survival possible; the company creates and protects living ground. Later damage to Hope demands another choice to rebuild. Responsibility passes to people and institutions who inherit the first expedition’s unfinished work.</p>' + gael.body;
+  gael.body = gael.body.replace('<h2 id="recovery">', gaelDeep.gaelSections + '<h2 id="recovery">');
+  gael.body = gael.body.replace('Gael’s unexplored regions, the permanence of wartime and supernatural damage, the origin of its environmental hazards, and the durability of its settlements remain uncertain.', 'The builders and chronology of Gael’s ruins, the cathedral’s God of Time, the meaning of its Titan statuary, the full history of the sea temple and Mage’s Ruin, and the exact nature and permanence of the forest’s magic remain incomplete. Soil remediation is a working response to observed damage, not a complete account of every hazard. The durability of settlements and whether restoration can be repeated elsewhere also remain open.');
+  Object.assign(gael.facts, {'Living centers':'Hope · Stake · Shadow Angel Forest','Restoration scene':'Staff becomes Stake; seed brings forth forest · Dec 2024','Training':'Crucible of Gael · Tower pinnacle'});
+  gael.sources.push(gaelDeep.source, 'gael-codex-deep-dive.md · supplied regional synthesis, 12 October 2026');
+  for (const [id, body] of Object.entries(gaelDeep.appends)) {
+    const record = articles.find(article => article.id === id);
+    record.body += body;
+    record.sources = [...new Set([...(record.sources || []), gaelDeep.source])];
+  }
+  const gartina = articles.find(record => record.id === 'gartina');
+  gartina.body = gartina.body.replace('Her precise role in Hope’s first restoration and the magic that created the spring terrain.', 'Her precise contribution to Hope’s first sanctification and the full mechanism that makes the seed-created forest endure. The December 2024 planting and seed scene are recovered.');
+  const record = gaelDeep.article;
+  articles.push(record);
+  archiveIndex.islands.push({title:record.title,region:'Gael',parent:'Tower of Gael',level:'site',type:record.type,meta:'Gael · cooperative training arena',article:record.id,summary:record.dek,source:'Gael RP · Huoth’s introduction',aliases:['Crucible of Gael','Cruicible of Gael']});
+  for (const [title, update] of Object.entries(gaelDeep.places)) {
+    const place = archiveIndex.islands.find(item => item.title === title && item.region === 'Gael');
+    if (place) { const aliases = [...new Set([...(place.aliases || []), ...(update.aliases || [])])]; Object.assign(place, update, {aliases}); }
+  }
+  const overview = archiveIndex.islands.find(item => item.article === 'gael' && item.level === 'region');
+  if (overview) overview.summary = gael.dek;
+  const gaelicPlaces = navigationRegions.flatMap(region=>region.branches).find(branch=>branch.title==='Gael');
+  gaelicPlaces.items.push({label:'The Crucible of Gael',article:record.id});
+  fixedArticlePaths.set(record.id, ['Locations','Gael',record.title]);
+  subchannelMap[record.id] = [{label:'Tower of Gael',article:'tower-of-gael',summary:'The sanctuary whose pinnacle holds the arena.'},{label:'Gael',article:'gael',summary:'The campaign and restoration that give training its purpose.'},{label:'Huoth',article:'huoth',summary:'The caretaker who introduces cooperation as the most important lesson.'}];
+  for (const id of ['gael','tower-of-gael','gael-restoration']) (subchannelMap[id] || (subchannelMap[id]=[])).push({label:record.title,article:record.id,summary:'The training arena where adventurers learn to fight together.'});
+  archiveIndex.timeline.push(...gaelDeep.events);
+  gael.facts['Named sites'] = `${archiveIndex.islands.filter(place=>place.region==='Gael' && place.level!=='region').length} recovered sublocations`;
+}
+
 // Add the expanded histories before deriving search, routes and counts.
 const characterDossiers = window.FENUMION_BOWENE_JIANGSHI;
 if(characterDossiers) {
@@ -14614,6 +14649,27 @@ for (const person of archiveIndex.npcs) {
   const article = articles.find(record=>record.id===person.article);
   const group = npcIslandGroups.find(group=>group.people.some(record=>record.name===person.title));
   if (article) article.facts = {...article.facts,Region:group && group.id !== 'unplaced' ? group.title : 'Unestablished'};
+}
+
+// Apply the final Gael emphasis after later character profiles have been merged.
+if (gaelDeep?.emphasisAppends) {
+  for (const [id, body] of Object.entries(gaelDeep.emphasisAppends)) {
+    const article = articles.find(record=>record.id===id);
+    article.body += body;
+    article.sources = [...new Set([...(article.sources || []), gaelDeep.emphasisSource])];
+  }
+  const restorationPath = articles.find(record=>record.id==='gael-restoration');
+  restorationPath.body = restorationPath.body.replace('</nav>', '<button type="button" data-section="gael-path-inheritance"><span>04</span> Inherit the responsibility</button></nav>');
+  const vanguard = articles.find(record=>record.id==='vanguard');
+  Object.assign(vanguard, gaelDeep.vanguardUpdate);
+  vanguard.sources = [...new Set([...(vanguard.sources || []), gaelDeep.emphasisSource])];
+  for (const record of archiveIndex.islands) if (record.article==='vanguard') record.summary=vanguard.dek;
+  archiveIndex.timeline.push(...gaelDeep.emphasisEvents);
+  archiveIndex.islands.push({title:'Place of Recall',region:'Gael',parent:'Gael · exact site unresolved',level:'site',type:'Recall sanctuary and proposed spiritual center',meta:'Gael · sanctuary work',article:'gael',summary:'Jiangshi resets a small sanctuary and Bitoshi helps with its area. Buildings, prayer and meditation spaces near Hope remain proposals.',source:'Gael RP · July 2026 Tower conversation',aliases:['Recall sanctuary']});
+  const gael=articles.find(record=>record.id==='gael');
+  Object.assign(gael.facts, {'Historical arc':'War for Gael · keeping and renewed restoration','Founding catalyst':'Nienna’s expeditionary initiative','Practical guide':'Huoth · caretaker, mentor and intermediary','Later institution':'Veilguard · distinct from the earlier Vanguard'});
+  gael.facts['Named sites'] = `${archiveIndex.islands.filter(place=>place.region==='Gael' && place.level!=='region').length} recovered sublocations`;
+  for(const id of ['nienna','huoth','jiangshi','bitoshi-nakamoto','veilguard','vanguard','thorn']) if(!(subchannelMap.gael || []).some(link=>link.article===id)) {const target=articles.find(record=>record.id===id);subchannelMap.gael.push({label:target.title,article:id,summary:target.dek});}
 }
 
 const byId = new Map(articles.map(article => [article.id, article]));

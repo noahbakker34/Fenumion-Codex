@@ -286,3 +286,11 @@ User-supplied synthesis `Krone_Deep_Character_Dossier.md`, SHA-256 `58f02c50a2c3
 Added all 20 supplied MP3 songs as a separate Fenumion group in the existing player and All styles catalogue. Original files preserved byte-for-byte under `site/assets/music/fenumion/`; titles and checksums in `docs/FENUMION_SOUNDTRACK.md`. Existing player controls and recommendations retained; music module v5. Song names imply no additional lore.
 
 The two remaining songs, Breath of the Wild and Will Babel Claim You, complete the 20-title Suno playlist. Originals preserved; source checksums in `FENUMION_SOUNDTRACK.md`.
+
+
+## Gael regional deep dive · 12 October 2026
+
+`gael-codex-deep-dive.md` SHA-256 `28cdcbcd7f8eda73a0fb18b82cf9bcb4c23d1db5c057521507c57a4cd29a4503`; referenced `GAEL_RP.md` SHA-256 `986915844e1484a04415ce45f9a0c1c8fd693157191a88fb491fd59d1895058f`. Supplied synthesis reconciled with selected primary public scenes from the 53,880-message export. New Crucible route and expanded Gael, Tower, Gartina and shared restoration histories; location aliases/summaries and two timeline anchors. Selective scope, prior Vysaeth history, forest uncertainty and circle chronology preserved in `GAEL_DEEP_DIVE.md`. No raw transcript, OOC controller data, attachments or protected revelations copied to site.
+
+
+Gael finishing correction layer: `gael-codex-emphasis-corrections.md`, SHA-256 `a22fc5cd60df4d03cc8881d1b2d161c59fd21f94b942fb26c56b077bfa918145`, supplied 12 October 2026. Selected source reconciliation and additional primary anchors in `GAEL_DEEP_DIVE.md`; earlier Vanguard testimony in `VANGUARD_HISTORY.md`. Expands succession, Nienna/Huoth/Jiangshi/Bitoshi roles and sanctuary work while preserving speaker claims, distinct deaths, proposal limits and the locked vault.

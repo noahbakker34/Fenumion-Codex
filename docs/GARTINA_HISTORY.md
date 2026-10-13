@@ -270,3 +270,8 @@ Gartina distrusts Magnus and regards his changed-person presentation as transpar
 - `Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md`
 - `Magnus_Niriin_Character_Profile_and_History.md`
 - `CONVERSATION_MASTER_SUMMARY.md`
+
+
+## Primary-source refinement · 12 October 2026
+
+The Gael export directly recovers the 6 December 2024 planting and seed scene. Gartina organizes shell/limestone remediation; Draygar has refined the limestone, Krone carries it and Scribonia transports, spreads and brings rain. Her planted Staff of the Woodlands becomes Stake, named from Krone’s joke and her meaning of shared sacrifice and commitment. A seed brings forth woodland, animals and water; she initially fears it is an illusion that may disappear. Later continuing forest presence is distinct from a proven permanence mechanism. Her first August reaction to Hope is recovered as tears, bare feet and rolling in living grass. See `GAEL_DEEP_DIVE.md` for anchors, scope and evidence limits.

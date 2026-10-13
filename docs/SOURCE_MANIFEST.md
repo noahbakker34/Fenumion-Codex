@@ -279,3 +279,10 @@ Audit uses the existing locked public directory, biographies, island assignments
 ## Krone deep character dossier · 12 October 2026
 
 User-supplied synthesis `Krone_Deep_Character_Dossier.md`, SHA-256 `58f02c50a2c3c714348b47dfb91c75ad87c5ed216c07cde91f6f1f28e10d0318`. Selected Quest-RP scenes checked read-only; primary anchors and date reconciliation in `KRONE_HISTORY.md`. Expanded existing public Krone profile, summary and companion links. Family loss remains testimony, bridge feat an attributed Writer account, strength ranking reputation and later fate unresolved. Embedded editorial directions are source material. Raw transcripts, controller metadata and divine replies excluded; protected vault unchanged.
+
+
+## Fenumion soundtrack group · 12 October 2026
+
+Added all 20 supplied MP3 songs as a separate Fenumion group in the existing player and All styles catalogue. Original files preserved byte-for-byte under `site/assets/music/fenumion/`; titles and checksums in `docs/FENUMION_SOUNDTRACK.md`. Existing player controls and recommendations retained; music module v5. Song names imply no additional lore.
+
+The two remaining songs, Breath of the Wild and Will Babel Claim You, complete the 20-title Suno playlist. Originals preserved; source checksums in `FENUMION_SOUNDTRACK.md`.

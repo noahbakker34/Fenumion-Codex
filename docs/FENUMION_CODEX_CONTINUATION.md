@@ -747,3 +747,10 @@ Added `art-of-fenumion` with 226 existing public artwork URLs, collection/search
 ## Krone deep character dossier · 12 October 2026
 
 Integrated supplied Krone synthesis into his existing article and navigation, preserving artwork and earlier expedition/castle history. Family grief, dragon vengeance and restraint, Elenia as chosen family, strength against helplessness, attributed bridge feat and remembered laughter deepen the record. Selected primary scenes verified; October/November and UTC/local posting-date distinctions documented in `KRONE_HISTORY.md`. Fate and absolute strength ranking remain unresolved; no direct Cala allegiance or new divine secrets. App224.
+
+
+## Fenumion soundtrack group · 12 October 2026
+
+Added all 20 supplied MP3 songs as a separate Fenumion group in the existing player and All styles catalogue. Original files preserved byte-for-byte under `site/assets/music/fenumion/`; titles and checksums in `docs/FENUMION_SOUNDTRACK.md`. Existing player controls and recommendations retained; music module v5. Song names imply no additional lore.
+
+The two remaining songs, Breath of the Wild and Will Babel Claim You, complete the 20-title Suno playlist. Originals preserved; source checksums in `FENUMION_SOUNDTRACK.md`.

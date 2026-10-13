@@ -1,5 +1,6 @@
 const musicStyles = [
   { id: "all", label: "All styles", description: "The complete Fenumion soundtrack." },
+  { id: "fenumion", label: "Fenumion", description: "Songs of Fenumion’s people, places, and adventures." },
   { id: "adventure", label: "Adventure & Wonder", description: "Journeys, discoveries, heroes, and radiant places." },
   { id: "battle", label: "Battle & Pursuit", description: "Combat, chases, sieges, and rising stakes." },
   { id: "dark", label: "Darkness & Horror", description: "Dread, corruption, death, and dangerous realms." },
@@ -21,6 +22,83 @@ const musicStyleRules = [
 function classifyMusicStyle(title) {
   return musicStyleRules.find(([, pattern]) => pattern.test(title))?.[0] || "exploration";
 }
+
+const fenumionSongs = [
+  [
+    "Adventure",
+    "adventure.mp3"
+  ],
+  [
+    "Aiya, Elen Sila",
+    "aiya-elen-sila.mp3"
+  ],
+  [
+    "Aria Before the Crown",
+    "aria-before-the-crown.mp3"
+  ],
+  [
+    "Babel",
+    "babel.mp3"
+  ],
+  [
+    "Death Arrives",
+    "death-arrives.mp3"
+  ],
+  [
+    "Death",
+    "death.mp3"
+  ],
+  [
+    "Elda",
+    "elda.mp3"
+  ],
+  [
+    "Gael",
+    "gael.mp3"
+  ],
+  [
+    "Go Gently, Friend",
+    "go-gently-friend.mp3"
+  ],
+  [
+    "Melian Carries the Glow",
+    "melian-carries-the-glow.mp3"
+  ],
+  [
+    "Prima Adventure",
+    "prima-adventure.mp3"
+  ],
+  [
+    "Prima Battle at Home",
+    "prima-battle-at-home.mp3"
+  ],
+  [
+    "Prima Battle",
+    "prima-battle.mp3"
+  ],
+  [
+    "Pristinia Stands",
+    "pristinia-stands.mp3"
+  ],
+  [
+    "Rahu",
+    "rahu.mp3"
+  ],
+  [
+    "The Void",
+    "the-void.mp3"
+  ],
+  [
+    "Zarathis",
+    "zarathis.mp3"
+  ],
+  [
+    "Four Came In",
+    "four-came-in.mp3"
+  ],
+  ["Breath of the Wild", "breath-of-the-wild.mp3"],
+  ["Will Babel Claim You", "will-babel-claim-you.mp3"]
+].map(([title, file]) => ({ title, file, style: "fenumion", src: `assets/music/fenumion/${file}` }));
 
 const fenumionSoundtrack = [
   ["Alterac", "alterac.mp3"],
@@ -163,6 +241,7 @@ const fenumionSoundtrack = [
   ["Viking Encampment", "viking-encampment.mp3"],
   ["Viking War", "viking-war.mp3"]
 ].map(([title, file]) => ({ title, file, style: classifyMusicStyle(title), src: `assets/music/action-drama/${file}` }))
+  .concat(fenumionSongs)
   .sort((a, b) => {
     const styleOrder = musicStyles.findIndex(style => style.id === a.style) - musicStyles.findIndex(style => style.id === b.style);
     return styleOrder || a.title.localeCompare(b.title);

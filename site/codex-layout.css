@@ -45,6 +45,8 @@
   .codex-world.hub-view .article-header { min-height: 260px; padding: 2.5rem 1rem 3.5rem; }
   .codex-world.hub-view .record-context { width: calc(100% - 2rem); }
   .codex-world.panels-open .topbar { z-index: 80; }
+  /* Let the fixed drawer rise above the scrim, outside themed page stacking contexts. */
+  body.codex-world.panels-open .app-shell { z-index: auto; }
 }
 
 /* Start with the story on narrow screens; supporting facts follow it. */

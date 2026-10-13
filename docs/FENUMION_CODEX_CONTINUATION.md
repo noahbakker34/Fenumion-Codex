@@ -754,3 +754,7 @@ Integrated supplied Krone synthesis into his existing article and navigation, pr
 Added all 20 supplied MP3 songs as a separate Fenumion group in the existing player and All styles catalogue. Original files preserved byte-for-byte under `site/assets/music/fenumion/`; titles and checksums in `docs/FENUMION_SOUNDTRACK.md`. Existing player controls and recommendations retained; music module v5. Song names imply no additional lore.
 
 The two remaining songs, Breath of the Wild and Will Babel Claim You, complete the 20-title Suno playlist. Originals preserved; source checksums in `FENUMION_SOUNDTRACK.md`.
+
+## Mobile menu tap fix · 12 October 2026
+
+Reproduced the user-reported visible but untappable menu: themed `.app-shell` stacking contexts trapped the fixed drawer underneath the scrim. Shared mobile panel-open rule removes that parent z-index; both worlds use layout v11. Real touch navigation/backdrop tests passed across seven routes and 360–760px widths; desktop rail and Gedankin checked. See `MOBILE_NAVIGATION_FIX.md`. Publication pending.

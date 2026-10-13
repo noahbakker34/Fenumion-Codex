@@ -2099,3 +2099,847 @@ Object.entries(reviewedFeinLocationViews).forEach(([title, media]) => {
   Object.assign(window.FENUMION_MEDIA.locations[title] || (window.FENUMION_MEDIA.locations[title] = {}), media);
 });
 // END REVIEWED FEIN UAILL LOCATION ART 2026-10-12
+
+// BEGIN REVIEWED GAEL LOCATION ART 2026-10-12
+window.FENUMION_GAEL_LOCATION_ART = [
+  {
+    "reviewNumber": 46,
+    "article": "tower-of-gael",
+    "image": "assets/locations/discord/ce0ac2b049a0b10ab7ce7e73a61686f00d5becbbdfa6a4b28301482decda8ce3.webp",
+    "title": "Tower of Gael — lighthouse setting",
+    "confidence": "clear",
+    "originalSha256": "ce0ac2b049a0b10ab7ce7e73a61686f00d5becbbdfa6a4b28301482decda8ce3",
+    "publishedSha256": "7442af27dc8fefd71907a05bbf382350b1bf4b29f973602c846ffa486b59c443"
+  },
+  {
+    "reviewNumber": 210,
+    "article": "tower-of-gael",
+    "image": "assets/locations/discord/428469f4cbd4b524bd95ecbb732bcb408716df7f1c386d51300d0a4e66b52e97.webp",
+    "title": "Tower of Gael — residential door",
+    "confidence": "clear",
+    "originalSha256": "428469f4cbd4b524bd95ecbb732bcb408716df7f1c386d51300d0a4e66b52e97",
+    "publishedSha256": "abf30639d7a2f79715c00840f556a25daf3453dfdcc7e34f718a61bd8468d036"
+  },
+  {
+    "reviewNumber": 267,
+    "article": "gael",
+    "image": "assets/locations/discord/9cec33d27b4c1e36c5d009f29b112c001606c7a8dc20d0bdecfbf5c9540b2a02.webp",
+    "title": "Gael — Wren’s refugee camp plan",
+    "confidence": "qualified",
+    "originalSha256": "9cec33d27b4c1e36c5d009f29b112c001606c7a8dc20d0bdecfbf5c9540b2a02",
+    "publishedSha256": "68c0f5c35acfed0e1efbc8119594ea3a2689df08c854eb862d88944da813fe78"
+  },
+  {
+    "reviewNumber": 274,
+    "article": "gael",
+    "image": "assets/locations/discord/d3b5095331de957a4abdb10b85fa1239eb9b3844ca9c6a01a0dc437338046d2a.webp",
+    "title": "Gael — ruined refugee encampment",
+    "confidence": "clear",
+    "originalSha256": "d3b5095331de957a4abdb10b85fa1239eb9b3844ca9c6a01a0dc437338046d2a",
+    "publishedSha256": "0a9956924776d8191f6c408ebb18dee9b23e90b5dccd9ad0579b86a6add8e239"
+  },
+  {
+    "reviewNumber": 275,
+    "article": "gael",
+    "image": "assets/locations/discord/3413f06b5c4f1329221f92716234db76a0a77a209578f7ceedb95166e65e73d8.webp",
+    "title": "Gael — woodland threat beside the refugee camp",
+    "confidence": "clear",
+    "originalSha256": "3413f06b5c4f1329221f92716234db76a0a77a209578f7ceedb95166e65e73d8",
+    "publishedSha256": "57ef5f86687e7ec6ccc1c132a1911c87928200be8b984e74fb27fb9f4161ddd2"
+  },
+  {
+    "reviewNumber": 281,
+    "article": "gael",
+    "image": "assets/locations/discord/60b08860ab232ae3aa43cae32d245ea2173178f6c4d435655443e34734971bdd.webp",
+    "title": "Gael Open-Air Market — first planning map",
+    "confidence": "qualified",
+    "originalSha256": "60b08860ab232ae3aa43cae32d245ea2173178f6c4d435655443e34734971bdd",
+    "publishedSha256": "399d0842750866b01ac3979d197067f3619647ccd4630aa755fbd89f62d85766"
+  },
+  {
+    "reviewNumber": 282,
+    "article": "gael",
+    "image": "assets/locations/discord/604c38b87d358e354ab2d5492d06bfada9038ec72bf04700740894c3645ecc35.webp",
+    "title": "Gael Open-Air Market — alternative planning map",
+    "confidence": "qualified",
+    "originalSha256": "604c38b87d358e354ab2d5492d06bfada9038ec72bf04700740894c3645ecc35",
+    "publishedSha256": "5a86ea042e640d6a34d57592c53f6d6c945c3ebf0e5ee5c3f526dbf218693044"
+  },
+  {
+    "reviewNumber": 300,
+    "article": "tower-of-gael",
+    "image": "assets/locations/discord/68710fe7f700e0ac64c98b067a73b38588cf52ee1873b58911486ba15f382556.webp",
+    "title": "Tower of Gael — meeting-room illustration",
+    "confidence": "clear",
+    "originalSha256": "68710fe7f700e0ac64c98b067a73b38588cf52ee1873b58911486ba15f382556",
+    "publishedSha256": "64e679c74f5c0b81fd8c9142824e16252f1c2b65455fdcb220977e2fe753560f"
+  },
+  {
+    "reviewNumber": 302,
+    "article": "tower-of-gael",
+    "image": "assets/locations/discord/c98a0eb3f3c88863b6047c9a8fb60b2741f4186e1f21a23a9d36dd10bc57b09c.webp",
+    "title": "The Library of Nuru — opening library reference",
+    "confidence": "clear",
+    "originalSha256": "c98a0eb3f3c88863b6047c9a8fb60b2741f4186e1f21a23a9d36dd10bc57b09c",
+    "publishedSha256": "2fc0fdd3e29f6dff4ded60d6185c090d1e846b6c452787f3fa84c227b8058f12"
+  },
+  {
+    "reviewNumber": 337,
+    "article": "gael",
+    "image": "assets/locations/discord/e4ec0779023b223b73ff3dc0013c1f89d3a775e9f8ec8aace8bf1679b45209de.webp",
+    "title": "Gael — map consulted in the Library of Nuru",
+    "confidence": "clear",
+    "originalSha256": "e4ec0779023b223b73ff3dc0013c1f89d3a775e9f8ec8aace8bf1679b45209de",
+    "publishedSha256": "d8c18ad5521ef5926668d41022884b0c68c7b0498e4633e07167ded692ec3543"
+  },
+  {
+    "reviewNumber": 344,
+    "article": "tower-of-gael",
+    "image": "assets/locations/discord/764d2097dc7c01c4858039a2216c4ea1aebb99e9019f29efd188b55370c93234.webp",
+    "title": "Sanctum of the Wise — upper tower room",
+    "confidence": "clear",
+    "originalSha256": "764d2097dc7c01c4858039a2216c4ea1aebb99e9019f29efd188b55370c93234",
+    "publishedSha256": "f0fce95e81696828be1e5b35c2d2c7a5ceab64e8fb39f74d136359a408601948"
+  },
+  {
+    "reviewNumber": 355,
+    "article": "tower-of-gael",
+    "image": "assets/locations/discord/1e19fa1775cc63728e975e6a65d6aac53a6eb20cad9b5a2f93a5309f4e58d677.webp",
+    "title": "Sanctum of the Wise — altar reference",
+    "confidence": "clear",
+    "originalSha256": "1e19fa1775cc63728e975e6a65d6aac53a6eb20cad9b5a2f93a5309f4e58d677",
+    "publishedSha256": "e032a748d90eb96396af961efcc8405ad35bcadf3a30dc44edb8b1a2df49895e"
+  },
+  {
+    "reviewNumber": 360,
+    "article": "gael",
+    "image": "assets/locations/discord/7683b2460e6114c7d570673b6ef2a18a96836604229df8196cc44729fbd18a06.webp",
+    "title": "Titan’s Watch — ruined titan and cathedral surroundings",
+    "confidence": "clear",
+    "originalSha256": "7683b2460e6114c7d570673b6ef2a18a96836604229df8196cc44729fbd18a06",
+    "publishedSha256": "5c40a4445dc83a3f5480894ac039462c944995f7cb173f7e47d0ec5274370542"
+  },
+  {
+    "reviewNumber": 361,
+    "article": "gael",
+    "image": "assets/locations/discord/60a7d96660ca581f3046f8613001deb4bdee160b39532015d12eea1a682a4ac2.webp",
+    "title": "The Cathedral — illustrated floor detail",
+    "confidence": "clear",
+    "originalSha256": "60a7d96660ca581f3046f8613001deb4bdee160b39532015d12eea1a682a4ac2",
+    "publishedSha256": "864972e8765c3478f3bdaf5ecac7b226343330e2f5de0d60dbdff33747293a9d"
+  },
+  {
+    "reviewNumber": 362,
+    "article": "gael",
+    "image": "assets/locations/discord/7b8b6c1f0a07e7a6eb83c3ffb0b49714c762db065c84e7d945f8c4671356a191.webp",
+    "title": "The Road — route toward the Plains of Trial",
+    "confidence": "clear",
+    "originalSha256": "7b8b6c1f0a07e7a6eb83c3ffb0b49714c762db065c84e7d945f8c4671356a191",
+    "publishedSha256": "1b23488328ba635d06cc4eb299ae26fde962ef42357a6fd1745017b7d159e25d"
+  },
+  {
+    "reviewNumber": 363,
+    "article": "gael",
+    "image": "assets/locations/discord/41016eaf3e2f127ee3c5f12781e1d580041697f9e9c47951496a6fd158702f5c.webp",
+    "title": "The Road — wasteland during Wren’s search",
+    "confidence": "clear",
+    "originalSha256": "41016eaf3e2f127ee3c5f12781e1d580041697f9e9c47951496a6fd158702f5c",
+    "publishedSha256": "4ad860e36b28a1e3aa841b5d0099013ff455a8a1508129eee201b536351ec2b3"
+  },
+  {
+    "reviewNumber": 367,
+    "article": "gael",
+    "image": "assets/locations/discord/05bc8a26a36442d066982c52c2bfd76594bccde005e7664b5130d5c76ca035c2.webp",
+    "title": "The Coast — rocky landing cove",
+    "confidence": "clear",
+    "originalSha256": "05bc8a26a36442d066982c52c2bfd76594bccde005e7664b5130d5c76ca035c2",
+    "publishedSha256": "e24ff5a06667966a1ee8a277000b7ad08a35e4015f57b5dc846e4d5cd1f09575"
+  },
+  {
+    "reviewNumber": 368,
+    "article": "gael",
+    "image": "assets/locations/discord/d4c8c8e4662d8f53eded036d31358d0ed18f28b571e43b68490d5d7934cb07f5.webp",
+    "title": "The Coast — visiting red-flagged ship",
+    "confidence": "qualified",
+    "originalSha256": "d4c8c8e4662d8f53eded036d31358d0ed18f28b571e43b68490d5d7934cb07f5",
+    "publishedSha256": "913030ff4cd9948789b9a6fe1f5c05c4b0ab770c11fc11c20a4b1215087a9a87"
+  },
+  {
+    "reviewNumber": 380,
+    "article": "gael",
+    "image": "assets/locations/discord/999933344333e00bc37b4437f0386b582ed8bf2e3195ea7592c0afcefdecc1d8.webp",
+    "title": "The Coast — quiet sunset shore",
+    "confidence": "clear",
+    "originalSha256": "999933344333e00bc37b4437f0386b582ed8bf2e3195ea7592c0afcefdecc1d8",
+    "publishedSha256": "0e8d5412f81c0a9c6bf9e387bd68ef73f75585686fed5d4992c861242a9c22ea"
+  },
+  {
+    "reviewNumber": 382,
+    "article": "gael",
+    "image": "assets/locations/discord/a6793045ebff14f251817bfefc07bcdbf994a05c4b98d571b779272e7df8fc5c.webp",
+    "title": "Vysaeth’s Tomb — opening setting illustration",
+    "confidence": "clear",
+    "originalSha256": "a6793045ebff14f251817bfefc07bcdbf994a05c4b98d571b779272e7df8fc5c",
+    "publishedSha256": "ed4b995b1d41361eefe203c32259c40df6b701c51cdd947a238b4e60e55fe61c"
+  },
+  {
+    "reviewNumber": 384,
+    "article": "gael",
+    "image": "assets/locations/discord/f5309e91c798ff217a73d748ca28fb292c06e854934b012199bbdd1ede00cbdb.webp",
+    "title": "The Cruicible of Gael — top view",
+    "confidence": "clear",
+    "originalSha256": "f5309e91c798ff217a73d748ca28fb292c06e854934b012199bbdd1ede00cbdb",
+    "publishedSha256": "8d24bfe6a26b0066c6477a4719e35d633bc9722a2fcec07a1b3f71a6dad9207c"
+  },
+  {
+    "reviewNumber": 387,
+    "article": "gael",
+    "image": "assets/locations/discord/7a3f9fafd888ba4cd6c75eb8411c43903a088068bfe76a8c6f089efcab2b47fa.webp",
+    "title": "Hope — newly sanctified ground",
+    "confidence": "clear",
+    "originalSha256": "7a3f9fafd888ba4cd6c75eb8411c43903a088068bfe76a8c6f089efcab2b47fa",
+    "publishedSha256": "eab9be6e41b8fb6ff3ce259fc4a9138580f6c3bbc1f89e4928b45ee7fa408890"
+  },
+  {
+    "reviewNumber": 388,
+    "article": "gael",
+    "image": "assets/locations/discord/249feea92033793b12ea048ddd99c9a1f3eacfefa12319318ed4d522f2245d7c.webp",
+    "title": "Hope — illustration accompanying its desolation",
+    "confidence": "clear",
+    "originalSha256": "249feea92033793b12ea048ddd99c9a1f3eacfefa12319318ed4d522f2245d7c",
+    "publishedSha256": "40ceec456f78346ba0785271d9c631316e55243909be44eb617c15798e872804"
+  },
+  {
+    "reviewNumber": 389,
+    "article": "gael",
+    "image": "assets/locations/discord/287b30c1f3b1e5548a6a1678a864fb789235a87d080cdcfaa0c273dcd0250e95.webp",
+    "title": "Stake — living tree near Hope",
+    "confidence": "clear",
+    "originalSha256": "287b30c1f3b1e5548a6a1678a864fb789235a87d080cdcfaa0c273dcd0250e95",
+    "publishedSha256": "3685dadaa55140b948eb1451c18e5fcd1c5f4c18b88d9a1221957943975eedc6"
+  },
+  {
+    "reviewNumber": 395,
+    "article": "gael",
+    "image": "assets/locations/discord/14f45545533df74baec9f2fd286de7a3184ed75b4de3ddad8f2f719dca4158c5.webp",
+    "title": "The Cathedral — encounter reference plan",
+    "confidence": "clear",
+    "originalSha256": "14f45545533df74baec9f2fd286de7a3184ed75b4de3ddad8f2f719dca4158c5",
+    "publishedSha256": "252ea5b4fac4a7b945968ac44f85e69588154ebb6fddc5eca3b860aa20c2d4bc"
+  },
+  {
+    "reviewNumber": 400,
+    "article": "gael",
+    "image": "assets/locations/discord/efde10f1f6560055fb9bae7f843935c93c117e6f4d65400867e65cb34fed7894.webp",
+    "title": "The Cathedral — entrance plan detail",
+    "confidence": "clear",
+    "originalSha256": "efde10f1f6560055fb9bae7f843935c93c117e6f4d65400867e65cb34fed7894",
+    "publishedSha256": "ef4177ea39e2b1e66d8196d3d83e44c9e1cdbcb5a7a9b42ccc344ae18de77cba"
+  },
+  {
+    "reviewNumber": 402,
+    "article": "gael",
+    "image": "assets/locations/discord/0cc6678941fedbfd921cb89e972d30ac20fc5599e897a07f552f1fbab4e60899.webp",
+    "title": "The Cathedral — hallway plan detail",
+    "confidence": "clear",
+    "originalSha256": "0cc6678941fedbfd921cb89e972d30ac20fc5599e897a07f552f1fbab4e60899",
+    "publishedSha256": "6124ad19f30b3675ffb94fd6d8f9ca22046a802f189aa89807268852ddbca342"
+  },
+  {
+    "reviewNumber": 403,
+    "article": "gael",
+    "image": "assets/locations/discord/66bc26f295e52cf31163339732dfbc7853fc29af0b20526f980cf5cc1a81eeb4.webp",
+    "title": "The Cathedral — chamber revealed during exploration",
+    "confidence": "clear",
+    "originalSha256": "66bc26f295e52cf31163339732dfbc7853fc29af0b20526f980cf5cc1a81eeb4",
+    "publishedSha256": "0a07a8d198804db52bcafa16e68d8521861c8b1a79919dbfc98644e671d02b7d"
+  },
+  {
+    "reviewNumber": 407,
+    "article": "gael",
+    "image": "assets/locations/discord/f05baf1527b792a1f7788f411a3113824db47a00c747d4adee4700f2cf124efa.webp",
+    "title": "Crustacean Cove — opening coastal reference",
+    "confidence": "clear",
+    "originalSha256": "f05baf1527b792a1f7788f411a3113824db47a00c747d4adee4700f2cf124efa",
+    "publishedSha256": "1a87921d9976e9a307e6b8fe501eafddcdbd14c67065d9705e9ea7ef02545cb0"
+  },
+  {
+    "reviewNumber": 413,
+    "article": "gael",
+    "image": "assets/locations/discord/1a192a10ce26bf6054d53f233db921c5a99640bdd7212d6c01909cf7e4b0e541.webp",
+    "title": "Mage’s Ruin — opening courtyard reference",
+    "confidence": "clear",
+    "originalSha256": "1a192a10ce26bf6054d53f233db921c5a99640bdd7212d6c01909cf7e4b0e541",
+    "publishedSha256": "5d70e2b74d68184fea7b3509b3fc48a92d0c329f6f1e1dee468a20f9471cc4b3"
+  },
+  {
+    "reviewNumber": 414,
+    "article": "gael",
+    "image": "assets/locations/discord/bc7c49918d0fa178222597a1e7d20073ef445f6cd01daf4e511357a83fa30f74.webp",
+    "title": "Mage’s Ruin — fortress approach map",
+    "confidence": "clear",
+    "originalSha256": "bc7c49918d0fa178222597a1e7d20073ef445f6cd01daf4e511357a83fa30f74",
+    "publishedSha256": "2a38796782e27c9c62d2bfc577eda955a0f972a3e7a25cf1afae7c70b645cb87"
+  },
+  {
+    "reviewNumber": 416,
+    "article": "gael",
+    "image": "assets/locations/discord/114d94e693222b91b23edc759c7f25e464def4d5124277f44fc297ac74f85027.webp",
+    "title": "Shadow Angel Forest — opening woodland reference",
+    "confidence": "clear",
+    "originalSha256": "114d94e693222b91b23edc759c7f25e464def4d5124277f44fc297ac74f85027",
+    "publishedSha256": "d0307d640aa6c9e690ff83f55f4557b99c0af4268ddb0d2af3fb2b4c02002d53"
+  },
+  {
+    "reviewNumber": 418,
+    "article": "gael",
+    "image": "assets/locations/discord/a4dd359e9032c4a16b270824657c691953e8e275f1e1d0c7a7b2f77bd4ed6c3d.webp",
+    "title": "Shadow Angel Forest — refugee house design",
+    "confidence": "qualified",
+    "originalSha256": "a4dd359e9032c4a16b270824657c691953e8e275f1e1d0c7a7b2f77bd4ed6c3d",
+    "publishedSha256": "e33380f152157984d375dedf5e6f1c3082cd9912b02a9cc501878e33a1cf64f3"
+  },
+  {
+    "reviewNumber": 419,
+    "article": "gael",
+    "image": "assets/locations/discord/eda2206f93c1f2577b800967cb2cca94b6fab42a70720bb3ced2233239e68cd3.webp",
+    "title": "Shadow Angel Forest — completed structure plan",
+    "confidence": "clear",
+    "originalSha256": "eda2206f93c1f2577b800967cb2cca94b6fab42a70720bb3ced2233239e68cd3",
+    "publishedSha256": "f5a8d7556fb535ee09005e17cb8ade04f1765f1aaff24d483756946c0989d375"
+  },
+  {
+    "reviewNumber": 420,
+    "article": "gael",
+    "image": "assets/locations/discord/576ad656a5cea5d183d0eed6b845833baf37f803a7f554ab175eb447fb31314b.webp",
+    "title": "Shadow Angel Forest — color-transition illustration",
+    "confidence": "qualified",
+    "originalSha256": "576ad656a5cea5d183d0eed6b845833baf37f803a7f554ab175eb447fb31314b",
+    "publishedSha256": "bec5bde44bc7af1b986ab1d36b7c45be48f27cddae68213a089848466c924ff6"
+  },
+  {
+    "reviewNumber": 422,
+    "article": "gael",
+    "image": "assets/locations/discord/00ec070a0ff6120473eaf2f62bc87e2efeb9e5c14cb0cb0e914a250b453ffc69.webp",
+    "title": "Shadow Angel Forest — orb found along the stream",
+    "confidence": "clear",
+    "originalSha256": "00ec070a0ff6120473eaf2f62bc87e2efeb9e5c14cb0cb0e914a250b453ffc69",
+    "publishedSha256": "54b369ef4d32a17689bb5c6ecc15382d12abe49668fee5c9051c5e5952a4563f"
+  },
+  {
+    "reviewNumber": 424,
+    "article": "gael",
+    "image": "assets/locations/discord/d36557b649908c9dfeca11a131be0a8088a4db66239aa9ce77ac3db7a535e49b.webp",
+    "title": "Shadow Angel Forest — hole found during the hunt",
+    "confidence": "qualified",
+    "originalSha256": "d36557b649908c9dfeca11a131be0a8088a4db66239aa9ce77ac3db7a535e49b",
+    "publishedSha256": "4050eaaca71b81a01daae16f682e4adfcea8ed6947bfb4dcc92dee2b0f1437ac"
+  },
+  {
+    "reviewNumber": 431,
+    "article": "gael",
+    "image": "assets/locations/discord/30e05e8638284af7dc414f3decd323e619610577b0025314f26f4cda7c327d40.webp",
+    "title": "Plains of Trial — opening landscape reference",
+    "confidence": "clear",
+    "originalSha256": "30e05e8638284af7dc414f3decd323e619610577b0025314f26f4cda7c327d40",
+    "publishedSha256": "859b591a7311c46469c2262b90c3fc2b70d05a5dc0ae3f13179ffecdbf7626ac"
+  },
+  {
+    "reviewNumber": 434,
+    "article": "gael",
+    "image": "assets/locations/discord/4ea118ae14c17f4018bfe34490acc22af351b832fd972fd87ebe144ffb05927b.webp",
+    "title": "Plains of Trial — smoke-covered interior",
+    "confidence": "clear",
+    "originalSha256": "4ea118ae14c17f4018bfe34490acc22af351b832fd972fd87ebe144ffb05927b",
+    "publishedSha256": "9055a9de3cce77348d7a607287a700711842b2bcee0a47c8b1192d4295621720"
+  },
+  {
+    "reviewNumber": 435,
+    "article": "gael",
+    "image": "assets/locations/discord/a4c15af5ff096c670050c2df95982ce1c3a8ec79f4b211d44b53b10444158e83.webp",
+    "title": "Plains of Trial — burning fissure in the hills",
+    "confidence": "clear",
+    "originalSha256": "a4c15af5ff096c670050c2df95982ce1c3a8ec79f4b211d44b53b10444158e83",
+    "publishedSha256": "9714a5b78e2b1e45d285eda15e7cf01d4620433ab23cdab9f0c73d0cccdde374"
+  },
+  {
+    "reviewNumber": 436,
+    "article": "gael",
+    "image": "assets/locations/discord/e311effd7439e4667ff7e33b37ec4ee1dd47ae7aaeda76de9d246073b1b46f38.webp",
+    "title": "Plains of Trial — cavern seen by Elenia",
+    "confidence": "clear",
+    "originalSha256": "e311effd7439e4667ff7e33b37ec4ee1dd47ae7aaeda76de9d246073b1b46f38",
+    "publishedSha256": "eea3b075ee2aa66c50b5a261f9298e641e0903642cc68007514eb43960221b2b"
+  },
+  {
+    "reviewNumber": 444,
+    "article": "gael",
+    "image": "assets/locations/discord/178bb416dda479943d4a0e3ba5ef1a3d43ea9652a8c8dbba8666da7ad7a39b90.webp",
+    "title": "Plains of Trial — beyond the last border",
+    "confidence": "clear",
+    "originalSha256": "178bb416dda479943d4a0e3ba5ef1a3d43ea9652a8c8dbba8666da7ad7a39b90",
+    "publishedSha256": "88e0d7dc3d0a659fe7f192238e297622480cba9a4e4e6662f97687c581a71db6"
+  },
+  {
+    "reviewNumber": 447,
+    "article": "gael",
+    "image": "assets/locations/discord/011952eb1c7edfc43444a95de37a0029d1a019256d74b4f67ad87b65aee8b34c.webp",
+    "title": "Plains of Trial — bleak day beneath the smog",
+    "confidence": "clear",
+    "originalSha256": "011952eb1c7edfc43444a95de37a0029d1a019256d74b4f67ad87b65aee8b34c",
+    "publishedSha256": "05ca5abb9ebc32f56fe39c2560c277e9316c515368ff59f81a809577126fd376"
+  },
+  {
+    "reviewNumber": 475,
+    "article": "gael",
+    "image": "assets/locations/discord/693a5816d69c81944abfc2c09eaa8a842449e1da36bb9e03b0cbb9a3f8483fc1.webp",
+    "title": "Gael hunt — sunlit woodland reference",
+    "confidence": "qualified",
+    "originalSha256": "693a5816d69c81944abfc2c09eaa8a842449e1da36bb9e03b0cbb9a3f8483fc1",
+    "publishedSha256": "9c9750a6e3b2d954c2254b1bb1874cac3d176165860b53d98aff90d9dc60e42b"
+  },
+  {
+    "reviewNumber": 496,
+    "article": "gael",
+    "image": "assets/locations/discord/f8ee52e685f3dc538d2bf00f2c25b05981aad0ae45f505282b545d438f585f57.webp",
+    "title": "Gael hunt — strange woodland path",
+    "confidence": "clear",
+    "originalSha256": "f8ee52e685f3dc538d2bf00f2c25b05981aad0ae45f505282b545d438f585f57",
+    "publishedSha256": "4468a6486ce526dcfca5e9645ecd3219a8a46fbfb5313886a9db44125216f475"
+  },
+  {
+    "reviewNumber": 500,
+    "article": "gael",
+    "image": "assets/locations/discord/52ab75402ff3f9692e16c57f5f7c42e0113f13af22741590214a1a60b2f29234.webp",
+    "title": "Gael hunt — DM-prepared woodland view",
+    "confidence": "qualified",
+    "originalSha256": "52ab75402ff3f9692e16c57f5f7c42e0113f13af22741590214a1a60b2f29234",
+    "publishedSha256": "4ff035bdd4393e56b53083fe8ed563b4a39cca8cf74024ad7d165553ac8a56f4"
+  },
+  {
+    "reviewNumber": 507,
+    "article": "gael",
+    "image": "assets/locations/discord/b974dc1d8ba1df718724ace90eb723ae17b3a62b62d1400ac61146f336558dbf.webp",
+    "title": "Gael hunt — dark forest reference",
+    "confidence": "qualified",
+    "originalSha256": "b974dc1d8ba1df718724ace90eb723ae17b3a62b62d1400ac61146f336558dbf",
+    "publishedSha256": "7622d0d9ad624b972601e48ba9ab30c46b28bf867d2356a36d25e2f3f659c0a8"
+  },
+  {
+    "reviewNumber": 519,
+    "article": "gael",
+    "image": "assets/locations/discord/6e5ca56369ba0bc5618fe2826ad0ffce1a7877b9fc82cd62520509254f03cd32.webp",
+    "title": "Gael hunt — forest at the danger zone",
+    "confidence": "qualified",
+    "originalSha256": "6e5ca56369ba0bc5618fe2826ad0ffce1a7877b9fc82cd62520509254f03cd32",
+    "publishedSha256": "9fba7408ac3be79c06126d27abcf2ce1c735ba0d0543efb48f41507e2047afb6"
+  }
+];
+const reviewedGaelLocationGalleries = {
+  "tower-of-gael": [
+    {
+      "image": "assets/locations/discord/ce0ac2b049a0b10ab7ce7e73a61686f00d5becbbdfa6a4b28301482decda8ce3.webp",
+      "title": "Tower of Gael — lighthouse setting",
+      "alt": "Tower of Gael — lighthouse setting",
+      "caption": "Gael. Opening image of the Tower of Gael, identified as the explorers’ refuge under Nuru’s Eye.",
+      "source": "https://discord.com/channels/1177270231513694249/1250334670957051958/1250334670957051958"
+    },
+    {
+      "image": "assets/locations/discord/428469f4cbd4b524bd95ecbb732bcb408716df7f1c386d51300d0a4e66b52e97.webp",
+      "title": "Tower of Gael — residential door",
+      "alt": "Tower of Gael — residential door",
+      "caption": "Gael. Bitoshi and Adelia climb the tower stairs to their assigned residence; this image accompanies the opening of that door.",
+      "source": "https://discord.com/channels/1177270231513694249/1250334670957051958/1266248826151501894"
+    },
+    {
+      "image": "assets/locations/discord/68710fe7f700e0ac64c98b067a73b38588cf52ee1873b58911486ba15f382556.webp",
+      "title": "Tower of Gael — meeting-room illustration",
+      "alt": "Tower of Gael — meeting-room illustration",
+      "caption": "Gael. Attached during a conversation inside the tower as Severina moves to a table near the doors. The image illustrates the scene without establishing a complete floor plan.",
+      "source": "https://discord.com/channels/1177270231513694249/1250334670957051958/1554544851989565571"
+    },
+    {
+      "image": "assets/locations/discord/c98a0eb3f3c88863b6047c9a8fb60b2741f4186e1f21a23a9d36dd10bc57b09c.webp",
+      "title": "The Library of Nuru — opening library reference",
+      "alt": "The Library of Nuru — opening library reference",
+      "caption": "Gael. The Library of Nuru’s opening image accompanies its spell list and the first accounts of copying spells there.",
+      "source": "https://discord.com/channels/1177270231513694249/1250338434275348532/1250338434275348532"
+    },
+    {
+      "image": "assets/locations/discord/764d2097dc7c01c4858039a2216c4ea1aebb99e9019f29efd188b55370c93234.webp",
+      "title": "Sanctum of the Wise — upper tower room",
+      "alt": "Sanctum of the Wise — upper tower room",
+      "caption": "Gael. Opening post explicitly describes the Sanctum as the top room of the tower, a place for rest and communion with Nuru. This image is attached to that description.",
+      "source": "https://discord.com/channels/1177270231513694249/1250444114387013673/1250444114387013673"
+    },
+    {
+      "image": "assets/locations/discord/1e19fa1775cc63728e975e6a65d6aac53a6eb20cad9b5a2f93a5309f4e58d677.webp",
+      "title": "Sanctum of the Wise — altar reference",
+      "alt": "Sanctum of the Wise — altar reference",
+      "caption": "Gael. The guide points out the altar and tells the visitor to ask for what is needed; this image accompanies that direct interaction.",
+      "source": "https://discord.com/channels/1177270231513694249/1250444114387013673/1313992659597004830"
+    }
+  ],
+  "gael": [
+    {
+      "image": "assets/locations/discord/9cec33d27b4c1e36c5d009f29b112c001606c7a8dc20d0bdecfbf5c9540b2a02.webp",
+      "title": "Gael — Wren’s refugee camp plan",
+      "alt": "Gael — Wren’s refugee camp plan",
+      "caption": "Gael. Qualified reference. Wren presents a drawn plan for a camp with a central hearth, family tents, kitchen, first-aid shelter and supplies. This is a proposed arrangement, not proof that every drawn feature was built.",
+      "source": "https://discord.com/channels/1177270231513694249/1250334670957051958/1365744082462183594"
+    },
+    {
+      "image": "assets/locations/discord/d3b5095331de957a4abdb10b85fa1239eb9b3844ca9c6a01a0dc437338046d2a.webp",
+      "title": "Gael — ruined refugee encampment",
+      "alt": "Gael — ruined refugee encampment",
+      "caption": "Gael. Lucido and Anky reach the refugee clearing and find torn tents and the structure built by Fenwick and Tobias in ruins. This depicts that historical scene, not the current state of every Gael settlement.",
+      "source": "https://discord.com/channels/1177270231513694249/1250334670957051958/1441278646026375201"
+    },
+    {
+      "image": "assets/locations/discord/3413f06b5c4f1329221f92716234db76a0a77a209578f7ceedb95166e65e73d8.webp",
+      "title": "Gael — woodland threat beside the refugee camp",
+      "alt": "Gael — woodland threat beside the refugee camp",
+      "caption": "Gael. During the same refugee-camp investigation, a shriek and eyes among the trees accompany this image. The wood is not specifically named as Shadow Angel Forest.",
+      "source": "https://discord.com/channels/1177270231513694249/1250334670957051958/1441295467647602740"
+    },
+    {
+      "image": "assets/locations/discord/60b08860ab232ae3aa43cae32d245ea2173178f6c4d435655443e34734971bdd.webp",
+      "title": "Gael Open-Air Market — first planning map",
+      "alt": "Gael Open-Air Market — first planning map",
+      "caption": "Gael. Qualified reference. Farkur describes a basic open-air stall for each trade and later individual shops. This attached planning map is explicitly followed by the note “future”; it is not a completed town survey.",
+      "source": "https://discord.com/channels/1177270231513694249/1250334670957051958/1499926278378094808"
+    },
+    {
+      "image": "assets/locations/discord/604c38b87d358e354ab2d5492d06bfada9038ec72bf04700740894c3645ecc35.webp",
+      "title": "Gael Open-Air Market — alternative planning map",
+      "alt": "Gael Open-Air Market — alternative planning map",
+      "caption": "Gael. Qualified reference. Second illustration accompanying Farkur’s proposed artisan market. The adjacent “future” note and discussion of space and materials distinguish a plan from completed construction.",
+      "source": "https://discord.com/channels/1177270231513694249/1250334670957051958/1499926421517107342"
+    },
+    {
+      "image": "assets/locations/discord/e4ec0779023b223b73ff3dc0013c1f89d3a775e9f8ec8aace8bf1679b45209de.webp",
+      "title": "Gael — map consulted in the Library of Nuru",
+      "alt": "Gael — map consulted in the Library of Nuru",
+      "caption": "Gael. Fenwick directs the party to this map while discussing the Plains of Trial and Hope. Preserve it as the map used in that source scene, not a replacement for the Codex’s interactive map.",
+      "source": "https://discord.com/channels/1177270231513694249/1250338434275348532/1392568058304004156"
+    },
+    {
+      "image": "assets/locations/discord/7683b2460e6114c7d570673b6ef2a18a96836604229df8196cc44729fbd18a06.webp",
+      "title": "Titan’s Watch — ruined titan and cathedral surroundings",
+      "alt": "Titan’s Watch — ruined titan and cathedral surroundings",
+      "caption": "Gael. Opening post identifies this area just beyond the tower, with ruined titan statues, a decayed cathedral and a river to the sea.",
+      "source": "https://discord.com/channels/1177270231513694249/1250444809567469588/1250444809567469588"
+    },
+    {
+      "image": "assets/locations/discord/60a7d96660ca581f3046f8613001deb4bdee160b39532015d12eea1a682a4ac2.webp",
+      "title": "The Cathedral — illustrated floor detail",
+      "alt": "The Cathedral — illustrated floor detail",
+      "caption": "Gael. The floor image is posted during chamber exploration near Titan’s Watch and is also used in the Cathedral RP post. Religious interpretation and the floor’s mechanisms remain distinct from the artwork.",
+      "source": "https://discord.com/channels/1177270231513694249/1250444809567469588/1349093493582200869"
+    },
+    {
+      "image": "assets/locations/discord/7b8b6c1f0a07e7a6eb83c3ffb0b49714c762db065c84e7d945f8c4671356a191.webp",
+      "title": "The Road — route toward the Plains of Trial",
+      "alt": "The Road — route toward the Plains of Trial",
+      "caption": "Gael. Attached to the opening description of the mostly abandoned road leading into Gael’s interior toward the Plains of Trial.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445442446131284/1250445442446131284"
+    },
+    {
+      "image": "assets/locations/discord/41016eaf3e2f127ee3c5f12781e1d580041697f9e9c47951496a6fd158702f5c.webp",
+      "title": "The Road — wasteland during Wren’s search",
+      "alt": "The Road — wasteland during Wren’s search",
+      "caption": "Gael. Wren explicitly describes the desolate path, cracked ground, lava rock and smoke during the search for Olokun and Jiangshi. This is the depicted historical journey.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445442446131284/1322681532598452317"
+    },
+    {
+      "image": "assets/locations/discord/05bc8a26a36442d066982c52c2bfd76594bccde005e7664b5130d5c76ca035c2.webp",
+      "title": "The Coast — rocky landing cove",
+      "alt": "The Coast — rocky landing cove",
+      "caption": "Gael. Opening image of the Coast post, described as the place to travel between land and ship and interact with the crew.",
+      "source": "https://discord.com/channels/1177270231513694249/1250484231868514385/1250484231868514385"
+    },
+    {
+      "image": "assets/locations/discord/d4c8c8e4662d8f53eded036d31358d0ed18f28b571e43b68490d5d7934cb07f5.webp",
+      "title": "The Coast — visiting red-flagged ship",
+      "alt": "The Coast — visiting red-flagged ship",
+      "caption": "Gael. Qualified reference. The narrator explicitly says another, larger ship anchors at Gael’s coast. This is a visiting vessel, not a permanent coastal landmark or a named ship whose identity is independently established.",
+      "source": "https://discord.com/channels/1177270231513694249/1250484231868514385/1347430540126453792"
+    },
+    {
+      "image": "assets/locations/discord/999933344333e00bc37b4437f0386b582ed8bf2e3195ea7592c0afcefdecc1d8.webp",
+      "title": "The Coast — quiet sunset shore",
+      "alt": "The Coast — quiet sunset shore",
+      "caption": "Gael. Severina leads Kasiri to a quiet coastal spot near a small steep cliff. The spot is unnamed.",
+      "source": "https://discord.com/channels/1177270231513694249/1250484231868514385/1556733827781627916"
+    },
+    {
+      "image": "assets/locations/discord/a6793045ebff14f251817bfefc07bcdbf994a05c4b98d571b779272e7df8fc5c.webp",
+      "title": "Vysaeth’s Tomb — opening setting illustration",
+      "alt": "Vysaeth’s Tomb — opening setting illustration",
+      "caption": "Gael. The Vysaeth’s Tomb RP post opens with this setting image. It identifies the post’s illustrated scene without supplying a complete tomb plan, powers or ancient history.",
+      "source": "https://discord.com/channels/1177270231513694249/1263870176093536298/1263870176093536298"
+    },
+    {
+      "image": "assets/locations/discord/f5309e91c798ff217a73d748ca28fb292c06e854934b012199bbdd1ede00cbdb.webp",
+      "title": "The Cruicible of Gael — top view",
+      "alt": "The Cruicible of Gael — top view",
+      "caption": "Gael. The trial channel labels this image “VISUAL OF THE TOP,” following its encounter map.",
+      "source": "https://discord.com/channels/1177270231513694249/1265725424273592424/1265733656794632235"
+    },
+    {
+      "image": "assets/locations/discord/7a3f9fafd888ba4cd6c75eb8411c43903a088068bfe76a8c6f089efcab2b47fa.webp",
+      "title": "Hope — newly sanctified ground",
+      "alt": "Hope — newly sanctified ground",
+      "caption": "Gael. Opening post identifies a patch of newly sanctified ground saved by Elenia and Adelia. Preserve the original scene’s state rather than treating it as a current survey.",
+      "source": "https://discord.com/channels/1177270231513694249/1268984472880287794/1268984472880287794"
+    },
+    {
+      "image": "assets/locations/discord/249feea92033793b12ea048ddd99c9a1f3eacfefa12319318ed4d522f2245d7c.webp",
+      "title": "Hope — illustration accompanying its desolation",
+      "alt": "Hope — illustration accompanying its desolation",
+      "caption": "Gael. The narrator describes the area around Hope blackened and charred, with its tree split and rotten. The image accompanies this later event and is not interchangeable with Hope’s earlier sanctuary view.",
+      "source": "https://discord.com/channels/1177270231513694249/1268984472880287794/1477405732105224364"
+    },
+    {
+      "image": "assets/locations/discord/287b30c1f3b1e5548a6a1678a864fb789235a87d080cdcfaa0c273dcd0250e95.webp",
+      "title": "Stake — living tree near Hope",
+      "alt": "Stake — living tree near Hope",
+      "caption": "Gael. The narrator explicitly identifies Stake, standing among surrounding trees a few hundred yards from Hope. Stake remains distinct from Hope.",
+      "source": "https://discord.com/channels/1177270231513694249/1268984472880287794/1477443801437044766"
+    },
+    {
+      "image": "assets/locations/discord/14f45545533df74baec9f2fd286de7a3184ed75b4de3ddad8f2f719dca4158c5.webp",
+      "title": "The Cathedral — encounter reference plan",
+      "alt": "The Cathedral — encounter reference plan",
+      "caption": "Gael. Full map attached to the Cathedral’s opening RP post. Treat the illustrated rooms as the encounter reference supplied there, not new claims about the ruins’ builders or mechanisms.",
+      "source": "https://discord.com/channels/1177270231513694249/1272003799757623326/1272003799757623326"
+    },
+    {
+      "image": "assets/locations/discord/efde10f1f6560055fb9bae7f843935c93c117e6f4d65400867e65cb34fed7894.webp",
+      "title": "The Cathedral — entrance plan detail",
+      "alt": "The Cathedral — entrance plan detail",
+      "caption": "Gael. The narrator explicitly labels this attachment “The entrance” as the party approaches the old Cathedral.",
+      "source": "https://discord.com/channels/1177270231513694249/1272003799757623326/1406003213999800482"
+    },
+    {
+      "image": "assets/locations/discord/0cc6678941fedbfd921cb89e972d30ac20fc5599e897a07f552f1fbab4e60899.webp",
+      "title": "The Cathedral — hallway plan detail",
+      "alt": "The Cathedral — hallway plan detail",
+      "caption": "Gael. The narrator labels this attachment “The section of Hallway.” It remains a detail of the existing Cathedral reference.",
+      "source": "https://discord.com/channels/1177270231513694249/1272003799757623326/1406015555130888244"
+    },
+    {
+      "image": "assets/locations/discord/66bc26f295e52cf31163339732dfbc7853fc29af0b20526f980cf5cc1a81eeb4.webp",
+      "title": "The Cathedral — chamber revealed during exploration",
+      "alt": "The Cathedral — chamber revealed during exploration",
+      "caption": "Gael. The narrator describes the room revealing itself as the party proceeds, then mentions art on the walls. This illustration does not establish the central object’s identity or mechanism.",
+      "source": "https://discord.com/channels/1177270231513694249/1272003799757623326/1406026645474902108"
+    },
+    {
+      "image": "assets/locations/discord/f05baf1527b792a1f7788f411a3113824db47a00c747d4adee4700f2cf124efa.webp",
+      "title": "Crustacean Cove — opening coastal reference",
+      "alt": "Crustacean Cove — opening coastal reference",
+      "caption": "Gael. The opening post places this cove about two miles from the tower and describes an underwater cave and temple beneath it. This image is its coastal setting reference; it does not identify every submerged structure or supply an underwater floor plan.",
+      "source": "https://discord.com/channels/1177270231513694249/1275208691842285631/1275208691842285631"
+    },
+    {
+      "image": "assets/locations/discord/1a192a10ce26bf6054d53f233db921c5a99640bdd7212d6c01909cf7e4b0e541.webp",
+      "title": "Mage’s Ruin — opening courtyard reference",
+      "alt": "Mage’s Ruin — opening courtyard reference",
+      "caption": "Gael. Mage’s Ruin, illustrated at the opening of its roleplay post.",
+      "source": "https://discord.com/channels/1177270231513694249/1298002279382777926/1298002279382777926"
+    },
+    {
+      "image": "assets/locations/discord/bc7c49918d0fa178222597a1e7d20073ef445f6cd01daf4e511357a83fa30f74.webp",
+      "title": "Mage’s Ruin — fortress approach map",
+      "alt": "Mage’s Ruin — fortress approach map",
+      "caption": "Gael. The narrator supplies this map while describing the bridge across a lake of fire and army encampments on the approach to the fortress. Preserve its historical encounter context.",
+      "source": "https://discord.com/channels/1177270231513694249/1298002279382777926/1306732826741444671"
+    },
+    {
+      "image": "assets/locations/discord/114d94e693222b91b23edc759c7f25e464def4d5124277f44fc297ac74f85027.webp",
+      "title": "Shadow Angel Forest — opening woodland reference",
+      "alt": "Shadow Angel Forest — opening woodland reference",
+      "caption": "Gael. Image attached to the forest’s opening description of canopy, stream, meadow and ancient central tree. It is a source setting reference.",
+      "source": "https://discord.com/channels/1177270231513694249/1356154581717094480/1356154581717094480"
+    },
+    {
+      "image": "assets/locations/discord/a4dd359e9032c4a16b270824657c691953e8e275f1e1d0c7a7b2f77bd4ed6c3d.webp",
+      "title": "Shadow Angel Forest — refugee house design",
+      "alt": "Shadow Angel Forest — refugee house design",
+      "caption": "Gael. Qualified reference. Fenwick and Tobias present a diagram for a stone house, foundation and wooden roof to Edgar and the refugees. This attachment documents the construction proposal at that point in the scene.",
+      "source": "https://discord.com/channels/1177270231513694249/1356154581717094480/1394749967297417237"
+    },
+    {
+      "image": "assets/locations/discord/eda2206f93c1f2577b800967cb2cca94b6fab42a70720bb3ced2233239e68cd3.webp",
+      "title": "Shadow Angel Forest — completed structure plan",
+      "alt": "Shadow Angel Forest — completed structure plan",
+      "caption": "Gael. The later attachment accompanies an explicit construction-status list marking foundation, walls, roof, beams and door complete. The image remains a plan, not a photograph of the finished house.",
+      "source": "https://discord.com/channels/1177270231513694249/1356154581717094480/1395003952319172781"
+    },
+    {
+      "image": "assets/locations/discord/576ad656a5cea5d183d0eed6b845833baf37f803a7f554ab175eb447fb31314b.webp",
+      "title": "Shadow Angel Forest — color-transition illustration",
+      "alt": "Shadow Angel Forest — color-transition illustration",
+      "caption": "Gael. Qualified reference. The DM explicitly says the real color change is more gradual and subtle than this image. Preserve that qualification rather than treating the sharp split as literal geography.",
+      "source": "https://discord.com/channels/1177270231513694249/1356154581717094480/1415491192186998805"
+    },
+    {
+      "image": "assets/locations/discord/00ec070a0ff6120473eaf2f62bc87e2efeb9e5c14cb0cb0e914a250b453ffc69.webp",
+      "title": "Shadow Angel Forest — orb found along the stream",
+      "alt": "Shadow Angel Forest — orb found along the stream",
+      "caption": "Gael. Anky follows a shallow stream and spots an orb, then crouches for cover. The image illustrates that forest encounter; it does not independently establish a named portal or another world.",
+      "source": "https://discord.com/channels/1177270231513694249/1356154581717094480/1416186063231123549"
+    },
+    {
+      "image": "assets/locations/discord/d36557b649908c9dfeca11a131be0a8088a4db66239aa9ce77ac3db7a535e49b.webp",
+      "title": "Shadow Angel Forest — hole found during the hunt",
+      "alt": "Shadow Angel Forest — hole found during the hunt",
+      "caption": "Gael. Qualified reference. Player-directed hunt narration calls for finding a hole in the ground after a successful Survival roll. The image illustrates that descent scene, without establishing a separate named site or exact dimensions.",
+      "source": "https://discord.com/channels/1177270231513694249/1356154581717094480/1485830088313409668"
+    },
+    {
+      "image": "assets/locations/discord/30e05e8638284af7dc414f3decd323e619610577b0025314f26f4cda7c327d40.webp",
+      "title": "Plains of Trial — opening landscape reference",
+      "alt": "Plains of Trial — opening landscape reference",
+      "caption": "Gael. The opening description identifies enemy territory on Gael. The image supplies a landscape reference without a measured route or separately identified landmark.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1250452807287570542"
+    },
+    {
+      "image": "assets/locations/discord/4ea118ae14c17f4018bfe34490acc22af351b832fd972fd87ebe144ffb05927b.webp",
+      "title": "Plains of Trial — smoke-covered interior",
+      "alt": "Plains of Trial — smoke-covered interior",
+      "caption": "Gael. The narrator describes the party wandering deeper into the land under smog and toxic clouds. The attachment illustrates that journey, not all of present-day Gael.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1252307486678188032"
+    },
+    {
+      "image": "assets/locations/discord/a4c15af5ff096c670050c2df95982ce1c3a8ec79f4b211d44b53b10444158e83.webp",
+      "title": "Plains of Trial — burning fissure in the hills",
+      "alt": "Plains of Trial — burning fissure in the hills",
+      "caption": "Gael. The explorers point out fire burning inside a fissure in the hill and ask whether to explore it. The image illustrates that explicitly described encounter.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1255703474759536660"
+    },
+    {
+      "image": "assets/locations/discord/e311effd7439e4667ff7e33b37ec4ee1dd47ae7aaeda76de9d246073b1b46f38.webp",
+      "title": "Plains of Trial — cavern seen by Elenia",
+      "alt": "Plains of Trial — cavern seen by Elenia",
+      "caption": "Gael. The narrator labels this attachment as what Elenia can see during the fissure exploration. No separate named cave or complete dungeon plan is established.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1255706507748839457"
+    },
+    {
+      "image": "assets/locations/discord/178bb416dda479943d4a0e3ba5ef1a3d43ea9652a8c8dbba8666da7ad7a39b90.webp",
+      "title": "Plains of Trial — beyond the last border",
+      "alt": "Plains of Trial — beyond the last border",
+      "caption": "Gael. The party passes the last border into the wastes, described as fire, ash and death. The attachment is tied to that narrated journey.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1268952265092239392"
+    },
+    {
+      "image": "assets/locations/discord/011952eb1c7edfc43444a95de37a0029d1a019256d74b4f67ad87b65aee8b34c.webp",
+      "title": "Plains of Trial — bleak day beneath the smog",
+      "alt": "Plains of Trial — bleak day beneath the smog",
+      "caption": "Gael. The narrator explicitly describes an unusually dark day even for Gael, with smog blanketing the air. Preserve the scene’s weather and posting context.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1273334318059622492"
+    },
+    {
+      "image": "assets/locations/discord/693a5816d69c81944abfc2c09eaa8a842449e1da36bb9e03b0cbb9a3f8483fc1.webp",
+      "title": "Gael hunt — sunlit woodland reference",
+      "alt": "Gael hunt — sunlit woodland reference",
+      "caption": "Gael. Qualified reference. Akarian gestures at the surrounding woodland as preferable to sulphur and ash. The image is a reference used during a Gael hunt; the exact wood is unnamed and is not automatically Shadow Angel Forest.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1353448587043803338"
+    },
+    {
+      "image": "assets/locations/discord/f8ee52e685f3dc538d2bf00f2c25b05981aad0ae45f505282b545d438f585f57.webp",
+      "title": "Gael hunt — strange woodland path",
+      "alt": "Gael hunt — strange woodland path",
+      "caption": "Gael. The party encounters a strange little woodland path during the hunt. The path is unnamed.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1464104377865474202"
+    },
+    {
+      "image": "assets/locations/discord/52ab75402ff3f9692e16c57f5f7c42e0113f13af22741590214a1a60b2f29234.webp",
+      "title": "Gael hunt — DM-prepared woodland view",
+      "alt": "Gael hunt — DM-prepared woodland view",
+      "caption": "Gael. Qualified reference. The attachment is explicitly introduced as art prepared by the DM while the party discusses newly found refugees. The exact woodland site is not named.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1464134869524283502"
+    },
+    {
+      "image": "assets/locations/discord/b974dc1d8ba1df718724ace90eb723ae17b3a62b62d1400ac61146f336558dbf.webp",
+      "title": "Gael hunt — dark forest reference",
+      "alt": "Gael hunt — dark forest reference",
+      "caption": "Gael. Qualified reference. Nymera looks around the dark forest during the hunt. This player-posted image remains a scene reference without establishing a named wood or precise route.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1513354047225204827"
+    },
+    {
+      "image": "assets/locations/discord/6e5ca56369ba0bc5618fe2826ad0ffce1a7877b9fc82cd62520509254f03cd32.webp",
+      "title": "Gael hunt — forest at the danger zone",
+      "alt": "Gael hunt — forest at the danger zone",
+      "caption": "Gael. Qualified reference. The party slows at the dangerous zone while discussing the Plains hunt. This reference does not establish a named gateway or assign the forest to Shadow Angel Forest.",
+      "source": "https://discord.com/channels/1177270231513694249/1250445552424980590/1533600833344639108"
+    }
+  ]
+};
+Object.entries(reviewedGaelLocationGalleries).forEach(([id, gallery]) => {
+  const media = window.FENUMION_MEDIA.articles[id] || (window.FENUMION_MEDIA.articles[id] = {});
+  media.gallery = [...(media.gallery || []), ...gallery.filter(item => !(media.gallery || []).some(existing => existing.image === item.image))];
+});
+const reviewedGaelLocationViews = {
+  "Tower of Gael": {
+    "image": "assets/locations/discord/ce0ac2b049a0b10ab7ce7e73a61686f00d5becbbdfa6a4b28301482decda8ce3.webp",
+    "imageCaption": "Gael. Opening image of the Tower of Gael, identified as the explorers’ refuge under Nuru’s Eye."
+  },
+  "The Library of Nuru": {
+    "image": "assets/locations/discord/c98a0eb3f3c88863b6047c9a8fb60b2741f4186e1f21a23a9d36dd10bc57b09c.webp",
+    "imageCaption": "Gael. The Library of Nuru’s opening image accompanies its spell list and the first accounts of copying spells there."
+  },
+  "Sanctum of the Wise": {
+    "image": "assets/locations/discord/764d2097dc7c01c4858039a2216c4ea1aebb99e9019f29efd188b55370c93234.webp",
+    "imageCaption": "Gael. Opening post explicitly describes the Sanctum as the top room of the tower, a place for rest and communion with Nuru. This image is attached to that description."
+  },
+  "Titan’s Watch": {
+    "image": "assets/locations/discord/7683b2460e6114c7d570673b6ef2a18a96836604229df8196cc44729fbd18a06.webp",
+    "imageCaption": "Gael. Opening post identifies this area just beyond the tower, with ruined titan statues, a decayed cathedral and a river to the sea."
+  },
+  "The Road": {
+    "image": "assets/locations/discord/7b8b6c1f0a07e7a6eb83c3ffb0b49714c762db065c84e7d945f8c4671356a191.webp",
+    "imageCaption": "Gael. Attached to the opening description of the mostly abandoned road leading into Gael’s interior toward the Plains of Trial."
+  },
+  "The Coast": {
+    "image": "assets/locations/discord/05bc8a26a36442d066982c52c2bfd76594bccde005e7664b5130d5c76ca035c2.webp",
+    "imageCaption": "Gael. Opening image of the Coast post, described as the place to travel between land and ship and interact with the crew."
+  },
+  "Vysaeth’s Tomb": {
+    "image": "assets/locations/discord/a6793045ebff14f251817bfefc07bcdbf994a05c4b98d571b779272e7df8fc5c.webp",
+    "imageCaption": "Gael. The Vysaeth’s Tomb RP post opens with this setting image. It identifies the post’s illustrated scene without supplying a complete tomb plan, powers or ancient history."
+  },
+  "Hope": {
+    "image": "assets/locations/discord/7a3f9fafd888ba4cd6c75eb8411c43903a088068bfe76a8c6f089efcab2b47fa.webp",
+    "imageCaption": "Gael. Opening post identifies a patch of newly sanctified ground saved by Elenia and Adelia. Preserve the original scene’s state rather than treating it as a current survey."
+  },
+  "Stake": {
+    "image": "assets/locations/discord/287b30c1f3b1e5548a6a1678a864fb789235a87d080cdcfaa0c273dcd0250e95.webp",
+    "imageCaption": "Gael. The narrator explicitly identifies Stake, standing among surrounding trees a few hundred yards from Hope. Stake remains distinct from Hope."
+  },
+  "The Cathedral and the Titans": {
+    "image": "assets/locations/discord/14f45545533df74baec9f2fd286de7a3184ed75b4de3ddad8f2f719dca4158c5.webp",
+    "imageCaption": "Gael. Full map attached to the Cathedral’s opening RP post. Treat the illustrated rooms as the encounter reference supplied there, not new claims about the ruins’ builders or mechanisms."
+  },
+  "Crustacean Cove": {
+    "image": "assets/locations/discord/f05baf1527b792a1f7788f411a3113824db47a00c747d4adee4700f2cf124efa.webp",
+    "imageCaption": "Gael. The opening post places this cove about two miles from the tower and describes an underwater cave and temple beneath it. This image is its coastal setting reference; it does not identify every submerged structure or supply an underwater floor plan."
+  },
+  "Mage’s Ruin": {
+    "image": "assets/locations/discord/1a192a10ce26bf6054d53f233db921c5a99640bdd7212d6c01909cf7e4b0e541.webp",
+    "imageCaption": "Gael. Mage’s Ruin, illustrated at the opening of its roleplay post."
+  },
+  "Shadow Angel Forest": {
+    "image": "assets/locations/discord/114d94e693222b91b23edc759c7f25e464def4d5124277f44fc297ac74f85027.webp",
+    "imageCaption": "Gael. Image attached to the forest’s opening description of canopy, stream, meadow and ancient central tree. It is a source setting reference."
+  },
+  "Plains of Trial": {
+    "image": "assets/locations/discord/30e05e8638284af7dc414f3decd323e619610577b0025314f26f4cda7c327d40.webp",
+    "imageCaption": "Gael. The opening description identifies enemy territory on Gael. The image supplies a landscape reference without a measured route or separately identified landmark."
+  }
+};
+Object.entries(reviewedGaelLocationViews).forEach(([title, media]) => {
+  Object.assign(window.FENUMION_MEDIA.locations[title] || (window.FENUMION_MEDIA.locations[title] = {}), media);
+});
+// END REVIEWED GAEL LOCATION ART 2026-10-12

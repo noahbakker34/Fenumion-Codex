@@ -85,9 +85,13 @@ The hosting service may still show its own branded sign-in or domain outside the
 
 Use this source hierarchy:
 
-1. Primary role-play scenes, transcripts, screenshots, maps, images, and direct records.
-2. The master timeline, regional history, character/theme guides, and other user-supplied synthesis documents.
-3. Mechanics or secondary material only when it corroborates the narrative record.
+1. Explicit user canon decisions and corrections.
+2. Established quest scenes, outcomes and narrator/DM rulings, retaining the distinction between observed events and character claims.
+3. Ambient/forum RP, compatible direct records and attributed recollections. These supplement quest history; they do not overrule it.
+4. Timeline, regional history, character guides and supplied synthesis/emphasis documents, subordinate to their underlying quest evidence.
+5. Mechanics or secondary material only when it corroborates the narrative record.
+
+User priority, 13 October 2026: **quests are more important than RP**. Never let an RP-derived emphasis dossier overwrite quest-established chronology, identities, achievements, outcomes, causal history or importance. Proposed rankings and generations are interpretation, not authority. A speaker claim in a quest remains a claim; channel priority does not create omniscience.
 
 When sources disagree, preserve the disagreement rather than silently reconciling it. Distinguish:
 
@@ -765,3 +769,8 @@ Reproduced the user-reported visible but untappable menu: themed `.app-shell` st
 Expanded the existing region with first green ground, December 2024 Stake/forest creation, shared material work and older landscape. Added Crucible of Gael route, sidebar/place entry and training event; updated Tower, Gartina, shared restoration history and location summaries/aliases. Primary scene establishes planting and seed actions while participants’ initial permanence concerns remain visible; later testimony is distinct. Preserve existing Vysaeth facts, Withering/Adelia chronology and pre-Wrath active Mage’s Ruin circle. Source scope/anchors in `GAEL_DEEP_DIVE.md`; module `gael-deep-records.js?v=1`, app225. Publication pending.
 
 Gael final emphasis: two connected eras, renewed loss and inherited responsibility. Nienna’s July death and September Hallowing sacrifice remain distinct; Huoth’s angel identity retained; Jiangshi’s personal praise and Adelia’s community answer both preserved. Recall sanctuary work is separate from proposed temple buildings. Named 2024–2025 Vanguard testimony supersedes the old single-reference provisional account, without equating the May battlefield formation or merging it with Veilguard. Additional character links and histories, two more timeline entries, Place of Recall record. App226; publication pending.
+
+
+## Prima/Pristinia emphasis review · 13 October 2026
+
+User explicitly prioritizes quest evidence over RP. Rule recorded in root `AGENTS.md` and editorial source hierarchy. Supplied correction document reviewed as subordinate synthesis; exclusive founder rankings and later-generation demotions of quest-established early figures not adopted. Added only a short compatible civic-history connection to Pristinia using the checked March 2024 quest scene and existing institutional histories. No RP-derived new chronology, identity merge or changed war outcome. See `PRIMA_EMPHASIS_REVIEW.md`. App227; publication pending.

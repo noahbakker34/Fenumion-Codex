@@ -294,3 +294,8 @@ The two remaining songs, Breath of the Wild and Will Babel Claim You, complete t
 
 
 Gael finishing correction layer: `gael-codex-emphasis-corrections.md`, SHA-256 `a22fc5cd60df4d03cc8881d1b2d161c59fd21f94b942fb26c56b077bfa918145`, supplied 12 October 2026. Selected source reconciliation and additional primary anchors in `GAEL_DEEP_DIVE.md`; earlier Vanguard testimony in `VANGUARD_HISTORY.md`. Expands succession, Nienna/Huoth/Jiangshi/Bitoshi roles and sanctuary work while preserving speaker claims, distinct deaths, proposal limits and the locked vault.
+
+
+## Prima/Pristinia emphasis notes · 13 October 2026
+
+Supplied RP-derived synthesis `prima-pristinia-codex-emphasis-corrections.md`, SHA-256 `cad4947f28e85d12852ad1898bf46979000368e639321c73d1ee5ec083bfc8fe`. User explicitly requires quest evidence to take precedence. Reviewed against existing quest histories and selected March 2024 main quest messages. Compatible civic interpretation only; exclusive founder tiers and later-generation demotions not adopted. Review scope and primary anchors in `PRIMA_EMPHASIS_REVIEW.md`. No raw corpus import or new event authority granted.

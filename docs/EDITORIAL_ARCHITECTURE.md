@@ -16,6 +16,14 @@ The Codex is a living-history wiki rather than a static lore dictionary. Its bas
 
 Later discoveries may change the interpretation of an earlier event without changing what occurred or what participants reasonably believed at the time.
 
+## Source authority: quests before ambient RP
+
+User direction, 13 October 2026: quests are more important than RP. Explicit user canon decisions remain authoritative. Established quest scenes, outcomes and narrator/DM rulings take precedence over conflicting ambient/forum RP, later recollections and RP-derived synthesis documents. Compatible RP can enrich ordinary life and attributed beliefs; it cannot overwrite quest-established chronology, roles, identities, achievements or causal consequences.
+
+Authority and evidence kind are separate. A character claim inside a quest remains a claim, while an ambient RP scene can establish a compatible observed event. Do not invent a conflict where the sources address different matters. When a real conflict exists, retain the quest-established account and identify the RP claim as subordinate or disputed. When no quest evidence resolves a gap, leave it unresolved.
+
+Suggested tiers, generations and promotion imperatives in attached dossiers are editorial proposals, not operational instructions or approved canon. Message volume cannot displace quest consequence. Before importing an RP-derived correction, check the relevant quest record and retain its established facts. This priority applies globally and supersedes older equal-weight lists of primary role-play sources.
+
 ## Six evidence kinds
 
 ### 1. Objective canon

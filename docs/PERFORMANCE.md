@@ -37,3 +37,13 @@ Slow-mobile trace: 390×844, 150ms latency, 200,000 bytes/s downstream, 4× CPU 
 Every glyph outline, mapping, metric and font layout/variation table was compared after conversion. Chrome confirmed identical text dimensions across both fonts and tested weights. The logo’s decoded RGBA pixels match exactly. Normal scene/background playback and reduced-motion behavior remain available.
 
 Live post-deployment trace under the same cold-mobile settings: DOMContentLoaded 10.18s versus 11.22s before (single runs, about 9.2% lower). CDN-transferred font/logo bytes fell from 899,960 to 656,962 across those three resources (243 KB saved). This includes CDN compression in the baseline; the 80.2% figure above refers to source font file sizes. Production files were verified byte-for-byte against the tested copies.
+
+## Pages package limit and original music delivery · 14 October 2026
+
+The location-only gallery deployment `38594010087` timed out during the final Pages step. Its annotation reported an artifact of 1,454,596,913 bytes, above the supported 1 GB Pages size. The source tree was approximately 1,473 MB; music accounted for approximately 676 MB.
+
+The music player now serves its original MP3 bytes from the same public GitHub repository at pinned commit `e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518`. No audio is transcoded, deleted or replaced. Existing titles, groups, recommendations and saved preferences are unchanged. Future songs must exist in the pinned commit before its base URL is advanced.
+
+The workflow stages an otherwise identical site with only `assets/music/` omitted, and rejects staging above 1,000,000,000 bytes before upload. Local package count: 489 files / 796,575,832 bytes. All artwork, video, fonts and other resources remain in Pages. This is a delivery change, not a reduction in media quality. Old direct Pages music URLs are no longer part of new packages; the player uses the pinned repository URLs.
+
+Chrome decoded all twenty Fenumion tracks over the new transport and verified play/pause, next/previous, preferences and original library presence (159 tracks). No JavaScript errors. Syntax and whitespace checks passed. Music module6; static package preparation added to Pages workflow.

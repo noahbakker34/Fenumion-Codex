@@ -1,3 +1,6 @@
+// Original audio is served from a pinned repository commit to keep Pages below 1 GB.
+const FENUMION_MUSIC_BASE = "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music";
+
 const musicStyles = [
   { id: "all", label: "All styles", description: "The complete Fenumion soundtrack." },
   { id: "fenumion", label: "Fenumion", description: "Songs of Fenumion’s people, places, and adventures." },
@@ -98,7 +101,7 @@ const fenumionSongs = [
   ],
   ["Breath of the Wild", "breath-of-the-wild.mp3"],
   ["Will Babel Claim You", "will-babel-claim-you.mp3"]
-].map(([title, file]) => ({ title, file, style: "fenumion", src: `assets/music/fenumion/${file}` }));
+].map(([title, file]) => ({ title, file, style: "fenumion", src: `${FENUMION_MUSIC_BASE}/fenumion/${file}` }));
 
 const fenumionSoundtrack = [
   ["Alterac", "alterac.mp3"],
@@ -240,7 +243,7 @@ const fenumionSoundtrack = [
   ["Viking Encampment C", "viking-encampment-c.mp3"],
   ["Viking Encampment", "viking-encampment.mp3"],
   ["Viking War", "viking-war.mp3"]
-].map(([title, file]) => ({ title, file, style: classifyMusicStyle(title), src: `assets/music/action-drama/${file}` }))
+].map(([title, file]) => ({ title, file, style: classifyMusicStyle(title), src: `${FENUMION_MUSIC_BASE}/action-drama/${file}` }))
   .concat(fenumionSongs)
   .sort((a, b) => {
     const styleOrder = musicStyles.findIndex(style => style.id === a.style) - musicStyles.findIndex(style => style.id === b.style);

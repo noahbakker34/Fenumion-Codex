@@ -782,3 +782,7 @@ The Art of Fenumion opens with a slow sideways scroll of existing public locatio
 ## Art gallery location-only scope · 14 October 2026
 
 The Art of Fenumion is now entirely location artwork, including location views and maps/plans. Character/community collection options and portraits removed from this page; dedicated dossiers and community page preserved. Full-width single-column images, twelve-item paging and location search below the retained slow scroll. 106 public assets; desktop/mobile checks passed. Art-gallery3/app229/layout13; publication pending.
+
+## Pages deployment package correction · 14 October 2026
+
+Location-only gallery push succeeded but final Pages deployment timed out with a >1 GB artifact. Original music now served from the same public repository pinned at `e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518`; player music6. No source audio/media removed or transcoded. Workflow stages all site files except `assets/music/` and checks the 1 GB limit, reducing the Pages package to approximately 797 MB. All 20 Fenumion songs decoded and player checks passed over the new transport. See `PERFORMANCE.md`; future audio must be present in the pinned commit before updating the base URL.

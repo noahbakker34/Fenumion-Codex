@@ -26,10 +26,15 @@ jobs:
         uses: actions/checkout@v6
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+      - name: Prepare Pages package
+        run: |
+          mkdir -p "$RUNNER_TEMP/fenumion-pages"
+          rsync -a --exclude "/assets/music/" site/ "$RUNNER_TEMP/fenumion-pages/"
+          python3 -c "from pathlib import Path; p=Path('$RUNNER_TEMP/fenumion-pages'); size=sum(f.stat().st_size for f in p.rglob('*') if f.is_file()); print(f'Pages package: {size:,} bytes'); assert size < 1_000_000_000, 'Pages package exceeds 1 GB'"
       - name: Upload the static Codex
         uses: actions/upload-pages-artifact@v4
         with:
-          path: site
+          path: ${{ runner.temp }}/fenumion-pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

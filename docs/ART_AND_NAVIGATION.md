@@ -17,3 +17,11 @@ The Art of Fenumion now opens with a slow horizontal tour of up to sixteen exist
 Native horizontal scrolling moves at roughly 24 pixels per second with a seamless repeated track. Pause/resume control, hover and keyboard-focus pauses, touch/swipe interaction, reduced-motion default still view and offscreen/hidden-tab suspension keep the movement controllable. Duplicate tiles are hidden from assistive reading and removed from tab order while retaining pointer links to the same existing stories. Animation and observers are cleaned up on route changes.
 
 Chrome checks passed for actual movement speed, pause/resume, hover pause, wrapping, reduced-motion stillness, responsive layout, valid story links, gallery search/filter preservation, synthetic private-art exclusion and route cleanup. Desktop/mobile screenshots inspected. Syntax and whitespace checks passed. Versions: art-gallery2, app228, shared layout12. Publication pending.
+
+## Location-only large-image gallery · 14 October 2026
+
+User requested the gallery beneath the scrolling opening contain large location images and no character section. The collector now includes only public location articles, their galleries and their location-scene posters. Location views precede maps/plans. Removed character portraits, community character art, non-location scenes, the collection selector and character/community wording from this page. Existing character dossiers and Ececilia’s dedicated collection remain unchanged.
+
+The gallery uses one full-width column, natural image proportions with contained tall-image bounds, and twelve lazy-loaded works per page. Search, full-size image links, existing story links and the slow horizontal opening remain. Current collection: 106 unique public location assets.
+
+Chrome verified location-only provenance, no character/category UI, large image widths, pagination/search, unchanged portrait/community records, protected exclusion and desktop/mobile overflow. Both screenshots inspected; no JavaScript errors. Syntax/diff checks passed. Art-gallery3/app229/layout13; publication pending.

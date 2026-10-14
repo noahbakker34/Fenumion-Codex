@@ -778,3 +778,7 @@ User explicitly prioritizes quest evidence over RP. Rule recorded in root `AGENT
 ## Art location opening · 14 October 2026
 
 The Art of Fenumion opens with a slow sideways scroll of existing public location scenes. Varied places precede repeat views; maps/diagrams remain in the regular gallery. Native scrolling, pause/resume, swipe, hover/focus pauses, reduced-motion still view and visibility/route cleanup. Original art search, filters and pagination retained; protected art excluded. Checks and screenshots in `ART_AND_NAVIGATION.md`. Art-gallery2/app228/layout12; publication pending.
+
+## Art gallery location-only scope · 14 October 2026
+
+The Art of Fenumion is now entirely location artwork, including location views and maps/plans. Character/community collection options and portraits removed from this page; dedicated dossiers and community page preserved. Full-width single-column images, twelve-item paging and location search below the retained slow scroll. 106 public assets; desktop/mobile checks passed. Art-gallery3/app229/layout13; publication pending.

@@ -786,3 +786,7 @@ The Art of Fenumion is now entirely location artwork, including location views a
 ## Pages deployment package correction · 14 October 2026
 
 Location-only gallery push succeeded but final Pages deployment timed out with a >1 GB artifact. Original music now served from the same public repository pinned at `e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518`; player music6. No source audio/media removed or transcoded. Workflow stages all site files except `assets/music/` and checks the 1 GB limit, reducing the Pages package to approximately 797 MB. All 20 Fenumion songs decoded and player checks passed over the new transport. See `PERFORMANCE.md`; future audio must be present in the pinned commit before updating the base URL.
+
+## Five quest-checked deep dossiers · 14 October 2026
+
+Aionia, Idril and Míriel gain standalone public records; Yvette and Kumai expanded within existing identities. No unsupported Pristinia militia/Ciaranach command assignments. Kumai’s earlier history and Kasiri’s contest victory preserved; Míriel’s political choices retained beside research limits. Protected disclosures withheld; media preserved; navigation and two timeline summaries expanded. 109 unique NPCs; Chrome desktop/mobile checks passed. See `FIVE_CHARACTER_DOSSIER_REVIEW.md`. Five-character-dossiers1/app230; publication authorized on 14 October 2026.

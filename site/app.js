@@ -14677,6 +14677,47 @@ const pristiniaCivicEmphasis = articles.find(article=>article.id==='pristinia');
 pristiniaCivicEmphasis.body += `<h2 id="pristinia-survival-and-society">Protecting a town, sustaining a society</h2><p>Pristinia’s civic work begins alongside its earliest expeditions. In the March 2024 quest record, <a href="#melian-starguard">Melian</a> helps coordinate permanent settlement needs; Gartina connects population growth with food and cultivation; Quake calls for defences and a militia while reporting work on the roads. Medical supplies, usable land and capable hands already matter beside combat.</p><p>Later <a href="#ale-chemy-knights">Ale-Chemy institutions</a>, <a href="#tobias">Tobias’s construction</a>, <a href="#fenwick">Fenwick’s public work</a>, teaching and the rebuilt <a href="#pilgrims-hearth">Pilgrim’s Hearth</a> extend that existing concern. Different people contribute at different times, and many roles overlap. The settlement’s history does not divide neatly into one group that protects and another that builds.</p><p>Victory can preserve a place without settling how people will eat, learn, work or share authority there. Pristinia’s civic history follows those continuing questions through an existing community whose residents and arrivals both shape its future.</p>`;
 pristiniaCivicEmphasis.sources.push('Main quest-RP · March 2024 civic planning; existing institution histories', 'prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence');
 
+// Deep dossiers remain subordinate to the checked quest scenes.
+const fiveCharacterDossiers = window.FENUMION_FIVE_DOSSIERS || [];
+for (const update of fiveCharacterDossiers) {
+  const {anchors, links, aliases, existing, island, islandBasis, ...content} = update;
+  let article = articles.find(item=>item.id===content.id);
+  if (article) Object.assign(article, content); // Existing portraits and moving scenes are retained.
+  else { article = content; articles.push(article); }
+  let person = archiveIndex.npcs.find(item=>item.article===article.id || item.title===(existing || article.title));
+  if (!person) { person = {title:article.title}; archiveIndex.npcs.push(person); }
+  Object.assign(person,{article:article.id,meta:article.type,summary:article.dek,
+    aliases:[...new Set([...(person.aliases || []),article.title,...aliases])],
+    ...(article.image ? {image:article.image} : {})});
+  const profile = legacyCharacterProfiles[person.title] || (legacyCharacterProfiles[person.title]={});
+  profile.achievements = article.dek;
+  fixedArticlePaths.set(article.id,['Characters',article.title]);
+  const branch = navigationRegions.find(region=>region.title==='Characters').branches
+    .find(branch=>branch.title===(/^[A-J]/.test(article.title)?'Characters A–J':'Characters K–Z'));
+  if (!branch.items.some(item=>item.article===article.id)) branch.items.push({label:article.title,article:article.id});
+  if (island && island!=='unplaced') {
+    const group = npcIslandGroups.find(group=>group.id===island);
+    if (!group.people.some(item=>item.name===person.title)) group.people.push({name:person.title,basis:islandBasis});
+  }
+  const context = subchannelMap[article.id] || (subchannelMap[article.id]=[]);
+  for (const id of links) {
+    const target = articles.find(item=>item.id===id);
+    if (!target) throw new Error('Missing dossier context: '+id);
+    if (!context.some(item=>item.article===id)) context.push({label:target.title,article:id,summary:target.dek});
+    const reciprocal = subchannelMap[id] || (subchannelMap[id]=[]);
+    if (!reciprocal.some(item=>item.article===article.id)) reciprocal.push({label:article.title,article:article.id,summary:article.dek});
+  }
+}
+
+const kumaiTrialEvent = archiveIndex.timeline.find(event=>event.title==='The new vanguard entrusts leadership to Severina');
+if (kumaiTrialEvent) {
+  kumaiTrialEvent.summary += ' Kumai then joins the arena contest; Kasiri wins, and he asks the company to discuss its leader and report back.';
+  kumaiTrialEvent.consequence = 'Peer trust and martial competence are both tested; the contest does not by itself finalize the appointment.';
+  questEventConsequences[kumaiTrialEvent.title] = kumaiTrialEvent.consequence;
+}
+const idrilTrainingEvent = archiveIndex.timeline.find(event=>event.title==='A celestial test reveals the Wyrm’s hunger');
+if (idrilTrainingEvent) idrilTrainingEvent.summary += ' Captain Idril supervises the simulated combat with attending priests, demands teamwork and interrupts the lesson when summoned elsewhere.';
+
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
@@ -14701,6 +14742,10 @@ routeAliases.set('adelia','adelia-hope');
 routeAliases.set('spirit-of-adelia','adelia-hope');
 routeAliases.set('shadow-sentinel','adelia-hope');
 routeAliases.set('kumai','kumai-218');
+routeAliases.set('idril','battlemaiden-idril');
+routeAliases.set('yvette','guardian-commander-yvette');
+routeAliases.set('miriel-of-the-emerald-veil','miriel-emerald-veil');
+routeAliases.set('míriel-of-the-emerald-veil','miriel-emerald-veil');
 
 const relationshipMaps = {
   magnus: {
@@ -16005,6 +16050,11 @@ function applyMediaCatalog(catalog = window.FENUMION_MEDIA || {}) {
 if(characterDossiers && relationshipMaps.jiangshi) {
   const shadowTie=relationshipMaps.jiangshi.nodes.find(node=>node.id==='death');
   if(shadowTie){Object.assign(shadowTie,{title:'Ancestors & Shadowlands',subtitle:'Connection within the darkness',relation:'Personal testimony of ancestors and visitors',history:'Jiangshi remembers cold, desolate Shadowlands in which ancestors and visitors reached her. Her shadows can preserve care and connection.',consequence:'The experience supports her trust in continuity without making death harmless or equating ancestral shadow with Dumuzi.',evidence:'Her testimony is preserved; a complete afterlife geography and resurrection mechanism remain unresolved.'});delete shadowTie.article;}
+}
+
+if (relationshipMaps.magnus) {
+  const mirielTie = relationshipMaps.magnus.nodes.find(node=>node.id==='miriel');
+  if (mirielTie) mirielTie.article = 'miriel-emerald-veil';
 }
 
 applyMediaCatalog();

@@ -299,3 +299,7 @@ Gael finishing correction layer: `gael-codex-emphasis-corrections.md`, SHA-256 `
 ## Prima/Pristinia emphasis notes · 13 October 2026
 
 Supplied RP-derived synthesis `prima-pristinia-codex-emphasis-corrections.md`, SHA-256 `cad4947f28e85d12852ad1898bf46979000368e639321c73d1ee5ec083bfc8fe`. User explicitly requires quest evidence to take precedence. Reviewed against existing quest histories and selected March 2024 main quest messages. Compatible civic interpretation only; exclusive founder tiers and later-generation demotions not adopted. Review scope and primary anchors in `PRIMA_EMPHASIS_REVIEW.md`. No raw corpus import or new event authority granted.
+
+## Five character deep dossiers · 14 October 2026
+
+Five supplied character syntheses checked against primary quests: three new public dossiers, two expanded identities. Editorial commands/rankings not adopted; unsupported municipal/regional offices rejected. Earlier Kumai history and Míriel’s politics retained. Hashes, anchors and boundaries in `FIVE_CHARACTER_DOSSIER_REVIEW.md`. Raw sources outside Git; vault unchanged.

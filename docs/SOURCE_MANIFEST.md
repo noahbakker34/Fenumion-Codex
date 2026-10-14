@@ -303,3 +303,11 @@ Supplied RP-derived synthesis `prima-pristinia-codex-emphasis-corrections.md`, S
 ## Five character deep dossiers · 14 October 2026
 
 Five supplied character syntheses checked against primary quests: three new public dossiers, two expanded identities. Editorial commands/rankings not adopted; unsupported municipal/regional offices rejected. Earlier Kumai history and Míriel’s politics retained. Hashes, anchors and boundaries in `FIVE_CHARACTER_DOSSIER_REVIEW.md`. Raw sources outside Git; vault unchanged.
+
+## Five player-character dossiers · 14 October 2026
+
+Akarian Irenhour, Dorian, Fredrick, St. Anky and Tshuka Hayim: supplied syntheses checked against selected quest evidence and compatible workshop testimony. Three existing histories expanded; Fredrick/Tshuka standalone player records. No duplicate Dorian identity, reversed Anky death, manufactured custody dates or objective Destroyer identification. Hashes, anchors and review scope in `SECOND_CHARACTER_DOSSIER_REVIEW.md`. Protected sources/vault unchanged.
+
+## Third character deep dossier batch · 14 October 2026
+
+Camilla Blackwood, Casimir, Ghilsen Hendrickson, Ithilrûnë Ailinor and Thorn: supplied synthesis reviewed against selected quest/public-square evidence and existing histories. Camilla disbanding, Ghilsen later fall report, Ithilrûnë’s later uncertainty and Thorn’s return gap preserved. Independent Casimir keeps Alioth’s shared history intact. Hashes, anchors, direct-versus-synthesis limits in `THIRD_CHARACTER_DOSSIER_REVIEW.md`. Raw sources/vault unchanged.

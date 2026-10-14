@@ -790,3 +790,11 @@ Location-only gallery push succeeded but final Pages deployment timed out with a
 ## Five quest-checked deep dossiers · 14 October 2026
 
 Aionia, Idril and Míriel gain standalone public records; Yvette and Kumai expanded within existing identities. No unsupported Pristinia militia/Ciaranach command assignments. Kumai’s earlier history and Kasiri’s contest victory preserved; Míriel’s political choices retained beside research limits. Protected disclosures withheld; media preserved; navigation and two timeline summaries expanded. 109 unique NPCs; Chrome desktop/mobile checks passed. See `FIVE_CHARACTER_DOSSIER_REVIEW.md`. Five-character-dossiers1/app230; publication authorized on 14 October 2026.
+
+## Second five-character dossier pass · 14 October 2026
+
+Expanded Akarian, Dorian Ashwood and St. Anky; added standalone player records for Fredrick and Tshuka. Quest authority retained: complete Akarian trial outcome and later complexity; Dorian’s proposed actions not silently completed; Fredrick custody/death gaps explicit; Anky’s later institutions/death retained; Tshuka’s workshop claims attributed. Media preserved, aliases/directories/context links updated; no ranking changes or invented events. See `SECOND_CHARACTER_DOSSIER_REVIEW.md`. Second-character-dossiers1/app231; included in the authorized app232 release.
+
+## Third five-character dossier pass · 14 October 2026
+
+Camilla, Ghilsen, Ithilrûnë and Thorn expanded; independent Casimir connected to shared Alioth history. Later outcomes/statuses retained, unsupported rankings omitted and claims/plans attributed. Existing media preserved; reciprocal links, aliases, directories/navigation updated. Both pending batches validated together. See `THIRD_CHARACTER_DOSSIER_REVIEW.md`. Third-character-dossiers1/app232; publication authorized alongside the second batch on 14 October 2026.

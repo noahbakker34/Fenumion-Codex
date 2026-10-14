@@ -14718,6 +14718,44 @@ if (kumaiTrialEvent) {
 const idrilTrainingEvent = archiveIndex.timeline.find(event=>event.title==='A celestial test reveals the Wyrm’s hunger');
 if (idrilTrainingEvent) idrilTrainingEvent.summary += ' Captain Idril supervises the simulated combat with attending priests, demands teamwork and interrupts the lesson when summoned elsewhere.';
 
+// Expand established player histories without replacing their later outcomes.
+const secondCharacterDossiers = [...(window.FENUMION_SECOND_DOSSIERS || []), ...(window.FENUMION_THIRD_DOSSIERS || [])];
+for (const update of secondCharacterDossiers) {
+  let article = articles.find(item=>item.id===update.id);
+  if (!article) {
+    article = {id:update.id,title:update.title,category:'People',type:update.type,dek:update.dek,
+      tags:[update.title,...update.aliases],facts:update.facts,sources:[],body:'',
+      ...(update.image ? {image:update.image,imageAlt:update.title,imageLayout:'portrait-hero'} : {})};
+    articles.push(article);
+  }
+  if (update.id==='akarian') {
+    article.body = article.body.replace(/<h2 id="archive-boundary">[\s\S]*$/, '');
+    article.facts.Record = 'Relic trial and selected later scenes; fuller history unresolved';
+  }
+  Object.assign(article,{title:update.title,dek:update.dek});
+  article.body += update.body;
+  article.tags = [...new Set([...article.tags,...update.aliases])];
+  article.sources = [...new Set([...(article.sources || []),'Deep character dossier · supplied 14 October 2026; quest evidence takes precedence','Selected primary scenes and established public histories; anchors below'])];
+  let person = archiveIndex.characters.find(item=>item.article===update.id || item.title===update.person);
+  if (!person) { person = {title:update.title}; archiveIndex.characters.push(person); }
+  Object.assign(person,{title:update.title,article:update.id,meta:article.type,summary:update.dek,
+    aliases:[...new Set([...(person.aliases || []),update.person,...update.aliases])]});
+  const profile = legacyCharacterProfiles[update.person] || legacyCharacterProfiles[update.title] || {};
+  legacyCharacterProfiles[update.title] = {...profile,achievements:update.dek};
+  fixedArticlePaths.set(update.id,['Characters',update.title]);
+  const branch = navigationRegions.find(region=>region.title==='Characters').branches
+    .find(branch=>branch.title===(/^[A-J]/.test(update.title)?'Characters A–J':'Characters K–Z'));
+  if (!branch.items.some(item=>item.article===update.id)) branch.items.push({label:update.title,article:update.id});
+  const context = subchannelMap[update.id] || (subchannelMap[update.id]=[]);
+  for (const id of update.links) {
+    const target = articles.find(item=>item.id===id);
+    if (!target) throw new Error('Missing PC dossier context: '+id);
+    if (!context.some(item=>item.article===id)) context.push({label:target.title,article:id,summary:target.dek});
+    const reciprocal = subchannelMap[id] || (subchannelMap[id]=[]);
+    if (!reciprocal.some(item=>item.article===update.id)) reciprocal.push({label:update.title,article:update.id,summary:update.dek});
+  }
+}
+
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
@@ -14742,6 +14780,13 @@ routeAliases.set('adelia','adelia-hope');
 routeAliases.set('spirit-of-adelia','adelia-hope');
 routeAliases.set('shadow-sentinel','adelia-hope');
 routeAliases.set('kumai','kumai-218');
+routeAliases.set('akarian-irenhour','akarian');
+routeAliases.set('dorian','dorian-ashwood');
+routeAliases.set('tshuka','tshuka-hayim');
+routeAliases.set('frederick','fredrick');
+routeAliases.set('ithilrune-ailinor','ithilrune');
+routeAliases.set('camilla-blackwood','camilla');
+routeAliases.set('ghilsen-hendrickson','ghilsen');
 routeAliases.set('idril','battlemaiden-idril');
 routeAliases.set('yvette','guardian-commander-yvette');
 routeAliases.set('miriel-of-the-emerald-veil','miriel-emerald-veil');

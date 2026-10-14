@@ -774,3 +774,7 @@ Gael final emphasis: two connected eras, renewed loss and inherited responsibili
 ## Prima/Pristinia emphasis review · 13 October 2026
 
 User explicitly prioritizes quest evidence over RP. Rule recorded in root `AGENTS.md` and editorial source hierarchy. Supplied correction document reviewed as subordinate synthesis; exclusive founder rankings and later-generation demotions of quest-established early figures not adopted. Added only a short compatible civic-history connection to Pristinia using the checked March 2024 quest scene and existing institutional histories. No RP-derived new chronology, identity merge or changed war outcome. See `PRIMA_EMPHASIS_REVIEW.md`. App227; publication pending.
+
+## Art location opening · 14 October 2026
+
+The Art of Fenumion opens with a slow sideways scroll of existing public location scenes. Varied places precede repeat views; maps/diagrams remain in the regular gallery. Native scrolling, pause/resume, swipe, hover/focus pauses, reduced-motion still view and visibility/route cleanup. Original art search, filters and pagination retained; protected art excluded. Checks and screenshots in `ART_AND_NAVIGATION.md`. Art-gallery2/app228/layout12; publication pending.

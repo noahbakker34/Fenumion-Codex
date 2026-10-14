@@ -9,3 +9,11 @@ Existing story pages, search, source access, world switching, vault authenticati
 Chrome verified home, character, timeline, island, gallery and Gedankin pages; consistent rail geometry, tablet/mobile overflow, 226 unique public works, filters/search/pagination, full-size/story destinations, contextual navigation and exclusion of synthetic protected content after unlock. Existing NPC/character navigation regression checks passed. Desktop/mobile screenshots inspected; syntax and diff checks passed.
 
 Regression: run `scripts/check_art_menu.cjs` against a local site preview with Playwright installed. Set `CODEX_BASE_URL` and `CHROME_PATH` if needed.
+
+## Location opening · 14 October 2026
+
+The Art of Fenumion now opens with a slow horizontal tour of up to sixteen existing public location scenes, above its title and original searchable collection. The selector gives different locations a turn before repeating another view; known atlas maps, map-labelled artwork and planning diagrams stay in the regular gallery. No new artwork, attribution, geography or lore is introduced.
+
+Native horizontal scrolling moves at roughly 24 pixels per second with a seamless repeated track. Pause/resume control, hover and keyboard-focus pauses, touch/swipe interaction, reduced-motion default still view and offscreen/hidden-tab suspension keep the movement controllable. Duplicate tiles are hidden from assistive reading and removed from tab order while retaining pointer links to the same existing stories. Animation and observers are cleaned up on route changes.
+
+Chrome checks passed for actual movement speed, pause/resume, hover pause, wrapping, reduced-motion stillness, responsive layout, valid story links, gallery search/filter preservation, synthetic private-art exclusion and route cleanup. Desktop/mobile screenshots inspected. Syntax and whitespace checks passed. Versions: art-gallery2, app228, shared layout12. Publication pending.

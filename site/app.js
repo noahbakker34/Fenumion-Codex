@@ -16756,6 +16756,7 @@ function setupQuoteVoices() {
 }
 
 function renderArticle(route, pushHash = true) {
+  window.cleanupFenumionArt?.();
   // Preserve existing bookmarks after Vaerik’s world correction.
   if (String(route).split("?")[0] === "vaerik") { location.replace("/gedankin/#vaerik"); return; }
   stopQuoteVoice();

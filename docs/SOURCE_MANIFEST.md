@@ -319,3 +319,15 @@ Coralyn, Lady Severina Blackveil, Lucido Spettoro and Minerva: three existing hi
 ## Ryvyt deep dossier · 14 October 2026
 
 Supplied synthesis checked against eight compatible workshop anchors and existing quest-backed history. Explicit shop ownership, founder/main-member status and unresolved disappearance aftermath retained. Shared inventory distinct from personal property; experimental success not inferred; grimoire observation/witness chain preserved. Hash and dispositions in `RYVYT_DEEP_DOSSIER_REVIEW.md`. Raw sources/vault unchanged.
+
+## Gedankin expanded location dossier · 14 October 2026
+
+Expanded existing guide/location context and added a reported Living-Water Pools record. Sombra recollection and Salim regional explanation selectively checked; prior quest outcomes and map preserved. No inferred excavation success, exact coordinates, vision-site merger or resolved regional boundaries. Hash, anchors and coverage in `GEDANKIN_EXPANDED_LOCATION_REVIEW.md`. Raw/private sources outside public assets.
+
+## Fenumion Skill Descriptions · 14 October 2026
+
+User-supplied Google Doc `1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo`, tab t.0, read through Drive/Docs connector. All seven professions, eight sections and 14 tables integrated as a crafting subsection of Blessings. Full wording retained after whitespace normalization; source ambiguities not silently resolved, no XP exchange/award rule invented. Revision, scope and validation in `CRAFTING_REFERENCE.md`.
+
+## Housing and Scroll Library history · 14 October 2026
+
+Supplied synthesis `Fenumion_Housing_and_Scroll_Library_RP_History.md`: two Pristinia records, residential guide and dedicated library. Existing library marker/directory upgraded without new coordinates. Claims, registration, occupancy and transfers distinguished; Eovar properties retain geography; current crafting rules not retroactive scene proof. No independent full-transcript verification claimed. Hash, scope and validation in `HOUSING_SCROLL_LIBRARY_REVIEW.md`.

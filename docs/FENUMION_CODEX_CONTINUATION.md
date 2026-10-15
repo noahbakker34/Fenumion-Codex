@@ -806,3 +806,15 @@ Coralyn, Severina and Minerva expanded; Lucido gains a standalone player route. 
 ## Ryvyt deep dossier pass · 14 October 2026
 
 Expanded existing Ryvyt with material limits, supply networks, lead-crafter/public-service testimony, bounded experimentation and grimoire perception history. User-established shop ownership, quest-backed founder identity, media and unresolved later status preserved. Shared stock distinct from property ownership. Eight workshop anchors checked; five pending profiles validated together. See `RYVYT_DEEP_DOSSIER_REVIEW.md`. Ryvyt-deep-dossier1/app234; publication authorized alongside the fourth batch on 14 October 2026.
+
+## Gedankin expanded location dossier · 14 October 2026
+
+Expanded geography confidence, changing terrain/resource context, arrival/refuge and city/homeland links. Living-Water Pools added as reported, unpositioned site; 26 locations. Existing map/events/quotes and unresolved expedition outcomes retained. Gedankin remains separate from Fenumion/authentication. See `GEDANKIN_EXPANDED_LOCATION_REVIEW.md`. Gedankin data21/runtime26; publication authorized on 14 October 2026 alongside crafting and Pristinia locations.
+
+## Fenumion crafting reference · 14 October 2026
+
+User identifies linked Skill Descriptions as distinct Fenumion homebrew crafting and requests a subsection beneath Blessings. Added overview, seven trades and switching rules, source-exact tables/procedures, reciprocal links/navigation and source URL. Blessing mechanics unchanged; no XP award rates or conversion inferred. See `CRAFTING_REFERENCE.md`. Crafting-data1/app235; included in the authorized app236 release.
+
+## Pristinia housing and Scroll Library · 14 October 2026
+
+Two entries from supplied historical synthesis: Pristinia Homes & Households and Pristinia Scroll Library. Claims/transfers/residence separated; Eovar tower, underwater home and plantation not relocated. Existing library marker now opens own dossier; no new coordinates. Character/place reciprocity and current Builder/Scribe/Craftsman references linked without retroactive ranks or achievements. See `HOUSING_SCROLL_LIBRARY_REVIEW.md`. Housing-library1/app236; publication authorized on 14 October 2026 alongside Gedankin/crafting updates.

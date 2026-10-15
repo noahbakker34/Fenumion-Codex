@@ -29,3 +29,7 @@ Replaced the default story rail and narrow dense rules presentation with a full-
 ## Preview conditions · consistency audit
 
 Boon previews now keep the entire sentence containing the first matched mechanic, including any prerequisite before the action phrase. Full original text and source tables remain unchanged.
+
+## Crafting subsection · 14 October 2026
+
+User explicitly places Fenumion homebrew crafting beneath Blessings navigation while keeping mechanics distinct. Seven trade references, shared Skill Experience ranks and switching rules linked from the overview. Source-exact rules in `crafting-data.js`; no XP-to-boon conversion inferred. Full source scope, ambiguities and verification in `CRAFTING_REFERENCE.md`.

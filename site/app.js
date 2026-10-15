@@ -14134,6 +14134,41 @@ if(blessingData) {
   navigationRegions.push({title:'Blessings',article:overview.id,glyph:'✧',branches:[{title:'Reference',items:[{label:'All blessings',article:overview.id,parent:true},{label:advancement.title,article:advancement.id}]},{title:'Blessing paths',items:blessingItems}]});
 }
 
+// Fenumion homebrew crafting is a distinct rules reference within Blessings.
+const craftingData = window.FENUMION_CRAFTING_DATA;
+if (craftingData && blessingData) {
+  const escCraft = value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const ruleText = text=>escCraft(text).replace(/\n/g,'<br>');
+  const table = (caption,rows)=> {
+    const headed=/^(Skill Level|Monster CR Range|Item Type|CR of Wild Creature)$/.test(rows[0][0]);
+    return '<div class="blessing-table-scroll" role="region" aria-label="'+escCraft(caption)+'" tabindex="0"><table class="blessing-table"><caption>'+escCraft(caption)+'</caption>'+(headed?'<thead><tr>'+rows[0].map(c=>'<th scope="col">'+ruleText(c)+'</th>').join('')+'</tr></thead>':'')+'<tbody>'+rows.slice(headed?1:0).map(row=>'<tr>'+row.map((c,i)=>i===0?'<th scope="row">'+ruleText(c)+'</th>':'<td>'+ruleText(c)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+  };
+  const sourceLink = '<p class="blessing-source">Read the <a href="'+escCraft(craftingData.source)+'" target="_blank" rel="noopener noreferrer">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>';
+  const trades=craftingData.sections.filter(s=>s.id!=='switching-trade-skills');
+  const ranks=trades[0].blocks.find(b=>b.type==='table').rows.map(row=>row.slice(0,2));
+  const hub={id:'fenumion-crafting',title:'Crafting & Skill Experience',category:'Guide',type:'Fenumion homebrew crafting system',dek:'Choose a trade, follow its Skill Experience progression, and find the gathering, crafting and construction rules.',tags:['Blessings','Homebrew','Crafting','Skill Experience','Trade skills'],facts:{World:'Fenumion',Trades:'Seven',Ranks:'Apprentice · Journeyman · Expert · Master'},sources:[craftingData.source],body:'<p><a href="#blessings-of-fenumion">← Blessings of Fenumion</a></p><p>Fenumion’s homebrew crafting system develops practical professions through Skill Experience. Each trade has its own permitted work, rolls, resources and timing.</p><h2 id="crafting-ranks">Skill Experience ranks</h2>'+table('Trade progression',ranks)+'<h2 id="crafting-trades">Explore the seven trades</h2><div class="blessing-path-directory">'+trades.map((s,i)=>'<a class="blessing-path-card" href="#'+s.id+'"><span class="blessing-path-number">'+String(i+1).padStart(2,'0')+'</span><strong>'+escCraft(s.name)+'</strong><span>'+escCraft(s.summary)+'</span><span class="blessing-open">Read the rules →</span></a>').join('')+'</div><h2 id="crafting-material-chain">From resources to finished work</h2><p>Hunters harvest magical components; Scouts gather materials; Smiths can refine materials; Craftsmen combine the supplies into magic items. Builders use materials for construction. Scribes expand spell knowledge, while Beast Whisperers work with approved creatures.</p><h2 id="crafting-changing-trades">Changing professions</h2><p>Before Journeyman rank, the source allows relative freedom to change trades. From Journeyman onward, a switch drops Skill Experience to the minimum of the next rank down. See the original examples and conditions in <a href="#switching-trade-skills">Switching Trade Skills</a>.</p><h2 id="crafting-and-blessings">Crafting and blessings</h2><p><a href="#blessings-of-fenumion">Blessings</a> provide boon paths and listed costs. This crafting reference governs trade ranks and trade work. A conversion between Skill Experience and blessing costs, or additional blessing modifiers to trade rolls, is not specified in the supplied crafting rules.</p>'+sourceLink};
+  articles.push(hub);fixedArticlePaths.set(hub.id,['Blessings','Crafting',hub.title]);
+  subchannelMap[hub.id]=[{label:'Blessings of Fenumion',article:'blessings-of-fenumion',summary:'Explore blessing paths and their boon costs.'}];
+  const items=[{label:'Crafting overview',article:hub.id,parent:true}];
+  for (const section of craftingData.sections) {
+    let tableIndex=0;
+    const body=section.blocks.map((block,index)=> {
+      if(block.type==='table') return table(section.name+' · table '+(++tableIndex),block.rows);
+      const isHeading=/^(How it Works|The .+ Progression Table|Material Requirements for .+|Breaking Down Items for .+|Constructing .+|Player Houses|Constructing Vehicles)$/.test(block.text);
+      return isHeading?'<h2 id="'+section.id+'-section-'+index+'">'+escCraft(block.text)+'</h2>':'<p>'+ruleText(block.text)+'</p>';
+    }).join('');
+    const record={id:section.id,title:section.name,category:'Guide',type:'Fenumion trade skill reference',dek:section.summary,tags:['Blessings','Homebrew','Crafting','Skill Experience',section.name],facts:{System:'Fenumion crafting'},sources:[craftingData.source],body:'<p><a href="#fenumion-crafting">← Crafting & Skill Experience</a></p>'+body+sourceLink};
+    articles.push(record);fixedArticlePaths.set(record.id,['Blessings','Crafting',record.title]);
+    subchannelMap[record.id]=[{label:hub.title,article:hub.id,summary:hub.dek}];
+    subchannelMap[hub.id].push({label:record.title,article:record.id,summary:record.dek});
+    items.push({label:record.title,article:record.id});
+  }
+  const overview=articles.find(a=>a.id==='blessings-of-fenumion');
+  overview.body=overview.body.replace('<a class="blessing-advancement-link"', '<a class="blessing-advancement-link" href="#fenumion-crafting"><strong>Fenumion homebrew crafting</strong><span>Seven trades, Skill Experience ranks, materials and procedures →</span></a><a class="blessing-advancement-link"');
+  subchannelMap[overview.id].push({label:hub.title,article:hub.id,summary:hub.dek});
+  navigationRegions.find(r=>r.title==='Blessings').branches.push({title:'Crafting & Skill Experience',items});
+}
+
 const rahuPlace=archiveIndex.islands.find(record=>record.title==='Rahu');
 Object.assign(rahuPlace,{region:'Prima',parent:'Prima',level:'site',meta:'Prima · Rahu lands',summary:'The Prima map labels the Rahu lands in the southwest of the island. This regional marker does not establish the precise position of Rahuvia within them.'});
 for(const [title,type,summary] of [
@@ -14756,6 +14791,31 @@ for (const update of secondCharacterDossiers) {
   }
 }
 
+// Two Pristinian history records; Eovar properties retain their established geography.
+const housingLibraryRecords = window.FENUMION_HOUSING_LIBRARY || [];
+for (const update of housingLibraryRecords) {
+  const {links,...record}=update;
+  articles.push(record);
+  let place=archiveIndex.islands.find(item=>item.title===record.title);
+  if (place) Object.assign(place,{article:record.id,type:record.type,summary:record.dek,source:'Settlement map and supplied housing/library history'});
+  else archiveIndex.islands.push({title:record.title,article:record.id,region:'Prima',parent:'Pristinia',level:'site',type:record.type,meta:'Prima › Pristinia · '+record.type,summary:record.dek,source:'Supplied housing/library history',aliases:record.id==='pristinia-housing'?['Pristinia Housing','Homes and Households']:[]});
+  fixedArticlePaths.set(record.id,['Locations','Prima','Pristinia',record.title]);
+  const branch=locationsNav.branches.find(branch=>branch.title==='Prima');
+  if(!branch.items.some(item=>item.article===record.id)) branch.items.push({label:record.title,article:record.id});
+  subchannelMap[record.id]=[];
+}
+for (const record of housingLibraryRecords) {
+  for (const id of record.links) {
+    const target=articles.find(item=>item.id===id);
+    if (!target) throw new Error('Missing residential/library context: '+id);
+    subchannelMap[record.id].push({label:target.title,article:id,summary:target.dek});
+    const reciprocal=subchannelMap[id] || (subchannelMap[id]=[]);
+    if(!reciprocal.some(item=>item.article===record.id)) reciprocal.push({label:record.title,article:record.id,summary:record.dek});
+  }
+}
+const pristiniaHomes=articles.find(item=>item.id==='pristinia');
+pristiniaHomes.body+='<h2 id="pristinia-domestic-and-recorded-memory">Homes and the record of a town</h2><p><a href="#pristinia-housing">Homes and households</a> preserve changing residence, friendship and ownership claims. The <a href="#pristinia-scroll-library">Scroll Library</a> preserves another form of continuity: shared spells, research and civic records that later residents can consult.</p>';
+
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
@@ -14788,6 +14848,11 @@ routeAliases.set('ithilrune-ailinor','ithilrune');
 routeAliases.set('camilla-blackwood','camilla');
 routeAliases.set('ghilsen-hendrickson','ghilsen');
 routeAliases.set('lucido-spettoro','lucido');
+routeAliases.set('skill-experience','fenumion-crafting');
+routeAliases.set('scroll-library','pristinia-scroll-library');
+routeAliases.set('prima-scroll-library','pristinia-scroll-library');
+routeAliases.set('prima-housing','pristinia-housing');
+routeAliases.set('crafting-system','fenumion-crafting');
 routeAliases.set('lady-severina-blackveil','lady-severina');
 routeAliases.set('idril','battlemaiden-idril');
 routeAliases.set('yvette','guardian-commander-yvette');

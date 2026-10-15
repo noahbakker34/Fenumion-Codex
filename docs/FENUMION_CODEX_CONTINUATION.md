@@ -798,3 +798,11 @@ Expanded Akarian, Dorian Ashwood and St. Anky; added standalone player records f
 ## Third five-character dossier pass · 14 October 2026
 
 Camilla, Ghilsen, Ithilrûnë and Thorn expanded; independent Casimir connected to shared Alioth history. Later outcomes/statuses retained, unsupported rankings omitted and claims/plans attributed. Existing media preserved; reciprocal links, aliases, directories/navigation updated. Both pending batches validated together. See `THIRD_CHARACTER_DOSSIER_REVIEW.md`. Third-character-dossiers1/app232; publication authorized alongside the second batch on 14 October 2026.
+
+## Fourth character deep dossier pass · 14 October 2026
+
+Coralyn, Severina and Minerva expanded; Lucido gains a standalone player route. Quest outcomes retained; journals and debate/research synthesis attributed. No forced Voraketh identity connections, exclusive founder claim, inferred experiment success or moral verdict. Directory/navigation/aliases updated; existing media and protected empty stubs retained. See `FOURTH_CHARACTER_DOSSIER_REVIEW.md`. Fourth-character-dossiers1/app233; included in the authorized app234 release.
+
+## Ryvyt deep dossier pass · 14 October 2026
+
+Expanded existing Ryvyt with material limits, supply networks, lead-crafter/public-service testimony, bounded experimentation and grimoire perception history. User-established shop ownership, quest-backed founder identity, media and unresolved later status preserved. Shared stock distinct from property ownership. Eight workshop anchors checked; five pending profiles validated together. See `RYVYT_DEEP_DOSSIER_REVIEW.md`. Ryvyt-deep-dossier1/app234; publication authorized alongside the fourth batch on 14 October 2026.

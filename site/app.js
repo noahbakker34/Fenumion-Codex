@@ -14719,7 +14719,7 @@ const idrilTrainingEvent = archiveIndex.timeline.find(event=>event.title==='A ce
 if (idrilTrainingEvent) idrilTrainingEvent.summary += ' Captain Idril supervises the simulated combat with attending priests, demands teamwork and interrupts the lesson when summoned elsewhere.';
 
 // Expand established player histories without replacing their later outcomes.
-const secondCharacterDossiers = [...(window.FENUMION_SECOND_DOSSIERS || []), ...(window.FENUMION_THIRD_DOSSIERS || [])];
+const secondCharacterDossiers = [...(window.FENUMION_SECOND_DOSSIERS || []), ...(window.FENUMION_THIRD_DOSSIERS || []), ...(window.FENUMION_FOURTH_DOSSIERS || []), ...(window.FENUMION_RYVYT_DEEP || [])];
 for (const update of secondCharacterDossiers) {
   let article = articles.find(item=>item.id===update.id);
   if (!article) {
@@ -14787,6 +14787,8 @@ routeAliases.set('frederick','fredrick');
 routeAliases.set('ithilrune-ailinor','ithilrune');
 routeAliases.set('camilla-blackwood','camilla');
 routeAliases.set('ghilsen-hendrickson','ghilsen');
+routeAliases.set('lucido-spettoro','lucido');
+routeAliases.set('lady-severina-blackveil','lady-severina');
 routeAliases.set('idril','battlemaiden-idril');
 routeAliases.set('yvette','guardian-commander-yvette');
 routeAliases.set('miriel-of-the-emerald-veil','miriel-emerald-veil');

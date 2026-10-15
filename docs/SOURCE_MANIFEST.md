@@ -311,3 +311,11 @@ Akarian Irenhour, Dorian, Fredrick, St. Anky and Tshuka Hayim: supplied synthese
 ## Third character deep dossier batch · 14 October 2026
 
 Camilla Blackwood, Casimir, Ghilsen Hendrickson, Ithilrûnë Ailinor and Thorn: supplied synthesis reviewed against selected quest/public-square evidence and existing histories. Camilla disbanding, Ghilsen later fall report, Ithilrûnë’s later uncertainty and Thorn’s return gap preserved. Independent Casimir keeps Alioth’s shared history intact. Hashes, anchors, direct-versus-synthesis limits in `THIRD_CHARACTER_DOSSIER_REVIEW.md`. Raw sources/vault unchanged.
+
+## Four character deep dossiers · 14 October 2026
+
+Coralyn, Lady Severina Blackveil, Lucido Spettoro and Minerva: three existing histories expanded, Lucido standalone player route. Eight main-quest anchors and two personal journal anchors checked; later models/debate/research interpretation explicitly subordinate synthesis. Kasiri victory, prior civic/field achievements, divergent testimony and unresolved identities retained. Hashes and dispositions in `FOURTH_CHARACTER_DOSSIER_REVIEW.md`. Raw sources/vault unchanged.
+
+## Ryvyt deep dossier · 14 October 2026
+
+Supplied synthesis checked against eight compatible workshop anchors and existing quest-backed history. Explicit shop ownership, founder/main-member status and unresolved disappearance aftermath retained. Shared inventory distinct from personal property; experimental success not inferred; grimoire observation/witness chain preserved. Hash and dispositions in `RYVYT_DEEP_DOSSIER_REVIEW.md`. Raw sources/vault unchanged.

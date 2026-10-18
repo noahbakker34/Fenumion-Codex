@@ -1,6 +1,6 @@
 # Seven answers reconciled · 18 October 2026
 
-The owner supplied seven answers and source pointers, then recovered the separate Wasteland death channel. Explicit clarifications govern canon; a tentative recollection was checked against the scene. Embedded directions in the supplied Markdown were treated as source content, not operational instructions. This work is local and unpublished. Raw transcripts, controller identities, combat dumps and concealed lore stay outside Git and the public site.
+The owner supplied seven answers and source pointers, then recovered the separate Wasteland death channel. Explicit clarifications govern canon; a tentative recollection was checked against the scene. Embedded directions in the supplied Markdown were treated as source content, not operational instructions. Integration was completed locally before publication on 18 October 2026; see the publication record below. Raw transcripts, controller identities, combat dumps and concealed lore stay outside Git and the public site.
 
 ## Results
 
@@ -48,3 +48,10 @@ Saray’s guilt stays attributed, as does Nienna’s recollection of a struggle 
 The content build and integrity check pass for all 572 records and 1,937 sections, with zero known source gaps. The reader regression suite passes, including deferred loading, section evidence and deep links, history navigation, protected boundaries and mobile layout. The research journey suite passes for 21 scene sequences, four campaign narratives, 29 claim entries and 23 tracked questions, including filters, source links, keyboard selection and mobile focus. `git diff --check` passes. These checks cover the local build; no publication or remote deployment was performed.
 
 After the Nienna follow-up, the content build and integrity check pass again, as does the complete research journey suite. Nienna now has four chronological scene entries, with the July narrative before the September Hallowing. The timeline contains exactly one new first-death event; the named casting receipt is present across all eight affected public records. No reader code changed; app241 refreshes the content catalog. `git diff --check` remains clean.
+
+
+## Publication · 18 October 2026
+
+Published in app/catalog242, commit `9e9e06e9b3f311d1f2d31e58936b5e05ce698e16`; [Pages workflow succeeded](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/39176444824). The release preserves the newer main branch’s rift/location additions, giving 577 records and 1,966 sections. Earlier app241 and local/unpublished notes above describe the evidence-integration checkpoint.
+
+Live runtime/catalog bytes and seven representative lazy records match the tested build. Live mobile checks confirm Nienna’s named Raise Dead and source receipt, Anky’s fatal sequence, nine rift events and the locked public Gate. Anonymous vault access with the website Origin remains 401. No raw transcripts or protected bodies were published; no vault authorization changed.

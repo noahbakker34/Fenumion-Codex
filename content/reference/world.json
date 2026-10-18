@@ -2334,8 +2334,8 @@
       },
       {
         "title": "The Rift ambush tests knowledge and rescue",
-        "meta": "2026 · exact date unresolved",
-        "sort": "2026-99z",
+        "meta": "3 September 2026 · source posts (EDT)",
+        "sort": "2026-09-03-01-pappy",
         "era": "2026 · Consequences",
         "kind": "Ambush and intervention",
         "article": "pappy",
@@ -5372,6 +5372,153 @@
           "first death"
         ],
         "summary": "Nienna stands before Saray against soul eaters and wraiths. She dies during the fight; Saray defeats the remaining enemies and brings her body to the Tower."
+      },
+      {
+        "title": "A dreamlike rift remains unsealed",
+        "meta": "Source posts · 31 March 2025 · in-world date unresolved",
+        "sort": "2025-03-31",
+        "era": "2025 · Wider shores",
+        "kind": "Rift expedition fails",
+        "article": "rifts",
+        "location": "Dreamlike space beyond the breach",
+        "people": "Expedition participants; names not recovered in this summary",
+        "tags": [
+          "Rifts",
+          "Rift",
+          "Failure"
+        ],
+        "summary": "An expedition encounters a fallen titan’s weapon, acolytes and a living dream. Overwhelmed, the party retreats without fully sealing the breach; the account warns of later ripples and nightmares."
+      },
+      {
+        "title": "A clockwork rift opens into hostile machinery",
+        "meta": "Source posts · 1–2 April 2025 · in-world date unresolved",
+        "sort": "2025-04-01",
+        "era": "2025 · Wider shores",
+        "kind": "Rift expedition",
+        "article": "rifts",
+        "location": "Clockwork passages beyond the breach",
+        "people": "Expedition participants; names not recovered in this summary",
+        "tags": [
+          "Rifts",
+          "Rift",
+          "Clockwork"
+        ],
+        "summary": "Travelers enter clockwork passages with hostile machinery. Cecil’s post includes the action-to-leave instruction; later, Carmen carries an unconscious companion out as others retreat."
+      },
+      {
+        "title": "An ooze rift closes with a larger threat beyond",
+        "meta": "Source posts · 17–18 April 2025 · in-world date unresolved",
+        "sort": "2025-04-17",
+        "era": "2025 · Wider shores",
+        "kind": "Rift closure",
+        "article": "rifts",
+        "location": "Ooze-filled space beyond the breach",
+        "people": "Expedition participants; names not recovered in this summary",
+        "tags": [
+          "Rifts",
+          "Rift",
+          "Ooze"
+        ],
+        "summary": "After the immediate ooze threats are defeated, pools recede and a much larger ooze remains visible beyond the closing breach. Planar force pulls travelers toward the lands from which they came."
+      },
+      {
+        "title": "Ritual evidence reveals a sustained breach",
+        "meta": "Source posts · 17 July 2026 · in-world date unresolved",
+        "sort": "2026-07-17",
+        "era": "2026 · Consequences",
+        "kind": "Rift investigation",
+        "article": "rifts",
+        "location": "Ritual site; position unresolved",
+        "people": "Expedition participants; names not recovered in this summary",
+        "tags": [
+          "Rifts",
+          "Rift",
+          "Ritual"
+        ],
+        "summary": "Investigators find sigils and notes describing a weak boundary, confirmed alignment and the ability to sustain a breach. The account supplies evidence of deliberate intervention in this opening. As the space collapses, tears offer ways out."
+      },
+      {
+        "title": "A vast rift leads into a dark expanse",
+        "meta": "Source posts · 7 August 2026 · in-world date unresolved",
+        "sort": "2026-08-07",
+        "era": "2026 · Consequences",
+        "kind": "Rift expedition",
+        "article": "rifts",
+        "location": "Black-stone expanse beyond the breach",
+        "people": "Expedition participants; names not recovered in this summary",
+        "tags": [
+          "Rifts",
+          "Rift",
+          "Dark expanse"
+        ],
+        "summary": "A vast tear visible across great distances opens toward black stone, pale mist and a sky without familiar celestial lights. Later instability pressures the expedition to leave."
+      },
+      {
+        "title": "An abyssal rift becomes a crisis of allegiance",
+        "meta": "Source posts · 3–4 September 2026 · in-world date unresolved",
+        "sort": "2026-09-03",
+        "era": "2026 · Consequences",
+        "kind": "Rift encounter",
+        "article": "rifts",
+        "location": "Abyssal environment beyond the breach",
+        "people": "Pappy; other encounter participants",
+        "tags": [
+          "Rifts",
+          "Rift",
+          "Allegiance"
+        ],
+        "summary": "An abyssal encounter becomes a contested summoning: creatures gnaw at the boundary while a robed figure coaxes a godlike form through. Pappy is attacked, offered an exit, and later pulled out. The remaining creatures complete the crossing immediately afterward."
+      },
+      {
+        "title": "A volcanic rift collapses after its crystal is destroyed",
+        "meta": "Source posts · 25 September 2026 · in-world date unresolved",
+        "sort": "2026-09-25",
+        "era": "2026 · Consequences",
+        "kind": "Rift closure",
+        "article": "rifts",
+        "location": "Volcanic terrain; separate return points on Prima",
+        "people": "Farkur; Djöhandrai; other expedition participants",
+        "tags": [
+          "Rifts",
+          "Rift",
+          "Crystal"
+        ],
+        "summary": "Adventurers confront heat, ash, lava and a central crystal. Its destruction is followed by the dimension tearing and the rift closing. Farkur returns to Pristinia; Djöhandrai returns to the trail between Gartina’s estate and the town."
+      },
+      {
+        "title": "A coastal rift opens onto a battle from the sea",
+        "meta": "Source posts · 8 October 2026 · in-world date unresolved",
+        "sort": "2026-10-08",
+        "era": "2026 · Consequences",
+        "kind": "Rift encounter",
+        "article": "rifts",
+        "location": "Sandy shore beyond the breach",
+        "people": "Fenwick; other expedition participants",
+        "tags": [
+          "Rifts",
+          "Rift",
+          "Coastal battle"
+        ],
+        "summary": "Adventurers reach a shore attacked from the sea. After the fighting, Fenwick banishes the three remaining goblins and the beach falls silent; growing instability then whisks everyone back to their respective islands."
+      },
+      {
+        "title": "Cthulhu comes through a rift into Fenumion",
+        "meta": "3 September 2026 · date confirmed by the world’s creator",
+        "sort": "2026-09-03-02-cthulu",
+        "era": "2026 · Consequences",
+        "kind": "Extra-dimensional arrival",
+        "article": "rifts",
+        "location": "Fenumion; arrival site unresolved",
+        "people": "Cthulhu, the eldritch god; other participants unresolved",
+        "tags": [
+          "Rifts",
+          "Rift",
+          "Cthulu",
+          "Cthulhu",
+          "Eldritch god",
+          "Arrival"
+        ],
+        "summary": "Cthulhu, the eldritch god, comes through the abyssal rift after creatures finish tearing at the boundary. Pappy has just been pulled out. As the space contracts, Cthulhu devours the creatures that freed him and departs to serve a master."
       }
     ],
     "characters": [
@@ -7920,11 +8067,11 @@
         "title": "Veiled Watch",
         "region": "Voraketh",
         "parent": "Voraketh",
-        "type": "expedition record site",
-        "meta": "Voraketh · watch / record",
-        "article": "voraketh",
-        "summary": "A source of expedition logs, including the last recovered record before Anky’s fatal April journey.",
-        "source": "Veiled Watch records",
+        "type": "Expedition planning and record context",
+        "meta": "Voraketh · Expedition planning and record context",
+        "article": "veiled-watch",
+        "summary": "Voraketh’s operational research context, where maps, shared theories and expedition plans precede Anky’s fatal encounter at the Binding Chains.",
+        "source": "Voraketh_Veiled_Watch_Deep_Location_Dossier.md · supplied synthesis; Voraketh_Full_Codex_2026-09-25.md · recovered chronology; incomplete underlying sequence; https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164; https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411; https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868",
         "aliases": [
           "The Veiled Watch"
         ],
@@ -8186,7 +8333,7 @@
         "type": "Library · research commons and civic archive",
         "meta": "Prima › Pristinia · library",
         "article": "pristinia-scroll-library",
-        "summary": "A modest collection becomes a shared place for spells, research and the records through which Pristinia remembers itself.",
+        "summary": "A modest local collection grown through repeated research, shared spells, teaching and civic record-keeping, with gaps that research cannot wish away.",
         "source": "Settlement map and supplied housing/library history",
         "aliases": [
           "Scroll Library"
@@ -8514,11 +8661,11 @@
         "title": "Crustacean Cove",
         "region": "Gael",
         "parent": "Gael",
-        "type": "cove",
-        "meta": "Gael · cove",
-        "article": "gael",
-        "summary": "Described as roughly two miles from the Tower, with a temple in an underwater cave beneath it. Early relative safety does not guarantee later journeys.",
-        "source": "Gael RP · coastal description",
+        "type": "Coastal cove and shipwreck history",
+        "meta": "Gael · Coastal cove and shipwreck history",
+        "article": "crustacean-cove",
+        "summary": "The coastal wreck associated with Gael’s refugee arrival, distinct from the community sheltering near the Tower.",
+        "source": "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis; GAEL_RP.md · Gartina and Dale, 24 February 2025 source posts; Previously reviewed Crustacean Cove opening artwork",
         "aliases": [
           "Crustescean Cove"
         ],
@@ -8897,14 +9044,15 @@
       {
         "title": "Eshnunna of the Eternal Flame",
         "region": "Fein Uaill",
-        "parent": "Fein Uaill",
-        "type": "sacred site",
-        "meta": "Fein Uaill · sacred site",
-        "article": "fein-uaill",
-        "summary": "A radiant sacred place confirmed by the supplied screenshot directory.",
-        "source": "Screenshot directory",
+        "parent": "Ciaránach",
+        "type": "inner sanctuary",
+        "meta": "Fein Uaill › Ciaránach · inner sanctuary",
+        "article": "eshnunna",
+        "summary": "The inner citadel reached beyond Ciaránach’s streets, with a distinct threshold within the pilgrimage.",
+        "source": "Ciaranach_and_Eshnunna_Deep_Location_Dossier.md · supplied synthesis; Complete quest-rp export · pilgrimage approach and named citadel, September 2025; Previously reviewed location media · Eshnunna inner sanctum",
         "aliases": [
-          "Eshnunna"
+          "Eshnunna",
+          "Eshunna"
         ],
         "level": "site",
         "image": "assets/locations/discord/ddc6bed9740f880b072831523178b6733a8a7ca6e3ffed442bc9e704b1598e42.webp",
@@ -9311,6 +9459,18 @@
           "Training Dungeon",
           "Papirak’s Training Dungeon"
         ]
+      },
+      {
+        "title": "Gael Refugee Settlement",
+        "level": "site",
+        "article": "gael-refugee-settlement",
+        "parent": "Tower of Gael",
+        "region": "Gael",
+        "type": "Tower-area settlement history",
+        "meta": "Gael › Tower of Gael · Tower-area settlement history",
+        "summary": "Refugees sheltering near the Tower, where emergency food and housing lead to questions about permanent homes and consultation.",
+        "source": "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis; GAEL_RP.md · 24 February 2025 care and planning scene",
+        "aliases": []
       }
     ]
   },
@@ -10582,6 +10742,10 @@
             {
               "label": "Thalanbor’s Library",
               "article": "thalanbor-library"
+            },
+            {
+              "label": "Eshnunna of the Eternal Flame",
+              "article": "eshnunna"
             }
           ]
         },
@@ -10600,6 +10764,14 @@
             {
               "label": "The Crucible of Gael",
               "article": "crucible-of-gael"
+            },
+            {
+              "label": "Crustacean Cove",
+              "article": "crustacean-cove"
+            },
+            {
+              "label": "Gael Refugee Settlement",
+              "article": "gael-refugee-settlement"
             }
           ]
         },
@@ -10629,6 +10801,10 @@
             {
               "label": "Viota’s Monument",
               "article": "viotas-monument"
+            },
+            {
+              "label": "Veiled Watch",
+              "article": "veiled-watch"
             }
           ]
         },
@@ -10733,6 +10909,15 @@
             {
               "label": "Player Perspectives",
               "article": "player-perspectives"
+            }
+          ]
+        },
+        {
+          "title": "World phenomena",
+          "items": [
+            {
+              "label": "Rifts",
+              "article": "rifts"
             }
           ]
         }
@@ -14940,6 +15125,48 @@
         "History",
         "Claims, Receipts & Limits"
       ]
+    ],
+    [
+      "eshnunna",
+      [
+        "Locations",
+        "Fein Uaill",
+        "Ciaránach",
+        "Eshnunna of the Eternal Flame"
+      ]
+    ],
+    [
+      "crustacean-cove",
+      [
+        "Locations",
+        "Gael",
+        "Crustacean Cove"
+      ]
+    ],
+    [
+      "gael-refugee-settlement",
+      [
+        "Locations",
+        "Gael",
+        "Tower of Gael",
+        "Gael Refugee Settlement"
+      ]
+    ],
+    [
+      "veiled-watch",
+      [
+        "Locations",
+        "Voraketh",
+        "Veiled Watch"
+      ]
+    ],
+    [
+      "rifts",
+      [
+        "Guide",
+        "World phenomena",
+        "Rifts"
+      ]
     ]
   ],
   "subchannelMap": {
@@ -15292,6 +15519,11 @@
         "label": "Pristinia Homes & Households",
         "article": "pristinia-housing",
         "summary": "Homes, shared households and the changing claims through which adventurers make a place for themselves."
+      },
+      {
+        "label": "The Gate",
+        "article": "gate-clearing",
+        "summary": "The threshold where strangers arrive, veterans offer shelter, and Fenumion’s war becomes personal."
       }
     ],
     "farkur": [
@@ -15344,6 +15576,16 @@
         "label": "Pristinia Homes & Households",
         "article": "pristinia-housing",
         "summary": "Homes, shared households and the changing claims through which adventurers make a place for themselves."
+      },
+      {
+        "label": "Rifts",
+        "article": "rifts",
+        "summary": "Tears into Fenumion from elsewhere, opened for things being summoned or trying to escape."
+      },
+      {
+        "label": "The Gate",
+        "article": "gate-clearing",
+        "summary": "The threshold where strangers arrive, veterans offer shelter, and Fenumion’s war becomes personal."
       }
     ],
     "ryvyt": [
@@ -15759,6 +16001,16 @@
         "label": "Pristinia · a town worth defending",
         "article": "pristinia-campaign",
         "summary": "Arrival, shared defenses, siege and the ordinary work that makes survival matter."
+      },
+      {
+        "label": "Rifts",
+        "article": "rifts",
+        "summary": "Tears into Fenumion from elsewhere, opened for things being summoned or trying to escape."
+      },
+      {
+        "label": "Eovar Harbor",
+        "article": "eovar-harbor",
+        "summary": "A rough, walled harbor larger than Pristinia, where shipping, rebuilding, crime, and regional reputation meet—and where maritime life had nearly stopped by August 2026."
       }
     ],
     "papirak": [
@@ -16008,6 +16260,11 @@
         "label": "Míriel of the Emerald Veil",
         "article": "miriel-emerald-veil",
         "summary": "A keeper of knowledge whose research, hospitality and political choices reveal both the reach and the boundaries of Zarathian institutions."
+      },
+      {
+        "label": "Eshnunna of the Eternal Flame",
+        "article": "eshnunna",
+        "summary": "The inner citadel reached beyond Ciaránach’s streets, with a distinct threshold within the pilgrimage."
       }
     ],
     "ciaranach": [
@@ -16030,6 +16287,11 @@
         "label": "High Lord Bowene",
         "article": "bowene",
         "summary": "A High Lord governing through grief: Bowene preserves Zarathian dignity and ancient rites while leaving room to reconsider Aria’s legacy, change the law, and reconcile with those he exiles."
+      },
+      {
+        "label": "Eshnunna of the Eternal Flame",
+        "article": "eshnunna",
+        "summary": "The inner citadel reached beyond Ciaránach’s streets, with a distinct threshold within the pilgrimage."
       }
     ],
     "shining-shores": [
@@ -16176,6 +16438,16 @@
         "label": "Gael · the war and the keeping",
         "article": "gael-campaign",
         "summary": "Expedition, costly living ground and the work inherited after victory."
+      },
+      {
+        "label": "Crustacean Cove",
+        "article": "crustacean-cove",
+        "summary": "The coastal wreck associated with Gael’s refugee arrival, distinct from the community sheltering near the Tower."
+      },
+      {
+        "label": "Gael Refugee Settlement",
+        "article": "gael-refugee-settlement",
+        "summary": "Refugees sheltering near the Tower, where emergency food and housing lead to questions about permanent homes and consultation."
       }
     ],
     "tower-of-gael": [
@@ -16213,6 +16485,16 @@
         "label": "The Crucible of Gael",
         "article": "crucible-of-gael",
         "summary": "The training arena where adventurers learn to fight together."
+      },
+      {
+        "label": "Crustacean Cove",
+        "article": "crustacean-cove",
+        "summary": "The coastal wreck associated with Gael’s refugee arrival, distinct from the community sheltering near the Tower."
+      },
+      {
+        "label": "Gael Refugee Settlement",
+        "article": "gael-refugee-settlement",
+        "summary": "Refugees sheltering near the Tower, where emergency food and housing lead to questions about permanent homes and consultation."
       }
     ],
     "the-void": [
@@ -16287,6 +16569,11 @@
         "label": "Voraketh · learning without a final answer",
         "article": "voraketh-campaign",
         "summary": "Changing models, dangerous crossings and the record that survives its witnesses."
+      },
+      {
+        "label": "Veiled Watch",
+        "article": "veiled-watch",
+        "summary": "Voraketh’s operational research context, where maps, shared theories and expedition plans precede Anky’s fatal encounter at the Binding Chains."
       }
     ],
     "st-anky": [
@@ -16329,6 +16616,11 @@
         "label": "Pristinia Scroll Library",
         "article": "pristinia-scroll-library",
         "summary": "A modest collection becomes a shared place for spells, research and the records through which Pristinia remembers itself."
+      },
+      {
+        "label": "Veiled Watch",
+        "article": "veiled-watch",
+        "summary": "Voraketh’s operational research context, where maps, shared theories and expedition plans precede Anky’s fatal encounter at the Binding Chains."
       }
     ],
     "larkhollow": [
@@ -16435,6 +16727,11 @@
         "label": "Lucido Spettoro",
         "article": "lucido",
         "summary": "An explorer and chronicler who asks what adventuring changes for a community, then carries the memory of earlier journeys into later choices."
+      },
+      {
+        "label": "Pristinia Walls",
+        "article": "pristinia-walls",
+        "summary": "Pristinia’s defenses carry the history of shared construction, battle recovery, repair and continuing civic work."
       }
     ],
     "draygar-warsmash": [
@@ -16803,6 +17100,16 @@
         "label": "Zarathis · authority after Aria",
         "article": "zarathis-campaign",
         "summary": "Public memory, mortal limits and the difficult work of judging those who hold power."
+      },
+      {
+        "label": "Ciaránach",
+        "article": "ciaranach",
+        "summary": "A cloistered mountain city reached by pilgrimage from Zarathis, where the Golden Ones preserve truth and counsel Zarathian law."
+      },
+      {
+        "label": "Eshnunna of the Eternal Flame",
+        "article": "eshnunna",
+        "summary": "The inner citadel reached beyond Ciaránach’s streets, with a distinct threshold within the pilgrimage."
       }
     ],
     "eugene": [
@@ -16901,6 +17208,16 @@
         "label": "Pristinia Homes & Households",
         "article": "pristinia-housing",
         "summary": "Homes, shared households and the changing claims through which adventurers make a place for themselves."
+      },
+      {
+        "label": "Eovar Harbor",
+        "article": "eovar-harbor",
+        "summary": "A rough, walled harbor larger than Pristinia, where shipping, rebuilding, crime, and regional reputation meet—and where maritime life had nearly stopped by August 2026."
+      },
+      {
+        "label": "Veiled Watch",
+        "article": "veiled-watch",
+        "summary": "Voraketh’s operational research context, where maps, shared theories and expedition plans precede Anky’s fatal encounter at the Binding Chains."
       }
     ],
     "ithilrune": [
@@ -16938,6 +17255,11 @@
         "label": "Voraketh",
         "article": "voraketh",
         "summary": "An island where old divine protection has become, according to Physisia, a curse—and where surviving the Maw requires preserving evidence before the island can take it away."
+      },
+      {
+        "label": "Veiled Watch",
+        "article": "veiled-watch",
+        "summary": "Voraketh’s operational research context, where maps, shared theories and expedition plans precede Anky’s fatal encounter at the Binding Chains."
       }
     ],
     "murr": [
@@ -16982,6 +17304,21 @@
         "label": "Pristinia Homes & Households",
         "article": "pristinia-housing",
         "summary": "Homes, shared households and the changing claims through which adventurers make a place for themselves."
+      },
+      {
+        "label": "Rifts",
+        "article": "rifts",
+        "summary": "Tears into Fenumion from elsewhere, opened for things being summoned or trying to escape."
+      },
+      {
+        "label": "The Gate",
+        "article": "gate-clearing",
+        "summary": "The threshold where strangers arrive, veterans offer shelter, and Fenumion’s war becomes personal."
+      },
+      {
+        "label": "Pristinia Walls",
+        "article": "pristinia-walls",
+        "summary": "Pristinia’s defenses carry the history of shared construction, battle recovery, repair and continuing civic work."
       }
     ],
     "carmen": [
@@ -17110,6 +17447,21 @@
         "label": "Vance the Guard",
         "article": "vance-the-guard",
         "summary": "An Eovar guard whose answers preserve one local view of commerce, privacy and suspicion."
+      },
+      {
+        "label": "Coralyn",
+        "article": "coralyn",
+        "summary": "A sea-minded explorer whose desire to unite people develops alongside a disciplined refusal to join mysteries before the evidence supports it."
+      },
+      {
+        "label": "Tshuka Hayim",
+        "article": "tshuka-hayim",
+        "summary": "A traveler whose remembered rules of the Shadow Roads coexist with curiosity, practical aid and a growing place in local memory."
+      },
+      {
+        "label": "Pristinia",
+        "article": "pristinia",
+        "summary": "Prima’s growing settlement, first seen after a two-to-three-hour walk from the Gate and built through walls, food, farms, taverns, promises, and ordinary labor."
       }
     ],
     "swift-foot": [
@@ -17191,6 +17543,16 @@
         "label": "Pristinia Walls",
         "article": "pristinia-walls",
         "summary": "Pristinia’s defenses carry the history of shared construction, battle recovery, repair and continuing civic work."
+      },
+      {
+        "label": "Crustacean Cove",
+        "article": "crustacean-cove",
+        "summary": "The coastal wreck associated with Gael’s refugee arrival, distinct from the community sheltering near the Tower."
+      },
+      {
+        "label": "Gael Refugee Settlement",
+        "article": "gael-refugee-settlement",
+        "summary": "Refugees sheltering near the Tower, where emergency food and housing lead to questions about permanent homes and consultation."
       }
     ],
     "vaemyr": [
@@ -17770,6 +18132,31 @@
         "label": "Pristinia",
         "article": "pristinia",
         "summary": "Shelter and civic life beyond the threshold."
+      },
+      {
+        "label": "Farkur S. Gemblenagin",
+        "article": "farkur",
+        "summary": "A builder and organizer who turns hospitality, specialized labor, shared tools, and reliable funding into an institution meant to outlast any one adventurer."
+      },
+      {
+        "label": "Pappy",
+        "article": "pappy",
+        "summary": "A simple, good man placed inside conflicts where goodness does not guarantee safety or clear information."
+      },
+      {
+        "label": "Tobias Goodbarrel",
+        "article": "tobias",
+        "summary": "A halfling builder and main Ale-Chemy Knight who gives strangers safety, practical knowledge and the freedom to choose how they will belong."
+      },
+      {
+        "label": "Fredrick",
+        "article": "fredrick",
+        "summary": "An adventurer whose place in the grimoire’s custody history gives a seemingly unreadable possession consequences beyond his lifetime."
+      },
+      {
+        "label": "The Ale-Chemy Knights",
+        "article": "ale-chemy-knights",
+        "summary": "A self-funded adventuring cooperative and mutual-aid institution that turns different skills into logistics, equipment, infrastructure, newcomer support, public works, and reconstruction."
       }
     ],
     "tarwen-silver-star": [
@@ -17848,6 +18235,11 @@
         "label": "Ghilsen Hendrickson",
         "article": "ghilsen",
         "summary": "A formerly enslaved adventurer whose freedom, marriage and return from death remain personal histories rather than a completed heroic legend."
+      },
+      {
+        "label": "Rifts",
+        "article": "rifts",
+        "summary": "Tears into Fenumion from elsewhere, opened for things being summoned or trying to escape."
       }
     ],
     "adelia-hope": [
@@ -17860,6 +18252,11 @@
         "label": "Akarian Irenhour",
         "article": "akarian",
         "summary": "The Guardian of Gael carries grief into the work of passing Hope onward, testing responsibility as carefully as strength."
+      },
+      {
+        "label": "Rifts",
+        "article": "rifts",
+        "summary": "Tears into Fenumion from elsewhere, opened for things being summoned or trying to escape."
       }
     ],
     "gartina": [
@@ -17872,6 +18269,16 @@
         "label": "Quest Room Branches",
         "article": "quest-branches",
         "summary": "Rescue aftermath, investigations, negotiations and split-party encounters woven into the existing adventure histories."
+      },
+      {
+        "label": "Crustacean Cove",
+        "article": "crustacean-cove",
+        "summary": "The coastal wreck associated with Gael’s refugee arrival, distinct from the community sheltering near the Tower."
+      },
+      {
+        "label": "Gael Refugee Settlement",
+        "article": "gael-refugee-settlement",
+        "summary": "Refugees sheltering near the Tower, where emergency food and housing lead to questions about permanent homes and consultation."
       }
     ],
     "saray": [
@@ -17940,6 +18347,11 @@
         "label": "Míriel of the Emerald Veil",
         "article": "miriel-emerald-veil",
         "summary": "A keeper of knowledge whose research, hospitality and political choices reveal both the reach and the boundaries of Zarathian institutions."
+      },
+      {
+        "label": "Ciaránach",
+        "article": "ciaranach",
+        "summary": "A cloistered mountain city reached by pilgrimage from Zarathis, where the Golden Ones preserve truth and counsel Zarathian law."
       }
     ],
     "aria-pride": [
@@ -18805,6 +19217,16 @@
         "label": "Nymera",
         "article": "nymera",
         "summary": "A Cala devotee who finds purpose and relief in practical work, even while unsure what she wants beyond being useful."
+      },
+      {
+        "label": "Lady Severina Blackveil",
+        "article": "lady-severina",
+        "summary": "A commander whose authority grows through peer trust, practical protection and decisions that must answer to evidence."
+      },
+      {
+        "label": "Pappy",
+        "article": "pappy",
+        "summary": "A simple, good man placed inside conflicts where goodness does not guarantee safety or clear information."
       }
     ],
     "public-square": [
@@ -19056,6 +19478,11 @@
         "label": "Minerva",
         "article": "minerva",
         "summary": "A persistent investigator who turns inherited knowledge into field practice while testing how much risk research can ask others to bear."
+      },
+      {
+        "label": "Rifts",
+        "article": "rifts",
+        "summary": "Tears into Fenumion from elsewhere, opened for things being summoned or trying to escape."
       }
     ],
     "hawthorne": [
@@ -19568,6 +19995,11 @@
         "label": "Tobias Goodbarrel",
         "article": "tobias",
         "summary": "A halfling builder and main Ale-Chemy Knight who gives strangers safety, practical knowledge and the freedom to choose how they will belong."
+      },
+      {
+        "label": "The Gate",
+        "article": "gate-clearing",
+        "summary": "The threshold where strangers arrive, veterans offer shelter, and Fenumion’s war becomes personal."
       }
     ],
     "tshuka-hayim": [
@@ -19595,6 +20027,11 @@
         "label": "Pristinia Homes & Households",
         "article": "pristinia-housing",
         "summary": "Homes, shared households and the changing claims through which adventurers make a place for themselves."
+      },
+      {
+        "label": "Eovar Harbor",
+        "article": "eovar-harbor",
+        "summary": "A rough, walled harbor larger than Pristinia, where shipping, rebuilding, crime, and regional reputation meet—and where maritime life had nearly stopped by August 2026."
       }
     ],
     "casimir": [
@@ -19917,6 +20354,131 @@
         "article": "claim-review",
         "summary": "A focused review of consequential claims and unresolved transitions."
       }
+    ],
+    "rifts": [
+      {
+        "label": "Pristinia",
+        "article": "pristinia",
+        "summary": "Prima’s growing settlement, first seen after a two-to-three-hour walk from the Gate and built through walls, food, farms, taverns, promises, and ordinary labor."
+      },
+      {
+        "label": "Farkur S. Gemblenagin",
+        "article": "farkur",
+        "summary": "A builder and organizer who turns hospitality, specialized labor, shared tools, and reliable funding into an institution meant to outlast any one adventurer."
+      },
+      {
+        "label": "Djöhandrai",
+        "article": "djohandrai",
+        "summary": "Djo hides, stammers and loves a good meal—and keeps choosing to help people in danger."
+      },
+      {
+        "label": "Elenia",
+        "article": "elenia",
+        "summary": "Wonder becomes practice, practice becomes responsibility, and responsibility becomes the question of what one person should be allowed to do with divine-scale power."
+      },
+      {
+        "label": "Pappy",
+        "article": "pappy",
+        "summary": "A simple, good man placed inside conflicts where goodness does not guarantee safety or clear information."
+      },
+      {
+        "label": "Adelia & Hope",
+        "article": "adelia-hope",
+        "summary": "Love confronts loss through shadow, mercy and sacrifice. Bound to Hope and Gael, Adelia must still face the boundaries of protection."
+      }
+    ],
+    "eshnunna": [
+      {
+        "label": "Ciaránach",
+        "article": "ciaranach",
+        "summary": "A cloistered mountain city reached by pilgrimage from Zarathis, where the Golden Ones preserve truth and counsel Zarathian law."
+      },
+      {
+        "label": "Zarathis",
+        "article": "zarathis",
+        "summary": "The capital where Zarathian legitimacy becomes public: hierarchy, ceremony, cultural memory, gardens, and a political order in which truth matters but trust has history."
+      },
+      {
+        "label": "Fein Uaill",
+        "article": "fein-uaill",
+        "summary": "The wider Zarathian region: cities, estates, sacred sites, walls, libraries, and memorial landscapes gathered around a mortal claim to greatness."
+      }
+    ],
+    "crustacean-cove": [
+      {
+        "label": "Gael",
+        "article": "gael",
+        "summary": "A land where each generation inherits the work of keeping Death’s victory reversed: refuge, restoration, renewed loss and the choice to rebuild again."
+      },
+      {
+        "label": "The Tower of Gael",
+        "article": "tower-of-gael",
+        "summary": "The protected home of Gael’s explorers, where life under Nuru’s Eye grows into restoration research, refuge for displaced families and the work of rebuilding."
+      },
+      {
+        "label": "Gael Refugee Settlement",
+        "article": "gael-refugee-settlement",
+        "summary": "Refugees sheltering near the Tower, where emergency food and housing lead to questions about permanent homes and consultation."
+      },
+      {
+        "label": "Dale",
+        "article": "dale",
+        "summary": "Dale makes life inside catastrophe funny, familiar, and worth protecting; his simple loyalty gives ordinary affection the weight of history."
+      },
+      {
+        "label": "Gartina",
+        "article": "gartina",
+        "summary": "Gartina asks what it means to accept responsibility for something one does not own—and answers through attention, soil, food, consultation, and revision."
+      }
+    ],
+    "gael-refugee-settlement": [
+      {
+        "label": "Crustacean Cove",
+        "article": "crustacean-cove",
+        "summary": "The coastal wreck associated with Gael’s refugee arrival, distinct from the community sheltering near the Tower."
+      },
+      {
+        "label": "The Tower of Gael",
+        "article": "tower-of-gael",
+        "summary": "The protected home of Gael’s explorers, where life under Nuru’s Eye grows into restoration research, refuge for displaced families and the work of rebuilding."
+      },
+      {
+        "label": "Gael",
+        "article": "gael",
+        "summary": "A land where each generation inherits the work of keeping Death’s victory reversed: refuge, restoration, renewed loss and the choice to rebuild again."
+      },
+      {
+        "label": "Dale",
+        "article": "dale",
+        "summary": "Dale makes life inside catastrophe funny, familiar, and worth protecting; his simple loyalty gives ordinary affection the weight of history."
+      },
+      {
+        "label": "Gartina",
+        "article": "gartina",
+        "summary": "Gartina asks what it means to accept responsibility for something one does not own—and answers through attention, soil, food, consultation, and revision."
+      }
+    ],
+    "veiled-watch": [
+      {
+        "label": "Voraketh",
+        "article": "voraketh",
+        "summary": "An island where old divine protection has become, according to Physisia, a curse—and where surviving the Maw requires preserving evidence before the island can take it away."
+      },
+      {
+        "label": "St. Anky",
+        "article": "st-anky",
+        "summary": "A traveler and sharing knight who carries uncertainty, humor and practical care into the institutions he leaves behind."
+      },
+      {
+        "label": "Coralyn",
+        "article": "coralyn",
+        "summary": "A sea-minded explorer whose desire to unite people develops alongside a disciplined refusal to join mysteries before the evidence supports it."
+      },
+      {
+        "label": "Ithilrûnë Ailinor",
+        "article": "ithilrune",
+        "summary": "A researcher whose commitment to memory and independent judgment meets its hardest test when understanding itself fails."
+      }
     ]
   },
   "questEventConsequences": {
@@ -20075,7 +20637,16 @@
     "Rolen prepares the Archery Range for its opening": "The range becomes a place to make equipment and pass on skills; these scenes record preparations rather than a dated opening ceremony.",
     "Pristinia deliberates war in the Public Square": "Public deliberation leads to scouting and organized mobilization, without establishing unanimous agreement on every later policy.",
     "Severina dies during an Alpine Forest wolf encounter": "Later records show Severina active again. The forest export does not establish how she returned, so this is not her final recorded fate.",
-    "Camilla publicly dissolves the Hellknight Order": "The Order ends by public declaration. Camilla retains her commitments to law and confronting corruption, announces Voraketh as her destination and leaves the question of a successor institution open."
+    "Camilla publicly dissolves the Hellknight Order": "The Order ends by public declaration. Camilla retains her commitments to law and confronting corruption, announces Voraketh as her destination and leaves the question of a successor institution open.",
+    "A dreamlike rift remains unsealed": "The failed closure remains part of history. The warning establishes unresolved consequences, not proof of a particular later disaster. Source: primary rift-rp transcripts. Displayed source-post dates are not confirmed in-world dates.",
+    "A clockwork rift opens into hostile machinery": "The narrator records people leaving while a caged creature protests. Retreat is established; destruction of all machinery or a successful closure is not. The action instruction appears in Cecil’s post, rather than being misattributed as a direct narrator rule. Source: rift-rp-01.md; 1–2 April 2025 source posts.",
+    "An ooze rift closes with a larger threat beyond": "The encounter ends without establishing the destruction of the greater creature. Closing access and defeating everything beyond it are different outcomes. Source: primary rift-rp transcripts. Displayed source-post dates are not confirmed in-world dates.",
+    "Ritual evidence reveals a sustained breach": "The architect and wider connections remain unidentified; this evidence does not assign a creator to every rift. Source: primary rift-rp transcripts. Displayed source-post dates are not confirmed in-world dates.",
+    "A vast rift leads into a dark expanse": "The narrator concludes on the stated assumption that everyone left before it was too late. That assumption is preserved as stated, without inventing individual escape scenes. Source: rift-rp-01.md; 7 August 2026 source posts.",
+    "An abyssal rift becomes a crisis of allegiance": "The primary scene establishes this as the encounter in which Cthulhu arrives. Pappy’s extraction precedes the completed crossing. The separate rescue record retains the later distinction between observed events and the dispute about character knowledge. Source: rift-rp-01.md; 3–4 September UTC posts, corresponding to 3 September EDT.",
+    "A volcanic rift collapses after its crystal is destroyed": "The separate returns preserve the entry-point pattern despite Djöhandrai’s attempt to follow another traveler. This sequence does not establish a crystal anchor in every rift. Source: primary rift-rp transcripts. Displayed source-post dates are not confirmed in-world dates.",
+    "A coastal rift opens onto a battle from the sea": "The narrator establishes the immediate combat ending and return, rather than leaving the expedition’s outcome unknown. The scene does not establish the fate of all forces elsewhere beyond the breach. Source: rift-rp-02.md; 8 October 2026 UTC posts.",
+    "Cthulhu comes through a rift into Fenumion": "The creator confirms the identity and 3 September 2026 date. The narrator establishes the completed crossing and aftermath; The arrival posts at 02:31–02:37 UTC on 4 September correspond to 22:31–22:37 EDT on 3 September. Claims about the summoner’s motives or complete control remain claims; the god’s later campaigns are not established by this scene. Source: rift-rp-01.md."
   },
   "questTimelineAdditions": [
     {
@@ -28154,6 +28725,38 @@
     [
       "míriel-of-the-emerald-veil",
       "miriel-emerald-veil"
+    ],
+    [
+      "rift",
+      "rifts"
+    ],
+    [
+      "rift-phenomenon",
+      "rifts"
+    ],
+    [
+      "crustacean-cove-refugees",
+      "crustacean-cove"
+    ],
+    [
+      "refugee-settlement",
+      "gael-refugee-settlement"
+    ],
+    [
+      "the-veiled-watch",
+      "veiled-watch"
+    ],
+    [
+      "prima-gate",
+      "gate-clearing"
+    ],
+    [
+      "eshunna",
+      "eshnunna"
+    ],
+    [
+      "eshnunna-of-the-eternal-flame",
+      "eshnunna"
     ]
   ],
   "windowData": {
@@ -39365,6 +39968,11 @@
     "gael-campaign",
     "zarathis-campaign",
     "voraketh-campaign",
-    "claim-review"
+    "claim-review",
+    "eshnunna",
+    "crustacean-cove",
+    "gael-refugee-settlement",
+    "veiled-watch",
+    "rifts"
   ]
 }

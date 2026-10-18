@@ -1,0 +1,98 @@
+{
+  "id": "veiled-watch",
+  "title": "Veiled Watch",
+  "category": "Places",
+  "type": "Expedition planning and record context",
+  "dek": "Voraketh’s operational research context, where maps, shared theories and expedition plans precede Anky’s fatal encounter at the Binding Chains.",
+  "tags": [
+    "Voraketh",
+    "Veiled Watch",
+    "St. Anky",
+    "Expedition records",
+    "Unresolved history"
+  ],
+  "facts": {
+    "Region": "Voraketh",
+    "Role": "Planning, observations and departure records",
+    "Architecture": "No complete building or site plan established",
+    "Temple of Secrets": "Related repository; not automatically the same place",
+    "Final expedition": "Construct kills Anky and Alfred on 20 April 2026; Cerwin falls the following day"
+  },
+  "sources": [
+    "Voraketh_Veiled_Watch_Deep_Location_Dossier.md · supplied synthesis",
+    "Voraketh_Full_Codex_2026-09-25.md · recovered chronology; incomplete underlying sequence",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868"
+  ],
+  "body": "<p>The Veiled Watch is a named context for observation, discussion and expedition records in <a href=\"#voraketh\">Voraketh</a>. Its importance is not a recovered architectural plan. It is the work of turning partial knowledge into decisions about where to go and what to risk.</p><h2 id=\"watch-distributed-knowledge\">Shared knowledge before another departure</h2><p>The March 2026 account has <a href=\"#st-anky\">Anky</a> commission an angel-made map, leave scrolls at the Temple of Secrets and encourage collaborative theorizing in the Watch material. He does not want useful knowledge hoarded. A map makes observations comparable without proving that every later named landmark was already understood.</p><p>The Temple of Secrets and the Veiled Watch have related functions. The Temple preserves knowledge and shared resources; the Watch record concerns active preparation and departure. Their relationship does not establish that they are one building or supply an exact distance between them.</p><h2 id=\"watch-duty\">Duty amid personal loss</h2><p>Anky says Voraketh is costing him things in his mind and that he wants to leave. He also reports that Nuru asked him for a full account, which he treats as a reason to remain. The record preserves his testimony and commitment without using them to prove the island’s entire metaphysics.</p><h2 id=\"watch-final-departure\">Departure and the recovered fatal encounter</h2><p>In the April departure account, Anky sets aside a northern boat plan and proposes collecting motes as possible medicine for the goddess or tree. That is his hypothesis. He plans to use Portho’s Portal toward the furthest point he has reached, hoping to bypass guardians and suppressive conditions, and enters with Alfred Riverheart and Cerwin Rayolet.</p><p>The separate Wasteland scene supplies the fatal encounter. After escaping an earlier hostile creature, Anky and Alfred confront a different construct at the Binding Chains. Anky urges Alfred to flee; Alfred refuses to leave him. Explicit narration records the construct killing both on 20 April 2026 and throwing their bodies across the Chains. Cerwin falls the following day. Their later afterlife appearances follow these deaths; the mote theory is not established as a successful remedy.</p><h2 id=\"watch-inherited-uncertainty\">What later researchers inherit</h2><p>The wider record includes <a href=\"#coralyn\">Coralyn’s</a> insistence on separating evidence from tempting connections and <a href=\"#ithilrune\">Ithilrûnë’s</a> unresolved encounter with the Maw. These accounts do not settle every result of the expedition. Its fatal sequence is now recovered, while the Watch’s broader value still depends on keeping observations, proposed explanations and unanswered questions distinct.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "watch-distributed-knowledge",
+      "title": "Shared knowledge before another departure",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Veiled_Watch_Deep_Location_Dossier.md · supplied synthesis",
+          "Voraketh_Full_Codex_2026-09-25.md · recovered chronology; incomplete underlying sequence"
+        ]
+      }
+    },
+    {
+      "id": "watch-duty",
+      "title": "Duty amid personal loss",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Veiled_Watch_Deep_Location_Dossier.md · supplied synthesis",
+          "Voraketh_Full_Codex_2026-09-25.md · recovered chronology; incomplete underlying sequence"
+        ]
+      }
+    },
+    {
+      "id": "watch-final-departure",
+      "title": "Departure and the recovered fatal encounter",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Fatal outcome · original narration checked",
+        "summary": "Original Wasteland narration records the deaths separately from the earlier hostile creature and later afterlife appearances. Dates are UTC source postings. The proposed mote remedy remains a hypothesis.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868"
+        ]
+      }
+    },
+    {
+      "id": "watch-inherited-uncertainty",
+      "title": "What later researchers inherit",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Veiled_Watch_Deep_Location_Dossier.md · supplied synthesis",
+          "Voraketh_Full_Codex_2026-09-25.md · recovered chronology; incomplete underlying sequence"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Merged the reviewed upstream rift/location work from 9e466d4 into canonical records. Newer explicit Aria/Bowene decisions and recovered death scenes retain priority. Raw evidence remains external."
+  }
+}

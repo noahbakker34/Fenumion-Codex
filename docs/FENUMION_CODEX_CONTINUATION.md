@@ -847,3 +847,46 @@ Updated facts, openings, biographies, region/campaign prose, timeline, evidence 
 The owner supplied `Nienna-First-Death-and-Resurrection.md`, a private recovery packet containing primary scenes and embeds. Selected originals confirm Nienna’s death fighting soul eaters and wraiths on the Plains of Trial on 9 July 2024, Saray recovering her body, and Elenia’s **Raise Dead** on 15 July after Saray obtains a diamond through an altar offering. The spell log follows the roleplay awakening and records that same return. Intervening quest testimony corroborates the death and planned offering; no quest outcome is overwritten. Saray’s guilt and Nienna’s soul-struggle recollection retain attribution. September’s sacrifice stays distinct.
 
 Updated Nienna, Saray, Elenia, Tower/Gael/campaign narratives, claim/research cards and receipts, directory summary and timeline. Existing July bookmark retained and moved before the September narrative. 57 selected scene entries across 21 people; 572 records and 1,937 sections unchanged. App241; local and unpublished. Source hash, limits and verification: `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md`.
+
+## Gedankin header spacing · 14 October 2026
+
+Fixed the cramped reading header: reserve room for the full world title, constrain its text wrapper, keep the subtitle on one line, and use restrained system typography for the subtitle and search. Shortened the search placeholder to “Search Gedankin…”. Scoped to Gedankin; CSS16. Chrome checks at320/390/760/762/900/1100/1280/1440px confirm full title/subtitle, no header overlaps or page overflow, and working search. Desktop/mobile screenshots inspected. Publication pending.
+
+## Rifts public reference · 15 October 2026
+
+User defines rifts as extra-dimensional tears into Fenumion from elsewhere for things being summoned or trying to escape. Added public `rifts` under Guide → World phenomena, with aliases and reciprocal context links. Supplied synthesis contributes eight clearly labeled posting-date encounter summaries; missing dedicated raw exports not claimed as independently checked. Main quest narrator evidence corrects the “first” framing and prevents universal voluntary entry, guaranteed return or classification of every demiplane as a rift. Existing Pappy rescue, mist uncertainty and protected stubs preserved. See `RIFTS_REVIEW.md`. Rift-record1/app237. Syntax/diff checks and Chrome1440/390px checks passed for layout, unique IDs/headings, links, search, aliases/navigation, unchanged12 Blessings paths and protected empty bodies; screenshots inspected. Publication pending alongside prior Gedankin header fix.
+
+## Rift events and Cthulu arrival · 15 October 2026
+
+User authorizes encounter histories in Events and explicitly confirms Cthulu came through a rift. Added eight bounded encounter records with source-post chronology plus a separate undated Cthulu arrival (no inferred encounter/site/date/motive/outcome). Existing Pappy event retained. Nine linked event buttons on Rifts; Events search/dialogs and mobile layout verified, along with previous article checks. See RIFTS_REVIEW.md follow-up. Rift-record1/app237; publication pending with Rifts page and Gedankin header.
+
+Cthulu identity clarification: creator identifies him as the eldritch god. Applied to Rifts and arrival event, including search tags; no date or specific encounter inferred.
+
+Creator date confirmation · 15 October 2026: Cthulu’s arrival occurred on 3 September 2026 (user: 9/3/26). This supersedes the undated-arrival checkpoint above. Event moved into 2026 chronology; article/event list updated. Supplied abyssal account covers 3–4 September source posts but does not name Cthulu; primary dedicated scene still unavailable. Arrival site, motive and aftermath not invented.
+
+## Primary rift verification · 15 October 2026
+
+Actual rift-rp01/02 exports supplied; targeted primary checks confirm Cthulu/Cthulhu arrival and immediate aftermath in the abyssal encounter, with Pappy extracted first. Final posts04SeptUTC are03SeptEDT, matching creator date. Pappy event date-positioned without duplicating it or deciding governance. Coastal ending now includes Fenwick banishment and narrator return; clockwork retreat, ritual exits, dark-expanse assumption and object/harvest rule distinctions corrected. See RIFTS_REVIEW.md for primary anchors/checksums. Protected identities/private material omitted; raw exports remain outside Git. Rift-record1/app237; publication pending.
+
+## Rift code consolidation · 15 October 2026
+
+Rift-record2/app238 replaces incremental rift globals/body patches with one data bundle and one generated chronological event list. Canonical display spelling Cthulhu, user variant Cthulu searchable. Shared escaped event renderer reused on Vessalia and places. Source bundle immutable; title-based timeline registration and reciprocal links avoid duplicates. Old unresolved Pappy sort override removed in favor of the primary-backed correction. Consolidated RIFTS_REVIEW.md now records the current verified state. New scripts/check_rifts.cjs passes desktop/mobile regression checks; before/after checks preserve unrelated articles, chronology and protected stubs. Gedankin header remains verified. Publication pending.
+
+## Five deep location dossiers · 16 October 2026
+
+Expanded existing Pristinia civic procedure, Zarathis legitimacy/leadership, Eovar coastal institutions and the Scroll Library’s primary-backed research history. Ciaránach now distinguishes its named inner citadel Eshnunna from the separately supplied temple video; Eshnunna gains a public geography page from the existing directory row/image, parent corrected from generic Fein Uaill to Ciaránach by quest evidence. No new coordinates or duplicate library. Sacred revelations remain protected. Existing early wall quests, enacted-vs-proposed law, property ambiguity, harbor uncertainty and character outcomes retained. See FIVE_LOCATION_DOSSIER_REVIEW.md. Location-deep-records1/housing-library2/app239. Chrome desktop/mobile checks pass; snapshots preserve unrelated records/maps/timeline/media/protected stubs. Publication pending with rifts and Gedankin header.
+
+## Further location dossiers · 16 October 2026
+
+Cove and Veiled Watch gain standalone histories from existing directory entries; Tower-area refugee community gets a distinct descriptive/unmapped record. Gate hospitality expands only `gate-clearing`; protected `the-gate` unchanged. Walls preserve earlier quests/Farkur planning while adding attributed order/protection/autonomy debate. Larkhollow retains later market/forest history and adds narrator unsafe-travel limit; repeated Library dossier is checksum-identical and unchanged. Common newPlaces metadata now registers these records and prior Eshnunna, with no new coordinates. See SECOND_LOCATION_DOSSIER_REVIEW.md. Location-deep-records2/app240; Chrome eight-route desktop/mobile checks pass, snapshots preserve existing timeline/maps/media/protected/unrelated records. Publication pending with prior batches.
+
+## Authorized consolidated publication · 18 October 2026
+
+User authorizes publishing all pending work: primary-checked rift reference/events and Cthulhu arrival, shared event renderer, both location dossier batches and the Gedankin header fix. App240/rift-record2/location-deep-records2/housing-library2/Gedankin CSS16. This supersedes pending-publication checkpoints above. Quest authority, protected lore, source media and map coordinates retained; raw transcripts excluded.
+
+
+## Combined publication candidate · 18 October 2026
+
+Owner explicitly requests publication. Release branch `codex/publish-reader-evidence` merges newer published commit `9e466d4` rather than replacing its rift/location/header work. Nine rift events, five additional canonical records (Rifts and four locations), seven location updates and the expanded Scroll Library are carried into the canonical model; Gedankin’s header fix is preserved. Shared escaped event rendering is retained; legacy patch modules are retired after porting their data. Old library section bookmarks survive as in-section anchors. The Watch’s formerly missing fatal sequence and Zarathis leadership wording follow this chat’s newer checked evidence and explicit clarifications. The old-spellbook account is not assigned an unsupported date relative to Anky’s final expedition.
+
+Combined candidate: 577 records, 1,966 sections, 57 scene entries across 21 people, 29 claim reviews and 23 research questions. App/catalog242, reader2. Content validation, deterministic build, JavaScript syntax, whitespace and all three reader/research/rift suites pass. The Pages package remains below 1 GB; original media bytes and protected empty public stubs are preserved. Deployment result will be verified against the release file hashes after pushing. This candidate note supersedes earlier local/unpublished checkpoint counts without erasing their history.

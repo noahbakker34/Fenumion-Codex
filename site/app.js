@@ -485,6 +485,17 @@ function normalizePlaceName(value = "") {
     .toLocaleLowerCase();
 }
 
+function renderTimelineEventList(events) {
+  return `<ol class="location-timeline-list">${events.map(event => `<li>
+      <button type="button" class="location-timeline-event" data-timeline-title="${escapeHtml(event.title)}">
+        <span class="location-timeline-date">${escapeHtml(event.meta)}</span>
+        <strong>${escapeHtml(event.title)}</strong>
+        <span>${escapeHtml(event.summary)}</span>
+        <small>${escapeHtml(event.kind)} · Open detailed record <b aria-hidden="true">→</b></small>
+      </button>
+    </li>`).join('')}</ol>`;
+}
+
 function renderLocationTimeline(article) {
   if (!isLocationArticle(article)) return "";
   const timelineItems = locationTimelineItems(article);
@@ -492,15 +503,7 @@ function renderLocationTimeline(article) {
     ? `<p class="location-timeline-note"><span aria-hidden="true">◆</span> Protected ancient records remain veiled in player-safe view.</p>`
     : "";
   const events = timelineItems.length
-    ? `<ol class="location-timeline-list">${timelineItems.map(item => `
-        <li>
-          <button type="button" class="location-timeline-event" data-timeline-title="${escapeHtml(item.title)}">
-            <span class="location-timeline-date">${escapeHtml(item.meta)}</span>
-            <strong>${escapeHtml(item.title)}</strong>
-            <span>${escapeHtml(item.summary)}</span>
-            <small>${escapeHtml(item.kind)} · Open detailed record <b aria-hidden="true">→</b></small>
-          </button>
-        </li>`).join("")}</ol>`
+    ? renderTimelineEventList(timelineItems)
     : `<div class="timeline-empty location-timeline-empty"><strong>No dated events recovered for this place.</strong><span>The location remains indexed, and its chronology will appear here as new primary-source evidence is added.</span></div>`;
   return `
     <section class="location-history-timeline" aria-labelledby="location-timeline-${escapeHtml(article.id)}">

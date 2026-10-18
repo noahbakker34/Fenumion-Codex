@@ -63,6 +63,7 @@ jobs:
         run: |
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_reader.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_research_journeys.cjs
+          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_rifts.cjs
   deploy:
     if: github.event_name != 'pull_request'
     needs: [validate, reader]

@@ -1,0 +1,70 @@
+{
+  "id": "eshnunna",
+  "title": "Eshnunna of the Eternal Flame",
+  "category": "Places",
+  "type": "Ciaránach · inner sanctuary",
+  "dek": "The inner citadel reached beyond Ciaránach’s streets, with a distinct threshold within the pilgrimage.",
+  "tags": [
+    "Eshnunna",
+    "Eshunna",
+    "Eternal Flame",
+    "Ciaránach",
+    "Sanctuary"
+  ],
+  "facts": {
+    "Region": "Fein Uaill",
+    "Parent": "Ciaránach",
+    "Role": "Inner citadel and sanctuary",
+    "Approach": "Further ascent within the pilgrimage",
+    "Access": "Restricted; not a public reading room"
+  },
+  "sources": [
+    "Ciaranach_and_Eshnunna_Deep_Location_Dossier.md · supplied synthesis",
+    "Complete quest-rp export · pilgrimage approach and named citadel, September 2025",
+    "Previously reviewed location media · Eshnunna inner sanctum"
+  ],
+  "image": "assets/locations/discord/ddc6bed9740f880b072831523178b6733a8a7ca6e3ffed442bc9e704b1598e42.webp",
+  "imageAlt": "The preserved visual record of Eshnunna’s inner sanctum",
+  "imageCaption": "Eshnunna of the Eternal Flame — previously reviewed location artwork.",
+  "body": "<p>Eshnunna is the inner sanctuary encountered during the pilgrimage into <a href=\"#ciaranach\">Ciaránach</a>. The narrator identifies the citadel after a further climb through the city’s quiet streets, then describes another threshold: the holy of holies, Eshnunna of the Eternal Flame.</p><h2 id=\"eshnunna-within-city\">An inner place, not a second capital</h2><p>The journey begins at <a href=\"#zarathis\">Zarathis</a>, ascends the holy road and enters Ciaránach before reaching Eshnunna. The named sanctuary therefore has its own identity within the holy city. It is not the whole of Ciaránach, a new name for Zarathis, or a separately mapped settlement.</p><p>Earlier regional references also associate the holy place with Seraphis. That association does not relocate the pilgrimage’s explicitly narrated approach or establish that Seraphis and Ciaránach are interchangeable. A full plan of the sacred geography remains unavailable.</p><h2 id=\"eshnunna-threshold\">The threshold and its limits</h2><p>Access is part of the pilgrimage’s permission-bound encounter with sacred knowledge. Reaching a named sanctuary is distinct from having unrestricted access to everything its custodians preserve. The Golden Ones’ claims and visitors’ interpretations do not become universal truth merely because they are spoken here.</p><p>The public location record preserves the name, approach and relationship to Ciaránach. The inner revelations remain protected. The Eternal Flame’s exact nature, a complete floor plan, routine access arrangements and the sanctuary’s full custodial history are not supplied by its name or artwork.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "eshnunna-within-city",
+      "title": "An inner place, not a second capital",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Ciaranach_and_Eshnunna_Deep_Location_Dossier.md · supplied synthesis",
+          "Complete quest-rp export · pilgrimage approach and named citadel, September 2025",
+          "Previously reviewed location media · Eshnunna inner sanctum"
+        ]
+      }
+    },
+    {
+      "id": "eshnunna-threshold",
+      "title": "The threshold and its limits",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Ciaranach_and_Eshnunna_Deep_Location_Dossier.md · supplied synthesis",
+          "Complete quest-rp export · pilgrimage approach and named citadel, September 2025",
+          "Previously reviewed location media · Eshnunna inner sanctum"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Merged the reviewed upstream rift/location work from 9e466d4 into canonical records. Newer explicit Aria/Bowene decisions and recovered death scenes retain priority. Raw evidence remains external."
+  }
+}

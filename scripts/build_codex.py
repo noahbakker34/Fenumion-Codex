@@ -27,7 +27,7 @@ def build():
   if r['protected']:assert not r.get('body'), 'Protected body in public content: '+r['id']
   body=r.get('body','')
   payload={k:r[k] for k in ['body','sections','brief','sources','relationshipMap','profile'] if k in r}
-  
+
   for section in payload.get('sections',[]):
    evidence=section['evidence']; evidence['sources']=[payload.get('sources',[]).index(source) if source in payload.get('sources',[]) else source for source in evidence.get('sources',[])]
   encoded=compact(payload); digest=hashlib.sha256(encoded.encode()).hexdigest()[:16]

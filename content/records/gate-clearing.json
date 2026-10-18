@@ -11,18 +11,22 @@
     "Pristinia",
     "Neemah",
     "Arrivals",
-    "Welcome"
+    "Welcome",
+    "Friendly Guides and Grub",
+    "Newcomer support"
   ],
   "facts": {
     "Region": "Prima",
     "Setting": "Woodland clearing on the road to Pristinia",
     "Role": "Arrivals, guidance and watch",
-    "Mechanism": "Observed activation; full operation unresolved"
+    "Mechanism": "Observed activation; full operation unresolved",
+    "Welcome network": "Guides, food, maps and transport; developed over time"
   },
   "sources": [
-    "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
+    "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)",
+    "Prima_Gate_Deep_Location_Dossier.md · public hospitality history; Tobias/Fredrick welcome checked in the Gate export"
   ],
-  "body": "<h2 id=\"gate-threshold\">A threshold among the trees</h2><p>The Gate stands in an old forest clearing, its stonework weathered and encroached upon by vines. Activations bring light, a rising hum and sometimes the grinding of stone; newcomers can emerge disoriented or fall onto the dais. A road leads toward Pristinia, where food, lodging and an explanation can be found.</p><h2 id=\"gate-welcome\">Who answers an arrival</h2><p>The welcome depends on the people who come. <a href=\"#neemah\">Neemah</a> offers a purpose wider than fighting. Arjahn checks Animak for injury, Vaemyr reassures Dorian, and Kasiri and Krasteline help Fenwick to his feet. Their accounts of why the Gate calls people are attributed explanations, rather than proof of identical circumstances for every traveller.</p><h2 id=\"gate-investigation\">An ancient mechanism, incompletely understood</h2><p>During Kasiri and Krasteline’s examination, the Gate is identified as ancient teleportation magic. No internal source of power is discernible, its runes are unfamiliar, and its moving parts exceed what they can catalogue in one sitting. The observation establishes the limits of that investigation; it does not make the mechanism powerless or fully understood.</p><h2 id=\"gate-service\">Making the welcome practical</h2><p>Farkur speaks of a future caravan offering ale, meals, maps and local advice, and escorts new arrivals toward town. The proposal is part of the developing <a href=\"#ale-chemy-knights\">Ale-Chemy welcome system</a>; its announcement alone does not prove every promised service already exists. Pappy’s coffee and Eldin’s directions to Herb show that welcome also happens through small, immediate acts.</p><h2 id=\"gate-danger\">Arrival during the siege</h2><p>In the account posted on 31 May 2025, newcomers find smoke and falling ash, while Pristinia is visibly under siege. Navi, Cerwin, Alfred and the newly arrived Mei face armed figures near the route. The initial encounter is followed by further danger; it does not establish a permanently secured road or a complete enemy identification.</p><h2 id=\"gate-patrol\">A watch under threat</h2><p>On 21 June, Aravil reaches Icarus before a Rahu search party. He becomes an ordinary chicken, the soldiers overlook him, and the two avoid a battle. The patrol’s commander remarks that the bell was not rung. That establishes a signal people expect to hear, without explaining its installation or guaranteeing rescue.</p><h2 id=\"gate-continuity\">The newcomer becomes a guide</h2><p>Vessalia arrives to Nébula’s welcome in August 2026. By the September encounter with Star, she is offering the guidance she once needed: directions, shelter, warnings and an appeal to protect the people around her. Star accepts the work while refusing an unsupported conclusion about the fate of her old home. The Gate keeps producing choices after the crossing itself.</p>",
+  "body": "<h2 id=\"gate-threshold\">A threshold among the trees</h2><p>The Gate stands in an old forest clearing, its stonework weathered and encroached upon by vines. Activations bring light, a rising hum and sometimes the grinding of stone; newcomers can emerge disoriented or fall onto the dais. A road leads toward Pristinia, where food, lodging and an explanation can be found.</p><h2 id=\"gate-welcome\">Who answers an arrival</h2><p>The welcome depends on the people who come. <a href=\"#neemah\">Neemah</a> offers a purpose wider than fighting. Arjahn checks Animak for injury, Vaemyr reassures Dorian, and Kasiri and Krasteline help Fenwick to his feet. Their accounts of why the Gate calls people are attributed explanations, rather than proof of identical circumstances for every traveller.</p><h2 id=\"gate-investigation\">An ancient mechanism, incompletely understood</h2><p>During Kasiri and Krasteline’s examination, the Gate is identified as ancient teleportation magic. No internal source of power is discernible, its runes are unfamiliar, and its moving parts exceed what they can catalogue in one sitting. The observation establishes the limits of that investigation; it does not make the mechanism powerless or fully understood.</p><h2 id=\"gate-service\">Making the welcome practical</h2><p>Farkur speaks of a future caravan offering ale, meals, maps and local advice, and escorts new arrivals toward town. The proposal is part of the developing <a href=\"#ale-chemy-knights\">Ale-Chemy welcome system</a>; its announcement alone does not prove every promised service already exists. Pappy’s coffee and Eldin’s directions to Herb show that welcome also happens through small, immediate acts.</p><h2 id=\"gate-danger\">Arrival during the siege</h2><p>In the account posted on 31 May 2025, newcomers find smoke and falling ash, while Pristinia is visibly under siege. Navi, Cerwin, Alfred and the newly arrived Mei face armed figures near the route. The initial encounter is followed by further danger; it does not establish a permanently secured road or a complete enemy identification.</p><h2 id=\"gate-patrol\">A watch under threat</h2><p>On 21 June, Aravil reaches Icarus before a Rahu search party. He becomes an ordinary chicken, the soldiers overlook him, and the two avoid a battle. The patrol’s commander remarks that the bell was not rung. That establishes a signal people expect to hear, without explaining its installation or guaranteeing rescue.</p><h2 id=\"gate-continuity\">The newcomer becomes a guide</h2><p>Vessalia arrives to Nébula’s welcome in August 2026. By the September encounter with Star, she is offering the guidance she once needed: directions, shelter, warnings and an appeal to protect the people around her. Star accepts the work while refusing an unsupported conclusion about the fate of her old home. The Gate keeps producing choices after the crossing itself.</p><h2 id=\"gate-commerce-and-permission\">Commerce, welcome and permission</h2><p>The November 2024 account of Farkur’s Friendly Guides and Grub begins as an entrepreneurial proposal: meet newcomers with maps, meals, ale, advice and eventually transport. Farkur says he has advertised near the Gate. This is a precursor to the later <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a> support network, not proof that every service existed from the start or that the Knights built or own the Gate.</p><p><a href=\"#pappy\">Pappy</a> challenges the casual use of the surrounding ground. He asks whether permission was sought from its spirits and describes the place as old, powerful and spiritually guarded. These are his beliefs and testimony, not a narrator’s complete explanation of the Gate’s origins or guardians.</p><h2 id=\"gate-tobias-fredrick\">Hospitality put into practice</h2><p>In the February 2025 arrival record, <a href=\"#tobias\">Tobias</a> answers the bell and meets a disoriented <a href=\"#fredrick\">Fredrick</a>. He offers rest and food, hands over an island map, explains the surrounding settlements and work, and escorts him toward Pristinia. Near town he gives Fredrick fifty gold to help him establish himself.</p><p>The concrete help matters apart from any later promise of membership. Fredrick is offered a way to begin an independent life; the scene does not by itself complete his recruitment or guarantee that every newcomer receives the same package. Other records saying someone arrived on Prima are not automatically this exact clearing or encounter.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
@@ -123,6 +127,38 @@
           "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
         ]
       }
+    },
+    {
+      "id": "gate-commerce-and-permission",
+      "title": "Commerce, welcome and permission",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "section",
+        "sources": [
+          "Prima_Gate_Deep_Location_Dossier.md · public hospitality history; Tobias/Fredrick welcome checked in the Gate export"
+        ]
+      }
+    },
+    {
+      "id": "gate-tobias-fredrick",
+      "title": "Hospitality put into practice",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "section",
+        "sources": [
+          "Prima_Gate_Deep_Location_Dossier.md · public hospitality history; Tobias/Fredrick welcome checked in the Gate export"
+        ]
+      }
     }
-  ]
+  ],
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Merged the reviewed upstream rift/location work from 9e466d4 into canonical records. Newer explicit Aria/Bowene decisions and recovered death scenes retain priority. Raw evidence remains external."
+  }
 }

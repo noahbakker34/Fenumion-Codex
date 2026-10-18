@@ -1,0 +1,80 @@
+{
+  "id": "gael-refugee-settlement",
+  "title": "Gael Refugee Settlement",
+  "category": "Places",
+  "type": "Tower-area settlement history",
+  "dek": "Refugees sheltering near the Tower, where emergency food and housing lead to questions about permanent homes and consultation.",
+  "tags": [
+    "Gael",
+    "Refugees",
+    "Tower of Gael",
+    "Dale",
+    "Gartina",
+    "Housing"
+  ],
+  "facts": {
+    "Location": "Around the Tower of Gael",
+    "Name": "Descriptive history label; no formal town name established",
+    "Early shelter": "Huts, shacks and occasional magical accommodation",
+    "Longhouse": "Proposed; completion unestablished",
+    "Government": "Not established in this account"
+  },
+  "sources": [
+    "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
+    "GAEL_RP.md · 24 February 2025 care and planning scene"
+  ],
+  "body": "<p>The refugees associated with the shipwreck near <a href=\"#crustacean-cove\">Crustacean Cove</a> live around the <a href=\"#tower-of-gael\">Tower of Gael</a> in the recovered February 2025 scene. Huts, shacks and occasional magical accommodation meet immediate needs without establishing a permanent town plan. The surviving account does not establish a formal town name for the community.</p><h2 id=\"refugees-food\">Care requires equipment as well as intention</h2><p><a href=\"#gartina\">Gartina</a> worries that people feel forgotten and prepares chicken noodle soup with <a href=\"#dale\">Dale</a>. When they realize serving equipment is missing, he goes to the Altar and requests four hundred gold pieces’ worth of bowls and utensils, brings them back and hands out spoons as she portions the soup.</p><p>The post records equipment valued at that amount and the action of obtaining it. It does not independently establish a shop purchase or a separate cash payment. Feeding people involves tools, serving and sustained attention as well as food.</p><h2 id=\"refugees-planning\">From emergency shelter to consultation</h2><p>Dale proposes using the wreck’s timber for a longhouse if the ship cannot be repaired. Gartina considers possible materials from Draygar or scouting stone and metal on the Plains. These are possibilities, not completed procurement or construction.</p><p>Dale then asks whether anyone has spoken with the refugees about leadership and settlement plans. Gartina says she has been focused on immediate help and has not had the chance to visit properly. The exchange recognizes that consultation is needed; it does not provide the refugees’ consent, elected leaders or a finished agreement.</p><h2 id=\"refugees-existing-restoration\">Life after victory remains work</h2><p>Wrath’s defeat has not cleared every danger from Gael. The conversation still treats fiendish stragglers as a problem, while Hope, Stake and the new Shadowangel Forest already exist. Later restoration must be read as building on that earlier living foothold.</p><p>The community’s subsequent housing, leadership and longhouse outcome remain open. Existing histories of the Tower and Gael preserve later development without making Dale or Gartina its rulers or moving the settlement to the Cove.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "refugees-food",
+      "title": "Care requires equipment as well as intention",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
+          "GAEL_RP.md · 24 February 2025 care and planning scene"
+        ]
+      }
+    },
+    {
+      "id": "refugees-planning",
+      "title": "From emergency shelter to consultation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
+          "GAEL_RP.md · 24 February 2025 care and planning scene"
+        ]
+      }
+    },
+    {
+      "id": "refugees-existing-restoration",
+      "title": "Life after victory remains work",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
+          "GAEL_RP.md · 24 February 2025 care and planning scene"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Merged the reviewed upstream rift/location work from 9e466d4 into canonical records. Newer explicit Aria/Bowene decisions and recovered death scenes retain priority. Raw evidence remains external."
+  }
+}

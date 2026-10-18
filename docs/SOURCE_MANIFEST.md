@@ -358,3 +358,19 @@ Thirty-two inherited missing article lists now have scoped references in `conten
 - **People/region:** Nienna, Saray, Elenia, Nuru’s messenger; Plains of Trial and Tower of Gael.
 - **Evidence:** Explicit death and body recovery on 9 July 2024; altar offering producing the diamond; Elenia’s named Raise Dead and Nienna’s awakening on 15 July. Intervening main quest testimony supports the death and planned offering. The delayed spell embed records the same resurrection. Saray’s guilt and Nienna’s soul-struggle recollection remain attributed; an OOC rule excerpt is not a permanent-consumption outcome.
 - **Processed into:** Existing Nienna, Saray, Elenia, Tower, Gael and campaign records; scene/claim/research ledgers and their public passages; directory summary and timeline. September Hallowing remains distinct. Full scope and receipts: `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md`. Local and unpublished, app241.
+
+## Rifts reference · 15 October 2026
+
+`fenumion-rifts.md` (supplied synthesis; SHA-256 `9f6c6a31472505e23b32cdc2513395c4415845f4b71e9be6d585115a3c36d0a8`) plus explicit user canon definition. Quest cross-check limits the “first” claim, voluntary entry and universal passage mechanics. See `RIFTS_REVIEW.md`; raw referenced rift exports unavailable and not imported.
+
+## Primary rift exports · 15 October 2026
+
+`rift-rp-01.md` and `rift-rp-02.md` supplied from the Bot Reader export, 3,868 unique messages. Targeted encounter and ruling verification supersedes missing-source limits of the earlier synthesis. Checksums and message anchors in `RIFTS_REVIEW.md`; raw transcripts/private index/attachments not committed.
+
+## Five deep location dossiers · 16 October 2026
+
+Pristinia, City of Zarathis, Eovar Harbor, Pristinia Scroll Library, and Ciaranach/Eshnunna supplied location syntheses. Source identities, primary quest/library anchors and conflict dispositions in `FIVE_LOCATION_DOSSIER_REVIEW.md`. Public geography/civic history only; raw transcripts and protected revelations excluded.
+
+## Further location dossiers · 16 October 2026
+
+Cove/refugee settlement, Larkhollow, Prima Gate, Walls and Veiled Watch integrated or reconciled against existing histories. Repeated Scroll Library file checksum-identical; no duplicate. See `SECOND_LOCATION_DOSSIER_REVIEW.md` for hashes, primary anchors and limits. No raw transcripts imported.

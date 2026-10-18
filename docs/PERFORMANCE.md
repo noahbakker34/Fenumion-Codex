@@ -59,3 +59,10 @@ Final local Fenwick entry comparison: initial scripts/data 2,885,109 → 1,147,6
 Canonical content is built by `scripts/build_codex.py` into a catalog, hashed article bodies and deferred section search. A cold visit loads the requested subject. Catalog matches are immediately usable while the search index loads; the interface labels the incomplete search. Full-index completion clears the normalized caches and reruns only the latest query. Errors preserve catalog results; canceled queries stay canceled.
 
 A controlled, cold 390px mobile diagnostic (reduced motion, 150ms latency, 200KiB/s, CPU ×4, cache disabled) compared gzip preview with the live older build: initial script/CSS/article-data encoded bodies were 329,991 versus 804,664 bytes; heading availability 5.78s versus 10.72s in one run each. First result/full-text readiness were 0.17s/5.57s locally versus 0.29s/0.31s in production, which loads its text upfront. Subsequent searches were about 50/36ms. These are diagnostic observations, not repeatable field percentiles or a promised speedup. Host/delivery conditions differ. Media/fonts are outside byte totals. Full methodology and tradeoff table: `SIX_PART_EVIDENCE_AND_READER_PASS.md`.
+
+
+## Rift and event-list consolidation · 15 October 2026
+
+App238/rift-record2 keeps the primary-checked rift article, event histories and date correction in one bundle. The article’s chronology is generated from the same events used by Events, removing duplicate prose and runtime body patches. One escaped event-card renderer is shared with Vessalia and place histories. A title lookup registers timeline updates without repeated linear event scans; existing records/reciprocal links are not duplicated, and source data stays immutable. This is a code/data consolidation, not a measured loading-speed claim.
+
+`check_rifts.cjs` verifies chronology, both name spellings, nine dialogs, article/place links, text escaping and protected boundaries at1440/390px. Before/after comparison preserves unrelated histories and all protected stubs. Pending Gedankin header checked separately at eight widths.

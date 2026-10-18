@@ -1,0 +1,69 @@
+{
+  "id": "crustacean-cove",
+  "title": "Crustacean Cove",
+  "category": "Places",
+  "type": "Coastal cove and shipwreck history",
+  "dek": "The coastal wreck associated with Gael’s refugee arrival, distinct from the community sheltering near the Tower.",
+  "tags": [
+    "Gael",
+    "Crustacean Cove",
+    "Shipwreck",
+    "Salvage",
+    "Refugees"
+  ],
+  "facts": {
+    "Region": "Gael",
+    "Relationship": "Crash site linked to the Tower-area refugee community",
+    "Wreck": "Repair and salvage condition unresolved",
+    "Settlement": "Around the Tower, not automatically at the Cove"
+  },
+  "sources": [
+    "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
+    "GAEL_RP.md · Gartina and Dale, 24 February 2025 source posts",
+    "Previously reviewed Crustacean Cove opening artwork"
+  ],
+  "image": "assets/locations/discord/f05baf1527b792a1f7788f411a3113824db47a00c747d4adee4700f2cf124efa.webp",
+  "imageAlt": "The preserved coastal setting of Crustacean Cove",
+  "imageCaption": "Crustacean Cove — previously reviewed coastal location artwork.",
+  "body": "<p>Crustacean Cove is a coastal location in <a href=\"#gael\">Gael</a> associated with a shipwreck and the arrival of refugees. Gartina’s February 2025 account says their ship crashed near the Cove. The people subsequently sheltering around the <a href=\"#tower-of-gael\">Tower</a> and the wreck on the coast are related parts of that history, not one established physical site.</p><h2 id=\"cove-wreck\">A wreck as a possible resource</h2><p><a href=\"#dale\">Dale</a> proposes salvaging timber for a longhouse if the ship is beyond repair. <a href=\"#gartina\">Gartina</a> supports considering the idea but does not know what the tide has done to the remains. A proposal to reuse the vessel is not evidence that it was inspected, declared irreparable or successfully dismantled.</p><p>The plan connects coastal wreckage to the <a href=\"#gael-refugee-settlement\">refugee community near the Tower</a>. Material might become shelter, but the people affected have yet to be consulted at this point in the conversation. Neither Dale nor Gartina acquires authority over them by proposing help.</p><h2 id=\"cove-separate-geography\">A cove with more than one history</h2><p>The Cove also belongs to Gael’s wider coastal and underwater exploration record. Its setting image does not establish a complete underwater plan or identify every submerged structure. The refugee ship’s route, the detailed crash sequence and the Cove’s history before that arrival remain incompletely recovered.</p><p>No completed longhouse, final salvage operation or permanent refugee government is established by this account. The wreck’s importance lies in the concrete problem it presents: whether a failed passage can supply material for a community’s future.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "cove-wreck",
+      "title": "A wreck as a possible resource",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
+          "GAEL_RP.md · Gartina and Dale, 24 February 2025 source posts",
+          "Previously reviewed Crustacean Cove opening artwork"
+        ]
+      }
+    },
+    {
+      "id": "cove-separate-geography",
+      "title": "A cove with more than one history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Reviewed history · claims attributed",
+        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
+        "scope": "article",
+        "sources": [
+          "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
+          "GAEL_RP.md · Gartina and Dale, 24 February 2025 source posts",
+          "Previously reviewed Crustacean Cove opening artwork"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Merged the reviewed upstream rift/location work from 9e466d4 into canonical records. Newer explicit Aria/Bowene decisions and recovered death scenes retain priority. Raw evidence remains external."
+  }
+}

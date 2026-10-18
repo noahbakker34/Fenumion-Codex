@@ -1,0 +1,141 @@
+{
+  "id": "ada-town-chronicler",
+  "title": "Ada",
+  "category": "People",
+  "type": "NPC · town chronicler of Pristinia",
+  "dek": "Pristinia’s civic chronicler, preserving how ordinary people understood adventurers, crises, factions, departures, rebuilding, and the legends forming around them.",
+  "tags": [
+    "Ada",
+    "Town chronicler",
+    "Pristinia",
+    "Public memory",
+    "Reputation",
+    "Contemporary chronicle"
+  ],
+  "facts": {
+    "Role": "Town chronicler",
+    "Primary base": "Pristinia · Prima",
+    "Recovered activity": "Apr 2024 – Sep 2026",
+    "Best evidence for": "Public reputation · civic mood · contemporary memory",
+    "Reliability boundary": "Variable for private motives, exact mechanics, rumors, and distant events",
+    "Canon status": "Attributed secondary source"
+  },
+  "sources": [
+    "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — article ledger, source classification, civic-memory synthesis, and editorial boundaries",
+    "Ada’s recovered town chronicles — Apr 2024 through Sep 2026"
+  ],
+  "body": "<p>Ada is Pristinia’s town chronicler: a civilian writer concerned with the people passing through the settlement, the reputations they acquire, the institutions they build, the absences they leave behind, and the emotional weather of a town learning to survive. The chronicles are not an objective transcript of Fenumion. They are evidence of what Fenumion’s people believed was happening around them.</p>\n    \n    <h2 id=\"ada-work\">What a town chronicler preserves</h2>\n    <p>Quest scenes preserve action, dialogue, combat, immediate decisions, and what participants could observe. Ada preserves a different layer: who had become publicly important, which traits people repeated about them, how factions changed ordinary life, which losses made taverns and marketplaces feel emptier, and when a capable adventurer crossed the uncertain boundary into local legend.</p>\n    <p>This distinction lets the Codex hold several histories at once: what happened; what participants said happened; what Pristinia believed happened; and what later evidence made of it. Public memory may be incomplete without being historically useless.</p>\n    <h2 id=\"ada-early-voice\">2024 · remarkable people in a young town</h2>\n    <p>Ada’s earliest recovered writing is intimate and celebratory. Gartina is remembered through baking, healing, farming, and community; Quake through defense, militia, and sacrifice; Adelia through shadow, Jiangshi, grief, and defiance of death; Jako Lantern, Saray, Alyhotep, Tricks, Swift Foot, Olokun, Arjahn, and Vaemyr through the qualities by which Pristinia first learned their names.</p>\n    <p>The 5 May tribute to the original Vanguard records not merely a roster but an absence: quieter taverns, a changed marketplace, missing guardians, and the vulnerability left when familiar protectors departed. That civic memory later gives the New Vanguard—and eventually the <a href=\"#veilguard\">Veilguard</a>—a cultural inheritance without proving that every person Ada associated with the tradition held formal membership.</p>\n    <h2 id=\"ada-institutions\">Late 2024–2025 · people become institutions</h2>\n    <p>As Pristinia changes, Ada’s subject changes with it. Farkur and Pappy become part of the Gate’s culture of arrival and orientation. The Ale-Chemy Knights, Pappy’s Family, and Vital Chain mark a turn from heroic individuals toward organizations capable of preserving work beyond one person. Fenwick’s public identity joins healing to Eovar’s civic renewal, while Carmen’s reputation captures the gap between loudly performed selfishness and repeated reluctant responsibility.</p>\n    <p>Ada’s 6 April 2025 account of Magnus, Dez, and Brianna preserves an essential before-state: Magnus entered public memory as a promising and ambitious new adventurer, not an obvious enemy. That contemporary reputation makes later allegiance, betrayal, and violence historical change rather than a trait retroactively projected onto his arrival.</p>\n    <h2 id=\"ada-crisis\">The Rahu War · the chronicler becomes a witness to fear</h2>\n    <p>By 8 May 2025, Ada’s writing has become a crisis chronicle. Pristinia may fall; absent heroes are invoked because the town feels their absence; factionalism, greed, and despair become civic facts; and Melian Starguard appears as a visible organizer of resistance. The voice that once introduced remarkable newcomers now asks whether the settlement will survive.</p>\n    <p>After the siege, Ada names Elenia the <strong>Savior of Pristinia</strong>. The title establishes civic reputation even where poetic descriptions cannot establish exact magical mechanics. Elenia became part of how the town explained its own survival.</p>\n    <h2 id=\"ada-memory\">Myth, absence, and the cost of survival</h2>\n    <p>Later chronicles remember Krone and Draygar together: Krone as advancing force and laughter, Draygar as the steadiness that holds. Pappy becomes hospitality as resistance to despair. Farkur becomes proof that markets, circulation, and systems can alter a world as surely as combat. The chronicler increasingly writes not only about deeds but about the shapes people leave in collective memory.</p>\n    <p>In “A Little Boat,” Ada contrasts an earlier Pristinia of open fields, loose fellowship, optimism, chaos, and inexperience with a later town of walls, factions, suspicion, efficiency, and exhaustion. The point is not that the old days were simply better. Pristinia survived by becoming harder, and that survival had a psychological price.</p>\n    <h2 id=\"ada-world\">2026 · from town record to world-state chronicle</h2>\n    <p>By 2026 the recovered writing reaches beyond Pristinia. Ada records public reputations from the Great Contest between Steel and Sorcery and produces a regional snapshot spanning Prima, Gael, Fein Uaill, Babel-Ashur, Voraketh, and Gedankin. Vessalia’s September profile returns the chronicle to a smaller scale: after war and rebuilding, a musician and traveler can still fill an empty social space and become part of the town.</p>\n    <h2 id=\"ada-limitations\">How to use the chronicles</h2>\n    <ul>\n      <li><strong>Use Ada for public reputation:</strong> how a person or faction was understood at a particular time.</li>\n      <li><strong>Use Ada for civic mood:</strong> fear, confidence, grief, nostalgia, admiration, and social change.</li>\n      <li><strong>Check exact events against direct logs:</strong> mechanics, chronology, private motives, and remote events may be simplified or secondhand.</li>\n      <li><strong>Keep titles attributed:</strong> a public honorific can be historically important without being an official office or objective verdict.</li>\n      <li><strong>Preserve error and exaggeration:</strong> a mistaken belief may still explain why people acted as they did.</li>\n    </ul>\n    <div class=\"callout\"><p><strong>Standard citation:</strong> Contemporary Chronicle — Ada, Town Chronicler. Reliable for how Pristinia perceived people and events; exact mechanics, motivations, and distant events require comparison with primary quest records.</p></div>",
+  "image": "assets/characters/discord/6c07c94f146f65893e2b072ac65bd13d02ff660d31f0c6657e002fe7ab5142ac.png",
+  "imageAlt": "Discord depiction of Ada",
+  "imageCaption": "Ada",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "ada-work",
+      "title": "What a town chronicler preserves",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — article ledger, source classification, civic-memory synthesis, and editorial boundaries",
+          "Ada’s recovered town chronicles — Apr 2024 through Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "ada-early-voice",
+      "title": "2024 · remarkable people in a young town",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — article ledger, source classification, civic-memory synthesis, and editorial boundaries",
+          "Ada’s recovered town chronicles — Apr 2024 through Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "ada-institutions",
+      "title": "Late 2024–2025 · people become institutions",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — article ledger, source classification, civic-memory synthesis, and editorial boundaries",
+          "Ada’s recovered town chronicles — Apr 2024 through Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "ada-crisis",
+      "title": "The Rahu War · the chronicler becomes a witness to fear",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — article ledger, source classification, civic-memory synthesis, and editorial boundaries",
+          "Ada’s recovered town chronicles — Apr 2024 through Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "ada-memory",
+      "title": "Myth, absence, and the cost of survival",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — article ledger, source classification, civic-memory synthesis, and editorial boundaries",
+          "Ada’s recovered town chronicles — Apr 2024 through Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "ada-world",
+      "title": "2026 · from town record to world-state chronicle",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — article ledger, source classification, civic-memory synthesis, and editorial boundaries",
+          "Ada’s recovered town chronicles — Apr 2024 through Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "ada-limitations",
+      "title": "How to use the chronicles",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Ada_Town_Chronicler_Integration-2.md — article ledger, source classification, civic-memory synthesis, and editorial boundaries",
+          "Ada’s recovered town chronicles — Apr 2024 through Sep 2026"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "neemah",
+  "title": "Neemah",
+  "category": "People",
+  "type": "Fey welcome at the Gate",
+  "dek": "A bark-skinned figure who greets newcomers with a call to work for life, whether by blade, hammer, pen or scroll.",
+  "tags": [
+    "Neemah",
+    "The Gate",
+    "Prima"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Recorded at": "The Gate and road to Pristinia"
+  },
+  "sources": [
+    "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+  ],
+  "body": "<h2 id=\"neemah-welcome\">A welcome among the trees</h2><p>Neemah first appears as a small fey-like woman with bark-like flesh and ageless blue eyes. She calls the Gate a welcoming place for potential heroes of Etz Chaim, while stressing that not every arrival will become one. Her welcome includes work with a hammer or a pen as well as a blade.</p><h2 id=\"neemah-life\">Fighting for life</h2><p>At a later gathering with Coralyn, Joe-Joe, Cerwin and Nex, Neemah gives her name and reframes the newcomers’ purpose: to fight <em>for life</em>, rather than defining their entire future by an enemy. She reassures Coralyn, says her own duty is here, and vanishes among the trees. Her words establish the purpose she offers them; they do not prove what every arrival chose before crossing.</p>",
+  "image": "assets/characters/neemah.jpg",
+  "imageAlt": "Neemah with textured dark skin and a bright blue forehead marking in the rain",
+  "imageCaption": "Neemah",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "neemah-welcome",
+      "title": "A welcome among the trees",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "neemah-life",
+      "title": "Fighting for life",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Fey welcome at the Gate",
+    "significance": "A bark-skinned figure who greets newcomers with a call to work for life, whether by blade, hammer, pen or scroll.",
+    "actions": [
+      {
+        "title": "Neemah offers the newcomers many ways to matter",
+        "event": "Neemah offers the newcomers many ways to matter",
+        "date": "2024-01-25 · posting date (UTC)"
+      },
+      {
+        "title": "Neemah reframes the call as work for life",
+        "event": "Neemah reframes the call as work for life",
+        "date": "2025-07-30 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 2025-07-30 · posting date (UTC). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

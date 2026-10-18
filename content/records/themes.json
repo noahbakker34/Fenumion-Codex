@@ -1,0 +1,65 @@
+{
+  "id": "themes",
+  "title": "Themes of Fenumion",
+  "category": "Foundations",
+  "type": "Interpretive index",
+  "dek": "The questions that recur across divine catastrophe, ordinary care, political power, grief, and the choices people make under pressure.",
+  "tags": [
+    "Whose sacrifice?",
+    "Stewardship",
+    "Knowledge",
+    "Hope",
+    "Ordinary life"
+  ],
+  "facts": {
+    "Central question": "Whose sacrifice?",
+    "Counterweight": "Power does not create permission",
+    "Measure": "Ordinary life",
+    "Method": "Evidence before interpretation"
+  },
+  "sources": [
+    "THEMES_AND_STYLE.md — thematic and literary framework",
+    "CANON_RULES.md — operating principles",
+    "MASTER_TIMELINE.md — cross-timeline thematic links",
+    "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — five core questions and thematic cautions"
+  ],
+  "body": "<p>Fenumion’s themes are recurring questions, not verdicts that every scene must announce. They become visible because different people answer them differently and then live inside the consequences.</p>\n      <div class=\"evidence-stack\">\n        <section class=\"evidence-card\"><span>01</span><div><h3>Whose sacrifice?</h3><p>Voluntarily spending oneself is not morally interchangeable with deciding that somebody else must be spent.</p></div></section>\n        <section class=\"evidence-card\"><span>02</span><div><h3>Stewardship is not ownership</h3><p>Gods, rulers, teachers, protectors, and caretakers may hold real authority without owning another person’s will.</p></div></section>\n        <section class=\"evidence-card\"><span>03</span><div><h3>Knowledge changes responsibility</h3><p>Knowledge can preserve informed choice, become leverage, expose duty, or provide a new language for domination.</p></div></section>\n        <section class=\"evidence-card\"><span>04</span><div><h3>Understanding is not forgiveness</h3><p>A villain may love, suffer, or tell the truth and remain dangerous. Explanation does not neutralize the sword.</p></div></section>\n        <section class=\"evidence-card\"><span>05</span><div><h3>The past keeps acting</h3><p>An old gift enables a resurrection; a burned tavern determines where people gather; a retreat changes the meaning of a later sacrifice.</p></div></section>\n        <section class=\"evidence-card\"><span>06</span><div><h3>Ordinary life is evidence</h3><p>Soup, bowls, schools, farms, markets, gardens, transport, and friendships show whether a cosmic victory produced a world worth living in.</p></div></section>\n        <section class=\"evidence-card\"><span>07</span><div><h3>Knowledge does not create ownership</h3><p>Knowing a truth—or possessing the power to reveal it—does not automatically grant authority to force it into another person’s life.</p></div></section>\n        <section class=\"evidence-card\"><span>08</span><div><h3>Relationships make history possible</h3><p>Gifts, trust, grief, mentorship, belonging, and unfinished love can determine which choices remain possible years later.</p></div></section>\n      </div>\n      <h2 id=\"hope-without-guarantee\">Hope without guarantee</h2>\n      <p>Hope does not promise survival, victory, fairness, or rescue. Nienna’s sacrifice could fail. A random Reincarnate result could change identity. Aria could die before her arc resolved. The Common Man could burn. Hope preserves possibility: tomorrow is not owned by today’s suffering. That makes it a structural answer to Dumuzi’s promise of finality without reducing it to guaranteed providence.</p>\n      <h2 id=\"analysis-with-restraint\">Analysis with restraint</h2>\n      <p>The archive asks what a person repeatedly does, which relationships change behavior, who else is in the room, and which conclusion is evidence rather than interpretation. It does not make every simple person secretly profound or every confident god correct.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "hope-without-guarantee",
+      "title": "Hope without guarantee",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "THEMES_AND_STYLE.md — thematic and literary framework",
+          "CANON_RULES.md — operating principles",
+          "MASTER_TIMELINE.md — cross-timeline thematic links",
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — five core questions and thematic cautions"
+        ]
+      }
+    },
+    {
+      "id": "analysis-with-restraint",
+      "title": "Analysis with restraint",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "THEMES_AND_STYLE.md — thematic and literary framework",
+          "CANON_RULES.md — operating principles",
+          "MASTER_TIMELINE.md — cross-timeline thematic links",
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — five core questions and thematic cautions"
+        ]
+      }
+    }
+  ]
+}

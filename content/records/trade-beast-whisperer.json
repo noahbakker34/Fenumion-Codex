@@ -1,0 +1,53 @@
+{
+  "id": "trade-beast-whisperer",
+  "title": "Beast Whisperer",
+  "category": "Guide",
+  "type": "Fenumion trade skill reference",
+  "dek": "Tame approved beasts for personal use or other characters.",
+  "tags": [
+    "Blessings",
+    "Homebrew",
+    "Crafting",
+    "Skill Experience",
+    "Beast Whisperer"
+  ],
+  "facts": {
+    "System": "Fenumion crafting"
+  },
+  "sources": [
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+  ],
+  "body": "<p><a href=\"#fenumion-crafting\">← Crafting &amp; Skill Experience</a></p><p>The beast whisperer fills a unique role in Fenumion, taking on the challenge of attempting to bring to heel its many wild inhabitants, allowing for them to ride a much wider variety of mounts, and eventually, domesticate beasts so well they may serve as mounts for others.</p><h2 id=\"trade-beast-whisperer-section-1\">The Beast Whisperer Progression Table</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Beast Whisperer · table 1\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Beast Whisperer · table 1</caption><thead><tr><th scope=\"col\">Skill Level</th><th scope=\"col\">Skill Exp. Required</th><th scope=\"col\">Abilities</th></tr></thead><tbody><tr><th scope=\"row\">Apprentice</th><td>1,000</td><td>May tame a pet of CR equal to 1/8 of PC level on a successful check. Available pets will be on a pre-approved list.<br>+2 to all Taming Rolls</td></tr><tr><th scope=\"row\">Journeyman</th><td>4,000</td><td>May tame a pet of CR equal to 1/4 of PC level on a successful check. Available pets will be on a pre-approved list.<br>+4 to all Taming Rolls</td></tr><tr><th scope=\"row\">Expert</th><td>10,000</td><td>May tame a pet of CR 1/3 of PC level on a successful check. Available pets will be on a pre-approved list<br>May tame a pet of CR 1/4 of the whisperer PC level on a successful check for another player character. Available pets will be on a pre-approved list.<br>+6 to all Taming Rolls</td></tr><tr><th scope=\"row\">Master</th><td>20,000</td><td>May tame a pet of CR 1/2 of PC level on a successful check. Available pets will be on a pre-approved list.<br>May tame a pet of CR 1/3 of whisperer PC level on a successful check for another player character. Available pets will be on a pre-approved list.<br>+8 to all Taming Rolls</td></tr></tbody></table></div><h2 id=\"trade-beast-whisperer-section-3\">How it Works</h2><p>To tame a wild creature, the beast whisperer rolls a d20 and adds their skill level modifier. Another beast whisperer of the same level or higher may use the Help action to give advantage on that roll. This roll cannot be modified in any way except as outlined in this skill description. Successfully taming a creature requires meeting a DC based on the creature’s challenge rating and may require several successful attempts, as defined below:</p><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Beast Whisperer · table 2\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Beast Whisperer · table 2</caption><thead><tr><th scope=\"col\">CR of Wild Creature</th><th scope=\"col\">DC Required to Tame</th><th scope=\"col\">Number of Successful Tames</th></tr></thead><tbody><tr><th scope=\"row\">CR 0 - CR 2</th><td>DC 5</td><td>One success needed</td></tr><tr><th scope=\"row\">CR 3 - CR 4</th><td>DC 10</td><td>Two successes needed</td></tr><tr><th scope=\"row\">CR 5 - CR 6</th><td>DC 15</td><td>Three successes needed</td></tr><tr><th scope=\"row\">CR 7 - CR 8</th><td>DC 20</td><td>Four successes needed</td></tr><tr><th scope=\"row\">CR 9 - CR 10</th><td>DC 25</td><td>Five successes needed</td></tr></tbody></table></div><p>A beast whisperer may attempt to tame a creature multiple times per day. However, if the DC to tame the creature is failed by 5 or more, the beast whisperer must wait 24 hours until attempting to tame any creature again. If a natural 1 is rolled while attempting to tame a pet, it runs away at the first chance and disappears.</p><p>A tamed beast does not count against the server’s summon limits, though a whisperer may only have a number of personally tamed beasts equal to ¼ of their character level. Characters without the Beast Whisperer trade skill may only have one beast trained for them at a time. If a new beast is trained for them, the previous beast escapes back to the wild. Also keep in mind the server’s restrictions on gifts to PCs which give them access to things they otherwise should not have.</p><p class=\"blessing-source\">Read the <a href=\"https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo\" target=\"_blank\" rel=\"noopener noreferrer\">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "trade-beast-whisperer-section-1",
+      "title": "The Beast Whisperer Progression Table",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-beast-whisperer-section-3",
+      "title": "How it Works",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    }
+  ]
+}

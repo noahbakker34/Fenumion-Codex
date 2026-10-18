@@ -1,0 +1,74 @@
+{
+  "id": "fenumion",
+  "title": "Fenumion",
+  "category": "Foundations",
+  "type": "World overview",
+  "dek": "A persistent D&D world where history accumulates, people leave fingerprints, and the past keeps acting on the present.",
+  "tags": [
+    "Living world",
+    "West Marches",
+    "Continuity",
+    "Community",
+    "Consequence"
+  ],
+  "facts": {
+    "Form": "Persistent shared world",
+    "Center": "People and consequences",
+    "Method": "Rotating parties, continuous history",
+    "Theme": "Choice, sacrifice, responsibility"
+  },
+  "sources": [
+    "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — high-value interpretive core; synthesis rather than primary evidence",
+    "Campaign scenes, chronicles, maps, and table outcomes"
+  ],
+  "body": "<p>Fenumion is less a collection of adventures than a place where adventuring has been happening for years. Parties rotate, characters rise and die, communities change, and the consequences remain. A building may exist because players founded it. A political relationship may trace back to a quest months earlier. A dead character can remain active in the grammar, grief, and decisions of the living.</p>\n      <div class=\"callout gold\"><p><strong>The shortest useful definition:</strong> Fenumion is accumulated history made playable.</p></div>\n      <div class=\"quote\">You don’t primarily tell players stories. You build the world carefully enough that when players live inside it, stories happen.<cite>Fenumion design principle</cite></div>\n      <h2 id=\"what-makes-it-living\">What makes it living</h2>\n      <p>The world does not reset around the current party. New players enter a history already in motion, while veteran characters keep discovering that old choices have acquired new meanings. The community is therefore not outside the setting; it is one of the setting’s authors.</p>\n      <ul>\n        <li><strong>Consequences persist.</strong> Deaths, bargains, institutions, scars, and reputations remain relevant.</li>\n        <li><strong>People matter at every scale.</strong> A quiet tavern conversation can create a hunting expedition; a personal grief can become a cosmological crisis.</li>\n        <li><strong>Truth arrives through provenance.</strong> Journals, gods, enemies, witnesses, and legends offer claims—not interchangeable omniscient narration.</li>\n        <li><strong>Characters may be wrong.</strong> The world respects a sincere belief without promising that it is correct.</li>\n        <li><strong>Table outcomes become history.</strong> Honest rulings, dice, mistakes, missed clues, and unfinished arcs can create consequences without requiring secret predestination.</li>\n        <li><strong>Agency is not narrative ownership.</strong> A player character can change the world without becoming its sole protagonist or forcing reality to arrange itself around an intended arc.</li>\n      </ul>\n      <div class=\"callout\"><p><strong>Causal method:</strong> event → what became true → who inherited it → later choice → new consequence.</p></div>\n      <h2 id=\"central-question\">The central question</h2>\n      <p>Across divine wars, resurrection, friendship, empire, and ordinary care, the same question recurs: <strong>whose sacrifice?</strong> Fenumion repeatedly tests whether power gives someone the right to spend another person’s life, soul, future, or freedom.</p>\n      <div class=\"quote\">My pain. Not everyone’s.<cite>Olokun</cite></div>\n      <h2 id=\"how-to-enter\">How to enter the world</h2>\n      <p>Start with the <span class=\"protected-inline\">Protected record</span> for the cosmological shape, <a href=\"#prima-pristinia\">Prima and Pristinia</a> for life on the ground, and <a href=\"#roderick-wrath\">Roderick / Wrath</a> for an example of history revealed in layers. Then read the people. Fenumion’s large events make the most sense when understood through the relationships that carry them.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "what-makes-it-living",
+      "title": "What makes it living",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — high-value interpretive core; synthesis rather than primary evidence",
+          "Campaign scenes, chronicles, maps, and table outcomes"
+        ]
+      }
+    },
+    {
+      "id": "central-question",
+      "title": "The central question",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — high-value interpretive core; synthesis rather than primary evidence",
+          "Campaign scenes, chronicles, maps, and table outcomes"
+        ]
+      }
+    },
+    {
+      "id": "how-to-enter",
+      "title": "How to enter the world",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — high-value interpretive core; synthesis rather than primary evidence",
+          "Campaign scenes, chronicles, maps, and table outcomes"
+        ]
+      }
+    }
+  ]
+}

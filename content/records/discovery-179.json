@@ -1,0 +1,73 @@
+{
+  "id": "discovery-179",
+  "title": "Bram",
+  "category": "People",
+  "type": "Missing-shipment petitioner",
+  "dek": "Reports that Tomas went toward Eovar to collect a shipment for Jon and asks who will help.",
+  "tags": [
+    "Bram",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Missing-shipment petitioner",
+    "Island": "Prima",
+    "Census posts": "6",
+    "Recorded span": "2026-05-01 → 2026-05-01",
+    "Prominence": "37/100 · Provisional",
+    "Recorded presence": "5/20",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Reports that Tomas went toward Eovar to collect a shipment for Jon and asks who will help.</p><h2 id=\"discovery-179-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 37/100 · Provisional</strong></p><p>An ordinary supply failure brings the community and adventurers together.</p><ul><li>Consequences: 2/5 · weight 35</li><li>Institutional or witness role: 2/5 · weight 25</li><li>Relationships: 2/5 · weight 20</li><li>Recorded presence: 5/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-179-record\">Archive record</h2><p>The census records 6 posts across 2026-05-01 → 2026-05-01. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1499950532696084631\">Recorded scene · 1499950532696084631</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/bb974a49cc59da94a20ab49b935932b677a7cb3fe283b53058635ea880362a30.png",
+  "imageAlt": "Discord depiction of Bram",
+  "imageCaption": "Bram",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-179-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-179-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Missing-shipment petitioner",
+    "significance": "Reports that Tomas went toward Eovar to collect a shipment for Jon and asks who will help.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

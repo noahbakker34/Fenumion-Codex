@@ -64,7 +64,7 @@ This is an early and important ethical marker. Gartina values care, loyalty, and
 
 During the 21 November assault on Wrath, Elenia is catastrophically cut. A later New Year retrospective remembers Gartina calling Elenia back after Wrath cleaved her in two.
 
-The exact spell, action, or shared mechanics require a primary-source pass. The memory nevertheless connects Gartina’s practical care to one of the archive’s largest battles: she is remembered not only as a combatant, but as someone trying to make another recovery possible.
+The subsequently recovered Sanctum transcript records Gartina casting Reincarnate on 21 November 2024. She and the gathered companions accept possible change before Elenia returns still a satyr. This is the Miracle of Fenumion, previously misplaced as a separate 2026 event.
 
 Wrath is defeated around three months before 24 February 2025. Gael remains unsafe. Fiendish stragglers persist on the Plains, and liberation becomes the start of recovery rather than its completion.
 
@@ -249,7 +249,7 @@ Gartina distrusts Magnus and regards his changed-person presentation as transpar
 4. When did gardening become as central as cooking?
 5. What exactly did Gartina do during the first restoration of Hope and Gael?
 6. What were the precise mechanics of bringing the spring terrain into existence?
-7. How did Gartina call Elenia back after Wrath’s attack?
+7. Resolved 18 October 2026: Gartina’s Reincarnate in the Sanctum restores Elenia after Wrath’s attack. The complete expanded table behind reported odds is not independently recovered.
 8. Why is the Pristinia property named Gartina and Quake’s Estate?
 9. How did her relationship with Draegar begin and develop?
 10. When did she change from the grasslands-and-fields identity to the protector role, and why did that cost Hallow?
@@ -275,3 +275,5 @@ Gartina distrusts Magnus and regards his changed-person presentation as transpar
 ## Primary-source refinement · 12 October 2026
 
 The Gael export directly recovers the 6 December 2024 planting and seed scene. Gartina organizes shell/limestone remediation; Draygar has refined the limestone, Krone carries it and Scribonia transports, spreads and brings rain. Her planted Staff of the Woodlands becomes Stake, named from Krone’s joke and her meaning of shared sacrifice and commitment. A seed brings forth woodland, animals and water; she initially fears it is an illusion that may disappear. Later continuing forest presence is distinct from a proven permanence mechanism. Her first August reaction to Hope is recovered as tears, bare feet and rolling in living grass. See `GAEL_DEEP_DIVE.md` for anchors, scope and evidence limits.
+
+Primary return sequence and remaining limits: `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md`.

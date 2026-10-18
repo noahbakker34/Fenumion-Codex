@@ -1,0 +1,412 @@
+{
+  "id": "voraketh",
+  "title": "Voraketh",
+  "category": "Places",
+  "type": "Isolated island and active mystery",
+  "image": "voraketh-map.png",
+  "imageLayout": "landscape-hero",
+  "imageAlt": "Anky’s illustrated map of Voraketh, showing a forested island surrounding an enormous devastated central region",
+  "imageCaption": "Anky’s Map of Voraketh — known by 21 March 2026 and commissioned from an angel.",
+  "dek": "An island where old divine protection has become, according to Physisia, a curse—and where surviving the Maw requires preserving evidence before the island can take it away.",
+  "tags": [
+    "Voraketh",
+    "The Maw",
+    "The Chains",
+    "Wasteland",
+    "Temple of Secrets",
+    "Last Grove",
+    "St. Anky",
+    "Unresolved",
+    "Field notes",
+    "Attributed testimony"
+  ],
+  "facts": {
+    "Type": "Island / region",
+    "Status": "Active mystery and ongoing exploration",
+    "Authority": "Cultivation’s regional material",
+    "Map": "Anky’s angel-made map · 21 Mar 2026",
+    "Known systems": "Chains · Wasteland · Maw · Last Grove · Temple of Secrets",
+    "Attributed creator": "Talan made the Chains and guardians · Nuru → Anky"
+  },
+  "sources": [
+    "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+    "Voraketh-2.png — Anky’s map of Voraketh",
+    "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+    "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+    "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1430411629262274591",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1430426238249467915",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1436441738116862113",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471589562005455052",
+    "Connected reading · #voraketh-campaign",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868"
+  ],
+  "body": "<p>Voraketh is divided by competing conditions of reality. One side appears unnaturally ordered and preserved. Beyond enormous Chains lies the Wasteland, where power becomes unreliable, dangerous creatures roam, and memory or other parts of the self may be lost. Deeper still, the growing Maw consumes magic and pulls at bodies while refusing every available explanation.</p>\n      <div class=\"callout gold\"><p><strong>The governing rule:</strong> investigation is not revelation. Ithilrûnë’s theories remain theories, Sildithas’s interpretations remain interpretations, Coralyn’s refusal to connect strange facts remains important, and a recovered name is not a solved identity.</p></div>\n      <h2 id=\"voraketh-map\">Anky’s map · geographic evidence</h2>\n      <p>By 21 March 2026, Anky had an angel make a map of Voraketh. It shows forested outer land surrounding an enormous gray-brown devastated interior, with mountains toward the north and northwest. It does not visibly label the Maw, Chains, Last Grove, Veiled Watch, Temple of Secrets, or other named sites. The map is evidence of geography—not an automatic key to the island’s mysteries.</p>\n      <h2 id=\"voraketh-systems\">An island of interlocking systems</h2>\n      <p>The current record distinguishes the ordered side, the Chains and their guardians, the Wasteland, the Maw, magical motes, the Last Grove and its tree, the Temple of Secrets, the name Deyara Thorn, a Maw-associated figure, a separate blurred watcher, and older testimony about the Destroyer. Their coexistence does not prove that they share one creator, purpose, or solution.</p>\n      <h2 id=\"voraketh-chains\">The Chains · protection becoming curse</h2>\n      <p>The Chains separate the comparatively ordered side from the Wasteland, suppress magic nearby, and are defended and repaired by guardians. Alfred Riverheart damaged a Chain with a one-use Delerium-filled “bottle comet” and nearly died. Anky later described guardians swarming the breach and repair occurring amid purple haze, which he interpreted as corrupted Delerium.</p>\n      <p>Anky says <strong>Nuru confirmed that Talan made the Chains and their guardians</strong>. Anky also reports that Physisia told Pappy the Chains were good at first but had become a curse. The record does not establish why Talan built them, what they originally held back, why their function changed, or what would happen if they failed.</p>\n      <h2 id=\"voraketh-wasteland\">The Wasteland · loss over time</h2>\n      <p>The Wasteland is not merely barren ground. Prolonged exposure can cost explorers mental information, memory, or connections. Anky believed an earlier expedition caused Stinky to go silent and described the Maw as “sucking” things from a person. His practical rule became: pass the Chains, move quickly, gather what is needed, and leave before the place takes more.</p>\n      <p>Hostile creatures there can leave magical motes. The motes have been brought to the Last Grove’s tree, which gives things in return. Anky later theorized that they might function as medicine for a weakening goddess or tree. That remains Anky’s theory, not established cosmology.</p>\n      <h2 id=\"voraketh-maw-history\">The Maw · behavior before explanation</h2>\n      <p>On 21 September 2025, Sildithas relayed secondhand knowledge of “a strange anomaly” called the Maw. People supposedly emerged from its location long ago; it might lead elsewhere; its noise attracted beasts; and it consumed and grew. Asked what it did, he answered only: “Consume, from what I gather.” Misrat was the source for another claim: the Maw could summon something called <strong>the Destroyer</strong>. The Destroyer’s identity and mechanism remain unknown.</p>\n      <h2 id=\"voraketh-maw\">September 2026 · direct encounter</h2>\n      <p>Ithilrûnë spent much of the encounter resisting the Maw’s pull and believed it could tear her apart. Magic failed as a source of distance or mastery because the phenomenon consumed it.</p>\n      <div class=\"quote\">It just eats my magic like it was a simple snack.<cite>Ithilrûnë</cite></div>\n      <div class=\"quote\">It is an artifact of outrageous power. Or a prison of stupendous security. I just wish I knew.<cite>Ithilrûnë</cite></div>\n      <p>The pull, magical consumption, dangerous proximity, failed communication, and a figure or presence associated with the Maw are observed. “Artifact,” “prison,” “victim,” “enemy,” and “rescue” remain competing interpretations. A separate blurred presence has been reported near or behind the Maw and must not be merged with the associated figure.</p>\n      <h2 id=\"voraketh-last-grove\">The Last Grove and its tree</h2><p><a href=\"#last-grove\">Explore the Last Grove →</a> An ancient sanctuary whose modern history joins Physisia’s communion, Deyara’s lost trail, the druidic warning and the spore crisis following Alfred’s return.</p><div class=\"image-gallery\"><figure class=\"gallery-wide\"><a href=\"assets/locations/last-grove.png\" target=\"_blank\" rel=\"noopener\"><img src=\"assets/locations/last-grove.png\" alt=\"The Last Grove in Voraketh: an ancient tree beside a circular pool, surrounded by carved standing stones and dense woodland.\" loading=\"lazy\" width=\"1344\" height=\"896\"></a><figcaption><strong>The Last Grove · Voraketh</strong><span>The Last Grove, Voraketh.</span></figcaption></figure></div>\n      <p>The Last Grove is an anomalous surviving natural site. Its tree accepts motes and gives things in return; Physisia has communicated through or in connection with it. An unidentified voice offers Coralyn Alfred’s life; his return is followed by erupting spores and a spreading forest infection. Physisia later tells Pappy that a fiend has invaded the forest and connects it with his return. The voice is not identified as Physisia, and the exact relationship between the bargain, fiend and tree remains unresolved.</p>\n      <h2 id=\"voraketh-temple\">The Temple of Secrets · memory shelter</h2>\n      <p>Voraketh’s attack on knowledge produced its most important institution. After losing something in the Wasteland, Anky asked Nuru for help. He said information written in the Temple’s books would remain and help explorers resist losing more “mind bits.” The Temple became protected memory, research space, scroll repository, shared equipment pool, and an inheritance for people who arrived later.</p>\n      <p>Anky opposed hoarding useful secrets. When Cerwin lacked an item to contribute in exchange for a Wand of Magic Missiles, Anky supplied his own Golden Boar Ring so the communal rule could remain reciprocal without excluding someone who needed help. He called this his duty as a “sharing knight.”</p>\n      <h2 id=\"voraketh-anky\">St. Anky · records that outlive the recorder</h2>\n      <p>Anky wanted to leave because Voraketh was affecting his mind, but he said Nuru personally asked him for a full report. “Me is a gnome of my word!” On 20 April 2026, after rejecting a northern boat plan, he proposed gathering motes, wrote a protective secret, shared healing supplies, and entered Portho’s Portal with Alfred Riverheart and Cerwin Rayolet.</p>\n      <p>The separate Wasteland scene now records the fatal encounter. On 20 April, a construct at the Binding Chains kills Anky and Alfred and throws their bodies across. Cerwin falls during his own attempted escape the following day. Anky’s afterlife appearance on 21 April and Cerwin’s later arrival on 24 April belong after those deaths. His historical sequence is clearer: Voraketh took knowledge from him; he built a place where knowledge could survive; he returned to investigate; he died; the records remained.</p>\n      <h2 id=\"voraketh-coralyn\">Coralyn and disciplined uncertainty</h2>\n      <p>Coralyn’s model develops from an early belief that the Chains protect the living side into a much denser September record: unnatural order, whale-sized antimagic Chains, Talan’s constructs, Wasteland creatures and motes, a growing Maw, the blurred watcher, the Last Grove, Physisia, the resurrection offer, spores, plague, and the difficult name Deyara Thorn.</p>\n      <div class=\"quote\">I don’t want to connect things simply because they are strange.<cite>Coralyn</cite></div>\n      <p>Her refusal is not indecision. It is one of the island’s strongest evidence safeguards: healing Voraketh requires distinguishing what is natural, what is being forcibly preserved, and what only appears connected because every part is strange.</p>\n      <h2 id=\"voraketh-deyara\">Deyara Thorn · a lost leader’s trail</h2><p>At the Last Grove, Physisia asks Pappy to find Deyara Thorne, whom she calls a former leader of the people. She has not seen her for a very long time. <a href=\"#deyara-thorn\">Follow the search for Deyara →</a></p>\n      <p><a href=\"#deyara-thorn\"><strong>Deyara Thorn</strong></a> is the primary recent spelling; <strong>Derya Thorne</strong> remains an older archive variant. Coralyn reports that the name becomes hushed or strange and cannot be properly written into Nuru’s memory book at the Veiled Watch. Nothing establishes Deyara as the Maw figure, blurred watcher, Destroyer, resurrection entity, Physisia, creator, victim, or villain.</p>\n      <h2 id=\"voraketh-expedition\">Power redistributed by suppression</h2>\n      <p>The Chains change what an expedition can contribute. Coralyn’s magical strengths are reduced. Pappy’s physical resilience becomes more valuable because a front-line defender can buy time for suppressed casters. Ithilrûnë considers Scribonia’s research, Draygar’s force, additional Vanguard support, ancient null-magic armor, and direct extraction. She calls the armor plan reckless; the Codex preserves it as an attempt to recover agency, not a recommended solution.</p>\n      <h2 id=\"voraketh-feast\">A feast beside unresolved horror</h2>\n      <p>Unable to solve the Maw, undermanned, suppressed, and watching Ithilrûnë fray, Sildithas proposed a feast. Food would not fix the Chain. The choice preserved fellowship, joy, beauty, respite, and identity while the threat remained.</p>\n      <div class=\"quote\">That is not my form of wisdom. But my form of wisdom hasn’t gotten us anywhere, maybe we need less cunning and more cooking. I agree Sildithas and I....will follow your lead.<cite>Ithilrûnë</cite></div>\n      <div class=\"quote\">Keep what is most truly you from flickering out.<cite>Sildithas</cite></div>\n      <h2 id=\"voraketh-history\">The evidence history</h2>\n      <ol class=\"timeline\">\n        <li><time>21 Sep 2025</time><p>Sildithas relays the earliest recovered Maw knowledge: it consumes, grows, attracts beasts, and may be tied to the Destroyer.</p></li>\n        <li><time>Before 5 Mar 2026</time><p>Anky suffers a Wasteland loss and asks Nuru for protection; the Temple of Secrets follows.</p></li>\n        <li><time>5–6 Mar</time><p>Coralyn and Anky discuss motes and Chains. Anky reports Talan’s authorship and Physisia’s judgment that the Chains became a curse.</p></li>\n        <li><time>21–29 Mar</time><p>Anky commissions the map, leaves notes, and develops the Temple into shared research and resource infrastructure.</p></li>\n        <li><time>20–24 Apr</time><p>Anky’s last expedition begins; he is dead the next day; wounded Cerwin later reaches him on the road to the afterlife.</p></li>\n        <li><time>22 Sep 2026</time><p>Coralyn records the expanded system while refusing premature connections.</p></li>\n        <li><time>Sep 2026</time><p>Ithilrûnë directly experiences the Maw; Sildithas answers unresolved horror with caution, oath, and fellowship.</p></li>\n      </ol>\n      <h2 id=\"voraketh-open-record\">The open record</h2>\n      <p>The Wasteland’s origin, the Chains’ original emergency, the reason they became a curse, the Maw’s nature and growth, the Destroyer, Deyara Thorn, the associated figure, the blurred watcher, the motes, the Last Grove’s exchanges, the resurrection entity, the spores and plague, and the consequences of breaking or preserving any part of the system remain open. The archive will not choose among those answers before the world does.</p><h2 id=\"voraketh-early-location-notes\">October–November 2025 · Anky’s changing model</h2><p>Anky’s field notes preserve entries posted on 22 October 2025: a talking wolf called Murr, unusually ordered trees and rhythmic waves, Chains, constructs, tremors, a grove, a dangerous tree encounter involving Pappy and Cerwin, and consuming darkness. His ideas about a pocket dimension, rebirth, food shortage or an island-sized construct are attempts to explain his experience. Statements he attributes to Murr remain Murr’s reported testimony.</p><p>His survival advice is provisional too. He wonders whether hunger hunts stillness, whether silence helps and whether darker ground is dangerous. These notes record the precautions he was considering; they do not establish reliable rules for survival.</p><p>In the entry posted on 7 November, Anky reports a vision after touching a tree: ordered forest, Chains, ruined ground beyond and a central consuming void. Vision content is not a confirmed survey. He considers whether the Chains preserve a surviving pocket of life, whether wolves were once caretakers or druids, whether distorted horizons hide the wider reality and whether Talan is involved. He leaves the note in a tree marked with a red ribbon, making his uncertain account available to later travelers. This early note is distinct from his later angel-made map.</p><h2 id=\"voraketh-coralyn-location-notes\">February 2026 · Coralyn separates crossing from explanation</h2><p>Coralyn’s entry posted on 12 February reports crossing beyond the Chains, twice losing access to magic and witnessing motes interact with the grove tree. She considers whether Talan imposed the order, whether the Chains protect nature, whether constructs prevent crossings and whether further exploration might feed the consuming presence with magic or minds. Her uncertainty remains part of the record. These are neither a single agreed model shared with Anky nor proof of the systems’ purpose or the entity’s identity.</p>\n<h2 id=\"voraketh-campaign-reading\">Read the campaign across its people</h2>\n<p><a href=\"#voraketh-campaign\">Voraketh · learning without a final answer</a> follows the choices, changing knowledge and consequences across this regional history. The <a href=\"#open-questions\">unresolved record</a> preserves the transitions still needing evidence.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "voraketh-map",
+      "title": "Anky’s map · geographic evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-systems",
+      "title": "An island of interlocking systems",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-chains",
+      "title": "The Chains · protection becoming curse",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-wasteland",
+      "title": "The Wasteland · loss over time",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-maw-history",
+      "title": "The Maw · behavior before explanation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-maw",
+      "title": "September 2026 · direct encounter",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-last-grove",
+      "title": "The Last Grove and its tree",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-temple",
+      "title": "The Temple of Secrets · memory shelter",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-anky",
+      "title": "St. Anky · records that outlive the recorder",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Fatal encounter recovered · original narration",
+        "summary": "Explicit narration establishes the construct killing Anky and Alfred on 20 April, with Cerwin’s death the following day. Earlier investigation and reported motives retain their own attribution.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-coralyn",
+      "title": "Coralyn and disciplined uncertainty",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-deyara",
+      "title": "Deyara Thorn · a lost leader’s trail",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-expedition",
+      "title": "Power redistributed by suppression",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-feast",
+      "title": "A feast beside unresolved horror",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-history",
+      "title": "The evidence history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Voraketh_Full_Codex_2026-09-25.md — full evidence history, chronology, provenance, and safeguards",
+          "Voraketh-2.png — Anky’s map of Voraketh",
+          "Voraketh_Location_Profile_and_History.md — earlier consolidated location history",
+          "CHARACTER_BIBLE.md — Ithilrûnë, Sildithas, Coralyn, Pappy, and Anky",
+          "docs/ITHILRUNE_HISTORY.md and docs/SILDITHAS_HISTORY.md — reconciled character dossiers",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-early-location-notes",
+      "title": "October–November 2025 · Anky’s changing model",
+      "chapter": "Field testimony",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Player testimony · original checked",
+        "summary": "The original player note has been checked. Reported observations, secondhand warnings, rumors and theories retain their authors; posting dates do not establish world dates. Reading the original confirms what was written, not the objective truth of every claim.",
+        "scope": "section",
+        "sources": [
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1430411629262274591",
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1430426238249467915",
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1436441738116862113"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-coralyn-location-notes",
+      "title": "February 2026 · Coralyn separates crossing from explanation",
+      "chapter": "Field testimony",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Player testimony · original checked",
+        "summary": "The original player note has been checked. Reported observations, secondhand warnings, rumors and theories retain their authors; posting dates do not establish world dates. Reading the original confirms what was written, not the objective truth of every claim.",
+        "scope": "section",
+        "sources": [
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471589562005455052"
+        ]
+      }
+    },
+    {
+      "id": "voraketh-campaign-reading",
+      "title": "Read the campaign across its people",
+      "chapter": "Connected histories",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Connected reading",
+        "summary": "A route through the linked histories, not independent evidence for their claims.",
+        "scope": "section",
+        "sources": [
+          "Connected reading · #voraketh-campaign"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Isolated island and active mystery",
+    "significance": "An island where old divine protection has become, according to Physisia, a curse—and where surviving the Maw requires preserving evidence before the island can take it away.",
+    "actions": [
+      {
+        "title": "Anky reports the Chains’ divine evidence",
+        "event": "Anky reports the Chains’ divine evidence",
+        "date": "6 Mar 2026"
+      },
+      {
+        "title": "Anky’s final recovered expedition begins",
+        "event": "Anky’s final recovered expedition begins",
+        "date": "20 Apr 2026"
+      },
+      {
+        "title": "Coralyn chooses Alfred’s life at the Last Grove",
+        "event": "Coralyn chooses Alfred’s life at the Last Grove",
+        "date": "29 Aug 2026"
+      }
+    ],
+    "status": "Active mystery and ongoing exploration",
+    "relationships": [
+      {
+        "id": "deyara-thorn",
+        "label": "Deyara Thorn",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "player testimony",
+    "scope": "Original location-notes export checked; protected statements and unseen attachments withheld. No truth status inferred from player authorship."
+  }
+}

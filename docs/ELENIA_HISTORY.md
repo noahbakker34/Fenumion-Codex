@@ -57,6 +57,10 @@ Wrath appears beside grief and offers a path through Death after killing Dale. Q
 
 The scene establishes a pattern that remains central: Elenia is willing to seek divine aid without accepting that the first powerful being to offer an answer owns the choice.
 
+### 15 July 2024 UTC — Raise Dead for Nienna
+
+After Nienna’s first death on the Plains of Trial, Saray recovers her body and obtains a diamond through an offering at Nuru’s altar. Elenia presses it into Nienna’s arm and prays. Nienna awakens in alarm; Elenia embraces and reassures her. The recovered spell embed explicitly names Raise Dead. It is posted after the roleplay awakening and documents that same return. This precedes Nienna’s September Hallowing sacrifice. See `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md` for the original receipts and limits.
+
 ### 18 July 2024 — Experience becomes Death Ward
 
 Before another confrontation with Wrath, Elenia casts Death Ward on Quake because the magic had previously saved her and Nienna:
@@ -75,7 +79,13 @@ The surviving chronology records a staff-splinter or broken Eldrin-staff event c
 
 During the assault on Wrath, Arjahn offers himself, Wrath cuts Elenia, and Saray ultimately lands the final blow. A later community retrospective remembers Gartina calling Elenia back after Wrath cleaved her in two.
 
-The exact resurrection or recovery mechanics should be retrieved before being stated more precisely. What is established is that Elenia suffered catastrophic harm in the confrontation and returned to the continuing record.
+The subsequently recovered Sanctum scene identifies Gartina’s Reincarnate on 21 November 2024 as the return after this harm.
+
+### 21 November 2024 — Gartina’s miracle
+
+The Sanctum scene establishes that the Miracle is Elenia’s immediate post-Wrath return. Gartina casts Reincarnate over her recovered body after the company accepts possible change. Narration reveals her alive and still a satyr; she was already a satyr before the casting. The earlier separate 2026 placement was incorrect.
+
+Earlier synthesis reports an unfudged one-in-250 outcome. The original visible rolls and satyr result are checked, but the complete expanded table behind that probability is not independently recovered. The scene does not establish direct higher-power intervention.
 
 ### Late 2024 to February 2025 — Gael continues without her
 
@@ -93,7 +103,7 @@ This is a major change in scale and reputation. The uncertain forest pilgrim has
 
 Nienna remains one of the central causal relationships in Elenia’s history. Elenia describes her as a sister and uses the loss to understand Aria rather than simply to condemn attachment. Aria argues that love creates future weakness because loved people cannot always be protected. Elenia’s history answers that vulnerability does not make love a mistake.
 
-In a private bath conversation with Aria, Elenia asks about siblings and speaks from her relationship with Nienna. The scene also intersects with an unresolved contradiction in Aria’s history: Aria says she has no siblings despite an earlier account involving an older brother.
+In a private bath conversation with Aria, Elenia asks about siblings and speaks from her relationship with Nienna. The earlier apparent contradiction is resolved by the owner’s 18 October clarification: Aria lies about having no siblings because it hurts too much to acknowledge them; the older brother remains part of her history.
 
 Elenia’s faith has matured by this point. She can trust Mya while judging Talan, Nuru, Aionia, and the divine order independently. She does not need the gods to be flawless before acting with them, and she does not treat divine power as proof of moral correctness.
 
@@ -124,14 +134,6 @@ The juxtaposition matters: Elenia recounts resurrection, exile, and the Magnus c
 After Magnus forces Delerium into Brianna, Elenia calls upon Mya. Hope cleanses or sanctifies the crystal rather than simply removing it. The result transforms the residue of violation without pretending the violation never occurred.
 
 This episode is one of the clearest examples of Elenia and Mya acting through prior harm rather than around it. The exact date and mechanical division among Elenia, Mya, Adelia, Farkur, and the others present should be recovered before further precision.
-
-### 2026 — The Miracle of Fenumion
-
-Elenia dies and is returned through Reincarnate as a satyr. The mechanical result was an unfudged one-in-250 roll. Before the result, the party had accepted that she might return changed.
-
-The event functions like grace because it remained contingent. It should not be canonized as direct intervention by a higher power unless later lore explicitly establishes that claim. Its force depends on the fact that nobody guaranteed the result and the players had already accepted loss and transformation.
-
-The exact date, cause of Elenia’s death, and relationship between this event and the surrounding 2026 chronology remain unresolved in the current synthesis.
 
 ### August 2026 — A mountain unmade
 
@@ -233,13 +235,13 @@ Mature Elenia knows more about divine failure than early Elenia and still remain
 1. What is Elenia’s life history before April 2024?
 2. What exactly established the first living foothold at Hope, and what was Elenia’s part?
 3. Where did Elenia and Adelia go after leaving Gael before February 2025?
-4. What were the exact mechanics of Elenia’s recovery after Wrath cleaved her?
+4. Resolved 18 October: Gartina’s Reincarnate in the Sanctum returns Elenia on 21 November 2024.
 5. What was the date and full course of the Rahu siege?
 6. Which battle produced the roughly one hundred resurrections?
 7. What exactly did the Magnus face-removal spell do, and what judgment followed?
 8. Was Elenia formally banished from all Fein Uaill or from a narrower jurisdiction?
 9. Which party was banished in the conflicting derivative summary of the Magnus confrontation?
-10. What killed Elenia before the Miracle of Fenumion, and when did the Reincarnate occur?
+10. Resolved 18 October: Wrath’s attack and Gartina’s subsequent Sanctum casting are one sequence; no separate 2026 Miracle is established.
 11. What is the exact chronology of Brianna’s sanctification?
 12. What was the mountain expedition’s objective, and who might have been in the storm’s path?
 13. How did Elenia acquire or develop her Gate-related capability, and how is it distinct from the ancient divine Gate?
@@ -258,3 +260,7 @@ Mature Elenia knows more about divine failure than early Elenia and still remain
 - `Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md`
 - `Magnus_Niriin_Character_Profile_and_History.md`
 - `CONVERSATION_MASTER_SUMMARY.md`
+
+## Source correction · 18 October 2026
+
+The Sanctum original supplies the caster, spell, preparation, accepted change and outcome. Elenia also restores Nienna on 15 July 2024 with Saray’s diamond; the later supplied first-death packet identifies the spell as Raise Dead. Current canonical articles and receipt ledger supersede the formerly unresolved return questions in this older synthesis. See `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md`.

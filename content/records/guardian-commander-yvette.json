@@ -1,0 +1,121 @@
+{
+  "id": "guardian-commander-yvette",
+  "title": "Guardian Commander Yvette",
+  "category": "People",
+  "type": "Guardian corps commander",
+  "dek": "A commander whose lifetime of service, wary dealings with visitors and grief for her soldiers give her corps a history of its own.",
+  "tags": [
+    "Guardian Commander Yvette",
+    "Yvette",
+    "Commander Yvette",
+    "Prima",
+    "Guardian corps",
+    "Port security"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Guardian corps commander",
+    "Command boundary": "Pristinia militia command not established",
+    "Latest reviewed scene": "15 February 2026 · soldiers’ graves"
+  },
+  "sources": [
+    "Main quest-RP · selected primary scenes; anchors below",
+    "Supplied deep dossier · interpretation checked against quest evidence"
+  ],
+  "body": "<p>Yvette’s command is attached to a corps with its own duties and losses. At a private military port, she is responsible for access, supplies and soldiers whose loyalty she defends. Her history gives institutional service a personal cost without assigning her every guard action on Prima.</p>\n<h2 id=\"yvette-port-command\">December 2024 · a corps on a schedule</h2><p>She challenges the visitors’ presence, explains that her people are on a tight schedule and directs soldiers loading supplies with military hand signals. Visitors may inspect, but not touch. Those choices establish practical command through coordination and boundaries.</p><p>Navi’s claim that the visitors serve the gods does not immediately win her trust. Yvette describes her service as a lifetime’s duty and responds emotionally to the possibility that others have been given a role her people have long borne. Her pride belongs to work and responsibility, not simply to rank.</p>\n<h2 id=\"yvette-directness\">Directness and fallibility</h2><p>In the same scene, narration presents her as inexperienced at deception. That supports a moment of visible awkwardness; it does not prove she has never lied in any circumstance or supply a complete personality diagnosis.</p><p>A badger steals the keys from her belt. She notices the theft, orders the animal found and tells guards to detain its owner; guards move to detain Sparrow while others search. Her response shows both a security failure and an attempt to restore control. It is neither proof of general incompetence nor an independent finding that her accusation is just.</p><p>The encounter also shows how differently duty can look to a commander and to adventurers. Yvette sees trusted soldiers and an obligation. The visitors’ confidence in their own purpose does not automatically answer her concern about what they will do at her port.</p>\n<h2 id=\"yvette-losses\">February 2026 · the soldiers’ graves</h2><p>In a later investigation, she insists that her corps can conduct its own inquiry. Her estimate of the attackers remains testimony, rather than a settled investigation result. She offers to take the visitors to her soldiers’ graves.</p><p>The offer changes the meaning of her earlier insistence on loyalty. The corps is made of people whose deaths she remembers. Her command is a continuing relationship with those people, not only an obstacle encountered during somebody else’s expedition.</p>\n<h2 id=\"yvette-command-limits\">The limits of the command record</h2><p>Yvette is a Guardian commander connected to Prima. These scenes do not establish that she commands Pristinia’s town militia, answers to every Elder or possesses a general legal authority over all adventurers. Her appointment, formal chain of command, complete service history and status after the reviewed February scene remain unresolved.</p><h2 id=\"recorded-scenes\">Recorded scenes</h2><p>Dates identify transcript postings, not an independently established in-world calendar.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1316611711939248159\">11 December 2024 · the private port</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1316613419792601178\">Directing the loading</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1316614492876181535\">Inspection without handling</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1316623306866167828\">Her account of lifetime duty</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1316624161077989386\">Narrated awkwardness at deception</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1316625341103476737\">She names her corps</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1316626346763620486\">The keys are taken</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1316626473859284992\">Yvette orders a response</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1316626590402220142\">The guards’ response</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1472760533861138463\">15 February 2026 · her investigation claim</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1472762450196562033\">Her soldiers’ graves</a></li></ul>",
+  "image": "assets/characters/commander-yvette.png",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "yvette-port-command",
+      "title": "December 2024 · a corps on a schedule",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "yvette-directness",
+      "title": "Directness and fallibility",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "yvette-losses",
+      "title": "February 2026 · the soldiers’ graves",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "yvette-command-limits",
+      "title": "The limits of the command record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "recorded-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Guardian corps commander",
+    "significance": "A commander whose lifetime of service, wary dealings with visitors and grief for her soldiers give her corps a history of its own.",
+    "actions": [
+      {
+        "title": "Farkur confesses before the Guardians",
+        "event": "Farkur confesses before the Guardians",
+        "date": "29 Mar 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: 29 Mar 2026. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

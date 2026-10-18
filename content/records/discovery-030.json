@@ -1,0 +1,67 @@
+{
+  "id": "discovery-030",
+  "title": "Stella & Sola",
+  "category": "People",
+  "type": "Apothecary sisters",
+  "dek": "Run a shop, request a time-sensitive medicine delivery and contribute material care during an emergency.",
+  "tags": [
+    "Stella & Sola",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Apothecary sisters",
+    "Island": "Prima",
+    "Census posts": "25",
+    "Recorded span": "2025-01-24 → 2026-01-08",
+    "Prominence": "63/100 · Established",
+    "Recorded presence": "15/20"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Run a shop, request a time-sensitive medicine delivery and contribute material care during an emergency.</p><p><a href=\"#stella-sola\">Read the existing Stella &amp; Sola history →</a></p><h2 id=\"discovery-030-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 63/100 · Established</strong></p><p>Medicine delivery and shelter work connect the sisters to civilian survival.</p><ul><li>Consequences: 3/5 · weight 35</li><li>Institutional or witness role: 3/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 15/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-030-record\">Archive record</h2><p>The census records 25 posts across 2025-01-24 → 2026-01-08. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332512129714225286\">Recorded scene · 1332512129714225286</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/cdb194a65cf481c8adf0c5c9800af950f65bffea14a0e99b52c683463aadd0e6.png",
+  "imageAlt": "Discord depiction of Stella & Sola",
+  "imageCaption": "Stella & Sola",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-030-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-030-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "profile": {
+    "achievements": "The sisters whose shop links Pristinia’s ordinary comforts, medicine and emergency care."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "discovery-322",
+  "title": "Yami no Majo",
+  "category": "People",
+  "type": "Rahu teacher",
+  "dek": "Linked to the existing public Yami dossier.",
+  "tags": [
+    "Yami no Majo",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Rahu teacher",
+    "Island": "Prima",
+    "Census posts": "1",
+    "Recorded span": "2024-08-20 → 2024-08-20",
+    "Prominence": "55/100 · Established",
+    "Recorded presence": "2/20"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Linked to the existing public Yami dossier.</p><p><a href=\"#yami-no-majo\">Read the existing Yami no Majo history →</a></p><h2 id=\"discovery-322-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 55/100 · Established</strong></p><p>The public teacher dossier connects Rahu institutions and the people learning within them.</p><ul><li>Consequences: 3/5 · weight 35</li><li>Institutional or witness role: 4/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 2/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-322-record\">Archive record</h2><p>The census records 1 posts across 2024-08-20 → 2024-08-20. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1275599252340477984\">Recorded scene · 1275599252340477984</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/161dd5ea25a6dfa4e8cb644f3b52c707626d0e0784a1175a5e78463d5283100d.png",
+  "imageAlt": "Discord depiction of Yami no Majo",
+  "imageCaption": "Yami no Majo",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-322-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-322-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ]
+}

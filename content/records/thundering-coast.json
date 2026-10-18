@@ -1,0 +1,70 @@
+{
+  "id": "thundering-coast",
+  "title": "The Thundering Coast",
+  "category": "Places",
+  "type": "Coastal landscape · Prima",
+  "dek": "Prima’s Thundering Coast, seen from the approach to Eovar Harbor and crossed toward a distant beacon.",
+  "tags": [
+    "Thundering Coast",
+    "Prima",
+    "Eovar Harbor",
+    "Sea travel",
+    "Coast"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Connected harbor": "Eovar Harbor",
+    "Recorded approach": "13 March 2024",
+    "Voyage preparation": "27 May 2024",
+    "Geography": "Exact boundaries remain unconfirmed"
+  },
+  "sources": [
+    "Quest narrator · harbor/coast approach, posted 13 March 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1217654903535702158",
+    "Quest narrator · beacon beyond the coast, posted 27 May 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1244736241862311958"
+  ],
+  "body": "<p>The Thundering Coast belongs to <a href=\"#prima-pristinia\">Prima</a>. It appears in the adventurers’ approach to <a href=\"#eovar-harbor\">Eovar Harbor</a> and in the preparations for a voyage toward a light beyond the coast.</p><h2 id=\"coast-eovar-approach\">13 March 2024 · the harbor comes into view</h2><p>After breaking a trap on the road to Eovar, Jiangshi, Scribonia, Rolen, John, Adelia and Forgax reach the final hill overlooking the harbor and the Thundering Coast.</p><h2 id=\"coast-beacon-voyage\">27 May 2024 · passage toward the light</h2><p>With Eovar’s quarantine lifted, Olokun, Loistava, Nienna, Adelia, Bari and Alyhotep seek passage at the docks toward the beacon shining beyond the Thundering Coast. The harbor reconnects the party to sailors, ships and travel beyond the shore.</p><p>The coast’s exact boundaries and the beacon’s precise position remain unconfirmed.</p>",
+  "image": "assets/archive/thundering-coast-poster.webp",
+  "video": "assets/archive/thundering-coast.mp4",
+  "imageAlt": "Aerial landscape of the Thundering Coast on Prima",
+  "imageCaption": "The Thundering Coast · Prima",
+  "videoCaption": "The Thundering Coast · Prima",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "coast-eovar-approach",
+      "title": "13 March 2024 · the harbor comes into view",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest narrator · harbor/coast approach, posted 13 March 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1217654903535702158",
+          "Quest narrator · beacon beyond the coast, posted 27 May 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1244736241862311958"
+        ]
+      }
+    },
+    {
+      "id": "coast-beacon-voyage",
+      "title": "27 May 2024 · passage toward the light",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest narrator · harbor/coast approach, posted 13 March 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1217654903535702158",
+          "Quest narrator · beacon beyond the coast, posted 27 May 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1244736241862311958"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "quest",
+    "scope": "Approach and beacon checked against primary narration; borders remain unresolved."
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "id": "vaemyr",
+  "title": "Vaemyr",
+  "category": "People",
+  "type": "Tiefling wizard; diplomat and consequence-minded protector",
+  "image": "assets/archive/vaemyr-portrait.webp",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Close portrait of Vaemyr, a youthful red-skinned tiefling with great curved horns, dark hair, facial runes, and weathered armor",
+  "imageCaption": "Vaemyr — consequence-minded adventurer, diplomat, and chosen companion.",
+  "dek": "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve.",
+  "tags": [
+    "Vaemyr",
+    "Wren",
+    "Olokun",
+    "Prima",
+    "Responsibility"
+  ],
+  "facts": {
+    "Pattern": "Think → admit uncertainty → determine what is owed → commit",
+    "Central bonds": "Wren and Olokun",
+    "Strength": "Consequential compassion",
+    "Method": "Diplomacy without moral softness",
+    "Arc": "Guarded responsibility → irrevocable commitment"
+  },
+  "sources": [
+    "Complete quest-rp export — Vaemyr scenes and internal narration",
+    "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+    "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+    "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+    "Gate chronicle · primary arrival and welcome scenes",
+    "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+  ],
+  "body": "<p>Vaemyr often appears to be the reasonable person in a dangerous room, but reasonableness is only the surface of his character. His recurring question is what responsibility becomes once he chooses to care about another person. He is cautious because promises have consequences, not because he lacks the courage to make them.</p>\n      <p>That concern makes him practical without making him cold. When Olokun wants to keep helping vulnerable commoners during a dangerous journey, Vaemyr says that he wants to help too, then asks whether the company can actually keep them safe. For him, a heroic gesture does not finish at the moment of rescue; responsibility includes what happens to the rescued afterward.</p>\n      <h2 id=\"vaemyr-context\">Understand before you destroy</h2>\n<p>A tiefling wizard with a grimoire, Vaemyr investigates unfamiliar magic and supports companions with protective spellwork. His competence does not persuade him that every first impression is correct. On 28 June 2024, he challenges the assumption that killing should be the company’s opening plan.</p>\n<div class=\"quote\">We've all been in situations where we chose violence first. It worked out then that our mistake didn't cost us. All I'm saying is we consider that our first plan shouldn't be to kill when we do not understand the context.<cite>Vaemyr, 28 June 2024</cite></div>\n<p><a href=\"#scribonia\">Scribonia</a> is both a trusted intellectual counterpart and someone he will challenge when certainty runs ahead of evidence. He can rely on another scholar’s expertise without surrendering his own judgment. Later work with <a href=\"#eugene\">Eugene</a> similarly requires trust in competence despite an uneasy familiarity.</p>\n<h2 id=\"vaemyr-diplomacy\">Diplomacy under pressure</h2>\n      <p>During the conflict involving Talon, the Duchess, and the Rahu, Vaemyr favors cooler heads and available diplomatic channels. He distinguishes what he knows from what he assumes rather than bluffing certainty. Yet he is not morally soft. In the Vasatzi Alavara crisis, he faces whether one person’s desire to live can outweigh the lives of an entire continent, acknowledging the victim’s fear without letting sympathy erase the cost to everyone else.</p>\n      <h2 id=\"vaemyr-decisions\">Five decisions that reveal the arc</h2>\n      <p>In June 2024, Vaemyr credits survival to teamwork and calls Olokun <em>pana</em>, allowing belonging to enter his vocabulary. On 30 June, he confronts the proposed sacrifice of Vasatzi Alavara without pretending either that her fear is meaningless or that one life can be weighed without reference to a continent. In July, he wants to protect endangered commoners but asks whether bringing them onward would expose them to a danger the party cannot control.</p>\n      <p>In August, the Talon, Duchess, and Rahu dispute draws out his diplomatic method: separate people whose anger prevents negotiation, identify the leverage that actually exists, and say plainly what remains unknown. By October, those careful habits cannot contain his fear of losing Wren; Olokun has to call him back into the present. The sequence shows caution changing from distance into stewardship and then into attachment.</p>\n      <h2 id=\"vaemyr-olokun\">Olokun, his pana</h2>\n      <p>Olokun welcomes Vaemyr into Prima and gradually becomes his <em>pana</em>. The word’s first recovered use visibly delights Olokun; later it becomes natural between them. Olokun models belonging, challenges caution without mocking it, and can pull Vaemyr back into the present when fear threatens to consume him.</p>\n      <p>When Olokun is brutally killed during the November 2024 catastrophe, Vaemyr nearly loses the will to continue. His internal narration remembers the man who welcomed him to Prima and guided him toward the person he became. Only Wren is identified as a greater influence. Vaemyr’s identity is not self-created; it is built through chosen attachment.</p>\n      <h2 id=\"vaemyr-calligraphy\">July 2024: the calligraphy lesson</h2>\n<p>Vaemyr’s interest in calligraphy becomes something less easily analyzed when Wren offers a lesson at her home, just the two of them, and calls it a date. On 11–12 July he chooses to make his interest explicit rather than retreat into ambiguity.</p>\n<div class=\"quote\">No pity date. Only an honest desire to learn from a good person.<cite>Vaemyr</cite></div>\n<p>He then admits he would like to learn about that good person as well. The awkwardness matters beside their later intimacy: physical closeness begins as something he cautiously manages and becomes something he actively chooses.</p>\n<h2 id=\"vaemyr-swift\">Swift Foot: grief without forced certainty</h2>\n<p>After <a href=\"#swift-foot\">Swift Foot</a> dies, Vaemyr wants the Rahu witnesses’ account to be false. He searches <a href=\"#captain-hildethrax\">Hildethrax</a> for deception and refuses to let grief settle the evidence in advance.</p>\n<p>When Dorian threatens the witnesses, Vaemyr intervenes, telling his friend that torture will not give him the truth he wants. He protects the witnesses and tries to keep Dorian from destroying himself. Afterward he continues questioning the account; refusing coercion is not the same as accepting every answer.</p>\n<h2 id=\"vaemyr-wren\">Wren and the refusal to leave</h2>\n      <p>Wren is Vaemyr’s strongest personal bond and the point where careful responsibility becomes absolute commitment. When she urges him to leave her and save himself during the catastrophic battle, he refuses, tells her he loves her, and insists that they will fight together.</p>\n      <p>Their bond also contains conflict. Wren’s responsibility to everyone can lead her to spend herself alone, while Vaemyr experiences that sacrifice as abandonment of the person who promised to stand beside him. He does not merely want to protect her; he wants their danger to remain a shared choice.</p>\n      <h2 id=\"vaemyr-roads-return\">The Roads and the November battle</h2>\n<p>On 13 November 2024, Vaemyr returns from the Roads and collapses into Wren’s embrace. He tells her, “For you, Wren, I would make any sacrifice.” Three days later, Olokun’s death nearly breaks his resolve. He forces himself onward: “Not. Yet.”</p>\n<p>Then <a href=\"#dale\">Dale</a> falls, and Wren begins to despair. Bloodied and covered in ash, Vaemyr mouths the commitment that brings his careful thinking into shared danger:</p>\n<div class=\"quote\">I love you. Let's fight together.<cite>Vaemyr, 16 November 2024</cite></div>\n<h2 id=\"vaemyr-public-memory\">Vaemyr the Arcane</h2>\n<p>Ada’s August 2024 Pristinia chronicle celebrates “Vaemyr the Arcane” as a defender, explorer, strategic adviser, and conduit of knowledge. That account establishes public esteem, while his own scenes preserve the uncertainty and awkwardness behind the reputation. The chronicle’s praise remains an attributed civic account.</p>\n<h2 id=\"vaemyr-development\">What attachment changes</h2>\n      <p>Vaemyr’s development is not a simple movement from caution to bravery. Early on, he asks whether he can responsibly take people under his protection. Through Wren, Olokun, and the community around Prima, those people stop being variables considered from outside and become part of who he is.</p>\n      <p>By late 2024 he remains thoughtful, restrained, and capable of diplomacy, but he has accepted that love creates obligations even when protection cannot be guaranteed. The more carefully he understands responsibility, the more people he becomes unable to abandon.</p><h2 id=\"ada-reputation-vaemyr\">Contemporary reputation · 19 August 2024</h2><p>Ada’s profile remembers Vaemyr as arcane defender, strategist, explorer of The Before, investigator of the Pale Man, and dream-correspondent of Scribonia. This is evidence of the intellectual and protective reputation Vaemyr held in Pristinia at the time. <a href=\"#ada-town-chronicler\">Read the chronicler’s evidence boundary.</a></p><h2 id=\"vaemyr-gate-0\">Learning to welcome the stranger</h2><p>Vaemyr’s own arrival briefly turns dangerous when he mistakes Goo’s unfamiliar body for a monster. Olokun identifies Goo as a friend; Vaemyr lowers his crossbow and apologises. Later, he becomes the guide: he reassures Dorian after a Gate attack, insists they move toward safety, and says that service does not have to mean fighting. His caution becomes care for another newcomer. <a href=\"#dorian-ashwood\">Read Dorian’s arrival</a>.</p><h2 id=\"thread-restraint\">Grief and the limits of vengeance</h2><p>During the Swift Foot investigation, Dorian threatens three Rahu witnesses who repeat the account given by their captain. Vaemyr steps between them and refuses to let questioning become torture. Dorian withdraws; the witnesses maintain that they speak what they saw. Their agreement is testimony, not an independent resolution of Swift’s death. Vaemyr’s intervention shows what protecting a friend can require when grief turns toward violence.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270835744268619810\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270838074380779623\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270840856404037744\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270841936948887562\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270843107667214549\" target=\"_blank\" rel=\"noopener\">5</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "vaemyr-context",
+      "title": "Understand before you destroy",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-diplomacy",
+      "title": "Diplomacy under pressure",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-decisions",
+      "title": "Five decisions that reveal the arc",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-olokun",
+      "title": "Olokun, his pana",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-calligraphy",
+      "title": "July 2024: the calligraphy lesson",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-swift",
+      "title": "Swift Foot: grief without forced certainty",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-wren",
+      "title": "Wren and the refusal to leave",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-roads-return",
+      "title": "The Roads and the November battle",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-public-memory",
+      "title": "Vaemyr the Arcane",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-development",
+      "title": "What attachment changes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "ada-reputation-vaemyr",
+      "title": "Contemporary reputation · 19 August 2024",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-gate-0",
+      "title": "Learning to welcome the stranger",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "thread-restraint",
+      "title": "Grief and the limits of vengeance",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — Vaemyr scenes and internal narration",
+          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
+          "Gate chronicle · primary arrival and welcome scenes",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Tiefling wizard; diplomat and consequence-minded protector",
+    "significance": "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve.",
+    "actions": [
+      {
+        "title": "Vaemyr’s arrival ends in an apology to Goo",
+        "event": "Vaemyr’s arrival ends in an apology to Goo",
+        "date": "2024-06-15 · posting date (UTC)"
+      },
+      {
+        "title": "Vaemyr guides Dorian away from the damaged Gate",
+        "event": "Vaemyr guides Dorian away from the damaged Gate",
+        "date": "2024-07-30 · posting date (UTC)"
+      },
+      {
+        "title": "Hildethrax guards the Rahu archives",
+        "event": "Hildethrax guards the Rahu archives",
+        "date": "7 Aug 2024"
+      }
+    ],
+    "status": "Last dated entry in this selection: 7 Aug 2024. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "wren",
+        "label": "Wren",
+        "relation": "From calligraphy to shared danger"
+      },
+      {
+        "id": "olokun",
+        "label": "Olokun",
+        "relation": "Belonging learned through his pana"
+      },
+      {
+        "id": "scribonia",
+        "label": "Scribonia",
+        "relation": "Expertise trusted and challenged"
+      },
+      {
+        "id": "swift-foot",
+        "label": "Swift Foot",
+        "relation": "Grief held to a standard of evidence"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "relationshipMap": {
+    "title": "Vaemyr’s relationship web",
+    "intro": "Select a connection to follow the documented bond, its turning points, and what remains unresolved. This is a historical network, not a claim that every relationship remains unchanged.",
+    "center": {
+      "title": "Vaemyr",
+      "subtitle": "Understanding becomes chosen obligation"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "Bonds & care"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "wren",
+        "article": "wren",
+        "title": "Wren",
+        "category": "bond",
+        "subtitle": "From calligraphy to shared danger",
+        "relation": "From calligraphy to shared danger",
+        "history": "An interest in calligraphy becomes an explicitly chosen date. After the Roads, Vaemyr seeks Wren’s embrace; during the November battle he refuses to leave her.",
+        "consequence": "Attachment turns the question of responsibility into a commitment to face danger together.",
+        "evidence": "Dale and Vaemyr dossier: dated dialogue and internal narration; later outcomes are not inferred.",
+        "strength": 3,
+        "direction": "mutual",
+        "moments": [
+          {
+            "when": "11–12 July 2024",
+            "text": "Wren calls the lesson a date; Vaemyr makes his own interest clear."
+          },
+          {
+            "when": "13 November 2024",
+            "text": "He returns from the Roads and promises that he would make any sacrifice for her."
+          },
+          {
+            "when": "16 November 2024",
+            "text": "After Dale falls, he tells her he loves her and insists they fight together."
+          }
+        ],
+        "x": 50,
+        "y": 8
+      },
+      {
+        "id": "olokun",
+        "article": "olokun",
+        "title": "Olokun",
+        "category": "bond",
+        "subtitle": "Belonging learned through his pana",
+        "relation": "Belonging learned through his pana",
+        "history": "Olokun welcomes Vaemyr to Prima and becomes a formative influence. Vaemyr’s language of pana grows out of shared survival and teamwork.",
+        "consequence": "Olokun’s death threatens the identity and home Vaemyr has learned to build.",
+        "evidence": "Dale and Vaemyr dossier; the scene records Vaemyr’s grief, without fixing the later state of their relationship.",
+        "strength": 3,
+        "direction": "mutual",
+        "moments": [
+          {
+            "when": "June 2024",
+            "text": "Vaemyr credits teamwork and calls Olokun pana."
+          },
+          {
+            "when": "16 November 2024",
+            "text": "He remembers Olokun’s influence after his death and forces himself onward: “Not. Yet.”"
+          }
+        ],
+        "x": 82,
+        "y": 28
+      },
+      {
+        "id": "scribonia",
+        "article": "scribonia",
+        "title": "Scribonia",
+        "category": "bond",
+        "subtitle": "Expertise trusted and challenged",
+        "relation": "Expertise trusted and challenged",
+        "history": "Vaemyr relies on Scribonia’s judgment in magical investigations while challenging the assumption that unfamiliar beings should be killed first.",
+        "consequence": "Intellectual trust includes the freedom to question a respected companion.",
+        "evidence": "Dale and Vaemyr dossier; a recurring intellectual relationship, not a fixed hierarchy.",
+        "strength": 3,
+        "direction": "mutual",
+        "moments": [
+          {
+            "when": "June 2024",
+            "text": "Investigation and protective spellwork establish their practical collaboration."
+          },
+          {
+            "when": "28 June 2024",
+            "text": "Vaemyr argues that violence should not be the first plan without context."
+          }
+        ],
+        "x": 78,
+        "y": 76
+      },
+      {
+        "id": "swift-foot",
+        "article": "swift-foot",
+        "title": "Swift Foot",
+        "category": "bond",
+        "subtitle": "Grief held to a standard of evidence",
+        "relation": "Grief held to a standard of evidence",
+        "history": "Vaemyr wants the Rahu witnesses’ account of Swift’s death to be false. He still questions carefully and intervenes when Dorian threatens torture.",
+        "consequence": "Loyalty to the dead does not authorize coercion of the living.",
+        "evidence": "Swift Foot and Dale/Vaemyr dossiers; the exact date of every exchange in the aftermath remains incomplete.",
+        "strength": 3,
+        "direction": "mutual",
+        "moments": [
+          {
+            "when": "After 6 August 2024",
+            "text": "Swift’s death drives Vaemyr to examine the witnesses’ account rather than accept the description of an assassin."
+          },
+          {
+            "when": "The aftermath",
+            "text": "He stops Dorian from torturing witnesses and continues his own questions."
+          }
+        ],
+        "x": 22,
+        "y": 76
+      }
+    ],
+    "insights": [
+      {
+        "label": "Read through time",
+        "value": "Turning points",
+        "note": "Dates belong to recovered scenes; gaps remain open."
+      },
+      {
+        "label": "Follow a connection",
+        "value": "Linked histories",
+        "note": "Each selected person or place opens a related Codex record."
+      }
+    ]
+  },
+  "profile": {
+    "personality": "Vaemyr is careful because he takes consequences seriously. He admits uncertainty, tests whether compassion can actually protect the people it gathers, and can still reach severe moral conclusions when the alternative costs an entire continent. His restraint contains deep feeling rather than replacing it.",
+    "achievements": "He survives repeated dungeon and corruption expeditions, helps stabilize Pristinia, and becomes a useful diplomatic voice during the Talon, Duchess, and Rahu crisis. His decisive achievement is relational: caution matures into a willingness to remain when survival would be easier through abandonment. Intervened in the Swift Foot investigation to stop Dorian threatening witnesses with torture, then completed the questioning without resolving the dispute.",
+    "relationships": "Wren is his deepest bond and the person he refuses to leave even when she asks him to save himself. Olokun is his pana, the man who welcomed him into Prima, pulls him back from fear, and helps shape who he becomes. Those attachments turn responsibility from a calculation into identity."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "tshuka-hayim",
+  "title": "Tshuka Hayim",
+  "category": "People",
+  "type": "Traveler · Shadow Roads witness",
+  "dek": "A traveler whose remembered rules of the Shadow Roads coexist with curiosity, practical aid and a growing place in local memory.",
+  "tags": [
+    "Tshuka Hayim",
+    "Tshuka"
+  ],
+  "facts": {
+    "Origin": "Shadow Roads, by her account",
+    "Testimony": "Sound, danger and overlapping realms",
+    "Relationships": "Recorded network; fuller history unresolved"
+  },
+  "sources": [
+    "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+    "Selected primary scenes and established public histories; anchors below"
+  ],
+  "body": "<p>Tshuka’s account of the Shadow Roads is carried through fear as well as words. Her unfamiliarity with local customs does not make her passive: she observes, asks questions and tries to help people while learning how to live among them.</p><h2 id=\"tshuka-sound\">July 2025 · sound and remembered danger</h2><p>In the workshop conversation she distinguishes pain from terror: sound frightens her because, on the Roads, she says it can summon a being she calls the Destroyer. Her telepathic voice can remain calm while visible fear spreads across her face.</p><p>She says the Roads overlap other realms. These statements are situated testimony, not a complete cosmology. The danger she remembers is real to her, while its identity, reach and applicability away from the Roads remain unconfirmed. Another person’s question about the Wyrm does not establish that the two names identify the same entity.</p><h2 id=\"tshuka-curiosity-and-aid\">Curiosity becomes practical aid</h2><p>Later that day she attends a noisy gathering partly to understand the people around her. She brings drinks, flinches at a microphone and tries to fit in. When she learns of people being held and sold against their will, she reaches out and seeks allies who will help free them.</p><p>Her communications with Ryvyt and others preserve concern and coordination under conditions that frighten her. They establish an attempt to help, not a guarantee that every part of her proposed rescue succeeds. Fear does not prevent action, and action does not mean the fear has disappeared.</p><h2 id=\"tshuka-local-memory\">Belonging and remembrance</h2><p>The later public funeral record preserves her view that Papirak’s staff should be buried with him or retained for Pristinia’s defense. The alternatives hold memory and civic need together. Her history therefore continues into local responsibility instead of ending with a warning about another realm.</p><p>Elenia remains part of her recorded relationship network, but the supplied dossier does not establish a complete account of dependence, mentorship or equality between them. Those possibilities remain questions, not assigned roles.</p><h2 id=\"tshuka-open-history\">The open history</h2><p>Her first arrival, complete relationship history, personal encounters with the Destroyer and the exact mechanisms of the Roads remain unresolved. Her bodily fear supports the significance of the experience without proving every interpretation or requiring a clinical label.</p><h2 id=\"deep-recorded-scenes\">Recorded scenes</h2><p>Dates refer to transcript postings, not an independently established in-world calendar.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1369505923411738674/1398429228470636655\">25 July 2025 · her distinction between pain and terror</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1369505923411738674/1398429831494111296\">She names the Destroyer</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1369505923411738674/1398431253526741063\">Calm communication and visible fear</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1369505923411738674/1398435143785644112\">Her realm-overlap account</a></li></ul>",
+  "image": "assets/characters/tshuka.png",
+  "imageAlt": "Tshuka Hayim",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "tshuka-sound",
+      "title": "July 2025 · sound and remembered danger",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "tshuka-curiosity-and-aid",
+      "title": "Curiosity becomes practical aid",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "tshuka-local-memory",
+      "title": "Belonging and remembrance",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "tshuka-open-history",
+      "title": "The open history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "deep-recorded-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Traveler · Shadow Roads witness",
+    "significance": "A traveler whose remembered rules of the Shadow Roads coexist with curiosity, practical aid and a growing place in local memory.",
+    "actions": [
+      {
+        "title": "Pristinia opens a vote on Papirak’s Staff of Power",
+        "event": "Pristinia opens a vote on Papirak’s Staff of Power",
+        "date": "30 Sep 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: 30 Sep 2026. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "A traveler whose remembered rules of the Shadow Roads coexist with curiosity, practical aid and a growing place in local memory."
+  }
+}

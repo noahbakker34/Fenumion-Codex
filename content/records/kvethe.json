@@ -1,0 +1,86 @@
+{
+  "id": "kvethe",
+  "title": "Kvethe",
+  "category": "People",
+  "type": "Survivor · naturalist and local leader",
+  "dek": "A defender of Babel’s remaining people who balances secrecy, ecological knowledge, and a refusal to abandon her home.",
+  "tags": [
+    "Kvethe",
+    "Babel-Ashur",
+    "Skylight Refuge",
+    "Survivors"
+  ],
+  "facts": {
+    "Region": "Babel-Ashur",
+    "Recorded at": "Skylight Refuge",
+    "Account": "Surviving testimony; exact in-world date unresolved"
+  },
+  "sources": [
+    "Babel quest record · campfire testimony, August 2026"
+  ],
+  "body": "<p>Kvethe is a survivor of <a href=\"#babel-ashur\">Babel-Ashur</a> who appears to lead the group gathered around the fire at <a href=\"#skylight-refuge\">Skylight Refuge</a>. She describes scattered tribes that avoid contact so a captured person cannot reveal the others’ hiding places. In her account, memory-taking magic makes knowledge itself a danger.</p><h2 id=\"kvethe-seeds\">The seeds and the missing elders</h2><p>Kvethe says the other tribes are hiding two remaining seeds. She reports that her own group’s elder died the previous spring; elders in other sects may still preserve knowledge her group has lost. Her story about thawing an Ice King’s throne is inherited testimony, not a witnessed restoration or a proven method. She describes his desire to exchange the seeds for godhood as legend.</p><h2 id=\"kvethe-nature\">A naturalist under occupation</h2><p>She says both hostile rulers breed the jungle’s animals into creatures of darkness and excess. Even so, she believes twisted animals can be brought back into an ecosystem. Her account challenges the idea that the island’s dangerous wildlife must be beyond recovery. It does not establish a successful cure.</p><h2 id=\"kvethe-home\">A home worth defending</h2><p>Kvethe accepts that children might be evacuated and agrees that the entrusted seed could be hidden elsewhere until needed. For herself she insists on staying: the land is her birthplace, and she owes its earlier inhabitants her defense. Her willingness to fight is a personal commitment, not evidence that every survivor chooses the same future.</p>",
+  "image": "assets/characters/kvethe.jpg",
+  "imageAlt": "Kvethe in a forest, with dark hair and feathered adornments",
+  "imageCaption": "Kvethe",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "kvethe-seeds",
+      "title": "The seeds and the missing elders",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Babel quest record · campfire testimony, August 2026"
+        ]
+      }
+    },
+    {
+      "id": "kvethe-nature",
+      "title": "A naturalist under occupation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Babel quest record · campfire testimony, August 2026"
+        ]
+      }
+    },
+    {
+      "id": "kvethe-home",
+      "title": "A home worth defending",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Babel quest record · campfire testimony, August 2026"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Survivor · naturalist and local leader",
+    "significance": "A defender of Babel’s remaining people who balances secrecy, ecological knowledge, and a refusal to abandon her home.",
+    "actions": [
+      {
+        "title": "Babel’s survivors tell their own stories",
+        "event": "Babel’s survivors tell their own stories",
+        "date": "5 Aug 2026 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 5 Aug 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

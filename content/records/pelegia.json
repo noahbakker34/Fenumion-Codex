@@ -1,0 +1,178 @@
+{
+  "id": "pelegia",
+  "title": "Pelegia",
+  "category": "People",
+  "type": "Seeker · gravedigger and civic servant",
+  "dek": "Urges retreat from Hana’s tower and returns with Ryvyt to question market residents about the forest. Insists on burial in the harpy cave, helps gather Tabitha’s ingredients and gains purpose through trusted service at Papirak’s funeral. An adventurer who introduces himself to the company, stays close to Carmen and offers healing after a fight.",
+  "tags": [
+    "Player character",
+    "Pin",
+    "Pell",
+    "Pelagia",
+    "Seekers",
+    "Pristinia"
+  ],
+  "facts": {
+    "Role": "Player character",
+    "Aliases": "Pin · Pell · Pelagia"
+  },
+  "image": "assets/characters/pell.png",
+  "sources": [
+    "User canon clarification · 11 October 2026",
+    "Main quest-RP archive · introduction and healing scenes",
+    "User identity correction · 12 October 2026",
+    "The Seekers and quest continuation histories"
+  ],
+  "body": "<p><strong>Pelegia</strong>, also recorded as <strong>Pin</strong>, <strong>Pell</strong> and <strong>Pelagia</strong>, is one player character.</p><h2 id=\"pelegia-seeker\">A Seeker and civic servant</h2><p>Pelegia explores the contaminated harpy cave with the Seekers. Fear does not erase the insistence that a corrupted corpse deserves burial: the dead person must remain more than an investigative clue. Vessalia offers emotional shelter while Di’Trillio, Minerva and Fenwick give the investigation a shared structure.</p><p>Later service includes gathering Mama Tabitha’s ingredients, preparing Papirak’s grave, planning a mausoleum and helping with fundraising. These trusted tasks give Pelegia purpose within Pristinia.</p><h2 id=\"pelegia-larkhollow\">The Larkhollow expeditions</h2><p>Recorded as Pelagia, Pelegia urges retreat from Hana’s tower when the company is in danger, then returns with Ryvyt to question market residents about the forest. Their differing apparent travel durations remain unexplained.</p><h2 id=\"pelegia-pin\">Meeting the company as Pin</h2><p>Pin is a player character. In his introduction to the company, he gives his name and stays close to <a href=\"#carmen\">Carmen</a> while meeting unfamiliar companions. The scene places him among the adventurers without establishing a home island.</p><h2 id=\"pin-practical-care\">Care after the fight</h2><p>In a later encounter he offers healing and acknowledges Carmen’s final shot. This preserves an act of practical support without inventing a complete biography, allegiance or later fate.</p><h2 id=\"pin-source-scenes\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1328541217855770677\">Pin introduces himself</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1341600560326901790\">An offer of healing</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1341600728736731198\">Acknowledging Carmen’s shot</a></li></ul><h2 id=\"pelegia-context\">Shared histories</h2><p><a href=\"#cave-company\">Read the Seekers’ complete history →</a></p>",
+  "relatedRecords": [
+    "cave-company",
+    "carmen",
+    "papirak"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "pelegia-seeker",
+      "title": "A Seeker and civic servant",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon clarification · 11 October 2026",
+          "Main quest-RP archive · introduction and healing scenes",
+          "User identity correction · 12 October 2026",
+          "The Seekers and quest continuation histories"
+        ]
+      }
+    },
+    {
+      "id": "pelegia-larkhollow",
+      "title": "The Larkhollow expeditions",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon clarification · 11 October 2026",
+          "Main quest-RP archive · introduction and healing scenes",
+          "User identity correction · 12 October 2026",
+          "The Seekers and quest continuation histories"
+        ]
+      }
+    },
+    {
+      "id": "pelegia-pin",
+      "title": "Meeting the company as Pin",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon clarification · 11 October 2026",
+          "Main quest-RP archive · introduction and healing scenes",
+          "User identity correction · 12 October 2026",
+          "The Seekers and quest continuation histories"
+        ]
+      }
+    },
+    {
+      "id": "pin-practical-care",
+      "title": "Care after the fight",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon clarification · 11 October 2026",
+          "Main quest-RP archive · introduction and healing scenes",
+          "User identity correction · 12 October 2026",
+          "The Seekers and quest continuation histories"
+        ]
+      }
+    },
+    {
+      "id": "pin-source-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon clarification · 11 October 2026",
+          "Main quest-RP archive · introduction and healing scenes",
+          "User identity correction · 12 October 2026",
+          "The Seekers and quest continuation histories"
+        ]
+      }
+    },
+    {
+      "id": "pelegia-context",
+      "title": "Shared histories",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon clarification · 11 October 2026",
+          "Main quest-RP archive · introduction and healing scenes",
+          "User identity correction · 12 October 2026",
+          "The Seekers and quest continuation histories"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Seeker · gravedigger and civic servant",
+    "significance": "Urges retreat from Hana’s tower and returns with Ryvyt to question market residents about the forest. Insists on burial in the harpy cave, helps gather Tabitha’s ingredients and gains purpose through trusted service at Papirak’s funeral. An adventurer who introduces himself to the company, stays close to Carmen and offers healing after a fight.",
+    "actions": [
+      {
+        "title": "Pappy and Eldin welcome Pin from Midgard",
+        "event": "Pappy and Eldin welcome Pin from Midgard",
+        "date": "2025-01-06 · posting date (UTC)"
+      },
+      {
+        "title": "Papirak’s staff is entombed under Sequester",
+        "event": "Papirak’s staff is entombed under Sequester",
+        "date": "30 Sep 2026 · funeral"
+      },
+      {
+        "title": "Papirak’s mourners turn toward living",
+        "event": "Papirak’s mourners turn toward living",
+        "date": "30 Sep 2026 · funeral"
+      }
+    ],
+    "status": "Last dated entry in this selection: 30 Sep 2026 · funeral. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "carmen",
+        "label": "Carmen",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "cave-company",
+        "label": "The Seekers",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "personality": "Pell is frightened in ways the record never mocks and practical in ways fear does not erase. The most important part of Pell’s cave history is moral clarity: a corrupted corpse is still somebody’s child, and danger does not cancel the obligation to recognize a life that existed before the horror. Introduces himself to unfamiliar companions while remaining close to Carmen.",
+    "achievements": "Pell helps the Seekers explore a cave marked by contamination, crystalline anomalies, malformed harpies, and a dead body whose condition becomes evidence. Staying present long enough to observe, argue for burial, and continue with the company is an achievement of endurance rather than spectacle. Pell gives the unnamed cave dead a last prayer before the collapse. At Papirak’s funeral he describes service as a source of purpose after doubting his usefulness on expeditions. The September ingredient quest also shows him helping examine Bogdan, then receiving treatment for an accidental anaesthetic exposure. The tower expedition shows her choosing retreat when the company is in danger. On the market journey, she and Ryvyt experience different apparent travel durations; no single mechanism is established. Offers healing after a fight and acknowledges Carmen’s final shot.",
+    "relationships": "Vessalia’s attention gives Pell emotional shelter, while Di’Trillio’s technical observations and Minerva and Fenwick’s investigation give the fear a shared structure. Pell’s insistence on burial also changes the group’s relationship with the dead: the body cannot be treated only as a clue, obstacle, or contaminated object. Recorded alongside Carmen and the adventuring company; further relationships are not established here."
+  }
+}

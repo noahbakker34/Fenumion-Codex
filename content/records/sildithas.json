@@ -1,0 +1,303 @@
+{
+  "id": "sildithas",
+  "title": "Sildithas",
+  "category": "People",
+  "type": "Oathbound defender",
+  "image": "sildithas-portrait.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Sildithas, a green-skinned elven defender wearing a blue cloak and leafy mantle",
+  "imageCaption": "Sildithas — oathbound defender and keeper of the light.",
+  "dek": "Sildithas begins as an instrument of near-divine will. When the gods stop fitting a neat moral hierarchy, he discovers that an oath can still preserve mercy, hope, flourishing, and joy without pretending certainty.",
+  "tags": [
+    "Sildithas",
+    "Duty",
+    "Death",
+    "Shadow Roads",
+    "Oath",
+    "The Maw",
+    "Faith",
+    "Joy"
+  ],
+  "facts": {
+    "Trial": "Died and returned after the Plains of Trial",
+    "Method": "Listen first, act second",
+    "Crisis": "Divine hierarchy no longer explains itself",
+    "Moral floor": "Mercy · flourishing · joy · courage · hope",
+    "Response": "Create a small good while horror remains"
+  },
+  "sources": [
+    "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+    "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+    "Pasted markdown(20260909-030027).md — retrieval from the portal",
+    "docs/SILDITHAS_HISTORY.md — reconciled internal dossier",
+    "Quest receipt · 2025-09-27 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1421502546098393139",
+    "Compatible rp receipt · 2025-08-14 UTC · https://discord.com/channels/1177270231513694249/1250334670957051958/1405399510766845993"
+  ],
+  "body": "<p>Sildithas is a courteous, nature-aligned, oath-centered defender. His early faith rests on an orderly relationship between divinity and mortal action: he is an <strong>instrument of near-divine will</strong>, receiving power from higher beings and carrying it responsibly into the world. Fenumion does not destroy that faith. It steadily removes the simplicity of its hierarchy.</p>\n      <p>His developing story moves from confidence in divine authority toward confidence in chosen moral commitments when divine authority becomes opaque. Mercy, hope, flourishing, beauty, courage, and joy remain actionable even when the gods do not explain themselves.</p>\n      <h2 id=\"sildithas-preparation\">Preparation as protection</h2>\n      <p>By July 2024, Sildithas is organizing defense training at Pristinia’s wall. He recruits Papirak to summon real creatures for an exercise, and Papirak’s sudden lucidity exposes an old aversion to actual battle. Training is not spectacle for Sildithas. It is the work required before abstraction becomes bloodshed.</p>\n      <h2 id=\"sildithas-trial\">The Plains of Trial</h2>\n      <p>Sildithas dies in the Plains and returns only hours later. He does not excuse the result: “The Plains of Trial took my measure, and I failed.” He does not blame chance or demand Ithilrûnë carry the failure alone. Their preparation was insufficient.</p>\n      <p>This gives his later courage its cost. When he says danger is where he belongs, he is not romanticizing something he has never paid for. Danger has already killed him.</p>\n      <h2 id=\"sildithas-shadow-roads\">Duty without ownership</h2>\n      <p>At the Shadow Roads, Ithilrûnë enters for knowledge. Sildithas enters because danger threatens others and he believes his place is before it. Coralyn says she does not think they should go. He does not shame or command her; he explains his own obligation and refuses to turn it into hers.</p>\n      <p>Duty governs Sildithas without automatically authorizing him to govern somebody else. His courage is most defensible when it remains a demand he places on himself.</p>\n      <h2 id=\"sildithas-maw\">Listening at the Maw</h2>\n      <p>The September 2026 Chains/Maw crisis on <a href=\"#voraketh\">Voraketh</a> resists normal power and explanation. Enormous antimagic Chains attributed to Talan suppress magic while dangerous constructs defend or repair them. The Maw consumes magic. A figure is associated with it, another may be watching, and intervention may be rescue or catastrophe.</p>\n      <p>Sildithas follows advice attributed to Murr: <strong>listen first, act second</strong>. He asks how the Maw’s pull compares with the Shadow Roads, whether anyone attempted communication, whether the Chain can be renewed, whether its constructs possess finite resources, and whether one concentrated breach would be safer than repeated attacks. Patience is not passivity; it is how he tries to make action responsible.</p>\n      <h2 id=\"sildithas-theology\">When divine hierarchy stops being neat</h2>\n      <p>Ithilrûnë admits that Talan’s apparent use of Delerium has shaken her understanding. Sildithas responds by exposing his own uncertainty. Since arriving through the Gate, the gods have seemed surprisingly person-like. He cannot tell whether his theology changed because he grew or because he finally saw divine beings clearly.</p>\n      <p>He does not conclude that the gods are false, evil, or irrelevant. He separates uncertainty about divine caretakers from the commitments by which he intends to live. Talan’s apparent fear of the Maw becomes evidence to consider, not a verdict that ends moral inquiry.</p>\n      <h2 id=\"sildithas-oath\">The oath as a moral floor</h2>\n      <p>When external authority becomes unreliable, Sildithas returns to his oath. <strong>Kindle the Light</strong> answers despair with mercy and forgiveness. <strong>Shelter the Light</strong> protects goodness, love, and flourishing life from annihilation. <strong>Preserve Your Own Light</strong> guards joy, song, laughter, beauty, and art. <strong>Be the Light</strong> makes courage and hope visible to people living in despair.</p>\n      <p>The oath answers an epistemic problem. Sildithas may not know what the gods are doing, but he can still choose what kind of person he will be while searching for the truth. His faith becomes ethical without ceasing to be faith.</p>\n      <h2 id=\"sildithas-feast\">A feast beside unresolved horror</h2>\n      <p>The group cannot solve the Maw. The island is hostile, their numbers are small, the Chain suppresses their abilities, and Ithilrûnë is visibly fraying. Sildithas does not pretend food will solve the structure. He proposes a feast because preserving joy is itself part of resisting what the island is doing to them.</p>\n      <p>Food, companionship, beauty, and respite are not distractions from his oath. They are applications of it. He chooses to create a small good while the unresolved horror still exists.</p>\n      <h2 id=\"sildithas-ithilrune\">“Keep what is most truly you from flickering out.”</h2>\n      <p>Sildithas begins the conversation by naming <a href=\"#ithilrune\">Ithilrûnë</a> the company’s master of magic. When she admits how badly the island has shaken her, he neither offers empty reassurance nor competes with her by inventing a better theory. He shares his own theological uncertainty.</p>\n      <p>The equality matters. Her epistemic crisis draws out his crisis of authority; his oath gives her permission to stop solving for a moment without treating her as weak. His farewell asks her to preserve the part of herself that makes solving anything worthwhile.</p>\n      <h2 id=\"sildithas-relationships\">Relationships and method</h2>\n      <p>Ithilrûnë is his intellectual counterweight and trusted friend. Coralyn is a powerful ally whose refusal he respects even when choosing differently. Pappy is both companion and enormous physical asset. Murr’s advice continues to shape his method. Communion with Physisia has made divine authority more complicated, not less; Talan’s apparent fear informs Sildithas without automatically deciding for him.</p>\n      <h2 id=\"sildithas-trajectory\">Faith after certainty</h2>\n      <p>His current movement is <strong>secure instrument of divine will → opaque or fallible divine caretakers → uncertainty about hierarchy → return to oath rather than certainty → moral action without complete metaphysical understanding</strong>. This is not apostasy. It may be a more mature faith, grounded in responsibility rather than the assumption that power is automatically correct.</p>\n      <h2 id=\"sildithas-unresolved\">What remains unresolved</h2>\n      <p>The archive identifies the island as Voraketh and dates the Chain/Maw crisis to September 2026, but it does not identify the exact day. The fuller history of Murr, whether the feast occurs, and how his ethical faith will respond if a divine caretaker directly commands something his oath appears to reject remain unresolved.</p><h2 id=\"sildithas-last-grove\">A duty at the Last Grove</h2><p>After the April exclusion, Sildithas reaches <a href=\"#last-grove\">the Last Grove</a>, apologises and hears Physisia’s command to stop the devouring. He proposes confronting the inner threat before severing the Chains, taking the following warmth and breeze as approval. His later description of the tree as a “likely prison” remains his interpretation.</p>\n<h2 id=\"sildithas-scene-sequence\">Scenes in sequence</h2>\n<p>These selected scenes preserve what was knowable when people acted. Dates below identify source postings in UTC; they do not supply an in-world calendar. A later appearance does not settle present status.</p><ol class=\"scene-sequence\"><li><p class=\"scene-date\">2025-09-27 · quest</p><h3>Fear becomes a reason to investigate</h3><p>Sildithas argues that local fear of the Maw is a reason to go where help may be needed.</p><dl><div><dt>Known at this stage</dt><dd>He has reports and concern, not a settled explanation.</dd></div><div><dt>Consequence</dt><dd>His impulse toward service leads him toward uncertainty.</dd></div><div><dt>Still unresolved</dt><dd>The proposal does not establish what the Maw is.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1421502546098393139\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li><li><p class=\"scene-date\">2025-08-14 · compatible RP</p><h3>Restoration remembered later</h3><p>Sildithas later attributes trees and forest to earlier restoration work.</p><dl><div><dt>Known at this stage</dt><dd>He is describing an inherited landscape from a later vantage point.</dd></div><div><dt>Consequence</dt><dd>The account links Gael’s present to the people who worked there.</dd></div><div><dt>Still unresolved</dt><dd>Retrospective credit supplements the direct December scenes rather than replacing them.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1405399510766845993\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li></ol>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "sildithas-preparation",
+      "title": "Preparation as protection",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-trial",
+      "title": "The Plains of Trial",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-shadow-roads",
+      "title": "Duty without ownership",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-maw",
+      "title": "Listening at the Maw",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-theology",
+      "title": "When divine hierarchy stops being neat",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-oath",
+      "title": "The oath as a moral floor",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-feast",
+      "title": "A feast beside unresolved horror",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-ithilrune",
+      "title": "“Keep what is most truly you from flickering out.”",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-relationships",
+      "title": "Relationships and method",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-trajectory",
+      "title": "Faith after certainty",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-unresolved",
+      "title": "What remains unresolved",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-last-grove",
+      "title": "A duty at the Last Grove",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — expanded Sildithas profile and Chain/Maw conversation, supplied 23 Sep 2026",
+          "Pasted markdown(20260909-025456).md — resurrection, responsibility, and the portal",
+          "Pasted markdown(20260909-030027).md — retrieval from the portal",
+          "docs/SILDITHAS_HISTORY.md — reconciled internal dossier"
+        ]
+      }
+    },
+    {
+      "id": "sildithas-scene-sequence",
+      "title": "Scenes in sequence",
+      "chapter": "Scenes and consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Checked scenes · bounded conclusions",
+        "summary": "Selected original scenes checked. Observed actions, plans and attributed statements remain distinct. This does not certify the entire biography.",
+        "scope": "section",
+        "sources": [
+          "Quest receipt · 2025-09-27 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1421502546098393139",
+          "Compatible rp receipt · 2025-08-14 UTC · https://discord.com/channels/1177270231513694249/1250334670957051958/1405399510766845993"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Oathbound defender",
+    "significance": "Sildithas begins as an instrument of near-divine will. When the gods stop fitting a neat moral hierarchy, he discovers that an oath can still preserve mercy, hope, flourishing, and joy without pretending certainty.",
+    "actions": [
+      {
+        "section": "sildithas-scene-sequence",
+        "title": "Follow the checked scenes",
+        "date": "Choices, knowledge and consequences"
+      },
+      {
+        "section": "sildithas-trial",
+        "title": "The Plains of Trial"
+      },
+      {
+        "section": "sildithas-maw",
+        "title": "Listening at the Maw"
+      },
+      {
+        "section": "sildithas-feast",
+        "title": "A feast beside unresolved horror"
+      }
+    ],
+    "status": "Last dated entry in this selection: Sep 2026 · exact day unresolved. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "voraketh",
+        "label": "Voraketh",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "ithilrune",
+        "label": "Ithilrûnë Ailinor",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance.",
+    "curatedActions": true
+  },
+  "profile": {
+    "personality": "Sildithas defines courage as standing in front of danger without pretending that strength guarantees understanding. Duty drives him, but his mature wisdom includes mercy, flourishing, and joy—especially when cleverness has reached the edge of what it can solve.",
+    "achievements": "He joins the meteor expedition, organizes defense training, enters the Shadow Roads, carries early knowledge of Voraketh’s Maw, and later proposes a feast beside that unresolved horror. His record turns apparent failure in the Plains of Trial into a more humane oath rather than a demand for harsher power.",
+    "relationships": "Ithilrûnë is his most important intellectual companion at Voraketh: when her model fails, she agrees to follow his different form of wisdom. Coralyn, Carmen, St. Anky, Brianna, and Ghilsen share the Shadow Roads history, while his oath positions him as a protector whose duty is to preserve people’s inner light as well as their bodies."
+  }
+}

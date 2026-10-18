@@ -1,0 +1,103 @@
+{
+  "id": "orrik-wheelwright",
+  "title": "Orrik the Wheelwright",
+  "category": "People",
+  "type": "Wheelwright · civic participant",
+  "dek": "A resident whose suspicion of adventurers coexists with concrete proposals for changing how Pristinia is governed.",
+  "tags": [
+    "Orrik the Wheelwright",
+    "NPCs",
+    "Prima",
+    "Orrik"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Wheelwright · civic participant",
+    "Record": "Public scenes; later status not established",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Main quest-RP archive · message anchors below",
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+  ],
+  "body": "<h2 id=\"orrik-wheelwright-1\">A skeptical resident</h2><p>Orrik objects to intrusive magic and to adventurers treating the town as theirs. Vizsla reminds him of their past help, so the argument preserves disagreement within the civilian community rather than giving residents a single voice.</p><h2 id=\"orrik-wheelwright-2\">Reform and commitment</h2><p>He presents his group’s proposals for lower candidacy ages, limited terms and excluding adventurers from Elder elections. He later approves the idea of property ownership as evidence that newcomers have invested in the town. These are positions in a debate, not a substitute for the recorded vote outcomes.</p><h2 id=\"orrik-wheelwright-3\">Keeping the institution recognizable</h2><p>At a later assembly he asks that the proposed document retain the familiar name Pristinia Elders instead of renaming the body. He also calls Katherine an Elder. The statement preserves his understanding at that meeting, while the larger history still requires attention to the sequence of decisions.</p><h2 id=\"orrik-wheelwright-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239623090061967493\">Opposition to intrusive magic</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239636634060849223\">His group’s institutional proposals</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239650228865466378\">Property as local commitment</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1494845221865918464\">Retaining the name Pristinia Elders</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1494845922150973551\">Katherine identified as an Elder</a></li></ul>",
+  "image": "assets/characters/discord/3f2b64d6962755bcc937a8163eae50eb4da9ba78e6e854ae92cf6fe5ff2bf387.png",
+  "imageAlt": "Discord depiction of Orrik the Wheelwright",
+  "imageCaption": "Orrik the Wheelwright",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "orrik-wheelwright-1",
+      "title": "A skeptical resident",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "orrik-wheelwright-2",
+      "title": "Reform and commitment",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "orrik-wheelwright-3",
+      "title": "Keeping the institution recognizable",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "orrik-wheelwright-sources",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Wheelwright · civic participant",
+    "significance": "A resident whose suspicion of adventurers coexists with concrete proposals for changing how Pristinia is governed.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "A resident whose suspicion of adventurers coexists with concrete proposals for changing how Pristinia is governed."
+  }
+}

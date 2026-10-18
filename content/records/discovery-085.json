@@ -1,0 +1,64 @@
+{
+  "id": "discovery-085",
+  "title": "Farmer Frank",
+  "category": "People",
+  "type": "Pristinian farmer",
+  "dek": "Thanks the group for saving the residents; the existing record preserves civilian consequences.",
+  "tags": [
+    "Farmer Frank",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Pristinian farmer",
+    "Island": "Prima",
+    "Census posts": "14",
+    "Recorded span": "2024-03-23 → 2026-07-25",
+    "Prominence": "46/100 · Established",
+    "Recorded presence": "14/20"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Thanks the group for saving the residents; the existing record preserves civilian consequences.</p><p><a href=\"#common-man\">Read the existing Farmer Frank history →</a></p><h2 id=\"discovery-085-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 46/100 · Established</strong></p><p>The existing public record preserves civilian cost and obligations toward farming.</p><ul><li>Consequences: 2/5 · weight 35</li><li>Institutional or witness role: 2/5 · weight 25</li><li>Relationships: 2/5 · weight 20</li><li>Recorded presence: 14/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-085-record\">Archive record</h2><p>The census records 14 posts across 2024-03-23 → 2026-07-25. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1221263640292888636\">Recorded scene · 1221263640292888636</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/83d9e4f8e992b3a9a369352ba19d75bdfbcdb989a83c9ca4506793f65745d5ed.png",
+  "imageAlt": "Discord depiction of Skye",
+  "imageCaption": "Skye",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-085-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-085-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ]
+}

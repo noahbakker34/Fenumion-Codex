@@ -1,0 +1,64 @@
+{
+  "id": "thalanbor-library",
+  "title": "Thalanbor the Boundless Artwright’s Library",
+  "category": "Places",
+  "type": "Library in Fein Uaill",
+  "video": "assets/archive/thalanbor-library.mp4",
+  "videoType": "video/mp4",
+  "videoLayout": "landscape-hero",
+  "videoAlt": "A moving visual record of Thalanbor the Boundless Artwright’s Library",
+  "videoCaption": "Thalanbor the Boundless Artwright’s Library — user-supplied moving location record, 27 September 2026.",
+  "dek": "A monumental library in Fein Uaill whose name survives more clearly than its founder, collections, or institutional history.",
+  "tags": [
+    "Thalanbor",
+    "Artwright",
+    "Library",
+    "Fein Uaill",
+    "Locations"
+  ],
+  "facts": {
+    "Region": "Fein Uaill",
+    "Type": "Library",
+    "Namesake": "Thalanbor the Boundless Artwright",
+    "Status": "Collections unrecovered"
+  },
+  "sources": [
+    "Fein Uaill location directory — full name and regional placement",
+    "User-supplied moving visual record — Thalanbor the Boundless Artwright’s Library, 27 Sep 2026"
+  ],
+  "body": "<p>Thalanbor the Boundless Artwright’s Library is a named library in <a href=\"#fein-uaill\">Fein Uaill</a>. The full title associates it with Thalanbor and the epithet “the Boundless Artwright,” but the current archive does not yet explain whether Thalanbor founded, designed, owned, endowed, or merely gave a name to the institution.</p>\n      <h2 id=\"thalanbor-evidence\">A visual and a name</h2>\n      <p>The location directory and supplied moving record establish a monumental scholarly place. They do not establish the contents of its collections, who may enter, or how its knowledge relates to the Silver Star and other Zarathian custodians.</p>\n      <h2 id=\"thalanbor-open-record\">The open record</h2>\n      <p>Thalanbor’s biography, the library’s date, administration, specialties, magical properties, and role in regional history remain unresolved.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "thalanbor-evidence",
+      "title": "A visual and a name",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill location directory — full name and regional placement",
+          "User-supplied moving visual record — Thalanbor the Boundless Artwright’s Library, 27 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "thalanbor-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill location directory — full name and regional placement",
+          "User-supplied moving visual record — Thalanbor the Boundless Artwright’s Library, 27 Sep 2026"
+        ]
+      }
+    }
+  ]
+}

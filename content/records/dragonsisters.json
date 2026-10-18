@@ -1,0 +1,153 @@
+{
+  "id": "dragonsisters",
+  "title": "The Dragonsisters",
+  "category": "People",
+  "type": "Zarathian Dragonborn sisters and deep-cover agents",
+  "dek": "Sheeva, Kaiya, and Minyah spent five years out of sight; Zarathis brought their service into the light, then each chose a different life after the war.",
+  "tags": [
+    "Dragonsisters",
+    "Dragonborn",
+    "Sheeva",
+    "Kaiya",
+    "Kaiyah",
+    "Minyah",
+    "Zarathis",
+    "Fein Uaill"
+  ],
+  "facts": {
+    "Members": "Sheeva · Kaiya / Kaiyah · Minyah",
+    "People": "Dragonborn",
+    "Allegiance": "Zarathis · Fein Uaill",
+    "Covert service": "Approximately five years",
+    "Public recognition": "15 July 2025",
+    "Honor": "Ladies of the lands; care promised to their families",
+    "Later individual fates": "Unresolved",
+    "Region": "Fein Uaill"
+  },
+  "sources": [
+    "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+  ],
+  "body": "<p>The Dragonsisters are <a href=\"#sheeva-dragonsister\">Sheeva</a>, <a href=\"#kaiya-dragonsister\">Kaiya</a>, and <a href=\"#minyah-dragonsister\">Minyah</a>, three Dragonborn women whose long-term intelligence work helped <a href=\"#zarathis\">Zarathis</a> win its war against the draconic cultists. Their home and service place them within <a href=\"#fein-uaill\">Fein Uaill</a>.</p>\n<p>They served Zarathis while living among its enemies. Their public recognition followed that work; the account does not describe enemy collaborators opportunistically changing sides. They are presented as genuinely close and sincerely aligned with the state they served.</p>\n<h2 id=\"dragonsisters-cover\">Five years living out of sight</h2>\n<p>Captain Zythienne’s public account describes approximately five years studying the enemy, living among them, learning ranks and customs, and risking exposure to bring intelligence home. The approximate duration does not establish an exact starting date or the identities each sister used.</p>\n<p>The enemy is described as dragon or draconic cultists. Its formal faction name is not recovered here. The sisters’ work gave Zarathis knowledge of its opponent’s society and conduct alongside information useful to the war.</p>\n<h2 id=\"dragonsisters-honor\">15 July 2025: service becomes public</h2>\n<p>At the victory celebration, Zythienne calls Sheeva, Kaiyah, and Minyah before the crowd. He credits the sisters with making victory possible and singles out Sheeva for discovering that the enemy fed enslaved captives to dragons.</p>\n<div class=\"quote\">Without them, there is no victory.<cite>Captain Zythienne, honoring the Dragonsisters</cite></div>\n<p>This is a publicly attributed discovery. Its exact circumstances, whether Sheeva directly witnessed a feeding, and whether it caused her scar remain unknown.</p>\n<p>The sisters are elevated to <strong>ladies of the lands</strong>, and their families are promised honor and care across generations. The account describes status and gratitude, without supplying estates, acreage, succession rights, council seats, or military command.</p>\n<h2 id=\"dragonsisters-names\">Names and different presences</h2>\n<p>Kaiyah is the spelling used in the public introduction; later scenes use Kaiya Dragonsister, which the Codex adopts as the primary display name. Both are aliases. Sheeva’s occasional “Dragosister” label is normalized to Dragonsister.</p>\n<p>At the ceremony Minyah waves, Kaiya hides shyly, and Sheeva stands proudly. Later observation identifies Sheeva as the social leader and confirms their closeness. Social leadership does not establish that she formally commanded the five-year operation.</p>\n<h2 id=\"dragonsisters-after\">Three paths after the war</h2>\n<ul><li><a href=\"#sheeva-dragonsister\"><strong>Sheeva</strong></a> takes a reprieve, paints, and develops an openly mutual romantic attachment with Eugene. Her efforts to heal remain her own work; the relationship does not erase her earlier service.</li><li><a href=\"#kaiya-dragonsister\"><strong>Kaiya</strong></a> prefers guile and tact, describes herself as “of the Veil,” and pursues research into Dragonborn origins. Her exact institutional status remains unresolved.</li><li><a href=\"#minyah-dragonsister\"><strong>Minyah</strong></a> stays modest about the honor and prepares for another mission, treating thought and fieldwork as part of being a warrior.</li></ul>\n<p>Their shared mission creates a national legend without making their personalities or later ambitions identical.</p>\n<h2 id=\"dragonsisters-relationships\">Zarathis and the people around them</h2>\n<p>Zythienne makes their hidden contribution publicly visible, but the dossier does not establish that he recruited or managed them throughout the operation. The exact family relationship among the three remains open even though their dialogue and conduct clearly treat them as sisters.</p>\n<p><a href=\"#eugene\">Eugene</a> becomes important to Sheeva; Eldin Stormheart discusses history and arranges a library date with Kaiya; <a href=\"#scribonia\">Scribonia</a> learns Minyah’s plans while dancing with her. These are distinct relationships with different levels of evidence.</p>\n<h2 id=\"dragonsisters-open-record\">The open record</h2>\n<p>Their ages, Dragonborn ancestries, genealogy, recruitment, cover identities, untold experiences during the five years, exact meaning of their honors, and later fates remain unresolved. Wartime operational details are preserved separately from this public history.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "dragonsisters-cover",
+      "title": "Five years living out of sight",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "dragonsisters-honor",
+      "title": "15 July 2025: service becomes public",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "dragonsisters-names",
+      "title": "Names and different presences",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "dragonsisters-after",
+      "title": "Three paths after the war",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "dragonsisters-relationships",
+      "title": "Zarathis and the people around them",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "dragonsisters-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Zarathian Dragonborn sisters and deep-cover agents",
+    "significance": "Sheeva, Kaiya, and Minyah spent five years out of sight; Zarathis brought their service into the light, then each chose a different life after the war.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [
+      {
+        "id": "sheeva-dragonsister",
+        "label": "Sheeva Dragonsister",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "kaiya-dragonsister",
+        "label": "Kaiya Dragonsister",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "minyah-dragonsister",
+        "label": "Minyah Dragonsister",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "eugene",
+        "label": "Eugene",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "scribonia",
+        "label": "Scribonia",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

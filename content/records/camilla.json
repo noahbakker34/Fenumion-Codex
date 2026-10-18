@@ -1,0 +1,183 @@
+{
+  "id": "camilla",
+  "title": "Camilla Blackwood",
+  "category": "People",
+  "type": "Former Hellknight leader · civic advocate",
+  "dek": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order.",
+  "facts": {
+    "Order": "Hellknights of Pristinia",
+    "Latest public declaration": "Order disbanded",
+    "Announced destination": "Voraketh",
+    "Continuing convictions": "Law · order · resistance to corruption"
+  },
+  "body": "<p>Camilla’s recovered civic scenes show a leader willing to create institutions and make public arguments about how Pristinia should be protected.</p><h2 id=\"prima-rp-camilla-mei\">June 2025 · taking responsibility for an Order</h2><p>Camilla says the Hellknights will cooperate with the separate force Fulmin is forming. She later formally declares Mei the Courier a Hellknight. These are evidence of a functioning organization and admitted membership, rather than a title held only by Camilla.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1387083133073227948\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1387100888958763090\" target=\"_blank\" rel=\"noopener\">2</a>.</p><h2 id=\"prima-rp-camilla-charter\">July 2025 · a proposed civic order</h2><p>Camilla reads a charter describing a six-member council and enforcement roles for the Hellknights and Blades of Order. The reading establishes the program she advocates. Its claim of ratification is not treated here as independent confirmation that every clause took effect or remains current law.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1394064701717086331\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1394064912547844348\" target=\"_blank\" rel=\"noopener\">2</a>.</p><h2 id=\"prima-rp-camilla-end\">October 2026 · the Order ends publicly</h2><p>Camilla announces that the Hellknight Order of Pristinia is disbanded and releases those serving under her. She does not reject its original protective purpose or claim that everything it did was wrong. Instead, she acknowledges having treated every failure in town as hers alone to correct, and rejects the idea that greater severity could let her control it all.</p><p>She publicly ends her devotion to Asmodeus and announces a choice to go to Voraketh. She continues to value law, order and confronting corruption, while saying that structure and authority do not by themselves make something righteous. Her announced destination is not evidence of arrival. She explicitly keeps part of the guidance she received private; that undisclosed encounter is not reconstructed here.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1556445815160049760\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1556445817504669802\" target=\"_blank\" rel=\"noopener\">2</a>.</p><p>Her later public change does not erase her earlier service, disagreements or <a href=\"#papirak-legacy\">arguments over Papirak’s legacy</a>. Nor does it establish what institution, if any, replaces her Order.</p><h2 id=\"camilla-crownspire\">Crownspire · making knowledge transferable</h2><p>Camilla’s educational work sits beside her military organization. A July 2026 public scene shows her drawing schematics for Crownspire Academy. The later account presents an ambition to educate residents and Gate arrivals in magical, practical and martial subjects, rather than leave all preparedness with a few powerful adventurers.</p><p>That ambition is one contribution within Pristinia’s continuing civic history. It does not establish that education, defense or shared responsibility began only with her, or that the Academy displaced the settlement’s earlier institutions.</p><p>Her September self-description includes headmaster, Lictor, Infernal Warden, Mistress of the Ember Bastion and founder of the Order of the Ember Gate. These are recorded titles and claims, not a complete independent account of appointments, jurisdiction or the Order’s doctrine. The later disbanding declaration does not establish whether Crownspire closed or what became of each separate institution.</p><h2 id=\"camilla-staff-perspective\">Papirak’s staff · value and incomplete knowledge</h2><p>At the funeral debate she recommends selling Papirak’s Staff of Power. The proposal gives substantial weight to practical value and the use of a powerful asset; it does not independently establish greed, bad faith or a sale. The community’s eventual burial decision remains the outcome.</p><p>When she cannot detect the staff, Camilla warns that it may have been stolen. The established legacy record explains that Sequester prevents detection. Her concern belongs to what she could know at that point, while the burial remains intact. A mistaken theory and deliberate dishonesty are different things.</p><h2 id=\"camilla-continuing-arc\">The later decision remains part of her</h2><p>These scenes deepen the history preceding her October declaration. They do not restore the disbanded Hellknight Order as a current organization, prove her arrival in Voraketh or convert the Ember Gate, Crownspire and the Hellknights into one institution. Her earlier preparedness and later admission that she cannot control every failure belong to the same continuing arc.</p><p class=\"source-note\">Primary public planning: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1528810940265529456\">20 July 2026 · Crownspire schematics</a>. Educational aims and September titles derive from the supplied dossier; funeral outcome from the existing public legacy account.</p><h2 id=\"third-recorded-scenes\">Recorded scenes</h2><p>Dates refer to transcript postings.</p><ul></ul>",
+  "relatedRecords": [
+    "public-square",
+    "hellknight-order",
+    "pristinia",
+    "papirak-legacy",
+    "voraketh"
+  ],
+  "tags": [
+    "Camilla Blackwood",
+    "Prima",
+    "RP history"
+  ],
+  "sources": [
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+    "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+    "Selected primary scenes and established public histories; anchors below"
+  ],
+  "image": "assets/characters/camilla.png",
+  "imageAlt": "Portrait of Camilla Blackwood",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "prima-rp-camilla-mei",
+      "title": "June 2025 · taking responsibility for an Order",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-camilla-charter",
+      "title": "July 2025 · a proposed civic order",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-camilla-end",
+      "title": "October 2026 · the Order ends publicly",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "camilla-crownspire",
+      "title": "Crownspire · making knowledge transferable",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "camilla-staff-perspective",
+      "title": "Papirak’s staff · value and incomplete knowledge",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "camilla-continuing-arc",
+      "title": "The later decision remains part of her",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "third-recorded-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Former Hellknight leader · civic advocate",
+    "significance": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order.",
+    "actions": [
+      {
+        "title": "The new vanguard entrusts leadership to Severina",
+        "event": "The new vanguard entrusts leadership to Severina",
+        "date": "14 Apr 2026 · recovered faction history"
+      },
+      {
+        "title": "Vessalia and Di’trillio share their new cottage",
+        "event": "Vessalia and Di’trillio share their new cottage",
+        "date": "3–4 Oct 2026 · transcript posting dates"
+      },
+      {
+        "title": "Camilla publicly dissolves the Hellknight Order",
+        "event": "Camilla publicly dissolves the Hellknight Order",
+        "date": "4 Oct 2026 · Discord posting date"
+      }
+    ],
+    "status": "Last dated entry in this selection: 4 Oct 2026 · Discord posting date. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "papirak-legacy",
+        "label": "Papirak’s Legacy",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order."
+  }
+}

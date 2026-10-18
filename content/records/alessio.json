@@ -1,0 +1,52 @@
+{
+  "id": "alessio",
+  "title": "Alessio",
+  "category": "People",
+  "type": "Common Man worker",
+  "dek": "Works the tables, cleans mugs, and makes the tavern legible as a civilian workplace.",
+  "tags": [
+    "NPCs",
+    "Alessio"
+  ],
+  "facts": {
+    "Role": "Common Man worker",
+    "Region": "Prima"
+  },
+  "sources": [
+    "The Common Man · existing public history"
+  ],
+  "body": "<p>Works the tables, cleans mugs, and makes the tavern legible as a civilian workplace.</p><h2 id=\"alessio-history\">The surviving history</h2><p>Read <a href=\"#common-man\">The Common Man</a> for the recorded scenes and their context.</p>",
+  "relatedRecords": [
+    "common-man"
+  ],
+  "image": "assets/characters/alessio.png",
+  "imageAlt": "Alessio with pink hair, green eyes and dark ornamental jewelry",
+  "imageCaption": "Alessio",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "alessio-history",
+      "title": "The surviving history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The Common Man · existing public history"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Common Man worker",
+    "significance": "Works the tables, cleans mugs, and makes the tavern legible as a civilian workplace.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

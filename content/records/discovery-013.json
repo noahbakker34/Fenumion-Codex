@@ -1,0 +1,79 @@
+{
+  "id": "discovery-013",
+  "title": "Liora Fenwick",
+  "category": "People",
+  "type": "Mission and ceremony figure",
+  "dek": "Welcomes adventurers in the Unwelcoming peaks with an account of prophecy and later addresses a Pristinian celebration. Her prophetic statements remain her own.",
+  "tags": [
+    "Liora Fenwick",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Mission and ceremony figure",
+    "Island": "Prima",
+    "Census posts": "40",
+    "Recorded span": "2024-07-12 → 2024-11-01",
+    "Prominence": "59/100 · Provisional",
+    "Recorded presence": "11/20",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Welcomes adventurers in the Unwelcoming peaks with an account of prophecy and later addresses a Pristinian celebration. Her prophetic statements remain her own.</p><h2 id=\"discovery-013-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 59/100 · Provisional</strong></p><p>Mission guidance and a public ceremony connect her to several companies and community scenes.</p><ul><li>Consequences: 3/5 · weight 35</li><li>Institutional or witness role: 3/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 11/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-013-record\">Archive record</h2><p>The census records 40 posts across 2024-07-12 → 2024-11-01. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1261473546727854211\">Recorded scene · 1261473546727854211</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1302109342127882364\">Recorded scene · 1302109342127882364</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/03a51b4e5b1a479533ad84453b38781edfafd6de5e59b7cf0961ee065b5f94f9.png",
+  "imageAlt": "Discord depiction of Liora Fenwick",
+  "imageCaption": "Liora Fenwick",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-013-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-013-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Mission and ceremony figure",
+    "significance": "Welcomes adventurers in the Unwelcoming peaks with an account of prophecy and later addresses a Pristinian celebration. Her prophetic statements remain her own.",
+    "actions": [
+      {
+        "title": "The Azarian Peaks expedition reaches the storm",
+        "event": "The Azarian Peaks expedition reaches the storm",
+        "date": "12 Jul 2024 · quest-RP"
+      }
+    ],
+    "status": "Last dated entry in this selection: 12 Jul 2024 · quest-RP. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

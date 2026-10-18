@@ -1,0 +1,148 @@
+{
+  "id": "relationships",
+  "title": "Relationships in Motion",
+  "category": "People",
+  "type": "Relationship history",
+  "dek": "Relationships are historical objects: they acquire triggers, asymmetries, reversals, obligations, and consequences over time.",
+  "tags": [
+    "Relationships",
+    "Change over time",
+    "Agency",
+    "Memory"
+  ],
+  "facts": {
+    "Model": "Prior state → event → change → consequence",
+    "Rule": "Never only friend or enemy",
+    "Focus": "Behavior and asymmetry"
+  },
+  "sources": [
+    "RELATIONSHIPS.md — longitudinal relationship index",
+    "CHARACTER_BIBLE.md — person-level chronology",
+    "MASTER_TIMELINE.md — dated consequences",
+    "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — relationships as causal infrastructure"
+  ],
+  "body": "<p>A static label such as <em>friend</em>, <em>enemy</em>, <em>teacher</em>, or <em>romance</em> cannot preserve what a relationship did to history. The archive tracks what came before, which event altered it, what each person believed, what behavior changed, and what remained unresolved.</p>\n      <div class=\"callout gold\"><p><strong>Relationship method:</strong> what each person wanted → what changed through contact → how behavior changed → which later event became possible → what obligation survived separation or death.</p></div>\n      <h2 id=\"love-and-opposition\">Love without moral agreement</h2>\n      <p><a href=\"#olokun\"><strong>Olokun and Aria</strong></a> move from enemies toward familiarity, enjoyment, emotional importance, and love without resolving their political or moral opposition. Olo’s tenderness does not erase Scribonia’s imprisonment; Aria’s harms do not make Olo’s experience false.</p>\n      <h2 id=\"old-actions-return\">Old actions return through people</h2>\n      <p><a href=\"#arjahn\"><strong>Olokun’s gift to Arjahn</strong></a> later becomes the means of Olo’s resurrection. <a href=\"#nienna\"><strong>Nienna’s loss of Jiangshi</strong></a> shapes the meaning of her final sacrifice. <a href=\"#adelia-hope\"><strong>Adelia’s bond with Hope</strong></a> precedes and explains her later transformation.</p>\n      <h2 id=\"care-without-control\">Care without control</h2>\n      <p><a href=\"#dale\"><strong>Dale supports Saray</strong></a> while recognizing he cannot command her out of guilt. Gartina and Jiangshi compare analytic and embodied models of care without the record declaring a winner. Elenia’s relationships with Nienna, Adelia, and Magnus repeatedly test whether protection can remain stewardship rather than possession.</p>\n      <h2 id=\"knowledge-and-boundaries\">Knowledge and boundaries</h2>\n      <p><a href=\"#eugene\"><strong>Scribonia and Eugene</strong></a> move beyond teacher and student. Scribonia envies the dangerous knowledge entrusted to Eugene, yet recognizes that a former student does not owe every explanation. <a href=\"#casimir-alioth\"><strong>Casimir and Alioth</strong></a> expose competing interpretations of loyalty: interpersonal strength to Alioth, institutional failure to Ephraith.</p>\n      <h2 id=\"obligations-that-survive\">Obligations that survive</h2>\n      <p><a href=\"#elenia\"><strong>Nienna remains active in Elenia’s choices</strong></a> after death. <span class=\"protected-inline\">Protected record</span> connect love, voluntary cost, erased memory, restored truth, and atonement across two millennia. <a href=\"#olokun\"><strong>Olokun’s belonging to Rahu</strong></a> makes his criticism an obligation from within rather than dismissal from outside.</p>\n      <h2 id=\"magnus-network\">Magnus and contested belonging</h2>\n      <p><a href=\"#magnus\"><strong>Magnus Niriin</strong></a> belongs to no single relationship verdict. Dumuzi owns his soul; Zarathis remains the culture he sincerely calls his own; Aria’s fall destabilizes him; Elenia opposes him through terrifying force; Adelia supports and revives him before their later rupture; Miriel advances his political legitimacy; Wren’s trust collapses; Eugene still tries to heal him; and Olokun resists treating him as disposable.</p>\n      <h2 id=\"love-and-possession\">When love becomes possession</h2>\n      <p><a href=\"#roderick-wrath\"><strong>Roderick and Endora</strong></a> are the archive’s clearest warning. Genuine love becomes coercion, then refusal of death, then universalized suffering. Understanding the love does not forgive what Roderick makes it authorize.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "love-and-opposition",
+      "title": "Love without moral agreement",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "RELATIONSHIPS.md — longitudinal relationship index",
+          "CHARACTER_BIBLE.md — person-level chronology",
+          "MASTER_TIMELINE.md — dated consequences",
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — relationships as causal infrastructure"
+        ]
+      }
+    },
+    {
+      "id": "old-actions-return",
+      "title": "Old actions return through people",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "RELATIONSHIPS.md — longitudinal relationship index",
+          "CHARACTER_BIBLE.md — person-level chronology",
+          "MASTER_TIMELINE.md — dated consequences",
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — relationships as causal infrastructure"
+        ]
+      }
+    },
+    {
+      "id": "care-without-control",
+      "title": "Care without control",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "RELATIONSHIPS.md — longitudinal relationship index",
+          "CHARACTER_BIBLE.md — person-level chronology",
+          "MASTER_TIMELINE.md — dated consequences",
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — relationships as causal infrastructure"
+        ]
+      }
+    },
+    {
+      "id": "knowledge-and-boundaries",
+      "title": "Knowledge and boundaries",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "RELATIONSHIPS.md — longitudinal relationship index",
+          "CHARACTER_BIBLE.md — person-level chronology",
+          "MASTER_TIMELINE.md — dated consequences",
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — relationships as causal infrastructure"
+        ]
+      }
+    },
+    {
+      "id": "obligations-that-survive",
+      "title": "Obligations that survive",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "RELATIONSHIPS.md — longitudinal relationship index",
+          "CHARACTER_BIBLE.md — person-level chronology",
+          "MASTER_TIMELINE.md — dated consequences",
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — relationships as causal infrastructure"
+        ]
+      }
+    },
+    {
+      "id": "magnus-network",
+      "title": "Magnus and contested belonging",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "RELATIONSHIPS.md — longitudinal relationship index",
+          "CHARACTER_BIBLE.md — person-level chronology",
+          "MASTER_TIMELINE.md — dated consequences",
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — relationships as causal infrastructure"
+        ]
+      }
+    },
+    {
+      "id": "love-and-possession",
+      "title": "When love becomes possession",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "RELATIONSHIPS.md — longitudinal relationship index",
+          "CHARACTER_BIBLE.md — person-level chronology",
+          "MASTER_TIMELINE.md — dated consequences",
+          "Fenumion_Core_Most_Important_Parts_2026-09-24.zip — relationships as causal infrastructure"
+        ]
+      }
+    }
+  ]
+}

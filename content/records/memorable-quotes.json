@@ -1,0 +1,229 @@
+{
+  "id": "memorable-quotes",
+  "title": "Memorable Quotes",
+  "category": "Archive",
+  "type": "Voices preserved in the archive",
+  "dek": "A focused selection of character-defining words and voices from turning points in Fenumion’s history.",
+  "tags": [
+    "Quotes",
+    "Characters",
+    "Memory",
+    "Primary archive"
+  ],
+  "facts": {
+    "Selection": "38 selected quotations",
+    "Standard": "Memorable and narratively consequential",
+    "Attribution": "Original speaker and source labels",
+    "Scope": "Character-defining lines and consequential history"
+  },
+  "sources": [
+    "Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings",
+    "Character and location dossiers — previously recovered lines and linked historical context",
+    "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope",
+    "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations",
+    "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words",
+    "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue",
+    "User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come",
+    "Vessalia_RP_and_Quests.txt — attributed dialogue from five cited scene pages; OCR remains provisional",
+    "Gate chronicle · five attributed lines from reviewed public scenes",
+    "Castle chronicle · four attributed excerpts from January 2025 scenes",
+    "Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025"
+  ],
+  "body": "<p>Words that reveal a person, mark a consequential choice, or give a lasting event its voice. Each line retains its speaker and links to the history that gives it meaning.</p>\n    <nav class=\"quote-jump\" aria-label=\"Quote themes\"><button type=\"button\" data-section=\"quotes-loss\">Loss, remembrance and survival</button><button type=\"button\" data-section=\"quotes-choice\">Choice and restraint</button><button type=\"button\" data-section=\"quotes-care\">Care and responsibility</button><button type=\"button\" data-section=\"quotes-faith\">Faith, knowledge and authority</button><button type=\"button\" data-section=\"quotes-identity\">Identity and belonging</button><button type=\"button\" data-section=\"quotes-power\">Power and its price</button><button type=\"button\" data-section=\"quotes-history\">History and the world ahead</button></nav>\n    <h2 id=\"quotes-loss\">Loss, remembrance and survival</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"nienna\"><blockquote>“It’s okay Dale. Hope is more important than any one of us. Besides, I will live on....in your hearts.”</blockquote><cite>Nienna</cite><span class=\"quote-context\">Nienna puts Hope’s survival above her own life and asks her companions to carry her forward.</span></button><button class=\"quote-card\" data-article=\"melian-starguard\"><blockquote>“I walk because they cannot, and I shine... where they are gone.”</blockquote><cite>Melian Starguard</cite><span class=\"quote-context\">Melian carries the memory of the dead through continued service.</span></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“So afraid. Like a child in the night. They'll see. You can't fool them forever.”</blockquote><cite>Swift Foot · 6 August 2024</cite><span class=\"quote-context\">Swift Foot’s final words challenge Strange Talon’s authority before Talon kills him.</span></button><button class=\"quote-card\" data-article=\"quille\"><blockquote>“Each night is a success. Trust us, we count our sleeps.”</blockquote><cite>Quille</cite><span class=\"quote-context\">Quille measures survival by another night endured, rather than a distant victory.</span></button><button class=\"quote-card\" data-article=\"gartina\"><blockquote>“Sing the names of those you know but see no longer. Resist the erasure of your past with all you have.”</blockquote><cite>Gartina</cite><span class=\"quote-context\">Gartina urges remembrance as resistance to the erasure of lost people.</span></button><button class=\"quote-card\" data-article=\"arjahn\"><blockquote>“We all break at some point. What matters is that we put ourselves back together. We don’t have to be the same as we were before. We don’t even have to be similar. We just have to live on.”</blockquote><cite>Arjahn</cite><span class=\"quote-context\">Arjahn allows survival to change a person without making that change a failure.</span></button></div><h2 id=\"quotes-choice\">Choice and restraint</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"olokun\"><blockquote>“My pain. Not everyone’s.”</blockquote><cite>Olokun</cite><span class=\"quote-context\">Olokun refuses to make everyone else bear his suffering.</span></button><button class=\"quote-card\" data-article=\"swift-foot\"><blockquote>“Eye for an eye leaves the whole world blind. Can't see the carrot patch in the grass.”</blockquote><cite>Swift Foot</cite><span class=\"quote-context\">Swift Foot challenges revenge in his own earthy, unmistakable voice.</span></button><button class=\"quote-card\" data-article=\"vaemyr\"><blockquote>“We've all been in situations where we chose violence first. It worked out then that our mistake didn't cost us. All I'm saying is we consider that our first plan shouldn't be to kill when we do not understand the context.”</blockquote><cite>Vaemyr</cite><span class=\"quote-context\">Vaemyr calls for understanding before violence, remembering earlier choices that could have cost more.</span></button><button class=\"quote-card\" data-article=\"vessalia\"><blockquote>“but what I’ve learned is not to enter into something without full knowledge of what I’m agreeing to.”</blockquote><cite>Vessalia · Dark Signs · p. 14 · excerpt</cite><span class=\"quote-context\">Vessalia makes informed consent a condition of committing herself.</span></button></div><h2 id=\"quotes-care\">Care and responsibility</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"dale\"><blockquote>“Forget the Hallowing! Save our allies!”</blockquote><cite>Dale</cite><span class=\"quote-context\">Dale prioritizes endangered allies over completing the Hallowing.</span></button><button class=\"quote-card\" data-article=\"olokun\"><blockquote>“We kill and we die to protect this realm, but we, over everything else, protect!”</blockquote><cite>Olokun</cite><span class=\"quote-context\">Olokun states protection as the purpose that must govern fighting and sacrifice.</span></button><button class=\"quote-card\" data-article=\"gartina\"><blockquote>“You’ve got to have a code.”</blockquote><cite>Gartina</cite><span class=\"quote-context\">Gartina insists that care and intervention need an examined code.</span></button><button class=\"quote-card\" data-article=\"dale\"><blockquote>“They make you smile again. That makes them precious.”</blockquote><cite>Dale</cite><span class=\"quote-context\">Dale treats what restores Saray’s happiness as precious.</span></button><button class=\"quote-card\" data-article=\"omari\"><blockquote>“We got stories. Stories are what keep people going. Keep the old walking and the young from growing weary.”</blockquote><cite>Omari</cite><span class=\"quote-context\">Omari describes stories as a practical means of keeping a battered community going.</span></button><button class=\"quote-card\" data-article=\"arjahn\"><blockquote>“The way I fight death is that I focus on keeping others alive.”</blockquote><cite>Arjahn</cite><span class=\"quote-context\">Arjahn defines his resistance to death through keeping other people alive.</span></button></div><h2 id=\"quotes-faith\">Faith, knowledge and authority</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"elenia\"><blockquote>“I think Cala was calling me... but maybe I was just hopeful.”</blockquote><cite>Elenia</cite><span class=\"quote-context\">Elenia admits uncertainty about whether divine guidance was her own hope.</span></button><button class=\"quote-card\" data-article=\"scribonia\"><blockquote>“I am not your teacher anymore, you do not owe me an explanation in every aspect of your life.”</blockquote><cite>Scribonia</cite><span class=\"quote-context\">Scribonia releases a former student from having to justify every choice to her.</span></button><button class=\"quote-card\" data-article=\"ithilrune\"><blockquote>“We don’t lack power. We lack knowledge.”</blockquote><cite>Ithilrûnë</cite><span class=\"quote-context\">Ithilrûnë identifies understanding, rather than greater power, as the missing resource.</span></button><button class=\"quote-card\" data-article=\"huoth\"><blockquote>“It’s good to have a little doubt. We call that wisdom.”</blockquote><cite>Huoth</cite><span class=\"quote-context\">Huoth treats doubt as part of wisdom rather than a failure of belief.</span></button><button class=\"quote-card\" data-article=\"jiangshi\"><blockquote>“For me the gods graces have been fickle, but our family and our ancestors have never failed…. Their magic has sustained me and even grown recently.”</blockquote><cite>Jiangshi</cite><span class=\"quote-context\">Jiangshi contrasts uncertain divine favor with the enduring support of family and ancestors.</span></button></div><h2 id=\"quotes-identity\">Identity and belonging</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"sildithas\"><blockquote>“Keep what is most truly you from flickering out.”</blockquote><cite>Sildithas</cite><span class=\"quote-context\">Sildithas offers a principle of survival grounded in preserving the self.</span></button><button class=\"quote-card\" data-article=\"kaiya-dragonsister\"><blockquote>“our story is in service, and out of sight.”</blockquote><cite>Kaiya Dragonsister</cite><span class=\"quote-context\">Kaiya names the Dragonsisters’ tradition of service that receives little public attention.</span></button><button class=\"quote-card\" data-article=\"murr\"><blockquote>“I quickly begin to lose myself, falling into pure instinct. Losing thought.”</blockquote><cite>Murr the Old Wolf</cite><span class=\"quote-context\">Murr describes the frightening loss of thought within his own transformation.</span></button><button class=\"quote-card\" data-article=\"fenwick\"><blockquote>“I know it’s beautiful and bad. The spiral blesses with deep speech and curses with my body….I don’t understand its beauty fully. Will I always be like this?”</blockquote><cite>Fenwick d'Jorasco</cite><span class=\"quote-context\">Fenwick sees beauty and blessing in the Spiral while fearing what it is doing to his body.</span></button><button class=\"quote-card\" data-article=\"fenwick\"><blockquote>“We are Eovar.”</blockquote><cite>Fenwick d'Jorasco</cite><span class=\"quote-context\">Fenwick speaks for Eovar as a shared civic identity.</span></button><button class=\"quote-card\" data-article=\"karnak\"><blockquote>“I will do it myself need to be better and stronger to prove my convition”</blockquote><cite>Karnak · 29 April 2026 posting date</cite><span class=\"quote-context\">Karnak insists on overcoming a threat himself while Severina remains ready to help if he falls.</span></button><button class=\"quote-card\" data-article=\"nymera\"><blockquote>“Yes... it make me, less foccussed on bad memories...”</blockquote><cite>Nymera · 6 September 2025 posting date</cite><span class=\"quote-context\">Nymera explains to Pappy why physical work at the walls gives her relief.</span></button></div><h2 id=\"quotes-power\">Power and its price</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"withering-of-hope\"><blockquote>“Hope is dead. Only Ambition remains.”</blockquote><cite>Magnus Niriin</cite><span class=\"quote-context\">Magnus’s declaration marks Hope’s withering and his return through ambition.</span></button><button class=\"quote-card\" data-article=\"roderick-wrath\"><blockquote>“The world broke my beloved. Now I break it. Welcome to my pain.”</blockquote><cite>Roderick / Wrath</cite><span class=\"quote-context\">Wrath turns the destruction of his beloved into a justification for harming the world.</span></button><button class=\"quote-card\" data-article=\"bowene\"><blockquote>“He is an armed and willing combatant. It is not murder. Please do not desecrate our ancient rites with crass words.”</blockquote><cite>High Lord Bowene</cite><span class=\"quote-context\">Bowene defends Zarathian combat rites against outsiders’ judgment, exposing a clash over justice.</span></button><button class=\"quote-card\" data-article=\"aria-pride\"><blockquote>“Sometimes pain must be endured to ensure victory. I understand that. Do you?”</blockquote><cite>Aria / Pride · 26 October 2025</cite><span class=\"quote-context\">Aria presents suffering as a price of victory and presses another person to accept it.</span></button><button class=\"quote-card\" data-article=\"aria-pride\"><blockquote>“Attachment like that is weakness, it holds you back. Even now you are powerless to help them.”</blockquote><cite>Aria / Pride · 9 October 2025</cite><span class=\"quote-context\">Aria treats attachment as weakness, revealing the cost of her idea of strength.</span></button><button class=\"quote-card\" data-article=\"aria-pride\"><blockquote>“Then make this your people. Bring humanity to new heights, so we can reshape this world, in our image.”</blockquote><cite>Aria / Pride · 10 October 2025</cite><span class=\"quote-context\">Aria’s vision of mortal independence includes remaking the world in humanity’s image.</span></button></div><h2 id=\"quotes-history\">History and the world ahead</h2><div class=\"quote-gallery\"><button class=\"quote-card\" data-article=\"starojoss-destranoth\"><blockquote>“I write things down before people can make them tidier than they really were.”</blockquote><cite>Starojoss Destranoth</cite><span class=\"quote-context\">Starojoss explains why preserving an untidy record matters more than polishing the past.</span></button><button class=\"quote-card\" data-article=\"adelia-hope\"><blockquote>“I want to find a way to reunite the islands as they once were.”</blockquote><cite>Adelia</cite><span class=\"quote-context\">Adelia gives her restorative purpose a world-spanning ambition: reconnecting the islands.</span></button><button class=\"quote-card\" data-article=\"last-grove\"><blockquote>“Union without limit is not harmony.”</blockquote><cite>Ancient Druidic inscription</cite><span class=\"quote-context\">The Last Grove inscription warns that connection without limits can become destructive.</span></button><button class=\"quote-card\" data-article=\"bowene\"><blockquote>“Aria was one of us. The best of us. No one here can turn to their neighbor and say they were her equal.”</blockquote><cite>High Lord Bowene</cite><span class=\"quote-context\">Bowene’s eulogy makes Aria’s death a loss to Zarathis’s collective identity.</span></button></div>\n    <h2 id=\"why-these-lines-remain\">Why these lines remain</h2><p>These lines hold a character’s convictions, contradictions or loss, or capture a turning point in the world’s history. Their context matters: a speaker’s belief remains their belief, even when the words are memorable.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "quotes-loss",
+      "title": "Loss, remembrance and survival",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings",
+          "Character and location dossiers — previously recovered lines and linked historical context",
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations",
+          "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue",
+          "User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come",
+          "Vessalia_RP_and_Quests.txt — attributed dialogue from five cited scene pages; OCR remains provisional",
+          "Gate chronicle · five attributed lines from reviewed public scenes",
+          "Castle chronicle · four attributed excerpts from January 2025 scenes",
+          "Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025"
+        ]
+      }
+    },
+    {
+      "id": "quotes-choice",
+      "title": "Choice and restraint",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings",
+          "Character and location dossiers — previously recovered lines and linked historical context",
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations",
+          "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue",
+          "User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come",
+          "Vessalia_RP_and_Quests.txt — attributed dialogue from five cited scene pages; OCR remains provisional",
+          "Gate chronicle · five attributed lines from reviewed public scenes",
+          "Castle chronicle · four attributed excerpts from January 2025 scenes",
+          "Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025"
+        ]
+      }
+    },
+    {
+      "id": "quotes-care",
+      "title": "Care and responsibility",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings",
+          "Character and location dossiers — previously recovered lines and linked historical context",
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations",
+          "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue",
+          "User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come",
+          "Vessalia_RP_and_Quests.txt — attributed dialogue from five cited scene pages; OCR remains provisional",
+          "Gate chronicle · five attributed lines from reviewed public scenes",
+          "Castle chronicle · four attributed excerpts from January 2025 scenes",
+          "Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025"
+        ]
+      }
+    },
+    {
+      "id": "quotes-faith",
+      "title": "Faith, knowledge and authority",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings",
+          "Character and location dossiers — previously recovered lines and linked historical context",
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations",
+          "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue",
+          "User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come",
+          "Vessalia_RP_and_Quests.txt — attributed dialogue from five cited scene pages; OCR remains provisional",
+          "Gate chronicle · five attributed lines from reviewed public scenes",
+          "Castle chronicle · four attributed excerpts from January 2025 scenes",
+          "Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025"
+        ]
+      }
+    },
+    {
+      "id": "quotes-identity",
+      "title": "Identity and belonging",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings",
+          "Character and location dossiers — previously recovered lines and linked historical context",
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations",
+          "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue",
+          "User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come",
+          "Vessalia_RP_and_Quests.txt — attributed dialogue from five cited scene pages; OCR remains provisional",
+          "Gate chronicle · five attributed lines from reviewed public scenes",
+          "Castle chronicle · four attributed excerpts from January 2025 scenes",
+          "Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025"
+        ]
+      }
+    },
+    {
+      "id": "quotes-power",
+      "title": "Power and its price",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings",
+          "Character and location dossiers — previously recovered lines and linked historical context",
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations",
+          "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue",
+          "User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come",
+          "Vessalia_RP_and_Quests.txt — attributed dialogue from five cited scene pages; OCR remains provisional",
+          "Gate chronicle · five attributed lines from reviewed public scenes",
+          "Castle chronicle · four attributed excerpts from January 2025 scenes",
+          "Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025"
+        ]
+      }
+    },
+    {
+      "id": "quotes-history",
+      "title": "History and the world ahead",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings",
+          "Character and location dossiers — previously recovered lines and linked historical context",
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations",
+          "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue",
+          "User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come",
+          "Vessalia_RP_and_Quests.txt — attributed dialogue from five cited scene pages; OCR remains provisional",
+          "Gate chronicle · five attributed lines from reviewed public scenes",
+          "Castle chronicle · four attributed excerpts from January 2025 scenes",
+          "Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025"
+        ]
+      }
+    },
+    {
+      "id": "why-these-lines-remain",
+      "title": "Why these lines remain",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Words_the_World_Remembers.md — curated quotation archive, scene dates, speakers, and thematic groupings",
+          "Character and location dossiers — previously recovered lines and linked historical context",
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — Magnus's declaration at Hope",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — Herb and Melian signature quotations",
+          "Swift-Foot_Complete_Fenumion_RP_Dossier.md — May civic dialogue, June jokes, August agency statements and final words",
+          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — attributed Dale and Vaemyr dialogue",
+          "User-supplied Melian quotations and voice recordings — 6 October 2026; What light they leave behind, I walk because they cannot, and I knew this day would come",
+          "Vessalia_RP_and_Quests.txt — attributed dialogue from five cited scene pages; OCR remains provisional",
+          "Gate chronicle · five attributed lines from reviewed public scenes",
+          "Castle chronicle · four attributed excerpts from January 2025 scenes",
+          "Aria_Pride_Words_the_World_Remembers_Additions.md — five attributed Aria quotations, August–October 2025"
+        ]
+      }
+    }
+  ]
+}

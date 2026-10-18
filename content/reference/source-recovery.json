@@ -1,0 +1,281 @@
+[
+  {
+    "article": "archive-map",
+    "sourceClass": "navigation",
+    "references": [
+      "Reading paths composed from the linked public character, region and history records · #world-index"
+    ],
+    "reviewScope": "Editorial reading guide; its source basis is the linked records, not a separate historical event."
+  },
+  {
+    "article": "blessing-of-light",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Blessing of Light · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=1946222217"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "blessing-of-shadow",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Blessing of Shadow · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=1274729318"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "blessings-of-fenumion",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · all twelve named blessing tabs · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit"
+    ],
+    "reviewScope": "All 108 boon descriptions match the live source. Mechanical rules do not establish historical achievements."
+  },
+  {
+    "article": "bowene",
+    "sourceClass": "mixed",
+    "references": [
+      "Quest narration · High Lord Bowene already present, posted 5 August 2025 · https://discord.com/channels/1177270231513694249/1199083630354501673/1402336345216520324",
+      "Bowene · council decision, posted 26 October 2025 · https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278",
+      "Bowene · receiving Aria’s surviving companions, posted 23 November 2025 · https://discord.com/channels/1177270231513694249/1199083630354501673/1442241812340412547",
+      "Bowene · exile names, posted 22 December 2025 · https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169"
+    ],
+    "reviewScope": "Title predates Aria’s death; grief, allegations and motives remain attributed. Accession date not established."
+  },
+  {
+    "article": "connected-histories",
+    "sourceClass": "navigation",
+    "references": [
+      "Connected Histories · linked public dossiers and region histories · #relationships"
+    ],
+    "reviewScope": "Editorial synthesis of the linked histories; links do not independently corroborate the underlying claims."
+  },
+  {
+    "article": "embrace-of-the-elements",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Embrace of the Elements · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=1052333103"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "factions",
+    "sourceClass": "navigation",
+    "references": [
+      "Faction directory · linked Ale-Chemy Knights, Veilguard, Vanguard and cultural records · #ale-chemy-knights"
+    ],
+    "reviewScope": "Directory records retain the authority and limits of their linked histories."
+  },
+  {
+    "article": "fenumion-epic-advancement",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 26–30 · 26-30, eight class capstones, attribute capstones, 10th Level Spells · bounded reads checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1ACa6vnVEZLX_065nDRO7fkkBKk9BwEhpFKM2dYFtqK4/edit"
+    ],
+    "reviewScope": "All long source passages match the published reference. No feat list, stacking rule or new interpretation inferred."
+  },
+  {
+    "article": "fenwicks-tower",
+    "sourceClass": "testimony",
+    "references": [
+      "Tower public notice · edited 21 July 2025; original post 13 January 2025 · https://discord.com/channels/1177270231513694249/1328364550084362350/1328370733474381837",
+      "Fenwick and Lionel · tower tour and planned public baths, posted 15 January 2025 · https://discord.com/channels/1177270231513694249/1328364550084362350/1329105487052148737",
+      "Fenwick credits Tobias’s building work · https://discord.com/channels/1177270231513694249/1328364550084362350/1329108698680918096"
+    ],
+    "reviewScope": "Notice explicitly carries a later edit; its July wording does not prove a January opening under the Silver Spire name. Tour plans remain plans where completion is not witnessed."
+  },
+  {
+    "article": "feywanderer",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Feywanderer · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=295638729"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "forevermoore",
+    "sourceClass": "mixed",
+    "references": [
+      "Explicit user canon: small auxiliary island off Eovar, Ale-Chemy base · existing Forevermoore authority record",
+      "Farkur accepts Ciderwood Sanctum name, posted 28 December 2024 · https://discord.com/channels/1177270231513694249/1322435359497261098/1322580799937318954",
+      "Ryvyt requests a separate laboratory, posted 1 January 2025 · https://discord.com/channels/1177270231513694249/1322435359497261098/1324070356150915112"
+    ],
+    "reviewScope": "Location follows user canon; requests do not prove construction complete. Later Reheva wording remains a source discrepancy."
+  },
+  {
+    "article": "gift-of-peace",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Gift of Peace · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=1834698990"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "grayward-littoral",
+    "sourceClass": "map",
+    "references": [
+      "Annotated Greyward Littoral map · inspected labels, shelter, pathways and coast · assets/archive/babel-ashur-southern-coast.webp",
+      "Explicit user spelling decision recorded in the existing regional history: Greyward Littoral; Grayward retained as a source spelling."
+    ],
+    "reviewScope": "Mapped features verified visually; boundaries and deeper functions are not inferred."
+  },
+  {
+    "article": "harbringer-of-change",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Harbringer of Change · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=2051605216"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "heart-of-valor",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Heart of Valor · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=187557145"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "ichor-of-the-earth",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Ichor of the Earth · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=1117856412"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "inexorable-soul",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Inexorable Soul · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=122631147"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "kinich-ahau",
+    "sourceClass": "map",
+    "references": [
+      "Prima island map · The Kinich Ahau label, east of the First Forest · assets/archive/prima-map.jpg",
+      "Melian’s regional testimony, posted 18 March 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1219331653831495690"
+    ],
+    "reviewScope": "The map establishes the named area; Melian’s statement remains testimony and does not define borders."
+  },
+  {
+    "article": "lore-warden",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Lore Warden · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=1611649013"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "lost-shacks",
+    "sourceClass": "map",
+    "references": [
+      "Prima island map · Lost Shacks label, northwestern coast north of Thundering Coast · assets/archive/prima-map.jpg"
+    ],
+    "reviewScope": "Name and relative location checked visually; no inhabitants or building history inferred."
+  },
+  {
+    "article": "player-perspectives",
+    "sourceClass": "testimony",
+    "references": [
+      "Story Notes primary export · 261 messages, each original post linked by the index · channel 1201218376849162250",
+      "fenumion-story-notes-player-perspective-codex.md · supplied index of 261 dated entries; 19 external/incomplete pointers remain unresolved"
+    ],
+    "reviewScope": "The local full-message export has now been located. Linked external documents/attachments remain separate and were not silently reconstructed."
+  },
+  {
+    "article": "ryvyting-creations",
+    "sourceClass": "mixed",
+    "references": [
+      "Explicit user canon: Pristinia shop owned and operated by Ryvyt · existing ownership ruling",
+      "Ryvyt and Farkur · material constraints, posted 7 May 2025 · https://discord.com/channels/1177270231513694249/1369505923411738674/1369521833832878213",
+      "Ryvyt · request for scouts/components, posted 12 May 2025 · https://discord.com/channels/1177270231513694249/1369505923411738674/1371316633422794893",
+      "pristinia-ryvyting-creations-ryvyt-ale-chemy-knights.md · supplied synthesis, subordinate to quest evidence and user ownership ruling"
+    ],
+    "reviewScope": "Primary workshop testimony supports practical supply work; complete closure chronology remains a supplied synthesis unless independently anchored."
+  },
+  {
+    "article": "shard-of-prima",
+    "sourceClass": "map",
+    "references": [
+      "Prima island map · The Shard label south of the First Forest · assets/archive/prima-map.jpg"
+    ],
+    "reviewScope": "Separate mapped landmark; no protected origin or powers inferred."
+  },
+  {
+    "article": "the-prophet",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · The Prophet · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=1667378923"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "thundering-coast",
+    "sourceClass": "quest",
+    "references": [
+      "Quest narrator · harbor/coast approach, posted 13 March 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1217654903535702158",
+      "Quest narrator · beacon beyond the coast, posted 27 May 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1244736241862311958"
+    ],
+    "reviewScope": "Approach and beacon checked against primary narration; borders remain unresolved."
+  },
+  {
+    "article": "tobias",
+    "sourceClass": "testimony",
+    "references": [
+      "Tobias and Fredrick · welcome and family/context questions, posted 24 February 2025 · https://discord.com/channels/1177270231513694249/1198721306250719293/1343682872783011904",
+      "Tobias offers food to Fredrick · https://discord.com/channels/1177270231513694249/1198721306250719293/1343683922545999975",
+      "Fenwick credits Tobias’s tower work, posted 15 January 2025 · https://discord.com/channels/1177270231513694249/1328364550084362350/1329108698680918096",
+      "Tobias_Goodbarrel_Deep_Character_Dossier.md · supplied retrospective, corroborated selectively against Gate/tower scenes"
+    ],
+    "reviewScope": "Welcome and building scenes checked; no founder promotion, exact founding date or inferred later fate."
+  },
+  {
+    "article": "unbreakable-will",
+    "sourceClass": "reference",
+    "references": [
+      "Fenumion 21–25 · Unbreakable Will · A1:H60 · checked 17 October 2026 · https://docs.google.com/spreadsheets/d/1Qk8H3SMq7-8_raesIkaPdNoq4XqgNsJpZRStwlg278o/edit#gid=1483209176"
+    ],
+    "reviewScope": "Nine original boon descriptions compared against the source; all match after whitespace/HTML normalization."
+  },
+  {
+    "article": "visual-archive",
+    "sourceClass": "map",
+    "references": [
+      "Prima island map · original supplied labels and relative positions · assets/archive/prima-map.jpg",
+      "Greyward Littoral annotated regional map · assets/archive/babel-ashur-southern-coast.webp",
+      "Other supplied maps and scene-backed records linked from their respective atlas markers · #archive-map"
+    ],
+    "reviewScope": "Map labels establish depicted names/relative positions, not exact scale, chronology or undisclosed lore."
+  },
+  {
+    "article": "vital-chain",
+    "sourceClass": "testimony",
+    "references": [
+      "Fenwick describes The Vital Chain proposal to Lionel, posted 15 January 2025 · https://discord.com/channels/1177270231513694249/1328364550084362350/1329126927469903903",
+      "Fenwick discusses the name, principles and intended communal work · https://discord.com/channels/1177270231513694249/1328364550084362350/1329128102911283363",
+      "Fenwick discusses possible Eovar and Pristinia operations · https://discord.com/channels/1177270231513694249/1328364550084362350/1329139413053210796"
+    ],
+    "reviewScope": "Direct early proposal recovered. Founder identity preserved; the proposal does not establish completed branches or a legal founding date."
+  },
+  {
+    "article": "vysaeth",
+    "sourceClass": "testimony",
+    "references": [
+      "Vysaeth’s final journal entry, presented by the quest narrator on 7 July 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1259704019522424855",
+      "Vysaeth’s first journal entry and account of his sister/Roderick · https://discord.com/channels/1177270231513694249/1199083630354501673/1259706432023040030",
+      "Quake places the king’s skeletal remains in lava · https://discord.com/channels/1177270231513694249/1199083630354501673/1259718370631352333"
+    ],
+    "reviewScope": "Journal content is Vysaeth’s testimony even though the narrator supplies it. Lichdom/legacy motives and judgments retain attribution; ultimate state not inferred from disposal of remains."
+  },
+  {
+    "article": "world-index",
+    "sourceClass": "navigation",
+    "references": [
+      "World Index · canonical public people, timeline and location indexes · #people-directory"
+    ],
+    "reviewScope": "Navigational index, not a primary lore source."
+  }
+]

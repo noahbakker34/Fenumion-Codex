@@ -1,0 +1,170 @@
+{
+  "id": "brianna",
+  "title": "Brianna",
+  "type": "Druid · Rahu-war survivor and Knight",
+  "aliases": [
+    "BearBri",
+    "BatBri"
+  ],
+  "regions": [
+    "Prima",
+    "Pristinia"
+  ],
+  "dek": "A druid whose experience of repeated death shapes a difficult commitment to life, freedom and trial amid the Rahu war, and whose grief finds an outlet in useful service.",
+  "tags": [
+    "Player character",
+    "Druid",
+    "BearBri",
+    "BatBri",
+    "Ghilsen",
+    "Elenia",
+    "Knights",
+    "Prima"
+  ],
+  "relatedRecords": [
+    "ghilsen",
+    "elenia",
+    "st-anky",
+    "magnus"
+  ],
+  "profile": {
+    "personality": "Brianna combines practical druidic problem-solving with a commitment to preserving personhood. Repeated death shapes her fear and judgment; withdrawal is part of her response, alongside argument, service and renewed connection.",
+    "achievements": "She adventures around Prima, survives the Rahu-war period, argues for a dangerous enemy to face trial, joins the Knights and asks Elenia to help restore Ghilsen. Wild Shape appearances as BearBri and BatBri belong to the same character.",
+    "relationships": "Ghilsen is her husband, with St. Anky officiating their marriage. Elenia moves from battlefield opponent to a source of recognition and restorative help. Magnus is an early companion whose later Rahu allegiance complicates that shared history."
+  },
+  "body": "<p>Brianna is a druid and adventurer whose recovered history combines practical transformation, repeated exposure to death, and a refusal to let violence make a person disposable. Her marriage to <a href=\"#ghilsen\">Ghilsen</a> matters deeply, but her choices also have their own moral and civic history.</p>\n      <h2 id=\"brianna-druid\">An adventurer in the danger</h2>\n      <p>Early scenes show curiosity, movement and immediate physical problem-solving. BearBri and BatBri are Wild Shape identities of Brianna, rather than separate characters. The Dark Raven, despite sharing a player, remains a different adventurer.</p>\n      <p>She adventures in the same broad early-2025 period as Magnus, before their community is divided by the Rahu war. That prior companionship remains part of the history when his later allegiance turns him against former allies.</p>\n      <h2 id=\"brianna-trial\">Trial and battlefield necessity</h2>\n      <p>During the war, Brianna tries to preserve a dangerous Rahuvian combatant so that he can face trial. St. Anky later explains that intention. Elenia objects to the immediate danger of keeping him alive in an active battle and stops her.</p>\n      <p>Both concerns survive the later conversation: Brianna wants judgment rather than summary death, while Elenia fears further casualties. Compassion does not automatically settle battlefield method, and tactical disagreement does not erase the humanity of the person making the choice.</p>\n      <h2 id=\"brianna-death\">The memory of dying alone</h2>\n      <p>In the supplied account of her conversation with Elenia, Brianna describes repeated deaths, including one only hours after her wedding. She remembers dying alone as the fighting continued and later fearing that the same experience was about to happen again. She describes sleeplessness, haunted dreams and persistent alarm. These are her reported experiences; the biography does not assign a medical diagnosis.</p>\n      <p>She initially resists having to explain her suffering before her choices can be understood. Elenia eventually apologizes and recognizes the care beneath Brianna’s decision while continuing to criticize its method. Their disagreement develops into listening and renewed connection.</p>\n      <h2 id=\"brianna-ghilsen\">Freedom, loss and restoration</h2>\n      <p>St. Anky officiates Brianna and Ghilsen’s marriage. Ghilsen’s earlier enslavement makes freedom a personal obligation for Brianna: she wants the person she loves to retain agency and to return as himself.</p>\n      <p>After his death she preserves his body and joins the Knights in search of useful work when much of what she loves feels lost. At her request, Elenia invokes divine help through Mya and restores Ghilsen. His return changes their circumstances without erasing Brianna’s experience of losing him.</p>\n      <h2 id=\"brianna-responsibility\">Re-entering responsibility</h2>\n      <p>Brianna can withdraw when overwhelmed, but the recovered arc also shows her speaking, asking for help, entering service and continuing to adventure. A reasonable interpretation of these scenes is that grief seeks an outlet in usefulness, and that repeated death helps explain her insistence on preserving life. Neither interpretation makes every later choice inevitable.</p>\n      <h2 id=\"brianna-open\">The open record</h2>\n      <p>Her earlier biography, exact wedding date, complete sequence and mechanics of her deaths, every perspective on the soldier incident, full Knights history and later life remain unresolved. Her historical importance lies in the lived cost of warfare and return, without reducing her to a spouse, a victim or an uncomplicated pacifist.</p>",
+  "category": "People",
+  "image": "assets/characters/brianna.png",
+  "sources": [
+    "Supplied deep character dossier · 12 October 2026",
+    "Existing public campaign histories"
+  ],
+  "facts": {
+    "Role": "Player character",
+    "Regions": "Prima · Pristinia"
+  },
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "brianna-druid",
+      "title": "An adventurer in the danger",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories"
+        ]
+      }
+    },
+    {
+      "id": "brianna-trial",
+      "title": "Trial and battlefield necessity",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories"
+        ]
+      }
+    },
+    {
+      "id": "brianna-death",
+      "title": "The memory of dying alone",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories"
+        ]
+      }
+    },
+    {
+      "id": "brianna-ghilsen",
+      "title": "Freedom, loss and restoration",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories"
+        ]
+      }
+    },
+    {
+      "id": "brianna-responsibility",
+      "title": "Re-entering responsibility",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories"
+        ]
+      }
+    },
+    {
+      "id": "brianna-open",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Druid · Rahu-war survivor and Knight",
+    "significance": "A druid whose experience of repeated death shapes a difficult commitment to life, freedom and trial amid the Rahu war, and whose grief finds an outlet in useful service.",
+    "actions": [
+      {
+        "title": "The Third Arrival brings Magnus, Dez, and Brianna",
+        "event": "The Third Arrival brings Magnus, Dez, and Brianna",
+        "date": "6 Apr 2025"
+      },
+      {
+        "title": "The party enters the Shadow Roads",
+        "event": "The party enters the Shadow Roads",
+        "date": "14 Sep 2025"
+      },
+      {
+        "title": "Brianna chooses sanctification",
+        "event": "Brianna chooses sanctification",
+        "date": "2026 · exact date unresolved"
+      }
+    ],
+    "status": "Last dated entry in this selection: 2026 · exact date unresolved. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "ghilsen",
+        "label": "Ghilsen Hendrickson",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "quest-record",
+  "title": "Adventures",
+  "category": "Archive",
+  "type": "Journeys and quests",
+  "dek": "Follow the journeys that leave their mark on Fenumion.",
+  "tags": [
+    "Adventures",
+    "Quests",
+    "Fenumion"
+  ],
+  "facts": {
+    "World": "Fenumion"
+  },
+  "sources": [
+    "Fenumion (The Sea of Dreams) — quest-rp Discord export, supplied 27 Sep 2026",
+    "docs/QUEST_ARCHIVE_INDEX.md — derived checksum, annual coverage, explicit headings, and candidate-session ledger",
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "body": "<p>Adventures carry people across Fenumion, leaving changed places, friendships and unfinished questions behind.</p><h2 id=\"quest-record-boundaries\">Named adventures</h2><ul><li><strong>You Better Watch Out</strong> · 16 December 2025</li><li><strong>Wherever We Are Now</strong> · 27 March 2026</li><li><strong>Acolyte</strong> · 19 May 2026</li><li><strong>Howl</strong> · 29 May 2026</li></ul><p>Dates identify the chronicle entries and may differ from the in-world calendar.</p><p><a href=\"#living-timeline\">Explore the timeline →</a> · <a href=\"#people-directory\">Meet the people →</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "quest-record-boundaries",
+      "title": "Named adventures",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion (The Sea of Dreams) — quest-rp Discord export, supplied 27 Sep 2026",
+          "docs/QUEST_ARCHIVE_INDEX.md — derived checksum, annual coverage, explicit headings, and candidate-session ledger",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "discovery-005",
+  "title": "Caravash",
+  "category": "People",
+  "type": "Civic and economic adviser",
+  "dek": "Arrives at a meeting expecting to advise town leaders. The scene preserves an expectation of influence, not proof that the town accepts that authority.",
+  "tags": [
+    "Caravash",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Civic and economic adviser",
+    "Island": "Prima",
+    "Census posts": "53",
+    "Recorded span": "2024-08-08 → 2024-08-21",
+    "Prominence": "54/100 · Provisional",
+    "Recorded presence": "10/20",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Arrives at a meeting expecting to advise town leaders. The scene preserves an expectation of influence, not proof that the town accepts that authority.</p><h2 id=\"discovery-005-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 54/100 · Provisional</strong></p><p>The checked meeting scene makes economic influence a civic question.</p><ul><li>Consequences: 3/5 · weight 35</li><li>Institutional or witness role: 3/5 · weight 25</li><li>Relationships: 2/5 · weight 20</li><li>Recorded presence: 10/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-005-record\">Archive record</h2><p>The census records 53 posts across 2024-08-08 → 2024-08-21. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1271191993145622549\">Recorded scene · 1271191993145622549</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/d06b7c850cd809b60e969d72426eaf0971e1245b37eaf4b7d5a42e004b6312c4.png",
+  "imageAlt": "Discord depiction of Caravash",
+  "imageCaption": "Caravash",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-005-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-005-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Civic and economic adviser",
+    "significance": "Arrives at a meeting expecting to advise town leaders. The scene preserves an expectation of influence, not proof that the town accepts that authority.",
+    "actions": [
+      {
+        "title": "Pristinia debates gold, business, and public need",
+        "event": "Pristinia debates gold, business, and public need",
+        "date": "8 Aug 2024 · quest-RP"
+      }
+    ],
+    "status": "Last dated entry in this selection: 8 Aug 2024 · quest-RP. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "switching-trade-skills",
+  "title": "Switching Trade Skills",
+  "category": "Guide",
+  "type": "Fenumion trade skill reference",
+  "dek": "Changing professions before and after Journeyman rank.",
+  "tags": [
+    "Blessings",
+    "Homebrew",
+    "Crafting",
+    "Skill Experience",
+    "Switching Trade Skills"
+  ],
+  "facts": {
+    "System": "Fenumion crafting"
+  },
+  "sources": [
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+  ],
+  "body": "<p><a href=\"#fenumion-crafting\">← Crafting &amp; Skill Experience</a></p><p>Taking up a trade is a hard but important decision and we understand those can be hard to make. A player may change their character’s trade skill with relative freedom before gaining the Journeyman status (4,000 Skill Experience).</p><p>Once your character has begun to master their role and reached the Journeyman level, it is still possible to change trade skills, but the switch does come with a cost. Once a character has achieved Journeyman rank (4000 S. Exp), in order to change your trade, you will drop down to the lowest S. Exp of the next rank down.</p><p>For example, an expert with 18,000 S. Exp in one Trade Skill who decides to switch professions will drop down to become a Journeyman with 4,000 S.Exp in their new profession.</p><p>Another example: a Journeyman with 9,000 S. Exp who switches will drop to 1,000 S. Exp and become an Apprentice in their new trade skill.</p><p>We believe this to allow freedom of choice while maintaining some degree of ownership of your hard earned experience. Those found to be abusing the free exchange of trades while at Apprentice rank will be dealt with harshly.</p><p class=\"blessing-source\">Read the <a href=\"https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo\" target=\"_blank\" rel=\"noopener noreferrer\">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

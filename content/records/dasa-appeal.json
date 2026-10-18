@@ -1,0 +1,67 @@
+{
+  "id": "dasa-appeal",
+  "title": "The Dasa’s Appeal",
+  "category": "Archive",
+  "type": "Swift Foot’s legacy · unfinished quest",
+  "dek": "Kimi and Kuri ask adventurers to find Vey and Vaa and help turn remembrance of Swift Foot into freedom.",
+  "facts": {
+    "Scene": "Rahu embassy gardens",
+    "Dasa witnesses": "Kimi · Kuri",
+    "Requested next step": "Find Vey and Vaa",
+    "Status": "Search promised; outcome unknown"
+  },
+  "body": "<p>The October graffiti in Pristinia gives <a href=\"#swift-foot\">Swift Foot’s legacy</a> a new consequence. Di’trillio, Aurélia, Samgori, the Dark Raven and Thorn investigate the signs, then approach the Rahu embassy gardens in heavy rain.</p><h2 id=\"dasa-request\">10 October · a request from below</h2><p>Kimi and Kuri ask the visitors to stay quiet: nearby guards make being noticed dangerous. They describe a desire for freedom and a fear of dying without changing their captivity. Kimi says Swift lives in them, preserving his martyrdom as a source of action rather than reporting that he has returned bodily.</p><p>Kimi names Vey and Vaa as siblings hiding in the mountains, inspired by Swift and planning to end Dasa captivity. Kuri estimates their position at roughly two days northwest of Pristinia, admitting they have never visited. Di’trillio promises to find them. A future expedition is needed; no meeting or successful liberation is recorded here.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558672663814209687\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558674129568145412\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558675793784082473\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558678335138037812\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558679677520846970\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558679853132283965\" target=\"_blank\" rel=\"noopener\">6</a>.</p><h2 id=\"dasa-refugee-report\">Reports that conflict</h2><p>Di’trillio mentions Rahu refugees in Eovar and proposes it as a safer place to gather support. Kimi responds that Hildethrax had reported those people captured and executed. Her relief is witnessed; the actual fate of the specific refugees and Hildethrax’s knowledge remain unverified within this scene.</p><p>The request shows that Rahu society cannot be treated as one voice. Adventurers’ memories of war coexist with Dasa asking for help against the people above them.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558676699426721814\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558676954557845605\" target=\"_blank\" rel=\"noopener\">2</a>.</p>",
+  "tags": [
+    "Dasa",
+    "Kimi",
+    "Kuri",
+    "Vey",
+    "Vaa",
+    "Swift Foot",
+    "Rahu"
+  ],
+  "sources": [
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "relatedRecords": [
+    "swift-foot",
+    "rahuvia",
+    "rahu-lands",
+    "pristinia",
+    "eovar-harbor",
+    "thorn",
+    "quest-continuation"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "dasa-request",
+      "title": "10 October · a request from below",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    },
+    {
+      "id": "dasa-refugee-report",
+      "title": "Reports that conflict",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ]
+}

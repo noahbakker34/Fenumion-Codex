@@ -1,0 +1,41 @@
+# Codex reading and content architecture · 17 October 2026
+
+## User scope and authority
+
+The user approved all seven proposed improvements: consistent character openings; section evidence; consequence sequences; long-page reading and exact search destinations; atlas history; deferred content loading; and a maintainable canonical record structure with automatic checks. This is a local implementation. No publication, repository push or protected-access change has been performed.
+
+Existing quest outcomes and explicit canon govern all summaries and labels. The upgrade reorganizes already public content; it is not a fresh verification of every historical claim. An account is never promoted to objective canon by a keyword classifier.
+
+## Reader behavior
+
+- 171 dedicated public character records have a structured opening: identity, significance, selected recorded actions, connected people and last established status. Fifteen major dossiers have deliberately selected section links for consequential choices rather than an automatic importance ranking. Existing explicit Status fields govern the summary; dates of activity do not imply a person is currently alive. Anky’s and Nienna’s distinct deaths and Adelia’s chronology remain intact.
+- 1,880 existing H2 sections have reading/evidence metadata. Dossier sections expose expandable evidence explanations and references. Selected already checked Pristinia wall, survey and funeral sections have a quest-established label; player-location notes retain testimony labels; open questions stay unresolved. Other sections explicitly retain a mixed-account label, with article-level reference scope distinguished from a separately reviewed claim. There is no claim of 1,880 newly verified sections.
+- Long dossiers offer chapters grouped for navigation, preserve the order of their prose, and support a persistent continuous-reading preference. Section links open ancestor disclosures, focus their target and preserve the destination through reload/back/forward. Search shows the matching section and a contextual excerpt; title matches still open the article overview.
+- Five connected histories link existing events: Pristinia’s defenses, Gael’s restoration, Anky’s surviving knowledge, Papirak’s inheritance and the Common Man/Pilgrim’s Hearth. Each step opens its existing event; event dialogs point to relevant sequences. Explanatory connections do not invent missing causal links. The timeline and archive navigation link the new History in Consequences page.
+- Atlas selections show parent region, connected people, recent matching events and the last matching dated account. Markers select context before offering the full history. A bookmarkable date control filters documented history, with partial/uncertain dates excluded. The supplied maps, coordinates and geometry remain fixed: absence of a dated record never establishes a place’s nonexistence. Location dialogs use the same context.
+
+## Content migration and delivery
+
+`content/records/<id>.json` is now the canonical subject record: narrative, facts, source list, media, brief, relationship map, profile and section metadata. Shared geographic/event/person indexes live in `content/reference/world.json`; consequence sequences have their own reference file. Existing source archives remain external. The build has no network, browser or raw-transcript dependency.
+
+All **566 existing article bodies and their image/video/gallery/scene metadata were compared byte-for-byte** against the pre-migration public runtime export. No body or media field changed. The five-sequence guide adds the 567th record. A duplicated St. Anky directory identity was merged; its aliases survive and its image now follows its own dossier rather than an erroneous duplicate’s Cerwin image. No distinct characters were merged. Thirty-four historical browser content-patch modules were retired; their output survives in the canonical records and their prior code in Git history.
+
+`python3 scripts/build_codex.py` creates an ignored `site/data/` catalog, hashed per-record JSON, a deferred full section search index and route-specific supplemental indexes. Opening a dossier requests its own body, not all articles. Personal-note/discovery indexes load only on their own surfaces. Quotes and artwork retain lightweight metadata so home/gallery browsing does not require every biography. Failed loads offer retry/refresh; a slower earlier request cannot replace a newer route. Public protected stubs remain empty; authenticated vault data stays separate and locked search still filters it.
+
+Local source-byte comparison for an initial Fenwick visit, excluding images/fonts/audio/video to isolate scripts and data: baseline **2,885,109 bytes / 41 files**; the earlier migration stage **1,209,561 / 10**. Final measurement after moving personal profiles into per-subject payloads: **1,147,624 bytes / 10 files**, approximately **60.2% fewer initial script/data bytes** than the baseline. Only one subject body was requested; the search payload was not fetched on initial entry. These are local uncompressed source/download counts, not production CDN transfer times or a measured percentage improvement in page speed. Source media were not recompressed or removed.
+
+The staged Pages tree remains below its existing 1 GB guard. Generated data are built in CI before packaging; the original music delivery arrangement remains intact.
+
+## Validation and ongoing work
+
+`python3 scripts/check_content.py` checks canonical identity uniqueness, directories, aliases, links, evidence explanations and sources for stronger labels, summary section destinations, explicit Status agreement, consequence destinations and protected classifications/bodies. Thirty-two inherited missing article-reference lists are explicitly enumerated in `content/reference/known-gaps.json`; they remain visible recovery work, not fabricated citations. New gaps fail the check.
+
+The Pages workflow now runs canonical validation, build and syntax checks, followed by a pinned Playwright reader integration job on both pull requests and deployment runs. Deployment waits for those checks. Local browser coverage includes desktop/mobile reading, exact-section search/reload, evidence labels, continuous reading, all five sequences, temporal atlas, registry and personal-note supplements, load races/history, public gallery preservation and protected boundaries. Existing identity, navigation, art/menu and efficiency checks were adapted to deferred loading and current canonical counts.
+
+Normal animation, reduced-motion/data-saving behavior, body/quote search-cache invalidation and synthetic vault lock/search isolation passed in the isolated media regression. Concurrent media-heavy browser runs timed out on this host; isolated reruns passed. No browser errors remained in completed checks. Desktop evidence/atlas and mobile character screenshots were inspected. No new source observation or missing reference was invented to make validation pass.
+
+Final checks also passed failed-load retry, canceled pending search, workflow YAML parsing/deploy dependencies, deterministic rebuild, and the original body/media preservation comparison. The final Pages staging estimate was about 799.3 MB, below the existing 1 GB guard. The CI browser job is configured; it has not been run on GitHub because this change is unpublished.
+
+## Subsequent evidence and visitor pass · 17 October 2026
+
+The migration figures above describe that checkpoint. The next authorized pass now has 572 canonical records and 1,932 sections. The 32 missing reference lists have scoped recovery entries; the missing-list exceptions are empty. Existing bodies intentionally gained checked scenes and focused corrections after their migration-preservation comparison. Nineteen profiles expose 49 bounded scene entries, four campaigns connect regional histories, 28 claim reviews separate conclusions from gaps, and the Unresolved Record exposes 23 evidence questions. Safe references are clickable. Progressive catalog search, keyboard/mobile focus and history scroll restoration address visitor journeys. See `SIX_PART_EVIDENCE_AND_READER_PASS.md` for exact scope, source recovery, remaining research and the controlled live/local performance comparison. Local and unpublished.

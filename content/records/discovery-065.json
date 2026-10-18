@@ -1,0 +1,67 @@
+{
+  "id": "discovery-065",
+  "title": "Kaja",
+  "category": "People",
+  "type": "Pristinian Elder",
+  "dek": "Resists concentrated control during Pristinia’s financial debate.",
+  "tags": [
+    "Kaja",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Pristinian Elder",
+    "Island": "Prima",
+    "Census posts": "17",
+    "Recorded span": "2024-05-13 → 2025-09-24",
+    "Prominence": "68/100 · Established",
+    "Recorded presence": "15/20"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Resists concentrated control during Pristinia’s financial debate.</p><p><a href=\"#elder-kaja\">Read the existing Kaja history →</a></p><h2 id=\"discovery-065-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 68/100 · Established</strong></p><p>Her institutional role and resistance to concentrated control matter to the financial debate.</p><ul><li>Consequences: 3/5 · weight 35</li><li>Institutional or witness role: 4/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 15/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-065-record\">Archive record</h2><p>The census records 17 posts across 2024-05-13 → 2025-09-24. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239619289909035141\">Recorded scene · 1239619289909035141</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/0f03072fe499fa000f155f0336dd9263c67340860af93f1d82ed6830049816ed.png",
+  "imageAlt": "Discord depiction of Kaja",
+  "imageCaption": "Kaja",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-065-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-065-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "profile": {
+    "achievements": "An Elder who resists solving Pristinia’s financial crisis by concentrating control in a few hands."
+  }
+}

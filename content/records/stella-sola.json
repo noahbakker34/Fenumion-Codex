@@ -1,0 +1,103 @@
+{
+  "id": "stella-sola",
+  "title": "Stella & Sola",
+  "category": "People",
+  "type": "Apothecary sisters",
+  "dek": "The sisters whose shop links Pristinia’s ordinary comforts, medicine and emergency care.",
+  "tags": [
+    "Stella & Sola",
+    "NPCs",
+    "Prima",
+    "Stella and Sola"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Apothecary sisters",
+    "Record": "Public scenes; later status not established",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Main quest-RP archive · message anchors below",
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+  ],
+  "body": "<h2 id=\"stella-sola-1\">The same sisters, two spellings</h2><p>Scenes under both Stella and Sola and Stella &amp; Sola name Stella and her sister Sola, place them at their shop and show them speaking together. The shared entry follows that scene continuity, not the account operating the names.</p><h2 id=\"stella-sola-2\">Medicine that must arrive</h2><p>They ask adventurers to carry a glowing medicine to the healing house in Eovar before it spoils. They distinguish speed from merely guarding the bottle and admit that the doctors know more about the patient’s illness. A delivery request establishes their practical role without proving a completed cure or inventing a diagnosis.</p><h2 id=\"stella-sola-3\">More than a quest counter</h2><p>They describe their business as a shop of herbs and niceties. They gather materials, prepare a rocking chair for Herb, and later help make beds for children in the shelter. These activities connect healing to the ordinary material care that keeps a settlement alive.</p><h2 id=\"stella-sola-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1261160649363554469\">The herb and niceties shop</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1261161134606520385\">A rocking chair for Herb</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332512129714225286\">Stella and Sola emerge from the apothecary</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332512876073717791\">Medicine for Eovar’s healing house</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332514175141937152\">The doctors know more</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1377749690186993835\">Beds for children</a></li></ul>",
+  "image": "assets/characters/discord/cdb194a65cf481c8adf0c5c9800af950f65bffea14a0e99b52c683463aadd0e6.png",
+  "imageAlt": "Discord depiction of Stella & Sola",
+  "imageCaption": "Stella & Sola",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "stella-sola-1",
+      "title": "The same sisters, two spellings",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "stella-sola-2",
+      "title": "Medicine that must arrive",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "stella-sola-3",
+      "title": "More than a quest counter",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "stella-sola-sources",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Apothecary sisters",
+    "significance": "The sisters whose shop links Pristinia’s ordinary comforts, medicine and emergency care.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "The sisters whose shop links Pristinia’s ordinary comforts, medicine and emergency care."
+  }
+}

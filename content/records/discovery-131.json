@@ -1,0 +1,73 @@
+{
+  "id": "discovery-131",
+  "title": "Scout William",
+  "category": "People",
+  "type": "Scout and civic mourner",
+  "dek": "Joins men raising a drink in remembrance of Lilian.",
+  "tags": [
+    "Scout William",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Scout and civic mourner",
+    "Island": "Prima",
+    "Census posts": "10",
+    "Recorded span": "2026-01-02 → 2026-01-02",
+    "Prominence": "31/100 · Provisional",
+    "Recorded presence": "6/20",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Joins men raising a drink in remembrance of Lilian.</p><h2 id=\"discovery-131-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 31/100 · Provisional</strong></p><p>A scout’s public remembrance links him to the community’s memory of Lilian.</p><ul><li>Consequences: 1/5 · weight 35</li><li>Institutional or witness role: 2/5 · weight 25</li><li>Relationships: 2/5 · weight 20</li><li>Recorded presence: 6/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-131-record\">Archive record</h2><p>The census records 10 posts across 2026-01-02 → 2026-01-02. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1456830622227103860\">Recorded scene · 1456830622227103860</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/9f21359c6a6bda6061ccb5afefaa616800bb7460bbf5d8c5fdca2c940cf2e577.png",
+  "imageAlt": "Discord depiction of Scout William",
+  "imageCaption": "Scout William",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-131-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-131-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Scout and civic mourner",
+    "significance": "Joins men raising a drink in remembrance of Lilian.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

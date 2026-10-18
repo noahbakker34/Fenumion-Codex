@@ -1,0 +1,620 @@
+{
+  "id": "scribonia",
+  "title": "Scribonia",
+  "category": "People",
+  "type": "Magi; scholar; thri-kreen",
+  "image": "scribonia-portrait.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Scribonia, a pale moth-like thri-kreen scholar with four arms, patterned wings, writing tools, and a tall staff",
+  "imageCaption": "Scribonia — Magi, scholar, teacher, and seeker of dangerous knowledge.",
+  "dek": "Scribonia refuses to be reduced by anyone else’s category. His reason gives him courage before gods and tyrants—and makes it very hard for him to stop prosecuting an argument.",
+  "tags": [
+    "Scribonia",
+    "Knowledge",
+    "Identity",
+    "Aria",
+    "Eugene",
+    "Delerium",
+    "Field notes",
+    "Attributed testimony"
+  ],
+  "facts": {
+    "Pronouns": "He / him",
+    "Identity": "Scribonia before every label",
+    "Strength": "Reason under intimidation",
+    "Appetite": "Useful knowledge and mastery",
+    "Institution": "Students and scholarly responsibility",
+    "Risk": "Argument becoming authority"
+  },
+  "sources": [
+    "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+    "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+    "Pasted markdown(20260909-024010).md — Zarathian research",
+    "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+    "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+    "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1215703678921744486",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1215706291549249628",
+    "Player testimony receipt · 2024-03-08 UTC · https://discord.com/channels/1177270231513694249/1201218439008751636/1215703678921744486",
+    "Player testimony receipt · 2024-03-08 UTC · https://discord.com/channels/1177270231513694249/1201218439008751636/1215706291549249628",
+    "Quest receipt · 2024-10-12 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1294519647751766101",
+    "Quest receipt · 2024-11-21 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1308963843505918055"
+  ],
+  "body": "<p>Scribonia is a collector of useful knowledge. Where Wren asks how a culture knows its stories are true, he returns from its libraries with literacy rates, years of study, Papirak, Wish, and the metaphysics of truth. He thinks mastery is protective and that a sound argument remains unfinished until it is answered.</p>\n      <h2 id=\"identity\">“I am Scribonia”</h2>\n      <p>When Aria tries to diminish him as a common moth, Scribonia refuses the premise. Moth, Magi, thri-kreen—other people may use any category they like. His identity does not depend on their permission. That self-possession lets him step toward a physically overwhelming opponent and challenge the hatred beneath Aria’s logic.</p>\n      <h2 id=\"knowledge-and-freedom\">Knowledge as freedom and leverage</h2>\n      <p>Scribonia understands that ignorance creates dependence. His Delerium research, teaching, and willingness to confront powers such as Aria all grow from the conviction that understanding can create freedom. The danger is symmetrical: mastery can also become leverage over people who do not possess it.</p>\n      <p>Aria makes that danger physical by trapping Scribonia in a gemstone in July 2025. Scholarship does not protect him from becoming an object inside somebody else’s strategy.</p>\n      <h2 id=\"eugene-boundary\">Eugene and a boundary he keeps</h2>\n      <p>When Eugene receives a Delerium-channeling weapon, Scribonia feels envy. He has been entrusted with something Scribonia worked and suffered to understand. Scribonia does not convert that feeling into entitlement.</p>\n      <div class=\"quote\">I am not your teacher anymore, you do not owe me an explanation in every aspect of your life.<cite>Scribonia</cite></div>\n      <p>The boundary matters because it is not automatic innocence. Scribonia still wants knowledge and control; here, he recognizes that mentorship does not make another person’s life an extension of his authority.</p>\n      <h2 id=\"institution\">Knowledge that outlives one scholar</h2>\n      <p>Students and scholarly responsibility make Scribonia’s knowledge institutional rather than merely personal. What he teaches can protect people, create dangerous capability, or reproduce his own assumptions after he leaves the room.</p>\n      <h2 id=\"growth\">The capacity to yield</h2>\n      <p>Some records show real growth: he recognizes that Gartina has more wisdom for a frightened newcomer and initially waits. The achievement is fragile. Minutes later, he is issuing commands and moral judgments again. Scribonia can identify that someone else is better suited to lead before his certainty drags him back into control.</p>\n      <h2 id=\"last-word\">The last word</h2>\n      <p>Even after ordered to stop arguing with Aria, he preserves a final declaration that the issue is not dead. This is both character strength and collaborative hazard. Reason makes him difficult to intimidate; it can also persuade him that any conversation remains his until his position has been fully heard.</p>\n      <h2 id=\"luminar-chaos\">Luminar Spires · order confronted by chaos</h2>\n      <p>The Spires attack the premise on which Scribonia’s power depends: predictable relationships between knowledge, intention, and effect. He identifies the field as primal and unstable, cannot guarantee even a cantrip’s result, and chooses to stop before his own mastery becomes a danger to the group.</p>\n      <div class=\"quote\">Meaningless chaos. Pure entropy solidified. I cannot work with this!<cite>Scribonia</cite></div>\n      <p>The restraint matters beside his response to Magnus. Faced with another uncontrolled threat, Scribonia proposes one of the most structured sequences available: locate Magnus, Gate to him, use Feeblemind, contain him, and eventually apply Imprisonment. He does not want Magnus killed because death would return him to Death. This remains a plan, not a completed capture.</p>\n      <h2 id=\"papirak-legacy-scribonia\">Papirak’s surviving work</h2>\n      <p>Scribonia reports that Magnus killed Papirak seeking Wish-unbound knowledge and clarifies that the information was locked away rather than erased. He has begun researching how the Training Dungeon might function without Papirak. The work may become stewardship of a dead teacher’s institution; the record does not yet call him Papirak’s successor.</p>\n      <h2 id=\"scribonia-open-record\">The incomplete chronology</h2>\n      <p>Scribonia’s earliest appearances, Academy history, full Delerium sequence, imprisonment and release, students, and later 2026 scenes remain incomplete. The stronger thematic model does not authorize the Codex to invent the missing transitions.</p><h2 id=\"scribonia-babel-campaign\">Trust, the caverns, and the storm</h2><p>Before returning to Babel’s caverns, Scribonia admits that earlier terrible ends have left him more afraid of mortality. Olokun offers reassurance; Scribonia resolves to rely more on his companions. In the dark passages he becomes the group’s eyes, sharing what he sees while Gartina supports their quiet approach. Their expedition reaches living captives, and its aftermath brings the survivors’ knowledge into the refuge.</p><p>Later he plans paired weather systems for the mountain offensive with Eugene. He wants a decisive strike, but afterward wonders whether the destruction has gone too far. His private appeal to Saturnia receives no answer established by this scene. The visible mountain damage does not settle the fate of Abyss or the island.</p><h2 id=\"scribonia-quest-continuation\">30 September · the promise to stay</h2><p>At Papirak’s funeral, Scribonia says he should have been there to protect the teacher. He commits to leaving a portion of himself in Pristinia to restore the Training Dungeon and to guard, teach and offer aid. The grief and commitment are witnessed. A completed restoration or permanent success of that watch is not yet shown. <a href=\"#papirak-legacy\">Read the funeral and its inheritance</a>.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1555060494069407827\" target=\"_blank\" rel=\"noopener\">1</a>.</p><h2 id=\"prima-rp-before-naturalists\">March 2024 · two ways of taking notes</h2><p>Scribonia seeks Jako’s experience with natural environments before exploring the ruins. Jako agrees that traveling together offers mutual protection. Along the way, Scribonia catalogs plants and animals and gathers samples; Jako records them in drawings. They exchange explanations of words and childhood customs. The expedition makes room for patient observation and teaching, not only combat or the search for treasure.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1213007461540306984/1214578510950178867\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1213007461540306984/1214582425166946334\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1213007461540306984/1214586333608149053\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1213007461540306984/1214586954277064734\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1213007461540306984/1214587562752999424\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1213007461540306984/1214596567944790016\" target=\"_blank\" rel=\"noopener\">6</a>.</p><h2 id=\"prima-rp-before-notes\">September 2026 · old notes guide a new expedition</h2><p>Minerva briefs later explorers to move quietly, watch for aberrations and avoid entering or casting inside the haze. She explicitly cites Scribonia’s notes for the warning that it feeds on spells. She asks the group to report historically interesting finds to her. The briefing establishes inherited precautions and an ongoing research interest; it does not resolve the ruins’ origins or independently prove every hazard rule she repeats.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1213007461540306984/1549554249732726925\" target=\"_blank\" rel=\"noopener\">1</a>.</p><h2 id=\"scribonia-location-log\">March 2024 · classifying an unfamiliar place</h2><p>In his location log posted on 8 March, Scribonia calls his base the Homestead and judges its infrastructure and civilian training limited. His proposed response is practical: train, build and explore. His “Level of Advancement: 1” belongs to his own evaluative scheme, rather than an objective rank for Pristinia.</p><p>He also records information attributed to the Master Librarian: Rahu lies roughly four or five days west, and Kinnich Ahua a similar journey east. These are reported travel estimates from that note, not fixed distances or a replacement for later maps. His wish to investigate Contamination remains an intention at this stage.</p>\n<h2 id=\"scribonia-scene-sequence\">Scenes in sequence</h2>\n<p>These selected scenes preserve what was knowable when people acted. Dates below identify source postings in UTC; they do not supply an in-world calendar. A later appearance does not settle present status.</p><ol class=\"scene-sequence\"><li><p class=\"scene-date\">2024-03-08 · player testimony</p><h3>Classifying a new settlement</h3><p>Scribonia records an early assessment and travel estimates attributed to the Master Librarian.</p><dl><div><dt>Known at this stage</dt><dd>The notes reflect his judgments and the information available to him.</dd></div><div><dt>Consequence</dt><dd>His method begins with recording distinctions and asking what is still needed.</dd></div><div><dt>Still unresolved</dt><dd>His development rank and route estimates are not objective geography or an official town classification.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1201218439008751636/1215703678921744486\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1201218439008751636/1215706291549249628\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li><li><p class=\"scene-date\">2024-10-12 · quest</p><h3>Achievement and self-doubt diverge</h3><p>During the relic trial Scribonia credits his students while judging his own accomplishments harshly.</p><dl><div><dt>Known at this stage</dt><dd>This is his distressed self-assessment.</dd></div><div><dt>Consequence</dt><dd>The scene preserves vulnerability beside later intellectual reputation.</dd></div><div><dt>Still unresolved</dt><dd>His claim of having accomplished nothing is not the archive’s historical verdict.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1294519647751766101\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li><li><p class=\"scene-date\">2024-11-21 · quest</p><h3>Remembering companions before the battle</h3><p>Scribonia deliberately takes in the support and relationships around him before facing Wrath.</p><dl><div><dt>Known at this stage</dt><dd>He cannot know which companions will survive.</dd></div><div><dt>Consequence</dt><dd>The scene gives the later losses a personal history rather than a casualty tally alone.</dd></div><div><dt>Still unresolved</dt><dd>His description of the last Vanguard members is a contemporary perception, not an exhaustive roster.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1308963843505918055\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li></ol>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "identity",
+      "title": "“I am Scribonia”",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "knowledge-and-freedom",
+      "title": "Knowledge as freedom and leverage",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "eugene-boundary",
+      "title": "Eugene and a boundary he keeps",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "institution",
+      "title": "Knowledge that outlives one scholar",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "growth",
+      "title": "The capacity to yield",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "last-word",
+      "title": "The last word",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "luminar-chaos",
+      "title": "Luminar Spires · order confronted by chaos",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "papirak-legacy-scribonia",
+      "title": "Papirak’s surviving work",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "scribonia-open-record",
+      "title": "The incomplete chronology",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "scribonia-babel-campaign",
+      "title": "Trust, the caverns, and the storm",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "scribonia-quest-continuation",
+      "title": "30 September · the promise to stay",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-before-naturalists",
+      "title": "March 2024 · two ways of taking notes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-before-notes",
+      "title": "September 2026 · old notes guide a new expedition",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-023111).md — Scribonia confronts Aria",
+          "Pasted markdown(20260909-023428).md — the masked newcomer and autonomy",
+          "Pasted markdown(20260909-024010).md — Zarathian research",
+          "CHARACTER_BIBLE.md and MASTER_TIMELINE.md — Eugene, the gemstone, students, and Delerium",
+          "Fenumion High-Presence Character Context Set — consolidated Scribonia context",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — unstable magic, Magnus containment plan, and Training Dungeon research",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "scribonia-location-log",
+      "title": "March 2024 · classifying an unfamiliar place",
+      "chapter": "Field testimony",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Player testimony · original checked",
+        "summary": "The original player note has been checked. Reported observations, secondhand warnings, rumors and theories retain their authors; posting dates do not establish world dates. Reading the original confirms what was written, not the objective truth of every claim.",
+        "scope": "section",
+        "sources": [
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1215703678921744486",
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1215706291549249628"
+        ]
+      }
+    },
+    {
+      "id": "scribonia-scene-sequence",
+      "title": "Scenes in sequence",
+      "chapter": "Scenes and consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Checked scenes · bounded conclusions",
+        "summary": "Selected original scenes checked. Observed actions, plans and attributed statements remain distinct. This does not certify the entire biography.",
+        "scope": "section",
+        "sources": [
+          "Player testimony receipt · 2024-03-08 UTC · https://discord.com/channels/1177270231513694249/1201218439008751636/1215703678921744486",
+          "Player testimony receipt · 2024-03-08 UTC · https://discord.com/channels/1177270231513694249/1201218439008751636/1215706291549249628",
+          "Quest receipt · 2024-10-12 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1294519647751766101",
+          "Quest receipt · 2024-11-21 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1308963843505918055"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Magi; scholar; thri-kreen",
+    "significance": "Scribonia refuses to be reduced by anyone else’s category. His reason gives him courage before gods and tyrants—and makes it very hard for him to stop prosecuting an argument.",
+    "actions": [
+      {
+        "section": "scribonia-scene-sequence",
+        "title": "Follow the checked scenes",
+        "date": "Choices, knowledge and consequences"
+      },
+      {
+        "section": "eugene-boundary",
+        "title": "Eugene and a boundary he keeps"
+      },
+      {
+        "section": "luminar-chaos",
+        "title": "Luminar Spires · order confronted by chaos"
+      },
+      {
+        "section": "papirak-legacy-scribonia",
+        "title": "Papirak’s surviving work"
+      }
+    ],
+    "status": "Last dated entry in this selection: 30 Sep 2026 · funeral. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "eugene",
+        "label": "Eugene",
+        "relation": "Teaching that must release its claim"
+      },
+      {
+        "id": "aria-pride",
+        "label": "Aria / Pride",
+        "relation": "Knowledge subjected to coercion"
+      },
+      {
+        "id": "magnus",
+        "label": "Magnus Niriin",
+        "relation": "Distrust converted into a plan"
+      },
+      {
+        "id": "papirak-legacy",
+        "label": "Papirak’s Legacy",
+        "relation": "Grief becomes archival responsibility"
+      },
+      {
+        "id": "elenia",
+        "label": "Elenia",
+        "relation": "Shared capability under moral pressure"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance.",
+    "curatedActions": true
+  },
+  "relationshipMap": {
+    "title": "Scribonia’s relationship web",
+    "intro": "Knowledge is never solitary in Scribonia’s history. Select a connection to see where teaching becomes inheritance, curiosity becomes power, and the pursuit of safety risks becoming control.",
+    "center": {
+      "title": "Scribonia",
+      "subtitle": "Knowledge seeking freedom"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "Trust & teaching"
+      },
+      {
+        "id": "power",
+        "label": "Knowledge & control"
+      },
+      {
+        "id": "conflict",
+        "label": "Conflict & correction"
+      },
+      {
+        "id": "politics",
+        "label": "Institutions & legacy"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "eugene",
+        "title": "Eugene",
+        "subtitle": "Former student, independent scholar",
+        "category": "bond",
+        "strength": 3,
+        "x": 50,
+        "y": 8,
+        "direction": "mutual",
+        "relation": "Teaching that must release its claim",
+        "history": "Scribonia privately recognizes Eugene’s brilliance even when Eugene presents himself as a burden. Their shared history includes dangerous knowledge, spellbook learning, and the habits of teacher and student.",
+        "consequence": "The relationship matures when Scribonia accepts that Eugene is no longer his student and does not owe him every explanation. Instruction remains causal without becoming ownership.",
+        "evidence": "Mentorship and later autonomy are established; the full early teaching chronology is incomplete.",
+        "article": "eugene"
+      },
+      {
+        "id": "aria",
+        "title": "Aria / Pride",
+        "subtitle": "Captor and philosophical enemy",
+        "category": "power",
+        "strength": 3,
+        "x": 76,
+        "y": 17,
+        "direction": "toward",
+        "relation": "Knowledge subjected to coercion",
+        "history": "Aria humiliates, coerces, and imprisons Scribonia in a gemstone. Her claim that power can secure freedom becomes intimate evidence of what power does when another person’s will is treated as expendable.",
+        "consequence": "Scribonia’s suffering cannot define every relationship Aria had, but it prevents later tenderness around her from erasing the danger she represented to him.",
+        "evidence": "Coercion and imprisonment are established; every private motive around them is not.",
+        "article": "aria-pride"
+      },
+      {
+        "id": "magnus",
+        "title": "Magnus Niriin",
+        "subtitle": "Containment target",
+        "category": "conflict",
+        "strength": 3,
+        "x": 84,
+        "y": 42,
+        "direction": "mutual",
+        "relation": "Distrust converted into a plan",
+        "history": "Scribonia reads Death’s hold over Magnus as ownership and concludes that ordinary trust cannot safely contain the risk. He proposes Gate, Feeblemind, and Imprisonment rather than execution.",
+        "consequence": "The plan reveals both discipline and danger: he rejects killing Magnus while becoming willing to remove Magnus’s practical agency for the sake of collective safety.",
+        "evidence": "The containment proposal is established; it has not been carried out.",
+        "article": "magnus"
+      },
+      {
+        "id": "academy",
+        "title": "Magic Academy",
+        "subtitle": "Students and institutional legacy",
+        "category": "politics",
+        "strength": 3,
+        "x": 80,
+        "y": 73,
+        "direction": "toward",
+        "relation": "Private mastery becomes public transmission",
+        "history": "Scribonia’s academy turns knowledge from a personal defense into an institution. Marius, Aurélia, Saoirse, and future students inherit not only spells but the habits, fears, and ethical boundaries of their teachers.",
+        "consequence": "His historical importance can outlast his body. The academy also makes his methods answerable to the people who must live with what its students learn to do.",
+        "evidence": "The academy and teaching activity are established; its full curriculum and governance remain open.",
+        "article": "pristinia"
+      },
+      {
+        "id": "papirak",
+        "title": "Papirak",
+        "subtitle": "Lost witness and inherited obligation",
+        "category": "bond",
+        "strength": 3,
+        "x": 58,
+        "y": 90,
+        "direction": "mutual",
+        "relation": "Grief becomes archival responsibility",
+        "history": "Papirak’s death removes a person and an irreplaceable historical witness. At the funeral, Scribonia admits guilt that he did not protect him and promises to attempt restoration of the Training Dungeon.",
+        "consequence": "The promise binds mourning to future work. Scribonia can preserve and teach what remains without pretending reconstruction will restore everything Papirak knew.",
+        "evidence": "The grief, promise, and funeral are established; complete restoration remains an unproven belief.",
+        "article": "papirak-legacy"
+      },
+      {
+        "id": "elenia",
+        "title": "Elenia",
+        "subtitle": "Peer in world-altering power",
+        "category": "power",
+        "strength": 2,
+        "x": 31,
+        "y": 87,
+        "direction": "mutual",
+        "relation": "Shared capability under moral pressure",
+        "history": "Scribonia and Elenia participate in a mountain-scale intervention of storm, earthquake, avalanche, flood, lava, and steam. At the Luminar Spires, their responses to unstable magic diverge: analysis and containment beside curiosity and experiment.",
+        "consequence": "Their combined capability makes cooperation effective and morally dangerous. Each becomes evidence that knowing how to alter the world does not settle whether the alteration is permitted.",
+        "evidence": "Shared expeditions are established; their complete personal relationship is sparsely recovered.",
+        "article": "elenia"
+      },
+      {
+        "id": "jiangshi",
+        "title": "Jiangshi",
+        "subtitle": "Colleague in hidden knowledge",
+        "category": "bond",
+        "strength": 2,
+        "x": 16,
+        "y": 68,
+        "direction": "mutual",
+        "relation": "Different ways of making the concealed legible",
+        "history": "Scribonia and Jiangshi are associated with research that makes hidden magical writing visible, including the Truesight examination of Papirak’s grimoire. Jiangshi’s ethic of presence also resists reducing care to explanation alone.",
+        "consequence": "The connection joins technical revelation to a reminder that not every truth a person needs is solved by analysis.",
+        "evidence": "The shared investigation is established; a broader working partnership remains incomplete.",
+        "article": "jiangshi"
+      },
+      {
+        "id": "olokun",
+        "title": "Olokun",
+        "subtitle": "Living memory subject to correction",
+        "category": "conflict",
+        "strength": 2,
+        "x": 16,
+        "y": 39,
+        "direction": "mutual",
+        "relation": "Memory corrected without being dismissed",
+        "history": "Olokun carries older history about Papirak, Wish, and divine intervention. Scribonia corrects one exact point: relevant knowledge was locked away and wrapped in madness, not simply erased.",
+        "consequence": "The exchange models useful correction. Olo remains a vital carrier of lived history while Scribonia supplies precision where magical mechanics matter.",
+        "evidence": "The correction is established; neither person becomes an omniscient source.",
+        "article": "olokun"
+      },
+      {
+        "id": "nymera",
+        "title": "Nymera",
+        "subtitle": "Help beyond specialization",
+        "category": "bond",
+        "strength": 1,
+        "x": 22,
+        "y": 15,
+        "direction": "mutual",
+        "relation": "Expertise making room for contribution",
+        "history": "Nymera misunderstands Scribonia’s proposed magical prison and apologizes. Scribonia and Arjahn refuse the apology and affirm that her practical help remains valuable elsewhere.",
+        "consequence": "A small exchange tests whether specialized knowledge will humiliate outsiders or help them find a meaningful place in shared work.",
+        "evidence": "The Luminar Spires exchange is established; the later relationship remains open.",
+        "article": "nymera"
+      }
+    ],
+    "insights": [
+      {
+        "label": "Strongest bond",
+        "value": "Eugene",
+        "note": "Teaching matters most when the student is allowed to become independent."
+      },
+      {
+        "label": "Deepest wound",
+        "value": "Aria’s imprisonment",
+        "note": "Knowledge and personhood were both placed under another’s control."
+      },
+      {
+        "label": "Public legacy",
+        "value": "Magic Academy",
+        "note": "Private mastery becomes a system other people will inherit."
+      },
+      {
+        "label": "Central danger",
+        "value": "Containment as protection",
+        "note": "Safety can become domination even when execution is rejected."
+      }
+    ]
+  },
+  "profile": {
+    "personality": "Scribonia is analytical, candid, and capable of separating care from control. He values knowledge but resists the idea that teaching creates ownership over another person’s choices, and he can admit uncertainty without surrendering the obligation to keep investigating.",
+    "achievements": "He belongs to the first Calling, helps map Prima’s earliest dangers, explores the sector dungeon, reaches Gael, preserves Voraketh evidence, teaches at Prima’s Magic Academy, and repeatedly turns fragmentary encounters into records other people can use. His identity as an artwright joins making, magic, and memory.",
+    "relationships": "Eugene’s brilliance is something Scribonia recognizes and supports without demanding obedience. Olokun is a frequent moral and intellectual counterpart; Gartina, Elenia, Jiangshi, Vaemyr, and Alyhotep share much of his expedition history; and his later students make his legacy institutional rather than merely personal."
+  },
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "player testimony",
+    "scope": "Original location-notes export checked; protected statements and unseen attachments withheld. No truth status inferred from player authorship."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "aionia",
+  "title": "Aionia",
+  "category": "People",
+  "type": "Divine caretaker · time and history",
+  "dek": "A caretaker whose encounters with mortals make historical knowledge costly, and whose own vulnerability sets limits on divine power.",
+  "tags": [
+    "Aionia",
+    "Time",
+    "History",
+    "World map",
+    "Olokun",
+    "Vain"
+  ],
+  "facts": {
+    "Public record": "Historical expedition and later testimony",
+    "Power": "Consequential, limited and costly",
+    "Later condition": "Wounded in the April 2026 encounter; complete subsequent history unresolved"
+  },
+  "body": "<p>Aionia’s public history joins two responsibilities: helping mortals learn from the past and enduring the consequences of a world she cannot simply put right. Her part in <a href=\"#olokun\">Olokun’s</a> historical expedition gives the adventurers access to knowledge they could not otherwise obtain. It also places a choice in their hands. The opportunity to intervene does not make her the author of their decision.</p>\n<h2 id=\"aionia-history-at-a-cost\">December 2024 · history at a cost</h2><p>Aionia meets the company with a slow, strangely mechanical manner. When Coralyn bows, she imitates the gesture rather than displaying an effortless command of mortal ceremony. The encounter makes her powerful presence feel unfamiliar with ordinary social life.</p><p>She offers an expedition to observe the past, with a narrow opportunity to change one thing. She warns that the intervention will diminish her and that a small alteration may have much larger consequences on return. The account calls this the <strong>Moth effect</strong>. These are terms of this expedition, rather than proof that every journey through time works identically.</p><p>The party’s choice centers on a world map. Coralyn takes it, reality visibly shifts, and Aionia’s magic begins drawing the group toward the present. Temporal pursuers force them to hold out during the return. Historical knowledge arrives through risk and a material choice, rather than through an unlimited invitation to remake every loss.</p>\n<h2 id=\"aionia-choice-and-caretaking\">Choice and caretaking</h2><p>Her willingness to bear a cost matters beside her refusal to choose for the mortals. She can make intervention possible without deciding what they should do with it. Read as a pattern of conduct, this is stewardship under constraint: power creates a responsibility, but does not erase the agency of those who receive it.</p><p>Olokun later carries the expedition into his conversations with others. His recollections remain testimony, and later interpretations of what the party learned do not become Aionia’s own stated motives.</p>\n<h2 id=\"aionia-later-vulnerability\">April 2026 · the caretaker needs protection</h2><p>The later encounter already preserved in <a href=\"#vain\">Vain’s history</a> changes the scale of that vulnerability. A wounded Aionia says Vain defeated her and describes him as a hunter serving Death. She warns that she is being pursued and may be too weak to repel the threat. Her account has the weight of a participant’s wounds, while the details of Vain’s wider operations remain attributed to her.</p><p>This history prevents the earlier expedition from becoming a claim of absolute mastery. Aionia can help people reach history and still depend on others when her strength fails. Neither her title nor her knowledge establishes omniscience.</p>\n<h2 id=\"aionia-open-history\">The open history</h2><p>The precise limits of her temporal interventions, her relationship to the pursuing Wardens, the lasting effects of the map’s removal and the full course of her later recovery remain unresolved here. The public account does not disclose concealed divine history or treat a later recollection as a complete explanation of the past.</p><h2 id=\"recorded-scenes\">Recorded scenes</h2><p>Dates identify transcript postings, not an independently established in-world calendar.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1323384944244035645\">30 December 2024 · the unfamiliar visitor</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1323385870056685638\">The stated cost</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1323388447150444568\">The mortals’ choice</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1323389895145820284\">One intervention</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1323390608848715807\">The Moth effect warning</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1323420077147689075\">The return begins</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1489832844581929141\">3 April 2026 · Aionia’s defeat account</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1489834547452313680\">Her description of Vain</a></li></ul>",
+  "sources": [
+    "Main quest-RP · selected primary scenes; anchors below",
+    "Supplied deep dossier · interpretation checked against quest evidence"
+  ],
+  "image": "assets/characters/aionia.png",
+  "imageAlt": "Aionia",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "aionia-history-at-a-cost",
+      "title": "December 2024 · history at a cost",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "aionia-choice-and-caretaking",
+      "title": "Choice and caretaking",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "aionia-later-vulnerability",
+      "title": "April 2026 · the caretaker needs protection",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "aionia-open-history",
+      "title": "The open history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "recorded-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Divine caretaker · time and history",
+    "significance": "A caretaker whose encounters with mortals make historical knowledge costly, and whose own vulnerability sets limits on divine power.",
+    "actions": [
+      {
+        "title": "Aionia names Vain as Death’s Shard hunter",
+        "event": "Aionia names Vain as Death’s Shard hunter",
+        "date": "3 Apr 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: 3 Apr 2026. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "olokun",
+        "label": "Olokun",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "vain",
+        "label": "Vain",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "A caretaker whose encounters with mortals make historical knowledge costly, and whose own vulnerability sets limits on divine power."
+  }
+}

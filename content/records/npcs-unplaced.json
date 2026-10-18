@@ -1,0 +1,22 @@
+{
+  "id": "npcs-unplaced",
+  "title": "Island not established · NPCs",
+  "category": "Archive",
+  "type": "Island NPC directory",
+  "dek": "NPCs whose home island or local affiliation remains unresolved.",
+  "tags": [
+    "NPCs",
+    "Island not established"
+  ],
+  "facts": {
+    "Scope": "NPCs"
+  },
+  "sources": [
+    "Existing public NPC dossiers and location histories"
+  ],
+  "body": "",
+  "npcIsland": "unplaced",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

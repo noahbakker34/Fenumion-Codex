@@ -1,0 +1,47 @@
+{
+  "id": "shard-of-prima",
+  "title": "The Shard of Prima",
+  "type": "Landmark",
+  "dek": "The southern Prima landmark labeled “The Shard” on the island map.",
+  "facts": {
+    "Region": "Prima",
+    "Position": "Southern Prima"
+  },
+  "body": "<p>The island map places “The Shard” in southern <a href=\"#prima-pristinia\">Prima</a>, south of <a href=\"#first-forest\">the First Forest</a>.</p><h2 id=\"prima-shard-identity\">A landmark of Prima</h2><p>This is a separate mapped landmark from <a href=\"#shard-of-fein-uaill\">the Shard of Fein Uaill</a>. The Prima label alone does not establish its powers, origin, or deeper history.</p>",
+  "category": "Places",
+  "tags": [
+    "Prima",
+    "Landmark"
+  ],
+  "sources": [
+    "Prima island map · The Shard label south of the First Forest · assets/archive/prima-map.jpg"
+  ],
+  "image": "assets/archive/prima-map.jpg",
+  "imageAlt": "Map of Prima showing Eovar Harbor, the Thundering Coast, Pristinia, the Gate, the Before, Old Earth Hills, the First Forest, Kinich Ahau, the Rahu, Lost Shacks and the Shard",
+  "imageCaption": "Prima · island map",
+  "mapId": "prima",
+  "mapLinkLabel": "Explore the interactive Prima map",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "prima-shard-identity",
+      "title": "A landmark of Prima",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "map",
+        "label": "Map-backed description",
+        "summary": "Separate mapped landmark; no protected origin or powers inferred.",
+        "scope": "section",
+        "sources": [
+          "Prima island map · The Shard label south of the First Forest · assets/archive/prima-map.jpg"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "map",
+    "scope": "Separate mapped landmark; no protected origin or powers inferred."
+  }
+}

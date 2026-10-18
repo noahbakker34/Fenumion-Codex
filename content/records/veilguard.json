@@ -1,0 +1,441 @@
+{
+  "id": "veilguard",
+  "title": "The Veilguard",
+  "image": "assets/archive/veilguard-symbol.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Veilguard symbol: a silver sword draped in a dark veil, flanked by two crescents inside an ornate thorned frame",
+  "imageCaption": "The symbol of the Veilguard.",
+  "category": "Factions",
+  "type": "Inter-island protective company · successor to the new vanguard",
+  "dek": "A faction built to replace a missing frontline function with earned leadership, rapid response, shared equipment, and responsibility that continues after rescue fails.",
+  "tags": [
+    "Veilguard",
+    "New Vanguard",
+    "Lady Severina",
+    "Pelagia",
+    "Thorn",
+    "Camilla",
+    "Kasiri",
+    "Modeli",
+    "Gael"
+  ],
+  "facts": {
+    "Faction status": "Distinct faction, separate from the Ale-Chemy Knights",
+    "Leadership selection": "14 Apr 2026",
+    "Leader": "Lady Severina Blackveil",
+    "Founding participants": "Severina · Pelagia · Thorn · Camilla · Kasiri · Modeli",
+    "Name in public use": "By 25 May 2026",
+    "Operating principle": "Members watch out for one another"
+  },
+  "sources": [
+    "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+    "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+    "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+    "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+    "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546382488291508254",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1546990766197575721"
+  ],
+  "body": "<div class=\"callout gold\"><p><strong>Canon ruling:</strong> the Veilguard is a distinct faction, not another name for the Ale-Chemy Knights. It grew from the 2026 effort to form a new vanguard and became an inter-island protective company under Lady Severina Blackveil.</p></div>\n      <p>The Veilguard began with a practical absence. Fenumion still needed people able to travel toward regional danger, support less experienced adventurers, and act together under pressure, but the earlier Vanguard could no longer be assumed to fill that role. The answer was not to grant a legendary title to the strongest available fighters. Candidates were asked what leadership meant, whom they trusted, and why.</p>\n      <h2 id=\"veilguard-selection\">14 April 2026 · leadership must be earned</h2>\n      <p>Lady Severina, Pelagia, Thorn, Camilla Blackwood, Kasiri Ruza, and Modeli are directly present in the recovered selection. Kumai-218 tests their definitions of leadership because Namo’o is concerned with their hearts as well as their strength. Pelagia defines leadership as being worthy of followers and aligning them toward a common goal. Thorn warns that honeyed words mean little until conduct proves them.</p>\n      <p>Kasiri chooses Severina because she trusts her judgment even when acting rightly might cost Kasiri personally. Camilla chooses her for duty, discipline, and the ability to act without surrendering judgment to fear or sentiment. Severina is surprised to receive the strongest support. Her authority begins in peer confidence, not self-coronation.</p>\n      <div class=\"quote\">Leadership is being worthy of your followers and aligning them toward a common goal.<cite>Pelagia</cite></div>\n      <h2 id=\"veilguard-name\">April–May 2026 · a temporary role becomes an institution</h2>\n      <p>On 14 April the group is still the <strong>new vanguard</strong>. By 20 May, Severina says she has gathered people, selected a name, and begun seeking equipment for rapid travel to other islands. By 25 May she publicly uses <strong>Veilguard</strong> while discussing the Ahau, support for newer adventurers, and preparation for a wider Great War. The exact naming day remains unrecovered.</p>\n      <h2 id=\"veilguard-doctrine\">Structure under pressure</h2>\n      <p>Severina’s strongest model is adaptive rather than ceremonial: observe people, identify strengths, organize roles, protect the vulnerable, preserve a reserve, and revise when circumstances change. Mobility, communication, and portable equipment are institutional infrastructure because the faction is meant to reinforce crises beyond one settlement.</p>\n      <p>The recovered record does not establish a complete charter or permanent roster. It does establish a culture in which authority must remain accountable, actions matter more than speeches, followers are not expendable currency, resources serve people, and promises remain meaningful when they become expensive.</p>\n      <h2 id=\"veilguard-thorn\">August–September 2026 · Thorn becomes the test</h2>\n      <p>Thorn’s loss tests the faction’s founding claims. Severina and Pelagia discuss pooled gold, husks, crafting, favors, and portable magical resources rather than treating recovery as a private purchase. Pelagia offers the clearest informal statement of the faction’s resource ethic: “We love people and use items. Not the other way around.”</p>\n      <p>On 27 August Severina promises to bring Thorn back. When Thorn’s body is found on 6 September, Severina apologizes, applies Gentle Repose, summons Øblivion, and carries her home. The event does not prove that good leadership prevents every loss. It establishes the harder principle that failure does not erase responsibility.</p>\n      <p>After the body reaches the Tower, Alyhotep begins a Wish-based resurrection. By 8 September Thorn is alive and recovering there; a separate narrator description of the spell-completion moment is not present in the checked excerpt.</p>\n<p>By 19 September, Thorn identifies herself as Veilguard and feels obligated to return to Gael. Her explanation—“We all watch out for each other”—shows that the organization’s culture is no longer only its leader’s theory.</p>\n      <div class=\"quote\">We love people and use items. Not the other way around.<cite>Pelagia</cite></div>\n      <h2 id=\"veilguard-people\">People in the recovered faction history</h2>\n      <ul>\n        <li><a href=\"#lady-severina\"><strong>Lady Severina Blackveil</strong></a> — selected leader and principal organizer.</li>\n        <li><strong>Pelagia</strong> — founding participant, advocate of worthy leadership, and contributor to shared recovery resources.</li>\n        <li><a href=\"#thorn\"><strong>Thorn</strong></a> — founding skeptic, later explicit member, and the person whose loss tests the faction’s promises.</li>\n        <li><strong>Camilla Blackwood</strong> — founding participant who supports Severina on the basis of duty, discipline, and judgment.</li>\n        <li><strong>Kasiri Ruza</strong> — founding participant whose vote establishes trust without demanding blind obedience.</li>\n        <li><strong>Modeli</strong> — founding participant praised for compassion, reasoning, and refusing to waste lives.</li>\n        <li><strong>Karnak, Ryvyt, and Øblivion</strong> — later operational links whose exact formal status should not be overstated.</li>\n      </ul>\n      <h2 id=\"veilguard-timeline\">Faction timeline</h2>\n      <ol class=\"timeline\">\n        <li><time>Before Apr 2026</time><p>The earlier Vanguard no longer reliably fills Fenumion’s frontline role.</p></li>\n        <li><time>14 Apr 2026</time><p>Candidates define leadership, judge one another, and choose Severina.</p></li>\n        <li><time>20–25 May 2026</time><p>Personnel, equipment, mobility, diplomacy, and the Veilguard name turn succession into an institution.</p></li>\n        <li><time>20–27 Aug 2026</time><p>Thorn’s recovery becomes a shared logistical and moral obligation.</p></li>\n        <li><time>6–19 Sep 2026</time><p>Thorn is recovered and later names mutual watchfulness as the faction’s lived culture.</p></li>\n      </ol>\n      <h2 id=\"veilguard-open-record\">Open record</h2>\n      <p>The exact formal naming date, written charter, complete membership at every date, relationship to the original Vanguard, equipment inventory, command structure beneath Severina, and limits of any alliance with the Ahau remain unresolved. Association in one operation does not automatically establish membership.</p><h2 id=\"veilguard-first-memory\">Before the New Vanguard · a remembered absence</h2><p>On 5 May 2024, <a href=\"#ada-town-chronicler\">Ada</a> publicly associated an early generation of Pristinian defenders with the Vanguard tradition and described their departure through the town’s quieter taverns, altered marketplace, and sense of missing guardians. The chronicle proves civic association and loss, not formal membership for every person named.</p><p>That memory supplies the 2026 project with a cultural prehistory. The New Vanguard was asked to inherit a role Pristinia already remembered; the Veilguard became a deliberate institution rather than remaining an imitation of the people who first made the title meaningful.</p><h2 id=\"veilguard-gael-succession\">Gael and the work inherited</h2><p>In the July 2026 Tower conversation, Severina says collaboration between the Veilguard and Vanguard is the goal. Her statement preserves the groups as distinct and does not confirm a finished merger or formal alliance. In September, she names herself leader of the Veilguard, guarding the world against Death, and identifies Pin as a member who helped recover a friend.</p><p>Gael places this institutional work beside the earlier expedition’s refuge, restoration and mourning. Thorn’s recovery efforts make mutual care a continuing obligation. The company inherits unfinished work without becoming the sole author of the region’s future.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "veilguard-selection",
+      "title": "14 April 2026 · leadership must be earned",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+          "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+          "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+          "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "veilguard-name",
+      "title": "April–May 2026 · a temporary role becomes an institution",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+          "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+          "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+          "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "veilguard-doctrine",
+      "title": "Structure under pressure",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+          "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+          "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+          "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "veilguard-thorn",
+      "title": "August–September 2026 · Thorn becomes the test",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+          "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+          "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+          "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "veilguard-people",
+      "title": "People in the recovered faction history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+          "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+          "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+          "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "veilguard-timeline",
+      "title": "Faction timeline",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+          "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+          "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+          "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "veilguard-open-record",
+      "title": "Open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+          "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+          "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+          "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "veilguard-first-memory",
+      "title": "Before the New Vanguard · a remembered absence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+          "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+          "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+          "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "veilguard-gael-succession",
+      "title": "Gael and the work inherited",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — formation, leadership test, doctrine, Thorn recovery, roster boundaries, and chronology",
+          "Complete quest-rp export — 14 Apr, 20–25 May, 20–27 Aug, and 6–19 Sep 2026 scenes",
+          "User canon ruling, 3 Oct 2026 — the Veilguard is a faction like the Ale-Chemy Knights",
+          "Contemporary Chronicle — Ada, Town Chronicler · 5 May 2024 Vanguard remembrance",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    }
+  ],
+  "relationshipMap": {
+    "kind": "interaction",
+    "title": "The Veilguard interaction map",
+    "intro": "Select a person, institution, or resource to trace their role, what they contribute, what the faction provides in return, and the limits of the recovered record. This is a historical network, not a current attendance roster.",
+    "center": {
+      "title": "The Veilguard",
+      "subtitle": "Protective company · entrusted leadership"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All interactions"
+      },
+      {
+        "id": "bond",
+        "label": "Members & participants"
+      },
+      {
+        "id": "power",
+        "label": "Resources & logistics"
+      },
+      {
+        "id": "politics",
+        "label": "Civic & faction links"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "severina",
+        "title": "Lady Severina",
+        "subtitle": "Selected leader · organizer",
+        "category": "bond",
+        "strength": 2,
+        "direction": "mutual",
+        "relation": "Selected leader · organizer",
+        "history": "On 14 Apr 2026, Severina receives the strongest support. By late May, the company is publicly named Veilguard.",
+        "consequence": "Organizes roles and reserves, seeks inter-island mobility, and takes responsibility for bringing Thorn home.",
+        "resource": "Adaptive command, personnel organization, recovery planning, and portable equipment.",
+        "receives": "Receives peer confidence and leadership entrusted by Kasiri and Camilla in the April selection.",
+        "evidence": "The naming day, complete charter, and command structure beneath Severina remain unrecovered.",
+        "source": "Veilguard record: selection; name; doctrine; Thorn recovery.",
+        "article": "lady-severina",
+        "x": 50,
+        "y": 8
+      },
+      {
+        "id": "pelagia",
+        "title": "Pelegia",
+        "subtitle": "Founding participant · shared recovery",
+        "category": "bond",
+        "strength": 2,
+        "direction": "mutual",
+        "relation": "Founding participant · shared recovery",
+        "history": "Pelegia’s principle is “We love people and use items. Not the other way around.”",
+        "consequence": "Defines worthy leadership and discusses gold, crafting, favors, and magical resources with Severina during Thorn’s loss.",
+        "resource": "Leadership judgment and participation in pooled recovery resources.",
+        "receives": "Works within a company that treats people as the purpose of shared equipment and resources.",
+        "evidence": "Founding participation is established; a permanent rank or complete resource inventory is not.",
+        "source": "Veilguard record: 14 Apr selection; Aug–Sep Thorn recovery.",
+        "article": "pelegia",
+        "x": 78,
+        "y": 17
+      },
+      {
+        "id": "thorn",
+        "title": "Thorn",
+        "subtitle": "Explicit member · mutual watchfulness",
+        "category": "bond",
+        "strength": 2,
+        "direction": "mutual",
+        "relation": "Explicit member · mutual watchfulness",
+        "history": "By 19 Sep, Thorn is alive in Prima, identifies as Veilguard, and feels obliged to return to Gael.",
+        "consequence": "Challenges leadership that relies on speeches, then names mutual protection as the company’s lived culture.",
+        "resource": "Field experience, critical judgment, and an explicit account of belonging.",
+        "receives": "Receives a recovery commitment; Severina preserves and carries her body home after it is found on 6 Sep.",
+        "evidence": "The mechanism of her return and the complete recovery company remain unresolved.",
+        "source": "Veilguard record: selection; 27 Aug promise; 6–19 Sep recovery.",
+        "article": "thorn",
+        "x": 84,
+        "y": 40
+      },
+      {
+        "id": "camilla",
+        "title": "Camilla Blackwood",
+        "subtitle": "Founding participant · leadership judgment",
+        "category": "bond",
+        "strength": 2,
+        "direction": "mutual",
+        "relation": "Founding participant · leadership judgment",
+        "history": "Camilla’s support is part of the recovered selection, rather than evidence of an appointed rank.",
+        "consequence": "Supports Severina for the ability to act without surrendering judgment to fear or sentiment.",
+        "resource": "Judgment grounded in duty, discipline, and acting under pressure.",
+        "receives": "Has a chosen leader whose authority begins in the confidence of her peers.",
+        "evidence": "Her permanent position and later attendance are not established by the selection alone.",
+        "source": "Veilguard record: 14 Apr 2026 leadership selection.",
+        "article": "veilguard",
+        "x": 80,
+        "y": 68
+      },
+      {
+        "id": "kasiri",
+        "title": "Kasiri Ruza",
+        "subtitle": "Founding participant · trust in judgment",
+        "category": "bond",
+        "strength": 2,
+        "direction": "mutual",
+        "relation": "Founding participant · trust in judgment",
+        "history": "Kasiri’s vote establishes authority through trust rather than a demand for blind obedience.",
+        "consequence": "Chooses Severina because she trusts her judgment even when acting rightly might cost Kasiri.",
+        "resource": "Peer assessment and trust that allows personal cost.",
+        "receives": "Entrusts leadership while retaining the moral importance of independent judgment.",
+        "evidence": "No permanent rank or complete later service record is established here.",
+        "source": "Veilguard record: 14 Apr 2026 leadership selection.",
+        "article": "veilguard",
+        "x": 62,
+        "y": 90
+      },
+      {
+        "id": "modeli",
+        "title": "Modeli",
+        "subtitle": "Founding participant · care for lives",
+        "category": "bond",
+        "strength": 2,
+        "direction": "mutual",
+        "relation": "Founding participant · care for lives",
+        "history": "Modeli is directly present in the recovered founding selection.",
+        "consequence": "Participates in the selection and is praised for compassion and careful reasoning.",
+        "resource": "Compassion, reasoning, and refusal to waste lives.",
+        "receives": "Participates in a protective project where resources and leadership are meant to serve people.",
+        "evidence": "No specialized operational assignment or permanent command role is recovered.",
+        "source": "Veilguard record: founding participants; people.",
+        "article": "veilguard",
+        "x": 35,
+        "y": 90
+      },
+      {
+        "id": "knights",
+        "title": "Ale-Chemy Knights",
+        "subtitle": "Distinct faction · logistics contact",
+        "category": "politics",
+        "strength": 2,
+        "direction": "mutual",
+        "relation": "Distinct faction · logistics contact",
+        "history": "Both factions remain separately identified in the public record.",
+        "consequence": "Provides an overlapping operational network; Ryvyt appears among later Veilguard links.",
+        "resource": "A wider cooperative network of crafting, supplies, property, and transport.",
+        "receives": "The Veilguard supplies a distinct protective context for those overlapping contacts; exact reciprocal arrangements are not recovered.",
+        "evidence": "An operational link does not prove that Ryvyt joined the Veilguard or that the companies share command.",
+        "source": "Veilguard record: people and open record; 3 Oct canon ruling.",
+        "article": "ale-chemy-knights",
+        "x": 17,
+        "y": 70
+      },
+      {
+        "id": "gael",
+        "title": "Gael",
+        "subtitle": "Field of operations · Thorn’s return",
+        "category": "politics",
+        "strength": 2,
+        "direction": "mutual",
+        "relation": "Field of operations · Thorn’s return",
+        "history": "Reports after Thorn’s death describe a cult intending a ritual against a Gael Shard.",
+        "consequence": "Creates the regional conditions in which mutual protection and recovery are tested.",
+        "resource": "Regional danger, husk hunts, and the need to bring companions home.",
+        "receives": "Receives the company’s attention to danger; Thorn feels an obligation to return to Gael.",
+        "evidence": "The full ritual outcome and the faction’s wider regional jurisdiction remain unknown.",
+        "source": "Veilguard record: Thorn recovery; 19 Sep belonging.",
+        "article": "gael",
+        "x": 16,
+        "y": 42
+      },
+      {
+        "id": "equipment",
+        "title": "Shared equipment",
+        "subtitle": "Mobility · recovery resources",
+        "category": "power",
+        "strength": 2,
+        "direction": "mutual",
+        "relation": "Mobility · recovery resources",
+        "history": "Severina seeks mobility equipment in May; later discussions with Pelagia put shared resources toward Thorn’s recovery.",
+        "consequence": "Enables planned rapid travel and the shared effort to recover a fallen companion.",
+        "resource": "Pooled gold, crafting, favors, and portable magical resources.",
+        "receives": "The company seeks and pools resources, with the stated principle that items serve people.",
+        "evidence": "Exact inventory, custody, spending rules, and equipment allocation are unresolved.",
+        "source": "Veilguard record: May institution-building; Aug–Sep resource ethic.",
+        "article": "veilguard",
+        "x": 23,
+        "y": 17
+      }
+    ],
+    "insights": [
+      {
+        "label": "Entrusted leader",
+        "value": "Severina",
+        "note": "Kasiri and Camilla support her judgment in April 2026."
+      },
+      {
+        "label": "Founding participants",
+        "value": "Six named people",
+        "note": "Participation at selection does not prove a permanent roster."
+      },
+      {
+        "label": "Defining obligation",
+        "value": "Bring people home",
+        "note": "Thorn’s loss tests whether the company’s promises endure."
+      },
+      {
+        "label": "Principal gap",
+        "value": "Roster & resources",
+        "note": "Ranks, equipment custody, and later membership remain incomplete."
+      }
+    ],
+    "connections": [
+      {
+        "from": "kasiri",
+        "to": "severina",
+        "label": "Entrusts leadership"
+      },
+      {
+        "from": "camilla",
+        "to": "severina",
+        "label": "Supports leadership"
+      },
+      {
+        "from": "severina",
+        "to": "thorn",
+        "label": "Recovery promise and carrying home"
+      },
+      {
+        "from": "pelagia",
+        "to": "equipment",
+        "label": "Shared recovery resource discussions"
+      }
+    ]
+  }
+}

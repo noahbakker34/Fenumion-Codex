@@ -1,0 +1,127 @@
+{
+  "id": "first-forest",
+  "title": "The First Forest",
+  "category": "Places",
+  "type": "Prima old-growth forest and travel corridor",
+  "image": "assets/archive/first-forest.webp",
+  "imageAlt": "Travelers moving among immense moss-covered trees in the First Forest",
+  "imageCaption": "The First Forest — old-growth woodland bordering Pristinia and the roads beyond it.",
+  "dek": "An old-growth forest at Pristinia’s edge: beautiful, misted, traveled, repeatedly reclaimed by nature, and dangerous enough that no familiar road stays merely scenery.",
+  "tags": [
+    "Prima",
+    "Pristinia",
+    "First Forest",
+    "Old growth",
+    "Travel",
+    "Exploration"
+  ],
+  "facts": {
+    "Parent": "Prima",
+    "Nearest settlement": "Pristinia",
+    "Observed trees": "Pine · oak · birch",
+    "Routes": "Eovar road · Old Earth Hills · quarry approach",
+    "First recovered expedition": "11 Apr 2024"
+  },
+  "sources": [
+    "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
+    "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
+    "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
+    "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
+    "User-supplied First Forest visual record, 29 Sep 2026"
+  ],
+  "body": "<p>The First Forest begins at Pristinia’s edge and functions as both wilderness and corridor. Roads toward Eovar, the Old Earth Hills, the quarry, and other Prima sites pass through or skirt it, so the forest repeatedly becomes the place where civic errands turn into expeditions.</p>\n      <h2 id=\"forest-landscape\">Old growth and mist</h2>\n      <p>A 2 May 2024 journey records towering pine, oak, and birch providing deep shelter from the elements. Pockets of mist stood thirty to fifty yards from the road and gave the old-growth woodland an ethereal quality. Toward the Old Earth Hills, the trees became shorter and thinner before yielding to bushes, scrubland, and switchback roads.</p>\n      <p>The forest is not a sealed dungeon. It is working geography: beautiful enough to change a traveler’s mood, dense enough to hide danger, and close enough to Pristinia that trade, lumber, patrols, hunting, and rescue all depend on how safely people can cross it.</p>\n      <h2 id=\"forest-priest-room\">11 April 2024 · the priest’s room</h2>\n      <p>Elenia, Cobble, Talon, and Vigr Frami explored near the settlement and found an overgrown room containing the bones of a priest. The chamber supplied evidence of an older human presence but no living witness or convenient explanation. Its builder, faith, abandonment, and relationship to later events remain unresolved.</p>\n      <h2 id=\"forest-symin\">4 May 2024 · an ambush answers rescue</h2>\n      <p>After a Pristinian patrol was ambushed in the First Forest, Symin answered the plea to find Tavorchanor and the missing group. He was killed near the ambush site, and bark-covered undead carried away his body. The loss made the forest’s proximity more dangerous rather than less: a threat did not need to cross a distant frontier to reach the settlement’s people.</p>\n      <h2 id=\"forest-changing-routes\">A landscape that reclaims its routes</h2>\n      <p>By May 2026, travelers heading toward the quarry found that intermittent use had allowed nature to reclaim the old path. The company crossed into more mountainous terrain, reached a stone bridge over a frozen stream, and encountered wolves. The route’s condition connected Pristinia’s materials and labor directly to the forest’s changing ecology.</p>\n      <p>Another May expedition destroyed two sigils associated with blue mist. Holy energy turned the mist to glitter and made a large part of the forest safe again; ghostly butterflies escorted the company toward Pristinia. The account establishes a recovered area, not permanent safety for the entire forest.</p>\n      <h2 id=\"forest-open-record\">The open record</h2>\n      <p>The forest’s full boundaries, connection to Al-Shomer, the priest’s identity, the source and reach of the bark-covered dead, the long-term state of the blue mist, and the durability of its routes remain incomplete. The new visual record establishes the forest’s scale and atmosphere without turning those unknowns into answers.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "forest-landscape",
+      "title": "Old growth and mist",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
+          "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
+          "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
+          "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
+          "User-supplied First Forest visual record, 29 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "forest-priest-room",
+      "title": "11 April 2024 · the priest’s room",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
+          "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
+          "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
+          "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
+          "User-supplied First Forest visual record, 29 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "forest-symin",
+      "title": "4 May 2024 · an ambush answers rescue",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
+          "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
+          "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
+          "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
+          "User-supplied First Forest visual record, 29 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "forest-changing-routes",
+      "title": "A landscape that reclaims its routes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
+          "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
+          "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
+          "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
+          "User-supplied First Forest visual record, 29 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "forest-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
+          "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
+          "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
+          "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
+          "User-supplied First Forest visual record, 29 Sep 2026"
+        ]
+      }
+    }
+  ]
+}

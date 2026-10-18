@@ -1,0 +1,119 @@
+{
+  "id": "cave-company",
+  "title": "The Seekers",
+  "image": "assets/archive/seekers-symbol.png",
+  "imageAlt": "The Seekers symbol: a branching tree with roots surrounding a violet crystal, against a star-filled sky within a circular ornamental frame",
+  "imageCaption": "The symbol of The Seekers.",
+  "category": "People",
+  "type": "Expedition company · investigators",
+  "dek": "Vessalia, Di’Trillio, Pell, Minerva, and Fenwick form an investigative company drawn toward contamination, dangerous places, and unresolved threats.",
+  "tags": [
+    "The Seekers",
+    "Vessalia",
+    "Di’Trillio",
+    "Pell",
+    "Minerva",
+    "Fenwick",
+    "Delerium investigation",
+    "Pelegia",
+    "Pin",
+    "Pelagia"
+  ],
+  "facts": {
+    "Members": "Vessalia · Di’Trillio · Pell · Minerva · Fenwick",
+    "Threats": "Contamination · crystals · malformed harpies",
+    "Status": "Active record"
+  },
+  "sources": [
+    "User canon correction, 27 Sep 2026 — proper company name and confirmed membership",
+    "CHARACTER_BIBLE.md — cave ensemble records",
+    "MASTER_TIMELINE.md — 20 September event",
+    "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — cave questions"
+  ],
+  "body": "<p><strong>Pelegia</strong>, also recorded as <strong>Pin</strong>, <strong>Pell</strong> and <strong>Pelagia</strong>, is one player character.</p><p><strong>The Seekers</strong> is the company’s proper name. Its confirmed members are Vessalia, Di’Trillio, Pell, Minerva, and Fenwick. The earlier archive mistakenly treated everyone present in a single cave account as the organization’s roster; scene participation and faction membership are now kept separate.</p>\n      <h2 id=\"seeker-members\">Confirmed members</h2>\n      <div class=\"directory-grid\">\n        <section><h3><a href=\"#vessalia\">Vessalia</a></h3><p>A contaminated singer who uses song to hold fear at bay, remains attentive to Pell, and accepts correction when her magic creates risk.</p></section>\n        <section><h3>Di’Trillio</h3><p>Recognizes contamination and shard fragments in the corpse while nearby violet crystals do not produce identical feedback. Decisive about collapsing the cave, yet gentle when Vessalia’s song creates risk.</p></section>\n        <section><h3>Pell</h3><p>Frightened, practical, and still drawn toward dangerous understanding. The corpse becomes human history when he says it was somebody’s child and argues for burial.</p></section>\n        <section><h3>Minerva</h3><p>A watchful witch and investigator whose sensitivity to concealed threats is valuable even when her forceful methods strain trust.</p></section>\n        <section><h3>Fenwick</h3><p>A confirmed Seeker also remembered in Eovar’s public record. His precise duties within the company have not yet been recovered.</p></section>\n      </div>\n      <h2 id=\"seeker-cave-record\">The cave record</h2>\n      <p>The recovered cave investigation preserves a contaminated corpse, strange tracks, violet crystals, malformed harpy-like creatures, and something deeper that imitates Vessalia’s song. Those events reveal the kind of danger associated with the Seekers without making every person present a company member.</p>\n      <h2 id=\"what-remains-unknown\">What remains unknown</h2>\n      <p>The crystals may not be Delerium. The corpse’s identity and contamination source are unknown. The cave’s connection to other sites is unproven. The malformed harpies’ origin is unresolved. Something deeper imitates Vessalia’s song; the record does not yet say what.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "seeker-members",
+      "title": "Confirmed members",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — proper company name and confirmed membership",
+          "CHARACTER_BIBLE.md — cave ensemble records",
+          "MASTER_TIMELINE.md — 20 September event",
+          "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — cave questions"
+        ]
+      }
+    },
+    {
+      "id": "seeker-cave-record",
+      "title": "The cave record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — proper company name and confirmed membership",
+          "CHARACTER_BIBLE.md — cave ensemble records",
+          "MASTER_TIMELINE.md — 20 September event",
+          "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — cave questions"
+        ]
+      }
+    },
+    {
+      "id": "what-remains-unknown",
+      "title": "What remains unknown",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — proper company name and confirmed membership",
+          "CHARACTER_BIBLE.md — cave ensemble records",
+          "MASTER_TIMELINE.md — 20 September event",
+          "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — cave questions"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Expedition company · investigators",
+    "significance": "Vessalia, Di’Trillio, Pell, Minerva, and Fenwick form an investigative company drawn toward contamination, dangerous places, and unresolved threats.",
+    "actions": [
+      {
+        "title": "Vessalia supports the harpy expedition with music and magic",
+        "event": "Vessalia supports the harpy expedition with music and magic",
+        "date": "5 Sep 2026 · transcript posting date"
+      },
+      {
+        "title": "Vessalia and Di’trillio share their new cottage",
+        "event": "Vessalia and Di’trillio share their new cottage",
+        "date": "3–4 Oct 2026 · transcript posting dates"
+      },
+      {
+        "title": "Kimi and Kuri ask adventurers to find Vey and Vaa",
+        "event": "Kimi and Kuri ask adventurers to find Vey and Vaa",
+        "date": "10 Oct 2026 · Discord posting date (America/New_York)"
+      }
+    ],
+    "status": "Active record",
+    "relationships": [
+      {
+        "id": "vessalia",
+        "label": "Vessalia",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

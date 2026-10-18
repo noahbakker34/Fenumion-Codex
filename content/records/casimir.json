@@ -1,0 +1,123 @@
+{
+  "id": "casimir",
+  "title": "Casimir",
+  "category": "People",
+  "type": "Adventurer · procedural thinker",
+  "dek": "A questioning adventurer whose procedural reasoning and loyalty to Alioth expose the difference between understanding an institution and giving it first claim.",
+  "tags": [
+    "Casimir"
+  ],
+  "facts": {
+    "Relationship": "Alioth",
+    "Trial": "Rahu initiation unsuccessful",
+    "Method": "Questions and constraints",
+    "Later history": "Partially reconstructed"
+  },
+  "sources": [
+    "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+    "Selected primary scenes and established public histories; anchors below"
+  ],
+  "body": "<p>Casimir approaches uncertainty by looking for the structure of a problem: what must be agreed to, what can be asked and what an answer will actually establish. His close relationship with Alioth makes those questions personal rather than merely abstract.</p><h2 id=\"casimir-before-commitment\">September 2024 · questions before commitment</h2><p>Before the Rahu trial he bows to Ephraith and asks permission to question her. She welcomes the inquiry. He asks whether she intends to join Cala and Nuru against Death; the exchange shows respect for authority without treating its premises as beyond question.</p><p>His questioning is an observed choice. The answers remain their speakers’ positions, rather than the Codex’s own verdict on cosmology or the legitimacy of every Rahu practice.</p><h2 id=\"casimir-loyalty\">Alioth and the institutional verdict</h2><p>The trial ends with Casimir holding Alioth tightly, visibly emotional. Ephraith says they have chosen each other over the Rahu and have failed. Alioth argues that their loyalty is strength; Casimir accepts living with the consequences.</p><p>The institution’s refusal is real. It does not make the relationship a failure, nor does Alioth’s disagreement overturn the trial result. Their choice reveals a priority that differs from the commitment the Rahu demand.</p><h2 id=\"casimir-procedure\">Questions within constraints</h2><p>The existing account of Olokun’s oath preserves Casimir exploring yes-or-no questions, truth magic and the information conveyed by refusal. He looks for ways others might understand without requiring Olokun to speak a forbidden answer.</p><p>This is a recognizable method, not proof that every loophole honors an oath’s purpose. The limits of a spell and the limits of another person’s consent are separate. Neither Casimir’s intelligence nor his affection gives him an unlimited right to extract knowledge.</p><h2 id=\"casimir-open-history\">The open history</h2><p>His earlier life, complete later career and consequences of these decisions remain only partly reconstructed. <a href=\"#casimir-alioth\">Casimir and Alioth’s shared history</a> retains both voices; his independent entry does not merge them into one person or assign him Alioth’s beliefs.</p><h2 id=\"third-recorded-scenes\">Recorded scenes</h2><p>Dates refer to transcript postings.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1280315025462136875\">2 September 2024 · asking before the trial</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1280315484083851264\">Ephraith permits questions</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1280315627504013354\">The question he asks</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1280329254449713155\">The emotional return</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1280329509387632715\">The trial verdict</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1280329707153264640\">Accepting the consequences</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1280329882039095379\">Alioth’s different interpretation</a></li></ul>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "casimir-before-commitment",
+      "title": "September 2024 · questions before commitment",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "casimir-loyalty",
+      "title": "Alioth and the institutional verdict",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "casimir-procedure",
+      "title": "Questions within constraints",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "casimir-open-history",
+      "title": "The open history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "third-recorded-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Adventurer · procedural thinker",
+    "significance": "A questioning adventurer whose procedural reasoning and loyalty to Alioth expose the difference between understanding an institution and giving it first claim.",
+    "actions": [
+      {
+        "title": "Olo tests the limits of a Rahu oath",
+        "event": "Olo tests the limits of a Rahu oath",
+        "date": "21 Sep 2024"
+      }
+    ],
+    "status": "Last dated entry in this selection: 21 Sep 2024. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "casimir-alioth",
+        "label": "Casimir & Alioth",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "A questioning adventurer whose procedural reasoning and loyalty to Alioth expose the difference between understanding an institution and giving it first claim."
+  }
+}

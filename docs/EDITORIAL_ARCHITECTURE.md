@@ -210,3 +210,9 @@ Every imported source should eventually record:
 - Record failed plans, missed information, unfinished arcs, and wrong theories.
 - Do not flatten recurring people into evidence for louder characters.
 - Treat ambiguity as a first-class archival result.
+
+## Canonical records and visible evidence · 17 October 2026
+
+Edit `content/records/<id>.json` for a subject’s narrative, facts, media, summary and section evidence. Shared indexes reference that identity; historical browser-patch modules no longer author the public record. Build with `python3 scripts/build_codex.py`; validate with `python3 scripts/check_content.py`. See `content/README.md` for the complete workflow.
+
+Section metadata separates reader organization from authority. Chapter grouping does not rank importance, and the default mixed-account label does not grant canon status. Stronger quest/canon labels need checked evidence and source references; player statements retain attribution. The atlas’s date view filters recorded events while preserving uncertain geography. Known missing article references remain an explicit recovery queue rather than invented citations.

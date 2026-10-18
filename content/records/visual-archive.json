@@ -1,0 +1,52 @@
+{
+  "id": "visual-archive",
+  "title": "Location Atlas",
+  "category": "Places",
+  "type": "Searchable region & sublocation index",
+  "dek": "A nested atlas of Fenumion’s regions, settlements, ruins, estates, forests, civic spaces, and other named places.",
+  "tags": [
+    "Locations",
+    "Maps",
+    "Regions",
+    "Sublocations",
+    "Search"
+  ],
+  "facts": {
+    "Records": "92 places",
+    "Maps": "9 interactive layers",
+    "Structure": "Region → settlement → sublocation",
+    "Search": "Names, aliases, regions, and evidence",
+    "Provenance": "Campaign records, maps, and preserved images"
+  },
+  "body": "<p>Explore Fenumion’s regions, settlements and landmarks. Caisleán na Brón belongs to Fein Uaill; Hope and the Tower lie within Gael; Pristinia’s civic sites belong to Prima.</p><h2 id=\"place-directory\">Find a place</h2><div id=\"location-explorer\" class=\"location-explorer\"></div>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "place-directory",
+      "title": "Find a place",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "map",
+        "label": "Map-backed description",
+        "summary": "Map labels establish depicted names/relative positions, not exact scale, chronology or undisclosed lore.",
+        "scope": "section",
+        "sources": [
+          "Prima island map · original supplied labels and relative positions · assets/archive/prima-map.jpg",
+          "Greyward Littoral annotated regional map · assets/archive/babel-ashur-southern-coast.webp",
+          "Other supplied maps and scene-backed records linked from their respective atlas markers · #archive-map"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "Prima island map · original supplied labels and relative positions · assets/archive/prima-map.jpg",
+    "Greyward Littoral annotated regional map · assets/archive/babel-ashur-southern-coast.webp",
+    "Other supplied maps and scene-backed records linked from their respective atlas markers · #archive-map"
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "map",
+    "scope": "Map labels establish depicted names/relative positions, not exact scale, chronology or undisclosed lore."
+  }
+}

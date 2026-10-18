@@ -1,0 +1,103 @@
+{
+  "id": "elder-magda",
+  "title": "Magda",
+  "category": "People",
+  "type": "Pristinian Elder",
+  "dek": "The Elder who announces a collective decision while keeping ordinary hospitality and its cost in view.",
+  "tags": [
+    "Magda",
+    "NPCs",
+    "Prima",
+    "Elder Magda"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Pristinian Elder",
+    "Record": "Public scenes; later status not established",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Main quest-RP archive · message anchors below",
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+  ],
+  "body": "<h2 id=\"elder-magda-1\">Room for the work of others</h2><p>At the early public meeting Magda asks the crowd to let Hawthorne take the notes that Melian cannot manage while running the meeting. When property ownership is discussed, she connects it to the laundry and accommodation burden on Herb. Her intervention makes governance answer to ordinary labor.</p><h2 id=\"elder-magda-2\">Speaking a divided decision</h2><p>At the financial crisis meeting she announces that the Elders have declined the business community’s proposed support and will seek another means of resolving the difficulty. Some parts of their decision are unanimous and others split. She thanks Herb for months of feeding and housing adventurers while announcing an end to that unpaid arrangement. The scene does not prove that every later payment occurred.</p><h2 id=\"elder-magda-3\">Office across time</h2><p>She is explicitly one of the town’s three Elders in that meeting. This historical role should not be used to assume she retains office after every later election.</p><h2 id=\"elder-magda-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239620696389320804\">Giving the note-taker room to work</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239649782956425286\">Property and Herb’s workload</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1271191842851131475\">One of the three Elders</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1271232819385077833\">The Elders’ split decision</a></li></ul>",
+  "image": "assets/characters/discord/d07863009f1ac62642585df6225acb51045ec2aaaa57662ca75b19d179625aba.png",
+  "imageAlt": "Discord depiction of Magda",
+  "imageCaption": "Magda",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "elder-magda-1",
+      "title": "Room for the work of others",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "elder-magda-2",
+      "title": "Speaking a divided decision",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "elder-magda-3",
+      "title": "Office across time",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "elder-magda-sources",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Pristinian Elder",
+    "significance": "The Elder who announces a collective decision while keeping ordinary hospitality and its cost in view.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "The Elder who announces a collective decision while keeping ordinary hospitality and its cost in view."
+  }
+}

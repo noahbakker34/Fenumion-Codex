@@ -1,0 +1,74 @@
+{
+  "id": "old-earth-hills",
+  "title": "Old Earth Hills",
+  "type": "Hills",
+  "dek": "Prima’s northeastern hills, reached from the First Forest by scrubland and switchback roads.",
+  "facts": {
+    "Region": "Prima",
+    "Approach": "The First Forest"
+  },
+  "body": "<p>The Old Earth Hills lie in northeastern <a href=\"#prima-pristinia\">Prima</a>. The island map places their label north of <a href=\"#before-survey\">The Before</a>.</p><h2 id=\"hills-approach\">The road from the forest</h2><p>During the 2 May 2024 journey through <a href=\"#first-forest\">the First Forest</a>, the trees become shorter and thinner toward the hills, giving way to bushes, scrubland, and switchback roads.</p><p>The hills are an exploration and hunting landscape. Their complete boundaries and internal sites remain unestablished.</p><h2 id=\"old-earth-hills-quest-continuation\">19–27 September · the harpy cave</h2><p>A return expedition finds a narrow tunnel that carries the Matron’s song beyond the earlier nesting ground. A distorted corpse, violet crystals with differing responses, altered harpies and a ghostlike remnant make the danger concrete; a direct connection to The Before remains Moira’s theory.</p><p>Deeper inside, the party discovers an unnamed dead person and a letter about a loved singer changed by violet corruption. The origins and sequence of the scattered Delerium fragments cannot be determined. Pell offers a last prayer. Saoirse’s Petalio strikes a weak support as the party withdraws, collapsing the passage; she takes the letter to seek an identification. <a href=\"#quest-continuation\">Read the expedition and its consequences</a>.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1551065152093421660\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1551070878601711658\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553611438906540084\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553621564610838559\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553624105532788918\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553628750053118023\" target=\"_blank\" rel=\"noopener\">6</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553628937794625546\" target=\"_blank\" rel=\"noopener\">7</a>.</p><h2 id=\"prima-rp-eastern-forest\">The eastern wilderness</h2><p>The Alpine Forest is described as lying beyond these hills to the east. That establishes a relative direction, not a surveyed distance or border. <a href=\"#alpine-forest\">Read the forest’s exploration history</a>.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1422275778846130327\" target=\"_blank\" rel=\"noopener\">1</a>.</p>",
+  "category": "Places",
+  "tags": [
+    "Prima",
+    "Hills"
+  ],
+  "sources": [
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+  ],
+  "image": "assets/archive/prima-map.jpg",
+  "imageAlt": "Map of Prima showing Eovar Harbor, the Thundering Coast, Pristinia, the Gate, the Before, Old Earth Hills, the First Forest, Kinich Ahau, the Rahu, Lost Shacks and the Shard",
+  "imageCaption": "Prima · island map",
+  "mapId": "prima",
+  "mapLinkLabel": "Explore the interactive Prima map",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "hills-approach",
+      "title": "The road from the forest",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "old-earth-hills-quest-continuation",
+      "title": "19–27 September · the harpy cave",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-eastern-forest",
+      "title": "The eastern wilderness",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    }
+  ]
+}

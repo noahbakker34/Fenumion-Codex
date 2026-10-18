@@ -1,0 +1,111 @@
+{
+  "id": "start-here",
+  "title": "Start Here",
+  "category": "Foundations",
+  "type": "A new reader’s path through the Codex",
+  "dek": "Find your bearings through the Ethos, world map, characters, factions, connected histories, and the voices of Fenumion.",
+  "tags": [
+    "New readers",
+    "Reading guide",
+    "World atlas",
+    "Characters",
+    "Factions"
+  ],
+  "facts": {
+    "Path": "6 optional steps",
+    "Progress": "Saved on this device",
+    "Next step": "Follow your curiosity"
+  },
+  "sources": [
+    "Existing public Codex records — editorial reading path; no new lore claims"
+  ],
+  "body": "<p>You do not need to read the entire archive in order. Follow this short path, then choose a person, place, or question that interests you. Mark steps as read to keep your place on this device.</p><div data-reading-path=\"\"><p class=\"reading-progress\" data-reading-progress=\"\" role=\"status\" aria-live=\"polite\"></p><section class=\"reading-step\"><span class=\"reading-step-number\">01</span><div><h2 id=\"reading-ethos\">Begin with the Ethos</h2><p>Learn how Fenumion treats its people, consequences, and recovered evidence.</p><div class=\"exploration-links\"><a href=\"#ethos-of-fenumion\">Read the Ethos of Fenumion →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"ethos\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">02</span><div><h2 id=\"reading-world\">Find your bearings</h2><p>Open the world atlas, choose an island, then select a marker to explore a place.</p><div class=\"exploration-links\"><a href=\"#visual-archive\">Explore the world atlas →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"world\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">03</span><div><h2 id=\"reading-people\">Meet a few people</h2><p>Start with the ordinary lives that make the world worth saving. A character’s art, quotes, and relationships offer different ways into their history.</p><div class=\"exploration-links\"><a href=\"#dale\">Meet Dale</a><a href=\"#melian-starguard\">Meet Melian Starguard</a><a href=\"#people-directory\">Browse the character directory →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"people\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">04</span><div><h2 id=\"reading-factions\">Follow a shared purpose</h2><p>Explore the Ale-Chemy Knights and the Veilguard. Their interaction maps show the people, resources, and responsibilities behind each group.</p><div class=\"exploration-links\"><a href=\"#ale-chemy-knights\">The Ale-Chemy Knights</a><a href=\"#veilguard\">The Veilguard</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"factions\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">05</span><div><h2 id=\"reading-history\">Follow one place through time</h2><p>Try Melian’s House: select its Pristinia map marker, read the location history, and open its dated events to follow the people involved.</p><div class=\"exploration-links\"><a href=\"#visual-archive?map=pristinia\">Open the Pristinia map</a><a href=\"#melians-house\">Read Melian’s House</a><a href=\"#living-timeline\">Explore the Living Timeline →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"history\"> Mark this step as read</label></div></section><section class=\"reading-step\"><span class=\"reading-step-number\">06</span><div><h2 id=\"reading-voices\">Listen to the world’s voices</h2><p>Read the memorable quotes, play the available recordings, and explore the community’s character artwork. Use search filters whenever you want to follow a particular person or place.</p><div class=\"exploration-links\"><a href=\"#memorable-quotes\">Read and hear memorable quotes</a><a href=\"#ececilia-emojis\">Explore Ececilia’s art →</a></div><label class=\"reading-check\"><input type=\"checkbox\" data-reading-step=\"voices\"> Mark this step as read</label></div></section></div>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "reading-ethos",
+      "title": "Begin with the Ethos",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Existing public Codex records — editorial reading path; no new lore claims"
+        ]
+      }
+    },
+    {
+      "id": "reading-world",
+      "title": "Find your bearings",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Existing public Codex records — editorial reading path; no new lore claims"
+        ]
+      }
+    },
+    {
+      "id": "reading-people",
+      "title": "Meet a few people",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Existing public Codex records — editorial reading path; no new lore claims"
+        ]
+      }
+    },
+    {
+      "id": "reading-factions",
+      "title": "Follow a shared purpose",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Existing public Codex records — editorial reading path; no new lore claims"
+        ]
+      }
+    },
+    {
+      "id": "reading-history",
+      "title": "Follow one place through time",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Existing public Codex records — editorial reading path; no new lore claims"
+        ]
+      }
+    },
+    {
+      "id": "reading-voices",
+      "title": "Listen to the world’s voices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Existing public Codex records — editorial reading path; no new lore claims"
+        ]
+      }
+    }
+  ]
+}

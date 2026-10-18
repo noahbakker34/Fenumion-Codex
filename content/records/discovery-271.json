@@ -1,0 +1,66 @@
+{
+  "id": "discovery-271",
+  "title": "Saturnia",
+  "category": "People",
+  "type": "Ancestral scholar",
+  "dek": "The existing public master connects scholarship, manifestation and duty.",
+  "tags": [
+    "Saturnia",
+    "npc"
+  ],
+  "facts": {
+    "Role": "Ancestral scholar",
+    "Island": "Not established",
+    "Census posts": "2",
+    "Recorded span": "2024-11-04 → 2025-08-19",
+    "Prominence": "78/100 · Established",
+    "Recorded presence": "9/20"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>The existing public master connects scholarship, manifestation and duty.</p><p><a href=\"#saturnia\">Read the existing Saturnia history →</a></p><h2 id=\"discovery-271-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 78/100 · Established</strong></p><p>Her existing public dossier links inherited scholarship, teaching and a lasting office.</p><ul><li>Consequences: 4/5 · weight 35</li><li>Institutional or witness role: 5/5 · weight 25</li><li>Relationships: 4/5 · weight 20</li><li>Recorded presence: 9/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-271-record\">Archive record</h2><p>The census records 2 posts across 2024-11-04 → 2025-08-19. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1303217613228478465\">Recorded scene · 1303217613228478465</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/saturnia-goddess.png",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-271-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-271-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "profile": {
+    "personality": "An ancestral model of scholarship for Scribonia; her spellbook manifestation also expresses joy and companionship.",
+    "achievements": "Legendary Zuk’Teuc archmage and demigod identified by Vesperax as Keeper of the Arcane Secrets. Legend Lore reveals her arrival carrying books and maps.",
+    "relationships": "Scribonia models Manifest Mind after her. Vesperax describes her duty to the First God; Ser Kurayami welcomes her in the recovered arrival vision."
+  }
+}

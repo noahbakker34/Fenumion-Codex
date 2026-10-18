@@ -1,0 +1,227 @@
+{
+  "id": "fein-uaill",
+  "title": "Fein Uaill",
+  "category": "Places",
+  "type": "Major region",
+  "image": "assets/archive/fein-uaill.jpeg",
+  "imageAlt": "Annotated map of Fein Uaill",
+  "imageCaption": "Fein Uaill — regional map preserved in the archive.",
+  "gallery": [
+    {
+      "image": "assets/archive/shining-shores-alternate.webp",
+      "alt": "White fortresses and towers rising along the shining coastal cliffs of Fein Uaill",
+      "title": "The coast of Fein Uaill",
+      "caption": "An alternate visual record of the white cliffside fortresses along the Shining Shores."
+    },
+    {
+      "image": "assets/locations/discord/496ea1a8202644db8315250af60c21a77f56470caa735a700b2b2b88ad3fdada.webp",
+      "title": "Fein Uaill — map handout",
+      "alt": "Fein Uaill — map handout",
+      "caption": "The file names Fein Uaill; Mirwen offers a map of the land and the Writer attaches it while handing it over. The map depicts the island and named settlements.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1327845245756510293"
+    },
+    {
+      "image": "assets/locations/discord/e4b37158af482ca5f2662ac1cce4aa3c4ec39a956b43c2a9cf7aa9b2290b5413.webp",
+      "title": "Old fortress northeast of Zarathis",
+      "alt": "Old fortress northeast of Zarathis",
+      "caption": "The preceding narration explicitly places this old fortress northeast of Zarathis on Fein Uaill. Possible former use as prison or laboratory remains uncertain. It is not identified as the Titanwall or Niriin Estate.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424443473657987274"
+    },
+    {
+      "image": "assets/locations/discord/eb6e428df2c2b3c44d21cf2f4aacff99472fc4bb69e2c405e5635688a3ed995d.webp",
+      "title": "Fein Uaill memorial — evening venue",
+      "alt": "Fein Uaill memorial — evening venue",
+      "caption": "Qualified reference. The scene concerns Elenia and Adelia’s memorial in their estate while Zarathian guests arrive. The image depicts the evening venue, but the immediate text does not explicitly name that estate. It is not automatically Aria’s Tomb or Niriin Estate.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1446682738529665205"
+    },
+    {
+      "image": "assets/locations/discord/0c5988725d8a5be2e2dba5d65c0272989524fa72e6d90516d0f550b0c51dffe1.webp",
+      "title": "Fein Uaill — Olokun’s unnamed landscape painting",
+      "alt": "Fein Uaill — Olokun’s unnamed landscape painting",
+      "caption": "Qualified reference. Olokun calls this another scene of Fein. Although posted in the Titanwall thread, the pictured site is not specifically identified as the Titanwall.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747644879802489/1424933427949604954"
+    },
+    {
+      "image": "assets/locations/discord/ddc6bed9740f880b072831523178b6733a8a7ca6e3ffed442bc9e704b1598e42.webp",
+      "title": "Eshnunna of the Eternal Flame — inner sanctum",
+      "alt": "Eshnunna of the Eternal Flame — inner sanctum",
+      "caption": "Attached directly to the opening inner-sanctum description. Seraphis dialogue discusses Eshunna as its holy place; preserve naming variation and avoid adding a floor plan.",
+      "source": "https://discord.com/channels/1177270231513694249/1311748118743879830/1311748118743879830"
+    },
+    {
+      "image": "assets/locations/discord/0908fa2544433f254a5b713a8f38af4e3b2c40adb5e288d79a1584708ce6d2b6.webp",
+      "title": "Seraphis — holy city above Zarathis",
+      "alt": "Seraphis — holy city above Zarathis",
+      "caption": "Opening post identifies Seraphis as the holy city on a hill above Zarathis; the following guide explicitly points it out.",
+      "source": "https://discord.com/channels/1177270231513694249/1311749162169012254/1311749162169012254"
+    },
+    {
+      "image": "assets/locations/discord/bab59876586250aec73c369510f0dce3bd934f63f2ade7444e26c8dc20807031.webp",
+      "title": "The Feytouched Forest — opening woodland reference",
+      "alt": "The Feytouched Forest — opening woodland reference",
+      "caption": "Image is attached to the opening description naming the true wilds of Fein Uaill and the Verdant Circle’s sacred forest.",
+      "source": "https://discord.com/channels/1177270231513694249/1311793270799597628/1311793270799597628"
+    },
+    {
+      "image": "assets/locations/discord/33ba2fd46e932103913e969026b09d20e0e43de0bf6e161d5a011070260c8f54.webp",
+      "title": "The Feytouched Forest — wooded terrace reference",
+      "alt": "The Feytouched Forest — wooded terrace reference",
+      "caption": "Posted immediately after the forest’s opening description, as an additional setting reference before later quest roleplay.",
+      "source": "https://discord.com/channels/1177270231513694249/1311793270799597628/1311793388592431235"
+    },
+    {
+      "image": "assets/locations/discord/9da17a971df07f5c4337329d044f6bf4e89f3d7cfaf8f6b4c99865adbeb25eb2.webp",
+      "title": "The Feytouched Forest — additional forest view",
+      "alt": "The Feytouched Forest — additional forest view",
+      "caption": "Third opening setting image in the explicitly named Feytouched Forest post. No exact sublocation is supplied.",
+      "source": "https://discord.com/channels/1177270231513694249/1311793270799597628/1311793724958703689"
+    },
+    {
+      "image": "assets/locations/discord/40829540fdf52cb206afc367df64b8d3a98821234ea08faf1f17699b8d2c3e0f.webp",
+      "title": "The Feytouched Forest — shimmering trail",
+      "alt": "The Feytouched Forest — shimmering trail",
+      "caption": "The narrator describes the forest shimmering and seeming to move alongside the party as they advance; the attachment accompanies that description.",
+      "source": "https://discord.com/channels/1177270231513694249/1311793270799597628/1366589417669529713"
+    }
+  ],
+  "mapId": "fein-uaill",
+  "mapLinkLabel": "Explore the interactive Fein Uaill map",
+  "dek": "The wider Zarathian region: cities, estates, sacred sites, walls, libraries, and memorial landscapes gathered around a mortal claim to greatness.",
+  "tags": [
+    "Fein Uaill",
+    "Zarathis",
+    "Ciaránach",
+    "Locations"
+  ],
+  "facts": {
+    "Type": "Major region",
+    "Developed center": "Zarathis",
+    "Sacred city": "Ciaránach",
+    "Named sites": "16 recovered sublocations",
+    "Coastal arrival": "Shining Shores · Gates of Aelthor",
+    "Mountain pilgrimage": "Zarathis → Ciaránach",
+    "Public history": "Modern encounters and consequences only"
+  },
+  "body": "<p>Fein Uaill is the larger region that contains Zarathis and its surrounding network of cities and landmarks. Zarathis is one developed center within this land—not a label for the whole island. The map and location directory preserve settlements, fortifications, estates, libraries, forests, shores, tombs, and sites of divine catastrophe.</p>\n      <h2 id=\"centers\">Centers and civic places</h2>\n      <p><strong>Zarathis</strong> is the best-developed cultural center in the record. <a href=\"#ciaranach\"><strong>Ciaránach</strong></a> is a sacred city whose oldest divine history remains protected in player-safe view. <strong>Caisleán na Brón</strong> appears as a major fortified place; the user’s “Caselean De Broin” and the unaccented “Caislean na Bron” are preserved as search aliases. The Radiant Bazaar, Niriin Estate, and Thalanbor’s Library show a region with civic, private, and scholarly geography.</p>\n      <h2 id=\"boundaries\">Boundaries and wounds</h2>\n      <p>The <a href=\"#shining-shores\">Gates of Aelthor</a>, the city on the Shining Shores, were attacked by Aionia’s heavenly host: civilians died, the city burned, and victory helped propel a later march against the gods. <strong>Aelthor</strong> is also recorded as “Aethor” and “Arthor” in older accounts. Aelthor is remembered as the first king after the breaking of the world. The Titanwall of Eryndor and the Shard of Fein Uaill remain named defensive or monumental features. Aria’s Tomb belongs in Fein Uaill proper; the archive explicitly corrects the assumption that it lies inside Ciaránach.</p>\n      <h2 id=\"sea-of-dreams\">The Sea of Dreams</h2>\n      <p>Scribonia’s Teleportation Circle offered an escape route through the Sea of Dreams after catastrophe. A later account from Mya says Scribonia was unmade there by a divine or Void relic. That remains Mya’s account.</p>\n      <h2 id=\"fein-regional-structure\">A region of connected centers</h2>\n      <p>Fein Uaill is best understood as a network rather than a single city-state. The <a href=\"#shining-shores\">Shining Shores</a> provide a maritime threshold; the Gates of Aelthor turn that coast into a civic arrival point; Zarathis anchors the fertile valley and the region’s mortal institutions; and the road to <a href=\"#ciaranach\">Ciaránach</a> climbs away from ordinary settlement into a guarded sacred landscape. Estates, libraries, markets, walls, tombs, and fortified places fill the space between those centers.</p>\n      <p>That structure explains why travel within Fein Uaill changes meaning as it proceeds. A visitor may arrive through a city of white streets, warm sand, markets, and towers, then pass through Zarathian civic life before becoming a pilgrim on the mountain road. Geography organizes access: the coast welcomes trade and arrival, the valley sustains public life, and the heights restrict what outsiders may see.</p>\n      <h2 id=\"fein-contact-history\">What adventurers changed</h2>\n      <p>Adventurers did not found Fein Uaill’s cities or introduce it to history. Their effect was to connect previously separated traditions and crises. They crossed from public streets into guarded institutions, witnessed the aftermath of attack at the Gates of Aelthor, entered Ciaránach with permission, and made Zarathian judgments consequential beyond the region. Later departures through the Shining Shores linked local law to Babel-Ashur and the wider campaign.</p>\n      <p>The result is a region increasingly legible to outsiders without becoming fully open. Routes are known, major landmarks can be named, and several institutions now have scene-backed histories. The oldest explanations for the Shard, sacred cities, and divine catastrophes remain protected; the public Codex records what travelers saw, what residents claimed, and what their choices changed.</p>\n      <h2 id=\"fein-current-state\">Present condition and unresolved geography</h2>\n      <p>Fein Uaill remains inhabited, internally differentiated, and politically capable of enforcing its own customs. Its coast has endured assault, its custodians have confronted resurrection and exile, and its relationship with outsiders is no longer hypothetical. Yet the government of the wider region, the authority linking its cities, travel times between mapped sites, and the present condition of many fortifications and estates remain unrecovered.</p><h2 id=\"fein-castle-welcome\">The castle welcome</h2><p>The January welcome at <a href=\"#caislean-na-bron\">Caisleán na Brón</a> shows hospitality and ideological tension together. Tarwen offers the company a home amid fields and vineyards and describes a route to Zarathis by teleportation circle. The guests admire the abundance while disagreeing over divine worship, local factions and how to reconnect with other islands. Their presence records a visit and residence, not native origins or sovereignty over the wider region.</p>",
+  "sources": [
+    "Fenumion_Codex_The_Shining_Shores.md — the Gates of Aelthor, coastal arrival, and source safeguards",
+    "Fenumion_Codex_Location_Histories_2026-09-28.md — Ciaránach pilgrimage and regional contact history",
+    "Castle chronicle · selected January 2025 public scenes"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "centers",
+      "title": "Centers and civic places",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Shining_Shores.md — the Gates of Aelthor, coastal arrival, and source safeguards",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — Ciaránach pilgrimage and regional contact history",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "boundaries",
+      "title": "Boundaries and wounds",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Shining_Shores.md — the Gates of Aelthor, coastal arrival, and source safeguards",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — Ciaránach pilgrimage and regional contact history",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "sea-of-dreams",
+      "title": "The Sea of Dreams",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Shining_Shores.md — the Gates of Aelthor, coastal arrival, and source safeguards",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — Ciaránach pilgrimage and regional contact history",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "fein-regional-structure",
+      "title": "A region of connected centers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Shining_Shores.md — the Gates of Aelthor, coastal arrival, and source safeguards",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — Ciaránach pilgrimage and regional contact history",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "fein-contact-history",
+      "title": "What adventurers changed",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Shining_Shores.md — the Gates of Aelthor, coastal arrival, and source safeguards",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — Ciaránach pilgrimage and regional contact history",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "fein-current-state",
+      "title": "Present condition and unresolved geography",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Shining_Shores.md — the Gates of Aelthor, coastal arrival, and source safeguards",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — Ciaránach pilgrimage and regional contact history",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "fein-castle-welcome",
+      "title": "The castle welcome",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Shining_Shores.md — the Gates of Aelthor, coastal arrival, and source safeguards",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — Ciaránach pilgrimage and regional contact history",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    }
+  ]
+}

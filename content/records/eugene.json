@@ -1,0 +1,360 @@
+{
+  "id": "eugene",
+  "title": "Eugene",
+  "category": "People",
+  "type": "Scholar; reluctant bearer of dangerous knowledge",
+  "image": "assets/characters/eugene.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Portrait of Eugene, a scholar and bearer of dangerous knowledge",
+  "imageCaption": "Eugene — scholar and reluctant bearer.",
+  "dek": "Eugene repeatedly names himself as a burden immediately before becoming the person who asks the useful question or carries the difficult knowledge.",
+  "tags": [
+    "Eugene",
+    "Scribonia",
+    "Delerium",
+    "Knowledge"
+  ],
+  "facts": {
+    "Fear": "Failure and burdening others",
+    "Pattern": "Self-doubt followed by competence",
+    "Mentor": "Scribonia",
+    "Trust": "Dangerous weapon and spellbook learning"
+  },
+  "sources": [
+    "CHARACTER_BIBLE.md — Eugene chronology",
+    "RELATIONSHIPS.md — Scribonia and Eugene",
+    "MASTER_TIMELINE.md — 2024–2026 knowledge events",
+    "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+  ],
+  "body": "<p>Eugene says he is afraid of failure and of becoming a burden. The archive’s answer is behavioral rather than reassuring: he doubts himself, then asks the question the room needs.</p>\n      <h2 id=\"useful-questions\">Competence after the disclaimer</h2>\n      <p>During the Rahu secrecy crisis, Eugene says he is not good at thinking on his feet and then integrates Scribonia’s Delerium research into practical questions about Olo’s oath and Death. His low self-presentation is not evidence of low importance.</p>\n      <p>In July 2025, he recognizes another shy person’s discomfort because he recognizes the pattern in himself. His insecurity becomes socially useful when it helps him notice somebody else rather than remaining only self-judgment.</p>\n      <h2 id=\"dangerous-inheritance\">Dangerous inheritance</h2>\n      <p>A weapon capable of channeling Delerium appears in his cloak. Eugene doubts his worthiness; Scribonia privately regards him as brilliant. Later, Elenia materially invests in his spellbook. The recurring pressure is not whether he can accumulate knowledge, but whether he can experience himself as someone trusted to carry its responsibility.</p>\n      <h2 id=\"mentor-boundary\">Beyond teacher and student</h2>\n      <p>Scribonia’s envy does not become a claim on Eugene’s life or every explanation he could provide. Their relationship preserves a meaningful boundary: instruction can shape a person without owning what that person later becomes.</p>\n      <h2 id=\"magnus\">Competence amid hostility</h2>\n      <p>After Aria’s death and Death’s invocation of ownership over Magnus, Eugene attempts to heal Magnus while others’ trust is collapsing. The act does not prove a final judgment about Magnus. It shows Eugene acting usefully inside a crisis before certainty about the person in front of him is available.</p><h2 id=\"eugene-babel-storm\">Holding the storm</h2><p>Eugene joins the plan to flood and collapse Babel’s cavern-bearing mountain, using Wish to cast Control Weather while Scribonia maintains another system. A beast threatens his concentration; he fights it off and the weather-working continues. He questions the plan’s repercussions and tells the others he dislikes how the island has changed them, while promising to stand at their sides.</p><p>As water rises and the earthquakes open the mountainside, Eugene cannot fly himself to safety. Arjahn carries him out. The account records successful withdrawal, not a certainty that the offensive killed its target or spared every bystander.</p><h2 id=\"thread-ambush\">Preparing to intercept Magnus</h2><p>Eugene orders his crew to meet Magnus’s ship head-on and lets the archers fire when confident of a hit. He prepares magical protection as the ships close to roughly six hundred feet. This short branch ends during the approach: it does not establish interception, capture or possession of a relic.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1416630201106043022/1416630645764919376\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1416630201106043022/1416632883900317816\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1416630201106043022/1416637189286137949\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1416630201106043022/1416640753190436934\" target=\"_blank\" rel=\"noopener\">4</a>.</p><h2 id=\"prima-rp-eugene-range\">Practice beyond the quests</h2><p>Eugene visits the range seeking solitude for bladesinging practice. Finding company, he introduces himself instead. His work at a shared facility connects his combat discipline to an ordinary place in Pristinia.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1261037269930741781\" target=\"_blank\" rel=\"noopener\">1</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "useful-questions",
+      "title": "Competence after the disclaimer",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — Eugene chronology",
+          "RELATIONSHIPS.md — Scribonia and Eugene",
+          "MASTER_TIMELINE.md — 2024–2026 knowledge events",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "dangerous-inheritance",
+      "title": "Dangerous inheritance",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — Eugene chronology",
+          "RELATIONSHIPS.md — Scribonia and Eugene",
+          "MASTER_TIMELINE.md — 2024–2026 knowledge events",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "mentor-boundary",
+      "title": "Beyond teacher and student",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — Eugene chronology",
+          "RELATIONSHIPS.md — Scribonia and Eugene",
+          "MASTER_TIMELINE.md — 2024–2026 knowledge events",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "magnus",
+      "title": "Competence amid hostility",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — Eugene chronology",
+          "RELATIONSHIPS.md — Scribonia and Eugene",
+          "MASTER_TIMELINE.md — 2024–2026 knowledge events",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "eugene-babel-storm",
+      "title": "Holding the storm",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — Eugene chronology",
+          "RELATIONSHIPS.md — Scribonia and Eugene",
+          "MASTER_TIMELINE.md — 2024–2026 knowledge events",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "thread-ambush",
+      "title": "Preparing to intercept Magnus",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — Eugene chronology",
+          "RELATIONSHIPS.md — Scribonia and Eugene",
+          "MASTER_TIMELINE.md — 2024–2026 knowledge events",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-eugene-range",
+      "title": "Practice beyond the quests",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — Eugene chronology",
+          "RELATIONSHIPS.md — Scribonia and Eugene",
+          "MASTER_TIMELINE.md — 2024–2026 knowledge events",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Scholar; reluctant bearer of dangerous knowledge",
+    "significance": "Eugene repeatedly names himself as a burden immediately before becoming the person who asks the useful question or carries the difficult knowledge.",
+    "actions": [
+      {
+        "title": "The screaming dungeon’s blood altar is cleansed",
+        "event": "The screaming dungeon’s blood altar is cleansed",
+        "date": "21 Jun 2024 · quest-RP"
+      },
+      {
+        "title": "Vesperax names Saturnia’s arcane duty",
+        "event": "Vesperax names Saturnia’s arcane duty",
+        "date": "30 May 2026"
+      },
+      {
+        "title": "Babel’s defenders reshape the cavern-bearing mountain",
+        "event": "Babel’s defenders reshape the cavern-bearing mountain",
+        "date": "29 Aug 2026 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 29 Aug 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [
+      {
+        "id": "scribonia",
+        "label": "Scribonia",
+        "relation": "Teaching that survives a boundary"
+      },
+      {
+        "id": "elenia",
+        "label": "Elenia",
+        "relation": "Trust expressed through capability"
+      },
+      {
+        "id": "olokun",
+        "label": "Olokun",
+        "relation": "Questions turn memory into usable knowledge"
+      },
+      {
+        "id": "magnus",
+        "label": "Magnus Niriin",
+        "relation": "Useful action amid collapsing trust"
+      },
+      {
+        "id": "eugene",
+        "label": "Eugene",
+        "relation": "Insecurity becomes social perception"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "relationshipMap": {
+    "title": "Eugene’s relationship web",
+    "intro": "Eugene’s relationships repeatedly place trust beside self-doubt. Select a tie to see how teachers, companions, dangerous knowledge, and uncertain enemies test whether he can accept responsibility without believing he is a burden.",
+    "center": {
+      "title": "Eugene",
+      "subtitle": "The reluctant bearer"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "Trust & mentorship"
+      },
+      {
+        "id": "power",
+        "label": "Knowledge & danger"
+      },
+      {
+        "id": "conflict",
+        "label": "Doubt & uncertainty"
+      },
+      {
+        "id": "politics",
+        "label": "Witness & community"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "scribonia",
+        "title": "Scribonia",
+        "subtitle": "Mentor who releases ownership",
+        "category": "bond",
+        "strength": 3,
+        "x": 50,
+        "y": 8,
+        "direction": "mutual",
+        "relation": "Teaching that survives a boundary",
+        "history": "Scribonia recognizes Eugene’s brilliance, teaches him, and feels envy when a Delerium-channeling weapon chooses Eugene. He nevertheless says Eugene no longer owes his former teacher an explanation for every part of his life.",
+        "consequence": "Their bond separates influence from ownership. Eugene can carry knowledge shaped by Scribonia without becoming an extension of Scribonia’s authority.",
+        "evidence": "Mentorship, envy, and the stated boundary are established; the complete teaching chronology remains incomplete.",
+        "article": "scribonia"
+      },
+      {
+        "id": "delerium",
+        "title": "The Delerium weapon",
+        "subtitle": "Trust without an explanation",
+        "category": "power",
+        "strength": 3,
+        "x": 80,
+        "y": 25,
+        "direction": "toward",
+        "relation": "Dangerous capability tests self-worth",
+        "history": "A weapon capable of channeling Delerium appears in Eugene’s cloak. He does not experience the selection as triumph; he questions what he did to be considered worthy.",
+        "consequence": "The weapon makes his private self-doubt a public responsibility. Competence is no longer something he can dismiss when other people may depend on how he carries it.",
+        "evidence": "The weapon and Eugene’s response are established; who placed it and why remain unresolved.",
+        "article": "delerium"
+      },
+      {
+        "id": "elenia",
+        "title": "Elenia",
+        "subtitle": "Material investment in his future",
+        "category": "bond",
+        "strength": 2,
+        "x": 82,
+        "y": 69,
+        "direction": "toward",
+        "relation": "Trust expressed through capability",
+        "history": "Elenia materially invests in Eugene’s spellbook, giving him greater capacity rather than merely assuring him that he is useful.",
+        "consequence": "Her support turns confidence into something Eugene must practice. The gift does not prove he will never fail; it demonstrates that another person considers his future work worth enabling.",
+        "evidence": "The spellbook investment is established; their broader relationship is only partly recovered.",
+        "article": "elenia"
+      },
+      {
+        "id": "olokun",
+        "title": "Olokun",
+        "subtitle": "A carrier of hidden history",
+        "category": "politics",
+        "strength": 2,
+        "x": 58,
+        "y": 90,
+        "direction": "mutual",
+        "relation": "Questions turn memory into usable knowledge",
+        "history": "Olokun tells Eugene about time travel with Aionia, the world map, younger Cala and Nuru, the Gate, and Papirak’s Wish. Eugene receives lived testimony whose exact mechanics still require comparison with other witnesses.",
+        "consequence": "The exchange places Eugene between memory and scholarship. His value lies not in accepting or rejecting the account wholesale, but in asking what can responsibly be carried forward.",
+        "evidence": "Olokun’s account to Eugene is established; some recalled mechanics are later corrected.",
+        "article": "olokun"
+      },
+      {
+        "id": "magnus",
+        "title": "Magnus Niriin",
+        "subtitle": "Care before certainty",
+        "category": "conflict",
+        "strength": 2,
+        "x": 22,
+        "y": 68,
+        "direction": "toward",
+        "relation": "Useful action amid collapsing trust",
+        "history": "After Aria’s death and Death’s invocation of ownership over Magnus, Eugene attempts to heal Magnus while the company’s trust in him is breaking apart.",
+        "consequence": "Healing does not become endorsement. Eugene acts on the immediate need before the room possesses a final moral judgment about the person in front of him.",
+        "evidence": "The healing attempt is established; it does not prove Eugene’s final view of Magnus.",
+        "article": "magnus"
+      },
+      {
+        "id": "shy-newcomer",
+        "title": "A shy newcomer",
+        "subtitle": "Recognition turned outward",
+        "category": "bond",
+        "strength": 1,
+        "x": 18,
+        "y": 30,
+        "direction": "toward",
+        "relation": "Insecurity becomes social perception",
+        "history": "Eugene recognizes another shy person’s discomfort because he recognizes the pattern in himself. His own fear becomes a way of noticing rather than only a reason to withdraw.",
+        "consequence": "The scene offers a small but important form of growth: self-knowledge becomes hospitality when it helps another person feel seen.",
+        "evidence": "The recognition is established; the newcomer’s identity and later relationship remain incomplete.",
+        "article": "eugene"
+      }
+    ],
+    "insights": [
+      {
+        "label": "Defining mentor",
+        "value": "Scribonia",
+        "note": "A teacher’s influence survives without ownership."
+      },
+      {
+        "label": "Greatest trust",
+        "value": "The Delerium weapon",
+        "note": "Dangerous capability arrives before Eugene feels worthy of it."
+      },
+      {
+        "label": "Characteristic strength",
+        "value": "The useful question",
+        "note": "He doubts himself, then asks what the room needs."
+      },
+      {
+        "label": "Living question",
+        "value": "Can he accept being trusted?",
+        "note": "Responsibility cannot remain somebody else’s mistaken opinion forever."
+      }
+    ]
+  },
+  "profile": {
+    "personality": "Eugene is intelligent, self-doubting, and often most useful precisely when he believes himself to be a burden. He asks the question other people have stepped around, carries knowledge he does not feel worthy to hold, and gradually becomes braver without losing the uncertainty that makes him careful.",
+    "achievements": "He survives the sector dungeon and Rehevä, helps the town through practical labor, receives a weapon able to channel Delerium, and continues enlarging his spellbook with Elenia’s support. During crisis he moves from trying to sound heroic to acting heroically when speech and confidence are nearly gone. Prepared a head-on approach to Magnus’s ship; the short ambush branch records preparation, not capture. Used the Archery Range for bladesinging practice outside quest encounters.",
+    "relationships": "Scribonia recognizes Eugene’s brilliance before he can accept it himself, while Elenia materially invests in his learning. His expeditions with Olokun, Vaemyr, Alyhotep, Leo, Gudlaug, and Scribonia place him among people who repeatedly need his mind even when he doubts his place beside them."
+  }
+}

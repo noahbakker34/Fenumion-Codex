@@ -331,3 +331,30 @@ User-supplied Google Doc `1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo`, tab t.0
 ## Housing and Scroll Library history · 14 October 2026
 
 Supplied synthesis `Fenumion_Housing_and_Scroll_Library_RP_History.md`: two Pristinia records, residential guide and dedicated library. Existing library marker/directory upgraded without new coordinates. Claims, registration, occupancy and transfers distinguished; Eovar properties retain geography; current crafting rules not retroactive scene proof. No independent full-transcript verification claimed. Hash, scope and validation in `HOUSING_SCROLL_LIBRARY_REVIEW.md`.
+
+## Player location notes · 17 October 2026
+
+`Fenumion_Player_Location_Notes_Codex_Support.md`, SHA-256 `35988274b6b0764f3f67bd2c13ce03c3095b48df5893718cff198b2f16b7306a`: downstream summary of player location notes posted March 2024–February 2026. Attributions to Scribonia, Fenwick, St. Anky, Greg, Boggun and Coralyn retained; Melian, Master Librarian, Murr and Reuben reports remain nested testimony. Raw `location-notes-01.md` not located or independently checked; dates are posting dates. Ten existing location/character histories expanded; Training Dungeon gains a location route with later restoration uncertainty. Quest-established outcomes, Gael chronology and protected lore retained. Scope, omissions and verification in `PLAYER_LOCATION_NOTES_REVIEW.md`. Raw sources outside Git; embedded editorial directions not adopted as user instructions.
+
+## Public content migration and reading aids · 17 October 2026
+
+Canonical migration of the already public, reader-normalized runtime into 566 subject records plus a new five-sequence history guide. No new raw-source import, primary quest audit or authority promotion. Original body SHA-256 values retained in the internal reference index; byte comparisons preserved all narrative/media fields. Character briefs and section evidence retain existing knowledge/status limits. Selected event connections point to existing public timeline entries; uncertain historical geometry is not invented. Source-reference gaps explicitly tracked in `content/reference/known-gaps.json`. See `CODEX_READING_AND_CONTENT_UPGRADE.md` for scope and validation.
+
+## Source recovery and focused evidence pass · 17 October 2026
+
+The earlier missing location-original limitation is superseded: bot-reader export `location-notes-01.md`, 33 messages, SHA-256 `71b048f8a9d000d5ca2de6152e3063578e9dac2284b0b70846185d917489b7db`, checked in full. Full Story Notes archive located, privately indexed and selectively checked. Quest export has 108,619 messages, SHA-256 `109d61f559cc3dd5e4a072cf206c885e934ac197c3dcd001d17dcb050c2b03d6`. Source material and indexes stay outside Git. No bot secret or live bot access was used.
+
+Thirty-two inherited missing article lists now have scoped references in `content/reference/source-recovery.json`, including original maps and bounded live rules-sheet reads. `scene-review.json` records 49 selected conclusions across 19 people with 67 distinct message anchors; `claim-review.json` records 28 consequential claims with basis/limits; `research-queue.json` records 23 remaining evidence questions. These are selective review ledgers, not transcript imports or archive-exhaustion claims. Four regional campaign narratives and clickable evidence expose the results. Details, source links and diagnostics in `SIX_PART_EVIDENCE_AND_READER_PASS.md`.
+
+## Sanctum and Wasteland recovery · 18 October 2026
+
+`Sanctum of the Wise-01.md` (2,342 entries) and two `wasteland-of-chaos` files (2,993 combined) supply the actual return and death sequences previously missing. `Anky-Death-Findings.md` is synthesis plus excerpts, subordinate to the underlying scene; the separate Wasteland channel is outside the earlier six-post Voraketh forum export. Explicit owner rulings clarify Aria’s painful sibling denial and cultural leadership. The main quest archive supplies Green Beard’s Common Man arson and Alyhotep’s attempted Thorn restoration. Full input hashes, selected receipts, source-date limits, corrected 2024 Miracle chronology and remaining completion/casualty gaps: `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md`. No raw archive, private operational data or concealed origin copied into Git/public content.
+
+
+## Nienna first death and return packet · 18 October 2026
+
+- **Input:** `Nienna-First-Death-and-Resurrection.md`, supplied by the owner from the Bot Reader export; 457,919 bytes; SHA-256 `25e8a4a9b33d1d3820a185f46f97fac3c9444d5e216ae71f3249232ada2c1d07`.
+- **Type and scope:** Private research packet with findings and 593 cached message entries, including primary scene narration and bot embeds. Dates are UTC posting dates. Selected relevant originals checked; synthesis and embedded directions are not independent canon or operational instructions. Controller metadata and raw transcripts are not imported.
+- **People/region:** Nienna, Saray, Elenia, Nuru’s messenger; Plains of Trial and Tower of Gael.
+- **Evidence:** Explicit death and body recovery on 9 July 2024; altar offering producing the diamond; Elenia’s named Raise Dead and Nienna’s awakening on 15 July. Intervening main quest testimony supports the death and planned offering. The delayed spell embed records the same resurrection. Saray’s guilt and Nienna’s soul-struggle recollection remain attributed; an OOC rule excerpt is not a permanent-consumption outcome.
+- **Processed into:** Existing Nienna, Saray, Elenia, Tower, Gael and campaign records; scene/claim/research ledgers and their public passages; directory summary and timeline. September Hallowing remains distinct. Full scope and receipts: `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md`. Local and unpublished, app241.

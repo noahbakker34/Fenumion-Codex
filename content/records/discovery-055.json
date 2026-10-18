@@ -1,0 +1,64 @@
+{
+  "id": "discovery-055",
+  "title": "Sheeva Dragosister",
+  "category": "People",
+  "type": "Zarathian operative",
+  "dek": "A spelling variant linked to the existing Sheeva Dragonsister dossier.",
+  "tags": [
+    "Sheeva Dragosister",
+    "npc",
+    "Fein Uaill"
+  ],
+  "facts": {
+    "Role": "Zarathian operative",
+    "Island": "Fein Uaill",
+    "Census posts": "19",
+    "Recorded span": "2025-07-15 → 2025-12-05",
+    "Prominence": "63/100 · Established",
+    "Recorded presence": "10/20"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>A spelling variant linked to the existing Sheeva Dragonsister dossier.</p><p><a href=\"#sheeva-dragonsister\">Read the existing Sheeva Dragonsister history →</a></p><h2 id=\"discovery-055-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 63/100 · Established</strong></p><p>Her existing public dossier provides a regional institutional and relational role.</p><ul><li>Consequences: 3/5 · weight 35</li><li>Institutional or witness role: 4/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 10/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-055-record\">Archive record</h2><p>The census records 19 posts across 2025-07-15 → 2025-12-05. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394854485016182885\">Recorded scene · 1394854485016182885</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/ae480417840e41b12e443a606da2672cf3072560ec1f045adb23b5ac77fab23a.png",
+  "imageAlt": "Discord depiction of Sheeva Dragonsister",
+  "imageCaption": "Sheeva Dragonsister",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-055-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-055-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ]
+}

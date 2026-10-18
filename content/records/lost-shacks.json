@@ -1,0 +1,47 @@
+{
+  "id": "lost-shacks",
+  "title": "Lost Shacks",
+  "type": "Coastal site",
+  "dek": "A named site on Prima’s northwestern coastal land.",
+  "facts": {
+    "Region": "Prima",
+    "Position": "Northwestern Prima"
+  },
+  "body": "<p>Lost Shacks is marked on the northwestern coastal land of <a href=\"#prima-pristinia\">Prima</a>, north of <a href=\"#thundering-coast\">the Thundering Coast</a>.</p><h2 id=\"shacks-known-geography\">The place on the map</h2><p>The name and location are established by the island map. Its inhabitants, buildings, and history remain unconfirmed.</p>",
+  "category": "Places",
+  "tags": [
+    "Prima",
+    "Coastal site"
+  ],
+  "sources": [
+    "Prima island map · Lost Shacks label, northwestern coast north of Thundering Coast · assets/archive/prima-map.jpg"
+  ],
+  "image": "assets/archive/prima-map.jpg",
+  "imageAlt": "Map of Prima showing Eovar Harbor, the Thundering Coast, Pristinia, the Gate, the Before, Old Earth Hills, the First Forest, Kinich Ahau, the Rahu, Lost Shacks and the Shard",
+  "imageCaption": "Prima · island map",
+  "mapId": "prima",
+  "mapLinkLabel": "Explore the interactive Prima map",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "shacks-known-geography",
+      "title": "The place on the map",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "map",
+        "label": "Map-backed description",
+        "summary": "Name and relative location checked visually; no inhabitants or building history inferred.",
+        "scope": "section",
+        "sources": [
+          "Prima island map · Lost Shacks label, northwestern coast north of Thundering Coast · assets/archive/prima-map.jpg"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "map",
+    "scope": "Name and relative location checked visually; no inhabitants or building history inferred."
+  }
+}

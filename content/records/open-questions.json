@@ -1,0 +1,213 @@
+{
+  "id": "open-questions",
+  "title": "Unresolved Record",
+  "category": "Archive",
+  "type": "Open questions and contradictions",
+  "dek": "The gaps, disputed claims, and dangerous unknowns the archive preserves instead of repairing with invention.",
+  "tags": [
+    "Unresolved",
+    "Contradictions",
+    "Provenance",
+    "Research priorities"
+  ],
+  "facts": {
+    "Queue": "23 tracked questions · 5 resolved, former uncertainty retained",
+    "Focus": "Known · missing evidence · next source",
+    "Resolution rule": "Preserve former uncertainty and append the receipt"
+  },
+  "sources": [
+    "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — tracked uncertainties",
+    "COSMOLOGY_AND_METAPHYSICS.md — metaphysical red flags",
+    "MASTER_TIMELINE.md — chronology gaps",
+    "Selected scene review · #claim-review",
+    "Established regional and character histories linked in each research question",
+    "Linked histories · #nienna, #elenia, #gael, #gael, #gartina",
+    "Linked histories · #bowene, #bowene, #aria-pride",
+    "Linked histories · #elenia, #training-dungeon",
+    "Linked histories · #common-man, #melian-starguard, #fenwicks-tower, #vital-chain, #ale-chemy-knights, #lady-severina, #thorn",
+    "Linked histories · #st-anky, #voraketh, #voraketh",
+    "Checked scenes · #gael-campaign · #bowene · #claim-review",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452409809240116",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452805474717837",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453720646553702",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453968429387917",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520571135870107658",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520573837672972464",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520587522776764536",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520595215453388921",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522656529256284169",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546367920744173610",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546377635007823872",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546378926463389706",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546381952112787486",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546382488291508254",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1546990766197575721",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1547002626812416020",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495886354217701421",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495896420996354342",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495900772192354395",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495912538527895665",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495912625400316138",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1495922528349065266",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1496030131381080114",
+    "https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868",
+    "Canon clarification · 18 October 2026 · Aria’s denial of siblings was a lie because the subject was too painful.",
+    "Canon clarification · 18 October 2026 · Aria was Zarathis’s cultural leader, with influence comparable to a great general alongside its institutions; her authority was distinct from Bowene’s High Lord title.",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1260299455974871133",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1260305414650593313",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1260306267860242492",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449208804245524",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449640599457802",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262450457775702097",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262454129700241521",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262459654999642142"
+  ],
+  "body": "<p>The unresolved record tracks what is known, which evidence is missing and where a useful next check could begin. A plausible explanation does not close a question. Dates are source chronology unless a world date is explicitly established.</p><p>Some earlier questions are now narrower: the September Hallowing, December restoration work, Saray’s final blow and Bowene’s pre-death title have checked anchors. Their remaining transitions are recorded below. The <a href=\"#claim-review\">claim review</a> keeps the conclusions and their limits together.</p><div class=\"research-controls\" data-research-browser><label>Region <select data-research-region><option value=\"\">All regions</option><option>Across regions</option><option>Gael</option><option>Pristinia</option><option>Voraketh</option><option>Zarathis</option></select></label><label>Question <input type=\"search\" data-research-query placeholder=\"Name, event or missing evidence\"></label><p data-research-count role=\"status\" aria-live=\"polite\"></p></div>\n<h2 id=\"research-gael\">Gael</h2>\n<article class=\"research-card\" id=\"question-nienna-return\" data-research-region-value=\"Gael\"><p class=\"eyebrow\">Death and return · resolved</p><h3>How did Nienna return after the July loss?</h3><dl><div><dt>Known</dt><dd>Original Plains narration confirms Nienna’s death on 9 July 2024. Saray recovers her body and obtains a diamond through an altar offering; Elenia casts Raise Dead on 15 July.</dd></div><div><dt>Resolution · 18 October 2026</dt><dd>Ritual and waking scenes first recovered after the owner identified Elenia. The later supplied packet adds direct death narration and the explicit Raise Dead spell record.</dd></div><div><dt>Remaining limit</dt><dd>The earlier return gap and spell name are answered. Saray’s guilt and Nienna’s soul-struggle recollection remain attributed.</dd></div><div><dt>Next source to check</dt><dd>Retain the death, offering, awakening and casting receipts; keep the September sacrifice distinct.</dd></div></dl><p><a href=\"#nienna\">Read the current record</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250445552424980590/1260299455974871133\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250445552424980590/1260305414650593313\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250445552424980590/1260306267860242492\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262449208804245524\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262449640599457802\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262450457775702097\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262452409809240116\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 7</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262452805474717837\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 8</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262453720646553702\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 9</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262453968429387917\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 10</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262454129700241521\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 11</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262459654999642142\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 12</a></p></article><article class=\"research-card\" id=\"question-elenia-return\" data-research-region-value=\"Gael\"><p class=\"eyebrow\">Death and return · resolved</p><h3>What brought Elenia back after Wrath?</h3><dl><div><dt>Known</dt><dd>Gartina casts Reincarnate on Elenia after Wrath’s defeat; she returns still a satyr in the Sanctum on 21 November 2024.</dd></div><div><dt>Resolution · 18 October 2026</dt><dd>The post-Wrath return is Gartina’s miracle, not a different unexplained recovery.</dd></div><div><dt>Remaining limit</dt><dd>The return scene, caster and date are recovered.</dd></div><div><dt>Next source to check</dt><dd>Use the Sanctum sequence for this recovery rather than inventing a separate later return.</dd></div></dl><p><a href=\"#elenia\">Read the current record</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a></p></article><article class=\"research-card\" id=\"question-hallowing-sequence\" data-research-region-value=\"Gael\"><p class=\"eyebrow\">Chronology · narrowed</p><h3>What completes the early restoration chronology?</h3><dl><div><dt>Known</dt><dd>The September Hallowing and December staff/forest work now have distinct anchors.</dd></div><div><dt>Missing evidence</dt><dd>Any still-missing transition between the first living foothold, later damage and recovery.</dd></div><div><dt>Next source to check</dt><dd>Hope scenes and quest outcomes, checked in sequence rather than merged through later retellings.</dd></div></dl><p><a href=\"#gael\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-hope-scale\" data-research-region-value=\"Gael\"><p class=\"eyebrow\">Geography · open</p><h3>How large was Hope at each stage?</h3><dl><div><dt>Known</dt><dd>Player notes disagree between width and radius estimates.</dd></div><div><dt>Missing evidence</dt><dd>A dated survey or narrator-defined boundary for the relevant stage.</dd></div><div><dt>Next source to check</dt><dd>Original maps or a direct surveyed scene; another estimate cannot resolve the discrepancy.</dd></div></dl><p><a href=\"#gael\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-forest-permanence\" data-research-region-value=\"Gael\"><p class=\"eyebrow\">Restoration · open</p><h3>What established the forest’s lasting state?</h3><dl><div><dt>Known</dt><dd>The December seed action and Gartina’s immediate doubt are recorded; later forest activity exists.</dd></div><div><dt>Missing evidence</dt><dd>A ruling or observed transition that explains persistence without assuming a universal item rule.</dd></div><div><dt>Next source to check</dt><dd>December Hope narration and subsequent dated forest scenes.</dd></div></dl><p><a href=\"#gartina\">Read the current record</a></p></article>\n<h2 id=\"research-zarathis\">Zarathis</h2>\n<article class=\"research-card\" id=\"question-bowene-accession\" data-research-region-value=\"Zarathis\"><p class=\"eyebrow\">Leadership · narrowed</p><h3>When and how did Bowene first become High Lord?</h3><dl><div><dt>Known</dt><dd>Bowene already holds the High Lord title before Aria’s death; her cultural leadership was distinct from that civic office.</dd></div><div><dt>Resolution · 18 October 2026</dt><dd>Explicit canon clarification separates Aria’s cultural authority from Bowene’s office.</dd></div><div><dt>Remaining limit</dt><dd>His original accession procedure and complete formal powers remain unknown.</dd></div><div><dt>Next source to check</dt><dd>Earlier civic appointment scenes; do not use Aria’s death as his first title date.</dd></div></dl><p><a href=\"#bowene\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-exile-jurisdiction\" data-research-region-value=\"Zarathis\"><p class=\"eyebrow\">Leadership · narrowed</p><h3>What was the full scope of the exile judgment?</h3><dl><div><dt>Known</dt><dd>The named list includes Elenia, Aravil and Olokun.</dd></div><div><dt>Missing evidence</dt><dd>The complete jurisdiction, duration, conditions and reasons.</dd></div><div><dt>Next source to check</dt><dd>The full judgment sequence and any later revision or return authorization.</dd></div></dl><p><a href=\"#bowene\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-aria-siblings\" data-research-region-value=\"Zarathis\"><p class=\"eyebrow\">Testimony · resolved</p><h3>How should the conflicting sibling accounts be understood?</h3><dl><div><dt>Known</dt><dd>The earlier brother account and Aria’s later denial coexist: the denial was a lie prompted by pain.</dd></div><div><dt>Resolution · 18 October 2026</dt><dd>Explicit canon clarification supplied on 18 October 2026.</dd></div><div><dt>Remaining limit</dt><dd>The reason for the denial is answered; the brother’s complete fate remains open.</dd></div><div><dt>Next source to check</dt><dd>Any further biography needs its own scene; do not erase the brother.</dd></div></dl><p><a href=\"#aria-pride\">Read the current record</a></p></article>\n<h2 id=\"research-across-regions\">Across regions</h2>\n<article class=\"research-card\" id=\"question-miracle-sequence\" data-research-region-value=\"Across regions\"><p class=\"eyebrow\">Death and return · resolved</p><h3>What is the complete Miracle sequence?</h3><dl><div><dt>Known</dt><dd>The accepted possibility of change, Gartina’s casting and the narrated satyr outcome form one 21 November 2024 sequence.</dd></div><div><dt>Resolution · 18 October 2026</dt><dd>The former 2026 placement and assumption of a separate later Miracle are corrected.</dd></div><div><dt>Remaining limit</dt><dd>The source sequence is recovered; the full expanded table behind reported one-in-250 odds remains unchecked.</dd></div><div><dt>Next source to check</dt><dd>Preserve the narrative outcome without assigning divine control to the rolls.</dd></div></dl><p><a href=\"#elenia\">Read the current record</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a></p></article><article class=\"research-card\" id=\"question-dungeon-restoration\" data-research-region-value=\"Across regions\"><p class=\"eyebrow\">Restoration · open</p><h3>Was the Training Dungeon restored?</h3><dl><div><dt>Known</dt><dd>A later promise is recorded; Boggun’s review describes an earlier player experience.</dd></div><div><dt>Missing evidence</dt><dd>A completed restoration, reopening or subsequent observed use.</dd></div><div><dt>Next source to check</dt><dd>Post-promise institution scenes, not a safety inference from an older review.</dd></div></dl><p><a href=\"#training-dungeon\">Read the current record</a></p></article>\n<article class=\"research-card\" id=\"question-cave-company\" data-research-region-value=\"Across regions\"><p class=\"eyebrow\">Identity and geography · open</p><h3>What does the September cave actually establish?</h3><dl><div><dt>Known</dt><dd>The public account preserves violet crystals, a corpse and malformed harpies; Moira suggests a connection.</dd></div><div><dt>Missing evidence</dt><dd>The crystals’ nature, corpse identity and contamination source, cave destination and harpies’ origin.</dd></div><div><dt>Next source to check</dt><dd>The full cave expedition and any later direct identification; Moira’s hypothesis alone is not geography.</dd></div></dl><p><a href=\"#cave-company\">Read the current record</a></p></article>\n<article class=\"research-card\" id=\"question-quiet-histories\" data-research-region-value=\"Across regions\"><p class=\"eyebrow\">People · open</p><h3>Which personal transitions still need fuller recovery?</h3><dl><div><dt>Known</dt><dd>Selected scene sequences now add chronology without claiming a complete reconstruction.</dd></div><div><dt>Missing evidence</dt><dd>The longitudinal links in Dale, Saray, Casimir and Alioth’s histories, including choices between their best-known scenes.</dd></div><div><dt>Next source to check</dt><dd>Each person’s early, intermediate and later quest scenes, retaining relationship changes and failed plans.</dd></div></dl><p><a href=\"#people-directory\">Read the current record</a></p></article>\n<h2 id=\"research-pristinia\">Pristinia</h2>\n<article class=\"research-card\" id=\"question-common-man-fire\" data-research-region-value=\"Pristinia\"><p class=\"eyebrow\">Chronology · narrowed</p><h3>When did the Common Man burn, and who was affected?</h3><dl><div><dt>Known</dt><dd>Green Beard’s arson, Herb’s escape, the bucket line and the ceiling collapse are in the quest scene posted 27–28 June 2026 (UTC).</dd></div><div><dt>Resolution · 18 October 2026</dt><dd>The direct quest fire and collapse scenes have been recovered.</dd></div><div><dt>Remaining limit</dt><dd>The complete casualty roll and every physical/staff continuity into the Hearth remain incomplete.</dd></div><div><dt>Next source to check</dt><dd>Check individual fates and transfer scenes; the fire no longer needs a date inferred from the ruins.</dd></div></dl><p><a href=\"#common-man\">Read the current record</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1520571135870107658\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1520573837672972464\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1520587522776764536\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1520595215453388921\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1522656529256284169\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a></p></article><article class=\"research-card\" id=\"question-melian-captivity\" data-research-region-value=\"Pristinia\"><p class=\"eyebrow\">Chronology · narrowed</p><h3>What connects Melian’s disappearance and later recovery?</h3><dl><div><dt>Known</dt><dd>The discovery scene explicitly places the loss on the preceding day.</dd></div><div><dt>Missing evidence</dt><dd>The complete captivity and recovery sequence, preserving what rescuers knew at each stage.</dd></div><div><dt>Next source to check</dt><dd>Abduction, search and return scenes checked together.</dd></div></dl><p><a href=\"#melian-starguard\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-spire-opening\" data-research-region-value=\"Pristinia\"><p class=\"eyebrow\">Chronology · narrowed</p><h3>When did the Silver Spire open under that name?</h3><dl><div><dt>Known</dt><dd>The surviving notice has a July edit on a January post.</dd></div><div><dt>Missing evidence</dt><dd>An unedited dated announcement or an independent contemporary opening scene.</dd></div><div><dt>Next source to check</dt><dd>Tower construction and civic-service scenes; the edited notice alone cannot settle the opening date.</dd></div></dl><p><a href=\"#fenwicks-tower\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-vital-chain-opening\" data-research-region-value=\"Pristinia\"><p class=\"eyebrow\">Founding · narrowed</p><h3>Which Vital Chain branches actually opened?</h3><dl><div><dt>Known</dt><dd>The January draft names the organization and proposes Eovar and Pristinia branches.</dd></div><div><dt>Missing evidence</dt><dd>A recorded opening, functioning service or later institutional charter for each branch.</dd></div><div><dt>Next source to check</dt><dd>Contemporary tower, infirmary and Pristinia service scenes.</dd></div></dl><p><a href=\"#vital-chain\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-knights-transition\" data-research-region-value=\"Pristinia\"><p class=\"eyebrow\">Leadership · open</p><h3>How did the Knights’ responsibilities change after the founders’ losses?</h3><dl><div><dt>Known</dt><dd>Ryvyt calls himself the remaining founder in the checked May scene.</dd></div><div><dt>Missing evidence</dt><dd>Named transfers, obligations and outcomes rather than a roster inferred from absences.</dd></div><div><dt>Next source to check</dt><dd>Knight meetings, ship arrival and later public service scenes.</dd></div></dl><p><a href=\"#ale-chemy-knights\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-new-vanguard-leadership\" data-research-region-value=\"Pristinia\"><p class=\"eyebrow\">Leadership · narrowed</p><h3>What followed Kumai’s leadership test?</h3><dl><div><dt>Known</dt><dd>Peer confidence in Severina, Kasiri’s victory and a request to find a leader are distinct.</dd></div><div><dt>Missing evidence</dt><dd>A later explicit decision and its relationship to the Veilguard’s established formation.</dd></div><div><dt>Next source to check</dt><dd>Post-trial discussion and formation scenes, without assuming a merger with the earlier Vanguard.</dd></div></dl><p><a href=\"#lady-severina\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-thorn-return\" data-research-region-value=\"Pristinia\"><p class=\"eyebrow\">Death and return · narrowed</p><h3>What connects Thorn’s body, ritual and return?</h3><dl><div><dt>Known</dt><dd>Severina retrieves the body, Ryvyt removes the oil, and Alyhotep begins Wish-based restoration; Thorn is alive by 8 September.</dd></div><div><dt>Resolution · 18 October 2026</dt><dd>The recovered scene identifies the attempted means and tightens the first confirmed living date.</dd></div><div><dt>Remaining limit</dt><dd>A separate narrator confirmation of the exact spell-completion moment is not present in the checked excerpt.</dd></div><div><dt>Next source to check</dt><dd>Keep the attempted Wish and subsequent living presence distinct; check any continuation naming the completed spell.</dd></div></dl><p><a href=\"#thorn\">Read the current record</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546367920744173610\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546377635007823872\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546378926463389706\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546381952112787486\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546382488291508254\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1546990766197575721\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1547002626812416020\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 7</a></p></article>\n<article class=\"research-card\" id=\"question-eovar-history\" data-research-region-value=\"Pristinia\"><p class=\"eyebrow\">Chronology · open</p><h3>What is Eovar’s wider civic chronology?</h3><dl><div><dt>Known</dt><dd>The tower, medical proposal and later public-service notice describe distinct stages.</dd></div><div><dt>Missing evidence</dt><dd>The order and outcomes of the harbor’s larger rebuilding and institutions.</dd></div><div><dt>Next source to check</dt><dd>Contemporary harbor, infirmary, sewers and construction scenes, before treating later praise as a complete history.</dd></div></dl><p><a href=\"#eovar-harbor\">Read the current record</a></p></article>\n<h2 id=\"research-voraketh\">Voraketh</h2>\n<article class=\"research-card\" id=\"question-anky-final-expedition\" data-research-region-value=\"Voraketh\"><p class=\"eyebrow\">Death and return · resolved</p><h3>What happened on Anky’s final expedition?</h3><dl><div><dt>Known</dt><dd>The Wasteland scene explicitly records a chain-guard construct killing Anky and Alfred on 20 April 2026; Cerwin falls the next day.</dd></div><div><dt>Resolution · 18 October 2026</dt><dd>The killing scene was in the adjacent Wasteland of Chaos channel, outside the earlier forum export.</dd></div><div><dt>Remaining limit</dt><dd>The fatal cause and immediate aftermath are recovered; later return possibilities are not settled here.</dd></div><div><dt>Next source to check</dt><dd>Retain the separate Wasteland encounter, the earlier retreat and the later afterlife appearance in sequence.</dd></div></dl><p><a href=\"#st-anky\">Read the current record</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1495886354217701421\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1495896420996354342\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1495900772192354395\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1495912538527895665\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1495912625400316138\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 7</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1495922528349065266\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 8</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1496030131381080114\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 9</a> · <a href=\"https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 10</a></p></article><article class=\"research-card\" id=\"question-voraketh-effects\" data-research-region-value=\"Voraketh\"><p class=\"eyebrow\">Mechanism · open</p><h3>Which effects belong to the Chains, Wasteland and Maw?</h3><dl><div><dt>Known</dt><dd>Travelers report different losses and suppression under different conditions.</dd></div><div><dt>Missing evidence</dt><dd>A discriminating observation that separates place, exposure, time and equipment effects.</dd></div><div><dt>Next source to check</dt><dd>Comparable crossing scenes with conditions recorded; similar symptoms alone do not establish one cause.</dd></div></dl><p><a href=\"#voraketh\">Read the current record</a></p></article><article class=\"research-card\" id=\"question-voraketh-identities\" data-research-region-value=\"Voraketh\"><p class=\"eyebrow\">Identity · open</p><h3>Which observed figures can actually be identified?</h3><dl><div><dt>Known</dt><dd>Names, an associated figure, a watcher and regional effects are kept separate.</dd></div><div><dt>Missing evidence</dt><dd>An explicit identification or independently corroborated continuity.</dd></div><div><dt>Next source to check</dt><dd>Direct encounter scenes; do not merge Deyara’s trail, a name and a watcher through resemblance.</dd></div></dl><p><a href=\"#voraketh\">Read the current record</a></p></article>\n<h2 id=\"cosmology-questions\">Larger unresolved questions</h2><ul><li>When and how do higher powers intervene directly?</li><li>Why must Dumuzi be chosen?</li><li>What precisely connects the One Tree, Shards, regional Trees and Hope?</li><li>What was the full mechanism and sequence of the Shattering?</li><li>What universal rules, if any, govern souls and resurrection?</li><li>What is Kurayami’s origin?</li></ul><p>These remain questions. A public question does not change protected access or turn a speaker’s proposed explanation into objective structure.</p><h2 id=\"research-resolution-history\">How the questions have changed</h2>\n<p>The first evidence pass narrowed Gael’s restoration into distinct stages and established Bowene’s title before Aria’s death. On 18 October 2026, further scene recovery answered Nienna’s July return, Elenia’s post-Wrath return and Anky’s fatal encounter. The Sanctum transcript also corrected the supposed separate 2026 Miracle: Gartina’s miracle is the same 21 November 2024 return.</p><p>The owner clarified that Aria’s sibling denial was a painful lie and that her cultural leadership was distinct from Bowene’s High Lord office. The direct quest fire scene now dates Green Beard’s attack on the Common Man in the source chronology. Thorn’s body recovery, attempted Wish restoration and living presence by 8 September narrow her transition without inventing a missing completion narration.</p><p>These resolutions remain beside the questions that preceded them. Later knowledge is appended; it is not assigned retroactively to witnesses in the earlier scenes.</p>\n",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "research-gael",
+      "title": "Gael",
+      "chapter": "Research queue",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Research questions · evidence still needed",
+        "summary": "Known observations narrow these questions; the missing evidence has not been supplied or inferred.",
+        "scope": "section",
+        "sources": [
+          "Linked histories · #nienna, #elenia, #gael, #gael, #gartina"
+        ]
+      }
+    },
+    {
+      "id": "research-zarathis",
+      "title": "Zarathis",
+      "chapter": "Research queue",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Research questions · evidence still needed",
+        "summary": "Known observations narrow these questions; the missing evidence has not been supplied or inferred.",
+        "scope": "section",
+        "sources": [
+          "Linked histories · #bowene, #bowene, #aria-pride"
+        ]
+      }
+    },
+    {
+      "id": "research-across-regions",
+      "title": "Across regions",
+      "chapter": "Research queue",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Research questions · evidence still needed",
+        "summary": "Known observations narrow these questions; the missing evidence has not been supplied or inferred.",
+        "scope": "section",
+        "sources": [
+          "Linked histories · #elenia, #training-dungeon"
+        ]
+      }
+    },
+    {
+      "id": "research-pristinia",
+      "title": "Pristinia",
+      "chapter": "Research queue",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Research questions · evidence still needed",
+        "summary": "Known observations narrow these questions; the missing evidence has not been supplied or inferred.",
+        "scope": "section",
+        "sources": [
+          "Linked histories · #common-man, #melian-starguard, #fenwicks-tower, #vital-chain, #ale-chemy-knights, #lady-severina, #thorn"
+        ]
+      }
+    },
+    {
+      "id": "research-voraketh",
+      "title": "Voraketh",
+      "chapter": "Research queue",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Research questions · evidence still needed",
+        "summary": "Known observations narrow these questions; the missing evidence has not been supplied or inferred.",
+        "scope": "section",
+        "sources": [
+          "Linked histories · #st-anky, #voraketh, #voraketh"
+        ]
+      }
+    },
+    {
+      "id": "cosmology-questions",
+      "title": "Larger unresolved questions",
+      "chapter": "Further questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved · protected boundaries retained",
+        "summary": "No new answer or concealed origin is published.",
+        "scope": "section",
+        "sources": [
+          "OPEN_QUESTIONS_AND_CONTRADICTIONS.md — tracked uncertainties"
+        ]
+      }
+    },
+    {
+      "id": "research-resolution-history",
+      "title": "How the questions have changed",
+      "chapter": "Further questions",
+      "evidence": {
+        "kind": "interpretation",
+        "label": "Resolution history · former uncertainty retained",
+        "summary": "Original scenes checked. Observations, speaker claims and later conclusions remain distinct; posting dates are not world dates.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452409809240116",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452805474717837",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453720646553702",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453968429387917",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495886354217701421",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495896420996354342",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495900772192354395",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495912538527895665",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495912625400316138",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1495922528349065266",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1496030131381080114",
+          "https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1520571135870107658",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1520573837672972464",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1520587522776764536",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1520595215453388921",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522656529256284169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546367920744173610",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546377635007823872",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546378926463389706",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546381952112787486",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546382488291508254",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1546990766197575721",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1547002626812416020",
+          "Canon clarification · 18 October 2026 · Aria’s denial of siblings was a lie because the subject was too painful.",
+          "Canon clarification · 18 October 2026 · Aria was Zarathis’s cultural leader, with influence comparable to a great general alongside its institutions; her authority was distinct from Bowene’s High Lord title."
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Selected Nienna first-death, diamond-offering and Raise Dead evidence checked against the supplied original scenes and compatible intervening quest testimony. Other history retains its own evidence."
+  }
+}

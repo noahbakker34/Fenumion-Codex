@@ -1,0 +1,103 @@
+{
+  "id": "vizsla",
+  "title": "Vizsla, the Florist",
+  "category": "People",
+  "type": "Florist · civic participant",
+  "dek": "A flower-shop owner who argues that adventurers’ contributions should be recognized without displacing the settlement’s residents.",
+  "tags": [
+    "Vizsla, the Florist",
+    "NPCs",
+    "Prima",
+    "Vizsla"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Florist · civic participant",
+    "Record": "Public scenes; later status not established",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Main quest-RP archive · message anchors below",
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+  ],
+  "body": "<h2 id=\"vizsla-1\">A trade and a memory</h2><p>Vizsla identifies herself as the owner of a small flower shop in Pristinia. Earlier, she reminds Orrik of adventurers’ help at Fernir’s funeral and during an attack. She can challenge their political influence while remembering what particular people have done for the town.</p><h2 id=\"vizsla-2\">Representation and deadlock</h2><p>At the public governance debate she worries that a six-person council could deadlock and that three adventurer seats would surrender too much local control. She proposes reducing those seats to two. The proposal expresses her view of representation; it is not presented here as the enacted settlement constitution.</p><h2 id=\"vizsla-3\">An ordinary life continues</h2><p>She lends Eli Voss a sickle while holding him to the work he promised, then returns to pruning peonies. Her later remarks about an arena contest explicitly rely on what other people said because she did not attend. Work, humor and the limits of her knowledge all remain visible.</p><h2 id=\"vizsla-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239623250691100712\">Remembering the adventurers’ help</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1291210768678780938\">A borrowed sickle and work owed</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1466912328971980852\">A florist’s proposal about representation</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1494811702045180076\">Secondhand knowledge of the arena</a></li></ul>",
+  "image": "assets/characters/discord/c3e593b5d76c001371df4185b23927ca5640c8cd15d7253a071e898b812c2da2.png",
+  "imageAlt": "Discord depiction of Vizsla, the Florist",
+  "imageCaption": "Vizsla, the Florist",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "vizsla-1",
+      "title": "A trade and a memory",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "vizsla-2",
+      "title": "Representation and deadlock",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "vizsla-3",
+      "title": "An ordinary life continues",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "vizsla-sources",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Florist · civic participant",
+    "significance": "A flower-shop owner who argues that adventurers’ contributions should be recognized without displacing the settlement’s residents.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "A flower-shop owner who argues that adventurers’ contributions should be recognized without displacing the settlement’s residents."
+  }
+}

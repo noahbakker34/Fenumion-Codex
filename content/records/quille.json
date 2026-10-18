@@ -1,0 +1,72 @@
+{
+  "id": "quille",
+  "title": "Quille",
+  "category": "People",
+  "type": "Survivor · intended elder successor",
+  "dek": "A young survivor carrying the weight of interrupted succession, hunger, and the daily work of keeping her people alive.",
+  "tags": [
+    "Quille",
+    "Babel-Ashur",
+    "Skylight Refuge",
+    "Survivors"
+  ],
+  "facts": {
+    "Region": "Babel-Ashur",
+    "Recorded at": "Skylight Refuge",
+    "Account": "Surviving testimony; exact in-world date unresolved"
+  },
+  "sources": [
+    "Babel quest record · campfire testimony, August 2026"
+  ],
+  "body": "<p>Quille is among Babel-Ashur’s survivors gathered at <a href=\"#skylight-refuge\">Skylight Refuge</a>. Although hardship makes her appear much older, the account places her in her twenties. Her testimony remembers alternating years of hiding and flight, with the present year the worst.</p><h2 id=\"quille-succession\">An interrupted succession</h2><p>Quille says she was meant to succeed a newly appointed elder. Before that succession could develop, a huge tigerlike creature seized the elder during sleep; almost nobody saw the attack. Quille describes planting knowledge and protective mental magic as things entrusted from elder to elder. The account does not establish that she completed that training, inherited the entire knowledge, or became an elder.</p><h2 id=\"quille-survival\">Counting sleeps</h2><p>Gartina’s meal matters to Quille because it has been years since real food, and some children scarcely know it. Asked how her people measure time, she answers that each night is a success and they count their sleeps. The statement preserves the scale of civilian survival beneath the larger war.</p>",
+  "image": "assets/characters/quille.jpg",
+  "imageAlt": "Quille with braided dark hair, pointed ears, beads and a pale shawl",
+  "imageCaption": "Quille",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "quille-succession",
+      "title": "An interrupted succession",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Babel quest record · campfire testimony, August 2026"
+        ]
+      }
+    },
+    {
+      "id": "quille-survival",
+      "title": "Counting sleeps",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Babel quest record · campfire testimony, August 2026"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Survivor · intended elder successor",
+    "significance": "A young survivor carrying the weight of interrupted succession, hunger, and the daily work of keeping her people alive.",
+    "actions": [
+      {
+        "title": "Babel’s survivors tell their own stories",
+        "event": "Babel’s survivors tell their own stories",
+        "date": "5 Aug 2026 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 5 Aug 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "pristinia-housing",
+  "title": "Pristinia Homes & Households",
+  "category": "Places",
+  "type": "Residential history guide",
+  "dek": "Homes, shared households and the changing claims through which adventurers make a place for themselves.",
+  "tags": [
+    "Pristinia",
+    "Prima",
+    "Housing",
+    "Homes",
+    "Households",
+    "Property",
+    "Alioth",
+    "Wren",
+    "Olokun",
+    "Lucido"
+  ],
+  "facts": {
+    "Scope": "Pristinian residential history with linked Prima comparisons",
+    "Ownership": "House-specific; not inferred from thread labels",
+    "Mapped district": "No single residential district established",
+    "Record": "Historical households, not a current occupancy register"
+  },
+  "sources": [
+    "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+  ],
+  "body": "<p>Pristinia’s housing history records more than purchases. Homes become places of welcome, companionship, grief and shared routines. Occupancy, household membership and legal ownership can change at different times; an archive label does not resolve all three.</p>\n<h2 id=\"housing-alioth-magnus\">Alioth’s house and Magnus’s later claim</h2><p>The supplied history identifies the property’s original introduction as Alioth’s house. Its early social life brings together visitors including Casimir, Wren, Draygar and Olokun. This is a history of a private home becoming a gathering place, not an assumption that visitors own it.</p><p>Magnus later occupies the house and says he has a deed. Farkur disputes that claim by referring to the town’s record of its owner. Pell’s later reported search lists Magnus as a Pristinian homeowner. That finding does not establish the exact transfer of this particular property or turn the newer thread name into its complete title history.</p>\n<h2 id=\"housing-wren-household\">Wren’s promised refuge</h2><p>Wren’s promise to give Olokun a place in her future home becomes a shared household: the account gives him a room and records her saying he lives there. Vaemyr’s later tour and relationship with Wren make the same home part of another developing bond.</p><p>The household’s social meaning changes as Olokun becomes uncomfortable remaining in what he jokes is their love nest and turns toward a home of his own. This is a domestic sequence, not a dated deed transfer or a claim that every earlier resident remains there now.</p>\n<h2 id=\"housing-private-design\">Different ways to make a home</h2><p>Arjahn’s house is described through stone, a small garden, a modest guest room, a kitchen, a fireplace and space for training. Lucido’s account gives his home a quieter design: stone and First Forest wood, shoji doors and windows, a garden, sculpture and a lily pond. These choices add domestic context without replacing their quest histories with an invented personality.</p><p>Olokun’s home provides a place where friends talk before dangerous journeys. His joke about Pappy receiving it if he does not return is not a completed bequest. Pappy’s own home is remembered as a place someone can seek out because they trust him; its history does not establish a general public right of entry.</p>\n<h2 id=\"housing-shared-home\">A shared domestic identity</h2><p>The Lily Patch account explicitly identifies Di’trillio and Vessalia as co-owners. Decorating, books, flowers, crossing the threshold together and their first dance make the cottage their shared home. The history distinguishes that clear co-ownership from cases where another person is an important resident or visitor.</p><p>Precise addresses and the complete chronology of individual households remain unrecovered here. This residential guide does not assign every Prima house to one newly invented Pristinian neighbourhood.</p>\n<h2 id=\"housing-prima-boundaries\">Other Prima homes and institutions</h2><p><a href=\"#fenwicks-tower\">Fenwick’s Wizarding Clock Tower</a> belongs to Eovar and develops into the Silver Spire’s baths, market and healing house. It remains in its established geography. Coralyn’s Tideforged Depth is reported underwater off Eovar’s coast; Tshuka’s association does not by itself establish co-ownership. Greenbriar is described as a joint agricultural venture on the Eovar coast, with its full partner list unresolved.</p><p>Farkur’s Instant Fortress is remembered as a communal Ale-Chemy home base. That use belongs beside the organization’s later mobile and civic work; communal occupation does not settle the ownership of every resource.</p>\n<h2 id=\"housing-rules-and-history\">Building rules and lived history</h2><p>The <a href=\"#trade-builder\">Builder reference</a> describes the current supplied homebrew requirements for construction. Those mechanics do not prove who built each historical house or when a project finished. <a href=\"#pristinia-scroll-library\">The Scroll Library</a> complements the housing record by preserving knowledge and civic records alongside the places people call home.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "housing-alioth-magnus",
+      "title": "Alioth’s house and Magnus’s later claim",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "housing-wren-household",
+      "title": "Wren’s promised refuge",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "housing-private-design",
+      "title": "Different ways to make a home",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "housing-shared-home",
+      "title": "A shared domestic identity",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "housing-prima-boundaries",
+      "title": "Other Prima homes and institutions",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "housing-rules-and-history",
+      "title": "Building rules and lived history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    }
+  ]
+}

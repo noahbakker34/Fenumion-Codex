@@ -1,0 +1,61 @@
+{
+  "id": "world-index",
+  "title": "World Index",
+  "category": "Archive",
+  "type": "Living world gateway",
+  "dek": "Enter Fenumion through characters, history, and place.",
+  "tags": [
+    "Characters",
+    "Timeline",
+    "Locations",
+    "Quotes",
+    "Hierarchy"
+  ],
+  "facts": {
+    "Regions": "Characters · Timeline · Locations",
+    "Structure": "Region → subject → subentry",
+    "Ordering": "Chronological or alphabetical",
+    "Foundation": "Campaign records, maps, and chronicles"
+  },
+  "body": "<section class=\"gateway-hero\">\n        <video class=\"gateway-banner-video ambient-video\" data-ambient-video=\"\" muted=\"\" loop=\"\" playsinline=\"\" disablepictureinpicture=\"\" disableremoteplayback=\"\" preload=\"metadata\" poster=\"assets/archive/world-map.jpeg\" aria-hidden=\"true\" tabindex=\"-1\"><source data-src=\"assets/archive/fenumion-banner.mp4\" type=\"video/mp4\"></video>\n        <div class=\"gateway-hero-inner\">\n          <span class=\"gateway-sigil\" aria-hidden=\"true\"><img src=\"fenumion-logo.webp\" alt=\"\"></span>\n          <p class=\"gateway-overline\">People, places and the history they leave behind</p>\n          <p>Characters leave fingerprints. Places remember. The past keeps acting on the present.</p>\n          <label class=\"gateway-search\"><span aria-hidden=\"true\">⌕</span><span class=\"sr-only\">Search the archive</span><input id=\"gateway-search\" type=\"search\" placeholder=\"Search the archive\" autocomplete=\"off\"><kbd>/</kbd></label>\n          <a class=\"community-join-button\" href=\"https://discord.gg/TqXRfGKtNv\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Join the Fenumion community</span><span aria-hidden=\"true\">↗</span></a>\n        </div>\n      </section>\n      <section class=\"gateway-categories\" aria-label=\"Explore the Codex\">\n        <button class=\"gateway-tile\" data-article=\"people-directory\" style=\"--tile-image:url('assets/archive/wrath.gif')\"><span>Characters</span><small>Heroes · NPCs · Gods</small></button>\n        <button class=\"gateway-tile\" data-article=\"living-timeline\" style=\"--tile-image:url('assets/archive/abyss.png')\"><span>Timeline</span><small>Causes · Events · Consequences</small></button>\n        <button class=\"gateway-tile\" data-article=\"visual-archive\" style=\"--tile-image:url('assets/archive/world-map.jpeg')\"><span>Locations</span><small>Regions · Settlements · Landmarks</small></button>\n        <button class=\"gateway-tile\" data-article=\"factions\" style=\"--tile-image:url('assets/archive/fein-uaill.jpeg')\"><span>Factions</span><small>Companies · Orders · Alliances</small></button><button class=\"gateway-tile\" data-article=\"memorable-quotes\" style=\"--tile-image:url('assets/archive/throne.png')\"><span>Quotes</span><small>Words the world remembers</small></button>\n        \n        <button class=\"gateway-tile\" data-article=\"ethos-of-fenumion\" style=\"--tile-image:url('assets/archive/pristinia.webp')\"><span>Guide</span><small>World · Play · Principles</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2 id=\"record-world-index-section-0\">Featured</h2><span></span></div>\n      <section class=\"gateway-featured\">\n        <button class=\"feature-card feature-image\" data-article=\"gael\" style=\"--feature-image:url('assets/archive/gael.jpeg')\"><span class=\"feature-label\">Regional history</span><span class=\"feature-copy\"><strong>Gael</strong><small>From Death’s wasteland to Hope, settlement, markets, and an unfinished recovery.</small></span></button>\n        <button class=\"feature-card feature-image\" data-article=\"fein-uaill\" style=\"--feature-image:url('assets/archive/fein-uaill.jpeg')\"><span class=\"feature-label\">Location atlas</span><span class=\"feature-copy\"><strong>Fein Uaill</strong><small>Zarathis, Caisleán na Brón, Ciaránach, walls, libraries, tombs, and shores.</small></span></button>\n        <button class=\"feature-card feature-quote\" data-article=\"memorable-quotes\"><span class=\"feature-label\">Memorable quote</span><blockquote>“My pain. Not everyone’s.”</blockquote><cite>Olokun</cite><small>Read the words that became part of Fenumion’s moral memory.</small></button>\n      </section>\n      <div class=\"gateway-section-title\"><span></span><h2 id=\"record-world-index-section-1\">Complete index</h2><span></span></div>\n      <p class=\"gateway-index-intro\">Browse every recovered character, event, and place. Sort by name or chronology, then open the exact record you need.</p>\n      <div id=\"world-browser\" class=\"world-browser\"></div>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "record-world-index-section-0",
+      "title": "Featured",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Reading guide",
+        "summary": "Navigational index, not a primary lore source.",
+        "scope": "section",
+        "sources": [
+          "World Index · canonical public people, timeline and location indexes · #people-directory"
+        ]
+      }
+    },
+    {
+      "id": "record-world-index-section-1",
+      "title": "Complete index",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Reading guide",
+        "summary": "Navigational index, not a primary lore source.",
+        "scope": "section",
+        "sources": [
+          "World Index · canonical public people, timeline and location indexes · #people-directory"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "World Index · canonical public people, timeline and location indexes · #people-directory"
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "navigation",
+    "scope": "Navigational index, not a primary lore source."
+  }
+}

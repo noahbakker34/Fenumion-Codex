@@ -1,0 +1,106 @@
+{
+  "id": "starojoss-destranoth",
+  "title": "Starojoss Destranoth",
+  "category": "People",
+  "type": "Story keeper · newcomer",
+  "dek": "Star writes down the strange parts of a story before anyone can make them tidier than they were.",
+  "tags": [
+    "Starojoss Destranoth",
+    "The Gate",
+    "Prima",
+    "Star",
+    "Starojoss"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Recorded at": "The Gate and road to Pristinia"
+  },
+  "sources": [
+    "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+  ],
+  "body": "<h2 id=\"star-threshold\">A threshold and a guide</h2><p>Star arrives in the Gate clearing and meets <a href=\"#vessalia\">Vessalia</a>, who excitedly identifies her as her first Gate pick-up. Star introduces herself as Starojoss Destranoth, with Star as the easier name. She says she was studying at a university before the crossing.</p><h2 id=\"star-records\">Keeping the strange bits</h2><p>Star says she likes writing down stories, especially the parts people leave out. Vessalia points her toward the academy, scroll library, quest board and Pilgrim’s Hearth. Star respects her guide’s decision not to discuss every detail of a difficult harpy encounter.</p><h2 id=\"star-choice\">A commitment without false certainty</h2><p>When Vessalia tells her to consider the people of her former world dead, Star refuses to accept that conclusion simply because someone says it on a road. She does promise not to help destroy Fenumion. Vessalia apologises and reframes her appeal around protecting both worlds; Star agrees to help. No destruction of Star’s home is established.</p><h2 id=\"star-hearth\">Names in a notebook</h2><p>At the tavern threshold, Star records Pristinia, Prima, Pilgrim’s Hearth, Herb and Vessalia. She calls the welcome informative in a slightly alarming way, then goes inside. Her journey ends this scene with shelter and a first account, not a settled faction allegiance.</p>",
+  "image": "assets/characters/discord/19e59104772c5b8855a7e560e7a2b08a36efa11c53004890930edc30f80af4e5.png",
+  "imageAlt": "Discord depiction of Starojoss Destranoth",
+  "imageCaption": "Starojoss Destranoth",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "star-threshold",
+      "title": "A threshold and a guide",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "star-records",
+      "title": "Keeping the strange bits",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "star-choice",
+      "title": "A commitment without false certainty",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "star-hearth",
+      "title": "Names in a notebook",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Story keeper · newcomer",
+    "significance": "Star writes down the strange parts of a story before anyone can make them tidier than they were.",
+    "actions": [
+      {
+        "title": "Vessalia welcomes Star and hears her own terms",
+        "event": "Vessalia welcomes Star and hears her own terms",
+        "date": "2026-09-23 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 2026-09-23 · posting date (UTC). Later status is not established here.",
+    "relationships": [
+      {
+        "id": "vessalia",
+        "label": "Vessalia",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

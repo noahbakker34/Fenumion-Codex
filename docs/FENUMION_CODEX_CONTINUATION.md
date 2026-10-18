@@ -1,6 +1,6 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-11
+Last updated: 2026-10-17
 
 This is the first file to read before continuing work on the Fenumion Living Codex. It records the project's durable decisions, current implementation state, canon rules, supplied media, and remaining priorities so the full development conversation does not need to be replayed.
 
@@ -8,7 +8,7 @@ For deeper lore synthesis, also read `docs/CONVERSATION_MASTER_SUMMARY.md`. The 
 
 ## Current project state · 10 October 2026
 
-- Public static source: `site/`; main data/rendering: `site/app.js`; markup: `site/index.html`; styling: `site/styles.css` and `site/codex-layout.css`.
+- Public static output: `site/`; canonical content: `content/records/`; build: `scripts/build_codex.py`; rendering: `site/app.js` and `site/codex-reader.js`; markup: `site/index.html`; styling: `site/styles.css` and `site/codex-layout.css`.
 - Public site: https://fenumion.com/ (GitHub Pages).
 - Git repository: `noahbakker34/Fenumion-Codex`. Pushes to `main` deploy through `.github/workflows/pages.yml`.
 - Preserved media: `site/assets/archive/`; individual dossiers/data modules load from `site/index.html`.
@@ -818,3 +818,32 @@ User identifies linked Skill Descriptions as distinct Fenumion homebrew crafting
 ## Pristinia housing and Scroll Library · 14 October 2026
 
 Two entries from supplied historical synthesis: Pristinia Homes & Households and Pristinia Scroll Library. Claims/transfers/residence separated; Eovar tower, underwater home and plantation not relocated. Existing library marker now opens own dossier; no new coordinates. Character/place reciprocity and current Builder/Scribe/Craftsman references linked without retroactive ranks or achievements. See `HOUSING_SCROLL_LIBRARY_REVIEW.md`. Housing-library1/app236; publication authorized on 14 October 2026 alongside Gedankin/crafting updates.
+
+## Player location notes · 17 October 2026
+
+Integrated supplied summary as dated player testimony in ten existing histories, plus a Training Dungeon location route. Scribonia’s judgments, Fenwick’s first impressions, Anky/Coralyn theories and Greg/Boggun practical advice stay attributed. Posting dates not world dates; no new map geometry or timeline outcomes. Existing quest-backed Gael restoration, Voraketh uncertainty and Dungeon restoration gap preserved. Protected ancient claims withheld. Referenced raw export not located/verified; provenance and scope in `PLAYER_LOCATION_NOTES_REVIEW.md`. Player-location-notes1/app237; local integration, publication pending.
+
+## Reading and canonical-content upgrade · 17 October 2026
+
+User approved all seven proposed improvements. Added structured openings for 171 public character records (15 with curated consequential-choice links), evidence metadata for 1,880 sections, grouped reading navigation/continuous mode, exact-section search and reloadable focus, five linked consequence sequences and historical atlas context/date filtering. Canonical content now lives in `content/records/`; build with `scripts/build_codex.py` before preview/deployment. Runtime body loading and deferred search replace 34 historical patch modules. All 566 prior bodies and media fields preserved exactly; new connected-history guide makes 567 records. One duplicate Anky directory identity merged without losing aliases; 32 inherited missing source lists remain tracked. CI validates content and browser reading/protected boundaries before Pages deployment. Details and local metrics in `CODEX_READING_AND_CONTENT_UPGRADE.md`; editing workflow in `content/README.md`. App238/reader1; local, unpublished.
+
+## Six-part evidence and visitor pass · 17 October 2026
+
+User authorized all six follow-on passes. Recovered all 32 missing article-reference lists with explicit source/review scopes; exceptions now empty. User’s bot-reader pointer located the original 33-message location notes, inspected in full. Player testimony remains subordinate to quest outcomes; Hope width/radius conflict retained. Added 49 bounded scene entries across 19 existing people with 67 distinct receipts, 28 focused claim reviews and a 23-question evidence queue. Bowene’s title predates Aria’s death; exile names corrected; Vysaeth motives attributed; Silver Spire notice edit and Vital Chain proposal/branch limits explicit. Four campaign histories connect Pristinia, Gael, Zarathis and Voraketh. No founder tiers, inferred return mechanisms, secret origin disclosures or raw archive imports.
+
+Canonical state: 572 records, 1,932 sections. Clickable references, research filters, keyboard search results, mobile focus handling, history scroll restoration and progressive catalog search implemented. Full-text completion preserves focused results and invalidates caches; cold full text remains a deferred-loading cost. Controlled gzip-preview/live diagnostic and exact scope in `SIX_PART_EVIDENCE_AND_READER_PASS.md`. App239/reader2; local, unpublished. Remaining source questions are deliberately retained in the public queue rather than presented as completed histories. Earlier 567-record/missing-original entries describe superseded checkpoints.
+
+Final local verification passed: canonical validation, deterministic build, syntax/diff checks, workflow reader/deployment gates, 19-profile research journeys, original reader integration, player identity merges, NPC/island navigation, 106-work art/menu behavior and isolated ambient/reduced-motion/data-saving regressions. Desktop research and mobile scene screenshots inspected. Existing public image dimensions reserve layout space; back-position capture now precedes layout changes. Pages package approximately 799.6 MB. No Git push, publication or vault/access change; GitHub CI has not run yet.
+
+## Seven answers and recovered death scene · 18 October 2026
+
+Owner provided source pointers and explicit Aria clarifications. Checked Elenia restoring Nienna on 15 July 2024; recovered Gartina’s Sanctum Reincarnate on 21 November 2024 as the same post-Wrath Miracle, correcting the former separate 2026 placement. Elenia remains a satyr; full expanded odds table not independently recovered. New Wasteland source explicitly records a chain-guard construct killing Anky and Alfred on 20 April; Cerwin falls next day. The earlier hostile creature is separate. Thorn body recovery, Alyhotep’s attempted Wish and living presence by 8 September narrow her gap; exact completion narration remains absent. Quest fire scene records Green Beard’s arson and collapse on 27–28 June 2026 UTC. Aria’s sibling denial was a painful lie; her cultural authority was distinct from Bowene’s High Lord office. Historical analogy not imported as a constitution.
+
+Updated facts, openings, biographies, region/campaign prose, timeline, evidence and research together. Five question resolutions retained alongside former uncertainty. Current: 572 records, 1,937 sections, 56 scenes across 21 people, 29 claim reviews. Original sources stay external; private indexes in /tmp. See `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md` for receipts, input hashes, scope and remaining gaps. App240; local and unpublished.
+
+
+## Nienna first death and named resurrection · 18 October 2026
+
+The owner supplied `Nienna-First-Death-and-Resurrection.md`, a private recovery packet containing primary scenes and embeds. Selected originals confirm Nienna’s death fighting soul eaters and wraiths on the Plains of Trial on 9 July 2024, Saray recovering her body, and Elenia’s **Raise Dead** on 15 July after Saray obtains a diamond through an altar offering. The spell log follows the roleplay awakening and records that same return. Intervening quest testimony corroborates the death and planned offering; no quest outcome is overwritten. Saray’s guilt and Nienna’s soul-struggle recollection retain attribution. September’s sacrifice stays distinct.
+
+Updated Nienna, Saray, Elenia, Tower/Gael/campaign narratives, claim/research cards and receipts, directory summary and timeline. Existing July bookmark retained and moved before the September narrative. 57 selected scene entries across 21 people; 572 records and 1,937 sections unchanged. App241; local and unpublished. Source hash, limits and verification: `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md`.

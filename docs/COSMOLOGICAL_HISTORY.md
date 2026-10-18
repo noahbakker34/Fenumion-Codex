@@ -195,7 +195,7 @@ The moral distinction is that Adelia chooses to spend herself. Her later power r
 
 ## 21. The Miracle of Fenumion preserves contingent grace
 
-**Date:** 2026  
+**Date:** 21 November 2024 · Sanctum source postings (corrected 18 October 2026)
 **Confidence:** Event established; ultimate cause restrained
 
 The Miracle allows characters to experience wonder or grace without the archive declaring every improbable rescue direct intervention by a higher power. If chance is converted into a divine receipt, genuine uncertainty and faith collapse into bookkeeping.
@@ -278,3 +278,5 @@ The evidence places Talan, Delerium, imprisonment, and divine fear inside one pr
 - `CHARACTER_BIBLE.md` — character-specific development.
 - `RELATIONSHIPS.md` — causal relationships across events.
 - Existing reconciled Codex articles and dossiers.
+
+Correction, 18 October 2026: the Miracle is Gartina’s post-Wrath Reincarnate of Elenia, not a separately established 2026 event. The cause and caster are recovered; no higher-power cause is asserted. See `SEVEN_ANSWERS_SOURCE_RECONCILIATION.md`.

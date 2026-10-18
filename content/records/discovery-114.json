@@ -1,0 +1,73 @@
+{
+  "id": "discovery-114",
+  "title": "Chief Guardian Horgrith",
+  "category": "People",
+  "type": "Guardian authority",
+  "dek": "Greets the Gate’s adventurers with suspicion and asks whether they have come to steal.",
+  "tags": [
+    "Chief Guardian Horgrith",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Guardian authority",
+    "Island": "Prima",
+    "Census posts": "11",
+    "Recorded span": "2026-02-15 → 2026-03-29",
+    "Prominence": "56/100 · Provisional",
+    "Recorded presence": "7/20",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Greets the Gate’s adventurers with suspicion and asks whether they have come to steal.</p><h2 id=\"discovery-114-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 56/100 · Provisional</strong></p><p>A named institutional authority addressing visitors in a Guardian encounter.</p><ul><li>Consequences: 3/5 · weight 35</li><li>Institutional or witness role: 4/5 · weight 25</li><li>Relationships: 2/5 · weight 20</li><li>Recorded presence: 7/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-114-record\">Archive record</h2><p>The census records 11 posts across 2026-02-15 → 2026-03-29. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1472753624999268604\">Recorded scene · 1472753624999268604</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/1de1bce73a6eb41e4948820a9f40a57de0343e29d471174c7c889eaac133b0a6.png",
+  "imageAlt": "Discord depiction of Chief Guardian Horgrith",
+  "imageCaption": "Chief Guardian Horgrith",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-114-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-114-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Guardian authority",
+    "significance": "Greets the Gate’s adventurers with suspicion and asks whether they have come to steal.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

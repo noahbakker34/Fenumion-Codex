@@ -1,0 +1,88 @@
+{
+  "id": "elder-kaja",
+  "title": "Kaja",
+  "category": "People",
+  "type": "Pristinian Elder",
+  "dek": "An Elder who resists solving Pristinia’s financial crisis by concentrating control in a few hands.",
+  "tags": [
+    "Kaja",
+    "NPCs",
+    "Prima",
+    "Elder Kaja"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Pristinian Elder",
+    "Record": "Public scenes; later status not established",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Main quest-RP archive · message anchors below",
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+  ],
+  "body": "<h2 id=\"elder-kaja-1\">A different answer to the crisis</h2><p>During the Elders’ financial debate, Kaja says the adventurers tried to help and that the consequences were unintended. She defends the existing laws and asks for alternatives to handing control to a select few. Her answer challenges the proposed solution without denying that the financial problem exists.</p><h2 id=\"elder-kaja-2\">Institutional continuity</h2><p>She appears among the Elders and supports Magda as they return to announce a split decision. Later Hawthorne names Kaja and Hiram as candidates running again after giving up their seats for a full election. Candidacy is preserved without inventing that election’s result or a later term of office.</p><h2 id=\"elder-kaja-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1271216597377482855\">Opposing concentrated control</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1271230302555078801\">Kaja supports Magda</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420456337510502411\">Hawthorne names the returning candidates</a></li></ul>",
+  "image": "assets/characters/discord/0f03072fe499fa000f155f0336dd9263c67340860af93f1d82ed6830049816ed.png",
+  "imageAlt": "Discord depiction of Kaja",
+  "imageCaption": "Kaja",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "elder-kaja-1",
+      "title": "A different answer to the crisis",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "elder-kaja-2",
+      "title": "Institutional continuity",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "elder-kaja-sources",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Pristinian Elder",
+    "significance": "An Elder who resists solving Pristinia’s financial crisis by concentrating control in a few hands.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "An Elder who resists solving Pristinia’s financial crisis by concentrating control in a few hands."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "npc-islands",
+  "title": "NPCs by Island",
+  "category": "Archive",
+  "type": "NPC directory",
+  "dek": "Find local people, officials and surviving communities together by island.",
+  "tags": [
+    "NPCs",
+    "Islands",
+    "Directory"
+  ],
+  "facts": {
+    "Scope": "NPCs"
+  },
+  "sources": [
+    "Existing public NPC dossiers and location histories"
+  ],
+  "body": "<p>Browse NPCs by their documented home or island connection. The connection shown on each record explains why they appear here. A visit or a local role does not establish someone’s birthplace.</p>",
+  "npcIslandOverview": true,
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

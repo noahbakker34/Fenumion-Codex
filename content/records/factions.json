@@ -1,0 +1,27 @@
+{
+  "id": "factions",
+  "title": "Factions",
+  "category": "Archive",
+  "type": "Groups and orders",
+  "dek": "The companies, orders and alliances that shape Fenumion.",
+  "tags": [
+    "Factions",
+    "Groups",
+    "Orders"
+  ],
+  "facts": {
+    "Scope": "Recorded groups and alliances"
+  },
+  "sources": [
+    "Faction directory · linked Ale-Chemy Knights, Veilguard, Vanguard and cultural records · #ale-chemy-knights"
+  ],
+  "body": "<div class=\"world-directory\"><label class=\"world-directory-search\">Search factions<input type=\"search\" id=\"faction-query\" placeholder=\"Name, purpose, or story…\"></label><p class=\"browser-summary\" id=\"faction-count\" role=\"status\"></p><div class=\"browser-grid\" id=\"faction-records\"></div></div>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "navigation",
+    "scope": "Directory records retain the authority and limits of their linked histories."
+  }
+}

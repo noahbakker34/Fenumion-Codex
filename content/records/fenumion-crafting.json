@@ -1,0 +1,97 @@
+{
+  "id": "fenumion-crafting",
+  "title": "Crafting & Skill Experience",
+  "category": "Guide",
+  "type": "Fenumion homebrew crafting system",
+  "dek": "Choose a trade, follow its Skill Experience progression, and find the gathering, crafting and construction rules.",
+  "tags": [
+    "Blessings",
+    "Homebrew",
+    "Crafting",
+    "Skill Experience",
+    "Trade skills"
+  ],
+  "facts": {
+    "World": "Fenumion",
+    "Trades": "Seven",
+    "Ranks": "Apprentice · Journeyman · Expert · Master"
+  },
+  "sources": [
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+  ],
+  "body": "<p><a href=\"#blessings-of-fenumion\">← Blessings of Fenumion</a></p><p>Fenumion’s homebrew crafting system develops practical professions through Skill Experience. Each trade has its own permitted work, rolls, resources and timing.</p><h2 id=\"crafting-ranks\">Skill Experience ranks</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Trade progression\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Trade progression</caption><thead><tr><th scope=\"col\">Skill Level</th><th scope=\"col\">Skill Exp. Required</th></tr></thead><tbody><tr><th scope=\"row\">Apprentice</th><td>1,000</td></tr><tr><th scope=\"row\">Journeyman</th><td>4,000</td></tr><tr><th scope=\"row\">Expert</th><td>10,000</td></tr><tr><th scope=\"row\">Master</th><td>20,000</td></tr></tbody></table></div><h2 id=\"crafting-trades\">Explore the seven trades</h2><div class=\"blessing-path-directory\"><a class=\"blessing-path-card\" href=\"#trade-hunter\"><span class=\"blessing-path-number\">01</span><strong>Hunter</strong><span>Harvest magical components from defeated creatures.</span><span class=\"blessing-open\">Read the rules →</span></a><a class=\"blessing-path-card\" href=\"#trade-smith\"><span class=\"blessing-path-number\">02</span><strong>Smith</strong><span>Refine materials and recover resources from magic items.</span><span class=\"blessing-open\">Read the rules →</span></a><a class=\"blessing-path-card\" href=\"#trade-craftsman\"><span class=\"blessing-path-number\">03</span><strong>Craftsman</strong><span>Combine components and materials into magic items.</span><span class=\"blessing-open\">Read the rules →</span></a><a class=\"blessing-path-card\" href=\"#trade-scribe\"><span class=\"blessing-path-number\">04</span><strong>Scribe</strong><span>Research and copy spells into a personal book and the community library.</span><span class=\"blessing-open\">Read the rules →</span></a><a class=\"blessing-path-card\" href=\"#trade-builder\"><span class=\"blessing-path-number\">05</span><strong>Builder</strong><span>Construct houses, businesses, vehicles, roads and settlements.</span><span class=\"blessing-open\">Read the rules →</span></a><a class=\"blessing-path-card\" href=\"#trade-scout\"><span class=\"blessing-path-number\">06</span><strong>Scout</strong><span>Gather wood, stone, metal, plants and relics.</span><span class=\"blessing-open\">Read the rules →</span></a><a class=\"blessing-path-card\" href=\"#trade-beast-whisperer\"><span class=\"blessing-path-number\">07</span><strong>Beast Whisperer</strong><span>Tame approved beasts for personal use or other characters.</span><span class=\"blessing-open\">Read the rules →</span></a></div><h2 id=\"crafting-material-chain\">From resources to finished work</h2><p>Hunters harvest magical components; Scouts gather materials; Smiths can refine materials; Craftsmen combine the supplies into magic items. Builders use materials for construction. Scribes expand spell knowledge, while Beast Whisperers work with approved creatures.</p><h2 id=\"crafting-changing-trades\">Changing professions</h2><p>Before Journeyman rank, the source allows relative freedom to change trades. From Journeyman onward, a switch drops Skill Experience to the minimum of the next rank down. See the original examples and conditions in <a href=\"#switching-trade-skills\">Switching Trade Skills</a>.</p><h2 id=\"crafting-and-blessings\">Crafting and blessings</h2><p><a href=\"#blessings-of-fenumion\">Blessings</a> provide boon paths and listed costs. This crafting reference governs trade ranks and trade work. A conversion between Skill Experience and blessing costs, or additional blessing modifiers to trade rolls, is not specified in the supplied crafting rules.</p><p class=\"blessing-source\">Read the <a href=\"https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo\" target=\"_blank\" rel=\"noopener noreferrer\">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "crafting-ranks",
+      "title": "Skill Experience ranks",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "crafting-trades",
+      "title": "Explore the seven trades",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "crafting-material-chain",
+      "title": "From resources to finished work",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "crafting-changing-trades",
+      "title": "Changing professions",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "crafting-and-blessings",
+      "title": "Crafting and blessings",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    }
+  ]
+}

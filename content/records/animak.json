@@ -1,0 +1,89 @@
+{
+  "id": "animak",
+  "title": "Animak",
+  "category": "People",
+  "type": "Lantern-bearing newcomer",
+  "dek": "A hesitant arrival whose strange lantern makes Arjahn’s first offer of help unexpectedly complicated.",
+  "tags": [
+    "Animak",
+    "The Gate",
+    "Prima"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Recorded at": "The Gate and road to Pristinia"
+  },
+  "sources": [
+    "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+  ],
+  "body": "<h2 id=\"animak-lantern\">The lantern and the lighthouse</h2><p>Animak arrives holding a lantern and wearing a heavy white jacket. He tells <a href=\"#arjahn\">Arjahn</a> that his memory is unclear, that he thinks he has just died, and that a benefactor tethered his soul to the lantern. The benefactor’s identity and the full terms remain unestablished.</p><h2 id=\"animak-door\">An observed disappearance</h2><p>When Animak opens a panel, he becomes ghostlike and disappears inside the lantern. Arjahn picks it up and hears him answer. Animak describes a comfortable lighthouse-like interior, then emerges through a door and takes the lantern back. The disappearance and return are witnessed; his explanation of the soul-binding remains his account.</p><h2 id=\"animak-road\">A guide who admits fear</h2><p>Arjahn walks him toward Pristinia, offers practical information and shares something of his lost family. Animak apologises for touching that grief. Their conversation makes the welcome an exchange between two vulnerable people, rather than a veteran simply issuing instructions.</p>",
+  "image": "assets/characters/animak.jpg",
+  "imageAlt": "Animak, a cloaked figure carrying a glowing lantern near a distant lighthouse",
+  "imageCaption": "Animak",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "animak-lantern",
+      "title": "The lantern and the lighthouse",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "animak-door",
+      "title": "An observed disappearance",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "animak-road",
+      "title": "A guide who admits fear",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Lantern-bearing newcomer",
+    "significance": "A hesitant arrival whose strange lantern makes Arjahn’s first offer of help unexpectedly complicated.",
+    "actions": [
+      {
+        "title": "Arjahn helps Animak out of the lantern",
+        "event": "Arjahn helps Animak out of the lantern",
+        "date": "2024-07-26 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 2024-07-26 · posting date (UTC). Later status is not established here.",
+    "relationships": [
+      {
+        "id": "arjahn",
+        "label": "Arjahn",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

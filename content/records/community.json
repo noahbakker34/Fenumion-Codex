@@ -1,0 +1,97 @@
+{
+  "id": "community",
+  "title": "The Community as Protagonist",
+  "category": "History",
+  "type": "World structure",
+  "dek": "Fenumion’s longest arc belongs not to one hero, but to the community that remembers, rebuilds, argues, and makes room for the next arrival.",
+  "tags": [
+    "Community",
+    "Continuity",
+    "Players",
+    "Legacy"
+  ],
+  "facts": {
+    "Form": "Shared persistent campaign",
+    "Strength": "Relationships accumulate",
+    "Cost": "Continuity demands stewardship",
+    "Result": "The setting keeps other people’s fingerprints"
+  },
+  "body": "<p>Individual characters may become legendary, but Fenumion’s durable protagonist is the community. It is the only participant present across every generation of quests, and it carries memory when any one character cannot.</p>\n      <h2 id=\"fingerprints\">Characters leave fingerprints</h2>\n      <p>Institutions, buildings, alliances, taboos, griefs, and running arguments remain after their originators leave. A low-level newcomer can eventually become one of the setting’s defining figures because the world permits small actions to accumulate.</p>\n      <h2 id=\"ordinary-scenes\">Ordinary scenes do worldbuilding</h2>\n      <p>A lunch can reveal a food shortage. A memorial can introduce someone to a person they never met. A disagreement about whether to rescue a body can expose an entire philosophy of agency. These scenes are not downtime between the real plot. They are how the world learns what the plot cost.</p>\n      <p>The <a href=\"#new-year-address\">New Year address</a> makes this explicit: killing Tiamat and surviving Wrath belong beside tending Eovar’s wounded, raising Pristinia’s walls, making laws and festivals, and celebrating relationships.</p>\n      <h2 id=\"stewardship\">The burden of stewardship</h2>\n      <p>Persistent worlds are messy because memory is labor. Continuity has to be protected without becoming a cage, and new contributors need room to matter without erasing what came before. The Codex exists to make that history easier to enter.</p><h2 id=\"thread-sparring\">A contest resumes after the disturbance</h2><p>At the Kinnich Ahau embassy feast, Ibere and Ahuic fight unarmed while Zorkris watches. After the disturbance outside is dealt with, their sparring continues. Ibere eventually knocks Ahuic down and wins the bout. Ahuic’s defeat is the end of a sporting contest, not a death or a judgment on Cala’s power.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1469151279359070239/1469153878137376859\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1469151279359070239/1469183011164524686\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1469151279359070239/1469194229053001731\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1469151279359070239/1469194806625566720\" target=\"_blank\" rel=\"noopener\">4</a>.</p><h2 id=\"thread-brazier\">The observance continues</h2><p>During the same feast, Serath approaches the priests chanting around a central brazier and tries to understand the ceremony. The narrator says it will continue through the combat unless disturbed. This brief branch records an ongoing observance; it supplies no confirmed explanation of its intended magical result.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1469152955398881300/1469153197875662899\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1469152955398881300/1469153345179488380\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1469152955398881300/1469153986878898391\" target=\"_blank\" rel=\"noopener\">3</a>.</p>",
+  "sources": [
+    "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "fingerprints",
+      "title": "Characters leave fingerprints",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "ordinary-scenes",
+      "title": "Ordinary scenes do worldbuilding",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "stewardship",
+      "title": "The burden of stewardship",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "thread-sparring",
+      "title": "A contest resumes after the disturbance",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "thread-brazier",
+      "title": "The observance continues",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    }
+  ]
+}

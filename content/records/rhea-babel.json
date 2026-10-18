@@ -1,0 +1,43 @@
+{
+  "id": "rhea-babel",
+  "title": "Rhea",
+  "category": "People",
+  "type": "Survivor at Skylight Refuge",
+  "dek": "A named participant in the survivors’ campfire whose individual history remains largely unrecovered.",
+  "tags": [
+    "Rhea",
+    "Babel-Ashur",
+    "Skylight Refuge",
+    "Survivors"
+  ],
+  "facts": {
+    "Region": "Babel-Ashur",
+    "Recorded at": "Skylight Refuge",
+    "Account": "Surviving testimony; exact in-world date unresolved"
+  },
+  "sources": [
+    "Babel quest record · campfire testimony, August 2026"
+  ],
+  "body": "<p>Rhea is named among those who draw closer as the survivors and adventurers begin talking at <a href=\"#skylight-refuge\">Skylight Refuge</a>. The surrounding conversation concerns food, scattered communities, the seeds, and the island’s lost history.</p><p>No individual speech or further biography for Rhea is established by this scene. The chronicle preserves the name without borrowing another survivor’s testimony, inventing a family, or assigning an age or profession.</p>",
+  "image": "assets/characters/rhea.jpg",
+  "imageAlt": "Rhea with short brown hair, carrying a bow, arrows and a pack",
+  "imageCaption": "Rhea",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [],
+  "brief": {
+    "identity": "Survivor at Skylight Refuge",
+    "significance": "A named participant in the survivors’ campfire whose individual history remains largely unrecovered.",
+    "actions": [
+      {
+        "title": "Babel’s survivors tell their own stories",
+        "event": "Babel’s survivors tell their own stories",
+        "date": "5 Aug 2026 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 5 Aug 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "id": "lady-severina",
+  "title": "Lady Severina Blackveil",
+  "category": "People",
+  "type": "Player character · Veilguard leader and civic defender",
+  "image": "assets/characters/lady-severina.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Portrait of Lady Severina, a commander and civic defender",
+  "imageCaption": "Lady Severina — commander and civic defender.",
+  "dek": "A commander whose authority grows through peer trust, practical protection and decisions that must answer to evidence.",
+  "tags": [
+    "Lady Severina",
+    "Commander",
+    "Pristinia",
+    "The Before",
+    "Acolyte",
+    "Civic defense",
+    "Veilguard",
+    "Thorn",
+    "Kasiri",
+    "Camilla",
+    "Øblivion",
+    "Lady Severina Blackveil"
+  ],
+  "facts": {
+    "Primary archive coverage": "Nov 2025 – Sep 2026",
+    "Roles": "Commander · council participant · expedition protector",
+    "Named quests": "Wherever We Are Now · Acolyte",
+    "Holdings": "The Bastion · access to an Eovar tower",
+    "Status": "Active through Sep 2026",
+    "Faction": "Leader of the Veilguard",
+    "Leadership model": "Observe · organize · protect · adapt · remain accountable",
+    "Founding selection": "14 Apr 2026",
+    "Defining burden": "Promise and responsibility toward Thorn"
+  },
+  "sources": [
+    "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+    "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+    "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+    "Candidate session 296, 19 May 2026 — Acolyte",
+    "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+    "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+    "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+    "Selected primary scenes and established public histories; anchors below",
+    "Quest receipt · 2026-04-15 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1493795843575250954",
+    "Quest receipt · 2026-04-15 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1493799371710660618",
+    "Quest receipt · 2026-04-15 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1493843619327770654"
+  ],
+  "body": "<p>Lady Severina’s defining belief is that care must become structure before it can reliably protect anyone. Compassion matters, but a wall, a clear role, a tested route, a shared resource, or a promise someone remains accountable for is what allows good intent to survive pressure.</p>\n    <div class=\"callout gold\"><p><strong>Central question:</strong> can Severina build order as an instrument of protection without treating her preferred structure as proof that only her judgment is legitimate?</p></div>\n    <h2 id=\"severina-walls\">10 September 2025 · the Pristinia walls</h2>\n    <p>Severina studies plans and measurements, insisting that a wall is more than timber and stone: it is discipline made material and a shield for everyone within. Kaelen reminds her that protection and care give the structure meaning. Severina concedes the point while preserving her own: intent without disciplined execution is fragile.</p>\n    <div class=\"quote\">Protection demands order, not only intent. A wall built with heart but without discipline may crumble when tested.<cite>Lady Severina</cite></div>\n    <h2 id=\"severina-false-order\">25 November 2025 · false order</h2>\n    <p>At Kasiri’s nearly empty magic-item shop, Severina criticizes factions that hide chaos behind the appearance of law. She compares Pristinia’s young institutions to glowing, untempered iron: promising, but not yet proven strong. The judgment remains hers, but it shows that she does not value rules merely because somebody calls them orderly.</p>\n    <p>She also notices the shop’s material problems—supply, organization, interest, and competition—and begins looking for crafters and components. Her instinct is consistent: identify weakness, organize resources, and make the system function.</p>\n    <h2 id=\"severina-selection\">14 April 2026 · chosen by peers</h2>\n    <p>During the new vanguard selection, Severina argues that a company should observe people’s strengths before assigning leadership and roles. Kasiri and Camilla choose her for judgment, discipline, and duty. Severina’s surprise matters: the <a href=\"#veilguard\">Veilguard</a> begins with authority granted by people who expect her to justify their trust.</p>\n    <h2 id=\"severina-protection\">Protection before familiarity</h2>\n    <p>During the joint survey of The Before, Severina places herself among vulnerable Rahuvian scholars and extends protection to people she scarcely knows. Later she helps preserve petrified workers, offers guarded space, remembers enemy capabilities from earlier encounters, and adjusts tactics to protect specialists before threats can overwhelm the party.</p>\n    <h2 id=\"severina-social-limit\">Aleister and the limit of formal care</h2>\n    <p>Severina can organize danger more easily than vulnerability. When Aleister asks whether he is not a friend, she interrupts her travel and listens, but must consciously make room for the possibility that what he needs is not a plan but an embrace. Her social limitation is not lack of feeling; it is a habit of translating feeling into structure before recognizing the immediate human request.</p>\n    <h2 id=\"severina-thorn\">August–September 2026 · promise becomes burden</h2>\n    <p>Severina commits money, husks, favors, crafting contacts, and personal debt toward recovering Thorn. She raises a toast and promises to bring her back. When Thorn’s body is found, Severina apologizes, uses Gentle Repose, summons Øblivion, and carries her home while guilt breaks through her composure.</p>\n    <p>The scene does not establish that a leader can prevent all loss. It shows Severina refusing the easier conclusion that failure cancels obligation. That response becomes one of the clearest proofs—and costs—of the leadership her peers selected.</p>\n    <h2 id=\"severina-relationships\">Relationships that test the structure</h2>\n    <ul>\n      <li><strong>Kasiri Ruza:</strong> trust strong enough to choose Severina while remaining grounded in observed judgment.</li>\n      <li><strong>Camilla Blackwood:</strong> shared language of duty and discipline, with civic consequences always close behind.</li>\n      <li><strong>Kaelen / Alpha:</strong> the counterargument that structure without humane intent can become a prison.</li>\n      <li><strong>Aleister Sun-ðuren:</strong> friendship requiring attention that cannot be reduced to command.</li>\n      <li><strong>Thorn:</strong> the promise through which leadership becomes grief, accountability, and continuing care.</li>\n      <li><strong>Ryvyt and Øblivion:</strong> practical partners and capabilities that expand what the Veilguard can build, carry, and recover.</li>\n    </ul>\n    <h2 id=\"severina-open-record\">Open record</h2>\n    <p>Severina’s life before September 2025, the full origin of Øblivion, the Veilguard’s complete charter and roster, the exact Lilly Estate/Bastion distinction, and the long-term consequences of Thorn’s recovery remain unresolved.</p><h2 id=\"prima-rp-forest-severina\">October 2025 · Severina and Cerwin</h2><p>An expedition with Cerwin Rayolet turns fatal when five alpine wolves surround Severina. After she falls, a wolf bites her again; the narrator records her last breath. Cerwin kills the remaining threat and takes her body back toward Pristinia. This is more than an injury report.</p><p>Severina is active in later records, including the <a href=\"#before-survey\">2026 survey</a> and <a href=\"#lady-severina\">Pristinia’s defenses</a>. The forest exchange does not explain how she returns, so her death here is not presented as her final fate.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1424460817520398467\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1424742864063303771\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1424743210487517194\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1424743425185550449\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1424745017058000907\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"severina-earned-authority\">April 2026 · trust before a title</h2><p>Kumai asks the new company whom they would follow into battle. Kasiri and Camilla choose Severina for the judgment, duty and resolve they see in her. Severina’s surprise preserves a distinction between being trusted and announcing herself entitled to command.</p><p>The exercise also tests competence. Kasiri wins the later arena contest, and Kumai asks the group to discuss its leader and report back. Peer confidence is a formative result; it is not identical to winning the fight or proof that the administrative transition to the Veilguard happened at that instant.</p><h2 id=\"severina-distributed-duty\">The organization becomes larger than its leader</h2><p>The later account describes Saoirse representing the Veilguard in Pristinia while Severina works with people in Gael. Distributed responsibility makes the company more than a commander’s personal following. It does not mean Severina founded it alone or that the earlier Vanguard has been replaced in the historical record.</p><p>Protection continues at an ordinary scale: scholars need escorts, wounded companions need care and people need to know whom they can contact. Her existing survey, policy and wall-defense scenes preserve those responsibilities alongside the selection process.</p><h2 id=\"severina-evidence-and-urgency\">Minerva · an accusation is not its proof</h2><p>The account of the Pirate King argument puts two concerns in tension. Minerva treats attacks and political hierarchy as reasons to act urgently. Severina asks what links the ruler directly to the harm and whether subordinates could act independently.</p><p>The disagreement is not a final finding about the Pirate King. Demanding evidence can protect against a rash verdict, while delay can also carry costs. Neither urgency nor caution makes its bearer automatically correct.</p><h2 id=\"severina-social-person\">A person beyond command</h2><p>The later social account also preserves Kasiri as her dressmaker, embarrassment, humor and ordinary conversation. Those details do not undermine her discipline. They keep authority attached to a person with relationships and interests beyond operational duty.</p><h2 id=\"fourth-source-scenes\">Recorded scenes</h2><p>Dates identify transcript postings.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1493793967555219546\">14 April 2026 · whom would the company follow?</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1493799371710660618\">Kumai recognizes the peer choice</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1493843619327770654\">Kasiri praised; leadership discussion remains</a></li></ul>\n<h2 id=\"lady-severina-scene-sequence\">Scenes in sequence</h2>\n<p>These selected scenes preserve what was knowable when people acted. Dates below identify source postings in UTC; they do not supply an in-world calendar. A later appearance does not settle present status.</p><ol class=\"scene-sequence\"><li><p class=\"scene-date\">2026-04-15 · quest</p><h3>Confidence from others</h3><p>Kasiri names Severina as someone she would follow during Kumai’s questions.</p><dl><div><dt>Known at this stage</dt><dd>Peer trust is being expressed within a test.</dd></div><div><dt>Consequence</dt><dd>Severina’s authority has a relational history.</dd></div><div><dt>Still unresolved</dt><dd>An endorsement is not by itself a formal appointment.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1493795843575250954\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1493799371710660618\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li><li><p class=\"scene-date\">2026-04-15 · quest</p><h3>Trial and leadership remain separate</h3><p>The contest outcome is recorded separately from Kumai’s wish to discuss leadership.</p><dl><div><dt>Known at this stage</dt><dd>The test has an outcome, while future institutional arrangements require their own evidence.</dd></div><div><dt>Consequence</dt><dd>Kasiri’s victory is preserved beside Severina’s recognized confidence.</dd></div><div><dt>Still unresolved</dt><dd>No sole-founder claim or cleanly dated command transfer follows automatically.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1493843619327770654\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li></ol>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "severina-walls",
+      "title": "10 September 2025 · the Pristinia walls",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-false-order",
+      "title": "25 November 2025 · false order",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-selection",
+      "title": "14 April 2026 · chosen by peers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-protection",
+      "title": "Protection before familiarity",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-social-limit",
+      "title": "Aleister and the limit of formal care",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-thorn",
+      "title": "August–September 2026 · promise becomes burden",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-relationships",
+      "title": "Relationships that test the structure",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-open-record",
+      "title": "Open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-forest-severina",
+      "title": "October 2025 · Severina and Cerwin",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-earned-authority",
+      "title": "April 2026 · trust before a title",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-distributed-duty",
+      "title": "The organization becomes larger than its leader",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-evidence-and-urgency",
+      "title": "Minerva · an accusation is not its proof",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "severina-social-person",
+      "title": "A person beyond command",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "fourth-source-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — 754 Lady Severina / Severina messages across 10 active dates",
+          "Candidate session 277, 27 Mar 2026 — Wherever We Are Now",
+          "Candidate sessions 285 and 295, 17 Apr and 15 May 2026 — Pristinia finance, quarry, and defense debates",
+          "Candidate session 296, 19 May 2026 — Acolyte",
+          "Lady_Severina_Blackveil_Deep_Character_Dossier.md — walls, leadership, protection, Thorn, relationships, and chronology",
+          "Fenumion_Codex_The_New_Vanguard_and_Veilguard.md — faction formation and leadership context",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "lady-severina-scene-sequence",
+      "title": "Scenes in sequence",
+      "chapter": "Scenes and consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Checked scenes · bounded conclusions",
+        "summary": "Selected original scenes checked. Observed actions, plans and attributed statements remain distinct. This does not certify the entire biography.",
+        "scope": "section",
+        "sources": [
+          "Quest receipt · 2026-04-15 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1493795843575250954",
+          "Quest receipt · 2026-04-15 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1493799371710660618",
+          "Quest receipt · 2026-04-15 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1493843619327770654"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Player character · Veilguard leader and civic defender",
+    "significance": "A commander whose authority grows through peer trust, practical protection and decisions that must answer to evidence.",
+    "actions": [
+      {
+        "section": "lady-severina-scene-sequence",
+        "title": "Follow the checked scenes",
+        "date": "Choices, knowledge and consequences"
+      },
+      {
+        "section": "severina-selection",
+        "title": "14 April 2026 · chosen by peers"
+      },
+      {
+        "section": "severina-protection",
+        "title": "Protection before familiarity"
+      },
+      {
+        "section": "severina-thorn",
+        "title": "August–September 2026 · promise becomes burden"
+      }
+    ],
+    "status": "Active through Sep 2026",
+    "relationships": [
+      {
+        "id": "before-survey",
+        "label": "The Before Survey",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance.",
+    "curatedActions": true
+  },
+  "profile": {
+    "achievements": "A commander whose authority grows through peer trust, practical protection and decisions that must answer to evidence."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "forevermoore",
+  "title": "Forevermoore",
+  "category": "Places",
+  "type": "Small offshore island",
+  "dek": "A very small island off Eovar’s coast, home to the Ale-Chemy Knights’ Ciderwood Sanctum base.",
+  "tags": [
+    "Forevermoore",
+    "Ciderwood Sanctum",
+    "Eovar",
+    "Ale-Chemy Knights"
+  ],
+  "aliases": [
+    "Ciderwood Sanctum"
+  ],
+  "facts": {
+    "Location": "Off the coast of Eovar",
+    "Scale": "Very small auxiliary island",
+    "Base": "Ciderwood Sanctum",
+    "Affiliation": "Ale-Chemy Knights"
+  },
+  "sources": [
+    "Explicit user canon: small auxiliary island off Eovar, Ale-Chemy base · existing Forevermoore authority record",
+    "Farkur accepts Ciderwood Sanctum name, posted 28 December 2024 · https://discord.com/channels/1177270231513694249/1322435359497261098/1322580799937318954",
+    "Ryvyt requests a separate laboratory, posted 1 January 2025 · https://discord.com/channels/1177270231513694249/1322435359497261098/1324070356150915112"
+  ],
+  "body": "<p>Forevermoore is a very small auxiliary island off the coast of <a href=\"#eovar-harbor\">Eovar</a>. Its place in the wider history is modest: it houses Ciderwood Sanctum, a local base of the <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a>.</p><h2 id=\"forevermoore-sanctum\">Ciderwood Sanctum</h2><p>The Sanctum takes shape around a reclaimed grove and repaired buildings. <a href=\"#farkur\">Farkur</a>, <a href=\"#ryvyt\">Ryvyt</a> and <a href=\"#tobias\">Tobias</a> settle on its name while developing a shared home for their work. Farkur works at a makeshift bench, and timber cleared for the orchard is saved for the proposed caravan.</p><p>Their plans include space for brewing and building, a forge, and a separate underground laboratory for Ryvyt’s more dangerous experiments. These proposals show how they hope to use the base; they do not establish that every room or facility was completed. The Sanctum also provides a place to discuss the Knights’ welcome service, transport and shared resources.</p><p>Later accounts describe journeys between the Sanctum and Eovar using Pappy’s boat. Its exact distance from the harbor, full layout and present condition remain unestablished.</p><p>The Knights’ welcome plans later become practical assistance through <a href=\"#tobias\">Tobias</a> and a workshop economy at <a href=\"#ryvyting-creations\">Ryvyting Creations</a>; their <a href=\"#ale-chemy-knights\">main history</a> follows that wider development.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "forevermoore-sanctum",
+      "title": "Ciderwood Sanctum",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Explicit user canon: small auxiliary island off Eovar, Ale-Chemy base · existing Forevermoore authority record",
+          "Farkur accepts Ciderwood Sanctum name, posted 28 December 2024 · https://discord.com/channels/1177270231513694249/1322435359497261098/1322580799937318954",
+          "Ryvyt requests a separate laboratory, posted 1 January 2025 · https://discord.com/channels/1177270231513694249/1322435359497261098/1324070356150915112"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "mixed",
+    "scope": "Location follows user canon; requests do not prove construction complete. Later Reheva wording remains a source discrepancy."
+  }
+}

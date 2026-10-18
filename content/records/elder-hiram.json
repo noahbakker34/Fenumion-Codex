@@ -1,0 +1,109 @@
+{
+  "id": "elder-hiram",
+  "title": "Hiram",
+  "category": "People",
+  "type": "Pristinian Elder",
+  "dek": "An Elder whose arguments expose the tension between financial survival, political continuity and local defense.",
+  "tags": [
+    "Hiram",
+    "NPCs",
+    "Prima",
+    "Elder Hiram"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Pristinian Elder",
+    "Record": "Public scenes; later status not established",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Main quest-RP archive · message anchors below",
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+  ],
+  "body": "<h2 id=\"elder-hiram-1\">Continuity and office</h2><p>Hiram appears among Pristinia’s Elders. In the early assembly he opposes repeated selection, arguing that an Elder should be able to concentrate on the settlement instead of popularity. That is his argument about an institutional design, not a description of every later rule.</p><h2 id=\"elder-hiram-2\">The debt crisis</h2><p>He warns that Pristinia’s resources cannot meet its obligations to the Rahu, distinguishing recurring shortfalls from total debt. He presents default as a threat to war and trust, then turns to Ziegler’s proposed solution. Kaja’s resistance and Magda’s announced decision preserve the debate rather than making Hiram’s preferred answer inevitable.</p><h2 id=\"elder-hiram-3\">Local defense</h2><p>In a later public assembly Hiram reports roughly two dozen volunteers meeting at the Archery Range every two weeks, with basic equipment and mainly defensive capabilities. The report records local training at that moment; it is not a permanent troop count or a claim that he created the range.</p><h2 id=\"elder-hiram-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1271191925147570269\">Hiram seated among the Elders</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239640848392650872\">His argument against repeated selection</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1271205456722792648\">Debt and the prospect of default</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1271205905178038334\">Turning to Ziegler’s proposal</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1494795300848537732\">Reporting the volunteers’ training</a></li></ul>",
+  "image": "assets/characters/discord/4f55ca22d3008c15cb164987861de886a92591766a66b6a5a71f9eab332625ed.png",
+  "imageAlt": "Discord depiction of Hiram",
+  "imageCaption": "Hiram",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "elder-hiram-1",
+      "title": "Continuity and office",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "elder-hiram-2",
+      "title": "The debt crisis",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "elder-hiram-3",
+      "title": "Local defense",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "elder-hiram-sources",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Pristinian Elder",
+    "significance": "An Elder whose arguments expose the tension between financial survival, political continuity and local defense.",
+    "actions": [
+      {
+        "title": "Pristinia debates gold, business, and public need",
+        "event": "Pristinia debates gold, business, and public need",
+        "date": "8 Aug 2024 · quest-RP"
+      }
+    ],
+    "status": "Last dated entry in this selection: 8 Aug 2024 · quest-RP. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "An Elder whose arguments expose the tension between financial survival, political continuity and local defense."
+  }
+}

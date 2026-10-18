@@ -1,0 +1,91 @@
+{
+  "id": "icarus",
+  "title": "Icarus",
+  "category": "People",
+  "type": "Feathered newcomer and survivor",
+  "dek": "A frightened arrival whose chicken disguise lets him survive a Rahu search party.",
+  "tags": [
+    "Icarus",
+    "The Gate",
+    "Prima",
+    "Chicken",
+    "Aravil"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Recorded at": "The Gate and road to Pristinia"
+  },
+  "sources": [
+    "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+  ],
+  "body": "<h2 id=\"icarus-hide\">The wrong moment to arrive</h2><p>Icarus arrives at the Gate while Rahu patrols are a threat. <a href=\"#aravil\">Aravil</a> reaches him first and warns him to hide. Four armed figures search the clearing, expecting an adventurer.</p><h2 id=\"icarus-disguise\">Overlooked in plain sight</h2><p>Icarus takes the form of an ordinary chicken. The searchers notice the bird but overlook it, find no adventurer and withdraw after roughly half an hour. Aravil remains hidden until they leave. The scene ends without a battle between the two and the patrol.</p><h2 id=\"icarus-questions\">Finding the first safe road</h2><p>Once the soldiers leave, Icarus demands an explanation, then asks where he is and why he was brought here. He says he was expelled from his home after standing against an oppressor. Aravil offers her understanding of the war and leads him toward Pristinia. Her claims about the impossibility of returning home remain her knowledge, not a demonstrated universal rule.</p>",
+  "image": "assets/characters/icarus.jpeg",
+  "imageAlt": "Icarus as a robed rooster figure surrounded by chickens",
+  "imageCaption": "Icarus",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "icarus-hide",
+      "title": "The wrong moment to arrive",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "icarus-disguise",
+      "title": "Overlooked in plain sight",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "icarus-questions",
+      "title": "Finding the first safe road",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Feathered newcomer and survivor",
+    "significance": "A frightened arrival whose chicken disguise lets him survive a Rahu search party.",
+    "actions": [
+      {
+        "title": "Aravil and Icarus evade the Rahu search party",
+        "event": "Aravil and Icarus evade the Rahu search party",
+        "date": "2025-06-21 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 2025-06-21 · posting date (UTC). Later status is not established here.",
+    "relationships": [
+      {
+        "id": "aravil",
+        "label": "Aravil",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

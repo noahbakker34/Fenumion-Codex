@@ -1,0 +1,22 @@
+{
+  "id": "art-of-fenumion",
+  "title": "The Art of Fenumion",
+  "category": "Archive",
+  "type": "Location art gallery",
+  "dek": "Landscapes, cities, sanctuaries and places from the Sea of Dreams.",
+  "tags": [
+    "Art",
+    "Locations",
+    "Landscapes"
+  ],
+  "facts": {
+    "Collection": "Public location artwork"
+  },
+  "sources": [
+    "Existing public location artwork and scene posters"
+  ],
+  "body": "<p>Explore Fenumion’s landscapes, cities and sacred places in large images. Open a view at full size, or follow it into the history it accompanies.</p><section class=\"fenumion-art-gallery\" data-art-gallery=\"\" aria-label=\"Browse Fenumion location artwork\"><div class=\"art-controls\"><label>Search locations<input type=\"search\" data-art-query=\"\" placeholder=\"Place or landscape…\"></label></div><p data-art-count=\"\" role=\"status\" aria-live=\"polite\"></p><div class=\"fenumion-art-grid\" data-art-grid=\"\" tabindex=\"-1\"></div><div class=\"art-pagination\"><button type=\"button\" data-art-previous=\"\">Previous</button><span data-art-page=\"\"></span><button type=\"button\" data-art-next=\"\">Next</button></div></section>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

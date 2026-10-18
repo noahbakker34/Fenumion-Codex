@@ -1,0 +1,190 @@
+{
+  "id": "bitoshi-nakamoto",
+  "title": "Bitoshi Nakamoto",
+  "type": "Adventurer · loyalty, grief and chosen bonds",
+  "aliases": [
+    "Bitoshi"
+  ],
+  "regions": [
+    "Prima",
+    "Gael",
+    "Fein Uaill"
+  ],
+  "dek": "An explorer whose loyalty persists through Jiangshi’s absence and return, Adelia’s grief, and the difficult work of remaining beside people after catastrophe.",
+  "tags": [
+    "Player character",
+    "Bitoshi",
+    "Jiangshi",
+    "Adelia",
+    "Loyalty",
+    "Hope",
+    "Gael"
+  ],
+  "relatedRecords": [
+    "jiangshi",
+    "adelia-hope",
+    "nienna",
+    "gartina"
+  ],
+  "profile": {
+    "personality": "Bitoshi offers companionship without requiring grief to end first. His hope accepts uncertainty, while loyalty can make his judgment of retreat or betrayal severe.",
+    "achievements": "His early explorations connect Prima, The Before and Gael. He lives through Jiangshi’s absence, encounters her memorial and later witnesses her return, preserving the significance of both loss and recovery.",
+    "relationships": "Adelia and Jiangshi are central to his chosen bonds. Alyhotep is remembered as an old friend. His anger at Nienna’s retreat preserves a grieving companion’s perspective rather than a settled judgment of the tactical choice."
+  },
+  "body": "<p>Bitoshi Nakamoto’s recovered history is about remaining: beside people in grief, within chosen relationships, and committed to hope when certainty is unavailable. These are actions with consequences, even when another person has the larger spell or public office.</p>\n      <h2 id=\"bitoshi-explorer\">An explorer before the grief</h2>\n      <p>The existing archive places Bitoshi among the early explorers of Prima, The Before and Gael. He helps reopen roads, survives the mountain storm and undead valley, explores the buried city and witnesses the Flying Horror’s escape. His history includes useful work and dangerous investigation beyond his closest relationships.</p>\n      <h2 id=\"bitoshi-jiangshi\">Jiangshi’s absence and return</h2>\n      <p><a href=\"#jiangshi\">Jiangshi’s loss</a> brings Bitoshi into conflict with <a href=\"#nienna\">Nienna’s retreat</a>. He and Adelia experience it as abandonment; <a href=\"#gartina\">Gartina</a> argues that returning would probably have created another unrecoverable death. The surviving accounts preserve their disagreement without establishing that grief makes one tactical assessment universally correct.</p>\n      <p>During the absence, Bitoshi searches for Jiangshi and encounters a memorial. Later she is alive beside him again. Her return changes the present without making the memorial, the search or the intervening grief unreal.</p>\n      <h2 id=\"bitoshi-adelia\">Hope without a promise</h2>\n      <p>The supplied dossier describes Bitoshi holding and consoling <a href=\"#adelia-hope\">Adelia</a>, then proposing prayer for Jiangshi’s return or safety beyond their reach. He does not promise that a miracle must follow. When Adelia doubts the gods, he asks whether hope must also be surrendered.</p>\n      <p>His repeated image of three strands expresses the strength he finds with Adelia and Jiangshi. The dossier interprets it as a wider ethic of freely chosen bonds: people hold one another through circumstances that none could carry alone. The exact formal structure and full chronology of their relationship remain open.</p>\n      <h2 id=\"bitoshi-tensions\">Loyalty and its hard edge</h2>\n      <p>Support does not make Bitoshi endlessly gentle. His loyalty can become severe when he sees survival as abandonment or another person’s trust being betrayed. The public record establishes his anger and care; it does not establish every later confrontation or resolve every disputed judgment.</p>\n      <p>The account also preserves his criticism of Fein Uaill’s prestige and possessions as a form of confinement. This remains Bitoshi’s assessment of the city, rather than a neutral description of every resident.</p>\n      <h2 id=\"bitoshi-open\">The open record</h2>\n      <p>His pre-arrival biography, complete mechanical profile, full history with Alyhotep and later outcomes remain incomplete. Sharing a player with another adventurer does not make those characters one person. His importance here is relational and historical; it is not an inferred measure of world-scale power.</p><h2 id=\"bitoshi-gael-sanctuary\">Gael: helping continuity become a place</h2><p>In the July 2026 Tower conversation, Bitoshi helps with the sanctuary area for the Place of Recall while Jiangshi resets the small sanctuary she and Adelia had made. The scene gives his relational role a practical form: support for people becomes work on somewhere they can return.</p><p>The company also discusses future prayer, meditation and buildings near Hope. His assistance is recorded; a completed temple and full site plan are not. <a href=\"#gael\">Gael’s later restoration history</a> keeps that work beside the earlier expedition’s losses and care.</p>",
+  "category": "People",
+  "sources": [
+    "Supplied deep character dossier · 12 October 2026",
+    "Existing public campaign histories",
+    "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+  ],
+  "facts": {
+    "Role": "Player character",
+    "Regions": "Prima · Gael · Fein Uaill"
+  },
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "bitoshi-explorer",
+      "title": "An explorer before the grief",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "bitoshi-jiangshi",
+      "title": "Jiangshi’s absence and return",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "bitoshi-adelia",
+      "title": "Hope without a promise",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "bitoshi-tensions",
+      "title": "Loyalty and its hard edge",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "bitoshi-open",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "bitoshi-gael-sanctuary",
+      "title": "Gael: helping continuity become a place",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Supplied deep character dossier · 12 October 2026",
+          "Existing public campaign histories",
+          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Adventurer · loyalty, grief and chosen bonds",
+    "significance": "An explorer whose loyalty persists through Jiangshi’s absence and return, Adelia’s grief, and the difficult work of remaining beside people after catastrophe.",
+    "actions": [
+      {
+        "title": "Seven glyphs open an underground city",
+        "event": "Seven glyphs open an underground city",
+        "date": "17 Apr 2024 · quest-RP"
+      },
+      {
+        "title": "Sanctuary work and proposals for a Place of Recall",
+        "event": "Sanctuary work and proposals for a Place of Recall",
+        "date": "26 Jul 2026 · posting date"
+      },
+      {
+        "title": "Pristinia carries Papirak to his hill",
+        "event": "Pristinia carries Papirak to his hill",
+        "date": "30 Sep 2026 · funeral"
+      }
+    ],
+    "status": "Last dated entry in this selection: 30 Sep 2026 · funeral. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "jiangshi",
+        "label": "Jiangshi",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "nienna",
+        "label": "Nienna",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "gartina",
+        "label": "Gartina",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "adelia-hope",
+        "label": "Adelia & Hope",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

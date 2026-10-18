@@ -1,0 +1,88 @@
+{
+  "id": "archive-map",
+  "title": "Map of the Archive",
+  "category": "Archive",
+  "type": "Reading paths",
+  "dek": "Four routes through Fenumion, depending on whether you want the world, its moral argument, its people, or its chronology first.",
+  "tags": [
+    "Reading path",
+    "Archive",
+    "Themes",
+    "Chronology"
+  ],
+  "facts": {
+    "Best overview": "Fenumion",
+    "Cosmic entry": "The Great Fracture",
+    "Human entry": "Community as Protagonist",
+    "Core case": "Papirak’s teaching and legacy"
+  },
+  "body": "<p>Fenumion’s record is intentionally expansive. This map turns its major lines of inquiry into four practical reading paths without pretending they are separate histories.</p>\n      <h2 id=\"world-path\">The world path</h2>\n      <p>Read <a href=\"#fenumion\">Fenumion</a>, <span class=\"protected-inline\">Protected record</span>, <a href=\"#prima-pristinia\">Prima &amp; Pristinia</a>, and <a href=\"#community\">The Community as Protagonist</a>. This path moves from cosmology to ordinary life and explains why both scales are necessary.</p>\n      <h2 id=\"price-path\">The price of power path</h2>\n      <p>Read <span class=\"protected-inline\">Protected record</span>, <a href=\"#magnus\">Magnus</a>, <span class=\"protected-inline\">Protected record</span>, and <a href=\"#roderick-wrath\">Roderick / Wrath</a>. Together they form the archive’s clearest argument about power, informed choice, and responsibility for another person’s cost.</p>\n      <h2 id=\"relationship-path\">The relationship path</h2>\n      <p>Read <a href=\"#olokun\">Olokun</a>, <a href=\"#jiangshi\">Jiangshi</a>, <a href=\"#elenia\">Elenia</a>, and <a href=\"#nienna\">Nienna</a>. These entries show how care can preserve agency—and how grief can tempt care to become control.</p>\n      <h2 id=\"revelation-path\">The revelation path</h2>\n      <p>Read <a href=\"#living-timeline\">Narrative History</a>, then the Roderick and Papirak case studies. This is the best route for seeing history revise itself as later records turn old facts into new meanings.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "world-path",
+      "title": "The world path",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Reading guide",
+        "summary": "Editorial reading guide; its source basis is the linked records, not a separate historical event.",
+        "scope": "section",
+        "sources": [
+          "Reading paths composed from the linked public character, region and history records · #world-index"
+        ]
+      }
+    },
+    {
+      "id": "price-path",
+      "title": "The price of power path",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Reading guide",
+        "summary": "Editorial reading guide; its source basis is the linked records, not a separate historical event.",
+        "scope": "section",
+        "sources": [
+          "Reading paths composed from the linked public character, region and history records · #world-index"
+        ]
+      }
+    },
+    {
+      "id": "relationship-path",
+      "title": "The relationship path",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Reading guide",
+        "summary": "Editorial reading guide; its source basis is the linked records, not a separate historical event.",
+        "scope": "section",
+        "sources": [
+          "Reading paths composed from the linked public character, region and history records · #world-index"
+        ]
+      }
+    },
+    {
+      "id": "revelation-path",
+      "title": "The revelation path",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Reading guide",
+        "summary": "Editorial reading guide; its source basis is the linked records, not a separate historical event.",
+        "scope": "section",
+        "sources": [
+          "Reading paths composed from the linked public character, region and history records · #world-index"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "Reading paths composed from the linked public character, region and history records · #world-index"
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "navigation",
+    "scope": "Editorial reading guide; its source basis is the linked records, not a separate historical event."
+  }
+}

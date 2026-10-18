@@ -1,0 +1,126 @@
+{
+  "id": "pristinia-scroll-library",
+  "title": "Pristinia Scroll Library",
+  "category": "Places",
+  "type": "Library · research commons and civic archive",
+  "dek": "A modest collection becomes a shared place for spells, research and the records through which Pristinia remembers itself.",
+  "tags": [
+    "Pristinia",
+    "Prima",
+    "Scroll Library",
+    "Library",
+    "Scribing",
+    "Research",
+    "Civic records",
+    "Scribonia",
+    "Fenwick",
+    "St. Anky",
+    "Lucido",
+    "Pell"
+  ],
+  "facts": {
+    "Location": "Pristinia · Prima",
+    "Early collection": "Scant, with older histories",
+    "Institutional role": "Spells, research and civic records",
+    "Knowledge": "Partial; written accounts may be biased"
+  },
+  "sources": [
+    "Pristinia settlement map · existing library marker",
+    "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+  ],
+  "body": "<p>The Scroll Library is a mapped Pristinian institution and a recurring place of study. The supplied history begins with a modest collection, older histories and an elderly librarian who enjoys reading and organization. It grows through use and contributions rather than beginning as an all-knowing archive.</p>\n<h2 id=\"library-early-limits\">Research begins with imperfect records</h2><p>Adventurers consult scrolls, histories, maps and regional writing. Translation, deciphering and repeated study can be necessary. A successful investigation makes something readable or useful; it does not make every author unbiased or every interpretation complete.</p>\n<h2 id=\"library-scribonia\">Scribonia · reader, contributor and teacher</h2><p>Scribonia repeatedly searches the shelves and copies spells. The history also credits him with adding to the shared collection. His relationship with the library therefore includes what he leaves for other people, not only what he gains.</p><p>Later accounts have him copying from his students’ books. Teaching creates another route by which knowledge returns to the institution. It does not mean he founded the library alone or originated everything it contains.</p>\n<h2 id=\"library-applied-work\">Fenwick and Anky · knowledge shared and applied</h2><p>Fenwick uses the collection to prepare for expeditions and pursue longer research. Comparing books with St. Anky places personal knowledge into a collaborative setting. The accounts preserve reciprocal sharing rather than an automatic public claim over either person’s property.</p><p>Fenwick’s later work with Anky’s old spellbook belongs after the recorded loss of Anky. The knowledge can remain useful without erasing the death or implying that every research project succeeded.</p>\n<h2 id=\"library-cultural-use\">Lucido and the life of the archive</h2><p>Lucido’s enjoyment of leather, parchment and the atmosphere of old books gives the library a cultural life beyond spell acquisition. Conversations and repeated visits connect scholarly work to the people using the room.</p>\n<h2 id=\"library-civic-memory\">Pell · a civic archive</h2><p>Pell’s later reported research uses maps, newspapers, previous discoveries and property registrations alongside historical and magical writing. His separate piles of material show work in progress, not an independently completed reconstruction of every subject.</p><p>The reported homeowner entry for Magnus supports the library’s civic role while leaving the disputed house’s transfer unresolved. A name in a register does not supply a missing deed, parcel match or chain of ownership.</p>\n<h2 id=\"library-scribing-reference\">A shared spell collection</h2><p>The <a href=\"#trade-scribe\">Scribe rules</a> explain the supplied homebrew process for adding an eligible spell to the community library and a personal book. That work is distinct from producing a consumable scroll under the <a href=\"#trade-craftsman\">Craftsman rules</a>.</p><p>Those rules are a present reference, not a retroactive assertion of every researcher’s rank or a proof that all past visits followed identical procedures. The library’s complete holdings, administration and research chronology remain open.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "library-early-limits",
+      "title": "Research begins with imperfect records",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pristinia settlement map · existing library marker",
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "library-scribonia",
+      "title": "Scribonia · reader, contributor and teacher",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pristinia settlement map · existing library marker",
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "library-applied-work",
+      "title": "Fenwick and Anky · knowledge shared and applied",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pristinia settlement map · existing library marker",
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "library-cultural-use",
+      "title": "Lucido and the life of the archive",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pristinia settlement map · existing library marker",
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "library-civic-memory",
+      "title": "Pell · a civic archive",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pristinia settlement map · existing library marker",
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    },
+    {
+      "id": "library-scribing-reference",
+      "title": "A shared spell collection",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pristinia settlement map · existing library marker",
+          "Fenumion_Housing_and_Scroll_Library_RP_History.md · supplied synthesis; quest evidence and explicit user canon take precedence"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "viotas-monument",
+  "title": "Viota’s Monument",
+  "category": "Places",
+  "type": "Forest ruin · First Passage inscription",
+  "dek": "A flower-covered monument whose child figure and inscription connect forest remembrance with a spring that no longer begins.",
+  "facts": {
+    "Region": "Forest near Larkhollow",
+    "Approach": "Old maintained road",
+    "Read inscription": "Viota of the First Passage",
+    "Unresolved": "Viota’s identity · meaning of the passage"
+  },
+  "body": "<p>An old record brings a company to ruins near <a href=\"#larkhollow\">Larkhollow</a>. Ilyra Bellflower’s letter describes a maintained road and stones that must not be forgotten, while acknowledging that the records do not explain their purpose.</p><h2 id=\"viota-discovery\">9 October · reading a place before explaining it</h2><p>Ryvyt, Fenwick, Saelihn and Trougar find seeds spaced along the approach, plant carvings and a central woman’s monument covered in flowers and small figures. Rotten gathering baskets and a mundane old chest survive nearby. Saelihn suspects a former market; the account does not confirm the site’s original use.</p><p>Fenwick’s True Seeing reveals an invisible marking. When he activates it, a tiny child figure emerges from the monument’s hair and describes the Children of Viota as remembrance rather than descendants. A shadow child watches without attacking. Ryvyt and Fenwick call for restraint; Saelihn lowers Trougar’s weapon and later cleans the site without breaking its vines.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558292156228173896\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558322085309456405\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558323800360353803\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558339421718446137\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558341587682070598\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558342072958713969\" target=\"_blank\" rel=\"noopener\">6</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558342100565893171\" target=\"_blank\" rel=\"noopener\">7</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558344009414615061\" target=\"_blank\" rel=\"noopener\">8</a>.</p><h2 id=\"viota-first-passage\">Ilyra’s translation</h2><p>Fenwick brings a rubbing back for translation. Ilyra reads <em>Viota of the First Passage</em>, then lines describing someone who walked beyond autumn when no new spring answered. The child’s fragmentary words and the inscription suggest a history to investigate; they do not establish that Viota is a goddess, the mother of living descendants or the cause of the forest’s present condition.</p><p>Saelihn asks whether tending the figure could restore spring. Ryvyt proposes bringing a druid. Neither question nor proposal is a completed restoration, and no later visit or cure appears in this supplement.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558342808006566000\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558343101549117443\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558344569974689874\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558346703713861714\" target=\"_blank\" rel=\"noopener\">4</a>.</p>",
+  "tags": [
+    "Viota",
+    "Children of Viota",
+    "First Passage",
+    "Larkhollow",
+    "Remembrance"
+  ],
+  "sources": [
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "relatedRecords": [
+    "larkhollow",
+    "verdelune",
+    "fenwick",
+    "ryvyt",
+    "quest-continuation"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "viota-discovery",
+      "title": "9 October · reading a place before explaining it",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    },
+    {
+      "id": "viota-first-passage",
+      "title": "Ilyra’s translation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ]
+}

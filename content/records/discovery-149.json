@@ -1,0 +1,72 @@
+{
+  "id": "discovery-149",
+  "title": "Gareth, the Foreman",
+  "category": "People",
+  "type": "Foreman and mine contact",
+  "dek": "Reports unsettling sounds near a mine to the arriving company.",
+  "tags": [
+    "Gareth, the Foreman",
+    "npc"
+  ],
+  "facts": {
+    "Role": "Foreman and mine contact",
+    "Island": "Not established",
+    "Census posts": "8",
+    "Recorded span": "2024-06-23 → 2024-08-29",
+    "Prominence": "44/100 · Provisional",
+    "Recorded presence": "7/20",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Reports unsettling sounds near a mine to the arriving company.</p><h2 id=\"discovery-149-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 44/100 · Provisional</strong></p><p>A named worksite authority who reports danger around the mine.</p><ul><li>Consequences: 2/5 · weight 35</li><li>Institutional or witness role: 3/5 · weight 25</li><li>Relationships: 2/5 · weight 20</li><li>Recorded presence: 7/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-149-record\">Archive record</h2><p>The census records 8 posts across 2024-06-23 → 2024-08-29. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1254505539355017278\">Recorded scene · 1254505539355017278</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/740e5f28bbeba5f4341e5ef7d6cdd595cdae8df965c10f4a7b4e46ae939eda2a.png",
+  "imageAlt": "Discord depiction of Gareth, the Foreman",
+  "imageCaption": "Gareth, the Foreman",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-149-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-149-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Foreman and mine contact",
+    "significance": "Reports unsettling sounds near a mine to the arriving company.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

@@ -47,3 +47,15 @@ The music player now serves its original MP3 bytes from the same public GitHub r
 The workflow stages an otherwise identical site with only `assets/music/` omitted, and rejects staging above 1,000,000,000 bytes before upload. Local package count: 489 files / 796,575,832 bytes. All artwork, video, fonts and other resources remain in Pages. This is a delivery change, not a reduction in media quality. Old direct Pages music URLs are no longer part of new packages; the player uses the pinned repository URLs.
 
 Chrome decoded all twenty Fenumion tracks over the new transport and verified play/pause, next/previous, preferences and original library presence (159 tracks). No JavaScript errors. Syntax and whitespace checks passed. Music module6; static package preparation added to Pages workflow.
+
+## Deferred canonical content · 17 October 2026
+
+App238 replaces historical browser patch imports with a generated metadata catalog and hashed subject-body JSON. The full section-search index loads on the first query; personal-note and identity-registry supplements load on those routes. Large relationship maps and personal profiles belong to the individual subject payload. Original media bytes remain unchanged. Before previewing/deploying, run `python3 scripts/build_codex.py`; CI rebuilds automatically. Scope, byte-preservation checks, measurements and limits in `CODEX_READING_AND_CONTENT_UPGRADE.md`.
+
+Final local Fenwick entry comparison: initial scripts/data 2,885,109 → 1,147,624 bytes (approximately 60.2% fewer source bytes), 41 → 10 files, one article body loaded, deferred search unfetched. This does not measure production CDN speed or alter source-media quality.
+
+## Deferred content and visitor audit · 17 October 2026
+
+Canonical content is built by `scripts/build_codex.py` into a catalog, hashed article bodies and deferred section search. A cold visit loads the requested subject. Catalog matches are immediately usable while the search index loads; the interface labels the incomplete search. Full-index completion clears the normalized caches and reruns only the latest query. Errors preserve catalog results; canceled queries stay canceled.
+
+A controlled, cold 390px mobile diagnostic (reduced motion, 150ms latency, 200KiB/s, CPU ×4, cache disabled) compared gzip preview with the live older build: initial script/CSS/article-data encoded bodies were 329,991 versus 804,664 bytes; heading availability 5.78s versus 10.72s in one run each. First result/full-text readiness were 0.17s/5.57s locally versus 0.29s/0.31s in production, which loads its text upfront. Subsequent searches were about 50/36ms. These are diagnostic observations, not repeatable field percentiles or a promised speedup. Host/delivery conditions differ. Media/fonts are outside byte totals. Full methodology and tradeoff table: `SIX_PART_EVIDENCE_AND_READER_PASS.md`.

@@ -1,0 +1,52 @@
+{
+  "id": "kinich-ahau",
+  "title": "Kinich Ahau",
+  "aliases": [
+    "The Kinich Ahau"
+  ],
+  "type": "Named area",
+  "dek": "The area labeled “The Kinich Ahau” in eastern Prima.",
+  "facts": {
+    "Region": "Prima",
+    "Position": "Eastern Prima"
+  },
+  "body": "<p>The <a href=\"#prima-pristinia\">Prima</a> map labels an eastern area as “The Kinich Ahau,” east of <a href=\"#first-forest\">the First Forest</a>.</p><h2 id=\"kinich-map\">The mapped area</h2><p>The label establishes a place on the island. It does not define the area’s exact boundaries or the full relationship between the named land and the Ahau people.</p>",
+  "category": "Places",
+  "tags": [
+    "Prima",
+    "Named area"
+  ],
+  "sources": [
+    "Prima island map · The Kinich Ahau label, east of the First Forest · assets/archive/prima-map.jpg",
+    "Melian’s regional testimony, posted 18 March 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1219331653831495690"
+  ],
+  "image": "assets/archive/prima-map.jpg",
+  "imageAlt": "Map of Prima showing Eovar Harbor, the Thundering Coast, Pristinia, the Gate, the Before, Old Earth Hills, the First Forest, Kinich Ahau, the Rahu, Lost Shacks and the Shard",
+  "imageCaption": "Prima · island map",
+  "mapId": "prima",
+  "mapLinkLabel": "Explore the interactive Prima map",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "kinich-map",
+      "title": "The mapped area",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "map",
+        "label": "Map-backed description",
+        "summary": "The map establishes the named area; Melian’s statement remains testimony and does not define borders.",
+        "scope": "section",
+        "sources": [
+          "Prima island map · The Kinich Ahau label, east of the First Forest · assets/archive/prima-map.jpg",
+          "Melian’s regional testimony, posted 18 March 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1219331653831495690"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "map",
+    "scope": "The map establishes the named area; Melian’s statement remains testimony and does not define borders."
+  }
+}

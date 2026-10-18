@@ -1,0 +1,149 @@
+{
+  "id": "sheeva-dragonsister",
+  "title": "Sheeva Dragonsister",
+  "category": "People",
+  "type": "Zarathian operative, honored lady, and painter",
+  "dek": "A soldierly intelligence operative whose public service, painting, and growing trust in Eugene preserve different parts of her life after war.",
+  "tags": [
+    "Sheeva",
+    "Sheeva Dragosister",
+    "Dragonsisters",
+    "Dragonborn",
+    "Zarathis",
+    "Fein Uaill",
+    "Eugene",
+    "Painting"
+  ],
+  "facts": {
+    "People": "Dragonborn",
+    "Sisters": "Kaiya and Minyah",
+    "Service": "Five-year Zarathian deep-cover operation",
+    "Public accomplishment": "Discovery of captives being fed to dragons",
+    "Recognition": "Lady of the lands · 15 July 2025",
+    "Postwar pursuits": "Painting and relationship with Eugene",
+    "Marriage or betrothal": "Not established",
+    "Region": "Fein Uaill"
+  },
+  "sources": [
+    "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+  ],
+  "body": "<p>Sheeva is one of <a href=\"#dragonsisters\">the Dragonsisters</a>, the three Dragonborn agents whose long infiltration helped <a href=\"#zarathis\">Zarathis</a> understand and defeat the draconic cultists. Captain Zythienne specifically credits her with discovering the feeding of enslaved captives to dragons.</p>\n<h2 id=\"sheeva-service\">A public hero with a history beneath the mask</h2>\n<p>At the July 2025 ceremony Sheeva stands proudly, and later observation identifies her as the sisters’ social leader. Her role in the mission remains broader than one named discovery, but the recovered record does not give her a formal rank over Kaiya and Minyah.</p>\n<p>In the July interaction that leads Eugene toward her, the paired sister is described as soldierly, masked, apparently concealing a battle scar, and letting the others speak. Later dialogue resolves that pairing onto Sheeva. Kaiya is separately described as normally masked, so the mask is not an exclusive means of identifying Sheeva.</p>\n<p>The origin of the scar and her exact experiences undercover remain unrecovered. Her presentation supports a history touched by violence without supplying a diagnosis or an invented account of how she was injured.</p>\n<h2 id=\"sheeva-july\">15 July: Eugene notices the reserve</h2>\n<p><a href=\"#eugene\">Eugene</a> first notices discomfort in the crowd because he recognizes something familiar in it. Later that evening he addresses Sheeva by name, apologizes when an urgent discussion pulls him away, and returns to the leap they had planned together. The record establishes his return to her, without recovering the full details of the leap.</p>\n<h2 id=\"sheeva-august\">19 August: painting and mutual interest</h2>\n<p>At their reunion Eugene asks Lady Sheeva to dance. She says she missed him and responds affectionately. She takes interest in his Shadow Roads research and invites a future walk together. His intellectual life is part of what she wants to know.</p>\n<p>Sheeva has been painting because she has heard it can heal the heart and mind. She shows him a work centered on Eugene, whom she calls the thing occupying her thoughts. The scene joins her own attempt to recover after the war with an emerging relationship; it does not establish that Eugene cured her distress.</p>\n<p>By August her interest is openly reciprocal. She wants to leave with her gallant man, while <a href=\"#kaiya-dragonsister\">Kaiya</a> approves of Eugene’s humility and the dignity with which he treats her sister.</p>\n<h2 id=\"sheeva-december\">5 December: familiarity and trusted company</h2>\n<p>Sheeva and Eugene greet each other warmly after another absence. Before treating the evening as theirs alone, he insists they first pay respects and offer condolences in her home. She calls this honorable; he also declines credit for an idea that was not his own.</p>\n<p>Later distress leads Sheeva to ask for his company rather than being alone. This shows vulnerability and trust alongside the brave, teasing public figure. The biography preserves the emotional significance without making the relationship her entire identity.</p>\n<h2 id=\"sheeva-limits\">The relationship and the open record</h2>\n<p>Repeated reunions, affection, explicit flirtation, the painting, and Kaiya’s approval establish a meaningful mutual attachment. Marriage, engagement, exclusivity, children, formal vows, relocation, or abandonment of either person’s other obligations are not established.</p>\n<p>Her five-year service predates Eugene. Its exact methods, her ancestry, age, scar’s origin, later artistic work, and eventual fate remain open. Sheeva’s history includes intelligence, national recognition, recovery, and affection without allowing one part to replace the others.</p>",
+  "image": "assets/characters/discord/ae480417840e41b12e443a606da2672cf3072560ec1f045adb23b5ac77fab23a.png",
+  "imageAlt": "Discord depiction of Sheeva Dragonsister",
+  "imageCaption": "Sheeva Dragonsister",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "sheeva-service",
+      "title": "A public hero with a history beneath the mask",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "sheeva-july",
+      "title": "15 July: Eugene notices the reserve",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "sheeva-august",
+      "title": "19 August: painting and mutual interest",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "sheeva-december",
+      "title": "5 December: familiarity and trusted company",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "sheeva-limits",
+      "title": "The relationship and the open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Zarathian operative, honored lady, and painter",
+    "significance": "A soldierly intelligence operative whose public service, painting, and growing trust in Eugene preserve different parts of her life after war.",
+    "actions": [
+      {
+        "title": "Zarathis honors the Dragonsisters",
+        "event": "Zarathis honors the Dragonsisters",
+        "date": "15 Jul 2025"
+      },
+      {
+        "title": "The Dragonsisters describe life after the war",
+        "event": "The Dragonsisters describe life after the war",
+        "date": "19 Aug 2025"
+      },
+      {
+        "title": "Sheeva and Eugene renew their trust",
+        "event": "Sheeva and Eugene renew their trust",
+        "date": "5 Dec 2025"
+      }
+    ],
+    "status": "Last dated entry in this selection: 5 Dec 2025. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "dragonsisters",
+        "label": "The Dragonsisters",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "eugene",
+        "label": "Eugene",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "kaiya-dragonsister",
+        "label": "Kaiya Dragonsister",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "hellknight-order",
+  "title": "Hellknight Order of Pristinia",
+  "category": "Factions",
+  "type": "Historical order · disbanded",
+  "dek": "Camilla’s law-and-protection institution, publicly disbanded with its members released in October 2026.",
+  "facts": {
+    "Founder and leader": "Camilla Blackwood",
+    "Known member": "Mei the Courier",
+    "Relation to Blades of Order": "Separate organizations; proposed cooperation",
+    "Status": "Disbanded by public announcement"
+  },
+  "body": "<p>The Hellknights were an institution Camilla created to confront corruption, enforce consequences and protect residents from abuses of power. Their stated purpose does not establish that every action they took was justified.</p><h2 id=\"prima-rp-hellknight-membership\">An Order with duties and members</h2><p>Camilla publicly declares Mei the Courier a Hellknight and discusses cooperation with Fulmin’s separate organization. Her later charter reading proposes wider civic powers, but is not used as proof of current law.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1387083133073227948\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1387100888958763090\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1394064701717086331\" target=\"_blank\" rel=\"noopener\">3</a>.</p><h2 id=\"prima-rp-camilla-end\">October 2026 · the Order ends publicly</h2><p>Camilla announces that the Hellknight Order of Pristinia is disbanded and releases those serving under her. She does not reject its original protective purpose or claim that everything it did was wrong. Instead, she acknowledges having treated every failure in town as hers alone to correct, and rejects the idea that greater severity could let her control it all.</p><p>She publicly ends her devotion to Asmodeus and announces a choice to go to Voraketh. She continues to value law, order and confronting corruption, while saying that structure and authority do not by themselves make something righteous. Her announced destination is not evidence of arrival. She explicitly keeps part of the guidance she received private; that undisclosed encounter is not reconstructed here.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1556445815160049760\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1556445817504669802\" target=\"_blank\" rel=\"noopener\">2</a>.</p><p>Earlier encounters with an active Order remain part of the history. Its dissolution is a later change, not a reason to rewrite those encounters as though the Order never existed. A successor institution is not established by the announcement.</p>",
+  "relatedRecords": [
+    "camilla",
+    "public-square",
+    "pristinia"
+  ],
+  "tags": [
+    "Hellknight Order of Pristinia",
+    "Prima",
+    "RP history"
+  ],
+  "sources": [
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "prima-rp-hellknight-membership",
+      "title": "An Order with duties and members",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-camilla-end",
+      "title": "October 2026 · the Order ends publicly",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    }
+  ]
+}

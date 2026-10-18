@@ -1,0 +1,61 @@
+{
+  "id": "rahu-lands",
+  "title": "Rahu Lands",
+  "aliases": [
+    "Rahu",
+    "The Rahu"
+  ],
+  "type": "Rahu territory",
+  "dek": "The Rahu lands marked in southwestern Prima, with Rahuvia as their capital.",
+  "facts": {
+    "Region": "Prima",
+    "Position": "Southwestern Prima",
+    "Capital": "Rahuvia"
+  },
+  "body": "<p>The <a href=\"#prima-pristinia\">Prima</a> map marks the Rahu lands in the southwest of the island. <a href=\"#rahuvia\">Rahuvia</a> is the Rahu capital; the regional map marker does not establish its precise position within those lands.</p><h2 id=\"rahu-capital-links\">The capital and its connections</h2><p>Rahuvia’s public history follows its sacred precincts, political life, and the negotiations of June 2025. The agreement names <a href=\"#eovar-harbor\">Eovar Harbor</a> as the intermediary for later Pristinian-facing business.</p><p>The capital is a more specific location than the regional label. Read <a href=\"#rahuvia\">Rahuvia’s entry</a> for its recorded history.</p><h2 id=\"rahu-lands-quest-continuation\">October · a request from the Dasa</h2><p>The <a href=\"#dasa-appeal\">appeal of Kimi and Kuri</a> distinguishes the Dasa’s interests from those of Rahu authorities. Their reported mountain route toward Vey and Vaa is approximate and unvisited by the witnesses, so it adds no exact atlas coordinates. Liberation remains a requested undertaking.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558674791043571795\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558678335138037812\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558679853132283965\" target=\"_blank\" rel=\"noopener\">3</a>.</p>",
+  "category": "Places",
+  "tags": [
+    "Prima",
+    "Rahu territory"
+  ],
+  "sources": [
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "image": "assets/archive/prima-map.jpg",
+  "imageAlt": "Map of Prima showing Eovar Harbor, the Thundering Coast, Pristinia, the Gate, the Before, Old Earth Hills, the First Forest, Kinich Ahau, the Rahu, Lost Shacks and the Shard",
+  "imageCaption": "Prima · island map",
+  "mapId": "prima",
+  "mapLinkLabel": "Explore the interactive Prima map",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "rahu-capital-links",
+      "title": "The capital and its connections",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    },
+    {
+      "id": "rahu-lands-quest-continuation",
+      "title": "October · a request from the Dasa",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ]
+}

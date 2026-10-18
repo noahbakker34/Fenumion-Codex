@@ -1,0 +1,145 @@
+{
+  "id": "pappys-hotsprings",
+  "title": "Pappy’s Hotsprings",
+  "category": "Places",
+  "type": "Prima refuge · family place · social sanctuary",
+  "dek": "Created by Pappy and his mother so weary people would have somewhere warm to rest, the Hotsprings turn hospitality and family memory into civic infrastructure.",
+  "tags": [
+    "Pappy’s Hotsprings",
+    "Prima",
+    "Pappy",
+    "Cala’s Brew",
+    "Hospitality",
+    "Recovery"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Founders": "Pappy and his mother",
+    "Purpose": "Rest and recovery in difficult times",
+    "Family tradition": "Cala’s Brew",
+    "Earliest recovered reference": "23 Sep 2024",
+    "Exact location and layout": "Unresolved"
+  },
+  "sources": [
+    "Pappys_Hotsprings_Location_Profile_and_History.md — founding, visitors, planar-water discussion, Cala’s Brew, remembrance, and source ledger",
+    "Complete quest-rp export — 23 Sep and 16 Oct 2024; 13 Oct 2025",
+    "Town chronicler remembrance — Hotsprings as a place of solace"
+  ],
+  "body": "<p>Pappy’s Hotsprings matter without being a capital, fortress, dungeon, or battlefield. Pappy says that he and his mother created the place for moments when people need to relax. That purpose makes the springs an extension of his social role: he meets danger at the Gate, then gives survivors somewhere warm to recover.</p>\n      <div class=\"quote\">Relax in my hotsprings, times like this is why mother and I created the place.<cite>Pappy · 16 October 2024</cite></div>\n      <h2 id=\"hotsprings-family\">A family place before a public landmark</h2>\n      <p>The exact founding date and physical construction remain unknown, but the place belongs to Pappy and his mother before it belongs to later legend. She also planted the crop used for <strong>Cala’s Brew</strong> nearby. Its species and magical qualities are unresolved; its value as family memory is established.</p>\n      <h2 id=\"hotsprings-plane-shift\">23 September 2024 · water carried into a planar debate</h2>\n      <p>Adelia proposes Hotsprings water as a possible material link during discussion of travel between realms. Scribonia explains that ordinary material from a destination is insufficient for precise Plane Shift without the proper enchanted tuning fork. The failed idea establishes that the water can be carried and that the Hotsprings were already a known Prima landmark; it does not make the springs a portal nexus.</p>\n      <h2 id=\"hotsprings-invitations\">October–November 2024 · hospitality becomes public</h2>\n      <p>Pappy directs an exhausted Vaemyr toward the springs and later invites Riven to visit him either at the Gate or there. The location is not treated as a sealed private retreat. It becomes a low-pressure offer of rest without a quest, bargain, or test attached.</p>\n      <h2 id=\"hotsprings-thalen\">13 October 2025 · an answer to isolation</h2>\n      <p>When Thalen is described as someone long alone, Pappy does not demand confession or offer a grand cure. He quietly gives directions: “If you have time, check out the Hotsprings.” Warmth and company become a form of care that leaves the choice to the person receiving it.</p>\n      <h2 id=\"hotsprings-remembrance\">Remembered sanctuary</h2>\n      <p><strong>Ada, Pristinia’s town chronicler,</strong> later remembers travelers finding solace there. A New Year remembrance calls the water “warm as the breath of the world’s deep heart.” These are historical and literary memories rather than technical claims about geology or magic, but they show that a place of rest earned a place beside the world’s better-known marvels.</p>\n      <h2 id=\"hotsprings-timeline\">Location timeline</h2>\n      <ol class=\"timeline\">\n        <li><time>Before Sep 2024</time><p>Pappy and his mother create or develop the Hotsprings as a family place for rest.</p></li>\n        <li><time>23 Sep 2024</time><p>Water from the springs enters a Plane Shift discussion and is correctly rejected as an adequate tuning focus.</p></li>\n        <li><time>16 Oct–17 Nov 2024</time><p>Pappy offers the springs to Vaemyr and Riven, establishing open hospitality.</p></li>\n        <li><time>13 Oct 2025</time><p>Pappy explains Cala’s Brew and quietly directs the isolated Thalen toward the springs.</p></li>\n        <li><time>Later remembrance</time><p>The place becomes part of Prima’s shared memory of welcome and recovery.</p></li>\n      </ol>\n      <h2 id=\"hotsprings-open-record\">Open record</h2>\n      <p>The exact site, size, layout, magical properties, later ownership, complete visitor history, and full identity of Pappy’s mother remain unresolved. The Codex preserves social sanctuary without inventing legal neutrality, divine protection, or portal mechanics.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "hotsprings-family",
+      "title": "A family place before a public landmark",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pappys_Hotsprings_Location_Profile_and_History.md — founding, visitors, planar-water discussion, Cala’s Brew, remembrance, and source ledger",
+          "Complete quest-rp export — 23 Sep and 16 Oct 2024; 13 Oct 2025",
+          "Town chronicler remembrance — Hotsprings as a place of solace"
+        ]
+      }
+    },
+    {
+      "id": "hotsprings-plane-shift",
+      "title": "23 September 2024 · water carried into a planar debate",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pappys_Hotsprings_Location_Profile_and_History.md — founding, visitors, planar-water discussion, Cala’s Brew, remembrance, and source ledger",
+          "Complete quest-rp export — 23 Sep and 16 Oct 2024; 13 Oct 2025",
+          "Town chronicler remembrance — Hotsprings as a place of solace"
+        ]
+      }
+    },
+    {
+      "id": "hotsprings-invitations",
+      "title": "October–November 2024 · hospitality becomes public",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pappys_Hotsprings_Location_Profile_and_History.md — founding, visitors, planar-water discussion, Cala’s Brew, remembrance, and source ledger",
+          "Complete quest-rp export — 23 Sep and 16 Oct 2024; 13 Oct 2025",
+          "Town chronicler remembrance — Hotsprings as a place of solace"
+        ]
+      }
+    },
+    {
+      "id": "hotsprings-thalen",
+      "title": "13 October 2025 · an answer to isolation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pappys_Hotsprings_Location_Profile_and_History.md — founding, visitors, planar-water discussion, Cala’s Brew, remembrance, and source ledger",
+          "Complete quest-rp export — 23 Sep and 16 Oct 2024; 13 Oct 2025",
+          "Town chronicler remembrance — Hotsprings as a place of solace"
+        ]
+      }
+    },
+    {
+      "id": "hotsprings-remembrance",
+      "title": "Remembered sanctuary",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pappys_Hotsprings_Location_Profile_and_History.md — founding, visitors, planar-water discussion, Cala’s Brew, remembrance, and source ledger",
+          "Complete quest-rp export — 23 Sep and 16 Oct 2024; 13 Oct 2025",
+          "Town chronicler remembrance — Hotsprings as a place of solace"
+        ]
+      }
+    },
+    {
+      "id": "hotsprings-timeline",
+      "title": "Location timeline",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pappys_Hotsprings_Location_Profile_and_History.md — founding, visitors, planar-water discussion, Cala’s Brew, remembrance, and source ledger",
+          "Complete quest-rp export — 23 Sep and 16 Oct 2024; 13 Oct 2025",
+          "Town chronicler remembrance — Hotsprings as a place of solace"
+        ]
+      }
+    },
+    {
+      "id": "hotsprings-open-record",
+      "title": "Open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Pappys_Hotsprings_Location_Profile_and_History.md — founding, visitors, planar-water discussion, Cala’s Brew, remembrance, and source ledger",
+          "Complete quest-rp export — 23 Sep and 16 Oct 2024; 13 Oct 2025",
+          "Town chronicler remembrance — Hotsprings as a place of solace"
+        ]
+      }
+    }
+  ]
+}

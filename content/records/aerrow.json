@@ -1,0 +1,77 @@
+{
+  "id": "aerrow",
+  "title": "Aerrow",
+  "category": "People",
+  "type": "Expedition witness",
+  "dek": "A frightened scout whose report presses Babel’s adventurers to return their attention to the island’s people.",
+  "tags": [
+    "Aerrow",
+    "Babel-Ashur",
+    "Skylight Refuge",
+    "Survivors"
+  ],
+  "facts": {
+    "Region": "Unestablished",
+    "Recorded at": "Skylight Refuge",
+    "Account": "Surviving testimony; exact in-world date unresolved"
+  },
+  "sources": [
+    "Babel quest record · refuge warning, June 2026",
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+  ],
+  "body": "<p>Aerrow is present at Skylight Refuge when the adventurers regroup. Worn down and startled by the sounds of enormous beasts, he reports finding slain natives while searching for food. He describes monsters drawing nearer to the caves and fears that the shadow from the tunnels is searching for the refuge.</p><p>His warning helps turn the group’s attention toward making contact with the people of Babel. He later suggests the hunters may be searching for a seed, while acknowledging that this could be his imagination. These are Aerrow’s reports and fears, not proof that he witnessed every enemy movement or knows the hunters’ full plans.</p><h2 id=\"prima-rp-aerrow-range\">Recognizing another warrior</h2><p>Aerrow and Aravil meet while practicing at the range. He calls her an ally and speaks of feeling slow after his arrival; she says she is finally finding her stride. They recognize a shared longing for the front. The exchange records their affinity without making either character’s judgments universal.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365769309917286542\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365769630508908585\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365772052497432709\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365775346749935628\" target=\"_blank\" rel=\"noopener\">4</a>.</p>",
+  "image": "assets/characters/aerrow.webp",
+  "imageAlt": "Aerrow with long pale hair, a dark cloak and a large sword",
+  "imageCaption": "Aerrow",
+  "scenes": [
+    {
+      "title": "Aerrow · Moving portrait",
+      "video": "assets/character-scenes/aerrow.mp4",
+      "poster": "assets/character-scenes/aerrow.jpg",
+      "caption": "Aerrow with pale hair and glowing violet eyes, framed by flames and sparks. Supplied moving portrait."
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "prima-rp-aerrow-range",
+      "title": "Recognizing another warrior",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Babel quest record · refuge warning, June 2026",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Expedition witness",
+    "significance": "A frightened scout whose report presses Babel’s adventurers to return their attention to the island’s people.",
+    "actions": [
+      {
+        "title": "Aravil sets out the Refuge’s survival needs",
+        "event": "Aravil sets out the Refuge’s survival needs",
+        "date": "5 Jan 2026"
+      },
+      {
+        "title": "Wren’s stone form becomes a crisis inside the Refuge",
+        "event": "Wren’s stone form becomes a crisis inside the Refuge",
+        "date": "20–26 Jan 2026"
+      },
+      {
+        "title": "Arjahn and Aerrow debate hiding and holding ground",
+        "event": "Arjahn and Aerrow debate hiding and holding ground",
+        "date": "23 Jul 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: 23 Jul 2026. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "npcs-babel-ashur",
+  "title": "Babel-Ashur · NPCs",
+  "category": "Archive",
+  "type": "Island NPC directory",
+  "dek": "The documented NPC community of Babel-Ashur.",
+  "tags": [
+    "NPCs",
+    "Babel-Ashur"
+  ],
+  "facts": {
+    "Scope": "NPCs"
+  },
+  "sources": [
+    "Existing public NPC dossiers and location histories"
+  ],
+  "body": "",
+  "npcIsland": "babel-ashur",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

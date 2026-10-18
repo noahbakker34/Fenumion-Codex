@@ -1,0 +1,841 @@
+{
+  "id": "elenia",
+  "title": "Elenia",
+  "category": "People",
+  "type": "Cleric; bearer of light",
+  "image": "elenia-portrait.png",
+  "imageLayout": "medallion-hero",
+  "imageAlt": "Elenia, a satyr cleric, gathering golden light in her hands beneath a bright sky",
+  "imageCaption": "Elenia — satyr cleric and bearer of light.",
+  "dek": "Wonder becomes practice, practice becomes responsibility, and responsibility becomes the question of what one person should be allowed to do with divine-scale power.",
+  "tags": [
+    "Elenia",
+    "Cala",
+    "Hope",
+    "Nienna",
+    "Mya",
+    "Gael",
+    "Pristinia",
+    "Power and permission"
+  ],
+  "facts": {
+    "Role": "Cleric and bearer of light",
+    "Public title": "Savior of Pristinia",
+    "Trajectory": "Wonder → practice → responsibility",
+    "Patron": "Cala",
+    "Danger": "Capability becoming authority",
+    "Return": "Gartina’s Reincarnate · 21 Nov 2024 · still a satyr"
+  },
+  "sources": [
+    "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+    "ELENIA_HISTORY.md — consolidated profile and chronology",
+    "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+    "MASTER_TIMELINE.md — dated event spine",
+    "CHARACTER_BIBLE.md — character synthesis",
+    "RELATIONSHIPS.md — changing relationship histories",
+    "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+    "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+    "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+    "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+    "Castle chronicle · selected January 2025 public scenes",
+    "Quest receipt · 2024-07-19 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1263689567345840169",
+    "Quest receipt · 2024-07-19 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1263689746589290526",
+    "Quest receipt · 2024-11-21 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1309045066140094559",
+    "Quest receipt · 2024-11-21 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1309051151316160562",
+    "Quest receipt · 2025-12-06 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1446723411991597106",
+    "Quest receipt · 2025-12-23 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452409809240116",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452805474717837",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453720646553702",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453968429387917",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449208804245524",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449640599457802",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262450457775702097",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262454129700241521",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1262459654999642142"
+  ],
+  "body": "<p>Elenia can move through extraordinary magic with casual delight and still take another person’s spiritual crisis seriously. Her wisdom is not superior intelligence or permanent solemnity. It is a repeated process: wonder leads to curiosity; curiosity becomes experience; experience becomes meaning; and meaning changes what she does the next time somebody is in danger.</p>\n      <div class=\"quote\">Just be the light.<cite>Elenia</cite></div>\n      <div class=\"callout gold\"><p><strong>Core question:</strong> can Elenia become a caretaker without becoming an owner? Her history is not about refusing power. It is about whether growing power continues to preserve other people’s agency.</p></div>\n      <h2 id=\"wonder\">Wonder before certainty · April 2024</h2>\n      <p>Early Elenia barely knows Cala as the “lady of light … or something like that.” She follows a possible divine call through a forest, repeatedly noticing flowers and beauty, and admits that perhaps she was only hopeful. She experiments with the environment instead of waiting passively for revelation, places her hands on the ground, and offers herself as an instrument to carry light into dark places.</p>\n      <div class=\"quote\">I think Cala was calling me … but maybe I was just hopeful.<cite>Elenia</cite></div>\n      <p>When Cala tells her that she hopes Elenia knows how to pray, Elenia does not claim certainty. She accepts that action will reveal what devotion means.</p>\n      <div class=\"quote\">I suppose this is where we find out Lady Cala.<cite>Elenia</cite></div>\n      <p>She says, “I am here, tell me where to go,” then offers to serve as an instrument of light. In another early scene, listening has a physical cost: acid burns her back while others hold attackers away, and she stops long enough to hear Cala.</p>\n      <div class=\"quote\">I am sorry Cala! I will listen now!<cite>Elenia</cite></div>\n      <p>Later Elenia outgrows the idea that faithful service means surrendering judgment. Her authority does not begin with chosen-one certainty; it begins with curiosity, vulnerability, and action taken without pretending she already understands.</p>\n      <h2 id=\"mya-gael\">Mya and the first living Gael · June 2024</h2>\n      <p>Mya tells Elenia to remain a child of wonder and a light where darkness is strongest. Elenia answers by literally casting Light. Their relationship turns Hope into a method: wonder is not proof, but it can create a reason to act carefully and discover what might become true.</p>\n      <p>Elenia and Adelia belong to the communal history of Gael’s first living foothold. They help establish or prove life in a land defeated by Death; Gartina turns toward practical ecological restoration; Nienna, Dale, and others bring labor, defense, resources, and sacrifice. Hope is not the achievement of one chosen hero.</p>\n      <h2 id=\"nienna-return\">15 July 2024 · Raise Dead for Nienna</h2>\n<p>After Saray petitions Nuru’s messenger and obtains a diamond through an altar offering, she brings it to Elenia. Elenia presses it into Nienna’s arm and prays, casting <em>Raise Dead</em>. Nienna wakes in alarm and fires at the wall; Elenia meets her with an embrace and reassures her that Saray brought her home.</p><p>The recovery depends on friends bringing Nienna’s body home, obtaining the material and performing the spell. It gives a concrete earlier example of Elenia’s care before the later Death Ward placed on Quake and before Gartina has to call Elenia herself back.</p>\n<h2 id=\"wrath-year\">Wrath’s year · July–November 2024</h2>\n      <p>When Wrath kills Dale and offers a path through Death on 8 July, Quake refuses and Elenia asks Cala for another way. A diamond makes restoration possible. Ten days later, Elenia casts Death Ward on Quake because the spell previously saved her and Nienna. History becomes a protective practice rather than an emotional callback.</p>\n      <div class=\"quote\">This saved Nienna and I.<cite>Elenia</cite></div>\n      <p>When Wrath appears, she also attacks the useful portal instead of allowing his argument to control the encounter. Elenia can be spiritually open without surrendering practical judgment.</p>\n      <p>On 21 November 2024, Wrath cleaves Elenia during the final assault and Gartina gathers her remains. Gartina then brings her back through Reincarnate in the Sanctum of the Wise. The recovered return belongs to the immediate aftermath of the battle, with the companions accepting that she may look different before they know the outcome.</p>\n      <h2 id=\"miracle\">Gartina’s miracle · 21 November 2024</h2>\n<p>In the Sanctum of the Wise, Gartina lays out Elenia’s cleaved body and prepares rare oils and unguents. She tells the assembled friends that even a successful return may change Elenia’s appearance. Dale and Saray accept that possibility; Gartina later explicitly asks for her return while accepting the changes it may bring.</p><p>The spell record identifies Gartina casting Reincarnate. The gathered companions add their pleas, and the narrator describes an egglike shell forming and breaking. Elenia returns still a satyr; Gartina is stunned to see her alive and apparently as she was. This is the return remembered as the Miracle of Fenumion.</p><p>The outcome is extraordinary because the company had accepted change before it knew the result. Nothing in the recovered scene establishes that a higher power chose the rolls. Earlier accounts describe one-in-250 odds; the visible rolls and narrated outcome survive, while the full expanded table behind that probability is not supplied here.</p>\n<h2 id=\"nienna-aria\">Nienna, Aria, and what loss teaches</h2>\n      <p>Nienna’s death does not convince Elenia that attachment is foolish. Nienna remains sister, memory, and causal presence. In a private encounter Elenia asks Aria about siblings and describes Nienna as her own sister in feeling. She uses the loss to understand Pride’s fear without accepting Aria’s conclusion that dependence should be escaped through domination.</p>\n      <p>Love can create vulnerability without becoming a mistake. Understanding why Aria is afraid does not require agreement, obedience, or forgiveness.</p>\n      <h2 id=\"rahu-siege\">Savior of Pristinia · 2025</h2>\n      <p>During the Rahu siege, Elenia destroys the siege towers and is publicly remembered as the Savior of Pristinia. The title records reputation, not solitary authorship of the settlement’s survival. It marks a decisive increase in scale: the uncertain forest pilgrim has become a figure whose intervention can alter a siege and whose name can become civic memory.</p>\n      <h2 id=\"faith\">Faith with conditions</h2>\n      <p>Elenia’s earliest offer is almost complete surrender: let me serve, let me be your instrument. Her mature faith is more demanding. She can trust Mya, question Talan, judge Nuru and Aionia independently, and ask the gods to demonstrate that they remain worth following.</p>\n      <p>Her purpose in Fein Uaill is described as less about rekindling her own faith than kindling any faith among the Zarathians. She can believe in light without requiring the divine order to be morally flawless.</p>\n      <div class=\"quote\">Less to rekindle my faith, more to kindle any faith in the Zarathians.<cite>Elenia</cite></div>\n      <h2 id=\"magnus\">Magnus and the limit of restraint · December 2025</h2>\n      <p>After a divine battle in which Elenia says she restored roughly one hundred people, Magnus challenges her or tries to turn others against her in a fight-to-the-death context—a duel over who was right. Elenia wins but does not kill him. Instead, she uses divine magic to remove or erase his face.</p>\n      <div class=\"quote\">It was a duel to see who was right, but I didn’t want to kill him.<cite>Elenia</cite></div>\n      <p>The choice is restraint without innocence. Refusing to kill does not make the alternative gentle, and preserving a life does not automatically grant permission to transform a body. The scene exposes the question at the center of later Elenia: when she can do almost anything, who decides what she should do?</p>\n      <p>The primary transcript now resolves the older exile discrepancy. On 22 December, Bowene asks directly who supports banishment. Magnus and Adelia do; Olokun and Aravil stand with Elenia. Bowene chooses exile rather than permanent banishment, gives Elenia a sending stone, and sends the departing party toward Babel-Ashur while leaving open the possibility that Zarathian law may change.</p>\n      <h2 id=\"elenia-exile\">22 December 2025 · exile without a closed door</h2>\n      <p>Elenia accepts responsibility for using Hope’s power to alter Magnus’s face and says she will follow the judgment as best she can. She asks that Zarathis return its attention to mortal flourishing—towers, statues, gardens, and people—rather than continue losing lives in war against the gods. The argument does not win immediate permission to stay, but it changes the terms of departure.</p>\n      <p>Bowene distinguishes exile from banishment. Elenia, Olokun, and Aravil are escorted through the Shining Shores, with other companions allowed to join. The sending stone and promise of continued work preserve relationship across punishment: she leaves her people without being declared permanently outside them.</p>\n      <h2 id=\"ordinary-care\">Ink, Brianna, and healing forward · 2026</h2>\n      <p>On 15 January, Elenia obtains ink for Eugene’s spellbook. She materially invests in the learning of someone who often doubts his own worth. The archive places this errand beside resurrection, bodily alteration, and exile because cosmic authority does not remove her from the small needs of another person. The measure of great power is partly whether ordinary people remain visible from that height.</p>\n      <p>After Magnus forces Delerium into Brianna, Elenia calls Mya. Hope sanctifies or cleanses the crystal rather than pretending the violation never occurred. This is healing through history: transform what remains without erasing what happened.</p>\n      <h2 id=\"mountain\">Biblical destruction · August 2026</h2>\n      <p>Elenia joins Scribonia, Eugene, Arjahn, and others in unmaking a mountain through catastrophic weather and Earthquake: fissures, avalanche, floodwater, lava, boulders, and a vast column of steam and smoke. Before acting, she prays that any unknown people in the storm’s path be sheltered or removed. During the retreat she looks for anyone else trying to escape and accepts environmental limits rather than demanding that her power override them.</p>\n      <div class=\"quote\">As the storm rages on, the mountain claws at its own face … Nothing is visible except for biblical destruction.<cite>The mountain expedition</cite></div>\n      <p>She asks where the boundary is, accepts “no,” and uses Gate to send Nymera home. The scene does not absolve the participants because their objective is justified. It asks whether mortals were ever meant to hold this degree of power and whether there can be a return after using it. Elenia’s attention still returns to individual people—she continues looking sideways even while acting at enormous scale—but the radius of what she can destroy has become enormous.</p>\n      <h2 id=\"luminar-spires-elenia\">Luminar Spires · curiosity inside chaos</h2>\n      <p>At the Luminar Spires, Elenia reacts to unstable magic differently from Scribonia. She casts Daylight on a formation, accidentally produces reversed gravity, enjoys floating, and quickly wonders whether the transformed magic could be used against the western mist. The record preserves delight, curiosity, and immediate practical speculation without automatically labeling them recklessness.</p>\n      <p>Elenia also reports that the mist came through a rift, distinguishes it from the Pale Man’s Haze, and identifies Abyss as the first foreigner brought through a gate. These statements make her an important source for the crisis without resolving the relationship among Abyss, the rift, and the mist.</p>\n      <h2 id=\"relationships\">Relationships that carry the history</h2>\n      <ul>\n        <li><strong>Cala:</strong> early patron and call toward light; later faith no longer suspends Elenia’s judgment.</li>\n        <li><strong>Mya:</strong> wonder becomes enacted Hope, costly restoration, and healing through prior harm.</li>\n        <li><strong>Nienna:</strong> sisterhood and sacrifice remain active in Elenia’s later protection and philosophy of attachment.</li>\n        <li><strong>Adelia:</strong> shared Gael restoration followed by incompletely documented diverging paths.</li>\n        <li><strong>Quake:</strong> earlier aid returns as Death Ward; care becomes causal continuity.</li>\n        <li><strong>Aria:</strong> understanding fear without accepting Pride’s ownership logic.</li>\n        <li><strong>Magnus:</strong> the boundary between mercy, overwhelming force, and bodily domination.</li>\n        <li><strong>Eugene:</strong> divine-scale power placed beside the material support of another person’s learning.</li>\n        <li><strong>Gartina:</strong> miraculous possibility and the practical labor that makes survival durable.</li>\n        <li><strong>Nymera:</strong> shared faith does not become a claim on another devotee’s continued participation.</li>\n      </ul>\n      <h2 id=\"danger\">The danger inside her virtue</h2>\n      <p>Elenia’s strength is not refusing power. She uses it quickly and aggressively when she thinks action is required. Her danger is the inference that competence can become permission: <em>I understand the threat; I can bear the cost; therefore I should decide.</em></p>\n      <p>Elenia is compelling because she remains attentive while becoming mighty—not because might makes her automatically right. She does not need to become cruel for care to become dangerous; certainty would be enough. Her strongest future evidence will be failures and corrections: moments when help becomes authority, when someone refuses her intervention, or when listening costs more than action.</p>\n      <h2 id=\"interpretive-boundary\">Interpretive boundary</h2>\n      <p>The supplied “favorite character” essay identifies the stewardship problem with unusual clarity, but it is an analyst’s interpretation rather than objective canon. The record does not declare Elenia destined for greatness, excuse the violence done to Magnus because she spared his life, or pre-answer whether she will become a caretaker without becoming an owner. That test remains live.</p>\n      <h2 id=\"unresolved-elenia\">Unresolved record</h2>\n      <ul>\n        <li>Her history before Cala’s possible call in April 2024.</li>\n        <li>The precise division of labor in Gael’s first living foothold and the destination of Adelia’s departing group.</li>\n        <li>The full expanded probability table behind the reported one-in-250 outcome; the post-Wrath return, caster and source date are now recovered.</li>\n        <li>The full Rahu siege, the precise hundred-person restoration sequence, and the complete mechanics of the Magnus duel.</li>\n        <li>The exact chronology of Brianna’s sanctification and the mountain expedition.</li>\n        <li>How her Gate ability relates—or does not relate—to the ancient divine Gate.</li>\n      </ul><h2 id=\"ada-reputation-elenia\">Contemporary reputation · 14 June 2025</h2><p>In the Rahu War’s aftermath, Ada calls Elenia the Savior of Pristinia. The title is a civic reputation rather than proof that every poetic description is mechanically literal; it establishes the scale of the place Elenia occupied in the town’s memory. <a href=\"#ada-town-chronicler\">Read the chronicler’s evidence boundary.</a></p><h2 id=\"elenia-babel-seed\">A rescue and an entrusted seed</h2><p>During the Babel cavern rescue, Elenia calls for aid as an executioner releases gas among the captives. Mya’s light frees them and guards against the gas and contamination. After the confrontation a nomad places a golden seed in Elenia’s care; she promises to protect it. Later she offers the survivors a place elsewhere if they wish to leave, while Kvethe insists she herself will remain to defend Babel.</p><p>Elenia later proposes collapsing and flooding the hostile stronghold so the land can heal. She redirects water and calls an earthquake, then escapes the ensuing flood. Her hoped-for clean slate remains a goal, not proof that the attack restored the island or eliminated the Knight.</p><h2 id=\"elenia-castle-light\">The castle courtyard and absent friends</h2><p>At <a href=\"#caislean-na-bron\">Caisleán na Brón</a>, Elenia tends flowers around a courtyard stone and calls it her altar to the light. She watches over Olokun during his astral projection and welcomes him back. Her own appeals for Eugene’s return bring no witnessed result in these early scenes. She remains uneasy with the hosts’ view of the gods, but urges the company to learn before making enemies. The hospitality becomes a place for care and argument as well as shelter.</p>\n<h2 id=\"elenia-scene-sequence\">Scenes in sequence</h2>\n<p>These selected scenes preserve what was knowable when people acted. Dates below identify source postings in UTC; they do not supply an in-world calendar. A later appearance does not settle present status.</p><ol class=\"scene-sequence\"><li><p class=\"scene-date\">2024-07-15 · compatible RP</p><h3>Restoring Nienna</h3><p>Elenia casts Raise Dead with the diamond Saray obtains, then embraces and reassures Nienna when she wakes in alarm.</p><dl><div><dt>Known at this stage</dt><dd>Saray has obtained the needed diamond through an offering at Nuru’s altar.</dd></div><div><dt>Consequence</dt><dd>Elenia’s casting restores Nienna before the later Hallowing sacrifice.</dd></div><div><dt>Still unresolved</dt><dd>The spell record follows the awakening in posting order but documents the same return. This does not describe the separate September sacrifice.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262449208804245524\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262449640599457802\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262450457775702097\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262452409809240116\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262452805474717837\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262453720646553702\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262453968429387917\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 7</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262454129700241521\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 8</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1262459654999642142\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 9</a></p></li><li><p class=\"scene-date\">2024-07-19 · quest</p><h3>Memory becomes protection</h3><p>Elenia places Death Ward on Quake and explains that it saved her and Nienna. Quake thanks her.</p><dl><div><dt>Known at this stage</dt><dd>She knows a protection that helped before; she cannot know the coming battle’s result.</dd></div><div><dt>Consequence</dt><dd>An earlier rescue becomes a deliberate act for another person.</dd></div><div><dt>Still unresolved</dt><dd>Her explanation is testimony about the earlier rescue, distinct from the visible casting.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1263689567345840169\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1263689746589290526\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li><li><p class=\"scene-date\">2024-11-21 · quest</p><h3>Catastrophic harm and recovery work</h3><p>Wrath cleaves Elenia in two; Gartina rushes to recover her remains.</p><dl><div><dt>Known at this stage</dt><dd>The companions face a body and immediate loss.</dd></div><div><dt>Consequence</dt><dd>Gartina’s recovery action keeps care visible beside Saray’s victory.</dd></div><div><dt>Still unresolved</dt><dd>The battle receipts alone do not establish a return; the subsequent Sanctum scene now supplies Gartina’s Reincarnate and its outcome.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1309045066140094559\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1309051151316160562\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li><li><p class=\"scene-date\">2024-11-21 · checked scenes</p><h3>Gartina calls her back</h3><p>Gartina casts Reincarnate in the Sanctum; the narrator records Elenia returning still a satyr.</p><dl><div><dt>Known at this stage</dt><dd>Her friends have accepted possible bodily change before they know the result.</dd></div><div><dt>Consequence</dt><dd>This is the post-Wrath miracle on 21 November 2024, rather than a separate later 2026 return.</dd></div><div><dt>Still unresolved</dt><dd>No higher-power cause is established; the full table behind the reported odds is not reproduced.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a></p></li><li><p class=\"scene-date\">2025-12-06 → 2025-12-23 · quest</p><h3>Judgment and exile are separate events</h3><p>Bowene proposes a Crucible duel between Elenia and Magnus. In the later exile scene he names Elenia, Aravil and Olokun.</p><dl><div><dt>Known at this stage</dt><dd>A proposed adjudication and a later named departure belong to different stages.</dd></div><div><dt>Consequence</dt><dd>The explicit exile list corrects derivative summaries that name Magnus as the exile.</dd></div><div><dt>Still unresolved</dt><dd>These two receipts alone do not explain every cause of the later judgment.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1446723411991597106\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li></ol>\n\n",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "wonder",
+      "title": "Wonder before certainty · April 2024",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "mya-gael",
+      "title": "Mya and the first living Gael · June 2024",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "nienna-return",
+      "chapter": "History & consequences",
+      "title": "15 July 2024 · Raise Dead for Nienna",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Raise Dead · casting and awakening checked",
+        "summary": "The spell record follows the awakening in posting order but documents the same return. This does not describe the separate September sacrifice. Source dates are UTC postings.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449208804245524",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449640599457802",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262450457775702097",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452409809240116",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452805474717837",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453720646553702",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453968429387917",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262454129700241521",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262459654999642142"
+        ]
+      }
+    },
+    {
+      "id": "wrath-year",
+      "title": "Wrath’s year · July–November 2024",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "miracle",
+      "title": "Gartina’s miracle · 21 November 2024",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Return and date recovered · Sanctum scene",
+        "summary": "The Reincarnate spell embed, preparation, accepted uncertainty and narrated satyr outcome establish the 21 November 2024 return. The earlier separate 2026 placement was a chronology error. The expanded probability table is not independently recovered.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704"
+        ]
+      }
+    },
+    {
+      "id": "nienna-aria",
+      "title": "Nienna, Aria, and what loss teaches",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "rahu-siege",
+      "title": "Savior of Pristinia · 2025",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "faith",
+      "title": "Faith with conditions",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "magnus",
+      "title": "Magnus and the limit of restraint · December 2025",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "elenia-exile",
+      "title": "22 December 2025 · exile without a closed door",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "ordinary-care",
+      "title": "Ink, Brianna, and healing forward · 2026",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "mountain",
+      "title": "Biblical destruction · August 2026",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "luminar-spires-elenia",
+      "title": "Luminar Spires · curiosity inside chaos",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "relationships",
+      "title": "Relationships that carry the history",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "danger",
+      "title": "The danger inside her virtue",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "interpretive-boundary",
+      "title": "Interpretive boundary",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "unresolved-elenia",
+      "title": "Unresolved record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "ada-reputation-elenia",
+      "title": "Contemporary reputation · 14 June 2025",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "elenia-babel-seed",
+      "title": "A rescue and an entrusted seed",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "elenia-castle-light",
+      "title": "The castle courtyard and absent friends",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate sessions 232, 254, and 256 — Ciaránach pilgrimage, Magnus confrontation aftermath, and 22 Dec 2025 exile verdict",
+          "ELENIA_HISTORY.md — consolidated profile and chronology",
+          "Elenia_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — changing relationship histories",
+          "Fenumion_Conversation_Catalogue.md — Elenia / Cultivation source map",
+          "Magnus_Niriin_Character_Profile_and_History.md — duel and exile record",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — Spires experiment and western-mist intelligence",
+          "Contemporary Chronicle — Ada, Town Chronicler · 14 June 2025",
+          "Castle chronicle · selected January 2025 public scenes"
+        ]
+      }
+    },
+    {
+      "id": "elenia-scene-sequence",
+      "title": "Scenes in sequence",
+      "chapter": "Scenes and consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Checked scenes · bounded conclusions",
+        "summary": "Selected original scenes checked. The July spell record identifies Raise Dead; character claims, later returns and other casting outcomes retain their own evidence.",
+        "scope": "section",
+        "sources": [
+          "Quest receipt · 2024-07-19 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1263689567345840169",
+          "Quest receipt · 2024-07-19 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1263689746589290526",
+          "Quest receipt · 2024-11-21 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1309045066140094559",
+          "Quest receipt · 2024-11-21 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1309051151316160562",
+          "Quest receipt · 2025-12-06 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1446723411991597106",
+          "Quest receipt · 2025-12-23 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452409809240116",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452805474717837",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453720646553702",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453968429387917",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449208804245524",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449640599457802",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262450457775702097",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262454129700241521",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1262459654999642142"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Cleric; bearer of light",
+    "significance": "Wonder becomes practice, practice becomes responsibility, and responsibility becomes the question of what one person should be allowed to do with divine-scale power.",
+    "actions": [
+      {
+        "section": "elenia-scene-sequence",
+        "title": "Follow the checked scenes",
+        "date": "Choices, knowledge and consequences"
+      },
+      {
+        "section": "rahu-siege",
+        "title": "Savior of Pristinia · 2025"
+      },
+      {
+        "section": "magnus",
+        "title": "Magnus and the limit of restraint · December 2025"
+      },
+      {
+        "section": "miracle",
+        "title": "Gartina’s miracle · 21 November 2024"
+      }
+    ],
+    "status": "Last dated entry in this selection: 26 Sep 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [
+      {
+        "id": "nienna",
+        "label": "Nienna",
+        "relation": "Loss transformed into protective practice"
+      },
+      {
+        "id": "adelia-hope",
+        "label": "Adelia & Hope",
+        "relation": "Miraculous care made communal"
+      },
+      {
+        "id": "quake",
+        "label": "Quake",
+        "relation": "An old rescue becomes future care"
+      },
+      {
+        "id": "magnus",
+        "label": "Magnus Niriin",
+        "relation": "Refusal to kill becomes bodily domination"
+      },
+      {
+        "id": "aria-pride",
+        "label": "Aria / Pride",
+        "relation": "Attachment as the disputed premise"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance.",
+    "curatedActions": true
+  },
+  "relationshipMap": {
+    "title": "Elenia’s relationship web",
+    "intro": "Elenia’s relationships turn wonder into practice and practice into responsibility. Select a tie to see when care preserves another person’s agency—and when immense power begins to decide for them.",
+    "center": {
+      "title": "Elenia",
+      "subtitle": "Caretaking at divine scale"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "Care & continuity"
+      },
+      {
+        "id": "power",
+        "label": "Faith & power"
+      },
+      {
+        "id": "conflict",
+        "label": "Moral conflict"
+      },
+      {
+        "id": "politics",
+        "label": "People & consequence"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "cala",
+        "title": "Cala",
+        "subtitle": "First call toward light",
+        "category": "power",
+        "strength": 3,
+        "x": 50,
+        "y": 8,
+        "direction": "toward",
+        "relation": "Faith that matures beyond obedience",
+        "history": "Elenia follows what may be Cala’s call while admitting uncertainty and offers herself as an instrument of light. Early devotion begins in wonder rather than chosen-one certainty.",
+        "consequence": "Experience makes her faith conditional and morally active. She can continue serving light while judging divine failure instead of surrendering responsibility to it.",
+        "evidence": "The call and prayers are established; divine intention is not always independently verifiable.",
+        "article": "cala"
+      },
+      {
+        "id": "mya",
+        "title": "Mya",
+        "subtitle": "Hope as enacted possibility",
+        "category": "power",
+        "strength": 3,
+        "x": 76,
+        "y": 17,
+        "direction": "mutual",
+        "relation": "Wonder becomes a method",
+        "history": "Mya asks Elenia to remain a child of wonder and a light where darkness is strongest. Their later history includes Gael’s renewal and Brianna’s sanctification through harm that cannot simply be erased.",
+        "consequence": "Hope becomes action without becoming certainty. Elenia trusts Mya while refusing to treat trust in one god as proof that divine power is morally flawless.",
+        "evidence": "Their encounters and invocations are established; exact divisions of divine and mortal action remain incomplete.",
+        "article": "mya"
+      },
+      {
+        "id": "nienna",
+        "title": "Nienna",
+        "subtitle": "Sisterhood carried beyond death",
+        "category": "bond",
+        "strength": 3,
+        "x": 84,
+        "y": 42,
+        "direction": "mutual",
+        "relation": "Loss transformed into protective practice",
+        "history": "Nienna is sister in feeling, survivor of shame, and the person whose final self-chosen sacrifice refuses the idea that retreat made her a coward.",
+        "consequence": "Elenia carries Nienna into later decisions: Death Ward, her response to Aria’s fear of attachment, and her insistence that love can create vulnerability without becoming a mistake.",
+        "evidence": "The sisterhood and sacrifice are established; parts of their earliest shared history remain missing.",
+        "article": "nienna"
+      },
+      {
+        "id": "adelia",
+        "title": "Adelia & Hope",
+        "subtitle": "Shared restoration, diverging paths",
+        "category": "bond",
+        "strength": 3,
+        "x": 80,
+        "y": 73,
+        "direction": "mutual",
+        "relation": "Miraculous care made communal",
+        "history": "Elenia and Adelia help establish or prove an early living foothold in Gael, then leave together before their later paths diverge. Both become examples of extraordinary power tied to caretaking.",
+        "consequence": "Adelia’s later transformation expands restoration rather than replacing the earlier communal labor. Their complete divergence after Gael remains an open history.",
+        "evidence": "Shared Gael work and departure are established; the later relationship is incomplete.",
+        "article": "adelia-hope"
+      },
+      {
+        "id": "quake",
+        "title": "Quake",
+        "subtitle": "Protection returned through time",
+        "category": "bond",
+        "strength": 2,
+        "x": 58,
+        "y": 90,
+        "direction": "mutual",
+        "relation": "An old rescue becomes future care",
+        "history": "Quake earlier saves Elenia and Nienna. On 18 July 2024, Elenia answers that remembered aid by placing Death Ward on Quake.",
+        "consequence": "The relationship is one of the Codex’s cleanest causal chains: care remains available because somebody remembered receiving it.",
+        "evidence": "The returned protection is established; the exact earlier rescue remains incompletely recovered.",
+        "article": "quake"
+      },
+      {
+        "id": "magnus",
+        "title": "Magnus Niriin",
+        "subtitle": "Mercy without innocence",
+        "category": "conflict",
+        "strength": 3,
+        "x": 31,
+        "y": 87,
+        "direction": "mutual",
+        "relation": "Refusal to kill becomes bodily domination",
+        "history": "Elenia wins a duel framed around who was right and refuses to kill Magnus. She instead uses overwhelming divine magic to remove or erase his face.",
+        "consequence": "Her restraint does not make the act gentle. The confrontation leads to exile and exposes the central danger in her care: capability becoming permission to choose another person’s salvation or punishment.",
+        "evidence": "The duel, alteration, and exile verdict are established; some precise mechanics remain unresolved.",
+        "article": "magnus"
+      },
+      {
+        "id": "aria",
+        "title": "Aria / Pride",
+        "subtitle": "Fear understood, ownership refused",
+        "category": "conflict",
+        "strength": 2,
+        "x": 16,
+        "y": 68,
+        "direction": "mutual",
+        "relation": "Attachment as the disputed premise",
+        "history": "Elenia uses her love for Nienna to understand Aria’s fear that attachment creates vulnerability. She refuses the conclusion that safety requires domination or escape from dependence.",
+        "consequence": "The relationship proves that understanding an enemy’s wound need not become obedience, agreement, or absolution.",
+        "evidence": "The philosophical encounter is established; a full personal chronology is not.",
+        "article": "aria-pride"
+      },
+      {
+        "id": "eugene",
+        "title": "Eugene",
+        "subtitle": "Ordinary investment beside miracles",
+        "category": "bond",
+        "strength": 1,
+        "x": 16,
+        "y": 39,
+        "direction": "toward",
+        "relation": "Great power notices a small need",
+        "history": "Elenia obtains ink for Eugene’s spellbook while carrying far larger divine and political burdens. She materially supports the learning of someone who often doubts his own worth.",
+        "consequence": "The errand keeps her history grounded. The measure of divine-scale power includes whether an individual’s ordinary need remains visible from that height.",
+        "evidence": "The ink errand is established; the broader friendship is only partly recovered.",
+        "article": "eugene"
+      },
+      {
+        "id": "gartina",
+        "title": "Gartina",
+        "subtitle": "Possibility made durable",
+        "category": "bond",
+        "strength": 2,
+        "x": 22,
+        "y": 15,
+        "direction": "mutual",
+        "relation": "Miracle followed by maintenance",
+        "history": "Their histories meet in Gael’s first restoration, the assault on Wrath, and the remembered effort to call Elenia back after catastrophic injury.",
+        "consequence": "Elenia creates openings at miraculous scale; Gartina stays to make survival ecological, practical, and durable. Neither form of care replaces the other.",
+        "evidence": "Shared events are established; exact divisions of labor remain incomplete.",
+        "article": "gartina"
+      },
+      {
+        "id": "zarathis",
+        "title": "Zarathis",
+        "subtitle": "People, law, exile, open door",
+        "category": "politics",
+        "strength": 3,
+        "x": 34,
+        "y": 31,
+        "direction": "mutual",
+        "relation": "Accountability without permanent exclusion",
+        "history": "Elenia seeks to kindle faith among Zarathians, intervenes at extraordinary scale, and accepts responsibility after altering Magnus. Bowene orders exile rather than permanent banishment.",
+        "consequence": "A sending stone and promise of continued work preserve political relationship across punishment. Her departure changes the region without declaring either side finished with the other.",
+        "evidence": "The 22 December verdict is established; the long-term legal and cultural consequences remain open.",
+        "article": "zarathis"
+      }
+    ],
+    "insights": [
+      {
+        "label": "Foundational bond",
+        "value": "Nienna",
+        "note": "Sisterhood and loss remain active in Elenia’s later choices."
+      },
+      {
+        "label": "Divine method",
+        "value": "Mya’s Hope",
+        "note": "Wonder becomes action without pretending uncertainty has vanished."
+      },
+      {
+        "label": "Greatest failure",
+        "value": "Magnus",
+        "note": "Refusing death did not make imposed bodily transformation morally innocent."
+      },
+      {
+        "label": "Living question",
+        "value": "Caretaker or owner?",
+        "note": "Increasing ability keeps testing whether help preserves choice."
+      }
+    ]
+  },
+  "profile": {
+    "personality": "Elenia is driven by wonder, faith, and the fear that her faith may be only hope speaking back to her. She can be gentle, apologetic, and fiercely protective, but her divine power also makes her capable of terrifying force when conviction hardens into judgment.",
+    "achievements": "She helps train Pristinia’s militia, answers Eovar’s warning, protects Quake with Death Ward, restores a diminished Moirah, defeats Magnus, and continues searching for people even while a mountain destroys itself around her. Her public history moves from uncertain calling to a power great enough to reshape political relationships.",
+    "relationships": "Cala is the divine relationship Elenia most openly questions and longs to repair. Nienna and Gartina ground her among mortals; Quake’s earlier rescue earns later protection; Magnus becomes the opponent she defeats but does not wish to kill; and Bowene’s exile preserves both consequence and the possibility of return."
+  },
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Selected Nienna first-death, diamond-offering and Raise Dead evidence checked against the supplied original scenes and compatible intervening quest testimony. Other history retains its own evidence."
+  }
+}

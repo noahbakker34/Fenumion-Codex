@@ -1,0 +1,179 @@
+{
+  "id": "the-void",
+  "title": "The Void",
+  "category": "Places",
+  "type": "Interregional and cosmological location",
+  "image": "assets/archive/world-map.jpeg",
+  "imageAlt": "World map of Fenumion showing separated lands around the Void",
+  "imageCaption": "The Void separates Fenumion’s surviving lands and makes the world’s shattered geography materially consequential.",
+  "mapId": "world",
+  "mapLinkLabel": "Explore the interactive Fenumion world map",
+  "dek": "The dangerous medium between Fenumion’s shattered lands: barrier, predator-space, knowledge boundary, moral problem, and changing measure of inter-island connection.",
+  "tags": [
+    "The Void",
+    "Travel",
+    "Death’s dragons",
+    "Interregional history",
+    "Whose sacrifice?"
+  ],
+  "facts": {
+    "Type": "Interregional / cosmological location",
+    "Status": "Active and incompletely understood",
+    "Early danger": "Death-associated dragons and other monstrosities",
+    "Known passage": "Ships, specialized creatures, magic, and limited transport networks"
+  },
+  "sources": [
+    "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+    "Gael expedition and Nienna testimony — June 2024",
+    "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+  ],
+  "body": "<p>The Void is not empty distance. It is the dangerous interregional medium that separates Fenumion’s shattered lands, makes travel consequential, and contains or attracts beings capable of preying on those who cross it. Its history is measured not only by what inhabits it, but by how people learn to cross, communicate across, exploit, and sometimes bypass it.</p>\n      <div class=\"callout gold\"><p><strong>The archival boundary:</strong> Death is strongly associated with early Void danger, but the surviving evidence does not establish that Death created, owns, or governs the Void—or that every creature within it serves him.</p></div>\n      <h2 id=\"void-expedition\">By 12 June 2024 · the route to Gael</h2>\n      <p>Nienna’s expedition reached Gael through a causal chain rather than an abstract transition: she acquired a ship and freed or gathered a crew; the travelers encountered an island-scale moving turtle; they discovered a seed of the Great Tree; they learned that dragons associated with Death haunted the Void; and only then did they reach Gael and Titan’s Watch.</p>\n      <p>Nienna believed that attempting the voyage alone would have ended with her death. The crossing therefore made shattered geography lived experience: exploration succeeded because people accepted danger together.</p>\n      <div class=\"quote\">I would have come alone you know. And I would have met my end. Alone, in the void, cold and alone.<cite>Nienna</cite></div>\n      <h2 id=\"void-dragons\">Death’s dragons</h2>\n      <p>Gartina remembers extraordinarily powerful dragons of Death haunting the Void and suspects stronger examples may exist. Their presence is established; their origin, ecology, hierarchy, distribution, and relationship to other Void predators are not. The record also does not establish that every Void monstrosity is one of these dragons.</p>\n      <h2 id=\"void-soul-passage\">13 June 2024 · the soul-fed passage</h2>\n      <p>Pressed about previous travel, Nienna disclosed one safer method: dangerous inhabitants or minions were fed unwilling souls while travelers passed. She said dozens might be consumed and regarded the practice as horrific.</p>\n      <div class=\"quote\">Yes and... unwilling souls. It was... awful.<cite>Nienna</cite></div>\n      <p>This is evidence of a historical practice known to Nienna—not a natural law. The archive does not know who institutionalized it, which beings consumed the souls, whether they were the same dragons, or how widely the method was used. It cannot be generalized into a claim that all Void travel demands sacrifice.</p>\n      <h2 id=\"void-knowledge\">A boundary between kinds of knowledge</h2>\n      <p>Regional isolation distributes knowledge unevenly. Ephraith could speak of the arcane and knowledge of the Void while dismissing Death as a fairy tale. In October 2025, Míriel of the Emerald Veil said her people had developed their shores without ever traveling the Void. Political, magical, or cultural sophistication on one island does not guarantee interregional experience.</p>\n      <h2 id=\"void-exploration\">2025 · from barrier to exploration space</h2>\n      <p>Lady Aria later said her group had deliberately explored the Void and failed to find what they sought. The disputed target appears connected to an artifact and ancient temporal laws, but the record does not establish that Aria recovered it. Her testimony still marks a historical shift: the Void had become a place people investigated, not merely survived while crossing.</p>\n      <p>Aria also claimed that Void monstrosities are known to feed on power. That statement remains character testimony, but it creates a consequential possibility: the strongest travelers may also be the most noticeable.</p>\n      <h2 id=\"void-ships\">Ships, beasts, and uneven traditions</h2>\n      <p>On 26 October 2025, Magnus asked whether a Void beast would still be necessary if ships capable of sailing the Void could be built. The question confirms active engineering and transport concerns without resolving what a Void beast is, how one is used, or which cultures possess reliable routes.</p>\n      <h2 id=\"void-connection\">Communication and safer passage</h2>\n      <p>By February 2025, Scribonia could communicate with Gartina across the Void even while physical passage remained dangerous. By September 2026, Thorn described a friend able to transport known people safely to Gael from any island. The mechanism remains unknown, and access appears relational rather than universal.</p>\n      <p>The historical progression is therefore <strong>dangerous expeditionary crossing → specialized, magical, or social routes → limited bypass of historic travel danger</strong>. The Void has not been solved. Its isolating force has become less absolute for some people.</p>\n      <h2 id=\"void-functions\">What the Void does to history</h2>\n      <ol>\n        <li><strong>Barrier:</strong> it makes the separated islands materially consequential.</li>\n        <li><strong>Predator-space:</strong> travelers encounter dragons and other power-feeding monstrosities.</li>\n        <li><strong>Moral test:</strong> safer travel may transfer danger onto unwilling people.</li>\n        <li><strong>Knowledge boundary:</strong> regions develop different evidence and travel traditions.</li>\n        <li><strong>Measure of connectivity:</strong> new communication and transport reveal how relationships can alter geography without erasing it.</li>\n      </ol>\n      <h2 id=\"void-open-record\">The open record</h2>\n      <p>The Void’s relationship to the original Shattering, Death, Void beasts, the Shadow Roads, island boundaries, and power-feeding predation remains unresolved. The archive also lacks the complete route of Nienna’s expedition, the builders of soul-fed passage, and a full account of what changed between 2024 travel and safer 2026 transport.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "void-expedition",
+      "title": "By 12 June 2024 · the route to Gael",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+          "Gael expedition and Nienna testimony — June 2024",
+          "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+        ]
+      }
+    },
+    {
+      "id": "void-dragons",
+      "title": "Death’s dragons",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+          "Gael expedition and Nienna testimony — June 2024",
+          "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+        ]
+      }
+    },
+    {
+      "id": "void-soul-passage",
+      "title": "13 June 2024 · the soul-fed passage",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+          "Gael expedition and Nienna testimony — June 2024",
+          "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+        ]
+      }
+    },
+    {
+      "id": "void-knowledge",
+      "title": "A boundary between kinds of knowledge",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+          "Gael expedition and Nienna testimony — June 2024",
+          "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+        ]
+      }
+    },
+    {
+      "id": "void-exploration",
+      "title": "2025 · from barrier to exploration space",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+          "Gael expedition and Nienna testimony — June 2024",
+          "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+        ]
+      }
+    },
+    {
+      "id": "void-ships",
+      "title": "Ships, beasts, and uneven traditions",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+          "Gael expedition and Nienna testimony — June 2024",
+          "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+        ]
+      }
+    },
+    {
+      "id": "void-connection",
+      "title": "Communication and safer passage",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+          "Gael expedition and Nienna testimony — June 2024",
+          "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+        ]
+      }
+    },
+    {
+      "id": "void-functions",
+      "title": "What the Void does to history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+          "Gael expedition and Nienna testimony — June 2024",
+          "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+        ]
+      }
+    },
+    {
+      "id": "void-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "The_Void_Location_Profile_and_History.md — consolidated location history, chronology, testimony, and evidence limits",
+          "Gael expedition and Nienna testimony — June 2024",
+          "Aria, Magnus, Míriel, Scribonia, and Thorn travel records"
+        ]
+      }
+    }
+  ]
+}

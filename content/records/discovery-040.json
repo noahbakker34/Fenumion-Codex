@@ -1,0 +1,72 @@
+{
+  "id": "discovery-040",
+  "title": "Esther",
+  "category": "People",
+  "type": "Civilian caregiver",
+  "dek": "Stops Pepito from bothering visitors and later reports that parents have kept children safe at home.",
+  "tags": [
+    "Esther",
+    "npc"
+  ],
+  "facts": {
+    "Role": "Civilian caregiver",
+    "Island": "Not established",
+    "Census posts": "22",
+    "Recorded span": "2025-04-26 → 2026-04-22",
+    "Prominence": "51/100 · Provisional",
+    "Recorded presence": "15/20",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Stops Pepito from bothering visitors and later reports that parents have kept children safe at home.</p><h2 id=\"discovery-040-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 51/100 · Provisional</strong></p><p>Care for children and communication with visitors preserve civilian continuity.</p><ul><li>Consequences: 2/5 · weight 35</li><li>Institutional or witness role: 2/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 15/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-040-record\">Archive record</h2><p>The census records 22 posts across 2025-04-26 → 2026-04-22. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1365841559605743666\">Recorded scene · 1365841559605743666</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1496665110293381302\">Recorded scene · 1496665110293381302</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/c9c91513da7d274044fc3cf390535b01652ba3695cce49d9220a11a2630434f4.png",
+  "imageAlt": "Discord depiction of Esther",
+  "imageCaption": "Esther",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-040-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-040-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Civilian caregiver",
+    "significance": "Stops Pepito from bothering visitors and later reports that parents have kept children safe at home.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

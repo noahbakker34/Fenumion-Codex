@@ -1,0 +1,87 @@
+{
+  "id": "vysaeth",
+  "title": "Vysaeth",
+  "category": "People",
+  "type": "King; lich; witness",
+  "dek": "Endora’s brother sacrificed his humanity to preserve a kingdom’s legacy—and became the first major source about Roderick.",
+  "tags": [
+    "Lich",
+    "Endora",
+    "Roderick",
+    "Provenance"
+  ],
+  "facts": {
+    "Relation": "Endora’s brother",
+    "Choice": "Lichdom",
+    "Purpose": "Preservation of his people’s legacy · his journal account",
+    "Reliability": "Important, interested witness",
+    "Region": "Unestablished",
+    "Recorded site": "Vysaeth’s tomb · Gael"
+  },
+  "body": "<p>In the journal recovered from his tomb, Vysaeth describes becoming a lich to protect his realm’s treasures, knowledge and legacy. He presents the transformation as a sacrifice made under threat. That is his account of his purpose, not an independent verdict that every action served only preservation.</p>\n      <h2 id=\"source\">The source-provenance problem</h2>\n      <p>His journal calls Roderick ambitious, greedy, insidious, and destructive. Some or all of that may be true, but the Codex preserves the speaker: this is Endora’s brother describing the man who tried to reclaim her and threatened his realm.</p>\n      <h2 id=\"parallel\">Two answers to loss</h2>\n      <p>Vysaeth and Roderick both violate nature after losing Endora. Vysaeth tries to preserve a people and their history; Roderick tries to restore a person. Both refuse disappearance. Both pay horrifying prices.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "source",
+      "title": "The source-provenance problem",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Vysaeth’s final journal entry, presented by the quest narrator on 7 July 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1259704019522424855",
+          "Vysaeth’s first journal entry and account of his sister/Roderick · https://discord.com/channels/1177270231513694249/1199083630354501673/1259706432023040030",
+          "Quake places the king’s skeletal remains in lava · https://discord.com/channels/1177270231513694249/1199083630354501673/1259718370631352333"
+        ]
+      }
+    },
+    {
+      "id": "parallel",
+      "title": "Two answers to loss",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Vysaeth’s final journal entry, presented by the quest narrator on 7 July 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1259704019522424855",
+          "Vysaeth’s first journal entry and account of his sister/Roderick · https://discord.com/channels/1177270231513694249/1199083630354501673/1259706432023040030",
+          "Quake places the king’s skeletal remains in lava · https://discord.com/channels/1177270231513694249/1199083630354501673/1259718370631352333"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "King; lich; witness",
+    "significance": "Endora’s brother sacrificed his humanity to preserve a kingdom’s legacy—and became the first major source about Roderick.",
+    "actions": [
+      {
+        "title": "Vysaeth becomes a lich",
+        "event": "Vysaeth becomes a lich",
+        "date": "Before Jul 2024 · exact date unresolved"
+      },
+      {
+        "title": "Vysaeth’s account of Roderick is found",
+        "event": "Vysaeth’s account of Roderick is found",
+        "date": "7 Jul 2024"
+      }
+    ],
+    "status": "Last dated entry in this selection: 7 Jul 2024. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "sources": [
+    "Vysaeth’s final journal entry, presented by the quest narrator on 7 July 2024 · https://discord.com/channels/1177270231513694249/1199083630354501673/1259704019522424855",
+    "Vysaeth’s first journal entry and account of his sister/Roderick · https://discord.com/channels/1177270231513694249/1199083630354501673/1259706432023040030",
+    "Quake places the king’s skeletal remains in lava · https://discord.com/channels/1177270231513694249/1199083630354501673/1259718370631352333"
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "testimony",
+    "scope": "Journal content is Vysaeth’s testimony even though the narrator supplies it. Lichdom/legacy motives and judgments retain attribution; ultimate state not inferred from disposal of remains."
+  }
+}

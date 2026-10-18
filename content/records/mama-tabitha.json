@@ -1,0 +1,66 @@
+{
+  "id": "mama-tabitha",
+  "title": "Mama Tabitha",
+  "category": "People",
+  "type": "Gnomish herbalist · Bogdan’s wife",
+  "dek": "A forest herbalist who calls for help gathering rare ingredients when ordinary remedies fail her husband.",
+  "facts": {
+    "Also called": "Old Tabitha",
+    "Home": "Forest dwelling near Pristinia",
+    "Husband": "Bogdan",
+    "Needed materials": "Five herbs and plant products",
+    "Region": "Prima"
+  },
+  "body": "<p>Tabitha lives with her husband Bogdan in a foliage-covered forest home reached by a supplied map. Though called Old Tabitha, she appears young and says she is seventy-four. Her home contains a bed for Bogdan and a station for preparing remedies.</p><h2 id=\"tabitha-remedy\">28 September · asking for help</h2><p>Bogdan is feverish, weak and unable to move normally. Tabitha describes his condition as a worse variant of Black Bile Fever. Pell examines him and recognizes serious symptoms; the scene does not establish the cause of other illnesses in Prima.</p><p>Tabitha requests three Crimson Nightshade flowers, a vial of Stonemourn sap, five Sunblood shavings, four Ashroot crops and a mound of Thistlebrush. She provides containers and directs the adventurers to an old graveyard roughly an hour west of her home. She warns them about Kazhinju and asks that they spare her if a fight occurs.</p><p>Lucien, Pell, Vylaris, Jangir and Clive recover the ingredients with Kazhinju’s eventual help. Tabitha welcomes those who return with payment and a meal. She also treats Pell after his accidental exposure to an anaesthetic in her home. The scene closes without independently showing Bogdan’s recovery.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554169029252620406\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554174005915947042\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554174859981099141\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554176014329053317\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554178021253058560\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554215636278845540\" target=\"_blank\" rel=\"noopener\">6</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554216597730889790\" target=\"_blank\" rel=\"noopener\">7</a>.</p>",
+  "tags": [
+    "Tabitha",
+    "Old Tabitha",
+    "Bogdan",
+    "Black Bile Fever",
+    "Herbalist"
+  ],
+  "sources": [
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "relatedRecords": [
+    "kazhinju",
+    "quest-continuation",
+    "pristinia"
+  ],
+  "image": "assets/characters/mama-tabitha.jpg",
+  "imageAlt": "Mama Tabitha pouring liquid into a bottle with a small companion beside her",
+  "imageCaption": "Mama Tabitha",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "tabitha-remedy",
+      "title": "28 September · asking for help",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Gnomish herbalist · Bogdan’s wife",
+    "significance": "A forest herbalist who calls for help gathering rare ingredients when ordinary remedies fail her husband.",
+    "actions": [
+      {
+        "title": "Kazhinju allows the ingredients for Bogdan’s remedy",
+        "event": "Kazhinju allows the ingredients for Bogdan’s remedy",
+        "date": "28 Sep 2026 · Discord posting date (America/New_York)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 28 Sep 2026 · Discord posting date (America/New_York). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

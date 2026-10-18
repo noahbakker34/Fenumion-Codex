@@ -1,0 +1,119 @@
+{
+  "id": "minyah-dragonsister",
+  "title": "Minyah Dragonsister",
+  "category": "People",
+  "type": "Zarathian operative and thinking warrior",
+  "dek": "Public honor changes Minyah’s status, but she still calls herself a lowly spy and looks toward the next mission.",
+  "tags": [
+    "Minyah",
+    "Dragonsisters",
+    "Dragonborn",
+    "Zarathis",
+    "Fein Uaill",
+    "Fieldcraft",
+    "Scribonia"
+  ],
+  "facts": {
+    "People": "Dragonborn",
+    "Sisters": "Sheeva and Kaiya",
+    "Recognition": "Lady of the lands · July 2025",
+    "Self-description": "“Simply lowly spies”",
+    "Postwar plan": "Preparing for another mission",
+    "Next mission and later fate": "Unresolved",
+    "Region": "Fein Uaill"
+  },
+  "sources": [
+    "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+  ],
+  "body": "<p>Minyah is one of <a href=\"#dragonsisters\">the Dragonsisters</a>, whose long-term intelligence service helped <a href=\"#zarathis\">Zarathis</a> win its war. She waves during the public introduction and shares the elevation to lady of the lands with <a href=\"#sheeva-dragonsister\">Sheeva</a> and <a href=\"#kaiya-dragonsister\">Kaiya</a>.</p>\n<h2 id=\"minyah-honor\">Honor has not changed her self-description</h2>\n<p>At the later August gathering, Minyah tells <a href=\"#scribonia\">Scribonia</a> that the sisters are unused to such invitations. Their wartime work earned them recognition, but she still describes them as simply lowly spies.</p>\n<p>This is her self-perception, not proof that the state never elevated them. The difference preserves the experience of an operative whose work mattered long before the public knew her name.</p>\n<h2 id=\"minyah-mission\">A warrior with a mind</h2>\n<p>While Kaiya turns toward scholarship and Sheeva takes a reprieve, Minyah prepares to go back out. She joins martial identity to the work of thinking:</p>\n<div class=\"quote\">I am a warrior with a mind. I must use it.<cite>Minyah Dragonsister</cite></div>\n<p>The war’s end does not end her sense of usefulness. The next mission’s destination, objectives, and outcome are not supplied by this record.</p>\n<h2 id=\"minyah-relationships\">Service and the sisters</h2>\n<p>Her conversation while dancing with Scribonia is evidence of modesty, unfamiliarity with high society, and continued commitment to work. It does not establish a romantic arc comparable to Sheeva’s relationship with Eugene.</p>\n<p>The sisters remain close while choosing different postwar lives. Minyah’s views on Eugene, her deeper relationship with Eldin, age, ancestry, full wartime experience, and later fate remain unknown.</p>",
+  "image": "assets/characters/minyah-dragonsister.jpg",
+  "imageAlt": "Minyah with long pale hair, horn-like adornments and dark armor, carrying a sword",
+  "imageCaption": "Minyah Dragonsister",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "minyah-honor",
+      "title": "Honor has not changed her self-description",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "minyah-mission",
+      "title": "A warrior with a mind",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "minyah-relationships",
+      "title": "Service and the sisters",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Zarathian operative and thinking warrior",
+    "significance": "Public honor changes Minyah’s status, but she still calls herself a lowly spy and looks toward the next mission.",
+    "actions": [
+      {
+        "title": "Zarathis honors the Dragonsisters",
+        "event": "Zarathis honors the Dragonsisters",
+        "date": "15 Jul 2025"
+      },
+      {
+        "title": "The Dragonsisters describe life after the war",
+        "event": "The Dragonsisters describe life after the war",
+        "date": "19 Aug 2025"
+      }
+    ],
+    "status": "Last dated entry in this selection: 19 Aug 2025. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "dragonsisters",
+        "label": "The Dragonsisters",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "sheeva-dragonsister",
+        "label": "Sheeva Dragonsister",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "kaiya-dragonsister",
+        "label": "Kaiya Dragonsister",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "scribonia",
+        "label": "Scribonia",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

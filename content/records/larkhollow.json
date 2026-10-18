@@ -1,0 +1,104 @@
+{
+  "id": "larkhollow",
+  "title": "Larkhollow",
+  "category": "Places",
+  "type": "Remote settlement · persistent RP location",
+  "dek": "A remote settlement with a Petal Market, a dangerous tower and forest roads whose changing routes draw adventurers back with new questions.",
+  "tags": [
+    "Larkhollow",
+    "Verdelune",
+    "Ruined tower",
+    "Settlement",
+    "Quest archive"
+  ],
+  "facts": {
+    "First recovered arrival": "29 Jun 2026",
+    "Landmark": "Ruined tower",
+    "Route": "Gael coast → Verdelune → Larkhollow",
+    "Persistent access": "Opened for continued roleplay"
+  },
+  "sources": [
+    "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "body": "<p>Larkhollow is much newer to the recorded adventuring history than Pristinia, Gael, or The Before. That distinction matters: the archive can still separate what existed before contact from what adventurers have actually learned. The settlement lies far enough from established centers that reaching it requires meaningful travel, and a ruined tower already gives the place a visible history older than the visiting parties.</p>\n      <h2 id=\"larkhollow-first-contact\">29 June 2026 · first recovered arrival</h2>\n      <p>Travelers reach Larkhollow and find lodging with a view toward the ruined tower. At the expedition’s end, the location opens for continued roleplay, turning a destination on one journey into a place characters can revisit and inhabit socially. This is the beginning of Larkhollow’s player-facing history, not the beginning of the settlement itself.</p>\n      <h2 id=\"larkhollow-tower\">The ruined tower</h2>\n      <p>By 28 July, characters refer to relics associated with the old tower. The record confirms that the ruin has material remains and local significance without yet establishing who built it, why it fell, or what the settlement’s people believe happened there.</p>\n      <h2 id=\"larkhollow-route\">A destination on the wider travel network</h2>\n      <p>By 7 September, another company prepares to travel from the coast of Gael through Verdelune toward Larkhollow, a journey described as taking many hours. The settlement is no longer merely the endpoint of one quest. It is a recognized destination with a repeatable route.</p>\n      <h2 id=\"larkhollow-current-state\">Current state and open record</h2>\n      <p>Larkhollow is reachable, inhabitable, and only lightly explored. The tower’s builders and destruction, the settlement’s economy and political relationships, the dangers along its routes, and the effect of regular adventurer traffic remain open. Its history should be allowed to accumulate rather than being completed in advance.</p><h2 id=\"larkhollow-quest-continuation\">September–October · a market and an unsettled forest</h2><p>The continuation gives Larkhollow a center of ordinary trade: the Petal Market, with herbalist Sylvi Fernstep, Ilyra Bellflower, trinket collector Orin Mossbell and carpet vendor Talla Briarwing. These are witnessed local roles; their authority and complete histories are not established.</p><p>The route through <a href=\"#verdelune\">Verdelune</a> becomes less predictable. Hana’s tower turns a September visit into a retreat, and Ilyra’s later letter directs an expedition to <a href=\"#viotas-monument\">Viota’s monument</a>. Larkhollow is now a place to question residents and return to with new evidence. The tower’s purpose, the forest’s changing time and the first passage remain open.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554697758726692915\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554703056481026058\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554715803717476394\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558312953290432534\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558315162799308810\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558292156228173896\" target=\"_blank\" rel=\"noopener\">6</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "larkhollow-first-contact",
+      "title": "29 June 2026 · first recovered arrival",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    },
+    {
+      "id": "larkhollow-tower",
+      "title": "The ruined tower",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    },
+    {
+      "id": "larkhollow-route",
+      "title": "A destination on the wider travel network",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    },
+    {
+      "id": "larkhollow-current-state",
+      "title": "Current state and open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    },
+    {
+      "id": "larkhollow-quest-continuation",
+      "title": "September–October · a market and an unsettled forest",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ]
+}

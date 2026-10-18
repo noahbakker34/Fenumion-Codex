@@ -1,0 +1,108 @@
+{
+  "id": "hawthorne",
+  "title": "Hawthorne",
+  "category": "People",
+  "type": "Scribe · civic administrator",
+  "dek": "The scribe who turns Pristinia’s arguments into counted votes, recorded decisions and an institutional memory.",
+  "tags": [
+    "Hawthorne",
+    "NPCs",
+    "Prima"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Scribe · civic administrator",
+    "Record": "Public scenes; later status not established",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Main quest-RP archive · message anchors below",
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+  ],
+  "body": "<h2 id=\"hawthorne-1\">Counting and recording</h2><p>At the early <a href=\"#public-square\">public assembly</a>, Hawthorne counts votes and writes the results on fresh parchment. His work makes a distinction between what someone proposes and what the settlement adopts. Later assemblies show him counting again when a result needs checking; the record depends on repeated, practical work.</p><h2 id=\"hawthorne-2\">Election and ownership</h2><p>During the later election gathering, he explains eligibility and asks for evidence of property transfers. Pappy’s claimed ownership cannot simply substitute for paperwork Hawthorne has not received. Collective holdings create a difficulty the existing rules do not clearly answer. Hawthorne brings that question to a show of hands rather than treating his own uncertainty as a final legal ruling. The gathering records candidates and ballot questions, not a complete election result.</p><h2 id=\"hawthorne-3\">A scholar’s unfinished work</h2><p>Hawthorne describes himself as a nonmagical scribe who came from <a href=\"#eovar-harbor\">Eovar</a> and now helps Melian and the Elders. His late mentor Fernir’s work on dwarven settlement matters to him personally. He asks adventurers to return to the <a href=\"#old-earth-hills\">Old Earth Hills</a>; his interpretations of recovered evidence remain attributed scholarship, not a complete account of the island’s hidden past.</p><h2 id=\"hawthorne-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239628695489216543\">Recording the assembly’s vote</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1293735525932466176\">A scribe from Eovar assisting Pristinia</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1293740554697572436\">Fernir and the unfinished inquiry</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420456337510502411\">Candidates and residency questions</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420461053753561138\">Collective ownership and a ballot question</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1494820297830825994\">Counting again</a></li></ul>",
+  "image": "assets/characters/discord/8a9d5acaf10cfb942df65c1cd03f206c9a5f4b8d88ab7eb0df0f0b1f86f0668f.png",
+  "imageAlt": "Discord depiction of Hawthorne",
+  "imageCaption": "Hawthorne",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "hawthorne-1",
+      "title": "Counting and recording",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "hawthorne-2",
+      "title": "Election and ownership",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "hawthorne-3",
+      "title": "A scholar’s unfinished work",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "hawthorne-sources",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Scribe · civic administrator",
+    "significance": "The scribe who turns Pristinia’s arguments into counted votes, recorded decisions and an institutional memory.",
+    "actions": [
+      {
+        "title": "Pristinia adopts merchant penalties by two votes",
+        "event": "Pristinia adopts merchant penalties by two votes",
+        "date": "13 May 2024 · quest-RP"
+      }
+    ],
+    "status": "Last dated entry in this selection: 13 May 2024 · quest-RP. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "The scribe who turns Pristinia’s arguments into counted votes, recorded decisions and an institutional memory."
+  }
+}

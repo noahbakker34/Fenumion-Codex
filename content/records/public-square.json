@@ -1,0 +1,103 @@
+{
+  "id": "public-square",
+  "title": "Public Square",
+  "category": "Places",
+  "type": "Pristinia civic gathering place",
+  "dek": "War deliberation, ballots, public promises and institutional change bring Pristinia together in the square.",
+  "facts": {
+    "Parent": "Pristinia",
+    "Routine decisions": "Normally made by Elders",
+    "Civic uses": "Assemblies · ballots · announcements",
+    "Latest major change": "Hellknight dissolution announcement"
+  },
+  "body": "<p>Pristinia’s Public Square is a meeting place used when the town needs to gather. Elders normally make most decisions; war is the opening account’s explicit exception. Public speeches, ballots and notices make it a place where leadership must explain itself to the people affected by it.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1370049593215025294\" target=\"_blank\" rel=\"noopener\">1</a>.</p><h2 id=\"prima-rp-square-war\">May 2025 · the town considers war</h2><p>Melian walks onto the stage before a frightened, clamoring crowd because she considers it her duty. The deliberation eventually reaches a united war posture, and she asks Aravil to lead trackers out to scout. The gathering shows mobilization proceeding through public discussion and assigned work. It does not establish that every resident agrees with every later decision.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1370051787234738218\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1370085725453680650\" target=\"_blank\" rel=\"noopener\">2</a>.</p><h2 id=\"prima-rp-square-vote\">September 2025 · ballots and legitimacy</h2><p>Severina attends to the arrangement of voting tables. Aerrow publicly casts a ballot naming Kaja, Melian and Katherine. A ballot records a voter’s choices, not an election result. Kasiri later identifies Melian as a recently elected Elder, providing later testimony about the outcome without supplying vote totals or proving the status of every other candidate.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420399158778663022\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420982158649987113\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1444877953191116984\" target=\"_blank\" rel=\"noopener\">3</a>.</p><h2 id=\"prima-rp-square-wealth\">What adventurer wealth owes the town</h2><p>Katherine points out that five or ten thousand gold is beyond ordinary villagers’ means while adventurers spend it quickly. Farkur responds by describing the Ale-Chemy Knights’ plans to rebuild, improve trade and defense, and give back to the community that welcomed them. His earlier notice offers a temporary waiver of the building fee and discounted materials, with the town’s land fee still due. These are public offers and commitments; the speech alone does not prove all promised work was completed.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420616006988206162\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420618184502804590\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420620903141871677\" target=\"_blank\" rel=\"noopener\">3</a>.</p><h2 id=\"prima-rp-square-memory\">Kasiri tells a newcomer about the siege</h2><p>Kasiri points to patchwork repairs while telling DogToy about flaming stones, displaced households sheltering with neighbors and Melian’s capture. She recalls a peace that spared both Pristinia and the Rahu from destruction. She also refuses to treat every individual Rahu as responsible for their leadership’s actions. The memories and that judgment retain Kasiri’s voice; they are not an omniscient account of every casualty or motive.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1444875643719258223\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1444876092942061710\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1444879081140392050\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1444880475691946208\" target=\"_blank\" rel=\"noopener\">4</a>.</p><h2 id=\"prima-rp-camilla-end\">October 2026 · the Order ends publicly</h2><p>Camilla announces that the Hellknight Order of Pristinia is disbanded and releases those serving under her. She does not reject its original protective purpose or claim that everything it did was wrong. Instead, she acknowledges having treated every failure in town as hers alone to correct, and rejects the idea that greater severity could let her control it all.</p><p>She publicly ends her devotion to Asmodeus and announces a choice to go to Voraketh. She continues to value law, order and confronting corruption, while saying that structure and authority do not by themselves make something righteous. Her announced destination is not evidence of arrival. She explicitly keeps part of the guidance she received private; that undisclosed encounter is not reconstructed here.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1556445815160049760\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1556445817504669802\" target=\"_blank\" rel=\"noopener\">2</a>.</p>",
+  "relatedRecords": [
+    "pristinia",
+    "camilla",
+    "hellknight-order",
+    "ale-chemy-knights",
+    "pristinia-walls"
+  ],
+  "tags": [
+    "Public Square",
+    "Prima",
+    "RP history"
+  ],
+  "sources": [
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "prima-rp-square-war",
+      "title": "May 2025 · the town considers war",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-square-vote",
+      "title": "September 2025 · ballots and legitimacy",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-square-wealth",
+      "title": "What adventurer wealth owes the town",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-square-memory",
+      "title": "Kasiri tells a newcomer about the siege",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-camilla-end",
+      "title": "October 2026 · the Order ends publicly",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    }
+  ]
+}

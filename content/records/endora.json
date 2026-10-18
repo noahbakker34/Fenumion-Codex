@@ -1,0 +1,72 @@
+{
+  "id": "endora",
+  "title": "Endora",
+  "category": "People",
+  "type": "Roderick’s beloved",
+  "dek": "A woman whose choices are repeatedly filtered through the people who tried to keep or preserve her.",
+  "tags": [
+    "NPCs",
+    "Endora"
+  ],
+  "facts": {
+    "Role": "Roderick’s beloved",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Roderick / Wrath · existing public history"
+  ],
+  "body": "<p>A woman whose choices are repeatedly filtered through the people who tried to keep or preserve her.</p><h2 id=\"endora-history\">The surviving history</h2><p>Read <a href=\"#roderick-wrath\">Roderick / Wrath</a> for the recorded scenes and their context.</p>",
+  "relatedRecords": [
+    "roderick-wrath"
+  ],
+  "image": "assets/characters/endora.png",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "endora-history",
+      "title": "The surviving history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Roderick / Wrath · existing public history"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Roderick’s beloved",
+    "significance": "A woman whose choices are repeatedly filtered through the people who tried to keep or preserve her.",
+    "actions": [
+      {
+        "title": "Endora dies and Roderick refuses the loss",
+        "event": "Endora dies and Roderick refuses the loss",
+        "date": "Before Jul 2024 · exact date unresolved"
+      },
+      {
+        "title": "Vysaeth’s account of Roderick is found",
+        "event": "Vysaeth’s account of Roderick is found",
+        "date": "7 Jul 2024"
+      },
+      {
+        "title": "Legend Lore reframes Endora’s return",
+        "event": "Legend Lore reframes Endora’s return",
+        "date": "12 Nov 2024"
+      }
+    ],
+    "status": "Last dated entry in this selection: 12 Nov 2024. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "roderick-wrath",
+        "label": "Roderick / Wrath",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

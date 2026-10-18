@@ -1,0 +1,59 @@
+{
+  "id": "player-perspectives",
+  "title": "Player Perspectives",
+  "category": "Archive",
+  "type": "Story Notes reference",
+  "dek": "Journals, recollections, research and public arguments: what people recorded, believed and remembered about Fenumion.",
+  "tags": [
+    "Player perspectives",
+    "Story Notes",
+    "Journals",
+    "Testimony",
+    "Fenumion"
+  ],
+  "facts": {},
+  "sources": [
+    "Story Notes primary export · 261 messages, each original post linked by the index · channel 1201218376849162250",
+    "fenumion-story-notes-player-perspective-codex.md · supplied index of 261 dated entries; 19 external/incomplete pointers remain unresolved"
+  ],
+  "body": "<p>These notes preserve how Fenumion looked to the people writing about it. Witnesses, journal writers and later commentators can disagree, misunderstand an event or revise their views. Their accounts belong alongside the wider history without becoming an omniscient version of it.</p>\n<div class=\"perspective-intro\"><strong>261 indexed posts</strong><span>28 January 2024 – 5 October 2026 · Discord #story-notes</span></div>\n<div class=\"perspective-reading-key\"><p><strong>Posted is not happened.</strong> Dates below identify when a note was posted, not necessarily when its events occurred.</p><p><strong>An excerpt is not the whole note.</strong> These are the supplied index’s short locators. Open the Discord message for its full context; some linked or attached material is not included.</p><p><strong>Keep the writer’s perspective.</strong> Author names are preserved as supplied display names, not independently confirmed character identities. Source forms and topic labels are retrieval aids, not canon classifications.</p></div>\n<h2 id=\"browse-player-perspectives\">Browse the notes</h2>\n<div class=\"perspective-browser\" data-player-perspectives=\"\">\n<div class=\"perspective-filters\"><label class=\"perspective-search\">Search notes<input type=\"search\" data-notes-query=\"\" placeholder=\"Author, topic or words in an excerpt…\"></label><label>Posting year<select data-notes-year=\"\"><option value=\"\">All years</option></select></label><label>Region label<select data-notes-region=\"\"><option value=\"\">All regions</option></select></label><label>Source form<select data-notes-form=\"\"><option value=\"\">All forms</option></select></label><label>Order<select data-notes-sort=\"\"><option value=\"newest\">Newest posted first</option><option value=\"oldest\">Oldest posted first</option></select></label><button type=\"button\" data-notes-clear=\"\">Clear filters</button></div>\n<p class=\"perspective-count\" data-notes-count=\"\" role=\"status\" aria-live=\"polite\"></p>\n<div class=\"perspective-results\" data-notes-results=\"\" tabindex=\"-1\" aria-label=\"Matching Story Notes entries\"></div>\n<nav class=\"perspective-pagination\" aria-label=\"Story Notes result pages\"><button type=\"button\" data-notes-previous=\"\">← Previous</button><span data-notes-page=\"\"></span><button type=\"button\" data-notes-next=\"\">Next →</button></nav>\n<noscript>This reference needs JavaScript to browse the supplied index.</noscript></div>\n<h2 id=\"perspectives-and-history\">Read alongside the history</h2><p>Compare a writer’s account with the <a href=\"#living-timeline\">timeline</a>, <a href=\"#people-directory\">character histories</a> and <a href=\"#factions\">faction records</a>. A contemporary impression and a later recollection can both matter without saying the same thing. Early references to “the Vanguard of Prima Isle” are preserved as the writers’ wording; the index does not establish their relationship to later formations called vanguards.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "browse-player-perspectives",
+      "title": "Browse the notes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Story Notes primary export · 261 messages, each original post linked by the index · channel 1201218376849162250",
+          "fenumion-story-notes-player-perspective-codex.md · supplied index of 261 dated entries; 19 external/incomplete pointers remain unresolved"
+        ]
+      }
+    },
+    {
+      "id": "perspectives-and-history",
+      "title": "Read alongside the history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Story Notes primary export · 261 messages, each original post linked by the index · channel 1201218376849162250",
+          "fenumion-story-notes-player-perspective-codex.md · supplied index of 261 dated entries; 19 external/incomplete pointers remain unresolved"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "testimony",
+    "scope": "The local full-message export has now been located. Linked external documents/attachments remain separate and were not silently reconstructed."
+  }
+}

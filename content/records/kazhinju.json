@@ -1,0 +1,64 @@
+{
+  "id": "kazhinju",
+  "title": "Kazhinju",
+  "category": "People",
+  "type": "Grove witch · reluctant helper",
+  "dek": "A witch whose possessive claim over Bogdan turns an ingredient-gathering mission into violence, confession and a chance to help him.",
+  "facts": {
+    "Associated place": "Graveyard grove west of Tabitha’s home",
+    "Relationship": "Former attachment to Bogdan",
+    "Outcome": "Permits and guides the harvest",
+    "Limit": "Her confession concerns Bogdan",
+    "Region": "Prima"
+  },
+  "body": "<p>Tabitha warns that Kazhinju guards the grove, dislikes strangers and resents Bogdan’s marriage. The expedition meets her near the graveyard while gathering ingredients for him.</p><h2 id=\"kazhinju-confrontation\">28 September · the confrontation</h2><p>On hearing Tabitha’s name, Kazhinju becomes violent and claims Bogdan belongs to her. Vylaris prevents a strike against the witch and continues questioning her. She says she gave Bogdan the disease because she wanted to take him with her, while denying knowledge of events in Pristinia.</p><p>After her composure breaks, she lets the party take what is needed and guides the harvest. That choice helps deliver the remedy’s ingredients. It does not establish a general reconciliation with Tabitha, a cure for Bogdan or responsibility for every reported outbreak of fever.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554196015337177089\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554204200211189801\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554211168111824989\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554212395256119377\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554213644374507605\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554214428235534467\" target=\"_blank\" rel=\"noopener\">6</a>.</p>",
+  "tags": [
+    "Kazhinju",
+    "Bogdan",
+    "Tabitha",
+    "Grove",
+    "Confession"
+  ],
+  "sources": [
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "relatedRecords": [
+    "mama-tabitha",
+    "quest-continuation"
+  ],
+  "image": "assets/characters/kazhinju.jpg",
+  "imageAlt": "Kazhinju with long gray hair, a tooth-adorned headband and a carved wooden staff",
+  "imageCaption": "Kazhinju",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "kazhinju-confrontation",
+      "title": "28 September · the confrontation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Grove witch · reluctant helper",
+    "significance": "A witch whose possessive claim over Bogdan turns an ingredient-gathering mission into violence, confession and a chance to help him.",
+    "actions": [
+      {
+        "title": "Kazhinju allows the ingredients for Bogdan’s remedy",
+        "event": "Kazhinju allows the ingredients for Bogdan’s remedy",
+        "date": "28 Sep 2026 · Discord posting date (America/New_York)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 28 Sep 2026 · Discord posting date (America/New_York). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

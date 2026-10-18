@@ -1,0 +1,183 @@
+{
+  "id": "ghilsen",
+  "title": "Ghilsen Hendrickson",
+  "category": "People",
+  "type": "Former slave; adventurer",
+  "image": "assets/characters/ghilsen.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Portrait of Ghilsen Hendrickson",
+  "imageCaption": "Ghilsen Hendrickson — survivor and adventurer.",
+  "dek": "A formerly enslaved adventurer whose freedom, marriage and return from death remain personal histories rather than a completed heroic legend.",
+  "tags": [
+    "Ghilsen",
+    "Freedom",
+    "Strength",
+    "Brianna",
+    "Ghilsen Hendrickson"
+  ],
+  "facts": {
+    "History": "Formerly enslaved",
+    "Drive": "Freedom through strength",
+    "Relationship": "Brianna / ‘Wifey’",
+    "Status": "Later reported fallen"
+  },
+  "sources": [
+    "Pasted markdown(20260909-022330).md — Ghilsen, Aravil, Magnus, and the tavern",
+    "Pasted markdown(20260909-022619).md — factions, freedom, and Magnus’s offer",
+    "Pasted markdown(20260909-025456).md — the Shadow Roads decision",
+    "Pasted markdown(20260909-030027).md — the portal aftermath",
+    "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+    "Selected primary scenes and established public histories; anchors below"
+  ],
+  "body": "<p>Ghilsen enters the record believing he is unworthy to sit with strangers. He calls himself a slave without metaphor, asks for the cheapest food, assumes generosity creates debt, and treats goodwill as something likely to conceal a trick. His early scenes establish a person trained to expect ownership.</p>\n      <h2 id=\"freedom\">“Freedom, you say?”</h2>\n      <p>When Magnus describes the Radiant Flame through glory, freedom, and personal strength, Ghilsen catches on freedom. He soon measures himself against powerful people and asks what sacrifice greater strength would require. The strongest supported interpretation is that power promises him safety: if he becomes strong enough, nobody can own him again.</p>\n      <h2 id=\"risk\">The adventurer’s risk</h2>\n      <p>At the Shadow Roads he tells Brianna that adventurers must take risks because nobody else will. The declaration is clearer than many of his actions, but it is a real worldview. Brianna takes his hand and holds him close as they enter the tear; the documents preserve trust and partnership even where Ghilsen’s interior response remains sparsely recorded.</p>\n      <h2 id=\"record-limit\">What the record supports</h2>\n      <p>Ghilsen frequently asks for information rather than explaining himself. The Codex does not fill those silences with a more elaborate arc than the scenes contain. What is established is a former slave, distrustful of free gifts, drawn to freedom, measuring safety through strength, and connected closely enough to Brianna to call her “Wifey.” A later divine conversation reports that Ghilsen has fallen.</p><h2 id=\"ghilsen-marriage-and-freedom\">Brianna · wanting the same person back</h2><p>Brianna’s account of their life places Ghilsen’s former enslavement beside their marriage and his developing knighthood. She describes him as strong and kind while expressing anger that he left her through death. Her insistence on Ghilsen himself, rather than an altered, obedient substitute, makes autonomy part of the relationship.</p><p>Those judgments retain her voice. They do not establish a flawless hero, a formal command rank or a requirement that he must return as someone easier to love.</p><h2 id=\"ghilsen-return\">June 2025 · return and renewed danger</h2><p>By 23 June Ghilsen is active in a quest and explicitly describes himself as just revived. Another participant remarks that he has gone straight back into danger. Later that day Brianna tells Elenia that he woke that morning and left for a dangerous mission; Elenia asks after him and speaks of the hope he inspired.</p><p>The account credits Elenia’s intervention with his return. The reviewed quest anchors establish his subsequent presence and the exchange about waking, without supplying the complete earlier revival scene. His return is not a new assertion that all the consequences of dying were undone.</p><h2 id=\"ghilsen-risk-and-continuity\">Freedom includes imperfect choices</h2><p>His later statement to Brianna that adventurers must take risks fits the man who returns to danger. It is his justification, not an obligation that everyone else must accept. Being restored does not make him infallible or guarantee that he has learned caution.</p><p>The existing later report that Ghilsen has fallen remains distinct from the June revival. The new dossier does not establish that the report refers to the same death or resolve his final condition. The complete death chronology, order affiliation and later fate still require evidence.</p><h2 id=\"third-recorded-scenes\">Recorded scenes</h2><p>Dates refer to transcript postings.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1386747698564042885\">23 June 2025 · active after revival</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1386749434519621762\">The response to renewed danger</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1386856176125345883\">Elenia asks after him</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1386856991728603168\">Brianna describes his waking</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1416791104048594965\">14 September · his account of risk</a></li></ul>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "freedom",
+      "title": "“Freedom, you say?”",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Ghilsen, Aravil, Magnus, and the tavern",
+          "Pasted markdown(20260909-022619).md — factions, freedom, and Magnus’s offer",
+          "Pasted markdown(20260909-025456).md — the Shadow Roads decision",
+          "Pasted markdown(20260909-030027).md — the portal aftermath",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "risk",
+      "title": "The adventurer’s risk",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Ghilsen, Aravil, Magnus, and the tavern",
+          "Pasted markdown(20260909-022619).md — factions, freedom, and Magnus’s offer",
+          "Pasted markdown(20260909-025456).md — the Shadow Roads decision",
+          "Pasted markdown(20260909-030027).md — the portal aftermath",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "record-limit",
+      "title": "What the record supports",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Ghilsen, Aravil, Magnus, and the tavern",
+          "Pasted markdown(20260909-022619).md — factions, freedom, and Magnus’s offer",
+          "Pasted markdown(20260909-025456).md — the Shadow Roads decision",
+          "Pasted markdown(20260909-030027).md — the portal aftermath",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "ghilsen-marriage-and-freedom",
+      "title": "Brianna · wanting the same person back",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Ghilsen, Aravil, Magnus, and the tavern",
+          "Pasted markdown(20260909-022619).md — factions, freedom, and Magnus’s offer",
+          "Pasted markdown(20260909-025456).md — the Shadow Roads decision",
+          "Pasted markdown(20260909-030027).md — the portal aftermath",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "ghilsen-return",
+      "title": "June 2025 · return and renewed danger",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Ghilsen, Aravil, Magnus, and the tavern",
+          "Pasted markdown(20260909-022619).md — factions, freedom, and Magnus’s offer",
+          "Pasted markdown(20260909-025456).md — the Shadow Roads decision",
+          "Pasted markdown(20260909-030027).md — the portal aftermath",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "ghilsen-risk-and-continuity",
+      "title": "Freedom includes imperfect choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Ghilsen, Aravil, Magnus, and the tavern",
+          "Pasted markdown(20260909-022619).md — factions, freedom, and Magnus’s offer",
+          "Pasted markdown(20260909-025456).md — the Shadow Roads decision",
+          "Pasted markdown(20260909-030027).md — the portal aftermath",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "third-recorded-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Ghilsen, Aravil, Magnus, and the tavern",
+          "Pasted markdown(20260909-022619).md — factions, freedom, and Magnus’s offer",
+          "Pasted markdown(20260909-025456).md — the Shadow Roads decision",
+          "Pasted markdown(20260909-030027).md — the portal aftermath",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Former slave; adventurer",
+    "significance": "A formerly enslaved adventurer whose freedom, marriage and return from death remain personal histories rather than a completed heroic legend.",
+    "actions": [],
+    "status": "Later reported fallen",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "personality": "Ghilsen’s suspicion grows from lived experience of ownership. Freedom is not abstract to him, and strength matters because he wants a world in which neither he nor another vulnerable person can be reduced to property again.",
+    "achievements": "A formerly enslaved adventurer whose freedom, marriage and return from death remain personal histories rather than a completed heroic legend.",
+    "relationships": "Brianna is an important companion in the archive, while Carmen, Coralyn, St. Anky, Sildithas, and Ithilrûnë share the Shadow Roads ordeal. Holding hands to survive that passage gives Ghilsen’s relationships particular weight: dependence can be chosen, reciprocal, and temporary rather than another form of possession."
+  }
+}

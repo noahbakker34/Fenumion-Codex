@@ -1,0 +1,64 @@
+{
+  "id": "arias-tomb",
+  "title": "Aria’s Tomb",
+  "category": "Places",
+  "type": "Tomb in Fein Uaill",
+  "video": "assets/archive/arias-tomb.mp4",
+  "videoType": "video/mp4",
+  "videoLayout": "landscape-hero",
+  "videoAlt": "A moving visual record of Aria’s Tomb",
+  "videoCaption": "Aria’s Tomb — user-supplied moving location record, 27 September 2026.",
+  "dek": "A memorial site for Aria / Pride in Fein Uaill proper, distinct from the sacred city of Ciaránach.",
+  "tags": [
+    "Aria’s Tomb",
+    "Aria",
+    "Pride",
+    "Fein Uaill",
+    "Locations"
+  ],
+  "facts": {
+    "Region": "Fein Uaill",
+    "Type": "Tomb",
+    "Associated": "Aria / Pride",
+    "Correction": "Not inside Ciaránach"
+  },
+  "sources": [
+    "Fein Uaill regional record — location correction",
+    "User-supplied moving visual record — Aria’s Tomb, 27 Sep 2026"
+  ],
+  "body": "<p>Aria’s Tomb belongs to Fein Uaill proper. The regional record explicitly corrects an earlier assumption that the tomb lies inside <a href=\"#ciaranach\">Ciaránach</a>. Its association is with <a href=\"#aria-pride\">Aria / Pride</a>, Knight II of Death.</p>\n      <h2 id=\"arias-tomb-place\">A place, not a substitute for a life</h2>\n      <p>The tomb gives Aria a lasting point in the landscape, but it does not resolve the competing memories of who she was, what she chose, or what others made of her death. Those questions remain in her character history.</p>\n      <h2 id=\"arias-tomb-open-record\">The open record</h2>\n      <p>The builders, date, rites, custodians, contents, and public meaning of the tomb have not yet been recovered from the campaign record.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "arias-tomb-place",
+      "title": "A place, not a substitute for a life",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill regional record — location correction",
+          "User-supplied moving visual record — Aria’s Tomb, 27 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "arias-tomb-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill regional record — location correction",
+          "User-supplied moving visual record — Aria’s Tomb, 27 Sep 2026"
+        ]
+      }
+    }
+  ]
+}

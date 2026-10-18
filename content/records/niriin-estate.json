@@ -1,0 +1,92 @@
+{
+  "id": "niriin-estate",
+  "title": "Niriin Estate",
+  "category": "Places",
+  "type": "Estate in Fein Uaill",
+  "video": "assets/archive/niriin-estate.mp4",
+  "videoType": "video/mp4",
+  "videoLayout": "landscape-hero",
+  "videoAlt": "A moving visual record of the Niriin Estate",
+  "videoCaption": "Niriin Estate — user-supplied moving location record, 27 September 2026.",
+  "dek": "A named estate within Fein Uaill, now preserved through a moving visual record while its owners, founding, and civic role remain open questions.",
+  "tags": [
+    "Niriin Estate",
+    "Fein Uaill",
+    "Estate",
+    "Locations"
+  ],
+  "facts": {
+    "Region": "Fein Uaill",
+    "Type": "Estate",
+    "Status": "History still unrecovered"
+  },
+  "sources": [
+    "Fein Uaill location directory — name and regional placement",
+    "User-supplied moving visual record — Niriin Estate, 27 Sep 2026"
+  ],
+  "body": "<p>The Niriin Estate is a named estate in <a href=\"#fein-uaill\">Fein Uaill</a>. Its presence in the regional directory and the illustration establish it as a distinct location, but the current archive does not yet identify its founder, present occupants, legal status, or relationship to the wider Niriin family.</p>\n      <h2 id=\"niriin-evidence\">What the archive can support</h2>\n      <p>The Codex treats the estate’s name, regional placement, and visual identity as observed evidence. A shared surname alone is not enough to assign ownership, inheritance, or residence to <a href=\"#magnus\">Magnus Niriin</a>.</p>\n      <h2 id=\"niriin-open-record\">The open record</h2>\n      <p>The estate’s age, household, grounds, staff, political importance, and history remain unrecovered. Those questions stay attached to this page for later scene or source evidence.</p>",
+  "gallery": [
+    {
+      "image": "assets/locations/discord/f9241381c43b6ff785d6bb056481c02a868afd32f92f44875e54bf241c4d857c.webp",
+      "title": "Niriin Estate — corridor to the dining hall",
+      "alt": "Niriin Estate — corridor to the dining hall",
+      "caption": "Magnus leads Eldin down an extravagant hallway toward the estate’s dining room; this image is attached to that movement.",
+      "source": "https://discord.com/channels/1177270231513694249/1404850171640021103/1410681295629193236"
+    },
+    {
+      "image": "assets/locations/discord/781eca537ba5c8d83b4ff69fe7899ef8e74542a20f8772e45b199e90195a47ec.webp",
+      "title": "Niriin Estate — plant-filled dining hall",
+      "alt": "Niriin Estate — plant-filled dining hall",
+      "caption": "Magnus opens the dining-room door and describes its plant life and sunlight; the image accompanies that reveal.",
+      "source": "https://discord.com/channels/1177270231513694249/1404850171640021103/1410684000556810333"
+    },
+    {
+      "image": "assets/locations/discord/7f54e6fb9b6041df2c3890341e0e49204f8dfcc2c3063267a5de062f8f72219d.webp",
+      "title": "Niriin Estate — library doors",
+      "alt": "Niriin Estate — library doors",
+      "caption": "Adelia is directed to Magnus in the estate library; the narrator attaches this image while describing its massive doors.",
+      "source": "https://discord.com/channels/1177270231513694249/1404850171640021103/1474203608408133743"
+    },
+    {
+      "image": "assets/locations/discord/241d58ec001413eeeacbc981ea33e7ef23593ca7dc2092fe9551927503f7128f.webp",
+      "title": "Niriin Estate — public library interior",
+      "alt": "Niriin Estate — public library interior",
+      "caption": "Second image accompanying the same library-door reveal in Magnus’s estate. This is distinct from the city’s other libraries.",
+      "source": "https://discord.com/channels/1177270231513694249/1404850171640021103/1474203608408133743"
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "niriin-evidence",
+      "title": "What the archive can support",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill location directory — name and regional placement",
+          "User-supplied moving visual record — Niriin Estate, 27 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "niriin-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill location directory — name and regional placement",
+          "User-supplied moving visual record — Niriin Estate, 27 Sep 2026"
+        ]
+      }
+    }
+  ]
+}

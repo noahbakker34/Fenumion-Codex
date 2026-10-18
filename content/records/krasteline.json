@@ -1,0 +1,88 @@
+{
+  "id": "krasteline",
+  "title": "Krasteline",
+  "category": "People",
+  "type": "Displaced crafter and guide",
+  "dek": "A crafter who investigates the Gate, helps Fenwick to his feet and tries to keep her companions looking forward.",
+  "tags": [
+    "Krasteline",
+    "The Gate",
+    "Prima",
+    "Sago",
+    "Crafter"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Recorded at": "The Gate and road to Pristinia"
+  },
+  "sources": [
+    "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+  ],
+  "body": "<h2 id=\"krasteline-craft\">A craft carried into exile</h2><p>Krasteline introduces herself as a former main crafter for rebels and says she still tries to craft. She names Sago as her home. She retains old gauntlets that no longer work; the scene does not establish their full history or a means of repair.</p><h2 id=\"krasteline-help\">Helping the next arrival</h2><p>With <a href=\"#kasiri-ruza\">Kasiri</a>, she examines the Gate, then offers <a href=\"#fenwick\">Fenwick</a> a hand when he arrives disoriented. She encourages the others to keep their chins up and smile, while acknowledging that this place remains hard and dangerous. Her mention of Alyndra is a hope or question, not proof that Alyndra is somewhere in Fenumion.</p>",
+  "image": "assets/characters/krasteline.jpeg",
+  "imageAlt": "Krasteline with blue skin, orange hair and illuminated goggles",
+  "imageCaption": "Krasteline",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "krasteline-craft",
+      "title": "A craft carried into exile",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "krasteline-help",
+      "title": "Helping the next arrival",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Displaced crafter and guide",
+    "significance": "A crafter who investigates the Gate, helps Fenwick to his feet and tries to keep her companions looking forward.",
+    "actions": [
+      {
+        "title": "Kasiri and Krasteline investigate the Gate and welcome Fenwick",
+        "event": "Kasiri and Krasteline investigate the Gate and welcome Fenwick",
+        "date": "2024-08-31 · posting date (UTC)"
+      },
+      {
+        "title": "Melian survives the burning of her house",
+        "event": "Melian survives the burning of her house",
+        "date": "12 Oct 2024"
+      }
+    ],
+    "status": "Last dated entry in this selection: 12 Oct 2024. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "kasiri-ruza",
+        "label": "Kasiri Ruza",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "fenwick",
+        "label": "Fenwick d'Jorasco",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

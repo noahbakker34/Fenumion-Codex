@@ -1,0 +1,67 @@
+{
+  "id": "npc-community-memory",
+  "title": "People Behind the Settlements",
+  "category": "Archive",
+  "type": "NPC history guide",
+  "dek": "The officials, tradespeople, caregivers and witnesses whose work makes Fenumion a lived-in world.",
+  "tags": [
+    "NPCs",
+    "Civic memory",
+    "Civilian life",
+    "Pristinia",
+    "Eovar"
+  ],
+  "facts": {
+    "Scope": "Public histories"
+  },
+  "sources": [
+    "Public NPC dossiers; primary scene anchors in each recovered record"
+  ],
+  "body": "<p>A settlement survives through more than its battles. These histories follow the people who count votes, keep shops, carry water, provide care and remember what the community has lived through.</p><p><a href=\"#npc-islands\">Find NPCs by island</a>, or read the work and relationships that connect them below.</p><h2 id=\"npc-civic-memory\">Decisions and their record</h2><ul><li><a href=\"#hawthorne\">Hawthorne</a> — The scribe who turns Pristinia’s arguments into counted votes, recorded decisions and an institutional memory.</li><li><a href=\"#vizsla\">Vizsla, the Florist</a> — A flower-shop owner who argues that adventurers’ contributions should be recognized without displacing the settlement’s residents.</li><li><a href=\"#elder-hiram\">Hiram</a> — An Elder whose arguments expose the tension between financial survival, political continuity and local defense.</li><li><a href=\"#elder-kaja\">Kaja</a> — An Elder who resists solving Pristinia’s financial crisis by concentrating control in a few hands.</li><li><a href=\"#elder-magda\">Magda</a> — The Elder who announces a collective decision while keeping ordinary hospitality and its cost in view.</li><li><a href=\"#orrik-wheelwright\">Orrik the Wheelwright</a> — A resident whose suspicion of adventurers coexists with concrete proposals for changing how Pristinia is governed.</li></ul><h2 id=\"npc-material-care\">The work of survival</h2><ul><li><a href=\"#farmer-scarlett\">Farmer Scarlett</a> — A Pristinian civilian whose wartime work makes survival a matter of water, bedding, labor and space.</li><li><a href=\"#guardian-commander-yvette\">Guardian Commander Yvette</a> — A commander whose account of loyal soldiers and their graves gives institutional service a human cost.</li><li><a href=\"#stella-sola\">Stella &amp; Sola</a> — The sisters whose shop links Pristinia’s ordinary comforts, medicine and emergency care.</li><li><a href=\"#vance-the-guard\">Vance the Guard</a> — An Eovar guard whose answers preserve one local view of commerce, privacy and suspicion.</li></ul><h2 id=\"npc-established-histories\">Teaching, hospitality and witness</h2><ul><li><a href=\"#papirak\">Papirak</a> — teaching, loss and the institutions that survive him.</li><li><a href=\"#herb\">Herb</a> — the Common Man and ordinary continuity.</li><li><a href=\"#scout-lilian\">Scout Lilian</a> — reconnaissance and the cost of warning.</li><li><a href=\"#murr\">Murr the Old Wolf</a> — Voraketh’s living memory.</li><li><a href=\"#kvethe\">Kvethe and Babel’s survivors</a> — a community that speaks for itself.</li><li><a href=\"#huoth\">Huoth</a> — service and political testimony.</li></ul>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "npc-civic-memory",
+      "title": "Decisions and their record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Public NPC dossiers; primary scene anchors in each recovered record"
+        ]
+      }
+    },
+    {
+      "id": "npc-material-care",
+      "title": "The work of survival",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Public NPC dossiers; primary scene anchors in each recovered record"
+        ]
+      }
+    },
+    {
+      "id": "npc-established-histories",
+      "title": "Teaching, hospitality and witness",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Public NPC dossiers; primary scene anchors in each recovered record"
+        ]
+      }
+    }
+  ]
+}

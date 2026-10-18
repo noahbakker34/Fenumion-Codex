@@ -1,0 +1,267 @@
+{
+  "id": "minerva",
+  "title": "Minerva",
+  "category": "People",
+  "type": "Witch; investigator; difficult ally",
+  "image": "assets/characters/minerva.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Portrait of Minerva, a witch and investigator",
+  "imageCaption": "Minerva — witch, investigator, and difficult ally.",
+  "dek": "A persistent investigator who turns inherited knowledge into field practice while testing how much risk research can ask others to bear.",
+  "tags": [
+    "Minerva",
+    "The Seekers",
+    "Witch",
+    "Investigation",
+    "You Better Watch Out",
+    "Howl",
+    "Quest archive"
+  ],
+  "facts": {
+    "Primary archive coverage": "Jun 2025 – Aug 2026",
+    "Company": "The Seekers",
+    "Named quests": "You Better Watch Out · Howl",
+    "Strength": "Arcane and creature investigation",
+    "Tension": "Information, trust, and coercive methods",
+    "Status": "Active through Aug 2026"
+  },
+  "sources": [
+    "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+    "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+    "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+    "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+    "Candidate session 301, 29 May 2026 — Howl",
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+    "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+    "Selected primary scenes and established public histories; anchors below"
+  ],
+  "body": "<p>Minerva’s quest record resists a simple verdict. She is watchful, magically informed, willing to pursue danger, and often convinced that others’ caution is blindness. The same intensity that uncovers threats also makes cooperation brittle when she treats disputed conclusions as emergencies everyone else must accept.</p>\n      <p>Minerva is a confirmed member of <a href=\"#cave-company\">the Seekers</a> alongside Vessalia, Di’Trillio, Pell, and Fenwick. Her investigative record gives that membership context without making every one of her personal conclusions company doctrine.</p>\n      <h2 id=\"minerva-krampus\">16 December 2025 · You Better Watch Out</h2>\n      <p>Minerva and Gregory are the first to notice a shadow moving through the silent village street. During the fight she keeps track of the rooftop creature carrying a missing child while the party battles animated toys. Ruben’s final shot drops Krampus and the child is recovered. The scene establishes Minerva’s vigilance inside a successful communal rescue.</p>\n      <h2 id=\"minerva-guardians\">29 March 2026 · warning without trust</h2>\n      <p>Minerva attempts to deliver documents she believes describe a plan to corrupt living trees. Her companions restrain her after a breakdown in trust, while she accuses them of obstructing urgent evidence. Before the Guardians she names initials and reports the suspected plot. The priestess listens; Chief Guardian Horgrith refuses to rely on information from a party that cannot trust itself.</p>\n      <p>The Codex preserves three different facts: Minerva delivers a warning; her companions dispute her conduct and reliability; and the Guardians’ refusal is a security judgment rather than proof that her information is false.</p>\n      <h2 id=\"minerva-howl\">29 May 2026 · Howl</h2>\n      <p>On the winter forest expedition, Minerva recognizes lore about beasts drawn toward magic and afraid of fire. She investigates the attacked cabin, questions whether young Ingrid carries latent magic, and sits beside the child rather than interrogating from a distance. The later discovery of the real Timothy’s body reveals that the father at the cabin is a doppelganger; Minerva’s suspicion belongs beside, not instead of, her attempt to keep Ingrid calm.</p>\n      <h2 id=\"minerva-boundary\">The unresolved boundary</h2>\n      <p>Minerva is not made correct by intensity or wrong by conflict. Her history repeatedly asks how a group should respond when one person believes the danger is immediate and everyone else believes the method of warning may itself create harm. Later passes should recover the missing connective scenes without resolving that tension into a fixed moral label.</p><h2 id=\"prima-rp-before-notes\">September 2026 · old notes guide a new expedition</h2><p>Minerva briefs later explorers to move quietly, watch for aberrations and avoid entering or casting inside the haze. She explicitly cites Scribonia’s notes for the warning that it feeds on spells. She asks the group to report historically interesting finds to her. The briefing establishes inherited precautions and an ongoing research interest; it does not resolve the ruins’ origins or independently prove every hazard rule she repeats.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1213007461540306984/1549554249732726925\" target=\"_blank\" rel=\"noopener\">1</a>.</p><h2 id=\"minerva-research-continuity\">The Before · returning with accumulated knowledge</h2><p>Minerva’s relationship with The Before develops through repeated visits, comparisons and recruitment rather than one discovery. The existing expedition record places her among people inheriting earlier knowledge, including Scribonia’s field work, and attempting to turn it into precautions for the next party.</p><p>Guidance about dangerous haze, contamination, aberrations and reporting discoveries is practical knowledge in context. It does not make every experiment safe or establish that Minerva originated all the procedures she passes on.</p><h2 id=\"minerva-cost-of-curiosity\">Teaching and the cost of curiosity</h2><p>The existing Djo history records his decision to handle dangerous material and the resulting contamination. Minerva’s later praise of his courage does not erase his choice or the bodily consequence. Encouragement, inquiry and protection can pull in different directions within the same expedition.</p><p>The account also connects her with Ryvyt’s experimental work. That connection does not establish the success of a particular experiment or make collaborators’ aims identical. Calling a source an ally does not independently establish that source’s reliability.</p><h2 id=\"minerva-political-urgency\">Olindian danger and the limits of inference</h2><p>In the account of her dispute with Severina, Minerva argues that attacks and the Pirate King’s position warrant an urgent response. The claimed command structure remains her account; it is not, by itself, direct proof that the ruler ordered every attack.</p><p>Severina’s request for evidence does not prove the threat imaginary. Minerva’s frustration does not settle the disputed inference. Their disagreement continues the tension already visible in her Guardian warning: information can matter even when the way it is presented damages trust.</p><h2 id=\"minerva-continuing-boundary\">Persistence without a final verdict</h2><p>Repeated investigation is necessary to build a usable record, but can also make danger feel routine. The history keeps that question open beside Minerva’s vigilance, communal rescues and care for Ingrid. Neither dangerous curiosity nor disputed political urgency replaces the whole person with a moral label.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "minerva-krampus",
+      "title": "16 December 2025 · You Better Watch Out",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+          "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+          "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+          "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+          "Candidate session 301, 29 May 2026 — Howl",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "minerva-guardians",
+      "title": "29 March 2026 · warning without trust",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+          "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+          "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+          "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+          "Candidate session 301, 29 May 2026 — Howl",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "minerva-howl",
+      "title": "29 May 2026 · Howl",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+          "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+          "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+          "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+          "Candidate session 301, 29 May 2026 — Howl",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "minerva-boundary",
+      "title": "The unresolved boundary",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+          "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+          "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+          "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+          "Candidate session 301, 29 May 2026 — Howl",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-before-notes",
+      "title": "September 2026 · old notes guide a new expedition",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+          "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+          "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+          "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+          "Candidate session 301, 29 May 2026 — Howl",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "minerva-research-continuity",
+      "title": "The Before · returning with accumulated knowledge",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+          "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+          "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+          "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+          "Candidate session 301, 29 May 2026 — Howl",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "minerva-cost-of-curiosity",
+      "title": "Teaching and the cost of curiosity",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+          "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+          "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+          "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+          "Candidate session 301, 29 May 2026 — Howl",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "minerva-political-urgency",
+      "title": "Olindian danger and the limits of inference",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+          "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+          "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+          "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+          "Candidate session 301, 29 May 2026 — Howl",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "minerva-continuing-boundary",
+      "title": "Persistence without a final verdict",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "User canon correction, 27 Sep 2026 — confirmed member of the Seekers",
+          "Complete quest-rp export — 918 Minerva messages across 23 active dates",
+          "Candidate session 255, 16 Dec 2025 — You Better Watch Out",
+          "Candidate session 278, 29 Mar 2026 — Guardian confrontation and disputed warning",
+          "Candidate session 301, 29 May 2026 — Howl",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Witch; investigator; difficult ally",
+    "significance": "A persistent investigator who turns inherited knowledge into field practice while testing how much risk research can ask others to bear.",
+    "actions": [
+      {
+        "title": "You Better Watch Out",
+        "event": "You Better Watch Out",
+        "date": "16 Dec 2025"
+      },
+      {
+        "title": "Truesight reveals the grimoire’s hidden spells",
+        "event": "Truesight reveals the grimoire’s hidden spells",
+        "date": "Sep 2026"
+      },
+      {
+        "title": "Vessalia questions Minerva’s Seekers invitation",
+        "event": "Vessalia questions Minerva’s Seekers invitation",
+        "date": "22 Sep 2026 · transcript posting date"
+      }
+    ],
+    "status": "Active through Aug 2026",
+    "relationships": [
+      {
+        "id": "cave-company",
+        "label": "The Seekers",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "personality": "Minerva is watchful, suspicious, and forceful enough to make cooperation difficult when she believes other people are underestimating danger. Yet her attention repeatedly turns toward concealed threats and vulnerable people: a shadow on a silent roof, a frightened child, an injured animal, or a familiar person whose behavior no longer fits the evidence.",
+    "achievements": "A persistent investigator who turns inherited knowledge into field practice while testing how much risk research can ask others to bear.",
+    "relationships": "Gregory and Ruben share the Krampus rescue, while Thorn and Jéane Rose help turn the Howl investigation into a trackable sequence of evidence. Vessalia, Di’Trillio, Pell, and Fenwick are her fellow Seekers, but her conclusions remain her own rather than automatic company doctrine. The Guardians’ refusal to rely on a divided party becomes one of her clearest lessons about truth without trust."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "conversation",
+  "title": "The Living Archive",
+  "category": "Archive",
+  "type": "Chronicle of a persistent world",
+  "image": "assets/archive/world-map.jpeg",
+  "imageAlt": "Illustrated map of Fenumion",
+  "imageCaption": "The world map preserved in the Fenumion archive.",
+  "dek": "People, places and choices that continue to shape Fenumion.",
+  "tags": [
+    "Living history",
+    "Continuity",
+    "Consequences",
+    "Memory"
+  ],
+  "facts": {
+    "World": "Fenumion"
+  },
+  "sources": [
+    "Complete quest-rp Discord export — 108,619 messages from 4 Mar 2024 through 7 Sep 2026",
+    "docs/QUEST_ARCHIVE_INDEX.md — checksum, coverage statistics, and 329 candidate review sessions",
+    "303 supporting campaign records, maps, profiles, corrections, and chronicles",
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "body": "<p>Fenumion is a world shaped by the people who live in it. Cities remember their founders, companions carry grief and unfinished promises, and choices made years ago still change what happens next.</p><h2 id=\"what-it-became\">A history measured in consequences</h2><p>Wars and divine powers change the landscape, while meals, memorials, homes and acts of care give it meaning. Follow a person, a place or an unanswered question to discover how those stories meet.</p><h2 id=\"read-the-source\">Find your way</h2><p><a href=\"#world-index\">Browse the World Index</a>, explore <a href=\"#visual-archive\">the atlas</a>, follow <a href=\"#living-timeline\">the timeline</a>, or begin with <a href=\"#ethos-of-fenumion\">the Ethos of Fenumion</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "what-it-became",
+      "title": "A history measured in consequences",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp Discord export — 108,619 messages from 4 Mar 2024 through 7 Sep 2026",
+          "docs/QUEST_ARCHIVE_INDEX.md — checksum, coverage statistics, and 329 candidate review sessions",
+          "303 supporting campaign records, maps, profiles, corrections, and chronicles",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    },
+    {
+      "id": "read-the-source",
+      "title": "Find your way",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp Discord export — 108,619 messages from 4 Mar 2024 through 7 Sep 2026",
+          "docs/QUEST_ARCHIVE_INDEX.md — checksum, coverage statistics, and 329 candidate review sessions",
+          "303 supporting campaign records, maps, profiles, corrections, and chronicles",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ]
+}

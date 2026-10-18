@@ -1,0 +1,191 @@
+{
+  "id": "aravil",
+  "title": "Aravil",
+  "category": "People",
+  "type": "Oathbound hunter",
+  "image": "assets/characters/aravil.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Portrait of Aravil, an oathbound hunter",
+  "imageCaption": "Aravil — oathbound hunter and practical protector.",
+  "dek": "An oathbound hunter whose reputation lives in remembered battles, Aravil returns when war sharpens and recognizes old comrades by what they survived together.",
+  "tags": [
+    "Aravil",
+    "Queen",
+    "Oath",
+    "Pristinia",
+    "Jiangshi",
+    "Olokun"
+  ],
+  "facts": {
+    "Identity": "Veteran oathbound hunter",
+    "Principle": "Distance does not annul duty",
+    "Method": "Observe → remember → assess → act",
+    "Shared history": "Fey Forest hunt with Jiangshi and Scribonia",
+    "New role": "Hunter for Pristinia"
+  },
+  "sources": [
+    "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+    "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+    "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+    "Gate chronicle · primary arrival and welcome scenes"
+  ],
+  "body": "<p>Aravil arrives hungry, lonely, and still defined by service. She describes herself as a tool separated from its artisan, but corrects Magnus when he assumes that means she wants a new master: her oath remains while she draws breath. Separation has taken away proximity, not obligation.</p>\n      <p>Her wider history gives that discipline a social dimension. Aravil remembers adventurers by the work they did under pressure, and they remember her in return. She does not need to perform experience because shared history has already made it visible.</p>\n      <h2 id=\"aravil-martial-directness\">Action after judgment</h2>\n      <p>Aravil is direct without being mindless. Once she believes a fight has truly arrived, she commits without demanding a speech first. In October 2025, when the company presses toward a demonic island, she heads into the battle rather than waiting for ceremony. Her comfort with war is not simple bloodlust; crisis is a condition in which her identity, judgment, and training become unusually clear.</p>\n      <h2 id=\"aravil-remembers\">The people she remembers</h2>\n      <p>When Aravil meets Jiangshi again, she recalls their Fey Forest hunt with Scribonia and even Jiangshi’s “violent hairpins.” The specificity is the point. Affection and respect appear as operational memory: a hunt, a method, a moment of competence. Olokun likewise greets her as a returning veteran rather than a new arrival, and Aravil answers the thrum of war as though returning to unfinished work.</p>\n      <h2 id=\"admitting-error\">Admitting error</h2>\n      <p>She openly says she involved herself in a conflict without knowing the people or their capabilities. Competence does not require pretending she was right. The admission becomes part of her posture toward a world she is still learning.</p>\n      <h2 id=\"useful-belonging\">Useful belonging</h2>\n      <p>Later, Pristinia’s food shortage gives Aravil a local role. She recognizes that hunting is something she can contribute. This does not replace her Queen or erase the oath; it creates another relationship between who she is and the people around her.</p>\n      <h2 id=\"aravil-zarathis\">Watching institutions reveal themselves</h2>\n      <p>During the December 2025 conflict surrounding Elenia, Magnus, Olokun, and Zarathian religious authority, Aravil watches to see whether demonstrated power will actually make the society reconsider its traditions. Her attention is not passive curiosity. She tests the institution by its response: will it bend, learn, and admit contradiction, or merely invent a new rule that protects the old hierarchy?</p>\n      <p>This skepticism belongs beside her martial directness. Aravil prefers enemies, customs, and authorities to reveal what they truly are. Once they do, she can judge them by their conduct rather than their claims.</p>\n      <h2 id=\"aravil-living-history\">A veteran carried by mutual memory</h2>\n      <p>Aravil’s history accumulates through recognition rather than constant spotlight. Jiangshi’s hairpins, Scribonia’s presence on the Fey Forest hunt, and Olokun’s familiar greeting preserve a network of old operational bonds. She remembers companions through what they did under pressure, and their recognition confirms that her own earlier deeds remain part of the living world.</p>\n      <p>Her development is therefore continuity across absence: skilled participant, remembered veteran, and finally a piece of shared history who can return without being reintroduced. Aravil makes the archive’s persistence visible. People who leave the foreground do not cease to matter when the world continues to remember them.</p><h2 id=\"aravil-gate-0\">Getting Icarus past the patrol</h2><p>When the Gate activates amid the Rahu threat, Aravil runs to reach the newcomer first. She warns Icarus to hide, remains concealed while he becomes a chicken, and waits out the search. Once the patrol leaves, she begins answering his questions and leads him toward Pristinia. Her preference for striking back does not prevent her from accepting a successful escape without combat. <a href=\"#icarus\">Read Icarus’s account</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "aravil-martial-directness",
+      "title": "Action after judgment",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "aravil-remembers",
+      "title": "The people she remembers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "admitting-error",
+      "title": "Admitting error",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "useful-belonging",
+      "title": "Useful belonging",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "aravil-zarathis",
+      "title": "Watching institutions reveal themselves",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "aravil-living-history",
+      "title": "A veteran carried by mutual memory",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "aravil-gate-0",
+      "title": "Getting Icarus past the patrol",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Oathbound hunter",
+    "significance": "An oathbound hunter whose reputation lives in remembered battles, Aravil returns when war sharpens and recognizes old comrades by what they survived together.",
+    "actions": [
+      {
+        "title": "Pristinia answers hunger with a hunt",
+        "event": "Pristinia answers hunger with a hunt",
+        "date": "15 Dec 2024"
+      },
+      {
+        "title": "Olokun and Arjahn turn fear into a map",
+        "event": "Olokun and Arjahn turn fear into a map",
+        "date": "Mar 2026"
+      },
+      {
+        "title": "Olokun briefs Scribonia at Skylight Refuge",
+        "event": "Olokun briefs Scribonia at Skylight Refuge",
+        "date": "31 May 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: 31 May 2026. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "icarus",
+        "label": "Icarus",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "personality": "Aravil is concise, observant, and decisive once a fight is truly necessary. She remembers people through the methods and battles they shared, making historical memory one of her clearest forms of respect. Experience appears in judgment and recognition rather than self-promotion.",
+    "achievements": "She serves as an oathbound hunter, supports Pristinia through hunting, returns when the thrum of war calls, and enters the Abyss with Olokun and Wren. Her critical observation of Zarathian contradictions shows that martial directness does not exhaust her intelligence.",
+    "relationships": "Her absent Queen remains the origin of her oath. Jiangshi and Scribonia live in her memory through the Fey Forest hunt, including Jiangshi’s violent hairpins; Olokun recognizes her as a returning veteran; and Pristinia becomes a second belonging built through useful work rather than replacement loyalty."
+  }
+}

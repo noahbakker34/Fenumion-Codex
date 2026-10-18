@@ -1,0 +1,51 @@
+{
+  "id": "living-timeline",
+  "title": "Narrative History",
+  "category": "History",
+  "type": "Complete recovered event chronology",
+  "dek": "The living campaign’s consequential history, searchable by name, place, person, and theme; keeper access also reveals the protected ancient record.",
+  "tags": [
+    "Timeline",
+    "Events",
+    "Discovery",
+    "Continuity"
+  ],
+  "facts": {
+    "Events": "314 recovered entries",
+    "Scope": "Recovered campaign chronology",
+    "Ordering": "Causal history and player discovery",
+    "Rule": "Unresolved dates remain unresolved"
+  },
+  "sources": [
+    "Complete quest-rp export — primary scene verification and 60 newly recovered 2024 events",
+    "docs/QUEST_ARCHIVE_INDEX.md — 329 candidate-session review ledger",
+    "Fenumion_Codex_Master_Timeline_2026-09-20.md — event chronology, evidence levels, and causal spines",
+    "Fenumion Archive Catalogue — chronology and source anchors",
+    "New Year.pdf — community retrospective",
+    "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — undated 2026 Babel-Ashur reconnaissance sequence"
+  ],
+  "body": "<p>Follow Fenumion’s events, journeys and discoveries. Dates identify chronicle entries; ancient events and uncertain dates are marked separately.</p><div id=\"timeline-explorer\" class=\"timeline-explorer\"></div><h2 id=\"discovery-order\">Discoveries that change the past</h2><p>Roderick is first encountered through Vysaeth’s hostile account, then as Wrath, then through the Liar’s Delerium trade, and finally through Legend Lore. Each revelation changes what his companions understand, without erasing the choices they made before they knew.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-order",
+      "title": "Discoveries that change the past",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export — primary scene verification and 60 newly recovered 2024 events",
+          "docs/QUEST_ARCHIVE_INDEX.md — 329 candidate-session review ledger",
+          "Fenumion_Codex_Master_Timeline_2026-09-20.md — event chronology, evidence levels, and causal spines",
+          "Fenumion Archive Catalogue — chronology and source anchors",
+          "New Year.pdf — community retrospective",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — undated 2026 Babel-Ashur reconnaissance sequence"
+        ]
+      }
+    }
+  ]
+}

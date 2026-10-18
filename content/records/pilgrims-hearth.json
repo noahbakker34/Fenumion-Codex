@@ -1,0 +1,119 @@
+{
+  "id": "pilgrims-hearth",
+  "title": "The Pilgrim’s Hearth",
+  "category": "Places",
+  "type": "Pristinia tavern; successor institution",
+  "video": "assets/archive/pilgrims-hearth.mp4",
+  "imageLayout": "landscape-hero",
+  "videoAlt": "The newly finished Pilgrim’s Hearth tavern in Pristinia",
+  "videoCaption": "The Pilgrim’s Hearth — a new tavern raised on the Common Man’s foundations.",
+  "dek": "A larger tavern raised after the Common Man burned: Pristinia’s deliberate return to hospitality, news, tea, and ordinary life on remembered ground.",
+  "tags": [
+    "The Pilgrim’s Hearth",
+    "Pristinia",
+    "The Common Man",
+    "Rebuilding",
+    "Ordinary life"
+  ],
+  "facts": {
+    "Parent": "Pristinia · Prima",
+    "Predecessor": "The Common Man",
+    "Foundation": "The Common Man’s former site",
+    "Established": "Standing by 29 Jul 2026",
+    "Confirmed active": "19 Sep 2026",
+    "Papirak’s wake": "30 Sep 2026"
+  },
+  "sources": [
+    "The_Common_Man_Location_Profile_and_History.md — succession and evidence limits",
+    "State of the World record — standing on the Common Man’s foundations by 29 Jul 2026",
+    "Quest-RP scene, 19 Sep 2026 — tea, news, and social life in the completed tavern",
+    "User-supplied moving location record, 29 Sep 2026",
+    "Papiraks_Funeral_Fenumion_2026-09-30.md — communal celebration after Papirak’s burial",
+    "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522656529256284169",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522658423483797505",
+    "The_Common_Man_Location_Profile_and_History.md — consolidated location history, people, quotations, and evidence limits"
+  ],
+  "body": "<p>The Pilgrim’s Hearth is the tavern that followed <a href=\"#common-man\">the Common Man</a> after zombie pirates burned Pristinia’s accumulated civilian room. It stands on the same foundations without pretending that the earlier institution was never lost.</p>\n      <div class=\"callout gold\"><p><strong>Continuity without replacement:</strong> the Hearth is a new place on remembered ground. The archive treats rebuilding as history, not as a reset.</p></div>\n      <h2 id=\"hearth-rebuilding\">Rebuilding becomes civic life</h2>\n<p>After Green Beard’s attack destroys the Common Man in the quest scene posted 27–28 June 2026 (UTC), townsfolk return to its blackened frame. By 3 July, narration records people clearing charred beams, sorting usable stone and bringing timber, nails and cut stone. Adventurers’ donated gold and supplies make the rebuilding possible; Jon and his apprentices work alongside the carters and carpenters.</p><p>The proposed replacement is larger, intended to shelter familiar faces and wandering strangers. Herb is alive and grieving. Narration describes how the loss of the old room cannot be undone simply by replacing its walls.</p><p>Later civic scenes retain the cedar work, salvage and mostly finished building visible by 5 July. By 29 July the Pilgrim’s Hearth stands on the old foundations. The direct rebuilding scene establishes shared labor and support without making one named helper its sole architect or owner.</p>\n<h2 id=\"hearth-ordinary-life\">19 September 2026 · ordinary life returns</h2>\n      <p>The Hearth is active again as a social room. Thorn, Aurélia, Marius, and Saoirse drink tea, exchange news, and speak about Gael, the Magic Academy, teaching, and the farm. The scene is important precisely because the rebuilt tavern no longer needs to make every conversation about its own destruction.</p>\n      <p>The new structure restores a civic threshold: a place where adventurers and residents can enter without already belonging to a quest, encounter the settlement’s needs, and allow small conversations to become later history.</p>\n      <h2 id=\"hearth-inheritance\">What the Hearth inherits</h2>\n      <p>It inherits location, public purpose, and the community’s need for an ordinary gathering room. It does not automatically inherit every employee, custom, object, ownership claim, or relationship attached to the Common Man. Those continuities require direct evidence rather than assumption.</p>\n      <h2 id=\"hearth-open-record\">The open record</h2>\n      <p>The builder and owner, its complete floor plan and which furnishings or staff crossed into the new tavern remain unresolved. The Common Man record does establish Herb alive during cleanup, with intact basement stores and a few salvageable tables and stools. Survival of these objects does not establish their installation in the Hearth. The supplied moving record establishes the Hearth’s visual identity but does not answer those historical questions.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "hearth-rebuilding",
+      "title": "Rebuilding becomes civic life",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Rebuilding · direct narration and civic scenes",
+        "summary": "Original scenes checked. Observations, speaker claims and later conclusions remain distinct; posting dates are not world dates.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522656529256284169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522658423483797505",
+          "The_Common_Man_Location_Profile_and_History.md — consolidated location history, people, quotations, and evidence limits"
+        ]
+      }
+    },
+    {
+      "id": "hearth-ordinary-life",
+      "title": "19 September 2026 · ordinary life returns",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — succession and evidence limits",
+          "State of the World record — standing on the Common Man’s foundations by 29 Jul 2026",
+          "Quest-RP scene, 19 Sep 2026 — tea, news, and social life in the completed tavern",
+          "User-supplied moving location record, 29 Sep 2026",
+          "Papiraks_Funeral_Fenumion_2026-09-30.md — communal celebration after Papirak’s burial",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "hearth-inheritance",
+      "title": "What the Hearth inherits",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — succession and evidence limits",
+          "State of the World record — standing on the Common Man’s foundations by 29 Jul 2026",
+          "Quest-RP scene, 19 Sep 2026 — tea, news, and social life in the completed tavern",
+          "User-supplied moving location record, 29 Sep 2026",
+          "Papiraks_Funeral_Fenumion_2026-09-30.md — communal celebration after Papirak’s burial",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "hearth-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — succession and evidence limits",
+          "State of the World record — standing on the Common Man’s foundations by 29 Jul 2026",
+          "Quest-RP scene, 19 Sep 2026 — tea, news, and social life in the completed tavern",
+          "User-supplied moving location record, 29 Sep 2026",
+          "Papiraks_Funeral_Fenumion_2026-09-30.md — communal celebration after Papirak’s burial",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Selected return, leadership and death-scene corrections. Original archives remain external; explicit canon clarification is distinguished from recollection."
+  }
+}

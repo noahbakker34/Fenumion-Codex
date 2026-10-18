@@ -1,0 +1,22 @@
+{
+  "id": "npcs-verdelune",
+  "title": "Verdelune · NPCs",
+  "category": "Archive",
+  "type": "Island NPC directory",
+  "dek": "The documented NPC community of Verdelune.",
+  "tags": [
+    "NPCs",
+    "Verdelune"
+  ],
+  "facts": {
+    "Scope": "NPCs"
+  },
+  "sources": [
+    "Existing public NPC dossiers and location histories"
+  ],
+  "body": "",
+  "npcIsland": "verdelune",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

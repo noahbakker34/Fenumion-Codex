@@ -1,0 +1,84 @@
+{
+  "id": "casimir-alioth",
+  "title": "Casimir & Alioth",
+  "category": "People",
+  "type": "Loyalty under institutional judgment",
+  "dek": "One choice—choosing each other—becomes strength in Alioth’s account and failure in Ephraith’s.",
+  "tags": [
+    "Casimir",
+    "Alioth",
+    "Rahu",
+    "Loyalty",
+    "Provenance"
+  ],
+  "facts": {
+    "Casimir": "Procedural thinker",
+    "Alioth": "Loyalty as strength",
+    "Institution": "Rahu",
+    "Status": "Partial chronology"
+  },
+  "sources": [
+    "CHARACTER_BIBLE.md — Casimir and Alioth",
+    "RELATIONSHIPS.md — competing meanings of the Rahu trial",
+    "MASTER_TIMELINE.md — Olo’s oath and Casimir’s method"
+  ],
+  "body": "<p>Casimir approaches constraints as structures to understand. Around Olo’s Rahu oath, he tests yes-or-no questions, Zone of Truth, silence, and the information a refusal itself might reveal.</p>\n      <h2 id=\"trial\">The same action, competing meanings</h2>\n      <p>In a Rahu trial, Casimir and Alioth choose each other and fail. Alioth calls their loyalty a strength. <a href=\"#ephraith\">Ephraith</a> says they chose each other over Rahu. The action is stable; its meaning changes with the authority interpreting it.</p>\n      <h2 id=\"provenance\">Why provenance matters</h2>\n      <p>The trial is an unusually clear example of the Codex’s evidence rule. An institutional verdict is historically real without becoming the only possible truth about the behavior it judged.</p>",
+  "gallery": [
+    {
+      "image": "assets/characters/alioth.jpg",
+      "title": "Alioth",
+      "alt": "Alioth with dark hair, blue armor and blue gemstone jewelry",
+      "caption": "Alioth"
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "trial",
+      "title": "The same action, competing meanings",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — Casimir and Alioth",
+          "RELATIONSHIPS.md — competing meanings of the Rahu trial",
+          "MASTER_TIMELINE.md — Olo’s oath and Casimir’s method"
+        ]
+      }
+    },
+    {
+      "id": "provenance",
+      "title": "Why provenance matters",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "CHARACTER_BIBLE.md — Casimir and Alioth",
+          "RELATIONSHIPS.md — competing meanings of the Rahu trial",
+          "MASTER_TIMELINE.md — Olo’s oath and Casimir’s method"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Loyalty under institutional judgment",
+    "significance": "One choice—choosing each other—becomes strength in Alioth’s account and failure in Ephraith’s.",
+    "actions": [],
+    "status": "Partial chronology",
+    "relationships": [
+      {
+        "id": "ephraith",
+        "label": "Witch Queen Ephraith",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

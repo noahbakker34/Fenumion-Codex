@@ -1,0 +1,78 @@
+{
+  "id": "jeane-rose",
+  "title": "Jéane Rose",
+  "category": "People",
+  "type": "Speedster; explorer; protector",
+  "image": "assets/characters/jeane-rose.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Portrait of Jéane Rose, a speedster and explorer",
+  "imageCaption": "Jéane Rose — speedster, explorer, and protector.",
+  "dek": "Rose experiences thought, movement, curiosity, and friendship at speed—while carrying a slower and heavier obligation not to fail people again.",
+  "tags": [
+    "Jéane Rose",
+    "Speed",
+    "Exploration",
+    "Protection"
+  ],
+  "facts": {
+    "Power": "Extraordinary speed",
+    "Desire": "See and explore the world",
+    "Obligation": "Keep people safe",
+    "Tension": "Joy in movement beside fear of failure"
+  },
+  "sources": [
+    "Pasted markdown(20260909-031758).md — Coralyn, Tshuka, travel, and protection"
+  ],
+  "body": "<p>Rose’s speed structures her mind as well as her movement. Thoughts arrive and vanish quickly; curiosity becomes motion; a new detail can redirect the entire conversation. Her distractibility is therefore played as lived experience rather than an annotation attached to a power.</p>\n      <h2 id=\"explore-protect\">Explore and protect</h2>\n      <p>She says she wants to see the world and explore, then pauses before adding that she wants to keep people safe. Exploration appears joyful. Protection carries obligation, connected to the fear that without her there may be no hope.</p>\n      <h2 id=\"small-behaviors\">Small behaviors</h2>\n      <p>Rose repeats Tshuka’s name to memorize it, demonstrates silence by appearing behind Coralyn, and rejects teleportation because walking is more fun. Her powers repeatedly become social behavior rather than remaining combat description.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "explore-protect",
+      "title": "Explore and protect",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-031758).md — Coralyn, Tshuka, travel, and protection"
+        ]
+      }
+    },
+    {
+      "id": "small-behaviors",
+      "title": "Small behaviors",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-031758).md — Coralyn, Tshuka, travel, and protection"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Speedster; explorer; protector",
+    "significance": "Rose experiences thought, movement, curiosity, and friendship at speed—while carrying a slower and heavier obligation not to fail people again.",
+    "actions": [
+      {
+        "title": "Howl exposes the false Timothy",
+        "event": "Howl exposes the false Timothy",
+        "date": "29 May 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: 29 May 2026. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "personality": "Jéane experiences thought, travel, and obligation at extraordinary speed, but her record is not only about motion. She notices danger quickly and treats that advantage as a responsibility to protect people whose bodies and decisions move at a different pace.",
+    "achievements": "She joins the Howl investigation, helps the party move through the winter wilderness, and contributes to the sequence that exposes the false Timothy and follows the wolves’ trail. Her speed is most useful when it becomes shared time—warning, scouting, and creating room for companions to act.",
+    "relationships": "Minerva and Thorn are her clearest partners in the recovered investigation, combining suspicion, tracking, and rapid response. Ingrid and the endangered family give that cooperation a human purpose. Jéane’s wider relationship record remains incomplete, so the Codex preserves the demonstrated protective pattern without inventing intimacy the surviving scenes do not show."
+  }
+}

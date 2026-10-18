@@ -1,0 +1,117 @@
+[
+  {
+    "id": "pristinia-defence",
+    "title": "A wall becomes protection",
+    "summary": "Construction becomes a resource the town depends on, then danger passes beyond the defenses.",
+    "steps": [
+      {
+        "event": "Pristinia’s wall is finished",
+        "connection": "The completed wall later has a material role in defense."
+      },
+      {
+        "event": "The Delerium assault reaches Pristinia",
+        "connection": "The wall holds a blow, but the assault brings contamination into town."
+      },
+      {
+        "event": "Acolyte tests Pristinia’s walls",
+        "connection": "Later defenses face a new quest; this is continuing civic history, not proof of one unchanged threat."
+      }
+    ]
+  },
+  {
+    "id": "gael-restoration",
+    "title": "Making Gael live again",
+    "summary": "Restoration grows from material planning into living ground and woodland, with continued work and later loss.",
+    "steps": [
+      {
+        "event": "Gartina and Saray plan to restore Gael’s soil",
+        "connection": "Research and material care precede the later forest."
+      },
+      {
+        "event": "Nienna gives herself so Hope can live",
+        "connection": "The Hallowing carries a chosen personal cost."
+      },
+      {
+        "event": "Gartina plants Stake and brings forth a forest",
+        "connection": "Shared material work and planting create a larger living landscape."
+      },
+      {
+        "event": "Hope, Stake, and Shadowangel Forest are present",
+        "connection": "Later testimony records the restored places already present in 2025."
+      }
+    ]
+  },
+  {
+    "id": "anky-memory",
+    "title": "Knowledge that outlives Anky",
+    "summary": "Loss leads to shared records and research; an expedition ends with gaps that the surviving archive cannot fill.",
+    "steps": [
+      {
+        "event": "Voraketh takes something from Anky",
+        "connection": "Knowledge loss gives protected memory practical urgency."
+      },
+      {
+        "event": "Coralyn and Anky form an early Chain model",
+        "connection": "A working model guides questions without settling the island’s purpose."
+      },
+      {
+        "event": "Anky commissions the Voraketh map",
+        "connection": "Knowledge becomes something later travelers can inherit."
+      },
+      {
+        "event": "Anky’s final recovered expedition begins",
+        "connection": "The record follows his return to investigation."
+      },
+      {
+        "event": "St. Anky walks the road to the afterlife",
+        "connection": "The Wasteland scene now identifies the fatal chain-guard encounter; his records survive their maker."
+      }
+    ]
+  },
+  {
+    "id": "papirak-inheritance",
+    "title": "Papirak’s inheritance becomes a public responsibility",
+    "summary": "Burial, a disputed possession and an unfinished institution require choices from the living.",
+    "steps": [
+      {
+        "event": "Pell prepares Papirak’s burial and memorial",
+        "connection": "Care for the body becomes preparation for a civic farewell."
+      },
+      {
+        "event": "Pristinia opens a vote on Papirak’s Staff of Power",
+        "connection": "Value, ownership and public need produce different proposals."
+      },
+      {
+        "event": "Papirak’s staff is entombed under Sequester",
+        "connection": "The disposition is completed; suspicion does not change the observed burial."
+      },
+      {
+        "event": "Papirak’s mourners turn toward living",
+        "connection": "Restoration is promised, while food and fellowship return people to living."
+      }
+    ]
+  },
+  {
+    "id": "common-man-rebuilding",
+    "title": "From the Common Man to Pilgrim’s Hearth",
+    "summary": "Destruction becomes shared rebuilding, then ordinary social life returns.",
+    "steps": [
+      {
+        "event": "Zombie pirates burn the Common Man",
+        "connection": "The fire leaves a visible ruin and a need for rebuilding."
+      },
+      {
+        "event": "Pristinia clears the Common Man’s ruins",
+        "connection": "People salvage, carry and donate toward a replacement."
+      },
+      {
+        "event": "Pristinia’s cedar is stolen in Eovar",
+        "connection": "The rebuilding project connects Pristinia to a dispute beyond town."
+      },
+      {
+        "event": "Pilgrim’s Hearth returns ordinary social life",
+        "connection": "Tea and conversation show what rebuilding has made possible."
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "id": "grayward-littoral",
+  "title": "Greyward Littoral",
+  "category": "Places",
+  "type": "Babel-Ashur coastal subregion",
+  "image": "assets/archive/babel-ashur-southern-coast.webp",
+  "imageAlt": "Annotated map of Greyward Littoral on Babel-Ashur’s southern shore",
+  "imageCaption": "Greyward Littoral — Babel-Ashur’s southern shore, supplied as an annotated regional map.",
+  "dek": "Babel-Ashur’s named southern shore: an expedition landscape of safe paths, refuge, volcanic crystal, caverns, ruins, and sulphuric wetlands.",
+  "tags": [
+    "Greyward Littoral",
+    "Grayward Littoral",
+    "Babel-Ashur",
+    "Southern Shore",
+    "Map",
+    "Expedition",
+    "Locations"
+  ],
+  "facts": {
+    "Parent": "Babel-Ashur",
+    "Entry": "Landing Beach",
+    "Safety": "Marked Safe Pathways",
+    "Shelter": "Skylight Refuge",
+    "Features": "Volcanic Crystal Well · Caverns Below · Unmarked Ruins · Sulphuric Swamps"
+  },
+  "body": "<p>Greyward Littoral is the southern shore of Babel-Ashur. The regional map establishes that parent relationship and gives the coast a practical expedition geography: where travelers land, which routes are marked safe, where they can shelter, and which hazards or resources shape movement inland.</p>\n      <h2 id=\"mapped-features\">Mapped features</h2>\n      <p>Landing Beach, Safe Pathways, Skylight Refuge, the Volcanic Crystal Well, Caverns Below, the Mineral Rock Face, Unmarked Ruins, and the Sulphuric Swamps are confirmed labels. Their deeper history is not yet established, so the atlas keeps them as map-backed sublocations rather than inventing narrative functions.</p>\n      <div class=\"callout\"><p><strong>Name note:</strong> the Codex uses the user-confirmed name <em>Greyward Littoral</em>. The map retains “Grayward Littoral” as a searchable cartographic spelling variant.</p></div>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "mapped-features",
+      "title": "Mapped features",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "map",
+        "label": "Map-backed description",
+        "summary": "Mapped features verified visually; boundaries and deeper functions are not inferred.",
+        "scope": "section",
+        "sources": [
+          "Annotated Greyward Littoral map · inspected labels, shelter, pathways and coast · assets/archive/babel-ashur-southern-coast.webp",
+          "Explicit user spelling decision recorded in the existing regional history: Greyward Littoral; Grayward retained as a source spelling."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "Annotated Greyward Littoral map · inspected labels, shelter, pathways and coast · assets/archive/babel-ashur-southern-coast.webp",
+    "Explicit user spelling decision recorded in the existing regional history: Greyward Littoral; Grayward retained as a source spelling."
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "map",
+    "scope": "Mapped features verified visually; boundaries and deeper functions are not inferred."
+  }
+}

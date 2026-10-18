@@ -1,0 +1,888 @@
+{
+  "id": "gartina",
+  "title": "Gartina",
+  "category": "People",
+  "type": "Halfling chef; protector; adventurer",
+  "image": "gartina-portrait.png",
+  "imageLayout": "landscape-hero",
+  "imageAlt": "Gartina, a friendly dark-haired halfling chef and gardener, carrying food against a painted autumn landscape",
+  "imageCaption": "Gartina — chef, gardener, protector, and adventurer.",
+  "dek": "Gartina asks what it means to accept responsibility for something one does not own—and answers through attention, soil, food, consultation, and revision.",
+  "tags": [
+    "Gartina",
+    "Gael",
+    "Hope",
+    "Pristinia",
+    "Zarathis",
+    "Care",
+    "Stewardship",
+    "Refugees"
+  ],
+  "facts": {
+    "Role": "Chef, gardener, investigator, protector",
+    "Defining question": "What work does responsible care require?",
+    "Method": "Understand → act → observe → revise",
+    "Relationship": "Draegar",
+    "Love model": "Attention → knowledge → competent care",
+    "Tension": "Preparation becoming self-blame",
+    "Artwork": "Portrait; Ececilia emoji in the artist gallery"
+  },
+  "sources": [
+    "GARTINA_HISTORY.md — consolidated profile and chronology",
+    "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+    "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+    "MASTER_TIMELINE.md — dated event spine",
+    "CHARACTER_BIBLE.md — character synthesis",
+    "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+    "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+    "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+    "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+    "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+    "Gael RP · selected public location and restoration scenes; posting dates identify records",
+    "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+    "Compatible rp receipt · 2024-08-02 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1269033204275220491",
+    "Compatible rp receipt · 2024-08-02 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1269034393167462492",
+    "Compatible rp receipt · 2024-12-06 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1314692308926599229",
+    "Compatible rp receipt · 2024-12-06 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1314695921971499108",
+    "Compatible rp receipt · 2024-12-06 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1314716629757595668",
+    "Compatible rp receipt · 2025-02-24 UTC · https://discord.com/channels/1177270231513694249/1250334670957051958/1343643791235616788",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309051151316160562",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+    "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704"
+  ],
+  "body": "<p>Gartina often enters history carrying food or drink. Tea, coffee prepared specifically for Olokun, and scones are not decorative quirks; they are how she brings a crisis down to a scale where people can think together. Her intelligence is practical, observant, and willing to revise itself.</p>\n      <div class=\"quote\">You’ve got to have a code.<cite>Gartina</cite></div>\n      <div class=\"callout gold\"><p><strong>Core proposition:</strong> if you care about something, learn it well enough that your care becomes competent.</p></div>\n      <p>Her care is not an argument for non-intervention. Gardening, farming, conservation, protection, governance, and divine stewardship all choose what may flourish. Gartina’s demand is that caretakers admit those choices, learn enough to make them responsibly, observe what actually follows, and revise themselves when reality proves them wrong.</p>\n      <h2 id=\"origins\">Cooking, gardening, and her parents</h2>\n      <p>Gartina was a gardener and cook before the better-documented Gael history. She learned through spectacular culinary failure, reading, repeated practice, observation, and trying again. The same loop later governs her ecology and strategy: <em>try → fail → observe → learn → try again.</em></p>\n      <p>Her parents followed her work from poor restaurants to increasingly ambitious cuisine. They repeatedly showed up, expressed pride, and wanted her to reach her potential. Both are dead by the Zarathis garden conversation. Their love becomes Gartina’s model of care: attention creates curiosity; curiosity creates knowledge; knowledge makes support competent.</p>\n      <h2 id=\"dead-soil\">Gael’s dead soil · June 2024</h2>\n      <p>When the expedition reaches Titan’s Watch, ruined statues, a decayed cathedral, and lifeless terrain show what happens when Death defeats a land. Gartina reads the soil as the stakes made physical. Cosmic catastrophe is also an ecological condition, and it will require more than victory in battle to repair.</p>\n      <h2 id=\"retreat\">Defending Nienna’s retreat</h2>\n      <p>After Jiangshi is lost, Nienna carries shame and is blamed by Adelia, Bitoshi, and—by Nienna’s account—Nuru. Gartina rejects the maxim that an ally must never be left behind. Returning would probably have killed Nienna too and left both bodies unrecoverable. Refusing retreat can create another pointless death.</p>\n      <p>This judgment must remain in dialogue with Nienna’s later sacrifice. Gartina does not teach that courage means survival at any cost; she preserves the difference between choosing one’s own necessary price and dying because a heroic slogan forbids retreat.</p>\n      <h2 id=\"wrath-elenia\">Wrath, liberation and Gartina’s miracle</h2>\n<p>Wrath’s defeat ends a dominant threat without making Gael safe. During the assault Gartina gathers Elenia’s remains rather than leaving them to the battlefield. In the Sanctum on 21 November 2024, she prepares the body, oils and unguents for Reincarnate.</p><p>She warns that success may bring Elenia back changed. Saray, Dale, Scribonia and Draygar gather around the ritual; their hope does not guarantee its result. Gartina asks for the friend whose spirit matters to them, accepting whatever changes the return may require.</p><p>The spell record and narrator establish the outcome: Elenia emerges alive and still a satyr. Gartina’s stunned response belongs to the same moment as the others’ relief. The miracle is not an abstract property of her power; it is a costly attempt made for a particular person before she can know that it will work.</p>\n<h2 id=\"restoration\">Making life durable</h2>\n      <p>Elenia and Adelia help establish or prove a living foothold; Gartina turns toward contaminated soil, viable plants, remediation, seeds, pollination, ecological succession, and practical expansion. By 24 February 2025, Hope and Stake are visible from the Tower, Shadowangel Forest is new, and Gartina says she helped spring the changed terrain into existence.</p>\n      <div class=\"quote\">Gael is free of Wrath’s taint. What was lost can begin to grow anew.<cite>Gartina</cite></div>\n      <p>Her importance lies in continuity. Gael gives her a world-sized gardening problem, and the miracle is not enough. Somebody must remain afterward and determine how tomorrow works: what grows, where seeds come from, how pollination continues, and how restored life spreads. Adelia’s later transformation expands an existing restoration; it does not erase the earlier communal labor.</p>\n      <h2 id=\"staying\">The choice to remain</h2>\n      <p>Before February 2025, Adelia leaves Gael with a group that includes Elenia. Gartina does not know where they went. The Tower becomes quieter. She wants eventually to catch up, but remains because refugees need care, Shadowangel Forest needs exploration, and too few new arrivals from Prima are replacing those who left.</p>\n      <p>It is continuity work rather than spectacle: staying where the need remains after attention has moved elsewhere.</p>\n      <h2 id=\"refugees\">Soup, shelter, and consultation · 24 February 2025</h2>\n      <p>Refugees around the Tower live in huts and shacks with occasional magical shelter. Their ship crashed near Crustacean Cove and may be beyond repair. Gartina worries they may feel forgotten, so she and Dale make chicken noodle soup. The discovery that there are no bowls or utensils leads Dale to spend roughly four hundred gold pieces on bowls and spoons.</p>\n      <p>Immediate care becomes settlement planning. Dale proposes salvaging the wreck for a longhouse. Gartina considers Draygar’s materials and stone or metal from safer parts of the Plains. Then Dale asks whether anyone has consulted the refugees about leadership or their settlement. Gartina admits survival needs had displaced that conversation.</p>\n      <p>The correction matters: feeding, sheltering, and planning for people do not grant ownership of their future. Dale goes to ask about using the wreckage. Gartina’s work converts cosmic victory into a place where somebody can safely eat dinner, then asks whether the people being helped still control what that place becomes.</p>\n      <h2 id=\"zarathis-garden\">The Zarathis garden debate · 11 August 2025</h2>\n      <p>In a garden physically located in Zarathis, Tulaine describes stewardship through patience, hands, instinct, faith, and magic used only as a last resort. Gartina challenges the vagueness of “balance.” Cultivation is already intervention: farmers favor crops over weeds and aphids, while grove keepers draw other boundaries. Every caretaker chooses.</p>\n      <p>Her demand is blunt: <strong>you’ve got to have a code.</strong> Acting without knowledge is dangerous. Caring should create curiosity, and love without nurturing understanding is incomplete. Her method is <em>understand → decide → act → observe</em>.</p>\n      <p>Tulaine represents another knowledge system: <em>love → attend → perceive → respond</em>. Jiangshi asks what happens at the point of sacrifice and distinguishes being sustained by nature from conscious affection chosen by another person. When Gartina becomes vulnerable about her dead parents, Jiangshi places a hand on her shoulder instead of winning the argument.</p>\n      <p>No one simply wins. Gartina correctly insists that intervention admit its priorities; Tulaine exposes competent knowledge that may resist explicit theory; Jiangshi practices care as intentional presence.</p>\n      <h2 id=\"attention-as-care\">Attention as care</h2>\n      <p>Gartina notices Adelia drifting, regulates her own emotion through breath and routine, recounts what happened, and asks what can be done. She reads blight through relationships among soil, plants, wolves, deer, and human choices while also asking whether she has overstepped. She watches herself think.</p>\n      <p>Food, ecology, tactics, and settlement are one philosophy expressed at different scales. Tea gives frightened people time to speak. A bowl turns soup into usable care. A map of enemy tactics preserves costly experience. A question asked of refugees limits the authority of helpers.</p>\n      <p>This is not pure rationalism. Her parents’ attention came before expertise; knowledge grew because love made her life worth understanding. Gartina’s principle is not “know everything before you care,” but “if you care, become curious enough that your care stops being careless.”</p>\n      <h2 id=\"relationships\">Relationships that shape the method</h2>\n      <ul>\n        <li><strong>Her parents:</strong> repeated attention becomes her model of love and growth.</li>\n        <li><strong>Jiangshi:</strong> explicit analysis meets intentional, embodied presence.</li>\n        <li><strong>Tulaine:</strong> causal explanation meets instinctive and traditional stewardship.</li>\n        <li><strong>Dale:</strong> relief becomes infrastructure and consultation.</li>\n        <li><strong>Draegar:</strong> the retrospective preserves romance beside war; the full relationship chronology is missing.</li>\n        <li><strong>Olokun:</strong> ordinary attention and tactical care later become impossible self-blame after loss.</li>\n        <li><strong>Elenia and Adelia:</strong> miraculous possibility must be followed by durable restoration.</li>\n        <li><strong>Nienna:</strong> survival is defended as a morally serious choice, not cowardice.</li>\n        <li><strong>Quake:</strong> a shared estate is map-confirmed, but the relationship behind its name remains unrecovered.</li>\n        <li><strong>Magnus:</strong> distrust is strongly expressed but remains Gartina’s attributed judgment rather than objective proof.</li>\n      </ul>\n      <h2 id=\"luminar-fieldwork\">Luminar Spires · experimental explorer</h2>\n      <p>At the Luminar Spires, Gartina turns her established method into field research: <strong>question → test → observation → revised plan</strong>. She considers weather manipulation and tunneling, designs an aerial pass to test whether the western mist’s apparent effects extend vertically, observes figures moving below it, and uses Arjahn’s radiant experiment to propose a moving cleared zone.</p>\n      <p>Her flight twenty to thirty feet above the visible mist produces no nightmare, vision, or unusual mental effect in that single test. It does not prove everyone is safe above it. When Elenia’s transformed Daylight pulls the party upward, Gartina becomes a giant eagle and retrieves companions, joining investigation to rescue rather than treating the environment as an abstract puzzle.</p>\n      <h2 id=\"preparation\">Preparation and its limit</h2>\n      <p>Gartina remembers tactics and assumes enemies will adapt. Preparation is a form of love: understand enough that fewer people pay. After exhausted resources and a wrong choice contribute to Olokun’s death, that virtue breaks into self-blame. “I should have seen it” is the shadow cast by competence.</p>\n      <p>Her best pressure point is not being asked to destroy nature. It is being forced to act before she can understand enough, when waiting is itself consequential. No amount of disciplined care can make another person’s survival fully controllable.</p>\n      <h2 id=\"mechanics-as-biography\">Mechanics as biography</h2>\n      <p>A preserved mechanical history records Gartina moving from a grasslands-and-fields identity toward a protector role and losing access to Hallow. The lost ability becomes part of her biography: what she can do changes with what kind of caretaker she has chosen to become. The exact date and scene remain unresolved.</p>\n      <h2 id=\"limitations\">The danger inside her knowledge</h2>\n      <p>Gartina may undervalue embodied, intuitive, or traditional expertise when the person carrying it cannot explain a causal framework. Her demand for knowledge is a strength, but it can make other forms of competent care look unserious. She can also plan so thoroughly that ordinary uncertainty feels like personal failure.</p>\n      <h2 id=\"interpretive-boundary-gartina\">Interpretive boundary</h2>\n      <p>The supplied “favorite character” essay offers an interpretive synthesis, not an objective ranking or a declaration that Gartina’s framework is always correct. The Codex preserves Tulaine and Jiangshi as independent thinkers rather than props in Gartina’s argument. It also keeps her central risk visible: a person devoted to competent care may fail to recognize knowledge that cannot explain itself in her preferred language.</p>\n      <h2 id=\"unresolved-gartina\">Unresolved record</h2>\n      <ul>\n        <li>Her childhood, restaurant chronology, parents’ names, and the circumstances of their deaths.</li>\n        <li>Her precise contribution to Hope’s first sanctification and the full mechanism that makes the seed-created forest endure. The December 2024 planting and seed scene are recovered.</li>\n        <li>The expanded roll table behind the reported odds of Elenia’s unchanged return; Gartina’s Reincarnate and its outcome are now directly recorded.</li>\n        <li>The origins of Gartina and Quake’s Estate and the chronology of her relationship with Draegar.</li>\n        <li>The identity change that cost Hallow and her role in later Hope crises.</li>\n        <li>The exact circumstances of Olokun’s death and the choices for which she blames herself.</li>\n        <li>Where her explicit-knowledge model has failed—and whether she learned to trust knowledge she could not fully explain.</li>\n      </ul><h2 id=\"ada-reputation-gartina\">Contemporary reputation · 10 April 2024</h2><p>Ada’s early profile remembers Gartina simultaneously as baker, healer, farmer, adventurer, and community-builder. The public reputation supports the larger record’s central point: feeding people and maintaining ordinary life were part of her heroism, not an intermission from it. <a href=\"#ada-town-chronicler\">Read the chronicler’s evidence boundary.</a></p><h2 id=\"gartina-babel-survivors\">Feeding Babel’s survivors</h2><p>When captives emerge from the Babel caverns, Gartina begins feeding them. At the later campfire she produces a full meal for roughly a dozen survivors and asks Quille about the seed and the loss of her elder. She urges the group to keep telling their stories and remembering the names of the absent, offering tea when their voices tire. Food and memory become two forms of resistance.</p><p>During the later coastal reconnaissance she tests wind against the mist, retrieves companions as a giant eagle, and surveys above the fog. Her proposals for tunneling or maintaining a moving radiant barrier remain proposals. The account is posted on 26 September 2026 (UTC); it supplies no exact in-world calendar date.</p><h2 id=\"gartina-common-man-work\">Baking a place in Pristinia</h2><p>In the tavern account posted on 16 March 2024 (UTC), Nienna encourages Gartina to ask Herb for kitchen work. Gartina offers baked goods before sunrise; Herb offers ingredients and modest pay if they sell, and she accepts. Later, Herb names his beer Tina’s Tincture after her and her friends’ work drying the fields for planting. These are practical contributions remembered in the town’s daily life.</p><h2 id=\"gartina-first-green\">The first grass and the work that follows</h2><p>When Nienna brings Gartina and Dale to the ground renewed by Elenia and Adelia, Gartina removes her boots and rolls in the grass through tears. The August 2024 scene gives her practical restoration project an intensely personal reward: nature can live here again.</p><p>In the scene recorded on 6 December, she follows that joy with soil amendments, rain, a planted Staff of the Woodlands and a magical seed. Draygar refines limestone, Krone carries it and Scribonia helps transport, spread and water the materials. Gartina names the staff-born tree <strong>Stake</strong> after Krone’s food joke, then gives the name the meaning of shared sacrifice and commitment.</p><p>The seed brings forth the forest later called Shadow Angel Forest. Gartina’s delight coexists with fear that its magic may disappear; she hopes the restored ground and anchor trees will make it endure. The scene establishes her action and the narrated result, but leaves the exact permanence mechanism unsettled. Later visitors’ accounts show the forest continuing as a lived place.</p><h2 id=\"thread-tools\">Tools for the fields</h2><p>Gartina commissions six each of hoes, spades and pitchforks, plus three plow blades, from Jon. She favors durability over speed. Jon estimates forty gold and three weeks, with twenty-five gold for materials and fifteen for labor. The exchange records the commission and corrected materials deposit; it does not record delivery.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222610820706472008\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222611437533532343\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222611784351875132\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222612388226793492\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222615573075070976\" target=\"_blank\" rel=\"noopener\">5</a>.</p>\n<h2 id=\"gartina-scene-sequence\">Scenes in sequence</h2>\n<p>These selected scenes preserve what was knowable when people acted. Dates below identify source postings in UTC; they do not supply an in-world calendar. A later appearance does not settle present status.</p><ol class=\"scene-sequence\"><li><p class=\"scene-date\">2024-08-02 · compatible RP</p><h3>Living ground is personally consequential</h3><p>Gartina weeps at the green ground and removes her boots to feel the grass.</p><dl><div><dt>Known at this stage</dt><dd>A small living foothold is visible within the devastated landscape.</dd></div><div><dt>Consequence</dt><dd>Restoration matters to her before it becomes a large regional achievement.</dd></div><div><dt>Still unresolved</dt><dd>Her response is not evidence of sole authorship.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1268984472880287794/1269033204275220491\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1268984472880287794/1269034393167462492\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li><li><p class=\"scene-date\">2024-11-21 · checked scenes</p><h3>Risking change for a friend’s return</h3><p>Gartina prepares Elenia’s body and casts Reincarnate; Elenia emerges alive and still a satyr.</p><dl><div><dt>Known at this stage</dt><dd>Gartina explicitly accepts the possibility of change before the outcome.</dd></div><div><dt>Consequence</dt><dd>Her care is a concrete action in the aftermath of Wrath, shared with the friends gathered around her.</dd></div><div><dt>Still unresolved</dt><dd>The narrated outcome does not establish divine control over the rolls.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a></p></li><li><p class=\"scene-date\">2024-12-06 · compatible RP</p><h3>A staff, a tree and material help</h3><p>Gartina plants her staff; narration describes its pine transformation. Later she credits Krone’s limestone transport.</p><dl><div><dt>Known at this stage</dt><dd>The group acts with prepared materials; permanent regional safety is not established.</dd></div><div><dt>Consequence</dt><dd>Magic and practical labor both belong in the restoration account.</dd></div><div><dt>Still unresolved</dt><dd>The tree transformation does not by itself prove every forest effect permanent.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1268984472880287794/1314692308926599229\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1268984472880287794/1314695921971499108\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1268984472880287794/1314716629757595668\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a></p></li><li><p class=\"scene-date\">2025-02-24 · compatible RP</p><h3>Choosing to remain</h3><p>Gartina says she wants to rejoin the others eventually but stays because refugees and the new forest need work.</p><dl><div><dt>Known at this stage</dt><dd>She understands the choice as a tension with her Vanguard commitments.</dd></div><div><dt>Consequence</dt><dd>Her continuing care is an active decision after the expedition’s spectacular victories.</dd></div><div><dt>Still unresolved</dt><dd>This statement does not record a resignation or a formal change in command.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1250334670957051958/1343643791235616788\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li></ol>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "origins",
+      "title": "Cooking, gardening, and her parents",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "dead-soil",
+      "title": "Gael’s dead soil · June 2024",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "retreat",
+      "title": "Defending Nienna’s retreat",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "wrath-elenia",
+      "title": "Wrath, liberation and Gartina’s miracle",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed restoration · complete return sequence",
+        "summary": "Original scenes checked. Observations, speaker claims and later conclusions remain distinct; posting dates are not world dates.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309051151316160562",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704"
+        ]
+      }
+    },
+    {
+      "id": "restoration",
+      "title": "Making life durable",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "staying",
+      "title": "The choice to remain",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "refugees",
+      "title": "Soup, shelter, and consultation · 24 February 2025",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "zarathis-garden",
+      "title": "The Zarathis garden debate · 11 August 2025",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "attention-as-care",
+      "title": "Attention as care",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "relationships",
+      "title": "Relationships that shape the method",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "luminar-fieldwork",
+      "title": "Luminar Spires · experimental explorer",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "preparation",
+      "title": "Preparation and its limit",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "mechanics-as-biography",
+      "title": "Mechanics as biography",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "limitations",
+      "title": "The danger inside her knowledge",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "interpretive-boundary-gartina",
+      "title": "Interpretive boundary",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "unresolved-gartina",
+      "title": "Unresolved record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "ada-reputation-gartina",
+      "title": "Contemporary reputation · 10 April 2024",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "gartina-babel-survivors",
+      "title": "Feeding Babel’s survivors",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "gartina-common-man-work",
+      "title": "Baking a place in Pristinia",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "gartina-first-green",
+      "title": "The first grass and the work that follows",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "thread-tools",
+      "title": "Tools for the fields",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "GARTINA_HISTORY.md — consolidated profile and chronology",
+          "Gartina_Why_She_Is_One_of_My_Favorite_Fenumion_Characters.md — interpretive analysis grounded in primary scenes; preference is not canon",
+          "Fenumion_Codex_Update_Regional_History_2026-09-19.md — Gael recovery and refugee settlement",
+          "MASTER_TIMELINE.md — dated event spine",
+          "CHARACTER_BIBLE.md — character synthesis",
+          "RELATIONSHIPS.md — parents, Jiangshi, and Tulaine",
+          "Fenumion_Codex_Themes_Characters_Style_Guide_2026-09-20.md — stewardship analysis",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — aerial reconnaissance, controlled testing, and giant-eagle rescue",
+          "Contemporary Chronicle — Ada, Town Chronicler · 10 April 2024",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates",
+          "Gael RP · selected public location and restoration scenes; posting dates identify records",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+        ]
+      }
+    },
+    {
+      "id": "gartina-scene-sequence",
+      "title": "Scenes in sequence",
+      "chapter": "Scenes and consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Checked scenes · bounded conclusions",
+        "summary": "Selected original scenes checked. Observed actions, plans and attributed statements remain distinct. This does not certify the entire biography.",
+        "scope": "section",
+        "sources": [
+          "Compatible rp receipt · 2024-08-02 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1269033204275220491",
+          "Compatible rp receipt · 2024-08-02 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1269034393167462492",
+          "Compatible rp receipt · 2024-12-06 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1314692308926599229",
+          "Compatible rp receipt · 2024-12-06 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1314695921971499108",
+          "Compatible rp receipt · 2024-12-06 UTC · https://discord.com/channels/1177270231513694249/1268984472880287794/1314716629757595668",
+          "Compatible rp receipt · 2025-02-24 UTC · https://discord.com/channels/1177270231513694249/1250334670957051958/1343643791235616788",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+          "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Halfling chef; protector; adventurer",
+    "significance": "Gartina asks what it means to accept responsibility for something one does not own—and answers through attention, soil, food, consultation, and revision.",
+    "actions": [
+      {
+        "section": "gartina-scene-sequence",
+        "title": "Follow the checked scenes",
+        "date": "Choices, knowledge and consequences"
+      },
+      {
+        "section": "dead-soil",
+        "title": "Gael’s dead soil · June 2024"
+      },
+      {
+        "section": "restoration",
+        "title": "Making life durable"
+      },
+      {
+        "section": "refugees",
+        "title": "Soup, shelter, and consultation · 24 February 2025"
+      }
+    ],
+    "status": "Last dated entry in this selection: 26 Sep 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [
+      {
+        "id": "gartina",
+        "label": "Gartina",
+        "relation": "Repeated presence teaches competent care"
+      },
+      {
+        "id": "jiangshi",
+        "label": "Jiangshi",
+        "relation": "Care demonstrated rather than argued"
+      },
+      {
+        "id": "dale",
+        "label": "Dale",
+        "relation": "Practical partnership corrected by consultation"
+      },
+      {
+        "id": "draygar-warsmash",
+        "label": "Draygar WarSmash",
+        "relation": "Domestic trust beside martial history"
+      },
+      {
+        "id": "olokun",
+        "label": "Olokun",
+        "relation": "Preparation becomes self-blame after loss"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance.",
+    "curatedActions": true
+  },
+  "relationshipMap": {
+    "title": "Gartina’s relationship web",
+    "intro": "Gartina’s relationships show care becoming food, knowledge, shelter, restoration, and preparation. Select a tie to see where competence sustains people—and where it becomes arrogance or impossible self-blame.",
+    "center": {
+      "title": "Gartina",
+      "subtitle": "Care made competent"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "Care & belonging"
+      },
+      {
+        "id": "power",
+        "label": "Stewardship & knowledge"
+      },
+      {
+        "id": "conflict",
+        "label": "Disagreement & distrust"
+      },
+      {
+        "id": "politics",
+        "label": "Community & continuity"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "parents",
+        "title": "Her parents",
+        "subtitle": "Attention as a model of love",
+        "category": "bond",
+        "strength": 3,
+        "x": 50,
+        "y": 8,
+        "direction": "toward",
+        "relation": "Repeated presence teaches competent care",
+        "history": "Gartina’s parents followed her work from poor restaurants toward greater ambition, repeatedly showing up, expressing pride, and wanting her to reach her potential.",
+        "consequence": "Their pattern becomes her philosophy: attention creates curiosity; curiosity produces knowledge; knowledge lets support become competent rather than careless.",
+        "evidence": "The remembered pattern is established; their names, deaths, and full family history remain unresolved.",
+        "article": "gartina"
+      },
+      {
+        "id": "jiangshi",
+        "title": "Jiangshi",
+        "subtitle": "Presence beyond explanation",
+        "category": "bond",
+        "strength": 3,
+        "x": 76,
+        "y": 17,
+        "direction": "mutual",
+        "relation": "Care demonstrated rather than argued",
+        "history": "In the Zarathis garden debate, Jiangshi distinguishes being sustained by nature from being consciously loved by another person. When Gartina becomes vulnerable about her parents, Jiangshi simply places a hand on her shoulder.",
+        "consequence": "The gesture gives Gartina a form of care that does not need to win an argument or provide a causal theory before it can be real.",
+        "evidence": "The garden exchange is directly preserved; their wider friendship remains partly recovered.",
+        "article": "jiangshi"
+      },
+      {
+        "id": "tulaine",
+        "title": "Tulaine",
+        "subtitle": "Embodied stewardship challenged",
+        "category": "conflict",
+        "strength": 2,
+        "x": 84,
+        "y": 42,
+        "direction": "mutual",
+        "relation": "Explicit code meets practiced intuition",
+        "history": "Gartina demands that caretakers name what they favor and why. Tulaine trusts patience, instinct, faith, and hands-on practice that may resist Gartina’s preferred causal language.",
+        "consequence": "Neither method simply defeats the other. Gartina exposes hidden choices inside stewardship; Tulaine exposes knowledge that can be competent without explaining itself in Gartina’s terms.",
+        "evidence": "The debate is established; neither philosophy is declared objectively complete.",
+        "article": "zarathis"
+      },
+      {
+        "id": "dale",
+        "title": "Dale",
+        "subtitle": "Relief becomes settlement",
+        "category": "politics",
+        "strength": 2,
+        "x": 80,
+        "y": 73,
+        "direction": "mutual",
+        "relation": "Practical partnership corrected by consultation",
+        "history": "Gartina and Dale make soup for Gael’s refugees, acquire bowls and spoons, consider salvaged housing, and move from emergency care toward permanent settlement.",
+        "consequence": "Dale asks whether anyone consulted the refugees. Gartina accepts the correction: feeding and planning for people do not grant ownership of their future.",
+        "evidence": "The relief and consultation sequence is established; the settlement’s later outcome remains incomplete.",
+        "article": "dale"
+      },
+      {
+        "id": "draygar",
+        "title": "Draygar WarSmash",
+        "subtitle": "Love beyond catastrophe",
+        "category": "bond",
+        "strength": 3,
+        "x": 58,
+        "y": 90,
+        "direction": "mutual",
+        "relation": "Domestic trust beside martial history",
+        "history": "Their relationship grows through consultation, food, domestic life, and Draygar’s willingness to seek Gartina’s judgment. Later language identifies her as his love.",
+        "consequence": "The bond keeps both characters from becoming only functions—warrior and caretaker—and places an ordinary shared future beside world-scale danger.",
+        "evidence": "The romance and later intimacy are established; its beginning and full chronology remain incomplete.",
+        "article": "draygar-warsmash"
+      },
+      {
+        "id": "olokun",
+        "title": "Olokun",
+        "subtitle": "Ordinary attention, impossible guilt",
+        "category": "bond",
+        "strength": 3,
+        "x": 31,
+        "y": 87,
+        "direction": "mutual",
+        "relation": "Preparation becomes self-blame after loss",
+        "history": "Gartina prepares coffee specifically for Olo, remembers tactical patterns around him, and later carries the belief that she should have foreseen the choices contributing to his death.",
+        "consequence": "The relationship exposes the shadow of competence: careful love can become a false promise that nobody important will be lost if she prepares well enough.",
+        "evidence": "The pattern and self-blame are established; the complete later death sequence remains unresolved.",
+        "article": "olokun"
+      },
+      {
+        "id": "elenia",
+        "title": "Elenia",
+        "subtitle": "Miracle and maintenance",
+        "category": "power",
+        "strength": 2,
+        "x": 16,
+        "y": 68,
+        "direction": "mutual",
+        "relation": "Different scales of restoration",
+        "history": "Elenia helps create miraculous possibility in Gael; Gartina reads soil, seeds, pollination, shelter, and the work required to make that possibility survive tomorrow.",
+        "consequence": "Their histories resist solitary-hero mythology. World-changing intervention and sustained ecological labor are complementary forms of care.",
+        "evidence": "The shared restoration context is established; exact individual contributions remain partly unresolved.",
+        "article": "elenia"
+      },
+      {
+        "id": "adelia",
+        "title": "Adelia & Hope",
+        "subtitle": "Attention before and after departure",
+        "category": "power",
+        "strength": 2,
+        "x": 16,
+        "y": 39,
+        "direction": "mutual",
+        "relation": "Restoration continues after the miracle leaves",
+        "history": "Gartina notices Adelia’s state, shares the early living Gael context, and remains after Adelia departs. Adelia’s later transformation expands a restoration already maintained by many hands.",
+        "consequence": "Neither divine transformation nor early practical labor erases the other. Hope survives as accumulated relationship rather than individual authorship.",
+        "evidence": "The broad sequence is established; intermediate chronology remains incomplete.",
+        "article": "adelia-hope"
+      },
+      {
+        "id": "nienna",
+        "title": "Nienna",
+        "subtitle": "Retreat defended as moral choice",
+        "category": "bond",
+        "strength": 2,
+        "x": 22,
+        "y": 15,
+        "direction": "toward",
+        "relation": "Survival protected from heroic shame",
+        "history": "After Jiangshi is lost, Gartina rejects the claim that Nienna should have returned to an impossible rescue. Another body would not have restored the first.",
+        "consequence": "Nienna’s later self-chosen sacrifice does not rewrite retreat as cowardice. Gartina preserves the distinction between choosing one’s own cost and dying because a slogan forbids survival.",
+        "evidence": "Gartina’s defense and Nienna’s later choice are established; some intervening scenes remain incomplete.",
+        "article": "nienna"
+      },
+      {
+        "id": "quake",
+        "title": "Quake",
+        "subtitle": "Shared estate, incomplete story",
+        "category": "politics",
+        "strength": 1,
+        "x": 34,
+        "y": 31,
+        "direction": "mutual",
+        "relation": "A geographic bond awaiting biography",
+        "history": "Pristinia’s map names Gartina and Quake’s Estate, giving their association a durable place in the settlement’s geography. Ada also remembers them as farming partners.",
+        "consequence": "The location proves shared civic history while refusing to invent the private relationship behind its name.",
+        "evidence": "The estate and public association are established; ownership, origin, and personal chronology remain unresolved.",
+        "article": "quake"
+      },
+      {
+        "id": "magnus",
+        "title": "Magnus Niriin",
+        "subtitle": "Distrust kept attributed",
+        "category": "conflict",
+        "strength": 1,
+        "x": 67,
+        "y": 33,
+        "direction": "toward",
+        "relation": "A caretaker’s suspicion, not omniscient proof",
+        "history": "Gartina regards Magnus’s claim to have changed after Pride’s death as transparently false and views parts of his political rise with suspicion.",
+        "consequence": "Her judgment matters because it shapes trust and future preparation. It remains testimony rather than an automatic verdict on every hidden motive.",
+        "evidence": "Gartina’s distrust is established; the Codex does not promote it to objective omniscience.",
+        "article": "magnus"
+      }
+    ],
+    "insights": [
+      {
+        "label": "Original model",
+        "value": "Her parents",
+        "note": "Love begins as repeated attention to another person’s growth."
+      },
+      {
+        "label": "Best correction",
+        "value": "Dale’s question",
+        "note": "Competent help still has to ask what people want."
+      },
+      {
+        "label": "Greatest vulnerability",
+        "value": "Olokun’s loss",
+        "note": "Preparation breaks into the belief that she should have prevented everything."
+      },
+      {
+        "label": "Open bond",
+        "value": "Gartina & Quake’s Estate",
+        "note": "The shared place is known; the relationship behind it is not."
+      }
+    ]
+  },
+  "profile": {
+    "personality": "Gartina treats preparation as care. Cooking, reconnaissance, codes of conduct, and rescue all belong to the same instinct: understand what people need before the danger reaches them, then accept more responsibility than is always fair to place on one person.",
+    "achievements": "She helps establish Pristinia, investigates Eovar’s epidemic, crosses toward Gael, survives the tomb mission under Wrath’s pressure, witnesses Moirah’s costly return, and later surveys Babel-Ashur’s western mist in giant-eagle form. Her field work repeatedly turns mobility and attention into other people’s survival. Commissioned durable agricultural tools from Jon; the room records the order and deposit, not delivery.",
+    "relationships": "Nienna and Elenia form the emotional center of Gartina’s history, with Quake, Jiangshi, Dale, and Scribonia recurring across early expeditions. She defends Nienna’s retreat when others call it cowardice, showing that her loyalty includes protecting a friend from a false moral judgment, not merely protecting a body from attack."
+  },
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Selected return, leadership and death-scene corrections. Original archives remain external; explicit canon clarification is distinguished from recollection."
+  }
+}

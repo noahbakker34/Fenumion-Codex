@@ -1,0 +1,22 @@
+{
+  "id": "npcs-gael",
+  "title": "Gael · NPCs",
+  "category": "Archive",
+  "type": "Island NPC directory",
+  "dek": "The documented NPC community of Gael.",
+  "tags": [
+    "NPCs",
+    "Gael"
+  ],
+  "facts": {
+    "Scope": "NPCs"
+  },
+  "sources": [
+    "Existing public NPC dossiers and location histories"
+  ],
+  "body": "",
+  "npcIsland": "gael",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

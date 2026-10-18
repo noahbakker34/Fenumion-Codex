@@ -1,0 +1,397 @@
+[
+  {
+    "id": "bowene-title",
+    "subject": "Leadership",
+    "status": "corrected",
+    "finding": "Bowene already holds the High Lord title before Aria’s death. Aria’s cultural authority was distinct from that office.",
+    "limit": "The clarification does not establish a constitution, a new office or Bowene’s original accession procedure.",
+    "article": "bowene",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1402336345216520324"
+    ],
+    "basis": "August quest receipt and explicit canon clarification, 18 October 2026"
+  },
+  {
+    "id": "bowene-exiles",
+    "subject": "Leadership",
+    "status": "corrected",
+    "finding": "The later exile scene explicitly names Aravil, Olokun and Elenia.",
+    "limit": "The complete rationale and jurisdiction need the full judgment sequence; Magnus is not named in this receipt.",
+    "article": "bowene",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "bowene-council",
+    "subject": "Leadership",
+    "status": "reviewed",
+    "finding": "Bowene says the council will not pursue the proposed pact with Death.",
+    "limit": "This is a decision in that council, not proof of a permanent constitutional veto.",
+    "article": "bowene",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "vysaeth-motive",
+    "subject": "Motive and testimony",
+    "status": "attributed",
+    "finding": "Vysaeth’s recovered journal presents lichdom as service to his people.",
+    "limit": "A self-account does not independently establish benevolence or excuse his conduct.",
+    "article": "vysaeth",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1259704019522424855"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "vysaeth-finality",
+    "subject": "Death and return",
+    "status": "unresolved",
+    "finding": "The expedition recovers Vysaeth’s remains and Quake disposes of them.",
+    "limit": "Disposition of remains alone does not establish permanent death for a lich.",
+    "article": "vysaeth",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1259718370631352333"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "nienna-losses",
+    "subject": "Death and return",
+    "status": "reviewed",
+    "finding": "Nienna dies fighting soul eaters and wraiths on 9 July 2024. Saray recovers her body and obtains the diamond; Elenia casts Raise Dead on 15 July. The September sacrifice is separate.",
+    "limit": "The spell log documents the same return as the awakening. Nienna’s recollection of a struggle for her soul does not establish permanent consumption; Saray’s guilt stays attributed.",
+    "article": "nienna",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1250445552424980590/1260299455974871133",
+      "https://discord.com/channels/1177270231513694249/1250445552424980590/1260305414650593313",
+      "https://discord.com/channels/1177270231513694249/1250445552424980590/1260306267860242492",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449208804245524",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1262449640599457802",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1262450457775702097",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452409809240116",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1262452805474717837",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453720646553702",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1262453968429387917",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1262454129700241521",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1262459654999642142"
+    ],
+    "basis": "Original narration, death-save and casting records checked; compatible intervening quest testimony; reviewed 18 October 2026"
+  },
+  {
+    "id": "hallowing-labor",
+    "subject": "Restoration",
+    "status": "reviewed",
+    "finding": "The Hallowing completes after a sustained defense; narration records exhaustion among Adelia, Gartina and Elenia.",
+    "limit": "This does not make one person the sole creator of living Gael.",
+    "article": "gael",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1281615199949950999",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1281616182302212230"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "saray-final-blow",
+    "subject": "War and outcome",
+    "status": "reviewed",
+    "finding": "Saray’s shot is followed by Wrath’s narrated collapse and Scribonia’s observation of her final blow.",
+    "limit": "The decisive blow does not erase the party’s work or recover every casualty.",
+    "article": "saray",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1309050682531381310",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1309050737262727248",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1309050810948386828"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "elenia-cleaving",
+    "subject": "Death and return",
+    "status": "reviewed",
+    "finding": "Wrath cleaves Elenia; Gartina recovers her remains and brings her back with Reincarnate in the Sanctum on 21 November 2024.",
+    "limit": "The immediate return and the story called the Miracle refer to this same recovery.",
+    "article": "elenia",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1309045066140094559",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1309051151316160562",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704"
+    ],
+    "basis": "Selected original receipts; reviewed 18 October 2026"
+  },
+  {
+    "id": "aria-death",
+    "subject": "Death and return",
+    "status": "reviewed",
+    "finding": "The narrator explicitly records Pride dying at Talan’s feet.",
+    "limit": "Dumuzi’s subsequent claim over her body remains a speaker’s claim.",
+    "article": "aria-pride",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1436211265629585531",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1436212063717425223"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "miracle-cause",
+    "subject": "Death and return",
+    "status": "corrected",
+    "finding": "Gartina’s post-Wrath Reincarnate restores Elenia, still a satyr, on 21 November 2024. The former separate 2026 placement was incorrect.",
+    "limit": "The scene does not establish a higher power controlling the result. Earlier accounts give one-in-250 odds; the full expanded table is not independently recovered.",
+    "article": "elenia",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309204291889926144",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309208664086941717",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309215317821755482",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218180371185756",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309218954698428518",
+      "https://discord.com/channels/1177270231513694249/1250444114387013673/1309219444249198704"
+    ],
+    "basis": "Selected original receipts; reviewed 18 October 2026"
+  },
+  {
+    "id": "ryvyt-founder",
+    "subject": "Founding and membership",
+    "status": "attributed",
+    "finding": "Ryvyt calls himself the remaining Ale-Chemy Knights founder in May 2026.",
+    "limit": "His established founder identity remains; this utterance alone does not determine every other founder’s fate.",
+    "article": "ryvyt",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1509063709832511558"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "severina-rank",
+    "subject": "Leadership",
+    "status": "reviewed",
+    "finding": "Kumai recognizes that the participants wish Severina to lead, before testing their skills.",
+    "limit": "Recognition in a test is distinct from a complete later command chart.",
+    "article": "lady-severina",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1493799371710660618"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "kasiri-contest",
+    "subject": "War and outcome",
+    "status": "reviewed",
+    "finding": "Kasiri lands the finishing blow; Kumai praises her and asks the group to find a leader.",
+    "limit": "Contest victory and the later leadership decision are different outcomes.",
+    "article": "lady-severina",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1493843618308296836",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1493843619327770654"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "vanguard-merger",
+    "subject": "Founding and membership",
+    "status": "attributed",
+    "finding": "Severina describes Veilguard–Vanguard collaboration as a goal.",
+    "limit": "The proposal does not establish a completed merger or a single organizational identity.",
+    "article": "vanguard",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1530769622276509799"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "hope-scale",
+    "subject": "Geography",
+    "status": "corrected",
+    "finding": "The location notes contain incompatible estimates of Hope’s width and radius.",
+    "limit": "Neither estimate is promoted into surveyed map geometry.",
+    "article": "gael",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1201218439008751636/1349376239693205575",
+      "https://discord.com/channels/1177270231513694249/1201218439008751636/1348902074556878858"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "spire-opening",
+    "subject": "Chronology",
+    "status": "corrected",
+    "finding": "The Silver Spire notice explicitly records a July edit to a January post.",
+    "limit": "The January timestamp cannot securely date its present name, opening or all advertised services.",
+    "article": "fenwicks-tower",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1328364550084362350/1328370733474381837"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "vital-chain-branches",
+    "subject": "Founding and membership",
+    "status": "attributed",
+    "finding": "Fenwick’s January draft names Vital Chain and describes intended work in Eovar and Pristinia.",
+    "limit": "His conditional wording does not prove two functioning branches or date a legal foundation.",
+    "article": "vital-chain",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1328364550084362350/1329126927469903903",
+      "https://discord.com/channels/1177270231513694249/1328364550084362350/1329139413053210796"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "stake-restoration",
+    "subject": "Restoration",
+    "status": "reviewed",
+    "finding": "Gartina plants the staff, narration describes the pine transformation, and she credits Krone’s material help.",
+    "limit": "That transformation alone does not prove every forest effect permanent.",
+    "article": "gartina",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1268984472880287794/1314692308926599229",
+      "https://discord.com/channels/1177270231513694249/1268984472880287794/1314695921971499108",
+      "https://discord.com/channels/1177270231513694249/1268984472880287794/1314716629757595668"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "adelia-exclusive",
+    "subject": "Restoration",
+    "status": "attributed",
+    "finding": "Jiangshi calls Adelia the true Hope; Adelia immediately answers that hope belongs to everyone.",
+    "limit": "Both interpretations retain their speakers. Later transformation does not prove exclusive earlier authorship.",
+    "article": "adelia-hope",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1322042481524867193",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1322043720983384166"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "pristinia-founder",
+    "subject": "Founding and membership",
+    "status": "reviewed",
+    "finding": "The naming exchange contains multiple contributors, including Jiangshi, John and Melian.",
+    "limit": "It is not an exclusive founder charter or the whole history of the settlement’s construction.",
+    "article": "pristinia",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "melian-abduction-date",
+    "subject": "Chronology",
+    "status": "reviewed",
+    "finding": "The narrator dates the discovered deaths and Melian’s disappearance to the preceding day.",
+    "limit": "The posting timestamp dates the discovery narration; the scene’s explicit relative date must be retained.",
+    "article": "melian-starguard",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1380213378869628993"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "common-man-fire",
+    "subject": "Chronology",
+    "status": "corrected",
+    "finding": "The quest scene posted 27–28 June 2026 (UTC) records Green Beard setting the roof alight and the narrator recording its collapse.",
+    "limit": "Herb survives. The full casualty roll, captain’s ultimate fate and every item transferred into the Hearth remain incomplete.",
+    "article": "common-man",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1520571135870107658",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1520573837672972464",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1520587522776764536",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1520595215453388921",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1522656529256284169"
+    ],
+    "basis": "Selected original receipts; reviewed 18 October 2026"
+  },
+  {
+    "id": "thorn-return",
+    "subject": "Death and return",
+    "status": "reviewed",
+    "finding": "After the body is recovered, Alyhotep begins a Wish-based resurrection; Thorn is alive and recovering in Gael by 8 September 2026.",
+    "limit": "The attempt and later life are checked; a separate narrator description of the exact spell-completion moment is not recovered.",
+    "article": "thorn",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1546367920744173610",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1546377635007823872",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1546378926463389706",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1546381952112787486",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1546382488291508254",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1546990766197575721",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1547002626812416020"
+    ],
+    "basis": "Selected original receipts; reviewed 18 October 2026"
+  },
+  {
+    "id": "anky-death-cause",
+    "subject": "Death and return",
+    "status": "reviewed",
+    "finding": "A construct at the Binding Chains explicitly kills Anky and Alfred on 20 April 2026 and throws their bodies across. Cerwin falls the following day.",
+    "limit": "The earlier hostile creature is a different encounter. This does not establish that a subsequent resurrection never occurred.",
+    "article": "st-anky",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1495886354217701421",
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1495896420996354342",
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1495900772192354395",
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1495912538527895665",
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1495912625400316138",
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164",
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411",
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1495922528349065266",
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1496030131381080114",
+      "https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868"
+    ],
+    "basis": "Selected original receipts; reviewed 18 October 2026"
+  },
+  {
+    "id": "voraketh-explanation",
+    "subject": "Motive and testimony",
+    "status": "attributed",
+    "finding": "Coralyn separates the loss-of-magic experience from explanations for it.",
+    "limit": "The observation does not establish a universal mechanism for the Chains or Maw.",
+    "article": "coralyn",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1201218439008751636/1471589562005455052"
+    ],
+    "basis": "Selected original receipts"
+  },
+  {
+    "id": "voraketh-identities",
+    "subject": "Geography",
+    "status": "unresolved",
+    "finding": "The public histories preserve distinct figures, names, watchers and regional effects.",
+    "limit": "Similar context does not establish a shared identity or a single cause.",
+    "article": "voraketh",
+    "references": [],
+    "basis": "Retained regional investigation history; competing models unresolved"
+  },
+  {
+    "id": "dungeon-restoration",
+    "subject": "Restoration",
+    "status": "unresolved",
+    "finding": "The Training Dungeon history records a later restoration promise.",
+    "limit": "The reviewed record does not yet establish completion or a guaranteed safe return.",
+    "article": "training-dungeon",
+    "references": [],
+    "basis": "Retained institutional history and player review"
+  },
+  {
+    "id": "aria-sibling-denial",
+    "subject": "Motive and testimony",
+    "status": "corrected",
+    "finding": "Aria’s denial of siblings was a lie because the subject was too painful; it does not erase the older brother from her history.",
+    "limit": "Her brother’s complete fate remains open.",
+    "article": "aria-pride",
+    "references": [],
+    "basis": "Explicit canon clarification, 18 October 2026"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "id": "vital-chain",
+  "title": "Vital Chain",
+  "image": "assets/archive/vital-chain-symbol-poster.png",
+  "imageAlt": "Vital Chain symbol: interwoven gold, blue, violet and green luminous loops around a central light within an ornate circular frame",
+  "imageCaption": "The symbol of Vital Chain.",
+  "video": "assets/archive/vital-chain-symbol.mp4",
+  "videoCaption": "The animated symbol of Vital Chain.",
+  "category": "Factions",
+  "type": "Healing & community institution",
+  "dek": "The healing and community network founded by Fenwick and associated with Eovar’s renewal.",
+  "tags": [
+    "Vital Chain",
+    "Fenwick",
+    "Eovar Harbor",
+    "Healing",
+    "Community"
+  ],
+  "facts": {
+    "Founder": "Fenwick d’Jorasco",
+    "Associated place": "Eovar Harbor",
+    "Purpose": "Healing · community · spiritual restoration",
+    "Public recognition": "Ada’s account · 27 January 2025",
+    "Founding date": "Unestablished",
+    "Earliest checked proposal": "15 January 2025 · opening branches still conditional"
+  },
+  "sources": [
+    "Fenwick describes The Vital Chain proposal to Lionel, posted 15 January 2025 · https://discord.com/channels/1177270231513694249/1328364550084362350/1329126927469903903",
+    "Fenwick discusses the name, principles and intended communal work · https://discord.com/channels/1177270231513694249/1328364550084362350/1329128102911283363",
+    "Fenwick discusses possible Eovar and Pristinia operations · https://discord.com/channels/1177270231513694249/1328364550084362350/1329139413053210796",
+    "https://discord.com/channels/1177270231513694249/1328364550084362350/1329126927469903903",
+    "https://discord.com/channels/1177270231513694249/1328364550084362350/1329128102911283363",
+    "https://discord.com/channels/1177270231513694249/1328364550084362350/1329139413053210796"
+  ],
+  "relatedRecords": [
+    "fenwick",
+    "eovar-harbor",
+    "tobias"
+  ],
+  "body": "<p><a href=\"#fenwick\">Fenwick d'Jorasco</a> founded Vital Chain, an institution associated with healing, community, connectedness and spiritual restoration in <a href=\"#eovar-harbor\">Eovar Harbor</a>.</p>\n<h2 id=\"vital-chain-renewal\">Recognition in Eovar’s renewal</h2><p>On 27 January 2025, Ada identifies Fenwick as a halfling wizard, healer, civic rebuilder and Vital Chain’s founder. Her account remembers his part in Eovar’s renewal; it does not date the institution’s founding.</p><p>Vital Chain is distinct from Fenwick’s attempted adventurers’ guild and the <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a>. Their shared concern with support and coordination does not establish a merger. The Chain’s complete membership, governance and later activity remain open.</p>\n<h2 id=\"vital-chain-proposal\">15 January 2025 · a proposal before the public reputation</h2>\n<p>Fenwick shares a draft for Vital Chain with Lionel, describing coordinated medical treatment, public health and community readiness in Eovar and Pristinia. He wants a network joining adventurers, neighbors, merchants and craftspeople. The draft already calls him its founder, while his accompanying speech still speaks of creating the group.</p><p>Later in the exchange he speaks conditionally about opening in Eovar and then Pristinia. This establishes a named proposal and a developing organization before Ada’s 27 January account. It does not date a legal foundation, confirm two functioning branches or demonstrate that every promised service was delivered.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "vital-chain-renewal",
+      "title": "Recognition in Eovar’s renewal",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenwick describes The Vital Chain proposal to Lionel, posted 15 January 2025 · https://discord.com/channels/1177270231513694249/1328364550084362350/1329126927469903903",
+          "Fenwick discusses the name, principles and intended communal work · https://discord.com/channels/1177270231513694249/1328364550084362350/1329128102911283363",
+          "Fenwick discusses possible Eovar and Pristinia operations · https://discord.com/channels/1177270231513694249/1328364550084362350/1329139413053210796"
+        ]
+      }
+    },
+    {
+      "id": "vital-chain-proposal",
+      "title": "15 January 2025 · a proposal before the public reputation",
+      "chapter": "Scenes and consequences",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Institutional proposal · original checked",
+        "summary": "Fenwick’s draft and speech establish his proposal and intentions. Completed branches and a founding date are not established.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1328364550084362350/1329126927469903903",
+          "https://discord.com/channels/1177270231513694249/1328364550084362350/1329128102911283363",
+          "https://discord.com/channels/1177270231513694249/1328364550084362350/1329139413053210796"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "testimony",
+    "scope": "Direct early proposal recovered. Founder identity preserved; the proposal does not establish completed branches or a legal founding date."
+  }
+}

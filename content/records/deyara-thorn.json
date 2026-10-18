@@ -1,0 +1,115 @@
+{
+  "id": "deyara-thorn",
+  "title": "Deyara Thorn",
+  "category": "People",
+  "type": "Lost leader · Voraketh mystery",
+  "dek": "Physisia names Deyara Thorne as a former leader and asks Pappy to find her. Her whereabouts and the anomaly surrounding her name remain unresolved.",
+  "tags": [
+    "Deyara Thorn",
+    "Derya Thorne",
+    "Voraketh",
+    "Mystery",
+    "Coralyn",
+    "Memory",
+    "Veiled Watch",
+    "Deyara Thorne",
+    "Physisia",
+    "Last Grove"
+  ],
+  "facts": {
+    "Record status": "Former leadership named by Physisia; whereabouts unresolved",
+    "Recent spelling": "Deyara Thorn",
+    "Older archive spelling": "Derya Thorne · relationship unresolved",
+    "Region of investigation": "Voraketh",
+    "Reported anomaly": "Coralyn · September 2026",
+    "Recording system": "Nuru’s memory book at the Veiled Watch",
+    "Historic connection": "Physisia calls Deyara Thorne a former leader of the people",
+    "Grove spelling": "Deyara Thorne",
+    "Present whereabouts": "Unknown",
+    "Region": "Voraketh"
+  },
+  "sources": [
+    "Deyara_Thorn_Derya_Thorne_Mystery_Dossier.md — supplied 5 October 2026; Voraketh full Codex 25 September 2026 and older location history"
+  ],
+  "body": "<p>Physisia asks Pappy to find <strong>Deyara Thorne</strong>, whom she calls a former leader of the people. Elsewhere in Voraketh, the name is recorded as <strong>Deyara Thorn</strong>, with <strong>Derya Thorne</strong> in older accounts. The connection between those spellings and Deyara’s present circumstances remains unresolved.</p><h2 id=\"deyara-grove\">Physisia’s instruction at the Last Grove</h2><p>During Pappy’s communion at <a href=\"#last-grove\">the Last Grove</a> on 20 October 2025, Physisia names Deyara and warns that Talan’s creatures hold back what was lost. She has not seen Deyara or those associated with her for a very long time and hopes they are safe. Pappy may tell her that Physisia sent him.</p><p>Physisia’s testimony establishes a historic leadership connection, without revealing a current location, ancestry, allegiance or fate.</p><h2 id=\"deyara-recording\">The name that resists preservation</h2><p><a href=\"#coralyn\">Coralyn</a> later reports that the name becomes strange or hushed and cannot be properly written in Nuru’s memory book at the Veiled Watch. The cause is unknown. That particular book remains distinct from the Temple of Secrets, and the same failure has not been established in both places.</p><h2 id=\"deyara-unknown-links\">Voraketh’s other mysteries</h2><p>The Maw’s associated figure, the separate blurred watcher, the Destroyer and the voice that restored Alfred remain unidentified. Physisia’s instruction does not establish any of them as Deyara. Nor does it show that Deyara made the Chains or caused the devouring.</p><h2 id=\"deyara-open-questions\">The search still ahead</h2><p>Where is Deyara now? What happened to the people she once led? Why does her name resist preservation? Do all the recorded spellings refer to the same person? Physisia gives the search a direction, without supplying its answers.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "deyara-grove",
+      "title": "Physisia’s instruction at the Last Grove",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deyara_Thorn_Derya_Thorne_Mystery_Dossier.md — supplied 5 October 2026; Voraketh full Codex 25 September 2026 and older location history"
+        ]
+      }
+    },
+    {
+      "id": "deyara-recording",
+      "title": "The name that resists preservation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deyara_Thorn_Derya_Thorne_Mystery_Dossier.md — supplied 5 October 2026; Voraketh full Codex 25 September 2026 and older location history"
+        ]
+      }
+    },
+    {
+      "id": "deyara-unknown-links",
+      "title": "Voraketh’s other mysteries",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deyara_Thorn_Derya_Thorne_Mystery_Dossier.md — supplied 5 October 2026; Voraketh full Codex 25 September 2026 and older location history"
+        ]
+      }
+    },
+    {
+      "id": "deyara-open-questions",
+      "title": "The search still ahead",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deyara_Thorn_Derya_Thorne_Mystery_Dossier.md — supplied 5 October 2026; Voraketh full Codex 25 September 2026 and older location history"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Lost leader · Voraketh mystery",
+    "significance": "Physisia names Deyara Thorne as a former leader and asks Pappy to find her. Her whereabouts and the anomaly surrounding her name remain unresolved.",
+    "actions": [
+      {
+        "title": "Coralyn preserves Voraketh’s unanswered connections",
+        "event": "Coralyn preserves Voraketh’s unanswered connections",
+        "date": "22 Sep 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: 22 Sep 2026. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "coralyn",
+        "label": "Coralyn",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

@@ -9,3 +9,6 @@ private/vault*.json
 
 # macOS Finder metadata is local-only.
 .DS_Store
+
+# Reproducible public bundles; generated from canonical content before preview/deployment.
+site/data/

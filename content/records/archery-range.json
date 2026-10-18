@@ -1,0 +1,88 @@
+{
+  "id": "archery-range",
+  "title": "Archery Range",
+  "category": "Places",
+  "type": "Pristinia training and craft",
+  "dek": "Rolen’s range brings together equipment, practice, family lessons and the everyday work of learning from one another.",
+  "facts": {
+    "Parent": "Pristinia",
+    "Early owner": "Rolen Ofandrus",
+    "Uses": "Training · practice · equipment · craft"
+  },
+  "body": "<h2 id=\"prima-rp-range-rolen\">Rolen makes the range usable</h2><p>In March 2024, Rolen remodels and cleans the range while preparing bows, crossbows and arrows for business. He identifies himself to Pilanas Cristias as its owner and describes training and practice as its purpose. His work makes a place where equipment, instruction and a welcoming first conversation meet.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219730733761953832\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219894542866845786\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219896613628018769\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219897917100265482\" target=\"_blank\" rel=\"noopener\">4</a>.</p><h2 id=\"prima-rp-range-pilanas\">Pilanas learns the craft</h2><p>Pilanas asks to learn woodworking. Rolen warns that shaping good arrow shafts takes years of practice, then offers a useful starting task: attaching heads to shafts he has prepared. When she hears condescension in his explanation, he clarifies that he meant the task is easier, not that she is incapable. He demonstrates the glue and fitting process, leaving further instruction open. Craft is passed through patient work rather than a promise of instant mastery.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219895726843101204\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219898776160960533\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219900156200357960\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219901601171509268\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219902619661897773\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"prima-rp-range-family\">Learning to protect oneself</h2><p>Claire Hearthford brings Kathie to learn self-defense. Rolen presents a carved training bow, adjusts the trainees’ technique and encourages them after misses. Claire tells Kathie to attend to posture, aim and breathing instead of the target alone. Jako’s account explicitly credits Rolen’s encouragement with easing frustration and improving a shot. The range serves families and newcomers as well as experienced adventurers.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221842792578285721\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221849048793878541\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221859364231577661\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221860123237023884\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221860499336073349\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"prima-rp-range-return\">Practice and unexpected company</h2><p>Eugene arrives hoping to practice bladesinging privately and finds someone already there. The scene records an accidental meeting in a shared training space. Later, Aerrow and Aravil practice and recognize one another as warriors struggling to feel settled after their arrival. Their discussion records their own experiences and affinities; it does not make the range a formal academy or turn every conversation there into policy.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1261037269930741781\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365768886338715658\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365769309917286542\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365772052497432709\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365775346749935628\" target=\"_blank\" rel=\"noopener\">5</a>.</p>",
+  "relatedRecords": [
+    "rolen",
+    "pristinia",
+    "eugene",
+    "aerrow",
+    "aravil"
+  ],
+  "tags": [
+    "Archery Range",
+    "Prima",
+    "RP history"
+  ],
+  "sources": [
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "prima-rp-range-rolen",
+      "title": "Rolen makes the range usable",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-range-pilanas",
+      "title": "Pilanas learns the craft",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-range-family",
+      "title": "Learning to protect oneself",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-range-return",
+      "title": "Practice and unexpected company",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+        ]
+      }
+    }
+  ]
+}

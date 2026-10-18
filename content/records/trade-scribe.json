@@ -1,0 +1,53 @@
+{
+  "id": "trade-scribe",
+  "title": "Scribe",
+  "category": "Guide",
+  "type": "Fenumion trade skill reference",
+  "dek": "Research and copy spells into a personal book and the community library.",
+  "tags": [
+    "Blessings",
+    "Homebrew",
+    "Crafting",
+    "Skill Experience",
+    "Scribe"
+  ],
+  "facts": {
+    "System": "Fenumion crafting"
+  },
+  "sources": [
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+  ],
+  "body": "<p><a href=\"#fenumion-crafting\">← Crafting &amp; Skill Experience</a></p><p>The purpose of the scribe is to delve deep within the disorganized stacks of Pristinia’s library, uncovering treasures long forgotten, or perhaps purposefully left there to be found by Cala and Nuru?<br><br>The mechanics of being a scribe represent this research to find spells and transcribe them into your own spellbook or similar object (such as a warlock’s Book of Secrets or those with the Ritual Caster feat) and provide a copy to the growing compendium open to all in Pristinia. The spell must be from your class’ list and this work does not represent the creation of any magic items, nor do you get a copy of said scroll upon a success.</p><h2 id=\"trade-scribe-section-1\">The Scribe Progression Table</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Scribe · table 1\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Scribe · table 1</caption><thead><tr><th scope=\"col\">Skill Level</th><th scope=\"col\">Skill Exp. Required</th><th scope=\"col\">Abilities</th></tr></thead><tbody><tr><th scope=\"row\">Apprentice</th><td>1,000</td><td>On a successful check, you copy one spell of level 6 or lower of your choosing to the community library and your spellbook, and may not attempt another roll for the rest of the same IRL week, with attempts resetting on Mondays. On a failed result, you may repeat the roll the following day.<br>+2 to Scribing Rolls</td></tr><tr><th scope=\"row\">Journeyman</th><td>4,000</td><td>On a successful check, you copy one spell of level 7 or lower of your choosing to the community library and your spellbook, and may not attempt another roll for two weeks. On a failed result, you may repeat the roll the following day. <br>+4 to Scribing Rolls</td></tr><tr><th scope=\"row\">Expert</th><td>10,000</td><td>On a successful check, you copy one spell of level 8 or lower of your choosing to the community library and your spellbook, and may not attempt another roll for two weeks. On a failed result, you may repeat the roll the following day. <br>+6 to Scribing Rolls</td></tr><tr><th scope=\"row\">Master</th><td>20,000</td><td>On a successful check, you copy one spell of level 9 or lower of your choosing to the community library and your spellbook, and may not attempt another roll for one month. On a failed result, you may repeat the roll the following day. <br>+8 to Scribing Rolls</td></tr></tbody></table></div><h2 id=\"trade-scribe-section-3\">How it Works</h2><p>To scribe a spell scroll, the scribe rolls a d20 and adds their proficiency bonus and skill level bonus. Another scribe of the same skill level or higher may use the Help action to give advantage on that roll, but doing so forfeits their ability to roll for scribing their own spell that day. This roll may not be modified in any way except as outlined in this skill description.</p><p>On a success, a scribe roll with the Help action counts as a success for both scribes, prohibiting them from scribing or providing the help action for the period of time equivalent to the level of the spell scribed as defined above. On a failed result, it does not count as a failure for the one providing the help action, allowing them to roll that same day, should they desire.</p><p>The DC to successfully transcribe is based on the spell’s level as follows:</p><p>Levels 1-5: DC 10</p><p>Level 6: DC 15</p><p>Level 7: DC 20</p><p>Level 8: DC 25</p><p>Level 9: DC 30</p><p>A roll of a natural 1 imposes a cooldown timer in days equivalent to 1 + the level of the spell that was attempted to scribe. During this time, the Scribe may not make another attempt nor provide the Help action.</p><p>Various wizard subclasses provide reduced time costs for the scribing of certain spells. Those class features reduce the cooldown time between a successful roll and the next attempt by the amount of time specified (minimum of four days). Any discounts to the cost of copying spells does not apply to the Scribe job, as there is no cost associated with this work.</p><p class=\"blessing-source\">Read the <a href=\"https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo\" target=\"_blank\" rel=\"noopener noreferrer\">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "trade-scribe-section-1",
+      "title": "The Scribe Progression Table",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-scribe-section-3",
+      "title": "How it Works",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    }
+  ]
+}

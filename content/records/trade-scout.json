@@ -1,0 +1,53 @@
+{
+  "id": "trade-scout",
+  "title": "Scout",
+  "category": "Guide",
+  "type": "Fenumion trade skill reference",
+  "dek": "Gather wood, stone, metal, plants and relics.",
+  "tags": [
+    "Blessings",
+    "Homebrew",
+    "Crafting",
+    "Skill Experience",
+    "Scout"
+  ],
+  "facts": {
+    "System": "Fenumion crafting"
+  },
+  "sources": [
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+  ],
+  "body": "<p><a href=\"#fenumion-crafting\">← Crafting &amp; Skill Experience</a></p><p>The scout plays an important role for both craftsmen and builders, accumulating materials during their time around Fenumion which can be used in the creation of magic items, houses, vehicles, shops or even entire settlements.</p><h2 id=\"trade-scout-section-1\">The Scout Progression Table</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Scout · table 1\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Scout · table 1</caption><thead><tr><th scope=\"col\">Skill Level</th><th scope=\"col\">Skill Exp. Required</th><th scope=\"col\">Abilities</th></tr></thead><tbody><tr><th scope=\"row\">Apprentice</th><td>1,000</td><td>A scout may gather 1d4 common materials per 2 hours of logged roleplay on a successful check<br>+2 to all Scouting Rolls</td></tr><tr><th scope=\"row\">Journeyman</th><td>4,000</td><td>A scout may gather 1d4 uncommon materials per 2 hours of logged roleplay on a successful check, or 2d4 common ones<br>+4 to all Scouting Rolls</td></tr><tr><th scope=\"row\">Expert</th><td>10,000</td><td>A scout may gather 1d4 rare materials per 2 hours of logged roleplay on a successful check, 2d4 uncommon materials, or 3d4 common materials<br>+6 to all Scouting Rolls</td></tr><tr><th scope=\"row\">Master</th><td>20,000</td><td>A scout may gather 1d4 very rare materials per 2 hours of logged roleplay on a successful check, 2d4 rare materials, 3d4 uncommon materials, or 4d4 common materials<br>+8 to all Scouting Rolls</td></tr></tbody></table></div><h2 id=\"trade-scout-section-3\">How it Works</h2><p>To gather items, after logging a qualifying RP in #rp-log, the scout goes to #crafting-log and announces what rarity of material they are gathering, and rolls a d20 and adds their skill experience bonus. This roll cannot be modified in any way except as defined in this skill description. They may also choose to gather rarities LOWER than their tier allows. For each tier lower, the scout may add an additional d4 to their gathering roll. The quality of the material gathered is determined by meeting or exceeding the following DCs:</p><p>Common: DC 5</p><p>Uncommon: DC 10</p><p>Rare: DC 15</p><p>Very Rare: DC 20</p><p>A natural 1 renders any attempt at finding and gathering materials unsuccessful. On a successful roll, the scout then rolls a 1d4 to determine the quantity of the materials gathered. The scout may choose what type of material was collected: Wood, Stone, Metal, Plants or Relics. Examples of each type of material are available in #regional-resources. A Ranger in their favored terrain cannot fail and gains a +1 to all gathering checks and amount rolls.</p><p class=\"blessing-source\">Read the <a href=\"https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo\" target=\"_blank\" rel=\"noopener noreferrer\">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "trade-scout-section-1",
+      "title": "The Scout Progression Table",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-scout-section-3",
+      "title": "How it Works",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    }
+  ]
+}

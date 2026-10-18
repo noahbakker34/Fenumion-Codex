@@ -1,0 +1,22 @@
+{
+  "id": "npcs-fein-uaill",
+  "title": "Fein Uaill · NPCs",
+  "category": "Archive",
+  "type": "Island NPC directory",
+  "dek": "The documented NPC community of Fein Uaill.",
+  "tags": [
+    "NPCs",
+    "Fein Uaill"
+  ],
+  "facts": {
+    "Scope": "NPCs"
+  },
+  "sources": [
+    "Existing public NPC dossiers and location histories"
+  ],
+  "body": "",
+  "npcIsland": "fein-uaill",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

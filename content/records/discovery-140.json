@@ -1,0 +1,62 @@
+{
+  "id": "discovery-140",
+  "title": "Magda",
+  "category": "People",
+  "type": "Named archive identity",
+  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "tags": [
+    "Magda",
+    "identity"
+  ],
+  "facts": {
+    "Role": "Named archive identity",
+    "Island": "Not established",
+    "Census posts": "9",
+    "Recorded span": "2024-05-13 → 2024-08-08",
+    "Prominence": "67/100 · Established",
+    "Recorded presence": "7/20"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><p><a href=\"#elder-magda\">Read the existing Magda history →</a></p><h2 id=\"discovery-140-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 67/100 · Established</strong></p><p>She announces collective decisions while preserving ordinary labor and hospitality costs.</p><ul><li>Consequences: 4/5 · weight 35</li><li>Institutional or witness role: 4/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 7/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-140-record\">Archive record</h2><p>The census records 9 posts across 2024-05-13 → 2024-08-08. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239620696389320804\">Recorded scene · 1239620696389320804</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-140-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-140-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "profile": {
+    "achievements": "The Elder who announces a collective decision while keeping ordinary hospitality and its cost in view."
+  }
+}

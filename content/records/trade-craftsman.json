@@ -1,0 +1,95 @@
+{
+  "id": "trade-craftsman",
+  "title": "Craftsman",
+  "category": "Guide",
+  "type": "Fenumion trade skill reference",
+  "dek": "Combine components and materials into magic items.",
+  "tags": [
+    "Blessings",
+    "Homebrew",
+    "Crafting",
+    "Skill Experience",
+    "Craftsman"
+  ],
+  "facts": {
+    "System": "Fenumion crafting"
+  },
+  "sources": [
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+  ],
+  "body": "<p><a href=\"#fenumion-crafting\">← Crafting &amp; Skill Experience</a></p><p>Craftsmen serve as the final stop on the production chain for magic items in Fenumion. They take the Components painstakingly gathered by Hunters and the Materials gathered by Scouts and/or meticulously refined by Smiths and combine them to create magic items.</p><h2 id=\"trade-craftsman-section-1\">The Craftsman Progression Table</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Craftsman · table 1\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Craftsman · table 1</caption><thead><tr><th scope=\"col\">Skill Level</th><th scope=\"col\">Skill Exp. Required</th><th scope=\"col\">Abilities</th></tr></thead><tbody><tr><th scope=\"row\">Apprentice</th><td>1,000</td><td>Allows the crafting of Common and Uncommon magic items that don't require attunement, given the proper supplies   <br>+2 to Crafting Rolls</td></tr><tr><th scope=\"row\">Journeyman</th><td>4,000</td><td>Allows the crafting of any Common or Uncommon magic items, as well as Rare items that don't require attunement, given the proper supplies   <br>+4 to Crafting Rolls</td></tr><tr><th scope=\"row\">Expert</th><td>10,000</td><td>Allows the crafting of any Rare magic items, as well as Very Rare magic items that don’t require attunement, given the proper supplies   <br>+6 to Crafting Rolls</td></tr><tr><th scope=\"row\">Master</th><td>20,000</td><td>Allows the crafting of any Very Rare and all Legendary Items, given the proper supplies<br>+8 to Crafting Rolls</td></tr></tbody></table></div><h2 id=\"trade-craftsman-section-3\">How it Works</h2><p>To create, the craftsman rolls a d20 and adds to it their proficiency bonus and their skill level modifier. Another craftsman of the same skill level or higher may use the Help action to give  advantage on the roll. The Artificer class feature Magic Item Adept/Savant/Master confers an additional bonus to the refining roll of +1, +2, or +3, depending on the highest level of this feature for that Artificer. This roll cannot be modified in any way except as outlined in this skill description. The DC to successfully craft depends on the rarity of the magic item as defined below:</p><p>Common: DC 5</p><p>Uncommon: DC 10</p><p>Rare: DC 17</p><p>Very Rare: DC 25</p><p>Legendary: DC 33</p><p>To craft a permanent magic item of a given rarity requires a wide variety of supplies, including Components gathered from monsters by Hunters and Materials, which are obtained by Scouts and possibly refined by Smiths. Items requiring attunement generally require more and higher rarity materials than their non-attunement counterparts, as illustrated below. An adventurer may carry up to 5 consumable magic items (potions and scrolls) and are limited to carrying the same rarities as other magic items, as detailed in #server-specific-rule.</p><h2 id=\"trade-craftsman-section-11\">Material Requirements for Permanent, Attunement Magic Items</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Craftsman · table 2\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Craftsman · table 2</caption><thead><tr><th scope=\"col\">Item Type</th><th scope=\"col\">Common</th><th scope=\"col\">Uncommon</th><th scope=\"col\">Rare</th><th scope=\"col\">Very Rare</th><th scope=\"col\">Legendary</th></tr></thead><tbody><tr><th scope=\"row\">Metal Weapon</th><td>4 Common Metal<br>2 Common Relics<br>1 Common Component</td><td>4 UC Metal<br>2 UC Relics<br>2 UC Components</td><td>6 Rare Metal<br>3 Rare Relics<br>6 Rare Components</td><td>10 VR Metal<br>4 VR Relics<br>6 VR Components</td><td>5 LG Metal<br>3 LG Components<br>3 Knight’s Treasures</td></tr><tr><th scope=\"row\">Wooden Weapon</th><td>4 Common Wood<br>2 Common Relics<br>1 Common Component</td><td>4 UC Wood<br>2 UC Relics<br>2 UC Components</td><td>6 Rare Wood<br>3 Rare Relics<br>6 Rare Components</td><td>10 VR Wood<br>3 Rare Relics<br>6 VR Components</td><td>5 LG Wood<br>3 LG Components<br>3 Knight’s Treasures</td></tr><tr><th scope=\"row\">Spellcasting Focus</th><td>4 Common Relics<br>2 Common Components</td><td>4 UC Relics<br>4 UC Components</td><td>6 Rare Relics<br>8 Rare Components</td><td>8 VR Relics<br>8 VR Components</td><td>5 LG Relics<br>3 LG Components<br>3 Knight’s Treasures</td></tr><tr><th scope=\"row\">Wondrous Item</th><td>3 Common Relics<br>3 Common Components</td><td>3 UC Relics<br>6 UC Components</td><td>5 Rare Relics<br>12 Rare Components</td><td>6 VR Relics<br>10 VR Components</td><td>5 LG Relics<br>3 LG Components<br>3 Knight’s Treasures</td></tr><tr><th scope=\"row\">Boots</th><td>1 Common Metal<br>1 Common Plant<br>2 Common Components</td><td>1 UC Metal<br>1 UC Plant<br>4 UC Components</td><td>2 Rare Metal<br>2 Rare Plant<br>8 Rare Components</td><td>3 VR Metal<br>3 VR Plant<br>8 VR Components</td><td>3 LG Metal<br>3 LG Plant<br>3 LG Components<br>3 Knight’s Treasures</td></tr><tr><th scope=\"row\">Cape</th><td>2 Common Plant<br>3 Common Components</td><td>2 UC Plant<br>6 UC Components</td><td>3 Rare Plant<br>12 Rare Components</td><td>4 VR Plant<br>12 VR Components</td><td>4 LG Plant<br>4 LG Components<br>3 Knight’s Treasures</td></tr><tr><th scope=\"row\">Ring</th><td>1 Common Metal<br>1 Common Relic<br>1 Common Components</td><td>1 UC Metal<br>1 UC Relic<br>2 UC Components</td><td>2 Rare Metal<br>1 Rare Relic<br>6 Rare Components</td><td>3 VR Metal<br>2 VR Relic<br>6 VR Components</td><td>2 LG Metal<br>2 LG Relics<br>3 LG Components<br>3 Knight’s Treasures</td></tr><tr><th scope=\"row\">Metal Armor</th><td>6 Common Metal<br>2 Common Relics<br>2 Common Components</td><td>6 UC Metal<br>2 UC Relics<br>4 UC Components</td><td>8 Rare Metal<br>3 Rare Relics<br>8 Rare Components</td><td>10 VR Metal<br>4 VR Relics<br>8 VR Components</td><td>5 LG Metal<br>3 LG Components<br>3 Knight’s Treasures</td></tr><tr><th scope=\"row\">Other Armor</th><td>3 Common Relics<br>4 Common Components</td><td>3 UC Relics<br>8 UC Components</td><td>5 Rare Relics<br>16 Rare Components</td><td>6 VR Relics<br>10 VR Components</td><td>3 LG Relics<br>4 LG Components<br>3 Knight’s Treasures</td></tr><tr><th scope=\"row\">Shield</th><td>2 Common Metal<br>2 Common Plants<br>2 Common Components</td><td>2 UC Metal<br>2 UC Plants<br>4 UC Components</td><td>3 Rare Metal<br>3 Rare Plants<br>8 Rare Components</td><td>4 VR Metal<br>4 VR Plants<br>8 VR Components</td><td>2 LG Metal<br>2 LG Plant<br>3 LG Components<br>3 Knight’s Treasures</td></tr></tbody></table></div><h2 id=\"trade-craftsman-section-13\">Material Requirements for Permanent, Non-Attunement Magic Items</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Craftsman · table 3\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Craftsman · table 3</caption><thead><tr><th scope=\"col\">Item Type</th><th scope=\"col\">Common</th><th scope=\"col\">Uncommon</th><th scope=\"col\">Rare</th><th scope=\"col\">Very Rare</th><th scope=\"col\">Legendary</th></tr></thead><tbody><tr><th scope=\"row\">Metal Weapon</th><td>2 Common Metal<br>1 Common Relics<br>1 Common Component</td><td>2 Uncommon Metal<br>1 Uncommon Relics<br>1 Uncommon Components</td><td>3 Rare Metal<br>2 Rare Relics<br>3 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr><tr><th scope=\"row\">Wooden Weapon</th><td>2 Common Wood<br>1 Common Relics<br>1 Common Component</td><td>2 Uncommon Wood<br>1 Uncommon Relics<br>1 Uncommon Components</td><td>3 Rare Wood<br>2 Rare Relics<br>3 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr><tr><th scope=\"row\">Spellcasting Focus</th><td>2 Common Relics<br>1 Common Components</td><td>2 Uncommon Relics<br>2 Uncommon Components</td><td>3 Rare Relics<br>4 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr><tr><th scope=\"row\">Wondrous Item</th><td>1 Common Relics<br>2 Common Components</td><td>2 Uncommon Relics<br>3 Uncommon Components</td><td>3 Rare Relics<br>6 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr><tr><th scope=\"row\">Boots</th><td>1 Common Metal<br>1 Common Plant<br>1 Common Components</td><td>1 Uncommon Metal<br>1 Uncommon Plant<br>2 Uncommon Components</td><td>1 Rare Metal<br>1 Rare Plant<br>4 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr><tr><th scope=\"row\">Cape</th><td>1 Common Plant<br>2 Common Components</td><td>1 Uncommon Plant<br>3 Uncommon Components</td><td>2 Rare Plant<br>6 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr><tr><th scope=\"row\">Ring</th><td>1 Common Metal<br>1 Common Relic<br>1 Common Components</td><td>1 Uncommon Metal<br>1 Uncommon Relic<br>1 Uncommon Components</td><td>1 Rare Metal<br>1 Rare Relic<br>3 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr><tr><th scope=\"row\">Metal Armor</th><td>3 Common Metal<br>1 Common Relics<br>1 Common Components</td><td>3 Uncommon Metal<br>1 Uncommon Relics<br>2 Uncommon Components</td><td>4 Rare Metal<br>1 Rare Relics<br>4 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr><tr><th scope=\"row\">Other Armor</th><td>2 Common Relics<br>2 Common Components</td><td>2 Uncommon Relics<br>4 Uncommon Components</td><td>3 Rare Relics<br>8 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr><tr><th scope=\"row\">Shield</th><td>1 Common Metal<br>1 Common Plants<br>1 Common Components</td><td>1 Uncommon Metal<br>1 Uncommon Plants<br>2 Uncommon Components</td><td>1 Rare Metal<br>2 Rare Plants<br>4 Rare Components</td><td>Same as attunement above</td><td>Same as attunement above</td></tr></tbody></table></div><h2 id=\"trade-craftsman-section-15\">Material Requirements for Consumable Magic Items (potions and scrolls)</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Craftsman · table 4\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Craftsman · table 4</caption><thead><tr><th scope=\"col\">Item Type</th><th scope=\"col\">Common</th><th scope=\"col\">Uncommon</th><th scope=\"col\">Rare</th><th scope=\"col\">Very Rare</th><th scope=\"col\">Legendary</th></tr></thead><tbody><tr><th scope=\"row\">Potion</th><td>2 Common Plant<br>2 Common Components</td><td>2 Uncommon Plant<br>3 Uncommon Components</td><td>2 Rare Plant<br>4 Rare Components</td><td>Not possible</td><td>Not possible</td></tr><tr><th scope=\"row\">Scroll</th><td>2 Common Plant<br>2 Common Relics<br>1 Common Component<br>+ Any costly material component the spell may require</td><td>2 Uncommon Plant<br>2 Uncommon Relics<br>2 Uncommon Components<br>+ Any costly material component the spell may require</td><td>3 Rare Plant<br>3 Rare Relics<br>4 Uncommon Components<br>+ Any costly material component the spell may require</td><td>Not possible</td><td>Not possible</td></tr></tbody></table></div><p>Given a large enough supply of Components and Materials, there is no limit on how many times per day a Crafter may make crafting rolls. However, be aware that if a roll fails by more than double your skill modifier bonus, the attempt destroys half of the Components and Materials involved and a natural 1 on the crafting roll destroys all Components and Materials involved.</p><p class=\"blessing-source\">Read the <a href=\"https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo\" target=\"_blank\" rel=\"noopener noreferrer\">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "trade-craftsman-section-1",
+      "title": "The Craftsman Progression Table",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-craftsman-section-3",
+      "title": "How it Works",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-craftsman-section-11",
+      "title": "Material Requirements for Permanent, Attunement Magic Items",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-craftsman-section-13",
+      "title": "Material Requirements for Permanent, Non-Attunement Magic Items",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-craftsman-section-15",
+      "title": "Material Requirements for Consumable Magic Items (potions and scrolls)",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    }
+  ]
+}

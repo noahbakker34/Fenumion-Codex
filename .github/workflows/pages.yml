@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -16,7 +17,55 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v6
+      - name: Validate canonical public records
+        run: python3 scripts/check_content.py
+      - name: Build reproducible public bundles
+        run: python3 scripts/build_codex.py
+      - name: Check runtime syntax and whitespace
+        run: |
+          node --check site/app.js
+          node --check site/codex-reader.js
+          git diff --check
+  reader:
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v6
+      - name: Build public records
+        run: python3 scripts/build_codex.py
+      - name: Install the pinned browser test runtime
+        run: |
+          npm install --prefix "$RUNNER_TEMP/codex-browser" --no-audit --no-fund playwright@1.62.1
+          "$RUNNER_TEMP/codex-browser/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Start local preview
+        run: |
+          python3 -m http.server 8880 --bind 127.0.0.1 --directory site >"$RUNNER_TEMP/codex-preview.log" 2>&1 &
+          python3 - <<'PYREADY'
+          import time, urllib.request
+          for attempt in range(20):
+              try:
+                  urllib.request.urlopen('http://127.0.0.1:8880/', timeout=2)
+                  break
+              except OSError:
+                  time.sleep(0.5)
+          else:
+              raise SystemExit('Preview did not start')
+          PYREADY
+      - name: Check reading, history, search, mobile and protected boundaries
+        run: |
+          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_reader.cjs
+          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_research_journeys.cjs
   deploy:
+    if: github.event_name != 'pull_request'
+    needs: [validate, reader]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -24,6 +73,8 @@ jobs:
     steps:
       - name: Check out the repository
         uses: actions/checkout@v6
+      - name: Build public records
+        run: python3 scripts/build_codex.py
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Prepare Pages package

@@ -1,0 +1,22 @@
+{
+  "id": "cala",
+  "category": "Cosmology",
+  "title": "",
+  "type": "",
+  "dek": "",
+  "tags": [],
+  "facts": {},
+  "sources": [],
+  "body": "",
+  "gallery": [
+    {
+      "image": "assets/characters/cala-alternate.gif",
+      "title": "Cala · alternate visual",
+      "alt": "Cala standing in radiant stormlight with a luminous spear",
+      "caption": "An alternate animated visual record of Cala."
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": true,
+  "sections": []
+}

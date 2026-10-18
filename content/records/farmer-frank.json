@@ -1,0 +1,58 @@
+{
+  "id": "farmer-frank",
+  "title": "Farmer Frank",
+  "category": "People",
+  "type": "Pristinia farmer",
+  "dek": "Carries the ordinary cost when promised harvest help does not return.",
+  "tags": [
+    "NPCs",
+    "Farmer Frank"
+  ],
+  "facts": {
+    "Role": "Pristinia farmer",
+    "Region": "Prima"
+  },
+  "sources": [
+    "The Common Man · existing public history"
+  ],
+  "body": "<p>Carries the ordinary cost when promised harvest help does not return.</p><h2 id=\"farmer-frank-history\">The surviving history</h2><p>Read <a href=\"#common-man\">The Common Man</a> for the recorded scenes and their context.</p>",
+  "relatedRecords": [
+    "common-man"
+  ],
+  "image": "assets/characters/farmer-frank.png",
+  "imageAlt": "Farmer Frank carrying an axe over his shoulder beside fields",
+  "imageCaption": "Farmer Frank",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "farmer-frank-history",
+      "title": "The surviving history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The Common Man · existing public history"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Pristinia farmer",
+    "significance": "Carries the ordinary cost when promised harvest help does not return.",
+    "actions": [
+      {
+        "title": "Pristinia answers hunger with a hunt",
+        "event": "Pristinia answers hunger with a hunt",
+        "date": "15 Dec 2024"
+      }
+    ],
+    "status": "Last dated entry in this selection: 15 Dec 2024. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

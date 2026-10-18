@@ -1,0 +1,130 @@
+{
+  "id": "lucido",
+  "title": "Lucido Spettoro",
+  "category": "People",
+  "type": "Explorer · civic chronicler",
+  "dek": "An explorer and chronicler who asks what adventuring changes for a community, then carries the memory of earlier journeys into later choices.",
+  "tags": [
+    "Lucido Spettoro",
+    "Lucido"
+  ],
+  "facts": {
+    "Method": "Participate, record and reconsider",
+    "Civic interest": "Local commerce and community consequences",
+    "Biography": "Partly reconstructed"
+  },
+  "sources": [
+    "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+    "Selected primary scenes and established public histories; anchors below"
+  ],
+  "body": "<p>Lucido participates in events and records how he understands them. His journals preserve a person thinking about travel, institutions and ordinary lives, rather than an omniscient history of everything he witnesses.</p><h2 id=\"lucido-civic-economy\">August 2024 · money and local livelihoods</h2><p>At a meeting with Pristinians he worries about the economic position adventurers have helped create. He encourages the party to patronize local businesses and asks whether local makers could compete with Zakar’s goods so that spending stays in town.</p><p>This is a proposal for capability and participation, not a confirmed new policy or completed manufacturing program. His concern places adventuring wealth inside the life of the settlement rather than treating purchases as an isolated personal decision.</p><h2 id=\"lucido-rahu-journal\">The Rahu through a changing interpretation</h2><p>His journal records gift exchange, hierarchy, Dasa and practices that initially trouble him. Those observations retain his perspective and do not settle every question about autonomy within the Rahu. His later declaration that he is Lucido of the Rahu is a consequential change in self-identification, not proof that every earlier objection was false.</p><p>A changing judgment belongs in the history. Neither the first moral reaction nor the later loyalty needs to become the Codex’s final verdict on a people.</p><h2 id=\"lucido-memory-in-action\">2026 · the previous journey still matters</h2><p>In later exploration he asks about a river’s role and history, compares the explanation with how rivers behave where he comes from and tests what the place is showing him. On another visit he says he would prefer to avoid the river because the last trip was difficult. Memory changes his next decision.</p><p>His humor remains visible beside that caution. A brief acceptance that it is time to fight can coexist with detailed questions about a route. The reflective chronicler is still an active companion.</p><h2 id=\"lucido-open-history\">The open record</h2><p>His complete personal biography, the chronology of every journal entry and his full later Gael career remain only partly reconstructed. Civic proposals are not reported as enacted reforms, and journals do not turn impressions into objective fact.</p><p class=\"source-note\">Personal testimony: <a href=\"https://discord.com/channels/1177270231513694249/1201218376849162250/1290765000054673429\">Lucido’s Rahu self-identification</a>.</p><h2 id=\"fourth-source-scenes\">Recorded scenes</h2><p>Dates identify transcript postings.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1271200329379217479\">8 August 2024 · local business proposal</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1489452165033492591\">2 April 2026 · learning the river’s history</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1489457003771461866\">Testing the river account against experience</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1491979199483871253\">9 April · remembering the earlier journey</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1521340824359538802\">29 June · deciding to fight</a></li></ul>",
+  "image": "assets/characters/lucido-spettoro.jpeg",
+  "imageAlt": "Lucido Spettoro",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "lucido-civic-economy",
+      "title": "August 2024 · money and local livelihoods",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "lucido-rahu-journal",
+      "title": "The Rahu through a changing interpretation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "lucido-memory-in-action",
+      "title": "2026 · the previous journey still matters",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "lucido-open-history",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "fourth-source-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Explorer · civic chronicler",
+    "significance": "An explorer and chronicler who asks what adventuring changes for a community, then carries the memory of earlier journeys into later choices.",
+    "actions": [
+      {
+        "title": "A sea expedition discovers a new island",
+        "event": "A sea expedition discovers a new island",
+        "date": "6 Jun 2024 · quest-RP"
+      },
+      {
+        "title": "The Before’s distress call proves to be a lure",
+        "event": "The Before’s distress call proves to be a lure",
+        "date": "8 Jun 2024 · quest-RP"
+      },
+      {
+        "title": "Lucido reports three refugee homes completed",
+        "event": "Lucido reports three refugee homes completed",
+        "date": "Sep 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: Sep 2026. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "An explorer and chronicler who asks what adventuring changes for a community, then carries the memory of earlier journeys into later choices."
+  }
+}

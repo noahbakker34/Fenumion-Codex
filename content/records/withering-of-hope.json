@@ -1,0 +1,108 @@
+{
+  "id": "withering-of-hope",
+  "title": "The Withering of Hope",
+  "category": "History",
+  "type": "Resurrection, betrayal, and the wounding of Hope",
+  "dek": "Adelia called Magnus back as a friend. Minutes later, he accepted Dumuzi's gift, turned its death-working power upon Hope, and declared that only Ambition remained.",
+  "tags": [
+    "Magnus",
+    "Hope",
+    "Adelia",
+    "Moirah",
+    "Dumuzi",
+    "Betrayal",
+    "Resurrection",
+    "Gael"
+  ],
+  "facts": {
+    "Date": "27 February 2026",
+    "Location": "Hope, Gael",
+    "Event ID": "FEN-TL-20260227-HOPE-WITHERS",
+    "Principal figures": "Adelia, Jiangshi, Bitoshi, Alyhotep, Magnus, Moirah, Dumuzi",
+    "Status": "Scene-backed historical event"
+  },
+  "sources": [
+    "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — event reconstruction, dialogue, chronology, and evidence boundaries",
+    "Discord quest-RP scene · 27 February 2026 — primary scene cited by the reconstruction"
+  ],
+  "body": "<p>At Hope, reunion and catastrophe occupy the same scene. Jiangshi speaks of Hope, Love, and Faith while Adelia turns toward the golden tree and asks for the return of Magnus Niriin. Her Divine Intervention succeeds. Magnus receives a fresh body and is addressed not as a weapon or political asset, but as Adelia's friend.</p>\n      <h2 id=\"the-return\">A final return</h2>\n      <p>Moirah arrives haggard and furious. She says that she fights Death constantly and that restoring Magnus required her to retrieve a soul Death owns. Death laughed while she did it. The scene establishes the cost and the claimed ownership; it does not establish that Death planned every detail, deliberately permitted the resurrection, or possessed foreknowledge of everything Magnus would do next.</p>\n      <p>Adelia tells Magnus, “This is the last time.” Jiangshi frames the return as another chance for redemption. Those words make the resurrection an act of trust with limits: the company has not forgotten Magnus's history, but it has chosen once more to leave him room to choose differently.</p>\n      <h2 id=\"dumuzis-gift\">Dumuzi's gift</h2>\n      <p>Dumuzi appears, praises Magnus, and offers him a gift. Magnus accepts before learning its exact nature. The gift is then revealed as a special expression of <em>Power Word Kill</em>, capable of affecting beings who arrived through the Gate and Tree Shards such as Hope. Magnus calls Dumuzi “a friend.” The record shows acceptance, disclosure, and use in that order; it does not supply a hidden private conversation or prove that every divine power consented to the exchange.</p>\n      <h2 id=\"only-ambition-remains\">“Hope is dead. Only Ambition remains.”</h2>\n      <blockquote><p>“Hope is dead. Only Ambition remains.”</p><cite>Magnus Niriin, 27 February 2026</cite></blockquote>\n      <p>Magnus turns toward Hope and speaks the line before using the gifted death-working power. Hope begins to wither. He then Plane Shifts toward Fein Uaill. The sentence is memorable not because it explains every motive, but because it makes the choice unmistakable: resurrection offered a renewed life, and Magnus immediately defines that life through Ambition at Hope's expense.</p>\n      <h2 id=\"immediate-response\">The work of saving what remains</h2>\n      <p>Adelia and Jiangshi act immediately to preserve Hope. Bitoshi calls the act “a betrayal of the highest magnitude.” Adelia declares an intention to kill Magnus and later blames herself for restoring him. Her guilt belongs in the record because it shapes her response, but it is her judgment of herself—not objective proof that she bears moral responsibility for the decision Magnus made after his return.</p>\n      <p>Alyhotep, Bitoshi, Jiangshi, and Adelia become witnesses to a rupture that reaches beyond one relationship. Hope is a living part of Gael's recovery and a symbol made materially vulnerable by the same trust that returned Magnus. Restoration and accountability can no longer be discussed as separate questions.</p>\n      <h2 id=\"responsibility-boundaries\">What the scene proves—and what it does not</h2>\n      <p>The scene directly establishes Adelia's intervention, Moirah's retrieval of a Death-owned soul, Magnus's acceptance of Dumuzi's gift, its announced capacity, Magnus's words, Hope's withering, and his departure. It does not prove that betrayal was inevitable, that Dumuzi engineered every preceding event, that Death intentionally allowed Magnus to escape ownership, or that Adelia caused the attack by offering mercy.</p>\n      <div class=\"callout gold\"><p>The Withering of Hope is therefore both a historical event and a moral boundary in Magnus's record: another person paid to restore his capacity to choose, and he used that capacity against the living emblem of recovery before him.</p></div>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "the-return",
+      "title": "A final return",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — event reconstruction, dialogue, chronology, and evidence boundaries",
+          "Discord quest-RP scene · 27 February 2026 — primary scene cited by the reconstruction"
+        ]
+      }
+    },
+    {
+      "id": "dumuzis-gift",
+      "title": "Dumuzi's gift",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — event reconstruction, dialogue, chronology, and evidence boundaries",
+          "Discord quest-RP scene · 27 February 2026 — primary scene cited by the reconstruction"
+        ]
+      }
+    },
+    {
+      "id": "only-ambition-remains",
+      "title": "“Hope is dead. Only Ambition remains.”",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — event reconstruction, dialogue, chronology, and evidence boundaries",
+          "Discord quest-RP scene · 27 February 2026 — primary scene cited by the reconstruction"
+        ]
+      }
+    },
+    {
+      "id": "immediate-response",
+      "title": "The work of saving what remains",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — event reconstruction, dialogue, chronology, and evidence boundaries",
+          "Discord quest-RP scene · 27 February 2026 — primary scene cited by the reconstruction"
+        ]
+      }
+    },
+    {
+      "id": "responsibility-boundaries",
+      "title": "What the scene proves—and what it does not",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion_Codex_The_Withering_of_Hope_Magnus_Return_and_Betrayal_v2.md — event reconstruction, dialogue, chronology, and evidence boundaries",
+          "Discord quest-RP scene · 27 February 2026 — primary scene cited by the reconstruction"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "serra",
+  "title": "Serra",
+  "category": "People",
+  "type": "Common Man barmaid",
+  "dek": "A tavern worker whose observation about declining tips preserves the civilian economic effect of an adventurer’s absence.",
+  "tags": [
+    "NPCs",
+    "Serra"
+  ],
+  "facts": {
+    "Role": "Common Man barmaid",
+    "Region": "Prima"
+  },
+  "sources": [
+    "The Common Man · existing public history"
+  ],
+  "body": "<p>A tavern worker whose observation about declining tips preserves the civilian economic effect of an adventurer’s absence.</p><h2 id=\"serra-history\">The surviving history</h2><p>Read <a href=\"#common-man\">The Common Man</a> for the recorded scenes and their context.</p>",
+  "relatedRecords": [
+    "common-man"
+  ],
+  "image": "assets/characters/discord/92a87df1b1617501b18dc9bc3af2dab2f7d2952b76bfcc2e59b5665500431380.png",
+  "imageAlt": "Discord depiction of Serra",
+  "imageCaption": "Serra",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "serra-history",
+      "title": "The surviving history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The Common Man · existing public history"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Common Man barmaid",
+    "significance": "A tavern worker whose observation about declining tips preserves the civilian economic effect of an adventurer’s absence.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

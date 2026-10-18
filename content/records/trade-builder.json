@@ -1,0 +1,95 @@
+{
+  "id": "trade-builder",
+  "title": "Builder",
+  "category": "Guide",
+  "type": "Fenumion trade skill reference",
+  "dek": "Construct houses, businesses, vehicles, roads and settlements.",
+  "tags": [
+    "Blessings",
+    "Homebrew",
+    "Crafting",
+    "Skill Experience",
+    "Builder"
+  ],
+  "facts": {
+    "System": "Fenumion crafting"
+  },
+  "sources": [
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+  ],
+  "body": "<p><a href=\"#fenumion-crafting\">← Crafting &amp; Skill Experience</a></p><p>The builder serves an important purpose in Fenumion, expanding the world by constructing new buildings, shops, vehicles, roads and even settlements. Experienced builders are also able to receive passive income from the structures they create, based on their use.</p><h2 id=\"trade-builder-section-1\">The Builder Progression Table</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Builder · table 1\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Builder · table 1</caption><thead><tr><th scope=\"col\">Skill Level</th><th scope=\"col\">Skill Exp. Required</th><th scope=\"col\">Abilities</th></tr></thead><tbody><tr><th scope=\"row\">Apprentice</th><td>1,000</td><td>May build player houses with the proper materials</td></tr><tr><th scope=\"row\">Journeyman</th><td>4,000</td><td>May build player shops and taverns with the proper materials, which earns the builder passive income</td></tr><tr><th scope=\"row\">Expert</th><td>10,000</td><td>May build vehicles and roads with proper materials, which earns the builder passive income</td></tr><tr><th scope=\"row\">Master</th><td>20,000</td><td>May build entirely new player settlements with proper materials, which earns the builder passive income</td></tr></tbody></table></div><h2 id=\"trade-builder-section-3\">How it Works</h2><p>Builders function differently than other trades in Fenumion. Their focus is less on specific skill rolls than it is taking raw materials and investing the time into the world to bring forth entirely new locations for roleplay and adventure.<br><br>As builders progress in capability, they will unlock the ability to create structures, vehicles and more according to the Abilities section of the table above. Each object has its own specific requirements, as detailed below:</p><h2 id=\"trade-builder-section-5\">Player Houses</h2><p>Built with room for up to 4 player characters, houses are modest dwellings which require the following materials for construction: 10 common wood or stone, 2 common metal, and 5 uncommon wood or stone. In addition, each home costs 4,000 gold pieces, plus a potential commission paid directly to and set by the builder. A player house is completed five days after the materials have been assembled and logged as deducted.</p><p>Player Shops and Taverns<br>Player shops and taverns require the following materials for construction:</p><p>20 Uncommon wood OR 20 Uncommon stone, 10 uncommon metal, and 10 Common relics. In addition, each shop or tavern costs 5,000 gold pieces, plus a potential commission paid directly to and set by the builder. A player shop or tavern is completed three weeks after the materials are logged, though only half of the total number of materials are required for the construction timer to begin.<br><br>Builders earn passive income from constructed shops and taverns equal to 25 gold pieces per hour of logged RP which takes place inside the establishment.</p><h2 id=\"trade-builder-section-9\">Constructing Vehicles</h2><p>Builders of sufficient skill attain the ability to transform how adventurers move around the world. Vehicles have been broken down into three categories, with different material costs and passive income rewards for each: Land Vehicles, Small Water Vehicles and Large Water Vehicles.</p><p>Land Vehicles include items such as wheelbarrows, wagons, chariots, and other similar means of conveyance. Building a Land Vehicle requires 4 common wood, 1 uncommon metal, and 50 gold. They take one week to construct. Each one earns the builder a passive income of 10 gold pieces per week (collectible on Mondays).<br><br>Small Water Vehicles include canoes, rowboats, and keelboats. Building one requires 4 uncommon wood, 1 uncommon metal, and 300 gold. They take one week to construct. Each one earns the builder a passive income of 30 gold pieces per week (collectible on Mondays).<br><br>Large Water Vehicles are vessels used for trade, exploration and war. Examples include galleys, longships, sailing ships and warships. To build one requires 20 common wood, 10 uncommon wood, 5 uncommon metal and 4,000 gold. To begin construction, the builder must have all of the gold and at least half of the total number of materials to begin construction. All materials must be supplied before construction can complete, which takes a minimum of three weeks to complete. Once finished, each Large Water Vehicle provides a passive income of 1,000 gold pieces per week (collectible on Mondays).</p><h2 id=\"trade-builder-section-15\">Constructing a new player settlement is the pinnacle of any builder’s career. As such, they are limited to only one such construction. Like with a road, this is a monumental undertaking that will require dozens upon dozens of rare resources to complete and at least two months to construct.</h2><p>For the projects which require three weeks or longer, including shops, taverns, and large water vehicles, even though only half of the total number of materials is required for construction to begin, construction may take longer if all materials are not provided in a timely manner. Construction cannot finish earlier than three weeks, or three days after all material costs have been paid to allow time for inspections, permitting, and move-in. Simply put: no paying the second half of the materials cost on Day 21.</p><p class=\"blessing-source\">Read the <a href=\"https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo\" target=\"_blank\" rel=\"noopener noreferrer\">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "trade-builder-section-1",
+      "title": "The Builder Progression Table",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-builder-section-3",
+      "title": "How it Works",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-builder-section-5",
+      "title": "Player Houses",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-builder-section-9",
+      "title": "Constructing Vehicles",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-builder-section-15",
+      "title": "Constructing a new player settlement is the pinnacle of any builder’s career. As such, they are limited to only one such construction. Like with a road, this is a monumental undertaking that will require dozens upon dozens of rare resources to complete and at least two months to construct.",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    }
+  ]
+}

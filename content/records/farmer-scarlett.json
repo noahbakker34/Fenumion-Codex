@@ -1,0 +1,102 @@
+{
+  "id": "farmer-scarlett",
+  "title": "Farmer Scarlett",
+  "category": "People",
+  "type": "Farmer · shelter worker",
+  "dek": "A Pristinian civilian whose wartime work makes survival a matter of water, bedding, labor and space.",
+  "tags": [
+    "Farmer Scarlett",
+    "NPCs",
+    "Prima"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Farmer · shelter worker",
+    "Record": "Public scenes; later status not established",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Main quest-RP archive · message anchors below",
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+  ],
+  "body": "<h2 id=\"farmer-scarlett-1\">Civilian judgment</h2><p>Scarlett supports the adventurers during the Rahu crisis, but reports her husband’s different expectation: that an attack might target the Gate and leave residents alone. This is a household’s belief under pressure, not an established enemy plan.</p><h2 id=\"farmer-scarlett-2\">Keeping the shelter usable</h2><p>During the emergency, Scarlett carries water, directs others to move injured people and valuables into temporary shelter, and asks for freshwater, bedding, shovels and wooden supports. She reports room for about sixty people at that moment, while warning that labor and structural support are inadequate. The figure describes the shelter she sees, not a permanent town capacity. Her fatigue gives the crisis a civilian scale.</p><h2 id=\"farmer-scarlett-3\">A bond beyond the farm</h2><p>In an earlier woodland outing, she describes Sami as her bonded companion, trained since he was a cub, and rides with him through the woods. The scene preserves another part of Scarlett’s life without replacing her civilian work with a combat biography.</p><h2 id=\"farmer-scarlett-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1371649448144273440\">An attributed household belief during the siege</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1377746387948671109\">Moving people and valuables into shelter</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1377748793168236705\">Space, labor and structural supports</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1377751538793054370\">The cost of carrying water</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1261207745546162319\">Scarlett’s bond with Sami</a></li></ul>",
+  "image": "assets/characters/farmer-scarlett.png",
+  "imageAlt": "Farmer Scarlett wearing a straw hat and blue overalls in a sunlit field",
+  "imageCaption": "Farmer Scarlett",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "farmer-scarlett-1",
+      "title": "Civilian judgment",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "farmer-scarlett-2",
+      "title": "Keeping the shelter usable",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "farmer-scarlett-3",
+      "title": "A bond beyond the farm",
+      "chapter": "People & relationships",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "farmer-scarlett-sources",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Farmer · shelter worker",
+    "significance": "A Pristinian civilian whose wartime work makes survival a matter of water, bedding, labor and space.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "A Pristinian civilian whose wartime work makes survival a matter of water, bedding, labor and space."
+  }
+}

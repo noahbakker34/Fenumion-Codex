@@ -1,0 +1,69 @@
+{
+  "id": "people-directory",
+  "title": "People of Fenumion",
+  "category": "People",
+  "type": "Character and NPC directory",
+  "dek": "The wider cast preserved by the source catalogue and campaign record, including heroes whose full dossiers are still being reconciled.",
+  "tags": [
+    "Characters",
+    "NPCs",
+    "Roster",
+    "Archive"
+  ],
+  "facts": {
+    "Purpose": "Discovery and cross-reference",
+    "Status": "Living directory",
+    "Classification": "Player character or non-player character",
+    "Rule": "Uncertain identities remain explicit"
+  },
+  "sources": [
+    "Complete quest-rp Discord export — 108,619 messages from 4 Mar 2024 through 7 Sep 2026",
+    "Fenumion Archive Catalogue — character map and thematic index",
+    "Campaign exports and primary scenes"
+  ],
+  "body": "<h2 id=\"follow-their-stories\">Follow their stories</h2><p><a href=\"#living-timeline\">Explore the timeline</a> or hear their words in <a href=\"#memorable-quotes\">the quote gallery</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "follow-their-stories",
+      "title": "Follow their stories",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp Discord export — 108,619 messages from 4 Mar 2024 through 7 Sep 2026",
+          "Fenumion Archive Catalogue — character map and thematic index",
+          "Campaign exports and primary scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Character and NPC directory",
+    "significance": "The wider cast preserved by the source catalogue and campaign record, including heroes whose full dossiers are still being reconciled.",
+    "actions": [
+      {
+        "title": "Wherever We Are Now begins The Before survey",
+        "event": "Wherever We Are Now begins The Before survey",
+        "date": "27 Mar 2026"
+      },
+      {
+        "title": "Pristinia opens a vote on Papirak’s Staff of Power",
+        "event": "Pristinia opens a vote on Papirak’s Staff of Power",
+        "date": "30 Sep 2026"
+      },
+      {
+        "title": "Pristinia carries Papirak to his hill",
+        "event": "Pristinia carries Papirak to his hill",
+        "date": "30 Sep 2026 · funeral"
+      }
+    ],
+    "status": "Living directory",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

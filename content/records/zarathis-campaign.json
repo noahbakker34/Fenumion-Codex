@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "zarathis-campaign",
+  "title": "Zarathis · authority after Aria",
+  "category": "History",
+  "type": "Campaign history",
+  "dek": "Public memory, mortal limits and the difficult work of judging those who hold power.",
+  "tags": [
+    "History",
+    "Zarathis",
+    "Fein Uaill",
+    "Aria",
+    "Bowene"
+  ],
+  "facts": {
+    "Dates": "Source chronology; uncertain intervals remain explicit"
+  },
+  "sources": [
+    "Established public memory and garden histories · #zarathis · #gartina · #aria-pride",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1402336345216520324",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278",
+    "Council and institutional context · #bowene · #zarathis",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1436211265629585531",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1436212063717425223",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442241812340412547",
+    "Established aftermath · #aria-pride · #bowene",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445192677824921652",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445138219841622066",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446723411991597106",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+    "Established confrontation and aftermath · #elenia · #magnus · #bowene",
+    "Canon clarification · 18 October 2026 · Aria was Zarathis’s cultural leader, with influence comparable to a great general alongside its institutions; her authority was distinct from Bowene’s High Lord title."
+  ],
+  "protected": false,
+  "body": "<p>Zarathis gives the visitors a civilization with commitments of its own. Its institutions, public memory and chosen mortal limits shape what the adventurers can persuade people to accept. Aria’s death changes that argument without ending it.</p>\n<h2 id=\"zarathis-memory\">A public can know different things</h2>\n<p>The established August histories place Aria’s appeal to public memory beside Adelia’s experience and resurrection history. A crowd can evaluate the history available to it without sharing every private truth known by the visiting company. Cultural disagreement cannot be explained only by asking which powerful person was right.</p><p>The garden conversation among Gartina, Jiangshi and Tulaine gives the same conflict a quieter form. Attentive harmony, intervention and reciprocal choice are not interchangeable ways of caring. Their disagreement preserves questions of consent and sacrifice without making one participant’s philosophy a narrator ruling.</p><p>The civic setting also corrects a misleading later shorthand. In the checked August quest scene, Bowene is already called High Lord beside Captain Zythienne. His later prominence after Aria’s death cannot date the first acquisition of that title. Aria’s cultural authority and commanding public influence operated alongside civic institutions; her death does not make their offices interchangeable.</p>\n<h2 id=\"zarathis-council\">A council changes course</h2>\n<p>In the October war council, Olokun opposes a pact with Death. Bowene says the council will not pursue that line, giving the preservation of allies as a reason. The actual decision belongs in the record before later interpretations of his leadership.</p><p>The exchange does not prove that Bowene holds a universal veto over all future policy or that the council has enacted a permanent constitutional prohibition. Its narrower result is historically important enough: a proposed source of help is refused in this discussion, under pressure from the allies whose participation matters.</p><p>Public titles and regional authority should remain separate from divine truth. Council membership does not make a speaker omniscient. A proposal, threat or prediction voiced there retains its speaker and can still prove mistaken.</p>\n<h2 id=\"zarathis-bereavement\">Aria dies; the argument survives her</h2>\n<p>The 6 November quest narration explicitly records Pride’s death at Talan’s feet. Dumuzi then asks for her body; companions respond in grief, anger and disagreement. The death is an observed outcome. Each speaker’s explanation or claim over her remains an attributed position.</p><p>Bowene’s reception of the survivors belongs to the aftermath of that loss. His grief and questions do not by themselves prove hidden complicity, settle Aria’s complete moral history or tell us when he first became High Lord. Responsibility after a death can change without a new title being created.</p><p>The city’s inherited commitments also remain. The resurrection prohibition, the people who loved Aria, those she harmed and those who relied on her protection do not become one unified verdict because she has died. The campaign must retain the disagreement it leaves for the survivors.</p>\n<h2 id=\"zarathis-judgment\">Procedure does not erase its consequences</h2>\n<p>Magnus’s December public address presents his service as a case for authority. It establishes what he asks the audience to believe, not independent corroboration of every deed in the speech. Wren’s contemporaneous deliberations show affection and political doubt coexisting rather than a party that speaks with one voice.</p><p>Bowene later proposes the Crucible duel between Magnus and Elenia. The established confrontation history retains its troubling outcome and the difference between refusing to kill and having permission to alter another person. The opening duel receipts alone are not a substitute for the entire fight.</p><p>The later exile scene names Aravil, Olokun and Elenia. Magnus asks to speak afterward; he is not named in that exile list. This corrects a derivative account while leaving the complete judgment rationale and jurisdiction open. Later reports of relative peace can describe an outcome without proving that every grievance was reconciled.</p>",
+  "sections": [
+    {
+      "id": "zarathis-memory",
+      "title": "A public can know different things",
+      "chapter": "Campaign narrative",
+      "evidence": {
+        "kind": "interpretation",
+        "label": "Connected history · evidence retained",
+        "summary": "This chapter connects the linked histories and selected checked receipts. Character claims stay attributed; missing transitions are not supplied.",
+        "scope": "section",
+        "sources": [
+          "Established public memory and garden histories · #zarathis · #gartina · #aria-pride",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1402336345216520324"
+        ]
+      }
+    },
+    {
+      "id": "zarathis-council",
+      "title": "A council changes course",
+      "chapter": "Campaign narrative",
+      "evidence": {
+        "kind": "interpretation",
+        "label": "Connected history · evidence retained",
+        "summary": "This chapter connects the linked histories and selected checked receipts. Character claims stay attributed; missing transitions are not supplied.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278",
+          "Council and institutional context · #bowene · #zarathis"
+        ]
+      }
+    },
+    {
+      "id": "zarathis-bereavement",
+      "title": "Aria dies; the argument survives her",
+      "chapter": "Campaign narrative",
+      "evidence": {
+        "kind": "interpretation",
+        "label": "Connected history · evidence retained",
+        "summary": "This chapter connects the linked histories and selected checked receipts. Character claims stay attributed; missing transitions are not supplied.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1436211265629585531",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1436212063717425223",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442241812340412547",
+          "Established aftermath · #aria-pride · #bowene"
+        ]
+      }
+    },
+    {
+      "id": "zarathis-judgment",
+      "title": "Procedure does not erase its consequences",
+      "chapter": "Campaign narrative",
+      "evidence": {
+        "kind": "interpretation",
+        "label": "Connected history · evidence retained",
+        "summary": "This chapter connects the linked histories and selected checked receipts. Character claims stay attributed; missing transitions are not supplied.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445192677824921652",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445138219841622066",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446723411991597106",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+          "Established confrontation and aftermath · #elenia · #magnus · #bowene"
+        ]
+      }
+    }
+  ],
+  "relatedRecords": [
+    "zarathis",
+    "open-questions",
+    "claim-review"
+  ],
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Selected return, leadership and death-scene corrections. Original archives remain external; explicit canon clarification is distinguished from recollection."
+  }
+}

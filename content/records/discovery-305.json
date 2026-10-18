@@ -1,0 +1,64 @@
+{
+  "id": "discovery-305",
+  "title": "Neemah",
+  "category": "People",
+  "type": "Gate-side arrival witness",
+  "dek": "Appears briefly watching a fight before leaving; the existing dossier supplies the arrival context.",
+  "tags": [
+    "Neemah",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Gate-side arrival witness",
+    "Island": "Prima",
+    "Census posts": "1",
+    "Recorded span": "2024-03-06 → 2024-03-06",
+    "Prominence": "34/100 · Established",
+    "Recorded presence": "2/20"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Appears briefly watching a fight before leaving; the existing dossier supplies the arrival context.</p><p><a href=\"#neemah\">Read the existing Neemah history →</a></p><h2 id=\"discovery-305-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 34/100 · Established</strong></p><p>A brief but distinctive presence in the recorded arrivals; wider consequences remain limited.</p><ul><li>Consequences: 2/5 · weight 35</li><li>Institutional or witness role: 2/5 · weight 25</li><li>Relationships: 2/5 · weight 20</li><li>Recorded presence: 2/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-305-record\">Archive record</h2><p>The census records 1 posts across 2024-03-06 → 2024-03-06. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1215034895479607346\">Recorded scene · 1215034895479607346</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/neemah.jpg",
+  "imageAlt": "Neemah with textured dark skin and a bright blue forehead marking in the rain",
+  "imageCaption": "Neemah",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-305-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-305-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ]
+}

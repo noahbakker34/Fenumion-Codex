@@ -1,0 +1,36 @@
+{
+  "id": "ececilia-emojis",
+  "title": "Ececilia’s Emoji Gallery",
+  "category": "People",
+  "type": "Community artist appreciation",
+  "dek": "A growing gallery celebrating the character emojis Ececilia creates for the Fenumion community.",
+  "tags": [
+    "Ececilia",
+    "Character art",
+    "Community archive",
+    "Gartina",
+    "Elenia",
+    "Magnus",
+    "Paco",
+    "Scribonia",
+    "Vessalia"
+  ],
+  "facts": {
+    "Artist": "Ececilia",
+    "Collection": "6 character emojis",
+    "Characters": "Gartina · Elenia · Magnus · Paco · Scribonia · Vessalia",
+    "Purpose": "Thanks and community recognition"
+  },
+  "sources": [
+    "Chibi_Tina.png — Gartina character emoji supplied by the creator",
+    "Chibi_Elenia-2-removebg-preview.png — Elenia character emoji supplied by the creator",
+    "Magnus_RIP.png — artwork attributed to Ececilia by the user, supplied 6 October 2026",
+    "Paco_pwease.png — artwork attributed to Ececilia by the user, supplied 6 October 2026",
+    "Scrib_chibi.png — artwork attributed to Ececilia by the user, supplied 6 October 2026",
+    "Vess_Chibi.png — artwork attributed to Ececilia by the user, supplied 6 October 2026"
+  ],
+  "body": "<p>Fenumion is remembered not only through chronicles, maps, and campaign scenes, but through the art its community makes for one another. Ececilia’s emojis preserve the characters at their most immediate: expressive, affectionate, and ready to become part of everyday conversation.</p>\n      <div class=\"callout gold\"><p><strong>Thank you, Ececilia,</strong> for giving the people of Fenumion another way to see, share, and celebrate the characters they love.</p></div>\n      <div class=\"emoji-gallery\" aria-label=\"Character emoji artwork by Ececilia\">\n        <figure class=\"emoji-card\">\n          <div class=\"emoji-art-frame\"><img src=\"gartina-chibi.png\" alt=\"Chibi emoji of Gartina smiling while holding a large red heart\" loading=\"lazy\"></div>\n          <figcaption><strong>Gartina</strong><span>Character emoji by Ececilia.</span></figcaption>\n        </figure>\n        <figure class=\"emoji-card\">\n          <div class=\"emoji-art-frame\"><img src=\"elenia-chibi.png\" alt=\"Chibi emoji of Elenia cheering with flowers woven through her blond hair\" loading=\"lazy\"></div>\n          <figcaption><strong>Elenia</strong><span>Character emoji by Ececilia.</span></figcaption>\n        </figure>\n<figure class=\"emoji-card\"><div class=\"emoji-art-frame\"><a href=\"assets/community/ececilia/magnus-rip.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open Magnus · RIP artwork at full size\"><img src=\"assets/community/ececilia/magnus-rip.png\" alt=\"Chibi Magnus with crossed-out eyes, flames and RIP lettering\" loading=\"lazy\"></a></div><figcaption><strong><a href=\"#magnus\">Magnus · RIP</a></strong><span>Character emoji by Ececilia.</span></figcaption></figure>\n<figure class=\"emoji-card\"><div class=\"emoji-art-frame\"><a href=\"assets/community/ececilia/paco-pwease.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open Paco · Pwease artwork at full size\"><img src=\"assets/community/ececilia/paco-pwease.png\" alt=\"Chibi Paco with horns, wide pleading eyes and outstretched hands\" loading=\"lazy\"></a></div><figcaption><strong><a href=\"#carmen\">Paco · Pwease</a></strong><span>Character emoji by Ececilia.</span></figcaption></figure>\n<figure class=\"emoji-card\"><div class=\"emoji-art-frame\"><a href=\"assets/community/ececilia/scribonia-chibi.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open Scribonia artwork at full size\"><img src=\"assets/community/ececilia/scribonia-chibi.png\" alt=\"Chibi Scribonia with glasses, a blue hood, antennae and a glowing idea bulb\" loading=\"lazy\"></a></div><figcaption><strong><a href=\"#scribonia\">Scribonia</a></strong><span>Character emoji by Ececilia.</span></figcaption></figure>\n<figure class=\"emoji-card\"><div class=\"emoji-art-frame\"><a href=\"assets/community/ececilia/vessalia-chibi.png\" target=\"_blank\" rel=\"noopener\" aria-label=\"Open Vessalia artwork at full size\"><img src=\"assets/community/ececilia/vessalia-chibi.png\" alt=\"Chibi Vessalia with pointed ears, dark braided hair and sparkling star-shaped pupils\" loading=\"lazy\"></a></div><figcaption><strong><a href=\"#vessalia\">Vessalia</a></strong><span>Character emoji by Ececilia.</span></figcaption></figure>\n      </div>\n      <p>This is a living gallery. Future Ececilia character emojis can join the collection without displacing the artwork already preserved here.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

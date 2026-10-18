@@ -1,0 +1,39 @@
+{
+  "id": "npc-discovery-registry",
+  "title": "NPC & World Identity Registry",
+  "category": "Archive",
+  "type": "Character and encounter reference",
+  "dek": "Find every supplied discovery: people, companions, manifestations, collectives and encounters, with their evidence and documented prominence.",
+  "tags": [
+    "NPCs",
+    "Characters",
+    "Companions",
+    "Prominence",
+    "Archive"
+  ],
+  "facts": {
+    "Records": "322"
+  },
+  "sources": [
+    "Fenumion Recently Discovered NPCs · supplied 11 October 2026; raw census labels, not a distinct-person count"
+  ],
+  "body": "<p>These figures were present in Fenumion before their names reached the priority roster. Browse all 322 supplied labels here; aliases point to existing histories, while created entities, companions and generic encounters retain their distinctions.</p><p><a href=\"#npc-islands\">Browse NPCs by island</a> · <a href=\"#people-directory\">Open the character directory</a></p><section data-npc-discoveries=\"\" class=\"perspective-browser\"><div class=\"perspective-filters\"><label>Search records<input type=\"search\" data-discovery-query=\"\" placeholder=\"Name, role, island or summary…\"></label><label>Identity kind<select data-discovery-kind=\"\"><option value=\"\">All kinds</option></select></label><label>Island<select data-discovery-island=\"\"><option value=\"\">All islands</option><option value=\"unplaced\">Island unestablished</option></select></label><label>Order<select data-discovery-order=\"\"><option value=\"prominence\">Highest rated prominence</option><option value=\"presence\">Recorded presence</option><option value=\"name\">Name A–Z</option></select></label><button type=\"button\" data-discovery-clear=\"\">Clear filters</button></div><p role=\"status\" aria-live=\"polite\" data-discovery-count=\"\"></p><div class=\"browser-grid\" data-discovery-list=\"\" tabindex=\"-1\"></div><nav class=\"people-pagination\" aria-label=\"Discovery result pages\"><button type=\"button\" data-discovery-previous=\"\">← Previous</button><span data-discovery-page=\"\"></span><button type=\"button\" data-discovery-next=\"\">Next →</button></nav></section><h2 id=\"discovery-prominence\">How prominence is rated</h2><p>The editorial score weighs documented consequences (35%), institutional or witness role (25%), relationships (20%) and recorded presence (20%). Each rated entry explains its assessment and confidence. A high dialogue count does not establish high consequence. Where those impacts have not been established, prominence stays unrated and recorded presence is shown separately.</p><p>Recorded presence uses a logarithmic dialogue count worth up to 12 points and a posting span worth up to 8. It is a retrieval aid. Protected identities have no public names, scores, counts or source links.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-prominence",
+      "title": "How prominence is rated",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion Recently Discovered NPCs · supplied 11 October 2026; raw census labels, not a distinct-person count"
+        ]
+      }
+    }
+  ]
+}

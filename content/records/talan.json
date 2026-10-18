@@ -1,0 +1,113 @@
+{
+  "id": "talan",
+  "title": "Talan",
+  "category": "People",
+  "type": "God of Justice and Order",
+  "dek": "A divine figure whose confrontation with Aria and attributed place in Voraketh’s history carry lasting consequences.",
+  "tags": [
+    "Talan",
+    "Justice",
+    "Order",
+    "Aria",
+    "Voraketh"
+  ],
+  "facts": {
+    "Role": "God of Justice and Order",
+    "Home island": "Not established",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Existing public Aria / Pride history",
+    "Existing public Voraketh history",
+    "User-identified Talan video · 11 October 2026"
+  ],
+  "body": "<p>Talan is a god of Justice and Order in Fenumion’s public record. <a href=\"#aria-pride\">Aria’s history</a> remembers him through childhood fear, the destruction of his temple and the later confrontation in which he kills her. Her experience of him shapes how she speaks about safety and power.</p><h2 id=\"talan-consequences\">Consequences that remain</h2><p>The recorded confrontation on 6 November 2025 ends Aria’s life but does not erase the people, institutions and harm she leaves behind. Talan’s role in that ending connects him to Zarathis’s subsequent memory and political history.</p><h2 id=\"talan-attributed-order\">An attributed place in Voraketh</h2><p>The public <a href=\"#voraketh\">Voraketh account</a> attributes the island’s Chains and guardians to Talan through Nuru’s testimony to Anky. This remains an attributed account, not a complete reconstruction of their creation or proof of Talan’s home island.</p>",
+  "image": "assets/character-backgrounds/talan-order.jpg",
+  "imageAlt": "Talan in ornate gold armor, holding a sword and shield in a mountain setting",
+  "imageCaption": "Talan",
+  "imageLayout": "portrait-hero",
+  "scenes": [
+    {
+      "title": "Talan vs Aria",
+      "video": "assets/character-scenes/talan-vs-aria.mp4",
+      "poster": "assets/character-scenes/talan-vs-aria.jpg",
+      "caption": "Talan and Aria face one another with crossed swords. A visual depiction of their rivalry."
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "talan-consequences",
+      "title": "Consequences that remain",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Existing public Aria / Pride history",
+          "Existing public Voraketh history",
+          "User-identified Talan video · 11 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "talan-attributed-order",
+      "title": "An attributed place in Voraketh",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Existing public Aria / Pride history",
+          "Existing public Voraketh history",
+          "User-identified Talan video · 11 October 2026"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "God of Justice and Order",
+    "significance": "A divine figure whose confrontation with Aria and attributed place in Voraketh’s history carry lasting consequences.",
+    "actions": [
+      {
+        "title": "Aria burns Talan’s temple",
+        "event": "Aria burns Talan’s temple",
+        "date": "Before becoming Pride · exact date unresolved"
+      },
+      {
+        "title": "Anky reports the Chains’ divine evidence",
+        "event": "Anky reports the Chains’ divine evidence",
+        "date": "6 Mar 2026"
+      },
+      {
+        "title": "Coralyn preserves Voraketh’s unanswered connections",
+        "event": "Coralyn preserves Voraketh’s unanswered connections",
+        "date": "22 Sep 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: 22 Sep 2026. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "aria-pride",
+        "label": "Aria / Pride",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "voraketh",
+        "label": "Voraketh",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "personality": "Known through public accounts of Justice and Order, Aria’s experience and the confrontation that ends her life.",
+    "achievements": "Kills Aria in the recorded confrontation. Nuru attributes Voraketh’s Chains and guardians to him.",
+    "relationships": "Aria’s history and Nuru’s testimony preserve different views of his place in Fenumion."
+  }
+}

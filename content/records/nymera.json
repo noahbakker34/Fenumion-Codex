@@ -1,0 +1,215 @@
+{
+  "id": "nymera",
+  "title": "Nymera",
+  "category": "People",
+  "type": "Cala devotee · civic worker and expedition ally",
+  "image": "assets/characters/nymera.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Portrait of Nymera, a Cala devotee and expedition ally",
+  "imageCaption": "Nymera — Cala devotee and practical expedition ally.",
+  "dek": "A Cala devotee who finds purpose and relief in practical work, even while unsure what she wants beyond being useful.",
+  "tags": [
+    "Nymera",
+    "Cala",
+    "Luminar Spires",
+    "Babel-Ashur",
+    "Belonging",
+    "Practical help"
+  ],
+  "facts": {
+    "Faith": "Follower of Cala",
+    "Strength": "Offers practical and physical help",
+    "Known expeditions": "Mountain · Luminar Spires",
+    "Thread": "Uncertainty → contribution → group affirmation",
+    "Record": "Emerging; chronology incomplete"
+  },
+  "sources": [
+    "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+    "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+    "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+  ],
+  "body": "<p>Nymera appears in rooms filled with people who possess older histories, specialized magic, and theories she does not always share. Her recurring response is not withdrawal. She asks what practical work remains and offers herself to it.</p>\n      <h2 id=\"nymera-mountain\">Shared faith without ownership</h2>\n      <p>During the mountain expedition, Nymera’s relationship to Cala overlaps with Elenia’s without becoming subordinate to it. Elenia asks where the boundary lies, accepts “no,” and sends Nymera home through Gate. Shared devotion does not grant one follower authority over another’s continued participation.</p>\n      <h2 id=\"nymera-luminar\">Offering help among specialists</h2>\n      <p>During the Luminar Spires expedition, Nymera offers help with imprisonment, locating and supporting the group, digging, tunneling, flight or rescue, and other physical needs. She does this even when the arcane theory exceeds her knowledge.</p>\n      <p>After misunderstanding Scribonia’s proposed magical prison, Nymera apologizes. Arjahn and Scribonia tell her not to and affirm that her help will matter elsewhere. The exchange begins a possible confidence and belonging thread: uncertainty about contribution does not make the contribution unwanted.</p>\n      <h2 id=\"nymera-wall-work\">Returning to the walls</h2><p>At <a href=\"#pristinia-walls\">Pristinia’s walls</a>, Nymera’s contribution is physical and repeatable. She brings tools, carries stone and hauls logs, telling <button type=\"button\" data-character-title=\"Ghilsen Hendrickson\">Ghilsen</button> that her goal is to advance the guard tower. The work matters to the town even when she has no clear answer about what she wants for herself.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1413346224404303932\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1420043145906884638\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1420044562939773070\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1420045398990393385\" target=\"_blank\" rel=\"noopener\">4</a>. Dates refer to Discord posts.</p><h2 id=\"nymera-pappy\">6 September 2025 · Work and bad memories</h2><p><a href=\"#pappy\">Pappy</a> says he likes working with his hands. Nymera says the work helps her not think, then explains that it leaves her less focused on bad memories. She also says she cannot easily choose what she should do, but helping here seems worthwhile. This directly links labor to relief; the account does not reveal the memories themselves.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1413931998354870282\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1413933941546549268\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1413935361234567350\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1413938073338773615\" target=\"_blank\" rel=\"noopener\">4</a>. Dates refer to Discord posts.</p><blockquote>“Yes... it make me, less foccussed on bad memories...”<cite>Nymera · Pristinia Walls, 6 September 2025 posting date</cite></blockquote><h2 id=\"nymera-marius\">Payment does not answer every question</h2><p><button type=\"button\" data-character-title=\"Marius Antares\">Marius</button> explains why a large construction project needs paid workers. Nymera asks whether everyone came for money, then asks his own reason for working. She calls herself not materialistic, with worn and scratched clothing, but admits she does not know what she needs. Her questions seek people’s motives as well as the project’s practical requirements.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407923269855608873\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407923502698467402\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407924902064816291\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407925214062448692\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407926211556016178\" target=\"_blank\" rel=\"noopener\">5</a>. Dates refer to Discord posts.</p><h2 id=\"nymera-axe\">An old axe she cannot easily replace</h2><p>Nymera is discouraged because her axe did little damage during training. Marius suggests better equipment, but she says she cannot part with the greataxe, calling it something she has still kept. Her attachment complicates any claim that possessions mean nothing to her. The axe matters personally, although its history is not supplied.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407926365617000508\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407926441798275124\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407926935471915101\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407927109254516789\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407928568289300510\" target=\"_blank\" rel=\"noopener\">5</a>. Dates refer to Discord posts.</p><h2 id=\"nymera-ghilsen\">Asking what other people want</h2><p>While carrying stone with Ghilsen, Nymera asks about his goals in life. Read beside her uncertainty with Marius and Pappy, the question suggests a person considering purpose through conversation as well as work. That is an interpretation of a recurring pattern, not proof of thoughts she has not voiced.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1420044562939773070\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1420045163518099598\" target=\"_blank\" rel=\"noopener\">2</a>. Dates refer to Discord posts.</p><h2 id=\"nymera-scars\">Keeping something standing</h2><p>In the November 2025 walls exchange, Nymera says she keeps what she can standing and hopes other people do not receive scars. Her own hands are described as scarred and trembling, and she leaves when tired. The cause of those scars remains unknown. Her sparse speech and repeated work carry this history without requiring an invented trauma or diagnosis.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1441241255312101480\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1441242969729667203\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1441243130371379200\" target=\"_blank\" rel=\"noopener\">3</a>. Dates refer to Discord posts.</p><h2 id=\"nymera-open-record\">The open record</h2><p>Nymera’s earlier life, the memories she avoids, the origins of her scars and the history of her greataxe remain unresolved. Her full relationship to Cala and her later choices require further evidence. The practical help she offers is already part of the record.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "nymera-mountain",
+      "title": "Shared faith without ownership",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+          "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+        ]
+      }
+    },
+    {
+      "id": "nymera-luminar",
+      "title": "Offering help among specialists",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+          "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+        ]
+      }
+    },
+    {
+      "id": "nymera-wall-work",
+      "title": "Returning to the walls",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+          "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+        ]
+      }
+    },
+    {
+      "id": "nymera-pappy",
+      "title": "6 September 2025 · Work and bad memories",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+          "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+        ]
+      }
+    },
+    {
+      "id": "nymera-marius",
+      "title": "Payment does not answer every question",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+          "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+        ]
+      }
+    },
+    {
+      "id": "nymera-axe",
+      "title": "An old axe she cannot easily replace",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+          "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+        ]
+      }
+    },
+    {
+      "id": "nymera-ghilsen",
+      "title": "Asking what other people want",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+          "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+        ]
+      }
+    },
+    {
+      "id": "nymera-scars",
+      "title": "Keeping something standing",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+          "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+        ]
+      }
+    },
+    {
+      "id": "nymera-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "ELENIA_HISTORY.md — shared faith, mountain expedition, and Gate boundary",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — offers of help and group affirmation",
+          "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available."
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Cala devotee · civic worker and expedition ally",
+    "significance": "A Cala devotee who finds purpose and relief in practical work, even while unsure what she wants beyond being useful.",
+    "actions": [
+      {
+        "title": "Mortals unmake a mountain",
+        "event": "Mortals unmake a mountain",
+        "date": "Aug 2026"
+      },
+      {
+        "title": "Arjahn burns a temporary opening in the mist",
+        "event": "Arjahn burns a temporary opening in the mist",
+        "date": "26 Sep 2026 · posting date (UTC)"
+      },
+      {
+        "title": "The Luminar Spires shine at sunset",
+        "event": "The Luminar Spires shine at sunset",
+        "date": "26 Sep 2026 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 26 Sep 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [
+      {
+        "id": "pappy",
+        "label": "Pappy",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "personality": "Sparse and hesitant in speech, Nymera asks other people what motivates them while uncertain about her own direction. Wall work helps her focus less on bad memories; her scarred hands do not establish their cause.",
+    "achievements": "Repeatedly carries stone, hauls logs and assists guard-tower work in Pristinia. Her devotion to Cala and practical help during mountain and Luminar Spires expeditions remain part of her history.",
+    "relationships": "Pappy shares the work and discusses painful memories; Marius explains paid labor and suggests equipment while she remains attached to her old axe; she asks Ghilsen about his goals in life. Elenia, Arjahn and Scribonia feature in her earlier faith and expedition records."
+  }
+}

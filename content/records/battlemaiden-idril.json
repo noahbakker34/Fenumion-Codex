@@ -1,0 +1,122 @@
+{
+  "id": "battlemaiden-idril",
+  "title": "Battlemaiden Idril",
+  "category": "People",
+  "type": "Captain · martial instructor",
+  "dek": "A demanding captain who makes preparation, cooperation and responsible use of power the measure of readiness.",
+  "tags": [
+    "Battlemaiden Idril",
+    "Idril",
+    "Captain",
+    "Training",
+    "Elenia",
+    "Alyhotep"
+  ],
+  "facts": {
+    "Established rank": "Captain, by her own introduction",
+    "Recorded training": "3 May 2024",
+    "Regional office": "Not established",
+    "Later status": "Unresolved"
+  },
+  "body": "<p>Idril enters the quest record as a captain entrusted with training a group of adventurers. Her concentrated appearance preserves a distinct approach to command: she challenges their readiness, makes them work under changing conditions and insists that ability means little when used without understanding.</p>\n<h2 id=\"idril-criticism\">May 2024 · accepting criticism</h2><p>She introduces herself as a humble captain and says Cala has tasked her with the lesson. Before combat begins, she asks whether the trainees can accept criticism. Her manner is forceful, and her criticism quickly becomes severe. She expects the adventurers to arrive prepared, understand their magic and act as a team.</p><p>When Elenia admires her armor, Idril describes the care needed to keep it pristine. The moment connects visible discipline with maintenance: equipment must be looked after, just as skill must be practiced.</p>\n<h2 id=\"idril-simulated-battle\">A lesson with safeguards</h2><p>The initial opponents are trained acolytes. Idril explicitly tells the adventurers not to finish fallen combatants and points out light priests standing by to stabilize them. This is a simulated battle with safety provisions; her harsh language does not cancel that instruction.</p><p>She starts the trainees grouped together to see how they respond, asks what a large spell would do to that formation and gradually orders the acolytes to make their attacks less obvious. Her lesson changes as it proceeds. Readiness includes adapting to an opponent rather than repeating the first successful tactic.</p><p>She rebukes wasted magic and failures to understand an enemy, but also recognizes a well-directed strike and a participant thinking beyond the obvious. Her judgments are those of a demanding instructor in this encounter, rather than permanent verdicts on the adventurers’ worth.</p>\n<h2 id=\"idril-leadership\">Leaders must teach</h2><p>Idril singles out Alyhotep’s responsibility as a leader: he must teach, rather than merely possess useful magic. She admires Elenia’s courage while declining to fight her that day. The lesson distinguishes bravery from preparedness and individual capability from responsibility for others.</p><p>A horn interrupts the exercise. Idril says she has been called to distract the Wyrm, and the adventurers are returned to Pristinia. The record establishes the interruption and her stated assignment; it does not establish the outcome of that battle.</p>\n<h2 id=\"idril-open-history\">The open history</h2><p>The meaning of the Battlemaiden title beyond her confirmed captaincy, her formal command structure, any direct relationship with Bowene or the Golden Ones, and her later fate remain unestablished. Her martial service can be understood through this scene without assigning her an unsupported Ciaranach office or a later political ideology.</p><h2 id=\"recorded-scenes\">Recorded scenes</h2><p>Dates identify transcript postings, not an independently established in-world calendar.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1236145227346083870\">3 May 2024 · Idril introduces herself</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1236145776414167060\">Accepting criticism</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1236146927679176744\">The simulation and attending priests</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1236155232774524950\">Testing the formation</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1236157444531683420\">The danger of grouped combatants</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1236163773643882496\">Cooperation and understanding</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1236172704089116784\">A leader’s duty to teach</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1236173381393584139\">Courage and readiness</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1236180378604146740\">The interrupted lesson</a></li></ul>",
+  "sources": [
+    "Main quest-RP · selected primary scenes; anchors below",
+    "Supplied deep dossier · interpretation checked against quest evidence"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "idril-criticism",
+      "title": "May 2024 · accepting criticism",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "idril-simulated-battle",
+      "title": "A lesson with safeguards",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "idril-leadership",
+      "title": "Leaders must teach",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "idril-open-history",
+      "title": "The open history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    },
+    {
+      "id": "recorded-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP · selected primary scenes; anchors below",
+          "Supplied deep dossier · interpretation checked against quest evidence"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Captain · martial instructor",
+    "significance": "A demanding captain who makes preparation, cooperation and responsible use of power the measure of readiness.",
+    "actions": [
+      {
+        "title": "A celestial test reveals the Wyrm’s hunger",
+        "event": "A celestial test reveals the Wyrm’s hunger",
+        "date": "3 May 2024 · quest-RP"
+      }
+    ],
+    "status": "Last dated entry in this selection: 3 May 2024 · quest-RP. Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "A demanding captain who makes preparation, cooperation and responsible use of power the measure of readiness."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "hana",
+  "title": "Hana",
+  "category": "People",
+  "type": "Tower presence · unresolved identity",
+  "dek": "A name associated with the tower near Larkhollow, a small doll and a dangerous larger presence whose relationship remains unclear.",
+  "facts": {
+    "Associated site": "Tower near Larkhollow",
+    "Encounter": "September 2026 source scene",
+    "Guardians": "Tik and Tok",
+    "Identity": "Unresolved",
+    "Region": "Verdelune"
+  },
+  "body": "<p>Hana enters the continuation as someone Ryvyt regards as a friend living in the tower near <a href=\"#larkhollow\">Larkhollow</a>. His suspicion that she and a guarding creature might be the same being is a theory, not an established identity.</p><h2 id=\"hana-tower-encounter\">The tower encounter</h2><p>A voice identified as Hana refuses to let the visitors discover what the tower keeps hidden. The small figure falls inert as a doll; a distorted presence appears, guardians Tik and Tok attack, and a larger attacking figure is subsequently called Hana. Oya, Ryvyt and Pelagia escape.</p><p>What the tower protects, who controls the doll, and whether all manifestations share a single identity remain unanswered. Sylvi Fernstep later claims Lady Hana is older than local accounts suggest, without supplying a verified age or origin.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1547789358554423308\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1547801694996267129\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1547802560797351956\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1547806699912564746\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1547811278511284405\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554710921967046697\" target=\"_blank\" rel=\"noopener\">6</a>.</p>",
+  "tags": [
+    "Hana",
+    "Lady Hana",
+    "Larkhollow",
+    "Tower",
+    "Tik",
+    "Tok"
+  ],
+  "sources": [
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "relatedRecords": [
+    "larkhollow",
+    "verdelune",
+    "ryvyt",
+    "quest-continuation"
+  ],
+  "image": "assets/characters/hana.png",
+  "imageAlt": "Hana with pale hair carrying a flower basket along a woodland path",
+  "imageCaption": "Hana",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "hana-tower-encounter",
+      "title": "The tower encounter",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Tower presence · unresolved identity",
+    "significance": "A name associated with the tower near Larkhollow, a small doll and a dangerous larger presence whose relationship remains unclear.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

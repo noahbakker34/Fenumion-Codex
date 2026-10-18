@@ -1,0 +1,508 @@
+{
+  "id": "pristinia",
+  "title": "Pristinia",
+  "category": "Places",
+  "type": "Prima sublocation · settlement",
+  "image": "assets/archive/pristinia-arrival.gif",
+  "imageAlt": "The first distant view of Pristinia after walking from the Gate",
+  "imageCaption": "First sight of Pristinia — reached after a two-to-three-hour walk from the Gate.",
+  "mapId": "pristinia",
+  "mapLinkLabel": "Explore the interactive Pristinia map",
+  "dek": "Prima’s growing settlement, first seen after a two-to-three-hour walk from the Gate and built through walls, food, farms, taverns, promises, and ordinary labor.",
+  "tags": [
+    "Prima",
+    "Pristinia",
+    "Settlement",
+    "Community",
+    "Field notes",
+    "Attributed testimony"
+  ],
+  "facts": {
+    "Parent": "Prima",
+    "Type": "Settlement",
+    "Arrival from the Gate": "2–3 hours on foot",
+    "Pressure": "Population, winter, food supply",
+    "Defenses": "Player-built walls",
+    "Regional position": "Rahu embassy · Eovar route · The Before · Guardians to the south"
+  },
+  "sources": [
+    "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+    "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+    "New Year.pdf — retrospective on what the community built",
+    "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+    "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+    "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+    "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+    "Main quest-RP · March 2024 civic planning; existing institution histories",
+    "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1215304371210817586",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1215703678921744486",
+    "Connected reading · #pristinia-campaign"
+  ],
+  "body": "<p>Pristinia is where Prima’s cosmic stakes become measurable. It needs defenses, harvest labor, winter stores, laws, festivals, and people willing to notice when a neighbor is carrying too much.</p>\n      <h2 id=\"regional-position\">A settlement between older powers</h2>\n      <p>By 30 August 2024, Melian Starguard described Pristinia as the chosen entry point into a cataclysmic regional struggle. The Rahu maintained an embassy in town, Eovar Harbor lay nearby, the Guardians of the Shard were to the south, and the ruins called The Before remained a threat in the surrounding woods. Pristinia was never only a quest hub; it was a vulnerable settlement between trade routes, dangerous places, and powers older than its present population.</p>\n      <p>Even the early archive speaks of people who had called Pristinia home “for a long time.” The current adventurers therefore entered an existing community rather than founding an empty one. Their importance grew as they became residents, workers, defenders, donors, and political actors whose choices could bring consequences back to the town.</p>\n      <h2 id=\"wall\">The wall became history</h2>\n      <p>In April 2024, adventurers—including Nienna—spent hours finishing Pristinia’s wall. In July an army struck it. The wall held a mighty blow because the players had built it; then sections began to fall. A routine community task returned three months later as material protection and emotional cost.</p>\n      <p>The assault also taught Delerium mechanically. Contamination made people feel stronger but less alive, while a haze fed on its energy, passed the defenses, and entered town. The siege engines were a distraction. The event ended; its contamination did not.</p>\n      <h2 id=\"ordinary-pressure\">A town under ordinary pressure</h2>\n      <p>Population growth overworks Farmer Frank and strains winter food. Inside <a href=\"#common-man\">the Common Man</a>, Herb mentions dwindling dried fruit and an underworked farm. Aravil asks whether foraging can help; Tobias volunteers; a hunting expedition forms without a quest giver. Herb’s limit is as important as the need: take roughly twelve elk, not so many that next year’s herd is destroyed.</p>\n      <h2 id=\"belonging\">Belonging through usefulness</h2>\n      <p>Aravil recognizes that hunting may be her place in the town. Skye refuses to exploit Lichen’s ignorance of money and makes an alarming stranger feel safe. Herb knows stores, habits, wages, and ecology. Pristinia is governed as much through local knowledge and mutual restraint as through spectacular heroism.</p>\n      <h2 id=\"rebuilding-2026\">Rebuilding becomes ordinary · 2026</h2>\n      <p>After zombie pirates burned <a href=\"#common-man\">the Common Man</a>, its blackened frame remained visible while Pristinia rebuilt around it. By 3 July 2026, townsfolk were hauling charred beams, salvaging stone, bringing timber and nails, and spending resources donated by adventurers. The replacement was planned as a larger refuge for lost and wandering souls as well as old familiar faces; expensive cedar paneling was purchased to make another fire less likely, linking the civic project directly to Eovar when those materials were stolen there.</p>\n      <p>Pilgrim’s Hearth ultimately rose on the same foundations. By September 19 it was again a place where adventurers drank tea, socialized, and exchanged news. The Magic Academy was open: Marius and Aurélia studied under Scribonia, while Saoirse prepared material for her future turn teaching younger students. Thorn’s plan to bless the farm before returning to Gael adds a smaller but telling continuity—adventurers contributing directly to the harvest.</p>\n      <h2 id=\"pristinia-open-record\">The open record</h2>\n      <p>Pristinia’s eventual size, its political independence beside the Rahu, its relationship with the larger and rougher Eovar, and the durability of adventurer-built institutions remain unsettled. Its strongest continuity is not invulnerability but the practice of rebuilding without pretending destruction never happened.</p>\n      <p>Return to the <a href=\"#prima-pristinia\">Prima overview</a> for the island’s public geography and the entrance to its protected ancient record.</p><h2 id=\"pristinia-public-memory\">The town as Ada remembered it</h2><p><a href=\"#ada-town-chronicler\">Ada’s civic chronicles</a> preserve Pristinia’s changing emotional climate: early excitement over remarkable newcomers; quieter taverns after familiar defenders departed; the rise of businesses and factions; terror during the Rahu War; relief transformed into civic legend; and a later town made safer, harder, more organized, and less innocent by survival.</p><p>Those writings do not replace direct records of walls, battles, laws, or rebuilding. They preserve what physical chronology alone cannot: how those changes felt to people who had to keep living in the town afterward.</p><h2 id=\"pristinia-gate-welcome\">The road from the Gate</h2><p>The town’s welcome begins before its walls. At <a href=\"#gate-clearing\">the Gate</a>, guides answer arrivals with shelter, orientation and choices about how to contribute. The road is also vulnerable: the siege-era accounts preserve smoke, attacks and a Rahu search party. Later, Vessalia’s welcome of Star shows the work continuing through a new generation of guides.</p><h2 id=\"pristinia-ryvyting\">Ryvyt’s workshop</h2><p><a href=\"#ryvyting-creations\">Ryvyting Creations</a>, owned and operated by <a href=\"#ryvyt\">Ryvyt</a>, brings a forge, magic-item crafting and spell trade into the town’s commercial life. It also serves the Ale-Chemy Knights’ shared work; ordinary retail later ceases during their shift toward Gael.</p><h2 id=\"pristinia-quest-continuation\">September–October · care, remembrance and unfinished work</h2><p>Papirak’s funeral joins practical burial work with the town’s inheritance of a teacher. Scribonia promises to restore the Training Dungeon; Saoirse describes her educational aim; Pell finds purpose in trusted service.</p><p>Beyond town, an expedition returns herbs to <a href=\"#mama-tabitha\">Tabitha</a> for Bogdan’s remedy. In October, graffiti honoring Swift Foot leads adventurers to <a href=\"#dasa-appeal\">Dasa asking for freedom</a>. Each event produces new obligations whose outcome should remain open until later scenes establish it.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554215636278845540\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1555054191863533691\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1555060494069407827\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558678335138037812\" target=\"_blank\" rel=\"noopener\">4</a>.</p><h2 id=\"thread-tools\">Tools for the fields</h2><p>Gartina commissions six each of hoes, spades and pitchforks, plus three plow blades, from Jon. She favors durability over speed. Jon estimates forty gold and three weeks, with twenty-five gold for materials and fifteen for labor. The exchange records the commission and corrected materials deposit; it does not record delivery.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222610820706472008\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222611437533532343\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222611784351875132\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222612388226793492\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1222610207750754387/1222615573075070976\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"thread-roger\">The search reaches Roger’s house</h2><p>In the Pristinia Haze investigation, Caravash searches Roger’s inherited house and hears labored breathing behind a basement door. They suspect the creature inside may be Roger, but this branch does not confirm its identity. Alayah calls for a coordinated response, Ryvyt transforms into Ryvytor, and the encounter returns to the main party record. The discovery is an investigative lead, not a separate quest or proof of Roger’s fate.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1275994772699484272/1275995198337318962\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1275994772699484272/1276001848280481873\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1275994772699484272/1276007112530460753\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1275994772699484272/1276007330118369320\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1275994772699484272/1276008461766754335\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1275994772699484272/1276011784502906921\" target=\"_blank\" rel=\"noopener\">6</a>.</p><h2 id=\"thread-mansion\">The mansion misunderstanding ends</h2><p>The McKalister mansion branch ends with Kevin explaining that he was protecting the family’s collectible haul. The family’s insects had complicated the welfare check; the supposed treasure proves to be boxed ornaments. After the misunderstanding is settled, the guard captain is taken to an abandoned sewer shack, and the infirmary receives several new gnome patients in the following weeks. This conclusion does not make the visitors’ conflicting earlier accusations reliable.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1322762732738449409/1322791664003321907\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1322762732738449409/1322794283333586944\" target=\"_blank\" rel=\"noopener\">2</a>.</p><h2 id=\"prima-rp-town-places\">The town’s working places</h2><p>The <a href=\"#archery-range\">Archery Range</a> passes skills between veterans, newcomers and families. The <a href=\"#pristinia-walls\">Walls</a> preserve communal work and battle recovery. The <a href=\"#public-square\">Public Square</a> brings exceptional decisions, public promises and changes of leadership before the town.</p><h2 id=\"prima-rp-square-memory\">Kasiri tells a newcomer about the siege</h2><p>Kasiri points to patchwork repairs while telling DogToy about flaming stones, displaced households sheltering with neighbors and Melian’s capture. She recalls a peace that spared both Pristinia and the Rahu from destruction. She also refuses to treat every individual Rahu as responsible for their leadership’s actions. The memories and that judgment retain Kasiri’s voice; they are not an omniscient account of every casualty or motive.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1444875643719258223\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1444876092942061710\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1444879081140392050\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1444880475691946208\" target=\"_blank\" rel=\"noopener\">4</a>.</p><h2 id=\"pristinia-survival-and-society\">Protecting a town, sustaining a society</h2><p>Pristinia’s civic work begins alongside its earliest expeditions. In the March 2024 quest record, <a href=\"#melian-starguard\">Melian</a> helps coordinate permanent settlement needs; Gartina connects population growth with food and cultivation; Quake calls for defences and a militia while reporting work on the roads. Medical supplies, usable land and capable hands already matter beside combat.</p><p>Later <a href=\"#ale-chemy-knights\">Ale-Chemy institutions</a>, <a href=\"#tobias\">Tobias’s construction</a>, <a href=\"#fenwick\">Fenwick’s public work</a>, teaching and the rebuilt <a href=\"#pilgrims-hearth\">Pilgrim’s Hearth</a> extend that existing concern. Different people contribute at different times, and many roles overlap. The settlement’s history does not divide neatly into one group that protects and another that builds.</p><p>Victory can preserve a place without settling how people will eat, learn, work or share authority there. Pristinia’s civic history follows those continuing questions through an existing community whose residents and arrivals both shape its future.</p><h2 id=\"pristinia-domestic-and-recorded-memory\">Homes and the record of a town</h2><p><a href=\"#pristinia-housing\">Homes and households</a> preserve changing residence, friendship and ownership claims. The <a href=\"#pristinia-scroll-library\">Scroll Library</a> preserves another form of continuity: shared spells, research and civic records that later residents can consult.</p><h2 id=\"pristinia-player-field-notes\">Early arrivals’ field notes · March 2024</h2><p>The adventurer location notes preserves two early names. An entry posted on 7 March reports Melian Starguard calling the first village “The Settlement”; Scribonia’s entry of 8 March calls his base “The Homestead.” These are recorded usages, not evidence of an official renaming or proof that every early name had exactly the same boundaries.</p><p>Scribonia describes limited infrastructure and what he considers a poorly trained population near the portal. He proposes training civilians, constructing useful buildings and exploring outward. His assessment records an arrival’s priorities; it does not erase the community that already lived here or establish an objective development rank. <a href=\"#pristinia-scroll-library\">The library</a>, homes, walls and later civic institutions give those early ambitions a history beyond the note.</p>\n<h2 id=\"pristinia-campaign-reading\">Read the campaign across its people</h2>\n<p><a href=\"#pristinia-campaign\">Pristinia · a town worth defending</a> follows the choices, changing knowledge and consequences across this regional history. The <a href=\"#open-questions\">unresolved record</a> preserves the transitions still needing evidence.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "regional-position",
+      "title": "A settlement between older powers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "wall",
+      "title": "The wall became history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest-established events",
+        "summary": "The recorded events are supported by the existing quest history. Statements and motives attributed to participants remain their claims, including when spoken in a quest.",
+        "scope": "section",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "ordinary-pressure",
+      "title": "A town under ordinary pressure",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "belonging",
+      "title": "Belonging through usefulness",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "rebuilding-2026",
+      "title": "Rebuilding becomes ordinary · 2026",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "pristinia-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "pristinia-public-memory",
+      "title": "The town as Ada remembered it",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "pristinia-gate-welcome",
+      "title": "The road from the Gate",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest-established events",
+        "summary": "The recorded events are supported by the existing quest history. Statements and motives attributed to participants remain their claims, including when spoken in a quest.",
+        "scope": "section",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "pristinia-ryvyting",
+      "title": "Ryvyt’s workshop",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "pristinia-quest-continuation",
+      "title": "September–October · care, remembrance and unfinished work",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "thread-tools",
+      "title": "Tools for the fields",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "thread-roger",
+      "title": "The search reaches Roger’s house",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "thread-mansion",
+      "title": "The mansion misunderstanding ends",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-town-places",
+      "title": "The town’s working places",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "prima-rp-square-memory",
+      "title": "Kasiri tells a newcomer about the siege",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "pristinia-survival-and-society",
+      "title": "Protecting a town, sustaining a society",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "pristinia-domestic-and-recorded-memory",
+      "title": "Homes and the record of a town",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260918-034805).md — the Delerium assault and the wall",
+          "Pasted markdown(20260918-182039).md — Farmer Frank, Herb, Aravil, and winter food",
+          "New Year.pdf — retrospective on what the community built",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — quest-RP synthesis through 7 Sep 2026",
+          "User-confirmed visual context, 29 Sep 2026 — first view after the two-to-three-hour walk from the Gate",
+          "Contemporary Chronicle — Ada, Town Chronicler · 2024–2026 civic record",
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
+          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York",
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "Main quest-RP · March 2024 civic planning; existing institution histories",
+          "prima-pristinia-codex-emphasis-corrections.md · compatible thematic reading only; quest evidence takes precedence",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · supplied summary of player field notes; observations, reports and theories remain attributed; dates are posting dates; raw export not independently checked"
+        ]
+      }
+    },
+    {
+      "id": "pristinia-player-field-notes",
+      "title": "Early arrivals’ field notes · March 2024",
+      "chapter": "Field testimony",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Player testimony · original checked",
+        "summary": "The original player note has been checked. Reported observations, secondhand warnings, rumors and theories retain their authors; posting dates do not establish world dates. Reading the original confirms what was written, not the objective truth of every claim.",
+        "scope": "section",
+        "sources": [
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1215304371210817586",
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1215703678921744486"
+        ]
+      }
+    },
+    {
+      "id": "pristinia-campaign-reading",
+      "title": "Read the campaign across its people",
+      "chapter": "Connected histories",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Connected reading",
+        "summary": "A route through the linked histories, not independent evidence for their claims.",
+        "scope": "section",
+        "sources": [
+          "Connected reading · #pristinia-campaign"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "player testimony",
+    "scope": "Original location-notes export checked; protected statements and unseen attachments withheld. No truth status inferred from player authorship."
+  }
+}

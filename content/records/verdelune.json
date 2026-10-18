@@ -1,0 +1,64 @@
+{
+  "id": "verdelune",
+  "title": "Verdelune",
+  "category": "Places",
+  "type": "Changing forest · route to Larkhollow",
+  "dek": "A forest approached from Gael whose remembered paths and travel times become unreliable during repeated expeditions.",
+  "facts": {
+    "Connections": "Gael coast · Larkhollow",
+    "Gathering point": "Emberwillow Bridge",
+    "Witnessed hazards": "Dark spirits · shifting routes",
+    "Open question": "Cause of the changes"
+  },
+  "body": "<p>Verdelune is the forest on the recorded route from Gael’s coast toward <a href=\"#larkhollow\">Larkhollow</a>. The newer expeditions gather at Emberwillow Bridge. The account does not provide a surveyed boundary, an independent island classification or precise coordinates.</p><h2 id=\"verdelune-changing-paths\">Routes that do not stay familiar</h2><p>In September, Ryvyt notices a dark path he does not remember. On the later journey with Pelagia, that path is absent and the bell path remains. The travelers experience different apparent durations. October travel also leaves gaps in memory; Fenwick hears a strange tune and works on recording directions.</p><p>The observations make navigation a problem that accumulates across visits. They do not establish a single time-distortion rule or prove that every traveler is affected equally.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1547777428779311265\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554683285408579758\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1554693227045584896\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558304619501985893\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558305604534013994\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"verdelune-presences\">Spirits, children and the choice to withdraw</h2><p>Dark spirits display new movement and force. Shadow children also appear without immediate attacks; the party’s decision to leave them alone matters. At Hana’s tower, curiosity becomes a battle and Oya carries Ryvyt to safety. A later expedition chooses restraint around a child watching <a href=\"#viotas-monument\">Viota’s monument</a>. Neither encounter establishes that every shadow presence has the same identity or intent.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1546735343116750918\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1547784905516261506\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1547825433070805036\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1558341587682070598\" target=\"_blank\" rel=\"noopener\">4</a>.</p><p><a href=\"#quest-continuation\">Follow the expeditions in posting order</a>.</p>",
+  "tags": [
+    "Verdelune",
+    "Emberwillow Bridge",
+    "Gael",
+    "Larkhollow",
+    "Forest"
+  ],
+  "sources": [
+    "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+  ],
+  "relatedRecords": [
+    "gael",
+    "larkhollow",
+    "hana",
+    "viotas-monument",
+    "ryvyt",
+    "fenwick"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "verdelune-changing-paths",
+      "title": "Routes that do not stay familiar",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    },
+    {
+      "id": "verdelune-presences",
+      "title": "Spirits, children and the choice to withdraw",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates"
+        ]
+      }
+    }
+  ]
+}

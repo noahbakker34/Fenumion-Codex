@@ -1,0 +1,84 @@
+{
+  "id": "shard-of-fein-uaill",
+  "title": "The Shard of Fein Uaill",
+  "category": "Places",
+  "type": "Monument and regional landmark",
+  "image": "assets/archive/shard-of-fein-uaill.webp",
+  "imageLayout": "landscape-hero",
+  "imageAlt": "A radiant white tree rising above an immense elven city surrounded by mountains",
+  "imageCaption": "The Shard of Fein Uaill — a monumental landmark at the heart of a luminous cityscape.",
+  "mapId": "fein-uaill",
+  "mapLinkLabel": "Locate the Shard on the interactive Fein Uaill map",
+  "dek": "A monumental named landmark of Fein Uaill, preserved by the regional map and a new visual record while its deeper nature and history remain deliberately unresolved.",
+  "tags": [
+    "Shard of Fein Uaill",
+    "Rem Uaill",
+    "Fein Uaill",
+    "Monument",
+    "Mapped location"
+  ],
+  "facts": {
+    "Region": "Fein Uaill",
+    "Type": "Monument / landmark",
+    "Aliases": "Shard of Fein Uaill · Rem Uaill",
+    "Public status": "Nature and ancient history unresolved"
+  },
+  "sources": [
+    "Fein Uaill regional map — named position",
+    "Supplied location directory — name and aliases",
+    "User-supplied visual record — The Shard of Fein Uaill, 30 Sep 2026"
+  ],
+  "body": "<p>The Shard of Fein Uaill is a named monumental landmark within <a href=\"#fein-uaill\">Fein Uaill</a>. The regional map places it among the land’s major civic and defensive features, while the artwork depicts a radiant white tree towering over an immense city framed by mountains and water.</p>\n      <p>The image establishes the Shard’s intended scale and visual identity, but it does not by itself settle whether the tree is living, constructed, transformed, symbolic, or only one visible part of a larger structure. The Codex therefore treats the cityscape as a visual record and keeps its metaphysical explanation open.</p>\n      <h2 id=\"shard-map\">A landmark large enough to organize a city</h2>\n      <p>The surviving image makes the Shard the landscape’s dominant vertical feature. Streets, towers, gardens, water, and fortifications appear to gather around it, showing how a monumental place can orient civic space even when its government and founding story remain unrecovered.</p>\n      <h2 id=\"shard-public-boundary\">The public boundary</h2>\n      <p>The Shard’s ancient origin, divine significance, powers, custodians, and relationship to the world’s oldest catastrophes are not part of the public record. Those questions belong behind the keeper boundary until players discover them in the campaign.</p>\n      <h2 id=\"shard-open-record\">The open record</h2>\n      <p>The settlement surrounding the Shard, the meaning of the alias Rem Uaill, access to the monument, present-day rites, and its relationship to Zarathis, Ciaránach, and the Shining Shores remain unresolved.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "shard-map",
+      "title": "A landmark large enough to organize a city",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill regional map — named position",
+          "Supplied location directory — name and aliases",
+          "User-supplied visual record — The Shard of Fein Uaill, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "shard-public-boundary",
+      "title": "The public boundary",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill regional map — named position",
+          "Supplied location directory — name and aliases",
+          "User-supplied visual record — The Shard of Fein Uaill, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "shard-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill regional map — named position",
+          "Supplied location directory — name and aliases",
+          "User-supplied visual record — The Shard of Fein Uaill, 30 Sep 2026"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "history-in-consequences",
+  "title": "History in Consequences",
+  "category": "History",
+  "type": "Connected histories",
+  "dek": "Follow what changed, what followed and which questions remain open.",
+  "tags": [
+    "History",
+    "Consequences",
+    "Pristinia",
+    "Gael",
+    "Papirak",
+    "St. Anky"
+  ],
+  "facts": {
+    "Reading": "Sequences connect existing events; they do not fill missing causes"
+  },
+  "sources": [
+    "Established public timeline and linked article histories"
+  ],
+  "protected": false,
+  "body": "<p>Choices change what later people can do. Follow these connected histories across people and places. Connections retain the limits of their underlying accounts.</p><div data-consequence-browser></div>",
+  "sections": []
+}

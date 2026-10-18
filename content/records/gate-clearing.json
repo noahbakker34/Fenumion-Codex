@@ -1,0 +1,128 @@
+{
+  "id": "gate-clearing",
+  "title": "The Gate",
+  "category": "Places",
+  "type": "Prima · arrival clearing and watch",
+  "dek": "The threshold where strangers arrive, veterans offer shelter, and Fenumion’s war becomes personal.",
+  "tags": [
+    "Gate",
+    "Celestial Gate",
+    "Prima",
+    "Pristinia",
+    "Neemah",
+    "Arrivals",
+    "Welcome"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Setting": "Woodland clearing on the road to Pristinia",
+    "Role": "Arrivals, guidance and watch",
+    "Mechanism": "Observed activation; full operation unresolved"
+  },
+  "sources": [
+    "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
+  ],
+  "body": "<h2 id=\"gate-threshold\">A threshold among the trees</h2><p>The Gate stands in an old forest clearing, its stonework weathered and encroached upon by vines. Activations bring light, a rising hum and sometimes the grinding of stone; newcomers can emerge disoriented or fall onto the dais. A road leads toward Pristinia, where food, lodging and an explanation can be found.</p><h2 id=\"gate-welcome\">Who answers an arrival</h2><p>The welcome depends on the people who come. <a href=\"#neemah\">Neemah</a> offers a purpose wider than fighting. Arjahn checks Animak for injury, Vaemyr reassures Dorian, and Kasiri and Krasteline help Fenwick to his feet. Their accounts of why the Gate calls people are attributed explanations, rather than proof of identical circumstances for every traveller.</p><h2 id=\"gate-investigation\">An ancient mechanism, incompletely understood</h2><p>During Kasiri and Krasteline’s examination, the Gate is identified as ancient teleportation magic. No internal source of power is discernible, its runes are unfamiliar, and its moving parts exceed what they can catalogue in one sitting. The observation establishes the limits of that investigation; it does not make the mechanism powerless or fully understood.</p><h2 id=\"gate-service\">Making the welcome practical</h2><p>Farkur speaks of a future caravan offering ale, meals, maps and local advice, and escorts new arrivals toward town. The proposal is part of the developing <a href=\"#ale-chemy-knights\">Ale-Chemy welcome system</a>; its announcement alone does not prove every promised service already exists. Pappy’s coffee and Eldin’s directions to Herb show that welcome also happens through small, immediate acts.</p><h2 id=\"gate-danger\">Arrival during the siege</h2><p>In the account posted on 31 May 2025, newcomers find smoke and falling ash, while Pristinia is visibly under siege. Navi, Cerwin, Alfred and the newly arrived Mei face armed figures near the route. The initial encounter is followed by further danger; it does not establish a permanently secured road or a complete enemy identification.</p><h2 id=\"gate-patrol\">A watch under threat</h2><p>On 21 June, Aravil reaches Icarus before a Rahu search party. He becomes an ordinary chicken, the soldiers overlook him, and the two avoid a battle. The patrol’s commander remarks that the bell was not rung. That establishes a signal people expect to hear, without explaining its installation or guaranteeing rescue.</p><h2 id=\"gate-continuity\">The newcomer becomes a guide</h2><p>Vessalia arrives to Nébula’s welcome in August 2026. By the September encounter with Star, she is offering the guidance she once needed: directions, shelter, warnings and an appeal to protect the people around her. Star accepts the work while refusing an unsupported conclusion about the fate of her old home. The Gate keeps producing choices after the crossing itself.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "gate-threshold",
+      "title": "A threshold among the trees",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
+        ]
+      }
+    },
+    {
+      "id": "gate-welcome",
+      "title": "Who answers an arrival",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
+        ]
+      }
+    },
+    {
+      "id": "gate-investigation",
+      "title": "An ancient mechanism, incompletely understood",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
+        ]
+      }
+    },
+    {
+      "id": "gate-service",
+      "title": "Making the welcome practical",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
+        ]
+      }
+    },
+    {
+      "id": "gate-danger",
+      "title": "Arrival during the siege",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
+        ]
+      }
+    },
+    {
+      "id": "gate-patrol",
+      "title": "A watch under threat",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
+        ]
+      }
+    },
+    {
+      "id": "gate-continuity",
+      "title": "The newcomer becomes a guide",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected scenes, January 2024–September 2026 (UTC posting dates)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "titanwall-eryndor",
+  "title": "The Titanwall of Eryndor",
+  "category": "Places",
+  "type": "Fortification in Fein Uaill",
+  "video": "assets/archive/titanwall-eryndor.mp4",
+  "videoType": "video/mp4",
+  "videoLayout": "landscape-hero",
+  "videoAlt": "A moving visual record of the Titanwall of Eryndor",
+  "videoCaption": "The Titanwall of Eryndor — user-supplied moving location record, 27 September 2026.",
+  "dek": "A monumental fortification marked on the Fein Uaill map, with its construction and historical purpose still unrecovered.",
+  "tags": [
+    "Titanwall of Eryndor",
+    "Fein Uaill",
+    "Fortification",
+    "Mapped location"
+  ],
+  "facts": {
+    "Region": "Fein Uaill",
+    "Type": "Fortification",
+    "Status": "Purpose unresolved"
+  },
+  "sources": [
+    "Fein Uaill regional map — named fortification",
+    "User-supplied moving visual record — Titanwall of Eryndor, 27 Sep 2026"
+  ],
+  "body": "<p>The Titanwall of Eryndor is a named fortification in <a href=\"#fein-uaill\">Fein Uaill</a>. It appears on the regional map and now has an illustration, establishing it as a monumental boundary or defensive work without yet establishing which threat it faced.</p>\n      <h2 id=\"titanwall-map\">A mapped boundary</h2>\n      <p>The interactive Fein Uaill map preserves the wall’s approximate marked position. That cartographic evidence should not be stretched into claims about its precise dimensions, route, garrison, or relationship to neighboring sites.</p>\n      <h2 id=\"titanwall-open-record\">The open record</h2>\n      <p>Eryndor’s identity, the wall’s builders, construction era, military history, present condition, and custodians remain unrecovered.</p>",
+  "gallery": [
+    {
+      "image": "assets/locations/discord/cc4c982d260a7384fb5ee8b4ed7d486e517231864fbaa8c462909bf628bc16fa.webp",
+      "title": "The Titanwall of Eryndor — dam reference",
+      "alt": "The Titanwall of Eryndor — dam reference",
+      "caption": "This image is attached to the opening description identifying the Titanwall as the dam city controlling the river.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747644879802489/1311747644879802489"
+    },
+    {
+      "image": "assets/locations/discord/b50cfdd7dde6ec1c4a50397bdec71d9d48add2aa99037c2d6676589d8f7857e6.webp",
+      "title": "The Titanwall of Eryndor — castle and dam approach",
+      "alt": "The Titanwall of Eryndor — castle and dam approach",
+      "caption": "Posted immediately after the Titanwall’s opening dam-city description as its setting illustration, before roleplay begins.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747644879802489/1318090312404697108"
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "titanwall-map",
+      "title": "A mapped boundary",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill regional map — named fortification",
+          "User-supplied moving visual record — Titanwall of Eryndor, 27 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "titanwall-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Fein Uaill regional map — named fortification",
+          "User-supplied moving visual record — Titanwall of Eryndor, 27 Sep 2026"
+        ]
+      }
+    }
+  ]
+}

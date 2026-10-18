@@ -1,0 +1,64 @@
+{
+  "id": "discovery-309",
+  "title": "Papirus the Ardent",
+  "category": "People",
+  "type": "Papirak’s earlier identity",
+  "dek": "An established earlier identity connected to Papirak’s public history.",
+  "tags": [
+    "Papirus the Ardent",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Papirak’s earlier identity",
+    "Island": "Prima",
+    "Census posts": "1",
+    "Recorded span": "2024-12-30 → 2024-12-30",
+    "Prominence": "82/100 · Established",
+    "Recorded presence": "2/20"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>An established earlier identity connected to Papirak’s public history.</p><p><a href=\"#papirak\">Read the existing Papirak the Strange history →</a></p><h2 id=\"discovery-309-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 82/100 · Established</strong></p><p>The established Papirak chronology links teaching and lasting civic institutions.</p><ul><li>Consequences: 5/5 · weight 35</li><li>Institutional or witness role: 5/5 · weight 25</li><li>Relationships: 5/5 · weight 20</li><li>Recorded presence: 2/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-309-record\">Archive record</h2><p>The census records 1 posts across 2024-12-30 → 2024-12-30. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1323399853732003921\">Recorded scene · 1323399853732003921</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/papirak.jpg",
+  "imageAlt": "Papirak with long pale hair and a beard, holding a glowing blue orb",
+  "imageCaption": "Papirak the Strange",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-309-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-309-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ]
+}

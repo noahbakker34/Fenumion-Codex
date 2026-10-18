@@ -1,0 +1,215 @@
+{
+  "id": "arjahn",
+  "title": "Arjahn",
+  "category": "People",
+  "type": "Soldier; mapper; protector",
+  "image": "assets/characters/arjahn.png",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Portrait of Arjahn, a soldier, mapper, and protector",
+  "imageCaption": "Arjahn — soldier, mapper, and protector.",
+  "dek": "Arjahn thinks beyond the first victory: routes, hazards, retreat, the next fight—and the relationships that must survive long enough to make any plan matter.",
+  "tags": [
+    "Arjahn",
+    "Pristinia",
+    "Mapping",
+    "Olokun",
+    "Vanguard",
+    "Babel-Ashur"
+  ],
+  "facts": {
+    "Method": "Soldier thinking",
+    "Priority": "Survive the second fight",
+    "Family": "Wife and children",
+    "Affiliation": "The Vanguard · May 2026",
+    "Strength": "Makes other people’s plans better"
+  },
+  "sources": [
+    "Pasted markdown(20260909-022826).md — cavern mapping and reconciliation",
+    "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses",
+    "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
+    "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test",
+    "Gate chronicle · primary arrival and welcome scenes"
+  ],
+  "body": "<p>Arjahn’s planning is biography. He looks for environmental hazards, defensible routes, monster territory, and the path home after the battle everyone is currently discussing. He is interested not only in reaching a target, but in whether the party can survive what happens afterward.</p>\n      <h2 id=\"map\">The map as protection</h2>\n      <p>When Wren develops a way to gather information from the landscape, Arjahn does not compete for ownership. He asks who will draw what she learns and offers magic to improve the work. His instinct is collaborative: a good solution belongs to the group and should be made more survivable.</p>\n      <h2 id=\"olokun\">Anger carried forward</h2>\n      <p>After Olokun lashes out at him for risking another death, Arjahn names what the fear has erased: he has a wife and children, understands the cost, and is trying to keep Olokun alive too. Days later he offers a joke about weaponized paintbrushes because he does not want anger to become their last exchange.</p>\n      <h2 id=\"discipline\">Fear, then discipline</h2>\n      <p>The broader record remembers a protector who can be terrified, physically overwhelmed, or furious without ceasing to act like a soldier. Courage is not calmness. It is regaining enough discipline to stand, plan, and protect the person beside him.</p>\n      <h2 id=\"western-mist-arjahn\">The western mist · fear as information</h2>\n      <p>Arjahn’s unusual perception shows him something inside Babel-Ashur’s western mist that resembles every nightmare he has experienced at once. Outside the visible boundary he can still rationalize the sensation; his prediction of compounded fear and battle trauma inside remains a warning rather than an observed effect.</p>\n      <p>He continues helping during the Spires’ reversed-gravity accident, then performs the group’s deliberate radiant test. His energy burns a temporary opening but produces a violently amplified reaction before the mist regenerates. The result unsettles him and teaches a new tactical limit: his own power can become more dangerous when the environment changes its scale.</p>\n      <h2 id=\"vanguard\">The Vanguard · May 2026</h2>\n      <p>During the Babel-Ashur crisis, Arjahn was reported to be part of <a href=\"#vanguard\">a vanguard that was losing</a>. This early Vanguard reference is supplemented by Mya’s account of a scattered first wave and Nuru preparing a more focused second force; formal ranks and membership remain unresolved. It extends Arjahn’s history into an active front under severe pressure, but it does not identify his rank, mission, comrades, or eventual fate.</p><h2 id=\"arjahn-kyrin\">Learning to address the survivor</h2><p>At Skylight Refuge, Arjahn asks another survivor about the mind of the freed captive before speaking to Kyrin himself. He recognizes the mistake and apologizes. He distinguishes healing an arm from repairing a mind or soul, and offers help without promising a magical cure. When Kyrin blames his people for losing the land, Arjahn insists that being attacked was not their fault.</p><h2 id=\"arjahn-mountain-assault\">Vengeance and the mountain</h2><p>Before the mountain assault, Arjahn admits that his immediate desire is vengeance rather than rebuilding. He understands that collapsing the stronghold could endanger hidden people, yet argues that the offensive must proceed. He redirects water, casts an earthquake on the mountainside and carries Eugene out of the flood. His continued care for companions coexists with this darker turn; one does not erase the other. The account posted on 29 August 2026 (UTC) leaves the full aftermath unresolved.</p><h2 id=\"arjahn-gate-0\">Offering Animak a first foothold</h2><p>At the Gate, Arjahn checks Animak for injury, offers shelter and service in Pristinia, and is startled when the newcomer disappears into a lantern. He listens until Animak finds a way out, then returns it. On the road he explains that his own way of fighting Death is keeping others alive, while admitting he does not know how the wider struggle will end. He also speaks of his lost wife and children; Animak’s apology meets reassurance rather than blame. <a href=\"#animak\">Read Animak’s arrival</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "map",
+      "title": "The map as protection",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022826).md — cavern mapping and reconciliation",
+          "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses",
+          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "olokun",
+      "title": "Anger carried forward",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022826).md — cavern mapping and reconciliation",
+          "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses",
+          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "discipline",
+      "title": "Fear, then discipline",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022826).md — cavern mapping and reconciliation",
+          "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses",
+          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "western-mist-arjahn",
+      "title": "The western mist · fear as information",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022826).md — cavern mapping and reconciliation",
+          "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses",
+          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "vanguard",
+      "title": "The Vanguard · May 2026",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022826).md — cavern mapping and reconciliation",
+          "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses",
+          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "arjahn-kyrin",
+      "title": "Learning to address the survivor",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022826).md — cavern mapping and reconciliation",
+          "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses",
+          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "arjahn-mountain-assault",
+      "title": "Vengeance and the mountain",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022826).md — cavern mapping and reconciliation",
+          "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses",
+          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "arjahn-gate-0",
+      "title": "Offering Animak a first foothold",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022826).md — cavern mapping and reconciliation",
+          "Pasted markdown(20260919-145050).md — Arjahn and Olokun after repeated losses",
+          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
+          "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — mist perception, rescue, and radiant-field test",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Soldier; mapper; protector",
+    "significance": "Arjahn thinks beyond the first victory: routes, hazards, retreat, the next fight—and the relationships that must survive long enough to make any plan matter.",
+    "actions": [
+      {
+        "section": "map",
+        "title": "The map as protection"
+      },
+      {
+        "section": "western-mist-arjahn",
+        "title": "The western mist · fear as information"
+      },
+      {
+        "section": "vanguard",
+        "title": "The Vanguard · May 2026"
+      }
+    ],
+    "status": "Last dated entry in this selection: 26 Sep 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [
+      {
+        "id": "animak",
+        "label": "Animak",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance.",
+    "curatedActions": true
+  },
+  "profile": {
+    "personality": "Arjahn thinks like a soldier responsible for bringing people home. He can become sharp when fear or loss overwhelms a plan, but he values routes, maps, accountability, and the difficult work of repairing trust after people have said what pressure made them say.",
+    "achievements": "He helps expose the false distress call in The Before, survives the cave collapse and contamination crisis, resurrects Olokun with the Scepter of Faith, and later burns a temporary opening in Babel-Ashur’s western mist. His best deeds combine force with preparation: escape routes, shared maps, and evidence that others can use.",
+    "relationships": "His bond with Olokun survives anger, near-death, and reconciliation through work. Wren, Dale, Vaemyr, Gudlaug, Tricks, and Leo appear across his field history, while his later service with the Vanguard places him inside a larger responsibility to people who may never know the individual choices that kept them alive."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "kyrin-the-lost",
+  "title": "Kyrin the Lost",
+  "category": "People",
+  "type": "Freed captive · witness to lost Babel",
+  "dek": "A survivor of petrification whose fragmented memories preserve a beautiful land and the pain of its loss.",
+  "tags": [
+    "Kyrin the Lost",
+    "Babel-Ashur",
+    "Skylight Refuge",
+    "Survivors"
+  ],
+  "facts": {
+    "Region": "Babel-Ashur",
+    "Recorded at": "Skylight Refuge",
+    "Account": "Surviving testimony; exact in-world date unresolved"
+  },
+  "sources": [
+    "Babel quest record · campfire testimony, August 2026"
+  ],
+  "body": "<p>Kyrin calls himself the Lost “in battle and in memory and in soul.” At the refuge’s campfire, Arjahn speaks of a man freed from a petrified prison; Kyrin answers for himself when others discuss his condition. His ability to speak does not erase the damage he describes or establish that his memories are whole.</p><h2 id=\"kyrin-memory\">The land he remembers</h2><p>Kyrin remembers mountain forts, valley farms and vineyards, followed by the sky falling and the tree breaking. He names the floating island Ashur and recalls abundant waters from its tree. The memory belongs to a distressed witness; neither its ancient date nor every cause of the catastrophe is settled by his recollection.</p><h2 id=\"kyrin-arjahn\">Help without speaking over him</h2><p>Arjahn initially asks someone else about the freed man’s mind, then apologizes for not addressing him directly. He explains that bodily healing is not the same as repairing memory or a soul, and offers support without promising an instant cure. Kyrin blames his own people’s failure to defend their land; Arjahn rejects that blame and insists that being attacked was not their fault.</p><p>Kyrin asks that the children be sent away from danger. He refuses to romanticize his captor and says surviving captives might know more than he does. Those possibilities remain leads, not completed rescues or recovered memories.</p>",
+  "image": "assets/characters/kyrin.jpg",
+  "imageAlt": "Kyrin with blue skin, horns and a gold forehead ornament",
+  "imageCaption": "Kyrin the Lost",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "kyrin-memory",
+      "title": "The land he remembers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Babel quest record · campfire testimony, August 2026"
+        ]
+      }
+    },
+    {
+      "id": "kyrin-arjahn",
+      "title": "Help without speaking over him",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Babel quest record · campfire testimony, August 2026"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Freed captive · witness to lost Babel",
+    "significance": "A survivor of petrification whose fragmented memories preserve a beautiful land and the pain of its loss.",
+    "actions": [
+      {
+        "title": "Babel’s survivors tell their own stories",
+        "event": "Babel’s survivors tell their own stories",
+        "date": "5 Aug 2026 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 5 Aug 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

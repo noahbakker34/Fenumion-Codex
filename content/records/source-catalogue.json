@@ -1,0 +1,58 @@
+{
+  "id": "source-catalogue",
+  "title": "The Source Catalogue",
+  "category": "Archive",
+  "type": "Record index",
+  "dek": "A detailed catalogue provides the archive’s map: people, events, places, claims, sources, and consequences.",
+  "tags": [
+    "Markdown",
+    "Provenance",
+    "Sources",
+    "Archive"
+  ],
+  "facts": {
+    "Format": "Markdown",
+    "Length": "234 lines",
+    "Purpose": "Index, not canon",
+    "Method": "Claims remain attached to speakers and sources"
+  },
+  "sources": [
+    "Fenumion Archive Catalogue — character, event, place, and source index",
+    "Cited campaign exports and primary scenes"
+  ],
+  "body": "<p>A purpose-built catalogue turns the sprawling record into a usable research system. It is not an omniscient lore bible. Its warning is essential: precise claims must be checked against the underlying logs, and an NPC’s belief, a witness’s interpretation, and objective setting history are different kinds of evidence.</p>\n      <div class=\"callout gold\"><p><strong>The catalogue’s unit is historical consequence, not quest.</strong> A wall, a death, an argument, or a promise remains indexed because it continues to affect later people.</p></div>\n      <h2 id=\"six-records\">Six linked kinds of record</h2>\n      <div class=\"evidence-stack\">\n        <section class=\"evidence-card\"><span>01</span><div><h3>People</h3><p>Player characters, NPCs, gods, rulers, witnesses, and their changing relationships.</p></div></section>\n        <section class=\"evidence-card\"><span>02</span><div><h3>Events</h3><p>What happened, when it entered play, and which later revelation changed its meaning.</p></div></section>\n        <section class=\"evidence-card\"><span>03</span><div><h3>Places</h3><p>Islands, settlements, ruins, and the ordinary systems that make each location livable.</p></div></section>\n        <section class=\"evidence-card\"><span>04</span><div><h3>Claims</h3><p>Statements that retain their speaker, date, confidence, and possible contradiction.</p></div></section>\n        <section class=\"evidence-card\"><span>05</span><div><h3>Sources</h3><p>The exact Markdown export, transcript, image, or retrospective from which a claim derives.</p></div></section>\n        <section class=\"evidence-card\"><span>06</span><div><h3>Consequences</h3><p>The later choices, institutions, griefs, and material changes an earlier act made possible.</p></div></section>\n      </div>\n      <h2 id=\"editorial-rules\">What it protects</h2>\n      <ul>\n        <li><strong>Discovery order:</strong> learning that Roderick used Delerium months after meeting Wrath is not the same experience as knowing it in advance.</li>\n        <li><strong>Contradiction:</strong> Aria’s claim that she had no sibling remains beside the older-brother account rather than being silently reconciled.</li>\n        <li><strong>Source bias:</strong> Vysaeth’s accusations matter without becoming an invisible narrator’s verdict.</li>\n        <li><strong>The ordinary world:</strong> farms, taverns, marriages, walls, food stores, and memorials remain part of history.</li>\n      </ul>\n      <p>This edition uses that method throughout. Open <strong>Documents used</strong> beneath an entry to see the files that anchor its synthesis.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "six-records",
+      "title": "Six linked kinds of record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion Archive Catalogue — character, event, place, and source index",
+          "Cited campaign exports and primary scenes"
+        ]
+      }
+    },
+    {
+      "id": "editorial-rules",
+      "title": "What it protects",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Fenumion Archive Catalogue — character, event, place, and source index",
+          "Cited campaign exports and primary scenes"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "discovery-086",
+  "title": "Katherine Hearthford",
+  "category": "People",
+  "type": "Pristinian civic leader",
+  "dek": "An early childhood label in Katherine’s continuing history. Later scenes name her as an Elder candidate and then as an Elder; they do not make a second Katherine.",
+  "tags": [
+    "Katherine Hearthford",
+    "npc",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Pristinian civic leader",
+    "Island": "Prima",
+    "Census posts": "14",
+    "Recorded span": "2024-03-06 → 2024-03-18",
+    "Prominence": "71/100 · Provisional",
+    "Recorded presence": "7/20",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>An early childhood label in Katherine’s continuing history. Later scenes name her as an Elder candidate and then as an Elder; they do not make a second Katherine.</p><h2 id=\"discovery-086-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 71/100 · Provisional</strong></p><p>The early identity continues into candidacy and Eldership, linking family history to civic consequence.</p><ul><li>Consequences: 4/5 · weight 35</li><li>Institutional or witness role: 4/5 · weight 25</li><li>Relationships: 4/5 · weight 20</li><li>Recorded presence: 7/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-086-record\">Archive record</h2><p>The census records 14 posts across 2024-03-06 → 2024-03-18. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1214999495251595274\">Recorded scene · 1214999495251595274</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420466200734863506\">Recorded scene · 1420466200734863506</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1494845922150973551\">Recorded scene · 1494845922150973551</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/0c1cca6d539eb6a419339662098fe442a74e773ad30d424955c17068668faa81.png",
+  "imageAlt": "Discord depiction of Katherine Hearthford",
+  "imageCaption": "Katherine Hearthford",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-086-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-086-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Pristinian civic leader",
+    "significance": "An early childhood label in Katherine’s continuing history. Later scenes name her as an Elder candidate and then as an Elder; they do not make a second Katherine.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

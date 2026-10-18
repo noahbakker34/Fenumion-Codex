@@ -1,0 +1,144 @@
+{
+  "id": "kaiya-dragonsister",
+  "title": "Kaiya Dragonsister",
+  "category": "People",
+  "type": "Zarathian intelligence operative and scholar",
+  "dek": "Patient and cautious, Kaiya turns the instincts of a long-hidden operative toward the poorly documented origins of her own people.",
+  "tags": [
+    "Kaiya",
+    "Kaiyah",
+    "Kaiyah Dragonsister",
+    "Dragonsisters",
+    "Dragonborn",
+    "Zarathis",
+    "Fein Uaill",
+    "The Veil",
+    "Scholarship"
+  ],
+  "facts": {
+    "Alias": "Kaiyah Dragonsister",
+    "People": "Dragonborn",
+    "Sisters": "Sheeva and Minyah",
+    "Stated affiliation": "“Of the Veil” · exact status unresolved",
+    "Preferred approach": "Guile and tact",
+    "Postwar study": "Origins and ancestry of Dragonborn",
+    "Later fate": "Unresolved",
+    "Region": "Fein Uaill"
+  },
+  "sources": [
+    "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+  ],
+  "body": "<p>Kaiya is one of <a href=\"#dragonsisters\">the Dragonsisters</a>, honored for approximately five years of covert service to <a href=\"#zarathis\">Zarathis</a>. Captain Zythienne introduces her as Kaiyah at the July 2025 celebration; later scenes use Kaiya, and both names are retained.</p>\n<h2 id=\"kaiya-presence\">A reluctant place in the spotlight</h2>\n<p>Kaiya hides shyly when the sisters are presented to the crowd. She later describes herself as patient and cautious. The skill of operating unseen does not guarantee comfort with national celebration.</p>\n<p>She normally wears a mask. That detail is also associated with Sheeva in the July Eugene scene, so masks do not distinguish the sisters absolutely.</p>\n<h2 id=\"kaiya-veil\">Guile and tact</h2>\n<p>Kaiya explicitly says she is “of the Veil,” then explains her preference:</p>\n<div class=\"quote\">Combat is not for me. I prefer guile and tact.<cite>Kaiya Dragonsister</cite></div>\n<p>Her own description supports indirect action and careful judgment. Her precise status within the Veil, mechanical abilities, and full institutional relationship are not recovered; this affiliation is not automatically equated with a different group merely because its name is similar.</p>\n<h2 id=\"kaiya-scholar\">Studying Dragonborn origins</h2>\n<p>After the war Kaiya takes the opportunity to pursue passion studies. She asks how Dragonborn first came to be, who their ancestors were, and how far the lineage can be traced through poorly documented history.</p>\n<p>In the August social scene Eldin Stormheart dances with her and discusses that research. They arrange what Kaiya calls a date at the library over strong tea. The record supports that invitation without supplying a permanent partnership.</p>\n<h2 id=\"kaiya-family\">A sister watching how Sheeva is treated</h2>\n<p>When Eldin comments on Sheeva’s influence over Eugene, Kaiya calls him simple, humble, and a man who treats her sister with dignity. Her approval is grounded in conduct rather than power or prestige.</p>\n<p>Her relationship with Eugene is that of an observing sister, distinct from <a href=\"#sheeva-dragonsister\">Sheeva’s</a> romance. <a href=\"#minyah-dragonsister\">Minyah’s</a> return to fieldwork offers another response to the freedom they have gained after the shared mission.</p>\n<h2 id=\"kaiya-open-record\">The open record</h2>\n<p>Her age, ancestry, earlier life, exact Veil status, research findings, future relationship with Eldin, and later fate remain unresolved. Guile and scholarship are established interests; the archive does not invent an origin theory that her research has not yet proved.</p>",
+  "image": "assets/characters/kaiya.png",
+  "imageAlt": "Kaiya with pale hair wearing dark armor and a pointed mask with blue glowing eyes",
+  "imageCaption": "Kaiya Dragonsister",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "kaiya-presence",
+      "title": "A reluctant place in the spotlight",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "kaiya-veil",
+      "title": "Guile and tact",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "kaiya-scholar",
+      "title": "Studying Dragonborn origins",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "kaiya-family",
+      "title": "A sister watching how Sheeva is treated",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    },
+    {
+      "id": "kaiya-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Zarathian intelligence operative and scholar",
+    "significance": "Patient and cautious, Kaiya turns the instincts of a long-hidden operative toward the poorly documented origins of her own people.",
+    "actions": [
+      {
+        "title": "Zarathis honors the Dragonsisters",
+        "event": "Zarathis honors the Dragonsisters",
+        "date": "15 Jul 2025"
+      },
+      {
+        "title": "The Dragonsisters describe life after the war",
+        "event": "The Dragonsisters describe life after the war",
+        "date": "19 Aug 2025"
+      }
+    ],
+    "status": "Last dated entry in this selection: 19 Aug 2025. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "dragonsisters",
+        "label": "The Dragonsisters",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "sheeva-dragonsister",
+        "label": "Sheeva Dragonsister",
+        "relation": "Connected in this history"
+      },
+      {
+        "id": "minyah-dragonsister",
+        "label": "Minyah Dragonsister",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

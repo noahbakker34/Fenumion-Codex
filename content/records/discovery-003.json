@@ -1,0 +1,72 @@
+{
+  "id": "discovery-003",
+  "title": "Simon",
+  "category": "People",
+  "type": "Recurring social figure",
+  "dek": "Introduces himself as willing to help; in a later scene he asks to be taken to jail for protection. The outcome is not established here.",
+  "tags": [
+    "Simon",
+    "npc"
+  ],
+  "facts": {
+    "Role": "Recurring social figure",
+    "Island": "Not established",
+    "Census posts": "77",
+    "Recorded span": "2024-12-14 → 2025-09-23",
+    "Prominence": "Unrated",
+    "Recorded presence": "16/20",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Introduces himself as willing to help; in a later scene he asks to be taken to jail for protection. The outcome is not established here.</p><h2 id=\"discovery-003-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-003-record\">Archive record</h2><p>The census records 77 posts across 2024-12-14 → 2025-09-23. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1317665917324234783\">Recorded scene · 1317665917324234783</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420280313157910549\">Recorded scene · 1420280313157910549</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/e913fd9aeef057ab83a634f8c9ca1bf46e07e0f0c0c97893b2cfa0ab03c5ad24.png",
+  "imageAlt": "Discord depiction of Simon",
+  "imageCaption": "Simon",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-003-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-003-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Recurring social figure",
+    "significance": "Introduces himself as willing to help; in a later scene he asks to be taken to jail for protection. The outcome is not established here.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

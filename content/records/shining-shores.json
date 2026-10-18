@@ -1,0 +1,261 @@
+{
+  "id": "shining-shores",
+  "title": "The Shining Shores",
+  "category": "Places",
+  "type": "Coastal region and city shore",
+  "videoType": "video/mp4",
+  "imageLayout": "landscape-hero",
+  "videoAlt": "A moving visual record of the warm coast and cityscape of the Shining Shores in Fein Uaill",
+  "videoCaption": "The Shining Shores — user-supplied moving location record, 26 September 2026.",
+  "gallery": [
+    {
+      "image": "assets/archive/shining-shores-alternate.webp",
+      "alt": "White fortresses and towers rising along sunlit coastal cliffs above the Shining Shores",
+      "title": "White fortresses above the Shining Shores",
+      "caption": "An alternate view of Fein Uaill’s luminous coastal architecture."
+    },
+    {
+      "image": "assets/locations/discord/e9587790cf9bc3392f0ca07402cf83c8d659001c4b15a65e38d3fed7d3d53be8.webp",
+      "title": "The Shining Shores — harbor-city reference",
+      "alt": "The Shining Shores — harbor-city reference",
+      "caption": "Opening harbor description and subsequent arrival dialogue identify this scene. A guide calls the shore city the Gates of Aethor; preserve that wording alongside the separately named Gates of Aelthor post.",
+      "source": "https://discord.com/channels/1177270231513694249/1311746435460366377/1311795821888671958"
+    },
+    {
+      "image": "assets/locations/discord/c39242d182a4226e967e74550d9aabf6c81b01346d588164c68450e6d089c3db.webp",
+      "title": "The Gates of Aelthor — bridge approach",
+      "alt": "The Gates of Aelthor — bridge approach",
+      "caption": "The opening Gates of Aelthor description and guide’s mighty-bridge dialogue directly identify the outpost approach. The guide also spells its name Aethlor; do not silently resolve that variation.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747360220512318/1327709047222304909"
+    },
+    {
+      "image": "assets/locations/discord/d4001463d5a49ecc6cbacdfd8e2cdbe0fff8f4a324f08cbffd31c7f22a87059f.webp",
+      "title": "The Gates of Aelthor — guard-tower surroundings",
+      "alt": "The Gates of Aelthor — guard-tower surroundings",
+      "caption": "Tarwen offers a nearby guard tower for a private conversation; this image accompanies the movement there.",
+      "source": "https://discord.com/channels/1177270231513694249/1311747360220512318/1426261161791324254"
+    }
+  ],
+  "dek": "The warm coast of Fein Uaill and the Gates of Aelthor: white streets, busy markets, soaring towers, sea arrivals, and quieter conversations at sunset.",
+  "tags": [
+    "The Shining Shores",
+    "Gates of Aelthor",
+    "Fein Uaill",
+    "Aelthor",
+    "Coast",
+    "Locations"
+  ],
+  "facts": {
+    "Region": "Fein Uaill",
+    "Primary city": "Gates of Aelthor",
+    "Character": "White streets · markets · towers · warm sand",
+    "Recovered arrival": "10 Jan 2025",
+    "Heavenly Host attack": "15 Oct 2025",
+    "Exile departure": "22 Dec 2025",
+    "Namesake": "Aelthor, first king after the breaking of the world"
+  },
+  "sources": [
+    "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+    "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+    "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+    "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+    "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+    "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+    "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+  ],
+  "body": "<p>The Shining Shores are a coastal region of Fein Uaill containing the <strong>Gates of Aelthor</strong>, a major city reached by sea. Their recovered history joins two scales of place: white streets, markets, and towers large enough to announce a civilization, and warm sand quiet enough for rest, friendship, and difficult political conversation.</p>\n      <div class=\"callout gold\"><p><strong>Evidence boundary:</strong> this source establishes the city, shore, sea access, visual character, namesake, and several visits. It does not establish the population, exact age, current ruler, full extent of the coast, whether Aelthor founded the city, or whether every arrival in Fein Uaill passes through it.</p></div>\n      <h2 id=\"gates-of-aelthor\">The Gates of Aelthor</h2>\n      <p>Tarwen of the Silver Star introduces the Gates as “our city on the shining shore.” The city’s white streets, bustling markets, and soaring towers immediately impress Elenia and Olokun. The account confirms a beautiful and active coastal city without converting that reaction into claims about its size, government, or wealth.</p>\n      <div class=\"quote\">This is our city on the shining shore. We call it the Gates of Aelthor, after our first king after the breaking of the world.<cite>Tarwen of the Silver Star</cite></div>\n      <h2 id=\"aelthor-name\">Aelthor and the breaking of the world</h2>\n      <p>Tarwen identifies Aelthor as Fein Uaill’s first king after an event remembered as the <strong>breaking of the world</strong>. The name turns the city into a civic memorial: every use recalls political continuity after catastrophe.</p>\n      <p>The account does not explain the breaking or state that Aelthor founded the city. Its wording may invite comparison with the Great Fracture, but the Codex does not identify the two events without direct evidence.</p>\n      <h2 id=\"name-variants\">Aelthor, Aethor, and Arthor</h2>\n      <p>The user confirms <strong>Aelthor</strong> as the proper spelling. Aethor and Arthor are alternate spellings of his name.</p>\n      <h2 id=\"shore-arrivals\">Arrivals by sea</h2>\n      <p>On 10 January 2025, Elenia, Olokun, Draygar, Adelia, Scribonia, Eugene, Krone, and others reach the city. The Writer closes the arrival with white towers, grand shops, and sprawling civilization: “Welcome. To the Shining Shores.” Eldin Stormheart later rests on the warm sand beneath the setting sun, and Ithilrûnë Ailinor arrives by ship after him. Together these scenes establish sea access and multiple arrivals without making this the region’s only port.</p>\n      <h2 id=\"aelthor-attack\">15 October 2025 · the Heavenly Host</h2>\n      <p>The Gates fall silent as Aionia’s Heavenly Host approaches beneath a cloud during an eclipse. Ships move downriver toward the sea, waves strike the walls, and radiant clouds swallow the red sky. Magnus, Adelia, Elenia, Scribonia, Olokun, Aria, and others assemble for the defense. The attack takes place on 15 October 2025, turning the coast into a battlefield.</p>\n      <h2 id=\"shore-gathering\">A shore for difficult conversation</h2>\n      <p>The coast is not merely an approach to the city. Elenia, Adelia, and Olokun later gather there while discussing Scribonia, Fein Uaill’s factions, the conflict with the dragons, and possible future diplomacy. The city’s public splendor gives way to a quieter social landscape where people can consider how they will move through the region rather than simply admire it.</p>\n      <h2 id=\"shore-exile\">22 December 2025 · departure into exile</h2>\n      <p>After Bowene delivers Ciaránach’s verdict, Elenia, Olokun, and Aravil are told to meet at the Shining Shores before sunset. The coast becomes the threshold between judgment and the Babel-Ashur campaign: an escort point, a farewell site, and the last place in Fein Uaill before an exile intended to remain revisable rather than permanent.</p>\n      <h2 id=\"associated-people\">People in the recovered record</h2>\n      <ul>\n        <li><strong>Tarwen of the Silver Star</strong> introduces the city and preserves the explanation of its name.</li>\n        <li><strong>Elenia and Olokun</strong> react to the city’s beauty and later meet along the shore.</li>\n        <li><strong>Adelia</strong> joins the shoreline conversation about factions, dragons, Scribonia, and diplomacy.</li>\n        <li><strong>Eldin Stormheart</strong> rests on the warm sand after arriving in Fein Uaill.</li>\n        <li><strong>Ithilrûnë Ailinor</strong> arrives by ship while seeking the mysterious land and greater power.</li>\n      </ul>\n      <h2 id=\"shining-shores-open-record\">The open record</h2>\n      <p>The Gates’ population, founding, exact age, present ruler, civic structure, full battle losses, and relationship to other Fein Uaill cities remain unrecovered. The full geographic extent of the Shining Shores, Aelthor’s biography, and the identity of the “breaking of the world” also remain open.</p>",
+  "image": "assets/archive/shining-shores-alternate.webp",
+  "video": "shining-shores.m4v",
+  "scenes": [
+    {
+      "title": "The Zarathian fleet at the Shining Shores",
+      "video": "assets/location-scenes/zarathian-fleet.mp4",
+      "poster": "assets/location-scenes/zarathian-fleet.jpg",
+      "caption": "White-and-gold sails cross clear blue water. The Zarathian fleet at the Shining Shores, as identified in the supplied visual record."
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "gates-of-aelthor",
+      "title": "The Gates of Aelthor",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+          "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+          "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+          "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+          "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+          "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+          "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "aelthor-name",
+      "title": "Aelthor and the breaking of the world",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+          "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+          "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+          "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+          "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+          "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+          "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "name-variants",
+      "title": "Aelthor, Aethor, and Arthor",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+          "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+          "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+          "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+          "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+          "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+          "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "shore-arrivals",
+      "title": "Arrivals by sea",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+          "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+          "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+          "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+          "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+          "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+          "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "aelthor-attack",
+      "title": "15 October 2025 · the Heavenly Host",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+          "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+          "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+          "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+          "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+          "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+          "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "shore-gathering",
+      "title": "A shore for difficult conversation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+          "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+          "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+          "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+          "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+          "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+          "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "shore-exile",
+      "title": "22 December 2025 · departure into exile",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+          "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+          "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+          "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+          "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+          "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+          "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "associated-people",
+      "title": "People in the recovered record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+          "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+          "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+          "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+          "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+          "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+          "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "shining-shores-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 139, 10 Jan 2025 — first recovered arrival and city description",
+          "Complete quest-rp export, candidate session 238, 15 Oct 2025 — defense against the Heavenly Host",
+          "Complete quest-rp export, candidate session 256, 22 Dec 2025 — departure point for the exiles",
+          "Fenumion_Codex_The_Shining_Shores.md — consolidated location profile, recovered speech, participants, and safeguards; supplied profile renders Aethor",
+          "User correction, 26 Sep 2026 — Aelthor is the proper spelling",
+          "3492A84B-DCB8-4486-9A86-0D22C96831FF-10290-0000024C57541C5C.mov — user-identified moving visual record, 26 Sep 2026",
+          "User-supplied alternate visual record — white fortresses along the coast, 30 Sep 2026"
+        ]
+      }
+    }
+  ]
+}

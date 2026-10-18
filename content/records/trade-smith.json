@@ -1,0 +1,81 @@
+{
+  "id": "trade-smith",
+  "title": "Smith",
+  "category": "Guide",
+  "type": "Fenumion trade skill reference",
+  "dek": "Refine materials and recover resources from magic items.",
+  "tags": [
+    "Blessings",
+    "Homebrew",
+    "Crafting",
+    "Skill Experience",
+    "Smith"
+  ],
+  "facts": {
+    "System": "Fenumion crafting"
+  },
+  "sources": [
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+  ],
+  "body": "<p><a href=\"#fenumion-crafting\">← Crafting &amp; Skill Experience</a></p><p>Smiths serve an important role in the magic item economy of Fenumion. They specialize in the many processes that encompass the transmutation of materials and finished products. Smiths can refine Materials gathered by scouts into higher-rarity versions, as well as break down magic items into their component materials or even costly spell components.</p><h2 id=\"trade-smith-section-1\">The Smith Progression Table</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Smith · table 1\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Smith · table 1</caption><thead><tr><th scope=\"col\">Skill Level</th><th scope=\"col\">Skill Exp. Required</th><th scope=\"col\">Abilities</th></tr></thead><tbody><tr><th scope=\"row\">Apprentice</th><td>1,000</td><td>Convert 1d4 Common Materials to 1 Uncommon Material<br>+2 to Refining Rolls<br>Break down Uncommon items into spell components</td></tr><tr><th scope=\"row\">Journeyman</th><td>4,000</td><td>Convert 1d2 Common Materials to 1 Uncommon Material<br>Convert 1d4 Uncommon Materials into 1 Rare Material<br>+4 to Refining Rolls<br>Break down Rare non-attunement items into spell components</td></tr><tr><th scope=\"row\">Expert</th><td>10,000</td><td>Convert 1d2 Uncommon Materials to 1 Rare Material<br>Convert 1d4 Rare Materials into 1 Very Rare Material<br>+6 to Refining Rolls<br>Break down Rare attunement items into spell components</td></tr><tr><th scope=\"row\">Master</th><td>20,000</td><td>Convert 1d2 Rare Materials to 1 Very Rare Material<br>Convert 1d4 Very Rare Materials into 1 Legendary Material<br>+8 to Refining Rolls<br>Break down Very Rare items into spell components</td></tr></tbody></table></div><h2 id=\"trade-smith-section-3\">How it Works</h2><p>To refine, the smith rolls a d20 and adds to it their proficiency bonus and their skill level modifier. Another smith of the same skill level or higher may use the Help action to give advantage on that roll. The Artificer class feature Magic Item Adept/Savant/Master confers an additional bonus to the refining roll of +1, +2, or +3, depending on the highest level of this feature for that Artificer. This roll cannot be modified in any way except as outlined in this skill description. The difficulty for refining materials varies based on the rarity as defined below:</p><p>Common to Uncommon: DC 9</p><p>Uncommon to Rare: DC 15</p><p>Rare to Very Rare: DC 21</p><p>Very Rare to Legendary: DC 27</p><p>Refining materials is an imperfect process, so each time the smith makes a refinement roll, they roll a 1d4 or 1d2 as determined in the Abilities column of the table above to see how many materials are consumed in the refinement.<br><br>If the refinement roll fails to meet the DC, one material is destroyed as part of the process. Should the refinement roll fail by 10 or more, half of the materials are destroyed as part of the failure (minimum of 1 material destroyed). A roll of a natural 1 destroys all materials. Should a smith fail two consecutive refinement rolls, they must wait 24 hours before they may attempt another refinement.<br><br>Smiths can also reclaim materials from magic items by breaking them down in one of two ways: either for parts or into costly spell components. If breaking down items for parts, they will only receive scouted materials, not hunter components.</p><h2 id=\"trade-smith-section-10\">Breaking Down Items for Parts</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Smith · table 2\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Smith · table 2</caption><tbody><tr><th scope=\"row\">Journeyman Smith</th><td>50% of materials, rounded down</td></tr><tr><th scope=\"row\">Exper Smith</th><td>75% of materials, rounded down</td></tr><tr><th scope=\"row\">Master Smith</th><td>100% of materials</td></tr></tbody></table></div><h2 id=\"trade-smith-section-12\">Breaking Down Items for Spell Components</h2><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Smith · table 3\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Smith · table 3</caption><tbody><tr><th scope=\"row\">Apprentice Smith</th><td>Dismantle an uncommon item into 1d4 spell components worth 100gp or less, but not worth more in total than the item’s cost in the shop document. No diamonds or delerium.</td></tr><tr><th scope=\"row\">Journeyman Smith</th><td>Dismantle a rare non-attunement item into 1d4 spell components worth 500gp or less, but not worth more in total than the item’s cost in the shop document. No diamonds or delerium.</td></tr><tr><th scope=\"row\">Expert Smith</th><td>Dismantle a rare attunement item into 1d4 spell components worth 1000gp or less, but not worth more in total than the item’s cost in the shop document. No diamonds or delerium.</td></tr><tr><th scope=\"row\">Master Smith</th><td>Dismantle a very rare item into 1d4 spell components worth 2500gp or less, but not worth more in total than the item’s cost in the shop document. No diamonds or delerium.</td></tr></tbody></table></div><p class=\"blessing-source\">Read the <a href=\"https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo\" target=\"_blank\" rel=\"noopener noreferrer\">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "trade-smith-section-1",
+      "title": "The Smith Progression Table",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-smith-section-3",
+      "title": "How it Works",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-smith-section-10",
+      "title": "Breaking Down Items for Parts",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    },
+    {
+      "id": "trade-smith-section-12",
+      "title": "Breaking Down Items for Spell Components",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    }
+  ]
+}

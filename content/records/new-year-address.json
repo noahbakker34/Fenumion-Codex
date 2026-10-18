@@ -1,0 +1,77 @@
+{
+  "id": "new-year-address",
+  "title": "The New Year Address",
+  "category": "History",
+  "type": "Two-page retrospective",
+  "dek": "A community address that remembers not only what heroes defeated, but what they built, healed, loved, and left behind.",
+  "tags": [
+    "Primary source",
+    "Community",
+    "Pristinia",
+    "Memory"
+  ],
+  "facts": {
+    "Format": "Two-page transcript",
+    "Voice": "A friend addressing the community",
+    "Thesis": "Players breathed life into a dimming world",
+    "Scope": "Places, battles, care, marriages, losses"
+  },
+  "sources": [
+    "New Year.pdf — complete two-page transcript"
+  ],
+  "body": "<p>The New Year address is less a summary of Fenumion than a gift to the people who made it. It remembers rolling hills, Void dragons, Pappy’s hot springs, Vysaeth’s tomb, Zarathis, Eovar, and Pristinia as places made meaningful by shared action.</p>\n      <h2 id=\"breakers-binders\">Breakers and binders</h2>\n      <p>Wrath, Aionia, and a summoned Tiamat appear, but the speech immediately turns from destruction to repair: peace with the Rahu, tending wounded people in Eovar, raising Pristinia’s walls, making laws and festivals, and celebrating marriages. The heroic record asks what remains after victory.</p>\n      <h2 id=\"people-remembered\">People, not stat blocks</h2>\n      <p>Cecil is remembered for patient attention to vines and leaves. Swiftfoot’s sacrifice, Elenia’s death and return, Gartina and Draegar’s romance, and the marriages of Dale with Saray and Adelia with Jiangshi all belong to the same history as cosmic battle.</p>\n      <h2 id=\"thesis\">The world’s stubborn hope</h2>\n      <p>The address tells the players that they did more than oppose Death: they breathed life into a world that had begun to dim. Its final image—the strange, stubborn hope of a fading world—is the Codex’s clearest statement that authorship belongs to the community as well as the GM.</p>\n      <p><a href=\"assets/archive/new-year-address.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Open the complete two-page source transcript (PDF)</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "breakers-binders",
+      "title": "Breakers and binders",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "New Year.pdf — complete two-page transcript"
+        ]
+      }
+    },
+    {
+      "id": "people-remembered",
+      "title": "People, not stat blocks",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "New Year.pdf — complete two-page transcript"
+        ]
+      }
+    },
+    {
+      "id": "thesis",
+      "title": "The world’s stubborn hope",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "New Year.pdf — complete two-page transcript"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Two-page retrospective",
+    "significance": "A community address that remembers not only what heroes defeated, but what they built, healed, loved, and left behind.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "tarwen-silver-star",
+  "title": "Tarwen of the Silver Star",
+  "category": "People",
+  "type": "Silver Star host in Fein Uaill",
+  "dek": "The host who welcomes the company to its castle and presents mortal ascension as a shared ambition.",
+  "tags": [
+    "Tarwen",
+    "Silver Star",
+    "Fein Uaill",
+    "Caisleán na Bróin"
+  ],
+  "facts": {
+    "Recorded role": "Host and guide",
+    "Affiliation": "Silver Star",
+    "Recorded at": "Caisleán na Bróin · Fein Uaill",
+    "Region": "Fein Uaill"
+  },
+  "sources": [
+    "Castle chronicle · January 2025 welcome scenes"
+  ],
+  "body": "<h2 id=\"tarwen-welcome\">A castle offered to newcomers</h2><p>Tarwen welcomes Elenia, Adelia, Draygar, Krone and Olokun to an old castle among wheat fields and vineyards. When Draygar questions whether it is really theirs, Tarwen confirms the gift and presents it as an example of mortal generosity. He says servant mages can take them by teleportation circle to Zarathis, and leaves them time to speak privately.</p><h2 id=\"tarwen-ascension\">His account of ascension</h2><p>Asked by Elenia how ascension works, Tarwen urges daily improvement and cooperation, so mortals rather than gods become masters of creation. These are his convictions and his account of the society, rather than proof of what every resident believes. On returning, he offers to show the company the proving grounds, where he says warriors gain stature. His welcome establishes a guide’s role; it does not establish his rank, ancestry or authority over all Fein Uaill.</p>",
+  "image": "assets/characters/discord/80fde22afa2248289525c20b98aa36463cab3c7b532c062b6c07acf1480fab38.png",
+  "imageAlt": "Discord depiction of Tarwen of the Silver Star",
+  "imageCaption": "Tarwen of the Silver Star",
+  "imageLayout": "portrait-hero",
+  "scenes": [
+    {
+      "title": "Tarwen of the Silver Star · Moving portrait",
+      "video": "assets/character-scenes/tarwen.mp4",
+      "poster": "assets/character-scenes/tarwen.jpg",
+      "caption": "Tarwen in dark armor, with a wolf pelt and a sword on his back. Supplied moving portrait."
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "tarwen-welcome",
+      "title": "A castle offered to newcomers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Castle chronicle · January 2025 welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "tarwen-ascension",
+      "title": "His account of ascension",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Castle chronicle · January 2025 welcome scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Silver Star host in Fein Uaill",
+    "significance": "The host who welcomes the company to its castle and presents mortal ascension as a shared ambition.",
+    "actions": [
+      {
+        "title": "Tarwen welcomes the company to its castle",
+        "event": "Tarwen welcomes the company to its castle",
+        "date": "2025-01-12 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 2025-01-12 · posting date (UTC). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

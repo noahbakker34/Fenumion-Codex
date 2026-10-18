@@ -1,0 +1,67 @@
+{
+  "id": "training-dungeon",
+  "title": "The Training Dungeon",
+  "category": "Places",
+  "type": "Pristinian training institution",
+  "dek": "Papirak’s training ground, remembered through practical lessons and an unfinished promise to restore it.",
+  "tags": [
+    "Pristinia",
+    "Prima",
+    "Papirak",
+    "Boggun",
+    "Training",
+    "Field notes",
+    "Illusions"
+  ],
+  "facts": {
+    "Location": "Pristinia · associated with Papirak’s hill",
+    "Testimony": "Boggun’s review · posted 12 February 2026",
+    "Later record": "Restoration promised after Papirak’s death; success unestablished",
+    "Status": "Historical training account; present operation unresolved"
+  },
+  "sources": [
+    "Established public Papirak biography and funeral quest history",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471525778163368111",
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471526566759497782"
+  ],
+  "body": "<p>The Training Dungeon is one of <a href=\"#papirak\">Papirak the Strange’s</a> enduring Pristinian institutions. His later funeral follows a road generations of adventurers walked toward his hill and training ground. Its significance includes the habits people learned there, as well as the magic that made the exercises possible.</p><h2 id=\"training-boggun-review\">Boggun’s review · February 2026</h2><p>Boggun’s two location-note posts, posted on 12 February 2026, describes illusion-based training in small rooms with fast waves of enemies. In his account, opponents attack downed combatants, making positioning and the protection of companions urgent. He recommends the experience especially to inexperienced adventurers and those learning to hold the line.</p><p>Boggun values learning tactics, spacing, roles and sacrifice in circumstances he considers survivable. He also mentions some coin. These are his practical judgments about the training he knew, not a guarantee of safety, a fixed reward schedule or universal rules for every session. The note reveals what he thinks a defender owes a group.</p><h2 id=\"training-later-inheritance\">A later promise, an unfinished institution</h2><p>At <a href=\"#papirak-legacy\">Papirak’s funeral</a> in September 2026, Scribonia publicly promises to attempt restoration of the Dungeon. The promise is established; success remains unproven. Boggun’s earlier recommendation does not establish that the institution still operates in the same way afterward.</p><p><a href=\"#crucible-of-gael\">The Crucible of Gael</a> offers a separate history of cooperative training. Shared lessons do not make the two arenas one institution. The Dungeon’s full construction history, complete exercise rules and present operation remain incomplete.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "training-boggun-review",
+      "title": "Boggun’s review · February 2026",
+      "chapter": "Field testimony",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Player testimony · original checked",
+        "summary": "The original player note has been checked. Reported observations, secondhand warnings, rumors and theories retain their authors; posting dates do not establish world dates. Reading the original confirms what was written, not the objective truth of every claim.",
+        "scope": "section",
+        "sources": [
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471525778163368111",
+          "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471526566759497782"
+        ]
+      }
+    },
+    {
+      "id": "training-later-inheritance",
+      "title": "A later promise, an unfinished institution",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Established public Papirak biography and funeral quest history",
+          "Fenumion_Player_Location_Notes_Codex_Support.md · summary of player testimony; raw location-note export not independently checked"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-17",
+    "sourceClass": "player testimony",
+    "scope": "Original location-notes export checked; protected statements and unseen attachments withheld. No truth status inferred from player authorship."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "trade-hunter",
+  "title": "Hunter",
+  "category": "Guide",
+  "type": "Fenumion trade skill reference",
+  "dek": "Harvest magical components from defeated creatures.",
+  "tags": [
+    "Blessings",
+    "Homebrew",
+    "Crafting",
+    "Skill Experience",
+    "Hunter"
+  ],
+  "facts": {
+    "System": "Fenumion crafting"
+  },
+  "sources": [
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+  ],
+  "body": "<p><a href=\"#fenumion-crafting\">← Crafting &amp; Skill Experience</a></p><p>Hunters serve as one of the initial steps in the process of creating magic items in Fenumion. They have dedicated themselves to the practice of learning how to extract the most-prized pieces and parts from the realm’s many magical enemies, called Components. Once harvested, Craftsmen combine these components with Materials gathered by Scouts and/or possibly refined by Smiths to create magic items.<br><br>The Hunter Progression Table</p><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Hunter · table 1\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Hunter · table 1</caption><thead><tr><th scope=\"col\">Skill Level</th><th scope=\"col\">Skill Exp. Required</th><th scope=\"col\">Abilities</th></tr></thead><tbody><tr><th scope=\"row\">Apprentice</th><td>1,000</td><td>Gathering of Common Components <br>Gathering of Uncommon Components<br>+2 to Gathering Rolls</td></tr><tr><th scope=\"row\">Journeyman</th><td>4,000</td><td>Gathering of Rare Components<br>+4 to Gathering Rolls</td></tr><tr><th scope=\"row\">Expert</th><td>10,000</td><td>Gathering of Very Rare Components<br>+6 to Gathering Rolls</td></tr><tr><th scope=\"row\">Master</th><td>20,000</td><td>Gathering of Legendary Components<br>+8 to Gathering Rolls</td></tr></tbody></table></div><h2 id=\"trade-hunter-section-2\">How it Works</h2><p>Each monster defeated in combat will have a set number of gatherable Components based on its type and difficulty. These components will be required for the creation of magic items. The components will be broken into rarity tiers. At the end of a combat, someone with the hunting skill may choose to try and harvest components. Hunters have one minute after the end of combat to attempt to harvest components from defeated monsters before they lose their magical properties, so each hunter may only gather from one monster per combat. The gathering itself takes fifteen minutes. The tiers are broken down as follows:</p><div class=\"blessing-table-scroll\" role=\"region\" aria-label=\"Hunter · table 2\" tabindex=\"0\"><table class=\"blessing-table\"><caption>Hunter · table 2</caption><thead><tr><th scope=\"col\">Monster CR Range</th><th scope=\"col\">Components Available</th></tr></thead><tbody><tr><th scope=\"row\">CR 0 - CR 4</th><td>1 Common, 1 Uncommon</td></tr><tr><th scope=\"row\">CR 5 - CR 9</th><td>2 Common, 1 Uncommon, 1 Rare</td></tr><tr><th scope=\"row\">CR 10 - CR 14</th><td>3 Common, 2 Uncommon, 2 Rare</td></tr><tr><th scope=\"row\">CR 15 - CR 19</th><td>3 Common, 2 Uncommon, 2 Rare, 1 Very Rare</td></tr><tr><th scope=\"row\">CR 20 - CR 25</th><td>3, Uncommon, 2 Rare, 2 Very Rare</td></tr><tr><th scope=\"row\">CR 25+</th><td>3 Rare, 2 Very Rare, 1 Legendary</td></tr></tbody></table></div><p>To gather, the hunter rolls a d20 and adds to it their proficiency bonus and their skill level modifier. Another hunter of the same skill level or higher may use the Help action to give advantage on that roll, or gather from a different monster. This roll cannot be modified in any other way except as outlined in this skill description.</p><p>A roll of a natural 1 destroys all components in the creature and keeps anything from being harvested from it, even if another hunter gathering from the same creature was successful. A hunter harvesting from a favored enemy or in their favored terrain may expend a spell slot depending on the rarity of the component being harvested (1st for common, 2nd for uncommon, 3rd for rare, 4th for very rare, and 5th for legendary) to gain an additional +2 bonus on their harvesting check.</p><p>The DC required to collect a component from a monster varies based on its rarity:</p><p>Common: DC 5</p><p>Uncommon: DC 8</p><p>Rare: DC 15</p><p>Very Rare: DC 20</p><p>Legendary: DC 30</p><p>A hunter who succeeds on a harvesting roll of Rare or above may instead choose to collect one component from each of the two levels below it, provided the creature has enough components available that are not being harvested by another hunter.</p><p>For Example: A hunter rolls a 23 to harvest from a CR 16 Monster. They may:</p><p>a. Gather one **very rare** component</p><p>b. Gather one **rare** and one **uncommon** component</p><p class=\"blessing-source\">Read the <a href=\"https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo\" target=\"_blank\" rel=\"noopener noreferrer\">Fenumion Skill Descriptions source document</a>. The reference retains its mechanics and wording.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "trade-hunter-section-2",
+      "title": "How it Works",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo"
+        ]
+      }
+    }
+  ]
+}

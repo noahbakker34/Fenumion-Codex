@@ -1,0 +1,70 @@
+{
+  "id": "goo",
+  "title": "Goo",
+  "category": "People",
+  "type": "Plasmoid adventurer",
+  "dek": "A newcomer whose unfamiliar form briefly alarms Vaemyr before conversation restores the welcome.",
+  "tags": [
+    "Goo",
+    "The Gate",
+    "Prima",
+    "Plasmoid"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Recorded at": "The Gate and road to Pristinia"
+  },
+  "sources": [
+    "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+  ],
+  "body": "<h2 id=\"goo-recognition\">A person, not a monster</h2><p>Goo speaks with Olokun near Scribonia’s study place at the Gate, introduces himself as a plasmoid and says he is new to the land. When Vaemyr arrives, he mistakes Goo for a threat and raises a crossbow. Olokun identifies Goo as a friend; Vaemyr lowers the weapon and apologises.</p><h2 id=\"goo-heart\">A warrior of the heart</h2><p>Goo accepts the apology, explaining that there are many plasmoids where he comes from. He contrasts Scribonia’s mind with his own heart as a warrior’s strength. The exchange records a misunderstanding resolved without violence, rather than hostility made inevitable by an unfamiliar body.</p>",
+  "image": "assets/characters/goo.jpeg",
+  "imageAlt": "Goo depicted as a blue translucent figure",
+  "imageCaption": "Goo",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "goo-recognition",
+      "title": "A person, not a monster",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    },
+    {
+      "id": "goo-heart",
+      "title": "A warrior of the heart",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Plasmoid adventurer",
+    "significance": "A newcomer whose unfamiliar form briefly alarms Vaemyr before conversation restores the welcome.",
+    "actions": [
+      {
+        "title": "Vaemyr’s arrival ends in an apology to Goo",
+        "event": "Vaemyr’s arrival ends in an apology to Goo",
+        "date": "2024-06-15 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 2024-06-15 · posting date (UTC). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

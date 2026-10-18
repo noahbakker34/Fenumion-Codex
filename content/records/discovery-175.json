@@ -1,0 +1,72 @@
+{
+  "id": "discovery-175",
+  "title": "Thom",
+  "category": "People",
+  "type": "Port contact",
+  "dek": "A blind man welcomes the returning group at port and says they were needed.",
+  "tags": [
+    "Thom",
+    "npc"
+  ],
+  "facts": {
+    "Role": "Port contact",
+    "Island": "Not established",
+    "Census posts": "7",
+    "Recorded span": "2025-06-04 → 2026-07-03",
+    "Prominence": "Unrated",
+    "Recorded presence": "13/20",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>A blind man welcomes the returning group at port and says they were needed.</p><h2 id=\"discovery-175-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-175-record\">Archive record</h2><p>The census records 7 posts across 2025-06-04 → 2026-07-03. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1380051766309290064\">Recorded scene · 1380051766309290064</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/9df5ab432aa19c16a16fb4799e4e7bfac6521ed53b85e7c1f4b9f8b9b26ce4d7.png",
+  "imageAlt": "Discord depiction of Thom",
+  "imageCaption": "Thom",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-175-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-175-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Port contact",
+    "significance": "A blind man welcomes the returning group at port and says they were needed.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

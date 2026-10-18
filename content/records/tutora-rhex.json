@@ -1,0 +1,64 @@
+{
+  "id": "tutora-rhex",
+  "title": "Tutora Rhex",
+  "category": "People",
+  "type": "Dragon and historical witness",
+  "dek": "Carries Elenia home from the Liar’s prison and preserves a source account of the Delerium trade.",
+  "tags": [
+    "NPCs",
+    "Tutora Rhex"
+  ],
+  "facts": {
+    "Role": "Dragon and historical witness",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Roderick / Wrath · existing public history"
+  ],
+  "body": "<p>Carries Elenia home from the Liar’s prison and preserves a source account of the Delerium trade.</p><h2 id=\"tutora-rhex-history\">The surviving history</h2><p>Read <a href=\"#roderick-wrath\">Roderick / Wrath</a> for the recorded scenes and their context.</p>",
+  "relatedRecords": [
+    "roderick-wrath"
+  ],
+  "image": "assets/characters/discord/3a28578b45c28dd240052f755b381f642b8f5b3c3dc2de5aa2e2cb586c9043e9.png",
+  "imageAlt": "Discord depiction of Tutora Rhex",
+  "imageCaption": "Tutora Rhex",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "tutora-rhex-history",
+      "title": "The surviving history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Roderick / Wrath · existing public history"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Dragon and historical witness",
+    "significance": "Carries Elenia home from the Liar’s prison and preserves a source account of the Delerium trade.",
+    "actions": [
+      {
+        "title": "The Liar’s trade enters the record",
+        "event": "The Liar’s trade enters the record",
+        "date": "24 Oct 2024"
+      }
+    ],
+    "status": "Last dated entry in this selection: 24 Oct 2024. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "roderick-wrath",
+        "label": "Roderick / Wrath",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

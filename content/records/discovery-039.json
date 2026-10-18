@@ -1,0 +1,72 @@
+{
+  "id": "discovery-039",
+  "title": "Aiko",
+  "category": "People",
+  "type": "Lantern-festival host",
+  "dek": "Welcomes visitors to a lantern festival framed as remembrance and later returns to her cottage.",
+  "tags": [
+    "Aiko",
+    "npc"
+  ],
+  "facts": {
+    "Role": "Lantern-festival host",
+    "Island": "Not established",
+    "Census posts": "22",
+    "Recorded span": "2026-03-25 → 2026-08-20",
+    "Prominence": "47/100 · Provisional",
+    "Recorded presence": "11/20",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Welcomes visitors to a lantern festival framed as remembrance and later returns to her cottage.</p><h2 id=\"discovery-039-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 47/100 · Provisional</strong></p><p>A remembrance festival and local hospitality support a recurring social role.</p><ul><li>Consequences: 2/5 · weight 35</li><li>Institutional or witness role: 2/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 11/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-039-record\">Archive record</h2><p>The census records 22 posts across 2026-03-25 → 2026-08-20. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1486559531528880260\">Recorded scene · 1486559531528880260</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1540179603287580714\">Recorded scene · 1540179603287580714</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/2ce5ea042ba32a650fe4197fd019f9081cba9bb035c3c8ea52545d46a7ba4e7b.png",
+  "imageAlt": "Discord depiction of Aiko",
+  "imageCaption": "Aiko",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-039-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-039-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Lantern-festival host",
+    "significance": "Welcomes visitors to a lantern festival framed as remembrance and later returns to her cottage.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

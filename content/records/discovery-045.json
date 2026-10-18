@@ -1,0 +1,72 @@
+{
+  "id": "discovery-045",
+  "title": "Miralyn",
+  "category": "People",
+  "type": "Missing-person petitioner",
+  "dek": "Identifies herself and asks adventurers to find missing children, preserving a worried community’s request without declaring the children found.",
+  "tags": [
+    "Miralyn",
+    "npc"
+  ],
+  "facts": {
+    "Role": "Missing-person petitioner",
+    "Island": "Not established",
+    "Census posts": "20",
+    "Recorded span": "2025-11-14 → 2026-02-22",
+    "Prominence": "45/100 · Provisional",
+    "Recorded presence": "9/20",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Recently Discovered NPCs census · posting spans and raw labels",
+    "Source-checked quest-RP scene anchors"
+  ],
+  "body": "<p>Identifies herself and asks adventurers to find missing children, preserving a worried community’s request without declaring the children found.</p><h2 id=\"discovery-045-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 45/100 · Provisional</strong></p><p>Repeated missing-child petitions preserve community stakes and relationships.</p><ul><li>Consequences: 2/5 · weight 35</li><li>Institutional or witness role: 2/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 9/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-045-record\">Archive record</h2><p>The census records 20 posts across 2025-11-14 → 2026-02-22. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1438962389289668699\">Recorded scene · 1438962389289668699</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1475332898352664718\">Recorded scene · 1475332898352664718</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "discoveryProtected": false,
+  "image": "assets/characters/discord/d6b796c61ddfbc63fc8595fc05218ed3240fed7a1f072a726ae2b14a8cf1e4d5.png",
+  "imageAlt": "Discord depiction of Miralyn",
+  "imageCaption": "Miralyn",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery-045-prominence",
+      "title": "Prominence and evidence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "discovery-045-record",
+      "title": "Archive record",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Recently Discovered NPCs census · posting spans and raw labels",
+          "Source-checked quest-RP scene anchors"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Missing-person petitioner",
+    "significance": "Identifies herself and asks adventurers to find missing children, preserving a worried community’s request without declaring the children found.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

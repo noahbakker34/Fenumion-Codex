@@ -1,0 +1,60 @@
+{
+  "id": "the-liar",
+  "title": "The Liar",
+  "category": "People",
+  "type": "Imprisoned divine figure",
+  "dek": "Trades Delerium to Roderick for Eldrin’s relic, enabling Endora’s corrupted return.",
+  "tags": [
+    "NPCs",
+    "The Liar"
+  ],
+  "facts": {
+    "Role": "Imprisoned divine figure",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Roderick / Wrath · existing public history"
+  ],
+  "body": "<p>Trades Delerium to Roderick for Eldrin’s relic, enabling Endora’s corrupted return.</p><h2 id=\"the-liar-history\">The surviving history</h2><p>Read <a href=\"#roderick-wrath\">Roderick / Wrath</a> for the recorded scenes and their context.</p>",
+  "relatedRecords": [
+    "roderick-wrath"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "the-liar-history",
+      "title": "The surviving history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Roderick / Wrath · existing public history"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Imprisoned divine figure",
+    "significance": "Trades Delerium to Roderick for Eldrin’s relic, enabling Endora’s corrupted return.",
+    "actions": [
+      {
+        "title": "The Liar’s trade enters the record",
+        "event": "The Liar’s trade enters the record",
+        "date": "24 Oct 2024"
+      }
+    ],
+    "status": "Last dated entry in this selection: 24 Oct 2024. Later status is not established here.",
+    "relationships": [
+      {
+        "id": "roderick-wrath",
+        "label": "Roderick / Wrath",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

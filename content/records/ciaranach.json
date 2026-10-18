@@ -1,0 +1,235 @@
+{
+  "id": "ciaranach",
+  "title": "Ciaránach",
+  "category": "Places",
+  "type": "Sacred city of Fein Uaill",
+  "video": "ciaranach.mp4",
+  "videoType": "video/mp4",
+  "videoLayout": "landscape-hero",
+  "videoAlt": "A moving visual record of Ciaránach",
+  "videoCaption": "Ciaránach — user-supplied moving city record, 27 September 2026.",
+  "dek": "A cloistered mountain city reached by pilgrimage from Zarathis, where the Golden Ones preserve truth and counsel Zarathian law.",
+  "tags": [
+    "Ciaránach",
+    "Fein Uaill",
+    "Sacred city",
+    "Golden Ones",
+    "Pilgrimage",
+    "Temple"
+  ],
+  "facts": {
+    "Region": "Fein Uaill",
+    "Type": "Sacred mountain city",
+    "Route": "Holy road from Zarathis",
+    "Custodians": "The Golden Ones",
+    "First recovered pilgrimage": "27 Sep 2025",
+    "Ancient history": "Protected keeper record",
+    "Approach": "River valley · orchards · cold mountain road",
+    "Access": "Permission-bound pilgrimage",
+    "Modern contact": "Outsiders admitted 27 Sep 2025"
+  },
+  "sources": [
+    "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+    "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+    "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+    "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+    "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+  ],
+  "body": "<p>Ciaránach is a sacred mountain city within <a href=\"#fein-uaill\">Fein Uaill</a>, distinct from Zarathis and reached from it by a steep pilgrimage road. A complete quest transcript now supplies the city’s first scene-backed modern history alongside the illustrations.</p>\n      <h2 id=\"ciaranach-pilgrimage\">27 September 2025 · the holy road</h2>\n      <p>The recovered pilgrimage begins at Zarathis, follows the river valley through orchards, and climbs into cold, largely untouched mountains. High Lord Bowene calls it a road for the deserving; Captain Haelith describes the journey as a yearly lesson in Zarathian identity. Access is therefore cultural and permission-bound rather than ordinary civic travel.</p>\n      <p>After an hour of ascent the travelers see a white-and-gold city above the cloud line: ivory-bright walls, silver spires, immaculate streets, and architecture presented as untouched by age or storm. Elenia, Olokun, Scribonia, and Eugene enter with Haelith. Their reactions establish the city’s effect on visitors without proving the narrator’s poetic language to be literal immunity from time.</p>\n      <h2 id=\"ciaranach-golden-ones\">The Golden Ones</h2>\n      <p>The Golden Ones identify themselves as Ciaránach’s nameless keepers of truth and speak directly into visitors’ minds. Haelith calls them priests devoted to preserving “The Truth” and reports a rumor that they are Verdant Circle mages who discovered immortality. The Codex preserves the first description as their claim and the immortality account as rumor, not settled fact.</p>\n      <p>Visitors are asked to open their minds and accept the burden of knowledge. Ciaránach is thus more than a shrine or beautiful city: it is a controlled archive whose custodians test whether outsiders may receive what it holds.</p>\n      <h2 id=\"ciaranach-temple\">The temple in Ciaránach</h2>\n      <p>The temple is preserved as a distinct sublocation of the city. Its proper name, divine dedication, custodians, rites, and relationship to other sacred sites remain unrecovered.</p>\n      <figure class=\"article-hero landscape-hero\"><video class=\"ambient-video\" data-ambient-video=\"\" muted=\"\" loop=\"\" playsinline=\"\" disablepictureinpicture=\"\" disableremoteplayback=\"\" preload=\"metadata\" aria-hidden=\"true\" tabindex=\"-1\"><source src=\"ciaranach-temple.mp4\" type=\"video/mp4\">Your browser does not support this video.</video><figcaption>Temple in Ciaránach — user-supplied moving location record, 27 September 2026.</figcaption></figure>\n      <h2 id=\"ciaranach-sacred-history\">Why the city is sacred</h2>\n      <p>The public record preserves Ciaránach’s sacred importance without disclosing the ancient divine event that gave the city that weight.</p>\n      <h2 id=\"ciaranach-verdict\">December 2025 · counsel becomes law</h2>\n      <p>After Elenia’s confrontation with Magnus, Bowene withdraws to Ciaránach and consults the Golden Ones. On 22 December he descends alone to deliver a compromise: Elenia must leave Fein Uaill, but the door will not be closed forever. Olokun and Aravil stand with her; Adelia and Magnus support exile. Bowene gives Elenia a sending stone, promises continued dialogue, and arranges departure through the <a href=\"#shining-shores\">Shining Shores</a> toward Babel-Ashur.</p>\n      <p>The decision exposes Ciaránach’s political function. Its counsel does not merely preserve the past; it can shape present law. Bowene reports that the Golden Ones agree Zarathian customs may need to change, while insisting that change must be chosen by the people rather than imposed from outside.</p>\n      <h2 id=\"ciaranach-open-record\">The open record</h2>\n      <p>The city’s founding, population, districts, formal government, temple dedication, the Golden Ones’ actual nature, and the limits of their authority remain unresolved. Their claims, Haelith’s report, Bowene’s use of their counsel, and the city’s observed appearance remain separate kinds of evidence.</p>\n      <h2 id=\"ciaranach-separation\">Separation as part of the city</h2>\n      <p>Ciaránach’s distance from Zarathis is not empty travel time. The road rises from cultivated land into cold, largely untouched mountains, turning physical ascent into preparation. Tradition says the stones remember ancestors who carried civilization into the heights. Whether that language is literal, ceremonial, or both remains unresolved, but it shows how residents understand the journey: reaching the city is itself participation in inherited memory.</p>\n      <p>The city’s pale gold and white architecture, high spires, processions, and restricted gates express the same principle. The proud and merely curious are said to be turned away, while accepted travelers join a movement already governed by ritual. Ciaránach is not a repository that outsiders may freely search; its architecture, custodians, and rules decide how knowledge is approached.</p>\n      <h2 id=\"ciaranach-player-impact\">Contact without conquest</h2>\n      <p>The admitted party’s greatest established effect was on understanding, not on buildings or government. Their questions, skepticism, reverence, and later dependence on the Golden Ones’ counsel created contact between traditions that had defined themselves through separation. The archive does not yet show the city remade by that encounter, and it should not pretend otherwise.</p>\n      <p>What changed is the campaign’s relationship to Ciaránach. A remote sacred name became a place player characters had climbed toward, entered, and carried away in memory. Its counsel later shaped Elenia’s exile, proving that guarded history can still exercise direct political force beyond the mountain.</p>\n      <h2 id=\"ciaranach-current-state\">A living sanctuary</h2>\n      <p>Ciaránach remains a functioning holy city rather than an exhausted quest site. Its deepest traditions, the Eternal Flame, the Golden Ones’ knowledge, internal disagreements, and the balance between religious custom and practical protection remain only partly available to outsiders. Those subjects stay unresolved—or protected—until the campaign establishes more.</p>",
+  "gallery": [
+    {
+      "image": "assets/locations/discord/c22eb96c9ad83bf1e8bb9c4d420c3dccb37b379be37a55ff824d4e88c1119e9b.webp",
+      "title": "Ciaránach pilgrimage — old dirt path",
+      "alt": "Ciaránach pilgrimage — old dirt path",
+      "caption": "Bowene leads the party out of Zarathis on an old dirt path, contrasting it with the city’s maintained roads. The following narration identifies the journey to Ciaránach. The artwork belongs to that route, not a new unnamed kingdom.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1421652174949056625"
+    },
+    {
+      "image": "assets/locations/discord/40bbb6e2ea15a06f08c7dc4c3128042c15405632b9ae2ef5fdd3d666e858ab8f.webp",
+      "title": "Ciaránach pilgrimage — snowy mountains",
+      "alt": "Ciaránach pilgrimage — snowy mountains",
+      "caption": "The Writer’s caption depicts snow on the pilgrimage; the next narrated arrival explicitly crests a pass toward Ciaránach. Treat it as approach-country, not the city itself.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1421667239714885704"
+    },
+    {
+      "image": "assets/locations/discord/5ab43580425b16e7c801036f0c7fce259841f0e1af6f34b9a0540f17caa25c3c.webp",
+      "title": "Ciaránach — white steps and public address",
+      "alt": "Ciaránach — white steps and public address",
+      "caption": "The attachment caption names Ciaránach; the expanded opening describes Bowene descending its white spine and steps. The image includes the architectural approach and speaker, so it is retained as a city scene rather than a standalone portrait.",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1452824828154482788"
+    },
+    {
+      "image": "assets/locations/discord/4f89eec1ef0b78129b2bd9c721090f03ef3f915ad2e4b98737a7c6bb7707c22e.webp",
+      "title": "Ciaránach — opening setting reference",
+      "alt": "Ciaránach — opening setting reference",
+      "caption": "The two-message Ciaránach post opens with this GIF and its name; this is the post’s setting reference, not a source for additional architecture or history.",
+      "source": "https://discord.com/channels/1177270231513694249/1311750456808312852/1311750456808312852"
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "ciaranach-pilgrimage",
+      "title": "27 September 2025 · the holy road",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+          "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+          "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+          "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+        ]
+      }
+    },
+    {
+      "id": "ciaranach-golden-ones",
+      "title": "The Golden Ones",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+          "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+          "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+          "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+        ]
+      }
+    },
+    {
+      "id": "ciaranach-temple",
+      "title": "The temple in Ciaránach",
+      "chapter": "Places & institutions",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+          "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+          "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+          "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+        ]
+      }
+    },
+    {
+      "id": "ciaranach-sacred-history",
+      "title": "Why the city is sacred",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+          "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+          "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+          "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+        ]
+      }
+    },
+    {
+      "id": "ciaranach-verdict",
+      "title": "December 2025 · counsel becomes law",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+          "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+          "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+          "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+        ]
+      }
+    },
+    {
+      "id": "ciaranach-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+          "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+          "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+          "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+        ]
+      }
+    },
+    {
+      "id": "ciaranach-separation",
+      "title": "Separation as part of the city",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+          "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+          "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+          "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+        ]
+      }
+    },
+    {
+      "id": "ciaranach-player-impact",
+      "title": "Contact without conquest",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+          "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+          "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+          "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+        ]
+      }
+    },
+    {
+      "id": "ciaranach-current-state",
+      "title": "A living sanctuary",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Complete quest-rp export, candidate session 232, 27 Sep 2025 — pilgrimage from Zarathis, city arrival, Captain Haelith, and the Golden Ones",
+          "Complete quest-rp export, candidate sessions 254 and 256, 5 and 22 Dec 2025 — Bowene’s consultation and exile verdict",
+          "User identification and supplied moving records, 27 Sep 2026 — Ciaránach and a temple within the city",
+          "Fein Uaill regional chronicle — geographic parent and protected sacred history",
+          "Fenumion_Codex_Location_Histories_2026-09-28.md — first contact, player impact, current state, and open questions"
+        ]
+      }
+    }
+  ]
+}

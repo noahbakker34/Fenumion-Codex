@@ -1,0 +1,22 @@
+{
+  "id": "npcs-prima",
+  "title": "Prima · NPCs",
+  "category": "Archive",
+  "type": "Island NPC directory",
+  "dek": "The documented NPC community of Prima.",
+  "tags": [
+    "NPCs",
+    "Prima"
+  ],
+  "facts": {
+    "Scope": "NPCs"
+  },
+  "sources": [
+    "Existing public NPC dossiers and location histories"
+  ],
+  "body": "",
+  "npcIsland": "prima",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "roderick-wrath",
+  "title": "Roderick / Wrath",
+  "category": "People",
+  "type": "Duke; Knight I of Death",
+  "imageAlt": "Wrath, an armored Knight of Death carrying a burning sword through fire",
+  "imageCaption": "Wrath — Knight I of Death.",
+  "dek": "A grieving husband reconstructed backward through hostile testimony, corrupted resurrection, and the consequences of refusing to let someone go.",
+  "tags": [
+    "Wrath",
+    "Endora",
+    "Delerium",
+    "Death"
+  ],
+  "facts": {
+    "Former name": "Duke Roderick",
+    "Beloved": "Endora",
+    "Title": "Wrath, Knight I",
+    "Defining wound": "Inability to accept separation",
+    "Region": "Unestablished"
+  },
+  "sources": [
+    "Pasted markdown(20260919-154104).md — Vysaeth’s journal",
+    "Pasted markdown(20260919-154435).md — Wrath’s first encounter",
+    "24 Oct 2024 campaign export — the Delerium trade",
+    "12 Nov 2024 campaign export — Legend Lore and Endora"
+  ],
+  "body": "<p>Roderick is not introduced through a sympathetic biography. The players first encounter him through Vysaeth’s hostile history, then almost immediately as Wrath: a being who turns personal pain outward until the world is required to inherit it.</p>\n      <div class=\"quote\">The world broke my beloved. Now I break it. Welcome to my pain.<cite>Wrath</cite></div>\n      <h2 id=\"discovery\">Reconstructed in discovery order</h2>\n      <ol class=\"timeline\">\n        <li><time>7 Jul 2024</time><p>Vysaeth’s journal portrays Roderick as Endora’s husband, a threat to the kingdom, and the cause of ruin during attempts to recover her.</p></li>\n        <li><time>8 Jul 2024</time><p>Wrath appears after Dale’s death, names his pain, and offers a path to restore the fallen if the party submits to Death.</p></li>\n        <li><time>24 Oct 2024</time><p>A later source reveals that the Liar traded Delerium to Roderick for Eldrin’s relic; Roderick used it to bring Endora back.</p></li>\n        <li><time>12 Nov 2024</time><p>Legend Lore clarifies that the resurrection was corrupted and part of Endora was lost.</p></li>\n      </ol>\n      <h2 id=\"pattern\">The repeating pattern</h2>\n      <p>Endora wants to leave; Roderick uses a necklace to influence her. Endora dies; he violates ordinary resurrection to return her. She is lost again; he accepts a relationship with Death that preserves contact in dreams. The through-line is not proof that his love was false. It is that genuine love became destructive when he could not accept that Endora existed outside his need for her.</p>\n      <h2 id=\"provenance\">What the archive does not flatten</h2>\n      <p>Vysaeth is Endora’s brother and an interested witness, not an omniscient narrator. The established core is narrower than his judgment: Endora died; Roderick tried to recover her; Vysaeth regarded the threat as severe enough to embrace lichdom; and the resurrection used Delerium and returned Endora incompletely. Motive and consent remain questions the documents approach from different sides.</p>\n      <h2 id=\"temptation\">The choice he reproduces</h2>\n      <p>Wrath offers grieving adventurers a version of his own first choice: someone you love is dead, and something terrible can bring them back. Quake refuses before the party fully understands why. Elenia asks Cala for another way; Cala provides a diamond. Wrath’s danger is that he universalizes his grief—his pain must become everyone’s—where Olokun later answers, “My pain. Not everyone’s.”</p>",
+  "image": "assets/archive/wrath.gif",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "Reconstructed in discovery order",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260919-154104).md — Vysaeth’s journal",
+          "Pasted markdown(20260919-154435).md — Wrath’s first encounter",
+          "24 Oct 2024 campaign export — the Delerium trade",
+          "12 Nov 2024 campaign export — Legend Lore and Endora"
+        ]
+      }
+    },
+    {
+      "id": "pattern",
+      "title": "The repeating pattern",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260919-154104).md — Vysaeth’s journal",
+          "Pasted markdown(20260919-154435).md — Wrath’s first encounter",
+          "24 Oct 2024 campaign export — the Delerium trade",
+          "12 Nov 2024 campaign export — Legend Lore and Endora"
+        ]
+      }
+    },
+    {
+      "id": "provenance",
+      "title": "What the archive does not flatten",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260919-154104).md — Vysaeth’s journal",
+          "Pasted markdown(20260919-154435).md — Wrath’s first encounter",
+          "24 Oct 2024 campaign export — the Delerium trade",
+          "12 Nov 2024 campaign export — Legend Lore and Endora"
+        ]
+      }
+    },
+    {
+      "id": "temptation",
+      "title": "The choice he reproduces",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260919-154104).md — Vysaeth’s journal",
+          "Pasted markdown(20260919-154435).md — Wrath’s first encounter",
+          "24 Oct 2024 campaign export — the Delerium trade",
+          "12 Nov 2024 campaign export — Legend Lore and Endora"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Duke; Knight I of Death",
+    "significance": "A grieving husband reconstructed backward through hostile testimony, corrupted resurrection, and the consequences of refusing to let someone go.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "personality": "Roderick is Wrath made legible through grief. He offers impossible restoration at the precise moment loss makes refusal hardest, yet the surviving scenes also reveal a person beneath the title—someone whose attachment to Endora cannot be dismissed even when the bargains built from it remain dangerous.",
+    "achievements": "He dominates Gael’s early political and military history, confronts the adventurers through tombs and offers, and is ultimately defeated by Saray. His fall becomes more than a battlefield victory because it reveals that the campaign’s enemy can be mourned without allowing grief to excuse coercion.",
+    "relationships": "Endora is the private center around which Roderick’s public wrath turns. Quake refuses his offer after Dale’s death, Elenia searches for a different path, and Saray delivers the decisive strike. Dumuzi’s response to the fallen knight adds another relationship of ownership and mourning, but the oldest causes remain protected lore rather than material exposed in this public profile."
+  }
+}

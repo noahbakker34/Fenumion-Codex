@@ -1,0 +1,103 @@
+{
+  "id": "vance-the-guard",
+  "title": "Vance the Guard",
+  "category": "People",
+  "type": "Eovar guard",
+  "dek": "An Eovar guard whose answers preserve one local view of commerce, privacy and suspicion.",
+  "tags": [
+    "Vance the Guard",
+    "NPCs",
+    "Prima",
+    "Vance"
+  ],
+  "facts": {
+    "Island connection": "Prima",
+    "Role": "Eovar guard",
+    "Record": "Public scenes; later status not established",
+    "Region": "Prima"
+  },
+  "sources": [
+    "Main quest-RP archive · message anchors below",
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+  ],
+  "body": "<h2 id=\"vance-the-guard-1\">An Eovar affiliation</h2><p>Asked about background checks, Vance explicitly places himself in Eovar and describes personal freedom, privacy and commerce as local values. This directly supports an Eovar connection on Prima. The registry’s broader Pristinia label is not used to assign him to the town’s guard.</p><h2 id=\"vance-the-guard-2\">Judgment rather than certainty</h2><p>He argues that a burned building supports a person’s account and considers it unlikely that someone became a planted traitor so quickly. He has not completed the background check being requested. His reasoning is a guard’s stated judgment, not proof of innocence or a universal statement of Eovar law.</p><h2 id=\"vance-the-guard-3\">A rough social voice</h2><p>An earlier encounter with Camelia shows him speaking crudely about who belongs in the drinking place. Keeping that behavior in view avoids turning the guard into a neutral institutional narrator. His later position or fate is not established.</p><h2 id=\"vance-the-guard-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1325331153355411478\">Vance’s encounter with Camelia</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490099581671702700\">Vance identifies Eovar’s values</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490100140139352276\">An unverified judgment about a possible spy</a></li></ul>",
+  "image": "assets/characters/discord/c96c3f9df55e8817a265fe4c0fc36972cf422118a1dd189783fdd63dd2ca73df.png",
+  "imageAlt": "Discord depiction of Vance the Guard",
+  "imageCaption": "Vance the Guard",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "vance-the-guard-1",
+      "title": "An Eovar affiliation",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "vance-the-guard-2",
+      "title": "Judgment rather than certainty",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "vance-the-guard-3",
+      "title": "A rough social voice",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    },
+    {
+      "id": "vance-the-guard-sources",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Main quest-RP archive · message anchors below",
+          "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Eovar guard",
+    "significance": "An Eovar guard whose answers preserve one local view of commerce, privacy and suspicion.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "An Eovar guard whose answers preserve one local view of commerce, privacy and suspicion."
+  }
+}

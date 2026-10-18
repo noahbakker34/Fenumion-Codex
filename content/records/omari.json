@@ -1,0 +1,58 @@
+{
+  "id": "omari",
+  "title": "Omari",
+  "category": "People",
+  "type": "Survivor · keeper of inherited stories",
+  "dek": "A young voice preserving Babel’s stories while carefully distinguishing what the elders taught from what Omari has seen.",
+  "tags": [
+    "Omari",
+    "Babel-Ashur",
+    "Skylight Refuge",
+    "Survivors"
+  ],
+  "facts": {
+    "Region": "Babel-Ashur",
+    "Recorded at": "Skylight Refuge",
+    "Account": "Surviving testimony; exact in-world date unresolved"
+  },
+  "sources": [
+    "Babel quest record · campfire testimony, August 2026"
+  ],
+  "body": "<p>Omari joins the survivors’ campfire at <a href=\"#skylight-refuge\">Skylight Refuge</a>. Scarred and worn by flight, Omari describes eating worms and grubs without a fire because light and smoke could expose the group. The account later clarifies that Omari is young; apparent frailty should not be used to make Omari an elder.</p><h2 id=\"omari-stories\">Stories and the limits of memory</h2><p>Omari recounts what adults and elders taught about a floating island, the destruction of a great tree, and rulers who made both sunlight and darkness frightening. Omari explicitly says the floating island has not been personally seen. These stories preserve the community’s history without resolving every claim about the old catastrophe.</p><p>Moving between caves and jungles, the survivors try to map a landscape that seems almost alive. Stories keep the old walking and the young from growing weary. For Omari, memory is a practical resource for continuing, alongside shelter and food.</p>",
+  "image": "assets/characters/omari.jpg",
+  "imageAlt": "Omari with short dark hair, facial scars and a green cloak",
+  "imageCaption": "Omari",
+  "imageLayout": "portrait-hero",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "omari-stories",
+      "title": "Stories and the limits of memory",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Babel quest record · campfire testimony, August 2026"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Survivor · keeper of inherited stories",
+    "significance": "A young voice preserving Babel’s stories while carefully distinguishing what the elders taught from what Omari has seen.",
+    "actions": [
+      {
+        "title": "Babel’s survivors tell their own stories",
+        "event": "Babel’s survivors tell their own stories",
+        "date": "5 Aug 2026 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 5 Aug 2026 · posting date (UTC). Later status is not established here.",
+    "relationships": [],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  }
+}

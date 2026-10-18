@@ -1,0 +1,22 @@
+{
+  "id": "npcs-voraketh",
+  "title": "Voraketh · NPCs",
+  "category": "Archive",
+  "type": "Island NPC directory",
+  "dek": "The documented NPC community of Voraketh.",
+  "tags": [
+    "NPCs",
+    "Voraketh"
+  ],
+  "facts": {
+    "Scope": "NPCs"
+  },
+  "sources": [
+    "Existing public NPC dossiers and location histories"
+  ],
+  "body": "",
+  "npcIsland": "voraketh",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": []
+}

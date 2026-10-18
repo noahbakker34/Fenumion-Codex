@@ -1,0 +1,423 @@
+{
+  "id": "herb",
+  "title": "Herb Shepard",
+  "category": "People",
+  "type": "Bartender; civilian anchor of Pristinia",
+  "video": "herb-portrait.mp4",
+  "imageLayout": "portrait-hero",
+  "videoAlt": "Animated portrait of Herb smiling behind the bar",
+  "videoCaption": "Herb — bartender, neighbor, and keeper of Pristinia’s everyday needs.",
+  "dek": "Pristinia’s civilian anchor: a bartender who turns shortages into shared work, carries dinner into a war zone, survives death and the loss of his tavern, and still returns mourners to ordinary life.",
+  "tags": [
+    "Herb",
+    "The Common Man",
+    "Pristinia",
+    "Food",
+    "Civilian life",
+    "Stewardship",
+    "Melian",
+    "Ada",
+    "Pilgrim’s Hearth",
+    "Papirak"
+  ],
+  "facts": {
+    "Role": "Common Man owner and barkeeper",
+    "Institution": "The Common Man",
+    "Strength": "Turns local knowledge into useful action",
+    "Principle": "Meet today’s need without destroying tomorrow’s supply",
+    "Ownership": "Explicitly identified in the 14 Aug 2025 account; deed unrecovered",
+    "Canonical name": "Herb Shepard · self-introduction; Shepherd / Sheperd variants also recorded",
+    "Later association": "Pilgrim’s Hearth",
+    "Defining ethic": "Small joys in difficult times",
+    "Historical status": "Killed 4 Jun 2025; later restored",
+    "Name": "Herb Shepard · also recorded as Sheperd / Shepherd",
+    "After the fire": "Alive and helping with cleanup in the 29 Jun 2026 account",
+    "Region": "Prima"
+  },
+  "sources": [
+    "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+    "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+    "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+    "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+    "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+  ],
+  "body": "<p>Herb is one of Pristinia’s clearest civilian anchors. He wipes counters, serves food and drink, remembers regulars’ habits, follows the settlement’s stores, and speaks openly when agricultural problems require help. His work shows how much of a town’s history is carried by people who notice what is running low before a crisis becomes spectacular.</p>\n      <h2 id=\"regulars\">Remembering the regulars</h2>\n      <p>When Aravil orders tequila, Herb already knows she normally wants two. The exchange is small, but it marks accumulated familiarity: the Common Man is not only where adventurers receive information. It is a workplace where the people serving them remember who they are.</p>\n      <div class=\"quote\">Comin’ right on up! I assume two no?<cite>Herb</cite></div>\n      <h2 id=\"inventory\">A town measured through inventory</h2>\n      <p>On 15 December 2024, Pristinia’s growing population and incomplete harvest help become visible through Herb’s stores. Sourdough remains available. Dried fruit is running low. Tina’s farm is not being worked enough. A bartender’s inventory becomes a record of migration, labor, winter pressure, and promises that did not fully materialize.</p>\n      <div class=\"quote\">Got plenty of the sourdough, but the fruit be runnin low. Growing population puttin stress on us. Wish Tina’s farm was gettin actively worked.<cite>Herb</cite></div>\n      <h2 id=\"elk\">Today’s hunger and next year’s herd</h2>\n      <p>Herb converts shortage into actionable work: forage and hunt elk. He also sets a limit. Pristinia needs roughly a dozen elk’s worth of meat, but taking too many would damage the next year’s population. Immediate survival does not cancel responsibility for what follows.</p>\n      <div class=\"quote\">Well we could use about a dozen or so Elks worth of meat. Not more mind you don’t be hurtin next years poplator!<cite>Herb</cite></div>\n      <p>Aravil hears the need and recognizes that hunting may be how she belongs in the settlement. Herb therefore acts as a civilian information node: local knowledge passes through ordinary conversation and becomes a way for someone else to contribute.</p>\n      <h2 id=\"common-man\">The Common Man</h2>\n      <p>Herb helps make <a href=\"#common-man\">the Common Man</a> legible as an institution rather than scenery. The narration posted on 14 August 2025 explicitly calls him its <strong>owner and barkeeper</strong>. Later in that exchange he introduces himself as <strong>Herb Shepard</strong>; the record also contains the spellings Sheperd and Shepherd. The direct introduction supplies the spelling used here. A legal deed and founding history remain unrecovered.</p><h2 id=\"herb-hospitality\">Making arrival possible</h2><p>Herb offers Gartina ingredients and modest pay for morning baking in the March 2024 account. In August he explains that newcomers receive a bunk and food through a stipend while finding their feet. He credits full-paying locals and Melian’s subsidy with keeping the tavern supplied. His work gives practical form to the welcome adventurers receive.</p>\n      <h2 id=\"herb-melian\">Melian and a meal carried into war</h2>\n      <p>Herb’s clearest recovered relationship with Melian Starguard arrives on 4 June 2025. He approaches her location with <a href=\"#scout-lilian\">Scout Lilian</a> carrying a special meal because he knows the strain of the Rahu crisis has reached her personally. He does not bring political advice or a weapon. He brings food.</p>\n      <div class=\"quote\">We all need to find small joys in this difficult time.<cite>Herb Shepard</cite></div>\n      <p>Unknown to them, Magnus and Rahu forces have already incapacitated Melian and prepared her for abduction. Lilian recognizes the danger. Magnus orders that there be no witnesses and no survivors. Herb and Lilian are killed. Herb did not arrive to fight an army; he arrived carrying dinner. His death is therefore one of the clearest measures of the moment war crossed into ordinary Pristinian life.</p>\n      <h2 id=\"herb-return\">Murder, resurrection, and continuity</h2>\n      <p>Herb is later restored to life. In the exchange posted on 13 January 2026 (UTC), Gregory Greenleaf tests whether he is undead; the narration confirms that he is not. Adelia says Elenia brought him back through Divine Intervention. Her testimony supplies a claimed means of restoration, while its date and complete scene remain unrecovered. His return does not erase Magnus’s order or the experience of his death. It creates continuity: the civilian killed because war reached ordinary Pristinia returns to participate in ordinary Pristinia again.</p>\n      <h2 id=\"herb-ada\">Ada and the recording of ordinary life</h2>\n      <p>Ada signs himself “Town Chronicler, best friend of Herb.” The small declaration links Pristinia’s public memory to the person who most visibly lives its daily rhythms. Ada records the town; Herb feeds it, remembers it, and notices what it needs. The full history of their friendship remains open.</p>\n      <h2 id=\"herb-after-fire\">The loss of the Common Man</h2>\n      <p>Herb survives the Common Man’s destruction. In the cleanup posted on 29 June 2026, he clears debris, thanks the adventurers and refuses to blame them for the loss. When the basement is opened, he finds its stores intact and serves the helpers wine, food, juice and water. His idea of the tavern survives its walls: a place where people can forget their worries for a while and treat common folk as equals.</p><p>He also recoils when talk turns to retaliation and war, remembering how much Pristinia lost in its previous conflict. That is a civilian’s fear of renewed suffering, not a formal decision by the town. His eventual position in <a href=\"#pilgrims-hearth\">Pilgrim’s Hearth</a> remains unresolved.</p>\n      <h2 id=\"herb-funeral\">Papirak’s funeral · 30 September 2026</h2>\n      <p>After Melian gives Papirak’s death ritual, procession, and language, Herb changes the gathering’s emotional register. He insists Papirak would prefer celebration of a life well lived. Magic fills the sky and the town moves toward food, drink, music, and the Pilgrim’s Hearth. Herb returns people from death toward life without asking them to forget the dead.</p>\n      <div class=\"callout gold\"><p><strong>Melian carries the flame. Herb keeps the hearth.</strong> One gives public memory structure; the other restores the texture of ordinary life afterward.</p></div>\n      <h2 id=\"herb-open-record\">The open record</h2>\n      <p>Herb’s birth and origin, first arrival in Pristinia, exact resurrection, complete pre-war history with Melian, legal deed for the Common Man (whose owner and barkeeper he is identified as), role at Pilgrim’s Hearth, and the full chronology of his friendship with Ada remain unresolved.</p>",
+  "image": "assets/characters/herb.webp",
+  "imageAlt": "Herb seated in a tavern, holding a mug",
+  "imageCaption": "Herb Shepard",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "regulars",
+      "title": "Remembering the regulars",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "inventory",
+      "title": "A town measured through inventory",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "elk",
+      "title": "Today’s hunger and next year’s herd",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "common-man",
+      "title": "The Common Man",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "herb-hospitality",
+      "title": "Making arrival possible",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "herb-melian",
+      "title": "Melian and a meal carried into war",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "herb-return",
+      "title": "Murder, resurrection, and continuity",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "herb-ada",
+      "title": "Ada and the recording of ordinary life",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "herb-after-fire",
+      "title": "The loss of the Common Man",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "herb-funeral",
+      "title": "Papirak’s funeral · 30 September 2026",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    },
+    {
+      "id": "herb-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "The_Common_Man_Location_Profile_and_History.md — Herb’s work, dialogue, food knowledge, and evidence limits",
+          "Pasted markdown(20260918-182039).md — 15 December 2024 tavern scene",
+          "State of the World record — the Common Man’s destruction and Pilgrim’s Hearth succession",
+          "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civilian history, Melian relationship, death, return, and funeral role",
+          "Common Man tavern primary record — selected hospitality, memorial and recovery scenes; dates are UTC posting dates"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Bartender; civilian anchor of Pristinia",
+    "significance": "Pristinia’s civilian anchor: a bartender who turns shortages into shared work, carries dinner into a war zone, survives death and the loss of his tavern, and still returns mourners to ordinary life.",
+    "actions": [],
+    "status": "A current status is not established in the dated public record.",
+    "relationships": [
+      {
+        "id": "melian-starguard",
+        "label": "Melian Starguard",
+        "relation": "Care offered before catastrophe"
+      },
+      {
+        "id": "magnus",
+        "label": "Magnus Niriin",
+        "relation": "Civilian care meets covert violence"
+      },
+      {
+        "id": "aravil",
+        "label": "Aravil",
+        "relation": "Belonging through remembered habit and useful work"
+      },
+      {
+        "id": "papirak-legacy",
+        "label": "Papirak’s Legacy",
+        "relation": "Hospitality as a communal mourning practice"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "relationshipMap": {
+    "title": "Herb Shepard’s relationship web",
+    "intro": "Herb’s history is built from remembered orders, shared meals, hard limits, death, restoration, and the work of keeping a public room alive. Select a tie to see how ordinary care becomes civic continuity.",
+    "center": {
+      "title": "Herb Shepard",
+      "subtitle": "The hearth Pristinia keeps rebuilding"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "label": "All ties"
+      },
+      {
+        "id": "bond",
+        "label": "Friendship & care"
+      },
+      {
+        "id": "power",
+        "label": "Death & restoration"
+      },
+      {
+        "id": "conflict",
+        "label": "Violence & loss"
+      },
+      {
+        "id": "politics",
+        "label": "Work & community"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "melian",
+        "title": "Melian Starguard",
+        "subtitle": "A special meal in a time of crisis",
+        "category": "bond",
+        "strength": 3,
+        "x": 50,
+        "y": 8,
+        "direction": "mutual",
+        "relation": "Care offered before catastrophe",
+        "history": "On 4 June 2025, Herb and Scout Lilian carry a special meal to Melian because Herb knows the Rahu crisis has reached her personally. They encounter Magnus’s abduction operation and are killed after his order that there be no witnesses.",
+        "consequence": "The scene makes hospitality politically consequential without turning it into strategy. Herb’s care and Melian’s survival remain connected to a murder that restoration cannot erase.",
+        "evidence": "The meal, deaths, and abduction are established; Herb’s exact restoration mechanism remains unresolved.",
+        "article": "melian-starguard"
+      },
+      {
+        "id": "ada",
+        "title": "Ada",
+        "subtitle": "Town chronicler and best friend",
+        "category": "bond",
+        "strength": 3,
+        "x": 80,
+        "y": 24,
+        "direction": "mutual",
+        "relation": "Friendship preserved in the public record",
+        "history": "Ada signs herself as Pristinia’s town chronicler and Herb’s best friend. Her writing preserves the people whose ordinary labor could otherwise disappear behind adventurers’ larger deeds.",
+        "consequence": "Herb is not only remembered because heroes used his tavern. A friend with a civic vocation deliberately writes him into the town’s history.",
+        "evidence": "Ada’s title and self-described friendship are established; their fuller private history remains unrecovered.",
+        "article": "ada-town-chronicler"
+      },
+      {
+        "id": "hearth",
+        "title": "The Common Man & Pilgrim’s Hearth",
+        "subtitle": "One foundation, two public rooms",
+        "category": "politics",
+        "strength": 3,
+        "x": 82,
+        "y": 68,
+        "direction": "mutual",
+        "relation": "A person and institution remade together",
+        "history": "Herb’s work makes the Common Man a source of food, news, memory, and restraint. After zombie pirates burn it, Pilgrim’s Hearth rises on the same foundations as a larger refuge.",
+        "consequence": "The replacement does not erase the fire. It turns continuity into a practice: use the same ground, remember the loss, and make the next refuge more durable.",
+        "evidence": "Destruction and rebuilding are established; Herb’s complete role in construction remains incomplete.",
+        "article": "pilgrims-hearth"
+      },
+      {
+        "id": "magnus",
+        "title": "Magnus Niriin",
+        "subtitle": "No witnesses, no survivors",
+        "category": "conflict",
+        "strength": 3,
+        "x": 58,
+        "y": 90,
+        "direction": "toward",
+        "relation": "Civilian care meets covert violence",
+        "history": "Magnus leads the operation that incapacitates Melian and orders Herb and Scout Lilian killed when their act of care brings them too close to the extraction.",
+        "consequence": "Herb’s later restoration does not soften the command or remove it from Magnus’s history. Survival and accountability remain separate questions.",
+        "evidence": "The order and resulting deaths are established; later consequences for the killers remain incomplete.",
+        "article": "magnus"
+      },
+      {
+        "id": "aravil",
+        "title": "Aravil",
+        "subtitle": "A regular known by her order",
+        "category": "bond",
+        "strength": 2,
+        "x": 24,
+        "y": 72,
+        "direction": "mutual",
+        "relation": "Belonging through remembered habit and useful work",
+        "history": "Herb remembers Aravil’s usual two tequilas and turns a conversation about dwindling food into a practical hunting effort with an ecological limit.",
+        "consequence": "Recognition and responsibility arrive together. Being known in Pristinia means both having a place at the bar and helping the settlement survive without stripping its future.",
+        "evidence": "The remembered order, food pressure, and elk limit are established.",
+        "article": "aravil"
+      },
+      {
+        "id": "papirak",
+        "title": "Papirak and Pristinia’s mourners",
+        "subtitle": "Grief carried toward celebration",
+        "category": "politics",
+        "strength": 2,
+        "x": 18,
+        "y": 30,
+        "direction": "toward",
+        "relation": "Hospitality as a communal mourning practice",
+        "history": "At Papirak’s funeral, Herb breaks the solemnity by insisting that Papirak would have wanted his life celebrated, then helps turn the wake toward food, drink, music, and company.",
+        "consequence": "The gesture does not end grief. It gives grief a public room in which the living can remain together.",
+        "evidence": "Herb’s intervention and the wake are directly preserved.",
+        "article": "papirak-legacy"
+      }
+    ],
+    "insights": [
+      {
+        "label": "Central bond",
+        "value": "Melian",
+        "note": "A meal offered in crisis makes ordinary care part of political history."
+      },
+      {
+        "label": "Keeper of memory",
+        "value": "Ada",
+        "note": "The chronicler records her best friend as more than background scenery."
+      },
+      {
+        "label": "Living institution",
+        "value": "The hearth",
+        "note": "A tavern can burn while its civic purpose survives."
+      },
+      {
+        "label": "Characteristic wisdom",
+        "value": "Take enough, not everything",
+        "note": "Present need must not consume the future herd."
+      }
+    ]
+  }
+}

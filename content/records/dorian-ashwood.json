@@ -1,0 +1,181 @@
+{
+  "id": "dorian-ashwood",
+  "title": "Dorian Ashwood",
+  "category": "People",
+  "type": "Musician from a travelling caravan",
+  "dek": "A caravan musician whose friendship, grief and care repeatedly confront him with the difference between protecting someone and forcing an answer.",
+  "tags": [
+    "Dorian Ashwood",
+    "The Gate",
+    "Prima",
+    "Dorian"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Recorded at": "The Gate and road to Pristinia"
+  },
+  "sources": [
+    "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records",
+    "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+    "Selected primary scenes and established public histories; anchors below"
+  ],
+  "body": "<h2 id=\"dorian-curtain\">Through the wrong curtain</h2><p>Dorian says he was about to perform with his family’s travelling caravan when he passed through a curtain and found himself in the forest. He introduces himself as Dorian Ashwood and carries a guitar. He also says that, unlike his family, he has been unable to use magic despite practice.</p><h2 id=\"dorian-safety\">Safety in people</h2><p><a href=\"#vaemyr\">Vaemyr</a> raises his hands to reassure him, warns that the Gate has recently been attacked, and leads him toward Pristinia. His explanation of the war and his warnings about dangerous magic remain a guide’s account of the world.</p><h2 id=\"dorian-choice\">More than a fighter</h2><p>Dorian promises to help as best he can. Vaemyr urges steady growth and asking for help, then tells him he does not have to fight: there are many ways to serve a good cause. The encounter records a commitment to contribute, not a completed career or allegiance.</p><h2 id=\"dorian-ordinary-friendship\">Music before the crisis</h2><p>Dorian’s history includes ordinary pleasure as well as violence. In August 2024 he plays guitar with a friend accompanying him on violin in the square. The scene names him Dorian Ashwood and preserves the companionship that gives his later grief context.</p><h2 id=\"dorian-swift-grief\">Swift-Foot · grief seeks certainty</h2><p>When he sees Swift’s head, his response is anger held with difficulty. His affection for Swift makes the witnesses’ account painful to accept. The death investigation does not become simple merely because he wants a different answer.</p><p>Dorian asks Vaemyr to accompany him while he questions the witnesses and warns him to bear with a method learned from an old master. Lucido worries that he will cause harm; Vaemyr says he is telling Dorian not to hurt the men. The preserved account of their confrontation describes Vaemyr standing between his friend and torture. It does not justify recording an injury that the reviewed main-channel sequence does not show.</p><p>Friendship here includes opposition. Vaemyr’s restraint protects the witnesses while resisting a course that could consume Dorian’s grief. It does not prove the Rahu testimony complete or settle every question about Swift’s intentions.</p><h2 id=\"dorian-leo-and-care\">Leo and the work after violence</h2><p>In the later cave confrontation, Dorian argues with Arjahn and describes tying and carrying Leo out. His post also conditionally proposes taking the crystal if it remains intact; the narrator asks him to choose. The account does not turn that conditional declaration into two completed actions or independently settle Leo’s condition.</p><p>His next training scenes show attempts to save patients and satisfaction at having helped someone survive. They also contain threats and anger. Those conflicting choices belong to the same person: care is visible, but does not erase the harm he threatens.</p><h2 id=\"dorian-open-record\">The open record</h2><p>The extent of his actions in the witness side-room, Leo’s precise condition during the proposed carrying and Dorian’s later response to Swift’s death still require fuller reconstruction. His earlier musical life and practical care remain part of his history rather than being displaced by one moral crisis.</p><h2 id=\"deep-recorded-scenes\">Recorded scenes</h2><p>Dates refer to transcript postings, not an independently established in-world calendar.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1270428517326262342\">6 August 2024 · music with a friend</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1270781551700873309\">7 August · Swift’s head</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1270833557861826602\">Dorian asks Vaemyr to accompany him</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1270834155441356940\">Lucido’s concern</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1270835480836964414\">Vaemyr describes his intervention</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1279291033708134420\">30 August · proposed carrying and crystal choice</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1279291107049603103\">The narrator requires a choice</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1279597564630405160\">31 August · attempting to save a patient</a></li></ul>",
+  "image": "assets/characters/dorian-ashwood.jpeg",
+  "imageAlt": "Dorian Ashwood with brown hair and a stringed instrument over his shoulder",
+  "imageCaption": "Dorian Ashwood",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "dorian-curtain",
+      "title": "Through the wrong curtain",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "dorian-safety",
+      "title": "Safety in people",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "dorian-choice",
+      "title": "More than a fighter",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "dorian-ordinary-friendship",
+      "title": "Music before the crisis",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "dorian-swift-grief",
+      "title": "Swift-Foot · grief seeks certainty",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "dorian-leo-and-care",
+      "title": "Leo and the work after violence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "dorian-open-record",
+      "title": "The open record",
+      "chapter": "Open questions",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    },
+    {
+      "id": "deep-recorded-scenes",
+      "title": "Recorded scenes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Gate chronicle · selected arrival and welcome scenes; January 2024–September 2026 posting records",
+          "Deep character dossier · supplied 14 October 2026; quest evidence takes precedence",
+          "Selected primary scenes and established public histories; anchors below"
+        ]
+      }
+    }
+  ],
+  "brief": {
+    "identity": "Musician from a travelling caravan",
+    "significance": "A caravan musician whose friendship, grief and care repeatedly confront him with the difference between protecting someone and forcing an answer.",
+    "actions": [
+      {
+        "title": "Vaemyr guides Dorian away from the damaged Gate",
+        "event": "Vaemyr guides Dorian away from the damaged Gate",
+        "date": "2024-07-30 · posting date (UTC)"
+      }
+    ],
+    "status": "Last dated entry in this selection: 2024-07-30 · posting date (UTC). Later status is not established here.",
+    "relationships": [
+      {
+        "id": "vaemyr",
+        "label": "Vaemyr",
+        "relation": "Connected in this history"
+      }
+    ],
+    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "profile": {
+    "achievements": "A caravan musician whose friendship, grief and care repeatedly confront him with the difference between protecting someone and forcing an answer."
+  }
+}

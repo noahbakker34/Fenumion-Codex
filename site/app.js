@@ -13138,7 +13138,7 @@ if (vessaliaCaveEvent) {
   questEventConsequences[vessaliaCaveEvent.title] = "Source: Vessalia_RP_and_Quests.txt, Harpy Part II pp. 32–38 and appended quest screenshots. The recovered posts name the expedition participants separately from the Seekers’ later membership roster. Violet color alone does not settle the crystals’ nature, and party theories remain attributed. The displayed dates are transcript dates, not a definitive in-world chronology.";
 }
 vessaliaRecord.body = vessaliaRecord.body.replace("That decision is recorded; completed lessons or qualifications are not.", "In her conversation with Severina she also says a formal interview may still be pending. Completed lessons or qualifications are not established.");
-vessaliaRecord.body += '<h2 id="vess-recovered-events">Vessalia in the timeline</h2><p>These dates identify the surviving posts. Exact in-world dates and the complete order of the scenes remain unconfirmed. Select an event for its source and evidence limits.</p><ol class="location-timeline-list">' + [...vessaliaTimelineEvents, vessaliaCaveEvent].filter(Boolean).sort((a,b) => a.sort.localeCompare(b.sort)).map(event => `<li><button type="button" class="location-timeline-event" data-timeline-title="${escapeHtml(event.title)}"><span class="location-timeline-date">${escapeHtml(event.meta)}</span><strong>${escapeHtml(event.title)}</strong><span>${escapeHtml(event.summary)}</span><small>Open timeline record →</small></button></li>`).join('') + '</ol>';
+vessaliaRecord.body += '<h2 id="vess-recovered-events">Vessalia in the timeline</h2><p>These dates identify the surviving posts. Exact in-world dates and the complete order of the scenes remain unconfirmed. Select an event for its source and evidence limits.</p>' + renderTimelineEventList([...vessaliaTimelineEvents, vessaliaCaveEvent].filter(Boolean).sort((left, right) => left.sort.localeCompare(right.sort)));
 subchannelMap.vessalia.push({ label: "Living Timeline", article: "living-timeline", summary: "Find Vessalia’s recovered events and source chronology." });
 
 // Saturnia’s supplied depictions, expanded below from her dossier.
@@ -13809,8 +13809,6 @@ if(adeliaDossier) {
   for(const event of adeliaDossier.events)if(!archiveIndex.timeline.some(record=>record.title===event.title))archiveIndex.timeline.push(event);
   const transformation=archiveIndex.timeline.find(record=>record.title==='Adelia gives herself for Hope');
   if(transformation)Object.assign(transformation,{location:'Hope; Gael',summary:'After Magnus wounds Hope, Adelia voluntarily gives up her former existence to restore or save it. She becomes bound to Hope and Gael as the Spirit of Adelia, Empyrean or Life Knight. Exact date and mechanics remain unresolved; Gael’s earlier restoration is communal.'});
-  const rift=archiveIndex.timeline.find(record=>record.title==='The Rift ambush tests knowledge and rescue');
-  if(rift)rift.sort='2026-99z';
   const withering=archiveIndex.timeline.find(record=>record.title==='Magnus returns and Hope withers');
   if(withering)withering.summary='Adelia invokes Divine Intervention for a friend’s second chance. Moirah returns Magnus from Death’s possession and rebukes her; Magnus accepts Dumuzi’s gift, wounds Hope and flees. Adelia attempts to save the tree, then struggles with rage and guilt while Jiangshi and her companions remain.';
 }
@@ -14816,6 +14814,97 @@ for (const record of housingLibraryRecords) {
 const pristiniaHomes=articles.find(item=>item.id==='pristinia');
 pristiniaHomes.body+='<h2 id="pristinia-domestic-and-recorded-memory">Homes and the record of a town</h2><p><a href="#pristinia-housing">Homes and households</a> preserve changing residence, friendship and ownership claims. The <a href="#pristinia-scroll-library">Scroll Library</a> preserves another form of continuity: shared spells, research and civic records that later residents can consult.</p>';
 
+// Register the public reference and its chronology before building search/routes.
+const riftsData = window.FENUMION_RIFTS;
+if (riftsData) {
+  const { article, events, relatedArticleIds, eventUpdates } = riftsData;
+  const orderedEvents = [...events].sort((left, right) => left.sort.localeCompare(right.sort));
+  const riftRecord = {
+    ...article,
+    body: article.body.replace('<!-- rift-events -->', renderTimelineEventList(orderedEvents))
+  };
+  articles.push(riftRecord);
+  fixedArticlePaths.set(article.id, ['Guide', 'World phenomena', article.title]);
+  navigationRegions.find(region => region.title === 'Guide').branches.push({
+    title: 'World phenomena', items: [{ label: article.title, article: article.id }]
+  });
+  subchannelMap[article.id] = relatedArticleIds.map(id => {
+    const target = articles.find(item => item.id === id);
+    if (!target) throw new Error('Missing rift context: ' + id);
+    const reciprocal = subchannelMap[id] || (subchannelMap[id] = []);
+    if (!reciprocal.some(item => item.article === article.id)) {
+      reciprocal.push({ label: article.title, article: article.id, summary: article.dek });
+    }
+    return { label: target.title, article: id, summary: target.dek };
+  });
+  const eventsByTitle = new Map(archiveIndex.timeline.map(event => [event.title, event]));
+  for (const update of eventUpdates) {
+    const existing = eventsByTitle.get(update.title);
+    if (!existing) throw new Error('Missing rift event to update: ' + update.title);
+    Object.assign(existing, update);
+  }
+  for (const { consequence, ...event } of events) {
+    const existing = eventsByTitle.get(event.title);
+    if (existing) Object.assign(existing, event);
+    else {
+      archiveIndex.timeline.push(event);
+      eventsByTitle.set(event.title, event);
+    }
+    questEventConsequences[event.title] = consequence;
+  }
+}
+
+// Expand existing places without replacing their quest history or preserved media.
+const locationDeepening = window.FENUMION_LOCATION_DEEPENING;
+if (locationDeepening) {
+  const { updates, newPlaces } = locationDeepening;
+  const recordsById = new Map(articles.map(article => [article.id, article]));
+  for (const update of updates) {
+    const record = recordsById.get(update.id);
+    if (!record) throw new Error('Missing deep location: ' + update.id);
+    for (const { old, new: replacement } of update.replacements || []) {
+      if (!record.body.includes(old)) throw new Error('Location passage changed: ' + update.id);
+      record.body = record.body.replace(old, replacement);
+    }
+    record.body += update.sections;
+    record.facts = { ...record.facts, ...update.facts };
+    record.tags = [...new Set([...record.tags, ...update.tags])];
+    record.sources = [...new Set([...record.sources, update.source])];
+  }
+  for (const place of newPlaces) {
+    const { article, directoryTitle, parent, region, directoryType, navBranch, path, aliases } = place;
+    if (recordsById.has(article.id)) throw new Error('Duplicate deep location: ' + article.id);
+    articles.push({ ...article });
+    recordsById.set(article.id, article);
+    fixedArticlePaths.set(article.id, path);
+    const branch = locationsNav.branches.find(branch => branch.title === navBranch);
+    if (!branch) throw new Error('Missing location navigation branch: ' + navBranch);
+    if (!branch.items.some(item => item.article === article.id)) branch.items.push({ label: article.title, article: article.id });
+    let entry = archiveIndex.islands.find(item => item.title === directoryTitle);
+    if (!entry) {
+      entry = { title: directoryTitle, level: 'site' };
+      archiveIndex.islands.push(entry);
+    }
+    Object.assign(entry, {
+      article: article.id, parent, region, type: directoryType,
+      meta: [...new Set([region, parent])].join(' › ') + ' · ' + directoryType,
+      summary: article.dek, source: article.sources.join('; '),
+      aliases: [...new Set([...(entry.aliases || []), ...aliases])]
+    });
+  }
+  for (const update of [...updates, ...newPlaces.map(place => ({ id: place.article.id, links: place.links }))]) {
+    const record = recordsById.get(update.id);
+    const context = subchannelMap[record.id] || (subchannelMap[record.id] = []);
+    for (const id of update.links) {
+      const target = recordsById.get(id);
+      if (!target) throw new Error('Missing deep location context: ' + id);
+      if (!context.some(link => link.article === id)) context.push({ label: target.title, article: id, summary: target.dek });
+      const reciprocal = subchannelMap[id] || (subchannelMap[id] = []);
+      if (!reciprocal.some(link => link.article === record.id)) reciprocal.push({ label: record.title, article: record.id, summary: record.dek });
+    }
+  }
+}
+
 const byId = new Map(articles.map(article => [article.id, article]));
 const routeAliases = new Map([["djo", "djohandrai"], ["djöhandrai", "djohandrai"], ["vess", "vessalia"],["reading-the-codex", "ethos-of-fenumion"], ["papirak-the-strange", "papirak"], ["papirus", "papirak"], ["lilian", "scout-lilian"], ["lillian", "scout-lilian"], ["scout-lillian", "scout-lilian"], ["ambassador-sophina", "sophina"], ["huon", "huoth"], ["huoth-emissary-of-nuru", "huoth"], ["yami", "yami-no-majo"], ["witch-queen-ephraith", "ephraith"], ["ephiraith", "ephraith"], ["epriath", "ephraith"], ["zarathis-dragonsisters", "dragonsisters"],
   ["hildethrax", "captain-hildethrax"],
@@ -14853,6 +14942,14 @@ routeAliases.set('scroll-library','pristinia-scroll-library');
 routeAliases.set('prima-scroll-library','pristinia-scroll-library');
 routeAliases.set('prima-housing','pristinia-housing');
 routeAliases.set('crafting-system','fenumion-crafting');
+routeAliases.set('rift','rifts');
+routeAliases.set('rift-phenomenon','rifts');
+routeAliases.set('crustacean-cove-refugees','crustacean-cove');
+routeAliases.set('refugee-settlement','gael-refugee-settlement');
+routeAliases.set('the-veiled-watch','veiled-watch');
+routeAliases.set('prima-gate','gate-clearing');
+routeAliases.set('eshunna','eshnunna');
+routeAliases.set('eshnunna-of-the-eternal-flame','eshnunna');
 routeAliases.set('lady-severina-blackveil','lady-severina');
 routeAliases.set('idril','battlemaiden-idril');
 routeAliases.set('yvette','guardian-commander-yvette');
@@ -16602,6 +16699,17 @@ function normalizePlaceName(value = "") {
     .toLocaleLowerCase();
 }
 
+function renderTimelineEventList(events) {
+  return `<ol class="location-timeline-list">${events.map(event => `<li>
+      <button type="button" class="location-timeline-event" data-timeline-title="${escapeHtml(event.title)}">
+        <span class="location-timeline-date">${escapeHtml(event.meta)}</span>
+        <strong>${escapeHtml(event.title)}</strong>
+        <span>${escapeHtml(event.summary)}</span>
+        <small>${escapeHtml(event.kind)} · Open detailed record <b aria-hidden="true">→</b></small>
+      </button>
+    </li>`).join('')}</ol>`;
+}
+
 function renderLocationTimeline(article) {
   if (!isLocationArticle(article)) return "";
   const timelineItems = locationTimelineItems(article);
@@ -16609,15 +16717,7 @@ function renderLocationTimeline(article) {
     ? `<p class="location-timeline-note"><span aria-hidden="true">◆</span> Protected ancient records remain veiled in player-safe view.</p>`
     : "";
   const events = timelineItems.length
-    ? `<ol class="location-timeline-list">${timelineItems.map(item => `
-        <li>
-          <button type="button" class="location-timeline-event" data-timeline-title="${escapeHtml(item.title)}">
-            <span class="location-timeline-date">${escapeHtml(item.meta)}</span>
-            <strong>${escapeHtml(item.title)}</strong>
-            <span>${escapeHtml(item.summary)}</span>
-            <small>${escapeHtml(item.kind)} · Open detailed record <b aria-hidden="true">→</b></small>
-          </button>
-        </li>`).join("")}</ol>`
+    ? renderTimelineEventList(timelineItems)
     : `<div class="timeline-empty location-timeline-empty"><strong>No dated events recovered for this place.</strong><span>The location remains indexed, and its chronology will appear here as new primary-source evidence is added.</span></div>`;
   return `
     <section class="location-history-timeline" aria-labelledby="location-timeline-${escapeHtml(article.id)}">

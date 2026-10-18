@@ -818,3 +818,39 @@ User identifies linked Skill Descriptions as distinct Fenumion homebrew crafting
 ## Pristinia housing and Scroll Library · 14 October 2026
 
 Two entries from supplied historical synthesis: Pristinia Homes & Households and Pristinia Scroll Library. Claims/transfers/residence separated; Eovar tower, underwater home and plantation not relocated. Existing library marker now opens own dossier; no new coordinates. Character/place reciprocity and current Builder/Scribe/Craftsman references linked without retroactive ranks or achievements. See `HOUSING_SCROLL_LIBRARY_REVIEW.md`. Housing-library1/app236; publication authorized on 14 October 2026 alongside Gedankin/crafting updates.
+
+## Gedankin header spacing · 14 October 2026
+
+Fixed the cramped reading header: reserve room for the full world title, constrain its text wrapper, keep the subtitle on one line, and use restrained system typography for the subtitle and search. Shortened the search placeholder to “Search Gedankin…”. Scoped to Gedankin; CSS16. Chrome checks at320/390/760/762/900/1100/1280/1440px confirm full title/subtitle, no header overlaps or page overflow, and working search. Desktop/mobile screenshots inspected. Publication pending.
+
+## Rifts public reference · 15 October 2026
+
+User defines rifts as extra-dimensional tears into Fenumion from elsewhere for things being summoned or trying to escape. Added public `rifts` under Guide → World phenomena, with aliases and reciprocal context links. Supplied synthesis contributes eight clearly labeled posting-date encounter summaries; missing dedicated raw exports not claimed as independently checked. Main quest narrator evidence corrects the “first” framing and prevents universal voluntary entry, guaranteed return or classification of every demiplane as a rift. Existing Pappy rescue, mist uncertainty and protected stubs preserved. See `RIFTS_REVIEW.md`. Rift-record1/app237. Syntax/diff checks and Chrome1440/390px checks passed for layout, unique IDs/headings, links, search, aliases/navigation, unchanged12 Blessings paths and protected empty bodies; screenshots inspected. Publication pending alongside prior Gedankin header fix.
+
+## Rift events and Cthulu arrival · 15 October 2026
+
+User authorizes encounter histories in Events and explicitly confirms Cthulu came through a rift. Added eight bounded encounter records with source-post chronology plus a separate undated Cthulu arrival (no inferred encounter/site/date/motive/outcome). Existing Pappy event retained. Nine linked event buttons on Rifts; Events search/dialogs and mobile layout verified, along with previous article checks. See RIFTS_REVIEW.md follow-up. Rift-record1/app237; publication pending with Rifts page and Gedankin header.
+
+Cthulu identity clarification: creator identifies him as the eldritch god. Applied to Rifts and arrival event, including search tags; no date or specific encounter inferred.
+
+Creator date confirmation · 15 October 2026: Cthulu’s arrival occurred on 3 September 2026 (user: 9/3/26). This supersedes the undated-arrival checkpoint above. Event moved into 2026 chronology; article/event list updated. Supplied abyssal account covers 3–4 September source posts but does not name Cthulu; primary dedicated scene still unavailable. Arrival site, motive and aftermath not invented.
+
+## Primary rift verification · 15 October 2026
+
+Actual rift-rp01/02 exports supplied; targeted primary checks confirm Cthulu/Cthulhu arrival and immediate aftermath in the abyssal encounter, with Pappy extracted first. Final posts04SeptUTC are03SeptEDT, matching creator date. Pappy event date-positioned without duplicating it or deciding governance. Coastal ending now includes Fenwick banishment and narrator return; clockwork retreat, ritual exits, dark-expanse assumption and object/harvest rule distinctions corrected. See RIFTS_REVIEW.md for primary anchors/checksums. Protected identities/private material omitted; raw exports remain outside Git. Rift-record1/app237; publication pending.
+
+## Rift code consolidation · 15 October 2026
+
+Rift-record2/app238 replaces incremental rift globals/body patches with one data bundle and one generated chronological event list. Canonical display spelling Cthulhu, user variant Cthulu searchable. Shared escaped event renderer reused on Vessalia and places. Source bundle immutable; title-based timeline registration and reciprocal links avoid duplicates. Old unresolved Pappy sort override removed in favor of the primary-backed correction. Consolidated RIFTS_REVIEW.md now records the current verified state. New scripts/check_rifts.cjs passes desktop/mobile regression checks; before/after checks preserve unrelated articles, chronology and protected stubs. Gedankin header remains verified. Publication pending.
+
+## Five deep location dossiers · 16 October 2026
+
+Expanded existing Pristinia civic procedure, Zarathis legitimacy/leadership, Eovar coastal institutions and the Scroll Library’s primary-backed research history. Ciaránach now distinguishes its named inner citadel Eshnunna from the separately supplied temple video; Eshnunna gains a public geography page from the existing directory row/image, parent corrected from generic Fein Uaill to Ciaránach by quest evidence. No new coordinates or duplicate library. Sacred revelations remain protected. Existing early wall quests, enacted-vs-proposed law, property ambiguity, harbor uncertainty and character outcomes retained. See FIVE_LOCATION_DOSSIER_REVIEW.md. Location-deep-records1/housing-library2/app239. Chrome desktop/mobile checks pass; snapshots preserve unrelated records/maps/timeline/media/protected stubs. Publication pending with rifts and Gedankin header.
+
+## Further location dossiers · 16 October 2026
+
+Cove and Veiled Watch gain standalone histories from existing directory entries; Tower-area refugee community gets a distinct descriptive/unmapped record. Gate hospitality expands only `gate-clearing`; protected `the-gate` unchanged. Walls preserve earlier quests/Farkur planning while adding attributed order/protection/autonomy debate. Larkhollow retains later market/forest history and adds narrator unsafe-travel limit; repeated Library dossier is checksum-identical and unchanged. Common newPlaces metadata now registers these records and prior Eshnunna, with no new coordinates. See SECOND_LOCATION_DOSSIER_REVIEW.md. Location-deep-records2/app240; Chrome eight-route desktop/mobile checks pass, snapshots preserve existing timeline/maps/media/protected/unrelated records. Publication pending with prior batches.
+
+## Authorized consolidated publication · 18 October 2026
+
+User authorizes publishing all pending work: primary-checked rift reference/events and Cthulhu arrival, shared event renderer, both location dossier batches and the Gedankin header fix. App240/rift-record2/location-deep-records2/housing-library2/Gedankin CSS16. This supersedes pending-publication checkpoints above. Quest authority, protected lore, source media and map coordinates retained; raw transcripts excluded.

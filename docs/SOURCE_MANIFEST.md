@@ -331,3 +331,19 @@ User-supplied Google Doc `1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo`, tab t.0
 ## Housing and Scroll Library history · 14 October 2026
 
 Supplied synthesis `Fenumion_Housing_and_Scroll_Library_RP_History.md`: two Pristinia records, residential guide and dedicated library. Existing library marker/directory upgraded without new coordinates. Claims, registration, occupancy and transfers distinguished; Eovar properties retain geography; current crafting rules not retroactive scene proof. No independent full-transcript verification claimed. Hash, scope and validation in `HOUSING_SCROLL_LIBRARY_REVIEW.md`.
+
+## Rifts reference · 15 October 2026
+
+`fenumion-rifts.md` (supplied synthesis; SHA-256 `9f6c6a31472505e23b32cdc2513395c4415845f4b71e9be6d585115a3c36d0a8`) plus explicit user canon definition. Quest cross-check limits the “first” claim, voluntary entry and universal passage mechanics. See `RIFTS_REVIEW.md`; raw referenced rift exports unavailable and not imported.
+
+## Primary rift exports · 15 October 2026
+
+`rift-rp-01.md` and `rift-rp-02.md` supplied from the Bot Reader export, 3,868 unique messages. Targeted encounter and ruling verification supersedes missing-source limits of the earlier synthesis. Checksums and message anchors in `RIFTS_REVIEW.md`; raw transcripts/private index/attachments not committed.
+
+## Five deep location dossiers · 16 October 2026
+
+Pristinia, City of Zarathis, Eovar Harbor, Pristinia Scroll Library, and Ciaranach/Eshnunna supplied location syntheses. Source identities, primary quest/library anchors and conflict dispositions in `FIVE_LOCATION_DOSSIER_REVIEW.md`. Public geography/civic history only; raw transcripts and protected revelations excluded.
+
+## Further location dossiers · 16 October 2026
+
+Cove/refugee settlement, Larkhollow, Prima Gate, Walls and Veiled Watch integrated or reconciled against existing histories. Repeated Scroll Library file checksum-identical; no duplicate. See `SECOND_LOCATION_DOSSIER_REVIEW.md` for hashes, primary anchors and limits. No raw transcripts imported.

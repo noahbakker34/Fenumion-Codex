@@ -47,3 +47,10 @@ The music player now serves its original MP3 bytes from the same public GitHub r
 The workflow stages an otherwise identical site with only `assets/music/` omitted, and rejects staging above 1,000,000,000 bytes before upload. Local package count: 489 files / 796,575,832 bytes. All artwork, video, fonts and other resources remain in Pages. This is a delivery change, not a reduction in media quality. Old direct Pages music URLs are no longer part of new packages; the player uses the pinned repository URLs.
 
 Chrome decoded all twenty Fenumion tracks over the new transport and verified play/pause, next/previous, preferences and original library presence (159 tracks). No JavaScript errors. Syntax and whitespace checks passed. Music module6; static package preparation added to Pages workflow.
+
+
+## Rift and event-list consolidation · 15 October 2026
+
+App238/rift-record2 keeps the primary-checked rift article, event histories and date correction in one bundle. The article’s chronology is generated from the same events used by Events, removing duplicate prose and runtime body patches. One escaped event-card renderer is shared with Vessalia and place histories. A title lookup registers timeline updates without repeated linear event scans; existing records/reciprocal links are not duplicated, and source data stays immutable. This is a code/data consolidation, not a measured loading-speed claim.
+
+`check_rifts.cjs` verifies chronology, both name spellings, nine dialogs, article/place links, text escaping and protected boundaries at1440/390px. Before/after comparison preserves unrelated histories and all protected stubs. Pending Gedankin header checked separately at eight widths.

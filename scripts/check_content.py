@@ -23,6 +23,8 @@ def audit():
   require(a['protected']==(aid in world['restrictedArticleIds']),aid+': protected classification changed')
   require(not(a['protected'] and a.get('body')),aid+': protected body leaked')
   require(not a['protected'] or not a.get('brief'),aid+': protected summary leaked')
+  require(not a['protected'] or not a.get('scenes'),aid+': protected scenes leaked')
+  require('protectedHls' not in json.dumps(a),aid+': authenticated media descriptor leaked')
   parser=Links();parser.feed(a.get('body',''))
   duplicates=[key for key,count in collections.Counter(parser.ids).items() if count>1]
   for key in duplicates:errors.append(aid+': duplicate section ID '+key)

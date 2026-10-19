@@ -5519,6 +5519,106 @@
           "Arrival"
         ],
         "summary": "Cthulhu, the eldritch god, comes through the abyssal rift after creatures finish tearing at the boundary. Pappy has just been pulled out. As the space contracts, Cthulhu devours the creatures that freed him and departs to serve a master."
+      },
+      {
+        "title": "Elenia restores Dale at the Tower",
+        "meta": "9 Jul 2024 · source posting date (UTC)",
+        "sort": "2024-07-09-dale-return",
+        "era": "2024 · The Calling",
+        "kind": "Death and return",
+        "article": "dale",
+        "location": "Tower of Gael",
+        "people": "Dale; Elenia; Saray",
+        "tags": [
+          "Dale",
+          "Elenia",
+          "restoration",
+          "diamond"
+        ],
+        "summary": "After Elenia’s diamond-assisted prayer, Dale wakes beside Saray and learns that Nienna has died. He subsequently contributes to the effort to restore her."
+      },
+      {
+        "title": "Dale returns during the battle in Gael",
+        "meta": "17 Nov 2024 UTC · 16 Nov in the local export",
+        "sort": "2024-11-17-dale-return",
+        "era": "2024 · The Calling",
+        "kind": "Battlefield return",
+        "article": "dale",
+        "location": "Gael; battlefield before Wrath’s defeat",
+        "people": "Dale; Elenia; Saray; Gartina; the company",
+        "tags": [
+          "Dale",
+          "restoration",
+          "Wrath"
+        ],
+        "summary": "After companions mourn Dale’s fall, Elenia reaches him with light and he returns to life within the same battle. He responds to Saray and asks why he survived while other companions remain fallen."
+      },
+      {
+        "title": "Casimir and Alioth choose each other in the Rahu trial",
+        "meta": "3 Sep 2024 UTC · 2 Sep in the local export",
+        "sort": "2024-09-03-casimir-alioth",
+        "era": "2024 · The Calling",
+        "kind": "Choice and institutional refusal",
+        "article": "casimir-alioth",
+        "location": "Rahu trial",
+        "people": "Casimir; Alioth; Ephraith",
+        "tags": [
+          "Rahu",
+          "loyalty",
+          "trial"
+        ],
+        "summary": "Ephraith declares the pair unsuccessful because they chose each other over the Rahu. Casimir accepts the consequences; Alioth argues that their loyalty is strength. Her challenge does not overturn the refusal."
+      },
+      {
+        "title": "The Babel company survives a blind salamander ambush",
+        "meta": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+        "sort": "2026-10-19-babel-0",
+        "era": "2026 · Consequences",
+        "kind": "Jungle ambush",
+        "article": "olokun",
+        "location": "Babel-Ashur jungle; route toward the Luminar Spires",
+        "people": "Olokun; Scribonia; Nymera; Wren; Arjahn; Ryvyt",
+        "tags": [
+          "Babel-Ashur",
+          "western mist",
+          "October expedition",
+          "Skylight Refuge"
+        ],
+        "summary": "A giant blind salamander paralyzes companions and badly wounds Olokun. Ryvyt heals him and removes paralysis; Olokun lands the final blow. The next approaching creature is a passing boar."
+      },
+      {
+        "title": "The western mist turns companions into apparent monsters",
+        "meta": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+        "sort": "2026-10-19-babel-1",
+        "era": "2026 · Consequences",
+        "kind": "Investigation and rescue",
+        "article": "luminar-spires",
+        "location": "Western Babel-Ashur; coastal mist near the Luminar Spires",
+        "people": "Olokun; Scribonia; Nymera; Wren; Arjahn; Ryvyt; Abyss",
+        "tags": [
+          "Babel-Ashur",
+          "western mist",
+          "October expedition",
+          "Skylight Refuge"
+        ],
+        "summary": "Personal visions break the company’s tethers and frustrate rescue attempts. Ryvyt dispels Nymera’s effect before Scribonia’s Wish clears the wider mist. Abyss withdraws; Scribonia later collapses. Permanent removal is not established."
+      },
+      {
+        "title": "Death makes an offer after the mist clearing",
+        "meta": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+        "sort": "2026-10-19-babel-2",
+        "era": "2026 · Consequences",
+        "kind": "Offer and refusal",
+        "article": "babel-ashur",
+        "location": "Babel-Ashur; crystal pillars near the cleared mist",
+        "people": "Olokun; Scribonia; Nymera; Wren; Arjahn; Ryvyt; Dumuzi",
+        "tags": [
+          "Babel-Ashur",
+          "western mist",
+          "October expedition",
+          "Skylight Refuge"
+        ],
+        "summary": "Dumuzi offers allegiance and makes claims involving Oya and Aria. Companions refuse, receive a vision and continue to reject his proposal. The vision’s contents are not reconstructed from the unreviewed video attachment."
       }
     ],
     "characters": [
@@ -6134,7 +6234,7 @@
         "meta": "Survivor of grief",
         "article": "saray",
         "image": "assets/characters/saray.png",
-        "summary": "Carries guilt after Nienna’s death and later lands the final blow against Wrath; the connecting chronology remains incomplete."
+        "summary": "An archer whose work in Gael joins anger, grief, love and the continued defense of her companions; she lands the final blow against Wrath."
       },
       {
         "title": "Rahn",
@@ -6258,9 +6358,9 @@
       },
       {
         "title": "Alioth",
-        "meta": "Rahu trial participant",
-        "article": "casimir-alioth",
-        "summary": "Calls loyalty to Casimir a strength where Ephraith judges the same choice an institutional failure.",
+        "meta": "Adventurer · reader and companion",
+        "article": "alioth",
+        "summary": "A reader who turns curiosity into expeditions, approaches institutions through conversation and chooses loyalty to Casimir even when it costs admission to the Rahu.",
         "image": "assets/characters/alioth.jpg",
         "imageAlt": "Alioth with dark hair, blue armor and blue gemstone jewelry",
         "imageCaption": "Alioth"
@@ -10064,6 +10164,10 @@
             {
               "label": "Casimir",
               "article": "casimir"
+            },
+            {
+              "label": "Alioth",
+              "article": "alioth"
             }
           ]
         },
@@ -15167,6 +15271,13 @@
         "World phenomena",
         "Rifts"
       ]
+    ],
+    [
+      "alioth",
+      [
+        "Characters",
+        "Alioth"
+      ]
     ]
   ],
   "subchannelMap": {
@@ -16011,6 +16122,10 @@
         "label": "Eovar Harbor",
         "article": "eovar-harbor",
         "summary": "A rough, walled harbor larger than Pristinia, where shipping, rebuilding, crime, and regional reputation meet—and where maritime life had nearly stopped by August 2026."
+      },
+      {
+        "label": "Alioth",
+        "article": "alioth"
       }
     ],
     "papirak": [
@@ -17127,6 +17242,10 @@
         "label": "Archery Range",
         "article": "archery-range",
         "summary": "Rolen’s range brings together equipment, practice, family lessons and the everyday work of learning from one another."
+      },
+      {
+        "label": "Alioth",
+        "article": "alioth"
       }
     ],
     "captain-hildethrax": [
@@ -20054,6 +20173,10 @@
         "label": "Pristinia Homes & Households",
         "article": "pristinia-housing",
         "summary": "Homes, shared households and the changing claims through which adventurers make a place for themselves."
+      },
+      {
+        "label": "Alioth",
+        "article": "alioth"
       }
     ],
     "casimir-alioth": [
@@ -20061,6 +20184,10 @@
         "label": "Casimir",
         "article": "casimir",
         "summary": "A questioning adventurer whose procedural reasoning and loyalty to Alioth expose the difference between understanding an institution and giving it first claim."
+      },
+      {
+        "label": "Alioth",
+        "article": "alioth"
       }
     ],
     "ghilsen": [
@@ -20127,6 +20254,10 @@
         "label": "Pristinia Scroll Library",
         "article": "pristinia-scroll-library",
         "summary": "A modest collection becomes a shared place for spells, research and the records through which Pristinia remembers itself."
+      },
+      {
+        "label": "Alioth",
+        "article": "alioth"
       }
     ],
     "jiangshi": [
@@ -20478,6 +20609,28 @@
         "label": "Ithilrûnë Ailinor",
         "article": "ithilrune",
         "summary": "A researcher whose commitment to memory and independent judgment meets its hardest test when understanding itself fails."
+      }
+    ],
+    "alioth": [
+      {
+        "label": "Casimir",
+        "article": "casimir"
+      },
+      {
+        "label": "Casimir & Alioth",
+        "article": "casimir-alioth"
+      },
+      {
+        "label": "Lucido Spettoro",
+        "article": "lucido"
+      },
+      {
+        "label": "Eugene",
+        "article": "eugene"
+      },
+      {
+        "label": "Pristinia",
+        "article": "pristinia"
       }
     ]
   },
@@ -39973,6 +40126,7 @@
     "crustacean-cove",
     "gael-refugee-settlement",
     "veiled-watch",
-    "rifts"
+    "rifts",
+    "alioth"
   ]
 }

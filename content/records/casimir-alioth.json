@@ -20,9 +20,19 @@
   "sources": [
     "CHARACTER_BIBLE.md — Casimir and Alioth",
     "RELATIONSHIPS.md — competing meanings of the Rahu trial",
-    "MASTER_TIMELINE.md — Olo’s oath and Casimir’s method"
+    "MASTER_TIMELINE.md — Olo’s oath and Casimir’s method",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1284715790536278036",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1284715931272085599",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1284716048435904593",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1284717025490505802",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1288329638447284224",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1288329911857053767",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1288336068801724488",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1288336690192187444",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1288339747995123754",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1288342423700901891"
   ],
-  "body": "<p>Casimir approaches constraints as structures to understand. Around Olo’s Rahu oath, he tests yes-or-no questions, Zone of Truth, silence, and the information a refusal itself might reveal.</p>\n      <h2 id=\"trial\">The same action, competing meanings</h2>\n      <p>In a Rahu trial, Casimir and Alioth choose each other and fail. Alioth calls their loyalty a strength. <a href=\"#ephraith\">Ephraith</a> says they chose each other over Rahu. The action is stable; its meaning changes with the authority interpreting it.</p>\n      <h2 id=\"provenance\">Why provenance matters</h2>\n      <p>The trial is an unusually clear example of the Codex’s evidence rule. An institutional verdict is historically real without becoming the only possible truth about the behavior it judged.</p>",
+  "body": "<p>Casimir approaches constraints as structures to understand. Around Olo’s Rahu oath, he tests yes-or-no questions, Zone of Truth, silence, and the information a refusal itself might reveal.</p>\n      <h2 id=\"trial\">The same action, competing meanings</h2>\n      <p>In a Rahu trial, Casimir and Alioth choose each other and fail. Alioth calls their loyalty a strength. <a href=\"#ephraith\">Ephraith</a> says they chose each other over Rahu. The action is stable; its meaning changes with the authority interpreting it.</p>\n      <h2 id=\"provenance\">Why provenance matters</h2>\n      <p>The trial is an unusually clear example of the Codex’s evidence rule. An institutional verdict is historically real without becoming the only possible truth about the behavior it judged.</p><h2 id=\"shared-after-trial\">A partnership beyond the verdict</h2>\n<p>The later expeditions show <a href=\"#casimir\">Casimir</a> and <a href=\"#alioth\">Alioth</a> acting beyond the trial’s refusal. At the concert’s aftermath, she offers care while he offers practical help rebuilding. During the dangerous passage, he brings people under cover and proposes notes; she offers to conceal their traces and writes in stone.</p><p>These are choices by two distinct people. Their cooperation preserves the relationship without making every plan a completed outcome or treating their loyalty as proof that one institution must accept it.</p>\n",
   "gallery": [
     {
       "image": "assets/characters/alioth.jpg",
@@ -65,6 +75,29 @@
           "MASTER_TIMELINE.md — Olo’s oath and Casimir’s method"
         ]
       }
+    },
+    {
+      "id": "shared-after-trial",
+      "title": "A partnership beyond the verdict",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes · actions and claims distinguished",
+        "summary": "Selected original scenes checked in context. Observed outcomes, attributed beliefs, plans and later consequences remain distinct. Dates are UTC posting dates, not an established in-world calendar.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1284715790536278036",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1284715931272085599",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1284716048435904593",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1284717025490505802",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1288329638447284224",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1288329911857053767",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1288336068801724488",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1288336690192187444",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1288339747995123754",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1288342423700901891"
+        ]
+      }
     }
   ],
   "brief": {
@@ -80,5 +113,9 @@
       }
     ],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "sourceReview": {
+    "latestReview": "2026-10-18",
+    "scope": "Selected five-person quest/RP transitions checked from original exports; no exhaustive biography or final status implied. Raw transcripts remain external."
   }
 }

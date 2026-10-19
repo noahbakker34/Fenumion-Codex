@@ -14,6 +14,8 @@ This replaces the historical browser patch modules. Their public output was migr
 
 Do not edit generated JSON or add a new runtime content-patching module. A record fetch owns that article body; search reads a separate deferred section index. Hashed output names prevent a cached catalog from accidentally pairing with another article version. Old versions are removed from the built output, so a reader with an obsolete catalog can retry after a refresh.
 
+Protected scene descriptors, keys, playlists and posters belong only to the private authenticated payload. Public protected records must not acquire scene metadata. Long recordings can use opaque encrypted HLS objects, with on-demand playback and cleanup on locking/navigation. See `docs/PROTECTED_VIDEO.md`; the public test fixture is generated media and contains no campaign material.
+
 ## Known reference gaps
 
 The 32 inherited missing article-reference lists have been recovered. `reference/source-recovery.json` records the source type and exact scope of each recovery; `reference/known-gaps.json` is now empty. A recovered reference list is not certification of every claim in an article. Maps, rules references and navigation retain their own evidence kinds. The validator fails new missing references, unknown destinations, duplicate identities, incompatible summary status, missing evidence explanations and protected public bodies.
@@ -22,8 +24,12 @@ The atlas deliberately omits partial/uncertain dates from exact-date queries. â€
 
 ## Focused evidence and research records
 
-`reference/scene-review.json` records 57 selected scene conclusions across 21 people, each with message receipts and an explicit limit. Public scene narratives live in their canonical biographies. `reference/claim-review.json` tracks 29 high-impact conclusions and distinguishes newly checked receipts from retained synthesis. `reference/research-queue.json` contains 23 questions with known evidence, missing evidence and the next source to check; the Unresolved Record exposes each question. Keep these review ledgers and their public passages consistent. They are selected audits, not copies of raw sources or claims of archive exhaustion.
+`reference/scene-review.json` records 87 selected scene conclusions across 28 people, each with message receipts and an explicit limit. Public scene narratives live in their canonical biographies. `reference/claim-review.json` tracks 34 high-impact conclusions and distinguishes newly checked receipts from retained synthesis. `reference/research-queue.json` contains 25 questions with known evidence, missing evidence and the next source to check; the Unresolved Record exposes each question. Keep these review ledgers and their public passages consistent. They are selected audits, not copies of raw sources or claims of archive exhaustion.
 
 Four campaign histories connect Pristinia, Gael, Zarathis and Voraketh to those people, receipts and remaining questions. Source dates in the new sequences are UTC posting dates; earlier narratives may retain their explicitly identified local posting dates. Do not mistake the display difference for two events.
 
 The 18 October recovery and Nienna follow-up now have 57 scene entries across 21 people and 29 claim reviews. Five research questions have explicit resolutions; former uncertainty is retained as history. `reference/canon-clarifications.json` records the ownerâ€™s Aria decisions and guards against importing the historical analogy as a fictional constitution. Return/death source dates and remaining limits: `docs/SEVEN_ANSWERS_SOURCE_RECONCILIATION.md`.
+
+The subsequent direct-source five-person pass brings the local content to 578 records and 1,986 sections, with 75 scene entries across 25 people and 30 claim reviews. Existing Alioth directory identity now opens her individual record; the shared Casimir/Alioth history remains available. Source scope and remaining limits: `docs/FIVE_PERSON_RAW_SOURCE_REVIEW.md`.
+
+The October Babel continuation brings the local content to 578 records and 2,003 sections, with 87 scenes across 28 people, 34 claims and 25 questions. The two 484-message packets duplicate one another and count as one source. Mist tests, distinct rescue contributions, continued Abyss activity and an attributed later Aria claim preserve discovery order and uncertainty. Scope and receipts: `docs/BABEL_OCTOBER_QUEST_REVIEW.md`.

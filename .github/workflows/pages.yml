@@ -24,12 +24,15 @@ jobs:
         uses: actions/checkout@v6
       - name: Validate canonical public records
         run: python3 scripts/check_content.py
+      - name: Validate encrypted media objects
+        run: python3 scripts/check_protected_assets.py
       - name: Build reproducible public bundles
         run: python3 scripts/build_codex.py
       - name: Check runtime syntax and whitespace
         run: |
           node --check site/app.js
           node --check site/codex-reader.js
+          node --check site/protected-media.js
           git diff --check
   reader:
     needs: validate
@@ -64,6 +67,7 @@ jobs:
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_reader.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_research_journeys.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_rifts.cjs
+          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_protected_media.cjs
   deploy:
     if: github.event_name != 'pull_request'
     needs: [validate, reader]
@@ -81,7 +85,7 @@ jobs:
       - name: Prepare Pages package
         run: |
           mkdir -p "$RUNNER_TEMP/fenumion-pages"
-          rsync -a --exclude "/assets/music/" site/ "$RUNNER_TEMP/fenumion-pages/"
+          rsync -a --exclude "/assets/music/" --exclude "/assets/protected-media/" site/ "$RUNNER_TEMP/fenumion-pages/"
           python3 -c "from pathlib import Path; p=Path('$RUNNER_TEMP/fenumion-pages'); size=sum(f.stat().st_size for f in p.rglob('*') if f.is_file()); print(f'Pages package: {size:,} bytes'); assert size < 1_000_000_000, 'Pages package exceeds 1 GB'"
       - name: Upload the static Codex
         uses: actions/upload-pages-artifact@v4

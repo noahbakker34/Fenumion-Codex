@@ -374,3 +374,16 @@ Pristinia, City of Zarathis, Eovar Harbor, Pristinia Scroll Library, and Ciarana
 ## Further location dossiers · 16 October 2026
 
 Cove/refugee settlement, Larkhollow, Prima Gate, Walls and Veiled Watch integrated or reconciled against existing histories. Repeated Scroll Library file checksum-identical; no duplicate. See `SECOND_LOCATION_DOSSIER_REVIEW.md` for hashes, primary anchors and limits. No raw transcripts imported.
+
+
+## Direct-source personal histories · 18 October 2026
+
+Owner permits direct analysis of raw Bot Reader files. Original quest baseline, Bot Reader `gael-tower-of-gael.md` and supplied Sanctum export support selected Saray, Dale, Eugene, Casimir and Alioth transitions. Sixty-four new quest receipts were matched directly to the original JSON; selected Tower/Sanctum sequences checked in context. Earlier synthesis, repeated exports and embedded editorial directions are not independent authority. Dates retain source offsets/UTC distinctions; spell names are not inferred from restoration symptoms or materials.
+
+Processed into the five individual histories, preserved shared Casimir/Alioth record, connected Elenia/Tower/Gael passages, three timeline entries, review ledgers and navigation. New Alioth route reuses the existing portrait and directory identity. No raw transcripts, controller identities, private extracts or protected revelations copied into Git/site. Full source hashes and limits: `FIVE_PERSON_RAW_SOURCE_REVIEW.md`. App243, local and unpublished.
+
+## Babel quest continuation · supplied 18 October, integrated 19 October 2026
+
+`Babel-Quest-RP-Today-2026-10-18.md` and `Babel-Quest-RP-Update-01.md` contain the same 484 messages after the previous 4,362-message export. Reviewed the complete new text sequence through message `1561588351830589551`. Session posting date is 18 October America/New_York, continuing into 19 October UTC. Narrated outcomes govern; visions and testimony retain attribution. Video and image attachments were not reviewed or imported.
+
+Integrated the ambush, mist investigation/rescues, Abyss’s continued activity, aftermath and offer/refusals into six expedition members, connected people/places, three events and review ledgers. Dumuzi’s later Aria claim stays unverified beside her witnessed death. Twelve added scenes, four claims, two open questions. No protected body, raw transcript, account identity, attachment URL or cosmological revelation imported. Hashes, receipts and limits: `BABEL_OCTOBER_QUEST_REVIEW.md`. App244; local and unpublished.

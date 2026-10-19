@@ -30,4 +30,8 @@ Search the public source for protected narrative text, not merely protected IDs 
 
 ## Restored publisher · 12 October 2026
 
-The private repository’s automatic/manual publishers now target the established live namespace and share a concurrency group. The preferred Actions secret is `CLOUDFLARE_EXISTING_VAULT_TOKEN`, with the legacy name as fallback. User renewed the credential; run `38266179334` succeeded with full JSON read-back equality. Unauthenticated access returned 401. Private scene media stays embedded in the authenticated payload rather than public site assets. No credential values are retained in this repository.
+The private repository’s automatic/manual publishers now target the established live namespace and share a concurrency group. The preferred Actions secret is `CLOUDFLARE_EXISTING_VAULT_TOKEN`, with the legacy name as fallback. User renewed the credential; run `38266179334` succeeded with full JSON read-back equality. Unauthenticated access returned 401. Short private scene media stays embedded in the authenticated payload. No credential values are retained in this repository.
+
+## Long protected recordings · 19 October 2026
+
+Long recordings may use encrypted HLS objects, while the key, private playlist, poster and scene metadata remain solely in the authenticated payload. Public objects contain ciphertext, never readable private media. Playback is explicit and buffers a limited stretch. Objects are fetched from the repository’s raw asset host and excluded from the Pages package; the key is never sent to that host. No Worker route, role or credential changes. See `PROTECTED_VIDEO.md` for verification and the required public-before-private release order. These changes are local until separately published.

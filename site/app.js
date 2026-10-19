@@ -813,6 +813,7 @@ function renderArticle(route, pushHash = true) {
   const previousScroll=window.scrollY;
   const renderEpoch = ++articleRenderEpoch;
   window.cleanupFenumionArt?.();
+  window.CodexProtectedMedia?.cleanup();
   // Preserve existing bookmarks after Vaerik’s world correction.
   if (String(route).split("?")[0] === "vaerik") { location.replace("/gedankin/#vaerik"); return; }
   stopQuoteVoice();
@@ -893,7 +894,7 @@ function renderArticle(route, pushHash = true) {
   const hero = article.video
     ? `${mapHero}${videoHero}`
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}">${heroCaption(article.imageCaption, "Image preserved in the Fenumion archive.")}</figure>` : "");
-  const scenes = article.scenes?.length ? `<section class="character-scenes" aria-labelledby="character-scenes-title"><h2 id="character-scenes-title">Scenes from the story</h2><div class="image-gallery">${article.scenes.map(scene => `<figure class="gallery-wide"><video data-story-scene controls playsinline preload="none" poster="${escapeHtml(scene.poster)}" aria-label="${escapeHtml(scene.title)}"><source src="${escapeHtml(scene.video)}" type="video/mp4"></video><figcaption><strong>${escapeHtml(scene.title)}</strong><span>${escapeHtml(scene.caption)}</span></figcaption></figure>`).join('')}</div></section>` : '';
+  const scenes = article.scenes?.length ? `<section class="character-scenes" aria-labelledby="character-scenes-title"><h2 id="character-scenes-title">Scenes from the story</h2><div class="image-gallery">${article.scenes.map((scene, index) => `<figure class="gallery-wide"${scene.protectedHls ? ` data-protected-scene="${index}"` : ''}><video data-story-scene controls playsinline disableremoteplayback preload="none" poster="${escapeHtml(scene.poster || '')}" aria-label="${escapeHtml(scene.title)}">${scene.protectedHls ? '' : `<source src="${escapeHtml(scene.video || '')}" type="video/mp4">`}</video>${scene.protectedHls ? '<div class="protected-scene-controls"><button type="button" data-load-protected-scene>Play video</button><span data-protected-scene-status role="status" aria-live="polite"></span></div>' : ''}<figcaption><strong>${escapeHtml(scene.title)}</strong><span>${escapeHtml(scene.caption)}</span></figcaption></figure>`).join('')}</div></section>` : '';
   const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
 
   const subchannels = renderSubchannels(article.id);
@@ -989,6 +990,7 @@ function renderArticle(route, pushHash = true) {
   if (article.id === "living-timeline") setupTimelineExplorer(requestedPersonId);
   setupRelationshipMap(article);
   setupReadingPath();
+  window.CodexProtectedMedia?.setup(articleContent, article, () => vaultUnlocked && isRestrictedArticle(article.id));
   articleContent.querySelectorAll('video[data-story-scene]').forEach(video => {
     video.addEventListener('play', () => document.querySelectorAll('video[data-ambient-video]').forEach(ambient => ambient.pause()));
     video.addEventListener('pause', () => { if (video.isConnected) setupAmbientVideos(document); });

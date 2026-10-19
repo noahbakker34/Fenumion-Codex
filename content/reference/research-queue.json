@@ -319,11 +319,35 @@
     "region": "Across regions",
     "kind": "People",
     "question": "Which personal transitions still need fuller recovery?",
-    "known": "Selected scene sequences now add chronology without claiming a complete reconstruction.",
-    "missing": "The longitudinal links in Dale, Saray, Casimir and Alioth’s histories, including choices between their best-known scenes.",
-    "nextSource": "Each person’s early, intermediate and later quest scenes, retaining relationship changes and failed plans.",
+    "known": "Dale’s July and immediate November returns, Saray’s continued action and later plans, Eugene’s practical learning and repaired friendship, and Casimir/Alioth’s post-trial cooperation now have primary scene anchors.",
+    "missing": "Complete early lives, remaining transitions and later outcomes are still incomplete; the exact names of Dale’s two restoration spells are not established in the checked scenes.",
+    "nextSource": "Continue each person’s relevant quest sequences, using compatible RP for relationships and ordinary life. Retain failed plans and do not infer a final fate from absence.",
     "article": "people-directory",
-    "status": "open"
+    "status": "open",
+    "reviewedOn": "2026-10-18",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1259737618862702666",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1260322840113184910",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1260323771269644329",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1260324825172414565",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1260327996514897941",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307552588400693258",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307556082654384208",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307593983827902464",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307594582438969387",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307594826501591152",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307597473635631106",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307597947998830602",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1380009539331559524",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1380010209401110560",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1380010369455751358",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1380010658652881018",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1380010921480556646",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1280329254449713155",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1280329509387632715",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1280329707153264640",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1280329882039095379"
+    ]
   },
   {
     "id": "eovar-history",
@@ -335,5 +359,45 @@
     "nextSource": "Contemporary harbor, infirmary, sewers and construction scenes, before treating later praise as a complete history.",
     "article": "eovar-harbor",
     "status": "open"
+  },
+  {
+    "id": "babel-mist-limits",
+    "region": "Babel-Ashur",
+    "kind": "Environmental threat",
+    "question": "What would make passage through the western mist reliably safe?",
+    "known": "October entry produces personal lures, mistaken identities and paralysis. Scribonia’s ward and nonbreathing Ryvyt resist the visions in this session; breath holding delays exposure. Ryvyt frees Nymera with Dispel Magic before a wider Wish clearing.",
+    "missing": "Reliable exposure limits, the exact protective ward, repeatable treatment, the clearing’s duration, safe routes and the mist’s origin remain unestablished.",
+    "nextSource": "Continue the Babel quest after the present cutoff; compare repeated controlled tests with narrator outcomes. Do not infer Spire causation or a sealed rift.",
+    "article": "luminar-spires",
+    "status": "open",
+    "reviewedOn": "2026-10-19",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561556743761301586",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561561851530321991",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561562083479388253",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561563955808182273",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561569015812464803",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561569647885688934",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561572268843343873",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561572671660232718",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561586610116624395"
+    ]
+  },
+  {
+    "id": "aria-later-condition",
+    "region": "Zarathis",
+    "kind": "Death and return",
+    "question": "What, if anything, confirms Dumuzi’s later claim about Aria?",
+    "known": "The November 2025 quest records Talan killing Aria. In the October 2026 Babel encounter Dumuzi says she is not dead; Olokun challenges why she has not returned to her island.",
+    "missing": "A witnessed living appearance, independently established condition, or a restoration scene and its date and means are absent from this packet.",
+    "nextSource": "Check subsequent quest scenes or an explicit owner canon decision. Retain the earlier death and the later claim as different kinds of evidence.",
+    "article": "aria-pride",
+    "status": "open",
+    "reviewedOn": "2026-10-19",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561578237929332798",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561578463201329154",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561579018237771860"
+    ]
   }
 ]

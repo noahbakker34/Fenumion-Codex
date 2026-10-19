@@ -393,5 +393,96 @@
     "article": "aria-pride",
     "references": [],
     "basis": "Explicit canon clarification, 18 October 2026"
+  },
+  {
+    "id": "dale-returns",
+    "subject": "Dale’s two returns",
+    "status": "corrected",
+    "finding": "Elenia’s July restoration has a Tower awakening scene, and she brings Dale back during the November battle itself. His return need not be inferred only from 2025 appearances.",
+    "limit": "The precise spell names are not established in the checked scenes. July and November remain separate events; neither is Gartina’s later Miracle of Fenumion.",
+    "article": "dale",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1259737618862702666",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1260322840113184910",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1260323771269644329",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1260324825172414565",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1260327996514897941",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307552588400693258",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307556082654384208",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307593983827902464",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307594582438969387",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307594826501591152",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307597473635631106",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1307597947998830602"
+    ],
+    "basis": "Original quest and Tower scenes checked; reviewed 18 October 2026"
+  },
+  {
+    "id": "babel-mist-tests",
+    "subject": "Geography",
+    "status": "reviewed",
+    "finding": "Entry into Babel’s green mist produces personal lures, altered perception and paralysis. Breath holding, nonbreathing and a mental ward have bounded successes in this session.",
+    "limit": "The depicted loved ones and deaths are not independently real events. No universal protection, exposure threshold or common origin with the Spires is established.",
+    "article": "luminar-spires",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561556743761301586",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561558290964545538",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561560108289359923",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561561851530321991",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561562083479388253",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561563955808182273",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561564761102225411",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561564993894219921",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561567772247461940"
+    ],
+    "basis": "Babel quest continuation · 18 October local / 19 October UTC, 2026; narrator rulings and character claims distinguished"
+  },
+  {
+    "id": "babel-rescue-credit",
+    "subject": "War and outcome",
+    "status": "reviewed",
+    "finding": "Ryvyt’s Dispel Magic frees Nymera before Scribonia’s Wish disperses the wider mist and releases the others.",
+    "limit": "Greater Restoration failed on Olokun here. The broader clearing is not established as permanent, and Scribonia’s later collapse does not define a universal cost of Wish.",
+    "article": "luminar-spires",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561567027615895673",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561569015812464803",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561571857046700175",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561571861828214805",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561572268843343873",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561572587375562863",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561572671660232718",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561586610116624395",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561587561233907713"
+    ],
+    "basis": "Babel quest continuation · 18 October local / 19 October UTC, 2026; narrator rulings and character claims distinguished"
+  },
+  {
+    "id": "abyss-after-mountain",
+    "subject": "War and outcome",
+    "status": "corrected",
+    "finding": "Abyss appears and withdraws during the October mist encounter, establishing continued activity after the mountain assault.",
+    "limit": "The later appearance does not reveal everything that happened within the mountain, account for every civilian or establish the mist’s origin.",
+    "article": "babel-ashur",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561568627868835851",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561569151670026271",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561572268843343873"
+    ],
+    "basis": "Babel quest continuation · 18 October local / 19 October UTC, 2026; narrator rulings and character claims distinguished"
+  },
+  {
+    "id": "aria-october-return-claim",
+    "subject": "Death and return",
+    "status": "attributed",
+    "finding": "Dumuzi says Aria is not dead and is better than before; Olokun asks why she has not returned to her island.",
+    "limit": "No living Aria or restoration scene appears here. Her witnessed November 2025 death remains recorded; her later condition and any return mechanism are unverified.",
+    "article": "aria-pride",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561578237929332798",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561578463201329154",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1561579018237771860"
+    ],
+    "basis": "Babel quest continuation · 18 October local / 19 October UTC, 2026; narrator rulings and character claims distinguished"
   }
 ]

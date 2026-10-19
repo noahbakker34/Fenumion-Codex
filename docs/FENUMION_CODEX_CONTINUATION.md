@@ -1,6 +1,6 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-17
+Last updated: 2026-10-19
 
 This is the first file to read before continuing work on the Fenumion Living Codex. It records the project's durable decisions, current implementation state, canon rules, supplied media, and remaining priorities so the full development conversation does not need to be replayed.
 
@@ -926,3 +926,9 @@ Added encrypted HLS playback for long private recordings without putting readabl
 Playback begins only on explicit request, with native controls, bounded buffering, seeking, soundtrack pause and route/lock cleanup. The hls.js dependency is pinned and verified from the official registry; its license/provenance are retained. A generated blue-frame/audio fixture and random test key support release checks without exposing campaign material. Private source details, quality measurements and scene updates remain in the private workspace. App/catalog245, styles170, protected-media1. Local and unpublished; release public assets/runtime before the private payload.
 
 Verification passes: canonical/build/syntax/whitespace checks, opaque asset hash/block checks, absence of real keys/playlists/private captions from public text, all unchanged protected stubs and an under-limit Pages package. Private-film playback checks pass for locked/no-auto-load boundaries, audio, seeking, bounded buffering, desktop/mobile layout, cleanup and failure/retry. The generated public fixture passes in the pinned release Chromium, including soundtrack pause and keyboard focus. Prior reader, research, identity, Babel and Rifts regressions pass. Private payload validation also passes; no publication or auth change occurred. Native Safari/iOS fallback remains untested.
+
+## Publication verified · 19 October 2026
+
+Owner requested publication. Public release `ecaa6e67797de47ec659030b8f83219198315ff2` deployed successfully in [Pages run 39299263975](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/39299263975), including canonical/build checks, opaque asset validation and all four browser suites. The live site now contains 578 records and 2,003 sections, with 87 selected scenes across 28 people, 34 claim reviews and 25 research questions. This publishes the five-person source review, Babel October continuation and on-demand protected media runtime together. App/catalog245, styles170, reader2 and protected-media1.
+
+Seventeen deployed files match the tested build byte-for-byte: runtime/style/vendor files, the catalog and nine representative lazy records. All 47 encrypted objects are available from the production raw asset host with expected sizes and CORS. Live playback checks using a simulated authorized response pass for the locked boundary, explicit loading, audio, seeking, bounded buffering, prior-scene preservation, desktop/mobile layout, cleanup and retry. Anonymous requests with the normal browser agent return 401/signin without protected data; Python's default agent initially received 403. This does not claim a real account-login test or independent Safari/iOS verification. No authentication Worker, permissions or credentials changed. Private payload publication and its receipt remain in the private repository. Documentation-only receipts use CI skip; the verified deployable release remains `ecaa6e6`.

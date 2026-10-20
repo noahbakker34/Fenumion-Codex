@@ -6,11 +6,23 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.route('https://auth.fenumion.com/**',r=>r.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
  const go=async route=>{await page.goto(base+'#'+route);await page.waitForFunction(id=>byId.get(id)?.bodyLoaded&&document.querySelector('#article-content').dataset.route===location.hash,route.split('?')[0]);await page.locator('.article-header h1').waitFor();};
- for(const id of ['nienna','adelia-hope','elenia','gartina','quake','saray','akarian','ryvyt','fenwick','tobias','melian-starguard','scribonia','wren','lady-severina','sildithas','coralyn','rolen','bowene','magnus','thorn','st-anky','dale','eugene','casimir','alioth','arjahn','olokun','nymera']){
+ for(const id of ['aerrow','aravil','nienna','adelia-hope','elenia','gartina','quake','saray','akarian','ryvyt','fenwick','tobias','melian-starguard','scribonia','wren','lady-severina','sildithas','coralyn','rolen','bowene','magnus','thorn','st-anky','dale','eugene','casimir','alioth','arjahn','olokun','nymera']){
   await go(id+'?section='+id+'-scene-sequence');assert(await page.locator('.scene-sequence>li').count()>=2,id+' scene sequence');
   assert(await page.locator('#'+id+'-scene-sequence').evaluate(el=>el.closest('details').open));
   assert(await page.locator('.scene-receipts a').count()>1,id+' source links');
  }
+ await go('people-directory');
+ await page.locator('#people-gallery-query').fill('Aerrow');
+ await page.locator('[data-people-kind="player"]').click();
+ assert.equal(await page.locator('#people-gallery .player-record[data-article="aerrow"]').count(),1);
+ await page.locator('[data-people-kind="npc"]').click();
+ assert.equal(await page.locator('#people-gallery [data-article="aerrow"]').count(),0,'owner classifies Aerrow as a player');
+ assert(await page.evaluate(()=>archiveIndex.characters.filter(p=>p.article==='aerrow').length===1&&!archiveIndex.npcs.some(p=>p.article==='aerrow')));
+ await go('mark-of-the-wild?section=wild-february-loss');
+ assert(await page.locator('#wild-february-loss').evaluate(el=>el.closest('details').open));
+ await page.locator('a[href="#aerrow?section=aerrow-february-loss"]').click();
+ await page.waitForFunction(()=>byId.get('aerrow')?.bodyLoaded&&document.querySelector('#aerrow-february-loss')?.closest('details')?.open);
+ assert(await page.locator('#aerrow-february-loss').evaluate(el=>el.nextElementSibling?.textContent.includes('Revivify')||el.closest('details').textContent.includes('Revivify')));
  for(const id of ['pristinia-campaign','gael-campaign','zarathis-campaign','voraketh-campaign']){
   await go(id);assert.equal(await page.locator('.record-chapter').count(),4,id+' chapters');
   assert.equal(await page.locator('.section-evidence').count(),4,id+' evidence');
@@ -21,7 +33,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await go('babel-survival?section=babel-path-defense');
  await page.locator('a.history-link[href="#nymera?section=nymera-refuge-defense"]').click();
  await page.waitForFunction(()=>byId.get('nymera')?.bodyLoaded&&document.querySelector('#nymera-refuge-defense')?.closest('details')?.open);
- await go('claim-review');assert.equal(await page.locator('.claim-card').count(),36);
+ await go('claim-review');assert.equal(await page.locator('.claim-card').count(),38);
  await go('open-questions');assert.equal(await page.locator('.research-card').count(),26);
  await page.locator('[data-research-region]').selectOption('Babel-Ashur');assert.equal(await page.locator('.research-card:visible').count(),2);
  await page.locator('[data-research-query]').fill('Nymera');assert.equal(await page.locator('.research-card:visible').count(),2);
@@ -52,5 +64,5 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  }
  await page.locator('.record-chapter').first().locator('summary').first().press('Enter');
  const cold=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});cold.on('pageerror',e=>errors.push(e.message));let releaseSearch;const heldSearch=new Promise(resolve=>releaseSearch=resolve);await cold.route('**/data/search.*.json',async route=>{await heldSearch;await route.continue()});await cold.goto(base+'#fenwick');await cold.waitForFunction(()=>byId.get('fenwick')?.bodyLoaded);await cold.locator('#search-toggle').click();await cold.locator('#search').fill('Saray');await cold.locator('.search-result').first().waitFor();assert.equal(await cold.locator('.search-index-status').count(),1,'catalog results appear before full text');releaseSearch();await cold.waitForFunction(()=>CodexReader.searchReady);await cold.locator('#search').fill('rowboat');await cold.locator('.search-result[data-article=gael][data-search-section=gael-fenwick-coast]').waitFor();await cold.close();
- assert.deepEqual(errors,[]);console.log('PASS 28 scene sequences, 4 campaign narratives, 36 claim entries, 26 research questions/filters, source links, keyboard result selection, mobile focus and layout');await browser.close();
+ assert.deepEqual(errors,[]);console.log('PASS 30 scene sequences, 4 campaign narratives, 38 claim entries, 26 research questions/filters, source links, keyboard result selection, mobile focus and layout');await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

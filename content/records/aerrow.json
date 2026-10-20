@@ -2,8 +2,8 @@
   "id": "aerrow",
   "title": "Aerrow",
   "category": "People",
-  "type": "Expedition witness",
-  "dek": "A frightened scout whose report presses Babel’s adventurers to return their attention to the island’s people.",
+  "type": "Shadar-kai sorcerer and scout",
+  "dek": "A scout who seeks freedom through strength, learns the cost of overreaching in Babel’s wilds and helps turn dangerous journeys into supplies for the Refuge.",
   "tags": [
     "Aerrow",
     "Babel-Ashur",
@@ -11,15 +11,57 @@
     "Survivors"
   ],
   "facts": {
-    "Region": "Unestablished",
     "Recorded at": "Skylight Refuge",
-    "Account": "Surviving testimony; exact in-world date unresolved"
+    "Account": "Surviving testimony; exact in-world date unresolved",
+    "Recorded in": "Prima; Babel-Ashur",
+    "Role": "Sorcerer and scout",
+    "February hunt": "Two deaths; Arjahn’s first Revivify is followed by a second death and later restoration by Elenia"
   },
   "sources": [
     "Babel quest record · refuge warning, June 2026",
-    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457808195644031151",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457809316471111822",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457822701979697277",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457825690387873993",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457849183456460995",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457849534997594195",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457900061458694165",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457906165395492904",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457925233586602087",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457936962722730215",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457938448202858710",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457940085822459904",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941189885034769",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457960060201340961",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457971456939003959",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457972219643691052",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1461220197238177853",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1461220445406887966",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1461236819440959488",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1461238013500723210",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1461238962852204698",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424029050994823",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424791529324596",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469437830588530689",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469438714148032698",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469443580325138586",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469445845807009996",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469446753370636525",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469447698129223930",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469448849558077734",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469449476887543890",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1471681659081461914",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1471682786879471737",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1471683077011931236",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1471684017609773117",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1471683862923841759",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1518716072780501004",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457943362756673745",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941358038745231",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941702546292909"
   ],
-  "body": "<p>Aerrow is present at Skylight Refuge when the adventurers regroup. Worn down and startled by the sounds of enormous beasts, he reports finding slain natives while searching for food. He describes monsters drawing nearer to the caves and fears that the shadow from the tunnels is searching for the refuge.</p><p>His warning helps turn the group’s attention toward making contact with the people of Babel. He later suggests the hunters may be searching for a seed, while acknowledging that this could be his imagination. These are Aerrow’s reports and fears, not proof that he witnessed every enemy movement or knows the hunters’ full plans.</p><h2 id=\"prima-rp-aerrow-range\">Recognizing another warrior</h2><p>Aerrow and Aravil meet while practicing at the range. He calls her an ally and speaks of feeling slow after his arrival; she says she is finally finding her stride. They recognize a shared longing for the front. The exchange records their affinity without making either character’s judgments universal.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365769309917286542\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365769630508908585\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365772052497432709\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365775346749935628\" target=\"_blank\" rel=\"noopener\">4</a>.</p>",
+  "body": "<p>Aerrow is a Shadar-kai sorcerer and scout whose work in Babel-Ashur joins reconnaissance, gathering and dangerous hunts. He seeks physical perfection and resists the servitude he associates with his people, yet learns to rely on companions whose skills differ from his own.</p>\n<p>Aerrow is present at Skylight Refuge when the adventurers regroup. Worn down and startled by the sounds of enormous beasts, he reports finding slain natives while searching for food. He describes monsters drawing nearer to the caves and fears that the shadow from the tunnels is searching for the refuge.</p><p>His warning helps turn the group’s attention toward making contact with the people of Babel. He later suggests the hunters may be searching for a seed, while acknowledging that this could be his imagination. These are Aerrow’s reports and fears, not proof that he witnessed every enemy movement or knows the hunters’ full plans.</p><h2 id=\"prima-rp-aerrow-range\">Recognizing another warrior</h2><p>Aerrow and Aravil meet while practicing at the range. He calls her an ally and speaks of feeling slow after his arrival; she says she is finally finding her stride. They recognize a shared longing for the front. The exchange records their affinity without making either character’s judgments universal.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365769309917286542\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365769630508908585\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365772052497432709\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365775346749935628\" target=\"_blank\" rel=\"noopener\">4</a>.</p>\n<h2 id=\"aerrow-first-hunts\">January · gathering is dangerous work</h2>\n<p>Aerrow joins Aravil and Arjahn in searching beyond the Refuge for the resources a lasting camp needs. He admits how poorly he reads the unfamiliar jungle, follows Aravil’s quieter path and proposes equipment that might help future journeys. The first outing yields buried carvings and components from defeated creatures; it does not yield an explanation of the lost civilization.</p><p>The larger company then fights an aqualisk and demodragons. Aerrow is badly hurt before Eugene finishes the aqualisk. Healing restores his body faster than he can make sense of the experience. His appetite for glory coexists with caution: he urges the hunters to gather quickly, leave the carcasses and return with materials for the builders. A later hunt with Eugene and Aravil includes an escape from an unidentified threat and a hard-won serpent kill whose harvest fails.</p>\n\n<h2 id=\"aerrow-february-loss\">February · a return that does not last</h2>\n<p>With Aravil missing, Aerrow goes out with Arjahn to find supplies for a safer shelter. He tries to keep his angry companion focused on the job rather than revenge. Arjahn agrees not to pursue danger at the cost of Aerrow’s life, but an aqualisk and its accompanying demodragons overwhelm the pair.</p><p>The combat record shows Aerrow dying, Arjahn casting Revivify and Aerrow returning with a single point of life. Renewed attacks kill him again. Arjahn escapes with his body, bringing him back to the cave through repeated magical jumps. This temporary Revivify must remain distinct from the later restoration after the retreat.</p>\n\n<h2 id=\"aerrow-return-and-warning\">A companion brought home, and a warning heard</h2>\n<p>The main Babel quest later finds Arjahn beside Aerrow’s preserved body. Arjahn says he withheld his only powerful diamond and judges that choice harshly. Elenia calls for aid and the scene explicitly describes her raising the scout. The checked passage does not name her spell. Arjahn’s self-blame records his moral crisis rather than proving that he caused every danger the hunters faced.</p><p>Aerrow’s later warning at the Refuge therefore comes from someone who has already suffered the wilderness’s cost. His report of slain natives and approaching monsters deserves attention without making his suspicions about every enemy plan certain. <a href=\"#mark-of-the-wild\">Follow the hunts, their losses and the work they support →</a></p>\n\n<h2 id=\"aerrow-scene-sequence\">Scenes in sequence</h2>\n<ol class=\"scene-sequence\"><li><p class=\"scene-date\">2026-01-05–06 · quest</p><h3>Learning to use another hunter’s strengths</h3><p>Aerrow follows Aravil’s stealth, helps search for useful materials and urges the party to leave exposed battle sites.</p><dl><div><dt>Known at this stage</dt><dd>The group is unfamiliar with Babel’s ecology.</dd></div><div><dt>Consequence</dt><dd>Their different skills make a supply journey possible.</dd></div><div><dt>Still unresolved</dt><dd>Buried carvings do not identify their makers; harvested components do not complete the camp.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457822701979697277\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457825690387873993\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457849534997594195\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457943362756673745\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457971456939003959\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457972219643691052\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a></p></li><li><p class=\"scene-date\">2026-01-06 · quest</p><h3>A healed body is not an untroubled mind</h3><p>After the aqualisk nearly breaks his body, Aerrow says he feels physically well but is still struggling with the memory.</p><dl><div><dt>Known at this stage</dt><dd>Arjahn’s healing has repaired the immediate injuries.</dd></div><div><dt>Consequence</dt><dd>Survival still requires time and attention after the fight.</dd></div><div><dt>Still unresolved</dt><dd>This is his immediate experience, not a diagnosis or a completed recovery.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457936962722730215\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457941189885034769\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457941358038745231\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457941702546292909\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a></p></li><li><p class=\"scene-date\">2026-02-06 · quest</p><h3>Two deaths, one temporary Revivify</h3><p>Aerrow dies during the two-person hunt, returns through Arjahn’s Revivify and is killed again before the retreat.</p><dl><div><dt>Known at this stage</dt><dd>The escape is taking place under continued attack.</dd></div><div><dt>Consequence</dt><dd>Arjahn carries his body back; the final restoration happens in the later quest scene.</dd></div><div><dt>Still unresolved</dt><dd>Elenia’s later raising is shown without a named spell in the checked passage.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469424029050994823\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469424791529324596\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469437830588530689\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469438714148032698\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469443580325138586\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469445845807009996\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469446753370636525\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 7</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469447698129223930\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 8</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469448849558077734\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 9</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1469449476887543890\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 10</a> · <a href=\"https://discord.com/channels/1177270231513694249/1294457593296719873/1471681659081461914\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 11</a> · <a href=\"https://discord.com/channels/1177270231513694249/1294457593296719873/1471682786879471737\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 12</a> · <a href=\"https://discord.com/channels/1177270231513694249/1294457593296719873/1471683077011931236\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 13</a> · <a href=\"https://discord.com/channels/1177270231513694249/1294457593296719873/1471684017609773117\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 14</a></p></li></ol>\n",
   "image": "assets/characters/aerrow.webp",
   "imageAlt": "Aerrow with long pale hair, a dark cloak and a large sword",
   "imageCaption": "Aerrow",
@@ -48,30 +90,171 @@
           "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
         ]
       }
+    },
+    {
+      "id": "aerrow-first-hunts",
+      "title": "January · gathering is dangerous work",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Hunting scenes · outcomes and attributed accounts",
+        "scope": "section",
+        "summary": "Selected hunting scenes and checked outcomes; character explanations retain attribution. Dates locate source postings rather than an in-world calendar.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457808195644031151",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457809316471111822",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457822701979697277",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457825690387873993",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457849183456460995",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457849534997594195",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457900061458694165",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457906165395492904",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457925233586602087",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457936962722730215",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457938448202858710",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457940085822459904",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941189885034769",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457960060201340961",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457971456939003959",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457972219643691052",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1461220197238177853",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1461220445406887966",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1461236819440959488",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1461238013500723210",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1461238962852204698"
+        ]
+      }
+    },
+    {
+      "id": "aerrow-february-loss",
+      "title": "February · a return that does not last",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Hunting scenes · outcomes and attributed accounts",
+        "scope": "section",
+        "summary": "Hunting narration and selected combat cast/health/death records establish two fatalities separated by one Revivify; no permanent outcome is inferred from the temporary return.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424029050994823",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424791529324596",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469437830588530689",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469438714148032698",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469443580325138586",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469445845807009996",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469446753370636525",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469447698129223930",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469448849558077734",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469449476887543890"
+        ]
+      }
+    },
+    {
+      "id": "aerrow-return-and-warning",
+      "title": "A companion brought home, and a warning heard",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Hunting scenes · outcomes and attributed accounts",
+        "scope": "section",
+        "summary": "Selected hunting scenes and checked outcomes; character explanations retain attribution. Dates locate source postings rather than an in-world calendar.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1471681659081461914",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1471682786879471737",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1471683077011931236",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1471684017609773117",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1471683862923841759",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518716072780501004"
+        ]
+      }
+    },
+    {
+      "id": "aerrow-scene-sequence",
+      "title": "Scenes in sequence",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Hunting scenes · outcomes and attributed accounts",
+        "scope": "section",
+        "summary": "Selected scenes connect choices and consequences without certifying every part of a life.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457822701979697277",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457825690387873993",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457849534997594195",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457943362756673745",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457971456939003959",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457972219643691052",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457936962722730215",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941189885034769",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941358038745231",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941702546292909",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424029050994823",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424791529324596",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469437830588530689",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469438714148032698",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469443580325138586",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469445845807009996",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469446753370636525",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469447698129223930",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469448849558077734",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469449476887543890",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1471681659081461914",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1471682786879471737",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1471683077011931236",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1471684017609773117"
+        ]
+      }
     }
   ],
   "brief": {
-    "identity": "Expedition witness",
-    "significance": "A frightened scout whose report presses Babel’s adventurers to return their attention to the island’s people.",
+    "identity": "Shadar-kai sorcerer and scout",
+    "significance": "A scout who seeks freedom through strength, learns the cost of overreaching in Babel’s wilds and helps turn dangerous journeys into supplies for the Refuge.",
     "actions": [
       {
-        "title": "Aravil sets out the Refuge’s survival needs",
-        "event": "Aravil sets out the Refuge’s survival needs",
-        "date": "5 Jan 2026"
+        "section": "aerrow-first-hunts",
+        "title": "Gathering and surviving together"
       },
       {
-        "title": "Wren’s stone form becomes a crisis inside the Refuge",
-        "event": "Wren’s stone form becomes a crisis inside the Refuge",
-        "date": "20–26 Jan 2026"
+        "section": "aerrow-february-loss",
+        "title": "The two deaths in the hunt"
       },
       {
-        "title": "Arjahn and Aerrow debate hiding and holding ground",
-        "event": "Arjahn and Aerrow debate hiding and holding ground",
-        "date": "23 Jul 2026"
+        "section": "aerrow-return-and-warning",
+        "title": "The later restoration and warning"
+      },
+      {
+        "section": "aerrow-scene-sequence",
+        "title": "Follow the checked scenes"
       }
     ],
-    "status": "Last dated entry in this selection: 23 Jul 2026. Later status is not established here.",
-    "relationships": [],
-    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
-  }
+    "status": "Restored by Elenia in the February return scene and later present at Skylight Refuge. The hunting packet does not establish his final fate.",
+    "relationships": [
+      {
+        "id": "aravil",
+        "label": "Aravil",
+        "relation": "Different field skills support the same expedition"
+      },
+      {
+        "id": "arjahn",
+        "label": "Arjahn",
+        "relation": "Protection, a failed escape and lasting regret"
+      },
+      {
+        "id": "elenia",
+        "label": "Elenia",
+        "relation": "The later restoration at the Refuge"
+      }
+    ],
+    "basis": "Explicit owner classification and selected hunting/primary Babel quest scenes. Posting dates and character claims retain their limits."
+  },
+  "sourceReview": {
+    "latestReview": "2026-10-20",
+    "scope": "Selected Mark of the Wild character/narrator prose and targeted combat outcomes, with the later primary Babel return scene. No exhaustive mechanics/attachment audit or private revelation import."
+  },
+  "relatedRecords": [
+    "aravil",
+    "arjahn",
+    "elenia",
+    "skylight-refuge",
+    "mark-of-the-wild"
+  ]
 }

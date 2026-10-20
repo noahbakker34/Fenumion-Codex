@@ -3122,5 +3122,775 @@
         "class": "compatible RP"
       }
     ]
+  },
+  {
+    "article": "aerrow",
+    "title": "Learning to use another hunter’s strengths",
+    "conclusion": "Aerrow follows Aravil’s stealth, helps search for useful materials and urges the party to leave exposed battle sites.",
+    "limit": "Buried carvings do not identify their makers; harvested components do not complete the camp.",
+    "receipts": [
+      {
+        "message": "1457822701979697277",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457822701979697277",
+        "date": "2026-01-05",
+        "class": "quest"
+      },
+      {
+        "message": "1457825690387873993",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457825690387873993",
+        "date": "2026-01-05",
+        "class": "quest"
+      },
+      {
+        "message": "1457849534997594195",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457849534997594195",
+        "date": "2026-01-05",
+        "class": "quest"
+      },
+      {
+        "message": "1457943362756673745",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457943362756673745",
+        "date": "2026-01-06",
+        "class": "quest"
+      },
+      {
+        "message": "1457971456939003959",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457971456939003959",
+        "date": "2026-01-06",
+        "class": "quest"
+      },
+      {
+        "message": "1457972219643691052",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457972219643691052",
+        "date": "2026-01-06",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "aerrow",
+    "title": "A healed body is not an untroubled mind",
+    "conclusion": "After the aqualisk nearly breaks his body, Aerrow says he feels physically well but is still struggling with the memory.",
+    "limit": "This is his immediate experience, not a diagnosis or a completed recovery.",
+    "receipts": [
+      {
+        "message": "1457936962722730215",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457936962722730215",
+        "date": "2026-01-06",
+        "class": "quest"
+      },
+      {
+        "message": "1457941189885034769",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941189885034769",
+        "date": "2026-01-06",
+        "class": "quest"
+      },
+      {
+        "message": "1457941358038745231",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941358038745231",
+        "date": "2026-01-06",
+        "class": "quest"
+      },
+      {
+        "message": "1457941702546292909",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457941702546292909",
+        "date": "2026-01-06",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "aerrow",
+    "title": "Two deaths, one temporary Revivify",
+    "conclusion": "Aerrow dies during the two-person hunt, returns through Arjahn’s Revivify and is killed again before the retreat.",
+    "limit": "Elenia’s later raising is shown without a named spell in the checked passage.",
+    "receipts": [
+      {
+        "message": "1469424029050994823",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424029050994823",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469424791529324596",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424791529324596",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469437830588530689",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469437830588530689",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469438714148032698",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469438714148032698",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469443580325138586",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469443580325138586",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469445845807009996",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469445845807009996",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469446753370636525",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469446753370636525",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469447698129223930",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469447698129223930",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469448849558077734",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469448849558077734",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469449476887543890",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469449476887543890",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1471681659081461914",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1471681659081461914",
+        "date": "2026-02-13",
+        "class": "quest"
+      },
+      {
+        "message": "1471682786879471737",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1471682786879471737",
+        "date": "2026-02-13",
+        "class": "quest"
+      },
+      {
+        "message": "1471683077011931236",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1471683077011931236",
+        "date": "2026-02-13",
+        "class": "quest"
+      },
+      {
+        "message": "1471684017609773117",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1471684017609773117",
+        "date": "2026-02-13",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "aravil",
+    "title": "A hunter turns victories into supplies",
+    "conclusion": "Aravil scouts quietly and harvests components after the first hunts, supplying work the camp cannot do inside the cave.",
+    "limit": "Neither the carvings nor the gathered materials establish a completed fortress.",
+    "receipts": [
+      {
+        "message": "1457808195644031151",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457808195644031151",
+        "date": "2026-01-05",
+        "class": "quest"
+      },
+      {
+        "message": "1457817949552509103",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457817949552509103",
+        "date": "2026-01-05",
+        "class": "quest"
+      },
+      {
+        "message": "1457822928606597298",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457822928606597298",
+        "date": "2026-01-05",
+        "class": "quest"
+      },
+      {
+        "message": "1457825690387873993",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457825690387873993",
+        "date": "2026-01-05",
+        "class": "quest"
+      },
+      {
+        "message": "1457900061458694165",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457900061458694165",
+        "date": "2026-01-06",
+        "class": "quest"
+      },
+      {
+        "message": "1457972219643691052",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457972219643691052",
+        "date": "2026-01-06",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "aravil",
+    "title": "Retreat does not erase competence",
+    "conclusion": "Aravil warns her companions away from an unidentified threat; after a later serpent fight she fails the harvest.",
+    "limit": "The earlier threat remains unidentified; confidence is not a guarantee of success.",
+    "receipts": [
+      {
+        "message": "1461220445406887966",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461220445406887966",
+        "date": "2026-01-15",
+        "class": "quest"
+      },
+      {
+        "message": "1461221227937923175",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461221227937923175",
+        "date": "2026-01-15",
+        "class": "quest"
+      },
+      {
+        "message": "1461223387790577807",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461223387790577807",
+        "date": "2026-01-15",
+        "class": "quest"
+      },
+      {
+        "message": "1461237414646386762",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461237414646386762",
+        "date": "2026-01-15",
+        "class": "quest"
+      },
+      {
+        "message": "1461238013500723210",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461238013500723210",
+        "date": "2026-01-15",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "arjahn",
+    "title": "Anger meets the responsibility for a companion",
+    "conclusion": "Arjahn agrees not to seek revenge at Aerrow’s expense, then loses him in a later encounter despite a temporary Revivify.",
+    "limit": "His regret does not establish that he controlled every outcome.",
+    "receipts": [
+      {
+        "message": "1469417866129309768",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469417866129309768",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469424029050994823",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424029050994823",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469424791529324596",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424791529324596",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469437830588530689",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469437830588530689",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469445845807009996",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469445845807009996",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469447698129223930",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469447698129223930",
+        "date": "2026-02-06",
+        "class": "quest"
+      },
+      {
+        "message": "1469449476887543890",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1469449476887543890",
+        "date": "2026-02-06",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "arjahn",
+    "title": "A supply run exposes different needs",
+    "conclusion": "Arjahn demands silence while Scribonia argues for rebuilding social bonds; Gartina tries to redirect the conversation.",
+    "limit": "The later encounter does not prove that conversation caused the dragon’s attack.",
+    "receipts": [
+      {
+        "message": "1519085359403896933",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519085359403896933",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519087630199816372",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519087630199816372",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519089151738384416",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519089151738384416",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519102781653389323",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519102781653389323",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519103464444002314",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519103464444002314",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519104951022784576",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519104951022784576",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519106296798904470",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519106296798904470",
+        "date": "2026-06-23",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "eugene",
+    "title": "Useful action outpaces his own estimate",
+    "conclusion": "Eugene finishes the aqualisk, later helps the hunters navigate and survives the serpent fight while still doubting his contribution.",
+    "limit": "Their reassurance is personal support, not a universal definition of success.",
+    "receipts": [
+      {
+        "message": "1457938448202858710",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457938448202858710",
+        "date": "2026-01-06",
+        "class": "quest"
+      },
+      {
+        "message": "1457938875128348803",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457938875128348803",
+        "date": "2026-01-06",
+        "class": "quest"
+      },
+      {
+        "message": "1461205134502658264",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461205134502658264",
+        "date": "2026-01-15",
+        "class": "quest"
+      },
+      {
+        "message": "1461210755645833446",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461210755645833446",
+        "date": "2026-01-15",
+        "class": "quest"
+      },
+      {
+        "message": "1461236819440959488",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461236819440959488",
+        "date": "2026-01-15",
+        "class": "quest"
+      },
+      {
+        "message": "1461237261382455378",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461237261382455378",
+        "date": "2026-01-15",
+        "class": "quest"
+      },
+      {
+        "message": "1461237272908271697",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1461237272908271697",
+        "date": "2026-01-15",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "gartina",
+    "title": "A dragon form protects the gathering party",
+    "conclusion": "Gartina takes brass-dragon form and engages the green dragon; Saray later gathers from the fallen creature.",
+    "limit": "The fight does not establish that every wild creature serves the island’s hostile rulers.",
+    "receipts": [
+      {
+        "message": "1519089430588293220",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519089430588293220",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519113164388569141",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519113164388569141",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519113710659043529",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519113710659043529",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519124174424113422",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519124174424113422",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519130057862283408",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519130057862283408",
+        "date": "2026-06-24",
+        "class": "quest"
+      },
+      {
+        "message": "1519130763256397865",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519130763256397865",
+        "date": "2026-06-24",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "gartina",
+    "title": "Care returns to a familiar subject",
+    "conclusion": "Gartina and Arjahn discuss useful materials, cooking and family meals while moving through the jungle.",
+    "limit": "The later conditional escape statement is not proof of a completed encounter or retreat.",
+    "receipts": [
+      {
+        "message": "1532793551275036795",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1532793551275036795",
+        "date": "2026-07-31",
+        "class": "quest"
+      },
+      {
+        "message": "1532796008172622181",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1532796008172622181",
+        "date": "2026-07-31",
+        "class": "quest"
+      },
+      {
+        "message": "1532800770796163223",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1532800770796163223",
+        "date": "2026-07-31",
+        "class": "quest"
+      },
+      {
+        "message": "1532805833346383963",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1532805833346383963",
+        "date": "2026-07-31",
+        "class": "quest"
+      },
+      {
+        "message": "1532806468431249572",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1532806468431249572",
+        "date": "2026-07-31",
+        "class": "quest"
+      },
+      {
+        "message": "1532807775518720022",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1532807775518720022",
+        "date": "2026-07-31",
+        "class": "quest"
+      },
+      {
+        "message": "1532810238422679916",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1532810238422679916",
+        "date": "2026-07-31",
+        "class": "quest"
+      },
+      {
+        "message": "1532814468730323106",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1532814468730323106",
+        "date": "2026-07-31",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "saray",
+    "title": "Courage includes the wish to run",
+    "conclusion": "Saray fears the green dragon, stays rather than abandon her companions and gathers materials after it falls.",
+    "limit": "Her judgment of her performance does not diminish her quest-established achievements.",
+    "receipts": [
+      {
+        "message": "1519118592484835438",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519118592484835438",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519120802627190884",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519120802627190884",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519122840152969277",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519122840152969277",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519130763256397865",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519130763256397865",
+        "date": "2026-06-24",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "nymera",
+    "title": "Strength is offered as protection",
+    "conclusion": "Nymera asks to join the hunt and repeatedly tries to keep spiders from reaching her companions.",
+    "limit": "Her own claims about surviving wounds are not a universal promise of invulnerability.",
+    "receipts": [
+      {
+        "message": "1548859747678289993",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1548859747678289993",
+        "date": "2026-09-14",
+        "class": "quest"
+      },
+      {
+        "message": "1548860433635737731",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1548860433635737731",
+        "date": "2026-09-14",
+        "class": "quest"
+      },
+      {
+        "message": "1548868144129380354",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1548868144129380354",
+        "date": "2026-09-14",
+        "class": "quest"
+      },
+      {
+        "message": "1548889436333408327",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1548889436333408327",
+        "date": "2026-09-14",
+        "class": "quest"
+      },
+      {
+        "message": "1548891045251645578",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1548891045251645578",
+        "date": "2026-09-14",
+        "class": "quest"
+      },
+      {
+        "message": "1548894319442665573",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1548894319442665573",
+        "date": "2026-09-14",
+        "class": "quest"
+      },
+      {
+        "message": "1548901097450639452",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1548901097450639452",
+        "date": "2026-09-14",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "nymera",
+    "title": "The work continues after the fight",
+    "conclusion": "Nymera helps defeat the spiders, accepts healing and collects useful stone before resting at the coast.",
+    "limit": "The coastal pause is not a permanent removal of Babel’s dangers.",
+    "receipts": [
+      {
+        "message": "1555376313404235807",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555376313404235807",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555393816754659349",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555393816754659349",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555395538294280283",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555395538294280283",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555397110633996289",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555397110633996289",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555399197383983266",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555399197383983266",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555399981467181087",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555399981467181087",
+        "date": "2026-10-02",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "olokun",
+    "title": "Care leaves room for a pause",
+    "conclusion": "Olokun checks on his companions, heals the hunting party and takes them to the coast, where he playfully splashes Scribonia.",
+    "limit": "The pause does not establish a completed emotional recovery.",
+    "receipts": [
+      {
+        "message": "1555373203059384452",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555373203059384452",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555374155719774320",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555374155719774320",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555397110633996289",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555397110633996289",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555398636899401738",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555398636899401738",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555399856523051009",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555399856523051009",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555400433311162451",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555400433311162451",
+        "date": "2026-10-02",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "scribonia",
+    "title": "Connection can become an ill-timed demand",
+    "conclusion": "Scribonia tries to fill the gathering journey with personal conversation and argues for its value when Arjahn objects.",
+    "limit": "No narrator establishes that their disagreement caused the dragon’s attack.",
+    "receipts": [
+      {
+        "message": "1519091367572148386",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519091367572148386",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519096239608823828",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519096239608823828",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519096860659286168",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519096860659286168",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519097247382372392",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519097247382372392",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519102167498231830",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519102167498231830",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519102492431093913",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519102492431093913",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519104951022784576",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519104951022784576",
+        "date": "2026-06-23",
+        "class": "quest"
+      },
+      {
+        "message": "1519106296798904470",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1519106296798904470",
+        "date": "2026-06-23",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "scribonia",
+    "title": "A shield lowered for a friend",
+    "conclusion": "After naming his weariness, Scribonia joins the hunt and later lets Olokun’s playful splash reach him.",
+    "limit": "The scene does not establish the end of mourning.",
+    "receipts": [
+      {
+        "message": "1555369602781814909",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555369602781814909",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555372745355825304",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555372745355825304",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555373534325248121",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555373534325248121",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555374689734631507",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555374689734631507",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555398620440825893",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555398620440825893",
+        "date": "2026-10-02",
+        "class": "quest"
+      },
+      {
+        "message": "1555400433311162451",
+        "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1555400433311162451",
+        "date": "2026-10-02",
+        "class": "quest"
+      }
+    ]
   }
 ]

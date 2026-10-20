@@ -519,5 +519,35 @@
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1553219529876701307"
     ],
     "basis": "Selected primary quest narration checked on 19 October 2026; observed outcomes distinguished from intentions and later presence."
+  },
+  {
+    "id": "aerrow-player-character",
+    "subject": "Character identity",
+    "status": "corrected",
+    "finding": "Aerrow is a player character; his inherited NPC-directory placement is corrected.",
+    "limit": "This explicit owner ruling does not establish hidden origins or make character testimony objective.",
+    "article": "aerrow",
+    "references": [],
+    "basis": "Explicit owner classification, 20 October 2026."
+  },
+  {
+    "id": "aerrow-distinct-hunt-returns",
+    "subject": "Death and return",
+    "status": "reviewed",
+    "finding": "The February hunt records two Aerrow deaths separated by Arjahn’s Revivify; Elenia’s later raising belongs to the returning quest scene.",
+    "limit": "The later restoration spell is unnamed in the checked passage. Out-of-character tactical discussion does not become a universal rule for resurrection.",
+    "article": "aerrow",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1455580231250350266/1469443580325138586",
+      "https://discord.com/channels/1177270231513694249/1455580231250350266/1469445845807009996",
+      "https://discord.com/channels/1177270231513694249/1455580231250350266/1469446753370636525",
+      "https://discord.com/channels/1177270231513694249/1455580231250350266/1469447698129223930",
+      "https://discord.com/channels/1177270231513694249/1455580231250350266/1469448849558077734",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1471681659081461914",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1471682786879471737",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1471683077011931236",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1471684017609773117"
+    ],
+    "basis": "Selected hunting cast, health and death records checked against the later primary quest outcome, 20 October 2026."
   }
 ]

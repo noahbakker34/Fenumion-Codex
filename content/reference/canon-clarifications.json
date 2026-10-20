@@ -20,5 +20,15 @@
       "bowene",
       "zarathis-campaign"
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "subject": "Aerrow’s directory identity",
+    "decision": "Aerrow is a player character. Move the inherited NPC entry into the player-character directory while preserving his identity and media.",
+    "limits": "The ruling establishes player classification, not birthplace, hidden origin or every claim in the hunting archive.",
+    "articles": [
+      "aerrow",
+      "people-directory"
+    ]
   }
 ]

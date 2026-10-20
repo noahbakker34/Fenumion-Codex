@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-19
+Last updated: 2026-10-20
+
+## Mark of the Wild hunting history · 20 October 2026
+
+The owner supplies two parts of Babel’s hunting channel and explicitly identifies Aerrow as a player character. Added Mark of the Wild · Hunting in Babel, linked through the island, Refuge, connected survival path and navigation. Expanded Aerrow and eight companions; moved his existing NPC entry and media into the player-character directory. His two February hunt deaths, Arjahn’s intervening Revivify and Elenia’s separate later raising remain distinct. Elenia’s spell is not named. Other quest achievements and protected lore are preserved.
+
+Current content: 580 records, 2,050 sections; 116 selected scenes across 30 people; 38 claims; 26 questions, five resolved; six consequence chains. All 132 new source locators/dates match the originals. The 2,876-message channel is indexed separately from the explicit 807-message prose review and targeted combat checks. The private coverage ledger spans 21 corpora, 307,128 unique messages and 9,223 overlaps; this does not certify exhaustive reading. Maps, all 42 protected records, existing media and vault.json are unchanged. App/catalog248. Scope and verification: MARK_OF_THE_WILD_REVIEW.md. Publication receipt follows completed browser checks.
+
+Local reader, research-journey and Rifts checks pass, including all thirty scene profiles, thirty-eight claim cards, exact hunting/dossier links, and the player/NPC filters after Aerrow’s correction. Desktop/mobile article and player-card screenshots were inspected. Existing directory entries and timeline events are preserved apart from the explicit classification and five additions. Static/source/privacy comparisons pass; Pages package is 800,746,837 bytes. Deployment verification follows.
 
 ## Public Death film · 19 October 2026
 

@@ -5654,6 +5654,94 @@
           "Revivify",
           "Wish"
         ]
+      },
+      {
+        "title": "Babel’s first hunts turn field skills into supplies",
+        "meta": "2026-01-05 · UTC source postings",
+        "sort": "2026-01-05",
+        "era": "2026 · Consequences",
+        "kind": "Hunting and gathering",
+        "article": "mark-of-the-wild",
+        "location": "Babel-Ashur; Skylight Refuge",
+        "people": "Aerrow; Aravil; Arjahn; Eugene; Olokun",
+        "summary": "The hunters find buried carvings and gather components, then face an aqualisk and giant spiders while their reserves decline. The recorded outings continue into 6 January UTC.",
+        "tags": [
+          "Babel-Ashur",
+          "Mark of the Wild",
+          "Aerrow",
+          "Aravil",
+          "Supplies"
+        ]
+      },
+      {
+        "title": "Aerrow’s temporary Revivify precedes a second death",
+        "meta": "2026-02-06 · UTC source postings",
+        "sort": "2026-02-06",
+        "era": "2026 · Consequences",
+        "kind": "Death and retreat",
+        "article": "mark-of-the-wild",
+        "location": "Babel-Ashur; Skylight Refuge",
+        "people": "Aerrow; Arjahn",
+        "summary": "An aqualisk and demodragons overwhelm the two hunters. Arjahn revives Aerrow once, loses him again and escapes with the body.",
+        "tags": [
+          "Babel-Ashur",
+          "Mark of the Wild",
+          "Aerrow",
+          "Revivify"
+        ]
+      },
+      {
+        "title": "Elenia restores Aerrow at Skylight Refuge",
+        "meta": "2026-02-13 · UTC source postings",
+        "sort": "2026-02-13",
+        "era": "2026 · Consequences",
+        "kind": "Restoration",
+        "article": "mark-of-the-wild",
+        "location": "Babel-Ashur; Skylight Refuge",
+        "people": "Aerrow; Elenia; Arjahn; Olokun; Dale",
+        "summary": "The returning company finds Arjahn with Aerrow’s preserved body. Elenia raises the scout; the checked passage does not name her spell.",
+        "tags": [
+          "Babel-Ashur",
+          "Mark of the Wild",
+          "Aerrow",
+          "Elenia"
+        ]
+      },
+      {
+        "title": "A gathering party faces the green dragon",
+        "meta": "2026-06-23 · UTC source postings",
+        "sort": "2026-06-23",
+        "era": "2026 · Consequences",
+        "kind": "Defense and provisioning",
+        "article": "mark-of-the-wild",
+        "location": "Babel-Ashur; Skylight Refuge",
+        "people": "Gartina; Arjahn; Saray; Scribonia",
+        "summary": "Gartina takes brass-dragon form; Saray stays despite fear and gathers after the dragon falls. The source scene continues into 24 June UTC.",
+        "tags": [
+          "Babel-Ashur",
+          "Mark of the Wild",
+          "Gartina",
+          "Saray",
+          "Dragon"
+        ]
+      },
+      {
+        "title": "A Babel hunt ends with healing and a coastal pause",
+        "meta": "2026-10-02 · UTC source postings",
+        "sort": "2026-10-02",
+        "era": "2026 · Consequences",
+        "kind": "Hunting and care",
+        "article": "mark-of-the-wild",
+        "location": "Babel-Ashur; Skylight Refuge",
+        "people": "Olokun; Scribonia; Nymera",
+        "summary": "The trio defeats giant spiders, heals and visits the arrival coast. Nymera gathers stone and Scribonia accepts a small moment of companionship.",
+        "tags": [
+          "Babel-Ashur",
+          "Mark of the Wild",
+          "Nymera",
+          "Olokun",
+          "Scribonia"
+        ]
       }
     ],
     "characters": [
@@ -6582,6 +6670,23 @@
           "Fredrick",
           "Frederick"
         ]
+      },
+      {
+        "title": "Aerrow",
+        "meta": "Shadar-kai sorcerer and scout",
+        "article": "aerrow",
+        "summary": "A scout who seeks freedom through strength, learns the cost of overreaching in Babel’s wilds and helps turn dangerous journeys into supplies for the Refuge.",
+        "image": "assets/characters/aerrow.webp",
+        "imageAlt": "Aerrow with long pale hair, a dark cloak and a large sword",
+        "imageCaption": "Aerrow",
+        "scenes": [
+          {
+            "title": "Aerrow · Moving portrait",
+            "video": "assets/character-scenes/aerrow.mp4",
+            "poster": "assets/character-scenes/aerrow.jpg",
+            "caption": "Aerrow with pale hair and glowing violet eyes, framed by flames and sparks. Supplied moving portrait."
+          }
+        ]
       }
     ],
     "npcs": [
@@ -7045,23 +7150,6 @@
         "image": "assets/characters/rhea.jpg",
         "imageAlt": "Rhea with short brown hair, carrying a bow, arrows and a pack",
         "imageCaption": "Rhea"
-      },
-      {
-        "title": "Aerrow",
-        "meta": "Expedition witness",
-        "article": "aerrow",
-        "summary": "A frightened scout whose report presses Babel’s adventurers to return their attention to the island’s people.",
-        "image": "assets/characters/aerrow.webp",
-        "imageAlt": "Aerrow with long pale hair, a dark cloak and a large sword",
-        "imageCaption": "Aerrow",
-        "scenes": [
-          {
-            "title": "Aerrow · Moving portrait",
-            "video": "assets/character-scenes/aerrow.mp4",
-            "poster": "assets/character-scenes/aerrow.jpg",
-            "caption": "Aerrow with pale hair and glowing violet eyes, framed by flames and sparks. Supplied moving portrait."
-          }
-        ]
       },
       {
         "title": "Neemah",
@@ -10069,6 +10157,10 @@
               "article": "adelia-hope"
             },
             {
+              "label": "Aerrow",
+              "article": "aerrow"
+            },
+            {
               "label": "Akarian",
               "article": "akarian"
             },
@@ -10472,10 +10564,6 @@
             {
               "label": "Rhea",
               "article": "rhea-babel"
-            },
-            {
-              "label": "Aerrow",
-              "article": "aerrow"
             }
           ]
         },
@@ -10966,6 +11054,10 @@
             {
               "label": "Skylight Refuge",
               "article": "skylight-refuge"
+            },
+            {
+              "label": "Mark of the Wild · hunting",
+              "article": "mark-of-the-wild"
             }
           ]
         }
@@ -19866,6 +19958,11 @@
         "label": "Babel · keeping a foothold",
         "article": "babel-survival",
         "summary": "Shelter, divided defenses, the mountain and mist rescues through their different witnesses."
+      },
+      {
+        "label": "Mark of the Wild · hunting",
+        "article": "mark-of-the-wild",
+        "summary": "Gathering, retreats, losses and companionship outside the Refuge."
       },
       {
         "label": "Babel-Ashur · NPCs",
@@ -40203,6 +40300,7 @@
     "veiled-watch",
     "rifts",
     "alioth",
-    "babel-survival"
+    "babel-survival",
+    "mark-of-the-wild"
   ]
 }

@@ -49,3 +49,7 @@ Canonical state: 579 records, 2,028 sections; app/catalog246 and protected-media
 Source dates are posting dates. In particular, the August Hope quest's local August 5 continues into August 6 UTC; the October Babel session remains October 18 in New York / October 19 UTC. The new chronology does not date the world's calendar.
 
 Playback and controlled mobile diagnostics are recorded in PROTECTED_VIDEO.md and PERFORMANCE.md. Browser verification and publication receipts follow completion; this document does not by itself claim a live deployment.
+
+## Publication verified
+
+Release ad0ea6b5a278bb6ef799ce339a64eb8f8611ac30 passed Pages run 39359231068. Twenty live files match the build; live research journeys and the real authenticated player (sound-enabled 1080p, seeking/resume and locking) pass. Anonymous vault access remains 401/signin. The private ledger is published separately without changing the vault payload. Native Safari and physical iPhone remain unverified. Full receipt: FENUMION_CODEX_CONTINUATION.md.

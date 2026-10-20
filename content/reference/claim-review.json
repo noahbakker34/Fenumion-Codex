@@ -484,5 +484,40 @@
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1561579018237771860"
     ],
     "basis": "Babel quest continuation · 18 October local / 19 October UTC, 2026; narrator rulings and character claims distinguished"
+  },
+  {
+    "id": "hope-august-intervention",
+    "subject": "Chronology",
+    "status": "reviewed",
+    "finding": "Hope’s August release from a consuming shadow precedes September’s Hallowing and Adelia’s later transformation.",
+    "limit": "The scene cannot distinguish the shadow’s destruction from expulsion, and does not identify the exact first planting date.",
+    "article": "adelia-hope",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270174515292541042",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270175566170951721",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270177147188936826",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270178874860245166",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270179469482790952",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270180058597953640",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270181526511816754",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270181653238513746"
+    ],
+    "basis": "Selected primary quest narration checked on 19 October 2026; observed outcomes distinguished from intentions and later presence."
+  },
+  {
+    "id": "nymera-distinct-august-returns",
+    "subject": "Death and return",
+    "status": "reviewed",
+    "finding": "The August Refuge defense records two deaths, with Arjahn’s Revivify explicitly restoring Nymera after the first.",
+    "limit": "Elenia’s later attempt over the ashes and Nymera’s subsequent living presence do not separately name or narrate completion of the second restoration.",
+    "article": "nymera",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1539479486775558156",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1539494887588765766",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1539503432627396658",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1543116718988066866",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1553219529876701307"
+    ],
+    "basis": "Selected primary quest narration checked on 19 October 2026; observed outcomes distinguished from intentions and later presence."
   }
 ]

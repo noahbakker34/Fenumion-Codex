@@ -54,11 +54,22 @@
     "region": "Gael",
     "kind": "Chronology",
     "question": "What completes the early restoration chronology?",
-    "known": "The September Hallowing and December staff/forest work now have distinct anchors.",
-    "missing": "Any still-missing transition between the first living foothold, later damage and recovery.",
-    "nextSource": "Hope scenes and quest outcomes, checked in sequence rather than merged through later retellings.",
+    "known": "The first living foothold is described on 2 August 2024. The 5–6 August quest records the consuming shadow, Adelia’s intervention and the luminous tree; September’s Hallowing and December’s staff/forest work remain distinct.",
+    "missing": "The exact first casting date and any additional intervening damage or recovery remain incomplete; the August intervention itself is now recovered.",
+    "nextSource": "Keep the August quest outcome beside the Hope description, September Hallowing and December scene; do not assign the later transformation to the first living ground.",
     "article": "gael",
-    "status": "narrowed"
+    "status": "narrowed",
+    "reviewedOn": "2026-10-19",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270174515292541042",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270175566170951721",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270177147188936826",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270178874860245166",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270179469482790952",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270180058597953640",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270181526511816754",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1270181653238513746"
+    ]
   },
   {
     "id": "hope-scale",
@@ -76,26 +87,33 @@
     "region": "Gael",
     "kind": "Restoration",
     "question": "What established the forest’s lasting state?",
-    "known": "The December seed action and Gartina’s immediate doubt are recorded; later forest activity exists.",
-    "missing": "A ruling or observed transition that explains persistence without assuming a universal item rule.",
+    "known": "The December seed action and Gartina’s immediate doubt are recorded; later forest activity exists. Akarian explicitly sees trees and life in January 2025, despite his own emotional response.",
+    "missing": "A lasting mechanism remains unestablished. The later presence is better corroborated without proving a universal item rule.",
     "nextSource": "December Hope narration and subsequent dated forest scenes.",
     "article": "gartina",
-    "status": "open"
+    "status": "open",
+    "reviewedOn": "2026-10-19",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1326038396577255505"
+    ]
   },
   {
     "id": "bowene-accession",
     "region": "Zarathis",
     "kind": "Leadership",
     "question": "When and how did Bowene first become High Lord?",
-    "known": "Bowene already holds the High Lord title before Aria’s death; her cultural leadership was distinct from that civic office.",
-    "missing": "His original accession procedure and complete formal powers remain unknown.",
-    "nextSource": "Earlier civic appointment scenes; do not use Aria’s death as his first title date.",
+    "known": "The main quest names Bowene High Lord by 5 August 2025, before Aria’s death. An October council ruling describes consensus followed by the strongest voice if needed.",
+    "missing": "The original accession, selection procedure and complete formal powers remain absent from the selected quest/Fein scenes.",
+    "nextSource": "An earlier direct appointment or institutional record is still needed. Later use of the title and council practice do not establish his accession.",
     "article": "bowene",
     "status": "narrowed",
     "previouslyMissing": "An earlier appointment, accession or institutional account.",
     "resolution": "Explicit canon clarification separates Aria’s cultural authority from Bowene’s office.",
-    "reviewedOn": "2026-10-18",
-    "references": []
+    "reviewedOn": "2026-10-19",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1402336345216520324",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1432108580626235586"
+    ]
   },
   {
     "id": "exile-jurisdiction",
@@ -226,14 +244,14 @@
     "region": "Pristinia",
     "kind": "Death and return",
     "question": "What connects Thorn’s body, ritual and return?",
-    "known": "Severina retrieves the body, Ryvyt removes the oil, and Alyhotep begins Wish-based restoration; Thorn is alive by 8 September.",
-    "missing": "A separate narrator confirmation of the exact spell-completion moment is not present in the checked excerpt.",
-    "nextSource": "Keep the attempted Wish and subsequent living presence distinct; check any continuation naming the completed spell.",
+    "known": "Severina retrieves the body, Ryvyt removes the oil, and Alyhotep begins Wish-based restoration; Thorn is alive by 8 September. The Tower conversation continues with tea, physical weakness, her account of dying and Farkur’s offer of rest.",
+    "missing": "The exact spell-completion narration remains absent from the checked attempt and subsequent recovery scenes.",
+    "nextSource": "Keep the Wish attempt distinct from the independently witnessed living recovery; check any missing continuation or casting embed rather than inferring a spell from later symptoms.",
     "article": "thorn",
     "status": "narrowed",
     "previouslyMissing": "The return scene, actual actor and mechanism.",
     "resolution": "The recovered scene identifies the attempted means and tightens the first confirmed living date.",
-    "reviewedOn": "2026-10-18",
+    "reviewedOn": "2026-10-19",
     "references": [
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1546367920744173610",
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1546377635007823872",
@@ -241,7 +259,11 @@
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1546381952112787486",
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1546382488291508254",
       "https://discord.com/channels/1177270231513694249/1250334670957051958/1546990766197575721",
-      "https://discord.com/channels/1177270231513694249/1250334670957051958/1547002626812416020"
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1547002626812416020",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1547003313751466095",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1547046244025634828",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1547055036649971882",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1547071654520295504"
     ]
   },
   {
@@ -398,6 +420,25 @@
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1561578237929332798",
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1561578463201329154",
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1561579018237771860"
+    ]
+  },
+  {
+    "id": "nymera-second-return",
+    "region": "Babel-Ashur",
+    "kind": "Death and return",
+    "question": "What completes Nymera’s second August restoration?",
+    "known": "The first return during the Refuge defense is explicitly Arjahn’s Revivify. A second attack reduces Nymera to ash. Eugene gathers the remains; after the mountain assault Elenia calls her back over the ashes. September shows Nymera living and recalling two deaths.",
+    "missing": "The exact completion of the second restoration, its named spell and any separate ruling are not recorded in the checked closing passage.",
+    "nextSource": "A continuation or casting record after Elenia’s closing attempt; keep the first Revivify and second restoration distinct.",
+    "article": "nymera",
+    "status": "narrowed",
+    "reviewedOn": "2026-10-19",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1539479486775558156",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1539494887588765766",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1539503432627396658",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1543116718988066866",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1553219529876701307"
     ]
   }
 ]

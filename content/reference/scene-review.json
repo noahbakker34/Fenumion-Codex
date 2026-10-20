@@ -2610,5 +2610,517 @@
         "class": "quest"
       }
     ]
+  },
+  {
+    "article": "adelia-hope",
+    "title": "Curiosity before the Shadow Sentinel",
+    "conclusion": "Adelia records unfamiliar growth, takes a sample and describes her interest in flora and fauna.",
+    "limit": "The sample is not independently identified by her interest in it.",
+    "receipts": [
+      {
+        "message": "1214413226541056070",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1214413226541056070",
+        "date": "2024-03-05",
+        "class": "quest"
+      },
+      {
+        "message": "1214414282524069969",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1214414282524069969",
+        "date": "2024-03-05",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "adelia-hope",
+    "title": "Care leaves room for the other person’s answer",
+    "conclusion": "Adelia tells Jiangshi that her own needs and wishes matter; Jiangshi explains why discipline and service sustain her.",
+    "limit": "The exchange does not date their marriage or settle Jiangshi’s whole condition.",
+    "receipts": [
+      {
+        "message": "1216812625778839702",
+        "url": "https://discord.com/channels/1177270231513694249/1198722893337608402/1216812625778839702",
+        "date": "2024-03-11",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1216814728526168206",
+        "url": "https://discord.com/channels/1177270231513694249/1198722893337608402/1216814728526168206",
+        "date": "2024-03-11",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1216816381920673914",
+        "url": "https://discord.com/channels/1177270231513694249/1198722893337608402/1216816381920673914",
+        "date": "2024-03-11",
+        "class": "compatible RP"
+      }
+    ]
+  },
+  {
+    "article": "adelia-hope",
+    "title": "A consuming shadow is severed",
+    "conclusion": "After other remedies fail to free Hope, Adelia severs the attached shadow; the blast injures nearby companions and a luminous tree remains.",
+    "limit": "The company cannot distinguish destruction of the shadow from its being driven away.",
+    "receipts": [
+      {
+        "message": "1270174515292541042",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270174515292541042",
+        "date": "2024-08-06",
+        "class": "quest"
+      },
+      {
+        "message": "1270175566170951721",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270175566170951721",
+        "date": "2024-08-06",
+        "class": "quest"
+      },
+      {
+        "message": "1270177147188936826",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270177147188936826",
+        "date": "2024-08-06",
+        "class": "quest"
+      },
+      {
+        "message": "1270178874860245166",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270178874860245166",
+        "date": "2024-08-06",
+        "class": "quest"
+      },
+      {
+        "message": "1270179469482790952",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270179469482790952",
+        "date": "2024-08-06",
+        "class": "quest"
+      },
+      {
+        "message": "1270180058597953640",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270180058597953640",
+        "date": "2024-08-06",
+        "class": "quest"
+      },
+      {
+        "message": "1270181526511816754",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270181526511816754",
+        "date": "2024-08-06",
+        "class": "quest"
+      },
+      {
+        "message": "1270181653238513746",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270181653238513746",
+        "date": "2024-08-06",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "adelia-hope",
+    "title": "Carrying a friend’s words",
+    "conclusion": "Adelia gives Oya Nymera’s sealed letter and invites her to visit the tree.",
+    "limit": "The letter’s contents and a completed later visit are not shown.",
+    "receipts": [
+      {
+        "message": "1546698541253263433",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1546698541253263433",
+        "date": "2026-09-08",
+        "class": "quest"
+      },
+      {
+        "message": "1546699599803187231",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1546699599803187231",
+        "date": "2026-09-08",
+        "class": "quest"
+      },
+      {
+        "message": "1546701236257161297",
+        "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1546701236257161297",
+        "date": "2026-09-08",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "akarian",
+    "title": "A newcomer offers to preserve another child’s heritage",
+    "conclusion": "Akarian introduces himself as a hunter and offers to help Claire teach her daughter about her elven heritage.",
+    "limit": "No completed teaching arrangement or complete early biography is established.",
+    "receipts": [
+      {
+        "message": "1221501566662607111",
+        "url": "https://discord.com/channels/1177270231513694249/1198721306250719293/1221501566662607111",
+        "date": "2024-03-24",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1221504061690609694",
+        "url": "https://discord.com/channels/1177270231513694249/1198721306250719293/1221504061690609694",
+        "date": "2024-03-24",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1221505185625542747",
+        "url": "https://discord.com/channels/1177270231513694249/1198721306250719293/1221505185625542747",
+        "date": "2024-03-24",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1221505421785694240",
+        "url": "https://discord.com/channels/1177270231513694249/1198721306250719293/1221505421785694240",
+        "date": "2024-03-24",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1221506889825914900",
+        "url": "https://discord.com/channels/1177270231513694249/1198721306250719293/1221506889825914900",
+        "date": "2024-03-24",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1221507452592328834",
+        "url": "https://discord.com/channels/1177270231513694249/1198721306250719293/1221507452592328834",
+        "date": "2024-03-24",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1221508153469046908",
+        "url": "https://discord.com/channels/1177270231513694249/1198721306250719293/1221508153469046908",
+        "date": "2024-03-24",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1221509508086370366",
+        "url": "https://discord.com/channels/1177270231513694249/1198721306250719293/1221509508086370366",
+        "date": "2024-03-24",
+        "class": "compatible RP"
+      }
+    ]
+  },
+  {
+    "article": "akarian",
+    "title": "Standing witness to Dale’s choice",
+    "conclusion": "Akarian witnesses Dale’s oath of devotion to Saray, then joins them in the field.",
+    "limit": "The scene does not give him ownership of their choices.",
+    "receipts": [
+      {
+        "message": "1285771544341250203",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1285771544341250203",
+        "date": "2024-09-18",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1285773261145378919",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1285773261145378919",
+        "date": "2024-09-18",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1285774710512025661",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1285774710512025661",
+        "date": "2024-09-18",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1285775493873795132",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1285775493873795132",
+        "date": "2024-09-18",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1285775872212865086",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1285775872212865086",
+        "date": "2024-09-18",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1285778069289959506",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1285778069289959506",
+        "date": "2024-09-18",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1285814195161403422",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1285814195161403422",
+        "date": "2024-09-18",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1285814799497822238",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1285814799497822238",
+        "date": "2024-09-18",
+        "class": "compatible RP"
+      }
+    ]
+  },
+  {
+    "article": "akarian",
+    "title": "A trial targets limits and ends with care",
+    "conclusion": "The narrator identifies the particular weaknesses in Dale and Saray’s training; Akarian then gently brings them out.",
+    "limit": "The encounter is not a recorded expedition death or a Babel journey.",
+    "receipts": [
+      {
+        "message": "1294490182044618793",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1294490182044618793",
+        "date": "2024-10-12",
+        "class": "quest"
+      },
+      {
+        "message": "1294490653484384256",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1294490653484384256",
+        "date": "2024-10-12",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "akarian",
+    "title": "Accepting company without sharing every belief",
+    "conclusion": "Akarian debates power with Gartina, acknowledges her results and accepts her company and help.",
+    "limit": "His renewed appearance and recollections do not name an exact return spell.",
+    "receipts": [
+      {
+        "message": "1326022895620587582",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1326022895620587582",
+        "date": "2025-01-07",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1326024074912333856",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1326024074912333856",
+        "date": "2025-01-07",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1326026728652541994",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1326026728652541994",
+        "date": "2025-01-07",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1326028079839051820",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1326028079839051820",
+        "date": "2025-01-07",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1326028830850289685",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1326028830850289685",
+        "date": "2025-01-07",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1326031265920454736",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1326031265920454736",
+        "date": "2025-01-07",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1326031921540501604",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1326031921540501604",
+        "date": "2025-01-07",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1326038396577255505",
+        "url": "https://discord.com/channels/1177270231513694249/1250445552424980590/1326038396577255505",
+        "date": "2025-01-07",
+        "class": "compatible RP"
+      }
+    ]
+  },
+  {
+    "article": "eugene",
+    "title": "A desperate Wish creates a breathing space",
+    "conclusion": "Eugene destroys two attackers with Wish during the Refuge defense; Nymera’s dead body falls with their remains and Arjahn revives her.",
+    "limit": "The scene does not establish an intent to harm Nymera or a universal outcome of Wish.",
+    "receipts": [
+      {
+        "message": "1539472242600058940",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539472242600058940",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539478632211292190",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539478632211292190",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539479486775558156",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539479486775558156",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539502041624223764",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539502041624223764",
+        "date": "2026-08-19",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "arjahn",
+    "title": "Revivify and an apology",
+    "conclusion": "Arjahn restores Nymera with Revivify after the first defense and apologizes for speaking as if he could abandon her.",
+    "limit": "The unconsumed diamond is a narrated exception here; calling Nymera Sajhan does not identify her as his daughter.",
+    "receipts": [
+      {
+        "message": "1539456399933710367",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539456399933710367",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539458579860295790",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539458579860295790",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539478926047584327",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539478926047584327",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539479486775558156",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539479486775558156",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539480920430485564",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539480920430485564",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539481632908648529",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539481632908648529",
+        "date": "2026-08-19",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "nymera",
+    "title": "A first death and an explicit Revivify",
+    "conclusion": "Nymera dies during the first Refuge defense and Arjahn restores her with Revivify; the diamond remains unconsumed.",
+    "limit": "The local exception does not promise effortless or unlimited returns.",
+    "receipts": [
+      {
+        "message": "1539478632211292190",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539478632211292190",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539478926047584327",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539478926047584327",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539479486775558156",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539479486775558156",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539480920430485564",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539480920430485564",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539483036909830154",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539483036909830154",
+        "date": "2026-08-19",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "nymera",
+    "title": "A second loss leaves ashes to recover",
+    "conclusion": "Nymera fights again and is reduced to ash; Eugene gathers the remains for an attempted later restoration.",
+    "limit": "The closing attempt and later living presence do not independently name the second restoration spell.",
+    "receipts": [
+      {
+        "message": "1539494887588765766",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539494887588765766",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539503229476544512",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539503229476544512",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1539503432627396658",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1539503432627396658",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1543116718988066866",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1543116718988066866",
+        "date": "2026-08-19",
+        "class": "quest"
+      },
+      {
+        "message": "1553219529876701307",
+        "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1553219529876701307",
+        "date": "2026-08-19",
+        "class": "quest"
+      }
+    ]
+  },
+  {
+    "article": "thorn",
+    "title": "Being back is not the same as being well",
+    "conclusion": "Thorn asks for tea, says she died and describes feeling unwell; Farkur offers her rest.",
+    "limit": "This later scene does not narrate the exact spell-completion moment.",
+    "receipts": [
+      {
+        "message": "1546990766197575721",
+        "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1546990766197575721",
+        "date": "2026-09-08",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1547002626812416020",
+        "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1547002626812416020",
+        "date": "2026-09-08",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1547003313751466095",
+        "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1547003313751466095",
+        "date": "2026-09-08",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1547046244025634828",
+        "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1547046244025634828",
+        "date": "2026-09-08",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1547055036649971882",
+        "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1547055036649971882",
+        "date": "2026-09-08",
+        "class": "compatible RP"
+      },
+      {
+        "message": "1547071654520295504",
+        "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1547071654520295504",
+        "date": "2026-09-08",
+        "class": "compatible RP"
+      }
+    ]
   }
 ]

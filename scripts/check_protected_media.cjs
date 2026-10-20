@@ -1,6 +1,6 @@
 // The fixture is a generated blue frame and sine wave, with a fresh test key.
 // No private vault, real media, credentials or persistent encryption key is used.
-const {chromium}=require('playwright');
+const {chromium,webkit}=require('playwright');
 const {readFileSync}=require('node:fs');
 const {randomBytes,createCipheriv,createHash}=require('node:crypto');
 const assert=require('node:assert/strict');
@@ -11,10 +11,12 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  const name=createHash('sha256').update(bytes).digest('hex')+'.bin';
  const playlist='#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-TARGETDURATION:12\n#EXT-X-MEDIA-SEQUENCE:0\n#EXT-X-PLAYLIST-TYPE:VOD\n#EXT-X-KEY:METHOD=AES-128,URI="{KEY}",IV=0x'+iv.toString('hex')+'\n#EXTINF:12.0,\n'+name+'\n#EXT-X-ENDLIST\n';
  const payload=JSON.stringify({articles:[{id:'death-dumuzi',title:'Protected media fixture',category:'Test',type:'Generated media',body:'<p>Generated test fixture.</p>',sources:[],scenes:[{title:'Generated video',caption:'Blue frame and sine wave.',protectedHls:{version:1,key:key.toString('base64'),playlist}}]}]});
- const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});
+ const useWebKit=process.env.CODEX_BROWSER==='webkit';
+ const browser=await (useWebKit?webkit:chromium).launch({headless:true,...(!useWebKit&&process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});
  try {
   const page=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});let authorized=false,requests=0,library=0;const errors=[];
   page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.url().includes('/vendor/hls.'))library++;});
+  if(process.env.CODEX_NO_MEDIA_SOURCE==='1') await page.route('**/vendor/hls.light.min.js?*',r=>r.fulfill({status:200,contentType:'text/javascript',body:readFileSync(__dirname+'/../site/vendor/hls.light.min.js','utf8')+'\nHls.isSupported=()=>false;'}));
   await page.route('**/assets/protected-media/*.bin',r=>{requests++;return r.fulfill({status:200,contentType:'application/octet-stream',body:bytes});});
   const wav=Buffer.alloc(44+8000*12,128);wav.write('RIFF',0);wav.writeUInt32LE(wav.length-8,4);wav.write('WAVEfmt ',8);wav.writeUInt32LE(16,16);wav.writeUInt16LE(1,20);wav.writeUInt16LE(1,22);wav.writeUInt32LE(8000,24);wav.writeUInt32LE(8000,28);wav.writeUInt16LE(1,32);wav.writeUInt16LE(8,34);wav.write('data',36);wav.writeUInt32LE(wav.length-44,40);
   await page.route('**/music-fixture.wav',r=>r.fulfill({status:200,contentType:'audio/wav',body:wav}));
@@ -25,10 +27,25 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   assert.equal(requests,0);assert.equal(library,0,'library is also deferred');
   await page.evaluate(async()=>{const a=document.getElementById('music-audio');a.src='music-fixture.wav';await a.play();});
   assert(await page.locator('#music-audio').evaluate(a=>!a.paused));
-  await page.locator('[data-load-protected-scene]').click();
-  await page.waitForFunction(()=>{const v=document.querySelector('[data-protected-scene] video');return v?.currentTime>1&&v.videoWidth===320;},{},{timeout:30000});
+  await page.locator('[data-load-protected-scene]').focus();
+  await page.locator('[data-load-protected-scene]').press('Enter');
+  if(process.env.CODEX_NO_MEDIA_SOURCE==='1') {
+   await page.getByText('This browser cannot play this protected video. Please update your browser and try again.',{exact:true}).waitFor();
+   assert.equal(requests,0,'unsupported playback never requests encrypted segments');
+   assert(await page.locator('[data-load-protected-scene]').isEnabled());
+   assert(await page.locator('[data-protected-scene] video').evaluate(v=>!v.hasAttribute('src')));
+   assert(await page.evaluate(()=>document.activeElement?.matches('[data-load-protected-scene]')),'failure restores keyboard focus');
+   await page.locator('#vault-button').click();await page.locator('.vault-gate').waitFor();
+   assert.equal(await page.locator('[data-protected-scene]').count(),0);assert.deepEqual(errors,[]);
+   console.log('PASS unsupported media-source path: clear message, no encrypted requests, source cleanup, keyboard focus and locking');
+   return;
+  }
+  await page.waitForFunction(()=>{const v=document.querySelector('[data-protected-scene] video');return v?.currentTime>1&&v.videoWidth===320;},{},{timeout:30000}).catch(async error=>{
+   console.error('Playback diagnostics',await page.locator('[data-protected-scene]').evaluate(f=>{const v=f.querySelector('video'),b=f.querySelector('button');return {ready:v.readyState,time:v.currentTime,width:v.videoWidth,paused:v.paused,muted:v.muted,error:v.error?.message,status:f.querySelector('[data-protected-scene-status]')?.textContent,buttonHidden:b.hidden,focus:document.activeElement?.tagName,native:!!v.canPlayType('application/vnd.apple.mpegurl'),mse:window.Hls?.isSupported()};}));
+   throw error;
+  });
   assert(requests>0);assert.equal(library,1);
-  assert(await page.locator('[data-protected-scene] video').evaluate(v=>!v.muted&&v.webkitAudioDecodedByteCount>0));
+  assert(await page.locator('[data-protected-scene] video').evaluate(v=>!v.muted&&(v.webkitAudioDecodedByteCount>0||v.audioTracks?.length>0)),'unmuted decoded audio or a native audio track');
   assert(await page.locator('#music-audio').evaluate(a=>a.paused),'soundtrack pauses for the film');
   assert(await page.evaluate(()=>document.activeElement?.matches('[data-protected-scene] video')),'focus moves to native controls');
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));

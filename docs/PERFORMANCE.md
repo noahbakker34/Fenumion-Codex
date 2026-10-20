@@ -66,3 +66,19 @@ A controlled, cold 390px mobile diagnostic (reduced motion, 150ms latency, 200Ki
 App238/rift-record2 keeps the primary-checked rift article, event histories and date correction in one bundle. The article’s chronology is generated from the same events used by Events, removing duplicate prose and runtime body patches. One escaped event-card renderer is shared with Vessalia and place histories. A title lookup registers timeline updates without repeated linear event scans; existing records/reciprocal links are not duplicated, and source data stays immutable. This is a code/data consolidation, not a measured loading-speed claim.
 
 `check_rifts.cjs` verifies chronology, both name spellings, nine dialogs, article/place links, text escaping and protected boundaries at1440/390px. Before/after comparison preserves unrelated histories and all protected stubs. Pending Gedankin header checked separately at eight widths.
+
+## Controlled production mobile baseline · 19 October 2026
+
+Measured the published app245 before further performance work: three cold browser contexts per route, 390×844 viewport, reduced motion, cache disabled, 150 ms network latency, 200 KiB/s downstream and CPU ×4 in Chrome. The anonymous vault response is simulated; all public page/data/assets use production transport. DNS and system caches are not reset. These are diagnostic samples, not field percentiles or a promised speedup. Reproduce with scripts/measure_mobile_load.cjs; CODEX_BASE_URL, CODEX_PERF_RUNS, CODEX_PERF_ROUTES and CODEX_PERF_OUTPUT are optional.
+
+| Route | Median heading ready | Median completed transfer bytes | Median text/script/style transfer bytes | First catalog result | Full search ready after query |
+|---|---:|---:|---:|---:|---:|
+| Fenwick | 6.144 s | 643,887 | 351,816 | 183 ms | 5.056 s |
+| Babel-Ashur | 5.822 s | 607,245 | 349,184 | 174 ms | 7.310 s |
+| Adelia/Hope | 6.043 s | 609,873 | 351,805 | 226 ms | 5.177 s |
+
+Transfer figures include CDP-reported encoded network bytes for requests completed one second after the heading becomes usable. Ongoing downloads are not a total-page budget; these numbers are not interchangeable with source file sizes or the earlier encoded-body-only benchmark. Search was measured once per route, separately from the three heading samples.
+
+All nine samples loaded one article body, deferred full search until queried, made no protected-segment/library requests and had no horizontal overflow. Catalog results remain available while full text downloads; the deferred full-search wait is the visible remaining tradeoff under this connection. No broad performance rewrite or media recompression is justified or claimed by these measurements. The new connected history and player compatibility changes are verified separately.
+
+The older efficiency check waited for a lazy-body flag on the custom home renderer and timed out despite the rendered page. Its readiness condition now checks the rendered route and heading, with normal motion explicitly selected. The same seven-route ambient playback, reduced-motion/Save-Data zero-video-request checks, cache invalidation and locked search boundary pass. No production behavior was changed to satisfy that stale test assumption.

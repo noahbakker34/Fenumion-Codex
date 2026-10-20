@@ -5619,6 +5619,41 @@
           "Skylight Refuge"
         ],
         "summary": "Dumuzi offers allegiance and makes claims involving Oya and Aria. Companions refuse, receive a vision and continue to reject his proposal. The vision’s contents are not reconstructed from the unreviewed video attachment."
+      },
+      {
+        "title": "Hope is freed from a consuming shadow",
+        "meta": "2024-08-06 · UTC source postings",
+        "sort": "2024-08-06",
+        "era": "2024 · The Calling",
+        "kind": "Defense and restoration",
+        "article": "adelia-hope",
+        "location": "Hope; Gael",
+        "people": "Adelia; Elenia; Dale; Wren; Gartina; Saray; the Gael company",
+        "summary": "Daylight and Dispel Magic fail to release Hope. Adelia severs the consuming attachment in a damaging blast; a luminous tree remains. The shadow’s destruction versus expulsion is unresolved.",
+        "tags": [
+          "Hope",
+          "Restoration",
+          "Adelia",
+          "August intervention"
+        ]
+      },
+      {
+        "title": "Skylight Refuge holds through a divided defense",
+        "meta": "2026-08-19 · UTC source postings",
+        "sort": "2026-08-19",
+        "era": "2026 · Consequences",
+        "kind": "Defense and restoration",
+        "article": "babel-survival",
+        "location": "Skylight Refuge; Babel-Ashur",
+        "people": "Eugene; Arjahn; Nymera; Olokun; Elenia; Scribonia; the Refuge civilians",
+        "summary": "A diversion draws enemies away while three defenders protect the civilians. Eugene’s Wish and Arjahn’s Revivify are followed by a renewed battle and Nymera’s second death. The Refuge is saved; her ashes are recovered.",
+        "tags": [
+          "Babel-Ashur",
+          "Skylight Refuge",
+          "Nymera",
+          "Revivify",
+          "Wish"
+        ]
       }
     ],
     "characters": [
@@ -6036,7 +6071,7 @@
         "title": "Akarian Irenhour",
         "meta": "Warrior; Guardian of Gael",
         "article": "akarian",
-        "summary": "The Guardian of Gael carries grief into the work of passing Hope onward, testing responsibility as carefully as strength.",
+        "summary": "Akarian Irenhour: hunter, witness and Guardian of Gael, preserving heritage while training and protecting companions.",
         "aliases": [
           "Akarian",
           "Akarian Irenhour"
@@ -15278,6 +15313,14 @@
         "Characters",
         "Alioth"
       ]
+    ],
+    [
+      "babel-survival",
+      [
+        "Guide",
+        "Connected Histories",
+        "Babel-Ashur · Keeping a Foothold"
+      ]
     ]
   ],
   "subchannelMap": {
@@ -17971,6 +18014,11 @@
     ],
     "skylight-refuge": [
       {
+        "label": "Babel · keeping a foothold",
+        "article": "babel-survival",
+        "summary": "Shelter, divided defenses, the mountain and mist rescues through their different witnesses."
+      },
+      {
         "label": "Babel-Ashur",
         "article": "babel-ashur",
         "summary": "The wider island campaign."
@@ -19815,6 +19863,11 @@
     ],
     "babel-ashur": [
       {
+        "label": "Babel · keeping a foothold",
+        "article": "babel-survival",
+        "summary": "Shelter, divided defenses, the mountain and mist rescues through their different witnesses."
+      },
+      {
         "label": "Babel-Ashur · NPCs",
         "article": "npcs-babel-ashur",
         "summary": "Browse the island’s NPCs together."
@@ -20447,6 +20500,11 @@
     ],
     "connected-histories": [
       {
+        "label": "Babel · keeping a foothold",
+        "article": "babel-survival",
+        "summary": "Shelter, divided defenses, the mountain and mist rescues through their different witnesses."
+      },
+      {
         "label": "Pristinia · a town worth defending",
         "article": "pristinia-campaign",
         "summary": "Arrival, shared defenses, siege and the ordinary work that makes survival matter."
@@ -20631,6 +20689,23 @@
       {
         "label": "Pristinia",
         "article": "pristinia"
+      }
+    ],
+    "babel-survival": [
+      {
+        "label": "Babel-Ashur",
+        "article": "babel-ashur",
+        "summary": "The island’s wider geography and history."
+      },
+      {
+        "label": "Skylight Refuge",
+        "article": "skylight-refuge",
+        "summary": "The shelter and the people who depend on it."
+      },
+      {
+        "label": "Unresolved Record",
+        "article": "open-questions",
+        "summary": "The missing evidence remains visible."
       }
     ]
   },
@@ -40127,6 +40202,7 @@
     "gael-refugee-settlement",
     "veiled-watch",
     "rifts",
-    "alioth"
+    "alioth",
+    "babel-survival"
   ]
 }

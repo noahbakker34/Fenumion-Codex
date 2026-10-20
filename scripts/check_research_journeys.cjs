@@ -15,14 +15,24 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   await go(id);assert.equal(await page.locator('.record-chapter').count(),4,id+' chapters');
   assert.equal(await page.locator('.section-evidence').count(),4,id+' evidence');
  }
- await go('claim-review');assert.equal(await page.locator('.claim-card').count(),34);
- await go('open-questions');assert.equal(await page.locator('.research-card').count(),25);
+ await go('connected-histories');
+ await page.locator('a.history-path[href="#babel-survival"]').click();
+ await page.waitForFunction(()=>byId.get('babel-survival')?.bodyLoaded&&document.querySelector('#article-content').dataset.route==='#babel-survival');
+ await go('babel-survival?section=babel-path-defense');
+ await page.locator('a.history-link[href="#nymera?section=nymera-refuge-defense"]').click();
+ await page.waitForFunction(()=>byId.get('nymera')?.bodyLoaded&&document.querySelector('#nymera-refuge-defense')?.closest('details')?.open);
+ await go('claim-review');assert.equal(await page.locator('.claim-card').count(),36);
+ await go('open-questions');assert.equal(await page.locator('.research-card').count(),26);
+ await page.locator('[data-research-region]').selectOption('Babel-Ashur');assert.equal(await page.locator('.research-card:visible').count(),2);
+ await page.locator('[data-research-query]').fill('Nymera');assert.equal(await page.locator('.research-card:visible').count(),2);
+ await page.locator('[data-research-query]').fill('second August');assert.equal(await page.locator('.research-card:visible').count(),1);
+ await page.locator('[data-research-query]').fill('');
  await page.locator('[data-research-region]').selectOption('Voraketh');assert.equal(await page.locator('.research-card:visible').count(),3);
  await page.locator('[data-research-query]').fill('final expedition');assert.equal(await page.locator('.research-card:visible').count(),1);
- assert.equal(await page.locator('[data-research-count]').innerText(),'1 of 25 questions');
- await page.locator('[data-research-query]').fill('no such evidence phrase');assert.equal(await page.locator('[data-research-count]').innerText(),'0 of 25 questions');
+ assert.equal(await page.locator('[data-research-count]').innerText(),'1 of 26 questions');
+ await page.locator('[data-research-query]').fill('no such evidence phrase');assert.equal(await page.locator('[data-research-count]').innerText(),'0 of 26 questions');
  await page.locator('[data-research-query]').fill('');await page.locator('[data-research-region]').selectOption('');
- assert.equal(await page.locator('[data-research-count]').innerText(),'25 of 25 questions');
+ assert.equal(await page.locator('[data-research-count]').innerText(),'26 of 26 questions');
  await page.screenshot({path:'/tmp/codex-research-desktop.png'});
  // Keyboard search: opening, reaching a result, following it and escaping restores a usable focus.
  await go('gael');await page.locator('.article-header h1').evaluate(el=>{el.tabIndex=-1;el.focus()});
@@ -42,5 +52,5 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  }
  await page.locator('.record-chapter').first().locator('summary').first().press('Enter');
  const cold=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});cold.on('pageerror',e=>errors.push(e.message));let releaseSearch;const heldSearch=new Promise(resolve=>releaseSearch=resolve);await cold.route('**/data/search.*.json',async route=>{await heldSearch;await route.continue()});await cold.goto(base+'#fenwick');await cold.waitForFunction(()=>byId.get('fenwick')?.bodyLoaded);await cold.locator('#search-toggle').click();await cold.locator('#search').fill('Saray');await cold.locator('.search-result').first().waitFor();assert.equal(await cold.locator('.search-index-status').count(),1,'catalog results appear before full text');releaseSearch();await cold.waitForFunction(()=>CodexReader.searchReady);await cold.locator('#search').fill('rowboat');await cold.locator('.search-result[data-article=gael][data-search-section=gael-fenwick-coast]').waitFor();await cold.close();
- assert.deepEqual(errors,[]);console.log('PASS 28 scene sequences, 4 campaign narratives, 34 claim entries, 25 research questions/filters, source links, keyboard result selection, mobile focus and layout');await browser.close();
+ assert.deepEqual(errors,[]);console.log('PASS 28 scene sequences, 4 campaign narratives, 36 claim entries, 26 research questions/filters, source links, keyboard result selection, mobile focus and layout');await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

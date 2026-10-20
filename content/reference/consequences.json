@@ -113,5 +113,28 @@
         "connection": "Tea and conversation show what rebuilding has made possible."
       }
     ]
+  },
+  {
+    "id": "babel-foothold",
+    "title": "A foothold creates responsibilities",
+    "summary": "Custody of survivors and a seed leads to defense, an offensive and further rescues; each outcome leaves work to do.",
+    "steps": [
+      {
+        "event": "A Babel nomad entrusts Elenia with a golden seed",
+        "connection": "Rescue creates an obligation to keep people and the seed safe."
+      },
+      {
+        "event": "Skylight Refuge holds through a divided defense",
+        "connection": "Holding the shelter saves civilians while leaving companions wounded or lost."
+      },
+      {
+        "event": "Babel’s defenders reshape the cavern-bearing mountain",
+        "connection": "The offensive changes the stronghold without confirming every consequence."
+      },
+      {
+        "event": "The western mist turns companions into apparent monsters",
+        "connection": "A later investigation becomes a rescue with distinct contributions and personal costs."
+      }
+    ]
   }
 ]

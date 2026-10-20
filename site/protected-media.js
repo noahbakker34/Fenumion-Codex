@@ -54,6 +54,8 @@
       if (!scene?.protectedHls || !video || !button || !status) return;
       let closed = false, hls, urls, focusAfterLoad = false;
       video.tabIndex = 0;
+      // Apple enables ManagedMediaSource when remote playback has no alternate source.
+      video.disableRemotePlayback = true;
       const authorized = () => !closed && figure.isConnected && mayPlay();
       const dispose = () => {
         hls?.destroy(); hls = null;
@@ -72,11 +74,12 @@
         if (focusVideo) video.focus({preventScroll: true});
         video.play().catch(() => {});
       };
-      const fail = () => {
+      const fail = (message = 'The video could not be loaded. Please try again.') => {
         dispose();
         if (!authorized()) return;
-        status.textContent = 'The video could not be loaded. Please try again.';
+        status.textContent = message;
         button.disabled = false; button.hidden = false;
+        if (focusAfterLoad && [button, document.body].includes(document.activeElement)) button.focus({preventScroll: true});
       };
       video.addEventListener('error', () => { if (urls && authorized()) fail(); });
       button.addEventListener('click', async () => {
@@ -92,13 +95,9 @@
             hls.on(Hls.Events.MANIFEST_PARSED, start);
             hls.on(Hls.Events.ERROR, (_event, data) => { if (data.fatal) fail(); });
             hls.loadSource(urls.playlistUrl); hls.attachMedia(video);
-          } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = urls.playlistUrl;
-            video.addEventListener('loadedmetadata', start, {once: true});
-            video.load();
           } else {
-            dispose(); button.disabled = false;
-            status.textContent = 'This browser cannot play this video. Please use a current browser.';
+            // Native HLS cannot reliably read these private, memory-only manifests/keys.
+            fail('This browser cannot play this protected video. Please update your browser and try again.');
           }
         } catch { fail(); }
       });

@@ -8,13 +8,15 @@
     "Connected Histories",
     "Reading paths",
     "Consequences",
-    "Gael"
+    "Gael",
+    "Babel-Ashur",
+    "Skylight Refuge"
   ],
   "facts": {},
   "sources": [
     "Connected Histories · linked public dossiers and region histories · #relationships"
   ],
-  "body": "<p>Fenumion’s histories meet through shared work, difficult choices and consequences that outlast the people who began them. Follow a connected history to move between those perspectives: the person who acted, the people affected and the places that carried the result forward.</p>\n<h2 id=\"connected-paths\">Choose a connected history</h2><a class=\"history-path\" href=\"#gael-restoration\"><span class=\"eyebrow\">Gael · refuge, renewal and rebuilding</span><strong>Making life possible again</strong><span>Follow the sanctuary, the people who sustained Hope and the work of turning recovery into homes, food and a future.</span><span class=\"history-path-question\">What does it take to make life continue after Death has won?</span><span class=\"history-link-arrow\" aria-hidden=\"true\">Explore the Gael restoration constellation →</span></a>\n<h2 id=\"connected-reading\">Follow the consequences</h2><p>Each path connects character histories with places and events. Read across the links to see where people share a purpose, disagree about a choice or inherit work left unfinished. A person’s death, departure or transformation can change the work without ending it.</p><p>These paths offer a way through the wider Codex. The complete <a href=\"#people-directory\">character directory</a>, <a href=\"#visual-archive\">location atlas</a> and <a href=\"#living-timeline\">timeline</a> remain open for journeys of your own.</p>",
+  "body": "<p>Fenumion’s histories meet through shared work, difficult choices and consequences that outlast the people who began them. Follow a connected history to move between those perspectives: the person who acted, the people affected and the places that carried the result forward.</p>\n<h2 id=\"connected-paths\">Choose a connected history</h2><a class=\"history-path\" href=\"#gael-restoration\"><span class=\"eyebrow\">Gael · refuge, renewal and rebuilding</span><strong>Making life possible again</strong><span>Follow the sanctuary, the people who sustained Hope and the work of turning recovery into homes, food and a future.</span><span class=\"history-path-question\">What does it take to make life continue after Death has won?</span><span class=\"history-link-arrow\" aria-hidden=\"true\">Explore the Gael restoration constellation →</span></a>\n<a class=\"history-path\" href=\"#babel-survival\"><span class=\"eyebrow\">Babel-Ashur · shelter, defense and rescue</span><strong>Keeping a foothold</strong><span>Follow the people who defend Skylight Refuge, reshape the mountain and bring one another back from the mist.</span><span class=\"history-path-question\">What does saving a place leave its defenders responsible for?</span><span class=\"history-link-arrow\" aria-hidden=\"true\">Explore Babel’s connected history →</span></a>\n<h2 id=\"connected-reading\">Follow the consequences</h2><p>Each path connects character histories with places and events. Read across the links to see where people share a purpose, disagree about a choice or inherit work left unfinished. A person’s death, departure or transformation can change the work without ending it.</p><p>These paths offer a way through the wider Codex. The complete <a href=\"#people-directory\">character directory</a>, <a href=\"#visual-archive\">location atlas</a> and <a href=\"#living-timeline\">timeline</a> remain open for journeys of your own.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
@@ -48,8 +50,7 @@
     }
   ],
   "sourceReview": {
-    "checkedAt": "2026-10-17",
-    "sourceClass": "navigation",
-    "scope": "Editorial synthesis of the linked histories; links do not independently corroborate the underlying claims."
+    "latestReview": "2026-10-19",
+    "scope": "Selected original quest and compatible RP scenes checked; source dates retain their offsets. No exhaustive archive certification or final fate inferred. See the connected-history review."
   }
 }

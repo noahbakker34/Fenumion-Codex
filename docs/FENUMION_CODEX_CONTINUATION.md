@@ -2,6 +2,14 @@
 
 Last updated: 2026-10-19
 
+## Public Death film · 19 October 2026
+
+Owner requests “I am Death” as the view available to everyone who has not unlocked Death's vault record. This explicitly releases that film alone. `death-dumuzi.publicPreview` renders its title, testimony caption and player above a compact full-record unlock prompt. Protected bodies, summaries and other scenes stay private; other locked routes are unchanged. Unlocking retains the complete existing dossier, and locking returns to this public film.
+
+The public poster, HTTP playlist and film-specific key reuse all 47 immutable HLS objects at public revision ad0ea6b without recompression or duplicated large media. No vault JSON, role, Worker or credential change is required. The key deliberately releases only the film; it does not unlock the vault. App/catalog247, protected-media3, styles171. See PROTECTED_VIDEO.md for the exception and verification scope. Deployment verification follows the completed checks.
+
+Local validation passes for canonical content, assets, runtime syntax and whitespace, plus the reader, research journeys, Rifts and supported/unsupported protected-player checks. The full public film passes anonymous Chrome and WebKit library playback, the WebKit native HTTP fallback, sound-enabled 1920×1080 decoding, seeking, retry/focus, mobile layout, cleanup and synthetic vault transitions. Chrome also passes through the actual pinned production media host. The forced unsupported test disables both streaming and native HLS rather than assuming a particular browser lacks native playback. Other protected stubs and the complete private vault are unchanged. Pages package: 800,634,371 bytes.
+
 This is the first file to read before continuing work on the Fenumion Living Codex. It records the project's durable decisions, current implementation state, canon rules, supplied media, and remaining priorities so the full development conversation does not need to be replayed.
 
 For deeper lore synthesis, also read `docs/CONVERSATION_MASTER_SUMMARY.md`. The current deployable source is `site/`; later dated additions below supersede earlier historical checkpoints.

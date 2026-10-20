@@ -13,5 +13,12 @@
   "imageCaption": "Dumuzi / Death — supplied animated visual record.",
   "schemaVersion": 1,
   "protected": true,
-  "sections": []
+  "sections": [],
+  "publicPreview": {
+    "id": "i-am-death",
+    "title": "I am Death",
+    "caption": "Death’s account, shared during the Babel encounter. Presented as testimony.",
+    "poster": "assets/media/i-am-death/poster.jpg",
+    "hls": "assets/media/i-am-death/index.m3u8"
+  }
 }

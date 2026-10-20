@@ -2642,6 +2642,9 @@ body.character-background-view .mobile-contents { position: relative; z-index: 1
 body.character-background-view .breadcrumbs { color: #d7d2c5; text-shadow: 0 1px 3px #000; }
 
 .character-scenes video { display: block; width: 100%; height: auto; max-height: 540px; background: #040b08; }
+.public-record-preview { max-width: 960px; }
+.public-record-preview video { aspect-ratio: 16 / 9; object-fit: contain; }
+.vault-gate.vault-gate-preview { min-height: 0; padding: 1.5rem 0; }
 .protected-scene-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; padding: .75rem; }
 .protected-scene-controls button { padding: .55rem 1rem; border: 1px solid var(--line, #6d806a); border-radius: .4rem; background: #13231d; color: #f4e9d0; cursor: pointer; }
 .protected-scene-controls button:focus-visible { outline: 2px solid #e6c67c; outline-offset: 3px; }

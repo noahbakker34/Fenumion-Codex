@@ -14,7 +14,7 @@ This replaces the historical browser patch modules. Their public output was migr
 
 Do not edit generated JSON or add a new runtime content-patching module. A record fetch owns that article body; search reads a separate deferred section index. Hashed output names prevent a cached catalog from accidentally pairing with another article version. Old versions are removed from the built output, so a reader with an obsolete catalog can retry after a refresh.
 
-Protected scene descriptors, keys, playlists and posters belong only to the private authenticated payload. Public protected records must not acquire scene metadata. Long recordings can use opaque encrypted HLS objects, with on-demand playback and cleanup on locking/navigation. See `docs/PROTECTED_VIDEO.md`; the public test fixture is generated media and contains no campaign material.
+Protected scene descriptors, keys, playlists and posters belong only to the private authenticated payload. The owner's 19 October exception releases only “I am Death” as `death-dumuzi.publicPreview`, with public film assets under `site/assets/media/i-am-death/`. The validator restricts that field to this film and keeps protected bodies, summaries and scene arrays empty. Its film-specific public key grants no vault access. Long recordings use on-demand HLS playback and cleanup on locking/navigation. See `docs/PROTECTED_VIDEO.md`; other campaign scenes remain private.
 
 ## Known reference gaps
 

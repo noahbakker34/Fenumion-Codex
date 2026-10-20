@@ -69,6 +69,8 @@ jobs:
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_rifts.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_protected_media.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" CODEX_NO_MEDIA_SOURCE=1 node scripts/check_protected_media.cjs
+          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_public_death.cjs
+          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" CODEX_NO_MEDIA_SOURCE=1 node scripts/check_public_death.cjs
   deploy:
     if: github.event_name != 'pull_request'
     needs: [validate, reader]

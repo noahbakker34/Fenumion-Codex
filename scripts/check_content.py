@@ -25,6 +25,23 @@ def audit():
   require(not a['protected'] or not a.get('brief'),aid+': protected summary leaked')
   require(not a['protected'] or not a.get('scenes'),aid+': protected scenes leaked')
   require('protectedHls' not in json.dumps(a),aid+': authenticated media descriptor leaked')
+  if a.get('publicPreview'):
+   preview=a['publicPreview'];base='assets/media/i-am-death/'
+   require(aid=='death-dumuzi' and a['protected'],aid+': unapproved public preview')
+   require(set(preview)=={'id','title','caption','poster','hls'},aid+': unexpected public preview fields')
+   require(preview.get('id')=='i-am-death' and preview.get('title')=='I am Death',aid+': unapproved public film')
+   require(preview.get('poster')==base+'poster.jpg' and preview.get('hls')==base+'index.m3u8',aid+': unexpected preview asset')
+   for path in ['poster.jpg','key.bin','index.m3u8']:require((ROOT/'site'/base/path).is_file(),aid+': missing public film asset '+path)
+   require((ROOT/'site'/base/'key.bin').stat().st_size==16,aid+': invalid public film key')
+   manifest=(ROOT/'site'/base/'index.m3u8').read_text()
+   require(manifest.startswith('#EXTM3U\n') and manifest.endswith('#EXT-X-ENDLIST\n'),aid+': invalid public manifest')
+   objects=[line for line in manifest.splitlines() if not line.startswith('#')]
+   require(len(objects)==47,aid+': public film segment count changed')
+   for url in objects:
+    require(bool(re.fullmatch(r'https://raw\.githubusercontent\.com/noahbakker34/Fenumion-Codex/ad0ea6b5a278bb6ef799ce339a64eb8f8611ac30/site/assets/protected-media/[a-f0-9]{64}\.bin',url)),aid+': unexpected public segment location')
+    require((ROOT/'site/assets/protected-media'/url.rsplit('/',1)[-1]).is_file(),aid+': missing public segment')
+   for line in manifest.splitlines():
+    if line.startswith('#EXT-X-KEY:'):require(bool(re.fullmatch(r'#EXT-X-KEY:METHOD=AES-128,URI="key.bin",IV=0x[a-f0-9]{32}',line)),aid+': unexpected public key reference')
   parser=Links();parser.feed(a.get('body',''))
   duplicates=[key for key,count in collections.Counter(parser.ids).items() if count>1]
   for key in duplicates:errors.append(aid+': duplicate section ID '+key)

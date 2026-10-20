@@ -14,4 +14,4 @@ if root.exists():
   assert data[4:8]!=b'ftyp' and not data.startswith((b'#EXTM3U',b'\xff\xd8\xff')), 'Plain media in encrypted asset directory'
   assert not all(data[i*188:i*188+1]==b'G' for i in range(5)), 'Plain transport stream in encrypted asset directory'
   count+=1
-print(f'PASS {count} opaque encrypted assets; no playlists, keys or plain media in public assets')
+print(f'PASS {count} opaque encrypted assets; no playlists, keys or plain media in protected-media directory')

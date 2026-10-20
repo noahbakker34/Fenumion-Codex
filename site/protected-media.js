@@ -1,4 +1,5 @@
-/* Long scene playback. Keys and playlists arrive only in the authenticated vault. */
+/* On-demand scene playback. Private descriptors arrive only in the authenticated vault.
+   The owner-approved public preview uses an ordinary public HLS URL. */
 (() => {
   'use strict';
   const players = new Set();
@@ -46,12 +47,14 @@
   }
 
   function setup(root, article, mayPlay) {
-    root.querySelectorAll('[data-protected-scene]').forEach(figure => {
-      const scene = article.scenes?.[Number(figure.dataset.protectedScene)];
+    root.querySelectorAll('[data-protected-scene], [data-public-scene]').forEach(figure => {
+      const publicScene = figure.hasAttribute('data-public-scene');
+      const kind = publicScene ? 'public' : 'protected';
+      const scene = article.scenes?.[Number(figure.getAttribute(`data-${kind}-scene`))];
       const video = figure.querySelector('video');
-      const button = figure.querySelector('[data-load-protected-scene]');
-      const status = figure.querySelector('[data-protected-scene-status]');
-      if (!scene?.protectedHls || !video || !button || !status) return;
+      const button = figure.querySelector(`[data-load-${kind}-scene]`);
+      const status = figure.querySelector(`[data-${kind}-scene-status]`);
+      if (!(publicScene ? scene?.hls : scene?.protectedHls) || !video || !button || !status) return;
       let closed = false, hls, urls, focusAfterLoad = false;
       video.tabIndex = 0;
       // Apple enables ManagedMediaSource when remote playback has no alternate source.
@@ -66,7 +69,10 @@
       };
       const close = () => { closed = true; dispose(); };
       players.add(close);
-      video.addEventListener('play', () => document.getElementById('music-audio')?.pause());
+      video.addEventListener('play', () => {
+        document.getElementById('music-audio')?.pause();
+        document.querySelectorAll('video[data-ambient-video]').forEach(ambient => ambient.pause());
+      });
       const start = () => {
         if (!authorized()) { dispose(); return; }
         const focusVideo = focusAfterLoad && [button, document.body].includes(document.activeElement);
@@ -81,23 +87,34 @@
         button.disabled = false; button.hidden = false;
         if (focusAfterLoad && [button, document.body].includes(document.activeElement)) button.focus({preventScroll: true});
       };
-      video.addEventListener('error', () => { if (urls && authorized()) fail(); });
+      video.addEventListener('error', () => { if ((urls || video.hasAttribute('src')) && authorized()) fail(); });
+      if (publicScene) video.addEventListener('loadedmetadata', () => { if (!hls && authorized()) start(); });
       button.addEventListener('click', async () => {
         if (!authorized() || button.disabled) return;
         focusAfterLoad = document.activeElement === button;
         button.disabled = true; status.textContent = 'Preparing video…';
         try {
-          dispose(); urls = prepare(scene.protectedHls);
+          dispose();
+          let playlistUrl;
+          if (publicScene) {
+            playlistUrl = new URL(scene.hls, document.baseURI).href;
+          } else {
+            urls = prepare(scene.protectedHls);
+            playlistUrl = urls.playlistUrl;
+          }
           const Hls = await loadLibrary();
           if (!authorized()) { dispose(); return; }
           if (Hls.isSupported()) {
             hls = new Hls({maxBufferLength: 18, maxMaxBufferLength: 30, backBufferLength: 12, maxBufferSize: 48 * 1024 * 1024, lowLatencyMode: false});
             hls.on(Hls.Events.MANIFEST_PARSED, start);
             hls.on(Hls.Events.ERROR, (_event, data) => { if (data.fatal) fail(); });
-            hls.loadSource(urls.playlistUrl); hls.attachMedia(video);
+            hls.loadSource(playlistUrl); hls.attachMedia(video);
+          } else if (publicScene && video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = playlistUrl;
+            video.load();
           } else {
             // Native HLS cannot reliably read these private, memory-only manifests/keys.
-            fail('This browser cannot play this protected video. Please update your browser and try again.');
+            fail(`This browser cannot play this ${publicScene ? '' : 'protected '}video. Please update your browser and try again.`);
           }
         } catch { fail(); }
       });

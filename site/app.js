@@ -461,7 +461,28 @@ function lockVault() {
   renderArticle(location.hash.slice(1) || "world-index", false);
 }
 
-function renderVaultGate() {
+function renderSceneFigure(scene, index, publicPreview = false) {
+  const stream = Boolean(scene.protectedHls || scene.hls);
+  const kind = publicPreview ? 'public' : 'protected';
+  return `<figure class="gallery-wide"${stream ? ` data-${kind}-scene="${index}"` : ''}><video data-story-scene controls playsinline disableremoteplayback preload="none" poster="${escapeHtml(scene.poster || '')}" aria-label="${escapeHtml(scene.title)}">${stream ? '' : `<source src="${escapeHtml(scene.video || '')}" type="video/mp4">`}</video>${stream ? `<div class="protected-scene-controls"><button type="button" data-load-${kind}-scene>Play video</button><span data-${kind}-scene-status role="status" aria-live="polite"></span></div>` : ''}<figcaption><strong>${escapeHtml(scene.title)}</strong><span>${escapeHtml(scene.caption)}</span></figcaption></figure>`;
+}
+
+function renderVaultGate(article) {
+  // This single owner-approved film is public; never select scenes from vault data here.
+  const preview = article.id === 'death-dumuzi' ? article.publicPreview : null;
+  if (preview) {
+    articleContent.innerHTML = `
+      <header class="article-header"><p class="article-kicker">A recorded account</p><h1>${escapeHtml(preview.title)}</h1></header>
+      <section class="character-scenes public-record-preview" aria-label="${escapeHtml(preview.title)}"><div class="image-gallery">${renderSceneFigure(preview, 0, true)}</div></section>
+      <section class="vault-gate vault-gate-preview locked-record" aria-labelledby="protected-record-title">
+        <h2 id="protected-record-title">Death’s full record</h2>
+        <p>Open the spoiler vault to read the full history and explore the remaining scenes.</p>
+        <button type="button" data-open-vault>Sign in with Discord to open the vault</button>
+      </section>`;
+    contents.innerHTML = '';
+    window.CodexProtectedMedia?.setup(articleContent, {scenes: [preview]}, () => !vaultUnlocked);
+    return;
+  }
   articleContent.innerHTML = `
     <section class="vault-gate locked-record" aria-labelledby="protected-record-title">
       <span class="vault-gate-sigil" aria-hidden="true">◆</span>
@@ -855,10 +876,12 @@ function renderArticle(route, pushHash = true) {
   }
   if (requestedId !== id && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
-  document.title = `${protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`;
+  const publicPreview = protectedArticle && article.id === 'death-dumuzi' && article.publicPreview;
+  document.title = `${publicPreview ? publicPreview.title : protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`;
   const path = articlePaths.get(article.id) || [article.category, article.title];
-  breadcrumbs.innerHTML = protectedArticle ? `Codex <span>·</span> Protected record` : `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
+  breadcrumbs.innerHTML = protectedArticle ? `Codex <span>·</span> ${publicPreview ? 'Death' : 'Protected record'}` : `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
   if (protectedArticle) {
+    articleContent.removeAttribute('aria-busy');
     renderVaultGate(article);
     updateNavigationHighlight(article);
     closePanels();
@@ -894,7 +917,7 @@ function renderArticle(route, pushHash = true) {
   const hero = article.video
     ? `${mapHero}${videoHero}`
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}">${heroCaption(article.imageCaption, "Image preserved in the Fenumion archive.")}</figure>` : "");
-  const scenes = article.scenes?.length ? `<section class="character-scenes" aria-labelledby="character-scenes-title"><h2 id="character-scenes-title">Scenes from the story</h2><div class="image-gallery">${article.scenes.map((scene, index) => `<figure class="gallery-wide"${scene.protectedHls ? ` data-protected-scene="${index}"` : ''}><video data-story-scene controls playsinline disableremoteplayback preload="none" poster="${escapeHtml(scene.poster || '')}" aria-label="${escapeHtml(scene.title)}">${scene.protectedHls ? '' : `<source src="${escapeHtml(scene.video || '')}" type="video/mp4">`}</video>${scene.protectedHls ? '<div class="protected-scene-controls"><button type="button" data-load-protected-scene>Play video</button><span data-protected-scene-status role="status" aria-live="polite"></span></div>' : ''}<figcaption><strong>${escapeHtml(scene.title)}</strong><span>${escapeHtml(scene.caption)}</span></figcaption></figure>`).join('')}</div></section>` : '';
+  const scenes = article.scenes?.length ? `<section class="character-scenes" aria-labelledby="character-scenes-title"><h2 id="character-scenes-title">Scenes from the story</h2><div class="image-gallery">${article.scenes.map((scene, index) => renderSceneFigure(scene, index)).join('')}</div></section>` : '';
   const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
 
   const subchannels = renderSubchannels(article.id);

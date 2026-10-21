@@ -2,6 +2,10 @@
 
 Last updated: 2026-10-21
 
+## Illustrated chronicle · 21 October 2026
+
+Owner authorizes all seven visual upgrades: readable typography, distinctive World Changing cards, a wider compact timeline, year/month navigation and decorative month ornaments, portrait-led character profiles with documented relationships, sourced regional accents, and a clearer homepage with a compact music/vault/approved-content dock. Existing dates, source qualifications, filters, routes and access behavior remain. No lore or geography is invented. Canonical records outside the homepage body and the complete private payload compare equal. App/catalog254, styles175, article-layout2, visual1; reader3/protected-media3 unchanged. See VISUAL_CHRONICLE.md for implementation, preservation and verification. Deployment receipt follows hosted and live checks.
+
 ## Named calendar months and years · 21 October 2026
 
 Owner supplies twelve month names and explicitly chooses January 1 rollover, with 2024 as Year 1. The first Gate arrival is 4, Month of War, Year 1 / total Day 1; the October Babel expedition is 18, Month of Death, Year 3 / total Day 959. The canonical registry and shared date formatter retain source dates, ranges, approximate months, report/bound qualifications and existing quest adjustments. Main/home timelines, dialogs, histories and chains share named dates; chronological browsing adds year/month headings and a collapsible month key. Named-calendar search supports Namo'o apostrophe variants and avoids incidental Death mentions. All event metadata, ratings, protected stubs and the private payload are preserved. App/catalog253, reader3, styles174. See FINAL_WAR_CALENDAR.md.

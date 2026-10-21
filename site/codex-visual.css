@@ -1,0 +1,204 @@
+/* Fenumion's illustrated chronicle. No lore or map geometry is encoded in this layer. */
+body.fenumion-world {
+  --sans: 'Avenir Next', 'Segoe UI', system-ui, sans-serif;
+  --region-accent: #d8bd7a;
+  --muted: #b7c2bc; --faint: #9ca9a2;
+  font-size: 19px; font-weight: 500;
+}
+.fenumion-world[data-codex-region='prima'] { --region-accent: #85bfa2; }
+.fenumion-world[data-codex-region='gael'] { --region-accent: #c3cd92; }
+.fenumion-world[data-codex-region='fein-uaill'] { --region-accent: #a3bde4; }
+.fenumion-world[data-codex-region='babel-ashur'] { --region-accent: #c2a4dc; }
+.fenumion-world[data-codex-region='voraketh'] { --region-accent: #9bbec7; }
+.fenumion-world[data-codex-region='verdelune'] { --region-accent: #d6b58e; }
+.fenumion-world :is(button,input,select,textarea,label,summary,kbd) { font-family: var(--sans); letter-spacing: normal; }
+.fenumion-world :is(input,select,textarea) { font-size: 16px; }
+.fenumion-world :is(h1,h2,h3,.brand strong,.event-copy>strong,.index-card-copy>strong,.gateway-tile>span,.feature-copy>strong) { font-family: var(--serif); }
+.fenumion-world :is(.eyebrow,.article-kicker,.record-dialog-kicker,.event-kind,.character-card-kicker,.browser-summary,.tag,.article-meta,.gateway-overline,.feature-label,.timeline-results-summary) { font-family: var(--sans); font-size: .75rem; letter-spacing: .08em; }
+.fenumion-world .article-body :is(p,li), .fenumion-world .record-dialog-body p { font-size: 1.125rem; line-height: 1.75; }
+.fenumion-world .article-body p { max-width: 78ch; }
+.fenumion-world :is(.event-summary,.index-card-copy>span:not(.character-card-kicker),.place-summary,.search-result>span) { font: 500 1.0625rem/1.6 var(--text); }
+.fenumion-world .event-people { font: 500 .875rem/1.5 var(--text); color: #c2cbc6; }
+.fenumion-world .event-people b, .fenumion-world .event-tags i { font: 500 .72rem/1.45 var(--sans); }
+.fenumion-world .event-tags { gap: .4rem; }
+.fenumion-world .event-expand { font: 600 .75rem/1.4 var(--sans); margin-top: .8rem; }
+.fenumion-world .timeline-calendar-date { font: 600 .875rem/1.5 var(--sans); }
+.fenumion-world :is(.timeline-war-day,.timeline-source-date,.timeline-date-status) { font: 400 .78rem/1.5 var(--sans); }
+.fenumion-world .timeline-date-status { color: #b7c4be; }
+.fenumion-world :is(.timeline-select-shell select,.timeline-search-field input,.research-controls input,.research-controls select) { font: 400 1rem/1.4 var(--sans); }
+.fenumion-world :is(.timeline-search-label,.timeline-select-shell>span) { font-size: .7rem; letter-spacing: .07em; }
+.fenumion-world :is(.record-summary,.record-chapter,.character-brief,.article-body,.record-dialog) { border-color: color-mix(in srgb, var(--region-accent) 25%, #263831); }
+.fenumion-world .article-header { border-top: 2px solid var(--region-accent); }
+.chronicle-region-badges,.chronicle-role-badges { display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-top:1rem; }
+.fenumion-world .chronicle-region-badge,.chronicle-role-badges>span { display:inline-flex;gap:.4rem;align-items:center;min-height:32px;padding:.25rem .65rem;border:1px solid color-mix(in srgb,var(--region-accent) 40%,transparent);border-radius:99px;background:#101c19c9;color:var(--region-accent);font:500 .75rem/1.4 var(--sans);text-decoration:none; }
+.chronicle-region-badge[data-region=prima]{--region-accent:#85bfa2}.chronicle-region-badge[data-region=gael]{--region-accent:#c3cd92}.chronicle-region-badge[data-region=fein-uaill]{--region-accent:#a3bde4}.chronicle-region-badge[data-region=babel-ashur]{--region-accent:#c2a4dc}.chronicle-region-badge[data-region=voraketh]{--region-accent:#9bbec7}.chronicle-region-badge[data-region=verdelune]{--region-accent:#d6b58e}
+.index-card[data-region=prima]{--region-accent:#85bfa2}.index-card[data-region=gael]{--region-accent:#c3cd92}.index-card[data-region=fein-uaill]{--region-accent:#a3bde4}.index-card[data-region=babel-ashur]{--region-accent:#c2a4dc}.index-card[data-region=voraketh]{--region-accent:#9bbec7}.index-card[data-region=verdelune]{--region-accent:#d6b58e}
+.fenumion-world .index-card[data-region] { border-bottom:2px solid var(--region-accent); }
+/* Full reading area for the timeline, with supporting context available on demand. */
+body.fenumion-world.timeline-workspace-view .article-header { min-height:0;padding:1.6rem 0 .9rem;background:none;text-align:left; }
+.fenumion-world.timeline-workspace-view .article-header h1 { font-size:clamp(1.8rem,4vw,2.8rem);margin:.45rem 0; }
+.fenumion-world.timeline-workspace-view .article-header .dek { font:500 1.05rem/1.6 var(--text);margin:.3rem 0; }
+.fenumion-world.timeline-workspace-view .article-header .article-meta { display:none; }
+.fenumion-world.timeline-workspace-view .article-wrap { padding:1.4rem clamp(1rem,3vw,3rem) 4rem; }
+.fenumion-world.timeline-workspace-view .hub-switcher { display:flex;gap:.5rem;flex-wrap:wrap;width:100%;margin:.5rem 0; }
+.fenumion-world.timeline-workspace-view .hub-switcher .gateway-tile { min-height:44px;padding:.45rem .8rem;background:#111d18;border:1px solid #34453b;border-radius:5px; }
+.fenumion-world.timeline-workspace-view .hub-switcher .gateway-tile span { font:500 .8rem/1.4 var(--sans); }
+.fenumion-world.timeline-workspace-view .hub-switcher .gateway-tile small { display:none; }
+.fenumion-world.timeline-workspace-view .lead-grid { width:100%;margin:0; }
+.fenumion-world.timeline-workspace-view .article-body { padding:1rem clamp(.8rem,2vw,1.5rem);background:#101a17f5; }
+.fenumion-world.timeline-workspace-view .history-video-backdrop { opacity:.2; }
+.workspace-context { margin:0 0 1rem;color:var(--muted);font-size:.9rem; }
+.workspace-context>summary { min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--gold);font-size:.8rem; }
+.workspace-context .infobox { margin-top:.8rem; }
+.fenumion-world .timeline-calendar-note { display:none; }
+.fenumion-world .timeline-month-guide { margin:0 0 .65rem; }
+.fenumion-world .timeline-month-guide summary,.fenumion-world .timeline-level-guide summary { font-size:.8rem; }
+.fenumion-world .timeline-controls { background:#15211cf5;border:1px solid #34473d;gap:.75rem;padding:.9rem;border-radius:8px; }
+.fenumion-world .timeline-era-header { margin-top:1.5rem; }
+.fenumion-world .timeline-era-header h3 { font-size:1.4rem; }
+.fenumion-world .timeline-era-header>span { font:500 .75rem/1.4 var(--sans); }
+.fenumion-world .timeline-month-heading { display:flex;gap:.6rem;align-items:center;padding:.8rem 0;font:600 .9rem/1.4 var(--sans);color:#e2ca91; }
+.timeline-month-heading svg { width:29px;height:29px; }
+.fenumion-world .event-card { --scope:#b3bab6;grid-template-columns:minmax(150px,.23fr) minmax(0,1fr);border-left:3px solid var(--scope);border-radius:5px;gap:1.4rem;padding:1.2rem;background:#14221c; }
+.fenumion-world .event-card[data-importance='2'],.fenumion-world .index-card[data-importance='2'] { --scope:#b4c891; }
+.fenumion-world .event-card[data-importance='3'],.fenumion-world .index-card[data-importance='3'] { --scope:#85c8c1; }
+.fenumion-world .event-card[data-importance='4'],.fenumion-world .index-card[data-importance='4'] { --scope:#b9a2dc; }
+.fenumion-world .event-card[data-importance='5'],.fenumion-world .index-card[data-importance='5'] { --scope:#edc878;border-color:#a88c4b;background:linear-gradient(115deg,#30291b,#18221d 65%); }
+.fenumion-world .event-card[data-importance='5'] { grid-template-columns:minmax(150px,.25fr) minmax(0,1fr) minmax(170px,.45fr);padding:1.4rem;box-shadow:inset 0 1px #d4b46d30,0 12px 36px #0003; }
+.fenumion-world .event-card[data-importance='5'] .event-copy>strong { font-size:1.4rem;line-height:1.4; }
+.fenumion-world .event-card::before { background:var(--scope); }
+.fenumion-world .event-card .event-copy>strong { font-size:1.12rem;line-height:1.45; }
+.fenumion-world .event-importance { display:inline-flex;align-items:center;gap:.45rem;color:var(--scope,var(--gold));border-color:color-mix(in srgb,var(--scope,var(--gold)) 45%,transparent);background:#0d171380;padding:.4rem .55rem;font:600 .72rem/1.4 var(--sans); }
+.event-importance svg { width:24px;height:24px;flex:0 0 24px; }
+.chronicle-event-art { position:relative;display:block;align-self:stretch;min-height:180px;overflow:hidden;border:1px solid #caa96355;border-radius:4px; }
+.chronicle-event-art img { width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:center 25%; }
+.chronicle-event-art::after { content:'';position:absolute;inset:40% 0 0;background:linear-gradient(transparent,#080f0de8); }
+.chronicle-event-art small { position:absolute;z-index:1;bottom:.6rem;left:.6rem;color:#e0d4b3;font:400 .65rem/1.3 var(--sans); }
+/* Calendar ornaments organize the reader's place; their names remain text labels. */
+.chronicle-calendar { padding:1rem;margin:1rem 0 1.5rem;background:linear-gradient(110deg,#17271f,#161e21);border:1px solid #72623e;border-radius:8px; }
+.chronicle-calendar-toolbar { display:flex;align-items:end;flex-wrap:wrap;gap:.75rem; }
+.chronicle-kicker { display:flex;gap:.55rem;align-items:center;font:600 .7rem/1.5 var(--sans);letter-spacing:.09em;text-transform:uppercase;color:var(--gold); }
+.chronicle-kicker svg { height:28px;width:28px;flex:0 0 28px; }
+.chronicle-calendar-toolbar>.chronicle-kicker { margin-right:auto;align-self:center; }
+.chronicle-calendar-toolbar label { display:grid;gap:.3rem;font-size:.75rem;color:var(--muted); }
+.chronicle-calendar select,.chronicle-calendar-toolbar>button { min-height:44px;padding:.55rem .7rem;border:1px solid #5b634d;border-radius:5px;background:#101a16;color:var(--ink);font:400 1rem/1.3 var(--sans); }
+.chronicle-calendar-toolbar>button { background:#d8bd7a;color:#152017;cursor:pointer; }
+.chronicle-month-ribbon { display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:.3rem;margin-top:1rem;padding-top:1rem;border-top:1px solid #d3b65a30; }
+.chronicle-month-ribbon button { display:grid;justify-items:center;gap:.4rem;min-width:0;min-height:70px;padding:.45rem .1rem;border:1px solid transparent;border-radius:6px;background:transparent;color:#e7d7aa;cursor:pointer;font:400 .67rem/1.3 var(--sans); }
+.chronicle-month-ribbon svg { width:28px;height:28px; }
+.chronicle-month-ribbon button:disabled { opacity:.3;cursor:default; }
+.chronicle-month-ribbon button:not(:disabled):hover { border-color:#d8bd7a;background:#d8bd7a12; }
+.fenumion-world .event-card { scroll-margin-top:200px; }
+/* Portrait-led character introductions and source-backed relationship links. */
+.fenumion-world .chronicle-person .article-header { display:block;min-height:300px;padding:1.5rem 1.5rem 1.5rem 255px;position:relative;background:linear-gradient(110deg,#12221eeb,#121c23f5);border-radius:8px; }
+.chronicle-person-portrait { position:absolute;inset:0 auto 0 0;width:225px;margin:0;overflow:hidden;border-right:1px solid #d8bd7a55; }
+.chronicle-person-portrait img { display:block;width:100%;height:100%;object-fit:cover;object-position:center 20%; }
+.fenumion-world .chronicle-person .article-header h1 { font-size:clamp(1.7rem,3vw,2.8rem);line-height:1.35; }
+.fenumion-world .chronicle-person .article-header .dek { font-size:1.1rem;line-height:1.6; }
+.chronicle-relationships { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem;margin:1.1rem 0 0; }
+.chronicle-relationships a { min-width:0;display:flex;align-items:center;gap:.65rem;padding:.6rem;color:var(--ink);background:#0b1512b8;border:1px solid #435449;border-radius:5px;text-decoration:none; }
+.chronicle-relationships :is(img,.relationship-monogram) { width:42px;height:52px;object-fit:cover;object-position:center 20%;flex:0 0 42px;border-radius:3px; }
+.relationship-monogram { display:grid;place-items:center;color:var(--gold);border:1px solid #5b634d; }
+.chronicle-relationships strong { display:block;font:600 .8rem/1.4 var(--sans); }
+.chronicle-relationships small { display:block;color:var(--muted);font:400 .75rem/1.45 var(--sans); }
+.chronicle-character-header { display:grid;grid-template-columns:minmax(160px,.4fr) minmax(0,1fr);gap:1.6rem;align-items:center;margin-bottom:1.5rem; }
+.fenumion-world .chronicle-character-header .record-dialog-media { width:100%;height:300px;margin:0;border:1px solid #d8bd7a50;border-radius:6px;overflow:hidden; }
+.fenumion-world .chronicle-character-header .record-dialog-media :is(img,video) { width:100%;height:100%;object-fit:cover;object-position:center 18%; }
+.fenumion-world .chronicle-character-heading h2 { margin:.6rem 0;font-size:clamp(1.5rem,4vw,2.5rem);line-height:1.35; }
+.chronicle-character-panel>.chronicle-relationships { margin-bottom:1.5rem; }
+.fenumion-world .record-dialog :is(.record-dialog-kicker,.npc-region-label,.record-dialog-dek) { font-size:.875rem; }
+.fenumion-world .record-dialog-body strong { font:600 .8rem/1.5 var(--sans); }
+.fenumion-world .index-card img { object-position:center 18%; }
+.fenumion-world .record-visual-rail .article-hero { border-top:2px solid var(--region-accent); }
+/* A single compact header dock replaces the two floating reading-area pills. */
+.codex-utility-dock { position:fixed;top:12px;right:14px;z-index:71;display:flex;gap:6px;align-items:center; }
+.fenumion-world .codex-utility-dock .music-player { position:relative;inset:auto;transform:none;width:44px; }
+.fenumion-world .codex-utility-dock :is(.music-toggle,.vault-fab,.approved-content-link) { position:static;transform:none;width:44px;height:44px;min-width:44px;min-height:44px;margin:0;padding:0;display:grid;place-items:center;border:1px solid #746540;border-radius:7px;background:#142019f5;color:#e5cc8a;box-shadow:none; }
+.fenumion-world .codex-utility-dock .music-toggle-icon { background:none;color:inherit;font-size:1.5rem;width:auto;height:auto; }
+.fenumion-world .codex-utility-dock :is(.music-toggle-label,.music-toggle-now,.vault-fab strong,.vault-fab small) { display:none; }
+.fenumion-world .codex-utility-dock .vault-fab>span { font-size:1.1rem; }
+.fenumion-world .codex-utility-dock .vault-fab.unlocked { border-color:#8ed0a8;color:#8ed0a8; }
+.fenumion-world .codex-utility-dock .music-panel { position:fixed;inset:70px 12px auto auto;transform:none;width:min(390px,calc(100vw - 24px));max-height:calc(100dvh - 88px);overflow:auto; }
+body.fenumion-world.codex-world .topbar { padding-right:172px; }
+.fenumion-world .topbar-actions .approved-content-link,.fenumion-world .home-external-actions { display:none; }
+.fenumion-world.home-view .gateway-hero-inner { padding-top:3.5rem; }
+.fenumion-world.panels-open .codex-utility-dock { visibility:hidden; }
+/* The world opens with a clear title, reading paths and an established quest turning point. */
+.fenumion-world .gateway-title { margin:.7rem 0 1rem;font:400 clamp(2.3rem,5.5vw,4.5rem)/1.2 var(--serif);color:#f4e4b8;text-shadow:0 3px 30px #000; }
+.fenumion-world .gateway-sigil { width:74px;height:74px; }
+.fenumion-world .gateway-hero-inner>p:not(.gateway-overline) { font:500 1.2rem/1.6 var(--text); }
+.fenumion-world .gateway-search { margin-top:1.5rem;background:#e2c57e;border-radius:7px; }
+.fenumion-world .gateway-search input { font:500 1rem/1.4 var(--sans); }
+.chronicle-pathways { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.7rem;width:100%;max-width:850px;margin:1.5rem auto 0; }
+.chronicle-pathways a { display:flex;flex-direction:column;gap:.35rem;padding:1rem;border:1px solid #d8bd7a50;border-radius:6px;background:#0d1915e8;color:var(--ink);text-decoration:none;text-align:left; }
+.chronicle-pathways strong { font:600 .9rem/1.4 var(--sans);color:var(--gold-bright); }
+.chronicle-pathways span { font:500 1rem/1.4 var(--text);color:var(--muted); }
+.fenumion-world .gateway-categories .gateway-tile { min-height:80px; }
+.chronicle-home-stories { display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:1rem;margin:2rem 0; }
+.chronicle-turning-point { display:grid;grid-template-columns:minmax(0,1fr) minmax(160px,.6fr);gap:1rem;padding:1.5rem;text-align:left;border:1px solid #aa8d50;border-radius:8px;background:linear-gradient(120deg,#30291b,#14241d);color:var(--ink);cursor:pointer; }
+.chronicle-feature-copy { display:flex;flex-direction:column;gap:1rem;min-width:0; }
+.chronicle-feature-copy>strong { font:400 clamp(1.4rem,2.5vw,2rem)/1.4 var(--serif);color:#f2dfaf; }
+.chronicle-feature-copy>span:not(.chronicle-kicker,.chronicle-feature-action,.chronicle-feature-date) { font:500 1.1rem/1.6 var(--text); }
+.chronicle-feature-date .timeline-calendar-date { font-size:.8rem; }
+.chronicle-feature-action { margin-top:auto;font:600 .8rem/1.5 var(--sans);color:var(--gold-bright); }
+.chronicle-recent { display:flex;flex-direction:column;gap:.5rem;padding:1.1rem;background:#14211b;border:1px solid #415346;border-radius:8px; }
+.chronicle-recent>p { margin:0 0 .5rem; }
+.chronicle-recent button { display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.35rem .5rem;text-align:left;background:none;color:var(--ink);border:0;border-top:1px solid #36483c;padding:.8rem 0;cursor:pointer; }
+.chronicle-recent button small { grid-column:1/-1;font:400 .72rem/1.5 var(--sans);color:var(--muted); }
+.chronicle-recent button strong { font:500 1.05rem/1.45 var(--text); }
+.chronicle-recent>a { margin-top:auto;font:500 .8rem/1.5 var(--sans);color:var(--gold); }
+.fenumion-world .feature-card { border-radius:8px;border-color:#526044; }
+.fenumion-world .feature-copy small { font-size:1.05rem;line-height:1.55; }
+.fenumion-world :is(a,button,summary,input,select):focus-visible { outline:2px solid #f3d997;outline-offset:4px; }
+@media(min-width:1101px) {
+ .fenumion-world.timeline-workspace-view #timeline-explorer>.timeline-controls { grid-template-columns:minmax(180px,1.3fr) repeat(4,minmax(0,1fr));position:sticky;top:75px;z-index:5;backdrop-filter:blur(12px); }
+ .fenumion-world.timeline-workspace-view .timeline-controls>.timeline-search-shell { grid-column:auto; }
+ .fenumion-world:not(.home-view) .record-overview { grid-template-columns:250px minmax(0,1fr); }
+}
+@media(max-width:1100px) {
+ .fenumion-world .topbar .brand { flex-basis:170px!important; }
+ .fenumion-world .topbar .brand small { display:none; }
+ .fenumion-world .event-card[data-importance='5'] { grid-template-columns:150px minmax(0,1fr); }
+ .event-card[data-importance='5']>.chronicle-event-art { grid-column:1/-1;grid-row:1;min-height:180px;max-height:220px; }
+ .chronicle-home-stories { grid-template-columns:minmax(0,1fr); }
+ .chronicle-recent { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem; }
+ .chronicle-recent>p,.chronicle-recent>a { grid-column:1/-1; }
+ .chronicle-month-ribbon { grid-template-columns:repeat(6,minmax(0,1fr)); }
+}
+@media(max-width:760px) {
+ body.fenumion-world.codex-world .topbar { display:flex;padding-left:.7rem;padding-right:156px;gap:.45rem; }
+ .fenumion-world .topbar .brand { flex:0 0 38px!important; }
+ .fenumion-world .topbar .brand>span:last-child { display:none; }
+ .fenumion-world .brand-mark { width:36px;height:36px; }
+ .fenumion-world .search-toggle { margin-left:auto;flex:0 0 40px; }
+ .codex-utility-dock { right:8px;top:10px;gap:4px; }
+ .fenumion-world .article-wrap { padding:1.2rem .85rem 2.5rem; }
+ .fenumion-world .article-body :is(p,li),.fenumion-world .record-dialog-body p { font-size:1.0625rem; }
+ .fenumion-world .event-card,.fenumion-world .event-card[data-importance='5'] { grid-template-columns:minmax(0,1fr);gap:1rem;padding:1rem; }
+ .fenumion-world .event-card[data-importance='5']>.chronicle-event-art { grid-column:1;min-height:155px; }
+ .fenumion-world .event-date { display:flex;flex-wrap:wrap;gap:.35rem .7rem;align-items:center; }
+ .fenumion-world .event-date :is(.timeline-calendar-date,.timeline-source-date,.timeline-date-status) { flex-basis:100%; }
+ .fenumion-world .event-date .event-importance { margin-top:0; }
+ .chronicle-month-ribbon { display:none; }
+ .chronicle-calendar-toolbar>.chronicle-kicker { flex-basis:100%; }
+ .chronicle-calendar-toolbar label { flex:1 1 115px;min-width:0; }
+ .chronicle-calendar-toolbar select { width:100%; }
+ .chronicle-calendar-toolbar>button { width:100%; }
+ .fenumion-world .chronicle-person .article-header { padding:1.2rem; }
+ .chronicle-person-portrait { position:relative;inset:auto;width:100%;height:280px;border-right:0;border-bottom:1px solid #d8bd7a55;border-radius:6px;margin-bottom:1.2rem; }
+ .chronicle-person-portrait img { object-fit:contain;background:#0c1714; }
+ .chronicle-character-header { grid-template-columns:110px minmax(0,1fr);gap:.8rem; }
+ .fenumion-world .chronicle-character-header .record-dialog-media { height:200px; }
+ .fenumion-world .chronicle-character-heading h2 { font-size:1.3rem; }
+ .chronicle-relationships { grid-template-columns:minmax(0,1fr); }
+ .chronicle-pathways { grid-template-columns:minmax(0,1fr);gap:.45rem; }
+ .chronicle-pathways a { padding:.8rem 1rem; }
+ .fenumion-world .gateway-hero-inner { padding:2rem 1rem!important; }
+ .fenumion-world .gateway-title { font-size:2.2rem; }
+ .chronicle-turning-point { grid-template-columns:minmax(0,1fr);padding:1.1rem; }
+ .chronicle-turning-point>.chronicle-event-art { grid-row:1;min-height:200px; }
+ .chronicle-recent { grid-template-columns:minmax(0,1fr); }
+ .chronicle-recent>p,.chronicle-recent>a { grid-column:1; }
+ .fenumion-world .index-card-copy>strong { line-height:1.4; }
+}
+@media(prefers-reduced-motion:reduce) { .fenumion-world *, .fenumion-world *::before,.fenumion-world *::after { scroll-behavior:auto!important;animation:none!important;transition:none!important; } }

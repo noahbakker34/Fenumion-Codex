@@ -1,9 +1,18 @@
 /* Shared reading layout for both world codices. */
 window.organizeCodexPage = function(root, options={}) {
-  document.body.classList.remove('record-layout-view');
+  document.body.classList.remove('record-layout-view','timeline-workspace-view');
   const body=root.querySelector('.article-body');
   const lead=root.querySelector('.lead-grid');
   if(options.home || !body || !lead) return;
+  if(options.workspace) {
+    document.body.classList.add('timeline-workspace-view');
+    const context=document.createElement('details');context.className='workspace-context';
+    const heading=document.createElement('summary');heading.textContent='About this chronology and its calendar';context.append(heading);
+    while(body.firstElementChild?.matches('p,blockquote,.callout,.quote'))context.append(body.firstElementChild);
+    const facts=lead.querySelector(':scope > .infobox');if(facts)context.append(facts);
+    body.prepend(context);
+    return;
+  }
   document.body.classList.add('record-layout-view');
 
   const overview=document.createElement('div');

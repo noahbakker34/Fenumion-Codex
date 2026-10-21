@@ -218,6 +218,7 @@ function closeRecordDialog() {
 
 function openTimelineRecord(item) {
   if (!recordDialog || !recordDialogContent || isRestrictedTimelineEvent(item)) return;
+  recordDialogContent.classList.remove('chronicle-character-panel');
   delete recordDialogContent.dataset.character;
   const [whatHappened, whyItMatters] = timelineDetailParagraphs(item);
   const context = timelineBrowseContext?.route === location.hash && timelineBrowseContext.items.includes(item) ? timelineBrowseContext.items : null;
@@ -288,6 +289,7 @@ function openCharacterRecord(person, personLabel = "Character") {
     </div>
     ${canonical?.brief ? `<div class="record-dialog-body"><p><strong>Last established status</strong>${escapeHtml(canonical.brief.status)}</p></div>` : ""}
     ${person.prominence ? `<div class="record-dialog-body"><p><strong>Documented prominence · ${person.prominence.score}/100 · ${escapeHtml(person.prominence.confidence)}</strong>${escapeHtml(person.prominence.reason)}</p></div>` : ""}${relatedButton}${islandButton}`;
+  window.CodexVisual?.decorateDialog(recordDialogContent,person,canonical,personLabel,codexVisualContext());
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
   else if (!recordDialog.open) recordDialog.setAttribute("open", "");
   recordDialog.scrollTop = 0;
@@ -298,6 +300,7 @@ function openCharacterRecord(person, personLabel = "Character") {
 function openLocationRecord(place) {
   if (!recordDialog || !recordDialogContent) return;
   delete recordDialogContent.dataset.character;
+  recordDialogContent.classList.remove('chronicle-character-panel');
   const relatedLabel = place.article === "visual-archive" ? "Open the Location Atlas" : "Open related location history";
   const aliases = (place.aliases || []).length
     ? `<span>Also recorded as · ${escapeHtml(place.aliases.join(" · "))}</span>`
@@ -836,6 +839,8 @@ if('scrollRestoration' in history)history.scrollRestoration='manual';
 function renderArticle(route, pushHash = true) {
   const previousScroll=window.scrollY;
   const renderEpoch = ++articleRenderEpoch;
+  delete document.body.dataset.codexRegion;
+  articleContent.classList.remove('chronicle-person');
   window.cleanupFenumionArt?.();
   window.CodexProtectedMedia?.cleanup();
   // Preserve existing bookmarks after Vaerik’s world correction.
@@ -1003,10 +1008,12 @@ function renderArticle(route, pushHash = true) {
   const hasConnections=visualConnections.length>0;
   if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
   const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
-  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', workspace:article.id==='living-timeline', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  window.CodexVisual?.decorateArticle(articleContent,article,codexVisualContext());
   if (article.id === "world-index") {
     setupWorldBrowser();
     setupFeaturedContent();
+    window.CodexVisual?.home(articleContent,codexVisualContext());
   }
   if (article.id === "people-directory") setupPeopleGallery();
   if (article.id === "art-of-fenumion") window.setupFenumionArt?.(articleContent);
@@ -1030,6 +1037,7 @@ function renderArticle(route, pushHash = true) {
   updateNavigationHighlight(article);
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
   window.CodexReader.afterRender(article, articleContent);
+  window.CodexVisual?.decorateCards(articleContent,codexVisualContext());
   buildContents();
   closePanels();
   articleContent.dataset.route=routeHash;
@@ -1128,6 +1136,7 @@ function setupPeopleGallery() {
         <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${protectedRecordTitle(person.title, protectedRecord)}</strong>${!protectedRecord && person.personKind === "npc" ? `<small class="npc-region-label">${escapeHtml(npcRegionLabel(person))}</small>` : ""}${!protectedRecord && person.prominence ? `<small>Prominence ${person.prominence.score}/100 · ${escapeHtml(person.prominence.confidence)}</small>` : ""}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
       </button>`;
     }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
+    window.CodexVisual?.decorateCards(gallery,codexVisualContext());
     setupAmbientVideos(kindBanner.closest(".people-gallery-shell"));
   };
 
@@ -1271,8 +1280,9 @@ function setupWorldBrowser() {
         return `
         <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}" aria-label="${protectedRecordAria(item.title, protectedRecord)}"${protectedRecord ? "" : activeView === "timeline" ? ` data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}"` : activeView === "characters" ? ` data-character-title="${escapeHtml(item.title)}"` : ""}>
           ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
-          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : activeView === "timeline" ? timelineDateMarkup(item) : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong>${activeView === 'timeline' && !protectedRecord ? `<span class="event-importance">${timelineImportanceLabel(item)}</span>` : ''}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
+          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : activeView === "timeline" ? timelineDateMarkup(item) : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong>${activeView === 'timeline' && !protectedRecord ? `<span class="event-importance">${timelineImportanceMarkup(item)}</span>` : ''}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
         </button>`; }).join("")}</div>`;
+    window.CodexVisual?.decorateCards(browser,codexVisualContext());
     setupAmbientVideos(articleContent);
   };
 
@@ -1565,6 +1575,10 @@ function findTimelineRecord(title) {
 }
 function timelineImportance(item) { return timelineImportanceLevels.find(level => level.level === item.importance); }
 function timelineImportanceLabel(item) { const level = timelineImportance(item); return level ? `${level.level}. ${level.label}` : 'Unrated'; }
+function timelineImportanceMarkup(item) { return `${window.CodexVisual?.scopeIcon(item.importance) || ''}<span>${timelineImportanceLabel(item)}</span>`; }
+function codexVisualContext() {
+  return {byId,allowed:isPlayerSafeArticle,people:[...archiveIndex.characters,...archiveIndex.npcs],places:archiveIndex.islands,events:archiveIndex.timeline.filter(readableTimelineEvent),compare:compareTimelineEvents,date:timelineDateMarkup,namedDate:timelineCalendarDateLabel,window:timelineCalendarWindow,point:timelineCalendarPoint,personLabel:person=>archiveIndex.npcs.includes(person)?'NPC':characterRecordLabel(person)};
+}
 function readableTimelineEvent(item) {
   return !isRestrictedTimelineEvent(item) && item.title && item.meta && item.era && item.kind && item.location && item.people;
 }
@@ -1734,11 +1748,12 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
     results.innerHTML = filtered.length ? [...grouped.entries()].map(([group, items]) => `
       <section class="timeline-era" aria-label="${escapeHtml(group)}"><header class="timeline-era-header"><h3>${escapeHtml(group)}</h3><span>${items.length} event${items.length === 1 ? '' : 's'}</span></header>
       <div class="event-timeline">${items.map((item,index) => `
-        ${!byImportance && (!index || timelineCalendarMonthGroup(item) !== timelineCalendarMonthGroup(items[index-1])) ? `<h4 class="timeline-month-heading">${escapeHtml(timelineCalendarMonthGroup(item))}</h4>` : ''}
-        <button class="event-card" type="button" data-article="${escapeHtml(item.article)}" data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}">
-          <span class="event-date">${timelineDateMarkup(item)}<span class="event-importance" title="${escapeHtml(item.importanceReason || '')}">${timelineImportanceLabel(item)}</span></span>
+        ${!byImportance && (!index || timelineCalendarMonthGroup(item) !== timelineCalendarMonthGroup(items[index-1])) ? `<h4 class="timeline-month-heading">${window.CodexVisual?.monthIcon(timelineCalendarPoint(timelineCalendarWindow(item)?.start)?.monthNumber) || ''}${escapeHtml(timelineCalendarMonthGroup(item))}</h4>` : ''}
+        <button class="event-card" type="button" data-article="${escapeHtml(item.article)}" data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}" data-region="${item.regions?.length===1?escapeHtml(item.regions[0]):''}">
+          <span class="event-date">${timelineDateMarkup(item)}<span class="event-importance" title="${escapeHtml(item.importanceReason || '')}">${timelineImportanceMarkup(item)}</span></span>
           <span class="event-copy"><span class="event-kind">${escapeHtml(item.kind)} <i>·</i> ${escapeHtml(item.location)}</span><strong>${escapeHtml(item.title)}</strong><span class="event-summary">${escapeHtml(item.summary)}</span><span class="event-people"><b>People</b> ${escapeHtml(item.people)}</span><span class="event-tags">${(item.tags || []).map(tag => `<i>${escapeHtml(tag)}</i>`).join('')}</span><span class="event-expand">Open full event <i aria-hidden="true">→</i></span></span>
-        </button>`).join('')}</div></section>`).join('') : '<div class="timeline-empty"><strong>No events match these filters.</strong><span>Try a lower importance level, another era or a broader search.</span></div>';
+        ${window.CodexVisual?.eventArt(item,codexVisualContext()) || ''}</button>`).join('')}</div></section>`).join('') : '<div class="timeline-empty"><strong>No events match these filters.</strong><span>Try a lower importance level, another era or a broader search.</span></div>';
+    window.CodexVisual?.calendarNavigator(explorer,filtered,codexVisualContext());
   };
   input.addEventListener('input', event => { state.query = event.target.value; renderResults(true); });
   explorer.addEventListener('change', event => {

@@ -74,7 +74,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await go('living-timeline?person=saray&region=babel-ashur&importance=2&match=exact&q=green%20dragon');
     assert.deepEqual(await titles(), ['A gathering party faces the green dragon']);
     const era = byTitle.get('A gathering party faces the green dragon').era;
-    await page.locator('[data-era]').filter({ hasText: era }).click();
+    await page.locator('[data-era='+JSON.stringify(era)+']').click();
     assert.equal(await page.locator('.event-card').count(), 1, 'person, era, text and importance intersect');
     await page.locator('#timeline-explorer input').fill('no matching event 12345');
     assert.equal(await page.locator('.event-card').count(), 0); await page.locator('.timeline-empty').waitFor();
@@ -134,11 +134,11 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     assert.deepEqual(calendarExamples.cases,[
       '31, Month of Hope · Year 1 of the Final War – 1, Month of Talan · Year 2 of the Final War',
       '25, Month of Physisia – 4, Month of Rebirth · Year 2 of the Final War','12–13, Month of Rebirth · Year 1 of the Final War',
-      'Approx. Month of Aionia · Year 3 of the Final War','29, Month of Aionia · before the Final War','29, Month of Aionia · Year 5 of the Final War','',
+      'Approx. Month of Aionia · Year 3 of the Final War','29, Month of Aionia · Year 1 · before the Final War','29, Month of Aionia · Year 5 of the Final War','',
       'By 12, Month of Rebirth · Year 1 of the Final War','Record: 24, Month of Rebirth · Year 2 of the Final War',''
     ]);
     assert.equal(await origin.locator('.timeline-calendar-date').innerText(),'4, Month of War · Year 1 of the Final War');
-    assert((await page.locator('.timeline-era-header h3').allTextContents()).includes('Year 3 of the Final War · 2026'));
+    assert((await page.locator('.timeline-era-header h3').allTextContents()).includes('Year 3 of the Final War'));
     assert((await page.locator('.timeline-month-heading').allTextContents()).includes('Month of Death'));
     await page.locator('#timeline-explorer input').fill('Month of Death Year 3');
     assert((await titles()).includes('Death makes an offer after the mist clearing'));
@@ -166,7 +166,8 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     for (const [title, label] of expectedDates) {
       const card=page.locator('.event-card').filter({has:page.locator('[class="event-copy"] > strong', {hasText:title})});
       assert.equal(await card.locator('.timeline-war-day').innerText(),label,title);
-      assert.equal(await card.locator('.timeline-source-date').innerText(),byTitle.get(title).meta,'original date retained');
+      const displayed=await page.evaluate(value=>FenumionCalendar.text(value),byTitle.get(title).meta);
+      assert.equal(await card.locator('.timeline-source-date').innerText(),displayed,'source date displayed in the Fenumion calendar');
     }
     const sourceEvents = await page.evaluate(() => archiveIndex.timeline.filter(e=>!e.veiled));
     assert.deepEqual(sourceEvents,events,'rendering and sorting never mutate source dates or metadata');
@@ -187,7 +188,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await collapse.click();
     assert.equal(await page.locator('#record-dialog-content > .record-dialog-dek .timeline-calendar-date').innerText(),'19, Month of Nuru · Year 3 of the Final War','clear continuation retains its quest calendar day');
     assert((await page.locator('#record-dialog-content').textContent()).includes('explicitly resumes the ongoing battle'));
-    assert((await page.locator('#record-dialog-content').textContent()).includes('26–27 Sep 2026'));
+    assert((await page.locator('#record-dialog-content').textContent()).includes('26–27, Month of Nuru · Year 3'));
     assert.equal(await page.locator('.timeline-review-sources a').count(),4,'continuation sources are visible');
     await page.screenshot({path:'/tmp/codex-calendar-event-desktop.png'});
     await page.setViewportSize({width:390,height:844});

@@ -16,6 +16,7 @@ def build():
  ids=[r['id'] for r in records]
  assert len(ids)==len(set(ids)), 'Duplicate article identity'
  OUT.mkdir(exist_ok=True);(OUT/'records').mkdir(exist_ok=True);(OUT/'supplements').mkdir(exist_ok=True)
+ (OUT/'calendar.js').write_text('// Generated from the canonical Fenumion calendar.\nwindow.FENUMION_CALENDAR='+compact(world['timelineCalendar'])+';\n')
  catalog={k:v for k,v in world.items() if k not in {'bodyChecksums','windowData','questTimelineAdditions','questPlayerAdditions','npcDiscoveries','relationshipMaps'}}
  # Preserve the established article order in navigation/related results.
  order=world.get('articleOrder',ids); records.sort(key=lambda r:order.index(r['id']) if r['id'] in order else len(order))

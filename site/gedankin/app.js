@@ -97,7 +97,7 @@
     const title=record.title || record.speaker || '';
     const summary=record.text || record.summary || record.dek || '';
     const body=textOnly(record.body);
-    const entry={record,title,summary,body,names:[title,...(record.aliases || [])].map(normalizeSearch),details:normalizeSearch([summary,record.dek,record.type,record.group,record.meta,record.location,...(record.tags || []),...(record.people || []),...Object.values(record.facts || {})].join(' ')),story:normalizeSearch(body)};
+    const entry={record,title,summary,body,names:[title,...(record.aliases || [])].map(normalizeSearch),details:normalizeSearch(FenumionCalendar.searchText([summary,record.dek,record.type,record.group,record.meta,record.location,...(record.tags || []),...(record.people || []),...Object.values(record.facts || {})].join(' '))),story:normalizeSearch(FenumionCalendar.searchText(body))};
     entry.all=[...entry.names,entry.details,entry.story].join(' ');
     searchEntries.set(record,entry);return entry;
   }
@@ -110,7 +110,7 @@
   function searchExcerpt(entry,query) {
     if(entry.record.isQuote) return '“'+entry.summary+'”';
     const terms=normalizeSearch(query).split(' ').filter(Boolean);
-    const sentences=(entry.body.match(/[^.!?]+[.!?]*/g) || []);
+    const sentences=(FenumionCalendar.text(entry.body).match(/[^.!?]+[.!?]*/g) || []);
     const excerpt=terms.length && !terms.every(term=>normalizeSearch(entry.summary).includes(term)) ? sentences.find(sentence=>terms.every(term=>normalizeSearch(sentence).includes(term))) : '';
     const copy=excerpt?.trim() || entry.summary;
     return copy.length>260?copy.slice(0,257).replace(/\s+\S*$/,'')+'…':copy;
@@ -166,7 +166,7 @@
     document.body.classList.toggle('home-view',isHome);
     const isHub=Boolean(article?.section) || id==='about-gedankin';
     document.body.classList.toggle('hub-view',isHub);
-    document.title=`${isHome ? 'World index' : article?.title || 'Record not found'} — The Gedankin Codex`;
+    document.title=FenumionCalendar.text(`${isHome ? 'World index' : article?.title || 'Record not found'} — The Gedankin Codex`);
     document.querySelector('#breadcrumbs').textContent=isHome ? '' : 'Gedankin · '+(article?.category || 'Archive');
     document.querySelectorAll('#navigation [data-article]').forEach(link=>{const active=link.dataset.article===id;link.classList.toggle('active',active);if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});
     if(isHome) content.innerHTML=home();
@@ -191,9 +191,9 @@
       const connected=linkedIds.map(id=>byId.get(id)).filter(Boolean);
       const connections=connected.length?`<section class="subchannels"><p class="eyebrow">Related records</p><div>${connected.map(record=>`<button class="subchannel-card" type="button" data-article="${esc(record.id)}"><strong>${esc(record.title)}</strong><span>${esc(record.dek||record.summary||'')}</span><i aria-hidden="true">›</i></button>`).join('')}</div></section>`:'';
       const switcher=isHub?`<nav class="hub-switcher" aria-label="Explore the Codex">${sections.map(section=>`<button type="button" class="gateway-tile${section.id===id?' active':''}" data-article="${section.id}" ${section.id===id?'aria-current="page"':''}><span>${section.title}</span><small>${section.description}</small></button>`).join('')}</nav>`:'';
-      const facts=Object.entries(article.facts || {}).map(([k,v])=>`<div class="fact"><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('');
+      const facts=Object.entries(article.facts || {}).map(([k,v])=>`<div class="fact"${/ruleset|edition/i.test(k)?' data-calendar-source':''}><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('');
       const heroCaption = article.imageCaption ? `<figcaption${article.imageCaption.length <= 80 && !/[.!?]/.test(article.imageCaption) ? ' class="media-name-caption"' : ''}><span>${esc(article.imageCaption)}</span></figcaption>` : '';
-      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></header>${switcher}${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video class="ambient-video" muted loop playsinline disablepictureinpicture disableremoteplayback tabindex="-1" preload="metadata" poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video.</video>${heroCaption}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${heroCaption}</figure>` : ''}<div class="lead-grid"><div class="article-body">${body}${connections}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
+      content.innerHTML=`<header class="article-header"><p class="article-kicker">${esc(article.type)}</p><h1>${esc(article.title)}</h1><p class="dek">${esc(article.dek || '')}</p><div class="article-meta">${(article.tags || []).map(t=>`<span class="tag"${id==='rules-2024'&&/^20\d{2}$/.test(t)?' data-calendar-source':''}>${esc(t)}</span>`).join('')}</div></header>${switcher}${article.video ? `<figure class="article-hero ${esc(article.imageLayout || '')}"><video class="ambient-video" muted loop playsinline disablepictureinpicture disableremoteplayback tabindex="-1" preload="metadata" poster="${esc(article.poster || '')}" aria-label="${esc(article.imageAlt || article.title)}"><source src="${esc(article.video)}" type="video/mp4">Your browser does not support this video.</video>${heroCaption}</figure>` : article.image ? `<figure class="article-hero ${esc(article.imageLayout || "")}"><img src="${esc(article.image)}" alt="${esc(article.imageAlt || article.title)}">${heroCaption}</figure>` : ''}<div class="lead-grid"><div class="article-body">${body}${connections}</div><dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl></div>`;
     }
     const linkedIds=[...(article?.relatedRecords || []),...[...content.querySelectorAll('.article-body a[href^="#"], .subchannels [data-article]')].map(link=>link.dataset.article || link.getAttribute('href').slice(1))];
     const visualConnections=[...new Set(linkedIds)].map(recordId=>byId.get(recordId)).filter(record=>record && record.id!==id).slice(0,4).map(record=>({id:record.id,title:record.title,subtitle:record.type,image:record.image || record.poster}));

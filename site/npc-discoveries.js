@@ -14,7 +14,7 @@ window.setupNpcDiscoveries = function(root) {
   const next=shell.querySelector('[data-discovery-next]');
   const labels={npc:'NPC',player:'Player character',companion:'Companion',manifestation:'Manifestation',collective:'Collective',encounter:'Encounter',identity:'Archive identity',veiled:'Veiled record'};
   const normalize=text=>String(text).normalize('NFKD').toLocaleLowerCase().replace(/[\u0300-\u036f]/g,'').replace(/[‘’]/g,"'").replace(/\u00a0/g,' ');
-  const textByEntry=new Map(data.map(entry=>[entry,normalize([entry.name,entry.canonicalName,entry.role,entry.summary,entry.island].join(' '))]));
+  const textByEntry=new Map(data.map(entry=>[entry,normalize(window.FenumionCalendar.searchText([entry.name,entry.canonicalName,entry.role,entry.summary,entry.island].join(' ')))]));
   Object.entries(labels).forEach(([id,label])=>kind.add(new Option(label,id)));
   [...new Set(data.map(entry=>entry.island).filter(Boolean))].sort().forEach(name=>island.add(new Option(name,name)));
   let page=0,timer;

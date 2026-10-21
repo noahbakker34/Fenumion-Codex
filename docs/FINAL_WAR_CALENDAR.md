@@ -1,5 +1,7 @@
 # Final War calendar · 21 October 2026
 
+Later owner instruction, 21 October: use Fenumion dates throughout the website. Original source-calendar values remain canonical, but visible source labels and year headings now use the named calendar too. The atlas uses named date controls; source precision and posting-date qualifications remain. Known January/February 2024 dates display Year 1 with an explicit before-war qualification. This supersedes the earlier dual-calendar display description below. See SITEWIDE_CALENDAR_AND_QUOTES.md.
+
 The owner explicitly chooses elapsed posting dates and authorizes aligning clear continuations with their earlier quest day. This supersedes the provisional 20 October rule against deriving later days from posting intervals. The first Called’s Gate arrival, recorded as 4 March 2024, remains Day 1. Count calendar days inclusively, with leap years respected.
 
 ## Named months and years · owner decision, 21 October 2026

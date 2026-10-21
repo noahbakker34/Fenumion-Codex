@@ -1,6 +1,13 @@
 /* Shared reader-facing copy. Research metadata stays in the content records. */
 (() => {
   const replacements = [
+    ...(document.body.classList.contains('fenumion-world') ? [
+    ['Dates below identify source postings in UTC; they do not supply an in-world calendar.', 'Dates use the Fenumion calendar. Posting-date qualifications and source references are retained.'],
+    ['The source dates below locate the surviving postings; they do not supply Fenumion’s calendar.', 'The dates below locate the surviving postings in the Fenumion calendar; quest continuations retain their established days.'],
+    ['Dates here are Discord posting periods, not an in-world calendar.', 'Dates here identify posting periods, displayed in the Fenumion calendar.'],
+    ['Dates identify transcript postings, not an in-world calendar.', 'Dates identify source postings, displayed in the Fenumion calendar.'],
+    ['Dates identify the chronicle entries and may differ from the in-world calendar.', 'Dates use the Fenumion calendar; uncertain periods and posting-date qualifications remain explicit.'],
+    ] : []),
     ['The supplied geography synthesis records', 'Regional accounts record'],
     ['The supplied geography synthesis places', 'Regional accounts place'],
     ['The supplied geography synthesis names', 'Regional accounts name'],

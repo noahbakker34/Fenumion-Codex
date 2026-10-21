@@ -752,8 +752,10 @@ const quoteVoiceRecordings = [
 ];
 quoteVoiceRecordings.forEach(record => { record.audio.preload = "none"; });
 let activeQuoteVoice = null;
+let quoteVoiceDisposers=[],quotePausedMusic=null;
+document.querySelector('#music-audio')?.addEventListener('play',()=>{if(activeQuoteVoice){quotePausedMusic=null;stopQuoteVoice(false);}});
 
-function stopQuoteVoice() {
+function stopQuoteVoice(resumeMusic=true) {
   quoteVoiceRecordings.forEach(({ audio }) => { audio.pause(); audio.currentTime = 0; });
   if (activeQuoteVoice) {
     activeQuoteVoice.classList.remove("voice-playing");
@@ -761,16 +763,18 @@ function stopQuoteVoice() {
     if (control) { control.textContent = "▶ Play voice"; control.setAttribute("aria-pressed", "false"); }
   }
   activeQuoteVoice = null;
+  if(resumeMusic!==false&&quotePausedMusic){const previous=quotePausedMusic;quotePausedMusic=null;if(previous.audio.paused&&previous.audio.currentSrc===previous.src)previous.audio.play().catch(()=>{});}
 }
 quoteVoiceRecordings.forEach(({ audio }) => audio.addEventListener("ended", stopQuoteVoice));
 document.addEventListener("visibilitychange", () => { if (document.hidden) stopQuoteVoice(); });
 
 function setupQuoteVoices() {
+  quoteVoiceDisposers.forEach(dispose=>dispose());quoteVoiceDisposers=[];
   // Rebuild the featured quote’s controls when its hourly text changes.
   articleContent.querySelectorAll(".quote-voice").forEach(wrapper => {
     if (wrapper === activeQuoteVoice) stopQuoteVoice();
     const quote = wrapper.firstElementChild;
-    quote.querySelectorAll(".quote-voice-play").forEach(control => control.remove());
+    quote.querySelectorAll(".quote-voice-tools,.quote-voice-play").forEach(control => control.remove());
     wrapper.replaceWith(quote);
   });
   const normalize = text => text.toLowerCase().replace(/[^a-z]/g, "");
@@ -807,24 +811,35 @@ function setupQuoteVoices() {
     control.textContent = "▶ Play voice";
     control.setAttribute("aria-label", `Play ${recording.speaker}’s voice: ${recording.label}`);
     control.setAttribute("aria-pressed", "false");
-    control.title = `Hover to hear ${recording.speaker}, or press to play`;
-    if (quote.matches(".quote-card, .quote")) quote.append(control);
-    else wrapper.append(control);
-    const play = () => {
-      stopQuoteVoice();
+    control.title = `Play or stop ${recording.speaker}’s recorded voice`;
+    const tools=document.createElement('div');tools.className='quote-voice-tools';
+    tools.innerHTML='<label class="quote-seek-label"><span class="sr-only">Recording position</span><input type="range" class="quote-voice-seek" aria-label="Seek voice recording" min="0" max="1" step="0.1" value="0" disabled></label><div class="quote-voice-meta"><span class="quote-voice-time">0:00</span><label>Voice volume <input type="range" class="quote-voice-volume" aria-label="Voice volume" min="0" max="1" step="0.05"></label></div>';
+    tools.prepend(control);tools.addEventListener('click',event=>event.stopPropagation());
+    if (quote.matches(".quote-card, .quote")) quote.append(tools);else wrapper.append(tools);
+    const seek=tools.querySelector('.quote-voice-seek'),volume=tools.querySelector('.quote-voice-volume'),time=tools.querySelector('.quote-voice-time');
+    let savedVolume=1;try{const saved=localStorage.getItem('fenumion-quote-voice-volume');if(saved!==null)savedVolume=Math.min(1,Math.max(0,Number(saved)||0));}catch{}
+    audio.volume=savedVolume;volume.value=String(savedVolume);
+    const stamp=value=>`${Math.floor((value||0)/60)}:${String(Math.floor((value||0)%60)).padStart(2,'0')}`;
+    const syncTime=()=>{const duration=Number.isFinite(audio.duration)?audio.duration:0;seek.disabled=!duration;seek.max=String(duration||1);seek.value=String(audio.currentTime);seek.setAttribute('aria-valuetext',stamp(audio.currentTime)+' of '+stamp(duration));time.textContent=stamp(audio.currentTime)+(duration?' / '+stamp(duration):'');};
+    for(const name of ['timeupdate','loadedmetadata','durationchange']){audio.addEventListener(name,syncTime);quoteVoiceDisposers.push(()=>audio.removeEventListener(name,syncTime));}
+    seek.addEventListener('input',()=>{if(Number.isFinite(audio.duration))audio.currentTime=Number(seek.value);});
+    volume.addEventListener('input',()=>{quoteVoiceRecordings.forEach(record=>record.audio.volume=Number(volume.value));document.querySelectorAll('.quote-voice-volume').forEach(input=>input.value=volume.value);try{localStorage.setItem('fenumion-quote-voice-volume',volume.value);}catch{}});syncTime();
+    let hoverPlayback=false;
+    const play = (fromHover=false) => {
+      stopQuoteVoice(false);
+      hoverPlayback=fromHover;
+      const music=document.querySelector('#music-audio');if(music&&!music.paused){quotePausedMusic={audio:music,src:music.currentSrc};music.pause();}
       activeQuoteVoice = wrapper;
       wrapper.classList.add("voice-playing");
       control.textContent = "■ Stop voice";
       control.setAttribute("aria-pressed", "true");
       // Browsers can require a click before permitting hover audio.
-      audio.play().catch(() => { if (activeQuoteVoice === wrapper) stopQuoteVoice(); });
+      audio.play().catch(() => { if (activeQuoteVoice === wrapper) {stopQuoteVoice();time.textContent='The recording could not play. Try again.';time.setAttribute('role','status');} });
     };
     wrapper.addEventListener("pointerenter", event => {
-      if (event.pointerType === "mouse" && !document.elementFromPoint(event.clientX, event.clientY)?.closest(".quote-voice-play")) play();
+      if (activeQuoteVoice!==wrapper&&window.CodexQuotes?.hoverEnabled()&&event.pointerType === "mouse" && !document.elementFromPoint(event.clientX, event.clientY)?.closest(".quote-voice-tools")) play(true);
     });
-    wrapper.addEventListener("pointerleave", event => { if (event.pointerType === "mouse" && activeQuoteVoice === wrapper) stopQuoteVoice(); });
-    (quote.querySelector(".quote-voice-open") || quote).addEventListener("focus", play);
-    wrapper.addEventListener("focusout", event => { if (!wrapper.contains(event.relatedTarget) && activeQuoteVoice === wrapper) stopQuoteVoice(); });
+    wrapper.addEventListener("pointerleave", event => { if (hoverPlayback && event.pointerType === "mouse" && activeQuoteVoice === wrapper) stopQuoteVoice(); });
     control.addEventListener("click", event => {
       event.stopPropagation();
       if (activeQuoteVoice === wrapper && !audio.paused) stopQuoteVoice();
@@ -837,6 +852,7 @@ let articleRenderEpoch = 0;
 const readingScrollPositions = new Map();
 if('scrollRestoration' in history)history.scrollRestoration='manual';
 function renderArticle(route, pushHash = true) {
+  window.CodexQuotes?.close();
   const previousScroll=window.scrollY;
   const renderEpoch = ++articleRenderEpoch;
   delete document.body.dataset.codexRegion;
@@ -886,7 +902,7 @@ function renderArticle(route, pushHash = true) {
   else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
   else if (!pushHash && article.id === "living-timeline" && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   const publicPreview = protectedArticle && article.id === 'death-dumuzi' && article.publicPreview;
-  document.title = `${publicPreview ? publicPreview.title : protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`;
+  document.title = window.FenumionCalendar.text(`${publicPreview ? publicPreview.title : protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`);
   const path = articlePaths.get(article.id) || [article.category, article.title];
   breadcrumbs.innerHTML = protectedArticle ? `Codex <span>·</span> ${publicPreview ? 'Death' : 'Protected record'}` : `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
   if (protectedArticle) {
@@ -1008,7 +1024,7 @@ function renderArticle(route, pushHash = true) {
   const hasConnections=visualConnections.length>0;
   if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
   const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
-  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', workspace:article.id==='living-timeline', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', workspace:article.id==='living-timeline', quoteWorkspace:article.id==='memorable-quotes', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
   window.CodexVisual?.decorateArticle(articleContent,article,codexVisualContext());
   if (article.id === "world-index") {
     setupWorldBrowser();
@@ -1037,6 +1053,7 @@ function renderArticle(route, pushHash = true) {
   updateNavigationHighlight(article);
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
   window.CodexReader.afterRender(article, articleContent);
+  if(article.id==='memorable-quotes')window.CodexQuotes.setup(articleContent,{records:memorableQuoteRecords(),byId,allowed:isPlayerSafeArticle,person:resolvePublicPerson,recording:text=>quoteVoiceRecordings.find(record=>record.text===text.toLowerCase().replace(/[^a-z]/g,'')),setupVoices:setupQuoteVoices,stopVoices:stopQuoteVoice,contents:buildContents,openArticle:renderArticle,openEvent:openTimelineRecord,events:archiveIndex.timeline.filter(item=>readableTimelineEvent(item)&&!item.vaultOnly&&item.era!=='Ancient world'&&!isRestrictedArticle(item.article)),consequences:title=>questEventConsequences[title]||'',sources:article.sources||[],reference:window.CodexReader.referenceMarkup,load:window.CodexReader.load},routeParams);
   window.CodexVisual?.decorateCards(articleContent,codexVisualContext());
   buildContents();
   closePanels();
@@ -1076,7 +1093,7 @@ function setupPeopleGallery() {
     .sort((left, right) => left.title.localeCompare(right.title));
   // Normalize the searchable text once, rather than once per character per keystroke.
   const searchText = new Map(people.map(person => [person,
-    (!isPlayerSafeArticle(person.article) ? "protected veiled record" : `${person.title} ${(person.aliases || []).join(" ")} ${person.meta} ${person.summary} ${person.personKind === "npc" ? npcRegionLabel(person) : ""}`).toLocaleLowerCase()
+    window.FenumionCalendar.searchText(!isPlayerSafeArticle(person.article) ? "protected veiled record" : `${person.title} ${(person.aliases || []).join(" ")} ${person.meta} ${person.summary} ${person.personKind === "npc" ? npcRegionLabel(person) : ""}`).toLocaleLowerCase()
   ]));
   const pageSize = 24;
   const pagination = gallery.parentElement.querySelector(".people-pagination");
@@ -1387,6 +1404,7 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
       <div class="map-location-list" aria-label="Locations marked on ${escapeHtml(map.title)}">
         ${pins.map((pin, index) => { const protectedRecord = !isPlayerSafeArticle(pin.record.article); return `<button type="button" class="map-location-chip ${pin.title === activeLocationTitle ? "active" : ""}${protectedRecord ? " restricted-link" : ""}" data-map-location="${escapeHtml(pin.title)}" aria-label="${protectedRecordAria(`Open ${pin.title} record`, protectedRecord)}"><span>${index + 1}</span>${protectedRecord ? "Veiled marker" : escapeHtml(pin.title)}</button>`; }).join("")}
       </div>`;
+    window.FenumionCalendar.dateControl(atlas.querySelector('[data-atlas-date]'));
     if (activeLocationTitle) renderDetail(activeLocationTitle);
   };
 
@@ -1488,7 +1506,7 @@ function setupLocationExplorer() {
       .filter(item => activeRegion === "All regions" || item.region === activeRegion)
       .filter(item => !mappedOnly || mappedLocationTitles.has(item.title))
       .filter(item => {
-        const haystack = (!isPlayerSafeArticle(item.article) ? `protected veiled record ${item.region}` : `${item.title} ${item.region} ${item.parent} ${item.type} ${item.meta} ${item.summary} ${item.source} ${(item.aliases || []).join(" ")}`).toLowerCase();
+        const haystack = window.FenumionCalendar.searchText(!isPlayerSafeArticle(item.article) ? `protected veiled record ${item.region}` : `${item.title} ${item.region} ${item.parent} ${item.type} ${item.meta} ${item.summary} ${item.source} ${(item.aliases || []).join(" ")}`).toLowerCase();
         return terms.every(term => haystack.includes(term));
       })
       .sort((a, b) => {
@@ -1625,6 +1643,7 @@ function timelineCalendarWindow(item) {
   return dating.calendarAdjustment ? { start: dating.calendarAdjustment.date, end: dating.calendarAdjustment.date, precision: 'day', qualifier: 'on' } : dating.postingWindow;
 }
 function timelineCalendarPoint(iso) {
+  if(window.FenumionCalendar)return window.FenumionCalendar.point(iso);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(iso || '')) return null;
   const parsed = new Date(iso+'T00:00:00Z');
   if (!Number.isFinite(parsed.getTime()) || parsed.toISOString().slice(0,10) !== iso) return null;
@@ -1655,9 +1674,9 @@ function timelineCalendarDateLabel(item) {
 }
 function timelineCalendarYearGroup(item) {
   const window = timelineCalendarWindow(item), point = window && timelineCalendarPoint(window.start);
-  if (point?.before) return `Before the Final War · ${point.sourceYear}`;
+  if (point?.before) return point.era;
   const sourceYear = Number(item.sort.slice(0,4)), numbering = codexCatalog.timelineCalendar?.yearNumbering;
-  return numbering && sourceYear >= numbering.firstSourceYear ? `Year ${sourceYear-numbering.firstSourceYear+numbering.firstYear} of the Final War · ${sourceYear}` : sourceYear > 2000 ? String(sourceYear) : item.era;
+  return numbering && sourceYear >= numbering.firstSourceYear ? `Year ${sourceYear-numbering.firstSourceYear+numbering.firstYear} of the Final War` : sourceYear > 2000 ? FenumionCalendar.yearLabel(sourceYear) : item.era;
 }
 function timelineCalendarMonthGroup(item) {
   const window = timelineCalendarWindow(item), point = window && timelineCalendarPoint(window.start);
@@ -1671,7 +1690,8 @@ function timelineMatchesCalendarQuery(item, query) {
 }
 function timelineDateMarkup(item) {
   const label = timelineWarDateLabel(item), named = timelineCalendarDateLabel(item);
-  return `${named ? `<span class="timeline-calendar-date">${escapeHtml(named)}</span>` : ''}${label ? `<span class="timeline-war-day">${escapeHtml(label)}</span><span class="timeline-source-date">${escapeHtml(item.meta)}</span>` : escapeHtml(item.meta)}<small class="timeline-date-status" data-date-kind="${escapeHtml(item.dating?.kind || 'unreviewed')}">${escapeHtml(timelineDateKinds[item.dating?.kind] || 'Date basis unreviewed')}</small>${item.dating?.calendarAdjustment ? '<small class="timeline-date-status" data-calendar-adjusted>Calendar aligned · see event</small>' : ''}`;
+  const source=window.FenumionCalendar.text(item.meta);
+  return `${named ? `<span class="timeline-calendar-date">${escapeHtml(named)}</span>` : ''}${label ? `<span class="timeline-war-day">${escapeHtml(label)}</span><span class="timeline-source-date">${escapeHtml(source)}</span>` : escapeHtml(source)}<small class="timeline-date-status" data-date-kind="${escapeHtml(item.dating?.kind || 'unreviewed')}">${escapeHtml(timelineDateKinds[item.dating?.kind] || 'Date basis unreviewed')}</small>${item.dating?.calendarAdjustment ? '<small class="timeline-date-status" data-calendar-adjusted>Calendar aligned · see event</small>' : ''}`;
 }
 function timelineImportanceControls(state, events = archiveIndex.timeline.filter(readableTimelineEvent)) {
   return `${timelineRegionControl(state, events)}<label class="timeline-select-shell"><span class="timeline-search-label">Importance</span><select data-timeline-importance><option value="0">All levels</option>${timelineImportanceLevels.map(level => `<option value="${level.level}"${state.importance === level.level ? ' selected' : ''}>${level.level}. ${level.label}</option>`).join('')}</select></label>
@@ -1699,8 +1719,8 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
   };
   explorer.innerHTML = `
     <p class="timeline-sequences-link"><a href="#history-in-consequences">Follow connected histories →</a></p>
-    <div class="timeline-calendar-note"><strong>4, Month of War, Year 1 · Day 1 of the Final War</strong><p>The first Called’s arrival through the Gate begins this reckoning. Year 1 is 2024; each new year begins on January 1. Named months retain the source calendar’s dates and lengths. Days count elapsed posting dates; clear quest continuations share their established day, with adjustments explained in each event. Original dates remain visible. Ranges stay ranges, and a report’s day dates the report.</p></div>
-    <details class="timeline-level-guide timeline-month-guide"><summary>The twelve months of the calendar</summary><ol>${(codexCatalog.timelineCalendar?.months || []).map(month => `<li><strong>${escapeHtml(month.name)}</strong> — ${escapeHtml(month.sourceMonth)}</li>`).join('')}</ol></details>
+    <div class="timeline-calendar-note"><strong>4, Month of War, Year 1 · Day 1 of the Final War</strong><p>The first Called’s arrival through the Gate begins this reckoning. Each new year begins on the first day of the Month of Talan. Dates throughout the Codex use the Fenumion calendar. Days count elapsed posting dates; clear quest continuations share their established day, with adjustments explained in each event. Source dates remain preserved in the records and use Fenumion labels here. Ranges stay ranges, and a report’s day dates the report.</p></div>
+    <details class="timeline-level-guide timeline-month-guide"><summary>The twelve months of the calendar</summary><ol>${(codexCatalog.timelineCalendar?.months || []).map(month => `<li><strong>${escapeHtml(month.name)}</strong> — month ${month.number}</li>`).join('')}</ol></details>
     ${person ? `<p class="timeline-person-filter">Events involving <a href="#${person.article}">${escapeHtml(person.title)}</a> · <a href="#living-timeline">Show all events</a></p>` : ''}
     <div class="timeline-controls">
       <label class="timeline-search-shell"><span class="timeline-search-label">Search events</span><span class="timeline-search-field"><span aria-hidden="true">⌕</span><input type="search" placeholder="Try Papirak, sacrifice, Prima…" value="${escapeHtml(state.query)}" maxlength="200" autocomplete="off"></span></label>
@@ -1733,7 +1753,7 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
       .filter(item => timelineMatchesImportance(item, state))
       .filter(item => {
         if (!timelineMatchesCalendarQuery(item, state.query)) return false;
-        const haystack = normalizeSearchName(`${item.title} ${(item.aliases || []).join(' ')} ${timelineCalendarDateLabel(item)} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(' ')}`);
+        const haystack = normalizeSearchName(window.FenumionCalendar.searchText(`${item.title} ${(item.aliases || []).join(' ')} ${timelineCalendarDateLabel(item)} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(' ')}`));
         return terms.every(term => haystack.includes(term));
       }).sort((a, b) => compareTimelineEvents(a, b, state.order));
     timelineBrowseContext = { route: location.hash, items: filtered };
@@ -2027,7 +2047,7 @@ function runSearch(query) {
   const articleResults = articles.filter(article => isPlayerSafeArticle(article.id)).map(article => {
     const path = articlePaths.get(article.id) || [article.category, article.title];
     const names = [article.title, ...(article.aliases || [])];
-    const haystack = cachedSearchText(article, "article", () => normalizeSearchName(`${path.join(" ")} ${names.join(' ')} ${article.category} ${article.type} ${article.dek} ${article.tags.join(" ")} ${window.CodexReader.searchText(article)}`));
+    const haystack = cachedSearchText(article, "article", () => normalizeSearchName(window.FenumionCalendar.searchText(`${path.join(" ")} ${names.join(' ')} ${article.category} ${article.type} ${article.dek} ${article.tags.join(" ")} ${window.CodexReader.searchText(article)}`)));
     const titleMatch = searchNameScore(normalized, names, phrase);
     const tagMatch = cachedSearchText(article, "tags", () => article.tags.map(normalizeSearchName)).some(tag => tag.includes(phrase)) ? 30 : 0;
     const allTermsMatch = terms.every(term => haystack.includes(term));
@@ -2040,7 +2060,7 @@ function runSearch(query) {
     ["Locations", archiveIndex.islands]
   ];
   const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => item?.title && (group !== "Timeline" || (!isRestrictedTimelineEvent(item) && timelineMatchesCalendarQuery(item, query)))).map(item => {
-    const haystack = cachedSearchText(item, group, () => normalizeSearchName(`${group} ${item.title} ${(item.aliases || []).join(' ')} ${timelineCalendarDateLabel(item)} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`));
+    const haystack = cachedSearchText(item, group, () => normalizeSearchName(window.FenumionCalendar.searchText(`${group} ${item.title} ${(item.aliases || []).join(' ')} ${timelineCalendarDateLabel(item)} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`)));
     const titleMatch = searchNameScore(normalized, [item.title, ...(item.aliases || [])], phrase);
     const allTermsMatch = terms.every(term => haystack.includes(term));
     return {
@@ -2053,7 +2073,7 @@ function runSearch(query) {
   })).filter(result => result.score && isPlayerSafeArticle(result.article.id));
   const quoteTerms = terms;
   const quoteResults = memorableQuoteRecords().filter(record => isPlayerSafeArticle(record.article)).map(record => {
-    const haystack = cachedSearchText(record, "quote", () => normalizeSearchName(`${record.title} ${record.speaker} ${record.group}`));
+    const haystack = cachedSearchText(record, "quote", () => normalizeSearchName(window.FenumionCalendar.searchText(`${record.title} ${record.speaker} ${record.group}`)));
     const matches = quoteTerms.length && quoteTerms.every(term => haystack.includes(term));
     const nameMatch = Math.min(400, searchNameScore(normalized, [record.speaker], phrase));
     const wordsMatch = Math.min(600, searchNameScore(normalized, [record.title], phrase));

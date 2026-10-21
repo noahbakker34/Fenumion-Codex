@@ -2,6 +2,10 @@
 
 Last updated: 2026-10-21
 
+## Site-wide named dates, quote browser and faction emblem · 21 October 2026
+
+Owner requests all website dates in the Fenumion calendar, approves quote upgrades 1–5 only, and supplies the Hellknights emblem. Shared presentation now covers lazy articles, sources, search, notes, dialogs, atlas controls and connected Gedankin dates while retaining source data, partial-date precision, posting qualifications and edition identifiers. The 38 selected quotes retain exact wording/anchors and gain a wider reading workspace, combined filters/sort, portraits, bounded context/source dialogs and deliberate audio with seek/volume/opt-in hover. The original 512×768 emblem is shared by the faction article and directory. No histories, timeline metadata, private payload, maps or quote selection change; only four faction image fields and its dimensions are added to canonical content. App/catalog255, calendar1, quotes1, reader4, visual2, Gedankin27. See SITEWIDE_CALENDAR_AND_QUOTES.md. All local static/content/new and existing browser/media release checks pass, including 390/320-pixel layouts, soundtrack/voice controls, source-data preservation and protected boundaries. Screenshots inspected. Publication follows standing authorization; deployment receipt follows completion.
+
 ## Illustrated chronicle · 21 October 2026
 
 Owner authorizes all seven visual upgrades: readable typography, distinctive World Changing cards, a wider compact timeline, year/month navigation and decorative month ornaments, portrait-led character profiles with documented relationships, sourced regional accents, and a clearer homepage with a compact music/vault/approved-content dock. Existing dates, source qualifications, filters, routes and access behavior remain. No lore or geography is invented. Canonical records outside the homepage body and the complete private payload compare equal. App/catalog254, styles175, article-layout2, visual1; reader3/protected-media3 unchanged. See VISUAL_CHRONICLE.md for implementation, preservation and verification.

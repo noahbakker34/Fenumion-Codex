@@ -55,5 +55,9 @@
         ]
       }
     }
-  ]
+  ],
+  "image": "assets/factions/hellknight-order.png",
+  "imageAlt": "Hellknights emblem: a horned skull crowned with flame over a circular metal seal.",
+  "imageCaption": "Hellknights faction emblem.",
+  "imageLayout": "portrait"
 }

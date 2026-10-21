@@ -31,7 +31,7 @@ window.setupPlayerPerspectives = function(root) {
   populate(year, [...new Set(entries.map(entry => entry.posted.slice(0,4)))].sort().reverse());
   populate(region, [...new Set(entries.flatMap(entry => entry.regions))].sort());
   populate(form, [...new Set(entries.map(entry => entry.form))].sort(), forms);
-  const searchable = new Map(entries.map(entry => [entry.id, normalize([entry.author, entry.excerpt, entry.posted, entry.form, ...entry.regions, ...entry.topics].join(' '))]));
+  const searchable = new Map(entries.map(entry => [entry.id, normalize(window.FenumionCalendar.searchText([entry.author, entry.excerpt, entry.posted, entry.form, ...entry.regions, ...entry.topics].join(' ')))]));
   let page = 0;
   const perPage = 18;
   function render() {

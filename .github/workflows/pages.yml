@@ -25,6 +25,7 @@ jobs:
       - name: Validate canonical public records
         run: |
           python3 scripts/check_final_war_calendar.py
+          node scripts/check_calendar_display.cjs
           python3 scripts/check_content.py
       - name: Validate encrypted media objects
         run: python3 scripts/check_protected_assets.py
@@ -37,6 +38,9 @@ jobs:
           node --check site/protected-media.js
           node --check site/article-layout.js
           node --check site/codex-visual.js
+          node --check site/fenumion-calendar.js
+          node --check site/codex-quotes.js
+          node --check site/gedankin/app.js
           git diff --check
   reader:
     needs: validate
@@ -72,6 +76,8 @@ jobs:
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_research_journeys.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_rifts.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_timeline.cjs
+          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_calendar_site.cjs
+          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_quotes.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_visual_chronicle.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_protected_media.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" CODEX_NO_MEDIA_SOURCE=1 node scripts/check_protected_media.cjs

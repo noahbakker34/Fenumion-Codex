@@ -1,5 +1,9 @@
 # Memorable quotes — deliberate selection
 
+## Reading workspace · 21 October 2026
+
+The current canonical gallery contains 38 selected quotations across the same seven themes. The owner approves usability upgrades 1–5 only, expressly excluding new selections and favourites/copy/share tools. All 38 lines, attributions, contexts, targets and existing anchors are preserved. The updated workspace adds combined word/speaker/theme/recording filters, known-date sorting, public portraits, context dialogs with bounded source precision, and deliberate audio controls. Missing dates and scene locators remain explicit; an associated history is not proof of an exact quotation message. Current implementation: `site/codex-quotes.js`, `site/codex-quotes.css`, and shared audio in `site/app.js`. See SITEWIDE_CALENDAR_AND_QUOTES.md for verification and publication. The earlier selection checkpoint below is retained as history.
+
 Reviewed all 147 accumulated quotation cards on 11 October 2026 at the user’s request. Retained 36 existing lines (76% fewer), keeping their original wording, speaker attribution, historical target and existing source provenance. No new dialogue was composed. The quotation index, character “In their own words” collections, search results and home-page rotation all derive from the same final gallery record.
 
 ## Selection standard

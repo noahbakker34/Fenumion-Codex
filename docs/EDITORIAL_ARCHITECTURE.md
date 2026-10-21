@@ -182,6 +182,8 @@ Event regions require established location or travel evidence, not source-channe
 
 ## Source-manifest standard
 
+Reader-facing date presentation uses the Fenumion calendar site-wide, including source references and connected Gedankin chronicle dates. This changes display and search only: retain original timestamps, source identities, precision, approximate/report/bound qualifications, and the distinction between a posting date and an established scene date. Known pre-Gate dates within 2024 remain Year 1 with an explicit before-war label; do not create Year 0. URLs, file names, machine values and rules edition identifiers are not calendar labels. See SITEWIDE_CALENDAR_AND_QUOTES.md. Quote context must preserve incomplete scene locators and must not infer a precise date from an associated section.
+
 Every imported source should eventually record:
 
 | Field | Meaning |

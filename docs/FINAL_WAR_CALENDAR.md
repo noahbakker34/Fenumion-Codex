@@ -2,6 +2,31 @@
 
 The owner explicitly chooses elapsed posting dates and authorizes aligning clear continuations with their earlier quest day. This supersedes the provisional 20 October rule against deriving later days from posting intervals. The first Called’s Gate arrival, recorded as 4 March 2024, remains Day 1. Count calendar days inclusively, with leap years respected.
 
+## Named months and years · owner decision, 21 October 2026
+
+The owner supplies twelve month names and explicitly chooses January 1 as the year rollover, with 2024 as Year 1. Days and month lengths follow the existing source calendar, including leap days. The first Gate arrival is **4, Month of War, Year 1** and remains total **Day 1 of the Final War**. The October Babel expedition is **18, Month of Death, Year 3**, total **Day 959**. A year begins on January 1; a Final War day still counts from the Gate arrival on 4 March. Dates before the Gate retain their explicit before-war qualification rather than receiving a Year 0.
+
+| Source month | Fenumion month |
+|---|---|
+| January | Month of Talan |
+| February | Month of Aionia |
+| March | Month of War |
+| April | Month of Namo'o |
+| May | Month of Physisia |
+| June | Month of Rebirth |
+| July | Month of Cala |
+| August | Month of Moirah |
+| September | Month of Nuru |
+| October | Month of Death |
+| November | Month of the Wyrm |
+| December | Month of Hope |
+
+The canonical `timelineCalendar.months` registry owns the mapping and `yearNumbering` records the January 1 convention. A shared formatter derives named dates from the existing posting windows or their explicit quest-calendar adjustments. It does not rewrite any event metadata or assign new dates to unresolved events. Named dates appear on the main/home timelines, dialogs, character/place histories and consequence chains; total day counts and original source labels remain alongside them. Ranges, month-only approximations, report dates and before/by/after bounds retain their precision and attribution. Chronological browsing adds month headings within the existing year ordering; year headings show both the Final War year and the source year. Undated months stay unresolved; importance ordering keeps its existing importance groups. A collapsible key explains all twelve months.
+
+Both event search and global timeline search understand the named dates. Explicit month/year queries target the calendar label, so “Month of Death Year 3” does not match an unrelated month merely because its summary mentions Death. Apostrophe variants of Namo'o are normalized. Private events use the same formatter after authorized unlock; their payload and public veiled stubs are unchanged.
+
+App/catalog253, reader3, styles174. Local expanded timeline, reader and Rifts regressions pass, including all twelve mappings, January rollover, leap dates, ranges, qualifiers, adjusted dates, named-calendar search, Namo’o apostrophe normalization, year/month headings, both timeline surfaces and synthetic private unlock/lock. Desktop and 390-pixel named-event dialog screenshots were inspected. Canonical/build/arithmetic/encrypted-asset/syntax/whitespace checks pass. A parsed comparison confirms every event and all other world data is unchanged outside the calendar registry, and the complete private payload remains byte-identical. Publication receipt follows deployment.
+
 ## Data and reader behavior
 
 326 of 343 complete public events receive day numbers or qualified day ranges; 17 retain unresolved dates. Fifteen full private events receive the same metadata inside the vault; fourteen remain unnumbered. Ancient sentinel sort keys, year-only labels, vague early/late periods and unresolved multi-stage dates never become exact days. Month-only dates become full-month approximate ranges. Before/by/after bounds retain their qualifiers. Pre-origin events display days before the Final War, never Day 0 or negative day labels. Reports and visions label the record’s day, without dating the older event described.

@@ -105,6 +105,9 @@ def audit():
  origin=next((event for event in world['archiveIndex']['timeline'] if event.get('title')==calendar.get('originEvent')),None)
  require(calendar.get('originDay')==1 and origin and origin.get('dating',{}).get('finalWarDay')==1,'Final War Day 1 origin is missing')
  require(calendar.get('originDate')=='2024-03-04' and calendar.get('mode')=='posting-dates','Final War posting-date convention is missing')
+ months=calendar.get('months',[])
+ require(len(months)==12 and [m.get('number')for m in months]==list(range(1,13)) and len({m.get('name')for m in months})==12 and all(m.get('name','').startswith('Month of ')and m.get('sourceMonth')for m in months),'Final War named months are incomplete')
+ require(calendar.get('yearNumbering')=={'firstSourceYear':2024,'firstYear':1,'rollover':'january-1'},'Final War January 1 year convention is missing')
  for alias,target in world.get('timelineAliases',{}).items():
   require(any(e.get('title')==target and not e.get('veiled') for e in world['archiveIndex']['timeline']), 'Broken event alias '+alias)
 

@@ -1605,9 +1605,59 @@ function timelineWarDateLabel(item) {
   const prefix = { by: 'By ', before: 'Before ', after: 'After ', around: 'Approx. ' }[date.qualifier] || '';
   return `${item.dating.kind === 'recollection' ? 'Record: ' : ''}${prefix}${label}`;
 }
+function timelineCalendarWindow(item) {
+  const dating = item.dating;
+  if (!dating?.postingWindow || !dating.finalWar) return null;
+  return dating.calendarAdjustment ? { start: dating.calendarAdjustment.date, end: dating.calendarAdjustment.date, precision: 'day', qualifier: 'on' } : dating.postingWindow;
+}
+function timelineCalendarPoint(iso) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(iso || '')) return null;
+  const parsed = new Date(iso+'T00:00:00Z');
+  if (!Number.isFinite(parsed.getTime()) || parsed.toISOString().slice(0,10) !== iso) return null;
+  const calendar = codexCatalog.timelineCalendar;
+  const month = calendar?.months?.find(month => month.number === parsed.getUTCMonth()+1);
+  if (!month || !calendar.yearNumbering) return null;
+  const sourceYear = parsed.getUTCFullYear();
+  const before = iso < calendar.originDate;
+  const year = sourceYear - calendar.yearNumbering.firstSourceYear + calendar.yearNumbering.firstYear;
+  return { day: parsed.getUTCDate(), month: month.name, monthNumber: month.number, sourceYear, before, year, era: before ? 'before the Final War' : `Year ${year} of the Final War` };
+}
+function timelineCalendarDateLabel(item) {
+  const window = timelineCalendarWindow(item);
+  if (!window) return '';
+  const start = timelineCalendarPoint(window.start), end = timelineCalendarPoint(window.end);
+  if (!start || !end) return '';
+  const sameYear = start.sourceYear === end.sourceYear && start.before === end.before;
+  const sameMonth = sameYear && start.monthNumber === end.monthNumber;
+  const date = point => `${point.day}, ${point.month}`;
+  let label;
+  if (window.precision === 'month' && sameMonth) label = `${start.month} · ${start.era}`;
+  else if (window.start === window.end) label = `${date(start)} · ${start.era}`;
+  else if (sameMonth) label = `${start.day}–${end.day}, ${start.month} · ${start.era}`;
+  else if (sameYear) label = `${date(start)} – ${date(end)} · ${start.era}`;
+  else label = `${date(start)} · ${start.era} – ${date(end)} · ${end.era}`;
+  const prefix = { by: 'By ', before: 'Before ', after: 'After ', around: 'Approx. ' }[window.qualifier] || '';
+  return `${item.dating.kind === 'recollection' ? 'Record: ' : ''}${prefix}${label}`;
+}
+function timelineCalendarYearGroup(item) {
+  const window = timelineCalendarWindow(item), point = window && timelineCalendarPoint(window.start);
+  if (point?.before) return `Before the Final War · ${point.sourceYear}`;
+  const sourceYear = Number(item.sort.slice(0,4)), numbering = codexCatalog.timelineCalendar?.yearNumbering;
+  return numbering && sourceYear >= numbering.firstSourceYear ? `Year ${sourceYear-numbering.firstSourceYear+numbering.firstYear} of the Final War · ${sourceYear}` : sourceYear > 2000 ? String(sourceYear) : item.era;
+}
+function timelineCalendarMonthGroup(item) {
+  const window = timelineCalendarWindow(item), point = window && timelineCalendarPoint(window.start);
+  return point ? point.month : 'Month unresolved';
+}
+function timelineMatchesCalendarQuery(item, query) {
+  const text = normalizeSearchName(query), label = normalizeSearchName(timelineCalendarDateLabel(item));
+  const months = (codexCatalog.timelineCalendar?.months || []).filter(month => text.includes(normalizeSearchName(month.name)));
+  const years = [...text.matchAll(/\byear (\d+)\b/g)];
+  return months.every(month => label.includes(normalizeSearchName(month.name))) && years.every(match => new RegExp(`\\byear ${match[1]}\\b`).test(label));
+}
 function timelineDateMarkup(item) {
-  const label = timelineWarDateLabel(item);
-  return `${label ? `<span class="timeline-war-day">${escapeHtml(label)}</span><span class="timeline-source-date">${escapeHtml(item.meta)}</span>` : escapeHtml(item.meta)}<small class="timeline-date-status" data-date-kind="${escapeHtml(item.dating?.kind || 'unreviewed')}">${escapeHtml(timelineDateKinds[item.dating?.kind] || 'Date basis unreviewed')}</small>${item.dating?.calendarAdjustment ? '<small class="timeline-date-status" data-calendar-adjusted>Calendar aligned · see event</small>' : ''}`;
+  const label = timelineWarDateLabel(item), named = timelineCalendarDateLabel(item);
+  return `${named ? `<span class="timeline-calendar-date">${escapeHtml(named)}</span>` : ''}${label ? `<span class="timeline-war-day">${escapeHtml(label)}</span><span class="timeline-source-date">${escapeHtml(item.meta)}</span>` : escapeHtml(item.meta)}<small class="timeline-date-status" data-date-kind="${escapeHtml(item.dating?.kind || 'unreviewed')}">${escapeHtml(timelineDateKinds[item.dating?.kind] || 'Date basis unreviewed')}</small>${item.dating?.calendarAdjustment ? '<small class="timeline-date-status" data-calendar-adjusted>Calendar aligned · see event</small>' : ''}`;
 }
 function timelineImportanceControls(state, events = archiveIndex.timeline.filter(readableTimelineEvent)) {
   return `${timelineRegionControl(state, events)}<label class="timeline-select-shell"><span class="timeline-search-label">Importance</span><select data-timeline-importance><option value="0">All levels</option>${timelineImportanceLevels.map(level => `<option value="${level.level}"${state.importance === level.level ? ' selected' : ''}>${level.level}. ${level.label}</option>`).join('')}</select></label>
@@ -1635,7 +1685,8 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
   };
   explorer.innerHTML = `
     <p class="timeline-sequences-link"><a href="#history-in-consequences">Follow connected histories →</a></p>
-    <div class="timeline-calendar-note"><strong>Day 1 of the Final War · 4 March 2024</strong><p>The first Called’s arrival through the Gate begins this reckoning. Days count elapsed posting dates; clear quest continuations share their established day, with adjustments explained in each event. Original dates remain below the day count. Ranges stay ranges, and a report’s day dates the report.</p></div>
+    <div class="timeline-calendar-note"><strong>4, Month of War, Year 1 · Day 1 of the Final War</strong><p>The first Called’s arrival through the Gate begins this reckoning. Year 1 is 2024; each new year begins on January 1. Named months retain the source calendar’s dates and lengths. Days count elapsed posting dates; clear quest continuations share their established day, with adjustments explained in each event. Original dates remain visible. Ranges stay ranges, and a report’s day dates the report.</p></div>
+    <details class="timeline-level-guide timeline-month-guide"><summary>The twelve months of the calendar</summary><ol>${(codexCatalog.timelineCalendar?.months || []).map(month => `<li><strong>${escapeHtml(month.name)}</strong> — ${escapeHtml(month.sourceMonth)}</li>`).join('')}</ol></details>
     ${person ? `<p class="timeline-person-filter">Events involving <a href="#${person.article}">${escapeHtml(person.title)}</a> · <a href="#living-timeline">Show all events</a></p>` : ''}
     <div class="timeline-controls">
       <label class="timeline-search-shell"><span class="timeline-search-label">Search events</span><span class="timeline-search-field"><span aria-hidden="true">⌕</span><input type="search" placeholder="Try Papirak, sacrifice, Prima…" value="${escapeHtml(state.query)}" maxlength="200" autocomplete="off"></span></label>
@@ -1662,18 +1713,19 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
   };
   const renderResults = (updateRoute = false) => {
     if (updateRoute) syncRoute();
-    const terms = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const terms = normalizeSearchName(state.query).split(/\s+/).filter(Boolean);
     const filtered = availableTimeline.filter(item => state.era === 'All eras' || item.era === state.era)
       .filter(item => !state.region || timelineRegionIds(item).includes(state.region))
       .filter(item => timelineMatchesImportance(item, state))
       .filter(item => {
-        const haystack = `${item.title} ${(item.aliases || []).join(' ')} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(' ')}`.toLowerCase();
+        if (!timelineMatchesCalendarQuery(item, state.query)) return false;
+        const haystack = normalizeSearchName(`${item.title} ${(item.aliases || []).join(' ')} ${timelineCalendarDateLabel(item)} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(' ')}`);
         return terms.every(term => haystack.includes(term));
       }).sort((a, b) => compareTimelineEvents(a, b, state.order));
     timelineBrowseContext = { route: location.hash, items: filtered };
     const byImportance = ['highest', 'lowest'].includes(state.order);
     const grouped = filtered.reduce((groups, item) => {
-      const key = byImportance ? timelineImportanceLabel(item) : (Number(item.sort.slice(0, 4)) > 2000 ? item.sort.slice(0, 4) : item.era);
+      const key = byImportance ? timelineImportanceLabel(item) : timelineCalendarYearGroup(item);
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key).push(item);
       return groups;
@@ -1681,7 +1733,8 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
     summary.innerHTML = `<strong>${filtered.length}</strong> of ${availableTimeline.length} event${availableTimeline.length === 1 ? '' : 's'} · ${escapeHtml(timelineImportanceSummary(state))}${state.region ? ' · '+escapeHtml(codexCatalog.timelineRegions.find(region => region.id === state.region)?.label || '') : ''} · ${timelineOrders[state.order].toLowerCase()}`;
     results.innerHTML = filtered.length ? [...grouped.entries()].map(([group, items]) => `
       <section class="timeline-era" aria-label="${escapeHtml(group)}"><header class="timeline-era-header"><h3>${escapeHtml(group)}</h3><span>${items.length} event${items.length === 1 ? '' : 's'}</span></header>
-      <div class="event-timeline">${items.map(item => `
+      <div class="event-timeline">${items.map((item,index) => `
+        ${!byImportance && (!index || timelineCalendarMonthGroup(item) !== timelineCalendarMonthGroup(items[index-1])) ? `<h4 class="timeline-month-heading">${escapeHtml(timelineCalendarMonthGroup(item))}</h4>` : ''}
         <button class="event-card" type="button" data-article="${escapeHtml(item.article)}" data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}">
           <span class="event-date">${timelineDateMarkup(item)}<span class="event-importance" title="${escapeHtml(item.importanceReason || '')}">${timelineImportanceLabel(item)}</span></span>
           <span class="event-copy"><span class="event-kind">${escapeHtml(item.kind)} <i>·</i> ${escapeHtml(item.location)}</span><strong>${escapeHtml(item.title)}</strong><span class="event-summary">${escapeHtml(item.summary)}</span><span class="event-people"><b>People</b> ${escapeHtml(item.people)}</span><span class="event-tags">${(item.tags || []).map(tag => `<i>${escapeHtml(tag)}</i>`).join('')}</span><span class="event-expand">Open full event <i aria-hidden="true">→</i></span></span>
@@ -1971,8 +2024,8 @@ function runSearch(query) {
     ["Timeline", archiveIndex.timeline],
     ["Locations", archiveIndex.islands]
   ];
-  const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => item?.title && (group !== "Timeline" || !isRestrictedTimelineEvent(item))).map(item => {
-    const haystack = cachedSearchText(item, group, () => normalizeSearchName(`${group} ${item.title} ${(item.aliases || []).join(' ')} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`));
+  const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => item?.title && (group !== "Timeline" || (!isRestrictedTimelineEvent(item) && timelineMatchesCalendarQuery(item, query)))).map(item => {
+    const haystack = cachedSearchText(item, group, () => normalizeSearchName(`${group} ${item.title} ${(item.aliases || []).join(' ')} ${timelineCalendarDateLabel(item)} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`));
     const titleMatch = searchNameScore(normalized, [item.title, ...(item.aliases || [])], phrase);
     const allTermsMatch = terms.every(term => haystack.includes(term));
     return {

@@ -408,3 +408,7 @@ The owner authorizes rating review, region filters, connected histories, date ce
 ## Final War calendar review · 21 October 2026
 
 Owner adopts elapsed posting dates and permits aligning clear quest continuations. FINAL_WAR_CALENDAR.md records twelve explicit source-backed adjustments, bounded source checks, hashes and the retained precision model. No new transcript corpus is imported. The original posting labels, attributions and protected boundaries remain in place; day numbers are a calendar convention, not newly recovered testimony.
+
+## Named calendar · 21 October 2026
+
+Explicit owner canon supplies the twelve month names in FINAL_WAR_CALENDAR.md and confirms January 1 rollover / 2024 as Year 1. This changes calendar presentation and guidance, without importing a new transcript corpus or changing event chronology and uncertainty.

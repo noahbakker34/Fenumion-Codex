@@ -2,6 +2,10 @@
 
 Last updated: 2026-10-21
 
+## Named calendar months and years · 21 October 2026
+
+Owner supplies twelve month names and explicitly chooses January 1 rollover, with 2024 as Year 1. The first Gate arrival is 4, Month of War, Year 1 / total Day 1; the October Babel expedition is 18, Month of Death, Year 3 / total Day 959. The canonical registry and shared date formatter retain source dates, ranges, approximate months, report/bound qualifications and existing quest adjustments. Main/home timelines, dialogs, histories and chains share named dates; chronological browsing adds year/month headings and a collapsible month key. Named-calendar search supports Namo'o apostrophe variants and avoids incidental Death mentions. All event metadata, ratings, protected stubs and the private payload are preserved. App/catalog253, reader3, styles174. See FINAL_WAR_CALENDAR.md. Publication receipt follows verification.
+
 ## World-changing Final War turning points · 21 October 2026
 
 Owner explicitly identifies Aria dying to Talan, Wrath dying and Death appearing to the PCs as World Changing. Five existing public entries are raised to level 5, including both Wrath victory/aftermath entries and Death’s direct confrontations over Magnus and in Babel. The guide now includes major Final War turning points in level 5. Claims remain attributed; all history, calendar metadata, protected boundaries and the full private payload are preserved. Current counts: 73/159/77/27/7 across levels 1–5; 343 public events total. App/catalog252, reader3, styles173. See TIMELINE_IMPORTANCE.md.

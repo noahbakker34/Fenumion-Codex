@@ -102,6 +102,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await go('world-index'); await page.locator('#world-browser [data-view="timeline"]').click();
     assert.equal(await page.locator('.timeline-view .index-card').count(), 343);
     assert.equal(await page.locator('.timeline-view .timeline-war-day').count(), 326, 'home timeline shares the calendar');
+    assert.equal(await page.locator('.timeline-view .timeline-calendar-date').count(), 326, 'home timeline shares named dates');
     await page.locator('#world-browser [data-timeline-importance]').selectOption('3');
     assert.equal(await page.locator('.timeline-view .index-card').count(), counts.slice(3).reduce((a,b)=>a+b,0));
     assert(await page.locator('#world-browser [data-timeline-importance]').evaluate(el => el === document.activeElement));
@@ -115,6 +116,40 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     assert((await origin.textContent()).includes('Day 1 of the Final War'));
     assert.equal(await page.locator('.event-card .timeline-war-day').count(), 326, 'posting calendar preserves the 17 unresolved dates');
     assert.equal(await page.locator('.event-card [data-calendar-adjusted]').count(), 12);
+    assert.equal(await page.locator('.event-card .timeline-calendar-date').count(),326);
+    const monthNames=['Talan','Aionia','War',"Namo'o",'Physisia','Rebirth','Cala','Moirah','Nuru','Death','the Wyrm','Hope'].map(name=>'Month of '+name);
+    assert.deepEqual(await page.locator('.timeline-month-guide strong').allTextContents(),monthNames);
+    const calendarExamples=await page.evaluate(()=>{
+      const item=(start,end=start,precision='day',qualifier='on',kind='recorded')=>({dating:{kind,postingWindow:{start,end,precision,qualifier},finalWar:{start:1,end:1}}});
+      return {
+        months:Array.from({length:12},(_,i)=>timelineCalendarDateLabel(item(`2025-${String(i+1).padStart(2,'0')}-01`))),
+        cases:[
+          item('2024-12-31','2025-01-01','range'),item('2025-05-25','2025-06-04','range'),item('2024-06-12','2024-06-13','range'),
+          item('2026-02-01','2026-02-28','month','around'),item('2024-02-29'),item('2028-02-29'),item('2025-02-29'),
+          item('2024-06-12',undefined,'day','by'),item('2025-06-24',undefined,'day','on','recollection'),{dating:{kind:'unresolved'}}
+        ].map(timelineCalendarDateLabel)
+      };
+    });
+    assert.deepEqual(calendarExamples.months,monthNames.map(name=>`1, ${name} · Year 2 of the Final War`));
+    assert.deepEqual(calendarExamples.cases,[
+      '31, Month of Hope · Year 1 of the Final War – 1, Month of Talan · Year 2 of the Final War',
+      '25, Month of Physisia – 4, Month of Rebirth · Year 2 of the Final War','12–13, Month of Rebirth · Year 1 of the Final War',
+      'Approx. Month of Aionia · Year 3 of the Final War','29, Month of Aionia · before the Final War','29, Month of Aionia · Year 5 of the Final War','',
+      'By 12, Month of Rebirth · Year 1 of the Final War','Record: 24, Month of Rebirth · Year 2 of the Final War',''
+    ]);
+    assert.equal(await origin.locator('.timeline-calendar-date').innerText(),'4, Month of War · Year 1 of the Final War');
+    assert((await page.locator('.timeline-era-header h3').allTextContents()).includes('Year 3 of the Final War · 2026'));
+    assert((await page.locator('.timeline-month-heading').allTextContents()).includes('Month of Death'));
+    await page.locator('#timeline-explorer input').fill('Month of Death Year 3');
+    assert((await titles()).includes('Death makes an offer after the mist clearing'));
+    assert((await page.locator('.event-card .timeline-calendar-date').allTextContents()).every(label=>label.includes('Month of Death')&&label.includes('Year 3')));
+    await page.locator('#timeline-explorer input').fill('Year 2 Month of Namo’o');
+    assert(await page.locator('.event-card').count());
+    assert((await page.locator('.event-card .timeline-calendar-date').allTextContents()).every(label=>label.includes("Month of Namo'o")&&label.includes('Year 2')),'curly apostrophe finds the supplied month name');
+    await page.locator('.timeline-reset').click();
+    await page.evaluate(async()=>{search.value='Month of Death Year 3';await runSearch(search.value);});
+    assert(await page.locator('.search-result[data-search-kind="timeline"][data-search-title="Death makes an offer after the mist clearing"]').count());
+    await page.keyboard.press('Escape');
     const expectedDates = [
       ['The newcomers scout beyond Pristinia', 'Day 3 of the Final War'],
       ['Neemah offers the newcomers many ways to matter', '39 days before the Final War'],
@@ -150,6 +185,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await page.keyboard.press('Escape');
     const collapse=page.locator('.event-card[data-timeline-title="The harpy cave is collapsed after a final prayer"]');
     await collapse.click();
+    assert.equal(await page.locator('#record-dialog-content > .record-dialog-dek .timeline-calendar-date').innerText(),'19, Month of Nuru · Year 3 of the Final War','clear continuation retains its quest calendar day');
     assert((await page.locator('#record-dialog-content').textContent()).includes('explicitly resumes the ongoing battle'));
     assert((await page.locator('#record-dialog-content').textContent()).includes('26–27 Sep 2026'));
     assert.equal(await page.locator('.timeline-review-sources a').count(),4,'continuation sources are visible');
@@ -187,10 +223,12 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await page.evaluate(async () => {
       const template = { article: 'great-fracture', meta: 'Undated', sort: '0000-00', era: 'Ancient world', kind: 'Test', location: 'Test', people: 'Test', summary: 'Synthetic private fixture', vaultOnly: true };
       const events = [1, 2, 3, 4, 5].map(level => ({ ...template, title: 'Private fixture ' + level, importance: level }));
+      Object.assign(events[4],{meta:'31 Dec 2025',sort:'2025-12-31',era:'2025 · Truth and authority',dating:{kind:'recorded',note:'Synthetic calendar fixture',postingWindow:{start:'2025-12-31',end:'2025-12-31',precision:'day',qualifier:'on'},finalWar:{start:668,end:668,precision:'day',qualifier:'on'}}});
       events.push({ ...template, title: 'Private unrated fixture' });
       vaultUnlocked = true; applyVault({ articles: [], index: { timeline: events } }); await renderArticle('living-timeline', false);
     });
     assert.equal(await page.locator('.event-card').count(), 349);
+    assert.equal(await page.locator('.event-card[data-timeline-title="Private fixture 5"] .timeline-calendar-date').innerText(),'31, Month of Hope · Year 2 of the Final War','private events share the public calendar formatter');
     await importance().selectOption('4');
     assert.equal(await page.locator('.event-card').count(), counts.slice(4).reduce((a,b)=>a+b,0)+2);
     assert.equal(await page.locator('.event-card[data-timeline-title="Private fixture 4"]').count(), 1);
@@ -202,6 +240,6 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     assert(!(await page.locator('#timeline-explorer').innerText()).includes('Private fixture'));
     assert(await page.evaluate(() => archiveIndex.timeline.filter(e => e.veiled).every(e => !['importance','importanceReason','regions','dating','reviewSources'].some(key=>key in e))));
     assert.deepEqual(errors, []);
-    console.log('PASS five importance levels, exact/minimum filters, adjusted calendar sorting, filtered dialogs, era/person/search, share/reload/Back, keyboard/mobile, home timeline, posting-date arithmetic/precision/continuations, supported histories/research limits and private unlock/lock boundaries');
+    console.log('PASS five importance levels, adjusted sorting, filtered dialogs, named months/January year rollover/ranges/leap dates/calendar search, share/reload/Back, keyboard/mobile, home timeline, continuations, histories/research and private unlock/lock boundaries');
   } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exit(1); });

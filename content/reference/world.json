@@ -47490,10 +47490,77 @@
     "name": "Final War",
     "originEvent": "The first Called arrive in Prima",
     "originDay": 1,
-    "note": "The first Called’s arrival through the Gate is Day 1 of the Final War (4 March 2024). Count elapsed recorded posting dates inclusively. Clear quest continuations may retain their established day, with a source-backed explanation. Preserve posting dates, approximate ranges, report dates and unresolved dates.",
+    "note": "The first Called’s arrival through the Gate is Day 1 of the Final War (4 March 2024). Count elapsed recorded posting dates inclusively. Clear quest continuations may retain their established day, with a source-backed explanation. Preserve posting dates, approximate ranges, report dates and unresolved dates. Named months follow the source calendar’s days and month lengths. Year 1 is 2024; years roll over on January 1.",
     "originDate": "2024-03-04",
     "mode": "posting-dates",
-    "decisionDate": "2026-10-21"
+    "decisionDate": "2026-10-21",
+    "months": [
+      {
+        "number": 1,
+        "name": "Month of Talan",
+        "sourceMonth": "January"
+      },
+      {
+        "number": 2,
+        "name": "Month of Aionia",
+        "sourceMonth": "February"
+      },
+      {
+        "number": 3,
+        "name": "Month of War",
+        "sourceMonth": "March"
+      },
+      {
+        "number": 4,
+        "name": "Month of Namo'o",
+        "sourceMonth": "April"
+      },
+      {
+        "number": 5,
+        "name": "Month of Physisia",
+        "sourceMonth": "May"
+      },
+      {
+        "number": 6,
+        "name": "Month of Rebirth",
+        "sourceMonth": "June"
+      },
+      {
+        "number": 7,
+        "name": "Month of Cala",
+        "sourceMonth": "July"
+      },
+      {
+        "number": 8,
+        "name": "Month of Moirah",
+        "sourceMonth": "August"
+      },
+      {
+        "number": 9,
+        "name": "Month of Nuru",
+        "sourceMonth": "September"
+      },
+      {
+        "number": 10,
+        "name": "Month of Death",
+        "sourceMonth": "October"
+      },
+      {
+        "number": 11,
+        "name": "Month of the Wyrm",
+        "sourceMonth": "November"
+      },
+      {
+        "number": 12,
+        "name": "Month of Hope",
+        "sourceMonth": "December"
+      }
+    ],
+    "yearNumbering": {
+      "firstSourceYear": 2024,
+      "firstYear": 1,
+      "rollover": "january-1"
+    }
   },
   "timelineAliases": {
     "Mortals unmake a mountain": "Babel’s defenders reshape the cavern-bearing mountain"

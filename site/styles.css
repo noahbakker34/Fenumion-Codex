@@ -2673,8 +2673,12 @@ body.character-background-view .breadcrumbs { color: #d7d2c5; text-shadow: 0 1px
 .timeline-calendar-note { margin: .9rem 0; padding: .8rem 1rem; color: var(--muted); background: #d4b46d0a; border-left: 3px solid var(--gold); font-size: .82rem; line-height: 1.55; }
 .timeline-calendar-note > strong { color: var(--gold); }
 .timeline-calendar-note p { margin: .35rem 0 0; }
-.timeline-war-day, .timeline-source-date, .timeline-date-status { display: block; }
-.timeline-war-day { color: var(--gold-bright); }
+.timeline-calendar-date, .timeline-war-day, .timeline-source-date, .timeline-date-status { display: block; }
+.timeline-calendar-date { color: var(--gold-bright); font-weight: 600; }
+.timeline-war-day { margin-top: .3rem; color: var(--gold); font-weight: 400; }
+.article-body .timeline-month-heading { margin: .7rem 0 .1rem; color: var(--gold); font: 600 .8rem/1.5 var(--sans); }
+.timeline-month-guide ol { columns: 2 15rem; }
+.timeline-month-guide li { break-inside: avoid; }
 .timeline-source-date { margin-top: .35rem; color: var(--muted); font-weight: 400; }
 .timeline-date-status { margin-top: .35rem; color: #b8c6bb; font: 400 .65rem/1.5 var(--sans); letter-spacing: 0; text-transform: none; }
 .timeline-dating-note { color: var(--muted); font: .8rem/1.6 var(--sans); }

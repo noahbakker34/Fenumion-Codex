@@ -70,7 +70,14 @@
     const person = context.people.find(person => person.article === article.id && (person.title === article.title || person.aliases?.includes(article.title)));
     if (person || article.category === 'People' && article.image) {
       root.classList.add('chronicle-person');
-      if (article.image) header.insertAdjacentHTML('afterbegin', `<figure class="chronicle-person-portrait"><img src="${esc(article.image)}" alt="Portrait of ${esc(article.title)}" decoding="async"></figure>`);
+      if (article.image) {
+        const original=root.querySelector('.record-visual-rail > .article-hero');
+        const originalPortrait=original?.querySelector('img')?.getAttribute('src') || original?.querySelector('video')?.getAttribute('poster');
+        if(original && originalPortrait===article.image) {
+          original.classList.remove('article-hero','record-topic-art');
+          original.classList.add('chronicle-person-portrait');header.prepend(original);
+        } else header.insertAdjacentHTML('afterbegin', `<figure class="chronicle-person-portrait"><img src="${esc(article.image)}" alt="Portrait of ${esc(article.title)}" decoding="async"></figure>`);
+      }
       const role = person ? context.personLabel(person) : article.brief?.identity || article.type;
       header.querySelector('.article-kicker').textContent = role;
       header.insertAdjacentHTML('beforeend',relationships(article,context));

@@ -54,7 +54,9 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
    await go(id);assert.equal(await page.locator('.article-header .chronicle-region-badge').count(),1,id+' has a sourced region badge');
   }
   await go('fenwick');
-  assert.equal(await page.locator('.chronicle-person-portrait img').count(),1);
+  assert.equal(await page.locator('.chronicle-person-portrait :is(img,video)').count(),1);
+  assert.equal(await page.locator('.record-visual-rail > .article-hero :is(img,video)').count(),0,'same portrait is shown once');
+  assert(await page.locator('.chronicle-person-portrait video').evaluate(el=>el.paused&&!el.querySelector('source')?.hasAttribute('src')),'reduced-motion portrait retains its poster without loading video');
   assert.equal((await page.locator('.article-header .article-kicker').innerText()).toLowerCase(),'player character');
   assert.equal(await page.locator('.article-header .chronicle-relationships a').count(),4);
   assert(await page.locator('.chronicle-relationships a').evaluateAll(links=>links.every(link=>!byId.get(link.hash.slice(1))?.protected)),'relationships exclude protected targets');
@@ -67,6 +69,11 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   for(const width of [390,320]){
    await page.setViewportSize({width,height:844});
    for(const id of ['world-index','living-timeline?importance=5','fenwick','babel-ashur','people-directory']){await go(id);await fits();await dockFits();}
+   await page.locator('#people-gallery-query').fill('Fenwick');await page.locator('#people-gallery [data-character-title]').filter({hasText:'Fenwick'}).first().click();
+   if(width===390)await page.screenshot({path:output+'/character-dialog-mobile.png'});
+   await fits();const headingSize=await page.locator('.chronicle-character-header').evaluate(el=>({scroll:el.scrollWidth,width:el.clientWidth,children:[...el.children].map(child=>({class:child.className,width:child.clientWidth,scroll:child.scrollWidth}))}));
+   assert(headingSize.scroll<=headingSize.width,'mobile profile heading fits: '+JSON.stringify(headingSize));
+   await page.keyboard.press('Escape');
    await go('living-timeline?importance=5');
    for(const selector of ['[data-calendar-year]','[data-calendar-month]','[data-calendar-go]'])assert(await page.locator(selector).evaluate(el=>el.getBoundingClientRect().height>=44&&parseFloat(getComputedStyle(el).fontSize)>=16),'calendar touch target '+selector);
    await page.locator('.music-toggle').click();await page.locator('.music-panel').waitFor({state:'visible'});await fits();

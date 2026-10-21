@@ -23,7 +23,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     const events = await page.evaluate(() => archiveIndex.timeline.filter(e => !e.veiled));
     const byTitle = new Map(events.map(e => [e.title, e]));
     // Exact categories and minimum thresholds are different reader choices.
-    const counts = [0, 73, 148, 89, 32, 1];
+    const counts = [0, 74, 159, 80, 28, 2];
     for (let level = 1; level <= 5; level++) {
       await importance().selectOption(String(level)); await match().selectOption('exact');
       assert.equal(await page.locator('.event-card').count(), counts[level], 'exact level ' + level);
@@ -32,6 +32,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
       assert.equal(await page.locator('.event-card').count(), counts.slice(level).reduce((a, b) => a + b, 0));
       assert((await ranks()).every(rank => rank >= level));
     }
+    await page.locator('#timeline-explorer input').fill('Cthulhu');
     assert.equal((await titles())[0], 'Cthulhu comes through a rift into Fenumion');
     await page.locator('.event-card').click();
     const dialogText = await page.locator('#record-dialog-content').innerText(); assert(dialogText.toLowerCase().includes('importance · 5. world changing'), dialogText);
@@ -50,7 +51,9 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
       }
     }
     await order().selectOption('highest'); await importance().selectOption('3');
+    await page.locator('[data-timeline-region]').selectOption('gael');
     const filteredTitles = await titles();
+    assert(filteredTitles.length > 1 && filteredTitles.every(title => byTitle.get(title).regions.includes('gael')), 'region intersects importance');
     await page.locator('.event-card').first().click();
     await page.locator('#record-dialog-content .record-dialog-nav button').first().click();
     assert.equal(await page.locator('#record-dialog-title').innerText(), filteredTitles[1], 'dialog follows the filtered order');
@@ -58,11 +61,12 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     const savedRoute = await page.evaluate(() => location.hash);
     await page.reload(); await importance().waitFor();
     assert.equal(await importance().inputValue(), '3'); assert.equal(await order().inputValue(), 'highest');
+    assert.equal(await page.locator('[data-timeline-region]').inputValue(), 'gael');
     assert.deepEqual(await titles(), filteredTitles, 'reload preserves choices');
     await page.evaluate(() => renderArticle('gael')); await page.goBack();
     await page.waitForFunction(hash => document.querySelector('#article-content').dataset.route === hash, savedRoute);
     assert.deepEqual(await titles(), filteredTitles, 'Back preserves choices');
-    await go('living-timeline?person=saray&importance=2&match=exact&q=green%20dragon');
+    await go('living-timeline?person=saray&region=babel-ashur&importance=2&match=exact&q=green%20dragon');
     assert.deepEqual(await titles(), ['A gathering party faces the green dragon']);
     const era = byTitle.get('A gathering party faces the green dragon').era;
     await page.locator('[data-era]').filter({ hasText: era }).click();
@@ -71,6 +75,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     assert.equal(await page.locator('.event-card').count(), 0); await page.locator('.timeline-empty').waitFor();
     await page.locator('.timeline-reset').click();
     assert((await page.locator('.timeline-person-filter').innerText()).includes('Saray'));
+    assert.equal(await page.locator('[data-timeline-region]').inputValue(), '', 'reset clears the region');
     assert((await page.evaluate(() => location.hash)).includes('person=saray'), 'reset retains the explicitly chosen person');
     await go('living-timeline?importance=99&match=bad&order=constructor&era=hidden&q=%22%3E%3Cimg%20src=x%3E');
     assert.equal(await importance().inputValue(), '0'); assert.equal(await order().inputValue(), 'oldest');
@@ -81,7 +86,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     for (const width of [390, 320]) {
       await page.setViewportSize({ width, height: 844 });
       assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'mobile page fits');
-      for (const control of [importance(), match(), order()]) {
+      for (const control of [importance(), match(), order(), page.locator('[data-timeline-region]')]) {
         assert(await control.evaluate(el => el.getBoundingClientRect().height >= 44 && parseFloat(getComputedStyle(el).fontSize) >= 16));
       }
       await importance().focus(); await page.keyboard.press('ArrowDown'); await page.keyboard.press('Enter');
@@ -92,13 +97,43 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await go('world-index'); await page.locator('#world-browser [data-view="timeline"]').click();
     assert.equal(await page.locator('.timeline-view .index-card').count(), 343);
     await page.locator('#world-browser [data-timeline-importance]').selectOption('3');
-    assert.equal(await page.locator('.timeline-view .index-card').count(), 122);
+    assert.equal(await page.locator('.timeline-view .index-card').count(), 110);
     assert(await page.locator('#world-browser [data-timeline-importance]').evaluate(el => el === document.activeElement));
     await page.locator('#world-browser [data-timeline-order]').selectOption('highest');
     const homeRanks = await page.locator('.timeline-view .index-card').evaluateAll(cards => cards.map(card => Number(card.dataset.importance)));
     assert(homeRanks.every((rank, i) => !i || rank <= homeRanks[i - 1]));
     await page.locator('.timeline-browser-link a').click(); await importance().waitFor();
     assert.equal(await importance().inputValue(), '3'); assert.equal(await order().inputValue(), 'highest');
+    await go('living-timeline');
+    const origin = page.locator('.event-card[data-timeline-title="The first Called arrive in Prima"]');
+    assert((await origin.textContent()).includes('Day 1 of the Final War'));
+    assert.equal(await page.locator('.event-card .timeline-war-day').count(), 1, 'no day counts invented from posting dates');
+    const sameHash = await page.evaluate(() => location.hash); await origin.click();
+    assert.equal(await page.evaluate(() => location.hash), sameHash, 'event dialogs do not create permalinks');
+    assert((await page.locator('#record-dialog-content').textContent()).includes('The owner establishes'));
+    assert((await page.locator('#record-dialog-content').textContent()).includes('first Called’s arrival begins Day 1'));
+    await page.keyboard.press('Escape');
+    await page.locator('#timeline-explorer input').fill('Mortals unmake a mountain');
+    assert.deepEqual(await titles(), ['Babel’s defenders reshape the cavern-bearing mountain'], 'one source-checked mountain event with legacy title search');
+    await page.locator('.event-card').click();
+    assert((await page.locator('#record-dialog-content').textContent()).includes('earlier broad account describes this same assault'));
+    await page.keyboard.press('Escape');
+    for (const [title, kind] of [['Ephraith reports Melian’s release after the peace','recollection'],['Cthulhu comes through a rift into Fenumion','canon'],['Nienna’s expedition reaches Gael','approximate']]) {
+      await page.locator('#timeline-explorer input').fill(title);
+      assert.equal(await page.locator('.event-card').count(), 1);
+      assert.equal(await page.locator('.event-card [data-date-kind]').getAttribute('data-date-kind'), kind);
+    }
+    await go('history-in-consequences'); assert.equal(await page.locator('.article-body .consequence-chain').count(), 9);
+    for (const id of ['rahu-war-peace','nienna-loss-return-sacrifice','zarathis-judgment']) {
+      await page.locator('#sequence-'+id+' [data-timeline-title]').last().click();
+      assert(await page.locator('#record-dialog .current-step').count() >= 1);
+      await page.keyboard.press('Escape');
+    }
+    await go('open-questions');
+    const releaseCard = await page.locator('#question-melian-captivity').textContent();
+    assert(releaseCard.includes('Queen’s release report') && releaseCard.includes('physical handover'));
+    assert((await page.locator('#question-exile-jurisdiction').textContent()).includes('fixed term'));
+    assert((await page.locator('#question-nymera-second-return').textContent()).includes('does not name a completed spell'));
     // Synthetic private events exercise unlock/lock without exposing protected lore in fixtures.
     await page.evaluate(async () => {
       const template = { article: 'great-fracture', meta: 'Undated', sort: '0000-00', era: 'Ancient world', kind: 'Test', location: 'Test', people: 'Test', summary: 'Synthetic private fixture', vaultOnly: true };
@@ -108,7 +143,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     });
     assert.equal(await page.locator('.event-card').count(), 349);
     await importance().selectOption('4');
-    assert.equal(await page.locator('.event-card').count(), 35);
+    assert.equal(await page.locator('.event-card').count(), 32);
     assert.equal(await page.locator('.event-card[data-timeline-title="Private fixture 4"]').count(), 1);
     assert.equal(await page.locator('.event-card[data-timeline-title="Private fixture 3"]').count(), 0);
     await importance().selectOption('0'); await order().selectOption('highest');
@@ -116,8 +151,8 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await page.evaluate(() => lockVault()); await page.waitForLoadState('load'); await importance().waitFor();
     assert.equal(await page.locator('.event-card').count(), 343);
     assert(!(await page.locator('#timeline-explorer').innerText()).includes('Private fixture'));
-    assert(await page.evaluate(() => archiveIndex.timeline.filter(e => e.veiled).every(e => !('importance' in e))));
+    assert(await page.evaluate(() => archiveIndex.timeline.filter(e => e.veiled).every(e => !['importance','importanceReason','regions','dating','reviewSources'].some(key=>key in e))));
     assert.deepEqual(errors, []);
-    console.log('PASS five importance levels, exact/minimum filters, global sorting, filtered dialogs, era/person/search, share/reload/Back, keyboard/mobile, home timeline and private unlock/lock boundaries');
+    console.log('PASS five importance levels, exact/minimum filters, global sorting, filtered dialogs, era/person/search, share/reload/Back, keyboard/mobile, home timeline, region/date/reason metadata, Final War Day 1, supported histories/research limits and private unlock/lock boundaries');
   } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exit(1); });

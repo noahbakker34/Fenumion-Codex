@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-20
 
+## Timeline review and Final War reckoning · 20 October 2026
+
+Owner authorizes rating review, region filters, connected histories, clearer dating and consequential gap research; explicitly excludes event permalinks. First Called’s Gate arrival is Day 1 of the Final War. Original posting/archive dates remain visible. Pending any different owner decision, later day numbers require established elapsed story time and are not calculated from Discord intervals.
+
+All 343 public events and full private events receive rating explanations, explicit regions and date-basis metadata. Thirteen public scope ratings change; a duplicate mountain account is consolidated with legacy title search preserved, and Ephraith’s release report is added. Melian’s investigation follows the narrator’s backdating. Bowene’s exile terms distinguish the required departure from companions who join. Nymera’s missing second-return completion remains bounded and unresolved. Nine consequence histories, 26 research questions/five resolved, 580 records/2,053 sections; 116 selected scenes across 30 people and 38 claim reviews remain. Maps, protected bodies, media and roles are preserved. App/catalog250, reader3, styles173. See TIMELINE_REVIEW_2026_10_20.md for the 23 quest/nine Babel source checks and limits. Local expanded timeline, reader, research-journey and Rifts regressions pass against a fresh localhost preview; desktop/mobile screenshots inspected. Canonical content, build, syntax, privacy/identity and encrypted asset checks pass. Original history changes are confined to documented narrator backdating, exile clarification and mountain consolidation. Publication receipt follows deployment.
+
 ## Timeline importance · 20 October 2026
 
 Owner requests Relational, Local, Regional, Interregional and World Changing levels. All 343 public events now carry an explicit `importance` integer; full private events receive the same field in the vault only. Existing historical fields, protected stubs, bodies and media are preserved. Ratings describe documented consequence scope, independently of evidence certainty; quest authority remains controlling. See TIMELINE_IMPORTANCE.md.

@@ -28,6 +28,10 @@
         "connection": "Research and material care precede the later forest."
       },
       {
+        "event": "Adelia and Elenia help establish living ground in Gael",
+        "connection": "The early living foothold predates the later Hallowing and Adelia’s 2026 transformation; the work is communal."
+      },
+      {
         "event": "Nienna gives herself so Hope can live",
         "connection": "The Hallowing carries a chosen personal cost."
       },
@@ -44,7 +48,7 @@
   {
     "id": "anky-memory",
     "title": "Knowledge that outlives Anky",
-    "summary": "Loss leads to shared records and research; an expedition ends with gaps that the surviving archive cannot fill.",
+    "summary": "Loss leads to shared records and research; the recovered Wasteland narration supplies the expedition’s fatal encounter.",
     "steps": [
       {
         "event": "Voraketh takes something from Anky",
@@ -61,6 +65,14 @@
       {
         "event": "Anky’s final recovered expedition begins",
         "connection": "The record follows his return to investigation."
+      },
+      {
+        "event": "The chain-guard construct kills Anky and Alfred",
+        "connection": "The killing is explicitly narrated in the Wasteland, after the earlier retreat; the cause is no longer inferred from an afterlife scene."
+      },
+      {
+        "event": "Cerwin falls after witnessing his companions’ deaths",
+        "connection": "A later narration records the third expedition member falling; posting intervals are not measured in-world duration."
       },
       {
         "event": "St. Anky walks the road to the afterlife",
@@ -109,6 +121,10 @@
         "connection": "The rebuilding project connects Pristinia to a dispute beyond town."
       },
       {
+        "event": "The replacement tavern shows its new bones",
+        "connection": "Construction makes the proposed replacement physically visible before ordinary tavern life is attested."
+      },
+      {
         "event": "Pilgrim’s Hearth returns ordinary social life",
         "connection": "Tea and conversation show what rebuilding has made possible."
       }
@@ -134,6 +150,99 @@
       {
         "event": "The western mist turns companions into apparent monsters",
         "connection": "A later investigation becomes a rescue with distinct contributions and personal costs."
+      }
+    ]
+  },
+  {
+    "id": "rahu-war-peace",
+    "title": "From siege and captivity to a negotiated peace",
+    "summary": "Mobilization, abduction and evidence lead into a peace settlement; the Queen’s later release report retains its attribution.",
+    "steps": [
+      {
+        "event": "Pristinia deliberates war in the Public Square",
+        "connection": "Public deliberation produces a united war posture and a call for trackers."
+      },
+      {
+        "event": "Magnus fights Pristinia for the Rahu",
+        "connection": "The conflict places former companions on opposing sides."
+      },
+      {
+        "event": "The Rahu siege grinds against Pristinia",
+        "connection": "Continued bombardment makes survival a shared civic burden."
+      },
+      {
+        "event": "Magnus abducts Melian for the Rahu",
+        "connection": "The abduction removes a civic leader while violence kills witnesses."
+      },
+      {
+        "event": "Pristinia reconstructs Melian’s abduction",
+        "connection": "The narrator places the investigation on the preceding day; physical clues limit what the town can know."
+      },
+      {
+        "event": "Peace is negotiated and sworn in Rahuvia",
+        "connection": "Negotiated concessions and an oath change relations between the powers."
+      },
+      {
+        "event": "Ephraith reports Melian’s release after the peace",
+        "connection": "Ephraith reports release as already completed; no unseen rescue or handover is supplied."
+      },
+      {
+        "event": "The Rahu honor the fallen on both sides",
+        "connection": "The peace’s aftermath includes a marked place for the dead, while the precise location remains open."
+      }
+    ]
+  },
+  {
+    "id": "nienna-loss-return-sacrifice",
+    "title": "Nienna’s return and her later chosen sacrifice",
+    "summary": "A first death, communal recovery and named restoration precede a different, voluntary sacrifice for Hope.",
+    "steps": [
+      {
+        "event": "Nienna falls on the Plains of Trial",
+        "connection": "The quest establishes her first death while Saray survives to bring her home."
+      },
+      {
+        "event": "The Tower community seeks Nienna’s return",
+        "connection": "A shared effort seeks the means to restore her."
+      },
+      {
+        "event": "Elenia restores Nienna at the Tower",
+        "connection": "Elenia’s Raise Dead restores her in July; the spell is directly documented."
+      },
+      {
+        "event": "Nienna gives herself so Hope can live",
+        "connection": "The later September choice is a separate sacrifice for an opportunity to preserve Hope, not another description of the July loss."
+      }
+    ]
+  },
+  {
+    "id": "zarathis-judgment",
+    "title": "Grief, judgment and the road toward Babel",
+    "summary": "Aria’s death leaves grief and contested authority; a rite, duel and compromise lead to a departure directed toward another struggle.",
+    "steps": [
+      {
+        "event": "Talan kills Aria",
+        "connection": "The death of Zarathis’s cultural leader becomes the starting point of the aftermath."
+      },
+      {
+        "event": "Bowene receives Aria’s surviving companions",
+        "connection": "Bowene receives the survivors as an already established High Lord; this is not his accession."
+      },
+      {
+        "event": "Bowene mourns Aria and demands that Talan pay",
+        "connection": "Grief and demands for punishment remain part of his starting position."
+      },
+      {
+        "event": "Bowene invokes the Crucible of Valor",
+        "connection": "A formal rite gives the dispute a procedure without proving every accusation true."
+      },
+      {
+        "event": "Elenia defeats Magnus and refuses the duel’s final premise",
+        "connection": "The confrontation ends in victory and a contested use of power, with consequences beyond the combat."
+      },
+      {
+        "event": "Bowene exiles Elenia without closing the door",
+        "connection": "The compromise requires Elenia’s departure, permits companions to join, and offers support against the enemy in Babel without granting general return permission."
       }
     ]
   }

@@ -120,11 +120,20 @@
     "region": "Zarathis",
     "kind": "Leadership",
     "question": "What was the full scope of the exile judgment?",
-    "known": "The named list includes Elenia, Aravil and Olokun.",
-    "missing": "The complete jurisdiction, duration, conditions and reasons.",
-    "nextSource": "The full judgment sequence and any later revision or return authorization.",
+    "known": "Bowene requires Elenia to leave, distinguishes exile from banishment, names Aravil and Olokun in the departing company, invites others to join, offers support and sets sunset departure.",
+    "missing": "A fixed term, complete geographical jurisdiction and a later completed authorization to return remain unestablished. The companions’ acceptance does not prove identical mandatory sentences.",
+    "nextSource": "Any later legal revision or explicit return permission; retain the recovered compromise and voluntary companions separately.",
     "article": "bowene",
-    "status": "narrowed"
+    "status": "narrowed",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841315849994314",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841751940300885",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845268033863750",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1452846851635023884",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1452849645008195606"
+    ],
+    "reviewedOn": "2026-10-20"
   },
   {
     "id": "aria-siblings",
@@ -189,11 +198,16 @@
     "region": "Pristinia",
     "kind": "Chronology",
     "question": "What connects Melian’s disappearance and later recovery?",
-    "known": "The discovery scene explicitly places the loss on the preceding day.",
-    "missing": "The complete captivity and recovery sequence, preserving what rescuers knew at each stage.",
-    "nextSource": "Abduction, search and return scenes checked together.",
+    "known": "The narrator backdates the discovery to the preceding day. At the close of peace talks, Ephraith says Melian has already been released; later public life is independently recorded.",
+    "missing": "The Queen’s release report is recovered. The physical handover, route home, confinement conditions and exact release time remain unshown.",
+    "nextSource": "A direct handover or homecoming scene, preserving the distinction between Ephraith’s report and witnessed recovery.",
     "article": "melian-starguard",
-    "status": "narrowed"
+    "status": "narrowed",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1380213378869628993",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1387050888186822826"
+    ],
+    "reviewedOn": "2026-10-20"
   },
   {
     "id": "spire-opening",
@@ -427,18 +441,20 @@
     "region": "Babel-Ashur",
     "kind": "Death and return",
     "question": "What completes Nymera’s second August restoration?",
-    "known": "The first return during the Refuge defense is explicitly Arjahn’s Revivify. A second attack reduces Nymera to ash. Eugene gathers the remains; after the mountain assault Elenia calls her back over the ashes. September shows Nymera living and recalling two deaths.",
-    "missing": "The exact completion of the second restoration, its named spell and any separate ruling are not recorded in the checked closing passage.",
-    "nextSource": "A continuation or casting record after Elenia’s closing attempt; keep the first Revivify and second restoration distinct.",
+    "known": "The first return is Arjahn’s Revivify. The second attack leaves ashes; Eugene gathers them. Elenia receives them and postpones the attempt until after the mountain operation, then calls Nymera back. September shows her living.",
+    "missing": "The checked closing sequence does not name a completed spell or narrate the awakening. The missing transition is bounded by the 29 August attempt and the September living appearance.",
+    "nextSource": "A continuation, casting record or explicit ruling for this second return; the existing packet’s closing lines do not supply it.",
     "article": "nymera",
     "status": "narrowed",
-    "reviewedOn": "2026-10-19",
+    "reviewedOn": "2026-10-20",
     "references": [
-      "https://discord.com/channels/1177270231513694249/1294457593296719873/1539479486775558156",
-      "https://discord.com/channels/1177270231513694249/1294457593296719873/1539494887588765766",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1539503229476544512",
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1539503432627396658",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1543053259009298563",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1543053948917784586",
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1543116718988066866",
-      "https://discord.com/channels/1177270231513694249/1294457593296719873/1553219529876701307"
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1543116796800794684",
+      "https://discord.com/channels/1177270231513694249/1294457593296719873/1553216116791312517"
     ]
   }
 ]

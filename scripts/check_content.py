@@ -87,9 +87,23 @@ def audit():
   for step in chain['steps']:require(any(e.get('title')==step['event'] and not e.get('vaultOnly') and e.get('article') not in world['restrictedArticleIds'] for e in world['archiveIndex']['timeline']),'Unknown/protected chain event: '+step['event'])
  for event in world['archiveIndex']['timeline']:
   if event.get('veiled') or event.get('vaultOnly') or event.get('article') in world['restrictedArticleIds']:
-   require('importance' not in event, 'Protected timeline importance leaked into public index')
+   require(not any(key in event for key in ['importance','importanceReason','regions','dating','reviewSources','aliases']), 'Protected timeline metadata leaked into public index')
   else:
    require(type(event.get('importance')) is int and 1 <= event['importance'] <= 5, 'Missing/invalid timeline importance: '+str(event.get('title')))
+   require(isinstance(event.get('importanceReason'),str) and bool(event['importanceReason'].strip()), 'Missing importance explanation: '+str(event.get('title')))
+   regionids={r['id'] for r in world['timelineRegions']}
+   require(isinstance(event.get('regions'),list) and bool(event['regions']) and set(event['regions'])<=regionids, 'Missing/invalid timeline region: '+str(event.get('title')))
+   require(event.get('dating',{}).get('kind') in {'canon','recorded','approximate','recollection','unresolved'} and bool(event.get('dating',{}).get('note')), 'Missing date basis: '+str(event.get('title')))
+   day=event.get('dating',{}).get('finalWarDay')
+   require(day is None or (type(day) is int and day>0), 'Invalid Final War day: '+str(event.get('title')))
+   if event.get('reviewSources'):
+    require(all(re.fullmatch(r'https://discord\.com/channels/\d+/\d+/\d+',ref) for ref in event['reviewSources']), 'Invalid timeline receipt: '+str(event.get('title')))
+ calendar=world.get('timelineCalendar',{})
+ origin=next((event for event in world['archiveIndex']['timeline'] if event.get('title')==calendar.get('originEvent')),None)
+ require(calendar.get('originDay')==1 and origin and origin.get('dating',{}).get('finalWarDay')==1,'Final War Day 1 origin is missing')
+ for alias,target in world.get('timelineAliases',{}).items():
+  require(any(e.get('title')==target and not e.get('veiled') for e in world['archiveIndex']['timeline']), 'Broken event alias '+alias)
+
  for group in ['characters','npcs','islands']:
   seen=set()
   for item in world['archiveIndex'][group]:

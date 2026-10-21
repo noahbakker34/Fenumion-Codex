@@ -58,10 +58,10 @@
     const start=Math.max(0,at-70), snippet=(start?'…':'')+text.slice(start,start+210)+(text.length>start+210?'…':'');
     return {id:section.id,title:section.title,snippet};
   }
-  function eventByTitle(title){return archiveIndex.timeline.find(e=>e.title===title&&!isRestrictedTimelineEvent(e)&&isPlayerSafeArticle(e.article));}
+  function eventByTitle(title){const record=findTimelineRecord(title);return record&&!isRestrictedTimelineEvent(record)&&isPlayerSafeArticle(record.article)?record:null;}
   function chains(){return window.FENUMION_CATALOG.consequenceChains.map(chain=>({...chain,steps:chain.steps.map(step=>({...step,record:eventByTitle(step.event)})).filter(step=>step.record)})).filter(chain=>chain.steps.length>1);}
   function chainMarkup(chain,active=''){
-    return `<section class="consequence-chain" id="sequence-${esc(chain.id)}"><h3>${esc(chain.title)}</h3><p>${esc(chain.summary)}</p><ol>${chain.steps.map(step=>`<li${step.event===active?' class="current-step" aria-current="step"':''}><button type="button" data-timeline-title="${esc(step.event)}"><small>${esc(step.record.meta)}</small><strong>${esc(step.event)}</strong></button><p>${esc(step.connection)}</p></li>`).join('')}</ol></section>`;
+    return `<section class="consequence-chain" id="sequence-${esc(chain.id)}"><h3>${esc(chain.title)}</h3><p>${esc(chain.summary)}</p><ol>${chain.steps.map(step=>`<li${step.event===active?' class="current-step" aria-current="step"':''}><button type="button" data-timeline-title="${esc(step.event)}"><small>${window.timelineDateMarkup ? window.timelineDateMarkup(step.record) : esc(step.record.meta)}</small><strong>${esc(step.event)}</strong></button><p>${esc(step.connection)}</p></li>`).join('')}</ol></section>`;
   }
   function eventChains(item){const list=chains().filter(chain=>chain.steps.some(step=>step.event===item.title));return list.length?'<div class="event-sequences"><h3>What connects this event</h3>'+list.map(chain=>chainMarkup(chain,item.title)).join('')+'</div>':'';}
   function articleChains(article){

@@ -10,6 +10,10 @@ The owner requests five ordered importance levels and reader control over what i
 | 4 | Interregional | Connections or consequences across regions and realms |
 | 5 | World Changing | The world’s structure, continuity or balance |
 
+## Review, regions and calendar · 20 October 2026
+
+The subsequent owner-authorized review adds a reason to every complete event, revises 13 scope ratings, adds explicit region filters and date-basis labels, and establishes the first Called’s Gate arrival as Day 1 of the Final War. Later days are not inferred from Discord intervals. The public total remains 343 after consolidating duplicate mountain accounts and recovering Ephraith’s report of Melian’s release: 74 Relational, 159 Local, 80 Regional, 28 Interregional, two World Changing. The earlier publication counts below are historical. Full review and source limits: `TIMELINE_REVIEW_2026_10_20.md`.
+
 ## Assignment discipline
 
 All 343 public events have explicit reviewed values: 73 Relational, 148 Local, 89 Regional, 32 Interregional and one World Changing. A personal death or return can be Relational without being trivial; a settlement’s survival can be Local without being unimportant. Ratings can be revised as documented consequences become established.

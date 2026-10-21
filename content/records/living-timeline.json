@@ -3,7 +3,7 @@
   "title": "Narrative History",
   "category": "History",
   "type": "Complete recovered event chronology",
-  "dek": "The living campaign’s history, searchable by name, place and theme, with five levels of importance; vault access also reveals the protected ancient record.",
+  "dek": "Follow the Final War from the first Gate arrival, filtering recorded events by region and importance while keeping uncertain dates and claims explicit.",
   "tags": [
     "Timeline",
     "Events",
@@ -15,7 +15,9 @@
     "Scope": "Recovered campaign chronology",
     "Ordering": "Date or importance",
     "Rule": "Unresolved dates remain unresolved",
-    "Importance": "Relational → World Changing"
+    "Importance": "Relational → World Changing",
+    "Calendar": "First Gate arrival · Day 1 of the Final War",
+    "Dates": "Source dates and in-world day counts stay distinct"
   },
   "sources": [
     "Complete quest-rp export — primary scene verification and 60 newly recovered 2024 events",

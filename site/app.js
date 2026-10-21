@@ -236,13 +236,15 @@ function openTimelineRecord(item) {
   recordDialogContent.innerHTML = `
     <p class="record-dialog-kicker">Timeline record · ${escapeHtml(item.kind)}</p>
     <h2 id="record-dialog-title">${escapeHtml(item.title)}</h2>
-    <p class="record-dialog-dek">${escapeHtml(item.meta)} · ${escapeHtml(item.location)}</p>
+    <div class="record-dialog-dek">${timelineDateMarkup(item)} · ${escapeHtml(item.location)}</div>
+    <p class="timeline-dating-note">${escapeHtml(item.dating?.note || 'The date basis has not yet received a separate review.')}</p>
     <div class="record-dialog-body">
-      <p><strong>Importance · ${timelineImportanceLabel(item)}</strong>${escapeHtml(timelineImportance(item)?.description || 'This event has not yet been assigned an importance level.')}</p>
+      <p><strong>Importance · ${timelineImportanceLabel(item)}</strong>${escapeHtml(item.importanceReason || timelineImportance(item)?.description || 'This event has not yet been assigned an importance level.')}</p>
       <p><strong>What happened</strong>${escapeHtml(whatHappened)}</p>
       ${whyItMatters ? `<p><strong>Consequences</strong>${escapeHtml(whyItMatters)}</p>` : ""}
     </div>
     <div class="record-dialog-meta"><span>People · ${escapeHtml(item.people || "Unrecorded")}</span>${(item.tags || []).map(tag => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
+    ${item.reviewSources?.length ? `<p class="timeline-review-sources"><strong>Checked quest evidence</strong> ${item.reviewSources.map((url,index) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Receipt ${index+1}</a>`).join(' · ')}</p>` : ''}
     ${renderEventConnections(item)}
     ${window.CodexReader.eventChains(item)}
     ${relatedButton}
@@ -509,7 +511,7 @@ function normalizePlaceName(value = "") {
 function renderTimelineEventList(events) {
   return `<ol class="location-timeline-list">${events.map(event => `<li>
       <button type="button" class="location-timeline-event" data-timeline-title="${escapeHtml(event.title)}">
-        <span class="location-timeline-date">${escapeHtml(event.meta)}</span>
+        <span class="location-timeline-date">${timelineDateMarkup(event)}</span>
         <strong>${escapeHtml(event.title)}</strong>
         <span>${escapeHtml(event.summary)}</span>
         <small>${escapeHtml(event.kind)} · Open detailed record <b aria-hidden="true">→</b></small>
@@ -1249,10 +1251,10 @@ function setupWorldBrowser() {
   };
   let activeView = "characters";
   let direction = "asc";
-  const timelineState = { importance: 0, match: 'minimum', order: 'oldest' };
+  const timelineState = { importance: 0, match: 'minimum', order: 'oldest', region: '' };
 
   const render = () => {
-    const items = [...browserData[activeView]].filter(item => activeView !== 'timeline' || timelineMatchesImportance(item, timelineState)).sort((a, b) =>
+    const items = [...browserData[activeView]].filter(item => activeView !== 'timeline' || (timelineMatchesImportance(item, timelineState) && (!timelineState.region || timelineRegionIds(item).includes(timelineState.region)))).sort((a, b) =>
       activeView === 'timeline' ? compareTimelineEvents(a, b, timelineState.order) : a.title.localeCompare(b.title) * (direction === 'asc' ? 1 : -1));
     if (activeView === 'timeline') timelineBrowseContext = { route: location.hash, items };
     const labels = { characters: "Characters", timeline: "Timeline", locations: "Locations" };
@@ -1261,14 +1263,14 @@ function setupWorldBrowser() {
         <div class="browser-tabs">${Object.keys(labels).map(key => `<button class="browser-tab ${key === activeView ? "active" : ""}" data-view="${key}" aria-pressed="${key === activeView}">${labels[key]}<span>${browserData[key].length}</span></button>`).join("")}</div>
         ${activeView === 'timeline' ? '' : `<button class="sort-direction" data-sort-direction="${direction}" aria-label="Reverse sort order">A–Z <span>${direction === 'asc' ? '↑' : '↓'}</span></button>`}
       </div>
-      ${activeView === 'timeline' ? `<div class="timeline-controls">${timelineImportanceControls(timelineState)}</div><p class="timeline-browser-link"><a href="#living-timeline${timelineState.importance ? '?importance='+timelineState.importance+'&match='+timelineState.match+'&order='+timelineState.order : '?order='+timelineState.order}">Open full timeline with search and era filters →</a></p>` : ''}
+      ${activeView === 'timeline' ? `<div class="timeline-controls">${timelineImportanceControls(timelineState, browserData.timeline)}</div><p class="timeline-browser-link"><a href="#living-timeline?${new URLSearchParams({ importance: timelineState.importance, match: timelineState.match, order: timelineState.order, ...(timelineState.region ? { region: timelineState.region } : {}) })}">Open full timeline with search and era filters →</a></p>` : ''}
       <div class="browser-summary" role="status" aria-live="polite"><strong>${items.length}</strong> ${labels[activeView].toLowerCase()} records · ${activeView === "timeline" ? `${timelineImportanceSummary(timelineState)} · ${timelineOrders[timelineState.order].toLowerCase()}` : "ordered by name"}</div>
       <div class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}">${items.map(item => {
         const protectedRecord = activeView === "timeline" ? isRestrictedTimelineEvent(item) : !isPlayerSafeArticle(item.article);
         return `
         <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}" aria-label="${protectedRecordAria(item.title, protectedRecord)}"${protectedRecord ? "" : activeView === "timeline" ? ` data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}"` : activeView === "characters" ? ` data-character-title="${escapeHtml(item.title)}"` : ""}>
           ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
-          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong>${activeView === 'timeline' && !protectedRecord ? `<span class="event-importance">${timelineImportanceLabel(item)}</span>` : ''}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
+          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : activeView === "timeline" ? timelineDateMarkup(item) : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong>${activeView === 'timeline' && !protectedRecord ? `<span class="event-importance">${timelineImportanceLabel(item)}</span>` : ''}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
         </button>`; }).join("")}</div>`;
     setupAmbientVideos(articleContent);
   };
@@ -1282,7 +1284,8 @@ function setupWorldBrowser() {
   browser.addEventListener('change', event => {
     const control = event.target;
     let attribute;
-    if (control.matches('[data-timeline-importance]')) { timelineState.importance = Number(control.value); attribute = 'data-timeline-importance'; }
+    if (control.matches('[data-timeline-region]')) { timelineState.region = control.value; attribute = 'data-timeline-region'; }
+    else if (control.matches('[data-timeline-importance]')) { timelineState.importance = Number(control.value); attribute = 'data-timeline-importance'; }
     else if (control.matches('[data-timeline-match]')) { timelineState.match = control.value; attribute = 'data-timeline-match'; }
     else if (control.matches('[data-timeline-order]')) { timelineState.order = control.value; attribute = 'data-timeline-order'; }
     else return;
@@ -1554,6 +1557,11 @@ const timelineImportanceLevels = [
 ];
 const timelineOrders = { oldest: 'Oldest first', newest: 'Newest first', highest: 'Highest importance first', lowest: 'Lowest importance first' };
 let timelineBrowseContext = null;
+function findTimelineRecord(title) {
+  const aliases = codexCatalog.timelineAliases || {};
+  const canonical = Object.hasOwn(aliases, title) ? aliases[title] : title;
+  return archiveIndex.timeline.find(item => item.title === canonical);
+}
 function timelineImportance(item) { return timelineImportanceLevels.find(level => level.level === item.importance); }
 function timelineImportanceLabel(item) { const level = timelineImportance(item); return level ? `${level.level}. ${level.label}` : 'Unrated'; }
 function readableTimelineEvent(item) {
@@ -1573,8 +1581,22 @@ function compareTimelineEvents(a, b, order) {
   }
   return dateOrder;
 }
-function timelineImportanceControls(state) {
-  return `<label class="timeline-select-shell"><span class="timeline-search-label">Importance</span><select data-timeline-importance><option value="0">All levels</option>${timelineImportanceLevels.map(level => `<option value="${level.level}"${state.importance === level.level ? ' selected' : ''}>${level.level}. ${level.label}</option>`).join('')}</select></label>
+const timelineDateKinds = { canon: 'Canon date', recorded: 'Recorded date', approximate: 'Approximate / bounded', recollection: 'Report / recollection date', unresolved: 'Date unresolved' };
+function timelineRegionIds(item) { return item.regions?.length ? item.regions : ['unplaced']; }
+function timelineRegionOptions(events) {
+  const available = new Set(events.flatMap(timelineRegionIds));
+  return (codexCatalog.timelineRegions || []).filter(region => available.has(region.id));
+}
+function timelineRegionControl(state, events) {
+  return `<label class="timeline-select-shell"><span class="timeline-search-label">Region</span><select data-timeline-region><option value="">All regions</option>${timelineRegionOptions(events).map(region => `<option value="${escapeHtml(region.id)}"${state.region === region.id ? ' selected' : ''}>${escapeHtml(region.label)}</option>`).join('')}</select></label>`;
+}
+function timelineDateMarkup(item) {
+  const day = item.dating?.finalWarDay;
+  const establishedDay = Number.isInteger(day) && day > 0;
+  return `${establishedDay ? `<span class="timeline-war-day">Day ${day} of the Final War</span><span class="timeline-source-date">${escapeHtml(item.meta)}</span>` : escapeHtml(item.meta)}<small class="timeline-date-status" data-date-kind="${escapeHtml(item.dating?.kind || 'unreviewed')}">${escapeHtml(timelineDateKinds[item.dating?.kind] || 'Date basis unreviewed')}</small>`;
+}
+function timelineImportanceControls(state, events = archiveIndex.timeline.filter(readableTimelineEvent)) {
+  return `${timelineRegionControl(state, events)}<label class="timeline-select-shell"><span class="timeline-search-label">Importance</span><select data-timeline-importance><option value="0">All levels</option>${timelineImportanceLevels.map(level => `<option value="${level.level}"${state.importance === level.level ? ' selected' : ''}>${level.level}. ${level.label}</option>`).join('')}</select></label>
     <label class="timeline-select-shell"><span class="timeline-search-label">Show</span><select data-timeline-match${state.importance ? '' : ' disabled'}><option value="minimum"${state.match === 'minimum' ? ' selected' : ''}>Selected level and above</option><option value="exact"${state.match === 'exact' ? ' selected' : ''}>Only this level</option></select></label>
     <label class="timeline-select-shell"><span class="timeline-search-label">Order</span><select data-timeline-order>${Object.entries(timelineOrders).map(([value, label]) => `<option value="${value}"${state.order === value ? ' selected' : ''}>${label}</option>`).join('')}</select></label>`;
 }
@@ -1588,8 +1610,9 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
   const person = [...archiveIndex.characters, ...archiveIndex.npcs].find(record => record.article === personId && isPlayerSafeArticle(record.article));
   const personEvents = person ? new Set(characterTimelineItems(person)) : null;
   const availableTimeline = archiveIndex.timeline.filter(item => readableTimelineEvent(item) && (!personEvents || personEvents.has(item)));
-  const eras = [...new Set(availableTimeline.map(item => item.era))];
+  const eras = [...new Set([...availableTimeline].sort((a,b) => compareTimelineEvents(a,b,'oldest')).map(item => item.era))];
   const state = {
+    region: timelineRegionOptions(availableTimeline).some(region => region.id === params.get('region')) ? params.get('region') : '',
     importance: /^[1-5]$/.test(params.get('importance')) ? Number(params.get('importance')) : 0,
     match: params.get('match') === 'exact' ? 'exact' : 'minimum',
     order: Object.hasOwn(timelineOrders, params.get('order')) ? params.get('order') : 'oldest',
@@ -1598,10 +1621,11 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
   };
   explorer.innerHTML = `
     <p class="timeline-sequences-link"><a href="#history-in-consequences">Follow connected histories →</a></p>
+    <div class="timeline-calendar-note"><strong>Day 1 of the Final War</strong><p>The first Called’s arrival through the Gate begins this reckoning. Calendar labels below preserve the source record; further day numbers appear only when elapsed story time is established.</p></div>
     ${person ? `<p class="timeline-person-filter">Events involving <a href="#${person.article}">${escapeHtml(person.title)}</a> · <a href="#living-timeline">Show all events</a></p>` : ''}
     <div class="timeline-controls">
       <label class="timeline-search-shell"><span class="timeline-search-label">Search events</span><span class="timeline-search-field"><span aria-hidden="true">⌕</span><input type="search" placeholder="Try Papirak, sacrifice, Prima…" value="${escapeHtml(state.query)}" maxlength="200" autocomplete="off"></span></label>
-      ${timelineImportanceControls(state)}
+      ${timelineImportanceControls(state, availableTimeline)}
     </div>
     <details class="timeline-level-guide"><summary>What do the importance levels mean?</summary><p>Levels describe the reach of an event’s consequences. Statements and uncertain accounts keep their qualifications.</p><ol>${timelineImportanceLevels.map(level => `<li><strong>${level.label}</strong> — ${level.description}</li>`).join('')}</ol></details>
     <div class="timeline-filter-row" aria-label="Filter timeline by era">${['All eras', ...eras].map(era => `<button class="timeline-filter${era === state.era ? ' active' : ''}" type="button" data-era="${escapeHtml(era)}" aria-pressed="${era === state.era}">${escapeHtml(era)}</button>`).join('')}</div>
@@ -1613,6 +1637,7 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
   const syncRoute = () => {
     const route = new URLSearchParams();
     if (person) route.set('person', person.article);
+    if (state.region) route.set('region', state.region);
     if (state.importance) { route.set('importance', state.importance); if (state.match === 'exact') route.set('match', 'exact'); }
     if (state.order !== 'oldest') route.set('order', state.order);
     if (state.era !== 'All eras') route.set('era', state.era);
@@ -1625,9 +1650,10 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
     if (updateRoute) syncRoute();
     const terms = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const filtered = availableTimeline.filter(item => state.era === 'All eras' || item.era === state.era)
+      .filter(item => !state.region || timelineRegionIds(item).includes(state.region))
       .filter(item => timelineMatchesImportance(item, state))
       .filter(item => {
-        const haystack = `${item.title} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(' ')}`.toLowerCase();
+        const haystack = `${item.title} ${(item.aliases || []).join(' ')} ${item.dating?.finalWarDay ? 'Day '+item.dating.finalWarDay+' of the Final War' : ''} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(' ')}`.toLowerCase();
         return terms.every(term => haystack.includes(term));
       }).sort((a, b) => compareTimelineEvents(a, b, state.order));
     timelineBrowseContext = { route: location.hash, items: filtered };
@@ -1638,18 +1664,19 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
       groups.get(key).push(item);
       return groups;
     }, new Map());
-    summary.innerHTML = `<strong>${filtered.length}</strong> of ${availableTimeline.length} event${availableTimeline.length === 1 ? '' : 's'} · ${escapeHtml(timelineImportanceSummary(state))} · ${timelineOrders[state.order].toLowerCase()}`;
+    summary.innerHTML = `<strong>${filtered.length}</strong> of ${availableTimeline.length} event${availableTimeline.length === 1 ? '' : 's'} · ${escapeHtml(timelineImportanceSummary(state))}${state.region ? ' · '+escapeHtml(codexCatalog.timelineRegions.find(region => region.id === state.region)?.label || '') : ''} · ${timelineOrders[state.order].toLowerCase()}`;
     results.innerHTML = filtered.length ? [...grouped.entries()].map(([group, items]) => `
       <section class="timeline-era" aria-label="${escapeHtml(group)}"><header class="timeline-era-header"><h3>${escapeHtml(group)}</h3><span>${items.length} event${items.length === 1 ? '' : 's'}</span></header>
       <div class="event-timeline">${items.map(item => `
         <button class="event-card" type="button" data-article="${escapeHtml(item.article)}" data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}">
-          <span class="event-date">${escapeHtml(item.meta)}<span class="event-importance">${timelineImportanceLabel(item)}</span></span>
+          <span class="event-date">${timelineDateMarkup(item)}<span class="event-importance" title="${escapeHtml(item.importanceReason || '')}">${timelineImportanceLabel(item)}</span></span>
           <span class="event-copy"><span class="event-kind">${escapeHtml(item.kind)} <i>·</i> ${escapeHtml(item.location)}</span><strong>${escapeHtml(item.title)}</strong><span class="event-summary">${escapeHtml(item.summary)}</span><span class="event-people"><b>People</b> ${escapeHtml(item.people)}</span><span class="event-tags">${(item.tags || []).map(tag => `<i>${escapeHtml(tag)}</i>`).join('')}</span><span class="event-expand">Open full event <i aria-hidden="true">→</i></span></span>
         </button>`).join('')}</div></section>`).join('') : '<div class="timeline-empty"><strong>No events match these filters.</strong><span>Try a lower importance level, another era or a broader search.</span></div>';
   };
   input.addEventListener('input', event => { state.query = event.target.value; renderResults(true); });
   explorer.addEventListener('change', event => {
-    if (event.target.matches('[data-timeline-importance]')) { state.importance = Number(event.target.value); explorer.querySelector('[data-timeline-match]').disabled = !state.importance; }
+    if (event.target.matches('[data-timeline-region]')) state.region = event.target.value;
+    else if (event.target.matches('[data-timeline-importance]')) { state.importance = Number(event.target.value); explorer.querySelector('[data-timeline-match]').disabled = !state.importance; }
     else if (event.target.matches('[data-timeline-match]')) state.match = event.target.value;
     else if (event.target.matches('[data-timeline-order]')) state.order = event.target.value;
     else return;
@@ -1663,8 +1690,8 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
     if (button) { state.era = button.dataset.era; updateEraButtons(); renderResults(true); }
   });
   explorer.querySelector('.timeline-reset').addEventListener('click', () => {
-    Object.assign(state, { importance: 0, match: 'minimum', order: 'oldest', era: 'All eras', query: '' });
-    input.value = ''; explorer.querySelector('[data-timeline-importance]').value = '0';
+    Object.assign(state, { importance: 0, match: 'minimum', order: 'oldest', era: 'All eras', query: '', region: '' });
+    input.value = ''; explorer.querySelector('[data-timeline-region]').value = ''; explorer.querySelector('[data-timeline-importance]').value = '0';
     explorer.querySelector('[data-timeline-match]').value = 'minimum'; explorer.querySelector('[data-timeline-match]').disabled = true;
     explorer.querySelector('[data-timeline-order]').value = 'oldest'; updateEraButtons(); renderResults(true);
   });
@@ -1931,7 +1958,7 @@ function runSearch(query) {
     ["Locations", archiveIndex.islands]
   ];
   const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => item?.title && (group !== "Timeline" || !isRestrictedTimelineEvent(item))).map(item => {
-    const haystack = cachedSearchText(item, group, () => normalizeSearchName(`${group} ${item.title} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`));
+    const haystack = cachedSearchText(item, group, () => normalizeSearchName(`${group} ${item.title} ${(item.aliases || []).join(' ')} ${item.dating?.finalWarDay ? 'Day '+item.dating.finalWarDay+' of the Final War' : ''} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`));
     const titleMatch = searchNameScore(normalized, [item.title, ...(item.aliases || [])], phrase);
     const allTermsMatch = terms.every(term => haystack.includes(term));
     return {
@@ -2052,7 +2079,7 @@ document.addEventListener("click", event => {
       return;
     }
     if (kind === "timeline") {
-      const item = archiveIndex.timeline.find(candidate => candidate.title === title);
+      const item = findTimelineRecord(title);
       if (item && !isRestrictedTimelineEvent(item)) openTimelineRecord(item);
       return;
     }
@@ -2074,7 +2101,7 @@ document.addEventListener("click", event => {
   }
   const timelineTrigger = event.target.closest("[data-timeline-title]");
   if (timelineTrigger) {
-    const timelineItem = archiveIndex.timeline.find(item => item.title === timelineTrigger.dataset.timelineTitle);
+    const timelineItem = findTimelineRecord(timelineTrigger.dataset.timelineTitle);
     if (timelineItem && (!isRestrictedTimelineEvent(timelineItem) || vaultUnlocked)) {
       openTimelineRecord(timelineItem);
       return;

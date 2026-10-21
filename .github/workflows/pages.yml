@@ -50,7 +50,7 @@ jobs:
           "$RUNNER_TEMP/codex-browser/node_modules/.bin/playwright" install --with-deps chromium
       - name: Start local preview
         run: |
-          python3 -m http.server 8880 --bind 127.0.0.1 --directory site >"$RUNNER_TEMP/codex-preview.log" 2>&1 &
+          python3 scripts/serve_preview.py --port 8880 >"$RUNNER_TEMP/codex-preview.log" 2>&1 &
           python3 - <<'PYREADY'
           import time, urllib.request
           for attempt in range(20):

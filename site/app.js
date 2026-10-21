@@ -217,12 +217,11 @@ function closeRecordDialog() {
 }
 
 function openTimelineRecord(item) {
-  if (!recordDialog || !recordDialogContent) return;
+  if (!recordDialog || !recordDialogContent || isRestrictedTimelineEvent(item)) return;
   delete recordDialogContent.dataset.character;
   const [whatHappened, whyItMatters] = timelineDetailParagraphs(item);
-  const readableTimeline = archiveIndex.timeline
-    .filter(candidate => !isRestrictedTimelineEvent(candidate))
-    .sort((left, right) => left.sort.localeCompare(right.sort));
+  const context = timelineBrowseContext?.route === location.hash && timelineBrowseContext.items.includes(item) ? timelineBrowseContext.items : null;
+  const readableTimeline = context ? context.filter(readableTimelineEvent) : archiveIndex.timeline.filter(readableTimelineEvent).sort((a, b) => compareTimelineEvents(a, b, 'oldest'));
   const currentIndex = readableTimeline.findIndex(candidate => candidate.title === item.title);
   const previousItem = currentIndex > 0 ? readableTimeline[currentIndex - 1] : null;
   const nextItem = currentIndex >= 0 && currentIndex < readableTimeline.length - 1 ? readableTimeline[currentIndex + 1] : null;
@@ -239,6 +238,7 @@ function openTimelineRecord(item) {
     <h2 id="record-dialog-title">${escapeHtml(item.title)}</h2>
     <p class="record-dialog-dek">${escapeHtml(item.meta)} · ${escapeHtml(item.location)}</p>
     <div class="record-dialog-body">
+      <p><strong>Importance · ${timelineImportanceLabel(item)}</strong>${escapeHtml(timelineImportance(item)?.description || 'This event has not yet been assigned an importance level.')}</p>
       <p><strong>What happened</strong>${escapeHtml(whatHappened)}</p>
       ${whyItMatters ? `<p><strong>Consequences</strong>${escapeHtml(whyItMatters)}</p>` : ""}
     </div>
@@ -876,6 +876,7 @@ function renderArticle(route, pushHash = true) {
   }
   if (requestedId !== id && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
+  else if (!pushHash && article.id === "living-timeline" && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   const publicPreview = protectedArticle && article.id === 'death-dumuzi' && article.publicPreview;
   document.title = `${publicPreview ? publicPreview.title : protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`;
   const path = articlePaths.get(article.id) || [article.category, article.title];
@@ -1010,7 +1011,7 @@ function renderArticle(route, pushHash = true) {
   if (article.id === "factions") setupFactionDirectory();
   if (article.id === "player-perspectives") window.setupPlayerPerspectives?.(articleContent);
   if (article.id === "visual-archive") { setupInteractiveAtlas(requestedMapId, routeParams.get("date") || "", routeParams.get("place") || ""); setupLocationExplorer(); }
-  if (article.id === "living-timeline") setupTimelineExplorer(requestedPersonId);
+  if (article.id === "living-timeline") setupTimelineExplorer(requestedPersonId, routeParams);
   setupRelationshipMap(article);
   setupReadingPath();
   window.CodexProtectedMedia?.setup(articleContent, article, () => vaultUnlocked && isRestrictedArticle(article.id));
@@ -1243,31 +1244,31 @@ function setupWorldBrowser() {
       ...archiveIndex.characters.map(person => ({ ...person, personKind: characterRecordKind(person), personLabel: characterRecordLabel(person) })),
       ...archiveIndex.npcs.map(person => ({ ...person, personKind: "npc", personLabel: "NPC" }))
     ],
-    timeline: archiveIndex.timeline,
+    timeline: archiveIndex.timeline.filter(readableTimelineEvent),
     locations: archiveIndex.islands
   };
   let activeView = "characters";
   let direction = "asc";
+  const timelineState = { importance: 0, match: 'minimum', order: 'oldest' };
 
   const render = () => {
-    const items = [...browserData[activeView]].sort((a, b) => {
-      const left = activeView === "timeline" ? a.sort : a.title;
-      const right = activeView === "timeline" ? b.sort : b.title;
-      return left.localeCompare(right) * (direction === "asc" ? 1 : -1);
-    });
+    const items = [...browserData[activeView]].filter(item => activeView !== 'timeline' || timelineMatchesImportance(item, timelineState)).sort((a, b) =>
+      activeView === 'timeline' ? compareTimelineEvents(a, b, timelineState.order) : a.title.localeCompare(b.title) * (direction === 'asc' ? 1 : -1));
+    if (activeView === 'timeline') timelineBrowseContext = { route: location.hash, items };
     const labels = { characters: "Characters", timeline: "Timeline", locations: "Locations" };
     browser.innerHTML = `
       <div class="browser-toolbar" role="toolbar" aria-label="Choose an archive view">
         <div class="browser-tabs">${Object.keys(labels).map(key => `<button class="browser-tab ${key === activeView ? "active" : ""}" data-view="${key}" aria-pressed="${key === activeView}">${labels[key]}<span>${browserData[key].length}</span></button>`).join("")}</div>
-        <button class="sort-direction" data-sort-direction="${direction}" aria-label="Reverse sort order">${activeView === "timeline" ? "Chronological" : "A–Z"} <span>${direction === "asc" ? "↑" : "↓"}</span></button>
+        ${activeView === 'timeline' ? '' : `<button class="sort-direction" data-sort-direction="${direction}" aria-label="Reverse sort order">A–Z <span>${direction === 'asc' ? '↑' : '↓'}</span></button>`}
       </div>
-      <div class="browser-summary" role="status" aria-live="polite"><strong>${items.length}</strong> ${labels[activeView].toLowerCase()} records · ${activeView === "timeline" ? "ordered by discovery" : "ordered by name"}</div>
+      ${activeView === 'timeline' ? `<div class="timeline-controls">${timelineImportanceControls(timelineState)}</div><p class="timeline-browser-link"><a href="#living-timeline${timelineState.importance ? '?importance='+timelineState.importance+'&match='+timelineState.match+'&order='+timelineState.order : '?order='+timelineState.order}">Open full timeline with search and era filters →</a></p>` : ''}
+      <div class="browser-summary" role="status" aria-live="polite"><strong>${items.length}</strong> ${labels[activeView].toLowerCase()} records · ${activeView === "timeline" ? `${timelineImportanceSummary(timelineState)} · ${timelineOrders[timelineState.order].toLowerCase()}` : "ordered by name"}</div>
       <div class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}">${items.map(item => {
         const protectedRecord = activeView === "timeline" ? isRestrictedTimelineEvent(item) : !isPlayerSafeArticle(item.article);
         return `
-        <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}" aria-label="${protectedRecordAria(item.title, protectedRecord)}"${protectedRecord ? "" : activeView === "timeline" ? ` data-timeline-title="${escapeHtml(item.title)}"` : activeView === "characters" ? ` data-character-title="${escapeHtml(item.title)}"` : ""}>
+        <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}" aria-label="${protectedRecordAria(item.title, protectedRecord)}"${protectedRecord ? "" : activeView === "timeline" ? ` data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}"` : activeView === "characters" ? ` data-character-title="${escapeHtml(item.title)}"` : ""}>
           ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
-          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong><span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
+          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong>${activeView === 'timeline' && !protectedRecord ? `<span class="event-importance">${timelineImportanceLabel(item)}</span>` : ''}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
         </button>`; }).join("")}</div>`;
     setupAmbientVideos(articleContent);
   };
@@ -1277,6 +1278,15 @@ function setupWorldBrowser() {
     if (viewButton) { activeView = viewButton.dataset.view; direction = "asc"; render(); return; }
     const sortButton = event.target.closest("[data-sort-direction]");
     if (sortButton) { direction = direction === "asc" ? "desc" : "asc"; render(); }
+  });
+  browser.addEventListener('change', event => {
+    const control = event.target;
+    let attribute;
+    if (control.matches('[data-timeline-importance]')) { timelineState.importance = Number(control.value); attribute = 'data-timeline-importance'; }
+    else if (control.matches('[data-timeline-match]')) { timelineState.match = control.value; attribute = 'data-timeline-match'; }
+    else if (control.matches('[data-timeline-order]')) { timelineState.order = control.value; attribute = 'data-timeline-order'; }
+    else return;
+    render(); browser.querySelector('['+attribute+']').focus();
   });
   const gatewaySearch = document.querySelector("#gateway-search");
   if (gatewaySearch) gatewaySearch.addEventListener("input", event => {
@@ -1534,90 +1544,129 @@ function setupLocationExplorer() {
   renderResults();
 }
 
-function setupTimelineExplorer(personId = "") {
-  const explorer = document.querySelector("#timeline-explorer");
+// Importance measures documented reach, independently of an account's certainty.
+const timelineImportanceLevels = [
+  { level: 1, label: 'Relational', description: 'An individual life, close bonds or a small company.' },
+  { level: 2, label: 'Local', description: 'A settlement, institution or immediate community.' },
+  { level: 3, label: 'Regional', description: 'An island, region or major regional power.' },
+  { level: 4, label: 'Interregional', description: 'Connections or consequences across regions and realms.' },
+  { level: 5, label: 'World Changing', description: 'The world’s structure, continuity or balance.' }
+];
+const timelineOrders = { oldest: 'Oldest first', newest: 'Newest first', highest: 'Highest importance first', lowest: 'Lowest importance first' };
+let timelineBrowseContext = null;
+function timelineImportance(item) { return timelineImportanceLevels.find(level => level.level === item.importance); }
+function timelineImportanceLabel(item) { const level = timelineImportance(item); return level ? `${level.level}. ${level.label}` : 'Unrated'; }
+function readableTimelineEvent(item) {
+  return !isRestrictedTimelineEvent(item) && item.title && item.meta && item.era && item.kind && item.location && item.people;
+}
+function timelineMatchesImportance(item, state) {
+  return !state.importance || (timelineImportance(item) && (state.match === 'exact' ? item.importance === state.importance : item.importance >= state.importance));
+}
+function compareTimelineEvents(a, b, order) {
+  const dateOrder = a.sort.localeCompare(b.sort) || a.title.localeCompare(b.title);
+  if (order === 'newest') return -dateOrder;
+  if (order === 'highest' || order === 'lowest') {
+    // Future/unrated private payloads remain visible with All levels, after rated entries.
+    const left = timelineImportance(a)?.level, right = timelineImportance(b)?.level;
+    if (left === undefined || right === undefined) return (left === undefined) - (right === undefined) || dateOrder;
+    return (left - right) * (order === 'highest' ? -1 : 1) || dateOrder;
+  }
+  return dateOrder;
+}
+function timelineImportanceControls(state) {
+  return `<label class="timeline-select-shell"><span class="timeline-search-label">Importance</span><select data-timeline-importance><option value="0">All levels</option>${timelineImportanceLevels.map(level => `<option value="${level.level}"${state.importance === level.level ? ' selected' : ''}>${level.level}. ${level.label}</option>`).join('')}</select></label>
+    <label class="timeline-select-shell"><span class="timeline-search-label">Show</span><select data-timeline-match${state.importance ? '' : ' disabled'}><option value="minimum"${state.match === 'minimum' ? ' selected' : ''}>Selected level and above</option><option value="exact"${state.match === 'exact' ? ' selected' : ''}>Only this level</option></select></label>
+    <label class="timeline-select-shell"><span class="timeline-search-label">Order</span><select data-timeline-order>${Object.entries(timelineOrders).map(([value, label]) => `<option value="${value}"${state.order === value ? ' selected' : ''}>${label}</option>`).join('')}</select></label>`;
+}
+function timelineImportanceSummary(state) {
+  const level = timelineImportanceLevels.find(level => level.level === state.importance);
+  return level ? `${level.label}${state.match === 'exact' ? ' only' : ' and above'}` : 'all importance levels';
+}
+function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
+  const explorer = document.querySelector('#timeline-explorer');
   if (!explorer) return;
   const person = [...archiveIndex.characters, ...archiveIndex.npcs].find(record => record.article === personId && isPlayerSafeArticle(record.article));
   const personEvents = person ? new Set(characterTimelineItems(person)) : null;
-  const availableTimeline = archiveIndex.timeline.filter(item =>
-    !isRestrictedTimelineEvent(item) && item.title && item.meta && item.era && item.kind && item.location && item.people && (!personEvents || personEvents.has(item))
-  );
+  const availableTimeline = archiveIndex.timeline.filter(item => readableTimelineEvent(item) && (!personEvents || personEvents.has(item)));
   const eras = [...new Set(availableTimeline.map(item => item.era))];
-  let activeEra = "All eras";
-  let direction = "asc";
-  let query = "";
-
+  const state = {
+    importance: /^[1-5]$/.test(params.get('importance')) ? Number(params.get('importance')) : 0,
+    match: params.get('match') === 'exact' ? 'exact' : 'minimum',
+    order: Object.hasOwn(timelineOrders, params.get('order')) ? params.get('order') : 'oldest',
+    era: eras.includes(params.get('era')) ? params.get('era') : 'All eras',
+    query: (params.get('q') || '').slice(0, 200)
+  };
   explorer.innerHTML = `
     <p class="timeline-sequences-link"><a href="#history-in-consequences">Follow connected histories →</a></p>
     ${person ? `<p class="timeline-person-filter">Events involving <a href="#${person.article}">${escapeHtml(person.title)}</a> · <a href="#living-timeline">Show all events</a></p>` : ''}
     <div class="timeline-controls">
-      <label class="timeline-search-shell">
-        <span class="timeline-search-label">Search events</span>
-        <span class="timeline-search-field"><span aria-hidden="true">⌕</span><input type="search" placeholder="Try Papirak, sacrifice, Prima…" autocomplete="off"></span>
-      </label>
-      <button class="timeline-sort" type="button" aria-label="Reverse timeline order">Oldest first <span>↑</span></button>
+      <label class="timeline-search-shell"><span class="timeline-search-label">Search events</span><span class="timeline-search-field"><span aria-hidden="true">⌕</span><input type="search" placeholder="Try Papirak, sacrifice, Prima…" value="${escapeHtml(state.query)}" maxlength="200" autocomplete="off"></span></label>
+      ${timelineImportanceControls(state)}
     </div>
-    <div class="timeline-filter-row" aria-label="Filter timeline by era">
-      ${["All eras", ...eras].map(era => `<button class="timeline-filter ${era === activeEra ? "active" : ""}" type="button" data-era="${escapeHtml(era)}" aria-pressed="${era === activeEra}">${escapeHtml(era)}</button>`).join("")}
-    </div>
-    <div class="timeline-results-summary" role="status" aria-live="polite"></div>
+    <details class="timeline-level-guide"><summary>What do the importance levels mean?</summary><p>Levels describe the reach of an event’s consequences. Statements and uncertain accounts keep their qualifications.</p><ol>${timelineImportanceLevels.map(level => `<li><strong>${level.label}</strong> — ${level.description}</li>`).join('')}</ol></details>
+    <div class="timeline-filter-row" aria-label="Filter timeline by era">${['All eras', ...eras].map(era => `<button class="timeline-filter${era === state.era ? ' active' : ''}" type="button" data-era="${escapeHtml(era)}" aria-pressed="${era === state.era}">${escapeHtml(era)}</button>`).join('')}</div>
+    <div class="timeline-result-tools"><div class="timeline-results-summary" role="status" aria-live="polite"></div><button class="timeline-reset" type="button">Reset filters</button></div>
     <div class="timeline-results"></div>`;
-
-  const input = explorer.querySelector("input");
-  const results = explorer.querySelector(".timeline-results");
-  const summary = explorer.querySelector(".timeline-results-summary");
-  const sortButton = explorer.querySelector(".timeline-sort");
-
-  const renderResults = () => {
-    const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    const filtered = availableTimeline
-      .filter(item => activeEra === "All eras" || item.era === activeEra)
+  const input = explorer.querySelector('input');
+  const results = explorer.querySelector('.timeline-results');
+  const summary = explorer.querySelector('.timeline-results-summary');
+  const syncRoute = () => {
+    const route = new URLSearchParams();
+    if (person) route.set('person', person.article);
+    if (state.importance) { route.set('importance', state.importance); if (state.match === 'exact') route.set('match', 'exact'); }
+    if (state.order !== 'oldest') route.set('order', state.order);
+    if (state.era !== 'All eras') route.set('era', state.era);
+    if (state.query.trim()) route.set('q', state.query.trim());
+    const hash = '#living-timeline' + (route.size ? '?' + route : '');
+    history.replaceState(null, '', hash);
+    articleContent.dataset.route = hash;
+  };
+  const renderResults = (updateRoute = false) => {
+    if (updateRoute) syncRoute();
+    const terms = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const filtered = availableTimeline.filter(item => state.era === 'All eras' || item.era === state.era)
+      .filter(item => timelineMatchesImportance(item, state))
       .filter(item => {
-        const haystack = `${item.title} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(" ")}`.toLowerCase();
+        const haystack = `${item.title} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(' ')}`.toLowerCase();
         return terms.every(term => haystack.includes(term));
-      })
-      .sort((a, b) => a.sort.localeCompare(b.sort) * (direction === "asc" ? 1 : -1));
+      }).sort((a, b) => compareTimelineEvents(a, b, state.order));
+    timelineBrowseContext = { route: location.hash, items: filtered };
+    const byImportance = ['highest', 'lowest'].includes(state.order);
     const grouped = filtered.reduce((groups, item) => {
-      if (!groups.has(item.era)) groups.set(item.era, []);
-      groups.get(item.era).push(item);
+      const key = byImportance ? timelineImportanceLabel(item) : (Number(item.sort.slice(0, 4)) > 2000 ? item.sort.slice(0, 4) : item.era);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(item);
       return groups;
     }, new Map());
-
-    summary.innerHTML = `<strong>${filtered.length}</strong> event${filtered.length === 1 ? "" : "s"}${activeEra === "All eras" ? ` across ${grouped.size} era${grouped.size === 1 ? "" : "s"}` : ` in ${escapeHtml(activeEra)}`} · ${direction === "asc" ? "oldest first" : "newest first"}`;
-    results.innerHTML = filtered.length ? [...grouped.entries()].map(([era, items]) => `
-      <section class="timeline-era" aria-label="${escapeHtml(era)}">
-        <header class="timeline-era-header"><h3>${escapeHtml(era)}</h3><span>${items.length} event${items.length === 1 ? "" : "s"}</span></header>
-        <div class="event-timeline">${items.map(item => `
-          <button class="event-card" type="button" data-article="${item.article}" data-timeline-title="${escapeHtml(item.title)}">
-            <span class="event-date">${escapeHtml(item.meta)}</span>
-            <span class="event-copy">
-              <span class="event-kind">${escapeHtml(item.kind)} <i>·</i> ${escapeHtml(item.location)}</span>
-              <strong>${escapeHtml(item.title)}</strong>
-              <span class="event-summary">${escapeHtml(item.summary)}</span>
-              <span class="event-people"><b>People</b> ${escapeHtml(item.people)}</span>
-              <span class="event-tags">${(item.tags || []).map(tag => `<i>${escapeHtml(tag)}</i>`).join("")}</span>
-              <span class="event-expand">Open full event <i aria-hidden="true">→</i></span>
-            </span>
-          </button>`).join("")}</div>
-      </section>`).join("") : `<div class="timeline-empty"><strong>No recovered event matches that search.</strong><span>Try a character, location, theme, or consequence.</span></div>`;
+    summary.innerHTML = `<strong>${filtered.length}</strong> of ${availableTimeline.length} event${availableTimeline.length === 1 ? '' : 's'} · ${escapeHtml(timelineImportanceSummary(state))} · ${timelineOrders[state.order].toLowerCase()}`;
+    results.innerHTML = filtered.length ? [...grouped.entries()].map(([group, items]) => `
+      <section class="timeline-era" aria-label="${escapeHtml(group)}"><header class="timeline-era-header"><h3>${escapeHtml(group)}</h3><span>${items.length} event${items.length === 1 ? '' : 's'}</span></header>
+      <div class="event-timeline">${items.map(item => `
+        <button class="event-card" type="button" data-article="${escapeHtml(item.article)}" data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}">
+          <span class="event-date">${escapeHtml(item.meta)}<span class="event-importance">${timelineImportanceLabel(item)}</span></span>
+          <span class="event-copy"><span class="event-kind">${escapeHtml(item.kind)} <i>·</i> ${escapeHtml(item.location)}</span><strong>${escapeHtml(item.title)}</strong><span class="event-summary">${escapeHtml(item.summary)}</span><span class="event-people"><b>People</b> ${escapeHtml(item.people)}</span><span class="event-tags">${(item.tags || []).map(tag => `<i>${escapeHtml(tag)}</i>`).join('')}</span><span class="event-expand">Open full event <i aria-hidden="true">→</i></span></span>
+        </button>`).join('')}</div></section>`).join('') : '<div class="timeline-empty"><strong>No events match these filters.</strong><span>Try a lower importance level, another era or a broader search.</span></div>';
   };
-
-  input.addEventListener("input", event => { query = event.target.value; renderResults(); });
-  sortButton.addEventListener("click", () => {
-    direction = direction === "asc" ? "desc" : "asc";
-    sortButton.innerHTML = `${direction === "asc" ? "Oldest" : "Newest"} first <span>${direction === "asc" ? "↑" : "↓"}</span>`;
-    renderResults();
+  input.addEventListener('input', event => { state.query = event.target.value; renderResults(true); });
+  explorer.addEventListener('change', event => {
+    if (event.target.matches('[data-timeline-importance]')) { state.importance = Number(event.target.value); explorer.querySelector('[data-timeline-match]').disabled = !state.importance; }
+    else if (event.target.matches('[data-timeline-match]')) state.match = event.target.value;
+    else if (event.target.matches('[data-timeline-order]')) state.order = event.target.value;
+    else return;
+    renderResults(true);
   });
-  explorer.querySelector(".timeline-filter-row").addEventListener("click", event => {
-    const button = event.target.closest("[data-era]");
-    if (!button) return;
-    activeEra = button.dataset.era;
-    explorer.querySelectorAll("[data-era]").forEach(candidate => {
-      const active = candidate === button;
-      candidate.classList.toggle("active", active);
-      candidate.setAttribute("aria-pressed", active);
-    });
-    renderResults();
+  const updateEraButtons = () => explorer.querySelectorAll('[data-era]').forEach(button => {
+    const active = button.dataset.era === state.era; button.classList.toggle('active', active); button.setAttribute('aria-pressed', active);
+  });
+  explorer.querySelector('.timeline-filter-row').addEventListener('click', event => {
+    const button = event.target.closest('[data-era]');
+    if (button) { state.era = button.dataset.era; updateEraButtons(); renderResults(true); }
+  });
+  explorer.querySelector('.timeline-reset').addEventListener('click', () => {
+    Object.assign(state, { importance: 0, match: 'minimum', order: 'oldest', era: 'All eras', query: '' });
+    input.value = ''; explorer.querySelector('[data-timeline-importance]').value = '0';
+    explorer.querySelector('[data-timeline-match]').value = 'minimum'; explorer.querySelector('[data-timeline-match]').disabled = true;
+    explorer.querySelector('[data-timeline-order]').value = 'oldest'; updateEraButtons(); renderResults(true);
   });
   renderResults();
 }

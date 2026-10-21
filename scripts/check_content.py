@@ -85,6 +85,11 @@ def audit():
   require(len(keys)==len(set(keys)),name+': duplicate identity')
  for chain in json.loads((ROOT/'content/reference/consequences.json').read_text()):
   for step in chain['steps']:require(any(e.get('title')==step['event'] and not e.get('vaultOnly') and e.get('article') not in world['restrictedArticleIds'] for e in world['archiveIndex']['timeline']),'Unknown/protected chain event: '+step['event'])
+ for event in world['archiveIndex']['timeline']:
+  if event.get('veiled') or event.get('vaultOnly') or event.get('article') in world['restrictedArticleIds']:
+   require('importance' not in event, 'Protected timeline importance leaked into public index')
+  else:
+   require(type(event.get('importance')) is int and 1 <= event['importance'] <= 5, 'Missing/invalid timeline importance: '+str(event.get('title')))
  for group in ['characters','npcs','islands']:
   seen=set()
   for item in world['archiveIndex'][group]:

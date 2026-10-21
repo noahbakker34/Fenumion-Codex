@@ -170,6 +170,10 @@ Each substantial event record should preserve, when available:
 
 Avoid retrospective omniscience. A later revelation should link back to an earlier event rather than silently rewriting what was knowable then.
 
+## Timeline importance
+
+Reader-facing event importance uses the owner’s ordered levels: Relational, Local, Regional, Interregional and World Changing. It measures documented consequence scope, independently of evidence certainty and character prominence. Personal grief or resurrection can remain Relational without being trivial. Do not widen a rating merely because a scene contains a god, a cosmic claim or a plan. Retain quest authority and the attribution of every claim. Each complete event needs an explicit integer from 1 to 5; private ratings remain inside the vault. See `TIMELINE_IMPORTANCE.md` for definitions, examples and reader behavior.
+
 ## Source-manifest standard
 
 Every imported source should eventually record:

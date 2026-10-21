@@ -3,7 +3,7 @@
   "title": "Narrative History",
   "category": "History",
   "type": "Complete recovered event chronology",
-  "dek": "The living campaign’s consequential history, searchable by name, place, person, and theme; keeper access also reveals the protected ancient record.",
+  "dek": "The living campaign’s history, searchable by name, place and theme, with five levels of importance; vault access also reveals the protected ancient record.",
   "tags": [
     "Timeline",
     "Events",
@@ -11,10 +11,11 @@
     "Continuity"
   ],
   "facts": {
-    "Events": "314 recovered entries",
+    "Events": "343 public events; more with vault access",
     "Scope": "Recovered campaign chronology",
-    "Ordering": "Causal history and player discovery",
-    "Rule": "Unresolved dates remain unresolved"
+    "Ordering": "Date or importance",
+    "Rule": "Unresolved dates remain unresolved",
+    "Importance": "Relational → World Changing"
   },
   "sources": [
     "Complete quest-rp export — primary scene verification and 60 newly recovered 2024 events",

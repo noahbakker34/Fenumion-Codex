@@ -16,7 +16,8 @@
           "evidence",
           "Ale-Chemy Knights"
         ],
-        "summary": "Following a custody chain through Stash, Fredrick, and the Ale-Chemy stocks, Minerva examines the inscribed book but finds no accessible spell record."
+        "summary": "Following a custody chain through Stash, Fredrick, and the Ale-Chemy stocks, Minerva examines the inscribed book but finds no accessible spell record.",
+        "importance": 2
       },
       {
         "title": "Truesight reveals the grimoire’s hidden spells",
@@ -33,7 +34,8 @@
           "perception",
           "hidden spells"
         ],
-        "summary": "Ryvyt uses Truesight, with Jiangshi present, and perceives spells that earlier observers could not see, changing the evidence without invalidating their earlier reports."
+        "summary": "Ryvyt uses Truesight, with Jiangshi present, and perceives spells that earlier observers could not see, changing the evidence without invalidating their earlier reports.",
+        "importance": 2
       },
       {
         "title": "Pell prepares Papirak’s burial and memorial",
@@ -50,7 +52,8 @@
           "fundraising",
           "memory"
         ],
-        "summary": "Pell works on burial, mausoleum planning, and fundraising while Fenwick’s notice of the absent spellbook keeps Papirak’s unfinished affairs in public view."
+        "summary": "Pell works on burial, mausoleum planning, and fundraising while Fenwick’s notice of the absent spellbook keeps Papirak’s unfinished affairs in public view.",
+        "importance": 2
       },
       {
         "title": "Pristinia opens a vote on Papirak’s Staff of Power",
@@ -67,7 +70,8 @@
           "vote",
           "stewardship"
         ],
-        "summary": "After Camilla proposes selling Papirak’s staff and Melian argues it belongs with him regardless of earthly value, Town Clerk Poe opens the question to public deliberation before the funeral."
+        "summary": "After Camilla proposes selling Papirak’s staff and Melian argues it belongs with him regardless of earthly value, Town Clerk Poe opens the question to public deliberation before the funeral.",
+        "importance": 2
       },
       {
         "title": "Pristinia carries Papirak to his hill",
@@ -84,7 +88,8 @@
           "procession",
           "memory"
         ],
-        "summary": "The town gathers at the ice house and follows Melian’s torch through rain toward Papirak’s Training Dungeon, carrying the prepared casket past Jon’s new statue while Eldin’s dirge and Scribonia’s wings sound together."
+        "summary": "The town gathers at the ice house and follows Melian’s torch through rain toward Papirak’s Training Dungeon, carrying the prepared casket past Jon’s new statue while Eldin’s dirge and Scribonia’s wings sound together.",
+        "importance": 2
       },
       {
         "title": "Papirak’s staff is entombed under Sequester",
@@ -101,7 +106,8 @@
           "burial",
           "ownership"
         ],
-        "summary": "After Scribonia refuses the proposed custodianship, Melian places the staff with Papirak. Fenwick casts Sequester with Pell’s permission, returns the staff for burial, and Camilla’s later inability to detect it becomes suspicion rather than evidence of theft."
+        "summary": "After Scribonia refuses the proposed custodianship, Melian places the staff with Papirak. Fenwick casts Sequester with Pell’s permission, returns the staff for burial, and Camilla’s later inability to detect it becomes suspicion rather than evidence of theft.",
+        "importance": 2
       },
       {
         "title": "Papirak’s mourners turn toward living",
@@ -118,7 +124,8 @@
           "Pilgrim’s Hearth",
           "continuity"
         ],
-        "summary": "Scribonia promises to attempt restoration of the Training Dungeon, Melian speaks of carrying Papirak’s light, and Herb breaks the solemnity with a call to celebrate. Magical fireworks lead the town toward food, drink, and music at the Pilgrim’s Hearth."
+        "summary": "Scribonia promises to attempt restoration of the Training Dungeon, Melian speaks of carrying Papirak’s light, and Herb breaks the solemnity with a call to celebrate. Magical fireworks lead the town toward food, drink, and music at the Pilgrim’s Hearth.",
+        "importance": 2
       },
       {
         "title": "The first Called arrive in Prima",
@@ -134,7 +141,8 @@
           "portal",
           "Pristinia"
         ],
-        "summary": "A forgotten portal stirs, Cala and Nuru appear through avatars, and the first recovered company sees the settlement that will become its new home."
+        "summary": "A forgotten portal stirs, Cala and Nuru appear through avatars, and the first recovered company sees the settlement that will become its new home.",
+        "importance": 4
       },
       {
         "title": "The newcomers scout beyond Pristinia",
@@ -150,7 +158,8 @@
           "living branch",
           "unknown movement"
         ],
-        "summary": "A road patrol spots something massive moving miles to the west and discovers a branch that becomes lifeless when removed from John."
+        "summary": "A road patrol spots something massive moving miles to the west and discovers a branch that becomes lifeless when removed from John.",
+        "importance": 2
       },
       {
         "title": "Melian gives the newcomers a town to improve",
@@ -166,7 +175,8 @@
           "rain",
           "settlement"
         ],
-        "summary": "During a hard rain, Melian convenes the newcomers over a map and leads them through the settlement whose needs will shape their earliest work."
+        "summary": "During a hard rain, Melian convenes the newcomers over a map and leads them through the settlement whose needs will shape their earliest work.",
+        "importance": 2
       },
       {
         "title": "Forgax follows the pillar only he can see",
@@ -182,7 +192,8 @@
           "black stones",
           "ash"
         ],
-        "summary": "Forgax leads companions toward a mountain pillar of floating onyx stones and ash that remains invisible to everyone else."
+        "summary": "Forgax leads companions toward a mountain pillar of floating onyx stones and ash that remains invisible to everyone else.",
+        "importance": 2
       },
       {
         "title": "A trapped route to Eovar is reopened",
@@ -198,7 +209,8 @@
           "road",
           "Eovar"
         ],
-        "summary": "The party breaks a trap along the route and reaches the final hill overlooking Eovar Harbor and the Thundering Coast."
+        "summary": "The party breaks a trap along the route and reaches the final hill overlooking Eovar Harbor and the Thundering Coast.",
+        "importance": 2
       },
       {
         "title": "The Weary Traveler sends a rescue party",
@@ -214,7 +226,8 @@
           "rescue",
           "equipment"
         ],
-        "summary": "At the Weary Traveler’s request, a party leaves the main gate to find his missing friends, carrying recovered armor, bows, and swords."
+        "summary": "At the Weary Traveler’s request, a party leaves the main gate to find his missing friends, carrying recovered armor, bows, and swords.",
+        "importance": 2
       },
       {
         "title": "Pristinia organizes militia, medicine, and land",
@@ -230,7 +243,8 @@
           "medicine",
           "land"
         ],
-        "summary": "Melian divides volunteers among militia planning, medical work, material searches, and a survey of usable land as Pristinia adapts to its growing population."
+        "summary": "Melian divides volunteers among militia planning, medical work, material searches, and a survey of usable land as Pristinia adapts to its growing population.",
+        "importance": 2
       },
       {
         "title": "The ritual-site assault is stopped",
@@ -246,7 +260,8 @@
           "ritual",
           "Pristinia"
         ],
-        "summary": "A hunter’s warning leads the adventurers to corrupted pale creatures gathering at an old ritual site; the force is defeated before it can overrun Pristinia."
+        "summary": "A hunter’s warning leads the adventurers to corrupted pale creatures gathering at an old ritual site; the force is defeated before it can overrun Pristinia.",
+        "importance": 2
       },
       {
         "title": "The mine dead and the missing companions are recovered",
@@ -262,7 +277,8 @@
           "bodies",
           "Weary Traveler"
         ],
-        "summary": "After fighting through the mine encampment, Rolen and Claire recover fallen adventurers and locate the Weary Traveler’s missing companions."
+        "summary": "After fighting through the mine encampment, Rolen and Claire recover fallen adventurers and locate the Weary Traveler’s missing companions.",
+        "importance": 2
       },
       {
         "title": "Pristinia celebrates rescue and resurrection",
@@ -278,7 +294,8 @@
           "resurrection",
           "loss"
         ],
-        "summary": "The Common Man hosts a feast for the town’s rescue and the return of the dead, while the celebration also records how many defenders were lost."
+        "summary": "The Common Man hosts a feast for the town’s rescue and the return of the dead, while the celebration also records how many defenders were lost.",
+        "importance": 2
       },
       {
         "title": "Four volunteers answer the militia’s call",
@@ -294,7 +311,8 @@
           "training",
           "volunteers"
         ],
-        "summary": "Four chosen adventurers report behind the archery shop to begin preparing Pristinia’s new volunteers for real danger."
+        "summary": "Four chosen adventurers report behind the archery shop to begin preparing Pristinia’s new volunteers for real danger.",
+        "importance": 2
       },
       {
         "title": "A fog expedition reveals a hidden watcher",
@@ -310,7 +328,8 @@
           "watcher",
           "road"
         ],
-        "summary": "A patrol enters a road swallowed by cold fog; afterward Cobble glimpses an armored figure examining the party’s path before vanishing."
+        "summary": "A patrol enters a road swallowed by cold fog; afterward Cobble glimpses an armored figure examining the party’s path before vanishing.",
+        "importance": 2
       },
       {
         "title": "The adventurers drill Pristinia’s volunteers",
@@ -326,7 +345,8 @@
           "course",
           "readiness"
         ],
-        "summary": "Returning adventurers run the new militia through a controlled course under Rolen and Carandolchanar’s supervision."
+        "summary": "Returning adventurers run the new militia through a controlled course under Rolen and Carandolchanar’s supervision.",
+        "importance": 2
       },
       {
         "title": "A dying messenger brings Eovar’s warning",
@@ -342,7 +362,8 @@
           "messenger",
           "Compass"
         ],
-        "summary": "An exhausted outsider reaches Pristinia asking for help in Eovar; the resulting pursuit ends with an enemy vessel burning and the command to destroy a mysterious Compass."
+        "summary": "An exhausted outsider reaches Pristinia asking for help in Eovar; the resulting pursuit ends with an enemy vessel burning and the command to destroy a mysterious Compass.",
+        "importance": 3
       },
       {
         "title": "Pristinia’s palisade and moat take shape",
@@ -358,7 +379,8 @@
           "moat",
           "watchtowers"
         ],
-        "summary": "Logging crews and builders raise a treated-log palisade, dig a staked moat, and bring the first watchtowers near completion."
+        "summary": "Logging crews and builders raise a treated-log palisade, dig a staked moat, and bring the first watchtowers near completion.",
+        "importance": 2
       },
       {
         "title": "A forest expedition finds a dead priest’s room",
@@ -374,7 +396,8 @@
           "priest",
           "ruin"
         ],
-        "summary": "Four adventurers explore the forest at Pristinia’s edge and find an overgrown priest’s room holding only his bones."
+        "summary": "Four adventurers explore the forest at Pristinia’s edge and find an overgrown priest’s room holding only his bones.",
+        "importance": 2
       },
       {
         "title": "Pristinia makes a pact with the wolves",
@@ -390,7 +413,8 @@
           "farm",
           "coexistence"
         ],
-        "summary": "Rather than exterminate the wolves, the party establishes Cigal as an intermediary: the pack will protect the farm if the town helps when game is scarce."
+        "summary": "Rather than exterminate the wolves, the party establishes Cigal as an intermediary: the pack will protect the farm if the town helps when game is scarce.",
+        "importance": 2
       },
       {
         "title": "Seven glyphs open an underground city",
@@ -406,7 +430,8 @@
           "ruins",
           "purple light"
         ],
-        "summary": "After triggering the last defenses at a sealed door, the party sees seven glyphs hanging above an underground city lit in purple."
+        "summary": "After triggering the last defenses at a sealed door, the party sees seven glyphs hanging above an underground city lit in purple.",
+        "importance": 2
       },
       {
         "title": "A Flying Horror escapes with lost intelligence",
@@ -422,7 +447,8 @@
           "intelligence",
           "consequence"
         ],
-        "summary": "Inside the ancient tunnels, poor coordination allows a Flying Horror to escape, costing the party information and exposing Pristinia to future threats."
+        "summary": "Inside the ancient tunnels, poor coordination allows a Flying Horror to escape, costing the party information and exposing Pristinia to future threats.",
+        "importance": 2
       },
       {
         "title": "Pristinia holds after its allies abandon it",
@@ -438,7 +464,8 @@
           "abandonment",
           "defense"
         ],
-        "summary": "With Rolen gone and the Travelers absent, townsfolk and remaining adventurers finish the defenses and repel the attacking force."
+        "summary": "With Rolen gone and the Travelers absent, townsfolk and remaining adventurers finish the defenses and repel the attacking force.",
+        "importance": 2
       },
       {
         "title": "The mountain party survives the storm cave",
@@ -454,7 +481,8 @@
           "cold",
           "exhaustion"
         ],
-        "summary": "A mountain expedition barricades itself in a freezing cave; the shelter prevents exposure but the storm allows only a short rest."
+        "summary": "A mountain expedition barricades itself in a freezing cave; the shelter prevents exposure but the storm allows only a short rest.",
+        "importance": 2
       },
       {
         "title": "The Eovar epidemic is traced to the water",
@@ -470,7 +498,8 @@
           "dysentery",
           "water"
         ],
-        "summary": "Investigators entering post-quarantine Eovar find disease in the water and begin tracing the outbreak through the port’s crowded districts."
+        "summary": "Investigators entering post-quarantine Eovar find disease in the water and begin tracing the outbreak through the port’s crowded districts.",
+        "importance": 2
       },
       {
         "title": "A celestial test reveals the Wyrm’s hunger",
@@ -486,7 +515,8 @@
           "test",
           "Wyrm"
         ],
-        "summary": "A clear-sky bolt draws the party to a radiant trial; when the test ends, the heavens vibrate with the nearby hunger of the Wyrm. Captain Idril supervises the simulated combat with attending priests, demands teamwork and interrupts the lesson when summoned elsewhere."
+        "summary": "A clear-sky bolt draws the party to a radiant trial; when the test ends, the heavens vibrate with the nearby hunger of the Wyrm. Captain Idril supervises the simulated combat with attending priests, demands teamwork and interrupts the lesson when summoned elsewhere.",
+        "importance": 3
       },
       {
         "title": "Symin falls beyond the Gate",
@@ -502,7 +532,8 @@
           "bark zombies",
           "loss"
         ],
-        "summary": "Symin answers a rescue plea alone, is killed near the patrol’s ambush site, and has his body carried away by bark-covered undead."
+        "summary": "Symin answers a rescue plea alone, is killed near the patrol’s ambush site, and has his body carried away by bark-covered undead.",
+        "importance": 1
       },
       {
         "title": "The Narrows reveals Eovar’s sanitation failure",
@@ -518,7 +549,8 @@
           "sewage",
           "dysentery"
         ],
-        "summary": "The party finds the outbreak’s greatest concentration around a refuse-filled canal beside the Flying Jib, exposing the city’s mixing of water and waste."
+        "summary": "The party finds the outbreak’s greatest concentration around a refuse-filled canal beside the Flying Jib, exposing the city’s mixing of water and waste.",
+        "importance": 2
       },
       {
         "title": "The mountain-pass party clears an undead valley",
@@ -534,7 +566,8 @@
           "undead",
           "guidance"
         ],
-        "summary": "Wren guides the company away from a flood-prone valley, and the party survives an undead attack before reaching the waiting host."
+        "summary": "Wren guides the company away from a flood-prone valley, and the party survives an undead attack before reaching the waiting host.",
+        "importance": 2
       },
       {
         "title": "Pristinia adopts merchant penalties by two votes",
@@ -550,7 +583,8 @@
           "merchants",
           "vote"
         ],
-        "summary": "A packed Common Man votes 31–29 to include penalties for merchants in a new proposal, preserving one of Pristinia’s earliest recorded legislative decisions."
+        "summary": "A packed Common Man votes 31–29 to include penalties for merchants in a new proposal, preserving one of Pristinia’s earliest recorded legislative decisions.",
+        "importance": 2
       },
       {
         "title": "Two captured doppelgangers are sent home",
@@ -566,7 +600,8 @@
           "banishment",
           "home"
         ],
-        "summary": "The party resists the captives’ psychic surge and banishes both doppelgangers, with Nienna sensing that they reached their own world alive."
+        "summary": "The party resists the captives’ psychic surge and banishes both doppelgangers, with Nienna sensing that they reached their own world alive.",
+        "importance": 2
       },
       {
         "title": "The walking dead reach Pristinia’s approaches",
@@ -582,7 +617,8 @@
           "horde",
           "corpse pit"
         ],
-        "summary": "A scout’s dying warning precedes an undead horde; after the defense, the party confronts the polluted ground and necrotic remains left behind."
+        "summary": "A scout’s dying warning precedes an undead horde; after the defense, the party confronts the polluted ground and necrotic remains left behind.",
+        "importance": 2
       },
       {
         "title": "A reality-splitting ritual is foiled",
@@ -598,7 +634,8 @@
           "reality",
           "lost evidence"
         ],
-        "summary": "Quake’s corrupted-radiant staff points toward rival beacons; the party stops the ritual, but its last-minute destruction buries most of the evidence."
+        "summary": "Quake’s corrupted-radiant staff points toward rival beacons; the party stops the ritual, but its last-minute destruction buries most of the evidence.",
+        "importance": 4
       },
       {
         "title": "The meteor orb opens after the spider falls",
@@ -614,7 +651,8 @@
           "orb",
           "spider"
         ],
-        "summary": "A race toward a fallen meteor ends when Saray’s arrow kills a giant abomination and the sealed orb slowly opens for the party."
+        "summary": "A race toward a fallen meteor ends when Saray’s arrow kills a giant abomination and the sealed orb slowly opens for the party.",
+        "importance": 2
       },
       {
         "title": "Passage is secured toward the Thundering Coast light",
@@ -630,7 +668,8 @@
           "beacon",
           "Thundering Coast"
         ],
-        "summary": "With Eovar’s quarantine lifted, the party goes to the docks to obtain passage toward the beacon shining beyond the Thundering Coast."
+        "summary": "With Eovar’s quarantine lifted, the party goes to the docks to obtain passage toward the beacon shining beyond the Thundering Coast.",
+        "importance": 2
       },
       {
         "title": "Nienna is found bound in a forest clearing",
@@ -646,7 +685,8 @@
           "captivity",
           "rescue"
         ],
-        "summary": "Scout Lilian leads a company to a dead body and five dark-clad figures surrounding Nienna, who is restrained by Dimensional Shackles."
+        "summary": "Scout Lilian leads a company to a dead body and five dark-clad figures surrounding Nienna, who is restrained by Dimensional Shackles.",
+        "importance": 2
       },
       {
         "title": "A landslide exposes the four-pillar ruins",
@@ -662,7 +702,8 @@
           "pillars",
           "journals"
         ],
-        "summary": "The party explores an oval chamber exposed by the landslide that killed Fernir, mapping geometric pillars and recovering additional journal entries."
+        "summary": "The party explores an oval chamber exposed by the landslide that killed Fernir, mapping geometric pillars and recovering additional journal entries.",
+        "importance": 2
       },
       {
         "title": "A sea expedition discovers a new island",
@@ -678,7 +719,8 @@
           "island",
           "discovery"
         ],
-        "summary": "A keelboat expedition leaves Eovar, threads towering sea cliffs, and hauls itself onto a high platform to confirm a previously unrecovered island location."
+        "summary": "A keelboat expedition leaves Eovar, threads towering sea cliffs, and hauls itself onto a high platform to confirm a previously unrecovered island location.",
+        "importance": 4
       },
       {
         "title": "The Before’s distress call proves to be a lure",
@@ -694,7 +736,8 @@
           "mimicry",
           "escape"
         ],
-        "summary": "A familiar distress frequency draws explorers into The Before, where a hidden figure imitates the plea for help; the party escapes into daylight."
+        "summary": "A familiar distress frequency draws explorers into The Before, where a hidden figure imitates the plea for help; the party escapes into daylight.",
+        "importance": 2
       },
       {
         "title": "Rehevä’s cliffside dragon nest is cleared",
@@ -710,7 +753,8 @@
           "dragons",
           "celebration"
         ],
-        "summary": "The party descends a rope ladder beneath Rehevä, fights young dragons in the cliffside, and returns to a town celebration led by Mayor Jovaz."
+        "summary": "The party descends a rope ladder beneath Rehevä, fights young dragons in the cliffside, and returns to a town celebration led by Mayor Jovaz.",
+        "importance": 2
       },
       {
         "title": "Nienna’s condemned sailors return to service",
@@ -726,7 +770,8 @@
           "ship",
           "provisions"
         ],
-        "summary": "The party reaches sailors awaiting execution as mutineers; by the end of the mission they salute Nienna, provision her ship, and help carry the company back to Pristinia."
+        "summary": "The party reaches sailors awaiting execution as mutineers; by the end of the mission they salute Nienna, provision her ship, and help carry the company back to Pristinia.",
+        "importance": 2
       },
       {
         "title": "The party breaks the harbor blockade",
@@ -742,7 +787,8 @@
           "ship",
           "Huoth"
         ],
-        "summary": "After scouting and planning in heavy rain, the company acts against the bridge blockade and follows Huoth into a tower filled with powerful magic."
+        "summary": "After scouting and planning in heavy rain, the company acts against the bridge blockade and follows Huoth into a tower filled with powerful magic.",
+        "importance": 2
       },
       {
         "title": "The colossal archway’s false floor is found",
@@ -758,7 +804,8 @@
           "illusion",
           "trap"
         ],
-        "summary": "Explorers testing a colossal entrance discover a flickering square where the apparent floor gives way beneath a probing spear."
+        "summary": "Explorers testing a colossal entrance discover a flickering square where the apparent floor gives way beneath a probing spear.",
+        "importance": 2
       },
       {
         "title": "The Rahu open their Pristinia enclave",
@@ -774,7 +821,8 @@
           "embassy",
           "violet altar"
         ],
-        "summary": "The newly raised Rahu structure opens to the public after sunset, revealing a rigid nocturnal community and an altar-like focus glowing violet."
+        "summary": "The newly raised Rahu structure opens to the public after sunset, revealing a rigid nocturnal community and an altar-like focus glowing violet.",
+        "importance": 3
       },
       {
         "title": "The screaming dungeon’s blood altar is cleansed",
@@ -790,7 +838,8 @@
           "altar",
           "threat"
         ],
-        "summary": "Following a woman’s echoing screams, the party reaches a blood-covered altar; the blood boils away and a voice promises Alyhotep that he will pay."
+        "summary": "Following a woman’s echoing screams, the party reaches a blood-covered altar; the blood boils away and a voice promises Alyhotep that he will pay.",
+        "importance": 2
       },
       {
         "title": "Pristinia’s quarry corridor is stabilized",
@@ -806,7 +855,8 @@
           "labor",
           "repair"
         ],
-        "summary": "Workers’ fears bring adventurers to the quarry, where Sylvaaran creates a seamless support brace and restores the failing corridor ceiling."
+        "summary": "Workers’ fears bring adventurers to the quarry, where Sylvaaran creates a seamless support brace and restores the failing corridor ceiling.",
+        "importance": 2
       },
       {
         "title": "Water guardians emerge in the sector dungeon",
@@ -822,7 +872,8 @@
           "guardians",
           "sector dungeon"
         ],
-        "summary": "The explorers penetrate another protected room; when Saturnia disrupts its water, four elemental guardians emerge."
+        "summary": "The explorers penetrate another protected room; when Saturnia disrupts its water, four elemental guardians emerge.",
+        "importance": 2
       },
       {
         "title": "The lich’s lair collapses",
@@ -838,7 +889,8 @@
           "undead",
           "collapse"
         ],
-        "summary": "After Melian objects to bringing an undead woman into town, the expedition ends beyond a portal beside the collapsed lair of the slain lich."
+        "summary": "After Melian objects to bringing an undead woman into town, the expedition ends beyond a portal beside the collapsed lair of the slain lich.",
+        "importance": 2
       },
       {
         "title": "Rehevä forgets an unseen act of heroism",
@@ -854,7 +906,8 @@
           "displacement",
           "forgotten deed"
         ],
-        "summary": "A violent arcane revelation in Rehevä tears the adventurers away, leaving the people they protected unable to know what the party accomplished."
+        "summary": "A violent arcane revelation in Rehevä tears the adventurers away, leaving the people they protected unable to know what the party accomplished.",
+        "importance": 2
       },
       {
         "title": "The dungeon survivors return to a mayor’s reward",
@@ -870,7 +923,8 @@
           "reward",
           "Rehevä"
         ],
-        "summary": "The party emerges alive from the death-rigged dungeon, surprising a mayor who believed them dead and rewards each survivor."
+        "summary": "The party emerges alive from the death-rigged dungeon, surprising a mayor who believed them dead and rewards each survivor.",
+        "importance": 2
       },
       {
         "title": "Gudlaug and Beefy Boy win the race",
@@ -886,7 +940,8 @@
           "festival",
           "Gudlaug"
         ],
-        "summary": "A hazardous public race ends with the crowd acclaiming Gudlaug and Beefy Boy as the winners."
+        "summary": "A hazardous public race ends with the crowd acclaiming Gudlaug and Beefy Boy as the winners.",
+        "importance": 2
       },
       {
         "title": "Pristinia’s townsfolk openly support the adventurers",
@@ -902,7 +957,8 @@
           "tools",
           "craft"
         ],
-        "summary": "Residents who still believe in the adventurers arrive with tools and labor, and the day ends at Melian’s estate with hard-won practical instruction."
+        "summary": "Residents who still believe in the adventurers arrive with tools and labor, and the day ends at Melian’s estate with hard-won practical instruction.",
+        "importance": 2
       },
       {
         "title": "The Azarian Peaks expedition reaches the storm",
@@ -918,7 +974,8 @@
           "prophecy",
           "storm"
         ],
-        "summary": "Guided by Liora’s studies, the expedition crosses the sea and climbs into a storm among the Azarian Peaks, where even a dead ice creature glows with magic."
+        "summary": "Guided by Liora’s studies, the expedition crosses the sea and climbs into a storm among the Azarian Peaks, where even a dead ice creature glows with magic.",
+        "importance": 4
       },
       {
         "title": "Jiangshi’s coffin reaches Gael’s shore",
@@ -934,7 +991,8 @@
           "Gael",
           "recovery"
         ],
-        "summary": "Sailors land the coffin on Gael’s rocky shore while Adelia carries the weakened Jiangshi safely out of the water."
+        "summary": "Sailors land the coffin on Gael’s rocky shore while Adelia carries the weakened Jiangshi safely out of the water.",
+        "importance": 2
       },
       {
         "title": "The worm hunt traps the party underground",
@@ -950,7 +1008,8 @@
           "collapse",
           "Delerium haze"
         ],
-        "summary": "Following Scout Lilian’s map of strange worm sightings, the party collapses a cave and seals itself inside with a fainter remnant of the haze."
+        "summary": "Following Scout Lilian’s map of strange worm sightings, the party collapses a cave and seals itself inside with a fainter remnant of the haze.",
+        "importance": 2
       },
       {
         "title": "The corruption cave leaves its explorers defeated",
@@ -966,7 +1025,8 @@
           "cave",
           "defeat"
         ],
-        "summary": "The explorers leave an otherworldly cavern physically themselves again but carrying a profound sense that the darkness followed them out."
+        "summary": "The explorers leave an otherworldly cavern physically themselves again but carrying a profound sense that the darkness followed them out.",
+        "importance": 2
       },
       {
         "title": "Wrath drives the tomb expedition toward retreat",
@@ -982,7 +1042,8 @@
           "tomb",
           "ravens"
         ],
-        "summary": "Heavy blows shake the sealed tomb while ravens scout outside, forcing the wounded company to choose between pressing on and returning home."
+        "summary": "Heavy blows shake the sealed tomb while ravens scout outside, forcing the wounded company to choose between pressing on and returning home.",
+        "importance": 2
       },
       {
         "title": "The cave-trapped party digs free with a crystal",
@@ -998,7 +1059,8 @@
           "crystal",
           "contamination"
         ],
-        "summary": "After hours of digging, the trapped explorers clear the collapse; Arjahn recovers crystal fragments and feels a wave pass over him."
+        "summary": "After hours of digging, the trapped explorers clear the collapse; Arjahn recovers crystal fragments and feels a wave pass over him.",
+        "importance": 2
       },
       {
         "title": "Delerium fragments rain outside Pristinia",
@@ -1014,7 +1076,8 @@
           "explosion",
           "spectre"
         ],
-        "summary": "An explosion scatters pulsing violet fragments across the field beyond the wall and leaves the survivors knowing they must hunt the haze-born spectre."
+        "summary": "An explosion scatters pulsing violet fragments across the field beyond the wall and leaves the survivors knowing they must hunt the haze-born spectre.",
+        "importance": 3
       },
       {
         "title": "The Gael tomb mission escapes through the statues",
@@ -1030,7 +1093,8 @@
           "statues",
           "escape tunnel"
         ],
-        "summary": "The party completes its mission under Wrath’s shadow when the crowned Quake commands ancient statues to reveal an escape tunnel."
+        "summary": "The party completes its mission under Wrath’s shadow when the crowned Quake commands ancient statues to reveal an escape tunnel.",
+        "importance": 2
       },
       {
         "title": "Moirah returns with Jiangshi at a cost",
@@ -1046,7 +1110,8 @@
           "return",
           "cost"
         ],
-        "summary": "Moirah returns carrying Jiangshi’s body after an unseen struggle and is visibly diminished until Elenia’s prayer-like magic restores her."
+        "summary": "Moirah returns carrying Jiangshi’s body after an unseen struggle and is visibly diminished until Elenia’s prayer-like magic restores her.",
+        "importance": 2
       },
       {
         "title": "Pristinia debates gold, business, and public need",
@@ -1062,7 +1127,8 @@
           "gold",
           "building"
         ],
-        "summary": "Melian and the elders confront a major financial decision as adventurers offer gold and argue over business growth, ordinary residents, and skilled construction."
+        "summary": "Melian and the elders confront a major financial decision as adventurers offer gold and argue over business growth, ordinary residents, and skilled construction.",
+        "importance": 2
       },
       {
         "title": "The Gael mechanism drains nearby magic",
@@ -1078,7 +1144,8 @@
           "Weave",
           "Gael"
         ],
-        "summary": "Explorers force an ancient wheel to turn; magic drains from everyone nearby and their connection to the Weave vanishes until the mechanism settles."
+        "summary": "Explorers force an ancient wheel to turn; magic drains from everyone nearby and their connection to the Weave vanishes until the mechanism settles.",
+        "importance": 2
       },
       {
         "title": "Endora dies and Roderick refuses the loss",
@@ -1094,7 +1161,8 @@
           "resurrection",
           "Delerium"
         ],
-        "summary": "The Liar trades Delerium to Roderick for Eldrin’s relic. Roderick uses it to return Endora, but what comes back is incomplete."
+        "summary": "The Liar trades Delerium to Roderick for Eldrin’s relic. Roderick uses it to return Endora, but what comes back is incomplete.",
+        "importance": 3
       },
       {
         "title": "Vysaeth becomes a lich",
@@ -1110,7 +1178,8 @@
           "legacy",
           "guardianship"
         ],
-        "summary": "Endora’s brother abandons his humanity to protect the kingdom and its record from the threat he associates with Roderick."
+        "summary": "Endora’s brother abandons his humanity to protect the kingdom and its record from the threat he associates with Roderick.",
+        "importance": 3
       },
       {
         "title": "Aria burns Talan’s temple",
@@ -1126,7 +1195,8 @@
           "temple",
           "abandonment"
         ],
-        "summary": "After failed prayers, winter, and flood, young Aria turns a failed seat of divine authority into a target and begins the path toward Pride."
+        "summary": "After failed prayers, winter, and flood, young Aria turns a failed seat of divine authority into a target and begins the path toward Pride.",
+        "importance": 3
       },
       {
         "title": "Elenia follows a possible call from Cala",
@@ -1142,7 +1212,8 @@
           "wonder",
           "faith"
         ],
-        "summary": "Uncertain whether the goddess truly called her, Elenia follows wonder to an altar and offers to carry light into dark places."
+        "summary": "Uncertain whether the goddess truly called her, Elenia follows wonder to an altar and offers to carry light into dark places.",
+        "importance": 1
       },
       {
         "title": "Pristinia’s wall is finished",
@@ -1158,7 +1229,8 @@
           "defense",
           "community"
         ],
-        "summary": "Adventurers complete an ordinary defensive project whose material consequence returns during the summer assault."
+        "summary": "Adventurers complete an ordinary defensive project whose material consequence returns during the summer assault.",
+        "importance": 2
       },
       {
         "title": "Evidence prevents an unjust Rahu execution",
@@ -1174,7 +1246,8 @@
           "justice",
           "Rahu"
         ],
-        "summary": "An innocent person facing execution is spared when evidence enters the proceeding, an early example of ordinary process resisting institutional power."
+        "summary": "An innocent person facing execution is spared when evidence enters the proceeding, an early example of ordinary process resisting institutional power.",
+        "importance": 2
       },
       {
         "title": "Nienna’s expedition reaches Gael",
@@ -1190,7 +1263,8 @@
           "Great Tree seed",
           "Void dragons"
         ],
-        "summary": "A chain involving a freed crew, an island-sized turtle, a Great Tree seed, and Death’s dragons culminates in the first recovered arrival in Gael; earlier exact dates remain unresolved."
+        "summary": "A chain involving a freed crew, an island-sized turtle, a Great Tree seed, and Death’s dragons culminates in the first recovered arrival in Gael; earlier exact dates remain unresolved.",
+        "importance": 4
       },
       {
         "title": "Titan’s Watch reveals Death’s victory",
@@ -1206,7 +1280,8 @@
           "cathedral",
           "Death"
         ],
-        "summary": "Ruined Titan statues, a decayed cathedral, and lifeless terrain show the adventurers what a land defeated by Death looks like."
+        "summary": "Ruined Titan statues, a decayed cathedral, and lifeless terrain show the adventurers what a land defeated by Death looks like.",
+        "importance": 3
       },
       {
         "title": "Nienna testifies to soul-fed Void passage",
@@ -1222,7 +1297,8 @@
           "unwilling souls",
           "provenance"
         ],
-        "summary": "Nienna describes one safer crossing method that feeds unwilling souls to the Void’s inhabitants; the record does not establish it as the method for all travel."
+        "summary": "Nienna describes one safer crossing method that feeds unwilling souls to the Void’s inhabitants; the record does not establish it as the method for all travel.",
+        "importance": 4
       },
       {
         "title": "Nienna orders a retreat when Jiangshi is lost",
@@ -1238,7 +1314,8 @@
           "cowardice",
           "survival"
         ],
-        "summary": "Adelia and Bitoshi blame Nienna for leaving Jiangshi, while Gartina argues that returning would probably have produced another unrecoverable death. The later sacrifice does not erase this earlier choice."
+        "summary": "Adelia and Bitoshi blame Nienna for leaving Jiangshi, while Gartina argues that returning would probably have produced another unrecoverable death. The later sacrifice does not erase this earlier choice.",
+        "importance": 2
       },
       {
         "title": "Olo accidentally frees a servant of Death",
@@ -1254,7 +1331,8 @@
           "mistake",
           "Death"
         ],
-        "summary": "A conversation with a creature in a burned forest ends with Olo accidentally freeing a minion of Death, preserving an early example of curiosity creating consequences."
+        "summary": "A conversation with a creature in a burned forest ends with Olo accidentally freeing a minion of Death, preserving an early example of curiosity creating consequences.",
+        "importance": 2
       },
       {
         "title": "Olo helps de-escalate a tavern conflict",
@@ -1270,7 +1348,8 @@
           "responsibility",
           "belonging"
         ],
-        "summary": "Olo’s role around Scribonia shows social obligation developing before his later moral principles are fully articulated."
+        "summary": "Olo’s role around Scribonia shows social obligation developing before his later moral principles are fully articulated.",
+        "importance": 1
       },
       {
         "title": "Vysaeth’s account of Roderick is found",
@@ -1286,7 +1365,8 @@
           "testimony",
           "provenance"
         ],
-        "summary": "The party reaches a dead kingdom and receives the first substantial—hostile and interested—account of Roderick and Endora."
+        "summary": "The party reaches a dead kingdom and receives the first substantial—hostile and interested—account of Roderick and Endora.",
+        "importance": 3
       },
       {
         "title": "Wrath makes his first offer",
@@ -1302,7 +1382,8 @@
           "resurrection",
           "choice"
         ],
-        "summary": "Wrath appears beside grief and offers restoration through Death. Quake refuses; Elenia asks Cala for another way, and a diamond makes return possible."
+        "summary": "Wrath appears beside grief and offers restoration through Death. Quake refuses; Elenia asks Cala for another way, and a diamond makes return possible.",
+        "importance": 1
       },
       {
         "title": "Olo states the boundary of consent",
@@ -1318,7 +1399,8 @@
           "choice",
           "no"
         ],
-        "summary": "Olo states in substance that when a person says no, the answer is no—an early explicit form of the principle that will define his later choices."
+        "summary": "Olo states in substance that when a person says no, the answer is no—an early explicit form of the principle that will define his later choices.",
+        "importance": 1
       },
       {
         "title": "Sildithas organizes defense training",
@@ -1334,7 +1416,8 @@
           "wall",
           "bloodshed"
         ],
-        "summary": "Sildithas recruits Papirak to summon real creatures for a defense exercise; Papirak’s sudden lucidity reveals an old aversion to battle and real death."
+        "summary": "Sildithas recruits Papirak to summon real creatures for a defense exercise; Papirak’s sudden lucidity reveals an old aversion to battle and real death.",
+        "importance": 2
       },
       {
         "title": "Elenia protects Quake with Death Ward",
@@ -1350,7 +1433,8 @@
           "protection",
           "causal debt"
         ],
-        "summary": "Elenia protects Quake because Quake previously saved Nienna and her, allowing an earlier act of care to determine a later use of divine power."
+        "summary": "Elenia protects Quake because Quake previously saved Nienna and her, allowing an earlier act of care to determine a later use of divine power.",
+        "importance": 1
       },
       {
         "title": "The Delerium assault reaches Pristinia",
@@ -1366,7 +1450,8 @@
           "haze",
           "wall"
         ],
-        "summary": "The player-built wall holds the obvious blow while a Delerium-fed haze passes the defenses and leaves contamination inside the town."
+        "summary": "The player-built wall holds the obvious blow while a Delerium-fed haze passes the defenses and leaves contamination inside the town.",
+        "importance": 3
       },
       {
         "title": "Olo tests the limits of a Rahu oath",
@@ -1382,7 +1467,8 @@
           "Delerium",
           "secrecy"
         ],
-        "summary": "Only weeks after becoming Rahu, Olo refuses to state a protected truth yet helps his friends discover it independently. Eugene’s useful questions belie his fear of becoming a burden."
+        "summary": "Only weeks after becoming Rahu, Olo refuses to state a protected truth yet helps his friends discover it independently. Eugene’s useful questions belie his fear of becoming a burden.",
+        "importance": 1
       },
       {
         "title": "The Liar’s trade enters the record",
@@ -1398,7 +1484,8 @@
           "Delerium",
           "Endora"
         ],
-        "summary": "A historical source reveals that the Liar traded Roderick the Delerium crystal used to bring Endora back to life."
+        "summary": "A historical source reveals that the Liar traded Roderick the Delerium crystal used to bring Endora back to life.",
+        "importance": 3
       },
       {
         "title": "Legend Lore reframes Endora’s return",
@@ -1414,7 +1501,8 @@
           "resurrection",
           "incomplete return"
         ],
-        "summary": "The archive reveals that the resurrection did not restore Endora whole, turning an old tragedy into evidence about Delerium’s cost."
+        "summary": "The archive reveals that the resurrection did not restore Endora whole, turning an old tragedy into evidence about Delerium’s cost.",
+        "importance": 3
       },
       {
         "title": "The assault on Wrath ends with Saray’s blow",
@@ -1430,7 +1518,8 @@
           "sacrifice",
           "understanding"
         ],
-        "summary": "Arjahn offers himself, Wrath cuts Elenia, and Saray lands the final blow. Dumuzi cradles Roderick afterward; the person beneath Wrath becomes legible without becoming safe."
+        "summary": "Arjahn offers himself, Wrath cuts Elenia, and Saray lands the final blow. Dumuzi cradles Roderick afterward; the person beneath Wrath becomes legible without becoming safe.",
+        "importance": 3
       },
       {
         "title": "Wrath is defeated, but Gael remains dangerous",
@@ -1446,7 +1535,8 @@
           "stragglers",
           "recovery"
         ],
-        "summary": "Wrath’s defeat ends a dominant threat without producing instant civic safety. Stragglers remain, and liberation becomes the beginning of recovery rather than its completion."
+        "summary": "Wrath’s defeat ends a dominant threat without producing instant civic safety. Stragglers remain, and liberation becomes the beginning of recovery rather than its completion.",
+        "importance": 3
       },
       {
         "title": "Adelia’s group leaves Gael",
@@ -1462,7 +1552,8 @@
           "Gael",
           "unresolved"
         ],
-        "summary": "Adelia leaves Gael with a small group that definitely includes Elenia. Gartina remains with the refugees and forest; the destination is not established in the present record."
+        "summary": "Adelia leaves Gael with a small group that definitely includes Elenia. Gartina remains with the refugees and forest; the destination is not established in the present record.",
+        "importance": 2
       },
       {
         "title": "Gael’s refugees plan permanence",
@@ -1478,7 +1569,8 @@
           "longhouse",
           "consultation"
         ],
-        "summary": "Soup and emergency shelter give way to proposals for salvaging the crashed refugee ship, gathering material, and asking the refugees about a permanent settlement."
+        "summary": "Soup and emergency shelter give way to proposals for salvaging the crashed refugee ship, gathering material, and asking the refugees about a permanent settlement.",
+        "importance": 2
       },
       {
         "title": "Hope, Stake, and Shadowangel Forest are present",
@@ -1495,7 +1587,8 @@
           "Stake",
           "forest"
         ],
-        "summary": "The three living places already exist before Adelia’s 2026 transformation, establishing that Gael’s ecological recovery was underway by early 2025."
+        "summary": "The three living places already exist before Adelia’s 2026 transformation, establishing that Gael’s ecological recovery was underway by early 2025.",
+        "importance": 3
       },
       {
         "title": "Jiangshi comforts Adelia",
@@ -1511,7 +1604,8 @@
           "shadows",
           "presence"
         ],
-        "summary": "After Adelia returns from a horrific fight, Jiangshi offers calming herbs, healing shadow-smoke, Smokey and closeness without demanding an explanation. Her trust in family and ancestors accompanies her care."
+        "summary": "After Adelia returns from a horrific fight, Jiangshi offers calming herbs, healing shadow-smoke, Smokey and closeness without demanding an explanation. Her trust in family and ancestors accompanies her care.",
+        "importance": 1
       },
       {
         "title": "The Third Arrival brings Magnus, Dez, and Brianna",
@@ -1527,7 +1621,8 @@
           "Prima",
           "newcomers"
         ],
-        "summary": "Magnus, Dez, and Brianna arrive in the discrete event remembered as the Third Arrival; it is not merged with the earlier Gate opening."
+        "summary": "Magnus, Dez, and Brianna arrive in the discrete event remembered as the Third Arrival; it is not merged with the earlier Gate opening.",
+        "importance": 4
       },
       {
         "title": "Magnus quests beside Pristinia’s adventurers",
@@ -1544,7 +1639,8 @@
           "community",
           "baseline"
         ],
-        "summary": "After traveling into the Before with Fredrick and shopping beside Aravil, Magnus answers Papirak’s raven summons with adventurers who will soon face him on opposite sides of a war."
+        "summary": "After traveling into the Before with Fredrick and shopping beside Aravil, Magnus answers Papirak’s raven summons with adventurers who will soon face him on opposite sides of a war.",
+        "importance": 2
       },
       {
         "title": "Magnus becomes a Rahu information source",
@@ -1561,7 +1657,8 @@
           "trade",
           "intelligence"
         ],
-        "summary": "Magnus criticizes Pristinia’s government, advocates Rahu trade, seeks access to Sophina’s negotiations, and warns her that people intend to interfere with a Rahu agreement."
+        "summary": "Magnus criticizes Pristinia’s government, advocates Rahu trade, seeks access to Sophina’s negotiations, and warns her that people intend to interfere with a Rahu agreement.",
+        "importance": 3
       },
       {
         "title": "Magnus fights Pristinia for the Rahu",
@@ -1578,7 +1675,8 @@
           "bridge",
           "testimony"
         ],
-        "summary": "Magnus joins the Rahuvian assault and declares that fighting former companions is right, yet secretly warns Brianna about a trapped bridge. Paco later alleges that Magnus also tried to sabotage the walls."
+        "summary": "Magnus joins the Rahuvian assault and declares that fighting former companions is right, yet secretly warns Brianna about a trapped bridge. Paco later alleges that Magnus also tried to sabotage the walls.",
+        "importance": 3
       },
       {
         "title": "Magnus falls and returns during the Rahu war",
@@ -1595,7 +1693,8 @@
           "Rahu",
           "unresolved"
         ],
-        "summary": "Ruben brings Magnus down and fires again into his body; the battlefield treats him as dead. Magnus is active by 4 June, but the exact mechanism of this return is not established."
+        "summary": "Ruben brings Magnus down and fires again into his body; the battlefield treats him as dead. Magnus is active by 4 June, but the exact mechanism of this return is not established.",
+        "importance": 1
       },
       {
         "title": "The Rahu siege grinds against Pristinia",
@@ -1612,7 +1711,8 @@
           "fires",
           "Rahu–Pristinia War"
         ],
-        "summary": "Catapults and ballistae continue firing, corpses are launched into town, and the Ale-Chemy Knights help contain fires as the assault becomes a campaign of attrition."
+        "summary": "Catapults and ballistae continue firing, corpses are launched into town, and the Ale-Chemy Knights help contain fires as the assault becomes a campaign of attrition.",
+        "importance": 3
       },
       {
         "title": "Magnus abducts Melian for the Rahu",
@@ -1629,7 +1729,8 @@
           "no witnesses",
           "Rahu–Pristinia War"
         ],
-        "summary": "Magnus incapacitates Melian with yielding gas and orders approaching witnesses killed. Herb and Scout Lilian die before Magnus extracts Melian and delivers her to Strange Talon."
+        "summary": "Magnus incapacitates Melian with yielding gas and orders approaching witnesses killed. Herb and Scout Lilian die before Magnus extracts Melian and delivers her to Strange Talon.",
+        "importance": 3
       },
       {
         "title": "Pristinia reconstructs Melian’s abduction",
@@ -1646,7 +1747,8 @@
           "Rahu",
           "defenses"
         ],
-        "summary": "Blood, a fallen chair, chemical residue, and the yielding-gas bottle show that Melian did not leave willingly and that the attackers bypassed the settlement’s defenses."
+        "summary": "Blood, a fallen chair, chemical residue, and the yielding-gas bottle show that Melian did not leave willingly and that the attackers bypassed the settlement’s defenses.",
+        "importance": 2
       },
       {
         "title": "Elenia breaks the Rahu siege towers",
@@ -1662,7 +1764,8 @@
           "siege",
           "Savior of Pristinia"
         ],
-        "summary": "During the Rahu siege, Elenia destroys the towers and becomes publicly remembered as the Savior of Pristinia, enlarging both her power and the responsibility attached to it."
+        "summary": "During the Rahu siege, Elenia destroys the towers and becomes publicly remembered as the Savior of Pristinia, enlarging both her power and the responsibility attached to it.",
+        "importance": 3
       },
       {
         "title": "Aria and Olokun contest attachment",
@@ -1678,7 +1781,8 @@
           "protection",
           "agency"
         ],
-        "summary": "Pride calls love a future weakness; Olokun answers that people make one another better without gaining ownership over the lives they love."
+        "summary": "Pride calls love a future weakness; Olokun answers that people make one another better without gaining ownership over the lives they love.",
+        "importance": 1
       },
       {
         "title": "Aria traps Scribonia in a gemstone",
@@ -1694,7 +1798,8 @@
           "leverage",
           "Pride"
         ],
-        "summary": "Aria imprisons Scribonia in a gemstone amid god-killing stakes. No release mechanism or later release event is asserted where the surviving record does not provide one."
+        "summary": "Aria imprisons Scribonia in a gemstone amid god-killing stakes. No release mechanism or later release event is asserted where the surviving record does not provide one.",
+        "importance": 3
       },
       {
         "title": "Aria turns public memory against Adelia",
@@ -1710,7 +1815,8 @@
           "crowd",
           "resurrection"
         ],
-        "summary": "Aria uses cultural memory and Adelia’s resurrection history to move a crowd; private shared truth proves weaker than claims the audience can verify."
+        "summary": "Aria uses cultural memory and Adelia’s resurrection history to move a crowd; private shared truth proves weaker than claims the audience can verify.",
+        "importance": 3
       },
       {
         "title": "Three philosophies meet in a Zarathis garden",
@@ -1727,7 +1833,8 @@
           "knowledge",
           "love"
         ],
-        "summary": "Tulaine emphasizes attentive harmony, Gartina demands a specific code for intervention, and Jiangshi tests whether love requires conscious reciprocal choice. Their garden becomes a debate about stewardship and sacrifice."
+        "summary": "Tulaine emphasizes attentive harmony, Gartina demands a specific code for intervention, and Jiangshi tests whether love requires conscious reciprocal choice. Their garden becomes a debate about stewardship and sacrifice.",
+        "importance": 1
       },
       {
         "title": "Magnus and Aria discuss power and usefulness",
@@ -1743,7 +1850,8 @@
           "alliance",
           "instrumentality"
         ],
-        "summary": "Their exchange strengthens the recurring question of whether capability and shared enemies create trust—or merely make people useful to one another."
+        "summary": "Their exchange strengthens the recurring question of whether capability and shared enemies create trust—or merely make people useful to one another.",
+        "importance": 1
       },
       {
         "title": "The party enters the Shadow Roads",
@@ -1759,7 +1867,8 @@
           "dissent",
           "risk"
         ],
-        "summary": "Ithilrûnë crosses for knowledge, Sildithas for duty, and Coralyn warns that they should not go. Brianna takes Ghilsen’s hand into the darkness."
+        "summary": "Ithilrûnë crosses for knowledge, Sildithas for duty, and Coralyn warns that they should not go. Brianna takes Ghilsen’s hand into the darkness.",
+        "importance": 4
       },
       {
         "title": "Sildithas relays the earliest recovered Maw knowledge",
@@ -1776,7 +1885,8 @@
           "local knowledge",
           "provenance"
         ],
-        "summary": "Secondhand testimony describes a growing anomaly that consumes, attracts beasts, may connect to another island, and may summon something called the Destroyer. Behavior is established before explanation."
+        "summary": "Secondhand testimony describes a growing anomaly that consumes, attracts beasts, may connect to another island, and may summon something called the Destroyer. Behavior is established before explanation.",
+        "importance": 3
       },
       {
         "title": "The Void becomes an exploration space",
@@ -1793,7 +1903,8 @@
           "artifact",
           "uncertainty"
         ],
-        "summary": "Aria says her group explored the Void and failed to find what they sought. The target and any connection to an ancient temporal artifact remain unresolved."
+        "summary": "Aria says her group explored the Void and failed to find what they sought. The target and any connection to an ancient temporal artifact remain unresolved.",
+        "importance": 4
       },
       {
         "title": "Magnus asks whether ships could replace Void beasts",
@@ -1809,7 +1920,8 @@
           "Void beast",
           "travel traditions"
         ],
-        "summary": "Magnus asks whether a Void beast is necessary if Void-sailing ships can be built. Míriel says her people have never crossed the Void, revealing uneven travel knowledge between developed cultures."
+        "summary": "Magnus asks whether a Void beast is necessary if Void-sailing ships can be built. Míriel says her people have never crossed the Void, revealing uneven travel knowledge between developed cultures.",
+        "importance": 4
       },
       {
         "title": "Paco pays the return from the Roads",
@@ -1825,7 +1937,8 @@
           "return",
           "price"
         ],
-        "summary": "Paco sacrifices himself so Carmen can bring the others home and returns changed, forcing Carmen to confront a debt she never consented for him to pay."
+        "summary": "Paco sacrifices himself so Carmen can bring the others home and returns changed, forcing Carmen to confront a debt she never consented for him to pay.",
+        "importance": 4
       },
       {
         "title": "Eugene receives a Delerium-channeling weapon",
@@ -1841,7 +1954,8 @@
           "weapon",
           "worthiness"
         ],
-        "summary": "A sword capable of channeling moderate Delerium without harming its wielder appears in Eugene’s cloak. He doubts his worthiness while Scribonia privately recognizes his brilliance."
+        "summary": "A sword capable of channeling moderate Delerium without harming its wielder appears in Eugene’s cloak. He doubts his worthiness while Scribonia privately recognizes his brilliance.",
+        "importance": 1
       },
       {
         "title": "Talan kills Aria",
@@ -1857,7 +1971,8 @@
           "Justice",
           "body"
         ],
-        "summary": "A confrontation never intended as Aria’s final battle ends with Pride small at Talan’s feet. Dumuzi later asks for her body rather than simply taking it."
+        "summary": "A confrontation never intended as Aria’s final battle ends with Pride small at Talan’s feet. Dumuzi later asks for her body rather than simply taking it.",
+        "importance": 4
       },
       {
         "title": "Death invokes ownership of Magnus",
@@ -1874,7 +1989,8 @@
           "trust",
           "Zarathians"
         ],
-        "summary": "Magnus collapses and vomits after seeing his people dead. Dumuzi invokes the soul already belonging to him and drops Magnus; Eugene heals, Wren’s trust breaks, Scribonia rejects him, and Olokun resists treating the misguided as disposable."
+        "summary": "Magnus collapses and vomits after seeing his people dead. Dumuzi invokes the soul already belonging to him and drops Magnus; Eugene heals, Wren’s trust breaks, Scribonia rejects him, and Olokun resists treating the misguided as disposable.",
+        "importance": 1
       },
       {
         "title": "Bowene receives Aria’s surviving companions",
@@ -1890,7 +2006,8 @@
           "politics",
           "aftermath"
         ],
-        "summary": "Already High Lord before Aria’s death, Bowene receives her surviving companions in grief and questions what happened. The scene establishes his role in the aftermath, not the date he acquired his title."
+        "summary": "Already High Lord before Aria’s death, Bowene receives her surviving companions in grief and questions what happened. The scene establishes his role in the aftermath, not the date he acquired his title.",
+        "importance": 3
       },
       {
         "title": "Magnus wins Zarathian political standing",
@@ -1907,7 +2024,8 @@
           "Emerald Veil",
           "legitimacy"
         ],
-        "summary": "Adelia supports Magnus, Miriel speaks for him, Emerald Veil nominates him despite his Silver Star identity, and divided support still produces a victory. Suspicions of manipulation remain attributed rather than proven."
+        "summary": "Adelia supports Magnus, Miriel speaks for him, Emerald Veil nominates him despite his Silver Star identity, and divided support still produces a victory. Suspicions of manipulation remain attributed rather than proven.",
+        "importance": 3
       },
       {
         "title": "Elenia defeats Magnus and refuses the duel’s final premise",
@@ -1923,7 +2041,8 @@
           "mercy",
           "banishment"
         ],
-        "summary": "Elenia prevails in a fight-to-the-death context and uses terrifying divine magic against Magnus, yet later says she did not want to kill him. The confrontation contributes to her banishment from Fein Uaill."
+        "summary": "Elenia prevails in a fight-to-the-death context and uses terrifying divine magic against Magnus, yet later says she did not want to kill him. The confrontation contributes to her banishment from Fein Uaill.",
+        "importance": 3
       },
       {
         "title": "The war council rejects alliance with Death",
@@ -1939,7 +2058,8 @@
           "Death",
           "council"
         ],
-        "summary": "Aria argues that victory requires pain. Olokun draws the boundary at his own pain, Scribonia challenges her logic, and Bowene removes alliance with Death from consideration."
+        "summary": "Aria argues that victory requires pain. Olokun draws the boundary at his own pain, Scribonia challenges her logic, and Bowene removes alliance with Death from consideration.",
+        "importance": 4
       },
       {
         "title": "The New Year address remembers what survived",
@@ -1956,7 +2076,8 @@
           "healing",
           "memory"
         ],
-        "summary": "The record places Tiamat, Wrath, and Aionia beside Pristinia’s walls, Eovar’s wounded, food, laws, festivals, marriages, and the people who paid."
+        "summary": "The record places Tiamat, Wrath, and Aionia beside Pristinia’s walls, Eovar’s wounded, food, laws, festivals, marriages, and the people who paid.",
+        "importance": 4
       },
       {
         "title": "Olo chooses Wren and is killed by the Abyss",
@@ -1972,7 +2093,8 @@
           "loss",
           "Abyss"
         ],
-        "summary": "Under pressure, Olo chooses Wren over Aravil. Aravil is taken as a trophy, and the Abyss addresses Olo by name before killing him. The event remains a true triage loss, not a clean victory."
+        "summary": "Under pressure, Olo chooses Wren over Aravil. Aravil is taken as a trophy, and the Abyss addresses Olo by name before killing him. The event remains a true triage loss, not a clean victory.",
+        "importance": 2
       },
       {
         "title": "Arjahn resurrects Olo with Olo’s own gift",
@@ -1988,7 +2110,8 @@
           "resurrection",
           "gift"
         ],
-        "summary": "Arjahn uses the Scepter of Faith that Olo had earlier given him. An old act of generosity becomes the direct condition of Olo’s return and escape."
+        "summary": "Arjahn uses the Scepter of Faith that Olo had earlier given him. An old act of generosity becomes the direct condition of Olo’s return and escape.",
+        "importance": 1
       },
       {
         "title": "Jiangshi returns to the room where she was mourned",
@@ -2005,7 +2128,8 @@
           "tavern",
           "ordinary life"
         ],
-        "summary": "Jiangshi recognizes the Common Man’s familiar scents and sounds while Bitoshi remembers arriving there for her memorial. The same room holds grief, return, newcomers, and ordinary conversation without erasing either history."
+        "summary": "Jiangshi recognizes the Common Man’s familiar scents and sounds while Bitoshi remembers arriving there for her memorial. The same room holds grief, return, newcomers, and ordinary conversation without erasing either history.",
+        "importance": 1
       },
       {
         "title": "Elenia supplies ink for Eugene’s spellbook",
@@ -2021,7 +2145,8 @@
           "ink",
           "learning"
         ],
-        "summary": "Elenia materially supports Eugene’s learning, evidence that others increasingly regard his growing capacity as worth investing in."
+        "summary": "Elenia materially supports Eugene’s learning, evidence that others increasingly regard his growing capacity as worth investing in.",
+        "importance": 1
       },
       {
         "title": "Magnus serves as a Zarathian cultural guide",
@@ -2038,7 +2163,8 @@
           "tradition",
           "factions"
         ],
-        "summary": "Over tea, Magnus warns against open divine service, explains Zarathian factions and reputation, offers lodging, and offers to speak to Miriel—showing cultural attachment and social competence beside his larger harms."
+        "summary": "Over tea, Magnus warns against open divine service, explains Zarathian factions and reputation, offers lodging, and offers to speak to Miriel—showing cultural attachment and social competence beside his larger harms.",
+        "importance": 2
       },
       {
         "title": "Olokun and Arjahn turn fear into a map",
@@ -2054,7 +2180,8 @@
           "loss",
           "reconciliation"
         ],
-        "summary": "Repeated near-deaths and Aravil’s disappearance make Olokun lash out. Arjahn defends his agency; days later they preserve the disagreement by working on the map together."
+        "summary": "Repeated near-deaths and Aravil’s disappearance make Olokun lash out. Arjahn defends his agency; days later they preserve the disagreement by working on the map together.",
+        "importance": 1
       },
       {
         "title": "Voraketh takes something from Anky",
@@ -2070,7 +2197,8 @@
           "loss",
           "Temple of Secrets"
         ],
-        "summary": "Anky says an earlier Wasteland expedition took something important and left Stinky silent. He asks Nuru for protection against further loss."
+        "summary": "Anky says an earlier Wasteland expedition took something important and left Stinky silent. He asks Nuru for protection against further loss.",
+        "importance": 1
       },
       {
         "title": "Coralyn and Anky form an early Chain model",
@@ -2086,7 +2214,8 @@
           "motes",
           "protection"
         ],
-        "summary": "After three motes prove difficult to gather, Coralyn proposes that the Chains protect the living side from what can consume beyond them. Anky initially agrees they should be preserved."
+        "summary": "After three motes prove difficult to gather, Coralyn proposes that the Chains protect the living side from what can consume beyond them. Anky initially agrees they should be preserved.",
+        "importance": 3
       },
       {
         "title": "Anky reports the Chains’ divine evidence",
@@ -2102,7 +2231,8 @@
           "guardians",
           "provenance"
         ],
-        "summary": "Anky says Nuru confirmed Talan made the Chains and guardians, while Physisia told Pappy they were good at first but had become a curse. He seeks what they hold back before choosing destruction or preservation."
+        "summary": "Anky says Nuru confirmed Talan made the Chains and guardians, while Physisia told Pappy they were good at first but had become a curse. He seeks what they hold back before choosing destruction or preservation.",
+        "importance": 3
       },
       {
         "title": "Anky commissions the Voraketh map",
@@ -2118,7 +2248,8 @@
           "scrolls",
           "collaborative research"
         ],
-        "summary": "Anky has an angel make a map, leaves scrolls and notes, and asks later explorers to theorize together rather than hoard useful secrets."
+        "summary": "Anky has an angel make a map, leaves scrolls and notes, and asks later explorers to theorize together rather than hoard useful secrets.",
+        "importance": 3
       },
       {
         "title": "The Temple of Secrets becomes a communal institution",
@@ -2134,7 +2265,8 @@
           "shared gear",
           "duty"
         ],
-        "summary": "Protected records, a research space, and a communal resource pool give later explorers inherited knowledge. Anky wants to leave but stays because he promised Nuru a full report."
+        "summary": "Protected records, a research space, and a communal resource pool give later explorers inherited knowledge. Anky wants to leave but stays because he promised Nuru a full report.",
+        "importance": 3
       },
       {
         "title": "Anky’s final recovered expedition begins",
@@ -2150,7 +2282,8 @@
           "motes",
           "missing sequence"
         ],
-        "summary": "Anky, Alfred, and Cerwin enter a portal after Anky proposes gathering motes as possible medicine. The surviving log does not preserve what happens next."
+        "summary": "Anky, Alfred, and Cerwin enter a portal after Anky proposes gathering motes as possible medicine. The surviving log does not preserve what happens next.",
+        "importance": 2
       },
       {
         "title": "St. Anky walks the road to the afterlife",
@@ -2166,7 +2299,8 @@
           "unrecovered cause",
           "Voraketh"
         ],
-        "summary": "After the chain-guard construct kills Anky and Alfred on 20 April, Anky’s 21 April aside places him on the road to the afterlife. The killing scene is separate from this later appearance."
+        "summary": "After the chain-guard construct kills Anky and Alfred on 20 April, Anky’s 21 April aside places him on the road to the afterlife. The killing scene is separate from this later appearance.",
+        "importance": 1
       },
       {
         "title": "Cerwin reaches Anky after death",
@@ -2181,7 +2315,8 @@
           "aftermath",
           "missing history"
         ],
-        "summary": "A wounded Cerwin catches up to Anky, apologizing that he was not there and that he is late. The missing expedition sequence remains unresolved."
+        "summary": "A wounded Cerwin catches up to Anky, apologizing that he was not there and that he is late. The missing expedition sequence remains unresolved.",
+        "importance": 1
       },
       {
         "title": "Babel-Ashur reaches a crisis of survival",
@@ -2199,7 +2334,8 @@
           "Shard",
           "survival"
         ],
-        "summary": "A battered Mya insists that all lands are worth saving. Babel’s Shard is not simply a tree, Arjahn’s vanguard is losing, and the surviving choice is to pass strength onward or reunite and prove the gods wrong."
+        "summary": "A battered Mya insists that all lands are worth saving. Babel’s Shard is not simply a tree, Arjahn’s vanguard is losing, and the surviving choice is to pass strength onward or reunite and prove the gods wrong.",
+        "importance": 3
       },
       {
         "title": "Two blue-mist sigils are broken in the First Forest",
@@ -2216,7 +2352,8 @@
           "holy energy",
           "ghostly butterflies"
         ],
-        "summary": "Responding to disappearances and reports of dead voices in the First Forest, Marius, Heahmund, and Kaelen find the blue mist and destroy two sigils. Holy flame turns the mist to glitter, clears the affected part of the forest, and reveals a repeatable way to resist the phenomenon."
+        "summary": "Responding to disappearances and reports of dead voices in the First Forest, Marius, Heahmund, and Kaelen find the blue mist and destroy two sigils. Holy flame turns the mist to glitter, clears the affected part of the forest, and reveals a repeatable way to resist the phenomenon.",
+        "importance": 2
       },
       {
         "title": "The First Forest reclaims the quarry road",
@@ -2233,7 +2370,8 @@
           "frozen stream",
           "wolves"
         ],
-        "summary": "Camilla, Lady Severina, Karnak, and Selwyn take the intermittently used quarry route through the First Forest and find that nature has reclaimed its path. They keep their direction into the foothills, reach a stone bridge over a frozen stream, and face a hungry wolf pack on the approach."
+        "summary": "Camilla, Lady Severina, Karnak, and Selwyn take the intermittently used quarry route through the First Forest and find that nature has reclaimed its path. They keep their direction into the foothills, reach a stone bridge over a frozen stream, and face a hungry wolf pack on the approach.",
+        "importance": 2
       },
       {
         "title": "Brianna chooses sanctification",
@@ -2249,7 +2387,8 @@
           "Sacrament",
           "Hope"
         ],
-        "summary": "After Magnus forces Delerium into Brianna, Elenia calls Mya. Hope cleanses rather than removes the crystal, transforming the residue of violation without erasing what happened."
+        "summary": "After Magnus forces Delerium into Brianna, Elenia calls Mya. Hope cleanses rather than removes the crystal, transforming the residue of violation without erasing what happened.",
+        "importance": 1
       },
       {
         "title": "The Miracle of Fenumion follows accepted loss",
@@ -2265,7 +2404,8 @@
           "miracle",
           "chance"
         ],
-        "summary": "After Wrath cleaves Elenia, Gartina casts Reincarnate in the Sanctum. The companions accept possible change before the narrator reveals her alive and still a satyr. No higher-power cause is established."
+        "summary": "After Wrath cleaves Elenia, Gartina casts Reincarnate in the Sanctum. The companions accept possible change before the narrator reveals her alive and still a satyr. No higher-power cause is established.",
+        "importance": 1
       },
       {
         "title": "Zombie pirates burn the Common Man",
@@ -2282,7 +2422,8 @@
           "zombie pirates",
           "revenge"
         ],
-        "summary": "Green Beard throws a bead onto the tavern, setting the roof alight. Herb escapes, Gregory organizes a bucket line and the narrator records the ceiling collapsing. The complete casualty roll remains unresolved."
+        "summary": "Green Beard throws a bead onto the tavern, setting the roof alight. Herb escapes, Gregory organizes a bucket line and the narrator records the ceiling collapsing. The complete casualty roll remains unresolved.",
+        "importance": 2
       },
       {
         "title": "Prima expands while Fein begins a respite",
@@ -2298,7 +2439,8 @@
           "reconciliation",
           "institutions"
         ],
-        "summary": "Pristinia expands, Pilgrim’s Hearth occupies the Common Man’s foundations, and Fein enters a period of peace and reconciliation without erasing its conflict or distrust of Magnus."
+        "summary": "Pristinia expands, Pilgrim’s Hearth occupies the Common Man’s foundations, and Fein enters a period of peace and reconciliation without erasing its conflict or distrust of Magnus.",
+        "importance": 4
       },
       {
         "title": "Babel-Ashur’s monsters close on the survivors",
@@ -2314,7 +2456,8 @@
           "survivors",
           "Shard"
         ],
-        "summary": "Hungrier monsters move closer. A small cave refuge, a surviving seed or Shard, and the Knights’ hunt stand between the remaining people and annihilation."
+        "summary": "Hungrier monsters move closer. A small cave refuge, a surviving seed or Shard, and the Knights’ hunt stand between the remaining people and annihilation.",
+        "importance": 3
       },
       {
         "title": "Mortals unmake a mountain",
@@ -2330,7 +2473,8 @@
           "storm",
           "biblical destruction"
         ],
-        "summary": "Catastrophic weather, fissures, lava, floodwater, and avalanche make the landscape seem to claw at its own face; Elenia still looks for unknown people in the storm’s path."
+        "summary": "Catastrophic weather, fissures, lava, floodwater, and avalanche make the landscape seem to claw at its own face; Elenia still looks for unknown people in the storm’s path.",
+        "importance": 3
       },
       {
         "title": "The Rift ambush tests knowledge and rescue",
@@ -2347,7 +2491,8 @@
           "rescue",
           "disputed knowledge"
         ],
-        "summary": "Pappy is ambushed and Adelia Gates him away. The rescue is established; what Adelia could know in character and which deeper mechanics supported the intervention remain part of a later dispute rather than a settled moral verdict."
+        "summary": "Pappy is ambushed and Adelia Gates him away. The rescue is established; what Adelia could know in character and which deeper mechanics supported the intervention remain part of a later dispute rather than a settled moral verdict.",
+        "importance": 4
       },
       {
         "title": "Farkur proposes Friendly Guides and Grub",
@@ -2364,7 +2509,8 @@
           "hospitality",
           "transport"
         ],
-        "summary": "Farkur pitches a profitable Gate-side caravan offering maps, food, ale, local knowledge, and future carriage service. The idea anticipates the Knights’ later welcome system but does not prove the faction formally exists yet."
+        "summary": "Farkur pitches a profitable Gate-side caravan offering maps, food, ale, local knowledge, and future carriage service. The idea anticipates the Knights’ later welcome system but does not prove the faction formally exists yet.",
+        "importance": 2
       },
       {
         "title": "The Ale-Chemy welcome system moves from plan to practice",
@@ -2381,7 +2527,8 @@
           "maps",
           "mutual aid"
         ],
-        "summary": "Farkur develops the newcomer-support concept at Ciderwood Sanctum; Tobias later gives Fredrick safety, food, orientation, a map, work and lodging information, an escort, and personal money."
+        "summary": "Farkur develops the newcomer-support concept at Ciderwood Sanctum; Tobias later gives Fredrick safety, food, orientation, a map, work and lodging information, an escort, and personal money.",
+        "importance": 2
       },
       {
         "title": "The Ale-Chemy shop operates as a shared resource pool",
@@ -2398,7 +2545,8 @@
           "property",
           "shop"
         ],
-        "summary": "Ryvyt borrows shared equipment for a job, Farkur routes specialist crafting toward him, and the Knights vote to purchase an Eovar tavern while finances remain strained."
+        "summary": "Ryvyt borrows shared equipment for a job, Farkur routes specialist crafting toward him, and the Knights vote to purchase an Eovar tavern while finances remain strained.",
+        "importance": 2
       },
       {
         "title": "The Ale-Chemy Knights explain their mature economic system",
@@ -2415,7 +2563,8 @@
           "ships",
           "Pristinia walls"
         ],
-        "summary": "Ruben describes pooled funds, labor, materials, rentals, eventual acquisition, public works, ships, and reconstruction plans. Gregory challenges the financing terms, while Tobias is reported missing again."
+        "summary": "Ruben describes pooled funds, labor, materials, rentals, eventual acquisition, public works, ships, and reconstruction plans. Gregory challenges the financing terms, while Tobias is reported missing again.",
+        "importance": 3
       },
       {
         "title": "Outsiders direct newcomers to the Ale-Chemy Knights",
@@ -2432,7 +2581,8 @@
           "newcomers",
           "reputation"
         ],
-        "summary": "Draven recommends the Knights as the best source of information and gives Valorum a silent handbell said to be audible to them. He identifies Farkur and Ryvyt as founders away on an important job."
+        "summary": "Draven recommends the Knights as the best source of information and gives Valorum a silent handbell said to be audible to them. He identifies Farkur and Ryvyt as founders away on an important job.",
+        "importance": 2
       },
       {
         "title": "Gael develops an open-air market",
@@ -2449,7 +2599,8 @@
           "organizations",
           "reconstruction"
         ],
-        "summary": "The Ale-Chemy Knights establish a market divided by skill sets in a region Marius remembers as having almost no economy; Farkur and other Knights have vanished, but the source does not say what that means."
+        "summary": "The Ale-Chemy Knights establish a market divided by skill sets in a region Marius remembers as having almost no economy; Farkur and other Knights have vanished, but the source does not say what that means.",
+        "importance": 2
       },
       {
         "title": "Safe known-person travel to Gael is available",
@@ -2465,7 +2616,8 @@
           "islands",
           "network"
         ],
-        "summary": "Thorn says a friend can safely carry people they know to Gael from any island; the exact spell or mechanism remains unresolved."
+        "summary": "Thorn says a friend can safely carry people they know to Gael from any island; the exact spell or mechanism remains unresolved.",
+        "importance": 4
       },
       {
         "title": "Pilgrim’s Hearth returns ordinary social life",
@@ -2481,7 +2633,8 @@
           "tavern",
           "rebuilding"
         ],
-        "summary": "The successor tavern on the Common Man’s foundations functions as a place for tea, news, and social connection after destruction and rebuilding."
+        "summary": "The successor tavern on the Common Man’s foundations functions as a place for tea, news, and social connection after destruction and rebuilding.",
+        "importance": 2
       },
       {
         "title": "Prima’s Magic Academy is open",
@@ -2497,7 +2650,8 @@
           "teaching",
           "magic"
         ],
-        "summary": "Students identify Scribonia as their teacher, while Saoirse prepares lessons for a future turn teaching younger learners."
+        "summary": "Students identify Scribonia as their teacher, while Saoirse prepares lessons for a future turn teaching younger learners.",
+        "importance": 3
       },
       {
         "title": "Vessalia’s party investigates the harpy cave",
@@ -2515,7 +2669,8 @@
           "harpies",
           "unresolved"
         ],
-        "summary": "The Seekers’ record preserves a contaminated corpse, strange tracks, violet crystals that do not all produce expected Delerium feedback, and malformed harpy-like creatures. Something deeper in the cave mimics Vessalia’s song; the crystals’ nature remains unknown."
+        "summary": "The Seekers’ record preserves a contaminated corpse, strange tracks, violet crystals that do not all produce expected Delerium feedback, and malformed harpy-like creatures. Something deeper in the cave mimics Vessalia’s song; the crystals’ nature remains unknown.",
+        "importance": 2
       },
       {
         "title": "Jiangshi dies and returns",
@@ -2531,7 +2686,8 @@
           "memorial",
           "return"
         ],
-        "summary": "Jiangshi’s death or loss belongs to the June 2024 Gael and Void history. Approximately seven and a half months of death do not remove her from relationship; her return makes the world confront the difference between a dead body and a finished person."
+        "summary": "Jiangshi’s death or loss belongs to the June 2024 Gael and Void history. Approximately seven and a half months of death do not remove her from relationship; her return makes the world confront the difference between a dead body and a finished person.",
+        "importance": 1
       },
       {
         "title": "Nienna gives herself so Hope can live",
@@ -2547,7 +2703,8 @@
           "legacy",
           "one last time"
         ],
-        "summary": "Afraid and wanting to live after the retreat that followed Jiangshi’s June loss, Nienna crosses the Gate and spends her life to create an opportunity for Hope to survive rather than a guaranteed victory. Her absence continues to shape later choices."
+        "summary": "Afraid and wanting to live after the retreat that followed Jiangshi’s June loss, Nienna crosses the Gate and spends her life to create an opportunity for Hope to survive rather than a guaranteed victory. Her absence continues to shape later choices.",
+        "importance": 3
       },
       {
         "title": "Adelia gives herself for Hope",
@@ -2564,7 +2721,8 @@
           "renewal",
           "Spirit of Adelia"
         ],
-        "summary": "After Magnus wounds Hope, Adelia voluntarily gives up her former existence to restore or save it. She becomes bound to Hope and Gael as the Spirit of Adelia, Empyrean or Life Knight. Exact date and mechanics remain unresolved; Gael’s earlier restoration is communal."
+        "summary": "After Magnus wounds Hope, Adelia voluntarily gives up her former existence to restore or save it. She becomes bound to Hope and Gael as the Spirit of Adelia, Empyrean or Life Knight. Exact date and mechanics remain unresolved; Gael’s earlier restoration is communal.",
+        "importance": 3
       },
       {
         "title": "The Chains and Maw defeat Ithilrûnë’s working model",
@@ -2581,7 +2739,8 @@
           "Deyara Thorn",
           "uncertainty"
         ],
-        "summary": "A magic-consuming Maw, antimagic Chains, dangerous constructs, an associated figure, and a separate watcher resist Ithilrûnë’s attempts to form a reliable model. Talan’s authorship of the Chains is attributed; his motives and the figures’ identities remain unknown."
+        "summary": "A magic-consuming Maw, antimagic Chains, dangerous constructs, an associated figure, and a separate watcher resist Ithilrûnë’s attempts to form a reliable model. Talan’s authorship of the Chains is attributed; his motives and the figures’ identities remain unknown.",
+        "importance": 3
       },
       {
         "title": "Coralyn preserves Voraketh’s unanswered connections",
@@ -2598,7 +2757,8 @@
           "plague",
           "blurred watcher"
         ],
-        "summary": "Coralyn records the island’s unnatural order, Chains, Wasteland, Maw, watcher, motes, tree, resurrection offer, spores, plague, and difficult name—while refusing to connect them merely because they are strange."
+        "summary": "Coralyn records the island’s unnatural order, Chains, Wasteland, Maw, watcher, motes, tree, resurrection offer, spores, plague, and difficult name—while refusing to connect them merely because they are strange.",
+        "importance": 3
       },
       {
         "title": "Sildithas proposes a feast beside the Maw",
@@ -2615,7 +2775,8 @@
           "joy",
           "moral uncertainty"
         ],
-        "summary": "Unable to solve the Maw, Sildithas returns to an oath centered on mercy, flourishing, courage, and joy. He proposes a feast as a small good that preserves the people facing the unresolved horror, and Ithilrûnë agrees to follow his lead."
+        "summary": "Unable to solve the Maw, Sildithas returns to an oath centered on mercy, flourishing, courage, and joy. He proposes a feast as a small good that preserves the people facing the unresolved horror, and Ithilrûnë agrees to follow his lead.",
+        "importance": 1
       },
       {
         "title": "The western mist blankets Babel-Ashur",
@@ -2632,7 +2793,8 @@
           "Abyss",
           "Babel-Ashur"
         ],
-        "summary": "A sickly-green mist that Elenia says entered through a rift blankets essentially the island’s western portion. She distinguishes it from the Pale Man’s Haze; its exact relationship to Abyss remains unresolved."
+        "summary": "A sickly-green mist that Elenia says entered through a rift blankets essentially the island’s western portion. She distinguishes it from the Pale Man’s Haze; its exact relationship to Abyss remains unresolved.",
+        "importance": 3
       },
       {
         "title": "The Luminar Spires transform Daylight",
@@ -2648,7 +2810,8 @@
           "reversed gravity",
           "primal magic"
         ],
-        "summary": "Elenia casts Daylight on a Spire and the surrounding field transforms it into reversed gravity. Gartina uses giant-eagle form to retrieve companions; the effect ends with Elenia’s concentration."
+        "summary": "Elenia casts Daylight on a Spire and the surrounding field transforms it into reversed gravity. Gartina uses giant-eagle form to retrieve companions; the effect ends with Elenia’s concentration.",
+        "importance": 2
       },
       {
         "title": "Gartina surveys the western mist",
@@ -2665,7 +2828,8 @@
           "unidentified figures",
           "field research"
         ],
-        "summary": "Gartina flies twenty to thirty feet above the visible mist without an observed mental effect, confirms its enormous western reach, and sees unidentified figures moving beneath it. The test does not establish universal aerial safety."
+        "summary": "Gartina flies twenty to thirty feet above the visible mist without an observed mental effect, confirms its enormous western reach, and sees unidentified figures moving beneath it. The test does not establish universal aerial safety.",
+        "importance": 3
       },
       {
         "title": "Arjahn burns a temporary opening in the mist",
@@ -2681,7 +2845,8 @@
           "regeneration",
           "amplification"
         ],
-        "summary": "Arjahn’s radiant energy produces a dangerously amplified reaction and burns part of the mist away, but the opening closes within minutes once the pressure stops."
+        "summary": "Arjahn’s radiant energy produces a dangerously amplified reaction and burns part of the mist away, but the opening closes within minutes once the pressure stops.",
+        "importance": 2
       },
       {
         "title": "The Luminar Spires shine at sunset",
@@ -2697,7 +2862,8 @@
           "starlight",
           "unresolved"
         ],
-        "summary": "As the party withdraws, the Spires twinkle like stars. The behavior is observed; any relationship to time, light, celestial conditions, or the earlier spell remains speculative."
+        "summary": "As the party withdraws, the Spires twinkle like stars. The behavior is observed; any relationship to time, light, celestial conditions, or the earlier spell remains speculative.",
+        "importance": 2
       },
       {
         "title": "Pristinia answers hunger with a hunt",
@@ -2715,7 +2881,8 @@
           "civilian labor",
           "Ale-Chemy Knights"
         ],
-        "summary": "A tavern conversation exposes failed harvest help, an overworked farmer, and dwindling stores. Tobias volunteers as a hunt forms, while Herb limits it so immediate hunger does not destroy next year’s elk population."
+        "summary": "A tavern conversation exposes failed harvest help, an overworked farmer, and dwindling stores. Tobias volunteers as a hunt forms, while Herb limits it so immediate hunger does not destroy next year’s elk population.",
+        "importance": 2
       },
       {
         "title": "Skye makes Lichen safe through music",
@@ -2732,7 +2899,8 @@
           "friendship",
           "First Forest"
         ],
-        "summary": "Skye refuses most of a ten-gold gift worth roughly a year’s wages, learns who Lichen is, and connects a strange newcomer to the First Forest through music and conversation."
+        "summary": "Skye refuses most of a ten-gold gift worth roughly a year’s wages, learns who Lichen is, and connects a strange newcomer to the First Forest through music and conversation.",
+        "importance": 2
       },
       {
         "title": "The party reaches the Shining Shores",
@@ -2748,7 +2916,8 @@
           "city",
           "coast"
         ],
-        "summary": "A recovered expedition reaches a warm coast and a civilization of white towers, grand shops, and extensive streets, establishing the party’s first dated arrival at the Shining Shores."
+        "summary": "A recovered expedition reaches a warm coast and a civilization of white towers, grand shops, and extensive streets, establishing the party’s first dated arrival at the Shining Shores.",
+        "importance": 4
       },
       {
         "title": "Pilgrims enter Ciaránach by the Holy Road",
@@ -2764,7 +2933,8 @@
           "Golden Ones",
           "identity"
         ],
-        "summary": "Travelers pass from Zarathis through orchard valleys and high mountains into the white-and-gold city above the clouds, where Captain Haelith and the Golden Ones preserve a yearly lesson in identity."
+        "summary": "Travelers pass from Zarathis through orchard valleys and high mountains into the white-and-gold city above the clouds, where Captain Haelith and the Golden Ones preserve a yearly lesson in identity.",
+        "importance": 3
       },
       {
         "title": "The Heavenly Host attacks Aelthor",
@@ -2780,7 +2950,8 @@
           "eclipse",
           "Aelthor"
         ],
-        "summary": "Under darkened skies, Aionia’s Heavenly Host strikes the Gates of Aelthor. The recovered scene places six major figures together at a defining battle on the Shining Shores."
+        "summary": "Under darkened skies, Aionia’s Heavenly Host strikes the Gates of Aelthor. The recovered scene places six major figures together at a defining battle on the Shining Shores.",
+        "importance": 4
       },
       {
         "title": "You Better Watch Out",
@@ -2796,7 +2967,8 @@
           "Krampus",
           "living dolls"
         ],
-        "summary": "A search for missing children becomes a confrontation with Krampus and living dolls. Ruben’s shot brings the creature down and the party rescues a child."
+        "summary": "A search for missing children becomes a confrontation with Krampus and living dolls. Ruben’s shot brings the creature down and the party rescues a child.",
+        "importance": 2
       },
       {
         "title": "Bowene exiles Elenia without closing the door",
@@ -2812,7 +2984,8 @@
           "banishment",
           "sending stone"
         ],
-        "summary": "Bowene exiles Elenia, Aravil and Olokun, offers information and support for the struggle in Babel-Ashur, and gives Elenia a sending stone. He acknowledges Aria’s imperfections and leaves future coexistence possible without erasing the punishment."
+        "summary": "Bowene exiles Elenia, Aravil and Olokun, offers information and support for the struggle in Babel-Ashur, and gives Elenia a sending stone. He acknowledges Aria’s imperfections and leaves future coexistence possible without erasing the punishment.",
+        "importance": 4
       },
       {
         "title": "Wherever We Are Now begins The Before survey",
@@ -2829,7 +3002,8 @@
           "Delerium",
           "stirges"
         ],
-        "summary": "A survey required by a Pristinia–Rahu peace agreement finds glowing briars, Delerium haze, an eighty-foot sinkhole, worked ruins, purple dust, and a stirge swarm before the party withdraws to camp."
+        "summary": "A survey required by a Pristinia–Rahu peace agreement finds glowing briars, Delerium haze, an eighty-foot sinkhole, worked ruins, purple dust, and a stirge swarm before the party withdraws to camp.",
+        "importance": 3
       },
       {
         "title": "Farkur confesses before the Guardians",
@@ -2845,7 +3019,8 @@
           "truth-working",
           "accountability"
         ],
-        "summary": "Farkur admits repairing an escape ship and failing to report what he knew while denying participation in Yvette’s murder. The Guardians spare him; he offers the Knights’ bell and visits the graves."
+        "summary": "Farkur admits repairing an escape ship and failing to report what he knew while denying participation in Yvette’s murder. The Guardians spare him; he offers the Knights’ bell and visits the graves.",
+        "importance": 3
       },
       {
         "title": "Aionia names Vain as Death’s Shard hunter",
@@ -2862,7 +3037,8 @@
           "Wyrm",
           "divine grace"
         ],
-        "summary": "A wounded Aionia says Vain defeated her before Death took another tree and the Wyrm’s agent consumed an island Shard. She names Vain as Death’s most trusted Knight, a hunter of Shards who attempts to steal divine grace."
+        "summary": "A wounded Aionia says Vain defeated her before Death took another tree and the Wyrm’s agent consumed an island Shard. She names Vain as Death’s most trusted Knight, a hunter of Shards who attempts to steal divine grace.",
+        "importance": 3
       },
       {
         "title": "Ale-Chemy wealth enters Pristinia policy",
@@ -2879,7 +3055,8 @@
           "defense",
           "trade"
         ],
-        "summary": "Melian calls Ale-Chemy contributions invaluable to stable finances while Camilla argues that the faction’s gold can support defense, agriculture, and trade, making private wealth a public-policy question."
+        "summary": "Melian calls Ale-Chemy contributions invaluable to stable finances while Camilla argues that the faction’s gold can support defense, agriculture, and trade, making private wealth a public-policy question.",
+        "importance": 2
       },
       {
         "title": "Acolyte tests Pristinia’s walls",
@@ -2895,7 +3072,8 @@
           "mist",
           "walls"
         ],
-        "summary": "A Death-aligned mist halts outside Pristinia while waves of undead attack. The defenders suffer no deaths and force the mist back, but its departing voice promises further tests."
+        "summary": "A Death-aligned mist halts outside Pristinia while waves of undead attack. The defenders suffer no deaths and force the mist back, but its departing voice promises further tests.",
+        "importance": 2
       },
       {
         "title": "Ryvyt returns as the remaining founder",
@@ -2911,7 +3089,8 @@
           "founder",
           "loss"
         ],
-        "summary": "Ryvyt arrives aboard an Ale-Chemy vessel and calls himself the remaining founder. The wording records his understanding of a loss without proving whether Farkur is dead, missing, or otherwise absent."
+        "summary": "Ryvyt arrives aboard an Ale-Chemy vessel and calls himself the remaining founder. The wording records his understanding of a loss without proving whether Farkur is dead, missing, or otherwise absent.",
+        "importance": 1
       },
       {
         "title": "Howl exposes the false Timothy",
@@ -2927,7 +3106,8 @@
           "doppelganger",
           "fey magic"
         ],
-        "summary": "After freeing an injured deer and tracking wolves, the party finds the real Timothy’s body in a den. The Timothy at the cabin is exposed as a doppelganger, with faint fey magic lingering nearby."
+        "summary": "After freeing an injured deer and tracking wolves, the party finds the real Timothy’s body in a den. The Timothy at the cabin is exposed as a doppelganger, with faint fey magic lingering nearby.",
+        "importance": 2
       },
       {
         "title": "Eovar records the adventurers’ mixed legacy",
@@ -2944,7 +3124,8 @@
           "prison break",
           "reconstruction"
         ],
-        "summary": "Harbor Master Raven Joyner credits Fenwick and the Knights with good work while remembering both rescues and a prison break: adventurers attract danger, then rebuild and improve lives."
+        "summary": "Harbor Master Raven Joyner credits Fenwick and the Knights with good work while remembering both rescues and a prison break: adventurers attract danger, then rebuild and improve lives.",
+        "importance": 2
       },
       {
         "sort": "0000-00a",
@@ -3117,7 +3298,8 @@
           "The Before",
           "regional politics"
         ],
-        "summary": "Melian describes Pristinia as the chosen entry point into a larger conflict, with a Rahu embassy in town, Eovar nearby, Guardians to the south, and The Before threatening the surrounding woods."
+        "summary": "Melian describes Pristinia as the chosen entry point into a larger conflict, with a Rahu embassy in town, Eovar nearby, Guardians to the south, and The Before threatening the surrounding woods.",
+        "importance": 3
       },
       {
         "title": "Eovar’s fire makes rebuilding a regional concern",
@@ -3133,7 +3315,8 @@
           "labor",
           "rebuilding"
         ],
-        "summary": "After a large fire damages Eovar, Nerias argues that Pristinia can contribute able workers, making recovery in the harbor part of the wider region’s practical responsibilities."
+        "summary": "After a large fire damages Eovar, Nerias argues that Pristinia can contribute able workers, making recovery in the harbor part of the wider region’s practical responsibilities.",
+        "importance": 3
       },
       {
         "title": "Pristinia’s cedar is stolen in Eovar",
@@ -3150,7 +3333,8 @@
           "underworld",
           "reconstruction"
         ],
-        "summary": "Fire-resistant cedar intended for the rebuilt Common Man is stolen in Eovar, forcing adventurers into the harbor’s criminal networks while they try to protect Pristinia’s reputation."
+        "summary": "Fire-resistant cedar intended for the rebuilt Common Man is stolen in Eovar, forcing adventurers into the harbor’s criminal networks while they try to protect Pristinia’s reputation.",
+        "importance": 2
       },
       {
         "title": "Eovar’s sailors refuse the sea",
@@ -3167,7 +3351,8 @@
           "harbor",
           "fear"
         ],
-        "summary": "Boats remain moored and sailors refuse to leave amid reports of strange events, missing ships, and a vessel rumored to have returned. A working port becomes unnaturally quiet."
+        "summary": "Boats remain moored and sailors refuse to leave amid reports of strange events, missing ships, and a vessel rumored to have returned. A working port becomes unnaturally quiet.",
+        "importance": 3
       },
       {
         "title": "Arjahn warns that no one controls all of The Before",
@@ -3183,7 +3368,8 @@
           "metal creature",
           "uncertain control"
         ],
-        "summary": "Arjahn recalls a wizard admitting that he did not control everything in the ruins and warns that neither the guide’s claims nor any faction’s ownership should be treated as complete."
+        "summary": "Arjahn recalls a wizard admitting that he did not control everything in the ruins and warns that neither the guide’s claims nor any faction’s ownership should be treated as complete.",
+        "importance": 2
       },
       {
         "title": "The gas geyser field tests Gael’s travelers",
@@ -3200,7 +3386,8 @@
           "navigation",
           "bones"
         ],
-        "summary": "A failed group navigation effort carries travelers into a quarter-mile field of toxic fissures and salt-preserved bones, forcing a choice between dangerous ground and night travel."
+        "summary": "A failed group navigation effort carries travelers into a quarter-mile field of toxic fissures and salt-preserved bones, forcing a choice between dangerous ground and night travel.",
+        "importance": 2
       },
       {
         "title": "Prior knowledge changes the second geyser crossing",
@@ -3216,7 +3403,8 @@
           "memory",
           "geothermal study"
         ],
-        "summary": "Returning near the same field, Saray recognizes the danger, the party debates routes, Adelia samples the yellow material, and Scribonia studies the eruption cycle instead of meeting the terrain as unknown."
+        "summary": "Returning near the same field, Saray recognizes the danger, the party debates routes, Adelia samples the yellow material, and Scribonia studies the eruption cycle instead of meeting the terrain as unknown.",
+        "importance": 2
       },
       {
         "title": "Travelers reach Larkhollow and open it to return",
@@ -3232,7 +3420,8 @@
           "lodging",
           "ruined tower"
         ],
-        "summary": "The party reaches lodging overlooking Larkhollow’s ruined tower, and the settlement becomes a persistent roleplay location rather than a one-quest destination."
+        "summary": "The party reaches lodging overlooking Larkhollow’s ruined tower, and the settlement becomes a persistent roleplay location rather than a one-quest destination.",
+        "importance": 2
       },
       {
         "title": "Relics tie Larkhollow to its ruined tower",
@@ -3248,7 +3437,8 @@
           "tower",
           "unresolved history"
         ],
-        "summary": "References to relics from the old tower establish that the ruin has material remains and remembered significance, while its builders and destruction remain unknown."
+        "summary": "References to relics from the old tower establish that the ruin has material remains and remembered significance, while its builders and destruction remain unknown.",
+        "importance": 2
       },
       {
         "title": "Gael’s coast becomes a route toward Larkhollow",
@@ -3264,7 +3454,8 @@
           "Verdelune",
           "Gael"
         ],
-        "summary": "A company gathers on Gael’s coast for the many-hour journey through Verdelune, confirming Larkhollow as a recognized destination on a wider travel network."
+        "summary": "A company gathers on Gael’s coast for the many-hour journey through Verdelune, confirming Larkhollow as a recognized destination on a wider travel network.",
+        "importance": 4
       },
       {
         "title": "The new vanguard entrusts leadership to Severina",
@@ -3281,7 +3472,8 @@
           "new vanguard"
         ],
         "summary": "Kumai-218 asks six candidates to define leadership and choose whom they would follow. Kasiri and Camilla entrust the role to Severina for her judgment, discipline, and duty. Kumai then joins the arena contest; Kasiri wins, and he asks the company to discuss its leader and report back.",
-        "consequence": "Peer trust and martial competence are both tested; the contest does not by itself finalize the appointment."
+        "consequence": "Peer trust and martial competence are both tested; the contest does not by itself finalize the appointment.",
+        "importance": 2
       },
       {
         "title": "Severina turns the new vanguard into an organization",
@@ -3298,7 +3490,8 @@
           "mobility"
         ],
         "summary": "Severina reports that she has gathered people, selected a name, and begun seeking equipment for rapid response beyond one settlement. The April leadership exercise is becoming an institution in practice.",
-        "consequence": "The new vanguard gains the logistical shape needed to operate as a lasting faction rather than an improvised quest party."
+        "consequence": "The new vanguard gains the logistical shape needed to operate as a lasting faction rather than an improvised quest party.",
+        "importance": 4
       },
       {
         "title": "The Veilguard name enters the public record",
@@ -3315,7 +3508,8 @@
           "Great War"
         ],
         "summary": "Severina publicly uses the name Veilguard while discussing the Ahau, support for newer adventurers, and preparation for a wider Great War. The forming company now has a public identity and mission.",
-        "consequence": "The Veilguard becomes a named public faction, separate from both the earlier Vanguard and the Ale-Chemy Knights."
+        "consequence": "The Veilguard becomes a named public faction, separate from both the earlier Vanguard and the Ale-Chemy Knights.",
+        "importance": 2
       },
       {
         "title": "The Veilguard prepares to recover Thorn",
@@ -3332,7 +3526,8 @@
           "recovery"
         ],
         "summary": "After Thorn dies during a husk hunt, reports say a cult intends to use her in a ritual against one of Gael’s Shards. The Veilguard pools resources, and Severina promises to bring her home.",
-        "consequence": "The attempt to bring Thorn home becomes the first major test of whether the Veilguard’s language of mutual protection survives catastrophe."
+        "consequence": "The attempt to bring Thorn home becomes the first major test of whether the Veilguard’s language of mutual protection survives catastrophe.",
+        "importance": 3
       },
       {
         "title": "Thorn returns and names the Veilguard as home",
@@ -3349,7 +3544,8 @@
           "belonging"
         ],
         "summary": "The body is recovered on 7 September in UTC source chronology. Alyhotep begins a Wish-based resurrection, and Thorn is alive at the Tower by 8 September. By 19 September she is in Prima and names the Veilguard as home.",
-        "consequence": "Her recovery and belonging have a concrete scene sequence; the exact spell-completion moment remains unrecorded in the checked excerpt."
+        "consequence": "Her recovery and belonging have a concrete scene sequence; the exact spell-completion moment remains unrecorded in the checked excerpt.",
+        "importance": 1
       },
       {
         "title": "Magnus returns and Hope withers",
@@ -3368,7 +3564,8 @@
           "Death",
           "Tree Shards"
         ],
-        "summary": "Adelia invokes Divine Intervention for a friend’s second chance. Moirah returns Magnus from Death’s possession and rebukes her; Magnus accepts Dumuzi’s gift, wounds Hope and flees. Adelia attempts to save the tree, then struggles with rage and guilt while Jiangshi and her companions remain."
+        "summary": "Adelia invokes Divine Intervention for a friend’s second chance. Moirah returns Magnus from Death’s possession and rebukes her; Magnus accepts Dumuzi’s gift, wounds Hope and flees. Adelia attempts to save the tree, then struggles with rage and guilt while Jiangshi and her companions remain.",
+        "importance": 3
       },
       {
         "title": "Huoth welcomes the Gael adventurers",
@@ -3384,7 +3581,8 @@
           "sanctuary",
           "Huoth"
         ],
-        "summary": "The caretaker welcomes the adventurers to the protected Tower and the wider war. His angel identity is revealed in a later encounter, rather than assumed as knowledge at this first meeting."
+        "summary": "The caretaker welcomes the adventurers to the protected Tower and the wider war. His angel identity is revealed in a later encounter, rather than assumed as knowledge at this first meeting.",
+        "importance": 3
       },
       {
         "title": "Huoth completes his watch as Gael becomes safe",
@@ -3400,7 +3598,8 @@
           "service",
           "restoration"
         ],
-        "summary": "The final major force threatening the restored lands is defeated and refugees can repopulate Gael. Huoth thanks the adventurers, ends his physical watch, and dissolves into black dust, leaving his robes."
+        "summary": "The final major force threatening the restored lands is defeated and refugees can repopulate Gael. Huoth thanks the adventurers, ends his physical watch, and dissolves into black dust, leaving his robes.",
+        "importance": 3
       },
       {
         "title": "Ephraith acknowledges Nienna’s innocence",
@@ -3416,7 +3615,8 @@
           "justice",
           "Nienna"
         ],
-        "summary": "Investigation overturns the accusation that Nienna murdered Edran. Ephraith acknowledges the error and gives a thousand-gold diamond as apology."
+        "summary": "Investigation overturns the accusation that Nienna murdered Edran. Ephraith acknowledges the error and gives a thousand-gold diamond as apology.",
+        "importance": 2
       },
       {
         "title": "Yami explains membership and unseen service",
@@ -3432,7 +3632,8 @@
           "knowledge",
           "Dasa"
         ],
-        "summary": "Yami permits initiated Rahu to use specialist methods elsewhere while forbidding outsider teaching. Her fan gestures and explanation of Dasa etiquette expose the expectations surrounding invisible labor."
+        "summary": "Yami permits initiated Rahu to use specialist methods elsewhere while forbidding outsider teaching. Her fan gestures and explanation of Dasa etiquette expose the expectations surrounding invisible labor.",
+        "importance": 1
       },
       {
         "title": "Ephraith negotiates the Rahu peace accord",
@@ -3448,7 +3649,8 @@
           "peace",
           "Ahau"
         ],
-        "summary": "Genuine repentance and practical terms move the parlay toward agreement before Nuru’s intervention. Ephraith accepts cessation of conflict, Ahau nonaggression, access concessions, and a formal accord backed by explicit words."
+        "summary": "Genuine repentance and practical terms move the parlay toward agreement before Nuru’s intervention. Ephraith accepts cessation of conflict, Ahau nonaggression, access concessions, and a formal accord backed by explicit words.",
+        "importance": 3
       },
       {
         "title": "Zarathis honors the Dragonsisters",
@@ -3464,7 +3666,8 @@
           "Zarathis",
           "intelligence"
         ],
-        "summary": "Zythienne credits the sisters’ five-year infiltration with making victory possible, singles out Sheeva’s discovery of enemy atrocities, and elevates them to ladies of the lands."
+        "summary": "Zythienne credits the sisters’ five-year infiltration with making victory possible, singles out Sheeva’s discovery of enemy atrocities, and elevates them to ladies of the lands.",
+        "importance": 3
       },
       {
         "title": "The Dragonsisters describe life after the war",
@@ -3480,7 +3683,8 @@
           "scholarship",
           "service"
         ],
-        "summary": "Sheeva paints and renews her mutual attachment with Eugene; Kaiya pursues Dragonborn history and a library date with Eldin; Minyah describes preparing for another mission."
+        "summary": "Sheeva paints and renews her mutual attachment with Eugene; Kaiya pursues Dragonborn history and a library date with Eldin; Minyah describes preparing for another mission.",
+        "importance": 1
       },
       {
         "title": "Sheeva and Eugene renew their trust",
@@ -3496,7 +3700,8 @@
           "companionship",
           "trust"
         ],
-        "summary": "Their warm reunion includes paying respects and offering condolences before turning to their own evening. Later distress leads Sheeva to seek Eugene’s trusted company."
+        "summary": "Their warm reunion includes paying respects and offering condolences before turning to their own evening. Later distress leads Sheeva to seek Eugene’s trusted company.",
+        "importance": 1
       },
       {
         "title": "Hildethrax reports the Edran investigation",
@@ -3511,7 +3716,8 @@
           "Rahu",
           "evidence"
         ],
-        "summary": "Hildethrax reports the scene and the evidence behind suspicion of Nienna. The accusation is later disproved."
+        "summary": "Hildethrax reports the scene and the evidence behind suspicion of Nienna. The accusation is later disproved.",
+        "importance": 2
       },
       {
         "title": "Hildethrax guards the Rahu archives",
@@ -3527,7 +3733,8 @@
           "archives",
           "sovereignty"
         ],
-        "summary": "The second-rank captain refuses archive access, offers investigative cooperation, and defends Talon’s grievance."
+        "summary": "The second-rank captain refuses archive access, offers investigative cooperation, and defends Talon’s grievance.",
+        "importance": 2
       },
       {
         "title": "Sophina delegates food logistics to Hildethrax",
@@ -3543,7 +3750,8 @@
           "food",
           "transport"
         ],
-        "summary": "After agreeing in principle to sell food, Sophina directs Fenwick to Hildethrax to arrange transport and practical terms."
+        "summary": "After agreeing in principle to sell food, Sophina directs Fenwick to Hildethrax to arrange transport and practical terms.",
+        "importance": 3
       },
       {
         "title": "Coralyn reports the Deyara recording anomaly",
@@ -3559,7 +3767,8 @@
           "name",
           "uncertainty"
         ],
-        "summary": "Coralyn reports that the recovered name cannot be properly written in Nuru’s memory book. Its identity and the cause remain unknown."
+        "summary": "Coralyn reports that the recovered name cannot be properly written in Nuru’s memory book. Its identity and the cause remain unknown.",
+        "importance": 2
       },
       {
         "title": "Murr guides the pack toward the singing chains",
@@ -3575,7 +3784,8 @@
           "memory",
           "Chains"
         ],
-        "summary": "Already known to Coralyn and Anky, Murr warns the explorers, describes a sick island, and guides them despite fear. She reports a shorter journey than in her puphood."
+        "summary": "Already known to Coralyn and Anky, Murr warns the explorers, describes a sick island, and guides them despite fear. She reports a shorter journey than in her puphood.",
+        "importance": 2
       },
       {
         "title": "Murr reports a death and explains her Chain boundary",
@@ -3591,7 +3801,8 @@
           "pack",
           "thought"
         ],
-        "summary": "Murr reports a death the party identifies as Cirilo’s, guides them partway, and describes losing thought near the Chain. She longs to run with her pack again."
+        "summary": "Murr reports a death the party identifies as Cirilo’s, guides them partway, and describes losing thought near the Chain. She longs to run with her pack again.",
+        "importance": 2
       },
       {
         "title": "Murr recalls the upright folk and tests a memory lead",
@@ -3607,7 +3818,8 @@
           "upright folk",
           "old caves"
         ],
-        "summary": "Murr recalls long-gone inhabitants and says details were taken from her. A visit to the Veiled Watch brings no immediate recovery; old caves remain a lead."
+        "summary": "Murr recalls long-gone inhabitants and says details were taken from her. A visit to the Veiled Watch brings no immediate recovery; old caves remain a lead.",
+        "importance": 1
       },
       {
         "title": "The peace delegation enters Rahuvia",
@@ -3623,7 +3835,8 @@
           "capital",
           "sanctuary"
         ],
-        "summary": "A valley road, prayer statues, mighty walls, and cherry blossoms mark the escorted arrival. Hoshi names the capital, and sacred etiquette governs access to the Queen’s retreat."
+        "summary": "A valley road, prayer statues, mighty walls, and cherry blossoms mark the escorted arrival. Hoshi names the capital, and sacred etiquette governs access to the Queen’s retreat.",
+        "importance": 3
       },
       {
         "title": "Peace is negotiated and sworn in Rahuvia",
@@ -3639,7 +3852,8 @@
           "oath",
           "Rahu"
         ],
-        "summary": "Negotiation moves before Nuru’s appearance; his command strengthens good-faith talks. Ephraith agrees to substantial concessions and swears before her forebears."
+        "summary": "Negotiation moves before Nuru’s appearance; his command strengthens good-faith talks. Ephraith agrees to substantial concessions and swears before her forebears.",
+        "importance": 3
       },
       {
         "title": "The Rahu honor the fallen on both sides",
@@ -3655,7 +3869,8 @@
           "peace",
           "memory"
         ],
-        "summary": "Ephraith confirms a burial plot honoring those killed on both sides and provides a map; the site’s relation to the city walls remains unresolved."
+        "summary": "Ephraith confirms a burial plot honoring those killed on both sides and provides a map; the site’s relation to the city walls remains unresolved.",
+        "importance": 3
       },
       {
         "title": "Melian survives the burning of her house",
@@ -3672,7 +3887,8 @@
           "rescue",
           "Pristinia"
         ],
-        "summary": "Drugged and locked in her basement while a magically intensified fire burns above, Melian is rescued. Only the house’s stone frames remain; the perpetrator is not established by this location record."
+        "summary": "Drugged and locked in her basement while a magically intensified fire burns above, Melian is rescued. Only the house’s stone frames remain; the perpetrator is not established by this location record.",
+        "importance": 2
       },
       {
         "title": "Vessalia arrives at the Gate",
@@ -3689,7 +3905,8 @@
           "music",
           "Nébula"
         ],
-        "summary": "Nébula welcomes Vessalia, explains Prima’s war against Death, and guides her toward a place to stay. Vessalia offers her service and heads for the tavern with her lute."
+        "summary": "Nébula welcomes Vessalia, explains Prima’s war against Death, and guides her toward a place to stay. Vessalia offers her service and heads for the tavern with her lute.",
+        "importance": 1
       },
       {
         "title": "Vessalia intervenes when Bohlale falls",
@@ -3706,7 +3923,8 @@
           "healing",
           "companions"
         ],
-        "summary": "When violence breaks out between companions, Vessalia calls for it to stop and runs to Bohlale as he falls. She kneels beside him with her hands glowing."
+        "summary": "When violence breaks out between companions, Vessalia calls for it to stop and runs to Bohlale as he falls. She kneels beside him with her hands glowing.",
+        "importance": 1
       },
       {
         "title": "Vessalia supports the harpy expedition with music and magic",
@@ -3723,7 +3941,8 @@
           "bard",
           "spell support"
         ],
-        "summary": "Vessalia joins another quest and greets Bohlale and Di’trillio. During the harpy fight she brings out her lute and casts a spell: two enemies are outlined, while two escape it."
+        "summary": "Vessalia joins another quest and greets Bohlale and Di’trillio. During the harpy fight she brings out her lute and casts a spell: two enemies are outlined, while two escape it.",
+        "importance": 2
       },
       {
         "title": "Ada welcomes Vessalia in the Pristinia Press",
@@ -3740,7 +3959,8 @@
           "music",
           "community"
         ],
-        "summary": "Ada’s column presents Vessalia as a newcomer bringing art, music, laughter, and company into Pristinia, and calls on readers to welcome her."
+        "summary": "Ada’s column presents Vessalia as a newcomer bringing art, music, laughter, and company into Pristinia, and calls on readers to welcome her.",
+        "importance": 2
       },
       {
         "title": "Vessalia gains contamination in the Before’s haze",
@@ -3757,7 +3977,8 @@
           "contamination",
           "haze"
         ],
-        "summary": "Dreams draw the company deeper. Vessalia becomes contaminated and withdraws with the unwell Pell; Di’trillio continues before returning for companions."
+        "summary": "Dreams draw the company deeper. Vessalia becomes contaminated and withdraws with the unwell Pell; Di’trillio continues before returning for companions.",
+        "importance": 2
       },
       {
         "title": "Vessalia and Di’trillio discuss the arena’s aftermath",
@@ -3774,7 +3995,8 @@
           "Clearing the Air",
           "trust"
         ],
-        "summary": "Di’trillio apologizes for hurting Vessalia in the arena; she acknowledges striking first. She tells him she fears someone may die because she reacts too slowly or chooses the wrong spell."
+        "summary": "Di’trillio apologizes for hurting Vessalia in the arena; she acknowledges striking first. She tells him she fears someone may die because she reacts too slowly or chooses the wrong spell.",
+        "importance": 1
       },
       {
         "title": "Vessalia questions Minerva’s Seekers invitation",
@@ -3791,7 +4013,8 @@
           "Seekers",
           "informed choice"
         ],
-        "summary": "Minerva invites Vessalia and Di’trillio to the Seekers. Vessalia asks what the research is for and why she is wanted, saying she does not want to accept an arrangement without knowing what she is agreeing to."
+        "summary": "Minerva invites Vessalia and Di’trillio to the Seekers. Vessalia asks what the research is for and why she is wanted, saying she does not want to accept an arrangement without knowing what she is agreeing to.",
+        "importance": 1
       },
       {
         "title": "Vessalia seeks comfort after the recruitment discussion",
@@ -3808,7 +4031,8 @@
           "Selwyn’s letter",
           "support"
         ],
-        "summary": "A separate beach scene shows Vessalia shaking and crying beside the sea. At the Emporium, she accepts Aurélia’s comfort, reads Selwyn’s letter, and speaks about fearing a repetition of a life she does not wish to relive."
+        "summary": "A separate beach scene shows Vessalia shaking and crying beside the sea. At the Emporium, she accepts Aurélia’s comfort, reads Selwyn’s letter, and speaks about fearing a repetition of a life she does not wish to relive.",
+        "importance": 1
       },
       {
         "title": "Vessalia and Di’trillio discuss recruitment and a shared home",
@@ -3825,7 +4049,8 @@
           "recruitment",
           "home"
         ],
-        "summary": "They weigh the potential value and risks of the Seekers’ research and discuss Selwyn’s faction. Vessalia will not ask Di’trillio to abandon potentially useful knowledge solely for her comfort. They also talk about a home and learning to cook together."
+        "summary": "They weigh the potential value and risks of the Seekers’ research and discuss Selwyn’s faction. Vessalia will not ask Di’trillio to abandon potentially useful knowledge solely for her comfort. They also talk about a home and learning to cook together.",
+        "importance": 1
       },
       {
         "title": "Vessalia considers Gael alliances and magical study",
@@ -3843,7 +4068,8 @@
           "Scribonia",
           "study"
         ],
-        "summary": "Severina and Camilla discuss protection and possible roles with Vessalia, leaving her time to choose. She accepts armor from Severina, describes hopes for life after the war, and reports accepting Scribonia’s teaching offer while a formal interview may still be pending."
+        "summary": "Severina and Camilla discuss protection and possible roles with Vessalia, leaving her time to choose. She accepts armor from Severina, describes hopes for life after the war, and reports accepting Scribonia’s teaching offer while a formal interview may still be pending.",
+        "importance": 1
       },
       {
         "title": "Vessalia and Di’trillio share their new cottage",
@@ -3861,7 +4087,8 @@
           "Scribonia",
           "future"
         ],
-        "summary": "Di’trillio surprises Vessalia with their cottage and gives her a key. He credits Camilla with building it after arranging the costs. They explore and dance in their home; Vessalia later reaffirms her intention to study magic with Scribonia."
+        "summary": "Di’trillio surprises Vessalia with their cottage and gives her a key. He credits Camilla with building it after arranging the costs. They explore and dance in their home; Vessalia later reaffirms her intention to study magic with Scribonia.",
+        "importance": 1
       },
       {
         "title": "Scribonia’s spellbook manifests Saturnia",
@@ -3877,7 +4104,8 @@
           "Scribonia",
           "Manifest Mind"
         ],
-        "summary": "A small spectral Saturnia emerges from Scribonia’s spellbook to scout and serve as a point through which he can see and cast."
+        "summary": "A small spectral Saturnia emerges from Scribonia’s spellbook to scout and serve as a point through which he can see and cast.",
+        "importance": 1
       },
       {
         "title": "A temptation wears Saturnia’s face",
@@ -3893,7 +4121,8 @@
           "Scribonia",
           "Magical temptation"
         ],
-        "summary": "A magical vision uses Saturnia’s appearance to offer Scribonia all the secrets he seeks. The promise is not confirmed speech from the real Saturnia."
+        "summary": "A magical vision uses Saturnia’s appearance to offer Scribonia all the secrets he seeks. The promise is not confirmed speech from the real Saturnia.",
+        "importance": 1
       },
       {
         "title": "Saturnia’s manifestation dances through a library",
@@ -3909,7 +4138,8 @@
           "Scribonia",
           "Manifest Mind"
         ],
-        "summary": "The spellbook manifestation dances on phantom winds, showing the joyful presence Saturnia’s image holds for Scribonia."
+        "summary": "The spellbook manifestation dances on phantom winds, showing the joyful presence Saturnia’s image holds for Scribonia.",
+        "importance": 1
       },
       {
         "title": "Scribonia offers his knowledge to Moirah",
@@ -3925,7 +4155,8 @@
           "Scribonia",
           "Sacrifice"
         ],
-        "summary": "Scribonia apologizes to the tiny Saturnia manifestation and offers his knowledge. Blue energy accompanies its return to the spellbook; the scene does not establish Saturnia’s death."
+        "summary": "Scribonia apologizes to the tiny Saturnia manifestation and offers his knowledge. Blue energy accompanies its return to the spellbook; the scene does not establish Saturnia’s death.",
+        "importance": 1
       },
       {
         "title": "Saturnia’s manifestation helps Scribonia mirror a dance",
@@ -3941,7 +4172,8 @@
           "Scribonia",
           "Manifest Mind"
         ],
-        "summary": "Scribonia summons a to-scale Saturnia to help him mirror a dance."
+        "summary": "Scribonia summons a to-scale Saturnia to help him mirror a dance.",
+        "importance": 1
       },
       {
         "title": "Scribonia dances with a star-bright Saturnia",
@@ -3957,7 +4189,8 @@
           "Scribonia",
           "Manifest Mind"
         ],
-        "summary": "A full-height Saturnia manifestation shines like the North Star as their dance combines ballroom steps and Thri-kreen flourishes."
+        "summary": "A full-height Saturnia manifestation shines like the North Star as their dance combines ballroom steps and Thri-kreen flourishes.",
+        "importance": 1
       },
       {
         "title": "Vesperax names Saturnia’s arcane duty",
@@ -3973,7 +4206,8 @@
           "Scribonia",
           "Divine testimony"
         ],
-        "summary": "Vesperax identifies Saturnia as Keeper of the Arcane Secrets and ancient vassal of the First God, bound to guard the realm’s arcana."
+        "summary": "Vesperax identifies Saturnia as Keeper of the Arcane Secrets and ancient vassal of the First God, bound to guard the realm’s arcana.",
+        "importance": 3
       },
       {
         "title": "Scribonia investigates Saturnia through Legend Lore",
@@ -3989,7 +4223,8 @@
           "Scribonia",
           "Investigation"
         ],
-        "summary": "Scribonia casts Legend Lore while asking how Saturnia is connected to him. Familial language raises a question of divine motherhood without settling biological parenthood."
+        "summary": "Scribonia casts Legend Lore while asking how Saturnia is connected to him. Familial language raises a question of divine motherhood without settling biological parenthood.",
+        "importance": 1
       },
       {
         "title": "Legend Lore reveals Saturnia’s arrival",
@@ -4005,7 +4240,8 @@
           "Scribonia",
           "Recovered vision"
         ],
-        "summary": "A vision shows young Saturnia carrying books and maps into Fenumion, where Ser Kurayami welcomes her to the fractured continent. This dates the revelation, not the ancient arrival."
+        "summary": "A vision shows young Saturnia carrying books and maps into Fenumion, where Ser Kurayami welcomes her to the fractured continent. This dates the revelation, not the ancient arrival.",
+        "importance": 4
       },
       {
         "title": "Akarian tests Dale and Saray’s defenses",
@@ -4022,7 +4258,8 @@
           "Dale",
           "Saray"
         ],
-        "summary": "Magical control turns Dale against Saray. The pair lose the exercise; Akarian heals them and explains how the enemies exploited their weaknesses."
+        "summary": "Magical control turns Dale against Saray. The pair lose the exercise; Akarian heals them and explains how the enemies exploited their weaknesses.",
+        "importance": 1
       },
       {
         "title": "Babel’s blood painting leads to living captives",
@@ -4038,7 +4275,8 @@
           "Skylight Refuge",
           "Rescue"
         ],
-        "summary": "Fresh blood paintings and torn cloth guide the party to captives. Mya’s light frees them and protects against gas and contamination during the confrontation."
+        "summary": "Fresh blood paintings and torn cloth guide the party to captives. Mya’s light frees them and protects against gas and contamination during the confrontation.",
+        "importance": 3
       },
       {
         "title": "A Babel nomad entrusts Elenia with a golden seed",
@@ -4054,7 +4292,8 @@
           "Skylight Refuge",
           "Seed entrusted"
         ],
-        "summary": "A nomad recognizes Olokun as the painter, gives Elenia a golden seed, and asks the party to protect it. Gartina begins feeding the survivors."
+        "summary": "A nomad recognizes Olokun as the painter, gives Elenia a golden seed, and asks the party to protect it. Gartina begins feeding the survivors.",
+        "importance": 3
       },
       {
         "title": "Babel’s survivors tell their own stories",
@@ -4070,7 +4309,8 @@
           "Skylight Refuge",
           "Testimony and care"
         ],
-        "summary": "Around Gartina’s meal, the survivors describe scattered tribes, the lost elder, hiding the seeds and remembered abundance. Kvethe chooses to defend her home while supporting safety for children."
+        "summary": "Around Gartina’s meal, the survivors describe scattered tribes, the lost elder, hiding the seeds and remembered abundance. Kvethe chooses to defend her home while supporting safety for children.",
+        "importance": 2
       },
       {
         "title": "Babel’s defenders reshape the cavern-bearing mountain",
@@ -4086,7 +4326,8 @@
           "Skylight Refuge",
           "Offensive and consequences"
         ],
-        "summary": "Paired weather systems, redirected water and earthquakes produce floods, avalanches and a lava fissure. Arjahn carries Eugene clear. Smoke conceals the full aftermath; the Knight’s death is not established."
+        "summary": "Paired weather systems, redirected water and earthquakes produce floods, avalanches and a lava fissure. Arjahn carries Eugene clear. Smoke conceals the full aftermath; the Knight’s death is not established.",
+        "importance": 3
       },
       {
         "title": "Wren keeps a memorial for the fallen",
@@ -4102,7 +4343,8 @@
           "The Common Man",
           "Pristinia",
           "Community remembrance"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Pristinia clears the Common Man’s ruins",
@@ -4118,7 +4360,8 @@
           "The Common Man",
           "Pristinia",
           "Community recovery"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "The replacement tavern shows its new bones",
@@ -4134,7 +4377,8 @@
           "The Common Man",
           "Pristinia",
           "Civic rebuilding"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Neemah offers the newcomers many ways to matter",
@@ -4150,7 +4394,8 @@
           "Gate",
           "Arrival",
           "Neemah"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Vaemyr’s arrival ends in an apology to Goo",
@@ -4169,7 +4414,8 @@
           "Goo",
           "Olokun",
           "Scribonia"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Arjahn helps Animak out of the lantern",
@@ -4186,7 +4432,8 @@
           "Arrival",
           "Arjahn",
           "Animak"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Vaemyr guides Dorian away from the damaged Gate",
@@ -4203,7 +4450,8 @@
           "Arrival",
           "Vaemyr",
           "Dorian Ashwood"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Kasiri and Krasteline investigate the Gate and welcome Fenwick",
@@ -4221,7 +4469,8 @@
           "Kasiri Ruza",
           "Krasteline",
           "Fenwick"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Farkur promises a caravan and provides a guide",
@@ -4242,7 +4491,8 @@
           "Cloudy",
           "Eldin Stormheart",
           "Amity"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Pappy and Eldin welcome Pin from Midgard",
@@ -4260,7 +4510,8 @@
           "Pin",
           "Pappy",
           "Eldin Stormheart"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "New arrivals find smoke and siege beyond the Gate",
@@ -4279,7 +4530,8 @@
           "Alfred",
           "Cerwin Rayolet",
           "Mei Takahashi"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Aravil and Icarus evade the Rahu search party",
@@ -4297,7 +4549,8 @@
           "Aravil",
           "Icarus",
           "Rahu patrol"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Neemah reframes the call as work for life",
@@ -4317,7 +4570,8 @@
           "Joe-Joe",
           "Cerwin Rayolet",
           "Nex F’Rakti"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Vessalia welcomes Star and hears her own terms",
@@ -4334,7 +4588,8 @@
           "Arrival",
           "Vessalia",
           "Starojoss Destranoth"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Tarwen welcomes the company to its castle",
@@ -4351,7 +4606,8 @@
           "Caisleán na Bróin",
           "Caselean de Broin",
           "Welcome and residence"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "The castle company weighs the local factions",
@@ -4368,7 +4624,8 @@
           "Caisleán na Bróin",
           "Caselean de Broin",
           "Faith and affiliation"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Olokun scouts the astral sea and returns",
@@ -4385,7 +4642,8 @@
           "Caisleán na Bróin",
           "Caselean de Broin",
           "Exploration and return"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Elenia tends the courtyard altar to the light",
@@ -4402,7 +4660,8 @@
           "Caisleán na Bróin",
           "Caselean de Broin",
           "Recovery and companionship"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Adelia proposes a ferryman crossing",
@@ -4419,7 +4678,8 @@
           "Caisleán na Bróin",
           "Caselean de Broin",
           "Travel proposal and disagreement"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Paco leads the company to the Last Grove",
@@ -4434,7 +4694,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "The company reaches an ancient altar, older tree and abandoned lean-tos, finding a comparatively safe place to rest."
+        "summary": "The company reaches an ancient altar, older tree and abandoned lean-tos, finding a comparatively safe place to rest.",
+        "importance": 3
       },
       {
         "title": "Coralyn studies the Last Grove’s ecology",
@@ -4449,7 +4710,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "The central tree appears natural and irregular, unlike the ordered forest. Animals are scarce and concentrated toward the perimeter."
+        "summary": "The central tree appears natural and irregular, unlike the ordered forest. Animals are scarce and concentrated toward the perimeter.",
+        "importance": 2
       },
       {
         "title": "Pappy communes with Physisia at the Last Grove",
@@ -4464,7 +4726,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "Physisia calls the Grove the last place she touches and asks Pappy to find Deyara Thorne. The communion leaves him with two levels of exhaustion."
+        "summary": "Physisia calls the Grove the last place she touches and asks Pappy to find Deyara Thorne. The communion leaves him with two levels of exhaustion.",
+        "importance": 3
       },
       {
         "title": "Anky sees Voraketh through the Grove’s tree",
@@ -4479,7 +4742,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "Anky finds invisible writing and ancient Grove magic. His vision passes from ordered forest across the Chains into ruined land and destructive nothingness."
+        "summary": "Anky finds invisible writing and ancient Grove magic. His vision passes from ordered forest across the Chains into ruined land and destructive nothingness.",
+        "importance": 3
       },
       {
         "title": "Sildithas relays the raw-chaos mote theory",
@@ -4494,7 +4758,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "At the Grove, Sildithas recounts dangers beyond the Chains and Ithilrûnë’s identification of a mote as raw chaos. The separation of order and chaos remains a theory."
+        "summary": "At the Grove, Sildithas recounts dangers beyond the Chains and Ithilrûnë’s identification of a mote as raw chaos. The separation of order and chaos remains a theory.",
+        "importance": 3
       },
       {
         "title": "Pappy reads the ancient warning in the Grove",
@@ -4509,7 +4774,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "The hidden Druidic inscription describes protective communion becoming dependence and hunger, ending with the warning “Union without limit is not harmony.”"
+        "summary": "The hidden Druidic inscription describes protective communion becoming dependence and hunger, ending with the warning “Union without limit is not harmony.”",
+        "importance": 3
       },
       {
         "title": "A mote enters the Grove and a songbird is heard",
@@ -4524,7 +4790,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "An orb disappears into the tree, followed by a songbird’s call and a large gnat on fungus. A possible connection with biodiversity is suggested, not established as a cure."
+        "summary": "An orb disappears into the tree, followed by a songbird’s call and a large gnat on fungus. A possible connection with biodiversity is suggested, not established as a cure.",
+        "importance": 2
       },
       {
         "title": "The Grove excludes the company and Physisia gives her command",
@@ -4539,7 +4806,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "An infernal act provokes powerful exclusion. Sildithas enters and apologises. Physisia condemns the weakening of Talan’s defences and tells him to stop the devouring."
+        "summary": "An infernal act provokes powerful exclusion. Sildithas enters and apologises. Physisia condemns the weakening of Talan’s defences and tells him to stop the devouring.",
+        "importance": 3
       },
       {
         "title": "Coralyn chooses Alfred’s life at the Last Grove",
@@ -4554,7 +4822,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "An unidentified unclean-feeling voice offers power or Alfred’s return. Coralyn chooses her friend; Alfred appears alive as spores erupt and trees fall."
+        "summary": "An unidentified unclean-feeling voice offers power or Alfred’s return. Coralyn chooses her friend; Alfred appears alive as spores erupt and trees fall.",
+        "importance": 1
       },
       {
         "title": "Physisia reports a fiend as the Grove’s spores spread",
@@ -4569,7 +4838,8 @@
           "Last Grove",
           "Voraketh"
         ],
-        "summary": "Black mushrooms and red-veined growth spread. Physisia confirms a fiend has invaded the forest, connects it to Alfred’s return and says it will not cross the Chains."
+        "summary": "Black mushrooms and red-veined growth spread. Physisia confirms a fiend has invaded the forest, connects it to Alfred’s return and says it will not cross the Chains.",
+        "importance": 3
       },
       {
         "title": "Gartina and Saray plan to restore Gael’s soil",
@@ -4584,7 +4854,8 @@
           "Tower of Gael",
           "Gael"
         ],
-        "summary": "Within the sentinel boundary, Gartina proposes growing experiments and soil amendments. Saray suggests shells as a calcium source; their discussion turns homesickness toward a possible living future for Gael."
+        "summary": "Within the sentinel boundary, Gartina proposes growing experiments and soil amendments. Saray suggests shells as a calcium source; their discussion turns homesickness toward a possible living future for Gael.",
+        "importance": 3
       },
       {
         "title": "The Tower community seeks help after Nienna’s death",
@@ -4599,7 +4870,8 @@
           "Tower of Gael",
           "Gael"
         ],
-        "summary": "Survivors grieve and consider resurrection timing, diamonds, offerings and aid through Huoth and Nuru’s altar. Their planning does not by itself establish a successful resurrection at the Tower."
+        "summary": "Survivors grieve and consider resurrection timing, diamonds, offerings and aid through Huoth and Nuru’s altar. Their planning does not by itself establish a successful resurrection at the Tower.",
+        "importance": 2
       },
       {
         "title": "Adelia and Bitoshi reach the Tower courts",
@@ -4614,7 +4886,8 @@
           "Tower of Gael",
           "Gael"
         ],
-        "summary": "Returning through dangerous land, Adelia and Bitoshi hurry into the safety of the Tower courts, showing the practical importance of its protected grounds."
+        "summary": "Returning through dangerous land, Adelia and Bitoshi hurry into the safety of the Tower courts, showing the practical importance of its protected grounds.",
+        "importance": 2
       },
       {
         "title": "Scribonia investigates warping lattice and Life energy",
@@ -4629,7 +4902,8 @@
           "Tower of Gael",
           "Gael"
         ],
-        "summary": "Crystal and contamination research compares Death-associated magic with Hope and Life-based power. The relationship remains an evolving hypothesis, rather than proof that the forces are identical."
+        "summary": "Crystal and contamination research compares Death-associated magic with Hope and Life-based power. The relationship remains an evolving hypothesis, rather than proof that the forces are identical.",
+        "importance": 3
       },
       {
         "title": "Scribonia plans a forward base nearer Wrath",
@@ -4644,7 +4918,8 @@
           "Tower of Gael",
           "Gael"
         ],
-        "summary": "At the home base, Scribonia discusses another tower near Wrath’s stronghold and its repairable teleportation circle. The proposed forward position is distinct from the Tower of Gael."
+        "summary": "At the home base, Scribonia discusses another tower near Wrath’s stronghold and its repairable teleportation circle. The proposed forward position is distinct from the Tower of Gael.",
+        "importance": 3
       },
       {
         "title": "Limestone becomes a restoration supply problem",
@@ -4659,7 +4934,8 @@
           "Tower of Gael",
           "Gael"
         ],
-        "summary": "The community considers obtaining and moving substantial limestone and calcium from Prima for land restoration. Plans to acquire materials do not establish a completed cure."
+        "summary": "The community considers obtaining and moving substantial limestone and calcium from Prima for land restoration. Plans to acquire materials do not establish a completed cure.",
+        "importance": 4
       },
       {
         "title": "Lucido reports three refugee homes completed",
@@ -4674,7 +4950,8 @@
           "Tower of Gael",
           "Gael"
         ],
-        "summary": "Lucido reports three homes built for refugees and stresses that they are nowhere near enough. Housing and civic mediation continue as the Tower community looks beyond emergency shelter."
+        "summary": "Lucido reports three homes built for refugees and stresses that they are nowhere near enough. Housing and civic mediation continue as the Tower community looks beyond emergency shelter.",
+        "importance": 2
       },
       {
         "title": "Dale and Gartina consult the Tower’s refugees",
@@ -4690,7 +4967,8 @@
           "Gael",
           "Refugees"
         ],
-        "summary": "Soup and conversation lead to plans for wreck salvage, a longhouse and safer building materials. Dale and Gartina intend to ask the displaced community what it wants rather than impose a settlement plan."
+        "summary": "Soup and conversation lead to plans for wreck salvage, a longhouse and safer building materials. Dale and Gartina intend to ask the displaced community what it wants rather than impose a settlement plan.",
+        "importance": 2
       },
       {
         "title": "Survivors of a destroyed refugee camp return to refuge",
@@ -4706,7 +4984,8 @@
           "Gael",
           "Refugees"
         ],
-        "summary": "After a refugee camp is devastated, survivors are recovered and Erebus checks on those sheltered at the Tower. Their rescue renews its role as a civilian refuge; a completed replacement settlement is not established."
+        "summary": "After a refugee camp is devastated, survivors are recovered and Erebus checks on those sheltered at the Tower. Their rescue renews its role as a civilian refuge; a completed replacement settlement is not established.",
+        "importance": 2
       },
       {
         "title": "Skylight Refuge’s natural shelter is described",
@@ -4721,7 +5000,8 @@
         "tags": [
           "Skylight Refuge",
           "Babel-Ashur"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Aravil sets out the Refuge’s survival needs",
@@ -4736,7 +5016,8 @@
         "tags": [
           "Skylight Refuge",
           "Babel-Ashur"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Wren’s stone form becomes a crisis inside the Refuge",
@@ -4751,7 +5032,8 @@
         "tags": [
           "Skylight Refuge",
           "Babel-Ashur"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Olokun briefs Scribonia at Skylight Refuge",
@@ -4766,7 +5048,8 @@
         "tags": [
           "Skylight Refuge",
           "Babel-Ashur"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Scribonia advises fortifying before planting the seed",
@@ -4781,7 +5064,8 @@
         "tags": [
           "Skylight Refuge",
           "Babel-Ashur"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Arjahn and Aerrow debate hiding and holding ground",
@@ -4796,7 +5080,8 @@
         "tags": [
           "Skylight Refuge",
           "Babel-Ashur"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Native refugees crowd the wooded shelter",
@@ -4811,7 +5096,8 @@
         "tags": [
           "Skylight Refuge",
           "Babel-Ashur"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "A defensive door and dangerous assault plans are proposed",
@@ -4826,7 +5112,8 @@
         "tags": [
           "Skylight Refuge",
           "Babel-Ashur"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Huoth introduces the Crucible of Gael",
@@ -4842,7 +5129,8 @@
           "Crucible",
           "Teamwork"
         ],
-        "summary": "Huoth credits Cala’s idea and Nuru’s magic for a training arena at the Tower’s pinnacle. Adventurers preparing for Wrath must learn strength, flexibility, wisdom and above all cooperation."
+        "summary": "Huoth credits Cala’s idea and Nuru’s magic for a training arena at the Tower’s pinnacle. Adventurers preparing for Wrath must learn strength, flexibility, wisdom and above all cooperation.",
+        "importance": 3
       },
       {
         "title": "Gartina plants Stake and brings forth a forest",
@@ -4859,7 +5147,8 @@
           "Shadow Angel Forest",
           "Restoration"
         ],
-        "summary": "A shared effort spreads limestone and shells, mixes soil and brings rain. Gartina plants her magical staff, names its tree Stake, and uses a seed to create a forest. The group celebrates while questioning whether the forest will endure."
+        "summary": "A shared effort spreads limestone and shells, mixes soil and brings rain. Gartina plants her magical staff, names its tree Stake, and uses a seed to create a forest. The group celebrates while questioning whether the forest will endure.",
+        "importance": 3
       },
       {
         "title": "Bowene mourns Aria and demands that Talan pay",
@@ -4874,7 +5163,8 @@
         "tags": [
           "Bowene",
           "Public mourning"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Bowene hears political participants after Aria’s death",
@@ -4889,7 +5179,8 @@
         "tags": [
           "Bowene",
           "Political succession"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Bowene invokes the Crucible of Valor",
@@ -4904,7 +5195,8 @@
         "tags": [
           "Bowene",
           "Law and honour"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Fein Uaill is described as peaceful under Bowene",
@@ -4919,7 +5211,8 @@
         "tags": [
           "Bowene",
           "Peace and reconciliation"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Jiangshi speaks of being blessed by shadows",
@@ -4934,7 +5227,8 @@
         "tags": [
           "Jiangshi",
           "Ancestral magic"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Jiangshi kills a dragon with a frozen strike",
@@ -4949,7 +5243,8 @@
         "tags": [
           "Jiangshi",
           "Combat and commitment"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Jiangshi describes ancestors and visitors in the Shadowlands",
@@ -4964,7 +5259,8 @@
         "tags": [
           "Jiangshi",
           "Death and return"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Jiangshi calls political factions fickle",
@@ -4979,7 +5275,8 @@
         "tags": [
           "Jiangshi",
           "Trust and institutions"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Jiangshi affirms Hope, love and faith in her companions",
@@ -4994,7 +5291,8 @@
         "tags": [
           "Jiangshi",
           "Hope and chosen care"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Ada chronicles Adelia as the Shadow Sentinel",
@@ -5009,7 +5307,8 @@
         "tags": [
           "Adelia",
           "Public memory"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Adelia and Elenia help establish living ground in Gael",
@@ -5024,7 +5323,8 @@
         "tags": [
           "Adelia",
           "Living restoration"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Adelia challenges the misuse of divine power",
@@ -5039,7 +5339,8 @@
         "tags": [
           "Adelia",
           "Political judgment"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Ada remembers Fenwick’s Vital Chain and Eovar renewal",
@@ -5055,7 +5356,8 @@
           "Civic infrastructure",
           "Civic recognition"
         ],
-        "consequence": "The recognition places healing and community organization within Eovar’s renewal. Fenwick’s contribution becomes a network others can use, while the founding date and complete institutional structure remain unresolved."
+        "consequence": "The recognition places healing and community organization within Eovar’s renewal. Fenwick’s contribution becomes a network others can use, while the founding date and complete institutional structure remain unresolved.",
+        "importance": 3
       },
       {
         "title": "Tobias guides a party through difficult woodland",
@@ -5071,7 +5373,8 @@
           "Civic infrastructure",
           "Practical guidance"
         ],
-        "consequence": "His field competence supports the hospitality he shows arrivals: care includes helping companions navigate and rest. The scene’s exact day and location remain unresolved."
+        "consequence": "His field competence supports the hospitality he shows arrivals: care includes helping companions navigate and rest. The scene’s exact day and location remain unresolved.",
+        "importance": 2
       },
       {
         "title": "Fenwick’s tower provides public material bounties",
@@ -5087,7 +5390,8 @@
           "Civic infrastructure",
           "Public work"
         ],
-        "consequence": "A private residence becomes a repeatable public route to employment. Tobias makes the board accessible to newcomers, while the tower’s precise map position and the notice board’s opening date remain unknown."
+        "consequence": "A private residence becomes a repeatable public route to employment. Tobias makes the board accessible to newcomers, while the tower’s precise map position and the notice board’s opening date remain unknown.",
+        "importance": 2
       },
       {
         "title": "The tower expedition ends in rescue and retreat",
@@ -5105,7 +5409,8 @@
           "Oya",
           "Pelagia",
           "Larkhollow"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "The harpy cave is collapsed after a final prayer",
@@ -5122,7 +5427,8 @@
           "Delerium",
           "Pell",
           "Saoirse"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Kazhinju allows the ingredients for Bogdan’s remedy",
@@ -5139,7 +5445,8 @@
           "Kazhinju",
           "Bogdan",
           "remedy"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Ryvyt and Pelagia ask questions at the Petal Market",
@@ -5156,7 +5463,8 @@
           "Petal Market",
           "Hana",
           "Verdelune"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Viota’s monument answers with remembrance",
@@ -5173,7 +5481,8 @@
           "First Passage",
           "Larkhollow",
           "remembrance"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Kimi and Kuri ask adventurers to find Vey and Vaa",
@@ -5193,7 +5502,8 @@
           "Kuri",
           "Vey",
           "Vaa"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Rolen prepares the Archery Range for its opening",
@@ -5209,7 +5519,8 @@
           "Training",
           "Craft",
           "Pristinia"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Pristinia deliberates war in the Public Square",
@@ -5224,7 +5535,8 @@
         "tags": [
           "War",
           "Civic life"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Severina dies during an Alpine Forest wolf encounter",
@@ -5239,7 +5551,8 @@
         "tags": [
           "Wilderness",
           "Severina"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Camilla publicly dissolves the Hellknight Order",
@@ -5255,7 +5568,8 @@
           "Hellknights",
           "Camilla",
           "Public accountability"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "The Tower community seeks Nienna’s return",
@@ -5271,7 +5585,8 @@
           "Nienna",
           "Recovery"
         ],
-        "summary": "After Saray brings Nienna’s body home from the Plains of Trial, the community seeks the materials for her return. Saray obtains a diamond through an altar offering; Elenia’s Raise Dead restores Nienna on 15 July. The September sacrifice is separate."
+        "summary": "After Saray brings Nienna’s body home from the Plains of Trial, the community seeks the materials for her return. Saray obtains a diamond through an altar offering; Elenia’s Raise Dead restores Nienna on 15 July. The September sacrifice is separate.",
+        "importance": 2
       },
       {
         "title": "Sanctuary work and proposals for a Place of Recall",
@@ -5287,7 +5602,8 @@
           "Hope",
           "Place of Recall"
         ],
-        "summary": "Jiangshi resets a small recall sanctuary and Bitoshi helps with the area. The company proposes prayer, meditation and buildings near the Tree; a completed temple and exact site plan are not established."
+        "summary": "Jiangshi resets a small recall sanctuary and Bitoshi helps with the area. The company proposes prayer, meditation and buildings near the Tree; a completed temple and exact site plan are not established.",
+        "importance": 2
       },
       {
         "title": "Elenia restores Nienna at the Tower",
@@ -5305,7 +5621,8 @@
           "Raise Dead",
           "altar offering"
         ],
-        "summary": "Saray obtains a diamond through an offering at Nuru’s altar. Elenia casts Raise Dead and Nienna wakes in alarm; this first return precedes the September sacrifice."
+        "summary": "Saray obtains a diamond through an offering at Nuru’s altar. Elenia casts Raise Dead and Nienna wakes in alarm; this first return precedes the September sacrifice.",
+        "importance": 1
       },
       {
         "title": "The chain-guard construct kills Anky and Alfred",
@@ -5322,7 +5639,8 @@
           "Anky",
           "Alfred"
         ],
-        "summary": "After retreating from an earlier creature, Anky and Alfred encounter a different construct at the Chains. Anky urges Alfred to flee; Alfred refuses to leave him. Explicit narration records both being killed and their bodies thrown across the Chains."
+        "summary": "After retreating from an earlier creature, Anky and Alfred encounter a different construct at the Chains. Anky urges Alfred to flee; Alfred refuses to leave him. Explicit narration records both being killed and their bodies thrown across the Chains.",
+        "importance": 2
       },
       {
         "title": "Cerwin falls after witnessing his companions’ deaths",
@@ -5338,7 +5656,8 @@
           "Chains",
           "expedition"
         ],
-        "summary": "After witnessing Anky and Alfred being killed and discarded, Cerwin attempts his own escape. The later narration records the third expedition member falling."
+        "summary": "After witnessing Anky and Alfred being killed and discarded, Cerwin attempts his own escape. The later narration records the third expedition member falling.",
+        "importance": 1
       },
       {
         "title": "Thorn is alive and recovering at the Tower",
@@ -5354,7 +5673,8 @@
           "Gael",
           "recovery"
         ],
-        "summary": "Following retrieval of her body and Alyhotep’s attempted Wish-based resurrection, Thorn moves about the Tower and asks for tea. Alyhotep asks whether she needs additional healing."
+        "summary": "Following retrieval of her body and Alyhotep’s attempted Wish-based resurrection, Thorn moves about the Tower and asks for tea. Alyhotep asks whether she needs additional healing.",
+        "importance": 1
       },
       {
         "title": "Nienna falls on the Plains of Trial",
@@ -5371,7 +5691,8 @@
           "wraiths",
           "first death"
         ],
-        "summary": "Nienna stands before Saray against soul eaters and wraiths. She dies during the fight; Saray defeats the remaining enemies and brings her body to the Tower."
+        "summary": "Nienna stands before Saray against soul eaters and wraiths. She dies during the fight; Saray defeats the remaining enemies and brings her body to the Tower.",
+        "importance": 1
       },
       {
         "title": "A dreamlike rift remains unsealed",
@@ -5387,7 +5708,8 @@
           "Rift",
           "Failure"
         ],
-        "summary": "An expedition encounters a fallen titan’s weapon, acolytes and a living dream. Overwhelmed, the party retreats without fully sealing the breach; the account warns of later ripples and nightmares."
+        "summary": "An expedition encounters a fallen titan’s weapon, acolytes and a living dream. Overwhelmed, the party retreats without fully sealing the breach; the account warns of later ripples and nightmares.",
+        "importance": 4
       },
       {
         "title": "A clockwork rift opens into hostile machinery",
@@ -5403,7 +5725,8 @@
           "Rift",
           "Clockwork"
         ],
-        "summary": "Travelers enter clockwork passages with hostile machinery. Cecil’s post includes the action-to-leave instruction; later, Carmen carries an unconscious companion out as others retreat."
+        "summary": "Travelers enter clockwork passages with hostile machinery. Cecil’s post includes the action-to-leave instruction; later, Carmen carries an unconscious companion out as others retreat.",
+        "importance": 4
       },
       {
         "title": "An ooze rift closes with a larger threat beyond",
@@ -5419,7 +5742,8 @@
           "Rift",
           "Ooze"
         ],
-        "summary": "After the immediate ooze threats are defeated, pools recede and a much larger ooze remains visible beyond the closing breach. Planar force pulls travelers toward the lands from which they came."
+        "summary": "After the immediate ooze threats are defeated, pools recede and a much larger ooze remains visible beyond the closing breach. Planar force pulls travelers toward the lands from which they came.",
+        "importance": 4
       },
       {
         "title": "Ritual evidence reveals a sustained breach",
@@ -5435,7 +5759,8 @@
           "Rift",
           "Ritual"
         ],
-        "summary": "Investigators find sigils and notes describing a weak boundary, confirmed alignment and the ability to sustain a breach. The account supplies evidence of deliberate intervention in this opening. As the space collapses, tears offer ways out."
+        "summary": "Investigators find sigils and notes describing a weak boundary, confirmed alignment and the ability to sustain a breach. The account supplies evidence of deliberate intervention in this opening. As the space collapses, tears offer ways out.",
+        "importance": 4
       },
       {
         "title": "A vast rift leads into a dark expanse",
@@ -5451,7 +5776,8 @@
           "Rift",
           "Dark expanse"
         ],
-        "summary": "A vast tear visible across great distances opens toward black stone, pale mist and a sky without familiar celestial lights. Later instability pressures the expedition to leave."
+        "summary": "A vast tear visible across great distances opens toward black stone, pale mist and a sky without familiar celestial lights. Later instability pressures the expedition to leave.",
+        "importance": 4
       },
       {
         "title": "An abyssal rift becomes a crisis of allegiance",
@@ -5467,7 +5793,8 @@
           "Rift",
           "Allegiance"
         ],
-        "summary": "An abyssal encounter becomes a contested summoning: creatures gnaw at the boundary while a robed figure coaxes a godlike form through. Pappy is attacked, offered an exit, and later pulled out. The remaining creatures complete the crossing immediately afterward."
+        "summary": "An abyssal encounter becomes a contested summoning: creatures gnaw at the boundary while a robed figure coaxes a godlike form through. Pappy is attacked, offered an exit, and later pulled out. The remaining creatures complete the crossing immediately afterward.",
+        "importance": 4
       },
       {
         "title": "A volcanic rift collapses after its crystal is destroyed",
@@ -5483,7 +5810,8 @@
           "Rift",
           "Crystal"
         ],
-        "summary": "Adventurers confront heat, ash, lava and a central crystal. Its destruction is followed by the dimension tearing and the rift closing. Farkur returns to Pristinia; Djöhandrai returns to the trail between Gartina’s estate and the town."
+        "summary": "Adventurers confront heat, ash, lava and a central crystal. Its destruction is followed by the dimension tearing and the rift closing. Farkur returns to Pristinia; Djöhandrai returns to the trail between Gartina’s estate and the town.",
+        "importance": 4
       },
       {
         "title": "A coastal rift opens onto a battle from the sea",
@@ -5499,7 +5827,8 @@
           "Rift",
           "Coastal battle"
         ],
-        "summary": "Adventurers reach a shore attacked from the sea. After the fighting, Fenwick banishes the three remaining goblins and the beach falls silent; growing instability then whisks everyone back to their respective islands."
+        "summary": "Adventurers reach a shore attacked from the sea. After the fighting, Fenwick banishes the three remaining goblins and the beach falls silent; growing instability then whisks everyone back to their respective islands.",
+        "importance": 4
       },
       {
         "title": "Cthulhu comes through a rift into Fenumion",
@@ -5518,7 +5847,8 @@
           "Eldritch god",
           "Arrival"
         ],
-        "summary": "Cthulhu, the eldritch god, comes through the abyssal rift after creatures finish tearing at the boundary. Pappy has just been pulled out. As the space contracts, Cthulhu devours the creatures that freed him and departs to serve a master."
+        "summary": "Cthulhu, the eldritch god, comes through the abyssal rift after creatures finish tearing at the boundary. Pappy has just been pulled out. As the space contracts, Cthulhu devours the creatures that freed him and departs to serve a master.",
+        "importance": 5
       },
       {
         "title": "Elenia restores Dale at the Tower",
@@ -5535,7 +5865,8 @@
           "restoration",
           "diamond"
         ],
-        "summary": "After Elenia’s diamond-assisted prayer, Dale wakes beside Saray and learns that Nienna has died. He subsequently contributes to the effort to restore her."
+        "summary": "After Elenia’s diamond-assisted prayer, Dale wakes beside Saray and learns that Nienna has died. He subsequently contributes to the effort to restore her.",
+        "importance": 1
       },
       {
         "title": "Dale returns during the battle in Gael",
@@ -5551,7 +5882,8 @@
           "restoration",
           "Wrath"
         ],
-        "summary": "After companions mourn Dale’s fall, Elenia reaches him with light and he returns to life within the same battle. He responds to Saray and asks why he survived while other companions remain fallen."
+        "summary": "After companions mourn Dale’s fall, Elenia reaches him with light and he returns to life within the same battle. He responds to Saray and asks why he survived while other companions remain fallen.",
+        "importance": 1
       },
       {
         "title": "Casimir and Alioth choose each other in the Rahu trial",
@@ -5567,7 +5899,8 @@
           "loyalty",
           "trial"
         ],
-        "summary": "Ephraith declares the pair unsuccessful because they chose each other over the Rahu. Casimir accepts the consequences; Alioth argues that their loyalty is strength. Her challenge does not overturn the refusal."
+        "summary": "Ephraith declares the pair unsuccessful because they chose each other over the Rahu. Casimir accepts the consequences; Alioth argues that their loyalty is strength. Her challenge does not overturn the refusal.",
+        "importance": 1
       },
       {
         "title": "The Babel company survives a blind salamander ambush",
@@ -5584,7 +5917,8 @@
           "October expedition",
           "Skylight Refuge"
         ],
-        "summary": "A giant blind salamander paralyzes companions and badly wounds Olokun. Ryvyt heals him and removes paralysis; Olokun lands the final blow. The next approaching creature is a passing boar."
+        "summary": "A giant blind salamander paralyzes companions and badly wounds Olokun. Ryvyt heals him and removes paralysis; Olokun lands the final blow. The next approaching creature is a passing boar.",
+        "importance": 2
       },
       {
         "title": "The western mist turns companions into apparent monsters",
@@ -5601,7 +5935,8 @@
           "October expedition",
           "Skylight Refuge"
         ],
-        "summary": "Personal visions break the company’s tethers and frustrate rescue attempts. Ryvyt dispels Nymera’s effect before Scribonia’s Wish clears the wider mist. Abyss withdraws; Scribonia later collapses. Permanent removal is not established."
+        "summary": "Personal visions break the company’s tethers and frustrate rescue attempts. Ryvyt dispels Nymera’s effect before Scribonia’s Wish clears the wider mist. Abyss withdraws; Scribonia later collapses. Permanent removal is not established.",
+        "importance": 3
       },
       {
         "title": "Death makes an offer after the mist clearing",
@@ -5618,7 +5953,8 @@
           "October expedition",
           "Skylight Refuge"
         ],
-        "summary": "Dumuzi offers allegiance and makes claims involving Oya and Aria. Companions refuse, receive a vision and continue to reject his proposal. The vision’s contents are not reconstructed from the unreviewed video attachment."
+        "summary": "Dumuzi offers allegiance and makes claims involving Oya and Aria. Companions refuse, receive a vision and continue to reject his proposal. The vision’s contents are not reconstructed from the unreviewed video attachment.",
+        "importance": 3
       },
       {
         "title": "Hope is freed from a consuming shadow",
@@ -5635,7 +5971,8 @@
           "Restoration",
           "Adelia",
           "August intervention"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Skylight Refuge holds through a divided defense",
@@ -5653,7 +5990,8 @@
           "Nymera",
           "Revivify",
           "Wish"
-        ]
+        ],
+        "importance": 3
       },
       {
         "title": "Babel’s first hunts turn field skills into supplies",
@@ -5671,7 +6009,8 @@
           "Aerrow",
           "Aravil",
           "Supplies"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "Aerrow’s temporary Revivify precedes a second death",
@@ -5688,7 +6027,8 @@
           "Mark of the Wild",
           "Aerrow",
           "Revivify"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "Elenia restores Aerrow at Skylight Refuge",
@@ -5705,7 +6045,8 @@
           "Mark of the Wild",
           "Aerrow",
           "Elenia"
-        ]
+        ],
+        "importance": 1
       },
       {
         "title": "A gathering party faces the green dragon",
@@ -5723,7 +6064,8 @@
           "Gartina",
           "Saray",
           "Dragon"
-        ]
+        ],
+        "importance": 2
       },
       {
         "title": "A Babel hunt ends with healing and a coastal pause",
@@ -5741,7 +6083,8 @@
           "Nymera",
           "Olokun",
           "Scribonia"
-        ]
+        ],
+        "importance": 2
       }
     ],
     "characters": [

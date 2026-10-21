@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-20
 
+## Timeline importance · 20 October 2026
+
+Owner requests Relational, Local, Regional, Interregional and World Changing levels. All 343 public events now carry an explicit `importance` integer; full private events receive the same field in the vault only. Existing historical fields, protected stubs, bodies and media are preserved. Ratings describe documented consequence scope, independently of evidence certainty; quest authority remains controlling. See TIMELINE_IMPORTANCE.md.
+
+Narrative History and the home Timeline tab support all levels, selected level and above, or only that level, with date/importance ordering in both directions. Main timeline filters combine person, era and text; URLs preserve selections and dialogs follow filtered results. Year grouping fixes overlapping-era date order. Native controls support keyboard use and mobile sizes. New public/private validation rejects unrated complete events; the browser regression uses synthetic private events. App/catalog249, styles172. Local timeline, reader, research-journey and Rifts checks pass; desktop and 390/320-pixel layouts, keyboard focus, shared URLs, filtered dialogs and synthetic vault boundaries are verified. Screenshots inspected. All original historical fields and non-importance vault payload values compare equal. Canonical content, encrypted assets, build, syntax and whitespace checks pass. Publication receipt follows deployment.
+
 ## Mark of the Wild hunting history · 20 October 2026
 
 The owner supplies two parts of Babel’s hunting channel and explicitly identifies Aerrow as a player character. Added Mark of the Wild · Hunting in Babel, linked through the island, Refuge, connected survival path and navigation. Expanded Aerrow and eight companions; moved his existing NPC entry and media into the player-character directory. His two February hunt deaths, Arjahn’s intervening Revivify and Elenia’s separate later raising remain distinct. Elenia’s spell is not named. Other quest achievements and protected lore are preserved.

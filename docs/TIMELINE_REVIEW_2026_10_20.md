@@ -28,7 +28,7 @@ All complete public events and full private timeline events receive a short `imp
 | Limestone supplies | 4 → 2 | The proposed delivery is not a completed crossing or cure |
 | Crucible opening | 3 → 2 | The arena serves the Tower community; later victories remain separate |
 
-Wrath’s defeat, Hope’s preservation, the Rahu war and Babel’s survival keep their established regional consequences. The completed divine crossing remains World Changing. Neither a participant’s fame nor a scene’s posting volume raises or lowers scope.
+At this 20 October checkpoint, Wrath’s defeat, Hope’s preservation, the Rahu war and Babel’s survival retained regional ratings. The owner’s 21 October clarification supersedes the rating of Wrath’s defeat: it is World Changing; see TIMELINE_IMPORTANCE.md. The completed divine crossing remains World Changing. Neither a participant’s fame nor a scene’s posting volume raises or lowers scope.
 
 The broad mountain account and the later source-checked Babel assault describe one event. They are consolidated into the checked 29 August entry, retaining the older title as a search/internal lookup alias. The narrator confirms a reshaped mountain while withholding the full aftermath: [outcome](https://discord.com/channels/1177270231513694249/1294457593296719873/1543115684656185344). No second catastrophe or confirmed enemy death is invented. The additional Melian release report leaves **343 public events**: 74 Relational, 159 Local, 80 Regional, 28 Interregional and two World Changing.
 

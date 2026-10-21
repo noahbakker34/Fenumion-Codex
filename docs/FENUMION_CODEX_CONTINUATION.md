@@ -1,6 +1,10 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-20
+Last updated: 2026-10-21
+
+## World-changing Final War turning points · 21 October 2026
+
+Owner explicitly identifies Aria dying to Talan, Wrath dying and Death appearing to the PCs as World Changing. Five existing public entries are raised to level 5, including both Wrath victory/aftermath entries and Death’s direct confrontations over Magnus and in Babel. The guide now includes major Final War turning points in level 5. Claims remain attributed; all history, calendar metadata, protected boundaries and the full private payload are preserved. Current counts: 73/159/77/27/7 across levels 1–5; 343 public events total. App/catalog252, reader3, styles173. See TIMELINE_IMPORTANCE.md. Publication receipt follows validation.
 
 ## Final War posting calendar · 21 October 2026
 

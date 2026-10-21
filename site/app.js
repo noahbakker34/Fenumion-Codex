@@ -1554,7 +1554,7 @@ const timelineImportanceLevels = [
   { level: 2, label: 'Local', description: 'A settlement, institution or immediate community.' },
   { level: 3, label: 'Regional', description: 'An island, region or major regional power.' },
   { level: 4, label: 'Interregional', description: 'Connections or consequences across regions and realms.' },
-  { level: 5, label: 'World Changing', description: 'The world’s structure, continuity or balance.' }
+  { level: 5, label: 'World Changing', description: 'Major turning points in the Final War or the world’s structure, continuity or balance.' }
 ];
 const timelineOrders = { oldest: 'Oldest first', newest: 'Newest first', highest: 'Highest importance first', lowest: 'Lowest importance first' };
 let timelineBrowseContext = null;

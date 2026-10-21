@@ -1,4 +1,4 @@
-# Timeline importance · 20 October 2026
+# Timeline importance
 
 The owner requests five ordered importance levels and reader control over what is displayed. Each complete event now has an explicit integer `importance` in its canonical timeline record. The scale describes the documented reach of the event’s consequences; it is separate from evidence certainty, personal value and character prominence.
 
@@ -8,7 +8,15 @@ The owner requests five ordered importance levels and reader control over what i
 | 2 | Local | A settlement, institution or immediate community |
 | 3 | Regional | An island, region or major regional power |
 | 4 | Interregional | Connections or consequences across regions and realms |
-| 5 | World Changing | The world’s structure, continuity or balance |
+| 5 | World Changing | Major Final War turning points or the world’s structure, continuity or balance |
+
+## Owner clarification · 21 October 2026
+
+World Changing includes major turning points in the Final War even when the immediate scene is local or personal. The owner specifically names Aria dying to Talan, Wrath dying and Death appearing to the PCs. Five existing entries now receive level 5: Talan kills Aria; the assault ending with Saray’s blow; the entry recording Wrath’s defeat and unfinished Gael aftermath; Death’s confrontation over Magnus after Aria’s fall; and Death’s Babel offer after the mist clearing. Reasons preserve all attribution and uncertainty, including his ownership/allegiance claims and the unreviewed vision. The Wrath aftermath entry carries the same classification as the victory it records; ordinary recovery events retain their own scope.
+
+Current public counts: **73 Relational, 159 Local, 77 Regional, 27 Interregional, seven World Changing** (343 total). Every other parsed world value, calendar date, source qualification, protected stub and the complete private payload is unchanged. App/catalog252, reader3, styles173. This owner decision supersedes the narrower scope examples below and the 20 October review’s regional classification of Wrath’s defeat.
+
+Validation: the expanded timeline regression confirms all five owner-designated entries remain visible at World Changing, exact/minimum counts match, both timeline surfaces agree, and calendar/search/mobile/vault boundaries still pass. A parsed before/after comparison confirms changes are confined to those five ratings and reasons; the complete private payload is byte-identical. Canonical/build/syntax/whitespace checks pass. Publication receipt follows deployment.
 
 ## Review, regions and calendar · 20 October 2026
 
@@ -16,9 +24,9 @@ The subsequent owner-authorized review adds a reason to every complete event, re
 
 ## Assignment discipline
 
-All 343 public events have explicit reviewed values: 73 Relational, 148 Local, 89 Regional, 32 Interregional and one World Changing. A personal death or return can be Relational without being trivial; a settlement’s survival can be Local without being unimportant. Ratings can be revised as documented consequences become established.
+All 343 public events have explicit reviewed values; current counts appear in the owner clarification above. A personal death or return can be Relational without being trivial; a settlement’s survival can be Local without being unimportant. Ratings can be revised as documented consequences become established.
 
-Quest outcomes and narrator rulings take precedence over incompatible ambient claims. Message volume, a participant’s fame, cosmic terminology, the title of a scene, a proposed plan or an unproven theory do not establish wider consequences. An attributed account stays attributed. For example, Wrath’s defeat and Gael’s ecological recovery are Regional; the documented rift crossings are Interregional; Cthulhu’s established entry into Fenumion is World Changing. Gartina’s Miracle remains a personal restoration rather than receiving a global rating from its title.
+Quest outcomes and narrator rulings take precedence over incompatible ambient claims. Message volume, a participant’s fame, cosmic terminology, the title of a scene, a proposed plan or an unproven theory do not establish wider consequences. An attributed account stays attributed. Aria’s death, Wrath’s defeat and Death’s direct confrontations with the PCs are World Changing by owner decision. Gael’s ecological recovery remains Regional; documented rift crossings remain Interregional; Cthulhu’s established entry into Fenumion is World Changing. Gartina’s Miracle remains a personal restoration rather than receiving a global rating from its title.
 
 The classification adds no historical claims: every existing title, date, sort key, summary, consequence, participant, location and source qualification is preserved. The public index’s veiled stubs have no importance metadata. Full private events receive the same integer field only in the authenticated vault payload. No raw source files or private event titles are introduced into public Git by this change.
 

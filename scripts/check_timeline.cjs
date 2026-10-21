@@ -23,7 +23,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     const events = await page.evaluate(() => archiveIndex.timeline.filter(e => !e.veiled));
     const byTitle = new Map(events.map(e => [e.title, e]));
     // Exact categories and minimum thresholds are different reader choices.
-    const counts = [0, 74, 159, 80, 28, 2];
+    const counts = [0, 73, 159, 77, 27, 7];
     for (let level = 1; level <= 5; level++) {
       await importance().selectOption(String(level)); await match().selectOption('exact');
       assert.equal(await page.locator('.event-card').count(), counts[level], 'exact level ' + level);
@@ -31,6 +31,10 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
       await match().selectOption('minimum');
       assert.equal(await page.locator('.event-card').count(), counts.slice(level).reduce((a, b) => a + b, 0));
       assert((await ranks()).every(rank => rank >= level));
+    }
+    for (const title of ['Talan kills Aria','The assault on Wrath ends with Saray’s blow','Wrath is defeated, but Gael remains dangerous','Death invokes ownership of Magnus','Death makes an offer after the mist clearing']) {
+      assert((await titles()).includes(title), 'owner-designated turning point survives the World Changing filter: '+title);
+      assert.equal(byTitle.get(title).importance,5);
     }
     await page.locator('#timeline-explorer input').fill('Cthulhu');
     assert.equal((await titles())[0], 'Cthulhu comes through a rift into Fenumion');
@@ -99,7 +103,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     assert.equal(await page.locator('.timeline-view .index-card').count(), 343);
     assert.equal(await page.locator('.timeline-view .timeline-war-day').count(), 326, 'home timeline shares the calendar');
     await page.locator('#world-browser [data-timeline-importance]').selectOption('3');
-    assert.equal(await page.locator('.timeline-view .index-card').count(), 110);
+    assert.equal(await page.locator('.timeline-view .index-card').count(), counts.slice(3).reduce((a,b)=>a+b,0));
     assert(await page.locator('#world-browser [data-timeline-importance]').evaluate(el => el === document.activeElement));
     await page.locator('#world-browser [data-timeline-order]').selectOption('highest');
     const homeRanks = await page.locator('.timeline-view .index-card').evaluateAll(cards => cards.map(card => Number(card.dataset.importance)));
@@ -188,7 +192,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     });
     assert.equal(await page.locator('.event-card').count(), 349);
     await importance().selectOption('4');
-    assert.equal(await page.locator('.event-card').count(), 32);
+    assert.equal(await page.locator('.event-card').count(), counts.slice(4).reduce((a,b)=>a+b,0)+2);
     assert.equal(await page.locator('.event-card[data-timeline-title="Private fixture 4"]').count(), 1);
     assert.equal(await page.locator('.event-card[data-timeline-title="Private fixture 3"]').count(), 0);
     await importance().selectOption('0'); await order().selectOption('highest');

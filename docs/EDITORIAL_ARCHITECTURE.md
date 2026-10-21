@@ -172,7 +172,7 @@ Avoid retrospective omniscience. A later revelation should link back to an earli
 
 ## Timeline importance
 
-Reader-facing event importance uses the owner’s ordered levels: Relational, Local, Regional, Interregional and World Changing. It measures documented consequence scope, independently of evidence certainty and character prominence. Personal grief or resurrection can remain Relational without being trivial. Do not widen a rating merely because a scene contains a god, a cosmic claim or a plan. Retain quest authority and the attribution of every claim. Each complete event needs an explicit integer from 1 to 5; private ratings remain inside the vault. See `TIMELINE_IMPORTANCE.md` for definitions, examples and reader behavior.
+Reader-facing event importance uses the owner’s ordered levels: Relational, Local, Regional, Interregional and World Changing. It measures documented consequence scope, independently of evidence certainty and character prominence. Personal grief or resurrection can remain Relational without being trivial. Do not widen a rating merely because a scene contains a god, a cosmic claim or a plan. Owner clarification, 21 October 2026: World Changing includes major Final War turning points, specifically Aria’s death to Talan, Wrath’s death and Death’s direct confrontations with the PCs. Immediate local or personal consequences do not reduce these named events to a lower tier. This classification does not confirm the truth of a character’s claims. Retain quest authority and the attribution of every claim. Each complete event needs an explicit integer from 1 to 5; private ratings remain inside the vault. See `TIMELINE_IMPORTANCE.md` for definitions, examples and reader behavior.
 
 ## Final War dates and region metadata
 

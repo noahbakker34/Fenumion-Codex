@@ -4,7 +4,9 @@ Last updated: 2026-10-21
 
 ## World-changing Final War turning points · 21 October 2026
 
-Owner explicitly identifies Aria dying to Talan, Wrath dying and Death appearing to the PCs as World Changing. Five existing public entries are raised to level 5, including both Wrath victory/aftermath entries and Death’s direct confrontations over Magnus and in Babel. The guide now includes major Final War turning points in level 5. Claims remain attributed; all history, calendar metadata, protected boundaries and the full private payload are preserved. Current counts: 73/159/77/27/7 across levels 1–5; 343 public events total. App/catalog252, reader3, styles173. See TIMELINE_IMPORTANCE.md. Publication receipt follows validation.
+Owner explicitly identifies Aria dying to Talan, Wrath dying and Death appearing to the PCs as World Changing. Five existing public entries are raised to level 5, including both Wrath victory/aftermath entries and Death’s direct confrontations over Magnus and in Babel. The guide now includes major Final War turning points in level 5. Claims remain attributed; all history, calendar metadata, protected boundaries and the full private payload are preserved. Current counts: 73/159/77/27/7 across levels 1–5; 343 public events total. App/catalog252, reader3, styles173. See TIMELINE_IMPORTANCE.md.
+
+Release 4c8843f6cf13dab893c6b60d556f66861cdca894 deployed successfully in Pages run 39628540148. All hosted validation, browser and media gates pass. The three changed live files match the tested build; fresh anonymous Chrome checks pass for all five corrected events, seven World Changing results, the level-four threshold, dialog reasons, the expanded definition, reload, mobile and the home timeline. Real vault access remains 401/signin with empty protected bodies and no public stub metadata. The private payload is unchanged. Pages package: 800,967,737 bytes. Documentation-only receipt skips CI.
 
 ## Final War posting calendar · 21 October 2026
 

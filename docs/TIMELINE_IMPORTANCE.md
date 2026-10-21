@@ -16,7 +16,9 @@ World Changing includes major turning points in the Final War even when the imme
 
 Current public counts: **73 Relational, 159 Local, 77 Regional, 27 Interregional, seven World Changing** (343 total). Every other parsed world value, calendar date, source qualification, protected stub and the complete private payload is unchanged. App/catalog252, reader3, styles173. This owner decision supersedes the narrower scope examples below and the 20 October review’s regional classification of Wrath’s defeat.
 
-Validation: the expanded timeline regression confirms all five owner-designated entries remain visible at World Changing, exact/minimum counts match, both timeline surfaces agree, and calendar/search/mobile/vault boundaries still pass. A parsed before/after comparison confirms changes are confined to those five ratings and reasons; the complete private payload is byte-identical. Canonical/build/syntax/whitespace checks pass. Publication receipt follows deployment.
+Validation: the expanded timeline regression confirms all five owner-designated entries remain visible at World Changing, exact/minimum counts match, both timeline surfaces agree, and calendar/search/mobile/vault boundaries still pass. A parsed before/after comparison confirms changes are confined to those five ratings and reasons; the complete private payload is byte-identical. Canonical/build/syntax/whitespace checks pass. 
+
+Release 4c8843f6cf13dab893c6b60d556f66861cdca894 deployed successfully in Pages run 39628540148. All hosted validation, browser and media gates pass. The three changed live files match the tested build; fresh anonymous Chrome checks pass for all five corrected events, seven World Changing results, the level-four threshold, dialog reasons, the expanded definition, reload, mobile and the home timeline. Real vault access remains 401/signin with empty protected bodies and no public stub metadata. The private payload is unchanged. Pages package: 800,967,737 bytes. Documentation-only receipt skips CI.
 
 ## Review, regions and calendar · 20 October 2026
 

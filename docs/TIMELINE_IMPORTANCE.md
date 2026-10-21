@@ -29,3 +29,5 @@ New complete public events must have an integer from 1 to 5; the content validat
 ## Verification
 
 `scripts/check_timeline.cjs` exercises all five exact categories and minimum thresholds, both directions of global date/importance ordering, filtered dialog navigation, combined person/era/search choices, empty/reset states, shared routes/reload/Back, invalid URL handling, desktop and 390/320-pixel layouts, keyboard focus, the home timeline and synthetic vault unlock/lock transitions. It uses no real private payload or transcript. The Pages workflow includes it alongside the existing reader, research, Rifts and media regressions.
+
+Public release `b042d12e4ff4546d83801779a280a73777a0cd32` passed all hosted validation/browser gates and deployed in Pages run `39528022874`. Nine live files match the tested build. Fresh anonymous live controls, dialogs, reload/reset and mobile checks pass; real vault access is 401/signin. Private metadata upload/readback verification passed independently.

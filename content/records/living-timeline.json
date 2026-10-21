@@ -17,7 +17,7 @@
     "Rule": "Unresolved dates remain unresolved",
     "Importance": "Relational → World Changing",
     "Calendar": "First Gate arrival · Day 1 of the Final War",
-    "Dates": "Source dates and in-world day counts stay distinct"
+    "Dates": "Elapsed posting dates; clear quest continuations aligned"
   },
   "sources": [
     "Complete quest-rp export — primary scene verification and 60 newly recovered 2024 events",
@@ -27,7 +27,7 @@
     "New Year.pdf — community retrospective",
     "Fenumion_Codex_Luminar_Spires_Quest_and_Character_Updates.md — undated 2026 Babel-Ashur reconnaissance sequence"
   ],
-  "body": "<p>Follow Fenumion’s events, journeys and discoveries. Dates identify chronicle entries; ancient events and uncertain dates are marked separately.</p><div id=\"timeline-explorer\" class=\"timeline-explorer\"></div><h2 id=\"discovery-order\">Discoveries that change the past</h2><p>Roderick is first encountered through Vysaeth’s hostile account, then as Wrath, then through the Liar’s Delerium trade, and finally through Legend Lore. Each revelation changes what his companions understand, without erasing the choices they made before they knew.</p>",
+  "body": "<p>Follow Fenumion’s events, journeys and discoveries. Final War days count from the first Gate arrival on 4 March 2024, using elapsed posting dates. Clear quest continuations share their established day. Original dates, approximate ranges and report dates remain visible; ancient and unresolved events keep their qualifications.</p><div id=\"timeline-explorer\" class=\"timeline-explorer\"></div><h2 id=\"discovery-order\">Discoveries that change the past</h2><p>Roderick is first encountered through Vysaeth’s hostile account, then as Wrath, then through the Liar’s Delerium trade, and finally through Legend Lore. Each revelation changes what his companions understand, without erasing the choices they made before they knew.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [

@@ -2,6 +2,10 @@
 
 Last updated: 2026-10-20
 
+## Final War posting calendar · 21 October 2026
+
+Owner explicitly chooses elapsed posting dates and authorizes fitting clear quest continuations to their established day. This supersedes the provisional restriction below. Day 1 remains 4 March 2024. 326 public events receive day numbers or qualified ranges; 17 remain unresolved. Twelve explicit calendar adjustments preserve original dates and source windows, with reasons and receipts, including the resumed harpy battle on Day 930 and the three Babel scenes on Day 959. Fifteen full private events receive the convention inside the vault; fourteen remain unnumbered. Date sorting follows adjusted quest dates. No event permalinks, rating changes, lore changes or access changes. App/catalog251, reader3, styles173. See FINAL_WAR_CALENDAR.md. Publication receipt follows verification.
+
 ## Timeline review and Final War reckoning · 20 October 2026
 
 Owner authorizes rating review, region filters, connected histories, clearer dating and consequential gap research; explicitly excludes event permalinks. First Called’s Gate arrival is Day 1 of the Final War. Original posting/archive dates remain visible. Pending any different owner decision, later day numbers require established elapsed story time and are not calculated from Discord intervals.

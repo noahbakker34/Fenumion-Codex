@@ -176,7 +176,7 @@ Reader-facing event importance uses the owner’s ordered levels: Relational, Lo
 
 ## Final War dates and region metadata
 
-Owner decision, 20 October 2026: the first Called’s arrival through the Gate is Day 1 of the Final War. Retain original source calendar labels as references; do not infer elapsed in-world days from Discord posting intervals without an explicit decision or scene evidence. Separate an observed date, an approximate bound, a report/recollection date and an unresolved date. A vision’s posting date does not date the ancient event it depicts. Narrator backdating takes precedence over a post’s apparent day.
+Owner decisions, 20–21 October 2026: the first Called’s arrival through the Gate (4 March 2024) is Day 1 of the Final War. The owner explicitly adopts elapsed posting dates and permits clear quest continuations to retain their established day. Preserve original date labels, precision and posting windows; record each calendar adjustment with its reason and quest source receipts. Do not derive dates from artificial sort keys. See FINAL_WAR_CALENDAR.md. Separate an observed date, an approximate bound, a report/recollection date and an unresolved date. A vision’s posting date does not date the ancient event it depicts. Narrator backdating takes precedence over a post’s apparent day.
 
 Event regions require established location or travel evidence, not source-channel membership. Keep unplaced scenes unplaced, and do not invent an island classification for a known route region. Importance reasons are editorial interpretation of documented scope and must retain the distinction between a plan and a completed outcome.
 

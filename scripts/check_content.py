@@ -3,6 +3,7 @@
 import collections, json, re, sys
 from html.parser import HTMLParser
 from pathlib import Path
+from final_war_calendar import calendar_errors, posting_window
 ROOT=Path(__file__).resolve().parents[1]
 class Links(HTMLParser):
  def __init__(self):super().__init__();self.ids=[];self.links=[];self.headings=[]
@@ -96,11 +97,14 @@ def audit():
    require(event.get('dating',{}).get('kind') in {'canon','recorded','approximate','recollection','unresolved'} and bool(event.get('dating',{}).get('note')), 'Missing date basis: '+str(event.get('title')))
    day=event.get('dating',{}).get('finalWarDay')
    require(day is None or (type(day) is int and day>0), 'Invalid Final War day: '+str(event.get('title')))
+   for error in calendar_errors(event.get('dating',{})):require(False,error+': '+str(event.get('title')))
+   require(not posting_window(event) or event.get('dating',{}).get('postingWindow'), 'Missing recorded calendar window: '+str(event.get('title')))
    if event.get('reviewSources'):
     require(all(re.fullmatch(r'https://discord\.com/channels/\d+/\d+/\d+',ref) for ref in event['reviewSources']), 'Invalid timeline receipt: '+str(event.get('title')))
  calendar=world.get('timelineCalendar',{})
  origin=next((event for event in world['archiveIndex']['timeline'] if event.get('title')==calendar.get('originEvent')),None)
  require(calendar.get('originDay')==1 and origin and origin.get('dating',{}).get('finalWarDay')==1,'Final War Day 1 origin is missing')
+ require(calendar.get('originDate')=='2024-03-04' and calendar.get('mode')=='posting-dates','Final War posting-date convention is missing')
  for alias,target in world.get('timelineAliases',{}).items():
   require(any(e.get('title')==target and not e.get('veiled') for e in world['archiveIndex']['timeline']), 'Broken event alias '+alias)
 

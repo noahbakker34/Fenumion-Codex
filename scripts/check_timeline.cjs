@@ -46,8 +46,9 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
         const a = shown[i - 1], b = shown[i];
         if (value === 'highest') assert(a.importance >= b.importance, 'global descending importance');
         if (value === 'lowest') assert(a.importance <= b.importance, 'global ascending importance');
-        if (value === 'oldest') assert(a.sort.localeCompare(b.sort) <= 0, 'global oldest first');
-        if (value === 'newest') assert(a.sort.localeCompare(b.sort) >= 0, 'global newest first');
+        const left = a.dating?.calendarAdjustment?.date || a.sort, right = b.dating?.calendarAdjustment?.date || b.sort;
+        if (value === 'oldest') assert(left.localeCompare(right) <= 0, 'global oldest first with quest continuations aligned');
+        if (value === 'newest') assert(left.localeCompare(right) >= 0, 'global newest first with quest continuations aligned');
       }
     }
     await order().selectOption('highest'); await importance().selectOption('3');
@@ -96,6 +97,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await page.setViewportSize({ width: 1440, height: 1000 });
     await go('world-index'); await page.locator('#world-browser [data-view="timeline"]').click();
     assert.equal(await page.locator('.timeline-view .index-card').count(), 343);
+    assert.equal(await page.locator('.timeline-view .timeline-war-day').count(), 326, 'home timeline shares the calendar');
     await page.locator('#world-browser [data-timeline-importance]').selectOption('3');
     assert.equal(await page.locator('.timeline-view .index-card').count(), 110);
     assert(await page.locator('#world-browser [data-timeline-importance]').evaluate(el => el === document.activeElement));
@@ -107,12 +109,55 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await go('living-timeline');
     const origin = page.locator('.event-card[data-timeline-title="The first Called arrive in Prima"]');
     assert((await origin.textContent()).includes('Day 1 of the Final War'));
-    assert.equal(await page.locator('.event-card .timeline-war-day').count(), 1, 'no day counts invented from posting dates');
+    assert.equal(await page.locator('.event-card .timeline-war-day').count(), 326, 'posting calendar preserves the 17 unresolved dates');
+    assert.equal(await page.locator('.event-card [data-calendar-adjusted]').count(), 12);
+    const expectedDates = [
+      ['The newcomers scout beyond Pristinia', 'Day 3 of the Final War'],
+      ['Neemah offers the newcomers many ways to matter', '39 days before the Final War'],
+      ['Nienna’s expedition reaches Gael', 'By Day 101 of the Final War'],
+      ['Minerva finds no readable trace in Papirak’s grimoire', 'Approx. Days 700–727 of the Final War'],
+      ['The tower expedition ends in rescue and retreat', 'Day 919 of the Final War'],
+      ['Vessalia’s party investigates the harpy cave', 'Day 930 of the Final War'],
+      ['The harpy cave is collapsed after a final prayer', 'Day 930 of the Final War'],
+      ['Pristinia reconstructs Melian’s abduction', 'Record: Day 458 of the Final War'],
+      ['The Babel company survives a blind salamander ambush', 'Day 959 of the Final War'],
+      ['The western mist turns companions into apparent monsters', 'Day 959 of the Final War'],
+      ['Death makes an offer after the mist clearing', 'Day 959 of the Final War']
+    ];
+    for (const [title, label] of expectedDates) {
+      const card=page.locator('.event-card').filter({has:page.locator('[class="event-copy"] > strong', {hasText:title})});
+      assert.equal(await card.locator('.timeline-war-day').innerText(),label,title);
+      assert.equal(await card.locator('.timeline-source-date').innerText(),byTitle.get(title).meta,'original date retained');
+    }
+    const sourceEvents = await page.evaluate(() => archiveIndex.timeline.filter(e=>!e.veiled));
+    assert.deepEqual(sourceEvents,events,'rendering and sorting never mutate source dates or metadata');
+    const chronological = await titles();
+    assert(chronological.indexOf('The harpy cave is collapsed after a final prayer') < chronological.indexOf('The western mist blankets Babel-Ashur'),'September 26 continuation stays with the September 19 battle');
+    assert((await page.locator('.event-card[data-timeline-title="Ephraith reports Melian’s release after the peace"] .timeline-war-day').innerText()).startsWith('Record: '),'report day does not date an unwitnessed handover');
+    const syntheticLabels = await page.evaluate(() => {
+      const label=(start,end,qualifier='on')=>timelineWarDateLabel({dating:{kind:'recorded',finalWar:{start,end,qualifier}}});
+      return [label(0,0),label(-2,0),label(0,2),label(1,1,'before'),label(3,4,'after'),label(1,1,'by'),timelineWarDateLabel({dating:{kind:'unresolved'}})];
+    });
+    assert.deepEqual(syntheticLabels,['1 day before the Final War','1–3 days before the Final War','1 day before the Final War – Day 2','Before Day 1 of the Final War','After Days 3–4 of the Final War','By Day 1 of the Final War','']);
     const sameHash = await page.evaluate(() => location.hash); await origin.click();
     assert.equal(await page.evaluate(() => location.hash), sameHash, 'event dialogs do not create permalinks');
     assert((await page.locator('#record-dialog-content').textContent()).includes('The owner establishes'));
     assert((await page.locator('#record-dialog-content').textContent()).includes('first Called’s arrival begins Day 1'));
     await page.keyboard.press('Escape');
+    const collapse=page.locator('.event-card[data-timeline-title="The harpy cave is collapsed after a final prayer"]');
+    await collapse.click();
+    assert((await page.locator('#record-dialog-content').textContent()).includes('explicitly resumes the ongoing battle'));
+    assert((await page.locator('#record-dialog-content').textContent()).includes('26–27 Sep 2026'));
+    assert.equal(await page.locator('.timeline-review-sources a').count(),4,'continuation sources are visible');
+    await page.screenshot({path:'/tmp/codex-calendar-event-desktop.png'});
+    await page.setViewportSize({width:390,height:844});
+    assert(await page.locator('#record-dialog-content').evaluate(el=>el.scrollWidth<=el.clientWidth),'calendar dialog fits mobile');
+    await page.screenshot({path:'/tmp/codex-calendar-event-mobile.png'});
+    await page.setViewportSize({width:1440,height:1000});
+    await page.keyboard.press('Escape');
+    await page.locator('#timeline-explorer input').fill('Day 959');
+    assert((await titles()).includes('Death makes an offer after the mist clearing'),'calendar days are searchable');
+    await page.locator('.timeline-reset').click();
     await page.locator('#timeline-explorer input').fill('Mortals unmake a mountain');
     assert.deepEqual(await titles(), ['Babel’s defenders reshape the cavern-bearing mountain'], 'one source-checked mountain event with legacy title search');
     await page.locator('.event-card').click();
@@ -153,6 +198,6 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     assert(!(await page.locator('#timeline-explorer').innerText()).includes('Private fixture'));
     assert(await page.evaluate(() => archiveIndex.timeline.filter(e => e.veiled).every(e => !['importance','importanceReason','regions','dating','reviewSources'].some(key=>key in e))));
     assert.deepEqual(errors, []);
-    console.log('PASS five importance levels, exact/minimum filters, global sorting, filtered dialogs, era/person/search, share/reload/Back, keyboard/mobile, home timeline, region/date/reason metadata, Final War Day 1, supported histories/research limits and private unlock/lock boundaries');
+    console.log('PASS five importance levels, exact/minimum filters, adjusted calendar sorting, filtered dialogs, era/person/search, share/reload/Back, keyboard/mobile, home timeline, posting-date arithmetic/precision/continuations, supported histories/research limits and private unlock/lock boundaries');
   } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exit(1); });

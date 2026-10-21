@@ -225,6 +225,7 @@ function openTimelineRecord(item) {
   const currentIndex = readableTimeline.findIndex(candidate => candidate.title === item.title);
   const previousItem = currentIndex > 0 ? readableTimeline[currentIndex - 1] : null;
   const nextItem = currentIndex >= 0 && currentIndex < readableTimeline.length - 1 ? readableTimeline[currentIndex + 1] : null;
+  const reviewSources = [...new Set([...(item.reviewSources || []), ...(item.dating?.calendarAdjustment?.sources || [])])];
   const relatedButton = item.article && item.article !== "living-timeline"
     ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(item.article)}">Open related Codex record →</button>`
     : "";
@@ -244,7 +245,7 @@ function openTimelineRecord(item) {
       ${whyItMatters ? `<p><strong>Consequences</strong>${escapeHtml(whyItMatters)}</p>` : ""}
     </div>
     <div class="record-dialog-meta"><span>People · ${escapeHtml(item.people || "Unrecorded")}</span>${(item.tags || []).map(tag => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
-    ${item.reviewSources?.length ? `<p class="timeline-review-sources"><strong>Checked quest evidence</strong> ${item.reviewSources.map((url,index) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Receipt ${index+1}</a>`).join(' · ')}</p>` : ''}
+    ${reviewSources.length ? `<p class="timeline-review-sources"><strong>Checked quest evidence</strong> ${reviewSources.map((url,index) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Receipt ${index+1}</a>`).join(' · ')}</p>` : ''}
     ${renderEventConnections(item)}
     ${window.CodexReader.eventChains(item)}
     ${relatedButton}
@@ -1571,7 +1572,7 @@ function timelineMatchesImportance(item, state) {
   return !state.importance || (timelineImportance(item) && (state.match === 'exact' ? item.importance === state.importance : item.importance >= state.importance));
 }
 function compareTimelineEvents(a, b, order) {
-  const dateOrder = a.sort.localeCompare(b.sort) || a.title.localeCompare(b.title);
+  const dateOrder = (a.dating?.calendarAdjustment?.date || a.sort).localeCompare(b.dating?.calendarAdjustment?.date || b.sort) || a.sort.localeCompare(b.sort) || a.title.localeCompare(b.title);
   if (order === 'newest') return -dateOrder;
   if (order === 'highest' || order === 'lowest') {
     // Future/unrated private payloads remain visible with All levels, after rated entries.
@@ -1590,10 +1591,23 @@ function timelineRegionOptions(events) {
 function timelineRegionControl(state, events) {
   return `<label class="timeline-select-shell"><span class="timeline-search-label">Region</span><select data-timeline-region><option value="">All regions</option>${timelineRegionOptions(events).map(region => `<option value="${escapeHtml(region.id)}"${state.region === region.id ? ' selected' : ''}>${escapeHtml(region.label)}</option>`).join('')}</select></label>`;
 }
+function timelineWarDateLabel(item) {
+  const date = item.dating?.finalWar;
+  const legacyDay = item.dating?.finalWarDay;
+  if (!date) return Number.isInteger(legacyDay) && legacyDay > 0 ? `Day ${legacyDay} of the Final War` : '';
+  if (!Number.isInteger(date.start) || !Number.isInteger(date.end) || date.start > date.end) return '';
+  let label;
+  if (date.start > 0) label = `${date.start === date.end ? 'Day '+date.start : 'Days '+date.start+'–'+date.end} of the Final War`;
+  else if (date.end <= 0) {
+    const near = 1 - date.end, far = 1 - date.start;
+    label = `${near === far ? near : near+'–'+far} day${far === 1 ? '' : 's'} before the Final War`;
+  } else label = `${1-date.start} day${date.start === 0 ? '' : 's'} before the Final War – Day ${date.end}`;
+  const prefix = { by: 'By ', before: 'Before ', after: 'After ', around: 'Approx. ' }[date.qualifier] || '';
+  return `${item.dating.kind === 'recollection' ? 'Record: ' : ''}${prefix}${label}`;
+}
 function timelineDateMarkup(item) {
-  const day = item.dating?.finalWarDay;
-  const establishedDay = Number.isInteger(day) && day > 0;
-  return `${establishedDay ? `<span class="timeline-war-day">Day ${day} of the Final War</span><span class="timeline-source-date">${escapeHtml(item.meta)}</span>` : escapeHtml(item.meta)}<small class="timeline-date-status" data-date-kind="${escapeHtml(item.dating?.kind || 'unreviewed')}">${escapeHtml(timelineDateKinds[item.dating?.kind] || 'Date basis unreviewed')}</small>`;
+  const label = timelineWarDateLabel(item);
+  return `${label ? `<span class="timeline-war-day">${escapeHtml(label)}</span><span class="timeline-source-date">${escapeHtml(item.meta)}</span>` : escapeHtml(item.meta)}<small class="timeline-date-status" data-date-kind="${escapeHtml(item.dating?.kind || 'unreviewed')}">${escapeHtml(timelineDateKinds[item.dating?.kind] || 'Date basis unreviewed')}</small>${item.dating?.calendarAdjustment ? '<small class="timeline-date-status" data-calendar-adjusted>Calendar aligned · see event</small>' : ''}`;
 }
 function timelineImportanceControls(state, events = archiveIndex.timeline.filter(readableTimelineEvent)) {
   return `${timelineRegionControl(state, events)}<label class="timeline-select-shell"><span class="timeline-search-label">Importance</span><select data-timeline-importance><option value="0">All levels</option>${timelineImportanceLevels.map(level => `<option value="${level.level}"${state.importance === level.level ? ' selected' : ''}>${level.level}. ${level.label}</option>`).join('')}</select></label>
@@ -1621,7 +1635,7 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
   };
   explorer.innerHTML = `
     <p class="timeline-sequences-link"><a href="#history-in-consequences">Follow connected histories →</a></p>
-    <div class="timeline-calendar-note"><strong>Day 1 of the Final War</strong><p>The first Called’s arrival through the Gate begins this reckoning. Calendar labels below preserve the source record; further day numbers appear only when elapsed story time is established.</p></div>
+    <div class="timeline-calendar-note"><strong>Day 1 of the Final War · 4 March 2024</strong><p>The first Called’s arrival through the Gate begins this reckoning. Days count elapsed posting dates; clear quest continuations share their established day, with adjustments explained in each event. Original dates remain below the day count. Ranges stay ranges, and a report’s day dates the report.</p></div>
     ${person ? `<p class="timeline-person-filter">Events involving <a href="#${person.article}">${escapeHtml(person.title)}</a> · <a href="#living-timeline">Show all events</a></p>` : ''}
     <div class="timeline-controls">
       <label class="timeline-search-shell"><span class="timeline-search-label">Search events</span><span class="timeline-search-field"><span aria-hidden="true">⌕</span><input type="search" placeholder="Try Papirak, sacrifice, Prima…" value="${escapeHtml(state.query)}" maxlength="200" autocomplete="off"></span></label>
@@ -1653,7 +1667,7 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
       .filter(item => !state.region || timelineRegionIds(item).includes(state.region))
       .filter(item => timelineMatchesImportance(item, state))
       .filter(item => {
-        const haystack = `${item.title} ${(item.aliases || []).join(' ')} ${item.dating?.finalWarDay ? 'Day '+item.dating.finalWarDay+' of the Final War' : ''} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(' ')}`.toLowerCase();
+        const haystack = `${item.title} ${(item.aliases || []).join(' ')} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${window.codexReadingText(questEventConsequences[item.title])} ${item.era} ${item.kind} ${item.location} ${item.people} ${(item.tags || []).join(' ')}`.toLowerCase();
         return terms.every(term => haystack.includes(term));
       }).sort((a, b) => compareTimelineEvents(a, b, state.order));
     timelineBrowseContext = { route: location.hash, items: filtered };
@@ -1958,7 +1972,7 @@ function runSearch(query) {
     ["Locations", archiveIndex.islands]
   ];
   const indexResults = indexGroups.flatMap(([group, items]) => items.filter(item => item?.title && (group !== "Timeline" || !isRestrictedTimelineEvent(item))).map(item => {
-    const haystack = cachedSearchText(item, group, () => normalizeSearchName(`${group} ${item.title} ${(item.aliases || []).join(' ')} ${item.dating?.finalWarDay ? 'Day '+item.dating.finalWarDay+' of the Final War' : ''} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`));
+    const haystack = cachedSearchText(item, group, () => normalizeSearchName(`${group} ${item.title} ${(item.aliases || []).join(' ')} ${timelineWarDateLabel(item)} ${item.meta} ${item.summary} ${item.era || ""} ${item.kind || ""} ${item.location || ""} ${item.people || ""} ${item.region || ""} ${item.parent || ""} ${item.type || ""} ${item.source || ""} ${(item.aliases || []).join(" ")} ${(item.tags || []).join(" ")}`));
     const titleMatch = searchNameScore(normalized, [item.title, ...(item.aliases || [])], phrase);
     const allTermsMatch = terms.every(term => haystack.includes(term));
     return {

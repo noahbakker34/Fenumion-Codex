@@ -23,7 +23,9 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v6
       - name: Validate canonical public records
-        run: python3 scripts/check_content.py
+        run: |
+          python3 scripts/check_final_war_calendar.py
+          python3 scripts/check_content.py
       - name: Validate encrypted media objects
         run: python3 scripts/check_protected_assets.py
       - name: Build reproducible public bundles

@@ -404,3 +404,7 @@ Added the hunting history, expanded nine participants and connected the island, 
 ## Timeline scope and three research checks · 20 October 2026
 
 The owner authorizes rating review, region filters, connected histories, date certainty and consequential gap research, excluding event permalinks. Existing canonical events are reviewed for scope, with selected raw quest/Babel prose checked for Gate arrival, Melian’s release report, Bowene’s exile terms, the mountain’s narrated outcome and Nymera’s second-return boundary. Twenty-three quest and nine Babel anchors are logged privately with source/content hashes, separately from indexing and without claiming exhaustive reading. See `TIMELINE_REVIEW_2026_10_20.md` for public receipts, changes and remaining gaps. No raw transcript or protected lore is imported into public Git.
+
+## Final War calendar review · 21 October 2026
+
+Owner adopts elapsed posting dates and permits aligning clear quest continuations. FINAL_WAR_CALENDAR.md records twelve explicit source-backed adjustments, bounded source checks, hashes and the retained precision model. No new transcript corpus is imported. The original posting labels, attributions and protected boundaries remain in place; day numbers are a calendar convention, not newly recovered testimony.

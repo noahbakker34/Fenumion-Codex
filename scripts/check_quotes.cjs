@@ -52,9 +52,10 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
    await page.setViewportSize({width,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'quote collection fits '+width);
    for(const control of [query,speaker,voice,order])assert(await control.evaluate(el=>el.getBoundingClientRect().height>=44&&parseFloat(getComputedStyle(el).fontSize)>=16));
    await page.locator('#memorable-quote-1 .quote-open').click();await page.locator('#quote-dialog[open]').waitFor();assert(await page.locator('#quote-dialog').evaluate(el=>el.scrollWidth<=el.clientWidth),'quote detail fits '+width);
+   await page.waitForFunction(()=>!document.querySelector('.quote-source-status').textContent.includes('Finding'));
    if(width===390)await page.screenshot({path:output+'/quote-context-mobile.png'});await page.keyboard.press('Escape');
   }
-  await page.goto(base+'#hellknight-order');await page.locator('.article-header h1').waitFor();const emblem=page.locator('.article-hero img[src="assets/factions/hellknight-order.png"]');assert.equal(await emblem.count(),1);assert(await emblem.evaluate(el=>el.complete&&el.naturalWidth===512&&el.naturalHeight===768));
+  await page.goto(base+'#hellknight-order');await page.locator('.article-header h1').waitFor();const emblem=page.locator('.article-hero img[src="assets/factions/hellknight-order.png"]');assert.equal(await emblem.count(),1);assert(await emblem.evaluate(async el=>{await el.decode();return el.naturalWidth===512&&el.naturalHeight===768;}));
   assert((await page.locator('.article-header').innerText()).includes('Month of Death · Year 3'),'faction dates use the named calendar');
   await page.setViewportSize({width:390,height:844});await emblem.scrollIntoViewIfNeeded();await page.screenshot({path:output+'/hellknights-mobile.png'});await page.goto(base+'#factions');await page.locator('[data-article="hellknight-order"] img[src="assets/factions/hellknight-order.png"]').waitFor();
   assert.deepEqual(errors,[]);console.log('PASS unchanged 38 quotes/seven themes/anchors; search/speaker/theme/voice/date order/reload/reset; portraits/context/source limits; explicit recording playback/seek/volume/music pause/hover preference/player cleanup; desktop/mobile; Hellknights art and dates');

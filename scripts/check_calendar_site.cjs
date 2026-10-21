@@ -58,6 +58,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-calendar-site';
    await page.setViewportSize({width,height:844});
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'atlas fits '+width);
    for(const control of [year,month,day])assert(await control.evaluate(el=>el.getBoundingClientRect().height>=44&&parseFloat(getComputedStyle(el).fontSize)>=16),'named date control is usable');
+   for(const control of [year,month,day])assert(await control.evaluate(el=>{const box=el.getBoundingClientRect(),parent=el.closest('fieldset').getBoundingClientRect();return box.left>=parent.left&&box.right<=parent.right;}),'date selector stays within its fieldset at '+width);
    await page.locator('.fenumion-date-picker').scrollIntoViewIfNeeded();
    if(width===390)await page.screenshot({path:output+'/atlas-mobile.png'});
    for(const id of ['memorable-quotes','nienna','living-timeline?importance=5']){await go(id);await audit(id+' mobile');assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),id+' fits '+width);}

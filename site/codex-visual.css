@@ -153,10 +153,10 @@ body.fenumion-world.codex-world .topbar { padding-right:172px; }
 .fenumion-world :is(a,button,summary,input,select):focus-visible { outline:2px solid #f3d997;outline-offset:4px; }
 .fenumion-date-picker { display:flex;flex-wrap:wrap;gap:.65rem;margin:0;padding:.7rem;border:1px solid #657252;border-radius:6px;min-width:0; }
 .fenumion-date-picker legend { padding:0 .4rem;color:var(--gold);font:500 .8rem/1.5 var(--sans); }
-.fenumion-world .fenumion-date-picker label { display:grid;gap:.3rem;min-width:0;font:400 .75rem/1.5 var(--sans); }
-.fenumion-world .fenumion-date-picker select { min-height:44px;max-width:100%;padding:.5rem;background:#101a16;color:var(--ink);border:1px solid #657252;border-radius:4px;font:400 1rem/1.4 var(--sans); }
+.fenumion-world .fenumion-date-picker label { display:grid;grid-template-columns:minmax(0,1fr);gap:.3rem;min-width:0;font:400 .75rem/1.5 var(--sans); }
+.fenumion-world .fenumion-date-picker select { min-height:44px;min-width:0;width:100%;max-width:100%;padding:.5rem;background:#101a16;color:var(--ink);border:1px solid #657252;border-radius:4px;font:400 1rem/1.4 var(--sans); }
 .fenumion-world .atlas-date-control>.fenumion-date-picker { flex:1 1 100%; }
-@media(max-width:760px) { .fenumion-world .fenumion-date-picker label { flex:1 1 120px; } }
+@media(max-width:760px) { .fenumion-world .fenumion-date-picker label { flex:1 1 100%; } }
 @media(min-width:1101px) {
  .fenumion-world.timeline-workspace-view #timeline-explorer>.timeline-controls { grid-template-columns:minmax(180px,1.3fr) repeat(4,minmax(0,1fr));position:sticky;top:75px;z-index:5;backdrop-filter:blur(12px); }
  .fenumion-world.timeline-workspace-view .timeline-controls>.timeline-search-shell { grid-column:auto; }

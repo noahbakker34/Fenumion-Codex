@@ -82,14 +82,55 @@
     window.revealCodexSection?.(target);target.tabIndex=-1;target.focus({preventScroll:true});
     target.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
   }
+  function biographyLayout(article,root,chapters,sourcePanel){
+    const body=root.querySelector('.article-body');
+    const primary=new Set(article.sections.map(section=>section.id));
+    const appendices=[];
+    for(const chapter of chapters){
+      const summary=chapter.querySelector(':scope > summary'),heading=summary?.querySelector('h2');
+      if(primary.has(heading?.id)){
+        const section=document.createElement('section');section.className='biography-section';
+        section.setAttribute('aria-labelledby',heading.id);section.append(heading);
+        for(const node of [...chapter.childNodes])if(node!==summary)section.append(node);
+        const evidence=section.querySelector(':scope > .section-evidence');
+        if(evidence)section.append(evidence);
+        chapter.replaceWith(section);
+      }else{
+        chapter.className='biography-appendix';chapter.open=false;
+        if(heading){
+          const label=document.createElement('h3');label.id=heading.id;
+          label.textContent=chapter.querySelector('.character-reading-path')?'Recorded events and related places':heading.textContent;
+          heading.replaceWith(label);
+        }
+        appendices.push(chapter);
+      }
+    }
+    root.querySelectorAll('.record-reading-controls,.chapter-guide,.article-header .chronicle-relationships').forEach(el=>el.remove());
+    root.querySelector('.article-header .article-kicker').textContent=article.type;
+    // The biography already names its relationships; keep exploration below the narrative.
+    const rail=root.querySelector('.record-visual-rail');
+    rail?.querySelectorAll('.record-visual-links').forEach(el=>el.remove());
+    if(rail?.children.length){rail.className='biography-artwork';sourcePanel.before(rail);}else rail?.remove();
+    const sequence=root.querySelector('.record-summary > .related-sequences');
+    if(sequence){sequence.open=false;appendices.push(sequence);}
+    // Preserve legacy scene links inside the same, collapsed source ledger.
+    const note=body.querySelector('.biography-source-note');
+    if(note)sourcePanel.querySelector('summary').after(note);
+    appendices.reverse().forEach(appendix=>sourcePanel.before(appendix));
+    const navigation=document.createElement('nav');navigation.className='biography-navigation';
+    navigation.setAttribute('aria-label','Read this biography');
+    navigation.innerHTML=article.sections.map((section,index)=>`<button type="button" data-section="${esc(section.id)}"><span aria-hidden="true">${String(index+1).padStart(2,'0')}</span>${esc(section.title)}</button>`).join('');
+    root.querySelector('.record-summary').after(navigation);
+  }
   function afterRender(article,root){
+    const biography=article.readingLayout==='biography';root.classList.toggle('biography-layout',biography);
     // Reserve the original image ratio before decoding so loading artwork does not move the reader.
     for(const img of root.querySelectorAll('img')){
       const dimensions=window.FENUMION_CATALOG.imageDimensions?.[img.getAttribute('src')?.split('?')[0]];
       if(dimensions){img.width=dimensions[0];img.height=dimensions[1];}
     }
     const summary=root.querySelector('.record-summary');
-    if(article.brief&&summary)summary.insertAdjacentHTML('afterbegin',briefMarkup(article));
+    if(article.brief&&summary&&!biography)summary.insertAdjacentHTML('afterbegin',briefMarkup(article));
     const chapters=[...root.querySelectorAll('.record-chapter')];
     for(const chapter of chapters){
       const heading=chapter.querySelector(':scope > summary h2');
@@ -136,6 +177,7 @@
       };
       region.addEventListener('change',update);query.addEventListener('input',update);update();
     }
+    if(biography)biographyLayout(article,root,chapters,sourcePanel);
   }
   function placeEvents(place,until=''){
     const names=[place.title,...(place.aliases||[])].map(normalizePlaceName);

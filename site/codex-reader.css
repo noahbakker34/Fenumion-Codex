@@ -9,3 +9,43 @@
 .atlas-date-control button{border:1px solid #c4aa5960;border-radius:5px;padding:.7rem .9rem;background:#24272d;color:#e0cf99;cursor:pointer;font:inherit;min-height:44px}.atlas-date-control button:hover{border-color:#d3b65a}.chapter-guide button:hover,.character-brief button:hover,.place-history-context button:hover,.consequence-chain button:hover{color:#e3c872;text-decoration:underline}.article-evidence-ledger{font-size:.9rem}.article-evidence-ledger li{line-height:1.6;margin:.5rem 0}.character-brief summary{min-height:36px;cursor:pointer;color:#d8c691}
 .scene-sequence{padding-left:1.3rem}.scene-sequence>li{padding:1rem 0 1.4rem .5rem;border-bottom:1px solid #d3b65a40}.scene-sequence h3{margin:.25rem 0 .7rem}.scene-date{color:#d8bb65!important;font-size:.8rem!important}.scene-sequence dl,.research-card dl{margin:.8rem 0}.scene-sequence dl>div,.research-card dl>div{margin:.8rem 0}.scene-sequence dt,.research-card dt{color:#d8c691;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}.scene-sequence dd,.research-card dd{margin:.2rem 0;line-height:1.65}.scene-receipts{font-size:.85rem!important}.research-card,.claim-card{padding:1rem 1.1rem;border:1px solid #d3b65a40;border-radius:7px;margin:1rem 0;background:#13171be8;overflow-wrap:anywhere}.claim-card h3,.research-card h3{font-size:1.1rem;line-height:1.5}.research-controls{display:flex;gap:1rem;flex-wrap:wrap;align-items:end;margin:1rem 0 1.5rem;padding:1rem;border:1px solid #d3b65a40;border-radius:7px;background:#13171be8}.research-controls label{display:flex;flex-direction:column;gap:.5rem;flex:1 1 190px;color:#d8c691}.research-controls input,.research-controls select{font:inherit;min-height:44px;background:#1c2227;color:#e4e0d5;border:1px solid #aaa6;border-radius:4px;padding:.6rem;min-width:0;max-width:100%;color-scheme:dark}.research-controls p{flex-basis:100%;margin:0!important;font-size:.85rem!important}.research-card[hidden],.record-chapter[hidden]{display:none}.codex-world summary:focus-visible{outline:2px solid var(--gold-bright);outline-offset:3px}.article-header h1:focus{outline:none}
 @media(max-width:760px){.scene-sequence{padding-left:1rem}.scene-sequence>li{padding-left:0}.research-card,.claim-card{padding:.85rem}.scene-date{overflow-wrap:anywhere}}
+/* Opt-in biographies put a continuous narrative ahead of supporting browsing tools. */
+.fenumion-world .biography-layout .record-overview{display:block}
+.fenumion-world .biography-layout .article-header{min-height:270px}
+.biography-layout .article-header .article-meta{display:none}
+.biography-layout .record-summary{padding:1.2rem 1.4rem;margin-bottom:1rem}
+.fenumion-world .biography-layout .record-overview .infobox{margin:0;padding:0;border:0;gap:0 2rem}
+.fenumion-world .biography-layout .record-summary .fact{display:block;padding:.6rem 0;overflow-wrap:normal}
+.biography-layout .record-summary .fact dt{font:600 .72rem/1.5 var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--region-accent)}
+.biography-layout .record-summary .fact dd{margin:.3rem 0 0;font:500 1rem/1.6 var(--text)}
+.biography-navigation{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.45rem;margin:0 0 1.6rem}
+.biography-navigation button{display:flex;align-items:center;gap:.6rem;min-width:0;min-height:58px;padding:.7rem .85rem;border:1px solid #53616b;border-radius:6px;background:#101c22f5;color:#e9e3d4;text-align:left;font:500 .82rem/1.4 var(--sans);cursor:pointer}
+.biography-navigation button>span{color:var(--region-accent);font-size:.7rem}
+.biography-navigation button:hover{border-color:var(--region-accent);background:#1e303a}
+.fenumion-world .biography-section{padding:1.4rem clamp(1rem,3vw,2.25rem);margin:0 0 1.3rem;border:1px solid #46545d;border-radius:8px;background:#141b20f7}
+.fenumion-world .biography-section>h2{margin:0 0 1.1rem;padding:0 0 .85rem;border-bottom:1px solid #53616b;font-size:clamp(1.4rem,2.1vw,1.85rem)}
+.fenumion-world .biography-layout .biography-section>h3{margin:1.8rem 0 .65rem;font:600 1rem/1.55 var(--sans);color:#d9c78e}
+.fenumion-world .biography-layout .biography-section>h3:first-of-type{margin-top:.5rem}
+.fenumion-world .biography-section p{max-width:78ch}
+.biography-section>ul:not(.biography-relationships){padding-left:1.25rem}
+.biography-section>ul>li{margin:.65rem 0;line-height:1.7}
+.biography-section>.section-evidence{margin:1.4rem 0 0;font-family:var(--sans)}
+.fenumion-world .biography-date{font:500 .85rem/1.5 var(--sans);color:#d9c78e}
+.biography-relationships{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1.6rem;padding:0;list-style:none}
+.biography-relationships>li{min-width:0;padding:.6rem 0;border-bottom:1px solid #53616b60}
+.fenumion-world .biography-layout .biography-relationships h3{margin:0 0 .5rem;font:600 1rem/1.5 var(--sans)}
+.fenumion-world .biography-relationships p{font-size:1.05rem;margin:0 0 .65rem}
+.biography-appendix{padding:.4rem 1.1rem;border:1px solid #53616b60;border-radius:6px;background:#141b20f5;margin:.75rem 0}
+.biography-appendix>summary{display:flex;align-items:center;gap:.8rem;min-height:48px;cursor:pointer;color:#d9c78e}
+.biography-appendix>summary::before{content:'▸';font-size:1rem}
+.biography-appendix[open]>summary::before{content:'▾'}
+.fenumion-world .biography-layout .biography-appendix>summary h3{margin:0;font:500 .9rem/1.5 var(--sans)}
+.biography-source-note{padding:1rem 0;border-bottom:1px solid #53616b60}
+@media(max-width:760px){
+ .biography-navigation{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .biography-navigation button{padding:.65rem;min-height:64px}
+ .biography-relationships{grid-template-columns:1fr}
+ .fenumion-world .biography-layout .article-header{min-height:0}
+ .biography-layout .chronicle-person-portrait{height:220px}
+ .biography-layout .record-summary{padding:1rem}
+}

@@ -71,10 +71,38 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   assert.equal(await page.locator('.event-card').count(),343);
   assert.equal(await page.locator('.chronicle-calendar').count(),1,'filter rerenders retain one navigator');
   assert.equal(await page.locator('.event-card .timeline-source-date').count(),326,'source dates survive the visual pass');
+  await go('bowene');
+  assert.equal(await page.locator('.biography-section').count(),6);
+  assert.equal(await page.locator('.biography-section:visible').count(),6,'biography reads continuously');
+  assert.equal(await page.locator('.character-brief,.record-reading-controls,.chapter-guide,.record-visual-rail,.article-header .chronicle-relationships').count(),0,'one overview and one reading order');
+  assert.equal(await page.locator('.record-summary .fact').count(),4);
+  assert.equal(await page.locator('#contents .toc-link').count(),6,'contents follow the six narrative sections');
+  assert(await page.locator('#bowene-council-limit').evaluate(el=>!getComputedStyle(el).fontFamily.includes('Vespasian')),'dated subheadings use a reading font');
+  await page.locator('.biography-navigation [data-section="bowene-exile"]').click();
+  assert.equal(await page.evaluate(()=>document.activeElement.id),'bowene-exile');
+  assert.equal(await page.evaluate(()=>location.hash),'#bowene?section=bowene-exile','chapter jump uses the existing section route');
+  const exile=page.locator('.biography-section').filter({has:page.locator('#bowene-exile')});
+  assert((await exile.innerText()).includes('identical mandatory sentence'));
+  assert.equal(await exile.locator('#bowene-exile-terms').count(),1,'departure terms stay beside the judgment');
+  await page.locator('#bowene-relationships').scrollIntoViewIfNeeded();await page.screenshot({path:output+'/bowene-relationships-desktop.png'});
+  await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:output+'/bowene-desktop.png'});
+  for(const width of [1440,1280,1100,1024,900,768,600,390,320]){
+   await page.setViewportSize({width,height:1000});await fits();await dockFits();
+   assert(await page.locator('.biography-navigation button').evaluateAll(buttons=>buttons.every(button=>button.scrollWidth<=button.clientWidth&&button.getBoundingClientRect().height>=44)),'biography links fit at '+width);
+  }
+  await page.setViewportSize({width:390,height:844});await page.locator('.biography-navigation [data-section="bowene-exile"]').click();await page.screenshot({path:output+'/bowene-exile-mobile.png'});
+  await go('bowene?section=bowene-exile-terms');
+  assert.equal(await page.evaluate(()=>document.activeElement.id),'bowene-exile-terms','legacy subsection route survives reload');
+  await go('bowene?section=bowene-scene-sequence');
+  assert(await page.locator('.article-evidence-ledger').evaluate(el=>el.open),'legacy scene route opens its source appendix');
+  assert.equal(await page.locator('#bowene-scene-sequence a').count(),3);
+  assert(!/\b20\d{2}\b/.test(await page.locator('.article-body').innerText()),'biography and source dates use the Fenumion calendar');
+  await page.setViewportSize({width:1440,height:1000});
   for(const id of ['prima-pristinia','gael','fein-uaill','babel-ashur','voraketh','verdelune']){
    await go(id);assert.equal(await page.locator('.article-header .chronicle-region-badge').count(),1,id+' has a sourced region badge');
   }
   await go('fenwick');
+  assert.equal(await page.locator('.biography-layout').count(),0,'other profiles keep their existing reader');
   assert.equal(await page.locator('.chronicle-person-portrait :is(img,video)').count(),1);
   assert.equal(await page.locator('.record-visual-rail > .article-hero :is(img,video)').count(),0,'same portrait is shown once');
   assert(await page.locator('.chronicle-person-portrait video').evaluate(el=>el.paused&&!el.querySelector('source')?.hasAttribute('src')),'reduced-motion portrait retains its poster without loading video');
@@ -119,6 +147,6 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   }
   const privacy=await page.evaluate(()=>({bodies:articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id),stubs:archiveIndex.timeline.filter(e=>e.veiled&&(e.importance||e.regions||e.dating)).length}));
   assert.deepEqual(privacy,{bodies:[],stubs:0});assert.deepEqual(errors,[]);
-  console.log('PASS illustrated homepage/event links; 27 Interregional and seven World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; portraits/roles/public relationships/dialog; readable atlas/directory facts at nine widths and in Gedankin; visible soundtrack/vault/approved-content labels; 390/320 layouts; signed-out boundaries');
+  console.log('PASS illustrated homepage/event links; 27 Interregional and seven World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; continuous Bowene biography, legacy destinations and source appendix; portraits/roles/public relationships/dialog; readable atlas/directory facts at nine widths and in Gedankin; visible soundtrack/vault/approved-content labels; 390/320 layouts; signed-out boundaries');
  } finally {await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

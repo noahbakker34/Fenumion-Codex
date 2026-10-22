@@ -2,6 +2,10 @@
 
 Last updated: 2026-10-22
 
+## Bowene’s biography organization · 22 October 2026
+
+Owner asks for a clearer High Lord Bowene page. A single continuous reading column replaces the repeated introduction/facts/relationship scaffold and fourteen accordions. Four concise facts and six numbered chapter links lead through office, mourning/Crucible, exile terms, later rule, named relationships and unresolved questions. Supporting events, remembered words and sources move below the narrative. All twelve original destinations and source locators remain. The already-reviewed departure terms qualify the consolidated exile account; office/cultural authority, attributed peace, contemplated reform and unresolved Talan/return questions remain bounded. Only Bowene opts into this layout. No other records, world/timeline/calendar/map data, original media or private payload changes. 581 records/2,092 sections; catalog259, reader JS6/CSS3; runtime257 and visual JS3/CSS6 unchanged. See BOWENE_LAYOUT_2026_10_22.md. Publication follows standing authorization; the deployment receipt follows verification.
+
 ## Reviewed portraits, Interregional emphasis and labeled controls · 22 October 2026
 
 Owner supplies a 222-candidate gallery and explicitly excludes generic/joke NPC entries. The final selection promotes 43 existing discovery labels into source-backed named NPC profiles and fills 58 record portraits: 57 placements from 56 original PNG assets, plus reuse of Bitoshi’s established art. Saelihn remains the same player-directory character and gains a personal page. The directory now has 151 NPCs and 99 player entries; 581 records/2,098 sections. Companions, manifestations and established aliases retain their kinds. Ahuic and other thin training roles remain unpromoted; isolated gags, generic labels, unresolved/private identities are excluded. Osu’s explicit architect/joking-Shogun distinction is preserved for Yoshida. No raw gallery/transcript/controller data enters Git. See PORTRAIT_REVIEW_2026_10_22.md and the selected public portrait receipt.

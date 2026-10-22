@@ -11,13 +11,26 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
   const errors=[];page.on('pageerror',error=>errors.push(error.message));
   if(!process.env.CODEX_LIVE)await page.route('https://auth.fenumion.com/**',route=>route.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
-  const go=async id=>{await page.goto(base+'#'+id);await page.waitForFunction(id=>byId.get(id.split('?')[0])?.bodyLoaded&&document.querySelector('#article-content').dataset.route===location.hash,id);};
+  const go=async id=>{await page.goto(base+'#'+id);await page.waitForFunction(id=>byId.get(id.split('?')[0])?.bodyLoaded&&(id.split('?')[0]==='visual-archive'?document.querySelector('#article-content').dataset.route?.split('?')[0]==='#visual-archive':document.querySelector('#article-content').dataset.route===location.hash),id,{timeout:30000});};
   const fits=async()=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits viewport');
   const dockFits=async()=>{
    assert.equal(await page.locator('.codex-utility-dock').count(),1);
    for(const selector of ['.music-toggle','#vault-button','.approved-content-link'])assert(await page.locator('.codex-utility-dock '+selector).evaluate(el=>{const r=el.getBoundingClientRect();return r.width>=44&&r.height>=44&&r.left>=0&&r.right<=innerWidth;}),'dock control fits: '+selector);
    const index=page.locator('.topbar .index-button');
    if(await index.isVisible())assert(await index.evaluate(el=>el.getBoundingClientRect().right<=document.querySelector('.codex-utility-dock').getBoundingClientRect().left),'header controls do not overlap');
+  };
+  const readableRailFact=async(label,word)=>{
+   const panel=page.locator('.record-visual-facts');
+   if(!await panel.evaluate(el=>el.open))await panel.locator('summary').click();
+   const value=panel.locator('.fact').filter({has:page.locator('dt',{hasText:label})}).locator('dd');
+   const reading=await value.evaluate((el,word)=>{
+    const node=el.firstChild,start=node.textContent.indexOf(word),range=document.createRange();
+    if(start<0)return {missing:word};range.setStart(node,start);range.setEnd(node,start+word.length);
+    const box=el.getBoundingClientRect(),panel=el.closest('.record-visual-facts').getBoundingClientRect();
+    return {lines:new Set([...range.getClientRects()].map(rect=>Math.round(rect.top))).size,inside:box.left>=panel.left&&box.right<=panel.right,width:box.width};
+   },word);
+   assert.equal(reading.lines,1,label+' keeps ordinary words on one line: '+JSON.stringify(reading));
+   assert(reading.inside,label+' value stays within its panel');
   };
   await go('world-index');
   assert.equal(await page.locator('h1').innerText(),'The Fenumion Codex');
@@ -66,6 +79,14 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   assert.equal(await page.locator('.chronicle-character-header .record-dialog-media').count(),1);
   assert((await page.locator('.chronicle-role-badges').innerText()).toLowerCase().includes('player character'));
   await page.screenshot({path:output+'/character-dialog.png'});await page.keyboard.press('Escape');
+  await go('visual-archive');await page.evaluate(()=>document.fonts.ready);
+  for(const width of [1920,1440,1280,1200,1101,1024,768,390,320]){
+   await page.setViewportSize({width,height:1000});await fits();
+   await readableRailFact('Maps','interactive');await readableRailFact('Records','places');
+   if(width===1440||width===390){await page.locator('.record-visual-facts').scrollIntoViewIfNeeded();await page.screenshot({path:output+'/atlas-facts-'+(width===1440?'desktop':'mobile')+'.png'});}
+  }
+  await page.goto(base+'gedankin/#location-directory');await page.locator('.record-visual-facts').waitFor({state:'attached'});await page.evaluate(()=>document.fonts.ready);
+  for(const width of [1440,390]){await page.setViewportSize({width,height:1000});await readableRailFact('World','Gedankin');await fits();}
   for(const width of [390,320]){
    await page.setViewportSize({width,height:844});
    for(const id of ['world-index','living-timeline?importance=5','fenwick','babel-ashur','people-directory']){await go(id);await fits();await dockFits();}
@@ -89,6 +110,6 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   }
   const privacy=await page.evaluate(()=>({bodies:articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id),stubs:archiveIndex.timeline.filter(e=>e.veiled&&(e.importance||e.regions||e.dating)).length}));
   assert.deepEqual(privacy,{bodies:[],stubs:0});assert.deepEqual(errors,[]);
-  console.log('PASS illustrated homepage/event links; seven World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; portraits/roles/public relationships/dialog; compact music/vault dock; 390/320 layouts; signed-out boundaries');
+  console.log('PASS illustrated homepage/event links; seven World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; portraits/roles/public relationships/dialog; readable atlas/directory facts at nine widths and in Gedankin; compact music/vault dock; 390/320 layouts; signed-out boundaries');
  } finally {await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

@@ -2,6 +2,10 @@
 
 Last updated: 2026-10-21
 
+## Readable left facts panels · 21 October 2026
+
+Owner reports the atlas’s left facts panel wrapping values one character per line. A later main-summary grid rule overrode the narrow panel’s single-column rule, leaving its values about eight pixels wide. Shared layout14 gives the visual-rail facts an explicit full-width column and places values beneath their labels, across both codices. The existing visual regression now checks ordinary words remain on one line, value bounds and page fit at nine widths (1920–320 pixels), plus Gedankin directory facts. Local visual/content/calendar/syntax/whitespace checks pass; desktop/mobile screenshots are inspected. Canonical content, maps, media, routes and the complete private payload are unchanged. Publication follows standing authorization; live receipt follows deployment.
+
 ## Akarian Irenhour · owner clarification, 21 October 2026
 
 The owner explicitly confirms that Akarian’s full character name is Akarian Irenhour. His canonical title, Name fact, directory identity and related links already use that name; the remaining short character-navigation label and portrait/animation descriptions now use it too. Akarian remains an explicit searchable alias, with both existing routes retained. This is a name-display correction to the existing Gael player character. His histories, quest outcomes, sources, media files and the separate Gedankin data remain intact. Catalog256; runtime255 unchanged. Canonical/calendar/protected-asset/build checks pass. Local browser checks confirm the full character heading and captions, one player-character directory result, both short/full-name searches and the existing full-name route alias. A parsed comparison limits canonical changes to the navigation label, four media descriptions and one alias; all history, events, sources and the complete private payload are preserved. Publication follows the standing authorization; live receipt follows deployment.

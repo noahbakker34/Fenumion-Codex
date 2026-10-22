@@ -18,7 +18,8 @@
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Portrait source · 2024-08-23 · https://discord.com/channels/1177270231513694249/1199083630354501673/1276730760472035349"
   ],
   "body": "<p>Appears in connection with Scribonia’s magic. The manifestation links to Saturnia’s history while remaining a created magical presence.</p><p><a href=\"#saturnia\">Read the existing Saturnia, Manifest Mind history →</a></p><h2 id=\"discovery-008-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 68/100 · Established</strong></p><p>A recurring manifestation through which Scribonia practices inherited scholarship.</p><ul><li>Consequences: 3/5 · weight 35</li><li>Institutional or witness role: 4/5 · weight 25</li><li>Relationships: 4/5 · weight 20</li><li>Recorded presence: 11/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-008-record\">Archive record</h2><p>The census records 47 posts across 2024-06-15 → 2024-08-23. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1251684161576767589\">Recorded scene · 1251684161576767589</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
@@ -55,5 +56,9 @@
         ]
       }
     }
-  ]
+  ],
+  "image": "assets/characters/discord/a1f118eca93c58b6e811cac750e88165de6ef8812bd657f580f5c0bc62a0ae6e.png",
+  "imageAlt": "Recorded depiction of Saturnia, Manifest Mind",
+  "imageCaption": "Saturnia’s image as Scribonia’s Manifest Mind · a spellbook manifestation.",
+  "imageLayout": "portrait-hero"
 }

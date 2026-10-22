@@ -2,29 +2,51 @@
   "id": "discovery-160",
   "title": "Acalan",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Religious interlocutor at the Cala gathering",
+  "dek": "Argues with the visitors about service, moral responsibility and the Rahu.",
   "tags": [
     "Acalan",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Religious interlocutor at the Cala gathering",
     "Island": "Not established",
-    "Census posts": "7",
-    "Recorded span": "2026-02-05 → 2026-02-05",
+    "Original census posts": "7",
+    "Original census posting span": "2026-02-05 → 2026-02-05",
     "Prominence": "Unrated",
     "Recorded presence": "5/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2026-02-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1469176363716968690",
+    "Checked quest scene · 2026-02-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1469180227178594344",
+    "Checked quest scene · 2026-02-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1469187510528643145",
+    "Checked quest scene · 2026-02-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1469192356757766293",
+    "Portrait source · 2025-07-04 · https://discord.com/channels/1177270231513694249/1374055909600526429/1390781035620339756"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-160-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-160-record\">Archive record</h2><p>The census records 7 posts across 2026-02-05 → 2026-02-05. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1469176363716968690\">Recorded scene · 1469176363716968690</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Argues with the visitors about service, moral responsibility and the Rahu.</p><h2 id=\"discovery-160-checked-history\">Recorded role and choices</h2><p>In February 2026, Acalan questions Flame and condemns service to devils and Nuru. These are Acalan’s religious and moral judgments, not objective Codex definitions of the god or all Rahu people. His role in the scene is a named participant in a dispute, offering an account of responsibility and repentance without establishing a universal doctrine or an outcome for Camilla.</p><h2 id=\"discovery-160-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-160-record\">Archive record</h2><p>The census records 7 posts across 2026-02-05 → 2026-02-05. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1469176363716968690\">Recorded scene · 1469176363716968690</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-160-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469176363716968690",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469180227178594344",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469187510528643145",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469192356757766293"
+        ]
+      }
+    },
     {
       "id": "discovery-160-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +77,16 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "discovery-081"
+  ],
+  "profile": {
+    "personality": "Argues with the visitors about service, moral responsibility and the Rahu.",
+    "achievements": "In February 2026, Acalan questions Flame and condemns service to devils and Nuru. These are Acalan’s religious and moral judgments, not objective Codex definitions of the god or all Rahu people. His role in the scene is a named participant in a dispute, offering an account of responsibility and repentance without establishing a universal doctrine or an outcome for Camilla."
+  },
+  "image": "assets/characters/discord/99417ddd6656baa2a17f0cc345ef56b845ba9c08beaff553f61e7610e38a602e.png",
+  "imageAlt": "Recorded depiction of Acalan",
+  "imageCaption": "Acalan",
+  "imageLayout": "portrait-hero"
 }

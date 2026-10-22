@@ -2,29 +2,53 @@
   "id": "discovery-075",
   "title": "Kain",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Child investigator and hag witness",
+  "dek": "Explains the children’s concerns about disguises, covens and attacks on the town.",
   "tags": [
     "Kain",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Child investigator and hag witness",
     "Island": "Not established",
-    "Census posts": "15",
-    "Recorded span": "2025-07-05 → 2026-02-21",
+    "Original census posts": "15",
+    "Original census posting span": "2025-07-05 → 2026-02-21",
     "Prominence": "Unrated",
     "Recorded presence": "12/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2025-07-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1391219331941142610",
+    "Checked quest scene · 2025-07-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1391220939462545429",
+    "Checked quest scene · 2026-02-21 · https://discord.com/channels/1177270231513694249/1199083630354501673/1474927590241206342",
+    "Checked quest scene · 2026-02-21 · https://discord.com/channels/1177270231513694249/1199083630354501673/1474931849993261148",
+    "Checked quest scene · 2026-02-21 · https://discord.com/channels/1177270231513694249/1199083630354501673/1474932515474243596",
+    "Portrait source · 2026-02-21 · https://discord.com/channels/1177270231513694249/1199083630354501673/1474932515474243596"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-075-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-075-record\">Archive record</h2><p>The census records 15 posts across 2025-07-05 → 2026-02-21. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1391216212154912789\">Recorded scene · 1391216212154912789</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Explains the children’s concerns about disguises, covens and attacks on the town.</p><h2 id=\"discovery-075-checked-history\">Recorded role and choices</h2><p>Kain reports that an object was dropped in a trap and explains the children’s understanding of how hags hide and organize. In February 2026, Kain warns that a hag can appear as different people or animals. Those conclusions remain the child’s testimony, offered during a specific investigation rather than promoted into a complete setting-wide rule about hags.</p><h2 id=\"discovery-075-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-075-record\">Archive record</h2><p>The census records 15 posts across 2025-07-05 → 2026-02-21. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1391216212154912789\">Recorded scene · 1391216212154912789</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-075-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1391219331941142610",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1391220939462545429",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474927590241206342",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474931849993261148",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474932515474243596"
+        ]
+      }
+    },
     {
       "id": "discovery-075-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +79,19 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "first-forest",
+    "discovery-051",
+    "discovery-053",
+    "discovery-074"
+  ],
+  "profile": {
+    "personality": "Explains the children’s concerns about disguises, covens and attacks on the town.",
+    "achievements": "Kain reports that an object was dropped in a trap and explains the children’s understanding of how hags hide and organize. In February 2026, Kain warns that a hag can appear as different people or animals. Those conclusions remain the child’s testimony, offered during a specific investigation rather than promoted into a complete setting-wide rule about hags."
+  },
+  "image": "assets/characters/discord/ffc287b015a3930bbbff19d2c0d6d554ee20084438a5fec1b3a88c7c5d2bf0e9.png",
+  "imageAlt": "Recorded depiction of Kain",
+  "imageCaption": "Kain",
+  "imageLayout": "portrait-hero"
 }

@@ -2,29 +2,53 @@
   "id": "discovery-079",
   "title": "Seravelle",
   "category": "People",
-  "type": "Guiding presence",
-  "dek": "Describes the present vessel as a guide. Further identity is not established.",
+  "type": "Guide at the Spiral",
+  "dek": "Guides the company through the Spiral and opens a route while the adventurers defend the ritual.",
   "tags": [
     "Seravelle",
-    "encounter"
+    "NPC"
   ],
   "facts": {
-    "Role": "Guiding presence",
+    "Role": "Guide at the Spiral",
     "Island": "Not established",
-    "Census posts": "15",
-    "Recorded span": "2024-12-03 → 2024-12-10",
+    "Original census posts": "15",
+    "Original census posting span": "2024-12-03 → 2024-12-10",
     "Prominence": "Unrated",
     "Recorded presence": "7/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2024-12-03 · https://discord.com/channels/1177270231513694249/1199083630354501673/1313698858596831333",
+    "Checked quest scene · 2024-12-03 · https://discord.com/channels/1177270231513694249/1199083630354501673/1313699510844919809",
+    "Checked quest scene · 2024-12-10 · https://discord.com/channels/1177270231513694249/1199083630354501673/1316229078457520230",
+    "Checked quest scene · 2024-12-10 · https://discord.com/channels/1177270231513694249/1199083630354501673/1316229376953815060",
+    "Checked quest scene · 2024-12-10 · https://discord.com/channels/1177270231513694249/1199083630354501673/1316253966035845192",
+    "Portrait source · 2024-12-10 · https://discord.com/channels/1177270231513694249/1199083630354501673/1316253966035845192"
   ],
-  "body": "<p>Describes the present vessel as a guide. Further identity is not established.</p><h2 id=\"discovery-079-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-079-record\">Archive record</h2><p>The census records 15 posts across 2024-12-03 → 2024-12-10. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1313698858596831333\">Recorded scene · 1313698858596831333</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Guides the company through the Spiral and opens a route while the adventurers defend the ritual.</p><h2 id=\"discovery-079-checked-history\">Recorded role and choices</h2><p>Seravelle describes the present vessel as a guide. In the checked December 2024 quest, the guide leads the company onward, works the doorway’s nodes and warns that the ritual must be protected. After completing the mechanism, Seravelle distracts the approaching creatures so the company can proceed. The nature behind the vessel and its later fate remain unresolved; the guide’s promises are kept as attributed explanations.</p><h2 id=\"discovery-079-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-079-record\">Archive record</h2><p>The census records 15 posts across 2024-12-03 → 2024-12-10. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1313698858596831333\">Recorded scene · 1313698858596831333</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-079-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1313698858596831333",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1313699510844919809",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316229078457520230",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316229376953815060",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316253966035845192"
+        ]
+      }
+    },
     {
       "id": "discovery-079-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +79,16 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "rifts"
+  ],
+  "profile": {
+    "personality": "Guides the company through the Spiral and opens a route while the adventurers defend the ritual.",
+    "achievements": "Seravelle describes the present vessel as a guide. In the checked December 2024 quest, the guide leads the company onward, works the doorway’s nodes and warns that the ritual must be protected. After completing the mechanism, Seravelle distracts the approaching creatures so the company can proceed. The nature behind the vessel and its later fate remain unresolved; the guide’s promises are kept as attributed explanations."
+  },
+  "image": "assets/characters/discord/083048841ed41584d465a29c9c8a7da0ff29231ce3cbe247b32c1fc2d7e9f3ef.png",
+  "imageAlt": "Recorded depiction of Seravelle",
+  "imageCaption": "Seravelle",
+  "imageLayout": "portrait-hero"
 }

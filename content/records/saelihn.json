@@ -1,0 +1,72 @@
+{
+  "id": "saelihn",
+  "title": "Saelihn",
+  "schemaVersion": 1,
+  "protected": false,
+  "category": "People",
+  "type": "Player character · psionic helper and careful explorer",
+  "dek": "A companion who supports the Common Man’s rebuilding and protects the living growth around Viota’s monument.",
+  "tags": [
+    "Player character",
+    "Saelihn",
+    "Common Man",
+    "Viota",
+    "Larkhollow"
+  ],
+  "facts": {
+    "Role": "Player character",
+    "Recorded work": "Common Man reconstruction · Viota expedition",
+    "Home and later fate": "Not established by these selected scenes"
+  },
+  "sources": [
+    "Checked quest scenes · https://discord.com/channels/1177270231513694249/1199083630354501673/1522658855002308759",
+    "Checked quest scenes · https://discord.com/channels/1177270231513694249/1199083630354501673/1522662058745659493",
+    "Checked quest scenes · https://discord.com/channels/1177270231513694249/1199083630354501673/1558342097549926432",
+    "Checked quest scenes · https://discord.com/channels/1177270231513694249/1199083630354501673/1558344009414615061",
+    "Portrait source · 2026-07-20 · https://discord.com/channels/1177270231513694249/1198721306250719293/1528850623704072232"
+  ],
+  "relatedRecords": [
+    "common-man",
+    "viotas-monument",
+    "quest-continuation",
+    "fenwick",
+    "ryvyt"
+  ],
+  "body": "<p>Saelihn uses her abilities in practical acts of care: easing the work of rebuilding the Common Man and leaving an old monument cleaner without stripping away the growth that belongs to it. </p><h2 id=\"saelihn-rebuilding\">Music and labor at the Common Man</h2><p>On 3 July 2026, Saelihn supplies music for the workers and uses telekinesis to help with the weight of the rebuilding materials. She encourages Herb and offers to help pursue those responsible. What she has heard about the attack is reported information; her visible contribution is to the reconstruction and the people doing the work.</p><h2 id=\"saelihn-viota\">Restraint at Viota’s monument</h2><p>In the October expedition with Ryvyt, Fenwick and Trougar, Saelihn intervenes when Trougar points his weapon toward a shadow child. She then cleans the monument’s surroundings with telekinesis, moving the vines without breaking them. The party’s wider discoveries remain in <a href=\"#viotas-monument\">Viota’s monument</a> and the <a href=\"#quest-continuation?section=continuation-viota\">quest history</a>; the scene does not resolve Viota’s complete identity.</p>",
+  "sections": [
+    {
+      "id": "saelihn-rebuilding",
+      "title": "Music and labor at the Common Man",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "Visible support and choices in the linked scenes; reported causes and unresolved identities retain their limits.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522658855002308759",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522662058745659493"
+        ]
+      }
+    },
+    {
+      "id": "saelihn-viota",
+      "title": "Restraint at Viota’s monument",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "Visible support and choices in the linked scenes; reported causes and unresolved identities retain their limits.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558342097549926432",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558344009414615061"
+        ]
+      }
+    }
+  ],
+  "image": "assets/characters/discord/e7cf94b3c15dd02c73de77371e4302f820a40908149d1cefc7dcc55a0b34ccf3.png",
+  "imageAlt": "Recorded depiction of Saelihn",
+  "imageCaption": "Saelihn",
+  "imageLayout": "portrait-hero"
+}

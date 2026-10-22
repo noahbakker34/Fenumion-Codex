@@ -52,7 +52,7 @@
     }).join('')}</nav>`;
   }
   function eventArt(item, context) {
-    if (item.importance !== 5) return '';
+    if (![4,5].includes(item.importance)) return '';
     const candidates = [context.byId.get(item.article), ...(item.regions || []).map(id => context.byId.get(regions.find(region => region.id === id)?.article))];
     const record = candidates.find(record => record?.image && !/\.gif(?:$|\?)/i.test(record.image) && !record.protected && context.allowed(record.id));
     const image = record?.image || 'assets/archive/narrative-history-background-poster.webp';
@@ -145,7 +145,7 @@
     music.querySelector('.music-toggle').setAttribute('aria-label','Open soundtrack controls');music.querySelector('.music-toggle').title='Soundtrack';vault.title='Spoiler vault';
     dock.append(music,vault);
     const approved=document.querySelector('.home-external-actions .approved-content-link');
-    if(approved){approved.innerHTML='<span aria-hidden="true">↗</span>';approved.title='Fenumion approved content';dock.append(approved);}
+    if(approved){approved.innerHTML='<span class="utility-control-label">Approved content</span><span aria-hidden="true">↗</span>';approved.title='Fenumion approved content';dock.append(approved);}
     document.body.append(dock);
   }
   window.CodexVisual={scopeIcon:level=>scopes[level]?svg(scopes[level]):'',monthIcon:number=>months[number-1]?svg(monthsOrnament(number)):'',eventArt,decorateArticle,decorateDialog,relationships,home,calendarNavigator,sourceRegions,decorateCards};

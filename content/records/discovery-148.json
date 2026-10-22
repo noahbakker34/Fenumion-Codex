@@ -2,29 +2,51 @@
   "id": "discovery-148",
   "title": "Breeda",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Pristinian resident and public-meeting participant",
+  "dek": "Supports the adventurers at the civic meeting and challenges criticism of their work.",
   "tags": [
     "Breeda",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
-    "Island": "Not established",
-    "Census posts": "8",
-    "Recorded span": "2024-05-13 → 2024-05-13",
+    "Role": "Pristinian resident and public-meeting participant",
+    "Island": "Prima",
+    "Original census posts": "8",
+    "Original census posting span": "2024-05-13 → 2024-05-13",
     "Prominence": "Unrated",
     "Recorded presence": "5/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2024-05-13 · https://discord.com/channels/1177270231513694249/1199083630354501673/1239619202235764836",
+    "Checked quest scene · 2024-05-13 · https://discord.com/channels/1177270231513694249/1199083630354501673/1239626061088555189",
+    "Checked quest scene · 2024-05-13 · https://discord.com/channels/1177270231513694249/1199083630354501673/1239648432730144849",
+    "Checked quest scene · 2024-05-13 · https://discord.com/channels/1177270231513694249/1199083630354501673/1239669581648232479",
+    "Portrait source · 2024-03-30 · https://discord.com/channels/1177270231513694249/1198721749030818044/1223756995367014442"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-148-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-148-record\">Archive record</h2><p>The census records 8 posts across 2024-05-13 → 2024-05-13. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239619202235764836\">Recorded scene · 1239619202235764836</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Supports the adventurers at the civic meeting and challenges criticism of their work.</p><h2 id=\"discovery-148-checked-history\">Recorded role and choices</h2><p>In the May 2024 meeting, Breeda votes in favor of giving the adventurers a chance and cites what they have already done for her and the town. She challenges Phelps by naming works such as the walls, range, farmland and apothecary. Her drinking and comic delivery remain part of the scene, while her documented civic intervention is kept as a consequential act rather than discarded as a joke.</p><h2 id=\"discovery-148-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-148-record\">Archive record</h2><p>The census records 8 posts across 2024-05-13 → 2024-05-13. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239619202235764836\">Recorded scene · 1239619202235764836</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-148-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1239619202235764836",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1239626061088555189",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1239648432730144849",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1239669581648232479"
+        ]
+      }
+    },
     {
       "id": "discovery-148-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +77,17 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "pristinia",
+    "npc-community-memory"
+  ],
+  "profile": {
+    "personality": "Supports the adventurers at the civic meeting and challenges criticism of their work.",
+    "achievements": "In the May 2024 meeting, Breeda votes in favor of giving the adventurers a chance and cites what they have already done for her and the town. She challenges Phelps by naming works such as the walls, range, farmland and apothecary. Her drinking and comic delivery remain part of the scene, while her documented civic intervention is kept as a consequential act rather than discarded as a joke."
+  },
+  "image": "assets/characters/discord/8168431c1ca2c377592f987727e606b1adf33efbece350c36d4d17e699b2674e.png",
+  "imageAlt": "Recorded depiction of Breeda",
+  "imageCaption": "Breeda",
+  "imageLayout": "portrait-hero"
 }

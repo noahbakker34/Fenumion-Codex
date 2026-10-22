@@ -13800,9 +13800,12 @@
       },
       {
         "title": "Saelihn",
-        "article": "quest-continuation",
-        "meta": "Adventurer · Viota expedition",
-        "summary": "Urges restraint around the watching child and cleans Viota’s monument without breaking its vines."
+        "article": "saelihn",
+        "meta": "Player character · psionic helper and careful explorer",
+        "summary": "A companion who supports the Common Man’s rebuilding and protects the living growth around Viota’s monument.",
+        "image": "assets/characters/discord/e7cf94b3c15dd02c73de77371e4302f820a40908149d1cefc7dcc55a0b34ccf3.png",
+        "imageAlt": "Recorded depiction of Saelihn",
+        "imageCaption": "Saelihn"
       },
       {
         "title": "Fredrick",
@@ -15236,6 +15239,436 @@
           "Miriel of the Emerald Veil",
           "Míriel"
         ]
+      },
+      {
+        "title": "Seravelle",
+        "article": "discovery-079",
+        "meta": "Guide at the Spiral",
+        "summary": "Guides the company through the Spiral and opens a route while the adventurers defend the ritual.",
+        "prominence": null,
+        "image": "assets/characters/discord/083048841ed41584d465a29c9c8a7da0ff29231ce3cbe247b32c1fc2d7e9f3ef.png",
+        "imageAlt": "Recorded depiction of Seravelle",
+        "imageCaption": "Seravelle"
+      },
+      {
+        "title": "Vigor",
+        "article": "discovery-101",
+        "meta": "Fiery antagonist in the company’s confrontation",
+        "summary": "Demands submission from the adventurers and attacks Akarian Irenhour and Saray with weapons of flame.",
+        "prominence": null,
+        "image": "assets/characters/discord/920e9de99dbba5c9944814f9673611eb2aeb14c4e209aec2e0d19353d19b14b2.png",
+        "imageAlt": "Recorded depiction of Vigor",
+        "imageCaption": "Vigor"
+      },
+      {
+        "title": "Samurai Osu",
+        "article": "discovery-130",
+        "meta": "Rahu guard and diplomatic host",
+        "summary": "Escorts visitors to Rahu planners and arranges their meetings with Yami no Majo and Yoshida.",
+        "prominence": null,
+        "image": "assets/characters/discord/85a5e8623626682a494f0510af8d270253d4aeab7af7e4ab6b4aa6046e3c69f6.png",
+        "imageAlt": "Recorded depiction of Samurai Osu",
+        "imageCaption": "Samurai Osu"
+      },
+      {
+        "title": "Vesperax",
+        "article": "discovery-159",
+        "meta": "Mothsphinx and temple examiner",
+        "summary": "Challenges visitors at Saturnia’s temple and opens the portal after they prove themselves.",
+        "prominence": null,
+        "image": "assets/characters/discord/724066540ebf17ad355f458fd89e8c20e9a437930601151eba06c194f966efaf.png",
+        "imageAlt": "Recorded depiction of Vesperax",
+        "imageCaption": "Vesperax"
+      },
+      {
+        "title": "Elverus Crepe",
+        "article": "discovery-195",
+        "meta": "Fog Courts curriculum and trial instructor",
+        "summary": "Oversees the apprentices’ ability trials and leads them into the combat examination.",
+        "prominence": null,
+        "image": "assets/characters/discord/0c54bae3569b05d476880ac12b74f1c3a1eb31d751c0874113e1fad2283525a9.png",
+        "imageAlt": "Recorded depiction of Elverus Crepe",
+        "imageCaption": "Elverus Crepe"
+      },
+      {
+        "title": "Alvis Tumbletor",
+        "article": "discovery-228",
+        "meta": "Fog Courts graduation announcer",
+        "summary": "Announces the trial results, naming Sombra, Carmen and Adgrim as the leading graduates.",
+        "prominence": null,
+        "image": "assets/characters/discord/4e5e5f5a7ba22391dac015c788f9001cc33266f188010713eee349b923d3da44.png",
+        "imageAlt": "Recorded depiction of Alvis Tumbletor",
+        "imageCaption": "Alvis Tumbletor"
+      },
+      {
+        "title": "Mirae, Emerald Veil Librarian",
+        "article": "discovery-237",
+        "meta": "Emerald Veil librarian",
+        "summary": "Offers Scribonia access to a local library during the Zarathian guild visit.",
+        "prominence": null,
+        "image": "assets/characters/discord/bb25dfa455c54269bd37f9852e25cce3e7beb3302c551622e83dfb78cff617fc.png",
+        "imageAlt": "Recorded depiction of Mirae, Emerald Veil Librarian",
+        "imageCaption": "Mirae, Emerald Veil Librarian"
+      },
+      {
+        "title": "Fenwae, Silver Star Stone Mason",
+        "article": "discovery-260",
+        "meta": "Silver Star mason and quarry guide",
+        "summary": "Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.",
+        "prominence": null,
+        "image": "assets/characters/discord/e7722ab63d4c328fa6a41ce5943273b925cbd305da57bd0534e563a588970f37.png",
+        "imageAlt": "Recorded depiction of Fenwae, Silver Star Stone Mason",
+        "imageCaption": "Fenwae, Silver Star Stone Mason"
+      },
+      {
+        "title": "Zeke, Radiant Dawn Sailor",
+        "article": "discovery-281",
+        "meta": "Radiant Dawn sailor and cultural host",
+        "summary": "Introduces Wren and Elenia to the fleet and explains his guild’s view of exploration.",
+        "prominence": null,
+        "image": "assets/characters/discord/8a88a4cf131c6aa21c4b92cb57168b21a087fc1f2d4dbf07b1fb9485efb07f4b.png",
+        "imageAlt": "Recorded depiction of Zeke, Radiant Dawn Sailor",
+        "imageCaption": "Zeke, Radiant Dawn Sailor"
+      },
+      {
+        "title": "Archdruid Thalindra Were-sage",
+        "article": "discovery-284",
+        "meta": "Verdant Circle nomination speaker",
+        "summary": "Presents Lady Lucent as the Verdant Circle’s proposed leader.",
+        "prominence": null,
+        "image": "assets/characters/discord/c2a6aea2def8a7d785d7862a0ba54c69a2b14711a0f8e3fcc381127110a18a41.png",
+        "imageAlt": "Recorded depiction of Archdruid Thalindra Were-sage",
+        "imageCaption": "Archdruid Thalindra Were-sage"
+      },
+      {
+        "title": "High Lady Liraeth Dawnbringer",
+        "article": "discovery-296",
+        "meta": "Radiant Dawn nomination speaker",
+        "summary": "Nominates Lady Arandiel while invoking Aria’s example of courage.",
+        "prominence": null,
+        "image": "assets/characters/discord/8f8efcc1f5cecf98b5abeff5da01fda95111f3105824c809448f8d3504ca58d1.png",
+        "imageAlt": "Recorded depiction of High Lady Liraeth Dawnbringer",
+        "imageCaption": "High Lady Liraeth Dawnbringer"
+      },
+      {
+        "title": "Lord Aldamir Silvertaine",
+        "article": "discovery-299",
+        "meta": "Emerald Veil nomination speaker",
+        "summary": "Announces Magnus Niriin as the Emerald Veil’s champion.",
+        "prominence": null,
+        "image": "assets/characters/discord/7b2326062c3f54e1abd208370c02e9a80c9ffd48a4d7157ea2dbb93b73e628e2.png",
+        "imageAlt": "Recorded depiction of Lord Aldamir Silvertaine",
+        "imageCaption": "Lord Aldamir Silvertaine"
+      },
+      {
+        "title": "Shogun Yoshida",
+        "article": "discovery-312",
+        "meta": "Rahu lead architect",
+        "summary": "Explains inherited building craft to Alyhotep; Shogun is explicitly a joking title.",
+        "prominence": null,
+        "image": "assets/characters/discord/05b9eddb8b580395478681fd496e728b1c33c6f33c57ec75f2b754f1fb96b614.png",
+        "imageAlt": "Recorded depiction of Shogun Yoshida",
+        "imageCaption": "Shogun Yoshida"
+      },
+      {
+        "title": "Vinerba Bebonical",
+        "article": "discovery-321",
+        "meta": "Fog Courts apprenticeship host",
+        "summary": "Welcomes the candidates and explains the five-day structure of the Fog Courts trials.",
+        "prominence": null,
+        "image": "assets/characters/discord/b9f7edf056e4b6fab4d14169f95092da02b4e585ea1216608910e93e6e7564e7.png",
+        "imageAlt": "Recorded depiction of Vinerba Bebonical",
+        "imageCaption": "Vinerba Bebonical"
+      },
+      {
+        "title": "Henry",
+        "article": "discovery-051",
+        "meta": "Child member of the hag-investigation club",
+        "summary": "Helps the adventurers understand the children’s investigation and possible coven locations.",
+        "prominence": null,
+        "image": "assets/characters/discord/63b5cf12dcc9331e79efc5352d6983f42bbf0bbe1311ef9c53721029bec9ed51.png",
+        "imageAlt": "Recorded depiction of Henry",
+        "imageCaption": "Henry"
+      },
+      {
+        "title": "Olga",
+        "article": "discovery-053",
+        "meta": "Child member of the hag-investigation club",
+        "summary": "Contributes evidence to the children’s investigation and later receives the visitors in grief.",
+        "prominence": null,
+        "image": "assets/characters/discord/4bf8642b2d24010ecf86588bfb225bd00ee958796def25fb1510636f08422e33.png",
+        "imageAlt": "Recorded depiction of Olga",
+        "imageCaption": "Olga"
+      },
+      {
+        "title": "Jeremy",
+        "article": "discovery-074",
+        "meta": "Child investigator and coven-map witness",
+        "summary": "Defends his friends and shares the children’s suspected Infernum Coven location.",
+        "prominence": null,
+        "image": "assets/characters/discord/26435e3c34e92f80659ba5fb3f0d2f8cec97db7f8f28437012e42d965f16bf05.png",
+        "imageAlt": "Recorded depiction of Jeremy",
+        "imageCaption": "Jeremy"
+      },
+      {
+        "title": "Kain",
+        "article": "discovery-075",
+        "meta": "Child investigator and hag witness",
+        "summary": "Explains the children’s concerns about disguises, covens and attacks on the town.",
+        "prominence": null,
+        "image": "assets/characters/discord/ffc287b015a3930bbbff19d2c0d6d554ee20084438a5fec1b3a88c7c5d2bf0e9.png",
+        "imageAlt": "Recorded depiction of Kain",
+        "imageCaption": "Kain"
+      },
+      {
+        "title": "Cutlass Carlie",
+        "article": "discovery-095",
+        "meta": "Sailor accompanying the January expedition",
+        "summary": "Works alongside the adventurers and acknowledges their success after the fight.",
+        "prominence": null,
+        "image": "assets/characters/discord/ddc078a9733dd7d89a817d50a245c1abfdf9bff8fa01346e60826fd9f1319e42.png",
+        "imageAlt": "Recorded depiction of Cutlass Carlie",
+        "imageCaption": "Cutlass Carlie"
+      },
+      {
+        "title": "Heimdol",
+        "article": "discovery-096",
+        "meta": "Lantern-bearing squirrel and spirit guide",
+        "summary": "Helps the company understand a trapped spirit and urges them to release the suffering dead.",
+        "prominence": null,
+        "image": "assets/characters/discord/40851a5dac762d260e75e10600e30f33b5688f589ae59a184ce8d003ae7f6962.png",
+        "imageAlt": "Recorded depiction of Heimdol",
+        "imageCaption": "Heimdol"
+      },
+      {
+        "title": "Vys",
+        "article": "discovery-109",
+        "meta": "Anti-Zarathian speaker and claimant of Tiamat’s visions",
+        "summary": "Advocates opening rifts and describes a hoped-for liberation through Tiamat.",
+        "prominence": null,
+        "image": "assets/characters/discord/9e09585de946e9fa887d9f2700f8f63d24697fd7b1146722df4ee29db80f146c.png",
+        "imageAlt": "Recorded depiction of Vys",
+        "imageCaption": "Vys"
+      },
+      {
+        "title": "Spade",
+        "article": "discovery-156",
+        "meta": "Pirate negotiator in the hostage exchange",
+        "summary": "Uses Edgar as leverage while insisting that the company release the captain.",
+        "prominence": null,
+        "image": "assets/characters/discord/a4fee17e4524818a97e78d0d6e08fe0e5fa378d7e487a56d22523c5cd84c4333.png",
+        "imageAlt": "Recorded depiction of Spade",
+        "imageCaption": "Spade"
+      },
+      {
+        "title": "Cyrus",
+        "article": "discovery-180",
+        "meta": "Confessed author of a correspondence scam",
+        "summary": "Admits that he sought money by deceiving people through letters.",
+        "prominence": null,
+        "image": "assets/characters/discord/346bf9c63f1c9951b3618ccf0460b456fcb5bffb5102f3a3283ef3967b508553.png",
+        "imageAlt": "Recorded depiction of Cyrus",
+        "imageCaption": "Cyrus"
+      },
+      {
+        "title": "Crimson Joe",
+        "article": "discovery-194",
+        "meta": "Ship captain recorded also introducing himself as John",
+        "summary": "Oversees a voyage’s inspection and prepares to hand over command on reaching the island.",
+        "prominence": null,
+        "image": "assets/characters/discord/eee4a8783d44f92d1b9dda1ca80263e35a5645101fdd4169d5716fad868dbffa.png",
+        "imageAlt": "Recorded depiction of Crimson Joe",
+        "imageCaption": "Crimson Joe"
+      },
+      {
+        "title": "Gretchen",
+        "article": "discovery-198",
+        "meta": "Civilian spokesperson in the May rescue scene",
+        "summary": "Names herself and explains the practical skills of the people the adventurers are trying to help.",
+        "prominence": null,
+        "image": "assets/characters/discord/057406e09bc693844820d308bc89e7807d5e69682b26f86ab09dca961f2e6638.png",
+        "imageAlt": "Recorded depiction of Gretchen",
+        "imageCaption": "Gretchen"
+      },
+      {
+        "title": "Cynthia",
+        "article": "discovery-211",
+        "meta": "Spirit connected to Simon’s story",
+        "summary": "Describes a brief bodily return and the relationship she feared would hurt Simon.",
+        "prominence": null,
+        "image": "assets/characters/discord/d0622de1e0097b52093063d95c9637d28cdb6044a09c3aef6e8ae202a5f7fded.png",
+        "imageAlt": "Recorded depiction of Cynthia",
+        "imageCaption": "Cynthia"
+      },
+      {
+        "title": "Jacks",
+        "article": "discovery-215",
+        "meta": "Pirate participant in the hostage exchange",
+        "summary": "Insists on the crew’s terms and accompanies the attempt to recover the captain.",
+        "prominence": null,
+        "image": "assets/characters/discord/5be47cc01e3cf2b50b6e6421c604e84f8fb855d82273db7ed42b5811b8aed99f.png",
+        "imageAlt": "Recorded depiction of Jacks",
+        "imageCaption": "Jacks"
+      },
+      {
+        "title": "Raferty",
+        "article": "discovery-223",
+        "meta": "Pirate in the hostage-exchange standoff",
+        "summary": "Greets the captain and uses the crew’s numerical advantage as a threat.",
+        "prominence": null,
+        "image": "assets/characters/discord/a054d8a95570a9dd42701067e25d1e6fe8fdb6d095c619beb632afecf788e97d.png",
+        "imageAlt": "Recorded depiction of Raferty",
+        "imageCaption": "Raferty"
+      },
+      {
+        "title": "Gertrude",
+        "article": "discovery-136",
+        "meta": "Hag confronting the adventurers",
+        "summary": "Fights in the repeated hag encounters and taunts those trying to stop her.",
+        "prominence": null,
+        "image": "assets/characters/discord/94bce98b63aea8621ebc2356d214bb8fe4eae856ef77d82944c7b12805b2da93.png",
+        "imageAlt": "Recorded depiction of Gertrude",
+        "imageCaption": "Gertrude"
+      },
+      {
+        "title": "Concha",
+        "article": "discovery-163",
+        "meta": "Hag in the coven encounters",
+        "summary": "Attacks the company, including in a transformed body, and returns in later confrontations.",
+        "prominence": null,
+        "image": "assets/characters/discord/4da1cccabdfddf09ce7c6fcb8bdda8f0402ec1d9d249d1e9d46bb025ba46d4f4.png",
+        "imageAlt": "Recorded depiction of Concha",
+        "imageCaption": "Concha"
+      },
+      {
+        "title": "Baba Yagá",
+        "article": "discovery-176",
+        "meta": "Hag threatening the forest expedition",
+        "summary": "Warns the party away, attacks through a blizzard and later reacts to damage to her home.",
+        "prominence": null,
+        "image": "assets/characters/discord/20b5ebc55b51311363bcb93d74f73c8caa215aca8cb48b04800e7da70984234e.png",
+        "imageAlt": "Recorded depiction of Baba Yagá",
+        "imageCaption": "Baba Yagá"
+      },
+      {
+        "title": "Maritxu",
+        "article": "discovery-235",
+        "meta": "Hag supporting another attacker",
+        "summary": "Joins the coven fight and casts a spell on a wounded fellow hag.",
+        "prominence": null,
+        "image": "assets/characters/discord/98f2cced4f9bedb0ef75c1c0d05cf2f84f1f0a73cf5cd4aacebb2b612c4c4089.png",
+        "imageAlt": "Recorded depiction of Maritxu",
+        "imageCaption": "Maritxu"
+      },
+      {
+        "title": "Sorrel",
+        "article": "discovery-274",
+        "meta": "Hag overseeing and joining the confrontations",
+        "summary": "Criticizes the other witches and later steps forward against the adventurers herself.",
+        "prominence": null,
+        "image": "assets/characters/discord/5dda3912bcb58bd40af990627a87d81ede74819a3376d8398caa7ec74ad2905a.png",
+        "imageAlt": "Recorded depiction of Sorrel",
+        "imageCaption": "Sorrel"
+      },
+      {
+        "title": "Gulen",
+        "article": "discovery-115",
+        "meta": "Smith and Thera’s father",
+        "summary": "Faces stalled supplies at the forge while trying to protect his daughter from the mist.",
+        "prominence": null,
+        "image": "assets/characters/discord/be5d3b967e949478cdefcc24fbef70a858658cd3ffb3c1e5a4a756541bd1f260.png",
+        "imageAlt": "Recorded depiction of Gulen",
+        "imageCaption": "Gulen"
+      },
+      {
+        "title": "Thera",
+        "article": "discovery-206",
+        "meta": "Gulen’s daughter and witness to the mist",
+        "summary": "Insists that she hears her lost mother calling from the mist.",
+        "prominence": null,
+        "image": "assets/characters/discord/309a40b835e3307f71b5906d731b256de2ba029a2fc9adb9c523a5986f5ab42f.png",
+        "imageAlt": "Recorded depiction of Thera",
+        "imageCaption": "Thera"
+      },
+      {
+        "title": "Ransnap Rivera",
+        "article": "discovery-143",
+        "meta": "Husband seeking help after a disappearance",
+        "summary": "Brings a riddle and his missing wife’s belongings to the adventurers’ investigation.",
+        "prominence": null,
+        "image": "assets/characters/discord/13271ef37b778e7698d7d0177724b95341f95a52ace69311f29482b7edf90d49.png",
+        "imageAlt": "Recorded depiction of Ransnap Rivera",
+        "imageCaption": "Ransnap Rivera"
+      },
+      {
+        "title": "Breeda",
+        "article": "discovery-148",
+        "meta": "Pristinian resident and public-meeting participant",
+        "summary": "Supports the adventurers at the civic meeting and challenges criticism of their work.",
+        "prominence": null,
+        "image": "assets/characters/discord/8168431c1ca2c377592f987727e606b1adf33efbece350c36d4d17e699b2674e.png",
+        "imageAlt": "Recorded depiction of Breeda",
+        "imageCaption": "Breeda"
+      },
+      {
+        "title": "Vin the Informant",
+        "article": "discovery-190",
+        "meta": "Contract writer and source of local information",
+        "summary": "Helps arrange written terms and explains claimed limits on the supply of magical components.",
+        "prominence": null,
+        "image": "assets/characters/discord/1ad297c43fb5038cae48af07c36e0d6f75d92a28a77fc6b5970b166ced49b8ba.png",
+        "imageAlt": "Recorded depiction of Vin the Informant",
+        "imageCaption": "Vin the Informant"
+      },
+      {
+        "title": "Acalan",
+        "article": "discovery-160",
+        "meta": "Religious interlocutor at the Cala gathering",
+        "summary": "Argues with the visitors about service, moral responsibility and the Rahu.",
+        "prominence": null,
+        "image": "assets/characters/discord/99417ddd6656baa2a17f0cc345ef56b845ba9c08beaff553f61e7610e38a602e.png",
+        "imageAlt": "Recorded depiction of Acalan",
+        "imageCaption": "Acalan"
+      },
+      {
+        "title": "Yaolel",
+        "article": "discovery-081",
+        "meta": "Religious challenger at the Cala gathering",
+        "summary": "Confronts Camilla and proposes a plan she believes could defeat the Rahu.",
+        "prominence": null,
+        "image": "assets/characters/discord/69d4e4dd18ccff80c449c87c79a0ee051ac11dbd4165b15db80fec689569654d.png",
+        "imageAlt": "Recorded depiction of Yaolel",
+        "imageCaption": "Yaolel"
+      },
+      {
+        "title": "Amaira",
+        "article": "discovery-112",
+        "meta": "Mermaid freed with the company’s help",
+        "summary": "Thanks her rescuers, recovers her pendant and returns to the sea with her companions.",
+        "prominence": null,
+        "image": "assets/characters/discord/c19023077ff3299fcb65aaac12f14424d856d5cd60f4ed7f358407c81ad0b17c.png",
+        "imageAlt": "Recorded depiction of Amaira",
+        "imageCaption": "Amaira"
+      },
+      {
+        "title": "Nila",
+        "article": "discovery-120",
+        "meta": "Mermaid recorded under an uncertain given name",
+        "summary": "Returns to the sea after the rescue and shares a gentler farewell with Oleander and Briar.",
+        "prominence": null,
+        "image": "assets/characters/discord/066b679229109c7c38dc49efd051f91f0c1102d87db0e5c5e859e678c9bd341d.png",
+        "imageAlt": "Recorded depiction of Nila",
+        "imageCaption": "The rescued mermaid recorded as Nila · her true name remains unconfirmed."
+      },
+      {
+        "title": "Bhuvika",
+        "article": "discovery-178",
+        "meta": "Mermaid resisting captivity",
+        "summary": "Defies the people holding her and leaves with the freed companions.",
+        "prominence": null,
+        "image": "assets/characters/discord/a6f5a8688931b72208140da43f077bb48d48aafdfe56eb24f8ba9683b98a13ab.png",
+        "imageAlt": "Recorded depiction of Bhuvika",
+        "imageCaption": "Bhuvika"
       }
     ],
     "islands": [
@@ -17449,12 +17882,32 @@
               "article": "kaiya-dragonsister"
             },
             {
+              "label": "Karnak von Runcandel",
+              "article": "karnak"
+            },
+            {
+              "label": "Kazhinju",
+              "article": "kazhinju"
+            },
+            {
               "label": "Krone",
               "article": "krone"
             },
             {
+              "label": "Kumai-218",
+              "article": "kumai-218"
+            },
+            {
               "label": "Lady Severina",
               "article": "lady-severina"
+            },
+            {
+              "label": "Lucido Spettoro",
+              "article": "lucido"
+            },
+            {
+              "label": "Mama Tabitha",
+              "article": "mama-tabitha"
             },
             {
               "label": "Melian Starguard",
@@ -17473,6 +17926,10 @@
               "article": "murr"
             },
             {
+              "label": "Míriel of the Emerald Veil",
+              "article": "miriel-emerald-veil"
+            },
+            {
               "label": "Nienna",
               "article": "nienna"
             },
@@ -17489,12 +17946,24 @@
               "article": "pappy"
             },
             {
+              "label": "Pelegia",
+              "article": "pelegia"
+            },
+            {
               "label": "Quake",
               "article": "quake"
             },
             {
+              "label": "Rolen Ofandrus",
+              "article": "rolen"
+            },
+            {
               "label": "Ryvyt",
               "article": "ryvyt"
+            },
+            {
+              "label": "Saelihn",
+              "article": "saelihn"
             },
             {
               "label": "Saray",
@@ -17545,6 +18014,10 @@
               "article": "tobias"
             },
             {
+              "label": "Tshuka Hayim",
+              "article": "tshuka-hayim"
+            },
+            {
               "label": "Vaemyr",
               "article": "vaemyr"
             },
@@ -17567,42 +18040,6 @@
             {
               "label": "Yami no Majo",
               "article": "yami-no-majo"
-            },
-            {
-              "label": "Kumai-218",
-              "article": "kumai-218"
-            },
-            {
-              "label": "Mama Tabitha",
-              "article": "mama-tabitha"
-            },
-            {
-              "label": "Kazhinju",
-              "article": "kazhinju"
-            },
-            {
-              "label": "Rolen Ofandrus",
-              "article": "rolen"
-            },
-            {
-              "label": "Karnak von Runcandel",
-              "article": "karnak"
-            },
-            {
-              "label": "Pelegia",
-              "article": "pelegia"
-            },
-            {
-              "label": "Míriel of the Emerald Veil",
-              "article": "miriel-emerald-veil"
-            },
-            {
-              "label": "Tshuka Hayim",
-              "article": "tshuka-hayim"
-            },
-            {
-              "label": "Lucido Spettoro",
-              "article": "lucido"
             }
           ]
         },
@@ -22555,6 +22992,13 @@
         "Guide",
         "Connected Histories",
         "Babel-Ashur · Keeping a Foothold"
+      ]
+    ],
+    [
+      "saelihn",
+      [
+        "Characters",
+        "Saelihn"
       ]
     ]
   ],
@@ -29716,6 +30160,18 @@
         {
           "name": "Rahu Envoy Rin",
           "basis": "Rahu envoy · recorded regional connection"
+        },
+        {
+          "name": "Samurai Osu",
+          "basis": "Rahu guard and diplomatic host · checked scenes"
+        },
+        {
+          "name": "Shogun Yoshida",
+          "basis": "Rahu lead architect · checked scenes"
+        },
+        {
+          "name": "Breeda",
+          "basis": "Pristinian resident and public-meeting participant · checked scenes"
         }
       ]
     },
@@ -29759,6 +30215,18 @@
         {
           "name": "Míriel of the Emerald Veil",
           "basis": "Zarathian cultural and political service"
+        },
+        {
+          "name": "Mirae, Emerald Veil Librarian",
+          "basis": "Emerald Veil librarian · checked scenes"
+        },
+        {
+          "name": "Fenwae, Silver Star Stone Mason",
+          "basis": "Silver Star mason and quarry guide · checked scenes"
+        },
+        {
+          "name": "Zeke, Radiant Dawn Sailor",
+          "basis": "Radiant Dawn sailor and cultural host · checked scenes"
         }
       ]
     },
@@ -30850,13 +31318,13 @@
       {
         "id": "discovery-051",
         "name": "Henry",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Child member of the hag-investigation club",
+        "summary": "Helps the adventurers understand the children’s investigation and possible coven locations.",
         "island": "",
         "posts": 19,
         "span": "2025-07-05 → 2026-02-21",
-        "canonical": "",
+        "canonical": "discovery-051",
         "canonicalName": "Henry",
         "sources": [
           "1391203729759277118"
@@ -30882,13 +31350,13 @@
       {
         "id": "discovery-053",
         "name": "Olga",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Child member of the hag-investigation club",
+        "summary": "Contributes evidence to the children’s investigation and later receives the visitors in grief.",
         "island": "",
         "posts": 19,
         "span": "2025-07-05 → 2026-02-21",
-        "canonical": "",
+        "canonical": "discovery-053",
         "canonicalName": "Olga",
         "sources": [
           "1391214034837307392"
@@ -31263,13 +31731,13 @@
       {
         "id": "discovery-074",
         "name": "Jeremy",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Child investigator and coven-map witness",
+        "summary": "Defends his friends and shares the children’s suspected Infernum Coven location.",
         "island": "",
         "posts": 15,
         "span": "2025-07-05 → 2026-02-21",
-        "canonical": "",
+        "canonical": "discovery-074",
         "canonicalName": "Jeremy",
         "sources": [
           "1391211866801311909"
@@ -31280,13 +31748,13 @@
       {
         "id": "discovery-075",
         "name": "Kain",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Child investigator and hag witness",
+        "summary": "Explains the children’s concerns about disguises, covens and attacks on the town.",
         "island": "",
         "posts": 15,
         "span": "2025-07-05 → 2026-02-21",
-        "canonical": "",
+        "canonical": "discovery-075",
         "canonicalName": "Kain",
         "sources": [
           "1391216212154912789"
@@ -31348,13 +31816,13 @@
       {
         "id": "discovery-079",
         "name": "Seravelle",
-        "kind": "encounter",
-        "role": "Guiding presence",
-        "summary": "Describes the present vessel as a guide. Further identity is not established.",
+        "kind": "npc",
+        "role": "Guide at the Spiral",
+        "summary": "Guides the company through the Spiral and opens a route while the adventurers defend the ritual.",
         "island": "",
         "posts": 15,
         "span": "2024-12-03 → 2024-12-10",
-        "canonical": "",
+        "canonical": "discovery-079",
         "canonicalName": "Seravelle",
         "sources": [
           "1313698858596831333"
@@ -31382,13 +31850,13 @@
       {
         "id": "discovery-081",
         "name": "Yaolel",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Religious challenger at the Cala gathering",
+        "summary": "Confronts Camilla and proposes a plan she believes could defeat the Rahu.",
         "island": "",
         "posts": 15,
         "span": "2026-02-05 → 2026-02-05",
-        "canonical": "",
+        "canonical": "discovery-081",
         "canonicalName": "Yaolel",
         "sources": [
           "1469154466069610639"
@@ -31634,13 +32102,13 @@
       {
         "id": "discovery-095",
         "name": "Cutlass Carlie",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Sailor accompanying the January expedition",
+        "summary": "Works alongside the adventurers and acknowledges their success after the fight.",
         "island": "",
         "posts": 13,
         "span": "2025-01-21 → 2025-01-21",
-        "canonical": "",
+        "canonical": "discovery-095",
         "canonicalName": "Cutlass Carlie",
         "sources": [
           "1331417343573889086"
@@ -31651,13 +32119,13 @@
       {
         "id": "discovery-096",
         "name": "Heimdol",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Lantern-bearing squirrel and spirit guide",
+        "summary": "Helps the company understand a trapped spirit and urges them to release the suffering dead.",
         "island": "",
         "posts": 13,
         "span": "2025-06-10 → 2025-06-10",
-        "canonical": "",
+        "canonical": "discovery-096",
         "canonicalName": "Heimdol",
         "sources": [
           "1382180190704111697"
@@ -31736,13 +32204,13 @@
       {
         "id": "discovery-101",
         "name": "Vigor",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Fiery antagonist in the company’s confrontation",
+        "summary": "Demands submission from the adventurers and attacks Akarian Irenhour and Saray with weapons of flame.",
         "island": "",
         "posts": 13,
         "span": "2025-04-23 → 2025-04-23",
-        "canonical": "",
+        "canonical": "discovery-101",
         "canonicalName": "Vigor",
         "sources": [
           "1364740517690347550"
@@ -31888,13 +32356,13 @@
       {
         "id": "discovery-109",
         "name": "Vys",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Anti-Zarathian speaker and claimant of Tiamat’s visions",
+        "summary": "Advocates opening rifts and describes a hoped-for liberation through Tiamat.",
         "island": "",
         "posts": 12,
         "span": "2025-03-14 → 2025-03-14",
-        "canonical": "",
+        "canonical": "discovery-109",
         "canonicalName": "Vys",
         "sources": [
           "1350307396626681907"
@@ -31939,13 +32407,13 @@
       {
         "id": "discovery-112",
         "name": "Amaira",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Mermaid freed with the company’s help",
+        "summary": "Thanks her rescuers, recovers her pendant and returns to the sea with her companions.",
         "island": "",
         "posts": 11,
         "span": "2025-07-25 → 2025-08-07",
-        "canonical": "",
+        "canonical": "discovery-112",
         "canonicalName": "Amaira",
         "sources": [
           "1398482186000138362"
@@ -31998,13 +32466,13 @@
       {
         "id": "discovery-115",
         "name": "Gulen",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Smith and Thera’s father",
+        "summary": "Faces stalled supplies at the forge while trying to protect his daughter from the mist.",
         "island": "",
         "posts": 11,
         "span": "2026-04-14 → 2026-04-14",
-        "canonical": "",
+        "canonical": "discovery-115",
         "canonicalName": "Gulen",
         "sources": [
           "1493661557714845758"
@@ -32083,13 +32551,13 @@
       {
         "id": "discovery-120",
         "name": "Nila",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Mermaid recorded under an uncertain given name",
+        "summary": "Returns to the sea after the rescue and shares a gentler farewell with Oleander and Briar.",
         "island": "",
         "posts": 11,
         "span": "2025-07-25 → 2025-08-07",
-        "canonical": "",
+        "canonical": "discovery-120",
         "canonicalName": "Nila",
         "sources": [
           "1398460267217813710"
@@ -32265,13 +32733,13 @@
       {
         "id": "discovery-130",
         "name": "Samurai Osu",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-        "island": "",
+        "kind": "npc",
+        "role": "Rahu guard and diplomatic host",
+        "summary": "Escorts visitors to Rahu planners and arranges their meetings with Yami no Majo and Yoshida.",
+        "island": "Prima",
         "posts": 10,
         "span": "2024-08-18 → 2024-08-20",
-        "canonical": "",
+        "canonical": "discovery-130",
         "canonicalName": "Samurai Osu",
         "sources": [
           "1274900790095646750"
@@ -32375,13 +32843,13 @@
       {
         "id": "discovery-136",
         "name": "Gertrude",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Hag confronting the adventurers",
+        "summary": "Fights in the repeated hag encounters and taunts those trying to stop her.",
         "island": "",
         "posts": 9,
         "span": "2025-09-01 → 2025-11-29",
-        "canonical": "",
+        "canonical": "discovery-136",
         "canonicalName": "Gertrude",
         "sources": [
           "1412231108107567194"
@@ -32498,13 +32966,13 @@
       {
         "id": "discovery-143",
         "name": "Ransnap Rivera",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Husband seeking help after a disappearance",
+        "summary": "Brings a riddle and his missing wife’s belongings to the adventurers’ investigation.",
         "island": "",
         "posts": 9,
         "span": "2024-10-16 → 2024-10-16",
-        "canonical": "",
+        "canonical": "discovery-143",
         "canonicalName": "Ransnap Rivera",
         "sources": [
           "1296255214323634309"
@@ -32581,13 +33049,13 @@
       {
         "id": "discovery-148",
         "name": "Breeda",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-        "island": "",
+        "kind": "npc",
+        "role": "Pristinian resident and public-meeting participant",
+        "summary": "Supports the adventurers at the civic meeting and challenges criticism of their work.",
+        "island": "Prima",
         "posts": 8,
         "span": "2024-05-13 → 2024-05-13",
-        "canonical": "",
+        "canonical": "discovery-148",
         "canonicalName": "Breeda",
         "sources": [
           "1239619202235764836"
@@ -32723,13 +33191,13 @@
       {
         "id": "discovery-156",
         "name": "Spade",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Pirate negotiator in the hostage exchange",
+        "summary": "Uses Edgar as leverage while insisting that the company release the captain.",
         "island": "",
         "posts": 8,
         "span": "2025-07-11 → 2025-07-11",
-        "canonical": "",
+        "canonical": "discovery-156",
         "canonicalName": "Spade",
         "sources": [
           "1393417111119859923"
@@ -32772,13 +33240,13 @@
       {
         "id": "discovery-159",
         "name": "Vesperax",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Mothsphinx and temple examiner",
+        "summary": "Challenges visitors at Saturnia’s temple and opens the portal after they prove themselves.",
         "island": "",
         "posts": 8,
         "span": "2026-05-30 → 2026-05-30",
-        "canonical": "",
+        "canonical": "discovery-159",
         "canonicalName": "Vesperax",
         "sources": [
           "1510395255734669363"
@@ -32789,13 +33257,13 @@
       {
         "id": "discovery-160",
         "name": "Acalan",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Religious interlocutor at the Cala gathering",
+        "summary": "Argues with the visitors about service, moral responsibility and the Rahu.",
         "island": "",
         "posts": 7,
         "span": "2026-02-05 → 2026-02-05",
-        "canonical": "",
+        "canonical": "discovery-160",
         "canonicalName": "Acalan",
         "sources": [
           "1469176363716968690"
@@ -32840,13 +33308,13 @@
       {
         "id": "discovery-163",
         "name": "Concha",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Hag in the coven encounters",
+        "summary": "Attacks the company, including in a transformed body, and returns in later confrontations.",
         "island": "",
         "posts": 7,
         "span": "2025-04-26 → 2025-11-29",
-        "canonical": "",
+        "canonical": "discovery-163",
         "canonicalName": "Concha",
         "sources": [
           "1365859478733586544"
@@ -33065,13 +33533,13 @@
       {
         "id": "discovery-176",
         "name": "Baba Yagá",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Hag threatening the forest expedition",
+        "summary": "Warns the party away, attacks through a blizzard and later reacts to damage to her home.",
         "island": "",
         "posts": 6,
         "span": "2025-04-26 → 2026-04-27",
-        "canonical": "",
+        "canonical": "discovery-176",
         "canonicalName": "Baba Yagá",
         "sources": [
           "1365890054983258162"
@@ -33099,13 +33567,13 @@
       {
         "id": "discovery-178",
         "name": "Bhuvika",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Mermaid resisting captivity",
+        "summary": "Defies the people holding her and leaves with the freed companions.",
         "island": "",
         "posts": 6,
         "span": "2025-07-25 → 2025-08-07",
-        "canonical": "",
+        "canonical": "discovery-178",
         "canonicalName": "Bhuvika",
         "sources": [
           "1398466457159077898"
@@ -33141,13 +33609,13 @@
       {
         "id": "discovery-180",
         "name": "Cyrus",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Confessed author of a correspondence scam",
+        "summary": "Admits that he sought money by deceiving people through letters.",
         "island": "",
         "posts": 6,
         "span": "2025-03-04 → 2025-03-04",
-        "canonical": "",
+        "canonical": "discovery-180",
         "canonicalName": "Cyrus",
         "sources": [
           "1346677314163052655"
@@ -33311,13 +33779,13 @@
       {
         "id": "discovery-190",
         "name": "Vin the Informant",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Contract writer and source of local information",
+        "summary": "Helps arrange written terms and explains claimed limits on the supply of magical components.",
         "island": "",
         "posts": 6,
         "span": "2025-01-04 → 2025-01-04",
-        "canonical": "",
+        "canonical": "discovery-190",
         "canonicalName": "Vin the Informant",
         "sources": [
           "1325350093163069552"
@@ -33387,13 +33855,13 @@
       {
         "id": "discovery-194",
         "name": "Crimson Joe",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Ship captain recorded also introducing himself as John",
+        "summary": "Oversees a voyage’s inspection and prepares to hand over command on reaching the island.",
         "island": "",
         "posts": 5,
         "span": "2025-04-05 → 2025-04-05",
-        "canonical": "",
+        "canonical": "discovery-194",
         "canonicalName": "Crimson Joe",
         "sources": [
           "1358261369081823342"
@@ -33404,13 +33872,13 @@
       {
         "id": "discovery-195",
         "name": "Elverus Crepe",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Fog Courts curriculum and trial instructor",
+        "summary": "Oversees the apprentices’ ability trials and leads them into the combat examination.",
         "island": "",
         "posts": 5,
         "span": "2024-08-31 → 2024-08-31",
-        "canonical": "",
+        "canonical": "discovery-195",
         "canonicalName": "Elverus Crepe",
         "sources": [
           "1279579037756428401"
@@ -33455,13 +33923,13 @@
       {
         "id": "discovery-198",
         "name": "Gretchen",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Civilian spokesperson in the May rescue scene",
+        "summary": "Names herself and explains the practical skills of the people the adventurers are trying to help.",
         "island": "",
         "posts": 5,
         "span": "2025-05-31 → 2025-05-31",
-        "canonical": "",
+        "canonical": "discovery-198",
         "canonicalName": "Gretchen",
         "sources": [
           "1378536091858243656"
@@ -33597,13 +34065,13 @@
       {
         "id": "discovery-206",
         "name": "Thera",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Gulen’s daughter and witness to the mist",
+        "summary": "Insists that she hears her lost mother calling from the mist.",
         "island": "",
         "posts": 5,
         "span": "2026-04-14 → 2026-04-14",
-        "canonical": "",
+        "canonical": "discovery-206",
         "canonicalName": "Thera",
         "sources": [
           "1493661991359746211"
@@ -33680,13 +34148,13 @@
       {
         "id": "discovery-211",
         "name": "Cynthia",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Spirit connected to Simon’s story",
+        "summary": "Describes a brief bodily return and the relationship she feared would hurt Simon.",
         "island": "",
         "posts": 4,
         "span": "2025-03-04 → 2025-03-04",
-        "canonical": "",
+        "canonical": "discovery-211",
         "canonicalName": "Cynthia",
         "sources": [
           "1346683600954720287"
@@ -33748,13 +34216,13 @@
       {
         "id": "discovery-215",
         "name": "Jacks",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Pirate participant in the hostage exchange",
+        "summary": "Insists on the crew’s terms and accompanies the attempt to recover the captain.",
         "island": "",
         "posts": 4,
         "span": "2025-07-11 → 2025-07-11",
-        "canonical": "",
+        "canonical": "discovery-215",
         "canonicalName": "Jacks",
         "sources": [
           "1393417955286712493"
@@ -33884,13 +34352,13 @@
       {
         "id": "discovery-223",
         "name": "Raferty",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Pirate in the hostage-exchange standoff",
+        "summary": "Greets the captain and uses the crew’s numerical advantage as a threat.",
         "island": "",
         "posts": 4,
         "span": "2025-07-11 → 2025-07-11",
-        "canonical": "",
+        "canonical": "discovery-223",
         "canonicalName": "Raferty",
         "sources": [
           "1393422318415642725"
@@ -33969,13 +34437,13 @@
       {
         "id": "discovery-228",
         "name": "Alvis Tumbletor",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Fog Courts graduation announcer",
+        "summary": "Announces the trial results, naming Sombra, Carmen and Adgrim as the leading graduates.",
         "island": "",
         "posts": 3,
         "span": "2024-08-31 → 2024-08-31",
-        "canonical": "",
+        "canonical": "discovery-228",
         "canonicalName": "Alvis Tumbletor",
         "sources": [
           "1279639491442643007"
@@ -34084,13 +34552,13 @@
       {
         "id": "discovery-235",
         "name": "Maritxu",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Hag supporting another attacker",
+        "summary": "Joins the coven fight and casts a spell on a wounded fellow hag.",
         "island": "",
         "posts": 3,
         "span": "2025-04-26 → 2025-04-26",
-        "canonical": "",
+        "canonical": "discovery-235",
         "canonicalName": "Maritxu",
         "sources": [
           "1365869321783349340"
@@ -34118,13 +34586,13 @@
       {
         "id": "discovery-237",
         "name": "Mirae, Emerald Veil Librarian",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-        "island": "",
+        "kind": "npc",
+        "role": "Emerald Veil librarian",
+        "summary": "Offers Scribonia access to a local library during the Zarathian guild visit.",
+        "island": "Fein Uaill",
         "posts": 3,
         "span": "2025-08-11 → 2025-08-11",
-        "canonical": "",
+        "canonical": "discovery-237",
         "canonicalName": "Mirae, Emerald Veil Librarian",
         "sources": [
           "1404618543324205067"
@@ -34501,13 +34969,13 @@
       {
         "id": "discovery-260",
         "name": "Fenwae, Silver Star Stone Mason",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-        "island": "",
+        "kind": "npc",
+        "role": "Silver Star mason and quarry guide",
+        "summary": "Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.",
+        "island": "Fein Uaill",
         "posts": 2,
         "span": "2025-08-11 → 2025-08-11",
-        "canonical": "",
+        "canonical": "discovery-260",
         "canonicalName": "Fenwae, Silver Star Stone Mason",
         "sources": [
           "1404618656599638048"
@@ -34739,13 +35207,13 @@
       {
         "id": "discovery-274",
         "name": "Sorrel",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Hag overseeing and joining the confrontations",
+        "summary": "Criticizes the other witches and later steps forward against the adventurers herself.",
         "island": "",
         "posts": 2,
         "span": "2025-09-01 → 2025-11-29",
-        "canonical": "",
+        "canonical": "discovery-274",
         "canonicalName": "Sorrel",
         "sources": [
           "1412272103507365988"
@@ -34858,13 +35326,13 @@
       {
         "id": "discovery-281",
         "name": "Zeke, Radiant Dawn Sailor",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-        "island": "",
+        "kind": "npc",
+        "role": "Radiant Dawn sailor and cultural host",
+        "summary": "Introduces Wren and Elenia to the fleet and explains his guild’s view of exploration.",
+        "island": "Fein Uaill",
         "posts": 2,
         "span": "2025-08-11 → 2025-08-11",
-        "canonical": "",
+        "canonical": "discovery-281",
         "canonicalName": "Zeke, Radiant Dawn Sailor",
         "sources": [
           "1404618762879242273"
@@ -34907,13 +35375,13 @@
       {
         "id": "discovery-284",
         "name": "Archdruid Thalindra Were-sage",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Verdant Circle nomination speaker",
+        "summary": "Presents Lady Lucent as the Verdant Circle’s proposed leader.",
         "island": "",
         "posts": 1,
         "span": "2025-12-01 → 2025-12-01",
-        "canonical": "",
+        "canonical": "discovery-284",
         "canonicalName": "Archdruid Thalindra Were-sage",
         "sources": [
           "1445185198923845744"
@@ -35109,13 +35577,13 @@
       {
         "id": "discovery-296",
         "name": "High Lady Liraeth Dawnbringer",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Radiant Dawn nomination speaker",
+        "summary": "Nominates Lady Arandiel while invoking Aria’s example of courage.",
         "island": "",
         "posts": 1,
         "span": "2025-12-01 → 2025-12-01",
-        "canonical": "",
+        "canonical": "discovery-296",
         "canonicalName": "High Lady Liraeth Dawnbringer",
         "sources": [
           "1445186033615372400"
@@ -35160,13 +35628,13 @@
       {
         "id": "discovery-299",
         "name": "Lord Aldamir Silvertaine",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Emerald Veil nomination speaker",
+        "summary": "Announces Magnus Niriin as the Emerald Veil’s champion.",
         "island": "",
         "posts": 1,
         "span": "2025-12-01 → 2025-12-01",
-        "canonical": "",
+        "canonical": "discovery-299",
         "canonicalName": "Lord Aldamir Silvertaine",
         "sources": [
           "1445184684677136465"
@@ -35397,13 +35865,13 @@
       {
         "id": "discovery-312",
         "name": "Shogun Yoshida",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-        "island": "",
+        "kind": "npc",
+        "role": "Rahu lead architect",
+        "summary": "Explains inherited building craft to Alyhotep; Shogun is explicitly a joking title.",
+        "island": "Prima",
         "posts": 1,
         "span": "2024-08-20 → 2024-08-20",
-        "canonical": "",
+        "canonical": "discovery-312",
         "canonicalName": "Shogun Yoshida",
         "sources": [
           "1275599485334065275"
@@ -35548,13 +36016,13 @@
       {
         "id": "discovery-321",
         "name": "Vinerba Bebonical",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "npc",
+        "role": "Fog Courts apprenticeship host",
+        "summary": "Welcomes the candidates and explains the five-day structure of the Fog Courts trials.",
         "island": "",
         "posts": 1,
         "span": "2024-08-31 → 2024-08-31",
-        "canonical": "",
+        "canonical": "discovery-321",
         "canonicalName": "Vinerba Bebonical",
         "sources": [
           "1279576682319183913"
@@ -37221,13 +37689,13 @@
         {
           "id": "discovery-051",
           "name": "Henry",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Child member of the hag-investigation club",
+          "summary": "Helps the adventurers understand the children’s investigation and possible coven locations.",
           "island": "",
           "posts": 19,
           "span": "2025-07-05 → 2026-02-21",
-          "canonical": "",
+          "canonical": "discovery-051",
           "canonicalName": "Henry",
           "sources": [
             "1391203729759277118"
@@ -37253,13 +37721,13 @@
         {
           "id": "discovery-053",
           "name": "Olga",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Child member of the hag-investigation club",
+          "summary": "Contributes evidence to the children’s investigation and later receives the visitors in grief.",
           "island": "",
           "posts": 19,
           "span": "2025-07-05 → 2026-02-21",
-          "canonical": "",
+          "canonical": "discovery-053",
           "canonicalName": "Olga",
           "sources": [
             "1391214034837307392"
@@ -37634,13 +38102,13 @@
         {
           "id": "discovery-074",
           "name": "Jeremy",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Child investigator and coven-map witness",
+          "summary": "Defends his friends and shares the children’s suspected Infernum Coven location.",
           "island": "",
           "posts": 15,
           "span": "2025-07-05 → 2026-02-21",
-          "canonical": "",
+          "canonical": "discovery-074",
           "canonicalName": "Jeremy",
           "sources": [
             "1391211866801311909"
@@ -37651,13 +38119,13 @@
         {
           "id": "discovery-075",
           "name": "Kain",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Child investigator and hag witness",
+          "summary": "Explains the children’s concerns about disguises, covens and attacks on the town.",
           "island": "",
           "posts": 15,
           "span": "2025-07-05 → 2026-02-21",
-          "canonical": "",
+          "canonical": "discovery-075",
           "canonicalName": "Kain",
           "sources": [
             "1391216212154912789"
@@ -37719,13 +38187,13 @@
         {
           "id": "discovery-079",
           "name": "Seravelle",
-          "kind": "encounter",
-          "role": "Guiding presence",
-          "summary": "Describes the present vessel as a guide. Further identity is not established.",
+          "kind": "npc",
+          "role": "Guide at the Spiral",
+          "summary": "Guides the company through the Spiral and opens a route while the adventurers defend the ritual.",
           "island": "",
           "posts": 15,
           "span": "2024-12-03 → 2024-12-10",
-          "canonical": "",
+          "canonical": "discovery-079",
           "canonicalName": "Seravelle",
           "sources": [
             "1313698858596831333"
@@ -37753,13 +38221,13 @@
         {
           "id": "discovery-081",
           "name": "Yaolel",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Religious challenger at the Cala gathering",
+          "summary": "Confronts Camilla and proposes a plan she believes could defeat the Rahu.",
           "island": "",
           "posts": 15,
           "span": "2026-02-05 → 2026-02-05",
-          "canonical": "",
+          "canonical": "discovery-081",
           "canonicalName": "Yaolel",
           "sources": [
             "1469154466069610639"
@@ -38005,13 +38473,13 @@
         {
           "id": "discovery-095",
           "name": "Cutlass Carlie",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Sailor accompanying the January expedition",
+          "summary": "Works alongside the adventurers and acknowledges their success after the fight.",
           "island": "",
           "posts": 13,
           "span": "2025-01-21 → 2025-01-21",
-          "canonical": "",
+          "canonical": "discovery-095",
           "canonicalName": "Cutlass Carlie",
           "sources": [
             "1331417343573889086"
@@ -38022,13 +38490,13 @@
         {
           "id": "discovery-096",
           "name": "Heimdol",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Lantern-bearing squirrel and spirit guide",
+          "summary": "Helps the company understand a trapped spirit and urges them to release the suffering dead.",
           "island": "",
           "posts": 13,
           "span": "2025-06-10 → 2025-06-10",
-          "canonical": "",
+          "canonical": "discovery-096",
           "canonicalName": "Heimdol",
           "sources": [
             "1382180190704111697"
@@ -38107,13 +38575,13 @@
         {
           "id": "discovery-101",
           "name": "Vigor",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Fiery antagonist in the company’s confrontation",
+          "summary": "Demands submission from the adventurers and attacks Akarian Irenhour and Saray with weapons of flame.",
           "island": "",
           "posts": 13,
           "span": "2025-04-23 → 2025-04-23",
-          "canonical": "",
+          "canonical": "discovery-101",
           "canonicalName": "Vigor",
           "sources": [
             "1364740517690347550"
@@ -38259,13 +38727,13 @@
         {
           "id": "discovery-109",
           "name": "Vys",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Anti-Zarathian speaker and claimant of Tiamat’s visions",
+          "summary": "Advocates opening rifts and describes a hoped-for liberation through Tiamat.",
           "island": "",
           "posts": 12,
           "span": "2025-03-14 → 2025-03-14",
-          "canonical": "",
+          "canonical": "discovery-109",
           "canonicalName": "Vys",
           "sources": [
             "1350307396626681907"
@@ -38310,13 +38778,13 @@
         {
           "id": "discovery-112",
           "name": "Amaira",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Mermaid freed with the company’s help",
+          "summary": "Thanks her rescuers, recovers her pendant and returns to the sea with her companions.",
           "island": "",
           "posts": 11,
           "span": "2025-07-25 → 2025-08-07",
-          "canonical": "",
+          "canonical": "discovery-112",
           "canonicalName": "Amaira",
           "sources": [
             "1398482186000138362"
@@ -38369,13 +38837,13 @@
         {
           "id": "discovery-115",
           "name": "Gulen",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Smith and Thera’s father",
+          "summary": "Faces stalled supplies at the forge while trying to protect his daughter from the mist.",
           "island": "",
           "posts": 11,
           "span": "2026-04-14 → 2026-04-14",
-          "canonical": "",
+          "canonical": "discovery-115",
           "canonicalName": "Gulen",
           "sources": [
             "1493661557714845758"
@@ -38454,13 +38922,13 @@
         {
           "id": "discovery-120",
           "name": "Nila",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Mermaid recorded under an uncertain given name",
+          "summary": "Returns to the sea after the rescue and shares a gentler farewell with Oleander and Briar.",
           "island": "",
           "posts": 11,
           "span": "2025-07-25 → 2025-08-07",
-          "canonical": "",
+          "canonical": "discovery-120",
           "canonicalName": "Nila",
           "sources": [
             "1398460267217813710"
@@ -38636,13 +39104,13 @@
         {
           "id": "discovery-130",
           "name": "Samurai Osu",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-          "island": "",
+          "kind": "npc",
+          "role": "Rahu guard and diplomatic host",
+          "summary": "Escorts visitors to Rahu planners and arranges their meetings with Yami no Majo and Yoshida.",
+          "island": "Prima",
           "posts": 10,
           "span": "2024-08-18 → 2024-08-20",
-          "canonical": "",
+          "canonical": "discovery-130",
           "canonicalName": "Samurai Osu",
           "sources": [
             "1274900790095646750"
@@ -38746,13 +39214,13 @@
         {
           "id": "discovery-136",
           "name": "Gertrude",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Hag confronting the adventurers",
+          "summary": "Fights in the repeated hag encounters and taunts those trying to stop her.",
           "island": "",
           "posts": 9,
           "span": "2025-09-01 → 2025-11-29",
-          "canonical": "",
+          "canonical": "discovery-136",
           "canonicalName": "Gertrude",
           "sources": [
             "1412231108107567194"
@@ -38869,13 +39337,13 @@
         {
           "id": "discovery-143",
           "name": "Ransnap Rivera",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Husband seeking help after a disappearance",
+          "summary": "Brings a riddle and his missing wife’s belongings to the adventurers’ investigation.",
           "island": "",
           "posts": 9,
           "span": "2024-10-16 → 2024-10-16",
-          "canonical": "",
+          "canonical": "discovery-143",
           "canonicalName": "Ransnap Rivera",
           "sources": [
             "1296255214323634309"
@@ -38952,13 +39420,13 @@
         {
           "id": "discovery-148",
           "name": "Breeda",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-          "island": "",
+          "kind": "npc",
+          "role": "Pristinian resident and public-meeting participant",
+          "summary": "Supports the adventurers at the civic meeting and challenges criticism of their work.",
+          "island": "Prima",
           "posts": 8,
           "span": "2024-05-13 → 2024-05-13",
-          "canonical": "",
+          "canonical": "discovery-148",
           "canonicalName": "Breeda",
           "sources": [
             "1239619202235764836"
@@ -39094,13 +39562,13 @@
         {
           "id": "discovery-156",
           "name": "Spade",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Pirate negotiator in the hostage exchange",
+          "summary": "Uses Edgar as leverage while insisting that the company release the captain.",
           "island": "",
           "posts": 8,
           "span": "2025-07-11 → 2025-07-11",
-          "canonical": "",
+          "canonical": "discovery-156",
           "canonicalName": "Spade",
           "sources": [
             "1393417111119859923"
@@ -39143,13 +39611,13 @@
         {
           "id": "discovery-159",
           "name": "Vesperax",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Mothsphinx and temple examiner",
+          "summary": "Challenges visitors at Saturnia’s temple and opens the portal after they prove themselves.",
           "island": "",
           "posts": 8,
           "span": "2026-05-30 → 2026-05-30",
-          "canonical": "",
+          "canonical": "discovery-159",
           "canonicalName": "Vesperax",
           "sources": [
             "1510395255734669363"
@@ -39160,13 +39628,13 @@
         {
           "id": "discovery-160",
           "name": "Acalan",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Religious interlocutor at the Cala gathering",
+          "summary": "Argues with the visitors about service, moral responsibility and the Rahu.",
           "island": "",
           "posts": 7,
           "span": "2026-02-05 → 2026-02-05",
-          "canonical": "",
+          "canonical": "discovery-160",
           "canonicalName": "Acalan",
           "sources": [
             "1469176363716968690"
@@ -39211,13 +39679,13 @@
         {
           "id": "discovery-163",
           "name": "Concha",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Hag in the coven encounters",
+          "summary": "Attacks the company, including in a transformed body, and returns in later confrontations.",
           "island": "",
           "posts": 7,
           "span": "2025-04-26 → 2025-11-29",
-          "canonical": "",
+          "canonical": "discovery-163",
           "canonicalName": "Concha",
           "sources": [
             "1365859478733586544"
@@ -39436,13 +39904,13 @@
         {
           "id": "discovery-176",
           "name": "Baba Yagá",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Hag threatening the forest expedition",
+          "summary": "Warns the party away, attacks through a blizzard and later reacts to damage to her home.",
           "island": "",
           "posts": 6,
           "span": "2025-04-26 → 2026-04-27",
-          "canonical": "",
+          "canonical": "discovery-176",
           "canonicalName": "Baba Yagá",
           "sources": [
             "1365890054983258162"
@@ -39470,13 +39938,13 @@
         {
           "id": "discovery-178",
           "name": "Bhuvika",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Mermaid resisting captivity",
+          "summary": "Defies the people holding her and leaves with the freed companions.",
           "island": "",
           "posts": 6,
           "span": "2025-07-25 → 2025-08-07",
-          "canonical": "",
+          "canonical": "discovery-178",
           "canonicalName": "Bhuvika",
           "sources": [
             "1398466457159077898"
@@ -39512,13 +39980,13 @@
         {
           "id": "discovery-180",
           "name": "Cyrus",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Confessed author of a correspondence scam",
+          "summary": "Admits that he sought money by deceiving people through letters.",
           "island": "",
           "posts": 6,
           "span": "2025-03-04 → 2025-03-04",
-          "canonical": "",
+          "canonical": "discovery-180",
           "canonicalName": "Cyrus",
           "sources": [
             "1346677314163052655"
@@ -39682,13 +40150,13 @@
         {
           "id": "discovery-190",
           "name": "Vin the Informant",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Contract writer and source of local information",
+          "summary": "Helps arrange written terms and explains claimed limits on the supply of magical components.",
           "island": "",
           "posts": 6,
           "span": "2025-01-04 → 2025-01-04",
-          "canonical": "",
+          "canonical": "discovery-190",
           "canonicalName": "Vin the Informant",
           "sources": [
             "1325350093163069552"
@@ -39758,13 +40226,13 @@
         {
           "id": "discovery-194",
           "name": "Crimson Joe",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Ship captain recorded also introducing himself as John",
+          "summary": "Oversees a voyage’s inspection and prepares to hand over command on reaching the island.",
           "island": "",
           "posts": 5,
           "span": "2025-04-05 → 2025-04-05",
-          "canonical": "",
+          "canonical": "discovery-194",
           "canonicalName": "Crimson Joe",
           "sources": [
             "1358261369081823342"
@@ -39775,13 +40243,13 @@
         {
           "id": "discovery-195",
           "name": "Elverus Crepe",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Fog Courts curriculum and trial instructor",
+          "summary": "Oversees the apprentices’ ability trials and leads them into the combat examination.",
           "island": "",
           "posts": 5,
           "span": "2024-08-31 → 2024-08-31",
-          "canonical": "",
+          "canonical": "discovery-195",
           "canonicalName": "Elverus Crepe",
           "sources": [
             "1279579037756428401"
@@ -39826,13 +40294,13 @@
         {
           "id": "discovery-198",
           "name": "Gretchen",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Civilian spokesperson in the May rescue scene",
+          "summary": "Names herself and explains the practical skills of the people the adventurers are trying to help.",
           "island": "",
           "posts": 5,
           "span": "2025-05-31 → 2025-05-31",
-          "canonical": "",
+          "canonical": "discovery-198",
           "canonicalName": "Gretchen",
           "sources": [
             "1378536091858243656"
@@ -39968,13 +40436,13 @@
         {
           "id": "discovery-206",
           "name": "Thera",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Gulen’s daughter and witness to the mist",
+          "summary": "Insists that she hears her lost mother calling from the mist.",
           "island": "",
           "posts": 5,
           "span": "2026-04-14 → 2026-04-14",
-          "canonical": "",
+          "canonical": "discovery-206",
           "canonicalName": "Thera",
           "sources": [
             "1493661991359746211"
@@ -40051,13 +40519,13 @@
         {
           "id": "discovery-211",
           "name": "Cynthia",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Spirit connected to Simon’s story",
+          "summary": "Describes a brief bodily return and the relationship she feared would hurt Simon.",
           "island": "",
           "posts": 4,
           "span": "2025-03-04 → 2025-03-04",
-          "canonical": "",
+          "canonical": "discovery-211",
           "canonicalName": "Cynthia",
           "sources": [
             "1346683600954720287"
@@ -40119,13 +40587,13 @@
         {
           "id": "discovery-215",
           "name": "Jacks",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Pirate participant in the hostage exchange",
+          "summary": "Insists on the crew’s terms and accompanies the attempt to recover the captain.",
           "island": "",
           "posts": 4,
           "span": "2025-07-11 → 2025-07-11",
-          "canonical": "",
+          "canonical": "discovery-215",
           "canonicalName": "Jacks",
           "sources": [
             "1393417955286712493"
@@ -40255,13 +40723,13 @@
         {
           "id": "discovery-223",
           "name": "Raferty",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Pirate in the hostage-exchange standoff",
+          "summary": "Greets the captain and uses the crew’s numerical advantage as a threat.",
           "island": "",
           "posts": 4,
           "span": "2025-07-11 → 2025-07-11",
-          "canonical": "",
+          "canonical": "discovery-223",
           "canonicalName": "Raferty",
           "sources": [
             "1393422318415642725"
@@ -40340,13 +40808,13 @@
         {
           "id": "discovery-228",
           "name": "Alvis Tumbletor",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Fog Courts graduation announcer",
+          "summary": "Announces the trial results, naming Sombra, Carmen and Adgrim as the leading graduates.",
           "island": "",
           "posts": 3,
           "span": "2024-08-31 → 2024-08-31",
-          "canonical": "",
+          "canonical": "discovery-228",
           "canonicalName": "Alvis Tumbletor",
           "sources": [
             "1279639491442643007"
@@ -40455,13 +40923,13 @@
         {
           "id": "discovery-235",
           "name": "Maritxu",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Hag supporting another attacker",
+          "summary": "Joins the coven fight and casts a spell on a wounded fellow hag.",
           "island": "",
           "posts": 3,
           "span": "2025-04-26 → 2025-04-26",
-          "canonical": "",
+          "canonical": "discovery-235",
           "canonicalName": "Maritxu",
           "sources": [
             "1365869321783349340"
@@ -40489,13 +40957,13 @@
         {
           "id": "discovery-237",
           "name": "Mirae, Emerald Veil Librarian",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-          "island": "",
+          "kind": "npc",
+          "role": "Emerald Veil librarian",
+          "summary": "Offers Scribonia access to a local library during the Zarathian guild visit.",
+          "island": "Fein Uaill",
           "posts": 3,
           "span": "2025-08-11 → 2025-08-11",
-          "canonical": "",
+          "canonical": "discovery-237",
           "canonicalName": "Mirae, Emerald Veil Librarian",
           "sources": [
             "1404618543324205067"
@@ -40872,13 +41340,13 @@
         {
           "id": "discovery-260",
           "name": "Fenwae, Silver Star Stone Mason",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-          "island": "",
+          "kind": "npc",
+          "role": "Silver Star mason and quarry guide",
+          "summary": "Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.",
+          "island": "Fein Uaill",
           "posts": 2,
           "span": "2025-08-11 → 2025-08-11",
-          "canonical": "",
+          "canonical": "discovery-260",
           "canonicalName": "Fenwae, Silver Star Stone Mason",
           "sources": [
             "1404618656599638048"
@@ -41110,13 +41578,13 @@
         {
           "id": "discovery-274",
           "name": "Sorrel",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Hag overseeing and joining the confrontations",
+          "summary": "Criticizes the other witches and later steps forward against the adventurers herself.",
           "island": "",
           "posts": 2,
           "span": "2025-09-01 → 2025-11-29",
-          "canonical": "",
+          "canonical": "discovery-274",
           "canonicalName": "Sorrel",
           "sources": [
             "1412272103507365988"
@@ -41229,13 +41697,13 @@
         {
           "id": "discovery-281",
           "name": "Zeke, Radiant Dawn Sailor",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-          "island": "",
+          "kind": "npc",
+          "role": "Radiant Dawn sailor and cultural host",
+          "summary": "Introduces Wren and Elenia to the fleet and explains his guild’s view of exploration.",
+          "island": "Fein Uaill",
           "posts": 2,
           "span": "2025-08-11 → 2025-08-11",
-          "canonical": "",
+          "canonical": "discovery-281",
           "canonicalName": "Zeke, Radiant Dawn Sailor",
           "sources": [
             "1404618762879242273"
@@ -41278,13 +41746,13 @@
         {
           "id": "discovery-284",
           "name": "Archdruid Thalindra Were-sage",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Verdant Circle nomination speaker",
+          "summary": "Presents Lady Lucent as the Verdant Circle’s proposed leader.",
           "island": "",
           "posts": 1,
           "span": "2025-12-01 → 2025-12-01",
-          "canonical": "",
+          "canonical": "discovery-284",
           "canonicalName": "Archdruid Thalindra Were-sage",
           "sources": [
             "1445185198923845744"
@@ -41480,13 +41948,13 @@
         {
           "id": "discovery-296",
           "name": "High Lady Liraeth Dawnbringer",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Radiant Dawn nomination speaker",
+          "summary": "Nominates Lady Arandiel while invoking Aria’s example of courage.",
           "island": "",
           "posts": 1,
           "span": "2025-12-01 → 2025-12-01",
-          "canonical": "",
+          "canonical": "discovery-296",
           "canonicalName": "High Lady Liraeth Dawnbringer",
           "sources": [
             "1445186033615372400"
@@ -41531,13 +41999,13 @@
         {
           "id": "discovery-299",
           "name": "Lord Aldamir Silvertaine",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Emerald Veil nomination speaker",
+          "summary": "Announces Magnus Niriin as the Emerald Veil’s champion.",
           "island": "",
           "posts": 1,
           "span": "2025-12-01 → 2025-12-01",
-          "canonical": "",
+          "canonical": "discovery-299",
           "canonicalName": "Lord Aldamir Silvertaine",
           "sources": [
             "1445184684677136465"
@@ -41768,13 +42236,13 @@
         {
           "id": "discovery-312",
           "name": "Shogun Yoshida",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
-          "island": "",
+          "kind": "npc",
+          "role": "Rahu lead architect",
+          "summary": "Explains inherited building craft to Alyhotep; Shogun is explicitly a joking title.",
+          "island": "Prima",
           "posts": 1,
           "span": "2024-08-20 → 2024-08-20",
-          "canonical": "",
+          "canonical": "discovery-312",
           "canonicalName": "Shogun Yoshida",
           "sources": [
             "1275599485334065275"
@@ -41919,13 +42387,13 @@
         {
           "id": "discovery-321",
           "name": "Vinerba Bebonical",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "npc",
+          "role": "Fog Courts apprenticeship host",
+          "summary": "Welcomes the candidates and explains the five-day structure of the Fog Courts trials.",
           "island": "",
           "posts": 1,
           "span": "2024-08-31 → 2024-08-31",
-          "canonical": "",
+          "canonical": "discovery-321",
           "canonicalName": "Vinerba Bebonical",
           "sources": [
             "1279576682319183913"
@@ -47446,7 +47914,8 @@
     "rifts",
     "alioth",
     "babel-survival",
-    "mark-of-the-wild"
+    "mark-of-the-wild",
+    "saelihn"
   ],
   "timelineRegions": [
     {

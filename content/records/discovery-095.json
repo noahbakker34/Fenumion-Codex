@@ -2,29 +2,51 @@
   "id": "discovery-095",
   "title": "Cutlass Carlie",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Sailor accompanying the January expedition",
+  "dek": "Works alongside the adventurers and acknowledges their success after the fight.",
   "tags": [
     "Cutlass Carlie",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Sailor accompanying the January expedition",
     "Island": "Not established",
-    "Census posts": "13",
-    "Recorded span": "2025-01-21 → 2025-01-21",
+    "Original census posts": "13",
+    "Original census posting span": "2025-01-21 → 2025-01-21",
     "Prominence": "Unrated",
     "Recorded presence": "6/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2025-01-21 · https://discord.com/channels/1177270231513694249/1199083630354501673/1331421967986982954",
+    "Checked quest scene · 2025-01-21 · https://discord.com/channels/1177270231513694249/1199083630354501673/1331435655389122602",
+    "Checked quest scene · 2025-01-21 · https://discord.com/channels/1177270231513694249/1199083630354501673/1331490067348455515",
+    "Checked quest scene · 2025-01-21 · https://discord.com/channels/1177270231513694249/1199083630354501673/1331491719707099166",
+    "Portrait source · 2025-01-21 · https://discord.com/channels/1177270231513694249/1199083630354501673/1331491719707099166"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-095-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-095-record\">Archive record</h2><p>The census records 13 posts across 2025-01-21 → 2025-01-21. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1331417343573889086\">Recorded scene · 1331417343573889086</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Works alongside the adventurers and acknowledges their success after the fight.</p><h2 id=\"discovery-095-checked-history\">Recorded role and choices</h2><p>During the 21 January 2025 voyage and expedition, Carlie is initially watchful and reserved, helps get the ship underway, and later urges the party to collect the goods and check on the captain. Her final praise marks a visible change in her treatment of the company. The selected scene does not supply a larger career or identify her with every unnamed pirate proxy.</p><h2 id=\"discovery-095-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-095-record\">Archive record</h2><p>The census records 13 posts across 2025-01-21 → 2025-01-21. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1331417343573889086\">Recorded scene · 1331417343573889086</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-095-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1331421967986982954",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1331435655389122602",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1331490067348455515",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1331491719707099166"
+        ]
+      }
+    },
     {
       "id": "discovery-095-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +77,14 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [],
+  "profile": {
+    "personality": "Works alongside the adventurers and acknowledges their success after the fight.",
+    "achievements": "During the 21 January 2025 voyage and expedition, Carlie is initially watchful and reserved, helps get the ship underway, and later urges the party to collect the goods and check on the captain. Her final praise marks a visible change in her treatment of the company. The selected scene does not supply a larger career or identify her with every unnamed pirate proxy."
+  },
+  "image": "assets/characters/discord/ddc078a9733dd7d89a817d50a245c1abfdf9bff8fa01346e60826fd9f1319e42.png",
+  "imageAlt": "Recorded depiction of Cutlass Carlie",
+  "imageCaption": "Cutlass Carlie",
+  "imageLayout": "portrait-hero"
 }

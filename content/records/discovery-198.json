@@ -2,29 +2,51 @@
   "id": "discovery-198",
   "title": "Gretchen",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Civilian spokesperson in the May rescue scene",
+  "dek": "Names herself and explains the practical skills of the people the adventurers are trying to help.",
   "tags": [
     "Gretchen",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Civilian spokesperson in the May rescue scene",
     "Island": "Not established",
-    "Census posts": "5",
-    "Recorded span": "2025-05-31 → 2025-05-31",
+    "Original census posts": "5",
+    "Original census posting span": "2025-05-31 → 2025-05-31",
     "Prominence": "Unrated",
     "Recorded presence": "4/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2025-05-31 · https://discord.com/channels/1177270231513694249/1199083630354501673/1378536091858243656",
+    "Checked quest scene · 2025-05-31 · https://discord.com/channels/1177270231513694249/1199083630354501673/1378536512097882233",
+    "Checked quest scene · 2025-05-31 · https://discord.com/channels/1177270231513694249/1199083630354501673/1378542038156312667",
+    "Checked quest scene · 2025-05-31 · https://discord.com/channels/1177270231513694249/1199083630354501673/1378546449117351943",
+    "Portrait source · 2025-05-31 · https://discord.com/channels/1177270231513694249/1199083630354501673/1378546449117351943"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-198-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-198-record\">Archive record</h2><p>The census records 5 posts across 2025-05-31 → 2025-05-31. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1378536091858243656\">Recorded scene · 1378536091858243656</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Names herself and explains the practical skills of the people the adventurers are trying to help.</p><h2 id=\"discovery-198-checked-history\">Recorded role and choices</h2><p>Gretchen reacts urgently when Brooks is in danger and later answers Camilla’s questions about the group’s professions: ordinary trades such as farming, baking and woodworking. Her bitter statement that the gods do not care remains her expressed belief. The scene gives the rescued community a named voice without establishing a later political office or a complete family tree.</p><h2 id=\"discovery-198-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-198-record\">Archive record</h2><p>The census records 5 posts across 2025-05-31 → 2025-05-31. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1378536091858243656\">Recorded scene · 1378536091858243656</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-198-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1378536091858243656",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1378536512097882233",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1378542038156312667",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1378546449117351943"
+        ]
+      }
+    },
     {
       "id": "discovery-198-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +77,16 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "camilla"
+  ],
+  "profile": {
+    "personality": "Names herself and explains the practical skills of the people the adventurers are trying to help.",
+    "achievements": "Gretchen reacts urgently when Brooks is in danger and later answers Camilla’s questions about the group’s professions: ordinary trades such as farming, baking and woodworking. Her bitter statement that the gods do not care remains her expressed belief. The scene gives the rescued community a named voice without establishing a later political office or a complete family tree."
+  },
+  "image": "assets/characters/discord/057406e09bc693844820d308bc89e7807d5e69682b26f86ab09dca961f2e6638.png",
+  "imageAlt": "Recorded depiction of Gretchen",
+  "imageCaption": "Gretchen",
+  "imageLayout": "portrait-hero"
 }

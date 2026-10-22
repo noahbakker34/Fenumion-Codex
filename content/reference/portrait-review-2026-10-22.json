@@ -1,0 +1,570 @@
+{
+  "candidateCount": 222,
+  "promotedExistingRecords": [
+    "discovery-079",
+    "discovery-101",
+    "discovery-130",
+    "discovery-159",
+    "discovery-195",
+    "discovery-228",
+    "discovery-237",
+    "discovery-260",
+    "discovery-281",
+    "discovery-284",
+    "discovery-296",
+    "discovery-299",
+    "discovery-312",
+    "discovery-321",
+    "discovery-051",
+    "discovery-053",
+    "discovery-074",
+    "discovery-075",
+    "discovery-095",
+    "discovery-096",
+    "discovery-109",
+    "discovery-156",
+    "discovery-180",
+    "discovery-194",
+    "discovery-198",
+    "discovery-211",
+    "discovery-215",
+    "discovery-223",
+    "discovery-136",
+    "discovery-163",
+    "discovery-176",
+    "discovery-235",
+    "discovery-274",
+    "discovery-115",
+    "discovery-206",
+    "discovery-143",
+    "discovery-148",
+    "discovery-190",
+    "discovery-160",
+    "discovery-081",
+    "discovery-112",
+    "discovery-120",
+    "discovery-178"
+  ],
+  "newPersonalRecords": [
+    "saelihn"
+  ],
+  "reusedExistingPortraits": [
+    "bitoshi-nakamoto"
+  ],
+  "portraits": [
+    {
+      "article": "discovery-079",
+      "title": "Seravelle",
+      "asset": "assets/characters/discord/083048841ed41584d465a29c9c8a7da0ff29231ce3cbe247b32c1fc2d7e9f3ef.png",
+      "sha256": "083048841ed41584d465a29c9c8a7da0ff29231ce3cbe247b32c1fc2d7e9f3ef",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1316253966035845192",
+      "postingDate": "2024-12-10",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-101",
+      "title": "Vigor",
+      "asset": "assets/characters/discord/920e9de99dbba5c9944814f9673611eb2aeb14c4e209aec2e0d19353d19b14b2.png",
+      "sha256": "920e9de99dbba5c9944814f9673611eb2aeb14c4e209aec2e0d19353d19b14b2",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1364753435127447703",
+      "postingDate": "2025-04-23",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-130",
+      "title": "Samurai Osu",
+      "asset": "assets/characters/discord/85a5e8623626682a494f0510af8d270253d4aeab7af7e4ab6b4aa6046e3c69f6.png",
+      "sha256": "85a5e8623626682a494f0510af8d270253d4aeab7af7e4ab6b4aa6046e3c69f6",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1275600057843974209",
+      "postingDate": "2024-08-20",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-159",
+      "title": "Vesperax",
+      "asset": "assets/characters/discord/724066540ebf17ad355f458fd89e8c20e9a437930601151eba06c194f966efaf.png",
+      "sha256": "724066540ebf17ad355f458fd89e8c20e9a437930601151eba06c194f966efaf",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1510413083431141497",
+      "postingDate": "2026-05-30",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-195",
+      "title": "Elverus Crepe",
+      "asset": "assets/characters/discord/0c54bae3569b05d476880ac12b74f1c3a1eb31d751c0874113e1fad2283525a9.png",
+      "sha256": "0c54bae3569b05d476880ac12b74f1c3a1eb31d751c0874113e1fad2283525a9",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1279614972455813160",
+      "postingDate": "2024-08-31",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-228",
+      "title": "Alvis Tumbletor",
+      "asset": "assets/characters/discord/4e5e5f5a7ba22391dac015c788f9001cc33266f188010713eee349b923d3da44.png",
+      "sha256": "4e5e5f5a7ba22391dac015c788f9001cc33266f188010713eee349b923d3da44",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1279641069361037384",
+      "postingDate": "2024-08-31",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-237",
+      "title": "Mirae, Emerald Veil Librarian",
+      "asset": "assets/characters/discord/bb25dfa455c54269bd37f9852e25cce3e7beb3302c551622e83dfb78cff617fc.png",
+      "sha256": "bb25dfa455c54269bd37f9852e25cce3e7beb3302c551622e83dfb78cff617fc",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1404624570471813245",
+      "postingDate": "2025-08-11",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-260",
+      "title": "Fenwae, Silver Star Stone Mason",
+      "asset": "assets/characters/discord/e7722ab63d4c328fa6a41ce5943273b925cbd305da57bd0534e563a588970f37.png",
+      "sha256": "e7722ab63d4c328fa6a41ce5943273b925cbd305da57bd0534e563a588970f37",
+      "source": "https://discord.com/channels/1177270231513694249/1404625979204173904/1404652089711263764",
+      "postingDate": "2025-08-12",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-281",
+      "title": "Zeke, Radiant Dawn Sailor",
+      "asset": "assets/characters/discord/8a88a4cf131c6aa21c4b92cb57168b21a087fc1f2d4dbf07b1fb9485efb07f4b.png",
+      "sha256": "8a88a4cf131c6aa21c4b92cb57168b21a087fc1f2d4dbf07b1fb9485efb07f4b",
+      "source": "https://discord.com/channels/1177270231513694249/1404625139399786496/1404657568407883817",
+      "postingDate": "2025-08-12",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-284",
+      "title": "Archdruid Thalindra Were-sage",
+      "asset": "assets/characters/discord/c2a6aea2def8a7d785d7862a0ba54c69a2b14711a0f8e3fcc381127110a18a41.png",
+      "sha256": "c2a6aea2def8a7d785d7862a0ba54c69a2b14711a0f8e3fcc381127110a18a41",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744",
+      "postingDate": "2025-12-01",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-296",
+      "title": "High Lady Liraeth Dawnbringer",
+      "asset": "assets/characters/discord/8f8efcc1f5cecf98b5abeff5da01fda95111f3105824c809448f8d3504ca58d1.png",
+      "sha256": "8f8efcc1f5cecf98b5abeff5da01fda95111f3105824c809448f8d3504ca58d1",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445186033615372400",
+      "postingDate": "2025-12-01",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-299",
+      "title": "Lord Aldamir Silvertaine",
+      "asset": "assets/characters/discord/7b2326062c3f54e1abd208370c02e9a80c9ffd48a4d7157ea2dbb93b73e628e2.png",
+      "sha256": "7b2326062c3f54e1abd208370c02e9a80c9ffd48a4d7157ea2dbb93b73e628e2",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445184684677136465",
+      "postingDate": "2025-12-01",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-312",
+      "title": "Shogun Yoshida",
+      "asset": "assets/characters/discord/05b9eddb8b580395478681fd496e728b1c33c6f33c57ec75f2b754f1fb96b614.png",
+      "sha256": "05b9eddb8b580395478681fd496e728b1c33c6f33c57ec75f2b754f1fb96b614",
+      "source": "https://discord.com/channels/1177270231513694249/1275600136021606541/1275622350842495028",
+      "postingDate": "2024-08-21",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-321",
+      "title": "Vinerba Bebonical",
+      "asset": "assets/characters/discord/b9f7edf056e4b6fab4d14169f95092da02b4e585ea1216608910e93e6e7564e7.png",
+      "sha256": "b9f7edf056e4b6fab4d14169f95092da02b4e585ea1216608910e93e6e7564e7",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1279576682319183913",
+      "postingDate": "2024-08-31",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-051",
+      "title": "Henry",
+      "asset": "assets/characters/discord/63b5cf12dcc9331e79efc5352d6983f42bbf0bbe1311ef9c53721029bec9ed51.png",
+      "sha256": "63b5cf12dcc9331e79efc5352d6983f42bbf0bbe1311ef9c53721029bec9ed51",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1474940046409732096",
+      "postingDate": "2026-02-21",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-053",
+      "title": "Olga",
+      "asset": "assets/characters/discord/4bf8642b2d24010ecf86588bfb225bd00ee958796def25fb1510636f08422e33.png",
+      "sha256": "4bf8642b2d24010ecf86588bfb225bd00ee958796def25fb1510636f08422e33",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1474928422781321266",
+      "postingDate": "2026-02-21",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-074",
+      "title": "Jeremy",
+      "asset": "assets/characters/discord/26435e3c34e92f80659ba5fb3f0d2f8cec97db7f8f28437012e42d965f16bf05.png",
+      "sha256": "26435e3c34e92f80659ba5fb3f0d2f8cec97db7f8f28437012e42d965f16bf05",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1474935159680667801",
+      "postingDate": "2026-02-21",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-075",
+      "title": "Kain",
+      "asset": "assets/characters/discord/ffc287b015a3930bbbff19d2c0d6d554ee20084438a5fec1b3a88c7c5d2bf0e9.png",
+      "sha256": "ffc287b015a3930bbbff19d2c0d6d554ee20084438a5fec1b3a88c7c5d2bf0e9",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1474932515474243596",
+      "postingDate": "2026-02-21",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-095",
+      "title": "Cutlass Carlie",
+      "asset": "assets/characters/discord/ddc078a9733dd7d89a817d50a245c1abfdf9bff8fa01346e60826fd9f1319e42.png",
+      "sha256": "ddc078a9733dd7d89a817d50a245c1abfdf9bff8fa01346e60826fd9f1319e42",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1331491719707099166",
+      "postingDate": "2025-01-21",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-096",
+      "title": "Heimdol",
+      "asset": "assets/characters/discord/40851a5dac762d260e75e10600e30f33b5688f589ae59a184ce8d003ae7f6962.png",
+      "sha256": "40851a5dac762d260e75e10600e30f33b5688f589ae59a184ce8d003ae7f6962",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1382194144906055733",
+      "postingDate": "2025-06-10",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-109",
+      "title": "Vys",
+      "asset": "assets/characters/discord/9e09585de946e9fa887d9f2700f8f63d24697fd7b1146722df4ee29db80f146c.png",
+      "sha256": "9e09585de946e9fa887d9f2700f8f63d24697fd7b1146722df4ee29db80f146c",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1350315078188011531",
+      "postingDate": "2025-03-14",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-156",
+      "title": "Spade",
+      "asset": "assets/characters/discord/a4fee17e4524818a97e78d0d6e08fe0e5fa378d7e487a56d22523c5cd84c4333.png",
+      "sha256": "a4fee17e4524818a97e78d0d6e08fe0e5fa378d7e487a56d22523c5cd84c4333",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1393437826322006060",
+      "postingDate": "2025-07-11",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-180",
+      "title": "Cyrus",
+      "asset": "assets/characters/discord/346bf9c63f1c9951b3618ccf0460b456fcb5bffb5102f3a3283ef3967b508553.png",
+      "sha256": "346bf9c63f1c9951b3618ccf0460b456fcb5bffb5102f3a3283ef3967b508553",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1346681723873919127",
+      "postingDate": "2025-03-04",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-194",
+      "title": "Crimson Joe",
+      "asset": "assets/characters/discord/eee4a8783d44f92d1b9dda1ca80263e35a5645101fdd4169d5716fad868dbffa.png",
+      "sha256": "eee4a8783d44f92d1b9dda1ca80263e35a5645101fdd4169d5716fad868dbffa",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1358270946125025361",
+      "postingDate": "2025-04-05",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-198",
+      "title": "Gretchen",
+      "asset": "assets/characters/discord/057406e09bc693844820d308bc89e7807d5e69682b26f86ab09dca961f2e6638.png",
+      "sha256": "057406e09bc693844820d308bc89e7807d5e69682b26f86ab09dca961f2e6638",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1378546449117351943",
+      "postingDate": "2025-05-31",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-211",
+      "title": "Cynthia",
+      "asset": "assets/characters/discord/d0622de1e0097b52093063d95c9637d28cdb6044a09c3aef6e8ae202a5f7fded.png",
+      "sha256": "d0622de1e0097b52093063d95c9637d28cdb6044a09c3aef6e8ae202a5f7fded",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1346688054689005629",
+      "postingDate": "2025-03-04",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-215",
+      "title": "Jacks",
+      "asset": "assets/characters/discord/5be47cc01e3cf2b50b6e6421c604e84f8fb855d82273db7ed42b5811b8aed99f.png",
+      "sha256": "5be47cc01e3cf2b50b6e6421c604e84f8fb855d82273db7ed42b5811b8aed99f",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1393430343008387082",
+      "postingDate": "2025-07-11",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-223",
+      "title": "Raferty",
+      "asset": "assets/characters/discord/a054d8a95570a9dd42701067e25d1e6fe8fdb6d095c619beb632afecf788e97d.png",
+      "sha256": "a054d8a95570a9dd42701067e25d1e6fe8fdb6d095c619beb632afecf788e97d",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1393434731944874165",
+      "postingDate": "2025-07-11",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-136",
+      "title": "Gertrude",
+      "asset": "assets/characters/discord/94bce98b63aea8621ebc2356d214bb8fe4eae856ef77d82944c7b12805b2da93.png",
+      "sha256": "94bce98b63aea8621ebc2356d214bb8fe4eae856ef77d82944c7b12805b2da93",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1444537322904354900",
+      "postingDate": "2025-11-29",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-163",
+      "title": "Concha",
+      "asset": "assets/characters/discord/4da1cccabdfddf09ce7c6fcb8bdda8f0402ec1d9d249d1e9d46bb025ba46d4f4.png",
+      "sha256": "4da1cccabdfddf09ce7c6fcb8bdda8f0402ec1d9d249d1e9d46bb025ba46d4f4",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1365875170589413508",
+      "postingDate": "2025-04-26",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-176",
+      "title": "Baba Yagá",
+      "asset": "assets/characters/discord/20b5ebc55b51311363bcb93d74f73c8caa215aca8cb48b04800e7da70984234e.png",
+      "sha256": "20b5ebc55b51311363bcb93d74f73c8caa215aca8cb48b04800e7da70984234e",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1365898495202164811",
+      "postingDate": "2025-04-26",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-235",
+      "title": "Maritxu",
+      "asset": "assets/characters/discord/98f2cced4f9bedb0ef75c1c0d05cf2f84f1f0a73cf5cd4aacebb2b612c4c4089.png",
+      "sha256": "98f2cced4f9bedb0ef75c1c0d05cf2f84f1f0a73cf5cd4aacebb2b612c4c4089",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1365871912206598144",
+      "postingDate": "2025-04-26",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-274",
+      "title": "Sorrel",
+      "asset": "assets/characters/discord/5dda3912bcb58bd40af990627a87d81ede74819a3376d8398caa7ec74ad2905a.png",
+      "sha256": "5dda3912bcb58bd40af990627a87d81ede74819a3376d8398caa7ec74ad2905a",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1444517860595466281",
+      "postingDate": "2025-11-29",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-115",
+      "title": "Gulen",
+      "asset": "assets/characters/discord/be5d3b967e949478cdefcc24fbef70a858658cd3ffb3c1e5a4a756541bd1f260.png",
+      "sha256": "be5d3b967e949478cdefcc24fbef70a858658cd3ffb3c1e5a4a756541bd1f260",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1493669736813166632",
+      "postingDate": "2026-04-14",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-206",
+      "title": "Thera",
+      "asset": "assets/characters/discord/309a40b835e3307f71b5906d731b256de2ba029a2fc9adb9c523a5986f5ab42f.png",
+      "sha256": "309a40b835e3307f71b5906d731b256de2ba029a2fc9adb9c523a5986f5ab42f",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1493666878042931323",
+      "postingDate": "2026-04-14",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-143",
+      "title": "Ransnap Rivera",
+      "asset": "assets/characters/discord/13271ef37b778e7698d7d0177724b95341f95a52ace69311f29482b7edf90d49.png",
+      "sha256": "13271ef37b778e7698d7d0177724b95341f95a52ace69311f29482b7edf90d49",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1296258765175263283",
+      "postingDate": "2024-10-16",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-148",
+      "title": "Breeda",
+      "asset": "assets/characters/discord/8168431c1ca2c377592f987727e606b1adf33efbece350c36d4d17e699b2674e.png",
+      "sha256": "8168431c1ca2c377592f987727e606b1adf33efbece350c36d4d17e699b2674e",
+      "source": "https://discord.com/channels/1177270231513694249/1198721749030818044/1223756995367014442",
+      "postingDate": "2024-03-30",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-190",
+      "title": "Vin the Informant",
+      "asset": "assets/characters/discord/1ad297c43fb5038cae48af07c36e0d6f75d92a28a77fc6b5970b166ced49b8ba.png",
+      "sha256": "1ad297c43fb5038cae48af07c36e0d6f75d92a28a77fc6b5970b166ced49b8ba",
+      "source": "https://discord.com/channels/1177270231513694249/1328364550084362350/1329526777424646234",
+      "postingDate": "2025-01-16",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-160",
+      "title": "Acalan",
+      "asset": "assets/characters/discord/99417ddd6656baa2a17f0cc345ef56b845ba9c08beaff553f61e7610e38a602e.png",
+      "sha256": "99417ddd6656baa2a17f0cc345ef56b845ba9c08beaff553f61e7610e38a602e",
+      "source": "https://discord.com/channels/1177270231513694249/1374055909600526429/1390781035620339756",
+      "postingDate": "2025-07-04",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-081",
+      "title": "Yaolel",
+      "asset": "assets/characters/discord/69d4e4dd18ccff80c449c87c79a0ee051ac11dbd4165b15db80fec689569654d.png",
+      "sha256": "69d4e4dd18ccff80c449c87c79a0ee051ac11dbd4165b15db80fec689569654d",
+      "source": "https://discord.com/channels/1177270231513694249/1374055909600526429/1390764763268780204",
+      "postingDate": "2025-07-04",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-112",
+      "title": "Amaira",
+      "asset": "assets/characters/discord/c19023077ff3299fcb65aaac12f14424d856d5cd60f4ed7f358407c81ad0b17c.png",
+      "sha256": "c19023077ff3299fcb65aaac12f14424d856d5cd60f4ed7f358407c81ad0b17c",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1403220689904861224",
+      "postingDate": "2025-08-07",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-120",
+      "title": "Nila",
+      "asset": "assets/characters/discord/066b679229109c7c38dc49efd051f91f0c1102d87db0e5c5e859e678c9bd341d.png",
+      "sha256": "066b679229109c7c38dc49efd051f91f0c1102d87db0e5c5e859e678c9bd341d",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1403219043166584893",
+      "postingDate": "2025-08-07",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-178",
+      "title": "Bhuvika",
+      "asset": "assets/characters/discord/a6f5a8688931b72208140da43f077bb48d48aafdfe56eb24f8ba9683b98a13ab.png",
+      "sha256": "a6f5a8688931b72208140da43f077bb48d48aafdfe56eb24f8ba9683b98a13ab",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1403218520359305276",
+      "postingDate": "2025-08-07",
+      "disposition": "named NPC profile"
+    },
+    {
+      "article": "discovery-002",
+      "title": "Pin",
+      "asset": "assets/characters/discord/6e1af10488b533c0ef70fbcfe3ad769c9b67995d7f025375efe6ecacf5ddb2c2.png",
+      "sha256": "6e1af10488b533c0ef70fbcfe3ad769c9b67995d7f025375efe6ecacf5ddb2c2",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1341600728736731198",
+      "postingDate": "2025-02-18",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-090",
+      "title": "Miri, a Scholar",
+      "asset": "assets/characters/discord/0cd902df852331608fd51905250e48a4908bf234c91bbc6204f44a40ed5f5e9e.png",
+      "sha256": "0cd902df852331608fd51905250e48a4908bf234c91bbc6204f44a40ed5f5e9e",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1487289602833383575",
+      "postingDate": "2026-03-27",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-008",
+      "title": "Saturnia, Manifest Mind",
+      "asset": "assets/characters/discord/a1f118eca93c58b6e811cac750e88165de6ef8812bd657f580f5c0bc62a0ae6e.png",
+      "sha256": "a1f118eca93c58b6e811cac750e88165de6ef8812bd657f580f5c0bc62a0ae6e",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1276730760472035349",
+      "postingDate": "2024-08-23",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-193",
+      "title": "Ascended Saturnia",
+      "asset": "assets/characters/discord/49bb56dae580bc51b2608ff15dfb379d5c2706c75562c3cce100548d2d9e0b52.png",
+      "sha256": "49bb56dae580bc51b2608ff15dfb379d5c2706c75562c3cce100548d2d9e0b52",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1510419141260214464",
+      "postingDate": "2026-05-30",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-042",
+      "title": "Scribonia’s Simulacrum",
+      "asset": "assets/characters/discord/0c0f9af90eb9b5caccbe414da027c63d6183897a67e0352b9aef9126af79ec8c.png",
+      "sha256": "0c0f9af90eb9b5caccbe414da027c63d6183897a67e0352b9aef9126af79ec8c",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306876321657520220",
+      "postingDate": "2024-11-14",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-313",
+      "title": "Simulacrum Scribonia",
+      "asset": "assets/characters/discord/0c0f9af90eb9b5caccbe414da027c63d6183897a67e0352b9aef9126af79ec8c.png",
+      "sha256": "0c0f9af90eb9b5caccbe414da027c63d6183897a67e0352b9aef9126af79ec8c",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306876321657520220",
+      "postingDate": "2024-11-14",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-019",
+      "title": "Wraps",
+      "asset": "assets/characters/discord/0a0e554af77c3f2af3fb7ed38e5c844399f7202c22051c4377e7890f6c0c7962.png",
+      "sha256": "0a0e554af77c3f2af3fb7ed38e5c844399f7202c22051c4377e7890f6c0c7962",
+      "source": "https://discord.com/channels/1177270231513694249/1234261131137253407/1275290668272451607",
+      "postingDate": "2024-08-20",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-038",
+      "title": "Toadimus",
+      "asset": "assets/characters/discord/1202ef7738485ec31fd96edbf5a09e7e9dbc456f9bb91f4eb1e7a346ac840fa8.png",
+      "sha256": "1202ef7738485ec31fd96edbf5a09e7e9dbc456f9bb91f4eb1e7a346ac840fa8",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1516142058916675664",
+      "postingDate": "2026-06-15",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-133",
+      "title": "Briar",
+      "asset": "assets/characters/discord/1fcf4e0a1d86f1bbd802a29c266973dbf54640ac7f9991e4329c706095cf69bc.png",
+      "sha256": "1fcf4e0a1d86f1bbd802a29c266973dbf54640ac7f9991e4329c706095cf69bc",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1412281526481195059",
+      "postingDate": "2025-09-01",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-216",
+      "title": "Jeebz [Steel Defender]",
+      "asset": "assets/characters/discord/06a270e0edb62672b52277014de89c438b1402d9bc92da4271d29c7cb9253001.png",
+      "sha256": "06a270e0edb62672b52277014de89c438b1402d9bc92da4271d29c7cb9253001",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1230705994972139540",
+      "postingDate": "2024-04-18",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-222",
+      "title": "Puffball",
+      "asset": "assets/characters/discord/71eeb90b2ac084031e530242f7787f15bf080240884fcb8c78028a0e20047d74.png",
+      "sha256": "71eeb90b2ac084031e530242f7787f15bf080240884fcb8c78028a0e20047d74",
+      "source": "https://discord.com/channels/1177270231513694249/1401773566453747742/1478917539521363988",
+      "postingDate": "2026-03-05",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-243",
+      "title": "Phlox",
+      "asset": "assets/characters/discord/dce686889f6ca8b20522e15a367dba2fa47b2fc0165d29df89188c11b377f96d.png",
+      "sha256": "dce686889f6ca8b20522e15a367dba2fa47b2fc0165d29df89188c11b377f96d",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1391205122041974854",
+      "postingDate": "2025-07-05",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "discovery-076",
+      "title": "Lilian’s Raven",
+      "asset": "assets/characters/discord/29d31e6861c318227672ab5e0aa848975d8f1da08a061d57e1ce6dabd18bff9f.png",
+      "sha256": "29d31e6861c318227672ab5e0aa848975d8f1da08a061d57e1ce6dabd18bff9f",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1305712379765592135",
+      "postingDate": "2024-11-11",
+      "disposition": "existing companion/form/alias"
+    },
+    {
+      "article": "saelihn",
+      "title": "Saelihn",
+      "asset": "assets/characters/discord/e7cf94b3c15dd02c73de77371e4302f820a40908149d1cefc7dcc55a0b34ccf3.png",
+      "sha256": "e7cf94b3c15dd02c73de77371e4302f820a40908149d1cefc7dcc55a0b34ccf3",
+      "source": "https://discord.com/channels/1177270231513694249/1198721306250719293/1528850623704072232",
+      "postingDate": "2026-07-20",
+      "disposition": "existing player, personal record"
+    }
+  ],
+  "policy": "Quest evidence controls biographies. Generic labels, clear gags, private-only evidence and unresolved identities are not promoted. Existing media is preserved."
+}

@@ -2,29 +2,51 @@
   "id": "discovery-178",
   "title": "Bhuvika",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Mermaid resisting captivity",
+  "dek": "Defies the people holding her and leaves with the freed companions.",
   "tags": [
     "Bhuvika",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Mermaid resisting captivity",
     "Island": "Not established",
-    "Census posts": "6",
-    "Recorded span": "2025-07-25 → 2025-08-07",
+    "Original census posts": "6",
+    "Original census posting span": "2025-07-25 → 2025-08-07",
     "Prominence": "Unrated",
     "Recorded presence": "5/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2025-07-25 · https://discord.com/channels/1177270231513694249/1199083630354501673/1398466457159077898",
+    "Checked quest scene · 2025-07-25 · https://discord.com/channels/1177270231513694249/1199083630354501673/1398470036036915270",
+    "Checked quest scene · 2025-08-07 · https://discord.com/channels/1177270231513694249/1199083630354501673/1403213422463553647",
+    "Checked quest scene · 2025-08-07 · https://discord.com/channels/1177270231513694249/1199083630354501673/1403218520359305276",
+    "Portrait source · 2025-08-07 · https://discord.com/channels/1177270231513694249/1199083630354501673/1403218520359305276"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-178-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-178-record\">Archive record</h2><p>The census records 6 posts across 2025-07-25 → 2025-08-07. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1398466457159077898\">Recorded scene · 1398466457159077898</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Defies the people holding her and leaves with the freed companions.</p><h2 id=\"discovery-178-checked-history\">Recorded role and choices</h2><p>Bhuvika strikes at the glass of her enclosure and threatens anyone who tries to touch her. In the August 2025 rescue’s aftermath, she declines a proffered hand, speaks to a companion and insists that it is time to return. The visible resistance and departure are recorded without turning every insult into an objective claim about all surface dwellers.</p><h2 id=\"discovery-178-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-178-record\">Archive record</h2><p>The census records 6 posts across 2025-07-25 → 2025-08-07. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1398466457159077898\">Recorded scene · 1398466457159077898</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-178-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398466457159077898",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398470036036915270",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1403213422463553647",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1403218520359305276"
+        ]
+      }
+    },
     {
       "id": "discovery-178-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +77,17 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "discovery-112",
+    "discovery-120"
+  ],
+  "profile": {
+    "personality": "Defies the people holding her and leaves with the freed companions.",
+    "achievements": "Bhuvika strikes at the glass of her enclosure and threatens anyone who tries to touch her. In the August 2025 rescue’s aftermath, she declines a proffered hand, speaks to a companion and insists that it is time to return. The visible resistance and departure are recorded without turning every insult into an objective claim about all surface dwellers."
+  },
+  "image": "assets/characters/discord/a6f5a8688931b72208140da43f077bb48d48aafdfe56eb24f8ba9683b98a13ab.png",
+  "imageAlt": "Recorded depiction of Bhuvika",
+  "imageCaption": "Bhuvika",
+  "imageLayout": "portrait-hero"
 }

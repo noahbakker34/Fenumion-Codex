@@ -2,29 +2,51 @@
   "id": "discovery-143",
   "title": "Ransnap Rivera",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Husband seeking help after a disappearance",
+  "dek": "Brings a riddle and his missing wife’s belongings to the adventurers’ investigation.",
   "tags": [
     "Ransnap Rivera",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Husband seeking help after a disappearance",
     "Island": "Not established",
-    "Census posts": "9",
-    "Recorded span": "2024-10-16 → 2024-10-16",
+    "Original census posts": "9",
+    "Original census posting span": "2024-10-16 → 2024-10-16",
     "Prominence": "Unrated",
     "Recorded presence": "5/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2024-10-16 · https://discord.com/channels/1177270231513694249/1199083630354501673/1296255214323634309",
+    "Checked quest scene · 2024-10-16 · https://discord.com/channels/1177270231513694249/1199083630354501673/1296256646313541702",
+    "Checked quest scene · 2024-10-16 · https://discord.com/channels/1177270231513694249/1199083630354501673/1296257659355271230",
+    "Checked quest scene · 2024-10-16 · https://discord.com/channels/1177270231513694249/1199083630354501673/1296258765175263283",
+    "Portrait source · 2024-10-16 · https://discord.com/channels/1177270231513694249/1199083630354501673/1296258765175263283"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-143-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-143-record\">Archive record</h2><p>The census records 9 posts across 2024-10-16 → 2024-10-16. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1296255214323634309\">Recorded scene · 1296255214323634309</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Brings a riddle and his missing wife’s belongings to the adventurers’ investigation.</p><h2 id=\"discovery-143-checked-history\">Recorded role and choices</h2><p>In October 2024, Ransnap asks the company to find his wife, saying a riddle was left behind. He takes the adventurers toward their home and retrieves a hairbrush when they ask for something carrying her scent. The selected record establishes his appeal and practical help, without completing the search or inventing the missing woman’s fate.</p><h2 id=\"discovery-143-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-143-record\">Archive record</h2><p>The census records 9 posts across 2024-10-16 → 2024-10-16. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1296255214323634309\">Recorded scene · 1296255214323634309</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-143-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1296255214323634309",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1296256646313541702",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1296257659355271230",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1296258765175263283"
+        ]
+      }
+    },
     {
       "id": "discovery-143-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +77,14 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [],
+  "profile": {
+    "personality": "Brings a riddle and his missing wife’s belongings to the adventurers’ investigation.",
+    "achievements": "In October 2024, Ransnap asks the company to find his wife, saying a riddle was left behind. He takes the adventurers toward their home and retrieves a hairbrush when they ask for something carrying her scent. The selected record establishes his appeal and practical help, without completing the search or inventing the missing woman’s fate."
+  },
+  "image": "assets/characters/discord/13271ef37b778e7698d7d0177724b95341f95a52ace69311f29482b7edf90d49.png",
+  "imageAlt": "Recorded depiction of Ransnap Rivera",
+  "imageCaption": "Ransnap Rivera",
+  "imageLayout": "portrait-hero"
 }

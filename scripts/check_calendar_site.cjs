@@ -91,6 +91,8 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-calendar-site';
    await page.goto(base+'#cala');await page.locator('.vault-gate').waitFor();authorized=true;await page.locator('[data-open-vault]').click();
    await page.locator('#synthetic-calendar').waitFor();assert.equal(await page.locator('#synthetic-calendar').textContent(),'12, Month of Rebirth · Year 1 of the Final War');
    assert((await page.locator('.article-body').textContent()).includes('18, Month of Death · Year 3'));await audit('synthetic unlocked article');
+   assert.equal(await page.locator('#vault-button strong').innerText(),'Spoiler vault');assert((await page.locator('#vault-button small').innerText()).includes('Unlocked'));
+   assert(await page.locator('#vault-button').evaluate(el=>{const r=el.getBoundingClientRect();return r.width>=44&&r.height>=44&&r.left>=0&&r.right<=innerWidth;}),'unlocked vault remains labeled and fits mobile');
    await page.locator('#vault-button').click();await page.locator('.vault-gate').waitFor();assert.equal(await page.locator('#synthetic-calendar').count(),0);assert(await page.evaluate(()=>!vaultUnlocked&&!isPlayerSafeArticle('cala')),'locked content remains gated');
   }
   authorized=false;await page.reload();await go('living-timeline');assert.equal(await page.evaluate(()=>JSON.stringify(archiveIndex.timeline)),events,'display never mutates event dates, metadata or chronology');

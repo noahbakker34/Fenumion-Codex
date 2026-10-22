@@ -2,29 +2,51 @@
   "id": "discovery-176",
   "title": "Baba Yagá",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Hag threatening the forest expedition",
+  "dek": "Warns the party away, attacks through a blizzard and later reacts to damage to her home.",
   "tags": [
     "Baba Yagá",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Hag threatening the forest expedition",
     "Island": "Not established",
-    "Census posts": "6",
-    "Recorded span": "2025-04-26 → 2026-04-27",
+    "Original census posts": "6",
+    "Original census posting span": "2025-04-26 → 2026-04-27",
     "Prominence": "Unrated",
     "Recorded presence": "13/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2025-04-26 · https://discord.com/channels/1177270231513694249/1199083630354501673/1365890054983258162",
+    "Checked quest scene · 2025-04-26 · https://discord.com/channels/1177270231513694249/1199083630354501673/1365892540942782536",
+    "Checked quest scene · 2025-04-26 · https://discord.com/channels/1177270231513694249/1199083630354501673/1365898495202164811",
+    "Checked quest scene · 2026-04-27 · https://discord.com/channels/1177270231513694249/1199083630354501673/1498498050266501201",
+    "Portrait source · 2025-04-26 · https://discord.com/channels/1177270231513694249/1199083630354501673/1365898495202164811"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-176-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-176-record\">Archive record</h2><p>The census records 6 posts across 2025-04-26 → 2026-04-27. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1365890054983258162\">Recorded scene · 1365890054983258162</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Warns the party away, attacks through a blizzard and later reacts to damage to her home.</p><h2 id=\"discovery-176-checked-history\">Recorded role and choices</h2><p>In April 2025, Baba Yagá threatens the adventurers, gives a brief countdown and calls an ice storm onto the company. A later April 2026 appearance records her anger over her home. These quest acts support a recurring named antagonist; the familiar folkloric name does not import every story or power associated with Baba Yaga elsewhere.</p><h2 id=\"discovery-176-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-176-record\">Archive record</h2><p>The census records 6 posts across 2025-04-26 → 2026-04-27. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1365890054983258162\">Recorded scene · 1365890054983258162</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-176-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1365890054983258162",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1365892540942782536",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1365898495202164811",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1498498050266501201"
+        ]
+      }
+    },
     {
       "id": "discovery-176-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +77,19 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "discovery-163",
+    "discovery-235",
+    "discovery-136",
+    "discovery-274"
+  ],
+  "profile": {
+    "personality": "Warns the party away, attacks through a blizzard and later reacts to damage to her home.",
+    "achievements": "In April 2025, Baba Yagá threatens the adventurers, gives a brief countdown and calls an ice storm onto the company. A later April 2026 appearance records her anger over her home. These quest acts support a recurring named antagonist; the familiar folkloric name does not import every story or power associated with Baba Yaga elsewhere."
+  },
+  "image": "assets/characters/discord/20b5ebc55b51311363bcb93d74f73c8caa215aca8cb48b04800e7da70984234e.png",
+  "imageAlt": "Recorded depiction of Baba Yagá",
+  "imageCaption": "Baba Yagá",
+  "imageLayout": "portrait-hero"
 }

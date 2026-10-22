@@ -412,8 +412,8 @@ function updateVaultState() {
   vaultButton.classList.toggle("unlocked", vaultUnlocked);
   vaultButton.setAttribute("aria-label", vaultUnlocked ? "Lock the spoiler vault" : "Open the spoiler vault");
   vaultButton.setAttribute("aria-haspopup", vaultUnlocked ? "false" : "dialog");
-  vaultButton.querySelector("strong").textContent = vaultUnlocked ? "Keeper view" : "Spoiler vault";
-  vaultButton.querySelector("small").textContent = vaultUnlocked ? "Unlocked · click to lock" : "Locked";
+  vaultButton.querySelector("strong").textContent = "Spoiler vault";
+  vaultButton.querySelector("small").textContent = vaultUnlocked ? "Unlocked · lock" : "Locked";
   if (vaultAccount) {
     vaultAccount.innerHTML = vaultIdentity?.signedIn
       ? `Signed in as <strong>${escapeHtml(vaultIdentity.name || "Discord member")}</strong> · <a href="${AUTH_ORIGIN}/logout?next=${encodeURIComponent(vaultReturnUrl())}">Sign out</a>`

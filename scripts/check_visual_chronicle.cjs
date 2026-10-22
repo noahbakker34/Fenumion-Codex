@@ -16,6 +16,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   const dockFits=async()=>{
    assert.equal(await page.locator('.codex-utility-dock').count(),1);
    for(const selector of ['.music-toggle','#vault-button','.approved-content-link'])assert(await page.locator('.codex-utility-dock '+selector).evaluate(el=>{const r=el.getBoundingClientRect();return r.width>=44&&r.height>=44&&r.left>=0&&r.right<=innerWidth;}),'dock control fits: '+selector);
+   for(const [selector,label] of [['.music-toggle','Soundtrack'],['#vault-button','Spoiler vault'],['.approved-content-link','Approved content']]){const control=page.locator('.codex-utility-dock '+selector);assert((await control.innerText()).includes(label),'visible control label: '+label);}
    const index=page.locator('.topbar .index-button');
    if(await index.isVisible())assert(await index.evaluate(el=>el.getBoundingClientRect().right<=document.querySelector('.codex-utility-dock').getBoundingClientRect().left),'header controls do not overlap');
   };
@@ -42,6 +43,12 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   await page.keyboard.press('Escape');await fits();await dockFits();
   await page.locator('#chronicle-featured').scrollIntoViewIfNeeded();
   await page.screenshot({path:output+'/homepage-desktop.png'});
+  for(const width of [1440,1280,1100,1024,900,768,600,390,320]){await page.setViewportSize({width,height:1000});await fits();await dockFits();}
+  await page.setViewportSize({width:1440,height:1000});
+  await go('living-timeline?importance=4&match=exact');
+  assert.equal(await page.locator('.event-card').count(),27);assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),27);
+  assert((await page.locator('.event-card .event-importance').first().innerText()).includes('Interregional'));
+  await page.locator('.event-card').first().scrollIntoViewIfNeeded();await page.screenshot({path:output+'/interregional-desktop.png'});
   await go('living-timeline?importance=5');
   assert.equal(await page.locator('.event-card').count(),7);
   assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),7);
@@ -110,6 +117,6 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   }
   const privacy=await page.evaluate(()=>({bodies:articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id),stubs:archiveIndex.timeline.filter(e=>e.veiled&&(e.importance||e.regions||e.dating)).length}));
   assert.deepEqual(privacy,{bodies:[],stubs:0});assert.deepEqual(errors,[]);
-  console.log('PASS illustrated homepage/event links; seven World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; portraits/roles/public relationships/dialog; readable atlas/directory facts at nine widths and in Gedankin; compact music/vault dock; 390/320 layouts; signed-out boundaries');
+  console.log('PASS illustrated homepage/event links; 27 Interregional and seven World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; portraits/roles/public relationships/dialog; readable atlas/directory facts at nine widths and in Gedankin; visible soundtrack/vault/approved-content labels; 390/320 layouts; signed-out boundaries');
  } finally {await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

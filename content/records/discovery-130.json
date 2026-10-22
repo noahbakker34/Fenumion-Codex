@@ -2,29 +2,53 @@
   "id": "discovery-130",
   "title": "Samurai Osu",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Rahu guard and diplomatic host",
+  "dek": "Escorts visitors to Rahu planners and arranges their meetings with Yami no Majo and Yoshida.",
   "tags": [
     "Samurai Osu",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
-    "Island": "Not established",
-    "Census posts": "10",
-    "Recorded span": "2024-08-18 → 2024-08-20",
+    "Role": "Rahu guard and diplomatic host",
+    "Island": "Prima",
+    "Original census posts": "10",
+    "Original census posting span": "2024-08-18 → 2024-08-20",
     "Prominence": "Unrated",
     "Recorded presence": "6/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2024-08-18 · https://discord.com/channels/1177270231513694249/1199083630354501673/1274908759965302829",
+    "Checked quest scene · 2024-08-18 · https://discord.com/channels/1177270231513694249/1199083630354501673/1274910321349492789",
+    "Checked quest scene · 2024-08-20 · https://discord.com/channels/1177270231513694249/1199083630354501673/1275585817598758974",
+    "Checked quest scene · 2024-08-20 · https://discord.com/channels/1177270231513694249/1199083630354501673/1275599221524791358",
+    "Checked quest scene · 2024-08-20 · https://discord.com/channels/1177270231513694249/1199083630354501673/1275600057843974209",
+    "Portrait source · 2024-08-20 · https://discord.com/channels/1177270231513694249/1199083630354501673/1275600057843974209"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-130-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-130-record\">Archive record</h2><p>The census records 10 posts across 2024-08-18 → 2024-08-20. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1274900790095646750\">Recorded scene · 1274900790095646750</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Escorts visitors to Rahu planners and arranges their meetings with Yami no Majo and Yoshida.</p><h2 id=\"discovery-130-checked-history\">Recorded role and choices</h2><p>Osu receives the adventurers courteously, guides them to a planning council and offers help within his rank. In the August 2024 visit he introduces Yami no Majo as a venerable mage and Yoshida as a lead architect, explicitly explaining the joking Shogun title. His assistance gives the visitors access to people who can answer their questions; it does not establish that Osu rules the city or commands every Rahu institution.</p><h2 id=\"discovery-130-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-130-record\">Archive record</h2><p>The census records 10 posts across 2024-08-18 → 2024-08-20. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1274900790095646750\">Recorded scene · 1274900790095646750</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-130-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1274908759965302829",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1274910321349492789",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1275585817598758974",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1275599221524791358",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1275600057843974209"
+        ]
+      }
+    },
     {
       "id": "discovery-130-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +79,18 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "yami-no-majo",
+    "rahuvia",
+    "discovery-312"
+  ],
+  "profile": {
+    "personality": "Escorts visitors to Rahu planners and arranges their meetings with Yami no Majo and Yoshida.",
+    "achievements": "Osu receives the adventurers courteously, guides them to a planning council and offers help within his rank. In the August 2024 visit he introduces Yami no Majo as a venerable mage and Yoshida as a lead architect, explicitly explaining the joking Shogun title. His assistance gives the visitors access to people who can answer their questions; it does not establish that Osu rules the city or commands every Rahu institution."
+  },
+  "image": "assets/characters/discord/85a5e8623626682a494f0510af8d270253d4aeab7af7e4ab6b4aa6046e3c69f6.png",
+  "imageAlt": "Recorded depiction of Samurai Osu",
+  "imageCaption": "Samurai Osu",
+  "imageLayout": "portrait-hero"
 }

@@ -2,29 +2,51 @@
   "id": "discovery-206",
   "title": "Thera",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Gulen’s daughter and witness to the mist",
+  "dek": "Insists that she hears her lost mother calling from the mist.",
   "tags": [
     "Thera",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Gulen’s daughter and witness to the mist",
     "Island": "Not established",
-    "Census posts": "5",
-    "Recorded span": "2026-04-14 → 2026-04-14",
+    "Original census posts": "5",
+    "Original census posting span": "2026-04-14 → 2026-04-14",
     "Prominence": "Unrated",
     "Recorded presence": "4/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2026-04-14 · https://discord.com/channels/1177270231513694249/1199083630354501673/1493661991359746211",
+    "Checked quest scene · 2026-04-14 · https://discord.com/channels/1177270231513694249/1199083630354501673/1493664195106050201",
+    "Checked quest scene · 2026-04-14 · https://discord.com/channels/1177270231513694249/1199083630354501673/1493666332581822585",
+    "Checked quest scene · 2026-04-14 · https://discord.com/channels/1177270231513694249/1199083630354501673/1493666878042931323",
+    "Portrait source · 2026-04-14 · https://discord.com/channels/1177270231513694249/1199083630354501673/1493666878042931323"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-206-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-206-record\">Archive record</h2><p>The census records 5 posts across 2026-04-14 → 2026-04-14. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1493661991359746211\">Recorded scene · 1493661991359746211</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Insists that she hears her lost mother calling from the mist.</p><h2 id=\"discovery-206-checked-history\">Recorded role and choices</h2><p>Thera offers to guide the adults toward the missing supplies and then insists the mist contains the voice of her mother. Her father tries to restrain and correct her; she reacts angrily and runs off around the tavern. This is an encounter shaped by grief and a reported perception. It does not confirm a resurrection or resolve the cause of the mist.</p><h2 id=\"discovery-206-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-206-record\">Archive record</h2><p>The census records 5 posts across 2026-04-14 → 2026-04-14. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1493661991359746211\">Recorded scene · 1493661991359746211</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-206-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1493661991359746211",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1493664195106050201",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1493666332581822585",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1493666878042931323"
+        ]
+      }
+    },
     {
       "id": "discovery-206-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +77,18 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "herb",
+    "discovery-115"
+  ],
+  "profile": {
+    "personality": "Insists that she hears her lost mother calling from the mist.",
+    "achievements": "Thera offers to guide the adults toward the missing supplies and then insists the mist contains the voice of her mother. Her father tries to restrain and correct her; she reacts angrily and runs off around the tavern. This is an encounter shaped by grief and a reported perception. It does not confirm a resurrection or resolve the cause of the mist.",
+    "relationships": "Thera calls Gulen her father and addresses Herb as Uncle Herb; the latter form of address does not establish a blood relationship."
+  },
+  "image": "assets/characters/discord/309a40b835e3307f71b5906d731b256de2ba029a2fc9adb9c523a5986f5ab42f.png",
+  "imageAlt": "Recorded depiction of Thera",
+  "imageCaption": "Thera",
+  "imageLayout": "portrait-hero"
 }

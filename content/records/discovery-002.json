@@ -18,7 +18,8 @@
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Portrait source · 2025-02-18 · https://discord.com/channels/1177270231513694249/1199083630354501673/1341600728736731198"
   ],
   "body": "<p>Introduces himself to the company and offers healing after a fight.</p><h2 id=\"discovery-002-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 40/100 · Established</strong></p><p>The checked scenes preserve adventuring support and healing; broader consequences remain unassessed.</p><ul><li>Consequences: 2/5 · weight 35</li><li>Institutional or witness role: 1/5 · weight 25</li><li>Relationships: 2/5 · weight 20</li><li>Recorded presence: 13/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-002-record\">Archive record</h2><p>The census records 148 posts across 2025-01-13 → 2025-02-18. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1328540440550572144\">Recorded scene · 1328540440550572144</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
@@ -60,5 +61,9 @@
     "personality": "Introduces himself to unfamiliar companions while remaining close to Carmen.",
     "achievements": "Offers healing after a fight and acknowledges Carmen’s final shot.",
     "relationships": "Recorded alongside Carmen and the adventuring company; further relationships are not established here."
-  }
+  },
+  "image": "assets/characters/discord/6e1af10488b533c0ef70fbcfe3ad769c9b67995d7f025375efe6ecacf5ddb2c2.png",
+  "imageAlt": "Recorded depiction of Pin",
+  "imageCaption": "Pelegia, recorded as Pin · a historical proxy depiction.",
+  "imageLayout": "portrait-hero"
 }

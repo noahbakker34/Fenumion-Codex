@@ -2,29 +2,45 @@
   "id": "discovery-284",
   "title": "Archdruid Thalindra Were-sage",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Verdant Circle nomination speaker",
+  "dek": "Presents Lady Lucent as the Verdant Circle’s proposed leader.",
   "tags": [
     "Archdruid Thalindra Were-sage",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Verdant Circle nomination speaker",
     "Island": "Not established",
-    "Census posts": "1",
-    "Recorded span": "2025-12-01 → 2025-12-01",
+    "Original census posts": "1",
+    "Original census posting span": "2025-12-01 → 2025-12-01",
     "Prominence": "Unrated",
     "Recorded presence": "2/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2025-12-01 · https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744",
+    "Portrait source · 2025-12-01 · https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-284-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-284-record\">Archive record</h2><p>The census records 1 posts across 2025-12-01 → 2025-12-01. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744\">Recorded scene · 1445185198923845744</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Presents Lady Lucent as the Verdant Circle’s proposed leader.</p><h2 id=\"discovery-284-checked-history\">Recorded role and choices</h2><p>At the 1 December 2025 leadership gathering, Thalindra steps forward and speaks for the Verdant Circle, advocating what she calls a gentler path and nominating Lady Lucent. The scene establishes this public intervention. It does not establish that Lucent wins, that Thalindra leads every druid, or that the visible shifting form fixes her species.</p><h2 id=\"discovery-284-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-284-record\">Archive record</h2><p>The census records 1 posts across 2025-12-01 → 2025-12-01. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744\">Recorded scene · 1445185198923845744</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-284-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744"
+        ]
+      }
+    },
     {
       "id": "discovery-284-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +71,18 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "fein-uaill",
+    "discovery-296",
+    "discovery-299"
+  ],
+  "profile": {
+    "personality": "Presents Lady Lucent as the Verdant Circle’s proposed leader.",
+    "achievements": "At the 1 December 2025 leadership gathering, Thalindra steps forward and speaks for the Verdant Circle, advocating what she calls a gentler path and nominating Lady Lucent. The scene establishes this public intervention. It does not establish that Lucent wins, that Thalindra leads every druid, or that the visible shifting form fixes her species."
+  },
+  "image": "assets/characters/discord/c2a6aea2def8a7d785d7862a0ba54c69a2b14711a0f8e3fcc381127110a18a41.png",
+  "imageAlt": "Recorded depiction of Archdruid Thalindra Were-sage",
+  "imageCaption": "Archdruid Thalindra Were-sage",
+  "imageLayout": "portrait-hero"
 }

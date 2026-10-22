@@ -2,29 +2,55 @@
   "id": "discovery-260",
   "title": "Fenwae, Silver Star Stone Mason",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Silver Star mason and quarry guide",
+  "dek": "Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.",
   "tags": [
     "Fenwae, Silver Star Stone Mason",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
-    "Island": "Not established",
-    "Census posts": "2",
-    "Recorded span": "2025-08-11 → 2025-08-11",
+    "Role": "Silver Star mason and quarry guide",
+    "Island": "Fein Uaill",
+    "Original census posts": "2",
+    "Original census posting span": "2025-08-11 → 2025-08-11",
     "Prominence": "Unrated",
     "Recorded presence": "3/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2025-08-11 · https://discord.com/channels/1177270231513694249/1199083630354501673/1404625891148955790",
+    "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404627066124505189",
+    "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404632215085645894",
+    "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404633917255979151",
+    "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404637197830717510",
+    "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404651535744368662",
+    "Portrait source · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404652089711263764"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-260-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-260-record\">Archive record</h2><p>The census records 2 posts across 2025-08-11 → 2025-08-11. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1404618656599638048\">Recorded scene · 1404618656599638048</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.</p><h2 id=\"discovery-260-checked-history\">Recorded role and choices</h2><p>Fenwae offers Olokun a mine visit, explains why good building stone matters and shows a mountain-lake dam project. He says the work is discussed with the Verdant Circle and describes choosing marble for a memorial to Xo. In their later exchange about Aria, Fenwae’s admiration and Olokun’s differing account remain attributed perspectives. His masonry, practical hospitality and willingness to keep talking are established without making his defense of Zarathian society objective fact.</p><h2 id=\"discovery-260-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-260-record\">Archive record</h2><p>The census records 2 posts across 2025-08-11 → 2025-08-11. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1404618656599638048\">Recorded scene · 1404618656599638048</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-260-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404625891148955790",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404627066124505189",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404632215085645894",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404633917255979151",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404637197830717510",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404651535744368662"
+        ]
+      }
+    },
     {
       "id": "discovery-260-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +81,18 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "olokun",
+    "tarwen-silver-star",
+    "fein-uaill"
+  ],
+  "profile": {
+    "personality": "Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.",
+    "achievements": "Fenwae offers Olokun a mine visit, explains why good building stone matters and shows a mountain-lake dam project. He says the work is discussed with the Verdant Circle and describes choosing marble for a memorial to Xo. In their later exchange about Aria, Fenwae’s admiration and Olokun’s differing account remain attributed perspectives. His masonry, practical hospitality and willingness to keep talking are established without making his defense of Zarathian society objective fact."
+  },
+  "image": "assets/characters/discord/e7722ab63d4c328fa6a41ce5943273b925cbd305da57bd0534e563a588970f37.png",
+  "imageAlt": "Recorded depiction of Fenwae, Silver Star Stone Mason",
+  "imageCaption": "Fenwae, Silver Star Stone Mason",
+  "imageLayout": "portrait-hero"
 }

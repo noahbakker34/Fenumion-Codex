@@ -2,29 +2,53 @@
   "id": "discovery-081",
   "title": "Yaolel",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Religious challenger at the Cala gathering",
+  "dek": "Confronts Camilla and proposes a plan she believes could defeat the Rahu.",
   "tags": [
     "Yaolel",
-    "identity"
+    "NPC"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Religious challenger at the Cala gathering",
     "Island": "Not established",
-    "Census posts": "15",
-    "Recorded span": "2026-02-05 → 2026-02-05",
+    "Original census posts": "15",
+    "Original census posting span": "2026-02-05 → 2026-02-05",
     "Prominence": "Unrated",
     "Recorded presence": "6/20"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Checked quest scene · 2026-02-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1469154466069610639",
+    "Checked quest scene · 2026-02-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1469163902150639728",
+    "Checked quest scene · 2026-02-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1469187137718190136",
+    "Checked quest scene · 2026-02-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1469188743310213297",
+    "Checked quest scene · 2026-02-05 · https://discord.com/channels/1177270231513694249/1199083630354501673/1469192241611538519",
+    "Portrait source · 2025-07-04 · https://discord.com/channels/1177270231513694249/1374055909600526429/1390764763268780204"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-081-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-081-record\">Archive record</h2><p>The census records 15 posts across 2026-02-05 → 2026-02-05. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1469154466069610639\">Recorded scene · 1469154466069610639</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Confronts Camilla and proposes a plan she believes could defeat the Rahu.</p><h2 id=\"discovery-081-checked-history\">Recorded role and choices</h2><p>Yaolel publicly challenges Camilla in February 2026, demands an oath against devils and later describes a key and hoped-for help from heroes of other realms. Her claims about evil, the proposed weapon and the plan’s prospects remain attributed. The selected scene does not establish that the plan succeeds or that her allegations about Camilla are true.</p><h2 id=\"discovery-081-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-081-record\">Archive record</h2><p>The census records 15 posts across 2026-02-05 → 2026-02-05. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1469154466069610639\">Recorded scene · 1469154466069610639</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "discovery-081-checked-history",
+      "title": "Recorded role and choices",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469154466069610639",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469163902150639728",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469187137718190136",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469188743310213297",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1469192241611538519"
+        ]
+      }
+    },
     {
       "id": "discovery-081-prominence",
       "title": "Prominence and evidence",
@@ -55,5 +79,17 @@
         ]
       }
     }
-  ]
+  ],
+  "relatedRecords": [
+    "camilla",
+    "discovery-160"
+  ],
+  "profile": {
+    "personality": "Confronts Camilla and proposes a plan she believes could defeat the Rahu.",
+    "achievements": "Yaolel publicly challenges Camilla in February 2026, demands an oath against devils and later describes a key and hoped-for help from heroes of other realms. Her claims about evil, the proposed weapon and the plan’s prospects remain attributed. The selected scene does not establish that the plan succeeds or that her allegations about Camilla are true."
+  },
+  "image": "assets/characters/discord/69d4e4dd18ccff80c449c87c79a0ee051ac11dbd4165b15db80fec689569654d.png",
+  "imageAlt": "Recorded depiction of Yaolel",
+  "imageCaption": "Yaolel",
+  "imageLayout": "portrait-hero"
 }

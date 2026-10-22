@@ -186,5 +186,9 @@
       }
     ],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
-  }
+  },
+  "image": "assets/archive/bitoshi-nakamoto-portrait.jpg",
+  "imageAlt": "Existing public depiction of Bitoshi Nakamoto",
+  "imageCaption": "Bitoshi Nakamoto",
+  "imageLayout": "portrait-hero"
 }

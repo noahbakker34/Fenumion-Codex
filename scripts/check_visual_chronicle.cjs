@@ -15,7 +15,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   const fits=async()=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits viewport');
   const dockFits=async()=>{
    assert.equal(await page.locator('.codex-utility-dock').count(),1);
-   for(const selector of ['.music-toggle','#vault-button','.approved-content-link'])assert(await page.locator('.codex-utility-dock '+selector).evaluate(el=>{const r=el.getBoundingClientRect();return r.width>=44&&r.height>=44&&r.left>=0&&r.right<=innerWidth;}),'dock control fits: '+selector);
+   for(const selector of ['.music-toggle','#vault-button','.approved-content-link'])assert(await page.locator('.codex-utility-dock '+selector).evaluate(el=>{const r=el.getBoundingClientRect();return r.width>=44&&r.height>=44&&r.left>=0&&r.right<=innerWidth&&el.scrollWidth<=el.clientWidth;}),'dock control fits: '+selector);
    for(const [selector,label] of [['.music-toggle','Soundtrack'],['#vault-button','Spoiler vault'],['.approved-content-link','Approved content']]){const control=page.locator('.codex-utility-dock '+selector);assert((await control.innerText()).includes(label),'visible control label: '+label);}
    const index=page.locator('.topbar .index-button');
    if(await index.isVisible())assert(await index.evaluate(el=>el.getBoundingClientRect().right<=document.querySelector('.codex-utility-dock').getBoundingClientRect().left),'header controls do not overlap');
@@ -65,6 +65,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   assert.equal(await page.evaluate(()=>document.activeElement.dataset.timelineTitle),'Death makes an offer after the mist clearing');
   assert.equal(await page.evaluate(()=>location.hash),hash,'jump does not change filters or create event routes');
   await fits();await dockFits();
+  await page.evaluate(()=>document.body.style.setProperty('--sans','Arial,sans-serif'));await dockFits();await page.evaluate(()=>document.body.style.removeProperty('--sans'));
   await page.screenshot({path:output+'/timeline-desktop.png'});
   await page.locator('.timeline-reset').click();
   assert.equal(await page.locator('.event-card').count(),343);

@@ -114,9 +114,11 @@ body.fenumion-world.timeline-workspace-view .article-header { min-height:0;paddi
 .fenumion-world .index-card img { object-position:center 18%; }
 .fenumion-world .record-visual-rail .article-hero { border-top:2px solid var(--region-accent); }
 /* A single compact header dock replaces the two floating reading-area pills. */
-.codex-utility-dock { position:fixed;top:12px;right:14px;z-index:71;display:flex;gap:6px;align-items:center; }
+.codex-utility-dock { position:fixed;top:12px;right:14px;z-index:71;width:380px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;align-items:center; }
 .fenumion-world .codex-utility-dock .music-player { position:relative;inset:auto;transform:none;width:auto; }
 .fenumion-world .codex-utility-dock :is(.music-toggle,.vault-fab,.approved-content-link) { position:static;transform:none;width:auto;height:48px;min-width:44px;min-height:44px;margin:0;padding:.4rem .65rem;display:flex;gap:.5rem;align-items:center;justify-content:center;border:1px solid #746540;border-radius:7px;background:#142019f5;color:#e5cc8a;box-shadow:none; }
+.fenumion-world .codex-utility-dock .music-toggle { width:100%; }
+.fenumion-world .codex-utility-dock>* { min-width:0; }
 .fenumion-world .codex-utility-dock .music-toggle-icon { background:none;color:inherit;font-size:1.5rem;width:auto;height:auto; }
 .fenumion-world .codex-utility-dock .music-toggle-now { display:none; }
 .fenumion-world .codex-utility-dock :is(.music-toggle-label,.vault-fab strong,.utility-control-label) { display:block;font:600 .75rem/1.25 var(--sans);letter-spacing:normal;text-transform:none;white-space:normal; }
@@ -185,7 +187,7 @@ body.fenumion-world.codex-world .topbar { padding-right:412px; }
  .fenumion-world .topbar .brand>span:last-child { display:none; }
  .fenumion-world .brand-mark { width:36px;height:36px; }
  .fenumion-world .search-toggle { margin-left:auto;flex:0 0 40px; }
- .codex-utility-dock { left:8px;right:8px;top:66px;gap:5px;align-items:stretch; }
+ .codex-utility-dock { width:auto;left:8px;right:8px;top:66px;gap:5px;align-items:stretch; }
  .fenumion-world .codex-utility-dock>.music-player,.fenumion-world .codex-utility-dock>:is(.vault-fab,.approved-content-link) { flex:1;min-width:0; }
  .fenumion-world .codex-utility-dock .music-toggle { width:100%; }
  .fenumion-world .codex-utility-dock :is(.music-toggle,.vault-fab,.approved-content-link) { height:48px;padding:.3rem .35rem;gap:.3rem; }

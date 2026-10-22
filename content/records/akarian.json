@@ -4,10 +4,10 @@
   "category": "People",
   "type": "Warrior; Guardian of Gael",
   "imageLayout": "landscape-hero",
-  "imageAlt": "Akarian, a long-haired elven warrior carrying a sword in a mountain forest",
-  "imageCaption": "Akarian — warrior and Guardian of Gael.",
-  "videoAlt": "Animated portrait of Akarian",
-  "videoCaption": "Akarian — Guardian of Gael.",
+  "imageAlt": "Akarian Irenhour, a long-haired elven warrior carrying a sword in a mountain forest",
+  "imageCaption": "Akarian Irenhour — warrior and Guardian of Gael.",
+  "videoAlt": "Animated portrait of Akarian Irenhour",
+  "videoCaption": "Akarian Irenhour — Guardian of Gael.",
   "dek": "A hunter and Guardian of Gael whose defense of heritage becomes a vigil, a duty to teach and a struggle to accept help amid loss.",
   "tags": [
     "Akarian",
@@ -342,5 +342,8 @@
   "sourceReview": {
     "latestReview": "2026-10-19",
     "scope": "Selected original quest and compatible RP scenes checked; source dates retain their offsets. No exhaustive archive certification or final fate inferred. See the connected-history review."
-  }
+  },
+  "aliases": [
+    "Akarian"
+  ]
 }

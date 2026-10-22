@@ -102,6 +102,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
    await fits();const headingSize=await page.locator('.chronicle-character-header').evaluate(el=>({scroll:el.scrollWidth,width:el.clientWidth,children:[...el.children].map(child=>({class:child.className,width:child.clientWidth,scroll:child.scrollWidth}))}));
    assert(headingSize.scroll<=headingSize.width,'mobile profile heading fits: '+JSON.stringify(headingSize));
    await page.keyboard.press('Escape');
+   await go('world-index');await page.locator('#search-toggle').click();await page.locator('#search').fill('Saelihn');await page.locator('.search-result').first().waitFor();await page.locator('#close-search').click();assert.equal(await page.evaluate(()=>document.activeElement.id),'search-toggle','mobile Close remains reachable below the expanded search field');
    await go('living-timeline?importance=5');
    for(const selector of ['[data-calendar-year]','[data-calendar-month]','[data-calendar-go]'])assert(await page.locator(selector).evaluate(el=>el.getBoundingClientRect().height>=44&&parseFloat(getComputedStyle(el).fontSize)>=16),'calendar touch target '+selector);
    await page.locator('.music-toggle').click();await page.locator('.music-panel').waitFor({state:'visible'});await fits();

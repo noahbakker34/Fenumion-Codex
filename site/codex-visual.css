@@ -192,7 +192,8 @@ body.fenumion-world.codex-world .topbar { padding-right:412px; }
  .fenumion-world .codex-utility-dock :is(.music-toggle-label,.vault-fab strong,.utility-control-label) { font-size:.7rem; }
  .fenumion-world .codex-utility-dock .vault-fab small { font-size:.6rem; }
  .fenumion-world .codex-utility-dock .music-panel { top:124px;max-height:calc(100dvh - 140px); }
- .fenumion-world :is(.sidebar,.search-panel,.search-shell.open) { top:124px; }
+ .fenumion-world :is(.sidebar,.search-panel) { top:124px; }
+ .fenumion-world .search-shell.open { top:66px; }
  .fenumion-world :is(.article-body h2,.article-body h3,.event-card) { scroll-margin-top:140px; }
  .fenumion-world .article-wrap { padding:1.2rem .85rem 2.5rem; }
  .fenumion-world .article-body :is(p,li),.fenumion-world .record-dialog-body p { font-size:1.0625rem; }

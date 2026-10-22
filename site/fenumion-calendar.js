@@ -99,13 +99,14 @@
   }
   function render(root){
     if(root.nodeType===3){if(!root.parentElement?.closest(excluded)){const next=api.text(root.data);if(next!==root.data)root.data=next;}return;}
-    if(root.nodeType!==1||root.closest(excluded))return;
-    element(root);
+    if(root.nodeType!==1&&root.nodeType!==11)return;
+    if(root.nodeType===1){if(root.closest(excluded))return;element(root);}
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT,{acceptNode:node=>node.nodeType===1&&node.matches(excluded)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
     let node;while(node=walker.nextNode()){if(node.nodeType===1)element(node);else{const next=api.text(node.data);if(next!==node.data)node.data=next;}}
   }
   api.render=render;
-  // A single observer covers lazy articles, dialogs, paginated indexes, search and authenticated records.
+  api.html=markup=>{const template=document.createElement('template');template.innerHTML=String(markup??'');render(template.content);return template.innerHTML;};
+  // Record renderers format synchronously; this observer also covers incidental DOM updates.
   const observer=new MutationObserver(records=>{
     const roots=new Set();
     for(const record of records){

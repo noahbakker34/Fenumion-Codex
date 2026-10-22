@@ -251,6 +251,7 @@ function openTimelineRecord(item) {
     ${window.CodexReader.eventChains(item)}
     ${relatedButton}
     ${timelineNavigation}`;
+  window.FenumionCalendar.render(recordDialogContent);
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
   else if (!recordDialog.open) recordDialog.setAttribute("open", "");
   recordDialog.scrollTop = 0;
@@ -290,6 +291,7 @@ function openCharacterRecord(person, personLabel = "Character") {
     ${canonical?.brief ? `<div class="record-dialog-body"><p><strong>Last established status</strong>${escapeHtml(canonical.brief.status)}</p></div>` : ""}
     ${person.prominence ? `<div class="record-dialog-body"><p><strong>Documented prominence · ${person.prominence.score}/100 · ${escapeHtml(person.prominence.confidence)}</strong>${escapeHtml(person.prominence.reason)}</p></div>` : ""}${relatedButton}${islandButton}`;
   window.CodexVisual?.decorateDialog(recordDialogContent,person,canonical,personLabel,codexVisualContext());
+  window.FenumionCalendar.render(recordDialogContent);
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
   else if (!recordDialog.open) recordDialog.setAttribute("open", "");
   recordDialog.scrollTop = 0;
@@ -323,6 +325,7 @@ function openLocationRecord(place) {
     ${window.CodexReader.placeContext(place)}
     <button class="record-dialog-link" type="button" data-record-article="${escapeHtml(place.article)}">${relatedLabel} →</button>`;
   setupAmbientVideos(recordDialogContent);
+  window.FenumionCalendar.render(recordDialogContent);
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
   else if (!recordDialog.open) recordDialog.setAttribute("open", "");
   recordDialog.scrollTop = 0;
@@ -692,6 +695,7 @@ function renderNavigation() {
     </section>`).join("") + `
     <section class="nav-group archive-links"><h2 class="nav-group-title">Archive reference</h2>${archiveLinks.map(item => `
       <button class="nav-link${isPlayerSafeArticle(item.article) ? "" : " restricted-link"}" data-article="${item.article}" data-nav-article="${item.article}" aria-label="${protectedRecordAria(item.label, !isPlayerSafeArticle(item.article))}"><span>${protectedRecordTitle(item.label, !isPlayerSafeArticle(item.article))}</span><span>›</span></button>`).join("")}</section>`;
+  window.FenumionCalendar.render(navigation);
 }
 
 let memorableQuoteCache = null;
@@ -1055,6 +1059,7 @@ function renderArticle(route, pushHash = true) {
   window.CodexReader.afterRender(article, articleContent);
   if(article.id==='memorable-quotes')window.CodexQuotes.setup(articleContent,{records:memorableQuoteRecords(),byId,allowed:isPlayerSafeArticle,person:resolvePublicPerson,recording:text=>quoteVoiceRecordings.find(record=>record.text===text.toLowerCase().replace(/[^a-z]/g,'')),setupVoices:setupQuoteVoices,stopVoices:stopQuoteVoice,contents:buildContents,openArticle:renderArticle,openEvent:openTimelineRecord,events:archiveIndex.timeline.filter(item=>readableTimelineEvent(item)&&!item.vaultOnly&&item.era!=='Ancient world'&&!isRestrictedArticle(item.article)),consequences:title=>questEventConsequences[title]||'',sources:article.sources||[],reference:window.CodexReader.referenceMarkup,load:window.CodexReader.load},routeParams);
   window.CodexVisual?.decorateCards(articleContent,codexVisualContext());
+  window.FenumionCalendar.render(articleContent);
   buildContents();
   closePanels();
   articleContent.dataset.route=routeHash;
@@ -1074,6 +1079,7 @@ function setupFactionDirectory() {
     const matches=records.filter(record=>`${record.title} ${record.dek} ${record.tags.join(' ')}`.toLocaleLowerCase().includes(needle));
     articleContent.querySelector('#faction-count').textContent=`${matches.length} factions`;
     articleContent.querySelector('#faction-records').innerHTML=matches.map(record=>`<button class="index-card" data-article="${escapeHtml(record.id)}">${record.image ? `<span class="index-glyph faction-symbol"><img src="${escapeHtml(record.image)}" alt="${escapeHtml(record.imageAlt || `${record.title} symbol`)}" loading="lazy"></span>` : '<span class="index-glyph" aria-hidden="true">⚑</span>'}<span class="index-card-copy"><strong>${escapeHtml(record.title)}</strong><span>${escapeHtml(record.dek)}</span></span></button>`).join('') || '<p>No matching factions.</p>';
+    window.FenumionCalendar.render(articleContent.querySelector('#faction-records'));
   };
   query.addEventListener('input',render);
   render();
@@ -1154,6 +1160,7 @@ function setupPeopleGallery() {
       </button>`;
     }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
     window.CodexVisual?.decorateCards(gallery,codexVisualContext());
+    window.FenumionCalendar.render(gallery);
     setupAmbientVideos(kindBanner.closest(".people-gallery-shell"));
   };
 
@@ -1300,6 +1307,7 @@ function setupWorldBrowser() {
           <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : activeView === "timeline" ? timelineDateMarkup(item) : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong>${activeView === 'timeline' && !protectedRecord ? `<span class="event-importance">${timelineImportanceMarkup(item)}</span>` : ''}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
         </button>`; }).join("")}</div>`;
     window.CodexVisual?.decorateCards(browser,codexVisualContext());
+    window.FenumionCalendar.render(browser);
     setupAmbientVideos(articleContent);
   };
 
@@ -1373,6 +1381,7 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
       ${!protectedRecord ? window.CodexReader.placeContext(locationRecord,throughDate) : ""}
       ${mapLayerLink}
       <button type="button" class="map-history-link${protectedRecord ? " locked-record" : ""}" data-article="${locationRecord.article}">${protectedRecord ? "Unlock location history" : "Open location history"} <span aria-hidden="true">${protectedRecord ? "◆" : "→"}</span></button>`;
+    window.FenumionCalendar.render(detail);
   };
 
   const renderMap = () => {
@@ -1406,6 +1415,7 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
       </div>`;
     window.FenumionCalendar.dateControl(atlas.querySelector('[data-atlas-date]'));
     if (activeLocationTitle) renderDetail(activeLocationTitle);
+    window.FenumionCalendar.render(atlas);
   };
 
   atlas.addEventListener("change", event => { if(!event.target.matches("[data-atlas-date]"))return;throughDate=event.target.value;syncMapRoute();renderDetail(activeLocationTitle); });
@@ -1547,6 +1557,7 @@ function setupLocationExplorer() {
             </span>
           </button>`; }).join("")}</div>
       </section>`).join("") : `<div class="location-empty"><strong>No recovered place matches that search.</strong><span>Try a region, landmark, building type, or alternate spelling.</span></div>`;
+    window.FenumionCalendar.render(results);
     setupAmbientVideos(results);
   };
 
@@ -1774,6 +1785,7 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
           <span class="event-copy"><span class="event-kind">${escapeHtml(item.kind)} <i>·</i> ${escapeHtml(item.location)}</span><strong>${escapeHtml(item.title)}</strong><span class="event-summary">${escapeHtml(item.summary)}</span><span class="event-people"><b>People</b> ${escapeHtml(item.people)}</span><span class="event-tags">${(item.tags || []).map(tag => `<i>${escapeHtml(tag)}</i>`).join('')}</span><span class="event-expand">Open full event <i aria-hidden="true">→</i></span></span>
         ${window.CodexVisual?.eventArt(item,codexVisualContext()) || ''}</button>`).join('')}</div></section>`).join('') : '<div class="timeline-empty"><strong>No events match these filters.</strong><span>Try a lower importance level, another era or a broader search.</span></div>';
     window.CodexVisual?.calendarNavigator(explorer,filtered,codexVisualContext());
+    window.FenumionCalendar.render(explorer);
   };
   input.addEventListener('input', event => { state.query = event.target.value; renderResults(true); });
   explorer.addEventListener('change', event => {
@@ -2095,6 +2107,7 @@ function runSearch(query) {
   searchResults.innerHTML = results.length ? results.map(({ article, path, kind, record, section }) => `
     <button class="search-result" data-search-category="${kind === "article" ? searchCategory(byId.get(article.id)) : kind}" data-search-kind="${kind}" data-search-title="${escapeHtml(record.title)}"${section ? ` data-search-section="${escapeHtml(section.id)}"` : ""} data-article="${escapeHtml(article.id)}"><small>${path.map(escapeHtml).join(" → ")} · ${escapeHtml(article.type)}</small><strong>${highlight(article.title, normalized)}</strong><span>${highlight(article.dek, normalized)}</span>${section ? `<span class="search-section-match">In ${escapeHtml(section.title)}</span><span class="search-snippet">${highlight(section.snippet,normalized)}</span>` : ""}</button>`).join("") : catalogOnly?'':`<div class="empty-search">No character, quote, event, or location matches “${escapeHtml(query)}”.</div>`;
   if(catalogOnly)searchResults.insertAdjacentHTML('beforeend','<p class="search-index-status" role="status">Catalog matches are available. Opening full-text search…</p>');
+  window.FenumionCalendar.render(searchResults);
   openSearch();
   if(focusedResult){
     const buttons=[...searchResults.querySelectorAll('.search-result')];

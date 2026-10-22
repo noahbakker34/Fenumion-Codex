@@ -106,6 +106,7 @@ window.setupFenumionArt = function(root) {
     grid.innerHTML = found.slice(page * pageSize, (page + 1) * pageSize).map(entry => `<figure class="fenumion-art-card"><a href="${escapeHtml(entry.image)}" target="_blank" rel="noopener" aria-label="Open ${escapeHtml(entry.title)} at full size"><img src="${escapeHtml(entry.image)}" alt="${escapeHtml(entry.title)}" loading="lazy" decoding="async"></a><figcaption><small>${escapeHtml(entry.kind)}</small><h3>${escapeHtml(entry.title)}</h3>${entry.caption !== entry.title ? `<p>${escapeHtml(entry.caption)}</p>` : ''}<a href="#${escapeHtml(entry.article)}">Read the story →</a></figcaption></figure>`).join('') || '<p>No artwork matches your search.</p>';
     previous.disabled = page === 0; next.disabled = page >= pages - 1;
     pageLabel.textContent = `Page ${page + 1} of ${pages}`;
+    window.FenumionCalendar.render(shell);
   }
   query.addEventListener('input', () => {clearTimeout(timer); timer = setTimeout(() => {page = 0; if(shell.isConnected) render();}, 120);});
   previous.addEventListener('click', () => {page--; render(); grid.focus({preventScroll:true});});

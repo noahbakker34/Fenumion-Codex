@@ -48,7 +48,7 @@ window.setupPlayerPerspectives = function(root) {
     const shown = matches.slice(first, first + perPage);
     count.textContent = matches.length ? `${matches.length} of ${entries.length} indexed posts · showing ${first + 1}–${first + shown.length}` : `No matching posts in the ${entries.length}-entry index.`;
     results.innerHTML = shown.map(entry => `<article class="perspective-card" aria-label="Note by ${escape(entry.author)}, posted ${entry.posted}">
-      <div class="perspective-meta"><span>${escape(forms[entry.form] || entry.form)}</span><span>Posted <time datetime="${entry.posted}">${escape(new Date(entry.posted+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}))}</time></span></div>
+      <div class="perspective-meta"><span>${escape(forms[entry.form] || entry.form)}</span><span>Posted <time datetime="${entry.posted}">${escape(window.FenumionCalendar.date(entry.posted))}</time></span></div>
       <h3>${escape(entry.author)}</h3>
       <p class="perspective-excerpt-label">Index excerpt</p><p class="perspective-excerpt">${escape(entry.excerpt)}</p>
       <div class="perspective-tags" aria-label="Index topic labels">${[...entry.regions, ...entry.topics].map(tag => `<span>${escape(tag)}</span>`).join('')}</div>
@@ -57,6 +57,7 @@ window.setupPlayerPerspectives = function(root) {
     </article>`).join('') || '<p class="perspective-empty">Try another name, topic or year, or clear the filters.</p>';
     previous.disabled = page === 0; next.disabled = page === pages - 1;
     pageLabel.textContent = `Page ${page + 1} of ${pages}`;
+    window.FenumionCalendar.render(shell);
   }
   const resetPage = () => { page = 0; render(); };
   query.addEventListener('input', resetPage);

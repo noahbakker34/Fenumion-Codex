@@ -14,7 +14,7 @@
       result+=valid?`<a href="${esc(url)}"${internal?'':' target="_blank" rel="noopener noreferrer"'}>${esc(url)}</a>`:esc(url);
       start=match.index+url.length;
     }
-    return result+esc(source.slice(start));
+    return window.FenumionCalendar.html(result+esc(source.slice(start)));
   }
   async function json(url){const response=await fetch(url);if(!response.ok)throw new Error('Could not load this record ('+response.status+').');return response.json();}
   async function load(article){
@@ -148,7 +148,7 @@
   function placeContext(place,until=''){
     const events=placeEvents(place,until),last=events.at(-1);
     const people=[...new Map(events.flatMap(e=>String(e.people||'').split(';').map(name=>resolvePublicPerson(name.trim())).filter(Boolean)).map(p=>[p.article,p])).values()].slice(0,5);
-    return `<div class="place-history-context"><p><strong>Within</strong> ${esc(place.parent||place.region||'Unresolved')}</p><h4>${until?'Last matching record by '+esc(until):'Last matching dated record'}</h4>${last?`<p>${esc(last.meta)} · ${esc(last.summary)}</p>`:'<p>No matching dated event is established for this selection. This does not date the place’s creation or absence.</p>'}${people.length?'<p class="place-people">'+people.map(p=>`<a href="#${esc(p.article)}">${esc(p.title)}</a>`).join(' · ')+'</p>':''}${events.length?'<ol>'+events.slice(-3).map(e=>`<li><button type="button" data-timeline-title="${esc(e.title)}"><small>${esc(e.meta)}</small>${esc(e.title)}</button></li>`).join('')+'</ol>':''}<small>Dates follow the chronicle entries. Partial or uncertain dates are omitted from exact-date selections.</small></div>`;
+    return window.FenumionCalendar.html(`<div class="place-history-context"><p><strong>Within</strong> ${esc(place.parent||place.region||'Unresolved')}</p><h4>${until?'Last matching record by '+esc(until):'Last matching dated record'}</h4>${last?`<p>${esc(last.meta)} · ${esc(last.summary)}</p>`:'<p>No matching dated event is established for this selection. This does not date the place’s creation or absence.</p>'}${people.length?'<p class="place-people">'+people.map(p=>`<a href="#${esc(p.article)}">${esc(p.title)}</a>`).join(' · ')+'</p>':''}${events.length?'<ol>'+events.slice(-3).map(e=>`<li><button type="button" data-timeline-title="${esc(e.title)}"><small>${esc(e.meta)}</small>${esc(e.title)}</button></li>`).join('')+'</ol>':''}<small>Dates follow the chronicle entries. Partial or uncertain dates are omitted from exact-date selections.</small></div>`);
   }
   window.CodexReader={load,ensureSearch,get searchReady(){return Boolean(searchData);},searchText:article=>parts(article).text,matchSection,afterRender,jump,eventChains,placeContext,placeEvents,referenceMarkup};
 })();

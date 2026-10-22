@@ -7,14 +7,15 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-calendar-site';
  const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});
  try {
   const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+  if(process.env.CODEX_NO_DATE_OBSERVER)await page.addInitScript(()=>{window.MutationObserver=class{observe(){}disconnect(){}takeRecords(){return [];}};});
   const errors=[];page.on('pageerror',error=>errors.push(error.message));let authorized=false;
   const fixture={articles:[{id:'cala',title:'Synthetic calendar dossier',category:'Test',type:'Synthetic fixture',tags:[],facts:{Recorded:'2026-10-18'},body:'<p>A synthetic claim is recorded on 18 October 2026.</p><h2 id="synthetic-calendar">12 June 2024</h2><p>The missing day in May 2025 remains unknown.</p>',sections:[],sources:['Synthetic reference · 2026-10-18 UTC · https://example.test/2026-10-18']}]};
   if(!process.env.CODEX_LIVE)await page.route('https://auth.fenumion.com/**',route=>route.fulfill({status:authorized?200:401,contentType:'application/json',body:authorized?(route.request().url().includes('/vault/data')?JSON.stringify(fixture):'{"signedIn":true}'):'{"error":"signin"}'}));
   const go=async id=>{await page.goto(base+'#'+id);await page.waitForFunction(id=>byId.get(id.split('?')[0])?.bodyLoaded&&document.querySelector('#article-content').dataset.route?.split('?')[0]==='#'+id.split('?')[0],id).catch(async error=>{console.error({id,errors,state:await page.evaluate(()=>({hash:location.hash,rendered:document.querySelector('#article-content').dataset.route}))});throw error;});};
   const audit=async label=>{
    const leftovers=await page.evaluate(()=>{
-    const root=document.querySelector('#article-content'),clean=root.textContent.replace(/https?:\/\/[^\s<>]+|\S+\.(?:md|json|txt)/g,'').replace(/\b20\d{2}\s+(?:rules(?:et)?|edition)\b/gi,'');
-    return [...clean.matchAll(/\b20\d{2}\b|\b(?:January|February|April|June|July|August|September|October|November|December)\b/g)].map(match=>clean.slice(Math.max(0,match.index-30),match.index+70)).slice(0,6);
+    const root=document.body.cloneNode(true);root.querySelectorAll('script,style,code,pre,textarea,input,[data-calendar-source]').forEach(node=>node.remove());const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),parts=[];let node;while(node=walker.nextNode())parts.push(node.data);const clean=parts.join('\n').replace(/https?:\/\/[^\s<>]+|\S+\.(?:md|json|txt)/g,'').replace(/\b20\d{2}\s+(?:rules(?:et)?|edition)\b/gi,'');
+    return [...clean.matchAll(/\b20\d{2}\b|\b(?:Jan(?:uary)?|Feb(?:ruary)?|Apr(?:il)?|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b/g)].map(match=>clean.slice(Math.max(0,match.index-30),match.index+70)).slice(0,6);
    });assert.deepEqual(leftovers,[],label+' has no Gregorian date labels');
   };
   await go('living-timeline');const events=await page.evaluate(()=>JSON.stringify(archiveIndex.timeline));
@@ -25,24 +26,44 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-calendar-site';
   assert((await page.locator('#record-dialog-content').innerText()).includes('19, Month of Nuru · Year 3'));
   assert((await page.locator('#record-dialog-content').innerText()).includes('26–27, Month of Nuru · Year 3'),'posting window remains distinct from adjusted quest date');
   assert(!/\b2026\b/.test(await page.locator('#record-dialog-content').innerText()));
+  await audit('timeline popup');
   await page.keyboard.press('Escape');
   for(const id of ['world-index','memorable-quotes','nienna','fenwick','mark-of-the-wild','history-in-consequences','claims-receipts','open-questions','discovery-001','quest-record']){if(await page.evaluate(id=>byId.has(id),id)){await go(id);await audit(id);}}
   await go('memorable-quotes');
   assert((await page.locator('cite').allTextContents()).includes('Swift Foot · 6, Month of Moirah · Year 1 of the Final War'));
   await page.locator('.quote-card').filter({hasText:'Swift Foot · 6,'}).scrollIntoViewIfNeeded();await page.screenshot({path:output+'/quotes-desktop.png'});
+  await page.locator('#memorable-quote-26 .quote-open').click();
+  await page.waitForFunction(()=>!document.querySelector('.quote-source-status').textContent.includes('Finding'));await audit('quote context and references');await page.keyboard.press('Escape');
   await go('nienna');assert((await page.locator('#nienna-july-loss').textContent()).includes('Month of Cala · Year 1'));
   assert((await page.locator('.article-evidence-ledger').textContent()).includes('Month of Death'));
   assert(await page.evaluate(()=>byId.get('nienna').sources.some(source=>source.includes('2026'))),'source references remain unmodified in memory');
   await page.evaluate(async()=>{search.value='Month of Cala Year 1';await runSearch(search.value);});
-  assert(await page.locator('.search-result[data-article="nienna"]').count(),'named-date article search');
+  assert(await page.locator('.search-result[data-article="nienna"]').count(),'named-date article search');await audit('search results');
   await page.keyboard.press('Escape');
+  await page.evaluate(()=>openCharacterRecord(archiveIndex.characters.find(person=>person.article==='nienna')));await audit('character popup');await page.keyboard.press('Escape');
+  await go('npc-discovery-registry');await page.locator('[data-discovery-next]').click();await audit('discovery pagination');
   await go('player-perspectives');await audit('player notes');
   assert((await page.locator('[data-notes-year] option').allTextContents()).some(value=>value.includes('Year 1')));
   assert((await page.locator('.perspective-meta time').first().innerText()).includes('Month of'));
   assert(/^20\d{2}-\d{2}-\d{2}$/.test(await page.locator('.perspective-meta time').first().getAttribute('datetime')),'machine-readable datetime retained');
+  await page.locator('[data-notes-next]').click();await audit('notes pagination');
   const first=await page.evaluate(()=>FENUMION_PLAYER_PERSPECTIVES.entries.slice().sort((a,b)=>b.posted.localeCompare(a.posted))[0]);
   await page.locator('[data-notes-query]').fill(await page.evaluate(value=>FenumionCalendar.date(value),first.posted));
-  assert(await page.locator('.perspective-card').count(),'named-date notes search');
+  assert(await page.locator('.perspective-card').count(),'named-date notes search');await audit('filtered notes');
+  await go('visual-archive?map=world&place=Fein%20Uaill');
+  await page.locator('.map-detail .place-history-context').waitFor();await audit('Fein Uaill map history');
+  const expectedDates=['29, Month of Cala · Year 3','27, Month of Talan · Year 3','By Month of Cala · Year 3'];
+  for(const date of expectedDates)assert((await page.locator('.map-detail').innerText()).includes(date),date);
+  const detached=await page.evaluate(()=>{
+   const place=archiveIndex.islands.find(place=>place.title==='Fein Uaill');
+   return {markup:CodexReader.placeContext(place),source:CodexReader.referenceMarkup('Checked 29 Jul 2026 · https://example.test/2026-07-29')};
+  });
+  for(const date of expectedDates)assert(detached.markup.includes(date),'map markup formatted before insertion');
+  assert(detached.source.includes('29, Month of Cala'));assert(detached.source.includes('href="https://example.test/2026-07-29"'));
+  await page.locator('.map-detail').scrollIntoViewIfNeeded();await page.screenshot({path:output+'/fein-uaill-desktop.png'});
+  await page.evaluate(()=>openLocationRecord(archiveIndex.islands.find(place=>place.title==='Fein Uaill')));
+  for(const date of expectedDates)assert((await page.locator('#record-dialog-content').innerText()).includes(date),'location popup '+date);
+  await audit('Fein Uaill location popup');await page.keyboard.press('Escape');
   await go('visual-archive?map=pristinia&place=Pristinia');
   const year=page.getByLabel('Fenumion year',{exact:true}),month=page.getByLabel('Fenumion month',{exact:true}),day=page.getByLabel('Day of the month',{exact:true});
   await year.selectOption('2024');await month.selectOption('2');await day.selectOption('29');
@@ -80,11 +101,12 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-calendar-site';
   assert(await page.evaluate(()=>GedankinData.locations.find(item=>item.id==='strange-shore').sources.some(source=>source.includes('not established in-world dates'))),'posting sources keep their original qualification');
   await page.goto(base+'gedankin/#living-timeline');await page.locator('.gedankin-date-note').waitFor();await audit('Gedankin timeline');
   assert((await page.locator('.gedankin-date-note').innerText()).includes('in-world calendar may differ'));
+  await page.locator('#directory-sort').selectOption('reverse');await audit('Gedankin sorted directory');
   const dated=await page.evaluate(()=>GedankinData.events.find(item=>/20\d{2}/.test(item.meta||'')));
   if(dated){
    await page.goto(base+'gedankin/#'+dated.id);await page.locator('.article-header h1').filter({hasText:dated.title}).waitFor();await audit('Gedankin event');
    const named=await page.evaluate(meta=>FenumionCalendar.text(meta),dated.meta);await page.locator('#search').fill(named);
-   await page.locator('#search-results .search-result').filter({hasText:dated.title}).waitFor();
+   await page.locator('#search-results .search-result').filter({hasText:dated.title}).waitFor();await audit('Gedankin search');
   }
   await page.goto(base+'gedankin/#rules-2024');await page.locator('.article-header h1').filter({hasText:'The 2024 ruleset'}).waitFor();
   assert.equal(await page.locator('.infobox .fact').filter({hasText:'Ruleset'}).locator('dd').innerText(),'2024','edition identifiers remain editions');

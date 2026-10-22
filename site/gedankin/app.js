@@ -125,6 +125,7 @@
   };
   document.querySelector('#navigation').innerHTML = '<button class="nav-link starter-nav-link" type="button" data-article="about-gedankin" title="Start Here · New readers" data-label="Start Here · New readers"><span class="starter-nav-icon" aria-hidden="true">♧</span><span class="starter-nav-copy"><strong>Start Here</strong><small>New readers</small></span><span class="starter-nav-arrow" aria-hidden="true">›</span></button>'+sections.map(s => `<section class="nav-region"><button class="nav-region-link" type="button" data-article="${s.id}" title="${s.title}" data-label="${s.title}" aria-label="${s.title}"><span class="nav-region-glyph" aria-hidden="true">${s.glyph}</span><strong>${s.title}</strong><span>›</span></button><div class="nav-region-tree">${navGroups(s).map(group=>`<details class="nav-branch"><summary>${esc(group.label)}<span>${group.records.length}</span></summary><div>${[...group.records].sort((a,b)=>a.title.localeCompare(b.title)).map(record=>`<button type="button" class="nav-link nav-child" data-article="${esc(record.id)}"><span>${esc(record.title)}</span><span>›</span></button>`).join('')}</div></details>`).join('')}</div></section>`).join('');
   document.querySelector('#navigation').insertAdjacentHTML('beforeend', '<section class="nav-region"><a class="nav-region-link" href="/#art-of-fenumion" title="The Art of Fenumion" aria-label="The Art of Fenumion"><span class="nav-region-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3a9 9 0 1 0 0 18h1a2 2 0 0 0 1.5-3.3 1.5 1.5 0 0 1 1.2-2.5H18a3 3 0 0 0 3-3.2A9 9 0 0 0 12 3Z"/><circle cx="7" cy="10" r="1"/><circle cx="10" cy="6.5" r="1"/><circle cx="15" cy="7" r="1"/><circle cx="17.5" cy="11" r="1"/></svg></span><strong>The Art of Fenumion</strong><span>›</span></a></section>');
+  FenumionCalendar.render(document.querySelector('#navigation'));
   const empty = section => `<div class="gedankin-empty"><strong>No ${esc(section.title.toLowerCase())} recorded yet</strong><p>${esc(section.empty)}</p></div>`;
   const cards = records => `<div class="gedankin-records">${records.map(r => `<a class="gedankin-record" href="#${esc(r.id)}"><strong>${esc(r.title)}</strong>${r.meta ? `<small> · ${esc(r.meta)}</small>` : ''}<p>${esc(r.summary || r.dek || '')}</p></a>`).join('')}</div>`;
   function directory(section) {
@@ -140,6 +141,7 @@
     content.querySelector('#directory-count').textContent=`${records.length} of ${data[key].length} records`;
     const html=key==='quotes'?quoteCards(records):`<div class="browser-grid">${records.map(record=>`<button class="index-card" type="button" data-article="${esc(record.id)}">${record.image||record.poster?`<img src="${esc(record.image||record.poster)}" alt="" loading="lazy">`:`<span class="index-glyph" aria-hidden="true">${key==='events'?'◷':key==='locations'?'⌖':key==='factions'?'⚑':'♙'}</span>`}<span class="index-card-copy">${record.meta?`<small>${esc(record.meta)}</small>`:''}<strong>${esc(record.title)}</strong><span>${esc(record.summary||record.dek||'')}</span></span></button>`).join('')}</div>`;
     content.querySelector('#directory-records').innerHTML=records.length?html:'<p>No matching records. Try another search.</p>';
+    FenumionCalendar.render(shell);
   }
   function quoteCards(records, heading='h2', currentArticle='') {
     return [...new Set(records.map(q=>q.group || 'Memorable words'))].map(group => `<${heading}>${esc(group)}</${heading}><div class="quote-gallery">${records.filter(q=>(q.group || 'Memorable words')===group).map(q=>`<div class="quote-card"><blockquote>“${esc(q.text)}”</blockquote><cite>${esc(q.speaker)}</cite>${q.article && q.article !== currentArticle && byId.has(q.article) ? `<a href="#${esc(q.article)}">Read their story →</a>` : ''}${q.audio ? `<audio controls preload="none" src="${esc(q.audio)}"></audio>` : ''}</div>`).join('')}</div>`).join('');
@@ -206,6 +208,7 @@
     if(artworkVideo){artworkVideo.muted=true;artworkObserver.observe(artworkVideo);}
     updateDirectory();
     document.querySelectorAll('.nav-branch').forEach(branch=>{branch.open=Boolean(branch.querySelector(`[data-article="${id}"]`));});
+    FenumionCalendar.render(content);
     const headings=[...content.querySelectorAll('.article-body h2, .article-body h3')].filter(e=>!e.closest('.gateway-section-title'));
     const toc=headings.map((h,i)=>{if(!h.id)h.id='section-'+i;return `<a href="#${esc(id)}" data-section="${esc(h.id)}">${esc(h.textContent)}</a>`;}).join('');
     document.querySelector('#contents').innerHTML=toc;
@@ -222,6 +225,7 @@
     const results=needle?matchingEntries(pool,query):pool.filter(entry=>entry.record.section);
     document.querySelector('#search-count').textContent=needle?`${results.length} ${results.length===1?'result':'results'} in Gedankin`:'Search Gedankin';
     document.querySelector('#search-results').innerHTML=results.length ? results.map(entry=>{const a=entry.record;return `<button type="button" class="search-result" data-article="${esc(a.id)}"><small>${esc(a.isQuote?'Quotes · '+(a.group || 'Memorable words'):a.category || (sections.find(s=>s.key===filterKeys[filter])?.title) || 'Gedankin')}</small><strong>${esc(entry.title)}</strong><p>${esc(searchExcerpt(entry,query))}</p></button>`;}).join('') : needle?'<p class="gedankin-empty">No matches. Try a shorter name, a place, or a few words from the story.</p>':'<p class="gedankin-empty">Search by name, place, event or words from a quote.</p>';
+    FenumionCalendar.render(panel);
     panel.scrollTop=0;
   }
 

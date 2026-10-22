@@ -1,7 +1,10 @@
 // Calendar display is separate from canonical dates and source identities.
-const assert=require('node:assert/strict'),fs=require('node:fs');
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const api=require('../site/fenumion-calendar.js')(require('../content/reference/world.json').timelineCalendar);
 const cases=[
+ ['29 Jul 2026','29, Month of Cala · Year 3 of the Final War'],
+ ['27 Jan 2026','27, Month of Talan · Year 3 of the Final War'],
+ ['By Jul 2026','By Month of Cala · Year 3 of the Final War'],
  ['18 October 2026','18, Month of Death · Year 3 of the Final War'],
  ['Oct 18, 2026','18, Month of Death · Year 3 of the Final War'],
  ['4 March 2024','4, Month of War · Year 1 of the Final War'],
@@ -38,4 +41,6 @@ const scan=value=>{
  else if(value&&typeof value==='object')Object.values(value).forEach(scan);
 };
 for(const name of fs.readdirSync(__dirname+'/../content/records'))scan(JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+name)));
-console.log(`PASS twelve named months, year rollover/pre-Gate/year-before labels, leap days, bounds/partial dates/ranges, ISO timestamps, modal May/March, source identities, rules editions and ${strings} canonical-string idempotency checks`);
+scan(require('../content/reference/world.json'));
+const gedankin={window:{}};vm.runInNewContext(fs.readFileSync(__dirname+'/../site/gedankin/data.js','utf8'),gedankin);scan(gedankin.window.GedankinData);
+console.log(`PASS twelve named months, year rollover/pre-Gate/year-before labels, leap days, bounds/partial dates/ranges, ISO timestamps, modal May/March, source identities, rules editions and ${strings} record/world/Gedankin string idempotency checks`);

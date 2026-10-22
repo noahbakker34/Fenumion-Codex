@@ -27,6 +27,7 @@ window.setupNpcDiscoveries = function(root) {
     count.textContent=`${found.length} of ${data.length} archive labels · ${data.filter(e=>e.kind==='veiled').length} protected records retained without identity details`;
     list.innerHTML=found.slice(page*pageSize,(page+1)*pageSize).map(entry=>`<button type="button" class="index-card discovery-card${entry.kind==='veiled'?' locked-record':''}" data-discovery-id="${entry.id}"><span class="index-card-copy"><small>${labels[entry.kind]} · ${entry.island|| (entry.kind==='veiled'?'Protected':'Island unestablished')}</small><strong>${escapeHtml(entry.name)}</strong><span>${escapeHtml(entry.summary)}</span>${entry.kind==='veiled'?'':`<span class="discovery-score">${entry.rating?`Prominence ${entry.rating.score}/100 · ${entry.rating.confidence}`:'Prominence unrated'}${entry.presence!==null?` · Recorded presence ${entry.presence}/20`:''}</span>`}</span></button>`).join('')||'<p>No matching records.</p>';
     previous.disabled=page===0;next.disabled=page>=pages-1;pageLabel.textContent=`Page ${page+1} of ${pages}`;
+    window.FenumionCalendar.render(shell);
   }
   query.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{page=0;render();},120)});
   for(const input of [kind,island,order])input.addEventListener('change',()=>{page=0;render()});

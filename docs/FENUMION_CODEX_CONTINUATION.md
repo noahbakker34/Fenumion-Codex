@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-21
 
+## All dated records · 21 October 2026
+
+Owner reiterates the site-wide Fenumion calendar requirement with a Fein Uaill atlas screenshot. A fresh production load already formats the example, but shared map histories and dynamic record output still rely on the later observer pass. Calendar2 supports detached fragments; map histories/references return formatted markup, and article/dialog/filter/pagination/navigation paths across both codices now format synchronously. The observer remains a fallback. App256, reader5, quotes2, perspectives/discoveries3, art4 and Gedankin28; catalog256/styles unchanged. Original source dates, precision/qualifiers, chronology, ISO routes, machine attributes, editions, canonical content and the complete private payload remain unchanged.
+
+Local checks pass for all 531 complete public record bodies, 71,569 record/world/Gedankin string stability checks, expanded sitewide dates with/without the observer, reader and quote/audio behavior, content/calendar/protected assets/build/syntax/whitespace. The screenshot’s exact dates and partial-month qualifier pass inline and in a location dialog; desktop/mobile screenshots are inspected. A local-only private text audit preserves the entire payload and finds no residual dated display labels, excluding opaque media and a sort-only partial ISO value. New coverage is added to the hosted gate. See SITEWIDE_CALENDAR_AND_QUOTES.md. Publication follows standing authorization; live receipt follows deployment.
+
 ## Readable left facts panels · 21 October 2026
 
 Owner reports the atlas’s left facts panel wrapping values one character per line. A later main-summary grid rule overrode the narrow panel’s single-column rule, leaving its values about eight pixels wide. Shared layout14 gives the visual-rail facts an explicit full-width column and places values beneath their labels, across both codices. The existing visual regression now checks ordinary words remain on one line, value bounds and page fit at nine widths (1920–320 pixels), plus Gedankin directory facts. Local visual/content/calendar/syntax/whitespace checks pass; desktop/mobile screenshots are inspected. Canonical content, maps, media, routes and the complete private payload are unchanged. Publication follows standing authorization; live receipt follows deployment.

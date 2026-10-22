@@ -20,9 +20,10 @@
  async function detail(record,context,trigger){
   context.stopVoices();const panel=ensureDialog(),epoch=++activeEpoch;returnFocus=trigger;
   panel.innerHTML=`<article><button type="button" class="quote-detail-close" data-close-quote aria-label="Close quotation">×</button><p class="chronicle-kicker">${esc(record.group)}</p><h2 id="quote-detail-title">Words of ${esc(record.personName)}</h2><blockquote>${esc(record.title)}</blockquote><cite>${esc(record.speaker)}</cite><p class="quote-detail-context">${esc(record.context)}</p><dl class="quote-detail-facts"><div><dt>Recorded date</dt><dd>${record.date?esc(FenumionCalendar.date(record.date))+(/posting date/i.test(record.speaker)?' · posting date':''):'A precise date is not established in this quotation’s attribution.'}</dd></div></dl><p class="quote-source-status" role="status">Finding the connected history…</p><div class="quote-source-detail"></div><nav class="quote-detail-links" aria-label="Read the connected history"></nav></article>`;
+  FenumionCalendar.render(panel);
   if(!panel.open)panel.showModal();panel.scrollTop=0;panel.querySelector('[data-close-quote]').focus();
   const links=panel.querySelector('.quote-detail-links');
-  const addLink=(label,action)=>{const button=document.createElement('button');button.type='button';button.textContent=label;button.addEventListener('click',()=>{close();action();});links.append(button);};
+  const addLink=(label,action)=>{const button=document.createElement('button');button.type='button';button.textContent=FenumionCalendar.text(label);button.addEventListener('click',()=>{close();action();});links.append(button);};
   const person=context.person(record.personName),profile=person&&context.byId.get(person.article),article=context.byId.get(record.article);
   if(profile&&context.allowed(profile.id))addLink('Open '+record.personName+'’s profile',()=>context.openArticle(profile.id));
   if(article&&article.id!==profile?.id)addLink(context.allowed(article.id)?'Open the related history':'Open the associated vault record',()=>context.openArticle(article.id));
@@ -32,7 +33,7 @@
   const status=panel.querySelector('.quote-source-status'),sourcePanel=panel.querySelector('.quote-source-detail');
   const collectionSources=()=>`<details><summary>Collection references · individual scene locator incomplete</summary><p>These are references for the selected collection. They do not establish a precise source message for every line.</p><ul>${context.sources.map(source=>'<li>'+context.reference(source)+'</li>').join('')}</ul></details>`;
   if(!article||article.protected||!context.allowed(article.id)){
-   status.textContent='The quotation and its context belong to the public selection. Its associated dossier retains its access rules.';sourcePanel.innerHTML=collectionSources();return;
+   status.textContent='The quotation and its context belong to the public selection. Its associated dossier retains its access rules.';sourcePanel.innerHTML=collectionSources();FenumionCalendar.render(sourcePanel);return;
   }
   try{
    await context.load(article);if(epoch!==activeEpoch||!panel.open)return;
@@ -50,6 +51,7 @@
    }else status.textContent='The related history is available; a precise scene reference for this line is not yet linked.';
    const references=[...new Set((meta?.evidence?.sources||[]).map(source=>typeof source==='number'?article.sources?.[source]:source).filter(Boolean))];
    sourcePanel.innerHTML=references.length?`<details><summary>Section evidence &amp; references</summary><p>${esc(meta.evidence.label)} · ${esc(meta.evidence.summary)}</p><ul>${references.map(source=>'<li>'+context.reference(source)+'</li>').join('')}</ul><small>A section reference may cover several claims; it is not automatically the exact message containing this quotation.</small></details>`:collectionSources();
+   FenumionCalendar.render(sourcePanel);
   }catch{
    if(epoch!==activeEpoch||!panel.open)return;status.textContent='Source details could not load. You can retry or open the related history.';
    const retry=document.createElement('button');retry.type='button';retry.textContent='Retry source details';retry.addEventListener('click',()=>detail(record,context,trigger));sourcePanel.append(retry);
@@ -79,6 +81,7 @@
    shell.querySelectorAll('[data-quote-theme]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.quoteTheme===theme)));
    context.setupVoices();
    if(updateRoute){const route=new URLSearchParams();if(query.value)route.set('quote',query.value);if(speaker.value)route.set('speaker',speaker.value);if(theme)route.set('theme',theme);if(voice.value)route.set('voice',voice.value);if(order.value!=='theme')route.set('sort',order.value);history.replaceState(null,'','#memorable-quotes'+(route.size?'?'+route:''));root.dataset.route=location.hash;}
+   FenumionCalendar.render(shell);
    context.contents();
   }
   query.addEventListener('input',()=>render(true));for(const control of [speaker,voice,order])control.addEventListener('change',()=>render(true));

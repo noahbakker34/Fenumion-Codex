@@ -17309,7 +17309,8 @@
           "x": 63,
           "y": 67
         }
-      ]
+      ],
+      "level": "world"
     },
     {
       "id": "prima",
@@ -17388,7 +17389,9 @@
           "x": 82,
           "y": 66
         }
-      ]
+      ],
+      "parentId": "world",
+      "level": "region"
     },
     {
       "id": "pristinia",
@@ -17475,7 +17478,9 @@
           "x": 53.2,
           "y": 6.8
         }
-      ]
+      ],
+      "parentId": "prima",
+      "level": "settlement"
     },
     {
       "id": "gael",
@@ -17528,7 +17533,9 @@
           "x": 68,
           "y": 86
         }
-      ]
+      ],
+      "parentId": "world",
+      "level": "region"
     },
     {
       "id": "fein-uaill",
@@ -17571,7 +17578,9 @@
           "x": 65,
           "y": 91
         }
-      ]
+      ],
+      "parentId": "world",
+      "level": "region"
     },
     {
       "id": "voraketh",
@@ -17588,7 +17597,9 @@
           "x": 50,
           "y": 50
         }
-      ]
+      ],
+      "parentId": "world",
+      "level": "region"
     },
     {
       "id": "eovar",
@@ -17605,7 +17616,9 @@
           "x": 53,
           "y": 49
         }
-      ]
+      ],
+      "parentId": "prima",
+      "level": "settlement"
     },
     {
       "id": "babel-ashur",
@@ -17627,7 +17640,9 @@
           "x": 58,
           "y": 79
         }
-      ]
+      ],
+      "parentId": "world",
+      "level": "region"
     },
     {
       "id": "luminar-spires",
@@ -17644,7 +17659,9 @@
           "x": 23,
           "y": 36
         }
-      ]
+      ],
+      "parentId": "babel-ashur",
+      "level": "area"
     },
     {
       "id": "greyward",
@@ -17696,7 +17713,9 @@
           "x": 48,
           "y": 76
         }
-      ]
+      ],
+      "parentId": "babel-ashur",
+      "level": "area"
     }
   ],
   "navigationRegions": [
@@ -23587,6 +23606,11 @@
         "label": "Pristinia",
         "article": "pristinia",
         "summary": "Settlement, walls, farms, winter stores, and belonging."
+      },
+      {
+        "label": "Eovar Harbor",
+        "article": "eovar-harbor",
+        "summary": "Prima’s harbor settlement, with the Silver Spire and connections to Pristinia and the Thundering Coast."
       },
       {
         "label": "The First Forest",

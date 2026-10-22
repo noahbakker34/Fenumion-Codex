@@ -2,6 +2,10 @@
 
 Last updated: 2026-10-22
 
+## Regions contain local maps · 22 October 2026
+
+Owner asks that Eovar and Pristinia sit within Prima. The atlas replaces its flat ten-map row with World/five regional tabs and local-map groups: Prima overview/Pristinia/Eovar Harbor, and Babel-Ashur overview/Luminar Spires/Greyward Littoral. Explicit breadcrumbs, parent-aware directory labels, Eovar’s Parent fact and Prima’s settlement/sublocation links align the existing location hierarchy. Original maps, pins, artwork, histories, chronology, routes and complete private payload are preserved. Atlas counts now show 108 places/ten maps. Runtime259/catalog261, visual CSS7; 581 records/2,092 sections; build de9787969aacd1f8. Local new hierarchy and existing reader/calendar/visual regressions pass, including scoped keyboard focus, preserved date cutoff/reload, legacy links, nine widths and protected boundaries; screenshots inspected. See LOCATION_HIERARCHY_2026_10_22.md. Publication follows standing authorization; live receipt follows verification.
+
 ## Bowene’s biography organization · 22 October 2026
 
 Owner asks for a clearer High Lord Bowene page. A single continuous reading column replaces the repeated introduction/facts/relationship scaffold and fourteen accordions. Four concise facts and six numbered chapter links lead through office, mourning/Crucible, exile terms, later rule, named relationships and unresolved questions. Supporting events, remembered words and sources move below the narrative. All twelve original destinations and source locators remain. The already-reviewed departure terms qualify the consolidated exile account; office/cultural authority, attributed peace, contemplated reform and unresolved Talan/return questions remain bounded. Only Bowene opts into this layout. No other records, world/timeline/calendar/map data, original media or private payload changes. 581 records/2,092 sections; catalog260, reader JS6/CSS3; runtime258 also cancels late search refreshes after dismissal; visual JS3/CSS6 unchanged. See BOWENE_LAYOUT_2026_10_22.md. Publication follows standing authorization; the deployment receipt follows verification.

@@ -19,11 +19,10 @@
   ],
   "facts": {
     "Type": "Island / major region",
-    "Settlement": "Pristinia",
     "Sublocations": "The Gate · The Before",
     "Civic memory": "The Common Man → Pilgrim’s Hearth",
     "Ancient wound": "A Delerium vein beneath The Before",
-    "Settlements": "Pristinia · Eovar Harbor",
+    "Settlements": "Pristinia · Eovar Harbor · Rahuvia",
     "Coast": "The Thundering Coast"
   },
   "sources": [

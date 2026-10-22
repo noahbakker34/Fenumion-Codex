@@ -62,6 +62,15 @@ def audit():
   if a.get('body') and not a.get('sources'):warnings.append(aid+': missing article references')
  for alias,target in aliases.items():require(target in known,'Unresolved route alias '+alias+' -> '+target)
  recordById={r['id']:r for r in records}
+ maps=world.get('interactiveMaps',[]);mapById={m['id']:m for m in maps}
+ require(len(maps)==len(mapById),'Duplicate map identity')
+ require(mapById.get('world',{}).get('level')=='world','Missing world map hierarchy root')
+ for m in maps:
+  level=m.get('level');parent=mapById.get(m.get('parentId'))
+  require(level in {'world','region','settlement','area'},m['id']+': missing map level')
+  if level=='world':require(m['id']=='world' and not m.get('parentId'),m['id']+': invalid world map root')
+  elif level=='region':require(parent is not None and parent.get('level')=='world',m['id']+': region map must belong to the world')
+  else:require(parent is not None and parent.get('level')=='region',m['id']+': local map must belong to a region')
  for name in ['scene-review','claim-review','research-queue','source-recovery']:
   rows=json.loads((ROOT/'content/reference'/f'{name}.json').read_text())
   keys=[]

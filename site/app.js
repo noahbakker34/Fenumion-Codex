@@ -961,7 +961,7 @@ function renderArticle(route, pushHash = true) {
       <div class="atlas-banner-copy">
         <p class="eyebrow">Interactive world atlas</p>
         <h2 id="interactive-maps-title">Explore Fenumion from the world outward</h2>
-        <p>Choose a map, then select a marker to explore its recorded history, connected people and events. Use the date control to follow earlier records, or open the full location history.</p>
+        <p>Choose a region, then explore its local maps and markers. Pristinia and Eovar Harbor sit within Prima. Use the date control to follow recorded history, or open a location’s full account.</p>
       </div>
       <div id="interactive-atlas" class="interactive-atlas"></div>
     </section>` : "";
@@ -1339,6 +1339,18 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
   let throughDate=/^\d{4}-\d{2}-\d{2}$/.test(initialDate)?initialDate:"";
   const atlas = document.querySelector("#interactive-atlas");
   if (!atlas) return;
+  const mapIndex = new Map(interactiveMaps.map(map => [map.id, map]));
+  const regionMaps = interactiveMaps.filter(map => !map.parentId || map.parentId === 'world');
+  const mapPath = map => {
+    const path = [], seen = new Set();
+    for (let current=map; current && !seen.has(current.id); current=mapIndex.get(current.parentId)) {
+      path.unshift(current);seen.add(current.id);
+    }
+    return path;
+  };
+  const mapRegion = map => mapPath(map).find(parent => parent.parentId === 'world') || map;
+  const localMaps = region => interactiveMaps.filter(map => map.id === region.id || map.parentId === region.id);
+  const markerLabel = map => `${map.pins.length} ${map.pins.length === 1 ? 'marker' : 'markers'}`;
   const initialMap = interactiveMaps.find(map => map.id === initialMapId) || interactiveMaps[0];
   let activeMapId = initialMap.id;
   let activeLocationTitle = initialMap.pins.some(pin=>pin.title===initialPlace)?initialPlace:initialMap.pins[0]?.title || "";
@@ -1386,20 +1398,24 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
 
   const renderMap = () => {
     const map = interactiveMaps.find(candidate => candidate.id === activeMapId) || interactiveMaps[0];
+    const region = mapRegion(map), path = mapPath(map), children = localMaps(region);
+    const context = map.level === 'world' ? 'World map' : map.parentId === 'world' ? 'Regional map' : `${map.level === 'settlement' ? 'Settlement' : 'Area'} within ${mapIndex.get(map.parentId)?.title || region.title}`;
     const landscape = map.width / map.height > 1.1;
     const mapCanvasWidth = landscape ? "min(100%, 96vh)" : "min(100%, 72vh)";
     const pins = map.pins.map(pin => ({ ...pin, record: findLocation(pin.title) })).filter(pin => pin.record);
     if (!pins.some(pin => pin.title === activeLocationTitle)) activeLocationTitle = pins[0]?.title || "";
     atlas.innerHTML = `
-      <div class="map-switcher" role="tablist" aria-label="Choose a map">
-        ${interactiveMaps.map(candidate => `<button type="button" role="tab" id="map-tab-${candidate.id}" class="map-switch ${candidate.id === map.id ? "active" : ""}" data-map-id="${candidate.id}" aria-controls="atlas-map-panel" aria-selected="${candidate.id === map.id}" tabindex="${candidate.id === map.id ? "0" : "-1"}">${escapeHtml(candidate.shortTitle)}<span>${candidate.pins.length}</span></button>`).join("")}
+      <div class="map-switcher" role="tablist" aria-label="Choose a region">
+        ${regionMaps.map(candidate => `<button type="button" role="tab" id="map-tab-${candidate.id}" class="map-switch ${candidate.id === region.id ? "active" : ""}" data-map-id="${candidate.id}" data-map-scope="region" aria-controls="atlas-map-panel" aria-selected="${candidate.id === region.id}" tabindex="${candidate.id === region.id ? "0" : "-1"}" aria-label="${escapeHtml(candidate.title)} · ${candidate.level === 'world' ? 'world' : 'regional'} map, ${markerLabel(candidate)}">${escapeHtml(candidate.shortTitle)}<span>${candidate.pins.length}</span></button>`).join("")}
       </div>
+      <nav class="map-breadcrumbs" aria-label="Map hierarchy"><ol>${path.map((parent,index) => `<li>${index === path.length-1 ? `<span aria-current="location">${escapeHtml(parent.title)}</span>` : `<button type="button" data-map-id="${parent.id}" aria-label="Up to ${escapeHtml(parent.title)} map">${escapeHtml(parent.title)}</button>`}</li>`).join('')}</ol></nav>
+      ${region.id !== 'world' && children.length > 1 ? `<section class="map-local-navigation" aria-label="Local maps in ${escapeHtml(region.title)}"><strong>Within ${escapeHtml(region.title)}</strong><div class="map-local-switcher" role="group" aria-label="Maps within ${escapeHtml(region.title)}">${children.map(candidate => `<button type="button" data-map-id="${candidate.id}" data-map-scope="local" aria-pressed="${candidate.id === map.id}"><strong>${escapeHtml(candidate.id === region.id ? region.title+' overview' : candidate.title)}</strong><small>${candidate.id === region.id ? 'Regional map' : candidate.level === 'settlement' ? 'Settlement map' : 'Local map'} · ${markerLabel(candidate)}</small></button>`).join('')}</div></section>` : ''}
       <div class="atlas-date-control"><label>Records through <input type="date" data-atlas-date value="${escapeHtml(throughDate)}"></label><button type="button" data-atlas-current>All recorded history</button><small>Map artwork stays fixed; the date selects historical records. A missing record does not establish that a place was absent.</small></div>
       <div class="map-heading">
-        <div><span class="eyebrow">Interactive map</span><h3>${escapeHtml(map.title)}</h3><p>${escapeHtml(map.description)}</p></div>
+        <div><span class="eyebrow">${escapeHtml(context)}</span><h3>${escapeHtml(map.title)}</h3><p>${escapeHtml(map.description)}</p></div>
         <a href="${map.image}" target="_blank" rel="noreferrer">Open source map <span aria-hidden="true">↗</span></a>
       </div>
-      <div class="map-workspace" id="atlas-map-panel" role="tabpanel" aria-labelledby="map-tab-${map.id}">
+      <div class="map-workspace" id="atlas-map-panel" role="tabpanel" aria-labelledby="map-tab-${region.id}">
         <div class="map-frame">
           <div class="map-canvas" style="width:${mapCanvasWidth};aspect-ratio:${map.width} / ${map.height}">
             <img src="${map.image}" width="${map.width}" height="${map.height}" alt="${escapeHtml(map.alt)}" loading="eager">
@@ -1454,15 +1470,17 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
   });
   atlas.addEventListener("keydown", event => {
     const mapButton = event.target.closest("[data-map-id]");
-    if (mapButton && ["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) {
+    if (mapButton && ['region','local'].includes(mapButton.dataset.mapScope) && ["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) {
       event.preventDefault();
-      const index = interactiveMaps.findIndex(map => map.id === mapButton.dataset.mapId);
-      const nextIndex = event.key === "Home" ? 0 : event.key === "End" ? interactiveMaps.length - 1 : (index + (event.key === "ArrowRight" ? 1 : -1) + interactiveMaps.length) % interactiveMaps.length;
-      activeMapId = interactiveMaps[nextIndex].id;
-      activeLocationTitle = interactiveMaps[nextIndex].pins[0]?.title || "";
+      const scope = mapButton.dataset.mapScope;
+      const choices = scope === 'region' ? regionMaps : localMaps(mapRegion(mapIndex.get(activeMapId)));
+      const index = choices.findIndex(map => map.id === mapButton.dataset.mapId);
+      const nextIndex = event.key === "Home" ? 0 : event.key === "End" ? choices.length - 1 : (index + (event.key === "ArrowRight" ? 1 : -1) + choices.length) % choices.length;
+      activeMapId = choices[nextIndex].id;
+      activeLocationTitle = choices[nextIndex].pins[0]?.title || "";
       syncMapRoute();
       renderMap();
-      atlas.querySelector(`[data-map-id="${activeMapId}"]`)?.focus();
+      atlas.querySelector(`[data-map-scope="${scope}"][data-map-id="${activeMapId}"]`)?.focus();
       return;
     }
     const pinButton = event.target.closest(".map-pin[data-map-location]");
@@ -1482,7 +1500,7 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
 function setupLocationExplorer() {
   const explorer = document.querySelector("#location-explorer");
   if (!explorer) return;
-  const regionOrder = ["Prima", "Fein Uaill", "Gael", "Voraketh", "Eovar Harbor", "Babel-Ashur", "World", "Other regions"];
+  const regionOrder = ["Prima", "Fein Uaill", "Gael", "Voraketh", "Babel-Ashur", "World", "Other regions"];
   const regions = [...new Set(archiveIndex.islands.map(item => item.region))].sort((a, b) => regionOrder.indexOf(a) - regionOrder.indexOf(b));
   let activeRegion = "All regions";
   let direction = "asc";
@@ -1550,7 +1568,7 @@ function setupLocationExplorer() {
           <button class="place-card ${item.level === "region" ? "region-card" : ""}${protectedRecord ? " locked-record" : ""}" type="button" data-article="${item.article}" aria-label="${protectedRecordAria(item.title, protectedRecord)}">
             ${media}
             <span class="place-copy">
-              <span class="place-kicker">${protectedRecord ? "Protected location history" : escapeHtml(item.parent === item.region ? item.type : `${item.parent} · ${item.type}`)}</span>
+              <span class="place-kicker">${protectedRecord ? "Protected location history" : escapeHtml(item.level === 'region' ? item.type : `${item.region}${item.parent && item.parent !== item.region ? ' › '+item.parent : ''} · ${item.type}`)}</span>
               <strong>${protectedRecordTitle(item.title, protectedRecord)}${!protectedRecord && mappedLocationTitles.has(item.title) ? `<i class="place-map-badge">Mapped</i>` : ""}</strong>
               <span class="place-summary">${protectedRecord ? "Unlock the spoiler vault to read its history." : escapeHtml(item.summary)}</span>
 

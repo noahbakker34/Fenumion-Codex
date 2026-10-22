@@ -2,7 +2,7 @@
   "id": "eovar-harbor",
   "title": "Eovar Harbor",
   "category": "Places",
-  "type": "Harbor settlement",
+  "type": "Prima sublocation · harbor settlement",
   "image": "assets/archive/eovar-harbor.jpeg",
   "imageAlt": "Map of Eovar Harbor",
   "imageCaption": "Eovar Harbor — settlement map preserved in the archive.",
@@ -18,6 +18,7 @@
     "Maritime trade"
   ],
   "facts": {
+    "Parent": "Prima",
     "Population": "About 2,000",
     "Function": "Port and controlled water access",
     "Defense": "Walled perimeter",

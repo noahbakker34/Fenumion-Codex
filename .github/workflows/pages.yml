@@ -82,6 +82,7 @@ jobs:
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_calendar_records.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_quotes.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_visual_chronicle.cjs
+          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_location_hierarchy.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_portrait_review.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_protected_media.cjs
           NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" CODEX_NO_MEDIA_SOURCE=1 node scripts/check_protected_media.cjs

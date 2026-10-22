@@ -12,13 +12,13 @@
     "Search"
   ],
   "facts": {
-    "Records": "92 places",
-    "Maps": "9 interactive layers",
+    "Records": "108 places",
+    "Maps": "10 interactive maps · world, regions and local views",
     "Structure": "Region → settlement → sublocation",
     "Search": "Names, aliases, regions, and evidence",
     "Provenance": "Campaign records, maps, and preserved images"
   },
-  "body": "<p>Explore Fenumion’s regions, settlements and landmarks. Caisleán na Brón belongs to Fein Uaill; Hope and the Tower lie within Gael; Pristinia’s civic sites belong to Prima.</p><h2 id=\"place-directory\">Find a place</h2><div id=\"location-explorer\" class=\"location-explorer\"></div>",
+  "body": "<p>Start with a region, then explore its settlements and landmarks. Pristinia and Eovar Harbor are locations within Prima. Caisleán na Brón belongs to Fein Uaill; Hope and the Tower lie within Gael; Pristinia’s civic sites belong to Prima.</p><h2 id=\"place-directory\">Find a place</h2><div id=\"location-explorer\" class=\"location-explorer\"></div>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [

@@ -228,3 +228,18 @@ body.fenumion-world.codex-world .topbar { padding-right:412px; }
  .fenumion-world .index-card-copy>strong { line-height:1.4; }
 }
 @media(prefers-reduced-motion:reduce) { .fenumion-world *, .fenumion-world *::before,.fenumion-world *::after { scroll-behavior:auto!important;animation:none!important;transition:none!important; } }
+/* Local maps stay inside their region, with an explicit route back to its overview. */
+.map-breadcrumbs{padding:.7rem 1rem;background:#101b17;border-bottom:1px solid #536149}
+.map-breadcrumbs ol{display:flex;flex-wrap:wrap;align-items:center;gap:.3rem .55rem;list-style:none;margin:0;padding:0}
+.map-breadcrumbs li{display:flex;align-items:center;gap:.55rem;font:500 .85rem/1.5 var(--sans)}
+.map-breadcrumbs li+li::before{content:'›';color:#a9b0a5}
+.map-breadcrumbs button{min-height:44px;padding:.2rem .3rem;border:0;background:none;color:#dfc780;font:inherit;cursor:pointer}
+.map-breadcrumbs [aria-current]{color:#eee9dc;font-weight:600}
+.map-local-navigation{padding:.8rem 1rem;border-left:3px solid #a7b98c;border-bottom:1px solid #536149;background:#18251f}
+.map-local-navigation>strong{display:block;margin-bottom:.55rem;color:#c7d6b3;font:600 .8rem/1.5 var(--sans)}
+.map-local-switcher{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:.5rem}
+.map-local-switcher button{min-width:0;min-height:58px;padding:.6rem .7rem;border:1px solid #5e705b;border-radius:6px;text-align:left;background:#111c18;color:#dedfd5;cursor:pointer}
+.map-local-switcher button[aria-pressed=true]{background:#30432b;border-color:#c2cfaa;box-shadow:inset 0 2px #c2cfaa}
+.map-local-switcher strong{display:block;font:600 .85rem/1.4 var(--sans)}
+.map-local-switcher small{display:block;margin-top:.25rem;font:400 .7rem/1.4 var(--sans);color:#bdc6b8}
+.map-local-switcher button:hover{border-color:#e6cf90}

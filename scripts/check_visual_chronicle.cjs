@@ -72,6 +72,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   assert.equal(await page.locator('.chronicle-calendar').count(),1,'filter rerenders retain one navigator');
   assert.equal(await page.locator('.event-card .timeline-source-date').count(),326,'source dates survive the visual pass');
   await go('bowene');
+  await page.locator('.chronicle-person-portrait img').evaluate(image=>image.decode());
   assert.equal(await page.locator('.biography-section').count(),6);
   assert.equal(await page.locator('.biography-section:visible').count(),6,'biography reads continuously');
   assert.equal(await page.locator('.character-brief,.record-reading-controls,.chapter-guide,.record-visual-rail,.article-header .chronicle-relationships').count(),0,'one overview and one reading order');

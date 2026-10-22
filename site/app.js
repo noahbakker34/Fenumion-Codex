@@ -2124,6 +2124,7 @@ function highlight(text, query) {
 }
 
 function closePanels({restoreFocus=false}={}) {
+  searchRequestEpoch++;
   document.body.classList.remove("panels-open");
   searchPanel.hidden = true;
   scrim.hidden = true;

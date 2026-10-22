@@ -63,6 +63,20 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await page.route('**/data/search.*.json',async route=>{await new Promise(resolve=>setTimeout(resolve,120));await route.continue();},{times:1});
  await page.evaluate(()=>{search.value='rowboat';window.__pendingSearch=runSearch('rowboat');search.value='';runSearch('');});
  await page.evaluate(()=>window.__pendingSearch);assert(await page.locator('#search-panel').evaluate(panel=>panel.hidden));
+ for(const destination of ['', 'living-timeline?importance=5']){
+  const cold=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});cold.on('pageerror',e=>errors.push(e.message));
+  let release;const held=new Promise(resolve=>release=resolve);
+  await cold.route('**/data/search.*.json',async route=>{await held;await route.continue()});
+  await cold.goto(base+'#bowene');await cold.waitForFunction(()=>byId.get('bowene')?.bodyLoaded);
+  await cold.locator('#search-toggle').click();await cold.locator('#search').fill('Bowene');await cold.locator('.search-result').first().waitFor();
+  assert.equal(await cold.locator('.search-index-status').count(),1);
+  await cold.locator('#close-search').click();
+  if(destination){await cold.evaluate(route=>renderArticle(route),destination);await cold.waitForFunction(()=>document.querySelector('#article-content').dataset.route==='#living-timeline?importance=5');}
+  release();await cold.waitForFunction(()=>CodexReader.searchReady);await cold.evaluate(()=>new Promise(requestAnimationFrame));
+  assert(await cold.locator('#search-panel').evaluate(panel=>panel.hidden),'late full-text results stay dismissed');
+  assert(await cold.evaluate(()=>!document.body.classList.contains('panels-open')),'late results cannot hide header controls');
+  assert(await cold.locator('.music-toggle').isVisible());await cold.close();
+ }
  assert.deepEqual(errors,[]);console.log('PASS retry/canceled search; lazy bodies, deferred search, summaries, section evidence/deep links, reading modes, 9 sequences, dated atlas, supplemental indexes, gallery, load races/history, protected boundaries and mobile layout');
  await browser.close();
 })().catch(error=>{console.error(error);process.exit(1)});

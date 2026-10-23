@@ -1106,5 +1106,24 @@
   "sourceReview": {
     "latestReview": "2026-10-19",
     "scope": "Selected original quest and compatible RP scenes checked; source dates retain their offsets. No exhaustive archive certification or final fate inferred. See the connected-history review."
+  },
+  "regionHub": {
+    "region": "Gael",
+    "mapId": "gael",
+    "timelineRegion": "gael",
+    "people": [
+      "nienna",
+      "gartina",
+      "elenia",
+      "huoth",
+      "akarian",
+      "adelia-hope"
+    ],
+    "journeys": [
+      "gael-campaign",
+      "gael-restoration",
+      "crucible-of-gael",
+      "ale-chemy-knights"
+    ]
   }
 }

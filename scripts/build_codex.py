@@ -27,13 +27,14 @@ def build():
   assert re.fullmatch('[a-z0-9-]+',r['id']),r['id']
   if r['protected']:assert not r.get('body'), 'Protected body in public content: '+r['id']
   body=r.get('body','')
-  payload={k:r[k] for k in ['body','sections','brief','sources','relationshipMap','profile'] if k in r}
+  payload={k:r[k] for k in ['body','sections','brief','sources','relationshipMap','profile','biography','regionHub'] if k in r}
 
   for section in payload.get('sections',[]):
    evidence=section['evidence']; evidence['sources']=[payload.get('sources',[]).index(source) if source in payload.get('sources',[]) else source for source in evidence.get('sources',[])]
   encoded=compact(payload); digest=hashlib.sha256(encoded.encode()).hexdigest()[:16]
   name=r['id']+'.'+digest+'.json';generated.add(name);(OUT/'records'/name).write_text(encoded+'\n');total+=len(encoded.encode())
-  meta={k:v for k,v in r.items() if k not in {'body','sections','sources','brief','relationshipMap','profile','sourceReview'}}
+  meta={k:v for k,v in r.items() if k not in {'body','sections','sources','brief','relationshipMap','profile','sourceReview','biography','regionHub'}}
+  if r.get('regionHub'):meta['hasRegionHub']=True
   meta.update(body='',bodyLoaded=False,bodyUrl='data/records/'+name,sectionCount=len(r.get('sections',[])))
   catalog['articles'].append(meta)
   matches=list(re.finditer(r'<h2\b([^>]*)>(.*?)</h2>',body,re.S)); sections=[]

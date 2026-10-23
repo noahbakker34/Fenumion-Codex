@@ -52,6 +52,20 @@ def audit():
   sectionids=[section['id'] for section in a.get('sections',[])]
   require(len(sectionids)==len(set(sectionids)),aid+': duplicate section metadata')
   require(set(sectionids)==set(parser.headings),aid+': headings and evidence metadata differ')
+  if a.get('biography'):
+   plan=a['biography']['chapters'];groups=[group['id'] for group in plan];covered=[sid for group in plan for sid in group['sections']]
+   require(a.get('readingLayout')=='biography',aid+': reading plan requires biography layout')
+   require(len(groups)==len(set(groups)),aid+': duplicate biography chapter')
+   require(len(covered)==len(set(covered)),aid+': biography repeats a source section')
+   require(set(covered)=={sid for sid in sectionids if not sid.endswith('-scene-sequence')},aid+': biography must retain every narrative section')
+   for group in plan:require(group['id'] not in parser.ids or group['id'] in group['sections'],aid+': biography chapter collides with a legacy anchor')
+   nodes={node.get('article') for node in a.get('relationshipMap',{}).get('nodes',[])}
+   require(all(person in known and person in nodes for person in a['biography']['relationships']),aid+': biography relationship lacks its existing source tie')
+  if a.get('regionHub'):
+   hub=a['regionHub'];require(any(place.get('level')=='region' and place['region']==hub['region'] and place['article']==aid for place in world['archiveIndex']['islands']),aid+': regional hub has no established region')
+   require(any(m['id']==hub['mapId'] and m.get('level')=='region' for m in world['interactiveMaps']),aid+': regional hub map is not a region')
+   require(any(region['id']==hub['timelineRegion'] for region in world['timelineRegions']),aid+': regional hub timeline filter is invalid')
+   require(all(target in known and target not in world['restrictedArticleIds'] for target in hub['people']+hub['journeys']),aid+': invalid or protected regional link')
   for section in a.get('sections',[]):
    evidence=section.get('evidence',{});require(evidence.get('kind') in {'mixed','quest','testimony','unresolved','canon','interpretation','reference','map','navigation'},aid+': missing evidence kind')
    require(bool(evidence.get('summary')),aid+': missing evidence explanation')

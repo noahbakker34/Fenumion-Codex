@@ -18,13 +18,8 @@
   ],
   "facts": {
     "Title": "Pride · Knight II of Death",
-    "Allegiance": "Death; protector and political icon of Zarathis",
-    "Fatherhood claim": "Death calls her his daughter; its nature remains unresolved",
-    "Foundational wound": "Childhood loss and unanswered prayers",
-    "Central conflict": "Protection, attachment, and the right to assign sacrifice",
-    "Death": "Killed by Talan · 6 November 2025",
-    "Region": "Fein Uaill",
     "Political authority": "Cultural leader · military stature and public trust",
+    "Death": "Killed by Talan · 6 November 2025",
     "Later testimony": "Dumuzi claims she is not dead · October 2026; no witnessed return in this scene"
   },
   "sources": [
@@ -509,5 +504,65 @@
   "sourceReview": {
     "latestReview": "2026-10-19",
     "scope": "October Babel quest continuation checked through message 1561588351830589551; character claims and mist visions retain attribution. Video attachments not reviewed. Raw sources remain external."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "aria-foundations",
+        "title": "Childhood and cultural authority",
+        "sections": [
+          "origin",
+          "zarathis",
+          "aria-cultural-leadership"
+        ]
+      },
+      {
+        "id": "aria-captivity-and-power",
+        "title": "Captivity and public power",
+        "sections": [
+          "scribonia-gem",
+          "public-power"
+        ]
+      },
+      {
+        "id": "aria-attachment-and-future",
+        "title": "Attachment and mortal independence",
+        "sections": [
+          "private-aria",
+          "attachment",
+          "mortal-future"
+        ]
+      },
+      {
+        "id": "aria-council-and-death",
+        "title": "The war council and her death",
+        "sections": [
+          "war-council",
+          "death"
+        ]
+      },
+      {
+        "id": "aria-relationships",
+        "title": "Relationships",
+        "sections": [],
+        "kind": "relationships"
+      },
+      {
+        "id": "aria-aftermath",
+        "title": "Aftermath and unresolved claims",
+        "sections": [
+          "after-aria",
+          "aria-october-claim"
+        ]
+      }
+    ],
+    "relationships": [
+      "olokun",
+      "scribonia",
+      "elenia",
+      "adelia-hope",
+      "zarathis"
+    ]
   }
 }

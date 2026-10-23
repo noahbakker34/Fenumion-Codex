@@ -84,17 +84,21 @@
   }
   function biographyLayout(article,root,chapters,sourcePanel){
     const body=root.querySelector('.article-body');
-    const primary=new Set(article.sections.map(section=>section.id));
-    const appendices=[];
+    const plan=article.biography?.chapters;
+    const primary=new Set(plan?plan.flatMap(chapter=>chapter.sections):article.sections.map(section=>section.id));
+    const appendices=[],episodes=new Map();
     for(const chapter of chapters){
       const summary=chapter.querySelector(':scope > summary'),heading=summary?.querySelector('h2');
       if(primary.has(heading?.id)){
-        const section=document.createElement('section');section.className='biography-section';
-        section.setAttribute('aria-labelledby',heading.id);section.append(heading);
+        const section=document.createElement('section');section.className=plan?'biography-episode':'biography-section';
+        section.setAttribute('aria-labelledby',heading.id);
+        if(plan){const label=document.createElement('h3');label.id=heading.id;label.textContent=heading.textContent;section.append(label);}
+        else section.append(heading);
         for(const node of [...chapter.childNodes])if(node!==summary)section.append(node);
         const evidence=section.querySelector(':scope > .section-evidence');
         if(evidence)section.append(evidence);
         chapter.replaceWith(section);
+        episodes.set(heading.id,section);
       }else{
         chapter.className='biography-appendix';chapter.open=false;
         if(heading){
@@ -103,6 +107,39 @@
           heading.replaceWith(label);
         }
         appendices.push(chapter);
+      }
+    }
+    if(plan){
+      const marker=document.createComment('biography reading order');body.prepend(marker);
+      for(const group of plan){
+        const section=document.createElement('section');section.className='biography-section';section.setAttribute('aria-labelledby',group.id);
+        const heading=document.createElement('h2');heading.id=group.id;heading.textContent=group.title;section.append(heading);
+        for(const id of group.sections){
+          const episode=episodes.get(id);if(!episode)continue;
+          if(id===group.id)episode.querySelector(':scope > h3').remove();
+          section.append(episode);
+        }
+        if(group.kind==='relationships'){
+          const list=document.createElement('ul');list.className='biography-relationships';
+          for(const id of article.biography.relationships){
+            const tie=article.relationshipMap?.nodes.find(node=>node.article===id);if(!tie||!isPlayerSafeArticle(id))continue;
+            list.insertAdjacentHTML('beforeend',`<li><h3><a href="#${esc(id)}">${esc(tie.title)}</a></h3><p>${esc(tie.history)}</p></li>`);
+          }
+          section.append(list);
+        }
+        marker.before(section);
+      }
+      marker.remove();
+      // Elenia's original named relationship list keeps its wording and gains direct links.
+      for(const list of body.querySelectorAll('.biography-episode[aria-labelledby="relationships"] > ul')){
+        list.classList.add('biography-relationships');
+        for(const item of list.children){
+          const name=item.querySelector('strong');if(!name)continue;
+          const label=name.textContent.replace(/:\s*$/,'').trim();
+          const record=[...byId.values()].find(record=>record.title===label||record.title.startsWith(label+' &'));
+          const title=document.createElement('h3');title.innerHTML=record&&isPlayerSafeArticle(record.id)?`<a href="#${esc(record.id)}">${esc(label)}</a>`:esc(label);
+          name.remove();const text=document.createElement('p');while(item.firstChild)text.append(item.firstChild);item.append(title,text);
+        }
       }
     }
     root.querySelectorAll('.record-reading-controls,.chapter-guide,.article-header .chronicle-relationships').forEach(el=>el.remove());
@@ -119,7 +156,7 @@
     appendices.reverse().forEach(appendix=>sourcePanel.before(appendix));
     const navigation=document.createElement('nav');navigation.className='biography-navigation';
     navigation.setAttribute('aria-label','Read this biography');
-    navigation.innerHTML=article.sections.map((section,index)=>`<button type="button" data-section="${esc(section.id)}"><span aria-hidden="true">${String(index+1).padStart(2,'0')}</span>${esc(section.title)}</button>`).join('');
+    navigation.innerHTML=(plan||article.sections).map((section,index)=>`<button type="button" data-section="${esc(section.id)}"><span aria-hidden="true">${String(index+1).padStart(2,'0')}</span>${esc(section.title)}</button>`).join('');
     root.querySelector('.record-summary').after(navigation);
   }
   function afterRender(article,root){

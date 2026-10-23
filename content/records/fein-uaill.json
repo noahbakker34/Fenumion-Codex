@@ -223,5 +223,23 @@
         ]
       }
     }
-  ]
+  ],
+  "regionHub": {
+    "region": "Fein Uaill",
+    "mapId": "fein-uaill",
+    "timelineRegion": "fein-uaill",
+    "people": [
+      "aria-pride",
+      "bowene",
+      "magnus",
+      "scribonia",
+      "miriel-emerald-veil",
+      "elenia"
+    ],
+    "journeys": [
+      "zarathis-campaign",
+      "caislean-na-bron",
+      "ciaranach"
+    ]
+  }
 }

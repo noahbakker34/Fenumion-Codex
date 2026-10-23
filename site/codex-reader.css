@@ -41,6 +41,62 @@
 .biography-appendix[open]>summary::before{content:'▾'}
 .fenumion-world .biography-layout .biography-appendix>summary h3{margin:0;font:500 .9rem/1.5 var(--sans)}
 .biography-source-note{padding:1rem 0;border-bottom:1px solid #53616b60}
+.biography-episode{margin:1.3rem 0 1.8rem}
+.fenumion-world .biography-layout .biography-episode>h3{margin:1.6rem 0 .75rem;font:600 1.05rem/1.55 var(--sans);color:#d9c78e}
+.biography-episode>.section-evidence{margin:1rem 0 0}
+.fenumion-world .biography-layout .biography-episode .biography-relationships h3{margin:0 0 .5rem;font:600 1rem/1.5 var(--sans)}
+.fenumion-world .region-hub-layout .record-overview{display:block}
+.region-hub-layout .region-hub-intro{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:1.2rem;align-items:start;margin-bottom:1.5rem}
+.region-hub-intro .record-summary{margin:0}
+.region-hub-intro .article-hero{margin:0;max-width:100%}
+.fenumion-world .region-hub-intro .article-hero img{width:100%;height:210px;object-fit:contain;background:#101718}
+.fenumion-world .region-hub-layout .region-hub-intro .article-hero figcaption.media-name-caption{font:400 .8rem/1.5 var(--sans);padding:.6rem;letter-spacing:normal}
+.region-hub-intro .article-map-cta{padding:.6rem;font-size:.8rem}
+.region-hub-intro .article-map-cta small{font-size:.6rem}
+.region-hub-actions,.region-hub-navigation{display:flex;flex-wrap:wrap;gap:.65rem;margin:0 0 1rem}
+.region-hub-actions>a,.region-hub-actions>button,.region-hub-navigation>button{min-height:44px;padding:.7rem .9rem;border:1px solid var(--region-accent,#9dbfa3);border-radius:6px;background:#15231f;color:#e6e6d5;font:500 .85rem/1.45 var(--sans);text-decoration:none;cursor:pointer}
+.region-hub-navigation{margin:0 0 1.7rem;padding-bottom:1rem;border-bottom:1px solid #8f9e8250}
+.region-hub-navigation>button{border-color:#6a795c;background:#101a17;color:#cdd2bf}
+.fenumion-world .region-hub-section{margin:0 0 1.4rem;padding:1.3rem clamp(.9rem,2.5vw,1.7rem);border:1px solid #67775a80;border-radius:8px;background:#111b18f5}
+.fenumion-world .region-hub-section>h2{margin:0 0 .8rem;font-size:clamp(1.35rem,2.2vw,1.8rem)}
+.fenumion-world .region-hub-section>p{margin:.5rem 0 1.2rem;font-size:1.05rem}
+.fenumion-world .region-hub-layout .region-place-group>h3{margin:1.3rem 0 .75rem;font:600 .85rem/1.5 var(--sans);color:#cad8bc}
+.region-place-grid,.region-journey-grid,.region-event-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+.region-place-card,.region-journey-grid>a,.region-event-grid>button{display:flex;flex-direction:column;gap:.5rem;min-width:0;padding:1rem;border:1px solid #76856575;border-radius:6px;background:#1b2922;color:#e5e6d9;text-align:left;text-decoration:none;cursor:pointer;font:400 .95rem/1.6 var(--text)}
+.region-place-card>strong,.region-journey-grid strong,.region-event-grid>button>strong{font:600 1rem/1.5 var(--sans);color:#eee9d7}
+.region-place-card>small,.region-place-card>em,.region-journey-grid small,.region-event-grid>button>small{font:500 .72rem/1.5 var(--sans);color:#c7cdac;font-style:normal}
+.region-place-card>em,.region-journey-grid small{margin-top:auto}
+.region-event-grid [data-calendar-adjusted],.region-event-grid .timeline-source-date{display:none}
+.region-event-grid .timeline-date-status[data-date-kind]{display:block;margin-top:.3rem;font-size:.7rem;color:#b5bfa9}
+.region-event-grid .timeline-calendar-date,.region-event-grid .timeline-war-day{display:block}
+.region-more-places{margin-top:.8rem}
+.region-more-places>summary{padding:.65rem 0;min-height:44px;color:#cfcea6;cursor:pointer;font:500 .8rem/1.5 var(--sans)}
+.region-more-places[open]>.region-place-grid{margin-top:.5rem}
+.region-people-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem}
+.region-people-grid>a{display:flex;gap:.8rem;align-items:center;min-width:0;min-height:84px;padding:.7rem;border:1px solid #76856575;border-radius:6px;background:#1b2922;color:#e5e6d9;text-decoration:none}
+.region-people-grid img{width:56px;height:70px;flex:0 0 56px;object-fit:cover;object-position:50% 20%;border-radius:4px}
+.region-people-grid strong,.region-people-grid small{display:block;font:500 .85rem/1.5 var(--sans)}
+.region-people-grid small{margin-top:.3rem;color:#bbc2ad;font-size:.7rem}
+.region-all-events{display:inline-flex;align-items:center;min-height:44px;margin-top:.9rem;font:500 .85rem/1.5 var(--sans);color:#d3d4ac}
+.region-hub button:hover,.region-hub a:hover{border-color:#ddcc8d;color:#f1dd9d}
+.region-history{margin:1.5rem 0;padding:1rem;border:1px solid #76856575;border-radius:8px;background:#101b17f5}
+.region-history>summary{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem;min-height:48px;color:#dac98a;cursor:pointer}
+.fenumion-world .region-history>summary>h2{margin:0;font-size:1.4rem}
+.region-history>summary>span{font:400 .75rem/1.5 var(--sans);color:#bec7b0}
+.region-history[open]>summary{margin-bottom:1.4rem;padding-bottom:1rem;border-bottom:1px solid #76856575}
+.region-reference{padding:.6rem .85rem;margin-bottom:1.2rem;border:1px solid #76856550;border-radius:6px}
+.region-reference>summary{min-height:44px;cursor:pointer;font:500 .85rem/1.5 var(--sans);color:#d3ceab}
+.region-hub-artwork{margin-top:1rem}
+@media(max-width:1050px){.region-people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){
+ .region-hub-layout .region-hub-intro{grid-template-columns:minmax(0,1fr)}
+ .region-hub-intro .article-hero{max-width:250px;margin:0 auto}
+ .region-place-grid,.region-journey-grid,.region-event-grid{grid-template-columns:minmax(0,1fr)}
+ .region-people-grid{grid-template-columns:minmax(0,1fr)}
+ .region-hub-actions>a,.region-hub-actions>button{flex:1 1 200px}
+ .region-hub-navigation>button{flex:1 1 110px}
+ .region-history{padding:.75rem}
+}
 @media(max-width:760px){
  .biography-navigation{grid-template-columns:repeat(2,minmax(0,1fr))}
  .biography-navigation button{padding:.65rem;min-height:64px}

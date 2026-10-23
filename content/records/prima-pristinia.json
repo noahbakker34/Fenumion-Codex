@@ -132,5 +132,24 @@
     "checkedAt": "2026-10-17",
     "sourceClass": "player testimony",
     "scope": "Original location-notes export checked; protected statements and unseen attachments withheld. No truth status inferred from player authorship."
+  },
+  "regionHub": {
+    "region": "Prima",
+    "mapId": "prima",
+    "timelineRegion": "prima",
+    "people": [
+      "olokun",
+      "elenia",
+      "papirak",
+      "scribonia",
+      "nymera",
+      "saray"
+    ],
+    "journeys": [
+      "pristinia-campaign",
+      "gate-clearing",
+      "before-survey",
+      "papirak-legacy"
+    ]
   }
 }

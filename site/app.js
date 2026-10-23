@@ -304,6 +304,8 @@ function openLocationRecord(place) {
   delete recordDialogContent.dataset.character;
   recordDialogContent.classList.remove('chronicle-character-panel');
   const relatedLabel = place.article === "visual-archive" ? "Open the Location Atlas" : "Open related location history";
+  const related=byId.get(place.article);
+  const relatedRoute=related?.hasRegionHub||related?.regionHub?place.article+'?section='+place.article+'-regional-history':place.article;
   const aliases = (place.aliases || []).length
     ? `<span>Also recorded as · ${escapeHtml(place.aliases.join(" · "))}</span>`
     : "";
@@ -323,7 +325,7 @@ function openLocationRecord(place) {
     </div>
     <div class="record-dialog-meta"><span>Region · ${escapeHtml(place.region || "Unresolved")}</span><span>Parent · ${escapeHtml(place.parent || "Unresolved")}</span>${aliases}</div>
     ${window.CodexReader.placeContext(place)}
-    <button class="record-dialog-link" type="button" data-record-article="${escapeHtml(place.article)}">${relatedLabel} →</button>`;
+    <button class="record-dialog-link" type="button" data-record-article="${escapeHtml(relatedRoute)}">${relatedLabel} →</button>`;
   setupAmbientVideos(recordDialogContent);
   window.FenumionCalendar.render(recordDialogContent);
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
@@ -906,6 +908,7 @@ function renderArticle(route, pushHash = true) {
   else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
   else if (!pushHash && article.id === "living-timeline" && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   const publicPreview = protectedArticle && article.id === 'death-dumuzi' && article.publicPreview;
+  articleContent.classList.remove('biography-layout','region-hub-layout');
   document.title = window.FenumionCalendar.text(`${publicPreview ? publicPreview.title : protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`);
   const path = articlePaths.get(article.id) || [article.category, article.title];
   breadcrumbs.innerHTML = protectedArticle ? `Codex <span>·</span> ${publicPreview ? 'Death' : 'Protected record'}` : `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
@@ -1058,6 +1061,7 @@ function renderArticle(route, pushHash = true) {
   updateNavigationHighlight(article);
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
   window.CodexReader.afterRender(article, articleContent);
+  window.CodexRegions?.setup(article,articleContent);
   if(article.id==='memorable-quotes')window.CodexQuotes.setup(articleContent,{records:memorableQuoteRecords(),byId,allowed:isPlayerSafeArticle,person:resolvePublicPerson,recording:text=>quoteVoiceRecordings.find(record=>record.text===text.toLowerCase().replace(/[^a-z]/g,'')),setupVoices:setupQuoteVoices,stopVoices:stopQuoteVoice,contents:buildContents,openArticle:renderArticle,openEvent:openTimelineRecord,events:archiveIndex.timeline.filter(item=>readableTimelineEvent(item)&&!item.vaultOnly&&item.era!=='Ancient world'&&!isRestrictedArticle(item.article)),consequences:title=>questEventConsequences[title]||'',sources:article.sources||[],reference:window.CodexReader.referenceMarkup,load:window.CodexReader.load},routeParams);
   window.CodexVisual?.decorateCards(articleContent,codexVisualContext());
   window.FenumionCalendar.render(articleContent);
@@ -1999,7 +2003,8 @@ function renderRelated(article) {
 }
 
 function buildContents() {
-  const headings = [...articleContent.querySelectorAll(".article-body h2")];
+  const selector=articleContent.classList.contains('biography-layout')?'.article-body .biography-section > h2':'.article-body h2';
+  const headings = [...articleContent.querySelectorAll(selector)].filter(heading=>!heading.closest('.region-history')||heading.matches('.region-history > summary > h2'));
   contents.innerHTML = headings.map(heading => `<button type="button" class="toc-link" data-section="${heading.id}">${heading.textContent}</button>`).join("");
   const mobileContents = document.querySelector("#mobile-contents");
   mobileContents.hidden = headings.length === 0;

@@ -396,5 +396,23 @@
   "sourceReview": {
     "latestReview": "2026-10-20",
     "scope": "Selected Mark of the Wild character/narrator prose and targeted combat outcomes, with the later primary Babel return scene. No exhaustive mechanics/attachment audit or private revelation import."
+  },
+  "regionHub": {
+    "region": "Babel-Ashur",
+    "mapId": "babel-ashur",
+    "timelineRegion": "babel-ashur",
+    "people": [
+      "olokun",
+      "scribonia",
+      "nymera",
+      "elenia",
+      "arjahn",
+      "ryvyt"
+    ],
+    "journeys": [
+      "babel-survival",
+      "mark-of-the-wild",
+      "luminar-spires"
+    ]
   }
 }

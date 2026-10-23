@@ -408,5 +408,22 @@
     "checkedAt": "2026-10-17",
     "sourceClass": "player testimony",
     "scope": "Original location-notes export checked; protected statements and unseen attachments withheld. No truth status inferred from player authorship."
+  },
+  "regionHub": {
+    "region": "Voraketh",
+    "mapId": "voraketh",
+    "timelineRegion": "voraketh",
+    "people": [
+      "st-anky",
+      "coralyn",
+      "sildithas",
+      "pappy",
+      "ithilrune",
+      "murr"
+    ],
+    "journeys": [
+      "voraketh-campaign",
+      "veiled-watch"
+    ]
   }
 }

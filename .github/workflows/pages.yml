@@ -2,61 +2,80 @@ name: Deploy the Fenumion Codex to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths: ['site/**', 'content/**', 'scripts/**', '.github/workflows/pages.yml']
   pull_request:
+    paths: ['site/**', 'content/**', 'scripts/**', '.github/workflows/pages.yml']
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
-  validate:
-    runs-on: ubuntu-latest
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: read
+    concurrency:
+      group: codex-verify-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    env:
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
     steps:
-      - name: Check out the repository
+      - name: Check out the site and its validation inputs once
         uses: actions/checkout@v6
-      - name: Validate canonical public records
+        with:
+          # Music uses existing pinned URLs; encrypted objects remain for integrity/media checks.
+          sparse-checkout: |
+            /*
+            !/site/assets/music/
+          sparse-checkout-cone-mode: false
+      - name: Set up Node
+        uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Validate canonical public records and encrypted assets
         run: |
           python3 scripts/check_final_war_calendar.py
           node scripts/check_calendar_display.cjs
           python3 scripts/check_content.py
           python3 scripts/check_portrait_review.py
-      - name: Validate encrypted media objects
-        run: python3 scripts/check_protected_assets.py
-      - name: Build reproducible public bundles
+          python3 scripts/check_protected_assets.py
+      - name: Build the public bundles once
         run: python3 scripts/build_codex.py
       - name: Check runtime syntax and whitespace
         run: |
           node --check site/app.js
           node --check site/codex-reader.js
+          node --check site/region-hubs.js
           node --check site/protected-media.js
           node --check site/article-layout.js
           node --check site/codex-visual.js
           node --check site/fenumion-calendar.js
+          node --check site/reader-copy.js
           node --check site/codex-quotes.js
           node --check site/gedankin/app.js
           git diff --check
-  reader:
-    needs: validate
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    steps:
-      - name: Check out the repository
-        uses: actions/checkout@v6
-      - name: Build public records
-        run: python3 scripts/build_codex.py
-      - name: Install the pinned browser test runtime
+      - name: Restore the pinned browser test harness
+        id: browser-cache
+        uses: actions/cache@v6.1.0
+        with:
+          path: ${{ runner.temp }}/codex-browser/node_modules
+          key: codex-playwright-1.62.1-${{ runner.os }}-${{ runner.arch }}
+      - name: Install the test harness on a cache miss
+        if: steps.browser-cache.outputs.cache-hit != 'true'
+        timeout-minutes: 3
+        run: npm install --prefix "$RUNNER_TEMP/codex-browser" --save-exact --ignore-scripts --no-audit --no-fund playwright@1.62.1
+      - name: Use the runner's existing Chrome
         run: |
-          npm install --prefix "$RUNNER_TEMP/codex-browser" --no-audit --no-fund playwright@1.62.1
-          "$RUNNER_TEMP/codex-browser/node_modules/.bin/playwright" install --with-deps chromium
+          CODEX_CHROME_PATH="$(command -v google-chrome)"
+          test -n "$CODEX_CHROME_PATH"
+          "$CODEX_CHROME_PATH" --version
+          printf 'CHROME_PATH=%s\n' "$CODEX_CHROME_PATH" >> "$GITHUB_ENV"
+          printf 'NODE_PATH=%s/codex-browser/node_modules\n' "$RUNNER_TEMP" >> "$GITHUB_ENV"
       - name: Start local preview
         run: |
           python3 scripts/serve_preview.py --port 8880 >"$RUNNER_TEMP/codex-preview.log" 2>&1 &
@@ -73,45 +92,52 @@ jobs:
           PYREADY
       - name: Check reading, history, search, mobile and protected boundaries
         run: |
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_reader.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_research_journeys.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_rifts.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_timeline.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_calendar_site.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" CODEX_NO_DATE_OBSERVER=1 node scripts/check_calendar_site.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_calendar_records.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_quotes.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_visual_chronicle.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_location_hierarchy.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_portrait_review.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_protected_media.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" CODEX_NO_MEDIA_SOURCE=1 node scripts/check_protected_media.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" node scripts/check_public_death.cjs
-          NODE_PATH="$RUNNER_TEMP/codex-browser/node_modules" CODEX_NO_MEDIA_SOURCE=1 node scripts/check_public_death.cjs
-  deploy:
-    if: github.event_name != 'pull_request'
-    needs: [validate, reader]
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out the repository
-        uses: actions/checkout@v6
-      - name: Build public records
-        run: python3 scripts/build_codex.py
+          node scripts/check_reader.cjs
+          node scripts/check_research_journeys.cjs
+          node scripts/check_rifts.cjs
+          node scripts/check_timeline.cjs
+          node scripts/check_calendar_site.cjs
+          CODEX_NO_DATE_OBSERVER=1 node scripts/check_calendar_site.cjs
+          node scripts/check_calendar_records.cjs
+          node scripts/check_quotes.cjs
+          node scripts/check_visual_chronicle.cjs
+          node scripts/check_location_hierarchy.cjs
+          node scripts/check_biographies_and_regions.cjs
+          node scripts/check_portrait_review.cjs
+          node scripts/check_protected_media.cjs
+          CODEX_NO_MEDIA_SOURCE=1 node scripts/check_protected_media.cjs
+          node scripts/check_public_death.cjs
+          CODEX_NO_MEDIA_SOURCE=1 node scripts/check_public_death.cjs
       - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
-      - name: Prepare Pages package
+      - name: Prepare Pages package from the tested build
+        if: github.event_name != 'pull_request'
         run: |
           mkdir -p "$RUNNER_TEMP/fenumion-pages"
           rsync -a --exclude "/assets/music/" --exclude "/assets/protected-media/" site/ "$RUNNER_TEMP/fenumion-pages/"
           python3 -c "from pathlib import Path; p=Path('$RUNNER_TEMP/fenumion-pages'); size=sum(f.stat().st_size for f in p.rglob('*') if f.is_file()); print(f'Pages package: {size:,} bytes'); assert size < 1_000_000_000, 'Pages package exceeds 1 GB'"
-      - name: Upload the static Codex
+      - name: Upload the tested static Codex once
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v4
         with:
           path: ${{ runner.temp }}/fenumion-pages
-      - name: Deploy to GitHub Pages
+          retention-days: 1
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: verify
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the verified artifact without another checkout or build
         id: deployment
         uses: actions/deploy-pages@v4
-

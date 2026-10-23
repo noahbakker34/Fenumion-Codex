@@ -19,10 +19,8 @@
   ],
   "facts": {
     "Known as": "Olokun; Olo; ‘Optimistic Olokun’",
-    "Core principle": "Protection without ownership",
     "Belonging": "Rahu and chosen community",
-    "Strength": "Relationship memory",
-    "Defining test": "Care versus control",
+    "Core principle": "Protection without ownership",
     "Status": "Alive after the October mist expedition; resumes care for the company after the rescue (19 October 2026 UTC source posts)."
   },
   "sources": [
@@ -899,5 +897,83 @@
   "sourceReview": {
     "latestReview": "2026-10-20",
     "scope": "Selected Mark of the Wild character/narrator prose and targeted combat outcomes, with the later primary Babel return scene. No exhaustive mechanics/attachment audit or private revelation import."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "olokun-belonging",
+        "title": "Belonging and early choices",
+        "sections": [
+          "prima-rp-olokun-civic",
+          "optimistic-olokun",
+          "gate-and-arjahn",
+          "rahu",
+          "warden"
+        ]
+      },
+      {
+        "id": "olokun-care-and-loyalty",
+        "title": "Care, loyalty and Aria",
+        "sections": [
+          "olokun-castle-astral",
+          "olokun-castle-compromise",
+          "thread-quarry",
+          "aria",
+          "world-is-good"
+        ]
+      },
+      {
+        "id": "olokun-sacrifice",
+        "title": "Who may choose the sacrifice?",
+        "sections": [
+          "leadership",
+          "hidden-history",
+          "whose-sacrifice",
+          "aria-death"
+        ]
+      },
+      {
+        "id": "olokun-return-and-babel",
+        "title": "Death, return and the war in Babel",
+        "sections": [
+          "death-and-return",
+          "after-return",
+          "olokun-babel-painter",
+          "papirak-luminar",
+          "olokun-hunt-and-coast",
+          "olokun-mist-oya"
+        ]
+      },
+      {
+        "id": "olokun-relationships",
+        "title": "Relationships",
+        "sections": [],
+        "kind": "relationships"
+      },
+      {
+        "id": "olokun-convictions",
+        "title": "What he believes",
+        "sections": [
+          "mature-philosophy",
+          "flaw"
+        ]
+      },
+      {
+        "id": "open-record",
+        "title": "What remains unknown",
+        "sections": [
+          "open-record"
+        ]
+      }
+    ],
+    "relationships": [
+      "aria-pride",
+      "arjahn",
+      "wren",
+      "aravil",
+      "papirak-legacy",
+      "elenia"
+    ]
   }
 }

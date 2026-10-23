@@ -1,0 +1,71 @@
+// Verify the new reading order, original destinations and regional navigation as a signed-out reader.
+const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
+const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',out=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-biographies-regions';
+const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+id+'.json'));
+(async()=>{
+ fs.mkdirSync(out,{recursive:true});const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});
+ try{
+  const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'}),errors=[];page.on('pageerror',error=>errors.push(error.message));
+  if(!process.env.CODEX_LIVE)await page.route('https://auth.fenumion.com/**',route=>route.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
+  const go=async route=>{await page.goto(base+'#'+route);await page.waitForFunction(route=>byId.get(route.split('?')[0])?.bodyLoaded&&document.querySelector('#article-content').dataset.route==='#'+route,route);};
+  const fits=async width=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits '+width);
+  const picture=async file=>{await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:out+'/'+file});};
+  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6]]){
+   const source=originals(id);await go(id);
+   assert.equal(await page.locator('.biography-navigation button').count(),count,id+' reading links');
+   assert.equal(await page.locator('.biography-section').count(),count,id+' continuous chapters');
+   assert.equal(await page.locator('.record-summary .fact').count(),4);
+   assert.equal(await page.locator('.record-visual-rail,.character-brief,.record-reading-controls,.chapter-guide').count(),0);
+   assert.equal(await page.locator('#contents .toc-link').count(),count);
+   for(const section of source.sections)assert.equal(await page.locator('[id="'+section.id+'"]').count(),1,id+' retains '+section.id);
+   assert.deepEqual(await page.evaluate(id=>byId.get(id).sources,id),source.sources,'all original references retained');
+   assert.equal(await page.locator('.section-evidence').count(),source.sections.length,'each original evidence panel retained');
+   assert(await page.locator('.biography-relationships a').count()>=4,'named linked relationships');
+   assert(!/New York|\bUTC\b|\b[Bb]iblical\b/.test(await page.locator('.article-body').innerText()));
+   await page.locator('.chronicle-person-portrait img').evaluate(image=>image.decode());await picture(id+'-desktop.png');
+   const target=source.biography.chapters[1].id;await page.locator('.biography-navigation [data-section="'+target+'"]').click();
+   assert.equal(await page.evaluate(()=>document.activeElement.id),target,'chapter receives focus');
+   await page.reload();await page.locator('#'+target).waitFor();assert.equal(await page.evaluate(()=>document.activeElement.id),target,'chapter route reload');
+   const legacy=source.sections.find(section=>section.id!==target&&source.biography.chapters.some(chapter=>chapter.sections.includes(section.id))).id;
+   await go(id+'?section='+legacy);assert.equal(await page.evaluate(()=>document.activeElement.id),legacy,'legacy source section route');
+   assert.equal(await page.locator('#'+legacy).evaluate(el=>el.closest('.biography-section')!==null),true);
+   const scene=source.sections.find(section=>section.id.endsWith('-scene-sequence'));
+   if(scene){await go(id+'?section='+scene.id);assert(await page.locator('#'+scene.id).evaluate(el=>el.closest('details').open),'legacy scene appendix opens');assert(await page.locator('#'+scene.id).evaluate(el=>el.parentElement.parentElement.querySelector('.scene-sequence')!==null));}
+   await go(id+'?section=relationship-map-'+id);assert(await page.locator('#relationship-map-'+id).evaluate(el=>el.closest('details').open),'relationship map remains accessible');
+   const filter=page.locator('[data-relationship-filter]').last();await filter.click();assert.equal(await filter.getAttribute('aria-pressed'),'true','relationship filters survive reorganization');
+   for(const width of [1440,1280,1100,1024,900,768,600,390,320]){await page.setViewportSize({width,height:844});await fits(width);assert(await page.locator('.biography-navigation button').evaluateAll(nodes=>nodes.every(el=>el.scrollWidth<=el.clientWidth&&el.getBoundingClientRect().height>=44)),'biography controls fit '+width);}
+   if(id==='elenia'){await go('elenia?section=miracle');await page.locator('#miracle').scrollIntoViewIfNeeded();await picture('elenia-miracle-mobile.png');}
+   await page.setViewportSize({width:1440,height:1000});
+  }
+  for(const id of ['prima-pristinia','gael','fein-uaill','voraketh','babel-ashur']){
+   const hub=originals(id).regionHub;await go(id);
+   assert.equal(await page.locator('.region-hub').count(),1);assert.equal(await page.locator('.region-history').getAttribute('open'),null);
+   assert.equal(await page.locator('#contents .toc-link').count(),5,'hub contents stay focused');
+   assert.equal(await page.locator('.region-hub-navigation button').count(),5);
+   const expected=await page.evaluate(region=>archiveIndex.islands.filter(place=>place.region===region&&place.level!=='region'&&isPlayerSafeArticle(place.article)).length,hub.region);
+   assert.equal(await page.locator('.region-place-card').count(),expected,'all accessible child places retained');
+   assert(await page.locator('.region-place-card>small').evaluateAll((nodes,region)=>nodes.every(el=>el.textContent.startsWith(region)),hub.region),'place parent labels');
+   assert.equal(await page.locator('.region-people-grid>a').count(),6);
+   assert.equal(await page.locator('.region-journey-grid>a').count(),hub.journeys.length);
+   assert(await page.locator('.region-event-grid>button').count()>0);
+   await page.locator('.region-event-grid>button').first().click();await page.locator('#record-dialog[open]').waitFor();assert((await page.locator('#record-dialog-content').innerText()).includes('Month of'));await page.keyboard.press('Escape');
+   for(const width of [1440,1280,1100,1024,900,768,600,390,320]){await page.setViewportSize({width,height:844});await fits(width);assert(await page.locator('.region-hub-navigation button').evaluateAll(nodes=>nodes.every(el=>el.scrollWidth<=el.clientWidth&&el.getBoundingClientRect().height>=44)),'regional controls fit '+width);}
+   await page.setViewportSize({width:1440,height:1000});
+   if(id==='prima-pristinia'){
+    for(const name of ['Pristinia','Eovar Harbor']){const card=page.locator('.region-place-card').filter({has:page.getByText(name,{exact:true})});assert.equal(await card.count(),1);await card.click();assert.equal(await page.locator('#record-dialog-title').innerText(),name);assert((await page.locator('#record-dialog-content').innerText()).includes('Parent · Prima'));await page.keyboard.press('Escape');}
+    await page.locator('#prima-pristinia-hub-places').scrollIntoViewIfNeeded();await picture('prima-hub-desktop.png');await page.setViewportSize({width:390,height:844});await page.locator('#prima-pristinia-hub-places').scrollIntoViewIfNeeded();await picture('prima-hub-mobile.png');await page.setViewportSize({width:1440,height:1000});
+   }
+   if(id==='gael'){
+    await page.locator('.region-place-card').filter({has:page.getByText('Hope',{exact:true})}).click();
+    await page.locator('#record-dialog-content [data-record-article="gael?section=gael-regional-history"]').click();
+    assert(await page.locator('.region-history').evaluate(el=>el.open),'shared location opens its regional history');
+    await go('gael?section=gael-fenwick-coast');assert(await page.locator('#gael-fenwick-coast').evaluate(el=>[...function*(el){for(let p=el.parentElement;p;p=p.parentElement)if(p.matches('details'))yield p;}(el)].every(el=>el.open)),'old deep links reveal both history and section');
+    await go('gael');await picture('gael-hub-desktop.png');
+   }
+   await page.locator('.region-hub-actions [data-open-map]').click();await page.locator('.map-heading h3').waitFor();assert.equal(await page.evaluate(()=>new URLSearchParams(location.hash.split('?')[1]).get('map')),hub.mapId,'map opens at the regional level');assert.equal(await page.locator('#article-content').evaluate(el=>el.classList.contains('region-hub-layout')),false,'hub layout does not carry into the atlas');
+   await go(id);await page.locator('.region-hub-actions>a').click();await page.locator('[data-timeline-region]').waitFor();assert.equal(await page.locator('[data-timeline-region]').inputValue(),hub.timelineRegion,'full timeline scoped to region');
+  }
+  assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);assert.deepEqual(errors,[]);
+  console.log('PASS three continuous biographies; source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
+ }finally{await browser.close();}
+})().catch(error=>{console.error(error);process.exit(1);});

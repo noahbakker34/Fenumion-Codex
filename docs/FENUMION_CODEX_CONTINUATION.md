@@ -2,6 +2,10 @@
 
 Last updated: 2026-10-23
 
+## This Day anniversary correction · 23 October 2026
+
+Owner explicitly requires TODAY’s month/day in past years. This supersedes the prior rotating retrospective. The homepage now selects only exact public historical dates whose month/day matches the current campaign day and whose year is strictly earlier. No arbitrary rotation, Earlier/Later controls or nearby-date fallback remains. Empty days explicitly report no precisely dated events in past years. The supplied background, named dates, detailed record links, source qualifications and protected boundaries remain. A page kept open refreshes within one minute of the established day boundary. Visual JS6/CSS10; canonical content unchanged. Publication follows the owner’s live-update authorization; release receipt follows verification.
+
 ## This Day in Fenumion · 23 October 2026
 
 Owner requests a small homepage history feature, then clarifies that it should help players look back through server history without needing today’s date. The panel now rotates through actual recorded historical days, independently of the current month/day. Earlier/Later controls browse other recorded days. Each selection shows up to three existing public summaries and their named historical date/year, with further matches expandable and existing detailed event dialogs preserved. The daily selection is shared across visitors and stable on reload. No Today control, date picker, empty anniversary or nearby-date fallback remains.

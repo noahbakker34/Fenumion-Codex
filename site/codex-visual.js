@@ -113,27 +113,18 @@
       const part = name => parts.find(value=>value.type===name).value;
       return `${part('year')}-${part('month')}-${part('day')}`;
     };
-    let today=currentDate(), browsing=false;
-    const records=historicalDayRecords(context,today);
-    const dates=[...new Set(records.map(row=>row.date))];
-    const dailyIndex = () => dates.length ? Math.floor(Date.parse(today+'T00:00:00Z')/86400000)%dates.length : 0;
-    let index=dailyIndex();
-    mount.innerHTML=`<div class="this-day-heading"><div><p class="chronicle-kicker">A look back through server history</p><h2 id="this-day-title">This Day in Fenumion</h2></div><div class="this-day-controls"><button type="button" data-this-day-previous aria-label="Earlier recorded day">← Earlier</button><button type="button" data-this-day-next aria-label="Later recorded day">Later →</button></div></div><div class="this-day-results" aria-live="polite" aria-atomic="true"></div><a class="this-day-history" href="#living-timeline">Explore the full history →</a>`;
+    let today=currentDate();
+    mount.innerHTML=`<div class="this-day-heading"><div><p class="chronicle-kicker">On this day in years past</p><h2 id="this-day-title">This Day in Fenumion</h2></div></div><div class="this-day-results" aria-live="polite" aria-atomic="true"></div><a class="this-day-history" href="#living-timeline">Explore the full history →</a>`;
     const render = () => {
-      const shown=records.filter(row=>row.date===dates[index]);
+      const shown=historicalDayRecords(context,today).filter(row=>row.date.slice(5)===today.slice(5) && row.date.slice(0,4)<today.slice(0,4));
       const card = row => `<li><button type="button" data-timeline-title="${esc(row.event.title)}"><small>${esc(context.namedDate(row.event))}</small><strong>${esc(row.event.title)}</strong><span>${esc(row.event.summary)}</span><span class="this-day-read">Open the historical record →</span></button></li>`;
-      mount.querySelector('.this-day-results').innerHTML=`${shown.length?`<p class="this-day-date">${esc(context.namedDate(shown[0].event))}</p><ol class="this-day-events">${shown.slice(0,3).map(card).join('')}</ol>${shown.length>3?`<details class="this-day-more"><summary>${shown.length-3} more on this date</summary><ol class="this-day-events">${shown.slice(3).map(card).join('')}</ol></details>`:''}`:'<p class="this-day-empty">No precisely dated history is available yet.</p>'}<p class="this-day-note">Rediscover a day from the chronicles. A different day in our history is featured each day.</p>`;
-      mount.querySelectorAll('.this-day-controls button').forEach(button=>{button.disabled=dates.length<2;});
+      mount.querySelector('.this-day-results').innerHTML=`${shown.length?`<ol class="this-day-events">${shown.slice(0,3).map(card).join('')}</ol>${shown.length>3?`<details class="this-day-more"><summary>${shown.length-3} more on this day</summary><ol class="this-day-events">${shown.slice(3).map(card).join('')}</ol></details>`:''}`:'<p class="this-day-empty">No precisely dated events are recorded for this day in past years.</p>'}<p class="this-day-note">The same day and month, remembered across earlier years.</p>`;
       window.FenumionCalendar?.render(mount);
     };
     render();
-    const move = step => {browsing=true;index=(index+step+dates.length)%dates.length;render();};
-    mount.querySelector('[data-this-day-previous]').addEventListener('click',()=>move(-1));
-    mount.querySelector('[data-this-day-next]').addEventListener('click',()=>move(1));
     const timer=setInterval(()=>{
       if(!mount.isConnected){clearInterval(timer);return;}
-      const next=currentDate();if(next===today)return;today=next;
-      if(!browsing){index=dailyIndex();render();}
+      const next=currentDate();if(next===today)return;today=next;render();
     },60000);
   }
 

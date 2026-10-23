@@ -1,5 +1,13 @@
 # This Day in Fenumion
 
+## Current behavior — exact anniversary correction
+
+Owner explicitly requests that players see what happened TODAY in past years. This supersedes the rotating implementation documented below. Visual JS6/CSS10 matches the current campaign month/day, with year strictly earlier than the current year. The same existing exact-date, public-record and quest-adjustment checks apply. No different month/day, current-year record, arbitrary rotation, browse-day controls or nearby fallback is displayed. An empty anniversary says there are no precisely dated events recorded for this day in past years. An open page refreshes within one minute at the established campaign day boundary. Historical event dates remain in the Fenumion calendar, and the original supplied background remains unchanged.
+
+Browser checks cover the actual first Called anniversary, no-match days, exact month/day plus prior-year filtering, adjusted quest dates, source qualifications and private boundaries, reload, midnight rollover, detailed event dialogs and six widths. No canonical data or source dates change. Live publication is authorized; a release receipt follows verification.
+
+## Earlier implementation and release record
+
 23 October 2026 — homepage feature requested by the owner. The owner subsequently clarified that this is a way for players to look back through server history, independent of today’s date. This replaces the initial month/day anniversary implementation.
 
 The daily panel sits between the homepage category tiles and existing featured stories. It rotates through the complete set of eligible historical dates, one date per day, with a stable selection shared across visitors and reloads. The existing campaign day boundary sets rotation timing only; the selected historical date need not match today's month/day. Earlier and Later buttons cycle through recorded days, wrapping at the ends. Historical date/year labels use the established named Fenumion calendar. No current date, Today button or calendar picker appears. A page left open rotates within one minute at the day boundary unless the reader has begun browsing.

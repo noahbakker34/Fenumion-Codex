@@ -6,6 +6,9 @@ Owner explicitly requests that players see what happened TODAY in past years. Th
 
 Browser checks cover the actual first Called anniversary, no-match days, exact month/day plus prior-year filtering, adjusted quest dates, source qualifications and private boundaries, reload, midnight rollover, detailed event dialogs and six widths. No canonical data or source dates change. Live publication is authorized; a release receipt follows verification.
 
+
+Release `7435d0f40d3a19cbc74145ec01347bbe84cadd75` deployed successfully in [Pages run 40001099065](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/40001099065). All hosted gates pass. Five live entry/runtime/style/background/catalog files match tested bytes. Fresh anonymous live Chrome passes exact current month/day and prior-year filtering, empty days, reload, midnight rollover, quest adjustments, qualified-date exclusions, privacy, event dialogs and six widths. This receipt is documentation-only.
+
 ## Earlier implementation and release record
 
 23 October 2026 — homepage feature requested by the owner. The owner subsequently clarified that this is a way for players to look back through server history, independent of today’s date. This replaces the initial month/day anniversary implementation.

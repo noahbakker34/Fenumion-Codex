@@ -21,6 +21,21 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
    const index=page.locator('.topbar .index-button');
    if(await index.isVisible())assert(await index.evaluate(el=>el.getBoundingClientRect().right<=document.querySelector('.codex-utility-dock').getBoundingClientRect().left),'header controls do not overlap');
   };
+  const headerFits=async()=>{
+   const problems=await page.evaluate(()=>{
+    const issues=[],rect=el=>el.getBoundingClientRect();
+    const controls=[...document.querySelectorAll('.topbar :is(.menu-button,.brand,.search-toggle,.search-shell),.topbar-actions>:is(.campaign-tools-button,.index-button),.codex-utility-dock :is(.music-toggle,.vault-fab,.approved-content-link)')].filter(el=>el.checkVisibility());
+    for(const el of controls){const r=rect(el);if(r.left<0||r.right>innerWidth+.5)issues.push(el.className+' leaves viewport');}
+    for(let i=0;i<controls.length;i++)for(let j=i+1;j<controls.length;j++){
+     const a=rect(controls[i]),b=rect(controls[j]);
+     if(Math.min(a.right,b.right)-Math.max(a.left,b.left)>.5&&Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top)>.5)issues.push(controls[i].className+' overlaps '+controls[j].className);
+    }
+    const brand=document.querySelector('.topbar .brand');
+    for(const el of brand.querySelectorAll('strong,small'))if(el.checkVisibility()&&rect(el).right>rect(brand).right+.5)issues.push('brand copy escapes its allotted space');
+    return issues;
+   });
+   assert.deepEqual(problems,[],'header fits at '+page.viewportSize().width);
+  };
   const readableRailFact=async(label,word)=>{
    const panel=page.locator('.record-visual-facts');
    if(!await panel.evaluate(el=>el.open))await panel.locator('summary').click();
@@ -88,6 +103,20 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   assert.equal(await exile.locator('#bowene-exile-terms').count(),1,'departure terms stay beside the judgment');
   await page.locator('#bowene-relationships').scrollIntoViewIfNeeded();await page.screenshot({path:output+'/bowene-relationships-desktop.png'});
   await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:output+'/bowene-desktop.png'});
+  // Only simulate the public control state: no private record or credentials are loaded.
+  for(const unlocked of [false,true]){
+   await page.evaluate(value=>{vaultUnlocked=value;updateVaultState();},unlocked);
+   for(const width of [2048,1920,1440,1366,1280,1251,1250,1200,1101,1100,1024,900,768,761,760,600,390,320]){
+    await page.setViewportSize({width,height:1000});await fits();await dockFits();await headerFits();
+    if(width>=1280)assert(await page.locator('.topbar .brand strong').evaluate(el=>el.scrollWidth<=el.clientWidth),'full brand title fits at '+width);
+    if(unlocked&&width>=1101)assert(await page.locator('.topbar .campaign-tools-button').isVisible(),'campaign tools remain available');
+    if(unlocked&&[1440,1101,390].includes(width)){
+     await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
+     await page.screenshot({path:output+'/header-unlocked-'+width+'.png'});
+    }
+   }
+  }
+  await page.evaluate(()=>{vaultUnlocked=false;updateVaultState();});
   for(const width of [1440,1280,1100,1024,900,768,600,390,320]){
    await page.setViewportSize({width,height:1000});await fits();await dockFits();
    assert(await page.locator('.biography-navigation button').evaluateAll(buttons=>buttons.every(button=>button.scrollWidth<=button.clientWidth&&button.getBoundingClientRect().height>=44)),'biography links fit at '+width);
@@ -149,6 +178,6 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   }
   const privacy=await page.evaluate(()=>({bodies:articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id),stubs:archiveIndex.timeline.filter(e=>e.veiled&&(e.importance||e.regions||e.dating)).length}));
   assert.deepEqual(privacy,{bodies:[],stubs:0});assert.deepEqual(errors,[]);
-  console.log('PASS illustrated homepage/event links; 27 Interregional and seven World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; continuous Bowene biography, legacy destinations and source appendix; portraits/roles/public relationships/dialog; readable atlas/directory facts at nine widths and in Gedankin; visible soundtrack/vault/approved-content labels; 390/320 layouts; signed-out boundaries');
+  console.log('PASS illustrated homepage/event links; 27 Interregional and seven World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; continuous Bowene biography, legacy destinations and source appendix; portraits/roles/public relationships/dialog; readable atlas/directory facts at nine widths and in Gedankin; labeled controls and non-overlapping locked/unlocked headers at 18 widths; 390/320 layouts; signed-out boundaries');
  } finally {await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

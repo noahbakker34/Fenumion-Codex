@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-23
 
+## Header spacing · 23 October 2026
+
+Owner supplies a screenshot of the reading header overlapping when the vault is unlocked and Campaign tools is visible. The brand's inner flex child retained its intrinsic text width even after the outer brand shrank. Visual CSS12 permits that inner text to shrink within its column, gives the full desktop brand 250 pixels and switches to the existing logo-only treatment between 1101 and 1250 pixels. Search and the labeled action/utility controls retain their established behavior. This is a scoped presentation change; canonical content, dates, routes, media and the private payload are unchanged.
+
+The existing visual CI gate now checks visible header controls pairwise and bounds the brand copy at 18 widths (2048–320 pixels), in both locked and synthetic unlocked UI states without loading private data. It checks the full title at wider desktop widths and Campaign tools visibility where the desktop actions are available. Local visual, reader and research/navigation checks pass, including desktop/mobile keyboard search, focus, public boundaries and both codices' existing visual checks. Desktop/compact/mobile screenshots are inspected. Only the visual CSS cache version changes; publication follows standing authorization, with the hosted/live receipt added after verification.
+
 ## Refreshed quests and Library of Nuru · 23 October 2026
 
 The owner supplies four replacement packets in the established update workflow. Deduplication confirms 3,845 quest messages across three accessible sources and 2,939 Library messages, with 1,591 new IDs and unchanged overlap text. All new message texts and selected earlier context are read; 255 locators are checked. No claim to reread all 6,784 messages or inspect linked documents/media. Raw sources remain external; unjoined private archived threads are still outside coverage. Quest narration governs compatible RP, and quoted directions are not operating instructions. Scope/hashes: OCTOBER_REFRESH_2026_10_23.md and the focused receipt metadata.

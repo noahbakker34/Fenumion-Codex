@@ -130,6 +130,16 @@ body.fenumion-world.timeline-workspace-view .article-header { min-height:0;paddi
 .fenumion-world .codex-utility-dock .vault-fab.unlocked { border-color:#8ed0a8;color:#8ed0a8; }
 .fenumion-world .codex-utility-dock .music-panel { position:fixed;inset:70px 12px auto auto;transform:none;width:min(390px,calc(100vw - 24px));max-height:calc(100dvh - 88px);overflow:auto; }
 body.fenumion-world.codex-world .topbar { padding-right:412px; }
+/* The brand's text must shrink inside its flex item, never paint over search. */
+.fenumion-world .topbar .brand>span:last-child { min-width:0;flex:1; }
+.fenumion-world .topbar .brand small { overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+@media(min-width:1101px) {
+ body.fenumion-world:not(.home-view) .topbar .brand { flex:0 1 250px; }
+}
+@media(min-width:1101px) and (max-width:1250px) {
+ body.fenumion-world:not(.home-view) .topbar .brand { flex:0 0 42px; }
+ .fenumion-world .topbar .brand>span:last-child { display:none; }
+}
 .fenumion-world .topbar-actions .approved-content-link,.fenumion-world .home-external-actions { display:none; }
 .fenumion-world.home-view .gateway-hero-inner { padding-top:3.5rem; }
 .fenumion-world.panels-open .codex-utility-dock { visibility:hidden; }

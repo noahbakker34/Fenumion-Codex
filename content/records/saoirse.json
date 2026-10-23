@@ -1,0 +1,112 @@
+{
+  "id": "saoirse",
+  "title": "Saoirse",
+  "category": "People of Fenumion",
+  "type": "Player character · healer and aspiring teacher",
+  "dek": "A gentle manner and practical offers of help survive exhaustion, while her companions sometimes have to insist that care includes her.",
+  "tags": [],
+  "facts": {
+    "Work": "Magic · healing · intended teaching",
+    "Community": "Pristinia",
+    "Northern journey": "The Dasa’s appeal",
+    "Status": "Resting at Vey and Vaa’s refuge at the expedition’s close"
+  },
+  "sources": [
+    "Quest RP refreshed source · supplied 23 October 2026 · 3,845 messages across the main channel and two accessible threads; posting chronology and narrated continuations remain distinct",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555047966891450500",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561169994153332797",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561180999151394908",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561208960055517256",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561227824562438266",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561237871921471640",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562302783229661298",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562304386225537055",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562304761951166566",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562305169364877369"
+  ],
+  "body": "<p>Saoirse says she came to help and intends to educate Pristinia’s young. The northern expedition shows that aspiration beside travel, fatigue, combat and offers of ordinary aid.</p>\n<h2 id=\"saoirse-teaching\">An intention spoken in remembrance</h2>\n<p>At Papirak’s funeral she introduces herself and says she has decided to help educate Pristinia’s young. The statement establishes an intention; it does not by itself document a school opening or completed teaching program.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1555047966891450500\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>.</p>\n<h2 id=\"saoirse-journey\">Travel has a cost</h2>\n<p>She offers Lucien tea, becomes exhausted on the road and tries to rest. When the ambush wakes her she fights with conjured petals and calls for the remaining attackers to surrender. Her final tidal wave knocks the last foe prone, helping the party preserve a prisoner.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561169994153332797\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561180999151394908\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561208960055517256\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561227824562438266\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561237871921471640\" target=\"_blank\" rel=\"noopener noreferrer\">5</a>.</p>\n<h2 id=\"saoirse-refuge\">Offering aid, and accepting it</h2>\n<p>At the refuge she asks what the Dasa need and considers food, weapons and a safer place. Felicity sees her fatigue, secures hospitality and leads her to rest. Saoirse accepts, asking to be woken for trouble or a fine flower. The Dasa’s future arrangements remain proposals, while the night’s care is real.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562302783229661298\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562304386225537055\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562304761951166566\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562305169364877369\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "saoirse-teaching",
+      "title": "An intention spoken in remembrance",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555047966891450500"
+        ]
+      }
+    },
+    {
+      "id": "saoirse-journey",
+      "title": "Travel has a cost",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561169994153332797",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561180999151394908",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561208960055517256",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561227824562438266",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561237871921471640"
+        ]
+      }
+    },
+    {
+      "id": "saoirse-refuge",
+      "title": "Offering aid, and accepting it",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562302783229661298",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562304386225537055",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562304761951166566",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562305169364877369"
+        ]
+      }
+    }
+  ],
+  "image": "assets/characters/saoirse.png",
+  "imageAlt": "Saoirse",
+  "imageCaption": "Saoirse",
+  "imageLayout": "portrait",
+  "readingLayout": "biography",
+  "profile": {
+    "personality": "A gentle manner and practical offers of help survive exhaustion, while her companions sometimes have to insist that care includes her.",
+    "achievements": " At Papirak’s funeral she introduces herself and says she has decided to help educate Pristinia’s young. The statement establishes an intention; it does not by itself document a school opening or completed teaching program.   She offers Lucien tea, becomes exhausted on the road and tries to rest. When the ambush wakes her she fights with conjured petals and calls for the remaining attackers to surrender. Her final tidal wave knocks the last foe prone, helping the party preserve a prisoner. ",
+    "relationships": " At the refuge she asks what the Dasa need and considers food, weapons and a safer place. Felicity sees her fatigue, secures hospitality and leads her to rest. Saoirse accepts, asking to be woken for trouble or a fine flower. The Dasa’s future arrangements remain proposals, while the night’s care is real. "
+  },
+  "brief": {
+    "identity": "Player character · healer and aspiring teacher",
+    "significance": "A gentle manner and practical offers of help survive exhaustion, while her companions sometimes have to insist that care includes her.",
+    "actions": [
+      {
+        "section": "saoirse-teaching",
+        "title": "An intention spoken in remembrance"
+      },
+      {
+        "section": "saoirse-journey",
+        "title": "Travel has a cost"
+      },
+      {
+        "section": "saoirse-refuge",
+        "title": "Offering aid, and accepting it"
+      }
+    ],
+    "status": "Resting at Vey and Vaa’s refuge at the expedition’s close",
+    "relationships": [],
+    "basis": "Selected primary scenes; limits and attribution remain in the biography. These chapters are not an exhaustive life history."
+  }
+}

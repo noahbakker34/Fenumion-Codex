@@ -1,0 +1,110 @@
+{
+  "id": "velkyn-kthonia",
+  "title": "Velkyn Kthonia",
+  "category": "People of Fenumion",
+  "type": "Player character · caravan investigator",
+  "dek": "An investigator who argues that theft and killing require different judgments, then helps turn a running fight toward a conditional truce.",
+  "tags": [],
+  "facts": {
+    "Encounter": "The Pristinia–Eovar grain caravan",
+    "Approach": "Question motives before deciding an outcome",
+    "Agreement": "A pause in raids for a meeting with the First Hunter",
+    "Status": "The meeting and any lasting trade arrangement remain ahead"
+  },
+  "sources": [
+    "Quest RP refreshed source · supplied 23 October 2026 · 3,845 messages across the main channel and two accessible threads; posting chronology and narrated continuations remain distinct",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562133653453148182",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562134329935527988",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562134363502805085",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562161176052502682",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562174413477249238",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562187194784026685",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562188803198943283",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562189391454019646",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562187865402773525",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190639607709797",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562191221672251586"
+  ],
+  "body": "<p>Velkyn joins Vessalia, Thorn and Clive to investigate raids on a merchant’s caravans. He asks whether need, rather than simple malice, may explain thefts that have left the workers alive.</p>\n<h2 id=\"velkyn-inquiry\">Questions before the road</h2>\n<p>He asks about the attacks’ lethality and suggests hearing the thieves’ reasons. The merchant cannot establish their motives. His distinction between theft and murder is his judgment here, not a statement of a universal legal code.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562133653453148182\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562134329935527988\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562134363502805085\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>.</p>\n<h2 id=\"velkyn-fight\">The argument survives the fight</h2>\n<p>The disguised caravan is attacked despite offers to talk. Velkyn is badly hurt while fighting the slasher, and later renews the offer to listen. He proposes that raids cease in exchange for a meeting with the First Hunter. The raider agrees to hold off while asking the adventurers to hear that leader out.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562161176052502682\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562174413477249238\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562187194784026685\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562188803198943283\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562189391454019646\" target=\"_blank\" rel=\"noopener noreferrer\">5</a>.</p>\n<h2 id=\"velkyn-limit\">The agreement’s limits</h2>\n<p>The raider says food is needed and reports distrust of the towns’ religious commitments. Neither claim proves the whole tribe’s motives or the towns’ actual policy. Velkyn recognizes Mama Tabitha’s cottage as a landmark on the supplied map; the meeting place is west of it, not the cottage itself. No meeting, new trade route or permanent peace is completed in these scenes.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562187865402773525\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562190639607709797\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562191221672251586\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "velkyn-inquiry",
+      "title": "Questions before the road",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562133653453148182",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562134329935527988",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562134363502805085"
+        ]
+      }
+    },
+    {
+      "id": "velkyn-fight",
+      "title": "The argument survives the fight",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562161176052502682",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562174413477249238",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562187194784026685",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562188803198943283",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562189391454019646"
+        ]
+      }
+    },
+    {
+      "id": "velkyn-limit",
+      "title": "The agreement’s limits",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562187865402773525",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190639607709797",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562191221672251586"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "profile": {
+    "personality": "An investigator who argues that theft and killing require different judgments, then helps turn a running fight toward a conditional truce.",
+    "achievements": " He asks about the attacks’ lethality and suggests hearing the thieves’ reasons. The merchant cannot establish their motives. His distinction between theft and murder is his judgment here, not a statement of a universal legal code.   The disguised caravan is attacked despite offers to talk. Velkyn is badly hurt while fighting the slasher, and later renews the offer to listen. He proposes that raids cease in exchange for a meeting with the First Hunter. The raider agrees to hold off while asking the adventurers to hear that leader out. ",
+    "relationships": "Works with Vessalia, Thorn and Clive during the caravan investigation, and negotiates a conditional pause with the raiders."
+  },
+  "brief": {
+    "identity": "Player character · caravan investigator",
+    "significance": "An investigator who argues that theft and killing require different judgments, then helps turn a running fight toward a conditional truce.",
+    "actions": [
+      {
+        "section": "velkyn-inquiry",
+        "title": "Questions before the road"
+      },
+      {
+        "section": "velkyn-fight",
+        "title": "The argument survives the fight"
+      },
+      {
+        "section": "velkyn-limit",
+        "title": "The agreement’s limits"
+      }
+    ],
+    "status": "The meeting and any lasting trade arrangement remain ahead",
+    "relationships": [],
+    "basis": "Selected primary scenes; limits and attribution remain in the biography. These chapters are not an exhaustive life history."
+  }
+}

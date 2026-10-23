@@ -1,0 +1,115 @@
+{
+  "id": "clive-dragoon",
+  "title": "Clive L. Dragoon",
+  "category": "People of Fenumion",
+  "type": "Player character · caravan escort",
+  "dek": "A wary escort whose determination to stop the raiders complicates a moment when negotiation might resume.",
+  "tags": [
+    "Clive L Dragoon",
+    "Clive"
+  ],
+  "facts": {
+    "Journey": "The Pristinia–Eovar caravan",
+    "Role": "Escort and spellcaster",
+    "Dispute": "Trust and force during a parley",
+    "Status": "Travels with the caravan company; the later meeting is unrecorded"
+  },
+  "sources": [
+    "Quest RP refreshed source · supplied 23 October 2026 · 3,845 messages across the main channel and two accessible threads; posting chronology and narrated continuations remain distinct",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562136738506215546",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562137132917588060",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562163322177061006",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562180689913319497",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562181724656377958",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562182059596709991",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562184235631251637",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190420321112116",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190864833323049",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562189570521563207",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190445130289223",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190639607709797"
+  ],
+  "body": "<p>Clive joins Vessalia, Thorn and Velkyn on the grain caravan. His caution about the attackers remains part of the encounter, alongside the consequences of using force while others try to talk.</p>\n<h2 id=\"clive-caravan\">Protecting the caravan</h2>\n<p>He questions the merchant about the attacks and tells a rider to shelter if wounded, offering to drive. He also objects when Papirak is referred to disrespectfully. These are actions and reactions in the scene, not a complete earlier history.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562136738506215546\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562137132917588060\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562163322177061006\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>.</p>\n<h2 id=\"clive-parley\">A mistimed attack</h2>\n<p>When the slasher realizes he faces adventurers and becomes willing to listen, Clive attacks his mind while demanding surrender. The narrator explicitly says this spoils that opening for peace. Vessalia later restores a conversation through persuasion and healing, then silences Clive while negotiating.</p><p>The outcome is neither proof that caution was needless nor that negotiation was impossible. The party still obtains a conditional pause in raids.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562180689913319497\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562181724656377958\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562182059596709991\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562184235631251637\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562190420321112116\" target=\"_blank\" rel=\"noopener noreferrer\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562190864833323049\" target=\"_blank\" rel=\"noopener noreferrer\">6</a>.</p>\n<h2 id=\"clive-doubt\">A risk left open</h2>\n<p>Clive asks whether the proposed meeting could be a trap and points to the wounds the raiders inflicted. The source closes before the meeting with the First Hunter. Its safety, the caravan’s later delivery and any lasting settlement remain unknown.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562189570521563207\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562190445130289223\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562190639607709797\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "clive-caravan",
+      "title": "Protecting the caravan",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562136738506215546",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562137132917588060",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562163322177061006"
+        ]
+      }
+    },
+    {
+      "id": "clive-parley",
+      "title": "A mistimed attack",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562180689913319497",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562181724656377958",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562182059596709991",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562184235631251637",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190420321112116",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190864833323049"
+        ]
+      }
+    },
+    {
+      "id": "clive-doubt",
+      "title": "A risk left open",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562189570521563207",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190445130289223",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190639607709797"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "profile": {
+    "personality": "A wary escort whose determination to stop the raiders complicates a moment when negotiation might resume.",
+    "achievements": " He questions the merchant about the attacks and tells a rider to shelter if wounded, offering to drive. He also objects when Papirak is referred to disrespectfully. These are actions and reactions in the scene, not a complete earlier history.   When the slasher realizes he faces adventurers and becomes willing to listen, Clive attacks his mind while demanding surrender. The narrator explicitly says this spoils that opening for peace. Vessalia later restores a conversation through persuasion and healing, then silences Clive while negotiating.  The outcome is neither proof that caution was needless nor that negotiation was impossible. The party still obtains a conditional pause in raids. ",
+    "relationships": "Travels with Vessalia, Thorn and Velkyn; his disagreement with Vessalia over force becomes part of their attempt to resume a parley."
+  },
+  "brief": {
+    "identity": "Player character · caravan escort",
+    "significance": "A wary escort whose determination to stop the raiders complicates a moment when negotiation might resume.",
+    "actions": [
+      {
+        "section": "clive-caravan",
+        "title": "Protecting the caravan"
+      },
+      {
+        "section": "clive-parley",
+        "title": "A mistimed attack"
+      },
+      {
+        "section": "clive-doubt",
+        "title": "A risk left open"
+      }
+    ],
+    "status": "Travels with the caravan company; the later meeting is unrecorded",
+    "relationships": [],
+    "basis": "Selected primary scenes; limits and attribution remain in the biography. These chapters are not an exhaustive life history."
+  }
+}

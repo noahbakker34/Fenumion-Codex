@@ -1,3 +1,4 @@
+const expected=require('./public_expectations.cjs');
 // Exercise Fenumion dates across reader surfaces; private data is a synthetic fixture only.
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
 const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
@@ -19,7 +20,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-calendar-site';
    });assert.deepEqual(leftovers,[],label+' has no Gregorian or real-world date labels');
   };
   await go('living-timeline');const events=await page.evaluate(()=>JSON.stringify(archiveIndex.timeline));
-  assert.equal(await page.locator('.event-card').count(),343);await audit('timeline');
+  assert.equal(await page.locator('.event-card').count(),expected.events);await audit('timeline');
   assert.equal(await page.locator('.timeline-era-header h3').filter({hasText:'Year 3 of the Final War'}).count(),1);
   assert((await page.locator('[data-era]').allTextContents()).some(value=>value.includes('Year 1')));
   await page.locator('.event-card[data-timeline-title="The harpy cave is collapsed after a final prayer"]').click();

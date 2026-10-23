@@ -1,0 +1,108 @@
+{
+  "id": "lirael",
+  "title": "Lirael",
+  "category": "People of Fenumion",
+  "type": "Spirit of Verdelune’s wind",
+  "dek": "A recurring guide whose presence can point travelers onward without promising to keep them safe.",
+  "tags": [],
+  "facts": {
+    "Association": "Verdelune · Emberwillow Bridge",
+    "Nature": "A spirit of Verdelune’s wind, identified in the quest narration",
+    "Connection": "Ryvyt regards her as a friend and musical inspiration",
+    "Limit": "Guidance does not guarantee protection"
+  },
+  "sources": [
+    "Quest RP refreshed source · supplied 23 October 2026 · 3,845 messages across the main channel and two accessible threads; posting chronology and narrated continuations remain distinct",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562277619536494623",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562278704703610991",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562278838229008487",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562281688258584646",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562282780929298513",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562283597640110174",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562278822257365084",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562282367828107285",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562289391643263008",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562291059977887836"
+  ],
+  "body": "<p>Lirael meets the company at Emberwillow Bridge during the search for Selwyn. Her changing translucence, flute and sudden departures belong to the travelers’ experience of <a href=\"#verdelune\">Verdelune</a>.</p>\n<h2 id=\"lirael-last-direction\">The last direction of a missing traveler</h2>\n<p>She can point toward the last direction in which the wind passed Selwyn, but says the rest is for the company to discover. She directs them north and fades away. Her words guide a search; they do not establish a fate, a safe route or unlimited knowledge of everything in the forest.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562277619536494623\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562278704703610991\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562278838229008487\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562281688258584646\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>.</p>\n<h2 id=\"lirael-spirit\">A spirit, without a promise of safety</h2>\n<p>Fenwick initially calls her a protector. The narrator corrects that interpretation: Lirael is a spirit of Verdelune’s wind, not a physical guardian who has promised to stand between the travelers and danger. The distinction matters when the expedition later faces the river and the Dark Shroud.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562282780929298513\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562283597640110174\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>.</p>\n<h2 id=\"lirael-music\">Friendship and music</h2>\n<p>Ryvyt greets her warmly and plays a farewell tune. He says she gave him a flute and that a particular tune can sometimes call her. This records a personal connection and his account of an occasional response, not a universal summoning rule or a guarantee that she will answer.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562278822257365084\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562282367828107285\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562289391643263008\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1562291059977887836\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "lirael-last-direction",
+      "title": "The last direction of a missing traveler",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562277619536494623",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562278704703610991",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562278838229008487",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562281688258584646"
+        ]
+      }
+    },
+    {
+      "id": "lirael-spirit",
+      "title": "A spirit, without a promise of safety",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562282780929298513",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562283597640110174"
+        ]
+      }
+    },
+    {
+      "id": "lirael-music",
+      "title": "Friendship and music",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562278822257365084",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562282367828107285",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562289391643263008",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562291059977887836"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "profile": {
+    "personality": "A recurring guide whose presence can point travelers onward without promising to keep them safe.",
+    "achievements": " She can point toward the last direction in which the wind passed Selwyn, but says the rest is for the company to discover. She directs them north and fades away. Her words guide a search; they do not establish a fate, a safe route or unlimited knowledge of everything in the forest.   Fenwick initially calls her a protector. The narrator corrects that interpretation: Lirael is a spirit of Verdelune’s wind, not a physical guardian who has promised to stand between the travelers and danger. The distinction matters when the expedition later faces the river and the Dark Shroud. ",
+    "relationships": " Ryvyt greets her warmly and plays a farewell tune. He says she gave him a flute and that a particular tune can sometimes call her. This records a personal connection and his account of an occasional response, not a universal summoning rule or a guarantee that she will answer. "
+  },
+  "brief": {
+    "identity": "Spirit of Verdelune’s wind",
+    "significance": "A recurring guide whose presence can point travelers onward without promising to keep them safe.",
+    "actions": [
+      {
+        "section": "lirael-last-direction",
+        "title": "The last direction of a missing traveler"
+      },
+      {
+        "section": "lirael-spirit",
+        "title": "A spirit, without a promise of safety"
+      },
+      {
+        "section": "lirael-music",
+        "title": "Friendship and music"
+      }
+    ],
+    "status": "The selected scenes do not establish a complete later history.",
+    "relationships": [],
+    "basis": "Selected primary scenes; limits and attribution remain in the biography. These chapters are not an exhaustive life history."
+  }
+}

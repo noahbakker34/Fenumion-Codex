@@ -311,22 +311,36 @@
     "region": "Voraketh",
     "kind": "Mechanism",
     "question": "Which effects belong to the Chains, Wasteland and Maw?",
-    "known": "Travelers report different losses and suppression under different conditions.",
-    "missing": "A discriminating observation that separates place, exposure, time and equipment effects.",
-    "nextSource": "Comparable crossing scenes with conditions recorded; similar symptoms alone do not establish one cause.",
+    "known": "The later Chain inspection distinguishes rotting alloy from surviving Delerium, records local movement after a name is whispered, and finds Paco suppressed at approximately the same boundary. The altered guardians and incomplete blight recovery remain separate observations.",
+    "missing": "A repeatable explanation separating Chain material, suppression, the Maw’s pull, name effects and the forest’s damage.",
+    "nextSource": "Comparable crossings and explicit rulings with conditions recorded; do not turn Ithilrûnë’s revised theory into an established mechanism.",
     "article": "voraketh",
-    "status": "open"
+    "status": "narrowed",
+    "reviewedOn": "2026-10-23",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1563011983874326541",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1563031539078668338",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1563031808667291672",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1563038369456459849"
+    ]
   },
   {
     "id": "voraketh-identities",
     "region": "Voraketh",
     "kind": "Identity",
     "question": "Which observed figures can actually be identified?",
-    "known": "Names, an associated figure, a watcher and regional effects are kept separate.",
-    "missing": "An explicit identification or independently corroborated continuity.",
-    "nextSource": "Direct encounter scenes; do not merge Deyara’s trail, a name and a watcher through resemblance.",
+    "known": "Murr recalls a maternal figure but loses the words; Ithilrûnë changes her explanation after studying the Chains. Pappy recalls a rumor with a fuzzy name. No figure’s identity is established by that convergence.",
+    "missing": "A direct identification or independently established continuity between the remembered name and any observed figure.",
+    "nextSource": "A direct encounter or explicit identification, preserving narrator observations separately from the companions’ hypotheses.",
     "article": "voraketh",
-    "status": "open"
+    "status": "open",
+    "reviewedOn": "2026-10-23",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1560485863731765279",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1560487249060040827",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1563041338323107963",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1563043439921074290"
+    ]
   },
   {
     "id": "dungeon-restoration",
@@ -455,6 +469,43 @@
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1543116718988066866",
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1543116796800794684",
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1553216116791312517"
+    ]
+  },
+  {
+    "id": "verdelune-river-aging",
+    "region": "Verdelune",
+    "kind": "Time and bodily change",
+    "question": "What caused Pin’s seven-year aging, and can it be reversed?",
+    "known": "The narrator records compulsion toward the river and seven years of visible bodily aging despite Ryvyt pulling Pin away. Pin then feels energetic and happy.",
+    "missing": "A confirmed cause, duration, reversal or repeatable rule; another traveler’s experience does not establish a universal rate.",
+    "nextSource": "A direct examination or later ruling about Pin, compared with crossings whose conditions are recorded.",
+    "article": "verdelune",
+    "status": "open",
+    "reviewedOn": "2026-10-23",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562291654570807349",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562292624692486249",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562293850918228112",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562294676516638741"
+    ]
+  },
+  {
+    "id": "minerva-selwyn-aftermath",
+    "region": "Verdelune",
+    "kind": "Bargain and recovery",
+    "question": "What follows Minerva’s bargain and Selwyn’s release?",
+    "known": "The figures release Selwyn’s roots while leaving a branch, and Minerva chooses to accompany them under concealed conditions. She later reports herself safe with entry to Nerithra.",
+    "missing": "The actual ritual and its effects, Minerva’s eventual return, and Selwyn’s condition after retrieval.",
+    "nextSource": "The missing continuation, a witnessed return or direct examination; her reassurance alone cannot supply the ritual.",
+    "article": "minerva",
+    "status": "open",
+    "reviewedOn": "2026-10-23",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342398921543691",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342776589258903",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343218035691602",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343604649730060",
+      "https://discord.com/channels/1177270231513694249/1250338434275348532/1562671717040521390"
     ]
   }
 ]

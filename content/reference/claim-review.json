@@ -549,5 +549,77 @@
       "https://discord.com/channels/1177270231513694249/1294457593296719873/1471684017609773117"
     ],
     "basis": "Selected hunting cast, health and death records checked against the later primary quest outcome, 20 October 2026."
+  },
+  {
+    "id": "dasa-siblings-found",
+    "subject": "Later quest outcomes",
+    "status": "reviewed",
+    "finding": "Vey and Vaa are found; the requested search has an outcome.",
+    "limit": "The siblings distinguish refuge and resistance; Di’Trillio’s promise is not an approved alliance, completed base or liberation.",
+    "article": "dasa-appeal",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1562268792007164124/1562297504089899039",
+      "https://discord.com/channels/1177270231513694249/1562268792007164124/1562300440606023762",
+      "https://discord.com/channels/1177270231513694249/1562268792007164124/1562302518992834604"
+    ],
+    "basis": "Directly checked refreshed quest scenes"
+  },
+  {
+    "id": "voraketh-chain-layers",
+    "subject": "Later quest outcomes",
+    "status": "reviewed",
+    "finding": "The narrator distinguishes rotting alloy from surviving Delerium and records continuing suppression near the Chains.",
+    "limit": "The observations do not identify the Maw’s figure or prove every theory about the Chains’ maker or purpose.",
+    "article": "voraketh",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1563011983874326541",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1563031808667291672",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1563038369456459849"
+    ],
+    "basis": "Directly checked refreshed quest scenes"
+  },
+  {
+    "id": "selwyn-minerva-compact",
+    "subject": "Later quest outcomes",
+    "status": "reviewed",
+    "finding": "Selwyn’s roots are released under a bargain in which Minerva goes with the figures.",
+    "limit": "A branch remains. His later condition, Minerva’s unseen ritual and a completed return are not established.",
+    "article": "verdelune",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342398921543691",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343218035691602",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343604649730060",
+      "https://discord.com/channels/1177270231513694249/1250338434275348532/1562671717040521390"
+    ],
+    "basis": "Directly checked refreshed quest scenes"
+  },
+  {
+    "id": "pin-seven-years",
+    "subject": "Later quest outcomes",
+    "status": "reviewed",
+    "finding": "The narrator records Pin’s body aging seven years, visibly witnessed by the company.",
+    "limit": "The one case does not establish a universal rate, reversibility or harmlessness; Ryvyt’s intervention does not prevent the recorded aging.",
+    "article": "pelegia",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562292624692486249",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562293850918228112",
+      "https://discord.com/channels/1177270231513694249/1199083630354501673/1562294676516638741"
+    ],
+    "basis": "Directly checked refreshed quest scenes"
+  },
+  {
+    "id": "fenwick-dual-affiliation",
+    "subject": "Later quest outcomes",
+    "status": "reviewed",
+    "finding": "Fenwick accepts Severina’s formal welcome while explicitly retaining his Ale-Chemy Knights affiliation.",
+    "limit": "The witnessed welcome does not merge the factions or establish a complete current roster.",
+    "article": "fenwick",
+    "references": [
+      "https://discord.com/channels/1177270231513694249/1250338434275348532/1563217526144630837",
+      "https://discord.com/channels/1177270231513694249/1250338434275348532/1563218481040728215",
+      "https://discord.com/channels/1177270231513694249/1250338434275348532/1563220075656511548",
+      "https://discord.com/channels/1177270231513694249/1250338434275348532/1563221394471518220"
+    ],
+    "basis": "Directly checked compatible Library of Nuru scene"
   }
 ]

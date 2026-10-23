@@ -1,0 +1,114 @@
+{
+  "id": "felicity",
+  "title": "Felicity",
+  "category": "People of Fenumion",
+  "type": "Player character · battle maid and practical caregiver",
+  "dek": "Quick to face physical danger, slower to claim the right to decide, and increasingly willing to insist that someone else must rest.",
+  "tags": [],
+  "facts": {
+    "Work": "Maid · archer and battlefield support",
+    "Community": "Pristinia and the northern expedition",
+    "Care": "Food, equipment and rest beside combat",
+    "Status": "Reaches Vey and Vaa’s refuge with the party"
+  },
+  "sources": [
+    "Quest RP refreshed source · supplied 23 October 2026 · 3,845 messages across the main channel and two accessible threads; posting chronology and narrated continuations remain distinct",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555050298039476315",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561184755557466123",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561198103258861660",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561203899032145931",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561210427961253950",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561217976571797515",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561235364541243433",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562284826462261430",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562285717780955288",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562302114737168466",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562303101858484305",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562305293105504319",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562309556371988643"
+  ],
+  "body": "<p>Felicity repeatedly makes herself useful through work, preparation and care. Her deference does not keep her from danger, but choosing for herself can be harder than fighting.</p>\n<h2 id=\"felicity-remembrance\">A task at the funeral</h2>\n<p>At Papirak’s memorial, she places Cala’s statue where sunlight can fall upon it, following Pell’s request. She waits for work and checks that she has done it as intended. The act gives the room a small, deliberate form of remembrance.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1555050298039476315\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>.</p>\n<h2 id=\"felicity-night-battle\">Composure in the night battle</h2>\n<p>She takes the first watch, fights from cover, heals companions and breaks the ambushers’ silence spell with an arrow. When the group calls for a prisoner, she tries to strike nonlethally. Her repeated apologies after missed attacks remain beside the narrator’s recognition of her resilience; they do not erase what she does accomplish.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561184755557466123\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561198103258861660\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561203899032145931\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561210427961253950\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561217976571797515\" target=\"_blank\" rel=\"noopener noreferrer\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561235364541243433\" target=\"_blank\" rel=\"noopener noreferrer\">6</a>.</p>\n<h2 id=\"felicity-care\">Care becomes a decision</h2>\n<p>After the battle she helps pack the company’s equipment and discovers an unfamiliar magical stone. At the Dasa refuge she becomes firmer with the exhausted Saoirse, asks for a place to rest and guides her to food and a bed. She also learns the soup recipe, imagining food that travelers can carry and enjoy.</p><p>This is a bounded change in action, not proof that all her fear or practiced deference has disappeared. <a href=\"#dasa-appeal\">Follow the northern expedition →</a></p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562284826462261430\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562285717780955288\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562302114737168466\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562303101858484305\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562305293105504319\" target=\"_blank\" rel=\"noopener noreferrer\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562309556371988643\" target=\"_blank\" rel=\"noopener noreferrer\">6</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "felicity-remembrance",
+      "title": "A task at the funeral",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555050298039476315"
+        ]
+      }
+    },
+    {
+      "id": "felicity-night-battle",
+      "title": "Composure in the night battle",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561184755557466123",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561198103258861660",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561203899032145931",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561210427961253950",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561217976571797515",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561235364541243433"
+        ]
+      }
+    },
+    {
+      "id": "felicity-care",
+      "title": "Care becomes a decision",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562284826462261430",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562285717780955288",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562302114737168466",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562303101858484305",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562305293105504319",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562309556371988643"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "profile": {
+    "personality": "Quick to face physical danger, slower to claim the right to decide, and increasingly willing to insist that someone else must rest.",
+    "achievements": " At Papirak’s memorial, she places Cala’s statue where sunlight can fall upon it, following Pell’s request. She waits for work and checks that she has done it as intended. The act gives the room a small, deliberate form of remembrance.   She takes the first watch, fights from cover, heals companions and breaks the ambushers’ silence spell with an arrow. When the group calls for a prisoner, she tries to strike nonlethally. Her repeated apologies after missed attacks remain beside the narrator’s recognition of her resilience; they do not erase what she does accomplish. ",
+    "relationships": " After the battle she helps pack the company’s equipment and discovers an unfamiliar magical stone. At the Dasa refuge she becomes firmer with the exhausted Saoirse, asks for a place to rest and guides her to food and a bed. She also learns the soup recipe, imagining food that travelers can carry and enjoy.  This is a bounded change in action, not proof that all her fear or practiced deference has disappeared.  Follow the northern expedition →  "
+  },
+  "brief": {
+    "identity": "Player character · battle maid and practical caregiver",
+    "significance": "Quick to face physical danger, slower to claim the right to decide, and increasingly willing to insist that someone else must rest.",
+    "actions": [
+      {
+        "section": "felicity-remembrance",
+        "title": "A task at the funeral"
+      },
+      {
+        "section": "felicity-night-battle",
+        "title": "Composure in the night battle"
+      },
+      {
+        "section": "felicity-care",
+        "title": "Care becomes a decision"
+      }
+    ],
+    "status": "Reaches Vey and Vaa’s refuge with the party",
+    "relationships": [],
+    "basis": "Selected primary scenes; limits and attribution remain in the biography. These chapters are not an exhaustive life history."
+  }
+}

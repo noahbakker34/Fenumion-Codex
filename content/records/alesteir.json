@@ -1,0 +1,119 @@
+{
+  "id": "alesteir",
+  "title": "Alesteir",
+  "category": "People of Fenumion",
+  "type": "Player character · northern expedition companion",
+  "dek": "A volatile companion who nevertheless insists that fallen enemies be treated as soldiers and presses on with the group.",
+  "tags": [
+    "Aleister",
+    "Alastair",
+    "Aleister Sun-ðuren",
+    "Aleister Sun-duren"
+  ],
+  "facts": {
+    "Recorded names": "Alesteir · Aleister · Alastair · Aleister Sun-ðuren",
+    "Companion": "Zoroa, the bird beside him",
+    "Journey": "The search for Vey and Vaa",
+    "Status": "Reaches the refuge; broader personal history remains incomplete"
+  },
+  "sources": [
+    "Quest RP refreshed source · supplied 23 October 2026 · 3,845 messages across the main channel and two accessible threads; posting chronology and narrated continuations remain distinct",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561182806195966046",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561198935786131518",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561214557714780231",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561241040801890355",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561241978744733768",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562282956154863657",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562284275091636337",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562284518700753026",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562294570056687620",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562295859495043143",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562299508896043049"
+  ],
+  "body": "<p>Alesteir travels with the party seeking Vey and Vaa. His irritation with Lucien and withdrawal from the group are visible parts of the expedition, alongside combat, restraint and respect for the dead.</p>\n<h2 id=\"alesteir-night\">Fighting and restraint</h2>\n<p>He warns about organizing watch before the ambush and is later caught asleep when it begins. Once awake, he fights through shadow and silence, with Zoroa aiding him. The account includes a moment when he resists a violent impulse rather than beheading a foe; the final prisoner is taken by Lucien.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561182806195966046\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561198935786131518\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561214557714780231\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561241040801890355\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561241978744733768\" target=\"_blank\" rel=\"noopener noreferrer\">5</a>.</p>\n<h2 id=\"alesteir-dead\">Respect after the fighting</h2>\n<p>He lays out the attackers’ bodies with their weapons and calls for them to be treated as soldiers who fought hard. Di’Trillio then makes shallow graves. Respect for the fallen does not turn the ambush into a justified attack or resolve why the surviving scout dies.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562282956154863657\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562284275091636337\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562284518700753026\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>.</p>\n<h2 id=\"alesteir-company\">Staying with the company</h2>\n<p>He stays near the party approaching the mountain camp, supports letting Di’Trillio speak and notices how small the refuge is for an uprising. The journey preserves his guardedness without inventing its cause or a permanent break with his companions.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562294570056687620\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562295859495043143\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562299508896043049\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "alesteir-night",
+      "title": "Fighting and restraint",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561182806195966046",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561198935786131518",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561214557714780231",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561241040801890355",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561241978744733768"
+        ]
+      }
+    },
+    {
+      "id": "alesteir-dead",
+      "title": "Respect after the fighting",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562282956154863657",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562284275091636337",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562284518700753026"
+        ]
+      }
+    },
+    {
+      "id": "alesteir-company",
+      "title": "Staying with the company",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562294570056687620",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562295859495043143",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562299508896043049"
+        ]
+      }
+    }
+  ],
+  "image": "assets/characters/alesteir.png",
+  "imageAlt": "Alesteir",
+  "imageCaption": "Alesteir",
+  "imageLayout": "portrait",
+  "readingLayout": "biography",
+  "profile": {
+    "personality": "A volatile companion who nevertheless insists that fallen enemies be treated as soldiers and presses on with the group.",
+    "achievements": " He warns about organizing watch before the ambush and is later caught asleep when it begins. Once awake, he fights through shadow and silence, with Zoroa aiding him. The account includes a moment when he resists a violent impulse rather than beheading a foe; the final prisoner is taken by Lucien.   He lays out the attackers’ bodies with their weapons and calls for them to be treated as soldiers who fought hard. Di’Trillio then makes shallow graves. Respect for the fallen does not turn the ambush into a justified attack or resolve why the surviving scout dies. ",
+    "relationships": " He stays near the party approaching the mountain camp, supports letting Di’Trillio speak and notices how small the refuge is for an uprising. The journey preserves his guardedness without inventing its cause or a permanent break with his companions. "
+  },
+  "brief": {
+    "identity": "Player character · northern expedition companion",
+    "significance": "A volatile companion who nevertheless insists that fallen enemies be treated as soldiers and presses on with the group.",
+    "actions": [
+      {
+        "section": "alesteir-night",
+        "title": "Fighting and restraint"
+      },
+      {
+        "section": "alesteir-dead",
+        "title": "Respect after the fighting"
+      },
+      {
+        "section": "alesteir-company",
+        "title": "Staying with the company"
+      }
+    ],
+    "status": "Reaches the refuge; broader personal history remains incomplete",
+    "relationships": [],
+    "basis": "Selected primary scenes; limits and attribution remain in the biography. These chapters are not an exhaustive life history."
+  }
+}

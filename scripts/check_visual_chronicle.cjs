@@ -1,3 +1,4 @@
+const expected=require('./public_expectations.cjs');
 // Exercise the illustrated reader as a visitor; use public records and a signed-out vault.
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
@@ -68,9 +69,9 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   await page.evaluate(()=>document.body.style.setProperty('--sans','Arial,sans-serif'));await dockFits();await page.evaluate(()=>document.body.style.removeProperty('--sans'));
   await page.screenshot({path:output+'/timeline-desktop.png'});
   await page.locator('.timeline-reset').click();
-  assert.equal(await page.locator('.event-card').count(),343);
+  assert.equal(await page.locator('.event-card').count(),expected.events);
   assert.equal(await page.locator('.chronicle-calendar').count(),1,'filter rerenders retain one navigator');
-  assert.equal(await page.locator('.event-card .timeline-source-date').count(),326,'source dates survive the visual pass');
+  assert.equal(await page.locator('.event-card .timeline-source-date').count(),expected.dated,'source dates survive the visual pass');
   await go('bowene');
   await page.locator('.chronicle-person-portrait img').evaluate(image=>image.decode());
   assert.equal(await page.locator('.biography-section').count(),6);

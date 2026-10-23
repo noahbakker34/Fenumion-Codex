@@ -93,6 +93,7 @@ body.fenumion-world.timeline-workspace-view .article-header { min-height:0;paddi
 .fenumion-world .event-card { scroll-margin-top:200px; }
 /* Portrait-led character introductions and source-backed relationship links. */
 .fenumion-world .chronicle-person .article-header { display:block;min-height:300px;padding:1.5rem 1.5rem 1.5rem 255px;position:relative;background:linear-gradient(110deg,#12221eeb,#121c23f5);border-radius:8px; }
+.fenumion-world .chronicle-person .article-header:not(:has(.chronicle-person-portrait)) { min-height:0;padding-inline-start:1.5rem; }
 .chronicle-person-portrait { position:absolute;inset:0 auto 0 0;width:225px;margin:0;overflow:hidden;border-right:1px solid #d8bd7a55; }
 .chronicle-person-portrait :is(img,video) { display:block;width:100%;height:100%;object-fit:cover;object-position:center 20%; }
 .chronicle-person-portrait figcaption { position:absolute;inset:auto 0 0;padding:.5rem .65rem;background:#08130ee8;color:#d9d8c8;font:400 .7rem/1.45 var(--sans); }

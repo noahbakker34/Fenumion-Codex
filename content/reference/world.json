@@ -12885,6 +12885,474 @@
         "reviewSources": [
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1387050888186822826"
         ]
+      },
+      {
+        "title": "Murr rises after treatment for the blight",
+        "meta": "15 Oct 2026 · source posts",
+        "sort": "2026-10-15-refresh-369",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest outcome",
+        "article": "murr",
+        "location": "Voraketh woods",
+        "people": "Murr; Ithilrûnë Ailinor; Sildithas; Coralyn; Pappy",
+        "tags": [
+          "October continuation",
+          "Quest evidence"
+        ],
+        "summary": "Murr’s sickness resists brief relief. Ithilrûnë detects infernal corruption while Sildithas gives her strength to rise; the encounter does not restore all her lost memories.",
+        "importance": 2,
+        "importanceReason": "The company saves an established guide from immediate sickness; the wider forest remains threatened.",
+        "regions": [
+          "voraketh"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed.",
+          "postingWindow": {
+            "start": "2026-10-15",
+            "end": "2026-10-15",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 956,
+            "end": 956,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1560480581937008761",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1560483167587147777",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1560483168929190001"
+        ]
+      },
+      {
+        "title": "The blight fiend falls and ordinary growth begins",
+        "meta": "15–16 Oct 2026 · source posts",
+        "sort": "2026-10-15-refresh-370",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest outcome",
+        "article": "last-grove",
+        "location": "Voraketh woods; Last Grove",
+        "people": "Sildithas; Pappy; Coralyn",
+        "tags": [
+          "October continuation",
+          "Quest evidence"
+        ],
+        "summary": "The fiend falls, but the forest does not immediately heal. Pappy identifies a new ordinary mushroom and encourages it; the narrator gives recovery time rather than an instant reset.",
+        "importance": 3,
+        "importanceReason": "Removes an immediate source of spreading forest danger and begins a bounded regional recovery.",
+        "regions": [
+          "voraketh"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed. The blight encounter continues the expedition begun on 15 October across midnight. Its battle and first new growth share that expedition’s day.",
+          "postingWindow": {
+            "start": "2026-10-15",
+            "end": "2026-10-16",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 956,
+            "end": 956,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-15",
+            "reason": "The blight encounter continues the expedition begun on 15 October across midnight. Its battle and first new growth share that expedition’s day.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1560465912321019955",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1560515295494410381",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1560525083640860773"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1560515295494410381",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1560520605261103196",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1560523837722988555",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1560525083640860773"
+        ]
+      },
+      {
+        "title": "A captured Rahu scout dies before explaining the ambush",
+        "meta": "17–20 Oct 2026 · source posts",
+        "sort": "2026-10-18-refresh-371",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest outcome",
+        "article": "dasa-appeal",
+        "location": "North of Pristinia",
+        "people": "Di’Trillio; Saoirse; Felicity; Lucien Fenlas; Alesteir; Vel’kaen Heizor",
+        "tags": [
+          "October continuation",
+          "Quest evidence"
+        ],
+        "summary": "The company survives the scouts’ night attack and captures one. He begins to say he was looking for “V” and dies. The narrator rules out suicide; the cause and full intended name remain unknown.",
+        "importance": 3,
+        "importanceReason": "A violent Rahu encounter interrupts the expedition seeking Dasa allies, leaving an unresolved regional threat.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed. The northern journey begins on the morning of the first quest day, 17 October. The night ambush is followed by the narrator’s explicit four-in-the-morning continuation and the next day’s march. That continuation is the expedition’s second day, 18 October, despite later source posts.",
+          "postingWindow": {
+            "start": "2026-10-17",
+            "end": "2026-10-20",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 959,
+            "end": 959,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-18",
+            "reason": "The northern journey begins on the morning of the first quest day, 17 October. The night ambush is followed by the narrator’s explicit four-in-the-morning continuation and the next day’s march. That continuation is the expedition’s second day, 18 October, despite later source posts.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1561166988171026483",
+              "https://discord.com/channels/1177270231513694249/1562268792007164124/1562269782416556067",
+              "https://discord.com/channels/1177270231513694249/1562268792007164124/1562270728815120445",
+              "https://discord.com/channels/1177270231513694249/1562268792007164124/1562290865085358114"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561216707899691191",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561241978744733768",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562280608682606685",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562282303793790997"
+        ]
+      },
+      {
+        "title": "The company finds Vey and Vaa at the Dasa refuge",
+        "meta": "20–21 Oct 2026 · source posts",
+        "sort": "2026-10-18-refresh-372",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest outcome",
+        "article": "dasa-appeal",
+        "location": "Mountains north of Pristinia",
+        "people": "Di’Trillio; Saoirse; Felicity; Lucien Fenlas; Alesteir; Vel’kaen Heizor; Vey and Vaa",
+        "tags": [
+          "October continuation",
+          "Quest evidence"
+        ],
+        "summary": "The siblings distinguish people seeking passage from those wanting resistance. Di’Trillio promises to gather support and receives a sending stone. Finding them is complete; a civic alliance, new refuge and liberation are not.",
+        "importance": 3,
+        "importanceReason": "Connects Pristinian adventurers with a growing Dasa refuge and creates specific obligations across Prima.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed. The northern journey begins on the morning of the first quest day, 17 October. The night ambush is followed by the narrator’s explicit four-in-the-morning continuation and the next day’s march. That continuation is the expedition’s second day, 18 October, despite later source posts.",
+          "postingWindow": {
+            "start": "2026-10-20",
+            "end": "2026-10-21",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 959,
+            "end": 959,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-18",
+            "reason": "The northern journey begins on the morning of the first quest day, 17 October. The night ambush is followed by the narrator’s explicit four-in-the-morning continuation and the next day’s march. That continuation is the expedition’s second day, 18 October, despite later source posts.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1561166988171026483",
+              "https://discord.com/channels/1177270231513694249/1562268792007164124/1562270728815120445",
+              "https://discord.com/channels/1177270231513694249/1562268792007164124/1562290865085358114",
+              "https://discord.com/channels/1177270231513694249/1562268792007164124/1562310697373933570"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562297504089899039",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562300440606023762",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562302518992834604",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562308140031148033"
+        ]
+      },
+      {
+        "title": "A caravan fight becomes a conditional pause in raids",
+        "meta": "20 Oct 2026 · source posts",
+        "sort": "2026-10-20-refresh-373",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest outcome",
+        "article": "eovar-harbor",
+        "location": "Road from Pristinia to Eovar",
+        "people": "Vessalia; Velkyn Kthonia; Thorn; Clive L. Dragoon",
+        "tags": [
+          "October continuation",
+          "Quest evidence"
+        ],
+        "summary": "After a dangerous fight, healing and negotiation secure a pause in grain raids while the adventurers arrange to hear the First Hunter. The meeting place is west of Mama Tabitha’s cottage; no permanent peace or completed trade pact is shown.",
+        "importance": 3,
+        "importanceReason": "Protects an important food route and opens a possible regional agreement without claiming it is concluded.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed.",
+          "postingWindow": {
+            "start": "2026-10-20",
+            "end": "2026-10-20",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 961,
+            "end": 961,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562159188581425335",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562184235631251637",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562189391454019646",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190639607709797",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562191221672251586"
+        ]
+      },
+      {
+        "title": "Pin visibly ages seven years beside the Eternal River",
+        "meta": "20 Oct 2026 · source posts",
+        "sort": "2026-10-20-refresh-374",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest outcome",
+        "article": "pelegia",
+        "location": "Eternal River; Verdelune",
+        "people": "Pin; Ryvyt; Fenwick; Minerva",
+        "tags": [
+          "October continuation",
+          "Quest evidence"
+        ],
+        "summary": "A compulsion draws Pin toward the water. Ryvyt pulls him away, yet the narrator records seven years of physical aging. The resulting energy does not establish that the change is harmless or reversible.",
+        "importance": 1,
+        "importanceReason": "A direct lasting bodily change to one companion; the broader mechanism is unproven.",
+        "regions": [
+          "verdelune"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed.",
+          "postingWindow": {
+            "start": "2026-10-20",
+            "end": "2026-10-20",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 961,
+            "end": 961,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562291654570807349",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562292624692486249",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562293850918228112",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562294676516638741"
+        ]
+      },
+      {
+        "title": "Selwyn’s body is released as Minerva stays behind",
+        "meta": "20–21 Oct 2026 · source posts",
+        "sort": "2026-10-20-refresh-375",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest outcome",
+        "article": "verdelune",
+        "location": "Dark Shroud; Verdelune",
+        "people": "Fenwick; Ryvyt; Pin; Minerva; Selwyn",
+        "tags": [
+          "October continuation",
+          "Quest evidence"
+        ],
+        "summary": "Minerva negotiates after the fighting and chooses to accompany the figures. They release the roots from Selwyn’s body, leaving a branch. Her unseen ritual and his eventual condition remain unresolved.",
+        "importance": 2,
+        "importanceReason": "Changes the immediate fates and obligations of the rescue party without completing a wider regional solution.",
+        "regions": [
+          "verdelune"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed. Lirael’s guidance, river passage, Dark Shroud fight and bargain form one expedition begun on 20 October; the later posts after midnight continue the same encounter.",
+          "postingWindow": {
+            "start": "2026-10-20",
+            "end": "2026-10-21",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 961,
+            "end": 961,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-20",
+            "reason": "Lirael’s guidance, river passage, Dark Shroud fight and bargain form one expedition begun on 20 October; the later posts after midnight continue the same encounter.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1562277619536494623",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1562309603990048821",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343604649730060"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342398921543691",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342776589258903",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343218035691602",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343604649730060"
+        ]
+      },
+      {
+        "title": "A Chain inspection leads to revised theories of the Maw",
+        "meta": "22–23 Oct 2026 · source posts",
+        "sort": "2026-10-22-refresh-376",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest outcome",
+        "article": "voraketh",
+        "location": "The Chains; Voraketh",
+        "people": "Ithilrûnë Ailinor; Carmen; Paco; Coralyn; Pappy",
+        "tags": [
+          "October continuation",
+          "Quest evidence"
+        ],
+        "summary": "After fighting an altered guardian, the party observes rotting alloy, surviving Delerium, local Chain movement and continued antimagic. Ithilrûnë revises her model; the party returns to safety without releasing anyone or solving the Maw.",
+        "importance": 3,
+        "importanceReason": "Advances understanding of structures and dangers affecting Voraketh while retaining the distinction between observation and theory.",
+        "regions": [
+          "voraketh"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed. The construct encounter and Chain inspection continue the expedition begun on 22 October across midnight. No intervening day or new expedition is narrated.",
+          "postingWindow": {
+            "start": "2026-10-22",
+            "end": "2026-10-23",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 963,
+            "end": 963,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-22",
+            "reason": "The construct encounter and Chain inspection continue the expedition begun on 22 October across midnight. No intervening day or new expedition is narrated.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1562999766349123739",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1563010512143257692",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1563055626840707173"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1563011983874326541",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1563016677808152587",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1563031539078668338",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1563031808667291672",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1563043439921074290",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1563055626840707173"
+        ]
+      },
+      {
+        "title": "Scribonia finds a limited trace of Saturnia at the library",
+        "meta": "15 Oct 2026 · source posts",
+        "sort": "2026-10-15-refresh-377",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Library encounter",
+        "article": "library-of-nuru",
+        "location": "Library of Nuru; Tower of Gael",
+        "people": "Scribonia; Fenwick",
+        "tags": [
+          "October continuation",
+          "Library of Nuru"
+        ],
+        "summary": "The collection offers mentions linking Saturnia and Mage’s Ruin, but the narrator says its ancient primary records are absent. The search gains direction without recovering her full history.",
+        "importance": 1,
+        "importanceReason": "Changes one scholar’s inquiry; no ancient event or new regional outcome is thereby established.",
+        "regions": [
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed.",
+          "postingWindow": {
+            "start": "2026-10-15",
+            "end": "2026-10-15",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 956,
+            "end": 956,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1250338434275348532/1560103557103886408",
+          "https://discord.com/channels/1177270231513694249/1250338434275348532/1560312973602455745"
+        ]
+      },
+      {
+        "title": "Fenwick is welcomed into the Veilguard",
+        "meta": "23 Oct 2026 · source posts",
+        "sort": "2026-10-23-refresh-378",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Library encounter",
+        "article": "veilguard",
+        "location": "Library of Nuru; Tower of Gael",
+        "people": "Fenwick; Lady Severina",
+        "tags": [
+          "October continuation",
+          "Library of Nuru"
+        ],
+        "summary": "Severina formally welcomes Fenwick after accepting his continuing Ale-Chemy Knights affiliation. He agrees to mutual help; future relic work and campaigns remain plans.",
+        "importance": 2,
+        "importanceReason": "Adds a witnessed membership and working obligation within an established company, without treating one welcome as a world-changing event.",
+        "regions": [
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Recorded chronology follows the Final War calendar convention. Character explanations and future plans remain attributed.",
+          "postingWindow": {
+            "start": "2026-10-23",
+            "end": "2026-10-23",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 964,
+            "end": 964,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1250338434275348532/1563217526144630837",
+          "https://discord.com/channels/1177270231513694249/1250338434275348532/1563218481040728215",
+          "https://discord.com/channels/1177270231513694249/1250338434275348532/1563220075656511548",
+          "https://discord.com/channels/1177270231513694249/1250338434275348532/1563221394471518220",
+          "https://discord.com/channels/1177270231513694249/1250338434275348532/1563223876782133430"
+        ]
       }
     ],
     "characters": [
@@ -13310,14 +13778,16 @@
       },
       {
         "title": "Alesteir",
-        "meta": "Player character · character index",
-        "article": "people-directory",
+        "meta": "Player character · northern expedition companion",
+        "article": "alesteir",
         "image": "assets/characters/alesteir.png",
         "aliases": [
           "Aleister",
-          "Alastair"
+          "Alastair",
+          "Aleister Sun-ðuren",
+          "Aleister Sun-duren"
         ],
-        "summary": "A player character whose portrait is now correctly assigned; older spelling variants remain searchable."
+        "summary": "A volatile companion who nevertheless insists that fallen enemies be treated as soldiers and presses on with the group."
       },
       {
         "title": "Aravil",
@@ -13356,7 +13826,7 @@
         "meta": "Character record",
         "article": "carmen",
         "image": "carmen-portrait.jpg",
-        "summary": "A deep gnome warlock whose ledger of obligation is tested by Paco’s unchosen sacrifice."
+        "summary": "Carmen values survival, civilization, and reciprocity without apology; beneath the hard accounting lies a fierce refusal to let powerful people spend those who never chose the cost."
       },
       {
         "title": "Coralyn",
@@ -13530,13 +14000,13 @@
         "meta": "Magi and scholar",
         "article": "scribonia",
         "image": "scribonia-portrait.png",
-        "summary": "Self-defined before every label; named by several early voters as a possible custodian of Papirak’s staff, though the vote remains unresolved."
+        "summary": "Scribonia refuses to be reduced by anyone else’s category. His reason gives him courage before gods and tyrants—and makes it very hard for him to stop prosecuting an argument."
       },
       {
         "title": "Selwyn",
-        "meta": "Character index",
+        "meta": "Player character · the Verdelune rescue",
         "article": "people-directory",
-        "summary": "A player character preserved in the recovered catalogue.",
+        "summary": "Found rooted in the Dark Shroud; the figures release his body under Minerva’s bargain. His condition after retrieval remains unconfirmed.",
         "image": "assets/characters/discord/b91beef3862cfec2be43480e91dc1be94b4b21364abe796d4042d6dbfb71b677.png",
         "imageAlt": "Discord depiction of Selwyn",
         "imageCaption": "Selwyn"
@@ -13556,7 +14026,7 @@
         "meta": "Oathbound defender",
         "article": "sildithas",
         "image": "sildithas-portrait.png",
-        "summary": "Meets uncertain divine authority by returning to an oath of mercy, flourishing, courage, and preserved joy."
+        "summary": "Sildithas begins as an instrument of near-divine will. When the gods stop fitting a neat moral hierarchy, he discovers that an oath can still preserve mercy, hope, flourishing, and joy without pretending certainty."
       },
       {
         "title": "Swift Foot",
@@ -13654,9 +14124,9 @@
       },
       {
         "title": "Di’Trillio",
-        "meta": "Seeker · explorer and advocate for the Dasa",
-        "article": "cave-company",
-        "summary": "Survives the haze, helps investigate the harpy cave and later promises Kimi and Kuri that he will find Vey and Vaa.",
+        "meta": "Seeker · investigator and advocate for the Dasa",
+        "article": "ditrillio",
+        "summary": "An investigator whose promise to find two strangers becomes a commitment to help people choose between refuge and resistance.",
         "image": "assets/archive/ditrillio-portrait.jpg",
         "aliases": [
           "Di'trillio",
@@ -13729,10 +14199,10 @@
       },
       {
         "title": "Saoirse",
-        "meta": "Mage · healer and aspiring teacher",
-        "article": "people-directory",
+        "meta": "Player character · healer and aspiring teacher",
+        "article": "saoirse",
         "image": "assets/characters/saoirse.png",
-        "summary": "Heals Vessalia, helps close the harpy cave and states an intention to educate Pristinia’s young."
+        "summary": "A gentle manner and practical offers of help survive exhaustion, while her companions sometimes have to insist that care includes her."
       },
       {
         "title": "Vessalia",
@@ -13832,6 +14302,46 @@
             "poster": "assets/character-scenes/aerrow.jpg",
             "caption": "Aerrow with pale hair and glowing violet eyes, framed by flames and sparks. Supplied moving portrait."
           }
+        ]
+      },
+      {
+        "title": "Felicity",
+        "article": "felicity",
+        "meta": "Player character · battle maid and practical caregiver",
+        "summary": "Quick to face physical danger, slower to claim the right to decide, and increasingly willing to insist that someone else must rest."
+      },
+      {
+        "title": "Lucien Fenlas",
+        "article": "lucien-fenlas",
+        "meta": "Player character · scout and expedition companion",
+        "summary": "A watchful traveler whose practical help and careful persuasion sit beside a private offer of another source of power.",
+        "aliases": [
+          "Fenlas"
+        ]
+      },
+      {
+        "title": "Velkyn Kthonia",
+        "article": "velkyn-kthonia",
+        "meta": "Player character · caravan investigator",
+        "summary": "An investigator who argues that theft and killing require different judgments, then helps turn a running fight toward a conditional truce."
+      },
+      {
+        "title": "Clive L. Dragoon",
+        "article": "clive-dragoon",
+        "meta": "Player character · caravan escort",
+        "summary": "A wary escort whose determination to stop the raiders complicates a moment when negotiation might resume.",
+        "aliases": [
+          "Clive L Dragoon",
+          "Clive"
+        ]
+      },
+      {
+        "title": "Vel’kaen Heizor",
+        "article": "discovery-320",
+        "meta": "Player character · northern expedition scout",
+        "summary": "A watchful expedition companion who scouts the flank and suspects an unfamiliar stone may be tracking the party.",
+        "aliases": [
+          "Vel'kaen Heizor"
         ]
       }
     ],
@@ -15669,6 +16179,18 @@
         "image": "assets/characters/discord/a6f5a8688931b72208140da43f077bb48d48aafdfe56eb24f8ba9683b98a13ab.png",
         "imageAlt": "Recorded depiction of Bhuvika",
         "imageCaption": "Bhuvika"
+      },
+      {
+        "title": "Vey and Vaa",
+        "article": "vey-vaa",
+        "meta": "Dasa allies · seers and refuge hosts",
+        "summary": "Two siblings who offer a way out of Rahu rule while refusing to mistake foresight for the ability to lead an army."
+      },
+      {
+        "title": "Lirael",
+        "article": "lirael",
+        "meta": "Spirit of Verdelune’s wind",
+        "summary": "A recurring guide whose presence can point travelers onward without promising to keep them safe."
       }
     ],
     "islands": [
@@ -16397,11 +16919,11 @@
       {
         "title": "The Library of Nuru",
         "region": "Gael",
-        "parent": "Gael",
+        "parent": "Tower of Gael",
         "type": "library",
         "meta": "Gael · library",
-        "article": "gael",
-        "summary": "A Tower repository of spells and research, where residents seek answers while Gael’s older histories remain incompletely recovered.",
+        "article": "library-of-nuru",
+        "summary": "The Tower of Gael’s working library: a shared spell collection, bounded research and a meeting place for new commitments.",
         "source": "Gael RP · spell catalogue and research conversations",
         "aliases": [
           "Library of Nuru"
@@ -17890,6 +18412,22 @@
             {
               "label": "Alioth",
               "article": "alioth"
+            },
+            {
+              "label": "Di’Trillio",
+              "article": "ditrillio"
+            },
+            {
+              "label": "Felicity",
+              "article": "felicity"
+            },
+            {
+              "label": "Alesteir",
+              "article": "alesteir"
+            },
+            {
+              "label": "Clive L. Dragoon",
+              "article": "clive-dragoon"
             }
           ]
         },
@@ -18059,6 +18597,18 @@
             {
               "label": "Yami no Majo",
               "article": "yami-no-majo"
+            },
+            {
+              "label": "Lucien Fenlas",
+              "article": "lucien-fenlas"
+            },
+            {
+              "label": "Saoirse",
+              "article": "saoirse"
+            },
+            {
+              "label": "Velkyn Kthonia",
+              "article": "velkyn-kthonia"
             }
           ]
         },
@@ -18262,6 +18812,14 @@
             {
               "label": "Orrik the Wheelwright",
               "article": "orrik-wheelwright"
+            },
+            {
+              "label": "Vey and Vaa",
+              "article": "vey-vaa"
+            },
+            {
+              "label": "Lirael",
+              "article": "lirael"
             }
           ]
         },
@@ -18598,6 +19156,10 @@
             {
               "label": "Gael Refugee Settlement",
               "article": "gael-refugee-settlement"
+            },
+            {
+              "label": "Library of Nuru",
+              "article": "library-of-nuru"
             }
           ]
         },
@@ -23018,6 +23580,15 @@
       [
         "Characters",
         "Saelihn"
+      ]
+    ],
+    [
+      "library-of-nuru",
+      [
+        "Locations",
+        "Gael",
+        "Tower of Gael",
+        "The Library of Nuru"
       ]
     ]
   ],
@@ -28569,7 +29140,7 @@
     "Kazhinju allows the ingredients for Bogdan’s remedy": "The mission gains the needed materials without killing the witch. Bogdan’s recovery is not independently shown, and her confession does not explain wider illness.",
     "Ryvyt and Pelagia ask questions at the Petal Market": "Trade and local testimony deepen Larkhollow’s history without resolving the tower or changing routes.",
     "Viota’s monument answers with remembrance": "The party acquires observations and a translated inscription. Viota’s identity, the lost spring and a possible restoration remain unresolved.",
-    "Kimi and Kuri ask adventurers to find Vey and Vaa": "Swift’s legacy inspires a new request. The search and liberation are unfinished; the reported route and conflicting refugee reports require verification.",
+    "Kimi and Kuri ask adventurers to find Vey and Vaa": "The appeal starts a search. The later northern expedition finds the siblings; passage, refuge and wider liberation still require practical support. The earlier conflicting refugee reports remain unresolved.",
     "Rolen prepares the Archery Range for its opening": "The range becomes a place to make equipment and pass on skills; these scenes record preparations rather than a dated opening ceremony.",
     "Pristinia deliberates war in the Public Square": "Public deliberation leads to scouting and organized mobilization, without establishing unanimous agreement on every later policy.",
     "Severina dies during an Alpine Forest wolf encounter": "Later records show Severina active again. The forest export does not establish how she returned, so this is not her final recorded fate.",
@@ -28584,7 +29155,17 @@
     "A coastal rift opens onto a battle from the sea": "The narrator establishes the immediate combat ending and return, rather than leaving the expedition’s outcome unknown. The scene does not establish the fate of all forces elsewhere beyond the breach. Source: rift-rp-02.md; 8 October 2026 UTC posts.",
     "Cthulhu comes through a rift into Fenumion": "The creator confirms the identity and 3 September 2026 date. The narrator establishes the completed crossing and aftermath; The arrival posts at 02:31–02:37 UTC on 4 September correspond to 22:31–22:37 EDT on 3 September. Claims about the summoner’s motives or complete control remain claims; the god’s later campaigns are not established by this scene. Source: rift-rp-01.md.",
     "Ephraith reports Melian’s release after the peace": "The peace supplies the political context for the Queen’s report. The delegation’s earlier uncertainty remains part of the history; a report by a party to the conflict is not rewritten as an observed rescue.",
-    "Bowene exiles Elenia without closing the door": "Bowene’s stated compromise requires Elenia’s departure while inviting other companions to join. He promises information and material help, schedules departure at sunset, and leaves the door to later legal change open. No fixed term or general return authorization is established."
+    "Bowene exiles Elenia without closing the door": "Bowene’s stated compromise requires Elenia’s departure while inviting other companions to join. He promises information and material help, schedules departure at sunset, and leaves the door to later legal change open. No fixed term or general return authorization is established.",
+    "Murr rises after treatment for the blight": "Murr’s sickness resists brief relief. Ithilrûnë detects infernal corruption while Sildithas gives her strength to rise; the encounter does not restore all her lost memories.",
+    "The blight fiend falls and ordinary growth begins": "The fiend falls, but the forest does not immediately heal. Pappy identifies a new ordinary mushroom and encourages it; the narrator gives recovery time rather than an instant reset.",
+    "A captured Rahu scout dies before explaining the ambush": "The company survives the scouts’ night attack and captures one. He begins to say he was looking for “V” and dies. The narrator rules out suicide; the cause and full intended name remain unknown.",
+    "The company finds Vey and Vaa at the Dasa refuge": "The siblings distinguish people seeking passage from those wanting resistance. Di’Trillio promises to gather support and receives a sending stone. Finding them is complete; a civic alliance, new refuge and liberation are not.",
+    "A caravan fight becomes a conditional pause in raids": "After a dangerous fight, healing and negotiation secure a pause in grain raids while the adventurers arrange to hear the First Hunter. The meeting place is west of Mama Tabitha’s cottage; no permanent peace or completed trade pact is shown.",
+    "Pin visibly ages seven years beside the Eternal River": "A compulsion draws Pin toward the water. Ryvyt pulls him away, yet the narrator records seven years of physical aging. The resulting energy does not establish that the change is harmless or reversible.",
+    "Selwyn’s body is released as Minerva stays behind": "Minerva negotiates after the fighting and chooses to accompany the figures. They release the roots from Selwyn’s body, leaving a branch. Her unseen ritual and his eventual condition remain unresolved.",
+    "A Chain inspection leads to revised theories of the Maw": "After fighting an altered guardian, the party observes rotting alloy, surviving Delerium, local Chain movement and continued antimagic. Ithilrûnë revises her model; the party returns to safety without releasing anyone or solving the Maw.",
+    "Scribonia finds a limited trace of Saturnia at the library": "The collection offers mentions linking Saturnia and Mage’s Ruin, but the narrator says its ancient primary records are absent. The search gains direction without recovering her full history.",
+    "Fenwick is welcomed into the Veilguard": "Severina formally welcomes Fenwick after accepting his continuing Ale-Chemy Knights affiliation. He agrees to mutual help; future relic work and campaigns remain plans."
   },
   "questTimelineAdditions": [
     {
@@ -30196,6 +30777,10 @@
         {
           "name": "Breeda",
           "basis": "Pristinian resident and public-meeting participant · checked scenes"
+        },
+        {
+          "name": "Vey and Vaa",
+          "basis": "Directly encountered in the refreshed quest scenes; location describes the encounter, not an inferred birthplace."
         }
       ]
     },
@@ -30315,6 +30900,10 @@
         {
           "name": "Hana",
           "basis": "Associated tower near Larkhollow; identity and origin unresolved"
+        },
+        {
+          "name": "Lirael",
+          "basis": "Directly encountered in the refreshed quest scenes; location describes the encounter, not an inferred birthplace."
         }
       ]
     },
@@ -36023,9 +36612,9 @@
       {
         "id": "discovery-320",
         "name": "Vel’kaen Heizor",
-        "kind": "identity",
-        "role": "Named archive identity",
-        "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+        "kind": "player",
+        "role": "Player character · northern expedition scout",
+        "summary": "A watchful expedition companion who scouts the flank and suspects an unfamiliar stone may be tracking the party.",
         "island": "",
         "posts": 1,
         "span": "2025-05-18 → 2025-05-18",
@@ -42394,9 +42983,9 @@
         {
           "id": "discovery-320",
           "name": "Vel’kaen Heizor",
-          "kind": "identity",
-          "role": "Named archive identity",
-          "summary": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+          "kind": "player",
+          "role": "Player character · northern expedition scout",
+          "summary": "A watchful expedition companion who scouts the flank and suspects an unfamiliar stone may be tracking the party.",
           "island": "",
           "posts": 1,
           "span": "2025-05-18 → 2025-05-18",
@@ -47939,7 +48528,17 @@
     "alioth",
     "babel-survival",
     "mark-of-the-wild",
-    "saelihn"
+    "saelihn",
+    "library-of-nuru",
+    "vey-vaa",
+    "lirael",
+    "ditrillio",
+    "felicity",
+    "lucien-fenlas",
+    "alesteir",
+    "saoirse",
+    "velkyn-kthonia",
+    "clive-dragoon"
   ],
   "timelineRegions": [
     {

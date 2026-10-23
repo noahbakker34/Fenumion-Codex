@@ -1,3 +1,4 @@
+const expected=require('./public_expectations.cjs');
 // Exercise player choices through both timeline surfaces; no real vault data is used.
 const { chromium } = require('playwright');
 const assert = require('node:assert/strict');
@@ -18,12 +19,12 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     const titles = () => page.locator('.event-card').evaluateAll(cards => cards.map(card => card.dataset.timelineTitle));
     const ranks = () => page.locator('.event-card').evaluateAll(cards => cards.map(card => Number(card.dataset.importance)));
     await go('living-timeline');
-    assert.equal(await page.locator('.event-card').count(), 343);
+    assert.equal(await page.locator('.event-card').count(), expected.events);
     assert(await match().isDisabled());
     const events = await page.evaluate(() => archiveIndex.timeline.filter(e => !e.veiled));
     const byTitle = new Map(events.map(e => [e.title, e]));
     // Exact categories and minimum thresholds are different reader choices.
-    const counts = [0, 73, 159, 77, 27, 7];
+    const counts = expected.importance;
     for (let level = 1; level <= 5; level++) {
       await importance().selectOption(String(level)); await match().selectOption('exact');
       assert.equal(await page.locator('.event-card').count(), counts[level], 'exact level ' + level);
@@ -100,9 +101,9 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     }
     await page.setViewportSize({ width: 1440, height: 1000 });
     await go('world-index'); await page.locator('#world-browser [data-view="timeline"]').click();
-    assert.equal(await page.locator('.timeline-view .index-card').count(), 343);
-    assert.equal(await page.locator('.timeline-view .timeline-war-day').count(), 326, 'home timeline shares the calendar');
-    assert.equal(await page.locator('.timeline-view .timeline-calendar-date').count(), 326, 'home timeline shares named dates');
+    assert.equal(await page.locator('.timeline-view .index-card').count(), expected.events);
+    assert.equal(await page.locator('.timeline-view .timeline-war-day').count(), expected.dated, 'home timeline shares the calendar');
+    assert.equal(await page.locator('.timeline-view .timeline-calendar-date').count(), expected.dated, 'home timeline shares named dates');
     await page.locator('#world-browser [data-timeline-importance]').selectOption('3');
     assert.equal(await page.locator('.timeline-view .index-card').count(), counts.slice(3).reduce((a,b)=>a+b,0));
     assert(await page.locator('#world-browser [data-timeline-importance]').evaluate(el => el === document.activeElement));
@@ -114,9 +115,9 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await go('living-timeline');
     const origin = page.locator('.event-card[data-timeline-title="The first Called arrive in Prima"]');
     assert((await origin.textContent()).includes('Day 1 of the Final War'));
-    assert.equal(await page.locator('.event-card .timeline-war-day').count(), 326, 'posting calendar preserves the 17 unresolved dates');
-    assert.equal(await page.locator('.event-card [data-calendar-adjusted]').count(), 12);
-    assert.equal(await page.locator('.event-card .timeline-calendar-date').count(),326);
+    assert.equal(await page.locator('.event-card .timeline-war-day').count(), expected.dated, 'posting calendar preserves the 17 unresolved dates');
+    assert.equal(await page.locator('.event-card [data-calendar-adjusted]').count(), expected.adjusted);
+    assert.equal(await page.locator('.event-card .timeline-calendar-date').count(),expected.dated);
     const monthNames=['Talan','Aionia','War',"Namo'o",'Physisia','Rebirth','Cala','Moirah','Nuru','Death','the Wyrm','Hope'].map(name=>'Month of '+name);
     assert.deepEqual(await page.locator('.timeline-month-guide strong').allTextContents(),monthNames);
     const calendarExamples=await page.evaluate(()=>{
@@ -228,7 +229,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
       events.push({ ...template, title: 'Private unrated fixture' });
       vaultUnlocked = true; applyVault({ articles: [], index: { timeline: events } }); await renderArticle('living-timeline', false);
     });
-    assert.equal(await page.locator('.event-card').count(), 349);
+    assert.equal(await page.locator('.event-card').count(), expected.events+6);
     assert.equal(await page.locator('.event-card[data-timeline-title="Private fixture 5"] .timeline-calendar-date').innerText(),'31, Month of Hope · Year 2 of the Final War','private events share the public calendar formatter');
     await importance().selectOption('4');
     assert.equal(await page.locator('.event-card').count(), counts.slice(4).reduce((a,b)=>a+b,0)+2);
@@ -237,7 +238,7 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await importance().selectOption('0'); await order().selectOption('highest');
     assert.equal((await titles()).at(-1), 'Private unrated fixture');
     await page.evaluate(() => lockVault()); await page.waitForLoadState('load'); await importance().waitFor();
-    assert.equal(await page.locator('.event-card').count(), 343);
+    assert.equal(await page.locator('.event-card').count(), expected.events);
     assert(!(await page.locator('#timeline-explorer').innerText()).includes('Private fixture'));
     assert(await page.evaluate(() => archiveIndex.timeline.filter(e => e.veiled).every(e => !['importance','importanceReason','regions','dating','reviewSources'].some(key=>key in e))));
     assert.deepEqual(errors, []);

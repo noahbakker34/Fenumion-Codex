@@ -2,14 +2,17 @@
   "id": "discovery-320",
   "title": "Vel’kaen Heizor",
   "category": "People",
-  "type": "Named archive identity",
-  "dek": "Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.",
+  "type": "Player character · northern expedition scout",
+  "dek": "A watchful expedition companion who scouts the flank and suspects an unfamiliar stone may be tracking the party.",
   "tags": [
     "Vel’kaen Heizor",
-    "identity"
+    "identity",
+    "Vel'kaen Heizor",
+    "northern expedition",
+    "Dasa"
   ],
   "facts": {
-    "Role": "Named archive identity",
+    "Role": "Player character · northern expedition scout",
     "Island": "Not established",
     "Census posts": "1",
     "Recorded span": "2025-05-18 → 2025-05-18",
@@ -18,9 +21,16 @@
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "Quest RP refreshed source · supplied 23 October 2026 · 3,845 messages across the main channel and two accessible threads; posting chronology and narrated continuations remain distinct",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561170459075289191",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1561186321186422875",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562289460362878977",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562294602461880401",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562295332208123997",
+    "https://discord.com/channels/1177270231513694249/1562268792007164124/1562308802957672543"
   ],
-  "body": "<p>Recorded under this label in the quest archive. The compact entry preserves the source reference without supplying an unverified role, relationship or fate.</p><h2 id=\"discovery-320-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-320-record\">Archive record</h2><p>The census records 1 posts across 2025-05-18 → 2025-05-18. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1373803123436425287\">Recorded scene · 1373803123436425287</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Vel’kaen joins the northern expedition to find Vey and Vaa. The earlier archive label is retained, and the later quest adds witnessed scouting and participation without supplying a complete earlier biography.</p><h2 id=\"discovery-320-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-320-record\">Archive record</h2><p>The census records 1 posts across 2025-05-18 → 2025-05-18. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1373803123436425287\">Recorded scene · 1373803123436425287</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>\n<h2 id=\"velkaen-northern-scout\">Watching the approaches</h2>\n<p>Vel’kaen travels with the six-person northern party, prepares for the night attack and later flanks the approach to the mountain refuge. An unfamiliar magical stone found in a pack prompts her suspicion of a tracker; the company discards it, but its mechanism is not independently identified.</p><p>She stays outside the main conversation while the siblings greet the party. That position does not establish agreement with every pledge made inside, a permanent allegiance or a later fate.</p><p class=\"source-note\">Scene references: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561170459075289191\" target=\"_blank\" rel=\"noopener noreferrer\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1561186321186422875\" target=\"_blank\" rel=\"noopener noreferrer\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562289460362878977\" target=\"_blank\" rel=\"noopener noreferrer\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562294602461880401\" target=\"_blank\" rel=\"noopener noreferrer\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562295332208123997\" target=\"_blank\" rel=\"noopener noreferrer\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1562268792007164124/1562308802957672543\" target=\"_blank\" rel=\"noopener noreferrer\">6</a>.</p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
@@ -52,6 +62,25 @@
         "sources": [
           "Recently Discovered NPCs census · posting spans and raw labels",
           "Source-checked quest-RP scene anchors"
+        ]
+      }
+    },
+    {
+      "id": "velkaen-northern-scout",
+      "title": "Watching the approaches",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest evidence",
+        "summary": "Direct scene narration and participants’ words support this passage. Claims, proposed actions and unresolved outcomes retain their qualifications.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561170459075289191",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1561186321186422875",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562289460362878977",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562294602461880401",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562295332208123997",
+          "https://discord.com/channels/1177270231513694249/1562268792007164124/1562308802957672543"
         ]
       }
     }

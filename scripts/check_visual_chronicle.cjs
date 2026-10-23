@@ -37,13 +37,13 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
    assert.deepEqual(problems,[],'header fits at '+page.viewportSize().width);
   };
   const readableRailFact=async(label,word)=>{
-   const panel=page.locator('.record-visual-facts');
+   const panel=page.locator('.atlas-context,.record-visual-facts').first();
    if(!await panel.evaluate(el=>el.open))await panel.locator('summary').click();
    const value=panel.locator('.fact').filter({has:page.locator('dt',{hasText:label})}).locator('dd');
    const reading=await value.evaluate((el,word)=>{
     const node=el.firstChild,start=node.textContent.indexOf(word),range=document.createRange();
     if(start<0)return {missing:word};range.setStart(node,start);range.setEnd(node,start+word.length);
-    const box=el.getBoundingClientRect(),panel=el.closest('.record-visual-facts').getBoundingClientRect();
+    const box=el.getBoundingClientRect(),panel=el.closest('.atlas-context,.record-visual-facts').getBoundingClientRect();
     return {lines:new Set([...range.getClientRects()].map(rect=>Math.round(rect.top))).size,inside:box.left>=panel.left&&box.right<=panel.right,width:box.width};
    },word);
    assert.equal(reading.lines,1,label+' keeps ordinary words on one line: '+JSON.stringify(reading));
@@ -150,7 +150,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   for(const width of [1920,1440,1280,1200,1101,1024,768,390,320]){
    await page.setViewportSize({width,height:1000});await fits();
    await readableRailFact('Maps','interactive');await readableRailFact('Records','places');
-   if(width===1440||width===390){await page.locator('.record-visual-facts').scrollIntoViewIfNeeded();await page.screenshot({path:output+'/atlas-facts-'+(width===1440?'desktop':'mobile')+'.png'});}
+   if(width===1440||width===390){await page.locator('.atlas-context').scrollIntoViewIfNeeded();await page.screenshot({path:output+'/atlas-facts-'+(width===1440?'desktop':'mobile')+'.png'});}
   }
   await page.goto(base+'gedankin/#location-directory');await page.locator('.record-visual-facts').waitFor({state:'attached'});await page.evaluate(()=>document.fonts.ready);
   for(const width of [1440,390]){await page.setViewportSize({width,height:1000});await readableRailFact('World','Gedankin');await fits();}

@@ -1,9 +1,26 @@
 /* Shared reading layout for both world codices. */
 window.organizeCodexPage = function(root, options={}) {
-  document.body.classList.remove('record-layout-view','timeline-workspace-view','quotes-workspace-view');
+  document.body.classList.remove('record-layout-view','timeline-workspace-view','quotes-workspace-view','atlas-workspace-view');
   const body=root.querySelector('.article-body');
   const lead=root.querySelector('.lead-grid');
   if(options.home || !body || !lead) return;
+  if(options.atlasWorkspace) {
+    document.body.classList.add('atlas-workspace-view');
+    const atlas=root.querySelector(':scope > .atlas-banner');
+    const header=root.querySelector(':scope > .article-header');
+    if(atlas && header) header.after(atlas);
+    const context=document.createElement('details');context.className='workspace-context atlas-context';
+    const heading=document.createElement('summary');heading.textContent='About this atlas';context.append(heading);
+    const kicker=header?.querySelector('.article-kicker');if(kicker)context.append(kicker);
+    const dek=header?.querySelector('.dek');
+    if(dek){context.append(dek.cloneNode(true));dek.textContent='Explore Fenumion’s regions and local places.';}
+    const metadata=header?.querySelector('.article-meta');if(metadata)context.append(metadata);
+    while(body.firstElementChild?.matches('p,blockquote,.callout,.quote'))context.append(body.firstElementChild);
+    const facts=lead.querySelector(':scope > .infobox');if(facts)context.append(facts);
+    lead.before(context);
+    const switcher=root.querySelector(':scope > .hub-switcher');if(switcher)lead.after(switcher);
+    return;
+  }
   if(options.workspace||options.quoteWorkspace) {
     document.body.classList.add(options.quoteWorkspace?'quotes-workspace-view':'timeline-workspace-view');
     const context=document.createElement('details');context.className='workspace-context';

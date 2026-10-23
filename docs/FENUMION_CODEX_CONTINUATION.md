@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-23
 
+## Map-first Locations · 23 October 2026
+
+Owner asks for the supplied world map to be front and center and larger on Locations. A dedicated atlas workspace puts the existing interactive map immediately after a compact page title, across the full reading area. The generic artwork/facts rail no longer constrains it. Original map artwork and proportions remain; maps use the available width up to 1600 pixels instead of a 72/96vh cap. Repeated introductory headings are removed. Description, history-date controls and selected place details follow the map. Original description, introduction, tags and facts remain in an expandable About this atlas panel; the searchable location directory follows, with the cross-Codex tiles below it. Find a place provides a keyboard-accessible jump to that directory without changing the current map/date parameters. The existing source-map link remains.
+
+Regional tabs, markers, named date controls, history details, nested Prima/Babel views and all existing routes remain. Canonical content, geography, source images, pin coordinates, dates, evidence and the private payload are unchanged. App262/article-layout4/visual CSS13; both entry pages use the updated shared layout version. The existing atlas CI gate checks default world selection, map-first order, full reading width, centering/proportions, nine widths, independence from window height, directory jump/reload and cleanup when leaving Locations, alongside its prior hierarchy/navigation/date/privacy assertions. The visual gate checks the relocated readable facts and retains the locked/unlocked header regression. Local atlas, visual, reader and site calendar suites pass; final desktop/mobile screenshots are inspected. Publication follows standing authorization; hosted/live receipt follows verification.
+
 ## Header spacing · 23 October 2026
 
 Owner supplies a screenshot of the reading header overlapping when the vault is unlocked and Campaign tools is visible. The brand's inner flex child retained its intrinsic text width even after the outer brand shrank. Visual CSS12 permits that inner text to shrink within its column, gives the full desktop brand 250 pixels and switches to the existing logo-only treatment between 1101 and 1250 pixels. Search and the labeled action/utility controls retain their established behavior. This is a scoped presentation change; canonical content, dates, routes, media and the private payload are unchanged.

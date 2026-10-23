@@ -12,7 +12,26 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   const local=id=>page.locator('.map-local-switcher [data-map-id="'+id+'"]');
   const region=id=>page.locator('.map-switcher [data-map-id="'+id+'"]');
   const fits=async()=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits viewport');
-  await go('world');
+  await page.goto(base+'#visual-archive');await page.locator('.map-heading h3').filter({hasText:'World'}).waitFor();
+  await page.locator('.map-canvas img').evaluate(img=>img.decode());await page.evaluate(()=>document.fonts.ready);
+  assert.equal(await page.locator('#article-content > .article-header + .atlas-banner').count(),1,'map is the first feature after the page title');
+  assert.equal(await page.locator('.record-overview').count(),0,'map has no narrow facts/artwork column');
+  assert(await page.locator('.atlas-banner').evaluate(el=>[document.querySelector('.atlas-context'),document.querySelector('#location-explorer'),document.querySelector('.hub-switcher')].every(next=>el.compareDocumentPosition(next)&Node.DOCUMENT_POSITION_FOLLOWING)),'supporting information and browsing follow the atlas');
+  for(const width of [1920,1440,1280,1100,1024,900,768,390,320]){
+   await page.setViewportSize({width,height:1000});await page.evaluate(()=>scrollTo(0,0));await fits();
+   const map=await page.locator('.map-canvas').evaluate(el=>{const r=el.getBoundingClientRect(),page=document.querySelector('#article-content').getBoundingClientRect();return {width:r.width,height:r.height,top:r.top,center:(r.left+r.right-page.left-page.right)/2,available:page.width};});
+   assert(map.width>=.85*Math.min(1600,map.available),'map fills the Locations reading area at '+width+': '+JSON.stringify(map));
+   assert(Math.abs(map.center)<1,'map is centered at '+width);assert(Math.abs(map.width-map.height)<1,'world map retains its square proportions');
+   assert(map.top<500,'map begins near the top at '+width+': '+map.top);
+   if(width===1440||width===390){await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));await page.screenshot({path:output+'/locations-world-'+width+'.png'});}
+  }
+  await page.setViewportSize({width:1440,height:1000});const tallWidth=await page.locator('.map-canvas').evaluate(el=>el.clientWidth);
+  await page.setViewportSize({width:1440,height:600});assert.equal(await page.locator('.map-canvas').evaluate(el=>el.clientWidth),tallWidth,'short windows do not shrink the map');
+  assert((await page.locator('.map-canvas img').getAttribute('src')).endsWith('assets/archive/world-map.jpeg'),'original map artwork is retained');
+  assert.equal(await page.locator('.map-heading a').getAttribute('href'),'assets/archive/world-map.jpeg');
+  await page.locator('.map-heading [data-section="place-directory"]').click();assert.equal(await page.evaluate(()=>document.activeElement.id),'place-directory','Find a place jumps to the directory');
+  await page.reload();await page.waitForFunction(()=>document.activeElement.id==='place-directory');
+  await page.setViewportSize({width:1440,height:1000});await go('world');
   assert.deepEqual(await page.locator('.map-switcher [role=tab]').evaluateAll(nodes=>nodes.map(el=>el.dataset.mapId)),['world','prima','gael','fein-uaill','voraketh','babel-ashur']);
   assert.equal(await page.locator('.map-local-navigation').count(),0);
   await region('prima').click();assert.equal(await heading(),'Prima');
@@ -58,7 +77,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   }
   await page.setViewportSize({width:390,height:844});await page.locator('.map-breadcrumbs').scrollIntoViewIfNeeded();await page.screenshot({path:output+'/prima-eovar-mobile.png'});
   await go('pristinia','&place=Pristinia');assert.deepEqual(await path(),['World','Prima','Pristinia'],'old direct map links retain their context');
+  await page.goto(base+'#art-of-fenumion');await page.locator('.fenumion-art-gallery').waitFor();assert.equal(await page.locator('body.atlas-workspace-view').count(),0,'leaving Locations clears its layout');
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);assert.deepEqual(errors,[]);
-  console.log('PASS regional atlas tabs; Prima settlement/Babel local maps and breadcrumbs; scoped keyboard/focus; parent navigation/date cutoff/reload; directory and article hierarchy; legacy links; nine widths and protected boundaries');
+  console.log('PASS map-first full-width Locations at nine widths; centered original artwork/proportions and no window-height cap; directory jump/reload; regional atlas tabs; Prima settlement/Babel local maps and breadcrumbs; scoped keyboard/focus; parent navigation/date cutoff/reload; directory and article hierarchy; legacy links; layout cleanup and protected boundaries');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});

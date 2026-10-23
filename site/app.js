@@ -889,7 +889,7 @@ function renderArticle(route, pushHash = true) {
   document.body.classList.toggle('character-background-view',Boolean(characterBackgroundTheme));
   document.body.classList.toggle("home-view", article.id === "world-index");
   document.body.classList.toggle("art-view", article.id === "art-of-fenumion");
-  document.body.classList.remove("record-layout-view");
+  document.body.classList.remove("record-layout-view", "atlas-workspace-view");
   document.body.classList.toggle("hub-view", Boolean(hubPage));
   document.body.classList.toggle("atlas-view", article.id === "visual-archive");
   document.body.classList.toggle("factions-view", article.id === "factions");
@@ -961,12 +961,7 @@ function renderArticle(route, pushHash = true) {
       ${hubPages.map(page => `<button class="gateway-tile${page.id === article.id ? " active" : ""}${isPlayerSafeArticle(page.id) ? "" : " locked-record"}" data-article="${page.id}" style="--tile-image:url('${page.image}')" aria-label="${protectedRecordAria(page.label, !isPlayerSafeArticle(page.id))}"${page.id === article.id ? ' aria-current="page"' : ""}><span>${protectedRecordTitle(page.label, !isPlayerSafeArticle(page.id))}</span><small>${isPlayerSafeArticle(page.id) ? page.detail : "Protected record"}</small></button>`).join("")}
     </nav>` : "";
   const atlasBanner = article.id === "visual-archive" ? `
-    <section class="atlas-banner" aria-labelledby="interactive-maps-title">
-      <div class="atlas-banner-copy">
-        <p class="eyebrow">Interactive world atlas</p>
-        <h2 id="interactive-maps-title">Explore Fenumion from the world outward</h2>
-        <p>Choose a region, then explore its local maps and markers. Pristinia and Eovar Harbor sit within Prima. Use the date control to follow recorded history, or open a location’s full account.</p>
-      </div>
+    <section class="atlas-banner" aria-label="Interactive world atlas">
       <div id="interactive-atlas" class="interactive-atlas"></div>
     </section>` : "";
   const peopleGallery = article.id === "people-directory" ? `
@@ -1032,7 +1027,7 @@ function renderArticle(route, pushHash = true) {
   const hasConnections=visualConnections.length>0;
   if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
   const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
-  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', workspace:article.id==='living-timeline', quoteWorkspace:article.id==='memorable-quotes', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', atlasWorkspace:article.id==='visual-archive', workspace:article.id==='living-timeline', quoteWorkspace:article.id==='memorable-quotes', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
   window.CodexVisual?.decorateArticle(articleContent,article,codexVisualContext());
   if (article.id === "world-index") {
     setupWorldBrowser();
@@ -1405,8 +1400,6 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
     const map = interactiveMaps.find(candidate => candidate.id === activeMapId) || interactiveMaps[0];
     const region = mapRegion(map), path = mapPath(map), children = localMaps(region);
     const context = map.level === 'world' ? 'World map' : map.parentId === 'world' ? 'Regional map' : `${map.level === 'settlement' ? 'Settlement' : 'Area'} within ${mapIndex.get(map.parentId)?.title || region.title}`;
-    const landscape = map.width / map.height > 1.1;
-    const mapCanvasWidth = landscape ? "min(100%, 96vh)" : "min(100%, 72vh)";
     const pins = map.pins.map(pin => ({ ...pin, record: findLocation(pin.title) })).filter(pin => pin.record);
     if (!pins.some(pin => pin.title === activeLocationTitle)) activeLocationTitle = pins[0]?.title || "";
     atlas.innerHTML = `
@@ -1415,20 +1408,21 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
       </div>
       <nav class="map-breadcrumbs" aria-label="Map hierarchy"><ol>${path.map((parent,index) => `<li>${index === path.length-1 ? `<span aria-current="location">${escapeHtml(parent.title)}</span>` : `<button type="button" data-map-id="${parent.id}" aria-label="Up to ${escapeHtml(parent.title)} map">${escapeHtml(parent.title)}</button>`}</li>`).join('')}</ol></nav>
       ${region.id !== 'world' && children.length > 1 ? `<section class="map-local-navigation" aria-label="Local maps in ${escapeHtml(region.title)}"><strong>Within ${escapeHtml(region.title)}</strong><div class="map-local-switcher" role="group" aria-label="Maps within ${escapeHtml(region.title)}">${children.map(candidate => `<button type="button" data-map-id="${candidate.id}" data-map-scope="local" aria-pressed="${candidate.id === map.id}"><strong>${escapeHtml(candidate.id === region.id ? region.title+' overview' : candidate.title)}</strong><small>${candidate.id === region.id ? 'Regional map' : candidate.level === 'settlement' ? 'Settlement map' : 'Local map'} · ${markerLabel(candidate)}</small></button>`).join('')}</div></section>` : ''}
-      <div class="atlas-date-control"><label>Records through <input type="date" data-atlas-date value="${escapeHtml(throughDate)}"></label><button type="button" data-atlas-current>All recorded history</button><small>Map artwork stays fixed; the date selects historical records. A missing record does not establish that a place was absent.</small></div>
       <div class="map-heading">
-        <div><span class="eyebrow">${escapeHtml(context)}</span><h3>${escapeHtml(map.title)}</h3><p>${escapeHtml(map.description)}</p></div>
-        <a href="${map.image}" target="_blank" rel="noreferrer">Open source map <span aria-hidden="true">↗</span></a>
+        <div>${map.level === 'world' ? '' : `<span class="eyebrow">${escapeHtml(context)}</span>`}<h3>${escapeHtml(map.title)}</h3></div>
+        <div class="map-heading-actions"><button type="button" data-section="place-directory">Find a place <span aria-hidden="true">↓</span></button><a href="${map.image}" target="_blank" rel="noreferrer">Open source map <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="map-workspace" id="atlas-map-panel" role="tabpanel" aria-labelledby="map-tab-${region.id}">
         <div class="map-frame">
-          <div class="map-canvas" style="width:${mapCanvasWidth};aspect-ratio:${map.width} / ${map.height}">
+          <div class="map-canvas" style="aspect-ratio:${map.width} / ${map.height}">
             <img src="${map.image}" width="${map.width}" height="${map.height}" alt="${escapeHtml(map.alt)}" loading="eager">
             <div class="map-pin-layer" aria-label="Mapped locations in ${escapeHtml(map.title)}">
               ${pins.map((pin, index) => { const protectedRecord = !isPlayerSafeArticle(pin.record.article); return `<button type="button" class="map-pin ${pin.title === activeLocationTitle ? "active" : ""}${protectedRecord ? " veiled-map-marker" : ""}" style="--pin-x:${pin.x}%;--pin-y:${pin.y}%" data-map-location="${escapeHtml(pin.title)}" aria-label="${protectedRecordAria(`Open ${pin.title} record. ${pin.record.summary}`, protectedRecord)}"><span class="map-pin-number" aria-hidden="true"><span class="map-pin-index">${index + 1}</span></span><span class="map-pin-label">${protectedRecord ? "Veiled marker" : escapeHtml(pin.title)}</span></button>`; }).join("")}
             </div>
           </div>
         </div>
+        <p class="map-description">${escapeHtml(map.description)}</p>
+        <div class="atlas-date-control"><label>Records through <input type="date" data-atlas-date value="${escapeHtml(throughDate)}"></label><button type="button" data-atlas-current>All recorded history</button><small>Map artwork stays fixed; the date selects historical records. A missing record does not establish that a place was absent.</small></div>
         <aside class="map-detail" aria-live="polite"></aside>
       </div>
       <div class="map-location-list" aria-label="Locations marked on ${escapeHtml(map.title)}">

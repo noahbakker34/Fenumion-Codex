@@ -143,6 +143,32 @@ body.fenumion-world.codex-world .topbar { padding-right:412px; }
 .fenumion-world .topbar-actions .approved-content-link,.fenumion-world .home-external-actions { display:none; }
 .fenumion-world.home-view .gateway-hero-inner { padding-top:3.5rem; }
 .fenumion-world.panels-open .codex-utility-dock { visibility:hidden; }
+/* Locations opens with the map across the reading area, ahead of the directory. */
+body.fenumion-world.atlas-workspace-view .article-wrap { padding:1.25rem clamp(.85rem,2.5vw,2.5rem) 4rem; }
+body.fenumion-world.atlas-workspace-view .article-header { min-height:0;padding:0 0 1rem;margin:0;background:none; }
+body.fenumion-world.atlas-workspace-view .article-header h1 { font-size:clamp(2rem,3.5vw,3rem);margin:.3rem 0; }
+body.fenumion-world.atlas-workspace-view .article-header .dek { max-width:none;margin:.4rem 0;font-size:1.1rem; }
+body.fenumion-world.atlas-workspace-view :is(.atlas-banner,.lead-grid,.atlas-context,.hub-switcher) { width:100%;max-width:none;margin-inline:0; }
+body.fenumion-world.atlas-workspace-view .atlas-banner { padding:.8rem;margin-bottom:1rem; }
+.atlas-workspace-view .map-breadcrumbs:has(li:only-child),.atlas-workspace-view .mobile-contents { display:none; }
+.atlas-workspace-view .map-heading { align-items:center;padding:.7rem 1rem; }
+.atlas-workspace-view .map-heading h3 { margin:.2rem 0 0;font:500 1.5rem/1.2 var(--serif); }
+.atlas-workspace-view .map-heading-actions { display:flex;flex-wrap:wrap;align-items:center;gap:.5rem; }
+.atlas-workspace-view .map-heading-actions :is(a,button) { display:inline-flex;align-items:center;justify-content:center;gap:.4rem;min-height:44px;margin:0;padding:.5rem .7rem;font:600 .8rem/1.4 var(--sans);color:var(--gold-bright);background:none;border:1px solid #655b40;border-radius:5px;cursor:pointer;text-decoration:none; }
+.atlas-workspace-view .map-heading-actions :is(a,button):hover { background:#30291b; }
+.atlas-workspace-view .map-canvas { width:min(100%,1600px); }
+.atlas-workspace-view .map-description { margin:0;padding:1rem;font:500 1.125rem/1.6 var(--text);color:var(--muted); }
+.atlas-workspace-view .atlas-context { margin:1rem 0; }
+.atlas-workspace-view .atlas-context .infobox { position:static;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));max-height:none; }
+.atlas-workspace-view .atlas-context .fact { min-width:0;border-left:0; }
+.atlas-workspace-view .atlas-context .fact dd { overflow-wrap:anywhere; }
+@media(max-width:760px) {
+ body.fenumion-world.atlas-workspace-view .atlas-banner { padding:.5rem; }
+ .atlas-workspace-view .map-heading { display:flex;flex-wrap:wrap;gap:.5rem; }
+ .atlas-workspace-view .map-heading-actions { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);width:100%; }
+ .atlas-workspace-view .map-heading-actions :is(a,button) { padding:.4rem .35rem;font-size:.75rem;gap:.25rem; }
+ .atlas-workspace-view .map-heading a { margin:0; }
+}
 /* The world opens with a clear title, reading paths and an established quest turning point. */
 .fenumion-world .gateway-title { margin:.7rem 0 1rem;font:400 clamp(2.3rem,5.5vw,4.5rem)/1.2 var(--serif);color:#f4e4b8;text-shadow:0 3px 30px #000; }
 .fenumion-world .gateway-sigil { width:74px;height:74px; }

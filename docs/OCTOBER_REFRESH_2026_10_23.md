@@ -56,3 +56,11 @@ Local browser checks pass for all ten new routes, 255 receipt metadata rows, uni
 ## Combined with the newer homepage release
 
 Before publication, production advanced to `bc315dd` with the exact-anniversary This Day in Fenumion feature. This source update is rebased onto it, retaining visual JS6, the supplied background, current-month/day and prior-year behavior, and its hosted gate. Both continuation records are preserved. Visual CSS11 adds only the portrait-free header fix to the existing CSS10; it does not restore the superseded rotating-history behavior. The combined feature checks run before release.
+
+## Publication verified
+
+Release `4b7e335700a65fd677602898b8dfaa3021f846cc` deployed successfully in [Pages run 40005360034](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/40005360034). Every hosted content, calendar, reader, research, hierarchy, portrait, privacy and media gate passed, including all 542 complete public bodies, the new source-update regression and the preserved exact-anniversary gate. Package: 818,580,789 bytes.
+
+All 55 live entry/runtime/style/catalog/search/updated-record/supplement/background files match the tested build `4922a3edbae36925` byte-for-byte. Fresh anonymous live Chrome passes the complete refreshed-source suite: ten new reading routes, aliases and unique directory identities, nested Library/artwork, fulfilled search versus proposed work, Fenumion dates and source windows, focus/reload, research limits, mobile layout and protected empty bodies. The live exact-anniversary check also passes with its controlled clock and synthetic boundary cases. Final live desktop/mobile screenshots are inspected. The complete private payload hash remains unchanged.
+
+This single publication reused the cached pinned test harness and runner Chrome 155.0.8059.39. No harness install or browser/system-package download ran. Verification/build/upload took 5m48s and deployment 1m23s; checkout took 2m11s, browser checks 2m52s and artifact upload 27s. These measurements include the combined expanded suite and ordinary infrastructure variation; no billed-credit saving is inferred. The temporary preview on port50947 is stopped. The release receipt changes only documentation and uses the existing source-path filter to avoid another deployment.

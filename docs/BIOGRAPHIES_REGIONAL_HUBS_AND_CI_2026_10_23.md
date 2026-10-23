@@ -45,4 +45,18 @@ Existing reader, research journeys, visual chronicle and sitewide calendar brows
 
 Preservation against baseline `98757a7`: original Olokun/Aria narrative and all three source/identity/media/relationship fields compare equal; Elenia has only the bounded comparison removal above plus presentation metadata/fact selection. Removing `regionHub` leaves each regional record equal to baseline. `content/reference/world.json` is byte-for-byte unchanged, preserving calendar adjustments, events, importance and map data. No original media changes. The entire private `vault.json` remains unchanged (SHA-256 `fc5a3a19bffc3ec4fac3de3ecad827c969976991e7b0e5f4cc649583348369ba`). Raw transcripts remain outside Git.
 
-Publication and live verification receipts follow the actual deployment.
+## Published result
+
+Release `197141a6979faf392cd5b3ed88ca714ca0d3e655` deployed successfully in [Pages run 39993106762](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/39993106762). All hosted static, browser and media gates passed, including all 532 complete public bodies and the new biography/regional suite. Pages package: 815,773,700 bytes.
+
+| Measured stage | Previous successful run | This run |
+| --- | ---: | ---: |
+| All verification, build and artifact preparation/upload jobs | 16m57s | 3m57s |
+| Deployment job | 2m13s | 38s |
+| Sum of job execution times | 19m10s | 4m35s |
+
+This run reduced total job execution by approximately 76%. Its event-to-completion elapsed time was 4m43s. Queue time varies and is excluded from the job-execution comparison; a single run is not a guarantee for future deployments. The new browser step itself took 1m55s. Google Chrome 155.0.8059.39 was already installed, and the cold Playwright harness install took three seconds; the cache was then saved successfully. Checkout took 1m25s, and artifact upload took 21 seconds. No system-package/browser downloads or second build/checkout ran.
+
+All 15 live entry/runtime/catalog/search/updated-record files match the tested build byte-for-byte. Fresh anonymous live Chrome passes the complete new biography/regional regression and sitewide calendar regression, including original links/evidence, relationship filtering, shared histories, regional maps/timelines, focus/reload, dialogs and nine viewport widths. Final live desktop/mobile screenshots are inspected. A separate cold local check confirms a shared place opens the correct regional history before the regional lazy body has loaded. Protected public bodies and the complete private payload remain unchanged. The task-created preview on port58983 is stopped; existing user previews were left alone.
+
+The publication receipt changes documentation only. It intentionally omits a CI-skip marker so the new source path filters can demonstrate that a documentation update does not repeat the deployment.

@@ -94,7 +94,51 @@
     header.append(copy); root.prepend(header);
     if (article && context.allowed(article.id)) header.insertAdjacentHTML('afterend',relationships(article,context));
   }
+  // Historical days come only from the existing reviewed calendar, never sort keys.
+  function historicalDayRecords(context, today) {
+    return context.events.flatMap(event => {
+      if (event.veiled || event.vaultOnly || !context.allowed(event.article) || context.byId.get(event.article)?.protected || !['canon','recorded'].includes(event.dating?.kind)) return [];
+      const date = context.window(event);
+      if (!date || date.precision !== 'day' || date.qualifier !== 'on' || date.start !== date.end || date.start > today || !context.point(date.start)) return [];
+      return [{event, date:date.start}];
+    }).sort((a,b) => a.date.localeCompare(b.date) || b.event.importance-a.event.importance || a.event.title.localeCompare(b.event.title));
+  }
+  function thisDay(root, context) {
+    const anchor = root.querySelector('#chronicle-featured'); if (!anchor) return;
+    root.querySelector('.this-day')?.remove();
+    const mount = document.createElement('section'); mount.className='this-day'; mount.setAttribute('aria-labelledby','this-day-title'); anchor.before(mount);
+    // Keep the campaign's established day boundary consistent for all visitors.
+    const currentDate = () => {
+      const parts = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+      const part = name => parts.find(value=>value.type===name).value;
+      return `${part('year')}-${part('month')}-${part('day')}`;
+    };
+    let today=currentDate(), browsing=false;
+    const records=historicalDayRecords(context,today);
+    const dates=[...new Set(records.map(row=>row.date))];
+    const dailyIndex = () => dates.length ? Math.floor(Date.parse(today+'T00:00:00Z')/86400000)%dates.length : 0;
+    let index=dailyIndex();
+    mount.innerHTML=`<div class="this-day-heading"><div><p class="chronicle-kicker">A look back through server history</p><h2 id="this-day-title">This Day in Fenumion</h2></div><div class="this-day-controls"><button type="button" data-this-day-previous aria-label="Earlier recorded day">← Earlier</button><button type="button" data-this-day-next aria-label="Later recorded day">Later →</button></div></div><div class="this-day-results" aria-live="polite" aria-atomic="true"></div><a class="this-day-history" href="#living-timeline">Explore the full history →</a>`;
+    const render = () => {
+      const shown=records.filter(row=>row.date===dates[index]);
+      const card = row => `<li><button type="button" data-timeline-title="${esc(row.event.title)}"><small>${esc(context.namedDate(row.event))}</small><strong>${esc(row.event.title)}</strong><span>${esc(row.event.summary)}</span><span class="this-day-read">Open the historical record →</span></button></li>`;
+      mount.querySelector('.this-day-results').innerHTML=`${shown.length?`<p class="this-day-date">${esc(context.namedDate(shown[0].event))}</p><ol class="this-day-events">${shown.slice(0,3).map(card).join('')}</ol>${shown.length>3?`<details class="this-day-more"><summary>${shown.length-3} more on this date</summary><ol class="this-day-events">${shown.slice(3).map(card).join('')}</ol></details>`:''}`:'<p class="this-day-empty">No precisely dated history is available yet.</p>'}<p class="this-day-note">Rediscover a day from the chronicles. A different day in our history is featured each day.</p>`;
+      mount.querySelectorAll('.this-day-controls button').forEach(button=>{button.disabled=dates.length<2;});
+      window.FenumionCalendar?.render(mount);
+    };
+    render();
+    const move = step => {browsing=true;index=(index+step+dates.length)%dates.length;render();};
+    mount.querySelector('[data-this-day-previous]').addEventListener('click',()=>move(-1));
+    mount.querySelector('[data-this-day-next]').addEventListener('click',()=>move(1));
+    const timer=setInterval(()=>{
+      if(!mount.isConnected){clearInterval(timer);return;}
+      const next=currentDate();if(next===today)return;today=next;
+      if(!browsing){index=dailyIndex();render();}
+    },60000);
+  }
+
   function home(root, context) {
+    thisDay(root,context);
     const mount = root.querySelector('#chronicle-featured'); if(!mount) return;
     // The gateway supplies the visible page heading; discard the hidden template duplicate.
     root.querySelector(':scope > .article-header')?.remove();

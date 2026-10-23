@@ -1,0 +1,15 @@
+# This Day in Fenumion
+
+23 October 2026 — homepage feature requested by the owner. The owner subsequently clarified that this is a way for players to look back through server history, independent of today’s date. This replaces the initial month/day anniversary implementation.
+
+The daily panel sits between the homepage category tiles and existing featured stories. It rotates through the complete set of eligible historical dates, one date per day, with a stable selection shared across visitors and reloads. The existing campaign day boundary sets rotation timing only; the selected historical date need not match today's month/day. Earlier and Later buttons cycle through recorded days, wrapping at the ends. Historical date/year labels use the established named Fenumion calendar. No current date, Today button or calendar picker appears. A page left open rotates within one minute at the day boundary unless the reader has begun browsing.
+
+The panel reads the canonical public timeline through the existing reader context and authors no event prose. Eligibility requires a public, accessible, non-veiled, non-vault-only event attached to a public article, a recorded/canon date basis, and an exact single day with the `on` qualifier. The existing calendar helper selects an explicit quest adjustment before its posting window. Dates after the current campaign day are excluded. Sort fields never establish dates. Reports, visions marked as recollections, approximate dates, bounds and unresolved windows remain in Narrative History with their qualifications.
+
+Each selection groups events on their full historical date, including the year. Up to three summaries appear, with remaining matches expandable. Every event opens the existing detailed dialog with evidence and source receipts. Only recorded days can be selected, so an archive with eligible dates always has history to show. An entirely empty archive shows a plain empty state and disables browsing.
+
+Implementation: `site/codex-visual.js` and `.css`; entry versions JS5/CSS10. No dependency, network call, source import or raw transcript. Canonical content, calendar metadata, chronology, importance, maps, media and protected payload remain unchanged.
+
+Validation: `scripts/check_this_day.cjs` checks recorded-day grouping, stable reload, daily rotation, Earlier/Later navigation, existing event dialogs, six widths (1440–320) and synthetic source qualifications that reject reports, bounds, ranges, unreviewed sort dates, future dates and protected records while honoring quest adjustments. The gate runs in the Pages workflow. The initial canonical/build/calendar/privacy and reader/illustrated-chronicle regressions passed before the owner's correction; the revised daily-history browser gate is rerun after it. Owner explicitly authorizes live publication; release verification follows below.
+
+The owner supplied the golden-tree Fenumion banner as the panel background. The original PNG is preserved at `site/assets/archive/this-day-fenumion.png`; a CSS dark overlay keeps the existing historical text readable. Desktop/mobile daily-history checks pass after the background change.

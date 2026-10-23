@@ -1,5 +1,41 @@
 /* Shared reader-facing copy. Research metadata stays in the content records. */
 (() => {
+  // Keep source dates and offsets in the records; describe them without Earth locations or clocks.
+  const dateCopy = [
+    ['This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.', 'This date follows the Final War reckoning. A continuous quest can retain its established day even when the surviving records span several days.'],
+    ['18 Oct 2026 New York / 19 Oct UTC · source posts', '18–19 Oct 2026 · source records'],
+    ['18 October local / 19 October UTC, 2026', '18–19 October 2026 · source records'],
+    ['Dates identify UTC source postings; this October session was played on 18 October in New York.', 'Dates identify source records; the October expedition retains its established calendar day.'],
+    ['The session was posted on 18 October 2026 in New York, continuing into 19 October UTC; no in-world calendar date is inferred.', 'The continuous expedition retains its established day in the Fenumion calendar.'],
+    ['The company returns on a session posted on 18 October in New York, continuing into 19 October UTC.', 'The company returns during the expedition of 18 October 2026.'],
+    ['The scene is posted on 18 October 2026 in New York, ending at 03:54 UTC on 19 October. These dates place the surviving account; they do not establish a local calendar date within Fenumion.', 'The scene belongs to the continuous expedition of 18 October 2026. Its surviving records cross into the following day.'],
+    ['Dates below are Discord posting dates in America/New_York.', 'Dates use the Fenumion calendar, with uncertain periods marked.'],
+    ['They locate the source scenes; they do not establish an in-world calendar. The supplement was collected through 11 October UTC, and its latest supplied post falls on 10 October locally.', 'The surviving continuation records cover quests through 10 October.'],
+    ['the final posts fall on 4 September UTC, still 3 September EDT.', 'the surviving records continue into the following day.'],
+    ['16 November 2024 locally, or 17 November UTC', '16–17 November 2024'],
+    ['16 November in the export’s local offset is 17 November UTC.', 'The surviving records span 16–17 November.'],
+    ['The 1–2 April UTC posting window falls on 1 April in New York, which supplies its quest calendar day.', 'The surviving records span 1–2 April; the continuous expedition retains 1 April as its calendar day.'],
+    ['The 3–4 September UTC posts finish on 3 September in New York.', 'The surviving records span 3–4 September; the continuous encounter retains its confirmed arrival day.'],
+    ['These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC.', 'These scenes form one continuous Babel expedition on 18 October; the surviving records cross into the following day.'],
+    ['posting dates America/New_York', 'source dates'],
+    ['every real-world failure', 'every failure beyond training'],
+    ['an omniscient lore bible', 'an omniscient account']
+  ];
+  function readerText(value) {
+    const saved=[],hold=value=>`\uE002r${saved.push(value)-1}\uE003`;
+    let result=String(value??'').replace(/https?:\/\/[^\s<>"']+|\b[\w.-]+\.(?:md|txt|json|csv|tsv|xlsx|mp4|mp3|png|jpe?g|webp|gif)\b/gi,hold);
+    for(const [before,after] of dateCopy)result=result.split(before).join(after);
+    result=result.replace(/\s*\((?:America\/New_York|UTC|EDT|EST|GMT)\)/g,'')
+      .replace(/\bUTC source postings\b/g,'source records')
+      .replace(/\bsource postings in UTC\b/g,'source records')
+      .replace(/\bUTC posting dates?\b/g,'source dates')
+      .replace(/\bsource dates, not established in-world dates\b/g,'source dates; uncertain world dates remain unresolved')
+      .replace(/\s*\b(?:UTC|EDT|EST|GMT)\b/g,'')
+      .replace(/\uE002r(\d+)\uE003/g,(_,index)=>saved[+index]);
+    return result;
+  }
+  if(typeof module!=='undefined'&&module.exports){module.exports=readerText;return;}
+  window.codexReaderText=readerText;
   const replacements = [
     ...(document.body.classList.contains('fenumion-world') ? [
     ['Dates below identify source postings in UTC; they do not supply an in-world calendar.', 'Dates use the Fenumion calendar. Posting-date qualifications and source references are retained.'],

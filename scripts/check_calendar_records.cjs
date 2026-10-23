@@ -20,7 +20,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
     const template=document.createElement('template');template.innerHTML=FenumionCalendar.html(record.body);
     template.content.querySelectorAll('script,style,code,pre,textarea,input,[data-calendar-source]').forEach(node=>node.remove());
     const text=template.content.textContent.replace(/https?:\/\/[^\s<>]+|\S+\.(?:md|txt|json|csv)/g,'').replace(/\b20\d{2}\s+(?:rules(?:et)?|edition)\b/gi,'');
-    const date=/\b20\d{2}\b|\b(?:Jan(?:uary)?|Feb(?:ruary)?|Apr(?:il)?|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b/g;
+    const date=/\b20\d{2}\b|\b(?:Jan(?:uary)?|Feb(?:ruary)?|Apr(?:il)?|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?|New York|America\/New_York|UTC|EDT|EST|GMT)\b/g;
     return [...text.matchAll(date)].slice(0,3).map(match=>({record:record.id,context:text.slice(Math.max(0,match.index-25),match.index+60)}));
    }),records.slice(start,start+40)));
   }

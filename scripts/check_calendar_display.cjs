@@ -30,13 +30,23 @@ const cases=[
  ['D&D 2024 rules · 2014 edition','D&D 2024 rules · 2014 edition']
 ];
 for(const [input,expected]of cases){assert.equal(api.text(input),expected,input);assert.equal(api.text(expected),expected,'idempotent: '+input);}
+const readerText=require('../site/reader-copy.js'),readingApi=require('../site/fenumion-calendar.js')(require('../content/reference/world.json').timelineCalendar,readerText);
+for(const [input,expected]of [
+ ['18 Oct 2026 New York / 19 Oct UTC · source posts','18–19, Month of Death · Year 3 of the Final War · source records'],
+ ['18 October local / 19 October UTC, 2026','18–19, Month of Death · Year 3 of the Final War · source records'],
+ ['Quest receipt · 2024-09-06 UTC · https://discord.com/channels/1/2/3','Quest receipt · 6, Month of Nuru · Year 1 of the Final War · https://discord.com/channels/1/2/3'],
+ ['2026-10-18T19:05:02Z','18, Month of Death · Year 3 of the Final War · 19:05:02'],
+ ['Old Earth Hills · Ichor of the Earth · The Pilgrim’s Hearth','Old Earth Hills · Ichor of the Earth · The Pilgrim’s Hearth'],
+ ['This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.','This date follows the Final War reckoning. A continuous quest can retain its established day even when the surviving records span several days.'],
+ ['https://example.test/New_York/2026-10-18 Notes-2026-10-18.md','https://example.test/New_York/2026-10-18 Notes-2026-10-18.md']
+]){assert.equal(readingApi.text(input),expected,input);assert.equal(readingApi.text(expected),expected,'stable reading copy: '+input);}
 const monthNames=['Talan','Aionia','War',"Namo'o",'Physisia','Rebirth','Cala','Moirah','Nuru','Death','the Wyrm','Hope'];
 for(let month=1;month<=12;month++)assert.equal(api.date(`2025-${String(month).padStart(2,'0')}-01`),`1, Month of ${monthNames[month-1]} · Year 2 of the Final War`);
 assert.equal(api.date('2023-12-31'),'31, Month of Hope · Year 1 before the Final War');
 assert.equal(api.date('2028-02-29'),'29, Month of Aionia · Year 5 of the Final War');
 let strings=0;
 const scan=value=>{
- if(typeof value==='string'){const once=api.text(value);assert.equal(api.text(once),once,'public record conversion is stable');strings++;}
+ if(typeof value==='string'){const once=api.text(value);assert.equal(api.text(once),once,'public record conversion is stable');const reading=readingApi.text(value);assert.equal(readingApi.text(reading),reading,'reading copy is stable');assert(!/\b(?:New York|America\/New_York|UTC|EDT|EST|GMT)\b/.test(reading.replace(/https?:\/\/[^\s<>"']+|\S+\.(?:md|txt|json|csv)/g,'')),'reading copy omits real-world date labels');strings++;}
  else if(Array.isArray(value))value.forEach(scan);
  else if(value&&typeof value==='object')Object.values(value).forEach(scan);
 };

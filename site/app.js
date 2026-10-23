@@ -909,6 +909,7 @@ function renderArticle(route, pushHash = true) {
   document.title = window.FenumionCalendar.text(`${publicPreview ? publicPreview.title : protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`);
   const path = articlePaths.get(article.id) || [article.category, article.title];
   breadcrumbs.innerHTML = protectedArticle ? `Codex <span>·</span> ${publicPreview ? 'Death' : 'Protected record'}` : `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
+  window.FenumionCalendar.render(breadcrumbs);
   if (protectedArticle) {
     articleContent.removeAttribute('aria-busy');
     renderVaultGate(article);

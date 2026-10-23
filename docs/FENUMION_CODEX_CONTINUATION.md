@@ -1,6 +1,10 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-22
+Last updated: 2026-10-23
+
+## Immersive reader copy · 23 October 2026
+
+Owner asks to remove real-world references, with New York times as the example. Shared reader copy removes New York/America-New_York and UTC/EDT labels from rendered articles, summaries, timelines, dialogs, sources, search and Gedankin, while retaining established quest days, source windows and uncertainty. Two incidental comparisons use ordinary wording. Original canonical data, source timestamps/links, filenames, chronology, ratings, media and the entire private payload remain unchanged. New breadcrumb coverage also formats outside the article container synchronously. Runtime260, calendar3/reader-copy4; catalog build de9787969aacd1f8 unchanged; 581 records/2,092 sections. Expanded 73,029-string/static and all-532-body/browser audits pass, as do sitewide calendar checks with/without the fallback observer, reader/mobile/private-boundary checks and the local-only private text audit. Desktop/mobile screenshots inspected. See IMMERSIVE_COPY_2026_10_23.md. Publication follows standing authorization; live receipt follows verification.
 
 ## Regions contain local maps · 22 October 2026
 

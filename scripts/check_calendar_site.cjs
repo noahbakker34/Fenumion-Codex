@@ -15,8 +15,8 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-calendar-site';
   const audit=async label=>{
    const leftovers=await page.evaluate(()=>{
     const root=document.body.cloneNode(true);root.querySelectorAll('script,style,code,pre,textarea,input,[data-calendar-source]').forEach(node=>node.remove());const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),parts=[];let node;while(node=walker.nextNode())parts.push(node.data);const clean=parts.join('\n').replace(/https?:\/\/[^\s<>]+|\S+\.(?:md|json|txt)/g,'').replace(/\b20\d{2}\s+(?:rules(?:et)?|edition)\b/gi,'');
-    return [...clean.matchAll(/\b20\d{2}\b|\b(?:Jan(?:uary)?|Feb(?:ruary)?|Apr(?:il)?|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b/g)].map(match=>clean.slice(Math.max(0,match.index-30),match.index+70)).slice(0,6);
-   });assert.deepEqual(leftovers,[],label+' has no Gregorian date labels');
+    return [...clean.matchAll(/\b20\d{2}\b|\b(?:Jan(?:uary)?|Feb(?:ruary)?|Apr(?:il)?|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?|New York|America\/New_York|UTC|EDT|EST|GMT)\b/g)].map(match=>clean.slice(Math.max(0,match.index-30),match.index+70)).slice(0,6);
+   });assert.deepEqual(leftovers,[],label+' has no Gregorian or real-world date labels');
   };
   await go('living-timeline');const events=await page.evaluate(()=>JSON.stringify(archiveIndex.timeline));
   assert.equal(await page.locator('.event-card').count(),343);await audit('timeline');
@@ -28,7 +28,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-calendar-site';
   assert(!/\b2026\b/.test(await page.locator('#record-dialog-content').innerText()));
   await audit('timeline popup');
   await page.keyboard.press('Escape');
-  for(const id of ['world-index','memorable-quotes','nienna','fenwick','mark-of-the-wild','history-in-consequences','claims-receipts','open-questions','discovery-001','quest-record']){if(await page.evaluate(id=>byId.has(id),id)){await go(id);await audit(id);}}
+  for(const id of ['world-index','memorable-quotes','nienna','fenwick','mark-of-the-wild','history-in-consequences','claims-receipts','open-questions','discovery-001','quest-record','luminar-spires','babel-ashur','rifts','dale','olokun','quest-continuation','aria-pride','bowene']){if(await page.evaluate(id=>byId.has(id),id)){await go(id);await audit(id);}}
   await go('memorable-quotes');
   assert((await page.locator('cite').allTextContents()).includes('Swift Foot · 6, Month of Moirah · Year 1 of the Final War'));
   await page.locator('.quote-card').filter({hasText:'Swift Foot · 6,'}).scrollIntoViewIfNeeded();await page.screenshot({path:output+'/quotes-desktop.png'});

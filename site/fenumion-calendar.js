@@ -1,6 +1,6 @@
 /* Reader-facing dates. Original records, source identifiers and sortable ISO values stay intact. */
 (() => {
-  function createCalendar(calendar) {
+  function createCalendar(calendar, readerText=value=>String(value??'')) {
     const months=calendar.months,first=calendar.yearNumbering.firstSourceYear,firstYear=calendar.yearNumbering.firstYear;
     const monthNames=['January','February','March','April','May','June','July','August','September','October','November','December'];
     const numbers=new Map(monthNames.flatMap((name,i)=>[[name.toLowerCase(),i+1],[name.slice(0,3).toLowerCase(),i+1]]));numbers.set('sept',9);
@@ -29,7 +29,7 @@
       return `${start}, ${a.month} · ${a.era} – ${end}, ${b.month} · ${b.era}`;
     }
     function text(value) {
-      const source=String(value??'');if(!/[0-9]|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec/i.test(source))return source;
+      const source=readerText(value);if(!/[0-9]|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec/i.test(source))return source;
       const kept=[],hold=value=>`\uE000q${kept.push(value)-1}\uE001`;
       // URLs, source filenames and section identifiers are identities, not date labels.
       let result=source.replace(/https?:\/\/[^\s<>"']+|#[a-z0-9][a-z0-9?=&_./%-]*|\b[\w.-]*\d[\w.-]*\.(?:md|txt|json|csv|tsv|xlsx|mp4|mp3|png|jpe?g|webp|gif)\b/gi,hold);
@@ -60,13 +60,13 @@
         }
         return hold(months[number-1].name);
       });
-      return result.replace(/\uE000q(\d+)\uE001/g,(_,index)=>kept[+index]);
+      return readerText(result.replace(/\uE000q(\d+)\uE001/g,(_,index)=>kept[+index]));
     }
     return {text,point,date,yearLabel,monthLabel,valid,iso,searchText:value=>String(value??'')+' '+text(value)};
   }
   if(typeof module!=='undefined'&&module.exports){module.exports=createCalendar;return;}
   if(!document.body.classList.contains('codex-world'))return;
-  const api=createCalendar(window.FENUMION_CATALOG?.timelineCalendar||window.FENUMION_CALENDAR);window.FenumionCalendar=api;
+  const api=createCalendar(window.FENUMION_CATALOG?.timelineCalendar||window.FENUMION_CALENDAR,value=>window.codexReaderText?.(value)??String(value??''));window.FenumionCalendar=api;
   api.dateControl=input=>{
     if(!input||input.dataset.fenumionPicker)return;
     input.dataset.fenumionPicker='1';input.type='hidden';

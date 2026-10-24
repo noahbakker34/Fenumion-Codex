@@ -1644,6 +1644,13 @@
       "sourceSha256": "3a622d110ec4f83105273a69331c0e7359cda820c96c76461e8753b883af283a",
       "sha256": "da173e9e34c582896347c44fdd1bd38f3a45142b532931dfcda8cb7decea4db4"
     },
+    "assets/characters/vain-portrait.webp": {
+      "src": "assets/browse/9c9e3dc431ea9c56f09d.webp",
+      "width": 512,
+      "height": 341,
+      "sourceSha256": "d39e8802818ecfe9a2ef50f5ec20d740b69c2d96e34d09299b997c0b5f49ca04",
+      "sha256": "9c9e3dc431ea9c56f09db88315190bfe96d7dcb75e8b6f04757ab7605f37d627"
+    },
     "assets/characters/vessalia.png": {
       "src": "assets/browse/e8830a3b61f43582f4af.webp",
       "width": 341,

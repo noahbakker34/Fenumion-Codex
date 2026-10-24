@@ -14411,7 +14411,8 @@
         "meta": "Knight of Death · Shard hunter",
         "article": "vain",
         "summary": "Death’s most trusted Knight according to Aionia, hunting Shards for the Wyrm and seeking divine grace.",
-        "video": "assets/archive/vain-knight-of-death.mp4"
+        "video": "assets/characters/vain-portrait-animation.mp4",
+        "image": "assets/characters/vain-portrait.webp"
       },
       {
         "title": "High Lord Bowene",

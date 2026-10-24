@@ -30,7 +30,7 @@
     "User-supplied Vain visual record, 30 Sep 2026"
   ],
   "body": "<p>Vain enters the recovered history through damage already done. On 3 April 2026, Aionia tells Serath and the gathered adventurers that Vain defeated her. Death then took another tree, and Death’s worm devoured an island’s Shard until the land was left in ash. Her testimony describes Vain overcoming a divine power and helping create the conditions for a living world-fragment’s destruction.</p>\n      <p>The strongest description of his place among Death’s forces also comes from Aionia. She calls him Death’s most trusted Knight and says he hunts Shards for the Wyrm while attempting to steal the gods’ grace. These are consequential claims from a wounded participant rather than neutral narration, but the defeat she bears gives them immediate weight.</p>\n      <p>Vain’s personality remains mostly visible through method. He is a hunter operating across distance, pursuing sources of world-sustaining power rather than merely holding territory. Aionia considers him a far-off threat to the adventurers at that moment, yet she is hiding with her strength depleted and fears another follower of Death is already tracking her. The danger lies in reach, patience, and the ability to turn victory over a god into fuel for something larger.</p>\n      <h2 id=\"aionias-defeat\">The defeat of Aionia · 3 April 2026</h2>\n      <p>Aionia reports herself wounded and defeated. She says Vain tried to strip away her dominion and that she now lacks the strength to resist even a simple warrior. Her account connects personal defeat to a wider sequence: Death takes a tree, the Wyrm’s agent consumes a Shard, and an island is reduced to ash.</p>\n      <h2 id=\"the-hunt\">Hunting Shards for the Wyrm</h2>\n      <p>Vain’s target is not described as treasure in the ordinary sense. Shards sustain lands, histories, and surviving pieces of creation. Hunting them makes him an instrument of attrition against the structure of the world itself. Aionia separately describes a mist-like pursuer seeking to steal her remaining strength and feed it to the Wyrm; the record does not yet prove whether that pursuer is Vain, his servant, or another follower of Death.</p>\n      <h2 id=\"relationships\">Relationships and opposition</h2>\n      <p>Dumuzi is Vain’s master and source of rank. The Wyrm is the beneficiary of his Shard-hunting. Aionia is his known defeated opponent and a source who survived long enough to warn Serath, Thorn, Modeli, and their companions. Those adventurers inherit the practical consequence of his deeds even before they face him directly: protecting what remains of Aionia while learning that entire islands can be fed to the enemy.</p>\n      <h2 id=\"open-record\">The open record</h2>\n      <p>Vain’s mortal identity, numbered place among the Knights, origin, appearance before entering Death’s service, exact powers, role in taking the tree, and present location remain unrecovered. The visual record establishes his battle presentation, not the missing biography beneath the armor.</p>",
-  "video": "assets/archive/vain-knight-of-death.mp4",
+  "video": "assets/characters/vain-portrait-animation.mp4",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
@@ -112,5 +112,8 @@
     "status": "Last dated entry in this selection: 3 Apr 2026. Later status is not established here.",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
-  }
+  },
+  "videoType": "video/mp4",
+  "image": "assets/characters/vain-portrait.webp",
+  "imageAlt": "Vain, a heavily armed Knight of Death, poised for battle"
 }

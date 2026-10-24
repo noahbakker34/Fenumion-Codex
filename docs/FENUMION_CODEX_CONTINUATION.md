@@ -2,6 +2,14 @@
 
 Last updated: 2026-10-24
 
+## Vain animated portrait · 24 October 2026
+
+Owner identifies the supplied five-second clip as Vain. It replaces the older active animation through the established ambient portrait renderer; the prior movie remains unchanged in the archive. A still extracted from the supplied clip supplies the record’s poster, profile artwork and quiet-mode fallback, with a generated static browsing preview for both Characters views. The record retains its prior caption, alt text, public classification, complete history, sources and evidence; the filename introduces no new lore. All other world data, previous media, protected stubs and the complete authenticated vault payload remain unchanged.
+
+The 20,040,530-byte source becomes 4,321,438 bytes (78.4% smaller): 768×512 H.264/yuv420p, 125 frames at the original 24 fps/5.208s, silent, CRF18/slow with fast-start metadata. Source SHA256: 3064f4d9ff9ba69baa128958359ced0430b2d2bb7db7e0f7a1271183fbe217f2; optimized SHA256: 8e143436b93bf7cf8a83bfd6f983f1ae06f0453338cc280b842d28f54c29da14. Representative frames are inspected; SSIM at the 225×300 portrait crop is 0.9912, a display comparison rather than a lossless/full-resolution claim. The original supplied file is unmodified. Poster: 1152×768, 272,012 bytes. Browse coverage increases from 246 to 247 static previews. Catalog268; runtime265 and styles unchanged. Build 51ecd23259b844fa retains 591 records/2,168 sections/542 complete public bodies, with identical lazy-body and search bytes.
+
+Canonical and preview checks pass. A focused local Chrome run reuses the existing portrait verification against Vain: actual H.264 playback/duration/dimensions, one compact portrait, off-screen/navigation pause, responsive sizing, poster fallback and zero portrait-video requests in reduced-motion/save-data/browsing views. The full 257-person directory/homepage regression also passes. Desktop/mobile screenshots are inspected. No new dependency, workflow or duplicate CI gate is introduced; the existing cached publisher runs its required gates against the built artifact. Publication follows standing owner authorization; hosted/live receipt follows verification.
+
 ## Elenia animated portrait · 24 October 2026
 
 Owner identifies the supplied nine-second clip as Elenia. The existing Elenia record gains only video/videoType/videoCaption fields, using the established ambient portrait renderer. Her original still remains the poster, directory/dialog artwork and reduced-motion/data-saving fallback. The compact Ececilia illustration remains at natural size below the biography. No new scene, character, date, achievement or lore claim is inferred from the animation or filename.

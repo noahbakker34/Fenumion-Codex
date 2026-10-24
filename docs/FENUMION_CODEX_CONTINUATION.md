@@ -1,6 +1,12 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-23
+Last updated: 2026-10-24
+
+## Approved broader editorial refinement · 24 October 2026
+
+The owner’s “Continue” after the published pilot explicitly authorizes Phase 2. The earlier approval boundary is fulfilled. Catalogue-wide screening leads to targeted edits in 61 existing entries: 104 paragraphs, 14 descriptions, ten matching brief summaries and six profile fields. Effective prose, mechanics, dialogue and useful contrasts remain. Selected original quest/RP samples preserve distinct voices; the review does not claim a full archive reread. EDITORIAL_REFINEMENT_2026_10_24.md records examples, source checks, limits and the complete entry list.
+
+Every body tag/attribute, heading/link, number and straight/curly quoted span is preserved. All other 530 records (including the eight-entry pilot), all 42 protected records and the entire private payload remain. World.json is byte-identical: timeline, importance, calendar, maps, identities, relationships, quotes, claims and questions are unchanged. Source/evidence metadata stays at its existing tier. The prose pass supplies no missing outcome or identity reconciliation. Catalog265; runtime/styles/layout unchanged. Build 22da0b1575723e2e retains 591 records/2,168 sections/542 complete public bodies. Local content/calendar, 75,427-string display, all-542-body date, all-61-edited-body desktop/mobile, reader/search/privacy and biography/region checks pass; selected screenshots are inspected. Publication follows standing authorization; hosted/live receipt follows verification.
 
 ## Wider quotes and the eight-entry editorial pilot · 23 October 2026
 

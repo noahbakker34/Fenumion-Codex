@@ -1289,12 +1289,18 @@ function setupWorldBrowser() {
   };
   let activeView = "characters";
   let direction = "asc";
+  let characterPage = 0;
+  const characterPageSize = 24;
   const timelineState = { importance: 0, match: 'minimum', order: 'oldest', region: '' };
 
   const render = () => {
     const items = [...browserData[activeView]].filter(item => activeView !== 'timeline' || (timelineMatchesImportance(item, timelineState) && (!timelineState.region || timelineRegionIds(item).includes(timelineState.region)))).sort((a, b) =>
       activeView === 'timeline' ? compareTimelineEvents(a, b, timelineState.order) : a.title.localeCompare(b.title) * (direction === 'asc' ? 1 : -1));
     if (activeView === 'timeline') timelineBrowseContext = { route: location.hash, items };
+    const characterPages = Math.max(1, Math.ceil(items.length / characterPageSize));
+    characterPage = Math.min(characterPage, characterPages - 1);
+    const start = characterPage * characterPageSize;
+    const visibleItems = activeView === 'characters' ? items.slice(start, start + characterPageSize) : items;
     const labels = { characters: "Characters", timeline: "Timeline", locations: "Locations" };
     browser.innerHTML = `
       <div class="browser-toolbar" role="toolbar" aria-label="Choose an archive view">
@@ -1302,24 +1308,34 @@ function setupWorldBrowser() {
         ${activeView === 'timeline' ? '' : `<button class="sort-direction" data-sort-direction="${direction}" aria-label="Reverse sort order">A–Z <span>${direction === 'asc' ? '↑' : '↓'}</span></button>`}
       </div>
       ${activeView === 'timeline' ? `<div class="timeline-controls">${timelineImportanceControls(timelineState, browserData.timeline)}</div><p class="timeline-browser-link"><a href="#living-timeline?${new URLSearchParams({ importance: timelineState.importance, match: timelineState.match, order: timelineState.order, ...(timelineState.region ? { region: timelineState.region } : {}) })}">Open full timeline with search and era filters →</a></p>` : ''}
-      <div class="browser-summary" role="status" aria-live="polite"><strong>${items.length}</strong> ${labels[activeView].toLowerCase()} records · ${activeView === "timeline" ? `${timelineImportanceSummary(timelineState)} · ${timelineOrders[timelineState.order].toLowerCase()}` : "ordered by name"}</div>
-      <div class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}">${items.map(item => {
+      <div class="browser-summary" role="status" aria-live="polite"><strong>${items.length}</strong> ${labels[activeView].toLowerCase()} records · ${activeView === "timeline" ? `${timelineImportanceSummary(timelineState)} · ${timelineOrders[timelineState.order].toLowerCase()}` : "ordered by name"}${activeView === 'characters' ? ` · Showing ${start + 1}–${start + visibleItems.length}` : ''}</div>
+      <div id="world-browser-results" class="browser-grid ${activeView === "timeline" ? "timeline-view" : ""}"${activeView === 'characters' ? ' tabindex="-1" aria-label="Character results" style="scroll-margin-top:6rem"' : ''}>${visibleItems.map(item => {
         const protectedRecord = activeView === "timeline" ? isRestrictedTimelineEvent(item) : !isPlayerSafeArticle(item.article);
+        const preview = activeView === 'characters' && codexCatalog.browseImages?.[item.image];
         return `
         <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}" aria-label="${protectedRecordAria(item.title, protectedRecord)}"${protectedRecord ? "" : activeView === "timeline" ? ` data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}"` : activeView === "characters" ? ` data-character-title="${escapeHtml(item.title)}"` : ""}>
-          ${item.image ? `<img src="${item.image}" alt="" loading="lazy">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
+          ${item.image ? `<img src="${preview ? preview.src : item.image}"${preview ? ` width="${preview.width}" height="${preview.height}"` : ''} alt="" loading="lazy" decoding="async">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="${activeView === 'characters' ? 'none' : 'metadata'}" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
           <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : activeView === "timeline" ? timelineDateMarkup(item) : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong>${activeView === 'timeline' && !protectedRecord ? `<span class="event-importance">${timelineImportanceMarkup(item)}</span>` : ''}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
-        </button>`; }).join("")}</div>`;
+        </button>`; }).join("")}</div>
+      ${activeView === 'characters' && characterPages > 1 ? `<nav class="people-pagination" aria-label="Homepage character result pages"><button type="button" data-world-previous${characterPage === 0 ? ' disabled' : ''}>← Previous</button><span>Page ${characterPage + 1} of ${characterPages}</span><button type="button" data-world-next${characterPage === characterPages - 1 ? ' disabled' : ''}>Next →</button></nav>` : ''}`;
     window.CodexVisual?.decorateCards(browser,codexVisualContext());
     window.FenumionCalendar.render(browser);
     setupAmbientVideos(articleContent);
   };
 
   browser.addEventListener("click", event => {
+    const pageButton = event.target.closest('[data-world-previous],[data-world-next]');
+    if (pageButton && !pageButton.disabled) {
+      characterPage += pageButton.hasAttribute('data-world-next') ? 1 : -1;
+      render();
+      const results = browser.querySelector('#world-browser-results');
+      results.focus({preventScroll:true});results.scrollIntoView({block:'start',behavior:'auto'});
+      return;
+    }
     const viewButton = event.target.closest("[data-view]");
-    if (viewButton) { activeView = viewButton.dataset.view; direction = "asc"; render(); return; }
+    if (viewButton) { activeView = viewButton.dataset.view; direction = "asc"; characterPage = 0; render(); return; }
     const sortButton = event.target.closest("[data-sort-direction]");
-    if (sortButton) { direction = direction === "asc" ? "desc" : "asc"; render(); }
+    if (sortButton) { direction = direction === "asc" ? "desc" : "asc"; characterPage = 0; render(); }
   });
   browser.addEventListener('change', event => {
     const control = event.target;

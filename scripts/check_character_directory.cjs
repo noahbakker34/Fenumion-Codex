@@ -68,8 +68,34 @@ const previews=require('../content/reference/browse-images.json').images;
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'directory fits '+width);
    if(width===1440||width===390){await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:output+'/characters-'+width+'.png'});}
   }
+  await page.setViewportSize({width:1440,height:1000});
+  await page.goto(base+'#world-index');
+  await page.waitForFunction(()=>document.querySelectorAll('#world-browser .index-card').length===24);
+  assert(await page.locator('#world-browser .index-card img').evaluateAll(images=>images.every(i=>i.getAttribute('src').startsWith('assets/browse/'))),'homepage Characters also uses previews');
+  assert(await page.locator('#world-browser video').evaluateAll(videos=>videos.every(v=>v.preload==='none')),'off-screen homepage character videos do not preload metadata');
+  const homeSeen=[];
+  do{
+   assert(await page.locator('#world-browser .index-card').count()<=24);
+   homeSeen.push(...await page.locator('#world-browser .index-card').evaluateAll(cards=>cards.map(c=>c.dataset.article)));
+   if(await page.locator('[data-world-next]').isDisabled())break;
+   await page.locator('[data-world-next]').click();
+   assert.equal(await page.evaluate(()=>document.activeElement.id),'world-browser-results');
+  }while(true);
+  assert.deepEqual(homeSeen.slice().sort(),initial.ids.slice().sort(),'all people remain reachable from the homepage tab');
+  await page.locator('#world-browser [data-sort-direction]').click();
+  assert.equal(await page.locator('#world-browser .people-pagination span').innerText(),'Page 1 of '+Math.ceil(initial.total/24));
+  const descendingFirst=await page.locator('#world-browser .index-card').first().getAttribute('data-article');
+  assert.equal(descendingFirst,homeSeen.at(-1),'reverse sorting still includes the end of the roster');
+  await page.locator('#world-browser [data-view="locations"]').click();
+  assert.equal(await page.locator('#world-browser .people-pagination').count(),0,'character pagination does not carry into other views');
+  await page.locator('#world-browser [data-view="characters"]').click();
+  assert.equal(await page.locator('#world-browser .index-card').first().getAttribute('data-article'),homeSeen[0],'switching back resets the character page and order');
+  await page.locator('#world-browser').screenshot({path:output+'/homepage-characters-desktop.png'});
+  await page.setViewportSize({width:390,height:844});
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'homepage Characters fits mobile');
+  await page.locator('#world-browser').screenshot({path:output+'/homepage-characters-mobile.png'});
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);
   assert.deepEqual(errors,[]);
-  console.log('PASS lightweight initial artwork, deferred bodies/search, all '+initial.total+' people and pagination, filters/aliases, original art on opening, four widths and protected boundaries');
+  console.log('PASS lightweight initial artwork, deferred bodies/search, all '+initial.total+' people on directory and homepage, bounded pages, filters/aliases/sorting, original art, focus, four widths and protected boundaries');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});

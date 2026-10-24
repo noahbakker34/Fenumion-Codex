@@ -116,3 +116,7 @@ Only the catalog cache version changes (265); runtime, styles, data model and we
 ## Local results
 
 Build `22da0b1575723e2e` contains 591 records, 2,168 sections and 542 complete public bodies. Content/calendar checks and the 75,427-string calendar audit pass. Chrome verifies all 61 intended complete bodies, descriptions/profiles, headings, desktop/mobile fit and empty protected bodies. Existing reader/search/source/deep-link and biography/region regressions pass. Every one of the 542 complete public bodies passes the Fenumion-date/identifier audit. Selected desktop/mobile screenshots are inspected. Runtime, CSS and workflow code are unchanged; publication uses one source push and the existing cached verification/build pipeline.
+
+## Publication receipt
+
+Release `dad9dd8a4ec289172ed67ced8764f8bf6800517c` deployed successfully in [Pages run 40134546692](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/40134546692). Every hosted gate passes. All 64 live entry/catalog/search/edited-record hashes match build `22da0b1575723e2e`. Fresh anonymous live Chrome verifies all 61 intended complete bodies, summaries/profiles, headings, desktop/mobile fit and empty protected bodies. Selected live screenshots are inspected. Verification/build/upload takes 4m9s; deployment takes 30s. The cached harness skips installation, and deployment reuses the tested artifact without another checkout/build. Temporary preview 61742 is stopped after ownership verification. This documentation-only receipt uses the existing path filter to avoid another deployment.

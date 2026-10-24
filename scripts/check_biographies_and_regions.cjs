@@ -22,7 +22,12 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    assert.equal(await page.locator('.section-evidence').count(),source.sections.length,'each original evidence panel retained');
    assert(await page.locator('.biography-relationships a').count()>=4,'named linked relationships');
    assert(!/New York|\bUTC\b|\b[Bb]iblical\b/.test(await page.locator('.article-body').innerText()));
-   await page.locator('.chronicle-person-portrait img').evaluate(image=>image.decode());await picture(id+'-desktop.png');
+   if(source.video){
+    const portrait=page.locator('.chronicle-person-portrait video');
+    assert.equal(await portrait.getAttribute('poster'),source.image,'original portrait remains the motion fallback');
+    assert(await portrait.evaluate(video=>video.paused&&!video.querySelector('source')?.hasAttribute('src')),'reduced motion does not load the animation');
+   }else await page.locator('.chronicle-person-portrait img').evaluate(image=>image.decode());
+   await picture(id+'-desktop.png');
    const target=source.biography.chapters[1].id;await page.locator('.biography-navigation [data-section="'+target+'"]').click();
    assert.equal(await page.evaluate(()=>document.activeElement.id),target,'chapter receives focus');
    await page.reload();await page.locator('#'+target).waitFor();assert.equal(await page.evaluate(()=>document.activeElement.id),target,'chapter route reload');

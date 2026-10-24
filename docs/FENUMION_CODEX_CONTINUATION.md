@@ -2,6 +2,14 @@
 
 Last updated: 2026-10-24
 
+## Elenia animated portrait · 24 October 2026
+
+Owner identifies the supplied nine-second clip as Elenia. The existing Elenia record gains only video/videoType/videoCaption fields, using the established ambient portrait renderer. Her original still remains the poster, directory/dialog artwork and reduced-motion/data-saving fallback. The compact Ececilia illustration remains at natural size below the biography. No new scene, character, date, achievement or lore claim is inferred from the animation or filename.
+
+The silent source is 24,203,159 bytes, 1280×720, 217 frames at 24 fps (about 9.04s). The web copy is 5,071,070 bytes (79.0% smaller), 960×540 H.264/yuv420p, preserving duration/frame rate, using CRF18/slow and fast-start metadata before video data. Representative frames are inspected. SSIM at the 226×270 portrait display crop is 0.9930; this is a display comparison, not a lossless/full-resolution claim. Original source remains unmodified outside Git. Source SHA256: 66892ee71608e054f1e607a9ec9ed3f0e77f84e4ef83dac04e1d7faf85010d0c; optimized SHA256: 149991080e2fb49fefac3332b9fd4ed0b6ec755837016eb825b07b9f4d1f3037. FFmpeg helper was obtained from the standard PyPI imageio-ffmpeg 0.6.0 wheel; the temporary local helper is /tmp/fenumion-elenia-animation-tools/ffmpeg and is not published.
+
+Catalog267; runtime265/reader CSS5 unchanged. Build 39d9ded81ba60325 retains 591 records/2,168 sections/542 complete public bodies; all narrative bodies, source/evidence metadata, world.json, previous art and private payload are unchanged. Focused local Chrome verifies actual H.264 playback, duration/dimensions, one compact portrait, loop/mute/inline behavior, off-screen/navigation pause, mobile fit, poster and zero portrait-video requests in reduced-motion/save-data/browsing views. Existing biography/region/natural-size artwork and full 257-person directory regressions pass, as do content/preview checks; desktop/mobile screenshots inspected. The focused media check joins the existing cached CI harness. Publication follows standing authorization; hosted/live receipt follows verification.
+
 ## Compact artwork below biographies · 24 October 2026
 
 Owner reports an oversized element below Elenia’s page. Inspection identifies the Ececilia illustration beneath the biography: a 100×95 source is displayed in a 1,064×780 box by the generic single-artwork rule after the visual rail is relocated. Scoped biography artwork rules use compact cards (up to 280 pixels), remove the old minimum-height frame and preserve natural image size/proportions with a 240-pixel height cap. Elenia’s illustration now displays at 100×95. Original files, full-size links, credit, primary portraits, art archive and all lore/data remain unchanged. Reader CSS5; runtime/catalog/stylesheets outside that reader file are unchanged.

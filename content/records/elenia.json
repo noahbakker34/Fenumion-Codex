@@ -973,5 +973,8 @@
       }
     ],
     "relationships": []
-  }
+  },
+  "video": "assets/characters/elenia-portrait-animation.mp4",
+  "videoType": "video/mp4",
+  "videoCaption": "Elenia — animated portrait."
 }

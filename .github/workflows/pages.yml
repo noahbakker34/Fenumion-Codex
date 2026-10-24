@@ -106,6 +106,7 @@ jobs:
           node scripts/check_visual_chronicle.cjs
           node scripts/check_location_hierarchy.cjs
           node scripts/check_biographies_and_regions.cjs
+          node scripts/check_elenia_animation.cjs
           node scripts/check_october_refresh.cjs
           node scripts/check_portrait_review.cjs
           node scripts/check_protected_media.cjs

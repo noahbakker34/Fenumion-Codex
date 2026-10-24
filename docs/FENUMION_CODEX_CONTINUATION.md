@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-24
 
+## Compact artwork below biographies · 24 October 2026
+
+Owner reports an oversized element below Elenia’s page. Inspection identifies the Ececilia illustration beneath the biography: a 100×95 source is displayed in a 1,064×780 box by the generic single-artwork rule after the visual rail is relocated. Scoped biography artwork rules use compact cards (up to 280 pixels), remove the old minimum-height frame and preserve natural image size/proportions with a 240-pixel height cap. Elenia’s illustration now displays at 100×95. Original files, full-size links, credit, primary portraits, art archive and all lore/data remain unchanged. Reader CSS5; runtime/catalog/stylesheets outside that reader file are unchanged.
+
+The existing biography/region gate now guards Elenia’s artwork at nine widths, its proportions and original link. Local checks pass, including the old-stylesheet reproduction, biography/navigation/source/history/region/privacy checks and content validation; desktop/mobile screenshots are inspected. Publication follows standing authorization; hosted/live receipt follows verification.
+
 ## Characters performance · 24 October 2026
 
 Owner reports a slow Characters directory. Profiling finds full-size portraits and large CSS artwork downloading for small browsing surfaces, including the 6.4 MB Wrath GIF and 6.3 MB Guide tile. Static WebP previews now serve directory and homepage character portraits, the directory header/sidebar artwork and small cross-Codex tiles. The homepage Characters tab also changes from rendering all 257 cards to 24-card pages with complete roster/sorting and no off-screen video metadata preload; timeline/location views retain their behavior. Original art/animation stays on records/dialogs and in the art archive. Existing 24-card pagination, all 257 people, filters/aliases, dates and protected boundaries remain; canonical records/world/private payload, styles and record layouts are unchanged.

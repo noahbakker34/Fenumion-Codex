@@ -33,7 +33,19 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    if(scene){await go(id+'?section='+scene.id);assert(await page.locator('#'+scene.id).evaluate(el=>el.closest('details').open),'legacy scene appendix opens');assert(await page.locator('#'+scene.id).evaluate(el=>el.parentElement.parentElement.querySelector('.scene-sequence')!==null));}
    await go(id+'?section=relationship-map-'+id);assert(await page.locator('#relationship-map-'+id).evaluate(el=>el.closest('details').open),'relationship map remains accessible');
    const filter=page.locator('[data-relationship-filter]').last();await filter.click();assert.equal(await filter.getAttribute('aria-pressed'),'true','relationship filters survive reorganization');
-   for(const width of [1440,1280,1100,1024,900,768,600,390,320]){await page.setViewportSize({width,height:844});await fits(width);assert(await page.locator('.biography-navigation button').evaluateAll(nodes=>nodes.every(el=>el.scrollWidth<=el.clientWidth&&el.getBoundingClientRect().height>=44)),'biography controls fit '+width);}
+   if(id==='elenia'){
+    const artwork=page.locator('.record-rail-art img[src="elenia-chibi.png"]');
+    await artwork.scrollIntoViewIfNeeded();await artwork.evaluate(image=>image.decode());
+    assert.equal(await artwork.locator('..').getAttribute('href'),'elenia-chibi.png','original artwork remains linked');
+   }
+   for(const width of [1440,1280,1100,1024,900,768,600,390,320]){
+    await page.setViewportSize({width,height:844});await fits(width);
+    assert(await page.locator('.biography-navigation button').evaluateAll(nodes=>nodes.every(el=>el.scrollWidth<=el.clientWidth&&el.getBoundingClientRect().height>=44)),'biography controls fit '+width);
+    if(id==='elenia')assert(await page.locator('.record-rail-art img[src="elenia-chibi.png"]').evaluate(img=>{
+     const box=img.getBoundingClientRect(),card=img.closest('figure').getBoundingClientRect();
+     return box.width>0&&box.height>0&&box.width<=img.naturalWidth+1&&box.height<=img.naturalHeight+1&&card.width<=281&&Math.abs(box.width/box.height-img.naturalWidth/img.naturalHeight)<.02;
+    }),'small artwork stays compact and proportional at '+width);
+   }
    if(id==='elenia'){await go('elenia?section=miracle');await page.locator('#miracle').scrollIntoViewIfNeeded();await picture('elenia-miracle-mobile.png');}
    await page.setViewportSize({width:1440,height:1000});
   }

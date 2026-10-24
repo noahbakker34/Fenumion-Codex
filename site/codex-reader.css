@@ -14,6 +14,10 @@
 .fenumion-world .biography-layout .article-header{min-height:270px}
 .biography-layout .article-header .article-meta{display:none}
 .biography-layout .record-summary{padding:1.2rem 1.4rem;margin-bottom:1rem}
+/* Artwork moved below a biography should stay a compact preview, at its natural size. */
+.fenumion-world .biography-layout .record-rail-art .character-art-grid{grid-template-columns:repeat(auto-fit,minmax(0,280px));justify-content:start}
+.fenumion-world .biography-layout .record-rail-art .character-art-grid figure>a{min-height:0;padding:1rem}
+.fenumion-world .biography-layout .record-rail-art .character-art-grid figure>a>img{width:auto;height:auto;max-width:100%;max-height:240px}
 .fenumion-world .biography-layout .record-overview .infobox{margin:0;padding:0;border:0;gap:0 2rem}
 .fenumion-world .biography-layout .record-summary .fact{display:block;padding:.6rem 0;overflow-wrap:normal}
 .biography-layout .record-summary .fact dt{font:600 .72rem/1.5 var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--region-accent)}

@@ -22,6 +22,9 @@ def build():
  order=world.get('articleOrder',ids); records.sort(key=lambda r:order.index(r['id']) if r['id'] in order else len(order))
  catalog['articles']=[]; search={}; generated=set(); total=0
  catalog['imageDimensions']=json.loads((CONTENT/'reference/image-dimensions.json').read_text())
+ previews=json.loads((CONTENT/'reference/browse-images.json').read_text())['images']
+ catalog['browseImages']={source:{key:image[key] for key in ['src','width','height']} for source,image in previews.items()}
+ catalog['imageDimensions'].update({image['src']:[image['width'],image['height']] for image in previews.values()})
  people={p['article']:p for p in world['archiveIndex']['characters']+world['archiveIndex']['npcs']}
  for r in records:
   assert re.fullmatch('[a-z0-9-]+',r['id']),r['id']

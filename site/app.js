@@ -19,6 +19,8 @@ const npcDiscoveries = window.FENUMION_NPC_DISCOVERIES || {entries:[]};
 const routeAliases = new Map(codexCatalog.routeAliases);
 const byId = new Map(articles.map(article => [article.id, article]));
 let mappedLocationTitles = new Set();
+// Browsing previews never replace the original artwork on records or in the art archive.
+function browseImageSource(source) { return codexCatalog.browseImages?.[source]?.src || source; }
 
 function mergeMedia(record, media) {
   if (!record || !media) return;
@@ -879,6 +881,7 @@ function renderArticle(route, pushHash = true) {
   const article = byId.get(id) || byId.get("world-index");
   const protectedArticle = !isPlayerSafeArticle(article.id);
   const hubPage = hubPageById.get(article.id);
+  const hubImage = hubPage ? (article.id === 'people-directory' ? browseImageSource(hubPage.image) : hubPage.image) : '';
   const backgroundCatalog=window.FENUMION_CHARACTER_BACKGROUNDS;
   const characterBackgroundTheme=!protectedArticle ? backgroundCatalog?.themes[backgroundCatalog.articles[article.id]] : null;
   const deathRelated = !characterBackgroundTheme && !protectedArticle && !['world-index','people-directory','factions','living-timeline','visual-archive','memorable-quotes','ethos-of-fenumion','reading-the-codex','start-here'].includes(article.id) && (
@@ -958,7 +961,7 @@ function renderArticle(route, pushHash = true) {
   const locationTimeline = renderLocationTimeline(article);
   const hubSwitcher = hubPage ? `
     <nav class="hub-switcher" aria-label="Explore the Codex">
-      ${hubPages.map(page => `<button class="gateway-tile${page.id === article.id ? " active" : ""}${isPlayerSafeArticle(page.id) ? "" : " locked-record"}" data-article="${page.id}" style="--tile-image:url('${page.image}')" aria-label="${protectedRecordAria(page.label, !isPlayerSafeArticle(page.id))}"${page.id === article.id ? ' aria-current="page"' : ""}><span>${protectedRecordTitle(page.label, !isPlayerSafeArticle(page.id))}</span><small>${isPlayerSafeArticle(page.id) ? page.detail : "Protected record"}</small></button>`).join("")}
+      ${hubPages.map(page => `<button class="gateway-tile${page.id === article.id ? " active" : ""}${isPlayerSafeArticle(page.id) ? "" : " locked-record"}" data-article="${page.id}" style="--tile-image:url('${browseImageSource(page.image)}')" aria-label="${protectedRecordAria(page.label, !isPlayerSafeArticle(page.id))}"${page.id === article.id ? ' aria-current="page"' : ""}><span>${protectedRecordTitle(page.label, !isPlayerSafeArticle(page.id))}</span><small>${isPlayerSafeArticle(page.id) ? page.detail : "Protected record"}</small></button>`).join("")}
     </nav>` : "";
   const atlasBanner = article.id === "visual-archive" ? `
     <section class="atlas-banner" aria-label="Interactive world atlas">
@@ -999,7 +1002,7 @@ function renderArticle(route, pushHash = true) {
   const deathBackdrop = deathRelated ? `<div class="death-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="assets/archive/death-background-poster.webp" tabindex="-1"><source data-src="assets/archive/death-background.mp4" type="video/mp4"></video></div>` : '';
   articleContent.innerHTML = `
     ${characterBackdrop}${quotesBackdrop}${ethosBackdrop}${deathBackdrop}${locationsBackdrop}${factionsBackdrop}${historyBackdrop}
-    <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubPage.image}')"` : ""}>
+    <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubImage}')"` : ""}>
       <p class="article-kicker">${article.type}</p>
       <h1>${article.title}</h1>
       <p class="dek">${article.dek}</p>
@@ -1027,7 +1030,7 @@ function renderArticle(route, pushHash = true) {
   const hasConnections=visualConnections.length>0;
   if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
   const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
-  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', atlasWorkspace:article.id==='visual-archive', workspace:article.id==='living-timeline', quoteWorkspace:article.id==='memorable-quotes', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubPage.image : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', atlasWorkspace:article.id==='visual-archive', workspace:article.id==='living-timeline', quoteWorkspace:article.id==='memorable-quotes', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubImage : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
   window.CodexVisual?.decorateArticle(articleContent,article,codexVisualContext());
   if (article.id === "world-index") {
     setupWorldBrowser();
@@ -1149,8 +1152,9 @@ function setupPeopleGallery() {
     gallery.querySelectorAll("video").forEach(video => video.pause());
     gallery.innerHTML = matches.length ? visiblePeople.map(person => {
       const protectedRecord = !isPlayerSafeArticle(person.article);
+      const preview = codexCatalog.browseImages?.[person.image];
       const media = person.image
-        ? `<img src="${escapeHtml(person.image)}" alt="" loading="lazy" decoding="async">`
+        ? `<img src="${escapeHtml(browseImageSource(person.image))}"${preview ? ` width="${preview.width}" height="${preview.height}"` : ''} alt="" loading="lazy" decoding="async">`
         : person.video
           ? `<video class="ambient-video" data-ambient-video src="${escapeHtml(person.video)}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" aria-hidden="true" tabindex="-1"></video>`
           : `<span class="index-glyph" aria-hidden="true">✦</span>`;

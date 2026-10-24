@@ -44,6 +44,7 @@ jobs:
           python3 scripts/check_content.py
           python3 scripts/check_portrait_review.py
           python3 scripts/check_protected_assets.py
+          python3 scripts/build_browse_images.py --check
       - name: Build the public bundles once
         run: python3 scripts/build_codex.py
       - name: Check runtime syntax and whitespace
@@ -93,6 +94,7 @@ jobs:
       - name: Check reading, history, search, mobile and protected boundaries
         run: |
           node scripts/check_reader.cjs
+          node scripts/check_character_directory.cjs
           node scripts/check_research_journeys.cjs
           node scripts/check_rifts.cjs
           node scripts/check_timeline.cjs

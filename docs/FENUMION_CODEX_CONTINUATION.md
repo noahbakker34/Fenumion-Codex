@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-24
 
+## Characters performance · 24 October 2026
+
+Owner reports a slow Characters directory. Profiling finds full-size portraits and large CSS artwork downloading for small browsing surfaces, including the 6.4 MB Wrath GIF and 6.3 MB Guide tile. Static WebP previews now serve directory portraits, its header/sidebar artwork and small cross-Codex tiles. Original art/animation stays on records/dialogs and in the art archive. Existing 24-card pagination, all 257 people, filters/aliases, dates and protected boundaries remain; canonical records/world/private payload and styles/layout are unchanged.
+
+The reproducible local generator covers 246 public sources; a standard-library CI check validates source/output hashes, coverage, dimensions and stale files without image-library installation. Output names hash actual encoded bytes. Catalog266/app264; the catalog supplies preview URLs/dimensions. A focused browser regression protects the initial-request savings, complete roster/pagination, aliases, original artwork, focus, mobile fit and public limits. Local image/font bytes fall from 26.6 MB to 2.1 MB (92.2%) under the same cold-cache profile; this is a transfer comparison, not a connection-independent timing promise. Existing visual, reader/search, research and static checks pass; screenshots inspected. See CHARACTERS_PERFORMANCE_2026_10_24.md. Publication follows standing authorization; hosted/live receipt follows verification.
+
 ## Approved broader editorial refinement · 24 October 2026
 
 The owner’s “Continue” after the published pilot explicitly authorizes Phase 2. The earlier approval boundary is fulfilled. Catalogue-wide screening leads to targeted edits in 61 existing entries: 104 paragraphs, 14 descriptions, ten matching brief summaries and six profile fields. Effective prose, mechanics, dialogue and useful contrasts remain. Selected original quest/RP samples preserve distinct voices; the review does not claim a full archive reread. EDITORIAL_REFINEMENT_2026_10_24.md records examples, source checks, limits and the complete entry list.

@@ -1,5 +1,6 @@
-// Browse the same 38 approved lines and use existing public voice files. No transcript or vault is read.
+// Preserve existing lines/anchors and browse the source-checked wider selection and public voices.
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
+const crypto=require('node:crypto'),review=require('../content/reference/quote-review-2026-10-23.json'),world=require('../content/reference/world.json');
 const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-quotes';
 (async()=>{
  fs.mkdirSync(output,{recursive:true});const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});
@@ -9,9 +10,14 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   if(!process.env.CODEX_LIVE)await page.route('https://auth.fenumion.com/**',route=>route.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
   const go=async id=>{await page.goto(base+'#'+id);await page.locator('#quote-browser').waitFor();};
   await go('memorable-quotes');
-  const expected=await page.evaluate(()=>memorableQuoteRecords().map(record=>({id:record.quoteId,text:record.title,speaker:record.speaker})));
-  assert.equal(expected.length,38);assert.deepEqual(await page.locator('.quote-browser-card').evaluateAll(cards=>cards.map(card=>({id:card.id,text:card.querySelector('blockquote').textContent}))),expected.map(record=>({id:record.id,text:record.text})),'all selected wording and existing anchors preserved');
-  assert.equal(await page.locator('.quote-result-group').count(),7);assert.equal(await page.locator('.quote-speaker img').count()>0,true);
+  const records=await page.evaluate(()=>memorableQuoteRecords()),expected=records.map(record=>({id:record.quoteId,text:record.title,speaker:record.speaker}));
+  assert.deepEqual(records,world.quotes,'loaded selection and deferred-search catalog agree');
+  assert.equal(expected.length,review.legacy.length+review.selected.length);assert.equal(review.selected.length,15);
+  const byId=new Map(records.map(record=>[record.quoteId,record]));assert.equal(byId.size,records.length,'quote destinations are unique');
+  for(const prior of review.legacy){const record=byId.get(prior.quoteId),fingerprint=['quoteId','title','speaker','group','groupId','article'].map(key=>record[key]).join('\x1f');assert.equal(crypto.createHash('sha256').update(fingerprint).digest('hex'),prior.hash,'original wording/speaker/theme/route/anchor: '+prior.quoteId);}
+  for(const selected of review.selected){const record=byId.get(selected.quoteId);assert.equal(record.source,selected.source);assert.equal(record.date,selected.date);assert.equal(crypto.createHash('sha256').update(record.title.slice(1,-1)).digest('hex'),selected.textHash,'source-checked wording: '+selected.quoteId);}
+  assert.deepEqual(await page.locator('.quote-browser-card').evaluateAll(cards=>cards.map(card=>({id:card.id,text:card.querySelector('blockquote').textContent}))),expected.map(record=>({id:record.id,text:record.text})),'all selected wording and existing anchors preserved');
+  assert.equal(await page.locator('.quote-result-group').count(),8);assert.equal(await page.locator('.quote-speaker img').count()>0,true);
   assert.equal(voiceRequests.length,0,'opening the collection does not fetch recordings');
   assert.equal(await page.locator('[data-quote-hover]').isChecked(),false);
   await page.locator('#memorable-quote-1 .quote-open').hover();await page.locator('#memorable-quote-1 .quote-open').focus();
@@ -22,8 +28,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   await query.fill('victory');assert.equal(await page.locator('.quote-browser-card').count(),1);
   await page.reload();await query.waitFor();assert.equal(await query.inputValue(),'victory');assert.equal(await speaker.inputValue(),'Aria / Pride');assert.equal(await voice.inputValue(),'recorded');assert.equal(await page.locator('.quote-browser-card').count(),1);
   await page.locator('[data-quote-reset]').click();await query.fill('no quotation 829381');assert.equal(await page.locator('.quote-browser-card').count(),0);await page.locator('[data-quote-reset]').click();
-  await page.locator('[data-quote-theme="quotes-choice"]').click();assert.equal(await page.locator('.quote-browser-card').count(),4);await page.locator('[data-quote-reset]').click();
-  await order.selectOption('newest');assert((await page.locator('.quote-browser-card').first().innerText()).includes('Karnak'));
+  await page.locator('[data-quote-theme="quotes-choice"]').click();assert.equal(await page.locator('.quote-browser-card').count(),records.filter(record=>record.groupId==='quotes-choice').length);await page.locator('[data-quote-reset]').click();
+  await order.selectOption('newest');assert((await page.locator('.quote-browser-card').first().innerText()).includes('Saray'));
   const last=await page.locator('.quote-browser-card').last().getAttribute('id');assert(!expected.find(record=>record.id===last).speaker.match(/20\d{2}/),'undated lines remain undated and follow dated ones');await page.locator('[data-quote-reset]').click();
   await page.locator('#memorable-quote-26 .quote-open').click();await page.locator('#quote-dialog[open]').waitFor();
   assert((await page.locator('.quote-detail-facts').innerText()).includes('29, Month of Namo\'o · Year 3'));assert((await page.locator('.quote-detail-facts').innerText()).includes('posting date'));
@@ -31,6 +37,21 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   assert(await page.locator('.quote-detail-links button').filter({hasText:'Read the scene'}).count(),'exact existing line supports a section link');
   await page.screenshot({path:output+'/quote-context-desktop.png'});await page.keyboard.press('Escape');assert(await page.locator('#memorable-quote-26 .quote-open').evaluate(el=>el===document.activeElement),'dialog returns focus');
   await page.locator('#memorable-quote-0 .quote-open').click();assert((await page.locator('.quote-detail-facts').innerText()).includes('not established'));await page.keyboard.press('Escape');
+  for(const selected of review.selected){
+   await speaker.selectOption(selected.speaker);assert.equal(await page.locator('.quote-browser-card').count(),1,'new voice is discoverable: '+selected.speaker);
+   await page.locator('#'+selected.quoteId+' .quote-open').click();
+   assert.equal(await page.locator('.quote-source-detail a').getAttribute('href'),selected.source,'exact message link: '+selected.speaker);
+   assert((await page.locator('.quote-detail-facts').innerText()).includes('posting date'));
+   assert((await page.locator('.quote-detail-context').innerText()).length>50,'context accompanies the selected line');
+   if(selected.speaker==='Gregory Greenleaf')assert((await page.locator('.quote-detail-links').innerText()).includes('Read The Ale-Chemy Knights'),'a shared history is not mislabeled as Gregory’s own profile');
+   await page.keyboard.press('Escape');assert(await page.locator('#'+selected.quoteId+' .quote-open').evaluate(el=>el===document.activeElement));
+  }
+  await page.locator('[data-quote-reset]').click();
+  for(const id of ['memorable-quote-26','memorable-quote-38']){
+   await go('memorable-quotes?section='+id);await page.waitForFunction(id=>document.activeElement.id===id,id);
+   await page.reload();await page.waitForFunction(id=>document.activeElement.id===id,id);
+  }
+  await go('memorable-quotes');
   await voice.selectOption('recorded');assert.equal(await page.locator('.quote-browser-card').count(),4);
   const melian=page.locator('#memorable-quote-1'),play=melian.locator('.quote-voice-play');
   if(!process.env.CODEX_LIVE){
@@ -58,6 +79,6 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   await page.goto(base+'#hellknight-order');await page.locator('.article-header h1').waitFor();const emblem=page.locator('.article-hero img[src="assets/factions/hellknight-order.png"]');assert.equal(await emblem.count(),1);assert(await emblem.evaluate(async el=>{await el.decode();return el.naturalWidth===512&&el.naturalHeight===768;}));
   assert((await page.locator('.article-header').innerText()).includes('Month of Death · Year 3'),'faction dates use the named calendar');
   await page.setViewportSize({width:390,height:844});await emblem.scrollIntoViewIfNeeded();await page.screenshot({path:output+'/hellknights-mobile.png'});await page.goto(base+'#factions');await page.locator('[data-article="hellknight-order"] img[src="assets/factions/hellknight-order.png"]').waitFor();
-  assert.deepEqual(errors,[]);console.log('PASS unchanged 38 quotes/seven themes/anchors; search/speaker/theme/voice/date order/reload/reset; portraits/context/source limits; explicit recording playback/seek/volume/music pause/hover preference/player cleanup; desktop/mobile; Hellknights art and dates');
+  assert.deepEqual(errors,[]);console.log('PASS 53 quotes/eight themes, all 38 original words/speakers/anchors and 15 new sourced voices; search/speaker/theme/voice/date order/reload/reset; precise messages and legacy source limits; explicit recording playback/seek/volume/music pause/hover preference/player cleanup; desktop/mobile; Hellknights art and dates');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

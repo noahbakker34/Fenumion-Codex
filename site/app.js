@@ -717,7 +717,7 @@ function memorableQuoteRecords() {
     } else {
       const text = element.querySelector("blockquote")?.textContent.trim();
       const speaker = element.querySelector("cite")?.textContent.trim();
-      if (text && speaker) records.push({ title: text, speaker, group, groupId, article: element.dataset.article, quoteId: `memorable-quote-${records.length}` });
+      if (text && speaker) records.push({ title: text, speaker, group, groupId, article: element.dataset.article, quoteId: element.id || `memorable-quote-${records.length}`, ...(element.dataset.quoteSource ? {source:element.dataset.quoteSource,date:element.dataset.quoteDate} : {}) });
     }
   });
   memorableQuoteCache = { body, records };

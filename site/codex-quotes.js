@@ -25,13 +25,21 @@
   const links=panel.querySelector('.quote-detail-links');
   const addLink=(label,action)=>{const button=document.createElement('button');button.type='button';button.textContent=FenumionCalendar.text(label);button.addEventListener('click',()=>{close();action();});links.append(button);};
   const person=context.person(record.personName),profile=person&&context.byId.get(person.article),article=context.byId.get(record.article);
-  if(profile&&context.allowed(profile.id))addLink('Open '+record.personName+'’s profile',()=>context.openArticle(profile.id));
+  if(profile&&context.allowed(profile.id)){
+   const ownProfile=[profile.title,...(profile.aliases||[])].some(name=>normalize(name)===normalize(record.personName));
+   addLink(ownProfile?'Open '+record.personName+'’s profile':'Read '+profile.title,()=>context.openArticle(profile.id));
+  }
   if(article&&article.id!==profile?.id)addLink(context.allowed(article.id)?'Open the related history':'Open the associated vault record',()=>context.openArticle(article.id));
   const words=normalize(record.title);
   const events=context.events.filter(item=>normalize(item.summary+' '+context.consequences(item.title)).includes(words));
   if(events.length===1)addLink('Open the event quoting this line',()=>context.openEvent(events[0]));
   const status=panel.querySelector('.quote-source-status'),sourcePanel=panel.querySelector('.quote-source-detail');
   const collectionSources=()=>`<details><summary>Collection references · individual scene locator incomplete</summary><p>These are references for the selected collection. They do not establish a precise source message for every line.</p><ul>${context.sources.map(source=>'<li>'+context.reference(source)+'</li>').join('')}</ul></details>`;
+  if(article&&!article.protected&&context.allowed(article.id)&&/^https:\/\/discord\.com\/channels\/1177270231513694249\/\d+\/\d+$/.test(record.source||'')){
+   status.textContent='This selection is linked to its exact source message. The date records when that message was posted.';
+   sourcePanel.innerHTML=`<p><a href="${esc(record.source)}" target="_blank" rel="noreferrer">Open exact source message ↗</a></p><p>These are the speaker’s words. Their claims retain the scene’s qualifications and uncertainty.</p>`;
+   return;
+  }
   if(!article||article.protected||!context.allowed(article.id)){
    status.textContent='The quotation and its context belong to the public selection. Its associated dossier retains its access rules.';sourcePanel.innerHTML=collectionSources();FenumionCalendar.render(sourcePanel);return;
   }
@@ -59,7 +67,7 @@
  }
  function setup(root,context,params){
   close();const body=root.querySelector('.article-body');if(!body)return;
-  const records=context.records.map(record=>({...record,context:root.querySelector('#'+CSS.escape(record.quoteId)+' .quote-context')?.textContent||'',personName:record.speaker.split(' · ')[0],date:dateIn(record.speaker),voice:Boolean(context.recording(record.title))}));
+  const records=context.records.map(record=>({...record,context:root.querySelector('#'+CSS.escape(record.quoteId)+' .quote-context')?.textContent||'',personName:record.speaker.split(' · ')[0],date:record.date||dateIn(record.speaker),voice:Boolean(context.recording(record.title))}));
   const groups=[...new Map(records.map(record=>[record.groupId,record.group])).entries()],names=[...new Set(records.map(record=>record.personName))].sort((a,b)=>a.localeCompare(b));
   body.querySelectorAll('.quote-jump,.quote-gallery').forEach(node=>node.remove());for(const [id]of groups)body.querySelector('#'+CSS.escape(id))?.remove();
   const shell=document.createElement('section');shell.id='quote-browser';shell.setAttribute('aria-label','Explore memorable quotations');

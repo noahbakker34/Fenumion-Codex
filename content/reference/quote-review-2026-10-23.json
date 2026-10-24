@@ -1,0 +1,340 @@
+{
+  "date": "2026-10-23",
+  "method": "Contextual selection by the GPT assistant; qualitative judgments of depth, merit and relevance, not an automated lexical score. Original message text and selected surrounding scenes were read locally. No claim to review the entire archive.",
+  "legacy": [
+    {
+      "quoteId": "memorable-quote-0",
+      "hash": "92205b8aa597f029fff8e4851902f4652950d2f9314ca5f429880b581d5a21de"
+    },
+    {
+      "quoteId": "memorable-quote-1",
+      "hash": "4564edbad6253005711f359da8cd25fc80d754783411d7796f11212fc649325f"
+    },
+    {
+      "quoteId": "memorable-quote-2",
+      "hash": "a1028c1555deb8d0b186c8108b2be534e2c33ff9a02e97e4cb51956066c22b89"
+    },
+    {
+      "quoteId": "memorable-quote-3",
+      "hash": "fd5714b6f399fa7efdcabeaf041a582f8561b4c3b26f96aba4064133051788d9"
+    },
+    {
+      "quoteId": "memorable-quote-4",
+      "hash": "e2b8a47e3f6a2a9af5719cdb656588bdc0d1088b7d318e9b8657665f3c0c8ced"
+    },
+    {
+      "quoteId": "memorable-quote-5",
+      "hash": "699d7bb28a14cd727e7e4984db294b8e9817fd5c68c79dc28d36deef8f05cd01"
+    },
+    {
+      "quoteId": "memorable-quote-6",
+      "hash": "ac815849c99900b9e91e7a594cd134f830b6314fe3dc542fca0c85496679292a"
+    },
+    {
+      "quoteId": "memorable-quote-7",
+      "hash": "5edcc09e52ca6e5c57de99fcf6e73a43bfc2f3889f418a1134069c17499ab7f5"
+    },
+    {
+      "quoteId": "memorable-quote-8",
+      "hash": "7c7c05b07cf98aa55a8d8c67d38c1681c1398c7b5e9df8a2f9f3195079ab87ac"
+    },
+    {
+      "quoteId": "memorable-quote-9",
+      "hash": "9c3af8ff56c090e9e094ac31e5c86e9275a273ee96a7eb46cf26a61b15185343"
+    },
+    {
+      "quoteId": "memorable-quote-10",
+      "hash": "08f9359ada6132e055b6c7433db870f04e7dbf83c4645a4a4cc456131e5de4e2"
+    },
+    {
+      "quoteId": "memorable-quote-11",
+      "hash": "a673daf2e82ea4e5decbb73d53408a37092359a916e8b25650480a810c5b0e09"
+    },
+    {
+      "quoteId": "memorable-quote-12",
+      "hash": "86815a29f42367876fddacc2b8e73b3905114d5b8639ac4c7d7cbb592960d43a"
+    },
+    {
+      "quoteId": "memorable-quote-13",
+      "hash": "389841651261f1ed9f5212ba70466b8eea56b31969c88262a606404d209858a7"
+    },
+    {
+      "quoteId": "memorable-quote-14",
+      "hash": "b244c0e468ebd6599634d013bd268498cc3a8f4f60d3125a408751337b04a07f"
+    },
+    {
+      "quoteId": "memorable-quote-15",
+      "hash": "6ff61c3bd3dd691407b5301b8bfecf23708a6cbf875344fcaff038234fee6846"
+    },
+    {
+      "quoteId": "memorable-quote-16",
+      "hash": "3b8c3b3f56f6aec9568588aa7675df9e5be0a9d8a98c466bd103b6e9bc796966"
+    },
+    {
+      "quoteId": "memorable-quote-17",
+      "hash": "ff9f13b9bdeb69bf3ac8efc4674e3b16f1522840b25a9885bd425c90dec2f482"
+    },
+    {
+      "quoteId": "memorable-quote-18",
+      "hash": "8f1d98f917963b8f4436ed9c11f679efbac51eb2ada0571baee8524b0e84eb20"
+    },
+    {
+      "quoteId": "memorable-quote-19",
+      "hash": "876f4b13cf760ade2bbf0c5002c49b49ddf3a6347cc7ed38815b6b9f3fb431e1"
+    },
+    {
+      "quoteId": "memorable-quote-20",
+      "hash": "f08e63e05d1ed488d1befe43e8951effcd5589b3989ee2bfaebfa613ea68f438"
+    },
+    {
+      "quoteId": "memorable-quote-21",
+      "hash": "6459c61a0ae19dd5a029d54fe97e4e2d781ad366eff1ff9e92162d5d5f4489a1"
+    },
+    {
+      "quoteId": "memorable-quote-22",
+      "hash": "3e4e1b5327d7a4a25256077e5b358f1c8669debc320c67f06967480235dd6391"
+    },
+    {
+      "quoteId": "memorable-quote-23",
+      "hash": "2824905c6de4164db94e4e30347362d27ed3b43de233870760af1c79c2247892"
+    },
+    {
+      "quoteId": "memorable-quote-24",
+      "hash": "1ec98f9ea262ac0c19d9fe6c15067e52b32b09119b49a9722d6cb23480132a38"
+    },
+    {
+      "quoteId": "memorable-quote-25",
+      "hash": "a1a7dc706e738b21b3fe69bff3a37be46340fa697961a165abec8e95e36e5388"
+    },
+    {
+      "quoteId": "memorable-quote-26",
+      "hash": "600f6384a10fd286e6f542c934c08a6147b987269de34e87f727ad97094bc95e"
+    },
+    {
+      "quoteId": "memorable-quote-27",
+      "hash": "50aae131835a77388a6ff20077d2eb32c7b323e7b783fb996d511738fd7f9c53"
+    },
+    {
+      "quoteId": "memorable-quote-28",
+      "hash": "236bc18a4c5a2aebec8923c9032c0488ed4082013ea6fe929d39fd3556a115f7"
+    },
+    {
+      "quoteId": "memorable-quote-29",
+      "hash": "2ae41ce49b419385b2611d4e7930756acc6053f5d4ff37bd1ffdf58ef97abb5c"
+    },
+    {
+      "quoteId": "memorable-quote-30",
+      "hash": "09b2b1828ea2994934dc47966ab6535f8c64a45b45d65d67352768be2b2656de"
+    },
+    {
+      "quoteId": "memorable-quote-31",
+      "hash": "3687f4d543ec824392507ccaf05b46d8cd38a7a3bb36e78d64924edb9ad78fdd"
+    },
+    {
+      "quoteId": "memorable-quote-32",
+      "hash": "053b75eabc0ca52eadeecbcb692612b734a04d52702b21229cee21270c7feee2"
+    },
+    {
+      "quoteId": "memorable-quote-33",
+      "hash": "2dc5b191a49299667f415c800f48a301f4e9a73d975a06c99e207c9123857b87"
+    },
+    {
+      "quoteId": "memorable-quote-34",
+      "hash": "16206631b5287de1cc5a42180cdce1cffc946bad48af70340d03fbfa8f83ac22"
+    },
+    {
+      "quoteId": "memorable-quote-35",
+      "hash": "98527c751e5e92c6312244dcac9d0fccbb124ec1378f7873994eaf9fa9509097"
+    },
+    {
+      "quoteId": "memorable-quote-36",
+      "hash": "f6774301dd8c53bb970064987f1abbdf4214ded736fc50cfc8972c9dfe301f08"
+    },
+    {
+      "quoteId": "memorable-quote-37",
+      "hash": "ed2a98d2f5e2fe2670c7ee7e7adcd66411775499333cb8d4eca39c53fed37977"
+    }
+  ],
+  "selected": [
+    {
+      "quoteId": "memorable-quote-38",
+      "article": "farkur",
+      "speaker": "Farkur S. Gemblenagin",
+      "groupId": "quotes-care",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1487919857709224136",
+      "date": "2026-03-29",
+      "textHash": "095524a381d4a8de28701f2b51949e6fbe6d2479024abfe5c472d306229ad65b",
+      "judgment": "A small practical instruction exposes fear and attachment without turning his surrender into absolution.",
+      "excerpt": false,
+      "sourceAuthor": "Farkur"
+    },
+    {
+      "quoteId": "memorable-quote-39",
+      "article": "papirak",
+      "speaker": "Papirak the Strange",
+      "groupId": "quotes-everyday",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1261156305251598472",
+      "date": "2024-07-12",
+      "textHash": "29d39cb2289ef0509800507f432e28ef3c333d7c39f138ae566befc1d5de39d3",
+      "judgment": "The boast and request for help preserve his comic timing, damaged memory and real expertise together.",
+      "excerpt": false,
+      "sourceAuthor": "Papirak the Strange"
+    },
+    {
+      "quoteId": "memorable-quote-40",
+      "article": "coralyn",
+      "speaker": "Coralyn",
+      "groupId": "quotes-identity",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1322365121636601968",
+      "date": "2024-12-28",
+      "textHash": "072e3c740b730a3163d1232864027af897a3fcb8debe153e10672e08b20a9869",
+      "judgment": "A distinctive introduction joins an unfamiliar social world, practical experience and the cost of learning; its merit does not depend on polished eloquence.",
+      "excerpt": false,
+      "sourceAuthor": "Coralyn"
+    },
+    {
+      "quoteId": "memorable-quote-41",
+      "article": "akarian",
+      "speaker": "Akarian Irenhour",
+      "groupId": "quotes-loss",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1362205727992582144",
+      "date": "2025-04-16",
+      "textHash": "36af222cb72000389b481dd6b979891426cddb86613c6200b36bd2096afa2b02",
+      "judgment": "The choice makes loss specific through a remembered relationship, while the scene retains disagreement about what is missing.",
+      "excerpt": false,
+      "sourceAuthor": "Akarian Irenhour"
+    },
+    {
+      "quoteId": "memorable-quote-42",
+      "article": "saray",
+      "speaker": "Saray",
+      "groupId": "quotes-history",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1530416591240565018",
+      "date": "2026-07-25",
+      "textHash": "51e67c537708debb5723365ff49679fb47106c9b1271697cbcd45cd2a1543e28",
+      "judgment": "She gives the campaign’s recovery a concrete purpose beyond defeating enemies; her wording and the immediate cost at Hope matter.",
+      "excerpt": false,
+      "sourceAuthor": "Saray"
+    },
+    {
+      "quoteId": "memorable-quote-43",
+      "article": "minerva",
+      "speaker": "Minerva",
+      "groupId": "quotes-choice",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1464334033856233683",
+      "date": "2026-01-23",
+      "textHash": "9cbbf81bfaa7c5e589c9a498c3830f3b44499946b97f32f369f801e6d127e73e",
+      "judgment": "The objection captures her resistance to command without making her consistently noble or erasing Ghilsen’s own response.",
+      "excerpt": false,
+      "sourceAuthor": "Minerva"
+    },
+    {
+      "quoteId": "memorable-quote-44",
+      "article": "ale-chemy-knights",
+      "speaker": "Gregory Greenleaf",
+      "groupId": "quotes-faith",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1464402500663902425",
+      "date": "2026-01-23",
+      "textHash": "516a9ae1bfac2db00b3a83c2ff8e71506dea322def3f699b565fc173057072f9",
+      "judgment": "His expansive claim to act for everyone’s good makes his paternalism audible; it is not an editorial endorsement.",
+      "excerpt": false,
+      "sourceAuthor": "Gregory Greenleaf"
+    },
+    {
+      "quoteId": "memorable-quote-45",
+      "article": "brianna",
+      "speaker": "Brianna",
+      "groupId": "quotes-choice",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1371705996027891723",
+      "date": "2025-05-13",
+      "textHash": "81cf1a8a595876f1226941d565311de373b42e74fc3ae880a70a982757ab0b90",
+      "judgment": "The plea gains weight from an actual quarrel over mercy; it does not manufacture agreement or a healed party.",
+      "excerpt": false,
+      "sourceAuthor": "Brianna"
+    },
+    {
+      "quoteId": "memorable-quote-46",
+      "article": "wren",
+      "speaker": "Wren",
+      "groupId": "quotes-power",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1404664075736322161",
+      "date": "2025-08-12",
+      "textHash": "188964bd2ecb291db6bbcb065fd98d6b00a746b753ac993f69cdf30eede9902b",
+      "judgment": "Her modest answer matters inside a conversation about reputation and cultural expectations, rather than as a generic maxim.",
+      "excerpt": false,
+      "sourceAuthor": "Wren"
+    },
+    {
+      "quoteId": "memorable-quote-47",
+      "article": "aerrow",
+      "speaker": "Aerrow",
+      "groupId": "quotes-care",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1432942320050769951",
+      "date": "2025-10-29",
+      "textHash": "485fbb53947fbe7d97c6894ccf210937f7a173c255602ef8bf0793c5f271c94d",
+      "judgment": "The blunt division of responsibility conveys his forceful manner and an unfinished rescue, without recasting him as a gentle moralist.",
+      "excerpt": false,
+      "sourceAuthor": "Aerrow"
+    },
+    {
+      "quoteId": "memorable-quote-48",
+      "article": "tobias",
+      "speaker": "Tobias Goodbarrel",
+      "groupId": "quotes-everyday",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1322366037886242819",
+      "date": "2024-12-28",
+      "textHash": "5386ddd8878bcffdd549d98e4dd9f2a43a2838813f19dd06a6c7dfcb955bac57",
+      "judgment": "Enthusiasm for tasting gives the cooperative’s practical work a convivial voice; the line earns its place through character and scene, not profundity.",
+      "excerpt": false,
+      "sourceAuthor": "Tobias Goodbarrel"
+    },
+    {
+      "quoteId": "memorable-quote-49",
+      "article": "camilla",
+      "speaker": "Camilla Blackwood",
+      "groupId": "quotes-power",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1378529735268892713",
+      "date": "2025-06-01",
+      "textHash": "dfaa9f255de8c9010064b52cf6daf3e894e42224c224c4bf210c66c729894c1a",
+      "judgment": "A short declaration exposes her instinct to organize through command and institutional authority.",
+      "excerpt": true,
+      "sourceAuthor": "Camilla"
+    },
+    {
+      "quoteId": "memorable-quote-50",
+      "article": "herb",
+      "speaker": "Herb Shepard",
+      "groupId": "quotes-everyday",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1233970180233887874",
+      "date": "2024-04-28",
+      "textHash": "f18b1b194266697f6e92dee501441befef477dfd7c636102d337bb870e2ccfe3",
+      "judgment": "His dry hospitality under danger sounds like a barkeeper joining a crisis, and supplies humor without a detached stock joke.",
+      "excerpt": false,
+      "sourceAuthor": "Herb"
+    },
+    {
+      "quoteId": "memorable-quote-51",
+      "article": "st-anky",
+      "speaker": "St. Anky",
+      "groupId": "quotes-care",
+      "source": "https://discord.com/channels/1177270231513694249/1477727978669736004/1487733229732630538",
+      "date": "2026-03-29",
+      "textHash": "71bf2e53192f0c6a28d013a5482d8d41dd72c7dc11b0678f251b8cd4498d5823",
+      "judgment": "His dialect and stubborn loyalty make the unfinished investigation personal; the line does not validate every theory in his report.",
+      "excerpt": true,
+      "sourceAuthor": "St. Anky"
+    },
+    {
+      "quoteId": "memorable-quote-52",
+      "article": "ryvyt",
+      "speaker": "Ryvyt",
+      "groupId": "quotes-choice",
+      "source": "https://discord.com/channels/1177270231513694249/1199083630354501673/1464337046880391208",
+      "date": "2026-01-23",
+      "textHash": "5a0bd0ad66b2288ed9312535094e0ffd5b373a1a58b247fa47497cd21274965b",
+      "judgment": "The terse contingency gives his companions permission to stop him if the risk turns against them, rather than claiming certainty or invulnerability.",
+      "excerpt": true,
+      "sourceAuthor": "Ryvyt"
+    }
+  ]
+}

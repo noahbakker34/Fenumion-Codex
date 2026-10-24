@@ -2,6 +2,14 @@
 
 Last updated: 2026-10-24
 
+## Severina animated portrait · 24 October 2026
+
+Owner identifies the supplied five-second clip as Severina. Lady Severina Blackveil’s existing public record gains only video/videoType/videoCaption through the established ambient portrait renderer; the video reuses the existing caption. Her original still remains the poster, directory/dialog artwork and reduced-motion/data-saving fallback. The filename introduces no story event, identity, source interpretation or chronology. All narrative bodies, source/evidence metadata, world/preview data, previous artwork, protected stubs and the complete private vault payload are unchanged.
+
+The 18,270,701-byte source becomes 4,571,313 bytes (75.0% smaller): silent 432×768 H.264/yuv420p, 125 frames at the original 24 fps and 5.208-second duration, CRF18/slow with fast-start metadata. Source SHA256: 91a5bbbd351f11b8185f2897b91bf09a565a711f50aeb2283543744146566a15; optimized SHA256: b490cb88231169626f7a5a5e357296f7035d920dd09c2fd34c2f764fc24dac30. Representative frames are inspected. SSIM at the 225×300 portrait display crop is 0.9950; this is a display comparison, not a lossless/full-resolution claim. The original supplied file is unchanged. Catalog269; runtime265 and styles unchanged. Build 9212f5d6e17d755a retains 591 records/2,168 sections/542 complete public bodies, identical lazy-body/search bytes and 247 existing browsing previews.
+
+Canonical/preview checks and focused local Chrome verification pass: real H.264 playback/duration/dimensions, one compact portrait, off-screen/navigation pause, mobile fit, original poster, static browsing and zero portrait-video requests in reduced-motion/save-data/browsing views. Desktop/mobile screenshots are inspected. No new dependency, workflow or duplicate test gate is added. Publication follows standing owner authorization through the existing cached Pages workflow; hosted/live receipt follows verification.
+
 ## Vain animated portrait · 24 October 2026
 
 Owner identifies the supplied five-second clip as Vain. It replaces the older active animation through the established ambient portrait renderer; the prior movie remains unchanged in the archive. A still extracted from the supplied clip supplies the record’s poster, profile artwork and quiet-mode fallback, with a generated static browsing preview for both Characters views. The record retains its prior caption, alt text, public classification, complete history, sources and evidence; the filename introduces no new lore. All other world data, previous media, protected stubs and the complete authenticated vault payload remain unchanged.

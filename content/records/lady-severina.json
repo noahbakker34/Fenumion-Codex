@@ -437,5 +437,8 @@
   },
   "profile": {
     "achievements": "A commander whose authority grows through peer trust, practical protection and decisions that must answer to evidence. Welcomes Fenwick while explicitly accepting his continuing Ale-Chemy Knights affiliation."
-  }
+  },
+  "video": "assets/characters/severina-portrait-animation.mp4",
+  "videoType": "video/mp4",
+  "videoCaption": "Lady Severina — commander and civic defender."
 }

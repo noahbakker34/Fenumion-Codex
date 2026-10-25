@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-24
+Last updated: 2026-10-25
+
+## Incremental source packet and Akarian portrait · 25 October 2026
+
+Owner supplies eight incremental exports plus their README, then identifies a new clip as Akarian Irenhour. The packet indexes 7,880 unique message IDs across 42 sources; selected scene prose, narrator outcomes and continuity are reviewed without claiming an exhaustive mechanics/attachment audit. Thirty-three sections extend 32 existing public records; the open question concerning Selwyn is narrowed and Tobias's later witnessed appearance updates his status while preserving the unexplained absence. Babel recovery and a new supply hunt, continuing Gael fieldwork, Prima civic/household life, Fein ward renewal and the Prima–Babel material exchange retain their separate evidence and consequence scopes. Earlier Dasa proposals remain subordinate to the later quest encounter. Player notes stay attributed. Generic/joke figures receive no biographies; OOC/social/personal material stays out. Eight public events receive explicit importance, regions and calendar metadata, including an Interregional supply transfer and a source-backed single-day spider outing. Existing timeline, map geometry and protected public stubs remain unchanged.
+
+Gedankin stays separate: eight existing records gain additions, three supported arrivals gain character records and one event records witnessed city entry. Shared names do not merge Aurora identities. Protected developments stay only in the authenticated payload and its private ledger, preserving all unrelated parsed values and media. No raw transcripts enter Git. Detailed scope, qualifications, hashes and destinations: SOURCE_UPDATES_2026_10_24.md and content/reference/source-update-2026-10-24.json.
+
+Akarian's supplied 3,533,411-byte movie becomes 1,904,036 bytes (46.1% smaller), retaining 624×624, 125 frames/24 fps and 5.208 seconds. His original still, caption, history and archived old movie remain; the missing directory artwork field now uses that still through a new lightweight preview. SSIM at the existing portrait crop is 0.994702; no lossless claim. Catalog272/Gedankin data22; runtime, CSS, authentication and publisher configuration unchanged. Build 6384c738479b4ebb retains 591 records/2,201 sections/542 complete public bodies, with 248 browse previews including the new Akarian preview. Static/preservation/calendar/browser checks pass, covering original sections/evidence, biographies, regional hubs, new routes, source/dating qualifications, mobile layouts, quiet/static fallbacks and actual playback. Screenshots are inspected. Publication follows standing authorization through one public release and the necessary private upload; hosted/live receipt follows verification.
 
 ## Five further character biographies · 24 October 2026
 

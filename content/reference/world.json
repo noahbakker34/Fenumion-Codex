@@ -13353,6 +13353,364 @@
           "https://discord.com/channels/1177270231513694249/1250338434275348532/1563221394471518220",
           "https://discord.com/channels/1177270231513694249/1250338434275348532/1563223876782133430"
         ]
+      },
+      {
+        "title": "The company cares for Scribonia after the mist",
+        "meta": "2026-10-19–2026-10-23 · source posts",
+        "sort": "2026-10-19-source-update-0",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "babel-survival",
+        "section": "babel-path-recovery",
+        "location": "Skylight Refuge",
+        "people": "Scribonia; Nymera; Olokun; Ryvyt; Wren; Arjahn",
+        "tags": [
+          "Source update",
+          "October"
+        ],
+        "summary": "Companions bring water and coffee while Scribonia rests. He later recognizes Ryvyt’s work and recovers strength; proposed mist protections and a divine assembly remain uncompleted.",
+        "importance": 1,
+        "importanceReason": "Records care and changing trust within the company, rather than a new regional victory.",
+        "regions": [
+          "babel-ashur"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates retained. A character’s report or proposal does not become an established outcome.",
+          "postingWindow": {
+            "start": "2026-10-19",
+            "end": "2026-10-23",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 960,
+            "end": 964,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1561877318325117011",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1561878141335642245",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1561897879935655937",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1563194865729146913"
+        ]
+      },
+      {
+        "title": "A metal search meets thorns and giant spiders",
+        "meta": "2026-10-23–2026-10-24 · source posts",
+        "sort": "2026-10-23-source-update-1",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "mark-of-the-wild",
+        "section": "wild-metal-and-prayer",
+        "location": "Babel-Ashur, beyond Skylight Refuge",
+        "people": "Nymera; Arjahn; Scribonia",
+        "tags": [
+          "Source update",
+          "October"
+        ],
+        "summary": "Arjahn treats Nymera’s poisoning; the three companions survive two huge spiders through protection, healing, dragon-form attacks and lightning. Returning is discussed, but no completed Teleport or metal haul is shown.",
+        "importance": 2,
+        "importanceReason": "An immediate supply journey and the party’s survival have local consequences; proposed divine measures are not completed world events.",
+        "regions": [
+          "babel-ashur"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates retained. A character’s report or proposal does not become an established outcome.",
+          "postingWindow": {
+            "start": "2026-10-23",
+            "end": "2026-10-24",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 964,
+            "end": 964,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-23",
+            "reason": "This is one continuous outing across the posting-date boundary, with no new day or intervening rest established.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1455580231250350266/1563343560953041007",
+              "https://discord.com/channels/1177270231513694249/1455580231250350266/1563357333877301342",
+              "https://discord.com/channels/1177270231513694249/1455580231250350266/1563365643779309740",
+              "https://discord.com/channels/1177270231513694249/1455580231250350266/1563368205886562325",
+              "https://discord.com/channels/1177270231513694249/1455580231250350266/1563368972165062789"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1563343560953041007",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1563357333877301342",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1563365643779309740",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1563368205886562325",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1563368972165062789"
+        ]
+      },
+      {
+        "title": "Tobias is seen again and arrives in Gael",
+        "meta": "2026-10-10–2026-10-15 · source posts",
+        "sort": "2026-10-10-source-update-2",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "tobias",
+        "section": "tobias-october-return",
+        "location": "Ryvyting Creations; Tower of Gael; the Plains",
+        "people": "Tobias Goodbarrel; Fenwick; Minerva; Ryvyt; Lady Severina",
+        "tags": [
+          "Source update",
+          "October"
+        ],
+        "summary": "Later scenes show Tobias active at the workshop, arriving with Fenwick and Minerva, and joining Ryvyt and Severina on a hunt. The causes of his earlier absence remain unknown.",
+        "importance": 1,
+        "importanceReason": "Resolves an individual’s later presence without assigning a new regional achievement or inventing the missing journey.",
+        "regions": [
+          "prima",
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates retained. A character’s report or proposal does not become an established outcome.",
+          "postingWindow": {
+            "start": "2026-10-10",
+            "end": "2026-10-15",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 951,
+            "end": 956,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1558584819628249209",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1560018892112535645",
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1560087142611292163",
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1560110107256164514"
+        ]
+      },
+      {
+        "title": "Eldin renews the castle’s wards",
+        "meta": "2026-10-14–2026-10-16 · source posts",
+        "sort": "2026-10-14-source-update-3",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "caislean-na-bron",
+        "section": "caislean-eldin-wards",
+        "location": "Caisleán na Brón, Fein Uaill",
+        "people": "Eldin Stormheart",
+        "tags": [
+          "Source update",
+          "October"
+        ],
+        "summary": "Eldin casts and renews perimeter and privacy protections. He hopes to make the ward permanent; the checked scenes establish renewal, not permanence.",
+        "importance": 2,
+        "importanceReason": "Protects an inhabited refuge through local continuing work.",
+        "regions": [
+          "fein-uaill"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates retained. A character’s report or proposal does not become an established outcome.",
+          "postingWindow": {
+            "start": "2026-10-14",
+            "end": "2026-10-16",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 955,
+            "end": 957,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1311776046554677291/1559971412406439947",
+          "https://discord.com/channels/1177270231513694249/1311776046554677291/1559971675985022977",
+          "https://discord.com/channels/1177270231513694249/1311776046554677291/1560309008445874229",
+          "https://discord.com/channels/1177270231513694249/1311776046554677291/1560715767824257236"
+        ]
+      },
+      {
+        "title": "Farkur and Elenia exchange supplies across the Gate",
+        "meta": "2026-10-15 · source posts",
+        "sort": "2026-10-15-source-update-4",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "ryvyting-creations",
+        "section": "ryvyting-october-logistics",
+        "location": "Ryvyting Creations; Babel supply route",
+        "people": "Farkur; Elenia",
+        "tags": [
+          "Source update",
+          "October"
+        ],
+        "summary": "Worked goods and a new load move through Elenia’s Gate. Farkur prioritizes stone and metal for the Babel safehouse; that safehouse and the Gael town are not thereby completed.",
+        "importance": 4,
+        "importanceReason": "A witnessed transfer links an established Prima supply point with the Babel front, without enlarging the event to a world-changing outcome.",
+        "regions": [
+          "prima",
+          "babel-ashur"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates retained. A character’s report or proposal does not become an established outcome.",
+          "postingWindow": {
+            "start": "2026-10-15",
+            "end": "2026-10-15",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 956,
+            "end": 956,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560147378458202197",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560148168027414620",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560149114946068481",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560159810543030313"
+        ]
+      },
+      {
+        "title": "Pristinia’s companions begin clearing the drains",
+        "meta": "2026-10-20–2026-10-22 · source posts",
+        "sort": "2026-10-20-source-update-5",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "pristinia",
+        "section": "pristinia-october-drains",
+        "location": "Pristinia square and public bathhouse",
+        "people": "Di’Trillio; Felicity; Vessalia; Clive L. Dragoon",
+        "tags": [
+          "Source update",
+          "October"
+        ],
+        "summary": "Physical work and cleaning magic clear refuse. Deeper drains and a school are discussed, while the day’s work ends with rest and a return home.",
+        "importance": 2,
+        "importanceReason": "Concrete civic maintenance affects the settlement; a proposed capacity increase is not counted as completed construction.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates retained. A character’s report or proposal does not become an established outcome.",
+          "postingWindow": {
+            "start": "2026-10-20",
+            "end": "2026-10-22",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 961,
+            "end": 963,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1511004671119200336/1562120517971087487",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1562473298707615877",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1562486272621019229",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1562486989851467799",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1562687332291715175"
+        ]
+      },
+      {
+        "title": "Gentle Repose leaves Selwyn’s branch unchanged",
+        "meta": "2026-10-22 · source posts",
+        "sort": "2026-10-22-source-update-6",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "tower-of-gael",
+        "section": "tower-selwyn-repose",
+        "location": "Tower of Gael",
+        "people": "Fenwick; Selwyn",
+        "tags": [
+          "Source update",
+          "October"
+        ],
+        "summary": "Fenwick casts Gentle Repose. The narrator confirms its effects and says the black branch does not move or change. No resurrection is established.",
+        "importance": 1,
+        "importanceReason": "Clarifies care of an individual body and narrows an unresolved recovery question.",
+        "regions": [
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates retained. A character’s report or proposal does not become an established outcome.",
+          "postingWindow": {
+            "start": "2026-10-22",
+            "end": "2026-10-22",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 963,
+            "end": 963,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1562935599747309619",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1562938854292455545"
+        ]
+      },
+      {
+        "title": "The vigil at Magnus’s house ends without a capture",
+        "meta": "2026-10-15–2026-10-18 · source posts",
+        "sort": "2026-10-15-source-update-7",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "magnus",
+        "section": "magnus-prima-investigation",
+        "location": "Pristinia, Prima",
+        "people": "Melian Starguard; Scribonia; Olokun; Magnus",
+        "tags": [
+          "Source update",
+          "October"
+        ],
+        "summary": "A warning leads to questioning and a limited memory search. The investigators wait for Magnus, who does not return during the recorded vigil; they leave for Babel.",
+        "importance": 2,
+        "importanceReason": "A local investigation establishes a missed capture and a limit to the investigators’ knowledge.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates retained. A character’s report or proposal does not become an established outcome.",
+          "postingWindow": {
+            "start": "2026-10-15",
+            "end": "2026-10-18",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 956,
+            "end": 959,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1560429284563230814",
+          "https://discord.com/channels/1177270231513694249/1272609321871736844/1560443299255554141",
+          "https://discord.com/channels/1177270231513694249/1272609321871736844/1560447162079256770",
+          "https://discord.com/channels/1177270231513694249/1272609321871736844/1561495625189564437",
+          "https://discord.com/channels/1177270231513694249/1455628231091945686/1561497433077194863"
+        ]
       }
     ],
     "characters": [
@@ -13774,7 +14132,8 @@
         "aliases": [
           "Akarian",
           "Akarian Irenhour"
-        ]
+        ],
+        "image": "assets/characters/akarian.png"
       },
       {
         "title": "Alesteir",
@@ -14056,7 +14415,7 @@
         "title": "Tobias Goodbarrel",
         "meta": "Ale-Chemy builder & newcomer guide",
         "article": "tobias",
-        "summary": "A halfling builder and main Ale-Chemy Knight who gives strangers safety, practical knowledge and the freedom to choose how they will belong.",
+        "summary": "A main Ale-Chemy Knight, builder and newcomer guide; seen again in the later Gael scenes, with the causes of his earlier absence unresolved.",
         "aliases": [
           "Tobias",
           "Goodbarrel"
@@ -43274,7 +43633,7 @@
       "title": "Player Perspectives",
       "source": "Discord #story-notes",
       "start": "2024-01-28",
-      "end": "2026-10-05",
+      "end": "2026-10-20",
       "entries": [
         {
           "id": "1201219078229082292",
@@ -47533,6 +47892,38 @@
             "Travel/Exploration"
           ],
           "excerpt": "Until one day he called her name… and she answered with claws. He came to the mountain afterward and destroyed every piece of Delirium he could find. The final words of his letter asked whoever discovered it n…",
+          "incomplete": false
+        },
+        {
+          "id": "1562225305882468443",
+          "url": "https://discord.com/channels/1177270231513694249/1201218376849162250/1562225305882468443",
+          "posted": "2026-10-20",
+          "author": "Fenwick",
+          "form": "Player-authored story note / testimony; no independent verification",
+          "regions": [
+            "Verdelune"
+          ],
+          "topics": [
+            "Travel/Exploration",
+            "Research"
+          ],
+          "excerpt": "Fenwick produces a missive on his current understanding (or lack thereof) of Verdelune.",
+          "incomplete": false
+        },
+        {
+          "id": "1562237331350749309",
+          "url": "https://discord.com/channels/1177270231513694249/1201218376849162250/1562237331350749309",
+          "posted": "2026-10-20",
+          "author": "Nymera",
+          "form": "Player-authored story note / testimony; no independent verification",
+          "regions": [
+            "Babel-Ashur"
+          ],
+          "topics": [
+            "Babel-Ashur",
+            "Mist protection · untested question"
+          ],
+          "excerpt": "but is there items made of metal that can help, need to ask Olokun",
           "incomplete": false
         }
       ]

@@ -23,7 +23,17 @@
     "Checked quest scenes · https://discord.com/channels/1177270231513694249/1199083630354501673/1522662058745659493",
     "Checked quest scenes · https://discord.com/channels/1177270231513694249/1199083630354501673/1558342097549926432",
     "Checked quest scenes · https://discord.com/channels/1177270231513694249/1199083630354501673/1558344009414615061",
-    "Portrait source · 2026-07-20 · https://discord.com/channels/1177270231513694249/1198721306250719293/1528850623704072232"
+    "Portrait source · 2026-07-20 · https://discord.com/channels/1177270231513694249/1198721306250719293/1528850623704072232",
+    "https://discord.com/channels/1177270231513694249/1511004671119200336/1561412848620404880",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1561454482162983085",
+    "https://discord.com/channels/1177270231513694249/1275208691842285631/1561796220907823216",
+    "https://discord.com/channels/1177270231513694249/1275208691842285631/1561797689136386191",
+    "https://discord.com/channels/1177270231513694249/1275208691842285631/1561799729090797641",
+    "https://discord.com/channels/1177270231513694249/1275208691842285631/1561800486330310807",
+    "https://discord.com/channels/1177270231513694249/1275208691842285631/1561801266617782403",
+    "https://discord.com/channels/1177270231513694249/1275208691842285631/1561802449331687536",
+    "https://discord.com/channels/1177270231513694249/1275208691842285631/1561813613130420377",
+    "https://discord.com/channels/1177270231513694249/1275208691842285631/1561814631691849854"
   ],
   "relatedRecords": [
     "common-man",
@@ -32,7 +42,7 @@
     "fenwick",
     "ryvyt"
   ],
-  "body": "<p>Saelihn uses her abilities in practical acts of care: easing the work of rebuilding the Common Man and leaving an old monument cleaner without stripping away the growth that belongs to it. </p><h2 id=\"saelihn-rebuilding\">Music and labor at the Common Man</h2><p>On 3 July 2026, Saelihn supplies music for the workers and uses telekinesis to help with the weight of the rebuilding materials. She encourages Herb and offers to help pursue those responsible. What she has heard about the attack is reported information; her visible contribution is to the reconstruction and the people doing the work.</p><h2 id=\"saelihn-viota\">Restraint at Viota’s monument</h2><p>In the October expedition with Ryvyt, Fenwick and Trougar, Saelihn intervenes when Trougar points his weapon toward a shadow child. She then cleans the monument’s surroundings with telekinesis, moving the vines without breaking them. The party’s wider discoveries remain in <a href=\"#viotas-monument\">Viota’s monument</a> and the <a href=\"#quest-continuation?section=continuation-viota\">quest history</a>; the scene does not resolve Viota’s complete identity.</p>",
+  "body": "<p>Saelihn uses her abilities in practical acts of care: easing the work of rebuilding the Common Man and leaving an old monument cleaner without stripping away the growth that belongs to it. </p><h2 id=\"saelihn-rebuilding\">Music and labor at the Common Man</h2><p>On 3 July 2026, Saelihn supplies music for the workers and uses telekinesis to help with the weight of the rebuilding materials. She encourages Herb and offers to help pursue those responsible. What she has heard about the attack is reported information; her visible contribution is to the reconstruction and the people doing the work.</p><h2 id=\"saelihn-viota\">Restraint at Viota’s monument</h2><p>In the October expedition with Ryvyt, Fenwick and Trougar, Saelihn intervenes when Trougar points his weapon toward a shadow child. She then cleans the monument’s surroundings with telekinesis, moving the vines without breaking them. The party’s wider discoveries remain in <a href=\"#viotas-monument\">Viota’s monument</a> and the <a href=\"#quest-continuation?section=continuation-viota\">quest history</a>; the scene does not resolve Viota’s complete identity.</p>\n<h2 id=\"saelihn-molt-and-community\">Asking someone to keep her safe</h2>\n<p>Coralyn brings Saelihn back to Gael after they meet at Pristinia’s bathhouse. At Crustacean Cove she delivers the sending stones Severina needs to stay in contact with Vessalia and Camilla. She argues that Prima also needs capable people, instead of assuming everyone should be brought to the farther islands.</p><p>Saelihn explains that she is approaching a molt and may look different afterward. She asks Severina to protect her cocoon and worries how friends will receive the change. Severina agrees to help. The scene establishes a request and promise, not a completed molt or a new form. Saelihn also considers learning material refinement, but has not yet demonstrated that trade.</p>\n",
   "sections": [
     {
       "id": "saelihn-rebuilding",
@@ -63,10 +73,37 @@
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1558344009414615061"
         ]
       }
+    },
+    {
+      "id": "saelihn-molt-and-community",
+      "title": "Asking someone to keep her safe",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes and attributed accounts",
+        "scope": "section",
+        "summary": "Selected original scene prose and narrator outcomes checked. Beliefs, recollections, proposals and incomplete results retain their qualifications; posting dates do not establish a new elapsed story day.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1511004671119200336/1561412848620404880",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1561454482162983085",
+          "https://discord.com/channels/1177270231513694249/1275208691842285631/1561796220907823216",
+          "https://discord.com/channels/1177270231513694249/1275208691842285631/1561797689136386191",
+          "https://discord.com/channels/1177270231513694249/1275208691842285631/1561799729090797641",
+          "https://discord.com/channels/1177270231513694249/1275208691842285631/1561800486330310807",
+          "https://discord.com/channels/1177270231513694249/1275208691842285631/1561801266617782403",
+          "https://discord.com/channels/1177270231513694249/1275208691842285631/1561802449331687536",
+          "https://discord.com/channels/1177270231513694249/1275208691842285631/1561813613130420377",
+          "https://discord.com/channels/1177270231513694249/1275208691842285631/1561814631691849854"
+        ]
+      }
     }
   ],
   "image": "assets/characters/discord/e7cf94b3c15dd02c73de77371e4302f820a40908149d1cefc7dcc55a0b34ccf3.png",
   "imageAlt": "Recorded depiction of Saelihn",
   "imageCaption": "Saelihn",
-  "imageLayout": "portrait-hero"
+  "imageLayout": "portrait-hero",
+  "sourceReview": {
+    "latestReview": "2026-10-24",
+    "scope": "Incremental source packet: selected new scenes and stated outcomes checked against existing quest history. This extends the record; it does not certify the complete biography or attachment contents."
+  }
 }

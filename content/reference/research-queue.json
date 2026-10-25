@@ -494,18 +494,20 @@
     "region": "Verdelune",
     "kind": "Bargain and recovery",
     "question": "What follows Minerva’s bargain and Selwyn’s release?",
-    "known": "The figures release Selwyn’s roots while leaving a branch, and Minerva chooses to accompany them under concealed conditions. She later reports herself safe with entry to Nerithra.",
-    "missing": "The actual ritual and its effects, Minerva’s eventual return, and Selwyn’s condition after retrieval.",
-    "nextSource": "The missing continuation, a witnessed return or direct examination; her reassurance alone cannot supply the ritual.",
+    "known": "The figures release Selwyn’s roots while leaving a branch, and Minerva chooses to accompany them under concealed conditions. She later reports herself safe with entry to Nerithra. Later at the Tower of Gael, Fenwick casts Gentle Repose; the narrator confirms its effects while leaving the black branch unchanged.",
+    "missing": "The actual ritual and its effects, Minerva’s eventual return, removal or explanation of the branch, and any restoration of Selwyn to life.",
+    "nextSource": "A witnessed return, examination of the branch or continuation of the concealed ritual; Gentle Repose does not establish resurrection.",
     "article": "minerva",
     "status": "open",
-    "reviewedOn": "2026-10-23",
+    "reviewedOn": "2026-10-24",
     "references": [
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342398921543691",
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342776589258903",
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343218035691602",
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343604649730060",
-      "https://discord.com/channels/1177270231513694249/1250338434275348532/1562671717040521390"
+      "https://discord.com/channels/1177270231513694249/1250338434275348532/1562671717040521390",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1562935599747309619",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1562938854292455545"
     ]
   }
 ]

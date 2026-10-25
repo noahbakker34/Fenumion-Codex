@@ -260,14 +260,22 @@ window.GedankinData = {
         "Appearance": "A stitched doll, about two feet tall",
         "Work": "Healing and surgical care"
       },
-      "body": "<h2>The doll on the Shore</h2><p>Vespere’s earliest scene presents a motionless doll on the sand, with cloth and stitched skin gathering grains as she begins to move. She asks a stranger to play and protests when threatened with being pushed. Her desire for company sits beside the unsettling precision of her movements.</p><h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p><h2>Guiding Manzur</h2><p>At the Shore, Vespere startles the newly arrived Manzur, offers to check his injuries and brings out her surgical tools. He insists he is unharmed and declines treatment. She puts the saw away, then guides him to the Oasis, where he thanks her. Her claim that Cala called the arrivals is her explanation; Cala’s own earlier denial of summoning the company remains in the record.</p><h2>From the sand to the shop</h2><p>Vaerik pulls Vespere free when quicksand rises around her. At the ruins she examines burned bodies and prepares protective magic for willing companions; all escape the collapsing crypt. On return she buys Salim’s Bag of Holding.</p><h2>News carried between companions</h2><p>Vespere explains the city’s houses and entry coin to Aurora Luminaria, and later tells Myllo that Heih died. These moments place her beside the newcomers and the absent as well as on expeditions.</p><h2>An automatic response</h2><p>At the Mirage Arfaj, Aurora Luminaria urges Vespere to change the way she speaks. When the doll tries saying “Blood,” her head turns and a recorded surgical response takes over; she struggles before dropping the knife. This visible reaction gives her avoidance of the word a concrete context. Aurora’s guesses about trauma remain her interpretations.</p><h2>Repairing a dress, hearing of a loss</h2><p>Xuan brings Vespere a damaged dress and insists on discreet repairs. Vespere stitches it while telling her that Heih died. Although she passes on the news, Vespere says she was not present at that fight. Xuan examines the finished dress, thanks her and wears it again.</p><h2>Registered to herself</h2><p>Xuan rejects Vespere’s belief that being a doll makes her an object that can simply be sold. When Chayma’s name is removed from her neck, Vespere demands a new owner and briefly reboots. Xuan writes “Vespere” in its place. The doll registers herself, points to herself and thanks Xuan with her cloth tears. Xuan offers etiquette practice alongside this small act of freedom.</p>",
+      "body": "<h2>The doll on the Shore</h2><p>Vespere’s earliest scene presents a motionless doll on the sand, with cloth and stitched skin gathering grains as she begins to move. She asks a stranger to play and protests when threatened with being pushed. Her desire for company sits beside the unsettling precision of her movements.</p><h2>Needles that mend</h2><p>On the road to Khars Madar, Vespere uses magical needles to help Chayma and the fallen Keagan during the stirge attack. Ordinary healing cannot restore Chayma’s sister.</p><h2>A foothold in the city</h2><p>Vespere explores the passages beneath the Tayyeb quarter and later reports the discovery with Xuan. Ibin Ali admits both into House Nazif.</p><h2>A voice in the arena</h2><p>Vespere cheers Vaerik during his battle against two enormous apes, helping turn the audience’s attention toward the stranger.</p><h2>Guiding Manzur</h2><p>At the Shore, Vespere startles the newly arrived Manzur, offers to check his injuries and brings out her surgical tools. He insists he is unharmed and declines treatment. She puts the saw away, then guides him to the Oasis, where he thanks her. Her claim that Cala called the arrivals is her explanation; Cala’s own earlier denial of summoning the company remains in the record.</p><h2>From the sand to the shop</h2><p>Vaerik pulls Vespere free when quicksand rises around her. At the ruins she examines burned bodies and prepares protective magic for willing companions; all escape the collapsing crypt. On return she buys Salim’s Bag of Holding.</p><h2>News carried between companions</h2><p>Vespere explains the city’s houses and entry coin to Aurora Luminaria, and later tells Myllo that Heih died. These moments place her beside the newcomers and the absent as well as on expeditions.</p><h2>An automatic response</h2><p>At the Mirage Arfaj, Aurora Luminaria urges Vespere to change the way she speaks. When the doll tries saying “Blood,” her head turns and a recorded surgical response takes over; she struggles before dropping the knife. This visible reaction gives her avoidance of the word a concrete context. Aurora’s guesses about trauma remain her interpretations.</p><h2>Repairing a dress, hearing of a loss</h2><p>Xuan brings Vespere a damaged dress and insists on discreet repairs. Vespere stitches it while telling her that Heih died. Although she passes on the news, Vespere says she was not present at that fight. Xuan examines the finished dress, thanks her and wears it again.</p><h2>Registered to herself</h2><p>Xuan rejects Vespere’s belief that being a doll makes her an object that can simply be sold. When Chayma’s name is removed from her neck, Vespere demands a new owner and briefly reboots. Xuan writes “Vespere” in its place. The doll registers herself, points to herself and thanks Xuan with her cloth tears. Xuan offers etiquette practice alongside this small act of freedom.</p><h2 id=\"vespere-dinars\">A game that leads to two dinars</h2><p>Vespere guides a company toward Khars Madar and holds a game, naming Espera the winner. Nnadunggisan then hands her money to obtain two dinars. She leaves, returns and gives one coin to each of them. Both enter the city; Leon and Myllo do not gain admission in this scene.</p><p>Her promise is fulfilled in this instance, despite the company’s doubts while waiting. It does not establish unlimited access for every companion. Later she teases Kage about hiding in the desert and goes off to hide herself. Kage’s concern that she may have shut down is not confirmation of a malfunction.</p>",
       "sources": [
         "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2026-06-01 (UTC posting dates; in-world dates unestablished).",
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2026-06-01–2026-07-09 (UTC posting dates; in-world dates unestablished).",
         "Vespere.md — 25 March 2026 — reviewed embedded arrival scene (UTC posting dates).",
-        "gedankin-the-mirage-arfaj.md — 2026-06-15–2026-06-26 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-mirage-arfaj.md — 2026-06-15–2026-06-26 (UTC posting dates; in-world dates unestablished).",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560006753674989588",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560007779861921843",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560009052287668256",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560013440037294130",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014311315869779",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014523799175218",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1563269188309753961",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1563275933782249483"
       ],
       "aliases": [
         "Vespere Hollowstich"
@@ -628,10 +636,16 @@ window.GedankinData = {
         "World": "Gedankin",
         "Introduced name": "Espera Token"
       },
-      "body": "<h2>Reaching the glacier</h2><p>Espera identifies a climbing route during the September expedition. When she slips, the others hold the rope and she regains her grip. The party helps the kobolds fighting for freedom.</p><h2>Returning with help</h2><p>Espera leads the next expedition back toward the mountain. That company discovers chained prisoners, defeats their escort and reaches Icyscale Roost with the freed kobolds.</p><h2>Espera Token</h2><p>At the Oasis she introduces herself to Mathew as Espera Token. She tells Leon of a pact and a persistent voice, saying she does not understand what her patron wants. The public conversation does not identify that patron or resolve its motives.</p><h2>Trust comes slowly</h2><p>Espera prefers reluctant acquaintances to Kaia’s talk of friendship and sisterhood. She questions what others want in exchange for help, while Kaia keeps offering companionship. Mathew answers her distrust with his own memories of being raised by a village.</p><h2>Memories with gaps</h2><p>She identifies herself with the drow and says she has no memories from before the age of two hundred. Her explanation of elven adulthood is her cultural account, not a universal rule for every people in Gedankin.</p>",
+      "body": "<h2>Reaching the glacier</h2><p>Espera identifies a climbing route during the September expedition. When she slips, the others hold the rope and she regains her grip. The party helps the kobolds fighting for freedom.</p><h2>Returning with help</h2><p>Espera leads the next expedition back toward the mountain. That company discovers chained prisoners, defeats their escort and reaches Icyscale Roost with the freed kobolds.</p><h2>Espera Token</h2><p>At the Oasis she introduces herself to Mathew as Espera Token. She tells Leon of a pact and a persistent voice, saying she does not understand what her patron wants. The public conversation does not identify that patron or resolve its motives.</p><h2>Trust comes slowly</h2><p>Espera prefers reluctant acquaintances to Kaia’s talk of friendship and sisterhood. She questions what others want in exchange for help, while Kaia keeps offering companionship. Mathew answers her distrust with his own memories of being raised by a village.</p><h2>Memories with gaps</h2><p>She identifies herself with the drow and says she has no memories from before the age of two hundred. Her explanation of elven adulthood is her cultural account, not a universal rule for every people in Gedankin.</p><h2 id=\"espera-city-entry\">Winning the game, then entering</h2><p>Espera’s distrust of divine explanations accompanies a practical desire to leave her tent. She wins Vespere’s game, waits uneasily while the doll goes for the promised coins, and accepts a dinar when she returns. Espera presents it and enters Khars Madar. The passage is completed; her patron’s intentions and later position in the city remain unresolved.</p>",
       "sources": [
         "2024-rp.md — 18–24 September 2026; dates refer to UTC posting dates, not established in-world dates.",
-        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished).",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1559984716642259028",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560006753674989588",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560009953752911915",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560013440037294130",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560013888223711283",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014311315869779"
       ],
       "aliases": [
         "Espera Token"
@@ -914,9 +928,15 @@ window.GedankinData = {
         "World": "Gedankin",
         "Recorded at": "The Shore and route to the Oasis"
       },
-      "body": "<h2>First impressions</h2><p>Nnadunggisan wakes at the waterless Shore and asks whether it is the afterlife. He introduces himself to Manzur with Gisan as a shorter name. He says he has moved from mines through several temples, without staying long in any of them.</p><h2>Questions before allegiance</h2><p>He asks about Cala, immortality and a proper town. Manzur declines to promise immortality or lead him to a city he has never visited. Gisan follows him to the Oasis instead, welcoming the prospect of new faces without old grudges.</p><h2>A possible contribution</h2><p>Hearing Manzur’s account of the Albayt’s replenishing rooms, Gisan suggests rotating groups through the fighting and healing. This is a suggestion, not an operation shown to have been carried out. At the Oasis he thanks Manzur and goes to find a drink.</p>",
+      "body": "<h2>First impressions</h2><p>Nnadunggisan wakes at the waterless Shore and asks whether it is the afterlife. He introduces himself to Manzur with Gisan as a shorter name. He says he has moved from mines through several temples, without staying long in any of them.</p><h2>Questions before allegiance</h2><p>He asks about Cala, immortality and a proper town. Manzur declines to promise immortality or lead him to a city he has never visited. Gisan follows him to the Oasis instead, welcoming the prospect of new faces without old grudges.</p><h2>A possible contribution</h2><p>Hearing Manzur’s account of the Albayt’s replenishing rooms, Gisan suggests rotating groups through the fighting and healing. This is a suggestion, not an operation shown to have been carried out. At the Oasis he thanks Manzur and goes to find a drink.</p><h2 id=\"gisan-city-entry\">Getting past the city’s price</h2><p>Gisan questions what the bare Oasis offers and asks Vespere about a town. After the journey and her game, he hands over money for dinars. The wait makes him doubtful, but she returns with his coin. He accepts it and enters Khars Madar after Espera. This is a witnessed entry, not proof of a House appointment or a solved livelihood.</p>",
       "sources": [
-        "gedankin-the-shore.md — 2026-09-22 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-shore.md — 2026-09-22 (UTC posting dates; in-world dates unestablished).",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1559997200577069118",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560007779861921843",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560009052287668256",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560013440037294130",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560013720959324163",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014523799175218"
       ],
       "aliases": [
         "Gisan"
@@ -1125,10 +1145,18 @@ window.GedankinData = {
         "World": "Gedankin",
         "Recorded at": "The Oasis"
       },
-      "body": "<h2>An introduction at the Oasis</h2><p>Leon introduces himself to Fayn as a businessman. Their conversation turns to hunting, friendship and Ossi’s difficulty reading.</p><h2>Learning on Ossi’s terms</h2><p>Leon presses the benefits of literacy. Ossi initially resists, saying he will ask when ready, and compares the pressure to his former Ringmaster. Leon denies that role. Ossi then chooses to try learning; Leon writes O-S-S-I and F-A-Y-N and begins explaining the letters.</p><h2>A beginning, not mastery</h2><p>Ossi leaves still confused, with Fayn following. The exchange starts a lesson but does not establish lasting tuition, completed literacy or authority over either traveller.</p><h2>Before the reading lesson</h2><p>Leon discusses pacts with Espera, saying his own has lasted seven or eight years. He offers sympathy while her patron’s motives remain unknown. Later he plays harp while Kaia rehearses a scythe dance. This is an accompaniment, not confirmed membership in her planned group.</p>",
+      "body": "<h2>An introduction at the Oasis</h2><p>Leon introduces himself to Fayn as a businessman. Their conversation turns to hunting, friendship and Ossi’s difficulty reading.</p><h2>Learning on Ossi’s terms</h2><p>Leon presses the benefits of literacy. Ossi initially resists, saying he will ask when ready, and compares the pressure to his former Ringmaster. Leon denies that role. Ossi then chooses to try learning; Leon writes O-S-S-I and F-A-Y-N and begins explaining the letters.</p><h2>A beginning, not mastery</h2><p>Ossi leaves still confused, with Fayn following. The exchange starts a lesson but does not establish lasting tuition, completed literacy or authority over either traveller.</p><h2>Before the reading lesson</h2><p>Leon discusses pacts with Espera, saying his own has lasted seven or eight years. He offers sympathy while her patron’s motives remain unknown. Later he plays harp while Kaia rehearses a scythe dance. This is an accompaniment, not confirmed membership in her planned group.</p><h2 id=\"leon-october-company\">Guiding without having every answer</h2><p>Outside Khars Madar, Leon shares water while Vespere seeks dinars for Espera and Nnadunggisan. Those two receive coins and enter; Leon remains outside. His knowledge of a route does not amount to admission or city membership.</p><p>Later he helps Candela orient herself and agrees to take her toward the Oasis. Her insistence that she did not come willingly corrects his assumption about her arrival. With Kage, he also follows Vespere’s tracks before they agree to turn back. Each encounter makes his familiarity useful without turning his explanations of the gods or desert into settled truth.</p>",
       "sources": [
         "gedankin-the-oasis.md — 2026-09-03 (UTC posting dates; in-world dates unestablished).",
-        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-08-25–2026-08-27 (UTC posting dates; in-world dates unestablished).",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560010647167565936",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560013440037294130",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014110295326794",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561432691390292213",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561433514552070337",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561441187779444889",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1563283550503964763",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1563304261868200008"
       ],
       "aliases": [
         "Leon"
@@ -1157,9 +1185,12 @@ window.GedankinData = {
         "Self-described kind": "Satarre",
         "Known as": "Myllo"
       },
-      "body": "<h2>A name in the common tongue</h2><p>Myllo introduces himself by that name to Victor and later Ryuske. He identifies his kind as Satarre, objecting when Vespere calls him a fish. His contempt for the camp sits alongside a persistent search for knowledge and a wish for comfort.</p><h2>The book and the warning</h2><p>He tells <a href=\"#heih\">Heih</a> that he obtained a book belonging to his Father and hopes to recover the means of travelling between stars. He calls that Father the Sightless and He Who Blinks And Makes No More, describing a devourer of worlds. These are Myllo’s claims; they do not establish the cause of arrivals, a confirmed threat approaching Gedankin or the true nature of its cosmos.</p><h2>An absent companion</h2><p>When Myllo asks after the monk he spoke with, Vespere tells him Heih died in the desert. He calls the loss a shame and remembers Heih’s wisdom. The conversation follows the caravan death already recorded in the quest chronicle.</p><h2>Learning to listen</h2><p>After a vortex deposits him at the Oasis, he argues with <a href=\"#ryuske-kaslana\">Ryuske</a> about souls, magic and inherited knowledge. Ryuske demonstrates a martial hymn, winning a reluctant compliment. They discuss exchanging instruction, but the scene establishes no completed apprenticeship or safe translation of Myllo’s book.</p><h2>A journey proposed</h2><p>In July he agrees to follow Victor toward Khars Madar. Later that month he says he has not reached the city and needs a guide. Their earlier departure is not treated as proof of a completed visit.</p>",
+      "body": "<h2>A name in the common tongue</h2><p>Myllo introduces himself by that name to Victor and later Ryuske. He identifies his kind as Satarre, objecting when Vespere calls him a fish. His contempt for the camp sits alongside a persistent search for knowledge and a wish for comfort.</p><h2>The book and the warning</h2><p>He tells <a href=\"#heih\">Heih</a> that he obtained a book belonging to his Father and hopes to recover the means of travelling between stars. He calls that Father the Sightless and He Who Blinks And Makes No More, describing a devourer of worlds. These are Myllo’s claims; they do not establish the cause of arrivals, a confirmed threat approaching Gedankin or the true nature of its cosmos.</p><h2>An absent companion</h2><p>When Myllo asks after the monk he spoke with, Vespere tells him Heih died in the desert. He calls the loss a shame and remembers Heih’s wisdom. The conversation follows the caravan death already recorded in the quest chronicle.</p><h2>Learning to listen</h2><p>After a vortex deposits him at the Oasis, he argues with <a href=\"#ryuske-kaslana\">Ryuske</a> about souls, magic and inherited knowledge. Ryuske demonstrates a martial hymn, winning a reluctant compliment. They discuss exchanging instruction, but the scene establishes no completed apprenticeship or safe translation of Myllo’s book.</p><h2>A journey proposed</h2><p>In July he agrees to follow Victor toward Khars Madar. Later that month he says he has not reached the city and needs a guide. Their earlier departure is not treated as proof of a completed visit.</p><h2 id=\"myllo-city-threshold\">A real city, still out of reach</h2><p>Myllo carries Vespere while the group goes toward Khars Madar. Seeing the city confirms that her story of it was not invented. He does not receive admission from the game and turns back toward his tent before the dinars are delivered to the other two. That disappointment does not undo the usefulness of what the journey let him see.</p>",
       "sources": [
-        "gedankin-the-oasis.md — 2026-06-04–2026-07-25 (UTC posting dates; in-world dates unestablished)."
+        "gedankin-the-oasis.md — 2026-06-04–2026-07-25 (UTC posting dates; in-world dates unestablished).",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1559983475723866143",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1559993617144348674",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560007302583427264"
       ]
     },
     {
@@ -1894,6 +1925,114 @@ window.GedankinData = {
       ],
       "body": "<h2>At a glance</h2><p>Valadin emerges from an Oasis hut after a sandstorm and calls back to let the company know he is present.</p><h2>Water and shelter</h2><p>During a later expedition he calls the others toward water and shelter near a cliffside. The practical needs of an exhausted company shape his actions; these scenes do not establish ownership of the refuge.</p>",
       "aliases": []
+    },
+    {
+      "id": "candela",
+      "title": "Candela",
+      "category": "People",
+      "type": "Flamekin arrival",
+      "dek": "An angry, bewildered arrival who wants an explanation before accepting a purpose.",
+      "summary": "An angry, bewildered arrival who wants an explanation before accepting a purpose.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Oasis",
+        "Candela"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Identity": "Flamekin",
+        "Arrival cause": "Unresolved; says she did not come willingly"
+      },
+      "body": "<h2>Waking on the sand</h2><p>Candela wakes at the Shore with flame for hair and no understanding of the place. She says she was in bed before finding herself on the sand. Leon Zantharis offers water and an account of why people are here, but she rejects his assumption that she arrived willingly.</p><h2>Fire, before answers</h2><p>The water boils in her hands. She identifies herself as a fighter, demonstrates a flaming fist and takes some pleasure in what she can still do. Her display establishes visible fire, rather than the cause of her arrival or a divine command she has accepted.</p><h2>Turning inland</h2><p>She asks Leon to lead her to the Oasis in hope of learning more from others. They walk together; the scene does not show her reaching the city or receiving a final explanation.</p>",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561422086184902726",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561428564937547821",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561432691390292213",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561433514552070337",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561440963304628265",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561445684245176532",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561447671879835731",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561448781394747408"
+      ],
+      "relatedRecords": [
+        "leon-zantharis",
+        "strange-shore",
+        "oasis"
+      ]
+    },
+    {
+      "id": "kage",
+      "title": "Kage",
+      "category": "People",
+      "type": "Shadow monk; newcomer and guide",
+      "dek": "A newly arrived monk who soon takes responsibility for helping the next person on the Shore.",
+      "summary": "A newly arrived monk who soon takes responsibility for helping the next person on the Shore.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Oasis",
+        "Kage"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Stated identity": "Wood elf; trained in an order of shadow monks",
+        "Recorded work": "Newcomer care and an attempted check on Vespere"
+      },
+      "body": "<h2>A discipline still being lived</h2><p>Kage accepts a guide’s offer to reach the Oasis. She describes a hidden order of shadow monks and a discipline of watching, listening and acting against people who prey on the weak. Her stated ideals are not a record of every earlier deed, and the arrival scene leaves the crossing unexplained.</p><h2>Helping Evelyn</h2><p>Soon afterward, Kage offers Evelyn Heart water, a wrap, rest and an escort. Evelyn describes feeding on satisfaction when desires are fulfilled. Kage tries to offer care without turning that hunger into a debt or ownership. Their explanations sometimes differ; the conversation does not settle the full nature of Evelyn’s dependence.</p><h2>The last stretch</h2><p>As Evelyn weakens, Kage slows the journey and offers to carry her. The closing scene shows her gathering Evelyn up near the settlement. It does not establish a completed cure or a later life in the city.</p><h2>Checking on the doll</h2><p>After Vespere goes to hide in the sand, Kage worries that Leon’s word “deactivated” means she may need help. The pair begin following her tracks, then turn back after Leon reassures Kage that Vespere knows the desert. Neither a rescue nor a confirmed danger to the doll is shown. Kage’s concern records how she chooses to treat a new acquaintance, not evidence that Vespere cannot care for herself.</p>",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562181365783465997",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562181916344455353",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562191308980883538",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562571879347261552",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562577476058742785",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562608234697859224",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562620576454017096",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1563275933782249483",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1563283550503964763",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1563304499727044691"
+      ],
+      "relatedRecords": [
+        "evelyn-heart",
+        "leon-zantharis",
+        "vespere",
+        "strange-shore",
+        "oasis"
+      ]
+    },
+    {
+      "id": "evelyn-heart",
+      "title": "Evelyn Heart",
+      "category": "People",
+      "type": "Arrival; an account of feeding on desire",
+      "dek": "A weakened arrival whose account of desire and dependence tests what another person can offer freely.",
+      "summary": "A weakened arrival whose account of desire and dependence tests what another person can offer freely.",
+      "tags": [
+        "Gedankin",
+        "The Shore",
+        "The Oasis",
+        "Evelyn Heart"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Arrival cause": "Unresolved",
+        "Feeding": "Described by Evelyn as satisfaction from fulfilled desires"
+      },
+      "body": "<h2>A memory of pursuit</h2><p>Evelyn recalls a man in blue armor hunting beings like her. She describes serving a host’s desires and feeding on the happiness their fulfillment brings. Her recollection does not identify the pursuer or prove the cause of her arrival.</p><h2>Water without a bargain</h2><p>Kage gives her water and a wrap. Evelyn says the satisfaction of accepting that help feeds her, while Kage insists that care need not carry a debt. Evelyn’s visible flames brighten slightly during the exchange, but their conversation does not establish that every act of kindness can sustain her indefinitely.</p><h2>Needing an escort</h2><p>Evelyn grows weak as they head toward the settlement. Kage offers rest, support and finally carrying. The closing scene leaves her dependent on help; it does not show permanent recovery or freedom from every demand she describes.</p>",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562570421600264206",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562574426241896590",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562577476058742785",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562577930817773579",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562612597130264658",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562614878508687414",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562620576454017096"
+      ],
+      "relatedRecords": [
+        "kage",
+        "strange-shore",
+        "oasis"
+      ]
     }
   ],
   "locations": [
@@ -1916,11 +2055,17 @@ window.GedankinData = {
         "Beyond the sand": "Waterless void",
         "Inland refuge": "The Oasis"
       },
-      "body": "<h2>The place of arrival</h2><p>The first company awakens beside bleach-white dunes, with a kaleidoscopic void below and stars overhead. Their previous journeys do not explain how they arrived.</p><h2>A fragile foothold</h2><p>Shrubs and rapidly growing palms provide some food, but the vegetation eventually withers. This is an observed resource limit, not an inexhaustible paradise.</p><h2>The waterless edge</h2><p>The sand ends abruptly where a sea would normally begin. Beyond it are empty space and the colours of nebulae; scrub and rolling dunes lie inland. The accounts often describe a pillar of light at an arrival. Guides use it to notice newcomers, but its appearance does not identify who brought them here or explain the means of crossing.</p><h2>The first people you meet</h2><p><a href=\"#kara-vash\">Kara</a> leads Sixtus and Rhalor toward camp. <a href=\"#atrax\">Atrax</a> greets the early Aurora, Bramble, Ossi and Vaerik. <a href=\"#shinjuro\">Shinjurō</a> checks for people before thirst can claim them. <a href=\"#vespere\">Vespere</a> guides Manzur; later <a href=\"#manzur\">Manzur</a> welcomes Gisan in turn. Their knowledge differs, and not every explanation they offer is certain.</p><h2>Finding the Oasis</h2><p>Arrival does not place a traveller inside the refuge. Reaching <a href=\"#oasis\">the Oasis</a> means crossing the dunes. Atrax places palm-trunk markers, while warning that wind and storms can shift the sand. The Oasis sometimes seems to shimmer into view only at the final rise. Atrax later credits Irenhour with helping place the markers. The route requires maintenance; a reliable travel time and a permanent, storm-proof path are not established.</p><h2>Each welcome is a choice</h2><p>For one person the crossing means exile; for Ossi it offers hope of freedom. Some ask whether they have died, while others look for a task. These are responses to the Shore, not proof that every arrival shares one origin, purpose or fate.</p><p><a href=\"#world-map\">Find the Shore on Gedankin’s map →</a></p><h2 id=\"shore-rescue-frontier\">An arrival point becomes a rescue frontier</h2><p>The recurring welcomes change what the Shore means. Experienced survivors return to look for people, compare what the newcomers know and guide them toward water. Arrival lights can help someone notice a stranger without revealing the cause of arrival or guaranteeing that a guide will reach everyone in time.</p>",
+      "body": "<h2>The place of arrival</h2><p>The first company awakens beside bleach-white dunes, with a kaleidoscopic void below and stars overhead. Their previous journeys do not explain how they arrived.</p><h2>A fragile foothold</h2><p>Shrubs and rapidly growing palms provide some food, but the vegetation eventually withers. This is an observed resource limit, not an inexhaustible paradise.</p><h2>The waterless edge</h2><p>The sand ends abruptly where a sea would normally begin. Beyond it are empty space and the colours of nebulae; scrub and rolling dunes lie inland. The accounts often describe a pillar of light at an arrival. Guides use it to notice newcomers, but its appearance does not identify who brought them here or explain the means of crossing.</p><h2>The first people you meet</h2><p><a href=\"#kara-vash\">Kara</a> leads Sixtus and Rhalor toward camp. <a href=\"#atrax\">Atrax</a> greets the early Aurora, Bramble, Ossi and Vaerik. <a href=\"#shinjuro\">Shinjurō</a> checks for people before thirst can claim them. <a href=\"#vespere\">Vespere</a> guides Manzur; later <a href=\"#manzur\">Manzur</a> welcomes Gisan in turn. Their knowledge differs, and not every explanation they offer is certain.</p><h2>Finding the Oasis</h2><p>Arrival does not place a traveller inside the refuge. Reaching <a href=\"#oasis\">the Oasis</a> means crossing the dunes. Atrax places palm-trunk markers, while warning that wind and storms can shift the sand. The Oasis sometimes seems to shimmer into view only at the final rise. Atrax later credits Irenhour with helping place the markers. The route requires maintenance; a reliable travel time and a permanent, storm-proof path are not established.</p><h2>Each welcome is a choice</h2><p>For one person the crossing means exile; for Ossi it offers hope of freedom. Some ask whether they have died, while others look for a task. These are responses to the Shore, not proof that every arrival shares one origin, purpose or fate.</p><p><a href=\"#world-map\">Find the Shore on Gedankin’s map →</a></p><h2 id=\"shore-rescue-frontier\">An arrival point becomes a rescue frontier</h2><p>The recurring welcomes change what the Shore means. Experienced survivors return to look for people, compare what the newcomers know and guide them toward water. Arrival lights can help someone notice a stranger without revealing the cause of arrival or guaranteeing that a guide will reach everyone in time.</p><h2 id=\"shore-new-guides\">New arrivals become guides</h2><p>Candela wakes confused, refuses Leon’s assumption that she came willingly, and asks to be led inland. Kage also accepts help reaching the Oasis, then offers water, cover and an escort to Evelyn. These scenes record different arrivals and acts of care. They do not establish one explanation for why everyone was brought here.</p>",
       "sources": [
         "2024-rp.md — 28 September 2024; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2024-09-25–2026-09-22 (UTC posting dates; in-world dates unestablished).",
-        "Gedankin_Expanded_Location_Dossier.md · supplied regional synthesis; quest outcomes and primary observations take precedence"
+        "Gedankin_Expanded_Location_Dossier.md · supplied regional synthesis; quest outcomes and primary observations take precedence",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561422086184902726",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561433514552070337",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561441187779444889",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562181916344455353",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562571879347261552",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562620576454017096"
       ],
       "aliases": [
         "The Strange Shore"
@@ -1949,14 +2094,21 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>Shelter in the desert</h2><p>Cala reveals an elliptical oasis between two dunes, with palms, reeds and lean-tos. She calls it her creation and offers it as a place to meet the company’s physical needs.</p><h2>A gathering place</h2><p>The Oasis receives travellers, wounded visitors and pleas for help. Zrurg reaches it seeking aid for the Blue Scales. Later expeditions depart for the city and mountains; by September the settlement includes unfinished palm-log construction.</p><h2>Building a welcome</h2><p>Arrivals from the Shore repeatedly find temporary lean-tos and a half-built longhouse. Atrax patrols the perimeter, guides newcomers and describes improving the shelter one small task at a time. Bramble’s offered flower and Manzur’s later welcome of Gisan show a camp sustained by ordinary acts as well as expeditions.</p><h2>A grove promised</h2><p>Ashbriar fears that cutting palms will undermine the refuge; Aurora Luminaria promises to help restore trees. His account of the damage and her promised remedy are preserved as warning and intention, without inventing a completed planting or a final fate for the water.</p><h2>The beginnings of a home</h2><p>The early camp has music, shared fruit and olive branches offered in peace. Eudora plays while Sombra feeds companions and Rhalor tries to make peace with their circumstances. On 6–7 October 2024, in the posting record, Irenhour and Atrax begin preparing a common longhouse, intending to preserve denser palms for shade. This records the beginning of construction, not a completed building.</p><h2>A place for survivors</h2><p><a href=\"#khemset\">Khemset</a> returns wounded from the Albayt with Atrax and Irenhour. Sombra offers food and the early Aurora offers care. Khemset’s account of lost companions and a lantern left inside precedes the later recovery of Luxcit.</p><h2>Trade and small kindnesses</h2><p><a href=\"#salim-jalusiwa\">Salim</a> brings wares and shares tea; requested goats remain a hoped-for delivery. Bramble cools the struggling treants. Later, <a href=\"#leon-zantharis\">Leon</a> begins a reading lesson after Ossi chooses to try, while <a href=\"#fayn\">Fayn</a> offers friendship. The refuge is built through these ordinary encounters as well as expeditions.</p><h2>The expedition that came back</h2><p>Salim sends a company to investigate a ruined house beyond the Shore. They survive quicksand and a collapsing crypt, then return to rewards and trade. The trip opens a new chapter for the camp without removing all dangers at the site.</p><h2>Arguments around the water</h2><p>Myllo warns of a cosmic Father, Victor names his duty as a crypt guard, and Manzur disputes Aurora’s approach to sealed tombs. The refuge holds competing beliefs; their conversations do not make one person’s explanation the law of this world.</p><h2>Practice, partnership and shelter</h2><p>Ryuske demonstrates a martial hymn. Manzur and Victor spar, heal and part amicably. Kaia’s proposed Huntrix and Mathew’s hoped-for Wildlife Watch begin with conversation and a handshake, while Espera remains wary. Vaerik lends Ossi his hut, and Ryuske welcomes Ren. Building a community remains ongoing work.</p><h2 id=\"oasis-growing-settlement\">Settlement creates another responsibility</h2><p>Water, shared routes and returning expeditions let the camp become a place people recognise as home. Building shelter and planning crops introduce new obligations to the palms, shade and limited resources that sustain it. Promised restoration and proposed cultivation remain plans where the scene does not show their completion.</p><p>The Oasis is a modest refuge, not a city scaled like Khars Madar. Its informal welcomes and the city’s controlled entry are different recorded ways of organising survival; neither removes all risk or settles every resident’s choices.</p>",
+      "body": "<h2>Shelter in the desert</h2><p>Cala reveals an elliptical oasis between two dunes, with palms, reeds and lean-tos. She calls it her creation and offers it as a place to meet the company’s physical needs.</p><h2>A gathering place</h2><p>The Oasis receives travellers, wounded visitors and pleas for help. Zrurg reaches it seeking aid for the Blue Scales. Later expeditions depart for the city and mountains; by September the settlement includes unfinished palm-log construction.</p><h2>Building a welcome</h2><p>Arrivals from the Shore repeatedly find temporary lean-tos and a half-built longhouse. Atrax patrols the perimeter, guides newcomers and describes improving the shelter one small task at a time. Bramble’s offered flower and Manzur’s later welcome of Gisan show a camp sustained by ordinary acts as well as expeditions.</p><h2>A grove promised</h2><p>Ashbriar fears that cutting palms will undermine the refuge; Aurora Luminaria promises to help restore trees. His account of the damage and her promised remedy are preserved as warning and intention, without inventing a completed planting or a final fate for the water.</p><h2>The beginnings of a home</h2><p>The early camp has music, shared fruit and olive branches offered in peace. Eudora plays while Sombra feeds companions and Rhalor tries to make peace with their circumstances. On 6–7 October 2024, in the posting record, Irenhour and Atrax begin preparing a common longhouse, intending to preserve denser palms for shade. This records the beginning of construction, not a completed building.</p><h2>A place for survivors</h2><p><a href=\"#khemset\">Khemset</a> returns wounded from the Albayt with Atrax and Irenhour. Sombra offers food and the early Aurora offers care. Khemset’s account of lost companions and a lantern left inside precedes the later recovery of Luxcit.</p><h2>Trade and small kindnesses</h2><p><a href=\"#salim-jalusiwa\">Salim</a> brings wares and shares tea; requested goats remain a hoped-for delivery. Bramble cools the struggling treants. Later, <a href=\"#leon-zantharis\">Leon</a> begins a reading lesson after Ossi chooses to try, while <a href=\"#fayn\">Fayn</a> offers friendship. The refuge is built through these ordinary encounters as well as expeditions.</p><h2>The expedition that came back</h2><p>Salim sends a company to investigate a ruined house beyond the Shore. They survive quicksand and a collapsing crypt, then return to rewards and trade. The trip opens a new chapter for the camp without removing all dangers at the site.</p><h2>Arguments around the water</h2><p>Myllo warns of a cosmic Father, Victor names his duty as a crypt guard, and Manzur disputes Aurora’s approach to sealed tombs. The refuge holds competing beliefs; their conversations do not make one person’s explanation the law of this world.</p><h2>Practice, partnership and shelter</h2><p>Ryuske demonstrates a martial hymn. Manzur and Victor spar, heal and part amicably. Kaia’s proposed Huntrix and Mathew’s hoped-for Wildlife Watch begin with conversation and a handshake, while Espera remains wary. Vaerik lends Ossi his hut, and Ryuske welcomes Ren. Building a community remains ongoing work.</p><h2 id=\"oasis-growing-settlement\">Settlement creates another responsibility</h2><p>Water, shared routes and returning expeditions let the camp become a place people recognise as home. Building shelter and planning crops introduce new obligations to the palms, shade and limited resources that sustain it. Promised restoration and proposed cultivation remain plans where the scene does not show their completion.</p><p>The Oasis is a modest refuge, not a city scaled like Khars Madar. Its informal welcomes and the city’s controlled entry are different recorded ways of organising survival; neither removes all risk or settles every resident’s choices.</p><h2 id=\"oasis-october-departures\">Leaving, returning and welcoming someone else</h2><p>A company leaves with Vespere to seek Khars Madar. The journey ends differently for each: Espera and Nnadunggisan receive dinars and enter, while Myllo turns back and Leon remains outside. Later Leon helps orient new arrivals, and Kage begins taking a turn at the same work. The Oasis supports people whose routes do not all lead to the same destination.</p>",
       "sources": [
         "2024-rp.md — 4 October 2024–18 September 2026; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-shore.md — 2024-10-07–2026-09-22 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2024-10-05–2026-09-03 (UTC posting dates; in-world dates unestablished).",
         "2024-rp.md — 2026-05-28 (UTC posting dates; in-world dates unestablished).",
         "gedankin-the-oasis.md — 2026-06-01–2026-09-21 (UTC posting dates; in-world dates unestablished).",
-        "Gedankin_Expanded_Location_Dossier.md · supplied regional synthesis; quest outcomes and primary observations take precedence"
+        "Gedankin_Expanded_Location_Dossier.md · supplied regional synthesis; quest outcomes and primary observations take precedence",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560013440037294130",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014311315869779",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014523799175218",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560007302583427264",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014110295326794",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1561441187779444889",
+        "https://discord.com/channels/1177270231513694249/1288355301569069088/1562579732485374114"
       ],
       "relatedRecords": [
         "shore-oasis-marker-trail",
@@ -2009,11 +2161,15 @@ window.GedankinData = {
       "facts": {
         "World": "Gedankin"
       },
-      "body": "<h2>The quarters</h2><p>House Tayyeb, House Adijit and House Nazif occupy three sides of the ziggurat. The fourth is the Free Quarter, with livestock, merchants, taverns and hostels. These descriptions come from visits and Chayma’s explanations.</p><h2>The price of entry</h2><p>Entry requires a dinar. The coins bear animal emblems associated with the houses: scorpion, rattlesnake and hyena. House affiliation can affect access; newcomers do not automatically belong to any house.</p><h2>Lives beneath the politics</h2><p>The city offers trade, work and shelter, but also ambush, coercion and violent arena entertainment. Chayma’s recovering hostel and the disputes surrounding Vaerik’s victory show how those pressures touch ordinary residents.</p><h2>Coins earned beyond the walls</h2><p>After the ruins expedition, Salim awards dinars to Vaerik and Sombra. Sombra describes them as a means of entering the city without the escort they previously had. This gives their search for trade and equipment a connection to the dangers outside the city.</p><h2 id=\"khars-knowledge-network\">A city inside a larger network</h2><p>Khars Madar changes the newcomers’ sense of scale. Chayma’s tour joins jurisdiction, entry, water distribution and caravan traffic to streets they can actually walk. The city is a regional node rather than evidence that the first arrivals have now found every society in Gedankin.</p><p>Dinar access and House affiliation are different from simply possessing outside wealth. Multi-day travel estimates depend on a journey’s starting point and conditions; they are not a fixed distance from every camp.</p>",
+      "body": "<h2>The quarters</h2><p>House Tayyeb, House Adijit and House Nazif occupy three sides of the ziggurat. The fourth is the Free Quarter, with livestock, merchants, taverns and hostels. These descriptions come from visits and Chayma’s explanations.</p><h2>The price of entry</h2><p>Entry requires a dinar. The coins bear animal emblems associated with the houses: scorpion, rattlesnake and hyena. House affiliation can affect access; newcomers do not automatically belong to any house.</p><h2>Lives beneath the politics</h2><p>The city offers trade, work and shelter, but also ambush, coercion and violent arena entertainment. Chayma’s recovering hostel and the disputes surrounding Vaerik’s victory show how those pressures touch ordinary residents.</p><h2>Coins earned beyond the walls</h2><p>After the ruins expedition, Salim awards dinars to Vaerik and Sombra. Sombra describes them as a means of entering the city without the escort they previously had. This gives their search for trade and equipment a connection to the dangers outside the city.</p><h2 id=\"khars-knowledge-network\">A city inside a larger network</h2><p>Khars Madar changes the newcomers’ sense of scale. Chayma’s tour joins jurisdiction, entry, water distribution and caravan traffic to streets they can actually walk. The city is a regional node rather than evidence that the first arrivals have now found every society in Gedankin.</p><p>Dinar access and House affiliation are different from simply possessing outside wealth. Multi-day travel estimates depend on a journey’s starting point and conditions; they are not a fixed distance from every camp.</p><h2 id=\"khars-october-entry\">Two newcomers pass the threshold</h2><p>Vespere’s later trip from the Oasis brings Espera and Nnadunggisan to the gates with dinars. Their entry is shown. Other companions remain outside or return to camp, preserving the distinction between finding the city and being admitted to it.</p>",
       "sources": [
         "2024-rp.md — 16 April–16 July 2026; dates refer to UTC posting dates, not established in-world dates.",
         "gedankin-the-oasis.md — 2026-06-01 (UTC posting dates; in-world dates unestablished).",
-        "Gedankin_Expanded_Location_Dossier.md · supplied regional synthesis; quest outcomes and primary observations take precedence"
+        "Gedankin_Expanded_Location_Dossier.md · supplied regional synthesis; quest outcomes and primary observations take precedence",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560013440037294130",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014311315869779",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014523799175218",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014110295326794"
       ],
       "image": "assets/khars-madar.png",
       "imageLayout": "landscape-hero",
@@ -4403,6 +4559,49 @@ window.GedankinData = {
       "meta": "2026-06-25–2026-06-26",
       "sources": [
         "gedankin-the-mirage-arfaj.md — 2026-06-25–2026-06-26 (UTC posting dates; in-world dates unestablished)."
+      ]
+    },
+    {
+      "id": "vespere-two-dinars",
+      "title": "Two Dinars Open the City",
+      "type": "Chronicle event",
+      "summary": "Vespere returns with the promised coins; Espera and Nnadunggisan enter Khars Madar.",
+      "dek": "Finding the city and entering it have different costs.",
+      "tags": [
+        "Gedankin",
+        "Khars Madar",
+        "Vespere"
+      ],
+      "facts": {
+        "World": "Gedankin",
+        "Posting date (UTC)": "2026-10-14",
+        "Chronology": "Posting date; in-world date unestablished"
+      },
+      "body": "<h2>The promise is kept</h2><p>After a game and a wait outside the city, Vespere delivers two dinars. Espera and Nnadunggisan accept them and enter. Leon remains outside; Myllo has turned back. No House membership or later livelihood is established by this admission.</p>",
+      "people": [
+        "Vespere",
+        "Espera",
+        "Nnadunggisan",
+        "Leon Zantharis",
+        "Myllo"
+      ],
+      "relatedRecords": [
+        "vespere",
+        "espera",
+        "nnadunggisan",
+        "leon-zantharis",
+        "myllo",
+        "khars-madar",
+        "oasis"
+      ],
+      "location": "Khars Madar",
+      "sort": "2026-10-14",
+      "meta": "2026-10-14",
+      "sources": [
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560013440037294130",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014311315869779",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014523799175218",
+        "https://discord.com/channels/1177270231513694249/1291652797628153868/1560014110295326794"
       ]
     }
   ],

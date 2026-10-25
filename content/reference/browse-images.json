@@ -153,6 +153,13 @@
       "sourceSha256": "3df4eb5d3e6bc8789b8a8c8339631b42dac9efdfedc74b7eb693217a2317f4fc",
       "sha256": "eb2c002ce45245c2200437b2eaeae7c90daa07e791b6125bfa8e0dea5a9a6703"
     },
+    "assets/characters/akarian.png": {
+      "src": "assets/browse/7739251ae61b187b818b.webp",
+      "width": 512,
+      "height": 287,
+      "sourceSha256": "a978ce3d2d99f4bc3726cc690c9c374bb5de944ad33119d9acd499dfc6c4c7ff",
+      "sha256": "7739251ae61b187b818bab3b9749177b6da40531d7ad2c230777993e6e2c1485"
+    },
     "assets/characters/alessio.png": {
       "src": "assets/browse/67099332f63ca071f3eb.webp",
       "width": 512,

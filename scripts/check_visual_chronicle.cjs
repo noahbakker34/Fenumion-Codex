@@ -62,12 +62,12 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   for(const width of [1440,1280,1100,1024,900,768,600,390,320]){await page.setViewportSize({width,height:1000});await fits();await dockFits();}
   await page.setViewportSize({width:1440,height:1000});
   await go('living-timeline?importance=4&match=exact');
-  assert.equal(await page.locator('.event-card').count(),27);assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),27);
+  assert.equal(await page.locator('.event-card').count(),expected.importance[4]);assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),expected.importance[4]);
   assert((await page.locator('.event-card .event-importance').first().innerText()).includes('Interregional'));
   await page.locator('.event-card').first().scrollIntoViewIfNeeded();await page.screenshot({path:output+'/interregional-desktop.png'});
   await go('living-timeline?importance=5');
-  assert.equal(await page.locator('.event-card').count(),7);
-  assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),7);
+  assert.equal(await page.locator('.event-card').count(),expected.importance[5]);
+  assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),expected.importance[5]);
   assert.equal(await page.locator('.workspace-context').count(),1);
   assert.equal(await page.locator('.workspace-context').getAttribute('open'),null);
   assert(await page.locator('.event-card').first().evaluate(el=>!getComputedStyle(el.querySelector('.event-summary')).fontFamily.includes('Vespasian')),'event prose uses reading font');
@@ -178,6 +178,6 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   }
   const privacy=await page.evaluate(()=>({bodies:articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id),stubs:archiveIndex.timeline.filter(e=>e.veiled&&(e.importance||e.regions||e.dating)).length}));
   assert.deepEqual(privacy,{bodies:[],stubs:0});assert.deepEqual(errors,[]);
-  console.log('PASS illustrated homepage/event links; 27 Interregional and seven World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; continuous Bowene biography, legacy destinations and source appendix; portraits/roles/public relationships/dialog; readable atlas/directory facts at nine widths and in Gedankin; labeled controls and non-overlapping locked/unlocked headers at 18 widths; 390/320 layouts; signed-out boundaries');
+  console.log('PASS illustrated homepage/event links; all Interregional and World Changing cards; year/month keyboard controls and unchanged routes/counts/source dates; six sourced regional identities; continuous Bowene biography, legacy destinations and source appendix; portraits/roles/public relationships/dialog; readable atlas/directory facts at nine widths and in Gedankin; labeled controls and non-overlapping locked/unlocked headers at 18 widths; 390/320 layouts; signed-out boundaries');
  } finally {await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

@@ -10,7 +10,8 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
   const go=async route=>{await page.goto(base+'#'+route);await page.waitForFunction(route=>byId.get(route.split('?')[0])?.bodyLoaded&&document.querySelector('#article-content').dataset.route==='#'+route,route);};
   const fits=async width=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits '+width);
   const picture=async file=>{await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:out+'/'+file});};
-  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6],['nienna',6],['gartina',7],['magnus',7],['saray',5],['adelia-hope',7]]){
+  const newProfiles=['fenwick','scribonia','akarian','melian-starguard','herb','huoth'];
+  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6],['nienna',6],['gartina',7],['magnus',7],['saray',5],['adelia-hope',7],['fenwick',7],['scribonia',7],['akarian',6],['melian-starguard',5],['herb',5],['huoth',6]]){
    const source=originals(id);await go(id);
    assert.equal(await page.locator('.biography-navigation button').count(),count,id+' reading links');
    assert.equal(await page.locator('.biography-section').count(),count,id+' continuous chapters');
@@ -54,7 +55,7 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
      return box.width>0&&box.height>0&&box.width<=img.naturalWidth+1&&box.height<=img.naturalHeight+1&&card.width<=281&&Math.abs(box.width/box.height-img.naturalWidth/img.naturalHeight)<.02;
     }),'small artwork stays compact and proportional at '+width);
    }
-   if(['nienna','gartina','magnus','saray','adelia-hope'].includes(id)){await page.setViewportSize({width:390,height:844});await go(id+'?section='+source.biography.chapters[0].id);assert(await page.locator('#'+source.biography.chapters[0].id).evaluate(el=>el.getBoundingClientRect().top>=document.querySelector('.topbar').getBoundingClientRect().bottom),'chapter heading clears mobile controls');await picture(id+'-mobile.png');}
+   if(['nienna','gartina','magnus','saray','adelia-hope',...newProfiles].includes(id)){await page.setViewportSize({width:390,height:844});await go(id+'?section='+source.biography.chapters[0].id);assert(await page.locator('#'+source.biography.chapters[0].id).evaluate(el=>el.getBoundingClientRect().top>=document.querySelector('.topbar').getBoundingClientRect().bottom),'chapter heading clears mobile controls');await picture(id+'-mobile.png');}
    if(id==='elenia'){await go('elenia?section=miracle');await page.locator('#miracle').scrollIntoViewIfNeeded();await picture('elenia-miracle-mobile.png');}
    await page.setViewportSize({width:1440,height:1000});
   }
@@ -87,6 +88,6 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    await go(id);await page.locator('.region-hub-actions>a').click();await page.locator('[data-timeline-region]').waitFor();assert.equal(await page.locator('[data-timeline-region]').inputValue(),hub.timelineRegion,'full timeline scoped to region');
   }
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);assert.deepEqual(errors,[]);
-  console.log('PASS eight continuous biographies; source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
+  console.log('PASS fourteen continuous biographies; full facts, source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1);});

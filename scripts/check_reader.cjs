@@ -8,7 +8,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  const errors=[],requests=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>requests.push(r.url()));
  await page.route('https://auth.fenumion.com/**',r=>r.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
  const go=async id=>{await page.goto(base+'#'+id);await page.waitForFunction(id=>byId.get(id.split('?')[0])?.bodyLoaded,id);await page.locator('#article-content').waitFor();};
- await go('fenwick');
+ // Keep the ordinary reader-mode coverage on a profile outside the biography group.
+ await go('st-anky');
  assert.equal(await page.locator('.character-brief').count(),1);
  assert(await page.locator('.character-brief').innerText().then(t=>/last established status/i.test(t)));
  assert(await page.locator('.section-evidence[data-evidence-kind=testimony]').count()>=1);

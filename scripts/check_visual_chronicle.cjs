@@ -132,7 +132,7 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   for(const id of ['prima-pristinia','gael','fein-uaill','babel-ashur','voraketh','verdelune']){
    await go(id);assert.equal(await page.locator('.article-header .chronicle-region-badge').count(),1,id+' has a sourced region badge');
   }
-  await go('fenwick');
+  await go('tobias');
   assert.equal(await page.locator('.biography-layout').count(),0,'other profiles keep their existing reader');
   assert.equal(await page.locator('.chronicle-person-portrait :is(img,video)').count(),1);
   assert.equal(await page.locator('.record-visual-rail > .article-hero :is(img,video)').count(),0,'same portrait is shown once');

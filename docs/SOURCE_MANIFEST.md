@@ -420,3 +420,8 @@ Explicit owner canon supplies the twelve month names in FINAL_WAR_CALENDAR.md an
 ## Event-story review · 25 October 2026
 
 Existing original quest/rift/Gate archives and previously published public histories support thirty event chronicles. The selected-scene review and all 174 newly listed receipt identities are recorded in [MAJOR_EVENT_STORIES_2026_10_25.md](MAJOR_EVENT_STORIES_2026_10_25.md) and `content/reference/event-chronicles.json`. This reuses existing source corpora rather than adding a raw transcript to the repository. Primary quest evidence corrects the war council’s date to 26 October 2025; uncertain outcomes, attributed explanations and ancient/modern dating boundaries remain explicit. Other existing syntheses are not silently promoted to a full primary-source certification.
+
+
+## Character and place histories · 25 October 2026
+
+Selected original main quest and Fein scenes expand nine existing records. The review adds 17 bounded sections with 81 unique new receipt identities checked in their proper original channel archives. Quest narration governs; Tarwen's stated convictions and martial past remain attributed. The full earlier text and evidence are retained except two explicit introductory clarity edits, without claiming a new exhaustive certification of inherited syntheses. Scope, outcomes and unresolved boundaries: [PEOPLE_AND_PLACES_2026_10_25.md](PEOPLE_AND_PLACES_2026_10_25.md). No new raw corpus, transcript, generic NPC identity or restricted material enters Git.

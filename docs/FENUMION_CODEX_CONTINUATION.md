@@ -2,6 +2,16 @@
 
 Last updated: 2026-10-25
 
+
+## Further characters and location histories · 25 October 2026
+
+Owner asks to continue with characters and locations. Wren, Eugene, Arjahn, Lady Severina and the existing named NPC Tarwen gain six/six/seven/six/four reading chapters; Eovar Harbor, Pristinia, the Shining Shores and Larkhollow gain six/six/five/five. Seventeen new sections draw on selected original quest and Fein scenes, with all 81 new receipt identities verified in their proper channel archives. The histories follow specific choices, travel, conflict and ordinary work without completing unresolved bargains, rituals, shipping recoveries or identities. Tarwen's courtesy and religious exclusion remain distinct. No generic/joke NPC entries, new identities, media or protected material are added. Details: PEOPLE_AND_PLACES_2026_10_25.md.
+
+All 115 original sections, 61 facts, original dialogue, source/evidence metadata, old destinations and art/media remain. Two introductory paragraph edits clarify Severina's work and Pristinia's daily needs; other original body text remains verbatim. Combined histories grow from 11,188 to 13,663 words. The existing biography reading plan also serves these four places; their original maps or film lead immediately below the title, with place-specific navigation wording and original map controls. Eovar/Pristinia retain Prima parents. All 613 other records and the complete world/map/directory/quote/browse/Gedankin/private data compare unchanged.
+
+Expanded regression passes nineteen people and four places, full facts/chapters/evidence, legacy links, introductions, maps, regional hubs, focus/reload, nine widths and mobile positioning. Reader/search, research, event-story, visual/header/hierarchy, fourteen-film and complete-body/site-date tests pass locally; representative screenshots are inspected. Build c53f574395c6c1ff retains 622 records/573 complete bodies, now 2,360 sections. Catalog275/reader JS10; app267/CSS6/visual JS7 unchanged. Existing cached Pages workflow runs the expanded gate in place; no new dependency, installation or deployment stage. Standing publication authorization applies; hosted/live receipt follows verification.
+
+
 ## Major events become full stories · 25 October 2026
 
 Owner identifies an Azarian Peaks event whose brief dialog leads to the atlas and asks for detailed major-event pages. Thirty new chronicles cover every one of the 35 public Interregional/World Changing milestones, plus seven Rahu-war milestones. Connected steps share complete available narratives; 15,143 words include concrete choices, action and aftermath, with missing scenes and outcomes left open. The existing Papirak legacy, Withering of Hope and Mark of the Wild histories join them as continuous story destinations. Event Stories is a public reading library. No generic/joke NPC entries, directory identities, media or protected content are added. Details: MAJOR_EVENT_STORIES_2026_10_25.md and content/reference/event-chronicles.json.

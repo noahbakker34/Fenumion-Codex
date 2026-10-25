@@ -10,9 +10,10 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
   const go=async route=>{await page.goto(base+'#'+route);await page.waitForFunction(route=>byId.get(route.split('?')[0])?.bodyLoaded&&document.querySelector('#article-content').dataset.route==='#'+route,route);};
   const fits=async width=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits '+width);
   const picture=async file=>{await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:out+'/'+file});};
-  const newProfiles=['fenwick','scribonia','akarian','melian-starguard','herb','huoth'];
-  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6],['nienna',6],['gartina',7],['magnus',7],['saray',5],['adelia-hope',7],['fenwick',7],['scribonia',7],['akarian',6],['melian-starguard',5],['herb',5],['huoth',6]]){
-   const source=originals(id);await go(id);
+  const newProfiles=['fenwick','scribonia','akarian','melian-starguard','herb','huoth','wren','eugene','arjahn','lady-severina','tarwen-silver-star','pristinia','eovar-harbor','shining-shores','larkhollow'];
+  const places=new Set(['pristinia','eovar-harbor','shining-shores','larkhollow']);
+  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6],['nienna',6],['gartina',7],['magnus',7],['saray',5],['adelia-hope',7],['fenwick',7],['scribonia',7],['akarian',6],['melian-starguard',5],['herb',5],['huoth',6],['wren',6],['eugene',6],['arjahn',7],['lady-severina',6],['tarwen-silver-star',4],['pristinia',6],['eovar-harbor',6],['shining-shores',5],['larkhollow',5]]){
+   const source=originals(id),place=places.has(id);await go(id);
    assert.equal(await page.locator('.biography-navigation button').count(),count,id+' reading links');
    assert.equal(await page.locator('.biography-section').count(),count,id+' continuous chapters');
    assert(await page.locator('.article-body').evaluate(body=>{const intro=body.querySelector(':scope > p'),chapter=body.querySelector('.biography-section');return !intro||Boolean(intro.compareDocumentPosition(chapter)&Node.DOCUMENT_POSITION_FOLLOWING);}),id+' introduction precedes the chapters');
@@ -25,10 +26,16 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    if(['olokun','elenia','aria-pride'].includes(id))assert(await page.locator('.biography-relationships a').count()>=4,'named linked relationships');
    assert(!/New York|\bUTC\b|\b[Bb]iblical\b/.test(await page.locator('.article-body').innerText()));
    if(source.video){
-    const portrait=page.locator('.chronicle-person-portrait video');
+    const portrait=page.locator(place?'.record-overview ~ .article-hero video, #article-content > .article-hero video':'.chronicle-person-portrait video');
     assert.equal(await portrait.getAttribute('poster'),source.image,'original portrait remains the motion fallback');
     assert(await portrait.evaluate(video=>video.paused&&!video.querySelector('source')?.hasAttribute('src')),'reduced motion does not load the animation');
-   }else await page.locator('.chronicle-person-portrait img').evaluate(image=>image.decode());
+   await portrait.evaluate(async video=>{if(video.poster){const image=new Image();image.src=video.poster;await image.decode();}});
+   }else if(source.image)await page.locator(place?'#article-content > .article-hero img':'.chronicle-person-portrait img').evaluate(image=>image.decode());
+   if(place){
+    assert.equal(await page.locator('.biography-navigation').getAttribute('aria-label'),'Read this location history');
+    if(source.image)assert.equal(await page.locator('#article-content > .article-header + .article-hero').count(),1,'original place map/film leads the page');
+    if(source.mapId)assert.equal(await page.locator('#article-content > .article-hero [data-open-map]').getAttribute('data-open-map'),source.mapId,'original map destination retained');
+   }
    await picture(id+'-desktop.png');
    const target=source.biography.chapters[1].id;await page.locator('.biography-navigation [data-section="'+target+'"]').click();
    assert.equal(await page.evaluate(()=>document.activeElement.id),target,'chapter receives focus');
@@ -59,6 +66,10 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    if(id==='elenia'){await go('elenia?section=miracle');await page.locator('#miracle').scrollIntoViewIfNeeded();await picture('elenia-miracle-mobile.png');}
    await page.setViewportSize({width:1440,height:1000});
   }
+  for(const id of ['eovar-harbor','pristinia']){
+   await go(id);await page.locator('#article-content > .article-hero [data-open-map]').click();await page.locator('.map-heading h3').waitFor();assert.equal(await page.evaluate(()=>new URLSearchParams(location.hash.split('?')[1]).get('map')),originals(id).mapId,'place map opens at its original level');
+   assert.equal(await page.locator('.biography-layout').count(),0,'place reading layout clears on entering atlas');
+  }
   for(const id of ['prima-pristinia','gael','fein-uaill','voraketh','babel-ashur']){
    const hub=originals(id).regionHub;await go(id);
    assert.equal(await page.locator('.region-hub').count(),1);assert.equal(await page.locator('.region-history').getAttribute('open'),null);
@@ -88,6 +99,6 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    await go(id);await page.locator('.region-hub-actions>a').click();await page.locator('[data-timeline-region]').waitFor();assert.equal(await page.locator('[data-timeline-region]').inputValue(),hub.timelineRegion,'full timeline scoped to region');
   }
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);assert.deepEqual(errors,[]);
-  console.log('PASS fourteen continuous biographies; full facts, source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
+  console.log('PASS nineteen continuous biographies and four detailed place histories; full facts, source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1);});

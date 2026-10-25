@@ -110,7 +110,9 @@
       }
     }
     if(plan){
-      const marker=document.createComment('biography reading order');body.prepend(marker);
+      const marker=document.createComment('biography reading order');
+      const firstEpisode=episodes.values().next().value;
+      if(firstEpisode)firstEpisode.before(marker);else body.prepend(marker);
       for(const group of plan){
         const section=document.createElement('section');section.className='biography-section';section.setAttribute('aria-labelledby',group.id);
         const heading=document.createElement('h2');heading.id=group.id;heading.textContent=group.title;section.append(heading);

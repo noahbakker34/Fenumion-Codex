@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-24
 
+## Five further character biographies · 24 October 2026
+
+Owner asks to begin updating characters as Elenia was updated, under the supplied conservative editorial framework. Nienna, Gartina, Magnus, Saray and Adelia gain existing biography reading plans (six/seven/seven/five/seven chapters). Every one of their 79 historical sections, all original facts, dialogue, evidence, source links, art/media and legacy anchors remains. Seventeen paragraphs receive targeted clarity/voice refinements; combined bodies measure 99.12% of their previous word count. Effective prose is left alone; no new lore, quotations, dates, motives, redemption or resolved mysteries are introduced. Selected original quest and compatible RP excerpts are checked with quest authority preserved. Detailed scope, examples, source boundaries and verification: CHARACTER_BIOGRAPHIES_2026_10_24.md.
+
+A small shared-reader correction places introductions before the planned chapters, rather than after the entire narrative. No redesign, stylesheet or historical data-model change. Expanded checks cover eight biographies, all source sections/facts/evidence, original links, introduction order, focus/reload, relationship disclosures and nine widths; actual mobile chapter links clear the sticky controls. Reader/search/calendar/static/preview and fourteen-film checks pass; desktop/mobile screenshots are inspected. Catalog271/reader JS8; runtime266 and media/world/private payload unchanged. Build 3164393c2cd57e93 retains 591 records/2,168 sections. Publication follows standing owner authorization; hosted/live receipt follows verification.
+
 ## Supplied character and location films · 24 October 2026
 
 Owner supplies eighteen identified clips. Fourteen public films update eight existing character portraits and add six selectable views across existing character/location records. Both new Aria depictions remain available alongside the prior Talan scene. Titan’s Watch, Vysaeth’s Tomb and both Citadel of Sorrow views stay within Gael’s history; Vysaeth’s existing record also links its tomb film. Fein Uaill keeps its interactive regional map and gains a selectable film. Optional “Watch this place” destinations and a collapsed regional Films collection make these views reachable without replacing the maps or expanding unrelated histories. Original stills remain the browsing/quiet-mode fallbacks, with existing lightweight directory previews. Five location-film posters also appear in the public artwork collection (106 → 111).

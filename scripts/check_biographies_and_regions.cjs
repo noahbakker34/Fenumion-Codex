@@ -10,17 +10,18 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
   const go=async route=>{await page.goto(base+'#'+route);await page.waitForFunction(route=>byId.get(route.split('?')[0])?.bodyLoaded&&document.querySelector('#article-content').dataset.route==='#'+route,route);};
   const fits=async width=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits '+width);
   const picture=async file=>{await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:out+'/'+file});};
-  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6]]){
+  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6],['nienna',6],['gartina',7],['magnus',7],['saray',5],['adelia-hope',7]]){
    const source=originals(id);await go(id);
    assert.equal(await page.locator('.biography-navigation button').count(),count,id+' reading links');
    assert.equal(await page.locator('.biography-section').count(),count,id+' continuous chapters');
-   assert.equal(await page.locator('.record-summary .fact').count(),4);
+   assert(await page.locator('.article-body').evaluate(body=>{const intro=body.querySelector(':scope > p'),chapter=body.querySelector('.biography-section');return !intro||Boolean(intro.compareDocumentPosition(chapter)&Node.DOCUMENT_POSITION_FOLLOWING);}),id+' introduction precedes the chapters');
+   assert.equal(await page.locator('.record-summary .fact').count(),Object.keys(source.facts).length,'all original facts remain visible');
    assert.equal(await page.locator('.record-visual-rail,.character-brief,.record-reading-controls,.chapter-guide').count(),0);
    assert.equal(await page.locator('#contents .toc-link').count(),count);
    for(const section of source.sections)assert.equal(await page.locator('[id="'+section.id+'"]').count(),1,id+' retains '+section.id);
    assert.deepEqual(await page.evaluate(id=>byId.get(id).sources,id),source.sources,'all original references retained');
    assert.equal(await page.locator('.section-evidence').count(),source.sections.length,'each original evidence panel retained');
-   assert(await page.locator('.biography-relationships a').count()>=4,'named linked relationships');
+   if(['olokun','elenia','aria-pride'].includes(id))assert(await page.locator('.biography-relationships a').count()>=4,'named linked relationships');
    assert(!/New York|\bUTC\b|\b[Bb]iblical\b/.test(await page.locator('.article-body').innerText()));
    if(source.video){
     const portrait=page.locator('.chronicle-person-portrait video');
@@ -36,8 +37,10 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    assert.equal(await page.locator('#'+legacy).evaluate(el=>el.closest('.biography-section')!==null),true);
    const scene=source.sections.find(section=>section.id.endsWith('-scene-sequence'));
    if(scene){await go(id+'?section='+scene.id);assert(await page.locator('#'+scene.id).evaluate(el=>el.closest('details').open),'legacy scene appendix opens');assert(await page.locator('#'+scene.id).evaluate(el=>el.parentElement.parentElement.querySelector('.scene-sequence')!==null));}
+   if(source.relationshipMap?.nodes?.length){
    await go(id+'?section=relationship-map-'+id);assert(await page.locator('#relationship-map-'+id).evaluate(el=>el.closest('details').open),'relationship map remains accessible');
    const filter=page.locator('[data-relationship-filter]').last();await filter.click();assert.equal(await filter.getAttribute('aria-pressed'),'true','relationship filters survive reorganization');
+   }
    if(id==='elenia'){
     const artwork=page.locator('.record-rail-art img[src="elenia-chibi.png"]');
     await artwork.scrollIntoViewIfNeeded();await artwork.evaluate(image=>image.decode());
@@ -51,6 +54,7 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
      return box.width>0&&box.height>0&&box.width<=img.naturalWidth+1&&box.height<=img.naturalHeight+1&&card.width<=281&&Math.abs(box.width/box.height-img.naturalWidth/img.naturalHeight)<.02;
     }),'small artwork stays compact and proportional at '+width);
    }
+   if(['nienna','gartina','magnus','saray','adelia-hope'].includes(id)){await page.setViewportSize({width:390,height:844});await go(id+'?section='+source.biography.chapters[0].id);assert(await page.locator('#'+source.biography.chapters[0].id).evaluate(el=>el.getBoundingClientRect().top>=document.querySelector('.topbar').getBoundingClientRect().bottom),'chapter heading clears mobile controls');await picture(id+'-mobile.png');}
    if(id==='elenia'){await go('elenia?section=miracle');await page.locator('#miracle').scrollIntoViewIfNeeded();await picture('elenia-miracle-mobile.png');}
    await page.setViewportSize({width:1440,height:1000});
   }
@@ -83,6 +87,6 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    await go(id);await page.locator('.region-hub-actions>a').click();await page.locator('[data-timeline-region]').waitFor();assert.equal(await page.locator('[data-timeline-region]').inputValue(),hub.timelineRegion,'full timeline scoped to region');
   }
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);assert.deepEqual(errors,[]);
-  console.log('PASS three continuous biographies; source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
+  console.log('PASS eight continuous biographies; source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1);});

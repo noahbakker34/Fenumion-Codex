@@ -16252,7 +16252,9 @@
           "Fein-Uaill"
         ],
         "image": "assets/archive/fein-uaill.jpeg",
-        "level": "region"
+        "level": "region",
+        "mediaArticle": "fein-uaill",
+        "mediaScene": "fein-uaill"
       },
       {
         "title": "Gael",
@@ -17026,7 +17028,9 @@
         ],
         "level": "site",
         "image": "assets/locations/discord/7683b2460e6114c7d570673b6ef2a18a96836604229df8196cc44729fbd18a06.webp",
-        "imageCaption": "Gael. Opening post identifies this area just beyond the tower, with ruined titan statues, a decayed cathedral and a river to the sea."
+        "imageCaption": "Gael. Opening post identifies this area just beyond the tower, with ruined titan statues, a decayed cathedral and a river to the sea.",
+        "mediaArticle": "gael",
+        "mediaScene": "titans-watch"
       },
       {
         "title": "The Road",
@@ -17074,7 +17078,9 @@
         ],
         "level": "site",
         "image": "assets/locations/discord/a6793045ebff14f251817bfefc07bcdbf994a05c4b98d571b779272e7df8fc5c.webp",
-        "imageCaption": "Gael. The Vysaeth’s Tomb RP post opens with this setting image. It identifies the post’s illustrated scene without supplying a complete tomb plan, powers or ancient history."
+        "imageCaption": "Gael. The Vysaeth’s Tomb RP post opens with this setting image. It identifies the post’s illustrated scene without supplying a complete tomb plan, powers or ancient history.",
+        "mediaArticle": "gael",
+        "mediaScene": "vysaeth-tomb"
       },
       {
         "title": "Citadel of Sorrow",
@@ -17087,7 +17093,9 @@
         "source": "Map",
         "aliases": [],
         "level": "site",
-        "image": "assets/locations/citadel-of-sorrow.gif"
+        "image": "assets/locations/citadel-of-sorrow.gif",
+        "mediaArticle": "gael",
+        "mediaScene": "citadel-fortress"
       },
       {
         "title": "Plains of Trial",

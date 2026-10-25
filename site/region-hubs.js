@@ -32,6 +32,13 @@
       <section class="region-hub-section" aria-labelledby="${esc(prefix)}people"><h2 id="${esc(prefix)}people">People in these histories</h2><p>Follow their roles in the region’s story.</p><div class="region-people-grid">${people.map(record=>`<a href="#${esc(record.id)}">${record.image?`<img src="${esc(record.image)}" alt="" loading="lazy" decoding="async">`:''}<span><strong>${esc(record.title)}</strong><small>${esc(record.type)}</small></span></a>`).join('')}</div></section>
       <section class="region-hub-section" aria-labelledby="${esc(prefix)}journeys"><h2 id="${esc(prefix)}journeys">Quests and connected histories</h2><div class="region-journey-grid">${journeys.map(record=>`<a href="#${esc(record.id)}"><strong>${esc(record.title)}</strong><span>${esc(record.dek)}</span><small>Follow this history <span aria-hidden="true">→</span></small></a>`).join('')}</div></section>
       <section class="region-hub-section" aria-labelledby="${esc(prefix)}changes"><h2 id="${esc(prefix)}changes">Recent dated changes</h2><div class="region-event-grid">${events.map(event=>`<button type="button" data-timeline-title="${esc(event.title)}"><small>${timelineDateMarkup(event)}</small><strong>${esc(event.title)}</strong><span>${esc(event.summary)}</span></button>`).join('')}</div><a class="region-all-events" href="#living-timeline?region=${esc(hub.timelineRegion)}">Browse the full ${esc(hub.region)} timeline <span aria-hidden="true">→</span></a></section>`;
+    const films=history.querySelector('.character-scenes');
+    if(films){
+      const chapter=films.closest('.record-chapter')||films;
+      landing.querySelector('.region-hub-section')?.after(chapter);
+      const button=document.createElement('button');button.type='button';button.dataset.section='character-scenes-title';button.textContent='Films';
+      const nav=landing.querySelector('.region-hub-navigation');nav.insertBefore(button,nav.lastElementChild);
+    }
     body.append(landing,history);
   }
   window.CodexRegions={setup};

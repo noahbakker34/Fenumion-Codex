@@ -241,5 +241,15 @@
       "caislean-na-bron",
       "ciaranach"
     ]
-  }
+  },
+  "scenes": [
+    {
+      "id": "fein-uaill",
+      "title": "Fein Uaill",
+      "caption": "Fein Uaill",
+      "poster": "assets/locations/fein-uaill-poster.webp",
+      "video": "assets/locations/fein-uaill-animation.mp4"
+    }
+  ],
+  "sceneHeading": "Films of Fein Uaill"
 }

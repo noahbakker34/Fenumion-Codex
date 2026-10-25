@@ -83,5 +83,15 @@
     "checkedAt": "2026-10-17",
     "sourceClass": "testimony",
     "scope": "Journal content is Vysaeth’s testimony even though the narrator supplies it. Lichdom/legacy motives and judgments retain attribution; ultimate state not inferred from disposal of remains."
-  }
+  },
+  "scenes": [
+    {
+      "id": "vysaeth-tomb",
+      "title": "Vysaeth’s Tomb",
+      "caption": "Vysaeth’s Tomb",
+      "poster": "assets/locations/vysaeth-tomb-poster.webp",
+      "video": "assets/locations/vysaeth-tomb-animation.mp4"
+    }
+  ],
+  "sceneHeading": "Vysaeth’s Tomb"
 }

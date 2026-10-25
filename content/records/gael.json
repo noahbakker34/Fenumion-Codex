@@ -1147,5 +1147,36 @@
       "crucible-of-gael",
       "ale-chemy-knights"
     ]
-  }
+  },
+  "scenes": [
+    {
+      "id": "vysaeth-tomb",
+      "title": "Vysaeth’s Tomb",
+      "caption": "Vysaeth’s Tomb",
+      "poster": "assets/locations/vysaeth-tomb-poster.webp",
+      "video": "assets/locations/vysaeth-tomb-animation.mp4"
+    },
+    {
+      "id": "titans-watch",
+      "title": "Titan’s Watch",
+      "caption": "Titan’s Watch",
+      "poster": "assets/locations/titans-watch-poster.webp",
+      "video": "assets/locations/titans-watch-animation.mp4"
+    },
+    {
+      "id": "citadel-approach",
+      "title": "Citadel of Sorrow · approach",
+      "caption": "Citadel of Sorrow · approach",
+      "poster": "assets/locations/citadel-approach-poster.webp",
+      "video": "assets/locations/citadel-approach-animation.mp4"
+    },
+    {
+      "id": "citadel-fortress",
+      "title": "Citadel of Sorrow · fortress",
+      "caption": "Citadel of Sorrow · fortress",
+      "poster": "assets/locations/citadel-fortress-poster.webp",
+      "video": "assets/locations/citadel-fortress-animation.mp4"
+    }
+  ],
+  "sceneHeading": "Films of Gael"
 }

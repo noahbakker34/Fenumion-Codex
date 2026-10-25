@@ -44,6 +44,13 @@
       "video": "assets/character-scenes/talan-vs-aria.mp4",
       "poster": "assets/character-scenes/talan-vs-aria.jpg",
       "caption": "Talan and Aria face one another with crossed swords. A visual depiction of their rivalry."
+    },
+    {
+      "id": "aria-white",
+      "title": "Aria · illustrated portrait",
+      "caption": "Aria · illustrated portrait",
+      "poster": "assets/character-scenes/aria-white-poster.webp",
+      "video": "assets/character-scenes/aria-white-animation.mp4"
     }
   ],
   "schemaVersion": 1,
@@ -564,5 +571,8 @@
       "adelia-hope",
       "zarathis"
     ]
-  }
+  },
+  "video": "assets/characters/aria-resolve-animation.mp4",
+  "videoType": "video/mp4",
+  "videoCaption": "Aria / Pride — Knight II of Death."
 }

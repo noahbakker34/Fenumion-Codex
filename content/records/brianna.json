@@ -166,5 +166,8 @@
       }
     ],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
-  }
+  },
+  "video": "assets/characters/brianna-animation.mp4",
+  "videoType": "video/mp4",
+  "videoCaption": "Brianna — animated portrait."
 }

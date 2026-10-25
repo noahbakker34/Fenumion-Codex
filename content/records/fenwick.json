@@ -80,7 +80,7 @@
     "papirak-legacy"
   ],
   "image": "assets/characters/fenwick-poster.webp",
-  "video": "assets/characters/fenwick.mp4",
+  "video": "assets/characters/fenwick-animation.mp4",
   "imageAlt": "Fenwick d’Jorasco, wearing round glasses and a green cloak, holding a glowing spell",
   "imageCaption": "Fenwick d’Jorasco",
   "videoCaption": "Fenwick d’Jorasco",
@@ -486,5 +486,6 @@
     "checkedAt": "2026-10-17",
     "sourceClass": "player testimony",
     "scope": "Original location-notes export checked; protected statements and unseen attachments withheld. No truth status inferred from player authorship."
-  }
+  },
+  "videoType": "video/mp4"
 }

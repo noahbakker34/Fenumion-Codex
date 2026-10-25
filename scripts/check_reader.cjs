@@ -40,7 +40,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await page.screenshot({path:'/tmp/codex-atlas-history.png'});
  await go('npc-discovery-registry');assert(await page.locator('[data-discovery-list]').innerText().then(t=>t.length>100));
  await go('player-perspectives');assert(await page.evaluate(()=>Boolean(window.FENUMION_PLAYER_PERSPECTIVES)));
- await go('art-of-fenumion');assert.equal(await page.evaluate(()=>fenumionArtRecords().length),106);
+ await go('art-of-fenumion');assert.equal(await page.evaluate(()=>fenumionArtRecords().length),111);
  await go('world-index');assert.equal(await page.evaluate(()=>archiveIndex.characters.filter(p=>p.article==='st-anky').length),1);
  // Back/forward and a slow load cannot replace a newer destination.
  await page.evaluate(async()=>{const one=renderArticle('nienna');const two=renderArticle('papirak');await Promise.all([one,two]);});

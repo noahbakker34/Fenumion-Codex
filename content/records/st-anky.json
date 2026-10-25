@@ -461,5 +461,8 @@
   "aliases": [
     "Saint Anky Bloomers III",
     "Saint Anky Bloomers III."
-  ]
+  ],
+  "video": "assets/characters/st-anky-animation.mp4",
+  "videoType": "video/mp4",
+  "videoCaption": "St. Anky — adventurer, traveler, and remembered ally."
 }

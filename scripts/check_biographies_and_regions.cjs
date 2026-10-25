@@ -57,8 +57,8 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
   for(const id of ['prima-pristinia','gael','fein-uaill','voraketh','babel-ashur']){
    const hub=originals(id).regionHub;await go(id);
    assert.equal(await page.locator('.region-hub').count(),1);assert.equal(await page.locator('.region-history').getAttribute('open'),null);
-   assert.equal(await page.locator('#contents .toc-link').count(),5,'hub contents stay focused');
-   assert.equal(await page.locator('.region-hub-navigation button').count(),5);
+   assert.equal(await page.locator('#contents .toc-link').count(),5+(originals(id).scenes?.length?1:0),'hub contents include the available film collection');
+   assert.equal(await page.locator('.region-hub-navigation button').count(),5+(originals(id).scenes?.length?1:0));
    const expected=await page.evaluate(region=>archiveIndex.islands.filter(place=>place.region===region&&place.level!=='region'&&isPlayerSafeArticle(place.article)).length,hub.region);
    assert.equal(await page.locator('.region-place-card').count(),expected,'all accessible child places retained');
    assert(await page.locator('.region-place-card>small').evaluateAll((nodes,region)=>nodes.every(el=>el.textContent.startsWith(region)),hub.region),'place parent labels');

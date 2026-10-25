@@ -274,7 +274,7 @@ function openCharacterRecord(person, personLabel = "Character") {
       ? `<figure class="record-dialog-media"><video data-ambient-video muted loop playsinline preload="metadata"><source src="${escapeHtml(person.video)}" type="video/mp4"></video></figure>`
       : "";
   const relatedButton = person.article && person.article !== "people-directory"
-    ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(person.article)}">Open related Codex record →</button>`
+    ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(person.article + (person.mediaScene ? "?section=" + encodeURIComponent("scene-" + person.mediaScene) : ""))}">Open related Codex record →</button>`
     : "";
   const npcGroup = archiveIndex.npcs.some(item=>item.title===person.title)
     ? npcIslandGroups.find(group=>group.people.some(item=>item.name===person.title)) || npcIslandGroups.find(group=>group.id==='unplaced')
@@ -327,6 +327,7 @@ function openLocationRecord(place) {
     </div>
     <div class="record-dialog-meta"><span>Region · ${escapeHtml(place.region || "Unresolved")}</span><span>Parent · ${escapeHtml(place.parent || "Unresolved")}</span>${aliases}</div>
     ${window.CodexReader.placeContext(place)}
+    ${place.mediaScene ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml((place.mediaArticle || place.article) + "?section=" + encodeURIComponent("scene-" + place.mediaScene))}">Watch this place →</button>` : ""}
     <button class="record-dialog-link" type="button" data-record-article="${escapeHtml(relatedRoute)}">${relatedLabel} →</button>`;
   setupAmbientVideos(recordDialogContent);
   window.FenumionCalendar.render(recordDialogContent);
@@ -477,7 +478,7 @@ function lockVault() {
 function renderSceneFigure(scene, index, publicPreview = false) {
   const stream = Boolean(scene.protectedHls || scene.hls);
   const kind = publicPreview ? 'public' : 'protected';
-  return `<figure class="gallery-wide"${stream ? ` data-${kind}-scene="${index}"` : ''}><video data-story-scene controls playsinline disableremoteplayback preload="none" poster="${escapeHtml(scene.poster || '')}" aria-label="${escapeHtml(scene.title)}">${stream ? '' : `<source src="${escapeHtml(scene.video || '')}" type="video/mp4">`}</video>${stream ? `<div class="protected-scene-controls"><button type="button" data-load-${kind}-scene>Play video</button><span data-${kind}-scene-status role="status" aria-live="polite"></span></div>` : ''}<figcaption><strong>${escapeHtml(scene.title)}</strong><span>${escapeHtml(scene.caption)}</span></figcaption></figure>`;
+  return `<figure class="gallery-wide"${scene.id ? ` id="scene-${escapeHtml(scene.id)}"` : ""}${stream ? ` data-${kind}-scene="${index}"` : ''}><video data-story-scene controls playsinline disableremoteplayback preload="none" poster="${escapeHtml(scene.poster || '')}" aria-label="${escapeHtml(scene.title)}">${stream ? '' : `<source src="${escapeHtml(scene.video || '')}" type="video/mp4">`}</video>${stream ? `<div class="protected-scene-controls"><button type="button" data-load-${kind}-scene>Play video</button><span data-${kind}-scene-status role="status" aria-live="polite"></span></div>` : ''}<figcaption><strong>${escapeHtml(scene.title)}</strong><span>${escapeHtml(scene.caption)}</span></figcaption></figure>`;
 }
 
 function renderVaultGate(article) {
@@ -953,7 +954,7 @@ function renderArticle(route, pushHash = true) {
   const hero = article.video
     ? `${mapHero}${videoHero}`
     : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}">${heroCaption(article.imageCaption, "Image preserved in the Fenumion archive.")}</figure>` : "");
-  const scenes = article.scenes?.length ? `<section class="character-scenes" aria-labelledby="character-scenes-title"><h2 id="character-scenes-title">Scenes from the story</h2><div class="image-gallery">${article.scenes.map((scene, index) => renderSceneFigure(scene, index)).join('')}</div></section>` : '';
+  const scenes = article.scenes?.length ? `<section class="character-scenes" aria-labelledby="character-scenes-title"><h2 id="character-scenes-title">${escapeHtml(article.sceneHeading || "Scenes from the story")}</h2><div class="image-gallery">${article.scenes.map((scene, index) => renderSceneFigure(scene, index)).join('')}</div></section>` : '';
   const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
 
   const subchannels = renderSubchannels(article.id);

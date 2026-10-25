@@ -975,5 +975,8 @@
       "papirak-legacy",
       "elenia"
     ]
-  }
+  },
+  "video": "assets/characters/olokun-animation.mp4",
+  "videoType": "video/mp4",
+  "videoCaption": "Olokun — protector, sailor, and Rahu adventurer."
 }

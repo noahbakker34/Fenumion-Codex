@@ -45,3 +45,9 @@ The shared planned-biography renderer previously prepended every chapter ahead o
 The expanded biography regression checks eight planned biographies, every source section/evidence panel, all original facts, introduction order, chapter navigation, legacy links/reload/focus, relationship disclosures, nine widths and five mobile chapter routes clearing the sticky controls. Reader/search/history, calendar, static-content and browsing-preview checks pass, as does actual playback for the fourteen recently supplied public films. Representative desktop/mobile screenshots are inspected.
 
 Catalog271/reader JavaScript8; runtime266, styles, world data and all media are unchanged. Build 3164393c2cd57e93 retains 591 records and 2,168 historical sections. Publication and live verification follow standing owner authorization; the deployment receipt follows those checks.
+
+## Publication verified
+
+Release `bba0269fdd239b30faeef4a38549b1779befcbc4` deployed successfully in [Pages run 40160142424](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/40160142424). All hosted gates pass. Eight live entry/catalog/reader/biography-body files match the tested hashes. Fresh anonymous live Chrome passes all eight planned biographies, five regional hubs, complete fact/evidence/section preservation, introduction order, old links, reload/focus, relationship disclosures, nine widths and mobile chapter headings clearing the controls. Desktop/mobile screenshots are inspected. A transient resolver failure during the first parallel file check was retried; all eight sequential integrity checks passed.
+
+Verification/build/upload takes 4m53s and deployment 48s, reusing the cached browser harness and tested artifact. Anonymous vault access remains 401/signin, and the private payload is unchanged. The confirmed task preview is stopped. This documentation-only receipt uses the existing path filter, with no duplicate publication.

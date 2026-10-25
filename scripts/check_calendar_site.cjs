@@ -53,14 +53,22 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-calendar-site';
   assert(await page.locator('.perspective-card').count(),'named-date notes search');await audit('filtered notes');
   await go('visual-archive?map=world&place=Fein%20Uaill');
   await page.locator('.map-detail .place-history-context').waitFor();await audit('Fein Uaill map history');
-  const expectedDates=['29, Month of Cala · Year 3','27, Month of Talan · Year 3','By Month of Cala · Year 3'];
+  // New histories can displace older entries from this bounded three-record view.
+  const expectedDates=await page.evaluate(()=>{
+   const place=archiveIndex.islands.find(place=>place.title==='Fein Uaill');
+   return CodexReader.placeEvents(place).slice(-3).map(event=>{
+    const template=document.createElement('template');template.innerHTML=FenumionCalendar.html(event.meta);return template.content.textContent;
+   });
+  });
+  assert.equal(expectedDates.length,3,'three recent dated location records');
   for(const date of expectedDates)assert((await page.locator('.map-detail').innerText()).includes(date),date);
   const detached=await page.evaluate(()=>{
    const place=archiveIndex.islands.find(place=>place.title==='Fein Uaill');
-   return {markup:CodexReader.placeContext(place),source:CodexReader.referenceMarkup('Checked 29 Jul 2026 · https://example.test/2026-07-29')};
+   return {markup:CodexReader.placeContext(place),source:CodexReader.referenceMarkup('Checked 29 Jul 2026 · https://example.test/2026-07-29'),legacy:CodexReader.referenceMarkup('27 Jan 2026 · By Jul 2026')};
   });
   for(const date of expectedDates)assert(detached.markup.includes(date),'map markup formatted before insertion');
   assert(detached.source.includes('29, Month of Cala'));assert(detached.source.includes('href="https://example.test/2026-07-29"'));
+  assert(detached.legacy.includes('27, Month of Talan · Year 3'));assert(detached.legacy.includes('By Month of Cala · Year 3'));
   await page.locator('.map-detail').scrollIntoViewIfNeeded();await page.screenshot({path:output+'/fein-uaill-desktop.png'});
   await page.evaluate(()=>openLocationRecord(archiveIndex.islands.find(place=>place.title==='Fein Uaill')));
   for(const date of expectedDates)assert((await page.locator('#record-dialog-content').innerText()).includes(date),'location popup '+date);

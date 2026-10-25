@@ -76,6 +76,13 @@ def audit():
   if a.get('body') and not a.get('sources'):warnings.append(aid+': missing article references')
  for alias,target in aliases.items():require(target in known,'Unresolved route alias '+alias+' -> '+target)
  recordById={r['id']:r for r in records}
+ for record in records:
+  if record.get('eventChronicle'):
+   require(not record['protected'] and record.get('readingLayout')=='chronicle',record['id']+': story must be a public continuous narrative')
+   require(len(record.get('sections',[]))>=3 and len(re.sub('<[^>]+>',' ',record.get('body','')).split())>=250,record['id']+': story needs substantive chapters, not a directory or short caption')
+   require(bool(record['eventChronicle']['events']),record['id']+': story has no event milestones')
+   for title in record['eventChronicle']['events']:
+    require(any(e.get('title')==title and e.get('story')==record['id'] and not e.get('veiled') and not e.get('vaultOnly') for e in world['archiveIndex']['timeline']),record['id']+': story milestone is missing, private or points elsewhere')
  maps=world.get('interactiveMaps',[]);mapById={m['id']:m for m in maps}
  require(len(maps)==len(mapById),'Duplicate map identity')
  require(mapById.get('world',{}).get('level')=='world','Missing world map hierarchy root')
@@ -111,9 +118,12 @@ def audit():
   for step in chain['steps']:require(any(e.get('title')==step['event'] and not e.get('vaultOnly') and e.get('article') not in world['restrictedArticleIds'] for e in world['archiveIndex']['timeline']),'Unknown/protected chain event: '+step['event'])
  for event in world['archiveIndex']['timeline']:
   if event.get('veiled') or event.get('vaultOnly') or event.get('article') in world['restrictedArticleIds']:
-   require(not any(key in event for key in ['importance','importanceReason','regions','dating','reviewSources','aliases']), 'Protected timeline metadata leaked into public index')
+   require(not any(key in event for key in ['importance','importanceReason','regions','dating','reviewSources','aliases','story']), 'Protected timeline metadata leaked into public index')
   else:
    require(type(event.get('importance')) is int and 1 <= event['importance'] <= 5, 'Missing/invalid timeline importance: '+str(event.get('title')))
+   if event.get('story') or event.get('importance',0)>=4:
+    story=recordById.get(event.get('story'),{})
+    require(bool(story.get('eventChronicle')) and not story.get('protected',True) and event.get('title') in story.get('eventChronicle',{}).get('events',[]),'Major event has no complete public story destination: '+str(event.get('title')))
    require(isinstance(event.get('importanceReason'),str) and bool(event['importanceReason'].strip()), 'Missing importance explanation: '+str(event.get('title')))
    regionids={r['id'] for r in world['timelineRegions']}
    require(isinstance(event.get('regions'),list) and bool(event['regions']) and set(event['regions'])<=regionids, 'Missing/invalid timeline region: '+str(event.get('title')))

@@ -1,0 +1,154 @@
+{
+  "id": "voyage-to-reheva",
+  "title": "The Keelboat Voyage to Rehevä",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "A rescued woman’s father funds a boat, a dangerous channel becomes a fight to stay afloat, and Mogh helps the company reach the island above the cliffs.",
+  "tags": [
+    "Event stories",
+    "voyage",
+    "island",
+    "discovery"
+  ],
+  "facts": {
+    "Recorded dates": "6 Jun 2024 · quest-RP",
+    "Setting": "Island east of Eovar",
+    "People": "Loistava; Dale; Olokun; Lucido; Alyhotep; Targas Tarmile",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248436794375274496",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248448009449111562",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248454352587325481",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248456409969070120",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248468470069330023",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248470036289552516",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248474886763057193",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248476345269358663",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248482425189961775",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248485051792883822",
+    "#eovar-harbor — existing public account; original qualifications retained",
+    "#the-void — existing public account; original qualifications retained",
+    "#olokun — existing public account; original qualifications retained",
+    "#dale — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The expedition begins at Eovar Harbor. Loistava, Dale, Olokun, Lucido and Alyhotep prepare a keelboat scarcely large enough for the company. Its rental has been paid by Targas Tarmile, whose daughter Rina was among the women rescued from an underground trafficking operation. The journey starts with a consequence of that earlier rescue: her father helps make the next voyage possible.</p><h2 id=\"chapter-1\">Between the cliffs</h2><p>The boat leaves under sail and oars. At first, wind and tide do much of the work. Towering rock faces rise beside the route, however, leaving little room when the current strengthens and gusts begin to push the vessel off course.</p><p>Lucido and Alyhotep initially keep the keelboat clear of the cliffs. The company combines strength and agility to negotiate a violent bend, coming close to the rocks before emerging into calmer water. The passage has demanded cooperation before the travelers even reach the open approach to their destination.</p><h2 id=\"chapter-2\">Sharks beneath the boat</h2><p>As the light fades, Lucido notices movement under the surface. Olokun, Dale, Loistava and Lucido identify possible sharks just as darkness settles. The creatures attack the boat, and water begins to seep through the hull.</p><p>Defeating the attackers does not repair their damage. The boat continues to sink. Loistava slows the flooding, Dale works on the boards, and Alyhotep spots land close enough to offer an alternative if the hull cannot be saved. Their repairs help, but a smaller stream of water still enters as the night wears on. They must decide whether to continue or stop.</p><h2 id=\"chapter-3\">Mogh’s shore</h2><p>On land, a man welcomes the tired travelers to a fire and offers roast goat and fresh water. He introduces himself as Mogh. Asked about the destination, he names Rehevä and explains that it lies a few hours away, high above the water.</p><p>Reaching it will require climbing dangerous stairs cut into the cliff or hauling a platform upward with a pulley. Mogh gives practical directions, then warns the company to leave before distant storm clouds catch them. When thanks turn toward obligation, he asks only that they follow the path their hearts lead them toward.</p><h2 id=\"chapter-4\">The platform above the sea</h2><p>The company returns to the boat and makes the remaining crossing in calmer conditions. Rehevä’s rocky face grows until it towers above them. They find the precarious staircase and the platform Mogh described.</p><p>The platform can hold the group, but raising it requires shared effort. Their arms tire as they pull themselves upward. At last they reach the top and look out on the island they set out to find.</p><p>The recovered scene establishes a reached destination and an arduous route, not an unnamed island discovered without local inhabitants or knowledge. Mogh already knows its name and approaches. The expedition’s achievement is bringing that place into this company’s traveled world; its subsequent history belongs to later records.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#eovar-harbor\">Eovar Harbor</a> · <a href=\"#the-void\">The Void</a> · <a href=\"#olokun\">Olokun</a> · <a href=\"#dale\">Dale</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "A sea expedition discovers a new island"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "Between the cliffs",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248436794375274496",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248448009449111562",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248454352587325481",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248456409969070120",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248468470069330023",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248470036289552516",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248474886763057193",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248476345269358663",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248482425189961775",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248485051792883822",
+          "#eovar-harbor — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#dale — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Sharks beneath the boat",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248436794375274496",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248448009449111562",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248454352587325481",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248456409969070120",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248468470069330023",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248470036289552516",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248474886763057193",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248476345269358663",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248482425189961775",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248485051792883822",
+          "#eovar-harbor — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#dale — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "Mogh’s shore",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248436794375274496",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248448009449111562",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248454352587325481",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248456409969070120",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248468470069330023",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248470036289552516",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248474886763057193",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248476345269358663",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248482425189961775",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248485051792883822",
+          "#eovar-harbor — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#dale — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The platform above the sea",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248436794375274496",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248448009449111562",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248454352587325481",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248456409969070120",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248468470069330023",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248470036289552516",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248474886763057193",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248476345269358663",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248482425189961775",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248485051792883822",
+          "#eovar-harbor — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#dale — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

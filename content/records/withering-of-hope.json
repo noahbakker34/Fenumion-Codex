@@ -104,5 +104,11 @@
         ]
       }
     }
-  ]
+  ],
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Magnus returns and Hope withers"
+    ]
+  }
 }

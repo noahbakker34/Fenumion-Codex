@@ -1,0 +1,124 @@
+{
+  "id": "rebuilding-prima-fein",
+  "title": "Rebuilding in Prima, Respite in Fein",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "The Pilgrim’s Hearth rises on the Common Man’s foundations while a later civic account describes peace and reconciliation in Fein Uaill.",
+  "tags": [
+    "Event stories",
+    "expansion",
+    "reconciliation",
+    "institutions"
+  ],
+  "facts": {
+    "Recorded dates": "29 Jul 2026",
+    "Setting": "Pilgrim’s Hearth; Pristinia; Prima; Fein Uaill",
+    "People": "Jon; Miriel; Magnus",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#pristinia — existing public account; original qualifications retained",
+    "#pilgrims-hearth — existing public account; original qualifications retained",
+    "#common-man — existing public account; original qualifications retained",
+    "#herb — existing public account; original qualifications retained",
+    "#bowene — existing public account; original qualifications retained",
+    "#fein-uaill — existing public account; original qualifications retained",
+    "#miriel-emerald-veil — existing public account; original qualifications retained",
+    "#magnus — existing public account; original qualifications retained"
+  ],
+  "body": "<p>By 29, Month of Cala, Year 3, the Pilgrim’s Hearth stands on the old Common Man’s foundations and Pristinia is expanding. Across the sea, a civic account describes Fein Uaill entering a period of peace and reconciliation. These are parallel developments in two communities, not evidence that all their conflicts ended together.</p><h2 id=\"chapter-1\">The room the fire took</h2><p>Green Beard’s attack destroyed the Common Man in the quest scene posted in the Month of Rebirth. The later rebuilding begins at its blackened frame, where townsfolk clear charred timber and sort usable stone.</p><p>The place had held ordinary meals, welcome, arguments and mourning. Replacing the walls cannot return every person or every moment lost with it. Herb is alive in the rebuilding scenes and grieving, rather than simply presiding over a celebration that erases the fire.</p><h2 id=\"chapter-2\">Hands, materials and donations</h2><p>By the third day of the Month of Cala, narration records timber, nails and cut stone arriving. Donated gold and supplies from adventurers make the work possible. Jon and his apprentices labor alongside carters and carpenters.</p><p>The replacement is meant to be larger and to shelter familiar townsfolk and wandering strangers. Cedar work, salvage and the nearly finished building appear in the succeeding scenes. By the twenty-ninth the Pilgrim’s Hearth occupies the old foundations.</p><p>This is shared work. The record does not require one adventurer to become its sole owner, architect or benefactor for the completed building to count as an achievement.</p><h2 id=\"chapter-3\">A different aftermath in Fein Uaill</h2><p>The same later civic record describes peace after Aria’s fall and a period of reconciliation under Bowene. Caisleán na Brón offers respite. That assessment concerns conditions in the region; it does not establish Bowene’s first accession or a complete constitutional settlement.</p><p>Míriel still seeks influence. Magnus remains a troubling figure in a society where the finality of death has cultural weight, even as he adopts Zarathian traditions. Public calm and continuing distrust can exist together.</p><h2 id=\"chapter-4\">Two communities continue</h2><p>The comparison matters because recovery is uneven. Pristinia’s evidence includes visible construction, materials and people at work. Fein’s respite is described through a civic assessment that still acknowledges political strain.</p><p>Neither account makes a universal promise of safety. Together they show communities doing something after war and destruction: rebuilding places where ordinary life can happen, finding room to rest, and continuing arguments about how to live with the people who remain.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#pristinia\">Pristinia</a> · <a href=\"#pilgrims-hearth\">The Pilgrim’s Hearth</a> · <a href=\"#common-man\">The Common Man</a> · <a href=\"#herb\">Herb Shepard</a> · <a href=\"#bowene\">High Lord Bowene</a> · <a href=\"#fein-uaill\">Fein Uaill</a> · <a href=\"#miriel-emerald-veil\">Míriel of the Emerald Veil</a> · <a href=\"#magnus\">Magnus Niriin</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Prima expands while Fein begins a respite"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The room the fire took",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pilgrims-hearth — existing public account; original qualifications retained",
+          "#common-man — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained",
+          "#bowene — existing public account; original qualifications retained",
+          "#fein-uaill — existing public account; original qualifications retained",
+          "#miriel-emerald-veil — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Hands, materials and donations",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pilgrims-hearth — existing public account; original qualifications retained",
+          "#common-man — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained",
+          "#bowene — existing public account; original qualifications retained",
+          "#fein-uaill — existing public account; original qualifications retained",
+          "#miriel-emerald-veil — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "A different aftermath in Fein Uaill",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pilgrims-hearth — existing public account; original qualifications retained",
+          "#common-man — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained",
+          "#bowene — existing public account; original qualifications retained",
+          "#fein-uaill — existing public account; original qualifications retained",
+          "#miriel-emerald-veil — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Two communities continue",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pilgrims-hearth — existing public account; original qualifications retained",
+          "#common-man — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained",
+          "#bowene — existing public account; original qualifications retained",
+          "#fein-uaill — existing public account; original qualifications retained",
+          "#miriel-emerald-veil — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

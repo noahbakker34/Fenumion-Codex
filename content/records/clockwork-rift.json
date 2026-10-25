@@ -1,0 +1,187 @@
+{
+  "id": "clockwork-rift",
+  "title": "The Clockwork Rift · The Collector",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "An interrupted delivery becomes an attack on the travelers. Reinforcements target the mages while Carmen carries a fallen companion out.",
+  "tags": [
+    "Event stories",
+    "Rifts",
+    "Rift",
+    "Clockwork"
+  ],
+  "facts": {
+    "Recorded dates": "Source posts · 1–2 April 2025 · in-world date unresolved",
+    "Setting": "Clockwork passages beyond the breach",
+    "People": "Expedition participants; names not recovered in this summary",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356764617690321007",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356775060735529152",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356777585408737474",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356779743415894136",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356794897268740247",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356797748468387900",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356806130516623572",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356821842165502056",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835710807576576",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835720081309808",
+    "#rifts — existing public account; original qualifications retained",
+    "#carmen — existing public account; original qualifications retained",
+    "#ithilrune — existing public account; original qualifications retained",
+    "#brianna — existing public account; original qualifications retained",
+    "#magnus — existing public account; original qualifications retained"
+  ],
+  "body": "<p>A jagged, nearly pyramidal tear appears across the islands. Beyond its paint-like edges are brass tubes, turning gears and machinery. A monotone voice announces an interrupted project, discovers a route into the destination realm and begins a secondary delivery protocol.</p><h2 id=\"chapter-1\">The path into the machinery</h2><p>Inside are passages where pipes, clocks and gears follow arrangements both logical and impossible. The company takes the left path to a raised platform overlooking damaged walkways and scattered mechanical parts. An unnatural blue light shines at the center.</p><p>Golden, winged, ram-like constructs occupy the platforms with bladed humanoid machines. The automatons identify the visitors as intruders and announce an extermination protocol. The threat is now directed at the people who have entered, rather than remaining a distant mechanism they can examine at leisure.</p><h2 id=\"chapter-2\">The defenses change</h2><p>One ram flies up and breathes fire over Cecil and Brianna; another knocks Eldin down and strikes him on the ground. Magic damages some enemies, but the fire-breathing creatures do not fear every attack the company tries.</p><p>As the battle develops, a brass-and-silver support unit enters in response to detected magic. Its messages give priority to eliminating mages. Evrelki goes down under the pressure, and the constructs keep adjusting their targets as the travelers try to control the space.</p><h2 id=\"chapter-3\">A delivery for Death</h2><p>A grotesque union of body and machine rolls into the fight, using front legs and rear wheels, covered in saws and spikes. It announces itself as a collector sent by the Lord of Blades for Death. That is the creature’s declared purpose, not a fully recovered contract between everyone it names.</p><p>Ithilrûnë confines the collector in a Forcecage. The surrounding attackers remain dangerous: the support unit changes its attention toward her after the spell, while a ram knocks Magnus down. Containing one enemy has not ended the wider assault.</p><h2 id=\"chapter-4\">Getting the wounded out</h2><p>Cecil’s encounter instruction permits a traveler to use an action to leave while the breach is open. As people begin withdrawing, the collector protests the loss of the corpses it intended to gather.</p><p>Carmen, still in dinosaur form, holds the limp body of the moth boy and leaves before that form ends. The rescue is part of the recorded retreat. The company’s survival depends on using the available exit and carrying someone who cannot simply walk through it.</p><h2 id=\"chapter-5\">The outcome</h2><p>The recovered account ends with travelers leaving under pressure, not with a confirmed destruction of the entire machine realm or the collector’s patron. The names in its delivery speech remain evidence of what it claimed to be doing.</p><p>The permission to spend an action leaving belongs to this encounter. It does not establish an escape rule for every rift or guarantee that an incapacitated companion can always be rescued in time.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#carmen\">Carmen</a> · <a href=\"#ithilrune\">Ithilrûnë Ailinor</a> · <a href=\"#brianna\">Brianna</a> · <a href=\"#magnus\">Magnus Niriin</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "A clockwork rift opens into hostile machinery"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The path into the machinery",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356764617690321007",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356775060735529152",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356777585408737474",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356779743415894136",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356794897268740247",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356797748468387900",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356806130516623572",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356821842165502056",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835710807576576",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835720081309808",
+          "#rifts — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "The defenses change",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356764617690321007",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356775060735529152",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356777585408737474",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356779743415894136",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356794897268740247",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356797748468387900",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356806130516623572",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356821842165502056",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835710807576576",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835720081309808",
+          "#rifts — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "A delivery for Death",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356764617690321007",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356775060735529152",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356777585408737474",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356779743415894136",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356794897268740247",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356797748468387900",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356806130516623572",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356821842165502056",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835710807576576",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835720081309808",
+          "#rifts — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Getting the wounded out",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356764617690321007",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356775060735529152",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356777585408737474",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356779743415894136",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356794897268740247",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356797748468387900",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356806130516623572",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356821842165502056",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835710807576576",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835720081309808",
+          "#rifts — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "The outcome",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356764617690321007",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356775060735529152",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356777585408737474",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356779743415894136",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356794897268740247",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356797748468387900",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356806130516623572",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356821842165502056",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835710807576576",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835720081309808",
+          "#rifts — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

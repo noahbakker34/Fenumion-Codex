@@ -311,5 +311,16 @@
   "sourceReview": {
     "latestReview": "2026-10-24",
     "scope": "Incremental source packet: selected new scenes and stated outcomes checked against existing quest history. This extends the record; it does not certify the complete biography or attachment contents."
+  },
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Babel’s first hunts turn field skills into supplies",
+      "Aerrow’s temporary Revivify precedes a second death",
+      "Elenia restores Aerrow at Skylight Refuge",
+      "A gathering party faces the green dragon",
+      "A Babel hunt ends with healing and a coastal pause",
+      "A metal search meets thorns and giant spiders"
+    ]
   }
 }

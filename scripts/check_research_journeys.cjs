@@ -20,7 +20,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  assert.equal(await page.locator('#people-gallery [data-article="aerrow"]').count(),0,'owner classifies Aerrow as a player');
  assert(await page.evaluate(()=>archiveIndex.characters.filter(p=>p.article==='aerrow').length===1&&!archiveIndex.npcs.some(p=>p.article==='aerrow')));
  await go('mark-of-the-wild?section=wild-february-loss');
- assert(await page.locator('#wild-february-loss').evaluate(el=>el.closest('details').open));
+ assert(await page.locator('#wild-february-loss').evaluate(el=>Boolean(el.closest('.chronicle-chapter'))),'hunting-history legacy anchor remains visible in its continuous story');
  await page.locator('a[href="#aerrow?section=aerrow-february-loss"]').click();
  await page.waitForFunction(()=>byId.get('aerrow')?.bodyLoaded&&document.querySelector('#aerrow-february-loss')?.closest('details')?.open);
  assert(await page.locator('#aerrow-february-loss').evaluate(el=>el.nextElementSibling?.textContent.includes('Revivify')||el.closest('details').textContent.includes('Revivify')));

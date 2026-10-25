@@ -98,6 +98,7 @@ jobs:
           node scripts/check_research_journeys.cjs
           node scripts/check_rifts.cjs
           node scripts/check_timeline.cjs
+          node scripts/check_event_stories.cjs
           node scripts/check_calendar_site.cjs
           CODEX_NO_DATE_OBSERVER=1 node scripts/check_calendar_site.cjs
           node scripts/check_calendar_records.cjs

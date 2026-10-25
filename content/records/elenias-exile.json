@@ -1,0 +1,169 @@
+{
+  "id": "elenias-exile",
+  "title": "Elenia’s Exile · The Door Left Open",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "Bowene requires a sunset departure, but offers supplies, intelligence and a means to stay in contact. Punishment and cooperation remain in the same judgment.",
+  "tags": [
+    "Event stories",
+    "exile",
+    "banishment",
+    "sending stone"
+  ],
+  "facts": {
+    "Recorded dates": "22 Dec 2025",
+    "Setting": "Shining Shores; Babel-Ashur",
+    "People": "High Lord Bowene; Elenia; Aravil; Olokun",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841315849994314",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841751940300885",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845268033863750",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1452846851635023884",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1452849645008195606",
+    "#bowene — existing public account; original qualifications retained",
+    "#elenia — existing public account; original qualifications retained",
+    "#olokun — existing public account; original qualifications retained",
+    "#aravil — existing public account; original qualifications retained",
+    "#shining-shores — existing public account; original qualifications retained",
+    "#babel-ashur — existing public account; original qualifications retained"
+  ],
+  "body": "<p>On 22, Month of Hope, Year 2, Bowene delivers the judgment that requires Elenia to leave Fein Uaill. The company’s next destination is Babel-Ashur. The ruling separates people from a community and its political life, but Bowene deliberately distinguishes exile from banishment.</p><h2 id=\"chapter-1\">A judgment after mourning</h2><p>Bowene has praised Aria at her funeral. In the later judgment he also acknowledges, after contemplation, that she was not perfect. Both statements belong to his record. Mourning her and revising his assessment are actions taken at different moments, rather than evidence that one of the scenes must be discarded.</p><p>The judgment takes place within Zarathian ideas about dignity, law and death. Those values explain the setting in which he rules; they do not automatically prove that the punishment is just to everyone affected.</p><h2 id=\"chapter-2\">Who must leave</h2><p>Bowene requires Elenia’s departure and names Aravil and Olokun in the departing company. He asks which others wish to join them. Their acceptance and the open invitation do not establish that every person who travels receives an identical compulsory sentence.</p><p>Escorts are arranged and the company is told to meet at the Shining Shores before sunset. The coast that once welcomed arrivals becomes a place of farewell and departure.</p><h2 id=\"chapter-3\">Help for the next struggle</h2><p>Bowene directs the company toward Babel-Ashur and offers intelligence about Babelomnys and supplies for the fight against Death. He gives Elenia a sending stone as a gesture of continued contact.</p><p>The offer does not cancel the requirement to leave. It makes the actual settlement more complicated than a complete severing of relations: the exiles can still carry news and seek cooperation across the distance between the islands.</p><h2 id=\"chapter-4\">The possibility of return</h2><p>Bowene says the door will not be shut completely. Changes to local law and a future coexistence remain possibilities. The recovered ruling does not set a fixed term, establish a universal exclusion from every shore or confirm that a later return has already been authorized.</p><p>The distinction matters to what the company can reasonably hope for as it departs. An opening for reconsideration is more than permanent rejection, but it is not a promise that no further judgment will be needed.</p><h2 id=\"chapter-5\">A departure with an aftermath</h2><p>Elenia, Olokun, Aravil and the companions who join them leave with relationships and disagreements still active. The Babel campaign begins from this political rupture as well as from the island’s own survival crisis.</p><p>Later accounts describe peace and reconciliation in Fein Uaill, while distrust and attempts to gain influence continue. Those later conditions do not erase the exile or prove that all its legal consequences have ended. The story’s witnessed result is departure with material help and a channel of contact deliberately preserved.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#bowene\">High Lord Bowene</a> · <a href=\"#elenia\">Elenia</a> · <a href=\"#olokun\">Olokun</a> · <a href=\"#aravil\">Aravil</a> · <a href=\"#shining-shores\">The Shining Shores</a> · <a href=\"#babel-ashur\">Babel-Ashur</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Bowene exiles Elenia without closing the door"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "A judgment after mourning",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841315849994314",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841751940300885",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845268033863750",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452846851635023884",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452849645008195606",
+          "#bowene — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#aravil — existing public account; original qualifications retained",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#babel-ashur — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Who must leave",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841315849994314",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841751940300885",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845268033863750",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452846851635023884",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452849645008195606",
+          "#bowene — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#aravil — existing public account; original qualifications retained",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#babel-ashur — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "Help for the next struggle",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841315849994314",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841751940300885",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845268033863750",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452846851635023884",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452849645008195606",
+          "#bowene — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#aravil — existing public account; original qualifications retained",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#babel-ashur — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The possibility of return",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841315849994314",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841751940300885",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845268033863750",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452846851635023884",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452849645008195606",
+          "#bowene — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#aravil — existing public account; original qualifications retained",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#babel-ashur — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "A departure with an aftermath",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841315849994314",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452841751940300885",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845268033863750",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452845528802136169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452846851635023884",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1452849645008195606",
+          "#bowene — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#aravil — existing public account; original qualifications retained",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#babel-ashur — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

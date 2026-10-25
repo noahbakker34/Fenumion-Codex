@@ -1,0 +1,547 @@
+{
+  "reviewed": "2026-10-25",
+  "scope": "All 35 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
+  "stories": [
+    {
+      "article": "first-called-arrival",
+      "events": [
+        "The first Called arrive in Prima"
+      ],
+      "chapters": 4,
+      "words": 484,
+      "sourceReceipts": 4,
+      "existingPublicAccounts": [
+        "pristinia",
+        "akarian",
+        "melian-starguard",
+        "pristinia-campaign"
+      ]
+    },
+    {
+      "article": "failed-reality-ritual",
+      "events": [
+        "A reality-splitting ritual is foiled"
+      ],
+      "chapters": 4,
+      "words": 469,
+      "sourceReceipts": 8,
+      "existingPublicAccounts": [
+        "pristinia",
+        "quake",
+        "wren",
+        "elenia",
+        "adelia-hope",
+        "saray"
+      ]
+    },
+    {
+      "article": "voyage-to-reheva",
+      "events": [
+        "A sea expedition discovers a new island"
+      ],
+      "chapters": 4,
+      "words": 488,
+      "sourceReceipts": 10,
+      "existingPublicAccounts": [
+        "eovar-harbor",
+        "the-void",
+        "olokun",
+        "dale"
+      ]
+    },
+    {
+      "article": "azarian-peaks-expedition",
+      "events": [
+        "The Azarian Peaks expedition reaches the storm"
+      ],
+      "chapters": 8,
+      "words": 1220,
+      "sourceReceipts": 19,
+      "existingPublicAccounts": [
+        "discovery-013",
+        "olokun",
+        "scribonia",
+        "eugene"
+      ]
+    },
+    {
+      "article": "voyage-to-gael",
+      "events": [
+        "Nienna’s expedition reaches Gael",
+        "Nienna testifies to soul-fed Void passage"
+      ],
+      "chapters": 5,
+      "words": 553,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "nienna",
+        "the-void",
+        "gael",
+        "huoth",
+        "gartina"
+      ]
+    },
+    {
+      "article": "fall-of-wrath",
+      "events": [
+        "The assault on Wrath ends with Saray’s blow",
+        "Wrath is defeated, but Gael remains dangerous"
+      ],
+      "chapters": 6,
+      "words": 731,
+      "sourceReceipts": 15,
+      "existingPublicAccounts": [
+        "gael",
+        "gael-campaign",
+        "roderick-wrath",
+        "saray",
+        "elenia",
+        "gartina",
+        "huoth"
+      ]
+    },
+    {
+      "article": "third-arrival",
+      "events": [
+        "The Third Arrival brings Magnus, Dez, and Brianna"
+      ],
+      "chapters": 4,
+      "words": 384,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "magnus",
+        "brianna",
+        "papirak",
+        "pristinia"
+      ]
+    },
+    {
+      "article": "shadow-roads-expedition",
+      "events": [
+        "The party enters the Shadow Roads",
+        "Paco pays the return from the Roads"
+      ],
+      "chapters": 4,
+      "words": 511,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "coralyn",
+        "carmen",
+        "sildithas",
+        "ithilrune",
+        "brianna",
+        "ghilsen"
+      ]
+    },
+    {
+      "article": "aria-void-search",
+      "events": [
+        "The Void becomes an exploration space"
+      ],
+      "chapters": 4,
+      "words": 391,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "aria-pride",
+        "the-void",
+        "nienna",
+        "magnus"
+      ]
+    },
+    {
+      "article": "arias-last-battle",
+      "events": [
+        "Talan kills Aria",
+        "Death invokes ownership of Magnus"
+      ],
+      "chapters": 6,
+      "words": 685,
+      "sourceReceipts": 13,
+      "existingPublicAccounts": [
+        "aria-pride",
+        "magnus",
+        "olokun",
+        "scribonia",
+        "wren",
+        "eugene",
+        "zarathis-campaign"
+      ]
+    },
+    {
+      "article": "war-council-death",
+      "events": [
+        "The war council rejects alliance with Death"
+      ],
+      "chapters": 5,
+      "words": 564,
+      "sourceReceipts": 10,
+      "existingPublicAccounts": [
+        "aria-pride",
+        "bowene",
+        "olokun",
+        "scribonia",
+        "magnus",
+        "adelia-hope"
+      ]
+    },
+    {
+      "article": "arrival-shining-shores",
+      "events": [
+        "The party reaches the Shining Shores"
+      ],
+      "chapters": 4,
+      "words": 405,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "shining-shores",
+        "tarwen-silver-star",
+        "elenia",
+        "olokun",
+        "ithilrune"
+      ]
+    },
+    {
+      "article": "defense-of-aelthor",
+      "events": [
+        "The Heavenly Host attacks Aelthor"
+      ],
+      "chapters": 5,
+      "words": 526,
+      "sourceReceipts": 14,
+      "existingPublicAccounts": [
+        "shining-shores",
+        "aria-pride",
+        "olokun",
+        "magnus",
+        "elenia",
+        "scribonia",
+        "adelia-hope"
+      ]
+    },
+    {
+      "article": "elenias-exile",
+      "events": [
+        "Bowene exiles Elenia without closing the door"
+      ],
+      "chapters": 5,
+      "words": 468,
+      "sourceReceipts": 6,
+      "existingPublicAccounts": [
+        "bowene",
+        "elenia",
+        "olokun",
+        "aravil",
+        "shining-shores",
+        "babel-ashur"
+      ]
+    },
+    {
+      "article": "dream-rift-retreat",
+      "events": [
+        "A dreamlike rift remains unsealed"
+      ],
+      "chapters": 4,
+      "words": 406,
+      "sourceReceipts": 8,
+      "existingPublicAccounts": [
+        "rifts",
+        "the-void"
+      ]
+    },
+    {
+      "article": "clockwork-rift",
+      "events": [
+        "A clockwork rift opens into hostile machinery"
+      ],
+      "chapters": 5,
+      "words": 476,
+      "sourceReceipts": 10,
+      "existingPublicAccounts": [
+        "rifts",
+        "carmen",
+        "ithilrune",
+        "brianna",
+        "magnus"
+      ]
+    },
+    {
+      "article": "ooze-rift",
+      "events": [
+        "An ooze rift closes with a larger threat beyond"
+      ],
+      "chapters": 4,
+      "words": 381,
+      "sourceReceipts": 7,
+      "existingPublicAccounts": [
+        "rifts",
+        "olokun",
+        "farkur",
+        "elenia"
+      ]
+    },
+    {
+      "article": "sustained-breach",
+      "events": [
+        "Ritual evidence reveals a sustained breach"
+      ],
+      "chapters": 4,
+      "words": 424,
+      "sourceReceipts": 9,
+      "existingPublicAccounts": [
+        "rifts",
+        "scribonia",
+        "adelia-hope",
+        "jiangshi"
+      ]
+    },
+    {
+      "article": "dark-expanse-rift",
+      "events": [
+        "A vast rift leads into a dark expanse"
+      ],
+      "chapters": 4,
+      "words": 380,
+      "sourceReceipts": 9,
+      "existingPublicAccounts": [
+        "rifts",
+        "pappy",
+        "scribonia"
+      ]
+    },
+    {
+      "article": "abyssal-rift-cthulhu",
+      "events": [
+        "The Rift ambush tests knowledge and rescue",
+        "An abyssal rift becomes a crisis of allegiance",
+        "Cthulhu comes through a rift into Fenumion"
+      ],
+      "chapters": 5,
+      "words": 491,
+      "sourceReceipts": 10,
+      "existingPublicAccounts": [
+        "rifts",
+        "pappy",
+        "adelia-hope",
+        "magnus"
+      ]
+    },
+    {
+      "article": "volcanic-rift",
+      "events": [
+        "A volcanic rift collapses after its crystal is destroyed"
+      ],
+      "chapters": 4,
+      "words": 406,
+      "sourceReceipts": 9,
+      "existingPublicAccounts": [
+        "rifts",
+        "farkur",
+        "fenwick",
+        "scribonia",
+        "ryvyt",
+        "pristinia"
+      ]
+    },
+    {
+      "article": "coastal-rift",
+      "events": [
+        "A coastal rift opens onto a battle from the sea"
+      ],
+      "chapters": 4,
+      "words": 410,
+      "sourceReceipts": 9,
+      "existingPublicAccounts": [
+        "rifts",
+        "fenwick",
+        "nymera",
+        "vessalia",
+        "ryvyt"
+      ]
+    },
+    {
+      "article": "gael-travel-network",
+      "events": [
+        "Safe known-person travel to Gael is available"
+      ],
+      "chapters": 4,
+      "words": 438,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "thorn",
+        "gael",
+        "veilguard",
+        "ale-chemy-knights",
+        "lady-severina",
+        "nienna"
+      ]
+    },
+    {
+      "article": "gael-larkhollow-route",
+      "events": [
+        "Gael’s coast becomes a route toward Larkhollow"
+      ],
+      "chapters": 4,
+      "words": 404,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "gael",
+        "verdelune",
+        "larkhollow",
+        "viotas-monument",
+        "fenwick"
+      ]
+    },
+    {
+      "article": "founding-veilguard",
+      "events": [
+        "Severina turns the new vanguard into an organization"
+      ],
+      "chapters": 5,
+      "words": 507,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "veilguard",
+        "lady-severina",
+        "thorn",
+        "gael",
+        "fenwick"
+      ]
+    },
+    {
+      "article": "saturnia-arrival-vision",
+      "events": [
+        "Legend Lore reveals Saturnia’s arrival"
+      ],
+      "chapters": 5,
+      "words": 491,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "saturnia",
+        "scribonia"
+      ]
+    },
+    {
+      "article": "babel-mist-expedition",
+      "events": [
+        "Death makes an offer after the mist clearing"
+      ],
+      "chapters": 6,
+      "words": 576,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "babel-ashur",
+        "olokun",
+        "scribonia",
+        "nymera",
+        "wren",
+        "arjahn",
+        "ryvyt",
+        "aria-pride"
+      ]
+    },
+    {
+      "article": "gate-supply-exchange",
+      "events": [
+        "Farkur and Elenia exchange supplies across the Gate"
+      ],
+      "chapters": 4,
+      "words": 402,
+      "sourceReceipts": 4,
+      "existingPublicAccounts": [
+        "ryvyting-creations",
+        "farkur",
+        "elenia",
+        "ale-chemy-knights",
+        "pristinia",
+        "babel-ashur"
+      ]
+    },
+    {
+      "article": "rebuilding-prima-fein",
+      "events": [
+        "Prima expands while Fein begins a respite"
+      ],
+      "chapters": 4,
+      "words": 429,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "pristinia",
+        "pilgrims-hearth",
+        "common-man",
+        "herb",
+        "bowene",
+        "fein-uaill",
+        "miriel-emerald-veil",
+        "magnus"
+      ]
+    },
+    {
+      "article": "war-for-pristinia",
+      "events": [
+        "Magnus becomes a Rahu information source",
+        "Magnus fights Pristinia for the Rahu",
+        "Magnus falls and returns during the Rahu war",
+        "The Rahu siege grinds against Pristinia",
+        "Magnus abducts Melian for the Rahu",
+        "Pristinia reconstructs Melian’s abduction",
+        "Elenia breaks the Rahu siege towers"
+      ],
+      "chapters": 6,
+      "words": 643,
+      "sourceReceipts": 0,
+      "existingPublicAccounts": [
+        "pristinia",
+        "pristinia-campaign",
+        "magnus",
+        "melian-starguard",
+        "elenia",
+        "carmen",
+        "brianna",
+        "herb"
+      ]
+    },
+    {
+      "article": "papirak-legacy",
+      "events": [
+        "Minerva finds no readable trace in Papirak’s grimoire",
+        "Truesight reveals the grimoire’s hidden spells",
+        "Pell prepares Papirak’s burial and memorial",
+        "Pristinia opens a vote on Papirak’s Staff of Power",
+        "Pristinia carries Papirak to his hill",
+        "Papirak’s staff is entombed under Sequester"
+      ],
+      "chapters": 9,
+      "words": 915,
+      "existingFocusedHistory": true
+    },
+    {
+      "article": "withering-of-hope",
+      "events": [
+        "Magnus returns and Hope withers"
+      ],
+      "chapters": 5,
+      "words": 500,
+      "existingFocusedHistory": true
+    },
+    {
+      "article": "mark-of-the-wild",
+      "events": [
+        "Babel’s first hunts turn field skills into supplies",
+        "Aerrow’s temporary Revivify precedes a second death",
+        "Elenia restores Aerrow at Skylight Refuge",
+        "A gathering party faces the green dragon",
+        "A Babel hunt ends with healing and a coastal pause",
+        "A metal search meets thorns and giant spiders"
+      ],
+      "chapters": 7,
+      "words": 966,
+      "existingFocusedHistory": true
+    }
+  ],
+  "calendarCorrection": {
+    "event": "The war council rejects alliance with Death",
+    "previousLabel": "Late 2025 · exact date unresolved",
+    "sourceCheckedDate": "2025-10-26",
+    "reason": "Original quest exchange; Aria, Olokun and Bowene directly present."
+  }
+}

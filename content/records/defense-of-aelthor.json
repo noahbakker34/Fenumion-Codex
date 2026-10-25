@@ -1,0 +1,223 @@
+{
+  "id": "defense-of-aelthor",
+  "title": "The Defense of Aelthor",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "Under an eclipse, the Heavenly Host attacks the Shining Shores. The defenders hold, Olokun strikes the last blow, and the city is left counting its dead.",
+  "tags": [
+    "Event stories",
+    "Heavenly Host",
+    "eclipse",
+    "Aelthor"
+  ],
+  "facts": {
+    "Recorded dates": "15 Oct 2025",
+    "Setting": "Gates of Aelthor; Shining Shores",
+    "People": "Magnus; Adelia; Elenia; Scribonia; Olokun; Aria",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428168315280560261",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428169552432201831",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170359600840745",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170713814274178",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428171809202638949",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428172474553733262",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428238927336308736",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428241928817741955",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428242316040081551",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428249146715799603",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428257844293144577",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428259931756433530",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428260321872580619",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1428262384212115496",
+    "#shining-shores — existing public account; original qualifications retained",
+    "#aria-pride — existing public account; original qualifications retained",
+    "#olokun — existing public account; original qualifications retained",
+    "#magnus — existing public account; original qualifications retained",
+    "#elenia — existing public account; original qualifications retained",
+    "#scribonia — existing public account; original qualifications retained",
+    "#adelia-hope — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The approach to Aelthor is unusually silent. The Zarathians are accustomed to sacrifice, but the scale of the coming assault has stripped the towns of their usual boasts and cheers. Ships carry the defenders downriver toward the sea as an eclipse forms behind a vast cloud.</p><h2 id=\"chapter-1\">The last ship at the lighthouse</h2><p>The company reaches a harbor defended by walls. The sea strikes them while the red sky disappears behind radiant cloud. A final ship evacuates the lighthouse ahead of the approaching storm.</p><p>Aria’s ship remains visible for a moment, its flag raised against the gods. Small against the weather, it gives the watching people hope. When she docks and takes her place, the soldiers finish forming on the wall. Magnus, Adelia, Elenia, Scribonia and Olokun are among the other named defenders.</p><h2 id=\"chapter-2\">The fight reaches the spellcasters</h2><p>The Heavenly Host presses the defense. Later in the fighting, an immense incarnate strides from the clouds. It bends time around itself, closes toward the mages at the back and releases temporal force through them.</p><p>The attacker declares Aionia’s wrath and accuses the defenders of meddling with what is not theirs. The declaration supplies its accusation; it does not resolve the political or moral claims behind the war.</p><p>As the fight continues, the mighty angel cuts into the spellcasters. The defenders’ army bends around them. The narration makes the immediate stakes plain: if this position can hold, the day can still be won.</p><h2 id=\"chapter-3\">Olokun’s final blow</h2><p>The fighting is costly. A cosmic burst takes Olokun out and makes others, including Pride, reel. The company continues to resist. Ultimately, Olokun delivers the final blow against the immense creature.</p><p>It comes apart into cosmic dust. The destruction around it remains. The narration counts hundreds, perhaps thousands, dead rather than giving an exact settled casualty list. The defenders have won the day, but the city and its people have suffered a catastrophe.</p><h2 id=\"chapter-4\">Aria above the rubble</h2><p>Aria climbs to the highest point amid the wreckage. Soldiers see her bloody blade and cheer. She stands with a torn cloak and anger on her face while the crowd calls her name.</p><p>That scene helps explain the cultural and military authority she holds alongside the Senate and civic offices. The defenders’ response is part of what happens after the battle, not proof that all Zarathians share one view of her or that her authority replaces every institution.</p><h2 id=\"chapter-5\">The argument the battle leaves</h2><p>The council that follows must decide how to answer the assault and whether to take the struggle into another realm. Aria points to Aelthor’s families when she argues for drastic measures; Olokun questions who may choose the next sacrifice. Their disagreement grows from a victory that has left so many people dead.</p><p>The checked account establishes a successful defense, Olokun’s finishing blow and severe losses. It does not provide every casualty, every commander’s action or a complete military map. The eclipse and the radiant cloud belong to the witnessed approach; the attacker’s words remain an attributed claim.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#shining-shores\">The Shining Shores</a> · <a href=\"#aria-pride\">Aria / Pride</a> · <a href=\"#olokun\">Olokun</a> · <a href=\"#magnus\">Magnus Niriin</a> · <a href=\"#elenia\">Elenia</a> · <a href=\"#scribonia\">Scribonia</a> · <a href=\"#adelia-hope\">Adelia &amp; Hope</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "The Heavenly Host attacks Aelthor"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The last ship at the lighthouse",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428168315280560261",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428169552432201831",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170359600840745",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170713814274178",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428171809202638949",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428172474553733262",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428238927336308736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428241928817741955",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428242316040081551",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428249146715799603",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428257844293144577",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428259931756433530",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428260321872580619",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428262384212115496",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "The fight reaches the spellcasters",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428168315280560261",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428169552432201831",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170359600840745",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170713814274178",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428171809202638949",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428172474553733262",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428238927336308736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428241928817741955",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428242316040081551",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428249146715799603",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428257844293144577",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428259931756433530",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428260321872580619",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428262384212115496",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "Olokun’s final blow",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428168315280560261",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428169552432201831",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170359600840745",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170713814274178",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428171809202638949",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428172474553733262",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428238927336308736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428241928817741955",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428242316040081551",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428249146715799603",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428257844293144577",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428259931756433530",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428260321872580619",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428262384212115496",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Aria above the rubble",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428168315280560261",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428169552432201831",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170359600840745",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170713814274178",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428171809202638949",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428172474553733262",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428238927336308736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428241928817741955",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428242316040081551",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428249146715799603",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428257844293144577",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428259931756433530",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428260321872580619",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428262384212115496",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "The argument the battle leaves",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428168315280560261",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428169552432201831",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170359600840745",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428170713814274178",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428171809202638949",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428172474553733262",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428238927336308736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428241928817741955",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428242316040081551",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428249146715799603",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428257844293144577",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428259931756433530",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428260321872580619",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1428262384212115496",
+          "#shining-shores — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

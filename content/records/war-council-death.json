@@ -1,0 +1,193 @@
+{
+  "id": "war-council-death",
+  "title": "The War Council · Whose Pain?",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "After the defense of Aelthor, Aria proposes a bargain with Death. Olokun challenges the price, and Bowene removes the alliance from consideration.",
+  "tags": [
+    "Event stories",
+    "Whose sacrifice?",
+    "Death",
+    "council"
+  ],
+  "facts": {
+    "Recorded dates": "26 Oct 2025 · source-checked quest council",
+    "Setting": "War council",
+    "People": "High Lord Bowene; Aria; Olokun; Scribonia; Jiangshi; Magnus",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432066618539901093",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432073788861976736",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432077798880575509",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432085194243833889",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432086544000225502",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432101405740761170",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104371721605130",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104726270443732",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432105143381524592",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278",
+    "#aria-pride — existing public account; original qualifications retained",
+    "#bowene — existing public account; original qualifications retained",
+    "#olokun — existing public account; original qualifications retained",
+    "#scribonia — existing public account; original qualifications retained",
+    "#magnus — existing public account; original qualifications retained",
+    "#adelia-hope — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The council meets after the Heavenly Host’s assault on Aelthor. The city has survived, but the loss gives urgency to the question of taking the war elsewhere. Arandiel prepares his forces while the company argues over what it might face and whether the risk can be justified.</p><h2 id=\"chapter-1\">What would another war cost?</h2><p>Olokun questions sending people and resources into a war in another realm. They defended their own land when attacked; he does not see that as consent to every offensive campaign proposed afterward. He asks how they can prepare to face many beings whose strength and numbers they do not understand.</p><p>Aria answers from her experience of keeping Fein Uaill beyond divine control. She also warns that Death’s forces, perhaps a Knight, might be present. Her judgments about relative power remain hers, rather than a complete ranking of everything the army could encounter.</p><h2 id=\"chapter-2\">The people behind the equipment</h2><p>The council discusses an artifact associated with Adelia. Bowene offers access to the treasury if that could help secure its loan. Olokun objects when the discussion treats its bearer as a means to acquire a useful object rather than a protector who has already fought for the land.</p><p>The disagreement anticipates the larger one to come. The company needs resources, but agreement about their usefulness does not decide what may be demanded from the people who hold them.</p><h2 id=\"chapter-3\">Aria proposes an alliance</h2><p>Aria asks whether they could help Death deal with the gods in exchange for a promise never to touch their realm. She presents this as an alliance from mortal strength, not an offer to sell themselves into slavery.</p><p>Olokun rejects the proposal. He points to the harm already done in Gael, Prima and other lands and asks why Death’s word should be trusted. Aria points back to Aelthor’s bereaved families. Their shared anger at divine violence does not make them agree on whom they may safely empower.</p><p>The argument strains their personal relationship. Aria questions whether she can still consider Olokun a friend after what they have endured. He insists he will fight for their people, but wants a plan and alternatives rather than a bargain whose consequences may destroy what they mean to protect.</p><h2 id=\"chapter-4\">Whose pain can be offered?</h2><p>Aria says pain must sometimes be endured to win. Olokun answers that he is speaking of his own pain, not everyone else’s. Asked what she fights for, Aria names a future of safety, security and unbound potential for her people.</p><p>The disagreement is therefore not between someone who cares about mortals and someone who does not. It concerns who can choose the price. Olokun’s willingness to suffer does not, in his argument, let him volunteer other people’s lives.</p><h2 id=\"chapter-5\">Bowene’s decision</h2><p>Bowene tells the council that they will not pursue this line of action, if only to keep the companions as allies. That is the concrete result of the exchange: the proposed alliance with Death is removed from consideration in this council.</p><p>The decision does not settle every military plan or produce universal agreement about Aria, the gods or the war. It preserves a boundary reached in an argument between people who still need to act together. The later battle with Talan follows in a separate chapter of their history.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#aria-pride\">Aria / Pride</a> · <a href=\"#bowene\">High Lord Bowene</a> · <a href=\"#olokun\">Olokun</a> · <a href=\"#scribonia\">Scribonia</a> · <a href=\"#magnus\">Magnus Niriin</a> · <a href=\"#adelia-hope\">Adelia &amp; Hope</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "The war council rejects alliance with Death"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "What would another war cost?",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed. The original 26 October quest exchange corrects an inherited 20 December timeline placement after Aria’s death.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432066618539901093",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432073788861976736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432077798880575509",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432085194243833889",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432086544000225502",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432101405740761170",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104371721605130",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104726270443732",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432105143381524592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#bowene — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "The people behind the equipment",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432066618539901093",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432073788861976736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432077798880575509",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432085194243833889",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432086544000225502",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432101405740761170",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104371721605130",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104726270443732",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432105143381524592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#bowene — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "Aria proposes an alliance",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432066618539901093",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432073788861976736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432077798880575509",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432085194243833889",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432086544000225502",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432101405740761170",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104371721605130",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104726270443732",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432105143381524592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#bowene — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Whose pain can be offered?",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432066618539901093",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432073788861976736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432077798880575509",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432085194243833889",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432086544000225502",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432101405740761170",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104371721605130",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104726270443732",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432105143381524592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#bowene — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "Bowene’s decision",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432066618539901093",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432073788861976736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432077798880575509",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432085194243833889",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432086544000225502",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432101405740761170",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104371721605130",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432104726270443732",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432105143381524592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106669869109278",
+          "#aria-pride — existing public account; original qualifications retained",
+          "#bowene — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

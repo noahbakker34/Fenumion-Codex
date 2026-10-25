@@ -1,0 +1,191 @@
+{
+  "id": "war-for-pristinia",
+  "title": "The War for Pristinia",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "The Rahu war turns a recent companion against Pristinia. The siege, Elenia’s intervention and Melian’s abduction become different crises within one struggle for a living town.",
+  "tags": [
+    "Event stories",
+    "Rahu",
+    "Sophina",
+    "trade",
+    "intelligence",
+    "Rahu–Pristinia War",
+    "betrayal",
+    "bridge",
+    "testimony",
+    "death",
+    "resurrection",
+    "unresolved",
+    "siege engines",
+    "disease",
+    "fires",
+    "abduction",
+    "yielding gas",
+    "no witnesses",
+    "investigation",
+    "chemical residue",
+    "defenses",
+    "siege",
+    "Savior of Pristinia"
+  ],
+  "facts": {
+    "Recorded dates": "7 May 2025 · 25 May 2025 · 25 May–4 Jun 2025 · 29 May 2025 · 4 Jun 2025 · 4 Jun 2025 · scene backdated by the narrator in a 5 Jun post · 2025 · exact date unresolved",
+    "Setting": "Pristinia; Prima · Pristinia walls; Prima · Melian’s House; Pristinia; Prima",
+    "People": "Magnus; Ambassador Sophina; Strange Talon; Aravil; Ithilrûnë; Brianna; Ghilsen; Carmen; Fredrick; Ruben; Paco; Rahu forces; Pristinia’s defenders; Ale-Chemy Knights; Melian Starguard; Herb; Scout Lilian; Pristinia’s investigators; Elenia",
+    "Importance": "Regional · Relational · Local"
+  },
+  "sources": [
+    "#pristinia — existing public account; original qualifications retained",
+    "#pristinia-campaign — existing public account; original qualifications retained",
+    "#magnus — existing public account; original qualifications retained",
+    "#melian-starguard — existing public account; original qualifications retained",
+    "#elenia — existing public account; original qualifications retained",
+    "#carmen — existing public account; original qualifications retained",
+    "#brianna — existing public account; original qualifications retained",
+    "#herb — existing public account; original qualifications retained"
+  ],
+  "body": "<p>Pristinia enters the Rahu war as a town with homes, stores, work and people to protect. Its walls have been built and repaired by many hands. The war tests those defenses while also dividing adventurers who have eaten, shopped and traveled together.</p><h2 id=\"chapter-1\">Magnus changes sides</h2><p>Magnus first belongs to ordinary adventuring life after his arrival with Dez and Brianna. He travels with people who will soon face him across a battlefield. His Rahu sympathies develop into access and information work before he openly acts against Pristinia.</p><p>During the fighting near the bridge, Fredrick detects him concealed nearby. Carmen assigns Paco to watch while keeping her own attention on the battle. Magnus then fights on the Rahu side. His fall and return during the war do not settle the settlement’s judgment of his allegiance or erase the acts that brought him there.</p><h2 id=\"chapter-2\">Decisions while the stones fall</h2><p>In the checked siege scene, the defenders debate while the attackers continue firing. A boulder strikes a nearby house. Reconnaissance identifies catapults and ballista towers beyond the settlement.</p><p>The damage is happening while the company decides what to do. People inside the walls cannot wait for a later historian’s complete account before choosing how to protect one another. Scouts, fighters, healers, builders and civilians carry different parts of that burden.</p><p>Melian holds her position at the Northeast Tower and helps organize the defense using the terrain, palisades and the work of the town’s smiths, miners, crafters and loyalists. Ada’s frightened account calls her the last banner of Pristinia. That description preserves a witness’s impression alongside the practical work.</p><h2 id=\"chapter-3\">Elenia and the siege towers</h2><p>Elenia’s extraordinary intervention breaks the siege towers and earns her the public title Savior of Pristinia. The destruction of the engines is a major change in the immediate threat. It is not a reason to remove everyone else’s contribution from the defense.</p><p>The recovered siege has several stages. The date of one bombardment scene should not be used to invent an exact hour or day for every later intervention, nor does the title mean that the whole Rahu conflict ends at that instant.</p><h2 id=\"chapter-4\">Melian is missing</h2><p>Magnus’s abduction of Melian creates another crisis within the same war. When the company reaches her house, the narration places Herb, Lillian and the raven dead nearby and Melian missing. It explicitly locates the attack on the preceding day.</p><p>That distinction gives the search its real sequence: an attack, a later discovery and an investigation by people who do not yet know the full plan. Their finding the scene is not the moment the abduction happens, and the victims’ later returns cannot be read backward into what the searchers see.</p><h2 id=\"chapter-5\">A war in people’s lives</h2><p>Brianna’s effort to preserve an enemy for trial brings her into conflict with Elenia’s fear of further battlefield deaths. Carmen condemns the use of young soldiers against vastly stronger adventurers. These arguments concern how to fight as well as whom to defeat.</p><p>The later Queen’s report of Melian’s release remains a report of an off-page handover. It does not supply the exact physical transfer or finish every legal and personal consequence of captivity.</p><h2 id=\"chapter-6\">The town that remains</h2><p>Pristinia survives through a distributed defense and continues with repair, care, institutions and mourning. The war changes relationships long after the engines are broken. Magnus’s former companionship, the people harmed by his choices, Melian’s civic role and the civilians caught in the violence all belong in that history.</p><p>The linked milestones retain their individual dates and evidence. Keeping them in one account makes the causal story readable without pretending that all parts happened on one day or that the surviving record resolves every death, return and release.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#pristinia\">Pristinia</a> · <a href=\"#pristinia-campaign\">Pristinia · a town worth defending</a> · <a href=\"#magnus\">Magnus Niriin</a> · <a href=\"#melian-starguard\">Melian Starguard</a> · <a href=\"#elenia\">Elenia</a> · <a href=\"#carmen\">Carmen</a> · <a href=\"#brianna\">Brianna</a> · <a href=\"#herb\">Herb Shepard</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Magnus becomes a Rahu information source",
+      "Magnus fights Pristinia for the Rahu",
+      "Magnus falls and returns during the Rahu war",
+      "The Rahu siege grinds against Pristinia",
+      "Magnus abducts Melian for the Rahu",
+      "Pristinia reconstructs Melian’s abduction",
+      "Elenia breaks the Rahu siege towers"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "Magnus changes sides",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Decisions while the stones fall",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "Elenia and the siege towers",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Melian is missing",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "A war in people’s lives",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-6",
+      "title": "The town that remains",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#pristinia — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#herb — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

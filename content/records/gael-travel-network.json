@@ -1,0 +1,114 @@
+{
+  "id": "gael-travel-network",
+  "title": "A Safer Way to Gael",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "Thorn describes a trusted route between islands, while markets, refuge and continuing dangers show what easier passage can—and cannot—change.",
+  "tags": [
+    "Event stories",
+    "travel",
+    "islands",
+    "network"
+  ],
+  "facts": {
+    "Recorded dates": "Confirmed 19 Sep 2026",
+    "Setting": "Prima ↔ Gael",
+    "People": "Thorn; Ale-chemy Knights; unnamed transporter",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#thorn — existing public account; original qualifications retained",
+    "#gael — existing public account; original qualifications retained",
+    "#veilguard — existing public account; original qualifications retained",
+    "#ale-chemy-knights — existing public account; original qualifications retained",
+    "#lady-severina — existing public account; original qualifications retained",
+    "#nienna — existing public account; original qualifications retained"
+  ],
+  "body": "<p>By the Month of Nuru, Year 3, a conversation about reaching Gael can begin somewhere very different from Nienna’s dangerous first voyage. Thorn says a friend can safely carry people they know to Gael from any island. The offer depends on personal acquaintance, rather than being a publicly demonstrated route anyone can purchase or use alone.</p><h2 id=\"chapter-1\">A traveler with reason to return</h2><p>Thorn identifies herself as Veilguard and feels an obligation to return to Gael. Her explanation that the members watch out for one another gives the proposed journey a social context. Going back is connected to a company and to people expecting her, not only to the availability of a spell.</p><p>Her own recovery has made that mutual responsibility costly. Severina promised to bring her back, recovered her body and carried her home; Alyhotep began a Wish-based resurrection, and Thorn was later alive and recovering. The checked record does not contain a separate narrator description of the exact spell-completion moment.</p><h2 id=\"chapter-2\">What the offer establishes</h2><p>The transport claim names three practical conditions: the destination is Gael, the departure can be from different islands, and the traveler must be known to the transporter. The exact magic and the unnamed friend’s identity remain unresolved in this account.</p><p>The conversation establishes that access is being offered and understood within a trusted network. It does not independently show every promised trip succeeding or create a guarantee for strangers. The distinction matters to newcomers deciding whether they actually have a way to go.</p><h2 id=\"chapter-3\">A destination with more ordinary life</h2><p>Gael is also changing. The Ale-Chemy Knights’ open-air market gives different skills places to work and trade. Around the Tower, refuge and restoration have developed beyond the first expedition’s desperate arrival, though permanent housing and supplies remain unfinished work.</p><p>That makes safer access consequential. Materials, skilled people and returning companions can support a living community rather than only a battlefield. Faction resources and individual relationships both help connect the islands.</p><h2 id=\"chapter-4\">Danger after arrival</h2><p>The same period includes husk hunts, loss and a cult threat involving one of Gael’s shards. A better crossing cannot make the Plains safe or finish every recovery effort. Knowing how to reach someone also does not make the company’s mutual obligations effortless.</p><p>Thorn’s statement is therefore an important change in the recorded travel network, with clear limits. It belongs beside the earlier ship voyage and the later journey from Gael toward Larkhollow, while retaining its status as attributed travel information rather than a complete map of reliable transport.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#thorn\">Thorn</a> · <a href=\"#gael\">Gael</a> · <a href=\"#veilguard\">The Veilguard</a> · <a href=\"#ale-chemy-knights\">The Ale-Chemy Knights</a> · <a href=\"#lady-severina\">Lady Severina Blackveil</a> · <a href=\"#nienna\">Nienna</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Safe known-person travel to Gael is available"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "A traveler with reason to return",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#thorn — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#veilguard — existing public account; original qualifications retained",
+          "#ale-chemy-knights — existing public account; original qualifications retained",
+          "#lady-severina — existing public account; original qualifications retained",
+          "#nienna — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "What the offer establishes",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#thorn — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#veilguard — existing public account; original qualifications retained",
+          "#ale-chemy-knights — existing public account; original qualifications retained",
+          "#lady-severina — existing public account; original qualifications retained",
+          "#nienna — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "A destination with more ordinary life",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#thorn — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#veilguard — existing public account; original qualifications retained",
+          "#ale-chemy-knights — existing public account; original qualifications retained",
+          "#lady-severina — existing public account; original qualifications retained",
+          "#nienna — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Danger after arrival",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#thorn — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#veilguard — existing public account; original qualifications retained",
+          "#ale-chemy-knights — existing public account; original qualifications retained",
+          "#lady-severina — existing public account; original qualifications retained",
+          "#nienna — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

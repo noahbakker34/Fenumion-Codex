@@ -1,0 +1,134 @@
+{
+  "id": "dream-rift-retreat",
+  "title": "The Dream Rift · The Retreat",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "A breach opens onto a dead titan and a living dream feeding on its weapon. The expedition is overwhelmed and leaves the tear unsealed.",
+  "tags": [
+    "Event stories",
+    "Rifts",
+    "Rift",
+    "Failure"
+  ],
+  "facts": {
+    "Recorded dates": "Source posts · 31 March 2025 · in-world date unresolved",
+    "Setting": "Dreamlike space beyond the breach",
+    "People": "Expedition participants; names not recovered in this summary",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083050026500136",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087379022315661",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095250661376215",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
+    "#rifts — existing public account; original qualifications retained",
+    "#the-void — existing public account; original qualifications retained"
+  ],
+  "body": "<p>A doorway opens in the sky across the realm, interrupting an ordinary cloudy day. Those who answer do so without knowing the threat beyond it. Entering carries them through a dreamscape of dead ideas, abandoned possibilities and glimpses that resemble their own dreams.</p><h2 id=\"chapter-1\">The weapon beyond the threshold</h2><p>The travelers find one another near a vast dead creature. Its body looks less like a warrior slain in combat than something consumed as food. Its fallen sword hangs in the strange space, and acolytes and a living dream are harvesting power from it.</p><p>The narration connects the feeding with the hole between realities. As the company looks toward the weapon, the creature eating at that opening turns toward them. The expedition has a threat to stop, but little assurance about the world in which it must fight.</p><h2 id=\"chapter-2\">Hunger and fear</h2><p>The battle attacks perception as well as flesh. Struck travelers see nightmares that frighten or paralyze them. One fallen adventurer is seized and crushed by a creature of hunger. A mental attack fails against seers described as mindless, intent on their feeding and their task.</p><p>These details make the defeat more than a tally of enemies left standing. The company is losing the ability to act coherently in a place where it already cannot reliably distinguish dream from reality.</p><h2 id=\"chapter-3\">The failed attempt</h2><p>The closing narration explicitly describes the party as overwhelmed and the attempt to seal the rift as a failure. Their remaining connection to their own reality gives them a way to escape. Leaving is the outcome, rather than a completed victory hidden inside a retreat.</p><p>The breach is not fully sealed. The final account warns of ripples and nightmares beyond the company’s knowledge and describes the day as a victory for Death. That warning remains a consequence announced in the scene; it does not identify every later nightmare as an effect of this particular opening.</p><h2 id=\"chapter-4\">What the survivors can carry home</h2><p>They have seen a dead titan-scale being, its weapon exploited, and a living dream feeding the breach. They have also learned that merely entering together does not guarantee they can finish the work.</p><p>The destination’s exact nature, the complete casualty record and the later fate of the opening remain incomplete. Its source date is preserved as a posting date. It must not be given the safe-return assumptions or successful closure of another rift encounter.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#the-void\">The Void</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "A dreamlike rift remains unsealed"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The weapon beyond the threshold",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083050026500136",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087379022315661",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095250661376215",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
+          "#rifts — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Hunger and fear",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083050026500136",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087379022315661",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095250661376215",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
+          "#rifts — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The failed attempt",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083050026500136",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087379022315661",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095250661376215",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
+          "#rifts — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "What the survivors can carry home",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083050026500136",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087379022315661",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095250661376215",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
+          "#rifts — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

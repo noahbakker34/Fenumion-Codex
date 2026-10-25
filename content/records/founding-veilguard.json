@@ -1,0 +1,127 @@
+{
+  "id": "founding-veilguard",
+  "title": "The Making of the Veilguard",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "Peers choose Severina for her judgment. She gathers people, seeks mobility and equipment, and gives the new company a name whose promises will later be tested.",
+  "tags": [
+    "Event stories",
+    "Veilguard",
+    "equipment",
+    "mobility"
+  ],
+  "facts": {
+    "Recorded dates": "20 May 2026 · recovered faction history",
+    "Setting": "Pristinia and the inter-island routes",
+    "People": "Lady Severina Blackveil; the forming Veilguard",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#veilguard — existing public account; original qualifications retained",
+    "#lady-severina — existing public account; original qualifications retained",
+    "#thorn — existing public account; original qualifications retained",
+    "#gael — existing public account; original qualifications retained",
+    "#fenwick — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The Veilguard begins with a role that needs filling. The earlier Vanguard can no longer be assumed to meet every danger, and Fenumion still needs people able to travel toward crises, support less experienced companions and work together under pressure.</p><h2 id=\"chapter-1\">Choosing a leader</h2><p>At the leadership exercise on 14, Month of Namo’o, Year 3, Kumai-218 asks the candidates what leadership means and whom they trust. Severina, Pelagia, Thorn, Camilla, Kasiri and Modeli are directly present in the recovered selection.</p><p>Pelagia emphasizes being worthy of followers and bringing them toward a common goal. Thorn warns that attractive words need proof in action. The exercise concerns judgment and character as well as strength.</p><p>Kasiri supports Severina because she trusts her to act rightly even at a personal cost to Kasiri. Camilla names duty, discipline and judgment that does not surrender to fear or sentiment. Severina is surprised by the support she receives. Her authority begins with peers choosing her, rather than with a title she awards herself.</p><h2 id=\"chapter-2\">From an exercise to a company</h2><p>By 20, Month of Physisia, Severina reports that she has gathered people, chosen a name and begun looking for equipment to respond quickly on other islands. By the twenty-fifth, she uses Veilguard publicly while discussing wider cooperation, newer adventurers and the coming war.</p><p>The exact naming day remains unrecovered. What is established is the work of forming an institution between those scenes: people have to be brought together, supplied and made able to travel when another settlement needs help.</p><h2 id=\"chapter-3\">How the company means to work</h2><p>Severina’s approach is practical. She looks for people’s strengths, assigns roles, protects those most exposed, preserves a reserve and changes plans when the situation changes. Equipment and communication serve those decisions.</p><p>The surviving record does not give a complete permanent roster or written charter. It does show repeated commitments to accountability and to resources being used for people. The Veilguard remains distinct from the Ale-Chemy Knights and from the earlier Vanguard.</p><h2 id=\"chapter-4\">Thorn tests the promise</h2><p>Thorn’s loss makes those commitments expensive. Severina and Pelagia discuss shared money, crafting, husks, favors and portable resources. Severina promises to bring her back, then recovers her body, preserves it and carries her home.</p><p>Alyhotep begins a Wish-based resurrection after the body reaches the Tower. By 8, Month of Nuru, Thorn is alive and recovering there. Later she names herself as Veilguard and explains that they watch out for one another.</p><h2 id=\"chapter-5\">Work inherited, not completed</h2><p>The founding has become more than a leadership exercise, but it has not ended danger or supplied every answer about Gael’s future. Fenwick’s later welcome, with his Knights affiliation explicitly retained, gives a witnessed example of the company growing without absorbing every other organization.</p><p>The Veilguard’s story continues through the people it must protect and the promises it must keep after failure. The founding record establishes chosen leadership, organization and a name; its later service shows what those choices begin to require.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#veilguard\">The Veilguard</a> · <a href=\"#lady-severina\">Lady Severina Blackveil</a> · <a href=\"#thorn\">Thorn</a> · <a href=\"#gael\">Gael</a> · <a href=\"#fenwick\">Fenwick d&#x27;Jorasco</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Severina turns the new vanguard into an organization"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "Choosing a leader",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#veilguard — existing public account; original qualifications retained",
+          "#lady-severina — existing public account; original qualifications retained",
+          "#thorn — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "From an exercise to a company",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#veilguard — existing public account; original qualifications retained",
+          "#lady-severina — existing public account; original qualifications retained",
+          "#thorn — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "How the company means to work",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#veilguard — existing public account; original qualifications retained",
+          "#lady-severina — existing public account; original qualifications retained",
+          "#thorn — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Thorn tests the promise",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#veilguard — existing public account; original qualifications retained",
+          "#lady-severina — existing public account; original qualifications retained",
+          "#thorn — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "Work inherited, not completed",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#veilguard — existing public account; original qualifications retained",
+          "#lady-severina — existing public account; original qualifications retained",
+          "#thorn — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

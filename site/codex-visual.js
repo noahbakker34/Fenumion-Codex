@@ -53,6 +53,8 @@
   }
   function eventArt(item, context) {
     if (![4,5].includes(item.importance)) return '';
+    // A story destination must not inherit unrelated atlas or directory artwork.
+    if (item.story) return '';
     const candidates = [context.byId.get(item.article), ...(item.regions || []).map(id => context.byId.get(regions.find(region => region.id === id)?.article))];
     const record = candidates.find(record => record?.image && !/\.gif(?:$|\?)/i.test(record.image) && !record.protected && context.allowed(record.id));
     const image = record?.image || 'assets/archive/narrative-history-background-poster.webp';

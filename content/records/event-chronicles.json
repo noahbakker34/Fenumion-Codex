@@ -1,0 +1,54 @@
+{
+  "id": "event-chronicles",
+  "title": "Event Stories",
+  "category": "History",
+  "type": "Read the quests and turning points",
+  "dek": "Detailed accounts of expeditions, battles, choices and their aftermath. Follow a whole story, then return to its timeline milestones.",
+  "tags": [
+    "Event stories",
+    "Quests",
+    "History"
+  ],
+  "facts": {
+    "New chronicles": "30",
+    "Major timeline milestones": "35 Interregional or World Changing",
+    "Reading": "Continuous stories with chapter links",
+    "Evidence": "Quest scenes first; beliefs and missing outcomes remain explicit"
+  },
+  "sources": [
+    "#living-timeline — preserved dates and individual event metadata"
+  ],
+  "body": "<p>Read what happened: the people who went, the choices they made, the dangers they met and what followed. Connected milestones share a chronicle so a journey does not end halfway through its story.</p><h2 id=\"quest-stories\">Quests, battles and journeys</h2><ol class=\"chronicle-library\"><li><a href=\"#first-called-arrival\"><strong>The First Called · Through the Gate</strong></a><p>A forgotten portal opens, strangers become a company, and Pristinia gives the newcomers people and work to care about.</p></li><li><a href=\"#failed-reality-ritual\"><strong>The Beacons and the Broken Ritual</strong></a><p>Quake’s staff leads the company toward a ritual already taking shape. They stop the summoning, but the collapsing site takes its answers with it.</p></li><li><a href=\"#voyage-to-reheva\"><strong>The Keelboat Voyage to Rehevä</strong></a><p>A rescued woman’s father funds a boat, a dangerous channel becomes a fight to stay afloat, and Mogh helps the company reach the island above the cliffs.</p></li><li><a href=\"#voyage-to-gael\"><strong>The Voyage to Gael</strong></a><p>Nienna’s company turns the Void from an unknown barrier into a traveled route, carrying a seed and learning how other travelers have paid for passage.</p></li><li><a href=\"#azarian-peaks-expedition\"><strong>The Azarian Peaks Expedition</strong></a><p>Liora leads the company into the Unwelcoming Peaks to seek Vasatzi’s scattered artifacts. Questions about saving her become urgent as the mountains break around them.</p></li><li><a href=\"#fall-of-wrath\"><strong>The Fall of Wrath</strong></a><p>The company reaches the Citadel of Sorrow, crosses its wards, and kills Wrath. Elenia falls during the victory, and the work of keeping Gael begins amid grief.</p></li><li><a href=\"#arrival-shining-shores\"><strong>Arrival at the Shining Shores</strong></a><p>The company reaches Fein Uaill by sea and encounters a city whose streets, towers and name belong to a history older than its visitors.</p></li><li><a href=\"#dream-rift-retreat\"><strong>The Dream Rift · The Retreat</strong></a><p>A breach opens onto a dead titan and a living dream feeding on its weapon. The expedition is overwhelmed and leaves the tear unsealed.</p></li><li><a href=\"#clockwork-rift\"><strong>The Clockwork Rift · The Collector</strong></a><p>An interrupted delivery becomes an attack on the travelers. Reinforcements target the mages while Carmen carries a fallen companion out.</p></li><li><a href=\"#third-arrival\"><strong>The Third Arrival</strong></a><p>Magnus, Dez and Brianna enter Prima’s community before the Rahu war turns some of their companions into opponents.</p></li><li><a href=\"#ooze-rift\"><strong>The Ooze Rift · The Thing Beyond</strong></a><p>The travelers stop the oozes spreading through the breach, then glimpse something far larger as the opening pulls them home.</p></li><li><a href=\"#war-for-pristinia\"><strong>The War for Pristinia</strong></a><p>The Rahu war turns a recent companion against Pristinia. The siege, Elenia’s intervention and Melian’s abduction become different crises within one struggle for a living town.</p></li><li><a href=\"#shadow-roads-expedition\"><strong>The Shadow Roads · The Choice and the Price</strong></a><p>The company disagrees about entering the Roads. Paco’s sacrifice gets the travelers home, leaving Carmen with a changed companion and a debt she never chose.</p></li><li><a href=\"#aria-void-search\"><strong>Aria’s Search in the Void</strong></a><p>Aria describes a deliberate expedition into the Void that failed to find its target, while later discussion exposes how much the travelers still do not know about crossing it.</p></li><li><a href=\"#defense-of-aelthor\"><strong>The Defense of Aelthor</strong></a><p>Under an eclipse, the Heavenly Host attacks the Shining Shores. The defenders hold, Olokun strikes the last blow, and the city is left counting its dead.</p></li><li><a href=\"#war-council-death\"><strong>The War Council · Whose Pain?</strong></a><p>After the defense of Aelthor, Aria proposes a bargain with Death. Olokun challenges the price, and Bowene removes the alliance from consideration.</p></li><li><a href=\"#arias-last-battle\"><strong>Aria’s Last Battle</strong></a><p>A march into a war between greater powers ends in Aria’s death, the slaughter of her troops and a confrontation over Magnus’s soul.</p></li><li><a href=\"#elenias-exile\"><strong>Elenia’s Exile · The Door Left Open</strong></a><p>Bowene requires a sunset departure, but offers supplies, intelligence and a means to stay in contact. Punishment and cooperation remain in the same judgment.</p></li><li><a href=\"#founding-veilguard\"><strong>The Making of the Veilguard</strong></a><p>Peers choose Severina for her judgment. She gathers people, seeks mobility and equipment, and gives the new company a name whose promises will later be tested.</p></li><li><a href=\"#sustained-breach\"><strong>The Sustained Breach · The Eye and the Altar</strong></a><p>A frightening expanse becomes an investigation as the company finds an altar, a marked map and written evidence that someone planned to hold the breach open.</p></li><li><a href=\"#rebuilding-prima-fein\"><strong>Rebuilding in Prima, Respite in Fein</strong></a><p>The Pilgrim’s Hearth rises on the Common Man’s foundations while a later civic account describes peace and reconciliation in Fein Uaill.</p></li><li><a href=\"#dark-expanse-rift\"><strong>The Dark Expanse · Heads That Would Not Stay Dead</strong></a><p>An enormous tear leads to black stone and pale mist, where the company must learn which motionless giants are statues and which are waiting enemies.</p></li><li><a href=\"#abyssal-rift-cthulhu\"><strong>The Abyssal Rift · Pappy’s Rescue and Cthulhu’s Arrival</strong></a><p>Pappy is attacked while creatures tear open the boundary. He is pulled out just before Cthulhu crosses, devours those who freed him and departs.</p></li><li><a href=\"#gael-larkhollow-route\"><strong>From Gael toward Larkhollow</strong></a><p>A company stages on Gael’s coast for the long journey through Verdelune, connecting a restored refuge to a settlement whose dangers remain unsettled.</p></li><li><a href=\"#gael-travel-network\"><strong>A Safer Way to Gael</strong></a><p>Thorn describes a trusted route between islands, while markets, refuge and continuing dangers show what easier passage can—and cannot—change.</p></li><li><a href=\"#saturnia-arrival-vision\"><strong>Saturnia’s Arrival · The Legend Lore Vision</strong></a><p>Scribonia asks about the sage who has shaped his pursuit of knowledge and sees a young traveler whose books and maps cannot explain the land before her.</p></li><li><a href=\"#volcanic-rift\"><strong>The Volcanic Rift · Breaking the Crystal</strong></a><p>Heat and hostile creatures wear the company down until a central crystal is destroyed. The collapsing breach sends the survivors back to their own departure places.</p></li><li><a href=\"#coastal-rift\"><strong>The Coastal Rift · The Last Wave</strong></a><p>A shore beyond the rift fills with successive waves of goblins and their commanders. Fenwick banishes the last three, and the company is carried home.</p></li><li><a href=\"#gate-supply-exchange\"><strong>Stone and Metal through the Gate</strong></a><p>The Pristinia workshop remains useful after its retail closure, as Farkur and Elenia move material toward Babel’s unfinished safehouse.</p></li><li><a href=\"#babel-mist-expedition\"><strong>The Western Mist · The Offer after the Clearing</strong></a><p>The company survives a salamander and a mist that turns rescue against itself. After Scribonia clears the air, Dumuzi offers a bargain the exhausted travelers still refuse.</p></li></ol><h2 id=\"other-stories\">More focused histories</h2><ul><li><a href=\"#papirak-legacy\">Papirak’s Legacy</a></li><li><a href=\"#withering-of-hope\">The Withering of Hope</a></li><li><a href=\"#mark-of-the-wild\">Mark of the Wild · Hunting in Babel</a></li></ul><p><a href=\"#living-timeline\">Return to the timeline →</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "quest-stories",
+      "title": "Quests, battles and journeys",
+      "chapter": "Read a story",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Reading guide",
+        "summary": "These links lead to public event narratives. Each story retains its own evidence and limits.",
+        "scope": "article",
+        "sources": [
+          "#living-timeline — preserved dates and individual event metadata"
+        ]
+      }
+    },
+    {
+      "id": "other-stories",
+      "title": "More focused histories",
+      "chapter": "Read a story",
+      "evidence": {
+        "kind": "navigation",
+        "label": "Reading guide",
+        "summary": "These links lead to public event narratives. Each story retains its own evidence and limits.",
+        "scope": "article",
+        "sources": [
+          "#living-timeline — preserved dates and individual event metadata"
+        ]
+      }
+    }
+  ]
+}

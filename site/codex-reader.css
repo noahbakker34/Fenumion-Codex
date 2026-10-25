@@ -9,6 +9,30 @@
 .atlas-date-control button{border:1px solid #c4aa5960;border-radius:5px;padding:.7rem .9rem;background:#24272d;color:#e0cf99;cursor:pointer;font:inherit;min-height:44px}.atlas-date-control button:hover{border-color:#d3b65a}.chapter-guide button:hover,.character-brief button:hover,.place-history-context button:hover,.consequence-chain button:hover{color:#e3c872;text-decoration:underline}.article-evidence-ledger{font-size:.9rem}.article-evidence-ledger li{line-height:1.6;margin:.5rem 0}.character-brief summary{min-height:36px;cursor:pointer;color:#d8c691}
 .scene-sequence{padding-left:1.3rem}.scene-sequence>li{padding:1rem 0 1.4rem .5rem;border-bottom:1px solid #d3b65a40}.scene-sequence h3{margin:.25rem 0 .7rem}.scene-date{color:#d8bb65!important;font-size:.8rem!important}.scene-sequence dl,.research-card dl{margin:.8rem 0}.scene-sequence dl>div,.research-card dl>div{margin:.8rem 0}.scene-sequence dt,.research-card dt{color:#d8c691;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}.scene-sequence dd,.research-card dd{margin:.2rem 0;line-height:1.65}.scene-receipts{font-size:.85rem!important}.research-card,.claim-card{padding:1rem 1.1rem;border:1px solid #d3b65a40;border-radius:7px;margin:1rem 0;background:#13171be8;overflow-wrap:anywhere}.claim-card h3,.research-card h3{font-size:1.1rem;line-height:1.5}.research-controls{display:flex;gap:1rem;flex-wrap:wrap;align-items:end;margin:1rem 0 1.5rem;padding:1rem;border:1px solid #d3b65a40;border-radius:7px;background:#13171be8}.research-controls label{display:flex;flex-direction:column;gap:.5rem;flex:1 1 190px;color:#d8c691}.research-controls input,.research-controls select{font:inherit;min-height:44px;background:#1c2227;color:#e4e0d5;border:1px solid #aaa6;border-radius:4px;padding:.6rem;min-width:0;max-width:100%;color-scheme:dark}.research-controls p{flex-basis:100%;margin:0!important;font-size:.85rem!important}.research-card[hidden],.record-chapter[hidden]{display:none}.codex-world summary:focus-visible{outline:2px solid var(--gold-bright);outline-offset:3px}.article-header h1:focus{outline:none}
 @media(max-width:760px){.scene-sequence{padding-left:1rem}.scene-sequence>li{padding-left:0}.research-card,.claim-card{padding:.85rem}.scene-date{overflow-wrap:anywhere}}
+/* Event stories are continuous pages; evidence stays available after each chapter. */
+.fenumion-world .chronicle-layout .record-overview{display:block}
+.fenumion-world .chronicle-layout .article-header{min-height:0;padding:clamp(1.2rem,3vw,2.3rem);text-align:left}
+.fenumion-world .chronicle-layout .article-header h1{font-size:clamp(2rem,3.6vw,3.5rem);line-height:1.2}
+.chronicle-layout .record-summary{margin:0 0 1.5rem;padding:1rem 1.4rem}
+.fenumion-world .chronicle-layout .record-overview .infobox{margin:0;padding:0;border:0;gap:0 2rem}
+.fenumion-world .chronicle-layout .record-summary .fact{display:block;padding:.6rem 0;overflow-wrap:normal}
+.chronicle-layout .fact dt{font:600 .75rem/1.5 var(--sans);color:var(--gold-bright)}
+.chronicle-layout .fact dd{margin:.35rem 0 0;line-height:1.6}
+.chronicle-actions{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin:.75rem 0 1.2rem;font:600 .85rem/1.5 var(--sans)}
+.chronicle-actions a{display:flex;align-items:center;min-height:44px;padding:.4rem 0}
+.fenumion-world .chronicle-chapter{margin:0 0 1.4rem;padding:clamp(1rem,3vw,2rem);background:#141b20f7;border:1px solid #46545d;border-radius:8px}
+.fenumion-world .chronicle-chapter>h2{margin:0 0 1.1rem;padding:0 0 .75rem;border-bottom:1px solid #53616b;font-size:clamp(1.4rem,2.1vw,1.85rem)}
+.chronicle-chapter p{max-width:78ch}
+.chronicle-chapter>.section-evidence{margin:1.3rem 0 0}
+.chronicle-context-links{padding:1rem;border-top:1px solid #53616b;line-height:1.8}
+.chronicle-context-links>strong{display:block}
+.chronicle-library{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;list-style:none;padding:0}
+.chronicle-library>li{min-width:0;margin:0;padding:1.2rem;border:1px solid #53616b;border-radius:6px;background:#141b20f7}
+.chronicle-library a{display:block;font-size:1.2rem;line-height:1.5}
+.chronicle-library p{margin:.7rem 0 0}
+.event-card{text-decoration:none}
+@media(min-width:1000px){.fenumion-world .event-card[data-importance]:not(:has(.chronicle-event-art)){grid-template-columns:minmax(150px,.25fr) minmax(0,1fr)}}
+@media(max-width:760px){.chronicle-library{grid-template-columns:minmax(0,1fr)}.chronicle-layout .record-summary{padding:1rem}.chronicle-actions{gap:.3rem 1rem}}
 /* Opt-in biographies put a continuous narrative ahead of supporting browsing tools. */
 .fenumion-world .biography-layout .record-overview{display:block}
 .fenumion-world .biography-layout .article-header{min-height:270px}

@@ -213,5 +213,16 @@
       }
     ],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Minerva finds no readable trace in Papirak’s grimoire",
+      "Truesight reveals the grimoire’s hidden spells",
+      "Pell prepares Papirak’s burial and memorial",
+      "Pristinia opens a vote on Papirak’s Staff of Power",
+      "Pristinia carries Papirak to his hill",
+      "Papirak’s staff is entombed under Sequester"
+    ]
   }
 }

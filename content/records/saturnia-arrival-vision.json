@@ -1,0 +1,109 @@
+{
+  "id": "saturnia-arrival-vision",
+  "title": "Saturnia’s Arrival · The Legend Lore Vision",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "Scribonia asks about the sage who has shaped his pursuit of knowledge and sees a young traveler whose books and maps cannot explain the land before her.",
+  "tags": [
+    "Event stories",
+    "Saturnia",
+    "Scribonia",
+    "Recovered vision"
+  ],
+  "facts": {
+    "Recorded dates": "21 Sep 2026",
+    "Setting": "Ancient gate · seen through Legend Lore",
+    "People": "Scribonia; Saturnia; Ser Kurayami",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#saturnia — existing public account; original qualifications retained",
+    "#scribonia — existing public account; original qualifications retained"
+  ],
+  "body": "<p>Scribonia’s investigation begins with a familiar figure and an unanswered relationship. Saturnia’s image has accompanied his spellbook and his pursuit of knowledge for years. By the Month of Nuru, Year 3, he is asking how the legendary scholar and later divine figure are connected to him.</p><h2 id=\"chapter-1\">The question before the vision</h2><p>Scribonia reports that Saturnia has taken an interest in his continued existence and used familial language. That gives him a reason to ask about parenthood, but does not establish that she is his biological mother.</p><p>On the nineteenth, seated in his pocket realm, he casts Legend Lore. The arrival scene follows on the twenty-first. The date belongs to the revelation received by the modern scholar, not to an invented ancient year in which the scene supposedly occurred.</p><h2 id=\"chapter-2\">A traveler without a map that fits</h2><p>The vision moves from darkness and void to a flash and a Gate. It differs from the portal known to modern adventurers, but serves the same purpose of arrival.</p><p>A younger Saturnia comes through with books and many maps. None of them describe the land before her. She appears inexperienced in this place, facing a world her preparations cannot explain.</p><p>The moment places her closer to the modern newcomers than the remote image of an all-knowing sage might suggest. That resemblance is something Scribonia can recognize without learning every event that later makes her famous.</p><h2 id=\"chapter-3\">Ser Kurayami’s welcome</h2><p>A blond human paladin in shining armor approaches and introduces himself as Ser Kurayami. He welcomes her to the fractured continent of Fenumion and speaks of the gods sending a scholar who will need arcane knowledge.</p><p>His welcome is the speech of a person within the vision. It does not settle the complete cause of her arrival, date their acquaintance or prove every historical interpretation that might be drawn from his words.</p><h2 id=\"chapter-4\">The image and the person</h2><p>Scribonia’s earlier Manifest Mind often takes Saturnia’s form, scouting, dancing or accompanying his magic. A separate temptation also used her appearance to offer him knowledge. Those manifestations and the actual figure glimpsed here are not interchangeable evidence.</p><p>When he once offered his knowledge as a sacrifice, the spectral Saturnia disappeared into his book. That scene did not establish her death. Likewise, this arrival does not explain the full path from young scholar to her later role as Keeper of the Arcane Secrets.</p><h2 id=\"chapter-5\">What the revelation changes</h2><p>The vision gives Scribonia a concrete beginning to investigate: Saturnia arrived with knowledge that did not yet fit Fenumion, and Kurayami met her there. He sees something of his own path in hers and considers seeking the Guardians for further answers.</p><p>A later search in the Library of Nuru finds references but lacks the ancient primary records needed to fill the intervening history. The arrival, the later office and Scribonia’s questions remain connected without an invented ascension, completed family tree or account of every missing journey.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#saturnia\">Saturnia</a> · <a href=\"#scribonia\">Scribonia</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Legend Lore reveals Saturnia’s arrival"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The question before the vision",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#saturnia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "A traveler without a map that fits",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#saturnia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "Ser Kurayami’s welcome",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#saturnia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The image and the person",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#saturnia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "What the revelation changes",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#saturnia — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

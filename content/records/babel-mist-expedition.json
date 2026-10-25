@@ -1,0 +1,167 @@
+{
+  "id": "babel-mist-expedition",
+  "title": "The Western Mist · The Offer after the Clearing",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "The company survives a salamander and a mist that turns rescue against itself. After Scribonia clears the air, Dumuzi offers a bargain the exhausted travelers still refuse.",
+  "tags": [
+    "Event stories",
+    "Babel-Ashur",
+    "western mist",
+    "October expedition",
+    "Skylight Refuge"
+  ],
+  "facts": {
+    "Recorded dates": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+    "Setting": "Babel-Ashur; crystal pillars near the cleared mist",
+    "People": "Olokun; Scribonia; Nymera; Wren; Arjahn; Ryvyt; Dumuzi",
+    "Importance": "World Changing"
+  },
+  "sources": [
+    "#babel-ashur — existing public account; original qualifications retained",
+    "#olokun — existing public account; original qualifications retained",
+    "#scribonia — existing public account; original qualifications retained",
+    "#nymera — existing public account; original qualifications retained",
+    "#wren — existing public account; original qualifications retained",
+    "#arjahn — existing public account; original qualifications retained",
+    "#ryvyt — existing public account; original qualifications retained",
+    "#aria-pride — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The expedition starts from a safer Skylight Refuge. Ordinary wildlife is returning nearby, but the jungle beyond has not become safe. Wren, Scribonia, Olokun, Arjahn, Nymera and Ryvyt travel toward the Spires and the western mist to learn what the spreading danger is doing.</p><h2 id=\"chapter-1\">The blind salamander</h2><p>A giant blind salamander attacks near the route. Its breath paralyzes companions and Olokun is badly wounded. Ryvyt’s healing and restoration help keep him alive while the company fights to regain control.</p><p>Olokun lands the final blow. A later rush in the undergrowth turns out to be a passing boar, a smaller interruption after the fight. The travelers continue with wounds and spent strength rather than arriving at the mist fresh.</p><h2 id=\"chapter-2\">The shore is running out</h2><p>At the coast, the green mist has nearly reached the shore. The company’s attempt to investigate becomes a rescue when figures of loved ones draw people away from their tethers.</p><p>The danger alters what companions see. Those trying to help can appear to be monsters. Staying physically connected is not enough if the person at the other end of the line can no longer recognize who is coming toward them.</p><h2 id=\"chapter-3\">A clearing with a cost</h2><p>Ryvyt dispels the effect on Nymera. Scribonia’s Wish then clears the mist for miles. During the clearing, Abyss appears and withdraws, showing that the earlier mountain assault did not permanently end his activity.</p><p>The opening in the air gives the company room to survive and observe. It does not prove that the mist’s source or the rift connected with its arrival has been removed. Scribonia collapses, and Nymera carries him toward refuge under Arjahn’s escort. The expedition’s new knowledge comes with a need for care and rest.</p><h2 id=\"chapter-4\">The figure beside the pillars</h2><p>A figure near the crystal pillars is initially mistaken for Abyss, then identifies himself as Dumuzi. He offers allegiance and uses Oya’s safety as an inducement. The company has just endured a danger that made loved ones into lures; the bargain now places another loved person within the terms of an offered future.</p><p>Olokun and Ryvyt refuse. Scribonia challenges what Dumuzi’s better world would demand. Arjahn argues that a wounded world should be healed and that one will should not choose for everyone. Nymera insists that an imperfect world still deserves protection.</p><h2 id=\"chapter-5\">A claim about Aria</h2><p>Dumuzi says that Aria is not dead and is better than before. The statement follows her witnessed killing by Talan. It is a new claim made during this encounter, not a narrated resurrection and not a reason to delete the earlier battle.</p><p>A vision is received, and the companions continue to refuse. The supplied video’s contents have not been recovered as reviewed scene text. Their reactions can be recorded without supplying a story of what the unreviewed attachment supposedly showed.</p><h2 id=\"chapter-6\">What they bring back</h2><p>The survivors have learned about the salamander, the mist’s lures, altered perception, paralysis and ways some of its immediate effects can be resisted. They have also refused an offer made while they are exhausted and vulnerable.</p><p>The lasting condition of the mist, the breach’s cause and the wider recovery of Babel remain unresolved. The clearing is a witnessed gain, and the refusal is a witnessed choice. Neither needs a permanent cure or a completed return for Aria to make this a consequential episode.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#babel-ashur\">Babel-Ashur</a> · <a href=\"#olokun\">Olokun</a> · <a href=\"#scribonia\">Scribonia</a> · <a href=\"#nymera\">Nymera</a> · <a href=\"#wren\">Wren</a> · <a href=\"#arjahn\">Arjahn</a> · <a href=\"#ryvyt\">Ryvyt</a> · <a href=\"#aria-pride\">Aria / Pride</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Death makes an offer after the mist clearing"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The blind salamander",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#babel-ashur — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#arjahn — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "The shore is running out",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#babel-ashur — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#arjahn — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "A clearing with a cost",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#babel-ashur — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#arjahn — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The figure beside the pillars",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#babel-ashur — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#arjahn — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "A claim about Aria",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#babel-ashur — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#arjahn — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-6",
+      "title": "What they bring back",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#babel-ashur — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#arjahn — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#aria-pride — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

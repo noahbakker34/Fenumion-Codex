@@ -161,8 +161,29 @@
     navigation.innerHTML=(plan||article.sections).map((section,index)=>`<button type="button" data-section="${esc(section.id)}"><span aria-hidden="true">${String(index+1).padStart(2,'0')}</span>${esc(section.title)}</button>`).join('');
     root.querySelector('.record-summary').after(navigation);
   }
+  function chronicleLayout(article,root,chapters){
+    const body=root.querySelector('.article-body');
+    for(const chapter of chapters){
+      const heading=chapter.querySelector(':scope > summary h2');
+      if(!heading)continue;
+      const section=document.createElement('section');section.className='chronicle-chapter';
+      section.setAttribute('aria-labelledby',heading.id);section.append(heading);
+      const evidence=chapter.querySelector(':scope > .section-evidence');
+      for(const child of [...chapter.childNodes])if(child.nodeType!==1||!child.matches('summary,.section-evidence'))section.append(child);
+      if(evidence)section.append(evidence);
+      chapter.replaceWith(section);
+    }
+    root.querySelectorAll('.record-reading-controls,.chapter-guide').forEach(element=>element.remove());
+    const route=window.eventStoryReturnRoute?.(article)||'#living-timeline';
+    const actions=document.createElement('nav');actions.className='chronicle-actions';actions.setAttribute('aria-label','Event story navigation');
+    actions.innerHTML=`<a href="${esc(route)}">${route.startsWith('#living-timeline')?'← Back to your timeline':'← Back to previous record'}</a><a href="#event-chronicles">All event stories →</a>`;
+    root.querySelector('.record-overview')?.before(actions);
+    const rail=root.querySelector('.record-visual-rail');
+    if(rail){rail.className='chronicle-context';body.append(rail);}
+  }
   function afterRender(article,root){
     const biography=article.readingLayout==='biography';root.classList.toggle('biography-layout',biography);
+    const chronicle=article.readingLayout==='chronicle';root.classList.toggle('chronicle-layout',chronicle);
     // Reserve the original image ratio before decoding so loading artwork does not move the reader.
     for(const img of root.querySelectorAll('img')){
       const dimensions=window.FENUMION_CATALOG.imageDimensions?.[img.getAttribute('src')?.split('?')[0]];
@@ -217,6 +238,7 @@
       region.addEventListener('change',update);query.addEventListener('input',update);update();
     }
     if(biography)biographyLayout(article,root,chapters,sourcePanel);
+    if(chronicle)chronicleLayout(article,root,chapters);
   }
   function placeEvents(place,until=''){
     const names=[place.title,...(place.aliases||[])].map(normalizePlaceName);

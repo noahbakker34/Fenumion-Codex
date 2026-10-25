@@ -56,8 +56,9 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
         await page.locator('#timeline-explorer input').fill(event.title);
         assert.equal(await page.locator('.event-card').count(), 1);
         await page.locator('.event-card').click();
-        assert.equal(await page.locator('#record-dialog-title').innerText(), event.title);
-        await page.evaluate(() => closeRecordDialog());
+        await page.waitForFunction(id=>document.querySelector('#article-content').dataset.route==='#'+id&&byId.get(id)?.bodyLoaded,event.story);
+        assert.equal(await page.locator('.chronicle-chapter').count()>=3,true,'rift opens a substantive story');
+        await page.locator('.chronicle-actions a').first().click();await page.locator('#timeline-explorer input').waitFor();
       }
       for (const spelling of ['Cthulu', 'Cthulhu']) {
         await page.locator('#timeline-explorer input').fill(spelling);
@@ -74,8 +75,9 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
       const event = page.locator('.article-body .location-timeline-list [data-timeline-title]').first();
       const title = await event.getAttribute('data-timeline-title');
       await event.click();
-      assert.equal(await page.locator('#record-dialog-title').innerText(), title);
-      await page.evaluate(() => closeRecordDialog());
+      const destination=await page.evaluate(title=>timelineStory(findTimelineRecord(title))?.id,title);
+      if(destination){await page.locator('.chronicle-layout').waitFor();assert.equal(await page.evaluate(()=>location.hash),'#'+destination);}
+      else {assert.equal(await page.locator('#record-dialog-title').innerText(), title);await page.evaluate(() => closeRecordDialog());}
     }
     // Source text must remain text when included in shared event-card markup.
     assert(await page.evaluate(() => {

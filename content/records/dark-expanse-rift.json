@@ -1,0 +1,144 @@
+{
+  "id": "dark-expanse-rift",
+  "title": "The Dark Expanse · Heads That Would Not Stay Dead",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "An enormous tear leads to black stone and pale mist, where the company must learn which motionless giants are statues and which are waiting enemies.",
+  "tags": [
+    "Event stories",
+    "Rifts",
+    "Rift",
+    "Dark expanse"
+  ],
+  "facts": {
+    "Recorded dates": "Source posts · 7 August 2026 · in-world date unresolved",
+    "Setting": "Black-stone expanse beyond the breach",
+    "People": "Expedition participants; names not recovered in this summary",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535098703331856386",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535100884088786946",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535111506365124690",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535114316297142366",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535118374588383342",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535121123585556481",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535126529913262150",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535127399975493655",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1535128606689468476",
+    "#rifts — existing public account; original qualifications retained",
+    "#pappy — existing public account; original qualifications retained",
+    "#scribonia — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The opening is vast enough to be seen from every island. Its edges shine against a darkness with no recognizable landscape. Reports that it may be widening or that shapes move inside it add uncertainty to the visible threat; the travelers have to cross before they can test those impressions.</p><h2 id=\"chapter-1\">Black stone and pale mist</h2><p>Beyond the threshold, the familiar sky vanishes. Black stone stretches through drifting pale mist beneath an expanse without sun, moon or stars. For a moment, the giant figures ahead are motionless. Then some begin to move.</p><p>The company cannot treat every statue as an enemy or every still figure as harmless. A meteor swarm knocks some down; some are marble and have never moved. The place punishes a quick assumption about what the figures are.</p><h2 id=\"chapter-2\">The fight among the figures</h2><p>A headless attacker threatens Pappy’s neck, while another creature directs eldritch energy toward Scribonia. The travelers respond to different kinds of danger within the same group of enemies.</p><p>Oscar’s fighting leaves a creature’s head on the ground. It continues moving. The apparent end of the battle therefore becomes a practical question about whether a defeated body will stay defeated.</p><h2 id=\"chapter-3\">A head trying to return</h2><p>Oscar examines and cuts at the remains. Something emerges from the head and tries to reattach to the body. Further investigation connects the head with the creature’s ability to reform. When he kicks it away, more tentacles emerge.</p><p>Scribonia’s investigation also finds a rune he thinks means blood and relates it to the corruption he has experienced. That is his interpretation in the scene, not a universal account of how all such creatures are made.</p><h2 id=\"chapter-4\">What the expedition learns</h2><p>The encounter leaves specific knowledge: some still giants were ordinary statues, some were active threats, and at least one severed head could enable a body to reform. Those observations matter to how the travelers fight and examine the remains.</p><p>The wider expanse remains poorly understood. Its lack of familiar celestial lights does not identify a known plane, and the company’s local victory does not establish that every creature there has been destroyed. The account’s later instability pressures the travelers to leave; the full origin and extent of the space remain open.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#pappy\">Pappy</a> · <a href=\"#scribonia\">Scribonia</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "A vast rift leads into a dark expanse"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "Black stone and pale mist",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535098703331856386",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535100884088786946",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535111506365124690",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535114316297142366",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535118374588383342",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535121123585556481",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535126529913262150",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535127399975493655",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535128606689468476",
+          "#rifts — existing public account; original qualifications retained",
+          "#pappy — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "The fight among the figures",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535098703331856386",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535100884088786946",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535111506365124690",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535114316297142366",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535118374588383342",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535121123585556481",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535126529913262150",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535127399975493655",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535128606689468476",
+          "#rifts — existing public account; original qualifications retained",
+          "#pappy — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "A head trying to return",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535098703331856386",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535100884088786946",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535111506365124690",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535114316297142366",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535118374588383342",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535121123585556481",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535126529913262150",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535127399975493655",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535128606689468476",
+          "#rifts — existing public account; original qualifications retained",
+          "#pappy — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "What the expedition learns",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535098703331856386",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535100884088786946",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535111506365124690",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535114316297142366",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535118374588383342",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535121123585556481",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535126529913262150",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535127399975493655",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1535128606689468476",
+          "#rifts — existing public account; original qualifications retained",
+          "#pappy — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

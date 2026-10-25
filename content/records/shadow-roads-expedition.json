@@ -1,0 +1,118 @@
+{
+  "id": "shadow-roads-expedition",
+  "title": "The Shadow Roads · The Choice and the Price",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "The company disagrees about entering the Roads. Paco’s sacrifice gets the travelers home, leaving Carmen with a changed companion and a debt she never chose.",
+  "tags": [
+    "Event stories",
+    "portal",
+    "dissent",
+    "risk",
+    "forced pact",
+    "return",
+    "price"
+  ],
+  "facts": {
+    "Recorded dates": "14 Sep 2025 · After 14 Sep 2025 · exact day unresolved",
+    "Setting": "Shadow Roads; the portal · Shadow Roads; Prima",
+    "People": "Ithilrûnë; Sildithas; Coralyn; Carmen; Brianna; Ghilsen; St. Anky; Paco",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#coralyn — existing public account; original qualifications retained",
+    "#carmen — existing public account; original qualifications retained",
+    "#sildithas — existing public account; original qualifications retained",
+    "#ithilrune — existing public account; original qualifications retained",
+    "#brianna — existing public account; original qualifications retained",
+    "#ghilsen — existing public account; original qualifications retained"
+  ],
+  "body": "<p>When a tear opens toward the Shadow Roads, the company has to decide whether to enter. There is no single reason shared by everyone at the threshold. Ithilrûnë wants knowledge; Sildithas sees a danger he feels obliged to face; Coralyn says she does not think they should go.</p><h2 id=\"chapter-1\">Different reasons at the threshold</h2><p>Ithilrûnë sees an opportunity to learn what lies beyond the familiar world. Her curiosity promises explanations and perhaps new lands. When refusal becomes cowardice in her argument, however, her personal willingness to take the risk begins to press on people who have not accepted it.</p><p>Sildithas explains his own duty without turning it into Coralyn’s. She privately tells him and Carmen that she does not want to enter. Her fear is part of the decision made by this company, not a mistake to be edited out once the journey has begun.</p><p>Ghilsen tells Brianna that adventurers must take risks because nobody else will. She takes his hand and holds him close as they cross into the darkness. Their act of trust belongs beside the disagreement rather than replacing it with a unanimous heroic charge.</p><h2 id=\"chapter-2\">What Carmen brings with her</h2><p>Paco is already central to Carmen’s adventuring life. He scouts, observes and reports; she trusts what he sees and plans with his safety in mind. Their relationship includes affection and protection as well as morally charged possessive language.</p><p>Carmen values getting home, reliable shelter and the people who make survival possible. Entering the Roads therefore places more at risk than an abstract willingness to be brave. The traveler who comes back may have lost something no reward can replace.</p><h2 id=\"chapter-3\">The return Paco pays for</h2><p>The recovered outcome places the price on Paco. He sacrifices himself so that Carmen can get the others home. The return is achieved, but it is not a rescue Carmen has consented to purchase with him.</p><p>Paco returns changed under a forced Pact of the Chain. The public account describes psychological alteration as well as a new bond. It does not provide a complete turn-by-turn record of the encounter or a settled explanation of every term imposed upon him.</p><h2 id=\"chapter-4\">Home with a changed companion</h2><p>Carmen knows that a debt exists because Paco has paid it. Gratitude does not erase the fact that he bore a price she did not agree he should bear. Nor does their return prove that the risk was distributed fairly among everyone who entered.</p><p>The unanswered question now belongs to their continuing relationship: can care make room for Paco’s own wishes, including wishes different from Carmen’s? His sacrifice is an outcome with a living aftermath. The Roads do not end at the moment the travelers reach home.</p><p>The entry and return remain separate milestones in the timeline, linked here as one journey. The missing intervening scene is not filled with invented enemies, bargains or dialogue; the account preserves the choice to enter, the disagreement around it and the established cost of leaving.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#coralyn\">Coralyn</a> · <a href=\"#carmen\">Carmen</a> · <a href=\"#sildithas\">Sildithas</a> · <a href=\"#ithilrune\">Ithilrûnë Ailinor</a> · <a href=\"#brianna\">Brianna</a> · <a href=\"#ghilsen\">Ghilsen Hendrickson</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "The party enters the Shadow Roads",
+      "Paco pays the return from the Roads"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "Different reasons at the threshold",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#coralyn — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#sildithas — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#ghilsen — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "What Carmen brings with her",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#coralyn — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#sildithas — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#ghilsen — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The return Paco pays for",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#coralyn — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#sildithas — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#ghilsen — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Home with a changed companion",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#coralyn — existing public account; original qualifications retained",
+          "#carmen — existing public account; original qualifications retained",
+          "#sildithas — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#ghilsen — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

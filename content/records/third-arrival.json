@@ -1,0 +1,104 @@
+{
+  "id": "third-arrival",
+  "title": "The Third Arrival",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "Magnus, Dez and Brianna enter Prima’s community before the Rahu war turns some of their companions into opponents.",
+  "tags": [
+    "Event stories",
+    "arrival",
+    "Prima",
+    "newcomers"
+  ],
+  "facts": {
+    "Recorded dates": "6 Apr 2025",
+    "Setting": "Prima",
+    "People": "Magnus; Dez; Brianna",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#magnus — existing public account; original qualifications retained",
+    "#brianna — existing public account; original qualifications retained",
+    "#papirak — existing public account; original qualifications retained",
+    "#pristinia — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The recovered chronology remembers Magnus, Dez and Brianna arriving on Prima on 6, Month of Namo’o, Year 2 as the Third Arrival. It is a separate arrival from the first Gate company of Year 1. The name records a particular remembered company; it is not a claim that nobody arrived between those two dates.</p><h2 id=\"chapter-1\">Becoming part of Prima</h2><p>Magnus’s early history places him among Pristinia’s ordinary adventurers. Within days he travels into the Before with Fredrick, shops with Aravil, and answers Papirak’s raven summons. Brianna, Pappy and Ghilsen are among the people alongside whom he begins taking risks.</p><p>This matters to what follows. Magnus does not first appear at the town’s walls as a stranger in an enemy army. He has eaten, traveled and worked among the people who will be affected by his later decisions.</p><h2 id=\"chapter-2\">Brianna’s early adventures</h2><p>Brianna’s early record shows a druid solving immediate problems through Wild Shape. BearBri and BatBri are forms she takes, rather than separate arrivals or separate adventurers. Her later history includes partnership with Ghilsen, the care of fallen companions and a disputed effort to keep an enemy alive for trial.</p><p>Those later experiences belong to the person who arrived here, but they should not be projected onto the welcome. The newcomer has not yet lived through all the deaths, returns and arguments that will shape her relationships.</p><h2 id=\"chapter-3\">The company the war divides</h2><p>The following months make the early companionship difficult to recognize. Magnus’s Rahu sympathies become access and then open action against Pristinia. Brianna and others who shared adventures with him meet his choices from different positions during the war.</p><p>The arrival gives that division a history. Familiarity does not prevent betrayal or guarantee shared judgment, and later hostility does not erase the days when these people belonged to the same adventuring community.</p><h2 id=\"chapter-4\">The part still missing</h2><p>The surviving public record names Dez as a member of this arrival but does not supply a comparable, complete early biography. The precise sequence of the welcome and every person present also remain incomplete. This account keeps the named event and its established consequences without inventing speeches, an arrival ceremony or a later life for someone the recovered scenes do not yet describe.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#magnus\">Magnus Niriin</a> · <a href=\"#brianna\">Brianna</a> · <a href=\"#papirak\">Papirak the Strange</a> · <a href=\"#pristinia\">Pristinia</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "The Third Arrival brings Magnus, Dez, and Brianna"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "Becoming part of Prima",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#magnus — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#papirak — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Brianna’s early adventures",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#magnus — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#papirak — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The company the war divides",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#magnus — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#papirak — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The part still missing",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#magnus — existing public account; original qualifications retained",
+          "#brianna — existing public account; original qualifications retained",
+          "#papirak — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

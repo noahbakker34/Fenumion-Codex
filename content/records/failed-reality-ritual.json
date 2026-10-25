@@ -1,0 +1,154 @@
+{
+  "id": "failed-reality-ritual",
+  "title": "The Beacons and the Broken Ritual",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "Quake’s staff leads the company toward a ritual already taking shape. They stop the summoning, but the collapsing site takes its answers with it.",
+  "tags": [
+    "Event stories",
+    "ritual",
+    "reality",
+    "lost evidence"
+  ],
+  "facts": {
+    "Recorded dates": "18 May 2024 · quest-RP",
+    "Setting": "Prima coast",
+    "People": "Quake; Wren; Elenia; Adelia; Dale; Saray; Alyhotep",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241592265701462037",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241603507086430268",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241609730640707716",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241612568087236649",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241617247399706654",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241637965885734965",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241638101743570964",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241639511419519003",
+    "#pristinia — existing public account; original qualifications retained",
+    "#quake — existing public account; original qualifications retained",
+    "#wren — existing public account; original qualifications retained",
+    "#elenia — existing public account; original qualifications retained",
+    "#adelia-hope — existing public account; original qualifications retained",
+    "#saray — existing public account; original qualifications retained"
+  ],
+  "body": "<p>Quake carries a staff whose corrupted radiance draws attention toward competing beacons. The company’s choice of which light to follow matters: by the time they reach the ritual, its defenders are ready and the figure inside its crimson fire is becoming more substantial.</p><h2 id=\"chapter-1\">A figure in the fire</h2><p>Adelia can make out a shadowy figure being called through the ritual’s light. The working drains the acolytes around it. A terrible idol stands at the center of the site, and the approaching company must cross a defended, terraced space to reach it.</p><p>The defenders have different tasks. Wights protect the ritual’s caster while other enemies move into fighting positions. An orc guards the ledges, withdrawing down the levels to contest the party’s advance. Above them, a flying opponent is strengthened by the sickly light of a blood moon. The ritual continues while the company fights.</p><h2 id=\"chapter-2\">The company is divided</h2><p>A wall of ice cuts Saray, Dale and Adelia off from the others. Passing through the surrounding shadows brings its own assault: familiar lies and cruel judgments feel suddenly true. The attack reaches the travelers’ minds as well as their bodies, making the route to the ritual harder to hold.</p><p>Meanwhile, Quake feels the staff on his back beginning to wither. The figure within the vermillion light keeps gaining definition. The party is not merely clearing enemies from a room; it is fighting while a separate process approaches completion.</p><h2 id=\"chapter-3\">Quake breaks the working</h2><p>Quake’s fireball shakes the idol. The ritual snaps, and the forming figure disperses into ash. A further flash ends the working, leaving smoke and the smell of burned flesh above the pit.</p><p>The surviving defenders still have to be faced. Saray’s bow brings down the last enemy. Only then does the company have a chance to take in the change: the eldritch energy has subsided and the staff grows quiet.</p><h2 id=\"chapter-4\">A victory that buries the evidence</h2><p>The natural chapel begins to crumble into the sea, forcing the travelers to flee. Bodies, broken ritual materials and the site itself disappear into the collapse. Beyond the danger, the thin pillar of light remains visible across the water.</p><p>On Prima’s shore, the world’s ordinary sounds and colors return beneath a clear night sky. The company has stopped the ritual. It has also lost the chance to examine much of what was there. The final narration leaves the earlier choice between the beacons as an unanswered question: what might they have learned by reaching this place sooner?</p><p>The forming figure’s exact identity and the full intended result remain unresolved. The observed outcome is specific: the ritual fails after Quake strikes the idol, the last defenders fall, and the collapse prevents a fuller investigation.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#pristinia\">Pristinia</a> · <a href=\"#quake\">Quake</a> · <a href=\"#wren\">Wren</a> · <a href=\"#elenia\">Elenia</a> · <a href=\"#adelia-hope\">Adelia &amp; Hope</a> · <a href=\"#saray\">Saray</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "A reality-splitting ritual is foiled"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "A figure in the fire",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241592265701462037",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241603507086430268",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241609730640707716",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241612568087236649",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241617247399706654",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241637965885734965",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241638101743570964",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241639511419519003",
+          "#pristinia — existing public account; original qualifications retained",
+          "#quake — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#saray — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "The company is divided",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241592265701462037",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241603507086430268",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241609730640707716",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241612568087236649",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241617247399706654",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241637965885734965",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241638101743570964",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241639511419519003",
+          "#pristinia — existing public account; original qualifications retained",
+          "#quake — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#saray — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "Quake breaks the working",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241592265701462037",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241603507086430268",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241609730640707716",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241612568087236649",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241617247399706654",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241637965885734965",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241638101743570964",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241639511419519003",
+          "#pristinia — existing public account; original qualifications retained",
+          "#quake — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#saray — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "A victory that buries the evidence",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241592265701462037",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241603507086430268",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241609730640707716",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241612568087236649",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241617247399706654",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241637965885734965",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241638101743570964",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241639511419519003",
+          "#pristinia — existing public account; original qualifications retained",
+          "#quake — existing public account; original qualifications retained",
+          "#wren — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#saray — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

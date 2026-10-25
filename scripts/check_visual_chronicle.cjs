@@ -62,12 +62,12 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
   for(const width of [1440,1280,1100,1024,900,768,600,390,320]){await page.setViewportSize({width,height:1000});await fits();await dockFits();}
   await page.setViewportSize({width:1440,height:1000});
   await go('living-timeline?importance=4&match=exact');
-  assert.equal(await page.locator('.event-card').count(),expected.importance[4]);assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),expected.importance[4]);
+  assert.equal(await page.locator('.event-card').count(),expected.importance[4]);assert.equal(await page.locator('.event-card[data-event-story]').count(),expected.importance[4]);assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),0,'story cards do not borrow unrelated directory art');
   assert((await page.locator('.event-card .event-importance').first().innerText()).includes('Interregional'));
   await page.locator('.event-card').first().scrollIntoViewIfNeeded();await page.screenshot({path:output+'/interregional-desktop.png'});
   await go('living-timeline?importance=5');
   assert.equal(await page.locator('.event-card').count(),expected.importance[5]);
-  assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),expected.importance[5]);
+  assert.equal(await page.locator('.event-card[data-event-story]').count(),expected.importance[5]);assert.equal(await page.locator('.event-card .chronicle-event-art img').count(),0,'story cards do not borrow unrelated directory art');
   assert.equal(await page.locator('.workspace-context').count(),1);
   assert.equal(await page.locator('.workspace-context').getAttribute('open'),null);
   assert(await page.locator('.event-card').first().evaluate(el=>!getComputedStyle(el.querySelector('.event-summary')).fontFamily.includes('Vespasian')),'event prose uses reading font');

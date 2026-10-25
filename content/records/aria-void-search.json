@@ -1,0 +1,105 @@
+{
+  "id": "aria-void-search",
+  "title": "Aria’s Search in the Void",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "Aria describes a deliberate expedition into the Void that failed to find its target, while later discussion exposes how much the travelers still do not know about crossing it.",
+  "tags": [
+    "Event stories",
+    "Void",
+    "exploration",
+    "artifact",
+    "uncertainty"
+  ],
+  "facts": {
+    "Recorded dates": "2025 · exact date unresolved",
+    "Setting": "The Void",
+    "People": "Aria / Pride; her expedition",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#aria-pride — existing public account; original qualifications retained",
+    "#the-void — existing public account; original qualifications retained",
+    "#nienna — existing public account; original qualifications retained",
+    "#magnus — existing public account; original qualifications retained"
+  ],
+  "body": "<p>By Year 2, the Void is more than something travelers endure between islands. Aria says that her company deliberately explored it in search of something and did not find what it sought. Her testimony preserves a failed investigation, rather than a secret success inferred from her later power.</p><h2 id=\"chapter-1\">Beyond the crossing</h2><p>Nienna’s earlier company had made the danger of the Void tangible through its voyage to Gael. Aria’s account describes a different purpose: going into that space to look for a particular thing. A route through it and an investigation within it are related experiences, but they are not the same undertaking.</p><p>The target appears connected to an artifact and ancient temporal laws in the surviving discussion. The exact identification and any recovery remain unresolved. There is no basis for adding a found relic, an encounter with its maker or a completed solution to the search.</p><h2 id=\"chapter-2\">What power might attract</h2><p>Aria also says that Void monstrosities feed on power. That is her account of the danger. It suggests a disturbing possibility for a powerful expedition: strength might draw attention as well as provide defense.</p><p>The statement cannot identify every predator, establish one ecology for the entire Void or make Aria’s explanation the cause of every attack. Her company’s reported failure remains meaningful without a complete theory of why it failed.</p><h2 id=\"chapter-3\">The unanswered transport questions</h2><p>The wider conversation continues into the later council. Magnus asks whether a Void beast would still be necessary if suitable ships could be built. His question shows that the practical means of travel remain under discussion even among people with experience and resources.</p><p>Different regions know different things. Míriel says her people developed their shores without traveling the Void; elsewhere, Scribonia can communicate across it while physical crossings remain dangerous. Aria’s search belongs within this uneven growth of knowledge rather than supplying everyone with the same expertise.</p><h2 id=\"chapter-4\">The result that can be recorded</h2><p>The company went looking and, by Aria’s own account, did not find its objective. The exact route, full roster, detailed encounters and eventual fate of the target remain unrecovered. This is the full extent of the available public account of the search; further detail requires its missing expedition scene, not a more certain retelling of Aria’s report.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#aria-pride\">Aria / Pride</a> · <a href=\"#the-void\">The Void</a> · <a href=\"#nienna\">Nienna</a> · <a href=\"#magnus\">Magnus Niriin</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "The Void becomes an exploration space"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "Beyond the crossing",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#aria-pride — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#nienna — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "What power might attract",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#aria-pride — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#nienna — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The unanswered transport questions",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#aria-pride — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#nienna — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The result that can be recorded",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#aria-pride — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#nienna — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "first-called-arrival",
+  "title": "The First Called · Through the Gate",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "A forgotten portal opens, strangers become a company, and Pristinia gives the newcomers people and work to care about.",
+  "tags": [
+    "Event stories",
+    "Calling",
+    "portal",
+    "Pristinia"
+  ],
+  "facts": {
+    "Recorded dates": "4 Mar 2024 · quest-RP",
+    "Setting": "The Gate; Pristinia",
+    "People": "Jiangshi; Adelia; Scribonia; Gartina; Jako; Quake; Forgax",
+    "Importance": "World Changing"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214401181435035730",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214403067428999168",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665",
+    "#pristinia — existing public account; original qualifications retained",
+    "#akarian — existing public account; original qualifications retained",
+    "#melian-starguard — existing public account; original qualifications retained",
+    "#pristinia-campaign — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The first recovered company arrives through the Gate on 4, Month of War, Year 1: Day 1 of the Final War. Jiangshi, Adelia, Scribonia, Gartina, Jako, Quake and Forgax belong to this early company. They enter a place with an existing town and people of its own, before they understand either the war or what their arrival will ask of them.</p><h2 id=\"chapter-1\">The portal stirs</h2><p>The opening begins at a forgotten portal. Cala and Nuru appear through avatars, and the arrivals are brought into contact with the settlement that will become their new home. The encounter places divine appeals beside immediate uncertainty: these people have come from elsewhere, and the strangers around them are not yet trusted companions.</p><p>Other early Gate exchanges, including Akarian’s, show how unfamiliar the demand to fight Death can sound to someone just entering Fenumion. He asks questions rather than arriving with the later Guardian’s knowledge. Rolen, Claire and Jako explain the danger as they understand it. Jako shares remembered experiences through spores; those experiences remain his perspective, not a complete explanation delivered to every newcomer.</p><h2 id=\"chapter-2\">A settlement already living</h2><p>Pristinia is not founded by this arrival. Melian leads newcomers beyond the map and into a community with homes, stores, craftspeople and agricultural work. The adventurers meet people who need tools, food, protection and help finishing ordinary tasks. Learning the region means learning whom to ask as well as where to walk.</p><p>Melian’s early practical response to naming the small settlement suits that introduction. The town is vulnerable, but it already has its own life. The newcomers can contribute to it before they possess a plan for the whole world.</p><h2 id=\"chapter-3\">The road beyond the welcome</h2><p>Early scouting takes the company outside the settlement. Forgax follows a pillar visible to him alone; other journeys lead to dangers and questions the Gate’s welcome has not answered. These expeditions build knowledge unevenly. One person’s sight or memory does not automatically become something all the others know.</p><p>The shared arrival also leaves room for disagreement. Akarian asks whether such different companions can be trusted, while Claire’s account of raising a daughter of mixed heritage gives him a more personal way into the conversation. His offer to help teach her is an offer in that scene; its later completion is not established.</p><h2 id=\"chapter-4\">What begins here</h2><p>The Gate gives these strangers a common beginning, but their belonging grows through what they do afterward. Pristinia becomes the place where they work, return, make friends, argue and eventually defend people whose lives preceded their own arrival.</p><p>This is the first recovered Gate company and the calendar’s beginning. The later Third Arrival is a separate event. Neither designation supplies a complete census of everyone who ever crossed, and the first welcome does not settle all the mysteries of the Calling.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#pristinia\">Pristinia</a> · <a href=\"#akarian\">Akarian Irenhour</a> · <a href=\"#melian-starguard\">Melian Starguard</a> · <a href=\"#pristinia-campaign\">Pristinia · a town worth defending</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "The first Called arrive in Prima"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The portal stirs",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214401181435035730",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214403067428999168",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665",
+          "#pristinia — existing public account; original qualifications retained",
+          "#akarian — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "A settlement already living",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214401181435035730",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214403067428999168",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665",
+          "#pristinia — existing public account; original qualifications retained",
+          "#akarian — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The road beyond the welcome",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214401181435035730",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214403067428999168",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665",
+          "#pristinia — existing public account; original qualifications retained",
+          "#akarian — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "What begins here",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214401181435035730",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214403067428999168",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665",
+          "#pristinia — existing public account; original qualifications retained",
+          "#akarian — existing public account; original qualifications retained",
+          "#melian-starguard — existing public account; original qualifications retained",
+          "#pristinia-campaign — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

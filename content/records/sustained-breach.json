@@ -1,0 +1,149 @@
+{
+  "id": "sustained-breach",
+  "title": "The Sustained Breach · The Eye and the Altar",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "A frightening expanse becomes an investigation as the company finds an altar, a marked map and written evidence that someone planned to hold the breach open.",
+  "tags": [
+    "Event stories",
+    "Rifts",
+    "Rift",
+    "Ritual"
+  ],
+  "facts": {
+    "Recorded dates": "Source posts · 17 July 2026 · in-world date unresolved",
+    "Setting": "Ritual site; position unresolved",
+    "People": "Expedition participants; names not recovered in this summary",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1527492121882529893",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1527493220270080162",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1527508616926593146",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1527511975255605378",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1527528059828179056",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1527530869789560863",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531603503353989",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531792179921006",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1527532516205134007",
+    "#rifts — existing public account; original qualifications retained",
+    "#scribonia — existing public account; original qualifications retained",
+    "#adelia-hope — existing public account; original qualifications retained",
+    "#jiangshi — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The rift opens like a reopened wound, with stone suspended around its edges and darkness beyond. Whispers replace ordinary silence. Its appearance can be seen from widely separated places, drawing travelers who do not enter with the same knowledge or expectations.</p><h2 id=\"chapter-1\">The eye beneath them</h2><p>Inside, familiar sounds recede. Cold twilight, black mist and unsettling impressions leave the company feeling watched and alone even when standing together. The narration describes an immense eye below them, beyond easy sight.</p><p>Manzur, Scribonia, Myllorpaek, Jiangshi and Adelia are among the participants identifiable in the checked scene. Their opponents include masses of limbs, clawed creatures and a form that changes appearance. The encounter turns remembered fears into immediate dangers.</p><h2 id=\"chapter-2\">The breach becomes unstable</h2><p>A meteor strikes the eye, and the rift convulses. Stone tears free and bursts into debris while waves of arcane force cross the space. The company must endure a hazard that its own attacks can worsen.</p><p>One attacker resists Scribonia’s attempt to reach it telepathically. Another moment shows a creature taking the shape of Manzur’s and Scribonia’s nightmares. The enemies’ effects are observable in this fight without supplying a complete explanation of their origins.</p><p>When the last creature falls, the place begins to shake and the eye grows unstable. Survival now depends on finding a way out, but some of the travelers continue looking for evidence while there is still time.</p><h2 id=\"chapter-3\">The altar and the map</h2><p>The investigation reveals a black-stone altar, crimson flames and a summoning pattern cut into the floor. Elsewhere, a map marks the very place where the company stands. Repeated notes identify a weak boundary, a confirmed alignment and the possibility of sustaining the breach.</p><p>These are material findings, not merely a frightened traveler’s theory. They support deliberate preparation for this opening. The travelers have found signs that someone located a vulnerable boundary and worked to keep it open.</p><h2 id=\"chapter-4\">The last ways out</h2><p>As the space fails, small tears appear. A falling group of statues reveals a desert through one of them. The exits arrive under pressure, while the company is still deciding what it has time to see.</p><p>The record does not identify every ritualist or complete the plan’s intended purpose. The eye’s nature and the identity of any being a traveler associates with it remain unresolved. What this expedition adds is narrower and useful: an observed collapse, routes of escape, and written ritual evidence that this particular breach was planned and could be sustained.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#scribonia\">Scribonia</a> · <a href=\"#adelia-hope\">Adelia &amp; Hope</a> · <a href=\"#jiangshi\">Jiangshi</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Ritual evidence reveals a sustained breach"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The eye beneath them",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527492121882529893",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527493220270080162",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527508616926593146",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527511975255605378",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527528059828179056",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527530869789560863",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531603503353989",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531792179921006",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527532516205134007",
+          "#rifts — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#jiangshi — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "The breach becomes unstable",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527492121882529893",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527493220270080162",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527508616926593146",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527511975255605378",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527528059828179056",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527530869789560863",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531603503353989",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531792179921006",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527532516205134007",
+          "#rifts — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#jiangshi — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The altar and the map",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527492121882529893",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527493220270080162",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527508616926593146",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527511975255605378",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527528059828179056",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527530869789560863",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531603503353989",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531792179921006",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527532516205134007",
+          "#rifts — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#jiangshi — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The last ways out",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527492121882529893",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527493220270080162",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527508616926593146",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527511975255605378",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527528059828179056",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527530869789560863",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531603503353989",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527531792179921006",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1527532516205134007",
+          "#rifts — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#jiangshi — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

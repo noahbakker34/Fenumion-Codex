@@ -1,0 +1,139 @@
+{
+  "id": "ooze-rift",
+  "title": "The Ooze Rift · The Thing Beyond",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "The travelers stop the oozes spreading through the breach, then glimpse something far larger as the opening pulls them home.",
+  "tags": [
+    "Event stories",
+    "Rifts",
+    "Rift",
+    "Ooze"
+  ],
+  "facts": {
+    "Recorded dates": "Source posts · 17–18 April 2025 · in-world date unresolved",
+    "Setting": "Ooze-filled space beyond the breach",
+    "People": "Expedition participants; names not recovered in this summary",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1362564195874246820",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1362565556695208158",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1362566509074976870",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1362568809650720809",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1362572065005109320",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1362589198745469090",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1362594104168419579",
+    "#rifts — existing public account; original qualifications retained",
+    "#olokun — existing public account; original qualifications retained",
+    "#farkur — existing public account; original qualifications retained",
+    "#elenia — existing public account; original qualifications retained"
+  ],
+  "body": "<p>Word spreads across Fenumion of a tear leaking yellow-green ooze. The material is already dissolving and changing the land around the opening. Travelers arriving from different islands enter through it to confront the source of the spread.</p><h2 id=\"chapter-1\">Through the slime</h2><p>Their boots sink through the seepage, whose smell mixes lavender with rot and wet animal. Beyond the opening lies a large area filled with pools of different colors. The pools bubble and drain toward the route the company has just used.</p><p>Piles of apparently sentient slime emerge and begin advancing. The landscape is part of the danger: the ooze underfoot is also the medium from which the attackers rise.</p><h2 id=\"chapter-2\">Attacks that do not work</h2><p>Farkur’s crossbow bolt fails to harm its target. An eyeballed ooze attacks Olokun, then ejects bones that animate into an undead creature. The company is fighting opponents whose bodies and defenses do not fit the expectations of an ordinary battlefield.</p><p>The black oozes draw strength from the surrounding mass, regaining size and substance while the fight continues. Leaving them in their element gives them a continuing advantage. The travelers have to keep responding to what these specific creatures actually do.</p><h2 id=\"chapter-3\">The pools recede</h2><p>The company finally brings down the immediate attackers. The pools withdraw like a falling tide and a gurgling sound accompanies the beginning of the rift’s closure.</p><p>Before the travelers are taken back, something enormous becomes visible beyond the breach: an ooze nearly the size of a castle, visibly angry and looking toward them. It remains present as the opening contracts. Defeating the smaller creatures has not established its death or the destruction of their whole environment.</p><h2 id=\"chapter-4\">The pull home</h2><p>Planar force draws the travelers toward the lands from which they came. The account describes the closure as an experienced return, rather than a route they have learned to choose freely between one another’s islands.</p><p>The event ends the immediate encounter and the visible outflow in that scene. The larger creature’s later fate, the origin of the oozes and the full extent of the affected land remain unrecovered. Its final stare is part of the ending, and should not disappear from a version that calls the battle a simple victory.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#olokun\">Olokun</a> · <a href=\"#farkur\">Farkur S. Gemblenagin</a> · <a href=\"#elenia\">Elenia</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "An ooze rift closes with a larger threat beyond"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "Through the slime",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362564195874246820",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362565556695208158",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362566509074976870",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362568809650720809",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362572065005109320",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362589198745469090",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362594104168419579",
+          "#rifts — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Attacks that do not work",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362564195874246820",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362565556695208158",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362566509074976870",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362568809650720809",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362572065005109320",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362589198745469090",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362594104168419579",
+          "#rifts — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The pools recede",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362564195874246820",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362565556695208158",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362566509074976870",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362568809650720809",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362572065005109320",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362589198745469090",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362594104168419579",
+          "#rifts — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The pull home",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362564195874246820",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362565556695208158",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362566509074976870",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362568809650720809",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362572065005109320",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362589198745469090",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1362594104168419579",
+          "#rifts — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

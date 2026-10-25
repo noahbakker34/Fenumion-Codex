@@ -1,0 +1,109 @@
+{
+  "id": "gael-larkhollow-route",
+  "title": "From Gael toward Larkhollow",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "A company stages on Gael’s coast for the long journey through Verdelune, connecting a restored refuge to a settlement whose dangers remain unsettled.",
+  "tags": [
+    "Event stories",
+    "travel",
+    "Verdelune",
+    "Gael"
+  ],
+  "facts": {
+    "Recorded dates": "7 Sep 2026",
+    "Setting": "Gael coast; Verdelune; Larkhollow",
+    "People": "Traveling party",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#gael — existing public account; original qualifications retained",
+    "#verdelune — existing public account; original qualifications retained",
+    "#larkhollow — existing public account; original qualifications retained",
+    "#viotas-monument — existing public account; original qualifications retained",
+    "#fenwick — existing public account; original qualifications retained"
+  ],
+  "body": "<p>A company gathers on Gael’s coast for the many-hour journey through Verdelune toward Larkhollow. By this stage, the settlement is a recognized destination. Gael has become a place from which travelers set out, as well as the hard-won destination of earlier expeditions.</p><h2 id=\"chapter-1\">An earlier arrival</h2><p>The first recovered Larkhollow visit is in the Month of Rebirth, Year 3. Travelers find lodging with a view toward a ruined tower. At the end of that expedition the narrator permits rest and continued life there, opening the place for later visits.</p><p>The same ending warns that travel is not yet safe. That warning belongs to the arrival even though the settlement can now be revisited. First contact by this company is not Larkhollow’s founding; its homes and ruins already have histories.</p><h2 id=\"chapter-2\">Gathering on the coast</h2><p>The later company’s departure from Gael confirms that Larkhollow has entered a wider network of travel knowledge. They know a direction, an onward region and the expectation of many hours on the road.</p><p>That is a useful development without being a fixed timetable. The surviving departure discussion does not establish that every company follows one identical path or that the hazards along it have been permanently removed.</p><h2 id=\"chapter-3\">A settlement with people to ask</h2><p>Later encounters reveal the Petal Market and local trades: Sylvi Fernstep’s herbal work, Ilyra Bellflower, Orin Mossbell’s trinkets and Talla Briarwing’s carpets. These people make Larkhollow more than a ruin at the end of a route. It is somewhere travelers can find residents, questions, supplies and reasons to return.</p><p>The old tower remains an unresolved part of its landscape. Relics are associated with it, but its builders, destruction and complete relationship to the town are not recovered simply because visitors can see it from their lodging.</p><h2 id=\"chapter-4\">The route keeps changing</h2><p>Hana’s tower turns a later expedition into retreat. Ilyra’s letter sends a company toward Viota’s monument. In still later scenes, the forest beyond the river contains the Dark Shroud, where an attempt to recover a rooted body brings fighting, fire and a bargain.</p><p>Those journeys explain why a known road should not be mistaken for a solved region. The coastal staging event records a link being used between Gael, Verdelune and Larkhollow. The subsequent expeditions carry that link into a world whose geography and dangers still have to be learned in person.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#gael\">Gael</a> · <a href=\"#verdelune\">Verdelune</a> · <a href=\"#larkhollow\">Larkhollow</a> · <a href=\"#viotas-monument\">Viota’s Monument</a> · <a href=\"#fenwick\">Fenwick d&#x27;Jorasco</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Gael’s coast becomes a route toward Larkhollow"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "An earlier arrival",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#gael — existing public account; original qualifications retained",
+          "#verdelune — existing public account; original qualifications retained",
+          "#larkhollow — existing public account; original qualifications retained",
+          "#viotas-monument — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Gathering on the coast",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#gael — existing public account; original qualifications retained",
+          "#verdelune — existing public account; original qualifications retained",
+          "#larkhollow — existing public account; original qualifications retained",
+          "#viotas-monument — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "A settlement with people to ask",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#gael — existing public account; original qualifications retained",
+          "#verdelune — existing public account; original qualifications retained",
+          "#larkhollow — existing public account; original qualifications retained",
+          "#viotas-monument — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The route keeps changing",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#gael — existing public account; original qualifications retained",
+          "#verdelune — existing public account; original qualifications retained",
+          "#larkhollow — existing public account; original qualifications retained",
+          "#viotas-monument — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

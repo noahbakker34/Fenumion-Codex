@@ -1,0 +1,131 @@
+{
+  "id": "voyage-to-gael",
+  "title": "The Voyage to Gael",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "Nienna’s company turns the Void from an unknown barrier into a traveled route, carrying a seed and learning how other travelers have paid for passage.",
+  "tags": [
+    "Event stories",
+    "ship",
+    "Great Tree seed",
+    "Void dragons",
+    "travel",
+    "unwilling souls",
+    "provenance"
+  ],
+  "facts": {
+    "Recorded dates": "By 12 Jun 2024 · Known by 13 Jun 2024",
+    "Setting": "The Void; Gael · The Void",
+    "People": "Nienna; Gartina; Quake; the expedition",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#nienna — existing public account; original qualifications retained",
+    "#the-void — existing public account; original qualifications retained",
+    "#gael — existing public account; original qualifications retained",
+    "#huoth — existing public account; original qualifications retained",
+    "#gartina — existing public account; original qualifications retained"
+  ],
+  "body": "<p>Before Gael can become a place of battles, refuge and rebuilding, someone has to reach it. Nienna’s expedition makes that crossing through a sequence of practical discoveries: obtaining a ship, finding people to sail it, surviving the Void and arriving with something that may restore life to the ruined land.</p><h2 id=\"chapter-1\">A ship and a company</h2><p>Nienna acquires a ship and frees or gathers a crew. The voyage is already a shared undertaking. It does not begin with a lone adventurer stepping effortlessly from one island to another.</p><p>Her later words make that dependence personal. She believes that, had she attempted the voyage alone, she would have died alone in the Void. The people traveling with her are part of the reason the route can become more than an intention.</p><h2 id=\"chapter-2\">The moving island and the seed</h2><p>The chain of encounters includes an island-scale moving turtle and the discovery of a seed of the Great Tree. The moving creature unsettles ordinary expectations about where travelers can stand and what counts as land. The seed gives the expedition something to carry forward beyond its own survival.</p><p>The travelers also learn that dragons associated with Death haunt the Void. Gartina later remembers their extraordinary strength and suspects that stronger ones may exist. The danger is concrete, but its full distribution is not known. Encountering those dragons does not show that every creature in the Void serves Death or that Death created the space between islands.</p><h2 id=\"chapter-3\">Arrival at Gael</h2><p>The crossing culminates in Gael and Titan’s Watch. The company’s approach is the beginning of the recovered route into the region, not the founding of its ancient ruins. Those ruins belong to a history the newcomers still have to investigate.</p><p>Gael presents them with a land where protection, life and knowledge must be recovered under pressure. Huoth’s sanctuary and guidance, the planting of Hope, expeditions across the Plains and the campaign against Wrath follow from the road opened by this arrival. Those later achievements have their own participants and costs.</p><h2 id=\"chapter-4\">Nienna describes another price of passage</h2><p>In the following account, Nienna is pressed about earlier travel and describes a method of securing safer passage by feeding unwilling souls to the Void’s inhabitants. She calls the practice awful and speaks of dozens being consumed.</p><p>This is not her voyage being rewritten as an unqualified tale of discovery. Learning how people cross also exposes what other crossings can cost. Nienna’s testimony belongs to the history of those choices and the conditions that made them possible.</p><h2 id=\"chapter-5\">A route, not a universal rule</h2><p>Her account does not identify every organizer, consumer or route involved. It does not establish that the beings fed were the same dragons Gartina remembers, or that every passage through the Void requires sacrifice. The successful company voyage and the horrific method Nienna describes must both remain visible without being collapsed into one rule.</p><p>The recovered arrival is bounded around the early Month of Rebirth, Year 1; its earlier exact dates remain uncertain. What the record does establish is the causal journey: ship and crew, the moving island, the seed, the danger of Death’s dragons, and arrival in Gael. The later restored ground begins with people who accepted that journey together.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#nienna\">Nienna</a> · <a href=\"#the-void\">The Void</a> · <a href=\"#gael\">Gael</a> · <a href=\"#huoth\">Huoth, Emissary of Nuru</a> · <a href=\"#gartina\">Gartina</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Nienna’s expedition reaches Gael",
+      "Nienna testifies to soul-fed Void passage"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "A ship and a company",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#nienna — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#huoth — existing public account; original qualifications retained",
+          "#gartina — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "The moving island and the seed",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#nienna — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#huoth — existing public account; original qualifications retained",
+          "#gartina — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "Arrival at Gael",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#nienna — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#huoth — existing public account; original qualifications retained",
+          "#gartina — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Nienna describes another price of passage",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#nienna — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#huoth — existing public account; original qualifications retained",
+          "#gartina — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "A route, not a universal rule",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#nienna — existing public account; original qualifications retained",
+          "#the-void — existing public account; original qualifications retained",
+          "#gael — existing public account; original qualifications retained",
+          "#huoth — existing public account; original qualifications retained",
+          "#gartina — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

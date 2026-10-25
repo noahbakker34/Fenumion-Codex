@@ -1,0 +1,154 @@
+{
+  "id": "coastal-rift",
+  "title": "The Coastal Rift · The Last Wave",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "A shore beyond the rift fills with successive waves of goblins and their commanders. Fenwick banishes the last three, and the company is carried home.",
+  "tags": [
+    "Event stories",
+    "Rifts",
+    "Rift",
+    "Coastal battle"
+  ],
+  "facts": {
+    "Recorded dates": "Source posts · 8 October 2026 · in-world date unresolved",
+    "Setting": "Sandy shore beyond the breach",
+    "People": "Fenwick; other expedition participants",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1557567681769513093",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1557570532600184855",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1557576357435805746",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1557582798330663024",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1557585003871866941",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1557588785473003563",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1557593160727789582",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1557611403123359807",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1557614046273085621",
+    "#rifts — existing public account; original qualifications retained",
+    "#fenwick — existing public account; original qualifications retained",
+    "#nymera — existing public account; original qualifications retained",
+    "#vessalia — existing public account; original qualifications retained",
+    "#ryvyt — existing public account; original qualifications retained"
+  ],
+  "body": "<p>Saltwater can be smelled across the islands when the rift opens. The distant sound of battle carries through it. Those who answer reach a sandy beach with sparse vegetation and find enemies already emerging from the sea.</p><h2 id=\"chapter-1\">The first wave</h2><p>Rows of goblins come through the surf with teeth and daggers ready. Nymera destroys two, drawing the attention of many of the others. Some press toward her; those too far away break out of the water and advance on the rest of the company.</p><p>Fenwick, Nymera, Vessalia and Ryvyt are among the named travelers in the checked encounter. They have arrived at an active shoreline battle, not a quiet coast they can investigate before deciding how to act.</p><h2 id=\"chapter-2\">Better fighters behind them</h2><p>As the first attackers fall, more continue to arrive. The next wave includes taller, more capable fighters and shamans carrying wooden totems. Orders from the advancing martial leaders visibly improve their allies’ morale.</p><p>A hobgoblin launches a fireball from the surf. Spells and missiles cross the beach while the company tries to stop the incoming waves. Not every enemy acts competently: one spell illuminates an ally instead of the adventurers, provoking an indignant correction in the middle of the fighting.</p><h2 id=\"chapter-3\">The beach falls silent</h2><p>The company keeps reducing the attackers until three goblins remain. Fenwick banishes all three. The narration marks their removal as the moment the beach becomes quiet again.</p><p>The shore now includes glass created by the direct application of meteors. The victory has changed the terrain around the travelers; the scene is not simply restored to its state before the battle.</p><h2 id=\"chapter-4\">A brief pause, then home</h2><p>The narrator allows a short interval for conversation and harvesting. The travelers can look at what remains and speak to one another while the immediate attackers are gone.</p><p>That interval ends when instability grows too strong. Everyone is whisked back to their respective islands. The recorded ending supplies neither a permanent occupation of the shore nor unrestricted transport to someone else’s home.</p><p>The scene establishes successive enemy waves, a completed local battle and a return caused by the breach’s instability. The enemy army’s full origin, the shore’s larger history and any permission to carry particular harvested objects across the boundary require their own evidence. Those questions do not undo the witnessed ending: Fenwick’s banishment leaves the beach silent, and the company gets out.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#fenwick\">Fenwick d&#x27;Jorasco</a> · <a href=\"#nymera\">Nymera</a> · <a href=\"#vessalia\">Vessalia</a> · <a href=\"#ryvyt\">Ryvyt</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "A coastal rift opens onto a battle from the sea"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The first wave",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557567681769513093",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557570532600184855",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557576357435805746",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557582798330663024",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557585003871866941",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557588785473003563",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557593160727789582",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557611403123359807",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557614046273085621",
+          "#rifts — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#vessalia — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Better fighters behind them",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557567681769513093",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557570532600184855",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557576357435805746",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557582798330663024",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557585003871866941",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557588785473003563",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557593160727789582",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557611403123359807",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557614046273085621",
+          "#rifts — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#vessalia — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The beach falls silent",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557567681769513093",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557570532600184855",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557576357435805746",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557582798330663024",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557585003871866941",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557588785473003563",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557593160727789582",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557611403123359807",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557614046273085621",
+          "#rifts — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#vessalia — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "A brief pause, then home",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557567681769513093",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557570532600184855",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557576357435805746",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557582798330663024",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557585003871866941",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557588785473003563",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557593160727789582",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557611403123359807",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1557614046273085621",
+          "#rifts — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained",
+          "#nymera — existing public account; original qualifications retained",
+          "#vessalia — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

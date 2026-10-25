@@ -1,0 +1,190 @@
+{
+  "id": "abyssal-rift-cthulhu",
+  "title": "The Abyssal Rift · Pappy’s Rescue and Cthulhu’s Arrival",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "Pappy is attacked while creatures tear open the boundary. He is pulled out just before Cthulhu crosses, devours those who freed him and departs.",
+  "tags": [
+    "Event stories",
+    "Rift",
+    "Gate",
+    "rescue",
+    "disputed knowledge",
+    "Rifts",
+    "Allegiance",
+    "Cthulu",
+    "Cthulhu",
+    "Eldritch god",
+    "Arrival"
+  ],
+  "facts": {
+    "Recorded dates": "3 September 2026 · source posts (EDT) · Source posts · 3–4 September 2026 · in-world date unresolved · 3 September 2026 · date confirmed by the world’s creator",
+    "Setting": "The Rift · Abyssal environment beyond the breach · Fenumion; arrival site unresolved",
+    "People": "Pappy; Adelia; Magnus; other encounter participants; Cthulhu, the eldritch god; other participants unresolved",
+    "Importance": "Interregional · World Changing"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545218434596602037",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545221155869167677",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545222882114801818",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545224497932668999",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545226499878158447",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545227346326585376",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545258375867011205",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545259516650586142",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545260065345511508",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1545261457724276846",
+    "#rifts — existing public account; original qualifications retained",
+    "#pappy — existing public account; original qualifications retained",
+    "#adelia-hope — existing public account; original qualifications retained",
+    "#magnus — existing public account; original qualifications retained"
+  ],
+  "body": "<p>The sky darkens across the islands, and the sun appears to bleed. Beyond the opening is an abyssal space whose energies tug at the travelers’ feelings. Some are repelled; others welcome the sensation. The people answering the same rift have not entered with the same loyalties.</p><h2 id=\"chapter-1\">The door being eaten open</h2><p>Creatures gnaw at the red boundary. Closer to them, a robed figure stands over an emerging skeletal form and appears to coax it through from another world. The company can see that a crossing is being attempted while the creatures work at what holds it out.</p><p>A call reaches some of those with dark blessings, urging them to help open the door. The scene puts the travelers’ different allegiances into action. This is not simply a united expedition clearing a room of enemies.</p><h2 id=\"chapter-2\">Pappy becomes a target</h2><p>Pappy is attacked during the encounter. The surviving public rescue account credits Adelia with sensing the threat and opening a Gate to pull him away. The rift narration describes a force answering his plight through the darkness and bringing him out.</p><p>As he is pulled through, Pappy makes one last attempt to throw his hammer back into the fight. It splatters amid the energies that have called him home. His escape happens while the attempted crossing is still underway.</p><h2 id=\"chapter-3\">The crossing succeeds</h2><p>Immediately after Pappy is pulled back, the remaining three creatures complete their work. Dumuzi smiles as the form shudders to life and tears into the new reality.</p><p>The world’s creator confirms the arrival as Cthulhu, the eldritch god, on 3, Month of Nuru, Year 3. The final source messages fall after midnight UTC but still on that confirmed local date. The name and date do not depend on treating every earlier guess by a participant as correct.</p><h2 id=\"chapter-4\">The freed being turns on its helpers</h2><p>As the surrounding space contracts, Cthulhu devours the creatures that freed him and departs to serve a master. Their completed task does not save them. The ending establishes an arrival into Fenumion, rather than an enemy merely glimpsed beyond a safely closing door.</p><p>The identities, motives and future plans of everyone involved are not fully settled by this ending. Nor does it establish that every rift exists to carry the same being or serve the same purpose.</p><h2 id=\"chapter-5\">What remains disputed</h2><p>The witnessed rescue and the crossing have a clear order: Pappy leaves first; the creatures finish opening the way; Cthulhu enters and departs. Later disagreement about what Adelia could know, consent and adjudication belongs to a separate history. It does not erase the rescue or settle every question about the limits of her intervention.</p><p>This chronicle keeps the three timeline milestones together because they are parts of one encounter. Reading only the ambush misses the arrival that follows it; reading only the arrival hides the decision and danger immediately before it.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#pappy\">Pappy</a> · <a href=\"#adelia-hope\">Adelia &amp; Hope</a> · <a href=\"#magnus\">Magnus Niriin</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "The Rift ambush tests knowledge and rescue",
+      "An abyssal rift becomes a crisis of allegiance",
+      "Cthulhu comes through a rift into Fenumion"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The door being eaten open",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545218434596602037",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545221155869167677",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545222882114801818",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545224497932668999",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545226499878158447",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545227346326585376",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545258375867011205",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545259516650586142",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545260065345511508",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545261457724276846",
+          "#rifts — existing public account; original qualifications retained",
+          "#pappy — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Pappy becomes a target",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545218434596602037",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545221155869167677",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545222882114801818",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545224497932668999",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545226499878158447",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545227346326585376",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545258375867011205",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545259516650586142",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545260065345511508",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545261457724276846",
+          "#rifts — existing public account; original qualifications retained",
+          "#pappy — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The crossing succeeds",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545218434596602037",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545221155869167677",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545222882114801818",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545224497932668999",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545226499878158447",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545227346326585376",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545258375867011205",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545259516650586142",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545260065345511508",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545261457724276846",
+          "#rifts — existing public account; original qualifications retained",
+          "#pappy — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The freed being turns on its helpers",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545218434596602037",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545221155869167677",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545222882114801818",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545224497932668999",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545226499878158447",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545227346326585376",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545258375867011205",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545259516650586142",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545260065345511508",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545261457724276846",
+          "#rifts — existing public account; original qualifications retained",
+          "#pappy — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-5",
+      "title": "What remains disputed",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545218434596602037",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545221155869167677",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545222882114801818",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545224497932668999",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545226499878158447",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545227346326585376",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545258375867011205",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545259516650586142",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545260065345511508",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1545261457724276846",
+          "#rifts — existing public account; original qualifications retained",
+          "#pappy — existing public account; original qualifications retained",
+          "#adelia-hope — existing public account; original qualifications retained",
+          "#magnus — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

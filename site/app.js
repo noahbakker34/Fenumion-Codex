@@ -199,6 +199,23 @@ function timelineDetailParagraphs(item) {
   return [item.summary, window.codexReadingText(questEventConsequences[item.title])];
 }
 
+let eventStoryOrigin = null;
+function timelineStory(item) {
+  if (!item) return null;
+  const story = item?.story && byId.get(item.story);
+  return !isRestrictedTimelineEvent(item) && story && isPlayerSafeArticle(story.id) && story.eventChronicle?.events.includes(item.title) ? story : null;
+}
+function openEventStory(item) {
+  const story = timelineStory(item);
+  if (!story) return;
+  eventStoryOrigin = { article: story.id, route: location.hash };
+  closeRecordDialog();
+  renderArticle(story.id);
+}
+function eventStoryReturnRoute(article) {
+  return eventStoryOrigin?.article === article.id ? eventStoryOrigin.route : '#living-timeline';
+}
+
 function characterRecordKind(person) { return person.characterKind === 'pet' ? 'pet' : 'player'; }
 function characterRecordLabel(person) { return person.characterKind === 'pet' ? 'Player-character pet' : 'Player character'; }
 
@@ -229,9 +246,11 @@ function openTimelineRecord(item) {
   const previousItem = currentIndex > 0 ? readableTimeline[currentIndex - 1] : null;
   const nextItem = currentIndex >= 0 && currentIndex < readableTimeline.length - 1 ? readableTimeline[currentIndex + 1] : null;
   const reviewSources = [...new Set([...(item.reviewSources || []), ...(item.dating?.calendarAdjustment?.sources || [])])];
-  const relatedButton = item.article && item.article !== "living-timeline"
-    ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(item.article)}">Open related Codex record →</button>`
-    : "";
+  const story = timelineStory(item);
+  const relatedButton = story
+    ? `<a class="record-dialog-link" href="#${escapeHtml(story.id)}" data-event-story="${escapeHtml(story.id)}" data-event-title="${escapeHtml(item.title)}">Read the full story →</a>`
+    : item.article && item.article !== "living-timeline"
+      ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(item.article)}">Explore context: ${escapeHtml(byId.get(item.article)?.title || 'related record')} →</button>` : '';
   const timelineNavigation = previousItem || nextItem ? `
     <nav class="record-dialog-nav" aria-label="Browse timeline records">
       ${previousItem ? `<button type="button" data-timeline-title="${escapeHtml(previousItem.title)}"><small>Previous event</small><strong>← ${escapeHtml(previousItem.title)}</strong></button>` : `<span></span>`}
@@ -241,6 +260,7 @@ function openTimelineRecord(item) {
     <p class="record-dialog-kicker">Timeline record · ${escapeHtml(item.kind)}</p>
     <h2 id="record-dialog-title">${escapeHtml(item.title)}</h2>
     <div class="record-dialog-dek">${timelineDateMarkup(item)} · ${escapeHtml(item.location)}</div>
+    ${relatedButton}
     <p class="timeline-dating-note">${escapeHtml(item.dating?.note || 'The date basis has not yet received a separate review.')}</p>
     <div class="record-dialog-body">
       <p><strong>Importance · ${timelineImportanceLabel(item)}</strong>${escapeHtml(item.importanceReason || timelineImportance(item)?.description || 'This event has not yet been assigned an importance level.')}</p>
@@ -251,7 +271,6 @@ function openTimelineRecord(item) {
     ${reviewSources.length ? `<p class="timeline-review-sources"><strong>Checked quest evidence</strong> ${reviewSources.map((url,index) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Receipt ${index+1}</a>`).join(' · ')}</p>` : ''}
     ${renderEventConnections(item)}
     ${window.CodexReader.eventChains(item)}
-    ${relatedButton}
     ${timelineNavigation}`;
   window.FenumionCalendar.render(recordDialogContent);
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
@@ -912,7 +931,7 @@ function renderArticle(route, pushHash = true) {
   else if (pushHash && location.hash !== routeHash) history.pushState(null, "", routeHash);
   else if (!pushHash && article.id === "living-timeline" && location.hash !== routeHash) history.replaceState(null, "", routeHash);
   const publicPreview = protectedArticle && article.id === 'death-dumuzi' && article.publicPreview;
-  articleContent.classList.remove('biography-layout','region-hub-layout');
+  articleContent.classList.remove('biography-layout','region-hub-layout','chronicle-layout');
   document.title = window.FenumionCalendar.text(`${publicPreview ? publicPreview.title : protectedArticle ? "Veiled Record" : article.title} — The Fenumion Codex`);
   const path = articlePaths.get(article.id) || [article.category, article.title];
   breadcrumbs.innerHTML = protectedArticle ? `Codex <span>·</span> ${publicPreview ? 'Death' : 'Protected record'}` : `Codex <span>·</span> ${path.join(' <span>·</span> ')}`;
@@ -1816,12 +1835,12 @@ function setupTimelineExplorer(personId = '', params = new URLSearchParams()) {
     summary.innerHTML = `<strong>${filtered.length}</strong> of ${availableTimeline.length} event${availableTimeline.length === 1 ? '' : 's'} · ${escapeHtml(timelineImportanceSummary(state))}${state.region ? ' · '+escapeHtml(codexCatalog.timelineRegions.find(region => region.id === state.region)?.label || '') : ''} · ${timelineOrders[state.order].toLowerCase()}`;
     results.innerHTML = filtered.length ? [...grouped.entries()].map(([group, items]) => `
       <section class="timeline-era" aria-label="${escapeHtml(group)}"><header class="timeline-era-header"><h3>${escapeHtml(group)}</h3><span>${items.length} event${items.length === 1 ? '' : 's'}</span></header>
-      <div class="event-timeline">${items.map((item,index) => `
+      <div class="event-timeline">${items.map((item,index) => { const story=timelineStory(item), tag=story?'a':'button'; return `
         ${!byImportance && (!index || timelineCalendarMonthGroup(item) !== timelineCalendarMonthGroup(items[index-1])) ? `<h4 class="timeline-month-heading">${window.CodexVisual?.monthIcon(timelineCalendarPoint(timelineCalendarWindow(item)?.start)?.monthNumber) || ''}${escapeHtml(timelineCalendarMonthGroup(item))}</h4>` : ''}
-        <button class="event-card" type="button" data-article="${escapeHtml(item.article)}" data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}" data-region="${item.regions?.length===1?escapeHtml(item.regions[0]):''}">
+        <${tag} class="event-card" ${story ? `href="#${escapeHtml(story.id)}" data-event-story="${escapeHtml(story.id)}"` : 'type="button"'} data-article="${escapeHtml(item.article)}" data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}" data-region="${item.regions?.length===1?escapeHtml(item.regions[0]):''}">
           <span class="event-date">${timelineDateMarkup(item)}<span class="event-importance" title="${escapeHtml(item.importanceReason || '')}">${timelineImportanceMarkup(item)}</span></span>
-          <span class="event-copy"><span class="event-kind">${escapeHtml(item.kind)} <i>·</i> ${escapeHtml(item.location)}</span><strong>${escapeHtml(item.title)}</strong><span class="event-summary">${escapeHtml(item.summary)}</span><span class="event-people"><b>People</b> ${escapeHtml(item.people)}</span><span class="event-tags">${(item.tags || []).map(tag => `<i>${escapeHtml(tag)}</i>`).join('')}</span><span class="event-expand">Open full event <i aria-hidden="true">→</i></span></span>
-        ${window.CodexVisual?.eventArt(item,codexVisualContext()) || ''}</button>`).join('')}</div></section>`).join('') : '<div class="timeline-empty"><strong>No events match these filters.</strong><span>Try a lower importance level, another era or a broader search.</span></div>';
+          <span class="event-copy"><span class="event-kind">${escapeHtml(item.kind)} <i>·</i> ${escapeHtml(item.location)}</span><strong>${escapeHtml(item.title)}</strong><span class="event-summary">${escapeHtml(item.summary)}</span><span class="event-people"><b>People</b> ${escapeHtml(item.people)}</span><span class="event-tags">${(item.tags || []).map(tag => `<i>${escapeHtml(tag)}</i>`).join('')}</span><span class="event-expand">${story ? 'Read the full story' : 'View event summary'} <i aria-hidden="true">→</i></span></span>
+        ${window.CodexVisual?.eventArt(item,codexVisualContext()) || ''}</${tag}>`; }).join('')}</div></section>`).join('') : '<div class="timeline-empty"><strong>No events match these filters.</strong><span>Try a lower importance level, another era or a broader search.</span></div>';
     window.CodexVisual?.calendarNavigator(explorer,filtered,codexVisualContext());
     window.FenumionCalendar.render(explorer);
   };
@@ -2195,6 +2214,14 @@ recordDialog?.addEventListener("click", event => {
 
 document.addEventListener("click", event => {
   if(event.target.closest("[data-refresh-codex]")){location.reload();return;}
+  const storyTrigger = event.target.closest('[data-event-story]');
+  if (storyTrigger) {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const item = findTimelineRecord(storyTrigger.dataset.eventTitle || storyTrigger.dataset.timelineTitle);
+    if (timelineStory(item)?.id === storyTrigger.dataset.eventStory) {
+      event.preventDefault(); openEventStory(item); return;
+    }
+  }
   const locationTrigger = event.target.closest('[data-location-title]');
   if (locationTrigger) {
     const place = archiveIndex.islands.find(item => item.title === locationTrigger.dataset.locationTitle);
@@ -2258,6 +2285,9 @@ document.addEventListener("click", event => {
   if (timelineTrigger) {
     const timelineItem = findTimelineRecord(timelineTrigger.dataset.timelineTitle);
     if (timelineItem && (!isRestrictedTimelineEvent(timelineItem) || vaultUnlocked)) {
+      if (timelineTrigger.closest('.location-timeline-list') && timelineStory(timelineItem)) {
+        openEventStory(timelineItem); return;
+      }
       openTimelineRecord(timelineItem);
       return;
     }

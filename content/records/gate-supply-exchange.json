@@ -1,0 +1,133 @@
+{
+  "id": "gate-supply-exchange",
+  "title": "Stone and Metal through the Gate",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "The Pristinia workshop remains useful after its retail closure, as Farkur and Elenia move material toward Babel’s unfinished safehouse.",
+  "tags": [
+    "Event stories",
+    "Source update",
+    "October"
+  ],
+  "facts": {
+    "Recorded dates": "2026-10-15 · source posts",
+    "Setting": "Ryvyting Creations; Babel supply route",
+    "People": "Farkur; Elenia",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560147378458202197",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560148168027414620",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560149114946068481",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560159810543030313",
+    "#ryvyting-creations — existing public account; original qualifications retained",
+    "#farkur — existing public account; original qualifications retained",
+    "#elenia — existing public account; original qualifications retained",
+    "#ale-chemy-knights — existing public account; original qualifications retained",
+    "#pristinia — existing public account; original qualifications retained",
+    "#babel-ashur — existing public account; original qualifications retained"
+  ],
+  "body": "<p>Ryvyting Creations has closed as an ordinary retail shop, but its Pristinia premises remain a place for stored materials and shared work. Farkur uses the workshop while helping supply efforts in Gael and Babel-Ashur. The needs of those places turn local stock and craft into a problem of transport between islands.</p><h2 id=\"chapter-1\">Before there is a finished town</h2><p>Farkur describes the Knights as quartermasters, keeping equipment, routes and fallback places useful. A planned town in Gael still depends on resources and work. A visitor is told that normal magical stock has been redirected toward Gael rather than being offered as proof that the old shop has reopened.</p><p>Clive brings stone, and Farkur asks for further scouting and supplies. Rumors about Eovar’s trade influence preparations, but do not establish that all trade there has actually stopped. The plans remain tied to what people can bring and verify.</p><h2 id=\"chapter-2\">A borrowed wagon</h2><p>Pell receives permission to use Anky’s wagon as a loan. Farkur keeps Anky’s ownership intact because he does not know his companion’s fate at this stage.</p><p>That uncertainty belongs to Farkur’s knowledge in the scene. It does not reverse the separately established account of Anky’s death. Nor does lending the wagon quietly transfer the property to the Knights or to Pell.</p><h2 id=\"chapter-3\">Elenia opens the way</h2><p>In the later exchange, Elenia’s Gate makes it possible to send worked goods and receive a new load across the distance. Farkur gives the Babel safehouse priority, asking that stone and metal serve its needs before the remainder of his order.</p><p>The goods actually move through the Gate. This is a completed transfer, distinct from earlier requests for materials or plans for what a future settlement will contain. The useful result is practical: people on another front have more to build and work with.</p><h2 id=\"chapter-4\">What the delivery does not finish</h2><p>The safehouse remains unfinished, as does the broader Gael town project. The transfer supplies those efforts without establishing a completed building, a new retail opening or a final settlement layout.</p><p>The workshop’s history therefore continues after the shop’s closure. A place can stop selling to ordinary customers and still matter to the people trying to keep multiple communities supplied. This delivery records that continuing work through named people, borrowed property and a specific priority across the Gate.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#ryvyting-creations\">Ryvyting Creations</a> · <a href=\"#farkur\">Farkur S. Gemblenagin</a> · <a href=\"#elenia\">Elenia</a> · <a href=\"#ale-chemy-knights\">The Ale-Chemy Knights</a> · <a href=\"#pristinia\">Pristinia</a> · <a href=\"#babel-ashur\">Babel-Ashur</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Farkur and Elenia exchange supplies across the Gate"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "Before there is a finished town",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560147378458202197",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560148168027414620",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560149114946068481",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560159810543030313",
+          "#ryvyting-creations — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#ale-chemy-knights — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained",
+          "#babel-ashur — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "A borrowed wagon",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560147378458202197",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560148168027414620",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560149114946068481",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560159810543030313",
+          "#ryvyting-creations — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#ale-chemy-knights — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained",
+          "#babel-ashur — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "Elenia opens the way",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560147378458202197",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560148168027414620",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560149114946068481",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560159810543030313",
+          "#ryvyting-creations — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#ale-chemy-knights — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained",
+          "#babel-ashur — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "What the delivery does not finish",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560147378458202197",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560148168027414620",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560149114946068481",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560159810543030313",
+          "#ryvyting-creations — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#ale-chemy-knights — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained",
+          "#babel-ashur — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

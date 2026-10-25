@@ -415,3 +415,8 @@ Owner adopts elapsed posting dates and permits aligning clear quest continuation
 ## Named calendar · 21 October 2026
 
 Explicit owner canon supplies the twelve month names in FINAL_WAR_CALENDAR.md and confirms January 1 rollover / 2024 as Year 1. This changes calendar presentation and guidance, without importing a new transcript corpus or changing event chronology and uncertainty.
+
+
+## Event-story review · 25 October 2026
+
+Existing original quest/rift/Gate archives and previously published public histories support thirty event chronicles. The selected-scene review and all 174 newly listed receipt identities are recorded in [MAJOR_EVENT_STORIES_2026_10_25.md](MAJOR_EVENT_STORIES_2026_10_25.md) and `content/reference/event-chronicles.json`. This reuses existing source corpora rather than adding a raw transcript to the repository. Primary quest evidence corrects the war council’s date to 26 October 2025; uncertain outcomes, attributed explanations and ancient/modern dating boundaries remain explicit. Other existing syntheses are not silently promoted to a full primary-source certification.

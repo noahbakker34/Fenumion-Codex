@@ -1,0 +1,159 @@
+{
+  "id": "volcanic-rift",
+  "title": "The Volcanic Rift · Breaking the Crystal",
+  "category": "History",
+  "type": "Quest chronicle",
+  "dek": "Heat and hostile creatures wear the company down until a central crystal is destroyed. The collapsing breach sends the survivors back to their own departure places.",
+  "tags": [
+    "Event stories",
+    "Rifts",
+    "Rift",
+    "Crystal"
+  ],
+  "facts": {
+    "Recorded dates": "Source posts · 25 September 2026 · in-world date unresolved",
+    "Setting": "Volcanic terrain; separate return points on Prima",
+    "People": "Farkur; Djöhandrai; other expedition participants",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552855583651143721",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552858850514698260",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552861313573855303",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552864903914848367",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552888188761284669",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552894068978098298",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552903657761144924",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552909337754861639",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1552912457851207791",
+    "#rifts — existing public account; original qualifications retained",
+    "#farkur — existing public account; original qualifications retained",
+    "#fenwick — existing public account; original qualifications retained",
+    "#scribonia — existing public account; original qualifications retained",
+    "#ryvyt — existing public account; original qualifications retained",
+    "#pristinia — existing public account; original qualifications retained"
+  ],
+  "body": "<p>A thin black line appears in the air and widens with the sound of stone splitting. Heat and ash come through it before the travelers cross. Beyond the opening are black rock and flowing lava.</p><h2 id=\"chapter-1\">The crystal behind the flames</h2><p>On entering, the company immediately feels the heat. A gargantuan fiery creature stands before a crystal. The object pulses while the travelers confront the problem of reaching it through the defenders and the environment.</p><p>Fenwick, Espera, Scribonia, Djöhandrai, Farkur and Ryvyt are among the named participants in the checked account. Their presence does not imply that they have all started from the same island or will be able to leave for one chosen destination.</p><h2 id=\"chapter-2\">Rock, soot and fallen companions</h2><p>The fire creature throws a rock between Scribonia and Ryvyt, scattering fiery fragments at those nearby. Soot around another enemy returns when lightning is used, obscuring it again. Different attacks change the conditions of the fight without making the field safe.</p><p>A thrown rock knocks Espera unconscious. Fenwick sees the fall. The company is trying to finish its objective while also facing the possibility of losing one of its own.</p><p>The crystal pulses again. To those watching, it briefly appears to have repaired itself, although its light then darkens. The scene does not establish an endlessly regenerating object; it records what the company can see while trying to destroy it.</p><h2 id=\"chapter-3\">The dimension begins to tear</h2><p>When the crystal is reduced to dust, the dimension tears and the rift begins collapsing. The sequence gives the travelers a clear practical result: destruction of this object is immediately followed by the opening’s failure.</p><p>Leaving becomes urgent. The rift collapses as the last sounds of the encounter fall away, including a heavy impact whose final location is not established by the narration.</p><h2 id=\"chapter-4\">Separate returns</h2><p>Farkur returns to Pristinia. Djöhandrai returns to the trail between Gartina’s estate and the town, despite attempting to follow another traveler. The closing breach has returned them toward their own places of entry.</p><p>The outcome ends this encounter and gives evidence that its central crystal was connected to its stability. It does not make every crystal in every rift an identical anchor or establish a reliable way to travel to another adventurer’s home. The fate of every creature left beyond the collapse remains outside the checked ending.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#farkur\">Farkur S. Gemblenagin</a> · <a href=\"#fenwick\">Fenwick d&#x27;Jorasco</a> · <a href=\"#scribonia\">Scribonia</a> · <a href=\"#ryvyt\">Ryvyt</a> · <a href=\"#pristinia\">Pristinia</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "A volcanic rift collapses after its crystal is destroyed"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The crystal behind the flames",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552855583651143721",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552858850514698260",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552861313573855303",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552864903914848367",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552888188761284669",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552894068978098298",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552903657761144924",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552909337754861639",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552912457851207791",
+          "#rifts — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "Rock, soot and fallen companions",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552855583651143721",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552858850514698260",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552861313573855303",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552864903914848367",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552888188761284669",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552894068978098298",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552903657761144924",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552909337754861639",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552912457851207791",
+          "#rifts — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "The dimension begins to tear",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552855583651143721",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552858850514698260",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552861313573855303",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552864903914848367",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552888188761284669",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552894068978098298",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552903657761144924",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552909337754861639",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552912457851207791",
+          "#rifts — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "Separate returns",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
+        "scope": "article",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552855583651143721",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552858850514698260",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552861313573855303",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552864903914848367",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552888188761284669",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552894068978098298",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552903657761144924",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552909337754861639",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1552912457851207791",
+          "#rifts — existing public account; original qualifications retained",
+          "#farkur — existing public account; original qualifications retained",
+          "#fenwick — existing public account; original qualifications retained",
+          "#scribonia — existing public account; original qualifications retained",
+          "#ryvyt — existing public account; original qualifications retained",
+          "#pristinia — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

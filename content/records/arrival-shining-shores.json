@@ -1,0 +1,109 @@
+{
+  "id": "arrival-shining-shores",
+  "title": "Arrival at the Shining Shores",
+  "category": "History",
+  "type": "Event chronicle",
+  "dek": "The company reaches Fein Uaill by sea and encounters a city whose streets, towers and name belong to a history older than its visitors.",
+  "tags": [
+    "Event stories",
+    "arrival",
+    "city",
+    "coast"
+  ],
+  "facts": {
+    "Recorded dates": "10 Jan 2025",
+    "Setting": "The Shining Shores; Gates of Aelthor",
+    "People": "Elenia; Olokun; Draygar; Adelia; Scribonia; Eugene; Krone",
+    "Importance": "Interregional"
+  },
+  "sources": [
+    "#shining-shores — existing public account; original qualifications retained",
+    "#tarwen-silver-star — existing public account; original qualifications retained",
+    "#elenia — existing public account; original qualifications retained",
+    "#olokun — existing public account; original qualifications retained",
+    "#ithilrune — existing public account; original qualifications retained"
+  ],
+  "body": "<p>On 10, Month of Talan, Year 2, the recovered traveling company reaches the Shining Shores. Elenia, Olokun, Draygar, Adelia, Scribonia, Eugene and Krone are among the named arrivals. Beyond the coast lies a civilization the company has not made and does not yet understand.</p><h2 id=\"chapter-1\">The city on the shore</h2><p>The arrival’s closing description gives them white towers, grand shops and extensive streets. Elenia and Olokun react to its beauty. The coast is an approach to an inhabited, active city, rather than an empty landscape waiting for adventurers to give it a purpose.</p><p>Tarwen of the Silver Star identifies it as the Gates of Aelthor, the city on the shining shore. Her explanation of the name gives the welcome a historical dimension: Aelthor was their first king after the breaking of the world.</p><h2 id=\"chapter-2\">What the name can tell them</h2><p>The name connects present civic life with remembered survival after catastrophe. Tarwen’s account does not, however, establish that Aelthor founded the city, date its construction or explain the catastrophe in full. The newcomers hear an introduction to a people’s memory, not the complete history of Fein Uaill.</p><p>Aelthor is the confirmed spelling. Aethor and Arthor survive as variants in the older accounts and do not require separate rulers or separate cities.</p><h2 id=\"chapter-3\">A shore people continue to use</h2><p>Other arrivals make the sea route part of ongoing life. Eldin Stormheart later rests on the warm sand under the setting sun. Ithilrûnë arrives by ship while seeking knowledge and power. These visits show continuing access without proving that every traveler in Fein Uaill must enter through this port.</p><p>The shoreline also becomes a place for Elenia, Adelia and Olokun to talk about friends, factions, dragons and possible diplomacy. Their quieter conversations belong to the coast’s history alongside the spectacular first impression.</p><h2 id=\"chapter-4\">The threshold changes</h2><p>Later in Year 2, the Heavenly Host’s assault turns the Gates into a battlefield. After Bowene’s judgment, the same shore becomes the departure point for Elenia and her company’s exile toward Babel-Ashur. Those events change the meaning of a place first encountered as an arrival.</p><p>This chapter records the reached city and the welcome that introduces it. Population, founding date, complete government and the full geographic extent of the Shining Shores remain open; the later battle and exile have their own detailed accounts.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#shining-shores\">The Shining Shores</a> · <a href=\"#tarwen-silver-star\">Tarwen of the Silver Star</a> · <a href=\"#elenia\">Elenia</a> · <a href=\"#olokun\">Olokun</a> · <a href=\"#ithilrune\">Ithilrûnë Ailinor</a></p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "The party reaches the Shining Shores"
+    ]
+  },
+  "sections": [
+    {
+      "id": "chapter-1",
+      "title": "The city on the shore",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#shining-shores — existing public account; original qualifications retained",
+          "#tarwen-silver-star — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "What the name can tell them",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#shining-shores — existing public account; original qualifications retained",
+          "#tarwen-silver-star — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-3",
+      "title": "A shore people continue to use",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#shining-shores — existing public account; original qualifications retained",
+          "#tarwen-silver-star — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained"
+        ]
+      }
+    },
+    {
+      "id": "chapter-4",
+      "title": "The threshold changes",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Public accounts & interpretation",
+        "summary": "This chapter brings together the linked public histories, retaining their attributions, uncertainties and source limits. It is not a new independent certification of every older claim.",
+        "scope": "article",
+        "sources": [
+          "#shining-shores — existing public account; original qualifications retained",
+          "#tarwen-silver-star — existing public account; original qualifications retained",
+          "#elenia — existing public account; original qualifications retained",
+          "#olokun — existing public account; original qualifications retained",
+          "#ithilrune — existing public account; original qualifications retained"
+        ]
+      }
+    }
+  ]
+}

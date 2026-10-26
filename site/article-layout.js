@@ -208,3 +208,10 @@ window.revealCodexSection = function(target) {
   let parent=target.parentElement;
   while(parent){if(parent.matches('details'))parent.open=true;parent=parent.parentElement;}
 };
+
+// Skip navigation is an in-page focus action, not a world-record route.
+document.querySelector('.skip-link[href="#article"]')?.addEventListener('click',event=>{
+  const target=document.getElementById('article');if(!target)return;
+  event.preventDefault();target.focus({preventScroll:true});
+  target.scrollIntoView({block:'start',behavior:'auto'});
+});

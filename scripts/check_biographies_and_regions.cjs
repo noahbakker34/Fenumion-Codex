@@ -7,6 +7,8 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
  try{
   const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'}),errors=[];page.on('pageerror',error=>errors.push(error.message));
   if(!process.env.CODEX_LIVE)await page.route('https://auth.fenumion.com/**',route=>route.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
+  const symbolSources=new Set(['silver-star','emerald-veil','radiant-flame','verdant-circle'].map(id=>originals(id).image)),symbolRequests=[];
+  page.on('request',request=>{if(symbolSources.has(new URL(request.url()).pathname.slice(1)))symbolRequests.push(request.url());});
   const go=async route=>{await page.goto(base+'#'+route);await page.waitForFunction(route=>byId.get(route.split('?')[0])?.bodyLoaded&&document.querySelector('#article-content').dataset.route==='#'+route,route);};
   const fits=async width=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits '+width);
   const picture=async file=>{await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:out+'/'+file});};
@@ -30,8 +32,15 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
     assert.equal(await portrait.getAttribute('poster'),source.image,'original portrait remains the motion fallback');
     assert(await portrait.evaluate(video=>video.paused&&!video.querySelector('source')?.hasAttribute('src')),'reduced motion does not load the animation');
    await portrait.evaluate(async video=>{if(video.poster){const image=new Image();image.src=video.poster;await image.decode();}});
-   }else if(source.image)await page.locator(place?'#article-content > .article-hero img':'.chronicle-person-portrait img').evaluate(image=>image.decode());
+   }else if(source.image)await page.locator(place?'#article-content > .article-hero img':source.category==='Factions'?'.faction-emblem img':'.chronicle-person-portrait img').evaluate(image=>image.decode());
    if(source.category==='Factions')assert.equal(await page.locator('.biography-navigation').getAttribute('aria-label'),'Read this faction history');
+   if(source.category==='Factions'&&source.image){
+    assert.equal(await page.locator('.article-header.faction-heading .faction-emblem').count(),1,'one leading faction emblem');
+    assert.equal(await page.locator('.faction-emblem a').getAttribute('href'),source.image,'full-resolution symbol remains available');
+    assert.equal(await page.locator('.faction-emblem img').getAttribute('alt'),source.imageAlt,'owner-assigned symbol label');
+    assert(await page.locator('.faction-emblem img').evaluate(img=>img.getAttribute('src')===window.FENUMION_CATALOG.browseImages[byId.get(location.hash.slice(1)).image].src&&getComputedStyle(img).objectFit==='contain'),'compact preview keeps the whole symbol');
+   }
+
    if(place){
     assert.equal(await page.locator('.biography-navigation').getAttribute('aria-label'),'Read this location history');
     if(source.image)assert.equal(await page.locator('#article-content > .article-header + .article-hero').count(),1,'original place map/film leads the page');
@@ -112,9 +121,18 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
   }
   await go('factions');
   assert.equal(await page.locator('#faction-records .index-card').count(),10,'six established factions and four Fein Uaill factions');
+  assert.equal(await page.locator('#faction-records .faction-symbol img').count(),10,'all faction cards show their genuine symbols');
+  assert(await page.locator('#faction-records img').evaluateAll(images=>images.every(img=>img.getAttribute('src').startsWith('assets/browse/'))),'faction directory loads small static previews');
+
   await page.locator('#article-content a[href="#fein-uaill-factions"]').click();
   await page.locator('#fein-factions-choose').waitFor();
   for(const id of ['silver-star','emerald-veil','radiant-flame','verdant-circle'])assert.equal(await page.locator('#fein-factions-choose').locator('..').locator('a[href="#'+id+'"]').count(),1,'direct full faction history: '+id);
+  assert.equal(await page.locator('.faction-guide .faction-symbol img').count(),4,'the comparison guide shows all four matching symbols');
+  await page.locator('.faction-guide img').evaluateAll(images=>Promise.all(images.map(img=>{img.loading='eager';return img.decode();})));
+  await page.locator('.faction-guide').scrollIntoViewIfNeeded();await picture('faction-symbol-guide-desktop.png');
+  for(const width of [900,768,600,390,320]){await page.setViewportSize({width,height:844});await fits(width);}
+  await picture('faction-symbol-guide-mobile.png');await page.setViewportSize({width:1440,height:1000});
+
   await go('factions');await page.locator('#faction-query').fill('Fein Uaill');assert.equal(await page.locator('#faction-records .index-card').count(),4);
   for(const [needle,id] of [['Silver Star','silver-star'],['Emerald Veil','emerald-veil'],['Radiant Dawn','radiant-flame'],['Verdant Circle','verdant-circle']]){
    await page.locator('#faction-query').fill(needle);assert.equal(await page.locator('#faction-records .index-card').count(),1);
@@ -122,6 +140,7 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    const body=await page.locator('.article-body').innerText();assert(!/Reputation Rewards|Rank [1-7]|[+]\d|\d+%|mechanical (?:counter|reward)/i.test(body),'faction history excludes the reward ladder');await go('factions');
   }
   await go('fein-uaill');assert.equal(await page.locator('.region-journey-grid a[href="#fein-uaill-factions"]').count(),1,'Fein hub links directly to the guide');
+  assert.deepEqual(symbolRequests,[],'full-resolution faction symbols load only on explicit request');
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);assert.deepEqual(errors,[]);
   console.log('PASS twenty-nine continuous biographies, twelve detailed place histories and five faction histories; four faction directory routes, search and regional guide; full facts, source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
  }finally{await browser.close();}

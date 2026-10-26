@@ -227,5 +227,9 @@
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1446722757961322498",
     "https://discord.com/channels/1177270231513694249/1311747360220512318/1426267983638036671",
     "https://discord.com/channels/1177270231513694249/1311746973241573549/1435712595133993101"
-  ]
+  ],
+  "image": "assets/factions/silver-star.webp",
+  "imageAlt": "Silver Star symbol: an engraved silver four-pointed star within sweeping silver arcs against a field of stars.",
+  "imageCaption": "The Order of the Silver Star · faction symbol.",
+  "imageLayout": "portrait"
 }

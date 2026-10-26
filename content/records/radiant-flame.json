@@ -229,5 +229,9 @@
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1446721597317713920",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1446722757961322498",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1446751202330022001"
-  ]
+  ],
+  "image": "assets/factions/radiant-flame.webp",
+  "imageAlt": "Radiant Flame symbol: a golden flame surrounding a bright star, with sparkling gold points.",
+  "imageCaption": "The Legion of the Radiant Flame · faction symbol.",
+  "imageLayout": "portrait"
 }

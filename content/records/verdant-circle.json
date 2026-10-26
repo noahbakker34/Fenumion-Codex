@@ -207,5 +207,9 @@
     "https://discord.com/channels/1177270231513694249/1311746973241573549/1487297540087877762",
     "https://discord.com/channels/1177270231513694249/1311776046554677291/1508941880501604432",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1424444015419326604"
-  ]
+  ],
+  "image": "assets/factions/verdant-circle.webp",
+  "imageAlt": "Verdant Circle symbol: a gold crescent wrapped in green leaves, with small hanging stars.",
+  "imageCaption": "The Verdant Circle · faction symbol.",
+  "imageLayout": "portrait"
 }

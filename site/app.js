@@ -972,7 +972,7 @@ function renderArticle(route, pushHash = true) {
     : "";
   const hero = article.video
     ? `${mapHero}${videoHero}`
-    : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.image}" alt="${article.imageAlt || ""}">${heroCaption(article.imageCaption, "Image preserved in the Fenumion archive.")}</figure>` : "");
+    : mapHero || (article.image ? `<figure class="${heroClass}"><img src="${article.category === "Factions" ? browseImageSource(article.image) : article.image}" alt="${article.imageAlt || ""}">${heroCaption(article.imageCaption, "Image preserved in the Fenumion archive.")}</figure>` : "");
   const scenes = article.scenes?.length ? `<section class="character-scenes" aria-labelledby="character-scenes-title"><h2 id="character-scenes-title">${escapeHtml(article.sceneHeading || "Scenes from the story")}</h2><div class="image-gallery">${article.scenes.map((scene, index) => renderSceneFigure(scene, index)).join('')}</div></section>` : '';
   const gallery = article.gallery?.length ? `<div class="image-gallery article-gallery">${article.gallery.map(item => `<figure class="gallery-wide"><a href="${item.image}" target="_blank"><img src="${item.image}" alt="${escapeHtml(item.alt || "")}" loading="lazy"></a><figcaption><strong>${escapeHtml(item.title || "Archive image")}</strong><span>${escapeHtml(item.caption || "Visual record preserved in the Fenumion archive.")}</span></figcaption></figure>`).join("")}</div>` : "";
 
@@ -1037,15 +1037,16 @@ function renderArticle(route, pushHash = true) {
       <div class="article-body">${renderCharacterNavigation(article)}${article.body}${scenes}${renderIslandNpcCollection(article)}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
+  const connectionImage = record => record.category === "Factions" ? browseImageSource(record.image) : record.image;
   const visualConnections = (relationshipMaps[article.id]?.nodes || [])
     .filter(node => node.article && node.article !== article.id && isPlayerSafeArticle(node.article))
     .map(node => ({ node, record: byId.get(node.article) }))
     .filter(({ record }) => record)
-    .map(({ node, record }) => ({ id: record.id, title: record.title, subtitle: node.subtitle, image: record.image }));
+    .map(({ node, record }) => ({ id: record.id, title: record.title, subtitle: node.subtitle, image: connectionImage(record) }));
   const linkedIds = [...(article.relatedRecords || []), ...[...articleContent.querySelectorAll('.article-body a[href^="#"], .subchannels [data-article]')].map(link => link.dataset.article || link.getAttribute('href').slice(1).split('?')[0])];
   linkedIds.forEach(id => {
     const record=byId.get(id);
-    if(record && record.id!==article.id && isPlayerSafeArticle(id) && !visualConnections.some(connection=>connection.id===id)) visualConnections.push({id,title:record.title,subtitle:record.type,image:record.image});
+    if(record && record.id!==article.id && isPlayerSafeArticle(id) && !visualConnections.some(connection=>connection.id===id)) visualConnections.push({id,title:record.title,subtitle:record.type,image:connectionImage(record)});
   });
   const hasConnections=visualConnections.length>0;
   if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
@@ -1101,7 +1102,7 @@ function setupFactionDirectory() {
     const needle=query.value.trim().toLocaleLowerCase();
     const matches=records.filter(record=>`${record.title} ${record.dek} ${record.tags.join(' ')}`.toLocaleLowerCase().includes(needle));
     articleContent.querySelector('#faction-count').textContent=`${matches.length} factions`;
-    articleContent.querySelector('#faction-records').innerHTML=matches.map(record=>`<button class="index-card" data-article="${escapeHtml(record.id)}">${record.image ? `<span class="index-glyph faction-symbol"><img src="${escapeHtml(record.image)}" alt="${escapeHtml(record.imageAlt || `${record.title} symbol`)}" loading="lazy"></span>` : '<span class="index-glyph" aria-hidden="true">⚑</span>'}<span class="index-card-copy"><strong>${escapeHtml(record.title)}</strong><span>${escapeHtml(record.dek)}</span></span></button>`).join('') || '<p>No matching factions.</p>';
+    articleContent.querySelector('#faction-records').innerHTML=matches.map(record=>`<button class="index-card" data-article="${escapeHtml(record.id)}">${record.image ? `<span class="index-glyph faction-symbol"><img src="${escapeHtml(browseImageSource(record.image))}" alt="${escapeHtml(record.imageAlt || `${record.title} symbol`)}" loading="lazy"></span>` : '<span class="index-glyph" aria-hidden="true">⚑</span>'}<span class="index-card-copy"><strong>${escapeHtml(record.title)}</strong><span>${escapeHtml(record.dek)}</span></span></button>`).join('') || '<p>No matching factions.</p>';
     window.FenumionCalendar.render(articleContent.querySelector('#faction-records'));
   };
   query.addEventListener('input',render);

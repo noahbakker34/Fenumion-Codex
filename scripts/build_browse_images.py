@@ -31,6 +31,10 @@ def sources():
         image = person.get('image')
         if image:
             images.add(image)
+    for faction in world['factionDirectoryItems']:
+        record = records.get(faction['article'], {})
+        if record.get('image') and not record.get('protected'):
+            images.add(record['image'])
     for image in images:
         path = (SITE / image).resolve()
         assert path.is_relative_to(SITE.resolve()) and path.is_file(), image

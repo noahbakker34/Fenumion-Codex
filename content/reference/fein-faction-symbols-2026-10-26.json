@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-26",
+  "encoding": "Full-size WebP lossless, original 2048×2048 pixels verified exact; 512px WebP previews use established browsing settings. Source PNGs remain unchanged outside Git.",
+  "symbols": [
+    {
+      "article": "emerald-veil",
+      "suppliedFilename": "the_gardener_An_elven_symbol_for_a_group_called_the_Emerald_V_7b66d6e8-6240-4e60-a5a6-7d4db2b6b5cb_0.png",
+      "sourceSha256": "53837cff3306b048b5729cb85bd0465d9d430653db96e58377715e4ec9dcfaf3",
+      "sourceBytes": 5104533,
+      "fullImage": "assets/factions/emerald-veil.webp",
+      "fullSha256": "3e3d21f7fa997da828e963d4bf21331520ccf9f48c66dd753dadf02cb85432c4",
+      "fullBytes": 3240738,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "pixelEquality": true,
+      "assignment": "Explicit owner identification; visual symbol only, no new history or magical meaning.",
+      "preview": {
+        "src": "assets/browse/339d5154206c292b943e.webp",
+        "width": 512,
+        "height": 512,
+        "sourceSha256": "3e3d21f7fa997da828e963d4bf21331520ccf9f48c66dd753dadf02cb85432c4",
+        "sha256": "339d5154206c292b943ef70b1396a0234c326e486cd60068e313950ab77a9f3d"
+      }
+    },
+    {
+      "article": "radiant-flame",
+      "suppliedFilename": "the_gardener_An_elven_symbol_for_a_group_called_the_Radiant_F_048e0de2-e220-4c7b-8b50-db0008aa7a86_1.png",
+      "sourceSha256": "79e0fe503fbb7cc0517c867bae48999e3bb2c81b5cab931dc1a32b1916175a5a",
+      "sourceBytes": 2364152,
+      "fullImage": "assets/factions/radiant-flame.webp",
+      "fullSha256": "40ec8f0d84fbfdde4e9e8326c4704d83ed01d14b8d1144cbab9ffd9d3b9b7e1c",
+      "fullBytes": 1675216,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "pixelEquality": true,
+      "assignment": "Explicit owner identification; visual symbol only, no new history or magical meaning.",
+      "preview": {
+        "src": "assets/browse/f9b390451dcc70be7dd5.webp",
+        "width": 512,
+        "height": 512,
+        "sourceSha256": "40ec8f0d84fbfdde4e9e8326c4704d83ed01d14b8d1144cbab9ffd9d3b9b7e1c",
+        "sha256": "f9b390451dcc70be7dd5803fa00937021703b32b8065d2eee4de81685eab540d"
+      }
+    },
+    {
+      "article": "verdant-circle",
+      "suppliedFilename": "the_gardener_An_elven_symbol_for_a_group_called_the_Verdant_C_2b274735-3a9b-4666-acd5-61d04471e222_1.png",
+      "sourceSha256": "8348ef7d4fa045ce9b032bf60b885b6224b8c1677721169dae3fefbcdde421c9",
+      "sourceBytes": 4679430,
+      "fullImage": "assets/factions/verdant-circle.webp",
+      "fullSha256": "ecd11f8f21e542dca9afaefc25a46c802199c5fa7e403729c1dbc2ddba426f9c",
+      "fullBytes": 3533212,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "pixelEquality": true,
+      "assignment": "Explicit owner identification; visual symbol only, no new history or magical meaning.",
+      "preview": {
+        "src": "assets/browse/cb262b34555881d14283.webp",
+        "width": 512,
+        "height": 512,
+        "sourceSha256": "ecd11f8f21e542dca9afaefc25a46c802199c5fa7e403729c1dbc2ddba426f9c",
+        "sha256": "cb262b34555881d142836f83dd39d182f8d0e5a3bb58d55cd7aea24d71cbe578"
+      }
+    },
+    {
+      "article": "silver-star",
+      "suppliedFilename": "the_gardener_An_elven_symbol_for_a_group_called_the_Silver_St_421f6f76-6db0-46c7-9c86-f42ccfd2da24_3.png",
+      "sourceSha256": "e4898cf9304c488a4a4fef92accdb35eb07e9afe89a185fac7a8ca341421956a",
+      "sourceBytes": 6608568,
+      "fullImage": "assets/factions/silver-star.webp",
+      "fullSha256": "a9094ec3943815ced02573a6a60470f78f635a499f0bd804a719c6ea123b7813",
+      "fullBytes": 5130774,
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "pixelEquality": true,
+      "assignment": "Explicit owner identification; visual symbol only, no new history or magical meaning.",
+      "preview": {
+        "src": "assets/browse/b633fb291139bb2b2530.webp",
+        "width": 512,
+        "height": 512,
+        "sourceSha256": "a9094ec3943815ced02573a6a60470f78f635a499f0bd804a719c6ea123b7813",
+        "sha256": "b633fb291139bb2b253027df55d122ea01e674cb308b026ef71623d1d088da95"
+      }
+    }
+  ],
+  "newBrowsingSources": [
+    "assets/archive/ale-chemy-knights-symbol.png",
+    "assets/archive/seekers-symbol.png",
+    "assets/archive/vanguard-symbol-poster.png",
+    "assets/archive/veilguard-symbol.png",
+    "assets/archive/vital-chain-symbol-poster.png",
+    "assets/factions/emerald-veil.webp",
+    "assets/factions/hellknight-order.png",
+    "assets/factions/radiant-flame.webp",
+    "assets/factions/silver-star.webp",
+    "assets/factions/verdant-circle.webp"
+  ],
+  "previewCount": 258
+}

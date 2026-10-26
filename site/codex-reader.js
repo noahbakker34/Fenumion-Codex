@@ -151,6 +151,15 @@
     const place=isLocationArticle(article);
     const placeArt=place?rail?.querySelector(':scope > .article-hero'):null;
     placeArt?.remove();
+    const factionArt=article.category==='Factions'?rail?.querySelector(':scope > .article-hero > img')?.closest('figure'):null;
+    if(factionArt){
+      factionArt.className='faction-emblem';
+      const image=factionArt.querySelector('img');
+      const fullSize=document.createElement('a');fullSize.href=article.image;fullSize.target='_blank';fullSize.rel='noopener';
+      fullSize.setAttribute('aria-label',`Open the full-size ${article.title} symbol`);
+      image.replaceWith(fullSize);fullSize.append(image);
+      const header=root.querySelector('.article-header');header.classList.add('faction-heading');header.prepend(factionArt);
+    }
     if(!place)rail?.querySelectorAll('.record-visual-links').forEach(el=>el.remove());
     if(rail?.children.length){rail.className='biography-artwork';sourcePanel.before(rail);}else rail?.remove();
     const sequence=root.querySelector('.record-summary > .related-sequences');

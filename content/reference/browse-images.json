@@ -1741,6 +1741,76 @@
       "height": 386,
       "sourceSha256": "547f8e2d6f2e2aa1b40deaa64a16a04ea1990b887fb19395ef2f121e83e534ce",
       "sha256": "5bd7da901938172cb1324fb5cf5b06de8752243d44c5a19f478ab97e4a561de4"
+    },
+    "assets/archive/ale-chemy-knights-symbol.png": {
+      "src": "assets/browse/0dcdca28d8c3b75874ae.webp",
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "c3f191316a440a01248663d5ea3b31762c8ce81faeafc85f857fcdc8e31887a8",
+      "sha256": "0dcdca28d8c3b75874ae53c32b751f5f4e832e922c993df4a01ea9ab0820a7bf"
+    },
+    "assets/archive/seekers-symbol.png": {
+      "src": "assets/browse/272e0204e1d472a2faa6.webp",
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "db538ef8a29f5c88946703740dcdd4cbcc27ec4786782327824389625aa764be",
+      "sha256": "272e0204e1d472a2faa6b2a180bcce52d5e8212c3bdfb903fe70bcb5d77a878b"
+    },
+    "assets/archive/vanguard-symbol-poster.png": {
+      "src": "assets/browse/99b1b1096bc89946a25c.webp",
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "89f9f56ee3dc12d05505622eb4485e6f93fcbaa58f8e46b80dd69ecace021673",
+      "sha256": "99b1b1096bc89946a25c558b86894c0f5f471713a50b0fc911cceaf3eb7eac50"
+    },
+    "assets/archive/veilguard-symbol.png": {
+      "src": "assets/browse/5cb26dcc0399dde63570.webp",
+      "width": 341,
+      "height": 512,
+      "sourceSha256": "01fb907867da2f2a9ca56b1ca4f36e25fe17c2b1e5f61265d0ceeaecb881425b",
+      "sha256": "5cb26dcc0399dde635702e58c06dd9176e23909c0d86662e358fdf1af1f15ed0"
+    },
+    "assets/archive/vital-chain-symbol-poster.png": {
+      "src": "assets/browse/b294713c2a70a12c42d7.webp",
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "93b7d7d6c46877ad270bc58308d476e84d7fe7143b6a2c43726c839a55b3b3ba",
+      "sha256": "b294713c2a70a12c42d7ac387b6f6cbe89f719020c90baceceb5efbbb8b74774"
+    },
+    "assets/factions/emerald-veil.webp": {
+      "src": "assets/browse/339d5154206c292b943e.webp",
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "3e3d21f7fa997da828e963d4bf21331520ccf9f48c66dd753dadf02cb85432c4",
+      "sha256": "339d5154206c292b943ef70b1396a0234c326e486cd60068e313950ab77a9f3d"
+    },
+    "assets/factions/hellknight-order.png": {
+      "src": "assets/browse/57c3d6ece7f4c918a4bb.webp",
+      "width": 341,
+      "height": 512,
+      "sourceSha256": "d59cfc08c7878190cd6f8d147b9d6cd7dd27db639c7a57c4d0c2d524e876b73e",
+      "sha256": "57c3d6ece7f4c918a4bb3519e05f3df974706cc580780b53f68a8cb006953caf"
+    },
+    "assets/factions/radiant-flame.webp": {
+      "src": "assets/browse/f9b390451dcc70be7dd5.webp",
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "40ec8f0d84fbfdde4e9e8326c4704d83ed01d14b8d1144cbab9ffd9d3b9b7e1c",
+      "sha256": "f9b390451dcc70be7dd5803fa00937021703b32b8065d2eee4de81685eab540d"
+    },
+    "assets/factions/silver-star.webp": {
+      "src": "assets/browse/b633fb291139bb2b2530.webp",
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "a9094ec3943815ced02573a6a60470f78f635a499f0bd804a719c6ea123b7813",
+      "sha256": "b633fb291139bb2b253027df55d122ea01e674cb308b026ef71623d1d088da95"
+    },
+    "assets/factions/verdant-circle.webp": {
+      "src": "assets/browse/cb262b34555881d14283.webp",
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "ecd11f8f21e542dca9afaefc25a46c802199c5fa7e403729c1dbc2ddba426f9c",
+      "sha256": "cb262b34555881d142836f83dd39d182f8d0e5a3bb58d55cd7aea24d71cbe578"
     }
   }
 }

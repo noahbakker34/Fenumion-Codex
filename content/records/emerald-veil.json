@@ -214,5 +214,9 @@
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1436153957608194099",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1442249334505869435",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1445196473905057842"
-  ]
+  ],
+  "image": "assets/factions/emerald-veil.webp",
+  "imageAlt": "Emerald Veil symbol: a faceted green gem enclosed by sweeping gold ribbons and small leaves.",
+  "imageCaption": "The Council of the Emerald Veil · faction symbol.",
+  "imageLayout": "portrait"
 }

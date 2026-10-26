@@ -3,6 +3,12 @@
 Last updated: 2026-10-26
 
 
+## Owner-supplied faction symbols · 26 October 2026
+
+Owner identifies the green gem, golden flame, leafy crescent and silver star as the Emerald Veil, Radiant Flame, Verdant Circle and Silver Star symbols. Their four existing pages gain image metadata and compact leading, uncropped symbols; the comparison guide and faction directory show the matching previews. Full-size 2048px lossless WebP copies are pixel-identical to the original PNGs and open on explicit request. Four browsing previews total 127,204 bytes. Existing preview generation/validation now includes all faction directory artwork; ten newly required previews add to the 248 exact old entries, for 258 total. Connected-story links also use small previews, with a network assertion against automatic full-size requests.
+
+All faction narratives, facts, evidence, sources, reading plans and 622 unrelated records stay exact; the guide only gains image markup/class. World, timeline, maps, people, quotes, protected/private/Gedankin data and source PNGs remain unchanged. No new identity or visual lore interpretation. Details: FEIN_UAILL_FACTION_SYMBOLS_2026_10_26.md and content/reference/fein-faction-symbols-2026-10-26.json. Catalog279/app268/reader JS12/CSS7; no new dependency or CI stage. Focused local assignment/fit/preview/network checks pass and screenshots are inspected. Expanded hosted/live receipt follows publication under standing authorization.
+
 ## Four factions of Fein Uaill · 26 October 2026
 
 Owner requests all four factions from the wider Fein record, including quests, using the supplied mechanical description without its numerical system. The Silver Star, Emerald Veil, Radiant Flame and Verdant Circle gain separate seven-chapter histories; a five-chapter comparison guide provides direct cards and people/event reading links. Approximately 4,456 words follow particular work, speakers, cooperation, nominations and conflicts. Eighty-five native-channel receipts are verified. Search discovery across six corpora is explicitly distinguished from exhaustive reading. Quests govern compatible RP; leaders are not merged, Lucent’s nomination does not make her a member, Elenia’s admitted service survives beside the restoration dispute, and requests/votes are not invented outcomes. Numerical rewards, raw transcripts, protected rites and new NPC identities/images are excluded. Details: FEIN_UAILL_FACTIONS_2026_10_26.md and content/reference/fein-faction-review-2026-10-26.json.

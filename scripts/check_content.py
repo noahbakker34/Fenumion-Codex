@@ -19,7 +19,9 @@ def audit():
  def require(condition,message):
   if not condition:errors.append(message)
  require(len(ids)==len(known),'Duplicate article IDs')
+ require('New York' not in json.dumps(world['archiveIndex']['timeline']),'Real-world posting location in public timeline labels')
  for a in records:
+  require(a.get('protected') or 'New York' not in a.get('body',''),a['id']+': real-world posting location in public prose')
   aid=a['id'];require(a['schemaVersion']==1,aid+': unsupported schema')
   require(a['protected']==(aid in world['restrictedArticleIds']),aid+': protected classification changed')
   require(not(a['protected'] and a.get('body')),aid+': protected body leaked')

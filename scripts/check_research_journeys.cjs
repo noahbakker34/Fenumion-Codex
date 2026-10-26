@@ -33,7 +33,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await page.waitForFunction(()=>byId.get('babel-survival')?.bodyLoaded&&document.querySelector('#article-content').dataset.route==='#babel-survival');
  await go('babel-survival?section=babel-path-defense');
  await page.locator('a.history-link[href="#nymera?section=nymera-refuge-defense"]').click();
- await page.waitForFunction(()=>byId.get('nymera')?.bodyLoaded&&document.querySelector('#nymera-refuge-defense')?.closest('details')?.open);
+ await page.waitForFunction(()=>{const heading=document.querySelector('#nymera-refuge-defense');if(!byId.get('nymera')?.bodyLoaded||!heading||document.activeElement!==heading)return false;for(let parent=heading.parentElement;parent;parent=parent.parentElement)if(parent.matches('details')&&!parent.open)return false;return heading.getClientRects().length>0;});
  await go('claim-review');assert.equal(await page.locator('.claim-card').count(),expected.claims);
  await go('open-questions');assert.equal(await page.locator('.research-card').count(),expected.questions);
  await page.locator('[data-research-region]').selectOption('Babel-Ashur');assert.equal(await page.locator('.research-card:visible').count(),2);

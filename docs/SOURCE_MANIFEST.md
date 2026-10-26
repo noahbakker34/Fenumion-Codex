@@ -430,3 +430,8 @@ Selected original main quest and Fein scenes expand nine existing records. The r
 ## Further character and place review · 25 October 2026
 
 Fourteen sections extend nine existing records from selected original main quest, Gael and Prima scenes; 107 new receipt identities resolve in their correct native channels. The original quest corrects Draygar's inherited hammer/sword account, with exact editorial deltas preserved rather than keeping an erroneous synthesis as fact. Scope and source limits: [MORE_PEOPLE_AND_PLACES_2026_10_25.md](MORE_PEOPLE_AND_PLACES_2026_10_25.md) and `content/reference/character-place-review-2026-10-25.json`. Prior text, source qualifications and meaningful historical coverage remain apart from those explicit corrections/clarity edits. No raw corpus, generic NPC identity, private revelation or transcript enters public Git.
+
+
+## Continuing character and location review · 25 October 2026
+
+Twelve sections extend nine existing histories from selected original main quest, Gael, Voraketh, refreshed quest and Babel scenes. All 96 new receipt identities resolve in their correct channels. No new raw corpus, transcript, generic NPC identity or protected explanation enters Git. Scope and receipt/delta ledger: [CONTINUING_PEOPLE_AND_PLACES_2026_10_25.md](CONTINUING_PEOPLE_AND_PLACES_2026_10_25.md) and `content/reference/continuing-character-place-review-2026-10-25.json`. Earlier source/evidence limits remain. Five public prose date notes and thirteen timeline display strings remove a real-world posting location while preserving every actual quest-date adjustment, source window and timeline identity.

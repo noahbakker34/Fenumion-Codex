@@ -12074,7 +12074,7 @@
         ],
         "dating": {
           "kind": "recorded",
-          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. The clockwork encounter and retreat form one continuous expedition. The 1–2 April UTC posting window falls on 1 April in New York, which supplies its quest calendar day.",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. The clockwork encounter and retreat form one continuous expedition. The source window spans the first and second days of the Month of Namo'o, Year 2; the expedition retains its established first-day quest date.",
           "postingWindow": {
             "start": "2025-04-01",
             "end": "2025-04-02",
@@ -12083,7 +12083,7 @@
           },
           "calendarAdjustment": {
             "date": "2025-04-01",
-            "reason": "The clockwork encounter and retreat form one continuous expedition. The 1–2 April UTC posting window falls on 1 April in New York, which supplies its quest calendar day.",
+            "reason": "The clockwork encounter and retreat form one continuous expedition. The source window spans the first and second days of the Month of Namo'o, Year 2; the expedition retains its established first-day quest date.",
             "sources": [
               "https://discord.com/channels/1177270231513694249/1356070501163991211/1356784259498770566",
               "https://discord.com/channels/1177270231513694249/1356070501163991211/1356835720081309808"
@@ -12242,7 +12242,7 @@
         ],
         "dating": {
           "kind": "recorded",
-          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. This is the same continuous rift encounter as Cthulhu’s creator-confirmed 3 September arrival. The 3–4 September UTC posts finish on 3 September in New York.",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. This is the same continuous rift encounter as Cthulhu’s creator-confirmed arrival on 3, Month of Nuru, Year 3. The source posts continue into the following day while the encounter retains its established quest date.",
           "postingWindow": {
             "start": "2026-09-03",
             "end": "2026-09-04",
@@ -12251,7 +12251,7 @@
           },
           "calendarAdjustment": {
             "date": "2026-09-03",
-            "reason": "This is the same continuous rift encounter as Cthulhu’s creator-confirmed 3 September arrival. The 3–4 September UTC posts finish on 3 September in New York.",
+            "reason": "This is the same continuous rift encounter as Cthulhu’s creator-confirmed arrival on 3, Month of Nuru, Year 3. The source posts continue into the following day while the encounter retains its established quest date.",
             "sources": [
               "https://discord.com/channels/1177270231513694249/1356070501163991211/1545218434596602037",
               "https://discord.com/channels/1177270231513694249/1356070501163991211/1545260065345511508",
@@ -12499,7 +12499,7 @@
       },
       {
         "title": "The Babel company survives a blind salamander ambush",
-        "meta": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+        "meta": "18, Month of Death, Year 3 · source posts continue the following day",
         "sort": "2026-10-19-babel-0",
         "era": "2026 · Consequences",
         "kind": "Jungle ambush",
@@ -12520,7 +12520,7 @@
         ],
         "dating": {
           "kind": "recorded",
-          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
           "postingWindow": {
             "start": "2026-10-18",
             "end": "2026-10-19",
@@ -12529,7 +12529,7 @@
           },
           "calendarAdjustment": {
             "date": "2026-10-18",
-            "reason": "These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+            "reason": "These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
             "sources": [
               "https://discord.com/channels/1177270231513694249/1294457593296719873/1561530428257472644",
               "https://discord.com/channels/1177270231513694249/1294457593296719873/1561550834787950674",
@@ -12547,7 +12547,7 @@
       },
       {
         "title": "The western mist turns companions into apparent monsters",
-        "meta": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+        "meta": "18, Month of Death, Year 3 · source posts continue the following day",
         "sort": "2026-10-19-babel-1",
         "era": "2026 · Consequences",
         "kind": "Investigation and rescue",
@@ -12568,7 +12568,7 @@
         ],
         "dating": {
           "kind": "recorded",
-          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
           "postingWindow": {
             "start": "2026-10-18",
             "end": "2026-10-19",
@@ -12577,7 +12577,7 @@
           },
           "calendarAdjustment": {
             "date": "2026-10-18",
-            "reason": "These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+            "reason": "These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
             "sources": [
               "https://discord.com/channels/1177270231513694249/1294457593296719873/1561530428257472644",
               "https://discord.com/channels/1177270231513694249/1294457593296719873/1561550834787950674",
@@ -12595,7 +12595,7 @@
       },
       {
         "title": "Death makes an offer after the mist clearing",
-        "meta": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+        "meta": "18, Month of Death, Year 3 · source posts continue the following day",
         "sort": "2026-10-19-babel-2",
         "era": "2026 · Consequences",
         "kind": "Offer and refusal",
@@ -12616,7 +12616,7 @@
         ],
         "dating": {
           "kind": "recorded",
-          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
           "postingWindow": {
             "start": "2026-10-18",
             "end": "2026-10-19",
@@ -12625,7 +12625,7 @@
           },
           "calendarAdjustment": {
             "date": "2026-10-18",
-            "reason": "These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+            "reason": "These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
             "sources": [
               "https://discord.com/channels/1177270231513694249/1294457593296719873/1561530428257472644",
               "https://discord.com/channels/1177270231513694249/1294457593296719873/1561550834787950674",

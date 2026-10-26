@@ -1,0 +1,416 @@
+{
+  "scope": "Selected original main quest, Gael, Voraketh, refreshed quest and Babel scenes; receipt identity checks are distinct from content reading and exhaustive certification of inherited material. Quest authority governs compatible RP; claims retain speakers.",
+  "records": [
+    {
+      "article": "luminar-spires",
+      "title": "Luminar Spires",
+      "chapters": 6,
+      "originalSections": 11,
+      "newSections": 1,
+      "originalFacts": 6,
+      "beforeWords": 1354,
+      "afterWords": 1517
+    },
+    {
+      "article": "last-grove",
+      "title": "The Last Grove",
+      "chapters": 6,
+      "originalSections": 13,
+      "newSections": 1,
+      "originalFacts": 8,
+      "beforeWords": 1576,
+      "afterWords": 1721
+    },
+    {
+      "article": "common-man",
+      "title": "The Common Man",
+      "chapters": 6,
+      "originalSections": 10,
+      "newSections": 2,
+      "originalFacts": 6,
+      "beforeWords": 1416,
+      "afterWords": 1705
+    },
+    {
+      "article": "ithilrune",
+      "title": "Ithilrûnë Ailinor",
+      "chapters": 7,
+      "originalSections": 16,
+      "newSections": 2,
+      "originalFacts": 5,
+      "beforeWords": 1508,
+      "afterWords": 1859
+    },
+    {
+      "article": "dale",
+      "title": "Dale",
+      "chapters": 7,
+      "originalSections": 14,
+      "newSections": 2,
+      "originalFacts": 5,
+      "beforeWords": 1629,
+      "afterWords": 1973
+    },
+    {
+      "article": "nymera",
+      "title": "Nymera",
+      "chapters": 6,
+      "originalSections": 15,
+      "newSections": 1,
+      "originalFacts": 7,
+      "beforeWords": 1970,
+      "afterWords": 2121
+    },
+    {
+      "article": "vessalia",
+      "title": "Vessalia",
+      "chapters": 7,
+      "originalSections": 14,
+      "newSections": 1,
+      "originalFacts": 6,
+      "beforeWords": 2472,
+      "afterWords": 2648
+    },
+    {
+      "article": "skylight-refuge",
+      "title": "Skylight Refuge",
+      "chapters": 7,
+      "originalSections": 16,
+      "newSections": 1,
+      "originalFacts": 10,
+      "beforeWords": 2170,
+      "afterWords": 2308
+    },
+    {
+      "article": "vaemyr",
+      "title": "Vaemyr",
+      "chapters": 7,
+      "originalSections": 13,
+      "newSections": 1,
+      "originalFacts": 5,
+      "beforeWords": 1264,
+      "afterWords": 1425
+    }
+  ],
+  "preservation": {
+    "originalSections": 122,
+    "addedSections": 12,
+    "originalFacts": 58,
+    "beforeWords": 15359,
+    "afterWords": 17277,
+    "readingPlans": 9,
+    "additionalDateNotes": 3,
+    "recordBodyEdits": 7,
+    "worldDisplayEdits": 13,
+    "unrelatedRecordsUnchanged": 610,
+    "allEventDatesRatingsSourceWindowsAndStoryDestinationsUnchanged": true,
+    "privateMapsDirectoriesQuotesBrowseAndGedankinUnchanged": true
+  },
+  "additionalDateNoteRecords": [
+    "arjahn",
+    "olokun",
+    "babel-ashur"
+  ],
+  "bodyEdits": [
+    {
+      "article": "dale",
+      "before": "His arc is not a hidden ascent toward greatness. It is the discovery that ordinary affection was already consequential. Dale helps make Fenumion worth saving because people enjoy living in a world where he is present.",
+      "after": "Dale’s place in the company rests on the life his friends share with him: music, meals, a wedding, jokes and his willingness to help. Their grief when he falls, and relief when he returns, make those ties visible alongside what he can do in a fight.",
+      "reason": "Replace a generalized greatness/affection conclusion with the already recorded shared life and responses to his loss and return; retain the importance of those relationships."
+    },
+    {
+      "article": "ithilrune",
+      "before": "This is care translated into method. It is also retrospective omnipotence. If every loss proves she should have been better prepared, then uncertainty itself becomes a personal moral failure.",
+      "after": "She answers the loss by asking what she should have known or prepared differently. That self-reproach is part of the account. Whether different preparation would have prevented the death is a separate question the record does not settle. She puts responsibility on herself even where the causes and alternatives remain uncertain.",
+      "reason": "Remove an inflated psychological label while retaining self-blame, preparation and uncertainty; do not certify the claim that she could have prevented the death."
+    },
+    {
+      "article": "nymera",
+      "before": "Selected scenes follow choices, knowledge and consequences. Dates identify UTC source postings; this October session was played on 18 October in New York.",
+      "after": "Selected scenes follow choices, knowledge and consequences. Dates identify source postings; the October expedition is placed on 18 October 2026 in the Final War calendar.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "article": "arjahn",
+      "before": "Selected scenes follow choices, knowledge and consequences. Dates identify UTC source postings; this October session was played on 18 October in New York.",
+      "after": "Selected scenes follow choices, knowledge and consequences. Dates identify source postings; the October expedition is placed on 18 October 2026 in the Final War calendar.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "article": "olokun",
+      "before": "Selected scenes follow choices, knowledge and consequences. Dates identify UTC source postings; this October session was played on 18 October in New York.",
+      "after": "Selected scenes follow choices, knowledge and consequences. Dates identify source postings; the October expedition is placed on 18 October 2026 in the Final War calendar.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "article": "luminar-spires",
+      "before": "The company returns on a session posted on 18 October in New York, continuing into 19 October UTC.",
+      "after": "The company returns on 18 October 2026 in the Final War calendar; the source sequence continues into 19 October 2026.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "article": "babel-ashur",
+      "before": "The scene is posted on 18 October 2026 in New York, ending at 03:54 UTC on 19 October. These dates place the surviving account; they do not establish a local calendar date within Fenumion.",
+      "after": "The expedition is placed on 18 October 2026 in the Final War calendar. The source sequence ends on 19 October 2026; the source postings and the expedition’s established day remain distinct.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    }
+  ],
+  "worldDisplayEdits": [
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        347,
+        "dating",
+        "note"
+      ],
+      "before": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. The clockwork encounter and retreat form one continuous expedition. The 1–2 April UTC posting window falls on 1 April in New York, which supplies its quest calendar day.",
+      "after": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. The clockwork encounter and retreat form one continuous expedition. The source window spans the first and second days of the Month of Namo'o, Year 2; the expedition retains its established first-day quest date.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        347,
+        "dating",
+        "calendarAdjustment",
+        "reason"
+      ],
+      "before": "The clockwork encounter and retreat form one continuous expedition. The 1–2 April UTC posting window falls on 1 April in New York, which supplies its quest calendar day.",
+      "after": "The clockwork encounter and retreat form one continuous expedition. The source window spans the first and second days of the Month of Namo'o, Year 2; the expedition retains its established first-day quest date.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        351,
+        "dating",
+        "note"
+      ],
+      "before": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. This is the same continuous rift encounter as Cthulhu’s creator-confirmed 3 September arrival. The 3–4 September UTC posts finish on 3 September in New York.",
+      "after": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. This is the same continuous rift encounter as Cthulhu’s creator-confirmed arrival on 3, Month of Nuru, Year 3. The source posts continue into the following day while the encounter retains its established quest date.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        351,
+        "dating",
+        "calendarAdjustment",
+        "reason"
+      ],
+      "before": "This is the same continuous rift encounter as Cthulhu’s creator-confirmed 3 September arrival. The 3–4 September UTC posts finish on 3 September in New York.",
+      "after": "This is the same continuous rift encounter as Cthulhu’s creator-confirmed arrival on 3, Month of Nuru, Year 3. The source posts continue into the following day while the encounter retains its established quest date.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        358,
+        "meta"
+      ],
+      "before": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+      "after": "18, Month of Death, Year 3 · source posts continue the following day",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        358,
+        "dating",
+        "note"
+      ],
+      "before": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+      "after": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        358,
+        "dating",
+        "calendarAdjustment",
+        "reason"
+      ],
+      "before": "These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+      "after": "These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        359,
+        "meta"
+      ],
+      "before": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+      "after": "18, Month of Death, Year 3 · source posts continue the following day",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        359,
+        "dating",
+        "note"
+      ],
+      "before": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+      "after": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        359,
+        "dating",
+        "calendarAdjustment",
+        "reason"
+      ],
+      "before": "These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+      "after": "These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        360,
+        "meta"
+      ],
+      "before": "18 Oct 2026 New York / 19 Oct UTC · source posts",
+      "after": "18, Month of Death, Year 3 · source posts continue the following day",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        360,
+        "dating",
+        "note"
+      ],
+      "before": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+      "after": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "timeline",
+        360,
+        "dating",
+        "calendarAdjustment",
+        "reason"
+      ],
+      "before": "These scenes form one continuous Babel expedition on 18 October in New York; the export crosses into 19 October UTC. All three scenes share the expedition’s quest day.",
+      "after": "These scenes form one continuous Babel expedition on 18, Month of Death, Year 3; the source sequence continues into the following day. All three scenes retain the expedition’s established quest day.",
+      "reason": "Remove real-world posting geography from player-facing prose while preserving the established 18 October quest-day alignment and original ISO source dates."
+    }
+  ],
+  "primaryReceipts": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248063858581569548",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248067097876107421",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248067655223738442",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248068219101777993",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248068703308873809",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248068797500231763",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248137731788509244",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248138296861917204",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248138928511254548",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248138957569392692",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248138987558928416",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402245735284757",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402524438270024",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402607854714931",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402648946442261",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402799110914079",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264403043781312594",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264405027167141979",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264406395512684585",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520529493964488755",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520539610420084970",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520542509783187636",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520543566760513616",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520544238104740001",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520571135870107658",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520573605224780049",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520573837672972464",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520585715921190932",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520585917490794596",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520587522776764536",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520589881108074526",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520595215453388921",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1520598032343629934",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560467635295228016",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560469030744232068",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560469196570103909",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560469597369532488",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560470328340127766",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560473678993555477",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560483167587147777",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560483168929190001",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560514132590198795",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560515295494410381",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560520605261103196",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560523837722988555",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1560525083640860773",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562132600653348956",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562133996404613220",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562158246700130347",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562184719330836531",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562186572982517823",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562186807683322000",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562187865402773525",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562188572545515564",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1562190136035381389",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343632880005550094",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343635528129712152",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343636753940090930",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343638094401765407",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343643079285936159",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343645396492353618",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343648339161518213",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343651326160273460",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343652470186049651",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561558783409266751",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561559583972007968",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561559635675189289",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561559771495014484",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561559897638707344",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561560093328154802",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561560108289359923",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561560220847702040",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561150375455752276",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561151658359263318",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561152347596529685",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561153200814428262",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561153611969331281",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561154012747923539",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561154534699438262",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561154669877792819",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561154942280933430",
+    "https://discord.com/channels/1177270231513694249/1401773566453747742/1561155026770985013",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563336409153011805",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563337200433766421",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563337637274714136",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563338531185758353",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563338611246501901",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563338936951250996",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563339127271854211",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563339712200966275",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563340093643554849",
+    "https://discord.com/channels/1177270231513694249/1455628231091945686/1561877298620145737",
+    "https://discord.com/channels/1177270231513694249/1455628231091945686/1561877318325117011",
+    "https://discord.com/channels/1177270231513694249/1455628231091945686/1561878141335642245",
+    "https://discord.com/channels/1177270231513694249/1455628231091945686/1561878573214732324",
+    "https://discord.com/channels/1177270231513694249/1455628231091945686/1561879433483129016"
+  ]
+}

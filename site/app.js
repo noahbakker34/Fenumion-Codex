@@ -899,8 +899,10 @@ function renderArticle(route, pushHash = true) {
   const requestedMapId = routeParams.get("map") || "";
   const requestedPersonId = routeParams.get("person") || "";
   const requestedSection = routeParams.get("section") || "";
-  const article = byId.get(id) || byId.get("world-index");
-  const protectedArticle = !isPlayerSafeArticle(article.id);
+  // Opaque private bookmarks need a gate before their authenticated record arrives.
+  const awaitingPrivateRecord = !byId.has(id) && /^sealed-location-[a-f0-9]{12}$/.test(id);
+  const article = byId.get(id) || (awaitingPrivateRecord ? {id, title:"Veiled Record", category:"Locations", tags:[]} : byId.get("world-index"));
+  const protectedArticle = awaitingPrivateRecord || !isPlayerSafeArticle(article.id);
   const hubPage = hubPageById.get(article.id);
   const hubImage = hubPage ? (article.id === 'people-directory' ? browseImageSource(hubPage.image) : hubPage.image) : '';
   const backgroundCatalog=window.FENUMION_CHARACTER_BACKGROUNDS;

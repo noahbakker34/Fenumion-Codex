@@ -81,35 +81,49 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  }
  // New authenticated pages have no public stub; they must join every lock/filter boundary.
  const sealedFixture={articles:[
-  {id:'fixture-private-place-alpha',title:'Synthetic Sealed Chamber Alpha',category:'Locations',type:'Private fixture',dek:'Synthetic test location',tags:['synthetic sealed chamber'],facts:{Scope:'Private fixture'},sources:['Synthetic fixture'],sections:[],body:'<p>PRIVATE_FIXTURE_ALPHA_BODY</p>'},
-  {id:'fixture-private-place-beta',title:'Synthetic Sealed Chamber Beta',category:'Locations',type:'Private fixture',dek:'Synthetic test location',tags:['synthetic sealed chamber'],facts:{Scope:'Private fixture'},sources:['Synthetic fixture'],sections:[],body:'<p>PRIVATE_FIXTURE_BETA_BODY</p>'}
+  {id:'sealed-location-00000000000a',title:'Synthetic Sealed Chamber Alpha',category:'Locations',type:'Private fixture',dek:'Synthetic test location',tags:['synthetic sealed chamber'],facts:{Scope:'Private fixture'},sources:['Synthetic fixture'],sections:[{id:'synthetic-private-details-alpha',title:'Synthetic details',evidence:{kind:'reference',label:'Synthetic fixture',summary:'Synthetic data for privacy checks',sources:['Synthetic fixture']}}],body:'<p>PRIVATE_FIXTURE_ALPHA_BODY</p><h2 id="synthetic-private-details-alpha">Synthetic details</h2><p>PRIVATE_ALPHA_DETAILS</p>'},
+  {id:'sealed-location-00000000000b',title:'Synthetic Sealed Chamber Beta',category:'Locations',type:'Private fixture',dek:'Synthetic test location',tags:['synthetic sealed chamber'],facts:{Scope:'Private fixture'},sources:['Synthetic fixture'],sections:[{id:'synthetic-private-details-beta',title:'Synthetic details',evidence:{kind:'reference',label:'Synthetic fixture',summary:'Synthetic data for privacy checks',sources:['Synthetic fixture']}}],body:'<p>PRIVATE_FIXTURE_BETA_BODY</p><h2 id="synthetic-private-details-beta">Synthetic details</h2><p>PRIVATE_BETA_DETAILS</p>'}
  ],index:{islands:[
-  {title:'Synthetic Sealed Chamber Alpha',region:'Fein Uaill',parent:'Fein Uaill',type:'fixture',level:'site',article:'fixture-private-place-alpha',summary:'Synthetic private fixture'},
-  {title:'Synthetic Sealed Chamber Beta',region:'Fein Uaill',parent:'Fein Uaill',type:'fixture',level:'site',article:'fixture-private-place-beta',summary:'Synthetic private fixture'}
+  {title:'Synthetic Sealed Chamber Alpha',region:'Fein Uaill',parent:'Fein Uaill',type:'fixture',level:'site',article:'sealed-location-00000000000a',summary:'Synthetic private fixture'},
+  {title:'Synthetic Sealed Chamber Beta',region:'Fein Uaill',parent:'Fein Uaill',type:'fixture',level:'site',article:'sealed-location-00000000000b',summary:'Synthetic private fixture'}
  ]}};
+ await page.goto(base+'#'+sealedFixture.articles[0].id+'?section=synthetic-private-details-alpha');await page.reload();
+ await page.locator('.vault-gate').waitFor();
+ assert.equal(await page.evaluate(()=>location.hash),'#sealed-location-00000000000a?section=synthetic-private-details-alpha','opaque bookmark and chapter remain intact before authentication');
+ assert(!(await page.locator('#article-content').innerText()).includes(sealedFixture.articles[0].title));
  await page.unroute('https://auth.fenumion.com/**');
  await page.route('https://auth.fenumion.com/vault/data',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(sealedFixture)}));
  await page.route('https://auth.fenumion.com/me',route=>route.fulfill({status:200,contentType:'application/json',body:'{"signedIn":true,"name":"Synthetic keeper"}'}));
  await page.evaluate(()=>unlockVault());
+ await page.locator('#synthetic-private-details-alpha').waitFor({state:'visible'});
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'synthetic-private-details-alpha','unlock restores the bookmarked private chapter');
  for(const record of sealedFixture.articles){
   await page.evaluate(id=>renderArticle(id),record.id);assert.equal(await page.locator('h1').innerText(),record.title);
-  assert((await page.locator('#article-content').innerText()).includes(record.body.replace(/<[^>]*>/g,'')));
+  assert.equal(await page.evaluate(id=>byId.get(id).body,record.id),record.body);
  }
  await page.evaluate(()=>renderArticle('fein-uaill'));
  assert.equal(await page.locator('.region-place-card').filter({hasText:'Synthetic Sealed Chamber'}).count(),2,'new private places appear for an unlocked keeper');
  await page.evaluate(async()=>{search.value='Synthetic Sealed Chamber';await runSearch(search.value);});
- assert.equal(await page.locator('.search-result[data-article^="fixture-private-place-"]').count(),2,'keeper can find newly delivered private records');
+ assert.equal(await page.locator('.search-result[data-article^="sealed-location-"]').count(),2,'keeper can find newly delivered private records');
  await page.evaluate(()=>{closePanels();lockVault();});
  for(const record of sealedFixture.articles){
   await page.evaluate(id=>renderArticle(id),record.id);assert.equal(await page.locator('.vault-gate').count(),1,'new record is gated again after locking');
   assert(!(await page.locator('#article-content').innerText()).includes(record.title));assert(!(await page.title()).includes(record.title));
  }
  await page.evaluate(async()=>{search.value='Synthetic Sealed Chamber';await runSearch(search.value);});
- assert.equal(await page.locator('.search-result[data-article^="fixture-private-place-"]').count(),0,'locked search hides new private titles and bodies');
+ assert.equal(await page.locator('.search-result[data-article^="sealed-location-"]').count(),0,'locked search hides new private titles and bodies');
  await page.evaluate(()=>{closePanels();return renderArticle('fein-uaill');});
  assert.equal(await page.locator('.region-place-card').filter({hasText:'Synthetic Sealed Chamber'}).count(),0,'locked region hides newly delivered private places');
- await page.reload();await page.waitForFunction(()=>byId.get('fein-uaill')?.bodyLoaded);
- assert(await page.evaluate(()=>!byId.has('fixture-private-place-alpha')&&!byId.has('fixture-private-place-beta')),'fresh locked load has no private records');
+ await page.goto(base+'#'+sealedFixture.articles[1].id+'?section=synthetic-private-details-beta');await page.reload();await page.locator('.vault-gate').waitFor();
+ assert(await page.evaluate(()=>!byId.has('sealed-location-00000000000a')&&!byId.has('sealed-location-00000000000b')),'fresh locked load has no private records');
+ assert.equal(await page.evaluate(()=>location.hash),'#sealed-location-00000000000b?section=synthetic-private-details-beta','fresh private bookmark keeps its opaque route');
+ await page.evaluate(()=>unlockVault());await page.locator('#synthetic-private-details-beta').waitFor({state:'visible'});
+ assert.equal(await page.locator('.article-header h1').innerText(),sealedFixture.articles[1].title);
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'synthetic-private-details-beta','fresh bookmark opens the requested private chapter after unlocking');
+ await page.reload();await page.locator('#synthetic-private-details-beta').waitFor({state:'visible'});
+ assert.equal(await page.locator('.article-header h1').innerText(),sealedFixture.articles[1].title,'authorized reload restores a private bookmark automatically');
+ await page.evaluate(()=>lockVault());assert.equal(await page.locator('.vault-gate').count(),1);
+
  assert.deepEqual(errors,[]);console.log('PASS retry/canceled search; lazy bodies, deferred search, summaries, section evidence/deep links, reading modes, 9 sequences, dated atlas, supplemental indexes, gallery, load races/history, protected boundaries, dynamic private records after locking, and mobile layout');
  await browser.close();
 })().catch(error=>{console.error(error);process.exit(1)});

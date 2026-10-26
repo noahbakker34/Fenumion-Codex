@@ -107,11 +107,11 @@ function applyVault(data) {
   }
   for (const [id, body] of Object.entries(data.bodies || {})) {
     const article = byId.get(id);
-    if (article) { article.body = body; article.bodyLoaded=true; }
+    if (article) window.CodexReader.overlayBody(article,{body});
   }
   for (const [id, body] of Object.entries(data.bodyAppends || {})) {
     const article = byId.get(id);
-    if (article && !article.body.includes(body)) article.body += body;
+    if (article) window.CodexReader.overlayBody(article,{append:body});
   }
   for (const [group, records] of Object.entries(data.index || {})) mergeVaultRecords(group, records);
   for (const record of data.quest?.timelineAdditions || []) {
@@ -282,6 +282,7 @@ function openTimelineRecord(item) {
 
 function openCharacterRecord(person, personLabel = "Character") {
   if (!recordDialog || !recordDialogContent) return;
+  if (!isPlayerSafeArticle(person.article)) { closeRecordDialog(); renderArticle(person.article); return; }
   recordDialogContent.dataset.character=person.article;
   const canonical=byId.get(person.article);
   if(canonical && !canonical.bodyLoaded && isPlayerSafeArticle(canonical.id)) window.CodexReader.load(canonical).then(()=>{
@@ -410,11 +411,11 @@ function isRestrictedArticle(id) {
 }
 
 function isPlayerSafeArticle(id) {
-  return vaultUnlocked || !isRestrictedArticle(id);
+  return !isRestrictedArticle(id) || vaultUnlocked && Boolean(byId.get(id)?.title);
 }
 
 function isRestrictedTimelineEvent(item) {
-  return !vaultUnlocked && (item.vaultOnly || item.era === "Ancient world" || isRestrictedArticle(item.article));
+  return !isPlayerSafeArticle(item.article) || !vaultUnlocked && (item.vaultOnly || item.era === "Ancient world");
 }
 
 function restrictedMark(id) {
@@ -423,12 +424,16 @@ function restrictedMark(id) {
 
 function protectedRecordTitle(title, protectedRecord) {
   return protectedRecord
-    ? '<span class="veiled-title">Veiled record</span><i class="nav-lock" aria-hidden="true">◆</i>'
+    ? `<span class="veiled-title">${vaultUnlocked ? 'Record unavailable' : 'Veiled record'}</span><i class="nav-lock" aria-hidden="true">◆</i>`
     : escapeHtml(title);
 }
 
 function protectedRecordAria(label, protectedRecord) {
-  return escapeHtml(protectedRecord ? "Protected spoiler record. Unlock the vault to reveal its title." : label);
+  return escapeHtml(protectedRecord ? vaultUnlocked ? "This record is not available in the current vault collection." : "Protected spoiler record. Unlock the vault to reveal its title." : label);
+}
+
+function protectedRecordPrompt() {
+  return vaultUnlocked ? "This record is not available in the current vault collection." : "Unlock the spoiler vault to read this history.";
 }
 
 function updateVaultState() {
@@ -479,6 +484,7 @@ async function unlockVault({ interactive = false } = {}) {
     applyVault(data);
   }
   vaultUnlocked = true;
+  window.CodexReader.syncVaultBodies();
   try { sessionStorage.removeItem(VAULT_LOCK_KEY); } catch {}
   closeVaultDialog();
   updateVaultState();
@@ -489,6 +495,7 @@ async function unlockVault({ interactive = false } = {}) {
 
 function lockVault() {
   vaultUnlocked = false;
+  window.CodexReader.syncVaultBodies();
   try { sessionStorage.setItem(VAULT_LOCK_KEY, "1"); } catch {}
   updateVaultState();
   renderNavigation();
@@ -502,6 +509,10 @@ function renderSceneFigure(scene, index, publicPreview = false) {
 }
 
 function renderVaultGate(article) {
+  const unavailable = vaultUnlocked;
+  const action = unavailable
+    ? '<button type="button" data-article="world-index">Return to the World Index</button>'
+    : '<button type="button" data-open-vault>Sign in with Discord to open the vault</button>';
   // This single owner-approved film is public; never select scenes from vault data here.
   const preview = article.id === 'death-dumuzi' ? article.publicPreview : null;
   if (preview) {
@@ -510,8 +521,8 @@ function renderVaultGate(article) {
       <section class="character-scenes public-record-preview" aria-label="${escapeHtml(preview.title)}"><div class="image-gallery">${renderSceneFigure(preview, 0, true)}</div></section>
       <section class="vault-gate vault-gate-preview locked-record" aria-labelledby="protected-record-title">
         <h2 id="protected-record-title">Death’s full record</h2>
-        <p>Open the spoiler vault to read the full history and explore the remaining scenes.</p>
-        <button type="button" data-open-vault>Sign in with Discord to open the vault</button>
+        <p>${unavailable ? 'The vault is open, but the full record is not available in its current collection.' : 'Open the spoiler vault to read the full history and explore the remaining scenes.'}</p>
+        ${action}
       </section>`;
     contents.innerHTML = '';
     window.CodexProtectedMedia?.setup(articleContent, {scenes: [preview]}, () => !vaultUnlocked);
@@ -521,9 +532,9 @@ function renderVaultGate(article) {
     <section class="vault-gate locked-record" aria-labelledby="protected-record-title">
       <span class="vault-gate-sigil" aria-hidden="true">◆</span>
       <p class="article-kicker">Protected spoiler record</p>
-      <h1 id="protected-record-title" class="veiled-title">Veiled record</h1>
-      <p>This page contains hidden lore, secret motives, future consequences, or information that player characters may not know.</p>
-      <button type="button" data-open-vault>Sign in with Discord to open the vault</button>
+      <h1 id="protected-record-title" class="veiled-title">${unavailable ? 'Record unavailable' : 'Veiled record'}</h1>
+      <p>${unavailable ? 'The vault is open, but this record is not available in its current collection. Check the link or return to the archive.' : 'This page contains hidden lore, secret motives, future consequences, or information that player characters may not know.'}</p>
+      ${action}
       <small>The public index and maps remain available in player-safe mode.</small>
     </section>`;
   contents.innerHTML = "";
@@ -725,7 +736,7 @@ function renderNavigation() {
 
 let memorableQuoteCache = null;
 function memorableQuoteRecords() {
-  if (!byId.get("memorable-quotes")?.bodyLoaded) return codexCatalog.quotes;
+  if (!window.CodexReader.bodyAvailable(byId.get("memorable-quotes"))) return codexCatalog.quotes;
   const body = byId.get("memorable-quotes")?.body || "";
   if (memorableQuoteCache?.body === body) return memorableQuoteCache.records;
   const template = document.createElement("template");
@@ -955,7 +966,7 @@ function renderArticle(route, pushHash = true) {
     }).catch(error=>{
       if(renderEpoch!==articleRenderEpoch)return;
       articleContent.removeAttribute('aria-busy');
-      articleContent.innerHTML='<div class="record-load-error" role="alert"><p>'+escapeHtml(error.message)+' Your place in the archive is preserved.</p><button data-article="'+escapeHtml(article.id)+'">Try again</button> <button type="button" data-refresh-codex>Refresh archive</button></div>';
+      articleContent.innerHTML='<div class="record-load-error" role="alert"><p>'+escapeHtml(error.message)+' Your place in the archive is preserved.</p><button data-article="'+escapeHtml(route)+'">Try again</button> <button type="button" data-refresh-codex>Refresh archive</button></div>';
     });
   }
   articleContent.removeAttribute('aria-busy');
@@ -1092,7 +1103,7 @@ function renderArticle(route, pushHash = true) {
   articleContent.dataset.route=routeHash;
   if(requestedSection) window.CodexReader.jump(requestedSection);
   else {
-    if(pushHash){const heading=articleContent.querySelector('.article-header h1');heading.tabIndex=-1;heading.focus({preventScroll:true});}
+    if(pushHash){const heading=articleContent.querySelector('h1');if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true});}}
     const restored=!pushHash&&readingScrollPositions.has(routeHash);
     window.scrollTo({top:restored?readingScrollPositions.get(routeHash):0,behavior:restored||matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
   }
@@ -1184,7 +1195,7 @@ function setupPeopleGallery() {
           : `<span class="index-glyph" aria-hidden="true">✦</span>`;
       return `<button class="index-card character-card ${person.personKind}-record${protectedRecord ? " locked-record" : ""}" data-article="${person.article}"${protectedRecord ? "" : ` data-character-title="${escapeHtml(person.title)}"`} aria-label="${protectedRecordAria(`${person.personLabel}: ${person.title}`, protectedRecord)}">
         ${media}
-        <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${protectedRecordTitle(person.title, protectedRecord)}</strong>${!protectedRecord && person.personKind === "npc" ? `<small class="npc-region-label">${escapeHtml(npcRegionLabel(person))}</small>` : ""}${!protectedRecord && person.prominence ? `<small>Prominence ${person.prominence.score}/100 · ${escapeHtml(person.prominence.confidence)}</small>` : ""}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : escapeHtml(person.summary)}</span></span>
+        <span class="index-card-copy"><span class="character-card-kicker"><i class="character-kind ${person.personKind}">${person.personLabel}</i><small>${protectedRecord ? "Protected record" : escapeHtml(person.meta)}</small></span><strong>${protectedRecordTitle(person.title, protectedRecord)}</strong>${!protectedRecord && person.personKind === "npc" ? `<small class="npc-region-label">${escapeHtml(npcRegionLabel(person))}</small>` : ""}${!protectedRecord && person.prominence ? `<small>Prominence ${person.prominence.score}/100 · ${escapeHtml(person.prominence.confidence)}</small>` : ""}<span>${protectedRecord ? protectedRecordPrompt() : escapeHtml(person.summary)}</span></span>
       </button>`;
     }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
     window.CodexVisual?.decorateCards(gallery,codexVisualContext());
@@ -1230,7 +1241,7 @@ function renderSubchannels(id) {
   if (!items?.length) return "";
   const label = id === "prima-pristinia" ? "Within Prima" : id === "pristinia" ? "Within Pristinia" : "Subchannels";
   return `<section class="subchannels" aria-label="${label}"><p class="eyebrow">${label}</p><div>${items.map(item => `
-    <button class="subchannel-card${isPlayerSafeArticle(item.article) ? "" : " locked-record"}" data-article="${item.article}" aria-label="${protectedRecordAria(byId.get(item.article)?.title || item.label, !isPlayerSafeArticle(item.article))}"><strong>${protectedRecordTitle(byId.get(item.article)?.title || item.label, !isPlayerSafeArticle(item.article))}</strong><span>${isPlayerSafeArticle(item.article) ? (item.summary || byId.get(item.article)?.dek || "") : "Protected record · unlock the spoiler vault to read."}</span><i aria-hidden="true">›</i></button>`).join("")}</div></section>`;
+    <button class="subchannel-card${isPlayerSafeArticle(item.article) ? "" : " locked-record"}" data-article="${item.article}" aria-label="${protectedRecordAria(byId.get(item.article)?.title || item.label, !isPlayerSafeArticle(item.article))}"><strong>${protectedRecordTitle(byId.get(item.article)?.title || item.label, !isPlayerSafeArticle(item.article))}</strong><span>${isPlayerSafeArticle(item.article) ? (item.summary || byId.get(item.article)?.dek || "") : protectedRecordPrompt()}</span><i aria-hidden="true">›</i></button>`).join("")}</div></section>`;
 }
 
 function applyPlayerSafeRedactions() {
@@ -1339,7 +1350,7 @@ function setupWorldBrowser() {
         return `
         <button class="index-card${protectedRecord ? " locked-record" : ""}" data-article="${item.article}" aria-label="${protectedRecordAria(item.title, protectedRecord)}"${protectedRecord ? "" : activeView === "timeline" ? ` data-timeline-title="${escapeHtml(item.title)}" data-importance="${item.importance || 0}"` : activeView === "characters" ? ` data-character-title="${escapeHtml(item.title)}"` : ""}>
           ${item.image ? `<img src="${preview ? preview.src : item.image}"${preview ? ` width="${preview.width}" height="${preview.height}"` : ''} alt="" loading="lazy" decoding="async">` : item.video ? `<video class="ambient-video" data-ambient-video src="${item.video}" muted loop playsinline disablepictureinpicture disableremoteplayback preload="${activeView === 'characters' ? 'none' : 'metadata'}" aria-hidden="true" tabindex="-1"></video>` : `<span class="index-glyph" aria-hidden="true">${activeView === "timeline" ? "◷" : activeView === "characters" ? "✦" : "⌖"}</span>`}
-          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : activeView === "timeline" ? timelineDateMarkup(item) : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong>${activeView === 'timeline' && !protectedRecord ? `<span class="event-importance">${timelineImportanceMarkup(item)}</span>` : ''}<span>${protectedRecord ? "Unlock the spoiler vault to read this history." : item.summary}</span></span>
+          <span class="index-card-copy">${activeView === "characters" ? `<span class="character-card-kicker"><i class="character-kind ${item.personKind}">${item.personLabel}</i><small>${protectedRecord ? "Protected record" : item.meta}</small></span>` : `<small>${protectedRecord ? "Protected record" : activeView === "timeline" ? timelineDateMarkup(item) : item.meta}</small>`}<strong>${protectedRecordTitle(item.title, protectedRecord)}</strong>${activeView === 'timeline' && !protectedRecord ? `<span class="event-importance">${timelineImportanceMarkup(item)}</span>` : ''}<span>${protectedRecord ? protectedRecordPrompt() : item.summary}</span></span>
         </button>`; }).join("")}</div>
       ${activeView === 'characters' && characterPages > 1 ? `<nav class="people-pagination" aria-label="Homepage character result pages"><button type="button" data-world-previous${characterPage === 0 ? ' disabled' : ''}>← Previous</button><span>Page ${characterPage + 1} of ${characterPages}</span><button type="button" data-world-next${characterPage === characterPages - 1 ? ' disabled' : ''}>Next →</button></nav>` : ''}`;
     window.CodexVisual?.decorateCards(browser,codexVisualContext());
@@ -1436,7 +1447,7 @@ function setupInteractiveAtlas(initialMapId = "", initialDate = "", initialPlace
 
       ${!protectedRecord ? window.CodexReader.placeContext(locationRecord,throughDate) : ""}
       ${mapLayerLink}
-      <button type="button" class="map-history-link${protectedRecord ? " locked-record" : ""}" data-article="${locationRecord.article}">${protectedRecord ? "Unlock location history" : "Open location history"} <span aria-hidden="true">${protectedRecord ? "◆" : "→"}</span></button>`;
+      <button type="button" class="map-history-link${protectedRecord ? " locked-record" : ""}" data-article="${locationRecord.article}">${protectedRecord ? vaultUnlocked ? "Check record availability" : "Unlock location history" : "Open location history"} <span aria-hidden="true">${protectedRecord ? "◆" : "→"}</span></button>`;
     window.FenumionCalendar.render(detail);
   };
 
@@ -1613,7 +1624,7 @@ function setupLocationExplorer() {
             <span class="place-copy">
               <span class="place-kicker">${protectedRecord ? "Protected location history" : escapeHtml(item.level === 'region' ? item.type : `${item.region}${item.parent && item.parent !== item.region ? ' › '+item.parent : ''} · ${item.type}`)}</span>
               <strong>${protectedRecordTitle(item.title, protectedRecord)}${!protectedRecord && mappedLocationTitles.has(item.title) ? `<i class="place-map-badge">Mapped</i>` : ""}</strong>
-              <span class="place-summary">${protectedRecord ? "Unlock the spoiler vault to read its history." : escapeHtml(item.summary)}</span>
+              <span class="place-summary">${protectedRecord ? protectedRecordPrompt() : escapeHtml(item.summary)}</span>
 
             </span>
           </button>`; }).join("")}</div>

@@ -43,6 +43,10 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await go('player-perspectives');assert(await page.evaluate(()=>Boolean(window.FENUMION_PLAYER_PERSPECTIVES)));
  await go('art-of-fenumion');assert.equal(await page.evaluate(()=>fenumionArtRecords().length),111);
  await go('world-index');assert.equal(await page.evaluate(()=>archiveIndex.characters.filter(p=>p.article==='st-anky').length),1);
+ // Returning through the header must focus the visible gateway heading, whose template header is removed.
+ await go('st-anky');await page.locator('.index-button').click();
+ assert.equal(await page.locator('#article-content h1').innerText(),'The Fenumion Codex');
+ assert(await page.evaluate(()=>document.activeElement===document.querySelector('#article-content h1')),'World Index return retains keyboard focus');
  // Back/forward and a slow load cannot replace a newer destination.
  await page.evaluate(async()=>{const one=renderArticle('nienna');const two=renderArticle('papirak');await Promise.all([one,two]);});
  assert.equal(await page.locator('h1').innerText(),'Papirak the Strange');
@@ -59,9 +63,11 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await go('st-anky');await page.screenshot({path:'/tmp/codex-character-summary-mobile.png',fullPage:true});await page.locator('.character-brief').screenshot({path:'/tmp/codex-brief-mobile.png'});
  // A failed body request can retry, and clearing a pending search stays cleared.
  await page.route('**/data/records/training-dungeon.*.json',route=>route.abort(),{times:1});
- await page.goto(base+'?retry-test=1#training-dungeon');await page.locator('.record-load-error').waitFor();
+ await page.goto(base+'?retry-test=1#training-dungeon?section=training-later-inheritance');await page.locator('.record-load-error').waitFor();
  await page.getByRole('button',{name:'Try again',exact:true}).click();await page.locator('.article-header h1').waitFor();
  assert.equal(await page.locator('h1').innerText(),'The Training Dungeon');
+ assert.equal(await page.evaluate(()=>location.hash),'#training-dungeon?section=training-later-inheritance','retry retains the requested chapter');
+ assert.equal(await page.evaluate(()=>document.activeElement.id),'training-later-inheritance');
  await page.route('**/data/search.*.json',async route=>{await new Promise(resolve=>setTimeout(resolve,120));await route.continue();},{times:1});
  await page.evaluate(()=>{search.value='rowboat';window.__pendingSearch=runSearch('rowboat');search.value='';runSearch('');});
  await page.evaluate(()=>window.__pendingSearch);assert(await page.locator('#search-panel').evaluate(panel=>panel.hidden));
@@ -83,7 +89,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  const sealedFixture={articles:[
   {id:'sealed-location-00000000000a',title:'Synthetic Sealed Chamber Alpha',category:'Locations',type:'Private fixture',dek:'Synthetic test location',tags:['synthetic sealed chamber'],facts:{Scope:'Private fixture'},sources:['Synthetic fixture'],sections:[{id:'synthetic-private-details-alpha',title:'Synthetic details',evidence:{kind:'reference',label:'Synthetic fixture',summary:'Synthetic data for privacy checks',sources:['Synthetic fixture']}}],body:'<p>PRIVATE_FIXTURE_ALPHA_BODY</p><h2 id="synthetic-private-details-alpha">Synthetic details</h2><p>PRIVATE_ALPHA_DETAILS</p>'},
   {id:'sealed-location-00000000000b',title:'Synthetic Sealed Chamber Beta',category:'Locations',type:'Private fixture',dek:'Synthetic test location',tags:['synthetic sealed chamber'],facts:{Scope:'Private fixture'},sources:['Synthetic fixture'],sections:[{id:'synthetic-private-details-beta',title:'Synthetic details',evidence:{kind:'reference',label:'Synthetic fixture',summary:'Synthetic data for privacy checks',sources:['Synthetic fixture']}}],body:'<p>PRIVATE_FIXTURE_BETA_BODY</p><h2 id="synthetic-private-details-beta">Synthetic details</h2><p>PRIVATE_BETA_DETAILS</p>'}
- ],index:{islands:[
+ ],bodies:{'fein-uaill':JSON.parse(require('node:fs').readFileSync(require('node:path').join(__dirname,'../content/records/fein-uaill.json'),'utf8')).body+'<p data-vault-only data-synthetic-override>syntheticoverridesecretword</p>'},
+ bodyAppends:{magnus:'<p data-vault-only data-synthetic-append>syntheticappendsecretword</p>'},index:{islands:[
   {title:'Synthetic Sealed Chamber Alpha',region:'Fein Uaill',parent:'Fein Uaill',type:'fixture',level:'site',article:'sealed-location-00000000000a',summary:'Synthetic private fixture'},
   {title:'Synthetic Sealed Chamber Beta',region:'Fein Uaill',parent:'Fein Uaill',type:'fixture',level:'site',article:'sealed-location-00000000000b',summary:'Synthetic private fixture'}
  ]}};
@@ -94,18 +101,41 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await page.unroute('https://auth.fenumion.com/**');
  await page.route('https://auth.fenumion.com/vault/data',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(sealedFixture)}));
  await page.route('https://auth.fenumion.com/me',route=>route.fulfill({status:200,contentType:'application/json',body:'{"signedIn":true,"name":"Synthetic keeper"}'}));
+ const requestsBeforeUnlock=requests.filter(url=>url.includes('/data/records/')).length;
  await page.evaluate(()=>unlockVault());
  await page.locator('#synthetic-private-details-alpha').waitFor({state:'visible'});
  assert.equal(await page.evaluate(()=>document.activeElement.id),'synthetic-private-details-alpha','unlock restores the bookmarked private chapter');
+ assert.equal(requests.filter(url=>url.includes('/data/records/')).length,requestsBeforeUnlock,'unlock does not eagerly fetch overlay targets');
+ assert(await page.evaluate(()=>!byId.get('fein-uaill').bodyLoaded&&!byId.get('magnus').bodyLoaded),'overlays do not pretend unloaded public metadata is complete');
+ const unavailableId=await page.evaluate(()=>articles.find(article=>isRestrictedArticle(article.id)&&!article.title&&!article.publicPreview).id);
+ await page.evaluate(id=>renderArticle(id),unavailableId);
+ assert.equal(await page.locator('.vault-gate h1').innerText(),'Record unavailable','a private stub absent from this payload cannot open as a blank article');
+ assert.equal(await page.locator('.vault-gate [data-open-vault]').count(),0,'an already-open vault must not loop back to sign-in');
+ await page.getByRole('button',{name:'Return to the World Index',exact:true}).click();
+ assert.equal(await page.locator('#article-content h1').innerText(),'The Fenumion Codex');
+ for(const word of ['syntheticoverridesecretword','syntheticappendsecretword']){
+  await page.evaluate(async word=>{search.value=word;await runSearch(word)},word);
+  assert.equal(await page.locator('.search-result').count(),1,'unlocked overlay is searchable before its first visit');
+ }
+ await page.evaluate(()=>closePanels());
  for(const record of sealedFixture.articles){
   await page.evaluate(id=>renderArticle(id),record.id);assert.equal(await page.locator('h1').innerText(),record.title);
   assert.equal(await page.evaluate(id=>byId.get(id).body,record.id),record.body);
  }
  await page.evaluate(()=>renderArticle('fein-uaill'));
+ assert.equal(await page.locator('.region-hub').count(),1,'cold vault override retains regional metadata and navigation');
  assert.equal(await page.locator('.region-place-card').filter({hasText:'Synthetic Sealed Chamber'}).count(),2,'new private places appear for an unlocked keeper');
+ await page.evaluate(()=>renderArticle('magnus'));
+ assert(await page.evaluate(()=>Boolean(byId.get('magnus').biography)),'cold append retains the biography reading plan');
+ assert.equal(await page.locator('[data-synthetic-append]').count(),1,'append survives the first public load without duplication');
  await page.evaluate(async()=>{search.value='Synthetic Sealed Chamber';await runSearch(search.value);});
  assert.equal(await page.locator('.search-result[data-article^="sealed-location-"]').count(),2,'keeper can find newly delivered private records');
  await page.evaluate(()=>{closePanels();lockVault();});
+ for(const word of ['syntheticoverridesecretword','syntheticappendsecretword']){
+  await page.evaluate(async word=>{search.value=word;await runSearch(word)},word);
+  assert.equal(await page.locator('.search-result').count(),0,'locking removes public-page overlay text from search');
+ }
+ await page.evaluate(()=>closePanels());
  for(const record of sealedFixture.articles){
   await page.evaluate(id=>renderArticle(id),record.id);assert.equal(await page.locator('.vault-gate').count(),1,'new record is gated again after locking');
   assert(!(await page.locator('#article-content').innerText()).includes(record.title));assert(!(await page.title()).includes(record.title));
@@ -124,6 +154,21 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  assert.equal(await page.locator('.article-header h1').innerText(),sealedFixture.articles[1].title,'authorized reload restores a private bookmark automatically');
  await page.evaluate(()=>lockVault());assert.equal(await page.locator('.vault-gate').count(),1);
 
- assert.deepEqual(errors,[]);console.log('PASS retry/canceled search; lazy bodies, deferred search, summaries, section evidence/deep links, reading modes, 9 sequences, dated atlas, supplemental indexes, gallery, load races/history, protected boundaries, dynamic private records after locking, and mobile layout');
+ // A pending public request must retain overlays on completion, including if the keeper locks while it is in flight.
+ const race=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});race.on('pageerror',e=>errors.push(e.message));
+ await race.addInitScript(()=>sessionStorage.setItem('fenumion-vault-locked','1'));
+ await race.route('https://auth.fenumion.com/vault/data',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(sealedFixture)}));
+ await race.route('https://auth.fenumion.com/me',route=>route.fulfill({status:200,contentType:'application/json',body:'{"signedIn":true,"name":"Synthetic keeper"}'}));
+ let releaseBody,bodyStarted;const heldBody=new Promise(resolve=>releaseBody=resolve),startedBody=new Promise(resolve=>bodyStarted=resolve);
+ await race.route('**/data/records/magnus.*.json',async route=>{bodyStarted();await heldBody;await route.continue()});
+ await race.goto(base+'#magnus');await startedBody;
+ await race.evaluate(()=>unlockVault());await race.evaluate(()=>lockVault());releaseBody();
+ await race.waitForFunction(()=>byId.get('magnus').bodyLoaded&&document.querySelector('#article-content').dataset.route==='#magnus');
+ assert.equal(await race.locator('[data-synthetic-append]').count(),0,'locked completion cannot display an overlay');
+ await race.evaluate(()=>unlockVault());
+ assert.equal(await race.locator('[data-synthetic-append]').count(),1,'cached unlock restores the append after an in-flight public load');
+ for(let i=0;i<2;i++){await race.evaluate(()=>lockVault());await race.evaluate(()=>unlockVault());assert.equal(await race.locator('[data-synthetic-append]').count(),1,'repeated unlock does not duplicate text');}
+ await race.close();
+ assert.deepEqual(errors,[]);console.log('PASS gateway return/focus, chapter retry, canceled search, lazy metadata, overlay load races and lock-safe search; reading/evidence/deep links, sequences, atlas, supplemental indexes, history, dynamic private records and mobile layout');
  await browser.close();
 })().catch(error=>{console.error(error);process.exit(1)});

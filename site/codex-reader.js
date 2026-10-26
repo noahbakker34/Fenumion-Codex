@@ -1,6 +1,6 @@
 /* Reading, evidence and lazy content. Canonical public records are built from content/. */
 (() => {
-  const pending=new Map(), searchCache=new Map();
+  const pending=new Map(), searchCache=new Map(), vaultBodyOverlays=new Map();
   let searchData=null, searchPromise=null;
   const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function referenceMarkup(value){
@@ -17,6 +17,22 @@
     return window.FenumionCalendar.html(result+esc(source.slice(start)));
   }
   async function json(url){const response=await fetch(url);if(!response.ok)throw new Error('Could not load this record ('+response.status+').');return response.json();}
+  // Keep authenticated prose separate from the public metadata and body arriving on demand.
+  function applyBodyOverlay(article,overlay){
+    article.body=(vaultUnlocked&&'body' in overlay)?overlay.body:overlay.publicBody||'';
+    if(vaultUnlocked&&overlay.append&&!article.body.includes(overlay.append))article.body+=overlay.append;
+  }
+  function overlayBody(article,edits){
+    const overlay=vaultBodyOverlays.get(article)||{publicBody:article.bodyLoaded?article.body:undefined};
+    Object.assign(overlay,edits);vaultBodyOverlays.set(article,overlay);applyBodyOverlay(article,overlay);
+  }
+  function syncVaultBodies(){
+    // Search and page rendering must both return to public prose on locking.
+    for(const [article,overlay] of vaultBodyOverlays)applyBodyOverlay(article,overlay);
+  }
+  function bodyAvailable(article){
+    return article.bodyLoaded||vaultUnlocked&&vaultBodyOverlays.has(article)&&'body' in vaultBodyOverlays.get(article);
+  }
   async function load(article){
     if(article.bodyLoaded)return article;
     if(!pending.has(article.id))pending.set(article.id,(async()=>{
@@ -24,6 +40,8 @@
       const extra=article.id==='player-perspectives'?'player-perspectives':article.id==='npc-discovery-registry'?'npc-discoveries':null;
       if(extra)Object.assign(window,await json('data/supplements/'+extra+'.json'));
       Object.assign(article,payload,{bodyLoaded:true});
+      const overlay=vaultBodyOverlays.get(article);
+      if(overlay){overlay.publicBody=payload.body;applyBodyOverlay(article,overlay);}
       if(payload.relationshipMap)relationshipMaps[article.id]=payload.relationshipMap;
       return article;
     })().finally(()=>pending.delete(article.id)));
@@ -34,19 +52,23 @@
     if(!searchPromise)searchPromise=json(window.FENUMION_CATALOG.searchUrl).then(data=>{searchData=data;searchCache.clear();}).catch(error=>{searchPromise=null;throw error;});
     return searchPromise;
   }
+  function bodySections(body){
+    const template=document.createElement('template');template.innerHTML=body;
+    const sections=[{id:'',title:'Overview',text:''}];let current=sections[0];
+    [...template.content.childNodes].forEach(node=>{
+      if(node.nodeType===1&&node.matches('h2')){current={id:node.id,title:node.textContent,text:''};sections.push(current);}
+      else current.text+=' '+node.textContent;
+    });
+    return sections;
+  }
   function parts(article){
-    const signature=article.bodyLoaded?article.body:null;
+    const overlay=vaultBodyOverlays.get(article);
+    const signature=article.bodyLoaded||overlay?article.body:null;
     const cached=searchCache.get(article.id);
     if(cached?.signature===signature)return cached;
-    let sections;
-    if(article.bodyLoaded){
-      const template=document.createElement('template');template.innerHTML=article.body;
-      sections=[{id:'',title:'Overview',text:''}];let current=sections[0];
-      [...template.content.childNodes].forEach(node=>{
-        if(node.nodeType===1&&node.matches('h2')){current={id:node.id,title:node.textContent,text:''};sections.push(current);}
-        else current.text+=' '+node.textContent;
-      });
-    }else sections=searchData?.[article.id]?.sections||[];
+    const completeBody=bodyAvailable(article);
+    let sections=completeBody?bodySections(article.body):searchData?.[article.id]?.sections||[];
+    if(!completeBody&&vaultUnlocked&&overlay?.append)sections=[...sections,...bodySections(overlay.append)];
     const normalized=sections.map(section=>({...section,normalized:normalizeSearchName(window.FenumionCalendar.searchText(section.title+' '+section.text))}));
     const result={signature,sections:normalized,text:normalized.map(s=>s.normalized).join(' ')};searchCache.set(article.id,result);return result;
   }
@@ -267,5 +289,5 @@
     const people=[...new Map(events.flatMap(e=>String(e.people||'').split(';').map(name=>resolvePublicPerson(name.trim())).filter(Boolean)).map(p=>[p.article,p])).values()].slice(0,5);
     return window.FenumionCalendar.html(`<div class="place-history-context"><p><strong>Within</strong> ${esc(place.parent||place.region||'Unresolved')}</p><h4>${until?'Last matching record by '+esc(until):'Last matching dated record'}</h4>${last?`<p>${esc(last.meta)} · ${esc(last.summary)}</p>`:'<p>No matching dated event is established for this selection. This does not date the place’s creation or absence.</p>'}${people.length?'<p class="place-people">'+people.map(p=>`<a href="#${esc(p.article)}">${esc(p.title)}</a>`).join(' · ')+'</p>':''}${events.length?'<ol>'+events.slice(-3).map(e=>`<li><button type="button" data-timeline-title="${esc(e.title)}"><small>${esc(e.meta)}</small>${esc(e.title)}</button></li>`).join('')+'</ol>':''}<small>Dates follow the chronicle entries. Partial or uncertain dates are omitted from exact-date selections.</small></div>`);
   }
-  window.CodexReader={load,ensureSearch,get searchReady(){return Boolean(searchData);},searchText:article=>parts(article).text,matchSection,afterRender,jump,eventChains,placeContext,placeEvents,referenceMarkup};
+  window.CodexReader={load,overlayBody,syncVaultBodies,bodyAvailable,ensureSearch,get searchReady(){return Boolean(searchData);},searchText:article=>parts(article).text,matchSection,afterRender,jump,eventChains,placeContext,placeEvents,referenceMarkup};
 })();

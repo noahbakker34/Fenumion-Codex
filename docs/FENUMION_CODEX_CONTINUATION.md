@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-26
 
+## Navigation and reader audit · 26 October 2026
+
+Owner requests bugs and destinations that lead nowhere. An audit of 3,889 stored links/controls finds no unresolved internal route, anchor, map or local file; a Chrome crawl covers 585 public routes and 130 generated section destinations. Six reproduced reader issues are fixed: returning home focuses the actual gateway heading; failed-load retries retain their chapter; authenticated body overrides no longer suppress public metadata; appends survive first/in-flight loads and repeated unlocking; locking restores canonical public prose for search as well as display; and undelivered protected stubs show an unavailable state with a working exit instead of a blank page/sign-in loop. The final crawl reports no broken destinations, HTTP or script errors. Expanded synthetic reader tests and existing biography/regional, quote and public-film checks pass. Actual private candidate checks use simulated authorization. Unresolved internal record links now fail the existing static validator. See NAVIGATION_AUDIT_2026_10_26.md.
+
+App271/reader13 retain catalog279/build `db11c6dfdd651a6b`. Every canonical record, source, timeline/map/media file, generated content bundle and the complete private payload is unchanged. No new private identities or source values enter public Git. Authentication, roles and publishers stay unchanged; no dependency or CI stage is added. One public release follows local checks; hosted/live receipt follows verification.
+
 
 ## Dynamic authenticated records · 26 October 2026
 

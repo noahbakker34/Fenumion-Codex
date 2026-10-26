@@ -50,7 +50,7 @@ def audit():
   for key in duplicates:errors.append(aid+': duplicate section ID '+key)
   for target in parser.links:
    target=target.split('?')[0]
-   if target and target not in known and target not in aliases and target not in parser.ids:warnings.append(aid+': unresolved link '+target)
+   require(not target or target in known or target in aliases or target in parser.ids,aid+': unresolved link '+target)
   sectionids=[section['id'] for section in a.get('sections',[])]
   require(len(sectionids)==len(set(sectionids)),aid+': duplicate section metadata')
   require(set(sectionids)==set(parser.headings),aid+': headings and evidence metadata differ')

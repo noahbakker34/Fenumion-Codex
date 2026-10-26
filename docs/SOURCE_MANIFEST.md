@@ -425,3 +425,8 @@ Existing original quest/rift/Gate archives and previously published public histo
 ## Character and place histories · 25 October 2026
 
 Selected original main quest and Fein scenes expand nine existing records. The review adds 17 bounded sections with 81 unique new receipt identities checked in their proper original channel archives. Quest narration governs; Tarwen's stated convictions and martial past remain attributed. The full earlier text and evidence are retained except two explicit introductory clarity edits, without claiming a new exhaustive certification of inherited syntheses. Scope, outcomes and unresolved boundaries: [PEOPLE_AND_PLACES_2026_10_25.md](PEOPLE_AND_PLACES_2026_10_25.md). No new raw corpus, transcript, generic NPC identity or restricted material enters Git.
+
+
+## Further character and place review · 25 October 2026
+
+Fourteen sections extend nine existing records from selected original main quest, Gael and Prima scenes; 107 new receipt identities resolve in their correct native channels. The original quest corrects Draygar's inherited hammer/sword account, with exact editorial deltas preserved rather than keeping an erroneous synthesis as fact. Scope and source limits: [MORE_PEOPLE_AND_PLACES_2026_10_25.md](MORE_PEOPLE_AND_PLACES_2026_10_25.md) and `content/reference/character-place-review-2026-10-25.json`. Prior text, source qualifications and meaningful historical coverage remain apart from those explicit corrections/clarity edits. No raw corpus, generic NPC identity, private revelation or transcript enters public Git.

@@ -55,7 +55,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  for(const id of ['fenwick','gael','pristinia','voraketh','training-dungeon','history-in-consequences','visual-archive','living-timeline']){
   await go(id);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),id+' mobile overflow');
  }
- await go('papirak');await page.screenshot({path:'/tmp/codex-character-summary-mobile.png',fullPage:true});await page.locator('.character-brief').screenshot({path:'/tmp/codex-brief-mobile.png'});
+ // Keep the ordinary expandable brief covered as Papirak moves to continuous chapters.
+ await go('st-anky');await page.screenshot({path:'/tmp/codex-character-summary-mobile.png',fullPage:true});await page.locator('.character-brief').screenshot({path:'/tmp/codex-brief-mobile.png'});
  // A failed body request can retry, and clearing a pending search stays cleared.
  await page.route('**/data/records/training-dungeon.*.json',route=>route.abort(),{times:1});
  await page.goto(base+'?retry-test=1#training-dungeon');await page.locator('.record-load-error').waitFor();

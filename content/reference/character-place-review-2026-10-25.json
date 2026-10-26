@@ -1,0 +1,294 @@
+{
+  "scope": "Selected original quest, Gael and Prima scenes; receipt identity checks do not imply exhaustive certification of inherited histories. Quest narration governs compatible RP; character claims retain speakers.",
+  "records": [
+    {
+      "article": "fenwicks-tower",
+      "title": "The Silver Spire",
+      "chapters": 6,
+      "originalSections": 11,
+      "newSections": 1,
+      "originalFacts": 7,
+      "beforeWords": 1105,
+      "afterWords": 1240
+    },
+    {
+      "article": "draygar-warsmash",
+      "title": "Draygar WarSmash",
+      "chapters": 5,
+      "originalSections": 8,
+      "newSections": 1,
+      "originalFacts": 6,
+      "beforeWords": 466,
+      "afterWords": 666
+    },
+    {
+      "article": "lucido",
+      "title": "Lucido Spettoro",
+      "chapters": 5,
+      "originalSections": 5,
+      "newSections": 3,
+      "originalFacts": 3,
+      "beforeWords": 377,
+      "afterWords": 834
+    },
+    {
+      "article": "papirak",
+      "title": "Papirak the Strange",
+      "chapters": 6,
+      "originalSections": 9,
+      "newSections": 1,
+      "originalFacts": 9,
+      "beforeWords": 1113,
+      "afterWords": 1281
+    },
+    {
+      "article": "krone",
+      "title": "Krone",
+      "chapters": 6,
+      "originalSections": 12,
+      "newSections": 1,
+      "originalFacts": 8,
+      "beforeWords": 1364,
+      "afterWords": 1510
+    },
+    {
+      "article": "library-of-nuru",
+      "title": "The Library of Nuru",
+      "chapters": 5,
+      "originalSections": 4,
+      "newSections": 1,
+      "originalFacts": 4,
+      "beforeWords": 435,
+      "afterWords": 596
+    },
+    {
+      "article": "papiraks-mausoleum",
+      "title": "Papirak’s Mausoleum",
+      "chapters": 5,
+      "originalSections": 5,
+      "newSections": 2,
+      "originalFacts": 5,
+      "beforeWords": 273,
+      "afterWords": 533
+    },
+    {
+      "article": "tower-of-gael",
+      "title": "The Tower of Gael",
+      "chapters": 7,
+      "originalSections": 17,
+      "newSections": 2,
+      "originalFacts": 13,
+      "beforeWords": 1883,
+      "afterWords": 2115
+    },
+    {
+      "article": "brianna",
+      "title": "Brianna",
+      "chapters": 5,
+      "originalSections": 6,
+      "newSections": 2,
+      "originalFacts": 2,
+      "beforeWords": 507,
+      "afterWords": 786
+    }
+  ],
+  "preservation": {
+    "originalSections": 77,
+    "addedSections": 14,
+    "originalFacts": 57,
+    "correctedFacts": 1,
+    "bodyEdits": 4,
+    "fieldEdits": 5,
+    "beforeWords": 7523,
+    "afterWords": 9561,
+    "unrelatedRecordsUnchanged": 613,
+    "worldPrivateMapsDirectoriesQuotesAndBrowseDataUnchanged": true
+  },
+  "bodyEdits": [
+    {
+      "article": "draygar-warsmash",
+      "before": "The assault on Wrath · refusing the bargain",
+      "after": "The assault on Wrath · an offer Death refuses",
+      "reason": "The original 21 November quest shows Draygar proposing a hammer-for-Olokun exchange that Death refuses, after throwing Wrath’s sword at Death. It does not show Draygar refusing that offer or merely discarding the sword."
+    },
+    {
+      "article": "draygar-warsmash",
+      "before": "During the campaign against Wrath, Draygar approaches Death and is offered a bargain involving his hammer. The temptation is concrete because it touches the tool, calling, and strength through which he understands himself. He refuses to let the bargain decide his allegiance and later throws Wrath’s sword away, denying the enemy both possession and symbolic control.",
+      "after": "After Saray kills Wrath, Draygar picks up the fallen sword and throws it at Death, accusing him of bringing only death despite his talk of a beautiful world. Later, when Death refuses to give the company weapons it could use against him, Draygar proposes a trade. He holds up Cala’s radiant warhammer and asks for Olokun’s return. Saray offers her own possessions; Krone holds out his maul and asks for his new family back. Death rejects objects in exchange for souls and closes the door. Draygar answers, “Well.... Ay tried.” The exchange ends without an accepted bargain or the hammer changing hands.",
+      "reason": "The original 21 November quest shows Draygar proposing a hammer-for-Olokun exchange that Death refuses, after throwing Wrath’s sword at Death. It does not show Draygar refusing that offer or merely discarding the sword."
+    },
+    {
+      "article": "draygar-warsmash",
+      "before": "Draygar’s failure mode is not simple rage. It is the belief that because he can bear a burden, he should accept it before asking whether another plan exists. His strongest scenes resist that trap by making strength collaborative: rescue someone, carry information, consult Gartina, and refuse an enemy’s attempt to define service as surrender.",
+      "after": "Draygar’s willingness to go first can leave him hurt and relying on companions. At the Citadel he accepts Wren’s potions and waits while others make the passage safe. Anger and strength do not win his friends back from Death; he still has to decide what to do next. His work includes rescue, carrying information and consulting Gartina, alongside fights he cannot settle by hitting harder.",
+      "reason": "Replace an asserted private failure motive with specific witnessed reliance, restraint and unsuccessful action; retain rescue, communication and consultation."
+    },
+    {
+      "article": "draygar-warsmash",
+      "before": "the complete sequence of the hammer bargain,",
+      "after": "the hammer’s full history,",
+      "reason": "The selected quest exchange is now recovered; the hammer’s earlier history and full powers remain incomplete."
+    }
+  ],
+  "fieldEdits": [
+    {
+      "article": "draygar-warsmash",
+      "path": [
+        "sections",
+        2,
+        "title"
+      ],
+      "before": "The assault on Wrath · refusing the bargain",
+      "after": "The assault on Wrath · an offer Death refuses",
+      "reason": "The original 21 November quest shows Draygar proposing a hammer-for-Olokun exchange that Death refuses, after throwing Wrath’s sword at Death. It does not show Draygar refusing that offer or merely discarding the sword."
+    },
+    {
+      "article": "draygar-warsmash",
+      "path": [
+        "facts",
+        "Central conflict"
+      ],
+      "before": "Refuses Death’s bargain during the assault on Wrath",
+      "after": "Challenges Death; offers Cala’s hammer for Olokun’s return",
+      "reason": "The original 21 November quest shows Draygar proposing a hammer-for-Olokun exchange that Death refuses, after throwing Wrath’s sword at Death. It does not show Draygar refusing that offer or merely discarding the sword."
+    },
+    {
+      "article": "draygar-warsmash",
+      "path": [
+        "dek"
+      ],
+      "before": "A formidable warrior who pulls companions clear, carries warnings, refuses Death’s bargains and makes a life with Gartina beyond battle.",
+      "after": "A formidable warrior who pulls companions clear, carries warnings, challenges Death and makes a life with Gartina beyond battle.",
+      "reason": "The original 21 November quest shows Draygar proposing a hammer-for-Olokun exchange that Death refuses, after throwing Wrath’s sword at Death. It does not show Draygar refusing that offer or merely discarding the sword."
+    },
+    {
+      "article": "draygar-warsmash",
+      "path": [
+        "brief",
+        "significance"
+      ],
+      "before": "A formidable warrior who pulls companions clear, carries warnings, refuses Death’s bargains and makes a life with Gartina beyond battle.",
+      "after": "A formidable warrior who pulls companions clear, carries warnings, challenges Death and makes a life with Gartina beyond battle.",
+      "reason": "The original 21 November quest shows Draygar proposing a hammer-for-Olokun exchange that Death refuses, after throwing Wrath’s sword at Death. It does not show Draygar refusing that offer or merely discarding the sword."
+    },
+    {
+      "article": "draygar-warsmash",
+      "path": [
+        "profile",
+        "achievements"
+      ],
+      "before": "Across Pristinia, Gael, The Before, and the campaign against Wrath, Draygar repeatedly uses his strength to rescue others. He carries the warhammer Cala, rejects Death’s attempt to turn grief into a bargain, and throws Wrath’s sword away. He earns Captain Zythienne’s promised recommendation to Captain Tarwen after the dragon-isle battle; this exchange alone does not establish formal Silver Star admission.",
+      "after": "Across Pristinia, Gael, The Before, and the campaign against Wrath, Draygar repeatedly uses his strength to rescue others. He carries the warhammer Cala, throws Wrath’s sword at Death and offers Cala’s hammer for Olokun’s return; Death rejects the proposed exchange. He earns Captain Zythienne’s promised recommendation to Captain Tarwen after the dragon-isle battle; this exchange alone does not establish formal Silver Star admission.",
+      "reason": "The original 21 November quest shows Draygar proposing a hammer-for-Olokun exchange that Death refuses, after throwing Wrath’s sword at Death. It does not show Draygar refusing that offer or merely discarding the sword."
+    }
+  ],
+  "primaryReceipts": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248437116841754665",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248440362653974601",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248441564162687030",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248442405451988992",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248442957540098120",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248443315008045107",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248443875811397692",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248444591351529594",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248450631442628690",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248470036289552516",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308966899962347591",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308974945371422852",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308975523631730749",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308982077869523036",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308985736728674365",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308994234543636521",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308997792479580233",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308998223154647113",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309000537231982704",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309001967284129923",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309051510801436762",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309053420216520755",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309053606431035465",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309054071465967648",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309054714968539147",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309055531075239937",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309055558300729406",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309057657952538666",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309058085800771644",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309058867933745152",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309061873341304873",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309062206515839026",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063036509880361",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063092742918205",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063266517123085",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063638929248306",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063752569847830",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309064010364096545",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309064222025449512",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377741163091591299",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377741254871224341",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377743350903472292",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377744168922906646",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377747305712848936",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377748385477558423",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377750664427475016",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377751039272292475",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377751426041647255",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377751712776851486",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377752388735205609",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377752942584795136",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377753580127256719",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377755117755043981",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377755651660316702",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377757043636830240",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377758176706826400",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555037147436818584",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555037834212020287",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555038920587345994",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555043091931463811",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555043515732328491",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555044837248471043",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555045134322634806",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555045509595402331",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555047583997628479",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555047721604358178",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555048153752014931",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555048311847653418",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555048514046664705",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555048857635655691",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555049061575303180",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555049739110715403",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555050110650683434",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555051460935557121",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555051608788701337",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555053276913860689",
+    "https://discord.com/channels/1177270231513694249/1199169272149184703/1326216056938692639",
+    "https://discord.com/channels/1177270231513694249/1199169272149184703/1326650594982760669",
+    "https://discord.com/channels/1177270231513694249/1199169272149184703/1326928359992725565",
+    "https://discord.com/channels/1177270231513694249/1199169272149184703/1327264114896273502",
+    "https://discord.com/channels/1177270231513694249/1199169272149184703/1327643932968095859",
+    "https://discord.com/channels/1177270231513694249/1199169272149184703/1347719409694806066",
+    "https://discord.com/channels/1177270231513694249/1199169272149184703/1348483905132429446",
+    "https://discord.com/channels/1177270231513694249/1199169272149184703/1397298137596559471",
+    "https://discord.com/channels/1177270231513694249/1234475671045275658/1274082625019183125",
+    "https://discord.com/channels/1177270231513694249/1234475671045275658/1274087546107986046",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500358654614835323",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500359924180324372",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500361043627479233",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500362921815969822",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500364291688103977",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500372697069387917",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500376066005663775",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1547053423298482257",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266409789487976528",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266410991877357598",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266411327472009327",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266414288730456065",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266417047043313694",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266418089948483605",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266420132817932411",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266420544589271222",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266422019214409739",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266422173334114394",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266422447335280650",
+    "https://discord.com/channels/1177270231513694249/1250338434275348532/1266423540052132002",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1535775077486829579"
+  ]
+}

@@ -1,0 +1,35 @@
+# More characters and locations · 25 October 2026
+
+The owner asks for another group after the first character/location publication. Five existing people and four existing places receive the established continuous reading plan and fourteen targeted historical additions. No new identities or generic/joke NPC entries are created. Selected original quest scenes govern compatible RP, and unreviewed inherited syntheses retain their earlier evidence qualifications.
+
+| Record | Chapters | Focus |
+| --- | ---: | --- |
+| Draygar WarSmash | 5 | Reliance on companions inside the Citadel; Cala, the failed exchange with Death, Gartina, the forge and reputation. |
+| Krone | 6 | Early expeditions and humor, Draygar, the Wrath aftermath, family loss, dragons, Fein Uaill and unresolved absence. |
+| Lucido Spettoro | 5 | His first voyage and admitted inexperience, Jon's building apprenticeship, changing Rahu judgments, remembered journeys and refugee housing. |
+| Brianna | 5 | Druidic work, the siege crossing, a strained departure, trial, repeated death, Ghilsen and continued service. |
+| Papirak the Strange | 6 | The difficult teacher, Papirus, training and uncertain reliability, caches, different funeral memories and distributed inheritance. |
+| Tower of Gael | 7 | Sanctuary, Huoth, returns and grief, restoration, research, warnings, civilian homes and unfinished responsibilities. |
+| Silver Spire | 6 | Eovar and the original four-floor plan, public baths and families, staff and watch, private work, citizenship and unsettled dates. |
+| Library of Nuru | 5 | Spell copying, Nienna and Adelia's urgent exchange, research limits, shared preparation and the Veilguard welcome. |
+| Papirak's Mausoleum | 5 | Procession and landscape, burial, protection and suspicion, the memorial and remaining questions. |
+
+## A quest correction to Draygar's inherited account
+
+The earlier synthesis says Draygar is offered a hammer bargain, refuses it and later throws Wrath's sword away. The original quest establishes a different sequence: he picks up Wrath's sword (`1309053606431035465`), throws it at Death (`1309055558300729406`), proposes trading weapons (`1309061873341304873`), offers Cala's radiant hammer (`1309062206515839026`) and asks for Olokun (`1309063266517123085`). Death rejects objects for souls and leaves (`1309063638929248306`); Draygar acknowledges the failed attempt (`1309064222025449512`). The checked exchange supplies no accepted bargain or hammer transfer.
+
+The paragraph and heading, central-conflict fact, dek, matching brief sentence and achievement sentence are corrected. An open question now concerns the hammer's fuller history rather than treating this newly recovered exchange as wholly missing. One further paragraph replaces an asserted private failure motive with witnessed wounds, reliance, restraint and failed action. The complete before/after deltas, selected source receipts and preservation totals are retained in `content/reference/character-place-review-2026-10-25.json`. This correction does not rewrite other known bargains or turn the attempted trade into a success. A check of other public record bodies finds no corresponding false Draygar claim requiring a second correction.
+
+## Source scope and preservation
+
+The selected original main quest, Gael and Prima archives support the additions. All 107 unique newly listed receipt identities resolve in the correct native channel archives. Reading selected message content is distinct from checking receipt existence; this is not an exhaustive rereading of the whole archive or every inherited claim. No raw transcript, personal/OOC material, protected ancient explanation or unreleased identity enters Git.
+
+Lucido's port familiarity does not become prior sailing experience. His criticism of the market retains Farkur's explanation and material offer, alongside Lucido's impatience; his three-house report does not complete the settlement. Brianna's search finds no person to rescue from the bombarded house, and her cloud-form explanation remains her account of its capabilities. Her argument with Aravil is retained without making the party harmonious. Nienna's warning is attributed research, not an independently verified artifact identification or completed relief mission. Papirak's funeral fireball is a suggestion, not a witnessed casting. Camilla's failed staff inspection does not establish theft. Proposed wards and Hallowing remain distinct from completed burial. The Spire's construction, temporary watch and edited notice do not establish a single opening date or finished messenger network.
+
+All 77 original sections, their sources and meaningful historical coverage remain. Except for the four explicit Draygar body edits, original body text is retained verbatim. All 57 original facts remain represented, with only the one source-corrected Draygar fact changed. Original quotes, media, captions, maps, floor-plan controls, identities, relationships and routes remain. Combined bodies grow from 7,523 to 9,561 words. All 613 other records, complete world/timeline/map/directory/quotation data, browse previews, Gedankin and authenticated payload compare unchanged. Existing regional nesting remains: the Spire is within Eovar/Prima, the Library within the Tower/Gael, and the Mausoleum within Pristinia/Prima.
+
+## Verification and publication
+
+No runtime, stylesheet, historical data-model, authentication or workflow change is needed. Catalog276 retains deferred complete bodies and search; character-directory checks confirm light initial artwork, all 257 entries, bounded pages, filters and quiet browsing. Existing biography/region coverage expands to twenty-four people and eight places, full facts/evidence/old sections, legacy routes, focus/reload, nine widths and mobile positioning. All four original Silver Spire floor buttons still focus their complete source sections, its original full-size plan decodes, and the Tower's original Gael map opens. The ordinary expandable brief remains tested on St Anky as Papirak moves to continuous chapters.
+
+Local reader/search/retry/cancellation, directory, research, biography/place/map, complete-body calendar, fourteen-film, static identity/content, calendar arithmetic/display and preview-hash checks pass. Representative desktop/mobile screenshots are inspected. Separate preservation auditing verifies original coverage and unchanged unrelated public/private data. Build `7883a61e4ac02d29` retains 622 records and 573 complete public bodies, now 2,374 sections. Catalog276; app267/reader JS10/CSS6/visual JS7 unchanged. The existing cached Pages workflow runs the expanded gate in place, without a new installation, build or deployment stage. Publication follows standing owner authorization; hosted/live receipt follows successful verification.

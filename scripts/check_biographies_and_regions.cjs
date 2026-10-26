@@ -10,9 +10,9 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
   const go=async route=>{await page.goto(base+'#'+route);await page.waitForFunction(route=>byId.get(route.split('?')[0])?.bodyLoaded&&document.querySelector('#article-content').dataset.route==='#'+route,route);};
   const fits=async width=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits '+width);
   const picture=async file=>{await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:out+'/'+file});};
-  const newProfiles=['fenwick','scribonia','akarian','melian-starguard','herb','huoth','wren','eugene','arjahn','lady-severina','tarwen-silver-star','pristinia','eovar-harbor','shining-shores','larkhollow'];
-  const places=new Set(['pristinia','eovar-harbor','shining-shores','larkhollow']);
-  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6],['nienna',6],['gartina',7],['magnus',7],['saray',5],['adelia-hope',7],['fenwick',7],['scribonia',7],['akarian',6],['melian-starguard',5],['herb',5],['huoth',6],['wren',6],['eugene',6],['arjahn',7],['lady-severina',6],['tarwen-silver-star',4],['pristinia',6],['eovar-harbor',6],['shining-shores',5],['larkhollow',5]]){
+  const newProfiles=['fenwick','scribonia','akarian','melian-starguard','herb','huoth','wren','eugene','arjahn','lady-severina','tarwen-silver-star','pristinia','eovar-harbor','shining-shores','larkhollow','draygar-warsmash','krone','lucido','brianna','papirak','tower-of-gael','fenwicks-tower','library-of-nuru','papiraks-mausoleum'];
+  const places=new Set(['pristinia','eovar-harbor','shining-shores','larkhollow','tower-of-gael','fenwicks-tower','library-of-nuru','papiraks-mausoleum']);
+  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6],['nienna',6],['gartina',7],['magnus',7],['saray',5],['adelia-hope',7],['fenwick',7],['scribonia',7],['akarian',6],['melian-starguard',5],['herb',5],['huoth',6],['wren',6],['eugene',6],['arjahn',7],['lady-severina',6],['tarwen-silver-star',4],['pristinia',6],['eovar-harbor',6],['shining-shores',5],['larkhollow',5],['draygar-warsmash',5],['krone',6],['lucido',5],['brianna',5],['papirak',6],['tower-of-gael',7],['fenwicks-tower',6],['library-of-nuru',5],['papiraks-mausoleum',5]]){
    const source=originals(id),place=places.has(id);await go(id);
    assert.equal(await page.locator('.biography-navigation button').count(),count,id+' reading links');
    assert.equal(await page.locator('.biography-section').count(),count,id+' continuous chapters');
@@ -66,7 +66,17 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    if(id==='elenia'){await go('elenia?section=miracle');await page.locator('#miracle').scrollIntoViewIfNeeded();await picture('elenia-miracle-mobile.png');}
    await page.setViewportSize({width:1440,height:1000});
   }
-  for(const id of ['eovar-harbor','pristinia']){
+  await go('fenwicks-tower');
+  const floors=page.locator('nav[aria-label="Explore the tower’s floors"] button');
+  assert.equal(await floors.count(),4,'all original interior floor controls retained');
+  for(const section of ['spire-first-floor','spire-second-floor','spire-third-floor','spire-fourth-floor']){
+   await page.locator('nav[aria-label="Explore the tower’s floors"] [data-section="'+section+'"]').click();
+   assert.equal(await page.evaluate(()=>document.activeElement.id),section,'original floor control still focuses its full source section');
+  }
+  const plan=page.locator('.tower-floorplan a');
+  assert.equal(await plan.getAttribute('href'),'assets/locations/silver-spire-floorplan.jpg','original full-size interior plan retained');
+  await plan.locator('img').evaluate(image=>image.decode());
+  for(const id of ['eovar-harbor','pristinia','tower-of-gael']){
    await go(id);await page.locator('#article-content > .article-hero [data-open-map]').click();await page.locator('.map-heading h3').waitFor();assert.equal(await page.evaluate(()=>new URLSearchParams(location.hash.split('?')[1]).get('map')),originals(id).mapId,'place map opens at its original level');
    assert.equal(await page.locator('.biography-layout').count(),0,'place reading layout clears on entering atlas');
   }
@@ -99,6 +109,6 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    await go(id);await page.locator('.region-hub-actions>a').click();await page.locator('[data-timeline-region]').waitFor();assert.equal(await page.locator('[data-timeline-region]').inputValue(),hub.timelineRegion,'full timeline scoped to region');
   }
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);assert.deepEqual(errors,[]);
-  console.log('PASS nineteen continuous biographies and four detailed place histories; full facts, source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
+  console.log('PASS twenty-four continuous biographies and eight detailed place histories; full facts, source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1);});

@@ -160,7 +160,7 @@
     if(note)sourcePanel.querySelector('summary').after(note);
     appendices.reverse().forEach(appendix=>sourcePanel.before(appendix));
     const navigation=document.createElement('nav');navigation.className='biography-navigation';
-    navigation.setAttribute('aria-label',place?'Read this location history':'Read this biography');
+    navigation.setAttribute('aria-label',place?'Read this location history':article.category==='Factions'?'Read this faction history':'Read this biography');
     navigation.innerHTML=(plan||article.sections).map((section,index)=>`<button type="button" data-section="${esc(section.id)}"><span aria-hidden="true">${String(index+1).padStart(2,'0')}</span>${esc(section.title)}</button>`).join('');
     root.querySelector('.record-summary').after(navigation);
     // A place's map or original film is its first feature, ahead of facts and chapters.

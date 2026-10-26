@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "emerald-veil",
+  "title": "The Council of the Emerald Veil",
+  "category": "Factions",
+  "type": "Fein Uaill · knowledge, diplomacy and civic life",
+  "dek": "The Council behind libraries, careful briefings and ambitious arcane research, whose promise of safety repeatedly meets the risks of discovery and war.",
+  "tags": [
+    "The Council of the Emerald Veil",
+    "Fein Uaill",
+    "Zarathis"
+  ],
+  "facts": {
+    "Home": "Fein Uaill · Zarathis",
+    "Named leader": "Lord Aldamir Silvertaine",
+    "Public work": "Knowledge, diplomacy, civic provision and arcane research",
+    "Recorded connections": "Míriel; Olokun; Scribonia · Magnus receives its leadership nomination"
+  },
+  "protected": false,
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "emerald-veil-purpose",
+        "title": "The Council’s promise",
+        "sections": [
+          "emerald-veil-purpose"
+        ]
+      },
+      {
+        "id": "emerald-veil-civic-work",
+        "title": "A dam city and a tour of ordinary lives",
+        "sections": [
+          "emerald-veil-civic-work"
+        ]
+      },
+      {
+        "id": "emerald-veil-people",
+        "title": "Aldamir and Míriel are distinct public figures",
+        "sections": [
+          "emerald-veil-people"
+        ]
+      },
+      {
+        "id": "emerald-veil-void",
+        "title": "Research at the edge of what it knows",
+        "sections": [
+          "emerald-veil-void"
+        ]
+      },
+      {
+        "id": "emerald-veil-war",
+        "title": "Powerful Gates, incomplete maps",
+        "sections": [
+          "emerald-veil-war"
+        ]
+      },
+      {
+        "id": "emerald-veil-after-aria",
+        "title": "Grief, exclusion and a nomination",
+        "sections": [
+          "emerald-veil-after-aria"
+        ]
+      },
+      {
+        "id": "emerald-veil-limits",
+        "title": "Knowledge and its boundaries",
+        "sections": [
+          "emerald-veil-limits"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "body": "<p>The Emerald Veil’s knowledge lives in a city. Food, clothing, wealth, celebration and libraries are all part of the work Míriel describes. The same institution prepares a portal into the Void and opens Gates for an army. Its pursuit of a safe home runs through both quiet provision and decisions that place people in danger.</p><p class=\"exploration-links\"><a href=\"#fein-uaill-factions\">Compare the four factions →</a> · <a href=\"#factions\">All factions →</a> · <a href=\"#fein-uaill\">Fein Uaill →</a></p><h2 id=\"emerald-veil-purpose\">The Council’s promise</h2><p>The Council’s stated ideals are wisdom, diplomacy, conflict resolution and knowledge. Its leader is Lord Aldamir Silvertaine, portrayed as a diplomatic scholar and a cautious voice against challenging the gods. Its stated approach favors an honest attempt at a peaceful solution before violence, the recovery of history and the sharing of knowledge within the Council.</p><p>Its ambitions are also defensive: arcane understanding should make Fein Uaill secure, and separation from other planes is offered as a path to safety. That is an institutional aspiration, not proof that the island has achieved complete isolation or that every Council member avoids a fight. Míriel’s first welcome gives the aspiration everyday substance: the little things must work so that people can live well.</p><h2 id=\"emerald-veil-civic-work\">A dam city and a tour of ordinary lives</h2><p>The <a href=\"#titanwall-eryndor\">Titanwall</a> settlement regulates the great river so that fields and inhabited land can prosper. Its recorded civic description places it principally under Emerald Veil influence. Water management belongs beside libraries and negotiation in the Council’s public footprint.</p><p>In the Month of Moirah, Year 2, <a href=\"#miriel-emerald-veil\">Míriel</a> organizes a cultural tour through Olokun. She brings ordinary people from the different cohorts rather than a parade of high officials. Some visitors mistake this for a recruitment appointment. She is irritated: different expectations would have required different guides.</p><p>Her insistence on precise information is more than etiquette. Without it she cannot meet the visitors’ needs. She describes the factions as institutions that let people grow toward a common purpose, then sends the groups out to see gardens, stonework and ships. On their return she asks them to share what they learned. The Veil’s civic role includes making neighbors intelligible to one another.</p><h2 id=\"emerald-veil-people\">Aldamir and Míriel are distinct public figures</h2><p>Aldamir’s appearance at the leadership gathering confirms him as a public Emerald Veil speaker: wearing its heraldry, he names Magnus Niriin as the Council’s champion. The faction description and scene agree on his connection to the faction.</p><p>Míriel repeatedly organizes visitors, speaks in councils and directs arcane work. Her public authority is visible in those acts. They do not make her interchangeable with Aldamir or supply a complete division of their offices. Olokun’s description of her as the head of the Veil remains his description; the Council’s entire hierarchy cannot be reconstructed from a form of address.</p><p><a href=\"#olokun\">Olokun</a> and <a href=\"#scribonia\">Scribonia</a> bring very different talents and commitments to their association with the Council. Magnus’s later nomination crosses faction lines: being its champion at this gathering does not, by itself, erase his Silver Star history or prove a completed transfer of membership.</p><h2 id=\"emerald-veil-void\">Research at the edge of what it knows</h2><p>In the Month of Death, Year 2, a combined expedition gathers at an old fortress northeast of Zarathis. Silver Star and Emerald Veil scholars have worked on a small stable portal into the Void. Míriel arrives ink-stained and marked by arcane singes. Research has already left damage around the site; she says the Verdant Circle disapproves but works to heal the land.</p><p>The expedition seeks a possible source of immense power in the <a href=\"#fein-uaill?section=sea-of-dreams\">Sea of Dreams</a>. Míriel repeatedly qualifies the proposal. The researchers infer something from disturbances; they have not established the sought object’s existence, its nature or whether its power can be used. Aria wants them to find out.</p><p>Míriel supplies sending stones and stays to support the expedition from the portal side. These preparations demonstrate capability without making the unknown safe. The commitment to knowledge encounters a practical cost: the Council can open a way before it can answer every question about what lies beyond it.</p><h2 id=\"emerald-veil-war\">Powerful Gates, incomplete maps</h2><p>At the subsequent <a href=\"#war-council-death\">war council</a>, Míriel admits that travel through the Void is not the Veil’s specialty. Its people have largely tended their own shores. If given a destination, its strongest magi can open great Gates; the missing piece is knowing where the enemy is.</p><p>The distinction survives into the offensive. Míriel presents uncertain information about possible battlegrounds, then commands the archmages to create the Gates and send the legions through. The Council participates in war despite its stated preference for diplomacy. A faction’s ideals do not replace a record of the means it actually helps put into motion.</p><h2 id=\"emerald-veil-after-aria\">Grief, exclusion and a nomination</h2><p>After Talan kills Aria, Míriel proposes that the outsiders be exiled while Magnus remain. Her grief and anger enter the political discussion. This is a proposal voiced by Míriel; it is not an already enacted judgment against everyone she names.</p><p>At the later leadership gathering Aldamir nominates Magnus for the Emerald Veil. The Silver Star chooses Wren, the Radiant Flame chooses Arandiel, and the Verdant Circle chooses Lucent. The factions act as distinct institutions in a shared civic process. The nomination establishes an endorsement, not the final count or an office held by every supporter.</p><p>The subsequent <a href=\"#zarathis-campaign\">history of authority after Aria</a> follows the city’s arguments beyond these choices. No single nomination resolves the religious conflict, the accusations among survivors or the treatment of outsiders.</p><h2 id=\"emerald-veil-limits\">Knowledge and its boundaries</h2><p>The Council’s public record combines diplomacy, material provision, scholarship and military logistics. Míriel can arrange an ordinary tour and admit that her magi lack a destination. Such limits matter as much as the impressive spells.</p><p>The Council’s complete internal offices, the eventual fate of every research proposal and a single settled policy toward every god remain unestablished. A member’s opinion does not speak for the whole Council merely because it is delivered at a formal gathering. Its stated love of knowledge should invite questions rather than turn a hypothesis into an answer.</p>",
+  "sections": [
+    {
+      "id": "emerald-veil-purpose",
+      "title": "The Council’s promise",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Stated ideals, scenes & attributed accounts",
+        "summary": "The faction’s stated ideals are distinguished from actions and speakers’ claims. Quest-established events take precedence; a proposal or endorsement is not its completed outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1314226899693735986/1314233840537043034",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837233759387648"
+        ]
+      }
+    },
+    {
+      "id": "emerald-veil-civic-work",
+      "title": "A dam city and a tour of ordinary lives",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Stated ideals, scenes & attributed accounts",
+        "summary": "The faction’s stated ideals are distinguished from actions and speakers’ claims. Quest-established events take precedence; a proposal or endorsement is not its completed outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311747644879802489/1311747644879802489",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404618206882299995",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404619227843002529",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404621512014561280",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404623714707964059",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404660806708101281"
+        ]
+      }
+    },
+    {
+      "id": "emerald-veil-people",
+      "title": "Aldamir and Míriel are distinct public figures",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Stated ideals, scenes & attributed accounts",
+        "summary": "The faction’s stated ideals are distinguished from actions and speakers’ claims. Quest-established events take precedence; a proposal or endorsement is not its completed outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1314226899693735986/1314233840537043034",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404619227843002529",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445184684677136465"
+        ]
+      }
+    },
+    {
+      "id": "emerald-veil-void",
+      "title": "Research at the edge of what it knows",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "These original quest scenes establish the described actions. Opinions, theories and intentions remain attributed, and later outcomes are not inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424443466381004842",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445191540048043",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445908665241803",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424447934103032022",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424449615528333443",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424454950263586826"
+        ]
+      }
+    },
+    {
+      "id": "emerald-veil-war",
+      "title": "Powerful Gates, incomplete maps",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "These original quest scenes establish the described actions. Opinions, theories and intentions remain attributed, and later outcomes are not inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432062358649442405",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1436153957608194099"
+        ]
+      }
+    },
+    {
+      "id": "emerald-veil-after-aria",
+      "title": "Grief, exclusion and a nomination",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Recorded quest scenes",
+        "summary": "These original quest scenes establish the described actions. Opinions, theories and intentions remain attributed, and later outcomes are not inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442249334505869435",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445184684677136465",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445196473905057842"
+        ]
+      }
+    },
+    {
+      "id": "emerald-veil-limits",
+      "title": "Knowledge and its boundaries",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Stated ideals, scenes & attributed accounts",
+        "summary": "The faction’s stated ideals are distinguished from actions and speakers’ claims. Quest-established events take precedence; a proposal or endorsement is not its completed outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1314226899693735986/1314233840537043034",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424449615528333443",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432062358649442405",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404660806708101281"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1314226899693735986/1314233840537043034",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837233759387648",
+    "https://discord.com/channels/1177270231513694249/1311747644879802489/1311747644879802489",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404618206882299995",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404619227843002529",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404621512014561280",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404623714707964059",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404660806708101281",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445184684677136465",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424443466381004842",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445191540048043",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445908665241803",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424447934103032022",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424449615528333443",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424454950263586826",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432062358649442405",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1436153957608194099",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442249334505869435",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445196473905057842"
+  ]
+}

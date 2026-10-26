@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "verdant-circle",
+  "title": "The Verdant Circle",
+  "category": "Factions",
+  "type": "Fein Uaill · balance, cultivation and preservation",
+  "dek": "The keepers of grove and garden, whose work joins healing and cultivation to hard questions about intervention, research and the boundary of life.",
+  "tags": [
+    "The Verdant Circle",
+    "Fein Uaill",
+    "Zarathis"
+  ],
+  "facts": {
+    "Home": "Fein Uaill · Zarathis",
+    "Named leader": "Archdruid Thalindra Were-sage",
+    "Public work": "Land stewardship, healing and protection of living systems",
+    "Recorded connections": "Thalindra; Mîrwen; Tulaine; Eugene · Lucent is its nominee, not an established member"
+  },
+  "protected": false,
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "verdant-circle-purpose",
+        "title": "A living world worth keeping",
+        "sections": [
+          "verdant-circle-purpose"
+        ]
+      },
+      {
+        "id": "verdant-circle-everyday",
+        "title": "Apples, gardens and the built world",
+        "sections": [
+          "verdant-circle-everyday"
+        ]
+      },
+      {
+        "id": "verdant-circle-wilds",
+        "title": "The forest and the work requested there",
+        "sections": [
+          "verdant-circle-wilds"
+        ]
+      },
+      {
+        "id": "verdant-circle-war",
+        "title": "Healing damage made in pursuit of power",
+        "sections": [
+          "verdant-circle-war"
+        ]
+      },
+      {
+        "id": "verdant-circle-authority",
+        "title": "An authority other officials recognize",
+        "sections": [
+          "verdant-circle-authority"
+        ]
+      },
+      {
+        "id": "verdant-circle-nomination",
+        "title": "Thalindra’s gentler path—and Lucent’s distance",
+        "sections": [
+          "verdant-circle-nomination"
+        ]
+      },
+      {
+        "id": "verdant-circle-limits",
+        "title": "Wanting to join is not the same as being welcomed",
+        "sections": [
+          "verdant-circle-limits"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "body": "<p>The Verdant Circle tends the conditions that let other people flourish. Its public work includes gardens, healing salves, protected wild places and advice to the builders of a dam. Its members can appear quiet beside Zarathis’s warriors, but the institution has its own authority and does not simply hand it over to a military title.</p><p class=\"exploration-links\"><a href=\"#fein-uaill-factions\">Compare the four factions →</a> · <a href=\"#factions\">All factions →</a> · <a href=\"#fein-uaill\">Fein Uaill →</a></p><h2 id=\"verdant-circle-purpose\">A living world worth keeping</h2><p>The Circle’s stated ideals are balance, harmony, preservation and reverence for nature. Archdruid Thalindra Were-sage is its named leader. Healing, ecological care and the relationship between settlements and their surroundings belong to the same work.</p><p>It opposes exploitation and corruption of nature, and treats disturbances of life, death and the boundaries between worlds as serious concerns. This is a stated code, not permission to invent a uniform verdict on every spell or every member’s conduct. Whether a particular intervention preserves balance remains a question people argue about.</p><p>At the first welcome, Mîrwen says the Circle looks after the land so that everyone may enjoy its fruits and so it will endure after the present people are gone. The aim is stewardship across generations. The people speaking for that aim retain their own prejudices and limits; Mîrwen’s accompanying claims about gods and heresy are his claims, not an objective explanation of all history.</p><h2 id=\"verdant-circle-everyday\">Apples, gardens and the built world</h2><p>Mîrwen sits beside <a href=\"#eugene\">Eugene</a>, offers him an apple and shares the quiet beneath a ceiling he helped design to feel both sheltered and outdoors. A concern for nature can live within an inhabited room. It is not limited to an untouched forest.</p><p>Tulaine’s garden tour leaves <a href=\"#gartina\">Gartina</a> with harder questions. In her account afterward, she wants to know how the gardener decides when to intervene: what makes blight part of nature, and when does it become imbalance? She finds Tulaine’s explanation through love and parenthood unhelpful. The disagreement records different ways of caring rather than proving that one woman lacks care.</p><p>At the mountain dam, Fenwae reports consulting the Circle about keeping the river alive while collecting drinking water. Captain Miriel separately describes the use of Circle-made salves on injured soldiers. Cultivation, construction and healing meet in these practical exchanges. The Circle’s concerns do not amount to an observed ban on all building or all human alteration of a landscape.</p><h2 id=\"verdant-circle-wilds\">The forest and the work requested there</h2><p>The Feytouched Forest is described as Fein Uaill’s true wilds, with properties of the Feywild, and as sacred to the Circle. Its importance is ecological and cultural, not simply a resource for the city to claim.</p><p>A request for adventurers to investigate strange creatures presents them as an affront to the natural order. That establishes the Circle asking for help and explains the work as its representatives frame it. The notice alone cannot establish that every creature was found or that the forest was permanently cleansed.</p><h2 id=\"verdant-circle-war\">Healing damage made in pursuit of power</h2><p>The readiness exercise uses ships protected with a substance Arandiel credits to the Circle. Its contribution enables a military test without making it another version of the Silver Star or the Radiant Flame.</p><p>At the later portal expedition, the Circle is noticeably less represented than the other factions. Míriel explains that it generally disapproves of the research but works to heal the affected land. This is an important limit on apparent cooperation: helping repair a wound does not mean approving the act that made it.</p><p>Eugene is present among the few Circle members and takes the opportunity to represent it. His action is his own; the scene does not name him the head of the institution. The narrator’s later messenger addressing him as a Circle lord corroborates his connection.</p><h2 id=\"verdant-circle-authority\">An authority other officials recognize</h2><p>When Magnus asks Tarwen about access to Fein’s Tree Shard, Tarwen says permission is not his to give. He identifies the Verdant Circle as responsible and refuses to cross an institutional boundary he respects. Míriel likewise describes the western great Tree as cultivated and run by the Circle.</p><p>These statements establish a recognized area of responsibility. They do not disclose the Tree’s protected secrets, grant a visitor unrestricted access or explain every rite practiced there. Nor does the faction description’s mention of a leader establish that one person personally decides every matter of land and life.</p><h2 id=\"verdant-circle-nomination\">Thalindra’s gentler path—and Lucent’s distance</h2><p>At the leadership gathering after Aria’s death, <a href=\"#discovery-284\">Thalindra</a> comes forward and proposes what she calls a gentler path. The Circle nominates Lady Lucent. Its intervention belongs beside the military and scholarly factions’ nominations, even though its preferred manner of leadership differs.</p><p>Lucent later explicitly denies being a member of the Circle. She claims close, even familial connections, but describes herself as someone others want knowledge from without wanting her. That account should remain hers. A nomination demonstrates whom the Circle supported in that contest; it does not prove the nominee belonged to it or reveal her ancestry.</p><h2 id=\"verdant-circle-limits\">Wanting to join is not the same as being welcomed</h2><p>Gartina repeatedly tries to make contact. By the Month of Physisia, Year 3, she says she has been checking the flower beds after being told to listen to the flowers, without receiving an answer. Her wish to join and the labor she wants to do for the land are real parts of her story. A completed initiation is not established by that wish.</p><p>The Circle’s public record is consequently a mixture of visible work, recognized boundaries and frustrating access. It can help sustain a society while withholding answers outsiders want. Its complete hierarchy, all its internal disagreements and the ultimate outcome of every request remain open.</p>",
+  "sections": [
+    {
+      "id": "verdant-circle-purpose",
+      "title": "A living world worth keeping",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Stated ideals, scenes & attributed accounts",
+        "summary": "The faction’s stated ideals are distinguished from actions and speakers’ claims. Quest-established events take precedence; a proposal or endorsement is not its completed outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1314226899693735986/1314370929576509501",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837808907522179"
+        ]
+      }
+    },
+    {
+      "id": "verdant-circle-everyday",
+      "title": "Apples, gardens and the built world",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Stated ideals, scenes & attributed accounts",
+        "summary": "The faction’s stated ideals are distinguished from actions and speakers’ claims. Quest-established events take precedence; a proposal or endorsement is not its completed outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394846191778529396",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847497045938357",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404663902805032980",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404633917255979151",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1352830250496557228"
+        ]
+      }
+    },
+    {
+      "id": "verdant-circle-wilds",
+      "title": "The forest and the work requested there",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Stated ideals, scenes & attributed accounts",
+        "summary": "The faction’s stated ideals are distinguished from actions and speakers’ claims. Quest-established events take precedence; a proposal or endorsement is not its completed outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311793270799597628/1311793270799597628",
+          "https://discord.com/channels/1177270231513694249/1311793270799597628/1363917024777998628"
+        ]
+      }
+    },
+    {
+      "id": "verdant-circle-war",
+      "title": "Healing damage made in pursuit of power",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & compatible Fein Uaill account",
+        "summary": "These original quest scenes establish the described actions. Opinions, theories and intentions remain attributed, and later outcomes are not inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1414777618913558650",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424443466381004842",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445908665241803",
+          "https://discord.com/channels/1177270231513694249/1311746435460366377/1417717193688485978",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424444015419326604"
+        ]
+      }
+    },
+    {
+      "id": "verdant-circle-authority",
+      "title": "An authority other officials recognize",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Stated ideals, scenes & attributed accounts",
+        "summary": "The faction’s stated ideals are distinguished from actions and speakers’ claims. Quest-established events take precedence; a proposal or endorsement is not its completed outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1435711465335165058",
+          "https://discord.com/channels/1177270231513694249/1311746435460366377/1417717193688485978",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010"
+        ]
+      }
+    },
+    {
+      "id": "verdant-circle-nomination",
+      "title": "Thalindra’s gentler path—and Lucent’s distance",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Stated ideals, scenes & attributed accounts",
+        "summary": "The faction’s stated ideals are distinguished from actions and speakers’ claims. Quest-established events take precedence; a proposal or endorsement is not its completed outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487297540087877762"
+        ]
+      }
+    },
+    {
+      "id": "verdant-circle-limits",
+      "title": "Wanting to join is not the same as being welcomed",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Attributed statements & compatible RP",
+        "summary": "The described statements and personal encounters retain their speakers and limits. They do not override established quest outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311776046554677291/1508941880501604432",
+          "https://discord.com/channels/1177270231513694249/1314226899693735986/1314370929576509501"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1314226899693735986/1314370929576509501",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837808907522179",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394846191778529396",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847497045938357",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404663902805032980",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404633917255979151",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1352830250496557228",
+    "https://discord.com/channels/1177270231513694249/1311793270799597628/1311793270799597628",
+    "https://discord.com/channels/1177270231513694249/1311793270799597628/1363917024777998628",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1414777618913558650",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424443466381004842",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445908665241803",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1435711465335165058",
+    "https://discord.com/channels/1177270231513694249/1311746435460366377/1417717193688485978",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487297540087877762",
+    "https://discord.com/channels/1177270231513694249/1311776046554677291/1508941880501604432",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424444015419326604"
+  ]
+}

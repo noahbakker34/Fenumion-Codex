@@ -10,9 +10,9 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
   const go=async route=>{await page.goto(base+'#'+route);await page.waitForFunction(route=>byId.get(route.split('?')[0])?.bodyLoaded&&document.querySelector('#article-content').dataset.route==='#'+route,route);};
   const fits=async width=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'page fits '+width);
   const picture=async file=>{await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:out+'/'+file});};
-  const newProfiles=['fenwick','scribonia','akarian','melian-starguard','herb','huoth','wren','eugene','arjahn','lady-severina','tarwen-silver-star','pristinia','eovar-harbor','shining-shores','larkhollow','draygar-warsmash','krone','lucido','brianna','papirak','tower-of-gael','fenwicks-tower','library-of-nuru','papiraks-mausoleum','dale','vaemyr','ithilrune','nymera','vessalia','common-man','last-grove','skylight-refuge','luminar-spires'];
+  const newProfiles=['fenwick','scribonia','akarian','melian-starguard','herb','huoth','wren','eugene','arjahn','lady-severina','tarwen-silver-star','pristinia','eovar-harbor','shining-shores','larkhollow','draygar-warsmash','krone','lucido','brianna','papirak','tower-of-gael','fenwicks-tower','library-of-nuru','papiraks-mausoleum','dale','vaemyr','ithilrune','nymera','vessalia','common-man','last-grove','skylight-refuge','luminar-spires','silver-star','emerald-veil','radiant-flame','verdant-circle','fein-uaill-factions'];
   const places=new Set(['pristinia','eovar-harbor','shining-shores','larkhollow','tower-of-gael','fenwicks-tower','library-of-nuru','papiraks-mausoleum','common-man','last-grove','skylight-refuge','luminar-spires']);
-  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6],['nienna',6],['gartina',7],['magnus',7],['saray',5],['adelia-hope',7],['fenwick',7],['scribonia',7],['akarian',6],['melian-starguard',5],['herb',5],['huoth',6],['wren',6],['eugene',6],['arjahn',7],['lady-severina',6],['tarwen-silver-star',4],['pristinia',6],['eovar-harbor',6],['shining-shores',5],['larkhollow',5],['draygar-warsmash',5],['krone',6],['lucido',5],['brianna',5],['papirak',6],['tower-of-gael',7],['fenwicks-tower',6],['library-of-nuru',5],['papiraks-mausoleum',5],['dale',7],['vaemyr',7],['ithilrune',7],['nymera',6],['vessalia',7],['common-man',6],['last-grove',6],['skylight-refuge',7],['luminar-spires',6]]){
+  for(const [id,count] of [['olokun',7],['elenia',7],['aria-pride',6],['nienna',6],['gartina',7],['magnus',7],['saray',5],['adelia-hope',7],['fenwick',7],['scribonia',7],['akarian',6],['melian-starguard',5],['herb',5],['huoth',6],['wren',6],['eugene',6],['arjahn',7],['lady-severina',6],['tarwen-silver-star',4],['pristinia',6],['eovar-harbor',6],['shining-shores',5],['larkhollow',5],['draygar-warsmash',5],['krone',6],['lucido',5],['brianna',5],['papirak',6],['tower-of-gael',7],['fenwicks-tower',6],['library-of-nuru',5],['papiraks-mausoleum',5],['dale',7],['vaemyr',7],['ithilrune',7],['nymera',6],['vessalia',7],['common-man',6],['last-grove',6],['skylight-refuge',7],['luminar-spires',6],['silver-star',7],['emerald-veil',7],['radiant-flame',7],['verdant-circle',7],['fein-uaill-factions',5]]){
    const source=originals(id),place=places.has(id);await go(id);
    assert.equal(await page.locator('.biography-navigation button').count(),count,id+' reading links');
    assert.equal(await page.locator('.biography-section').count(),count,id+' continuous chapters');
@@ -31,6 +31,7 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
     assert(await portrait.evaluate(video=>video.paused&&!video.querySelector('source')?.hasAttribute('src')),'reduced motion does not load the animation');
    await portrait.evaluate(async video=>{if(video.poster){const image=new Image();image.src=video.poster;await image.decode();}});
    }else if(source.image)await page.locator(place?'#article-content > .article-hero img':'.chronicle-person-portrait img').evaluate(image=>image.decode());
+   if(source.category==='Factions')assert.equal(await page.locator('.biography-navigation').getAttribute('aria-label'),'Read this faction history');
    if(place){
     assert.equal(await page.locator('.biography-navigation').getAttribute('aria-label'),'Read this location history');
     if(source.image)assert.equal(await page.locator('#article-content > .article-header + .article-hero').count(),1,'original place map/film leads the page');
@@ -109,7 +110,19 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    await page.locator('.region-hub-actions [data-open-map]').click();await page.locator('.map-heading h3').waitFor();assert.equal(await page.evaluate(()=>new URLSearchParams(location.hash.split('?')[1]).get('map')),hub.mapId,'map opens at the regional level');assert.equal(await page.locator('#article-content').evaluate(el=>el.classList.contains('region-hub-layout')),false,'hub layout does not carry into the atlas');
    await go(id);await page.locator('.region-hub-actions>a').click();await page.locator('[data-timeline-region]').waitFor();assert.equal(await page.locator('[data-timeline-region]').inputValue(),hub.timelineRegion,'full timeline scoped to region');
   }
+  await go('factions');
+  assert.equal(await page.locator('#faction-records .index-card').count(),10,'six established factions and four Fein Uaill factions');
+  await page.locator('#article-content a[href="#fein-uaill-factions"]').click();
+  await page.locator('#fein-factions-choose').waitFor();
+  for(const id of ['silver-star','emerald-veil','radiant-flame','verdant-circle'])assert.equal(await page.locator('#fein-factions-choose').locator('..').locator('a[href="#'+id+'"]').count(),1,'direct full faction history: '+id);
+  await go('factions');await page.locator('#faction-query').fill('Fein Uaill');assert.equal(await page.locator('#faction-records .index-card').count(),4);
+  for(const [needle,id] of [['Silver Star','silver-star'],['Emerald Veil','emerald-veil'],['Radiant Dawn','radiant-flame'],['Verdant Circle','verdant-circle']]){
+   await page.locator('#faction-query').fill(needle);assert.equal(await page.locator('#faction-records .index-card').count(),1);
+   await page.locator('#faction-records [data-article="'+id+'"]').click();await page.locator('.biography-navigation').waitFor();assert.equal(await page.locator('#article-content').getAttribute('data-route'),'#'+id);
+   const body=await page.locator('.article-body').innerText();assert(!/Reputation Rewards|Rank [1-7]|[+]\d|\d+%|mechanical (?:counter|reward)/i.test(body),'faction history excludes the reward ladder');await go('factions');
+  }
+  await go('fein-uaill');assert.equal(await page.locator('.region-journey-grid a[href="#fein-uaill-factions"]').count(),1,'Fein hub links directly to the guide');
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);assert.deepEqual(errors,[]);
-  console.log('PASS twenty-nine continuous biographies and twelve detailed place histories; full facts, source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
+  console.log('PASS twenty-nine continuous biographies, twelve detailed place histories and five faction histories; four faction directory routes, search and regional guide; full facts, source/evidence and legacy destinations; named relationships; five regional hubs; nested places and shared histories; region maps/timelines; dialogs, focus/reload and nine widths; protected boundaries');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1);});

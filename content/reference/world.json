@@ -24304,6 +24304,46 @@
         "Timeline",
         "Event stories"
       ]
+    ],
+    [
+      "silver-star",
+      [
+        "Factions",
+        "Fein Uaill",
+        "The Order of the Silver Star"
+      ]
+    ],
+    [
+      "emerald-veil",
+      [
+        "Factions",
+        "Fein Uaill",
+        "The Council of the Emerald Veil"
+      ]
+    ],
+    [
+      "radiant-flame",
+      [
+        "Factions",
+        "Fein Uaill",
+        "The Legion of the Radiant Flame"
+      ]
+    ],
+    [
+      "verdant-circle",
+      [
+        "Factions",
+        "Fein Uaill",
+        "The Verdant Circle"
+      ]
+    ],
+    [
+      "fein-uaill-factions",
+      [
+        "Factions",
+        "Fein Uaill",
+        "The Four Factions of Fein Uaill"
+      ]
     ]
   ],
   "subchannelMap": {
@@ -33225,6 +33265,22 @@
     {
       "label": "Hellknight Order of Pristinia",
       "article": "hellknight-order"
+    },
+    {
+      "label": "The Order of the Silver Star",
+      "article": "silver-star"
+    },
+    {
+      "label": "The Council of the Emerald Veil",
+      "article": "emerald-veil"
+    },
+    {
+      "label": "The Legion of the Radiant Flame",
+      "article": "radiant-flame"
+    },
+    {
+      "label": "The Verdant Circle",
+      "article": "verdant-circle"
     }
   ],
   "npcDiscoveries": {
@@ -51038,7 +51094,12 @@
     "gate-supply-exchange",
     "rebuilding-prima-fein",
     "war-for-pristinia",
-    "event-chronicles"
+    "event-chronicles",
+    "silver-star",
+    "emerald-veil",
+    "radiant-flame",
+    "verdant-circle",
+    "fein-uaill-factions"
   ],
   "timelineRegions": [
     {

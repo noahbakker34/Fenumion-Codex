@@ -15,7 +15,7 @@
   "sources": [
     "Faction directory · linked Ale-Chemy Knights, Veilguard, Vanguard and cultural records · #ale-chemy-knights"
   ],
-  "body": "<div class=\"world-directory\"><label class=\"world-directory-search\">Search factions<input type=\"search\" id=\"faction-query\" placeholder=\"Name, purpose, or story…\"></label><p class=\"browser-summary\" id=\"faction-count\" role=\"status\"></p><div class=\"browser-grid\" id=\"faction-records\"></div></div>",
+  "body": "<p>Explore the institutions, alliances and companies shaping Fenumion.</p><p class=\"exploration-links\"><a href=\"#fein-uaill-factions\">The four factions of Fein Uaill: compare their ideals, people and histories →</a></p><div class=\"world-directory\"><label class=\"world-directory-search\">Search factions<input type=\"search\" id=\"faction-query\" placeholder=\"Name, purpose, or story…\"></label><p class=\"browser-summary\" id=\"faction-count\" role=\"status\"></p><div class=\"browser-grid\" id=\"faction-records\"></div></div>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [],

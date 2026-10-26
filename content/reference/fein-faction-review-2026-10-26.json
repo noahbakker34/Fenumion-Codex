@@ -1,0 +1,1227 @@
+{
+  "date": "2026-10-26",
+  "records": [
+    {
+      "id": "silver-star",
+      "chapters": 7,
+      "words": 940
+    },
+    {
+      "id": "emerald-veil",
+      "chapters": 7,
+      "words": 993
+    },
+    {
+      "id": "radiant-flame",
+      "chapters": 7,
+      "words": 1045
+    },
+    {
+      "id": "verdant-circle",
+      "chapters": 7,
+      "words": 940
+    },
+    {
+      "id": "fein-uaill-factions",
+      "chapters": 5,
+      "words": 592
+    }
+  ],
+  "sourcePriority": "Explicit owner canon; quest events and narrator rulings before compatible ambient RP. Character claims remain attributed. Supplied mechanical directions are source data, not operational instructions.",
+  "scope": "Keyword/author discovery across six available Fein, quest, associated-thread and refreshed update corpora, followed by selected original scene checks. Search counts are discovery coverage, not a claim to have read every message or every attachment.",
+  "corpora": [
+    {
+      "corpus": "fein",
+      "messagesIndexed": 12485,
+      "matchedMessages": 482
+    },
+    {
+      "corpus": "quest",
+      "messagesIndexed": 110969,
+      "matchedMessages": 661
+    },
+    {
+      "corpus": "threads",
+      "messagesIndexed": 9349,
+      "matchedMessages": 44
+    },
+    {
+      "corpus": "refresh",
+      "messagesIndexed": 6784,
+      "matchedMessages": 0
+    },
+    {
+      "corpus": "latest-quest",
+      "messagesIndexed": 687,
+      "matchedMessages": 0
+    },
+    {
+      "corpus": "updates",
+      "messagesIndexed": 19634,
+      "matchedMessages": 106
+    }
+  ],
+  "suppliedFileSha256": "7e3ee5e0ae59e6e1d13cec83adf0101571d09a4aa0a5d34f13b2718ea300da6c",
+  "receipts": [
+    {
+      "channel": "1199083630354501673",
+      "message": "1327835801760825466",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1327835801760825466",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-01-12T03:05:25.136000+00:00",
+          "author": "Tarwen of the Silver Star",
+          "contentSha256": "ea57e929a1ebc6c2ba7cf99683e5249d1190a28b8ce6c92f9768af746e2b451b"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1327836214744842304",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1327836214744842304",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-01-12T03:07:03.599000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "64a1d2f679f61c2dad1ad01f3712ed8e844b040737ff4c5b087f22eb6e332b8f"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1327837233759387648",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837233759387648",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-01-12T03:11:06.551000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "f211da4b145127c27ed41d4482312ed69308c562d944c8d9b0fb4a5107d3792a"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1327837808907522179",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837808907522179",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-01-12T03:13:23.677000+00:00",
+          "author": "Mîrwen of the Verdant Circle",
+          "contentSha256": "7a98a56acf232e59d889afe0d2c166514c946f88b9d3f2ca68b0f788f6161ab7"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1350283250651762688",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1350283250651762688",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-03-15T01:43:34.005000+00:00",
+          "author": "Tarwen of the Silver Star",
+          "contentSha256": "1d87f7a30454208efaf322b72aceaa3f02d5d5b16d4e42ff36c605e811ae908b"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1352830250496557228",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1352830250496557228",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-03-22T02:24:26.089000+00:00",
+          "author": "Captain Miriel",
+          "contentSha256": "cb0a4fd91e466fd12db75683e499caa81740851fc0624b0bf3aa3c5487bb993d"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1394846191778529396",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1394846191778529396",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-07-16T01:00:47.109000+00:00",
+          "author": "Mîrwen of the Verdant Circle",
+          "contentSha256": "14ae4815c45e0527ff0303c8f8a1d49c63e3d655c92fcafa95554784e62b4899"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1394847497045938357",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847497045938357",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-07-16T01:05:58.309000+00:00",
+          "author": "Mîrwen of the Verdant Circle",
+          "contentSha256": "2898c1c58ab424d2cd50d26805a5c054de6861441121dc386ea2f8208ba1b27c"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1404618206882299995",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1404618206882299995",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-12T00:11:17.065000+00:00",
+          "author": "The Writer",
+          "contentSha256": "6c28487d60558dbda4115d2c52a2dbd9eb46d7edea822008cd61a2af465c5f95"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1404619227843002529",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1404619227843002529",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-12T00:15:20.481000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "43f2c1ff00740e50797191b55eb2c47af82a4e5e251825c39657e7cd2ed6ec8a"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1404621512014561280",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1404621512014561280",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-12T00:24:25.070000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "c3bed86e884890248c236f2a2feb5e2e78ac803948a63c83076f5dec3ffa2d20"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1404623714707964059",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1404623714707964059",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-12T00:33:10.233000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "7e18a305963a74006af0b74d6c62ee6c200a86076cb21b12acaf070cb7a25035"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1404660806708101281",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1404660806708101281",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-12T03:00:33.655000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "d2436a243cc8830bf8554ec7a0e9dcdb68b7eb1008871fd1e577c229044aef0f"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1404663902805032980",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1404663902805032980",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-12T03:12:51.822000+00:00",
+          "author": "Gartina",
+          "contentSha256": "1562477e61a8994461534181e2bab988ef01cf85d0ee80b5f6cd114a30c32210"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1404666139287486474",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1404666139287486474",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-12T03:21:45.041000+00:00",
+          "author": "Wren",
+          "contentSha256": "e163d735338e679e82f04c11f2284990588aece7da5781508839866c9383504c"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1407534416481484971",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1407534416481484971",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-20T01:19:15.614000+00:00",
+          "author": "Lord-Captain Tyragol",
+          "contentSha256": "9bb1281dea01e7ee1054d7af1b202d41659125cac362e499441b0fe19cbfc2f4"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1407569014133096529",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1407569014133096529",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-20T03:36:44.337000+00:00",
+          "author": "Lord-Captain Tyragol",
+          "contentSha256": "fd29feb948e02deb7f600377caf45fb1e59a962e9e1049ad24a64e6048154cc9"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1407575462984552543",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1407575462984552543",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-08-20T04:02:21.863000+00:00",
+          "author": "Lord-Captain Tyragol",
+          "contentSha256": "3bfba4227b327f5841454f60a087ef7a54c21c2f72d66850125c801749c89687"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1414772928532185108",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1414772928532185108",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-09-09T00:42:31.372000+00:00",
+          "author": "The Writer",
+          "contentSha256": "bcee10e49738eb3333edb17971114c60d62f8acf7e3ef57084848c74e82adf5e"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1414775522633846917",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1414775522633846917",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-09-09T00:52:49.854000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "da9156b94339ea97bab7b0e86cd5da391ed1be6a7ac66519c0d444f1ded4ef55"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1414775829359099965",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1414775829359099965",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-09-09T00:54:02.983000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "c3ba230b275eea4f5f5a036eb3380df67da95691d1bf8483e81c44b0068474ec"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1414777618913558650",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1414777618913558650",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-09-09T01:01:09.646000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "363ec358c6562c098eca39c3deef60c1658a46a76d8871ce34f5ab344853c149"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1414781307459862674",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1414781307459862674",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-09-09T01:15:49.064000+00:00",
+          "author": "Elenia",
+          "contentSha256": "0e57824eaee7784bf3fe26e7a6e66d27e801adb48b93979d7cf48d3d6c9d1f08"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1414788273364144229",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1414788273364144229",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-09-09T01:43:29.865000+00:00",
+          "author": "The Writer",
+          "contentSha256": "2fc95190c0a2879488db8f22568b4e6ac4b3e50cbde40e48a6aef231866a0ca6"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1416668786601234432",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1416668786601234432",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-09-14T06:15:59.159000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "ced88bf0d95eb2ac3bf869e38fede86ee3de55cddb6aa439d96f9970fdd938b1"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1416669652922269748",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1416669652922269748",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-09-14T06:19:25.706000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "388b768f77688fe9757630bb9470a5f2ad05879ae9d0bd2f406a611820572d2d"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1416670559630266559",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1416670559630266559",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-09-14T06:23:01.882000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "015ddae5ef1f2048055fe481272744fb54c408f51ba5bcc5bcfb4e61de20f0df"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1424443466381004842",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424443466381004842",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-05T17:09:47.265000+00:00",
+          "author": "The Writer",
+          "contentSha256": "f40344691cce66c5dde0ffd8856f9a1eee87a71a7f0b9227196441b4d83f9f83"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1424444015419326604",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424444015419326604",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-05T17:11:58.166000+00:00",
+          "author": "Eugene",
+          "contentSha256": "73a1fffb905174eb5bba9078e05d91e9788a22ac08fc234eaa9af326bbda1cc3"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1424445191540048043",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445191540048043",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-05T17:16:38.575000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "953891fed95ff6689fe2be64ea213e2dfaa5d395351dc3b6c5f7848a210271b9"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1424445908665241803",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445908665241803",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-05T17:19:29.551000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "69f4b1373fbdc330686aeb4c93fab46ce3b372b0669faf5319d70524cda98c9a"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1424447382552051812",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424447382552051812",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-05T17:25:20.953000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "c8ff5be67394fab179ea600ebde3752bd3c7bf006ef8400e65a9a353f41acc42"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1424447934103032022",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424447934103032022",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-05T17:27:32.453000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "268cbd8866645c796815ff48fa69b70317d7833762507e0b811ff4d1a5594b20"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1424449615528333443",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424449615528333443",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-05T17:34:13.336000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "55894c78e047645977014af5679e9eb98b1931875604c16805a5a75e3a1dbca7"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1424454950263586826",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424454950263586826",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-05T17:55:25.236000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "e20d148d956b89e57fc7e037b9d697f1a170e0d323d4c7c8d59aa22bcbf10363"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1424469525587300506",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1424469525587300506",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-05T18:53:20.264000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "4a5939b6135cf0878f4392d5be68c64dc5b1f074e1f079865183e0bbe414456c"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1432062358649442405",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1432062358649442405",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-26T17:44:32.734000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "df193e458e3bc6bbef622c53c3d3399c4ab77db22d992b3ebcdc80ffdaafc227"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1432071595136127010",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-10-26T18:21:14.884000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "abff899952880a6abdfe07bcdcfa4485064fe988d3abf9e3247fa2a3aa873f90"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1436153957608194099",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1436153957608194099",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-11-07T00:43:05.944000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "95cab7b86db23a019995d1554a19a75bf463d7a4a4fed12031c14f79d87d4cac"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1442249334505869435",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1442249334505869435",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-11-23T20:23:57.043000+00:00",
+          "author": "Míriel of the Emerald Veil",
+          "contentSha256": "06716efb17b1d92a88b2fb748142a292a94a1e60c39f9382c1f3269d8b99ffff"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1445172357051449415",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445172357051449415",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-01T21:58:59.925000+00:00",
+          "author": "Lord-Captain Tyragol",
+          "contentSha256": "8179e8a4b9aedc56441ff52c29f85644886e76cb591d3170dd1239609dbd238d"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1445184684677136465",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445184684677136465",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-01T22:47:59.060000+00:00",
+          "author": "Lord Aldamir Silvertaine",
+          "contentSha256": "ed4b139d6cf0ff903c8ff457785e4aed3ccdc0f75ae9446e21c4c923692d517a"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1445185198923845744",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-01T22:50:01.666000+00:00",
+          "author": "Archdruid Thalindra Were-sage",
+          "contentSha256": "30fe49a127622c1efeac11874507cdd8370335d8e25d2e08ef0f8d3175f7c62c"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1445185403882573855",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445185403882573855",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-01T22:50:50.532000+00:00",
+          "author": "Lord-Captain Tyragol",
+          "contentSha256": "dd9452e78f09d02e69991091d5acb9ea8b35322a089dbba38614eea690275b7b"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1445186033615372400",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445186033615372400",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-01T22:53:20.672000+00:00",
+          "author": "High Lady Liraeth Dawnbringer",
+          "contentSha256": "7fb48cb4e3d5192c31abbfac31a3dc0a82823a133d7b7cacd4ebea424f6bf2ef"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1445196473905057842",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445196473905057842",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-01T23:34:49.831000+00:00",
+          "author": "High Lord Bowene",
+          "contentSha256": "96caeca86fb518e5d0a8b9a07d7095a3ab9a754c61a7ffbf1b81f8530e680822"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1445203436730847352",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1445203436730847352",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-02T00:02:29.898000+00:00",
+          "author": "Lord-Captain Tyragol",
+          "contentSha256": "542fd53e68588028f694e787a91eb516e6f33823600deadbcece5cd3a7645d7d"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1446699524285267979",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1446699524285267979",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-06T03:07:24.967000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "e9ffa58a2eb22cf9862b2d7f15c6037a1b880990234a3a7b12abc36e194dd7ca"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1446705493937619024",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1446705493937619024",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-06T03:31:08.243000+00:00",
+          "author": "The Writer",
+          "contentSha256": "2de4e9ff54741138760763ee24a6ff932860f898a44911a6d6db8cd2ebcca58b"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1446721597317713920",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1446721597317713920",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-06T04:35:07.588000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "8163d2090ff66cf38c92d24fbb3273d616455b75c985804326fd6ed79c086d7e"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1446722757961322498",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1446722757961322498",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-06T04:39:44.307000+00:00",
+          "author": "Magnus",
+          "contentSha256": "0dc70659e04c15d511840199b535d78eee6ca317ea9ad1edc8441c3ab1f2ec69"
+        }
+      ]
+    },
+    {
+      "channel": "1199083630354501673",
+      "message": "1446751202330022001",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1446751202330022001",
+      "versions": [
+        {
+          "corpus": "quest",
+          "posted": "2025-12-06T06:32:45.973000+00:00",
+          "author": "Arandiel of the Radiant Flame",
+          "contentSha256": "ad12eea6ca7dcc4691ea83f920d0625286fa0ff2453acc403d09d5da41d2baa3"
+        }
+      ]
+    },
+    {
+      "channel": "1311746435460366377",
+      "message": "1311746435460366377",
+      "url": "https://discord.com/channels/1177270231513694249/1311746435460366377/1311746435460366377",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2024-11-28T17:32:01.284000+00:00",
+          "contentSha256": "fd578840d625bd3d428009eaab0f5676cc3f6efa06428cfc6d3f2a624dd35215"
+        }
+      ]
+    },
+    {
+      "channel": "1311746435460366377",
+      "message": "1417717193688485978",
+      "url": "https://discord.com/channels/1177270231513694249/1311746435460366377/1417717193688485978",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-09-17T03:41:58.887000+00:00",
+          "contentSha256": "90ac3fa2fc2272001a428977cfdd52b8ab462911431066f24000cfcdc310e983"
+        }
+      ]
+    },
+    {
+      "channel": "1311746973241573549",
+      "message": "1435711465335165058",
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1435711465335165058",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-11-05T19:24:47.565000+00:00",
+          "contentSha256": "4a64fa45677e71203882a65abf05414c2c3a3f2bd2adec571fd6f8a17c580a75"
+        }
+      ]
+    },
+    {
+      "channel": "1311746973241573549",
+      "message": "1435712595133993101",
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1435712595133993101",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-11-05T19:29:16.930000+00:00",
+          "contentSha256": "1671f5bcc62e5475613b15469687a35db051a12e641b6899db51fa1ad263bf91"
+        }
+      ]
+    },
+    {
+      "channel": "1311746973241573549",
+      "message": "1446317473547681812",
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1446317473547681812",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-12-05T01:49:16.973000+00:00",
+          "contentSha256": "8d431750348866589811d82e0e72ac75c0be81d975ff4d307755a96ea7143054"
+        }
+      ]
+    },
+    {
+      "channel": "1311746973241573549",
+      "message": "1459238355928617082",
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1459238355928617082",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2026-01-09T17:32:15.391000+00:00",
+          "contentSha256": "682938485d30363955cc0627664158a62c7129796d684f5db52a77032d142070"
+        }
+      ]
+    },
+    {
+      "channel": "1311746973241573549",
+      "message": "1459239487698632747",
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1459239487698632747",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2026-01-09T17:36:45.226000+00:00",
+          "contentSha256": "f9e3c14b0e6aca76433698194f79448b396c48aeda982998b1fb2c78e143d0b4"
+        }
+      ]
+    },
+    {
+      "channel": "1311746973241573549",
+      "message": "1487297540087877762",
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1487297540087877762",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2026-03-28T03:49:26.209000+00:00",
+          "contentSha256": "75477d1b3a0293bb7a447b0376821565464b9e550256bc2340313c6630cb3af9"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2026-03-28T03:49:26.209000+00:00",
+          "contentSha256": "75477d1b3a0293bb7a447b0376821565464b9e550256bc2340313c6630cb3af9"
+        }
+      ]
+    },
+    {
+      "channel": "1311747360220512318",
+      "message": "1311747360220512318",
+      "url": "https://discord.com/channels/1177270231513694249/1311747360220512318/1311747360220512318",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2024-11-28T17:35:41.764000+00:00",
+          "contentSha256": "6a66fad98269d082f6c707b47ec27a2894286492e07d82f02ca79c5021d95272"
+        }
+      ]
+    },
+    {
+      "channel": "1311747360220512318",
+      "message": "1365016401575678052",
+      "url": "https://discord.com/channels/1177270231513694249/1311747360220512318/1365016401575678052",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-04-24T17:27:50.914000+00:00",
+          "contentSha256": "84eb8915cf5b551bcabf4556a480196d8388390a37dd931216cbe84b408246d3"
+        }
+      ]
+    },
+    {
+      "channel": "1311747360220512318",
+      "message": "1365024329045381294",
+      "url": "https://discord.com/channels/1177270231513694249/1311747360220512318/1365024329045381294",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-04-24T17:59:20.970000+00:00",
+          "contentSha256": "f2595951576c7457c8cd8c772348a8eedc6fd38a9e29188e61618fd8c05f10fa"
+        }
+      ]
+    },
+    {
+      "channel": "1311747360220512318",
+      "message": "1426267983638036671",
+      "url": "https://discord.com/channels/1177270231513694249/1311747360220512318/1426267983638036671",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-10-10T17:59:46.077000+00:00",
+          "contentSha256": "d5bc5427a530ba42c7d8085802128b1e884844ffe838b6c2414d1572235e1b77"
+        }
+      ]
+    },
+    {
+      "channel": "1311747360220512318",
+      "message": "1426272905796386937",
+      "url": "https://discord.com/channels/1177270231513694249/1311747360220512318/1426272905796386937",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-10-10T18:19:19.611000+00:00",
+          "contentSha256": "915f70fd8273944a8a1287c9c6906b83cbe2a11ccf63eff08ed9ea4c3673fea8"
+        }
+      ]
+    },
+    {
+      "channel": "1311747360220512318",
+      "message": "1426275356662435901",
+      "url": "https://discord.com/channels/1177270231513694249/1311747360220512318/1426275356662435901",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-10-10T18:29:03.943000+00:00",
+          "contentSha256": "cb1cfed6b999736ee5625744c53bbeb5dc2d988c5c2a3ad994ae627be7ecdf39"
+        }
+      ]
+    },
+    {
+      "channel": "1311747360220512318",
+      "message": "1487195405014925502",
+      "url": "https://discord.com/channels/1177270231513694249/1311747360220512318/1487195405014925502",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2026-03-27T21:03:35.310000+00:00",
+          "contentSha256": "9cf4e19eb8b88483c177659064433403c36c67b802002e2d6b3eff209e93333d"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2026-03-27T21:03:35.310000+00:00",
+          "contentSha256": "9cf4e19eb8b88483c177659064433403c36c67b802002e2d6b3eff209e93333d"
+        }
+      ]
+    },
+    {
+      "channel": "1311747644879802489",
+      "message": "1311747644879802489",
+      "url": "https://discord.com/channels/1177270231513694249/1311747644879802489/1311747644879802489",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2024-11-28T17:36:49.632000+00:00",
+          "contentSha256": "ba75bab33668762c41298f5609f6206e3b7126429c06d203d88942b5d038ead9"
+        }
+      ]
+    },
+    {
+      "channel": "1311776046554677291",
+      "message": "1508941880501604432",
+      "url": "https://discord.com/channels/1177270231513694249/1311776046554677291/1508941880501604432",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2026-05-26T21:16:19.096000+00:00",
+          "contentSha256": "31ff4ec53ec3cf71c2ecf793d6a0fbd4ec7d43e65a5b9311c6f9748560d28024"
+        }
+      ]
+    },
+    {
+      "channel": "1311793270799597628",
+      "message": "1311793270799597628",
+      "url": "https://discord.com/channels/1177270231513694249/1311793270799597628/1311793270799597628",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2024-11-28T20:38:07.699000+00:00",
+          "contentSha256": "a405ef50ee278328e6875f51c981cd76117427b85419af93556415ba05c8b5dc"
+        }
+      ]
+    },
+    {
+      "channel": "1311793270799597628",
+      "message": "1363917024777998628",
+      "url": "https://discord.com/channels/1177270231513694249/1311793270799597628/1363917024777998628",
+      "versions": [
+        {
+          "corpus": "fein",
+          "posted": "2025-04-21T16:39:19.060000+00:00",
+          "contentSha256": "e1fe4834d849ad11277c3d69147fdea6a436d293f796484f454bdaf055c5b903"
+        }
+      ]
+    },
+    {
+      "channel": "1314226899693735986",
+      "message": "1314227889998266439",
+      "url": "https://discord.com/channels/1177270231513694249/1314226899693735986/1314227889998266439",
+      "versions": [
+        {
+          "corpus": "supplied-faction-description",
+          "exportBlockSha256": "016889fe04adfc00036f5f16b06c4dc9210eec5f2b74d745843d87527906468a"
+        }
+      ]
+    },
+    {
+      "channel": "1314226899693735986",
+      "message": "1314233840537043034",
+      "url": "https://discord.com/channels/1177270231513694249/1314226899693735986/1314233840537043034",
+      "versions": [
+        {
+          "corpus": "supplied-faction-description",
+          "exportBlockSha256": "b21fa1df85c7525fce03fd4c188eda2a68682f143bac94063658ebde20f41f7c"
+        }
+      ]
+    },
+    {
+      "channel": "1314226899693735986",
+      "message": "1314317713493065730",
+      "url": "https://discord.com/channels/1177270231513694249/1314226899693735986/1314317713493065730",
+      "versions": [
+        {
+          "corpus": "supplied-faction-description",
+          "exportBlockSha256": "26527625c8f55221bc6c0808dbf562ef182bd849a9e0bfb75370372aafdd5f75"
+        }
+      ]
+    },
+    {
+      "channel": "1314226899693735986",
+      "message": "1314370929576509501",
+      "url": "https://discord.com/channels/1177270231513694249/1314226899693735986/1314370929576509501",
+      "versions": [
+        {
+          "corpus": "supplied-faction-description",
+          "exportBlockSha256": "26b746436a2e2660ad8ab22fb3a42971b5586f6e3a37536910f8517ed7526da2"
+        }
+      ]
+    },
+    {
+      "channel": "1404625139399786496",
+      "message": "1404627747300446339",
+      "url": "https://discord.com/channels/1177270231513694249/1404625139399786496/1404627747300446339",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T00:49:11.678000+00:00",
+          "contentSha256": "ee1c3485b775ee0791e4b02b363b7ff41964cdafae20429fc44e4b51593f6d01"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T00:49:11.678000+00:00",
+          "contentSha256": "ee1c3485b775ee0791e4b02b363b7ff41964cdafae20429fc44e4b51593f6d01"
+        }
+      ]
+    },
+    {
+      "channel": "1404625139399786496",
+      "message": "1404631819646668911",
+      "url": "https://discord.com/channels/1177270231513694249/1404625139399786496/1404631819646668911",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T01:05:22.601000+00:00",
+          "contentSha256": "b3278e06271c57bc290e2d26864ab439f8e43db3ff67b6137c4a89eb3f981b05"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T01:05:22.601000+00:00",
+          "contentSha256": "b3278e06271c57bc290e2d26864ab439f8e43db3ff67b6137c4a89eb3f981b05"
+        }
+      ]
+    },
+    {
+      "channel": "1404625139399786496",
+      "message": "1404633343894491226",
+      "url": "https://discord.com/channels/1177270231513694249/1404625139399786496/1404633343894491226",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T01:11:26.010000+00:00",
+          "contentSha256": "b0f6372b314b2108ae250b4b61082b703589c85b808e47c6d1f8e78891c3c46f"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T01:11:26.010000+00:00",
+          "contentSha256": "b0f6372b314b2108ae250b4b61082b703589c85b808e47c6d1f8e78891c3c46f"
+        }
+      ]
+    },
+    {
+      "channel": "1404625139399786496",
+      "message": "1404641523701776474",
+      "url": "https://discord.com/channels/1177270231513694249/1404625139399786496/1404641523701776474",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T01:43:56.228000+00:00",
+          "contentSha256": "bacfc21f3b023b9f174a342f49e6fe8a02d5d9cad20449400145a23c46f5aaa2"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T01:43:56.228000+00:00",
+          "contentSha256": "bacfc21f3b023b9f174a342f49e6fe8a02d5d9cad20449400145a23c46f5aaa2"
+        }
+      ]
+    },
+    {
+      "channel": "1404625139399786496",
+      "message": "1404642277162221580",
+      "url": "https://discord.com/channels/1177270231513694249/1404625139399786496/1404642277162221580",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T01:46:55.867000+00:00",
+          "contentSha256": "a157fda5e9a04bd0c3f253b769e4c4a06fccb6c4bea58afce002fdae117f87a5"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T01:46:55.867000+00:00",
+          "contentSha256": "a157fda5e9a04bd0c3f253b769e4c4a06fccb6c4bea58afce002fdae117f87a5"
+        }
+      ]
+    },
+    {
+      "channel": "1404625139399786496",
+      "message": "1404645752424366140",
+      "url": "https://discord.com/channels/1177270231513694249/1404625139399786496/1404645752424366140",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T02:00:44.434000+00:00",
+          "contentSha256": "16fb9ff12740245fc9257e2208e9bfdd275cffcf9d6ee1e2cbbb34c2b03dbf38"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T02:00:44.434000+00:00",
+          "contentSha256": "16fb9ff12740245fc9257e2208e9bfdd275cffcf9d6ee1e2cbbb34c2b03dbf38"
+        }
+      ]
+    },
+    {
+      "channel": "1404625979204173904",
+      "message": "1404626109261156464",
+      "url": "https://discord.com/channels/1177270231513694249/1404625979204173904/1404626109261156464",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T00:42:41.139000+00:00",
+          "contentSha256": "d58a24ce33d7d2c81db820aa4084cb2eedd33850c76021ce87a34ed5fe9d67f2"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T00:42:41.139000+00:00",
+          "contentSha256": "d58a24ce33d7d2c81db820aa4084cb2eedd33850c76021ce87a34ed5fe9d67f2"
+        }
+      ]
+    },
+    {
+      "channel": "1404625979204173904",
+      "message": "1404630486374158388",
+      "url": "https://discord.com/channels/1177270231513694249/1404625979204173904/1404630486374158388",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T01:00:04.724000+00:00",
+          "contentSha256": "ff996d7d38be5215c71fc5ada11f2286de43be92cbb0f445d194ae06ec0e3faf"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T01:00:04.724000+00:00",
+          "contentSha256": "ff996d7d38be5215c71fc5ada11f2286de43be92cbb0f445d194ae06ec0e3faf"
+        }
+      ]
+    },
+    {
+      "channel": "1404625979204173904",
+      "message": "1404633917255979151",
+      "url": "https://discord.com/channels/1177270231513694249/1404625979204173904/1404633917255979151",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T01:13:42.710000+00:00",
+          "contentSha256": "eb69e24a3d566b4ad77e9ad497992cdfd2c9af925e535382a4f4dcca1a955d52"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T01:13:42.710000+00:00",
+          "contentSha256": "eb69e24a3d566b4ad77e9ad497992cdfd2c9af925e535382a4f4dcca1a955d52"
+        }
+      ]
+    },
+    {
+      "channel": "1404625979204173904",
+      "message": "1404651535744368662",
+      "url": "https://discord.com/channels/1177270231513694249/1404625979204173904/1404651535744368662",
+      "versions": [
+        {
+          "corpus": "threads",
+          "posted": "2025-08-12T02:23:43.285000+00:00",
+          "contentSha256": "e1150853129447352d1e6d52672bca081b977202483da8fdabb4c292d9cb98f4"
+        },
+        {
+          "corpus": "updates",
+          "posted": "2025-08-12T02:23:43.285000+00:00",
+          "contentSha256": "e1150853129447352d1e6d52672bca081b977202483da8fdabb4c292d9cb98f4"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    "Reputation totals and edited counter dates as joining evidence",
+    "Numerical bonuses, rank ladders, discounts and reward entitlements",
+    "Raw transcripts and mechanical encounter procedures",
+    "Protected identities, rites, private payload and unrevealed explanations",
+    "Invented faction emblems, generic NPC profiles and assumed election or membership outcomes"
+  ],
+  "distinctions": [
+    "Tyragol nominates Wren rather than himself",
+    "Aldamir nominates Magnus without proving a membership transfer",
+    "Liraeth’s Radiant Dawn wording preserved as a recorded variant, not a fifth faction",
+    "Lucent is nominated by the Circle but later denies membership",
+    "Elenia’s earlier admission survives beside the divine-restoration dispute; Magnus requests removal, not an automatically enacted expulsion",
+    "Míriel’s acts of authority do not establish the complete hierarchy or merge her with Aldamir"
+  ],
+  "preservation": {
+    "unchangedBaselineFiles": 622,
+    "changedBaselineFiles": [
+      "content/records/zarathis.json",
+      "content/records/factions.json",
+      "content/records/fein-uaill.json",
+      "content/reference/world.json"
+    ],
+    "oldBodiesSectionsAndFactsPreserved": true,
+    "worldChangesOnly": [
+      "fixedArticlePaths: five appended reading destinations",
+      "factionDirectoryItems: four appended factions, original six retained",
+      "articleOrder: five appended records"
+    ],
+    "privatePayloadUnchanged": true,
+    "mapsTimelinePeopleQuotesMediaGedankinUnchanged": true
+  }
+}

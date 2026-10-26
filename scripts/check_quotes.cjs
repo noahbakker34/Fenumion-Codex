@@ -76,9 +76,14 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
    await page.waitForFunction(()=>!document.querySelector('.quote-source-status').textContent.includes('Finding'));
    if(width===390)await page.screenshot({path:output+'/quote-context-mobile.png'});await page.keyboard.press('Escape');
   }
-  await page.goto(base+'#hellknight-order');await page.locator('.article-header h1').waitFor();const emblem=page.locator('.article-hero img[src="assets/factions/hellknight-order.png"]');assert.equal(await emblem.count(),1);assert(await emblem.evaluate(async el=>{await el.decode();return el.naturalWidth===512&&el.naturalHeight===768;}));
+  await page.goto(base+'#hellknight-order');await page.locator('.article-header h1').waitFor();
+  const originalEmblem='assets/factions/hellknight-order.png',emblemPreview=await page.evaluate(source=>window.FENUMION_CATALOG.browseImages[source],originalEmblem);
+  assert.equal(await page.evaluate(()=>byId.get('hellknight-order').image),originalEmblem,'original Hellknights artwork retained');
+  const emblem=page.locator('.article-hero img[src="'+emblemPreview.src+'"]');assert.equal(await emblem.count(),1);
+  assert(await emblem.evaluate(async(el,size)=>{await el.decode();return el.naturalWidth===size.width&&el.naturalHeight===size.height;},emblemPreview),'lightweight preview decodes at its recorded dimensions');
+  assert(await page.evaluate(async source=>{const img=new Image();img.src=source;await img.decode();return img.naturalWidth===512&&img.naturalHeight===768;},originalEmblem),'original full-size artwork still decodes');
   assert((await page.locator('.article-header').innerText()).includes('Month of Death · Year 3'),'faction dates use the named calendar');
-  await page.setViewportSize({width:390,height:844});await emblem.scrollIntoViewIfNeeded();await page.screenshot({path:output+'/hellknights-mobile.png'});await page.goto(base+'#factions');await page.locator('[data-article="hellknight-order"] img[src="assets/factions/hellknight-order.png"]').waitFor();
+  await page.setViewportSize({width:390,height:844});await emblem.scrollIntoViewIfNeeded();await page.screenshot({path:output+'/hellknights-mobile.png'});await page.goto(base+'#factions');await page.locator('[data-article="hellknight-order"] img[src="'+emblemPreview.src+'"]').waitFor();
   assert.deepEqual(errors,[]);console.log('PASS 53 quotes/eight themes, all 38 original words/speakers/anchors and 15 new sourced voices; search/speaker/theme/voice/date order/reload/reset; precise messages and legacy source limits; explicit recording playback/seek/volume/music pause/hover preference/player cleanup; desktop/mobile; Hellknights art and dates');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

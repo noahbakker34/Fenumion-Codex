@@ -895,6 +895,7 @@ function renderArticle(route, pushHash = true) {
   window.CodexQuotes?.close();
   const previousScroll=window.scrollY;
   const renderEpoch = ++articleRenderEpoch;
+  clearContents();
   delete document.body.dataset.codexRegion;
   articleContent.classList.remove('chronicle-person');
   window.cleanupFenumionArt?.();
@@ -2049,6 +2050,13 @@ function renderRelated(article) {
     .map(({ article: item }) => `<button data-article="${item.id}"><small>Continue reading</small>${item.title}</button>`)
     .join("");
   return `<div class="related">${related}</div>`;
+}
+
+function clearContents() {
+  contents.replaceChildren();
+  const mobileContents=document.querySelector('#mobile-contents');
+  mobileContents.hidden=true;mobileContents.open=false;
+  document.querySelector('#mobile-contents-links').replaceChildren();
 }
 
 function buildContents() {

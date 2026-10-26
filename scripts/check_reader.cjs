@@ -68,6 +68,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  // A failed body request can retry, and clearing a pending search stays cleared.
  await page.route('**/data/records/training-dungeon.*.json',route=>route.abort(),{times:1});
  await page.goto(base+'?retry-test=1#training-dungeon?section=training-later-inheritance');await page.locator('.record-load-error').waitFor();
+ assert(await page.locator('#mobile-contents').evaluate(el=>el.hidden),'failed load has no stale contents menu');
+ assert.equal(await page.locator('#contents [data-section],#mobile-contents-links [data-section]').count(),0);
  await page.getByRole('button',{name:'Try again',exact:true}).click();await page.locator('.article-header h1').waitFor();
  assert.equal(await page.locator('h1').innerText(),'The Training Dungeon');
  assert.equal(await page.evaluate(()=>location.hash),'#training-dungeon?section=training-later-inheritance','retry retains the requested chapter');
@@ -134,7 +136,11 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  assert.equal(await page.locator('[data-synthetic-append]').count(),1,'append survives the first public load without duplication');
  await page.evaluate(async()=>{search.value='Synthetic Sealed Chamber';await runSearch(search.value);});
  assert.equal(await page.locator('.search-result[data-article^="sealed-location-"]').count(),2,'keeper can find newly delivered private records');
- await page.evaluate(()=>{closePanels();lockVault();});
+ await page.evaluate(id=>{closePanels();return renderArticle(id)},sealedFixture.articles[0].id);
+ assert.equal(await page.locator('#mobile-contents-links [data-section="synthetic-private-details-alpha"]').count(),1,'private chapter is present in the contents before locking');
+ await page.evaluate(()=>lockVault());
+ assert(await page.locator('#mobile-contents').evaluate(el=>el.hidden),'locking hides the mobile contents menu');
+ assert.equal(await page.locator('#contents [data-section],#mobile-contents-links [data-section]').count(),0,'locking clears previous private chapter titles from both contents lists');
  for(const word of ['syntheticoverridesecretword','syntheticappendsecretword']){
   await page.evaluate(async word=>{search.value=word;await runSearch(word)},word);
   assert.equal(await page.locator('.search-result').count(),0,'locking removes public-page overlay text from search');

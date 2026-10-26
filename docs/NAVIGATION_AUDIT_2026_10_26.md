@@ -2,7 +2,7 @@
 
 The owner asks for bugs and destinations that lead nowhere. The audit inspects 3,889 stored links/controls across all 627 canonical records for missing internal routes, anchors, maps and local files; none are unresolved. It renders all 585 publicly accessible routes in Chrome and follows 130 generated section destinations. Source references behind Discord authentication are not represented as independently verified external pages. The initial browser crawl reproduces a World Index focus exception; the corrected crawl finishes with no unresolved generated routes/sections, public HTTP errors or script exceptions.
 
-Seven reader defects are corrected:
+Eight reader defects are corrected:
 
 1. The home gateway removes the template header. Returning to World Index tried to focus that removed heading and threw an exception. Focus now follows the visible page heading.
 2. Retrying a failed record request discarded its chapter query. The retry retains the complete requested route, opens the original chapter and restores keyboard focus.
@@ -12,6 +12,8 @@ Seven reader defects are corrected:
 6. Protected placeholders absent from the delivered payload could open as blank articles after unlocking. Those records stay unavailable, with an explanation and a working World Index return rather than another sign-in loop. Directory/map labels and accessibility text distinguish this state. No missing history or private identity is invented.
 
 7. “Skip to article” changed the route to an unknown record instead of retaining the current article: Fenumion returned home and Gedankin showed a missing-record page. The shared handler now focuses the main article without changing the route. Desktop Fenumion and mobile Gedankin keyboard activation are covered. A separate crawl of all 159 Gedankin routes finds no unresolved record/section controls or script errors.
+
+8. Protected gates and loading/error states could retain the previous record’s mobile chapter menu, including private chapter titles after locking. Both contents lists are cleared at the start of every navigation; completed readable pages rebuild their own list. The unavailable/locked view has no empty contents control or stale chapter destinations.
 
 The existing reader regression adds real header clicks, chapter retry, synthetic full-body and appended overlays, cold metadata, unlocked/locked searches, absent private records, a held public request across locking, cached re-unlock and duplicate prevention. Existing biography/regional, quote and public Death-film checks pass. The actual unchanged private location candidates also pass their chapter/evidence, saved-link, main Locations, nine-width and relocking checks with simulated authorization; no new real-account login is claimed. Content validation now fails unresolved internal record links rather than only warning about them.
 

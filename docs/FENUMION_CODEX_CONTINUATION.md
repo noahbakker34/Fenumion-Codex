@@ -3,6 +3,10 @@
 Last updated: 2026-10-26
 
 
+## Dynamic authenticated records · 26 October 2026
+
+Owner supplies two additional secret-location sources and asks to continue. Source review and resulting records stay in the private repository; no titles, narrative, source URLs or real IDs enter public Git. New authenticated articles now join the existing restricted-ID set before merging, so locking hides their routes, page titles, search results and regional cards even when they have no public stub. Two synthetic location fixtures verify unlock, search/listing, lock and fresh-load absence. Local reader/search/load-race/mobile regression passes. App269 only; catalog279, every canonical record/world/map/timeline/media file and existing protected stub remain unchanged. See DYNAMIC_VAULT_RECORDS.md. Public runtime verification precedes private-payload publication; receipts follow completion.
+
 ## Owner-supplied faction symbols · 26 October 2026
 
 Owner identifies the green gem, golden flame, leafy crescent and silver star as the Emerald Veil, Radiant Flame, Verdant Circle and Silver Star symbols. Their four existing pages gain image metadata and compact leading, uncropped symbols; the comparison guide and faction directory show the matching previews. Full-size 2048px lossless WebP copies are pixel-identical to the original PNGs and open on explicit request. Four browsing previews total 127,204 bytes. Existing preview generation/validation now includes all faction directory artwork; ten newly required previews add to the 248 exact old entries, for 258 total. Connected-story links also use small previews, with a network assertion against automatic full-size requests.

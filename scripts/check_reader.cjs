@@ -79,6 +79,37 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   assert(await cold.evaluate(()=>!document.body.classList.contains('panels-open')),'late results cannot hide header controls');
   assert(await cold.locator('.music-toggle').isVisible());await cold.close();
  }
- assert.deepEqual(errors,[]);console.log('PASS retry/canceled search; lazy bodies, deferred search, summaries, section evidence/deep links, reading modes, 9 sequences, dated atlas, supplemental indexes, gallery, load races/history, protected boundaries and mobile layout');
+ // New authenticated pages have no public stub; they must join every lock/filter boundary.
+ const sealedFixture={articles:[
+  {id:'fixture-private-place-alpha',title:'Synthetic Sealed Chamber Alpha',category:'Locations',type:'Private fixture',dek:'Synthetic test location',tags:['synthetic sealed chamber'],facts:{Scope:'Private fixture'},sources:['Synthetic fixture'],sections:[],body:'<p>PRIVATE_FIXTURE_ALPHA_BODY</p>'},
+  {id:'fixture-private-place-beta',title:'Synthetic Sealed Chamber Beta',category:'Locations',type:'Private fixture',dek:'Synthetic test location',tags:['synthetic sealed chamber'],facts:{Scope:'Private fixture'},sources:['Synthetic fixture'],sections:[],body:'<p>PRIVATE_FIXTURE_BETA_BODY</p>'}
+ ],index:{islands:[
+  {title:'Synthetic Sealed Chamber Alpha',region:'Fein Uaill',parent:'Fein Uaill',type:'fixture',level:'site',article:'fixture-private-place-alpha',summary:'Synthetic private fixture'},
+  {title:'Synthetic Sealed Chamber Beta',region:'Fein Uaill',parent:'Fein Uaill',type:'fixture',level:'site',article:'fixture-private-place-beta',summary:'Synthetic private fixture'}
+ ]}};
+ await page.unroute('https://auth.fenumion.com/**');
+ await page.route('https://auth.fenumion.com/vault/data',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(sealedFixture)}));
+ await page.route('https://auth.fenumion.com/me',route=>route.fulfill({status:200,contentType:'application/json',body:'{"signedIn":true,"name":"Synthetic keeper"}'}));
+ await page.evaluate(()=>unlockVault());
+ for(const record of sealedFixture.articles){
+  await page.evaluate(id=>renderArticle(id),record.id);assert.equal(await page.locator('h1').innerText(),record.title);
+  assert((await page.locator('#article-content').innerText()).includes(record.body.replace(/<[^>]*>/g,'')));
+ }
+ await page.evaluate(()=>renderArticle('fein-uaill'));
+ assert.equal(await page.locator('.region-place-card').filter({hasText:'Synthetic Sealed Chamber'}).count(),2,'new private places appear for an unlocked keeper');
+ await page.evaluate(async()=>{search.value='Synthetic Sealed Chamber';await runSearch(search.value);});
+ assert.equal(await page.locator('.search-result[data-article^="fixture-private-place-"]').count(),2,'keeper can find newly delivered private records');
+ await page.evaluate(()=>{closePanels();lockVault();});
+ for(const record of sealedFixture.articles){
+  await page.evaluate(id=>renderArticle(id),record.id);assert.equal(await page.locator('.vault-gate').count(),1,'new record is gated again after locking');
+  assert(!(await page.locator('#article-content').innerText()).includes(record.title));assert(!(await page.title()).includes(record.title));
+ }
+ await page.evaluate(async()=>{search.value='Synthetic Sealed Chamber';await runSearch(search.value);});
+ assert.equal(await page.locator('.search-result[data-article^="fixture-private-place-"]').count(),0,'locked search hides new private titles and bodies');
+ await page.evaluate(()=>{closePanels();return renderArticle('fein-uaill');});
+ assert.equal(await page.locator('.region-place-card').filter({hasText:'Synthetic Sealed Chamber'}).count(),0,'locked region hides newly delivered private places');
+ await page.reload();await page.waitForFunction(()=>byId.get('fein-uaill')?.bodyLoaded);
+ assert(await page.evaluate(()=>!byId.has('fixture-private-place-alpha')&&!byId.has('fixture-private-place-beta')),'fresh locked load has no private records');
+ assert.deepEqual(errors,[]);console.log('PASS retry/canceled search; lazy bodies, deferred search, summaries, section evidence/deep links, reading modes, 9 sequences, dated atlas, supplemental indexes, gallery, load races/history, protected boundaries, dynamic private records after locking, and mobile layout');
  await browser.close();
 })().catch(error=>{console.error(error);process.exit(1)});

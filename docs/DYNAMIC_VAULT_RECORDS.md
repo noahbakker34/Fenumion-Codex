@@ -1,0 +1,9 @@
+# Newly delivered vault records
+
+Entirely new articles can arrive only through the authenticated payload, without a public record or stub. The client previously built its restricted-ID set from the public collection and a fixed list. A new authenticated article therefore needed to join that set before being merged, so the existing locked routes, title redaction, search and regional filters would cover it on relocking.
+
+`applyVault` now registers every authenticated article ID before applying its record. Existing role checks, authentication, payload transport and known protected records are unchanged. Private titles, prose, source locators and real record IDs remain outside public Git. No public placeholder, geographic marker or location summary is added for new private places.
+
+The reader regression supplies two synthetic locations with no public stubs. It checks their unlocked pages, search and regional cards, then locks the vault and checks both routes, page titles, search and the regional listing. A fresh locked reload contains neither record. The fixture contains no actual campaign material and changes no account or role.
+
+Local reader/search/load-race/mobile and new dynamic-record checks pass. Public canonical records, world data, maps, chronology, images and protected stubs remain exact. App269 is the only changed browser asset; catalog279 and all complete-body/search bytes are retained. The existing cached release workflow runs the expanded gate without a new dependency or CI stage. The runtime must publish and verify before the changed private payload is uploaded. Private source, content and publication receipts remain in the private repository.

@@ -100,6 +100,7 @@ function applyVault(data) {
     throw new TypeError("The vault payload is missing its article collection.");
   }
   for (const full of data.articles || []) {
+    restrictedArticleIds.add(full.id);
     const stub = byId.get(full.id);
     if (stub) Object.assign(stub, full, {bodyLoaded:true});
     else { full.bodyLoaded=true; articles.push(full); byId.set(full.id, full); }

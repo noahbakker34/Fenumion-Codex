@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-10-25",
+  "reviewed": "2026-10-27",
   "scope": "All 35 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
   "stories": [
     {
@@ -536,6 +536,20 @@
       "chapters": 7,
       "words": 966,
       "existingFocusedHistory": true
+    },
+    {
+      "article": "recovery-of-thalanbors-craftlore",
+      "events": [
+        "The company recovers Thalanbor’s legendary craftlore"
+      ],
+      "chapters": 4,
+      "words": 668,
+      "sourceReceipts": 33,
+      "existingPublicAccounts": [
+        "thalanbor",
+        "thalanbor-library",
+        "zarathis"
+      ]
     }
   ],
   "calendarCorrection": {

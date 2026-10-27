@@ -13785,6 +13785,80 @@
           "https://discord.com/channels/1177270231513694249/1272609321871736844/1561495625189564437",
           "https://discord.com/channels/1177270231513694249/1455628231091945686/1561497433077194863"
         ]
+      },
+      {
+        "title": "The company recovers Thalanbor’s legendary craftlore",
+        "meta": "25–26 Nov 2025 · research scenes",
+        "sort": "2025-11-26-thalanbor-recovery",
+        "era": "2025 · Truth and authority",
+        "kind": "Recovery of legendary craftlore",
+        "article": "thalanbor",
+        "story": "recovery-of-thalanbors-craftlore",
+        "location": "An unnamed Silver Star-favored library; Zarathis; Fein Uaill",
+        "people": "Eldin Stormheart; Magnus; Olokun; Jiangshi; Gartina; Adelia",
+        "tags": [
+          "Thalanbor",
+          "legendary crafting",
+          "research",
+          "Silver Star"
+        ],
+        "summary": "Six researchers bring their documents together and recover Thalanbor’s teaching. Olokun recognizes a task for makers, while the company turns to gathering the required treasures.",
+        "importance": 3,
+        "importanceReason": "Recovers durable crafting knowledge through a regional scholarly investigation. Ingredients, successful crafting and wider adoption remain separate outcomes.",
+        "regions": [
+          "fein-uaill"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Two research sessions occur on consecutive posting dates. The final narrator-confirmed recovery is on the second day; the calendar retains the full research window.",
+          "postingWindow": {
+            "start": "2025-11-25",
+            "end": "2025-11-26",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 632,
+            "end": 633,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443000881007300649",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443001760473153687",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443003160850333827",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443019120236036137",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443025257954017360",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443035955467386921",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443044995337814098",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443045744146645115",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443333834476093631",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443337700500312276",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443339793894211625",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443343518260265152",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443348042735423639",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443369321291321455",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443370570161983579",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443370700038475877",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443371236922228818",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443373627578781817",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443374481866362921",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443374859706044529",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375068825649273",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375111410552934",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375975969849354",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376557304582148",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376594323374160",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376608202326017",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376827455377508",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376861588619415",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376962335932426",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377050420248798",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377624331059261",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377882649989151",
+          "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915"
+        ]
       }
     ],
     "characters": [
@@ -16634,7 +16708,7 @@
         ],
         "meta": "NPC · legendary artwright · legacy in Fein Uaill",
         "article": "thalanbor",
-        "summary": "A maker’s testament, twelve legendary recipes, and two tools that future craftsmen must seek: Thalanbor leaves both a path to creation and a warning about its cost.",
+        "summary": "Six researchers in Zarathis decipher a legendary maker’s teaching, opening paths to extraordinary creations and carrying his warning that making is an act of stewardship.",
         "image": "assets/characters/thalanbor.webp",
         "imageAlt": "Thalanbor with swept-back gray hair and a beard, wearing ornate dark-and-gold armor beside a workbench in a vaulted hall",
         "imageCaption": "Thalanbor the Boundless Artwright — portrait attached to his testament."
@@ -24367,6 +24441,14 @@
       [
         "Characters",
         "Thalanbor the Boundless Artwright"
+      ]
+    ],
+    [
+      "recovery-of-thalanbors-craftlore",
+      [
+        "Timeline",
+        "Event Chronicles",
+        "Recovering Thalanbor’s Craftlore"
       ]
     ]
   ],
@@ -51128,7 +51210,8 @@
     "radiant-flame",
     "verdant-circle",
     "fein-uaill-factions",
-    "thalanbor"
+    "thalanbor",
+    "recovery-of-thalanbors-craftlore"
   ],
   "timelineRegions": [
     {

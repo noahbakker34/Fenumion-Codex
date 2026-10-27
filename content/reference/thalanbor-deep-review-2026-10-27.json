@@ -1,0 +1,329 @@
+{
+  "reviewed": "2026-10-27",
+  "request": "A deeper dig on Thalanbor.",
+  "discovery": {
+    "databases": 31,
+    "messageOccurrences": 515834,
+    "terms": [
+      "Thalanbor",
+      "Thlanbor",
+      "artwright",
+      "boundless",
+      "forge hammer",
+      "chisel",
+      "Moonblade",
+      "Hammer of Thunderbolts",
+      "legendary crafting",
+      "sacred tome",
+      "creation books",
+      "library research"
+    ],
+    "limits": "Searches locate evidence; overlapping cached message occurrences are not unique messages and do not imply every quest was read. Selected complete library text and Zarathian research windows were then reviewed. Attachments are not silently treated as read.",
+    "initialTermMatchVersions": 28,
+    "followupVariantMatchVersions": 21,
+    "combinedMatchVersions": 44
+  },
+  "conclusions": [
+    "The narrator confirms the successful collective research and directly links its result to Thalanbor’s testament.",
+    "Eldin, Magnus, Olokun, Jiangshi, Gartina and Adelia share the recovery; Arjahn’s earlier presence does not make him a completing researcher.",
+    "The recovered teaching gives direction for legendary crafting. Component acquisition, successful crafting, item ownership and tool locations are not supplied.",
+    "Jiangshi calls the maker a god of creation; this is her interpretation, not a verified divine identity.",
+    "The recovery occurs in an unnamed Silver Star-favored Zarathian library, not a proven identification of Thalanbor’s named library.",
+    "Later library readers and their failed research establish use and questions, not Thalanbor’s own achievements.",
+    "No substantive Thalanbor quest encounter is found. A different dwarf craftsman, a similarly named epitaph, language fragments and generic boundless uses are excluded.",
+    "No biography, deity, age, death, birthplace or present encounter is invented. Protected ingredient identities, raw sources and private payload stay outside public Git."
+  ],
+  "changedRecords": [
+    "thalanbor",
+    "thalanbor-library",
+    "recovery-of-thalanbors-craftlore",
+    "event-chronicles"
+  ],
+  "newEvent": {
+    "title": "The company recovers Thalanbor’s legendary craftlore",
+    "sourceWindow": [
+      "2025-11-25",
+      "2025-11-26"
+    ],
+    "importance": 3,
+    "reason": "Regional scholarly recovery; crafting and wider adoption remain separate outcomes."
+  },
+  "receipts": [
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443000881007300649",
+      "contentSha256": "1a8e647b119acad2fae9d2e7b83493c7816e272741decd657d96ecaab5141d0c"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443001760473153687",
+      "contentSha256": "3471036965e7e7733db1f051858a735bf663501916e333e0fc0645ae3c891287"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443003160850333827",
+      "contentSha256": "5a295a18a7104f7941de22f64bd7abb08a18070daed18207c65dd501e4328801"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443019120236036137",
+      "contentSha256": "ab217c3b25afd1e69ad7efdd4076c9603d1b1e1868f46832e211273c4007ac26"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443025257954017360",
+      "contentSha256": "490610598b6e69971f0a488497bde862a97b43a9db199892ff25a33bf8a1e3f1"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443035955467386921",
+      "contentSha256": "cd821f3d843742d6c4f3935053d4b9e5211bada89b2bf21aa5ab49de6328a5bd"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443044995337814098",
+      "contentSha256": "a7c65f06b3e80163734187fa9b45db988b638243c387b6b252797dc0c700038c"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443045744146645115",
+      "contentSha256": "f67548cac9cf35dc9d7561106823e34cf3fc46eaefbdc4be0531f1a4d529e019"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443333834476093631",
+      "contentSha256": "c7c54dc39301694300b2208ceafe5a2fb2ea50208f44b57c5a5e102789d9d174"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443337700500312276",
+      "contentSha256": "0d09a977583b4114caad7a54dd41c2f679f52ad8d38ccf2e2e533888dba01dbc"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443339793894211625",
+      "contentSha256": "fb5967443e2690be020731f69e613abc2f7c0ad422d836e077e57e645b66ce0c"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443343518260265152",
+      "contentSha256": "69e143b4c23eb591de11303867a17884942939613173a96453bfefa8f5338f6b"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443348042735423639",
+      "contentSha256": "1ce9b4acd304b995b6a06770ce85131103779950f599a5f1ae90355c4eb509b8"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443369321291321455",
+      "contentSha256": "f897f8fc9a9e7216f430caae6b4f38e04da53b8ca5fb679759236a0c68f0b542"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443370570161983579",
+      "contentSha256": "e194d34c70a2dbd798ce7b45e00bc49098a8e43e2861880efbba896a695833dd"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443370700038475877",
+      "contentSha256": "552204e0d2f5e500347765c44a033e338f3847e3e3d93500ed1564d08da324ed"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443371236922228818",
+      "contentSha256": "5f37e630c112c7f94a864b46c52ae81698bc5ce75cbc55df9d6cd26619e4a0f9"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443373627578781817",
+      "contentSha256": "3ed9ef1fa56a909bb763b11912d4b71975e6039510bed77ec0622a1032ea1b2b"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443374481866362921",
+      "contentSha256": "2d067c56c6c7c508457d718ead86c12a95a6beca4c743f21abacffa3174a6a6b"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443374859706044529",
+      "contentSha256": "9e60b37263f66cff76d9b419fce0cca2050afabed3ea3022cda7d706b648ca2e"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375068825649273",
+      "contentSha256": "1edc62928f217c9ce8ef2f47c8bf17d26ceab54f02a46cffc3548c2b0de94273"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375111410552934",
+      "contentSha256": "3671603290b3c3b3f9c24e0dd5ad390b46ff5201bba3d36a37999b08d1fa6f02"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375975969849354",
+      "contentSha256": "c2d3b262c7385b881814ada0aafd3699650eb8a30aa0727ffa90e5b233f34779"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376557304582148",
+      "contentSha256": "6e46260d7a4dffe456382cc287f02b81d3a3080d545d3a8775c75fab9ff81381"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376594323374160",
+      "contentSha256": "7d511d240437cb2d9b59f0c8221860ce4830ebb0f078fec90d8466c7d1c240a9"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376608202326017",
+      "contentSha256": "bc897fee78b678d7997e9a92fbaedadffd340c709cbccb84f3f65435d8aa8f53"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376827455377508",
+      "contentSha256": "610858039448321d076d966b5e678d908a9c95cc4a3ad46d0964b71d491223a8"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376861588619415",
+      "contentSha256": "c869e41214a986c2ae8609b4c0e00506985aaa71474fa0fbc3789082f558c255"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376962335932426",
+      "contentSha256": "03a53c6750521fc7091558b656c8546b2c327b5240423b1770d077ba879904b1"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377050420248798",
+      "contentSha256": "deb8c6057919a1b960a89e40cd3a4155eedb0259bc832e5a043d82e6929c5456"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377624331059261",
+      "contentSha256": "096d8665e0dbf0f0cd8cf6850134f7b9f12035e4f343b3847653a4c46ce3f56e"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377882649989151",
+      "contentSha256": "b4242a99e8caa3470f54e222c2cc9bf242865b9b6d1edccc3095bb2115841cd7"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439296893166424115/1439296893166424115",
+      "contentSha256": "c59f8ba0b5636ac80a6768a6db3d4ab103f4ca07b03cd960bd2a3cb45c124468"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439297571653685420/1439297571653685420",
+      "contentSha256": "31eda6294f601960ca05d36b09a954373cf696b7c88c6aad6ff9b4a0e3d704c9"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439302909891186718/1439302909891186718",
+      "contentSha256": "dd1cb46e36f90dacef40c9938921763b6697b0749a32ac6278089de3aeeda851"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439304907235655781/1439304907235655781",
+      "contentSha256": "f7d41790fb39a66bab859301c58d3d53bf2195830b919cedb7b668906405c763"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439306784056545522/1439306784056545522",
+      "contentSha256": "cb96362dc88446e814a7ff56d1e87961b6ea69ccc67285c1e0e96d9f98e0d0e7"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439314661387272438/1439314661387272438",
+      "contentSha256": "150e04ca4716f57f91812de7a738577a7425fe0922cc3b7e021548719551ccd0"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439330652163018824/1439330652163018824",
+      "contentSha256": "4efd770268c582c321e7805d4c64b8d03a5d1975c059ada15a5d932fd82fafb1"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439393880624730274/1439393880624730274",
+      "contentSha256": "49ad73ad232d00c6b73df189ae81b315e26834583c772aebda0a29e94359b49b"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439394362919227502/1439394362919227502",
+      "contentSha256": "539c1c34385cc6b35a3fa3e07ebf2904fe97a01756909504730d39d681648506"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439395455220977806/1439395455220977806",
+      "contentSha256": "89e5f142dc8a563ef3b89a884eab15a81af76e759934181bd3bc3c2438da2305"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439396107687038996/1439396107687038996",
+      "contentSha256": "2cbb27c59c53c54a8e7fbc63a7d151728f9a5b7ca7b88793692aa0d37f14cc54"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1439810938936098867/1439810938936098867",
+      "contentSha256": "eaeb60cc218c80fa2068637a728be04d666b9a772237be483d1a30d6e2382239"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915",
+      "contentSha256": "887ab80dfcdb3e5193c09e1e722fbc40b80544965b4871fbb4fdcd7ba2ea8c62"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446266633382268979",
+      "contentSha256": "9445e7e5e581b269e0c9b5f6ecda92b9da363f299eb8decf9a1746da4d4cad39"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446267866822480103",
+      "contentSha256": "f4e21b08c18907681b6796b71b0859706056de7423e330cdded3a0100c2bb451"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446268255844171866",
+      "contentSha256": "49b55b01948132873fc89184076cdcc87dc6b5f248c2973312118a725798dc82"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446273050600276051",
+      "contentSha256": "ef0d627d3d1282d869978904e2bb4988306b0ecbf99ee860c3e1ffe2fad6216a"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446273416704299149",
+      "contentSha256": "30af70a65daccce011e101f790b88328e76ab2cd4d42385a5af724f4b80065d7"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446273624267821117",
+      "contentSha256": "6b5a15176636c9972736a2f1a7e1ee3e0046999817e3ad7177e70d75804a6fcd"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446277326659780970",
+      "contentSha256": "ad9989260fb647867d640be17a525fc85974ae4c1d7a71cb33af96092ea9323a"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446279095204843672",
+      "contentSha256": "db87a1eb253df6ca13bb3fe584bbf7643b2ffd57497ff7ead4cdddddec5bbfd8"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446287198931517545",
+      "contentSha256": "601865b529978890a2c82af7fd622800d34e2239fdb50158ab7d0e4055284e2a"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446289459304861777",
+      "contentSha256": "d887fae8e2e1cbe82ecbe3e6bb0f45e355610804b0fd6592d5f58e66191d4078"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446293527540793345",
+      "contentSha256": "f727660195409d524edfe555e0869e1ab021246c9a8d4958494384aa85f8e576"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446297290074493063",
+      "contentSha256": "9101b4744ce9ed58fcf0e167ae3ef2da9eb4acabf46d65a8a3c81a517496819d"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446316737237880925",
+      "contentSha256": "84bb3b21610d3e1fc06765ec29d8cc53553fd909888b8e4eb460940f5ebdd7f0"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446318130069508166",
+      "contentSha256": "bfa40e0007084a7a1564529fe49022cbeb1a9341e890f65bf0098aea45b63c90"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446320321337753801",
+      "contentSha256": "a3d6e325bce1b9e22ab47b90c03eceec20d4781c0a0b1cd9d86ea96ce5317422"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446548312131108916",
+      "contentSha256": "5055184a37a0590cea83af5219789ae3349c4dcdaded1a59ca43eb3c43eab2ff"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446550968232837270",
+      "contentSha256": "7dce9963d8fe0712d60249e88a743920c2d8d58a3ec2899d60de73ab63ae6b17"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446555131536605408",
+      "contentSha256": "67e549ece8352a01b34d2ab094c99efd875d3214baacaff2bb9a0dfd9c497563"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446557524848545802",
+      "contentSha256": "072313f0c9c216b1c10d64bb5799ecfe6ad79bb064a335b0a5b81a78cea4832e"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1446558817838960773",
+      "contentSha256": "8351f3d0d7438be8d49a84f30b00d64c26dbdcdd45c601db52019a61e8c93714"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1473388914118230240",
+      "contentSha256": "c17244cfddb17c2116da7b814245b32b08159c9cf904fe2baf49ec59bdab65e8"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1473392179392020629",
+      "contentSha256": "3b8b23216f1e84f0861d4b0e136e14fed59d2cf38e4d3adf969207047a0cab72"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1473392862510186710",
+      "contentSha256": "6bec2152358efe2b816102e9429521ed14bee6e72d11afa079cce5500dfa0812"
+    },
+    {
+      "url": "https://discord.com/channels/1177270231513694249/1445231606435545119/1473394014634905714",
+      "contentSha256": "7ad93216507eca648e837446a20a3a790cd0033d3a1ec61a58e2663c1823e2af"
+    }
+  ]
+}

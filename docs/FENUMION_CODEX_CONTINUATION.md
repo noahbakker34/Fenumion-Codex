@@ -1,6 +1,12 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-26
+Last updated: 2026-10-27
+
+## Deeper Thalanbor research · 27 October 2026
+
+Owner asks for a deeper dig. Discovery across 31 external caches (515,834 overlapping message occurrences, not unique messages) and selected original scenes finds the actual research recovery. Six readers combine documents; the narrator confirms success and links their result to Thalanbor’s testament. A complete four-chapter/668-word story records Eldin, Magnus, Olokun, Jiangshi, Gartina and Adelia, and a new Regional timeline entry opens it directly. The NPC grows to seven chapters/1,077 words and the named library to six/636, with its original film/anchors. Jiangshi’s divine description remains attributed. The successful research occurs in an unnamed Silver Star-favored library; no unsupported merger or tome/tool placement is made. Origins, age, death and whereabouts remain unresolved. Details: THALANBOR_DEEP_REVIEW_2026_10_27.md and content/reference/thalanbor-deep-review-2026-10-27.json.
+
+All 69 source identities resolve. Raw sources and protected ingredient identities stay outside public Git; the complete private payload remains exact. All unrelated records, old timeline events, maps, quotes, relationships, sources and media/previews remain unchanged. Catalog281 contains 629 records/580 complete public bodies/2,436 sections and 362 public events. No runtime/style/dependency/pipeline-stage change. Local canonical/calendar/preservation and story/timeline/reader/focused-link/mobile checks pass; expanded profile/region checks also pass, and screenshots are inspected. One public publication follows standing authorization; hosted/live receipt follows completion.
 
 ## Thalanbor and legendary craftlore · 26 October 2026
 

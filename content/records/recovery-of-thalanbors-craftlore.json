@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "recovery-of-thalanbors-craftlore",
+  "title": "Recovering Thalanbor’s Craftlore",
+  "category": "History",
+  "type": "Zarathian research and the recovery of legendary crafting knowledge",
+  "dek": "Six readers turn scattered books, music and unfamiliar treasures into a shared understanding of Thalanbor’s legacy—and a new task for Fenumion’s makers.",
+  "tags": [
+    "Thalanbor",
+    "Zarathis",
+    "Legendary crafting",
+    "Research",
+    "Silver Star",
+    "Fein Uaill"
+  ],
+  "facts": {
+    "Date": "25–26, Month of the Wyrm · Year 2 of the Final War",
+    "Place": "An unnamed Silver Star-favored library in Zarathis",
+    "Researchers": "Eldin, Magnus, Olokun, Jiangshi, Gartina and Adelia",
+    "Outcome": "Thalanbor’s craftlore recovered through collective research",
+    "Next task": "Find the required treasures and attempt the crafting"
+  },
+  "protected": false,
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "The company recovers Thalanbor’s legendary craftlore"
+    ]
+  },
+  "body": "<p>The recovery of Thalanbor’s teaching begins with a company trying to understand unfamiliar objects and ends with a new reason to seek rare treasures. The breakthrough depends on readers bringing different skills to the same table.</p><h2 id=\"recovery-first-evening\">A search that began with unfamiliar treasures</h2><p>On 25, Month of the Wyrm, Year 2, Eldin goes to a library favored by the Silver Star in <a href=\"#zarathis\">Zarathis</a>. He wants help understanding objects associated with Aria. <a href=\"#magnus\">Magnus</a> joins him, and <a href=\"#olokun\">Olokun</a> arrives with little enthusiasm for a night among books. Eldin had invited Jiangshi and Adelia as well.</p><p>They pursue different kinds of evidence. Magnus searches decorated tomes and asks how the objects might fit together. Olokun looks for pictures and studies stars and the metals within them. <a href=\"#jiangshi\">Jiangshi</a> flies up to high shelves and brings down maps, diagrams and scattered musical scores, then searches the lyrics for remembered heroes and remarkable deeds. Eldin reads poetry and passes books around, asking what separate clues mean together.</p><p>The first evening does not bring a settled answer. After a further attempt at interpretation, Eldin slumps, believing he has led the others in the wrong direction. The books and the company’s different approaches remain available for another attempt.</p><h2 id=\"recovery-six-readers\">Six readers bring the documents together</h2><p>The research continues on 26, Month of the Wyrm. <a href=\"#gartina\">Gartina</a> joins the readers, and Eldin fetches a book from a high shelf for her. She finds myth and history entangled. The unfamiliar arcane notation becomes harder work, but she is more confident when the task turns to making deductions from what everyone has gathered.</p><p><a href=\"#adelia-hope\">Adelia</a> studies a moving tree mural, examines the objects with Jiangshi, and starts arranging the books as the connections become clearer. Jiangshi contributes music and encouragement. Magnus brings his notes on the Shadowfell back to the others. Olokun, who began the investigation tired and unenthusiastic, realizes that the group can do what solitary searching had not managed.</p><p>The decisive action is collective: the six bring several books and documents together, point between passages, and compare their interpretations. The narrator confirms that their final attempt succeeds. Eldin, Magnus, Olokun, Jiangshi, Gartina and Adelia share the recovery; it is not the achievement of one scholar discovering everything alone.</p><h2 id=\"recovery-testament\">The teaching they recover</h2><p>The narrator then directs the company to <a href=\"#thalanbor\">Thalanbor the Boundless Artwright’s testament</a>. The connection is explicit: this teaching is the result of the successful research. Thalanbor presents the knowledge of his life’s work, describes creation through arcane, primal and divine powers, and warns that his own pride has sometimes turned achievement into harm.</p><p>The recovered legacy offers a path toward legendary crafting. It gives the company a way to understand rare objects as components and materials for something greater. Jiangshi responds by speaking of a master craftsman and a god of creation. Her description records her interpretation of the discovery; the scene does not establish that Thalanbor holds a divine office.</p><p>The library in this scene remains unnamed. Its Silver Star association is explicit, but no participant identifies it as the later <a href=\"#thalanbor-library\">Thalanbor’s Library</a>. The two places should retain their distinct evidence.</p><h2 id=\"recovery-next-task\">Knowledge becomes a task for makers</h2><p>Eldin turns to Olokun and asks whether he can make the works. Olokun answers that he can try, pleased to recognize a job he would enjoy. Magnus is glad that he learned a craft and immediately thinks about obtaining the components. Adelia keeps arranging the books as their meaning becomes clearer.</p><p>Eldin asks whether they already have any of the needed treasures. Gartina recalls an unidentified organ found in Wrath’s castle, but does not identify it as a particular recipe’s component. The company has gained direction for further work, with the gathering and making still ahead.</p><p>That is the consequence of recovering Thalanbor’s knowledge: unfamiliar treasures can now be pursued as parts of named legendary projects. The scene records successful research, not a completed legendary item, possession of Thalanbor’s tools or an automatic promotion in the <a href=\"#trade-craftsman\">Craftsman trade</a>. <a href=\"#thalanbor?section=thalanbor-unlocks\">Read the named recipes and tool requirements →</a></p>",
+  "sections": [
+    {
+      "id": "recovery-first-evening",
+      "title": "A search that began with unfamiliar treasures",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Research scenes & narrator ruling",
+        "summary": "Selected Zarathian research scenes and explicit narrator adjudication establish the sequence and successful recovery. Character speculation, divine interpretation and unfinished crafting remain qualified.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443000881007300649",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443001760473153687",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443003160850333827",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443019120236036137",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443025257954017360",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443035955467386921",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443044995337814098",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443045744146645115"
+        ]
+      }
+    },
+    {
+      "id": "recovery-six-readers",
+      "title": "Six readers bring the documents together",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Research scenes & narrator ruling",
+        "summary": "Selected Zarathian research scenes and explicit narrator adjudication establish the sequence and successful recovery. Character speculation, divine interpretation and unfinished crafting remain qualified.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443333834476093631",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443337700500312276",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443339793894211625",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443343518260265152",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443348042735423639",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443369321291321455",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443370570161983579",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443370700038475877",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443371236922228818",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443373627578781817",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443374481866362921",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443374859706044529",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375068825649273",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375111410552934"
+        ]
+      }
+    },
+    {
+      "id": "recovery-testament",
+      "title": "The teaching they recover",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Research scenes & narrator ruling",
+        "summary": "Selected Zarathian research scenes and explicit narrator adjudication establish the sequence and successful recovery. Character speculation, divine interpretation and unfinished crafting remain qualified.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443373627578781817",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376827455377508",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377050420248798",
+          "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915"
+        ]
+      }
+    },
+    {
+      "id": "recovery-next-task",
+      "title": "Knowledge becomes a task for makers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Research scenes & narrator ruling",
+        "summary": "Selected Zarathian research scenes and explicit narrator adjudication establish the sequence and successful recovery. Character speculation, divine interpretation and unfinished crafting remain qualified.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375975969849354",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376557304582148",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376594323374160",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376608202326017",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376861588619415",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376962335932426",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377624331059261",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377882649989151"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443000881007300649",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443001760473153687",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443003160850333827",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443019120236036137",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443025257954017360",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443035955467386921",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443044995337814098",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443045744146645115",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443333834476093631",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443337700500312276",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443339793894211625",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443343518260265152",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443348042735423639",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443369321291321455",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443370570161983579",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443370700038475877",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443371236922228818",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443373627578781817",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443374481866362921",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443374859706044529",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375068825649273",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375111410552934",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443375975969849354",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376557304582148",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376594323374160",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376608202326017",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376827455377508",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376861588619415",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443376962335932426",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377050420248798",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377624331059261",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1443377882649989151",
+    "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915"
+  ]
+}

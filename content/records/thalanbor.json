@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "thalanbor",
+  "title": "Thalanbor the Boundless Artwright",
+  "category": "People",
+  "type": "NPC · legendary artwright and craftlore teacher",
+  "dek": "A maker’s testament, twelve legendary recipes, and two tools that future craftsmen must seek: Thalanbor leaves both a path to creation and a warning about its cost.",
+  "tags": [
+    "Thalanbor",
+    "Boundless Artwright",
+    "NPC",
+    "Legendary crafting",
+    "Moonblade",
+    "Hammer of Thunderbolts",
+    "Fein Uaill"
+  ],
+  "aliases": [
+    "Thalanbor",
+    "Boundless Artwright"
+  ],
+  "image": "assets/characters/thalanbor.webp",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Thalanbor with swept-back gray hair and a beard, wearing ornate dark-and-gold armor beside a workbench in a vaulted hall",
+  "imageCaption": "Thalanbor the Boundless Artwright — portrait attached to his testament.",
+  "facts": {
+    "Role": "NPC · legendary maker",
+    "Legacy": "Sacred crafting tome and a library bearing his name",
+    "Craftlore": "Twelve named legendary recipes",
+    "Named tools": "Forge hammer for Moonblade; chisel for the Hammer of Thunderbolts",
+    "Guiding belief": "Creation as stewardship",
+    "Whereabouts": "Unresolved"
+  },
+  "protected": false,
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "thalanbor-unlocks",
+        "title": "What his craftlore unlocks",
+        "sections": [
+          "thalanbor-unlocks"
+        ]
+      },
+      {
+        "id": "thalanbor-legendary-works",
+        "title": "The wider legendary repertoire",
+        "sections": [
+          "thalanbor-legendary-works"
+        ]
+      },
+      {
+        "id": "thalanbor-making",
+        "title": "From knowing a recipe to making the item",
+        "sections": [
+          "thalanbor-making"
+        ]
+      },
+      {
+        "id": "thalanbor-testament",
+        "title": "The artwright in his own words",
+        "sections": [
+          "thalanbor-testament"
+        ]
+      },
+      {
+        "id": "thalanbor-library-legacy",
+        "title": "His name in Fein Uaill",
+        "sections": [
+          "thalanbor-library-legacy"
+        ]
+      },
+      {
+        "id": "thalanbor-unresolved",
+        "title": "What remains to be found",
+        "sections": [
+          "thalanbor-unresolved"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "body": "<p><strong>Thalanbor the Boundless Artwright</strong> is a legendary maker whose surviving testament offers the knowledge of his life’s work to future craftsmen. His importance reaches beyond the library that bears his name: his craftlore opens paths toward legendary items, while his own words ask what a maker owes to the world their creations will change.</p><h2 id=\"thalanbor-unlocks\">What his craftlore unlocks</h2><p>Thalanbor’s legacy gives a skilled maker something to pursue: named legendary works, the rare treasures their recipes demand, and a warning about the responsibility of making them. The craftlore records twelve recipes. Two depend explicitly on his own tools, making the search for Thalanbor’s legacy part of the work of forging the item.</p><p>The <strong>Moonblade</strong> recipe requires a flawless moonstone, metal of a fallen star, and <strong>Thalanbor the Boundless Artwright’s forge hammer</strong>. The <strong>Hammer of Thunderbolts</strong> requires metal from the River Styx, <strong>Thalanbor’s chisel</strong>, and the heart of a sacred mountain. These are named Knight’s Treasures to seek. The recipes do not say where his tools now lie, who holds them, or whether they are expended in the making.</p><p>Another path connects a legendary weapon to the campaign’s people: the <strong>Longbow of the Healing Hearth</strong> calls for <a href=\"#roderick-wrath\">Wrath’s</a> longbow, a leaf of Etz Chaim, and a hair of Grace. Its recipe establishes requirements; it does not establish that a character has acquired them or completed the bow.</p><h2 id=\"thalanbor-legendary-works\">The wider legendary repertoire</h2><p>The same craftlore also records <strong>Death’s Shadow</strong>, <strong>Luckblade</strong>, <strong>Talarith</strong>, <strong>Gloves of Soul Catching</strong>, <strong>Shadowscale Shroud</strong>, <strong>Canary Figurine of Wondrous Power</strong>, <strong>Belt of Storm Giant Strength</strong>, <strong>Ascendant Dragon Vessel</strong>, and <strong>Platinum Scarf</strong>. Together with Moonblade, the Hammer of Thunderbolts and the Longbow of the Healing Hearth, they show the breadth of legendary work available to investigate.</p><p>This is a repertoire of recipes, rather than a record of twelve finished creations by Thalanbor. The surviving testament describes his life’s work; the individual recipe posts do not each identify their inventor. An item’s name alone also leaves its exact powers to its own rules.</p><h2 id=\"thalanbor-making\">From knowing a recipe to making the item</h2><p>Thalanbor addresses his tome to the greatest craftsmen. The <a href=\"#trade-craftsman\">Craftsman trade</a> supplies the practical distinction: Master craftsmen may attempt legendary items when they have the proper supplies, using that trade’s crafting procedure. Its legendary equipment lists require legendary materials and components alongside three Knight’s Treasures.</p><p>The craftlore gives those treasure requirements particular identities. Knowing that Moonblade calls for Thalanbor’s forge hammer tells a maker what to seek; it does not put that hammer in their hands. Learning the recipe, obtaining the required supplies, and successfully making the item remain separate accomplishments. Nothing in the testament grants a reader an automatic Master rank, a finished item, or an exemption from the trade rules.</p><p><a href=\"#fenumion-crafting\">Explore the trades and production chain →</a></p><h2 id=\"thalanbor-testament\">The artwright in his own words</h2><p>In his testament, Thalanbor presents a sacred tome as the knowledge of his life’s work. He describes traveling between worlds and working the forges of distant realms, studying how matter, music, soul and substance can be brought into physical form. He speaks of tempering arcane, primal and divine powers with a maker’s steady hand.</p><p>His account is ambitious, but it also makes room for regret. He admits that pride led him into folly and that some of his triumphs turned against the world he meant to strengthen. He gives no name to those failures. The confession explains why his teaching asks for judgment as well as skill.</p><div class=\"quote\">For creation is not dominion, but stewardship<cite>Thalanbor the Boundless Artwright, testament</cite></div><p>He hopes another maker will surpass both his errors and his achievements. The successor he imagines must do more than reproduce a powerful object: they must decide what their work will leave in the world.</p><h2 id=\"thalanbor-library-legacy\">His name in Fein Uaill</h2><p><a href=\"#thalanbor-library\">Thalanbor the Boundless Artwright’s Library</a> preserves his name in <a href=\"#fein-uaill\">Fein Uaill</a>. Its scholarly life continues in the surviving scenes: Magnus and Eldin read and discuss their studies there. The place gives the artwright’s legacy a destination in the living region, alongside the recipes and the testament.</p><p>The library’s name does not settle whether he founded, designed or endowed it, and the scenes do not identify every book on its shelves. Its association with Thalanbor is established; the presence of this particular sacred tome there remains unconfirmed.</p><h2 id=\"thalanbor-unresolved\">What remains to be found</h2><p>Thalanbor calls the testament his last words for mankind, but the account does not show his death or establish whether he can still be encountered. His age, origin, present whereabouts, the fate of his tools, and the specific works he regrets remain open.</p>",
+  "sections": [
+    {
+      "id": "thalanbor-unlocks",
+      "title": "What his craftlore unlocks",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "reference",
+        "label": "Craftlore & trade reference",
+        "summary": "Three recipe posts establish named requirements, including the two explicit Thalanbor tool dependencies. They do not establish ownership, discovery, expenditure or successful crafting.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1439314661387272438/1439314661387272438",
+          "https://discord.com/channels/1177270231513694249/1439395455220977806/1439395455220977806",
+          "https://discord.com/channels/1177270231513694249/1439302909891186718/1439302909891186718"
+        ]
+      }
+    },
+    {
+      "id": "thalanbor-legendary-works",
+      "title": "The wider legendary repertoire",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "reference",
+        "label": "Craftlore & trade reference",
+        "summary": "Twelve named recipe threads are present. Their grouping with Thalanbor’s testament supports a craftlore connection, not individual authorship or completed items.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1439296893166424115/1439296893166424115",
+          "https://discord.com/channels/1177270231513694249/1439297571653685420/1439297571653685420",
+          "https://discord.com/channels/1177270231513694249/1439302909891186718/1439302909891186718",
+          "https://discord.com/channels/1177270231513694249/1439304907235655781/1439304907235655781",
+          "https://discord.com/channels/1177270231513694249/1439306784056545522/1439306784056545522",
+          "https://discord.com/channels/1177270231513694249/1439314661387272438/1439314661387272438",
+          "https://discord.com/channels/1177270231513694249/1439330652163018824/1439330652163018824",
+          "https://discord.com/channels/1177270231513694249/1439393880624730274/1439393880624730274",
+          "https://discord.com/channels/1177270231513694249/1439394362919227502/1439394362919227502",
+          "https://discord.com/channels/1177270231513694249/1439395455220977806/1439395455220977806",
+          "https://discord.com/channels/1177270231513694249/1439396107687038996/1439396107687038996",
+          "https://discord.com/channels/1177270231513694249/1439810938936098867/1439810938936098867"
+        ]
+      }
+    },
+    {
+      "id": "thalanbor-making",
+      "title": "From knowing a recipe to making the item",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "reference",
+        "label": "Craftlore & trade reference",
+        "summary": "The existing Skill Descriptions reference governs rank, supplies and crafting procedure. The testament is not a separate mechanical rank grant.",
+        "scope": "section",
+        "sources": [
+          "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo",
+          "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915"
+        ]
+      }
+    },
+    {
+      "id": "thalanbor-testament",
+      "title": "The artwright in his own words",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Thalanbor’s testimony",
+        "summary": "The speaker identifies himself as Thalanbor. Travel, long life, cosmic craft and regret remain his autobiographical testimony; unnamed failures are not assigned to particular events.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915"
+        ]
+      }
+    },
+    {
+      "id": "thalanbor-library-legacy",
+      "title": "His name in Fein Uaill",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "The location directory establishes the named place. Selected library scenes establish later study, not the founder’s presence or the location of the sacred tome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1445231606435545119/1446267866822480103",
+          "https://discord.com/channels/1177270231513694249/1445231606435545119/1446268255844171866",
+          "Fein Uaill location directory — full name and regional placement"
+        ]
+      }
+    },
+    {
+      "id": "thalanbor-unresolved",
+      "title": "What remains to be found",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "The testament’s farewell is not a witnessed death. The source supplies no tool locations, present encounter, completed player unlock or named disaster.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915",
+    "https://discord.com/channels/1177270231513694249/1439296893166424115/1439296893166424115",
+    "https://discord.com/channels/1177270231513694249/1439297571653685420/1439297571653685420",
+    "https://discord.com/channels/1177270231513694249/1439302909891186718/1439302909891186718",
+    "https://discord.com/channels/1177270231513694249/1439304907235655781/1439304907235655781",
+    "https://discord.com/channels/1177270231513694249/1439306784056545522/1439306784056545522",
+    "https://discord.com/channels/1177270231513694249/1439314661387272438/1439314661387272438",
+    "https://discord.com/channels/1177270231513694249/1439330652163018824/1439330652163018824",
+    "https://discord.com/channels/1177270231513694249/1439393880624730274/1439393880624730274",
+    "https://discord.com/channels/1177270231513694249/1439394362919227502/1439394362919227502",
+    "https://discord.com/channels/1177270231513694249/1439395455220977806/1439395455220977806",
+    "https://discord.com/channels/1177270231513694249/1439396107687038996/1439396107687038996",
+    "https://discord.com/channels/1177270231513694249/1439810938936098867/1439810938936098867",
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo",
+    "https://discord.com/channels/1177270231513694249/1445231606435545119/1446267866822480103",
+    "https://discord.com/channels/1177270231513694249/1445231606435545119/1446268255844171866",
+    "Fein Uaill location directory — full name and regional placement"
+  ],
+  "sourceReview": {
+    "reviewed": "2026-10-26",
+    "basis": "Owner confirms NPC classification. Selected craftlore posts, first-person testament and compatible library scenes; no new quest outcome inferred.",
+    "limits": "Recipe knowledge is distinct from eligibility, ingredients, ownership and successful crafting. Protected ingredient identities are omitted; no raw transcripts or item-rule images are published."
+  }
+}

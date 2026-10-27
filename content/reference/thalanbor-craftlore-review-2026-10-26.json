@@ -1,0 +1,59 @@
+{
+  "reviewed": "2026-10-26",
+  "request": "Emphasize Thalanbor as an NPC and what his craftlore unlocks.",
+  "sourceFileSha256": "67a5ad809acaf0a3a0d535f2db65ba45de237d18a52684c7f42a0700086cb9e2",
+  "newRecord": "thalanbor",
+  "updatedRecords": [
+    "thalanbor-library",
+    "trade-craftsman"
+  ],
+  "receipts": [
+    "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915",
+    "https://discord.com/channels/1177270231513694249/1439296893166424115/1439296893166424115",
+    "https://discord.com/channels/1177270231513694249/1439297571653685420/1439297571653685420",
+    "https://discord.com/channels/1177270231513694249/1439302909891186718/1439302909891186718",
+    "https://discord.com/channels/1177270231513694249/1439304907235655781/1439304907235655781",
+    "https://discord.com/channels/1177270231513694249/1439306784056545522/1439306784056545522",
+    "https://discord.com/channels/1177270231513694249/1439314661387272438/1439314661387272438",
+    "https://discord.com/channels/1177270231513694249/1439330652163018824/1439330652163018824",
+    "https://discord.com/channels/1177270231513694249/1439393880624730274/1439393880624730274",
+    "https://discord.com/channels/1177270231513694249/1439394362919227502/1439394362919227502",
+    "https://discord.com/channels/1177270231513694249/1439395455220977806/1439395455220977806",
+    "https://discord.com/channels/1177270231513694249/1439396107687038996/1439396107687038996",
+    "https://discord.com/channels/1177270231513694249/1439810938936098867/1439810938936098867",
+    "https://docs.google.com/document/d/1o5ZDxJN3kMW737Z9NQEemu5sFAmbilNcX-zYHcG6Qxo",
+    "https://discord.com/channels/1177270231513694249/1445231606435545119/1446267866822480103",
+    "https://discord.com/channels/1177270231513694249/1445231606435545119/1446268255844171866",
+    "Fein Uaill location directory — full name and regional placement",
+    "https://discord.com/channels/1177270231513694249/1445231606435545119/1446548312131108916"
+  ],
+  "questSearch": {
+    "corpora": [
+      "main-archive",
+      "quest-rp-thread-associations",
+      "all-source-updates-2026-10-24",
+      "codex-text-update-2026-10-23"
+    ],
+    "terms": [
+      "Thalanbor",
+      "Boundless Artwright"
+    ],
+    "result": "No substantive matching quest scene found; not a claim that every quest was read."
+  },
+  "decisions": [
+    "NPC classification follows explicit owner decision.",
+    "Testament is attributed autobiography, not proof of death, age, planar travel or specific disasters.",
+    "Twelve recipes are named; individual authorship, item powers and completed crafting are not inferred.",
+    "Two named tool dependencies and the Healing Hearth recipe are described.",
+    "Master eligibility and supply requirements come from the existing trade reference.",
+    "Protected ingredient identities are omitted.",
+    "Library study does not establish tome/tool location or merge unnamed libraries."
+  ],
+  "image": {
+    "message": "1443366863491960915",
+    "attachment": "1443366864209182782",
+    "sourceSha256": "b71d62e3c3b8c8cbd5019a15dd42a18d140faf13104c64fd05fbc205e07544d8",
+    "path": "assets/characters/thalanbor.webp",
+    "conversion": "Full-size lossless WebP; decoded RGB pixels identical."
+  }
+}

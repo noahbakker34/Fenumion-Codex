@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-26
 
+## Thalanbor and legendary craftlore · 26 October 2026
+
+Owner confirms Thalanbor as an NPC and asks to foreground what he unlocks. A new six-chapter profile leads with twelve legendary recipes and the two named tool dependencies, while preserving his own testament, regret and stewardship ethic. The existing library and Craftsman reference link directly to the crafting chapter; the library gains selected compatible study evidence without inventing the location of his tome/tools. NPC discovery/navigation and Fein association are explicit, without a fabricated score, residence or quest achievement. The attached portrait is inspected and converted losslessly; one lightweight preview is added with every previous preview preserved. No raw transcripts, protected ingredient identities or item-rule images are published. Details: THALANBOR_CRAFTLORE_2026_10_26.md and content/reference/thalanbor-craftlore-review-2026-10-26.json.
+
+Catalog280 contains 628 canonical records, 579 complete public bodies and 2,429 sections; the timeline and all unrelated original records, media, quotes/maps/relationships and complete private payload remain unchanged. Local content/calendar/source/preview/preservation checks, existing profile/regional and full-directory regressions, focused actual crosslinks/NPC classification/date/mobile checks pass; screenshots are inspected. No runtime/style/dependency/pipeline-stage change. One public publication follows standing authorization; hosted/live receipt follows verification.
+
 ## Removing previous-iteration presentation · 26 October 2026
 
 Owner requests a careful cleanup to avoid page bloat. Removes the generic recommendation footer/archive-wide sort, unused guide button, stale sidebar counters, three unused or superseded functions/two obsolete constants, duplicate quote initialization and superseded reading controls. Continuous biographies skip controls/connection rails they previously built then discarded; duplicate hero artwork is excluded before generation. Only older scene/event and character indexes are grouped with references; old anchors open their parent ledger, while current quotes, films, art, relationship maps and consequence links retain separate access. The quote browser preserves ID-free older authenticated collections and all existing public words/anchors. Manual/source/private-payload CSS review removes 131 unreachable selector clauses while retaining dynamic relationship and responsive states. Details: ITERATION_CLEANUP_2026_10_26.md.

@@ -1811,6 +1811,13 @@
       "height": 512,
       "sourceSha256": "ecd11f8f21e542dca9afaefc25a46c802199c5fa7e403729c1dbc2ddba426f9c",
       "sha256": "cb262b34555881d142836f83dd39d182f8d0e5a3bb58d55cd7aea24d71cbe578"
+    },
+    "assets/characters/thalanbor.webp": {
+      "src": "assets/browse/394c48d3924e66bb4a77.webp",
+      "width": 512,
+      "height": 386,
+      "sourceSha256": "2bd7798e2a400dea96e9bc37e5e8fd19fc13e737a0ed26135124ecdd6d5be434",
+      "sha256": "394c48d3924e66bb4a773619870aef531ef6cdd547963a3ea030a72915ce83f7"
     }
   }
 }

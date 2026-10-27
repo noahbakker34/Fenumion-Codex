@@ -16625,6 +16625,19 @@
         "article": "lirael",
         "meta": "Spirit of Verdelune’s wind",
         "summary": "A recurring guide whose presence can point travelers onward without promising to keep them safe."
+      },
+      {
+        "title": "Thalanbor the Boundless Artwright",
+        "aliases": [
+          "Thalanbor",
+          "Boundless Artwright"
+        ],
+        "meta": "NPC · legendary artwright · legacy in Fein Uaill",
+        "article": "thalanbor",
+        "summary": "A maker’s testament, twelve legendary recipes, and two tools that future craftsmen must seek: Thalanbor leaves both a path to creation and a warning about its cost.",
+        "image": "assets/characters/thalanbor.webp",
+        "imageAlt": "Thalanbor with swept-back gray hair and a beard, wearing ornate dark-and-gold armor beside a workbench in a vaulted hall",
+        "imageCaption": "Thalanbor the Boundless Artwright — portrait attached to his testament."
       }
     ],
     "islands": [
@@ -17779,8 +17792,8 @@
         "type": "library",
         "meta": "Fein Uaill · library",
         "article": "thalanbor-library",
-        "summary": "A monumental library confirmed by the location directory and a supplied moving visual record.",
-        "source": "Location directory + moving visual",
+        "summary": "A monumental library in Fein Uaill bearing the name of a legendary artwright, where later scholars pursue their own studies.",
+        "source": "Location directory, moving visual and selected library scenes",
         "aliases": [
           "Thalanbor's Library",
           "Artwright's Library"
@@ -18999,6 +19012,10 @@
             {
               "label": "Swift Foot",
               "article": "swift-foot"
+            },
+            {
+              "label": "Thalanbor the Boundless Artwright",
+              "article": "thalanbor"
             },
             {
               "label": "The Dragonsisters",
@@ -24343,6 +24360,13 @@
         "Factions",
         "Fein Uaill",
         "The Four Factions of Fein Uaill"
+      ]
+    ],
+    [
+      "thalanbor",
+      [
+        "Characters",
+        "Thalanbor the Boundless Artwright"
       ]
     ]
   ],
@@ -33163,6 +33187,10 @@
         {
           "name": "Zeke, Radiant Dawn Sailor",
           "basis": "Radiant Dawn sailor and cultural host · checked scenes"
+        },
+        {
+          "name": "Thalanbor the Boundless Artwright",
+          "basis": "Named library in Fein Uaill; birthplace and current whereabouts unresolved"
         }
       ]
     },
@@ -51099,7 +51127,8 @@
     "emerald-veil",
     "radiant-flame",
     "verdant-circle",
-    "fein-uaill-factions"
+    "fein-uaill-factions",
+    "thalanbor"
   ],
   "timelineRegions": [
     {

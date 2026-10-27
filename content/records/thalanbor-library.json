@@ -8,7 +8,7 @@
   "videoLayout": "landscape-hero",
   "videoAlt": "A moving visual record of Thalanbor the Boundless Artwright’s Library",
   "videoCaption": "Thalanbor the Boundless Artwright’s Library — user-supplied moving location record, 27 September 2026.",
-  "dek": "A monumental library in Fein Uaill whose name survives more clearly than its founder, collections, or institutional history.",
+  "dek": "A monumental library in Fein Uaill bearing the name of a legendary artwright, where later scholars pursue their own studies.",
   "tags": [
     "Thalanbor",
     "Artwright",
@@ -19,14 +19,20 @@
   "facts": {
     "Region": "Fein Uaill",
     "Type": "Library",
-    "Namesake": "Thalanbor the Boundless Artwright",
-    "Status": "Collections unrecovered"
+    "Namesake": "Thalanbor the Boundless Artwright · legendary maker",
+    "Status": "In use in the recovered study scenes; full collections unresolved"
   },
   "sources": [
     "Fein Uaill location directory — full name and regional placement",
-    "User-supplied moving visual record — Thalanbor the Boundless Artwright’s Library, 27 Sep 2026"
+    "User-supplied moving visual record — Thalanbor the Boundless Artwright’s Library, 27 Sep 2026",
+    "https://discord.com/channels/1177270231513694249/1445231606435545119/1446267866822480103",
+    "https://discord.com/channels/1177270231513694249/1445231606435545119/1446268255844171866",
+    "https://discord.com/channels/1177270231513694249/1445231606435545119/1446548312131108916",
+    "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915",
+    "https://discord.com/channels/1177270231513694249/1439314661387272438/1439314661387272438",
+    "https://discord.com/channels/1177270231513694249/1439395455220977806/1439395455220977806"
   ],
-  "body": "<p>Thalanbor the Boundless Artwright’s Library is a named library in <a href=\"#fein-uaill\">Fein Uaill</a>. The full title associates it with Thalanbor and the epithet “the Boundless Artwright,” but the current archive does not yet explain whether Thalanbor founded, designed, owned, endowed, or merely gave a name to the institution.</p>\n      <h2 id=\"thalanbor-evidence\">A visual and a name</h2>\n      <p>The location directory and supplied moving record establish a monumental scholarly place. They do not establish the contents of its collections, who may enter, or how its knowledge relates to the Silver Star and other Zarathian custodians.</p>\n      <h2 id=\"thalanbor-open-record\">The open record</h2>\n      <p>Thalanbor’s biography, the library’s date, administration, specialties, magical properties, and role in regional history remain unresolved.</p>",
+  "body": "<p>Thalanbor the Boundless Artwright’s Library is a named library in <a href=\"#fein-uaill\">Fein Uaill</a>, associated with the legacy of <a href=\"#thalanbor\">Thalanbor</a>, the legendary maker whose testament passes his life’s knowledge to future craftsmen.</p><h2 id=\"thalanbor-evidence\">A visual and a name</h2><p>The location directory and supplied moving record establish a monumental scholarly place. The name connects it to the Boundless Artwright, but does not settle whether he founded, designed, owned or endowed it. Nor should it be merged with another unnamed Zarathian library merely because both hold books.</p><h2 id=\"thalanbor-library-readers\">A place of continuing study</h2><p>Magnus arrives with a research question on 4 December 2025 and finds Eldin reading there. Their encounter establishes a used scholarly space, rather than an abandoned name. Magnus returns to continue studying the following day. His hopes for what the books might contain remain distinct from a confirmed discovery.</p><h2 id=\"thalanbor-library-craftlore\">Follow the artwright’s legacy</h2><p>Thalanbor’s surviving testament describes a sacred tome of creation, admits the cost of his own mistakes, and urges future makers to treat creation as stewardship. The legendary craftlore names his forge hammer as a requirement for Moonblade and his chisel as a requirement for the Hammer of Thunderbolts.</p><p><a href=\"#thalanbor?section=thalanbor-unlocks\">Read Thalanbor’s profile and the legendary crafting paths →</a></p><h2 id=\"thalanbor-open-record\">The open record</h2><p>The library’s foundation date, administration, full collections and admission rules remain unresolved. The study scenes do not confirm that Thalanbor’s sacred tome or his named tools are kept here, and they do not establish his present whereabouts.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
@@ -42,6 +48,38 @@
         "sources": [
           "Fein Uaill location directory — full name and regional placement",
           "User-supplied moving visual record — Thalanbor the Boundless Artwright’s Library, 27 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "thalanbor-library-readers",
+      "title": "A place of continuing study",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Selected compatible library scenes establish use and research attempts, without granting the readers their hoped-for findings.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1445231606435545119/1446267866822480103",
+          "https://discord.com/channels/1177270231513694249/1445231606435545119/1446268255844171866",
+          "https://discord.com/channels/1177270231513694249/1445231606435545119/1446548312131108916"
+        ]
+      }
+    },
+    {
+      "id": "thalanbor-library-craftlore",
+      "title": "Follow the artwright’s legacy",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "reference",
+        "label": "Craftlore & trade reference",
+        "summary": "The testament and named recipe requirements establish a legacy to follow, not the location of the tome or tools.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1443366863491960915/1443366863491960915",
+          "https://discord.com/channels/1177270231513694249/1439314661387272438/1439314661387272438",
+          "https://discord.com/channels/1177270231513694249/1439395455220977806/1439395455220977806"
         ]
       }
     },

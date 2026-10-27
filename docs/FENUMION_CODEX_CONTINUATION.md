@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-27
 
+## Further Fein Uaill NPC histories · 27 October 2026
+
+Owner asks for other Fein NPCs. A new seven-chapter Arandiel biography joins seven/seven/six/three-chapter expansions of Míriel, Sheeva, Kaiya and Minyah. Selected quests and compatible RP preserve individual choices, changes and consequences: Arandiel’s admission of Elenia, fair recognition of Eugene, eventual rest after urging advance and distress over restored soldiers; Míriel’s working portal, limited knowledge, recruitment and political choices; Sheeva’s reprieve, trust and later distant dream; Kaiya’s actual library meeting and reported near-death change; Minyah’s modesty and next planned mission. Claims, ancestry theories and uncertain outcomes remain qualified. Mirae and Thalindra are checked without padding their sparse evidence. All 194 native receipts resolve. Details: FEIN_UAILL_MORE_NPCS_2026_10_27.md and content/reference/fein-more-npc-review-2026-10-27.json.
+
+All nineteen old anchors/references and original media remain. Four existing histories gain links only, the Fein hub retains eight people and adds Arandiel, and one new NPC joins named navigation. A sourced still from her own candidacy animation and one browsing preview are added, with all old media/previews exact. Catalog283 has 631 records/582 public bodies/2,468 sections, 260 people and 261 previews. Existing timeline/world/quote/map/source/private structures remain unchanged. Local static/calendar/source/preservation, profile/region, directory and focused actual-link/bookmark/fresh-mobile checks pass; screenshots are inspected. One publication follows standing authorization; hosted/live receipt follows completion. No runtime/style/dependency/pipeline-stage change.
+
 ## Fein Uaill NPC histories · 27 October 2026
 
 Owner requests Fein NPCs, especially Lady Lucent and Captain Zythienne. Lucent gains a dedicated seven-chapter profile; Zythienne/Fenwae/Zeke receive seven/five/six continuous chapters on existing identities. Histories preserve specific work, grief, social choices, political ambition and changing judgments. Lucent’s independent affiliation, Circle endorsement and later denial remain distinct; an unnamed sister is not assigned a genealogy. Zythienne’s primary-quest gender corrects a stale census summary. Promises, legends, reported care and rival judgments remain attributed, with no invented offices or completed outcomes. All 142 native receipts resolve. Details: FEIN_UAILL_NPCS_2026_10_27.md and content/reference/fein-npc-review-2026-10-27.json.

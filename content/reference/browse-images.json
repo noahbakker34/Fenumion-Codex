@@ -1825,6 +1825,13 @@
       "height": 512,
       "sourceSha256": "7f02644dff7fb36431a194bd7b373146687e40a5df0e14ef90bfeda76c129cbb",
       "sha256": "c9007c6547565fa9059c9d0951627cb367b1fa2cd9d996fb381949a86f3d730f"
+    },
+    "assets/characters/arandiel.webp": {
+      "src": "assets/browse/463fd0fe80551e85217b.webp",
+      "width": 387,
+      "height": 512,
+      "sourceSha256": "36cb9584067ef00045500b22ae42e4539ce6cfafd0edd15c71d0d050c72938bd",
+      "sha256": "463fd0fe80551e85217b257f374e23c524c167b8bf3547a4881bc51a4de1fa91"
     }
   }
 }

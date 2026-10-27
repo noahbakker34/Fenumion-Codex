@@ -2,8 +2,8 @@
   "id": "miriel-emerald-veil",
   "title": "Míriel of the Emerald Veil",
   "category": "People",
-  "type": "Scholar · cultural organizer and political speaker",
-  "dek": "A keeper of knowledge whose research, hospitality and political choices reveal both the reach and the boundaries of Zarathian institutions.",
+  "type": "NPC · Emerald Veil scholar, cultural organizer and political speaker",
+  "dek": "A civic organizer and arcane researcher who welcomes Olokun, opens a working Void passage and brings strong loyalties into the struggle over Aria’s legacy.",
   "tags": [
     "Míriel of the Emerald Veil",
     "Miriel of the Emerald Veil",
@@ -15,30 +15,126 @@
   ],
   "facts": {
     "Institution": "Emerald Veil",
-    "Island connection": "Fein Uaill · Zarathian culture",
-    "Research": "Travel and possible repair; complete success not established",
-    "Political record": "Speaks after Aria’s death and presents her candidacy"
+    "Region": "Fein Uaill · Zarathis",
+    "Age account": "Says she has lived roughly three hundred years; birth date unverified",
+    "Established work": "Olokun’s admission · cultural tour · coordinated portal and Gates",
+    "Research limit": "Passage achieved; complete Void healing not established",
+    "Political record": "Candidate who also favors Magnus; formal later position unresolved"
   },
-  "body": "<p>Míriel introduces the Emerald Veil through food, clothing, wealth, celebrations and libraries. Her institution is concerned with the conditions that let a society work. Later scenes connect that civic purpose to arcane research, cultural hospitality and political ambition. She is an expert and an advocate with positions of her own.</p>\n<h2 id=\"miriel-knowledge-and-manners\">January–August 2025 · information and hospitality</h2><p>At first she describes herself as one of the Emerald Veil, rather than supplying a precise office. In July she welcomes <a href=\"#olokun\">Olokun</a> and his companions, encourages tact and patience and offers introductions. Her expansive description of herself as a keeper of secrets is self-presentation, not proof that she knows every secret.</p><p>An August cultural visit exposes a misunderstanding. Olokun has asked for a tour of Zarathian culture; some visitors instead ask about joining factions. Míriel insists on precise information because it determines whom she brings and what she can offer. She explains institutions as ways people support shared work, then encourages the visitors to share what they have learned.</p><p>Her hospitality is therefore purposeful. She wants outsiders to understand how a people lives, rather than see only courts, military strength or powerful mages.</p>\n<h2 id=\"miriel-research-limits\">Research with boundaries</h2><p>In July she tells Olokun that work has begun on crossing the Veil and potentially healing it. She says the Gate spell bypasses the Void. When he asks about the Gate through which the adventurers arrived, she explicitly says she knows nothing of that specific event and would like to research it.</p><p>Her distinction matters: an expert’s account of a spell does not settle the history of every Gate. Possible healing is a research aim, not a completed restoration. Míriel also emphasizes caution about experiments whose effects are not understood.</p><p>In October she says the Emerald Veil’s mightiest magi can open great Gates when a destination is known, while admitting that the group lacks knowledge of where to go. Powerful transport and comprehensive geography are different capabilities. Her admission that her people rarely venture beyond their own shores preserves the limits of their expertise.</p>\n<h2 id=\"miriel-magic-as-work\">Magic as coordinated work</h2><p>Her research is supported by other practitioners and by planning. During the November preparations she reports uncertainty over the destination before ordering archmages to open Gates and send legions through. The scene shows institutional capacity alongside incomplete information; it does not establish that every member of the Emerald Veil can perform the same work.</p>\n<h2 id=\"miriel-grief-and-politics\">After Aria · grief and ambition</h2><p>After <a href=\"#aria-pride\">Aria’s</a> death, Míriel’s response is far less neutral than the image of a detached scholar might suggest. She describes a broken-hearted people and argues that the outsiders should be exiled, except for <a href=\"#magnus\">Magnus</a>. This is her proposed response, not proof that the punishment was enacted or that every outsider bears equal responsibility.</p><p>In December she presents her own candidacy while also praising Magnus as a returned hero around whom the people might unite. She says she prefers arcane work and the subtlety of words to martial display. The public speech establishes political participation, but leaves her full motive unresolved. Her support for Magnus does not resolve accusations against him or replace <a href=\"#bowene\">Bowene’s</a> later history.</p>\n<h2 id=\"miriel-open-history\">The open history</h2><p>Her formal rank, complete research outcomes, authority within the Emerald Veil and later political position remain unresolved. She is not merged with the separately named Captain Miriel. Her expertise, institutional loyalties and political judgments should remain visible together rather than turning her into an omniscient or politically neutral voice.</p><h2 id=\"recorded-scenes\">Recorded scenes</h2><p>Dates identify transcript postings, not an independently established in-world calendar.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1327837233759387648\">11 January 2025 · the Emerald Veil’s civic work</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394844272091598919\">15 July · Míriel’s self-presentation</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394847234972975127\">Possible repair and her Gate claim</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394847799488806932\">What she does not know</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394851155716341942\">Research caution</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1404621512014561280\">11 August · precise information</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1404660806708101281\">A cultural visit and sharing</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010\">26 October · Gates and known destinations</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1432106034293379144\">The limits of travel experience</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1436153957608194099\">6 November · opening the Gates</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1442249334505869435\">23 November · proposed exile</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1445170766512525505\">1 December · candidacy and praise for Magnus</a></li></ul>",
+  "body": "<p>Míriel makes knowledge useful through people: a welcome, a badge, an introduction, a carefully chosen tour or a team of archmages. She helps outsiders enter Zarathian life and prepares a passage into the Void. When their choices threaten the people and institutions she values, her hospitality becomes much harder to separate from judgment and ambition.</p><h2 id=\"miriel-knowledge-and-manners\">Information, hospitality and a name of her own</h2><p>Míriel introduces the Emerald Veil through food, clothing, money, celebrations and libraries. The society she wants the newcomers to see depends on many people doing small things well. Courts and powerful magic are only part of that work.</p><p>She asks to be called Míriel rather than addressed through titles. In July she playfully offers grand descriptions of herself as a keeper of secrets and uncoverer of things, then returns to her name. The flourish is social self-presentation, not proof that she knows every secret.</p><p>Her welcome has expectations. She praises tact and patience, offers introductions and wants guests to understand the culture that receives them. She can be charming without being indifferent to what a visitor believes or how they behave.</p><h2 id=\"miriel-membership\">Knowledge as a bond between people</h2><p>In her early conversation with Olokun, Míriel asks what draws him to the council. She values diplomacy, useful contributions and the work of helping a household find its place. Her account of the Veil favors collaboration and personal relationships before the simple purchase of whatever someone needs.</p><p>She welcomes him as a member and gives him a badge, explaining the basic libraries, research facilities and help it can open to him. Greater access still requires trust. The encounter establishes this admission; it does not make every later visitor a member or open every collection to everyone.</p><p>Asked about her life, she says she has lived roughly three hundred years and credits the Verdant Circle with extending lives. This is her account of her age and local practice, not an independently recovered birth date.</p><p>She also asks Olokun to write the history of the Gate through which he arrived. She admits she does not know its workings. His experience matters to her precisely because it can supply knowledge her own institutions lack.</p><h2 id=\"miriel-research-limits\">Research with boundaries</h2><p>By the Month of Cala, Year 2, Míriel says researchers have begun finding ways to cross the Veil and perhaps heal it. She distinguishes the Gate spell from ordinary Void travel, yet again says she knows nothing of the particular Gate the company used.</p><p>She describes experiments with powerful illusions and insists that they must understand what they have done before pushing further. The reported effects belong to her research account. A hope of healing the Void is not a completed restoration, and one spell’s behavior does not settle all magic in every part of it.</p><p>That caution coexists with ambition. She is willing to pursue work that could change the reach of her society, but the later expedition will show how far opening a passage remains from understanding everything beyond it.</p><h2 id=\"miriel-evidence-and-culture\">Who is believed, and what a tour can show</h2><p>After the confrontation over Aria’s conduct, Míriel rebukes Olokun for challenging a beloved figure publicly without allies and overwhelming evidence. She says the Veil believes Aria. Her confidence shows the force of reputation inside the institution; it does not resolve the incompatible accounts of the battle.</p><p>She nevertheless praises Scribonia’s quiet discernment and says she is assembling an investigation. That is a stated plan, not a completed report. Her demand for careful evidence remains beside the unequal credibility she gives the people offering it.</p><p>At the cultural visit later that month, a different information failure irritates her. Olokun asked for a tour, but some guests now want faction admission. She brought guides for one purpose and would have chosen differently for the other.</p><p>She explains factions as institutions supporting people with shared strengths, then sends the visitors into the life of the island. On their return she asks them to share what they learned. She wants them to understand workers and ordinary relationships, not only the courts and colleges a grander tour might display.</p><h2 id=\"miriel-magic-as-work\">Opening a way without knowing every destination</h2><p>On 5, Month of Death, Míriel arrives inkstained and singed, smiling over a portal her team has opened after years of work. The expedition actually passes through the opening; this is more than a proposal for future travel.</p><p>She is much less certain about the object they seek. Its existence is inferred from disturbances, its form unknown, and its recovery only a possibility. Aria wants the theory tested. Míriel gives the party sending stones, arranges magical help and promises support for the passage from their side. She warns that they do not know how magic behaves in the Sea.</p><p>At the later war council she says the Veil’s mightiest magi can open great Gates to a known destination, but admits they do not know where the wider war is being fought. Her statement that they have never traveled the Void sits beside the earlier experiment: a working portal and an expedition have not given her people comprehensive routes or mastery of travel.</p><p>In the Month of the Wyrm, she still cannot identify which of three possible battlefields holds the present fighting. She is eager to learn unfamiliar magic, disappointed when an apparent discovery proves a misunderstanding, and finally orders the archmages to open Gates for the legions. Her authority is visible in coordinated work without supplying a complete formal rank.</p><h2 id=\"miriel-grief-and-politics\">After Aria: loyalty, grief and ambition</h2><p>Aria’s death turns Míriel’s questioning toward blame. She asks for Magnus’s account, challenges the claim that Scribonia is dead and fears someone has escaped justice. When Magnus offers to pay, she distinguishes his attempt to defend his liege from the responsibility she attributes to the outsiders.</p><p>She proposes exile for everyone except Magnus. Olokun’s service does not persuade her to swallow the loss. This is an angry political proposal, not the final judgment later delivered by Bowene.</p><p>At the leadership gathering she admits that others see her as ambitious and jealous of Aria. She presents her own candidacy, yet also praises Magnus as a returned hero around whom the people can unite. The narrator separately confirms that she wants him to win. Her affection for arcane work and subtle words does not make her a neutral observer of succession.</p><p>The later memorial exposes another side of her social skill. The narrator identifies her display of crying there as false; after the divine restoration she glowers and anticipates pressing for banishment. That depiction belongs to this occasion. It should not silently turn every earlier expression of loss into a performance, or settle all the motives behind her support for Magnus.</p><h2 id=\"miriel-open-history\">The open history</h2><p>Míriel is a cultural organizer, recruiter, researcher and political actor. Her formal rank, the full outcome of the inquiry she proposes, the completion of the hoped-for repair and her later personal position remain unresolved. She is distinct from both Captain Miriel and Mirae the librarian.</p><p>Her ability to secure cooperation and move knowledge is real. So are the limits she admits and the loyalties that shape whose evidence she will accept. Keeping those together leaves room for an accomplished person whose judgment can still serve her institution and her ambition.</p><h2 id=\"recorded-scenes\">Recorded scenes</h2><p>Dates identify transcript postings, not an independently established in-world calendar.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1327837233759387648\">11 January 2025 · the Emerald Veil’s civic work</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394844272091598919\">15 July · Míriel’s self-presentation</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394847234972975127\">Possible repair and her Gate claim</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394847799488806932\">What she does not know</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394851155716341942\">Research caution</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1404621512014561280\">11 August · precise information</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1404660806708101281\">A cultural visit and sharing</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010\">26 October · Gates and known destinations</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1432106034293379144\">The limits of travel experience</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1436153957608194099\">6 November · opening the Gates</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1442249334505869435\">23 November · proposed exile</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1445170766512525505\">1 December · candidacy and praise for Magnus</a></li></ul>",
   "sources": [
     "Main quest-RP · selected primary scenes; anchors below",
-    "Supplied deep dossier · interpretation checked against quest evidence"
+    "Supplied deep dossier · interpretation checked against quest evidence",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837233759387648",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330241570703937616",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394839742553657495",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394843236341780481",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394844272091598919",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394845285510811778",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330242775991586948",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330244031032066120",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330248680925560874",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330255867282591815",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330257242506919968",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330261789287518240",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330263448269099111",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330270299790376980",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330271468528996422",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330283518374445088",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330284347231568025",
+    "https://discord.com/channels/1177270231513694249/1311748783436202014/1330293514046537738",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847234972975127",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847799488806932",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394848780431659059",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394849872070447204",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394851155716341942",
+    "https://discord.com/channels/1177270231513694249/1311747644879802489/1402442825836003430",
+    "https://discord.com/channels/1177270231513694249/1311747644879802489/1402443243093885039",
+    "https://discord.com/channels/1177270231513694249/1311747644879802489/1402444388927275170",
+    "https://discord.com/channels/1177270231513694249/1311747644879802489/1402444607861817434",
+    "https://discord.com/channels/1177270231513694249/1311747644879802489/1402446967199502417",
+    "https://discord.com/channels/1177270231513694249/1311747644879802489/1402451064388587530",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404619227843002529",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404619998801952930",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404620825755385927",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404621512014561280",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404623013449695342",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404623714707964059",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404660806708101281",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445191540048043",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445908665241803",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424447934103032022",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424449051721601034",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424449615528333443",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424451112106196992",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424453518516814006",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424454950263586826",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424455972620996745",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424456191630774272",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106034293379144",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1436129260632019015",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1436134179694837831",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1436134933482442923",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1436135987528073246",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1436153957608194099",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442242593655095469",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442244425710567476",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442244765214048348",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442244825402572952",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442245568939294872",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442247488424775804",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442249334505869435",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442250607678197794",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445170766512525505",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445208150398468207",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446707577391153314",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446744418051952754"
   ],
   "schemaVersion": 1,
   "protected": false,
   "sections": [
     {
       "id": "miriel-knowledge-and-manners",
-      "title": "January–August 2025 · information and hospitality",
+      "title": "Information, hospitality and a name of her own",
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "Quest scenes & compatible accounts",
+        "summary": "Quest hospitality and compatible RP establish self-presentation and preferences. Expansive personal titles do not confer omniscience.",
+        "scope": "section",
         "sources": [
-          "Main quest-RP · selected primary scenes; anchors below",
-          "Supplied deep dossier · interpretation checked against quest evidence"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837233759387648",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330241570703937616",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394839742553657495",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394843236341780481",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394844272091598919",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394845285510811778"
+        ]
+      }
+    },
+    {
+      "id": "miriel-membership",
+      "title": "Knowledge as a bond between people",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & compatible accounts",
+        "summary": "Compatible RP establishes Olokun’s welcome and offered access. Age, institutional practice and the value she places on his Gate account retain their speaker.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330242775991586948",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330244031032066120",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330248680925560874",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330255867282591815",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330257242506919968",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330261789287518240",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330263448269099111",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330270299790376980",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330271468528996422",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330283518374445088",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330284347231568025",
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330293514046537738"
         ]
       }
     },
@@ -47,43 +143,97 @@
       "title": "Research with boundaries",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest dialogue reports experiments and uncertainty. Potential repair remains a research aim; the specific arrival Gate remains outside her knowledge.",
+        "scope": "section",
         "sources": [
-          "Main quest-RP · selected primary scenes; anchors below",
-          "Supplied deep dossier · interpretation checked against quest evidence"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847234972975127",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847799488806932",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394848780431659059",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394849872070447204",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394851155716341942"
+        ]
+      }
+    },
+    {
+      "id": "miriel-evidence-and-culture",
+      "title": "Who is believed, and what a tour can show",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & compatible accounts",
+        "summary": "Primary quest records the tour; compatible RP records the rebuke and proposed inquiry. Institutional belief is not a narrator’s verdict on the disputed battle.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311747644879802489/1402442825836003430",
+          "https://discord.com/channels/1177270231513694249/1311747644879802489/1402443243093885039",
+          "https://discord.com/channels/1177270231513694249/1311747644879802489/1402444388927275170",
+          "https://discord.com/channels/1177270231513694249/1311747644879802489/1402444607861817434",
+          "https://discord.com/channels/1177270231513694249/1311747644879802489/1402446967199502417",
+          "https://discord.com/channels/1177270231513694249/1311747644879802489/1402451064388587530",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404619227843002529",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404619998801952930",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404620825755385927",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404621512014561280",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404623013449695342",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404623714707964059",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404660806708101281"
         ]
       }
     },
     {
       "id": "miriel-magic-as-work",
-      "title": "Magic as coordinated work",
+      "title": "Opening a way without knowing every destination",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest narrator confirms passage through the portal. The hypothesized artifact, sweeping travel claims and uncertain battlefield remain distinct from that achievement; successful Void healing is not inferred.",
+        "scope": "section",
         "sources": [
-          "Main quest-RP · selected primary scenes; anchors below",
-          "Supplied deep dossier · interpretation checked against quest evidence"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445191540048043",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424445908665241803",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424447934103032022",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424449051721601034",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424449615528333443",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424451112106196992",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424453518516814006",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424454950263586826",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424455972620996745",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424456191630774272",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106034293379144",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1436129260632019015",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1436134179694837831",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1436134933482442923",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1436135987528073246",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1436153957608194099"
         ]
       }
     },
     {
       "id": "miriel-grief-and-politics",
-      "title": "After Aria · grief and ambition",
+      "title": "After Aria: loyalty, grief and ambition",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest dialogue establishes proposals, not enacted sentences. Narration supports her preference for Magnus and the specific performed mourning; it does not invalidate every earlier feeling.",
+        "scope": "section",
         "sources": [
-          "Main quest-RP · selected primary scenes; anchors below",
-          "Supplied deep dossier · interpretation checked against quest evidence"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442242593655095469",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442244425710567476",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442244765214048348",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442244825402572952",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442245568939294872",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442247488424775804",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442249334505869435",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442250607678197794",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445170766512525505",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445208150398468207",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446707577391153314",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446744418051952754"
         ]
       }
     },
@@ -93,12 +243,15 @@
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "Quest scenes & compatible accounts",
+        "summary": "The checked record distinguishes demonstrated activity, reported age, political choices and unanswered research. Similar names do not establish a shared identity.",
+        "scope": "section",
         "sources": [
-          "Main quest-RP · selected primary scenes; anchors below",
-          "Supplied deep dossier · interpretation checked against quest evidence"
+          "https://discord.com/channels/1177270231513694249/1311748783436202014/1330283518374445088",
+          "https://discord.com/channels/1177270231513694249/1311747644879802489/1402451064388587530",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847799488806932",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106034293379144",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445170766512525505"
         ]
       }
     },
@@ -107,20 +260,30 @@
       "title": "Recorded scenes",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The original selected receipt list and destination remain accessible; posting labels do not by themselves establish scene chronology.",
+        "scope": "section",
         "sources": [
-          "Main quest-RP · selected primary scenes; anchors below",
-          "Supplied deep dossier · interpretation checked against quest evidence"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837233759387648",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394844272091598919",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847234972975127",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847799488806932",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394851155716341942",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404621512014561280",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404660806708101281",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432071595136127010",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432106034293379144",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1436153957608194099",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442249334505869435",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445170766512525505"
         ]
       }
     }
   ],
   "brief": {
     "identity": "Scholar · cultural organizer and political speaker",
-    "significance": "A keeper of knowledge whose research, hospitality and political choices reveal both the reach and the boundaries of Zarathian institutions.",
+    "significance": "A civic organizer and arcane researcher who welcomes Olokun, opens a working Void passage and brings strong loyalties into the struggle over Aria’s legacy.",
     "actions": [
       {
         "title": "Magnus asks whether ships could replace Void beasts",
@@ -133,7 +296,7 @@
         "date": "By Jul 2026"
       }
     ],
-    "status": "Last dated entry in this selection: By Jul 2026. Later status is not established here.",
+    "status": "The checked scenes establish the history below; later personal outcomes remain unresolved.",
     "relationships": [
       {
         "id": "olokun",
@@ -159,6 +322,62 @@
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
   },
   "profile": {
-    "achievements": "A keeper of knowledge whose research, hospitality and political choices reveal both the reach and the boundaries of Zarathian institutions."
+    "achievements": "A civic organizer and arcane researcher who welcomes Olokun, opens a working Void passage and brings strong loyalties into the struggle over Aria’s legacy."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "miriel-knowledge-and-manners",
+        "title": "Information, hospitality and a name of her own",
+        "sections": [
+          "miriel-knowledge-and-manners"
+        ]
+      },
+      {
+        "id": "miriel-membership",
+        "title": "Knowledge as a bond between people",
+        "sections": [
+          "miriel-membership"
+        ]
+      },
+      {
+        "id": "miriel-research-limits",
+        "title": "Research with boundaries",
+        "sections": [
+          "miriel-research-limits"
+        ]
+      },
+      {
+        "id": "miriel-evidence-and-culture",
+        "title": "Who is believed, and what a tour can show",
+        "sections": [
+          "miriel-evidence-and-culture"
+        ]
+      },
+      {
+        "id": "miriel-magic-as-work",
+        "title": "Opening a way without knowing every destination",
+        "sections": [
+          "miriel-magic-as-work"
+        ]
+      },
+      {
+        "id": "miriel-grief-and-politics",
+        "title": "After Aria: loyalty, grief and ambition",
+        "sections": [
+          "miriel-grief-and-politics"
+        ]
+      },
+      {
+        "id": "miriel-open-history",
+        "title": "The open history",
+        "sections": [
+          "miriel-open-history",
+          "recorded-scenes"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

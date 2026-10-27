@@ -3,7 +3,7 @@
   "title": "Minyah Dragonsister",
   "category": "People",
   "type": "Zarathian operative and thinking warrior",
-  "dek": "Public honor changes Minyah’s status, but she still calls herself a lowly spy and looks toward the next mission.",
+  "dek": "An honored operative who is still adjusting to public recognition, knows the limits of her court knowledge and chooses another mission while her sisters pursue other lives.",
   "tags": [
     "Minyah",
     "Dragonsisters",
@@ -23,9 +23,19 @@
     "Region": "Fein Uaill"
   },
   "sources": [
-    "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+    "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394853808454111346",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394853893866786866",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394854812964622428",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407541760720109690",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407543673373331527",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407547491620229281",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407549922928103526",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407549352448233512",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1395435824799023145",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394859013459546266"
   ],
-  "body": "<p>Minyah is one of <a href=\"#dragonsisters\">the Dragonsisters</a>, whose long-term intelligence service helped <a href=\"#zarathis\">Zarathis</a> win its war. She waves during the public introduction and shares the elevation to lady of the lands with <a href=\"#sheeva-dragonsister\">Sheeva</a> and <a href=\"#kaiya-dragonsister\">Kaiya</a>.</p>\n<h2 id=\"minyah-honor\">Honor has not changed her self-description</h2>\n<p>At the later August gathering, Minyah tells <a href=\"#scribonia\">Scribonia</a> that the sisters are unused to such invitations. Their wartime work earned them recognition, but she still describes them as simply lowly spies.</p>\n<p>This is her self-perception, not proof that the state never elevated them. The difference preserves the experience of an operative whose work mattered long before the public knew her name.</p>\n<h2 id=\"minyah-mission\">A warrior with a mind</h2>\n<p>While Kaiya turns toward scholarship and Sheeva takes a reprieve, Minyah prepares to go back out. She joins martial identity to the work of thinking:</p>\n<div class=\"quote\">I am a warrior with a mind. I must use it.<cite>Minyah Dragonsister</cite></div>\n<p>The war’s end does not end her sense of usefulness. The next mission’s destination, objectives, and outcome are not supplied by this record.</p>\n<h2 id=\"minyah-relationships\">Service and the sisters</h2>\n<p>Her conversation while dancing with Scribonia is evidence of modesty, unfamiliarity with high society, and continued commitment to work. It does not establish a romantic arc comparable to Sheeva’s relationship with Eugene.</p>\n<p>The sisters remain close while choosing different postwar lives. Minyah’s views on Eugene, her deeper relationship with Eldin, age, ancestry, full wartime experience, and later fate remain unknown.</p>",
+  "body": "<p>Minyah shares <a href=\"#dragonsisters\">the Dragonsisters’</a> public honor, but she is already looking toward work beyond the celebration. Her short recorded conversation with Scribonia reveals a person still adjusting to recognition, careful about what she knows and determined to remain useful.</p><h2 id=\"minyah-honor\">Honor has not changed her self-description</h2><p>At the celebration on 15, Month of Cala, Year 2, Minyah waves as Captain Zythienne presents the three sisters. He honors approximately five years living among the enemy and raises them to ladies of the lands, with care promised to their families.</p><p>At the later gathering in the Month of Moirah, she accepts Scribonia’s invitation to dance, a little shy but not rude. Fine events like this are unfamiliar. She says the sisters’ work in the war has apparently earned them honor, as though the new social world is still something she is learning to inhabit.</p><p>Her modest description of herself and her sisters as lowly spies does not cancel the public elevation. It preserves the distance between work performed out of sight and the status now attached to their names.</p><h2 id=\"minyah-mission\">A warrior with a mind</h2><p>Minyah is preparing another mission. She tells Scribonia that she needs to get back out and use her mind as a warrior. Service remains something she wants to do after recognition, not merely an obligation that ended with the ceremony.</p><p>Kaiya separately says the sisters were given a choice about their next steps: Minyah chose work while she chose passion studies. Sheeva’s intended reprieve offers a third response. Their shared operation has not produced three identical ambitions.</p><p>The next mission’s destination, purpose, departure and outcome remain unrecovered. Preparing to go is a meaningful choice without becoming a completed adventure.</p><h2 id=\"minyah-relationships\">Knowing the limits of her knowledge</h2><p>When Scribonia asks whether his place at the gathering has political significance, Minyah does not pretend to speak for the court. The sisters have been away a long time, she says; someone with greater social standing might know more.</p><p>That restraint matters beside her willingness to return to danger. She can be skilled and publicly honored while still unfamiliar with an institution’s private calculations.</p><p>Her exchange with Scribonia supports a courteous social connection, not an established romance. She remains close to <a href=\"#sheeva-dragonsister\">Sheeva</a> and <a href=\"#kaiya-dragonsister\">Kaiya</a>, but her age, ancestry, fuller wartime history, deeper personal relationships and later fate remain unresolved. Her shorter surviving account is not a reason to supply a future the scenes do not show.</p>",
   "image": "assets/characters/minyah-dragonsister.jpg",
   "imageAlt": "Minyah with long pale hair, horn-like adornments and dark armor, carrying a sword",
   "imageCaption": "Minyah Dragonsister",
@@ -38,12 +48,17 @@
       "title": "Honor has not changed her self-description",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest scenes establish public honor and her later modesty. No estate, legal power or formal command is invented from the title.",
+        "scope": "section",
         "sources": [
-          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394853808454111346",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394853893866786866",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394854812964622428",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407541760720109690",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407543673373331527",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407547491620229281"
         ]
       }
     },
@@ -53,32 +68,36 @@
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "Quest scenes & compatible accounts",
+        "summary": "Primary quest records the plan and Kaiya’s account of choice; compatible RP supplies Sheeva’s intended rest. None establishes Minyah’s next completed mission.",
+        "scope": "section",
         "sources": [
-          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407549922928103526",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407549352448233512",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1395435824799023145"
         ]
       }
     },
     {
       "id": "minyah-relationships",
-      "title": "Service and the sisters",
+      "title": "Knowing the limits of her knowledge",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The quest establishes an explicit limit on court knowledge and a dance. It does not establish romantic status, genealogy or a later fate.",
+        "scope": "section",
         "sources": [
-          "Zarathis_Dragonsisters_NPC_Master.md — supplied 5 October 2026; quest-RP parts 024, 026, 030 and explicit evidence distinctions"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407541760720109690",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407547491620229281",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394859013459546266"
         ]
       }
     }
   ],
   "brief": {
     "identity": "Zarathian operative and thinking warrior",
-    "significance": "Public honor changes Minyah’s status, but she still calls herself a lowly spy and looks toward the next mission.",
+    "significance": "An honored operative who is still adjusting to public recognition, knows the limits of her court knowledge and chooses another mission while her sisters pursue other lives.",
     "actions": [
       {
         "title": "Zarathis honors the Dragonsisters",
@@ -91,7 +110,7 @@
         "date": "19 Aug 2025"
       }
     ],
-    "status": "Last dated entry in this selection: 19 Aug 2025. Later status is not established here.",
+    "status": "The checked scenes establish the history below; later personal outcomes remain unresolved.",
     "relationships": [
       {
         "id": "dragonsisters",
@@ -115,5 +134,32 @@
       }
     ],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "minyah-honor",
+        "title": "Honor has not changed her self-description",
+        "sections": [
+          "minyah-honor"
+        ]
+      },
+      {
+        "id": "minyah-mission",
+        "title": "A warrior with a mind",
+        "sections": [
+          "minyah-mission"
+        ]
+      },
+      {
+        "id": "minyah-relationships",
+        "title": "Knowing the limits of her knowledge",
+        "sections": [
+          "minyah-relationships"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

@@ -15173,7 +15173,7 @@
         ],
         "meta": "Zarathian operative, honored lady, and painter",
         "article": "sheeva-dragonsister",
-        "summary": "A soldierly intelligence operative whose public service, painting, and growing trust in Eugene preserve different parts of her life after war.",
+        "summary": "An honored operative who expects a life after hidden service, turns toward painting and mutual trust with Eugene, and later feels the cost of his absence.",
         "prominence": {
           "consequence": 3,
           "institution": 4,
@@ -15196,7 +15196,7 @@
         ],
         "meta": "Zarathian intelligence operative and scholar",
         "article": "kaiya-dragonsister",
-        "summary": "Patient and cautious, Kaiya turns the instincts of a long-hidden operative toward the poorly documented origins of her own people.",
+        "summary": "A reserved intelligence operative who turns toward ancestry research after a near-fatal experience, tests stories against evidence and makes room for quiet companionship.",
         "prominence": {
           "consequence": 3,
           "institution": 4,
@@ -15217,7 +15217,7 @@
         ],
         "meta": "Zarathian operative and thinking warrior",
         "article": "minyah-dragonsister",
-        "summary": "Public honor changes Minyah’s status, but she still calls herself a lowly spy and looks toward the next mission.",
+        "summary": "An honored operative who is still adjusting to public recognition, knows the limits of her court knowledge and chooses another mission while her sisters pursue other lives.",
         "prominence": {
           "consequence": 3,
           "institution": 4,
@@ -16248,8 +16248,8 @@
       {
         "title": "Míriel of the Emerald Veil",
         "article": "miriel-emerald-veil",
-        "meta": "Scholar · cultural organizer and political speaker",
-        "summary": "A keeper of knowledge whose research, hospitality and political choices reveal both the reach and the boundaries of Zarathian institutions.",
+        "meta": "NPC · Emerald Veil scholar, cultural organizer and political speaker",
+        "summary": "A civic organizer and arcane researcher who welcomes Olokun, opens a working Void passage and brings strong loyalties into the struggle over Aria’s legacy.",
         "aliases": [
           "Míriel of the Emerald Veil",
           "Miriel of the Emerald Veil",
@@ -16722,6 +16722,19 @@
         "image": "assets/characters/lady-lucent.webp",
         "imageAlt": "Lady Lucent with dark curling hair, looking over her shoulder in a black gown embroidered with gold",
         "imageCaption": "Lady Lucent — still from the animation attached to her quest dialogue."
+      },
+      {
+        "title": "Arandiel of the Radiant Flame",
+        "article": "arandiel",
+        "aliases": [
+          "Arandiel",
+          "Lady Arandiel"
+        ],
+        "meta": "NPC · Radiant Flame emissary, military leader and candidate",
+        "summary": "An emissary and military leader who values earned courage, welcomes Elenia, recognizes Eugene’s victory and finds her convictions shaken when her fallen soldiers return.",
+        "image": "assets/characters/arandiel.webp",
+        "imageAlt": "Arandiel with long blonde hair, an ornate pointed crown and green-and-gold armor",
+        "imageCaption": "Arandiel — still from the animation attached to her own candidacy scene."
       }
     ],
     "islands": [
@@ -18823,6 +18836,10 @@
             {
               "label": "Ambassador Sophina",
               "article": "sophina"
+            },
+            {
+              "label": "Arandiel of the Radiant Flame",
+              "article": "arandiel"
             },
             {
               "label": "Aravil",
@@ -24479,6 +24496,13 @@
       [
         "Characters",
         "Lady Lucent"
+      ]
+    ],
+    [
+      "arandiel",
+      [
+        "Characters",
+        "Arandiel of the Radiant Flame"
       ]
     ]
   ],
@@ -33307,6 +33331,10 @@
         {
           "name": "Lady Lucent",
           "basis": "Quest social and political scenes in Zarathis; birthplace not inferred"
+        },
+        {
+          "name": "Arandiel of the Radiant Flame",
+          "basis": "Radiant Flame emissary, military leader and candidate in established quest scenes"
         }
       ]
     },
@@ -39953,6 +39981,10 @@
     [
       "zeke",
       "discovery-281"
+    ],
+    [
+      "lady-arandiel",
+      "arandiel"
     ]
   ],
   "windowData": {
@@ -51246,7 +51278,8 @@
     "fein-uaill-factions",
     "thalanbor",
     "recovery-of-thalanbors-craftlore",
-    "lady-lucent"
+    "lady-lucent",
+    "arandiel"
   ],
   "timelineRegions": [
     {

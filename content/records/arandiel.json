@@ -1,0 +1,309 @@
+{
+  "id": "arandiel",
+  "title": "Arandiel of the Radiant Flame",
+  "category": "People",
+  "type": "NPC · Radiant Flame emissary, military leader and candidate",
+  "tags": [
+    "Arandiel",
+    "Lady Arandiel",
+    "Radiant Flame",
+    "Fein Uaill",
+    "NPC"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327836214744842304",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327838274315616296",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1334194099099533344",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1334195333655167200",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1334197309520613531",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1334204340910555208",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1334205270489829466",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365013018257133669",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365014503934136383",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365016401575678052",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365021252158357659",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365022774673801317",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365024329045381294",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365025519107571834",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365026117244813395",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365030266447335456",
+    "https://discord.com/channels/1177270231513694249/1311747360220512318/1365033522418679839",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1414773557627453533",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1414774196990509126",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1414774598423154810",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1414775522633846917",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1414775829359099965",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1414777618913558650",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1416667835811237908",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1416668633320394872",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1416668786601234432",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1416669652922269748",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1416670007563255891",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1416670559630266559",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424447382552051812",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424454615944138864",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424469525587300506",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424470133916696740",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424470567767244871",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424470809484722352",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424471369332035636",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424472094900621482",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424472457934540823",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424474196578140193",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424479727627796671",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1424483634135564409",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432064325794922619",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432082626092470314",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432097295436091604",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432105346641563718",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445186033615372400",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445161696774721628",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445195573643837542",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445200457474773045",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445201907626016840",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445203589894111303",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445204831534059530",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446699017395503186",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446699524285267979",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446714526652432386",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446715835451179058",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446719695247118468",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446720072507850947",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446720316758954024",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446720857429901416",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446721597317713920",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446721951396663296",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446722376963461212",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446751202330022001",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445161104366899384"
+  ],
+  "dek": "An emissary and military leader who values earned courage, welcomes Elenia, recognizes Eugene’s victory and finds her convictions shaken when her fallen soldiers return.",
+  "facts": {
+    "Role": "NPC · emissary and military leader",
+    "Faction": "Radiant Flame · also recorded as Radiant Dawn",
+    "Region": "Fein Uaill · Zarathis",
+    "Established actions": "Admits Elenia · directs readiness exercise · accompanies the Void expedition",
+    "Political record": "Nominated after Aria’s death; victory not established here",
+    "Latest reviewed scene": "Distressed by the restored soldiers at the memorial"
+  },
+  "body": "<p>Arandiel serves the <a href=\"#radiant-flame\">Radiant Flame</a> as an emissary, military leader and advocate for a future mortals can defend for themselves. She can welcome a newcomer, admit surprise when a rival wins, and put herself in danger beside her warriors. Her hardest encounter comes when soldiers she mourns return through the very power her people reject.</p><h2 id=\"arandiel-ideal\">The future she means to defend</h2><p>When the company arrives in the Month of Talan, Year 2, Arandiel introduces the Flame through growth, courage and the vitality of youth. She speaks with confidence about mortal ascent and the failure of the gods. These are convictions she brings to the newcomers, not a neutral history of every divine act.</p><p>In a later conversation with Elenia she describes a guardian’s station, important but far below the highest councils. She admits that some knowledge of Void travel lies beyond her access. Her forceful manner does not make her the head of the whole faction, or an expert on every power she opposes.</p><p>Her politics also leave little room for compromise with the gods. She hopes a world freed of their corruption might heal; when Elenia asks what happens if it does not, Arandiel answers in terms of vengeance. Hope for a better world and readiness to punish its supposed destroyers are both present from the beginning.</p><h2 id=\"arandiel-choice\">Choice, discipline and Elenia’s welcome</h2><p>By the Month of Namo’o, Arandiel is overseeing ships and an army preparing another wave of war. She is proud of the fleet and the soldiers who defended their land, but the work includes repairing ships, not simply celebrating battle.</p><p>Elenia challenges the difference between sacrificing soldiers and allowing them to choose sacrifice. Arandiel insists that members join freely and fight because they love their people. She also acknowledges the price of refusal: the Legion can remove someone from its community and resources. Her idea of freedom includes a demanding social contract.</p><p>When Elenia asks to join, Arandiel recognizes her charge against the dragon and welcomes her as Knight Elenia of the Radiant Flame. She gives her the faction’s identifying mark and explains that the right to confer it must itself be earned. Recognition follows service already performed; it is not an automatic claim to command.</p><p>She teaches the gestures of respect used among their ranks, then returns to the repairs. Elenia’s later conflict with Zarathian law should not erase this earlier welcome. Arandiel once saw her as someone whose courage belonged beside her own.</p><h2 id=\"arandiel-readiness\">What a commander owes the soldiers</h2><p>At military readiness day in the Month of Nuru, Year 2, Arandiel tests judgment as well as strength. The competitors must retrieve a relic from an island and return it safely. They have troops to command and choices to make; killing opponents is not the whole objective.</p><p>She warns that a commander who wastes soldiers can face a tribunal. People who give their lives deserve respect. Her admiration for boldness therefore sits beside an explicit duty to use lives carefully, even if her confidence in a great general’s foresight is formidable.</p><p>The result challenges her expectations. She had favored Elenia or Wren, but the narrator confirms Eugene’s victory. Arandiel acknowledges his success and lets him keep the cowl he recovered, while rewarding the others’ efforts as well. She can prefer the Flame’s daring and still recognize an outcome that surprises her.</p><p><a href=\"#eugene\">Eugene’s history</a> gives that recognition another view: the anxious questioner proves useful in an exercise where practical success matters more than the reputation he brought with him.</p><h2 id=\"arandiel-void\">Courage at the edge of exhaustion</h2><p>On 5, Month of Death, Year 2, Arandiel accompanies the expedition through the portal prepared by <a href=\"#miriel-emerald-veil\">Míriel’s</a> researchers. She argues that progress costs something and leads her warriors into the breach. Her willingness to pay that cost includes putting herself in danger.</p><p>After losses and punishing travel, she is nearly overcome by exhaustion but still urges the company forward. Asked where, she can offer little more than “somewhere.” Courage has carried her farther than a clear route has.</p><p>Olokun tells her that pointless death brings no glory and that the soldiers need rest. Eugene supports him. The narrator then shows Arandiel looking toward her troops and recognizing their desire; the company does rest. Her initial refusal is not the final action of the scene. She allows another person’s judgment to interrupt her advance.</p><p>She later follows the group’s chosen route and questions a retreat she does not understand. The expedition preserves a brave leader under strain, dependent on companions and incomplete information, rather than an infallible guide through the Void.</p><h2 id=\"arandiel-council\">The cost she brings into council</h2><p>At the council later that month, Arandiel says her forces will be ready, but asks what they will face. Knowing that the gods command legions is not the same as knowing the enemy’s strength or battlefield.</p><p>She presses for results rather than further experiments, invoking the many lives lost on the earlier expedition. The urgency comes from a commander who has seen a cost, even while she remains committed to war.</p><p>When others propose negotiation, she objects that divine forces have already attacked and killed. To her, accepting repeated losses would surrender something essential about Zarathis. Her account explains her refusal to compromise without proving that every possible negotiation would fail.</p><p><a href=\"#war-council-death\">The full war council</a> places her insistence beside the other participants’ warnings, discoveries and competing plans.</p><h2 id=\"arandiel-candidacy\">A fighter in Aria’s shadow</h2><p>After Aria’s death, High Lady Liraeth Dawnbringer nominates Arandiel as the Radiant Dawn’s candidate. The Dawn wording is a recorded variant of the Flame’s name here, not a new fifth faction. Liraeth’s endorsement does not transfer her own position to Arandiel.</p><p>Arandiel offers the city a history of fighting and bleeding for it. She contrasts herself with Captain Zythienne, whom she describes as a commander while she fights. That is a rival’s political argument; the captain’s own history includes promises to risk himself on the front line.</p><p>When Magnus offers cooperation if he wins, she refuses. She distrusts the political favors behind his nomination and calls him a peddler in words rather than the fire Aria embodied. Her appeal to stubbornness makes unity a virtue, but also shows how difficult shared leadership may be for her.</p><p>The position being contested answers Aria’s cultural and military stature. It is distinct from <a href=\"#bowene\">Bowene’s</a> already-held office as High Lord. Arandiel’s candidacy and endorsement do not establish that she wins either position.</p><h2 id=\"arandiel-returned\">When her soldiers come back</h2><p>At the memorial on 5, Month of Hope, Arandiel provides a living flame and describes it as the people’s spirit, something that must never die. She sends soldiers who have themselves lost family. Remembering the dead is a responsibility carried by the living.</p><p>Then Elenia’s act brings ninety-nine soldiers back before the crowd. The narrator establishes the restoration and its divine character; it is not merely Elenia’s claim. Arandiel sees her own soldiers returned and cannot reconcile the joy with the crossing of the boundary she has been taught to preserve.</p><p>Magnus demands that the flame be taken back. Elenia places the torch in Arandiel’s hand and asks her to keep remembrance separate from the dispute. Arandiel yields the torch to Magnus and collapses in tears. Eugene offers a hand, and the narrator describes her accepting comfort without flirtation.</p><p>The woman who demanded resolve now needs support. Her distress does not prove that she loves her soldiers less, or that she has abandoned the beliefs that make their return so difficult for her. The closing scene anticipates a long recovery; its completion, her later command and the eventual repair of her relationship with Elenia are not established.</p>",
+  "sections": [
+    {
+      "id": "arandiel-ideal",
+      "title": "The future she means to defend",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & compatible accounts",
+        "summary": "Primary quest introduces Arandiel. Compatible RP supplies her account of her station and convictions; her explanation of cosmic causality remains belief.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327836214744842304",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327838274315616296",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1334194099099533344",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1334195333655167200",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1334197309520613531",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1334204340910555208",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1334205270489829466"
+        ]
+      }
+    },
+    {
+      "id": "arandiel-choice",
+      "title": "Choice, discipline and Elenia’s welcome",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & compatible accounts",
+        "summary": "Compatible RP records the admission, mark and gestures. Voluntary service and consequences for disobedience are Arandiel’s account of Legion practice.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365013018257133669",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365014503934136383",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365016401575678052",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365021252158357659",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365022774673801317",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365024329045381294",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365025519107571834",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365026117244813395",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365030266447335456",
+          "https://discord.com/channels/1177270231513694249/1311747360220512318/1365033522418679839"
+        ]
+      }
+    },
+    {
+      "id": "arandiel-readiness",
+      "title": "What a commander owes the soldiers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest instructions and narrator-confirmed victory distinguish the objective, duty of care and actual winner. No new generalship is inferred from participation.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1414773557627453533",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1414774196990509126",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1414774598423154810",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1414775522633846917",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1414775829359099965",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1414777618913558650",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1416667835811237908",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1416668633320394872",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1416668786601234432",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1416669652922269748",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1416670007563255891",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1416670559630266559"
+        ]
+      }
+    },
+    {
+      "id": "arandiel-void",
+      "title": "Courage at the edge of exhaustion",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest sequence includes the narrator’s confirmation that the company rests after Olokun intervenes. Resolve and exhaustion do not establish that every further risk was necessary.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424447382552051812",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424454615944138864",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424469525587300506",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424470133916696740",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424470567767244871",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424470809484722352",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424471369332035636",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424472094900621482",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424472457934540823",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424474196578140193",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424479727627796671",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1424483634135564409"
+        ]
+      }
+    },
+    {
+      "id": "arandiel-council",
+      "title": "The cost she brings into council",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Council dialogue establishes military commitments and objections. Her argument for war is not treated as an objective demonstration that peace is impossible.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432064325794922619",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432082626092470314",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432097295436091604",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432105346641563718"
+        ]
+      }
+    },
+    {
+      "id": "arandiel-candidacy",
+      "title": "A fighter in Aria’s shadow",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Speeches establish candidature, rivalry and refusal of Magnus’s overture. Liraeth’s nomination does not establish an electoral or constitutional outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445186033615372400",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445161696774721628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445195573643837542",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445200457474773045",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445201907626016840",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445203589894111303",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445204831534059530",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445161104366899384"
+        ]
+      }
+    },
+    {
+      "id": "arandiel-returned",
+      "title": "When her soldiers come back",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Narrator-confirmed restoration and divine magic are distinct from Arandiel’s emotional response and doctrine. Comfort is explicitly not romantic; later recovery is not silently completed.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446699017395503186",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446699524285267979",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446714526652432386",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446715835451179058",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446719695247118468",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446720072507850947",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446720316758954024",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446720857429901416",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446721597317713920",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446721951396663296",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446722376963461212",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446751202330022001"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "arandiel-ideal",
+        "title": "The future she means to defend",
+        "sections": [
+          "arandiel-ideal"
+        ]
+      },
+      {
+        "id": "arandiel-choice",
+        "title": "Choice, discipline and Elenia’s welcome",
+        "sections": [
+          "arandiel-choice"
+        ]
+      },
+      {
+        "id": "arandiel-readiness",
+        "title": "What a commander owes the soldiers",
+        "sections": [
+          "arandiel-readiness"
+        ]
+      },
+      {
+        "id": "arandiel-void",
+        "title": "Courage at the edge of exhaustion",
+        "sections": [
+          "arandiel-void"
+        ]
+      },
+      {
+        "id": "arandiel-council",
+        "title": "The cost she brings into council",
+        "sections": [
+          "arandiel-council"
+        ]
+      },
+      {
+        "id": "arandiel-candidacy",
+        "title": "A fighter in Aria’s shadow",
+        "sections": [
+          "arandiel-candidacy"
+        ]
+      },
+      {
+        "id": "arandiel-returned",
+        "title": "When her soldiers come back",
+        "sections": [
+          "arandiel-returned"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "image": "assets/characters/arandiel.webp",
+  "imageAlt": "Arandiel with long blonde hair, an ornate pointed crown and green-and-gold armor",
+  "imageCaption": "Arandiel — still from the animation attached to her own candidacy scene.",
+  "imageLayout": "portrait-hero"
+}

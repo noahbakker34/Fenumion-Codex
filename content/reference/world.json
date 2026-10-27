@@ -16128,20 +16128,18 @@
       {
         "title": "Captain Zythienne",
         "article": "discovery-124",
-        "meta": "Captain and ceremony host",
-        "summary": "Introduces herself as Captain Z and welcomes a gathering celebrating a beginning of peace for Zarathis.",
-        "prominence": {
-          "consequence": 3,
-          "institution": 4,
-          "relationships": 3,
-          "recurrence": 9,
-          "score": 62,
-          "reason": "The public welcome locates a captain within Zarathis’s political ceremony.",
-          "confidence": "Provisional"
-        },
+        "meta": "NPC · Zarathian captain, military advocate and civic candidate",
+        "summary": "A commander who speaks of peace while preparing for further war, mourns his son, honors covert service and asks what duty should demand of others.",
+        "prominence": null,
         "image": "assets/characters/discord/b220932f4b033c94806322391eb44ffba834f5e8ece89c5a621528318f190686.png",
         "imageAlt": "Discord depiction of Captain Zythienne",
-        "imageCaption": "Captain Zythienne"
+        "imageCaption": "Captain Zythienne",
+        "aliases": [
+          "Captain Z",
+          "Zythienne",
+          "Zythinne",
+          "Zythiene"
+        ]
       },
       {
         "title": "Scout William",
@@ -16332,7 +16330,7 @@
         "title": "Fenwae, Silver Star Stone Mason",
         "article": "discovery-260",
         "meta": "Silver Star mason and quarry guide",
-        "summary": "Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.",
+        "summary": "A Silver Star mason whose work on drinking water and a teacher’s memorial becomes a patient conversation about discipline, belonging and the possibility of changing one’s mind.",
         "prominence": null,
         "image": "assets/characters/discord/e7722ab63d4c328fa6a41ce5943273b925cbd305da57bd0534e563a588970f37.png",
         "imageAlt": "Recorded depiction of Fenwae, Silver Star Stone Mason",
@@ -16342,7 +16340,7 @@
         "title": "Zeke, Radiant Dawn Sailor",
         "article": "discovery-281",
         "meta": "Radiant Dawn sailor and cultural host",
-        "summary": "Introduces Wren and Elenia to the fleet and explains his guild’s view of exploration.",
+        "summary": "A sailor whose joy in discovery, chosen family and the first step onto an island gives a personal voice to the Radiant Dawn’s outward-looking ambitions.",
         "prominence": null,
         "image": "assets/characters/discord/8a88a4cf131c6aa21c4b92cb57168b21a087fc1f2d4dbf07b1fb9485efb07f4b.png",
         "imageAlt": "Recorded depiction of Zeke, Radiant Dawn Sailor",
@@ -16712,6 +16710,18 @@
         "image": "assets/characters/thalanbor.webp",
         "imageAlt": "Thalanbor with swept-back gray hair and a beard, wearing ornate dark-and-gold armor beside a workbench in a vaulted hall",
         "imageCaption": "Thalanbor the Boundless Artwright — portrait attached to his testament."
+      },
+      {
+        "title": "Lady Lucent",
+        "aliases": [
+          "Lucent"
+        ],
+        "meta": "NPC · independent courtly figure and political candidate",
+        "article": "lady-lucent",
+        "summary": "Lucent can make a crowded room listen. Her stories about leadership, her work during a dangerous trial and her private account of exclusion give that social grace a history beyond the ballroom.",
+        "image": "assets/characters/lady-lucent.webp",
+        "imageAlt": "Lady Lucent with dark curling hair, looking over her shoulder in a black gown embroidered with gold",
+        "imageCaption": "Lady Lucent — still from the animation attached to her quest dialogue."
       }
     ],
     "islands": [
@@ -18827,6 +18837,10 @@
               "article": "captain-hildethrax"
             },
             {
+              "label": "Captain Zythienne",
+              "article": "discovery-124"
+            },
+            {
               "label": "Carmen",
               "article": "carmen"
             },
@@ -18861,6 +18875,10 @@
             {
               "label": "Farkur",
               "article": "farkur"
+            },
+            {
+              "label": "Fenwae, Silver Star Stone Mason",
+              "article": "discovery-260"
             },
             {
               "label": "Gartina",
@@ -18982,6 +19000,10 @@
             {
               "label": "Kumai-218",
               "article": "kumai-218"
+            },
+            {
+              "label": "Lady Lucent",
+              "article": "lady-lucent"
             },
             {
               "label": "Lady Severina",
@@ -19142,6 +19164,10 @@
             {
               "label": "Velkyn Kthonia",
               "article": "velkyn-kthonia"
+            },
+            {
+              "label": "Zeke, Radiant Dawn Sailor",
+              "article": "discovery-281"
             }
           ]
         },
@@ -22154,7 +22180,6 @@
       "discovery-124",
       [
         "Characters",
-        "Discovery registry",
         "Captain Zythienne"
       ]
     ],
@@ -23242,7 +23267,6 @@
       "discovery-260",
       [
         "Characters",
-        "Discovery registry",
         "Fenwae, Silver Star Stone Mason"
       ]
     ],
@@ -23410,7 +23434,6 @@
       "discovery-281",
       [
         "Characters",
-        "Discovery registry",
         "Zeke, Radiant Dawn Sailor"
       ]
     ],
@@ -24449,6 +24472,13 @@
         "Timeline",
         "Event Chronicles",
         "Recovering Thalanbor’s Craftlore"
+      ]
+    ],
+    [
+      "lady-lucent",
+      [
+        "Characters",
+        "Lady Lucent"
       ]
     ]
   ],
@@ -33273,6 +33303,10 @@
         {
           "name": "Thalanbor the Boundless Artwright",
           "basis": "Named library in Fein Uaill; birthplace and current whereabouts unresolved"
+        },
+        {
+          "name": "Lady Lucent",
+          "basis": "Quest social and political scenes in Zarathis; birthplace not inferred"
         }
       ]
     },
@@ -35686,25 +35720,17 @@
         "id": "discovery-124",
         "name": "Captain Zythienne",
         "kind": "npc",
-        "role": "Captain and ceremony host",
-        "summary": "Introduces herself as Captain Z and welcomes a gathering celebrating a beginning of peace for Zarathis.",
+        "role": "NPC · Zarathian captain, military advocate and civic candidate",
+        "summary": "A commander who speaks of peace while preparing for further war, mourns his son, honors covert service and asks what duty should demand of others.",
         "island": "Fein Uaill",
         "posts": 10,
         "span": "2025-07-15 → 2025-12-01",
-        "canonical": "",
+        "canonical": "discovery-124",
         "canonicalName": "Captain Zythienne",
         "sources": [
           "1394852848159817729"
         ],
-        "rating": {
-          "consequence": 3,
-          "institution": 4,
-          "relationships": 3,
-          "recurrence": 9,
-          "score": 62,
-          "reason": "The public welcome locates a captain within Zarathis’s political ceremony.",
-          "confidence": "Provisional"
-        },
+        "rating": null,
         "presence": 9
       },
       {
@@ -38037,7 +38063,7 @@
         "name": "Fenwae, Silver Star Stone Mason",
         "kind": "npc",
         "role": "Silver Star mason and quarry guide",
-        "summary": "Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.",
+        "summary": "A Silver Star mason whose work on drinking water and a teacher’s memorial becomes a patient conversation about discipline, belonging and the possibility of changing one’s mind.",
         "island": "Fein Uaill",
         "posts": 2,
         "span": "2025-08-11 → 2025-08-11",
@@ -38394,7 +38420,7 @@
         "name": "Zeke, Radiant Dawn Sailor",
         "kind": "npc",
         "role": "Radiant Dawn sailor and cultural host",
-        "summary": "Introduces Wren and Elenia to the fleet and explains his guild’s view of exploration.",
+        "summary": "A sailor whose joy in discovery, chosen family and the first step onto an island gives a personal voice to the Radiant Dawn’s outward-looking ambitions.",
         "island": "Fein Uaill",
         "posts": 2,
         "span": "2025-08-11 → 2025-08-11",
@@ -39911,6 +39937,22 @@
     [
       "eshnunna-of-the-eternal-flame",
       "eshnunna"
+    ],
+    [
+      "lucent",
+      "lady-lucent"
+    ],
+    [
+      "captain-zythienne",
+      "discovery-124"
+    ],
+    [
+      "fenwae",
+      "discovery-260"
+    ],
+    [
+      "zeke",
+      "discovery-281"
     ]
   ],
   "windowData": {
@@ -42207,25 +42249,17 @@
           "id": "discovery-124",
           "name": "Captain Zythienne",
           "kind": "npc",
-          "role": "Captain and ceremony host",
-          "summary": "Introduces herself as Captain Z and welcomes a gathering celebrating a beginning of peace for Zarathis.",
+          "role": "NPC · Zarathian captain, military advocate and civic candidate",
+          "summary": "A commander who speaks of peace while preparing for further war, mourns his son, honors covert service and asks what duty should demand of others.",
           "island": "Fein Uaill",
           "posts": 10,
           "span": "2025-07-15 → 2025-12-01",
-          "canonical": "",
+          "canonical": "discovery-124",
           "canonicalName": "Captain Zythienne",
           "sources": [
             "1394852848159817729"
           ],
-          "rating": {
-            "consequence": 3,
-            "institution": 4,
-            "relationships": 3,
-            "recurrence": 9,
-            "score": 62,
-            "reason": "The public welcome locates a captain within Zarathis’s political ceremony.",
-            "confidence": "Provisional"
-          },
+          "rating": null,
           "presence": 9
         },
         {
@@ -44558,7 +44592,7 @@
           "name": "Fenwae, Silver Star Stone Mason",
           "kind": "npc",
           "role": "Silver Star mason and quarry guide",
-          "summary": "Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.",
+          "summary": "A Silver Star mason whose work on drinking water and a teacher’s memorial becomes a patient conversation about discipline, belonging and the possibility of changing one’s mind.",
           "island": "Fein Uaill",
           "posts": 2,
           "span": "2025-08-11 → 2025-08-11",
@@ -44915,7 +44949,7 @@
           "name": "Zeke, Radiant Dawn Sailor",
           "kind": "npc",
           "role": "Radiant Dawn sailor and cultural host",
-          "summary": "Introduces Wren and Elenia to the fleet and explains his guild’s view of exploration.",
+          "summary": "A sailor whose joy in discovery, chosen family and the first step onto an island gives a personal voice to the Radiant Dawn’s outward-looking ambitions.",
           "island": "Fein Uaill",
           "posts": 2,
           "span": "2025-08-11 → 2025-08-11",
@@ -51211,7 +51245,8 @@
     "verdant-circle",
     "fein-uaill-factions",
     "thalanbor",
-    "recovery-of-thalanbors-craftlore"
+    "recovery-of-thalanbors-craftlore",
+    "lady-lucent"
   ],
   "timelineRegions": [
     {

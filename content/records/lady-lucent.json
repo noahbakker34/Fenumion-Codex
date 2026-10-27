@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "lady-lucent",
+  "title": "Lady Lucent",
+  "category": "People",
+  "type": "NPC · independent courtly figure, candidate and intermediary",
+  "dek": "Lucent can make a crowded room listen. Her stories about leadership, her work during a dangerous trial and her private account of exclusion give that social grace a history beyond the ballroom.",
+  "tags": [
+    "Lady Lucent",
+    "Lucent",
+    "Fein Uaill",
+    "Zarathis",
+    "Gartina",
+    "Leadership"
+  ],
+  "aliases": [
+    "Lucent"
+  ],
+  "facts": {
+    "Role": "NPC · social and political figure in Zarathis",
+    "Region": "Fein Uaill",
+    "Leadership record": "Candidate endorsed by the Verdant Circle",
+    "Affiliation": "Declares herself independent; denies Circle membership",
+    "Established actions": "Public speeches · crowd protection during the trial",
+    "Central connection": "Gartina · confidante and would-be supplicant",
+    "Family": "Describes an unnamed sister; exact genealogy unresolved"
+  },
+  "image": "assets/characters/lady-lucent.webp",
+  "imageLayout": "portrait-hero",
+  "imageAlt": "Lady Lucent with dark curling hair, looking over her shoulder in a black gown embroidered with gold",
+  "imageCaption": "Lady Lucent — still from the animation attached to her quest dialogue.",
+  "protected": false,
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "lucent-social-room",
+        "title": "At home in a crowded room",
+        "sections": [
+          "lucent-social-room"
+        ]
+      },
+      {
+        "id": "lucent-equals",
+        "title": "What an equal can offer",
+        "sections": [
+          "lucent-equals"
+        ]
+      },
+      {
+        "id": "lucent-stories",
+        "title": "A candidate who speaks in stories",
+        "sections": [
+          "lucent-stories"
+        ]
+      },
+      {
+        "id": "lucent-trial",
+        "title": "Making room for a dangerous trial",
+        "sections": [
+          "lucent-trial"
+        ]
+      },
+      {
+        "id": "lucent-survivors",
+        "title": "Care before answers",
+        "sections": [
+          "lucent-survivors"
+        ]
+      },
+      {
+        "id": "lucent-belonging",
+        "title": "The woman behind the useful connections",
+        "sections": [
+          "lucent-belonging"
+        ]
+      },
+      {
+        "id": "lucent-open-history",
+        "title": "The open history",
+        "sections": [
+          "lucent-open-history"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "body": "<p><strong>Lady Lucent</strong> is a socially accomplished figure in <a href=\"#zarathis\">Zarathis</a>, an independent candidate after Aria’s death and a recurring confidante of <a href=\"#gartina\">Gartina</a>. She can turn gossip, a story or a well-placed kindness into influence. Later she describes the cost of being valued for what she knows while feeling unwanted herself.</p><h2 id=\"lucent-social-room\">At home in a crowded room</h2><p>At the victory gathering in the Month of Cala, Year 2, Lucent is already a practiced presence in the social life of <a href=\"#zarathis\">Zarathis</a>. Olokun initially thinks she looks lonely; the narrator instead shows her speaking to everyone. Her ease in the room is observed, rather than a loneliness that should be written backward into every appearance.</p><p><a href=\"#gartina\">Gartina’s</a> later diary remembers a witty, charming woman who seems tired of social climbing and might want a more meaningful use for her influence. Gartina encourages charity and philanthropy. That is a sympathetic reading by a new acquaintance, not a completed charitable project or Lucent’s entire private history.</p><h2 id=\"lucent-equals\">What an equal can offer</h2><p>When Gartina approaches her again in the Month of Moirah, Lucent treats the return of Magnus and the attendance of Tyragol as material for lively political conversation. She describes the pleasure of rumor and reads Tyragol’s appearances and absences as deliberate social performance. Her speculation about the hidden leadership of the Silver Star remains rumor, rather than a reliable institutional chart.</p><p>Then the conversation becomes more personal. Lucent says that powerful people often treat love as a distraction from their duty. She sees an equal in intellect, beauty and guile as an asset: someone with whom the burden of secrets can be shared. Her worldly humor does not cancel that argument for companionship. Gartina recognizes something of her own experience in it, and Lucent invites her to return.</p><h2 id=\"lucent-stories\">A candidate who speaks in stories</h2><p>At the leadership gathering on 1, Month of Hope, Year 2, the narrator presents Lucent as someone who could run a noble court. She greets others with precise bows, kisses and a sense of how each gesture will be received. Bowene expects a story when he calls her forward.</p><p>Her first account concerns <a href=\"#aria-pride\">Aria</a> demanding repairs to the Titanwall while the Verdant Circle was turning a crack and its pool into a garden. Lucent remembers a young willow, shade, fine lounges and water, followed by the destruction of that work when Aria’s demand prevailed. It is Lucent’s remembered example of authority overriding other people’s care, not an independently dated account of the wall’s repair.</p><p>Her later speech tells of a river rising while a committee debates the name of its new lagoon. She says she took a shovel, dug a runoff channel and drew others into helping before the council finished talking. She offers this as her model of leadership: see the danger, act, and accept the mud. Gartina praises the indirect argument.</p><p><a href=\"#discovery-284\">Thalindra</a> nominates her for the <a href=\"#verdant-circle\">Verdant Circle</a>. Lucent also tells Gartina that she has no affiliation and distrusts power structures. The endorsement and that declaration both belong in her history. Neither makes her the winner of the contest or an automatically enrolled member of the faction.</p><h2 id=\"lucent-trial\">Making room for a dangerous trial</h2><p>After the election, Lucent is less buoyant at another gathering. The narrator cautiously suggests disappointment; her own explanation to Gartina is broader. She says that people cannot remember a Zarathis without Aria and now do not know how to function without that cornerstone. This is her account of the city’s confusion, rather than proof that Aria literally existed forever or held every office.</p><p>When the confrontation between <a href=\"#elenia\">Elenia</a> and <a href=\"#magnus\">Magnus</a> becomes a trial, Lucent steps forward to move the spectators back. Olokun helps, Gartina watches the boundary, and Lucent seeks Tarwen’s assistance as well. She confirms that the immediate combat is the trial when Elenia asks whether it will bring further trouble.</p><p>On 6, Month of Hope, she begins getting people away before an agitated crowd turns violent. It is practical work in a dangerous room. The socialite who tells a story about taking up a shovel is also willing to organize a space when other people may be hurt.</p><h2 id=\"lucent-survivors\">Care before answers</h2><p>Late in the Month of War, Year 3, Gartina finds Lucent among minor nobles in a garden and asks for a private conversation. She approaches because she remembers the shovel story and wants to help the survivors of a recently arrived ship.</p><p>Lucent says that Tarwen and <a href=\"#discovery-124\">Captain Zythienne</a> have personally overseen their care. She also cautions that the survivors have undergone intense trauma. They report losing their home and have shown illusions of it, but their origins and former work remain uncertain. She does not settle whether they were merchants, pirates or something else before they can be questioned safely.</p><p>Gartina’s concern receives both reassurance and a reason to wait. Lucent connects the possibility of a larger danger with the need for better information, while keeping the immediate wellbeing of the survivors in view.</p><h2 id=\"lucent-belonging\">The woman behind the useful connections</h2><p>Gartina eventually asks to enter the Verdant Circle through her. Lucent laughs at the assumption, then answers more painfully: she has high, familial connections, but is not part of the Circle. She describes having risen high, fallen far, and become someone whose knowledge is wanted more than her company.</p><div class=\"quote\">They want what I have and what I know--but not me.<cite>Lady Lucent</cite></div><p>Asked why the Circle nominated her, she describes it as her sister saying that she loves her, forgives her and still believes in her. She offers to speak to that sister about sending people to Gartina. The scene records an offer and Gartina’s acceptance, not her completed admission to the faction.</p><p>Lucent warns that her sister is misguided and may need help, but repeatedly asks Gartina to remember that she loves her. Affection survives her criticism. Her last advice returns to the natural world and its overlooked intelligence: notice how an ant survives, and perhaps listen to the roses as well as smelling them. These are Lucent’s words and hints, not a fully revealed network of agents.</p><h2 id=\"lucent-open-history\">The open history</h2><p>Lucent’s title and social standing are visible, but the office or estate behind them is not established. The cause of the fall she describes, her age and origin, the full nature of her family connections, and the result of her offer to Gartina remain unresolved. Her candidacy should not turn into a victory she did not win in these scenes, and her ability to make a room listen does not make every story she tells objective history.</p>",
+  "sections": [
+    {
+      "id": "lucent-social-room",
+      "title": "At home in a crowded room",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & compatible accounts",
+        "summary": "The quest narrator establishes a socially active presence. Gartina’s later diary remains her interpretation of their encounter.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394861569799622696",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394861824687603848",
+          "https://discord.com/channels/1177270231513694249/1201218376849162250/1395080701501640916"
+        ]
+      }
+    },
+    {
+      "id": "lucent-equals",
+      "title": "What an equal can offer",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Lucent’s political commentary and philosophy of partnership are her own statements. The scene establishes the conversation, not every rumor it discusses.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407542261331394560",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407542705336094840",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407544820171411557",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407546395321434222",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407548836758421615",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407550405507940364",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407552417574424677",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407554370916061325",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1407555127161913415"
+        ]
+      }
+    },
+    {
+      "id": "lucent-stories",
+      "title": "A candidate who speaks in stories",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest scenes establish candidacy, speeches and nomination. The Titanwall and flood are anecdotes Lucent tells; endorsement does not establish membership or victory.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445147268037611662",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445173976740659311",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445175108854349846",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445194033927426131",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445194671499509871",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445200451887698024",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445201056098291884",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445205532938862734"
+        ]
+      }
+    },
+    {
+      "id": "lucent-trial",
+      "title": "Making room for a dangerous trial",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The narrator and participants establish the crowd work during the trial. Lucent’s account of Aria’s absence and her earlier disappointment remain qualified.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446699197855174697",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446701772348325959",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446703680425427125",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446725338309595146",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446725784998776903",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446726288667709500",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446729240237183027",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446729319064801300",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446729459271991457",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1446749886660874391"
+        ]
+      }
+    },
+    {
+      "id": "lucent-survivors",
+      "title": "Care before answers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The observed exchange establishes an offer of help and Lucent’s report. Care by Tarwen/Zythienne and the survivors’ history remain attributed; no origin is supplied.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487279974938579054",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487281321267953665",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487281695165120623",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487282809776373820",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487286141446258691",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487288300749197353",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487289943582707763"
+        ]
+      }
+    },
+    {
+      "id": "lucent-belonging",
+      "title": "The woman behind the useful connections",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Lucent explicitly denies faction membership and describes familial ties, estrangement and a possible referral. Her sister is not assigned a confirmed identity or genealogy; the promised outcome is not invented.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487297108989182133",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487297540087877762",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487298881329827931",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487299230589649019",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487300159737167872",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487300832247549982",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487302787787260025",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487304694828109834",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487305869573226700",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487306657493942353",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487306948029448192"
+        ]
+      }
+    },
+    {
+      "id": "lucent-open-history",
+      "title": "The open history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "The reviewed sources do not settle these gaps. Private correspondence from protected-location material is excluded from this public profile.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445194671499509871",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445205532938862734",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487297540087877762",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487299230589649019"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394861569799622696",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394861824687603848",
+    "https://discord.com/channels/1177270231513694249/1201218376849162250/1395080701501640916",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407542261331394560",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407542705336094840",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407544820171411557",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407546395321434222",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407548836758421615",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407550405507940364",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407552417574424677",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407554370916061325",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1407555127161913415",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445147268037611662",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445173976740659311",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445175108854349846",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445185198923845744",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445194033927426131",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445194671499509871",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445200451887698024",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445201056098291884",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445205532938862734",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446699197855174697",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446701772348325959",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446703680425427125",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446725338309595146",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446725784998776903",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446726288667709500",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446729240237183027",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446729319064801300",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446729459271991457",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1446749886660874391",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487279974938579054",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487281321267953665",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487281695165120623",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487282809776373820",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487286141446258691",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487288300749197353",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487289943582707763",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487297108989182133",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487297540087877762",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487298881329827931",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487299230589649019",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487300159737167872",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487300832247549982",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487302787787260025",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487304694828109834",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487305869573226700",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487306657493942353",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487306948029448192"
+  ],
+  "sourceReview": {
+    "reviewed": "2026-10-27",
+    "basis": "Owner explicitly requests Lady Lucent as a Fein Uaill NPC. Quest scenes govern compatible RP; testimony and promises remain attributed.",
+    "limits": "No faction membership, political victory, named sister, origin, estate or completed referral is invented. Protected-location correspondence is excluded."
+  }
+}

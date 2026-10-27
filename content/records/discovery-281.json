@@ -3,18 +3,18 @@
   "title": "Zeke, Radiant Dawn Sailor",
   "category": "People",
   "type": "Radiant Dawn sailor and cultural host",
-  "dek": "Introduces Wren and Elenia to the fleet and explains his guild’s view of exploration.",
+  "dek": "A sailor whose joy in discovery, chosen family and the first step onto an island gives a personal voice to the Radiant Dawn’s outward-looking ambitions.",
   "tags": [
     "Zeke, Radiant Dawn Sailor",
     "NPC"
   ],
   "facts": {
-    "Role": "Radiant Dawn sailor and cultural host",
-    "Island": "Fein Uaill",
-    "Original census posts": "2",
-    "Original census posting span": "2025-08-11 → 2025-08-11",
-    "Prominence": "Unrated",
-    "Recorded presence": "3/20"
+    "Role": "NPC · sailor and cultural host",
+    "Guild wording": "Radiant Dawn / Radiant Flame",
+    "Region": "Fein Uaill",
+    "Values expressed": "Exploration · chosen family · a life fully experienced",
+    "Personal account": "Rescued his captain; named an island Ezekenine",
+    "Recorded visitors": "Wren and Elenia"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
@@ -24,58 +24,180 @@
     "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625139399786496/1404626451612958780",
     "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625139399786496/1404627747300446339",
     "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625139399786496/1404629420303454349",
-    "Portrait source · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625139399786496/1404657568407883817"
+    "Portrait source · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625139399786496/1404657568407883817",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404618762879242273",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404624267953307699",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404624631339548694",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404625254210605178",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404626451612958780",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404626823198801981",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404627293900378262",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404631819646668911",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404633343894491226",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404635192987095041",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404627747300446339",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404628422986170511",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404628561805053964",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404629209518833875",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404629420303454349",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404630088795815978",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404631042043678721",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404631251670929451",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404633001874427995",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404634614294642768",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404641523701776474",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404642277162221580",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404644654728740995",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404645028524986421",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404645752424366140",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404646980625371159",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404651763868499988",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404651959763472414",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404652477080539269",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404653024101798069",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404653945401639095",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404654397346283531",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404656248573395004",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404656550156570706",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404657019125764167",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404657228212076585",
+    "https://discord.com/channels/1177270231513694249/1404625139399786496/1404657304279974120"
   ],
-  "body": "<p>Introduces Wren and Elenia to the fleet and explains his guild’s view of exploration.</p><h2 id=\"discovery-281-checked-history\">Recorded role and choices</h2><p>Zeke escorts the visitors to the docks and describes planned northern-sea exploration, with the Radiant Dawn mapping and confronting dangers before Emerald Veil scholars investigate. His enthusiasm for the open sea gives that institutional account a personal basis. Statements about Zarathian destiny, individual freedom and the guilds remain his beliefs and explanations. The proposed expedition is not silently treated as completed.</p><h2 id=\"discovery-281-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-281-record\">Archive record</h2><p>The census records 2 posts across 2025-08-11 → 2025-08-11. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1404618762879242273\">Recorded scene · 1404618762879242273</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p><strong>Zeke</strong> is a sailor who loves the sight of a ship leaving harbor. During the Zarathian cultural visit he takes Wren and Elenia to the fleet, speaks of exploration as a calling and tries to share the freedom he has found in the <a href=\"#radiant-flame\">Radiant Dawn</a>. His warmth gives the visitors a person to talk to, while his own limits keep him from becoming the voice of every institution.</p><h2 id=\"discovery-281-checked-history\">Showing visitors the fleet</h2><p>Zeke meets the visitors during the cultural gathering on 11, Month of Moirah, Year 2, and offers to show them the docks. <a href=\"#wren\">Wren</a> and <a href=\"#elenia\">Elenia</a> go with him. He is an enthusiastic sailor of the Radiant Dawn, the wording his scenes use alongside Radiant Flame.</p><p>His introduction gives the visitors a working person’s way into Zarathian culture. His own authority has limits: an affection for the sea does not make him an expert on the whole balance of civic power.</p><h2 id=\"zeke-island\">The island he says he named</h2><p>Circles take the company to the coast, where the fleet is being worked on. Zeke describes a planned expedition to chart northern seas and volcanic islands. The venture excites Wren’s interest in making a settlement, but its departure and result are not shown in the tour.</p><p>He has a personal story of discovery. He says he rescued his captain from going overboard in a storm, and later received the right to land first on a newly cooled, uncharted island. He named it Ezekenine. Its small size did not make the experience small to him: a common sailor had been given the first step.</p><p>The story preserves what he values in the guild. It gives him a way to explore, to earn a memorable experience and to feel that his own life can matter. No recovered map independently fixes Ezekenine’s position or verifies every part of the account.</p><h2 id=\"zeke-freedom\">The freedom of serving a chosen family</h2><p>Zeke explains the cooperation he knows: his people find places, chart them and confront dangers, then Emerald Veil scholars come to study. He speaks proudly of spreading Zarathian prosperity, knowledge and glory. Those are his ideals and his account of their work, not proof that every expedition benefits everyone it encounters.</p><p>When the visitors ask about freedom and faction loyalties, he insists that everyone serves someone. Yet he describes the Flame as what lets him be free. It gives his love of the open sea an avenue and a chosen family. He would choose that guild, he says, if forced to choose between it and Aria.</p><p>He cannot answer every institutional question Wren asks. His explanation returns to the life he knows: he is a sailor who gets to do what he loves. The limitation makes his account particular rather than a final statement of Zarathian constitutional order.</p><h2 id=\"zeke-flame\">The past he would rather live beyond</h2><p>Asked about the Radiant Flame, Zeke tells a legend of mortals stealing Cala’s flame after abandonment and social collapse. He also says that, for him, the story may be allegorical. Whether a physical sacred flame is held somewhere is beyond his station and knowledge.</p><p>He credits the Silver Star with preserving old knowledge, even while finding that work less exciting than discovery. He wants new experience more than a lifetime spent learning how others lived. His life should burn brightly enough that he can look back with wonder, whether or not anyone else remembers it.</p><p><a href=\"#radiant-flame\">Read the faction’s wider history and its different voices →</a></p><h2 id=\"zeke-host\">A host with a purpose</h2><p>The tour is friendly, but it is also meant to persuade. Zeke is delighted when Wren finds the culture appealing and thinks Míriel will be pleased. Wren is briefly surprised that winning them over was part of his aim. Their encounter allows enthusiasm and cultural advocacy to stand together.</p><p>He recognizes Elenia’s standing and says she may take a boat and bring guests. That assurance belongs to this exchange with this visitor; it is not a universal entitlement for every reader. Elenia asks him to come if they sail, and he would like to, provided he has not already left with the planned expedition.</p><p>For now, he has promised to return the visitors to <a href=\"#miriel-emerald-veil\">Míriel</a> before her departure. His excitement gives way to remembering the arrangement. He bows and leads them back.</p><h2 id=\"discovery-281-prominence\">Evidence and limits</h2><p>Zeke’s tour gives the visitors a working sailor’s understanding of his culture. His remembered island landing, his explanation of the guilds and the legend he finds inspiring are all parts of that account. His own admissions of limited knowledge remain alongside his confidence.</p><h2 id=\"discovery-281-record\">The open record</h2><p>Zeke’s later voyage, his return, the exact position of the island he named and his complete service record remain unresolved. His warmth and conviction are visible; his legends and claims about the whole society should retain their attribution.</p><p><a href=\"#npc-discovery-registry\">Open the source discovery registry →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
     {
       "id": "discovery-281-checked-history",
-      "title": "Recorded role and choices",
+      "title": "Showing visitors the fleet",
       "chapter": "History & consequences",
       "evidence": {
         "kind": "quest",
-        "label": "Recorded quest scenes",
-        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The checked quest gathering establishes his role and offer of a tour. Dawn/Flame wording is preserved without creating another faction.",
         "scope": "section",
         "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404618762879242273",
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1404624267953307699",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404624631339548694"
+        ]
+      }
+    },
+    {
+      "id": "zeke-island",
+      "title": "The island he says he named",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The tour is observed. The rescue, first landing and naming are Zeke’s remembered account; the northern expedition remains a plan.",
+        "scope": "section",
+        "sources": [
           "https://discord.com/channels/1177270231513694249/1404625139399786496/1404625254210605178",
           "https://discord.com/channels/1177270231513694249/1404625139399786496/1404626451612958780",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404626823198801981",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404627293900378262",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404631819646668911",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404633343894491226",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404635192987095041"
+        ]
+      }
+    },
+    {
+      "id": "zeke-freedom",
+      "title": "The freedom of serving a chosen family",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Zeke’s political and cultural explanations retain their speaker; his account does not establish every jurisdiction or every expedition’s effects.",
+        "scope": "section",
+        "sources": [
           "https://discord.com/channels/1177270231513694249/1404625139399786496/1404627747300446339",
-          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404629420303454349"
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404628422986170511",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404628561805053964",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404629209518833875",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404629420303454349",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404630088795815978",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404631042043678721",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404631251670929451",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404631819646668911",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404633001874427995",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404634614294642768"
+        ]
+      }
+    },
+    {
+      "id": "zeke-flame",
+      "title": "The past he would rather live beyond",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Legend and doctrine are attributed to Zeke, including his own doubt about a literal reading. Protected cosmological explanations are not supplied.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404641523701776474",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404642277162221580",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404644654728740995",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404645028524986421",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404645752424366140",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404646980625371159"
+        ]
+      }
+    },
+    {
+      "id": "zeke-host",
+      "title": "A host with a purpose",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The scene establishes persuasion, an assurance to Elenia and an invitation conditional on his availability. It does not establish a later voyage or a general rule of access.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404651763868499988",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404651959763472414",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404652477080539269",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404653024101798069",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404653945401639095",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404654397346283531",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404656248573395004",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404656550156570706",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404657019125764167",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404657228212076585",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404657304279974120"
         ]
       }
     },
     {
       "id": "discovery-281-prominence",
-      "title": "Prominence and evidence",
+      "title": "Evidence and limits",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "reference",
+        "label": "Record & reading limits",
+        "summary": "Original census metadata is retained in the editorial review without a new numerical character ranking.",
+        "scope": "section",
         "sources": [
-          "Recently Discovered NPCs census · posting spans and raw labels",
-          "Source-checked quest-RP scene anchors"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404618762879242273"
         ]
       }
     },
     {
       "id": "discovery-281-record",
-      "title": "Archive record",
+      "title": "The open record",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "No later outcome, island location or broader command is inferred.",
+        "scope": "section",
         "sources": [
-          "Recently Discovered NPCs census · posting spans and raw labels",
-          "Source-checked quest-RP scene anchors"
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404626451612958780",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404633343894491226",
+          "https://discord.com/channels/1177270231513694249/1404625139399786496/1404653024101798069"
         ]
       }
     }
@@ -92,5 +214,66 @@
   "image": "assets/characters/discord/8a88a4cf131c6aa21c4b92cb57168b21a087fc1f2d4dbf07b1fb9485efb07f4b.png",
   "imageAlt": "Recorded depiction of Zeke, Radiant Dawn Sailor",
   "imageCaption": "Zeke, Radiant Dawn Sailor",
-  "imageLayout": "portrait-hero"
+  "imageLayout": "portrait-hero",
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "discovery-281-checked-history",
+        "title": "Showing visitors the fleet",
+        "sections": [
+          "discovery-281-checked-history"
+        ]
+      },
+      {
+        "id": "zeke-island",
+        "title": "The island he says he named",
+        "sections": [
+          "zeke-island"
+        ]
+      },
+      {
+        "id": "zeke-freedom",
+        "title": "The freedom of serving a chosen family",
+        "sections": [
+          "zeke-freedom"
+        ]
+      },
+      {
+        "id": "zeke-flame",
+        "title": "The past he would rather live beyond",
+        "sections": [
+          "zeke-flame"
+        ]
+      },
+      {
+        "id": "zeke-host",
+        "title": "A host with a purpose",
+        "sections": [
+          "zeke-host"
+        ]
+      },
+      {
+        "id": "discovery-281-prominence",
+        "title": "The record and its limits",
+        "sections": [
+          "discovery-281-prominence",
+          "discovery-281-record"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "sourceReview": {
+    "reviewed": "2026-10-27",
+    "previousCensusFacts": {
+      "Role": "Radiant Dawn sailor and cultural host",
+      "Island": "Fein Uaill",
+      "Original census posts": "2",
+      "Original census posting span": "2025-08-11 → 2025-08-11",
+      "Prominence": "Unrated",
+      "Recorded presence": "3/20"
+    },
+    "basis": "Quest introduction and compatible attached cultural visit. Role, memories, beliefs and planned outcomes remain distinct."
+  }
 }

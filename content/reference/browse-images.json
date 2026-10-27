@@ -1818,6 +1818,13 @@
       "height": 386,
       "sourceSha256": "2bd7798e2a400dea96e9bc37e5e8fd19fc13e737a0ed26135124ecdd6d5be434",
       "sha256": "394c48d3924e66bb4a773619870aef531ef6cdd547963a3ea030a72915ce83f7"
+    },
+    "assets/characters/lady-lucent.webp": {
+      "src": "assets/browse/c9007c6547565fa9059c.webp",
+      "width": 387,
+      "height": 512,
+      "sourceSha256": "7f02644dff7fb36431a194bd7b373146687e40a5df0e14ef90bfeda76c129cbb",
+      "sha256": "c9007c6547565fa9059c9d0951627cb367b1fa2cd9d996fb381949a86f3d730f"
     }
   }
 }

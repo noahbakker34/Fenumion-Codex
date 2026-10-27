@@ -2,27 +2,57 @@
   "id": "discovery-124",
   "title": "Captain Zythienne",
   "category": "People",
-  "type": "Captain and ceremony host",
-  "dek": "Introduces herself as Captain Z and welcomes a gathering celebrating a beginning of peace for Zarathis.",
+  "type": "NPC · Zarathian captain, military advocate and civic candidate",
+  "dek": "A commander who speaks of peace while preparing for further war, mourns his son, honors covert service and asks what duty should demand of others.",
   "tags": [
     "Captain Zythienne",
     "npc",
     "Fein Uaill"
   ],
   "facts": {
-    "Role": "Captain and ceremony host",
-    "Island": "Fein Uaill",
-    "Census posts": "10",
-    "Recorded span": "2025-07-15 → 2025-12-01",
-    "Prominence": "62/100 · Provisional",
-    "Recorded presence": "9/20",
-    "Region": "Fein Uaill"
+    "Role": "NPC · captain known to his soldiers as Captain Z",
+    "Region": "Fein Uaill · Zarathis",
+    "Public work": "Command, commendation and civic deliberation",
+    "Family account": "Describes mourning his son with his wife",
+    "Political record": "Candidate after Aria’s death",
+    "Later report": "Lucent credits him and Tarwen with caring for ship survivors"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394852848159817729",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394855954348245064",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394856967561936927",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394861307039318216",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394853808454111346",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394854812964622428",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1402336345216520324",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1402356519055396915",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402338791108120608",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402339143496892569",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402340595967721615",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402342575024771215",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402343447242735826",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402344707023179849",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402345589773041815",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402382753403637770",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402383643460112516",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402383823194423336",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402384438645493880",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402384557617188864",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402385114281017498",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402385362751459419",
+    "https://discord.com/channels/1177270231513694249/1402338787639558287/1402386542973943808",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432059735703683267",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432068733077164063",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1432069766281040064",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445146354367205426",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445161696774721628",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445171796453359638",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1445172014233948243",
+    "https://discord.com/channels/1177270231513694249/1311746973241573549/1487286141446258691"
   ],
-  "body": "<p>Introduces herself as Captain Z and welcomes a gathering celebrating a beginning of peace for Zarathis.</p><h2 id=\"discovery-124-prominence\">Prominence and evidence</h2><p><strong>Documented prominence: 62/100 · Provisional</strong></p><p>The public welcome locates a captain within Zarathis’s political ceremony.</p><ul><li>Consequences: 3/5 · weight 35</li><li>Institutional or witness role: 4/5 · weight 25</li><li>Relationships: 3/5 · weight 20</li><li>Recorded presence: 9/20 · weight 20</li></ul><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-124-record\">Archive record</h2><p>The census records 10 posts across 2025-07-15 → 2025-12-01. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1394852848159817729\">Recorded scene · 1394852848159817729</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p><strong>Captain Zythienne</strong> is a military figure and public advocate for <a href=\"#zarathis\">Zarathis</a>. He celebrates courage, but speaks openly of the grief his own household carries. His history includes honoring the <a href=\"#dragonsisters\">Dragonsisters</a>, recommending Draygar, questioning the aftermath of battle and offering himself as a model for the city after Aria’s death.</p><h2 id=\"zythienne-command\">The war he carries</h2><p>On 15, Month of Cala, Year 2, Zythienne introduces himself to the celebration as Captain Z, the name his soldiers use. He speaks of victory, peace and horizons opening beyond Zarathis’s shores. His ambition is expansive: he wants his people’s prosperity carried into lands broken by the Void.</p><p>In the same speech he says he has lost his own son, and that he and his wife still cry at night. He promises to stand on the front line with Aria during a planned final assault and asks forgiveness for the soldiers he loses. The loss and promise are his public testimony; the proposed assault is still ahead of the speech.</p><div class=\"quote\">You cannot lead if you cannot risk.<cite>Captain Zythienne</cite></div><p>A guest later tells Eldin that the captain obtained excellent healing for an injured daughter and visited her himself. That witness’s gratitude belongs beside the captain’s rhetoric. He is admired for care as well as for command.</p><h2 id=\"zythienne-dragonsisters\">Making hidden service public</h2><p>Zythienne calls <a href=\"#dragonsisters\">Sheeva, Kaiya and Minyah</a> before the crowd and credits their years of work among the enemy. He singles out Sheeva for discovering that captives were being fed to dragons. His estimate of five years describes the length of their service without establishing an exact starting date.</p><p>He announces that the sisters will be ladies of the land and that their families will be honored and cared for over generations. The ceremony turns covert work into public recognition. It does not by itself specify estates, legal powers or military commands for the sisters.</p><p>Zythienne pays for the gathering from his own coffers, according to his address. Yet celebration and unfinished danger coexist: he also says the enemy’s holy temple remains protected by sacrificial wards. His confidence in the coming assault is not a completed victory at the time he speaks.</p><h2 id=\"zythienne-draygar\">Recognition after the battle</h2><p>At the gathering on 5, Month of Moirah, the narrator places Zythienne beside <a href=\"#bowene\">High Lord Bowene</a>. <a href=\"#draygar-warsmash\">Draygar</a> approaches, and the captain tells him that he fought well. He remembers the initial charge and offers to recommend him to Captain Tarwen of the Silver Star.</p><p>Their conversation makes duty more specific. Draygar wants to protect people who cannot protect themselves; Zythienne asks whether teaching others to fight might lift them up as well. He values the same honor while challenging how it should be put into practice. The recommendation is offered and a letter is promised; this exchange alone does not establish its delivery or a new appointment.</p><p>His immediate concern is the enormous creature that appeared in the battle and killed soldiers. Before hearing the public account, he wants to know whether it is a threat. During the gathering he remains watchful, scanning the crowd with a composed face rather than displaying every reaction.</p><h2 id=\"zythienne-truth\">What trust cannot settle</h2><p>After the hearing, Draygar tells him that incompatible testimony makes him fear dishonor. Zythienne initially asks where the dishonor lies: both speakers, he says, were under an effect that compelled truth. When Draygar presses the contradiction, the captain accepts that both accounts cannot be true.</p><p>His difficulty then becomes more personal and cultural. He says he cannot easily look past Adelia’s admitted use of divine power, because the gods once ruined his people. He invokes the Silver Star’s memory. Draygar answers that he has seen that power used for protection as well as harm and praises Adelia’s conduct.</p><p>The exchange leaves disagreement visible. Zythienne’s trust in the truth-telling effect does not independently resolve the battle’s history, and his fear of divine interference does not prove that the outsiders intended betrayal. <a href=\"#zarathis-campaign?section=zarathis-judgment\">Read the wider history of Zarathian judgment →</a></p><h2 id=\"zythienne-planning\">Preparation before another war</h2><p>At the council on 26, Month of Death, Year 2, Zythienne says troops can be trained and weapons forged to hurt the heavenly host. He also wants information: where the enemy is, and what the battlefield will be like.</p><p>He proposes sending a small group of experts through the Void to scout, so that a whole army need not linger there without direction. Scribonia offers help while warning that the passage is unstable and dangerous, and that transporting troops and war machines could cost lives. The scene establishes preparation and a request for reconnaissance, not a guaranteed safe route or a completed campaign.</p><p><a href=\"#war-council-death\">Read the full war council →</a></p><h2 id=\"zythienne-candidate\">The excellence he offers the city</h2><p>After Aria’s death, Zythienne enters the leadership gathering with military dignity and offers himself as an example of Zarathian excellence. He says he represents the city on the battlefield, in the courtroom and in the amphitheater. Skill with the brush and with words belongs in his self-description alongside the blade.</p><p>Arandiel, his political rival, acknowledges his service while drawing her own contrast between a commander and someone who fights. That is an argument for her candidacy, not independent proof that he never risked himself. Zythienne’s reply to the city is to emphasize inspiration, discipline and a refusal to settle for being merely good enough. Bowene praises his excellence.</p><p>The speeches establish a candidate, not his election to Aria’s symbolic position or the transfer of Bowene’s office. Later, in the Month of War, Year 3, <a href=\"#lady-lucent\">Lucent</a> reports that he and Tarwen have personally overseen the care of survivors from a newly arrived ship. Her account places his service beyond the war speeches without inventing a new office for him.</p><h2 id=\"discovery-124-prominence\">Evidence and limits</h2><p>Zythienne’s speeches show how he wants his command understood. Draygar’s conversation and a guest’s account of care for an injured soldier offer other views. The difference between a public promise, a witness’s judgment and a later report remains visible.</p><h2 id=\"discovery-124-record\">The open record</h2><p>The surviving scenes do not establish the complete structure of his command, the exact circumstances of his son’s death, delivery of Draygar’s recommendation, or every later military assignment. His speeches, his conduct in a tense crowd and other people’s judgments give different views of the same officer.</p><p><a href=\"#npc-discovery-registry\">Open the source discovery registry →</a></p>",
   "discoveryProtected": false,
   "image": "assets/characters/discord/b220932f4b033c94806322391eb44ffba834f5e8ece89c5a621528318f190686.png",
   "imageAlt": "Discord depiction of Captain Zythienne",
@@ -32,14 +62,125 @@
   "protected": false,
   "sections": [
     {
-      "id": "discovery-124-prominence",
-      "title": "Prominence and evidence",
+      "id": "zythienne-command",
+      "title": "The war he carries",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The quest records the speech and a guest’s subsequent testimony. Public promises, familial grief and the witness’s medical account retain their speakers.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394852848159817729",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394855954348245064",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394856967561936927",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394861307039318216"
+        ]
+      }
+    },
+    {
+      "id": "zythienne-dragonsisters",
+      "title": "Making hidden service public",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest speeches establish recognition and stated commitments. They do not prove every later reward or turn a planned final assault into a completed action.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394853808454111346",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394854812964622428",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394855954348245064",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394856967561936927"
+        ]
+      }
+    },
+    {
+      "id": "zythienne-draygar",
+      "title": "Recognition after the battle",
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "Scenes & attributed accounts",
+        "summary": "Quest staging and its attached conversation establish praise, the offer of recommendation and a security concern. Draygar’s account of the creature remains his account.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1402336345216520324",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1402356519055396915",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402338791108120608",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402339143496892569",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402340595967721615",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402342575024771215",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402343447242735826",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402344707023179849",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402345589773041815"
+        ]
+      }
+    },
+    {
+      "id": "zythienne-truth",
+      "title": "What trust cannot settle",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The attached post-hearing dialogue records conflicting judgments. Neither a character’s understanding of the spell nor inherited fear is an objective verdict.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402382753403637770",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402383643460112516",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402383823194423336",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402384438645493880",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402384557617188864",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402385114281017498",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402385362751459419",
+          "https://discord.com/channels/1177270231513694249/1402338787639558287/1402386542973943808"
+        ]
+      }
+    },
+    {
+      "id": "zythienne-planning",
+      "title": "Preparation before another war",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The primary quest council establishes the proposal and Scribonia’s warnings. It does not establish a safe mass crossing or an unrecorded military outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432059735703683267",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432068733077164063",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1432069766281040064"
+        ]
+      }
+    },
+    {
+      "id": "zythienne-candidate",
+      "title": "The excellence he offers the city",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & compatible accounts",
+        "summary": "Quest narration and rival speeches establish candidacy and attributed public reputation. Lucent’s later report is testimony, not a witnessed appointment or medical record.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445146354367205426",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445161696774721628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445171796453359638",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445172014233948243",
+          "https://discord.com/channels/1177270231513694249/1311746973241573549/1487286141446258691"
+        ]
+      }
+    },
+    {
+      "id": "discovery-124-prominence",
+      "title": "Evidence and limits",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "reference",
+        "label": "Record & reading limits",
+        "summary": "The earlier census metadata is preserved in the editorial review; no new numerical ranking is assigned.",
+        "scope": "section",
         "sources": [
           "Recently Discovered NPCs census · posting spans and raw labels",
           "Source-checked quest-RP scene anchors"
@@ -48,23 +189,23 @@
     },
     {
       "id": "discovery-124-record",
-      "title": "Archive record",
+      "title": "The open record",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "Names, command powers and later outcomes are not filled in from a title or a promise.",
+        "scope": "section",
         "sources": [
-          "Recently Discovered NPCs census · posting spans and raw labels",
-          "Source-checked quest-RP scene anchors"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394855954348245064",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1445171796453359638"
         ]
       }
     }
   ],
   "brief": {
-    "identity": "Captain and ceremony host",
-    "significance": "Introduces herself as Captain Z and welcomes a gathering celebrating a beginning of peace for Zarathis.",
+    "identity": "NPC · Zarathian captain and civic candidate",
+    "significance": "A commander who speaks of peace while preparing for further war, mourns his son, honors covert service and asks what duty should demand of others.",
     "actions": [
       {
         "title": "Zarathis honors the Dragonsisters",
@@ -72,8 +213,100 @@
         "date": "15 Jul 2025"
       }
     ],
-    "status": "Last dated entry in this selection: 15 Jul 2025. Later status is not established here.",
+    "status": "Command and candidacy are directly recorded; a later account credits him with care for ship survivors.",
     "relationships": [],
-    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+    "basis": "Selected original quest and attached scenes, with testimony and incomplete outcomes preserved."
+  },
+  "aliases": [
+    "Captain Z",
+    "Zythienne",
+    "Zythinne",
+    "Zythiene"
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "zythienne-command",
+        "title": "The war he carries",
+        "sections": [
+          "zythienne-command"
+        ]
+      },
+      {
+        "id": "zythienne-dragonsisters",
+        "title": "Making hidden service public",
+        "sections": [
+          "zythienne-dragonsisters"
+        ]
+      },
+      {
+        "id": "zythienne-draygar",
+        "title": "Recognition after the battle",
+        "sections": [
+          "zythienne-draygar"
+        ]
+      },
+      {
+        "id": "zythienne-truth",
+        "title": "What trust cannot settle",
+        "sections": [
+          "zythienne-truth"
+        ]
+      },
+      {
+        "id": "zythienne-planning",
+        "title": "Preparation before another war",
+        "sections": [
+          "zythienne-planning"
+        ]
+      },
+      {
+        "id": "zythienne-candidate",
+        "title": "The excellence he offers the city",
+        "sections": [
+          "zythienne-candidate"
+        ]
+      },
+      {
+        "id": "discovery-124-prominence",
+        "title": "The record and its limits",
+        "sections": [
+          "discovery-124-prominence",
+          "discovery-124-record"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "sourceReview": {
+    "reviewed": "2026-10-27",
+    "previousCensus": {
+      "facts": {
+        "Role": "Captain and ceremony host",
+        "Island": "Fein Uaill",
+        "Census posts": "10",
+        "Recorded span": "2025-07-15 → 2025-12-01",
+        "Prominence": "62/100 · Provisional",
+        "Recorded presence": "9/20",
+        "Region": "Fein Uaill"
+      },
+      "brief": {
+        "identity": "Captain and ceremony host",
+        "significance": "Introduces herself as Captain Z and welcomes a gathering celebrating a beginning of peace for Zarathis.",
+        "actions": [
+          {
+            "title": "Zarathis honors the Dragonsisters",
+            "event": "Zarathis honors the Dragonsisters",
+            "date": "15 Jul 2025"
+          }
+        ],
+        "status": "Last dated entry in this selection: 15 Jul 2025. Later status is not established here.",
+        "relationships": [],
+        "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+      }
+    },
+    "basis": "Primary quest scenes govern compatible attached RP and Lucent’s later report.",
+    "limits": "Candidacy is not victory; promises are not completed outcomes; spell judgments and military memories retain their speakers."
   }
 }

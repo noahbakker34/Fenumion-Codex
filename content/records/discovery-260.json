@@ -3,18 +3,18 @@
   "title": "Fenwae, Silver Star Stone Mason",
   "category": "People",
   "type": "Silver Star mason and quarry guide",
-  "dek": "Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.",
+  "dek": "A Silver Star mason whose work on drinking water and a teacher’s memorial becomes a patient conversation about discipline, belonging and the possibility of changing one’s mind.",
   "tags": [
     "Fenwae, Silver Star Stone Mason",
     "NPC"
   ],
   "facts": {
-    "Role": "Silver Star mason and quarry guide",
-    "Island": "Fein Uaill",
-    "Original census posts": "2",
-    "Original census posting span": "2025-08-11 → 2025-08-11",
-    "Prominence": "Unrated",
-    "Recorded presence": "3/20"
+    "Role": "NPC · Silver Star stone mason and quarry guide",
+    "Region": "Fein Uaill",
+    "Work": "Building stone · mountain-lake dam · memorial marble",
+    "Cultural connection": "Admires Xo; was not his direct pupil",
+    "Established companion": "Olokun",
+    "Recorded scene": "11, Month of Moirah · Year 2"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
@@ -25,59 +25,143 @@
     "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404633917255979151",
     "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404637197830717510",
     "Checked quest scene · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404651535744368662",
-    "Portrait source · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404652089711263764"
+    "Portrait source · 2025-08-12 · https://discord.com/channels/1177270231513694249/1404625979204173904/1404652089711263764",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404618656599638048",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404624989495496714",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1404625891148955790",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404626109261156464",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404627066124505189",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404632215085645894",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404632532615565332",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404633917255979151",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404638252329336854",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404637197830717510",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404639203115012127",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404640224847335498",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404641978586632273",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404644099675390115",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404645087245500448",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404646352373153916",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404647271009747074",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404648086323859499",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404648778966896731",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404649360867725374",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404649846073327787",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404650833806889192",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404651535744368662",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404651899936047145",
+    "https://discord.com/channels/1177270231513694249/1404625979204173904/1404652089711263764"
   ],
-  "body": "<p>Shows Olokun the work behind Zarathian stonecraft, water engineering and a teacher’s memorial.</p><h2 id=\"discovery-260-checked-history\">Recorded role and choices</h2><p>Fenwae offers Olokun a mine visit, explains why good building stone matters and shows a mountain-lake dam project. He says the work is discussed with the Verdant Circle and describes choosing marble for a memorial to Xo. In their later exchange about Aria, Fenwae’s admiration and Olokun’s differing account remain attributed perspectives. His masonry, practical hospitality and willingness to keep talking are established without making his defense of Zarathian society objective fact.</p><h2 id=\"discovery-260-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-260-record\">Archive record</h2><p>The census records 2 posts across 2025-08-11 → 2025-08-11. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1404618656599638048\">Recorded scene · 1404618656599638048</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p><strong>Fenwae</strong> is a mason of the <a href=\"#silver-star\">Silver Star</a> who shows <a href=\"#olokun\">Olokun</a> the work beneath Zarathis’s beauty. Stone, water, bodily discipline and a teacher’s memory give them common ground. Their conversation also makes room for disagreement about Aria and how outsiders have been treated.</p><h2 id=\"discovery-260-checked-history\">An honest invitation</h2><p>During the Zarathian cultural visit on 11, Month of Moirah, Year 2, Fenwae offers Olokun a trip to the mines. He does not promise courtly splendor. The work may not be pretty, he says, but it is honest. Olokun accepts an introduction to the labor beneath the city’s wealth.</p><p>Fenwae is a Silver Star stone mason and a practical host. He makes room for a visitor to ask questions and offer help, rather than presenting the culture only through its most powerful people.</p><h2 id=\"fenwae-stone-and-water\">Good stone and drinking water</h2><p>Teleportation circles carry the visitors to a mountain mine. Fenwae explains that gold, silver and gems are not the whole purpose of the place: sound building stone matters. He values marble as the foundation of architecture and the work of a society that must keep making things.</p><p>He is helping dam a mountain lake to gather clean drinking water. When Olokun offers his experience with water, Fenwae shows him the project and says that the work is discussed with the Verdant Circle. Their assurance that a restored trickle will let the ecosystem recover remains a reported assessment, not a completed ecological survey.</p><p>He enjoys the effort itself. Selecting the right stone with a pickaxe and feeling the strength in his arms appeal to him more than a grand claim to artistic genius. Fine carving is a welcome change, but he knows what part of the work he most loves.</p><h2 id=\"fenwae-xo\">The marble for a teacher’s memory</h2><p>Fenwae helped select a block of marble for a memorial to Xo, a revered teacher. He shows Olokun an animated image of the work. He is careful about his own connection: he never had the honor of learning from Xo directly. The teacher’s extraordinary discipline and purity are things Fenwae has heard and admires.</p><p>What matters to him is how those teachings continue in ordinary work. He describes people carrying discipline into fishing, farming, carving and watching the stars. Care for the body and respect for oneself belong to everyone, not only to specialist fighters.</p><p>Olokun finds something familiar in that idea. They compare teachings about caring for oneself before helping others, and the conversation becomes more personal. Fenwae offers a proverb about knowing when to stand, kneel or crawl. The visitor’s response grows sadder; shared values do not remove what he is carrying.</p><h2 id=\"fenwae-listening\">A friend willing to reconsider</h2><p>Fenwae wants Olokun to see a hardworking, balanced people, rather than monsters. Admiration for Aria shapes his account of the public dispute: he finds the questioning of a local hero painful and offensive.</p><p>Olokun answers that the visitors came to help and risked their lives, then felt betrayed when their motives were publicly doubted. Fenwae listens. He acknowledges that they experienced the same day differently and says Olokun has given him something to think about. His willingness to reconsider is a recorded response; his suggestion that truth may lie in the beholder’s eye does not settle the disputed history.</p><p>Their parting stays practical and generous. Olokun offers help with the dam or memorial. Fenwae says another pair of hands is welcome, along with company and a kind spirit.</p><h2 id=\"discovery-260-prominence\">Evidence and limits</h2><p>Olokun sees the work Fenwae shows him and hears what the mason values. Xo’s extraordinary life and the expected recovery of the dammed waterway reach the reader through Fenwae’s account. Their conversation establishes the exchange without supplying a complete career.</p><h2 id=\"discovery-260-record\">The open record</h2><p>The final condition of the dam, completion of the memorial, Fenwae’s later work and the reach of his authority remain unestablished. His testimony does not make every Zarathian share the same judgment, and his respect for Xo does not make him Xo’s direct disciple.</p><p><a href=\"#npc-discovery-registry\">Open the source discovery registry →</a></p>",
   "discoveryProtected": false,
   "schemaVersion": 1,
   "protected": false,
   "sections": [
     {
       "id": "discovery-260-checked-history",
-      "title": "Recorded role and choices",
+      "title": "An honest invitation",
       "chapter": "History & consequences",
       "evidence": {
         "kind": "quest",
-        "label": "Recorded quest scenes",
-        "summary": "The linked scenes establish the described acts. Statements, suspicions and proposed outcomes remain attributed; the portrait supplies no further biography.",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The checked primary quest visit establishes Fenwae’s role and invitation. Later attached scenes expand the work without replacing that introduction.",
         "scope": "section",
         "sources": [
-          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404625891148955790",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404618656599638048",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404624989495496714",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404625891148955790"
+        ]
+      }
+    },
+    {
+      "id": "fenwae-stone-and-water",
+      "title": "Good stone and drinking water",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The attached tour establishes the mine and dam visit, Fenwae’s preferences and his report of consultation. A predicted recovery is not treated as a measured outcome.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404626109261156464",
           "https://discord.com/channels/1177270231513694249/1404625979204173904/1404627066124505189",
           "https://discord.com/channels/1177270231513694249/1404625979204173904/1404632215085645894",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404632532615565332",
           "https://discord.com/channels/1177270231513694249/1404625979204173904/1404633917255979151",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404638252329336854"
+        ]
+      }
+    },
+    {
+      "id": "fenwae-xo",
+      "title": "The marble for a teacher’s memory",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Fenwae’s participation in the memorial and the conversation are observed; Xo’s life and feats remain reported tradition. No direct pupil relationship is invented.",
+        "scope": "section",
+        "sources": [
           "https://discord.com/channels/1177270231513694249/1404625979204173904/1404637197830717510",
-          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404651535744368662"
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404638252329336854",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404639203115012127",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404640224847335498",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404641978586632273",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404644099675390115",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404645087245500448",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404646352373153916",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404647271009747074"
+        ]
+      }
+    },
+    {
+      "id": "fenwae-listening",
+      "title": "A friend willing to reconsider",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The attached conversation preserves both men’s judgments and Fenwae’s explicit reconsideration. Neither their disagreement nor their hospitality rewrites the quest-established battle.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404648086323859499",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404648778966896731",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404649360867725374",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404649846073327787",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404650833806889192",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404651535744368662",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404651899936047145",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404652089711263764"
         ]
       }
     },
     {
       "id": "discovery-260-prominence",
-      "title": "Prominence and evidence",
+      "title": "Evidence and limits",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "reference",
+        "label": "Record & reading limits",
+        "summary": "Original census metadata is retained in the editorial review rather than presented as a character ranking.",
+        "scope": "section",
         "sources": [
-          "Recently Discovered NPCs census · posting spans and raw labels",
-          "Source-checked quest-RP scene anchors"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1404618656599638048"
         ]
       }
     },
     {
       "id": "discovery-260-record",
-      "title": "Archive record",
+      "title": "The open record",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "unresolved",
+        "label": "Unresolved",
+        "summary": "The reviewed scenes do not supply these later outcomes or a wider office.",
+        "scope": "section",
         "sources": [
-          "Recently Discovered NPCs census · posting spans and raw labels",
-          "Source-checked quest-RP scene anchors"
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404633917255979151",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404639203115012127",
+          "https://discord.com/channels/1177270231513694249/1404625979204173904/1404652089711263764"
         ]
       }
     }
@@ -94,5 +178,59 @@
   "image": "assets/characters/discord/e7722ab63d4c328fa6a41ce5943273b925cbd305da57bd0534e563a588970f37.png",
   "imageAlt": "Recorded depiction of Fenwae, Silver Star Stone Mason",
   "imageCaption": "Fenwae, Silver Star Stone Mason",
-  "imageLayout": "portrait-hero"
+  "imageLayout": "portrait-hero",
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "discovery-260-checked-history",
+        "title": "An honest invitation",
+        "sections": [
+          "discovery-260-checked-history"
+        ]
+      },
+      {
+        "id": "fenwae-stone-and-water",
+        "title": "Good stone and drinking water",
+        "sections": [
+          "fenwae-stone-and-water"
+        ]
+      },
+      {
+        "id": "fenwae-xo",
+        "title": "The marble for a teacher’s memory",
+        "sections": [
+          "fenwae-xo"
+        ]
+      },
+      {
+        "id": "fenwae-listening",
+        "title": "A friend willing to reconsider",
+        "sections": [
+          "fenwae-listening"
+        ]
+      },
+      {
+        "id": "discovery-260-prominence",
+        "title": "The record and its limits",
+        "sections": [
+          "discovery-260-prominence",
+          "discovery-260-record"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "sourceReview": {
+    "reviewed": "2026-10-27",
+    "previousCensusFacts": {
+      "Role": "Silver Star mason and quarry guide",
+      "Island": "Fein Uaill",
+      "Original census posts": "2",
+      "Original census posting span": "2025-08-11 → 2025-08-11",
+      "Prominence": "Unrated",
+      "Recorded presence": "3/20"
+    },
+    "basis": "Quest introduction and compatible attached cultural visit. Role, memories, beliefs and planned outcomes remain distinct."
+  }
 }

@@ -64,6 +64,7 @@
 .fenumion-world .biography-layout .biography-relationships h3{margin:0 0 .5rem;font:600 1rem/1.5 var(--sans)}
 .fenumion-world .biography-relationships p{font-size:1.05rem;margin:0 0 .65rem}
 .biography-appendix{padding:.4rem 1.1rem;border:1px solid #53616b60;border-radius:6px;background:#141b20f5;margin:.75rem 0}
+.fenumion-world .article-evidence-ledger>.biography-appendix{font-size:19px}
 .biography-appendix>summary{display:flex;align-items:center;gap:.8rem;min-height:48px;cursor:pointer;color:#d9c78e}
 .biography-appendix>summary::before{content:'▸';font-size:1rem}
 .biography-appendix[open]>summary::before{content:'▾'}

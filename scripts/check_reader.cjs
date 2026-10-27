@@ -14,6 +14,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  assert(await page.locator('.character-brief').innerText().then(t=>/last established status/i.test(t)));
  assert(await page.locator('.section-evidence[data-evidence-kind=testimony]').count()>=1);
  assert.equal(await page.locator('.chapter-guide').count(),1);
+ assert.equal(await page.locator('.record-reading-controls > button').count(),1,'one reading-mode control replaces duplicate expand/read buttons');
+ assert.equal(await page.locator('#article-content .related').count(),0,'generic recommendation footer is retired');
  assert.equal(requests.filter(url=>url.includes('/data/records/')).length,1);
  assert.equal(requests.filter(url=>url.includes('/data/search.')).length,0);
  assert.equal(await page.evaluate(()=>articles.filter(a=>a.bodyLoaded).length),1);

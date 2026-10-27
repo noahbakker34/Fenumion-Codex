@@ -12,10 +12,8 @@ const relationshipMaps = {};
 const questEventConsequences = codexCatalog.questEventConsequences;
 const legacyCharacterProfiles = {};
 const questTimelineAdditions = [];
-const questPlayerAdditions = [];
 const npcIslandGroups = codexCatalog.npcIslandGroups;
 const factionDirectoryItems = codexCatalog.factionDirectoryItems;
-const npcDiscoveries = window.FENUMION_NPC_DISCOVERIES || {entries:[]};
 const routeAliases = new Map(codexCatalog.routeAliases);
 const byId = new Map(articles.map(article => [article.id, article]));
 let mappedLocationTitles = new Set();
@@ -34,7 +32,7 @@ function mergeMedia(record, media) {
 }
 
 function applyMediaCatalog(catalog = window.FENUMION_MEDIA || {}) {
-  const people = [...questPlayerAdditions, ...archiveIndex.characters, ...archiveIndex.npcs];
+  const people = [...archiveIndex.characters, ...archiveIndex.npcs];
   Object.entries(catalog.characters || {}).forEach(([title, media]) => {
     people.filter(person => person.title === title).forEach(person => mergeMedia(person, media));
   });
@@ -418,10 +416,6 @@ function isRestrictedTimelineEvent(item) {
   return !isPlayerSafeArticle(item.article) || !vaultUnlocked && (item.vaultOnly || item.era === "Ancient world");
 }
 
-function restrictedMark(id) {
-  return !isPlayerSafeArticle(id) ? '<i class="nav-lock" aria-hidden="true">◆</i>' : "";
-}
-
 function protectedRecordTitle(title, protectedRecord) {
   return protectedRecord
     ? `<span class="veiled-title">${vaultUnlocked ? 'Record unavailable' : 'Veiled record'}</span><i class="nav-lock" aria-hidden="true">◆</i>`
@@ -713,11 +707,7 @@ function updateNavigationHighlight(article) {
 
 function renderNavigation() {
   navigation.innerHTML = `<button type="button" class="nav-link starter-nav-link" data-article="start-here" data-nav-article="start-here" title="Start Here · New readers" data-label="Start Here · New readers" aria-label="Start Here · Guide for new readers"><span class="starter-nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C9 3.7 5.7 3.4 2.5 4.5v15c3.2-1.1 6.5-.8 9.5 1 3-1.8 6.3-2.1 9.5-1v-15c-3.2-1.1-6.5-.8-9.5 1Z"/><path d="M12 5.5v15M6 8h2.5M6 11h2.5M15.5 8H18M15.5 11H18"/></svg></span><span class="starter-nav-copy"><strong>Start Here</strong><small>New readers</small></span><span class="starter-nav-arrow" aria-hidden="true">›</span></button>
-    <button type="button" class="ethos-sidebar-link nav-only-ethos" data-article="ethos-of-fenumion" data-nav-article="ethos-of-fenumion" data-label="Begin the Chronicle · The Ethos of Fenumion">
-      <span class="ethos-sidebar-glyph" aria-hidden="true">✦</span>
-      <span class="ethos-sidebar-copy"><strong>The Ethos of Fenumion</strong><small>Player ethos &amp; chronicle guide</small></span>
-      <span aria-hidden="true">›</span>
-    </button>` + navigationRegions.map(region => `
+    ` + navigationRegions.map(region => `
     <section class="nav-region">
       <button type="button" class="nav-region-link${isPlayerSafeArticle(region.article) ? "" : " restricted-link"}" data-article="${region.article}" data-nav-article="${region.article}" data-label="${isPlayerSafeArticle(region.article) ? escapeHtml(region.title) : "Veiled record"}" title="${isPlayerSafeArticle(region.article) ? escapeHtml(region.title) : "Veiled record"}" aria-label="${protectedRecordAria(`Browse ${region.title}`, !isPlayerSafeArticle(region.article))}">
         <span class="nav-region-glyph" aria-hidden="true">${region.glyph}</span><strong>${protectedRecordTitle(region.title, !isPlayerSafeArticle(region.article))}</strong><span>›</span>
@@ -756,24 +746,6 @@ function memorableQuoteRecords() {
   });
   memorableQuoteCache = { body, records };
   return records;
-}
-
-function setupQuoteGroups() {
-  const records = memorableQuoteRecords();
-  articleContent.querySelectorAll(".quote-card").forEach((card, index) => {
-    const record = records[index];
-    if (!record) return;
-    card.id = record.quoteId;
-    const label = document.createElement("span");
-    label.className = "quote-group";
-    label.textContent = record.group;
-    card.prepend(label);
-  });
-  const jump = articleContent.querySelector(".quote-jump");
-  if (jump) {
-    const groups = [...new Map(records.map(record => [record.groupId, record.group])).entries()];
-    jump.innerHTML = groups.map(([id, title]) => `<button type="button" data-section="${escapeHtml(id)}">${escapeHtml(title)}</button>`).join("");
-  }
 }
 
 const magnusQuoteVoice = new Audio("assets/voices/magnus-hope-is-dead.mp3");
@@ -1049,24 +1021,25 @@ function renderArticle(route, pushHash = true) {
     ${hubPage ? "" : gallery}
     ${peopleGallery}
     <div class="lead-grid">
-      <div class="article-body">${renderCharacterNavigation(article)}${article.body}${scenes}${renderIslandNpcCollection(article)}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}${renderRelated(article)}</div>
+      <div class="article-body">${renderCharacterNavigation(article)}${article.body}${scenes}${renderIslandNpcCollection(article)}${renderCharacterCollection(article)}${locationTimeline}${renderLocationConnections(article)}${relationshipMap}${subchannels}</div>
       <dl class="infobox"><h2 class="infobox-title">At a glance</h2>${facts}</dl>
     </div>`;
+  const biographyHasOwnLinks=article.readingLayout==='biography'&&!isLocationArticle(article);
   const connectionImage = record => record.category === "Factions" ? browseImageSource(record.image) : record.image;
-  const visualConnections = (relationshipMaps[article.id]?.nodes || [])
+  const visualConnections = biographyHasOwnLinks ? [] : (relationshipMaps[article.id]?.nodes || [])
     .filter(node => node.article && node.article !== article.id && isPlayerSafeArticle(node.article))
     .map(node => ({ node, record: byId.get(node.article) }))
     .filter(({ record }) => record)
     .map(({ node, record }) => ({ id: record.id, title: record.title, subtitle: node.subtitle, image: connectionImage(record) }));
-  const linkedIds = [...(article.relatedRecords || []), ...[...articleContent.querySelectorAll('.article-body a[href^="#"], .subchannels [data-article]')].map(link => link.dataset.article || link.getAttribute('href').slice(1).split('?')[0])];
+  const linkedIds = biographyHasOwnLinks ? [] : [...(article.relatedRecords || []), ...[...articleContent.querySelectorAll('.article-body a[href^="#"], .subchannels [data-article]')].map(link => link.dataset.article || link.getAttribute('href').slice(1).split('?')[0])];
   linkedIds.forEach(id => {
     const record=byId.get(id);
     if(record && record.id!==article.id && isPlayerSafeArticle(id) && !visualConnections.some(connection=>connection.id===id)) visualConnections.push({id,title:record.title,subtitle:record.type,image:connectionImage(record)});
   });
   const hasConnections=visualConnections.length>0;
-  if(!hasConnections && !hubPage) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
+  if(!hasConnections && !hubPage && !biographyHasOwnLinks) hubPages.filter(page=>page.id!==article.id).slice(0,4).forEach(page=>visualConnections.push({id:page.id,title:page.label,subtitle:page.detail,image:page.image}));
   const hubArtwork = { 'living-timeline':'assets/archive/narrative-history-background-poster.webp', 'visual-archive':'assets/archive/locations-background-poster.webp', factions:'assets/archive/factions-background-poster.webp', 'ethos-of-fenumion':'assets/archive/ethos-eye-poster.webp' };
-  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', atlasWorkspace:article.id==='visual-archive', workspace:article.id==='living-timeline', quoteWorkspace:article.id==='memorable-quotes', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubImage : '', connections:hubPage ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
+  if (article.id !== "art-of-fenumion") window.organizeCodexPage?.(articleContent, { id:article.id, home:article.id==='world-index', continuous:['biography','chronicle'].includes(article.readingLayout), readerControls:true, outline:!biographyHasOwnLinks, atlasWorkspace:article.id==='visual-archive', workspace:article.id==='living-timeline', quoteWorkspace:article.id==='memorable-quotes', directory:article.id==='art-of-fenumion' || article.id==='npc-discovery-registry' || Boolean(article.npcIsland || article.npcIslandOverview) || (Boolean(hubPage) && article.id!=='ethos-of-fenumion') || article.id==='player-perspectives', image:hubPage ? hubArtwork[article.id] || hubImage : '', connections:hubPage || biographyHasOwnLinks ? [] : visualConnections.slice(0,4), connectionsLabel:hasConnections ? 'Connected stories' : 'Explore the Codex' });
   window.CodexVisual?.decorateArticle(articleContent,article,codexVisualContext());
   if (article.id === "world-index") {
     setupWorldBrowser();
@@ -1090,8 +1063,7 @@ function renderArticle(route, pushHash = true) {
   });
   setupAmbientVideos(articleContent);
   applyPlayerSafeRedactions();
-  if (article.id === "memorable-quotes") setupQuoteGroups();
-  setupQuoteVoices();
+  if (!['memorable-quotes','world-index'].includes(article.id)) setupQuoteVoices();
   updateNavigationHighlight(article);
   document.querySelectorAll(".nav-branch").forEach(branch => { branch.open = Boolean(branch.querySelector(`[data-nav-article="${article.id}"]`)); });
   window.CodexReader.afterRender(article, articleContent);
@@ -1953,10 +1925,7 @@ function renderCharacterCollection(article) {
   const person = [...archiveIndex.characters, ...archiveIndex.npcs].some(item => item.article === article.id && normalizePlaceName(item.title) === normalizePlaceName(article.title));
   if ((!person && article.category !== 'People' && !artwork.length) || ['people-directory', 'ececilia-emojis'].includes(article.id)) return '';
   const quotes = memorableQuoteRecords().filter(record => isPlayerSafeArticle(record.article) && (record.article === article.id || normalizePlaceName(record.speaker) === normalizePlaceName(article.title)));
-  const media = [
-    ...(article.image ? [{ image: article.image, title: article.title, alt: article.imageAlt || article.title, caption: article.imageCaption || 'Portrait preserved in the Codex archive.' }] : []),
-    ...artwork.map(item => ({ ...item, caption: 'Character artwork by Ececilia.' }))
-  ];
+  const media = artwork.filter(item=>item.image!==article.image).map(item=>({...item,caption:'Character artwork by Ececilia.'}));
   if (!media.length && !quotes.length) return '';
   return `<section class="character-collection exploration-section" aria-labelledby="collection-${article.id}">
     <p class="eyebrow">Portraits, community art & remembered words</p><h2 id="collection-${article.id}">Art & words · ${escapeHtml(article.title)}</h2>
@@ -2039,17 +2008,6 @@ function setupReadingPath() {
   };
   path.addEventListener('change', update);
   update();
-}
-
-function renderRelated(article) {
-  const related = articles
-    .filter(candidate => candidate.id !== article.id && isPlayerSafeArticle(candidate.id))
-    .map(candidate => ({ article: candidate, score: candidate.tags.filter(tag => article.tags.includes(tag)).length + (candidate.category === article.category ? 1 : 0) }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 2)
-    .map(({ article: item }) => `<button data-article="${item.id}"><small>Continue reading</small>${item.title}</button>`)
-    .join("");
-  return `<div class="related">${related}</div>`;
 }
 
 function clearContents() {

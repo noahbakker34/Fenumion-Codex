@@ -189,7 +189,10 @@
     // Preserve legacy scene links inside the same, collapsed source ledger.
     const note=body.querySelector('.biography-source-note');
     if(note)sourcePanel.querySelector('summary').after(note);
-    appendices.reverse().forEach(appendix=>sourcePanel.before(appendix));
+    appendices.reverse().forEach(appendix=>{
+      if(appendix.classList.contains('biography-appendix')&&appendix.querySelector('.scene-sequence,.character-reading-path'))sourcePanel.append(appendix);
+      else sourcePanel.before(appendix);
+    });
     const navigation=document.createElement('nav');navigation.className='biography-navigation';
     navigation.setAttribute('aria-label',place?'Read this location history':article.category==='Factions'?'Read this faction history':'Read this biography');
     navigation.innerHTML=(plan||article.sections).map((section,index)=>`<button type="button" data-section="${esc(section.id)}"><span aria-hidden="true">${String(index+1).padStart(2,'0')}</span>${esc(section.title)}</button>`).join('');
@@ -237,7 +240,7 @@
       panel.innerHTML=`<summary><span class="evidence-dot" aria-hidden="true"></span>${esc(evidence.label)}<span class="evidence-open">Evidence &amp; limits</span></summary><div><p>${esc(evidence.summary)}</p><p class="evidence-scope">${evidence.scope==='section'?'Section evidence':'Article references · individual claims retain their qualifications'}</p>${sources.length?'<ul>'+sources.map(source=>'<li>'+referenceMarkup(source)+'</li>').join('')+'</ul>':'<p>A more precise source reference remains to be added.</p>'}</div>`;
       chapter.querySelector(':scope > summary').after(panel);
     }
-    if(chapters.length>3){
+    if(chapters.length>3&&!biography&&!chronicle){
       const groups=new Map();for(const meta of article.sections||[]){if(!root.querySelector('[id="'+CSS.escape(meta.id)+'"]'))continue;if(!groups.has(meta.chapter))groups.set(meta.chapter,[]);groups.get(meta.chapter).push(meta);}
       const outline=document.createElement('details');outline.className='chapter-guide';outline.open=chapters.length>12;
       outline.innerHTML='<summary>Choose a chapter</summary><nav aria-label="Reading order">'+[...groups].map(([title,sections])=>'<div><h3>'+esc(title)+'</h3>'+sections.map(section=>`<button type="button" data-section="${esc(section.id)}">${esc(section.title)}</button>`).join('')+'</div>').join('')+'</nav>';

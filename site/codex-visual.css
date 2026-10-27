@@ -284,11 +284,7 @@ body.fenumion-world.atlas-workspace-view .atlas-banner { padding:.8rem;margin-bo
 .fenumion-world .this-day{margin:1.6rem 0;padding:clamp(1rem,3vw,1.8rem);border:1px solid #59634c;border-top:3px solid #d8bd7a;border-radius:8px;background:linear-gradient(110deg,rgba(10,18,13,.85),rgba(10,18,13,.7)),url('assets/archive/this-day-fenumion.png') center center/cover no-repeat;min-width:0}
 .this-day-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
 .fenumion-world .this-day h2{margin:.35rem 0;font:500 clamp(1.6rem,3vw,2.2rem)/1.2 var(--serif);color:#eee5cb}
-.this-day-controls{display:flex;flex-wrap:wrap;align-items:end;gap:.5rem;max-width:100%}
-.this-day-controls label{display:grid;gap:.25rem;color:#c4cdbf;font-size:.75rem;min-width:0;max-width:100%}
-.this-day-controls select,.this-day-controls button{min-height:44px;max-width:100%;border:1px solid #66735b;border-radius:5px;padding:.4rem .6rem;background:#142019;color:#eee5cb;font-size:1rem}
-.this-day-controls button{cursor:pointer}
-.fenumion-world .this-day-date{font:600 1rem/1.5 var(--sans);color:#e2ca92;margin:1.1rem 0 .7rem}
+
 .fenumion-world .this-day-events{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:.8rem;list-style:none;padding:0;margin:.8rem 0}
 .this-day-events li{min-width:0}
 .this-day-events button{display:flex;flex-direction:column;gap:.6rem;width:100%;height:100%;padding:1rem;border:1px solid #4b5c48;border-radius:5px;background:#101c17;color:#dde2d5;text-align:left;cursor:pointer;overflow-wrap:anywhere}
@@ -298,10 +294,8 @@ body.fenumion-world.atlas-workspace-view .atlas-banner { padding:.8rem;margin-bo
 .this-day-events .this-day-read{margin-top:auto;padding-top:.4rem;color:#e2ca92;font-size:.8rem}
 .fenumion-world .this-day-note{font:400 .8rem/1.6 var(--sans);color:#b7c2ac;margin:.8rem 0}
 .fenumion-world .this-day-empty{font-size:1rem;margin:.5rem 0}
-.fenumion-world .this-day-nearby{font:600 .85rem/1.5 var(--sans);color:#e2ca92;margin:1.2rem 0 .5rem}
+
 .this-day-more summary{padding:.6rem 0;cursor:pointer;color:#e2ca92}
 .this-day-history{display:inline-block;padding:.5rem 0;font:500 .9rem/1.5 var(--sans);color:#e2ca92}
 .this-day :is(button,select,a,summary):focus-visible{outline:2px solid #eed18b;outline-offset:3px}
 .this-day-events button:hover{background:#203025;border-color:#d8bd7a}
-
-.this-day-controls button:disabled{opacity:.5;cursor:default}

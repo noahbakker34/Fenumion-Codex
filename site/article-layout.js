@@ -155,7 +155,7 @@ window.organizeCodexPage = function(root, options={}) {
     [...body.childNodes].forEach(node=>{
       if(node.nodeType!==Node.ELEMENT_NODE) { (current || content).append(node);return; }
       if(node.matches('h2')) current=wrap(node);
-      else if(node.matches('.subchannels,.related,.record-connections,.location-connections,.gedankin-map') || node.querySelector('input,select,[data-map-zoom],#interactive-atlas')) {content.append(node);current=null;}
+      else if(node.matches('.subchannels,.record-connections,.location-connections,.gedankin-map') || node.querySelector('input,select,[data-map-zoom],#interactive-atlas')) {content.append(node);current=null;}
       else if(node.matches('[data-relationship-map]') || (node.matches('section') && node.querySelector(':scope > h2'))) {
         const chapter=wrap(node.querySelector('h2'));
         chapter.append(node);
@@ -164,27 +164,27 @@ window.organizeCodexPage = function(root, options={}) {
     });
     body.append(content);
     if(chapters[0]) chapters[0].open=true;
-    if(chapters.length>1) {
+    if(chapters.length>1 && !options.continuous) {
       const toolbar=document.createElement('div');
       toolbar.className='record-reading-controls';
       const count=document.createElement('span');
       count.textContent=chapters.length+' sections';
-      const button=document.createElement('button');
-      button.type='button';
-      const sync=()=>button.textContent=chapters.every(chapter=>chapter.open)?'Collapse all sections':'Expand all sections';
-      button.addEventListener('click',()=>{
-        const open=!chapters.every(chapter=>chapter.open);
-        chapters.forEach(chapter=>chapter.open=open);
-        sync();
-      });
-      chapters.forEach(chapter=>chapter.addEventListener('toggle',sync));
-      sync();
-      toolbar.append(count,button);
+      toolbar.append(count);
+      if(!options.readerControls||chapters.length<=3){
+        const button=document.createElement('button');button.type='button';
+        const sync=()=>button.textContent=chapters.every(chapter=>chapter.open)?'Collapse all sections':'Expand all sections';
+        button.addEventListener('click',()=>{
+          const open=!chapters.every(chapter=>chapter.open);
+          chapters.forEach(chapter=>chapter.open=open);sync();
+        });
+        chapters.forEach(chapter=>chapter.addEventListener('toggle',sync));sync();
+        toolbar.append(button);
+      }
       body.prepend(toolbar);
     }
   }
 
-  if(!visualRail.children.length) {
+  if(!visualRail.children.length && options.outline!==false) {
     const headings=[...body.querySelectorAll('h2')];
     if(headings.length) {
       const navigation=document.createElement('nav');

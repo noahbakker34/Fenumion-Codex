@@ -67,7 +67,8 @@
  }
  function setup(root,context,params){
   close();const body=root.querySelector('.article-body');if(!body)return;
-  const records=context.records.map(record=>({...record,context:root.querySelector('#'+CSS.escape(record.quoteId)+' .quote-context')?.textContent||'',personName:record.speaker.split(' · ')[0],date:record.date||dateIn(record.speaker),voice:Boolean(context.recording(record.title))}));
+  const sourceCards=[...body.querySelectorAll('.quote-card')];
+  const records=context.records.map((record,index)=>({...record,context:(body.querySelector('#'+CSS.escape(record.quoteId))||sourceCards[index])?.querySelector('.quote-context')?.textContent||'',personName:record.speaker.split(' · ')[0],date:record.date||dateIn(record.speaker),voice:Boolean(context.recording(record.title))}));
   const groups=[...new Map(records.map(record=>[record.groupId,record.group])).entries()],names=[...new Set(records.map(record=>record.personName))].sort((a,b)=>a.localeCompare(b));
   body.querySelectorAll('.quote-jump,.quote-gallery').forEach(node=>node.remove());for(const [id]of groups)body.querySelector('#'+CSS.escape(id))?.remove();
   const shell=document.createElement('section');shell.id='quote-browser';shell.setAttribute('aria-label','Explore memorable quotations');

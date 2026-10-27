@@ -55,7 +55,7 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
    await go(id+'?section='+legacy);assert.equal(await page.evaluate(()=>document.activeElement.id),legacy,'legacy source section route');
    assert.equal(await page.locator('#'+legacy).evaluate(el=>el.closest('.biography-section')!==null),true);
    const scene=source.sections.find(section=>section.id.endsWith('-scene-sequence'));
-   if(scene){await go(id+'?section='+scene.id);assert(await page.locator('#'+scene.id).evaluate(el=>el.closest('details').open),'legacy scene appendix opens');assert(await page.locator('#'+scene.id).evaluate(el=>el.parentElement.parentElement.querySelector('.scene-sequence')!==null));}
+   if(scene){await go(id+'?section='+scene.id);assert(await page.locator('#'+scene.id).evaluate(el=>el.closest('details').open),'legacy scene appendix opens');assert(await page.locator('#'+scene.id).evaluate(el=>el.parentElement.parentElement.querySelector('.scene-sequence')!==null));assert(await page.locator('#'+scene.id).evaluate(el=>el.closest('.article-evidence-ledger')?.open),'legacy scene opens its grouped source ledger');}
    if(source.relationshipMap?.nodes?.length){
    await go(id+'?section=relationship-map-'+id);assert(await page.locator('#relationship-map-'+id).evaluate(el=>el.closest('details').open),'relationship map remains accessible');
    const filter=page.locator('[data-relationship-filter]').last();await filter.click();assert.equal(await filter.getAttribute('aria-pressed'),'true','relationship filters survive reorganization');

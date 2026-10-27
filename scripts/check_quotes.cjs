@@ -84,6 +84,17 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   assert(await page.evaluate(async source=>{const img=new Image();img.src=source;await img.decode();return img.naturalWidth===512&&img.naturalHeight===768;},originalEmblem),'original full-size artwork still decodes');
   assert((await page.locator('.article-header').innerText()).includes('Month of Death · Year 3'),'faction dates use the named calendar');
   await page.setViewportSize({width:390,height:844});await emblem.scrollIntoViewIfNeeded();await page.screenshot({path:output+'/hellknights-mobile.png'});await page.goto(base+'#factions');await page.locator('[data-article="hellknight-order"] img[src="'+emblemPreview.src+'"]').waitFor();
-  assert.deepEqual(errors,[]);console.log('PASS 53 quotes/eight themes, all 38 original words/speakers/anchors and 15 new sourced voices; search/speaker/theme/voice/date order/reload/reset; precise messages and legacy source limits; explicit recording playback/seek/volume/music pause/hover preference/player cleanup; desktop/mobile; Hellknights art and dates');
+  // Older authenticated collections have no card IDs; keep their context and generated bookmarks without the retired navigator.
+  const legacy=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});legacy.on('pageerror',e=>errors.push(e.message));
+  await legacy.addInitScript(()=>sessionStorage.setItem('fenumion-vault-locked','1'));
+  const legacyBody='<h2 id="synthetic-legacy-theme">Synthetic legacy theme</h2><nav class="quote-jump"></nav><div class="quote-gallery"><button class="quote-card" data-article="olokun"><blockquote>Synthetic words from an older collection.</blockquote><cite>Olokun</cite><span class="quote-context">Synthetic legacy context remains attached to its own quotation.</span></button></div>';
+  await legacy.route('https://auth.fenumion.com/vault/data',r=>r.fulfill({status:200,contentType:'application/json',body:JSON.stringify({articles:[],bodies:{'memorable-quotes':legacyBody}})}));
+  await legacy.route('https://auth.fenumion.com/me',r=>r.fulfill({status:200,contentType:'application/json',body:'{"signedIn":true,"name":"Synthetic keeper"}'}));
+  await legacy.goto(base+'#world-index');await legacy.locator('h1').waitFor();await legacy.evaluate(()=>unlockVault());await legacy.evaluate(()=>renderArticle('memorable-quotes'));
+  assert.equal(await legacy.locator('.quote-browser-card').count(),1);assert.equal(await legacy.locator('.quote-jump').count(),0);assert.equal(await legacy.locator('.quote-theme-filters').count(),1);
+  assert.equal(await legacy.locator('.quote-browser-card').getAttribute('id'),'memorable-quote-0');
+  await legacy.locator('.quote-open').click();assert.equal(await legacy.locator('.quote-detail-context').innerText(),'Synthetic legacy context remains attached to its own quotation.');await legacy.keyboard.press('Escape');
+  await legacy.evaluate(()=>lockVault());assert.equal(await legacy.locator('.quote-browser-card').count(),records.length);assert(!(await legacy.locator('#quote-browser').innerText()).includes('Synthetic legacy'));await legacy.close();
+  assert.deepEqual(errors,[]);console.log('PASS 53 quotes/eight themes, all original words/speakers/anchors and new sourced voices; legacy ID-free contexts, single navigator and locked restoration; filters, date order, source limits, recording controls and mobile layout; Hellknights art and dates');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

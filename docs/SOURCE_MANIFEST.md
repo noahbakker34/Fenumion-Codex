@@ -435,3 +435,8 @@ Fourteen sections extend nine existing records from selected original main quest
 ## Continuing character and location review · 25 October 2026
 
 Twelve sections extend nine existing histories from selected original main quest, Gael, Voraketh, refreshed quest and Babel scenes. All 96 new receipt identities resolve in their correct channels. No new raw corpus, transcript, generic NPC identity or protected explanation enters Git. Scope and receipt/delta ledger: [CONTINUING_PEOPLE_AND_PLACES_2026_10_25.md](CONTINUING_PEOPLE_AND_PLACES_2026_10_25.md) and `content/reference/continuing-character-place-review-2026-10-25.json`. Earlier source/evidence limits remain. Five public prose date notes and thirteen timeline display strings remove a real-world posting location while preserving every actual quest-date adjustment, source window and timeline identity.
+
+
+## Tower of Gael incremental gathering · 28 October 2026
+
+`Tower-of-Gael-NEW-TEXT-2026-10-28.md`, SHA256 `7b7d9271fb44d24ff73a6e512e21eacbc9fc69bd0870bf57b2e05fb8bab8db22`: all 175 new messages match native texts/locators; the 6,408 earlier Tower messages are not reread. RP, narrator follow-up and relevant embed titles support the four-chapter gathering story, Local timeline destination and focused existing profile/place updates. Eighty-seven newly cited public identities retain content hashes in `content/reference/tower-update-review-2026-10-28.json`. Protected explanations, OOC directions, raw transcripts, proxy/controller data and unreviewed attachments are excluded; quests retain authority and divine response remains unresolved. Full scope and preservation: [TOWER_UPDATE_2026_10_28.md](TOWER_UPDATE_2026_10_28.md).

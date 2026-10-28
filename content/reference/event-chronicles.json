@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-10-27",
+  "reviewed": "2026-10-28",
   "scope": "All 35 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
   "stories": [
     {
@@ -549,6 +549,25 @@
         "thalanbor",
         "thalanbor-library",
         "zarathis"
+      ]
+    },
+    {
+      "article": "petition-at-the-tower-of-gael",
+      "events": [
+        "The Tower’s company petitions for a divine audience"
+      ],
+      "chapters": 4,
+      "words": 1084,
+      "sourceReceipts": 75,
+      "existingPublicAccounts": [
+        "tower-of-gael",
+        "scribonia",
+        "arjahn",
+        "elenia",
+        "adelia-hope",
+        "nymera",
+        "olokun",
+        "skylight-refuge"
       ]
     }
   ],

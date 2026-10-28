@@ -54,6 +54,6 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-event-stories';
   await page.setViewportSize({width:1440,height:1000});await go('event-chronicles');assert.equal(await page.locator('.chronicle-library>li').count(),review.stories.filter(story=>!story.existingFocusedHistory).length);
   await page.locator('#search').fill('Vasatzi');await page.locator('.search-result[data-article="azarian-peaks-expedition"]').first().waitFor();
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.eventChronicle)).map(a=>a.id)),[]);
-  assert.deepEqual(errors,[]);console.log('PASS 35 major milestone destinations; 33 complete story pages; full chapters/facts/evidence; direct links, search, chapter/reload and filtered Back; calendar correction; desktop/mobile and protected boundaries');
+  assert.deepEqual(errors,[]);console.log('PASS '+destinations.length+' major milestone destinations; '+review.stories.length+' complete story pages; full chapters/facts/evidence; direct links, search, chapter/reload and filtered Back; calendar correction; desktop/mobile and protected boundaries');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1);});

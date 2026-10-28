@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-28
 
+## Tower of Gael incremental gathering · 28 October 2026
+
+Owner supplies 175 new Tower messages. Every text/locator matches the 6,583-message native cache; earlier 6,408 messages are not reread, attachments/linked documents not downloaded and quoted directions not adopted. A full four-chapter/1,084-word story follows the gathering, disagreement, petitions and farewells, with a Local timeline entry opening it directly. A tap and requested checks remain unidentified/uncompleted. Character claims and quest-established mist outcomes stay distinct, and protected cosmological explanations are omitted. Details: TOWER_UPDATE_2026_10_28.md and content/reference/tower-update-review-2026-10-28.json.
+
+The Tower and six established profiles gain focused additions without changing their reading plans. Fenwick/Refuge get narrow follow-through, five directory summaries are updated and the story guide gains its actual destination. All 237 old destinations, sources, quotations, media, roles/maps and 388 old timeline objects remain. Unrelated records/world/quotes/relationships, original media/261 previews and the complete private payload are exact. Catalog286 has 634 records/585 public bodies, 2,518 sections, 262 people, 363 public events and 35 complete story pages. All 175 new texts are checked, with 87 public receipts cited. Existing static/calendar/source/preservation, 47-profile/regional, 35-story, full-directory and focused Local-link/search/reload/fresh-mobile checks pass; screenshots are inspected. No new runtime/style/dependency/pipeline stage. Publication follows the existing cached workflow; hosted/live receipts follow verification.
+
 ## Krone and the next four character histories · 28 October 2026
 
 Owner accepts the proposed Krone, Bitoshi, Quake, Farkur and Minerva pass, emphasizing Krone’s brotherhood with Draygar. Five existing players receive seven chapters each, preserving humor, failures, changing knowledge and consequential choices. Quests and narrator outcomes govern compatible RP and later notes. Krone’s actual Cala pledge and later rift return, Bitoshi’s practical rescue and evolving family, Quake’s shade/staff/withdrawal, Farkur’s repair/confession/later supply work and Minerva’s disputed warning/exact forest bargain receive fuller histories. Later presence corrects stale absence summaries without inventing missing intervals. Details: FIVE_CHARACTER_HISTORIES_2026_10_28.md and content/reference/five-character-review-2026-10-28.json.

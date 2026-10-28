@@ -1,6 +1,12 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-27
+Last updated: 2026-10-28
+
+## Fein Uaill and four requested characters · 28 October 2026
+
+Owner requests more Fein NPCs followed by four or five characters including Swift Foot, Saray, Ryvyt and Draygar. Tarwen expands to seven chapters, Tyragol and Mîrwen receive five/three, then each named player receives seven. Selected quests and compatible RP preserve individual actions, humor, contradictions and changing knowledge: Swift’s local representation and fatal demonstration; Saray’s care, scouting and Hope’s renewal; Ryvyt’s own uncertain awakening, craft, apology, founder loss and aid; Draygar’s smithing, faith, love and Silver Star duty. All 423 native source identities resolve and protected-location channels are excluded. Details: FEIN_AND_FOUR_CHARACTERS_2026_10_28.md and content/reference/fein-four-character-review-2026-10-28.json.
+
+All fifty old sections, fourteen prior chapter destinations, references and original media remain. Three faction histories gain links only; the Fein hub retains nine people and adds two NPCs. The owner’s voice framework is rechecked, with conservative prose refinement and no loss of distinct history or quotations. Catalog284 has 633 records/584 public bodies/2,490 sections and 262 people. Existing events/dates/importance, maps, quotes, unrelated world/source structures, all media/261 previews and the entire private payload remain exact. Local static/calendar/preservation, profile/region, directory and focused old-link/role/mobile checks pass; final prose is rechecked and screenshots are inspected. One publication follows standing authorization; hosted/live receipt follows completion. No runtime/style/dependency/pipeline-stage change.
 
 ## Further Fein Uaill NPC histories · 27 October 2026
 

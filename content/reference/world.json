@@ -14219,9 +14219,9 @@
       },
       {
         "title": "Draygar WarSmash",
-        "meta": "Player character · strength in service",
+        "meta": "Player character · warrior, rescuer, and champion against Wrath",
         "article": "draygar-warsmash",
-        "summary": "A rescuer, sworn brother, and front-line protector whose great strength matters most when it carries another person out of danger.",
+        "summary": "A smith and frontline companion whose strength becomes an offer of work, a wager for a friend, a confession to Gartina and an argument for justice within the Silver Star.",
         "image": "assets/characters/draygar-warsmash.png",
         "aliases": [
           "Dragyar",
@@ -14474,10 +14474,10 @@
       },
       {
         "title": "Saray",
-        "meta": "Survivor of grief",
+        "meta": "Survivor of grief; Wrath’s final opponent",
         "article": "saray",
         "image": "assets/characters/saray.png",
-        "summary": "An archer whose work in Gael joins anger, grief, love and the continued defense of her companions; she lands the final blow against Wrath."
+        "summary": "An archer whose decisive victories coexist with fear, grief and practical care, and whose idea of saving Gael grows beyond defeating the enemy."
       },
       {
         "title": "Rahn",
@@ -14497,7 +14497,7 @@
         "meta": "Main member of the Ale-Chemy Knights",
         "article": "ryvyt",
         "image": "assets/characters/ryvyt.png",
-        "summary": "A founder and lead crafter whose work turns shared resources into useful equipment, while later discoveries preserve the history of those who handled them before him.",
+        "summary": "A self-described living alchemy kit and Ale-Chemy founder whose craft, hospitality, grief and willingness to keep helping make him more than the organization’s useful specialist.",
         "aliases": [
           "Ryvyt"
         ]
@@ -14539,7 +14539,7 @@
         "title": "Swift Foot",
         "meta": "Harengon ranger · scout and contested martyr",
         "article": "swift-foot",
-        "summary": "Quick with a bow and a joke, Swift Foot argues for ordinary people’s freedom and leaves a contested legacy after his final stand against Rahu authority.",
+        "summary": "A scout and advocate for ordinary lives whose wit, compassion and opposition to imposed servitude lead toward a final demonstration with consequences he cannot control.",
         "aliases": [
           "Swiftfoot",
           "Swift-Foot",
@@ -15339,9 +15339,9 @@
         "aliases": [
           "Tarwen"
         ],
-        "meta": "Silver Star host in Fein Uaill",
+        "meta": "NPC · Silver Star emissary, historical custodian and former warrior",
         "article": "tarwen-silver-star",
-        "summary": "The host who welcomes the company to its castle and presents mortal ascension as a shared ambition.",
+        "summary": "A host and former warrior whose defense of Zarathian tradition makes room for careful listening, unanswered questions and a distinction between accusation and judgment.",
         "prominence": {
           "consequence": 2,
           "institution": 3,
@@ -16735,6 +16735,26 @@
         "image": "assets/characters/arandiel.webp",
         "imageAlt": "Arandiel with long blonde hair, an ornate pointed crown and green-and-gold armor",
         "imageCaption": "Arandiel — still from the animation attached to her own candidacy scene."
+      },
+      {
+        "title": "Lord-Captain Tyragol",
+        "article": "tyragol",
+        "aliases": [
+          "Tyragol",
+          "Lord Captain Tyragol"
+        ],
+        "meta": "NPC · Silver Star leader and keeper of history",
+        "summary": "A guarded observer who welcomes Magnus home, asks hard questions in council, cares for Aria’s funeral and gives his faction’s nomination to Wren."
+      },
+      {
+        "title": "Mîrwen of the Verdant Circle",
+        "article": "mirwen-verdant-circle",
+        "aliases": [
+          "Mîrwen",
+          "Mirwen"
+        ],
+        "meta": "NPC · Verdant Circle representative and gardener",
+        "summary": "A steward who offers maps, an apple and quiet company, and says he helped make a room feel sheltered and open to the sky at once."
       }
     ],
     "islands": [
@@ -19027,6 +19047,10 @@
               "article": "lady-severina"
             },
             {
+              "label": "Lord-Captain Tyragol",
+              "article": "tyragol"
+            },
+            {
               "label": "Lucido Spettoro",
               "article": "lucido"
             },
@@ -19045,6 +19069,10 @@
             {
               "label": "Minyah Dragonsister",
               "article": "minyah-dragonsister"
+            },
+            {
+              "label": "Mîrwen of the Verdant Circle",
+              "article": "mirwen-verdant-circle"
             },
             {
               "label": "Murr the Old Wolf",
@@ -24503,6 +24531,20 @@
       [
         "Characters",
         "Arandiel of the Radiant Flame"
+      ]
+    ],
+    [
+      "tyragol",
+      [
+        "Characters",
+        "Lord-Captain Tyragol"
+      ]
+    ],
+    [
+      "mirwen-verdant-circle",
+      [
+        "Characters",
+        "Mîrwen of the Verdant Circle"
       ]
     ]
   ],
@@ -33335,6 +33377,14 @@
         {
           "name": "Arandiel of the Radiant Flame",
           "basis": "Radiant Flame emissary, military leader and candidate in established quest scenes"
+        },
+        {
+          "name": "Lord-Captain Tyragol",
+          "basis": "Public quest council, welcome and community scenes in Zarathis"
+        },
+        {
+          "name": "Mîrwen of the Verdant Circle",
+          "basis": "Public quest council, welcome and community scenes in Zarathis"
         }
       ]
     },
@@ -39985,6 +40035,18 @@
     [
       "lady-arandiel",
       "arandiel"
+    ],
+    [
+      "lord-captain-tyragol",
+      "tyragol"
+    ],
+    [
+      "captain-tyragol",
+      "tyragol"
+    ],
+    [
+      "mirwen",
+      "mirwen-verdant-circle"
     ]
   ],
   "windowData": {
@@ -51279,7 +51341,9 @@
     "thalanbor",
     "recovery-of-thalanbors-craftlore",
     "lady-lucent",
-    "arandiel"
+    "arandiel",
+    "tyragol",
+    "mirwen-verdant-circle"
   ],
   "timelineRegions": [
     {

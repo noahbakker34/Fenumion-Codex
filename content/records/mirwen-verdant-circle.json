@@ -1,0 +1,121 @@
+{
+  "id": "mirwen-verdant-circle",
+  "title": "Mîrwen of the Verdant Circle",
+  "category": "People",
+  "type": "NPC · Verdant Circle representative and gardener",
+  "dek": "A steward who offers maps, an apple and quiet company, and says he helped make a room feel sheltered and open to the sky at once.",
+  "facts": {
+    "Role": "NPC · Verdant Circle representative",
+    "Region": "Fein Uaill · Zarathis",
+    "Stated commitment": "Preserve the land beyond the present generation",
+    "Personal account": "Helped design the living ceiling at the celebration",
+    "Recorded connection": "Eugene · quiet company beneath the trees",
+    "Open record": "Age, ancestry, formal rank and later life unresolved"
+  },
+  "tags": [
+    "Mîrwen",
+    "Mirwen",
+    "Verdant Circle",
+    "Fein Uaill",
+    "NPC"
+  ],
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327833868375556147",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837808907522179",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327844094772383777",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327844558867922948",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1327845312500469901",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394845463798087700",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394846191778529396",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394846786375651388",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394851191195701343",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394851737151471737",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847497045938357",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394848140162633892",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1394862734272757843"
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "body": "<p>Mîrwen represents the <a href=\"#verdant-circle\">Verdant Circle</a> at the newcomers’ welcome, then meets <a href=\"#eugene\">Eugene</a> through silence and small acts of hospitality. His short history gives land stewardship an ordinary setting: a map someone can keep, fruit shared and trees tended above a room full of people.</p>\n<h2 id=\"mirwen-stewardship\">Land held for the people who come after</h2><p>At the company’s first welcome in the Month of Talan, Year 2, Mîrwen introduces the Verdant Circle through the care of land. Everyone should be able to enjoy its fruits, and the living world should endure long after the present people are gone.</p><p>He offers a map, says the Circle has fine groves on the southern coast and lets the visitors keep the map. Stewardship appears through something a newcomer can use.</p><p>His welcome also includes hostile claims about gods and heresy. They belong to his convictions, rather than an objective account of every divine act. He is a particular representative of the Circle, not another name for its leader, Thalindra.</p>\n<h2 id=\"mirwen-quiet-company\">An apple instead of an introduction</h2><p>At the celebration in the Month of Cala, Mîrwen takes a seat beside Eugene and says nothing at first. He hands him a fresh apple and returns his attention to the ceiling of trees.</p><p>He says he recognized a silent kindred spirit. His remark that trees do not speak with words belongs to the way he approaches this encounter; it need not become a universal rule forbidding the speech of every living tree.</p><p>He offers aromatic steam, then accepts Eugene’s refusal without pressing. Hospitality can be a small gift and room for quiet rather than a demand to perform for the gathering.</p>\n<h2 id=\"mirwen-living-room\">A room with the sky still in it</h2><p>Mîrwen tells Eugene he helped design the ceiling because he wanted to be at home and outdoors at the same time. He imagines the possibility of escaping through it into the silence of the sky. His account gives a personal purpose to a piece of Zarathian design.</p><p>Later the narrator shows him tending the trees, an ever-diligent gardener. The claim of having helped design the space is supported as his statement; it does not make him the sole architect of the hall.</p><p>His age, ancestry, exact office, other works and later life remain unrecovered.</p>\n",
+  "sections": [
+    {
+      "id": "mirwen-stewardship",
+      "title": "Land held for the people who come after",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest dialogue establishes introduction and a map gift; descriptions of groves and doctrine retain their speaker.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327833868375556147",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327837808907522179",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327844094772383777",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327844558867922948",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1327845312500469901"
+        ]
+      }
+    },
+    {
+      "id": "mirwen-quiet-company",
+      "title": "An apple instead of an introduction",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Primary quest records quiet companionship, gifts and an accepted refusal. The steam image is not treated as a portrait or evidence of a new character identity.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394845463798087700",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394846191778529396",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394846786375651388",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394851191195701343",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394851737151471737"
+        ]
+      }
+    },
+    {
+      "id": "mirwen-living-room",
+      "title": "A room with the sky still in it",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest dialogue and narrator observation establish his account of design and actual gardening. No formal architectural commission, leadership transfer or invented genealogy is inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394847497045938357",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394848140162633892",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1394862734272757843"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "mirwen-stewardship",
+        "title": "Land held for the people who come after",
+        "sections": [
+          "mirwen-stewardship"
+        ]
+      },
+      {
+        "id": "mirwen-quiet-company",
+        "title": "An apple instead of an introduction",
+        "sections": [
+          "mirwen-quiet-company"
+        ]
+      },
+      {
+        "id": "mirwen-living-room",
+        "title": "A room with the sky still in it",
+        "sections": [
+          "mirwen-living-room"
+        ]
+      }
+    ],
+    "relationships": []
+  }
+}

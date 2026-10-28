@@ -13894,7 +13894,7 @@
         "meta": "Giant-blooded vanguard · player character",
         "article": "krone",
         "image": "assets/archive/krone-portrait.webp",
-        "summary": "A joyous front-line protector whose primordial strength and loyalty carry him from Pristinia and Gael into the battle against Wrath."
+        "summary": "A giant-blooded warrior whose brotherhood with Draygar runs through ale, reckless plans, gifts, rescue and the fear of losing another family."
       },
       {
         "title": "Saylor",
@@ -13992,7 +13992,7 @@
         "title": "Bitoshi Nakamoto",
         "meta": "Adventurer · loyalty, grief and chosen bonds",
         "article": "bitoshi-nakamoto",
-        "summary": "An explorer whose loyalty persists through Jiangshi’s absence and return, Adelia’s grief, and the difficult work of remaining beside people after catastrophe.",
+        "summary": "An explorer who came looking for Jiangshi and built a life with her and Adelia, through awkward courtship, failed assumptions, repeated loss, searching and practical care.",
         "aliases": [
           "Bitoshi"
         ],
@@ -14380,7 +14380,10 @@
         "meta": "Ale-Chemy founder and builder",
         "article": "farkur",
         "image": "farkur-portrait.jpg",
-        "summary": "Turns hospitality, specialized labor, shared tools, and funding into an institution intended to outlast any one adventurer."
+        "summary": "An Ale-Chemy founder, trader and builder whose care for newcomers sits beside the escape ship he repaired, his confession and the unfinished work of regaining trust.",
+        "aliases": [
+          "Farkur S. Gemblenagin"
+        ]
       },
       {
         "title": "Ghilsen Hendrickson",
@@ -14432,7 +14435,7 @@
         "meta": "Witch; investigator; difficult ally",
         "article": "minerva",
         "image": "assets/characters/minerva.png",
-        "summary": "A persistent investigator who turns inherited knowledge into field practice while testing how much risk research can ask others to bear.",
+        "summary": "A witch and Seeker who notices danger, cares for frightened people and can turn urgent conviction into damaged trust, risky alliances and bargains she cannot fully resolve.",
         "aliases": [
           "Minerva"
         ]
@@ -14470,7 +14473,7 @@
         "meta": "Warrior-mage · defender of Pristinia",
         "article": "quake",
         "image": "assets/archive/quake-portrait.webp",
-        "summary": "A first-wave adventurer whose scouting, rescue work, civic labor, and battlefield resolve help turn Pristinia into a defensible home."
+        "summary": "One of the first Called, Quake chooses Pristinia as home, trains its defenders and faces a corrupted shade of himself before carrying his duty into Gael."
       },
       {
         "title": "Saray",

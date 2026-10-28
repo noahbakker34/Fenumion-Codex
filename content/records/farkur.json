@@ -12,7 +12,7 @@
   "videoLayout": "portrait-hero",
   "videoAlt": "Animated portrait of Farkur standing in an orchard in pirate clothing",
   "videoCaption": "Farkur — user-supplied moving character portrait, 26 September 2026.",
-  "dek": "A builder and organizer who turns hospitality, specialized labor, shared tools, and reliable funding into an institution meant to outlast any one adventurer.",
+  "dek": "An Ale-Chemy founder, trader and builder whose care for newcomers sits beside the escape ship he repaired, his confession and the unfinished work of regaining trust.",
   "tags": [
     "Farkur",
     "Ale-Chemy Knights",
@@ -28,7 +28,9 @@
     "Standing": "Founder · main member",
     "Roles": "Builder · organizer · institutional architect",
     "Companions": "Green Bean · Fangs",
-    "Status": "Reported missing by 19 Sep 2026"
+    "Status": "Seen trading and supplying the war again through 15, Month of Death, Year 3; earlier reported absence unexplained",
+    "Personal account": "Raised for a time by metallic dragons before the Gate",
+    "Guardians": "Confesses his enabling ship repair; leaves free, without restored cooperation"
   },
   "sources": [
     "Complete quest-rp export, candidate session 278, 29 Mar 2026 — confession before the Guardians, judgment, bell offer, and memorial",
@@ -46,9 +48,50 @@
     "https://discord.com/channels/1177270231513694249/1369505923411738674/1559078748425551903",
     "https://discord.com/channels/1177270231513694249/1369505923411738674/1560147378458202197",
     "https://discord.com/channels/1177270231513694249/1369505923411738674/1560148168027414620",
-    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560149114946068481"
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560149114946068481",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1304599330178470025",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1304604895277744168",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1304632605680865330",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1305769861795942481",
+    "https://discord.com/channels/1177270231513694249/1198722893337608402/1319174351831961600",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1559268307444441090",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1559270546926084117",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1559270943128293396",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1316602784652591124",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1316604869293117514",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1316638607100084286",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1316646168620564502",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1316646365149003828",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1316648366742179841",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1316649462516678717",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1487914476152950917",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1487924660682358825",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1487913559340879982",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1487914283458232513",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1487935407428599869",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1487937412243001486",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1487938426341822634",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1487941019147178155",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1487942398033268807",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1550759339415830549",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1559262599546142791",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1559264053497565195",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1559266387573219359",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1559267123853922455",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1550755768117231687",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1550758006134677565",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1550761814625624087",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555063648882266216",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1559248296143495320",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1559249305926238318",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560139833706287177",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560139908675403898",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560142805542637673",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560146497952157772",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1560152638606278749",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1551029347782103143"
   ],
-  "body": "<p>Farkur S. Gemblenagin is a founder and one of the three main members of the <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a>. His central achievement is not a single victory or building. It is the organization itself: a system intended to connect specialized people, fund durable work, welcome newcomers, and carry its members’ names farther than isolated adventuring could.</p>\n      <h2 id=\"farkur-visual-records\">Visual records</h2>\n      <p>The archive preserves Farkur in both pirate regalia and an Ale-Chemy tavern or workshop setting. These supplied depictions establish his visual identity; background details are not treated as proof of a particular dated event.</p>\n      <figure class=\"article-hero portrait-hero\"><video class=\"ambient-video\" data-ambient-video=\"\" muted=\"\" loop=\"\" playsinline=\"\" disablepictureinpicture=\"\" disableremoteplayback=\"\" preload=\"metadata\" aria-hidden=\"true\" tabindex=\"-1\"><source src=\"farkur-tavern.mp4\" type=\"video/mp4\">Your browser does not support this video.</video><figcaption>Farkur at an Ale-Chemy tavern or workshop — user-supplied moving character portrait, 26 September 2026.</figcaption></figure>\n      <h2 id=\"farkur-principles\">Build something larger than yourself</h2>\n      <p>Farkur repeatedly values finishing work, honoring obligations, putting more into the world than one takes, and acting meaningfully even when nothing lasts forever. His Builder skill becomes an institutional philosophy. Scouts find resources; hunters retrieve them; crafters and smiths transform them; pooled funds keep work moving; builders turn the result into public infrastructure.</p>\n      <p>He also recognizes the uncomfortable role of money. Farkur wants honest work and dislikes morally dubious funding, but accepts that walls, equipment, property, reconstruction, and war logistics cannot run on goodwill alone. That pragmatism creates both the Knights’ capacity and legitimate reasons for outsiders to question their influence.</p>\n      <h2 id=\"farkur-guides\">From Friendly Guides and Grub to the Knights</h2>\n      <p>On 17 November 2024, Farkur proposes a profitable Gate-side caravan offering maps, food, ale, curiosities, and eventual transport. At Ciderwood Sanctum in January 2025, the idea widens into newcomer orientation, communication, emergency response, useful contacts, and coordinated work. Later scenes show the system functioning beyond Farkur personally.</p>\n      <h2 id=\"farkur-builder\">Organizer without pretending expertise</h2>\n      <p>Farkur develops shared inventory, loans equipment, plans property and public works, trains companions, maintains mapping systems, and connects requests to the member best able to answer them. When Coralyn needs specialized crafting, he points her to Ryvyt rather than claiming the skill himself.</p>\n      <p>Green Bean, a winged emerald snake, and Fangs, a mechanical or steel companion, reflect the same instinct: combine very different capabilities into a working system.</p>\n      <p>At <a href=\"#ryvyting-creations\">Ryvyting Creations</a>, his stock records, recipes, loan tracking and sales make that coordination concrete. <a href=\"#ale-chemy-knights\">The Knights’ institutional history</a> follows how this workshop discipline later supports public works and wider logistics.</p>\n<h2 id=\"farkur-sanctification\">Brianna’s sanctification · 2026</h2>\n      <p>Farkur is named among those present when Hope cleanses or sanctifies the corrupted crystal forced into Brianna. The event is established, but the exact mechanical and narrative division among Elenia, Mya, Adelia, Farkur, and the others present still requires primary-source recovery.</p>\n      <h2 id=\"farkur-gael\">From Prima’s proving ground to Gael</h2>\n      <p>Farkur’s organization invests in Pristinia’s defenses, buys and repairs property, operates ships, and plans reconstruction in Gael. By September 2026 the faction’s specialized open-air market proves that at least part of that trajectory became material history. The record does not assign every individual contribution to Farkur.</p>\n      <h2 id=\"farkur-confession\">29 March 2026 · truth before the Guardians</h2>\n      <p>Farkur voluntarily surrenders his weapons, accepts shackles, and confesses that he repaired the rudder of an escape ship connected to Commander Yvette’s murder. He says he did not know the mission, never set foot on the land, and never fired a weapon, but his work enabled escape and he failed to report what followed. Under a truth-working he repeats the account and submits to judgment.</p>\n      <p>The Guardians do not execute or imprison him. Farkur accepts their distrust, offers future aid, identifies himself and Ryvyt as the Knights’ founders, and leaves a bell by which the faction can be called. He then visits the graves with Gregory Greenleaf and pays respect in silence. The scene turns his institution-building from abstract atonement into direct admission of the harm still in front of him.</p>\n      <h2 id=\"farkur-missing\">Reported missing</h2>\n      <p>By 19 September 2026, Farkur and other Knights had vanished. No cause, destination, captor, mission, or confirmed outcome is preserved. Ryvyt reportedly took the disappearance hard, making Farkur’s absence part of the faction’s relationship history as well as its chronology.</p><h2 id=\"ada-reputation-farkur\">Contemporary reputation · 12 December 2024 and 31 August 2025</h2><p>Ada’s chronicles follow Farkur from Gate-side guide and entrepreneur to founder remembered for markets, item circulation, organizations, and belonging. The reputation makes institution-building a form of world-changing power in its own right. <a href=\"#ada-town-chronicler\">Read the chronicler’s evidence boundary.</a></p><h2 id=\"farkur-gate-0\">A welcome still being built</h2><p>The Gate account preserves Farkur pitching a caravan service with ale, a meal, maps and advice to newly arrived travellers. He apologises that the large, costly project is not yet running as envisioned, then escorts the group toward Pristinia and directs them to the tavern. This is a proposal joined to immediate service, rather than proof that the full caravan already operates.</p><h2 id=\"prima-rp-square-wealth\">What adventurer wealth owes the town</h2><p>Katherine points out that five or ten thousand gold is beyond ordinary villagers’ means while adventurers spend it quickly. Farkur responds by describing the Ale-Chemy Knights’ plans to rebuild, improve trade and defense, and give back to the community that welcomed them. His earlier notice offers a temporary waiver of the building fee and discounted materials, with the town’s land fee still due. These are public offers and commitments; the speech alone does not prove all promised work was completed.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420616006988206162\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420618184502804590\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420620903141871677\" target=\"_blank\" rel=\"noopener\">3</a>.</p><h2 id=\"prima-rp-walls-tower\">Later work on the defenses</h2><p>In August 2025, Farkur begins planning a guard tower and asks Spicy to record the materials used. In September he checks masonry, identifies weak mortar and brings supplies to restore the site. Nymera arrives with smithing and masonry tools to help strengthen it. These are specific preparations and contributions; the known accounts do not certify that every proposed tower, gate or weapon was finished.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407904898007306300\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407918431369433229\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1413345890541899898\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1413346224404303932\" target=\"_blank\" rel=\"noopener\">4</a>.</p>\n<h2 id=\"farkur-october-supplies\">Supplies before the next town</h2>\n<p>At the Pristinia workshop, Farkur asks Clive to bring materials and describes the Knights as quartermasters: keeping supply lines, equipment and fallback places usable. His plans for a town in Gael still depend on resources and further work. Rumors about Eovar’s trade influence his preparations without confirming a complete closure of that trade.</p><p>He lets Pell use Anky’s wagon on loan, preserving Anky’s ownership because he does not know his companion’s fate. That uncertainty belongs to Farkur at the time; it does not erase <a href=\"#st-anky\">Anky’s established death</a>. Later he sends material through Elenia’s Gate and explicitly puts the Babel safehouse’s needs before the remainder of his own order.</p>\n",
+  "body": "<p>Farkur S. Gemblenagin brings maps, ale, tools and an ambitious sales pitch to the <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a>. He founds the organization with Ryvyt and keeps looking for work that different people can do together. The same hands that help build defenses once repaired a ship used to escape after the Guardians were attacked. His later confession belongs in the life of the builder who wants to earn the town’s trust.</p>\n<h2 id=\"farkur-visual-records\">Visual records</h2>\n      <p>The archive preserves Farkur in both pirate regalia and an Ale-Chemy tavern or workshop setting. These supplied depictions establish his visual identity; background details are not treated as proof of a particular dated event.</p>\n      <figure class=\"article-hero portrait-hero\"><video class=\"ambient-video\" data-ambient-video=\"\" muted=\"\" loop=\"\" playsinline=\"\" disablepictureinpicture=\"\" disableremoteplayback=\"\" preload=\"metadata\" aria-hidden=\"true\" tabindex=\"-1\"><source src=\"farkur-tavern.mp4\" type=\"video/mp4\">Your browser does not support this video.</video><figcaption>Farkur at an Ale-Chemy tavern or workshop — user-supplied moving character portrait, 26 September 2026.</figcaption></figure>\n      \n<h2 id=\"farkur-principles\">Build something larger than yourself</h2>\n      <p>Farkur repeatedly values finishing work, honoring obligations, putting more into the world than one takes, and acting meaningfully even when nothing lasts forever. His Builder skill becomes an institutional philosophy. Scouts find resources; hunters retrieve them; crafters and smiths transform them; pooled funds keep work moving; builders turn the result into public infrastructure.</p>\n      <p>He also recognizes the uncomfortable role of money. Farkur wants honest work and dislikes morally dubious funding, but accepts that walls, equipment, property, reconstruction, and war logistics cannot run on goodwill alone. That pragmatism creates both the Knights’ capacity and legitimate reasons for outsiders to question their influence.</p>\n      \n<h2 id=\"farkur-guides\">From Friendly Guides and Grub to the Knights</h2>\n      <p>On 17 November 2024, Farkur proposes a profitable Gate-side caravan offering maps, food, ale, curiosities, and eventual transport. At Ciderwood Sanctum in January 2025, the idea widens into newcomer orientation, communication, emergency response, useful contacts, and coordinated work. Later scenes show the system functioning beyond Farkur personally.</p>\n      \n<h2 id=\"farkur-builder\">Organizer without pretending expertise</h2>\n      <p>Farkur develops shared inventory, loans equipment, plans property and public works, trains companions, maintains mapping systems, and connects requests to the member best able to answer them. When Coralyn needs specialized crafting, he points her to Ryvyt rather than claiming the skill himself.</p>\n      <p>Green Bean, a winged emerald snake, and Fangs, a mechanical or steel companion, reflect the same instinct: combine very different capabilities into a working system.</p>\n      <p>At <a href=\"#ryvyting-creations\">Ryvyting Creations</a>, his stock records, recipes, loan tracking and sales make that coordination concrete. <a href=\"#ale-chemy-knights\">The Knights’ institutional history</a> follows how this workshop discipline later supports public works and wider logistics.</p>\n\n<h2 id=\"farkur-sanctification\">Brianna’s sanctification · 2026</h2>\n      <p>Farkur is named among those present when Hope cleanses or sanctifies the corrupted crystal forced into Brianna. The event is established, but the exact mechanical and narrative division among Elenia, Mya, Adelia, Farkur, and the others present still requires primary-source recovery.</p>\n      \n<h2 id=\"farkur-gael\">From Prima’s proving ground to Gael</h2>\n      <p>Farkur’s organization invests in Pristinia’s defenses, buys and repairs property, operates ships, and plans reconstruction in Gael. By September 2026 the faction’s specialized open-air market proves that at least part of that trajectory became material history. The record does not assign every individual contribution to Farkur.</p>\n      \n<h2 id=\"farkur-confession\">29 March 2026 · truth before the Guardians</h2>\n      <p>Farkur voluntarily surrenders his weapons, accepts shackles, and confesses that he repaired the rudder of an escape ship connected to Commander Yvette’s murder. He says he did not know the mission, never set foot on the land, and never fired a weapon, but his work enabled escape and he failed to report what followed. Under a truth-working he repeats the account and submits to judgment.</p>\n      <p>The Guardians do not execute or imprison him. Farkur accepts their distrust, offers future aid, identifies himself and Ryvyt as the Knights’ founders, and leaves a bell by which the faction can be called. He then visits the graves with Gregory Greenleaf and pays respect in silence. The scene turns his institution-building from abstract atonement into direct admission of the harm still in front of him.</p>\n      <p>Before approaching the Guardians, he takes off his hat, tells Ryvyt to look after things and directs his companion to defend him. Ryvyt listens with oil running from his eyes. Farkur submits without knowing whether the people he has harmed will let him walk away.</p><p>He still makes judgments about other people while answering for himself. He warns the Guardians about Minerva, argues that some arrivals have learned from their mistakes while others have not, and promises to rebuild trust. The confession does not make him a neutral judge of her or remove their disagreement over the warning she came to deliver.</p><p>The narrator ultimately declares the company free to go, and Gregory releases his shackles. That outcome is distinct from restored institutional trust: Horgrith still refuses cooperation in matters of defense. Farkur’s later admission that he failed to win the Guardians’ faith preserves that difference.</p>\n<h2 id=\"farkur-missing\">Reported missing</h2><p>A later account from Thorn says Farkur and other Knights vanished and that Ryvyt took it hard. The earlier September record preserves that reported absence and its effect on their companions. It does not establish a cause, captor, destination or final fate.</p><p>The posting record also shows Farkur active in Pristinia during the Month of Nuru, Year 3 and at Ryvyting Creations in the Month of Death. The report therefore cannot serve as his present status or mean that he remained missing throughout that period. The exact interval, what Thorn knew when she spoke and every other Knight’s whereabouts remain unresolved.</p>\n<h2 id=\"ada-reputation-farkur\">Contemporary reputation · 12 December 2024 and 31 August 2025</h2><p>Ada’s chronicles follow Farkur from Gate-side guide and entrepreneur to founder remembered for markets, item circulation, organizations, and belonging. The reputation makes institution-building a form of world-changing power in its own right. <a href=\"#ada-town-chronicler\">Read the chronicler’s evidence boundary.</a></p>\n<h2 id=\"farkur-gate-0\">A welcome still being built</h2><p>The Gate account preserves Farkur pitching a caravan service with ale, a meal, maps and advice to newly arrived travellers. He apologises that the large, costly project is not yet running as envisioned, then escorts the group toward Pristinia and directs them to the tavern. This is a proposal joined to immediate service, rather than proof that the full caravan already operates.</p>\n<h2 id=\"prima-rp-square-wealth\">What adventurer wealth owes the town</h2><p>Katherine points out that five or ten thousand gold is beyond ordinary villagers’ means while adventurers spend it quickly. Farkur responds by describing the Ale-Chemy Knights’ plans to rebuild, improve trade and defense, and give back to the community that welcomed them. His earlier notice offers a temporary waiver of the building fee and discounted materials, with the town’s land fee still due. These are public offers and commitments; the speech alone does not prove all promised work was completed.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420616006988206162\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420618184502804590\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1370049582784057528/1420620903141871677\" target=\"_blank\" rel=\"noopener\">3</a>.</p>\n<h2 id=\"prima-rp-walls-tower\">Later work on the defenses</h2><p>In August 2025, Farkur begins planning a guard tower and asks Spicy to record the materials used. In September he checks masonry, identifies weak mortar and brings supplies to restore the site. Nymera arrives with smithing and masonry tools to help strengthen it. These are specific preparations and contributions; the known accounts do not certify that every proposed tower, gate or weapon was finished.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407904898007306300\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1407918431369433229\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1413345890541899898\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1234261131137253407/1413346224404303932\" target=\"_blank\" rel=\"noopener\">4</a>.</p>\n\n<h2 id=\"farkur-october-supplies\">Supplies before the next town</h2>\n<p>At the Pristinia workshop, Farkur asks Clive to bring materials and describes the Knights as quartermasters: keeping supply lines, equipment and fallback places usable. His plans for a town in Gael still depend on resources and further work. Rumors about Eovar’s trade influence his preparations without confirming a complete closure of that trade.</p><p>He lets Pell use Anky’s wagon on loan, preserving Anky’s ownership because he does not know his companion’s fate. That uncertainty belongs to Farkur at the time; it does not erase <a href=\"#st-anky\">Anky’s established death</a>. Later he sends material through Elenia’s Gate and explicitly puts the Babel safehouse’s needs before the remainder of his own order.</p>\n<h2 id=\"farkur-dragons-and-luck\">A small knight who remembers dragons</h2><p>In his early quest conversations, Farkur says dragons took care of him for a time and taught him to be smart enough to let someone else go first. He wants the company to review who can do what before entering danger. When Olokun mistakes his size for youth or inexperience, he objects.</p><p>He attributes some of his luck to those dragons, but luck does not make him consistently competent at everything. In the forest he struggles to catch an elk, makes too much noise and later has to free his mechanical wolf from the mud. He can admit that a fight went badly and thank someone for saving him.</p><p>Much later, at the shop, he gives a fuller account. He says he became lost in caves as a child and was taken in by metallic dragons because he did not steal from them. They taught him about keeping and using a hoard, and he remembers them as family he would like to visit again. Their names, motives and the complete history of his upbringing remain unrecovered; affection and servitude are questions he himself has not entirely sorted out.</p>\n<h2 id=\"farkur-ship-before-confession\">The repair that made an escape possible</h2><p>During the earlier ship mission, Farkur stays aboard to make the tools needed for repairs and directs his mechanical wolf to begin the work. As the others return from the fighting, he prepares the rowboat, drops hoist lines for the chest and readies a hurried departure.</p><p>He reports that the rudder still has a missing piece but that he has done what he can. As the ship leaves, he watches the other vessel and recognizes that the sabotage has worked. These are concrete actions from the mission he will later confess to; the record does not need to infer his contribution from a pirate portrait.</p><p>The later confession supplies his account of what he knew and wanted at the time. He says he was seeking payment, friends and favor, did not know the mission’s purpose and did not personally fire a weapon or go ashore. Those statements remain his testimony. His work nevertheless helped the vessel escape, and he acknowledges that he did not report the crimes afterward.</p>\n<h2 id=\"farkur-partners-and-limits\">Partners who have their own work</h2><p>Farkur’s partnership with <a href=\"#ryvyt\">Ryvyt</a> survives in inventories, loans, commissions and the moment he asks his fellow founder to take over if he does not return. He also knows when a customer needs Ryvyt’s specialist craft rather than another promise from him.</p><p>The distinction matters at the counter. When a visitor takes “at your service” to mean personal subordination, Farkur explains that he is offering help with purchases and partnership. He gives a stone of good luck to ease the misunderstanding, then declines the proposed service relationship. He is willing to help without agreeing to belong to a new master.</p><p>He directs service requests through Clive and says applications for shop work must be reviewed with his partners. The same man who confidently speaks for the Knights can acknowledge decisions that are not his alone. The scene establishes the offered gift and those terms of service, not the stranger’s every claim about his own nature.</p>\n<h2 id=\"farkur-work-after-absence\">Seen trading and supplying the war again</h2><p>In Pristinia’s square, Farkur introduces himself to Clive as a founder, shows the wagon’s goods, offers maps and talks through the materials he hopes to buy. He credits the Knights with work on the walls and trade, while admitting that he failed to secure the Guardians’ confidence. His account of the organization’s wider achievements remains his account; the trading and conversation are witnessed.</p><p>At Papirak’s funeral he sheds a tear and embraces Thorn. Later workshop conversations show him standing on a stool to meet a visitor more nearly eye to eye, trying to get a cryptic offer explained and asking how he can actually help. The organizer has ordinary confusion and grief alongside the sales pitch.</p><p>By 15, Month of Death, Year 3, he sends to Elenia from the Prima shop, gathers another load of materials and puts her protection and the front’s needs before his own smithing order. He passes the supplies through when she arrives. This is later activity, not an explanation of the earlier gap, and it does not reopen every former retail operation or account for all missing members.</p>\n<h2 id=\"farkur-open-record\">Promises, work and what remains unknown</h2><p>Farkur’s account of being raised by dragons, the full pre-Gate biography and the whole interval behind the disappearance report remain incomplete. His later presence is established without inventing a rescue, hidden mission or return mechanism.</p><p>His testimony and the group’s release before the Guardians remain separate from a complete legal judgment or restored trust. His public offers, trade proposals and reconstruction plans also need their own outcomes checked. The Knights’ completed work is shared among many hands; every tower, market and shipment is not his sole achievement.</p><p>The scenes leave him actively supplying other adventurers in the Month of Death, Year 3. What follows, and the eventual fate of every partner or missing member, remain open.</p>\n",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
@@ -190,9 +233,9 @@
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "Scenes & attributed accounts",
+        "summary": "Primary quest confirms surrender, the group’s release and continued refusal of cooperation. Compatible later RP records his admission of failed trust; departure is not converted into a pardon, acquittal or restored alliance.",
+        "scope": "section",
         "sources": [
           "Complete quest-rp export, candidate session 278, 29 Mar 2026 — confession before the Guardians, judgment, bell offer, and memorial",
           "Ale-Chemy_Knights_Important_Characters_History_and_World_Role.md — philosophy, chronology, organization, holdings, and companions",
@@ -202,7 +245,15 @@
           "Fenumion_Codex_Update_Regional_History_2026-09-19.md — disappearance report",
           "Contemporary Chronicle — Ada, Town Chronicler · 12 December 2024 and 31 August 2025",
           "Gate chronicle · primary arrival and welcome scenes",
-          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487913559340879982",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487914283458232513",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487935407428599869",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487937412243001486",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487938426341822634",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487941019147178155",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487942398033268807",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1550759339415830549"
         ]
       }
     },
@@ -335,11 +386,116 @@
           "https://discord.com/channels/1177270231513694249/1369505923411738674/1560149114946068481"
         ]
       }
+    },
+    {
+      "id": "farkur-dragons-and-luck",
+      "title": "A small knight who remembers dragons",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Primary quest records his early self-description and tactical caution. Compatible RP adds failed hunting, help received and his later account of the dragons; their motives and his exact childhood remain attributed.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1304599330178470025",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1304604895277744168",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1304632605680865330",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1305769861795942481",
+          "https://discord.com/channels/1177270231513694249/1198722893337608402/1319174351831961600",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559268307444441090",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559270546926084117",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559270943128293396"
+        ]
+      }
+    },
+    {
+      "id": "farkur-ship-before-confession",
+      "title": "The repair that made an escape possible",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Primary quest establishes repair and departure preparation. His later account of knowledge, motive and nonparticipation in the shore attack remains testimony, without erasing the enabling work or failure to report.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316602784652591124",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316604869293117514",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316638607100084286",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316646168620564502",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316646365149003828",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316648366742179841",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1316649462516678717",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487914476152950917",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487924660682358825"
+        ]
+      }
+    },
+    {
+      "id": "farkur-partners-and-limits",
+      "title": "Partners who have their own work",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Checked quest and compatible workshop RP establish the partnership, gift and refusal of subordination. Other speakers’ identity and service claims are not adopted as objective fact.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487913559340879982",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559262599546142791",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559264053497565195",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559266387573219359",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559267123853922455",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559268307444441090"
+        ]
+      }
+    },
+    {
+      "id": "farkur-work-after-absence",
+      "title": "Seen trading and supplying the war again",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Primary funeral conduct and compatible civic/workshop scenes establish later appearances and material transfers. The earlier disappearance remains an attributed report and does not determine every Knight’s status or a completed retail reopening.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1550755768117231687",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1550758006134677565",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1550759339415830549",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1550761814625624087",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555063648882266216",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559248296143495320",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559249305926238318",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560139833706287177",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560139908675403898",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560142805542637673",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560146497952157772",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560148168027414620",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560152638606278749",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551029347782103143"
+        ]
+      }
+    },
+    {
+      "id": "farkur-open-record",
+      "title": "Promises, work and what remains unknown",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "This section bounds the selected primary scenes and retained historical reports. It records later activity without solving the earlier absence, every legal question or every institutional promise.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487941019147178155",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1559270546926084117",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1560152638606278749"
+        ]
+      }
     }
   ],
   "brief": {
     "identity": "Founder and main member of the Ale-Chemy Knights",
-    "significance": "A builder and organizer who turns hospitality, specialized labor, shared tools, and reliable funding into an institution meant to outlast any one adventurer.",
+    "significance": "An Ale-Chemy founder, trader and builder whose care for newcomers sits beside the escape ship he repaired, his confession and the unfinished work of regaining trust.",
     "actions": [
       {
         "title": "Farkur proposes Friendly Guides and Grub",
@@ -357,7 +513,7 @@
         "date": "By 19 Sep 2026"
       }
     ],
-    "status": "Reported missing by 19 Sep 2026",
+    "status": "Seen trading and supplying the war again through 15, Month of Death, Year 3; earlier reported absence unexplained",
     "relationships": [
       {
         "id": "ale-chemy-knights",
@@ -370,5 +526,71 @@
   "sourceReview": {
     "latestReview": "2026-10-24",
     "scope": "Incremental source packet: selected new scenes and stated outcomes checked against existing quest history. This extends the record; it does not certify the complete biography or attachment contents."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "farkur-dragons-and-luck",
+        "title": "A small knight, dragons and unreliable luck",
+        "sections": [
+          "farkur-dragons-and-luck",
+          "farkur-visual-records"
+        ]
+      },
+      {
+        "id": "farkur-guides-and-arrivals",
+        "title": "Maps, meals and the welcome he wants to build",
+        "sections": [
+          "farkur-guides",
+          "farkur-gate-0"
+        ]
+      },
+      {
+        "id": "farkur-knights-and-partners",
+        "title": "Building the Knights with other people",
+        "sections": [
+          "farkur-principles",
+          "farkur-builder",
+          "farkur-partners-and-limits",
+          "prima-rp-square-wealth"
+        ]
+      },
+      {
+        "id": "farkur-repair-and-confession",
+        "title": "The ship, the confession and refused trust",
+        "sections": [
+          "farkur-ship-before-confession",
+          "farkur-confession"
+        ]
+      },
+      {
+        "id": "farkur-public-work",
+        "title": "Walls, Gael and work that needs supplies",
+        "sections": [
+          "prima-rp-walls-tower",
+          "farkur-sanctification",
+          "farkur-gael",
+          "farkur-october-supplies",
+          "ada-reputation-farkur"
+        ]
+      },
+      {
+        "id": "farkur-after-absence",
+        "title": "The reported absence and later appearances",
+        "sections": [
+          "farkur-missing",
+          "farkur-work-after-absence"
+        ]
+      },
+      {
+        "id": "farkur-open-record",
+        "title": "Promises and the unfinished record",
+        "sections": [
+          "farkur-open-record"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

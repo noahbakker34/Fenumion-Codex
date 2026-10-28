@@ -7,7 +7,7 @@
   "imageLayout": "portrait-hero",
   "imageAlt": "Quake, a horned tiefling warrior-mage in ornate gold-trimmed armor carrying a staff",
   "imageCaption": "Quake — warrior-mage, first-wave adventurer, and defender of Pristinia.",
-  "dek": "One of Pristinia’s earliest Called adventurers, Quake turns magical force toward scouting, rescue, fortification, and the stubborn defense of a settlement still learning how to survive.",
+  "dek": "One of the first Called, Quake chooses Pristinia as home, trains its defenders and faces a corrupted shade of himself before carrying his duty into Gael.",
   "tags": [
     "Quake",
     "Player character",
@@ -22,7 +22,10 @@
     "Signature evidence": "Corrupted-radiant staff",
     "Major bond": "Saved Elenia and Nienna before Elenia returned that protection",
     "Civic work": "Rescue · militia · walls · defense",
-    "Player status": "Player character"
+    "Player status": "Player character",
+    "Staff origin": "Given by Nuleah after the valley battle; full properties unresolved",
+    "Later witnessed campaign": "The assault on Wrath · Month of the Wyrm, Year 1",
+    "Status": "Present after Wrath’s fall; final fate unestablished"
   },
   "sources": [
     "Complete Quest RP export — March–May 2024 expeditions, civic work, and defenses",
@@ -34,9 +37,55 @@
     "Quest receipt · 2024-05-19 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1241581575305691187",
     "Quest receipt · 2024-06-12 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1250329844831752192",
     "Quest receipt · 2024-07-19 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1263689567345840169",
-    "Quest receipt · 2024-07-19 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1263689746589290526"
+    "Quest receipt · 2024-07-19 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1263689746589290526",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214998594608697384",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1215001762692468736",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1226036227602386945",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1227838984860864542",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1227845212022243369",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1229994686970593300",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237606787176206389",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237607042135625778",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237607281579917404",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237607304170307666",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237611013642391662",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237611159151050782",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237611414802141214",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237611696382545933",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237645498316488734",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237645550405419058",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237646113079824404",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237646200216227860",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237646327341514753",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237647784329347155",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237648317455011881",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237648477173977108",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241566621571616828",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241567982463877161",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241569932286759042",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241578869018984458",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1243373494041841714",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1250286642410029149",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1250295993900077097",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1250318713555652628",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1250319622029316097",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1262216945164353669",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1262274457582440489",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1259707125790281818",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265549010727600140",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265550710049603685",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265553013339066491",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1267203633309679616",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308977782818340864",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308978112884903986",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308999710505304084",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308999838624387124",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309059699177558016",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063347525910568",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063511212818466",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063638929248306"
   ],
-  "body": "<p>Quake belongs to the first recovered company of Called adventurers who arrives in Prima on 4 March 2024. The early record does not isolate Quake from the settlement’s collective labor: scouting the roads, searching for missing people, training volunteers, raising defenses, and answering threats before Pristinia has the institutions to survive them alone.</p>\n      <p>That breadth is the clearest guide to Quake’s personality. Quake repeatedly enters work whose reward is communal stability rather than personal revelation. Courage appears through return and reliability—going back beyond the gate, standing with an undermanned defense, and carrying dangerous magic into situations where incomplete knowledge cannot be an excuse for inaction.</p>\n      <p>Quake’s strongest recovered relationships are built through protection remembered over time. Quake saves Elenia and Nienna in an earlier danger. On 18 July 2024, Elenia answers that history by placing Death Ward on Quake and naming the reason. The exchange turns rescue into continuity: a life saved in one crisis becomes the protection available in the next.</p>\n      <h2 id=\"first-wave\">The first wave · March 2024</h2>\n      <p>Within two days of arrival, Quake joins the reconnaissance west of Pristinia that spots something of island-like scale moving in the distance. Quake then helps answer the Weary Traveler’s request to find missing friends and participates as Melian divides the newcomers among militia planning, medical work, material searches, and surveys of usable land.</p>\n      <p>Quake takes part in exploration and government while both are still being improvised; the same people who investigate the unknown must decide how a town trains defenders, treats injuries, and uses land.</p>\n      <h2 id=\"pristinia-defense\">Building and defending Pristinia</h2>\n      <p>Quake helps drill Pristinia’s volunteers, responds to the dying messenger from Eovar, and works beside the crews raising the treated-log palisade, staked moat, and first watchtowers. Quake also participates in the accord with Cigal’s wolves, choosing negotiated protection of the farms over extermination.</p>\n      <p>On 27 April, with Rolen gone and the Travelers absent, Quake stands among the remaining adventurers and townsfolk who finish Pristinia’s defenses and repel an attack.</p>\n      <h2 id=\"staff-and-ritual\">The staff and the coastal ritual</h2>\n      <p>On 18 May, Quake’s corrupted-radiant staff points the company toward rival beacons at a reality-splitting ritual on Prima’s coast. The party stops the ritual, but its last-minute destruction buries most of the evidence. The staff is therefore both instrument and unresolved clue: useful enough to locate a threat, strange enough that its own history still requires recovery.</p>\n      <h2 id=\"quake-relationships\">Relationships carried through action</h2>\n      <ul>\n        <li><strong>Elenia and Nienna:</strong> Quake’s earlier rescue becomes Elenia’s reason for using Death Ward, preserving a debt as active care rather than sentiment.</li>\n        <li><strong>Gartina:</strong> the regional map confirms a shared Gartina and Quake Estate, though the personal and civic history behind the name remains unrecovered.</li>\n        <li><strong>Pristinia:</strong> scouting, rescue, militia work, construction, negotiation, and defense make the settlement itself one of Quake’s longest relationships.</li>\n        <li><strong>Wrath:</strong> when Wrath offers grieving adventurers a path through Death after Dale’s fall, Quake refuses before the party fully understands the bargain’s danger.</li>\n      </ul>\n      <h2 id=\"open-record\">The open record</h2>\n      <p>Quake’s life before the Calling, the origin and full properties of the staff, the exact earlier rescue of Elenia and Nienna, the history of the estate shared with Gartina, later chronology after the 2024 campaigns, and the details of Quake’s magical training remain incomplete. The surviving record establishes a major early footprint without inventing the missing private biography.</p><h2 id=\"ada-reputation-quake\">Contemporary reputation · 20 April 2024</h2><p>Ada remembers Quake through sacrifice, reincarnation, farming with Gartina, militia training, and defense. The chronicle is evidence that Pristinia understood Quake as both supernatural survivor and builder of local continuity; direct records still govern the exact mechanics of those events. <a href=\"#ada-town-chronicler\">Read the chronicler’s evidence boundary.</a></p>\n<h2 id=\"quake-scene-sequence\">Scenes in sequence</h2>\n<p>These selected scenes preserve what was knowable when people acted. Dates below identify source postings in UTC; they do not supply an in-world calendar. A later appearance does not settle present status.</p><ol class=\"scene-sequence\"><li><p class=\"scene-date\">2024-05-19 · quest</p><h3>A rescue remembered through failure</h3><p>Quake tells Dale that he and others died trying to rescue an ambushed company, while others succeeded.</p><dl><div><dt>Known at this stage</dt><dd>He speaks from a later memory of the rescue.</dd></div><div><dt>Consequence</dt><dd>His own account gives credit beyond himself and makes failure part of his history.</dd></div><div><dt>Still unresolved</dt><dd>The speech is not a complete casualty list or a reconstruction of each rescue action.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1241581575305691187\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li><li><p class=\"scene-date\">2024-06-12 · quest</p><h3>A duty beyond defeating an enemy</h3><p>Quake answers that their duty is to protect the land and its people.</p><dl><div><dt>Known at this stage</dt><dd>The company is discussing the burden of the watch.</dd></div><div><dt>Consequence</dt><dd>His stated obligation reaches beyond a single battle.</dd></div><div><dt>Still unresolved</dt><dd>A declaration of duty does not prove every later decision fulfilled it.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1250329844831752192\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li><li><p class=\"scene-date\">2024-07-19 · quest</p><h3>Receiving protection in return</h3><p>Elenia protects Quake with Death Ward, recalling earlier survival with Nienna; he thanks her.</p><dl><div><dt>Known at this stage</dt><dd>The spell is preparation for danger.</dd></div><div><dt>Consequence</dt><dd>Mutual protection links his history to Elenia’s learning.</dd></div><div><dt>Still unresolved</dt><dd>The protection is not a guarantee of survival or an explanation of every later return.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1263689567345840169\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1263689746589290526\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li></ol>",
+  "body": "<p>Quake chooses the land around Pristinia as home and repeatedly works to keep it habitable: scouting, training volunteers, moving earth and returning when another threat appears. His own death and the ruined figure he later encounters complicate that duty. He keeps learning, accepts rescue and eventually argues that survival may require leaving a fight.</p>\n<h2 id=\"first-wave\">The first wave · March 2024</h2>\n      <p>Within two days of arrival, Quake joins the reconnaissance west of Pristinia that spots something of island-like scale moving in the distance. Quake then helps answer the Weary Traveler’s request to find missing friends and participates as Melian divides the newcomers among militia planning, medical work, material searches, and surveys of usable land.</p>\n      <p>Quake takes part in exploration and government while both are still being improvised; the same people who investigate the unknown must decide how a town trains defenders, treats injuries, and uses land.</p>\n      \n<h2 id=\"pristinia-defense\">Building and defending Pristinia</h2>\n      <p>Quake helps drill Pristinia’s volunteers, responds to the dying messenger from Eovar, and works beside the crews raising the treated-log palisade, staked moat, and first watchtowers. Quake also participates in the accord with Cigal’s wolves, choosing negotiated protection of the farms over extermination.</p>\n      <p>On 27 April, with Rolen gone and the Travelers absent, Quake stands among the remaining adventurers and townsfolk who finish Pristinia’s defenses and repel an attack.</p>\n      \n<h2 id=\"staff-and-ritual\">The staff and the coastal ritual</h2>\n      <p>On 18 May, Quake’s corrupted-radiant staff points the company toward rival beacons at a reality-splitting ritual on Prima’s coast. The party stops the ritual, but its last-minute destruction buries most of the evidence. The staff is therefore both instrument and unresolved clue: useful enough to locate a threat, strange enough that its own history still requires recovery.</p>\n      <p>Quake believes that both he and the staff need purification. He holds it while inviting the others to touch it and see the direction it shows, and presses the company to travel north. At the fork between light and darkness he asks them to choose.</p><p>His later report keeps the human cost of that choice visible. He says he took the wrong path, that captives were sacrificed before they arrived and that the company only just stopped the summoning. Stopping the ritual does not turn his account into an uncomplicated rescue. His judgment of his own failure remains beside the destruction of the evidence.</p>\n<h2 id=\"quake-relationships\">Relationships carried through action</h2>\n      <ul>\n        <li><strong>Elenia and Nienna:</strong> Quake’s earlier rescue becomes Elenia’s reason for using Death Ward, preserving a debt as active care rather than sentiment.</li>\n        <li><strong>Gartina:</strong> the regional map confirms a shared Gartina and Quake Estate, though the personal and civic history behind the name remains unrecovered.</li>\n        <li><strong>Pristinia:</strong> scouting, rescue, militia work, construction, negotiation, and defense make the settlement itself one of Quake’s longest relationships.</li>\n        <li><strong>Wrath:</strong> when Wrath offers grieving adventurers a path through Death after Dale’s fall, Quake refuses before the party fully understands the bargain’s danger.</li>\n      </ul>\n      \n<h2 id=\"open-record\">The open record</h2><p>Quake describes an upbringing in a hard-working society, study of the land’s magic, an earlier death and the rescue that preceded it. The full pre-Calling biography, original rescue sequence and every step of his return remain incompletely recovered.</p><p>The valley encounter and Nuleah’s gift now establish more of the young staff’s history. Its full properties, the complete cause of Quake’s condition and the outcome of the promised purification research remain open. The shared farmland is also named in direct conversation with Gartina, without supplying their complete personal or property history.</p><p>His later participation in the assault on Wrath extends the earlier selection that ended in the Month of Cala, Year 1. Neither the burial request nor his absence from still later selected scenes establishes a final death or permanent disappearance.</p>\n<h2 id=\"ada-reputation-quake\">Contemporary reputation · 20 April 2024</h2><p>Ada remembers Quake through sacrifice, reincarnation, farming with Gartina, militia training, and defense. The chronicle is evidence that Pristinia understood Quake as both supernatural survivor and builder of local continuity; direct records still govern the exact mechanics of those events. <a href=\"#ada-town-chronicler\">Read the chronicler’s evidence boundary.</a></p>\n\n<h2 id=\"quake-scene-sequence\">Scenes in sequence</h2>\n<p>These selected scenes preserve what was knowable when people acted. Dates below identify source postings in UTC; they do not supply an in-world calendar. A later appearance does not settle present status.</p><ol class=\"scene-sequence\"><li><p class=\"scene-date\">2024-05-19 · quest</p><h3>A rescue remembered through failure</h3><p>Quake tells Dale that he and others died trying to rescue an ambushed company, while others succeeded.</p><dl><div><dt>Known at this stage</dt><dd>He speaks from a later memory of the rescue.</dd></div><div><dt>Consequence</dt><dd>His own account gives credit beyond himself and makes failure part of his history.</dd></div><div><dt>Still unresolved</dt><dd>The speech is not a complete casualty list or a reconstruction of each rescue action.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1241581575305691187\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li><li><p class=\"scene-date\">2024-06-12 · quest</p><h3>A duty beyond defeating an enemy</h3><p>Quake answers that their duty is to protect the land and its people.</p><dl><div><dt>Known at this stage</dt><dd>The company is discussing the burden of the watch.</dd></div><div><dt>Consequence</dt><dd>His stated obligation reaches beyond a single battle.</dd></div><div><dt>Still unresolved</dt><dd>A declaration of duty does not prove every later decision fulfilled it.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1250329844831752192\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li><li><p class=\"scene-date\">2024-07-19 · quest</p><h3>Receiving protection in return</h3><p>Elenia protects Quake with Death Ward, recalling earlier survival with Nienna; he thanks her.</p><dl><div><dt>Known at this stage</dt><dd>The spell is preparation for danger.</dd></div><div><dt>Consequence</dt><dd>Mutual protection links his history to Elenia’s learning.</dd></div><div><dt>Still unresolved</dt><dd>The protection is not a guarantee of survival or an explanation of every later return.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1263689567345840169\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1263689746589290526\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li></ol>\n<h2 id=\"quake-home-and-learning\">Choosing a home, and learning to keep it</h2><p>Within the first days of arrival, Quake says he chose to come and that this land is now his home. His fist-to-chest salute accompanies a promise to protect it and its people. It is a commitment he makes before the defenses, institutions and shared knowledge are secure.</p><p>During the construction work he tells Elenia about the society he came from: the land gave little, everyone had to work and he studied its magic in what spare time remained. Access to Pristinia’s library has allowed him to learn more. The account explains why labor and study sit so easily beside fighting in his days, without recovering the name or whole history of his former home.</p><p>He gives the militia recruits criticism over drinks after a practice fight, watches from the completed tower and calls it a good day. He can also offer a mundane solution to a foul smell—scent the upper lip with peppermint or tea tree. His repeated attention to the land includes people trying to get through an unpleasant day.</p>\n<h2 id=\"quake-shade-and-staff\">The valley and the face he left behind</h2><p>At the Tree, Quake hears Nuleah warn that crossing the boundary of death can attract dangerous attention. He says his own soul has made that journey, looks at his red hands and keeps his distance from the light. Nuleah’s explanation remains her account of the danger; the scene establishes Quake’s recognition of it and the caution that follows.</p><p>In the valley a ruined Earth Genasi confronts him, asking whether Quake thought he could leave him behind. The narrator describes Death’s magic around the figure. Quake advances with his shield, answers that protecting the land is his duty and fights what he later calls a shade of his former self.</p><p>The company’s victory is costly. As the shade falls, Quake collapses and the undead forming under its supervision begin to crumble. Bitoshi rushes to the fallen with healing berries; the narrator confirms that everyone is up again. The recovered sequence gives Bitoshi an actual rescue, and Quake a battle in which conviction did not keep him standing.</p><p>Nuleah still denies him access to the Tree while calling him impure. She gives him a fresh young staff and says the scholars will look for magic that may purify his soul. Those are a gift and a promise to investigate. They do not establish that his condition is cured, that the shade can never return or that every death and change of body has been fully explained.</p>\n<h2 id=\"quake-island-and-tomb\">A route to Gael, and a vote to leave</h2><p>The staff stays with Quake on the moving island journeys. He places it in the altar, retrieves it when the company needs to leave and runs to catch the ship. At the helm he helps keep the wheel under control. The scenes show repeated use of a learned route, while Quake can still admit that he does not know the destination.</p><p>On Gael he warns that the land beyond the Temple remains dangerous and calls for the removal of Death’s influence. He wants the party to bring back material for study and grow stronger. He also refuses to help use undeath, which he regards as the enemy’s power. That is his stated boundary, not a settled verdict on every companion who understands shadow or death differently.</p><p>Inside Vysaeth’s tomb, he hopes the old civilization has left something the company can use. When that hope runs into the risk of Wrath breaking in, he weighs sealing passages, leaving and returning later. He calls for a vote, warning that every delay increases the danger. During the escape he urges them to fight only enough to run.</p><p>The defender who repeatedly promises to stand his ground can also argue for withdrawal. His proposal to close an entrance is not proof of a permanently sealed tomb.</p>\n<h2 id=\"quake-wrath-and-refusal\">Wrath, a burial request and a refused peace</h2><p>Quake remains with the company in the later assault on Wrath. When Gartina comes to help him and promises that they will see their farmland again, he asks to be buried beside his planted staff. The exchange confirms a shared place they want to return to and the fear that he may not reach it. It does not establish that he dies there.</p><p>He continues. Approaching the inner defenses, he warns the others not to be afraid and takes on Wrath’s appearance with the crown. The disguise is something he attempts in the assault; it does not make him Wrath or prove that every enemy is deceived.</p><p>After Saray kills Wrath, Quake hears Death’s offer and rejects its hollow peace. He believes mortal strength may one day surpass the gods and allow people to choose the world they want. That is his hope for the future, not a battle already won.</p><p>As Draygar, Saray, Krone and Bitoshi offer possessions for the fallen, Quake says there is no fair bargain to be struck with Death. The exchange is refused. The <a href=\"#fall-of-wrath\">full assault and its aftermath</a> preserve the other companions’ appeals beside his refusal.</p>\n",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
@@ -84,16 +133,21 @@
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "Scenes & attributed accounts",
+        "summary": "Checked quests establish his urgency, the directional choice and later account of the sacrificed captives. His explanation of the staff and judgment of his route retain their speaker; earlier ritual history remains preserved.",
+        "scope": "section",
         "sources": [
           "Complete Quest RP export — March–May 2024 expeditions, civic work, and defenses",
           "Fenumion Codex Master Timeline — Quake’s arrival, rescue work, ritual disruption, and Death Ward",
           "CHARACTER_BIBLE.md — Elenia, Nienna, and the returned debt of protection",
           "Fenumion Codex Character Priority Roster — recurring footprint and profile priority",
           "User-supplied Quake visual record, 30 Sep 2026",
-          "Contemporary Chronicle — Ada, Town Chronicler · 20 April 2024"
+          "Contemporary Chronicle — Ada, Town Chronicler · 20 April 2024",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241566621571616828",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241567982463877161",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241569932286759042",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241578869018984458",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1243373494041841714"
         ]
       }
     },
@@ -170,11 +224,104 @@
           "Quest receipt · 2024-07-19 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1263689746589290526"
         ]
       }
+    },
+    {
+      "id": "quake-home-and-learning",
+      "title": "Choosing a home, and learning to keep it",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Primary quest records his declared home, remembered upbringing, study, training and practical advice. His former society remains his account; its name and complete history are not supplied.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214998594608697384",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1215001762692468736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1226036227602386945",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227838984860864542",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227845212022243369",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1229994686970593300"
+        ]
+      }
+    },
+    {
+      "id": "quake-shade-and-staff",
+      "title": "The valley and the face he left behind",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest narration establishes the shade, its fall, the collapsing undead, the recovery and the staff. Nuleah’s metaphysical explanation and promised research remain attributed; purification and a universal resurrection rule are not inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237606787176206389",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237607042135625778",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237607281579917404",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237607304170307666",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237611013642391662",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237611159151050782",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237611414802141214",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237611696382545933",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237645498316488734",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237645550405419058",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237646113079824404",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237646200216227860",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237646327341514753",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237647784329347155",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237648317455011881",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237648477173977108"
+        ]
+      }
+    },
+    {
+      "id": "quake-island-and-tomb",
+      "title": "A route to Gael, and a vote to leave",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Primary quests establish route work, his anti-undeath position and the discussion of retreat. His hopes about the tomb and enemy intentions are not omniscient findings, and proposed seals are not completed permanent outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1250286642410029149",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1250295993900077097",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1250318713555652628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1250319622029316097",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262216945164353669",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262274457582440489",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1259707125790281818",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265549010727600140",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265550710049603685",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265553013339066491",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267203633309679616"
+        ]
+      }
+    },
+    {
+      "id": "quake-wrath-and-refusal",
+      "title": "Wrath, a burial request and a refused peace",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The quest establishes his burial request, continued participation, disguise and refusal. The request is not a death confirmation, the disguise is not an identity change, and his prediction of mortal power is an attributed hope.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1308977782818340864",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1308978112884903986",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1308999710505304084",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1308999838624387124",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309059699177558016",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063347525910568",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063511212818466",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063638929248306"
+        ]
+      }
     }
   ],
   "brief": {
     "identity": "Warrior-mage; defender of Pristinia",
-    "significance": "One of Pristinia’s earliest Called adventurers, Quake turns magical force toward scouting, rescue, fortification, and the stubborn defense of a settlement still learning how to survive.",
+    "significance": "One of the first Called, Quake chooses Pristinia as home, trains its defenders and faces a corrupted shade of himself before carrying his duty into Gael.",
     "actions": [
       {
         "section": "quake-scene-sequence",
@@ -197,7 +344,7 @@
         "date": "28 Jul 2024 · quest-RP"
       }
     ],
-    "status": "Last dated entry in this selection: 28 Jul 2024 · quest-RP. Later status is not established here.",
+    "status": "Present after Wrath’s fall; final fate unestablished",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
   },
@@ -205,5 +352,63 @@
     "personality": "Quake is direct, forceful, and often willing to stand where uncertainty becomes action. His record shows both martial decisiveness and the ability to refuse a tempting solution when its moral price is hidden inside grief.",
     "achievements": "He belongs to the first Calling, helps reopen Eovar’s route, organizes Pristinia, pursues the Compass crisis, helps build the walls, and uses the Gael crown to command ancient statues and reveal an escape. When Wrath offers restoration after Dale’s death, Quake refuses and creates space for another answer.",
     "relationships": "Elenia later protects Quake because he previously saved Nienna and her, turning an earlier deed into a lasting obligation of care. Gartina, Jiangshi, Adelia, Saray, Wren, and Dale accompany many of his defining expeditions, while his refusal of Wrath links personal loyalty to the campaign’s wider rejection of coerced sacrifice."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "quake-arrival-and-home",
+        "title": "The first Called, and a home chosen",
+        "sections": [
+          "first-wave",
+          "quake-home-and-learning"
+        ]
+      },
+      {
+        "id": "quake-pristinia-defense",
+        "title": "The work of keeping Pristinia",
+        "sections": [
+          "pristinia-defense",
+          "ada-reputation-quake"
+        ]
+      },
+      {
+        "id": "quake-shade-and-staff",
+        "title": "Facing his former self",
+        "sections": [
+          "quake-shade-and-staff"
+        ]
+      },
+      {
+        "id": "quake-coastal-choice",
+        "title": "The young staff and the costly route",
+        "sections": [
+          "staff-and-ritual"
+        ]
+      },
+      {
+        "id": "quake-island-and-tomb",
+        "title": "Across the sea and out of the tomb",
+        "sections": [
+          "quake-island-and-tomb"
+        ]
+      },
+      {
+        "id": "quake-wrath-and-bonds",
+        "title": "The company, Wrath and the last refusal",
+        "sections": [
+          "quake-wrath-and-refusal",
+          "quake-relationships"
+        ]
+      },
+      {
+        "id": "quake-open-record",
+        "title": "The returns and questions still unresolved",
+        "sections": [
+          "open-record"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

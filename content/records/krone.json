@@ -7,7 +7,7 @@
   "imageLayout": "portrait-hero",
   "imageAlt": "Krone, a massive vermilion-skinned giant-blooded warrior with a dark beard under vivid blue and magenta light",
   "imageCaption": "Krone — giant-blooded adventurer, front-line protector, and sworn brother to Draygar.",
-  "dek": "A joyful force of appetite, loyalty, and primordial strength whose famous urge to smash is ultimately governed by a simpler promise: protect the people he calls family.",
+  "dek": "A giant-blooded warrior whose brotherhood with Draygar runs through ale, reckless plans, gifts, rescue and the fear of losing another family.",
   "tags": [
     "Krone",
     "Player character",
@@ -20,11 +20,12 @@
     "Role": "Front-line warrior and protector",
     "Player status": "Player character",
     "Signature": "Maul · giant growth · primordial energy",
-    "Central bond": "Draygar WarSmash · sworn brother",
+    "Central bond": "Draygar WarSmash · calls him brother",
     "Major campaign": "The battle against Wrath",
     "Family loss": "Killed by dragons · Krone’s testimony",
-    "Later fate": "Unresolved · absence does not confirm death",
-    "Recovered span": "29 Aug 2024 – 28 Jul 2025"
+    "Later fate": "Seen again at the rift · 23, Month of Cala, Year 3; final whereabouts unresolved",
+    "Recovered span": "Month of Moirah, Year 1 – Month of Cala, Year 3",
+    "Divine encounter": "Pledges to protect Cala’s work; passes her gift to Draygar"
   },
   "sources": [
     "Complete quest-RP export — Krone-authored scenes from 29 Aug 2024 through 28 Jul 2025",
@@ -48,9 +49,57 @@
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063092742918205",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063638929248306",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1309063752569847830",
-    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309064010364096545"
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309064010364096545",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1278886680404955161",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279120775944867922",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279120887706161333",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1280559244395151431",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1280559371582967829",
+    "https://discord.com/channels/1177270231513694249/1199706439619453028/1280680858675712010",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281054368346407045",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281089759959191584",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1284677610542202922",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1291070161323036776",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1291070197829992449",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1292679131288309760",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1292679318153068595",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1293047441054240871",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1296170844409823373",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1296171850350596156",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306815769509625947",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306816121386565643",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307558079826628631",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307558435788947498",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307558621550215229",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307599169455783997",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1298858006133477439",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1298862746804162610",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1300621074479714364",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1300621251424948276",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282448894122524784",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282449940043272315",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1282509988236886148",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1283061896643219456",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1283062154836054097",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1283062396708982868",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285452923081326654",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1298865094700302347",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1298867526528139344",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529657967354581122",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529659015825457272",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529659161896288437",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529660603013140684",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529661596216066118",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529669614383136828",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529686951505035380",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529697020162347088",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529722941863100496",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529723240120061982",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529724206042845246",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1529724272497397861",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285396512477679711"
   ],
-  "body": "<p>Krone’s first recovered scenes feature ale, enormous appetite, a maul, uncomplicated enthusiasm, and the recurring question of whether the current problem may be smashed. He jokes readily and is protective when danger threatens. When tainted wildlife threatens others, he explains that corruption once touched his home village. When Doll needs treatment, he ends the expedition and carries her back. When new companions are endangered, he declares that he will smash to protect his new friends.</p>\n      <p>His personality is direct rather than empty. Krone often needs others to explain an unfamiliar place or plan, yet he can stop himself when force would endanger the party. During the campaign against Wrath, he resists the urge to attack a more tempting enemy because survival demands that he hold the front. He worries that he may not be strong enough, admits that he may have failed, and accepts help from the friends who make failure survivable.</p>\n      <p>Krone comes to regard his adventuring companions as family. Draygar is his brother in nearly every sense the archive can observe: they eat, joke, fight, compete, plan, and protect one another. Squiddy’s rescue ends with Krone realizing that the people around him are family. Wren, Gartina, Dale, Saray, Elenia, Arjahn, and the rest of the Wrath company become people he is willing to stand before even when he does not understand the cosmic bargain unfolding around them.</p>\n      <h2 id=\"krone-first-expeditions\">Taint, the village, and the first expeditions</h2>\n      <p>On 29 August 2024, Krone joins an investigation into tainted wildlife after telling Myndl’lay that a similar corruption once touched his home village. His attack on an affected creature drives purple energy through his maul and into his body, leaving him babbling until the effect passes. Rather than push deeper after Doll is hurt, he calls for treatment and carries her toward the settlement.</p>\n      <p>The following weeks place him in forests, ruins, Gael-bound expeditions, civic festivals, rescues, and dangerous crossings. His power is visibly giant-blooded: he can grow, throw tremendous weight, carry companions, and channel fiery or primordial energy through his maul. Yet the meaningful pattern is not how hard he hits. It is how quickly he turns that strength toward the person beside him.</p>\n      <h2 id=\"krone-draygar\">Brotherhood with Draygar</h2>\n      <p>Draygar repeatedly calls Krone brother, and Krone answers in kind. Their partnership is affectionate and practical: each notices when the other is missing, hurt, or overwhelmed; each makes room for the other’s strengths; and their shared bravado gives frightened companions something loud and reliable to stand behind.</p>\n      <p>During the November 2024 battles, Krone breaks formation to help Draygar, carries him when he falls, and insists that his brother will not die first. The relationship sharpens Krone’s priorities. His rage may be indiscriminate at its edge, but his loyalty is specific enough to pull him across a battlefield.</p>\n      <h2 id=\"krone-wrath\">The campaign against Wrath</h2>\n      <p>Krone joins Dale, Gartina, Adelia, Bitoshi, Elenia, Arjahn, Scribonia, Quake, Draygar, Saray, Vaemyr, Wren, and others in the catastrophe surrounding Wrath. He holds the front, coordinates targets in his own blunt language, and restrains himself when striking the wrong enemy would leave the company exposed.</p>\n      <p>After the worst losses, his certainty breaks. Krone asks others to stay, turns to Gartina in tears because he does not know what to do, and finally urges the company to go home and make a new plan. That retreat is not cowardice. It is the moment his protective instinct becomes larger than the need to prove strength through one more attack.</p>\n<h2 id=\"krone-coin\">A coin and the next step</h2>\n<p>On 10 September 2024, the company leaves a route decision to Krone. He answers with a coin flip: heads for the coast, tails for the hill. The coin chooses the hill. His humor carries a recognizable preference for motion when certainty is unavailable. It also exposes a tension: decisiveness can move the company forward before every consequence is understood.</p>\n<h2 id=\"krone-dragons\">Family lost, grief turned outward</h2>\n<p>Krone says dragons killed his family. In the October 2024 encounter with Tutora Rhex, he demands to know why, declares that dragons must pay, and enters a blind fit of rage. His tears accompany the anger. The loss explains his response without establishing that every dragon shares responsibility for it.</p>\n<p><a href=\"#draygar-warsmash\">Draygar</a> tries to slow his advance and asks that Krone be incapacitated rather than killed. Gartina later reminds Krone that dragons are as varied as other intelligent peoples. This is a dangerous limit to his protective instinct: remembered grief can make an individual in front of him stand for an entire category of enemies. His companions’ restraint becomes part of the care that keeps him alive.</p>\n<h2 id=\"krone-elenia\">Elenia, family and the price of return</h2>\n<p>On 21 November 2024, Krone asks Death what he can give to bring <a href=\"#elenia\">Elenia</a>’s soul back. He calls her family.</p>\n<div class=\"character-quote\"><blockquote>“What price....What Krone give for family soul to return....for Elenia....”</blockquote><cite>Krone</cite></div>\n<p>The question connects his original loss to the family he builds through adventuring. He looks for something he can personally give when strength cannot restore someone he loves. It supports a willingness to sacrifice, but does not establish an accepted bargain, a completed exchange or the price he would ultimately have paid.</p>\n<h2 id=\"krone-bridge\">The fire-scorched bridge</h2>\n<p>A July 2025 Writer passage describes Krone charging through dragonfire on a bridge as soldiers scatter. He strikes with his hammer, grapples the dragon, drags it down and shatters its spine against the stone. The account ends with the battle surging with renewed hope in his shadow. His strength changes the courage available to the people around him.</p>\n<p>The passage preserves an extraordinary feat in explicitly legendary language. The account’s posting date does not establish the battle’s date, location or dragon’s identity. Later descriptions of Krone as among the mightiest mortals remain attributed reputation rather than a universal ranking of power.</p>\n<h2 id=\"krone-joy\">Laughter and the force that advances</h2>\n<p>Ada’s July 2025 chronicle remembers Krone and Draygar as brothers by choice and battle: Krone as the force that advances, Draygar as the force that holds. Their different temperaments help explain a partnership already visible in their practical protection of one another. Draygar steadies the momentum that Krone creates.</p>\n<p>Krone’s laughter belongs beside his fury. Public memory notices the quiet left by his absence as well as the power missing from a battlefield. Ale, appetite, jokes and enthusiasm keep him connected to ordinary companionship. His direct speech does not make his emotional life shallow: love, fear of failure, grief and joy all become things he does.</p>\n<h2 id=\"krone-strength-limits\">When hitting harder cannot help</h2>\n<p>Krone’s recurring tension is strength against helplessness. Physical action often protects his companions; loss cannot always be carried away, broken or struck. The bargain he seeks for Elenia, the tears after Wrath and his dangerous response to dragons show different attempts to find an action when his familiar answer fails. Loyalty can become courage or self-sacrifice, while grief can become vengeance before he understands whom he is hurting.</p>\n      <h2 id=\"krone-wider-world\">Beyond Gael</h2>\n      <p>Krone later reaches the Shining Shores with Elenia, Olokun, Draygar, Adelia, Scribonia, and Eugene on 10 January 2025. The journey places him within Fein Uaill’s wider civic world after months defined by Pristinia, The Before, Gael, and Wrath. By July he remains active in major battles, surviving necrotic force through will and giant-blooded resilience even when rage is turned against allies.</p>\n      <h2 id=\"krone-open-record\">The open record</h2>\n      <p>Krone’s family loss to dragons is preserved in his own words; the identities of his family, the circumstances of their deaths, and his full early biography remain unknown. The exact nature of his primordial connection, the beginning of his brotherhood with Draygar, and the consequences of the July 2025 battles are also incomplete. Later accounts remember him in absence or ask whether he can be found or saved. They do not establish that he is dead, trapped or permanently lost. No direct allegiance to Cala is inferred from shared companions, and legendary reputation does not settle an absolute ranking of his strength.</p><h2 id=\"krone-castle-company\">Among the castle’s first company</h2><p>Krone is named alongside Elenia, Adelia, Draygar and Olokun in the company receiving <a href=\"#caislean-na-bron\">the Fein Uaill castle</a>. Their first private discussion includes his grief over the missing companions who knew how to cross realms. Other people speculate about which faction would suit him; their guesses do not establish his choice or membership.</p><h2 id=\"krone-stay-and-leave\">After Wrath · asking his family to stay</h2><p>After Wrath falls, Krone remains ready to protect the company, then drops to his knees and asks whether it was worth the cost. When Wren tries to leave, he puts a hand on her shoulder and asks her to stay. His attempt to stop her is expressly not forceful. He calls her a friend and says unity matters more than ever.</p><p>He then asks Death what he can give for Elenia and threatens to make him remember Krone if he takes this new family away. When Draygar proposes trading for Olokun, Krone stands beside him and offers his prized maul. Death refuses; Krone lowers his shoulders and calls for home and a new plan. These appeals do not secure an exchange. The companion who can carry someone across a battlefield is left asking others to remain beside him.</p>",
+  "body": "<p>Krone’s first recovered scenes feature ale, enormous appetite, a maul, uncomplicated enthusiasm, and the recurring question of whether the current problem may be smashed. He jokes readily and is protective when danger threatens. When tainted wildlife threatens others, he explains that corruption once touched his home village. When Doll needs treatment, he ends the expedition and carries her back. When new companions are endangered, he declares that he will smash to protect his new friends.</p>\n      <p>Krone often asks others to explain an unfamiliar place or plan, and he can stop himself when force would endanger the party. During the campaign against Wrath, he resists the urge to attack a more tempting enemy because survival demands that he hold the front. He worries that he may not be strong enough, admits that he may have failed, and accepts help from the friends who make failure survivable.</p>\n      <p>Krone comes to regard his adventuring companions as family. Draygar is his brother in nearly every sense the archive can observe: they eat, joke, fight, compete, plan, and protect one another. Squiddy’s rescue ends with Krone realizing that the people around him are family. Wren, Gartina, Dale, Saray, Elenia, Arjahn, and the rest of the Wrath company become people he is willing to stand before even when he does not understand the cosmic bargain unfolding around them.</p>\n      \n<h2 id=\"krone-first-expeditions\">Taint, the village, and the first expeditions</h2>\n      <p>On 29 August 2024, Krone joins an investigation into tainted wildlife after telling Myndl’lay that a similar corruption once touched his home village. His attack on an affected creature drives purple energy through his maul and into his body, leaving him babbling until the effect passes. Rather than push deeper after Doll is hurt, he calls for treatment and carries her toward the settlement.</p>\n      <p>The following weeks place him in forests, ruins, Gael-bound expeditions, civic festivals, rescues, and dangerous crossings. His power is visibly giant-blooded: he can grow, throw tremendous weight, carry companions, and channel fiery or primordial energy through his maul. He uses that strength to carry companions and put himself between them and danger.</p>\n      \n<h2 id=\"krone-draygar\">Brotherhood with Draygar</h2>\n      <p>Draygar repeatedly calls Krone brother, and Krone answers in kind. Their partnership is affectionate and practical: each notices when the other is missing, hurt, or overwhelmed; each makes room for the other’s strengths; and their shared bravado gives frightened companions something loud and reliable to stand behind.</p>\n      <p>During the November 2024 battles, Krone breaks formation to help Draygar, carries him when he falls, and insists that his brother will not die first. The relationship sharpens Krone’s priorities. His rage may be indiscriminate at its edge, but his loyalty is specific enough to pull him across a battlefield.</p>\n      <p>That loyalty can pull him away from a safer position. In the advance toward Wrath, he first wants to go to Draygar’s aid, then reluctantly accepts Vaemyr’s instruction and calls for his brother to be kept safe. A later rush across the bridge is more desperate: his voice shakes as he insists that Draygar must not die before him. He eventually carries the injured Draygar back toward the others.</p><p>Draygar’s protection can mean refusing Krone the fight he wants. When Krone advances on Tutora Rhex, Draygar clings to his leg, braces for the dragon’s response and will not leave him. He later stands in front of Krone and begs mercy. They do not always protect one another by agreeing.</p><p>Neither keeps the same role in every crisis. When Draygar asks whether they should run during a later fight in the Plains, Krone gives him a gentle punch on the shoulder and urges him to stay resolute. After Wrath, Krone is the one asking to go home and find a new plan. Fear, encouragement and the need for help pass between them.</p>\n<h2 id=\"krone-wrath\">The campaign against Wrath</h2>\n      <p>Krone joins Dale, Gartina, Adelia, Bitoshi, Elenia, Arjahn, Scribonia, Quake, Draygar, Saray, Vaemyr, Wren, and others in the catastrophe surrounding Wrath. He holds the front, coordinates targets in his own blunt language, and restrains himself when striking the wrong enemy would leave the company exposed.</p>\n      <p>After the worst losses, his certainty breaks. Krone asks others to stay, turns to Gartina in tears because he does not know what to do, and finally urges the company to go home and make a new plan. That retreat is not cowardice. It is the moment his protective instinct becomes larger than the need to prove strength through one more attack.</p>\n\n<h2 id=\"krone-coin\">A coin and the next step</h2>\n<p>On 10 September 2024, the company leaves a route decision to Krone. He answers with a coin flip: heads for the coast, tails for the hill. The coin chooses the hill. His humor carries a recognizable preference for motion when certainty is unavailable. It also exposes a tension: decisiveness can move the company forward before every consequence is understood.</p>\n\n<h2 id=\"krone-dragons\">Family lost, grief turned outward</h2>\n<p>Krone says dragons killed his family. In the October 2024 encounter with Tutora Rhex, he demands to know why, declares that dragons must pay, and enters a blind fit of rage. His tears accompany the anger. The loss explains his response without establishing that every dragon shares responsibility for it.</p>\n<p><a href=\"#draygar-warsmash\">Draygar</a> tries to slow his advance and asks that Krone be incapacitated rather than killed. Gartina later reminds Krone that dragons are as varied as other intelligent peoples. This is a dangerous limit to his protective instinct: remembered grief can make an individual in front of him stand for an entire category of enemies. His companions’ restraint becomes part of the care that keeps him alive.</p>\n<p>After the confrontation, Krone asks why the dragon did not hurt him if dragons are bad. The unanswered question matters beside the outburst: a person he was ready to condemn has failed to behave as he expected. Draygar sits beside him and reminds him that they are there to protect. The scene does not establish that Krone has permanently overcome his hatred.</p>\n<h2 id=\"krone-elenia\">Elenia, family and the price of return</h2>\n<p>On 21 November 2024, Krone asks Death what he can give to bring <a href=\"#elenia\">Elenia</a>’s soul back. He calls her family.</p>\n<div class=\"character-quote\"><blockquote>“What price....What Krone give for family soul to return....for Elenia....”</blockquote><cite>Krone</cite></div>\n<p>The question connects his original loss to the family he builds through adventuring. He looks for something he can personally give when strength cannot restore someone he loves. It supports a willingness to sacrifice, but does not establish an accepted bargain, a completed exchange or the price he would ultimately have paid.</p>\n\n<h2 id=\"krone-bridge\">The fire-scorched bridge</h2>\n<p>A July 2025 Writer passage describes Krone charging through dragonfire on a bridge as soldiers scatter. He strikes with his hammer, grapples the dragon, drags it down and shatters its spine against the stone. The account ends with the battle surging with renewed hope in his shadow. His strength changes the courage available to the people around him.</p>\n<p>The passage preserves an extraordinary feat in explicitly legendary language. The account’s posting date does not establish the battle’s date, location or dragon’s identity. Later descriptions of Krone as among the mightiest mortals remain attributed reputation rather than a universal ranking of power.</p>\n\n<h2 id=\"krone-joy\">Laughter and the force that advances</h2>\n<p>Ada’s July 2025 chronicle remembers Krone and Draygar as brothers by choice and battle: Krone as the force that advances, Draygar as the force that holds. Their different temperaments help explain a partnership already visible in their practical protection of one another. Draygar steadies the momentum that Krone creates.</p>\n<p>Krone’s laughter belongs beside his fury. Public memory notices the quiet left by his absence as well as the power missing from a battlefield. Ale, appetite, jokes and enthusiasm keep him connected to ordinary companionship. His direct speech does not make his emotional life shallow: love, fear of failure, grief and joy all become things he does.</p>\n\n<h2 id=\"krone-strength-limits\">When hitting harder cannot help</h2>\n<p>Krone’s recurring tension is strength against helplessness. Physical action often protects his companions; loss cannot always be carried away, broken or struck. The bargain he seeks for Elenia, the tears after Wrath and his dangerous response to dragons show different attempts to find an action when his familiar answer fails. Loyalty can become courage or self-sacrifice, while grief can become vengeance before he understands whom he is hurting.</p>\n      \n<h2 id=\"krone-wider-world\">Beyond Gael</h2>\n      <p>Krone later reaches the Shining Shores with Elenia, Olokun, Draygar, Adelia, Scribonia, and Eugene on 10 January 2025. The journey places him within Fein Uaill’s wider civic world after months defined by Pristinia, The Before, Gael, and Wrath. By July he remains active in major battles, surviving necrotic force through will and giant-blooded resilience even when rage is turned against allies.</p>\n      \n<h2 id=\"krone-open-record\">The open record</h2><p>Krone’s family loss to dragons is preserved in his own words; the identities of his family, the circumstances of their deaths and his full early biography remain unknown. His account of a giant village adds a glimpse of home without a complete genealogy.</p><p>The exact nature of his primordial connection, the beginning of his brotherhood with Draygar and every consequence of the earlier dragon battles remain incomplete. Earlier accounts remember him in absence or ask whether he can be found or saved. The later rift appearance establishes him alive again in the witnessed record, while leaving the intervening gap and his final whereabouts unresolved.</p><p>His pledge to Cala and the gift he passes to Draygar now have direct scene support. They do not supply an unrecorded religious office or universal rules for his powers. Legendary reputation still does not settle an absolute ranking of strength.</p>\n<h2 id=\"krone-castle-company\">Among the castle’s first company</h2><p>Krone is named alongside Elenia, Adelia, Draygar and Olokun in the company receiving <a href=\"#caislean-na-bron\">the Fein Uaill castle</a>. Their first private discussion includes his grief over the missing companions who knew how to cross realms. Other people speculate about which faction would suit him; their guesses do not establish his choice or membership.</p>\n<h2 id=\"krone-stay-and-leave\">After Wrath · asking his family to stay</h2><p>After Wrath falls, Krone remains ready to protect the company, then drops to his knees and asks whether it was worth the cost. When Wren tries to leave, he puts a hand on her shoulder and asks her to stay. His attempt to stop her is expressly not forceful. He calls her a friend and says unity matters more than ever.</p><p>He then asks Death what he can give for Elenia and threatens to make him remember Krone if he takes this new family away. When Draygar proposes trading for Olokun, Krone stands beside him and offers his prized maul. Death refuses; Krone lowers his shoulders and calls for home and a new plan. These appeals do not secure an exchange. The companion who can carry someone across a battlefield is left asking others to remain beside him.</p>\n<h2 id=\"krone-brothers-at-home\">The brothers between battles</h2><p>In the early Pristinia gatherings, <a href=\"#draygar-warsmash\">Draygar</a> steps out of Krone’s shadow to demand his share of the ale. When both arrive late with food still in their mouths, Krone jokes that they are brothers for a reason. Their partnership is already familiar before the great battles that later define their reputations.</p><p>Draygar teases him about finding a new family, and Krone answers that his brother is his main family and reminds him of home. This sits beside Krone’s account of growing up in a mountain village of giants. The affection and the remembered home are explicit; a complete genealogy or the first meeting between the two is not recovered.</p><p>They compete, train, perform and make plans together. At the concert, Draygar asks Krone to lift him high enough to see the stage; later both remember playing to raise repair money. Krone praises his brother’s smithing, while Draygar jokes that a charge will eventually get him into trouble. Each knows something useful about the other, including when to laugh at him.</p><p>Their habit of saying “brother” extends to practical arrangements: stay together because it is safer, divide the approach between them, keep the companions with the more delicate work out of the line of attack. Draygar welcomes Wren’s friends as friends of the brothers.</p>\n<h2 id=\"krone-cala-and-gift\">Cala’s gift, passed to his brother</h2><p>At the mountain training with Cala in the Month of Nuru, Year 1, the narrator gives Krone a Mace of Disruption. Krone promises to use the gift for good, grow stronger and protect what Cala has built. The pledge is his own; the scene does not require a later witness to infer it from his companions.</p><p>In the conversations afterward, he thinks the gift will be more useful to Draygar. At the Archery Range, Draygar says his brother got him a weapon from the goddess, and Krone confirms that he passed the gift on. A divine reward becomes something he can give to the person fighting beside him.</p><p>Draygar subsequently prays to Cala, saying that Krone has told him she is a good goddess and that the company needs help. Their brotherhood carries a recommendation as well as equipment. The recovered scenes do not establish that every later mace and radiant warhammer is this same object, or supply the complete rules of either brother’s relationship with Cala.</p>\n<h2 id=\"krone-seen-again\">23, Month of Cala, Year 3 · seen again at a rift</h2><p>The later rift battle establishes Krone alive and active again. His entrance describes waking after a long hibernation, looking for food and stepping through the opening in hope of finding more. Adelia rushes to embrace him; Scribonia is relieved to see someone whose survival he had not been sure of.</p><p>Krone recognizes his “moth friend,” accepts an apple and greets other people with varying success. His first swings miss and he complains that his arms feel sluggish. Soon he is fighting, hurling attackers into the void and striking with his maul. The return preserves both the rusty beginning and his enjoyment once the fight is underway.</p><p>Afterward he harvests from the creatures left on the floating rocks, says farewell to Scribonia and Adelia and eventually takes his leave. This witnessed return answers whether the earlier absence continued indefinitely. It does not explain the entire interval, identify a captor or destination, or establish his final whereabouts after this battle.</p>\n",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
@@ -82,9 +131,9 @@
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "Scenes & attributed accounts",
+        "summary": "Checked quests establish rescue, tactical restraint and the appeal for mercy. Compatible Plains dialogue preserves mutual encouragement; neither brother is assigned a permanent role as the stronger or wiser one.",
+        "scope": "section",
         "sources": [
           "Complete quest-RP export — Krone-authored scenes from 29 Aug 2024 through 28 Jul 2025",
           "Fenumion Codex timeline — Gael, Wrath, and Shining Shores events",
@@ -94,7 +143,18 @@
           "Quest-RP — coin decision, Tutora Rhex confrontation, and Elenia appeal · Sep–Nov 2024",
           "The Writer — fire-scorched bridge account · July 2025; battle date unresolved",
           "Ada’s Contemporary Chronicle — Krone and Draygar · 15 July 2025",
-          "Castle chronicle · selected January 2025 public scenes"
+          "Castle chronicle · selected January 2025 public scenes",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306815769509625947",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306816121386565643",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307558079826628631",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307558435788947498",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307558621550215229",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307599169455783997",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1298858006133477439",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1298862746804162610",
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1300621074479714364",
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1300621251424948276",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309064010364096545"
         ]
       }
     },
@@ -145,12 +205,12 @@
     {
       "id": "krone-dragons",
       "title": "Family lost, grief turned outward",
-      "chapter": "People & relationships",
+      "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The checked quest preserves Krone’s confused question and Draygar’s response without inventing a complete change of belief.",
+        "scope": "section",
         "sources": [
           "Complete quest-RP export — Krone-authored scenes from 29 Aug 2024 through 28 Jul 2025",
           "Fenumion Codex timeline — Gael, Wrath, and Shining Shores events",
@@ -160,7 +220,9 @@
           "Quest-RP — coin decision, Tutora Rhex confrontation, and Elenia appeal · Sep–Nov 2024",
           "The Writer — fire-scorched bridge account · July 2025; battle date unresolved",
           "Ada’s Contemporary Chronicle — Krone and Draygar · 15 July 2025",
-          "Castle chronicle · selected January 2025 public scenes"
+          "Castle chronicle · selected January 2025 public scenes",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1298865094700302347",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1298867526528139344"
         ]
       }
     },
@@ -343,11 +405,86 @@
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1309064010364096545"
         ]
       }
+    },
+    {
+      "id": "krone-brothers-at-home",
+      "title": "The brothers between battles",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Primary quests establish their coordination and concert behavior. Compatible daily scenes preserve teasing, praise and Krone’s account of family and home; they do not establish biological kinship or a first meeting.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1278886680404955161",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279120775944867922",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279120887706161333",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1280559244395151431",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1280559371582967829",
+          "https://discord.com/channels/1177270231513694249/1199706439619453028/1280680858675712010",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281054368346407045",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281089759959191584",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1284677610542202922",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1291070161323036776",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1291070197829992449",
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1292679131288309760",
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1292679318153068595",
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1293047441054240871",
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1296170844409823373",
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1296171850350596156",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285396512477679711"
+        ]
+      }
+    },
+    {
+      "id": "krone-cala-and-gift",
+      "title": "Cala’s gift, passed to his brother",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The quest narrator identifies the gift and Krone states his pledge. Compatible RP records both brothers describing the transfer. Later weapon identities and divine mechanics remain unresolved.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282448894122524784",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282449940043272315",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1282509988236886148",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1283061896643219456",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1283062154836054097",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1283062396708982868",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285452923081326654"
+        ]
+      }
+    },
+    {
+      "id": "krone-seen-again",
+      "title": "23, Month of Cala, Year 3 · seen again at a rift",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Checked narrator-led rift scenes and companions’ responses establish his later presence, fighting and departure. The posting date locates this appearance, not the beginning or full duration of the earlier absence.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529657967354581122",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529659015825457272",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529659161896288437",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529660603013140684",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529661596216066118",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529669614383136828",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529686951505035380",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529697020162347088",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529722941863100496",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529723240120061982",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529724206042845246",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1529724272497397861"
+        ]
+      }
     }
   ],
   "brief": {
     "identity": "Giant-blooded vanguard; player character",
-    "significance": "A joyful force of appetite, loyalty, and primordial strength whose famous urge to smash is ultimately governed by a simpler promise: protect the people he calls family.",
+    "significance": "A giant-blooded warrior whose brotherhood with Draygar runs through ale, reckless plans, gifts, rescue and the fear of losing another family.",
     "actions": [
       {
         "title": "Gartina plants Stake and brings forth a forest",
@@ -365,7 +502,7 @@
         "date": "2025-01-12 · posting date (UTC)"
       }
     ],
-    "status": "Last dated entry in this selection: 2025-01-12 · posting date (UTC). Later status is not established here.",
+    "status": "Seen again at the rift · 23, Month of Cala, Year 3; final whereabouts unresolved",
     "relationships": [
       {
         "id": "draygar-warsmash",
@@ -393,10 +530,26 @@
       },
       {
         "id": "krone-brother-and-joy",
-        "title": "Draygar, laughter and fellowship",
+        "title": "Draygar: the brothers at home and in danger",
         "sections": [
+          "krone-brothers-at-home",
           "krone-draygar",
           "krone-joy"
+        ]
+      },
+      {
+        "id": "krone-cala-and-gift",
+        "title": "Cala’s gift and a brother’s trust",
+        "sections": [
+          "krone-cala-and-gift"
+        ]
+      },
+      {
+        "id": "krone-dragons-and-loss",
+        "title": "Dragons, remembered loss and restraint",
+        "sections": [
+          "krone-dragons",
+          "krone-bridge"
         ]
       },
       {
@@ -409,14 +562,6 @@
         ]
       },
       {
-        "id": "krone-dragons-and-loss",
-        "title": "Dragons, remembered loss and restraint",
-        "sections": [
-          "krone-dragons",
-          "krone-bridge"
-        ]
-      },
-      {
         "id": "krone-fein-company",
         "title": "Beyond Gael and into Fein Uaill",
         "sections": [
@@ -426,9 +571,10 @@
       },
       {
         "id": "krone-limits-and-absence",
-        "title": "Helplessness and the unresolved absence",
+        "title": "Helplessness, absence and the witnessed return",
         "sections": [
           "krone-strength-limits",
+          "krone-seen-again",
           "krone-open-record"
         ]
       }

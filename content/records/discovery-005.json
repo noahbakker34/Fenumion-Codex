@@ -2,15 +2,15 @@
   "id": "discovery-005",
   "title": "Caravash",
   "category": "People",
-  "type": "Civic and economic adviser",
+  "type": "Player character",
   "dek": "Arrives at a meeting expecting to advise town leaders. The scene preserves an expectation of influence, not proof that the town accepts that authority.",
   "tags": [
     "Caravash",
-    "npc",
+    "player character",
     "Prima"
   ],
   "facts": {
-    "Role": "Civic and economic adviser",
+    "Role": "Player character",
     "Island": "Prima",
     "Census posts": "53",
     "Recorded span": "2024-08-08 → 2024-08-21",
@@ -63,7 +63,7 @@
     }
   ],
   "brief": {
-    "identity": "Civic and economic adviser",
+    "identity": "Player character",
     "significance": "Arrives at a meeting expecting to advise town leaders. The scene preserves an expectation of influence, not proof that the town accepts that authority.",
     "actions": [
       {

@@ -14969,6 +14969,24 @@
         "aliases": [
           "Vel'kaen Heizor"
         ]
+      },
+      {
+        "title": "Caravash",
+        "article": "discovery-005",
+        "meta": "Player character · quest-RP",
+        "summary": "Arrives at a meeting expecting to advise town leaders. The scene preserves an expectation of influence, not proof that the town accepts that authority.",
+        "prominence": {
+          "consequence": 3,
+          "institution": 3,
+          "relationships": 2,
+          "recurrence": 10,
+          "score": 54,
+          "reason": "The checked meeting scene makes economic influence a civic question.",
+          "confidence": "Provisional"
+        },
+        "image": "assets/characters/discord/d06b7c850cd809b60e969d72426eaf0971e1245b37eaf4b7d5a42e004b6312c4.png",
+        "imageAlt": "Discord depiction of Caravash",
+        "imageCaption": "Caravash"
       }
     ],
     "npcs": [
@@ -15723,24 +15741,6 @@
         "image": "assets/characters/discord/e913fd9aeef057ab83a634f8c9ca1bf46e07e0f0c0c97893b2cfa0ab03c5ad24.png",
         "imageAlt": "Discord depiction of Simon",
         "imageCaption": "Simon"
-      },
-      {
-        "title": "Caravash",
-        "article": "discovery-005",
-        "meta": "Civic and economic adviser",
-        "summary": "Arrives at a meeting expecting to advise town leaders. The scene preserves an expectation of influence, not proof that the town accepts that authority.",
-        "prominence": {
-          "consequence": 3,
-          "institution": 3,
-          "relationships": 2,
-          "recurrence": 10,
-          "score": 54,
-          "reason": "The checked meeting scene makes economic influence a civic question.",
-          "confidence": "Provisional"
-        },
-        "image": "assets/characters/discord/d06b7c850cd809b60e969d72426eaf0971e1245b37eaf4b7d5a42e004b6312c4.png",
-        "imageAlt": "Discord depiction of Caravash",
-        "imageCaption": "Caravash"
       },
       {
         "title": "Elaria",
@@ -33399,10 +33399,6 @@
           "basis": "Pristinian civilian or institutional role"
         },
         {
-          "name": "Caravash",
-          "basis": "Civic and economic adviser · recorded regional connection"
-        },
-        {
           "name": "Liora Fenwick",
           "basis": "Mission and ceremony figure · recorded regional connection"
         },
@@ -33746,8 +33742,8 @@
       {
         "id": "discovery-005",
         "name": "Caravash",
-        "kind": "npc",
-        "role": "Civic and economic adviser",
+        "kind": "player",
+        "role": "Player character",
         "summary": "Arrives at a meeting expecting to advise town leaders. The scene preserves an expectation of influence, not proof that the town accepts that authority.",
         "island": "Prima",
         "posts": 53,
@@ -40291,8 +40287,8 @@
         {
           "id": "discovery-005",
           "name": "Caravash",
-          "kind": "npc",
-          "role": "Civic and economic adviser",
+          "kind": "player",
+          "role": "Player character",
           "summary": "Arrives at a meeting expecting to advise town leaders. The scene preserves an expectation of influence, not proof that the town accepts that authority.",
           "island": "Prima",
           "posts": 53,

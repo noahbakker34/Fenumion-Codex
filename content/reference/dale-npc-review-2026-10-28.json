@@ -24,6 +24,11 @@
       "wordsAfter": 555
     }
   },
+  "roleCorrection": {
+    "article": "discovery-005",
+    "classification": "Player character",
+    "authority": "Explicit owner confirmation, 28 October 2026"
+  },
   "scope": {
     "databasesSearched": 32,
     "overlappingOccurrences": 522417,
@@ -1555,6 +1560,7 @@
     "Derek’s sarcasm, family worry, supplied brush and consent limits lead into the resumed quest’s conclusion: Rue is the fallen tree creature and the narrator establishes that Derek is told. Notification is off screen, so no exact reaction is invented. The later gremlin warning is retained, and Derek Belmont remains a separate new-arrival adventurer.",
     "Cera’s actual burial party, grandmother-taught manners, admitted ignorance of Rahu ritual, shelter during danger and completed mass burial remain. The seven-day protection is specific to this ceremony, not a permanent safeguard or universal priestly power.",
     "Three NPCs gain documented Prima encounter/residence associations and named navigation; four directory summaries and two generic role labels change. These are not birthplace assertions. Lilian gains only a direct Simon link. Ten older sections and their evidence survive; original narrative text is exact. Earlier census/prominence values move from opening facts into the existing archive sections, with every value retained and no new ranking.",
+    "Explicit owner confirmation makes Caravash a player character. Only their role metadata, directory membership, both discovery registries and Prima NPC association change; the complete body, sections, sources, artwork and original route remain exact.",
     "Unrelated records, all old timeline dates/importance/adjustments, maps, quotes, relationships, media/261 previews and the complete private payload are exact. No new NPC record, portrait, runtime/style/dependency or pipeline stage is added."
   ],
   "preservation": {

@@ -40,6 +40,27 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
   await page.locator('#people-gallery-query').fill('Pin');await page.waitForTimeout(250);
   assert.equal(await page.locator('#people-gallery [data-character-title="Pelegia"]').count(),1);
   assert.equal(await page.locator('#people-gallery [data-character-title="Pin"]').count(),0);
+  // Explicit owner confirmation: preserve Caravash's page while correcting the old census role.
+  await page.locator('#people-gallery-query').fill('Caravash');
+  await page.locator('[data-people-kind="player"]').click();
+  await page.locator('#people-gallery [data-article="discovery-005"]').waitFor();
+  await page.locator('[data-people-kind="npc"]').click();
+  assert.equal(await page.locator('#people-gallery [data-article="discovery-005"]').count(),0);
+  const caravash=await page.evaluate(async()=>({
+    players:archiveIndex.characters.filter(p=>p.article==='discovery-005').length,
+    npcs:archiveIndex.npcs.filter(p=>p.article==='discovery-005').length,
+    islandNPC:npcIslandGroups.some(g=>g.people.some(p=>p.name==='Caravash')),
+    kind:(await fetch('data/supplements/npc-discoveries.json').then(r=>r.json())).FENUMION_NPC_DISCOVERIES.entries.find(e=>e.id==='discovery-005').kind,
+    role:byId.get('discovery-005').type
+  }));
+  assert.deepEqual(caravash,{players:1,npcs:0,islandNPC:false,kind:'player',role:'Player character'});
+  await page.goto(base+'#npcs-prima');await page.locator('.island-npc-collection').waitFor();
+  assert.equal(await page.locator('.island-npc-collection [data-article="discovery-005"]').count(),0);
+  await page.goto(base+'#discovery-005');await page.waitForFunction(()=>byId.get('discovery-005')?.bodyLoaded);
+  assert.equal(await page.locator('h1').innerText(),'Caravash');
+  assert((await page.locator('#article-content').innerText()).includes('Player character'));
+  await page.goto(base+'#people-directory');await page.locator('#people-gallery-query').waitFor();
+  await page.locator('[data-people-kind="npc"]').click();
   await page.locator('#people-gallery-query').fill('Poe');await page.waitForTimeout(250);
   assert.equal(await page.locator('#people-gallery [data-character-title="Poe"] .npc-region-label').textContent(),'Region · Prima');
   await page.setViewportSize({width:390,height:844});

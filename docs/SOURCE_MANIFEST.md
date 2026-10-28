@@ -448,3 +448,5 @@ Selected main-quest exchanges and compatible public Prima RP expand seven existi
 ## Dale’s NPC histories · 28 October 2026
 
 Selected original quests, closing narrator outcomes and compatible public RP support the four existing Simon, Stella and Sola, Derek and Cera histories. The 172 cited source identities resolve; 163 new metadata receipts retain their hashes. Search discovery across 32 overlapping caches is not a claim of exhaustive reading. No new raw corpus, transcript, controller information, private disclosure or generic/joke identity enters Git. The preserved census values move into existing archive sections; existing source evidence and media remain. Scope, corrected outcome gaps and remaining uncertainties: [DALE_NPCS_2026_10_28.md](DALE_NPCS_2026_10_28.md) and `content/reference/dale-npc-review-2026-10-28.json`.
+
+The owner’s explicit 28 October confirmation classifies Caravash as a player character. This overrides the earlier NPC census label; their existing identity, narrative, sources and artwork remain, with directory/registry roles corrected and the Prima NPC association removed.

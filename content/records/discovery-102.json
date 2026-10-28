@@ -3,25 +3,40 @@
   "title": "Cera, Acolyte in Training",
   "category": "People",
   "type": "Acolyte of Cala",
-  "dek": "Introduces herself as Cera, an acolyte, and thanks the company for coming.",
+  "dek": "An acolyte of Cala who helps organize a wartime burial, acknowledges the rites she does not know and completes a ceremony of temporary protection for the dead.",
   "tags": [
     "Cera, Acolyte in Training",
     "npc"
   ],
   "facts": {
-    "Role": "Acolyte of Cala",
-    "Island": "Not established",
-    "Census posts": "12",
-    "Recorded span": "2025-05-18 → 2025-05-18",
-    "Prominence": "Unrated",
-    "Recorded presence": "6/20",
-    "Region": "Unestablished"
+    "Role": "Acolyte of Cala; member of a wartime burial party",
+    "Island": "Prima",
+    "Region": "Prima",
+    "Completed work": "Supervises respectful burial and performs the ceremony",
+    "Recorded protection": "Seven days against rising as undead in this specific burial",
+    "Religious limits": "Does not claim knowledge of Rahu funeral rituals"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373776212115066970",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373776462431391895",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373777456661794858",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373777784320688138",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373778520245014619",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373782459615023214",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373780751274741963",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373783020380753951",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373784051214844027",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373785325410713712",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373788448636272794",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373800129492156518",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373800594942197921",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373800915601064118",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373803591936114768",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1373804232091762778"
   ],
-  "body": "<p>Introduces herself as Cera, an acolyte, and thanks the company for coming.</p><h2 id=\"discovery-102-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-102-record\">Archive record</h2><p>The census records 12 posts across 2025-05-18 → 2025-05-18. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1373776462431391895\">Recorded scene · 1373776462431391895</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Cera is an acolyte of Cala who accompanies a Pristinian burial party after the fighting. She is concerned with the practical work of recovering the dead and with sending them off respectfully. The scene gives her one clearly recorded task and its outcome, without supplying a whole later career.</p>\n<h2 id=\"discovery-102-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p>\n<h2 id=\"discovery-102-record\">Archive record</h2><p>The census records 12 posts across 2025-05-18 → 2025-05-18. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1373776462431391895\">Recorded scene · 1373776462431391895</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>\n<p class=\"source-note\"><strong>Earlier census metadata:</strong> Census posts: 12 · Recorded span: 2025-05-18 → 2025-05-18 · Prominence: Unrated · Recorded presence: 6/20. These inventory values are retained as source history; no new rating is assigned.</p><h2 id=\"cera-barrows-and-weather\">A burial party in the mud</h2><p>The adventurers meet Cera at the edge of town with four townsmen and two barrows. Rain has made the ground difficult; the men are tired and mud-covered while she waits in white and gold vestments, praying quietly. She thanks the visitors for coming.</p><p>Her first concern is how to handle the dead. Burial, burning, cairns and taking the bodies back to Phelps are all discussed. She worries that the number will overwhelm the undertaker and accepts several practical approaches so long as the dead receive dignity. She is organizing a necessary task rather than demanding one elaborate form for its own sake.</p><p>The narrator also gives a small account of her manners: her grandmother drilled politeness into her, so she does not voice her unease at Ichor’s unsettling imitation of the townsfolk’s movements.</p>\n<h2 id=\"cera-faith-and-uncertainty\">Respect beyond the rites she knows</h2><p>Cera describes Cala and Nuru as closely connected and believes that a genuine gesture in one’s name will not offend the other. She is explicit that she does not know the Rahu’s rituals. Her confidence in respectful intent is her religious judgment, not proof that she speaks for every priest or can guarantee every divine response.</p><p>The townsmen’s discussion of the earlier battle is largely rumor. Cera is going to deal with its aftermath; the scene does not make her an eyewitness to every reported act in the fighting.</p>\n<h2 id=\"cera-danger-and-burial\">The danger passes, and the dead are laid to rest</h2><p>At the battlefield the party finds scavenged bodies and ghouls feeding among them. Cera shelters in the brush with the men while the adventurers deal with the threat. Once it has passed she comes forward and urges them to finish before more arrive.</p><p>The group gathers the bodies into a mass grave, covers it and marks it with a simple cairn. The narrator states that the dead are treated respectfully under her oversight. Cera prays and sprinkles holy water. In this instance, her ceremony protects those buried from becoming undead for seven days. That is a specific, temporary result, not a permanent safeguard or a universal promise about all burials.</p><p>The burial is completed. Cera’s later service, further training and whereabouts remain unestablished in the checked selection.</p>\n",
   "discoveryProtected": false,
   "image": "assets/characters/discord/4faa51848f13be782b67dd81332e18ad9b08cf0e89ca00b2ff57024935419d31.png",
   "imageAlt": "Discord depiction of Cera, Acolyte in Training",
@@ -59,14 +74,92 @@
           "Source-checked quest-RP scene anchors"
         ]
       }
+    },
+    {
+      "id": "cera-barrows-and-weather",
+      "title": "A burial party in the mud",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The original quest establishes the party, weather, practical options and narrated family influence on her manners. It supplies no completed career or inferred senior office.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373776212115066970",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373776462431391895",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373777456661794858",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373777784320688138",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373778520245014619",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373782459615023214"
+        ]
+      }
+    },
+    {
+      "id": "cera-faith-and-uncertainty",
+      "title": "Respect beyond the rites she knows",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Cera’s beliefs and admitted ignorance are kept together. The townsmen’s rumors do not overwrite the earlier quest-established battle.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373780751274741963",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373783020380753951",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373784051214844027"
+        ]
+      }
+    },
+    {
+      "id": "cera-danger-and-burial",
+      "title": "The danger passes, and the dead are laid to rest",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The quest establishes danger, Cera’s sheltering and return, the completed mass burial and this ceremony’s seven-day effect. Subsequent work and permanent protection are not inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373785325410713712",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373788448636272794",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373800129492156518",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373800594942197921",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373800915601064118",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373803591936114768",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1373804232091762778"
+        ]
+      }
     }
   ],
   "brief": {
     "identity": "Acolyte of Cala",
-    "significance": "Introduces herself as Cera, an acolyte, and thanks the company for coming.",
+    "significance": "An acolyte of Cala who helps organize a wartime burial, acknowledges the rites she does not know and completes a ceremony of temporary protection for the dead.",
     "actions": [],
-    "status": "A current status is not established in the dated public record.",
+    "status": "The checked burial is completed in the Month of Physisia, Year 2. Later service and whereabouts remain unestablished here.",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "cera-practical-care",
+        "title": "Barrows, rain and practical care",
+        "sections": [
+          "cera-barrows-and-weather",
+          "cera-faith-and-uncertainty"
+        ]
+      },
+      {
+        "id": "cera-completed-burial",
+        "title": "The battlefield and completed burial",
+        "sections": [
+          "cera-danger-and-burial",
+          "discovery-102-prominence",
+          "discovery-102-record"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

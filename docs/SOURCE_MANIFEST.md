@@ -444,3 +444,7 @@ Twelve sections extend nine existing histories from selected original main quest
 ## Prima NPC histories · 28 October 2026
 
 Selected main-quest exchanges and compatible public Prima RP expand seven existing NPCs. Reply provenance identifies the owner’s Melian/Lilian/Ephraith scenes and Terroir’s elders/Hawthorne, without assigning every later proxy appearance to one controller. Search discovery across 32 overlapping corpora is distinguished from selected reading; 210 source identities resolve with 198 newly cited metadata receipts. No new raw corpus is imported. Quest authority, dated uncertainty, old scenes/quotes/media and private boundaries remain. Scope and one schedule-precision correction: [PRIMA_NPCS_2026_10_28.md](PRIMA_NPCS_2026_10_28.md) and `content/reference/prima-npc-review-2026-10-28.json`.
+
+## Dale’s NPC histories · 28 October 2026
+
+Selected original quests, closing narrator outcomes and compatible public RP support the four existing Simon, Stella and Sola, Derek and Cera histories. The 172 cited source identities resolve; 163 new metadata receipts retain their hashes. Search discovery across 32 overlapping caches is not a claim of exhaustive reading. No new raw corpus, transcript, controller information, private disclosure or generic/joke identity enters Git. The preserved census values move into existing archive sections; existing source evidence and media remain. Scope, corrected outcome gaps and remaining uncertainties: [DALE_NPCS_2026_10_28.md](DALE_NPCS_2026_10_28.md) and `content/reference/dale-npc-review-2026-10-28.json`.

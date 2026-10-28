@@ -2,26 +2,94 @@
   "id": "discovery-003",
   "title": "Simon",
   "category": "People",
-  "type": "Recurring social figure",
-  "dek": "Introduces himself as willing to help; in a later scene he asks to be taken to jail for protection. The outcome is not established here.",
+  "type": "Pristinian resident · would-be adventurer",
+  "dek": "A Pristinian admirer of adventurers, family caregiver and grieving lover who later admits joining Death’s cult and diverting a rite to bring Cynthia back.",
   "tags": [
     "Simon",
     "npc"
   ],
   "facts": {
-    "Role": "Recurring social figure",
-    "Island": "Not established",
-    "Census posts": "77",
-    "Recorded span": "2024-12-14 → 2025-09-23",
-    "Prominence": "Unrated",
-    "Recorded presence": "16/20",
-    "Region": "Unestablished"
+    "Role": "Pristinian resident; later admits involvement in Death’s cult",
+    "Island": "Prima",
+    "Region": "Prima",
+    "Family": "Cares for his grandmother; father works at Eovar’s harbor",
+    "Cynthia": "Encountered as a ghost; later attempted return is interrupted",
+    "After the mine": "Asks for jail and protection; final disposition left open"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317659580834254938",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317665917324234783",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317666736237187113",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317667609658916864",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317670195137089548",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317671799617622119",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317672065997733898",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317677951495704687",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317694132663226409",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317697719283880049",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317701142142124043",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317702337414037524",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317705608962506804",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317718504480182387",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317719087635497104",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317726514594451457",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1317730523828977688",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1318047042144174150",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1324798437929255014",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1324840579753840661",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1324858254534381690",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346647638300164146",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346648274542530581",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346648801980452875",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346650528418889840",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346655252476199024",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346670359918673980",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346671451872165970",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346673997085147176",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346679215050719293",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346682718859296871",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346683911006060565",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346688054689005629",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346684779223056468",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346684859011305605",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346685756793426010",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346686103700242574",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346686835023282258",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346688630755819551",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1346689558028222515",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357866913090506824",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357869806388383886",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357871544474276040",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357873215057297468",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357876368666525797",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357877906982043658",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357879613883158680",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357881869118476439",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357905103352496238",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1357905419347034243",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400978412608425998",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400980107371483236",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400982020825546795",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400983098992365578",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400983473577267241",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398814367855677641",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400988402131800104",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400988744793718865",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420208893375811604",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420270745191448647",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420276257974910986",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420276277700460617",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420276346805944320",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420276531489669211",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420277483600740392",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420278422520860723",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420279388267745340",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420280313157910549",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420281272911134760"
   ],
-  "body": "<p>Introduces himself as willing to help; in a later scene he asks to be taken to jail for protection. The outcome is not established here.</p><h2 id=\"discovery-003-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-003-record\">Archive record</h2><p>The census records 77 posts across 2024-12-14 → 2025-09-23. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1317665917324234783\">Recorded scene · 1317665917324234783</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420280313157910549\">Recorded scene · 1420280313157910549</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Simon is a young <a href=\"#pristinia\">Pristinian</a> who wants to be an adventurer and remains an eager collector of their autographs. He also cares for his grandmother, loves Cynthia and later admits joining Death’s cult in the hope of seeing her again. Reckless enthusiasm, real grief and the harm he helps cause all belong to his history.</p>\n<h2 id=\"discovery-003-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p>\n<h2 id=\"discovery-003-record\">Archive record</h2><p>The census records 77 posts across 2024-12-14 → 2025-09-23. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1317665917324234783\">Recorded scene · 1317665917324234783</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420280313157910549\">Recorded scene · 1420280313157910549</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>\n<p class=\"source-note\"><strong>Earlier census metadata:</strong> Census posts: 77 · Recorded span: 2024-12-14 → 2025-09-23 · Prominence: Unrated · Recorded presence: 16/20. These inventory values are retained as source history; no new rating is assigned.</p><h2 id=\"simon-hunt-and-heroes\">An admirer who wants to become a hero</h2><p><a href=\"#scout-lilian\">Lilian</a> asks adventurers to keep Simon and his hunting friends safe. He greets their arrival with an awkward wink and then barely contained delight. He introduces David and Josiah, asks for autographs and folds the signed paper away: it is the back of a wanted poster, with a heart drawn around Navi. His admiration is sincere, even when his ideas about pretty, delicate ladies sit badly beside the experienced women who have come to help him.</p><p>In the forest he tries to lead, then looks to the adventurers when a decision becomes difficult. He lands a blow while helping <a href=\"#ithilrune\">Ithilrûnë</a> and blushes at her praise, with his attention on her even while Josiah lies on the ground. Soon afterward he proposes approaching bears in his bear-fur cloak. His friends encourage him; after being stopped and struck on the head, he admits it was a dumb idea. The outing gives him a chance to help without making him an accomplished fighter.</p><p>He is more sensible about the contamination source they discover. He says Lilian should be told and that they lack the tools and people to solve it permanently. He helps Ithilrûnë move wood and earth, and the narrator completes that immediate work. Blocking the spring does not establish that the deeper source has been removed or the whole forest cured.</p>\n<h2 id=\"simon-grandmother-and-home\">Someone still has to be at home</h2><p>In quieter tavern scenes Simon explains why he cannot simply follow the adventurers away. His father works at Eovar’s harbor, and Simon stays in Pristinia to care for his grandmother. He can take an afternoon for himself when his father comes to relieve him, then leaves so his father can return to Eovar.</p><p>He reports that his grandmother is getting worse. That worry belongs beside his eagerness to meet impressive visitors: the responsibility at home is real, even when he would rather be having an adventure. His account does not supply her diagnosis or the whole family’s history.</p>\n<h2 id=\"simon-cynthia-and-letters\">Cynthia and the letters that stop arriving</h2><p>When Cynthia stops replying, Simon asks for an escort to <a href=\"#eovar-harbor\">Eovar</a>. He has feared a rival pirate more readily than murder, but he does not know her address: they have been corresponding through Paper Birds. Reading the letters shows genuine affection and increasingly tiny handwriting as both try to fit more onto the page. Cynthia’s replies repeatedly suggest that she is holding something back and does not want to hurt him.</p><p>On the road he tells how they met. His father was caring for his grandmother, giving him a night at the harbor, when Cynthia found him talking to himself. They spoke until nearly dawn and parted after a kiss. In Eovar he sends another Paper Bird, and the party follows it through the streets to an attic. The investigation also finds an old man’s deceptive letters and packages downstairs; that fraud does not explain away the distinct presence upstairs.</p><p>The narrator identifies Cynthia as a ghost. Moonlight makes her form more substantial. She tells Simon that she died after a bedridden life and that their meeting let her experience things she had never known. Those details of her former life are her testimony; the party directly encounters her ghost.</p>\n<h2 id=\"simon-cynthia-fades\">The embrace and the loss</h2><p>When Aipiri threatens to destroy Cynthia as an aberration, Simon puts himself between them. He refuses to let her be harmed. Cynthia herself says the relationship cannot continue as he wishes, but he asks why she cannot simply be allowed to exist.</p><p>He embraces her; she embraces him, and they kiss. Then the clouds cover the moon, she fades and he falls to his knees. He asks the party to leave him time to mourn. The scene shows a threatened intervention, his refusal and her disappearance with the changing moonlight. It does not show the adventurers carrying out the destruction he later accuses them of causing.</p>\n<h2 id=\"simon-sock-and-memorial\">A patched sock and his grandmother’s toast</h2><p>At the later gathering for his grandmother, Simon is awkward about speaking to a room full of people. His family has set aside money for food and drink and a cask of her favorite wine. The funeral has already happened; this is a celebration of her life and of living, as he says she would have wanted.</p><p>He keeps handling a patched sock, the last thing she gave him before she became ill. He wonders whether it will still be her sock if he replaces every piece of its fabric. The question comes from something he is actually holding and trying to keep. He tells Evrelki that losing his grandmother, losing Cynthia and hearing about rifts and Death worship have unsettled him.</p><p>He still brightens at the adventurers and is speechless when Melian acknowledges him. His toast remembers their grandmothers as well as his own. Later disorder at the gathering leaves him distraught: he says he had only intended drinks. The scene does not make him responsible for every action the guests take.</p>\n<h2 id=\"simon-rue-and-mines\">Public help and the confession in the mine</h2><p>Later, Simon encourages adventurers to investigate the disappearance of <a href=\"#discovery-012\">Derek’s</a> sister Rue. He points out Derek, passes on a paper and, still a fan, asks for another autograph. Derek describes a change in Simon since his grandmother’s death and later remarks on a different air and more pointed ears. Those are Derek’s observations, not a settled explanation of Simon’s nature.</p><p>In a subsequent investigation, the company finds miners emptied of their usual awareness, spirits in the workings and a deeper chamber where energy flows from miners into a young aboleth and a forming figure. The ritual is interrupted. A woman appears for an instant and vanishes; the robed man throws off his mask, revealing Simon.</p><p>He admits joining Death’s cult and says he diverted a rite intended to give one of Death’s lieutenants a physical form so that he could see Cynthia again. He blames adventurers for their earlier separation. The earlier quest scene preserves what actually happened, while this confession records the grievance he carries and the explanation he gives for the new harm. His account of the cult’s intended mechanism remains an attributed account of this rite.</p><p>Simon minimizes what he believes the miners will need to recover, then begs to be taken to jail before the cult discovers what he has done. The closing narrator confirms that the miners recover after several days away from the ritual and that the aboleth is released, leaving the choice of its destination to the party. What happens to Simon is likewise left to them. A plea for custody is established; a completed imprisonment, trial, pardon or later rescue is not.</p>\n<h2 id=\"simon-open-history\">What the later record does not settle</h2><p>The mine confrontation does not erase the young man who cared for his grandmother, made foolish hunting decisions or loved Cynthia. Those earlier scenes also do not excuse using the miners. His later location, the party’s decision on his protection and any further contact with the cult remain unestablished here.</p>\n",
   "discoveryProtected": false,
   "image": "assets/characters/discord/e913fd9aeef057ab83a634f8c9ca1bf46e07e0f0c0c97893b2cfa0ab03c5ad24.png",
   "imageAlt": "Discord depiction of Simon",
@@ -59,14 +127,228 @@
           "Source-checked quest-RP scene anchors"
         ]
       }
+    },
+    {
+      "id": "simon-hunt-and-heroes",
+      "title": "An admirer who wants to become a hero",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The checked hunt preserves Simon’s admiration, poor decisions, actual help and the limits he recognizes. Neither praise nor the narrator’s completion of immediate work proves a permanent cure.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317659580834254938",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317665917324234783",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317666736237187113",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317667609658916864",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317670195137089548",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317671799617622119",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317672065997733898",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317677951495704687",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317694132663226409",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317697719283880049",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317701142142124043",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317702337414037524",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317705608962506804",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317718504480182387",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317719087635497104",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317726514594451457",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1317730523828977688"
+        ]
+      }
+    },
+    {
+      "id": "simon-grandmother-and-home",
+      "title": "Someone still has to be at home",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Compatible public RP establishes Simon’s own account of caregiving, his father’s harbor work and the limits on his time. It adds no diagnosis or invented family identity.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1318047042144174150",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1324798437929255014",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1324840579753840661",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1324858254534381690"
+        ]
+      }
+    },
+    {
+      "id": "simon-cynthia-and-letters",
+      "title": "Cynthia and the letters that stop arriving",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The original quest distinguishes the observed correspondence, following the bird, the unrelated fraud downstairs, the identified ghost and Cynthia’s own account of her life.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346647638300164146",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346648274542530581",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346648801980452875",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346650528418889840",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346655252476199024",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346670359918673980",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346671451872165970",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346673997085147176",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346679215050719293",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346682718859296871",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346683911006060565",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346688054689005629"
+        ]
+      }
+    },
+    {
+      "id": "simon-cynthia-fades",
+      "title": "The embrace and the loss",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Observed action takes precedence over Simon’s later accusation. Cynthia fades when clouds cover the moon; a completed banishment or destruction by the party is not narrated.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346684779223056468",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346684859011305605",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346685756793426010",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346686103700242574",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346686835023282258",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346688630755819551",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1346689558028222515"
+        ]
+      }
+    },
+    {
+      "id": "simon-sock-and-memorial",
+      "title": "A patched sock and his grandmother’s toast",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The quest distinguishes an already completed funeral from the later social gathering, preserves the sock and Simon’s expressed losses, and attributes his account of intended hospitality.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357866913090506824",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357869806388383886",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357871544474276040",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357873215057297468",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357876368666525797",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357877906982043658",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357879613883158680",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357881869118476439",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357905103352496238",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1357905419347034243"
+        ]
+      }
+    },
+    {
+      "id": "simon-rue-and-mines",
+      "title": "Public help and the confession in the mine",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The public quest confirms the mine victims, interruption, revealed identity, confession, recovery and release. Simon’s accusations and explanations remain his; his ultimate custody and the aboleth’s chosen destination remain open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400978412608425998",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400980107371483236",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400982020825546795",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400983098992365578",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400983473577267241",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398814367855677641",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400988402131800104",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400988744793718865",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420208893375811604",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420270745191448647",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420276257974910986",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420276277700460617",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420276346805944320",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420276531489669211",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420277483600740392",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420278422520860723",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420279388267745340",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420280313157910549",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420281272911134760"
+        ]
+      }
+    },
+    {
+      "id": "simon-open-history",
+      "title": "What the later record does not settle",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The narrator deliberately leaves Simon’s disposition to the players. Earlier observation, later blame and unresolved aftermath remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420277483600740392",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420280313157910549",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420281272911134760"
+        ]
+      }
     }
   ],
   "brief": {
-    "identity": "Recurring social figure",
-    "significance": "Introduces himself as willing to help; in a later scene he asks to be taken to jail for protection. The outcome is not established here.",
+    "identity": "Pristinian resident · would-be adventurer",
+    "significance": "A Pristinian admirer of adventurers, family caregiver and grieving lover who later admits joining Death’s cult and diverting a rite to bring Cynthia back.",
     "actions": [],
-    "status": "A current status is not established in the dated public record.",
+    "status": "Last checked here at the mine confrontation in the Month of Nuru, Year 2. His request for protective custody is recorded; the party’s final decision is not.",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "simon-first-adventures",
+        "title": "The hunt and his heroes",
+        "sections": [
+          "simon-hunt-and-heroes"
+        ]
+      },
+      {
+        "id": "simon-home-and-duty",
+        "title": "The work waiting at home",
+        "sections": [
+          "simon-grandmother-and-home"
+        ]
+      },
+      {
+        "id": "simon-search-for-cynthia",
+        "title": "Letters and a ghost in Eovar",
+        "sections": [
+          "simon-cynthia-and-letters",
+          "simon-cynthia-fades"
+        ]
+      },
+      {
+        "id": "simon-memorial-and-memory",
+        "title": "His grandmother and the patched sock",
+        "sections": [
+          "simon-sock-and-memorial"
+        ]
+      },
+      {
+        "id": "simon-fan-and-cult",
+        "title": "The fan and the mine confession",
+        "sections": [
+          "simon-rue-and-mines"
+        ]
+      },
+      {
+        "id": "simon-consequences-and-unknowns",
+        "title": "Consequences and the open record",
+        "sections": [
+          "simon-open-history",
+          "discovery-003-prominence",
+          "discovery-003-record"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

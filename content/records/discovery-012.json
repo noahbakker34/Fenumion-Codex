@@ -2,26 +2,64 @@
   "id": "discovery-012",
   "title": "Derek",
   "category": "People",
-  "type": "Recurring civilian",
-  "dek": "Introduces himself while stressed and later hurries to safety during an encounter involving gremlins.",
+  "type": "Pristinian resident · Rue’s brother",
+  "dek": "A Pristinian seeking his missing sister Rue while caring for his mother; the quest confirms Rue’s fate and that Derek is told, while his later family history remains open.",
   "tags": [
     "Derek",
     "npc"
   ],
   "facts": {
-    "Role": "Recurring civilian",
-    "Island": "Not established",
-    "Census posts": "40",
-    "Recorded span": "2025-07-26 → 2025-11-25",
-    "Prominence": "Unrated",
-    "Recorded presence": "11/20",
-    "Region": "Unestablished"
+    "Role": "Pristinian resident; petitioner and later danger witness",
+    "Island": "Prima",
+    "Region": "Prima",
+    "Family": "Rue’s younger brother; helps care for their mother",
+    "Rue’s fate": "Quest confirms the fallen tree creature was Rue; adventurers tell Derek",
+    "Identity boundary": "Distinct from the later adventurer Derek Belmont"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398804124878770197",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398804778099933235",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398807613151379546",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398807843024670800",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398810526930436097",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398811013754781706",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398811568061288569",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398811831971348614",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398812028025438320",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398812484126773288",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398812988638760970",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398813330264559727",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398814367855677641",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398815064521179298",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398815208889389076",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398816143426457630",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398816915492831326",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398818256294514738",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398818976657576038",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398819488773701725",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398820003071135872",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1398821561254940714",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400985993552728106",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400987834059325501",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400988402131800104",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400988744793718865",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1400998194141335624",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1401001045387116627",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1401001286328913941",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1401002301497278557",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1401004415548133436",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1401016882236096532",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1401020419565158460",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1401021772769525872",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1401023227740033034",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1401023585471959100",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1443061308873511072",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1443061858197045302",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1523740557262852107"
   ],
-  "body": "<p>Introduces himself while stressed and later hurries to safety during an encounter involving gremlins.</p><h2 id=\"discovery-012-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-012-record\">Archive record</h2><p>The census records 40 posts across 2025-07-26 → 2025-11-25. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1398804778099933235\">Recorded scene · 1398804778099933235</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1443061858197045302\">Recorded scene · 1443061858197045302</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Derek is a <a href=\"#pristinia\">Pristinian</a> resident who seeks help finding his sister Rue while trying to protect their vulnerable mother. His frustration with adventurers grows from specific encounters at his home. He later appears again warning the town about gremlins; he remains distinct from the adventurer Derek Belmont.</p>\n<h2 id=\"discovery-012-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p>\n<h2 id=\"discovery-012-record\">Archive record</h2><p>The census records 40 posts across 2025-07-26 → 2025-11-25. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1398804778099933235\">Recorded scene · 1398804778099933235</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1443061858197045302\">Recorded scene · 1443061858197045302</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>\n<p class=\"source-note\"><strong>Earlier census metadata:</strong> Census posts: 40 · Recorded span: 2025-07-26 → 2025-11-25 · Prominence: Unrated · Recorded presence: 11/20. These inventory values are retained as source history; no new rating is assigned.</p><h2 id=\"derek-notice-and-family\">The notice and the household behind it</h2><p>Derek posts a missing-person notice for Rue, describing her brown hair and eyes and asking anyone with information to find him. When the adventurers approach, he sarcastically calls himself Robert before admitting that he is Derek and badly stressed. His later explanation makes the joke plain: they have asked the person distributing notices signed Derek whether he is Derek.</p><p>He says Rue has failed to return from a morning walk near the forest. She is a year older than him, enjoyed solitude among the trees and had seemed happier after beginning to see <a href=\"#discovery-003\">Simon</a>. He cannot think of anyone who wanted to harm her. These are the family’s leads at the beginning, not a complete account of what happened.</p><p>He suggests mentioning Rody, their childhood dog, so that Rue will know the party comes from him. When asked how a dead dog can miss her, he explains the comfort their mother gave them: that Rody would wait in the afterlife and never forget them. The remembered dog is a family assurance, not an independently observed account of the afterlife.</p>\n<h2 id=\"derek-search-and-boundaries\">Helping the search without surrendering his home</h2><p>At his house Derek finds that Rue’s dress has been washed, then fetches a hairbrush as another possible way to trace her. He gives directions to Simon’s home and reluctantly agrees to accompany the party partway when asked. Trying to help does not mean he has authorized every intrusion into his own house.</p><p>When the Dark Raven enters without waiting for permission, he calls out and goes to comfort his frightened mother. He explains that this is why he asked the visitors to wait outside and chooses to stay with her. When the investigation resumes, he is still angry about what happened and tells the next visitors that the masked woman must not return.</p><p>He also describes Simon as having changed, including a different air and more pointed ears. His account supplies a lead. It does not by itself prove the cause of that change, identify a new species or make Derek responsible for the party’s conclusions.</p>\n<h2 id=\"derek-rue-outcome\">What becomes of Rue</h2><p>The continued search follows Rue’s scent through the <a href=\"#first-forest\">First Forest</a> to a grove of birches with faces. One of the trees begins to move and cry, then fights the adventurers. During the confrontation it calls Derek’s name. After the creature falls, the narrator explicitly gives <a href=\"#pappy\">Pappy</a> the knowledge that this was what had become of the missing girl.</p><p>The narrator closes the paused-and-resumed quest by establishing that the adventurers tell Derek. The notification happens without a played-out conversation. Rue’s fate and the fact that he is informed are therefore part of the account; Derek’s exact reaction, the family’s later mourning and the whole cause of her transformation remain unrecorded here. The search ends with Rue’s death, and her family is given that answer.</p>\n<h2 id=\"derek-later-warning\">A later warning and an unfinished household history</h2><p>In a later encounter Derek points toward estates being stripped by gremlins and calls for help. Asked for names, he answers that he did not stop to introduce himself to them and hurries to safety. The sarcasm resembles his first stressed introduction, but the record does not turn that recurrence into a diagnosis or a complete account of his grief.</p><p>His mother’s later condition, how the household lives after the news about Rue and Derek’s later whereabouts remain open. The named adventurer Derek Belmont introduces himself separately as a new arrival; the shared first name is no basis for merging their histories.</p>\n",
   "discoveryProtected": false,
   "image": "assets/characters/discord/5f6c26361e61ffe9cff56ff8e30633c97e96bfa9b6b26ef56f6848c6bb8868c8.png",
   "imageAlt": "Discord depiction of Derek",
@@ -59,14 +97,141 @@
           "Source-checked quest-RP scene anchors"
         ]
       }
+    },
+    {
+      "id": "derek-notice-and-family",
+      "title": "The notice and the household behind it",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The primary quest establishes the notice, sarcasm, reported disappearance, relationships and family memory. His leads and his mother’s reassurance remain attributed.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398804124878770197",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398804778099933235",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398807613151379546",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398807843024670800",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398810526930436097",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398811013754781706",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398811568061288569",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398811831971348614",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398812028025438320",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398812484126773288",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398812988638760970",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398813330264559727"
+        ]
+      }
+    },
+    {
+      "id": "derek-search-and-boundaries",
+      "title": "Helping the search without surrendering his home",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The quest establishes provided objects, specific consent limits, his mother’s fright and Derek’s later complaint. His observations of Simon remain leads rather than a resolved transformation history.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398814367855677641",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398815064521179298",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398815208889389076",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398816143426457630",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398816915492831326",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398818256294514738",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398818976657576038",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398819488773701725",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398820003071135872",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1398821561254940714",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400985993552728106",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400987834059325501",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400988402131800104",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400988744793718865"
+        ]
+      }
+    },
+    {
+      "id": "derek-rue-outcome",
+      "title": "What becomes of Rue",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The narrator confirms the transformed girl’s identity, the end of the confrontation and notification of Derek. The quest is explicitly a continuation; no elapsed journey, new reunion or off-screen reaction is invented.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1400998194141335624",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1401001045387116627",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1401001286328913941",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1401002301497278557",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1401004415548133436",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1401016882236096532",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1401020419565158460",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1401021772769525872",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1401023227740033034",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1401023585471959100"
+        ]
+      }
+    },
+    {
+      "id": "derek-later-warning",
+      "title": "A later warning and an unfinished household history",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The later quest establishes the warning and escape. Derek Belmont’s distinct arrival prevents an unsupported identity merger; the family’s intervening history remains unknown.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1443061308873511072",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1443061858197045302",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1523740557262852107"
+        ]
+      }
     }
   ],
   "brief": {
-    "identity": "Recurring civilian",
-    "significance": "Introduces himself while stressed and later hurries to safety during an encounter involving gremlins.",
+    "identity": "Pristinian resident · Rue’s brother",
+    "significance": "A Pristinian seeking his missing sister Rue while caring for his mother; the quest confirms Rue’s fate and that Derek is told, while his later family history remains open.",
     "actions": [],
-    "status": "A current status is not established in the dated public record.",
+    "status": "Seen warning of gremlins in the Month of the Wyrm, Year 2. Rue’s fate and notification are confirmed; Derek’s later whereabouts remain unknown.",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "derek-family-and-disappearance",
+        "title": "His family and the missing-person notice",
+        "sections": [
+          "derek-notice-and-family"
+        ]
+      },
+      {
+        "id": "derek-search-and-home",
+        "title": "The search and the people at home",
+        "sections": [
+          "derek-search-and-boundaries"
+        ]
+      },
+      {
+        "id": "derek-fate-and-notification",
+        "title": "The quest’s answer and the news he receives",
+        "sections": [
+          "derek-rue-outcome"
+        ]
+      },
+      {
+        "id": "derek-afterward-and-limits",
+        "title": "Later danger and unanswered questions",
+        "sections": [
+          "derek-later-warning",
+          "discovery-012-prominence",
+          "discovery-012-record"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

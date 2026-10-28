@@ -15567,7 +15567,7 @@
         "title": "Stella & Sola",
         "article": "stella-sola",
         "meta": "Apothecary sisters",
-        "summary": "The sisters whose shop links Pristinia’s ordinary comforts, medicine and emergency care.",
+        "summary": "Pristinia’s apothecary sisters: they care for neighbors, send urgent medicine to Eovar, gather materials and research the Lunar Tear while recognizing what they cannot yet do.",
         "aliases": [
           "Stella and Sola"
         ],
@@ -15717,8 +15717,8 @@
       {
         "title": "Simon",
         "article": "discovery-003",
-        "meta": "Recurring social figure",
-        "summary": "Introduces himself as willing to help; in a later scene he asks to be taken to jail for protection. The outcome is not established here.",
+        "meta": "Pristinian resident · would-be adventurer",
+        "summary": "A Pristinian admirer of adventurers, family caregiver and grieving lover who later admits joining Death’s cult and diverting a rite to bring Cynthia back.",
         "prominence": null,
         "image": "assets/characters/discord/e913fd9aeef057ab83a634f8c9ca1bf46e07e0f0c0c97893b2cfa0ab03c5ad24.png",
         "imageAlt": "Discord depiction of Simon",
@@ -15773,8 +15773,8 @@
       {
         "title": "Derek",
         "article": "discovery-012",
-        "meta": "Recurring civilian",
-        "summary": "Introduces himself while stressed and later hurries to safety during an encounter involving gremlins.",
+        "meta": "Pristinian resident · Rue’s brother",
+        "summary": "A Pristinian seeking his missing sister Rue while caring for his mother; the quest confirms Rue’s fate and that Derek is told, while his later family history remains open.",
         "prominence": null,
         "image": "assets/characters/discord/5f6c26361e61ffe9cff56ff8e30633c97e96bfa9b6b26ef56f6848c6bb8868c8.png",
         "imageAlt": "Discord depiction of Derek",
@@ -16190,7 +16190,7 @@
         "title": "Cera, Acolyte in Training",
         "article": "discovery-102",
         "meta": "Acolyte of Cala",
-        "summary": "Introduces herself as Cera, an acolyte, and thanks the company for coming.",
+        "summary": "An acolyte of Cala who helps organize a wartime burial, acknowledges the rites she does not know and completes a ceremony of temporary protection for the dead.",
         "prominence": null,
         "image": "assets/characters/discord/4faa51848f13be782b67dd81332e18ad9b08cf0e89ca00b2ff57024935419d31.png",
         "imageAlt": "Discord depiction of Cera, Acolyte in Training",
@@ -19543,6 +19543,18 @@
             {
               "label": "Lirael",
               "article": "lirael"
+            },
+            {
+              "label": "Simon",
+              "article": "discovery-003"
+            },
+            {
+              "label": "Derek",
+              "article": "discovery-012"
+            },
+            {
+              "label": "Cera, Acolyte in Training",
+              "article": "discovery-102"
             }
           ]
         },
@@ -33437,6 +33449,18 @@
         {
           "name": "Vey and Vaa",
           "basis": "Directly encountered in the refreshed quest scenes; location describes the encounter, not an inferred birthplace."
+        },
+        {
+          "name": "Simon",
+          "basis": "Pristinian resident and recurring local quest figure; residence is documented, not inferred from the proxy"
+        },
+        {
+          "name": "Derek",
+          "basis": "Pristinian missing-person petitioner and resident in the checked Rue quest"
+        },
+        {
+          "name": "Cera, Acolyte in Training",
+          "basis": "Accompanies the Pristinian war-burial party in the checked quest"
         }
       ]
     },

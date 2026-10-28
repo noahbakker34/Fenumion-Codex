@@ -3,7 +3,7 @@
   "title": "Stella & Sola",
   "category": "People",
   "type": "Apothecary sisters",
-  "dek": "The sisters whose shop links Pristinia’s ordinary comforts, medicine and emergency care.",
+  "dek": "Pristinia’s apothecary sisters: they care for neighbors, send urgent medicine to Eovar, gather materials and research the Lunar Tear while recognizing what they cannot yet do.",
   "tags": [
     "Stella & Sola",
     "NPCs",
@@ -14,13 +14,68 @@
     "Island connection": "Prima",
     "Role": "Apothecary sisters",
     "Record": "Public scenes; later status not established",
-    "Region": "Prima"
+    "Region": "Prima",
+    "Sisters": "Stella is the elder; Sola the younger; both described as half-elven",
+    "Practice": "Apothecary, herb and niceties shop; convalescent care",
+    "Confirmed delivery": "Medicine reaches Eovar’s healing house in time and is administered",
+    "Research": "Lunar Tear panacea and cultivation remain proposed, not completed"
   },
   "sources": [
     "Main quest-RP archive · message anchors below",
-    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219346445069717684",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219347583437115574",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219348715802984478",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219354795908010127",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219355904302911538",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219359635534778541",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261159806077632643",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261160649363554469",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261161134606520385",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261161355994599496",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261164572799401996",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261165020671377498",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261165355666112534",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261165508577857630",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261165837134598174",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261166067414204487",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261169975721332777",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268695400332922933",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268698990111887467",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268702882463748226",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268704148593971321",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268707731800592396",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268708210764812401",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268713579750756404",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268715075548479588",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268723677172859013",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268729467665125387",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1268730687972704256",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1332513528157835345",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1332514175141937152",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1332514439211257868",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1332514676466257940",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1332515975379292241",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1332516322801877096",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1332563291670712491",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1332564823749427244",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1332565971642093682",
+    "https://discord.com/channels/1177270231513694249/1219691264337903738/1377390995712381052",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377749690186993835",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522661392971333803",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1458990302353162241",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1458991976304345252",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1458992809980854314",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1458995658198614159",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1458996730430492840",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1459046514877010084",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1459046516931956952",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1459047468267339911",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1459048216367599657",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1459049134383304715",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1459049581307232378"
   ],
-  "body": "<h2 id=\"stella-sola-1\">The same sisters, two spellings</h2><p>Scenes under both Stella and Sola and Stella &amp; Sola name Stella and her sister Sola, place them at their shop and show them speaking together. The shared entry follows that scene continuity, not the account operating the names.</p><h2 id=\"stella-sola-2\">Medicine that must arrive</h2><p>They ask adventurers to carry a glowing medicine to the healing house in Eovar before it spoils. They distinguish speed from merely guarding the bottle and admit that the doctors know more about the patient’s illness. A delivery request establishes their practical role without proving a completed cure or inventing a diagnosis.</p><h2 id=\"stella-sola-3\">More than a quest counter</h2><p>They describe their business as a shop of herbs and niceties. They gather materials, prepare a rocking chair for Herb, and later help make beds for children in the shelter. These activities connect healing to the ordinary material care that keeps a settlement alive.</p><h2 id=\"stella-sola-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1261160649363554469\">The herb and niceties shop</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1261161134606520385\">A rocking chair for Herb</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332512129714225286\">Stella and Sola emerge from the apothecary</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332512876073717791\">Medicine for Eovar’s healing house</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332514175141937152\">The doctors know more</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1377749690186993835\">Beds for children</a></li></ul>",
+  "body": "<p>Stella and Sola are the half-elven sisters who run <a href=\"#pristinia\">Pristinia’s</a> apothecary and shop of herbs and niceties. They tend injured neighbors, organize a medicine delivery, gather useful materials and get excited about what an old alchemical legend might make possible. Stella is the elder and Sola the younger; their scenes move between professional limits, shared laughter and urgent care.</p>\n<h2 id=\"stella-sola-1\">The same sisters, two spellings</h2><p>Scenes under both Stella and Sola and Stella &amp; Sola name Stella and her sister Sola, place them at their shop and show them speaking together. The shared entry follows that scene continuity, not the account operating the names.</p>\n<h2 id=\"stella-sola-2\">Medicine that must arrive</h2><p>They ask adventurers to carry a glowing medicine to the healing house in Eovar before it spoils. They distinguish speed from merely guarding the bottle and admit that the doctors know more about the patient’s illness. A delivery request establishes their practical role without proving a completed cure or inventing a diagnosis.</p>\n<h2 id=\"stella-sola-3\">More than a quest counter</h2><p>They describe their business as a shop of herbs and niceties. They gather materials, prepare a rocking chair for Herb, and later help make beds for children in the shelter. These activities connect healing to the ordinary material care that keeps a settlement alive.</p>\n<h2 id=\"stella-sola-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1261160649363554469\">The herb and niceties shop</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1261161134606520385\">A rocking chair for Herb</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332512129714225286\">Stella and Sola emerge from the apothecary</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332512876073717791\">Medicine for Eovar’s healing house</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1332514175141937152\">The doctors know more</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1377749690186993835\">Beds for children</a></li></ul>\n<h2 id=\"sisters-notes-and-newcomers\">Their mother’s notes and the newcomers</h2><p>When Claire asks about herbs, the sisters consult their mother’s notes rather than pretend to know everything. They recognize a plant and caution that preparing it requires care, but admit that they wish they knew more. Their interest soon turns to Claire’s daughter Katherine and the life the newcomers might find in town.</p><p>They invite the child to help at the shop, then apologize when Claire’s concern makes them realize they may have overstepped. They also suggest playing with the village children in the square. The exchange establishes a welcome and an offer. It does not show how long Katherine helped at the shop or whether she took up that role.</p>\n<h2 id=\"sisters-cherry-and-company\">A cherry tree, Herb’s chair and an argument</h2><p>The sisters take the visitors gathering with them for a carefully chosen cherry tree. They say they found it years earlier and have waited for it to be ready. The wood is intended for a rocking chair for <a href=\"#herb\">Herb</a>, and the oils for something Melian wants to show the adventurers. A cart, horse and baskets make this a working outing.</p><p>They gather together, welcome help and tease Olokun about being Stella’s favorite in the arena. Wren objects to cutting the tree. The sisters answer that skilled work can preserve its beauty in furniture and that they have already planted a grove from its seed. This is their defense of the choice, not an assertion that everyone agrees or that every harvested tree has an equivalent replacement.</p><p>They return with materials for Jon and watch his demonstration with interest. Their trade includes comfort and beautiful things as well as treatment.</p>\n<h2 id=\"sisters-ward-and-limits\">A ward behind the storefront</h2><p>Compatible shop scenes show more of their care. Behind a curtain is a small ward with eight beds. They identify the patients as Misha and his daughter Polya, people they know from local life, and describe trying to keep them comfortable while <a href=\"#arjahn\">Arjahn</a> attempts to draw out contamination.</p><p>When they learn that Polya’s young sons may have been left behind, concern replaces their earlier assumption that the children were safe elsewhere. They do not know the whole rescue story. Later, when <a href=\"#olokun\">Olokun</a> asks about the loss of feeling in his arm, they acknowledge the limits of their treatment. They can offer relief for common ailments; restoring that sensation is beyond what they can promise.</p><p>These encounters establish hands-on care and specific limits. They do not prove every treatment succeeded, every absent person was safe or the sisters possessed a cure for all contamination.</p>\n<h2 id=\"sisters-delivery-completed\">The medicine reaches Eovar in time</h2><p>The urgent bottle is a problem of time as well as safety. The sisters say cold water will not solve its deterioration and that its glow will show whether it has spoiled. Sola entrusts it to the adventurers; the route still has dangers, and they know of no simple mounted service that can replace the party.</p><p>The mission’s later narration resolves the delivery: the rest of the party reaches Eovar’s healing house to find Pappy, Yllandaer and the doctors giving the patient the sisters’ medicine. It arrived in time. That confirmed administration extends the earlier request without inventing the patient’s diagnosis or a completed cure. The final scene leaves an old man holding a patient’s hand beside her bed.</p>\n<h2 id=\"sisters-war-and-ordinary-work\">When the shop becomes triage</h2><p>During the Rahu crisis the apothecary becomes a makeshift triage ward, with injured people filling the available floor. The sisters move between them with bandages, salves and practical wound care. Later they help make beds for the children in the shelter. Their work continues beyond the visitors’ moment of arrival.</p><p>After the Common Man’s fire, they are also seen weaving rope from dried hemp while the town works to rebuild. This is another use for the materials they know, rather than proof that they personally completed the new inn.</p>\n<h2 id=\"sisters-lunar-tear\">What the Lunar Tear might make possible</h2><p>On a later night Stella and Sola recall a legend of the Lunar Tear, a flower said to grow where the moon sheds a tear. They identify possible alchemical value while calling the account a legend. They go back to their books, then meet the returning party with more specific research: a trimming of the root, combined with other ingredients, might produce a powerful panacea.</p><p>Stella takes pride in their ability to preserve or grow ingredients when asked whether harvesting would destroy the flower. They propose settling it at the shop and investigating cultivation in the temple garden. The scene establishes the research, their intention to preserve the plant and the opportunities they describe. It does not show the finished remedy, completed propagation or every advertised effect.</p><p>Sola is hurt by the suggestion that they would hoard it for selfish reasons. She promises to use it for good, yet also says that some heartache cannot be healed. Their excitement about a possible remedy coexists with that limit.</p>\n<h2 id=\"sisters-open-history\">A shared practice and the remaining questions</h2><p>Their business, their ward and the lives around them provide the continuity between these scenes. The record does not supply their whole upbringing, every patient’s outcome or the later success of their alchemical plans. The medicine’s timely arrival and administration are confirmed; the patient’s later recovery remains unrecorded here.</p>\n",
   "image": "assets/characters/discord/cdb194a65cf481c8adf0c5c9800af950f65bffea14a0e99b52c683463aadd0e6.png",
   "imageAlt": "Discord depiction of Stella & Sola",
   "imageCaption": "Stella & Sola",
@@ -87,17 +142,220 @@
           "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
         ]
       }
+    },
+    {
+      "id": "sisters-notes-and-newcomers",
+      "title": "Their mother’s notes and the newcomers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The early quest establishes consultation of family notes, admitted limits, a proposed shop role and an apology. It supplies no medical procedure or later identity merge.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219346445069717684",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219347583437115574",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219348715802984478",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219354795908010127",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219355904302911538",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219359635534778541"
+        ]
+      }
+    },
+    {
+      "id": "sisters-cherry-and-company",
+      "title": "A cherry tree, Herb’s chair and an argument",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The original gathering quest establishes the work, playful company and actual disagreement. Their claims about the future life of the wood and planted grove keep their speakers.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261159806077632643",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261160649363554469",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261161134606520385",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261161355994599496",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261164572799401996",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261165020671377498",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261165355666112534",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261165508577857630",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261165837134598174",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261166067414204487",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261169975721332777"
+        ]
+      }
+    },
+    {
+      "id": "sisters-ward-and-limits",
+      "title": "A ward behind the storefront",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Compatible RP establishes the ward, identified family relationships, comfort care, uncertainty about the children and explicit limits on Olokun’s request. No diagnosis or universal cure is inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268695400332922933",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268698990111887467",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268702882463748226",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268704148593971321",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268707731800592396",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268708210764812401",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268713579750756404",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268715075548479588",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268723677172859013",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268729467665125387",
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1268730687972704256"
+        ]
+      }
+    },
+    {
+      "id": "sisters-delivery-completed",
+      "title": "The medicine reaches Eovar in time",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The primary quest explicitly confirms timely delivery and administration, resolving that limited outcome. Diagnosis and ultimate recovery are not supplied.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332513528157835345",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332514175141937152",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332514439211257868",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332514676466257940",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332515975379292241",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332516322801877096",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332563291670712491",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332564823749427244",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332565971642093682"
+        ]
+      }
+    },
+    {
+      "id": "sisters-war-and-ordinary-work",
+      "title": "When the shop becomes triage",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Public RP establishes triage; the main quest establishes children’s beds and later rope work. Neither complete medical recovery nor sole responsibility for rebuilding is inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1219691264337903738/1377390995712381052",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377749690186993835",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522661392971333803"
+        ]
+      }
+    },
+    {
+      "id": "sisters-lunar-tear",
+      "title": "What the Lunar Tear might make possible",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The quest distinguishes legend, later book research, claimed potential and proposed cultivation from demonstrated effects or completed production. Hidden ingredient mechanisms and unsupported cures are not added.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1458990302353162241",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1458991976304345252",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1458992809980854314",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1458995658198614159",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1458996730430492840",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1459046514877010084",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1459046516931956952",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1459047468267339911",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1459048216367599657",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1459049134383304715",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1459049581307232378"
+        ]
+      }
+    },
+    {
+      "id": "sisters-open-history",
+      "title": "A shared practice and the remaining questions",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Earlier evidence remains alongside the newly checked delivery outcome. Latest work is not converted into a complete career or final fate.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1332564823749427244",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1459049581307232378"
+        ]
+      }
     }
   ],
   "brief": {
     "identity": "Apothecary sisters",
-    "significance": "The sisters whose shop links Pristinia’s ordinary comforts, medicine and emergency care.",
+    "significance": "Pristinia’s apothecary sisters: they care for neighbors, send urgent medicine to Eovar, gather materials and research the Lunar Tear while recognizing what they cannot yet do.",
     "actions": [],
-    "status": "A current status is not established in the dated public record.",
+    "status": "Seen helping with post-fire rope work in the Month of Cala, Year 3. Their later patients and alchemical projects are not fully resolved here.",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
   },
   "profile": {
-    "achievements": "The sisters whose shop links Pristinia’s ordinary comforts, medicine and emergency care."
+    "achievements": "Pristinia’s apothecary sisters: they care for neighbors, send urgent medicine to Eovar, gather materials and research the Lunar Tear while recognizing what they cannot yet do."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "sisters-people-and-shop",
+        "title": "The sisters and the newcomers",
+        "sections": [
+          "stella-sola-1",
+          "sisters-notes-and-newcomers"
+        ]
+      },
+      {
+        "id": "sisters-materials-and-friends",
+        "title": "Useful materials and good company",
+        "sections": [
+          "stella-sola-3",
+          "sisters-cherry-and-company"
+        ]
+      },
+      {
+        "id": "sisters-neighbors-in-the-ward",
+        "title": "Neighbors in the ward",
+        "sections": [
+          "sisters-ward-and-limits"
+        ]
+      },
+      {
+        "id": "sisters-medicine-and-delivery",
+        "title": "The urgent medicine and its arrival",
+        "sections": [
+          "stella-sola-2",
+          "sisters-delivery-completed"
+        ]
+      },
+      {
+        "id": "sisters-care-during-war",
+        "title": "Care in war and rebuilding",
+        "sections": [
+          "sisters-war-and-ordinary-work"
+        ]
+      },
+      {
+        "id": "sisters-legend-and-research",
+        "title": "The Lunar Tear and its promise",
+        "sections": [
+          "sisters-lunar-tear"
+        ]
+      },
+      {
+        "id": "sisters-evidence-and-open-record",
+        "title": "The work still to be followed",
+        "sections": [
+          "sisters-open-history",
+          "stella-sola-sources"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

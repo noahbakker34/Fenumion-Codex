@@ -3,7 +3,7 @@
   "title": "Hawthorne",
   "category": "People",
   "type": "Scribe · civic administrator",
-  "dek": "The scribe who turns Pristinia’s arguments into counted votes, recorded decisions and an institutional memory.",
+  "dek": "A scribe from Eovar who records Pristinia’s votes, pursues his mentor’s unfinished scholarship and seeks reconstruction donations, with little patience for coffee or careless paperwork.",
   "tags": [
     "Hawthorne",
     "NPCs",
@@ -13,13 +13,68 @@
     "Island connection": "Prima",
     "Role": "Scribe · civic administrator",
     "Record": "Public scenes; later status not established",
-    "Region": "Prima"
+    "Region": "Prima",
+    "Training": "Letters; describes himself as a nonmagical scribe",
+    "Town work": "Aide to Melian and the Elders · minutes, votes and census",
+    "Personal research": "Fernir’s unfinished work; conjecture distinguished from evidence",
+    "Latest checked scene": "11, Month of Moirah · Year 3"
   },
   "sources": [
     "Main quest-RP archive · message anchors below",
-    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
+    "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1239619791497592956",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1239620696389320804",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1239621865656549498",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1239627877792743627",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1239628695489216543",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1271211399837646918",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1229126651619836076",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1229127615907106896",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1229148559157231708",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1247683206992498748",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1247685140210126920",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1247686447457243186",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1247692557471973377",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1247704353255719074",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1247705881970348063",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1247718230739386375",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1247729431712366632",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1247739486310502431",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1383464549734158417",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1383471326366531635",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1383473625864212621",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1383484787838292120",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1383504868722999306",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1383583901489954941",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1383585773894373500",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1383600278980399104",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1383606439225982996",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1383608742674956308",
+    "https://discord.com/channels/1177270231513694249/1369505923411738674/1383622529243152396",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420454016109776988",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420458153115521264",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420459353638436874",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420461053753561138",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420465948216791122",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420468682290888784",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420470365380939798",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420471686565986325",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420473751962910721",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420480457484533864",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420484289975554108",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1494787851253055598",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1494798151503057018",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1494813203442434138",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1494814759604850760",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1494820297830825994",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1494836425768702043",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1536775370311864440",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1536795313912942764",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1536798026117423126",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1536802531253035048",
+    "https://discord.com/channels/1177270231513694249/1531328406489272330/1536804041110196285"
   ],
-  "body": "<h2 id=\"hawthorne-1\">Counting and recording</h2><p>At the early <a href=\"#public-square\">public assembly</a>, Hawthorne counts votes and writes the results on fresh parchment. His work makes a distinction between what someone proposes and what the settlement adopts. Later assemblies show him counting again when a result needs checking; the record depends on repeated, practical work.</p><h2 id=\"hawthorne-2\">Election and ownership</h2><p>During the later election gathering, he explains eligibility and asks for evidence of property transfers. Pappy’s claimed ownership cannot simply substitute for paperwork Hawthorne has not received. Collective holdings create a difficulty the existing rules do not clearly answer. Hawthorne brings that question to a show of hands rather than treating his own uncertainty as a final legal ruling. The gathering records candidates and ballot questions, not a complete election result.</p><h2 id=\"hawthorne-3\">A scholar’s unfinished work</h2><p>Hawthorne describes himself as a nonmagical scribe who came from <a href=\"#eovar-harbor\">Eovar</a> and now helps Melian and the Elders. His late mentor Fernir’s work on dwarven settlement matters to him personally. He asks adventurers to return to the <a href=\"#old-earth-hills\">Old Earth Hills</a>; his interpretations of recovered evidence remain attributed scholarship, not a complete account of the island’s hidden past.</p><h2 id=\"hawthorne-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239628695489216543\">Recording the assembly’s vote</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1293735525932466176\">A scribe from Eovar assisting Pristinia</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1293740554697572436\">Fernir and the unfinished inquiry</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420456337510502411\">Candidates and residency questions</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420461053753561138\">Collective ownership and a ballot question</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1494820297830825994\">Counting again</a></li></ul>",
+  "body": "<p>Hawthorne is a scribe from <a href=\"#eovar-harbor\">Eovar</a> who becomes an aide to <a href=\"#melian-starguard\">Melian</a> and the <a href=\"#pristinia\">Pristinian</a> Elders. He counts hands, checks paperwork, studies Fernir’s unfinished research and tries to raise money after the siege. His nervousness and occasional academic snobbery survive alongside the practical work. He is also emphatic that coffee is inferior to tea.</p>\n<h2 id=\"hawthorne-1\">Counting and recording</h2><p>At the early <a href=\"#public-square\">public assembly</a>, Hawthorne counts votes and writes the results on fresh parchment. His work makes a distinction between what someone proposes and what the settlement adopts. Later assemblies show him counting again when a result needs checking; the record depends on repeated, practical work.</p>\n<h2 id=\"hawthorne-2\">Election and ownership</h2><p>During the later election gathering, he explains eligibility and asks for evidence of property transfers. Pappy’s claimed ownership cannot simply substitute for paperwork Hawthorne has not received. Collective holdings create a difficulty the existing rules do not clearly answer. Hawthorne brings that question to a show of hands rather than treating his own uncertainty as a final legal ruling. The gathering records candidates and ballot questions, not a complete election result.</p>\n<h2 id=\"hawthorne-3\">A scholar’s unfinished work</h2><p>Hawthorne describes himself as a nonmagical scribe who came from <a href=\"#eovar-harbor\">Eovar</a> and now helps Melian and the Elders. His late mentor Fernir’s work on dwarven settlement matters to him personally. He asks adventurers to return to the <a href=\"#old-earth-hills\">Old Earth Hills</a>; his interpretations of recovered evidence remain attributed scholarship, not a complete account of the island’s hidden past.</p>\n<h2 id=\"hawthorne-sources\">Recorded scenes</h2><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1239628695489216543\">Recording the assembly’s vote</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1293735525932466176\">A scribe from Eovar assisting Pristinia</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1293740554697572436\">Fernir and the unfinished inquiry</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420456337510502411\">Candidates and residency questions</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1420461053753561138\">Collective ownership and a ballot question</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1494820297830825994\">Counting again</a></li></ul>\n<h2 id=\"hawthorne-first-minutes\">A new graduate with a quill and a room to manage</h2><p>At the early assembly Hawthorne identifies himself as recently graduated. He adjusts his tie, gathers sweat from his brow and settles beside Melian with ink and parchment. <a href=\"#elder-magda\">Magda</a> tells the crowd to give him a chance: Melian cannot run the meeting and take its notes at once.</p><p>He announces that the proposal to require truth magic in voting fails, records it and continues counting the later motions. His quiet voice does not mean that every proposal becomes law; the failed motions remain failed. Months later his quill moves fast enough during another public debate for the narration to give it a wisp of smoke. The scene’s humor belongs to the pressure of keeping up with a room full of arguments.</p>\n<h2 id=\"hawthorne-fernir-and-tea\">Fernir’s papers, a winter coat and very strong views on tea</h2><p>Hawthorne comes to Pristinia for Fernir’s funeral and consults the dead scholar’s family about the service. Later he spreads his mentor’s notes across a Common Man table. He wants the research taken seriously, but is unusually explicit about its limits: most of the collection is conjecture built around a small amount of primary evidence. His attachment to Fernir does not make every theory in those papers true.</p><p>He asks for objects and inscriptions that might test the work. Going into the ruins himself is another matter. He says he knows neither magic nor fighting and that a winter coat is the most protective thing he can wear properly. His refusal is direct even when he is nervous.</p><p>He can be condescending when explaining scholarship and then apologize for snapping. His dispute with Olokun over coffee is less apologetic. He takes green tea with honey as Fernir did and returns to the papers. Their friendship and his grief appear in that ordinary habit as well as in the effort to recover evidence.</p>\n<h2 id=\"hawthorne-reconstruction-auction\">Asking for donations without pretending to be a ruler</h2><p>After the siege lifts, Hawthorne asks adventurers to donate spare or recovered equipment for a reconstruction auction. He wants the items to pass between adventurers while their gold pays for rebuilding, restocking and recovery. He accepts donations and carefully logs them. When asked whether he rules Pristinia, he denies it: he is someone trying to help.</p><p>His proposed format allows people time to bid rather than rewarding only those who arrive first. At <a href=\"#ryvyting-creations\">Ryvyting Creations</a>, the conversation with <a href=\"#ryvyt\">Ryvyt</a> begins awkwardly. Hawthorne explains that he is requesting voluntary gifts, not buying stock, and refuses to be drawn into a quarrel about particular adventurers. They eventually clarify a crafting offer, and he leaves with a physical coupon.</p><p>The solicitation, received gifts and proposed auction are established. This selection does not add a completed sale, total proceeds or a claim that all reconstruction money came through his effort.</p>\n<h2 id=\"hawthorne-election-and-rules\">Paperwork that cannot keep up with the election</h2><p>The later candidate registration puts him under a different kind of pressure. He has purchase papers naming Ryvyt as a shop’s owner and has not received the transfer Pappy says has occurred. He recognizes that the Knights’ collective ownership presents a case the laws did not anticipate and asks the gathering to decide whether Pappy may remain on the ballot. They agree that he can.</p><p>The assembly then changes eligibility again, including the age requirement. Hawthorne throws up his hands at how quickly the rules are being changed, but continues recording new candidates and taking payment for land. He also admits he has no house of his own: his work does not leave enough money at the month’s end.</p><p>Those details distinguish his role from that of a councillor or wealthy proprietor. His register, questions and counted hands help administer the gathering, while his frustration remains his response to its decisions. Registration and eligibility votes do not supply the final election result.</p>\n<h2 id=\"hawthorne-later-work-and-toad\">More counting, missing reports and a paper toad</h2><p>At the later law assembly Hawthorne distributes proposals, keeps speakers in order, asks people to clarify what amendment they mean and counts again when a result needs checking. Melian describes his adventurer census as a side project. He also complains that no adventurer report has reached him explaining the full Zakar affair beyond an initial connection. That is the limit of what reached the town’s scribe, rather than proof that no one investigated.</p><p>Later, at the <a href=\"#pilgrims-hearth\">Pilgrim’s Hearth</a>, he celebrates the town’s recovery and Jon’s replenished supplies. Willford’s paper toys give him a turn as a learner: he copies the folds slowly and imperfectly, watches the result and names his little creation Toad. His remark that he has never had enough wealth to fold paper unnecessarily is consistent with the registration scene’s account of his own finances. The craft encounter supplies a moment of ordinary pleasure without making him its magical inventor.</p>\n",
   "image": "assets/characters/discord/8a9d5acaf10cfb942df65c1cd03f206c9a5f4b8d88ab7eb0df0f0b1f86f0668f.png",
   "imageAlt": "Discord depiction of Hawthorne",
   "imageCaption": "Hawthorne",
@@ -86,11 +141,127 @@
           "NPC Master Registry and Recovery Map · recovery lead, checked against raw scenes"
         ]
       }
+    },
+    {
+      "id": "hawthorne-first-minutes",
+      "title": "A new graduate with a quill and a room to manage",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Primary quest assemblies establish the graduate, the note-taking role and specific rejected motions. The narrated smoke is preserved as a comic description, not a new magical ability.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1239619791497592956",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1239620696389320804",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1239621865656549498",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1239627877792743627",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1239628695489216543",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1271211399837646918"
+        ]
+      }
+    },
+    {
+      "id": "hawthorne-fernir-and-tea",
+      "title": "Fernir’s papers, a winter coat and very strong views on tea",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Compatible RP establishes the funeral consultation, personal habits and explicit distinctions between evidence and conjecture. Hidden ancient history and any completed scholarly exoneration are outside this addition.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1229126651619836076",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1229127615907106896",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1229148559157231708",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1247683206992498748",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1247685140210126920",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1247686447457243186",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1247692557471973377",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1247704353255719074",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1247705881970348063",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1247718230739386375",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1247729431712366632",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1247739486310502431"
+        ]
+      }
+    },
+    {
+      "id": "hawthorne-reconstruction-auction",
+      "title": "Asking for donations without pretending to be a ruler",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Checked public RP shows a voluntary donation plan, actual receipts and the negotiated crafting coupon. The auction’s final outcome and revenues remain unverified here.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1383464549734158417",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1383471326366531635",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1383473625864212621",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1383484787838292120",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1383504868722999306",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1383583901489954941",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1383585773894373500",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1383600278980399104",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1383606439225982996",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1383608742674956308",
+          "https://discord.com/channels/1177270231513694249/1369505923411738674/1383622529243152396"
+        ]
+      }
+    },
+    {
+      "id": "hawthorne-election-and-rules",
+      "title": "Paperwork that cannot keep up with the election",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The primary election scene supplies paperwork limits, actual eligibility decisions and Hawthorne’s response. The owner’s established Ryvyt shop identity is preserved; an unverified transfer and final winners are not inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420454016109776988",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420458153115521264",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420459353638436874",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420461053753561138",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420465948216791122",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420468682290888784",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420470365380939798",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420471686565986325",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420473751962910721",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420480457484533864",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420484289975554108"
+        ]
+      }
+    },
+    {
+      "id": "hawthorne-later-work-and-toad",
+      "title": "More counting, missing reports and a paper toad",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Quest scenes establish later administrative work and the limit of reports known to Hawthorne; compatible RP establishes the celebration and paper folding. Neither universal ignorance nor magical authorship is inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1494787851253055598",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1494798151503057018",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1494813203442434138",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1494814759604850760",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1494820297830825994",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1494836425768702043",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1536775370311864440",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1536795313912942764",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1536798026117423126",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1536802531253035048",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1536804041110196285"
+        ]
+      }
     }
   ],
   "brief": {
     "identity": "Scribe · civic administrator",
-    "significance": "The scribe who turns Pristinia’s arguments into counted votes, recorded decisions and an institutional memory.",
+    "significance": "A scribe from Eovar who records Pristinia’s votes, pursues his mentor’s unfinished scholarship and seeks reconstruction donations, with little patience for coffee or careless paperwork.",
     "actions": [
       {
         "title": "Pristinia adopts merchant penalties by two votes",
@@ -98,11 +269,56 @@
         "date": "13 May 2024 · quest-RP"
       }
     ],
-    "status": "Last dated entry in this selection: 13 May 2024 · quest-RP. Later status is not established here.",
+    "status": "Recorded at the Pilgrim’s Hearth on 11, Month of Moirah · Year 3; later work and fate are not established here.",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
   },
   "profile": {
-    "achievements": "The scribe who turns Pristinia’s arguments into counted votes, recorded decisions and an institutional memory."
+    "achievements": "A scribe from Eovar who records Pristinia’s votes, pursues his mentor’s unfinished scholarship and seeks reconstruction donations, with little patience for coffee or careless paperwork."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "hawthorne-arrival-and-minutes",
+        "title": "The graduate and the minutes",
+        "sections": [
+          "hawthorne-first-minutes",
+          "hawthorne-1"
+        ]
+      },
+      {
+        "id": "hawthorne-fernir-and-scholarship",
+        "title": "Fernir and unfinished scholarship",
+        "sections": [
+          "hawthorne-3",
+          "hawthorne-fernir-and-tea"
+        ]
+      },
+      {
+        "id": "hawthorne-rebuilding-appeal",
+        "title": "An appeal for reconstruction funds",
+        "sections": [
+          "hawthorne-reconstruction-auction"
+        ]
+      },
+      {
+        "id": "hawthorne-register-and-election",
+        "title": "The register and the changing rules",
+        "sections": [
+          "hawthorne-2",
+          "hawthorne-election-and-rules"
+        ]
+      },
+      {
+        "id": "hawthorne-work-and-ordinary-life",
+        "title": "Later work and an ordinary celebration",
+        "sections": [
+          "hawthorne-later-work-and-toad",
+          "hawthorne-sources"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-28
 
+## Prima NPC histories · 28 October 2026
+
+Owner asks for clearly owner-authored Prima NPCs and Terroir’s elders. Selected reply provenance and primary scenes support Melian, Scout Lilian, Ephraith, Hiram, Kaja, Magda and Hawthorne on their existing identities. Melian/Lilian/Ephraith gain seven chapters each; Hiram/Kaja/Magda/Hawthorne gain four/three/three/five. Specific work, humor, failed judgment, disagreements, care, election limits and later participation remain distinct. Quest outcomes govern compatible RP, without new private disclosures, invented retirements/results or completed proposals. Hiram’s ambiguous “biweekly” replaces the unsupported every-two-weeks interpretation. Details: PRIMA_NPCS_2026_10_28.md and content/reference/prima-npc-review-2026-10-28.json.
+
+All 210 selected source identities resolve, with 198 new receipts. Search across 32 overlapping corpora is discovery, not full archive reading; raw/proxy data remain external. All 40 old sections, five old chapters, references, direct quotes, NPC roles and original media survive. Seven directory summaries change; Prima’s hub keeps its six people and adds seven direct profile destinations. All unrelated content, world/timeline/calendar/quote/map/relationship structures, media/261 previews and the whole private payload are exact. Catalog287 retains 634 records/585 public bodies, 262 people/363 public events, now 2,543 sections. Existing static/calendar/preservation and expanded 53-biography/regional gates pass; focused NPC/island/hub links, all 45 old targets, reload, global search and independent fresh 390/320 mobile/header fit pass without script or public HTTP errors; screenshots are inspected. No new runtime/style/dependency/pipeline stage. Hosted/live receipt follows verification.
+
 ## Tower of Gael incremental gathering · 28 October 2026
 
 Owner supplies 175 new Tower messages. Every text/locator matches the 6,583-message native cache; earlier 6,408 messages are not reread, attachments/linked documents not downloaded and quoted directions not adopted. A full four-chapter/1,084-word story follows the gathering, disagreement, petitions and farewells, with a Local timeline entry opening it directly. A tap and requested checks remain unidentified/uncompleted. Character claims and quest-established mist outcomes stay distinct, and protected cosmological explanations are omitted. Details: TOWER_UPDATE_2026_10_28.md and content/reference/tower-update-review-2026-10-28.json.

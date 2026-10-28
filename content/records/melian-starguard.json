@@ -3,7 +3,7 @@
   "title": "Melian Starguard",
   "category": "People",
   "type": "Pristinian civic leader; keeper of continuity",
-  "dek": "A civic leader who remains responsible for Pristinia through miracles, wars, betrayals, deaths, returns and the departure of its adventurers.",
+  "dek": "Pristinia’s liaison to adventurers, coordinating supplies, defenses, hearings and rebuilding while working with the Elders and carrying the town’s losses.",
   "tags": [
     "Melian",
     "Pristinia",
@@ -20,7 +20,8 @@
     "Defining crisis": "Abducted by Magnus · 4 Jun 2025",
     "Later office": "Keeper of Papirak’s civic memory",
     "Exact constitutional title": "Unresolved",
-    "Region": "Prima"
+    "Region": "Prima",
+    "Council relationship": "Liaison and public leader; decisions explicitly rest with the Elders in the documented harvest assembly"
   },
   "sources": [
     "Fenumion_Codex_Herb_Melian_and_City_of_Zarathis_Deep_Dive.md — civic history, abduction, relationships, funeral, and evidence boundaries",
@@ -30,9 +31,46 @@
     "Quest receipt · 2024-03-12 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665",
     "Quest receipt · 2025-06-05 UTC · https://discord.com/channels/1177270231513694249/1199083630354501673/1380213378869628993",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1380213378869628993",
-    "https://discord.com/channels/1177270231513694249/1199083630354501673/1387050888186822826"
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1387050888186822826",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1217610775754047509",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1217614978320961636",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1217618141430157452",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1217620612768596049",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219325733411881021",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219327004046786581",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219346886595711098",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219350918290604113",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1297343665395601499",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1297346219613360230",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1297350788082958358",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1297382635030581322",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1297341298323488849",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1370076615509278831",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1370077414868254831",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1370079116442730578",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420476448162054144",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420479915362353206",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1420480204362612876",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442941439607836872",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442941806923743324",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442948323475460127",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442953844588806163",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442967227010777148",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442972902017204274",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1442975771990950058",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1494832655420883055",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1508522616049111060",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1508544278643609771",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1508544558638563438",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1508545231098740886",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1508545675074473995",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522660938002465019",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522663156885880992",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522670514760454176",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522672074462855309",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1522674158318784612"
   ],
-  "body": "<p>Melian Starguard remains responsible for Pristinia as adventurers arrive, fight gods, betray one another, die, return and move on. Many have greater wealth, magic, mobility or destructive power than she does; she still has to help run the town after their interventions.</p>\n      <div class=\"callout gold\"><p>Pristinia still needs food, labor, walls, diplomacy, funerals, public property and trust after an adventurer’s intervention ends. The strength to win a fight does not itself confer authority over those civic affairs.</p></div>\n      <h2 id=\"melian-early-pristinia\">Interpreter of a vulnerable settlement</h2>\n      <p>In Pristinia’s earliest recovered history, Melian meets newcomers over a map and leads them through the settlement whose needs will shape their work. By August 2024 she can explain the town’s geopolitical position among Rahu influence, Eovar, the Guardians of the Shard, and The Before. Her leadership predates the siege: she knows the region, interprets it for outsiders, and carries institutional memory.</p>\n      <h2 id=\"melian-last-banner\">The last banner of Pristinia</h2>\n      <p>During the Rahu crisis, Ada’s frightened chronicle calls Melian the last banner of Pristinia. She takes position at the Northeast Tower and helps organize the town’s defense, using its palisades and terrain and the work of smiths, miners, crafters, and loyalists. Elenia’s later extraordinary intervention can break siege engines; Melian remains responsible for the town before, during, and after that intervention.</p>\n      <h2 id=\"melian-capture\">4 June 2025 · political abduction</h2>\n      <p>Melian is alone with tea when Magnus and the Rahu arrive. She rises, draws her sword, and faces a consequence she has anticipated without pretending she can guarantee victory.</p>\n      <div class=\"quote\">I knew this day would come. Let us see what comes of it.<cite>Melian Starguard</cite></div>\n      <p>Magnus immediately uses yielding gas. Melian collapses, is wrapped to resemble a corpse, and is carried away. The Rahu target her not because she is Pristinia’s most dangerous combatant, but because she represents it institutionally. The attack is political kidnapping rather than an ordinary battlefield defeat.</p>\n      <p>Herb and <a href=\"#scout-lilian\">Scout Lilian</a> approach while Herb carries a meal meant to cheer her. Magnus orders both witnesses killed. The operation therefore wounds Melian’s office, body, friendships, and civilian community at the same time.</p>\n      <h2 id=\"melian-survivor\">Leadership as remaining</h2>\n      <p>Melian survives into Pristinia’s later history, although the details of her captivity and return remain incomplete. She witnesses the Rahu crisis, the growth of adventurer factions, the destruction and rebuilding of institutions, and Papirak’s death. Her later public work continues the history interrupted by her kidnapping.</p>\n      <h2 id=\"melian-papirak\">Papirak’s funeral · carrying the flame</h2>\n      <p>On 30 September 2026, Melian leads the procession and performs the Rite of the Flame. Her language makes survival an obligation to carry something forward for those who cannot.</p>\n      <div class=\"quote\">What light they leave behind...... now lives within my hands.<cite>Melian Starguard</cite></div>\n      <div class=\"quote\">I walk because they cannot, and I shine... where they are gone.<cite>Melian Starguard</cite></div>\n      <p>Papirak’s walking stick is revealed as a Staff of Power worth an enormous sum. Melian refuses to reduce its meaning to utility and determines that it belongs with Papirak. When Fenwick Sequesters it with Pell’s permission and Camilla can no longer detect it, Melian trusts them enough to continue the rite. Suspicion remains part of the history; it does not become proof of theft.</p>\n      <h2 id=\"melian-herb\">The flame and the hearth</h2>\n      <p>At the funeral, Melian leads the rite and gives the town words for its loss. Herb brings people together afterward through food, drink and laughter. Their friendship also appears in an earlier, quieter act: he carries dinner through a war zone because he knows she is struggling. No formal declaration supplies the full history of that bond.</p>\n      <h2 id=\"melian-open-record\">The open record</h2>\n      <p>Melian’s exact title and constitutional powers at each stage, early biography, founding role, complete captivity and return, pre-war friendship with Herb, and authority over Pristinia’s council, treasury, militia, and adventurers remain unresolved. “Major civic leader” is established; a more specific office must wait for evidence.</p>\n<h2 id=\"melian-starguard-scene-sequence\">Scenes in sequence</h2>\n<p>These selected scenes preserve what was knowable when people acted. Dates below identify source postings in UTC; they do not supply an in-world calendar. A later appearance does not settle present status.</p><ol class=\"scene-sequence\"><li><p class=\"scene-date\">2024-03-12 · quest</p><h3>A town’s name meets its actual size</h3><p>Melian favors Pristinia while questioning John’s grander wording for a small settlement.</p><dl><div><dt>Known at this stage</dt><dd>The name is being discussed, rather than remembered as an inevitable foundation myth.</dd></div><div><dt>Consequence</dt><dd>Her practical civic voice is visible early.</dd></div><div><dt>Still unresolved</dt><dd>The exchange does not establish a sole founder or erase the other participants.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li><li><p class=\"scene-date\">2025-06-05 · quest</p><h3>Absence is discovered before its explanation</h3><p>Narration places Herb, Lillian and the raven dead near Melian’s open house, with Melian missing.</p><dl><div><dt>Known at this stage</dt><dd>At discovery, her location and the attackers’ full story are still unknown.</dd></div><div><dt>Consequence</dt><dd>The crisis begins as a search and an investigation.</dd></div><div><dt>Still unresolved</dt><dd>The narrator places the event on the preceding day; the receipt’s posting date is not the abduction date.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1380213378869628993\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li></ol><h2 id=\"melian-release-report\">Peace and a reported release</h2><p>The first investigation is posted on 5 June 2025, but its narrator explicitly places it on the preceding day, soon after the deaths were discovered. A later search scene must not turn that posting boundary into another day of events.</p><p>At the close of the peace negotiations, Olokun insists that the delegation leave with Melian. Ephraith answers that the war is over and Melian has already been released. The statement supplies a missing link between captivity and her later public life, while remaining the Queen’s report. The handover, route home, conditions of confinement and exact release time are not witnessed in this passage.</p>",
+  "body": "<p>Melian Starguard remains responsible for Pristinia as adventurers arrive, fight gods, betray one another, die, return and move on. Many have greater wealth, magic, mobility or destructive power than she does; she still has to help run the town after their interventions.</p>\n      <div class=\"callout gold\"><p>Pristinia still needs food, labor, walls, diplomacy, funerals, public property and trust after an adventurer’s intervention ends. The strength to win a fight does not itself confer authority over those civic affairs.</p></div>\n      \n<h2 id=\"melian-early-pristinia\">Interpreter of a vulnerable settlement</h2>\n      <p>In Pristinia’s earliest recovered history, Melian meets newcomers over a map and leads them through the settlement whose needs will shape their work. By August 2024 she can explain the town’s geopolitical position among Rahu influence, Eovar, the Guardians of the Shard, and The Before. Her leadership predates the siege: she knows the region, interprets it for outsiders, and carries institutional memory.</p>\n      \n<h2 id=\"melian-last-banner\">The last banner of Pristinia</h2>\n      <p>During the Rahu crisis, Ada’s frightened chronicle calls Melian the last banner of Pristinia. She takes position at the Northeast Tower and helps organize the town’s defense, using its palisades and terrain and the work of smiths, miners, crafters, and loyalists. Elenia’s later extraordinary intervention can break siege engines; Melian remains responsible for the town before, during, and after that intervention.</p>\n      \n<h2 id=\"melian-capture\">4 June 2025 · political abduction</h2>\n      <p>Melian is alone with tea when Magnus and the Rahu arrive. She rises, draws her sword, and faces a consequence she has anticipated without pretending she can guarantee victory.</p>\n      <div class=\"quote\">I knew this day would come. Let us see what comes of it.<cite>Melian Starguard</cite></div>\n      <p>Magnus immediately uses yielding gas. Melian collapses, is wrapped to resemble a corpse, and is carried away. The Rahu target her not because she is Pristinia’s most dangerous combatant, but because she represents it institutionally. The attack is political kidnapping rather than an ordinary battlefield defeat.</p>\n      <p>Herb and <a href=\"#scout-lilian\">Scout Lilian</a> approach while Herb carries a meal meant to cheer her. Magnus orders both witnesses killed. The operation therefore wounds Melian’s office, body, friendships, and civilian community at the same time.</p>\n      \n<h2 id=\"melian-survivor\">Leadership as remaining</h2>\n      <p>Melian survives into Pristinia’s later history, although the details of her captivity and return remain incomplete. She witnesses the Rahu crisis, the growth of adventurer factions, the destruction and rebuilding of institutions, and Papirak’s death. Her later public work continues the history interrupted by her kidnapping.</p>\n      \n<h2 id=\"melian-papirak\">Papirak’s funeral · carrying the flame</h2>\n      <p>On 30 September 2026, Melian leads the procession and performs the Rite of the Flame. Her language makes survival an obligation to carry something forward for those who cannot.</p>\n      <div class=\"quote\">What light they leave behind...... now lives within my hands.<cite>Melian Starguard</cite></div>\n      <div class=\"quote\">I walk because they cannot, and I shine... where they are gone.<cite>Melian Starguard</cite></div>\n      <p>Papirak’s walking stick is revealed as a Staff of Power worth an enormous sum. Melian refuses to reduce its meaning to utility and determines that it belongs with Papirak. When Fenwick Sequesters it with Pell’s permission and Camilla can no longer detect it, Melian trusts them enough to continue the rite. Suspicion remains part of the history; it does not become proof of theft.</p>\n      \n<h2 id=\"melian-herb\">The flame and the hearth</h2>\n      <p>At the funeral, Melian leads the rite and gives the town words for its loss. Herb brings people together afterward through food, drink and laughter. Their friendship also appears in an earlier, quieter act: he carries dinner through a war zone because he knows she is struggling. No formal declaration supplies the full history of that bond.</p>\n      \n<h2 id=\"melian-open-record\">The open record</h2>\n      <p>Melian’s exact title and constitutional powers at each stage, early biography, founding role, complete captivity and return, pre-war friendship with Herb, and authority over Pristinia’s council, treasury, militia, and adventurers remain unresolved. “Major civic leader” is established; a more specific office must wait for evidence.</p>\n\n<h2 id=\"melian-starguard-scene-sequence\">Scenes in sequence</h2>\n<p>These selected scenes preserve what was knowable when people acted. Dates below identify source postings in UTC; they do not supply an in-world calendar. A later appearance does not settle present status.</p><ol class=\"scene-sequence\"><li><p class=\"scene-date\">2024-03-12 · quest</p><h3>A town’s name meets its actual size</h3><p>Melian favors Pristinia while questioning John’s grander wording for a small settlement.</p><dl><div><dt>Known at this stage</dt><dd>The name is being discussed, rather than remembered as an inevitable foundation myth.</dd></div><div><dt>Consequence</dt><dd>Her practical civic voice is visible early.</dd></div><div><dt>Still unresolved</dt><dd>The exchange does not establish a sole founder or erase the other participants.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a></p></li><li><p class=\"scene-date\">2025-06-05 · quest</p><h3>Absence is discovered before its explanation</h3><p>Narration places Herb, Lillian and the raven dead near Melian’s open house, with Melian missing.</p><dl><div><dt>Known at this stage</dt><dd>At discovery, her location and the attackers’ full story are still unknown.</dd></div><div><dt>Consequence</dt><dd>The crisis begins as a search and an investigation.</dd></div><div><dt>Still unresolved</dt><dd>The narrator places the event on the preceding day; the receipt’s posting date is not the abduction date.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1380213378869628993\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a></p></li></ol>\n<h2 id=\"melian-release-report\">Peace and a reported release</h2><p>The first investigation is posted on 5 June 2025, but its narrator explicitly places it on the preceding day, soon after the deaths were discovered. A later search scene must not turn that posting boundary into another day of events.</p><p>At the close of the peace negotiations, Olokun insists that the delegation leave with Melian. <a href=\"#ephraith\">Ephraith</a> answers that the war is over and Melian has already been released. The statement supplies a missing link between captivity and her later public life, while remaining the Queen’s report. The handover, route home, conditions of confinement and exact release time are not witnessed in this passage.</p>\n<h2 id=\"melian-roads-fields-and-workers\">Roads, fields and the work people can actually do</h2><p>Early in the Calling, Melian loses patience with adventurers who choose a mountain expedition while bandits block Pristinia’s supply road. Food and building materials have to come from somewhere. Her anger softens when people offer help, but she still asks them to clear the route to the harbor. When an animated ancestor frightens her, she apologizes for the insult her fear causes. The same encounter contains irritation, dependence and an effort to correct herself.</p><p>She later helps <a href=\"#gartina\">Gartina</a> and <a href=\"#quake\">Quake</a> turn their plans into workable tasks: an abandoned plot, tools, workers, a deed and introductions. She directs Claire toward an apothecary and helps <a href=\"#rolen\">Rolen</a> arrange a training space, asking for a blueprint before promising scarce labor. These exchanges establish her part in coordinating the work alongside the people doing it; they do not make her the sole founder or builder.</p><p>At a later harvest she admits that she knows planting and harvesting schedules better than farming technique. She pulls vegetables, warns Wren that a sword will only be dulled by fieldwork, and organizes the injured to be taken for care when the outing turns dangerous. Her work in Pristinia includes tasks for which neither speeches nor a successful expedition are enough.</p>\n<h2 id=\"melian-council-and-candidacy\">A public voice, a council and a candidacy</h2><p>The harvest narration describes Melian as Pristinia’s de facto leader and the liaison between town and adventurers, while explicitly placing decisions with the Council of Elders. At the wartime <a href=\"#public-square\">Public Square</a> gathering, she declines to make a formal request to the Ahau on her own. She waits for <a href=\"#elder-kaja\">Kaja</a> and <a href=\"#elder-hiram\">Hiram</a> to confer, then asks for aid by the council’s will. This is a documented limit on her role at that gathering, rather than a complete constitution for every period.</p><p>When she stands for election later, Melian says that she has served in a position the Elders bestowed on her. She accepts nomination if the assembled people wish it. She refuses Pappy’s offered handshake in that setting because they are candidates as individuals, not a group ticket. <a href=\"#hawthorne\">Hawthorne</a> adds her name. The scene establishes her candidacy and view of the contest; it is not by itself a declaration of the winners.</p>\n<h2 id=\"melian-minerva-hearing\">Keeping a hearing open to judgment</h2><p>At <a href=\"#minerva\">Minerva’s</a> hearing, Melian presents the prisoner and asks the adventurers to hear testimony before judging. She describes her own role as an arbiter of fair play. The Elders have decided to leave this dispute between adventurers to them, and Montauk, as a party to the case, cannot vote.</p><p>Her conduct is imperfect. She initially mistakes Gregory’s objection for a confused interruption; later she accepts his refusal to treat anyone as wholly trustworthy and says that deeds, rather than her own argument, must establish her honesty. She advises Minerva that answering questions may help, while acknowledging her choice. When the jury returns a four-to-two verdict of not guilty, Melian announces it and unlocks the chains herself. Her duty in this scene is to carry out the hearing’s result, rather than replace it with her personal verdict.</p>\n<h2 id=\"melian-trade-and-rebuilding\">Trade, teaching and rebuilding after the fire</h2><p>Later public business returns her to accounts and supplies. At the Lex Conventus she reports stable finances and credits the <a href=\"#ale-chemy-knights\">Ale-Chemy Knights</a> with helping maintain income between harvests. When Camilla and Severina visit her work, she sends correspondence to Eovar and asks for wood, stone and skilled help. She supports an academy proposal on the condition that it also teach practical trades and offers a building plot. Projects she describes as started remain projects at that point; neither the offer nor the planning conversation proves every building finished.</p><p>After the <a href=\"#common-man\">Common Man</a> burns, Melian arrives wet and muddy, carrying scrolls and nails. She wants adventurers visibly helping the replacement inn while another group investigates missing cedar paneling in <a href=\"#eovar-harbor\">Eovar</a>. She fears what another failure will do to the town’s view of them. When Tshuka objects to being associated with the fire, Melian admits that she meant foreigners in general and misspoke. Her worry for Pristinia can lead her to generalize unfairly about the people she needs.</p><p>She arranges a Pristinian tab for lodging on the recovery mission. The instructions establish the request and material problem; they do not, on their own, establish the paneling’s recovery. Her <a href=\"#pilgrims-hearth\">later inn</a> and funeral histories retain the later stages separately.</p>\n",
   "image": "assets/characters/melian.png",
   "imageAlt": "Melian Starguard, a pale-haired elven civic leader in silver armor and a rose-colored cloak",
   "imageCaption": "Melian Starguard — keeper of Pristinia’s civic continuity.",
@@ -181,11 +219,100 @@
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1387050888186822826"
         ]
       }
+    },
+    {
+      "id": "melian-roads-fields-and-workers",
+      "title": "Roads, fields and the work people can actually do",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Primary quest exchanges show anger over the closed supply road, a specific apology, shared civic planning and hands-on harvest work. Plans, deeds and work remain distinct from completed institutions.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1217610775754047509",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1217614978320961636",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1217618141430157452",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1217620612768596049",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219325733411881021",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219327004046786581",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219346886595711098",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219350918290604113",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1297343665395601499",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1297346219613360230",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1297350788082958358",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1297382635030581322"
+        ]
+      }
+    },
+    {
+      "id": "melian-council-and-candidacy",
+      "title": "A public voice, a council and a candidacy",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Quest narration and the public wartime exchange distinguish liaison work from council decisions. The later quest election establishes nomination, not an inferred final result.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1297341298323488849",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1370076615509278831",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1370077414868254831",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1370079116442730578",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420476448162054144",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420479915362353206",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1420480204362612876"
+        ]
+      }
+    },
+    {
+      "id": "melian-minerva-hearing",
+      "title": "Keeping a hearing open to judgment",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The quest hearing supplies the local allocation of responsibility, Melian’s actual interventions and the announced verdict. It does not establish a universal court procedure.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442941439607836872",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442941806923743324",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442948323475460127",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442953844588806163",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442967227010777148",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442972902017204274",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442975771990950058"
+        ]
+      }
+    },
+    {
+      "id": "melian-trade-and-rebuilding",
+      "title": "Trade, teaching and rebuilding after the fire",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest scenes establish finance reports, requested materials, vocational conditions, rebuilding instructions and a corrected generalization. Offers and missions are not silently completed.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1494832655420883055",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1508522616049111060",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1508544278643609771",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1508544558638563438",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1508545231098740886",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1508545675074473995",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522660938002465019",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522663156885880992",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522670514760454176",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522672074462855309",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522674158318784612"
+        ]
+      }
     }
   ],
   "brief": {
     "identity": "Pristinian civic leader; keeper of continuity",
-    "significance": "A civic leader who remains responsible for Pristinia through miracles, wars, betrayals, deaths, returns and the departure of its adventurers.",
+    "significance": "Pristinia’s liaison to adventurers, coordinating supplies, defenses, hearings and rebuilding while working with the Elders and carrying the town’s losses.",
     "actions": [
       {
         "section": "melian-starguard-scene-sequence",
@@ -388,6 +515,7 @@
         "title": "Pristinia and its defense",
         "sections": [
           "melian-early-pristinia",
+          "melian-roads-fields-and-workers",
           "melian-last-banner"
         ]
       },
@@ -403,7 +531,22 @@
         "id": "melian-returning-to-work",
         "title": "Continuing the town’s work",
         "sections": [
-          "melian-survivor"
+          "melian-survivor",
+          "melian-council-and-candidacy"
+        ]
+      },
+      {
+        "id": "melian-candidacy-and-hearing",
+        "title": "Individual judgment and a public hearing",
+        "sections": [
+          "melian-minerva-hearing"
+        ]
+      },
+      {
+        "id": "melian-materials-and-rebuilding",
+        "title": "Making the town work again",
+        "sections": [
+          "melian-trade-and-rebuilding"
         ]
       },
       {

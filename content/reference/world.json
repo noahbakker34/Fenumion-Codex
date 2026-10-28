@@ -14999,7 +14999,7 @@
         "title": "Melian Starguard",
         "meta": "Pristinian civic leader",
         "article": "melian-starguard",
-        "summary": "A civic authority who carries Pristinia through siege, abduction, return, and remembrance without treating extraordinary power as a substitute for public responsibility.",
+        "summary": "Pristinia’s liaison to adventurers, coordinating supplies, defenses, hearings and rebuilding while working with the Elders and carrying the town’s losses.",
         "aliases": [
           "Melian",
           "Definetly Melian",
@@ -15190,7 +15190,7 @@
         ],
         "meta": "Tiefling sovereign of the Rahu",
         "article": "ephraith",
-        "summary": "A ruler whose fierce defense of Rahu interests can sustain collective grievance—and whose willingness to revise judgment makes restitution and peace possible.",
+        "summary": "The Rahu’s Witch Queen: she wrongly accuses Nienna, accepts the correction, and later negotiates peace while demanding that named people stand behind their promises.",
         "image": "assets/characters/ephraith.webp"
       },
       {
@@ -15202,7 +15202,7 @@
         ],
         "meta": "Pristinian scout · killed 4 June 2025",
         "article": "scout-lilian",
-        "summary": "A field guide and early-warning coordinator killed by Rahu archers on Magnus’s direct order while attempting to warn Pristinia.",
+        "summary": "Pristinia’s blunt, practical scout: a guide and wildlife coordinator who grows into wartime responsibility, then dies trying to get a warning home.",
         "prominence": {
           "consequence": 5,
           "institution": 4,
@@ -15536,7 +15536,7 @@
         "title": "Hawthorne",
         "article": "hawthorne",
         "meta": "Scribe · civic administrator",
-        "summary": "The scribe who turns Pristinia’s arguments into counted votes, recorded decisions and an institutional memory.",
+        "summary": "A scribe from Eovar who records Pristinia’s votes, pursues his mentor’s unfinished scholarship and seeks reconstruction donations, with little patience for coffee or careless paperwork.",
         "aliases": [],
         "image": "assets/characters/discord/8a9d5acaf10cfb942df65c1cd03f206c9a5f4b8d88ab7eb0df0f0b1f86f0668f.png",
         "imageAlt": "Discord depiction of Hawthorne",
@@ -15609,7 +15609,7 @@
         "title": "Hiram",
         "article": "elder-hiram",
         "meta": "Pristinian Elder",
-        "summary": "An Elder whose arguments expose the tension between financial survival, political continuity and local defense.",
+        "summary": "A miller and Elder whose business rescue is rejected, whose distrust of adventurers sometimes gives way to cooperation, and whose civic work includes local defense.",
         "aliases": [
           "Elder Hiram"
         ],
@@ -15630,7 +15630,7 @@
         "title": "Kaja",
         "article": "elder-kaja",
         "meta": "Pristinian Elder",
-        "summary": "An Elder who resists solving Pristinia’s financial crisis by concentrating control in a few hands.",
+        "summary": "A Pristinian Elder who argues for income-based taxes, resists concentrated control, cares for Magda and works for a shared defense with the adventurers.",
         "aliases": [
           "Elder Kaja"
         ],
@@ -15651,7 +15651,7 @@
         "title": "Magda",
         "article": "elder-magda",
         "meta": "Pristinian Elder",
-        "summary": "The Elder who announces a collective decision while keeping ordinary hospitality and its cost in view.",
+        "summary": "A long-serving Pristinian Elder who first backs Hiram’s rescue, then announces its rejection, and later needs help from the colleagues who have argued with her.",
         "aliases": [
           "Elder Magda"
         ],

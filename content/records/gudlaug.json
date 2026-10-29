@@ -1,0 +1,307 @@
+{
+  "id": "gudlaug",
+  "title": "Gudlaug",
+  "category": "People",
+  "type": "Greatsword fighter · Pristinian race champion",
+  "dek": "Gudlaug wants his name in every mouth and treats help as tribute until affection or danger interrupts the performance. He wins a public race through skill and dirty tricks, fights beside the early adventurers and finds his grand claims harder to maintain around the people he cares for.",
+  "tags": [
+    "Gudlaug",
+    "Player character",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Greatsword-wielding player adventurer",
+    "Public victory": "Wins the race with Beefy Boy",
+    "Self-description": "Calls himself a god and divine protector; those claims remain his",
+    "Companions": "Olokun, Tricks and the early Pristinian company",
+    "Later record": "Leaves the cave expedition; later speaks with Tricks on the coast",
+    "Unresolved": "No later fate or objective godhood established here"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1259743601915858964",
+    "https://discord.com/channels/1177270231513694249/1198722893337608402/1262842667902173295",
+    "https://discord.com/channels/1177270231513694249/1198722893337608402/1262931415952130138",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261147595460448291",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261162034343448600",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260039056734294040",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260045492117704754",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260047164902477898",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260053063012712669",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260065328465973338",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260074276409573396",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260084167987826730",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260090717733257390",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095731969294346",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260096234568548432",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261164857823199252",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261167714525773824",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261168402513526825",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261169998966030388",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261170174367633508",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261170814611624038",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261183190467346464",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261190394247516160",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261207381367459871",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261207826198695997",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261208765412409354",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261211551315136522",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261211942119411742",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261213896069349436",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261476078300692540",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261479503989968917",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261487461608067164",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261488432962732092",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261501340899610726",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261505555088801833",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261527318439133215",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264025306553913496",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264029663156633675",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264071297928007690",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264072613383114775",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264370101713633330",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264392467931730042",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264393558874525780",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264397427511922708",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264401222799069184",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402607854714931",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402652855537726",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402830312210535",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264403318889906217",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264404267100409907",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265827174762418186",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265835173031841913",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265838175998447687",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265843272761479181",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265862402105151581",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866054647939124",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866842245955705",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265867967137316937",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265870772749078622",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265872417943977985",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265888681491697704",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265891568703770675",
+    "https://discord.com/channels/1177270231513694249/1199706439619453028/1266486315474747503",
+    "https://discord.com/channels/1177270231513694249/1199706439619453028/1266487261638299740",
+    "https://discord.com/channels/1177270231513694249/1199706439619453028/1266488753258496222",
+    "https://discord.com/channels/1177270231513694249/1199706439619453028/1266489660088123608",
+    "https://discord.com/channels/1177270231513694249/1199706439619453028/1266490963463770155"
+  ],
+  "body": "<p>Gudlaug wants his name in every mouth and treats help as tribute until affection or danger interrupts the performance. He wins a public race through skill and dirty tricks, fights beside the early adventurers and finds his grand claims harder to maintain around the people he cares for.</p><h2 id=\"gudlaug-persona\">The name he wants people to remember</h2><p>Gudlaug’s early private narration plans a reputation: work, coin, notoriety and the spread of a new god-figure. His meditative training is real within the scene; the divine status he intends to advertise is not thereby proved. He presents himself to the company as someone whose presence is already a gift.</p><p>With <a href=\"#olokun\">Olokun</a>, he gives an account of being abandoned as a runt, returning from training, seizing leadership and uniting goliath tribes. He tells it as the story of his rise. The source does not independently verify the numbers, victories or worship he claims. His boastfulness can coexist with discipline, practical combat knowledge and a desire for company.</p><h2 id=\"gudlaug-race\">Gudlaug and Beefy Boy</h2><p>At the public race, Gudlaug tells Beefy Boy that victory is already theirs. He spills oil into the path of following riders, takes shortcuts and uses the crowd’s hazards to his advantage. He also whips the bear, repeatedly provoking it to turn and growl at him. The animal’s resistance is part of the race, not an inconvenience omitted from his triumph.</p><p>The final sprint brings him past Vaemyr and Bonecruncher. The announcer confirms Gudlaug and Beefy Boy as the winners. Gudlaug then offers Vaemyr his hand and calls him a worthy competitor. The respect is visible after the cheating and aggression; it does not change how the race was won.</p><div class=\"quote\">Don't let your morals get in the way of your self interest. That's how I won the race.<cite>Gudlaug, later explaining his victory</cite></div><h2 id=\"gudlaug-town\">Gifts, smithing and a panther</h2><p>A day of instruction in Pristinia begins with Gudlaug treating the residents as potential servants and followers. He struggles with the heat, accepts a cloth for his brow as a donation and gradually pays closer attention to the work being shown. He praises skilled craftsmanship and takes an interest in learning it when it appears useful.</p><p>His manner remains comically grand. He mistakes the implications of a weapon gift, calls a bow a sword-bow and asks for the watching woman’s panther as well. He tries to hide how pleased he is when he pets it. In the fighting, however, he recognizes attempts to flank the party and helps Olokun against the wolves. The townspeople’s aid and his companions’ magic contribute to what he accomplishes.</p><h2 id=\"gudlaug-peaks\">Strength in the Azarian Peaks</h2><p>In the <a href=\"#azarian-peaks-expedition\">Azarian Peaks</a>, Gudlaug asks why the company has been summoned if the earlier prophecy has already been fulfilled. He also asks what would happen if the sought artifacts reached the wrong hands. His wish for power remains beside those practical questions.</p><p>When a boulder divides the route, he helps propel Olokun upward to see beyond it. He carries one of the recovered objects and argues for keeping them separate in case a traveler dies. As the storm worsens, he finally urges the others to listen to the guide and seek shelter. The expedition remains unfinished in the reviewed sequence; his confidence does not supply its missing outcome.</p><h2 id=\"gudlaug-corruption\">The voice that offers him more</h2><p>On the worm hunt, Gudlaug follows a voice promising power and resents the company’s objections. Yet when a horde makes his intended charge impossible, he picks up companions and runs. His hunger for a glorious fight and his ability to help people escape occur in the same outing.</p><p>The corruption cave intensifies his mistrust. The narrator establishes an influence that makes the explorers turn against their companions; Gudlaug also accepts the queen’s offered deal. He strikes Vaemyr down before the company negotiates its exit. Once the narrator says their normal selves have returned, he helps Vaemyr stand, apologizes and goes to Olokun to say he is sorry.</p><p>The queen demands more followers as her price. This is a threat and a demand made to the company, not a confirmed later delivery of victims. Their departure is exhausted and demoralized.</p><h2 id=\"gudlaug-tricks\">Tricks and the cracks in the performance</h2><p>During the later cave journey, Gudlaug becomes aware of an odd familiarity with Tricks and asks himself why he is speaking without his usual persona. He listens to her opinion, stands between her and danger and keeps checking where she is. That closeness is played; it does not establish a hidden shared past or explain the strange familiarity.</p><p>At the Pale Man’s crystal, Gudlaug initially wants to put himself first in the danger. He and Tricks strike together, but the narrator establishes that the attempted destruction fails. He then agrees to try diplomacy while remaining ready to protect her. After the questions are answered, he leaves with the party rather than achieving a decisive victory over the being.</p><h2 id=\"gudlaug-coast\">Your queen, your man</h2><p>On the Thundering Coast, his exchange with Tricks gives the earlier boasting a different register. He calls her his queen, then corrects himself: more accurately, he is her man. He wants her alive rather than sacrificing herself and says protecting her is his job. The affection does not make him suddenly free of pride or possessiveness; both remain in the conversation.</p><p>This is the latest direct scene selected for the profile. No reviewed later appearance establishes his death, apotheosis or permanent departure.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "gudlaug-persona",
+      "title": "The name he wants people to remember",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1259743601915858964",
+          "https://discord.com/channels/1177270231513694249/1198722893337608402/1262842667902173295",
+          "https://discord.com/channels/1177270231513694249/1198722893337608402/1262931415952130138",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261147595460448291",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261162034343448600"
+        ]
+      }
+    },
+    {
+      "id": "gudlaug-race",
+      "title": "Gudlaug and Beefy Boy",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260039056734294040",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260045492117704754",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260047164902477898",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260053063012712669",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260065328465973338",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260074276409573396",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260084167987826730",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260090717733257390",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095731969294346",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260096234568548432",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261164857823199252"
+        ]
+      }
+    },
+    {
+      "id": "gudlaug-town",
+      "title": "Gifts, smithing and a panther",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261167714525773824",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261168402513526825",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261169998966030388",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261170174367633508",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261170814611624038",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261183190467346464",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261190394247516160",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261207381367459871",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261207826198695997",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261208765412409354",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261211551315136522",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261211942119411742",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261213896069349436"
+        ]
+      }
+    },
+    {
+      "id": "gudlaug-peaks",
+      "title": "Strength in the Azarian Peaks",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261476078300692540",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261479503989968917",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261487461608067164",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261488432962732092",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261501340899610726",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261505555088801833",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261527318439133215"
+        ]
+      }
+    },
+    {
+      "id": "gudlaug-corruption",
+      "title": "The voice that offers him more",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264025306553913496",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264029663156633675",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264071297928007690",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264072613383114775",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264370101713633330",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264392467931730042",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264393558874525780",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264397427511922708",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264401222799069184",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402607854714931",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402652855537726",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402830312210535",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264403318889906217",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264404267100409907"
+        ]
+      }
+    },
+    {
+      "id": "gudlaug-tricks",
+      "title": "Tricks and the cracks in the performance",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265827174762418186",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265835173031841913",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265838175998447687",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265843272761479181",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265862402105151581",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866054647939124",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866842245955705",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265867967137316937",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265870772749078622",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265872417943977985",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265888681491697704",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265891568703770675"
+        ]
+      }
+    },
+    {
+      "id": "gudlaug-coast",
+      "title": "Your queen, your man",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199706439619453028/1266486315474747503",
+          "https://discord.com/channels/1177270231513694249/1199706439619453028/1266487261638299740",
+          "https://discord.com/channels/1177270231513694249/1199706439619453028/1266488753258496222",
+          "https://discord.com/channels/1177270231513694249/1199706439619453028/1266489660088123608",
+          "https://discord.com/channels/1177270231513694249/1199706439619453028/1266490963463770155"
+        ]
+      }
+    }
+  ],
+  "biography": {
+    "chapters": [
+      {
+        "id": "gudlaug-name-and-ambition",
+        "title": "The reputation he sets out to build",
+        "sections": [
+          "gudlaug-persona"
+        ]
+      },
+      {
+        "id": "gudlaug-race-and-rivals",
+        "title": "The race, the bear and a worthy rival",
+        "sections": [
+          "gudlaug-race"
+        ]
+      },
+      {
+        "id": "gudlaug-work-and-peaks",
+        "title": "Useful work beneath the boasting",
+        "sections": [
+          "gudlaug-town",
+          "gudlaug-peaks"
+        ]
+      },
+      {
+        "id": "gudlaug-cave-and-companions",
+        "title": "Corruption and the apologies afterward",
+        "sections": [
+          "gudlaug-corruption"
+        ]
+      },
+      {
+        "id": "gudlaug-tricks-and-later-record",
+        "title": "Tricks and what the boasting cannot settle",
+        "sections": [
+          "gudlaug-tricks",
+          "gudlaug-coast"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "brief": {
+    "identity": "Greatsword fighter · Pristinian race champion",
+    "significance": "Gudlaug wants his name in every mouth and treats help as tribute until affection or danger interrupts the performance. He wins a public race through skill and dirty tricks, fights beside the early adventurers and finds his grand claims harder to maintain around the people he cares for.",
+    "actions": [],
+    "status": "Leaves the cave expedition; later speaks with Tricks on the coast",
+    "relationships": [],
+    "basis": "Selected original quests and compatible public RP. Claims, plans, conditions and gaps retain their stated limits."
+  },
+  "image": "assets/characters/gudlaug.jpeg",
+  "imageAlt": "Gudlaug in dark armor carrying a sword in a snowy landscape",
+  "imageCaption": "Gudlaug",
+  "imageLayout": "portrait-hero",
+  "readingLayout": "biography"
+}

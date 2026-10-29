@@ -1,0 +1,451 @@
+{
+  "id": "leo",
+  "title": "Leo",
+  "category": "People",
+  "type": "Shadar-kai sorcerer · student of elemental magic",
+  "dek": "Leo Haze arrives with books and questions, fights with lightning and fire, and keeps trying to learn more than his companions think safe. His history includes kindness, anger, Alavara’s sacrifice, the defense of Pristinia and the later confrontation with his contaminated undead form.",
+  "tags": [
+    "Leo",
+    "Player character",
+    "Prima",
+    "Leo Haze"
+  ],
+  "facts": {
+    "Full name": "Leo Haze",
+    "Identity": "Shadar-kai sorcerer; studies the elements and other realms",
+    "Companions": "Vaemyr, Olokun, Scribonia, Arjahn and the early quest company",
+    "Habit": "Keeps a book of observations; frequently shares sandwiches",
+    "Later record": "Killed during the siege; later confronted as a contaminated undead figure",
+    "Unresolved": "No restoration to living life established in the reviewed record"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1254197910795714560",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1254203866115870763",
+    "https://discord.com/channels/1177270231513694249/1199085090723074068/1255314501906206790",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254504752004202548",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254507730434261138",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257098119951417364",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254516231466258625",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254521344083624007",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254522092641189889",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254527076669853759",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254538249133752371",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254559128542777465",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254570785390203001",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254575753350086696",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254580026251149383",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254580245529497642",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254581693671669882",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256031863646982178",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256035672251433011",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256037912102047876",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039040361300068",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039147613851770",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039431899451506",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256056569372741743",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256076275148132393",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256417384496103486",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256419210448339017",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256420526633648229",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256421185470730311",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256424395896000593",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256425163004837948",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256491832850911283",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256496039658127390",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256500699563561052",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256500797793894510",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257101359057211413",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257101961233432709",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257102352654008320",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257109040543170682",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257121706418503723",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257122072170074228",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257122523200356372",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124182987112479",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124340990738534",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257125808796078212",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257128480706003055",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257130297154207774",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257130835908493322",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257131942072160316",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257132422869549147",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133696184746016",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133944412049499",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257134749055582270",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257135359721213994",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261477417365798935",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261477605241000059",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261479150594818150",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261479977468297239",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261491767283290142",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261501015476408370",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261501357811044394",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261501726125592678",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261526459995127819",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261527186691723347",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1261528109962756106",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264011955732090930",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264013335859429428",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264022928404643954",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264072235241705616",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264072576511246369",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264371768995348541",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264392467931730042",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264397427511922708",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264400833261600860",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402110611591199",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402493559934996",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264403900920762429",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264407238747885570",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264404267100409907",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866948265377844",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265867355523649546",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265871838496428194",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265874013041987628",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265875615727353948",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265877230618148884",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265879141195055114",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265880536539205652",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265881506958671895",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265882046190845993",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265887424521834548",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266926763670503514",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266926884382572557",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266928424677543946",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266936317946888194",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266941883893026951",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266968057864130612",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266984715009654805",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266987724016193608",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266990827532714056",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1267003698089824346",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1267003884459786243",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279267141941592154",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279267890914136105",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279274941920837655",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279280321271038056",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279283417535741964",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279291519601344562",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279291715576139828",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279294060481482784",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279296955658403902",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279298330425561131",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279300546414776402",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1279302444844585083"
+  ],
+  "body": "<p>Leo Haze arrives with books and questions, fights with lightning and fire, and keeps trying to learn more than his companions think safe. His history includes kindness, anger, Alavara’s sacrifice, the defense of Pristinia and the later confrontation with his contaminated undead form.</p><h2 id=\"leo-arrival\">A door into another world</h2><p>Leo tells <a href=\"#eugene\">Eugene</a> that he was reading on his way to his studies when opening a door brought him here. He introduces himself as Leo Haze, a sorcerer interested in the elements and the planes. Later conversation identifies him as a shadar-kai. Travel between realms is familiar enough for him to ask questions about the local gods rather than simply accept every explanation.</p><p>He is often quiet in company, sitting with coffee, sandwiches and an open book. His reserve does not last when he thinks something is wrong. He can offer food or reassurance, glare at another mage’s judgment and threaten someone in the same expedition. Learning matters to him, but it does not reliably make him cautious.</p><h2 id=\"leo-quarry\">The quarry and the cost of reaching further</h2><p>At the quarry, Leo lights a lantern with a spark and uses a small flame to look for airflow through the passages. He looks for tracks, suggests temporary supports and follows the company toward the danger. The expedition also exposes the cost of his more dangerous magic: his tattoo becomes visible, his power flares and he eventually collapses, bleeding from his ears.</p><p>He wakes with help, thanks the dragonborn beside him and later apologizes before the tree for using that magic. He promises restraint, then qualifies it with need. The episode establishes injury, assistance and a promise; it does not establish that he has mastered the danger or will never use the power again.</p><h2 id=\"leo-dungeon\">A father’s voice on the throne</h2><p>In the sector dungeon, Leo follows whispers, illuminates corridors and keeps investigating when the others stop. The throne room reaches him through an image of his father ordering him to abandon his own pursuits and honor the family’s expectations. He sits on the throne marked Love.</p><p>The narrator explicitly imposes a curse that drains affection and warmth. Leo’s flatness afterward belongs to that condition, not a discovery that he never cared for anyone. He continues moving, taking risks and examining monsters, but even in the cursed camp he leaves sandwiches enough for the company. The scene supplies an image used against him; it does not independently establish that his father was present or had issued a divine command.</p><h2 id=\"leo-lich\">What the book does not settle</h2><p>Before the lich expedition, Leo opens his book and warns that destroying a body may not end a lich. He asks for stronger help, then agrees to do what he can. He also follows <a href=\"#wren\">Wren</a> outside and awkwardly asks whether she is all right. His scholarship and uncertainty about people are visible together.</p><p>During the fighting, he continues casting, including fiery orbs against the final enemy. Afterward, <a href=\"#vaemyr\">Vaemyr</a> credits teamwork and Leo when Olokun asks how they survived. Leo’s own response is that the lich differed from what he expected and his book needs updating. The company’s survival is shared; the encounter leaves him with revisions to make rather than infallible knowledge.</p><h2 id=\"leo-alavara\">Sandwiches and the fourth blade</h2><p>When the company is told that Vasatzi Alavara must die to avert catastrophe in Rehevä, Leo questions the messenger’s authority and asks why these particular adventurers have been chosen. He searches for another answer, even wondering aloud whether destroying the prophetic book might change what it foretells.</p><p>Finding Alavara frightened and hungry, he gives her a sandwich and promises to try to help. He asks about her family and glares at <a href=\"#scribonia\">Scribonia</a> for pressing her without compassion. When she reluctantly accepts the sacrifice, Leo leaves more food beside her and goes outside to pray for an alternative. The narrator records no answer to that plea.</p><p>He returns to find the others have begun. Vaemyr urges him not to hesitate; Leo apologizes and makes the fourth strike himself, crying as he does it. After the eruption of light and the company’s return, he wants to keep what remains as a reminder of Alavara. His resistance, kindness and grief remain part of the record, alongside his participation in killing her.</p><h2 id=\"leo-peaks\">The expedition into the Azarian Peaks</h2><p>The later <a href=\"#azarian-peaks-expedition\">Azarian Peaks expedition</a> offers another way to approach Alavara’s story. Leo insists on speaking rather than killing again and promises to keep her alive. His confidence is a commitment he makes under pressure, not a guarantee of what the party will achieve.</p><p>In the mountains, he lends magic to the fighters, finds one of the objects Liora seeks and carries it carefully. He promises Scribonia that he intends to repair what happened. He also argues over another artifact and threatens a companion when trust breaks down. The expedition reaches a blizzard with the task still in progress; the reviewed story does not establish the bloodless resolution he promised.</p><h2 id=\"leo-corruption\">Buying time in the corruption cave</h2><p>Leo’s support for his companions is practical and impatient. On the worm hunt, he keeps rain off the travelers, notices Tricks’s unease and later holds enemies back while pulling her toward escape. Inside the corruption cave, the narrator establishes a growing influence that turns companions against each other. Gudlaug brings Vaemyr down while Leo struggles to understand the queens’ demands.</p><p>Leo challenges the offer of power by arguing that centralized power becomes control. He asks questions to gain time, gives Vaemyr a potion and urges the company to withdraw. His account of having saved them draws an argument rather than unanimous thanks. The narrator’s ending confirms an exhausted, demoralizing departure.</p><h2 id=\"leo-pale-bargain\">A crystal he thinks he can control</h2><p>In the later meeting with the Pale Man, Leo says he will reject any power that harms or controls him. He still wants a dependable supply of Delerium and asks about elemental crystals and the beings connected with them. He eventually accepts a crystal and leaves with new information to write down.</p><p>These exchanges preserve both his warning and his appetite for knowledge. They do not make him immune to contamination, and the narrator’s finding that the offered power will amplify his magic is not a promise that it is safe.</p><h2 id=\"leo-wall\">The defense of Pristinia</h2><p>Before the attack on Pristinia, Leo offers to support the walls and deal with siege equipment. He reassures Vaemyr and Tricks, then casts a storm against the battering ram and its escort. The enemy’s real strategy includes slipping the Haze into town while the defenders contend with the assault.</p><p>The narrator establishes Leo’s death: a Delerium barb strikes his chest and his heart stops. His final prayer asks Cala to protect his friends and help them win. The surviving company eventually overcomes the attackers, but the gate is down and the Haze has entered Pristinia. Leo’s death is part of that costly defense, not evidence that the battle prevented every consequence.</p><h2 id=\"leo-haze\">The later contaminated figure</h2><p>In the Month of Moirah, Year 1, a later expedition encounters Leo as a contaminated undead opponent. The scene labels his appearances with the Haze; he wields a purple crystal, uses a storm against the group and threatens to add their corpses to his collection. This return is hostile and does not restore the living scholar who died at the wall.</p><p>Dorian argues for carrying him out. The narrator identifies the body he binds as a contaminated corpse. Krone’s hammer and Dorian’s intervention end in a fatal scene that the narrator explicitly says costs two characters. Arjahn gives his friend a farewell and later carefully gathers the enchanted belongings and crystal.</p><p>The reviewed sequence establishes Leo’s death, his subsequent undead appearance and its destruction. It supplies no later restoration to living life.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "leo-arrival",
+      "title": "A door into another world",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1254197910795714560",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1254203866115870763",
+          "https://discord.com/channels/1177270231513694249/1199085090723074068/1255314501906206790",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254504752004202548",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254507730434261138",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257098119951417364"
+        ]
+      }
+    },
+    {
+      "id": "leo-quarry",
+      "title": "The quarry and the cost of reaching further",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254516231466258625",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254521344083624007",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254522092641189889",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254527076669853759",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254538249133752371",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254559128542777465",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254570785390203001",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254575753350086696",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254580026251149383",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254580245529497642",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254581693671669882"
+        ]
+      }
+    },
+    {
+      "id": "leo-dungeon",
+      "title": "A father’s voice on the throne",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256031863646982178",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256035672251433011",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256037912102047876",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039040361300068",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039147613851770",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039431899451506",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256056569372741743",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256076275148132393"
+        ]
+      }
+    },
+    {
+      "id": "leo-lich",
+      "title": "What the book does not settle",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256417384496103486",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256419210448339017",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256420526633648229",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256421185470730311",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256424395896000593",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256425163004837948",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256491832850911283",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256496039658127390",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256500699563561052",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256500797793894510"
+        ]
+      }
+    },
+    {
+      "id": "leo-alavara",
+      "title": "Sandwiches and the fourth blade",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257101359057211413",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257101961233432709",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257102352654008320",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257109040543170682",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257121706418503723",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257122072170074228",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257122523200356372",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124182987112479",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124340990738534",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257125808796078212",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257128480706003055",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257130297154207774",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257130835908493322",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257131942072160316",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257132422869549147",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133696184746016",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133944412049499",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257134749055582270",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257135359721213994"
+        ]
+      }
+    },
+    {
+      "id": "leo-peaks",
+      "title": "The expedition into the Azarian Peaks",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261477417365798935",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261477605241000059",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261479150594818150",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261479977468297239",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261491767283290142",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261501015476408370",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261501357811044394",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261501726125592678",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261526459995127819",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261527186691723347",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1261528109962756106"
+        ]
+      }
+    },
+    {
+      "id": "leo-corruption",
+      "title": "Buying time in the corruption cave",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264011955732090930",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264013335859429428",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264022928404643954",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264072235241705616",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264072576511246369",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264371768995348541",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264392467931730042",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264397427511922708",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264400833261600860",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402110611591199",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402493559934996",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264403900920762429",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264407238747885570",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264404267100409907"
+        ]
+      }
+    },
+    {
+      "id": "leo-pale-bargain",
+      "title": "A crystal he thinks he can control",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866948265377844",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265867355523649546",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265871838496428194",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265874013041987628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265875615727353948",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265877230618148884",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265879141195055114",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265880536539205652",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265881506958671895",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265882046190845993",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265887424521834548"
+        ]
+      }
+    },
+    {
+      "id": "leo-wall",
+      "title": "The defense of Pristinia",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266926763670503514",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266926884382572557",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266928424677543946",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266936317946888194",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266941883893026951",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266968057864130612",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266984715009654805",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266987724016193608",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266990827532714056",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267003698089824346",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267003884459786243"
+        ]
+      }
+    },
+    {
+      "id": "leo-haze",
+      "title": "The later contaminated figure",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279267141941592154",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279267890914136105",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279274941920837655",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279280321271038056",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279283417535741964",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279291519601344562",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279291715576139828",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279294060481482784",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279296955658403902",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279298330425561131",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279300546414776402",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1279302444844585083"
+        ]
+      }
+    }
+  ],
+  "biography": {
+    "chapters": [
+      {
+        "id": "leo-books-and-arrival",
+        "title": "Books, the Gate and the first dangerous lessons",
+        "sections": [
+          "leo-arrival",
+          "leo-quarry"
+        ]
+      },
+      {
+        "id": "leo-dungeons-and-company",
+        "title": "The dungeon, the curse and the company",
+        "sections": [
+          "leo-dungeon",
+          "leo-lich"
+        ]
+      },
+      {
+        "id": "leo-alavara-and-grief",
+        "title": "Alavara and the sacrifice he tried to prevent",
+        "sections": [
+          "leo-alavara"
+        ]
+      },
+      {
+        "id": "leo-peaks-and-promises",
+        "title": "The attempt to put things right",
+        "sections": [
+          "leo-peaks"
+        ]
+      },
+      {
+        "id": "leo-power-and-limits",
+        "title": "Power, rescue and the bargains he makes",
+        "sections": [
+          "leo-corruption",
+          "leo-pale-bargain"
+        ]
+      },
+      {
+        "id": "leo-last-defense",
+        "title": "Death at the wall and the Haze afterward",
+        "sections": [
+          "leo-wall",
+          "leo-haze"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "brief": {
+    "identity": "Shadar-kai sorcerer · student of elemental magic",
+    "significance": "Leo Haze arrives with books and questions, fights with lightning and fire, and keeps trying to learn more than his companions think safe. His history includes kindness, anger, Alavara’s sacrifice, the defense of Pristinia and the later confrontation with his contaminated undead form.",
+    "actions": [],
+    "status": "Killed during the siege; later confronted as a contaminated undead figure",
+    "relationships": [],
+    "basis": "Selected original quests and compatible public RP. Claims, plans, conditions and gaps retain their stated limits."
+  },
+  "image": "assets/characters/leo.jpg",
+  "imageAlt": "Leo with silver hair and blue eyes, reading an open book amid blue lightning",
+  "imageCaption": "Leo",
+  "imageLayout": "portrait-hero",
+  "aliases": [
+    "Leo Haze"
+  ],
+  "readingLayout": "biography"
+}

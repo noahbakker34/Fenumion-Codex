@@ -1,0 +1,417 @@
+{
+  "id": "empty",
+  "title": "Empty",
+  "category": "People",
+  "type": "Undead brawler · early Pristinian adventurer",
+  "dek": "Empty comes through the Gate already undead, calls his body a meat suit and would usually rather have coffee than another warning. His reckless expeditions, lost memories and repeated search for a final rest sit beside moments when he tries to keep other people alive.",
+  "tags": [
+    "Empty",
+    "Player character",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Undead, predominantly unarmed adventurer",
+    "Body": "Needs maintenance; its limits are not universal immunity",
+    "Recurring wants": "Strong coffee, his missing memories and a final rest",
+    "Companions": "Olokun, Vaemyr, Wren, Arjahn and the early company",
+    "Later record": "Still present in Year 2, asking about history and recruiting for the Shadow Roads",
+    "Unresolved": "Original identity and the full course of returning memories remain incomplete"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214406780344602654",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214407569267757076",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214412353785958430",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214422013779902474",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214429304012939306",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214447579761483786",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214458180223111208",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253847791906852875",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253849056112017502",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253851011383164979",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253858641166073876",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869787067711593",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256030677523107911",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256031152582692945",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256036789903163414",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254563281276768390",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254578446965936188",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1254583553854017539",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256037984172511324",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038392785801228",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039122867458101",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256075387893452951",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256081272074145832",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082104274653194",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082952912244816",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256084270246531092",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1258945907626610720",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1258991410611490837",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1258992600145465375",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1258993719806394520",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1258994694151606313",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264053700205481994",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264066600470974665",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264073773242646588",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264371768995348541",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264392467931730042",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264391593025208487",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264394618351386786",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402652855537726",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264403066535280724",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264404668226863166",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264405232100708447",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264407781805654252",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866521654333582",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866970465833011",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265868018253041727",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265874948824764538",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265876913767972972",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265877343331684373",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265877750787604544",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265878939109425192",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265880133042962456",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265880791012085852",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265881265635197140",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1265881507067723786",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266928783634600069",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266931988481314930",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266932552422260867",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266980335347044427",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266980610753167501",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1266984715009654805",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1267004097702400011",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1267004277847625809",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1267004597608779829",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1267004943953432606",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1267005580111773736",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1274874780516093982",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1274875155331420191",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1274891802511540294",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1274896684484133000",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1274899664499376129",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1275586071505272903",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1275586818787770388",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1275594231293153340",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281794958340264038",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281801898718007431",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281813196721881160",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281824037672194099",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281855664209006734",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281855970171162676",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281857680071327815",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281858140631207946",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1364373244496445520",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1364380146357768273",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1364392984069537853",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1364393562283970730",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1364394337181499494",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365199729931321396",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365204251168473178",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365205420980961320",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365193348083880048",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365197284098179133",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365210850188726363",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365210964181651456",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365212591269347390",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365215135114727455",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365216334811631616",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1365216779684544574"
+  ],
+  "body": "<p>Empty comes through the Gate already undead, calls his body a meat suit and would usually rather have coffee than another warning. His reckless expeditions, lost memories and repeated search for a final rest sit beside moments when he tries to keep other people alive.</p><h2 id=\"empty-gate\">The dead punching the dead</h2><p>Among the early Chosen, Empty shows his undead nature and asks what the gods want done. His offer is blunt: give him a target to hit. He takes a boxer’s stance against the attackers, complains that they will not stay down and declines the weapons afterward because he does not usually use them.</p><p>He does not describe his condition as a fortunate escape from mortality. The wish for a true death recurs through his adventures, alongside comic complaints about the body he has to maintain. These are his expressed feelings and choices; the archive does not supply a complete account of his first death or former life.</p><h2 id=\"empty-dungeon\">Coffee, coffins and going first</h2><p>In the dungeon, Empty lies face down like a corpse, asks for coffee and then greets Vaemyr by shambling toward him demanding brains. He opens coffins, tries lying in one, challenges unfamiliar creatures and keeps urging the others onward. A changed face and wall-climbing let him take routes the rest cannot use.</p><p>He also puts out torches that others want for light. His own darkvision or ability to go without breath does not remove their needs. At the quarry he comes close to losing the body, receives a potion and begins wrapping its damage with bandages. The joke of the disposable meat suit remains beside actual dependence on help.</p><h2 id=\"empty-throne\">The curse and the flooded passage</h2><p>A throne-room vision offers Empty the recognition of cheering champions. He sits on Life; the narrator imposes a curse that leaves him emotionally hollow. His ensuing flatness has that specific magical cause and should not replace the feelings visible elsewhere.</p><p>During the camp, he slips away into a flooded passage and is found unresponsive. Vaemyr drags him back, and Alyhotep helps despite Vaemyr’s own curse-driven objection. Empty gets up proposing that everyone investigate the riddle he has found. Later in the dungeon he strikes against the central object and fights through the final encounters before the company returns to a mayor who thought them dead. Survival and a reward do not bring him the final rest he keeps seeking.</p><h2 id=\"empty-corruption\">Turning on the people who keep him</h2><p>The worm hunt brings Empty into another enclosed danger with <a href=\"#arjahn\">Arjahn</a>, <a href=\"#leo\">Leo</a> and the others. He can move through shadows and does not share their need for air, but the party still has to escape together. When carried out like a sack of potatoes, he allows it.</p><p>In the corruption cave, the narrator establishes increasing mistrust and forced attacks against companions. Empty accepts the queen’s offer and strikes at Olokun. After the narrator restores their ordinary selves, he acknowledges what he did and collapses into shame, saying he deserves the suffering. Vaemyr helps him up and takes him onward. The attack, the corrupting condition and the care afterward all remain part of the account.</p><h2 id=\"empty-pale-bargain\">Memories or a final rest</h2><p>Meeting the Pale Man, Empty asks for the memories of his former life or a final rest. When Tricks and Gudlaug prepare to face danger, he steps between them and offers to take it instead: they want the lives they have, and he does not want them to pay for his search.</p><p>His suspicion is explicit. The last strange offer he accepted ended with him beating his companions. He proposes leaving the choice to a coin, then says he will accept if the others can walk free. He finally extends his hand and accepts. The narrator establishes that the offer to help him know himself is genuine, while leaving its delivery to the object and what follows.</p><p>He touches the stone, demands his memories and is disappointed when nothing changes immediately. The scene does not give him an instant, complete recovered life story.</p><h2 id=\"empty-wall\">The battle and the crystals left behind</h2><p>Before the assault on Pristinia, Empty urges the company to use the scattered crystals as gifts from the Pale Man. The others object; he says he will leave them. In the battle, he uses the shadows against the enemy and helps fell a hostile shadow, but the Haze still reaches town and the gate falls.</p><p>Afterward he goes to gather crystals as contamination damages his body. The narrator corrects that attempt: the crystals have already been taken or consumed to fuel the mages’ spells. His wish to collect them is not a completed new haul. He returns rattling his chains and arguing with the voice in his pocket.</p><h2 id=\"empty-rahu\">A guard who also wants a bath</h2><p>On the Rahu visit, Empty remains conspicuous, ill at ease with ceremonies and preoccupied with maintaining his body. He bows after prompting, considers serving as a guard and visibly struggles between protecting a leader and going to the bathhouse. He orders the strongest coffee available because ordinary drinks barely register to him.</p><p>His comments about the Rahu and their servants are cautious in one sense and dismissive in another: he does not want the company trapped by interfering in another people’s affairs. That judgment stays his.</p><h2 id=\"empty-fire\">Waiting for the others at Eovar</h2><p>At the burning harbor, Empty first complains about the settlement’s lack of horses, guards and organization. He then has to wait for companions who can deal with the fire. In the cavern beyond it, his narration marks a change: he asks whether to run ahead instead of simply doing it, attributing that change to memories returning.</p><p>He argues for concentrating attacks, becomes angry at the enemy fighting from a distance and brutally finishes fallen creatures. He says this is for what they did to the people in town. He also asks someone to get the fallen satyr up and stays to help put out the fires. A developing concern for others does not remove his impatience or violence.</p><h2 id=\"empty-later-memory\">What he later remembers saying</h2><p>By Year 2, Empty is asking questions about Prima’s earlier settlers and the history he has read in the library. Some recollections are visibly uncertain. He says he thinks he refused the Pale Man’s offer; the earlier quest explicitly records his acceptance. That later claim cannot replace the scene.</p><p>He also tells a new acquaintance that he cannot be contaminated and calls himself blessed. The Year 1 quests already record contamination and bodily damage. His confidence is a claim about himself, not evidence that all those effects have been undone.</p><h2 id=\"empty-later-road\">Another invitation to the Shadow Roads</h2><p>In the later wall conversation, he is still present, still maintaining the body and still looking for people to take a road with him. He says he needs to gather companions for the Shadow Roads and asks whether his listener or their teacher will come.</p><p>The invitation establishes a plan and his continued appearance. It does not establish that this later expedition departed or reached its destination. His original identity and the extent of his recovered memories remain open.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "empty-gate",
+      "title": "The dead punching the dead",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214406780344602654",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214407569267757076",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214412353785958430",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214422013779902474",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214429304012939306",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214447579761483786",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214458180223111208"
+        ]
+      }
+    },
+    {
+      "id": "empty-dungeon",
+      "title": "Coffee, coffins and going first",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253847791906852875",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253849056112017502",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253851011383164979",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253858641166073876",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869787067711593",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256030677523107911",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256031152582692945",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256036789903163414",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254563281276768390",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254578446965936188",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1254583553854017539"
+        ]
+      }
+    },
+    {
+      "id": "empty-throne",
+      "title": "The curse and the flooded passage",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256037984172511324",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038392785801228",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039122867458101",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256075387893452951",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256081272074145832",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082104274653194",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082952912244816",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256084270246531092",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1258945907626610720",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1258991410611490837",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1258992600145465375",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1258993719806394520",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1258994694151606313"
+        ]
+      }
+    },
+    {
+      "id": "empty-corruption",
+      "title": "Turning on the people who keep him",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264053700205481994",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264066600470974665",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264073773242646588",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264371768995348541",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264392467931730042",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264391593025208487",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264394618351386786",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402652855537726",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264403066535280724",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264404668226863166",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264405232100708447",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1264407781805654252"
+        ]
+      }
+    },
+    {
+      "id": "empty-pale-bargain",
+      "title": "Memories or a final rest",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866521654333582",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265866970465833011",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265868018253041727",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265874948824764538",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265876913767972972",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265877343331684373",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265877750787604544",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265878939109425192",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265880133042962456",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265880791012085852",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265881265635197140",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1265881507067723786"
+        ]
+      }
+    },
+    {
+      "id": "empty-wall",
+      "title": "The battle and the crystals left behind",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266928783634600069",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266931988481314930",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266932552422260867",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266980335347044427",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266980610753167501",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266984715009654805",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267004097702400011",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267004277847625809",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267004597608779829",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267004943953432606",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267005580111773736"
+        ]
+      }
+    },
+    {
+      "id": "empty-rahu",
+      "title": "A guard who also wants a bath",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1274874780516093982",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1274875155331420191",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1274891802511540294",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1274896684484133000",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1274899664499376129",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1275586071505272903",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1275586818787770388",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1275594231293153340"
+        ]
+      }
+    },
+    {
+      "id": "empty-fire",
+      "title": "Waiting for the others at Eovar",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281794958340264038",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281801898718007431",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281813196721881160",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281824037672194099",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281855664209006734",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281855970171162676",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281857680071327815",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281858140631207946"
+        ]
+      }
+    },
+    {
+      "id": "empty-later-memory",
+      "title": "What he later remembers saying",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "Later RP statements and uncertain recollections remain attributed. They do not overwrite the quest-established bargain or contamination.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1364373244496445520",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1364380146357768273",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1364392984069537853",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1364393562283970730",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1364394337181499494",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365199729931321396",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365204251168473178",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365205420980961320"
+        ]
+      }
+    },
+    {
+      "id": "empty-later-road",
+      "title": "Another invitation to the Shadow Roads",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365193348083880048",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365197284098179133",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365210850188726363",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365210964181651456",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365212591269347390",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365215135114727455",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365216334811631616",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1365216779684544574"
+        ]
+      }
+    }
+  ],
+  "biography": {
+    "chapters": [
+      {
+        "id": "empty-arrival-and-body",
+        "title": "An undead arrival and a difficult body",
+        "sections": [
+          "empty-gate"
+        ]
+      },
+      {
+        "id": "empty-dungeon-and-rescue",
+        "title": "The explorer who keeps needing rescue",
+        "sections": [
+          "empty-dungeon",
+          "empty-throne"
+        ]
+      },
+      {
+        "id": "empty-cave-and-shame",
+        "title": "Corruption and the people who help him leave",
+        "sections": [
+          "empty-corruption"
+        ]
+      },
+      {
+        "id": "empty-memories-and-crystals",
+        "title": "The bargain and the defense of Pristinia",
+        "sections": [
+          "empty-pale-bargain",
+          "empty-wall"
+        ]
+      },
+      {
+        "id": "empty-living-company",
+        "title": "Ceremony, coffee and the living company",
+        "sections": [
+          "empty-rahu",
+          "empty-fire"
+        ]
+      },
+      {
+        "id": "empty-later-history",
+        "title": "Returning memories and another road",
+        "sections": [
+          "empty-later-memory",
+          "empty-later-road"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "brief": {
+    "identity": "Undead brawler · early Pristinian adventurer",
+    "significance": "Empty comes through the Gate already undead, calls his body a meat suit and would usually rather have coffee than another warning. His reckless expeditions, lost memories and repeated search for a final rest sit beside moments when he tries to keep other people alive.",
+    "actions": [],
+    "status": "Still present in Year 2, asking about history and recruiting for the Shadow Roads",
+    "relationships": [],
+    "basis": "Selected original quests and compatible public RP. Claims, plans, conditions and gaps retain their stated limits."
+  },
+  "image": "assets/characters/empty.jpg",
+  "imageAlt": "Empty with spiked dark hair and black and red clothing against a dark red background",
+  "imageCaption": "Empty",
+  "imageLayout": "portrait-hero",
+  "readingLayout": "biography"
+}

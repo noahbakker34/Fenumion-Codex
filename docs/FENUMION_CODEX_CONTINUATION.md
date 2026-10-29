@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-28
+Last updated: 2026-10-29
+
+## Five missing player histories · 29 October 2026
+
+The owner approves Leo, Gudlaug, Empty, Alyhotep bin Baladin and Nerias while questioning the wider action list. Five already-listed players gain full personal pages: 5,482 words, thirty chapters and 45 evidence sections. Their original artwork/identities/roles survive; directory cards now open their histories, with six reciprocal links in Vaemyr/Azarian Peaks preserving all prior words and evidence. Quest outcomes govern recollection: Leo’s death/undead confrontation, Gudlaug’s race and compulsion, Empty’s accepted bargain, Alyhotep’s undead helper and unresolved restoration/petition, and Nerias’s machine/Squiddy endings retain their qualifications. No invented returns, godhood, cures or completed journeys. Details: FIVE_MISSING_PLAYER_HISTORIES_2026_10_28.md and content/reference/five-player-pages-review-2026-10-28.json.
+
+All 446 cited identities resolve across seven native corpora. Discovery across 32 overlapping caches is not exhaustive reading. Raw/controller/intimate/protected material remains external; all unrelated content/media, dates/importance/maps/quotes, 261 previews and the complete private payload remain exact. Catalog291 has 639 records/590 complete public bodies, 2,619 sections, 262 people/363 public events. Local static/calendar/source/preservation and focused full-body, directory, saved-chapter, fresh-mobile, player-role, link and search checks pass; screenshots are inspected. The existing hosted biography gate expands to 62 People profiles without a new stage/dependency. Publication receipt follows.
+
+Future priorities should follow reader impact and source consequences. All 35 currently major-rated events already have dedicated chronicles; lower-rated generic destinations and unresolved quest endings merit focused research. No new event, importance change or Dorian expansion is implemented by that observation.
 
 ## Vaemyr’s expanded history · 28 October 2026
 

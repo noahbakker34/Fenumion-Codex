@@ -13980,9 +13980,9 @@
     "characters": [
       {
         "title": "Alyhotep bin Baladin",
-        "meta": "Player character · quest-RP",
-        "article": "people-directory",
-        "summary": "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world. He joins the Tower’s petitions and leaves with the company after gathering his helpers.",
+        "meta": "Adventuring priest · healer and builder",
+        "article": "alyhotep-bin-baladin",
+        "summary": "Alyhotep carries healing on papyrus, scouts through his owl Wraps and turns repeated campaigns into work on walls, water and food. His faith in his pantheon, defense of his unusual helpers and life with Loistava remain beside the limits of what prayer and healing accomplish.",
         "image": "assets/archive/alyhotep-portrait.jpg",
         "aliases": [
           "Alyhotep",
@@ -14090,12 +14090,15 @@
       },
       {
         "title": "Leo",
-        "meta": "Player character · quest-RP",
-        "article": "people-directory",
-        "summary": "An explorer active in the sector dungeon, quarry mission, Rehevä crisis, and early Delerium investigations.",
+        "meta": "Shadar-kai sorcerer · student of elemental magic",
+        "article": "leo",
+        "summary": "Leo Haze arrives with books and questions, fights with lightning and fire, and keeps trying to learn more than his companions think safe. His history includes kindness, anger, Alavara’s sacrifice, the defense of Pristinia and the later confrontation with his contaminated undead form.",
         "image": "assets/characters/leo.jpg",
         "imageAlt": "Leo with silver hair and blue eyes, reading an open book amid blue lightning",
-        "imageCaption": "Leo"
+        "imageCaption": "Leo",
+        "aliases": [
+          "Leo Haze"
+        ]
       },
       {
         "title": "Cobble",
@@ -14125,12 +14128,13 @@
       },
       {
         "title": "Empty",
-        "meta": "Player character · quest-RP",
-        "article": "people-directory",
-        "summary": "A player-controlled explorer involved in the sector dungeon, Delerium sites, and Pristinia’s early contamination crisis.",
+        "meta": "Undead brawler · early Pristinian adventurer",
+        "article": "empty",
+        "summary": "Empty comes through the Gate already undead, calls his body a meat suit and would usually rather have coffee than another warning. His reckless expeditions, lost memories and repeated search for a final rest sit beside moments when he tries to keep other people alive.",
         "image": "assets/characters/empty.jpg",
         "imageAlt": "Empty with spiked dark hair and black and red clothing against a dark red background",
-        "imageCaption": "Empty"
+        "imageCaption": "Empty",
+        "aliases": []
       },
       {
         "title": "Elysian ‘Eli’ Voss",
@@ -14216,12 +14220,15 @@
       },
       {
         "title": "Nerias",
-        "meta": "Player character · quest-RP",
-        "article": "people-directory",
-        "summary": "An adventurer present from Pristinia’s first ritual-site defense through later investigations and journeys.",
+        "meta": "Satyr adventurer · defender and musician",
+        "article": "nerias",
+        "summary": "Nerias Kofa brings a rapier, shield, long leaps and a Yarting to the company. He calls himself a guardian of nature, offers protective magic and healing, and can be as impatient, startled or uncertain as the companions he wants to protect.",
         "image": "assets/characters/nerias.png",
         "imageAlt": "Nerias as a horned warrior carrying an ornate shield and sword",
-        "imageCaption": "Nerias"
+        "imageCaption": "Nerias",
+        "aliases": [
+          "Nerias Kofa"
+        ]
       },
       {
         "title": "Rory",
@@ -14297,12 +14304,13 @@
       },
       {
         "title": "Gudlaug",
-        "meta": "Player character · quest-RP",
-        "article": "people-directory",
-        "summary": "A field adventurer and public-race champion active in the 2024 quest record.",
+        "meta": "Greatsword fighter · Pristinian race champion",
+        "article": "gudlaug",
+        "summary": "Gudlaug wants his name in every mouth and treats help as tribute until affection or danger interrupts the performance. He wins a public race through skill and dirty tricks, fights beside the early adventurers and finds his grand claims harder to maintain around the people he cares for.",
         "image": "assets/characters/gudlaug.jpeg",
         "imageAlt": "Gudlaug in dark armor carrying a sword in a snowy landscape",
-        "imageCaption": "Gudlaug"
+        "imageCaption": "Gudlaug",
+        "aliases": []
       },
       {
         "title": "Alfred Riverheart",
@@ -19131,6 +19139,18 @@
             {
               "label": "Clive L. Dragoon",
               "article": "clive-dragoon"
+            },
+            {
+              "label": "Gudlaug",
+              "article": "gudlaug"
+            },
+            {
+              "label": "Empty",
+              "article": "empty"
+            },
+            {
+              "label": "Alyhotep bin Baladin",
+              "article": "alyhotep-bin-baladin"
             }
           ]
         },
@@ -19332,6 +19352,14 @@
             {
               "label": "Zeke, Radiant Dawn Sailor",
               "article": "discovery-281"
+            },
+            {
+              "label": "Leo",
+              "article": "leo"
+            },
+            {
+              "label": "Nerias",
+              "article": "nerias"
             }
           ]
         },
@@ -24684,6 +24712,46 @@
         "Timeline",
         "Event Chronicles",
         "An Appeal to the Gods at the Tower"
+      ]
+    ],
+    [
+      "leo",
+      [
+        "People of Fenumion",
+        "Characters K–Z",
+        "Leo"
+      ]
+    ],
+    [
+      "gudlaug",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "Gudlaug"
+      ]
+    ],
+    [
+      "empty",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "Empty"
+      ]
+    ],
+    [
+      "alyhotep-bin-baladin",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "Alyhotep bin Baladin"
+      ]
+    ],
+    [
+      "nerias",
+      [
+        "People of Fenumion",
+        "Characters K–Z",
+        "Nerias"
       ]
     ]
   ],
@@ -32904,9 +32972,9 @@
   "questPlayerAdditions": [
     {
       "title": "Alyhotep bin Baladin",
-      "meta": "Player character · quest-RP",
-      "article": "people-directory",
-      "summary": "A recurring adventurer, healer, and investigator present from Pristinia’s earliest defenses through expeditions across the wider world.",
+      "meta": "Adventuring priest · healer and builder",
+      "article": "alyhotep-bin-baladin",
+      "summary": "Alyhotep carries healing on papyrus, scouts through his owl Wraps and turns repeated campaigns into work on walls, water and food. His faith in his pantheon, defense of his unusual helpers and life with Loistava remain beside the limits of what prayer and healing accomplish.",
       "image": "assets/archive/alyhotep-portrait.jpg",
       "aliases": [
         "Alyhotep",
@@ -33013,9 +33081,9 @@
     },
     {
       "title": "Leo",
-      "meta": "Player character · quest-RP",
-      "article": "people-directory",
-      "summary": "An explorer active in the sector dungeon, quarry mission, Rehevä crisis, and early Delerium investigations.",
+      "meta": "Shadar-kai sorcerer · student of elemental magic",
+      "article": "leo",
+      "summary": "Leo Haze arrives with books and questions, fights with lightning and fire, and keeps trying to learn more than his companions think safe. His history includes kindness, anger, Alavara’s sacrifice, the defense of Pristinia and the later confrontation with his contaminated undead form.",
       "image": "assets/characters/leo.jpg",
       "imageAlt": "Leo with silver hair and blue eyes, reading an open book amid blue lightning",
       "imageCaption": "Leo"
@@ -33048,9 +33116,9 @@
     },
     {
       "title": "Empty",
-      "meta": "Player character · quest-RP",
-      "article": "people-directory",
-      "summary": "A player-controlled explorer involved in the sector dungeon, Delerium sites, and Pristinia’s early contamination crisis.",
+      "meta": "Undead brawler · early Pristinian adventurer",
+      "article": "empty",
+      "summary": "Empty comes through the Gate already undead, calls his body a meat suit and would usually rather have coffee than another warning. His reckless expeditions, lost memories and repeated search for a final rest sit beside moments when he tries to keep other people alive.",
       "image": "assets/characters/empty.jpg",
       "imageAlt": "Empty with spiked dark hair and black and red clothing against a dark red background",
       "imageCaption": "Empty"
@@ -33135,9 +33203,9 @@
     },
     {
       "title": "Nerias",
-      "meta": "Player character · quest-RP",
-      "article": "people-directory",
-      "summary": "An adventurer present from Pristinia’s first ritual-site defense through later investigations and journeys.",
+      "meta": "Satyr adventurer · defender and musician",
+      "article": "nerias",
+      "summary": "Nerias Kofa brings a rapier, shield, long leaps and a Yarting to the company. He calls himself a guardian of nature, offers protective magic and healing, and can be as impatient, startled or uncertain as the companions he wants to protect.",
       "image": "assets/characters/nerias.png",
       "imageAlt": "Nerias as a horned warrior carrying an ornate shield and sword",
       "imageCaption": "Nerias"
@@ -33210,9 +33278,9 @@
     },
     {
       "title": "Gudlaug",
-      "meta": "Player character · quest-RP",
-      "article": "people-directory",
-      "summary": "A field adventurer and public-race champion active in the 2024 quest record.",
+      "meta": "Greatsword fighter · Pristinian race champion",
+      "article": "gudlaug",
+      "summary": "Gudlaug wants his name in every mouth and treats help as tribute until affection or danger interrupts the performance. He wins a public race through skill and dirty tricks, fights beside the early adventurers and finds his grand claims harder to maintain around the people he cares for.",
       "image": "assets/characters/gudlaug.jpeg",
       "imageAlt": "Gudlaug in dark armor carrying a sword in a snowy landscape",
       "imageCaption": "Gudlaug"
@@ -51491,7 +51559,12 @@
     "arandiel",
     "tyragol",
     "mirwen-verdant-circle",
-    "petition-at-the-tower-of-gael"
+    "petition-at-the-tower-of-gael",
+    "leo",
+    "gudlaug",
+    "empty",
+    "alyhotep-bin-baladin",
+    "nerias"
   ],
   "timelineRegions": [
     {

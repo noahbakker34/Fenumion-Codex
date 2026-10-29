@@ -1,0 +1,389 @@
+{
+  "id": "alyhotep-bin-baladin",
+  "title": "Alyhotep bin Baladin",
+  "category": "People",
+  "type": "Adventuring priest · healer and builder",
+  "dek": "Alyhotep carries healing on papyrus, scouts through his owl Wraps and turns repeated campaigns into work on walls, water and food. His faith in his pantheon, defense of his unusual helpers and life with Loistava remain beside the limits of what prayer and healing accomplish.",
+  "tags": [
+    "Alyhotep bin Baladin",
+    "Player character",
+    "Prima",
+    "Alyhotep",
+    "Aly"
+  ],
+  "facts": {
+    "Role": "Player adventurer, priest, healer and builder",
+    "Familiar": "Wraps, an owl with a mummified appearance",
+    "Helpers": "Robed frog guardians; their treatment provokes an early dispute at Eovar",
+    "Close companion": "Loistava, later called his wife in his own narration",
+    "Work": "Pristinian defenses and waterworks; later Gael refugee support",
+    "Later record": "Joins the Tower’s petitions and leaves with the company in the Month of Death, Year 3"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1220083607461298208",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221237784543629352",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221252940707135590",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221613163863212165",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221638217728655390",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489467498310140005",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235742207693033473",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235744894945984614",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235745182587031603",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235745452461129740",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235745601925283850",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235746737646342245",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235747740663939113",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235748927891046410",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235749525948338207",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235749945198514251",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235750247687389247",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235753263396028476",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235750558107697315",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235754685466542131",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235772598491680821",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235772757753725021",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235773143583555584",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235773699211264020",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235774086307643476",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235774248631664651",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235774562629845024",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235775010312949813",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1237148987249786880",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253863267420344381",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038537321644076",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256040246609580032",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256081759477694476",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082952912244816",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256083194168741928",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256083514781204560",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256086498747486242",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1258941885989261486",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241277538249084928",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1241277963597778969",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1243600750437863454",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1244310341895061514",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1244337478345691166",
+    "https://discord.com/channels/1177270231513694249/1234261131137253407/1253208976955408465",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1244735824856223865",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1244739977930211439",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1274873628332261437",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1365772324627812435",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1365779255820025857",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1455704511028002928",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1455712678583599135",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1455735004314472480",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1460470406489182231",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1488387819473997835",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1533667162621743226",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1486538938717044889",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1486541628914274495",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1486544344432246835",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1486556945329426582",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1486564302822309958",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1486572500824358953",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1486590046382325862",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1489490744103272488",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1516618496761397368",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1516649235980750858",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1516659803726811247",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1516669754902052966",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1516675605255557190",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1516677097739784192",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546380820825120838",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546381664241065999",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546381952112787486",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546382230274838678",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1546382488291508254",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564768202226016369",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564768477741453414",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564784637857763453",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564787546561585264",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564789091059630284",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564790836011728969",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792237655724165",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794405687132242",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564795159546437696",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797776724758529",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564798162688942231"
+  ],
+  "body": "<p>Alyhotep carries healing on papyrus, scouts through his owl Wraps and turns repeated campaigns into work on walls, water and food. His faith in his pantheon, defense of his unusual helpers and life with Loistava remain beside the limits of what prayer and healing accomplish.</p><h2 id=\"alyhotep-arrival\">A priest with questions about Death</h2><p>At the Gate, Alyhotep says Osiris and Anubis have sent him to investigate the being claiming to be Death. He regards that claim as an affront to the work of guiding the dead. This is his religious understanding and stated mission; it is not an independent ruling about Death’s nature.</p><p>He joins the early expeditions with healing prepared on papyrus wraps. Wraps, his owl familiar, scouts ahead and carries prepared aid. A mummified appearance belongs to the familiar’s presentation; it should not be confused with every other creature in his retinue.</p><h2 id=\"alyhotep-eovar-gate\">The helper refused at Eovar</h2><p>At Eovar’s quarantine, Alyhotep accepts the need for an examination and asks what the inspectors are seeing. He explains that some of his rituals use necromancy to give the fallen another chance to serve and redeem themselves. The inspector identifies his frog helper as undead, and Alyhotep acknowledges it.</p><p>He argues that an immune helper would be useful and defends the practice as good service. The officials do not accept that defense as grounds to admit it. Alyhotep sends the helper away, then agrees to the restraint imposed on it. The narrator explicitly permits him to enter while requiring the undead summon to remain outside. His interpretation of redemption and the officials’ objection both survive the encounter.</p><h2 id=\"alyhotep-water-and-food\">Illness, water and the gruel available</h2><p>Inside Eovar, he considers disease, poison, contamination and deception instead of declaring a single cause at once. He blesses the dead, examines people and water and discusses an alchemical analysis. The narrator confirms disease in the water, at a higher concentration than in the individuals he has examined.</p><p>He wants warm food and drink for the guards. The tavern keeper explains that the sick, isolated town has almost nothing left; even the gruel is cold and poor. Alyhotep accepts it as better than nothing and proposes bringing food and clean water from Pristinia with his animals. Later he again orders gruel for the gate and considers how magic might supply necessities. These scenes establish concern, investigation and preparations, not a single-handed cure of the epidemic.</p><h2 id=\"alyhotep-dungeon\">Healing when feeling has been stripped away</h2><p>The early dungeon scenes place him among adventurers whose plans repeatedly go wrong. He keeps the frog guardians close, helps investigate ritual magic and continues offering healing. When Empty goes missing in the flooded passages, he helps search and treats him despite Vaemyr’s angry objection.</p><p>Alyhotep is himself under the throne-room curse that numbs emotion. His narration explicitly describes the healing as familiar actions performed without feeling. The useful act remains, but it does not prove that he was unaffected by the dungeon. Other moments show his own limits: after a hard defense he is tired, healing supplies run short and he names the last papyrus wrap as a final reserve.</p><h2 id=\"alyhotep-prima-work\">The walls and the waterworks</h2><p>Alyhotep’s Pristinian history is also a work record. He offers earth-moving help for the well or reservoir, reinforces its banks and trenches and uses his helpers for finishing work. Later appearances find him dirty and tired from reinforcing the reservoir and the walls.</p><p>He joins a call to Eovar while working on the roads with Olokun and later credits that companion’s contribution to the roads and reservoir. His finest clothing at the Rahu visit follows another day of construction. These details place the religious adventurer in the ordinary labor that keeps people supplied and defended, without making him the sole builder of the settlement.</p><h2 id=\"alyhotep-gael-relief\">Loistava and the refugee settlement</h2><p>In Gael, the same habits become refugee work. Alyhotep tells Loistava that he has been helping <a href=\"#wren\">Wren</a> and <a href=\"#arjahn\">Arjahn</a> design and fortify a small settlement. He describes circling the tent camp with walls and connects the work with the people they lost. Later scenes show food offered, refugees helped onto transport and repeated requests for tents and supplies.</p><p>Loistava works beside him, providing food while he and the robed helpers build. Their conversation makes room for meals, affection, practical arrangements and the thought that newcomers should see others doing the work. He later calls her his wife. The selected scenes establish the relationship and shared work, without supplying a wedding date.</p><p>He is not confined to the camp. His later adventures include scouting, protection and renewed journeys with her, while the settlement’s needs remain part of what he returns to.</p><h2 id=\"alyhotep-aging-land\">The villages where lives run short</h2><p>On the later voyages, Wraps watches above while Alyhotep helps with the ship, notes the shoreline for the return and looks for what is watching the travelers. The aging of villagers and the strange behavior of the land become questions he keeps pursuing. At times he suspects disrupted magic; that suspicion is not the established cause.</p><p>In the Month of Rebirth, Year 3, he sets out west after reviewing information with <a href=\"#ryvyt\">Ryvyt</a>, still grieving Tenzin’s early death and seeking an explanation for the shortened lives. When challenged over territory, he wants to negotiate, but will not promise away the safety of the people relying on him. He asks who the guardians serve and offers to gather evidence for an informed conversation.</p><p>The investigation and negotiations are real actions. The reviewed scenes do not establish that he solved the aging or restored every lost year.</p><h2 id=\"alyhotep-thorn-wish\">The attempt to bring Thorn back</h2><p>Asked whether he can bring Thorn back, Alyhotep says he believes he can and begins a wish for resurrection. That is an active attempt recorded in the quest. The selected exchange does not narrate its result, so it cannot by itself establish that he completed the restoration or determine everything that follows.</p><h2 id=\"alyhotep-tower-petitions\">The prayers that receive no answer yet</h2><p>At the later <a href=\"#petition-at-the-tower-of-gael\">Tower gathering</a>, Alyhotep comes from a meal with Lois, hears that divine intervention may be needed and joins the company. He listens to news of Babel and offers his understanding of the relation between arcane and divine magic as his own interpretation.</p><p>His prayers receive no immediate answer in the exchange. He says he will keep asking or offer his prayers to help others. When the company leaves, he notes that he has a recall set at the Tower, leaves a message for Lois and collects his helpers before following <a href=\"#elenia\">Elenia</a> through the gate.</p><p>This is his latest reviewed action in the Month of Death, Year 3. Joining the petition does not establish that a god granted it, and leaving through the gate does not supply the unplayed results of the next journey.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "alyhotep-arrival",
+      "title": "A priest with questions about Death",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1220083607461298208",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221237784543629352",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221252940707135590",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221613163863212165",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221638217728655390",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489467498310140005"
+        ]
+      }
+    },
+    {
+      "id": "alyhotep-eovar-gate",
+      "title": "The helper refused at Eovar",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235742207693033473",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235744894945984614",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235745182587031603",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235745452461129740",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235745601925283850",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235746737646342245",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235747740663939113",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235748927891046410",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235749525948338207",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235749945198514251",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235750247687389247",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235753263396028476"
+        ]
+      }
+    },
+    {
+      "id": "alyhotep-water-and-food",
+      "title": "Illness, water and the gruel available",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235750558107697315",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235754685466542131",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235772598491680821",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235772757753725021",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235773143583555584",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235773699211264020",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235774086307643476",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235774248631664651",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235774562629845024",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235775010312949813",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1237148987249786880"
+        ]
+      }
+    },
+    {
+      "id": "alyhotep-dungeon",
+      "title": "Healing when feeling has been stripped away",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253863267420344381",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038537321644076",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256040246609580032",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256081759477694476",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082952912244816",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256083194168741928",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256083514781204560",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256086498747486242",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1258941885989261486",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241277538249084928",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1241277963597778969"
+        ]
+      }
+    },
+    {
+      "id": "alyhotep-prima-work",
+      "title": "The walls and the waterworks",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1243600750437863454",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1244310341895061514",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1244337478345691166",
+          "https://discord.com/channels/1177270231513694249/1234261131137253407/1253208976955408465",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1244735824856223865",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1244739977930211439",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1274873628332261437"
+        ]
+      }
+    },
+    {
+      "id": "alyhotep-gael-relief",
+      "title": "Loistava and the refugee settlement",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1365772324627812435",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1365779255820025857",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1455704511028002928",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1455712678583599135",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1455735004314472480",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1460470406489182231",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1488387819473997835",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1533667162621743226",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1486538938717044889",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1486541628914274495"
+        ]
+      }
+    },
+    {
+      "id": "alyhotep-aging-land",
+      "title": "The villages where lives run short",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1486544344432246835",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1486556945329426582",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1486564302822309958",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1486572500824358953",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1486590046382325862",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1489490744103272488",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1516618496761397368",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1516649235980750858",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1516659803726811247",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1516669754902052966",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1516675605255557190",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1516677097739784192"
+        ]
+      }
+    },
+    {
+      "id": "alyhotep-thorn-wish",
+      "title": "The attempt to bring Thorn back",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546380820825120838",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546381664241065999",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546381952112787486",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546382230274838678",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1546382488291508254"
+        ]
+      }
+    },
+    {
+      "id": "alyhotep-tower-petitions",
+      "title": "The prayers that receive no answer yet",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Scenes & attributed accounts",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564768202226016369",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564768477741453414",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564784637857763453",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564787546561585264",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564789091059630284",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564790836011728969",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792237655724165",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794405687132242",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564795159546437696",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797776724758529",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564798162688942231"
+        ]
+      }
+    }
+  ],
+  "biography": {
+    "chapters": [
+      {
+        "id": "alyhotep-faith-and-arrival",
+        "title": "The Gate, his gods and the work he brings",
+        "sections": [
+          "alyhotep-arrival"
+        ]
+      },
+      {
+        "id": "alyhotep-eovar-and-limits",
+        "title": "Quarantine, disease and practical relief",
+        "sections": [
+          "alyhotep-eovar-gate",
+          "alyhotep-water-and-food"
+        ]
+      },
+      {
+        "id": "alyhotep-company-and-cost",
+        "title": "The company, the curses and the last healing wrap",
+        "sections": [
+          "alyhotep-dungeon"
+        ]
+      },
+      {
+        "id": "alyhotep-prima-and-building",
+        "title": "Work that continues between expeditions",
+        "sections": [
+          "alyhotep-prima-work"
+        ]
+      },
+      {
+        "id": "alyhotep-loistava-and-refugees",
+        "title": "A shared life and the refugee work",
+        "sections": [
+          "alyhotep-gael-relief"
+        ]
+      },
+      {
+        "id": "alyhotep-later-expeditions",
+        "title": "The later journeys and the questions they leave",
+        "sections": [
+          "alyhotep-aging-land"
+        ]
+      },
+      {
+        "id": "alyhotep-prayer-and-open-record",
+        "title": "Attempts, petitions and the present record",
+        "sections": [
+          "alyhotep-thorn-wish",
+          "alyhotep-tower-petitions"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "brief": {
+    "identity": "Adventuring priest · healer and builder",
+    "significance": "Alyhotep carries healing on papyrus, scouts through his owl Wraps and turns repeated campaigns into work on walls, water and food. His faith in his pantheon, defense of his unusual helpers and life with Loistava remain beside the limits of what prayer and healing accomplish.",
+    "actions": [],
+    "status": "Joins the Tower’s petitions and leaves with the company in the Month of Death, Year 3",
+    "relationships": [],
+    "basis": "Selected original quests and compatible public RP. Claims, plans, conditions and gaps retain their stated limits."
+  },
+  "image": "assets/archive/alyhotep-portrait.jpg",
+  "imageAlt": "Portrait of Alyhotep bin Baladin",
+  "imageCaption": "Alyhotep bin Baladin",
+  "imageLayout": "portrait-hero",
+  "aliases": [
+    "Alyhotep",
+    "Aly"
+  ],
+  "readingLayout": "biography"
+}

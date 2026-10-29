@@ -1,0 +1,395 @@
+{
+  "id": "nerias",
+  "title": "Nerias",
+  "category": "People",
+  "type": "Satyr adventurer · defender and musician",
+  "dek": "Nerias Kofa brings a rapier, shield, long leaps and a Yarting to the company. He calls himself a guardian of nature, offers protective magic and healing, and can be as impatient, startled or uncertain as the companions he wants to protect.",
+  "tags": [
+    "Nerias",
+    "Player character",
+    "Prima",
+    "Nerias Kofa"
+  ],
+  "facts": {
+    "Full name": "Nerias Kofa",
+    "Identity": "Satyr adventurer",
+    "Devotion": "Silvanus, whom he calls the Oak Father",
+    "Equipment and habits": "Rapier, shield, javelins and Yarting; frequent leaping",
+    "Companions": "Rolen, Draygar, Krone, Wren, Vaemyr and the expedition company",
+    "Later record": "Helps at the harvest and seeks instruction; his Gael journey is delayed"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221232193469153301",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221248773632688139",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221252142346797069",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221262910966464535",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221612857003606107",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221614395323322529",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221617381009526886",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221620902072942634",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285401633446039625",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281794737103306763",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281798799991242812",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281800646965723198",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281801844200439828",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281811817785593876",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281812208786866178",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281829141766864969",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281834170112544871",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281836062221668372",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281838838066450483",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281841317629919343",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281856880901099555",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1281858412405194802",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282123464068562955",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282128669015543818",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282151901831499786",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282152875086315550",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282156188351467563",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282156652329570304",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282159844773593210",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282160393497870409",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282163110203097181",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282163938485731440",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282164565580316727",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282164803770777652",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282168752770912349",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282178929217507389",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282176142639370273",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282176801359269900",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282178097294344233",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282178720928497788",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282178907872956470",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282179287222456344",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1283207542968684548",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1283207966056513538",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282402824298168400",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282403750685839422",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282404616159625377",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282406136976506920",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282407963570475098",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282408219091669065",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282418476106911887",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282428732958703618",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282441351727677573",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282446991221067799",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282449785906921526",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1282449128965541972",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285402249652080762",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285409548743606284",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285401178774962241",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285404783917666335",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285412379483574304",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285422703146172477",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285426956904693886",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285428828264726590",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285429146872446978",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285431277125767220",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285451564705648721",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285462700054417420",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285464291587391522",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1285464609737932820",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286823319928049724",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286824922311823382",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286828511830741063",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286829756897038439",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286832165136498768",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286834045149253703",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286836476792930425",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286838294986100737",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286841546825797716",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286843596133371938",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286847549419814975",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286892157176643637",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291202936356995213",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291204451520086088",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291204806236442645",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291206329628627025",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291207761832574998",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291209022187241599",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291211259223736320",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291212459943657563",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291214089129037855"
+  ],
+  "body": "<p>Nerias Kofa brings a rapier, shield, long leaps and a Yarting to the company. He calls himself a guardian of nature, offers protective magic and healing, and can be as impatient, startled or uncertain as the companions he wants to protect.</p><h2 id=\"nerias-first-company\">The first defenses and Rolen’s company</h2><p>In the early ritual-site expedition, Nerias watches the front, offers to interpret Infernal and argues for keeping the vulnerable members protected with an escape route available. When Claire’s family becomes urgent, he presses the need to return and help. He introduces himself as Nerias Kofa, a satyr with sword and shield.</p><p>He accepts Rolen’s instructions and offers darkness as one of the company’s tools, while recognizing that it can make the others’ attacks harder. Later he remembers helping start the <a href=\"#archery-range\">archery range</a> with Rolen. That recollection connects the early fighter with the teacher he is glad to meet again.</p><h2 id=\"nerias-eovar\">Through the burning harbor</h2><p>At Eovar’s fire, Nerias offers to pay for transport and joins Wren’s effort to get through. He uses mist and water against the flames, asks the party to stay grouped and struggles with the crossing. When he loses his grip on a rope, he teleports to the bridge beside Wren, explaining that he had hoped to save the spell.</p><p>The fight leaves him frightened and unable to see for a time. Once his sight is restored, he offers healing to the others before himself and then falls. He gets up again, asks who needs help and stays with the company’s work putting out fires. The scene preserves his care without turning it into limitless resilience.</p><h2 id=\"nerias-machines\">The little machines and the dead toymaker</h2><p>Following strange tracks, Nerias first compares them with his own hooves. He calls the small machines abominations of nature, yet shouts for nonlethal force and cuts rope to bind them. The narrator’s final ruling establishes that all three are captured, rather than leaving an earlier apparent destruction as the outcome.</p><p>He asks the company’s permission to study one. The machines lead the explorers to a wrecked wagon and a dead man. Nerias tries to stabilize him, but the narrator establishes that the body has been dead too long. The man is identified as Sam Flintwick, a tinker and toymaker; one of the little machines later brings tools and asks the company to fix him. No healing by Nerias reverses that death.</p><h2 id=\"nerias-nature-and-rest\">Respect for what has been changed</h2><p>The same investigation brings the company against mutated creatures in the forest. Afterward Nerias offers burial and argues against raising the dead man into undeath. His claim that the Oak Father is pleased is his interpretation of the easing atmosphere, not a separate divine ruling.</p><p>In another hunt, he asks that mutated creatures receive funeral rites because being changed has not stopped them deserving respect. He also asks to harvest materials. His religious judgment, curiosity and practical wants remain together; the history does not turn them into a perfectly consistent doctrine.</p><h2 id=\"nerias-cala\">The climb and Cala’s hard lesson</h2><p>Answering the call in the storm, Nerias prepares a rope on a javelin and throws it up the cliff. The narrator establishes that it catches, barely and luckily. Others secure the route and help the company complete the climb. His success is a contribution to a shared effort, not the whole ascent.</p><p>An aspect of Cala leads them onward into a demanding training battle. Nerias tries to coordinate with Casimir, defend companions and halt the approaching angels, but his command fails to stop them. The fight is punishing before its final enemy falls. Nerias receives a Stone of Good Luck, asks how to help his friends and speaks of going to Gael.</p><p>He later tells Rolen he is an avatar of Silvanus and recounts the encounter with Cala. The meeting with Cala is played in the quest; the title he gives himself remains his own claim. His promise to go to Gael is not proof that he arrives there.</p><h2 id=\"nerias-roads\">Hands held on the Shadow Roads</h2><p>For the <a href=\"#shadow-roads-expedition\">Shadow Roads expedition</a>, Nerias reunites with Rolen and worries about the companions who have gone ahead. His memories of Cala’s training make him press for preparation rather than immediate confidence. He also pulls out his Yarting, because he thinks there is always time for music.</p><p>On the road itself, that noise gives way to held hands, taps of the rapier and the movement of the person beside him. He steadies himself with a remembered lesson in patience and a prayer to the Oak Father. He can be devout and unsettled, joking about the voices in his head while still following the company’s careful signals.</p><h2 id=\"nerias-squiddy\">Quick feet and the circle on the floor</h2><p>Helping Krone search for Squiddy, Nerias offers magic for jumping and tries to keep the company moving. He then follows Krone onto the dangerous circle and gets caught with him. “Maybe Im quick not bright,” he admits. Vaemyr helps get the trapped companions down.</p><p>Nerias continues with water against fire traps, light for the company and more careful movement. He encourages Krone and jokes with Pappy without becoming the expedition’s infallible guide. The closing narrator explicitly returns Squiddy alive and well with the party, so this rescue has a confirmed outcome.</p><h2 id=\"nerias-harvest\">Music on the way to the potato fields</h2><p>At the harvest, Nerias is glad to take part in the cycle of growth he values. He gathers tools, plays his Yarting and heads for the potato fields with Vaemyr. The conversation is also an attempt to build a friendship, encouraged by Eugene’s earlier advice.</p><p>He asks Vaemyr for help learning a skill and says that circumstances have delayed his journey to Gael. Vaemyr offers help and asks what happened. The selected exchange ends with that question; it does not establish a completed lesson or finally explain the delay.</p><h2 id=\"nerias-open-record\">The road still ahead</h2><p>The later references reviewed here do not establish Nerias’s present location or a completed arrival in Gael. The harvest conversation leaves his departure delayed. It does not explain where he eventually went.</p>",
+  "schemaVersion": 1,
+  "protected": false,
+  "sections": [
+    {
+      "id": "nerias-first-company",
+      "title": "The first defenses and Rolen’s company",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221232193469153301",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221248773632688139",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221252142346797069",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221262910966464535",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221612857003606107",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221614395323322529",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221617381009526886",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221620902072942634",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285401633446039625"
+        ]
+      }
+    },
+    {
+      "id": "nerias-eovar",
+      "title": "Through the burning harbor",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281794737103306763",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281798799991242812",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281800646965723198",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281801844200439828",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281811817785593876",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281812208786866178",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281829141766864969",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281834170112544871",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281836062221668372",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281838838066450483",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281841317629919343",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281856880901099555",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1281858412405194802"
+        ]
+      }
+    },
+    {
+      "id": "nerias-machines",
+      "title": "The little machines and the dead toymaker",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282123464068562955",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282128669015543818",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282151901831499786",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282152875086315550",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282156188351467563",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282156652329570304",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282159844773593210",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282160393497870409",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282163110203097181",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282163938485731440",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282164565580316727",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282164803770777652",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282168752770912349",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282178929217507389"
+        ]
+      }
+    },
+    {
+      "id": "nerias-nature-and-rest",
+      "title": "Respect for what has been changed",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282176142639370273",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282176801359269900",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282178097294344233",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282178720928497788",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282178907872956470",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282179287222456344",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1283207542968684548",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1283207966056513538"
+        ]
+      }
+    },
+    {
+      "id": "nerias-cala",
+      "title": "The climb and Cala’s hard lesson",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282402824298168400",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282403750685839422",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282404616159625377",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282406136976506920",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282407963570475098",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282408219091669065",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282418476106911887",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282428732958703618",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282441351727677573",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282446991221067799",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282449785906921526",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282449128965541972",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285402249652080762",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285409548743606284"
+        ]
+      }
+    },
+    {
+      "id": "nerias-roads",
+      "title": "Hands held on the Shadow Roads",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285401178774962241",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285404783917666335",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285412379483574304",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285422703146172477",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285426956904693886",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285428828264726590",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285429146872446978",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285431277125767220",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285451564705648721",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285462700054417420",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285464291587391522",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1285464609737932820"
+        ]
+      }
+    },
+    {
+      "id": "nerias-squiddy",
+      "title": "Quick feet and the circle on the floor",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286823319928049724",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286824922311823382",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286828511830741063",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286829756897038439",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286832165136498768",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286834045149253703",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286836476792930425",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286838294986100737",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286841546825797716",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286843596133371938",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286847549419814975",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286892157176643637"
+        ]
+      }
+    },
+    {
+      "id": "nerias-harvest",
+      "title": "Music on the way to the potato fields",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291202936356995213",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291204451520086088",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291204806236442645",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291206329628627025",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291207761832574998",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291209022187241599",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291211259223736320",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291212459943657563",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291214089129037855"
+        ]
+      }
+    },
+    {
+      "id": "nerias-open-record",
+      "title": "The road still ahead",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "unresolved",
+        "label": "Scenes & attributed accounts",
+        "summary": "The cited quest records support these actions and statements. Beliefs, intentions and narrator outcomes remain distinct.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1282449128965541972",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291212459943657563"
+        ]
+      }
+    }
+  ],
+  "biography": {
+    "chapters": [
+      {
+        "id": "nerias-arrival-and-company",
+        "title": "The early defenses and the people he follows",
+        "sections": [
+          "nerias-first-company"
+        ]
+      },
+      {
+        "id": "nerias-fire-and-care",
+        "title": "A protector who also falls",
+        "sections": [
+          "nerias-eovar"
+        ]
+      },
+      {
+        "id": "nerias-forest-and-limits",
+        "title": "Nature, the machines and the limits of healing",
+        "sections": [
+          "nerias-machines",
+          "nerias-nature-and-rest"
+        ]
+      },
+      {
+        "id": "nerias-cala-and-purpose",
+        "title": "The climb and the training he survives",
+        "sections": [
+          "nerias-cala"
+        ]
+      },
+      {
+        "id": "nerias-roads-and-rescue",
+        "title": "The Roads and the rescue of Squiddy",
+        "sections": [
+          "nerias-roads",
+          "nerias-squiddy"
+        ]
+      },
+      {
+        "id": "nerias-fields-and-open-road",
+        "title": "The harvest and the journey still planned",
+        "sections": [
+          "nerias-harvest",
+          "nerias-open-record"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "brief": {
+    "identity": "Satyr adventurer · defender and musician",
+    "significance": "Nerias Kofa brings a rapier, shield, long leaps and a Yarting to the company. He calls himself a guardian of nature, offers protective magic and healing, and can be as impatient, startled or uncertain as the companions he wants to protect.",
+    "actions": [],
+    "status": "Helps at the harvest and seeks instruction; his Gael journey is delayed",
+    "relationships": [],
+    "basis": "Selected original quests and compatible public RP. Claims, plans, conditions and gaps retain their stated limits."
+  },
+  "image": "assets/characters/nerias.png",
+  "imageAlt": "Nerias as a horned warrior carrying an ornate shield and sword",
+  "imageCaption": "Nerias",
+  "imageLayout": "portrait-hero",
+  "aliases": [
+    "Nerias Kofa"
+  ],
+  "readingLayout": "biography"
+}

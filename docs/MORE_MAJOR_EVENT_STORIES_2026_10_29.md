@@ -1,0 +1,35 @@
+# More major timeline stories · 29 October 2026
+
+The owner requests more major-event histories, continuing the earlier emphasis on existing Interregional/World Changing entries and excluding Alavara. Three existing Interregional pages expand in place: the Defense of Aelthor, the War Council and Elenia’s Exile. This connected group follows the invasion, the argument over answering it, and a later departure into the Babel campaign. No new event or canonical record is added.
+
+| Existing story | Earlier words/chapters | Expanded words/chapters |
+|---|---:|---:|
+| The Defense of Aelthor | 526 / 5 | 1,598 / 7 |
+| The War Council · Whose Pain? | 564 / 5 | 1,724 / 7 |
+| Elenia’s Exile · The Door Left Open | 468 / 5 | 1,571 / 7 |
+
+The 4,893 words preserve decisions, action, mistakes, humor, grief and unfinished disagreement. Each story follows its closing outcome and immediate aftermath. Source qualifications remain in the prose where readers need them and in section evidence; there is no new literary dialogue or invented explanation.
+
+## Original quests and source limits
+
+Three bounded primary quest sequences and selected memorial/Crucible antecedents are checked in the original read-only main archive. All 299 cited native-channel identities and exact content versions resolve; two direct quotations match their source words. The metadata/hash receipts are in `content/reference/more-major-event-stories-review-2026-10-29.json`. Discovery, copied working windows and selected reading are distinct from exhaustive review of every cached message. The old qualified funeral and later civic background retain their public-account sources and do not acquire a claim of new exhaustive verification. No raw transcript, controller identity, private laboratory procedure, intimate passage, protected disclosure, unreviewed attachment or new generic character enters Git.
+
+Aelthor now includes the river approach, evacuation, preparations, field commands, Verdant Circle lightning, wave attacks, Scribonia’s lost simulacrum, Eugene’s contaminated strike, banishment, the temporal incarnate, Elenia’s recovery of Olokun, the Meteor Swarm that is threatened but never cast, Olokun’s final blow and the living/dead being tended under Aria’s speech. Beacon of Hope is identified as Adelia’s staff. Eugene’s awakening is observed; Scribonia’s belief that he died and Elenia’s description of unconsciousness do not establish a named resurrection spell. No exact casualty list is manufactured from the narrator’s hundreds-or-thousands estimate. The reason for the invasion remains a dispute among speakers, not an asserted secret acquisition or universal divine motive. Aria’s acclaim does not replace the civic institutions beside which she acts.
+
+The council now includes rank and protocol, Forbiddance hurting Jiangshi’s ancestors, travel/scouting limits, the absent Adelia’s consent, faction offers, Magnus’s ordinary mirror, the proposed pact and the split over what lives can be risked. A separate attendant gathers clothing and bones; Jiangshi is not credited with that action. Míriel’s test identifies the demonstrated mirror as ordinary; Magnus’s research claims do not become a proven transport or an imported artifact recipe. Arandiel’s earlier masculine pronoun is corrected against the explicit quest context. Bowene’s refusal replies directly to Olokun’s plea against a pact with Death. Research and war preparation continue, and no agreed route, invasion plan or negotiated peace is invented.
+
+The exile story begins with the 99 returned soldiers and the sanctioned duel, then follows the hearing through testimony, the verdict and the departure arrangements. Elenia clarifies that the returned people are Aionia’s dead, distinct from those taken by Death. The Crucible’s narrator-reported death and subsequent life/healing do not establish a named return spell. Adelia’s attempted-murder accusation remains her accusation within a disputed, sanctioned contest. Elenia’s own admission about Magnus’s face is retained. Only her departure is required; Olokun and Aravil’s solidarity and the invitation to others do not create identical compulsory sentences. Babel aid, the sending stone and possible law reform are distinct from a permanent universal ban or an unconditional right of return. A proposed companion list is not a confirmed roster. Adelia’s later offer of help does not produce an invented reconciliation or completed faction membership.
+
+## Connections and preservation
+
+Three timeline summaries and the library’s matching descriptions gain concrete action. The related existing duel summary changes the single legal term “banishment” to the ruling’s “exile.” All routes, titles, event dates, importance, regions and calendar adjustments remain. New story links connect Aelthor, the council, Aria’s last battle, the exile and the existing Babel survival history. Exile’s at-a-glance setting now distinguishes the hearing below Ciaránach, departure at the Shining Shores and Babel as destination; checked people/outcome facts are fuller.
+
+An external baseline covers 1,631 content/media files. Only six pre-existing content files change: the three stories, the library, the story-review reference and the world’s four specified summary strings. All fifteen old chapter IDs/titles, original references, unrelated records, roles, maps, quote collections, artwork and 261 browse previews remain. Existing story metadata is retained apart from the documented prose/dek/evidence and people/setting/outcome facts. No new public page, identity or asset is created. The complete private payload remains 5,251,167 bytes, SHA256 `b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e`; no private publication is needed.
+
+Catalog293 retains 640 canonical records/591 complete public bodies, 262 people, 363 public events, 389 timeline objects and 36 story pages. Six added sections make 2,635. No runtime, style, dependency, asset or workflow stage changes.
+
+## Verification
+
+Canonical/source/preservation, portrait, browse-preview, protected-asset, named-calendar/arithmetic and whitespace checks pass. Focused local Chrome follows all three existing filtered Interregional cards directly into full stories and checks 87 canonical paragraphs, 21 open chapters/evidence panels, fifteen old chapter bookmarks, exact filtered return and Back, reload/focus, independent fresh 390px/320px layouts/header fit, eight actual connected-history/library links, named dates, newly indexed “mirror” search and protected boundaries without script or public HTTP errors. Representative screenshots are inspected. The final overview wording uses observed preparation rather than inferred expectations.
+
+The existing hosted story gate includes all three expansions automatically. Focused local checks avoid duplicating the full hosted suite; the tested artifact is uploaded/deployed once. Publication/live receipt follows successful deployment.

@@ -1,0 +1,2166 @@
+{
+  "reviewed": "2026-10-29",
+  "request": "Expand more existing major timeline events as full readable quest histories; continue prioritizing Interregional/World Changing entries and leave Alavara aside.",
+  "baseCommit": "fefe058ecfa8ec66fb3e5aab342db1c779ba0ace",
+  "storiesBefore": {
+    "war-council-death": {
+      "chapters": 5,
+      "words": 564
+    },
+    "defense-of-aelthor": {
+      "chapters": 5,
+      "words": 526
+    },
+    "elenias-exile": {
+      "chapters": 5,
+      "words": 468
+    }
+  },
+  "storiesAfter": {
+    "defense-of-aelthor": {
+      "chapters": 7,
+      "words": 1598
+    },
+    "war-council-death": {
+      "chapters": 7,
+      "words": 1724
+    },
+    "elenias-exile": {
+      "chapters": 7,
+      "words": 1571
+    }
+  },
+  "verifiedSourceIdentities": 299,
+  "newReceipts": [
+    {
+      "channel": "1199083630354501673",
+      "id": "1428168315280560261",
+      "timestamp": "2025-10-15T16:51:00.447-07:00",
+      "contentSha256": "f11704f117a26b252f4cb79117d9f8f9c765d9be84970b6f06fa0181661caa60",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428168648995901491",
+      "timestamp": "2025-10-15T16:52:20.011-07:00",
+      "contentSha256": "598ad1018405839ae106d2a278127d92cb685d116ee5c8beaeb748e280c28893",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428169552432201831",
+      "timestamp": "2025-10-15T16:55:55.407-07:00",
+      "contentSha256": "f1943e862671430df4bc63a01989d059732dedc012215b70fa2c0b1f54665fde",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428169879483060330",
+      "timestamp": "2025-10-15T16:57:13.382-07:00",
+      "contentSha256": "73a8f1e9703f843af448a562f4905592396e693c1253b2c51e6f195b6bcfcd92",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428170047167266960",
+      "timestamp": "2025-10-15T16:57:53.361-07:00",
+      "contentSha256": "1448c31fc423aa8ded125fa9237c997cc29125770af2bbed606ef1f4c1101b8d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428170189568213085",
+      "timestamp": "2025-10-15T16:58:27.312-07:00",
+      "contentSha256": "9e0282d35dfd8469e763c981beef1eae20a95e7bb46993c9004839640cd8f976",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428170359600840745",
+      "timestamp": "2025-10-15T16:59:07.851-07:00",
+      "contentSha256": "84dfdd5fc18d51b7c80c41d502d0114151dd66f5f87e05ac4f7cf41674491cc7",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428170713814274178",
+      "timestamp": "2025-10-15T17:00:32.302-07:00",
+      "contentSha256": "414ffdfaaeb98e601121e57c6f24514319a952f833d2995690c1bf7fc70cacb3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428170973072592956",
+      "timestamp": "2025-10-15T17:01:34.114-07:00",
+      "contentSha256": "af3d058fb7c77c7084b6df8535f5b4f581fd0d9c85224759967be63122001184",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428170975114952777",
+      "timestamp": "2025-10-15T17:01:34.601-07:00",
+      "contentSha256": "af3d058fb7c77c7084b6df8535f5b4f581fd0d9c85224759967be63122001184",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428171002633781329",
+      "timestamp": "2025-10-15T17:01:41.162-07:00",
+      "contentSha256": "8e1c934311009510dd34a3cad7787a74f32e328611333161f7008535f1cb3546",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428171809202638949",
+      "timestamp": "2025-10-15T17:04:53.463-07:00",
+      "contentSha256": "6b7ba464bd17302bd071f00c632d4faa6d4b9ae525a84e0692a2a0b4faad9847",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428172025268146196",
+      "timestamp": "2025-10-15T17:05:44.977-07:00",
+      "contentSha256": "28c046102482361df49a4a29c25cf86ae92519c8347e7295f930f54116d8b05e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428172474553733262",
+      "timestamp": "2025-10-15T17:07:32.095-07:00",
+      "contentSha256": "7fedc649982ee6463938ae1f891eb16257aeab86713c81cd94ecba12d577cb59",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428172975932182589",
+      "timestamp": "2025-10-15T17:09:31.633-07:00",
+      "contentSha256": "023b37344b16634d5d6ccf13cfebb6d3ffcc593bfb44a4e3068285fda6e019ae",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428173140726644908",
+      "timestamp": "2025-10-15T17:10:10.923-07:00",
+      "contentSha256": "717de05af5bbefa774c0835a78d210b26c3302da645bca682bdd3bf64c04628c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428173149299671222",
+      "timestamp": "2025-10-15T17:10:12.967-07:00",
+      "contentSha256": "b62d501796a03e838ea0cfcf82f59b0695fe684af073e0eb5a98f29564df4ef6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428174039024795778",
+      "timestamp": "2025-10-15T17:13:45.094-07:00",
+      "contentSha256": "ec14441f42de4443b56a8b8f436fe68292d446bd5a2b4918cf92deec919b4767",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428174280998391888",
+      "timestamp": "2025-10-15T17:14:42.785-07:00",
+      "contentSha256": "b0655830a82dd94b9696632a1ffc4a1c64329d890edf0df34c6410101737e222",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428174350108065842",
+      "timestamp": "2025-10-15T17:14:59.262-07:00",
+      "contentSha256": "929f3230769afe7ba5d5ee851064d0a7d517953eaba532174387217242f5578f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428174724608823376",
+      "timestamp": "2025-10-15T17:16:28.55-07:00",
+      "contentSha256": "16a4705e8e1cc7562d7b00a6568f5387564433c7dc0051cd11e5bf52f29a4a82",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428177845825441882",
+      "timestamp": "2025-10-15T17:28:52.706-07:00",
+      "contentSha256": "9e8d8dde9f8c8e64b4cbbacb3b1e27a75bd108ff1e9e53ec8d882e9023806cc6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428178454595112973",
+      "timestamp": "2025-10-15T17:31:17.848-07:00",
+      "contentSha256": "acc3f34a549aed729734e4d01843dbcfe1c83d92c43c5f155bea2a8df87f9ac5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428178842056523890",
+      "timestamp": "2025-10-15T17:32:50.226-07:00",
+      "contentSha256": "9405f9ad792f19eeb57945e432b4898503acc1d02e8e683e1bbab15f3509c91f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428180366027653212",
+      "timestamp": "2025-10-15T17:38:53.569-07:00",
+      "contentSha256": "8b65480211804ae60e864089840dcf497dee30985f1b5ec892aac2609da3ae8a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428180370586865685",
+      "timestamp": "2025-10-15T17:38:54.656-07:00",
+      "contentSha256": "41d2b8679a7c0ed078951d7977f844ff2dc4d74d45560991a26e1c2776895066",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428180667274887238",
+      "timestamp": "2025-10-15T17:40:05.392-07:00",
+      "contentSha256": "7362daf9c79533ee43998b1fd18f8dc8af4a57a4776eb3ce77c7b0f0d61e9448",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428180980635533434",
+      "timestamp": "2025-10-15T17:41:20.103-07:00",
+      "contentSha256": "4ebd49599473ea37798215b00d8632135ff2ac993ddd08808e7e017c86d7408d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428181863570079837",
+      "timestamp": "2025-10-15T17:44:50.611-07:00",
+      "contentSha256": "8d6e3819fd76e98399487d539feb307cf5a81d8c83759500273dccf71af4baef",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428185688440049784",
+      "timestamp": "2025-10-15T18:00:02.531-07:00",
+      "contentSha256": "48277ff582d79d0e2b002c481aaaa1d0c5f37dd27d40314c1325702ba4f7c349",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428188795697631364",
+      "timestamp": "2025-10-15T18:12:23.359-07:00",
+      "contentSha256": "7d3b0bacce6e69cae54f17edf3315f1860c433820fe1261dee1d3b3855a6bc2a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428191812392190043",
+      "timestamp": "2025-10-15T18:24:22.595-07:00",
+      "contentSha256": "ae20d6cecd8a4ffccfde3bd17707d47a2c836c4e8ea1bef11e95cbbe53c68368",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428192852201963580",
+      "timestamp": "2025-10-15T18:28:30.505-07:00",
+      "contentSha256": "6e8ef7b290b66ad7455eebc9a8b104d1de94b733d634aa68d585b72035b89722",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428192853774958684",
+      "timestamp": "2025-10-15T18:28:30.88-07:00",
+      "contentSha256": "94d6c987a161df4218295abd6603deddd78ca8d5714622661bb00a11014f51fe",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428194699797332069",
+      "timestamp": "2025-10-15T18:35:51.006-07:00",
+      "contentSha256": "429f474c0fe0c7d94a630686509a03eb2db192cde03046c7d4331c6f8096a465",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428195094036480051",
+      "timestamp": "2025-10-15T18:37:25-07:00",
+      "contentSha256": "106eb9c94fdf6fa5a3a7f331c4fcb371a62c9f2190250bdd8a632588c8028d06",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428195463189762088",
+      "timestamp": "2025-10-15T18:38:53.013-07:00",
+      "contentSha256": "e92a366a08baf1cd604ee6f4b88b97116dcf95f7d6d73506dfbcaf7a66943572",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428197350157058211",
+      "timestamp": "2025-10-15T18:46:22.901-07:00",
+      "contentSha256": "f7104a17046f0a4584ac397f7c74c4a9b648913823cdf5abcc2e8713f2797594",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428200605729427527",
+      "timestamp": "2025-10-15T18:59:19.09-07:00",
+      "contentSha256": "69362e4e5e0cfe6114a7b8130f9362bcb5eb56398f88ac12e17533502eee0877",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428201317498880071",
+      "timestamp": "2025-10-15T19:02:08.789-07:00",
+      "contentSha256": "5f9140cfd1de849738d1502fe69a73537340f7a6f13e7d16dbb24fb9da696324",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428207570534793217",
+      "timestamp": "2025-10-15T19:26:59.629-07:00",
+      "contentSha256": "fc0f9336b033d50db0975b591f139105dae8a945f00ad2ff51dde20810f1a23c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428208425573027880",
+      "timestamp": "2025-10-15T19:30:23.486-07:00",
+      "contentSha256": "87291c009e75bfb0718a106e31c8dfbe7badebebc4082640450c3158d709d937",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428208986016055376",
+      "timestamp": "2025-10-15T19:32:37.106-07:00",
+      "contentSha256": "bb2ca586f7f8397d31c35453f8a8cee0bce0009c4f731a7e41b926e3b379a234",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428209210293751838",
+      "timestamp": "2025-10-15T19:33:30.578-07:00",
+      "contentSha256": "5b015ac122d341cc521dbc6132bfe646e3d80b87e799cd2f13af359ca7fc821b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428209223279317002",
+      "timestamp": "2025-10-15T19:33:33.674-07:00",
+      "contentSha256": "b231f9c5b5c17864372015f4b6525f30906078e0d50bfb84f8995b3f99e6ce41",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428209376128139344",
+      "timestamp": "2025-10-15T19:34:10.116-07:00",
+      "contentSha256": "145c6937076c5e553768876ebf39e50ae49ab993e8adba338ca9b98d5ce05dcf",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428210057698611223",
+      "timestamp": "2025-10-15T19:36:52.615-07:00",
+      "contentSha256": "2cda3fb32a5ab0ad46895a3462aa06160d865efa881138d2b854c458f7aac0d6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428211951074414642",
+      "timestamp": "2025-10-15T19:44:24.031-07:00",
+      "contentSha256": "1483feeafcf0cd78c69d96c5caa6ea3e13f21e7c0a85a56a81c8c40fdbb92cf5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428213082752155729",
+      "timestamp": "2025-10-15T19:48:53.844-07:00",
+      "contentSha256": "5819005094424b94a6d1d7779dfe6c9f629e5b46ac241e499fd47ca99882c0e6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428215044960682145",
+      "timestamp": "2025-10-15T19:56:41.671-07:00",
+      "contentSha256": "fc720eb160319a1aa53fce7980118298e1be3b622c31f3a61b43a2395dd606b9",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428216815678652457",
+      "timestamp": "2025-10-15T20:03:43.843-07:00",
+      "contentSha256": "c854031653a512298ef061c50471ec4962fa1dbefbf244ee5a25fba1524f8f05",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428216909274419270",
+      "timestamp": "2025-10-15T20:04:06.158-07:00",
+      "contentSha256": "bf2c184269a752b527090fe7510d98c783cbacf5214b525556f73b8e6edca6aa",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428219159367651390",
+      "timestamp": "2025-10-15T20:13:02.622-07:00",
+      "contentSha256": "5749b2760046b3b5b379968d6c748d0c8e6bdb3e4aafb77be1f3831fa2aba06d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428224552491552798",
+      "timestamp": "2025-10-15T20:34:28.443-07:00",
+      "contentSha256": "dd8ee6beb4d0142853a23031ff7423fda7bda7b576ba75ac2dad3a12664380f7",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428224700101820548",
+      "timestamp": "2025-10-15T20:35:03.636-07:00",
+      "contentSha256": "bf57fda7dda79527d8a0596cc53a064a008732e9c33586bd4848cf260d549d47",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428229174736322710",
+      "timestamp": "2025-10-15T20:52:50.472-07:00",
+      "contentSha256": "5b61c5fd7721cad7864faacd75e2994e611b44e79802ebcab44875d9beb0f122",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428229629205811272",
+      "timestamp": "2025-10-15T20:54:38.826-07:00",
+      "contentSha256": "5521013f2b8b1d1dc4c3e93905ce3034c2a81b5318db0eab434ebce5c3d55203",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428230280451199026",
+      "timestamp": "2025-10-15T20:57:14.095-07:00",
+      "contentSha256": "fa9fa0a0b52ca9b622d4ed8754226c0c8f2e5e50b33c2fea5235ac325a686490",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428230575373680650",
+      "timestamp": "2025-10-15T20:58:24.41-07:00",
+      "contentSha256": "7df2ee8cfce5beea1cde75da9b56c57fe10a7213a3c533ecbb89e20a9804b3ee",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428230577127035054",
+      "timestamp": "2025-10-15T20:58:24.828-07:00",
+      "contentSha256": "95a13424da1e7e63d12a7d0fe96f8c435e26563580137c6d71b71ba84ac42e80",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428233231509098567",
+      "timestamp": "2025-10-15T21:08:57.682-07:00",
+      "contentSha256": "2d0f7636d5b4b2f8af63cfd6e4ee039da9e6458af9e961234ad840bfd4dcdb8f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428235447238262794",
+      "timestamp": "2025-10-15T21:17:45.953-07:00",
+      "contentSha256": "3d8c6707bba31f77cfa21444a5d0ce91e39db841a3363d5de41f37af7d62a1f0",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428236758432354416",
+      "timestamp": "2025-10-15T21:22:58.566-07:00",
+      "contentSha256": "0b624cebf7264d457fc339439b88bd206fe86e1d237ef49329c795e610ac7d8d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428238927336308736",
+      "timestamp": "2025-10-15T21:31:35.673-07:00",
+      "contentSha256": "aa93fcd58e0d53e369fd5e198246250ef5ccef340fd3ed5e58eff227a0b1e339",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428241928817741955",
+      "timestamp": "2025-10-15T21:43:31.282-07:00",
+      "contentSha256": "5969a6687ff3a66240e189d1d165dbe26936a7b1df002e63d2b4e5c8bcfe6e31",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428242316040081551",
+      "timestamp": "2025-10-15T21:45:03.603-07:00",
+      "contentSha256": "b115b482632d89858c6c9614274df3399eb227febc85eed7bbf259042379867c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428242598354620486",
+      "timestamp": "2025-10-15T21:46:10.912-07:00",
+      "contentSha256": "a3f8a4cb4b549bfa24a89affd6153914e4d5afc9f0c03874ed8499f12517fe31",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428242985405120553",
+      "timestamp": "2025-10-15T21:47:43.192-07:00",
+      "contentSha256": "4d3a5c69950b10b351e0b8de0732a0ec7b067e5ec0bb85938aa03fbcf68799a2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428245118393126923",
+      "timestamp": "2025-10-15T21:56:11.736-07:00",
+      "contentSha256": "c8f408ccb949def975251f10014f48339d26f0993afd683b5a5f9322b9e5941d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428246251723292742",
+      "timestamp": "2025-10-15T22:00:41.943-07:00",
+      "contentSha256": "d1ad74202ddea634e4a15b88085b2343a1b97c8eca1444f3ad56415cd6c35758",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428247381664600155",
+      "timestamp": "2025-10-15T22:05:11.342-07:00",
+      "contentSha256": "c0e1742213e477ae7d927ded8914b281e748776a68b744ebf5830a198b09e49d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428247804278476862",
+      "timestamp": "2025-10-15T22:06:52.101-07:00",
+      "contentSha256": "263b7a45b0a010e80de2de4168927535ff92e0fe00dc579c4f1fea8a52555ee3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428249146715799603",
+      "timestamp": "2025-10-15T22:12:12.163-07:00",
+      "contentSha256": "6083407c3cc45d1a8afe7820bcaf64e0e478a00fc39fe3a0293411ebe85a047d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428250351500263505",
+      "timestamp": "2025-10-15T22:16:59.406-07:00",
+      "contentSha256": "6b343190e47d2ec27c6341ae1916569d5f1448cd0933a85e5effa54f51db126f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428252173598326795",
+      "timestamp": "2025-10-15T22:24:13.828-07:00",
+      "contentSha256": "25d0d89ea5133bfba8c5d609f7776b15a9465037bcfafab4d88b6383bd935ec4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428252365747785809",
+      "timestamp": "2025-10-15T22:24:59.64-07:00",
+      "contentSha256": "fc79a46c4d277b01dfb781cc1768ebee9083e7523624307d734532077abebbcb",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428254897425612851",
+      "timestamp": "2025-10-15T22:35:03.239-07:00",
+      "contentSha256": "f1ab1fdc89a852ae0543b1aa16ee7be3aa1bc9be239d6844db902b145e325164",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428255188321566810",
+      "timestamp": "2025-10-15T22:36:12.594-07:00",
+      "contentSha256": "3ad5d2440792a5fa1cdcad77a36e0c38b50ce635f172ae709577728671bfb37f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428255363492483153",
+      "timestamp": "2025-10-15T22:36:54.358-07:00",
+      "contentSha256": "c380ec9de03aec42cc19f80730179e82da7916dd9c8c95cff98dffcea747cbe0",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428255494145048696",
+      "timestamp": "2025-10-15T22:37:25.508-07:00",
+      "contentSha256": "d6d922cf9bf7d1053c9e1e167098ab1116abec55fe00ef413f221cd7d54d82d8",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428256946078879777",
+      "timestamp": "2025-10-15T22:43:11.676-07:00",
+      "contentSha256": "04c793b206c91ac8adc03c8428a71348c4d955df91d2dfd9365685dbe2e88dec",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428257005688193045",
+      "timestamp": "2025-10-15T22:43:25.888-07:00",
+      "contentSha256": "e78d03663d3e0b80f46594690b00f77782f142eaa5d2eb699347ac84d1d34bc3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428257323662704690",
+      "timestamp": "2025-10-15T22:44:41.699-07:00",
+      "contentSha256": "08d8cd8b954c959398b7b2ea803d0a1643952994de693859baa29ddbe7f26ea0",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428257558891856017",
+      "timestamp": "2025-10-15T22:45:37.782-07:00",
+      "contentSha256": "969a4f3ac130e45e27847145e9db7519f51ecdc0f7a2b4ec2b3a3780e24a228b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428257817839800450",
+      "timestamp": "2025-10-15T22:46:39.52-07:00",
+      "contentSha256": "a602e79f2d8244c27561c463f9058dceaf14376639923402232969551cff323e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428257844293144577",
+      "timestamp": "2025-10-15T22:46:45.827-07:00",
+      "contentSha256": "948321dd0263bb476b666a8c8b09c36aef8d88283a288ef8bdd0b017abad7f00",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428258782055628912",
+      "timestamp": "2025-10-15T22:50:29.407-07:00",
+      "contentSha256": "6d00d255e445f9897933ff9136bd4fccdca2241639abc322fa3a8b4a8d57f33d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428259045579558944",
+      "timestamp": "2025-10-15T22:51:32.236-07:00",
+      "contentSha256": "64d4af52b1ebd8a4f857b734b9031e27922ea83ac80d35c687bfc6be806b8c49",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428259931756433530",
+      "timestamp": "2025-10-15T22:55:03.517-07:00",
+      "contentSha256": "bfdca91cc00804482a382cb7c43e0d7fc7b7075bcf67c2fc30e71301fc4985cc",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428260163852177491",
+      "timestamp": "2025-10-15T22:55:58.853-07:00",
+      "contentSha256": "7263adbaffe42e67209c336a91906adb9959aa09ac5d246e50d0b7f154825b8a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428260316885549109",
+      "timestamp": "2025-10-15T22:56:35.339-07:00",
+      "contentSha256": "ebe2274767082c240b8b93049ab17236125c2a5cbca06102bba1461d82157d73",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428260321872580619",
+      "timestamp": "2025-10-15T22:56:36.528-07:00",
+      "contentSha256": "c2c79df99bf1d8c586c55960ae2a2f5e426e80ca38c21c8a92051851ae2bbabd",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428260715248222260",
+      "timestamp": "2025-10-15T22:58:10.316-07:00",
+      "contentSha256": "6459ee7dca444596b24898a32e228e85dff31467be57df1f1c18766522db4fd2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428260834689286184",
+      "timestamp": "2025-10-15T22:58:38.793-07:00",
+      "contentSha256": "1d916153bba054879757569eab5cd2fa161ab4f1c1050f376e1c8a59104b4312",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428261034287824917",
+      "timestamp": "2025-10-15T22:59:26.381-07:00",
+      "contentSha256": "9f2eeda148e396208c46001358dc7269a3ba4b38d90b58354963a46173abc1f6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428261120346558576",
+      "timestamp": "2025-10-15T22:59:46.899-07:00",
+      "contentSha256": "dee5a06f0c345583caf22a279b2e075ceb8e678e831d9e2c6b754e4e3c46e73f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428261217490833428",
+      "timestamp": "2025-10-15T23:00:10.06-07:00",
+      "contentSha256": "2076daaba9e952e213e26975fa70b5d3a5402a3c154f71b1fdd105e145c87507",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428261405454504036",
+      "timestamp": "2025-10-15T23:00:54.874-07:00",
+      "contentSha256": "2e56b71d398933745cea16040a223b52b4704520e0c7890fd025922a816a48c1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428261568826835039",
+      "timestamp": "2025-10-15T23:01:33.825-07:00",
+      "contentSha256": "a3c5fefa95b6583c4959e80f885f15589ca44fef30ca9d12aa81f8804c960cf9",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428261647029633115",
+      "timestamp": "2025-10-15T23:01:52.47-07:00",
+      "contentSha256": "56e6666445a9700e14c7b936942f0dd188f4fcffcb7c9f65665215e07b0f308a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428261813270609981",
+      "timestamp": "2025-10-15T23:02:32.105-07:00",
+      "contentSha256": "691ef9311555e917234821df349e61d14f940d7a7d6f1c59545e4ed8859b6bd8",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428262013280190508",
+      "timestamp": "2025-10-15T23:03:19.791-07:00",
+      "contentSha256": "4ee8c0d0f39dfb022a560e34e699b99f2c1f6414801535b6f1253bad1d5a7d04",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428262184290353162",
+      "timestamp": "2025-10-15T23:04:00.563-07:00",
+      "contentSha256": "2fbdc1e4cb5b6aa2f785f4d80d6403aee6343e90bdc22cd0b6728455771972aa",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428262294462267422",
+      "timestamp": "2025-10-15T23:04:26.83-07:00",
+      "contentSha256": "22d26cd00362e72d0335e4dd9dce2fa938336f47b739f0101a6a3241919ce48e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428262384212115496",
+      "timestamp": "2025-10-15T23:04:48.228-07:00",
+      "contentSha256": "26bae28b94b49311f4dfffa117aa6fa30f39a41d4c74373b472221b6215efab3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428262589145681986",
+      "timestamp": "2025-10-15T23:05:37.088-07:00",
+      "contentSha256": "45e3f8350912e44545c74ff1cf56a667ea1eb76406d400d885bf0da89ebeae91",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428262640693673984",
+      "timestamp": "2025-10-15T23:05:49.378-07:00",
+      "contentSha256": "078f402c7ef7406a4bd2948166ba418d42419fc5eff62215bc85c27607afe9c1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428263323341946880",
+      "timestamp": "2025-10-15T23:08:32.134-07:00",
+      "contentSha256": "b027cfe39fd7a1526b060aa330cebb7d8ef879e6c4eb8c773c779eab32e8af2d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1428263363116535848",
+      "timestamp": "2025-10-15T23:08:41.617-07:00",
+      "contentSha256": "8b1935da60def2badefec611e59e6220a258395f5fae88d3b318b867a30beffe",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432052963261681876",
+      "timestamp": "2025-10-26T10:07:12.699-07:00",
+      "contentSha256": "5a2d7f65ac23ca2bf1f319610c5a66c25379f187c9c024f3ed12f6247501c7cd",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432053199094812702",
+      "timestamp": "2025-10-26T10:08:08.926-07:00",
+      "contentSha256": "26e952a5fadf0df0754fbcf12fd68469d2718c3c53a68ad1bc7287dffd9cfeec",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432053234499059845",
+      "timestamp": "2025-10-26T10:08:17.367-07:00",
+      "contentSha256": "26e952a5fadf0df0754fbcf12fd68469d2718c3c53a68ad1bc7287dffd9cfeec",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432053268590366922",
+      "timestamp": "2025-10-26T10:08:25.495-07:00",
+      "contentSha256": "26e952a5fadf0df0754fbcf12fd68469d2718c3c53a68ad1bc7287dffd9cfeec",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432053309304213725",
+      "timestamp": "2025-10-26T10:08:35.202-07:00",
+      "contentSha256": "14824fa174c29ee14e9b96fd67a04c0fff5795f335b492369eda35932b93d9a1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432054563233464382",
+      "timestamp": "2025-10-26T10:13:34.162-07:00",
+      "contentSha256": "b638ceee8cbea324d9ea446f8cafaaf83ba2cc42f2f736e46ed45c39b3775486",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432054739268403374",
+      "timestamp": "2025-10-26T10:14:16.132-07:00",
+      "contentSha256": "28a2dea2284360098d720b420af45f6d8a36be7936c277f4f272b9b59b6b87f1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432055278089670657",
+      "timestamp": "2025-10-26T10:16:24.597-07:00",
+      "contentSha256": "e397f4035cabf3dd841197ab1a3a673f650e0f0701b28bd4b0038cac7db38515",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432056176434217072",
+      "timestamp": "2025-10-26T10:19:58.779-07:00",
+      "contentSha256": "e49185cc9a7d60b07cd9f94085919065896094d7c11aca0bfea4b3387f2d1475",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432056488096174232",
+      "timestamp": "2025-10-26T10:21:13.085-07:00",
+      "contentSha256": "b35bda3c8f0eaee2f9b806f1375040e52ae4ebe94f62aeddd352c4b34d6984ac",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432056955727249620",
+      "timestamp": "2025-10-26T10:23:04.577-07:00",
+      "contentSha256": "23c07669c0efffe85d987cfeea68a3fb4d3b723e445f1ecb06be526888317fda",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432057373085667398",
+      "timestamp": "2025-10-26T10:24:44.083-07:00",
+      "contentSha256": "c74ef76e34911468ec82707ec17b9cd9ac733d4b8afcbf78fb32703f86b83dff",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432057794198110318",
+      "timestamp": "2025-10-26T10:26:24.484-07:00",
+      "contentSha256": "47e913f29a066ea1b0a7e388f878f1faddd617bdd84e5e5dd09fe87778fbf3ac",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432059328738758839",
+      "timestamp": "2025-10-26T10:32:30.347-07:00",
+      "contentSha256": "5284d9d451d18e0d85bbd459503b3061178d0f5f8fd0879b121c49b98d0474fd",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432059735703683267",
+      "timestamp": "2025-10-26T10:34:07.375-07:00",
+      "contentSha256": "671e846382b911f7f101bdd9b90fcae35f98c01bbcc34f3831ddf19272dc3dbc",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432060208833892637",
+      "timestamp": "2025-10-26T10:36:00.178-07:00",
+      "contentSha256": "bff2304490952654a3b8ffdadefcdddc7f9f074a649023098d0f81b092d68cd4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432061968843407572",
+      "timestamp": "2025-10-26T10:42:59.797-07:00",
+      "contentSha256": "9d85c7eba70e5bd9e65812d1bcc0aa67256d116a59740720e43a4b7d425fd2fb",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432062358649442405",
+      "timestamp": "2025-10-26T10:44:32.734-07:00",
+      "contentSha256": "df193e458e3bc6bbef622c53c3d3399c4ab77db22d992b3ebcdc80ffdaafc227",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432062631837171855",
+      "timestamp": "2025-10-26T10:45:37.867-07:00",
+      "contentSha256": "f749808bcb8fc3baf45138b4dccd45366848e40db345132a264b476d40863802",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432062962721493175",
+      "timestamp": "2025-10-26T10:46:56.756-07:00",
+      "contentSha256": "ba7d73fe558c1c23fbcc67c193f71ed187139e640154970ebd5a6643fc484a0e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432064325794922619",
+      "timestamp": "2025-10-26T10:52:21.738-07:00",
+      "contentSha256": "16da0df9182be3a157e9608493b4ed102f5ecfc301bd4a94561270c99aa20777",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432064757145403462",
+      "timestamp": "2025-10-26T10:54:04.58-07:00",
+      "contentSha256": "3d35897b537a92e1914591b62cfe92f04f12d348c5d57d267fbee1ae69ba82ee",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432065618521227345",
+      "timestamp": "2025-10-26T10:57:29.948-07:00",
+      "contentSha256": "9b40222ff6e7e52ed742427a3cddd1f75167c9ac4fda0b7bc714d24393e77559",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432065756383674534",
+      "timestamp": "2025-10-26T10:58:02.817-07:00",
+      "contentSha256": "7f5f92cfb95e7bde0a48ae7ee4a866c82dc6a891b4fb0cc0e0d5189f4fccfe14",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432066487773827254",
+      "timestamp": "2025-10-26T11:00:57.194-07:00",
+      "contentSha256": "5d91d70df6bc2591bccffa825bc1f7065399f1b8c862f1187d5cd6dbac082c21",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432066618539901093",
+      "timestamp": "2025-10-26T11:01:28.371-07:00",
+      "contentSha256": "ad0f43b5a8d3f4440cc24eed5b517c215c623c4b4946e38b4d5efa3639685d85",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432067370750447646",
+      "timestamp": "2025-10-26T11:04:27.712-07:00",
+      "contentSha256": "0e166e593249f9d965361dca2357c8d1c35f6474319f8604313db9b1d7d1fc72",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432068362770317423",
+      "timestamp": "2025-10-26T11:08:24.228-07:00",
+      "contentSha256": "0979b8bf3a3451011b802576864534d7b4d053659e3e2ab897fa520054f49bdb",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432068733077164063",
+      "timestamp": "2025-10-26T11:09:52.516-07:00",
+      "contentSha256": "698d5f4008790f596f19f0b25346cea53028abbcef0713568ff6df2f05eeaae5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432069766281040064",
+      "timestamp": "2025-10-26T11:13:58.851-07:00",
+      "contentSha256": "a373f31f775d2b2fb910837fa66a64bac8f2c8e77cbe536a8439544ef5fc30f5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432070097337581658",
+      "timestamp": "2025-10-26T11:15:17.781-07:00",
+      "contentSha256": "be209d5e5e0eed61aaf8632cc79ec80115d03809ed16df0800c51e09d864c23b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432071180646486016",
+      "timestamp": "2025-10-26T11:19:36.062-07:00",
+      "contentSha256": "b31b734e9d313d6fe16492f014fa4c010a6eefe3fd4623842938c102822ecedf",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432071595136127010",
+      "timestamp": "2025-10-26T11:21:14.884-07:00",
+      "contentSha256": "abff899952880a6abdfe07bcdcfa4485064fe988d3abf9e3247fa2a3aa873f90",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432072232728793200",
+      "timestamp": "2025-10-26T11:23:46.898-07:00",
+      "contentSha256": "be570e22e8a9b93ad00bf9bc135c6ce91760d92b63f397b7f6e7026d61d9a573",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432072641673564171",
+      "timestamp": "2025-10-26T11:25:24.398-07:00",
+      "contentSha256": "9a1729bb4c86ddc1840a234d7bf47a97feb800720e872011b3013c61cc21daf0",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432073126308741401",
+      "timestamp": "2025-10-26T11:27:19.944-07:00",
+      "contentSha256": "144a5e98bdd256324736fd93df594edbbcd0e8a0f1ed4ce69ba06ab910a190b1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432073236241453056",
+      "timestamp": "2025-10-26T11:27:46.154-07:00",
+      "contentSha256": "6b384c71d99461f717dbc297457c9bc006891c872713a60f88c447727522128a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432073292696784988",
+      "timestamp": "2025-10-26T11:27:59.614-07:00",
+      "contentSha256": "4f5154a0126cfbc713f715ce89fcb0c3ecde197ad9c0fa31f80dabb45ec7938c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432073443720823038",
+      "timestamp": "2025-10-26T11:28:35.621-07:00",
+      "contentSha256": "3ca8e0b981c3952822475b53d1ddfd454fd4b33ea7b4e48de88b58a960a14845",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432073730439516184",
+      "timestamp": "2025-10-26T11:29:43.98-07:00",
+      "contentSha256": "b73578e9d7d0b7d9f4f9c5849867a9ff1f6c0230e689aa295f6c3208822e9f87",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432073788861976736",
+      "timestamp": "2025-10-26T11:29:57.909-07:00",
+      "contentSha256": "94af651c2c0307ab999c813324b3d295eb403e0c4f9b65350f2ca34ce283759a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432074153829339167",
+      "timestamp": "2025-10-26T11:31:24.924-07:00",
+      "contentSha256": "f74145c3eae8e7cfc03b9b58c9cd7e083d8bc27fa42969a48beb28a85047bfaa",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432074198733426688",
+      "timestamp": "2025-10-26T11:31:35.63-07:00",
+      "contentSha256": "f1dac9f29f29bedaf7e6b339df840edebff224a3fe10caed828f91bcd1b194a6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432074384511860737",
+      "timestamp": "2025-10-26T11:32:19.923-07:00",
+      "contentSha256": "17eea68589b89cf602d428e6f93c1b44f694d6c705a34f609d9fab6f43f9f97d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432074599192989748",
+      "timestamp": "2025-10-26T11:33:11.107-07:00",
+      "contentSha256": "b147f5da789adc151d3d9510bd9d320012255cec50f88c63467ebf0e62bc71c2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432075314921472181",
+      "timestamp": "2025-10-26T11:36:01.75-07:00",
+      "contentSha256": "1607a1416c9f5385b3fa6a3d178b763dc94f4ccb0db943d4caaf808d6c73a145",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432075498346778626",
+      "timestamp": "2025-10-26T11:36:45.482-07:00",
+      "contentSha256": "90355fdb2befe5db419a793faed17d0b1aa49bc6221be250e16b1683d5bfdcdf",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432075705931534337",
+      "timestamp": "2025-10-26T11:37:34.974-07:00",
+      "contentSha256": "3733ae4b1c83c16438652940418af175de0696aabd0d31dcb94040f8f9aa4007",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432076108550897734",
+      "timestamp": "2025-10-26T11:39:10.966-07:00",
+      "contentSha256": "72c2eb8eca1f0e55874e4261395c68f20f8fc7d28d90de975df7ca5f60e286e4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432076309747732553",
+      "timestamp": "2025-10-26T11:39:58.935-07:00",
+      "contentSha256": "4cd2a9b1049ebe00d81b5ef42cab9d378bb9c73620cbedfc0e559ac771f83d8b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432076566166376521",
+      "timestamp": "2025-10-26T11:41:00.07-07:00",
+      "contentSha256": "d400bd342d83b295ba0f4a1093d02011d972b92217cf8edf8bd035b61e60c93d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432076613566337154",
+      "timestamp": "2025-10-26T11:41:11.371-07:00",
+      "contentSha256": "8ecd96499f8bf8e5adc8caf13dca37cd7836e39ec2ed1d17fbb32675b8b1fc94",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432076830088757400",
+      "timestamp": "2025-10-26T11:42:02.994-07:00",
+      "contentSha256": "9c6aadf197fd22411e26885cc8daa4a25eb4b0615d60db17678f5efacd78470f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432077798880575509",
+      "timestamp": "2025-10-26T11:45:53.972-07:00",
+      "contentSha256": "cf47fecc7aa699ebda2a9dae31029b3b23c237854ad65be0d293d6a2d84374fd",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432078207288475732",
+      "timestamp": "2025-10-26T11:47:31.344-07:00",
+      "contentSha256": "814b7ae5b30c794541124282fcf383fefd2d681387011784a7c3024d62d463cd",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432078415602913402",
+      "timestamp": "2025-10-26T11:48:21.01-07:00",
+      "contentSha256": "05228a246ad37c663a0d0d50a54b9fe8eb644c26e0384ce6f5b3e6afc1ee5e1a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432080245321633832",
+      "timestamp": "2025-10-26T11:55:37.249-07:00",
+      "contentSha256": "97edc10b5cedf5ecde5f52bdc6f860fe6ce1813406c3a8931c5e038a39647d16",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432080919384031282",
+      "timestamp": "2025-10-26T11:58:17.958-07:00",
+      "contentSha256": "02c3422bf958895b4ec3f0531a3792ff5368d9d1badabad192c31e3dc6b117d1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432081161844166716",
+      "timestamp": "2025-10-26T11:59:15.765-07:00",
+      "contentSha256": "7025fa0eb000c402936f75e4d01a882998be1139b6bc0da043a1ed473ea8cc6e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432081410578976768",
+      "timestamp": "2025-10-26T12:00:15.068-07:00",
+      "contentSha256": "565734dd5e3f950497c5ca8f9fecae8f7c1d80bf5a2a787ce8fcc0f5692c346e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432081495517954100",
+      "timestamp": "2025-10-26T12:00:35.319-07:00",
+      "contentSha256": "70263261f603711b0397c09fd3e5d21c48602f118750845b1e94d0c47a6569e5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432082133769261079",
+      "timestamp": "2025-10-26T12:03:07.49-07:00",
+      "contentSha256": "1ec269261067dbd1ddc5b61dbe41b0ba8a3c05fa54f75689d54d4897d7a29dc3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432082515556044931",
+      "timestamp": "2025-10-26T12:04:38.515-07:00",
+      "contentSha256": "6f628d83f9e91605cbb55cb60c04b3a0a21df46a1d6c907481f922c486b19dfd",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432082543124938834",
+      "timestamp": "2025-10-26T12:04:45.088-07:00",
+      "contentSha256": "110ad069af85cda72e794ae39454abcb19b0a89885b4503357e7f71018e7987e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432082626092470314",
+      "timestamp": "2025-10-26T12:05:04.869-07:00",
+      "contentSha256": "58d91be932f84cd0ae0fe8123bd8bceeedf93be2911197b50a93915a18e4d8af",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432082671105867888",
+      "timestamp": "2025-10-26T12:05:15.601-07:00",
+      "contentSha256": "ca6fd07a6471f90cd3a1abb77de95bb57258df63988ffa771d0ec47bfd92ce24",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432082748121677975",
+      "timestamp": "2025-10-26T12:05:33.963-07:00",
+      "contentSha256": "3197645d7eee675274e192aabf0675efa5a3ec7258e97c010ffe74df34861539",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432083430371365025",
+      "timestamp": "2025-10-26T12:08:16.624-07:00",
+      "contentSha256": "37840ff9f59d6eeac6260a6e6d026a55062dd95b2368998ed73c23cc504d0261",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432084840408154132",
+      "timestamp": "2025-10-26T12:13:52.803-07:00",
+      "contentSha256": "b4de3d9f6efcb1c5e3eb51f07728900e2cd1e2460bbc22cf91aee35cf407bb17",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432085194243833889",
+      "timestamp": "2025-10-26T12:15:17.164-07:00",
+      "contentSha256": "4f0b000d7d0fc6a0005196f5598a1d645a7de8d381237c3d1684c0131d0167ae",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432085536389992710",
+      "timestamp": "2025-10-26T12:16:38.738-07:00",
+      "contentSha256": "1516a35f40b31b3cf446dcd4581e3b4e2e00a28feb728378284e2371b923ce03",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432085673564700745",
+      "timestamp": "2025-10-26T12:17:11.443-07:00",
+      "contentSha256": "571a62891a18f51cb481f4996847a216b99fb62065b2277a6072d6b8e716feb7",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432086544000225502",
+      "timestamp": "2025-10-26T12:20:38.971-07:00",
+      "contentSha256": "c27bbac7f1836ba178a95104f36ad3838ffc06702e6af185f23719f881b70617",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432087138320781315",
+      "timestamp": "2025-10-26T12:23:00.668-07:00",
+      "contentSha256": "a5014fc4d81d0dbc936d2dba0eb645383daa7b27615105940e39f8fb46d506cf",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432088383030693938",
+      "timestamp": "2025-10-26T12:27:57.43-07:00",
+      "contentSha256": "132f4336ac3a86da07a692af55691bb79a73e5b8038bd9bcc5a707ca6388e58d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432088584130658355",
+      "timestamp": "2025-10-26T12:28:45.376-07:00",
+      "contentSha256": "38d3ba680e71c761261aadb6dc93705b953a5110bde3f9c7661ab0b657df64c3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432090359713763330",
+      "timestamp": "2025-10-26T12:35:48.708-07:00",
+      "contentSha256": "60d957c6188d01468dacdd438245442fe568e9f8622fa27d269473df0230f9f0",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432090932563673118",
+      "timestamp": "2025-10-26T12:38:05.286-07:00",
+      "contentSha256": "454b63b98bcfbd3fd3d58594a38f34fc81fd894a36a6a8c6b63f16a0fe43be82",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432091858112090163",
+      "timestamp": "2025-10-26T12:41:45.954-07:00",
+      "contentSha256": "260312e1cb7f8716801e514eb20a9ce6a29cd08fe8958bf1a5eeed684678390f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432092794880524427",
+      "timestamp": "2025-10-26T12:45:29.297-07:00",
+      "contentSha256": "c9f5052be81b1d9bd8f73177bc5676198770edab61e173cd8fe0d0c828ced398",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432092948333592576",
+      "timestamp": "2025-10-26T12:46:05.883-07:00",
+      "contentSha256": "3743501afaad2eb738e1ce47833190fc673a3d0b018bd9664b867994b95d9e2c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432094108666695751",
+      "timestamp": "2025-10-26T12:50:42.528-07:00",
+      "contentSha256": "5486291d68231927322b8cb72a5dff2444b6d16d63df30b5a7e51b9a5daf9d26",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432094639917240471",
+      "timestamp": "2025-10-26T12:52:49.188-07:00",
+      "contentSha256": "d512ba91939b119a6cead58a984abbc532e390f07b2aad7e2fb3d93edaf0c48b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432095067128205412",
+      "timestamp": "2025-10-26T12:54:31.043-07:00",
+      "contentSha256": "94c381d12f8bda9179990ec1cbf086aa75701d296eb56d4e63203160fdb9ea14",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432095076406005926",
+      "timestamp": "2025-10-26T12:54:33.255-07:00",
+      "contentSha256": "97f3e4b29e5261cca0df20ee26e49da422e47d825d678ea25857f034ad714a3a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432095203153678376",
+      "timestamp": "2025-10-26T12:55:03.474-07:00",
+      "contentSha256": "1a6d95a86b35d109ecfed277bf4185e4eb7e8a098e74ead7d3f8df7a4350f891",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432095685649502418",
+      "timestamp": "2025-10-26T12:56:58.51-07:00",
+      "contentSha256": "9d6c99c9da8405bee9a5a7b750d7d49fa4ffa34e8411dd1a7935dbc82facbe18",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432095884975407157",
+      "timestamp": "2025-10-26T12:57:46.033-07:00",
+      "contentSha256": "4cd180c231c6ea2953092b713749f6b1c48e1dd0758373779cdaaaa2c5e2d02b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432096007574782093",
+      "timestamp": "2025-10-26T12:58:15.263-07:00",
+      "contentSha256": "3b5df5f94d5071d0a97cdfcbfcd126d6ab43741ee7f9df57f9ed6fbdb954b9e1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432096355815260383",
+      "timestamp": "2025-10-26T12:59:38.29-07:00",
+      "contentSha256": "b8575eb7865cd31778971956164873fab14f03c7d02bbcdcb5874037c4d307ea",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432096419300249661",
+      "timestamp": "2025-10-26T12:59:53.426-07:00",
+      "contentSha256": "ffdba512f0652d8ecfe3244704b5c74cd28506f0c5a8f32d754e974ddc7b37f0",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432097230629769256",
+      "timestamp": "2025-10-26T13:03:06.862-07:00",
+      "contentSha256": "0dbbd4a0dcca90540817c6365439560d04955260ee64b8236820505a208f976d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432097295436091604",
+      "timestamp": "2025-10-26T13:03:22.313-07:00",
+      "contentSha256": "9f86ae80bd139cb9e88cd5fc6e6b5aa7fb272d20133976e393ffd33c28c52e82",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432097472687116339",
+      "timestamp": "2025-10-26T13:04:04.573-07:00",
+      "contentSha256": "7316b6b238503d0ba1dca00a1601765fabb6b460a581833b9879b1f3aa785b54",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432097845380386986",
+      "timestamp": "2025-10-26T13:05:33.43-07:00",
+      "contentSha256": "43795b35627d1e1b1c9a52eb6ee68d46907a004cf82c3d31ac40a69013e4dc3e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432098337074712658",
+      "timestamp": "2025-10-26T13:07:30.659-07:00",
+      "contentSha256": "29e1ca01c2d35554c6e75cb5a6b592bdf0bc132d8d9bc45d2e319119a23b4ff6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432099551354945686",
+      "timestamp": "2025-10-26T13:12:20.166-07:00",
+      "contentSha256": "79c0ae6ccb4ee08ab0e319cb589ceb178df4a610b27760b27bc340c9876d11ea",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432101001963372655",
+      "timestamp": "2025-10-26T13:18:06.018-07:00",
+      "contentSha256": "27089351dd5dfc83137b73d38b2fb99dbc48e2e36cfdb10364031db4a8a30fe0",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432102729215512756",
+      "timestamp": "2025-10-26T13:24:57.827-07:00",
+      "contentSha256": "59525f342005789291d5edec4b7076371f1dabb62215e3a46a7a8322fa448285",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432103152852795484",
+      "timestamp": "2025-10-26T13:26:38.83-07:00",
+      "contentSha256": "645f83cb1ee5f3c636c7bad299530d514a48967d308356746443311840d763b9",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432104018737365224",
+      "timestamp": "2025-10-26T13:30:05.273-07:00",
+      "contentSha256": "2e35f50d0792d4418c5420e863657876e288f3b8e7c108026dd51fcd87a407fe",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432104371721605130",
+      "timestamp": "2025-10-26T13:31:29.431-07:00",
+      "contentSha256": "00c33e32604376e80468403ea5a8eeae2da0ca106e392546924cbddf9df152ac",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432104726270443732",
+      "timestamp": "2025-10-26T13:32:53.962-07:00",
+      "contentSha256": "0fffaddb05f6ec55e35661b0bdda2ab6f5294f6fbd01916aa589dc80c2a5e253",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432105143381524592",
+      "timestamp": "2025-10-26T13:34:33.409-07:00",
+      "contentSha256": "2761918bb74f2f6aadc5c8c63a38445bf3471cf934680075d3a0b0039a473d9c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432105346641563718",
+      "timestamp": "2025-10-26T13:35:21.87-07:00",
+      "contentSha256": "54bb6553d732e67e1bb97aa40b029b8d1bfb026e1e4b25b14a0be19d939ceeaf",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432106494140223529",
+      "timestamp": "2025-10-26T13:39:55.455-07:00",
+      "contentSha256": "c5f4cf249a01da3df36019b7ab61a019ad6046dc2753cf65c169c22650c7447c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432106669869109278",
+      "timestamp": "2025-10-26T13:40:37.352-07:00",
+      "contentSha256": "220fcfd3f3e379012b37fea2e7be7ed7f628d6069f9a0f3d5126da390633ef8b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432106783073374350",
+      "timestamp": "2025-10-26T13:41:04.342-07:00",
+      "contentSha256": "663dbc46ad088a8b58fbdddb7ada6abb5559eaa9e6700d29e7fadb0643d4c436",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432106971108085840",
+      "timestamp": "2025-10-26T13:41:49.173-07:00",
+      "contentSha256": "199ecf877b10a7fc4c36b1be08e1440ab07a9c2e5d949e0fd9607e6295b8c955",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432107544859508956",
+      "timestamp": "2025-10-26T13:44:05.966-07:00",
+      "contentSha256": "541b4cbf2840f869589c2e7280f5857254995eac2befa6a01073672e05987088",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432108580626235586",
+      "timestamp": "2025-10-26T13:48:12.912-07:00",
+      "contentSha256": "1e98053b7e4d5eaf4e9b1bca0c3273341d0c04de4f92b7942c019c6974caae98",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432108800097259681",
+      "timestamp": "2025-10-26T13:49:05.238-07:00",
+      "contentSha256": "346f5cc3bb55d6f041edf6c6c1b778b926da3723c1cc89602046c5f121e01938",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432109131216588954",
+      "timestamp": "2025-10-26T13:50:24.183-07:00",
+      "contentSha256": "3def7d4131c82f72281a7bb5a78f773c965c6c5409d8880618a4988c4536655d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432109897452879975",
+      "timestamp": "2025-10-26T13:53:26.868-07:00",
+      "contentSha256": "be5fd684eb30cadd4a17d2f2ce17dbab2771480c48c5d766e9baaf4560f7e62e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432111343145586864",
+      "timestamp": "2025-10-26T13:59:11.548-07:00",
+      "contentSha256": "bc59724a27d1e198a520123c688ab3dfebbc3ca6807580304d76cc2b3e0b60bb",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432111541699874967",
+      "timestamp": "2025-10-26T13:59:58.887-07:00",
+      "contentSha256": "ae1a9cfc5e575b4291b5eb13fd2efb8f34c9e39718799ba73c30223dda13519a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432112594940067992",
+      "timestamp": "2025-10-26T14:04:09.999-07:00",
+      "contentSha256": "c0dae04bfa7c141c3f4d56e371d1253a05c9b5ad943e6d11f1dd86d70686f888",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432112656948531383",
+      "timestamp": "2025-10-26T14:04:24.783-07:00",
+      "contentSha256": "2fbfb8954d928a6c928851cd7c8161ae228919746903a0e811d37c366d55d25d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1432113768120189042",
+      "timestamp": "2025-10-26T14:08:49.707-07:00",
+      "contentSha256": "4ac77509326fce15525a857479265359ca370ede1d564ff00285fe64ef391500",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446709414223413289",
+      "timestamp": "2025-12-05T19:46:42.912-08:00",
+      "contentSha256": "2960bfbd949e6238866f390ea1e861ea384b537eb704831561503a030f6b9ac5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446712491596845088",
+      "timestamp": "2025-12-05T19:58:56.615-08:00",
+      "contentSha256": "9a36cc0efda6b90006620a1e045178e5c826ea6675aba407e5e8ab14297449c3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446714526652432386",
+      "timestamp": "2025-12-05T20:07:01.81-08:00",
+      "contentSha256": "65f75e498a1a41d67c16437291d81de0989254bd3fe1f73b4672685d4174ad46",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446718080611909814",
+      "timestamp": "2025-12-05T20:21:09.14-08:00",
+      "contentSha256": "1a0d16ce731637e5f44a1e13b4e42eea37e12130cac2ee3e7677d334b0f585a4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446719357198798868",
+      "timestamp": "2025-12-05T20:26:13.502-08:00",
+      "contentSha256": "fc8e3e7375dfda0cb80c27dc14bfdbf470a42572da3cd43468ce1214d9f55103",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446723411991597106",
+      "timestamp": "2025-12-05T20:42:20.24-08:00",
+      "contentSha256": "e6ea1d9152058a482bee33715abc459a90fac44cd4c840d5450134391ce1a0a2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446728300385800274",
+      "timestamp": "2025-12-05T21:01:45.724-08:00",
+      "contentSha256": "1f57655b55c46faaadae5e393ad5c57f88bb65171a1ad3db4cabb7887412b170",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446729015569158325",
+      "timestamp": "2025-12-05T21:04:36.237-08:00",
+      "contentSha256": "8656eba1f0aa975064df16a16d26d272092491afb997d2b84d6db70e288c06b2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446741967785427067",
+      "timestamp": "2025-12-05T21:56:04.286-08:00",
+      "contentSha256": "10bd4e951cf1cd1f9db7cbceecdeb5660f50a773b9460c3810ab10f79e8812d5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446745355982213172",
+      "timestamp": "2025-12-05T22:09:32.095-08:00",
+      "contentSha256": "ec3cc109f16c0ce942d377da98eefeb6c463baeeffb2e1752fd2739a77054751",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446745964567335072",
+      "timestamp": "2025-12-05T22:11:57.193-08:00",
+      "contentSha256": "3e9955df79104bd870db07af7d96d5aba648e7fdbe3651fb12b5cf22effdc73a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446745978605535404",
+      "timestamp": "2025-12-05T22:12:00.54-08:00",
+      "contentSha256": "49300fcad0f5c9d191e81187a3fc36ffb1db1e81abc536e19138b357968a3961",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446747993427673170",
+      "timestamp": "2025-12-05T22:20:00.911-08:00",
+      "contentSha256": "7ef2c0d26c6a2981f2b8b1fad9628b647faa619cd81911bc08209b195112e92e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446748100910911669",
+      "timestamp": "2025-12-05T22:20:26.537-08:00",
+      "contentSha256": "f2196edbdd9b15eb62a6ffb9459d480bf1b12b93f0b716d9d3857443900a9787",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446748413130444810",
+      "timestamp": "2025-12-05T22:21:40.976-08:00",
+      "contentSha256": "331cfdd0d726d3a6b5d660eca13d090ffdcffefa92a746a0faa0c60213003e34",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446748710968102953",
+      "timestamp": "2025-12-05T22:22:51.986-08:00",
+      "contentSha256": "fda2c24e3f3763d830a8a49cee1167ca8e61f80ab5cec849d82d3b236c92f4ba",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446749496238276648",
+      "timestamp": "2025-12-05T22:25:59.209-08:00",
+      "contentSha256": "d9fc3ebb7bc9e96721b3a555c3ad149677b61b85f95c21a2a2f5084b1d5751d1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1446749807522746442",
+      "timestamp": "2025-12-05T22:27:13.425-08:00",
+      "contentSha256": "206c73ba962fb5cb33d95c1a4654c6ad0532ea3edb0f4a177ccbfafb1d2a8272",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452820534105735278",
+      "timestamp": "2025-12-22T16:30:07.431-08:00",
+      "contentSha256": "9d6365e4d3a8930a33af6669cfd547325f8f1e038056982511bea51c0c7de75b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452821749929476229",
+      "timestamp": "2025-12-22T16:34:57.306-08:00",
+      "contentSha256": "39265dda022cc54f208b5aa074fab251ef712cc12e93c34a1183c286e3c44706",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452822297948852376",
+      "timestamp": "2025-12-22T16:37:07.964-08:00",
+      "contentSha256": "31dd64bb8c073ad5d5c15e0d2f950b724c20e4b46b97de0a01f36bb8897fa227",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452823704894705828",
+      "timestamp": "2025-12-22T16:42:43.406-08:00",
+      "contentSha256": "5a7bd8226f624a2abce4051ec13fcfe5fbeffe92d804ef46bff69dda4e67474f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452824045987958884",
+      "timestamp": "2025-12-22T16:44:04.729-08:00",
+      "contentSha256": "767a2fd491edf2f15c6fd8a660829dfd5909953169b7e8d1216da3ebcccdde13",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452824828154482788",
+      "timestamp": "2025-12-22T16:47:11.212-08:00",
+      "contentSha256": "8d494d11066da4c0c85a27209b4407e16225807cfe32e2bbcd6011ebdc2a9e99",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452826193198972958",
+      "timestamp": "2025-12-22T16:52:36.664-08:00",
+      "contentSha256": "b6a936cdb36455f4e3f9a5e3d568dcb478a90ab75b04eb3812923ee570499565",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452827756428787733",
+      "timestamp": "2025-12-22T16:58:49.367-08:00",
+      "contentSha256": "1bef15e9c6ff219a095aa587f555c299be3d02664d938f4297b949542184b954",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452829344547344439",
+      "timestamp": "2025-12-22T17:05:08.004-08:00",
+      "contentSha256": "1e547b06a5f8995e6aef3380066256e48f252a2aef5a464807fe4865c2f2f1cf",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452829666879475784",
+      "timestamp": "2025-12-22T17:06:24.854-08:00",
+      "contentSha256": "93f1db89ad1597af5744755e3113f5f29b817dc264456ca70566148bdacd671a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452830933987233919",
+      "timestamp": "2025-12-22T17:11:26.956-08:00",
+      "contentSha256": "50e18fcaf6e838faf976debcfc2fd8da39a25cc67ca92d0c4d645c9d63528a86",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452831401841004605",
+      "timestamp": "2025-12-22T17:13:18.501-08:00",
+      "contentSha256": "9103587acd6621a3ed253869bee44d38e9216d68ede7a69cae60a8b3c350c1f8",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452833697949810720",
+      "timestamp": "2025-12-22T17:22:25.936-08:00",
+      "contentSha256": "a4861668c903445b00be5f40c2dc2ac28be679dd88ab953b3b58ce73308c4916",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452834280140181605",
+      "timestamp": "2025-12-22T17:24:44.741-08:00",
+      "contentSha256": "06c6171e48b1aaa5568ebfcc22506fe49d504608847a7a28e832148dfe603176",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452834280295370792",
+      "timestamp": "2025-12-22T17:24:44.778-08:00",
+      "contentSha256": "d7efb205dbaddbf850291805cf0671fdd46b93061d317c861e0f6e93db7f948c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452834641152180416",
+      "timestamp": "2025-12-22T17:26:10.813-08:00",
+      "contentSha256": "1f66d7eff211587cabaa3441e5cd19216dde3934d4b991e1f5e809deffb7daec",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452836375484174430",
+      "timestamp": "2025-12-22T17:33:04.31-08:00",
+      "contentSha256": "5fc65c72c1da9c708c33ddee53b17c11ba14dbe834b7627183b867548cf16f93",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452837187904340079",
+      "timestamp": "2025-12-22T17:36:18.006-08:00",
+      "contentSha256": "1404f91d5106bad0088008bb7b533376f15136ea7d87b91190e4d46c3e54c5af",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452837402581139540",
+      "timestamp": "2025-12-22T17:37:09.189-08:00",
+      "contentSha256": "10d24eda698d3c9c88ab033b7b6f0c7b23f2d71a4b2f0a37768a63841301c1cf",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452837831008587847",
+      "timestamp": "2025-12-22T17:38:51.334-08:00",
+      "contentSha256": "8747164ea51ff333002057e8dee5f24a2a96415e192664c303c07b571f224032",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452838189164396789",
+      "timestamp": "2025-12-22T17:40:16.725-08:00",
+      "contentSha256": "bd25f25d6ad4a6fffa81034924c1b16af1dd397a45305846542fb952a3172cb4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452838531402825759",
+      "timestamp": "2025-12-22T17:41:38.321-08:00",
+      "contentSha256": "d7c5f40cd63d793ec2354fdf82f617ca3f2b397544112a405c3a80b1c5285b15",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452838896256815205",
+      "timestamp": "2025-12-22T17:43:05.309-08:00",
+      "contentSha256": "643163ea8811fffa0cd9e3d1f00f92b011e194c905899d789c5003a1606df0b8",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452839053333631117",
+      "timestamp": "2025-12-22T17:43:42.759-08:00",
+      "contentSha256": "64ecefd742ba25b46e1f9ab5a7424f63244c44b4c386125044840fbd8facba91",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452841315849994314",
+      "timestamp": "2025-12-22T17:52:42.185-08:00",
+      "contentSha256": "0e3e4b83adfc86aa41cd3a974f649b41dfc8d901e79d51ff689bd54b01ed3ca4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452841751940300885",
+      "timestamp": "2025-12-22T17:54:26.157-08:00",
+      "contentSha256": "aa9d8d9e62f80d9b9ba541d45877a7d8916eab1eea30bc2cbb9b114cb6aba68f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452842294213480552",
+      "timestamp": "2025-12-22T17:56:35.445-08:00",
+      "contentSha256": "369c071d5523785fc0015939f5d1ca9ad7d4ae0fef3753d7e380c2dee6f0502b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452842936760008870",
+      "timestamp": "2025-12-22T17:59:08.64-08:00",
+      "contentSha256": "c4c56ed17dc45cb2c43823879c63bd8a7e1de1580849c25ef362bbe5ea9bfe65",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452843680816824423",
+      "timestamp": "2025-12-22T18:02:06.037-08:00",
+      "contentSha256": "86d51458ceefffef539b3ab96eb51c60c61eff7129b177883fefabe746c60906",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452844699810267216",
+      "timestamp": "2025-12-22T18:06:08.984-08:00",
+      "contentSha256": "b9b1badbd06485f1f302628ebd8f74cd5cd7b2f197e1335e8a1548cfd5ea11c2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452845268033863750",
+      "timestamp": "2025-12-22T18:08:24.459-08:00",
+      "contentSha256": "92574d4984c35d93b9dbcce3df1dd5120269eab92cb16a9104c99c6281b066fc",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452845528802136169",
+      "timestamp": "2025-12-22T18:09:26.631-08:00",
+      "contentSha256": "8e724f6f679c78b773126479433ddd94f5ed690a654f4a765555bdb3de084c05",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452845659655901246",
+      "timestamp": "2025-12-22T18:09:57.829-08:00",
+      "contentSha256": "c079174231b41399aa71edd2190c4e412f7c5f560b457c11f822f48eb89d8ee1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452845898559393914",
+      "timestamp": "2025-12-22T18:10:54.788-08:00",
+      "contentSha256": "f1e0898e54b0a3bf1444741b5b32349dc2f5b91bf35d762554ed305f54b5b03d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452846122656862335",
+      "timestamp": "2025-12-22T18:11:48.217-08:00",
+      "contentSha256": "3fb56c1e5427b0e7e3a4b5ccbc488db8822f37b2837fd84e6e65088b13b7aec6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452846581106872493",
+      "timestamp": "2025-12-22T18:13:37.52-08:00",
+      "contentSha256": "323df09e7c6ed1e5494c5846422dfe4abfd77138e21dc5d4a243289d90f7486b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452846851635023884",
+      "timestamp": "2025-12-22T18:14:42.019-08:00",
+      "contentSha256": "7fda08fea048f7719c6d7d1f23e9fd44e480fcb1a34782a77ea446f322005bef",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452847314992627770",
+      "timestamp": "2025-12-22T18:16:32.492-08:00",
+      "contentSha256": "f48a3451709ac882412d4d93576f9eb725fc7aad51a3be8a84b79c027038d173",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452847548057391125",
+      "timestamp": "2025-12-22T18:17:28.059-08:00",
+      "contentSha256": "a68e5c4f480eaf886c924082ef5485a858372921be97b53ac5322ad737d104fd",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452847764722421944",
+      "timestamp": "2025-12-22T18:18:19.716-08:00",
+      "contentSha256": "9098f8246c122de8e38202ec667ed5c55244bbe3d16efd886c257efea8862046",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452847936794001602",
+      "timestamp": "2025-12-22T18:19:00.741-08:00",
+      "contentSha256": "7fe84a58acd6f8fe00629a4c2f76928f246078ff1bf188f68ccfb0158fa4783c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452848512667484181",
+      "timestamp": "2025-12-22T18:21:18.04-08:00",
+      "contentSha256": "06cc1b163000a0cc1fde6e9ec93d2c5c93df267665271c307eb51ce1a0f97501",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452848818746818641",
+      "timestamp": "2025-12-22T18:22:31.015-08:00",
+      "contentSha256": "979d8b5d36d56af16419fc18429e4204a1b9bd8266ef1bba34a660a5b444e12d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452849645008195606",
+      "timestamp": "2025-12-22T18:25:48.011-08:00",
+      "contentSha256": "e4273c2df884b89bd5417320653b7bdb86b653c9a185627ee27f7fbbaa888e06",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452850626441777194",
+      "timestamp": "2025-12-22T18:29:42.003-08:00",
+      "contentSha256": "2eb04905e33cb4e2c66204b82ced51a6791f55ed454ffe43ccb8e71147e12737",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452851109558353982",
+      "timestamp": "2025-12-22T18:31:37.187-08:00",
+      "contentSha256": "bfc13128da14319ddc3c6c716088d46a03ead54b39a13a6c37a95935ce9c0e41",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452851322331201657",
+      "timestamp": "2025-12-22T18:32:27.916-08:00",
+      "contentSha256": "e4f1c01d9852b59cb77f22653c215696c431e77856487437e4f5aa97c52b15d3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452851551684268113",
+      "timestamp": "2025-12-22T18:33:22.598-08:00",
+      "contentSha256": "1b5457d9e2059e47ebd315211f122dc15704dad1b3ed2f087c1f44c73d336654",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452852171384029366",
+      "timestamp": "2025-12-22T18:35:50.346-08:00",
+      "contentSha256": "4ebf7de1c1a5b7673380b2fc15a7d72710a989c3173ddf429dd8dcad9b4856d2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452856870799675636",
+      "timestamp": "2025-12-22T18:54:30.774-08:00",
+      "contentSha256": "1a86655aedd44b05e44f469daa9f1262036be2fa5e86ae3eb9ce68d7c981c898",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452857897984856290",
+      "timestamp": "2025-12-22T18:58:35.674-08:00",
+      "contentSha256": "e354adaa0958343c3bf5e8a9ee3912f4617be437545ab56651b1cc381e975d15",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452858612744720516",
+      "timestamp": "2025-12-22T19:01:26.086-08:00",
+      "contentSha256": "723345dcef81999127951f1bcfc4db6bcbfa827af7e10debfa0128936c5cdddb",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1452861652419743804",
+      "timestamp": "2025-12-22T19:13:30.801-08:00",
+      "contentSha256": "02af17f38feee28e8ef6fc6ea5ebb5a2e3ac04406008363145714069b0d8e4fc",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    }
+  ],
+  "scope": {
+    "corpus": "Original main quest archive, read-only.",
+    "reading": "The three bounded quest sequences and selected memorial/Crucible antecedents are reviewed, with closing rulings and proper reply context. Source discovery, copied working windows and exact ID/hash checks are distinct from exhaustive reading of every cached message. Earlier qualified funeral and later civic background retain their existing public-reference limits.",
+    "excluded": "No raw transcripts, controller identities, private laboratory procedures, intimate material, unreviewed attachments, protected lore or new character/location identity is imported."
+  },
+  "decisions": [
+    "All three already-listed Interregional milestones keep their routes, dates, importance, regions and calendar adjustments. No new event or record is created. Three summaries gain specific action; the related existing duel summary changes only banishment to the source’s exile.",
+    "Aelthor includes preparation, Verdant Circle lightning, field commands, wave attacks, the loss of Scribonia’s simulacrum, Eugene’s contaminated attack, attempts at banishment, the temporal incarnate, Elenia’s healing of Olokun, the uncast Meteor Swarm, the final blow, care for the fallen and Aria’s speech. The staff Beacon of Hope is not confused with a same-named spell.",
+    "Eugene falls, Scribonia believes him dead, and he later wakes while Elenia calls him unconscious. The sequence establishes his awakening but does not establish an exact resurrection spell. Nor does a plan to restore other soldiers prove every attempt succeeded. Casualties remain hundreds or perhaps thousands, not a fabricated exact roll.",
+    "Aria’s and Scribonia’s explanations of the attack remain attributed; neither a secret acquisition nor a universal divine motive is made public fact. Her field authority/acclaim do not replace Zarathis’s civic institutions or prove unanimous support.",
+    "The council includes seating/protocol, Forbiddance affecting Jiangshi’s ancestors, uncertain travel/scouting, Adelia’s absent consent, faction offers, Magnus’s ordinary mirror, the proposed pact and its rejection, and continued war preparations. An attendant, not Jiangshi herself, collects the clothing/bones. Arandiel’s prior erroneous masculine pronoun is corrected against the explicit quest context.",
+    "The mirror is ordinary after Míriel tests it; Magnus’s hopes and restoration claims do not prove a working transport or artifact recipe. Private laboratory details and raw procedures are omitted. Gate travel requires a known destination in this discussion; no universal travel rule is invented.",
+    "Bowene’s rejection replies directly to Olokun’s plea against a pact with Death. It does not end all war preparations. The ending retains his order to stop arguing, his future orders and Scribonia’s qualified offer to navigate.",
+    "Exile’s antecedents distinguish the 99 returned soldiers from those taken by Death: Elenia clarifies they are Aionia’s dead. The sanctioned duel, narrator-reported fall/death, subsequent life/healing and contested ethics do not establish a named resurrection spell or turn Adelia’s attempted-murder accusation into an agreed legal ruling.",
+    "Only Elenia’s departure is required in the judgment. Aravil and Olokun’s solidarity, the invitation to others, material aid, sending stone and possibility of future law reform remain distinct from a permanent universal ban or automatic right to return. The new setting distinguishes the hearing below Ciaránach from departure at the Shining Shores and the Babel destination.",
+    "Adelia supports banishment and later offers aid; Elenia does not accept an immediate reconciliation. Magnus’s promise of Silver Star acceptance is a claim, not completed membership. Proposed companions are not a confirmed roster, and no unrecorded crossing is invented."
+  ],
+  "preservation": {
+    "baselineFiles": 1631,
+    "existingChangedContent": [
+      "content/records/defense-of-aelthor.json",
+      "content/records/elenias-exile.json",
+      "content/records/event-chronicles.json",
+      "content/records/war-council-death.json",
+      "content/reference/event-chronicles.json",
+      "content/reference/world.json"
+    ],
+    "oldChapterDestinationsRetained": 15,
+    "allOtherContentAndAssetsExact": true,
+    "timelineObjects": 389,
+    "people": 262,
+    "publicEvents": 363,
+    "browsePreviews": 261,
+    "privatePayloadSha256": "b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e",
+    "privatePayloadBytes": 5251167
+  },
+  "verification": "Static canonical/source/calendar/portrait/preview/protected checks and focused reading/timeline/mobile journeys pass. The existing hosted story gate covers all 36 pages without new stages/dependencies. Publication results are recorded in docs/MORE_MAJOR_EVENT_STORIES_2026_10_29.md."
+}

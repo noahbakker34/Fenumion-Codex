@@ -2,6 +2,14 @@
 
 Last updated: 2026-10-29
 
+## More major timeline stories · 29 October 2026
+
+The owner requests more major events. Three existing Interregional stories expand in place: Aelthor 526→1,598 words, war council 564→1,724 and exile 468→1,571, seven chapters each. The accounts include the defense’s waves/cost, the council’s practical failures and rejected pact, and the hearing’s divided friends/legal compromise/departure. All fifteen older chapter destinations remain. No new event, page, identity or image; Alavara remains excluded. Details: MORE_MAJOR_EVENT_STORIES_2026_10_29.md and content/reference/more-major-event-stories-review-2026-10-29.json.
+
+All 299 cited native quest versions and two exact quotations are checked. Source windows and discovery are not exhaustive archive reading. Speakers’ beliefs, research hopes, accusations and intentions stay attributed; the ordinary mirror, uncast Meteor Swarm, disputed Eugene recovery, 99 soldiers versus Death’s victims, sanctioned duel and conditional return remain precise. Beacon of Hope is a staff; an attendant gathers the bones; Arandiel’s earlier masculine pronoun is corrected. No laboratory recipe, raw/controller/private/intimate material or unreviewed attachment is imported.
+
+Only six old content files change, with three event summaries and one banishment→exile term correction. Other metadata, dates/importance/regions/calendar, all unrelated records/assets/roles/maps/quotes/261 previews and the complete private payload are exact. Catalog293 retains 640 records/591 complete public bodies, 262 people/363 public events/36 story pages, now 2,635 sections. Local static/source/preservation/calendar and focused complete-body, actual-card, fifteen-bookmark, filtered-return, fresh-mobile, eight-link and search checks pass; screenshots are inspected. No runtime/style/dependency or workflow stage changes. Publication receipt follows.
+
 ## Expanded key timeline stories · 29 October 2026
 
 The owner asks for full, readable histories behind established timeline events, emphasizing Nienna’s sacrifice and then World Changing/Interregional entries; Alavara is explicitly excluded. The existing Fall of Wrath grows from 731 to 1,695 words and Aria’s Last Battle from 685 to 1,742, retaining their routes and twelve old chapter destinations. Nienna’s existing Regional milestone opens a new 1,495-word/eight-chapter Hallowing story. All three follow the quest through its ending and immediate aftermath, retaining disagreement, failed offers, humor and grief. No new milestone or importance/calendar change. Details: KEY_EVENT_STORIES_2026_10_29.md and content/reference/key-event-stories-review-2026-10-29.json.

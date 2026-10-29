@@ -1,0 +1,1358 @@
+{
+  "reviewed": "2026-10-28",
+  "request": "Give Vaemyr the fuller, source-checked profile treatment.",
+  "baseCommit": "5997c76bc4c5ceb71e4594b6dcbcbdbfedf4932c",
+  "profile": {
+    "chapters": 7,
+    "sectionsBefore": 14,
+    "sectionsAfter": 24,
+    "wordsBefore": 1425,
+    "wordsAfter": 3276
+  },
+  "scope": {
+    "databasesSearched": 32,
+    "overlappingOccurrences": 522417,
+    "matchingContentVersions": 3676,
+    "limits": "This is discovery across overlapping caches, not exhaustive reading of all messages. Selected complete quest exchanges, narrator rulings/endings, the non-explicit Tower reconciliation and later disappearance statements are read. Raw transcripts, controller data, intimate material, unreviewed attachments and protected sources remain external."
+  },
+  "verifiedSourceIdentities": 162,
+  "newReceipts": [
+    {
+      "channel": "1199083630354501673",
+      "id": "1253854857555611691",
+      "timestamp": "2024-06-21T16:31:33.538-07:00",
+      "contentSha256": "62d74a12a58e9b0296dc09e688883e085f7d6031fa1a85db613dfdaa94b29e58",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1253854857555611691"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1253857264586981376",
+      "timestamp": "2024-06-21T16:41:07.419-07:00",
+      "contentSha256": "548d98895065a6723e9d6a94fae94e6e7b6176e88fee293cccc349ba93c23946",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1253857264586981376"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1253869137772675102",
+      "timestamp": "2024-06-21T17:28:18.207-07:00",
+      "contentSha256": "d83476048d3c2b0181b03208e51f39df590febdd6091baf72a34d6d4f26cdfa6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869137772675102"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1253869237844312166",
+      "timestamp": "2024-06-21T17:28:42.066-07:00",
+      "contentSha256": "b74cf38991389bc0c51323abb8872e4f644c5a995c111c6271c5d61c34c3dd4b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869237844312166"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1253869786602147942",
+      "timestamp": "2024-06-21T17:30:52.9-07:00",
+      "contentSha256": "ec266d48fff88fb26b56df2430873ed2d7d56ebca21478c69c345ac84e3057ae",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869786602147942"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256025389747404853",
+      "timestamp": "2024-06-27T16:16:28.739-07:00",
+      "contentSha256": "a546ab6aa9a7a085a4ed3f9acd7b0305b755a763dd333b8d7b6267bbb5037145",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256025389747404853"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256031730188550175",
+      "timestamp": "2024-06-27T16:41:40.418-07:00",
+      "contentSha256": "f37456f7a932359b644d20edcdd7f5273ca31165741d99355b74636647c0737c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256031730188550175"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256037679426965668",
+      "timestamp": "2024-06-27T17:05:18.827-07:00",
+      "contentSha256": "6a6e3ce90904d429d4a3ab482a5d92fac7ece3b53d75bfa3891be17078144084",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256037679426965668"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256038054360121478",
+      "timestamp": "2024-06-27T17:06:48.218-07:00",
+      "contentSha256": "3c07b8eb7dc7e915514694d13fe30a510bd57cbd2d593593fe103927cbfe749e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038054360121478"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256038425661014038",
+      "timestamp": "2024-06-27T17:08:16.743-07:00",
+      "contentSha256": "ecd71738d3eedf542391391aec14ae0ef17892feb185a5a185df870ff62dd924",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038425661014038"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256039228199010394",
+      "timestamp": "2024-06-27T17:11:28.083-07:00",
+      "contentSha256": "67066a1268f24290da2b35fef9987354a4320dfee3467374ff3d3a9050fe8abb",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039228199010394"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256040236350312572",
+      "timestamp": "2024-06-27T17:15:28.445-07:00",
+      "contentSha256": "9bc104014c879b3af1047de54f89ee60dbce52298fa1c72d3c6bd49f0ace4256",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256040236350312572"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256080707722285077",
+      "timestamp": "2024-06-27T19:56:17.572-07:00",
+      "contentSha256": "c40f5153b2fd4dd078b75d8a30f8abb2995326ce40fe525e4576ae01fc5af979",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256080707722285077"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256081482045329460",
+      "timestamp": "2024-06-27T19:59:22.185-07:00",
+      "contentSha256": "7b289af9496a646c6a037355a577917c45715f5ae35a9f80401937a3e626acd9",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256081482045329460"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256082104274653194",
+      "timestamp": "2024-06-27T20:01:50.536-07:00",
+      "contentSha256": "3c7b74c88a2641c13f923db72ff786796a5e3b77790b074179b1d2c8c80c57f3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082104274653194"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256082759550632118",
+      "timestamp": "2024-06-27T20:04:26.766-07:00",
+      "contentSha256": "4b95b1d463e0cdfb768550664c200adf370f70c97baad4c0d9e54cc16f7da8c3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082759550632118"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256082952912244816",
+      "timestamp": "2024-06-27T20:05:12.867-07:00",
+      "contentSha256": "292ced42af3279ba5441f3a83e2d9e3f953a67861e804f3b23f2794f199d5b19",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082952912244816"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256083194168741928",
+      "timestamp": "2024-06-27T20:06:10.387-07:00",
+      "contentSha256": "8d1d53c865998c04c5d717889865b2e3af0758fbe5e65c9d126699eee9a47ff3",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256083194168741928"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1256084270246531092",
+      "timestamp": "2024-06-27T20:10:26.944-07:00",
+      "contentSha256": "c6e40f5db6b594a14d191ff2a4e780d8ebceab8ec9ba9482394cc2a44925f1c5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1256084270246531092"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257101472923910164",
+      "timestamp": "2024-06-30T15:32:26.961-07:00",
+      "contentSha256": "88bba4da2434fccad80ed5ca9d0c687dcded9bc1c73785e7fc31d6ce37ebd335",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257101472923910164"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257102359063171246",
+      "timestamp": "2024-06-30T15:35:58.233-07:00",
+      "contentSha256": "06beb1a45d21603359d840d46260d3f797fb8eff11970cbddfc2b4ec84c2e033",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257102359063171246"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257107626035249164",
+      "timestamp": "2024-06-30T15:56:53.977-07:00",
+      "contentSha256": "597be979ec089fb3bf31e9f5d51c62b44f1ff9183c186a08e866d19adc951c22",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257107626035249164"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257112406673588265",
+      "timestamp": "2024-06-30T16:15:53.77-07:00",
+      "contentSha256": "4b90b865240b9ab3543dd6969e00f4413f901048e69e101ebf7ca3beb318e897",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257112406673588265"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257116946327928844",
+      "timestamp": "2024-06-30T16:33:56.108-07:00",
+      "contentSha256": "794f863ae35817696876a28e7f51db657053b585eb44d13f44769ff9d570a688",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257116946327928844"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257121667495366669",
+      "timestamp": "2024-06-30T16:52:41.722-07:00",
+      "contentSha256": "8dbd007658d1b6197ee39890a5797e1202a949c9f575669930bcdce012672183",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257121667495366669"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257122221755858975",
+      "timestamp": "2024-06-30T16:54:53.868-07:00",
+      "contentSha256": "768129fffbec25d993d37194f3778e414803a8e61d8f549af5700c57a7898b9d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257122221755858975"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257123684657795072",
+      "timestamp": "2024-06-30T17:00:42.651-07:00",
+      "contentSha256": "adb8283348bf04100066b9f9fbf17f01da2d8052900a3eb9cd74e1b3abb563cb",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257123684657795072"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257124021842087946",
+      "timestamp": "2024-06-30T17:02:03.042-07:00",
+      "contentSha256": "8580ee05cdc4199450565d82e0e8596257692999130fd0c01cbe81916d7dba42",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124021842087946"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257124652711542866",
+      "timestamp": "2024-06-30T17:04:33.453-07:00",
+      "contentSha256": "81c9370fe681d3f5a611559b94bf69e37a08e6f7ab115f087aac508d4aa3395b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124652711542866"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257124883545198654",
+      "timestamp": "2024-06-30T17:05:28.488-07:00",
+      "contentSha256": "bf5dab1ba3e5e0f7abe4721f0ee9a3a1d3403789c829bde6cd8eb956f3445135",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124883545198654"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257125805150965802",
+      "timestamp": "2024-06-30T17:09:08.216-07:00",
+      "contentSha256": "59803eb3dde66d99c5eadbf26dc2fd375ed335a9954fd303f241f58b688ae874",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257125805150965802"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257127801606373547",
+      "timestamp": "2024-06-30T17:17:04.208-07:00",
+      "contentSha256": "af412ca0ce9f6f48f4917ec2d3ae1c9f2ac7e28eab40e2e79791e063201d9930",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257127801606373547"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257128237667192863",
+      "timestamp": "2024-06-30T17:18:48.173-07:00",
+      "contentSha256": "47fd48df70dc688859c00afd765a623099f89d1587ed047237d71ac20d801f5e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257128237667192863"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257128668799696936",
+      "timestamp": "2024-06-30T17:20:30.963-07:00",
+      "contentSha256": "b335f26e84f67eb5d0ee9d64217697c459f78aefdd368273d34f5e781e8817da",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257128668799696936"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257129078931062877",
+      "timestamp": "2024-06-30T17:22:08.746-07:00",
+      "contentSha256": "000652785c298de783a3f62644bc53cf52b4bd97432973003c409f218b9818d9",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257129078931062877"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257129713457954946",
+      "timestamp": "2024-06-30T17:24:40.029-07:00",
+      "contentSha256": "1b4ea6ab253afc4bb21ab4267e2c5e53295deceb6ea42708753e548959abfcce",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257129713457954946"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257129803702599770",
+      "timestamp": "2024-06-30T17:25:01.545-07:00",
+      "contentSha256": "144528f7aa69e379a24b6b1b4058d608e79e9714a8a2e90f681012cad13e4316",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257129803702599770"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257132422869549147",
+      "timestamp": "2024-06-30T17:35:26.003-07:00",
+      "contentSha256": "a7f9ed79586fdcfdd1da84026d15b40b6621b9c0ed9ef719b893ed4e9188a2fb",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257132422869549147"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257133696184746016",
+      "timestamp": "2024-06-30T17:40:29.585-07:00",
+      "contentSha256": "3d8c2120a64bc80ebea2d92b8cd6b6722adfa7053db12455ec2ac49d1ef625e8",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133696184746016"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257133944412049499",
+      "timestamp": "2024-06-30T17:41:28.767-07:00",
+      "contentSha256": "89a713adf12cc6f9c2c4435e8f77d9c0306de3503f58cc1375c1c3d0894a6459",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133944412049499"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257134445736104098",
+      "timestamp": "2024-06-30T17:43:28.292-07:00",
+      "contentSha256": "10b3eeee09678241de6a95da1e991c638e4c3ccf7878cce71baf389de0a7bf47",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257134445736104098"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257134749055582270",
+      "timestamp": "2024-06-30T17:44:40.609-07:00",
+      "contentSha256": "9396ad52816b95ec929cc0d1258493680f760ad858e03d2e34306219a713be34",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257134749055582270"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1257135993207656529",
+      "timestamp": "2024-06-30T17:49:37.238-07:00",
+      "contentSha256": "c8e6e8315619e659a4e139a99da971ee843e4c7d7ce0451268c6c6d0c7455b0e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1257135993207656529"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260039385907466290",
+      "timestamp": "2024-07-08T18:06:40-07:00",
+      "contentSha256": "13dc9eeef58baecf577afb306ab5b6fefdb18ac5dc46de867aaab2b7105abbf7",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260039385907466290"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260039518120312915",
+      "timestamp": "2024-07-08T18:07:11.522-07:00",
+      "contentSha256": "6feb4c2f9948ed41621deb258cdf6cee13dfa3e6c4b75e5443940fb0940d09da",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260039518120312915"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260040282544799796",
+      "timestamp": "2024-07-08T18:10:13.775-07:00",
+      "contentSha256": "07c3b4dff6f3b66272893c61879d040c10ba37478954790bb1b9ddfe93d62d15",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260040282544799796"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260047676645314582",
+      "timestamp": "2024-07-08T18:39:36.666-07:00",
+      "contentSha256": "2ad54ccfa2eefc5fdeb7aa8917021da5c6b10591bcc151a18bf78e2b9b187161",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260047676645314582"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260059419450802237",
+      "timestamp": "2024-07-08T19:26:16.369-07:00",
+      "contentSha256": "6a6d47c889f970d223bc0355b6a1f993549d5f0f308db710663bad580d4e8ef4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260059419450802237"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260062738638442527",
+      "timestamp": "2024-07-08T19:39:27.725-07:00",
+      "contentSha256": "c525b6a5a9cb5dab6802f5a85db7108b2ae02b80e1bbeed7ffd0acaa3a40a671",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260062738638442527"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260071947849568401",
+      "timestamp": "2024-07-08T20:16:03.372-07:00",
+      "contentSha256": "36c64a94daff885a15fe563b8a0272af32fcefbc10fc2880a3546bf193766dab",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260071947849568401"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260075491394584598",
+      "timestamp": "2024-07-08T20:30:08.219-07:00",
+      "contentSha256": "891dbb7ce33713fd543fd1cded9d811de4c40c90cb121100aea44fe42fc7f039",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260075491394584598"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260085766000869376",
+      "timestamp": "2024-07-08T21:10:57.876-07:00",
+      "contentSha256": "4de509c5c2033d28419a289af1fa21b5414c4f95b4415c4b71978f141a1cf247",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260085766000869376"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260092294170673268",
+      "timestamp": "2024-07-08T21:36:54.313-07:00",
+      "contentSha256": "975af090303764d93d526c240662e67a82449bdcf994caa5daa076d329d78c0d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260092294170673268"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260095146872016896",
+      "timestamp": "2024-07-08T21:48:14.45-07:00",
+      "contentSha256": "6cec98f041fe965bfee2aa0d2c66598cea46ff53e3dface7ebb0167c17fc9d49",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095146872016896"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260095731969294346",
+      "timestamp": "2024-07-08T21:50:33.948-07:00",
+      "contentSha256": "c1185bfebfa11ce6d0113ed7f7517d297d7d44d796b66353e0e9b0c263c96a7b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095731969294346"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260095961825415219",
+      "timestamp": "2024-07-08T21:51:28.75-07:00",
+      "contentSha256": "8cf6ed5d75be50137a7b8641d74bb32036f58fc929afe2c7678c9bc150fce48e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095961825415219"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1260096234568548432",
+      "timestamp": "2024-07-08T21:52:33.777-07:00",
+      "contentSha256": "2796f6d6edb262b2927a3beac5d5fc32ca99c5bbb72f4ce6a63514a556b787f2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1260096234568548432"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270777155755708476",
+      "timestamp": "2024-08-07T09:14:43.83-07:00",
+      "contentSha256": "a0cc39eaa4316ef9e0daf67d82fc8831dc4acbfaee0e99cef6d072dff33f4283",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270777155755708476"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270788559799976039",
+      "timestamp": "2024-08-07T10:00:02.766-07:00",
+      "contentSha256": "e60270a55ce01d08c3828ec7cedd28c31d4615c59319838199ca2ffe64a294a9",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270788559799976039"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270790398398304256",
+      "timestamp": "2024-08-07T10:07:21.122-07:00",
+      "contentSha256": "7530bf14f3613cb8223d60a7c58e03d68337d3b4f043e920a3dc74e609a833ce",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270790398398304256"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270790835088392415",
+      "timestamp": "2024-08-07T10:09:05.237-07:00",
+      "contentSha256": "57f20746f3d6d26528c4f090e20b246d8fe90511427328892271fddabd986537",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270790835088392415"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270793875266474019",
+      "timestamp": "2024-08-07T10:21:10.072-07:00",
+      "contentSha256": "8a262eabdf5c8f728bccaa397173abb6ade4794694131b6f13c38bdc302026a1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270793875266474019"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270846750692741220",
+      "timestamp": "2024-08-07T13:51:16.556-07:00",
+      "contentSha256": "95127832ead19efd337f03018066b252e0bc261d72adbcd8e11406d470404dfa",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270846750692741220"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270847221725921312",
+      "timestamp": "2024-08-07T13:53:08.859-07:00",
+      "contentSha256": "c6d15a19afa1e16e6ad8df6a8cdfa1ae965ac22c03af7efa321be58e07611627",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270847221725921312"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270847620834922580",
+      "timestamp": "2024-08-07T13:54:44.014-07:00",
+      "contentSha256": "e6922eb1b4ee0a29d2c8f40b647b500e397eb44057315e65ffdbe3d6eb6f0c5a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270847620834922580"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270847809515687998",
+      "timestamp": "2024-08-07T13:55:28.999-07:00",
+      "contentSha256": "a70d4877d51900cbef8a37b0cd1e153ff21253f9bc6edb2e0a7855ad4a372228",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270847809515687998"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270848019914424364",
+      "timestamp": "2024-08-07T13:56:19.162-07:00",
+      "contentSha256": "5328a5b92c6600ad8e97299b8f1a11389705ca599e2ffb98f15d4cddeb648f1f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270848019914424364"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270849313840304128",
+      "timestamp": "2024-08-07T14:01:27.658-07:00",
+      "contentSha256": "daa68ec8bde6bbb81f337544470ca084c24d11d6fe923f9aaf7bc921b2ecddca",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270849313840304128"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270849315153117226",
+      "timestamp": "2024-08-07T14:01:27.971-07:00",
+      "contentSha256": "3e0e1d96737fecaa2f41a53991f38d8d3954868b2477bcf024be1018a8fa9d99",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270849315153117226"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270849780788105216",
+      "timestamp": "2024-08-07T14:03:18.987-07:00",
+      "contentSha256": "7453d78d0745a2cc3f86f3e725f50f0757de5a0de413058d38fc3cde89fccec1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270849780788105216"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270850546798170233",
+      "timestamp": "2024-08-07T14:06:21.618-07:00",
+      "contentSha256": "aab11830e1db9b01679f091078d840c1679ae3e53b71404ee9c5bf8c5c61b1a8",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270850546798170233"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270851702437838950",
+      "timestamp": "2024-08-07T14:10:57.144-07:00",
+      "contentSha256": "a6181248cde66709a92ecb0059573f5f8b55840f0eb2daf7e3eb78905a36d0cd",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270851702437838950"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270852108853448736",
+      "timestamp": "2024-08-07T14:12:34.041-07:00",
+      "contentSha256": "ec3fc4e733446d1b617fc6067fcb4e068525c1d74171401efd3b76a423f1cb69",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270852108853448736"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1270853147723829278",
+      "timestamp": "2024-08-07T14:16:41.727-07:00",
+      "contentSha256": "084fa733004608a14289c654246e3112c603a80585711b19c9ad3e041a6ad81e",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1270853147723829278"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286817462964191244",
+      "timestamp": "2024-09-20T15:33:11.083-07:00",
+      "contentSha256": "4b08c872ea721dfc9d4f27f255fa1d0d7c8247c2b26786f077967033716856af",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286817462964191244"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286817796633661487",
+      "timestamp": "2024-09-20T15:34:30.636-07:00",
+      "contentSha256": "ad4e62c7fc1cc1a961e521449c2d05a1a633de5c20e3a8f6f29615be41f922bd",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286817796633661487"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286818949941563458",
+      "timestamp": "2024-09-20T15:39:05.606-07:00",
+      "contentSha256": "2646b5f00f7747af87b41b201f80510efe0da5aae8ee2d3614c7b3a21d9495d5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286818949941563458"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286819867663798312",
+      "timestamp": "2024-09-20T15:42:44.408-07:00",
+      "contentSha256": "abc68f106eb8a9b1011d1c7d8772ed48031ac44ad7f580279df975a3e52e6310",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286819867663798312"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286822357482082378",
+      "timestamp": "2024-09-20T15:52:38.027-07:00",
+      "contentSha256": "774f222eb9d7dd1db10ee7e59d8645ed83fcb053efc83fa20597ba932f5b2e3b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286822357482082378"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286822489699127316",
+      "timestamp": "2024-09-20T15:53:09.55-07:00",
+      "contentSha256": "44cd1061c75373bed0f6aa4abf5c6d78cf2bc42edcdbc7c30678c175ed542c82",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286822489699127316"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286823569480880263",
+      "timestamp": "2024-09-20T15:57:26.99-07:00",
+      "contentSha256": "08c7dbe3e9750951025ff7f96f949111bde3352738ec4e00c544a714f822043f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286823569480880263"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286832165136498768",
+      "timestamp": "2024-09-20T16:31:36.354-07:00",
+      "contentSha256": "0928c3da62b28719929f1c34c61825035432803f116ce55eb00d57c8b3a2a100",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286832165136498768"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286834045149253703",
+      "timestamp": "2024-09-20T16:39:04.584-07:00",
+      "contentSha256": "a927c92fa302e7029a7d9d28a8b3e17bd709f46135865364138923c88eb3087d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286834045149253703"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286846033594159105",
+      "timestamp": "2024-09-20T17:26:42.852-07:00",
+      "contentSha256": "23f3f70c6355f5eacc439a0e069267335dd8081bb13a1df57145672c7b18dafe",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286846033594159105"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286849639823315020",
+      "timestamp": "2024-09-20T17:41:02.644-07:00",
+      "contentSha256": "399077b887101fd250ab5db1dbbdf2d93b4447d5c2aaf7dde887987e254f26d7",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286849639823315020"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286849818462912514",
+      "timestamp": "2024-09-20T17:41:45.235-07:00",
+      "contentSha256": "dcf0b4148d141e26d96f28a97170fc690d5eee2e9a2e695aa19e0241ecb4f2c4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286849818462912514"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286855806620401756",
+      "timestamp": "2024-09-20T18:05:32.923-07:00",
+      "contentSha256": "9426c1d56706a4b9ecd72feb8d22bb6b881ecb5b3ae6563f4b83b6de9e30d1d5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286855806620401756"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286864732514684938",
+      "timestamp": "2024-09-20T18:41:01.022-07:00",
+      "contentSha256": "7292e815273b3f69fc78da17b6f2c4306cd43110259ed4d8445095540b77fbc1",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286864732514684938"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286873540972380180",
+      "timestamp": "2024-09-20T19:16:01.122-07:00",
+      "contentSha256": "d9178e44f281cfbce09adf9c408e3aa665e5c7e5cc66426dcaabfed075e08a3c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286873540972380180"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286879394085732362",
+      "timestamp": "2024-09-20T19:39:16.613-07:00",
+      "contentSha256": "83e36d9d29c49bdd1e65f1449ee9cf3d0224f0ca3cc95b42eb0a8156fb927a9b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286879394085732362"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286883693222166599",
+      "timestamp": "2024-09-20T19:56:21.607-07:00",
+      "contentSha256": "851e75bfb300d06978d2492bfbf3fced305518a0288c525b0d5c4d68b85da1c9",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286883693222166599"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286891757044367391",
+      "timestamp": "2024-09-20T20:28:24.172-07:00",
+      "contentSha256": "6b9f6454c0b0b89d5f3e743723a706a44ce0698285352c9cc8470ba9c77feec5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286891757044367391"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286891939131817996",
+      "timestamp": "2024-09-20T20:29:07.585-07:00",
+      "contentSha256": "c7ded23f450bb063ce960dd758e3bcdf7ebc222a0baffd9294388cd3eddfa645",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286891939131817996"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286892157176643637",
+      "timestamp": "2024-09-20T20:29:59.571-07:00",
+      "contentSha256": "db0ece3b01d32822fe8bc60ad5088133baa5eda758ed842df1f90ae935283ddf",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286892157176643637"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1286893877764165703",
+      "timestamp": "2024-09-20T20:36:49.791-07:00",
+      "contentSha256": "ab96e731293176c4af5a5612a1e337059e2b24a9fb23edbfdbae3782d335ca94",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1286893877764165703"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291199923932631050",
+      "timestamp": "2024-10-02T17:47:31.2-07:00",
+      "contentSha256": "0822baf05b29390163ba02a38761ce07f68e96a176984075aebcb9f4272c18a2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291199923932631050"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291202021126574143",
+      "timestamp": "2024-10-02T17:55:51.21-07:00",
+      "contentSha256": "14ac6b89609dd8c65b8d25c92fa7ae3b8852201af099de232b386ad2c335c904",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291202021126574143"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291204467261177859",
+      "timestamp": "2024-10-02T18:05:34.414-07:00",
+      "contentSha256": "21c3b6bcea06f6e52ef1b24f51ee7777e33c67bdecc3470dffdc2ee25317fef4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291204467261177859"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291205169463300137",
+      "timestamp": "2024-10-02T18:08:21.832-07:00",
+      "contentSha256": "e9d277f98a36aeb5ed80b478270cd737577331e9435ee33cb1f304b1ee476586",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291205169463300137"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291205851196952686",
+      "timestamp": "2024-10-02T18:11:04.37-07:00",
+      "contentSha256": "83e9e82a284a0e9fb084c2705251e0a9e64cc228bb423165941fb01b05be7c50",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291205851196952686"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291206330094321676",
+      "timestamp": "2024-10-02T18:12:58.548-07:00",
+      "contentSha256": "0285096bb951e0a990bbaccbadc241743279dc89c9fba78b4b48f9c1ec2eac55",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291206330094321676"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291209546852859977",
+      "timestamp": "2024-10-02T18:25:45.483-07:00",
+      "contentSha256": "e7e852c6d969a32568a89a30d8afbde3879a7f50cea7893ec7f6406e7d94acba",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291209546852859977"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291211259223736320",
+      "timestamp": "2024-10-02T18:32:33.744-07:00",
+      "contentSha256": "edf760c607a21e48a8f585c8dde42544af3372ee872bb2374e635daaefb87e05",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291211259223736320"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291211781292687487",
+      "timestamp": "2024-10-02T18:34:38.215-07:00",
+      "contentSha256": "5d8dc78b683be3b8601134a29866d4b1fa08d5bcd021757ab0be7e589d44e70f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291211781292687487"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291212459943657563",
+      "timestamp": "2024-10-02T18:37:20.018-07:00",
+      "contentSha256": "3155d2553f413d26f46d8a4af78d5322e6c60ac743cd4a0663a9b6181ca1cc93",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291212459943657563"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1291214089129037855",
+      "timestamp": "2024-10-02T18:43:48.446-07:00",
+      "contentSha256": "6fd34e3053c87a3db45b9afacd3714cbb5b95158bc3eee3e1c23db8f46cdcbdf",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1291214089129037855"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306434455266656307",
+      "timestamp": "2024-11-13T17:44:06.514-08:00",
+      "contentSha256": "21b54bf229ba526f315b2c5d6393e4df41dc00f428acf41a7efcd126f1685169",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306434455266656307"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306435408288026725",
+      "timestamp": "2024-11-13T17:47:53.732-08:00",
+      "contentSha256": "fb867d1a78cda27e1087c15592255294c1c2ebf3ca1a252c9d7b78dd9e3a78aa",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306435408288026725"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306462846804295770",
+      "timestamp": "2024-11-13T19:36:55.584-08:00",
+      "contentSha256": "7501ae26ec8ed0619ccab4f8e10379e5628dbaf33780f33cf4f9f72a535b14f5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306462846804295770"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306465509973426210",
+      "timestamp": "2024-11-13T19:47:30.533-08:00",
+      "contentSha256": "27f73c8c40bbab5e063e2b5d917aa8bcfd7139694e3b0eaabe35a384b58bb15a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306465509973426210"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306468514915287040",
+      "timestamp": "2024-11-13T19:59:26.967-08:00",
+      "contentSha256": "a9b1df68a569ce695218c232fbbd91992fcbb29d960d5cb683bcd57b3b18c738",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306468514915287040"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306470830607433778",
+      "timestamp": "2024-11-13T20:08:39.071-08:00",
+      "contentSha256": "a79b868785711701fb416047292d4af92b5153e762f7b60b58b56fcb86494a2a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306470830607433778"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306472679209173053",
+      "timestamp": "2024-11-13T20:15:59.812-08:00",
+      "contentSha256": "1ffacd417e8602376b0425ba347eb2a4a1a7b7a9395f0d77b82d88257c693102",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306472679209173053"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306478976503513159",
+      "timestamp": "2024-11-13T20:41:01.204-08:00",
+      "contentSha256": "fdc57289a48552bd8c5e4e2d4feac346290bbdbc2fcb6bb629c0cd0c1fcb5d98",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306478976503513159"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306479997585985546",
+      "timestamp": "2024-11-13T20:45:04.649-08:00",
+      "contentSha256": "1bc44eabd0614b84860ca74680dba1c9237b53f1b55e04cd4f663b31ccdbfd9d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306479997585985546"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306483960737562624",
+      "timestamp": "2024-11-13T21:00:49.538-08:00",
+      "contentSha256": "ee0ad30e7e5fc3af01e127d70b96daad4a8716cedc7bfa12d7281780694fb6f4",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306483960737562624"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1306491931672576010",
+      "timestamp": "2024-11-13T21:32:29.957-08:00",
+      "contentSha256": "e0de7bc84563bf383645cc092c5818dc0e499be8c60c048267d95cfbb10597c5",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1306491931672576010"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1307527704458821664",
+      "timestamp": "2024-11-16T18:08:17.433-08:00",
+      "contentSha256": "3b6266b8299e703c94ec5df382a3f7ee1213cda72b2095a3476e4be72f9b0814",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1307527704458821664"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1307530574264795196",
+      "timestamp": "2024-11-16T18:19:41.648-08:00",
+      "contentSha256": "a98a85d428d7e1ae5e63e65fc9b2ec83a333a8c9ab37c536e4e030d0608c3ed6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1307530574264795196"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1307552924628684820",
+      "timestamp": "2024-11-16T19:48:30.39-08:00",
+      "contentSha256": "f72d0bf44436fa0e8fc3f8d221bb6ec2a3be59b857638f420d8b2ac1ef86586b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1307552924628684820"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1307553900114481174",
+      "timestamp": "2024-11-16T19:52:22.964-08:00",
+      "contentSha256": "520acf01f13ae635e29ef02fc4fd5dfb296dc7702631c36392dfb4cfda60d970",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1307553900114481174"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1307556562117726290",
+      "timestamp": "2024-11-16T20:02:57.635-08:00",
+      "contentSha256": "209b82870b9772f6805486f1fa125db8779f1c17e3f609c6b29f41127d1b3e7b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1307556562117726290"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1307556869220335656",
+      "timestamp": "2024-11-16T20:04:10.854-08:00",
+      "contentSha256": "caf0b46990a9645d04397634a74cd4989f97cd198b41bfb0e4d995661df0a445",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1307556869220335656"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1307559854600228946",
+      "timestamp": "2024-11-16T20:16:02.624-08:00",
+      "contentSha256": "d33be03a60f1f86ea30698a6b2a34551e366bae84f75ec757df4260f13ef9a8b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1307559854600228946"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1307567157386678312",
+      "timestamp": "2024-11-16T20:45:03.744-08:00",
+      "contentSha256": "102fe54893cde5d924268c6b3479feb562512dea4bf1a7f136fc2eaa0a5b05a9",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1307567157386678312"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1308966219054977067",
+      "timestamp": "2024-11-20T17:24:26.039-08:00",
+      "contentSha256": "32bca296b798a38e36d8654e45b1de75525be3844602c8a3cc119228f39c032b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1308966219054977067"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1308984833795559465",
+      "timestamp": "2024-11-20T18:38:24.139-08:00",
+      "contentSha256": "b9130032597944726e109ea9ffa02d4fc8f63a76f2470ec52fc19ab234d23600",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1308984833795559465"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309018075676545125",
+      "timestamp": "2024-11-20T20:50:29.621-08:00",
+      "contentSha256": "0391d3537fc6720be1c34c15214a58174e3b943bfcf7ae469d355e9344d49e7d",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309018075676545125"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309018186166833194",
+      "timestamp": "2024-11-20T20:50:55.964-08:00",
+      "contentSha256": "45502406d96c8a6b4e3ad6c6e929ef2a039a301b922a54782e60319f6c92c327",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309018186166833194"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309018861416480828",
+      "timestamp": "2024-11-20T20:53:36.956-08:00",
+      "contentSha256": "5c17f899a14fc7607ed452c896df6f94f1a9d58447905c5c0ca7b44acbdf46b9",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309018861416480828"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309048304658550885",
+      "timestamp": "2024-11-20T22:50:36.772-08:00",
+      "contentSha256": "51d02afb2368e2e8aa1269c229693b31223677d7e990a7cc9ece26545d4dd99c",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309048304658550885"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309048654438469716",
+      "timestamp": "2024-11-20T22:52:00.166-08:00",
+      "contentSha256": "c8bc4f1bfafb24c1565a5993ad2e3f58bdee37d40c368e034776956ac3be6621",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309048654438469716"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309048954045857814",
+      "timestamp": "2024-11-20T22:53:11.598-08:00",
+      "contentSha256": "b1f79558d78026dfe4d3811ff0b99a8ae2f3426ca005ab767a342635ba8901d2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309048954045857814"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309049741329301504",
+      "timestamp": "2024-11-20T22:56:19.301-08:00",
+      "contentSha256": "5f6861a58c193e5dc97f934b5113d38643472367140b8bf93a81b4a91c168ade",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309049741329301504"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309050451811110934",
+      "timestamp": "2024-11-20T22:59:08.693-08:00",
+      "contentSha256": "50b994359e96bb13e8c6f27b7f99e6fdf94dfb8572145a452919f9667b71ddd6",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309050451811110934"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309051589620793398",
+      "timestamp": "2024-11-20T23:03:39.968-08:00",
+      "contentSha256": "bc55d21a0b4c585a91e4452511e0e869600556ad828c0924891cfa1cefaff47a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309051589620793398"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309052142815940618",
+      "timestamp": "2024-11-20T23:05:51.86-08:00",
+      "contentSha256": "66c0a125d2882e9674cae3850ea44f1d2256030c7c43d3fb4fa55496749c7786",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309052142815940618"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309052937716371456",
+      "timestamp": "2024-11-20T23:09:01.379-08:00",
+      "contentSha256": "b29bd85b57cf76cfdfaac2f4969b16ebdeede5c03974359ba6be09e3139e07b2",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309052937716371456"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309053539376566322",
+      "timestamp": "2024-11-20T23:11:24.826-08:00",
+      "contentSha256": "65253524d5a2e9f02aca407b4b5d280afe5e0936cde0aa800b982a040820cafe",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309053539376566322"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309053594817003581",
+      "timestamp": "2024-11-20T23:11:38.044-08:00",
+      "contentSha256": "95bf089f12a95cabdf6cdf3b475348a19b75978ec7ff0dad75e47c043e5e7b0a",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309053594817003581"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309054588795752498",
+      "timestamp": "2024-11-20T23:15:35.027-08:00",
+      "contentSha256": "90fe9e1412fdf6d93e5d37c6e115964014ea78529c6431cdeb15f944f0113d7f",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309054588795752498"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309055360920977408",
+      "timestamp": "2024-11-20T23:18:39.116-08:00",
+      "contentSha256": "9a3b43efe9e51a33e23caa0c719efe8596b21de44163c98c275125041927bf05",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309055360920977408"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309065264578691135",
+      "timestamp": "2024-11-20T23:58:00.332-08:00",
+      "contentSha256": "ab81031b23c822c41c408d6acd48d779209a0623fcba29176ac8c8b8bd847b57",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199083630354501673/1309065264578691135"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320515737139417158",
+      "timestamp": "2024-12-22T22:18:05.730000+00:00",
+      "contentSha256": "598f1335159bd0cb7899190b3f629b416b759221b71bdfd4a714c8017e855580",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320515737139417158"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320515592331071600",
+      "timestamp": "2024-12-22T22:17:31.205000+00:00",
+      "contentSha256": "eeb9454cfd3dcf32b7a4b2e675f5a7c9a0fc133fec4d1aff1f42f5e162adf723",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320515592331071600"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320515270158061568",
+      "timestamp": "2024-12-22T22:16:14.393000+00:00",
+      "contentSha256": "07c7bc015f12b9a8e0c644912867db22f1e5d270d6c58b9cd46957139db72e0c",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320515270158061568"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320514791369871430",
+      "timestamp": "2024-12-22T22:14:20.241000+00:00",
+      "contentSha256": "d9e0dc07de89ee9a7db386cb35ea3c2b7ecd68bf5fb51db38f2cc8ccf5914629",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320514791369871430"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320513669192351834",
+      "timestamp": "2024-12-22T22:09:52.693000+00:00",
+      "contentSha256": "763c81a84172733e7fc829a139859d440525bcae68d24114c1ed436370ea1363",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320513669192351834"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320511579309215764",
+      "timestamp": "2024-12-22T22:01:34.426000+00:00",
+      "contentSha256": "e8287f31e4fc8fbb8777131b55c21eef7a85f76e50e3064e237be6a377e47608",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320511579309215764"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320509355333914725",
+      "timestamp": "2024-12-22T21:52:44.189000+00:00",
+      "contentSha256": "7dfcd93b040b8ab64811cbddc5bda260582d9cf17dea14bd502e6edd0960d383",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320509355333914725"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320507944844132486",
+      "timestamp": "2024-12-22T21:47:07.902000+00:00",
+      "contentSha256": "d0c695792f26856631fd90ee677c7159ccb7eab1d7bf5435b30a78cc0dc39249",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320507944844132486"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320506794052948019",
+      "timestamp": "2024-12-22T21:42:33.532000+00:00",
+      "contentSha256": "f64742460fbc2155246aaa870e864ca0284cb6492293291831bfa99fff4f8719",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320506794052948019"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320505127445987338",
+      "timestamp": "2024-12-22T21:35:56.182000+00:00",
+      "contentSha256": "103278d91f43a3fa9ebdcbe1a1a578e1af49cf3afdcad8b939690cf96caf8c0d",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320505127445987338"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320503996057653279",
+      "timestamp": "2024-12-22T21:31:26.438000+00:00",
+      "contentSha256": "be3857460a60bdca36270998882224a3304ab7cbb4e8cf81b69882f4c98cefab",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320503996057653279"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320501999497908278",
+      "timestamp": "2024-12-22T21:23:30.421000+00:00",
+      "contentSha256": "de1f7b256815f95ab35ab1c07c014d369ec5d144d6d01d2b3245901eb5d2367f",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320501999497908278"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320501313095602240",
+      "timestamp": "2024-12-22T21:20:46.770000+00:00",
+      "contentSha256": "fa86c7148fddc4fb000ab3ab8bf6d0e5a7ce84ebfb00e7e68350025c33008a8a",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320501313095602240"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1320499574535753859",
+      "timestamp": "2024-12-22T21:13:52.265000+00:00",
+      "contentSha256": "007c0c05b7fe0f1b36d468d7130b98d20fb716a4f6981adeb84707f089c4b94a",
+      "source": "gael-rp/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1250334670957051958/1320499574535753859"
+    },
+    {
+      "channel": "1455580231250350266",
+      "id": "1457919134900687011",
+      "timestamp": "2026-01-06T02:10:08.588000+00:00",
+      "contentSha256": "2645d4f2faecc9a0ce7456f165f00042d3225eae81b92224ad601c28b33ce483",
+      "source": "babel-ashur-mark-of-the-wild/mark-of-the-wild/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1455580231250350266/1457919134900687011"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1501406114753806358",
+      "timestamp": "2026-05-06T02:11:52.534000+00:00",
+      "contentSha256": "80a9d7df6145265da15897432f2ea183cfde50abd2e1af4d5467aa443819d4fe",
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1501406114753806358"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1455358595829862462",
+      "timestamp": "2025-12-30T00:35:28.501000+00:00",
+      "contentSha256": "1b0f3b67a5f396d2a4da051ea33556abd4106e32bc4345caee0946ba46748d0f",
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1294457593296719873/1455358595829862462"
+    },
+    {
+      "channel": "1199085090723074068",
+      "id": "1540437352080605257",
+      "timestamp": "2026-08-21T19:08:04.678000+00:00",
+      "contentSha256": "b90cbf4c398a5cce1ea6a80786b259154f8ffd33531cc052071295d07eddac2e",
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199085090723074068/1540437352080605257"
+    },
+    {
+      "channel": "1199085090723074068",
+      "id": "1495241489096380507",
+      "timestamp": "2026-04-19T01:55:51.244000+00:00",
+      "contentSha256": "a1b2efecc30898c85944666d6f3d947106a68038f672f623c898aaed5a304156",
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "url": "https://discord.com/channels/1177270231513694249/1199085090723074068/1495241489096380507"
+    }
+  ],
+  "decisions": [
+    "Vaemyr remains the same existing player character with original artwork, relationship map, route and seven chapter identities. Fourteen old section targets and seven old chapter targets remain; thirteen old section narratives/evidence panels are exact.",
+    "Ten additions restore practical magic, magical compulsion, imperfect behavior, race humor, Alavara’s actual sacrifice, the proposed Rahu trial, Squiddy’s completed rescue, harvest work, study, the battle departure, reconciliation and later missing reports. No new NPC/generic creature record or image is created.",
+    "The throne narrator explicitly imposes the anger curse. It contextualizes Vaemyr’s behavior without converting the false vision into divine fact or erasing his rough treatment and objection to healing Empty.",
+    "Vaemyr presses Alavara and takes the first blade. Her sorrowful acceptance is not a wish to die. The narrator’s disappearance/portal ending and unknown heroism remain distinct from Vaemyr’s question about whether the task is done. He does not receive sole credit for the company’s action.",
+    "Gudlaug and Beefy Boy win the race. Vaemyr’s puns, pride, rejection of whipping, repeated swats and belated concern for his exhausted wolf remain together. His posture is not rewritten as perfect kindness.",
+    "Diplomatic requests coexist with a willingness to assist covert action and later sharp questioning. Hildethrax offers a long path and Vaemyr promises to return; neither completed Rahu standing nor final resolution of Swift’s case is invented.",
+    "The quest explicitly returns Squiddy alive and well. Vaemyr’s injuries, irritation with Krone, petty amusement at Carmen, practical help and return to study remain. The harvest exchange is an offered lesson, not a demonstrated completed one.",
+    "The primary battle sequence corrects one earlier synthesis: Dale’s fall and the fight-together commitment precede Olokun’s killing blow. All original direct quote blocks and quoted wording survive. No permanent death or later status is inferred from a historic fall.",
+    "The quest explicitly has Vaemyr leave to search for Wren and Olokun’s remains. In the later Tower scene his explanation emphasizes Wren; it does not overwrite the quest. Their observed reconciliation preserves his apology and Wren’s refusal to change her willingness to risk herself. No invented search itinerary or complete cure of their disagreement.",
+    "Arjahn is asked to officiate an intended marriage, then later remembers a proposal plan. No actual proposal, engagement or wedding is confirmed here. Later companions call Vaemyr missing; Olokun’s Astral Sea guess is explicitly not a location finding. Scribonia’s later description of his first students stays attributed.",
+    "Five Vaemyr directory/related summaries and two type labels change; no other world structures, event dates/importance/calendar adjustments, maps, quotes, people roles, media/261 previews or complete private-payload bytes change."
+  ],
+  "editorialDeltas": {
+    "introBefore": "<p>Vaemyr often appears to be the reasonable person in a dangerous room, but reasonableness is only the surface of his character. His recurring question is what responsibility becomes once he chooses to care about another person. He is cautious because promises have consequences, not because he lacks the courage to make them.</p>\n      <p>That concern makes him practical without making him cold. When Olokun wants to keep helping vulnerable commoners during a dangerous journey, Vaemyr says that he wants to help too, then asks whether the company can actually keep them safe. He wants the company to plan for the rescued people’s safety after bringing them out of immediate danger.</p>\n      ",
+    "introAfter": "<p>Vaemyr is a winged tiefling spellcaster who explores dangerous places, studies with other mages and tries to get his companions home alive. He carries a grimoire, uses protective and temporal magic, and is often the one asking the party to slow down. He can also be proud, irritable, funny and badly frightened. His first meeting with Goo requires an apology; a public race exposes both his competitiveness and his affection for a tired wolf.</p><p>When he chooses to care for someone, Vaemyr takes the obligations seriously. Asked to help endangered commoners, he wants to know how the company will keep them safe after the rescue. With <a href=\"#olokun\">Olokun</a> and <a href=\"#wren\">Wren</a>, that careful thinking becomes deeply personal. It helps him remain beside them in danger, and it can also become an attempt to decide what risks another person is allowed to take.</p>",
+    "roadsBefore": "<h2 id=\"vaemyr-roads-return\">The Roads and the November battle</h2>\n<p>On 13 November 2024, Vaemyr returns from the Roads and collapses into Wren’s embrace. He tells her, “For you, Wren, I would make any sacrifice.” Three days later, Olokun’s death nearly breaks his resolve. He forces himself onward: “Not. Yet.”</p>\n<p>Then <a href=\"#dale\">Dale</a> falls, and Wren begins to despair. Bloodied and covered in ash, Vaemyr mouths the commitment that brings his careful thinking into shared danger:</p>\n<div class=\"quote\">I love you. Let's fight together.<cite>Vaemyr, 16 November 2024</cite></div>\n",
+    "roadsAfter": "<h2 id=\"vaemyr-roads-return\">The Roads and the November battle</h2><p>On 13 November 2024, Vaemyr returns from the Roads and collapses into Wren’s embrace. He tells her, “For you, Wren, I would make any sacrifice.” Three days later, Dale falls, and Wren begins to despair. Bloodied and covered in ash, Vaemyr mouths his commitment:</p><div class=\"quote\">I love you. Let's fight together.<cite>Vaemyr, 16 November 2024</cite></div><p>Later in the same battle, Olokun’s death nearly breaks his resolve. He remembers the friend who welcomed him to Prima, then hears Wren and forces himself onward: “Not. Yet.”</p>",
+    "factsBefore": {
+      "Pattern": "Think → admit uncertainty → determine what is owed → commit",
+      "Central bonds": "Wren and Olokun",
+      "Strength": "Consequential compassion",
+      "Method": "Diplomacy without moral softness",
+      "Arc": "Guarded responsibility → irrevocable commitment"
+    },
+    "factsAfter": {
+      "Role": "Tiefling spellcaster and Pristinian adventurer",
+      "Magic": "Grimoire, protective spellwork and temporal magic",
+      "Familiar": "Thys, a bat",
+      "Closest bonds": "Wren and Olokun, his pana",
+      "Public name": "Vaemyr the Arcane, in Ada’s contemporary account",
+      "Later record": "Companions describe him as missing; cause and whereabouts unconfirmed"
+    },
+    "reason": "Replace abstract glance labels with concrete identity/work/status; preserve the interpretive themes in the original narrative. Correct battle order against the original quest and retain all direct quotes."
+  },
+  "preservation": {
+    "oldSections": 14,
+    "oldChapterDestinations": 7,
+    "oldDestinations": 21,
+    "privatePayloadSha256": "b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e"
+  }
+}

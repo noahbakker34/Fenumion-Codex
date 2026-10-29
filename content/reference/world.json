@@ -14000,10 +14000,10 @@
       },
       {
         "title": "Vaemyr",
-        "meta": "Tiefling wizard; diplomat and consequence-minded protector",
+        "meta": "Tiefling spellcaster · Pristinian adventurer",
         "article": "vaemyr",
         "image": "assets/archive/vaemyr-portrait.webp",
-        "summary": "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve."
+        "summary": "A winged mage, protective companion and sometimes difficult friend: from Prima’s dungeons and racecourse to the battle with Wrath, Wren’s return and his later unexplained disappearance."
       },
       {
         "title": "Krone",
@@ -27306,7 +27306,7 @@
       {
         "label": "Vaemyr",
         "article": "vaemyr",
-        "summary": "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve."
+        "summary": "A winged mage, protective companion and sometimes difficult friend: from Prima’s dungeons and racecourse to the battle with Wrath, Wren’s return and his later unexplained disappearance."
       },
       {
         "label": "Gartina",
@@ -27856,7 +27856,7 @@
       {
         "label": "Vaemyr",
         "article": "vaemyr",
-        "summary": "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve."
+        "summary": "A winged mage, protective companion and sometimes difficult friend: from Prima’s dungeons and racecourse to the battle with Wrath, Wren’s return and his later unexplained disappearance."
       },
       {
         "label": "Swift Foot",
@@ -30291,7 +30291,7 @@
       {
         "label": "Vaemyr",
         "article": "vaemyr",
-        "summary": "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve."
+        "summary": "A winged mage, protective companion and sometimes difficult friend: from Prima’s dungeons and racecourse to the battle with Wrath, Wren’s return and his later unexplained disappearance."
       },
       {
         "label": "Olokun",
@@ -32924,9 +32924,9 @@
     },
     {
       "title": "Vaemyr",
-      "meta": "Diplomat and consequence-minded adventurer",
+      "meta": "Tiefling spellcaster · Pristinian adventurer",
       "article": "vaemyr",
-      "summary": "Tests what care demands, then commits fully to the people he chooses—especially Wren and his pana Olokun.",
+      "summary": "A winged mage, protective companion and sometimes difficult friend: from Prima’s dungeons and racecourse to the battle with Wrath, Wren’s return and his later unexplained disappearance.",
       "image": "assets/archive/vaemyr-portrait.webp"
     },
     {

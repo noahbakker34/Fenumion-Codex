@@ -2,12 +2,12 @@
   "id": "vaemyr",
   "title": "Vaemyr",
   "category": "People",
-  "type": "Tiefling wizard; diplomat and consequence-minded protector",
+  "type": "Tiefling spellcaster · Pristinian adventurer",
   "image": "assets/archive/vaemyr-portrait.webp",
   "imageLayout": "portrait-hero",
   "imageAlt": "Close portrait of Vaemyr, a youthful red-skinned tiefling with great curved horns, dark hair, facial runes, and weathered armor",
   "imageCaption": "Vaemyr — consequence-minded adventurer, diplomat, and chosen companion.",
-  "dek": "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve.",
+  "dek": "A winged mage, protective companion and sometimes difficult friend: from Prima’s dungeons and racecourse to the battle with Wrath, Wren’s return and his later unexplained disappearance.",
   "tags": [
     "Vaemyr",
     "Wren",
@@ -16,11 +16,12 @@
     "Responsibility"
   ],
   "facts": {
-    "Pattern": "Think → admit uncertainty → determine what is owed → commit",
-    "Central bonds": "Wren and Olokun",
-    "Strength": "Consequential compassion",
-    "Method": "Diplomacy without moral softness",
-    "Arc": "Guarded responsibility → irrevocable commitment"
+    "Role": "Tiefling spellcaster and Pristinian adventurer",
+    "Magic": "Grimoire, protective spellwork and temporal magic",
+    "Familiar": "Thys, a bat",
+    "Closest bonds": "Wren and Olokun, his pana",
+    "Public name": "Vaemyr the Arcane, in Ada’s contemporary account",
+    "Later record": "Companions describe him as missing; cause and whereabouts unconfirmed"
   },
   "sources": [
     "Complete quest-rp export — Vaemyr scenes and internal narration",
@@ -36,9 +37,171 @@
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1264402799110914079",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1264403043781312594",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1264405027167141979",
-    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264406395512684585"
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1264406395512684585",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253854857555611691",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253857264586981376",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869137772675102",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869237844312166",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869786602147942",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256031730188550175",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256025389747404853",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256037679426965668",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038054360121478",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038425661014038",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039228199010394",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256040236350312572",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256080707722285077",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256081482045329460",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082104274653194",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082759550632118",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082952912244816",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256083194168741928",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1256084270246531092",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257101472923910164",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257102359063171246",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257112406673588265",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257116946327928844",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257121667495366669",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257122221755858975",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257123684657795072",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124021842087946",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124652711542866",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124883545198654",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257125805150965802",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257127801606373547",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257128237667192863",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257128668799696936",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257129078931062877",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257129713457954946",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257129803702599770",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257132422869549147",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133696184746016",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133944412049499",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257134445736104098",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257134749055582270",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257135993207656529",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260039385907466290",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260039518120312915",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260040282544799796",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260047676645314582",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260059419450802237",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260062738638442527",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260071947849568401",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260075491394584598",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260085766000869376",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260092294170673268",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095146872016896",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095731969294346",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095961825415219",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1260096234568548432",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270777155755708476",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270788559799976039",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270790398398304256",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270790835088392415",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270793875266474019",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270846750692741220",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270847221725921312",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270847620834922580",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270847809515687998",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270848019914424364",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270849313840304128",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270849315153117226",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270849780788105216",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270850546798170233",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270851702437838950",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270852108853448736",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1270853147723829278",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286817462964191244",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286817796633661487",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286818949941563458",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286819867663798312",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286822357482082378",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286822489699127316",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286823569480880263",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286832165136498768",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286834045149253703",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286846033594159105",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286849639823315020",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286849818462912514",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286855806620401756",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286864732514684938",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286873540972380180",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286879394085732362",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286883693222166599",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286891757044367391",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286891939131817996",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286892157176643637",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1286893877764165703",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291199923932631050",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291202021126574143",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291204467261177859",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291205169463300137",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291205851196952686",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291206330094321676",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291209546852859977",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291211259223736320",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291211781292687487",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291212459943657563",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1291214089129037855",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306434455266656307",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306435408288026725",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306462846804295770",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306465509973426210",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306468514915287040",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306470830607433778",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306472679209173053",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306478976503513159",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306479997585985546",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306483960737562624",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1306491931672576010",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307527704458821664",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307530574264795196",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307559854600228946",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308966219054977067",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1308984833795559465",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309018075676545125",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309018186166833194",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309018861416480828",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309048304658550885",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309048654438469716",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309048954045857814",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309049741329301504",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309050451811110934",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309051589620793398",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309052142815940618",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309052937716371456",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309053539376566322",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309053594817003581",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309054588795752498",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309055360920977408",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1309065264578691135",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320499574535753859",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320501313095602240",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320501999497908278",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320503996057653279",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320505127445987338",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320506794052948019",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320507944844132486",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320509355333914725",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320511579309215764",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320513669192351834",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320514791369871430",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320515270158061568",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320515592331071600",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1320515737139417158",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455358595829862462",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501406114753806358",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457919134900687011",
+    "https://discord.com/channels/1177270231513694249/1199085090723074068/1495241489096380507",
+    "https://discord.com/channels/1177270231513694249/1199085090723074068/1540437352080605257",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307553900114481174",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307556869220335656",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307567157386678312",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1257107626035249164",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307552924628684820",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1307556562117726290"
   ],
-  "body": "<p>Vaemyr often appears to be the reasonable person in a dangerous room, but reasonableness is only the surface of his character. His recurring question is what responsibility becomes once he chooses to care about another person. He is cautious because promises have consequences, not because he lacks the courage to make them.</p>\n      <p>That concern makes him practical without making him cold. When Olokun wants to keep helping vulnerable commoners during a dangerous journey, Vaemyr says that he wants to help too, then asks whether the company can actually keep them safe. He wants the company to plan for the rescued people’s safety after bringing them out of immediate danger.</p>\n      <h2 id=\"vaemyr-context\">Understand before you destroy</h2>\n<p>A tiefling wizard with a grimoire, Vaemyr investigates unfamiliar magic and supports companions with protective spellwork. His competence does not persuade him that every first impression is correct. On 28 June 2024, he challenges the assumption that killing should be the company’s opening plan.</p>\n<div class=\"quote\">We've all been in situations where we chose violence first. It worked out then that our mistake didn't cost us. All I'm saying is we consider that our first plan shouldn't be to kill when we do not understand the context.<cite>Vaemyr, 28 June 2024</cite></div>\n<p><a href=\"#scribonia\">Scribonia</a> is both a trusted intellectual counterpart and someone he will challenge when certainty runs ahead of evidence. He can rely on another scholar’s expertise without surrendering his own judgment. Later work with <a href=\"#eugene\">Eugene</a> similarly requires trust in competence despite an uneasy familiarity.</p>\n<h2 id=\"vaemyr-diplomacy\">Diplomacy under pressure</h2>\n      <p>During the conflict involving Talon, the Duchess, and the Rahu, Vaemyr favors cooler heads and available diplomatic channels. He distinguishes what he knows from what he assumes rather than bluffing certainty. Yet he is not morally soft. In the Vasatzi Alavara crisis, he faces whether one person’s desire to live can outweigh the lives of an entire continent, acknowledging the victim’s fear without letting sympathy erase the cost to everyone else.</p>\n      <h2 id=\"vaemyr-decisions\">Five decisions that reveal the arc</h2>\n      <p>In June 2024, Vaemyr credits survival to teamwork and calls Olokun <em>pana</em>, allowing belonging to enter his vocabulary. On 30 June, he confronts the proposed sacrifice of Vasatzi Alavara without pretending either that her fear is meaningless or that one life can be weighed without reference to a continent. In July, he wants to protect endangered commoners but asks whether bringing them onward would expose them to a danger the party cannot control.</p>\n      <p>In August, the Talon, Duchess, and Rahu dispute draws out his diplomatic method: separate people whose anger prevents negotiation, identify the leverage that actually exists, and say plainly what remains unknown. By October, those careful habits cannot contain his fear of losing Wren; Olokun has to call him back into the present. He remains cautious, but his responsibilities and personal attachments make it harder to keep his distance.</p>\n      <h2 id=\"vaemyr-olokun\">Olokun, his pana</h2>\n      <p>Olokun welcomes Vaemyr into Prima and gradually becomes his <em>pana</em>. The word’s first recovered use visibly delights Olokun; later it becomes natural between them. Olokun models belonging, challenges caution without mocking it, and can pull Vaemyr back into the present when fear threatens to consume him.</p>\n      <p>When Olokun is brutally killed during the November 2024 catastrophe, Vaemyr nearly loses the will to continue. His internal narration remembers the man who welcomed him to Prima and guided him toward the person he became. Only Wren is identified as a greater influence. He credits these chosen relationships with helping him become who he is.</p>\n      <h2 id=\"vaemyr-calligraphy\">July 2024: the calligraphy lesson</h2>\n<p>Vaemyr’s interest in calligraphy becomes something less easily analyzed when Wren offers a lesson at her home, just the two of them, and calls it a date. On 11–12 July he chooses to make his interest explicit rather than retreat into ambiguity.</p>\n<div class=\"quote\">No pity date. Only an honest desire to learn from a good person.<cite>Vaemyr</cite></div>\n<p>He then admits he would like to learn about that good person as well. The awkwardness matters beside their later intimacy: physical closeness begins as something he cautiously manages and becomes something he actively chooses.</p>\n<h2 id=\"vaemyr-swift\">Swift Foot: grief without forced certainty</h2>\n<p>After <a href=\"#swift-foot\">Swift Foot</a> dies, Vaemyr wants the Rahu witnesses’ account to be false. He searches <a href=\"#captain-hildethrax\">Hildethrax</a> for deception and refuses to let grief settle the evidence in advance.</p>\n<p>When Dorian threatens the witnesses, Vaemyr intervenes, telling his friend that torture will not give him the truth he wants. He protects the witnesses and tries to keep Dorian from destroying himself. Afterward he continues questioning the account; refusing coercion is not the same as accepting every answer.</p>\n<h2 id=\"vaemyr-wren\">Wren and the refusal to leave</h2>\n      <p>Wren is Vaemyr’s strongest personal bond and the point where careful responsibility becomes absolute commitment. When she urges him to leave her and save himself during the catastrophic battle, he refuses, tells her he loves her, and insists that they will fight together.</p>\n      <p>Their bond also contains conflict. Wren’s responsibility to everyone can lead her to spend herself alone, while Vaemyr experiences that sacrifice as abandonment of the person who promised to stand beside him. He wants to protect her and to share decisions about the danger they face.</p>\n      <h2 id=\"vaemyr-roads-return\">The Roads and the November battle</h2>\n<p>On 13 November 2024, Vaemyr returns from the Roads and collapses into Wren’s embrace. He tells her, “For you, Wren, I would make any sacrifice.” Three days later, Olokun’s death nearly breaks his resolve. He forces himself onward: “Not. Yet.”</p>\n<p>Then <a href=\"#dale\">Dale</a> falls, and Wren begins to despair. Bloodied and covered in ash, Vaemyr mouths the commitment that brings his careful thinking into shared danger:</p>\n<div class=\"quote\">I love you. Let's fight together.<cite>Vaemyr, 16 November 2024</cite></div>\n<h2 id=\"vaemyr-public-memory\">Vaemyr the Arcane</h2>\n<p>Ada’s August 2024 Pristinia chronicle celebrates “Vaemyr the Arcane” as a defender, explorer, strategic adviser, and conduit of knowledge. That account establishes public esteem, while his own scenes preserve the uncertainty and awkwardness behind the reputation. The chronicle’s praise remains an attributed civic account.</p>\n<h2 id=\"vaemyr-development\">What attachment changes</h2>\n      <p>Vaemyr’s development is not a simple movement from caution to bravery. Early on, he asks whether he can responsibly take people under his protection. Through Wren, Olokun, and the community around Prima, those people stop being variables considered from outside and become part of who he is.</p>\n      <p>By late 2024 he remains thoughtful, restrained, and capable of diplomacy, but he has accepted that love creates obligations even when protection cannot be guaranteed. The more carefully he understands responsibility, the more people he becomes unable to abandon.</p><h2 id=\"ada-reputation-vaemyr\">Contemporary reputation · 19 August 2024</h2><p>Ada’s profile remembers Vaemyr as arcane defender, strategist, explorer of The Before, investigator of the Pale Man, and dream-correspondent of Scribonia. This is evidence of the intellectual and protective reputation Vaemyr held in Pristinia at the time. <a href=\"#ada-town-chronicler\">Read the chronicler’s evidence boundary.</a></p><h2 id=\"vaemyr-gate-0\">Learning to welcome the stranger</h2><p>Vaemyr’s own arrival briefly turns dangerous when he mistakes Goo’s unfamiliar body for a monster. Olokun identifies Goo as a friend; Vaemyr lowers his crossbow and apologises. Later, he becomes the guide: he reassures Dorian after a Gate attack, insists they move toward safety, and says that service does not have to mean fighting. His caution becomes care for another newcomer. <a href=\"#dorian-ashwood\">Read Dorian’s arrival</a>.</p><h2 id=\"thread-restraint\">Grief and the limits of vengeance</h2><p>During the Swift Foot investigation, Dorian threatens three Rahu witnesses who repeat the account given by their captain. Vaemyr steps between them and refuses to let questioning become torture. Dorian withdraws; the witnesses maintain that they speak what they saw. Their agreement is testimony, not an independent resolution of Swift’s death. Vaemyr’s intervention shows what protecting a friend can require when grief turns toward violence.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270835744268619810\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270838074380779623\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270840856404037744\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270841936948887562\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270843107667214549\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"vaemyr-needing-help\">A companion who also needs help</h2><p>During an expedition in the Month of Cala, Year 1, Vaemyr is the one who needs a potion and other people’s hands. Leo gives him medicine while Gudlaug and Olokun help him stand. Vaemyr asks whether they won. Olokun answers angrily that they did not, blaming the truce being discussed; the return to his feet is not an uncomplicated victory.</p><p>When Empty later says he deserves his suffering and falls, Vaemyr reaches down to help him. He tells him that people are waiting and that he cannot fall here. Vaemyr is still visibly in pain. In the same aftermath he stumbles under a foul-smelling burden and hisses at his protesting familiar that the person cannot help having a condition.</p><p>The episode keeps his concern for another companion beside his own dependence on rescue, confusion and irritation. His protective advice is given from within the injured company, while the others still disagree about what has happened.</p>",
+  "body": "<p>Vaemyr is a winged tiefling spellcaster who explores dangerous places, studies with other mages and tries to get his companions home alive. He carries a grimoire, uses protective and temporal magic, and is often the one asking the party to slow down. He can also be proud, irritable, funny and badly frightened. His first meeting with Goo requires an apology; a public race exposes both his competitiveness and his affection for a tired wolf.</p><p>When he chooses to care for someone, Vaemyr takes the obligations seriously. Asked to help endangered commoners, he wants to know how the company will keep them safe after the rescue. With <a href=\"#olokun\">Olokun</a> and <a href=\"#wren\">Wren</a>, that careful thinking becomes deeply personal. It helps him remain beside them in danger, and it can also become an attempt to decide what risks another person is allowed to take.</p><h2 id=\"vaemyr-context\">Understand before you destroy</h2>\n<p>A tiefling wizard with a grimoire, Vaemyr investigates unfamiliar magic and supports companions with protective spellwork. His competence does not persuade him that every first impression is correct. On 28 June 2024, he challenges the assumption that killing should be the company’s opening plan.</p>\n<div class=\"quote\">We've all been in situations where we chose violence first. It worked out then that our mistake didn't cost us. All I'm saying is we consider that our first plan shouldn't be to kill when we do not understand the context.<cite>Vaemyr, 28 June 2024</cite></div>\n<p><a href=\"#scribonia\">Scribonia</a> is both a trusted intellectual counterpart and someone he will challenge when certainty runs ahead of evidence. He can rely on another scholar’s expertise without surrendering his own judgment. Later work with <a href=\"#eugene\">Eugene</a> similarly requires trust in competence despite an uneasy familiarity.</p>\n<h2 id=\"vaemyr-diplomacy\">Diplomacy under pressure</h2>\n      <p>During the conflict involving Talon, the Duchess, and the Rahu, Vaemyr favors cooler heads and available diplomatic channels. He distinguishes what he knows from what he assumes rather than bluffing certainty. Yet he is not morally soft. In the Vasatzi Alavara crisis, he faces whether one person’s desire to live can outweigh the lives of an entire continent, acknowledging the victim’s fear without letting sympathy erase the cost to everyone else.</p>\n      <h2 id=\"vaemyr-decisions\">Five decisions that reveal the arc</h2>\n      <p>In June 2024, Vaemyr credits survival to teamwork and calls Olokun <em>pana</em>, allowing belonging to enter his vocabulary. On 30 June, he confronts the proposed sacrifice of Vasatzi Alavara without pretending either that her fear is meaningless or that one life can be weighed without reference to a continent. In July, he wants to protect endangered commoners but asks whether bringing them onward would expose them to a danger the party cannot control.</p>\n      <p>In August, the Talon, Duchess, and Rahu dispute draws out his diplomatic method: separate people whose anger prevents negotiation, identify the leverage that actually exists, and say plainly what remains unknown. By October, those careful habits cannot contain his fear of losing Wren; Olokun has to call him back into the present. He remains cautious, but his responsibilities and personal attachments make it harder to keep his distance.</p>\n      <h2 id=\"vaemyr-olokun\">Olokun, his pana</h2>\n      <p>Olokun welcomes Vaemyr into Prima and gradually becomes his <em>pana</em>. The word’s first recovered use visibly delights Olokun; later it becomes natural between them. Olokun models belonging, challenges caution without mocking it, and can pull Vaemyr back into the present when fear threatens to consume him.</p>\n      <p>When Olokun is brutally killed during the November 2024 catastrophe, Vaemyr nearly loses the will to continue. His internal narration remembers the man who welcomed him to Prima and guided him toward the person he became. Only Wren is identified as a greater influence. He credits these chosen relationships with helping him become who he is.</p>\n      <h2 id=\"vaemyr-calligraphy\">July 2024: the calligraphy lesson</h2>\n<p>Vaemyr’s interest in calligraphy becomes something less easily analyzed when Wren offers a lesson at her home, just the two of them, and calls it a date. On 11–12 July he chooses to make his interest explicit rather than retreat into ambiguity.</p>\n<div class=\"quote\">No pity date. Only an honest desire to learn from a good person.<cite>Vaemyr</cite></div>\n<p>He then admits he would like to learn about that good person as well. The awkwardness matters beside their later intimacy: physical closeness begins as something he cautiously manages and becomes something he actively chooses.</p>\n<h2 id=\"vaemyr-swift\">Swift Foot: grief without forced certainty</h2>\n<p>After <a href=\"#swift-foot\">Swift Foot</a> dies, Vaemyr wants the Rahu witnesses’ account to be false. He searches <a href=\"#captain-hildethrax\">Hildethrax</a> for deception and refuses to let grief settle the evidence in advance.</p>\n<p>When Dorian threatens the witnesses, Vaemyr intervenes, telling his friend that torture will not give him the truth he wants. He protects the witnesses and tries to keep Dorian from destroying himself. Afterward he continues questioning the account; refusing coercion is not the same as accepting every answer.</p>\n<h2 id=\"vaemyr-wren\">Wren and the refusal to leave</h2>\n      <p>Wren is Vaemyr’s strongest personal bond and the point where careful responsibility becomes absolute commitment. When she urges him to leave her and save himself during the catastrophic battle, he refuses, tells her he loves her, and insists that they will fight together.</p>\n      <p>Their bond also contains conflict. Wren’s responsibility to everyone can lead her to spend herself alone, while Vaemyr experiences that sacrifice as abandonment of the person who promised to stand beside him. He wants to protect her and to share decisions about the danger they face.</p>\n      <h2 id=\"vaemyr-roads-return\">The Roads and the November battle</h2><p>On 13 November 2024, Vaemyr returns from the Roads and collapses into Wren’s embrace. He tells her, “For you, Wren, I would make any sacrifice.” Three days later, Dale falls, and Wren begins to despair. Bloodied and covered in ash, Vaemyr mouths his commitment:</p><div class=\"quote\">I love you. Let's fight together.<cite>Vaemyr, 16 November 2024</cite></div><p>Later in the same battle, Olokun’s death nearly breaks his resolve. He remembers the friend who welcomed him to Prima, then hears Wren and forces himself onward: “Not. Yet.”</p><h2 id=\"vaemyr-public-memory\">Vaemyr the Arcane</h2>\n<p>Ada’s August 2024 Pristinia chronicle celebrates “Vaemyr the Arcane” as a defender, explorer, strategic adviser, and conduit of knowledge. That account establishes public esteem, while his own scenes preserve the uncertainty and awkwardness behind the reputation. The chronicle’s praise remains an attributed civic account.</p>\n<h2 id=\"vaemyr-development\">What attachment changes</h2>\n      <p>Vaemyr’s development is not a simple movement from caution to bravery. Early on, he asks whether he can responsibly take people under his protection. Through Wren, Olokun, and the community around Prima, those people stop being variables considered from outside and become part of who he is.</p>\n      <p>By late 2024 he remains thoughtful, restrained, and capable of diplomacy, but he has accepted that love creates obligations even when protection cannot be guaranteed. The more carefully he understands responsibility, the more people he becomes unable to abandon.</p><h2 id=\"ada-reputation-vaemyr\">Contemporary reputation · 19 August 2024</h2><p>Ada’s profile remembers Vaemyr as arcane defender, strategist, explorer of The Before, investigator of the Pale Man, and dream-correspondent of Scribonia. This is evidence of the intellectual and protective reputation Vaemyr held in Pristinia at the time. <a href=\"#ada-town-chronicler\">Read the chronicler’s evidence boundary.</a></p><h2 id=\"vaemyr-gate-0\">Learning to welcome the stranger</h2><p>Vaemyr’s own arrival briefly turns dangerous when he mistakes Goo’s unfamiliar body for a monster. Olokun identifies Goo as a friend; Vaemyr lowers his crossbow and apologises. Later, he becomes the guide: he reassures Dorian after a Gate attack, insists they move toward safety, and says that service does not have to mean fighting. His caution becomes care for another newcomer. <a href=\"#dorian-ashwood\">Read Dorian’s arrival</a>.</p><h2 id=\"thread-restraint\">Grief and the limits of vengeance</h2><p>During the Swift Foot investigation, Dorian threatens three Rahu witnesses who repeat the account given by their captain. Vaemyr steps between them and refuses to let questioning become torture. Dorian withdraws; the witnesses maintain that they speak what they saw. Their agreement is testimony, not an independent resolution of Swift’s death. Vaemyr’s intervention shows what protecting a friend can require when grief turns toward violence.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270835744268619810\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270838074380779623\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270840856404037744\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270841936948887562\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1270834012549812365/1270843107667214549\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"vaemyr-needing-help\">A companion who also needs help</h2><p>During an expedition in the Month of Cala, Year 1, Vaemyr is the one who needs a potion and other people’s hands. Leo gives him medicine while Gudlaug and Olokun help him stand. Vaemyr asks whether they won. Olokun answers angrily that they did not, blaming the truce being discussed; the return to his feet is not an uncomplicated victory.</p><p>When Empty later says he deserves his suffering and falls, Vaemyr reaches down to help him. He tells him that people are waiting and that he cannot fall here. Vaemyr is still visibly in pain. In the same aftermath he stumbles under a foul-smelling burden and hisses at his protesting familiar that the person cannot help having a condition.</p><p>The episode keeps his concern for another companion beside his own dependence on rescue, confusion and irritation. His protective advice is given from within the injured company, while the others still disagree about what has happened.</p><h2 id=\"vaemyr-dungeon-and-throne\">Wings, a false promise and an angry rescue</h2><p>In the early dungeon expeditions, Vaemyr checks walls for traps, lends protective magic and asks the company to stay together. When a broken crossing blocks the way, he finally throws back his cloak and exposes the wings he has kept covered. He flies across, then positions himself to catch anyone who falls. He also gets names wrong, complains about the dust and wonders whether any of these adventurers are normal.</p><p>The throne room catches him through his faith. A vision offers him a place among a guardian deity’s greatest protectors; Vaemyr believes the voice may be Helm and approaches the throne marked Peace. The quest narrator explicitly establishes the resulting curse: anger and frustration become constant provocations. His ensuing outbursts belong to that condition. The voice’s divine identity remains his impression, not a finding by the narrator.</p><p>When Empty goes missing, Vaemyr searches the flooded passage and drags him back to camp. Still cursed, he shakes the unresponsive man, blames him for the company’s troubles and tells Alyhotep to let him suffer when healing is offered. Alyhotep helps anyway, and Empty gets up. Rescue, anger and a refusal of kindness all occur in the same episode.</p><h2 id=\"vaemyr-alavara-choice\">Vasatzi Alavara and the first blade</h2><p>The crisis in Rehevä puts a much harsher decision before him. Told that a sacrifice is required to avert catastrophe, Vaemyr asks whether there is another way and insists on speaking to the woman first. In the Sanctum of Celestian, he follows the blood trail, helps the search and questions whether the company has interpreted the evidence correctly.</p><p>Vasatzi Alavara is alive, frightened and explicit that she wants to keep her good life. Vaemyr presses her to consider whether she will deny that life to everyone else. She accepts the sacrifice sorrowfully, still wishing that this were not her fate. When the company prepares the rite, Vaemyr proposes following the order in which the chosen adventurers were named. He takes the first turn himself, prays that her courage will be remembered and stabs her before passing the dagger to <a href=\"#scribonia\">Scribonia</a>.</p><p>He also urges Leo to continue when the younger mage hesitates. After the fourth strike, the narrator describes an eruption of light, the empty altar and the adventurers’ return through the portal. Vaemyr asks whether their task is actually finished. The closing narrator calls their deed heroic and says it will remain unknown to others.</p><h2 id=\"vaemyr-bonecruncher-race\">Bonecruncher, puns and a race he loses</h2><p>At Pristinia’s public race in the Month of Cala, Year 1, Vaemyr is delighted with himself before the starting signal. His wolf will leave the others “howling” in defeat, he announces, then laughs at his own strategy. Once racing, he names the mount Bonecruncher and becomes fiercely competitive.</p><p>He repeatedly refuses to use a whip, although he does swat the wolf’s side to urge it on. He weighs dirty tricks, rejects them, dodges hazards and briefly takes the lead. His conviction that he is treating Bonecruncher humanely sits beside the animal’s growing exhaustion and irritated growl. Vaemyr starts planning a good meal for him regardless of the result.</p><p>When Gudlaug and Beefy Boy pull ahead at the end, Vaemyr finally stops pressing his tired mount. He praises Bonecruncher and takes the winner’s offered hand, smiling with some difficulty. The announcer confirms Gudlaug and Beefy Boy as the victors. Vaemyr’s pride, affection for the wolf and disappointment all survive the finish.</p><h2 id=\"vaemyr-rahu-trial\">The proposed Rahu trial</h2><p>Swift Foot’s death nearly defeats Vaemyr’s own preference for negotiation. Before leaving Pristinia, he privately doubts that he will remain diplomatic. He admits he does not know the existing relationship with the Rahu and seeks an audience with their leaders. At the planning stage, he is also willing to provide invisibility to companions preparing a covert move against Talon; he is willing to pursue diplomacy while helping that covert plan.</p><p>In the meeting, Vaemyr separates an apology made to keep the peoples working together from acceptance of Talon’s account. He questions Talon sharply, asks <a href=\"#captain-hildethrax\">Hildethrax</a> about challenges of honor and then declares that he wants to undergo the trial to become Rahu. The captain initially rebuffs him, then permits him to join while warning that the process is long and difficult.</p><p>Vaemyr says he intends to return in thirty days, first going home to explain his plans to his friends. This establishes an intention and an offered path. It does not establish that he completed the trial, acquired Rahu standing or settled the dispute over Swift’s death. His intervention against Dorian’s threats remains a separate, completed action.</p><h2 id=\"vaemyr-squiddy-and-study\">Traps, Squiddy and another trip to the library</h2><p>The search for Squiddy in the Month of Nuru, Year 1, gives <a href=\"#krone\">Krone</a> and Vaemyr ample opportunity to irritate each other. Vaemyr falls onto spikes, warns the company about traps and proposes taking the lead with his perceptive shield. Then a falling ceiling leaves him coughing dust and telling Krone that, if smashing everything is the plan, he will follow very far behind.</p><p>He keeps working through that frustration. He investigates the magic holding companions overhead, casts as they float back down, checks another dangerous doorway, moves <a href=\"#carmen\">Carmen</a> across an obstacle and flies over himself. He calls stragglers forward and lends protective magic to the group. Carmen’s discomfort later amuses him a little after her persistent mispronunciations, but he still turns to check that she and <a href=\"#pappy\">Pappy</a> are keeping up.</p><p>Seeing Krone’s determination to save a friend also changes the way he looks at the larger man. The rescue succeeds: the closing narrator explicitly returns Squiddy alive and well with the party. While others consider a celebratory drink, Vaemyr heads for the library to resume studying passage between realms.</p><h2 id=\"vaemyr-harvest-basket\">The harvest and the bouncing basket</h2><p>For the autumn harvest, Vaemyr joins the townsfolk with much less expertise. He asks <a href=\"#melian-starguard\">Melian</a> whether someone will explain how to gather the crops, thanks her for arranging guidance and heads toward the potato fields with Nerias.</p><p>He has supplied his own magical assistance: a basket that bounces on his shoulder and needs scolding. Enjoying the ordinary bustle, he initially greets Nerias cheerfully. When Nerias asks for help learning a skill and says his journey to Gael has been delayed, Vaemyr stops joking, offers what instruction he can and asks whether something is wrong. The exchange establishes an offer of help, without inventing a completed lesson.</p><h2 id=\"vaemyr-before-the-battle\">The Roads, his colleagues and an intended marriage</h2><p>The Roads put Vaemyr’s own courage under severe strain. Following <a href=\"#eugene\">Eugene</a>, he uses the rope and Wren’s presence to keep moving as sight and their magical connection fail. His narration is frightened and increasingly desperate; he can encourage the others and still need them to guide him out. Once safely through, he embraces Wren and rejoins the waiting company.</p><p>He is also a working scholar among other scholars. After returning, he tells Scribonia that several experiments concerning Gael have failed, offers him an instrument intended for planar travel and says he has learned the relevant magic. His failed experiments remain part of that account of his work.</p><p>In a quiet conversation before the battle, Vaemyr tells <a href=\"#arjahn\">Arjahn</a> that he intends to wed Wren and wants his friend to officiate. Arjahn later remembers that Vaemyr planned to propose. These records preserve an intention; they do not establish a completed proposal or wedding.</p><h2 id=\"vaemyr-wrath-and-departure\">The broken bargain and departure from the Citadel</h2><p>Vaemyr spends the battle protecting and moving other people while approaching the end of his strength. He warns against needless engagements, places shields around companions and struggles to remain standing through successive encounters. Wren stays near him, checks his injuries and tries to keep him alive. Their support is mutual, even when they cannot agree on what survival demands.</p><p>After further losses in the Citadel, Wren offers herself to Wrath in return for the survivors’ freedom. Wrath does not accept the exchange. Vaemyr cries out against it and accuses Wren of standing alone after promising to fight beside him. She sees her offer as an attempt to save their lives and challenges his earlier insistence that some fights are not hers to bear. He eventually says he should not have stood in her way, but the argument remains painful and unfinished.</p><p>As a mysterious traveler takes Wrath’s remains, Vaemyr no longer tries to fight. He challenges the stranger to demonstrate benevolence by bringing back even one worthy soul; his demand establishes no resurrection. When he hears Wren telling Krone she does not belong, he turns away from the displayed paradise and flies after her. His final quest departure explicitly names a search for Wren and Olokun’s remains. The battle has not produced an uncomplicated victory for him.</p><h2 id=\"vaemyr-tower-reunion\">Finding Wren at the Tower</h2><p>In the Month of Hope, Year 1, Vaemyr returns exhausted and injured to the <a href=\"#tower-of-gael\">Tower of Gael</a>, planning only a short rest before going back out. Wren runs into him in the corridor, and they tumble to the floor. After the shock and awkward apologies, he asks whether she is all right.</p><p>Wren tells him that <a href=\"#dale\">Dale</a> and <a href=\"#saray\">Saray</a> found her after her unsuccessful search for Olokun and Jiangshi. Vaemyr says that he searched for her too and must thank them. On leaving the Citadel, he had set out after Wren and Olokun’s remains. Here he speaks of looking for her.</p><p>He then apologizes for more than their separation. He says fear reduced everything to a plan that had to end with Wren alive, until he forgot that she wanted to save him as fiercely as he wanted to save her. He calls his desire for her to live free of responsibility selfish and hypocritical. Wren does not promise to stop risking herself: she asks to be accepted with both her good and bad qualities. Vaemyr says yes, admits that he will be foolish, weak and impatient again, and tells her he loves her even when she is infuriating or dangerous. They reconcile with her willingness to risk herself still intact.</p><h2 id=\"vaemyr-later-missing\">Later friends, an absent companion</h2><p>The checked scenes do not end with a confirmed permanent retirement at the Tower. By late Year 2, Arjahn tells Eugene that Wren has not seen Vaemyr for a long time and refers to his disappearance. In the Month of Talan, Year 3, Eugene explicitly calls Vaemyr missing.</p><p>Later remarks preserve how much his absence is felt, without locating him. Eugene again describes him as missing in the scroll library. Olokun jokes about retrieving him from the middle of the Astral Sea “or wherever he is.” The qualification matters: this is not a witnessed destination. Scribonia later recalls Vaemyr and Eugene as his first two students, keeping his place in that teaching history distinct from the uncertainty about where he went.</p><p>No reviewed scene here establishes the cause of Vaemyr’s disappearance, a present location, a completed marriage or a later return.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
@@ -180,17 +343,17 @@
       "title": "The Roads and the November battle",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The primary posts establish the order: the centaur falls and Vaemyr promises to fight beside Wren before Olokun’s killing blow. The quoted words are preserved.",
+        "scope": "section",
         "sources": [
-          "Complete quest-rp export — Vaemyr scenes and internal narration",
-          "Vaemyr_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
-          "Dale_and_Vaemyr_Complete_Fenumion_RP_Dossier.md — supplied 6 October 2026; recovered dialogue, chronology and relationship evidence",
-          "Contemporary Chronicle — Ada, Town Chronicler · 19 August 2024",
-          "Gate chronicle · primary arrival and welcome scenes",
-          "Quest-RP thread archive and association map — supplied 11 October 2026; accessible-room evidence; posting dates America/New_York"
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306478976503513159",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307553900114481174",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307556869220335656",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307567157386678312",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307552924628684820",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307556562117726290"
         ]
       }
     },
@@ -309,11 +472,297 @@
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1264406395512684585"
         ]
       }
+    },
+    {
+      "id": "vaemyr-dungeon-and-throne",
+      "title": "Wings, a false promise and an angry rescue",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest preserves these actions and statements. Interpretations, proposals and character conclusions retain their speakers; the stated limits are not completed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253854857555611691",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253857264586981376",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869137772675102",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869237844312166",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1253869786602147942",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256031730188550175",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256025389747404853",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256037679426965668",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038054360121478",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256038425661014038",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256039228199010394",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256040236350312572",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256080707722285077",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256081482045329460",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082104274653194",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082759550632118",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256082952912244816",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256083194168741928",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1256084270246531092"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-alavara-choice",
+      "title": "Vasatzi Alavara and the first blade",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest preserves these actions and statements. Interpretations, proposals and character conclusions retain their speakers; the stated limits are not completed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257101472923910164",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257102359063171246",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257112406673588265",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257116946327928844",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257121667495366669",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257122221755858975",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257123684657795072",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124021842087946",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124652711542866",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257124883545198654",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257125805150965802",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257127801606373547",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257128237667192863",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257128668799696936",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257129078931062877",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257129713457954946",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257129803702599770",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257132422869549147",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133696184746016",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257133944412049499",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257134445736104098",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257134749055582270",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1257135993207656529"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-bonecruncher-race",
+      "title": "Bonecruncher, puns and a race he loses",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest preserves these actions and statements. Interpretations, proposals and character conclusions retain their speakers; the stated limits are not completed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260039385907466290",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260039518120312915",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260040282544799796",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260047676645314582",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260059419450802237",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260062738638442527",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260071947849568401",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260075491394584598",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260085766000869376",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260092294170673268",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095146872016896",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095731969294346",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260095961825415219",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1260096234568548432"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-rahu-trial",
+      "title": "The proposed Rahu trial",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest preserves these actions and statements. Interpretations, proposals and character conclusions retain their speakers; the stated limits are not completed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270777155755708476",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270788559799976039",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270790398398304256",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270790835088392415",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270793875266474019",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270846750692741220",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270847221725921312",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270847620834922580",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270847809515687998",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270848019914424364",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270849313840304128",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270849315153117226",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270849780788105216",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270850546798170233",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270851702437838950",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270852108853448736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1270853147723829278"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-squiddy-and-study",
+      "title": "Traps, Squiddy and another trip to the library",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest preserves these actions and statements. Interpretations, proposals and character conclusions retain their speakers; the stated limits are not completed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286817462964191244",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286817796633661487",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286818949941563458",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286819867663798312",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286822357482082378",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286822489699127316",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286823569480880263",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286832165136498768",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286834045149253703",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286846033594159105",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286849639823315020",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286849818462912514",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286855806620401756",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286864732514684938",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286873540972380180",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286879394085732362",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286883693222166599",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286891757044367391",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286891939131817996",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286892157176643637",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1286893877764165703"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-harvest-basket",
+      "title": "The harvest and the bouncing basket",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest preserves these actions and statements. Interpretations, proposals and character conclusions retain their speakers; the stated limits are not completed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291199923932631050",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291202021126574143",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291204467261177859",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291205169463300137",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291205851196952686",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291206330094321676",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291209546852859977",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291211259223736320",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291211781292687487",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291212459943657563",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1291214089129037855"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-before-the-battle",
+      "title": "The Roads, his colleagues and an intended marriage",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest preserves these actions and statements. Interpretations, proposals and character conclusions retain their speakers; the stated limits are not completed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306434455266656307",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306435408288026725",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306462846804295770",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306465509973426210",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306468514915287040",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306470830607433778",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306472679209173053",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306478976503513159",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306479997585985546",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306483960737562624",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1306491931672576010"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-wrath-and-departure",
+      "title": "The broken bargain and departure from the Citadel",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "The cited quest preserves these actions and statements. Interpretations, proposals and character conclusions retain their speakers; the stated limits are not completed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307527704458821664",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307530574264795196",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1307559854600228946",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1308966219054977067",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1308984833795559465",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309018075676545125",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309018186166833194",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309018861416480828",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309048304658550885",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309048654438469716",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309048954045857814",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309049741329301504",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309050451811110934",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309051589620793398",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309052142815940618",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309052937716371456",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309053539376566322",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309053594817003581",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309054588795752498",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309055360920977408",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1309065264578691135"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-tower-reunion",
+      "title": "Finding Wren at the Tower",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The Tower reunion and reconciliation are directly played. Wren’s recovery account and Vaemyr’s explanation remain attributed; this later RP does not overwrite his quest-established departure or fill the intervening search with invented events.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320499574535753859",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320501313095602240",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320501999497908278",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320503996057653279",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320505127445987338",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320506794052948019",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320507944844132486",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320509355333914725",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320511579309215764",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320513669192351834",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320514791369871430",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320515270158061568",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320515592331071600",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1320515737139417158"
+        ]
+      }
+    },
+    {
+      "id": "vaemyr-later-missing",
+      "title": "Later friends, an absent companion",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "Later quest dialogue describes Vaemyr’s disappearance and remembers his plans. Olokun’s proposed Astral Sea search is explicitly uncertain and cannot establish a location.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455358595829862462",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501406114753806358",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457919134900687011",
+          "https://discord.com/channels/1177270231513694249/1199085090723074068/1495241489096380507",
+          "https://discord.com/channels/1177270231513694249/1199085090723074068/1540437352080605257"
+        ]
+      }
     }
   ],
   "brief": {
-    "identity": "Tiefling wizard; diplomat and consequence-minded protector",
-    "significance": "Vaemyr thinks carefully, admits uncertainty, determines what he owes, and then commits without holding part of himself in reserve.",
+    "identity": "Tiefling spellcaster · Pristinian adventurer",
+    "significance": "A winged mage, protective companion and sometimes difficult friend: from Prima’s dungeons and racecourse to the battle with Wrath, Wren’s return and his later unexplained disappearance.",
     "actions": [
       {
         "title": "Vaemyr’s arrival ends in an apology to Goo",
@@ -331,7 +780,7 @@
         "date": "7 Aug 2024"
       }
     ],
-    "status": "Last dated entry in this selection: 7 Aug 2024. Later status is not established here.",
+    "status": "Directly reunited with Wren at the Tower in the Month of Hope, Year 1. Later quest companions describe him as missing; no confirmed location or return in the reviewed record.",
     "relationships": [
       {
         "id": "wren",
@@ -352,6 +801,16 @@
         "id": "swift-foot",
         "label": "Swift Foot",
         "relation": "Grief held to a standard of evidence"
+      },
+      {
+        "id": "eugene",
+        "label": "Eugene",
+        "relation": "Shared study, the Roads and later concern at his absence"
+      },
+      {
+        "id": "arjahn",
+        "label": "Arjahn",
+        "relation": "Trusted friend whom he asks to officiate an intended marriage"
       }
     ],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
@@ -493,25 +952,28 @@
     ]
   },
   "profile": {
-    "personality": "Vaemyr is careful because he takes consequences seriously. He admits uncertainty, tests whether compassion can actually protect the people it gathers, and can still reach severe moral conclusions when the alternative costs an entire continent. His restraint contains deep feeling rather than replacing it.",
-    "achievements": "He survives repeated dungeon and corruption expeditions, helps stabilize Pristinia, and becomes a useful diplomatic voice during the Talon, Duchess, and Rahu crisis. His decisive achievement is relational: caution matures into a willingness to remain when survival would be easier through abandonment. Intervened in the Swift Foot investigation to stop Dorian threatening witnesses with torture, then completed the questioning without resolving the dispute.",
-    "relationships": "Wren is his deepest bond and the person he refuses to leave even when she asks him to save himself. Olokun is his pana, the man who welcomed him into Prima, pulls him back from fear, and helps shape who he becomes. Those attachments turn responsibility from a calculation into identity."
+    "personality": "Vaemyr asks questions before committing and worries about what rescuing people will require afterward. He can challenge a trusted scholar, make a dreadful pun, become competitive or snap at a companion. The throne-room curse is an explicit magical condition, distinct from those ordinary failings. His later apology to Wren acknowledges that fear made him controlling.",
+    "achievements": "He contributes protective and temporal spellwork, flight, investigation and healing across the early dungeon expeditions. He takes the first turn in Alavara’s sacrifice, intervenes against torture in the Swift Foot investigation, helps rescue Squiddy, supports the harvest and fights through the advance on Wrath’s Citadel. His proposed Rahu trial and planned marriage remain unconfirmed plans.",
+    "relationships": "Wren is his partner and the person he searches for after their argument at the Citadel. Their Tower reconciliation includes his apology and her refusal to change her willingness to risk herself. Olokun welcomes him to Prima and becomes his pana. Scribonia and Eugene share his study and journeys; Arjahn is trusted with his intention to marry. Later companions describe him as missing."
   },
   "readingLayout": "biography",
   "biography": {
     "chapters": [
       {
         "id": "vaemyr-context-and-help",
-        "title": "Understanding danger and needing help",
+        "title": "Magic, mistakes and getting people home",
         "sections": [
+          "vaemyr-dungeon-and-throne",
           "vaemyr-context",
-          "vaemyr-needing-help"
+          "vaemyr-needing-help",
+          "vaemyr-squiddy-and-study"
         ]
       },
       {
         "id": "vaemyr-negotiation-and-choice",
-        "title": "Diplomacy and difficult decisions",
+        "title": "Diplomacy and the sacrifice in Rehevä",
         "sections": [
+          "vaemyr-alavara-choice",
           "vaemyr-diplomacy",
           "vaemyr-decisions"
         ]
@@ -525,35 +987,42 @@
       },
       {
         "id": "vaemyr-wren-and-the-roads",
-        "title": "Wren, a date and the Roads",
+        "title": "Wren, the Roads and finding each other again",
         "sections": [
           "vaemyr-calligraphy",
+          "vaemyr-before-the-battle",
           "vaemyr-wren",
-          "vaemyr-roads-return"
+          "vaemyr-roads-return",
+          "vaemyr-wrath-and-departure",
+          "vaemyr-tower-reunion"
         ]
       },
       {
         "id": "vaemyr-grief-and-restraint",
-        "title": "Swift Foot and the limits of vengeance",
+        "title": "Swift Foot, the witnesses and the Rahu trial",
         "sections": [
           "vaemyr-swift",
+          "vaemyr-rahu-trial",
           "thread-restraint"
         ]
       },
       {
         "id": "vaemyr-reputation-and-arrivals",
-        "title": "Public reputation and the next newcomer",
+        "title": "Race day, harvest and public reputation",
         "sections": [
+          "vaemyr-gate-0",
+          "vaemyr-bonecruncher-race",
           "vaemyr-public-memory",
           "ada-reputation-vaemyr",
-          "vaemyr-gate-0"
+          "vaemyr-harvest-basket"
         ]
       },
       {
         "id": "vaemyr-responsibility-and-bonds",
-        "title": "What his commitments change",
+        "title": "Commitments and the later disappearance",
         "sections": [
-          "vaemyr-development"
+          "vaemyr-development",
+          "vaemyr-later-missing"
         ]
       }
     ],

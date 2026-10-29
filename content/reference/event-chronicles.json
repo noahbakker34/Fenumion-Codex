@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-10-28",
+  "reviewed": "2026-10-29",
   "scope": "All 35 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
   "stories": [
     {
@@ -82,14 +82,30 @@
       ]
     },
     {
+      "article": "hallowing-of-hope",
+      "events": [
+        "Nienna gives herself so Hope can live"
+      ],
+      "chapters": 8,
+      "words": 1495,
+      "sourceReceipts": 101,
+      "existingPublicAccounts": [
+        "nienna",
+        "gael",
+        "elenia",
+        "gartina",
+        "dale"
+      ]
+    },
+    {
       "article": "fall-of-wrath",
       "events": [
         "The assault on Wrath ends with Saray’s blow",
         "Wrath is defeated, but Gael remains dangerous"
       ],
       "chapters": 6,
-      "words": 731,
-      "sourceReceipts": 15,
+      "words": 1662,
+      "sourceReceipts": 149,
       "existingPublicAccounts": [
         "gael",
         "gael-campaign",
@@ -154,9 +170,9 @@
         "Talan kills Aria",
         "Death invokes ownership of Magnus"
       ],
-      "chapters": 6,
-      "words": 685,
-      "sourceReceipts": 13,
+      "chapters": 8,
+      "words": 1742,
+      "sourceReceipts": 131,
       "existingPublicAccounts": [
         "aria-pride",
         "magnus",

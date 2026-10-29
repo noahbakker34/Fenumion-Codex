@@ -3261,7 +3261,7 @@
           "sacrifice",
           "understanding"
         ],
-        "summary": "Arjahn offers himself, Wrath cuts Elenia, and Saray lands the final blow. Dumuzi cradles Roderick afterward; the person beneath Wrath becomes legible without becoming safe.",
+        "summary": "Wrath kills Elenia before Saray lands the final shot. Death carries the fallen knight away and offers his account of the world; the survivors challenge him, recover their dead and seek a return for Elenia.",
         "importance": 5,
         "importanceReason": "Wrath’s death is a world-changing victory in the Final War, followed by Dumuzi’s direct appearance before the company. Gael’s unfinished recovery does not diminish that turning point.",
         "regions": [
@@ -4222,7 +4222,7 @@
           "Justice",
           "body"
         ],
-        "summary": "A confrontation never intended as Aria’s final battle ends with Pride small at Talan’s feet. Dumuzi later asks for her body rather than simply taking it.",
+        "summary": "The expedition reaches a battlefield already at war. Talan kills Aria; Death then kills the Zarathian troops. Her companions dispute his claim to her body and escape with it as the Wyrm approaches.",
         "importance": 5,
         "importanceReason": "The fall of Pride and Zarathis’s cultural leader is a world-changing turning point in the Final War, with consequences beyond the immediate confrontation and region.",
         "regions": [
@@ -5726,14 +5726,14 @@
         "era": "2024 · The Calling",
         "kind": "Voluntary sacrifice",
         "article": "nienna",
-        "location": "Fenumion",
-        "people": "Nienna; Elenia; Hope",
+        "location": "Hope, in Gael",
+        "people": "Nienna; Elenia; Gartina; Adelia; Dale; Jiangshi; Saray; Scribonia",
         "tags": [
           "sacrifice",
           "legacy",
           "one last time"
         ],
-        "summary": "Afraid and wanting to live after the retreat that followed Jiangshi’s June loss, Nienna crosses the Gate and spends her life to create an opportunity for Hope to survive rather than a guaranteed victory. Her absence continues to shape later choices.",
+        "summary": "As the fortress breaks around the Hallowing, Nienna shields Hope and draws the attackers through the Gate. Her companions keep casting after her farewell; the completed spell sends life out through Gael’s poisoned earth.",
         "importance": 3,
         "importanceReason": "A chosen sacrifice or intervention changes the fate of Hope and Gael’s living foothold.",
         "regions": [
@@ -5754,7 +5754,8 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "story": "hallowing-of-hope"
       },
       {
         "title": "Adelia gives herself for Hope",
@@ -19661,6 +19662,10 @@
             {
               "label": "The War for Pristinia",
               "article": "war-for-pristinia"
+            },
+            {
+              "label": "The Hallowing of Hope · Nienna’s Last Run",
+              "article": "hallowing-of-hope"
             }
           ]
         },
@@ -24752,6 +24757,14 @@
         "People of Fenumion",
         "Characters K–Z",
         "Nerias"
+      ]
+    ],
+    [
+      "hallowing-of-hope",
+      [
+        "Timeline",
+        "Event stories",
+        "The Hallowing of Hope · Nienna’s Last Run"
       ]
     ]
   ],
@@ -51564,7 +51577,8 @@
     "gudlaug",
     "empty",
     "alyhotep-bin-baladin",
-    "nerias"
+    "nerias",
+    "hallowing-of-hope"
   ],
   "timelineRegions": [
     {

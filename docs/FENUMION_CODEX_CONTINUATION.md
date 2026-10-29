@@ -2,6 +2,14 @@
 
 Last updated: 2026-10-29
 
+## Expanded key timeline stories · 29 October 2026
+
+The owner asks for full, readable histories behind established timeline events, emphasizing Nienna’s sacrifice and then World Changing/Interregional entries; Alavara is explicitly excluded. The existing Fall of Wrath grows from 731 to 1,662 words and Aria’s Last Battle from 685 to 1,742, retaining their routes and twelve old chapter destinations. Nienna’s existing Regional milestone opens a new 1,495-word/eight-chapter Hallowing story. All three follow the quest through its ending and immediate aftermath, retaining disagreement, failed offers, humor and grief. No new milestone or importance/calendar change. Details: KEY_EVENT_STORIES_2026_10_29.md and content/reference/key-event-stories-review-2026-10-29.json.
+
+All 381 cited native source versions resolve in the main quest and Sanctum corpora, including Gartina’s explicit Reincarnate embed. Selected reading is distinguished from exhaustive cache review. The completed Hallowing narrows one overbroad uncertainty; Nienna’s July return stays separate. Death’s promises, Wrath’s bargain and later Aria claims remain attributed. Elenia’s observed return, Aria’s recovered body and successful escape, and the surviving company’s divisions are not left halfway through. Raw/controller/private/intimate/unreviewed material remains external.
+
+Only seven old content files change; unrelated records/media/roles/maps/quotes, all dated/importance/region metadata and 261 previews are exact. Nienna’s other sections, quotes and reading plan remain; Gael gains a link only. Catalog292 has 640 records/591 complete public bodies, 2,629 sections, 262 people/363 public events and 36 story pages. Local static/source/preservation/calendar and focused full-narrative, timeline-return, old-bookmark, fresh-mobile, link/search checks pass; screenshots are inspected. No runtime/style/asset/dependency or workflow stage change. The complete private payload remains exact. Publication receipt follows.
+
 ## Five missing player histories · 29 October 2026
 
 The owner approves Leo, Gudlaug, Empty, Alyhotep bin Baladin and Nerias while questioning the wider action list. Five already-listed players gain full personal pages: 5,482 words, thirty chapters and 45 evidence sections. Their original artwork/identities/roles survive; directory cards now open their histories, with six reciprocal links in Vaemyr/Azarian Peaks preserving all prior words and evidence. Quest outcomes govern recollection: Leo’s death/undead confrontation, Gudlaug’s race and compulsion, Empty’s accepted bargain, Alyhotep’s undead helper and unresolved restoration/petition, and Nerias’s machine/Squiddy endings retain their qualifications. No invented returns, godhood, cures or completed journeys. Details: FIVE_MISSING_PLAYER_HISTORIES_2026_10_28.md and content/reference/five-player-pages-review-2026-10-28.json.

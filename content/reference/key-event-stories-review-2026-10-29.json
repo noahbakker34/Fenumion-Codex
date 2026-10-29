@@ -9,7 +9,7 @@
     },
     "fall-of-wrath": {
       "chapters": 6,
-      "words": 1662
+      "words": 1695
     },
     "arias-last-battle": {
       "chapters": 8,
@@ -26,7 +26,7 @@
       "words": 685
     }
   },
-  "verifiedSourceIdentities": 381,
+  "verifiedSourceIdentities": 389,
   "newReceipts": [
     {
       "channel": "1199083630354501673",
@@ -884,9 +884,65 @@
     },
     {
       "channel": "1199083630354501673",
+      "id": "1309011779959128094",
+      "timestamp": "2024-11-20T20:25:28.605-08:00",
+      "contentSha256": "db3524b16105065e35f974b95a24c47f726aaad34353d77ae9387695e15faaf8",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309012147698663455",
+      "timestamp": "2024-11-20T20:26:56.281-08:00",
+      "contentSha256": "e3c0d215d6611bdeeac2185edf8548cf623667282170fe814994e58a743eda43",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309012393535475815",
+      "timestamp": "2024-11-20T20:27:54.893-08:00",
+      "contentSha256": "98c4468dce0311208fa186f1dffe241432bf96f7485512abda0fd9f934eda8ef",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309012706702917654",
+      "timestamp": "2024-11-20T20:29:09.558-08:00",
+      "contentSha256": "c3a201f2cd151a0f00a0c3bab64fe6303f9f76233eb598ab85d7b994ec037c5b",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
       "id": "1309013046735274015",
       "timestamp": "2024-11-20T20:30:30.628-08:00",
       "contentSha256": "d2e5eafb05dd2c6db1b6f4e0e65f5140f1d03ffce29ba5dda1c4885fb274d747",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309013603147579402",
+      "timestamp": "2024-11-20T20:32:43.287-08:00",
+      "contentSha256": "d1f2c37c7b34e1a0bbf9ded5629fc95e9385a9c4c683e8b10b09124129220301",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309014000171880460",
+      "timestamp": "2024-11-20T20:34:17.945-08:00",
+      "contentSha256": "5339f1f686542bf87a3f880c3ff9686477d8303d2ebebbc6c3f4cf7c31f0e579",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309014145135284257",
+      "timestamp": "2024-11-20T20:34:52.507-08:00",
+      "contentSha256": "2e4e748f2acfbb7dc76dba4b1ac99c3b95370727dbbae6064451c727de6912be",
+      "source": "quest-rp-thread-associations/main-archive.sqlite3"
+    },
+    {
+      "channel": "1199083630354501673",
+      "id": "1309014203733901352",
+      "timestamp": "2024-11-20T20:35:06.478-08:00",
+      "contentSha256": "71991298ecf68d9e955b6a3cf98d84917e163914ac303dd1fcbe6aee6e6a33a3",
       "source": "quest-rp-thread-associations/main-archive.sqlite3"
     },
     {
@@ -2706,7 +2762,7 @@
   "decisions": [
     "Nienna’s existing Regional milestone gains its own eight-chapter story. The source shows the full preparation, fighting, broken wall, Adelia’s fall, protective barrier, departure, farewells, Death’s threat, sustained casting and final life eruption. The owner explicitly identifies her death as saving Hope. The closing outcome is confirmed; the party does not witness further events beyond the Gate.",
     "The July Plains death and Raise Dead remain separate. Nienna’s existing section destinations and all direct quote blocks survive; one formerly broad Hallowing uncertainty is narrowed by the closing narration, and a direct story link is added.",
-    "Wrath’s two established World Changing milestones retain their single six-chapter destination. The enlarged story preserves the fort’s wards, Endora discussion, offered self-sacrifices, Elenia’s death and Saray’s finishing blow, then follows the exchange with Death and the companions’ refusal/bargaining through their departure. Claims of cosmic truth and eternal rest remain attributed.",
+    "Wrath’s two established World Changing milestones retain their single six-chapter destination. The enlarged story preserves the fort’s wards, Quake’s disguise deceiving the guards, the Steward’s Seal and Saray’s robe payments, Endora discussion, offered self-sacrifices, Elenia’s death and Saray’s finishing blow, then follows the exchange with Death and the companions’ refusal/bargaining through their departure. Claims of cosmic truth and eternal rest remain attributed.",
     "Gartina’s explicit Reincarnate and Elenia’s observed satyr return complete the Wrath aftermath. The retained body, uncertain appearance, shared pleas, casting record and awakening establish a separate restoration; Death’s offers do not cause it. Other lost companions’ returns are not invented.",
     "Aria’s two established World Changing milestones retain the same route and six earlier chapter IDs, with two additional chapters. The disputed mission, one chosen destination, march, two-sided battle, Talan’s killing, Death’s separate massacre, Magnus’s collapse and contested survival, recovered body and successful Plane Shift are all distinguished.",
     "Scribonia’s concealed attack on Aria/Talan is retained beside the narrator’s killing by Talan. Her unused carried relic is retrieved without new mechanics or an invented escape from death. Olokun’s grief, Wren’s refusal, Eugene’s aid and Magnus’s trauma are not resolved into group agreement.",

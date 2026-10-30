@@ -49,6 +49,7 @@ const previews=require('../content/reference/browse-images.json').images;
   await page.locator('#people-gallery-query').fill('Pin');
   await page.locator('#people-gallery [data-character-title="Pelegia"]').waitFor();
   assert.equal(await page.locator('#people-gallery [data-character-title="Pin"]').count(),0);
+  assert(await page.evaluate(()=>characterTimelineItems(archiveIndex.characters.find(person=>person.article==='pelegia')).some(event=>event.story==='return-to-hanas-tower')),'the tower return belongs to Pelegia’s personal timeline under the existing Pin alias');
   await page.locator('#people-gallery-query').fill('Akarian Irenhour');
   await page.locator('#people-gallery [data-article="akarian"]').waitFor();
   await page.locator('#people-gallery-query').fill('no matching character xyz');

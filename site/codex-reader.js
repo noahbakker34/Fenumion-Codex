@@ -103,6 +103,12 @@
     }
     window.revealCodexSection?.(target);target.tabIndex=-1;target.focus({preventScroll:true});
     target.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+    // A late font swap can move a bookmarked heading behind the sticky header.
+    if(document.fonts?.status==='loading')document.fonts.ready.then(()=>{
+      if(target.isConnected&&document.activeElement===target&&target.getBoundingClientRect().top<(document.querySelector('.topbar')?.getBoundingClientRect().bottom||0)){
+        target.scrollIntoView({block:'start',behavior:'auto'});
+      }
+    });
   }
   function biographyLayout(article,root,chapters,sourcePanel){
     const body=root.querySelector('.article-body');

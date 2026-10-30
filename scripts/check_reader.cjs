@@ -67,6 +67,16 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  }
  // Keep the ordinary expandable brief covered as Papirak moves to continuous chapters.
  await go('st-anky');await page.screenshot({path:'/tmp/codex-character-summary-mobile.png',fullPage:true});await page.locator('.character-brief').screenshot({path:'/tmp/codex-brief-mobile.png'});
+ // A cold mobile bookmark must remain below the sticky header after late fonts load.
+ const cold=await browser.newPage({viewport:{width:320,height:844},reducedMotion:'reduce'});cold.on('pageerror',e=>errors.push(e.message));
+ await cold.route('https://auth.fenumion.com/**',r=>r.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
+ let releaseFonts;const heldFonts=new Promise(resolve=>releaseFonts=resolve);
+ await cold.route('**/assets/fonts/**',async route=>{await heldFonts;await route.continue();});
+ await cold.goto(base+'#larkhollow?section=larkhollow-return-to-the-tower',{waitUntil:'domcontentloaded'});
+ await cold.waitForFunction(()=>document.activeElement.id==='larkhollow-return-to-the-tower');releaseFonts();
+ await cold.evaluate(()=>document.fonts.ready);
+ await cold.waitForFunction(()=>document.activeElement.getBoundingClientRect().top>=document.querySelector('.topbar').getBoundingClientRect().bottom);
+ await cold.close();
  // A failed body request can retry, and clearing a pending search stays cleared.
  await page.route('**/data/records/training-dungeon.*.json',route=>route.abort(),{times:1});
  await page.goto(base+'?retry-test=1#training-dungeon?section=training-later-inheritance');await page.locator('.record-load-error').waitFor();

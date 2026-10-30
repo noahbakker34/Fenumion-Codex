@@ -75,3 +75,14 @@ App/catalog251, reader3, styles173. Local timeline, reader, research-journey and
 Public release `7800913ce629a1e96e083af30e831c1784fbdff4` deployed successfully in Pages run `39626246098`. All hosted gates pass, including browser and media regressions. After deployment, thirteen live runtime/catalog/search/record files match the tested build. Fresh anonymous Chrome checks pass for 326 calendar labels, twelve adjustments, Day 930/959 continuity, source receipts, day search, filters, histories and mobile layout. Real vault access returns 401/signin; protected bodies and stub metadata remain absent. Pages package: 800,967,363 bytes. Documentation receipts skip CI.
 
 The matching private calendar upload and complete payload read-back comparison also pass. All non-calendar values remain preserved.
+
+## New quest continuations · 30 October 2026
+
+Two new Regional milestones use the owner’s clear-continuation exception while retaining full source windows. Neither changes earlier milestones.
+
+| Event | Effective date / Final War day | Evidence and reason |
+|---|---|---|
+| Return to Hana’s tower | 27 Oct 2026 / 968 | Source posts 27–29 October. The resumed narrator states Hana has just died and continues directly into the tower investigation, with no new day or rest. `1564812397191888926`, `1565178049870172323`, `1565224421759910029`. |
+| Attack on the Chains | 29 Oct 2026 / 970 | Source posts 29–30 October. Fight, inspection, crossing and an explicitly elapsed hour continue in sequence, without a new day or rest. `1565537618077417676`, `1565571030691348525`, `1565575372119085178`, `1565589283161509899`, `1565592436103708713`. |
+
+The unrelated Tower of Gael petition and earlier Chain inspection remain separate. Both original posting windows, reasons and exact source URLs persist in `dating`; the reader presents Fenumion dates. See QUEST_UPDATE_2026_10_30.md.

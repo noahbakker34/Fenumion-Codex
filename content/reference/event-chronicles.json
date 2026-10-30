@@ -585,6 +585,40 @@
         "olokun",
         "skylight-refuge"
       ]
+    },
+    {
+      "article": "return-to-hanas-tower",
+      "events": [
+        "Hana falls during the return to her tower"
+      ],
+      "chapters": 8,
+      "words": 1653,
+      "sourceReceipts": 243,
+      "existingPublicAccounts": [
+        "hana",
+        "ryvyt",
+        "pelegia",
+        "saelihn",
+        "fenwick",
+        "minerva",
+        "larkhollow"
+      ]
+    },
+    {
+      "article": "attack-on-the-chains",
+      "events": [
+        "The company stops constructs battering the Chains"
+      ],
+      "chapters": 7,
+      "words": 1138,
+      "sourceReceipts": 147,
+      "existingPublicAccounts": [
+        "voraketh",
+        "ithilrune",
+        "sildithas",
+        "coralyn",
+        "pappy"
+      ]
     }
   ],
   "calendarCorrection": {

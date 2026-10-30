@@ -2,6 +2,14 @@
 
 Last updated: 2026-10-30
 
+## New quest accounts · 30 October 2026
+
+The owner supplies the new 497-message quest packet. Two Regional milestones now open full eight-/seven-chapter stories: Return to Hana’s Tower (1,653 words) and The Attack on the Chains (1,138). Twelve existing profiles/places receive fifteen sections; all thirty new sections carry checked quest receipts. Hana’s death updates stale summaries without resolving her forms or the final painting. Pin remains the established Pelegia alias on one canonical profile; Minerva’s relayed safety report stays distinct from later captivity threats. The Chain still suppresses magic; the company has not reached the Maw. Attachments, private/controller/raw material and invented completions remain excluded. Details: QUEST_UPDATE_2026_10_30.md and content/reference/quest-update-review-2026-10-30.json.
+
+All 497 supplied texts and 393 cited native versions match read-only source data; this is not exhaustive older/archive-thread review. Two explicit continuation adjustments retain opening days 968/970 and full source windows. Exactly fifteen old content files change; all 153 old section destinations, 33 reading chapters,  existing event metadata, other content/assets/roles/quotes/maps/261 previews and the complete private payload remain. Catalog 296 has 642 records/593 complete bodies, 2,681 sections, 262 people/365 public events/38 stories. Existing 35 major milestones remain.
+
+Local static/source/preservation/calendar and focused card/full-story/profile/bookmark/return/fresh-mobile/link/search checks pass. Reader15 fixes a still-focused heading obscured by a late font swap; the existing reader test gains a held-font mobile regression, and four existing chapter-count expectations change. No new stage, dependency or workflow. Screenshots are inspected; publication/live receipt follows.
+
 ## Rift and Babel event stories · 30 October 2026
 
 The owner requests the next major-event batch. Clockwork 476→1,449 words/seven chapters, Cthulhu 491→1,525/seven and Babel mist 576→2,276/eight expand in place, serving five existing major milestones. All sixteen old chapter destinations survive; no new event/page/identity/asset, and Alavara remains aside. Details: RIFT_BABEL_EVENT_STORIES_2026_10_30.md and content/reference/rift-babel-event-stories-review-2026-10-30.json.

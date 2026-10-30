@@ -13976,6 +13976,116 @@
           "https://discord.com/channels/1177270231513694249/1250334670957051958/1565043441405272146",
           "https://discord.com/channels/1177270231513694249/1250334670957051958/1565043489845158119"
         ]
+      },
+      {
+        "title": "Hana falls during the return to her tower",
+        "meta": "27–29 Oct 2026 · quest continuation",
+        "sort": "2026-10-27-return-to-hanas-tower",
+        "era": "2026 · Consequence and stewardship",
+        "kind": "Return to Hana’s tower",
+        "article": "verdelune",
+        "story": "return-to-hanas-tower",
+        "location": "Larkhollow and Hana’s tower",
+        "people": "Ryvyt; Pelegia (Pin); Saelihn; Oya; Fenwick; Hana",
+        "tags": [
+          "Hana",
+          "Larkhollow",
+          "tower",
+          "memory"
+        ],
+        "summary": "A search for Ryvyt’s missing friend becomes a tower fight. Hana dies; Ryvyt and Pin continue through damaged clockwork, erased writing and paintings whose last revelation remains open.",
+        "importance": 3,
+        "importanceReason": "Changes a named Verdelune figure’s fate and the investigation of a regional tower; no wider outcome is established.",
+        "regions": [
+          "verdelune"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "One continuous expedition spans these source posts; no intervening rest or new in-world day is established.",
+          "postingWindow": {
+            "start": "2026-10-27",
+            "end": "2026-10-29",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 968,
+            "end": 968,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-27",
+            "reason": "The later narration resumes the same fight and immediate exploration or onward travel. Keep the established starting day for this clear quest continuation, while preserving the full posting window.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1564812397191888926",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1565178049870172323",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1565224421759910029"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564812397191888926",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1565178049870172323",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1565224421759910029"
+        ]
+      },
+      {
+        "title": "The company stops constructs battering the Chains",
+        "meta": "29–30 Oct 2026 · quest continuation",
+        "sort": "2026-10-29-attack-on-the-chains",
+        "era": "2026 · Consequence and stewardship",
+        "kind": "Attack on the Chains",
+        "article": "voraketh",
+        "story": "attack-on-the-chains",
+        "location": "The Chains and the route toward the Maw",
+        "people": "Ithilrûnë Ailinor; Sildithas; Coralyn; Pappy; Larcatelqui",
+        "tags": [
+          "Chains",
+          "Maw",
+          "constructs",
+          "memory"
+        ],
+        "summary": "Two constructs fall after battering a plague-weakened Chain that still suppresses magic. The company crosses toward the Maw, where failing protections and Coralyn’s altered memory leave the journey unfinished.",
+        "importance": 3,
+        "importanceReason": "An attack damages an established Voraketh boundary and changes the company’s regional investigation; a world-wide failure or completed Maw encounter is not established.",
+        "regions": [
+          "voraketh"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "One continuous expedition spans these source posts; no intervening rest or new in-world day is established.",
+          "postingWindow": {
+            "start": "2026-10-29",
+            "end": "2026-10-30",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 970,
+            "end": 970,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-29",
+            "reason": "The later narration resumes the same fight and immediate exploration or onward travel. Keep the established starting day for this clear quest continuation, while preserving the full posting window.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1565537618077417676",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1565571030691348525",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1565575372119085178",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1565589283161509899",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1565592436103708713"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1565537618077417676",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1565571030691348525",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1565575372119085178",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1565589283161509899",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1565592436103708713"
+        ]
       }
     ],
     "characters": [
@@ -14075,7 +14185,7 @@
         "title": "Oya",
         "meta": "Player character · quest-RP",
         "article": "people-directory",
-        "summary": "Olokun’s sister and a recurring adventurer, reunited with Nymera at the Tower; she offers a prayer for Namo’o and remains in Gael as the others leave.",
+        "summary": "Olokun’s sister and a recurring adventurer, reunited with Nymera at the Tower; she offers a prayer for Namo’o and remains in Gael as the others leave. On a later return to Hana’s tower, she protects Ryvyt from a Tik and is freed from Hana’s grasp by Saelihn.",
         "image": "assets/characters/oya.jpg",
         "imageAlt": "Oya with blue skin and hair, a pale pointed hat and a blue staff",
         "imageCaption": "Oya"
@@ -14825,7 +14935,7 @@
         "meta": "Seeker · gravedigger and civic servant",
         "article": "pelegia",
         "image": "assets/characters/pell.png",
-        "summary": "Urges retreat from Hana’s tower and returns with Ryvyt to question market residents about the forest. Insists on burial in the harpy cave, helps gather Tabitha’s ingredients and gains purpose through trusted service at Papirak’s funeral. An adventurer who introduces himself to the company, stays close to Carmen and offers healing after a fight.",
+        "summary": "Urges retreat from Hana’s tower and returns with Ryvyt to question market residents about the forest. Insists on burial in the harpy cave, helps gather Tabitha’s ingredients and gains purpose through trusted service at Papirak’s funeral. An adventurer who introduces himself to the company, stays close to Carmen and offers healing after a fight. Later returns as Pin, helps Ryvyt after Hana’s death and explores the tower with him.",
         "aliases": [
           "Pin",
           "Pell",
@@ -51578,7 +51688,9 @@
     "empty",
     "alyhotep-bin-baladin",
     "nerias",
-    "hallowing-of-hope"
+    "hallowing-of-hope",
+    "return-to-hanas-tower",
+    "attack-on-the-chains"
   ],
   "timelineRegions": [
     {

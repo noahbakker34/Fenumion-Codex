@@ -1,0 +1,27 @@
+# New quest accounts · 30 October 2026
+
+The owner supplies an incremental quest packet while asking to continue detailed timeline histories. Two full accounts are added: Return to Hana’s Tower (1,653 words, eight chapters) and The Attack on the Chains (1,138 words, seven chapters). Each has one Regional timeline milestone, a direct story destination and an Event Stories library entry. Twelve existing profiles and places gain fifteen further sections. No person, role or media asset is created.
+
+## Source and authority
+
+All 497 message bodies in `Quest-RP-NEW-CONTENT-2026-10-30.md` match the original read-only Bot Reader cache. The upload is 294,677 bytes, SHA256 `50096e85b1d6d42da03ac2a1b1c8b558fef70a1a6fb8ac85fee954f281db08f5`. All 393 cited message versions match their native channel IDs, timestamps and content hashes. None was already cited in canonical content. Raw transcript bodies, account/controller information and attachment pixels remain outside Git. The review is complete for supplied text, not for inaccessible archived threads, unseen attachments or older archives. `content/reference/quest-update-review-2026-10-30.json` contains metadata receipts and explicit limits.
+
+Quest narrator outcomes take precedence over conflicting recollection. The return includes ordinary market business, new warnings about Minerva, the fight, Hana’s confirmed death, Ryvyt’s grief and the continuing basement/mural investigation. Pin is an established alias of Pelegia. The later actions extend that single canonical profile, while the legacy census record stays exact. Hana’s nature remains uncertain, but her death is no longer left unknown. Minerva’s safety report and later captivity threats remain distinct. The damaged Tik, erased text, proposed illusions, intended burial and final painting do not acquire invented completions or identities.
+
+The Chain account includes the competing meal/alarm, construct fight, meteor impact on the Chain and companions, inspection, chosen crossing and difficult hour beyond it. The damaged boundary still suppresses magic. The proposed material/common enemy remains uncertain; Coralyn’s specific changed memory is established without universal permanent-loss claims. No arrival at the Maw, cure, explanation or safe return is invented.
+
+## Calendar and connected histories
+
+The tower return uses 27, Month of Death, Year 3 / Day968, retaining source posts from 27–29 October. The Chain attack uses 29, Month of Death, Year 3 / Day970, retaining posts from 29–30 October. Each is a clear continuing quest under the owner’s existing calendar rule, with opening/resumption/end receipts. The separate Tower petition and earlier Chain investigation remain separate. Documented regional consequences support importance3; cosmic subject matter alone does not justify a World Changing rating.
+
+Hana, Ryvyt, Pin, Saelihn, Fenwick, Minerva, Larkhollow, Voraketh, Coralyn, Sildithas, Ithilrûnë and Pappy gain source-backed additions. Current status summaries change where the new action supersedes stale ones. Oya’s and Pelegia’s directory summaries preserve their earlier accounts and append the later tower appearance. All earlier narratives, 153 section destinations, 33 reading chapters,  curated actions, quotations, artwork, roles and source references remain.
+
+## Preservation and verification
+
+The external baseline covers 1,634 content/media files. Exactly fifteen existing content files change, with two new stories and a metadata review ledger. All other content/assets, existing timeline objects and the complete private payload remain exact. Catalog 296 has 642 records, 593 complete public bodies, 2,681 sections, 262 people, 365 public events, 391 total timeline objects and 38 story pages. The library lists 34; 35 major milestones remain unchanged. All 261 browse previews remain exact.
+
+Private payload: 5,251,167 bytes, SHA256 `b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e`. No private upload is required.
+
+PASS two Regional timeline-to-story journeys, 60 full story paragraphs/15 open chapters and evidence panels; 400 full profile/place paragraphs; 24 old bookmarks; two continuation dates/source windows; exact filtered return and Back; reload/focus; fresh 390/320 stories and twelve 320px profiles; ten actual library/connected links; Pin player role; original artwork/status summaries; Fenumion dates/search and protected boundaries; no script/public HTTP errors.
+
+The reader regression also passes. Fresh mobile checking exposed a heading slipping beneath the sticky header after late web fonts loaded. Reader15 realigns a still-focused, connected heading only if the font swap obscures it. A held-font 320px regression covers the actual cold bookmark. The four changed biography chapter counts are updated in the existing test; no stage/dependency is added. Representative local screenshots are inspected. Simulated signed-out auth is used, without a real-account login claim. Canonical/source/preservation/calendar, portrait, previews, protected-asset and whitespace checks pass. Hosted checks and publication receipt follow.

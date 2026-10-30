@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-29
+Last updated: 2026-10-30
+
+## Early major event stories · 29 October 2026
+
+The owner requests another batch of existing major histories. First Called 484→1,866 words/eight chapters, failed ritual 469→1,657/seven and Rehevä 488→1,680/seven expand without new records or events. The first company’s fight, recovery and later naming, the north-first choice/ritual/escape/debrief, and the inexperienced voyage/repairs/hospitality/arrival remain concrete and distinct. Alavara stays excluded. Details: EARLY_MAJOR_EVENT_STORIES_2026_10_29.md and content/reference/early-major-events-review-2026-10-29.json.
+
+All 653 cited quest versions and one direct quotation match. Selected first-arrival reading is distinct from the wider copied window and from earlier qualified Akarian/Claire/Forgax context. Divine explanations and altered perceptions retain attribution; no invented fate for Gate figures, ritual organizer, exact casualty roll, resurrection spell, completed experiment or later trade/boat outcome. Rehevä’s local knowledge and existing inhabitants remain; two fliers are distinguished from the platform party. No raw/controller/private/intimate/unreviewed material is imported.
+
+Only six old content files change, with three summary strings. All twelve old chapter destinations, earlier references, other metadata/dates/importance/regions/calendar, unrelated records/media/maps/quotes/roles/261 previews and the complete private payload remain. Catalog294 retains 640 records/591 complete public bodies, 262 people/363 public events/36 stories; ten additions make 2,645 sections. Static/source/preservation/calendar and focused complete-body/actual-card/bookmark/return/fresh-mobile/ten-link/search checks pass; screenshots are inspected. No runtime/style/dependency/workflow stage changes. Publication receipt follows.
 
 ## More major timeline stories · 29 October 2026
 

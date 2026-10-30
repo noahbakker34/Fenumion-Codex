@@ -1,5 +1,5 @@
 {
-  "reviewed": "2026-10-29",
+  "reviewed": "2026-10-30",
   "scope": "All 35 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
   "stories": [
     {
@@ -269,9 +269,9 @@
       "events": [
         "A clockwork rift opens into hostile machinery"
       ],
-      "chapters": 5,
-      "words": 476,
-      "sourceReceipts": 10,
+      "chapters": 7,
+      "words": 1449,
+      "sourceReceipts": 127,
       "existingPublicAccounts": [
         "rifts",
         "carmen",
@@ -331,9 +331,9 @@
         "An abyssal rift becomes a crisis of allegiance",
         "Cthulhu comes through a rift into Fenumion"
       ],
-      "chapters": 5,
-      "words": 491,
-      "sourceReceipts": 10,
+      "chapters": 7,
+      "words": 1525,
+      "sourceReceipts": 130,
       "existingPublicAccounts": [
         "rifts",
         "pappy",
@@ -441,9 +441,9 @@
       "events": [
         "Death makes an offer after the mist clearing"
       ],
-      "chapters": 6,
-      "words": 576,
-      "sourceReceipts": 0,
+      "chapters": 8,
+      "words": 2276,
+      "sourceReceipts": 335,
       "existingPublicAccounts": [
         "babel-ashur",
         "olokun",

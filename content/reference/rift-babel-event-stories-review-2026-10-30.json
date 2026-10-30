@@ -1,0 +1,4223 @@
+{
+  "reviewed": "2026-10-30",
+  "request": "Continue expanding existing major timeline events as readable full encounter histories.",
+  "baseCommit": "92301d47f4c0400b97265ba233b274500e515cf5",
+  "storiesBefore": {
+    "clockwork-rift": {
+      "words": 476,
+      "chapters": 5
+    },
+    "abyssal-rift-cthulhu": {
+      "words": 491,
+      "chapters": 5
+    },
+    "babel-mist-expedition": {
+      "words": 576,
+      "chapters": 6
+    }
+  },
+  "storiesAfter": {
+    "clockwork-rift": {
+      "chapters": 7,
+      "words": 1449
+    },
+    "abyssal-rift-cthulhu": {
+      "chapters": 7,
+      "words": 1525
+    },
+    "babel-mist-expedition": {
+      "chapters": 8,
+      "words": 2276
+    }
+  },
+  "verifiedSourceIdentities": 592,
+  "newReceipts": [
+    {
+      "channel": "1294457593296719873",
+      "id": "1561530428257472644",
+      "timestamp": "2026-10-19T00:04:25.929000+00:00",
+      "contentSha256": "6ea4c9c8c1287f1ef030e16a90a728490e6b60267c03998086d0233fea7af0e1",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561530862753939538",
+      "timestamp": "2026-10-19T00:06:09.521000+00:00",
+      "contentSha256": "7f958d38bea1c786c608924e6ac64575480b4bb2f76f730ca382ea33ab1bc828",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561530876943400981",
+      "timestamp": "2026-10-19T00:06:12.904000+00:00",
+      "contentSha256": "2dff16cc9d92e8c35feae335586f6f6b44ec06ce142c74e1c323d38df79da822",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561531167805808754",
+      "timestamp": "2026-10-19T00:07:22.251000+00:00",
+      "contentSha256": "225f6b4825cb66eb0e756f38e664899c4a38be59406d60864288dbed486c6327",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561531700108853341",
+      "timestamp": "2026-10-19T00:09:29.162000+00:00",
+      "contentSha256": "3913a30df0985dd94e586a92bbfe84aff97639f5b4ae59c67defdccd398bc8f8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561531839816925258",
+      "timestamp": "2026-10-19T00:10:02.471000+00:00",
+      "contentSha256": "30a3562c62ea387517444b5d955004a420f8769f63e00af4c3809d3997c51e46",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561532169321578651",
+      "timestamp": "2026-10-19T00:11:21.031000+00:00",
+      "contentSha256": "ce8a990e1badb08506d08352a58d36facee348a0896f115e658bcb88ebc715b8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561532217451094107",
+      "timestamp": "2026-10-19T00:11:32.506000+00:00",
+      "contentSha256": "7495519f09b2bd228b4a041ce7255b058d1d2975daada3edf2f12f0eeb2c318b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561532360900485161",
+      "timestamp": "2026-10-19T00:12:06.707000+00:00",
+      "contentSha256": "c7aa6e4f0c983af686e0d40d8bdf6814f54f51c46c1ea5294d49fd0cf20381e9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561532599829266504",
+      "timestamp": "2026-10-19T00:13:03.672000+00:00",
+      "contentSha256": "3c31d8df94b27454f8870ae6ae90715a97fd6d250e0f5399b92eeefeca3f493d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561533220162506887",
+      "timestamp": "2026-10-19T00:15:31.571000+00:00",
+      "contentSha256": "70ccb81625736ea4d00162a4bbb36b446ed62f50b3226bf7cd3fefb15ee254e0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561533403982077993",
+      "timestamp": "2026-10-19T00:16:15.397000+00:00",
+      "contentSha256": "abf764393d076565d7eac7200b52206d589312fdbf10e7adc3f286bdf84a9e42",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561533578851131456",
+      "timestamp": "2026-10-19T00:16:57.089000+00:00",
+      "contentSha256": "dcd1711986fe1f6ed34e6c782d75aa93ccd5768da73e94930019bf4af70fda21",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561533842534301707",
+      "timestamp": "2026-10-19T00:17:59.956000+00:00",
+      "contentSha256": "8667e3bac8f0c8d825e39ee171abfd522a94cc29c1994bb81c817a85a27298a6",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561534127818408057",
+      "timestamp": "2026-10-19T00:19:07.973000+00:00",
+      "contentSha256": "ff68026a11c662871c85c066fbade3cdd3559da7703a5d8d3c6078b109c8817c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561534299176435824",
+      "timestamp": "2026-10-19T00:19:48.828000+00:00",
+      "contentSha256": "f5c119c81fcbe1c3efd87b6977474c4c0e3a36c5374706144bdc62076374eb16",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561534626084946065",
+      "timestamp": "2026-10-19T00:21:06.769000+00:00",
+      "contentSha256": "9f760aceef3edb4523448c6e01d0af53403e676f9f3d5bbd0f08f2e445c2882c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561534800496566446",
+      "timestamp": "2026-10-19T00:21:48.352000+00:00",
+      "contentSha256": "54dbc55ce991342c586c3d8f0ce40dbe06632f7b4d881600f3c44dc34d4497af",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561535010698301471",
+      "timestamp": "2026-10-19T00:22:38.468000+00:00",
+      "contentSha256": "9c2c4434cae5618c2d1a26fa10da5caaa543e38f462c8b09e6270b38a0efd2a3",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561535245914738719",
+      "timestamp": "2026-10-19T00:23:34.548000+00:00",
+      "contentSha256": "9a094e9f601c2429d3dc03bf253f9e4d2c0d876bc0962cd5606018f313159cb6",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561535634810740787",
+      "timestamp": "2026-10-19T00:25:07.268000+00:00",
+      "contentSha256": "b2bdf8300b650b8a50616938da390df6d973f8ba136b92415d5d73fd27ea2c3c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561535868492189779",
+      "timestamp": "2026-10-19T00:26:02.982000+00:00",
+      "contentSha256": "1e42af5de936eba0970cbacf7b3413303ccf97a471a7115255a1a504eebdf329",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561535940432765030",
+      "timestamp": "2026-10-19T00:26:20.134000+00:00",
+      "contentSha256": "82a074477da5c0f0bc27784903fd62524e965478fb97c48f3cee520dfe87ec3c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561536031357018156",
+      "timestamp": "2026-10-19T00:26:41.812000+00:00",
+      "contentSha256": "d76fa852a6b8f481931dd4a023d37a4983e21fc13af8a7698277169ea8717c24",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561536097069170811",
+      "timestamp": "2026-10-19T00:26:57.479000+00:00",
+      "contentSha256": "bb8180a5a9b803f63ac7eb71fdce0a3669f81b8ef33c5ceebbffe44715b8df40",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561536120934629427",
+      "timestamp": "2026-10-19T00:27:03.169000+00:00",
+      "contentSha256": "3c5c77477f9d130d9cd24cb904211476b511c7d4d772f419e63577e44c121415",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561536380692205700",
+      "timestamp": "2026-10-19T00:28:05.100000+00:00",
+      "contentSha256": "3fa88a47d9b8e9600ac8e799f9306a80ff3caaa3b420f57b16a303cb4fd71318",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561536531175444491",
+      "timestamp": "2026-10-19T00:28:40.978000+00:00",
+      "contentSha256": "c0e6588adb78ab583be2044bd6ec7f41f135222c1f7a3a56645a59f03b9d6fb0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561536642970427444",
+      "timestamp": "2026-10-19T00:29:07.632000+00:00",
+      "contentSha256": "52d1e1a795a8677ce1e3d2f89dd362f5a7e5eeaa6e0639d3e817b18669d73398",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561536759332872194",
+      "timestamp": "2026-10-19T00:29:35.375000+00:00",
+      "contentSha256": "53719fc996932a6f9de32dcd7ad116b372dbbe8b74772dde730a314370ac46b5",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561537175307288589",
+      "timestamp": "2026-10-19T00:31:14.551000+00:00",
+      "contentSha256": "b2eb313761ba38b5a62f5f3307218f534dea624f64bb55af9b516a5d1dcda199",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561537290088742966",
+      "timestamp": "2026-10-19T00:31:41.917000+00:00",
+      "contentSha256": "8175a20e45f0972ff9908ac20fe54ac831d2b7bb15976ac4088c1a8b3a896054",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561537409437532249",
+      "timestamp": "2026-10-19T00:32:10.372000+00:00",
+      "contentSha256": "f0199f435aceb0785903235022481a9da89c2ebde0f8c2588e107bbdcd5ec1fe",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561537622088876133",
+      "timestamp": "2026-10-19T00:33:01.072000+00:00",
+      "contentSha256": "90302a428fef13d56fd89467d0462200dbac3e28621544d00193e16cad0743f5",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561537726379987086",
+      "timestamp": "2026-10-19T00:33:25.937000+00:00",
+      "contentSha256": "a4693644f7388877dce7559661ffb28b73f9e32c31256a97f1e3020e05887b71",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561538174587502602",
+      "timestamp": "2026-10-19T00:35:12.798000+00:00",
+      "contentSha256": "db273e7887237fb34a6bec2f025b21323c1efd4cb20f7c6631f32010528ebe62",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561538860759122091",
+      "timestamp": "2026-10-19T00:37:56.394000+00:00",
+      "contentSha256": "da247e6c89d1befbe200f1638171eaef260087be5ed27e555340fba2e8586b63",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561538876726710424",
+      "timestamp": "2026-10-19T00:38:00.201000+00:00",
+      "contentSha256": "54685e8609422175d88bb6722ae8dc696de23316f680bad576648f0d00e1c25d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561539593197850695",
+      "timestamp": "2026-10-19T00:40:51.021000+00:00",
+      "contentSha256": "9d0dc8d2f70864795dc672de352d08a75f6789bec34df2f166abd8942b7f4410",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561540319269490751",
+      "timestamp": "2026-10-19T00:43:44.130000+00:00",
+      "contentSha256": "daecac5943d450546aba188cd58c15076fe76bad0f8fd1cb95be9d6f504942c9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561540777983615068",
+      "timestamp": "2026-10-19T00:45:33.496000+00:00",
+      "contentSha256": "010648581a427b271d63c987e317374d4e1f058e2ea9a0d1387c0f267b226ce1",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561541102920540352",
+      "timestamp": "2026-10-19T00:46:50.967000+00:00",
+      "contentSha256": "f2f6f5d4fb1aa1c55715791bd08c668fb3c97f70cac649540e563848bdb62a2f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561541537471533157",
+      "timestamp": "2026-10-19T00:48:34.572000+00:00",
+      "contentSha256": "7e6dc5aa8cb85f5f225d4a7320b2ba543a70bc5b4ba959dfca290cf48bbb0e4b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561541879189733409",
+      "timestamp": "2026-10-19T00:49:56.044000+00:00",
+      "contentSha256": "9ea5078fe55414f73cb74b2e616c36d0034e597b45ee66f71d5453488aef93ed",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561542073159647353",
+      "timestamp": "2026-10-19T00:50:42.290000+00:00",
+      "contentSha256": "434cac08821ac244d5ef56019363b4cfb473e158140c906fd4dcb3fc6b7956a9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561542427351851120",
+      "timestamp": "2026-10-19T00:52:06.736000+00:00",
+      "contentSha256": "67550ed2ab89589d016231c642e396ac3e0262bc166bd4db00a05f8e7c6b2e8a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561542719397175399",
+      "timestamp": "2026-10-19T00:53:16.365000+00:00",
+      "contentSha256": "b00bbb23496d4b5f17b406c04ec1fcc9aac5619cedbcc21158c790a110d209c6",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561543186105766100",
+      "timestamp": "2026-10-19T00:55:07.637000+00:00",
+      "contentSha256": "f937b38e7c32f33b718594baa93a24e388e7e78fa585b6434c33c67fc9c1c9b3",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561543478264078457",
+      "timestamp": "2026-10-19T00:56:17.293000+00:00",
+      "contentSha256": "92035405d1a1389a4b9da65c025e7db1de725fc78c074680e79622d0152632b4",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561544335218974733",
+      "timestamp": "2026-10-19T00:59:41.607000+00:00",
+      "contentSha256": "a11b602f3e9bd3cb59d9ad14b8aa3c2a75b1b9d158fbcee9ce3f966b7f2c91af",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561544448091881493",
+      "timestamp": "2026-10-19T01:00:08.518000+00:00",
+      "contentSha256": "2b834555b8e1064f2c39557af67da19743a3ddcd77997aada836ed9a9f304465",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561544514190184470",
+      "timestamp": "2026-10-19T01:00:24.277000+00:00",
+      "contentSha256": "b9b40462e56807587736f5a02df91d7355ee49609efe88338ae18831d4a7d2c4",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561544684680122389",
+      "timestamp": "2026-10-19T01:01:04.925000+00:00",
+      "contentSha256": "f6b858b637a77191f34de23939541dcd87550bfb81b9ae5306d18ea243833300",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561544787721592973",
+      "timestamp": "2026-10-19T01:01:29.492000+00:00",
+      "contentSha256": "6a1696909c5a9470ed7e3fca0d7f9057febf7ad2aac3124ae4b92f0765fdb5b9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561544813751312384",
+      "timestamp": "2026-10-19T01:01:35.698000+00:00",
+      "contentSha256": "bcf3266bb7c93abed9ba18b871a361d93ec376548e41a6e2a7735305f1e85f2c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561545708719313078",
+      "timestamp": "2026-10-19T01:05:09.075000+00:00",
+      "contentSha256": "ce011c44f30733d687a78cad350bfbd13c7b4c2e639cb7ae98aaf6170d2eca8f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561545719171780609",
+      "timestamp": "2026-10-19T01:05:11.567000+00:00",
+      "contentSha256": "554f5388728a5cd0637ee9ba95de0ffc6c1401a5cb84a7554d5f76786920fc34",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561545942488850493",
+      "timestamp": "2026-10-19T01:06:04.810000+00:00",
+      "contentSha256": "9952706bd3ca37e69126b0e3a9c71c77683e56561267ed1ed86453ecbcd84902",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561546030099468380",
+      "timestamp": "2026-10-19T01:06:25.698000+00:00",
+      "contentSha256": "6724959f58f8f55b45283fc58ac04c3f3dddf8d7f46b1d040c7b3774ec50128d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561546370207449149",
+      "timestamp": "2026-10-19T01:07:46.786000+00:00",
+      "contentSha256": "660c794694879734229e049c144dad738807c1c9eb22be8f02aa7e1e8bd55e4c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561546864292270131",
+      "timestamp": "2026-10-19T01:09:44.585000+00:00",
+      "contentSha256": "f35614bf7bb64752466fcc9867e86f5a09146ee85a3e93315b4e159a7f0cc937",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561547041489031239",
+      "timestamp": "2026-10-19T01:10:26.832000+00:00",
+      "contentSha256": "1396c047159ecd895a151e76718bc5a6b64fdc562a83b088509492da5f6a5034",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561547309009870960",
+      "timestamp": "2026-10-19T01:11:30.614000+00:00",
+      "contentSha256": "2765a263b29636d304fdf823a52d784f160ecfd3a19d22a213716601fd8560a7",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561547721503150131",
+      "timestamp": "2026-10-19T01:13:08.960000+00:00",
+      "contentSha256": "54144e42533efac4e3770a0d71603424ce69ea76b6339c68f20644e6f82d99f8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561547813358403676",
+      "timestamp": "2026-10-19T01:13:30.860000+00:00",
+      "contentSha256": "89cd70444ff6700a183089d8901cf6bb7a28c4e060ea777308962117ed8cc557",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561549026204065855",
+      "timestamp": "2026-10-19T01:18:20.025000+00:00",
+      "contentSha256": "2e9b1e764647128a2d989b2fa1aae2e4436cf403870e6d4f5f1e7b9da582ca98",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561549092402757703",
+      "timestamp": "2026-10-19T01:18:35.808000+00:00",
+      "contentSha256": "40ae836fd54905e7271e97d397838d57def1fba24911221cc395701b2cce9b3d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561549376197763123",
+      "timestamp": "2026-10-19T01:19:43.470000+00:00",
+      "contentSha256": "6d6262dd74e9f4b9c7b52cc764de663f4e706a4947f6dc1936dcc008b545386e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561549694835101789",
+      "timestamp": "2026-10-19T01:20:59.439000+00:00",
+      "contentSha256": "e1acf27e19c177b7d16e101b9266512c08ac44259ad2c460736c02dd723e3369",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561549836245803059",
+      "timestamp": "2026-10-19T01:21:33.154000+00:00",
+      "contentSha256": "7a830edb0b74c2a76267e6b62642e807b3ed16388f42de0f6d97cd8ff96e57e8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561550433665810455",
+      "timestamp": "2026-10-19T01:23:55.590000+00:00",
+      "contentSha256": "7c700419aa687fc72b5481e3bc37f26da4bdd560e4e3b9d75654592558ab62dd",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561550443203535009",
+      "timestamp": "2026-10-19T01:23:57.864000+00:00",
+      "contentSha256": "26cf646bca5cc3d1a14547d29815b939bbcd4f390ff7a6d9805da89f58bf7fca",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561550834787950674",
+      "timestamp": "2026-10-19T01:25:31.225000+00:00",
+      "contentSha256": "0c6ba0b8523e491db8df7f6d349a81a027fce697d916fb9f157131c46ffbbcb3",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561550956540338338",
+      "timestamp": "2026-10-19T01:26:00.253000+00:00",
+      "contentSha256": "1ee4f22284aa3b853cb6a9dd852c3efe4aab22d98993ad514a1fdb3aa642fada",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561551017710190623",
+      "timestamp": "2026-10-19T01:26:14.837000+00:00",
+      "contentSha256": "78987b43915bfa21b12f4ea9804acf3863e449a182062e9e77a32dbdfdcad97a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561551116213288981",
+      "timestamp": "2026-10-19T01:26:38.322000+00:00",
+      "contentSha256": "0a720a75cf24ce4bbf452d6f7524874cf7ff578b8c57235ade2aa8d57ea6fd6d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561551164166774815",
+      "timestamp": "2026-10-19T01:26:49.755000+00:00",
+      "contentSha256": "eed5395f8cd3aa2c31785bf86f0042978ec74f085a59c826494d14b68215cbcd",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561551204981547049",
+      "timestamp": "2026-10-19T01:26:59.486000+00:00",
+      "contentSha256": "ac22be1dc3c64b05aa7922bf2d58cf10eeec2352a4a20fdb0e22d50c11cc1f89",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561551462948143266",
+      "timestamp": "2026-10-19T01:28:00.990000+00:00",
+      "contentSha256": "dc50902a68f3383a47a48e64b5868342896f7bd80c936399564b95bfb380d6fd",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561551706787942522",
+      "timestamp": "2026-10-19T01:28:59.126000+00:00",
+      "contentSha256": "1d2e6a46bee8494f96f96cb0d2b5d5de406d1aae45537dbd3a87e577a399d8b6",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561551753286123571",
+      "timestamp": "2026-10-19T01:29:10.212000+00:00",
+      "contentSha256": "0e691406c1cd6b5815269dba152e4fdedcd8bb0071032a5445ee1e80ee760318",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561551937491443723",
+      "timestamp": "2026-10-19T01:29:54.130000+00:00",
+      "contentSha256": "5a71fd10d6e9a8948e9945503db5348a0f13cf14a23bb8e36f92b4418f32bc96",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561552057897320479",
+      "timestamp": "2026-10-19T01:30:22.837000+00:00",
+      "contentSha256": "7289b4d854e6c856bf7ec6202f7d6bf1ea80f32e03f2d8bc902b39a68553a07e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561552372642349057",
+      "timestamp": "2026-10-19T01:31:37.878000+00:00",
+      "contentSha256": "d78a4558bd5098cb1f12885e794725838678414903ccfb78461371e7e8efd6d3",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561552551764299889",
+      "timestamp": "2026-10-19T01:32:20.584000+00:00",
+      "contentSha256": "00fee9ab3996a8a06e545d349e825ab6de7afaa358fb872f9f63a83243d6eb90",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561553028618915863",
+      "timestamp": "2026-10-19T01:34:14.275000+00:00",
+      "contentSha256": "6fbe087a8387b606a495e5d222a4fe27c310e38e9fef22d8827b5a5df90ba780",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561553177927622769",
+      "timestamp": "2026-10-19T01:34:49.873000+00:00",
+      "contentSha256": "f9dc2db8e122e576e8ba3b948ef0a421820f9de0eafeeee2ca7a6484557fe9e2",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561553492290568314",
+      "timestamp": "2026-10-19T01:36:04.823000+00:00",
+      "contentSha256": "31a25fd6283f91793ca43879c9e6901e28624ba083c9628ef279e8f672fb3d99",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561553801851445310",
+      "timestamp": "2026-10-19T01:37:18.628000+00:00",
+      "contentSha256": "97b4ef9552ba1202077c52dcc5ab42b3499234a1a0ac8086fc2cb06e8b546e38",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561554353075134474",
+      "timestamp": "2026-10-19T01:39:30.050000+00:00",
+      "contentSha256": "e8b33d5c511f3d53c242d5b7eabc146176ae4d5e3beb38d5f72a576c0d3cba11",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561554726070386809",
+      "timestamp": "2026-10-19T01:40:58.979000+00:00",
+      "contentSha256": "1579a48367862239c2f171ff06951aca6a870b586271632a27b974bd5329765f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561554818760450059",
+      "timestamp": "2026-10-19T01:41:21.078000+00:00",
+      "contentSha256": "1cce2f34baad01a4ac80969cf24590af5e545f3566e4ff3e08d818524d3b9d5f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561554936456679537",
+      "timestamp": "2026-10-19T01:41:49.139000+00:00",
+      "contentSha256": "c4beb86afd0d73d0a592f4b5d5a0c6321a11c0b9b320ad3d5f2cedaedc063ce0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561555329248919694",
+      "timestamp": "2026-10-19T01:43:22.788000+00:00",
+      "contentSha256": "45ee7309afdd0926d11189b91f530942b3a5f9866981452032100b37d2d39cb0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561555382403334195",
+      "timestamp": "2026-10-19T01:43:35.461000+00:00",
+      "contentSha256": "1b5014f89cf59b208312b90acb2f6bb32caba81e44a86f6b4e6aa45e46274868",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561555570358485033",
+      "timestamp": "2026-10-19T01:44:20.273000+00:00",
+      "contentSha256": "ad9f88324fb97772b49bf6329df4ad3e9c6b8ea6f86af1f46e54d3e9060280e1",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561555680987455499",
+      "timestamp": "2026-10-19T01:44:46.649000+00:00",
+      "contentSha256": "fb6f467e35e309528194913776eda573142ad63ee65d9c7d238c848491ad430a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561555726881783895",
+      "timestamp": "2026-10-19T01:44:57.591000+00:00",
+      "contentSha256": "d6ef1731f6d94e17df785216f88e1d529e81bb6ea673660f7454f689ef86e6c0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561555834117423156",
+      "timestamp": "2026-10-19T01:45:23.158000+00:00",
+      "contentSha256": "8013c89f2c1143ca132303718a24ade49eaf1493364b7be22fa71b7c2592cd60",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561555991592566846",
+      "timestamp": "2026-10-19T01:46:00.703000+00:00",
+      "contentSha256": "40243e29682f23f89941c176dac978fd260b5cfade0e07c5642be621eb36e54a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561556141920485487",
+      "timestamp": "2026-10-19T01:46:36.544000+00:00",
+      "contentSha256": "cd0e0d1bf65934c828c20c5b5d09f54857d16133716645c044fbc60de1fddcdd",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561556262477504555",
+      "timestamp": "2026-10-19T01:47:05.287000+00:00",
+      "contentSha256": "c90a17eebc637e672bbb32475d749c9f6fe0f87211f940175972839ac1f05f74",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561556462860242957",
+      "timestamp": "2026-10-19T01:47:53.062000+00:00",
+      "contentSha256": "e9254a00f5784754a021c680428e6a305b0159291e6b57569a76df0efef02b96",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561556713642008597",
+      "timestamp": "2026-10-19T01:48:52.853000+00:00",
+      "contentSha256": "b5309bde0830aa395c38233bf28815ade3586a39845b49ed3a579ab20a08ed4f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561556743761301586",
+      "timestamp": "2026-10-19T01:49:00.034000+00:00",
+      "contentSha256": "04d9ea406f4524aa11ee093328967bfd1c27f89ac7b5ac39e0e040794abb1cd0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561556884924796979",
+      "timestamp": "2026-10-19T01:49:33.690000+00:00",
+      "contentSha256": "e91ebad746c022a4f178f96736f4b0a332db80b0d38068aa9fe251a1b749fd38",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561556972275507201",
+      "timestamp": "2026-10-19T01:49:54.516000+00:00",
+      "contentSha256": "61b7dfc42f8e7aa33bd700ed329885d1a2d996483954e816d60360b532866c4e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561557048250990603",
+      "timestamp": "2026-10-19T01:50:12.630000+00:00",
+      "contentSha256": "242d72fe09a45aa879a5747400785c5ef152a1bd74b3a12060c6017055b5159c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561557238693367890",
+      "timestamp": "2026-10-19T01:50:58.035000+00:00",
+      "contentSha256": "3f78b7731b0d1e2dac21dbf40ef856172cc9857ef28921058671c4d80b9d8601",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561557435829985402",
+      "timestamp": "2026-10-19T01:51:45.036000+00:00",
+      "contentSha256": "ab2920b172d3bd611d592fe02854613ca5a1f4267139e01e46981c07f156dc35",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561557620484214897",
+      "timestamp": "2026-10-19T01:52:29.061000+00:00",
+      "contentSha256": "1d728ff8188e5a068f33a9a9aefbffcb32259e6c1712416a3f533647e9437afb",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561557692693086361",
+      "timestamp": "2026-10-19T01:52:46.277000+00:00",
+      "contentSha256": "dd9618d3820753c0c752a4dcbc5b704293366303e393656b84b83399063fa346",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561557933857308734",
+      "timestamp": "2026-10-19T01:53:43.775000+00:00",
+      "contentSha256": "e8b76def5d2e37a94d8b158a20b0ec1d146317430046dfe2f8bcc1180b58ff48",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561558290964545538",
+      "timestamp": "2026-10-19T01:55:08.916000+00:00",
+      "contentSha256": "27aa6654fa60e682d609678942b7f3d65b50a5e1a17bbd59c6d5ae5ef8082b7e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561558573337550939",
+      "timestamp": "2026-10-19T01:56:16.239000+00:00",
+      "contentSha256": "25c227f86f7630d546da7e89af2018b7bf0a5fa8570514f3a71530ef0ffdeea1",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561558736458481708",
+      "timestamp": "2026-10-19T01:56:55.130000+00:00",
+      "contentSha256": "18820def75912e4326e2613ae72ffeaa81716b7622553e235d766519a8ee1fb7",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561558783409266751",
+      "timestamp": "2026-10-19T01:57:06.324000+00:00",
+      "contentSha256": "2c03f81a353eef160130892bbc50b2eb68ae557b5cbb39c7569c7b6d023c9358",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561558861150687275",
+      "timestamp": "2026-10-19T01:57:24.859000+00:00",
+      "contentSha256": "e1409b23b886b22e52c327a04d5bb75f113e145ab6ad1db795bec560f45ea177",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561559499498586214",
+      "timestamp": "2026-10-19T01:59:57.053000+00:00",
+      "contentSha256": "a31f11525c6a257e618699137bba9912fb5c78e81e97cf6ec53287448051249b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561559583972007968",
+      "timestamp": "2026-10-19T02:00:17.193000+00:00",
+      "contentSha256": "2305082b3fc200dac2d38da8267dfeb22cb72a028e96c8c414649116bf1b7c0b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561559635675189289",
+      "timestamp": "2026-10-19T02:00:29.520000+00:00",
+      "contentSha256": "f543f44d695fa7386a24059e6d2ca2be6be8791478f5bb99188e5dc0254f97ef",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561559771495014484",
+      "timestamp": "2026-10-19T02:01:01.902000+00:00",
+      "contentSha256": "c4eae22a2e3bc3c0297132e67843e62a0cfede44d3927ffd948d4dbac6ae7bed",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561559888432201759",
+      "timestamp": "2026-10-19T02:01:29.782000+00:00",
+      "contentSha256": "068f6341e1743f2445abde13f5f346bb6312f0abdbb8d9ba726648fb12c043f4",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561559897638707344",
+      "timestamp": "2026-10-19T02:01:31.977000+00:00",
+      "contentSha256": "58757423f81ebf4ce3a6d8ba6b15021f6063252c9e5d369eaf5b81396ba6fd69",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560002609684481",
+      "timestamp": "2026-10-19T02:01:57.004000+00:00",
+      "contentSha256": "2e5e32fbc47dc1433ab545e933922095262dcd17dfef73b2eee21cd901914f97",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560069001318413",
+      "timestamp": "2026-10-19T02:02:12.833000+00:00",
+      "contentSha256": "a1eb778e7013c36b26c00661d59f5121c62d8a708f8a47dfc55806ee1def4b43",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560108289359923",
+      "timestamp": "2026-10-19T02:02:22.200000+00:00",
+      "contentSha256": "b80160cd0096b9d67397869c4c162bcc07ffcc1f4614208e4687712067472a2e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560220847702040",
+      "timestamp": "2026-10-19T02:02:49.036000+00:00",
+      "contentSha256": "8867446564b000acdc04b2c3b1a2b52978e23652c0076ccb2e19cac3d4e7688a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560521038102569",
+      "timestamp": "2026-10-19T02:04:00.607000+00:00",
+      "contentSha256": "fd9190f72da1df47f123461bdda60af09c2eaba65c44f0cf64f9dbec585c122f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560617800835183",
+      "timestamp": "2026-10-19T02:04:23.677000+00:00",
+      "contentSha256": "210d08a681cf5d848949652c5c88ab68d4a9507552b296b65f4c5a90a6dc66b0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560733718683821",
+      "timestamp": "2026-10-19T02:04:51.314000+00:00",
+      "contentSha256": "fd382976d84f317ca4f8dd711e14028ca887f1a9b24024cfe61dceeeb7ffa7b7",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560821631557635",
+      "timestamp": "2026-10-19T02:05:12.274000+00:00",
+      "contentSha256": "4d2c939e36ca5dbc4fbc365a9aa368258edd61aba061fbde4d9b1bcc32e46793",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560945732354089",
+      "timestamp": "2026-10-19T02:05:41.862000+00:00",
+      "contentSha256": "40b688ed53513c43623a1088db030a809cc932611593529bf60b68563692c1a9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561560968234926185",
+      "timestamp": "2026-10-19T02:05:47.227000+00:00",
+      "contentSha256": "3bd567c10d50e50f52c93bfed397cfbe1b1179266dfe6a537065c3d61acb75ce",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561561075969687565",
+      "timestamp": "2026-10-19T02:06:12.913000+00:00",
+      "contentSha256": "2ef9fb054ea20a64dec2a5c5d258e831b406cd1d9cc3451d3f73b11f866ffb3b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561561107531964417",
+      "timestamp": "2026-10-19T02:06:20.438000+00:00",
+      "contentSha256": "c36db2e7386d0438dea5b613c078ed5322aa519137681ab1d966670cfa315305",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561561409291296850",
+      "timestamp": "2026-10-19T02:07:32.383000+00:00",
+      "contentSha256": "f4f72a98b37fae03a5c36f0a3fefceae2dc565e7611aad98d8bc9c488e5a82ca",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561561650476097599",
+      "timestamp": "2026-10-19T02:08:29.886000+00:00",
+      "contentSha256": "0f4254a98f39797a7a8ff19309da6ea4e92be9249616afcf49376dae244669e3",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561561673188253707",
+      "timestamp": "2026-10-19T02:08:35.301000+00:00",
+      "contentSha256": "6aa86370b5b0a9b840eeef31f781627677574db5f9459ffaac19ba0b2e62ec7c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561561851530321991",
+      "timestamp": "2026-10-19T02:09:17.821000+00:00",
+      "contentSha256": "fb0794ee03fedc5177bf3f05c2bb72795138bcfb7c8de55c547bef1c04c1948e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561561860145160343",
+      "timestamp": "2026-10-19T02:09:19.875000+00:00",
+      "contentSha256": "5ffc22c7379117b4dd334cbbb27d93271b757d6a29765f5fc9f88d5947d33ad9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562012369035355",
+      "timestamp": "2026-10-19T02:09:56.168000+00:00",
+      "contentSha256": "f5735cb6eccb182c6d485d8862c4acae7ef478ba564682fd1723f872ca398205",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562083479388253",
+      "timestamp": "2026-10-19T02:10:13.122000+00:00",
+      "contentSha256": "af3f50a3299a4c3dbbab1cdd3b6aa44d65e441b20ec451d4447b92f7f41f2cb2",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562184826232913",
+      "timestamp": "2026-10-19T02:10:37.285000+00:00",
+      "contentSha256": "8e17e0fd547463e3629038d1aaff889a7af533162e7a68eaa99651ab01305114",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562296466018445",
+      "timestamp": "2026-10-19T02:11:03.902000+00:00",
+      "contentSha256": "a1eb735a98e63623672dfbc6e9412f148ea3fd8995d0488c243401a8623264d6",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562359409938514",
+      "timestamp": "2026-10-19T02:11:18.909000+00:00",
+      "contentSha256": "a6180af653eb13fbe9238d6966b430c54e7d6c8b37a320789113ea08e8d1404f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562454545277030",
+      "timestamp": "2026-10-19T02:11:41.591000+00:00",
+      "contentSha256": "b0837c7b61fd4e39aa750bbf6566b9dee08f182fff755c92de45cc990a77229e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562459775434886",
+      "timestamp": "2026-10-19T02:11:42.838000+00:00",
+      "contentSha256": "6fa475f9f08367f49da02dbe18c54ba27120a9deb08fd79e5f5c34a1edb8f388",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562625505239266",
+      "timestamp": "2026-10-19T02:12:22.351000+00:00",
+      "contentSha256": "41dd025c953779d6bb2480fe47d5b9cd8aa27703a6d3b62dc216f7b1af91fa2c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562693586915441",
+      "timestamp": "2026-10-19T02:12:38.583000+00:00",
+      "contentSha256": "b74a97280d7e65ce2cb93a4fb5483d847aad95e140432c6c633372186b8acba9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562874743226440",
+      "timestamp": "2026-10-19T02:13:21.774000+00:00",
+      "contentSha256": "731df521059f014ed602ff098279198a47a7731eaade4bc346f52ceace5c024f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561562982620725259",
+      "timestamp": "2026-10-19T02:13:47.494000+00:00",
+      "contentSha256": "f12ed27a54953d0a0247a47acca407071b5af6cd3df70f201f3c08250079d394",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561563047963795509",
+      "timestamp": "2026-10-19T02:14:03.073000+00:00",
+      "contentSha256": "54140650686a601efdc34cd6d7ad83ce3c443cbea2187fb3d14adebf841b24bd",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561563292202438717",
+      "timestamp": "2026-10-19T02:15:01.304000+00:00",
+      "contentSha256": "ad9202f33bbe188251f187cf917640aabbc96aa5733706c7d77cdaf8ab87f6fc",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561563462914543657",
+      "timestamp": "2026-10-19T02:15:42.005000+00:00",
+      "contentSha256": "4e9b4d214f3fac48adb1d8872b050545e4c36d8ab2e9e5c48e364fd2ef5acdf1",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561563593235894333",
+      "timestamp": "2026-10-19T02:16:13.076000+00:00",
+      "contentSha256": "219b0489d8a9a6902fc9bfd2a64c0c612b61b3fb3d2fc0c3adc1fcd330b6b28a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561563690057080973",
+      "timestamp": "2026-10-19T02:16:36.160000+00:00",
+      "contentSha256": "9613000afa8aabd9e486aba103fe63c1632c868800e8c0b377d44def1011ee0f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561563704019918880",
+      "timestamp": "2026-10-19T02:16:39.489000+00:00",
+      "contentSha256": "1d459ce402092ce925dd8d60a2927247c10e4009947c418547b0470059ecbbbf",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561563955808182273",
+      "timestamp": "2026-10-19T02:17:39.520000+00:00",
+      "contentSha256": "fa75dda6fc83d87601420743417266b36f3b2b2190dd1ba59fef6875edf78f7d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561564085433147534",
+      "timestamp": "2026-10-19T02:18:10.425000+00:00",
+      "contentSha256": "c6213e696a821617b96c70b8d02050d245979188dab626778480a8d2007974fa",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561564340602142761",
+      "timestamp": "2026-10-19T02:19:11.262000+00:00",
+      "contentSha256": "9510107629931e392fcd41524250b0854bf4360193d3aac35edba42595ece342",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561564761102225411",
+      "timestamp": "2026-10-19T02:20:51.517000+00:00",
+      "contentSha256": "cf1630b06f3c62725f998c74af9e66dab3c1557b6b5bca3ca666478e3622a00a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561564802491355237",
+      "timestamp": "2026-10-19T02:21:01.385000+00:00",
+      "contentSha256": "be7f8b8dd8523ab1de1595713383858b222ac56dd04becda94c11f8f6df93854",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561564993894219921",
+      "timestamp": "2026-10-19T02:21:47.019000+00:00",
+      "contentSha256": "20e63e2173a3e94f323169f1328ab6c79a0bf0e8943302737deb9780c29bdfe1",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561565168570343511",
+      "timestamp": "2026-10-19T02:22:28.665000+00:00",
+      "contentSha256": "2cbdab9f99ab3335d36c42d55b849101aa386f9d97006e46e3bcd85f3836cd3b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561565475220099123",
+      "timestamp": "2026-10-19T02:23:41.776000+00:00",
+      "contentSha256": "88c8f31c811c4bb213774910799d3fd0b8cb9eff1fc75e356451516f00854e3a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561565493939413034",
+      "timestamp": "2026-10-19T02:23:46.239000+00:00",
+      "contentSha256": "7596eab78585e839ff7216c2373b408ece1f01aea30c5649c45ee662f94bc6dc",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561565534649065494",
+      "timestamp": "2026-10-19T02:23:55.945000+00:00",
+      "contentSha256": "db103c7fae32e09bb6ad01a6e847704447655ec4e3b6833edf3a8defd760707c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561565720129699846",
+      "timestamp": "2026-10-19T02:24:40.167000+00:00",
+      "contentSha256": "3dca01130184c5f2839cf20c7ec21b524ab4cec725d48507d25b52d53340e617",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561565728300335105",
+      "timestamp": "2026-10-19T02:24:42.115000+00:00",
+      "contentSha256": "97923c49a2173a183f77df44d35583d18f7fc7818fc8515ece6fa303064c0489",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561565789939830904",
+      "timestamp": "2026-10-19T02:24:56.811000+00:00",
+      "contentSha256": "e63f06de82c03ee7c34df6a7e52ed11bab72e0c96b2f27d319348f954593352c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561565957430841355",
+      "timestamp": "2026-10-19T02:25:36.744000+00:00",
+      "contentSha256": "af2574b819aab227696c1bcad9839dcffc66d90b3b76ecd159da6d04ecd71def",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561566312029757553",
+      "timestamp": "2026-10-19T02:27:01.287000+00:00",
+      "contentSha256": "a4bc977c7b516c2fc7838351459eb5a8cb9058ab148e126988df4f37f432e71f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561566338265124976",
+      "timestamp": "2026-10-19T02:27:07.542000+00:00",
+      "contentSha256": "b4e2301c70748310eb1b45cd07b5631fcb6d845601b1ec8518bac7ba0ea09bc3",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561566457672769588",
+      "timestamp": "2026-10-19T02:27:36.011000+00:00",
+      "contentSha256": "b4c3c116deb8d94b509762790d6fd4520c0fcc8dfcdea1e1a1e6b0bb3b9d95c9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561566499435581450",
+      "timestamp": "2026-10-19T02:27:45.968000+00:00",
+      "contentSha256": "32a2faffab13776840e92dd717f2aa2273c06bae8817d0598a5f9f4c0ef39308",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561566585313951775",
+      "timestamp": "2026-10-19T02:28:06.443000+00:00",
+      "contentSha256": "8907231d3ab3dbd62f37b20b08b76d21d77d4434d76006013dba2ecf7699f109",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561566605014466571",
+      "timestamp": "2026-10-19T02:28:11.140000+00:00",
+      "contentSha256": "921ce3495c6af90b01d01f8126d722ae27f886b9be3df24d80b9ea04a685120b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561566859956985971",
+      "timestamp": "2026-10-19T02:29:11.923000+00:00",
+      "contentSha256": "e933e32e217b0b008092034f7f57e78fe59f03eba36fb9fdf6bc2bd09d94c883",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561566903661625375",
+      "timestamp": "2026-10-19T02:29:22.343000+00:00",
+      "contentSha256": "6fedaae417fddf64f7e07b9438b2eb3a90facf2060ef51d53ff05da966bfce6e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561566957617160193",
+      "timestamp": "2026-10-19T02:29:35.207000+00:00",
+      "contentSha256": "deb9bccc7a82a38cffb768964321be32c3ea1b5ea435e6451660e24add4d3d52",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561567027615895673",
+      "timestamp": "2026-10-19T02:29:51.896000+00:00",
+      "contentSha256": "4a30e081fac1c94282508db9d29cb10638476510060a261eb498151a3281e42b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561567253357396009",
+      "timestamp": "2026-10-19T02:30:45.717000+00:00",
+      "contentSha256": "dd7d372019bb4e0b693e13abe30e35d046bcacf5e879964efd9329127465f152",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561567377534230569",
+      "timestamp": "2026-10-19T02:31:15.323000+00:00",
+      "contentSha256": "7e7ec40f270c412f700a6ea5729a7689fa89758618f05d4deff763a24553153a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561567494500778048",
+      "timestamp": "2026-10-19T02:31:43.210000+00:00",
+      "contentSha256": "0479b40f89e4d02c5ffcb69ee7150f8b79f4beea882fede18652cc903d83a19b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561567497487126542",
+      "timestamp": "2026-10-19T02:31:43.922000+00:00",
+      "contentSha256": "ede0975fe41b2cc15a5f0e5875df2f31565ebc35410a9730787c60117ac5dbb4",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561567713019559957",
+      "timestamp": "2026-10-19T02:32:35.309000+00:00",
+      "contentSha256": "32c438be1fda7f2e3273987e252e1554e5ded5da21e1b18c40d6be13b7349ef8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561567772247461940",
+      "timestamp": "2026-10-19T02:32:49.430000+00:00",
+      "contentSha256": "616c19db2d37a40ce4f24d28d3a725a879169b948709a2ef041e150fdc90c5d2",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568143682310306",
+      "timestamp": "2026-10-19T02:34:17.987000+00:00",
+      "contentSha256": "25f0dad88301afd9466a7a98934956faa8d3a6ca3097e3e758a8a1e2e6852a91",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568255003459726",
+      "timestamp": "2026-10-19T02:34:44.528000+00:00",
+      "contentSha256": "8320951ce7b533eb7303509490a20bffbd0b622adcb5ca49989e7c6cf473628c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568318446637067",
+      "timestamp": "2026-10-19T02:34:59.654000+00:00",
+      "contentSha256": "f74498f1932b330da42cae1bffb5c399061ddeec71b69c4ff26381ce5a196e01",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568329599029329",
+      "timestamp": "2026-10-19T02:35:02.313000+00:00",
+      "contentSha256": "3a721c5c77888ebf83e7d12fd8f992ac84611897ee0fb79a067cdfb6e6c47855",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568408427040894",
+      "timestamp": "2026-10-19T02:35:21.107000+00:00",
+      "contentSha256": "75785bd06a66392bce9a5631138526753f9e2a248e2a7562d672ed63ec04b397",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568439397654529",
+      "timestamp": "2026-10-19T02:35:28.491000+00:00",
+      "contentSha256": "ab68dd6aa4909321f203c29c4fdc9aeff409ef88a1472c64e9744268390a245f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568596604485708",
+      "timestamp": "2026-10-19T02:36:05.972000+00:00",
+      "contentSha256": "649eafc9a7a7f3ea744d7452bded627fe68df86abce60adb3be7b325077aaa05",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568627868835851",
+      "timestamp": "2026-10-19T02:36:13.426000+00:00",
+      "contentSha256": "9c71d4a9449a93bb0cd12b26840f95eee3dd57c05362355e009c571878367450",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568656067010663",
+      "timestamp": "2026-10-19T02:36:20.149000+00:00",
+      "contentSha256": "de0ba1207763b3f578577c72de476a52ed77cf266db701378c3c1c8e611f2aab",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568723830177804",
+      "timestamp": "2026-10-19T02:36:36.305000+00:00",
+      "contentSha256": "3d98ad489bb4578d1a75242a1025182d9a4a7bd3cf8b96841a1aa5ec786fc8cf",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568781514317906",
+      "timestamp": "2026-10-19T02:36:50.058000+00:00",
+      "contentSha256": "9b9e69b0917c0492736b2530d4bc53eaec8bc2cb2c4cca7488d59ab35410a581",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561568876683202665",
+      "timestamp": "2026-10-19T02:37:12.748000+00:00",
+      "contentSha256": "dd3a8fdd4f329fc96743aa88966ba571592b3de9ea4f2ed7e521c10dfe290be4",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561569012633182330",
+      "timestamp": "2026-10-19T02:37:45.161000+00:00",
+      "contentSha256": "9a07b18c993f9a3ad5d74c6e0c8b911e85267566feb6b96f2c6e45bdcaa813ee",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561569015812464803",
+      "timestamp": "2026-10-19T02:37:45.919000+00:00",
+      "contentSha256": "219f7fe4e0656203225a39a3269eee7eb03e46f745233088835d3258864bef3a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561569151670026271",
+      "timestamp": "2026-10-19T02:38:18.310000+00:00",
+      "contentSha256": "6e1ff2285d2410618be57eec72c5c5f4ef2b9496ccf2be6448550a3199189deb",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561569327654895718",
+      "timestamp": "2026-10-19T02:39:00.268000+00:00",
+      "contentSha256": "882b6bd91c5094f182814b8e36495306163ef805ec26ccaf3449d21c806d3c08",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561569449704955925",
+      "timestamp": "2026-10-19T02:39:29.367000+00:00",
+      "contentSha256": "2d94933d63607fbe11b1d0c60f772b06108a7760c4477882cea9cdd23fe2d141",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561569555107676265",
+      "timestamp": "2026-10-19T02:39:54.497000+00:00",
+      "contentSha256": "513c593301c56c6a0094a7fe0cb7a646fbff24013e27809ad27cd7ac6b18604a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561569647885688934",
+      "timestamp": "2026-10-19T02:40:16.617000+00:00",
+      "contentSha256": "66ab2b4326475328219a7fc812eb42d56c56ee7849e38f3a686a99d5778177fc",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561569679636570163",
+      "timestamp": "2026-10-19T02:40:24.187000+00:00",
+      "contentSha256": "efdcddd0870e51840769654aafaea827b643fb7ae7437cd13b57943ed24df4f2",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561569719419674635",
+      "timestamp": "2026-10-19T02:40:33.672000+00:00",
+      "contentSha256": "53b09f3c8157cc93db55f2b14df22cd159ae8f699fdb7c3d91f234a3c10820ad",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561570088971403369",
+      "timestamp": "2026-10-19T02:42:01.780000+00:00",
+      "contentSha256": "cdeb843c7b8052a8dfe9d5e7b95a0f9fd269a7218959c40afa42d19c7caaec39",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561570114351014029",
+      "timestamp": "2026-10-19T02:42:07.831000+00:00",
+      "contentSha256": "b4b4d9fcbfb9c1fe9d4dd2bacc40a880fecdc5d13cb130beb1edc36d9be83813",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561570253626933350",
+      "timestamp": "2026-10-19T02:42:41.037000+00:00",
+      "contentSha256": "2646e0033f28ba7f69d808ef260b2deb54b50ce450c27c49449ed72baadb771a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561570272203505666",
+      "timestamp": "2026-10-19T02:42:45.466000+00:00",
+      "contentSha256": "b0a34245ab7dc60f4c52b758de8c780c1160e19ee9596d769311550fd107bb1f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561570395113660509",
+      "timestamp": "2026-10-19T02:43:14.770000+00:00",
+      "contentSha256": "03a3c17e8f046c3b961313a589dbf8b9bef1bbca027ced700d800caab49635c3",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561570734579384413",
+      "timestamp": "2026-10-19T02:44:35.705000+00:00",
+      "contentSha256": "df9be4b4e1d8006829b6a622bc2c2d1bb0989eb537b7be57f400ef41c4086818",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561570856352743437",
+      "timestamp": "2026-10-19T02:45:04.738000+00:00",
+      "contentSha256": "c0fc4ea72ceaac367cb7b250021114fe28f48f6fecbb24c63c8307939d5783d8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561570964284899500",
+      "timestamp": "2026-10-19T02:45:30.471000+00:00",
+      "contentSha256": "e0a7fdedb068a383aa0742eb3abf1c1dbcba8a420ad9b3d3ad50e167b0184e02",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561571170896052308",
+      "timestamp": "2026-10-19T02:46:19.731000+00:00",
+      "contentSha256": "6e39e029f072c551bc28ea61a481f1cbf79be68b54abde044471b362fab321aa",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561571311203913821",
+      "timestamp": "2026-10-19T02:46:53.183000+00:00",
+      "contentSha256": "dd883380887407b3af2242d8e5d48661f1c95c3a9113d061d8f794e636361899",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561571479601156220",
+      "timestamp": "2026-10-19T02:47:33.332000+00:00",
+      "contentSha256": "852945d84658efe0d8ffec82c081348f1964a7ee754b20b467609798e6e7ce56",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561571637151666289",
+      "timestamp": "2026-10-19T02:48:10.895000+00:00",
+      "contentSha256": "43053d8f1fc1b6d6f2ea4ed24ec7385da575b5e77fa0fc2d5629adc8b4a6630b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561571638758219817",
+      "timestamp": "2026-10-19T02:48:11.278000+00:00",
+      "contentSha256": "ac69d2d346b21a46cb2a74a2923ebe273b0bf321bd75276e170a1c8d9aa23249",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561571720408731669",
+      "timestamp": "2026-10-19T02:48:30.745000+00:00",
+      "contentSha256": "2711cb545d899df889ce4679b68107949ddd24e6b795f894c7e234632004784a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561571857046700175",
+      "timestamp": "2026-10-19T02:49:03.322000+00:00",
+      "contentSha256": "0a3885979b817100cfc3a3d606e611e96b66d38b49dd88865d91c6fd586f07fe",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561571861828214805",
+      "timestamp": "2026-10-19T02:49:04.462000+00:00",
+      "contentSha256": "c14406e1a95a738d70bf9cccaddf0717583cb66b3b1fda9cc01dbf6c1e832a99",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561571948809555979",
+      "timestamp": "2026-10-19T02:49:25.200000+00:00",
+      "contentSha256": "f7b4de81c334e70ca1c66f5ad03080ff2f7ea0904b88ea26cb306a4241bb0161",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561572268843343873",
+      "timestamp": "2026-10-19T02:50:41.502000+00:00",
+      "contentSha256": "83f5ad170725f3b366757333ace7c4b34a35ff3e5e7457189c680cac8156d59e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561572543448490098",
+      "timestamp": "2026-10-19T02:51:46.973000+00:00",
+      "contentSha256": "b09975966bde8a31099b7daec1fa6b8e27d1d6bcdf026b383394741c1b4d9366",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561572587375562863",
+      "timestamp": "2026-10-19T02:51:57.446000+00:00",
+      "contentSha256": "262aa67fc13ef65c9f844ed71e34b1cd267bfbd13fd7984de3c1e581ef03aff0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561572597387493437",
+      "timestamp": "2026-10-19T02:51:59.833000+00:00",
+      "contentSha256": "ec4754f9adea11103b5a74a48f3f8126d4adb7525633fa8f79353e08ad4acd81",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561572671660232718",
+      "timestamp": "2026-10-19T02:52:17.541000+00:00",
+      "contentSha256": "752208cafe21ed664f106333c743542f5360bda881b12ec2b1ffc351e3ed196e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561572768729014275",
+      "timestamp": "2026-10-19T02:52:40.684000+00:00",
+      "contentSha256": "d0c979f26afa9cea632d1385767c38ec6b56f99233d849d347571aecc1bae41a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561572938862305357",
+      "timestamp": "2026-10-19T02:53:21.247000+00:00",
+      "contentSha256": "4ffb12327cc7378388f4de425f2b2c801e4bb20a6c26a99325881ade5c17279d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561572985926852670",
+      "timestamp": "2026-10-19T02:53:32.468000+00:00",
+      "contentSha256": "bc94d3e38198fb63629efc74a1fe069f8c341d289e9abcccdacb033fbc3a8124",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561572990649634847",
+      "timestamp": "2026-10-19T02:53:33.594000+00:00",
+      "contentSha256": "04a10ef333cbfd96691594c0efaad5817395a45602cb087e9ea955f81058525b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573196937826368",
+      "timestamp": "2026-10-19T02:54:22.777000+00:00",
+      "contentSha256": "25a3743904b30a32a827100bb8ddbca848e6d2a6530d00959ddc5ae5020f2ed9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573253296947231",
+      "timestamp": "2026-10-19T02:54:36.214000+00:00",
+      "contentSha256": "7e9b86ada1cdd7267abdd3b8b65eb8d14fc72646d54433b38b86bad82869b085",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573356556521675",
+      "timestamp": "2026-10-19T02:55:00.833000+00:00",
+      "contentSha256": "70787046ff25b37012bb3e4e3c289d54e7aa12819d49c667a7979a1c141736ac",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573366240903250",
+      "timestamp": "2026-10-19T02:55:03.142000+00:00",
+      "contentSha256": "82a98ae19643e8d06ba83e90b08a8ea7fb29a79608b949f6ccb377f655c25d50",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573501041639507",
+      "timestamp": "2026-10-19T02:55:35.281000+00:00",
+      "contentSha256": "87305287c6a8ab6b7cd506f8f7e9c753f08fabb3bcb91f09059c767061a8a4a4",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573637658644572",
+      "timestamp": "2026-10-19T02:56:07.853000+00:00",
+      "contentSha256": "a5d8f8f5c7b5084decd2842e269e43690d9962bdd3b279f04062910ffe34c861",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573733968384031",
+      "timestamp": "2026-10-19T02:56:30.815000+00:00",
+      "contentSha256": "f8137f2d679038d723ae09b539f1eeea0e043b1ee6cb9e67f88d64f81d67a3ca",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573792256630938",
+      "timestamp": "2026-10-19T02:56:44.712000+00:00",
+      "contentSha256": "c7530ed0836903b4f1d0be27e3c1943fea62145af6bac39cff82128557f2b334",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573833562001429",
+      "timestamp": "2026-10-19T02:56:54.560000+00:00",
+      "contentSha256": "b7cfbc723f33a6b10618794278f1b03c917d645c5bd4fed36247241c38ed964a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573912519647273",
+      "timestamp": "2026-10-19T02:57:13.385000+00:00",
+      "contentSha256": "0b6921e5ced39002819cf23f4e603e2e4bb2b949af2ce4235a044e2888649c0b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561573946535714818",
+      "timestamp": "2026-10-19T02:57:21.495000+00:00",
+      "contentSha256": "24a57da17e14eec5e4246a46a8b45e5e908f6b6b778f2bd5dd78241e35c8219a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574012360855604",
+      "timestamp": "2026-10-19T02:57:37.189000+00:00",
+      "contentSha256": "ff583c5c8c104eae1258924272091a12b9fef5cb06c053a261f0a87297c05cb2",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574123673616408",
+      "timestamp": "2026-10-19T02:58:03.728000+00:00",
+      "contentSha256": "213e3b855d8600e50df294f53ca73e2af066cbb0ea22c8eba168e5ea5bb1266a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574194397843540",
+      "timestamp": "2026-10-19T02:58:20.590000+00:00",
+      "contentSha256": "e5d2f921cf5dce50be53887b66e5adbbdcf10abfbeecd9dda7667a5c0609c52d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574250203058208",
+      "timestamp": "2026-10-19T02:58:33.895000+00:00",
+      "contentSha256": "a69be04c689ba45ca8e57a0e0268f9f6da2567c603eb820120af1c8f5609111b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574306683682879",
+      "timestamp": "2026-10-19T02:58:47.361000+00:00",
+      "contentSha256": "50aeef342f1463741ee56750c1e26af853e3e8d00fa3eeeb8130c66ce7c263fc",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574447776006198",
+      "timestamp": "2026-10-19T02:59:21+00:00",
+      "contentSha256": "a174d48f5116dcc500213b74046f633fd24d5dfb90263a4d1aa8c617843d4a52",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574623106310228",
+      "timestamp": "2026-10-19T03:00:02.802000+00:00",
+      "contentSha256": "4e6e58ea735c021c4a8fcbf45e46711e1a186556941447482949f03796741fc0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574703007801365",
+      "timestamp": "2026-10-19T03:00:21.852000+00:00",
+      "contentSha256": "510ebb6589f85d8f2f2abdb9d26faa6bc5776e842891ad6f1f01818bd272a908",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574893643104357",
+      "timestamp": "2026-10-19T03:01:07.303000+00:00",
+      "contentSha256": "edaada8d2eec0dde8ba97dc9d13b7a73362ca147c7aec481914d41a3dd2bc90a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561574938450726993",
+      "timestamp": "2026-10-19T03:01:17.986000+00:00",
+      "contentSha256": "6c9d5fabe8214ebf32cc223eb5083a4e439903fad32deab68025f97b9032fcc8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561575105522438267",
+      "timestamp": "2026-10-19T03:01:57.819000+00:00",
+      "contentSha256": "d5b62e5795b239b617bfa78ed2c461247b485c7ec1dcf06e98d1305da1404a68",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561575244370677781",
+      "timestamp": "2026-10-19T03:02:30.923000+00:00",
+      "contentSha256": "d4ff27a190574f93653a5d0df223c7ce67e7ede18f85c040538365942d4a8dbf",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561575257587060789",
+      "timestamp": "2026-10-19T03:02:34.074000+00:00",
+      "contentSha256": "4c180918cbcb6ac9135af7397bcb8814e9289a5394a80ffc14ce592561dd82f7",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561575547488702516",
+      "timestamp": "2026-10-19T03:03:43.192000+00:00",
+      "contentSha256": "06411e78fcb4fd41a6a65ed9d717804733d91a84979f5524b29eabf536a00413",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561575563074867263",
+      "timestamp": "2026-10-19T03:03:46.908000+00:00",
+      "contentSha256": "09e0ec5afa7879992ff08ff7bd741c0d557d8ed47dffc8fe4d9927125180811f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561575665260826686",
+      "timestamp": "2026-10-19T03:04:11.271000+00:00",
+      "contentSha256": "d0cdab76fd5d5556e9598f195823af7f276fe4c1fa5350a57615bffa59bc4d3d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561575719518081156",
+      "timestamp": "2026-10-19T03:04:24.207000+00:00",
+      "contentSha256": "b2fcb373f4f8d2bfb4288aad8f8588790115dbce858b3e77e836bfc8be1a12bc",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561575987295166581",
+      "timestamp": "2026-10-19T03:05:28.050000+00:00",
+      "contentSha256": "54c9637f9dea5126227f123a299da9199dd78509c55f840647dcaa2b7044774f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576169181159505",
+      "timestamp": "2026-10-19T03:06:11.415000+00:00",
+      "contentSha256": "c30e1d2374b4c67df89c0cbfd2270a2415b206c1a960f22308533e6940974ed2",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576281269739642",
+      "timestamp": "2026-10-19T03:06:38.139000+00:00",
+      "contentSha256": "c3fd357d266116d44851a2352ef32aa31b0af0bf848f4bbc7793d98ee3059e16",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576363167588414",
+      "timestamp": "2026-10-19T03:06:57.665000+00:00",
+      "contentSha256": "3d6ffc188fae5e594abdf17a9c1fda2a8e0807b788c6c7fc64411c488d3dd62d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576390220976209",
+      "timestamp": "2026-10-19T03:07:04.115000+00:00",
+      "contentSha256": "5fa57c00c95589313701733826d3831970f9a07f99dc2f1c04ea7737716f923f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576467559620700",
+      "timestamp": "2026-10-19T03:07:22.554000+00:00",
+      "contentSha256": "79df742a5c998c5d165c0b2291891e0d8a5aa2b3fbba99a73e60e1a436f270cb",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576587105935361",
+      "timestamp": "2026-10-19T03:07:51.056000+00:00",
+      "contentSha256": "93ec52cf978700f9bc96c52e8cdaf47d89bd7a1cf61b9cd17ee6546b33234d7d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576711072518188",
+      "timestamp": "2026-10-19T03:08:20.612000+00:00",
+      "contentSha256": "338c019561080760d0b7686a247637ac4a7b5da9770e1417615a8ee9bc9ae0a8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576738805522454",
+      "timestamp": "2026-10-19T03:08:27.224000+00:00",
+      "contentSha256": "d1bda000d6e6a14d1363b4349f1de89e8fd19543d251166821292c19ef5ea713",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576777992634389",
+      "timestamp": "2026-10-19T03:08:36.567000+00:00",
+      "contentSha256": "964e4e41b6278480ece83130e9151610c4b38d750eb97cf97fc3f6503347d0ad",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576902328848415",
+      "timestamp": "2026-10-19T03:09:06.211000+00:00",
+      "contentSha256": "c7eb745e911e500acdcae7da34a3cca7f43a19fbdfbfa1239bbdb4fe65116134",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561576940916310103",
+      "timestamp": "2026-10-19T03:09:15.411000+00:00",
+      "contentSha256": "0afa830cbcb3d2d2597342aaa595f6ca286b353753a2f31e663377d01ea92984",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577013247217726",
+      "timestamp": "2026-10-19T03:09:32.656000+00:00",
+      "contentSha256": "02783fe60596fec3599f852998de31914e20d41a157ee197ef6a7389bc578c9a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577055563284594",
+      "timestamp": "2026-10-19T03:09:42.745000+00:00",
+      "contentSha256": "4cff662d78ed8b5e33d4c4d55cc9ca3760f7affa6d99f5a30d8c716da299110f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577220659748956",
+      "timestamp": "2026-10-19T03:10:22.107000+00:00",
+      "contentSha256": "a92c9cb8f7f9a89b6f87f938e47fc1d48542ca09d8a114be0721868d6eb863de",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577359918760028",
+      "timestamp": "2026-10-19T03:10:55.309000+00:00",
+      "contentSha256": "9c6d94869f5d9c9d3563c87056a2a459bc4ebd4b083e33d8b415cdc8e26fbdc8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577435349131387",
+      "timestamp": "2026-10-19T03:11:13.293000+00:00",
+      "contentSha256": "93e4cebd2e2fe2ee9dec5d909a5487e99846451fec3122bd730e56ae88d46603",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577449651970211",
+      "timestamp": "2026-10-19T03:11:16.703000+00:00",
+      "contentSha256": "3d8b0e2c3b437e0125417b4f50d5a2ed50e1f17c81c9140331536b74cc279510",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577487224279111",
+      "timestamp": "2026-10-19T03:11:25.661000+00:00",
+      "contentSha256": "656dc6bac956dd23a5e8d18d337487dd698e08a1f9d9f1edf9b3d23bdc6e82ca",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577538696904725",
+      "timestamp": "2026-10-19T03:11:37.933000+00:00",
+      "contentSha256": "84412835a70ac9faadc31fd22fbb02caa0efc0e7b5474df4428339caa46fbecb",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577566773448785",
+      "timestamp": "2026-10-19T03:11:44.627000+00:00",
+      "contentSha256": "28658263625b2e3f85fd7b5ab4f95c3fe325498212e2f155112d21b16ea973e1",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577710206189610",
+      "timestamp": "2026-10-19T03:12:18.824000+00:00",
+      "contentSha256": "71b70c3dc0e5b6c345947a21b998bd69076c3c3c58a61c0eec490ce62a827907",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577835616010311",
+      "timestamp": "2026-10-19T03:12:48.724000+00:00",
+      "contentSha256": "bd26793f8e18048003a271a39b59bda00988b941725aa4667e4059002a660a95",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561577977223848002",
+      "timestamp": "2026-10-19T03:13:22.486000+00:00",
+      "contentSha256": "d4cd9b69a144518e89be02dfe45e4e81f2377e3b056d848379dd6ef2eda82c64",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561578237929332798",
+      "timestamp": "2026-10-19T03:14:24.643000+00:00",
+      "contentSha256": "6559720e1052fdbb3b23cdcc9a7a6cb09f4f5e5113e1856f6faa09101e802ea8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561578361145524336",
+      "timestamp": "2026-10-19T03:14:54.020000+00:00",
+      "contentSha256": "c6e507abd9de00bf9c7934d1ed533a64f5d759fc5c2c86ce7e71d82772540c1a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561578463201329154",
+      "timestamp": "2026-10-19T03:15:18.352000+00:00",
+      "contentSha256": "708a72da8b95f67a02ba54d612631830fed581e1f951b625bde2542d9c217e05",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561578588795441194",
+      "timestamp": "2026-10-19T03:15:48.296000+00:00",
+      "contentSha256": "1cfabe19e7be1a52b1bc9a86ffb8b1b9f523b502a9f90ac833098ff2466d032d",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561578590569766973",
+      "timestamp": "2026-10-19T03:15:48.719000+00:00",
+      "contentSha256": "5878f4365b7ecd8802d1591cda5dcb987795dc2e9c4c07a27fa8962bd062fe5e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561578733528162410",
+      "timestamp": "2026-10-19T03:16:22.803000+00:00",
+      "contentSha256": "b04f337689bb2032c4aceb006d6544dbd977052df5269274bad7c797a8402d54",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561578942442373191",
+      "timestamp": "2026-10-19T03:17:12.612000+00:00",
+      "contentSha256": "e310bf0472cf19e3df32764a7ae47e05241aea8bb1043e158fa06e4b508e337f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579018237771860",
+      "timestamp": "2026-10-19T03:17:30.683000+00:00",
+      "contentSha256": "b9e5ae1f1e5c328d72addd78577255e9b17757e541b1b89ef1b076e6db81a5f2",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579108792541195",
+      "timestamp": "2026-10-19T03:17:52.273000+00:00",
+      "contentSha256": "3bcebf2b212f91067127d3fe20c9f74aa8b9c1728421dc37df83398d043c301c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579309506760846",
+      "timestamp": "2026-10-19T03:18:40.127000+00:00",
+      "contentSha256": "ac1fc1ccecff564ff6c73be95a40fedef430d23e6145900bb63e29967af614c9",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579336249778177",
+      "timestamp": "2026-10-19T03:18:46.503000+00:00",
+      "contentSha256": "89ae49150e1d7593aadaef979fc2f3a80aea4e84513dc11aab7f7cfc0cd9e571",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579557365088267",
+      "timestamp": "2026-10-19T03:19:39.221000+00:00",
+      "contentSha256": "bbdbc06e728268a15339f6d707d2c0d9782df783381236395dabb3d44b9e8d43",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579688579702955",
+      "timestamp": "2026-10-19T03:20:10.505000+00:00",
+      "contentSha256": "67993aa5dfefcf4a2ccc925c824fe7e26b4455ae5b2f43e513e8e324103d5424",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579731160141955",
+      "timestamp": "2026-10-19T03:20:20.657000+00:00",
+      "contentSha256": "29ae22e6f9a81a0753e8063394184ac344fb13524ec23bb852574ab6ba950243",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579892242645105",
+      "timestamp": "2026-10-19T03:20:59.062000+00:00",
+      "contentSha256": "8f00059636991a967888fe21c7ba8b31041ef1be4dba157bf79e8fcc7fed7c1e",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579909892014275",
+      "timestamp": "2026-10-19T03:21:03.270000+00:00",
+      "contentSha256": "9a37a3a046d9c7892e7fffcf5df5c1a590d535ecca1ed304ba54bc4849b64ecb",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561579957388312687",
+      "timestamp": "2026-10-19T03:21:14.594000+00:00",
+      "contentSha256": "99e6d925ded83f495136ee1c9f9d9aa0a6cccf6ecfee7a2c1cbbd3fde328ef14",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561580044923568151",
+      "timestamp": "2026-10-19T03:21:35.464000+00:00",
+      "contentSha256": "bc678e9d64f6d173a07f0c52b399cc62584c3b977f18537c3400d7ec63c052db",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561580382187692083",
+      "timestamp": "2026-10-19T03:22:55.874000+00:00",
+      "contentSha256": "7839304cdcd07a768b99191012c80fd4322181c6c53383479de8929f6d6a3c12",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561580474332086374",
+      "timestamp": "2026-10-19T03:23:17.843000+00:00",
+      "contentSha256": "0a42d7ada78b84c428ce670fabfe7b030146d7cc84c3ea999961b1ac7e1cc55b",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561580762585890848",
+      "timestamp": "2026-10-19T03:24:26.568000+00:00",
+      "contentSha256": "ef58344581d228b0f768b5bc9993468cb7aab1ec5a8f0f19a3015cf214759d62",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561580993410895906",
+      "timestamp": "2026-10-19T03:25:21.601000+00:00",
+      "contentSha256": "f67a6c80cac856a0c19fabfce99a71b49dc68d08c5383f137ee3a4b22d9ee2e2",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561581088927776811",
+      "timestamp": "2026-10-19T03:25:44.374000+00:00",
+      "contentSha256": "6ca12170a952c7ba5b4fc5d56a7f51ccfcf509fd009f2bbcd0719d0a8ba3e5ed",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561584161826013276",
+      "timestamp": "2026-10-19T03:37:57.010000+00:00",
+      "contentSha256": "1bd92e1c930c3d497a7eca7132089eee690ccfe78958f06bb4ecab306f60de96",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561584254763139146",
+      "timestamp": "2026-10-19T03:38:19.168000+00:00",
+      "contentSha256": "91c72b25f34c82af1e2a750daeac30a7403bfea2d12ec7b47bcf1cfd60429f1f",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561584893203456011",
+      "timestamp": "2026-10-19T03:40:51.384000+00:00",
+      "contentSha256": "d1925553794260cdd0d2b05d8c789964b0ba735dd3d04e2e041a09586e0f4149",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561584953093914675",
+      "timestamp": "2026-10-19T03:41:05.663000+00:00",
+      "contentSha256": "22513b67d2a6fb2b85269865b714591d99413c59dd5d5fc773f68f66f25b34b1",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561585089350213664",
+      "timestamp": "2026-10-19T03:41:38.149000+00:00",
+      "contentSha256": "74270f9f7ec532dc62f0f51bbab3a97a64b38a016fa41c3bd4cddd93f3ba94cc",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561585123097321627",
+      "timestamp": "2026-10-19T03:41:46.195000+00:00",
+      "contentSha256": "6be94a93744232813eb5138f3e65400f5ebee64b050d203189624fcdb2069a14",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561585525004042382",
+      "timestamp": "2026-10-19T03:43:22.017000+00:00",
+      "contentSha256": "03c5c221daf671277ab0ef3a49c758ca58c8877a627f4042448216954ed7bcda",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561585756353601587",
+      "timestamp": "2026-10-19T03:44:17.175000+00:00",
+      "contentSha256": "25ca500dcf7704e7d0bb31cbefdac2c0dae4e1b19a75af95e41e79f3922902ee",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561585933856407654",
+      "timestamp": "2026-10-19T03:44:59.495000+00:00",
+      "contentSha256": "a1cc537de9ee40ee83d2cc979bfdfd85985707a39814726053e15242cfb4c330",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561586094963695769",
+      "timestamp": "2026-10-19T03:45:37.906000+00:00",
+      "contentSha256": "f6eda18afdaa9ed236e686eae52b72717dfd013a6e90d4d805aef5d93d569e79",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561586610116624395",
+      "timestamp": "2026-10-19T03:47:40.728000+00:00",
+      "contentSha256": "70c2c2f2ef064fb63b00bcd522cc76029912ae62e601b3d6a353ae5c2a31df84",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561586692039909439",
+      "timestamp": "2026-10-19T03:48:00.260000+00:00",
+      "contentSha256": "a3bef31f98c9c6ba1506da1e153441fe6c5613452ad8eccfb8a310c07a8c1849",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561586808947474466",
+      "timestamp": "2026-10-19T03:48:28.133000+00:00",
+      "contentSha256": "382540dbaac667cd53119aaacab2fd44ff7a1751dbdee04fa8c871f27375f3a0",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561586857622507563",
+      "timestamp": "2026-10-19T03:48:39.738000+00:00",
+      "contentSha256": "6be93c7d561756e0c1918be37c95355b478b0f9ab80510f72847c4fed66bd8da",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561586986853335041",
+      "timestamp": "2026-10-19T03:49:10.549000+00:00",
+      "contentSha256": "19085714fe7e7bdae1375065ce3ad76ab08bee7991dc39ab654ab2cbfed8bfea",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561587373056200785",
+      "timestamp": "2026-10-19T03:50:42.627000+00:00",
+      "contentSha256": "d120d1dc5d1d4eaea969356503a98d030f2e1ae24cd1f8ee388bc7cfd23152f4",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561587543697264732",
+      "timestamp": "2026-10-19T03:51:23.311000+00:00",
+      "contentSha256": "6cabda4af6996d1463639b7bda6ba09e262504de504d5485fc4ceef380644668",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561587561233907713",
+      "timestamp": "2026-10-19T03:51:27.492000+00:00",
+      "contentSha256": "fa436e0bbd3696bef6bd8707ad9149a3fde5eb82f5c44bac64817b4f102a3bf1",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561587851567697941",
+      "timestamp": "2026-10-19T03:52:36.713000+00:00",
+      "contentSha256": "9d4808aa369cc702d267b6011c12c0767dff9548a3c58afaa920162ccac22d2a",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561587857645109310",
+      "timestamp": "2026-10-19T03:52:38.162000+00:00",
+      "contentSha256": "5ef3a4234642814b938e3d148ec029888cd806cc074f2fccdc3b2c5bd78e7023",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561587960179327009",
+      "timestamp": "2026-10-19T03:53:02.608000+00:00",
+      "contentSha256": "d60e133705a3036029871fcbac9a3be30d7ddbcc50d0b81e31d743ae681d7922",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561588003749756969",
+      "timestamp": "2026-10-19T03:53:12.996000+00:00",
+      "contentSha256": "469284a9ae1859b8df0bfb351b05e0056e621fc8f26151d2cd7632f02a3fb5a8",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561588166282977283",
+      "timestamp": "2026-10-19T03:53:51.747000+00:00",
+      "contentSha256": "d68437728ef2d64a92fa5b524820079da2c1c9fe0daafe55f70ea3d33e9dc02c",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561588275448119368",
+      "timestamp": "2026-10-19T03:54:17.774000+00:00",
+      "contentSha256": "d3e172b7fc0f3e0c9dfcdd74b162a6c84bf2a4a2b35b346884b46397a73713c5",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1294457593296719873",
+      "id": "1561588351830589551",
+      "timestamp": "2026-10-19T03:54:35.985000+00:00",
+      "contentSha256": "39e59338f13ff159bbe5908232e55d90ca07c24775581b1b1b62e40cd79fcdcf",
+      "source": "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356764617690321007",
+      "timestamp": "2025-04-01T22:58:12.325000+00:00",
+      "contentSha256": "dccd5692a3d6bb01b1ced6cd9833f8decf83ecc743bf5ab1fe63ee79f4669361",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356765031450284092",
+      "timestamp": "2025-04-01T22:59:50.973000+00:00",
+      "contentSha256": "2cdae75b3aaca375ee9c6b05f6c499a08a16f99472b7ccba9d9412c4ca8e5572",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356765207531356202",
+      "timestamp": "2025-04-01T23:00:32.954000+00:00",
+      "contentSha256": "69ece59a7d37db3ee42e4faae61a9f1378f5092bf7b6375c051ae6b1fb6c74f0",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356765244684505229",
+      "timestamp": "2025-04-01T23:00:41.812000+00:00",
+      "contentSha256": "03ce26b54b7bcdb74f17b52058b349015229cfe8835a5ec10a891a2517dab033",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356765559898898674",
+      "timestamp": "2025-04-01T23:01:56.965000+00:00",
+      "contentSha256": "f9f3feeb71ae8974f45aa832c20020ffd028ef571b4d0d30d76471001a0c82b5",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356765797602693160",
+      "timestamp": "2025-04-01T23:02:53.638000+00:00",
+      "contentSha256": "893721c0821fce8d3ab92e8a0d98a731bfe9034c2684fc4ed68711b21d54fb33",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356766166143598793",
+      "timestamp": "2025-04-01T23:04:21.505000+00:00",
+      "contentSha256": "5324ae58760fd2132b1a6c490da57e35a7e993239e69b8cb6576be197fcc6dc0",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356766179020243055",
+      "timestamp": "2025-04-01T23:04:24.575000+00:00",
+      "contentSha256": "57ca7fb73e78210ffd62bc64090a68f1a3c0ebfcc88291e8f25234c59ad25049",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356766309752504481",
+      "timestamp": "2025-04-01T23:04:55.744000+00:00",
+      "contentSha256": "319c78ffcc36b9f8aea5c419be975e18c326495db6ea60912e826605c78fa5dc",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356766323149111507",
+      "timestamp": "2025-04-01T23:04:58.938000+00:00",
+      "contentSha256": "decf81d8eb58195807e4df4d0a7f35a3c6741d7c396771047cc9ffe088867fd5",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356766629144432822",
+      "timestamp": "2025-04-01T23:06:11.893000+00:00",
+      "contentSha256": "84da5927223a66caf73233801ab5f09f15a04bd07c67e985738f6e1c6bee758c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356766637457412188",
+      "timestamp": "2025-04-01T23:06:13.875000+00:00",
+      "contentSha256": "32f205062c96595c45e21b9dbdfa4367b90ef9cf787d6bf7971dcd0fb3c4062a",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356766842114281522",
+      "timestamp": "2025-04-01T23:07:02.669000+00:00",
+      "contentSha256": "d35b4e638da7b3bf535b58e655111a6032cd44aae2edb19389424f6fa630a1b3",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356767180833816647",
+      "timestamp": "2025-04-01T23:08:23.426000+00:00",
+      "contentSha256": "7d570ba823b71e675892dcabd9befddd9ec9b2f36892ca3d39623aa21ffe51dc",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356767346609492220",
+      "timestamp": "2025-04-01T23:09:02.950000+00:00",
+      "contentSha256": "6282185895f57d69d8334a90c33171c07a0597916080b4649422d69665cc1e33",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356767499982602351",
+      "timestamp": "2025-04-01T23:09:39.517000+00:00",
+      "contentSha256": "f7e5ffa15dc0d19792674fe64918b2f9a688c0810f84fa6d386a822b56834f93",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356767591724617820",
+      "timestamp": "2025-04-01T23:10:01.390000+00:00",
+      "contentSha256": "2f7c68d061312b372153c02de1202af5722ffdb599012788fcf9adf6a4847e1c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356767802429800641",
+      "timestamp": "2025-04-01T23:10:51.626000+00:00",
+      "contentSha256": "8cf31e9fd9a77e38ed1cde09558a69c5313bfd3e02fcf2a3a4bcad2c7350f96f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356767905517277304",
+      "timestamp": "2025-04-01T23:11:16.204000+00:00",
+      "contentSha256": "00a44fb28e183959e2435af6e0dd46beeefd63e66aa95389b692458695f1ca7a",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356767924081131613",
+      "timestamp": "2025-04-01T23:11:20.630000+00:00",
+      "contentSha256": "440dcdc2dbb31c8469ed51bf2ef06b1bf1bdf0779d6420161071a3c09b99e522",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356768044575232241",
+      "timestamp": "2025-04-01T23:11:49.358000+00:00",
+      "contentSha256": "892b49163c42573ed6a2d1800509d523681447ea1b55e986a18a9760e2bd569d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356768177916481769",
+      "timestamp": "2025-04-01T23:12:21.149000+00:00",
+      "contentSha256": "5060129a3f9038eb06b9cb25d0009f23e8bf27ed20de21b8538c0ea76775f75b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356768236007325798",
+      "timestamp": "2025-04-01T23:12:34.999000+00:00",
+      "contentSha256": "4532ea2fbe1227fe1cbe0443044ea6393cbf85be549061d21f789b01642e9c01",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356768377745707078",
+      "timestamp": "2025-04-01T23:13:08.792000+00:00",
+      "contentSha256": "27afcf66fe0607e9849413918e34ca7fa1c787291c8d83b2414d4dd50831b714",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356768433454317698",
+      "timestamp": "2025-04-01T23:13:22.074000+00:00",
+      "contentSha256": "77d3b69c74b7a8814891a96a8713335e1da4ebd066c96d41fc3c5d1388febe99",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356768635443482634",
+      "timestamp": "2025-04-01T23:14:10.232000+00:00",
+      "contentSha256": "4576517f8da01c7e789e1eeb4a4d6fe2ccebfc8fe228b5c2cdf19a65c97e15a7",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356768946220437648",
+      "timestamp": "2025-04-01T23:15:24.327000+00:00",
+      "contentSha256": "e43d2677172be8e9ba0efb17d39fd09259ea09624d0257dd394fa408e4d3563b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356768974175735988",
+      "timestamp": "2025-04-01T23:15:30.992000+00:00",
+      "contentSha256": "2d80bc058d8d52912dd4f12021da0fd0594571c96e52331748aaa58a4385c3a9",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356769334827155470",
+      "timestamp": "2025-04-01T23:16:56.978000+00:00",
+      "contentSha256": "465c8f9615bdebb3be5922061dbe55bbdb29628b002c82bd71c1c6fc6bb542c6",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356769384525463726",
+      "timestamp": "2025-04-01T23:17:08.827000+00:00",
+      "contentSha256": "86314f2be44d61c1abdc625f5791860216a050e4a03a1c192f8980ceb4082022",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356769652247629994",
+      "timestamp": "2025-04-01T23:18:12.657000+00:00",
+      "contentSha256": "1f1edb29f8a996ef7fe3a1356a904a1a79babd4248074ee1dea12e811f0ea28e",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356769955953119263",
+      "timestamp": "2025-04-01T23:19:25.066000+00:00",
+      "contentSha256": "92945baf4510ad8fe7fa635660d8e7db28e6a22d1db28bdcc92ce9bdc3eba40b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356770204184481934",
+      "timestamp": "2025-04-01T23:20:24.249000+00:00",
+      "contentSha256": "70d88edd4825c66f2cf252c6310537e955ae59aeb52009f60e926d221dfd56f1",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356770420749111428",
+      "timestamp": "2025-04-01T23:21:15.882000+00:00",
+      "contentSha256": "53d2ec219647c333c6518131511e919e1a8daca1fda9ddd1e9d382028ef78611",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356770552672555139",
+      "timestamp": "2025-04-01T23:21:47.335000+00:00",
+      "contentSha256": "b9042f58d0a54cc3805856490f1515a8a7030b6aaf16b32a5fe3ba476d27b1c5",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356770829085446145",
+      "timestamp": "2025-04-01T23:22:53.237000+00:00",
+      "contentSha256": "94beefe31dd227e82f2ba0656969d140bfb641e857bdcf4a57d3e090d0f05389",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356771131935428609",
+      "timestamp": "2025-04-01T23:24:05.442000+00:00",
+      "contentSha256": "cae504c67352e54ec57c054396b7856626af9517a08d8442f4fa67fb9b37c243",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356771404321656833",
+      "timestamp": "2025-04-01T23:25:10.384000+00:00",
+      "contentSha256": "437fe3a80e1b6cb3923845d48ed7cb56a3a06c76fce398da279fa2e7179ebcdf",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356771570160373931",
+      "timestamp": "2025-04-01T23:25:49.923000+00:00",
+      "contentSha256": "d2fec5d78bfaefa8aa52d73e65aa9a15c5b07db005d80af8b72c41a16345d466",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356771705602838689",
+      "timestamp": "2025-04-01T23:26:22.215000+00:00",
+      "contentSha256": "a215458017abec0a5016daaba9f74a57d71f91a08e8e57c8a5f6f3761986a231",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356771741996941467",
+      "timestamp": "2025-04-01T23:26:30.892000+00:00",
+      "contentSha256": "62ae0ec92d6a96fc4fdc276e7d884d9063c7ccef7deeac84e93be523bfd8198d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356771913447510026",
+      "timestamp": "2025-04-01T23:27:11.769000+00:00",
+      "contentSha256": "5d591e334b05ab7fe1e730a796ebc2652dfa8e5a1b0ef345b547aeebfd34a6d1",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356772377698238514",
+      "timestamp": "2025-04-01T23:29:02.455000+00:00",
+      "contentSha256": "58f947fcf25a5cadd5996e0ced7ca0a33d12843bd0f3b89cc65330890b6312a2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356772575962992700",
+      "timestamp": "2025-04-01T23:29:49.725000+00:00",
+      "contentSha256": "4d1f78070435dcb5060a4f5509375bf66ab6658fb710184a1822cedfafe933d9",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356772896617398344",
+      "timestamp": "2025-04-01T23:31:06.175000+00:00",
+      "contentSha256": "b27e4ac229143ebe07185053f5ddbfbb08142efda1c1382009c3da845b591182",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356773413544268017",
+      "timestamp": "2025-04-01T23:33:09.420000+00:00",
+      "contentSha256": "533684eaad5300ea7c1320df81a0a92a357ba35315c62fa64907ac45dc93c6a6",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356774177494798337",
+      "timestamp": "2025-04-01T23:36:11.560000+00:00",
+      "contentSha256": "81893ccea33eb5266175cc8760d5864e1cd1acf54f865317b9094e3b7b357567",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356774652537733140",
+      "timestamp": "2025-04-01T23:38:04.819000+00:00",
+      "contentSha256": "d371ed4a8f7fdd1eecc0cb9770b27461cc9c79b0f75a1a80a30762f1b9136909",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356774794707730604",
+      "timestamp": "2025-04-01T23:38:38.715000+00:00",
+      "contentSha256": "794134811713b7679c61bf059afe5aa934fd0ab52182cc0f6fc5b0c35e2d47e8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356775060735529152",
+      "timestamp": "2025-04-01T23:39:42.141000+00:00",
+      "contentSha256": "f489ede7a20ee4582993fe19e1003312af9b4c8800596b0d87c32cdd6499a3e4",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356775166314807427",
+      "timestamp": "2025-04-01T23:40:07.313000+00:00",
+      "contentSha256": "44a39d714befe06e82103de886b7ea2c03e7aaed6302697b6ee3eb2d1edaa1b4",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356775738958807221",
+      "timestamp": "2025-04-01T23:42:23.842000+00:00",
+      "contentSha256": "1cea21227ac9f5cad0152e7f8d75c2bbb24d740d6ba135a5d20a8e4878eb1efe",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356775780700655626",
+      "timestamp": "2025-04-01T23:42:33.794000+00:00",
+      "contentSha256": "54b704af7280f59ba4a0626a6b8d94dba8721bbd915e130c3f6d249ae946d6ce",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356776038193172500",
+      "timestamp": "2025-04-01T23:43:35.185000+00:00",
+      "contentSha256": "9cf32ac6ba8d59f4fc97c88055ce832ad4d84ef099ce74bfa2374c0c6b766e59",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356776049333112976",
+      "timestamp": "2025-04-01T23:43:37.841000+00:00",
+      "contentSha256": "7d446214222211b04d39411f7576d63d9b71112514f84f18dd05af9d564b4d7d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356776494453625074",
+      "timestamp": "2025-04-01T23:45:23.966000+00:00",
+      "contentSha256": "2ebcb0c5718215b69009591f9775b5a1fedd851a7bb6f4c8bfb0dbb60e7b0258",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356776750063030273",
+      "timestamp": "2025-04-01T23:46:24.908000+00:00",
+      "contentSha256": "dfa8d53f795a10db78a8f57df161340469fe6bf9b291e4789d15b1a36b11e7a8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356776878173851698",
+      "timestamp": "2025-04-01T23:46:55.452000+00:00",
+      "contentSha256": "35c6e446788289baed398811a888215bbc7808075b7f4fe8eae086582287ee82",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356777432308519022",
+      "timestamp": "2025-04-01T23:49:07.568000+00:00",
+      "contentSha256": "2c0bea6d4946dc945e388714380253079b7f843ef1977b4fc0f0919d027b0a01",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356777585408737474",
+      "timestamp": "2025-04-01T23:49:44.070000+00:00",
+      "contentSha256": "0aff309b8281de0da5f0fede736cf11f2960cf87e95fb2e7aa7ef095a39379b6",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356778345932521533",
+      "timestamp": "2025-04-01T23:52:45.393000+00:00",
+      "contentSha256": "b0f0812cda43c6366926908d5dab58273dfd0f1f0a8cc25d3b69b155f469f224",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356778646756524065",
+      "timestamp": "2025-04-01T23:53:57.115000+00:00",
+      "contentSha256": "173ff06737afea46bc94a9d93a4ff052874551c387d4112090704ad6f4a44e56",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356778774317891705",
+      "timestamp": "2025-04-01T23:54:27.528000+00:00",
+      "contentSha256": "9334634d68044b27fd7e7bcfa665d02e8c521e7d72de32a5db92cf1792c65515",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356778969051037789",
+      "timestamp": "2025-04-01T23:55:13.956000+00:00",
+      "contentSha256": "b5ede2585230a80e1d9ed785d86c9e203182606448c66bdf4e576f15827e8574",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356779109501632553",
+      "timestamp": "2025-04-01T23:55:47.442000+00:00",
+      "contentSha256": "9cb66c073c4e6d34359efa972a948f5476fde2cfb91445c63f803c8323f033e1",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356779358148100270",
+      "timestamp": "2025-04-01T23:56:46.724000+00:00",
+      "contentSha256": "62bfde910f04b20e8e9761f627788075137d7d6cec801c7c2ec3f2388f314664",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356779512859459726",
+      "timestamp": "2025-04-01T23:57:23.610000+00:00",
+      "contentSha256": "14082761941b418ffcc7852c638b5f06d55fd9b2069d59c1e49f1e9ed2712182",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356779584908955709",
+      "timestamp": "2025-04-01T23:57:40.788000+00:00",
+      "contentSha256": "9b7b9a1b8df520cae3c26fc89e0c95dcd9c03ee3c06d45de24bbab20dc4cf0c5",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356779743415894136",
+      "timestamp": "2025-04-01T23:58:18.579000+00:00",
+      "contentSha256": "07ce44dc2f8f1a71965dd4cdfbf16816dd5915bbe190d5b48f045ce058fbc1be",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356783295064572004",
+      "timestamp": "2025-04-02T00:12:25.358000+00:00",
+      "contentSha256": "6f35126f2ca6ee84ad80d3822e92da6525cd283c3369d511c475402eef67cf0f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356783795969200209",
+      "timestamp": "2025-04-02T00:14:24.783000+00:00",
+      "contentSha256": "98be162e442ecb43bdbe620d3b6564fc2cd4b706b4b0914809e72bac56e2040c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356784259498770566",
+      "timestamp": "2025-04-02T00:16:15.297000+00:00",
+      "contentSha256": "7f9e416ec2de4fe59e721e8948c03e601261191de2183ef45556fe910dd46cb3",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356784489975513178",
+      "timestamp": "2025-04-02T00:17:10.247000+00:00",
+      "contentSha256": "472c17c97958ffdad4550d4b3c9d483b43767d4fcf622195e0fe17854cc8454c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356784725758447718",
+      "timestamp": "2025-04-02T00:18:06.462000+00:00",
+      "contentSha256": "e924e70c7ac4b4e153d9b867d2e4cdd29f30ef2a5c8d6ce6db0438fc3bf34528",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356784751884632085",
+      "timestamp": "2025-04-02T00:18:12.691000+00:00",
+      "contentSha256": "55441455ca7fca17f4d0bf85341f36b5d5a3df7be191513ce7a87d043ff01fca",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356787933641838672",
+      "timestamp": "2025-04-02T00:30:51.281000+00:00",
+      "contentSha256": "3fc571c35adc7e03ba87955af219d67b603bd7f96e276256ec9e5af894077199",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356788039673970689",
+      "timestamp": "2025-04-02T00:31:16.561000+00:00",
+      "contentSha256": "57ec3047cc59ff46d4d9e2cec7810634ad9360a191936c92f64e494e781c9511",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356788057059360820",
+      "timestamp": "2025-04-02T00:31:20.706000+00:00",
+      "contentSha256": "73ec1126d0fbbd517ec8f6d50d579627f2763100fd0d65fd259e7c5f4da6de0a",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356789621257666651",
+      "timestamp": "2025-04-02T00:37:33.640000+00:00",
+      "contentSha256": "77bbbde0f8e373e44742a0942e8e2b5cce0a56481656451a468434efa473de7d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356790091565105182",
+      "timestamp": "2025-04-02T00:39:25.770000+00:00",
+      "contentSha256": "16c48d85a2d9b57874a2306b2b616a9652e0c8c83452aac211bac235b9d3b00d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356790958527746080",
+      "timestamp": "2025-04-02T00:42:52.470000+00:00",
+      "contentSha256": "fdc9756364d74a34f7e5c9cd0561853bd5a6d003d989798f7df193c7576886d9",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356793381568643174",
+      "timestamp": "2025-04-02T00:52:30.168000+00:00",
+      "contentSha256": "4a8078c00aaee6825c965cd47f22d4c38f8b3d7a848afa1837a0a80220c00e7f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356794000421425332",
+      "timestamp": "2025-04-02T00:54:57.714000+00:00",
+      "contentSha256": "2188bdf433adceb799416e69b2339f17045c9050df700cfc2e1f484bcf7d6243",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356794357902213213",
+      "timestamp": "2025-04-02T00:56:22.944000+00:00",
+      "contentSha256": "0bafb80d82b4f4ed7cf491b69c9a1f0ba6faf83a98e16e3d21ae2fe1d7fe62ca",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356794897268740247",
+      "timestamp": "2025-04-02T00:58:31.539000+00:00",
+      "contentSha256": "34927b7faef2f9380b808ca0656170e0eda55b1c1743a7336e0031c2b7e3fb6b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356795130954383520",
+      "timestamp": "2025-04-02T00:59:27.254000+00:00",
+      "contentSha256": "8bcc0f4774746ea8648e061feee818a053eb1f11e522ae4d7d6c46d550a7b808",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356797030105878608",
+      "timestamp": "2025-04-02T01:07:00.047000+00:00",
+      "contentSha256": "59e56cad2aef429e27dd931271e12c43d67f7865f2b9cd7e30903a87b581fa37",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356797748468387900",
+      "timestamp": "2025-04-02T01:09:51.318000+00:00",
+      "contentSha256": "463baeae41b1c8a34ec5a506c6f43cf0ac7f9e531e9679a55ccfd89252872c10",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356798349038321806",
+      "timestamp": "2025-04-02T01:12:14.505000+00:00",
+      "contentSha256": "0ae20aae4d0df54cadcc394755ff36b0291a466da5cabd0195b0446a0cdab152",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356798487240511712",
+      "timestamp": "2025-04-02T01:12:47.455000+00:00",
+      "contentSha256": "91be5656fc6a468faa80bd39e28dcdd75fbb09ea07d5d2165272ef237129237b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356799749289803806",
+      "timestamp": "2025-04-02T01:17:48.351000+00:00",
+      "contentSha256": "3e616820879be202fc76b97d11780b35a06c9dc610cbb73bc8601bfe047ffdb8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356801005190381603",
+      "timestamp": "2025-04-02T01:22:47.781000+00:00",
+      "contentSha256": "69380036baa080ddae3c29a42c70d6b140e12a379ca8a9893bf4b7ba79cfe278",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356801141018722407",
+      "timestamp": "2025-04-02T01:23:20.165000+00:00",
+      "contentSha256": "a668e3d0a08f50b4e46966b85c0f27f36af63037a872299d47fe7de1d0854195",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356801410888503377",
+      "timestamp": "2025-04-02T01:24:24.507000+00:00",
+      "contentSha256": "d157d69a7ce3961104fde441fe0f82d8ded888ee810443deebbd12976045f7b2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356801914611695757",
+      "timestamp": "2025-04-02T01:26:24.604000+00:00",
+      "contentSha256": "8a5ee539070a60a7bc301715b4ec85f5b1eca93b3ea2967469fb0958442a8682",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356804240609251631",
+      "timestamp": "2025-04-02T01:35:39.165000+00:00",
+      "contentSha256": "cfa06cc5c4c53b244143bd3a2d8f8828ce6277f7adff194d59bdb788b9cc2122",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356805072415227915",
+      "timestamp": "2025-04-02T01:38:57.483000+00:00",
+      "contentSha256": "0ce646c77b3a22c35e6031c80d30658ae679162a6a2a7abd16f192f93f1932f2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356805169219764385",
+      "timestamp": "2025-04-02T01:39:20.563000+00:00",
+      "contentSha256": "41ca83c9901bf53d055095aaaca9b33f1944fee4fcbb9f1d36f8a916d056f57a",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356806130516623572",
+      "timestamp": "2025-04-02T01:43:09.754000+00:00",
+      "contentSha256": "55a3e9ea9bedbb4c01800b87a8f1482d5b233e5d501fe0e1d7a1d3d442521309",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356809357941014578",
+      "timestamp": "2025-04-02T01:55:59.232000+00:00",
+      "contentSha256": "d87bebd52ed5aae469bb54aaf123ec0a315fb59738df5f7d90d233b6af0aea4c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356809612829003889",
+      "timestamp": "2025-04-02T01:57:00.002000+00:00",
+      "contentSha256": "0e018a9c4a20dd2aae014814ea7e3fa05748e867f06a3a2a81db46a7e92d8d9a",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356811783691829349",
+      "timestamp": "2025-04-02T02:05:37.576000+00:00",
+      "contentSha256": "cd1337b3f8439e5b97f574d096efcfac39cbca502cc9af6c336426d325241c37",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356811963728003124",
+      "timestamp": "2025-04-02T02:06:20.500000+00:00",
+      "contentSha256": "dca6ded0a972e9f818af1aef223b955139359434e29347fe171430974ab93ad8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356812911749759206",
+      "timestamp": "2025-04-02T02:10:06.526000+00:00",
+      "contentSha256": "a552192fe92963e888dd5fda8cb29ead6783463c50ad41a2be449ce99c7e7be9",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356815257099698291",
+      "timestamp": "2025-04-02T02:19:25.701000+00:00",
+      "contentSha256": "b868c3dffc6b390d2a677b3ce3adaba766b55140826f21ab5601657df1e9682f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356815662475120782",
+      "timestamp": "2025-04-02T02:21:02.350000+00:00",
+      "contentSha256": "7789c6de3da2465cb708a8782795cc7d586d12f959e93945d9e76da101ef3d3f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356816200356855981",
+      "timestamp": "2025-04-02T02:23:10.591000+00:00",
+      "contentSha256": "f4f183b42d696828b77ae05b43243811b47fdda0643228f9e3422948e47d5cb1",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356817117512601630",
+      "timestamp": "2025-04-02T02:26:49.258000+00:00",
+      "contentSha256": "bf038abc3ad8b145bee9775608e1ee7782cc9f597cca2ec75ab933106c66fb23",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356819404259856506",
+      "timestamp": "2025-04-02T02:35:54.461000+00:00",
+      "contentSha256": "e6db3d72df4f565ee94c837fc414eb5a7a79013362c6844677ab9f00bfc2977f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356821842165502056",
+      "timestamp": "2025-04-02T02:45:35.703000+00:00",
+      "contentSha256": "6c3c2e0fec319d28f8faf426c42fc0cd8a38f827a408c5c6ee69ab403010d803",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356823092760019135",
+      "timestamp": "2025-04-02T02:50:33.868000+00:00",
+      "contentSha256": "6038ad2b7db46dc907f37bff109d6360725b8b979c02484d2534b534e88c8675",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356824253445701684",
+      "timestamp": "2025-04-02T02:55:10.597000+00:00",
+      "contentSha256": "d6f4c5f36b294522ee06c2f2688a7f815a420811dd42888e2666353fc65112b2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356824329563668712",
+      "timestamp": "2025-04-02T02:55:28.745000+00:00",
+      "contentSha256": "9f69d1352a7a12cedc0ef798b5ecf72a55441da4c80e477e20202652d00193f7",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356824499550425219",
+      "timestamp": "2025-04-02T02:56:09.273000+00:00",
+      "contentSha256": "7f66f36bf12ca7b0299cd7e14a36063a9964770a881d7aee8c4a4889cc218f5d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356827905673662626",
+      "timestamp": "2025-04-02T03:09:41.356000+00:00",
+      "contentSha256": "54e9d57a60be4a68fa85688baffb0d86fe5195e7e4196dad56de0eb19e197aa2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356830549746122852",
+      "timestamp": "2025-04-02T03:20:11.752000+00:00",
+      "contentSha256": "c33204178d9d639baac7bb40e50f20e699799e15edc41d032d9272b44403da21",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356831624431538258",
+      "timestamp": "2025-04-02T03:24:27.977000+00:00",
+      "contentSha256": "9b6152b7d125a37d142c1d17b4311be52a51a174146b33a3260d75cae7cd223d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356832794537365676",
+      "timestamp": "2025-04-02T03:29:06.952000+00:00",
+      "contentSha256": "114f0ac19bc4fac45511159b075964d8301bd7796df93dc520e7571da819b030",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356832855996760065",
+      "timestamp": "2025-04-02T03:29:21.605000+00:00",
+      "contentSha256": "0232b83008587f3c98b2df8fb3b85bd7a35b88a665a6053db2036dcced887c8a",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356835671599480943",
+      "timestamp": "2025-04-02T03:40:32.897000+00:00",
+      "contentSha256": "1cf0bd02b872863068ffde85ea3dd4e3457d32c23cb58d9b6b6017a4042fddb2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356835710807576576",
+      "timestamp": "2025-04-02T03:40:42.245000+00:00",
+      "contentSha256": "69f43522fa606a62c2985e2870fa240c139c5388205817d7327f73df56faceca",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356835720081309808",
+      "timestamp": "2025-04-02T03:40:44.456000+00:00",
+      "contentSha256": "aada269e1326c878d0f8f598de756af0654650693693fef9d6dd98621caf1a60",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356835965691232278",
+      "timestamp": "2025-04-02T03:41:43.014000+00:00",
+      "contentSha256": "2dcd338798fb710a1b270be2a79c9c44cd542425d7b59944d6e98aef406d3c2b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356838352984346657",
+      "timestamp": "2025-04-02T03:51:12.189000+00:00",
+      "contentSha256": "fb5231e091d48eab91f909bd31ceeabec7d9d36df14570076eb4e7cef63c57fa",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356838474052800544",
+      "timestamp": "2025-04-02T03:51:41.054000+00:00",
+      "contentSha256": "e5a95f3719dea85c199e25bd637657aa77923499c465a1f184f676d85c086ba7",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356838777477267548",
+      "timestamp": "2025-04-02T03:52:53.396000+00:00",
+      "contentSha256": "87de5b5bcf4cba36c95462d4bf40829204555ea07d7956e075ea378c3a328db0",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1356843081743339541",
+      "timestamp": "2025-04-02T04:09:59.613000+00:00",
+      "contentSha256": "780e73615ba17cd15fbe90e95f2881fa69ade4f004291ff4198154087c54894a",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545218434596602037",
+      "timestamp": "2026-09-03T23:46:23.578000+00:00",
+      "contentSha256": "e135a7269d7739472b57d1cbdb7f3aebe74aff8ee3dd0db071b6612ebd34c3ad",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545218670731722862",
+      "timestamp": "2026-09-03T23:47:19.877000+00:00",
+      "contentSha256": "a4d2ee96beab44129c4bb4328e0d883370fad250278dac101f8e2144fcd333c9",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545219074177638420",
+      "timestamp": "2026-09-03T23:48:56.066000+00:00",
+      "contentSha256": "44c4d8a3afe596b5696cea8c0dcc2f97686dfab2fc895ad2b032a7955c7a7cff",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545219485076561981",
+      "timestamp": "2026-09-03T23:50:34.032000+00:00",
+      "contentSha256": "a430433dcdb1dc9982898d1832c3d4b807cfda72fc6e0736f6af5a5dd5ff01a9",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545219486276395009",
+      "timestamp": "2026-09-03T23:50:34.318000+00:00",
+      "contentSha256": "65733770ba2d14fe10de22fbe8d37ac65a06803c09ca41752340e941b2e1ed95",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545219688928116767",
+      "timestamp": "2026-09-03T23:51:22.634000+00:00",
+      "contentSha256": "3849b27af6f3a5e0132a3c1875a201e0e7a8b8a08c86500ae004183963c27c1c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545219691268538368",
+      "timestamp": "2026-09-03T23:51:23.192000+00:00",
+      "contentSha256": "42635253f388d2306d6aef9207483ada928ede3d3a7a33113fb1f93104ecbdf2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545220261064740954",
+      "timestamp": "2026-09-03T23:53:39.042000+00:00",
+      "contentSha256": "304012c59c4109333d5f47b8a1f82b0106f426aa6f7926d4a22a354a770055d2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545220531308200008",
+      "timestamp": "2026-09-03T23:54:43.473000+00:00",
+      "contentSha256": "79ff65e8ab8753483464fc0e69d1c3409db07ec1da915600d985a02b596e353f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545220630675329084",
+      "timestamp": "2026-09-03T23:55:07.164000+00:00",
+      "contentSha256": "229556bfdb4cd50a7a7f983ea6609a2e388ee156fa95062bd39e2bd5ce342930",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545221019248234516",
+      "timestamp": "2026-09-03T23:56:39.807000+00:00",
+      "contentSha256": "ff0df4e9a2c75c8581ca26c579c7c0e22d8fdafa401fa742f2a99e6e8a99bebe",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545221155869167677",
+      "timestamp": "2026-09-03T23:57:12.380000+00:00",
+      "contentSha256": "59af11aa849477368efe7798c5d6fdaf87ae8c6247f57e125a8f79044406e60c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545221620711297034",
+      "timestamp": "2026-09-03T23:59:03.207000+00:00",
+      "contentSha256": "b7b61a70db918a8413ddebf2e8fb9f1d9fcbb12adfb2c7f7f5f4ea03f7ea5d7d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545221637165809705",
+      "timestamp": "2026-09-03T23:59:07.130000+00:00",
+      "contentSha256": "927e3072b9495a805b56751fba0dd8b094fc062a25a7f7aa076862321cd5ee93",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545221922894381126",
+      "timestamp": "2026-09-04T00:00:15.253000+00:00",
+      "contentSha256": "3577178b395e79ff01867b12deb35b2bc5d34d6f83bcd71c509466ad2f9bc62f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545222125894500465",
+      "timestamp": "2026-09-04T00:01:03.652000+00:00",
+      "contentSha256": "d439e911bbd7dfbf17718b013c67b5dd95fd300da2fcd215670e5fe8f3bc77f6",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545222398175870987",
+      "timestamp": "2026-09-04T00:02:08.569000+00:00",
+      "contentSha256": "1a579fab91bdb89651efd762b9aad50b8568054d026c23270ebd68217e7efb7d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545222535325425696",
+      "timestamp": "2026-09-04T00:02:41.268000+00:00",
+      "contentSha256": "0160c18ce84a142d674e91a70255102ae404a47bf1ba2086e63dc30f696663ee",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545222788640546816",
+      "timestamp": "2026-09-04T00:03:41.663000+00:00",
+      "contentSha256": "60c4f6a2e2415ce07e16c295811d88b371ec317de7bb4296e282a5c65ab7e811",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545222882114801818",
+      "timestamp": "2026-09-04T00:04:03.949000+00:00",
+      "contentSha256": "d17844a9dbc248580a29e98e2a76821f85f81d57683a8ad15d0962afa5e70c90",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545223185258119240",
+      "timestamp": "2026-09-04T00:05:16.224000+00:00",
+      "contentSha256": "01cc0008be85428b529f338bc1bce949ec14ff033290c010c77620326ee50206",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545223694215811082",
+      "timestamp": "2026-09-04T00:07:17.569000+00:00",
+      "contentSha256": "08f3d4588f4de37dcda9e88d2c1a8d64407b91355fe77d6441b6e9ab24618aef",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545223820452036679",
+      "timestamp": "2026-09-04T00:07:47.666000+00:00",
+      "contentSha256": "9c2e2643cbdd5a50cee12072cb841886464928de91134aec5eedad6c1f8bd5da",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545223977130000527",
+      "timestamp": "2026-09-04T00:08:25.021000+00:00",
+      "contentSha256": "381f88f6e987bf1618cd642853386188be820fb939d5e24578785ac3f050418d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545223978434699304",
+      "timestamp": "2026-09-04T00:08:25.332000+00:00",
+      "contentSha256": "ac683e6c529eda67ef228df7064ffe635a8af8c750a12fdedcf5380c91d5ac23",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545224200124375160",
+      "timestamp": "2026-09-04T00:09:18.187000+00:00",
+      "contentSha256": "ef804f2f362d4bc3dee30f64ec9372f301cb40591c2013f8e60beb27480d2003",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545224351580688455",
+      "timestamp": "2026-09-04T00:09:54.297000+00:00",
+      "contentSha256": "27fb86407a4067faa2e8fce7945cd3a95ac0d689004690b09e4bfb08979a7cf5",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545224497932668999",
+      "timestamp": "2026-09-04T00:10:29.190000+00:00",
+      "contentSha256": "91b6d4373bc0215a5cabdb1dd618b1e9a84eeab88b88ca7ef5104d27bfead6fa",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545224752740958299",
+      "timestamp": "2026-09-04T00:11:29.941000+00:00",
+      "contentSha256": "f08433c255f5a747348f2731390f00d6f237b0ef620857d6f8a3d0458eafbe87",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545225454418661449",
+      "timestamp": "2026-09-04T00:14:17.234000+00:00",
+      "contentSha256": "ebab71306f43467594d56e0e70688427bf7628e881c0442c0735deec317eebab",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545226499878158447",
+      "timestamp": "2026-09-04T00:18:26.491000+00:00",
+      "contentSha256": "18d799aa5eb08076a4b902bdfe1d64dd8c6f60ac558074fb1f1146524cb5aebc",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545226554681073684",
+      "timestamp": "2026-09-04T00:18:39.557000+00:00",
+      "contentSha256": "98748ef09eb306c9ed32669b5f7e118833085d09043a11ba1f39fd87f66135fa",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545226663145644125",
+      "timestamp": "2026-09-04T00:19:05.417000+00:00",
+      "contentSha256": "574ba349a27fe3cf82c136d4d88b7b6e6682efd6175206e068bf617a40cf5fa7",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545226862962147410",
+      "timestamp": "2026-09-04T00:19:53.057000+00:00",
+      "contentSha256": "23616292ef687a961ec76e0960c8d1bc68becda996821fd2f9d5b03d4b1c4fdb",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545226919015088138",
+      "timestamp": "2026-09-04T00:20:06.421000+00:00",
+      "contentSha256": "36de795cf2c25a4259e6e92db4e06648c35edf0735622b25c549b49f42bbd001",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545227134258258032",
+      "timestamp": "2026-09-04T00:20:57.739000+00:00",
+      "contentSha256": "10df9c9d0bfa45eca8f218f06cb98152162c7feb41d6ba18dda676c603e7247e",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545227346326585376",
+      "timestamp": "2026-09-04T00:21:48.300000+00:00",
+      "contentSha256": "989034e0999b36a4cbdbff63fa184411e15977117ec159b47be8637b208d866d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545227638656999494",
+      "timestamp": "2026-09-04T00:22:57.997000+00:00",
+      "contentSha256": "6669c662a1a693227543af700c12adcb66d2653c40b73076f83fcdbd69bac6d4",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545227755551989841",
+      "timestamp": "2026-09-04T00:23:25.867000+00:00",
+      "contentSha256": "054c370ae6d58764ec3ee5a0dc57ce51703c2e44519ab057db66162ef9c3a6ea",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545227793342668820",
+      "timestamp": "2026-09-04T00:23:34.877000+00:00",
+      "contentSha256": "9cf400e8986573177ef6608561433383fd10cdbc71f6fff19538b4400156cd0b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545227974310367243",
+      "timestamp": "2026-09-04T00:24:18.023000+00:00",
+      "contentSha256": "dd1fa460b880a8c09cadee52e844199b7f8a7952f2e94ec15139e0ead7984885",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545228042232660038",
+      "timestamp": "2026-09-04T00:24:34.217000+00:00",
+      "contentSha256": "fce9f22e5d0a9ccc8fdc2eb0ac1d8beeb2400d8feba76067019a8eeea7038f2b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545228176903376986",
+      "timestamp": "2026-09-04T00:25:06.325000+00:00",
+      "contentSha256": "ba05498ccc1f0b8062b0c8a9bfebf87ae1dd43a236e298e8e19bf7796b7410d0",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545228286299209839",
+      "timestamp": "2026-09-04T00:25:32.407000+00:00",
+      "contentSha256": "386beec59e2fea534677cd4ffaaae5894a19383ac74b4b7363e4499695f25e27",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545228856141553745",
+      "timestamp": "2026-09-04T00:27:48.268000+00:00",
+      "contentSha256": "eda60ca129988b56d773e2040069e7b24c588ff07cf08a6ad33c484a6e3893d1",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545229332727992340",
+      "timestamp": "2026-09-04T00:29:41.895000+00:00",
+      "contentSha256": "ba2824e5d2cad313284790f50b42d8c4abe9f53a43450bec261fbbfeb2330a38",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545229616761938051",
+      "timestamp": "2026-09-04T00:30:49.614000+00:00",
+      "contentSha256": "78c83301c1acca8837b9e14ccc3146e4b3e2e7db5ef52e7b9c091b1c04f0c06f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545230316288081942",
+      "timestamp": "2026-09-04T00:33:36.394000+00:00",
+      "contentSha256": "7b8ba778eb7110a44617a6438d46aae76e78109add5a1f423603e386d17c7e34",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545230526506340446",
+      "timestamp": "2026-09-04T00:34:26.514000+00:00",
+      "contentSha256": "a83ccd03c8b2c238605e050211839298e1ff229b4202c4967448dbbe78111f11",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545230562661507082",
+      "timestamp": "2026-09-04T00:34:35.134000+00:00",
+      "contentSha256": "6af22971355df84da34320bc419bee87570cfcbadb3ff9c18b7bdab013e957c8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545230786154864645",
+      "timestamp": "2026-09-04T00:35:28.419000+00:00",
+      "contentSha256": "1bc84faaa7fe4a6771ae7a388f9f86b6e2cb7f7650822391ea9ddd0bd442cb16",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545231352805466132",
+      "timestamp": "2026-09-04T00:37:43.519000+00:00",
+      "contentSha256": "8bf81f199cbaff512ef96bde448f9e6895e5392bd0e77d5467ba70f10181a471",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545231721274802327",
+      "timestamp": "2026-09-04T00:39:11.369000+00:00",
+      "contentSha256": "9a925f10e795a7b37b8d85983baa2de28648b92013a6e791932a619aca8912ce",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545232449154584616",
+      "timestamp": "2026-09-04T00:42:04.909000+00:00",
+      "contentSha256": "2a8e09cdcb6f5fb92f8116af315bfb96c2c982b66ee6fc4348c15495c862b9a3",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545236416211062834",
+      "timestamp": "2026-09-04T00:57:50.729000+00:00",
+      "contentSha256": "a5bc24324d065bfe257af3cb160b5692216dd7f428c46f90f0cf7f9f9553cda3",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545236901072740474",
+      "timestamp": "2026-09-04T00:59:46.329000+00:00",
+      "contentSha256": "41666ca9b1fc1bad12b9839e2d7a5c8b58482b01433804cab510b6e49cf6672c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545237322554019923",
+      "timestamp": "2026-09-04T01:01:26.818000+00:00",
+      "contentSha256": "f08656e13bb97dad9892df4dfb14902494cf7e477bf64216ffccca2611866c46",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545237360348766288",
+      "timestamp": "2026-09-04T01:01:35.829000+00:00",
+      "contentSha256": "a1e5f768b1976d706f06a0259b7c42bd463715e71ea03b040a23b33b7009bbae",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545237832916795522",
+      "timestamp": "2026-09-04T01:03:28.498000+00:00",
+      "contentSha256": "a6a035916117661c09b7197b3ff59e2d1692ef15342ac798a0f42df722cc2cbd",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545238048248172544",
+      "timestamp": "2026-09-04T01:04:19.837000+00:00",
+      "contentSha256": "721594abeba74b0ddd55a58c3b3b4257b61bfdf849a06484ad0def782e88b0ec",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545238126459490376",
+      "timestamp": "2026-09-04T01:04:38.484000+00:00",
+      "contentSha256": "cca525aa9aef0db9b1e1794495cdbdb4f4157e1b2e87f022cd88acc5f754ada1",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545238319380693082",
+      "timestamp": "2026-09-04T01:05:24.480000+00:00",
+      "contentSha256": "e43777033c0f98df791bd13d12c113b466a63f8f4b292a391b83f44e4d7dc399",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545238650395168860",
+      "timestamp": "2026-09-04T01:06:43.400000+00:00",
+      "contentSha256": "235dd00694f33095c424a3ac0f2ab7dbbc114755e6f85105487c8d7593b32d2a",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545239949358534697",
+      "timestamp": "2026-09-04T01:11:53.097000+00:00",
+      "contentSha256": "000b38841319934bdc22a0d9587795fb934bfcaea8bd17b1b72bfbca0911be5c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545240742044106823",
+      "timestamp": "2026-09-04T01:15:02.088000+00:00",
+      "contentSha256": "63304df927a987ed470362c962c16d14389ad0d84cefea6aeaaf09a53522ee3a",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545241308560359434",
+      "timestamp": "2026-09-04T01:17:17.156000+00:00",
+      "contentSha256": "45bccc55eeb1d8def16fe59551595f90ae120e964d5f308501e309066ff4c224",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545242800977879160",
+      "timestamp": "2026-09-04T01:23:12.976000+00:00",
+      "contentSha256": "c3b5cea4e6538dfd02fd7c7d721beb234820be1aca3cba18266df4094cede8cc",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545242872499015712",
+      "timestamp": "2026-09-04T01:23:30.028000+00:00",
+      "contentSha256": "0175f0efddf2b28de374bdd9008a93cc6b3ebc64782e72fc6efdf0787cb85db8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545243005085024296",
+      "timestamp": "2026-09-04T01:24:01.639000+00:00",
+      "contentSha256": "e9c3290c202f67254e62393a0e2670bd9988e05f1f558ea60451f54b21760370",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545243289047932951",
+      "timestamp": "2026-09-04T01:25:09.341000+00:00",
+      "contentSha256": "d2ccbb114356e76adfdb1d8e67fbfda28cc2ae5cf13c47a8a012c6832e0dbfb5",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545243425643958314",
+      "timestamp": "2026-09-04T01:25:41.908000+00:00",
+      "contentSha256": "4aae74ce4e91dc5f8d1251e8ff5d8d5c198a320e1d7795f457a16dfd3b38661f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545245485273718824",
+      "timestamp": "2026-09-04T01:33:52.962000+00:00",
+      "contentSha256": "68c0ed37c09dfeda88f86217f36447596d6e8e37c8150f7a202fa46aba0f616b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545246462848409721",
+      "timestamp": "2026-09-04T01:37:46.034000+00:00",
+      "contentSha256": "c0c95da0845b97cbc535efb7475b54e7198dd513faa707913a66c4ec0dd46ae0",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545246719997124620",
+      "timestamp": "2026-09-04T01:38:47.343000+00:00",
+      "contentSha256": "1b4381c388b1b7363f124dfeebd8521aaedfcf788a418fb6467bb8407261c9f1",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545247064105947258",
+      "timestamp": "2026-09-04T01:40:09.385000+00:00",
+      "contentSha256": "00c14df19c830e36ee9ffda3077eda672a18bcf68c5154efada68bde1113ada2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545247117214359633",
+      "timestamp": "2026-09-04T01:40:22.047000+00:00",
+      "contentSha256": "ba57177c36e9471fa131e658df1b3827d57a5790aeb0fc4577f74d39c51b44eb",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545247348748456027",
+      "timestamp": "2026-09-04T01:41:17.249000+00:00",
+      "contentSha256": "24362ff9b8f1424c1d8407168f96c2b67c0d96136b99b547bfb46d59188e7e5c",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545248646151413771",
+      "timestamp": "2026-09-04T01:46:26.574000+00:00",
+      "contentSha256": "c29df0dba6ce37abc278054bfc5672bb560849c98a4bbc6e3e27f979c6125a17",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545248921280970854",
+      "timestamp": "2026-09-04T01:47:32.170000+00:00",
+      "contentSha256": "1d08e87d9b07f1cbc69aba630d93a05b6de9cfb738320c069db94b181bb289b8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545249434214989895",
+      "timestamp": "2026-09-04T01:49:34.463000+00:00",
+      "contentSha256": "af031b58911dcbff74f65cdd77f76a9032928c9af816f4661cec1379732051e3",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545249682320531508",
+      "timestamp": "2026-09-04T01:50:33.616000+00:00",
+      "contentSha256": "c23151bfed49737b40a93e9a0c2c713a2b220e1323bae8f0814ac268660ad713",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545250146864857139",
+      "timestamp": "2026-09-04T01:52:24.372000+00:00",
+      "contentSha256": "2194b2da782fb31282ab97ca146ea2cdf4e8c80f54872176cad2751056bb0f67",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545250561111101570",
+      "timestamp": "2026-09-04T01:54:03.136000+00:00",
+      "contentSha256": "2dbfc606b64883f95a866a6947091c8f279bb60c074cdb9e0638342ccdb919d4",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545250946303529080",
+      "timestamp": "2026-09-04T01:55:34.973000+00:00",
+      "contentSha256": "2d202c688386e6d0a68441075a0aca4e9bf410e778e02b3037940b404737600d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545251359131967521",
+      "timestamp": "2026-09-04T01:57:13.399000+00:00",
+      "contentSha256": "f6ca02ab6872b3b02987140ce014b2784d70a626adfdd2d19dfee5acde79e174",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545251708404371510",
+      "timestamp": "2026-09-04T01:58:36.672000+00:00",
+      "contentSha256": "bf797ee6f9c399b73a194aa5e4496870923b1131481ed455213efc53a8446cc6",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545253249752371251",
+      "timestamp": "2026-09-04T02:04:44.158000+00:00",
+      "contentSha256": "1627dcad19247e6a45b9d73c768126847875bd695debb77422d9589f63b09ac3",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545253784324669523",
+      "timestamp": "2026-09-04T02:06:51.610000+00:00",
+      "contentSha256": "7651b4f87b6c6489cbfcee124c14ab2b4acfc989a0af0a2d9778e34415853d50",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545253934598328330",
+      "timestamp": "2026-09-04T02:07:27.438000+00:00",
+      "contentSha256": "63c4e3ba70648f95676a80ff395d0561a61f556b143e4656833de7a5838a9f96",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545254134486139042",
+      "timestamp": "2026-09-04T02:08:15.095000+00:00",
+      "contentSha256": "839d825fe4cbfd38140c1b29f33246fffea1a48b5fefdc492cb5b3b2094770d3",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545254300975104030",
+      "timestamp": "2026-09-04T02:08:54.789000+00:00",
+      "contentSha256": "ebbac28b4c290ea6881a204221a8f472f022d15e73c6fda3e6d751a00bf2dd9b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545254578298036236",
+      "timestamp": "2026-09-04T02:10:00.908000+00:00",
+      "contentSha256": "8fb4d2e215c17198d45746b9d9a5347dbde7a7b02bee12589b58785b9836a817",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545254678206488658",
+      "timestamp": "2026-09-04T02:10:24.728000+00:00",
+      "contentSha256": "f80e371599786d05999a6b49163132b680570bc66858deb86b45c76926603164",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545255137982021673",
+      "timestamp": "2026-09-04T02:12:14.347000+00:00",
+      "contentSha256": "9855dfb2d7c3929bfe22245b5650d703247e6a552b9039e935799c7b6b6e8cd1",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545255343179829342",
+      "timestamp": "2026-09-04T02:13:03.270000+00:00",
+      "contentSha256": "bf825880cd0b65ed2051cf43da1e81e1551814c09b3cc73a7fd26dc16274e109",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545255915329028116",
+      "timestamp": "2026-09-04T02:15:19.681000+00:00",
+      "contentSha256": "0bde2f574e3bc2cd8575a76cc4ca47f5a169e94d145e01387c206bdf162e424f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545256111207219252",
+      "timestamp": "2026-09-04T02:16:06.382000+00:00",
+      "contentSha256": "056be7f6771bfd5ced3e2ea7bc7588c2dc050e8448b9a7872eb7a4de2f81f2c1",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545256498098344099",
+      "timestamp": "2026-09-04T02:17:38.624000+00:00",
+      "contentSha256": "ed179b0d33dae500aabcc8ddc2a6d3e80e155adc90eed9bdfcc59c6719acd2cd",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545256601298935918",
+      "timestamp": "2026-09-04T02:18:03.229000+00:00",
+      "contentSha256": "d0e8390d775c4ac959e86987a8b51ece7dcc68a469623bbcaaaddb5721d7e12d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545257538583527425",
+      "timestamp": "2026-09-04T02:21:46.695000+00:00",
+      "contentSha256": "7b3808063ec1757202a335f8120ea0aaae6bf84aa7e529bd1ec0eb1f2eb189b8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545258220338024548",
+      "timestamp": "2026-09-04T02:24:29.238000+00:00",
+      "contentSha256": "afca0fd949342302822030b386bbca872071aed66379b80627a2abcd0ec687d8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545258375867011205",
+      "timestamp": "2026-09-04T02:25:06.319000+00:00",
+      "contentSha256": "6f9e2e0831144fb5541936b427fa3369e6e0035d532a0e074673a073400cb144",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545259100433154089",
+      "timestamp": "2026-09-04T02:27:59.069000+00:00",
+      "contentSha256": "6350fc4229e7901480769da804d718ece6d0841105b3a35a8055bf5c8518dec2",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545259516650586142",
+      "timestamp": "2026-09-04T02:29:38.303000+00:00",
+      "contentSha256": "09674d368921eec8840c93fec2c0880730b61761a59434f831726339e738c8cb",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545260065345511508",
+      "timestamp": "2026-09-04T02:31:49.122000+00:00",
+      "contentSha256": "5f15ad7c7772f7372c5c4d01f32918768eeba50f14d42a777efc63113aa5351d",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545260245276954636",
+      "timestamp": "2026-09-04T02:32:32.021000+00:00",
+      "contentSha256": "6f99ec51828f4421013af8dc733eaaeaf1ca78b2b00026b9272bef0f91be8ce7",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545260592338571334",
+      "timestamp": "2026-09-04T02:33:54.767000+00:00",
+      "contentSha256": "ea128b5cf023a80b4a246ffe8531f0f949cfb2cd0fd6bbe3c405b46905ee03dd",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545260783397769226",
+      "timestamp": "2026-09-04T02:34:40.319000+00:00",
+      "contentSha256": "be1dc940cae881454d89abe2262503b3e2780b7fc9fe15e367034c6912cdff8f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545261015212630118",
+      "timestamp": "2026-09-04T02:35:35.588000+00:00",
+      "contentSha256": "80fb050a042f96d0104421c499919141f9b003f43240ef2ad8e203a7c8bf7e36",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545261082967416873",
+      "timestamp": "2026-09-04T02:35:51.742000+00:00",
+      "contentSha256": "4cf620b31bc5d8b2e0a32346c7ace80220ff5e81fc5ac632f6df8f8077f28439",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545261457724276846",
+      "timestamp": "2026-09-04T02:37:21.091000+00:00",
+      "contentSha256": "85c9ff4a1ba0746884408728c9840a51b7a57633aa8a011147f0fa9cb59e0881",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545261497343811664",
+      "timestamp": "2026-09-04T02:37:30.537000+00:00",
+      "contentSha256": "d072130aa7665e11ec97c3e9988ed63628be4039a4593455683d456907cfa4cb",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545261659759575071",
+      "timestamp": "2026-09-04T02:38:09.260000+00:00",
+      "contentSha256": "a80b3e24ad332b41b6fdcd709ba04b2a394619ccc07505855c7a1a0e97d1f51b",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545261763727990816",
+      "timestamp": "2026-09-04T02:38:34.048000+00:00",
+      "contentSha256": "97e4ed39d45377bfc0acb8e54ffe8dd98fe70f711e865d44ed8df14e8e550154",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545261814684590141",
+      "timestamp": "2026-09-04T02:38:46.197000+00:00",
+      "contentSha256": "5bf5a78068eafbf3a425110ff7f7d6ba615dc3f1c6816e5233eddd05cbdc1277",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545261920699940946",
+      "timestamp": "2026-09-04T02:39:11.473000+00:00",
+      "contentSha256": "3ea9324f02f871e97eb24dcf83a8d3eb346c87ef5233b4f979884f91e1ed18cc",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545262276649689158",
+      "timestamp": "2026-09-04T02:40:36.338000+00:00",
+      "contentSha256": "b2ca9bac0ee348fcd6750393da121f3c53046840e732781156c9cda565a36157",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545262481918660648",
+      "timestamp": "2026-09-04T02:41:25.278000+00:00",
+      "contentSha256": "9b15f8ad71d37c2809d0eeb0185c134a925a6023f122b0a66f055a96df425af5",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545262884983144459",
+      "timestamp": "2026-09-04T02:43:01.376000+00:00",
+      "contentSha256": "f0e0862a2c4aeef66284c5a96f1d8a21fd1c2072753c508466293fac0833327e",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545262918168223814",
+      "timestamp": "2026-09-04T02:43:09.288000+00:00",
+      "contentSha256": "09f2c2cc8190f7ef580a809c15ac676a5202c4413cd7167bdfdbabdc76d5acec",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545263187090341959",
+      "timestamp": "2026-09-04T02:44:13.404000+00:00",
+      "contentSha256": "9bc9ce60d1d567b29043a835128d287c519333e227651e445a6c5186a38f5245",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545263258590650478",
+      "timestamp": "2026-09-04T02:44:30.451000+00:00",
+      "contentSha256": "78a865ec9f7e4df5128d527baeae7057c474511586ec90c8dbafdc4e194d073f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545263438798790716",
+      "timestamp": "2026-09-04T02:45:13.416000+00:00",
+      "contentSha256": "5277c8251cc6a888cd9d282ab08985dde3b33a238839ac6e287feaff5b0e4372",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545263444016500829",
+      "timestamp": "2026-09-04T02:45:14.660000+00:00",
+      "contentSha256": "520a05f39523d7d0e66bab93bb91166600a108ba3c5fbdb2e5e01f0c3fd17d1e",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545264053633421423",
+      "timestamp": "2026-09-04T02:47:40.004000+00:00",
+      "contentSha256": "c3acf51dc9da3fb72fbee4752a50850bef00bdf853a0d37375c2295c37052086",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545264300149706822",
+      "timestamp": "2026-09-04T02:48:38.778000+00:00",
+      "contentSha256": "2ad0f99431ea115b3a3e67728e895c20b51d7646ef7211d2dea8d82019c8d2b5",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545264736986341427",
+      "timestamp": "2026-09-04T02:50:22.928000+00:00",
+      "contentSha256": "1892af7a4b19dd2e8b4d972fbabe9e243dba061c015cc5f4971d511d212fe3ee",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545264863255855174",
+      "timestamp": "2026-09-04T02:50:53.033000+00:00",
+      "contentSha256": "7bc6432b6cd29811ff90dfcd2e0bac509bfd757fbfce210f9ba4607f1c070329",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545265166151716944",
+      "timestamp": "2026-09-04T02:52:05.249000+00:00",
+      "contentSha256": "d43128a2ef945db630cc405cfcbe1c58e4c7224a7f7a701ac51398bd5c58a0c8",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1356070501163991211",
+      "id": "1545265791149023262",
+      "timestamp": "2026-09-04T02:54:34.260000+00:00",
+      "contentSha256": "9c8a5b9a8adb17c54be29df449b99ac3428663b6709e563a0865c7b126d1db4f",
+      "source": "rift-rp/rift-rp/.cache/history.sqlite3"
+    }
+  ],
+  "scope": {
+    "corpora": [
+      "rift-rp/rift-rp/.cache/history.sqlite3",
+      "babel-quest-rp-update-2026-10-18/.cache/history.sqlite3"
+    ],
+    "reading": "The three bounded text sequences are read through their closing actions and immediate aftermath, with reply context. Later unrelated rift openings are not folded into the clockwork ending. Source discovery, working windows and exact hash checks are not exhaustive reading of either corpus. The two October upload packets are copies, not independent corroboration.",
+    "retainedQualifiedEvidence": "The Pappy/Adelia public histories identify the rescuer; original narration establishes the light/call/extraction sequence. Explicit existing creator canon governs Cthulhu’s identity/date. Neither is replaced by a new inferred identity or ruling.",
+    "excluded": "Raw transcripts, controller identities, protected identity/origin mappings, private explanations, unreviewed image/video contents, real-world analogies/lyrics and new generic or gag identities remain outside Git."
+  },
+  "decisions": [
+    "Three existing story identities and all five milestone titles/routes/dates/importance/regions/calendar metadata remain. Five timeline summary strings and three library descriptions change; no new event, record, portrait or media is added. Alavara remains outside this batch.",
+    "Clockwork adds the gathering, uncertain route choice, defensive ward, Brianna’s actual early exit, changing construct attacks, the support unit’s mage targeting, the collector’s attributed delivery claim, Forcecage and the retreat. The source’s left-path narration governs the approach despite conflicting stated intentions.",
+    "Carmen carries the limp moth boy out; that post does not name its passenger. Evrelki’s last account and Ithilrûnë’s final breath are retained without asserting an unseen completed extraction or named return. Cecil explicitly values her life while she orders him away. The ending is not turned into an all-safe victory or confirmed closure of the machine realm.",
+    "Clockwork’s source dates remain explicitly unresolved as world dates; the scene’s introductions do not silently backdate or change the separate Third Arrival canon. Brother is Evrelki’s address to Scribonia, not a new biological genealogy.",
+    "The abyssal company does not share one purpose. Damian Black remains the name used in the scene; no unconfirmed disguise identity is assigned. The pre-existing connected Magnus history/reference is retained with its scope. Alfred’s reunion/attack, Aleister’s hesitation, Velkyn’s choices and Ghilsen’s changed name/actions are distinguished.",
+    "Dumuzi’s offers, control claims and intended service remain attributed. Protected identity/origin explanations and recruitment mechanics are withheld. The narrative does not infer that he created a being merely because someone watching assumes so.",
+    "Pappy refuses an offered exit, is attacked again, and is extracted before the three remaining creatures finish the opening. His hammer splatters in the rescue energies. Creator-confirmed Cthulhu enters, consumes the creatures and leaves to serve a master. Later knowledge/consent/adjudication disputes remain separate from the actual escape and crossing.",
+    "Closing orders and discussion do not establish completed journeys or a general right to switch planes through rifts. The encounter-specific ruling is explicitly identified as governance in the evidence panel.",
+    "Babel follows departure, the salamander fight and healing, a completed teleport using the earlier beach shell, the controlled tests, cut ropes, family/rescue lures, failed extraction/restoration and the two successful interventions. Arjahn’s radiant protection is not universal; breath-holding delays exposure and Ryvyt is initially exempt because he does not breathe. No unnamed ward is assigned a spell name.",
+    "Ryvyt’s Dispel Magic frees Nymera before Scribonia’s Wish clears the wider mist. Abyss’s appearance shows continued activity after the mountain assault, not the mist’s origin or every casualty. Perceived family, Queen and children do not become independently present people, confirmed deaths or resolved family fates.",
+    "Wren’s anger after Scribonia slaps her, Arjahn’s apology and admission of continued vulnerability, Olokun’s care after needing rescue and Nymera carrying Scribonia retain distinct agency. The collapse/carry occurs after Death leaves, not before the later offer.",
+    "Dumuzi’s invocation of Oya, Aria claim and promised future stay claims; Aria’s witnessed death is not overwritten. The vision’s reception/reactions are recorded without publishing unseen video contents or protected cosmology. Refusals remain before and after it; the party leaves with exhaustion and knowledge rather than a permanent cure."
+  ],
+  "preservation": {
+    "baselineFiles": 1633,
+    "existingChangedContent": [
+      "content/records/abyssal-rift-cthulhu.json",
+      "content/records/babel-mist-expedition.json",
+      "content/records/clockwork-rift.json",
+      "content/records/event-chronicles.json",
+      "content/reference/event-chronicles.json",
+      "content/reference/world.json"
+    ],
+    "oldChapterDestinationsRetained": 16,
+    "allOtherContentAndAssetsExact": true,
+    "timelineObjects": 389,
+    "people": 262,
+    "publicEvents": 363,
+    "browsePreviews": 261,
+    "privatePayloadBytes": 5251167,
+    "privatePayloadSha256": "b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e"
+  },
+  "verification": "PASS five existing timeline card-to-story journeys, 103 full paragraphs/22 open chapters/evidence panels, all 16 old chapter bookmarks, exact filtered return and browser Back, reload/focus, independent fresh 390/320 layouts/header fit, ten actual connected-history/library links, Fenumion dates, global search and protected boundaries; no script/public HTTP errors. Static/source/preservation/calendar/portrait/preview/protected checks pass; representative local screenshots are inspected. The existing hosted gate covers all 36 stories. Publication receipt follows in docs/RIFT_BABEL_EVENT_STORIES_2026_10_30.md."
+}

@@ -2,6 +2,14 @@
 
 Last updated: 2026-10-30
 
+## Rift and Babel event stories · 30 October 2026
+
+The owner requests the next major-event batch. Clockwork 476→1,449 words/seven chapters, Cthulhu 491→1,525/seven and Babel mist 576→2,276/eight expand in place, serving five existing major milestones. All sixteen old chapter destinations survive; no new event/page/identity/asset, and Alavara remains aside. Details: RIFT_BABEL_EVENT_STORIES_2026_10_30.md and content/reference/rift-babel-event-stories-review-2026-10-30.json.
+
+All 592 cited native versions and one Cecil quotation match two read-only corpora. Bounded reading includes endings; working windows and discovery are not exhaustive archive review. Clockwork’s ending retains Evrelki’s last account, unnamed carried passenger and Ithilrûnë’s fatal fall without invented extraction/return. Cthulhu’s crossing follows Pappy’s rescue; creator canon and qualified connected rescue history remain distinct from new source-name evidence and closing governance. Babel preserves separate dispelling/Wish, failed remedies, Wren’s anger, Arjahn’s admitted vulnerability, the attributed offer/Aria claim and Scribonia’s later collapse/carry. No private identity/origin mapping, raw/controller/intimate/unreviewed material enters Git.
+
+Only six old content files change, with five timeline summary strings. All other dates/importance/regions/calendar, metadata, records/media/roles/maps/quotes/relationships/261 previews and complete private payload remain. Catalog295 retains 640 records/591 complete public bodies, 262 people/363 public events/36 stories; six additions make 2,651 sections. Static/source/preservation/calendar and focused five-card/full-body/bookmark/return/fresh-mobile/ten-link/search checks pass; screenshots are inspected. A URL-encoding-only test expectation is corrected without runtime changes. No style/dependency/workflow stages added. Publication receipt follows.
+
 ## Early major event stories · 29 October 2026
 
 The owner requests another batch of existing major histories. First Called 484→1,866 words/eight chapters, failed ritual 469→1,657/seven and Rehevä 488→1,680/seven expand without new records or events. The first company’s fight, recovery and later naming, the north-first choice/ritual/escape/debrief, and the inexperienced voyage/repairs/hospitality/arrival remain concrete and distinct. Alavara stays excluded. Details: EARLY_MAJOR_EVENT_STORIES_2026_10_29.md and content/reference/early-major-events-review-2026-10-29.json.

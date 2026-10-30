@@ -2,6 +2,14 @@
 
 Last updated: 2026-10-30
 
+## Tower petition follow-up · 30 October 2026
+
+The new 24-message packet extends the existing Tower petition from 1,084 words/four chapters to 1,857/seven. Adelia receives words individually and repeats only part; Heimr answers Arjahn after dispersal, ending with his question about grief and an unfulfilled family-reunion promise. Fenwick leaves for Prima with his two helpers. Arjahn, Adelia, Fenwick and the Tower gain four sections; Scribonia’s own request remains distinct. Earlier unanswered prompts become explicitly earlier knowledge. No new page, person, asset or event. Details: TOWER_FOLLOWUP_2026_10_30.md and content/reference/tower-followup-review-2026-10-30.json.
+
+All 24 texts and 16 cited versions match the bounded 100-message native cache, not an exhaustive rereading of the prior 6,583 messages. RP remains below quest authority; private openings, protected doctrine, raw/controller data, rules text and unreviewed media are excluded. Claims/plans and Heimr’s promise stay attributed; no formal assembly, complete Gate/history explanation, shared knowledge for every companion or completed reunion is invented.
+
+The same Local event extends its source range to 27–29, Month of Death, Year 3 / Days 968–970. All 390 other objects remain exact. Nine old content files change, preserving 103 section destinations, 36 reading chapters and all other records/roles/maps/quotes/artwork/261 previews and the complete private payload. Catalog 297 retains 642 records/593 complete bodies, 262 people/365 public events/38 stories, now 2,688 sections. Local focused/source/preservation/calendar/portrait/protected/preview checks pass; screenshots are inspected. No runtime/style/dependency/workflow or added test stage. Publication receipt follows.
+
 ## New quest accounts · 30 October 2026
 
 The owner supplies the new 497-message quest packet. Two Regional milestones now open full eight-/seven-chapter stories: Return to Hana’s Tower (1,653 words) and The Attack on the Chains (1,138). Twelve existing profiles/places receive fifteen sections; all thirty new sections carry checked quest receipts. Hana’s death updates stale summaries without resolving her forms or the final painting. Pin remains the established Pelegia alias on one canonical profile; Minerva’s relayed safety report stays distinct from later captivity threats. The Chain still suppresses magic; the company has not reached the Maw. Attachments, private/controller/raw material and invented completions remain excluded. Details: QUEST_UPDATE_2026_10_30.md and content/reference/quest-update-review-2026-10-30.json.

@@ -13863,38 +13863,38 @@
       },
       {
         "title": "The Tower’s company petitions for a divine audience",
-        "meta": "27–28 Oct 2026 · Tower gathering and narrator follow-up",
-        "sort": "2026-10-28-tower-petition",
+        "meta": "27–29 Oct 2026 · Tower gathering and individual replies",
+        "sort": "2026-10-29-tower-petition",
         "era": "2026 · Consequence and stewardship",
         "kind": "Petition for a divine audience",
         "article": "tower-of-gael",
         "story": "petition-at-the-tower-of-gael",
         "location": "Tower of Gael; Gael",
-        "people": "Scribonia; Adelia; Elenia; Arjahn; Nymera; Olokun; Oya; Alyhotep",
+        "people": "Scribonia; Adelia; Elenia; Arjahn; Nymera; Olokun; Oya; Alyhotep; Heimr; Fenwick",
         "tags": [
           "Tower of Gael",
           "prayer",
           "divine audience",
           "friendship"
         ],
-        "summary": "The company gathers at the Tower, argues over why the gods should be asked to answer, makes petitions and disperses. A later tap and unfinished checks leave the response unresolved.",
+        "summary": "The company petitions and disperses. Adelia repeats part of Nuru’s reply; Heimr speaks with Arjahn about his questions and grief, ending with a promise of reunion that remains unfulfilled.",
         "importance": 2,
-        "importanceReason": "A local gathering produces petitions, personal disagreements and support. No completed divine audience, answered cosmology or change across multiple fronts is established.",
+        "importanceReason": "The gathering and individual responses affect the people asking. A full divine assembly, complete historical answers or consequences across multiple regions are not established.",
         "regions": [
           "gael"
         ],
         "dating": {
           "kind": "recorded",
-          "note": "The gathering is one continuous sequence across the recorded range. Later narrator follow-up comes after the group disperses; no completed divine audience or elapsed overnight rest is established.",
+          "note": "The source window covers the gathering, dispersal and later individual replies. It does not establish a new overnight rest, a full assembly or that every companion hears the later conversation.",
           "postingWindow": {
             "start": "2026-10-27",
-            "end": "2026-10-28",
+            "end": "2026-10-29",
             "precision": "range",
             "qualifier": "on"
           },
           "finalWar": {
             "start": 968,
-            "end": 969,
+            "end": 970,
             "precision": "range",
             "qualifier": "on"
           }
@@ -13974,7 +13974,20 @@
           "https://discord.com/channels/1177270231513694249/1250334670957051958/1564991508724060273",
           "https://discord.com/channels/1177270231513694249/1250334670957051958/1565041463312654468",
           "https://discord.com/channels/1177270231513694249/1250334670957051958/1565043441405272146",
-          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565043489845158119"
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565043489845158119",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565046394186629181",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565072314851397653",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565073371979587686",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565191369297895497",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565392950148599820",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565419119363363049",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565427623046418433",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565433269288308738",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565443592888254616",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565444004487635095",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565446556608630897",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565447928619995319",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1565488078624260217"
         ]
       },
       {
@@ -14498,7 +14511,7 @@
         "meta": "Shadow Sentinel · Spirit of Adelia",
         "article": "adelia-hope",
         "image": "assets/archive/adelia.jpeg",
-        "summary": "Love confronts loss through shadow, mercy and sacrifice. Bound to Hope and Gael, Adelia must still face the boundaries of protection.",
+        "summary": "Love confronts loss through shadow, mercy and sacrifice. Bound to Hope and Gael, Adelia must still face the boundaries of protection. At the Tower, receives Nuru’s reply individually and chooses which words to repeat.",
         "aliases": [
           "Adelia",
           "Shadow Sentinel",
@@ -14543,7 +14556,7 @@
         "meta": "Soldier and mapper",
         "article": "arjahn",
         "image": "assets/characters/arjahn.png",
-        "summary": "A soldier and planner whose care for companions and grief for his family lead him to demand useful answers while continuing the fight."
+        "summary": "A soldier and planner whose care for companions and grief for his family lead him to demand useful answers while continuing the fight. After the Tower petition, asks Heimr about the war and grief, and receives an unfulfilled promise of family reunion."
       },
       {
         "title": "Brianna",

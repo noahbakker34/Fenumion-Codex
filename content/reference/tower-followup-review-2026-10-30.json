@@ -1,0 +1,634 @@
+{
+  "reviewed": "2026-10-30",
+  "scope": "Tower petition continuation; 24 supplied messages checked; seven new sections across the existing story and four related pages, with one additional profile clarification.",
+  "source": {
+    "file": "Tower-of-Gael-NEW-CONTENT-2026-10-30.md",
+    "sha256": "8d3faf15fcd98eeedd6a8e82ab9f5626ca83baeb0bcc01db8459856a8e2e72fd",
+    "bytes": 24530,
+    "messages": 24,
+    "nativeCache": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3",
+    "cacheMessages": 100
+  },
+  "sections": {
+    "petition-at-the-tower-of-gael": {
+      "petition-nuru-reply": [
+        {
+          "channel": "1250334670957051958",
+          "id": "1565046394186629181"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565049448369881101"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565072314851397653"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565073371979587686"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565191369297895497"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565191406467809281"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565191455931113636"
+        }
+      ],
+      "petition-heimr-answer": [
+        {
+          "channel": "1250334670957051958",
+          "id": "1565392950148599820"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565419119363363049"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565427623046418433"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565433269288308738"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565446556608630897"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565447928619995319"
+        }
+      ],
+      "petition-grief-and-a-promise": [
+        {
+          "channel": "1250334670957051958",
+          "id": "1565427623046418433"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565433269288308738"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565443592888254616"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565444004487635095"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565446556608630897"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565447928619995319"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565488078624260217"
+        }
+      ]
+    },
+    "arjahn": {
+      "arjahn-heimr-and-grief": [
+        {
+          "channel": "1250334670957051958",
+          "id": "1565392950148599820"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565419119363363049"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565427623046418433"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565433269288308738"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565443592888254616"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565444004487635095"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565446556608630897"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565447928619995319"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565488078624260217"
+        }
+      ]
+    },
+    "adelia-hope": {
+      "adelia-nuru-reply": [
+        {
+          "channel": "1250334670957051958",
+          "id": "1565046394186629181"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565049448369881101"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565072314851397653"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565073371979587686"
+        }
+      ]
+    },
+    "fenwick": {
+      "fenwick-leaves-tower-for-prima": [
+        {
+          "channel": "1250334670957051958",
+          "id": "1565191369297895497"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565191406467809281"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565191455931113636"
+        }
+      ]
+    },
+    "tower-of-gael": {
+      "tower-petition-responses": [
+        {
+          "channel": "1250334670957051958",
+          "id": "1565046394186629181"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565072314851397653"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565073371979587686"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565191369297895497"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565191406467809281"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565191455931113636"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565392950148599820"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565419119363363049"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565443592888254616"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565444004487635095"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565446556608630897"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565447928619995319"
+        },
+        {
+          "channel": "1250334670957051958",
+          "id": "1565488078624260217"
+        }
+      ]
+    }
+  },
+  "receipts": [
+    {
+      "channel": "1250334670957051958",
+      "id": "1565046394186629181",
+      "timestamp": "2026-10-28T16:55:37.530000+00:00",
+      "contentSha256": "59f708f7654837edd9d952dc6106db0f51ea62b58523ce294481c12aea4e115d",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565049448369881101",
+      "timestamp": "2026-10-28T17:07:45.704000+00:00",
+      "contentSha256": "f0319521c5b286aefd998278d8c3614861aa29a22640d9a8c681d293d764d129",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565072314851397653",
+      "timestamp": "2026-10-28T18:38:37.498000+00:00",
+      "contentSha256": "e898ec0394e75a0fe7a5d7cdb767069819a51f6442e010cb0d811dce50326c52",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565073371979587686",
+      "timestamp": "2026-10-28T18:42:49.537000+00:00",
+      "contentSha256": "af9862d2daf98c8778a9b5ba77716e0c294dc5625b63ab2dce3d4513e6e76952",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565191369297895497",
+      "timestamp": "2026-10-29T02:31:42.290000+00:00",
+      "contentSha256": "d4bb0a3dd23339266a226927db03f87c2ffd1a59d7dba7aacaf40063c255b2e8",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565191406467809281",
+      "timestamp": "2026-10-29T02:31:51.152000+00:00",
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565191455931113636",
+      "timestamp": "2026-10-29T02:32:02.945000+00:00",
+      "contentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565392950148599820",
+      "timestamp": "2026-10-29T15:52:42.910000+00:00",
+      "contentSha256": "f2bd2ab0b0f51288445aae60b3e0be3789a7625ff568c2c11f508cb5c0420ac4",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565419119363363049",
+      "timestamp": "2026-10-29T17:36:42.137000+00:00",
+      "contentSha256": "409d0dff33557ed6b856e570f4d2b005591af267a38951fe97ff735ba23e6a9c",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565427623046418433",
+      "timestamp": "2026-10-29T18:10:29.573000+00:00",
+      "contentSha256": "9f1906ea59f17fc9c89ca361378ce37520c2cdba38cb17ba1f3fb8279096ec10",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565433269288308738",
+      "timestamp": "2026-10-29T18:32:55.742000+00:00",
+      "contentSha256": "ebc530c6ce21eb294b48edaa6cc656ba6c793efb45993423ea27f536cf4dcf88",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565443592888254616",
+      "timestamp": "2026-10-29T19:13:57.080000+00:00",
+      "contentSha256": "644167694b018626743b092f948db07ba1e886da34da3f3db4b7f64406703d61",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565444004487635095",
+      "timestamp": "2026-10-29T19:15:35.213000+00:00",
+      "contentSha256": "b28cad63d9c86c94d70bd47e1dd12ab27221f453e6ed4b86fef89da3fbcc06c1",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565446556608630897",
+      "timestamp": "2026-10-29T19:25:43.686000+00:00",
+      "contentSha256": "f7893e23907081898a37c064c4ba9707f8a635d1af88b25544a6b0fa9cc91cb0",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565447928619995319",
+      "timestamp": "2026-10-29T19:31:10.799000+00:00",
+      "contentSha256": "655cc5f5ecd4a8abb8328ff547a0970ca34a028c7dda008d78e2479a3c8fe429",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    },
+    {
+      "channel": "1250334670957051958",
+      "id": "1565488078624260217",
+      "timestamp": "2026-10-29T22:10:43.306000+00:00",
+      "contentSha256": "22e8a74accbe59bd99c83b4420bef7ae5479158fee5c923a7a253b3e1088cdfc",
+      "source": "tower-of-gael-new-2026-10-30-101309/.cache/history.sqlite3"
+    }
+  ],
+  "timelineDelta": {
+    "before": {
+      "title": "The Tower’s company petitions for a divine audience",
+      "meta": "27–28 Oct 2026 · Tower gathering and narrator follow-up",
+      "sort": "2026-10-28-tower-petition",
+      "era": "2026 · Consequence and stewardship",
+      "kind": "Petition for a divine audience",
+      "article": "tower-of-gael",
+      "story": "petition-at-the-tower-of-gael",
+      "location": "Tower of Gael; Gael",
+      "people": "Scribonia; Adelia; Elenia; Arjahn; Nymera; Olokun; Oya; Alyhotep",
+      "tags": [
+        "Tower of Gael",
+        "prayer",
+        "divine audience",
+        "friendship"
+      ],
+      "summary": "The company gathers at the Tower, argues over why the gods should be asked to answer, makes petitions and disperses. A later tap and unfinished checks leave the response unresolved.",
+      "importance": 2,
+      "importanceReason": "A local gathering produces petitions, personal disagreements and support. No completed divine audience, answered cosmology or change across multiple fronts is established.",
+      "regions": [
+        "gael"
+      ],
+      "dating": {
+        "kind": "recorded",
+        "note": "The gathering is one continuous sequence across the recorded range. Later narrator follow-up comes after the group disperses; no completed divine audience or elapsed overnight rest is established.",
+        "postingWindow": {
+          "start": "2026-10-27",
+          "end": "2026-10-28",
+          "precision": "range",
+          "qualifier": "on"
+        },
+        "finalWar": {
+          "start": 968,
+          "end": 969,
+          "precision": "range",
+          "qualifier": "on"
+        }
+      },
+      "reviewSources": [
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564769029241970855",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564769328002506893",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564770466353119336",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771196787105933",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771198548713553",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771200691871805",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771454015246407",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771611834585160",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771784602161344",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564772087183450184",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564772514620510249",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773121204949089",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773270056599553",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773294807326802",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773898027925585",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564776068999815269",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564777122587746306",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564777711107309653",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564781733080211467",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564776203620196478",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564777565133086882",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564778252458000426",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564778870220001503",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564779132066201773",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564779825225535699",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564780574340812821",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564782642828804267",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564782968960983123",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564783612195250307",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564783705938071583",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564786556185739335",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564787748412461099",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564787947839029443",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788294741528731",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788349565141054",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788627391774842",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564789283414482995",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564783988634026178",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564789704728252417",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564789944143056928",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564790674052612308",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792057665425459",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792105782616147",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792237655724165",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792464315908240",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564791465970765895",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794778665750575",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794793299808287",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794801973366866",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796300254380093",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564793170787700758",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564793428636598425",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564793501487603713",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564793878869966849",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788486588993567",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788488052805767",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788489944309781",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794668468666524",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794670754697246",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564795509569224705",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564795823953281136",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796026781696103",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796092011249727",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796419305504821",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796587501289734",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796795564068904",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796859803897887",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797046253424866",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797257235308576",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797776724758529",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564798162688942231",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564991508724060273",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565041463312654468",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565043441405272146",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565043489845158119"
+      ]
+    },
+    "after": {
+      "title": "The Tower’s company petitions for a divine audience",
+      "meta": "27–29 Oct 2026 · Tower gathering and individual replies",
+      "sort": "2026-10-29-tower-petition",
+      "era": "2026 · Consequence and stewardship",
+      "kind": "Petition for a divine audience",
+      "article": "tower-of-gael",
+      "story": "petition-at-the-tower-of-gael",
+      "location": "Tower of Gael; Gael",
+      "people": "Scribonia; Adelia; Elenia; Arjahn; Nymera; Olokun; Oya; Alyhotep; Heimr; Fenwick",
+      "tags": [
+        "Tower of Gael",
+        "prayer",
+        "divine audience",
+        "friendship"
+      ],
+      "summary": "The company petitions and disperses. Adelia repeats part of Nuru’s reply; Heimr speaks with Arjahn about his questions and grief, ending with a promise of reunion that remains unfulfilled.",
+      "importance": 2,
+      "importanceReason": "The gathering and individual responses affect the people asking. A full divine assembly, complete historical answers or consequences across multiple regions are not established.",
+      "regions": [
+        "gael"
+      ],
+      "dating": {
+        "kind": "recorded",
+        "note": "The source window covers the gathering, dispersal and later individual replies. It does not establish a new overnight rest, a full assembly or that every companion hears the later conversation.",
+        "postingWindow": {
+          "start": "2026-10-27",
+          "end": "2026-10-29",
+          "precision": "range",
+          "qualifier": "on"
+        },
+        "finalWar": {
+          "start": 968,
+          "end": 970,
+          "precision": "range",
+          "qualifier": "on"
+        }
+      },
+      "reviewSources": [
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564769029241970855",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564769328002506893",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564770466353119336",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771196787105933",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771198548713553",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771200691871805",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771454015246407",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771611834585160",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771784602161344",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564772087183450184",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564772514620510249",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773121204949089",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773270056599553",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773294807326802",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773898027925585",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564776068999815269",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564777122587746306",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564777711107309653",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564781733080211467",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564776203620196478",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564777565133086882",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564778252458000426",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564778870220001503",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564779132066201773",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564779825225535699",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564780574340812821",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564782642828804267",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564782968960983123",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564783612195250307",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564783705938071583",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564786556185739335",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564787748412461099",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564787947839029443",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788294741528731",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788349565141054",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788627391774842",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564789283414482995",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564783988634026178",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564789704728252417",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564789944143056928",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564790674052612308",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792057665425459",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792105782616147",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792237655724165",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564792464315908240",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564791465970765895",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794778665750575",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794793299808287",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794801973366866",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796300254380093",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564793170787700758",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564793428636598425",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564793501487603713",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564793878869966849",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788486588993567",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788488052805767",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788489944309781",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794668468666524",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794670754697246",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564795509569224705",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564795823953281136",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796026781696103",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796092011249727",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796419305504821",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796587501289734",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796795564068904",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796859803897887",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797046253424866",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797257235308576",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797776724758529",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564798162688942231",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1564991508724060273",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565041463312654468",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565043441405272146",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565043489845158119",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565046394186629181",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565072314851397653",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565073371979587686",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565191369297895497",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565392950148599820",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565419119363363049",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565427623046418433",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565433269288308738",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565443592888254616",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565444004487635095",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565446556608630897",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565447928619995319",
+        "https://discord.com/channels/1177270231513694249/1250334670957051958/1565488078624260217"
+      ]
+    }
+  },
+  "editorialLimits": [
+    "The supplied 24-message text packet matches the original read-only native cache. That cache contains a bounded 100-message window, not the entire prior 6,583-message Tower archive. All sixteen newly cited native versions match. Earlier references remain with their established review limits; attachments and inaccessible/older archives are not newly reviewed.",
+    "This is compatible ambient Tower RP and narrator follow-up. It does not outrank established quest outcomes, verify Dumuzi’s history or make the family figures in the quest mist physically real.",
+    "Adelia receives a response individually and repeats only part of it. The unshared opening, protected cosmological explanations, divine casualty/war-balance details, raw transcript/controller information and rules text are excluded. The public review omits the unshared message’s source ID as a new citation; the repeated words have their own receipt.",
+    "Heimr answers instead of the requested Talan. The personal exchange follows the gathering’s dispersal. An OOC visibility question is answered by a pointer to that earlier narrator setup; it does not establish that every companion hears or shares the new account. Scribonia’s knowledge is not silently expanded.",
+    "Heimr’s account of omissions and uncertainty retains attribution. Arjahn’s reading of Death’s pain and proposed strategy remain his interpretation and plan. No universal metaphysical rule, full historical answer, solved Gate mechanism or completed formal assembly is claimed.",
+    "Arjahn’s anger, apology, renewed commitment and question about grief remain together. Heimr’s promise to take him to his family is attributed and unfulfilled; no reunion, resurrection, completed forgiveness or end of the war is invented.",
+    "Fenwick’s narrative action and two cast titles establish his departure for Prima with his homunculus and simulacrum. No particular landing site, second completed expedition or universal travel rule is inferred. The separate ruin expedition and Minerva’s circumstances remain unresolved.",
+    "The same Local milestone and story remain, with the source-date window extended from 27–28 to 27–29 October. Its final-war range is968–970. No forced same-day adjustment, new event, new personal/divine identity page, rating increase or roster/media change is made."
+  ],
+  "preservation": {
+    "baselineFiles": 1637,
+    "existingChangedContent": [
+      "content/records/adelia-hope.json",
+      "content/records/arjahn.json",
+      "content/records/event-chronicles.json",
+      "content/records/fenwick.json",
+      "content/records/petition-at-the-tower-of-gael.json",
+      "content/records/scribonia.json",
+      "content/records/tower-of-gael.json",
+      "content/reference/event-chronicles.json",
+      "content/reference/world.json"
+    ],
+    "oldSectionDestinationsRetained": 103,
+    "oldReadingChaptersRetained": 36,
+    "allOtherRecordsAssetsAndEventsExact": true,
+    "sourcePacketMessages": 24,
+    "citedNativeVersions": 16,
+    "newSections": 7,
+    "newRecords": 0,
+    "newTimelineEvents": 0,
+    "people": 262,
+    "publicEvents": 365,
+    "totalTimelineObjects": 391,
+    "storyPages": 38,
+    "privatePayloadBytes": 5251167,
+    "privatePayloadSha256": "b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e"
+  },
+  "verification": "PASS existing Local card to seven open story chapters; 326 complete story/profile/place paragraphs; 14 old bookmarks and all103 earlier rendered targets; source/calendar range; unchanged biography plans/artwork/roles; filtered return and Back; reload/focus; fresh390/320 story and five320px profiles; eight actual connected/library links; Arjahn/Fenwick personal timelines; Heimr search; public/private boundaries; no script/public HTTP errors. Static/calendar/portrait/preview/protected checks pass; local screenshots are inspected. Publication/live receipt follows in docs/TOWER_FOLLOWUP_2026_10_30.md."
+}

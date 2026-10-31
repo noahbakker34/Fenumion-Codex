@@ -1,0 +1,368 @@
+{
+  "id": "kun-ardaire",
+  "title": "Kûn Ardaire",
+  "category": "Places",
+  "type": "Ruined dwarven hold · Old Earth Hills",
+  "schemaVersion": 1,
+  "protected": false,
+  "dek": "The named hold behind the four-pillar ruins. Two expeditions find its old rooms, a failed seal and the physical scars left by their first escape.",
+  "tags": [
+    "Prima",
+    "Old Earth Hills",
+    "dwarven hold",
+    "four-pillar ruins"
+  ],
+  "facts": {
+    "Region": "Prima",
+    "Within": "Old Earth Hills",
+    "Recorded visits": "5 June 2024; 9 October 2024 quest openings",
+    "Entrance": "Four geometric pillars and spectral keepers",
+    "Ancient history": "An exodus and closing ritual survive in records; exact chronology unresolved",
+    "Survey": "Partial; no complete plan or exact map pin established"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248068703308873809",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248072222883581992",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248073932867764266",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248074399261655102",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248088431498887169",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248092700243263490",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248093493755379724",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248095552630165534",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248098045967470682",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248098338990067722",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248099502632603721",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248101027576549447",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248101223010275420",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248102478688555029",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248102570606461000",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248103146497114154",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248103365590913105",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248104469619539998",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248107087825735731",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248107975344652339",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248108656470265979",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248109465740513352",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248111015418269779",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248112492148822036",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248113218346287206",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248115517634646058",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248119048428851200",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248121148315533353",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248121520681783387",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248122163089641512",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248122366958112799",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248122941745528863",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248124416337117257",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248124622793084969",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248125217339867176",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248126739855442033",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248127761495756873",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248128448397053988",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248128815788724286",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248130661299126283",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248130969232216116",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248132983169355898",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248133735979810827",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248134199622504582",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248134343445188608",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248135313403019294",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248135653904879688",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248140176966946836",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293739393848180809",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293743390311059608",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293747051389259838",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293749084229734522",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293750935008579584",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293751585473695856",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293754652583661620",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293760068545937511",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293763698934153217",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293764799364206624",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293765770156707862",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293767146345857125",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293767728955392000",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293771019365912689",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293773710225833994",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293774309663309827",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293775001518084180",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293775633574527038",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293777183583637505",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293779830847832127",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293781536734445638",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293785292385288202",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293785823476584490",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293786565818187858",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293787533557108838",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293788702341988384",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293790466718044161",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293792629846179860",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293794453353529495",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293795478927839333",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293797456546369549",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293805327896023091",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293806633415348247",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293806938215419944",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293810098560303157",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293812132797743105",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293814692459843586",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293826956911181835",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293836401892134975",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293836778570121216",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293836876624429147",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293837191398817813",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293837364082380851",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293837700796907532",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293838056809304095",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293838311563071492",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293838412851314720",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293838474566176860",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293839044702113804",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293839456465584140",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293840084826722395",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293840902732906507",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293842760012529746",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293843218072473610",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293843616615366697",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293847316909920288"
+  ],
+  "body": "<p>Kûn Ardaire is the ruined dwarven hold reached through the four-pillar entrance in the <a href=\"#old-earth-hills\">Old Earth Hills</a>, on <a href=\"#prima-pristinia\">Prima</a>. The name comes from the entrance’s spectral speakers and the documents found within. Its chambers preserve a departure, a failed defense and the consequences of opening a way that earlier inhabitants had tried to close.</p><h2 id=\"kun-first-approach\">The opening left by a landslide</h2><p>Dale identifies the ruins as lying in the Old Earth Hills when the first company sets out. At the site, a landslide has exposed a broad cave containing four differently shaped pillars: triangular, square, hexagonal and octagonal. The disaster that opened the way had already cost Fernir his life; finding a new passage does not make the place new.</p><p>The pillars answer the adventurers with three spectral dwarves and a gnome. The first exchange concerns the value of their reasoning as much as the choice itself. When the triangular pillar opens the way, its speaker names the hold: Kûn Ardaire. The explorers have moved from an unidentified cave into a place whose former people left a name for it.</p><h2 id=\"kun-rooms-and-records\">Rooms left behind, and a warning in a journal</h2><p>Beyond the entrance are stone rooms, sliding doors and ruined domestic objects. An ash-filled depression lies in an antechamber. Bedding has decayed into threads, metal frames break under weight, and a reception hall still has its dais and simple throne. These are traces of a lived-in hold, rather than a sequence of empty treasure rooms.</p><p>Wren recovers damaged writing from the ash and deciphers the unfamiliar form of Dwarvish. A journal taken from the remains of a dwarf records an ordinary beginning in militia service: fitting clothes and armor, losing sparring bouts and being delighted to belong. Its final account is an exodus through underpassages as food runs low.</p><p>A later warning, signed by Corporal Dezzim Youngsteel, says four masters stayed behind to close the hold and keep something from the world. The documents are evidence of what their writers understood and intended. Their old dates are not converted into a founding year or dated by the adventurers’ much later visit.</p><h2 id=\"kun-first-retreat\">A hot pursuit, and the way sealed again</h2><p>The company descends a wooden spiral stair into natural caverns and mine passages. There are collapsed ways, colored rock sorted into barrels, unhealthy-looking water and purple fungi. Investigating those traces brings the sound of scraping closer. A creature of heat and dark, hard legs emerges from the depths.</p><p>They choose to flee. Water flashes into steam, and Nienna’s shaking of the ground impedes the pursuer in narrow passages. Its struggle damages supports. By the time the explorers regain the upper rooms, heat and smoke are coming up after them.</p><p>At the entrance, the spectral figures give instructions for closing the way. Dale’s repeated naming of the hold lights the pillars, and the company completes the resealing while smoke is still reaching the cave. Adelia feels the guardians’ power diminish. They have escaped an immediate pursuit; they have not cleared the hold or explained everything its inhabitants tried to contain.</p><h2 id=\"kun-return-and-changed-door\">The return finds a changed entrance</h2><p>The later expedition removes the remaining doubt about the wider setting. The narrator follows the Eovar road into the Old Earth Hills and brings Olokun back to the cave of his earlier visit. The familiar four geometric pillars remain, but the apparent rough rock beyond them has been replaced by an ornate door covered in scenes of dwarven life.</p><p>Pappy’s magical sight reveals the pillar markings. The same three dwarves and gnome appear, now asking riddles whose answers lie among the door’s images. Olokun, Pappy, Vaemyr and Eldin work through them as the visible magic begins to fade. When the last answer is given, the door opens.</p><p>The voices describe unity lost to discord, pestilence, panic and greed. That is the guardians’ account of the hold’s ending. Inside, the changes left by the first expedition are physical too: fresh cobwebs occupy cleared spaces, soot blackens the rooms, and the wooden stair has burned away. They must find a way down the drop rather than reuse the earlier staircase.</p><h2 id=\"kun-later-fight\">The creatures in the smoke</h2><p>In the lower passages, smoke, soot and heat make the approach difficult. Olokun presses ahead and encounters a large, regal dwarven figure. Other threats are concealed around him; a manifestation of his ill father is part of the attack on him, rather than proof that his father has arrived at the mine.</p><p>His companions close the distance. The fight brings fire and poisonous wounds, and Pappy is overwhelmed. Vaemyr moves to help him as the enemies finally collapse. The remains reveal that the things they fought were composed of many dwarves. Eldin’s later attempt to heal them cannot restore people the narrator says have been dead for centuries.</p><p>Cala appears after the battle and asks for the return of the candlestick the company has recovered. The companions agree. Her light changes the immediate cavern, cooling the exposed lava. The record eventually brings the company back to the cave entrance with Vaemyr’s help. It does not establish that the entire underground complex has been mapped, resettled or made safe in every direction.</p><h2 id=\"kun-place-in-prima\">A hold within a larger landscape</h2><p>The entrance belongs to the Old Earth Hills and the hills belong to Prima. The First Forest is part of the road approach; the Alpine Forest lies farther east in the regional description. Neither route makes the hold the same place as the harpy cave, the quarry or every earlier underground city.</p><p>The recorded expeditions identify a named hold, repeated entrance and changed rooms. Its complete dimensions, all exits, original founding date and the ultimate reach of its underground passages remain unknown. <a href=\"#old-earth-hills\">Read the hills and their other expeditions →</a></p>",
+  "sections": [
+    {
+      "id": "kun-first-approach",
+      "title": "The opening left by a landslide",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248068703308873809",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248072222883581992",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248073932867764266",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248074399261655102",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248088431498887169"
+        ]
+      }
+    },
+    {
+      "id": "kun-rooms-and-records",
+      "title": "Rooms left behind, and a warning in a journal",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248092700243263490",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248093493755379724",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248095552630165534",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248098045967470682",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248098338990067722",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248099502632603721",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248101027576549447",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248101223010275420",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248102478688555029",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248102570606461000",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248103146497114154",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248103365590913105",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248104469619539998",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248107087825735731",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248107975344652339",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248108656470265979",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248109465740513352",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248111015418269779",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248112492148822036",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248113218346287206",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248115517634646058"
+        ]
+      }
+    },
+    {
+      "id": "kun-first-retreat",
+      "title": "A hot pursuit, and the way sealed again",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248119048428851200",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248121148315533353",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248121520681783387",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248122163089641512",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248122366958112799",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248122941745528863",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248124416337117257",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248124622793084969",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248125217339867176",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248126739855442033",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248127761495756873",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248128448397053988",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248128815788724286",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248130661299126283",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248130969232216116",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248132983169355898",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248133735979810827",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248134199622504582",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248134343445188608",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248135313403019294",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248135653904879688",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248140176966946836"
+        ]
+      }
+    },
+    {
+      "id": "kun-return-and-changed-door",
+      "title": "The return finds a changed entrance",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293739393848180809",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293743390311059608",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293747051389259838",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293749084229734522",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293750935008579584",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293751585473695856",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293754652583661620",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293760068545937511",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293763698934153217",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293764799364206624",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293765770156707862",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293767146345857125",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293767728955392000",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293771019365912689",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293773710225833994",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293774309663309827",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293775001518084180",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293775633574527038",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293777183583637505",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293779830847832127",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293781536734445638",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293785292385288202",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293785823476584490"
+        ]
+      }
+    },
+    {
+      "id": "kun-later-fight",
+      "title": "The creatures in the smoke",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "These selected quest receipts establish the observed battle, the state of the remains and the company’s exit. A family manifestation is not a real reunion; ancient testimony is attributed and unreviewed recordings are not used to extend the account.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293786565818187858",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293787533557108838",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293788702341988384",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293790466718044161",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293792629846179860",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293794453353529495",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293795478927839333",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293797456546369549",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293805327896023091",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293806633415348247",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293806938215419944",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293810098560303157",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293812132797743105",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293814692459843586",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293826956911181835",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293836401892134975",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293836778570121216",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293836876624429147",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293837191398817813",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293837364082380851",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293837700796907532",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293838056809304095",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293838311563071492",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293838412851314720",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293838474566176860",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293839044702113804",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293839456465584140",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293840084826722395",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293840902732906507",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293842760012529746",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293843218072473610",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293843616615366697",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293847316909920288"
+        ]
+      }
+    },
+    {
+      "id": "kun-place-in-prima",
+      "title": "A hold within a larger landscape",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248068703308873809",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248072222883581992",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248088431498887169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293743390311059608",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293747051389259838",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293767728955392000"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "kun-entry",
+        "title": "A named place behind four pillars",
+        "sections": [
+          "kun-first-approach"
+        ]
+      },
+      {
+        "id": "kun-lived-in-hold",
+        "title": "The inhabited hold in its surviving records",
+        "sections": [
+          "kun-rooms-and-records"
+        ]
+      },
+      {
+        "id": "kun-escape",
+        "title": "The first company’s escape",
+        "sections": [
+          "kun-first-retreat"
+        ]
+      },
+      {
+        "id": "kun-second-entry",
+        "title": "A later entry and the scars it finds",
+        "sections": [
+          "kun-return-and-changed-door"
+        ]
+      },
+      {
+        "id": "kun-fight-and-exit",
+        "title": "The fight below and the company’s exit",
+        "sections": [
+          "kun-later-fight"
+        ]
+      },
+      {
+        "id": "kun-regional-context",
+        "title": "Its place in Prima, and what remains unknown",
+        "sections": [
+          "kun-place-in-prima"
+        ]
+      }
+    ],
+    "relationships": []
+  }
+}

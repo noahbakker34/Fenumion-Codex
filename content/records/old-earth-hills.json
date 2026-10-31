@@ -2,12 +2,14 @@
   "id": "old-earth-hills",
   "title": "Old Earth Hills",
   "type": "Hills",
-  "dek": "Prima’s northeastern hills, reached from the First Forest by scrubland and switchback roads.",
+  "dek": "Prima’s hills on the Eovar road. Their history includes the named hold Kûn Ardaire and a separate harpy-cave expedition, with routes clearer than the full underground geography.",
   "facts": {
     "Region": "Prima",
-    "Approach": "The First Forest"
+    "Approach": "The First Forest",
+    "Recorded sites": "Kûn Ardaire; the separate harpy-cave mountain route",
+    "Eovar road": "Explicitly crosses the hills after the First Forest"
   },
-  "body": "<p>The Old Earth Hills lie in northeastern <a href=\"#prima-pristinia\">Prima</a>. The island map places their label north of <a href=\"#before-survey\">The Before</a>.</p><h2 id=\"hills-approach\">The road from the forest</h2><p>During the 2 May 2024 journey through <a href=\"#first-forest\">the First Forest</a>, the trees become shorter and thinner toward the hills, giving way to bushes, scrubland, and switchback roads.</p><p>The hills are an exploration and hunting landscape. Their complete boundaries and internal sites remain unestablished.</p><h2 id=\"old-earth-hills-quest-continuation\">19–27 September · the harpy cave</h2><p>A return expedition finds a narrow tunnel that carries the Matron’s song beyond the earlier nesting ground. A distorted corpse, violet crystals with differing responses, altered harpies and a ghostlike remnant make the danger concrete; a direct connection to The Before remains Moira’s theory.</p><p>Deeper inside, the party discovers an unnamed dead person and a letter about a loved singer changed by violet corruption. The origins and sequence of the scattered Delerium fragments cannot be determined. Pell offers a last prayer. Saoirse’s Petalio strikes a weak support as the party withdraws, collapsing the passage; she takes the letter to seek an identification. <a href=\"#quest-continuation\">Read the expedition and its consequences</a>.</p><p class=\"source-note\">Scene sources: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1551065152093421660\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1551070878601711658\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553611438906540084\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553621564610838559\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553624105532788918\" target=\"_blank\" rel=\"noopener\">5</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553628750053118023\" target=\"_blank\" rel=\"noopener\">6</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1553628937794625546\" target=\"_blank\" rel=\"noopener\">7</a>.</p><h2 id=\"prima-rp-eastern-forest\">The eastern wilderness</h2><p>The Alpine Forest is described as lying beyond these hills to the east. That establishes a relative direction, not a surveyed distance or border. <a href=\"#alpine-forest\">Read the forest’s exploration history</a>.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1422275778846130327\" target=\"_blank\" rel=\"noopener\">1</a>.</p>",
+  "body": "<p>The Old Earth Hills are part of northeastern <a href=\"#prima-pristinia\">Prima</a>. The Eovar road crosses them after leaving the <a href=\"#first-forest\">First Forest</a>. Their scrub, slopes and rocky approaches contain more than one recorded expedition site, including the four-pillar entrance to Kûn Ardaire and the separate mountain route to the harpy cave.</p><h2 id=\"hills-approach\">The road from the forest</h2><p>The 2 May 2024 journey names the transition plainly: Pristinia’s Eovar road skirts the First Forest, then enters the Old Earth Hills. Tall woodland gives way to shorter trees, shrubs and switchbacks. Later travelers use the same road while choosing whether to hunt or investigate beyond it.</p><p>These descriptions locate a route through the hills. They do not supply the hills’ full extent, a road to every ruin or a measured distance between all the places reached from Pristinia. The island map’s label north of The Before remains broad regional geography, not a plan of its caves.</p><h2 id=\"hills-kun-ardaire\">The four-pillar ruins are Kûn Ardaire</h2><p>The June company is led to the hills by Dale’s identification of the ruins. A landslide has exposed the cave, and the spectral keepers behind its four geometric pillars name the place Kûn Ardaire. The expedition enters old rooms and mines, then flees a creature from below and reseals the passage.</p><p>The later return supplies a second, direct location anchor. The narrator follows the road through the Old Earth Hills, identifies Olokun’s earlier entrance and describes the same pillars with a changed door. The scorched rooms and burned stair within preserve consequences of that first escape. <a href=\"#kun-ardaire\">Read the hold’s full exploration history →</a></p><h2 id=\"old-earth-hills-quest-continuation\">19–27 September · the harpy cave</h2><p>A different mountain route in the Old Earth Hills leads to the harpy cave. On the return, the company finds a narrow tunnel between great slabs of stone. It explains how the Matron’s song could travel beyond the nesting area, while leaving her reasons uncertain.</p><p>Inside are a corrupted body, violet reflections, altered creatures and eventually an unnamed dead person with a letter. The fragments do not form a clean sequence from oldest to newest, so their origin and movement cannot be reconstructed into one certain explanation. Moira’s proposed connection to The Before remains her theory.</p><p>Pell offers a last prayer before withdrawal. Saoirse’s Petalio strikes a weak support as the party leaves, collapsing the passage; the letter is taken to seek an identification. This changes that approach, rather than sealing every cave under the hills. <a href=\"#quest-continuation?section=continuation-harpies\">Read the harpy expedition and its aftermath →</a></p><h2 id=\"prima-rp-eastern-forest\">The eastern wilderness</h2><p>The Alpine Forest’s regional opening places it beyond the hills to the east. Its cold woodland has its own narrated visits, remembered mine and fatal wolf encounter. The quarry expedition travels through the First Forest toward that direction before turning away in the foothills.</p><p>The evidence gives relative directions and separate experiences. It does not turn every mountain encounter into an Alpine Forest quest, put the quarry inside that forest or make the mine there part of Kûn Ardaire. <a href=\"#alpine-forest\">Read the Alpine Forest’s exploration history →</a></p><h2 id=\"hills-distinct-expeditions\">Which expeditions can be placed here?</h2><p>The strongest links come from named approaches, repeated entrances and descriptions of what changed on a return. The following connections retain those different levels of precision.</p><div class=\"table-wrap\"><p><strong><a href=\"#kun-ardaire\">The four-pillar ruins</a></strong> — Kûn Ardaire in the Old Earth Hills; later narration identifies Olokun’s previous entrance.</p><p><strong><a href=\"#quest-continuation?section=continuation-harpies\">The harpy cave</a></strong> — A separate mountain and descending tunnel explicitly in the hills; full connections underground remain unknown.</p><p><strong><a href=\"#first-forest?section=forest-changing-routes\">The quarry approach</a></strong> — Through the First Forest toward Alpine Forest, then off in the foothills. Its exact relationship to other hill sites is unrecovered.</p></div><p>The storm cave and other unnamed mountain episodes keep their broader Prima setting unless their own routes establish more. Similar rock, weather or underground scenery is not enough to merge them.</p><p class=\"place-context-links\"><strong>Connected histories</strong> <a href=\"#before-survey\">The Before Survey</a> · <a href=\"#quest-continuation\">Quest Continuation · September–October 2026</a></p>",
   "category": "Places",
   "tags": [
     "Prima",
@@ -15,7 +17,33 @@
   ],
   "sources": [
     "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
-    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1551065152093421660",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1551070878601711658",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553611438906540084",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553621564610838559",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553624105532788918",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553628750053118023",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553628937794625546",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1422275778846130327",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235722060710416495",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235723630932136057",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248068703308873809",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248072222883581992",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248088431498887169",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248132983169355898",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248135313403019294",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1248135653904879688",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293743390311059608",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293747051389259838",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293749084229734522",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293767728955392000",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1293775633574527038",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1545971050477523146",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1553616780977635359",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502367845470830743",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369114923204628",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502387020654317780"
   ],
   "image": "assets/archive/prima-map.jpg",
   "imageAlt": "Map of Prima showing Eovar Harbor, the Thundering Coast, Pristinia, the Gate, the Before, Old Earth Hills, the First Forest, Kinich Ahau, the Rahu, Lost Shacks and the Shard",
@@ -28,47 +56,147 @@
     {
       "id": "hills-approach",
       "title": "The road from the forest",
-      "chapter": "History & consequences",
+      "chapter": "Location history",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
         "sources": [
           "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
-          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235722060710416495",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235723630932136057"
+        ]
+      }
+    },
+    {
+      "id": "hills-kun-ardaire",
+      "title": "The four-pillar ruins are Kûn Ardaire",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248068703308873809",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248072222883581992",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248088431498887169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248132983169355898",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248135313403019294",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248135653904879688",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293743390311059608",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293747051389259838",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293749084229734522",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293767728955392000",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293775633574527038"
         ]
       }
     },
     {
       "id": "old-earth-hills-quest-continuation",
       "title": "19–27 September · the harpy cave",
-      "chapter": "History & consequences",
+      "chapter": "Location history",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
         "sources": [
           "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
-          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1551065152093421660",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1551070878601711658",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553611438906540084",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553621564610838559",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553624105532788918",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553628750053118023",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553628937794625546",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1545971050477523146",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553616780977635359"
         ]
       }
     },
     {
       "id": "prima-rp-eastern-forest",
       "title": "The eastern wilderness",
-      "chapter": "History & consequences",
+      "chapter": "Location history",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
         "sources": [
           "Quest-RP continuation — supplied 11 Oct 2026; 2,369 messages, main quest-rp and Pristinia Library; posting dates, not in-world dates",
-          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+          "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1422275778846130327",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502367845470830743",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369114923204628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502387020654317780"
+        ]
+      }
+    },
+    {
+      "id": "hills-distinct-expeditions",
+      "title": "Which expeditions can be placed here?",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Repeated named routes and explicit narrator recognition support the hold and harpy locations. The quarry is a related approach, not newly assigned to either ruin; other mountain scenes remain broad without their own anchors.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293743390311059608",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293747051389259838",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1545971050477523146",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1553616780977635359",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502367845470830743",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369114923204628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502387020654317780"
         ]
       }
     }
-  ]
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "hills-forest-road",
+        "title": "The road out of the forest",
+        "sections": [
+          "hills-approach"
+        ]
+      },
+      {
+        "id": "hills-dwarven-hold",
+        "title": "The named hold behind the pillars",
+        "sections": [
+          "hills-kun-ardaire"
+        ]
+      },
+      {
+        "id": "hills-harpy-route",
+        "title": "The separate harpy route",
+        "sections": [
+          "old-earth-hills-quest-continuation"
+        ]
+      },
+      {
+        "id": "hills-eastern-neighbor",
+        "title": "The eastern forest and the quarry approach",
+        "sections": [
+          "prima-rp-eastern-forest"
+        ]
+      },
+      {
+        "id": "hills-location-review",
+        "title": "The quests and their geographical limits",
+        "sections": [
+          "hills-distinct-expeditions"
+        ]
+      }
+    ],
+    "relationships": []
+  }
 }

@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-30
+Last updated: 2026-10-31
+
+## Location histories and quest geography · 31 October 2026
+
+Five existing locations expand and the named four-pillar hold Kûn Ardaire gains a page within Old Earth Hills/Prima. The 4,786-word, 32-chapter pass follows the First Forest mist and quarry approach, Alpine wolves/owl/mine, the Cove naming/harvest/descent, the hold’s two expeditions and the Watch’s physical library and outward journeys. A narrow Murr correction separates a proposed memory lead from a completed test. Details: LOCATION_QUEST_HISTORIES_2026_10_31.md and content/reference/location-quest-review-2026-10-31.json.
+
+All 435 cited versions match original-export/native-cache texts in four read-only corpora. Selected windows and discovery do not imply archive exhaustion. Quest outcomes govern; claims and missing links remain qualified. Protected later material, private writing, raw/controller data, unreviewed media and rules tables remain excluded. The hold, harpy cave, quarry and other underground sites are not merged. The Cathedral wheel is distinct from the Cove descent; a direction toward Alpine Forest is not a quarry placement inside it. No ancient date or pin is invented.
+
+Four old timeline objects receive geography/context clarifications, with dates, importance, participants and region assignments exact; no new event. Seven old content files change, preserving all 28 earlier section destinations, references and media. Catalog 298 contains 643 records/594 complete bodies/2,705 sections, with the 262 people/365 public events/38 stories, all maps/quotes/261 previews and complete private payload unchanged. Existing location checks cover the six reading plans without a new runtime/style/dependency/workflow stage. Local source/preservation/static/mobile/navigation checks and screenshot review precede publication; live receipt follows.
 
 ## Tower petition follow-up · 30 October 2026
 

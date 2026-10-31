@@ -1507,8 +1507,8 @@
         "sort": "2024-06-05q",
         "era": "2024 · The Calling",
         "kind": "Archaeological exploration",
-        "article": "prima-pristinia",
-        "location": "Landslide ruins; Prima",
+        "article": "kun-ardaire",
+        "location": "Kûn Ardaire; four-pillar ruins; Old Earth Hills; Prima",
         "people": "Wren; Nienna; Olokun; Dale; Arjahn; Elenia; Adelia",
         "tags": [
           "ruins",
@@ -1536,7 +1536,15 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248068703308873809",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248072222883581992",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1248088431498887169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293743390311059608",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293747051389259838",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1293767728955392000"
+        ]
       },
       {
         "title": "A sea expedition discovers a new island",
@@ -2472,7 +2480,7 @@
         "era": "2024 · The Calling",
         "kind": "Arcane discovery",
         "article": "gael",
-        "location": "Gael ruins",
+        "location": "Cathedral in Gael’s ruined city; Gael",
         "people": "Scribonia; Gartina; Elenia; Saray; Dale",
         "tags": [
           "mechanism",
@@ -2500,7 +2508,15 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1271847522478067784",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1271852659346898986",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1271858872922935327",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1271859526483578963",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1271866020348559462",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1271931096128557190"
+        ]
       },
       {
         "title": "Endora dies and Roderick refuses the loss",
@@ -5071,7 +5087,7 @@
         "era": "2026 · Consequences",
         "kind": "Quarry expedition",
         "article": "first-forest",
-        "location": "First Forest; quarry road; Prima",
+        "location": "First Forest; foothills on the quarry approach; Prima",
         "people": "Camilla; Lady Severina; Karnak; Selwyn Bloostone",
         "tags": [
           "quarry",
@@ -5100,7 +5116,12 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502367845470830743",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369114923204628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502387020654317780"
+        ]
       },
       {
         "title": "Brianna chooses sanctification",
@@ -7949,14 +7970,14 @@
         "era": "2026 · Memory and evidence",
         "kind": "Historical testimony",
         "article": "murr",
-        "location": "Voraketh; Veiled Watch",
+        "location": "Voraketh; search for earlier habitation; Veiled Watch proposed as a memory lead",
         "people": "Murr; Coralyn; Ithilrûnë; Carmen; Sildithas",
         "tags": [
           "memory",
           "upright folk",
           "old caves"
         ],
-        "summary": "Murr recalls long-gone inhabitants and says details were taken from her. A visit to the Veiled Watch brings no immediate recovery; old caves remain a lead.",
+        "summary": "Murr recalls long-gone inhabitants and says details were taken from her. The Watch is proposed as a place to check for a record; no completed library test or recovered memory is shown as the quest follows the search farther afield.",
         "importance": 1,
         "importanceReason": "Changes a personal commitment, understanding, loss or relationship within the scene’s immediate company.",
         "regions": [
@@ -7977,7 +7998,23 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509724847281016872",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509725477890166954",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509729218655817790",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509729594499006595",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509729948242284684",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509730277038100581",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509730874294538342",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509730915105112134",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509739933525610657",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509742764538073128",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509744017804623884",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509747177688137728",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509750386137759858",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1509766457993723914"
+        ]
       },
       {
         "title": "The peace delegation enters Rahuvia",
@@ -17205,13 +17242,14 @@
         "title": "Veiled Watch",
         "region": "Voraketh",
         "parent": "Voraketh",
-        "type": "Expedition planning and record context",
-        "meta": "Voraketh · Expedition planning and record context",
+        "type": "Lighthouse library and temple",
+        "meta": "Voraketh · Lighthouse library and temple",
         "article": "veiled-watch",
-        "summary": "Voraketh’s operational research context, where maps, shared theories and expedition plans precede Anky’s fatal encounter at the Binding Chains.",
+        "summary": "The shore library and lighthouse also called the Temple of Secrets, used for written records, shared supplies and expedition meetings. The fatal Chain encounters and proposed memory leads remain distinct.",
         "source": "Voraketh_Veiled_Watch_Deep_Location_Dossier.md · supplied synthesis; Voraketh_Full_Codex_2026-09-25.md · recovered chronology; incomplete underlying sequence; https://discord.com/channels/1177270231513694249/1466241962385473850/1495917822088577164; https://discord.com/channels/1177270231513694249/1466241962385473850/1495918216537571411; https://discord.com/channels/1177270231513694249/1466241962385473850/1496212961805471868",
         "aliases": [
-          "The Veiled Watch"
+          "The Veiled Watch",
+          "Temple of Secrets"
         ],
         "level": "site"
       },
@@ -17599,7 +17637,7 @@
         "type": "forest",
         "meta": "Prima · forest",
         "article": "first-forest",
-        "summary": "An active exploration and hunting location associated with Al-Shomer.",
+        "summary": "Pristinia’s nearby forest and the recorded approaches toward Eovar, the Old Earth Hills and the quarry; the blue-mist expedition’s false town remains part of the forest encounter.",
         "source": "Scene + screenshot",
         "aliases": [
           "First Forest"
@@ -17627,7 +17665,7 @@
         "type": "hills",
         "meta": "Prima · wilderness",
         "article": "old-earth-hills",
-        "summary": "Prima’s northeastern hills, reached from the First Forest by scrubland and switchback roads.",
+        "summary": "Prima’s hills on the Eovar road, containing the named hold Kûn Ardaire and the separate mountain approach to the harpy cave.",
         "source": "Screenshot directory",
         "aliases": [],
         "level": "site",
@@ -17655,7 +17693,7 @@
         "type": "forest",
         "meta": "Prima · forest",
         "article": "alpine-forest",
-        "summary": "Cold woodland east of the Old Earth Hills, explored for game and materials with danger that persists between visits.",
+        "summary": "Cold woodland east of the Old Earth Hills: Pappy and Iridos meet a talking owl, Severina’s wolf encounter turns fatal, and Ruben finds the same copper mine again.",
         "source": "Screenshot directory",
         "aliases": [],
         "level": "site"
@@ -17802,7 +17840,7 @@
         "type": "Coastal cove and shipwreck history",
         "meta": "Gael · Coastal cove and shipwreck history",
         "article": "crustacean-cove",
-        "summary": "The coastal wreck associated with Gael’s refugee arrival, distinct from the community sheltering near the Tower.",
+        "summary": "A sheltered Gael cove named during the harvesting quest, with a guarded underwater descent and later wreck history distinct from the refugee community near the Tower.",
         "source": "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis; GAEL_RP.md · Gartina and Dale, 24 February 2025 source posts; Previously reviewed Crustacean Cove opening artwork",
         "aliases": [
           "Crustescean Cove"
@@ -18615,6 +18653,22 @@
         "summary": "Refugees sheltering near the Tower, where emergency food and housing lead to questions about permanent homes and consultation.",
         "source": "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis; GAEL_RP.md · 24 February 2025 care and planning scene",
         "aliases": []
+      },
+      {
+        "title": "Kûn Ardaire",
+        "region": "Prima",
+        "parent": "Old Earth Hills",
+        "type": "Ruined dwarven hold",
+        "meta": "Prima · Old Earth Hills · Ruined dwarven hold",
+        "article": "kun-ardaire",
+        "summary": "The named hold behind the four-pillar ruins. Two expeditions find its old rooms, a failed seal and the physical scars left by their first escape.",
+        "aliases": [
+          "Kun Ardaire",
+          "four-pillar ruins",
+          "four pillar ruins"
+        ],
+        "level": "site",
+        "source": "Main quest: first named entry and narrator-confirmed return through the Old Earth Hills; exact coordinates remain unrecovered."
       }
     ]
   },
@@ -24888,6 +24942,15 @@
         "Timeline",
         "Event stories",
         "The Hallowing of Hope · Nienna’s Last Run"
+      ]
+    ],
+    [
+      "kun-ardaire",
+      [
+        "Locations",
+        "Prima",
+        "Old Earth Hills",
+        "Kûn Ardaire"
       ]
     ]
   ],
@@ -51703,7 +51766,8 @@
     "nerias",
     "hallowing-of-hope",
     "return-to-hanas-tower",
-    "attack-on-the-chains"
+    "attack-on-the-chains",
+    "kun-ardaire"
   ],
   "timelineRegions": [
     {

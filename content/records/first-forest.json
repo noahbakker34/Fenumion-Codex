@@ -6,7 +6,7 @@
   "image": "assets/archive/first-forest.webp",
   "imageAlt": "Travelers moving among immense moss-covered trees in the First Forest",
   "imageCaption": "The First Forest — old-growth woodland bordering Pristinia and the roads beyond it.",
-  "dek": "An old-growth forest at Pristinia’s edge: beautiful, misted, traveled, repeatedly reclaimed by nature, and dangerous enough that no familiar road stays merely scenery.",
+  "dek": "Pristinia’s nearby woodland, crossed by working roads and dangerous expeditions. Its history includes a lost patrol, a town-shaped illusion and a quarry path reclaimed by growth.",
   "tags": [
     "Prima",
     "Pristinia",
@@ -20,46 +20,110 @@
     "Nearest settlement": "Pristinia",
     "Observed trees": "Pine · oak · birch",
     "Routes": "Eovar road · Old Earth Hills · quarry approach",
-    "First recovered expedition": "11 Apr 2024"
+    "First recovered expedition": "11 Apr 2024",
+    "Quest geography": "Eovar road and quarry approach are explicitly named; individual ruin and mist clearings remain unsurveyed"
   },
   "sources": [
     "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
     "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
     "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
     "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
-    "User-supplied First Forest visual record, 29 Sep 2026"
+    "User-supplied First Forest visual record, 29 Sep 2026",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235722060710416495",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1235723630932136057",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501264137471131708",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501265303940759635",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501265529959088250",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501266029660078191",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501267425742815456",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501268472842420507",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501269904215642235",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501271076225941564",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501271784857538601",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501273201810870443",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501274258544791592",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501282698117906552",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501283994124423220",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501286543095234560",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501288621146243133",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501291969517719602",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501292057421938688",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501292381843099718",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501292533425242243",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501295339498639462",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501296688554442812",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501297005727842435",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501300411846361208",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501305472152506469",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501310505837662302",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501316907025039452",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501319663190151288",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501319795612844193",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501322631561871390",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501324555317280808",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501325047476785252",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501328408947331223",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501334035014877226",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501337098517741779",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501337564424966357",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501338510358085770",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501339582812258335",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501340011340107776",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501340172690784398",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501340711864369243",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501341024612782150",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501341657008705666",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501342503310327990",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501343037907800194",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501343353252610068",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501344281837703248",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1501345230329483277",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502367845470830743",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369114923204628",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369931101208809",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502374398752063611",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502375004984315945",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502375588822778107",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502381411297001633",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502382821967400980",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502385660567224472",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502387020654317780",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502387488201900034",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502388031322198107"
   ],
-  "body": "<p>The First Forest begins at Pristinia’s edge and functions as both wilderness and corridor. Roads toward Eovar, the Old Earth Hills, the quarry, and other Prima sites pass through or skirt it, so the forest repeatedly becomes the place where civic errands turn into expeditions.</p>\n      <h2 id=\"forest-landscape\">Old growth and mist</h2>\n      <p>A 2 May 2024 journey records towering pine, oak, and birch providing deep shelter from the elements. Pockets of mist stood thirty to fifty yards from the road and gave the old-growth woodland an ethereal quality. Toward the Old Earth Hills, the trees became shorter and thinner before yielding to bushes, scrubland, and switchback roads.</p>\n      <p>The forest is not a sealed dungeon. It is working geography: beautiful enough to change a traveler’s mood, dense enough to hide danger, and close enough to Pristinia that trade, lumber, patrols, hunting, and rescue all depend on how safely people can cross it.</p>\n      <h2 id=\"forest-priest-room\">11 April 2024 · the priest’s room</h2>\n      <p>Elenia, Cobble, Talon, and Vigr Frami explored near the settlement and found an overgrown room containing the bones of a priest. The chamber supplied evidence of an older human presence but no living witness or convenient explanation. Its builder, faith, abandonment, and relationship to later events remain unresolved.</p>\n      <h2 id=\"forest-symin\">4 May 2024 · an ambush answers rescue</h2>\n      <p>After a Pristinian patrol was ambushed in the First Forest, Symin answered the plea to find Tavorchanor and the missing group. He was killed near the ambush site, and bark-covered undead carried away his body. The loss made the forest’s proximity more dangerous rather than less: a threat did not need to cross a distant frontier to reach the settlement’s people.</p>\n      <h2 id=\"forest-changing-routes\">A landscape that reclaims its routes</h2>\n      <p>By May 2026, travelers heading toward the quarry found that intermittent use had allowed nature to reclaim the old path. The company crossed into more mountainous terrain, reached a stone bridge over a frozen stream, and encountered wolves. The route’s condition connected Pristinia’s materials and labor directly to the forest’s changing ecology.</p>\n      <p>Another May expedition destroyed two sigils associated with blue mist. Holy energy turned the mist to glitter and made a large part of the forest safe again; ghostly butterflies escorted the company toward Pristinia. The account establishes a recovered area, not permanent safety for the entire forest.</p>\n      <h2 id=\"forest-open-record\">The open record</h2>\n      <p>The forest’s full boundaries, connection to Al-Shomer, the priest’s identity, the source and reach of the bark-covered dead, the long-term state of the blue mist, and the durability of its routes remain incomplete. The new visual record establishes the forest’s scale and atmosphere without turning those unknowns into answers.</p>",
+  "body": "<p>The First Forest begins close to <a href=\"#pristinia\">Pristinia</a>. Its roads and paths carry travelers toward Eovar, the <a href=\"#old-earth-hills\">Old Earth Hills</a> and the quarry. The same woodland that shelters a road can conceal a ruined room, a missing patrol or an apparent way home that is not what it seems. These are connected parts of Prima’s landscape, with individual clearings and entrances still incompletely mapped.</p><h2 id=\"forest-landscape\">Old growth and mist</h2><p>The Eovar-road expedition of 2 May 2024 supplies an explicit route. The company leaves Pristinia, skirts parts of the First Forest and enters the Old Earth Hills. Pine, oak and birch tower above the road, with pockets of mist away from it. Farther on, the trees shorten and thin into scrub, and the road climbs through switchbacks.</p><p>This is an observed transition between named places. It does not make every cave reached from Pristinia part of the forest or fix the forest’s complete boundary. The route also explains why activity in the woods can affect travel and supplies well beyond the town.</p><h2 id=\"forest-priest-room\">11 April 2024 · the priest’s room</h2>\n      <p>Elenia, Cobble, Talon, and Vigr Frami explored near the settlement and found an overgrown room containing the bones of a priest. The chamber supplied evidence of an older human presence but no living witness or convenient explanation. Its builder, faith, abandonment, and relationship to later events remain unresolved.</p>\n      <h2 id=\"forest-symin\">4 May 2024 · an ambush answers rescue</h2>\n      <p>After a Pristinian patrol was ambushed in the First Forest, Symin answered the plea to find Tavorchanor and the missing group. He was killed near the ambush site, and bark-covered undead carried away his body. The loss made the forest’s proximity more dangerous rather than less: a threat did not need to cross a distant frontier to reach the settlement’s people.</p>\n      <h2 id=\"forest-blue-mist-hunt\">Following voices into the blue mist</h2><p>When Herb asks for help with the returning blue mist, Marius Antares recalls an earlier investigation deep in the First Forest. He and Heahmund Stormground leave Pristinia by the familiar forest road. The usual birds and insects fall silent; a rotten figure approaches and sings with voices the two men have reason to recognize.</p><p>Marius hears what seems to be his sister, while Heahmund hears his master. Those voices belong to the encounter’s lure. They do not establish that either person is physically standing in the forest. Blue mist thickens from a tree and makes the creature more dangerous. Marius notices a magical connection between them; weakening that connection and killing the attacker still leaves the mist behind.</p><p>Burning the tree does not destroy the sigil that sustains this part of the effect. Divine magic finally removes it, and this patch of mist lifts. The party goes on rather than treating one cleared patch as the end of the investigation.</p><h2 id=\"forest-illusory-pristinia\">The Pristinia they had not returned to</h2><p>After more travel, the company appears to reach Pristinia’s gates. A supposed return to town becomes another fight: Herb seems to be attacked, villagers stare unnaturally, and the illusion gives way to more undead within the same mist. This is not evidence that the real town and its tavern have moved into the forest or that Herb dies there.</p><p>The mist restores fallen enemies. Marius detects another source in a ruined house, but when he tries to reach it Heahmund is overwhelmed. He turns back to help his companion recover, and they finish the fight. Kaelen joins them before they search the house. Destroying the second sigil with holy energy clears a larger area, and ghostly butterflies accompany their departure toward the real Pristinia.</p><p>The named forest, the outward road and the false town provide a strong route association. The exact clearing and the illusion’s full reach remain unrecovered; two destroyed sources do not establish permanent safety throughout every part of the woods.</p><h2 id=\"forest-changing-routes\">A landscape that reclaims its routes</h2><p>The quarry journey of 8 May 2026 takes another route through the First Forest. The narrator places it in the general direction of the <a href=\"#alpine-forest\">Alpine Forest</a>, then turns it off in the foothills. A path used only intermittently has been reclaimed by growth, and the party must find its way rather than follow a maintained road.</p><p>Camilla, Severina, Karnak and Selwyn reach a stone bridge over a frozen stream as the ground grows more mountainous. Wolves come out of the trees. After the fight, the surviving animals flee and the company continues for roughly another ninety minutes before reaching the snow-dusted quarry.</p><p>The forest approach, bridge and quarry are stages of the journey. The route does not place the quarry inside the Alpine Forest, and no surveyed connection to Kûn Ardaire or the harpy cave is supplied.</p><h2 id=\"forest-open-record\">The open record</h2><p>The First Forest’s complete boundaries remain unknown, as do the priest’s identity, the full reach of the bark-covered dead and the long-term condition of every area affected by blue mist. Its relationship to Al-Shomer cannot be settled by treating every underground entrance as the same place. The strongest recovered geography is the sequence of named roads, forest approaches and outward journeys.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
     {
       "id": "forest-landscape",
       "title": "Old growth and mist",
-      "chapter": "History & consequences",
+      "chapter": "Location history",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
         "sources": [
           "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
           "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
           "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
           "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
-          "User-supplied First Forest visual record, 29 Sep 2026"
+          "User-supplied First Forest visual record, 29 Sep 2026",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235722060710416495",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1235723630932136057"
         ]
       }
     },
     {
       "id": "forest-priest-room",
       "title": "11 April 2024 · the priest’s room",
-      "chapter": "History & consequences",
+      "chapter": "Location history",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "RP scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Retained earlier quest account and its established source scope. The priest’s room has no newly surveyed coordinates or resolved builder/faith in this review.",
         "sources": [
           "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
           "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
@@ -72,48 +136,133 @@
     {
       "id": "forest-symin",
       "title": "4 May 2024 · an ambush answers rescue",
-      "chapter": "History & consequences",
+      "chapter": "Location history",
       "evidence": {
         "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "label": "RP scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Retained earlier quest-backed ambush account. The rescue target and Symin’s fate are not reassigned to another ruin on the strength of similar forest scenery.",
         "sources": [
           "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
           "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
           "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
           "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
           "User-supplied First Forest visual record, 29 Sep 2026"
+        ]
+      }
+    },
+    {
+      "id": "forest-blue-mist-hunt",
+      "title": "Following voices into the blue mist",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501264137471131708",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501265303940759635",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501265529959088250",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501266029660078191",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501267425742815456",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501268472842420507",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501269904215642235",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501271076225941564",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501271784857538601",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501273201810870443",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501274258544791592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501282698117906552",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501283994124423220",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501286543095234560",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501288621146243133",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501291969517719602",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501292057421938688",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501292381843099718",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501292533425242243",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501295339498639462",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501296688554442812",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501297005727842435"
+        ]
+      }
+    },
+    {
+      "id": "forest-illusory-pristinia",
+      "title": "The Pristinia they had not returned to",
+      "chapter": "Location history",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501300411846361208",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501305472152506469",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501310505837662302",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501316907025039452",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501319663190151288",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501319795612844193",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501322631561871390",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501324555317280808",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501325047476785252",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501328408947331223",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501334035014877226",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501337098517741779",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501337564424966357",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501338510358085770",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501339582812258335",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501340011340107776",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501340172690784398",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501340711864369243",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501341024612782150",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501341657008705666",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501342503310327990",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501343037907800194",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501343353252610068",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501344281837703248",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1501345230329483277"
         ]
       }
     },
     {
       "id": "forest-changing-routes",
       "title": "A landscape that reclaims its routes",
-      "chapter": "History & consequences",
+      "chapter": "Location history",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Primary observations support the recorded route and actions. Character reports, interpretations and proposals retain attribution; a named approach does not survey every boundary or complete an unfinished outcome.",
         "sources": [
           "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
           "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
           "Complete quest-RP export, 4 May 2024 — patrol ambush and Symin’s death",
           "Complete quest-RP export, 5–8 May 2026 — blue-mist sigils, reclaimed routes, frozen stream, and quarry approach",
-          "User-supplied First Forest visual record, 29 Sep 2026"
+          "User-supplied First Forest visual record, 29 Sep 2026",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502367845470830743",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369114923204628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369931101208809",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502374398752063611",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502375004984315945",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502375588822778107",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502381411297001633",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502382821967400980",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502385660567224472",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502387020654317780",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502387488201900034",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502388031322198107"
         ]
       }
     },
     {
       "id": "forest-open-record",
       "title": "The open record",
-      "chapter": "Open questions",
+      "chapter": "Location history",
       "evidence": {
         "kind": "unresolved",
-        "label": "Unresolved",
-        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
-        "scope": "article",
+        "label": "Recorded limits",
+        "scope": "section",
+        "summary": "The reviewed routes locate stages of travel. They do not supply a complete survey, merge separately described ruins or prove that every later danger has been removed.",
         "sources": [
           "Complete quest-RP export, 11 Apr 2024 — forest expedition and overgrown priest’s room",
           "Complete quest-RP export, 2 May 2024 — old-growth landscape, mist, road toward Eovar and the Old Earth Hills",
@@ -123,5 +272,54 @@
         ]
       }
     }
-  ]
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "first-forest-land-and-roads",
+        "title": "The forest and its outward roads",
+        "sections": [
+          "forest-landscape"
+        ]
+      },
+      {
+        "id": "first-forest-earlier-expeditions",
+        "title": "The priest’s room and the missing patrol",
+        "sections": [
+          "forest-priest-room",
+          "forest-symin"
+        ]
+      },
+      {
+        "id": "first-forest-mist-trail",
+        "title": "The returning mist",
+        "sections": [
+          "forest-blue-mist-hunt"
+        ]
+      },
+      {
+        "id": "first-forest-false-town",
+        "title": "A false return to Pristinia",
+        "sections": [
+          "forest-illusory-pristinia"
+        ]
+      },
+      {
+        "id": "first-forest-quarry-road",
+        "title": "The reclaimed quarry approach",
+        "sections": [
+          "forest-changing-routes"
+        ]
+      },
+      {
+        "id": "first-forest-unmapped",
+        "title": "What remains unmapped",
+        "sections": [
+          "forest-open-record"
+        ]
+      }
+    ],
+    "relationships": []
+  }
 }

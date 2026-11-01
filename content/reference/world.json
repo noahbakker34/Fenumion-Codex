@@ -14392,7 +14392,7 @@
         "title": "Rolen Ofandrus",
         "meta": "Player character · quest-RP",
         "article": "rolen",
-        "summary": "Rolen makes protection practical: equipment prepared by hand, newcomers taught patiently and a range made useful to the town.",
+        "summary": "A craftsman, exacting teacher and early militia organizer who brings companions out of the mine, prepares Pristinia’s volunteers and later returns looking for pupils whose names have faded from the town’s newer company.",
         "image": "assets/characters/rolen.png",
         "imageAlt": "Rolen with pointed ears and armor, carrying swords",
         "imageCaption": "Rolen Ofandrus",
@@ -14485,7 +14485,7 @@
         "title": "Kasiri Ruza",
         "meta": "Craftswoman · archaeologist and civic witness",
         "article": "kasiri-ruza",
-        "summary": "A craftswoman and curious investigator who turns interdependence, honest limits and Pristinia’s civic memory into practical responsibility.",
+        "summary": "An archaeologist and maker whose delight in a mechanism survives difficult choices: a letter she thinks should stay undelivered, a workshop that needs partners, and an arena victory that leaves her questioning the test.",
         "aliases": [
           "Kasiri"
         ],
@@ -14506,7 +14506,7 @@
         "title": "Karnak",
         "meta": "Hellion · would-be protector of Prima",
         "article": "karnak",
-        "summary": "An earnest protector who seeks to prove conviction through action while learning to decide alongside stronger companions.",
+        "summary": "A self-described Hellion who wants to protect Prima, brags about his experience and still needs help turning vigilance into action. A frightened child, an argument with Camilla and a dangerous quarry approach show different sides of that promise.",
         "aliases": [
           "Karnak von Runcandel"
         ],
@@ -14536,7 +14536,7 @@
         "meta": "Former Hellknight leader · civic advocate",
         "article": "camilla",
         "image": "assets/characters/camilla.png",
-        "summary": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order.",
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view.",
         "aliases": [
           "Camilla Blackwood"
         ]
@@ -14902,7 +14902,7 @@
         "title": "Tobias Goodbarrel",
         "meta": "Ale-Chemy builder & newcomer guide",
         "article": "tobias",
-        "summary": "A main Ale-Chemy Knight, builder and newcomer guide; seen again in the later Gael scenes, with the causes of his earlier absence unresolved.",
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them.",
         "aliases": [
           "Tobias",
           "Goodbarrel"
@@ -25309,7 +25309,7 @@
       {
         "label": "Tobias",
         "article": "tobias",
-        "summary": "Builder and guide who makes the newcomer-support ideal practical."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       },
       {
         "label": "Gael",
@@ -25399,7 +25399,7 @@
       {
         "label": "Tobias",
         "article": "tobias",
-        "summary": "Main member and builder who puts the Knights’ newcomer support into practice."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       },
       {
         "label": "Fenwick d'Jorasco",
@@ -25473,7 +25473,7 @@
       {
         "label": "Tobias",
         "article": "tobias",
-        "summary": "Fellow main member and builder within the Knights’ practical network."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       },
       {
         "label": "Ryvyting Creations",
@@ -25884,7 +25884,7 @@
       {
         "label": "Camilla Blackwood",
         "article": "camilla",
-        "summary": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order."
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view."
       },
       {
         "label": "Ghilsen Hendrickson",
@@ -26054,7 +26054,7 @@
       {
         "label": "Camilla Blackwood",
         "article": "camilla",
-        "summary": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order."
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view."
       },
       {
         "label": "Ryvyt",
@@ -26091,7 +26091,7 @@
       {
         "label": "Tobias",
         "article": "tobias",
-        "summary": "A future Ale-Chemy main member who volunteers when the tavern reveals the winter food shortage."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       },
       {
         "label": "Quest Room Branches",
@@ -26693,7 +26693,7 @@
       {
         "label": "Camilla Blackwood",
         "article": "camilla",
-        "summary": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order."
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view."
       },
       {
         "label": "A Safer Way to Gael",
@@ -26728,7 +26728,7 @@
       {
         "label": "Karnak von Runcandel",
         "article": "karnak",
-        "summary": "An earnest protector who seeks to prove conviction through action while learning to decide alongside stronger companions."
+        "summary": "A self-described Hellion who wants to protect Prima, brags about his experience and still needs help turning vigilance into action. A frightened child, an argument with Camilla and a dangerous quarry approach show different sides of that promise."
       },
       {
         "label": "Kumai-218",
@@ -26743,7 +26743,7 @@
       {
         "label": "Camilla Blackwood",
         "article": "camilla",
-        "summary": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order."
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view."
       },
       {
         "label": "Minerva",
@@ -27734,7 +27734,7 @@
       {
         "label": "Camilla Blackwood",
         "article": "camilla",
-        "summary": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order."
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view."
       },
       {
         "label": "Minerva",
@@ -27866,7 +27866,7 @@
       {
         "label": "Camilla Blackwood",
         "article": "camilla",
-        "summary": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order."
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view."
       },
       {
         "label": "Lucido Spettoro",
@@ -28252,7 +28252,7 @@
       {
         "label": "Tobias",
         "article": "tobias",
-        "summary": "A main Ale-Chemy Knight, builder, and newcomer guide who turns the faction’s promise of practical independence into direct care."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       },
       {
         "label": "Farkur S. Gemblenagin",
@@ -28292,7 +28292,7 @@
       {
         "label": "Camilla Blackwood",
         "article": "camilla",
-        "summary": "An institution-builder whose educational work and security concerns remain part of a history that later includes relinquishing her Order."
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view."
       },
       {
         "label": "Pristinia Scroll Library",
@@ -28371,7 +28371,7 @@
       {
         "label": "Tobias Goodbarrel",
         "article": "tobias",
-        "summary": "A halfling builder and main Ale-Chemy Knight who gives strangers safety, practical knowledge and the freedom to choose how they will belong."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       },
       {
         "label": "Fredrick",
@@ -28721,7 +28721,7 @@
       {
         "label": "Tobias Goodbarrel",
         "article": "tobias",
-        "summary": "A halfling builder and main Ale-Chemy Knight who gives strangers safety, practical knowledge and the freedom to choose how they will belong."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       },
       {
         "label": "Eovar Harbor",
@@ -28763,7 +28763,7 @@
       {
         "label": "Tobias Goodbarrel",
         "article": "tobias",
-        "summary": "A halfling builder and main Ale-Chemy Knight who gives strangers safety, practical knowledge and the freedom to choose how they will belong."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       }
     ],
     "papiraks-mausoleum": [
@@ -28858,7 +28858,7 @@
       {
         "label": "Tobias Goodbarrel",
         "article": "tobias",
-        "summary": "A halfling builder and main Ale-Chemy Knight who gives strangers safety, practical knowledge and the freedom to choose how they will belong."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       },
       {
         "label": "Fenwick d'Jorasco",
@@ -29527,7 +29527,7 @@
       {
         "label": "Karnak von Runcandel",
         "article": "karnak",
-        "summary": "An earnest protector who seeks to prove conviction through action while learning to decide alongside stronger companions."
+        "summary": "A self-described Hellion who wants to protect Prima, brags about his experience and still needs help turning vigilance into action. A frightened child, an argument with Camilla and a dangerous quarry approach show different sides of that promise."
       }
     ],
     "archery-range": [
@@ -29648,7 +29648,7 @@
       {
         "label": "Kasiri Ruza",
         "article": "kasiri-ruza",
-        "summary": "A craftswoman and curious investigator who turns interdependence, honest limits and Pristinia’s civic memory into practical responsibility."
+        "summary": "An archaeologist and maker whose delight in a mechanism survives difficult choices: a letter she thinks should stay undelivered, a workshop that needs partners, and an arena victory that leaves her questioning the test."
       }
     ],
     "before-fieldwork": [
@@ -29746,7 +29746,7 @@
       {
         "label": "Camilla Blackwood",
         "article": "camilla",
-        "summary": "Camilla’s public history moves from building an order around law and protection to releasing it and choosing a wider purpose."
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view."
       },
       {
         "label": "Public Square",
@@ -30097,7 +30097,7 @@
       {
         "label": "Camilla Blackwood",
         "article": "camilla",
-        "summary": "Camilla’s public history moves from building an order around law and protection to releasing it and choosing a wider purpose."
+        "summary": "A commander whose public institutions, harsh judgments and work in the field precede her decision to disband Pristinia’s Hellknights. Her later change leaves both her service and her earlier judgments in view."
       },
       {
         "label": "Alpine Forest",
@@ -30409,7 +30409,7 @@
       {
         "label": "Tobias Goodbarrel",
         "article": "tobias",
-        "summary": "A halfling builder and main Ale-Chemy Knight who gives strangers safety, practical knowledge and the freedom to choose how they will belong."
+        "summary": "A halfling builder and main Ale-Chemy Knight whose welcome includes food, maps and a real choice about joining. His patience has limits: he challenges Melian after an attack, then turns to removing bodies before children can see them."
       },
       {
         "label": "The Gate",

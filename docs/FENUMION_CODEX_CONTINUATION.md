@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-01
 
+## Five further player histories · 1 November 2026
+
+The owner requests characters next. Kasiri Ruza, Camilla Blackwood, Rolen Ofandrus, Karnak and Tobias Goodbarrel now offer 7,599 words (previously 3,418) in 33 reading chapters. Twenty-four new sections follow the letter’s moral disagreement, forge partnership, trial and defense; Camilla’s harshness/apology/retreat; Rolen’s recovery, teaching and later return to missing pupils; Karnak’s kindness, boasting and practical support; and Tobias’s anger, bodies and barrel defense. All 38 older section IDs/titles/evidence objects and two earlier appendices survive. Details: FIVE_CHARACTER_HISTORIES_2026_11_01.md and content/reference/five-character-review-2026-11-01.json.
+
+All 292 cited versions match two read-only corpora (277 original export/15 API-cache versions), preserving original payload timestamps. Discovery/windows are not exhaustive reading; earlier dossier/RP qualifications remain. Quests govern, hypothetical choices stay hypothetical, claims retain speakers and observed effects do not establish a divine cause. No pupil’s death, completed raider rescue, universal revival rule, assassin employer or private guidance is invented. Raw/controller/private/rules material stays external.
+
+Six old content files change; 27 individual directory/connected summaries and specific profile relationships improve discovery. All 391 events/dates/ratings/regions, roles, media, maps, quotes, 261 previews and complete private payload remain exact. Catalog 301 has 643 records/594 bodies/2,762 sections; 262 people/365 public events/38 stories remain. App 273/reader 15 remain; no new page/asset/runtime/style/dependency/workflow stage. Local source/preservation/static and focused complete-profile/player-directory/modal/bookmark/mobile/link/search checks pass, screenshots inspected; publication receipt follows.
+
 ## City, library and burial histories · 1 November 2026
 
 The owner continues the location pass. Ciaránach, Caisleán na Brón, Rahuvia, Pristinia Scroll Library, the Before survey and Aria’s Tomb now offer 6,817 words/30 reading chapters. Seventeen sections add the night-before-dawn pilgrimage, castle hearing and procession, staged capital approach, library use, scholars’ retreat and actual burial outside Ciaránach. All 51 older section IDs/titles survive. Details: CITY_LIBRARY_HISTORIES_2026_11_01.md and content/reference/city-library-review-2026-11-01.json.

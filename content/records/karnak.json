@@ -3,7 +3,7 @@
   "title": "Karnak von Runcandel",
   "category": "People",
   "type": "Hellion · would-be protector of Prima",
-  "dek": "An earnest protector who seeks to prove conviction through action while learning to decide alongside stronger companions.",
+  "dek": "A self-described Hellion who wants to protect Prima, brags about his experience and still needs help turning vigilance into action. A frightened child, an argument with Camilla and a dangerous quarry approach show different sides of that promise.",
   "tags": [
     "Karnak",
     "Prima",
@@ -19,9 +19,63 @@
   },
   "sources": [
     "Supplied character deep dives · 11 October 2026; interpretation checked against selected primary scenes where available.",
-    "Main quest RP and Alpine Forest · selected primary exchanges"
+    "Main quest RP and Alpine Forest · selected primary exchanges",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474915482581733538",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474923155792330915",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474924925398815013",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474926254321828034",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474926455724179467",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474929179719106651",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474933128765112320",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474940386593214635",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474945122020888737",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474945892514664541",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474946669371068468",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474947482092961866",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474928494155796613",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474929648059027517",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474937538253819927",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474938587102580828",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474939158282633236",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474939840033460296",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474948338989404160",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1474949110498070749",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490081450517860592",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490088627966050457",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490093755863138416",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490094932323602483",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490095665139814580",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490096277927756046",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490096544421253181",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490097144378429561",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490099040866799778",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1490101488767336580",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502361257334800579",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502361707874488388",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502364539881001213",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502366876981006507",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369114923204628",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502371136439058565",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502374163862523995",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502374398752063611",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502375570561040495",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502382232780935208",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502388396520247398",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1502389323352506429",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506459258101829846",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506460723507626055",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506463869818634360",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506465216588681379",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506483752593784922",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506484155481849887",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506487561336520855",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506489508936286289",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506489729422463068",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506496104366342226",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506497063032983584",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1506498475204935770"
   ],
-  "body": "<p>Karnak introduces himself as a Hellion of Archduchess Zariel and says he is invested in protecting Prima. He wants his actions to justify that duty: strength matters to him because he treats competence as proof of conviction. His story follows the difficult work of becoming a protector alongside people whose confidence and experience exceed his own.</p><h2 id=\"karnak-duty\">A duty he chooses to name</h2><p>In the April 2026 quest exchange, Karnak says he does not know how he reached this world, but names protection of <a href=\"#prima-pristinia\">Prima</a> as his purpose. This establishes his own commitment, rather than an official appointment or a town-wide judgment of his service. His reasons for becoming a Hellion, and the duties that preceded his arrival, remain unknown.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490088627966050457\" target=\"_blank\" rel=\"noopener\">1</a>. Dates refer to Discord posts.</p><h2 id=\"karnak-severina\">29 April 2026 · Proving conviction</h2><p>In the <a href=\"#alpine-forest\">Alpine Forest</a>, <a href=\"#lady-severina\">Severina</a> asks whether Karnak wants to overcome an attacker himself or have her finish it. He insists on doing it himself to become stronger and prove his conviction. She warns him about his wounds, but remains ready to act if he falls. He is given room to try without being abandoned.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1499060921304350862\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1499061028518887424\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1499061171481874526\" target=\"_blank\" rel=\"noopener\">3</a>. Dates refer to Discord posts.</p><blockquote>“I will do it myself need to be better and stronger to prove my convition”<cite>Karnak · Alpine Forest, 29 April 2026 posting date</cite></blockquote><h2 id=\"karnak-caution\">When vigilance needs a decision</h2><p>In a May expedition, Karnak argues for caution around an unfamiliar threat and says they should approach with vigilance. Severina challenges him to act. The exchange shows a tension between asking for a plan and making a decision: caution can protect the party, but his principles still need to become action. It does not establish cowardice or settle how he responds in every encounter.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504900970616848475\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504901040229716082\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504901100547997736\" target=\"_blank\" rel=\"noopener\">3</a>. Dates refer to Discord posts.</p><h2 id=\"karnak-camilla\">Protection directed toward someone else</h2><p>During the same expedition, Karnak uses a seal to place a shadow shroud on <a href=\"#camilla\">Camilla</a>, telling her she needs it more than he does. Here his contribution is another person’s protection, rather than proof that he can defeat a threat alone. The record does not establish the full origin or mechanics of the seal.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504924100944990278\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504924281950437477\" target=\"_blank\" rel=\"noopener\">2</a>. Dates refer to Discord posts.</p><h2 id=\"karnak-open\">The unfinished protector</h2><p>Karnak’s recurring partnership with Severina makes independence a meaningful question. He respects her competence and accepts support while seeking chances to stand on his own. The supplied dossier reads this as conviction struggling with dependence; the scenes support that interpretation without proving his private motives. His earlier life, the convictions he would refuse to compromise, and what he wants beyond greater strength remain open.</p>",
+  "body": "<p>Karnak wants to protect Prima and to become strong enough to justify the promise. He introduces himself as a Hellion of Archduchess Zariel, boasts about the wars he has seen and bristles at demonic enemies. He also tries to make a frightened child laugh, buys rope for a party and discovers that asking for caution does not always tell him what to do next.</p><h2 id=\"karnak-duty\">A duty he chooses to name</h2><p>In the April 2026 quest exchange, Karnak says he does not know how he reached this world, but names protection of <a href=\"#prima-pristinia\">Prima</a> as his purpose. This establishes his own commitment, rather than an official appointment or a town-wide judgment of his service. His reasons for becoming a Hellion, and the duties that preceded his arrival, remain unknown.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1490088627966050457\" target=\"_blank\" rel=\"noopener\">1</a>. Dates refer to Discord posts.</p><h2 id=\"karnak-severina\">29 April 2026 · Proving conviction</h2><p>In the <a href=\"#alpine-forest\">Alpine Forest</a>, <a href=\"#lady-severina\">Severina</a> asks whether Karnak wants to overcome an attacker himself or have her finish it. He insists on doing it himself to become stronger and prove his conviction. She warns him about his wounds, but remains ready to act if he falls. He is given room to try without being abandoned.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1499060921304350862\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1499061028518887424\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1422275778846130327/1499061171481874526\" target=\"_blank\" rel=\"noopener\">3</a>. Dates refer to Discord posts.</p><blockquote>“I will do it myself need to be better and stronger to prove my convition”<cite>Karnak · Alpine Forest, 29 April 2026 posting date</cite></blockquote><h2 id=\"karnak-caution\">When vigilance needs a decision</h2><p>In a May expedition, Karnak argues for caution around an unfamiliar threat and says they should approach with vigilance. Severina challenges him to act. The exchange shows a tension between asking for a plan and making a decision: caution can protect the party, but his principles still need to become action. It does not establish cowardice or settle how he responds in every encounter.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504900970616848475\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504901040229716082\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504901100547997736\" target=\"_blank\" rel=\"noopener\">3</a>. Dates refer to Discord posts.</p><h2 id=\"karnak-camilla\">Protection directed toward someone else</h2><p>During the same expedition, Karnak uses a seal to place a shadow shroud on <a href=\"#camilla\">Camilla</a>, telling her she needs it more than he does. Here his contribution is another person’s protection, rather than proof that he can defeat a threat alone. The record does not establish the full origin or mechanics of the seal.</p><p class=\"source-note\">Primary scene: <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504924100944990278\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1504924281950437477\" target=\"_blank\" rel=\"noopener\">2</a>. Dates refer to Discord posts.</p><h2 id=\"karnak-open\">The unfinished protector</h2><p>Karnak’s recurring partnership with Severina makes independence a meaningful question. He respects her competence and accepts support while seeking chances to stand on his own. The supplied dossier reads this as conviction struggling with dependence; the scenes support that interpretation without proving his private motives. His earlier life, the convictions he would refuse to compromise, and what he wants beyond greater strength remain open.</p><h2 id=\"karnak-hag-children\">Making a frightened boy laugh</h2><p>At a children’s hag-hunting meeting in the Common Man, Karnak asks whether anyone is hungry and takes an interest in their drawings and research. Camilla’s severed hag head frightens Pepito. Karnak bends down, tells the boy not to look and produces a ridiculous illusion with a large face and staring eyes. He promises that the hags will be beaten and tells the children to avoid further risks.</p><p>He enjoys their bravery, but his suspicion soon spreads to the children themselves. Their ready knowledge might be bait, he argues; an apparent child or neighbor could be a hag in disguise. Cristin considers coercion as one possibility. Nothing in this exchange proves that the children are hags. Karnak’s wish to protect them has become entangled with a danger he cannot verify.</p><h2 id=\"karnak-infernal-argument\">An ally who will not defer quietly</h2><p>Karnak compares Camilla’s display to what his own commander would do. The comparison does not flatter her into friendship. She tells him to stay on topic; he answers by claiming more front-line war experience than hers. Later he reacts angrily to reports of Abyssal enemies and demands certainty about their origin.</p><p>Camilla hears an insult to her ability to identify enemies. Karnak says his family does not spill unnecessary blood and describes a command to fight demons. The exchange establishes his stated rule and the friction it creates, not a complete history of his family or a guarantee that he always follows the rule.</p><p>When he asks about the local Hellknights, Camilla calls it business she need not disclose to an outsider. Their later cooperation therefore begins with real disagreement and unequal standing. Karnak’s infernal allegiance does not establish that he holds rank in her Order.</p><h2 id=\"karnak-raider-choice\">The families or the merchants</h2><p>When Timale brings news of raiders near Eovar, Karnak wants to respond immediately to the reported deaths, injuries and abduction. He introduces himself to the company as a Hellion who does not know how he arrived here but is now committed to Prima. On reaching Eovar, he asks Vance for a briefing before they choose where to go.</p><p>The next target is uncertain. Expensive goods might draw raiders toward the whalers, while stores of food and two undefended families argue for protecting the barn. Karnak voices both sides: his feelings point toward the families, his calculation toward the merchants. He asks for further information rather than pretending either prediction is certain.</p><p>This is a specific difficulty behind his broad promise of protection. He cannot cover every place at once, and a moving speech does not identify the enemy’s next target. The exchange records a decision under discussion, not a rescue completed by Karnak alone.</p><h2 id=\"karnak-quarry-approach\">Rope, wolf bites and a useful warning</h2><p>Answering Jon’s call about the quarry, Karnak asks where the missing workers were and promises to help. Jon corrects his assumption that they were underground: this is an open pit. Karnak fetches extra rope and grappling hooks and distributes the rope before the party sets out through the <a href=\"#first-forest\">First Forest</a>. He has prepared something the others can actually use.</p><p>When wolves surround them on the approach, he asks for rules of engagement and worries that Severina is being encircled. The fight spreads the company apart; Karnak attacks, takes bites and admits that he needs training. The others’ superior confidence does not make the danger disappear.</p><p>At the quarry, the narrator gives him something the others have not discerned: he can sense desecration and identify where it is strongest. He directs the group toward it. That observation makes him useful in the investigation without proving the cause, finding all the missing workers or completing the quest at this point.</p><h2 id=\"karnak-acolyte-defense\">Warnings for people beside him</h2><p>At the Acolyte attack, Karnak answers Severina’s call to fight together. He follows Camilla’s warning about the mist, attacks with hellfire, calls attention to a group on the flank and tells Thorn to be safe. He still asks whether they should concentrate on the largest threats or expect more enemies.</p><p>When he sees a larger enemy moving toward Camilla, he warns her and comes over when she asks for help. After the mist retreats, he is pleased that nobody seems seriously hurt. Other companions are tending injuries, and the retreating voice threatens more attacks. Karnak has helped win this fight; neither his relief nor his joke about Death settles the war.</p>",
   "relatedRecords": [
     "lady-severina",
     "camilla",
@@ -109,11 +163,130 @@
           "Main quest RP and Alpine Forest · selected primary exchanges"
         ]
       }
+    },
+    {
+      "id": "karnak-hag-children",
+      "title": "Making a frightened boy laugh",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "Selected primary actions and narration support this account. Dialogue, plans and judgments retain their speakers; the scope does not certify unreviewed exchanges or later outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474915482581733538",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474923155792330915",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474924925398815013",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474926254321828034",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474926455724179467",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474929179719106651",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474933128765112320",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474940386593214635",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474945122020888737",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474945892514664541",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474946669371068468",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474947482092961866"
+        ]
+      }
+    },
+    {
+      "id": "karnak-infernal-argument",
+      "title": "An ally who will not defer quietly",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "Selected primary actions and narration support this account. Dialogue, plans and judgments retain their speakers; the scope does not certify unreviewed exchanges or later outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474928494155796613",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474929648059027517",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474937538253819927",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474938587102580828",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474939158282633236",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474939840033460296",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474948338989404160",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1474949110498070749"
+        ]
+      }
+    },
+    {
+      "id": "karnak-raider-choice",
+      "title": "The families or the merchants",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "Selected primary actions and narration support this account. Dialogue, plans and judgments retain their speakers; the scope does not certify unreviewed exchanges or later outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490081450517860592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490088627966050457",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490093755863138416",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490094932323602483",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490095665139814580",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490096277927756046",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490096544421253181",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490097144378429561",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490099040866799778",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1490101488767336580"
+        ]
+      }
+    },
+    {
+      "id": "karnak-quarry-approach",
+      "title": "Rope, wolf bites and a useful warning",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "Selected primary actions and narration support this account. Dialogue, plans and judgments retain their speakers; the scope does not certify unreviewed exchanges or later outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502361257334800579",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502361707874488388",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502364539881001213",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502366876981006507",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502369114923204628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502371136439058565",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502374163862523995",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502374398752063611",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502375570561040495",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502382232780935208",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502388396520247398",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1502389323352506429"
+        ]
+      }
+    },
+    {
+      "id": "karnak-acolyte-defense",
+      "title": "Warnings for people beside him",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record",
+        "summary": "Selected primary actions and narration support this account. Dialogue, plans and judgments retain their speakers; the scope does not certify unreviewed exchanges or later outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506459258101829846",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506460723507626055",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506463869818634360",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506465216588681379",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506483752593784922",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506484155481849887",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506487561336520855",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506489508936286289",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506489729422463068",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506496104366342226",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506497063032983584",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1506498475204935770"
+        ]
+      }
     }
   ],
   "brief": {
     "identity": "Hellion · would-be protector of Prima",
-    "significance": "An earnest protector who seeks to prove conviction through action while learning to decide alongside stronger companions.",
+    "significance": "A self-described Hellion who wants to protect Prima, brags about his experience and still needs help turning vigilance into action. A frightened child, an argument with Camilla and a dangerous quarry approach show different sides of that promise.",
     "actions": [
       {
         "title": "The First Forest reclaims the quarry road",
@@ -135,15 +308,82 @@
     "relationships": [
       {
         "id": "lady-severina",
-        "label": "Lady Severina Blackveil",
-        "relation": "Connected in this history"
+        "label": "Lady Severina",
+        "relation": "She gives him room to fight and challenges him to decide"
       },
       {
         "id": "camilla",
         "label": "Camilla Blackwood",
-        "relation": "Connected in this history"
+        "relation": "A difficult ally: infernal arguments, practical protection and shared battles"
+      },
+      {
+        "id": "first-forest",
+        "label": "The First Forest",
+        "relation": "Rope and vigilance meet a dangerous approach to the quarry"
+      },
+      {
+        "id": "eovar-harbor",
+        "label": "Eovar",
+        "relation": "His promise of protection meets competing possible targets"
       }
     ],
-    "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
-  }
+    "basis": "Existing public history and selected checked primary scenes. Earlier uncertainties remain at the stage where people acted; later outcomes are identified separately. The reading guide is not an exhaustive chronology or an importance ranking."
+  },
+  "biography": {
+    "chapters": [
+      {
+        "id": "karnak-first-meeting",
+        "title": "The children and the suspicions",
+        "sections": [
+          "karnak-hag-children"
+        ]
+      },
+      {
+        "id": "karnak-name-and-allegiance",
+        "title": "The duty he names and the ally he provokes",
+        "sections": [
+          "karnak-duty",
+          "karnak-infernal-argument"
+        ]
+      },
+      {
+        "id": "karnak-protection-and-choice",
+        "title": "Choosing where protection is needed",
+        "sections": [
+          "karnak-raider-choice"
+        ]
+      },
+      {
+        "id": "karnak-learning-in-the-field",
+        "title": "The chances to act for himself",
+        "sections": [
+          "karnak-severina",
+          "karnak-quarry-approach"
+        ]
+      },
+      {
+        "id": "karnak-shared-danger",
+        "title": "Caution, assistance and a battle won",
+        "sections": [
+          "karnak-caution",
+          "karnak-camilla",
+          "karnak-acolyte-defense"
+        ]
+      },
+      {
+        "id": "karnak-unfinished-questions",
+        "title": "The unfinished protector",
+        "sections": [
+          "karnak-open"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "profile": {
+    "personality": "Earnest, boastful, suspicious and capable of awkward kindness. He tries to comfort Pepito, fears an ambush, demands certainty before spilling blood and argues about who has seen more war. His ideals are spoken with confidence even when his practical choices are not.",
+    "achievements": "Provides extra rope before the quarry journey, fights on the approach, senses the quarry’s desecration, protects Camilla with a shroud in another expedition and helps defend Pristinia against Acolyte. The later public record also places him among those clearing the Common Man’s ruins; no sole credit or completed raider rescue is inferred.",
+    "relationships": "Severina is an experienced ally who lets him attempt a fight while remaining ready to help. Camilla cooperates with him but challenges his boasting and questions. His meeting with the hag-hunting children combines comfort and unjustified suspicion; his Eovar briefing makes the limits of protecting everyone immediate."
+  },
+  "readingLayout": "biography"
 }

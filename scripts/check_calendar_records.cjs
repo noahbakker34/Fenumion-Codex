@@ -13,6 +13,9 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   assert(contract.stable);assert(contract.html.includes('By Month of Cala · Year 3'));
   assert.equal(contract.title,'29, Month of Cala · Year 3 of the Final War');
   assert.equal(contract.id,'record-2026-07-29');assert.equal(contract.datetime,'2026-07-29');assert.equal(contract.href,'https://example.test/2026-07-29');assert.equal(contract.input,'2026-07-29');assert.equal(contract.option,'2026');assert.equal(contract.code,'2026-07-29');assert.equal(contract.edition,'2024');
+  const viota=await page.evaluate(()=>archiveIndex.timeline.find(e=>e.title==='Viota’s monument answers with remembrance').dating);
+  assert.equal(viota.calendarAdjustment,undefined,'the explicit overnight camp must not be collapsed into one quest day');
+  assert.deepEqual(viota.finalWar,{start:950,end:951,precision:'range',qualifier:'on'},'the original two-day posting range follows the narrated night and morning');
   const records=fs.readdirSync(__dirname+'/../content/records').map(name=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+name))).filter(record=>record.body);
   const failures=[];
   for(let start=0;start<records.length;start+=40){

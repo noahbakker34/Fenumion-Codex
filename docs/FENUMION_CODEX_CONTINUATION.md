@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-10-31
+Last updated: 2026-11-01
+
+## Five further location histories · 1 November 2026
+
+The owner continues the location pass. The Gate, Pristinia Walls, Public Square, Crucible of Gael and Viota’s Monument gain 4,673 words/26 reading chapters, preserving all 26 old section destinations. The histories connect physical approaches to the people’s work, choices and aftermath: finishing the palisade, distinct contaminated/Rahu attacks, square calls versus destinations, actual difficult Crucible practice and the monument’s restrained exploration and copied translation. No new page/person/asset/event. Details: SETTLEMENT_LOCATION_HISTORIES_2026_11_01.md and content/reference/settlement-location-review-2026-11-01.json.
+
+All 165 cited versions match three read-only corpora, distinguishing 105 original-export and 60 API-cache versions. Payload timestamps remain exact; discovery/windows do not imply exhaustive reading. Quests govern compatible RP, theories stay attributed and inaccessible/private/raw/controller/rules material is excluded. An explicit night and morning withdraw the prior single-day Viota adjustment: its original 9–10 range becomes Days 950–951. All ratings/regions/participants, every other date and the complete private payload remain exact.
+
+Two existing timeline records now open the walls; arena/monument geography is clarified. Five directory summaries and Viota’s parent/path/alias improve access. A same-named-parent bug now resolves within the child’s region and carries article identity; the older Gael and newer forest accounts are not merged. Six old content files change, preserving all unrelated records/media/maps/roles/quotes/261 previews. Catalog 299 has 643 records/594 bodies/2,721 sections; 262 people/365 public events/38 stories remain. App 273 adds the small fix; reader 15 remains. Existing profile/calendar regressions cover the new plans and overnight/parent cases, with no added workflow stage, dependency or style. Local source/preservation/static/mobile/navigation checks pass and screenshots are inspected; publication receipt follows.
 
 ## Location histories and quest geography · 31 October 2026
 

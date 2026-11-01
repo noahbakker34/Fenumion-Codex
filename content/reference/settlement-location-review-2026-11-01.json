@@ -1,0 +1,2848 @@
+{
+  "reviewed": "2026-11-01",
+  "scope": "Five expanded existing locations; source-supported quest routes and the explicit overnight Viota calendar correction.",
+  "locations": {
+    "gate-clearing": {
+      "words": 1138,
+      "sections": 12,
+      "chapters": 5
+    },
+    "pristinia-walls": {
+      "words": 1092,
+      "sections": 9,
+      "chapters": 5
+    },
+    "public-square": {
+      "words": 921,
+      "sections": 9,
+      "chapters": 6
+    },
+    "crucible-of-gael": {
+      "words": 693,
+      "sections": 7,
+      "chapters": 5
+    },
+    "viotas-monument": {
+      "words": 829,
+      "sections": 5,
+      "chapters": 5
+    }
+  },
+  "sourceVersions": 165,
+  "sourceVersionKinds": {
+    "native API cache": 60,
+    "original main-quest export": 105
+  },
+  "sections": {
+    "gate-clearing": {
+      "gate-first-company": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1214401181435035730"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1214401692649529364"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1214401767966507010"
+        }
+      ],
+      "gate-fenwick-welcome": [
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279241923319566337"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279242724058464290"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279243639595204618"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279244221458550794"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279244599944024174"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279244682664218665"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279246987073425459"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279247812034428978"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279248426420404299"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279248855073816629"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279250316021334018"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279250569680388158"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279251010929426503"
+        }
+      ],
+      "gate-siege-road": [
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378351615219601491"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378363967331766353"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378367554300547153"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378367908400336918"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378369034680008855"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378376967384076358"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378377260972904518"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378377415713357914"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378382633465020487"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378385669247729724"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378385863331020862"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378387721550172284"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378388929165922395"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378406019939696721"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378406070107504804"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378422319231270964"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1378429653001310319"
+        }
+      ],
+      "gate-investigation": [
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279241923319566337"
+        },
+        {
+          "source": "guild-1177270231513694249/.cache/history.sqlite3",
+          "channel": "1198721306250719293",
+          "id": "1279243639595204618"
+        }
+      ]
+    },
+    "pristinia-walls": {
+      "walls-first-fortification": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227825042834984970"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227825219255799890"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227825609145716858"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227825889350254713"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227826683319685120"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227828201104080983"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227829039129952328"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227830449926045762"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227833053502636104"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227834993674551336"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227836562809557076"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227836823879946343"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227837513708736603"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227837662979817543"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227838152236863508"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227840736930828372"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227841125444747344"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227841771858300978"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227841997197279306"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227842792839970837"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227843355006734346"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227844233487192064"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227845187339026475"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227845212022243369"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1227845463273635841"
+        }
+      ],
+      "walls-contaminated-assault": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266926275449196554"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266935007121768540"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266935510086193203"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266937950617468961"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266938847317594194"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266944949404831776"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266958814880727102"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266961990946000947"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266964352096014417"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1266968057864130612"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1267003698089824346"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1267003884459786243"
+        }
+      ],
+      "walls-rahu-bombardment": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1377740427263737976"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1377743237258940538"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1377752932862136361"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1377756363907666042"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1377758176706826400"
+        }
+      ]
+    },
+    "public-square": {
+      "square-call-to-the-walls": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1374892931537834086"
+        }
+      ],
+      "square-after-bombardment": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1382140680897429605"
+        }
+      ],
+      "square-notices-and-departures": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1400978412608425998"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1469137957238739120"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1526737225587621988"
+        }
+      ],
+      "square-town-feast": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1456815694980055282"
+        }
+      ]
+    },
+    "crucible-of-gael": {
+      "crucible-height-and-cover": [
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1265726068812152885"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1265729315618816010"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488234250187833507"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488237529919652015"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488238283124117576"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488245121274347673"
+        }
+      ],
+      "crucible-march-practice": [
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488230463989354688"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488230898603131090"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488233637966123241"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488233732438753464"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488243769462489159"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488243860349128887"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488244050560548884"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488245121274347673"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488247411812995284"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488250281517908081"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488253465254694993"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488253618023829524"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488256578200010784"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488258455654367242"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488258982023008407"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488262533919014984"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488263793111732476"
+        }
+      ],
+      "crucible-after-the-fight": [
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488266121575403612"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488266314001944627"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488266469400772720"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488268685075415110"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488268879213101178"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488269047580725298"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488269049682198619"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488269088676515860"
+        }
+      ],
+      "crucible-preparation": [
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1265726068812152885"
+        }
+      ],
+      "crucible-teamwork": [
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1265729315618816010"
+        }
+      ],
+      "crucible-open-record": [
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1265726068812152885"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488268685075415110"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488268879213101178"
+        },
+        {
+          "source": "gael-rp/.cache/history.sqlite3",
+          "channel": "1265725424273592424",
+          "id": "1488269047580725298"
+        }
+      ]
+    },
+    "viotas-monument": {
+      "viota-road-from-the-bridge": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558291208327921725"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558292156228173896"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558292915615178843"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558299951090372708"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558302821890138208"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558304619501985893"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558315366793355318"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558319784326725672"
+        }
+      ],
+      "viota-discovery": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558322085309456405"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558322982600970263"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558323800360353803"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558324175205040170"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558325087239667844"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558325545194754090"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558325651050602549"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558326069180891137"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558326073438113803"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558327106864422963"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558327996773957673"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558329312162218079"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558338541141106698"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558344857775243275"
+        }
+      ],
+      "viota-marking-and-remembrance": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558336704891453463"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558339421718446137"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558339749087944749"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558340337133686908"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558340669494263829"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558341587682070598"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558341964494147625"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558342051550986292"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558342072958713969"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558342097549926432"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558342100565893171"
+        }
+      ],
+      "viota-care-and-departure": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558342324105248860"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558342808006566000"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558343101549117443"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558343484753051670"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558343518999683126"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558343572506550425"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558343766903885986"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558344009414615061"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558344260720271383"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558344569974689874"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558344784697892905"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558344857775243275"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558345409657704551"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558345916212314224"
+        }
+      ],
+      "viota-first-passage": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558345993714405479"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558346079161032845"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558346185536700428"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558346273621418120"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558346703713861714"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558347026306043965"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558347085567361097"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1558347820413485097"
+        }
+      ]
+    }
+  },
+  "receipts": [
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1265726068812152885",
+      "timestamp": "2024-07-24T17:43:30.858000+00:00",
+      "contentSha256": "b0e5c2ab3ba686a92411af14d2dd945dde6ac1643e800f6822f9a7d8b6772aa6",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1265729315618816010",
+      "timestamp": "2024-07-24T17:56:24.957000+00:00",
+      "contentSha256": "d6167e65085ebf82e47e06456546766060e7dc6563a88307224504bb2a09cd19",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488230463989354688",
+      "timestamp": "2026-03-30T17:36:32.600000+00:00",
+      "contentSha256": "bd0a87734961e6cdcc7b980f4bd2ca9b8f86f45401e42131ee94e8d3e7db87fe",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488230898603131090",
+      "timestamp": "2026-03-30T17:38:16.220000+00:00",
+      "contentSha256": "d0fde7e33994d93cbe9b46f31584c2cc63f6d3ecdbbec732b1ff415f3b04173b",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488233637966123241",
+      "timestamp": "2026-03-30T17:49:09.335000+00:00",
+      "contentSha256": "8f36122d40c248fd9562abb1849fc264a84fa3249087268476fb782cb274fbc9",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488233732438753464",
+      "timestamp": "2026-03-30T17:49:31.859000+00:00",
+      "contentSha256": "036cc12f262a66df69a6e543296e8fa2635bd653910591b22d8a742dcf798202",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488234250187833507",
+      "timestamp": "2026-03-30T17:51:35.300000+00:00",
+      "contentSha256": "ade0547481f4074e4f446cb8419a9d5d62951e64ed3482558f7eccb33a59962b",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488237529919652015",
+      "timestamp": "2026-03-30T18:04:37.249000+00:00",
+      "contentSha256": "ae3ca9978ba9d39b29c9236d05d3b6acdc47677640ab4e46abd27dbbec04eca4",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488238283124117576",
+      "timestamp": "2026-03-30T18:07:36.827000+00:00",
+      "contentSha256": "9a7ef359c61dfcae8d9ee11c19e9effbfe2c971c157c8638a46c24d078aa03aa",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488243769462489159",
+      "timestamp": "2026-03-30T18:29:24.872000+00:00",
+      "contentSha256": "d9a25b95cc2a59d03cedf53174146bf13ac7185a1265350306f499c7e7343247",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488243860349128887",
+      "timestamp": "2026-03-30T18:29:46.541000+00:00",
+      "contentSha256": "ee94cc4a80d125d5781428b66798e7976b8b2a89d9024edbebc310acf5dab99c",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488244050560548884",
+      "timestamp": "2026-03-30T18:30:31.891000+00:00",
+      "contentSha256": "e9aa9b80342d8639c2b3276f0894dd8db7a0afe4f3f28d6cdf07b03a09dfa9a0",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488245121274347673",
+      "timestamp": "2026-03-30T18:34:47.169000+00:00",
+      "contentSha256": "ebf5cf707fa1e7318e558e2c60d974022428d4b474b8b3e3de76b96daea5f0ca",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488247411812995284",
+      "timestamp": "2026-03-30T18:43:53.276000+00:00",
+      "contentSha256": "40de1ae5bb7f5d97f68b90d11481bab78cfe75f49732aa0da89e52ea5e5c3779",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488250281517908081",
+      "timestamp": "2026-03-30T18:55:17.467000+00:00",
+      "contentSha256": "c3541d75eedc1ca1bfb46f62dd9f09d34bbc0d8c9dd6cdce541a6589b35f7c5d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488253465254694993",
+      "timestamp": "2026-03-30T19:07:56.529000+00:00",
+      "contentSha256": "21639ce2865897a0e5422e7612a145dbeabf33650b3a40667e55c4cd757922da",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488253618023829524",
+      "timestamp": "2026-03-30T19:08:32.952000+00:00",
+      "contentSha256": "4075ac9785141df6daf91d33269bff32d19599ea6d1a9b8d4b3cf9e5858a69ae",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488256578200010784",
+      "timestamp": "2026-03-30T19:20:18.713000+00:00",
+      "contentSha256": "1af847205318f7ff7973e41eec5ba307fbd9148ed701da7f048967f40484968f",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488258455654367242",
+      "timestamp": "2026-03-30T19:27:46.333000+00:00",
+      "contentSha256": "cef56504e2af6241e2863bed55106890eb1f9efe93e6e03c8a27ee28a5809e8b",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488258982023008407",
+      "timestamp": "2026-03-30T19:29:51.829000+00:00",
+      "contentSha256": "8e4339c74eb443d4d033c3290400b800f48873fdd6f571264fb838a7fc0c181c",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488262533919014984",
+      "timestamp": "2026-03-30T19:43:58.667000+00:00",
+      "contentSha256": "a19f0861a66c9d22b0d9bdc5f0792a5fac983d5f510143efe389a28e0c5a686e",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488263793111732476",
+      "timestamp": "2026-03-30T19:48:58.882000+00:00",
+      "contentSha256": "eddd3d606d1f79d5347b70cbc5a6b4f9fd6b1544a5c4ce68747f204d9c2d8590",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488266121575403612",
+      "timestamp": "2026-03-30T19:58:14.031000+00:00",
+      "contentSha256": "7d59242c21b8b89ab495b8b1fa6fded2ecf98668d6897d79f1f5176a7b56f80a",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488266314001944627",
+      "timestamp": "2026-03-30T19:58:59.909000+00:00",
+      "contentSha256": "fd6bf7ea07bb0cddec74f04c87a31c35cdf96ba9d76de6c7dad65c2f79d93a7d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488266469400772720",
+      "timestamp": "2026-03-30T19:59:36.959000+00:00",
+      "contentSha256": "fae0a148e84d03f526ac239626d3c84614ec93d6c394cf40e170f6249ea5c633",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488268685075415110",
+      "timestamp": "2026-03-30T20:08:25.217000+00:00",
+      "contentSha256": "7793e728b99459de2a717e6920b6e5d596b4a32cf3a776a7769a30ce41c06276",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488268879213101178",
+      "timestamp": "2026-03-30T20:09:11.503000+00:00",
+      "contentSha256": "22afb3cca191d4508e2681a3f10564526e135fb3b4c31df336e3948a70c18d4c",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488269047580725298",
+      "timestamp": "2026-03-30T20:09:51.645000+00:00",
+      "contentSha256": "6f910df9e9b8002dee7f3c632577180b49826399c21a4d0251c34fd2c4ab404f",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488269049682198619",
+      "timestamp": "2026-03-30T20:09:52.146000+00:00",
+      "contentSha256": "deb6d13fa0e1b1d869889cf542b6e45e13d344fbf69f3cdff9edc85c56f1e199",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "gael-rp/.cache/history.sqlite3",
+      "channel": "1265725424273592424",
+      "id": "1488269088676515860",
+      "timestamp": "2026-03-30T20:10:01.443000+00:00",
+      "contentSha256": "0fe0d22d0d01e25e25e7205633c07fe0c81e7007dd12a081cea08e66df1b924d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279241923319566337",
+      "timestamp": "2024-08-31T00:50:41.685000+00:00",
+      "contentSha256": "35f7858ecd45b0f13431761055dc541068bee2f9d37945877080c687c7b09315",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279242724058464290",
+      "timestamp": "2024-08-31T00:53:52.596000+00:00",
+      "contentSha256": "f193956ca4f9f25479e5ace6fa9752fd74b9bf08c44f107c9e4e4744ed2a5eef",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279243639595204618",
+      "timestamp": "2024-08-31T00:57:30.877000+00:00",
+      "contentSha256": "9d6ba7b1e3b7730d43bcd26f60388fa70eb8f6367d39811be7ee6832ee49391e",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279244221458550794",
+      "timestamp": "2024-08-31T00:59:49.604000+00:00",
+      "contentSha256": "dd7fb2db7b84f39f88b80db7a6c95308f20a26501f920a531c812d52761d7df6",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279244599944024174",
+      "timestamp": "2024-08-31T01:01:19.842000+00:00",
+      "contentSha256": "0f9bca1632e54abdf356a3984b849199ff13d0479eeb54249e7a26f3b8ae94f2",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279244682664218665",
+      "timestamp": "2024-08-31T01:01:39.564000+00:00",
+      "contentSha256": "d0510ff0bc22c2df8cf012a00d323ce1cfd96bfc509d412569682ae145d225e5",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279246987073425459",
+      "timestamp": "2024-08-31T01:10:48.978000+00:00",
+      "contentSha256": "368356fcbdaf6a9b73cbfd7f8221542fccdde6edad0665117e04671810eff402",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279247812034428978",
+      "timestamp": "2024-08-31T01:14:05.664000+00:00",
+      "contentSha256": "686d186540509016327cd718302640f7d29f705ae325d2012b69fabb954b56f3",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279248426420404299",
+      "timestamp": "2024-08-31T01:16:32.145000+00:00",
+      "contentSha256": "1907d4cdad345702778ef246bc74396efec46d9f0c7d83fd6c925ffd2fd42910",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279248855073816629",
+      "timestamp": "2024-08-31T01:18:14.344000+00:00",
+      "contentSha256": "db3c268617961ee31d3a3840ae6e35be565acca743a5db12c10974aae243e3f4",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279250316021334018",
+      "timestamp": "2024-08-31T01:24:02.661000+00:00",
+      "contentSha256": "cefd0a45f7e103cb435c6d8a44815a4d8bd5f8962cfc20adfa6d5afcb4f0f5f2",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279250569680388158",
+      "timestamp": "2024-08-31T01:25:03.138000+00:00",
+      "contentSha256": "c6255d884d87093e0b8ef1f8dbbed73229b7d4abbff2226a44ec1b4971e0d49f",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1279251010929426503",
+      "timestamp": "2024-08-31T01:26:48.340000+00:00",
+      "contentSha256": "7d4f9fdaf910f2f17e1b731a0e1f7142d175b79331f7eb13c683a8ce7a3354aa",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378351615219601491",
+      "timestamp": "2025-05-31T12:37:13.603000+00:00",
+      "contentSha256": "52f3602f4900dcca6a2f604d5ae260e4b21507609fa465285a816398a2fe21e3",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378363967331766353",
+      "timestamp": "2025-05-31T13:26:18.576000+00:00",
+      "contentSha256": "228d5fc5bd16cebd32bf7cf06db5fcee145fbbccdc85a6b9bd6ecd1a81763710",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378367554300547153",
+      "timestamp": "2025-05-31T13:40:33.776000+00:00",
+      "contentSha256": "a7ec85c2b92e522df9177f40f8a25e3bad6d87b6fade7d98809189cd34d1eae7",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378367908400336918",
+      "timestamp": "2025-05-31T13:41:58.200000+00:00",
+      "contentSha256": "0cb02ba95c506ad73d38f31b9b7dbde8d4247701509a9a662cae1b171e0fef5d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378369034680008855",
+      "timestamp": "2025-05-31T13:46:26.726000+00:00",
+      "contentSha256": "ce88dc4e283c4c2c3b26b5d5cc425650bedb783fe6fb738fe23b875971dae171",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378376967384076358",
+      "timestamp": "2025-05-31T14:17:58.030000+00:00",
+      "contentSha256": "214ee98bd6c2a3e86d4b53ec51b89889a9fb16f453d46b28fadf7e6900b65f88",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378377260972904518",
+      "timestamp": "2025-05-31T14:19:08.027000+00:00",
+      "contentSha256": "d842a406ae3655c6baaed0957a983eacab3ad4aee064d98ca077ba89df682b45",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378377415713357914",
+      "timestamp": "2025-05-31T14:19:44.920000+00:00",
+      "contentSha256": "c0c9facd9e8c43735968bb1c022369fe508208693ce07b1ee58e5095046863bd",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378382633465020487",
+      "timestamp": "2025-05-31T14:40:28.929000+00:00",
+      "contentSha256": "fd687b611a54cd738c4e6eb5cf36ca40edcd78496ab58ddd309d3f656e69a35c",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378385669247729724",
+      "timestamp": "2025-05-31T14:52:32.716000+00:00",
+      "contentSha256": "8e778f32076853014ab276531bd13e1139e8df6a83c2fc9cdee84fcdd07fb2c3",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378385863331020862",
+      "timestamp": "2025-05-31T14:53:18.989000+00:00",
+      "contentSha256": "c2e042550ebacdde5ff0cecb374b63052282e5c684a60aad58a467331dd52453",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378387721550172284",
+      "timestamp": "2025-05-31T15:00:42.023000+00:00",
+      "contentSha256": "10838c50a5ef34cae20b604052442f3fb6790c4e9be2521c6823e7481d3f30b3",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378388929165922395",
+      "timestamp": "2025-05-31T15:05:29.941000+00:00",
+      "contentSha256": "9ada5de431e8870f7dfa66bedb5d4da394bb39a3369bce5b56cfccb326b610a1",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378406019939696721",
+      "timestamp": "2025-05-31T16:13:24.699000+00:00",
+      "contentSha256": "93de92f6a6a27d4076d27e88c97239e0e2364b30e552d0b90960eb943c6758b1",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378406070107504804",
+      "timestamp": "2025-05-31T16:13:36.660000+00:00",
+      "contentSha256": "30fe98e18c115bf99291d6bd4cf62d285885cd8ca45630cfb73047a7c33bd102",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378422319231270964",
+      "timestamp": "2025-05-31T17:18:10.753000+00:00",
+      "contentSha256": "806944748173366fdd34b059175dcd27b82c65f21c4d2bec77343e63f3b725e1",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "guild-1177270231513694249/.cache/history.sqlite3",
+      "channel": "1198721306250719293",
+      "id": "1378429653001310319",
+      "timestamp": "2025-05-31T17:47:19.260000+00:00",
+      "contentSha256": "083e5b2aed27cf8537e0002bda78237a4885ea04cb41c57b17f6757169c9eb58",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1214401181435035730",
+      "timestamp": "2024-03-04T18:36:44.137-08:00",
+      "contentSha256": "a29a13afe388eebd6df72fb5ef51f38d00c3f4fdd4f1b3a8db9de05cfbaef64e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1214401692649529364",
+      "timestamp": "2024-03-04T18:38:46.02-08:00",
+      "contentSha256": "64ec4f065f971cf374cd8370f57ebb8f1f44565d43b23e20bcad2b349e6745ab",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1214401767966507010",
+      "timestamp": "2024-03-04T18:39:03.977-08:00",
+      "contentSha256": "3b8f4cc0a466db1dc676c4c908bab356ee886f319567d2d292a59f038283b1a2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227825042834984970",
+      "timestamp": "2024-04-10T20:38:22.098-07:00",
+      "contentSha256": "1c3df079f48466ee77ed5969725566ec91c7f2b06b56d4b63048556919cf849f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227825219255799890",
+      "timestamp": "2024-04-10T20:39:04.16-07:00",
+      "contentSha256": "717bcc344d476c9b69c5b59b0e8f2a976b302bfa62983a38f0d5e7a198abdfdc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227825609145716858",
+      "timestamp": "2024-04-10T20:40:37.117-07:00",
+      "contentSha256": "eb39cc883960cd7d204d0473664c92b2ad50d2d1ecc30b4ab1e529eaf5489fdb",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227825889350254713",
+      "timestamp": "2024-04-10T20:41:43.923-07:00",
+      "contentSha256": "7e6d927d568500ab5a0722c427bc3357dce505db2dc0a0f8d4b524ff92b1c144",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227826683319685120",
+      "timestamp": "2024-04-10T20:44:53.22-07:00",
+      "contentSha256": "7eb6951d37e2800d743c61ffe364c58d2fbae538fc9d0cf553dedfe0f9407c09",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227828201104080983",
+      "timestamp": "2024-04-10T20:50:55.088-07:00",
+      "contentSha256": "0320abd51393d88528347b2fdc18804a78c7025f63b0195754a8be1bc7b394bc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227829039129952328",
+      "timestamp": "2024-04-10T20:54:14.889-07:00",
+      "contentSha256": "902d7cf33c45575a775293b4a1070b78eb341b78b1f6044b289f0e6d41304512",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227830449926045762",
+      "timestamp": "2024-04-10T20:59:51.249-07:00",
+      "contentSha256": "9f76bc86817b995e33cc4fe255517a60313e57d8a2ef8103b78938731694721a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227833053502636104",
+      "timestamp": "2024-04-10T21:10:11.99-07:00",
+      "contentSha256": "357fa0b0c5aa4d91dc43f60e71252321e7f34decc846b9ee756018b2adbeb2cc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227834993674551336",
+      "timestamp": "2024-04-10T21:17:54.563-07:00",
+      "contentSha256": "3f0341e7feedabf4157ab33a883ecd7d535f2c13776e17e045c3c20e20374b2b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227836562809557076",
+      "timestamp": "2024-04-10T21:24:08.674-07:00",
+      "contentSha256": "31982e33c27cf19c6fb8dae1940fa32c41906f43e637c17b2af11cb8f0d1d931",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227836823879946343",
+      "timestamp": "2024-04-10T21:25:10.918-07:00",
+      "contentSha256": "46cbaf07f687dc02dae25484ccd0b4255ee380f9776195fdbed626058d24884e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227837513708736603",
+      "timestamp": "2024-04-10T21:27:55.386-07:00",
+      "contentSha256": "2b3fc68ad99a0ccdf488d8d782322a6ba3f8701cb564f2bc671c02d0881889c0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227837662979817543",
+      "timestamp": "2024-04-10T21:28:30.975-07:00",
+      "contentSha256": "92a886528240b90c658ff97824c53343189b3617e4e3bfd0337b4072f5e8b710",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227838152236863508",
+      "timestamp": "2024-04-10T21:30:27.623-07:00",
+      "contentSha256": "530314bbae24fcdb63268b9ddb33bbc584181cea9b822cbcc34d664d14107f62",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227840736930828372",
+      "timestamp": "2024-04-10T21:40:43.862-07:00",
+      "contentSha256": "bb33226b150afe86c56ab868d24785afd7db7962db86421715db50a966c81b04",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227841125444747344",
+      "timestamp": "2024-04-10T21:42:16.491-07:00",
+      "contentSha256": "a5e9651601a4923b73737e0ea7d1a0c566e510b96235c875ef828d3eee943e65",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227841771858300978",
+      "timestamp": "2024-04-10T21:44:50.608-07:00",
+      "contentSha256": "588caf54f74cb3629226c9766bcea4b23b9d0a00419f1211947d18c5920bb1f1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227841997197279306",
+      "timestamp": "2024-04-10T21:45:44.333-07:00",
+      "contentSha256": "8c98131b866fc25a72d99719e4c84a7bb3d79ac0d43e993b50359e6dd6c7fb96",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227842792839970837",
+      "timestamp": "2024-04-10T21:48:54.029-07:00",
+      "contentSha256": "19c00f6e5ab9c9cef2e2c43bd36646ed7d8bc859dc7f1f7612bbbcee46f33bc1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227843355006734346",
+      "timestamp": "2024-04-10T21:51:08.06-07:00",
+      "contentSha256": "685fd8f650094b069fce5cdc2b7df9f96f5f94814152433a60971629d194e044",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227844233487192064",
+      "timestamp": "2024-04-10T21:54:37.506-07:00",
+      "contentSha256": "6e4887e01fe239e8aa374568bedf280d09178bf7904ff3165c3693a74fb85156",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227845187339026475",
+      "timestamp": "2024-04-10T21:58:24.922-07:00",
+      "contentSha256": "2d2197826b6d7ea41747a491f05a829560ed31bfb066917f13a40843ff0b2b59",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227845212022243369",
+      "timestamp": "2024-04-10T21:58:30.807-07:00",
+      "contentSha256": "64a63c513573f51e2f4ea69e742450d21879994f6275af62c7e42c1e61ac55bc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1227845463273635841",
+      "timestamp": "2024-04-10T21:59:30.71-07:00",
+      "contentSha256": "22e292c23f1198cae92c9702f062bdc4e769230b86b76216db3246da74623f4d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266926275449196554",
+      "timestamp": "2024-07-27T18:12:42.419-07:00",
+      "contentSha256": "8ec66cac40f23d95b65832142380d74e563f62fbdb9e80e64c75f913ff7f4940",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266935007121768540",
+      "timestamp": "2024-07-27T18:47:24.212-07:00",
+      "contentSha256": "739546be1b0893f90283f9b1ece2ddb8d0d29effbabd5444272b7549e3cd2472",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266935510086193203",
+      "timestamp": "2024-07-27T18:49:24.128-07:00",
+      "contentSha256": "e44827caa8e427cd069f4fc5a979d49d759e2cdccc1df2c107f425b12cac3e59",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266937950617468961",
+      "timestamp": "2024-07-27T18:59:05.996-07:00",
+      "contentSha256": "3657f46ce67dfdfedec5fdae8667677b7e6cba98408d71eec82722ef070d3c14",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266938847317594194",
+      "timestamp": "2024-07-27T19:02:39.786-07:00",
+      "contentSha256": "a61af4a65bc1a015139d125fc50fad0f412118dc611c795aeb4af3c634d1a401",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266944949404831776",
+      "timestamp": "2024-07-27T19:26:54.637-07:00",
+      "contentSha256": "a37be9c632b62f44d93987180bda8a9ec81386b1eb7a0845d3e7435b709b031f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266958814880727102",
+      "timestamp": "2024-07-27T20:22:00.424-07:00",
+      "contentSha256": "cbfacb32eb64bdefb41ed283ea84d2dcc4789fc5e3f9ffa0ad83e35d548d9ff7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266961990946000947",
+      "timestamp": "2024-07-27T20:34:37.657-07:00",
+      "contentSha256": "0ab2d2402d387d047888a6bcb380d2e5570e578a1f4a133e5bc79824cbd193c0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266964352096014417",
+      "timestamp": "2024-07-27T20:44:00.599-07:00",
+      "contentSha256": "86b57b3ebc79543f526eb8caea4aa040ebcf194d596bd684845112e6e061ce5e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1266968057864130612",
+      "timestamp": "2024-07-27T20:58:44.123-07:00",
+      "contentSha256": "0dd90839f7aac54be90454c11bb504a69d7d948a2d998c7a1d3d40abba45df6d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1267003698089824346",
+      "timestamp": "2024-07-27T23:20:21.415-07:00",
+      "contentSha256": "87c4c001c2f4b01f23ed3528d2e7f9c9ab2a14b6aabaa96fc3b58fb2dacc51de",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1267003884459786243",
+      "timestamp": "2024-07-27T23:21:05.849-07:00",
+      "contentSha256": "b70e24ef6229b7dffeb8219d1e573d1a359be58a819aae54ef3d716a390300a7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1374892931537834086",
+      "timestamp": "2025-05-21T16:33:39.154-07:00",
+      "contentSha256": "39d6fab35cdc7c98e5f3d44df46a220a39dcc1f4c0a86d00ffbcc4fc8861543f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1377740427263737976",
+      "timestamp": "2025-05-29T13:08:35.039-07:00",
+      "contentSha256": "5b173c44b5489202f6bf88fb36ff00bfa233216068bb7146c308b87c6a36e2e1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1377743237258940538",
+      "timestamp": "2025-05-29T13:19:44.994-07:00",
+      "contentSha256": "227f0b8531cfda60c3c556aeaf2905014c755ad66abfe93d3b270c52dbcd517a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1377752932862136361",
+      "timestamp": "2025-05-29T13:58:16.606-07:00",
+      "contentSha256": "598b6fe072bdd77e331ea4d7b2e2be30cfebb7dcc094cf25d88b3e40b845ed51",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1377756363907666042",
+      "timestamp": "2025-05-29T14:11:54.631-07:00",
+      "contentSha256": "5ff42cbb13563d9b6c5a7e8013b1707f26548031ab31c064bea2fb559ab5843d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1377758176706826400",
+      "timestamp": "2025-05-29T14:19:06.836-07:00",
+      "contentSha256": "03ac7cfc32029bcc80cd0d2b085f41d351c2719dd8bccfdb499711134d2746a1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1382140680897429605",
+      "timestamp": "2025-06-10T16:33:37.258-07:00",
+      "contentSha256": "cc3ab866e80eafc382ac5ca71b416755239043436c2614205c8d35aa77f42f6e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1400978412608425998",
+      "timestamp": "2025-08-01T16:08:02.486-07:00",
+      "contentSha256": "f27a63b63a5fa3bac6e2572329aa0f8348e39f37a1116d3772ddfb1c367b904a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1456815694980055282",
+      "timestamp": "2026-01-02T17:05:28.01-08:00",
+      "contentSha256": "e138f6824e914c0434e1fdecd3921223a2af5b7873ddb82bc1cf52e843df8bfd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1469137957238739120",
+      "timestamp": "2026-02-05T17:09:44.269-08:00",
+      "contentSha256": "0f3c68325290873957ceb918f6062b442bb864b8089b57e3c6131444aa76a184",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1526737225587621988",
+      "timestamp": "2026-07-14T16:48:39.986-07:00",
+      "contentSha256": "909a5f09f4003ce7647e59b48b1dcd7fa2f51f4d37e90e7308b6323290a879f9",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558291208327921725",
+      "timestamp": "2026-10-10T01:32:55.716000+00:00",
+      "contentSha256": "0d270db75ef5f48befb6a1ecca0db27002d3491ae0dcfc697201cc4e75502e58",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558292156228173896",
+      "timestamp": "2026-10-10T01:36:41.713000+00:00",
+      "contentSha256": "e2df4e2378d26d449358631c32543a269aca2f8f1069d0b4b018db8c16682652",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558292915615178843",
+      "timestamp": "2026-10-10T01:39:42.765000+00:00",
+      "contentSha256": "b6b9d6c544f7a59cb8c1674b54c06570f4c6ac530e036b9ca2b109e3478ab410",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558299951090372708",
+      "timestamp": "2026-10-10T02:07:40.153000+00:00",
+      "contentSha256": "412e38a423bd266466287085b18198c4e835c02ebc8d7a0ccf17d2eb77858eae",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558302821890138208",
+      "timestamp": "2026-10-10T02:19:04.605000+00:00",
+      "contentSha256": "449bc168783575020b60adb260987850b9da7651b248e8aa9de9bd3c0934e441",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558304619501985893",
+      "timestamp": "2026-10-10T02:26:13.189000+00:00",
+      "contentSha256": "a2fb83a1d89db817e36d7c49fe4fbc683404b0433ca63bbf9f38d86020dba28c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558315366793355318",
+      "timestamp": "2026-10-10T03:08:55.543000+00:00",
+      "contentSha256": "a3977fc7b373f1be0757078e1b2f7c600f93e4ff81c3738196840a2cf9f41c18",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558319784326725672",
+      "timestamp": "2026-10-10T03:26:28.765000+00:00",
+      "contentSha256": "182376035160a1b940623c13e0d6a8b936e576464e8400173839a9f6ed6e0e6f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558322085309456405",
+      "timestamp": "2026-10-10T03:35:37.362000+00:00",
+      "contentSha256": "0a02fac92d10bbdf63d3c3405cb603294b43cf7761fe8452f889d5049ace55e3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558322982600970263",
+      "timestamp": "2026-10-10T03:39:11.293000+00:00",
+      "contentSha256": "5fe68c7926bfbc401883b9a0026f69b16ff5a8e57cb5fb446488ad85e7582488",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558323800360353803",
+      "timestamp": "2026-10-10T03:42:26.262000+00:00",
+      "contentSha256": "aacf2482a4d808527b9f392d0c9bbcdc1fd2280b546a3d026be5af00e456c45e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558324175205040170",
+      "timestamp": "2026-10-10T03:43:55.632000+00:00",
+      "contentSha256": "01e1c3b699467b233bb3146cb3515fd54b7a7974b20fd1013f8a9ce26ca042b3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558325087239667844",
+      "timestamp": "2026-10-10T03:47:33.078000+00:00",
+      "contentSha256": "8c1eb907595f0212c4df7fb2e3b9006bd056096003ab1dc2d7f06bb4c8cdc0a8",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558325545194754090",
+      "timestamp": "2026-10-10T03:49:22.263000+00:00",
+      "contentSha256": "2c36d618359bbaacb80a837f6bd9658e67c9c5653a4e4de2fbddcdc6200137b4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558325651050602549",
+      "timestamp": "2026-10-10T03:49:47.501000+00:00",
+      "contentSha256": "9fd32a28a92f6ee0be0d7bebcfbed4f25c559ae81ad7f3aa34ed061e4ce46a2b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558326069180891137",
+      "timestamp": "2026-10-10T03:51:27.191000+00:00",
+      "contentSha256": "a79ea38cf2103a150c056c894c8130d2235f05460d8eb17dba35bc23326c4a8a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558326073438113803",
+      "timestamp": "2026-10-10T03:51:28.206000+00:00",
+      "contentSha256": "396599ee79bbbd0ad5e68d355175c0fba813e13b220443c4ab42ec7b83d0ae92",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558327106864422963",
+      "timestamp": "2026-10-10T03:55:34.594000+00:00",
+      "contentSha256": "70eda393d855f127c96bba1d782662057ce245cc4f1c87f034e161dd10affa6b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558327996773957673",
+      "timestamp": "2026-10-10T03:59:06.765000+00:00",
+      "contentSha256": "aca6f0d8a93fe9ce1d7c33d0b5bcf767ee8df4375ef891b4ccc4919a01809519",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558329312162218079",
+      "timestamp": "2026-10-10T04:04:20.378000+00:00",
+      "contentSha256": "5cef7e9b539a48903d7720eee2462910c52d49f74a171f9d5cb9b2fe50835b3e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558336704891453463",
+      "timestamp": "2026-10-10T04:33:42.942000+00:00",
+      "contentSha256": "3eb58c670554e0f46bd36e32acb84654c8123aa0f4fed96cdf8abd60401841df",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558338541141106698",
+      "timestamp": "2026-10-10T04:41:00.738000+00:00",
+      "contentSha256": "903b267c0e2d16f5f9aa5b0754d616df662ba651650ead947a7ea4d846607049",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558339421718446137",
+      "timestamp": "2026-10-10T04:44:30.684000+00:00",
+      "contentSha256": "ebdab1dae748190dc18fb688035b19790b8a4c49a121898c9ff2eef4143674f5",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558339749087944749",
+      "timestamp": "2026-10-10T04:45:48.735000+00:00",
+      "contentSha256": "e39a2b23f78304d12fc1821e3b64a521f1b261e1b25d4fecfb051347dcde7383",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558340337133686908",
+      "timestamp": "2026-10-10T04:48:08.936000+00:00",
+      "contentSha256": "220d63f482ad09efd555d1f77f417d23962ddc1daeb1c5201fd43e142ac70348",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558340669494263829",
+      "timestamp": "2026-10-10T04:49:28.177000+00:00",
+      "contentSha256": "370dc07c8324055b061e02a69751f998e92c08127924d58f61c0083c4c236c2e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558341587682070598",
+      "timestamp": "2026-10-10T04:53:07.090000+00:00",
+      "contentSha256": "0d59df643c4f4b0a2c21b67ffdb6741bfd3b75e8ce876ee6a9f9ff837de47742",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558341964494147625",
+      "timestamp": "2026-10-10T04:54:36.929000+00:00",
+      "contentSha256": "1dba4c9eff661f43300cbc52c68b88d63f20a9565f03ab5db705ae2874465225",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558342051550986292",
+      "timestamp": "2026-10-10T04:54:57.685000+00:00",
+      "contentSha256": "80b7b78cac46b7b52f5b238ce3b3e8b3b8090a7e15305401477f79d76e901ec6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558342072958713969",
+      "timestamp": "2026-10-10T04:55:02.789000+00:00",
+      "contentSha256": "bd5b7b77546191e9cf82a6516078b253c9285e593ac63953991c845532afaee5",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558342097549926432",
+      "timestamp": "2026-10-10T04:55:08.652000+00:00",
+      "contentSha256": "5297fea0171d1f80ffdc51978400aff49bbf1e8ef2fabcc37270d0832776f578",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558342100565893171",
+      "timestamp": "2026-10-10T04:55:09.371000+00:00",
+      "contentSha256": "c01205342fb34ad9a47e1d33708b8eec8dcc0e61f5bb7b1c7ce579a3b13be8e0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558342324105248860",
+      "timestamp": "2026-10-10T04:56:02.667000+00:00",
+      "contentSha256": "e6a9708dc7f33bd384e930ab47780704c6bab754bc38991ee5214e63fa0bea8f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558342808006566000",
+      "timestamp": "2026-10-10T04:57:58.038000+00:00",
+      "contentSha256": "89af3ca353e337ed8c06c3df02eaf169c35953f537059ee8b45e552cdc824dd9",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558343101549117443",
+      "timestamp": "2026-10-10T04:59:08.024000+00:00",
+      "contentSha256": "90a0029a4e9791f028cfa0b93bc46fcec5d11e61d022876dac5f0d6e29c07831",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558343484753051670",
+      "timestamp": "2026-10-10T05:00:39.387000+00:00",
+      "contentSha256": "ef7f7dcf63295a0ca298481ffb16fd59ae2a4a7f438e0094d0d2bd58f0ec312e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558343518999683126",
+      "timestamp": "2026-10-10T05:00:47.552000+00:00",
+      "contentSha256": "3634f962034705a970bbc65eaf7172018b3cdf0060e92a97f06bcb70759e5011",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558343572506550425",
+      "timestamp": "2026-10-10T05:01:00.309000+00:00",
+      "contentSha256": "86f761f0b158584e0b67719cfb04f8b9807126ee3e130cc1a66b8b4fcb90b37f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558343766903885986",
+      "timestamp": "2026-10-10T05:01:46.657000+00:00",
+      "contentSha256": "702401e33ae749be4642b5fbb713babcbdbb25c2ef8daeb67f8496985070612d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558344009414615061",
+      "timestamp": "2026-10-10T05:02:44.476000+00:00",
+      "contentSha256": "f9617f7cf539c82d741ee7e1b13aae00aa1e5046b2edddab3a88b6f2baef3b29",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558344260720271383",
+      "timestamp": "2026-10-10T05:03:44.392000+00:00",
+      "contentSha256": "b14127f42609ec54877fd853ee0b1dbdbf630534f01be1774ce3c94a482cb52a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558344569974689874",
+      "timestamp": "2026-10-10T05:04:58.124000+00:00",
+      "contentSha256": "409de357bf58419512396809d4f837395314c95c4714f347fa34969d02bf12f0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558344784697892905",
+      "timestamp": "2026-10-10T05:05:49.318000+00:00",
+      "contentSha256": "17afa1f762853b9da4182487d0e0124f8325cb4a273e4833085c247c26fda1f8",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558344857775243275",
+      "timestamp": "2026-10-10T05:06:06.741000+00:00",
+      "contentSha256": "5789cba003f927c9d9c67c05e680fc5071244f90f416f7b5717f4feb0c6a83ca",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558345409657704551",
+      "timestamp": "2026-10-10T05:08:18.320000+00:00",
+      "contentSha256": "3aad876e00c77cf166d16bd9817c5034320eaa550579a0779cbd90bced24d6bc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558345916212314224",
+      "timestamp": "2026-10-10T05:10:19.092000+00:00",
+      "contentSha256": "9e1637a94dd54a2f9fb45f79357271e15af507cdb2ce1509ec0d4f3eabab584f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558345993714405479",
+      "timestamp": "2026-10-10T05:10:37.570000+00:00",
+      "contentSha256": "cf719d5a311c8b11d7ef0697bd9e556a87f6fed02b59eb62b5acab9194210700",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558346079161032845",
+      "timestamp": "2026-10-10T05:10:57.942000+00:00",
+      "contentSha256": "fa1f89a10097371291c40bee312162cc82f96bf8f39554e9fdd2dbe305ac7a84",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558346185536700428",
+      "timestamp": "2026-10-10T05:11:23.304000+00:00",
+      "contentSha256": "1f9d73d0527535d931fbb7ead13b7556562c3f774be4f4134b26543416dd14a5",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558346273621418120",
+      "timestamp": "2026-10-10T05:11:44.305000+00:00",
+      "contentSha256": "fc1f1dffd82afffd42ef170deda15855e6163987fd458fbf5082bc61604500e6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558346703713861714",
+      "timestamp": "2026-10-10T05:13:26.847000+00:00",
+      "contentSha256": "2779c02ccce7cfa714d3102b0b0407ac76e5abd5090f7ef8b98acf6fdcebadbc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558347026306043965",
+      "timestamp": "2026-10-10T05:14:43.759000+00:00",
+      "contentSha256": "5c8b7607c31c2d71579bcc01fa9229821dafdf1137e3c5e648e85ecd57a1bb22",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558347085567361097",
+      "timestamp": "2026-10-10T05:14:57.888000+00:00",
+      "contentSha256": "cfa64c516f171f11987b68b093fc1ab75d74ee529c38a81214a5389bd33ecf1f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1558347820413485097",
+      "timestamp": "2026-10-10T05:17:53.089000+00:00",
+      "contentSha256": "16229821bab3f50627ec6a570418fe174ca953f5b7661d3f77a8d038c57b0101",
+      "versionKind": "original main-quest export"
+    }
+  ],
+  "timelineDeltas": {
+    "Pristinia’s palisade and moat take shape": {
+      "before": {
+        "title": "Pristinia’s palisade and moat take shape",
+        "meta": "10 Apr 2024 · quest-RP",
+        "sort": "2024-04-10q",
+        "era": "2024 · The Calling",
+        "kind": "Construction",
+        "article": "pristinia",
+        "location": "Pristinia walls",
+        "people": "Rolen; Ryvyt; Elenia; Quake; Nienna; Jako",
+        "tags": [
+          "palisade",
+          "moat",
+          "watchtowers"
+        ],
+        "summary": "Logging crews and builders raise a treated-log palisade, dig a staked moat, and bring the first watchtowers near completion.",
+        "importance": 2,
+        "importanceReason": "Builds or tests the settlement’s practical capacity to protect its inhabitants.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2024-04-10",
+            "end": "2024-04-10",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 38,
+            "end": 38,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        }
+      },
+      "after": {
+        "title": "Pristinia’s palisade and moat take shape",
+        "meta": "10 Apr 2024 · quest-RP",
+        "sort": "2024-04-10q",
+        "era": "2024 · The Calling",
+        "kind": "Construction",
+        "article": "pristinia-walls",
+        "location": "Pristinia walls",
+        "people": "Rolen; Ryvyt; Elenia; Quake; Nienna; Jako",
+        "tags": [
+          "palisade",
+          "moat",
+          "watchtowers"
+        ],
+        "summary": "Logging crews and builders raise a treated-log palisade, dig a staked moat, and bring the first watchtowers near completion.",
+        "importance": 2,
+        "importanceReason": "Builds or tests the settlement’s practical capacity to protect its inhabitants.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2024-04-10",
+            "end": "2024-04-10",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 38,
+            "end": 38,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227833053502636104",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227840736930828372",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227843355006734346",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227844233487192064"
+        ]
+      }
+    },
+    "Delerium fragments rain outside Pristinia": {
+      "before": {
+        "title": "Delerium fragments rain outside Pristinia",
+        "meta": "27 Jul 2024 · quest-RP",
+        "sort": "2024-07-27q",
+        "era": "2024 · The Calling",
+        "kind": "Contamination crisis",
+        "article": "pristinia",
+        "location": "Pristinia walls",
+        "people": "Arjahn; Tricks; Eugene; Sylvaaran; Vaemyr; Leo",
+        "tags": [
+          "Delerium",
+          "explosion",
+          "spectre"
+        ],
+        "summary": "An explosion scatters pulsing violet fragments across the field beyond the wall and leaves the survivors knowing they must hunt the haze-born spectre.",
+        "importance": 3,
+        "importanceReason": "Contamination and assault threaten the settlement within Prima’s wider conflict.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2024-07-27",
+            "end": "2024-07-27",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 146,
+            "end": 146,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        }
+      },
+      "after": {
+        "title": "Delerium fragments rain outside Pristinia",
+        "meta": "27 Jul 2024 · quest-RP",
+        "sort": "2024-07-27q",
+        "era": "2024 · The Calling",
+        "kind": "Contamination crisis",
+        "article": "pristinia-walls",
+        "location": "Pristinia walls",
+        "people": "Arjahn; Tricks; Eugene; Sylvaaran; Vaemyr; Leo",
+        "tags": [
+          "Delerium",
+          "explosion",
+          "spectre"
+        ],
+        "summary": "An explosion scatters pulsing violet fragments across the field beyond the wall and leaves the survivors knowing they must hunt the haze-born spectre.",
+        "importance": 3,
+        "importanceReason": "Contamination and assault threaten the settlement within Prima’s wider conflict.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2024-07-27",
+            "end": "2024-07-27",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 146,
+            "end": 146,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266926275449196554",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266937950617468961",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266964352096014417",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267003698089824346",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267003884459786243"
+        ]
+      }
+    },
+    "Huoth introduces the Crucible of Gael": {
+      "before": {
+        "title": "Huoth introduces the Crucible of Gael",
+        "meta": "24 Jul 2024 · posting date",
+        "sort": "2024-07-24-crucible",
+        "era": "2024 · The Calling",
+        "kind": "Cooperative preparation",
+        "article": "crucible-of-gael",
+        "location": "Tower of Gael; Gael",
+        "people": "Huoth; Gael adventurers",
+        "tags": [
+          "Gael",
+          "Crucible",
+          "Teamwork"
+        ],
+        "summary": "Huoth credits Cala’s idea and Nuru’s magic for a training arena at the Tower’s pinnacle. Adventurers preparing for Wrath must learn strength, flexibility, wisdom and above all cooperation.",
+        "importance": 2,
+        "importanceReason": "Provides a training arena for the Tower’s community; its opening is distinct from later regional victories.",
+        "regions": [
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2024-07-24",
+            "end": "2024-07-24",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 143,
+            "end": 143,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        }
+      },
+      "after": {
+        "title": "Huoth introduces the Crucible of Gael",
+        "meta": "24 Jul 2024 · posting date",
+        "sort": "2024-07-24-crucible",
+        "era": "2024 · The Calling",
+        "kind": "Cooperative preparation",
+        "article": "crucible-of-gael",
+        "location": "Crucible of Gael; pinnacle of the Tower of Gael; Gael",
+        "people": "Huoth; Gael adventurers",
+        "tags": [
+          "Gael",
+          "Crucible",
+          "Teamwork"
+        ],
+        "summary": "Huoth credits Cala’s idea and Nuru’s magic for a training arena at the Tower’s pinnacle. Adventurers preparing for Wrath must learn strength, flexibility, wisdom and above all cooperation.",
+        "importance": 2,
+        "importanceReason": "Provides a training arena for the Tower’s community; its opening is distinct from later regional victories.",
+        "regions": [
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2024-07-24",
+            "end": "2024-07-24",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 143,
+            "end": 143,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1265725424273592424/1265726068812152885"
+        ]
+      }
+    },
+    "Viota’s monument answers with remembrance": {
+      "before": {
+        "title": "Viota’s monument answers with remembrance",
+        "meta": "9–10 Oct 2026 · Discord posting date (America/New_York)",
+        "sort": "2026-10-09-viota-monument",
+        "era": "2026 · Consequences",
+        "kind": "Quest continuation",
+        "location": "Emberwillow Bridge; forest ruins near Larkhollow; Petal Market",
+        "people": "Ryvyt; Fenwick; Saelihn; Trougar; Ilyra Bellflower",
+        "summary": "The company follows Ilyra’s old-road lead. Fenwick activates a marking, the small child figure speaks, the party leaves a watching child unharmed and Saelihn cleans the site. Ilyra later reads the First Passage inscription.",
+        "article": "viotas-monument",
+        "tags": [
+          "Viota",
+          "First Passage",
+          "Larkhollow",
+          "remembrance"
+        ],
+        "importance": 2,
+        "importanceReason": "The established result belongs to an expedition, its companions or a particular local problem.",
+        "regions": [
+          "verdelune"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. The monument expedition continues across local midnight on 9–10 October. Its gathering, journey and monument encounter share the 9 October quest day.",
+          "postingWindow": {
+            "start": "2026-10-09",
+            "end": "2026-10-10",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-09",
+            "reason": "The monument expedition continues across local midnight on 9–10 October. Its gathering, journey and monument encounter share the 9 October quest day.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1558291208327921725",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1558341587682070598",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1558346703713861714"
+            ]
+          },
+          "finalWar": {
+            "start": 950,
+            "end": 950,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        }
+      },
+      "after": {
+        "title": "Viota’s monument answers with remembrance",
+        "meta": "9–10 Oct 2026 · Discord posting date (America/New_York)",
+        "sort": "2026-10-09-viota-monument",
+        "era": "2026 · Consequences",
+        "kind": "Quest continuation",
+        "location": "Emberwillow Bridge; Larkhollow; forest ruins northeast of the Petal Market; Verdelune",
+        "people": "Ryvyt; Fenwick; Saelihn; Trougar; Ilyra Bellflower",
+        "summary": "The company follows Ilyra’s old-road lead. Fenwick activates a marking, the small child figure speaks, the party leaves a watching child unharmed and Saelihn cleans the site. Ilyra later reads the First Passage inscription.",
+        "article": "viotas-monument",
+        "tags": [
+          "Viota",
+          "First Passage",
+          "Larkhollow",
+          "remembrance"
+        ],
+        "importance": 2,
+        "importanceReason": "The established result belongs to an expedition, its companions or a particular local problem.",
+        "regions": [
+          "verdelune"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention. The quest explicitly includes an overnight camp and morning light; the earlier single-day continuation grouping is withdrawn. The recorded 9–10 October range remains, without assigning a precise hour to the obscured journey.",
+          "postingWindow": {
+            "start": "2026-10-09",
+            "end": "2026-10-10",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 950,
+            "end": 951,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558291208327921725",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558299951090372708",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558302821890138208",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558304619501985893",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558319784326725672",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558341587682070598",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558346703713861714"
+        ]
+      }
+    }
+  },
+  "locationIndexDeltas": {
+    "public-square": {
+      "before": {
+        "title": "Public Square",
+        "region": "Prima",
+        "parent": "Pristinia",
+        "type": "civic space",
+        "meta": "Prima › Pristinia · civic space",
+        "article": "public-square",
+        "summary": "War deliberation, ballots, public promises and institutional change bring Pristinia together in the square.",
+        "source": "Map + screenshot",
+        "aliases": [
+          "The Public Square"
+        ],
+        "level": "site"
+      },
+      "after": {
+        "title": "Public Square",
+        "region": "Prima",
+        "parent": "Pristinia",
+        "type": "civic space",
+        "meta": "Prima › Pristinia · civic space",
+        "article": "public-square",
+        "summary": "War calls, ballots, missing-person notices, a town feast and the public end of an order make this a place where Pristinia finds people to answer.",
+        "source": "Map + screenshot",
+        "aliases": [
+          "The Public Square"
+        ],
+        "level": "site"
+      }
+    },
+    "pristinia-walls": {
+      "before": {
+        "title": "Pristinia Walls & Parapets",
+        "region": "Prima",
+        "parent": "Pristinia",
+        "type": "fortification",
+        "meta": "Prima › Pristinia · fortification",
+        "article": "pristinia-walls",
+        "summary": "Pristinia’s defenses carry the history of shared construction, battle recovery, repair and continuing civic work.",
+        "source": "Scene + map + screenshot",
+        "aliases": [
+          "Pristinia Walls",
+          "Parapets of Pristinia",
+          "The Wall"
+        ],
+        "level": "site"
+      },
+      "after": {
+        "title": "Pristinia Walls & Parapets",
+        "region": "Prima",
+        "parent": "Pristinia",
+        "type": "fortification",
+        "meta": "Prima › Pristinia · fortification",
+        "article": "pristinia-walls",
+        "summary": "The first palisade and moat, the contaminated assault, the later Rahu bombardment and continuing repairs preserve the work of many defenders.",
+        "source": "Scene + map + screenshot",
+        "aliases": [
+          "Pristinia Walls",
+          "Parapets of Pristinia",
+          "The Wall"
+        ],
+        "level": "site"
+      }
+    },
+    "gate-clearing": {
+      "before": {
+        "title": "The Gate",
+        "region": "Prima",
+        "parent": "Prima",
+        "type": "Arrival clearing and watch",
+        "meta": "Prima · woodland threshold",
+        "article": "gate-clearing",
+        "summary": "The threshold where strangers arrive, veterans offer shelter, and Fenumion’s war becomes personal.",
+        "source": "Gate chronicle · public arrival scenes",
+        "aliases": [
+          "The Gate clearing",
+          "Celestial Gate"
+        ],
+        "level": "site"
+      },
+      "after": {
+        "title": "The Gate",
+        "region": "Prima",
+        "parent": "Prima",
+        "type": "Arrival clearing and watch",
+        "meta": "Prima · woodland threshold",
+        "article": "gate-clearing",
+        "summary": "An ancient woodland portal and a road to Pristinia: welcomes, investigations and temporary shelter during the siege make crossing only the start of arrival.",
+        "source": "Gate chronicle · public arrival scenes",
+        "aliases": [
+          "The Gate clearing",
+          "Celestial Gate"
+        ],
+        "level": "site"
+      }
+    },
+    "crucible-of-gael": {
+      "before": {
+        "title": "The Crucible of Gael",
+        "region": "Gael",
+        "parent": "Tower of Gael",
+        "level": "site",
+        "type": "Cooperative training arena · Tower of Gael",
+        "meta": "Gael · cooperative training arena",
+        "article": "crucible-of-gael",
+        "summary": "Huoth’s answer to adventurers who are not yet ready for Wrath: learn strength, flexibility, wisdom and cooperation together.",
+        "source": "Gael RP · Huoth’s introduction",
+        "aliases": [
+          "Crucible of Gael",
+          "Cruicible of Gael"
+        ]
+      },
+      "after": {
+        "title": "The Crucible of Gael",
+        "region": "Gael",
+        "parent": "Tower of Gael",
+        "level": "site",
+        "type": "Cooperative training arena · Tower of Gael",
+        "meta": "Gael · cooperative training arena",
+        "article": "crucible-of-gael",
+        "summary": "A Tower-pinnacle arena introduced before the fight with Wrath, with a later practice session revealing the difficulty of cooperating under pressure.",
+        "source": "Gael RP · Huoth’s introduction",
+        "aliases": [
+          "Crucible of Gael",
+          "Cruicible of Gael"
+        ]
+      }
+    },
+    "viotas-monument": {
+      "before": {
+        "title": "Viota’s Monument",
+        "region": "Verdelune",
+        "parent": "Larkhollow forest",
+        "level": "site",
+        "type": "Forest ruin · First Passage inscription",
+        "meta": "Forest ruin · First Passage inscription",
+        "article": "viotas-monument",
+        "summary": "A flower-covered monument whose child figure and inscription connect forest remembrance with a spring that no longer begins."
+      },
+      "after": {
+        "title": "Viota’s Monument",
+        "region": "Verdelune",
+        "parent": "Verdelune",
+        "level": "site",
+        "type": "Forest ruin · First Passage inscription",
+        "meta": "Verdelune · forest near Larkhollow",
+        "article": "viotas-monument",
+        "summary": "Seeds and carvings lead a company to a flower-covered figure; a copied inscription brings back Viota’s name, while restraint preserves the watcher and the vines.",
+        "aliases": [
+          "Viota of the First Passage",
+          "Viota monument"
+        ]
+      }
+    }
+  },
+  "breadcrumbDeltas": {
+    "viotas-monument": {
+      "before": [
+        "Locations",
+        "Viota’s Monument"
+      ],
+      "after": [
+        "Locations",
+        "Verdelune",
+        "Viota’s Monument"
+      ]
+    }
+  },
+  "editorialLimits": [
+    "User canon and established quest outcomes govern. The owner-established Day 1 remains; older native Gate welcomes are not turned into a contradictory new origin date.",
+    "The five locations are existing public records. No new person, location, event, map coordinate, artwork, role, private upload or reconstructed protected account is created.",
+    "Discovery and exported working windows are not exhaustive reading. The 25,043-message Gate cache, 510-message arena cache and selected main-quest windows are distinguished from the 165 specifically cited text versions. Older unchanged material retains its earlier review scope.",
+    "Original main-quest payload timestamps are preserved, including local offsets. Normalized SQL timestamps are not substituted for them. Native API cache versions retain their own timestamps and hashes. Platform bot flags do not demote NPC/narrator webhook text or promote roll-bot output to authority.",
+    "Named quest approaches distinguish portal from town gate, square gathering from wall defense, embassy invitation from feast destination, and monument ruins from market, bridge and tower. Similar names or a channel alone do not establish a geographical match.",
+    "The construction quest confirms a temporary palisade/moat after communal labor. Later unfinished work or repair does not erase that completed phase. Stone upgrades remain future work; no sole founder or complete final design is invented.",
+    "The contaminated assault and later Rahu war remain separate. Haze entering town leaves an unfinished contamination problem; the Gate-road attackers have no established faction, and a retreat to an outside house does not secure the route or break the siege.",
+    "Crucible practice is later than Wrath’s defeat. Combat shorthand and exercise recovery do not establish permanent deaths, a universal resurrection rule or causal credit for an earlier victory. Bowene’s proposed Crucible of Valor remains separate.",
+    "Ilyra’s letter and translation, the child figure’s explanation, Saelihn’s maternal interpretation and suggestions of restoring spring retain their speakers and uncertainty. The absent full Legend Lore answer and private tower/client or retrieval material are not reconstructed.",
+    "An explicit overnight camp and morning light withdraw the earlier single-day Viota adjustment. Original 9–10 October posting bounds, event identity, importance, participants and Verdelune region remain. The final-war range is 950–951; no precise hour is assigned to the obscured travel.",
+    "The monument’s directory parent now names the existing Verdelune record. Two same-named directory accounts are retained without an unsupported merger; parent navigation prefers the child’s region and carries the selected article identity into its dialog.",
+    "Raw transcripts, controller information, OOC discipline/medical chat, rules/reward tables, unreviewed attachments and protected later material stay outside Git. Public metadata contains only identities, original timestamps, content hashes and bounded editorial scope."
+  ],
+  "preservation": {
+    "baselineFiles": 1640,
+    "existingChangedContent": [
+      "content/records/crucible-of-gael.json",
+      "content/records/gate-clearing.json",
+      "content/records/pristinia-walls.json",
+      "content/records/public-square.json",
+      "content/records/viotas-monument.json",
+      "content/reference/world.json"
+    ],
+    "allOtherRecordsAssetsAndWorldFieldsExact": true,
+    "oldSectionDestinations": 26,
+    "oldSectionTitlesUnchanged": 25,
+    "newReadingChapters": 26,
+    "sourceVersions": 165,
+    "sourceCorpora": [
+      "gael-rp/.cache/history.sqlite3",
+      "guild-1177270231513694249/.cache/history.sqlite3",
+      "quest-rp-thread-associations/main-archive.sqlite3"
+    ],
+    "people": 262,
+    "publicEvents": 365,
+    "totalTimelineObjects": 391,
+    "records": 643,
+    "completeBodies": 594,
+    "sections": 2721,
+    "storyPages": 38,
+    "newRecords": 0,
+    "newTimelineEvents": 0,
+    "oneCalendarCorrection": "Viota retains the original two-day posting range after an explicit overnight camp; 950–951",
+    "protectedPayloadBytes": 5251167,
+    "protectedPayloadSha256": "b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e"
+  },
+  "verification": "PASS five complete location histories; 92 narrative paragraphs; 26 reading chapters; 26 old bookmarks; source panels; reload/focus; fresh390/320 fit/header clearance; four exact timeline objects and actual context links; Viota two-day range in card/dialog, real Verdelune parent and directory; eight connected links and three searches; unchanged people/public-private boundaries; no script/public HTTP errors. Source/preservation/static/calendar/portrait/protected/preview/whitespace checks pass; representative local screenshots are inspected."
+}

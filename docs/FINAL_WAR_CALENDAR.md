@@ -47,14 +47,13 @@ Recorded date labels retain their original timezone basis. The implementation do
 | Harpy-cave investigation | 19 Sep 2026 / 930 | One expedition crosses local midnight. `1551041546726543581`, `1551088990306697237`. |
 | Harpy-cave collapse | 19 Sep 2026 / 930 | On 26 September the narrator explicitly resumes the ongoing battle from the investigation. It does not establish a week of elapsed story time. `1553579801535844365`, `1553628750053118023`, `1553628937794625546`. |
 | Petal Market questions | 29 Sep 2026 / 940 | One visit crosses local midnight. Earlier visits remain separate. `1554667303944331346`, `1554725102371864627`. |
-| Viota’s monument | 9 Oct 2026 / 950 | Gathering, journey and monument encounter continue across local midnight. `1558291208327921725`, `1558341587682070598`, `1558346703713861714`. |
 | Clockwork rift | 1 Apr 2025 / 394 | Continuous expedition and retreat; UTC midnight does not create a second New York day. `1356784259498770566`, `1356835720081309808`. |
 | Ooze rift | 17 Apr 2025 / 410 | One encounter/closure across UTC midnight. `1362594104168419579`, `1362596680456736929`. |
 | Abyssal rift | 3 Sep 2026 / 914 | Same continuous encounter as the creator-confirmed 3 September Cthulhu arrival. `1545218434596602037`, `1545260065345511508`, `1545261457724276846`. |
 | Melian abduction investigation | 4 Jun 2025 / 458 | The 5 June source post expressly backdates the investigation to the previous day. The posting window separately records 5 June. `1380213378869628993`. |
 | Babel salamander ambush, apparent-monster mist and Death’s offer (three events) | 18 Oct 2026 / 959 | One continuous expedition, entirely 18 October in New York, crossing into 19 October UTC. `1561530428257472644`, `1561550834787950674`, `1561572671660232718`, `1561588351830589551`. |
 
-These are twelve adjusted event records. Related topics alone do not justify combining quests: the Petal Market and Viota visits retain separate opening dates. No missing long rest, travel duration or elapsed day is invented. The quest’s uneven river-time experience is not converted into a universal calendar rule.
+This table retains eleven adjusted event records. The Viota adjustment was withdrawn on 1 November: the narrator explicitly establishes an overnight camp followed by morning light (`1558302821890138208`), so its recorded 9–10 October range / Days 950–951 remains. The later obscured journey is not assigned a precise hour. Related topics alone do not justify combining quests: the Petal Market and Viota visits retain separate opening dates. No missing long rest, travel duration or elapsed day is invented. The quest’s uneven river-time experience is not converted into a universal calendar rule.
 
 ## Review scope and source identity
 

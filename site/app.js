@@ -1964,11 +1964,15 @@ function renderLocationConnections(article) {
   const maps = interactiveMaps.filter(map => map.pins.some(pin => pin.article === article.id || names.has(pin.title)));
   const people = [...new Map(locationTimelineItems(article).flatMap(event => String(event.people || '').split(';').map(name => resolvePublicPerson(name.trim())).filter(Boolean)).map(person => [person.title, person])).values()];
   const children = archiveIndex.islands.filter(place => names.has(place.parent) && !names.has(place.title) && isPlayerSafeArticle(place.article));
-  const parents = [...new Set(places.map(place => place.parent).filter(parent => parent && !names.has(parent)))].map(name => archiveIndex.islands.find(place => place.title === name && isPlayerSafeArticle(place.article))).filter(Boolean);
+  const parents = [...new Map(places.filter(place => place.parent && !names.has(place.parent)).map(child => {
+    const matches = archiveIndex.islands.filter(parent => parent.title === child.parent && isPlayerSafeArticle(parent.article));
+    const parent = matches.find(place => place.region === child.region) || matches[0];
+    return parent ? [parent.article, parent] : null;
+  }).filter(Boolean)).values()];
   if (!maps.length && !people.length && !children.length && !parents.length) return '';
   return `<section class="location-connections exploration-section" aria-labelledby="connections-${article.id}"><p class="eyebrow">Follow the place’s history</p><h2 id="connections-${article.id}">People & places connected here</h2>
     ${maps.length ? `<div class="exploration-links">${maps.map(map => `<button type="button" data-open-map="${map.id}">Explore the ${escapeHtml(map.title)} map →</button>`).join('')}</div>` : ''}
-    ${parents.length ? `<p class="location-parent">Part of ${parents.map(parent => `<button type="button" data-location-title="${escapeHtml(parent.title)}">${escapeHtml(parent.title)}</button>`).join(' · ')}</p>` : ''}
+    ${parents.length ? `<p class="location-parent">Part of ${parents.map(parent => `<button type="button" data-location-title="${escapeHtml(parent.title)}" data-location-article="${escapeHtml(parent.article)}">${escapeHtml(parent.title)}</button>`).join(' · ')}</p>` : ''}
     ${people.length ? `<details class="connection-group" open><summary>People in the recovered events <span>${people.length}</span></summary><div class="exploration-grid">${people.map(person => `<button type="button" data-character-title="${escapeHtml(person.title)}"><strong>${escapeHtml(person.title)}</strong><small>${escapeHtml(person.meta)}</small></button>`).join('')}</div></details>` : ''}
     ${children.length ? `<details class="connection-group"><summary>Explore places within ${escapeHtml(article.title)} <span>${children.length}</span></summary><div class="exploration-grid">${children.map(place => `<button type="button" data-location-title="${escapeHtml(place.title)}"><strong>${escapeHtml(place.title)}</strong><small>${escapeHtml(place.type || place.meta)}</small></button>`).join('')}</div></details>` : ''}
   </section>`;
@@ -2205,7 +2209,7 @@ document.addEventListener("click", event => {
   }
   const locationTrigger = event.target.closest('[data-location-title]');
   if (locationTrigger) {
-    const place = archiveIndex.islands.find(item => item.title === locationTrigger.dataset.locationTitle);
+    const place = archiveIndex.islands.find(item => item.title === locationTrigger.dataset.locationTitle && (!locationTrigger.dataset.locationArticle || item.article === locationTrigger.dataset.locationArticle));
     if (place && isPlayerSafeArticle(place.article)) openLocationRecord(place);
     return;
   }

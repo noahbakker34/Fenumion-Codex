@@ -803,7 +803,7 @@
         "sort": "2024-04-10q",
         "era": "2024 · The Calling",
         "kind": "Construction",
-        "article": "pristinia",
+        "article": "pristinia-walls",
         "location": "Pristinia walls",
         "people": "Rolen; Ryvyt; Elenia; Quake; Nienna; Jako",
         "tags": [
@@ -832,7 +832,13 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227833053502636104",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227840736930828372",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227843355006734346",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1227844233487192064"
+        ]
       },
       {
         "title": "A forest expedition finds a dead priest’s room",
@@ -2331,7 +2337,7 @@
         "sort": "2024-07-27q",
         "era": "2024 · The Calling",
         "kind": "Contamination crisis",
-        "article": "pristinia",
+        "article": "pristinia-walls",
         "location": "Pristinia walls",
         "people": "Arjahn; Tricks; Eugene; Sylvaaran; Vaemyr; Leo",
         "tags": [
@@ -2360,7 +2366,14 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266926275449196554",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266937950617468961",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1266964352096014417",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267003698089824346",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1267003884459786243"
+        ]
       },
       {
         "title": "The Gael tomb mission escapes through the statues",
@@ -10811,7 +10824,7 @@
         "era": "2024 · The Calling",
         "kind": "Cooperative preparation",
         "article": "crucible-of-gael",
-        "location": "Tower of Gael; Gael",
+        "location": "Crucible of Gael; pinnacle of the Tower of Gael; Gael",
         "people": "Huoth; Gael adventurers",
         "tags": [
           "Gael",
@@ -10839,7 +10852,10 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1265725424273592424/1265726068812152885"
+        ]
       },
       {
         "title": "Gartina plants Stake and brings forth a forest",
@@ -11561,7 +11577,7 @@
         "sort": "2026-10-09-viota-monument",
         "era": "2026 · Consequences",
         "kind": "Quest continuation",
-        "location": "Emberwillow Bridge; forest ruins near Larkhollow; Petal Market",
+        "location": "Emberwillow Bridge; Larkhollow; forest ruins northeast of the Petal Market; Verdelune",
         "people": "Ryvyt; Fenwick; Saelihn; Trougar; Ilyra Bellflower",
         "summary": "The company follows Ilyra’s old-road lead. Fenwick activates a marking, the small child figure speaks, the party leaves a watching child unharmed and Saelihn cleans the site. Ilyra later reads the First Passage inscription.",
         "article": "viotas-monument",
@@ -11578,29 +11594,29 @@
         ],
         "dating": {
           "kind": "recorded",
-          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. The monument expedition continues across local midnight on 9–10 October. Its gathering, journey and monument encounter share the 9 October quest day.",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention. The quest explicitly includes an overnight camp and morning light; the earlier single-day continuation grouping is withdrawn. The recorded 9–10 October range remains, without assigning a precise hour to the obscured journey.",
           "postingWindow": {
             "start": "2026-10-09",
             "end": "2026-10-10",
             "precision": "range",
             "qualifier": "on"
           },
-          "calendarAdjustment": {
-            "date": "2026-10-09",
-            "reason": "The monument expedition continues across local midnight on 9–10 October. Its gathering, journey and monument encounter share the 9 October quest day.",
-            "sources": [
-              "https://discord.com/channels/1177270231513694249/1199083630354501673/1558291208327921725",
-              "https://discord.com/channels/1177270231513694249/1199083630354501673/1558341587682070598",
-              "https://discord.com/channels/1177270231513694249/1199083630354501673/1558346703713861714"
-            ]
-          },
           "finalWar": {
             "start": 950,
-            "end": 950,
-            "precision": "day",
+            "end": 951,
+            "precision": "range",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558291208327921725",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558299951090372708",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558302821890138208",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558304619501985893",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558319784326725672",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558341587682070598",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1558346703713861714"
+        ]
       },
       {
         "title": "Kimi and Kuri ask adventurers to find Vey and Vaa",
@@ -17395,7 +17411,7 @@
         "type": "civic space",
         "meta": "Prima › Pristinia · civic space",
         "article": "public-square",
-        "summary": "War deliberation, ballots, public promises and institutional change bring Pristinia together in the square.",
+        "summary": "War calls, ballots, missing-person notices, a town feast and the public end of an order make this a place where Pristinia finds people to answer.",
         "source": "Map + screenshot",
         "aliases": [
           "The Public Square"
@@ -17423,7 +17439,7 @@
         "type": "fortification",
         "meta": "Prima › Pristinia · fortification",
         "article": "pristinia-walls",
-        "summary": "Pristinia’s defenses carry the history of shared construction, battle recovery, repair and continuing civic work.",
+        "summary": "The first palisade and moat, the contaminated assault, the later Rahu bombardment and continuing repairs preserve the work of many defenders.",
         "source": "Scene + map + screenshot",
         "aliases": [
           "Pristinia Walls",
@@ -18439,7 +18455,7 @@
         "type": "Arrival clearing and watch",
         "meta": "Prima · woodland threshold",
         "article": "gate-clearing",
-        "summary": "The threshold where strangers arrive, veterans offer shelter, and Fenumion’s war becomes personal.",
+        "summary": "An ancient woodland portal and a road to Pristinia: welcomes, investigations and temporary shelter during the siege make crossing only the start of arrival.",
         "source": "Gate chronicle · public arrival scenes",
         "aliases": [
           "The Gate clearing",
@@ -18455,7 +18471,7 @@
         "type": "Cooperative training arena · Tower of Gael",
         "meta": "Gael · cooperative training arena",
         "article": "crucible-of-gael",
-        "summary": "Huoth’s answer to adventurers who are not yet ready for Wrath: learn strength, flexibility, wisdom and cooperation together.",
+        "summary": "A Tower-pinnacle arena introduced before the fight with Wrath, with a later practice session revealing the difficulty of cooperating under pressure.",
         "source": "Gael RP · Huoth’s introduction",
         "aliases": [
           "Crucible of Gael",
@@ -18581,12 +18597,16 @@
       {
         "title": "Viota’s Monument",
         "region": "Verdelune",
-        "parent": "Larkhollow forest",
+        "parent": "Verdelune",
         "level": "site",
         "type": "Forest ruin · First Passage inscription",
-        "meta": "Forest ruin · First Passage inscription",
+        "meta": "Verdelune · forest near Larkhollow",
         "article": "viotas-monument",
-        "summary": "A flower-covered monument whose child figure and inscription connect forest remembrance with a spring that no longer begins."
+        "summary": "Seeds and carvings lead a company to a flower-covered figure; a copied inscription brings back Viota’s name, while restraint preserves the watcher and the vines.",
+        "aliases": [
+          "Viota of the First Passage",
+          "Viota monument"
+        ]
       },
       {
         "title": "The Before · Fieldwork",
@@ -21378,6 +21398,7 @@
       "viotas-monument",
       [
         "Locations",
+        "Verdelune",
         "Viota’s Monument"
       ]
     ],

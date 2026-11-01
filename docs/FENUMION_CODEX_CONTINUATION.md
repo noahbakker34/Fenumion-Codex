@@ -10,6 +10,8 @@ All 292 cited versions match two read-only corpora (277 original export/15 API-c
 
 Six old content files change; 27 individual directory/connected summaries and specific profile relationships improve discovery. All 391 events/dates/ratings/regions, roles, media, maps, quotes, 261 previews and complete private payload remain exact. Catalog 301 has 643 records/594 bodies/2,762 sections; 262 people/365 public events/38 stories remain. App 273/reader 15 remain; no new page/asset/runtime/style/dependency/workflow stage. Local source/preservation/static and focused complete-profile/player-directory/modal/bookmark/mobile/link/search checks pass, screenshots inspected; publication receipt follows.
 
+The first hosted candidate stopped before packaging/upload/deployment on an old visual-test expectation that Tobias had no biography reader. The existing visual test now verifies his intended reader/player identity and retains the unchanged older-reader/video/role/relationship checks on Djöhandrai; that full visual check passes locally. No runtime or narrative correction was required.
+
 ## City, library and burial histories · 1 November 2026
 
 The owner continues the location pass. Ciaránach, Caisleán na Brón, Rahuvia, Pristinia Scroll Library, the Before survey and Aria’s Tomb now offer 6,817 words/30 reading chapters. Seventeen sections add the night-before-dawn pilgrimage, castle hearing and procession, staged capital approach, library use, scholars’ retreat and actual burial outside Ciaránach. All 51 older section IDs/titles survive. Details: CITY_LIBRARY_HISTORIES_2026_11_01.md and content/reference/city-library-review-2026-11-01.json.

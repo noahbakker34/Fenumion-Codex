@@ -133,12 +133,16 @@ const output=process.env.CODEX_SCREENSHOTS||'/tmp/fenumion-visual-upgrade';
    await go(id);assert.equal(await page.locator('.article-header .chronicle-region-badge').count(),1,id+' has a sourced region badge');
   }
   await go('tobias');
-  assert.equal(await page.locator('.biography-layout').count(),0,'other profiles keep their existing reader');
+  assert.equal(await page.locator('.biography-layout').count(),1,'Tobias uses the continuous biography reader');
+  assert.equal(await page.evaluate(()=>archiveIndex.characters.filter(person=>person.article==='tobias').length),1,'Tobias remains a player character');
+  assert.equal(await page.evaluate(()=>archiveIndex.npcs.filter(person=>person.article==='tobias').length),0);
+  await go('djohandrai');
+  assert.equal(await page.locator('.biography-layout').count(),0,'unconverted profiles keep their existing reader');
   assert.equal(await page.locator('.chronicle-person-portrait :is(img,video)').count(),1);
   assert.equal(await page.locator('.record-visual-rail > .article-hero :is(img,video)').count(),0,'same portrait is shown once');
   assert(await page.locator('.chronicle-person-portrait video').evaluate(el=>el.paused&&!el.querySelector('source')?.hasAttribute('src')),'reduced-motion portrait retains its poster without loading video');
   assert.equal((await page.locator('.article-header .article-kicker').innerText()).toLowerCase(),'player character');
-  assert.equal(await page.locator('.article-header .chronicle-relationships a').count(),4);
+  assert.equal(await page.locator('.article-header .chronicle-relationships a').count(),1);
   assert(await page.locator('.chronicle-relationships a').evaluateAll(links=>links.every(link=>!byId.get(link.hash.slice(1))?.protected)),'relationships exclude protected targets');
   await page.screenshot({path:output+'/character-desktop.png'});
   await go('people-directory');await page.locator('#people-gallery-query').fill('Fenwick');

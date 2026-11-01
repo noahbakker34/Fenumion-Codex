@@ -250,10 +250,11 @@
     "chapters": [
       {
         "id": "walls-work-and-decision",
-        "title": "Finishing the first defense",
+        "title": "The first defense and early recovery",
         "sections": [
           "walls-first-fortification",
-          "prima-rp-walls-building"
+          "prima-rp-walls-building",
+          "prima-rp-walls-wren"
         ]
       },
       {
@@ -265,10 +266,9 @@
       },
       {
         "id": "walls-war-and-recovery",
-        "title": "War and the people who return",
+        "title": "The later Rahu bombardment",
         "sections": [
-          "walls-rahu-bombardment",
-          "prima-rp-walls-wren"
+          "walls-rahu-bombardment"
         ]
       },
       {

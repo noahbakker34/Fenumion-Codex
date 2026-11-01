@@ -60,6 +60,9 @@ const originals=id=>JSON.parse(fs.readFileSync(__dirname+'/../content/records/'+
     assert.equal(await page.locator('#record-dialog-content [data-record-article="verdelune"]').count(),1,'parent opens its actual history rather than the older Gael overview');
     await page.keyboard.press('Escape');
    }
+   if(id==='pristinia-walls'){
+    assert.equal(await page.locator('#prima-rp-walls-wren').evaluate(el=>el.closest('.biography-section').querySelector('h2').id),'walls-work-and-decision','Wren’s early recovery stays before the later contaminated and Rahu assaults');
+   }
    await picture(id+'-desktop.png');
    const target=source.biography.chapters[1].id;await page.locator('.biography-navigation [data-section="'+target+'"]').click();
    assert.equal(await page.evaluate(()=>document.activeElement.id),target,'chapter receives focus');

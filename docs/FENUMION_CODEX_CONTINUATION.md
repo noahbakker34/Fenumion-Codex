@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-01
 
+## City, library and burial histories · 1 November 2026
+
+The owner continues the location pass. Ciaránach, Caisleán na Brón, Rahuvia, Pristinia Scroll Library, the Before survey and Aria’s Tomb now offer 6,817 words/30 reading chapters. Seventeen sections add the night-before-dawn pilgrimage, castle hearing and procession, staged capital approach, library use, scholars’ retreat and actual burial outside Ciaránach. All 51 older section IDs/titles survive. Details: CITY_LIBRARY_HISTORIES_2026_11_01.md and content/reference/city-library-review-2026-11-01.json.
+
+All 172 cited versions match three read-only corpora: 143 original export and 29 native API cache. Timestamps remain exact; discovery/windows are not exhaustive reading. Quest outcomes govern, claims and unnamed locations stay qualified, restricted rooms/ancient origins/keeper secrets/raw/controller material remain excluded. A narrated-night note does not invent a posting day. All calendar bounds, importance, participants, regions and the complete private payload remain exact.
+
+Four existing timeline objects gain precise geography/context or that note. Eight individual directory rows change; the city/road/temple and entrance/caverns remain distinct. The castle chronology uses full-width mobile paragraphs. Seven older content files change, preserving unrelated records/assets/roles/maps/quotes/261 previews. Catalog 300 contains 643 records/594 bodies/2,738 sections, with 262 people/365 public events/38 stories unchanged. App 273/reader 15 remain; no new page/event/runtime/style/dependency/workflow stage. Local source/preservation/static and focused full-body/mobile/bookmark/link checks pass, screenshots inspected; publication receipt follows.
+
 ## Five further location histories · 1 November 2026
 
 The owner continues the location pass. The Gate, Pristinia Walls, Public Square, Crucible of Gael and Viota’s Monument gain 4,673 words/26 reading chapters, preserving all 26 old section destinations. Wren’s early bow recovery stays before the later assaults. The histories connect physical approaches to the people’s work, choices and aftermath: finishing the palisade, distinct contaminated/Rahu attacks, square calls versus destinations, actual difficult Crucible practice and the monument’s restrained exploration and copied translation. No new page/person/asset/event. Details: SETTLEMENT_LOCATION_HISTORIES_2026_11_01.md and content/reference/settlement-location-review-2026-11-01.json.

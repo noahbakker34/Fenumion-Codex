@@ -6256,7 +6256,7 @@
         ],
         "dating": {
           "kind": "recorded",
-          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. The date records the quest opening. The narrated route includes a night on the mountain and a further ascent at dawn; it is not a one-hour journey. A second posting date or exact hour of entry is not inferred.",
           "postingWindow": {
             "start": "2025-09-27",
             "end": "2025-09-27",
@@ -6269,7 +6269,16 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421649621997981799",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421662659522199693",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421667239714885704",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421668173333397701",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421668728164192380",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421671640546152619",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421677652263047252"
+        ]
       },
       {
         "title": "The Heavenly Host attacks Aelthor",
@@ -6401,7 +6410,7 @@
         "era": "2026 · Renewed expeditions",
         "kind": "Joint survey",
         "article": "before-survey",
-        "location": "The Before; Prima",
+        "location": "Pristinia outskirts; known sinkhole entrance to The Before; Prima",
         "people": "Thorn; Camilla; Lady Severina; Saoirse; Miri",
         "tags": [
           "Pristinia",
@@ -6430,7 +6439,16 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487240286638833705",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487245027426959592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487252476087369760",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487260292680388778",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487263553382518864",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487295036331917322",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487295545021305003"
+        ]
       },
       {
         "title": "Farkur confesses before the Guardians",
@@ -7613,8 +7631,8 @@
         "sort": "2025-06-24e",
         "era": "2025 · Truth and authority",
         "kind": "Peace and reciprocal obligations",
-        "article": "ephraith",
-        "location": "Prima; Rahu peace parlay",
+        "article": "rahuvia",
+        "location": "Rahuvia; Queen’s retreat; Prima",
         "people": "Ephraith; Eugene; Olokun; St. Anky; Coralyn; Fulmin; Nuru",
         "tags": [
           "Rahu",
@@ -7642,7 +7660,14 @@
             "precision": "range",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386905878929735765",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386906186401448037",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386912618111045663",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386914376023281764",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386917199071150141"
+        ]
       },
       {
         "title": "Zarathis honors the Dragonsisters",
@@ -10901,9 +10926,9 @@
         "sort": "2025-11-23",
         "era": "2025 · Truth and authority",
         "kind": "Public mourning",
-        "article": "bowene",
+        "article": "arias-tomb",
         "people": "High Lord Bowene; Aria; Talan",
-        "location": "Zarathis; Fein Uaill",
+        "location": "Zarathis procession; Tomb of Heroes in Seraphis, outside Ciaránach; Fein Uaill",
         "summary": "At Aria’s funeral, Bowene calls her the best of the Zarathians and demands punishment for Talan. His later reflection does not erase this starting point in grief and anger.",
         "tags": [
           "Bowene",
@@ -10929,7 +10954,17 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442262193461657703",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442265417413296138",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442266828427497665",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442267192757456926",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442270847380488272",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442272552947945492",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442273748282773605",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442275819324964904"
+        ]
       },
       {
         "title": "Bowene hears political participants after Aria’s death",
@@ -17351,7 +17386,7 @@
         "type": "changed ruin entrance",
         "meta": "Prima › The Before · survey entrance",
         "article": "before-survey",
-        "summary": "A once-known entrance found behind purple-glowing briars and an eighty-foot sinkhole during the 27 March 2026 peace-agreement survey.",
+        "summary": "The treaty-backed company finds its familiar approach changed: glowing briars conceal the eighty-foot sinkhole into the ruins.",
         "source": "Complete quest-rp export · 27 Mar 2026",
         "aliases": [
           "Briar Entrance",
@@ -17368,7 +17403,7 @@
         "type": "underground ruins",
         "meta": "Prima › The Before · underground ruins",
         "article": "before-survey",
-        "summary": "Worked-stone caverns containing a ruined fountain, broken arch, skeletons, purple dust, branching passages, and a stirge swarm.",
+        "summary": "Worked stone, a ruined fountain and a crumbling statue lead toward the stirge-filled passage; the survey retreats behind the scholars’ fabric barrier.",
         "source": "Complete quest-rp export · 27 Mar 2026",
         "aliases": [
           "Survey Caverns",
@@ -17525,7 +17560,7 @@
         "type": "Library · research commons and civic archive",
         "meta": "Prima › Pristinia · library",
         "article": "pristinia-scroll-library",
-        "summary": "A modest local collection grown through repeated research, shared spells, teaching and civic record-keeping, with gaps that research cannot wish away.",
+        "summary": "A modest collection grows through shared books, civic research and newcomers following clues through spell references and old newspapers.",
         "source": "Settlement map and supplied housing/library history",
         "aliases": [
           "Scroll Library"
@@ -18019,7 +18054,7 @@
         "type": "fortified place",
         "meta": "Fein Uaill · adventurers’ stronghold and refuge",
         "article": "caislean-na-bron",
-        "summary": "A fortified home whose rooms hold political planning, Aria’s legacy, visiting delegations, old enemies, and the quieter work of shelter.",
+        "summary": "The company’s home, offered among vineyards, later receives Aria’s preserved body and a grieving delegation before the funeral procession leaves.",
         "source": "Regional map + castle chronicle",
         "aliases": [
           "Caselean De Broin",
@@ -18036,7 +18071,7 @@
         "type": "sacred city",
         "meta": "Fein Uaill · sacred city",
         "article": "ciaranach",
-        "summary": "A sacred city whose visual identity now includes the wider settlement and a temple within it.",
+        "summary": "A night on the holy road precedes the mountain city’s golden threshold, guarded knowledge and counsel carried back into public life.",
         "source": "Regional chronicle + user-supplied moving records",
         "aliases": [
           "Ciaranach"
@@ -18053,7 +18088,7 @@
         "type": "pilgrimage route",
         "meta": "Fein Uaill › Ciaránach · pilgrimage route",
         "article": "ciaranach",
-        "summary": "A permission-bound route from Zarathis through orchards and high mountains, used for the yearly lesson and the approach to the Golden Ones.",
+        "summary": "The permission-bound pilgrimage road from Zarathis climbs through orchards and mountain snow, with a night’s halt before the final ascent to Ciaránach.",
         "source": "Complete quest-rp export · 27 Sep 2025",
         "aliases": [
           "Holy Road",
@@ -18179,12 +18214,14 @@
         "region": "Fein Uaill",
         "parent": "Fein Uaill",
         "type": "tomb",
-        "meta": "Fein Uaill · tomb",
+        "meta": "Fein Uaill · Tomb of Heroes, outside Ciaránach",
         "article": "arias-tomb",
-        "summary": "Aria’s tomb lies in Fein Uaill proper; the regional record corrects the assumption that it is inside Ciaránach.",
+        "summary": "The Tomb of Heroes in Seraphis, just outside Ciaránach: Aria’s casket is carried in after the procession and public farewells.",
         "source": "Regional record + moving visual",
         "aliases": [
-          "Aria's Tomb"
+          "Aria's Tomb",
+          "Tomb of Heroes",
+          "Aria burial"
         ],
         "video": "assets/archive/arias-tomb.mp4",
         "level": "site"
@@ -18424,7 +18461,7 @@
         "type": "Rahu capital and sacred political center",
         "meta": "Prima · walled Rahu capital",
         "article": "rahuvia",
-        "summary": "A walled valley capital of cherry blossoms, guarded knowledge, sacred thresholds, and the June 2025 peace accord.",
+        "summary": "The guarded capital reached after the valley journey: hospitality, a sacred audience and the obligations of peace belong to specific places within its walls.",
         "source": "Rahuvia_Rahu_Capital_Location_and_History.md",
         "aliases": [
           "Rahu capital",

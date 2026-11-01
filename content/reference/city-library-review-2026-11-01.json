@@ -1,0 +1,3190 @@
+{
+  "reviewed": "2026-11-01",
+  "scope": "Six expanded existing city, castle, library, survey and burial histories; source-supported approaches and precise existing timeline context links.",
+  "locations": {
+    "rahuvia": {
+      "words": 1487,
+      "sections": 13,
+      "chapters": 5
+    },
+    "ciaranach": {
+      "words": 1412,
+      "sections": 14,
+      "chapters": 5
+    },
+    "caislean-na-bron": {
+      "words": 1225,
+      "sections": 13,
+      "chapters": 5
+    },
+    "pristinia-scroll-library": {
+      "words": 986,
+      "sections": 9,
+      "chapters": 5
+    },
+    "before-survey": {
+      "words": 1187,
+      "sections": 14,
+      "chapters": 6
+    },
+    "arias-tomb": {
+      "words": 520,
+      "sections": 5,
+      "chapters": 4
+    }
+  },
+  "sourceVersions": 172,
+  "sourceVersionKinds": {
+    "native API cache": 29,
+    "original main-quest export": 143
+  },
+  "sections": {
+    "ciaranach": {
+      "ciaranach-night-on-the-road": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421653819678396528"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421657335939469425"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421657550796882055"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421658608717926450"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421661859714695248"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421662659522199693"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421662861079609445"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421663985832300574"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421664692564267059"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421664869069099028"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421667239714885704"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421667820189651115"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421668173333397701"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421668728164192380"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421669297960386621"
+        }
+      ],
+      "ciaranach-garden-threshold": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421671640546152619"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421671885719994520"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421673716689010688"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421674956927926283"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421675393580011611"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421675763853426769"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421676940653498429"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421677086879383633"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421677652263047252"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421677911295135834"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421678776953081960"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421679403867570197"
+        }
+      ],
+      "ciaranach-later-permission": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1432062631837171855"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1432063548204257390"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1432063735391977683"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1432063865595891874"
+        }
+      ],
+      "ciaranach-funeral-outside": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442261147611828235"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442262193461657703"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442262789296099441"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442263946601042052"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442265417413296138"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442266828427497665"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442267192757456926"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442272552947945492"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442273748282773605"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442275071107268781"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442275819324964904"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442275957326086386"
+        }
+      ],
+      "ciaranach-pilgrimage": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421649621997981799"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421657550796882055"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421658455705653356"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421662659522199693"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421667239714885704"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421667820189651115"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421668173333397701"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421668728164192380"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421669297960386621"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1421670126788411433"
+        }
+      ]
+    },
+    "caislean-na-bron": {
+      "caislean-gates-and-casket": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442226519287009571"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442227574859239465"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442227814345478164"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442228141668958320"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442229370558222449"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442230198081683671"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442235785263841351"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442236674036732138"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442237198249492591"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442238275602354268"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442240412818472960"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442241812340412547"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442242743635283968"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442244089612472534"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442244301160714330"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442245899526078475"
+        }
+      ],
+      "caislean-hospitality-survives-the-hearing": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442251440172302436"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442252192211009629"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442254243233796136"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442254480912416930"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442256219338444952"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442256894725980312"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442257237937488042"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442257280623181834"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442258065817735208"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442261147611828235"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442261288335048866"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442261928603815966"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442262193461657703"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442267192757456926"
+        }
+      ]
+    },
+    "rahuvia": {
+      "rahuvia-difficult-approach": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386871394750697584"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386875920731869195"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386878565055860768"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386878697579089940"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386878833810214964"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386886870667104368"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386890359346303127"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386890590200791110"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386890981688868905"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386893115461337159"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386894294564077650"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386894544460578856"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386897734799196263"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386902551986966528"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386903286640152656"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386905244293795892"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386905623794553005"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386905878929735765"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386906186401448037"
+        }
+      ],
+      "rahuvia-service-and-sanctuary": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386906507458904225"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386906799273283674"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386907647646630082"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386907810310393886"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386909190533943418"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386912618111045663"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386913135864315994"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386913663767679067"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386914376023281764"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386914614788358195"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386917199071150141"
+        }
+      ],
+      "rahuvia-room-location-limits": [
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1275600136021606541",
+          "id": "1275600137682550838"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1275600136021606541",
+          "id": "1275601759993331804"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1275600136021606541",
+          "id": "1275602287779254285"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1275600136021606541",
+          "id": "1275602701681557566"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1275600136021606541",
+          "id": "1275604141300912221"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1275600136021606541",
+          "id": "1275606459622752267"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1275600136021606541",
+          "id": "1275619243588583539"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1320575202509459527",
+          "id": "1320575211065835593"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1320575202509459527",
+          "id": "1320577471577591818"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1320575202509459527",
+          "id": "1320578856645562439"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1320575202509459527",
+          "id": "1320579682235846708"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1320575202509459527",
+          "id": "1320586635372658749"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1320575202509459527",
+          "id": "1320591958434910230"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1320575202509459527",
+          "id": "1320592325394567170"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1320575202509459527",
+          "id": "1320592480151797791"
+        }
+      ]
+    },
+    "pristinia-scroll-library": {
+      "library-a-room-in-quest-records": [
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1215702333837811814"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1215703063730585650"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1215703560067743796"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1215714404960702474"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1261155606073708554"
+        }
+      ],
+      "library-papers-for-newcomers": [
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1553871759927681167"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1553873176868683880"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1553873744621994129"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1553893245530939426"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1553894316865355787"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1553895122226118768"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1553896073859301469"
+        }
+      ],
+      "library-building-a-town": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1522666265930502274"
+        }
+      ],
+      "library-imperfect-records": [
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1215702333837811814"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1320023554468614215"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1320025432179081267"
+        },
+        {
+          "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+          "channel": "1199085090723074068",
+          "id": "1320158245838520391"
+        }
+      ]
+    },
+    "before-survey": {
+      "before-survey-language-and-trust": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487240286638833705"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487245027426959592"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487245669230973091"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487245817185042553"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487246244417110160"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487246384045363251"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487246583711011006"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487246946195472484"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487247532479217727"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487248041856729160"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487248263487688765"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487248888871256267"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487249878420557884"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487250063393685666"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487250187448483861"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487250408614269070"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487250809002524884"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487251027978616883"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487251196992290969"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487251731019600012"
+        }
+      ],
+      "before-survey-scholar-camp": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487269649459576893"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487270099072061552"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487270913438253216"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487271674004115487"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487284213941272669"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487284435266179185"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487293271691624600"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487295036331917322"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487295545021305003"
+        }
+      ]
+    },
+    "arias-tomb": {
+      "arias-tomb-procession": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442254243233796136"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442255138634076252"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442256219338444952"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442256894725980312"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442261147611828235"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442261288335048866"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442261928603815966"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442262193461657703"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442262789296099441"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442263671769403453"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442263946601042052"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442265417413296138"
+        }
+      ],
+      "arias-tomb-recorded-site": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442265417413296138"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442266622969643189"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442266828427497665"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442267192757456926"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442272552947945492"
+        }
+      ],
+      "arias-tomb-farewells": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442268388503322697"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442270847380488272"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442272182217478145"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442272552947945492"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442273192260669460"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442273296946303046"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442273748282773605"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442274677841072169"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442275071107268781"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442275819324964904"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442275957326086386"
+        }
+      ],
+      "arias-tomb-open-record": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442266828427497665"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442267192757456926"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442272552947945492"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442273748282773605"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1442275819324964904"
+        }
+      ]
+    }
+  },
+  "receipts": [
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1215702333837811814",
+      "timestamp": "2024-03-08T16:47:03.044000+00:00",
+      "contentSha256": "fd8766fe54128cf5432fbebf32f463bd9047645207d4b1163dbff56f33c77123",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1215703063730585650",
+      "timestamp": "2024-03-08T16:49:57.064000+00:00",
+      "contentSha256": "3d66570146f4db6566ab3e4816b8334bfd4c99e733fa69ad317ce42cd3a8d406",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1215703560067743796",
+      "timestamp": "2024-03-08T16:51:55.400000+00:00",
+      "contentSha256": "16ad202fb50903d6063a2d28ce8536b1be1b9e40a471dbcf78b0abb81ed31811",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1215714404960702474",
+      "timestamp": "2024-03-08T17:35:01.024000+00:00",
+      "contentSha256": "8400ae2066207ac393562b7a128f5f1c51253a2ec33345f6efc78575d525e52d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1320023554468614215",
+      "timestamp": "2024-12-21T13:42:20.237000+00:00",
+      "contentSha256": "c7dc79d8b7d30fd1b7440ba3f0cebafcf22e67bad4479e57ff7d3b1e3cbd47ec",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1320025432179081267",
+      "timestamp": "2024-12-21T13:49:47.918000+00:00",
+      "contentSha256": "ae46b5abae9afe8f143fcd1fd811fa2a8f203641e50baf924d22f1c2eb946c5f",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1320158245838520391",
+      "timestamp": "2024-12-21T22:37:33.162000+00:00",
+      "contentSha256": "fd40e2eaf69b255a08ddb174705fdf70a6218cb98e4b107f3e19e95610a7e66b",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1553871759927681167",
+      "timestamp": "2026-09-27T20:51:37.108000+00:00",
+      "contentSha256": "85d63728be04c704c910288823cb43ff22f50cd81937d0434bfc0f3a50dba63d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1553873176868683880",
+      "timestamp": "2026-09-27T20:57:14.933000+00:00",
+      "contentSha256": "ba8d0f6a5a21d954926eb9ca2ff051b54d7ff6b126e2f12d4df2738f5f9fdf9b",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1553873744621994129",
+      "timestamp": "2026-09-27T20:59:30.296000+00:00",
+      "contentSha256": "f6d8ce1b7355ade47606a15a5052770b86af90806533e2b12efea78b66bfbe17",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1553893245530939426",
+      "timestamp": "2026-09-27T22:16:59.675000+00:00",
+      "contentSha256": "ad87271e55bf5d4f40c99ff4fd6d99480fd8e334a3244eb6fda39ca7d5c8c3f2",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1553894316865355787",
+      "timestamp": "2026-09-27T22:21:15.101000+00:00",
+      "contentSha256": "d576bb267b155d2709eeaf92fb7293bf2033ea63d86cdb334617322ef4d32dbd",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1553895122226118768",
+      "timestamp": "2026-09-27T22:24:27.114000+00:00",
+      "contentSha256": "deb1c9223f6e9248963380cad427e12797afe619240d41c3470b5d3fa063d8a9",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "channel": "1199085090723074068",
+      "id": "1553896073859301469",
+      "timestamp": "2026-09-27T22:28:14.001000+00:00",
+      "contentSha256": "95c3b37722713c6b92eff7aac624e75eb81719aa6309e54eea6fc21f6941403d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1261155606073708554",
+      "timestamp": "2024-07-11T20:02:07.626-07:00",
+      "contentSha256": "d701325ce94702268c2a1c905294bf0d44efe347a9fde4419cca488aba38e62f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386871394750697584",
+      "timestamp": "2025-06-23T17:51:47.333-07:00",
+      "contentSha256": "97236fb06f3757ba5490579d7ddff815c2ad4d78d80439f5d9b0d4ed0d159d12",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386875920731869195",
+      "timestamp": "2025-06-23T18:09:46.411-07:00",
+      "contentSha256": "600ed42b11ce0208873f4c86a196fe54cc8708db4c39e153673b4ed7b4f4934d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386878565055860768",
+      "timestamp": "2025-06-23T18:20:16.867-07:00",
+      "contentSha256": "606670907a3283696aa98a28dcb7333535f22d3dfb3812a58d618d11659ba342",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386878697579089940",
+      "timestamp": "2025-06-23T18:20:48.463-07:00",
+      "contentSha256": "8fdfd3f69ef5b6964a0d86a8b9ef56841f7a1390659a0adb0fd52bce1b3d2acf",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386878833810214964",
+      "timestamp": "2025-06-23T18:21:20.943-07:00",
+      "contentSha256": "55e41bbc3827e65bdd92a9220699fa0fd9fab1a285b44478b6f1cf72ba3f146d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386886870667104368",
+      "timestamp": "2025-06-23T18:53:17.079-07:00",
+      "contentSha256": "f07b8e23702398bc2de44e866198569d3cabe45106de1b7ed903a21fe4780d66",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386890359346303127",
+      "timestamp": "2025-06-23T19:07:08.845-07:00",
+      "contentSha256": "6a03b7834f17dfbd62ab0e72727d3aef37c392c1fa2636cef7410136e80bb5b5",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386890590200791110",
+      "timestamp": "2025-06-23T19:08:03.885-07:00",
+      "contentSha256": "49d50ebf133e212bc7d9faac7daceaa2a7294800546ba3afccebb1b316bf38f8",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386890981688868905",
+      "timestamp": "2025-06-23T19:09:37.223-07:00",
+      "contentSha256": "6a39d7c66a27c51b084f5dd01b1d566c6d7d38c9b9cac894ed838d6a88c235cc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386893115461337159",
+      "timestamp": "2025-06-23T19:18:05.954-07:00",
+      "contentSha256": "807f8fe10e899966d3bc5c201504379fb8c40c26c9c82f982deb637b6a70c55f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386894294564077650",
+      "timestamp": "2025-06-23T19:22:47.074-07:00",
+      "contentSha256": "40e0fd098a86989208e283339f26b2cc77ab0f9093e38b591df3c5ca99cd702c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386894544460578856",
+      "timestamp": "2025-06-23T19:23:46.654-07:00",
+      "contentSha256": "7f47138c5563301178dcdf6b681037a93f4c9834a1949480a7f6e90fb2e44631",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386897734799196263",
+      "timestamp": "2025-06-23T19:36:27.29-07:00",
+      "contentSha256": "1c9ac5230859d8a394939f9a770e0bd6ff6c66c5fa2e01f8d9fd3c1b858e8fb2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386902551986966528",
+      "timestamp": "2025-06-23T19:55:35.797-07:00",
+      "contentSha256": "d1cbed34ae2766cd9147a130e7ffac9f1312a2ebd1aae5ac4c4b7166b69bf47b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386903286640152656",
+      "timestamp": "2025-06-23T19:58:30.952-07:00",
+      "contentSha256": "a53a7dbc84170a2e359b13ecb30a76896336416982d60558e1b2023a136f8179",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386905244293795892",
+      "timestamp": "2025-06-23T20:06:17.693-07:00",
+      "contentSha256": "7a693c8b624c116439abddfb695d111b120e59d1aa0763cfab3e6f8e559c1c83",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386905623794553005",
+      "timestamp": "2025-06-23T20:07:48.173-07:00",
+      "contentSha256": "7856b81d4efb01eb108939f64382b4e215b6dc6a8af5512dcee54ca6c3840b23",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386905878929735765",
+      "timestamp": "2025-06-23T20:08:49.002-07:00",
+      "contentSha256": "1d2dadf2562061fa408470f012e402f81689867935bdd8f534a12bfe085e239c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386906186401448037",
+      "timestamp": "2025-06-23T20:10:02.309-07:00",
+      "contentSha256": "688202acacbdbd3cf04146a06217dcc72c7f7515168e407cb404ef094bafa026",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386906507458904225",
+      "timestamp": "2025-06-23T20:11:18.855-07:00",
+      "contentSha256": "9fe2ec66f8ee75fa968b283c15d3c82caef203f32ad5eb3a92d858935fa269ed",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386906799273283674",
+      "timestamp": "2025-06-23T20:12:28.429-07:00",
+      "contentSha256": "1479ea41131b5fec87c5739d51db7a5b5affbe521ff698035f9b448152723dca",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386907647646630082",
+      "timestamp": "2025-06-23T20:15:50.697-07:00",
+      "contentSha256": "31190389a56a72a146716ddfbfc43df84671af4a63840e1eff870bc87cfcda14",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386907810310393886",
+      "timestamp": "2025-06-23T20:16:29.479-07:00",
+      "contentSha256": "241a6e425f7fa0502690b789ff64b91764fc7a942ad3aed3856cc1654bd9d0f2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386909190533943418",
+      "timestamp": "2025-06-23T20:21:58.55-07:00",
+      "contentSha256": "7b696b4f35c6204cdbe27fa6d1e861e72f538518d4f9ca5fd1c5ccbfa372f279",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386912618111045663",
+      "timestamp": "2025-06-23T20:35:35.748-07:00",
+      "contentSha256": "85973d8dfa3eefa8cd69502187088dad42cc46622f3f130f2316dbe0a3cca82d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386913135864315994",
+      "timestamp": "2025-06-23T20:37:39.19-07:00",
+      "contentSha256": "47c68ee3194f6aed85073c22e96c8cfae74ccdc3bea593536b8a2a5ccfb5cf5a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386913663767679067",
+      "timestamp": "2025-06-23T20:39:45.052-07:00",
+      "contentSha256": "c3200128efae83109b83aacd2573bfef0145be22aa2dd3f4a6134a8b0d6684fb",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386914376023281764",
+      "timestamp": "2025-06-23T20:42:34.867-07:00",
+      "contentSha256": "d2cd99a654994f89ea89e90159ef83ddbe6480464ef8ff1c239bc478bdbf21fb",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386914614788358195",
+      "timestamp": "2025-06-23T20:43:31.793-07:00",
+      "contentSha256": "59d0b2b15bd0e22e00899206814aa47b75348a3595d36b3c00506aaa1eab946e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386917199071150141",
+      "timestamp": "2025-06-23T20:53:47.934-07:00",
+      "contentSha256": "a88fec74f42e704b9cb03b1e751d0a6a3f9c3f275cfb915f8d85127aee0dea95",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421649621997981799",
+      "timestamp": "2025-09-27T17:08:02.857-07:00",
+      "contentSha256": "a4bee920c7d5feef8fe04857e6517c839fadfa5cdba02e027c046898065ff290",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421653819678396528",
+      "timestamp": "2025-09-27T17:24:43.662-07:00",
+      "contentSha256": "0644e89ed8d3bcd0b03576a4a282f047ce3831342c354438c76b4669c52d4dc3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421657335939469425",
+      "timestamp": "2025-09-27T17:38:42.004-07:00",
+      "contentSha256": "05c445088e17a91383f67758418a14c450e72c783de8763fdd7c5bc2fc91e363",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421657550796882055",
+      "timestamp": "2025-09-27T17:39:33.23-07:00",
+      "contentSha256": "725924485741243038681b53836973dba442577ff58d1014553ceb726444952d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421658455705653356",
+      "timestamp": "2025-09-27T17:43:08.977-07:00",
+      "contentSha256": "56df5854829e9b9e719514203af1079267fb0f03cf82aca5199d3aaa002652ac",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421658608717926450",
+      "timestamp": "2025-09-27T17:43:45.458-07:00",
+      "contentSha256": "9325315eb0e47e2c3388c2abccd04e62e6e9344d69a472a9f112af6d1846f4ee",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421661859714695248",
+      "timestamp": "2025-09-27T17:56:40.556-07:00",
+      "contentSha256": "926bc10b1d3c00e611321d11b5b2767c26371ec8ff64af7758844d69011fcee9",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421662659522199693",
+      "timestamp": "2025-09-27T17:59:51.245-07:00",
+      "contentSha256": "056b2feb3763fb72bc3866761d588e86461490b87c72756494527d64c7bfc0b5",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421662861079609445",
+      "timestamp": "2025-09-27T18:00:39.3-07:00",
+      "contentSha256": "e7aa7349f9199c7311a6466210f62c49e780e08f3459e08412986a2c415235d4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421663985832300574",
+      "timestamp": "2025-09-27T18:05:07.462-07:00",
+      "contentSha256": "3b99d98f4428792e460596c2616d99720d0f87568a327324f18a18fac85944fe",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421664692564267059",
+      "timestamp": "2025-09-27T18:07:55.96-07:00",
+      "contentSha256": "ffc08924f43e0f098bf0bd6ba0958988d9052070352c6e36c26525b90c780824",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421664869069099028",
+      "timestamp": "2025-09-27T18:08:38.042-07:00",
+      "contentSha256": "f3722a201f63d3db1bf1042057964a84244beb746a4edf2843b0225b08124867",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421667239714885704",
+      "timestamp": "2025-09-27T18:18:03.248-07:00",
+      "contentSha256": "8e16c0b131c738c5e46e05303719ecd8098e70248b430ceae1b9d31a249dbc01",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421667820189651115",
+      "timestamp": "2025-09-27T18:20:21.644-07:00",
+      "contentSha256": "d47c725454285d6b37789b2cb4a8f4132fb2bbb0aa46c251d413fa571669b413",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421668173333397701",
+      "timestamp": "2025-09-27T18:21:45.84-07:00",
+      "contentSha256": "b7d501f369490eb3cbc4c681f7e880882756b60ce83aa4ec6194b71e5126b7a8",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421668728164192380",
+      "timestamp": "2025-09-27T18:23:58.122-07:00",
+      "contentSha256": "e2780234206591d6b7799118ddef1cb3fa93a893cd910d1d45ef6fef7bd7aa3e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421669297960386621",
+      "timestamp": "2025-09-27T18:26:13.972-07:00",
+      "contentSha256": "05679eda632158b8dc5096e11fccc289aef2bcc9771f0b939160f5607ca37863",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421670126788411433",
+      "timestamp": "2025-09-27T18:29:31.58-07:00",
+      "contentSha256": "e2fe075bb51757b0e2943b515e38dc37a6d9a43842f3caa8aabbfaeb4581c196",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421671640546152619",
+      "timestamp": "2025-09-27T18:35:32.488-07:00",
+      "contentSha256": "3eb99a25b31759d2bf5533f5c2f340c344bf5cb8b4ea87687e7f9e427896e8cd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421671885719994520",
+      "timestamp": "2025-09-27T18:36:30.942-07:00",
+      "contentSha256": "492c711c19afd6d54c294102a91b77148c24124acd6e2719d2b79851ea68824f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421673716689010688",
+      "timestamp": "2025-09-27T18:43:47.479-07:00",
+      "contentSha256": "3ad160796d7745cd7889f2b1d6cf890de9d18f1d18b918c53e831cb4a60d54c3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421674956927926283",
+      "timestamp": "2025-09-27T18:48:43.175-07:00",
+      "contentSha256": "d58afaafe3b470c993fc116588d8672170af9d0f759e58161dcfdffc487454f3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421675393580011611",
+      "timestamp": "2025-09-27T18:50:27.281-07:00",
+      "contentSha256": "eafcc6a612b10634986ef7232fe905f7d2caab86d813394b0953f8b02fc486c6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421675763853426769",
+      "timestamp": "2025-09-27T18:51:55.561-07:00",
+      "contentSha256": "aa352fe4340a49d3e961c34444e86478d76d00c6ce19af232b7be2a03b2dc788",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421676940653498429",
+      "timestamp": "2025-09-27T18:56:36.132-07:00",
+      "contentSha256": "24925a2eb365f081b1a747484b18a4f716ab002e8767895bff8d014a4efb89be",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421677086879383633",
+      "timestamp": "2025-09-27T18:57:10.995-07:00",
+      "contentSha256": "d768446c3f7f377f5a0d1e9405472b46787b32bc5c83dfb3ecbe1f1fedda0a2f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421677652263047252",
+      "timestamp": "2025-09-27T18:59:25.793-07:00",
+      "contentSha256": "cbfaf2680d8af6a219ef77be9d7b2b942855ae6c502437e7351a4174d1b4ca95",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421677911295135834",
+      "timestamp": "2025-09-27T19:00:27.551-07:00",
+      "contentSha256": "5e59e60cc9a820cb29cf98b3c2fcc385000d37cbcf156d2b2e2771e3b693c4e1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421678776953081960",
+      "timestamp": "2025-09-27T19:03:53.94-07:00",
+      "contentSha256": "9babbf5d17923bd58595978de36934f67be49f4e66ae3178e83feb5a4eb57ea4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1421679403867570197",
+      "timestamp": "2025-09-27T19:06:23.408-07:00",
+      "contentSha256": "1bb873f3b90a5da65c9448adbaf9be223f7f0822e77c9b25baef5d78850df889",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1432062631837171855",
+      "timestamp": "2025-10-26T10:45:37.867-07:00",
+      "contentSha256": "f749808bcb8fc3baf45138b4dccd45366848e40db345132a264b476d40863802",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1432063548204257390",
+      "timestamp": "2025-10-26T10:49:16.346-07:00",
+      "contentSha256": "8bfd19f5cef6a1c5c327a921a956969d08c84ec9e203113122baee428b66fed3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1432063735391977683",
+      "timestamp": "2025-10-26T10:50:00.975-07:00",
+      "contentSha256": "b0c46e99deee02b88e2db0af75939d69fbfed56edfa81ef5b045fe9100ada144",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1432063865595891874",
+      "timestamp": "2025-10-26T10:50:32.018-07:00",
+      "contentSha256": "55b7800c2b5ada5d020d3edd3f4edaa40214684f4e001985455730322d4b8b9e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442226519287009571",
+      "timestamp": "2025-11-23T10:53:17.471-08:00",
+      "contentSha256": "10b8b77a6cae80f68b298f1a51a5adf649683167a9922b10d898bdfee7d32a46",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442227574859239465",
+      "timestamp": "2025-11-23T10:57:29.139-08:00",
+      "contentSha256": "dc2a88603f2273f6f1611e21df5db15e0e3afebde9c0d057269cf717ed28aaca",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442227814345478164",
+      "timestamp": "2025-11-23T10:58:26.237-08:00",
+      "contentSha256": "1d8341c65863ffda90145a7f23742e320f1b5593af80419bd5d490b8e74201f5",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442228141668958320",
+      "timestamp": "2025-11-23T10:59:44.277-08:00",
+      "contentSha256": "8026881ed73b834245bfdcc0575cea7645d990ad390b5ee817582df049d7ea2d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442229370558222449",
+      "timestamp": "2025-11-23T11:04:37.267-08:00",
+      "contentSha256": "387d7019bc68bdd593f57f3657e792fb901e0013fd2194e51f35875a4046590c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442230198081683671",
+      "timestamp": "2025-11-23T11:07:54.564-08:00",
+      "contentSha256": "75bbb0188fe4df4c915b19d8d67e1cc0d18e20e9f6921d37bd4435ac698ebc1d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442235785263841351",
+      "timestamp": "2025-11-23T11:30:06.652-08:00",
+      "contentSha256": "5b25e40c26369965e0032cf3027719e866c457fb95af16dae7ba3258017c38ba",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442236674036732138",
+      "timestamp": "2025-11-23T11:33:38.552-08:00",
+      "contentSha256": "bae60dbbfb3ee6b9a7483618edca6fda414d837762ef306bf7c193f53ef05ff2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442237198249492591",
+      "timestamp": "2025-11-23T11:35:43.534-08:00",
+      "contentSha256": "82e1262e63b8682a14457f8205e7105888def2bbd466aa9962cf4e3e8d18c6ab",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442238275602354268",
+      "timestamp": "2025-11-23T11:40:00.395-08:00",
+      "contentSha256": "5f1d6a6df1cf37717623a68151c9327b3e4f6e9d2571d966bfaabc10d6cc535b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442240412818472960",
+      "timestamp": "2025-11-23T11:48:29.947-08:00",
+      "contentSha256": "825ee6fd8a4140e62ccf39b7279511b53f0ebddce51b0e8c06b9e5fe10d38eb4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442241812340412547",
+      "timestamp": "2025-11-23T11:54:03.619-08:00",
+      "contentSha256": "d0a61259f14d023c4b0e47f2db5b7984366d4311a9a492c58a2aa90b91a389aa",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442242743635283968",
+      "timestamp": "2025-11-23T11:57:45.657-08:00",
+      "contentSha256": "b5defac8a1934fce3990265724bd76a20078b3483eb482bcdad307bad936f998",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442244089612472534",
+      "timestamp": "2025-11-23T12:03:06.563-08:00",
+      "contentSha256": "6bdd4d3a7df16cad158f550c2c28065ff8d43f4e4ecf5a0f0730daa9d5f708a5",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442244301160714330",
+      "timestamp": "2025-11-23T12:03:57-08:00",
+      "contentSha256": "e715c9c514262144861e8c557b00b4435613875666fcc49db52ac0c6383aa177",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442245899526078475",
+      "timestamp": "2025-11-23T12:10:18.08-08:00",
+      "contentSha256": "9dc7a0067de4e3f843b2485bf6c3251c46c829d3c3508c4eccf439297b3b54b9",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442251440172302436",
+      "timestamp": "2025-11-23T12:32:19.073-08:00",
+      "contentSha256": "4e97efa9438b6c1efa780194c3ee8e119d64f92da090f4ab8b68722e3e98a035",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442252192211009629",
+      "timestamp": "2025-11-23T12:35:18.373-08:00",
+      "contentSha256": "ebc690550ebbab8c01f1423f8ed2aed83085d59318bea76690287384597b7b01",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442254243233796136",
+      "timestamp": "2025-11-23T12:43:27.375-08:00",
+      "contentSha256": "e6bb789a217348af14a0aa15c01f66703cd066a95d0d27609514fa5b7201e43b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442254480912416930",
+      "timestamp": "2025-11-23T12:44:24.042-08:00",
+      "contentSha256": "f0e174a2d876e88e2ecea311e7125694688cf30a7f3724b1d05e822ead3973dc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442255138634076252",
+      "timestamp": "2025-11-23T12:47:00.855-08:00",
+      "contentSha256": "3761b29ce2147bbb0d4c0abed6a034344433085cf88a5d2c47661221775a1023",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442256219338444952",
+      "timestamp": "2025-11-23T12:51:18.515-08:00",
+      "contentSha256": "4e839e9015fd99b885ceaa76450e64e77bcbaa17019642565ed3bfd0190fc5f1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442256894725980312",
+      "timestamp": "2025-11-23T12:53:59.54-08:00",
+      "contentSha256": "76af0e6d3e4bd676142e3539091aafbe2a5027452bb5ea4bb923dc3fe945ffdd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442257237937488042",
+      "timestamp": "2025-11-23T12:55:21.368-08:00",
+      "contentSha256": "e0a0a959f3976bd15fc4d008dabff2203f06b8657e2346c2486ddbf9a561f058",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442257280623181834",
+      "timestamp": "2025-11-23T12:55:31.545-08:00",
+      "contentSha256": "009854a688f92ae7ef7571e53d67d2b823d97b88afba8e57b97c9a3fd9cd4d47",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442258065817735208",
+      "timestamp": "2025-11-23T12:58:38.75-08:00",
+      "contentSha256": "c12203d7fffa4bd2257eb8e0b2c3b683f1928f4e5a828518be8b3c1e7f2649d1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442261147611828235",
+      "timestamp": "2025-11-23T13:10:53.507-08:00",
+      "contentSha256": "bf894d7be63d2d4c14eead67c338e7554776db498d710f9462041698b0cd47a8",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442261288335048866",
+      "timestamp": "2025-11-23T13:11:27.058-08:00",
+      "contentSha256": "d1e1f5678d1c88bac326265e9fdb2ea3857150c5fdb02a9c3a1be7650a0ce1a3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442261928603815966",
+      "timestamp": "2025-11-23T13:13:59.71-08:00",
+      "contentSha256": "1aeab31e2e0b24383c6612d6d641b7dca728267aa66d557b4fd535c28681d79a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442262193461657703",
+      "timestamp": "2025-11-23T13:15:02.857-08:00",
+      "contentSha256": "1a04a63356da62aa349ce6f2146c92dc1758fde690bd357ce975a2694964d7b7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442262789296099441",
+      "timestamp": "2025-11-23T13:17:24.915-08:00",
+      "contentSha256": "6a6933ceca3d7c19ba1977ee25b9a251d0831ef12c538a763b455afff4de1843",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442263671769403453",
+      "timestamp": "2025-11-23T13:20:55.313-08:00",
+      "contentSha256": "b4ad1e84fe642287e97b08af225e0ed6b903bcb1f9b587db62bbb9b49a7a0226",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442263946601042052",
+      "timestamp": "2025-11-23T13:22:00.838-08:00",
+      "contentSha256": "83d71dfc16de4724111399fdde08ab6fa496bee6254ccdf25a0fa8f32549fe6b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442265417413296138",
+      "timestamp": "2025-11-23T13:27:51.507-08:00",
+      "contentSha256": "2aea75117ce5179fab3f40bde9a853b0ccb6f992ec3f132dc0a1d37026dc49de",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442266622969643189",
+      "timestamp": "2025-11-23T13:32:38.934-08:00",
+      "contentSha256": "8f6795d64cbf5423e80723f4adf3d91ad1570a2bdd463c3b9cd6d2db5c9dcfb2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442266828427497665",
+      "timestamp": "2025-11-23T13:33:27.919-08:00",
+      "contentSha256": "a8726f678ddc81a5e1ad79b61849a99846b8f59f45df9007181437adb56b5329",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442267192757456926",
+      "timestamp": "2025-11-23T13:34:54.782-08:00",
+      "contentSha256": "762a7f5c14cf2b4e2193827d16713dbe9cf944858b187f103b8c710d0fbe8c42",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442268388503322697",
+      "timestamp": "2025-11-23T13:39:39.87-08:00",
+      "contentSha256": "55a9a93641370508b8017d9b34d1399cd6ea70ec3c9ae6a7471d2e5a6dd658b2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442270847380488272",
+      "timestamp": "2025-11-23T13:49:26.112-08:00",
+      "contentSha256": "2056178116d4172db8e2bdbd881799905d95f8eb31ed76bd8449a3623697e8a7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442272182217478145",
+      "timestamp": "2025-11-23T13:54:44.362-08:00",
+      "contentSha256": "23d1e4bb3a069787acffb811880f2dd92b0ab13ba13754f75dd56de01c887bfc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442272552947945492",
+      "timestamp": "2025-11-23T13:56:12.751-08:00",
+      "contentSha256": "209632a7fac1e39436fc2d1417bf33c9badfa0011d07022e7c80efcdb7f13834",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442273192260669460",
+      "timestamp": "2025-11-23T13:58:45.175-08:00",
+      "contentSha256": "cd860262e959207bb41fc55d526cf776e2dba9d67c3aaf8b55104e91c7459281",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442273296946303046",
+      "timestamp": "2025-11-23T13:59:10.134-08:00",
+      "contentSha256": "79e0dfb8342d82c65b869f33e6579831fe5494a5c42f4c1abe8d50f74147d8b1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442273748282773605",
+      "timestamp": "2025-11-23T14:00:57.741-08:00",
+      "contentSha256": "b7fa8df6f92aef73d0d8925a8a77dba6bdbbf41d97aea4916c37f08e3ddfccc8",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442274677841072169",
+      "timestamp": "2025-11-23T14:04:39.365-08:00",
+      "contentSha256": "15f93d78c232a1989ca3cf3ef259fdb8c29204027dd356e174d0904172fe1b95",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442275071107268781",
+      "timestamp": "2025-11-23T14:06:13.127-08:00",
+      "contentSha256": "027ed54bbc6cd30cc0280d52d6294aae83a7bd825d65907f2d9095cac63ca98e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442275819324964904",
+      "timestamp": "2025-11-23T14:09:11.516-08:00",
+      "contentSha256": "324be23131e60ad141b3e25c3243f2fbd4870fb388ec3bb955144395fb856f18",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1442275957326086386",
+      "timestamp": "2025-11-23T14:09:44.418-08:00",
+      "contentSha256": "d17d8b287e02093d8c735a931a542d29d53bbed01a5ca088b11356d80e98a326",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487240286638833705",
+      "timestamp": "2026-03-27T17:01:55.923-07:00",
+      "contentSha256": "e1c002a13253db07d8ac1ceeb87417a26153f8bf3c445052ae5c1ddd9350b0b7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487245027426959592",
+      "timestamp": "2026-03-27T17:20:46.215-07:00",
+      "contentSha256": "83bc12624a657a4e8c0d84967212161ebbc88d6e0f33698db1826e4eecc846c6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487245669230973091",
+      "timestamp": "2026-03-27T17:23:19.233-07:00",
+      "contentSha256": "55217171e95f3d67dad8b43138baf3deb4d0802faa0180b3f9b8132022a2c306",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487245817185042553",
+      "timestamp": "2026-03-27T17:23:54.508-07:00",
+      "contentSha256": "1c983a968a9a87e730ff35d8f4db76e209733f4c78927e5328be4909d04d1368",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487246244417110160",
+      "timestamp": "2026-03-27T17:25:36.368-07:00",
+      "contentSha256": "cbc48d01349449599f19596b3fd5a3e7e81cc2c7e1f242600d6e1c0fadb8fe38",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487246384045363251",
+      "timestamp": "2026-03-27T17:26:09.658-07:00",
+      "contentSha256": "c7b35797af4ab7f01858ec0450a5c87935984e58df1691eaaba80ed0ac17131f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487246583711011006",
+      "timestamp": "2026-03-27T17:26:57.262-07:00",
+      "contentSha256": "e49aeb71a3ebee5690fa0bd82469cd1e9a93fafcec3a172e60c050f940440f84",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487246946195472484",
+      "timestamp": "2026-03-27T17:28:23.685-07:00",
+      "contentSha256": "cb673324e1e78178be25d6a2abba1e0081d4331afa9ccdad7cf8b7f09aa48ad2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487247532479217727",
+      "timestamp": "2026-03-27T17:30:43.466-07:00",
+      "contentSha256": "bab0c9c8373682ce43ae89d011f6e59c91027324831d52b8381b63168ff80f95",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487248041856729160",
+      "timestamp": "2026-03-27T17:32:44.911-07:00",
+      "contentSha256": "3cbade69f42eeeb01cdf885fc25af0433850e69578aebc85a933043cdbe7d8ed",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487248263487688765",
+      "timestamp": "2026-03-27T17:33:37.752-07:00",
+      "contentSha256": "fd2622dbb5f3d85e37a583c0689ebd255c99e60ab584c21447e156e431bccfbb",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487248888871256267",
+      "timestamp": "2026-03-27T17:36:06.855-07:00",
+      "contentSha256": "578fbad998ab6c317a144bf2eb68d2fe0ba06092d80f53398c1e4b866edf170c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487249878420557884",
+      "timestamp": "2026-03-27T17:40:02.782-07:00",
+      "contentSha256": "20a40de784c3e7aeb58abdc30c63e3511ded45ff50d0a70363dbac115fc00787",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487250063393685666",
+      "timestamp": "2026-03-27T17:40:46.883-07:00",
+      "contentSha256": "20721724b0535fbd5b50ea253f557178b5b622e161c8d86c4ed63cac7e0da443",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487250187448483861",
+      "timestamp": "2026-03-27T17:41:16.46-07:00",
+      "contentSha256": "45940aa18b0ff05b2663f1414fa3a8ff281546dec22f312274bc90af66d1c43a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487250408614269070",
+      "timestamp": "2026-03-27T17:42:09.19-07:00",
+      "contentSha256": "79c0d631178a76ca4d77a8e47418eafead9fc9fd11f3b4edc3dcd572fa936779",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487250809002524884",
+      "timestamp": "2026-03-27T17:43:44.65-07:00",
+      "contentSha256": "325b8e9db4c6f67d6c22ef04fc47c8f248ad1485ce7638f164f5236bf7e74a99",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487251027978616883",
+      "timestamp": "2026-03-27T17:44:36.858-07:00",
+      "contentSha256": "5877b12e2f7d8e734fc1264a6eb88cd3e1e9a11b0043044a8721c42582d53adb",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487251196992290969",
+      "timestamp": "2026-03-27T17:45:17.154-07:00",
+      "contentSha256": "3f943a0f0406dadb506fdde809623426e5ab14d7e50ad1c2b9163df26ca92cc8",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487251731019600012",
+      "timestamp": "2026-03-27T17:47:24.476-07:00",
+      "contentSha256": "05d308f5a7695ce8caecae5504e1ce8f75ec12f2243fa966fbd63b72e8b803b7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487269649459576893",
+      "timestamp": "2026-03-27T18:58:36.565-07:00",
+      "contentSha256": "1fefe229429007efdf2eeea6b55d550a5a4382bafa850bf33a7333b268535ccf",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487270099072061552",
+      "timestamp": "2026-03-27T19:00:23.761-07:00",
+      "contentSha256": "749569cff12f1289a416ca138524b6aeb76e8f6d8bf13718dd0115ca3751490d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487270913438253216",
+      "timestamp": "2026-03-27T19:03:37.921-07:00",
+      "contentSha256": "b4d3ac18aee562e8d2fcec48c52dd48a48599135fa7bd805aeb78d7bf37d8425",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487271674004115487",
+      "timestamp": "2026-03-27T19:06:39.254-07:00",
+      "contentSha256": "7152b6ad769426388ce342d51296c2070e8aeca03eebe6694b05cda698764845",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487284213941272669",
+      "timestamp": "2026-03-27T19:56:29.008-07:00",
+      "contentSha256": "50a9d4e4882bd46f21af31919f4c65491102fb34d0abd6caea51aa4aac831350",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487284435266179185",
+      "timestamp": "2026-03-27T19:57:21.776-07:00",
+      "contentSha256": "152209ae6e6b6183ccf7b8ef052ab4d7ad5038da72d94346a4207ac98480db2d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487293271691624600",
+      "timestamp": "2026-03-27T20:32:28.544-07:00",
+      "contentSha256": "9af5be351c1fc8c7e4682ef9fef7cf25200d38b484160959d2dd32a696f81d0b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487295036331917322",
+      "timestamp": "2026-03-27T20:39:29.267-07:00",
+      "contentSha256": "c21bbf5a11f3a253087c216d33fb396bb0c429421e42910c4b8404ea0327326d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487295545021305003",
+      "timestamp": "2026-03-27T20:41:30.548-07:00",
+      "contentSha256": "794b7bb52ae696ec26d9ca2ae55f6a58d6ba6dfea61ee6ac2c95a1bcb5890628",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1522666265930502274",
+      "timestamp": "2026-07-03T11:12:07.569-07:00",
+      "contentSha256": "1a9d2862ce2b5d8be945ad3fe70e024775c2ecd561f8aeb34c740d42e54657b6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1275600136021606541",
+      "id": "1275600137682550838",
+      "timestamp": "2024-08-20T23:39:32.328000+00:00",
+      "contentSha256": "80cc3e3fd46abbddfd22c33d52975e66d508e8846b8a40764840a76026582310",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1275600136021606541",
+      "id": "1275601759993331804",
+      "timestamp": "2024-08-20T23:45:59.117000+00:00",
+      "contentSha256": "28209aae421cefa655fd52f7fdaeb1f520336eb9a11535d1f37eece8e7e8aa38",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1275600136021606541",
+      "id": "1275602287779254285",
+      "timestamp": "2024-08-20T23:48:04.951000+00:00",
+      "contentSha256": "70dafaeab6515aadb084b4da1ed38ebb085edae5adac4b2b714202f694b86120",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1275600136021606541",
+      "id": "1275602701681557566",
+      "timestamp": "2024-08-20T23:49:43.633000+00:00",
+      "contentSha256": "6ad0fc2a3f9f63d9d7630c3d66ed75b8848bb12b418918b74b6ac423213bfba7",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1275600136021606541",
+      "id": "1275604141300912221",
+      "timestamp": "2024-08-20T23:55:26.865000+00:00",
+      "contentSha256": "45891f5b869d42110dbe17f04ac314d108918fdc94107e19b7028af4c94640cb",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1275600136021606541",
+      "id": "1275606459622752267",
+      "timestamp": "2024-08-21T00:04:39.596000+00:00",
+      "contentSha256": "43f5f0daa487e7d535fdf7c65b8fcbf15cfc4cab53f5c339fd9fab0b54624a8d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1275600136021606541",
+      "id": "1275619243588583539",
+      "timestamp": "2024-08-21T00:55:27.531000+00:00",
+      "contentSha256": "0202df59f01c09e9bfd2660eff01bc2cb493275ba7aaee1ca105e8ef975ce6de",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1320575202509459527",
+      "id": "1320575211065835593",
+      "timestamp": "2024-12-23T02:14:25.419000+00:00",
+      "contentSha256": "d21c9e91ee2bd6ca2278671d947f60f2f4e775cc2e5227da5e7aea752963b613",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1320575202509459527",
+      "id": "1320577471577591818",
+      "timestamp": "2024-12-23T02:23:24.367000+00:00",
+      "contentSha256": "df780605f41ac415a6e6c909713f7ac04a6cc1be7bdb97655fa3b5418f916dca",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1320575202509459527",
+      "id": "1320578856645562439",
+      "timestamp": "2024-12-23T02:28:54.593000+00:00",
+      "contentSha256": "d21e68803a3796ebace872b3695ced87d891866f176388dfed68f9dc2f781543",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1320575202509459527",
+      "id": "1320579682235846708",
+      "timestamp": "2024-12-23T02:32:11.429000+00:00",
+      "contentSha256": "be332f17d687d698ab1efda91dbf025ff68fe77a26b71bdf5be188514966d499",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1320575202509459527",
+      "id": "1320586635372658749",
+      "timestamp": "2024-12-23T02:59:49.186000+00:00",
+      "contentSha256": "0ce5e6cc7c662ab32d684d346f839800b5776dfbd01c62e30627c3d20d32847c",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1320575202509459527",
+      "id": "1320591958434910230",
+      "timestamp": "2024-12-23T03:20:58.303000+00:00",
+      "contentSha256": "0e6515eb3d4ddc3a4dc6850da58ecb52758ed75cc241dd029f22ca23571d9e93",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1320575202509459527",
+      "id": "1320592325394567170",
+      "timestamp": "2024-12-23T03:22:25.793000+00:00",
+      "contentSha256": "439be6152d11de65c84682f11dd2294197468185208e2412e251a040fad87703",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1320575202509459527",
+      "id": "1320592480151797791",
+      "timestamp": "2024-12-23T03:23:02.690000+00:00",
+      "contentSha256": "3e0c9fe9fc1d3136e34808502d614b3f3966d17c54e21384399eb4c311e4701f",
+      "versionKind": "native API cache"
+    }
+  ],
+  "timelineDeltas": {
+    "Pilgrims enter Ciaránach by the Holy Road": {
+      "before": {
+        "title": "Pilgrims enter Ciaránach by the Holy Road",
+        "meta": "27 Sep 2025",
+        "sort": "2025-09-27",
+        "era": "2025 · Wider shores",
+        "kind": "Pilgrimage and cultural encounter",
+        "article": "ciaranach",
+        "location": "Zarathis; Holy Road; Ciaránach",
+        "people": "Elenia; Olokun; Scribonia; Eugene; Captain Haelith",
+        "tags": [
+          "pilgrimage",
+          "Golden Ones",
+          "identity"
+        ],
+        "summary": "Travelers pass from Zarathis through orchard valleys and high mountains into the white-and-gold city above the clouds, where Captain Haelith and the Golden Ones preserve a yearly lesson in identity.",
+        "importance": 3,
+        "importanceReason": "A pilgrimage reveals the regional religious and civic order around Ciaránach.",
+        "regions": [
+          "fein-uaill"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2025-09-27",
+            "end": "2025-09-27",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 573,
+            "end": 573,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        }
+      },
+      "after": {
+        "title": "Pilgrims enter Ciaránach by the Holy Road",
+        "meta": "27 Sep 2025",
+        "sort": "2025-09-27",
+        "era": "2025 · Wider shores",
+        "kind": "Pilgrimage and cultural encounter",
+        "article": "ciaranach",
+        "location": "Zarathis; Holy Road; Ciaránach",
+        "people": "Elenia; Olokun; Scribonia; Eugene; Captain Haelith",
+        "tags": [
+          "pilgrimage",
+          "Golden Ones",
+          "identity"
+        ],
+        "summary": "Travelers pass from Zarathis through orchard valleys and high mountains into the white-and-gold city above the clouds, where Captain Haelith and the Golden Ones preserve a yearly lesson in identity.",
+        "importance": 3,
+        "importanceReason": "A pilgrimage reveals the regional religious and civic order around Ciaránach.",
+        "regions": [
+          "fein-uaill"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day. The date records the quest opening. The narrated route includes a night on the mountain and a further ascent at dawn; it is not a one-hour journey. A second posting date or exact hour of entry is not inferred.",
+          "postingWindow": {
+            "start": "2025-09-27",
+            "end": "2025-09-27",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 573,
+            "end": 573,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421649621997981799",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421662659522199693",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421667239714885704",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421668173333397701",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421668728164192380",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421671640546152619",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1421677652263047252"
+        ]
+      }
+    },
+    "Wherever We Are Now begins The Before survey": {
+      "before": {
+        "title": "Wherever We Are Now begins The Before survey",
+        "meta": "27 Mar 2026",
+        "sort": "2026-03-27",
+        "era": "2026 · Renewed expeditions",
+        "kind": "Joint survey",
+        "article": "before-survey",
+        "location": "The Before; Prima",
+        "people": "Thorn; Camilla; Lady Severina; Saoirse; Miri",
+        "tags": [
+          "Pristinia",
+          "Rahu",
+          "Delerium",
+          "stirges"
+        ],
+        "summary": "A survey required by a Pristinia–Rahu peace agreement finds glowing briars, Delerium haze, an eighty-foot sinkhole, worked ruins, purple dust, and a stirge swarm before the party withdraws to camp.",
+        "importance": 3,
+        "importanceReason": "A survey or jurisdiction warning concerns the regional problem posed by The Before.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2026-03-27",
+            "end": "2026-03-27",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 754,
+            "end": 754,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        }
+      },
+      "after": {
+        "title": "Wherever We Are Now begins The Before survey",
+        "meta": "27 Mar 2026",
+        "sort": "2026-03-27",
+        "era": "2026 · Renewed expeditions",
+        "kind": "Joint survey",
+        "article": "before-survey",
+        "location": "Pristinia outskirts; known sinkhole entrance to The Before; Prima",
+        "people": "Thorn; Camilla; Lady Severina; Saoirse; Miri",
+        "tags": [
+          "Pristinia",
+          "Rahu",
+          "Delerium",
+          "stirges"
+        ],
+        "summary": "A survey required by a Pristinia–Rahu peace agreement finds glowing briars, Delerium haze, an eighty-foot sinkhole, worked ruins, purple dust, and a stirge swarm before the party withdraws to camp.",
+        "importance": 3,
+        "importanceReason": "A survey or jurisdiction warning concerns the regional problem posed by The Before.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2026-03-27",
+            "end": "2026-03-27",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 754,
+            "end": 754,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487240286638833705",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487245027426959592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487252476087369760",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487260292680388778",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487263553382518864",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487295036331917322",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1487295545021305003"
+        ]
+      }
+    },
+    "Ephraith negotiates the Rahu peace accord": {
+      "before": {
+        "title": "Ephraith negotiates the Rahu peace accord",
+        "meta": "23–24 Jun 2025",
+        "sort": "2025-06-24e",
+        "era": "2025 · Truth and authority",
+        "kind": "Peace and reciprocal obligations",
+        "article": "ephraith",
+        "location": "Prima; Rahu peace parlay",
+        "people": "Ephraith; Eugene; Olokun; St. Anky; Coralyn; Fulmin; Nuru",
+        "tags": [
+          "Rahu",
+          "peace",
+          "Ahau"
+        ],
+        "summary": "Genuine repentance and practical terms move the parlay toward agreement before Nuru’s intervention. Ephraith accepts cessation of conflict, Ahau nonaggression, access concessions, and a formal accord backed by explicit words.",
+        "importance": 3,
+        "importanceReason": "Negotiation, access and commemoration change relations between Prima’s major powers.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2025-06-23",
+            "end": "2025-06-24",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 477,
+            "end": 478,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        }
+      },
+      "after": {
+        "title": "Ephraith negotiates the Rahu peace accord",
+        "meta": "23–24 Jun 2025",
+        "sort": "2025-06-24e",
+        "era": "2025 · Truth and authority",
+        "kind": "Peace and reciprocal obligations",
+        "article": "rahuvia",
+        "location": "Rahuvia; Queen’s retreat; Prima",
+        "people": "Ephraith; Eugene; Olokun; St. Anky; Coralyn; Fulmin; Nuru",
+        "tags": [
+          "Rahu",
+          "peace",
+          "Ahau"
+        ],
+        "summary": "Genuine repentance and practical terms move the parlay toward agreement before Nuru’s intervention. Ephraith accepts cessation of conflict, Ahau nonaggression, access concessions, and a formal accord backed by explicit words.",
+        "importance": 3,
+        "importanceReason": "Negotiation, access and commemoration change relations between Prima’s major powers.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2025-06-23",
+            "end": "2025-06-24",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 477,
+            "end": 478,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386905878929735765",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386906186401448037",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386912618111045663",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386914376023281764",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1386917199071150141"
+        ]
+      }
+    },
+    "Bowene mourns Aria and demands that Talan pay": {
+      "before": {
+        "title": "Bowene mourns Aria and demands that Talan pay",
+        "meta": "23 Nov 2025",
+        "sort": "2025-11-23",
+        "era": "2025 · Truth and authority",
+        "kind": "Public mourning",
+        "article": "bowene",
+        "people": "High Lord Bowene; Aria; Talan",
+        "location": "Zarathis; Fein Uaill",
+        "summary": "At Aria’s funeral, Bowene calls her the best of the Zarathians and demands punishment for Talan. His later reflection does not erase this starting point in grief and anger.",
+        "tags": [
+          "Bowene",
+          "Public mourning"
+        ],
+        "importance": 3,
+        "importanceReason": "Changes regional political proceedings, public authority or the treatment of Aria’s legacy.",
+        "regions": [
+          "fein-uaill"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2025-11-23",
+            "end": "2025-11-23",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 630,
+            "end": 630,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        }
+      },
+      "after": {
+        "title": "Bowene mourns Aria and demands that Talan pay",
+        "meta": "23 Nov 2025",
+        "sort": "2025-11-23",
+        "era": "2025 · Truth and authority",
+        "kind": "Public mourning",
+        "article": "arias-tomb",
+        "people": "High Lord Bowene; Aria; Talan",
+        "location": "Zarathis procession; Tomb of Heroes in Seraphis, outside Ciaránach; Fein Uaill",
+        "summary": "At Aria’s funeral, Bowene calls her the best of the Zarathians and demands punishment for Talan. His later reflection does not erase this starting point in grief and anger.",
+        "tags": [
+          "Bowene",
+          "Public mourning"
+        ],
+        "importance": 3,
+        "importanceReason": "Changes regional political proceedings, public authority or the treatment of Aria’s legacy.",
+        "regions": [
+          "fein-uaill"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "This is a recorded source or archive date. Final War numbering follows elapsed posting dates under the owner’s calendar convention; clear quest continuations can retain their established day.",
+          "postingWindow": {
+            "start": "2025-11-23",
+            "end": "2025-11-23",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 630,
+            "end": 630,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442262193461657703",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442265417413296138",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442266828427497665",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442267192757456926",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442270847380488272",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442272552947945492",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442273748282773605",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1442275819324964904"
+        ]
+      }
+    }
+  },
+  "locationIndexDeltas": {
+    "19": {
+      "index": 19,
+      "before": {
+        "title": "The Before Survey Entrance",
+        "region": "Prima",
+        "parent": "The Before",
+        "type": "changed ruin entrance",
+        "meta": "Prima › The Before · survey entrance",
+        "article": "before-survey",
+        "summary": "A once-known entrance found behind purple-glowing briars and an eighty-foot sinkhole during the 27 March 2026 peace-agreement survey.",
+        "source": "Complete quest-rp export · 27 Mar 2026",
+        "aliases": [
+          "Briar Entrance",
+          "The Before Sinkhole"
+        ],
+        "level": "site",
+        "image": "assets/locations/the-before-ruins.png",
+        "video": "assets/locations/the-before.mp4"
+      },
+      "after": {
+        "title": "The Before Survey Entrance",
+        "region": "Prima",
+        "parent": "The Before",
+        "type": "changed ruin entrance",
+        "meta": "Prima › The Before · survey entrance",
+        "article": "before-survey",
+        "summary": "The treaty-backed company finds its familiar approach changed: glowing briars conceal the eighty-foot sinkhole into the ruins.",
+        "source": "Complete quest-rp export · 27 Mar 2026",
+        "aliases": [
+          "Briar Entrance",
+          "The Before Sinkhole"
+        ],
+        "level": "site",
+        "image": "assets/locations/the-before-ruins.png",
+        "video": "assets/locations/the-before.mp4"
+      }
+    },
+    "20": {
+      "index": 20,
+      "before": {
+        "title": "The Before Survey Caverns",
+        "region": "Prima",
+        "parent": "The Before",
+        "type": "underground ruins",
+        "meta": "Prima › The Before · underground ruins",
+        "article": "before-survey",
+        "summary": "Worked-stone caverns containing a ruined fountain, broken arch, skeletons, purple dust, branching passages, and a stirge swarm.",
+        "source": "Complete quest-rp export · 27 Mar 2026",
+        "aliases": [
+          "Survey Caverns",
+          "Ruins Beneath The Before"
+        ],
+        "level": "site"
+      },
+      "after": {
+        "title": "The Before Survey Caverns",
+        "region": "Prima",
+        "parent": "The Before",
+        "type": "underground ruins",
+        "meta": "Prima › The Before · underground ruins",
+        "article": "before-survey",
+        "summary": "Worked stone, a ruined fountain and a crumbling statue lead toward the stirge-filled passage; the survey retreats behind the scholars’ fabric barrier.",
+        "source": "Complete quest-rp export · 27 Mar 2026",
+        "aliases": [
+          "Survey Caverns",
+          "Ruins Beneath The Before"
+        ],
+        "level": "site"
+      }
+    },
+    "31": {
+      "index": 31,
+      "before": {
+        "title": "Pristinia Scroll Library",
+        "region": "Prima",
+        "parent": "Pristinia",
+        "type": "Library · research commons and civic archive",
+        "meta": "Prima › Pristinia · library",
+        "article": "pristinia-scroll-library",
+        "summary": "A modest local collection grown through repeated research, shared spells, teaching and civic record-keeping, with gaps that research cannot wish away.",
+        "source": "Settlement map and supplied housing/library history",
+        "aliases": [
+          "Scroll Library"
+        ],
+        "level": "site"
+      },
+      "after": {
+        "title": "Pristinia Scroll Library",
+        "region": "Prima",
+        "parent": "Pristinia",
+        "type": "Library · research commons and civic archive",
+        "meta": "Prima › Pristinia · library",
+        "article": "pristinia-scroll-library",
+        "summary": "A modest collection grows through shared books, civic research and newcomers following clues through spell references and old newspapers.",
+        "source": "Settlement map and supplied housing/library history",
+        "aliases": [
+          "Scroll Library"
+        ],
+        "level": "site"
+      }
+    },
+    "64": {
+      "index": 64,
+      "before": {
+        "title": "Caisleán na Brón",
+        "region": "Fein Uaill",
+        "parent": "Fein Uaill",
+        "type": "fortified place",
+        "meta": "Fein Uaill · adventurers’ stronghold and refuge",
+        "article": "caislean-na-bron",
+        "summary": "A fortified home whose rooms hold political planning, Aria’s legacy, visiting delegations, old enemies, and the quieter work of shelter.",
+        "source": "Regional map + castle chronicle",
+        "aliases": [
+          "Caselean De Broin",
+          "Caislean na Bron",
+          "Caisleán De Bróin",
+          "Caisleán na Bróin"
+        ],
+        "level": "site"
+      },
+      "after": {
+        "title": "Caisleán na Brón",
+        "region": "Fein Uaill",
+        "parent": "Fein Uaill",
+        "type": "fortified place",
+        "meta": "Fein Uaill · adventurers’ stronghold and refuge",
+        "article": "caislean-na-bron",
+        "summary": "The company’s home, offered among vineyards, later receives Aria’s preserved body and a grieving delegation before the funeral procession leaves.",
+        "source": "Regional map + castle chronicle",
+        "aliases": [
+          "Caselean De Broin",
+          "Caislean na Bron",
+          "Caisleán De Bróin",
+          "Caisleán na Bróin"
+        ],
+        "level": "site"
+      }
+    },
+    "65": {
+      "index": 65,
+      "before": {
+        "title": "Ciaránach",
+        "region": "Fein Uaill",
+        "parent": "Fein Uaill",
+        "type": "sacred city",
+        "meta": "Fein Uaill · sacred city",
+        "article": "ciaranach",
+        "summary": "A sacred city whose visual identity now includes the wider settlement and a temple within it.",
+        "source": "Regional chronicle + user-supplied moving records",
+        "aliases": [
+          "Ciaranach"
+        ],
+        "video": "ciaranach.mp4",
+        "level": "settlement",
+        "image": "assets/locations/discord/4f89eec1ef0b78129b2bd9c721090f03ef3f915ad2e4b98737a7c6bb7707c22e.webp",
+        "imageCaption": "The two-message Ciaránach post opens with this GIF and its name; this is the post’s setting reference, not a source for additional architecture or history."
+      },
+      "after": {
+        "title": "Ciaránach",
+        "region": "Fein Uaill",
+        "parent": "Fein Uaill",
+        "type": "sacred city",
+        "meta": "Fein Uaill · sacred city",
+        "article": "ciaranach",
+        "summary": "A night on the holy road precedes the mountain city’s golden threshold, guarded knowledge and counsel carried back into public life.",
+        "source": "Regional chronicle + user-supplied moving records",
+        "aliases": [
+          "Ciaranach"
+        ],
+        "video": "ciaranach.mp4",
+        "level": "settlement",
+        "image": "assets/locations/discord/4f89eec1ef0b78129b2bd9c721090f03ef3f915ad2e4b98737a7c6bb7707c22e.webp",
+        "imageCaption": "The two-message Ciaránach post opens with this GIF and its name; this is the post’s setting reference, not a source for additional architecture or history."
+      }
+    },
+    "66": {
+      "index": 66,
+      "before": {
+        "title": "Holy Road to Ciaránach",
+        "region": "Fein Uaill",
+        "parent": "Ciaránach",
+        "type": "pilgrimage route",
+        "meta": "Fein Uaill › Ciaránach · pilgrimage route",
+        "article": "ciaranach",
+        "summary": "A permission-bound route from Zarathis through orchards and high mountains, used for the yearly lesson and the approach to the Golden Ones.",
+        "source": "Complete quest-rp export · 27 Sep 2025",
+        "aliases": [
+          "Holy Road",
+          "Road to Ciaranach"
+        ],
+        "level": "site"
+      },
+      "after": {
+        "title": "Holy Road to Ciaránach",
+        "region": "Fein Uaill",
+        "parent": "Ciaránach",
+        "type": "pilgrimage route",
+        "meta": "Fein Uaill › Ciaránach · pilgrimage route",
+        "article": "ciaranach",
+        "summary": "The permission-bound pilgrimage road from Zarathis climbs through orchards and mountain snow, with a night’s halt before the final ascent to Ciaránach.",
+        "source": "Complete quest-rp export · 27 Sep 2025",
+        "aliases": [
+          "Holy Road",
+          "Road to Ciaranach"
+        ],
+        "level": "site"
+      }
+    },
+    "74": {
+      "index": 74,
+      "before": {
+        "title": "Aria’s Tomb",
+        "region": "Fein Uaill",
+        "parent": "Fein Uaill",
+        "type": "tomb",
+        "meta": "Fein Uaill · tomb",
+        "article": "arias-tomb",
+        "summary": "Aria’s tomb lies in Fein Uaill proper; the regional record corrects the assumption that it is inside Ciaránach.",
+        "source": "Regional record + moving visual",
+        "aliases": [
+          "Aria's Tomb"
+        ],
+        "video": "assets/archive/arias-tomb.mp4",
+        "level": "site"
+      },
+      "after": {
+        "title": "Aria’s Tomb",
+        "region": "Fein Uaill",
+        "parent": "Fein Uaill",
+        "type": "tomb",
+        "meta": "Fein Uaill · Tomb of Heroes, outside Ciaránach",
+        "article": "arias-tomb",
+        "summary": "The Tomb of Heroes in Seraphis, just outside Ciaránach: Aria’s casket is carried in after the procession and public farewells.",
+        "source": "Regional record + moving visual",
+        "aliases": [
+          "Aria's Tomb",
+          "Tomb of Heroes",
+          "Aria burial"
+        ],
+        "video": "assets/archive/arias-tomb.mp4",
+        "level": "site"
+      }
+    },
+    "90": {
+      "index": 90,
+      "before": {
+        "title": "Rahuvia",
+        "region": "Prima",
+        "parent": "Prima",
+        "type": "Rahu capital and sacred political center",
+        "meta": "Prima · walled Rahu capital",
+        "article": "rahuvia",
+        "summary": "A walled valley capital of cherry blossoms, guarded knowledge, sacred thresholds, and the June 2025 peace accord.",
+        "source": "Rahuvia_Rahu_Capital_Location_and_History.md",
+        "aliases": [
+          "Rahu capital",
+          "Rahuvian capital"
+        ],
+        "level": "settlement"
+      },
+      "after": {
+        "title": "Rahuvia",
+        "region": "Prima",
+        "parent": "Prima",
+        "type": "Rahu capital and sacred political center",
+        "meta": "Prima · walled Rahu capital",
+        "article": "rahuvia",
+        "summary": "The guarded capital reached after the valley journey: hospitality, a sacred audience and the obligations of peace belong to specific places within its walls.",
+        "source": "Rahuvia_Rahu_Capital_Location_and_History.md",
+        "aliases": [
+          "Rahu capital",
+          "Rahuvian capital"
+        ],
+        "level": "settlement"
+      }
+    }
+  },
+  "breadcrumbDeltas": {
+    "arias-tomb": {
+      "before": [
+        "Locations",
+        "Fein Uaill",
+        "Aria’s Tomb"
+      ],
+      "after": [
+        "Locations",
+        "Fein Uaill",
+        "Aria’s Tomb"
+      ]
+    }
+  },
+  "editorialLimits": [
+    "Explicit user canon and established quest narration/outcomes govern. Character statements remain attributed; older unchanged histories retain their earlier review scope.",
+    "Discovery and exported working windows are not exhaustive archive reading. The 172 cited versions, not every cached message, are verified. Original payload timestamps and distinct API/export versions remain exact.",
+    "The Holy Road pilgrimage includes a night in the snow before dawn and another hour of ascent. The recorded opening date is not evidence that the complete narrated journey occurred without a night. No unsupported new posting day is invented.",
+    "A request for mental openness permits a visitor to keep his mind private. The city approach does not disclose private inner revelations, the keepers’ hidden nature or ancient origins.",
+    "The November castle quest names Caselean; the earlier unnamed castle remains a qualified association. The narrator corrects the specific meteor allegation, not every accusation. Bowene rejects the exile proposal at this hearing; the later December exile remains a separate outcome.",
+    "The Tomb of Heroes stands in Seraphis outside Ciaránach. The procession begins at the castle, passes Zarathis and takes hours. A closing silence seems a night but is explicitly one hour; it does not add a new calendar day.",
+    "Rahuvia’s journey distinguishes a presumed border, road, overnight escort, pond, gates, valley and capital. The Queen’s negotiation and sanctuary are bounded events, not blanket immunity. Yoshida’s workshop and Cecil/Talon’s embassy pond have no established capital address and remain unplaced.",
+    "The Pristinia library has a scant early collection, a dark main-quest reading room and a later newspaper search. A construction inquiry establishes useful library work, not a completed design or building. Subsequent restricted-room content is excluded.",
+    "The Before survey begins outside Pristinia and reaches a known sinkhole. Miri’s attempted Common Sign Language introduction is not understood; written clarification follows. The scholars’ barrier and Camilla’s blast help a retreat. A proposed camp is not a completed overnight stay. Ancient origin histories and protected procedures remain private.",
+    "All 391 timeline identities, posting/calendar bounds, importance, participants and regions remain. Four existing records gain precise geography/context or a narrated-night note. No new event or story page is created.",
+    "Eight individual directory rows change without conflating the city, Holy Road and temple, or the Before entrance and caverns. The temple row is exact. All old section titles/bookmarks, assets and unrelated records remain.",
+    "No raw transcripts, controller information, rules tables, unreviewed attachments, private origin identities, laboratory/keeper secrets or generic/joke NPCs enter Git. Public receipts contain only source identities, timestamps, hashes and bounded editorial descriptions."
+  ],
+  "preservation": {
+    "baselineFiles": 1641,
+    "existingChangedContent": [
+      "content/records/arias-tomb.json",
+      "content/records/before-survey.json",
+      "content/records/caislean-na-bron.json",
+      "content/records/ciaranach.json",
+      "content/records/pristinia-scroll-library.json",
+      "content/records/rahuvia.json",
+      "content/reference/world.json"
+    ],
+    "allOtherRecordsAssetsAndWorldFieldsExact": true,
+    "oldSectionDestinations": 51,
+    "oldSectionTitlesUnchanged": 51,
+    "newReadingChapters": 30,
+    "sourceVersions": 172,
+    "sourceCorpora": [
+      "prima-library-housing/prima-scroll-library/.cache/history.sqlite3",
+      "quest-rp-thread-associations/main-archive.sqlite3",
+      "quest-rp-thread-associations/source.sqlite3"
+    ],
+    "people": 262,
+    "publicEvents": 365,
+    "totalTimelineObjects": 391,
+    "records": 643,
+    "completeBodies": 594,
+    "sections": 2738,
+    "storyPages": 38,
+    "newRecords": 0,
+    "newTimelineEvents": 0,
+    "allCalendarBoundsAndImportanceUnchanged": true,
+    "protectedPayloadBytes": 5251167,
+    "protectedPayloadSha256": "b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e"
+  },
+  "verification": "PASS six complete location histories; 138 narrative paragraphs; 30 chapters; 51 old bookmarks; source panels/media identities; reload/focus; fresh390/320 fit/header clearance; four exact event records and actual context links; tomb directory/Fein Uaill nesting; seven connected links and three searches; unchanged people/public-private boundaries; no script/public HTTP errors. Source/preservation, canonical, calendar, portrait, protected-asset, preview, syntax and whitespace checks pass. Representative local screenshots are inspected."
+}

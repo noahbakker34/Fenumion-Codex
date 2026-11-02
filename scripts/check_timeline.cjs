@@ -206,7 +206,14 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
     await page.locator('.timeline-reset').click();
     await page.locator('#timeline-explorer input').fill('Mortals unmake a mountain');
     assert.deepEqual(await titles(), ['Babel’s defenders reshape the cavern-bearing mountain'], 'one source-checked mountain event with legacy title search');
+    const mountainTimelineRoute = await page.evaluate(() => location.hash);
     await page.locator('.event-card').click();
+    await page.waitForFunction(() => document.querySelector('#article-content').dataset.route === '#breaking-babels-mountain');
+    assert.equal(await page.locator('#record-dialog[open]').count(), 0, 'mountain primary action opens the full event story');
+    await page.locator('.chronicle-actions a').first().click();
+    await page.locator('#timeline-explorer input').waitFor();
+    assert.equal(await page.evaluate(() => location.hash), mountainTimelineRoute, 'mountain story return preserves the legacy-title filter');
+    await page.evaluate(() => openTimelineRecord(findTimelineRecord('Babel’s defenders reshape the cavern-bearing mountain')));
     assert((await page.locator('#record-dialog-content').textContent()).includes('earlier broad account describes this same assault'));
     await page.keyboard.press('Escape');
     for (const [title, kind] of [['Ephraith reports Melian’s release after the peace','recollection'],['Cthulhu comes through a rift into Fenumion','canon'],['Nienna’s expedition reaches Gael','approximate']]) {

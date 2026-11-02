@@ -21,3 +21,7 @@ Twenty existing context sections gain concise reading links across seven charact
 All 392 old events survive; only their four story/section destinations change. All unrelated world data, maps, roles, quotes, 261 browse previews and the complete private payload remain exact. Catalog 305 contains 647 records/598 public bodies/2,819 sections; 262 people, 367 public events and 42 story pages/39 library entries. App 273/reader 15 remain. No runtime, style, dependency, test stage or workflow change.
 
 Canonical, calendar, portrait, protected-asset, preview, exact-source and preservation checks pass. Focused Chrome passes all three complete stories/71 narrative paragraphs, 21 chapter bookmarks, sources/evidence/facts, reload/focus, six fresh 390/320px layouts, four real dated timeline/story/filtered-Back journeys, 24 links from 20 context sections, library/search and protected boundaries without script/public HTTP errors. Screenshots are inspected; publication receipt follows.
+
+## Hosted regression correction
+
+The first hosted candidate stopped before packaging/upload/deployment because the existing timeline regression expected the mountain card to open a summary dialog. That card now intentionally opens its full story. The regression now verifies direct story navigation and preservation of the legacy-title filter on return, then explicitly opens the original summary and retains its evidence assertion. The full timeline and 42-story regressions pass locally; no narrative or runtime correction was needed.

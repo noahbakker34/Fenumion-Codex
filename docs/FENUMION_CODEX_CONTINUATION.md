@@ -10,6 +10,8 @@ All 517 cited API-cache versions match two read-only corpora. The 880-row window
 
 Catalog 305: 647 records/598 bodies/2,819 sections; 262 people, 367 public events/392 total and 42 stories/39 library entries. Only four story/section destinations change; all dates/Day 842, 899, 909/importance/regions, maps/quotes/261 previews survive. App 273/reader 15 unchanged. Local static/source/preservation and complete-story/chapter/mobile/timeline/link/library/search checks pass; screenshots are inspected. Publication receipt follows. No runtime/style/dependency/workflow stage.
 
+The first hosted candidate stopped before packaging/upload/deployment because the existing timeline regression expected the mountain card to open a summary dialog. That card now intentionally opens its full story. The regression now verifies direct story navigation and preservation of the legacy-title filter on return, then explicitly opens the original summary and retains its evidence assertion. The full timeline and 42-story regressions pass locally; no narrative or runtime correction was needed.
+
 ## Return to Babel’s mist · 2 November 2026
 
 All 385 supplied incremental texts match native-cache versions. The main expedition becomes a full eight-chapter event story, five profile updates, three place updates and connected-guide links. The owner confirms Ryvyt’s death after the four-person retreat. No body recovery, completed resurrection, safe hypothetical escape, universal revival mechanism or identified prisoner is invented. The separate personal contact thread’s protected disclosures remain outside public pages; raw/media/controller/rules material stays external. Scope and receipts: BABEL_RETURN_2026_11_02.md and content/reference/babel-return-review-2026-11-02.json.

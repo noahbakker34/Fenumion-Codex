@@ -40,5 +40,21 @@
       "guardian-commander-yvette",
       "npc-community-memory"
     ]
+  },
+  {
+    "date": "2026-11-02",
+    "subject": "Ryvyt’s death in the return to Babel’s mist",
+    "decision": "Ryvyt’s death in this quest is confirmed.",
+    "limits": "This confirms the death after he is left behind in the ambush. It does not supply a recovered body, completed resurrection, killer’s identity or a universal rule about the cost of revival.",
+    "articles": [
+      "return-to-babels-mist",
+      "ryvyt",
+      "scribonia",
+      "olokun",
+      "nymera",
+      "alyhotep-bin-baladin",
+      "babel-ashur",
+      "skylight-refuge"
+    ]
   }
 ]

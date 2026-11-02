@@ -619,6 +619,26 @@
         "coralyn",
         "pappy"
       ]
+    },
+    {
+      "article": "return-to-babels-mist",
+      "events": [
+        "The return to Babel’s mist ends in Ryvyt’s death"
+      ],
+      "chapters": 8,
+      "words": 1377,
+      "sourceReceipts": 144,
+      "existingPublicAccounts": [
+        "babel-ashur",
+        "luminar-spires",
+        "skylight-refuge",
+        "babel-survival",
+        "ryvyt",
+        "scribonia",
+        "olokun",
+        "nymera",
+        "alyhotep-bin-baladin"
+      ]
     }
   ],
   "calendarCorrection": {

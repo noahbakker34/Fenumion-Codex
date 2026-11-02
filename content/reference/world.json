@@ -14187,6 +14187,77 @@
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1565589283161509899",
           "https://discord.com/channels/1177270231513694249/1199083630354501673/1565592436103708713"
         ]
+      },
+      {
+        "title": "The return to Babel’s mist ends in Ryvyt’s death",
+        "meta": "1, Month of the Wyrm, Year 3 · source posts continue the following day",
+        "sort": "2026-11-01-babel-return",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Failed expedition and loss",
+        "article": "babel-ashur",
+        "section": "babel-guarded-ruins",
+        "story": "return-to-babels-mist",
+        "location": "Western Babel-Ashur; jungle ruins and Skylight Refuge",
+        "people": "Olokun; Scribonia; Nymera; Ryvyt; Alyhotep bin Baladin; Abyss",
+        "tags": [
+          "Babel-Ashur",
+          "western mist",
+          "Ryvyt",
+          "Abyss",
+          "retreat"
+        ],
+        "summary": "Mental protections let the company pass the old visions, but the guarded ruins trap them. Four escape without Ryvyt, who dies alone; a failed retrieval and argument over bringing him back follow.",
+        "importance": 3,
+        "importanceReason": "The expedition locates an active hostile lair and loses a member of Babel’s defending company. It establishes a regional setback, not a completed rescue or world-changing victory.",
+        "regions": [
+          "babel-ashur"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "The opening local posting date anchors this continuous quest. The source posts cross midnight without establishing another story day.",
+          "postingWindow": {
+            "start": "2026-11-01",
+            "end": "2026-11-02",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-11-01",
+            "reason": "One continuous expedition from the Refuge through the fog and back; no intervening night or new day is established in the main quest.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1294457593296719873/1566620336869482578",
+              "https://discord.com/channels/1177270231513694249/1294457593296719873/1566637478855573524",
+              "https://discord.com/channels/1177270231513694249/1294457593296719873/1566638903119708221",
+              "https://discord.com/channels/1177270231513694249/1294457593296719873/1566646654650683483",
+              "https://discord.com/channels/1177270231513694249/1294457593296719873/1566666305740742668",
+              "https://discord.com/channels/1177270231513694249/1294457593296719873/1566667314483564586",
+              "https://discord.com/channels/1177270231513694249/1294457593296719873/1566680248236380241"
+            ]
+          },
+          "finalWar": {
+            "start": 973,
+            "end": 973,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566637478855573524",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566638903119708221",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566651622090870897",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566656917110263919",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566657870731149413",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566661056410030143",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566661773640339497",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566663244658114595",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566666305740742668",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566667314483564586",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566671542014713897",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566671859259539467",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566672989846503545",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566674188478058510",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566678386552733839"
+        ]
       }
     ],
     "characters": [
@@ -14836,7 +14907,7 @@
         "meta": "Main member of the Ale-Chemy Knights",
         "article": "ryvyt",
         "image": "assets/characters/ryvyt.png",
-        "summary": "A self-described living alchemy kit and Ale-Chemy founder whose craft, hospitality, grief and willingness to keep helping make him more than the organization’s useful specialist.",
+        "summary": "A living alchemy kit, Ale-Chemy founder and generous maker. He dies after being left behind in Babel’s mist; his surviving companions seek a way to bring him back.",
         "aliases": [
           "Ryvyt"
         ]
@@ -25010,6 +25081,14 @@
         "Old Earth Hills",
         "Kûn Ardaire"
       ]
+    ],
+    [
+      "return-to-babels-mist",
+      [
+        "Timeline",
+        "Event stories",
+        "The Return to the Mist · Ryvyt’s Last Stand"
+      ]
     ]
   ],
   "subchannelMap": {
@@ -25541,6 +25620,10 @@
       {
         "label": "The Western Mist · The Offer after the Clearing",
         "article": "babel-mist-expedition"
+      },
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
       }
     ],
     "tobias": [
@@ -27786,6 +27869,10 @@
       {
         "label": "The Western Mist · The Offer after the Clearing",
         "article": "babel-mist-expedition"
+      },
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
       }
     ],
     "cave-company": [
@@ -27988,6 +28075,10 @@
       {
         "label": "The Western Mist · The Offer after the Clearing",
         "article": "babel-mist-expedition"
+      },
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
       }
     ],
     "ethos-of-fenumion": [
@@ -28064,6 +28155,10 @@
         "label": "Babel-Ashur",
         "article": "babel-ashur",
         "summary": "The wider island campaign."
+      },
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
       }
     ],
     "kvethe": [
@@ -30086,6 +30181,10 @@
       {
         "label": "Stone and Metal through the Gate",
         "article": "gate-supply-exchange"
+      },
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
       }
     ],
     "karnak": [
@@ -30133,6 +30232,10 @@
       {
         "label": "The Western Mist · The Offer after the Clearing",
         "article": "babel-mist-expedition"
+      },
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
       }
     ],
     "pelegia": [
@@ -31009,6 +31112,10 @@
         "label": "Unresolved Record",
         "article": "open-questions",
         "summary": "The missing evidence remains visible."
+      },
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
       }
     ],
     "first-called-arrival": [
@@ -31849,6 +31956,10 @@
       {
         "label": "Narrative timeline",
         "article": "living-timeline"
+      },
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
       }
     ],
     "gate-supply-exchange": [
@@ -31973,6 +32084,68 @@
       {
         "label": "Narrative timeline",
         "article": "living-timeline"
+      },
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
+      }
+    ],
+    "return-to-babels-mist": [
+      {
+        "label": "Babel-Ashur",
+        "article": "babel-ashur"
+      },
+      {
+        "label": "Skylight Refuge",
+        "article": "skylight-refuge"
+      },
+      {
+        "label": "Luminar Spires",
+        "article": "luminar-spires"
+      },
+      {
+        "label": "Ryvyt",
+        "article": "ryvyt"
+      },
+      {
+        "label": "Scribonia",
+        "article": "scribonia"
+      },
+      {
+        "label": "Olokun",
+        "article": "olokun"
+      },
+      {
+        "label": "Nymera",
+        "article": "nymera"
+      },
+      {
+        "label": "Alyhotep bin Baladin",
+        "article": "alyhotep-bin-baladin"
+      },
+      {
+        "label": "The Western Mist · The Offer after the Clearing",
+        "article": "babel-mist-expedition"
+      },
+      {
+        "label": "Event Stories",
+        "article": "event-chronicles"
+      },
+      {
+        "label": "Narrative History",
+        "article": "living-timeline"
+      }
+    ],
+    "luminar-spires": [
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
+      }
+    ],
+    "alyhotep-bin-baladin": [
+      {
+        "label": "The Return to the Mist · Ryvyt’s Last Stand",
+        "article": "return-to-babels-mist"
       }
     ]
   },
@@ -51825,7 +51998,8 @@
     "hallowing-of-hope",
     "return-to-hanas-tower",
     "attack-on-the-chains",
-    "kun-ardaire"
+    "kun-ardaire",
+    "return-to-babels-mist"
   ],
   "timelineRegions": [
     {

@@ -2,6 +2,12 @@
 
 Last updated: 2026-11-02
 
+## Return to Babel’s mist · 2 November 2026
+
+All 385 supplied incremental texts match native-cache versions. The main expedition becomes a full eight-chapter event story, five profile updates, three place updates and connected-guide links. The owner confirms Ryvyt’s death after the four-person retreat. No body recovery, completed resurrection, safe hypothetical escape, universal revival mechanism or identified prisoner is invented. The separate personal contact thread’s protected disclosures remain outside public pages; raw/media/controller/rules material stays external. Scope and receipts: BABEL_RETURN_2026_11_02.md and content/reference/babel-return-review-2026-11-02.json.
+
+One new Regional milestone opens the story. The continuous quest stays on 1, Month of the Wyrm, Year 3/Day 973 while preserving the two-date posting window. All 391 old events, 159 old section destinations/evidence, original media/roles, maps, quotes, 261 previews and complete private payload remain. Catalog 304 has 644 records/595 bodies/2,798 sections; 262 people, 367 public events/392 total and 39 story pages/36 library entries. App 273/reader 15 unchanged. Local static/source/preservation and focused narrative/bookmark/mobile/timeline/directory/link/search checks pass; screenshots are inspected. Displayed library/public-event totals are corrected to 36/367. Publication receipt follows. No new person/asset/runtime/style/dependency/workflow stage.
+
 ## Yvette attribution resolved · 2 November 2026
 
 The owner confirms that the commander speaking in the quest posted 15 February 2026 was misnamed as Yvette. She is a different Guardian commander, whose name remains unknown. This supersedes the pending discrepancy below. Yvette’s port scene and the March hearing’s report of her murder remain; no resurrection, succession, killer or exact death scene is inferred.

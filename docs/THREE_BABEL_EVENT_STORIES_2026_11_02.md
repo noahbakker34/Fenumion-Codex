@@ -25,3 +25,7 @@ Canonical, calendar, portrait, protected-asset, preview, exact-source and preser
 ## Hosted regression correction
 
 The first hosted candidate stopped before packaging/upload/deployment because the existing timeline regression expected the mountain card to open a summary dialog. That card now intentionally opens its full story. The regression now verifies direct story navigation and preservation of the legacy-title filter on return, then explicitly opens the original summary and retains its evidence assertion. The full timeline and 42-story regressions pass locally; no narrative or runtime correction was needed.
+
+## Publication receipt
+
+Release `8cdda59` deployed in successful [Pages run 41475624262](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/41475624262). All 17 selected production entry/catalog/search/story/context files match build `6da5901188351222`. Fresh live Chrome passes three complete stories/71 narrative paragraphs, 21 chapter destinations and evidence/facts/source sets, reload/focus, six fresh 390/320px layouts, four dated Regional timeline/story/filtered-Back journeys, 24 links from 20 existing context sections, library/search and protected boundaries without script/public HTTP errors. Screenshots are inspected. Older narratives/media/roles, all 392 event dates/ratings/regions, unrelated content and the complete private payload remain exact. The verified task preview is stopped. The cached harness and one tested build are reused; this documentation-only receipt triggers no additional deployment.

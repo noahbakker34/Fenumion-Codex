@@ -30,5 +30,15 @@
       "aerrow",
       "people-directory"
     ]
+  },
+  {
+    "date": "2026-11-02",
+    "subject": "Yvette’s misnamed later speaker",
+    "decision": "The commander speaking in the quest posted 15 February 2026 was misnamed as Yvette. She is another Guardian commander, whose name has not been supplied.",
+    "limits": "This resolves the apparent speaking-after-death discrepancy. It does not identify the other commander, establish succession or supply Yvette’s exact death scene, killer or any resurrection.",
+    "articles": [
+      "guardian-commander-yvette",
+      "npc-community-memory"
+    ]
   }
 ]

@@ -4399,5 +4399,12 @@
     "protectedPayloadBytes": 5251167,
     "protectedPayloadSha256": "b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e"
   },
-  "verification": "PASS five complete NPC histories and connected Ghilsen account; 127 narrative paragraphs; 30 chapters; 41 old bookmarks; every evidence panel/reference/fact and original decoded portraits; saved reload/focus; fresh390/320 fit/header clearance; five NPC-directory/modal/profile journeys; eight connected links and three searches; separate Talon grievances and explicit Yvette discrepancy; unchanged roles/roster/public-private boundaries; no script/public HTTP errors. Source/preservation, canonical, calendar, portrait, protected-asset, browse-preview, syntax and whitespace checks pass; representative local screenshots are inspected."
+  "verification": "PASS five complete NPC histories and connected Ghilsen account; 127 narrative paragraphs; 30 chapters; 41 old bookmarks; every evidence panel/reference/fact and original decoded portraits; saved reload/focus; fresh390/320 fit/header clearance; five NPC-directory/modal/profile journeys; eight connected links and three searches; separate Talon grievances and explicit Yvette discrepancy; unchanged roles/roster/public-private boundaries; no script/public HTTP errors. Source/preservation, canonical, calendar, portrait, protected-asset, browse-preview, syntax and whitespace checks pass; representative local screenshots are inspected.",
+  "subsequentCanonClarification": {
+    "date": "2026-11-02",
+    "authority": "Explicit owner answer in this chat",
+    "decision": "The commander speaking in the quest posted 15 February 2026 was misnamed as Yvette. She is another Guardian commander, whose name has not been supplied.",
+    "supersedes": "The pending Yvette discrepancy in editorialLimits, the historical profile/summary deltas and the original verification below. Those fields record the earlier publication, not the current attribution.",
+    "limits": "This resolves the apparent speaking-after-death discrepancy. It does not identify the other commander, establish succession or supply Yvette’s exact death scene, killer or any resurrection."
+  }
 }

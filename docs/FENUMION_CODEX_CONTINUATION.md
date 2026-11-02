@@ -2,6 +2,12 @@
 
 Last updated: 2026-11-02
 
+## Yvette attribution resolved · 2 November 2026
+
+The owner confirms that the commander speaking in the quest posted 15 February 2026 was misnamed as Yvette. She is a different Guardian commander, whose name remains unknown. This supersedes the pending discrepancy below. Yvette’s port scene and the March hearing’s report of her murder remain; no resurrection, succession, killer or exact death scene is inferred.
+
+The profile, facts/status, evidence panels, source-link labels, three directory/connected summaries and community-memory guide now reflect the correction. All eight section IDs and five chapter IDs, original port narrative, source URLs, portrait, role, complete timeline and private payload survive. The canon ledger records the decision; the earlier review retains its historical deltas with an explicit superseding note. Nineteen original quest versions are rechecked directly against the read-only corpus. Catalog 303; app 273/reader 15 unchanged. Content/calendar/source/preservation and focused Chrome checks pass: complete corrected body, all eight section/five chapter bookmarks, evidence/facts/source URLs/original portrait, Fenumion dates, NPC-directory/modal, community guide/Farkur links, search, saved reload/focus, fresh 390/320px fit and protected boundaries without script/public HTTP errors. Desktop/mobile screenshots are inspected; publication receipt follows.
+
 ## Five NPC histories · 2 November 2026
 
 Owner asks for NPCs. Strange Talon, Hildethrax, Sophina, Yvette and Kumai-218 now have 6,120 words (previously 3,568) in 30 chapters; Ghilsen gains a necessary connected death account. Seventeen new sections follow intelligence, separate grievances, the Swift killing, a fatal duel, rank and supply work, the overnight peace escort, guarded diplomacy, the port theft and contested teaching. All 41 old section IDs/titles/evidence objects survive. Details: NPC_COMMAND_HISTORIES_2026_11_02.md and content/reference/npc-command-review-2026-11-02.json.

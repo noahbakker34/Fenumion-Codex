@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-01
+Last updated: 2026-11-02
+
+## Five NPC histories · 2 November 2026
+
+Owner asks for NPCs. Strange Talon, Hildethrax, Sophina, Yvette and Kumai-218 now have 6,120 words (previously 3,568) in 30 chapters; Ghilsen gains a necessary connected death account. Seventeen new sections follow intelligence, separate grievances, the Swift killing, a fatal duel, rank and supply work, the overnight peace escort, guarded diplomacy, the port theft and contested teaching. All 41 old section IDs/titles/evidence objects survive. Details: NPC_COMMAND_HISTORIES_2026_11_02.md and content/reference/npc-command-review-2026-11-02.json.
+
+All 233 cited versions match two read-only corpora (199 original export/34 native API), preserving payload timestamps. Discovery/windows are not exhaustive reading; prior material retains its scope. Quest narration resolves Ghilsen’s duel death while keeping his later revival/report separate. Talon’s different grievances and later abbreviated recollection remain distinct. Yvette speaks in February but is called a murder victim at the March hearing: the discrepancy stays explicit pending optional owner clarification. No invented return, final fate, divine cause, rank or protected procedure. Raw/controller/private/rules material stays external.
+
+Seven old content files change, plus 27 individual NPC-directory/connected summaries. Talon’s council paragraphs move intact for reading order. All 391 events/dates/ratings/regions, roles, media, maps, quotes, 261 previews and the complete private payload remain exact. Catalog 302 contains 643 records/594 bodies/2,779 sections; 262 people/365 public events/38 stories remain. App 273/reader 15 remain; no new page/asset/runtime/style/dependency/workflow stage. Local source/preservation/static and focused complete-profile/NPC-directory/modal/bookmark/mobile/link/search checks pass, screenshots inspected; publication receipt follows.
 
 ## Five further player histories · 1 November 2026
 

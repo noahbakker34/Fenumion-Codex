@@ -1,0 +1,4403 @@
+{
+  "reviewed": "2026-11-02",
+  "scope": "Five existing NPC histories: Strange Talon, Captain Hildethrax, Ambassador Sophina, Guardian Commander Yvette and Kumai-218; one connected Ghilsen death account.",
+  "records": {
+    "strange-talon": {
+      "words": 1460,
+      "oldWords": 920,
+      "sections": 12,
+      "oldSections": 8,
+      "chapters": 7
+    },
+    "captain-hildethrax": {
+      "words": 1221,
+      "oldWords": 757,
+      "sections": 11,
+      "oldSections": 8,
+      "chapters": 6
+    },
+    "sophina": {
+      "words": 1223,
+      "oldWords": 762,
+      "sections": 10,
+      "oldSections": 7,
+      "chapters": 6
+    },
+    "guardian-commander-yvette": {
+      "words": 991,
+      "oldWords": 470,
+      "sections": 8,
+      "oldSections": 5,
+      "chapters": 5
+    },
+    "kumai-218": {
+      "words": 1225,
+      "oldWords": 659,
+      "sections": 9,
+      "oldSections": 6,
+      "chapters": 6
+    },
+    "ghilsen": {
+      "words": 691,
+      "oldWords": 544,
+      "sections": 8,
+      "oldSections": 7,
+      "chapters": 0
+    }
+  },
+  "sourceVersions": 233,
+  "sourceVersionKinds": {
+    "original main-quest export": 199,
+    "native API cache": 34
+  },
+  "sections": {
+    "strange-talon": {
+      "talon-trinkets-and-visitors": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252767105586040852"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252769105715396648"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252770148625158204"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252772265960013875"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252773086210691154"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252773744275882116"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252774801387425863"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252797139558600794"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252797896030552086"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252798835227361290"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252798993096900714"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252800922422349915"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252801064542146603"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252801491136417803"
+        }
+      ],
+      "talon-swift-foot-death": [
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270442939880968282"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270444017561243791"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270444470999060685"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270444803150057575"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270447959200239758"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270448927317037107"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270449864031076454"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270450176514854932"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270450827965890590"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270451146531537048"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270451424333135923"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270451619791900805"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270452309553578025"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270453047394435183"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270453915808170055"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270454207866208266"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270454805189627937"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270455333478731919"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270456784678686741"
+        }
+      ],
+      "talon-council-grievance": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1331069005003489310"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1331070109460070450"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1331070590773231629"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1331072110197739645"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1331074417840881676"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1270845256056832002"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1270845947038924978"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1270846657965064255"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1270847302852022273"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1270847395873423380"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270448927317037107"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270450827965890590"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270451146531537048"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270451424333135923"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270451619791900805"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270453915808170055"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1270418124185010320",
+          "id": "1270454805189627937"
+        }
+      ],
+      "talon-ghilsen-duel": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381473297589342272"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381473777283498088"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381473927246778378"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381474178217148468"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381474288267300999"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381474425416843364"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381474502424395850"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381475066398638111"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381475078641946675"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381475125660225677"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381476397163479182"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381483981580800041"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381484443587579965"
+        }
+      ]
+    },
+    "captain-hildethrax": {
+      "hildethrax-merit-and-obedience": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252774344031993886"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252775444646723644"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252776687993618453"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252777946775683104"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252779008584716332"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252779303439958138"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252780043827154997"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252780543335071837"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252781236808847422"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252781673662386293"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252781910854467634"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252782752567263357"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252783993116561509"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252784399959724103"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252791981042565201"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252800160417710180"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1252800922422349915"
+        }
+      ],
+      "hildethrax-local-operations": [
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331110225146810368"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331111306857676852"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331112833110249505"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331114139170508871"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331114680546103357"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331116179292688561"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331116739399782462"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331117513286615060"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1331090040004284488"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1331090601617264743"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1331091263226642433"
+        }
+      ],
+      "hildethrax-peace-escort": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386894294564077650"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386894544460578856"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386897734799196263"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386898144318590987"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386898583621468260"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386898778489098252"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386898866934386892"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386906507458904225"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386907252119572490"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386907647646630082"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1386907810310393886"
+        }
+      ]
+    },
+    "sophina": {
+      "sophina-face-and-information": [
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331109617673175154"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331110225146810368"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331110703586738333"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331111306857676852"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331112833110249505"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331114139170508871"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331114680546103357"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331116179292688561"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331116739399782462"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331116955146391584"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331117124902719560"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331117282809745418"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331117513286615060"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331117825800015903"
+        },
+        {
+          "source": "quest-rp-thread-associations/source.sqlite3",
+          "channel": "1331105885560246282",
+          "id": "1331118155547807809"
+        }
+      ],
+      "sophina-treasurers-and-fan": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369721102162591815"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369722081335312466"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369722716403404964"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369723396484501596"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369724128394743888"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369725417937961143"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369725578265235541"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369726786765848757"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369730050529693878"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369732736297734284"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369750833318854739"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369752943301234769"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369754312980299870"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1369755298348142649"
+        }
+      ],
+      "sophina-public-return": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1456820324233511035"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1456820760420028556"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1456821514509877268"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1456822152710983710"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1456822911569629216"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1456822913398341643"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1456827834394869842"
+        }
+      ]
+    },
+    "guardian-commander-yvette": {
+      "yvette-sacred-duty": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316610885879599147"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316611711939248159"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316613123976859659"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316613419792601178"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316614492876181535"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316619594554802207"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316620080490086412"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316620556128227338"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316621271978479698"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316622365937106985"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316623306866167828"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316623543663984661"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316623747456958555"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316625341103476737"
+        }
+      ],
+      "yvette-port-theft": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316625341103476737"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316626346763620486"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316626473859284992"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316626590402220142"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316628714246635541"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316630084043407400"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316630220626858097"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316630737684004895"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316632642795606078"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316634225486594051"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316639595776966657"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316640167850938411"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316644148949811240"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316644911470346312"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316645177133240372"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316645676733566996"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316645686824931339"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316646168620564502"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1316646974568534027"
+        }
+      ],
+      "yvette-later-testimony": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472753624999268604"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472753812694503465"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472754525361275013"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472754640725610690"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472755130238504981"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472759167843438685"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472760533861138463"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472760647694549255"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472761018848383181"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472761840248295434"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472762237251879129"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472762344378466405"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472762450196562033"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1472763409748594829"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487913559340879982"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487915676663418911"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487922455182971061"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487928382426714242"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1487936860318859284"
+        }
+      ]
+    },
+    "kumai-218": {
+      "kumai-john-and-adaptation": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216958870912499722"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216959713519075348"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216959946227191838"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216960280903553145"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216960535111798965"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216960697720639519"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216960853782302730"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216962444983931023"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216963553295339582"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216973552025341982"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216975230476746764"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216976704698847232"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216978490176311368"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216979142495571989"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216980481627914251"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216982271756861521"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216982957370249297"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216983379547787336"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216983725523337350"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216984334032965642"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216985645172654161"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216986537657372694"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216987099111096411"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1216988454043516978"
+        }
+      ],
+      "kumai-war-options": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384633401340071987"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384635049286045709"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384636470794649700"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384637308422193164"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384637661318479924"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384638532953309348"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384639297029668895"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384639562701213777"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384643247330299974"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384645237770817536"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384647853439189156"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384648095815569469"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384648753130246279"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384651559421476866"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384652789719765123"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1384660566421012554"
+        }
+      ],
+      "kumai-field-test-objections": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506707476752367627"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506708076592496790"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506708819731026010"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506709583433961474"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506710428313714938"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506710543107494029"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506711923750862940"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506712830236299324"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506714270438654003"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506715172113485885"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506715618202882250"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506715806006771783"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506716770327724213"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506716981985021983"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506717211824361552"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506718179131654256"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506788488522105003"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506788758475772147"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506789555683065978"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1506789911364108428"
+        }
+      ]
+    },
+    "ghilsen": {
+      "ghilsen-duel-before-return": [
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381473777283498088"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381473927246778378"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381474178217148468"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381474288267300999"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381474425416843364"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381474502424395850"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381475066398638111"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381475078641946675"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381475125660225677"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381476397163479182"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381483981580800041"
+        },
+        {
+          "source": "quest-rp-thread-associations/main-archive.sqlite3",
+          "channel": "1199083630354501673",
+          "id": "1381484443587579965"
+        }
+      ]
+    }
+  },
+  "receipts": [
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216958870912499722",
+      "timestamp": "2024-03-11T21:00:04.828-07:00",
+      "contentSha256": "5905c6d5712eb70a959af01335992a127544375d3f23211310b0bf255dbc21b7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216959713519075348",
+      "timestamp": "2024-03-11T21:03:25.721-07:00",
+      "contentSha256": "72ec1231056cd07d75da5af3759c887035e9cce0647991b9dd83923060f4c9de",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216959946227191838",
+      "timestamp": "2024-03-11T21:04:21.203-07:00",
+      "contentSha256": "806929a902a2f85b74b1413f78d5207d42d48f90aaa18779b8353d31531f5e46",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216960280903553145",
+      "timestamp": "2024-03-11T21:05:40.996-07:00",
+      "contentSha256": "cafe8b9569f93876affe05ba9e477cd6dd0ccb1f4b7b45208fbb059c188fbc42",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216960535111798965",
+      "timestamp": "2024-03-11T21:06:41.604-07:00",
+      "contentSha256": "efc27c55379ac175f34700f441aaa8462759f628114211db37694077a572274a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216960697720639519",
+      "timestamp": "2024-03-11T21:07:20.373-07:00",
+      "contentSha256": "b36824143b1551683829e598b06a293dcfe2d614f70244eac36d78eeafb00f7e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216960853782302730",
+      "timestamp": "2024-03-11T21:07:57.581-07:00",
+      "contentSha256": "aedcdae54fd03f4d902e5089437cb53e062e9bb1b79c176274974f331cee25c0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216962444983931023",
+      "timestamp": "2024-03-11T21:14:16.953-07:00",
+      "contentSha256": "5b305be78c094960e5a6c1f87e2a9cbd92ad39d80f78cfee08c94304aaa67a12",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216963553295339582",
+      "timestamp": "2024-03-11T21:18:41.195-07:00",
+      "contentSha256": "cd70c019352d7e1682b13b5a478f6227c09eb6350396a52f2eba8015aa03fe0f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216973552025341982",
+      "timestamp": "2024-03-11T21:58:25.078-07:00",
+      "contentSha256": "97e3bc8af7657a878a84f2c7d31c500a7b9b6080dc413c9aa7a8b35a879f6bee",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216975230476746764",
+      "timestamp": "2024-03-11T22:05:05.252-07:00",
+      "contentSha256": "0eef22f2547c2b3a6449ecd48fbefd8cb3401e2cf85417539890af74bfed1fc9",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216976704698847232",
+      "timestamp": "2024-03-11T22:10:56.734-07:00",
+      "contentSha256": "00f864de0a87921026e106f231c23cf417ec25b82328ecd490ca05c9a1375855",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216978490176311368",
+      "timestamp": "2024-03-11T22:18:02.425-07:00",
+      "contentSha256": "50a8cbda94228c7c4f6ab379c65243a0a56af4904042269372db0e35feb15e4c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216979142495571989",
+      "timestamp": "2024-03-11T22:20:37.95-07:00",
+      "contentSha256": "ab07cc6776ebd06e11b990b9cf173946c5a48865bf7c41b9ddbd9a27f9a4f55a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216980481627914251",
+      "timestamp": "2024-03-11T22:25:57.224-07:00",
+      "contentSha256": "3364216be6e8edbc9b7dcfd07852012120697d660a48f6344f1baafdacd84d15",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216982271756861521",
+      "timestamp": "2024-03-11T22:33:04.024-07:00",
+      "contentSha256": "5c8232885679906b5ce1e4cbe9cb48b9b2973cf42e9dc726a796292ca95c2819",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216982957370249297",
+      "timestamp": "2024-03-11T22:35:47.487-07:00",
+      "contentSha256": "cc160b9b23c3caa4a051e7bb38dd8742a3b6754c16fb343a372939b357e8bec9",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216983379547787336",
+      "timestamp": "2024-03-11T22:37:28.142-07:00",
+      "contentSha256": "ada33713644ad12ca19fc2fc9b21c478e250ec2ad748f7341378306a805d3a4e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216983725523337350",
+      "timestamp": "2024-03-11T22:38:50.629-07:00",
+      "contentSha256": "feb44c9aa1a936d08aeac14aa36352bd3b2f3799e73ef342ca249b2da8cbc7f3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216984334032965642",
+      "timestamp": "2024-03-11T22:41:15.709-07:00",
+      "contentSha256": "165235a3a6b1cd23d7ed6794411db37975adcf07a97943a20d947b59286c936f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216985645172654161",
+      "timestamp": "2024-03-11T22:46:28.309-07:00",
+      "contentSha256": "3f65fccc196acaca407556c03c6996904e184c782d53dbf2d52b09f75e1d3893",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216986537657372694",
+      "timestamp": "2024-03-11T22:50:01.094-07:00",
+      "contentSha256": "364a9d6cfcfcc475b6cb4686dd182a3d7cf576f72c63e27adb47b8502632d6e4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216987099111096411",
+      "timestamp": "2024-03-11T22:52:14.955-07:00",
+      "contentSha256": "051a4f2eb9e652e3428cd94ae741a3d303a58ebc2053a1962022986effc88ed7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1216988454043516978",
+      "timestamp": "2024-03-11T22:57:37.996-07:00",
+      "contentSha256": "e56ff2c0eac351d792e1efeb843545bce1bb457d640e2a7b8e95c094c4c808b7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252767105586040852",
+      "timestamp": "2024-06-18T16:29:13.259-07:00",
+      "contentSha256": "ab884a58d7c54a6fb3ff2f51a75a28a5016f889b05bfd68b8e6c9c22d26baa6e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252769105715396648",
+      "timestamp": "2024-06-18T16:37:10.127-07:00",
+      "contentSha256": "b13e4e00c43811f1479b1c1f8ccf10167fa36b59e1f518912035a3df31ece028",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252770148625158204",
+      "timestamp": "2024-06-18T16:41:18.776-07:00",
+      "contentSha256": "5711f64819f0d05b15c340c11867d30c5a33b051c93ac288efa23e3f3045d9c7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252772265960013875",
+      "timestamp": "2024-06-18T16:49:43.588-07:00",
+      "contentSha256": "4db5ff66a10eed8b8c8b727e0287b44ce127d63b6bf5e1fc3c8b3cf670ec926d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252773086210691154",
+      "timestamp": "2024-06-18T16:52:59.151-07:00",
+      "contentSha256": "210e1bf5a21e4d599d9c254d0b3c64791a895f3d65c459cb0147029a72865956",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252773744275882116",
+      "timestamp": "2024-06-18T16:55:36.046-07:00",
+      "contentSha256": "a0ba133f6ec878e3aacb37d66dd68e1f34b231ac43f463fcd5eb11b27bbfc064",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252774344031993886",
+      "timestamp": "2024-06-18T16:57:59.039-07:00",
+      "contentSha256": "d331fd2dad00866831a4686ed7eb9e8c95338e51e0622d094cc9163f5bda6fcd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252774801387425863",
+      "timestamp": "2024-06-18T16:59:48.081-07:00",
+      "contentSha256": "c01855512c26481ef94d2642e18f44c32a075d80f8de4ef82fc4f975f46dd46e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252775444646723644",
+      "timestamp": "2024-06-18T17:02:21.446-07:00",
+      "contentSha256": "a56daa5b198cc9579bfd832197e4ee32dff288336d559c4e52d93dd5b5bfb86b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252776687993618453",
+      "timestamp": "2024-06-18T17:07:17.883-07:00",
+      "contentSha256": "73757eb86ec8b1c126e506b73b96774ee9179e74c5bd422ae3f658ffe33b5c4e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252777946775683104",
+      "timestamp": "2024-06-18T17:12:18-07:00",
+      "contentSha256": "1f8aea93b93e50dd6c5d7b364c3350431bfbf9ecb03a62c641a33e844e1dce21",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252779008584716332",
+      "timestamp": "2024-06-18T17:16:31.155-07:00",
+      "contentSha256": "5676feebeec94ab3848b00c605c39bf374898b9851b71f88d41bdc00eccd25ab",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252779303439958138",
+      "timestamp": "2024-06-18T17:17:41.454-07:00",
+      "contentSha256": "95531ab9b7e237756950844ec336d166f1931cb89b0534be9d7e3edba0467267",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252780043827154997",
+      "timestamp": "2024-06-18T17:20:37.976-07:00",
+      "contentSha256": "cfbb32d455c06270f2219c321cd5e54b691f17ec21569ba60668c331785186b2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252780543335071837",
+      "timestamp": "2024-06-18T17:22:37.068-07:00",
+      "contentSha256": "32eef891b1de6646701ba210fd126eca5970c85652851e108a145e1e8b1e0604",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252781236808847422",
+      "timestamp": "2024-06-18T17:25:22.405-07:00",
+      "contentSha256": "ee8ab0b06ce5c6456e9f5551b9aa79edd5324d77e0512a4ab2b4a42752da791c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252781673662386293",
+      "timestamp": "2024-06-18T17:27:06.559-07:00",
+      "contentSha256": "f2ba59f5f5194eb56ff54fed06e331a424853a73bbd17558a5bd2b5c8c966a02",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252781910854467634",
+      "timestamp": "2024-06-18T17:28:03.11-07:00",
+      "contentSha256": "7135d01a77075e04d584677cd8defc9bb02112178238bc093bdac279f65c7fb8",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252782752567263357",
+      "timestamp": "2024-06-18T17:31:23.79-07:00",
+      "contentSha256": "1cd433cbd1b114335af3cb598d49e3980652b755a06730c4bf74a381465ded9a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252783993116561509",
+      "timestamp": "2024-06-18T17:36:19.56-07:00",
+      "contentSha256": "7df09a9afcd8ec6baadbe4fb65c04b6f92a5ec14a32e2fb11784fe3b61f276d6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252784399959724103",
+      "timestamp": "2024-06-18T17:37:56.559-07:00",
+      "contentSha256": "be8ac071f6e0e5a05c987af0a9387f6421bec278c680baea7715860482dea33a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252791981042565201",
+      "timestamp": "2024-06-18T18:08:04.03-07:00",
+      "contentSha256": "f2e922eada4db2203009df22ba814470325c1d5e89cdec9b5074f75e02f8f8f9",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252797139558600794",
+      "timestamp": "2024-06-18T18:28:33.916-07:00",
+      "contentSha256": "e30c88054127ae4137057b3fe075170429d1dbe95f98b5bd31b4be3112fd4985",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252797896030552086",
+      "timestamp": "2024-06-18T18:31:34.273-07:00",
+      "contentSha256": "5554a46b93157f9ef55823cdcb7ad4a758b23e77bbd0a781adf8bddeafcc154c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252798835227361290",
+      "timestamp": "2024-06-18T18:35:18.195-07:00",
+      "contentSha256": "c4c00ef104e13f5b458c6c6bb1257b6b51cf1d4d277dfc533f3336cc8d5ef740",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252798993096900714",
+      "timestamp": "2024-06-18T18:35:55.834-07:00",
+      "contentSha256": "0c1517924960b772a048e0d879b7ba21e86eb5d508cd3fd9eb36515a47c99d88",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252800160417710180",
+      "timestamp": "2024-06-18T18:40:34.145-07:00",
+      "contentSha256": "fa93182ae23a7d87963bf195d6128b45b52a22810bd0b29bb0f30911dac669df",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252800922422349915",
+      "timestamp": "2024-06-18T18:43:35.821-07:00",
+      "contentSha256": "4bb89fc6f94049af148b3224066153d9be5c56f5ca7bcc52ce5a96905ce5aa87",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252801064542146603",
+      "timestamp": "2024-06-18T18:44:09.705-07:00",
+      "contentSha256": "4f1834b9a9067dc6c3d02dfa86db3fbc8da17b9bfdbaee3894378e2743b3ff66",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1252801491136417803",
+      "timestamp": "2024-06-18T18:45:51.413-07:00",
+      "contentSha256": "654e570eb38a2a536aaff508b9d37464801155fdad82e8fac0bde86241084d6f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1270845256056832002",
+      "timestamp": "2024-08-07T13:45:20.207-07:00",
+      "contentSha256": "5ab9ad8db04f3c79537308ca07abc892415053614095bd69af27648a0e1d89cb",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1270845947038924978",
+      "timestamp": "2024-08-07T13:48:04.95-07:00",
+      "contentSha256": "2137ff91cb4ecce67141d2c174620b4a78c5ce09ab0d30cb6b7e61da0c526e0f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1270846657965064255",
+      "timestamp": "2024-08-07T13:50:54.448-07:00",
+      "contentSha256": "9663fd26ab75ef89def8609bc7277c0933ae4babfc226f680991eceb4c27f978",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1270847302852022273",
+      "timestamp": "2024-08-07T13:53:28.201-07:00",
+      "contentSha256": "49fb6b15e2360970af1955dc9b97915e06d00b8b7e60944422d1b767dfe048ea",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1270847395873423380",
+      "timestamp": "2024-08-07T13:53:50.379-07:00",
+      "contentSha256": "b47123a61484d2fd2d1af9aaee1add96346914e244bdc0b7be6723199263cd0a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316610885879599147",
+      "timestamp": "2024-12-11T19:41:36.641-08:00",
+      "contentSha256": "1b9754dbc7d7e82571b2bf97df588fb23fb3db248c5802dce2b39ab22a208073",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316611711939248159",
+      "timestamp": "2024-12-11T19:44:53.589-08:00",
+      "contentSha256": "824d675b8eb979318e3e3abad401deaaa251b3aeda838fd49e50d5d7bde17181",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316613123976859659",
+      "timestamp": "2024-12-11T19:50:30.245-08:00",
+      "contentSha256": "24134a66bfbef21918082dadb931a13f6463edb18b26f1575990b4290db1dc21",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316613419792601178",
+      "timestamp": "2024-12-11T19:51:40.773-08:00",
+      "contentSha256": "fced3e9bad8b66cc5656b40d264bda3a9d4006747f6ce35dfe71b233f16bebab",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316614492876181535",
+      "timestamp": "2024-12-11T19:55:56.616-08:00",
+      "contentSha256": "11e8e4f7cb493e309376035858f15c656a54866083946ef7e278e433da338000",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316619594554802207",
+      "timestamp": "2024-12-11T20:16:12.951-08:00",
+      "contentSha256": "5471809c8586a447d6a5c6d68eceb117b7896f4de173ad58d2157ac7f449ae1e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316620080490086412",
+      "timestamp": "2024-12-11T20:18:08.807-08:00",
+      "contentSha256": "7811b71773cd28fef6d99d74f14604c980f4a1c2daea181fa68d6bbd5f370067",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316620556128227338",
+      "timestamp": "2024-12-11T20:20:02.208-08:00",
+      "contentSha256": "a899531dfa99dacafea0d15c18d046df19379f504f17be5b93c62b2b4cb37ac5",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316621271978479698",
+      "timestamp": "2024-12-11T20:22:52.88-08:00",
+      "contentSha256": "adf50222a4751bd7a61c7d04d7e1e12ca65752c43bd09bd4dcaea9590c54644e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316622365937106985",
+      "timestamp": "2024-12-11T20:27:13.7-08:00",
+      "contentSha256": "9c670db8699d087b52feac0041d05fa835e5b029922e947df327ca6091950543",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316623306866167828",
+      "timestamp": "2024-12-11T20:30:58.035-08:00",
+      "contentSha256": "156354f76428f490befc46c3a5c70df4569687ae8f708fe8133de53bd0e21d78",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316623543663984661",
+      "timestamp": "2024-12-11T20:31:54.492-08:00",
+      "contentSha256": "2e6f8a74f4495bd49032068331488f9db0fbbe25f61715b431689b1f11a0b9ef",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316623747456958555",
+      "timestamp": "2024-12-11T20:32:43.08-08:00",
+      "contentSha256": "9a2a84c639c37c9468559d62966c555f5f1dadf1d980b17219c35b661372a13f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316625341103476737",
+      "timestamp": "2024-12-11T20:39:03.035-08:00",
+      "contentSha256": "0f76bde1b641b3291b0fc65ed24ed741ebdd7fa06ea4a6d4a89f8c05d3863c48",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316626346763620486",
+      "timestamp": "2024-12-11T20:43:02.803-08:00",
+      "contentSha256": "f687765e9d38a23ee74a16789f0a4549261bae7448dccd5a79ad0e227367acb0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316626473859284992",
+      "timestamp": "2024-12-11T20:43:33.105-08:00",
+      "contentSha256": "f28d6e2d015e4c2e1685fd04a4d0de09fc1d0f102916d463d8c1aeff79951599",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316626590402220142",
+      "timestamp": "2024-12-11T20:44:00.891-08:00",
+      "contentSha256": "8b951857392a28a23603d93f1f8a8a6f736591b2bf3117698cd6226a9b66fb52",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316628714246635541",
+      "timestamp": "2024-12-11T20:52:27.255-08:00",
+      "contentSha256": "41e58587d296da69714ebc054b72614521317f6840d341086098cc59d84285ba",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316630084043407400",
+      "timestamp": "2024-12-11T20:57:53.84-08:00",
+      "contentSha256": "97fcae2e65a28e8aab8898b65214b8106d6e19213faba9f261be8065fcefcb2e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316630220626858097",
+      "timestamp": "2024-12-11T20:58:26.404-08:00",
+      "contentSha256": "c1d3c6796222ddc154b8f5480da3d90c6b4034499b799fd18b1f4716c42804f0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316630737684004895",
+      "timestamp": "2024-12-11T21:00:29.68-08:00",
+      "contentSha256": "04d888e395ca5e09a7d20b2f30aace5bf2772fe5002b4144b1814ea782fa497b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316632642795606078",
+      "timestamp": "2024-12-11T21:08:03.894-08:00",
+      "contentSha256": "5f2cd5c5e4b21102f325c309369451797ad2f7b093fa42dc67e949ebfa44f7a7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316634225486594051",
+      "timestamp": "2024-12-11T21:14:21.237-08:00",
+      "contentSha256": "c2af00a1de957d9eb2c35da72bb131e0628fbfc7e314d32dcc766602de09a437",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316639595776966657",
+      "timestamp": "2024-12-11T21:35:41.614-08:00",
+      "contentSha256": "4bcb3c020ef704f215a29c43ea1b764c1bf5d22b4c7b5e36aa41ffc28d8b3dd0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316640167850938411",
+      "timestamp": "2024-12-11T21:37:58.007-08:00",
+      "contentSha256": "c2615414368abf811689f08b9cb9599c75fce362d2c25493bb38a65c66894017",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316644148949811240",
+      "timestamp": "2024-12-11T21:53:47.175-08:00",
+      "contentSha256": "77748f529514f49fb78b3791163ae9ade24f6abef9970ae98bc915e4630fceb7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316644911470346312",
+      "timestamp": "2024-12-11T21:56:48.974-08:00",
+      "contentSha256": "0dce54e1a0e3ab70060a91cdcc97ba6bd80a0e8c707b15f8ec6f96e2a1ec345a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316645177133240372",
+      "timestamp": "2024-12-11T21:57:52.313-08:00",
+      "contentSha256": "9f97293f52c7dd2a80a6b41de7dc3ac35e7dd3f03738cb9a97038f63038c875a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316645676733566996",
+      "timestamp": "2024-12-11T21:59:51.427-08:00",
+      "contentSha256": "3563c95785c7eccd3df6f60eb35312db41fed353fc76d40c5fd410876431d6ef",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316645686824931339",
+      "timestamp": "2024-12-11T21:59:53.833-08:00",
+      "contentSha256": "c5c0e732cd8e066d0b77199cf0b6206fb4978dfcdc0d6be05285a2a548ba15a6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316646168620564502",
+      "timestamp": "2024-12-11T22:01:48.702-08:00",
+      "contentSha256": "28e9e240173c63dcde16cf79a436b7a589d798b1f4d8b9ecb4745cafe90d8fbd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1316646974568534027",
+      "timestamp": "2024-12-11T22:05:00.855-08:00",
+      "contentSha256": "75a486748f8e8df70f267b0d0dc78988d3ebcfc5320aa16bb5be02eef0514abd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1331069005003489310",
+      "timestamp": "2025-01-20T17:13:00.859-08:00",
+      "contentSha256": "49a237299f3ff279b3169330ac76d3cc7aa1b03cdede91347bcc705043f80900",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1331070109460070450",
+      "timestamp": "2025-01-20T17:17:24.182-08:00",
+      "contentSha256": "acaed65640d6530b0560bc7adc38d99a5d91aab214f627330cb2b7034f6918d7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1331070590773231629",
+      "timestamp": "2025-01-20T17:19:18.936-08:00",
+      "contentSha256": "7fa01131bbc5a6ce416690cc5685da10ddfd4a27fcaa1aa62021a2db7c11207c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1331072110197739645",
+      "timestamp": "2025-01-20T17:25:21.195-08:00",
+      "contentSha256": "641a6dbd3d85c72534f40f48bdd8f1b44fd1959c652ddfaf15d6202a7c8921a8",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1331074417840881676",
+      "timestamp": "2025-01-20T17:34:31.38-08:00",
+      "contentSha256": "300dede0904c1bc0c7a9d6388b9b4d9ded7fbc4e19398bcd9948c52351427148",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1331090040004284488",
+      "timestamp": "2025-01-20T18:36:35.994-08:00",
+      "contentSha256": "e3918512d9676a444fbafd3ad581e642c61e67b115a39b62e1c472f7a3baa40b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1331090601617264743",
+      "timestamp": "2025-01-20T18:38:49.893-08:00",
+      "contentSha256": "10e2c114dde03d475d4b7931052b42b882554d24d0d0df028bcc159cc1bd17fd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1331091263226642433",
+      "timestamp": "2025-01-20T18:41:27.633-08:00",
+      "contentSha256": "9cff368d3dafb8297165e9bd7529635a9bbfc314da8019468eefc039c6f85027",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369721102162591815",
+      "timestamp": "2025-05-07T10:02:38.943-07:00",
+      "contentSha256": "242888cbc571d05da3d86a970b7d7bf1a15a94ab1f701a13a6dcf1fa7913aaab",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369722081335312466",
+      "timestamp": "2025-05-07T10:06:32.396-07:00",
+      "contentSha256": "7126b83f7dfecd02c60be30cd059e0e223a7032bf830dc6d370e80d38470c794",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369722716403404964",
+      "timestamp": "2025-05-07T10:09:03.808-07:00",
+      "contentSha256": "50ecf199042714ea16e245be2e09def6d2b9c2172cc8633d00004e9725dab877",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369723396484501596",
+      "timestamp": "2025-05-07T10:11:45.952-07:00",
+      "contentSha256": "fe575a6413d1fb586da6037b19fd280e2cc94f6fa6ad6a32cb21aba880281a06",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369724128394743888",
+      "timestamp": "2025-05-07T10:14:40.453-07:00",
+      "contentSha256": "3d195e9eb89ab51fcf2d1a04ad1b4428e7076e60e5a1c0a443eda1fc2033922f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369725417937961143",
+      "timestamp": "2025-05-07T10:19:47.904-07:00",
+      "contentSha256": "c553f3f99c872fd683710fdb7ffc2d5514c0fc7aa2c38cd633ca77d3cdb7ad8e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369725578265235541",
+      "timestamp": "2025-05-07T10:20:26.129-07:00",
+      "contentSha256": "29c14cf6cec8cb5a976f308d2b3273b1dc0d81456daeba404dda0b3c19b8f8fa",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369726786765848757",
+      "timestamp": "2025-05-07T10:25:14.258-07:00",
+      "contentSha256": "3d2f375b110f8320d61a8d1f27066b56e0dc8ad828bc51cf429f779007d8028f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369730050529693878",
+      "timestamp": "2025-05-07T10:38:12.4-07:00",
+      "contentSha256": "c1b4961716cd2a6c6140462680477a74ead0122be68dc2326626023a64890958",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369732736297734284",
+      "timestamp": "2025-05-07T10:48:52.737-07:00",
+      "contentSha256": "ad22f5f619dba737c05dd06d814ee8d78101a4c46e6791650220beca861b29c4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369750833318854739",
+      "timestamp": "2025-05-07T12:00:47.403-07:00",
+      "contentSha256": "99f06a22b2dcc84f4b0e877b3d016c1462cc8c96ffdd74e7111e696dd6107a36",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369752943301234769",
+      "timestamp": "2025-05-07T12:09:10.462-07:00",
+      "contentSha256": "e5b11886b309a775669d5f811cd36485148e3eaf82d13020a2e06fb33b911be0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369754312980299870",
+      "timestamp": "2025-05-07T12:14:37.019-07:00",
+      "contentSha256": "03ff084d37442e26431ed97964b3bb41a1a47566c619f835ffbe11dff121a2b1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1369755298348142649",
+      "timestamp": "2025-05-07T12:18:31.949-07:00",
+      "contentSha256": "0215d8efcc61b95ba2d469b2df41e1ab22821067481d91943de93c0dcb10440d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381473297589342272",
+      "timestamp": "2025-06-08T20:21:40.678-07:00",
+      "contentSha256": "76c2e1d8bb5567439b93d279a1577414cc58995202c9129eb5e00cf2f18e8d11",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381473777283498088",
+      "timestamp": "2025-06-08T20:23:35.046-07:00",
+      "contentSha256": "ff770b31db3fb2afbb1cf044b10468f9b4952fa9894daf20db1e222a39d1aa93",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381473927246778378",
+      "timestamp": "2025-06-08T20:24:10.8-07:00",
+      "contentSha256": "f8509af41bc45b7a2f5e86794225bba530b19d10561e1e172886a76c67e4d356",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381474178217148468",
+      "timestamp": "2025-06-08T20:25:10.636-07:00",
+      "contentSha256": "2f999269145d6a92b4faa076773ad3d6ce5a4f996127b537ec6502cda066a61a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381474288267300999",
+      "timestamp": "2025-06-08T20:25:36.874-07:00",
+      "contentSha256": "acd33425de6f8eec148c12d9d5e84d25e531e7f5fc5e04293892304c4963cb02",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381474425416843364",
+      "timestamp": "2025-06-08T20:26:09.573-07:00",
+      "contentSha256": "2a4ca1b941ae7fda4dde05ae8c6b0da9ab67b161a16c53976e98b0721935908f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381474502424395850",
+      "timestamp": "2025-06-08T20:26:27.933-07:00",
+      "contentSha256": "6e0777151a78f667ec6408e5a781e71d1c0159c1ac693123be63e69054baecd5",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381475066398638111",
+      "timestamp": "2025-06-08T20:28:42.395-07:00",
+      "contentSha256": "7efc8c306b6a37e6edffbb5c5ac0c1d76f5c8772831ab4daf0aff0c90ee683c0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381475078641946675",
+      "timestamp": "2025-06-08T20:28:45.314-07:00",
+      "contentSha256": "bd7d6c5afaba4c6c21c5edee6aca0208c1b08b22ce97f3021069bf5f05924112",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381475125660225677",
+      "timestamp": "2025-06-08T20:28:56.524-07:00",
+      "contentSha256": "bd1fbca0c3668eb067943ab922377608efd9b04fc46f756fdbd5445785760f39",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381476397163479182",
+      "timestamp": "2025-06-08T20:33:59.674-07:00",
+      "contentSha256": "55ef17f027c770ee11cfd784b61bf908ae16dca3b7d487e3e4c846335e0728cc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381483981580800041",
+      "timestamp": "2025-06-08T21:04:07.94-07:00",
+      "contentSha256": "340dd24a717c45d3f71a09bf4df4ffa32222788209619fb61e4643be766eb3dd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1381484443587579965",
+      "timestamp": "2025-06-08T21:05:58.091-07:00",
+      "contentSha256": "684afe402da3ad4bd9cbcbb69351c2aa5f895a54bd79598a33b4bfd2cdd94ef2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384633401340071987",
+      "timestamp": "2025-06-17T13:38:48.124-07:00",
+      "contentSha256": "7031a24190bb34adaedfa1b289120756d4051f1ceb03eebda58e8d005b5fbcaa",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384635049286045709",
+      "timestamp": "2025-06-17T13:45:21.025-07:00",
+      "contentSha256": "d5350cd157a06ade22ffcabd64b7737d03e196c9da232f3c7324e1d73969dac4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384636470794649700",
+      "timestamp": "2025-06-17T13:50:59.939-07:00",
+      "contentSha256": "48b780b68705ef8f43d66b41ed858da3d9e0e4a51612e878288dea5d701ad9fc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384637308422193164",
+      "timestamp": "2025-06-17T13:54:19.645-07:00",
+      "contentSha256": "193d146f6ad3538faa128b711ef8c7d102aee871c303b6818908d60bd9529f8f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384637661318479924",
+      "timestamp": "2025-06-17T13:55:43.782-07:00",
+      "contentSha256": "ad781b5e71838ef52617987896cd7f9d0c8ea6d9bf83144d46463d87dd3f593a",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384638532953309348",
+      "timestamp": "2025-06-17T13:59:11.596-07:00",
+      "contentSha256": "4cb2112cd64d8784793d7e44410803bf63ab3c9756814e121b2cddcd54802538",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384639297029668895",
+      "timestamp": "2025-06-17T14:02:13.766-07:00",
+      "contentSha256": "3db2f1aaf15d8cd85490637804aed186dd869b00175fc661d5b433516eec4c62",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384639562701213777",
+      "timestamp": "2025-06-17T14:03:17.107-07:00",
+      "contentSha256": "3d442af57d304431b2803e1b084b43f4400dd620dba6446194e89437e6e08d5b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384643247330299974",
+      "timestamp": "2025-06-17T14:17:55.591-07:00",
+      "contentSha256": "3af61fde3fbe00f3c1896920a95fd334fcd800adf7743690048990ab7eb457b3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384645237770817536",
+      "timestamp": "2025-06-17T14:25:50.149-07:00",
+      "contentSha256": "2863b758d51d1246b3a087e1878d4d607416249b57f5a95c900a92b0eb76b2bd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384647853439189156",
+      "timestamp": "2025-06-17T14:36:13.773-07:00",
+      "contentSha256": "db6702103c050bdfe2d6bd0f16135af2cbc76b92edfc3e23f3eecf5e96c9829e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384648095815569469",
+      "timestamp": "2025-06-17T14:37:11.56-07:00",
+      "contentSha256": "0a96259b95fce22d7ec67cc59f8b34b1020c5385546366946e38f307021717ed",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384648753130246279",
+      "timestamp": "2025-06-17T14:39:48.276-07:00",
+      "contentSha256": "b5a81e6af1fb7a2e6c187810807d06920f8ec9485631a01784824b1576ee8485",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384651559421476866",
+      "timestamp": "2025-06-17T14:50:57.348-07:00",
+      "contentSha256": "828cfc8a7216fda4d66eeabc06100b57c51bdbe06c27c5bbc015dfffdf61d735",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384652789719765123",
+      "timestamp": "2025-06-17T14:55:50.674-07:00",
+      "contentSha256": "9ad164dee615b06eae25ef3e6b8377b9423f1e20d4b2e8a513c5c6ae57e5827d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1384660566421012554",
+      "timestamp": "2025-06-17T15:26:44.784-07:00",
+      "contentSha256": "d01cf6d936694712c408f60bd232d50766e01ecb3a24208277892dc9efa3fcb2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386894294564077650",
+      "timestamp": "2025-06-23T19:22:47.074-07:00",
+      "contentSha256": "40e0fd098a86989208e283339f26b2cc77ab0f9093e38b591df3c5ca99cd702c",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386894544460578856",
+      "timestamp": "2025-06-23T19:23:46.654-07:00",
+      "contentSha256": "7f47138c5563301178dcdf6b681037a93f4c9834a1949480a7f6e90fb2e44631",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386897734799196263",
+      "timestamp": "2025-06-23T19:36:27.29-07:00",
+      "contentSha256": "1c9ac5230859d8a394939f9a770e0bd6ff6c66c5fa2e01f8d9fd3c1b858e8fb2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386898144318590987",
+      "timestamp": "2025-06-23T19:38:04.927-07:00",
+      "contentSha256": "349aba65a42fa4c0e683cc97f5847432de80206fb12901cf4dc2160c833d38f3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386898583621468260",
+      "timestamp": "2025-06-23T19:39:49.665-07:00",
+      "contentSha256": "fcfc723415173d5d67dd4deaa355571b12f5b65ff5fe98474f9a5c745ce7cb62",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386898778489098252",
+      "timestamp": "2025-06-23T19:40:36.125-07:00",
+      "contentSha256": "3cf1e45a72f08be8cd34e06f520b818503a749f6c66b199b16d6d6c89959d4fe",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386898866934386892",
+      "timestamp": "2025-06-23T19:40:57.212-07:00",
+      "contentSha256": "53d511d42c45757b3e044176f61342d63d5edc787975c34a73a8d1ff98103e65",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386906507458904225",
+      "timestamp": "2025-06-23T20:11:18.855-07:00",
+      "contentSha256": "9fe2ec66f8ee75fa968b283c15d3c82caef203f32ad5eb3a92d858935fa269ed",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386907252119572490",
+      "timestamp": "2025-06-23T20:14:16.396-07:00",
+      "contentSha256": "888d19b76a4c44b628f9292191f4a72dc14f163d5878dec88f4406e477a60066",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386907647646630082",
+      "timestamp": "2025-06-23T20:15:50.697-07:00",
+      "contentSha256": "31190389a56a72a146716ddfbfc43df84671af4a63840e1eff870bc87cfcda14",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1386907810310393886",
+      "timestamp": "2025-06-23T20:16:29.479-07:00",
+      "contentSha256": "241a6e425f7fa0502690b789ff64b91764fc7a942ad3aed3856cc1654bd9d0f2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1456820324233511035",
+      "timestamp": "2026-01-02T17:23:51.71-08:00",
+      "contentSha256": "bf4f8a5c32cd1948462d39ed76db5902d9057237e48f111f613deaa7965a1782",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1456820760420028556",
+      "timestamp": "2026-01-02T17:25:35.705-08:00",
+      "contentSha256": "4157add7724ecd1ad5d4e6dec516673d2c817aeb41fcb6b431a4f4e5f2808ed3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1456821514509877268",
+      "timestamp": "2026-01-02T17:28:35.494-08:00",
+      "contentSha256": "df14b832ca23ac542eb5baf8c9a352b814975b5b0f57ab548125f8bc11190d64",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1456822152710983710",
+      "timestamp": "2026-01-02T17:31:07.653-08:00",
+      "contentSha256": "40c5969a2adea5fc306a4fd2185b5c4955860be072fdb696efc16e90774d45e7",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1456822911569629216",
+      "timestamp": "2026-01-02T17:34:08.579-08:00",
+      "contentSha256": "6eed8903821fa5320cbfd548ac2c27a79bbcdf358b3c95bb657c803256a4608b",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1456822913398341643",
+      "timestamp": "2026-01-02T17:34:09.015-08:00",
+      "contentSha256": "e7f2019b454ad2db6f092719183daa1c8e309aad25263e6e2e98f6f9aa0a69d1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1456827834394869842",
+      "timestamp": "2026-01-02T17:53:42.272-08:00",
+      "contentSha256": "d64f543083d9b166cd5aabcbf7ebe4aa9cb895d00ec40a1886204b0dbb70096e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472753624999268604",
+      "timestamp": "2026-02-15T16:37:06.639-08:00",
+      "contentSha256": "5e2561331b3d138939c0d0f04b3bcfcf771a5119f833d51edb023df9fd33a323",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472753812694503465",
+      "timestamp": "2026-02-15T16:37:51.389-08:00",
+      "contentSha256": "5178481d857aee40efaa7f1d6e077016fcf08acac7245eec2e0248bff0087e56",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472754525361275013",
+      "timestamp": "2026-02-15T16:40:41.302-08:00",
+      "contentSha256": "8707d8247b67500fd9e8ea38dfa8556f09967fc32787c78a0c9fe71a85652d10",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472754640725610690",
+      "timestamp": "2026-02-15T16:41:08.807-08:00",
+      "contentSha256": "ebf9b17e46f5249861fdf646857bfbbf44acca650c18d32b7f23d8f2d23b7e09",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472755130238504981",
+      "timestamp": "2026-02-15T16:43:05.516-08:00",
+      "contentSha256": "8d087d88d559393d5b63760dca4e4b1d2cd0a445bc24371485e022c7f6970fe0",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472759167843438685",
+      "timestamp": "2026-02-15T16:59:08.156-08:00",
+      "contentSha256": "3eb411e62500d1b3ff7e857348f57da4e0c96f3a9de156d6b32912be2b2f8ff2",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472760533861138463",
+      "timestamp": "2026-02-15T17:04:33.84-08:00",
+      "contentSha256": "b84ffdc7ca9b80d764a2578a3e20f21b4cd8e2006b304035654dca8172e765b4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472760647694549255",
+      "timestamp": "2026-02-15T17:05:00.98-08:00",
+      "contentSha256": "7fa6090002ffa17fe5909cf38ff9c39d8ca35684ad53db9ad71b9c4d23787042",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472761018848383181",
+      "timestamp": "2026-02-15T17:06:29.47-08:00",
+      "contentSha256": "b343d4c66f441adcbf0880d7ea83ba55f2f3bd388422c66fe2290f046ef22c02",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472761840248295434",
+      "timestamp": "2026-02-15T17:09:45.307-08:00",
+      "contentSha256": "a9e4ea1063cc97522443708df97207edc1f3e4a5c22429c9c8e07d41fe5e5bd4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472762237251879129",
+      "timestamp": "2026-02-15T17:11:19.96-08:00",
+      "contentSha256": "3213a8acf90ed98f3448699bf388b138ca1fc2628ed59e68e6a4ae3270699239",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472762344378466405",
+      "timestamp": "2026-02-15T17:11:45.501-08:00",
+      "contentSha256": "464fe8d2c779c2d06b47d51d77bd15e409b9b976746f19c5a194b88b98f91ff6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472762450196562033",
+      "timestamp": "2026-02-15T17:12:10.73-08:00",
+      "contentSha256": "4c0f47f15b84b617ca2864c8b54810360f33ab474ab8d2f8972dbcf1eb0c1be3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1472763409748594829",
+      "timestamp": "2026-02-15T17:15:59.505-08:00",
+      "contentSha256": "bee0f1170623dcff454f67de47500381996a5be153e4a4d102a036cf8599becf",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487913559340879982",
+      "timestamp": "2026-03-29T13:37:16.644-07:00",
+      "contentSha256": "dd80ea3b6191b0c0e47fd6b2c9d1c2272a81c9b952f4370af2143dedc18a5a0d",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487915676663418911",
+      "timestamp": "2026-03-29T13:45:41.453-07:00",
+      "contentSha256": "dcad277b2c3adb259b21fa5625f3986b6e5e98be5ed81bba8cb0a09e5f2bf194",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487922455182971061",
+      "timestamp": "2026-03-29T14:12:37.578-07:00",
+      "contentSha256": "ef157782869af3b211b37bfe7ddb1ce4c4b13833400d2b80b1d00e4fc3d20457",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487928382426714242",
+      "timestamp": "2026-03-29T14:36:10.743-07:00",
+      "contentSha256": "c3d445493180a0d5b87756db595d6228a1e339cdf2e2e39d543dfcffc856a3e1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1487936860318859284",
+      "timestamp": "2026-03-29T15:09:52.03-07:00",
+      "contentSha256": "db48f00f0d1440e1561b0eb84a19bcee42b11f3354fe8bd21e83ef780f883c72",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506707476752367627",
+      "timestamp": "2026-05-20T10:17:35.729-07:00",
+      "contentSha256": "5828a090f19adc1ff7b51d5dc3fa8cf47880902cbf0660e6b3dd79b142187353",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506708076592496790",
+      "timestamp": "2026-05-20T10:19:58.742-07:00",
+      "contentSha256": "65a05a23b889b9c7e4027efdc777fa5cd98e9dbc9c9f29b2d9b7dc0473f40b7e",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506708819731026010",
+      "timestamp": "2026-05-20T10:22:55.92-07:00",
+      "contentSha256": "c40103cdc7a8a9b66fec619bbc5eb167f959c7ae59f2b2c73b868cf2f5ca43f4",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506709583433961474",
+      "timestamp": "2026-05-20T10:25:58.001-07:00",
+      "contentSha256": "eb887f319170643e0457c5e849b7f38769762bb3c9b3f7862439f264ddea766f",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506710428313714938",
+      "timestamp": "2026-05-20T10:29:19.436-07:00",
+      "contentSha256": "f7328db41d38470df75bcda2286005073609d6301ad7bbdc644a36c158c61624",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506710543107494029",
+      "timestamp": "2026-05-20T10:29:46.805-07:00",
+      "contentSha256": "e8540ff0c291565058f45244398fc24cd526065eba0644db41f06389ec76d6fc",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506711923750862940",
+      "timestamp": "2026-05-20T10:35:15.976-07:00",
+      "contentSha256": "a137b9d28b0d4a9cab6aa2812d70a320d9fe050c46af1d293b1f49f32b85ba31",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506712830236299324",
+      "timestamp": "2026-05-20T10:38:52.099-07:00",
+      "contentSha256": "6afc0a95fda187f3ae486f4d680b83b8041fb64379aa442fe8fde0890bfe2b19",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506714270438654003",
+      "timestamp": "2026-05-20T10:44:35.47-07:00",
+      "contentSha256": "3c5892602fbe3a549b06ae02e10c5ec41d4c4514b0994911567fc88cf6ff5235",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506715172113485885",
+      "timestamp": "2026-05-20T10:48:10.446-07:00",
+      "contentSha256": "6adae0c67d88c030dfd4554d30e8d40609423376c876e121c4794125d3e8a8e3",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506715618202882250",
+      "timestamp": "2026-05-20T10:49:56.802-07:00",
+      "contentSha256": "2397c49fd1ff8d051bde5385f59af0014dc43d1b60a27037199136ed51d10496",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506715806006771783",
+      "timestamp": "2026-05-20T10:50:41.578-07:00",
+      "contentSha256": "26d23962773ea449f1be79b9f3605f081d9cd911bd0e950b2b3c7ce68e80a6eb",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506716770327724213",
+      "timestamp": "2026-05-20T10:54:31.49-07:00",
+      "contentSha256": "89dada20ff9d780a57f91b47562196b317d000e3a7e09fe9ef31279184ab0b55",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506716981985021983",
+      "timestamp": "2026-05-20T10:55:21.953-07:00",
+      "contentSha256": "a9da479f40386a3731daa4de974923a9f60f53feba2dffb98b71ef861462a0d6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506717211824361552",
+      "timestamp": "2026-05-20T10:56:16.751-07:00",
+      "contentSha256": "3fc744958dc085e667a6b1bbc799f08cb8163ac6855a4b27aadb3b00b5551d59",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506718179131654256",
+      "timestamp": "2026-05-20T11:00:07.375-07:00",
+      "contentSha256": "3f88e674f847f6ec272bd1a12ce408d787ea71275625a435c6dd0a3743092974",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506788488522105003",
+      "timestamp": "2026-05-20T15:39:30.44-07:00",
+      "contentSha256": "09b8ca80168794187a48f43d30d59deb8c3ed81b8b3ec745566899c0bff4bce1",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506788758475772147",
+      "timestamp": "2026-05-20T15:40:34.802-07:00",
+      "contentSha256": "85a061ab57a6b69bc0627a2e252936f366a6564a60b038dfa91ca9639da34378",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506789555683065978",
+      "timestamp": "2026-05-20T15:43:44.871-07:00",
+      "contentSha256": "96251f970a771df4a91e010d0ea5c064ac0e39e137b2e7b1a3ca62722ffefaa6",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/main-archive.sqlite3",
+      "channel": "1199083630354501673",
+      "id": "1506789911364108428",
+      "timestamp": "2026-05-20T15:45:09.672-07:00",
+      "contentSha256": "edb94dee15d9f538820693ea4492de63ea6443503a156577e7e0e5728a5cc9bd",
+      "versionKind": "original main-quest export"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270442939880968282",
+      "timestamp": "2024-08-06T18:06:40.556000+00:00",
+      "contentSha256": "f25f09296c8628ee2f448dc6b0a0582278b50657d122a2e148f035790fc82524",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270444017561243791",
+      "timestamp": "2024-08-06T18:10:57.495000+00:00",
+      "contentSha256": "4aa428d4146abe425a4868634043d05bb717cc3494a9d46fbcec22395d363839",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270444470999060685",
+      "timestamp": "2024-08-06T18:12:45.603000+00:00",
+      "contentSha256": "c3043bf44acde1dfd2a96bd2c4a44d80661e2bb9ff7781c75fb3578ca1b75f91",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270444803150057575",
+      "timestamp": "2024-08-06T18:14:04.794000+00:00",
+      "contentSha256": "47fb1695bc7af03656f76c226c6dd6bf34a5a3d1e52c2c91fda44967946d8257",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270447959200239758",
+      "timestamp": "2024-08-06T18:26:37.255000+00:00",
+      "contentSha256": "87ff2781d18726e494ab2bc8d0d050428373f0407f45b5a7a6f2fdda5c713b8f",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270448927317037107",
+      "timestamp": "2024-08-06T18:30:28.072000+00:00",
+      "contentSha256": "212fa906a9f0d2ec99807a643b8c2d0a41ac368e0cab39d4d6cc62a2b45c6ee0",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270449864031076454",
+      "timestamp": "2024-08-06T18:34:11.402000+00:00",
+      "contentSha256": "f2f60fcc1e69ccbbe2a7ab3ec9d6e26743af3343247c81df0269ba1735787eaa",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270450176514854932",
+      "timestamp": "2024-08-06T18:35:25.904000+00:00",
+      "contentSha256": "06c1fecbb5159d719b01e95920ff3a4c149c50a6b2a25d4704ebc81d7df4790e",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270450827965890590",
+      "timestamp": "2024-08-06T18:38:01.222000+00:00",
+      "contentSha256": "6f1f21bfb2e95c54b37f4a3929d3e6cfb876e3f11438ef837620efaa4f813179",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270451146531537048",
+      "timestamp": "2024-08-06T18:39:17.174000+00:00",
+      "contentSha256": "aa18070c33ec8b1a6d591807f75c41d6f08e6030dd545537170969fafdc37c66",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270451424333135923",
+      "timestamp": "2024-08-06T18:40:23.407000+00:00",
+      "contentSha256": "f36a1cde159535df66f30e728c7f930b229bbc3af35d2773aa02ac4ed5e955fa",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270451619791900805",
+      "timestamp": "2024-08-06T18:41:10.008000+00:00",
+      "contentSha256": "2a5f0f34d875483ff1e3f7088950c022afa3ae5504b825d1a26c883738a9b5e6",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270452309553578025",
+      "timestamp": "2024-08-06T18:43:54.460000+00:00",
+      "contentSha256": "c5dc575e9ab35221c1459ad0da37c3d1c13ecfb892b7e2c36f053b744e8f3b4e",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270453047394435183",
+      "timestamp": "2024-08-06T18:46:50.375000+00:00",
+      "contentSha256": "d2ced30a10e02ddaeb4f85cbe39392b6e0df713c4b418bd9ea5d226218067187",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270453915808170055",
+      "timestamp": "2024-08-06T18:50:17.421000+00:00",
+      "contentSha256": "0c3bf77157c1b0e6d234c047a1a1b2624a0a195d0d33c915366e279753a9e474",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270454207866208266",
+      "timestamp": "2024-08-06T18:51:27.053000+00:00",
+      "contentSha256": "69761fdfc45817d37826521b6c920ed3cca2278b2956a5a5a26c6ef17f7095c9",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270454805189627937",
+      "timestamp": "2024-08-06T18:53:49.466000+00:00",
+      "contentSha256": "fccb65dfdb49351559e24daec4bd4c1411c8d49e87bf2ed09b21e9fa5b3adb4e",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270455333478731919",
+      "timestamp": "2024-08-06T18:55:55.420000+00:00",
+      "contentSha256": "56bb01362d2ad60d9631662c4a3720857297628cdd36af654e90a06d6133e979",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1270418124185010320",
+      "id": "1270456784678686741",
+      "timestamp": "2024-08-06T19:01:41.413000+00:00",
+      "contentSha256": "e8c95acbf1836fe98d8e7463eecdae7653c3a688d57dc9f7ceabc315a0902ea5",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331109617673175154",
+      "timestamp": "2025-01-21T03:54:23.674000+00:00",
+      "contentSha256": "fffa71c3bb3c941d7e31e06fc6ecf4f4319b640e029a54d9032f67bad3e6f46e",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331110225146810368",
+      "timestamp": "2025-01-21T03:56:48.507000+00:00",
+      "contentSha256": "231976da4f389bab151ceff3fcc0fab9bf70a51e20abc9275bbf832b3839e275",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331110703586738333",
+      "timestamp": "2025-01-21T03:58:42.576000+00:00",
+      "contentSha256": "8dce3d6494f245fabf45650b90930d1e5c2f5f98d96aba896e7708493c9f8b8a",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331111306857676852",
+      "timestamp": "2025-01-21T04:01:06.407000+00:00",
+      "contentSha256": "fe8054d220dffb0893ce5ce923aef528582f900866002e8d6422d18724dd6071",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331112833110249505",
+      "timestamp": "2025-01-21T04:07:10.294000+00:00",
+      "contentSha256": "c3dd45f127aa9bbe6ce687c6655c22dbef937d8d2cfafea91377e34886b2f5e0",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331114139170508871",
+      "timestamp": "2025-01-21T04:12:21.683000+00:00",
+      "contentSha256": "566c8edd6e01aebaae43056bd51b82bb1774780118a5358b90f1fc10d993e4a6",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331114680546103357",
+      "timestamp": "2025-01-21T04:14:30.757000+00:00",
+      "contentSha256": "5ba79e1200636c0a33457bf42b1bc355b51c705fe6b80a28f9ef8bf66feed643",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331116179292688561",
+      "timestamp": "2025-01-21T04:20:28.086000+00:00",
+      "contentSha256": "4f0e2bdc2f014e2f7439f78ed3a662afc4b1ebb34336179a997391426249c57d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331116739399782462",
+      "timestamp": "2025-01-21T04:22:41.626000+00:00",
+      "contentSha256": "4f552e00811b57db2b3c2f378636e37bad9416be073fb49d9f58f39d7701180d",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331116955146391584",
+      "timestamp": "2025-01-21T04:23:33.064000+00:00",
+      "contentSha256": "7ba2f925fe946d4bd315412fefec6285876385299339ea2aa90b0a1205694249",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331117124902719560",
+      "timestamp": "2025-01-21T04:24:13.537000+00:00",
+      "contentSha256": "79c316642608aa7f7710c1412779cd9523de1f861fbdc3ff94fc28edee855905",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331117282809745418",
+      "timestamp": "2025-01-21T04:24:51.185000+00:00",
+      "contentSha256": "ea376526fa4081f714473ad98164caccce62ab76e47bafd67210f51a230684e1",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331117513286615060",
+      "timestamp": "2025-01-21T04:25:46.135000+00:00",
+      "contentSha256": "9cf618d8248374c460612ebc8018acdd528ae7390d30cdd6b2966338944b79b2",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331117825800015903",
+      "timestamp": "2025-01-21T04:27:00.644000+00:00",
+      "contentSha256": "fa9ce691ab2375d5b6ba3559e7034d780c34acf5d0ae6adc81989197edeacc15",
+      "versionKind": "native API cache"
+    },
+    {
+      "source": "quest-rp-thread-associations/source.sqlite3",
+      "channel": "1331105885560246282",
+      "id": "1331118155547807809",
+      "timestamp": "2025-01-21T04:28:19.262000+00:00",
+      "contentSha256": "e30753c1dd93c3ba3146ad41749489b02cb1f84ca1bdde01990f2a760d5e1e56",
+      "versionKind": "native API cache"
+    }
+  ],
+  "summaryDeltas": [
+    {
+      "path": [
+        "archiveIndex",
+        "npcs",
+        17
+      ],
+      "before": {
+        "title": "Commander Yvette",
+        "meta": "Guardian corps commander",
+        "article": "guardian-commander-yvette",
+        "image": "assets/characters/commander-yvette.png",
+        "summary": "A commander whose lifetime of service, wary dealings with visitors and grief for her soldiers give her corps a history of its own.",
+        "aliases": [
+          "Commander Yvette",
+          "Yvette",
+          "Guardian Commander Yvette"
+        ]
+      },
+      "after": {
+        "title": "Commander Yvette",
+        "meta": "Guardian corps commander",
+        "article": "guardian-commander-yvette",
+        "image": "assets/characters/commander-yvette.png",
+        "summary": "A Guardian commander proud of a lifetime guarding Prima’s sacred ward. Her port is robbed, her corps remembers its dead, and later testimony about her own murder leaves a discrepancy the surviving scenes do not resolve.",
+        "aliases": [
+          "Commander Yvette",
+          "Yvette",
+          "Guardian Commander Yvette"
+        ]
+      }
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "npcs",
+        20
+      ],
+      "before": {
+        "title": "Strange Talon",
+        "aliases": [
+          "Rahu Master of Intelligence"
+        ],
+        "meta": "Rahu Master of Intelligence",
+        "article": "strange-talon",
+        "summary": "An Owlin intelligence chief whose conditional hospitality becomes a lasting grievance against the adventurers he believes escaped Rahu justice.",
+        "image": "assets/characters/discord/ccc664a49d9b26187178d1dac7436d6fb9035f856a95e2b043a502419984e3d4.png",
+        "imageAlt": "Discord depiction of Strange Talon",
+        "imageCaption": "Strange Talon"
+      },
+      "after": {
+        "title": "Strange Talon",
+        "aliases": [
+          "Rahu Master of Intelligence"
+        ],
+        "meta": "Rahu Master of Intelligence",
+        "article": "strange-talon",
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record.",
+        "image": "assets/characters/discord/ccc664a49d9b26187178d1dac7436d6fb9035f856a95e2b043a502419984e3d4.png",
+        "imageAlt": "Discord depiction of Strange Talon",
+        "imageCaption": "Strange Talon"
+      }
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "npcs",
+        21
+      ],
+      "before": {
+        "title": "Ambassador Sophina",
+        "aliases": [
+          "Sophina"
+        ],
+        "meta": "Rahu ambassador and state intermediary",
+        "article": "sophina",
+        "summary": "The polished diplomatic voice of Rahu interests: willing to bargain and cooperate while defending the law and sovereignty of her own people.",
+        "image": "assets/characters/sophina.png",
+        "imageAlt": "Sophina in dark robes holding a sheathed sword beneath a red and white moon",
+        "imageCaption": "Ambassador Sophina"
+      },
+      "after": {
+        "title": "Ambassador Sophina",
+        "aliases": [
+          "Sophina"
+        ],
+        "meta": "Rahu ambassador and state intermediary",
+        "article": "sophina",
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access.",
+        "image": "assets/characters/sophina.png",
+        "imageAlt": "Sophina in dark robes holding a sheathed sword beneath a red and white moon",
+        "imageCaption": "Ambassador Sophina"
+      }
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "npcs",
+        28
+      ],
+      "before": {
+        "title": "Captain Hildethrax",
+        "aliases": [
+          "Hildethrax"
+        ],
+        "meta": "Rahu captain and operational officer",
+        "article": "captain-hildethrax",
+        "summary": "Second rank, guarded archives, investigations, and supply routes: the practical work behind Rahu authority.",
+        "image": "assets/characters/hildethrax.webp",
+        "imageAlt": "Hildethrax in a monochrome portrait wearing a dark coat and chains",
+        "imageCaption": "Captain Hildethrax"
+      },
+      "after": {
+        "title": "Captain Hildethrax",
+        "aliases": [
+          "Hildethrax"
+        ],
+        "meta": "Rahu captain and operational officer",
+        "article": "captain-hildethrax",
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people.",
+        "image": "assets/characters/hildethrax.webp",
+        "imageAlt": "Hildethrax in a monochrome portrait wearing a dark coat and chains",
+        "imageCaption": "Captain Hildethrax"
+      }
+    },
+    {
+      "path": [
+        "archiveIndex",
+        "npcs",
+        38
+      ],
+      "before": {
+        "title": "Kumai-218",
+        "article": "kumai-218",
+        "meta": "Arena keeper · trainer and examiner",
+        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation.",
+        "image": "assets/archive/kumai-218-poster.webp",
+        "video": "assets/archive/kumai-218.mp4",
+        "aliases": [
+          "Kumai",
+          "Kumai 218",
+          "Kumai-218"
+        ]
+      },
+      "after": {
+        "title": "Kumai-218",
+        "article": "kumai-218",
+        "meta": "Arena keeper · trainer and examiner",
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections.",
+        "image": "assets/archive/kumai-218-poster.webp",
+        "video": "assets/archive/kumai-218.mp4",
+        "aliases": [
+          "Kumai",
+          "Kumai 218",
+          "Kumai-218"
+        ]
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "ale-chemy-knights",
+        11
+      ],
+      "before": {
+        "label": "Guardian Commander Yvette",
+        "article": "guardian-commander-yvette",
+        "summary": "A commander whose account of loyal soldiers and their graves gives institutional service a human cost."
+      },
+      "after": {
+        "label": "Guardian Commander Yvette",
+        "article": "guardian-commander-yvette",
+        "summary": "A Guardian commander proud of a lifetime guarding Prima’s sacred ward. Her port is robbed, her corps remembers its dead, and later testimony about her own murder leaves a discrepancy the surviving scenes do not resolve."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "farkur",
+        7
+      ],
+      "before": {
+        "label": "Guardian Commander Yvette",
+        "article": "guardian-commander-yvette",
+        "summary": "A commander whose account of loyal soldiers and their graves gives institutional service a human cost."
+      },
+      "after": {
+        "label": "Guardian Commander Yvette",
+        "article": "guardian-commander-yvette",
+        "summary": "A Guardian commander proud of a lifetime guarding Prima’s sacred ward. Her port is robbed, her corps remembers its dead, and later testimony about her own murder leaves a discrepancy the surviving scenes do not resolve."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "veilguard",
+        4
+      ],
+      "before": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "The examiner who asks future Veilguard members what leadership means—and whom they would choose to follow."
+      },
+      "after": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "lady-severina",
+        5
+      ],
+      "before": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation."
+      },
+      "after": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "strange-talon",
+        0
+      ],
+      "before": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "Diplomacy turns a grievance into a Rahu legal position."
+      },
+      "after": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "strange-talon",
+        4
+      ],
+      "before": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "Rahu investigation, guarded access, and practical logistics."
+      },
+      "after": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "sophina",
+        0
+      ],
+      "before": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "The intelligence chief whose case she represents."
+      },
+      "after": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "sophina",
+        4
+      ],
+      "before": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "Rahu investigation, guarded access, and practical logistics."
+      },
+      "after": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "yami-no-majo",
+        2
+      ],
+      "before": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "Diplomatic boundaries beside Yami’s magical and cultural ones."
+      },
+      "after": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "ephraith",
+        0
+      ],
+      "before": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "The diplomatic voice of her state."
+      },
+      "after": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "ephraith",
+        1
+      ],
+      "before": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "The intelligence chief whose grievance becomes state business."
+      },
+      "after": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "ephraith",
+        5
+      ],
+      "before": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "Rahu investigation, guarded access, and practical logistics."
+      },
+      "after": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "captain-hildethrax",
+        1
+      ],
+      "before": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "Diplomatic agreements whose logistics she entrusts to Hildethrax."
+      },
+      "after": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "captain-hildethrax",
+        2
+      ],
+      "before": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "The intelligence official whose grievance Hildethrax defends."
+      },
+      "after": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "ithilrune",
+        3
+      ],
+      "before": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "Second rank, guarded archives, investigations, and supply routes: the practical work behind Rahu authority."
+      },
+      "after": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "rahuvia",
+        2
+      ],
+      "before": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "The diplomatic representative of the state centered here."
+      },
+      "after": {
+        "label": "Ambassador Sophina",
+        "article": "sophina",
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "rahuvia",
+        3
+      ],
+      "before": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "The operational officer escorting the peace delegation."
+      },
+      "after": {
+        "label": "Captain Hildethrax",
+        "article": "captain-hildethrax",
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "rahuvia",
+        4
+      ],
+      "before": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "Rahu intelligence and state security."
+      },
+      "after": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "swift-foot",
+        2
+      ],
+      "before": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "The Rahu official Swift attacks and who kills him in the August confrontation."
+      },
+      "after": {
+        "label": "Strange Talon",
+        "article": "strange-talon",
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "melian-starguard",
+        2
+      ],
+      "before": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation."
+      },
+      "after": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "vanguard",
+        0
+      ],
+      "before": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation."
+      },
+      "after": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
+      }
+    },
+    {
+      "path": [
+        "subchannelMap",
+        "thorn",
+        0
+      ],
+      "before": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation."
+      },
+      "after": {
+        "label": "Kumai-218",
+        "article": "kumai-218",
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
+      }
+    }
+  ],
+  "profileFieldDeltas": {
+    "strange-talon": {
+      "dek": {
+        "before": "An Owlin intelligence chief whose conditional hospitality becomes a lasting grievance against the adventurers he believes escaped Rahu justice.",
+        "after": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
+      },
+      "facts": {
+        "before": {
+          "Office": "Master of Intelligence",
+          "People": "Owlin",
+          "Allegiance": "Rahu · Witch Queen Ephraith",
+          "First major recovered scene": "18 June 2024",
+          "Last dated scene in dossier": "8 June 2025 · duel accepted",
+          "Later fate": "Unresolved",
+          "Region": "Prima"
+        },
+        "after": {
+          "Office": "Master of Intelligence",
+          "People": "Owlin",
+          "Allegiance": "Rahu · Witch Queen Ephraith",
+          "First major recovered scene": "18 June 2024",
+          "Last dated scene in dossier": "8 June 2025 · fatal duel with Ghilsen; Talon survives the encounter",
+          "Later fate": "Unresolved",
+          "Region": "Prima"
+        }
+      },
+      "brief": {
+        "before": {
+          "identity": "Rahu Master of Intelligence",
+          "significance": "An Owlin intelligence chief whose conditional hospitality becomes a lasting grievance against the adventurers he believes escaped Rahu justice.",
+          "actions": [
+            {
+              "title": "Magnus becomes a Rahu information source",
+              "event": "Magnus becomes a Rahu information source",
+              "date": "7 May 2025"
+            },
+            {
+              "title": "Magnus abducts Melian for the Rahu",
+              "event": "Magnus abducts Melian for the Rahu",
+              "date": "4 Jun 2025"
+            }
+          ],
+          "status": "Last dated entry in this selection: 4 Jun 2025. Later status is not established here.",
+          "relationships": [
+            {
+              "id": "ephraith",
+              "label": "Witch Queen Ephraith",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "scribonia",
+              "label": "Scribonia",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "melian-starguard",
+              "label": "Melian Starguard",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "sophina",
+              "label": "Ambassador Sophina",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "aravil",
+              "label": "Aravil",
+              "relation": "Connected in this history"
+            }
+          ],
+          "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+        },
+        "after": {
+          "identity": "Rahu Master of Intelligence",
+          "significance": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record.",
+          "actions": [
+            {
+              "title": "Magnus becomes a Rahu information source",
+              "event": "Magnus becomes a Rahu information source",
+              "date": "7 May 2025"
+            },
+            {
+              "title": "Magnus abducts Melian for the Rahu",
+              "event": "Magnus abducts Melian for the Rahu",
+              "date": "4 Jun 2025"
+            }
+          ],
+          "status": "Survives the 8 June 2025 duel with Ghilsen. His fate after that battle remains unresolved.",
+          "relationships": [
+            {
+              "id": "ephraith",
+              "label": "Witch Queen Ephraith",
+              "relation": "The sovereign he serves and reports to"
+            },
+            {
+              "id": "swift-foot",
+              "label": "Swift Foot",
+              "relation": "The attacker he kills before the embassy workers"
+            },
+            {
+              "id": "ghilsen",
+              "label": "Ghilsen",
+              "relation": "The challenger killed in their agreed duel"
+            },
+            {
+              "id": "sophina",
+              "label": "Ambassador Sophina",
+              "relation": "She presents Rahu charges to the wider council"
+            },
+            {
+              "id": "scribonia",
+              "label": "Scribonia",
+              "relation": "A knowledgeable visitor he wants as a source"
+            }
+          ],
+          "basis": "Existing public history and selected checked primary quests. Observed acts, institutional claims and later reports remain distinct; unresolved chronology is retained. The reading guide is not an exhaustive chronology or an importance ranking."
+        }
+      },
+      "profile": {
+        "before": null,
+        "after": {
+          "personality": "Observant, proud and capable of bargaining, contemplation and abrupt violence. His accusation against adventurers widens beyond named offenders; his later version of Swift’s attack leaves out words retained in the direct scene.",
+          "achievements": "Receives embassy visitors, offers payment for strategically useful knowledge, watches Rahu access and receives Melian in custody after Magnus’s operation. Kills Swift Foot and wins the fatal duel with Ghilsen. Receiving a captive does not prove that he ordered every act of the kidnapping.",
+          "relationships": "Ephraith is his sovereign; Sophina turns Rahu grievances into formal diplomatic demands. Hildethrax cooperates in access and investigation. Scribonia offers valuable knowledge, Olokun tests his patience, Magnus encounters his scars and hostility, and Cecil shares a brief contemplative conversation before duty interrupts."
+        }
+      }
+    },
+    "captain-hildethrax": {
+      "dek": {
+        "before": "Second rank, guarded archives, investigations, and supply routes: the practical work behind Rahu authority.",
+        "after": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
+      },
+      "facts": {
+        "before": {
+          "Allegiance": "Rahu · Witch Queen Ephraith",
+          "Title": "Captain",
+          "Self-described standing": "Second rank · exact hierarchy unresolved",
+          "Responsibilities": "Investigation · access · security · logistics",
+          "Recovered scenes": "31 May 2024–20 January 2025",
+          "Species and later fate": "Unknown",
+          "Region": "Prima"
+        },
+        "after": {
+          "Allegiance": "Rahu · Witch Queen Ephraith",
+          "Title": "Captain",
+          "Self-described standing": "Second rank · exact hierarchy unresolved",
+          "Responsibilities": "Investigation · access · security · logistics",
+          "Recovered scenes": "31 May 2024–23 June 2025 · selected quest and associated-room records",
+          "Species and later fate": "Unknown",
+          "Region": "Prima"
+        }
+      },
+      "brief": {
+        "before": {
+          "identity": "Rahu captain and operational officer",
+          "significance": "Second rank, guarded archives, investigations, and supply routes: the practical work behind Rahu authority.",
+          "actions": [
+            {
+              "title": "Hildethrax reports the Edran investigation",
+              "event": "Hildethrax reports the Edran investigation",
+              "date": "31 May 2024"
+            },
+            {
+              "title": "Sophina delegates food logistics to Hildethrax",
+              "event": "Sophina delegates food logistics to Hildethrax",
+              "date": "20 Jan 2025"
+            },
+            {
+              "title": "The peace delegation enters Rahuvia",
+              "event": "The peace delegation enters Rahuvia",
+              "date": "23 Jun 2025"
+            }
+          ],
+          "status": "Last dated entry in this selection: 23 Jun 2025. Later status is not established here.",
+          "relationships": [
+            {
+              "id": "ephraith",
+              "label": "Witch Queen Ephraith",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "nienna",
+              "label": "Nienna",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "olokun",
+              "label": "Olokun",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "strange-talon",
+              "label": "Strange Talon",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "sophina",
+              "label": "Ambassador Sophina",
+              "relation": "Connected in this history"
+            }
+          ],
+          "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+        },
+        "after": {
+          "identity": "Rahu captain and operational officer",
+          "significance": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people.",
+          "actions": [
+            {
+              "title": "Hildethrax reports the Edran investigation",
+              "event": "Hildethrax reports the Edran investigation",
+              "date": "31 May 2024"
+            },
+            {
+              "title": "Sophina delegates food logistics to Hildethrax",
+              "event": "Sophina delegates food logistics to Hildethrax",
+              "date": "20 Jan 2025"
+            },
+            {
+              "title": "The peace delegation enters Rahuvia",
+              "event": "The peace delegation enters Rahuvia",
+              "date": "23 Jun 2025"
+            }
+          ],
+          "status": "Last dated entry in this selection: 23 Jun 2025. Later status is not established here.",
+          "relationships": [
+            {
+              "id": "ephraith",
+              "label": "Witch Queen Ephraith",
+              "relation": "He escorts the company to her negotiations"
+            },
+            {
+              "id": "sophina",
+              "label": "Ambassador Sophina",
+              "relation": "Diplomatic agreements pass into his practical arrangements"
+            },
+            {
+              "id": "strange-talon",
+              "label": "Strange Talon",
+              "relation": "The intelligence chief whose injury he defends"
+            },
+            {
+              "id": "nienna",
+              "label": "Nienna",
+              "relation": "Her wrongful accusation forms part of his early investigative record"
+            },
+            {
+              "id": "olokun",
+              "label": "Olokun",
+              "relation": "A visitor, disputant and later member of the peace company"
+            }
+          ],
+          "basis": "Existing public history and selected checked primary quests. Observed acts, institutional claims and later reports remain distinct; unresolved chronology is retained. The reading guide is not an exhaustive chronology or an importance ranking."
+        }
+      },
+      "profile": {
+        "before": null,
+        "after": {
+          "personality": "Proud, exact about hierarchy and capable of both patient explanation and abrupt dismissal. He defends the Rahu’s account of merit and acknowledges their commercial interests. He can call a former enemy a traitor and still honor the escort’s promise of safety.",
+          "achievements": "Reports evidence in the Edran investigation, receives embassy visitors, guards access to archives, offers investigative cooperation, checks invitations and coordinates food and infrastructure negotiations. Later conducts the peace company along the overnight approach to the Queen. His stated second rank does not establish that he is second-in-command of the whole Rahu.",
+          "relationships": "Ephraith exercises sovereignty; Sophina delegates practical follow-up; Talon supplies intelligence and a grievance Hildethrax takes seriously. Nienna’s exoneration remains the outcome of the earlier case. Olokun repeatedly presses his boundaries, while Anky’s prayer for both sides receives his permission during the peace approach."
+        }
+      }
+    },
+    "sophina": {
+      "dek": {
+        "before": "The polished diplomatic voice of Rahu interests: willing to bargain and cooperate while defending the law and sovereignty of her own people.",
+        "after": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
+      },
+      "facts": {
+        "before": {
+          "Office": "Ambassador · not royalty",
+          "Sovereign": "Witch Queen Ephraith",
+          "Region": "Prima",
+          "Political priority": "Rahu law, honor, and interests",
+          "Recovered period": "January–May 2025",
+          "Species and later fate": "Unresolved"
+        },
+        "after": {
+          "Office": "Ambassador · not royalty",
+          "Sovereign": "Witch Queen Ephraith",
+          "Region": "Prima",
+          "Political priority": "Rahu law, honor, and interests",
+          "Recovered period": "January 2025–January 2026 · selected scenes and later public appearance",
+          "Species and later fate": "Unresolved"
+        }
+      },
+      "brief": {
+        "before": {
+          "identity": "Rahu ambassador and state intermediary",
+          "significance": "The polished diplomatic voice of Rahu interests: willing to bargain and cooperate while defending the law and sovereignty of her own people.",
+          "actions": [
+            {
+              "title": "Sophina delegates food logistics to Hildethrax",
+              "event": "Sophina delegates food logistics to Hildethrax",
+              "date": "20 Jan 2025"
+            },
+            {
+              "title": "Magnus becomes a Rahu information source",
+              "event": "Magnus becomes a Rahu information source",
+              "date": "7 May 2025"
+            }
+          ],
+          "status": "Last dated entry in this selection: 7 May 2025. Later status is not established here.",
+          "relationships": [
+            {
+              "id": "ephraith",
+              "label": "Witch Queen Ephraith",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "strange-talon",
+              "label": "Strange Talon",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "captain-hildethrax",
+              "label": "Captain Hildethrax",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "melian-starguard",
+              "label": "Melian Starguard",
+              "relation": "Connected in this history"
+            },
+            {
+              "id": "magnus",
+              "label": "Magnus Niriin",
+              "relation": "Connected in this history"
+            }
+          ],
+          "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+        },
+        "after": {
+          "identity": "Rahu ambassador and state intermediary",
+          "significance": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access.",
+          "actions": [
+            {
+              "title": "Sophina delegates food logistics to Hildethrax",
+              "event": "Sophina delegates food logistics to Hildethrax",
+              "date": "20 Jan 2025"
+            },
+            {
+              "title": "Magnus becomes a Rahu information source",
+              "event": "Magnus becomes a Rahu information source",
+              "date": "7 May 2025"
+            }
+          ],
+          "status": "Present at the public New Year gathering in the quest posted 2 January 2026. Her later circumstances remain unresolved.",
+          "relationships": [
+            {
+              "id": "ephraith",
+              "label": "Witch Queen Ephraith",
+              "relation": "The sovereign she represents and reports to"
+            },
+            {
+              "id": "strange-talon",
+              "label": "Strange Talon",
+              "relation": "His grievance becomes a formal council demand"
+            },
+            {
+              "id": "captain-hildethrax",
+              "label": "Captain Hildethrax",
+              "relation": "The contact for local operations and supply arrangements"
+            },
+            {
+              "id": "fenwick",
+              "label": "Fenwick",
+              "relation": "A respected intermediary asking for food and another penalty"
+            },
+            {
+              "id": "magnus",
+              "label": "Magnus",
+              "relation": "An outsider whose information earns attention within firm limits"
+            }
+          ],
+          "basis": "Existing public history and selected checked primary quests. Observed acts, institutional claims and later reports remain distinct; unresolved chronology is retained. The reading guide is not an exhaustive chronology or an importance ranking."
+        }
+      },
+      "profile": {
+        "before": null,
+        "after": {
+          "personality": "Composed, selective and capable of courtesy, condescension and severe judgment. She respects Lionel’s refusal of bloodshed without surrendering her own jurisdictional claim, and allows a useful outsider to approach without admitting him to state secrets.",
+          "achievements": "Represents the Rahu at the council, presents the case concerning Talon, offers food sales, entrusts implementation to Hildethrax and conducts state negotiations with a retinue that includes treasurers. Later appears openly at the New Year gathering. Neither her office nor that appearance makes her the Queen or establishes her knowledge of every covert operation.",
+          "relationships": "Ephraith is her sovereign, Talon the intelligence chief whose grievance she defends, and Hildethrax the operational contact. Melian is a political counterpart, Fenwick a respected intermediary, Jeele a useful trader and Magnus an increasingly useful but bounded source. Lionel receives respect for a conviction she does not share."
+        }
+      }
+    },
+    "guardian-commander-yvette": {
+      "dek": {
+        "before": "A commander whose lifetime of service, wary dealings with visitors and grief for her soldiers give her corps a history of its own.",
+        "after": "A Guardian commander proud of a lifetime guarding Prima’s sacred ward. Her port is robbed, her corps remembers its dead, and later testimony about her own murder leaves a discrepancy the surviving scenes do not resolve."
+      },
+      "facts": {
+        "before": {
+          "Island connection": "Prima",
+          "Role": "Guardian corps commander",
+          "Command boundary": "Pristinia militia command not established",
+          "Latest reviewed scene": "15 February 2026 · soldiers’ graves"
+        },
+        "after": {
+          "Island connection": "Prima",
+          "Role": "Guardian corps commander",
+          "Command boundary": "Pristinia militia command not established",
+          "Latest reviewed scene": "15 February 2026 · soldiers’ graves",
+          "Later report": "29 March 2026 · the Guardians refer to her murder; chronology unresolved"
+        }
+      },
+      "brief": {
+        "before": {
+          "identity": "Guardian corps commander",
+          "significance": "A commander whose lifetime of service, wary dealings with visitors and grief for her soldiers give her corps a history of its own.",
+          "actions": [
+            {
+              "title": "Farkur confesses before the Guardians",
+              "event": "Farkur confesses before the Guardians",
+              "date": "29 Mar 2026"
+            }
+          ],
+          "status": "Last dated entry in this selection: 29 Mar 2026. Later status is not established here.",
+          "relationships": [],
+          "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+        },
+        "after": {
+          "identity": "Guardian corps commander",
+          "significance": "A Guardian commander proud of a lifetime guarding Prima’s sacred ward. Her port is robbed, her corps remembers its dead, and later testimony about her own murder leaves a discrepancy the surviving scenes do not resolve.",
+          "actions": [
+            {
+              "title": "Farkur confesses before the Guardians",
+              "event": "Farkur confesses before the Guardians",
+              "date": "29 Mar 2026"
+            }
+          ],
+          "status": "Speaks in the quest posted 15 February 2026; named as a murder victim in the 29 March hearing. The discrepancy and her final condition remain unresolved.",
+          "relationships": [
+            {
+              "id": "farkur",
+              "label": "Farkur",
+              "relation": "His work on the escape ship becomes a later confession"
+            },
+            {
+              "id": "discovery-114",
+              "label": "Chief Guardian Horgrith",
+              "relation": "A fellow Guardian authority at the later hearing"
+            },
+            {
+              "id": "pristinia",
+              "label": "Pristinia",
+              "relation": "A neighboring community whose arrivals meet her corps’s distrust"
+            }
+          ],
+          "basis": "Existing public history and selected checked primary quests. Observed acts, institutional claims and later reports remain distinct; unresolved chronology is retained. The reading guide is not an exhaustive chronology or an importance ranking."
+        }
+      },
+      "profile": {
+        "before": null,
+        "after": {
+          "personality": "Direct, proud of her corps and wounded by the thought that divine newcomers could replace its lifetime of service. She tries to restore order after the stolen keys, defends the soldiers’ loyalty and remembers their graves. A narrated difficulty with deception is a scene observation, not a universal guarantee that she cannot lie.",
+          "achievements": "Commands a corps at a private military port, coordinates loading and guards access to supplies and a sacred ward. Attempts to stop the theft and later offers to show the soldiers’ graves. A later hearing calls her a murder victim, while an intervening quest gives her dialogue; no complete death or return account is established.",
+          "relationships": "Her soldiers are the people she calls loyal and continues to mourn. Navi questions her calling, Sparrow becomes the target of her detention order, and the escaping party defeats her control of the port. Farkur later confesses to enabling the escape, while Horgrith and Moliena keep the institutional grievance alive."
+        }
+      }
+    },
+    "kumai-218": {
+      "dek": {
+        "before": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation.",
+        "after": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
+      },
+      "brief": {
+        "before": {
+          "identity": "Arena keeper · trainer and examiner",
+          "significance": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation.",
+          "actions": [
+            {
+              "title": "The new vanguard entrusts leadership to Severina",
+              "event": "The new vanguard entrusts leadership to Severina",
+              "date": "14 Apr 2026 · recovered faction history"
+            }
+          ],
+          "status": "Last dated entry in this selection: 14 Apr 2026 · recovered faction history. Later status is not established here.",
+          "relationships": [
+            {
+              "id": "melian-starguard",
+              "label": "Melian Starguard",
+              "relation": "Connected in this history"
+            }
+          ],
+          "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+        },
+        "after": {
+          "identity": "Arena keeper · trainer and examiner",
+          "significance": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections.",
+          "actions": [
+            {
+              "title": "The new vanguard entrusts leadership to Severina",
+              "event": "The new vanguard entrusts leadership to Severina",
+              "date": "14 Apr 2026 · recovered faction history"
+            }
+          ],
+          "status": "Active in the field test posted 20 May 2026. His subsequent activities and the full scope of his office remain unresolved.",
+          "relationships": [
+            {
+              "id": "melian-starguard",
+              "label": "Melian Starguard",
+              "relation": "An early connection and the captured leader whose recovery demands a plan"
+            },
+            {
+              "id": "quake",
+              "label": "Quake",
+              "relation": "The early fighter whose tactical precision he notices"
+            },
+            {
+              "id": "lady-severina",
+              "label": "Lady Severina",
+              "relation": "A leader he presses for evidence of progress"
+            },
+            {
+              "id": "kasiri-ruza",
+              "label": "Kasiri Ruza",
+              "relation": "A successful candidate who openly questions his methods"
+            },
+            {
+              "id": "veilguard",
+              "label": "The Veilguard",
+              "relation": "The later company tested beyond his arena"
+            }
+          ],
+          "basis": "Existing public history and selected checked primary quests. Observed acts, institutional claims and later reports remain distinct; unresolved chronology is retained. The reading guide is not an exhaustive chronology or an importance ranking."
+        }
+      },
+      "profile": {
+        "before": {
+          "achievements": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation."
+        },
+        "after": {
+          "personality": "Severe, observant and impatient with speeches. He can mock John’s restraint, appreciate it, call for refreshments and praise a solution in a few plain words. His judgments are forceful and remain open to disagreement.",
+          "achievements": "Keeps the old arena, tests early arrivals, calls a Rahu war council, participates in the later vanguard contest and sets a field task that the company completes. Neither the arena’s safeguards nor his own account of divine assistance is generalized beyond its source context.",
+          "relationships": "Melian brings early candidates, Quake earns his tactical respect and John challenges the cost of his training. Severina, Kasiri, Camilla, Thorn and their companions meet his later tests. The field task ends with Severina giving Moira credit, which Kumai acknowledges without his usual sharp reply."
+        }
+      }
+    },
+    "ghilsen": {}
+  },
+  "editorialLimits": [
+    "The owner requests NPCs next. Five existing NPC identities gain histories; Ghilsen receives one necessary connected account while remaining a player. No new person, page, asset, event or quotation is created.",
+    "Explicit owner canon and established quest narration/outcomes govern. Claims, professional judgments, hypothetical tests and retrospective accusations retain their speakers. An institutional title does not imply omniscience, unrestricted jurisdiction or hidden approval of every operation.",
+    "All 233 cited versions match two read-only corpora: 199 original main-quest export versions and 34 native API cache versions. Original payload timestamps remain exact. Discovery and large working windows do not imply exhaustive reading; unchanged earlier dossier/RP material retains its qualifications.",
+    "Talon Paran and Talon Procoyon are excluded from the Strange Talon selection; a shared name fragment does not establish identity. The native fatal Swift Foot thread is distinct from the main-channel follow-up and from the Aravil/Ithilrûnë allegations.",
+    "Swift attacks first with a stated intent to wound, discards his sword and speaks before Talon kills him. The direct words and narrator outcome take precedence over Talon’s abbreviated later account. Talon’s real injury and the attack do not erase the witnessed killing or the servants’ burial response. The later council charges remain a separate grievance.",
+    "The primary June duel narrator explicitly leaves Ghilsen’s corpse and Talon alive. This resolves that encounter’s outcome without inventing a full exchange of attacks, deciding Talon’s later fate or merging Ghilsen’s later revival with a separate later report of death.",
+    "Hildethrax’s second rank is not expanded into second-in-command. His account of merit and free choice remains a claim beside the costs he describes. His overnight escort, permission for prayer and referral to Hoshi identify his work without giving him the Queen’s negotiating authority or disclosing private rites.",
+    "Sophina’s limited hints, retinue and later public nod do not expose state negotiations, identify concealed figures, establish universal trust in Magnus or settle covert responsibility. Her original office remains ambassador rather than royalty. The January 2026 posting is a later public appearance, not an invented date for a political settlement.",
+    "Yvette’s port theft, later speaking scene and subsequent named murder report are preserved together. The source does not supply a death/return scene, establish a mistaken speaker name or reconcile the dates. An optional owner clarification is requested; absent a canon decision the discrepancy stays explicit. Her corps is not silently made the Pristinia militia.",
+    "Kumai’s arena safeguards remain bounded to the exercise. His claim that he or Namo’o awakened the field-test opponents is not independently witnessed. Trainees’ objections and the completed task coexist; praise does not manufacture agreement with his methods or a universal resurrection rule.",
+    "All 391 timeline objects, dates, importance, participants and region assignments remain exact. A two-paragraph council passage moves intact within Talon’s history for reading order. All 41 older section IDs/titles/evidence objects, every older source/link and all unrelated content/media/roles/maps/quotes/261 previews survive.",
+    "Raw/controller data, private origins, ritual procedures, concealed identities, private guide/mentor material, numerical rules/reward tables and unreviewed media remain external. Metadata contains only already-public editorial descriptions and source IDs/timestamps/hashes."
+  ],
+  "preservation": {
+    "baselineFiles": 1643,
+    "existingChangedContent": [
+      "content/records/captain-hildethrax.json",
+      "content/records/ghilsen.json",
+      "content/records/guardian-commander-yvette.json",
+      "content/records/kumai-218.json",
+      "content/records/sophina.json",
+      "content/records/strange-talon.json",
+      "content/reference/world.json"
+    ],
+    "otherContentMediaRolesMapsAndQuotesExact": true,
+    "allTimelineObjectsDatesImportanceAndRegionsExact": true,
+    "oldSectionIdsTitlesAndEvidenceExact": 41,
+    "readingChapters": 30,
+    "newSections": 17,
+    "sourceVersions": 233,
+    "sourceVersionKinds": {
+      "original main-quest export": 199,
+      "native API cache": 34
+    },
+    "sourceCorpora": [
+      "quest-rp-thread-associations/main-archive.sqlite3",
+      "quest-rp-thread-associations/source.sqlite3"
+    ],
+    "individualSummaryChanges": 27,
+    "people": 262,
+    "records": 643,
+    "completeBodies": 594,
+    "sections": 2779,
+    "publicEvents": 365,
+    "totalTimelineObjects": 391,
+    "storyPages": 38,
+    "protectedPayloadBytes": 5251167,
+    "protectedPayloadSha256": "b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e"
+  },
+  "verification": "PASS five complete NPC histories and connected Ghilsen account; 127 narrative paragraphs; 30 chapters; 41 old bookmarks; every evidence panel/reference/fact and original decoded portraits; saved reload/focus; fresh390/320 fit/header clearance; five NPC-directory/modal/profile journeys; eight connected links and three searches; separate Talon grievances and explicit Yvette discrepancy; unchanged roles/roster/public-private boundaries; no script/public HTTP errors. Source/preservation, canonical, calendar, portrait, protected-asset, browse-preview, syntax and whitespace checks pass; representative local screenshots are inspected."
+}

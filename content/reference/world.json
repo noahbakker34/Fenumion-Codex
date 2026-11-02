@@ -15411,7 +15411,7 @@
         "meta": "Guardian corps commander",
         "article": "guardian-commander-yvette",
         "image": "assets/characters/commander-yvette.png",
-        "summary": "A commander whose lifetime of service, wary dealings with visitors and grief for her soldiers give her corps a history of its own.",
+        "summary": "A Guardian commander proud of a lifetime guarding Prima’s sacred ward. Her port is robbed, her corps remembers its dead, and later testimony about her own murder leaves a discrepancy the surviving scenes do not resolve.",
         "aliases": [
           "Commander Yvette",
           "Yvette",
@@ -15461,7 +15461,7 @@
         ],
         "meta": "Rahu Master of Intelligence",
         "article": "strange-talon",
-        "summary": "An Owlin intelligence chief whose conditional hospitality becomes a lasting grievance against the adventurers he believes escaped Rahu justice.",
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record.",
         "image": "assets/characters/discord/ccc664a49d9b26187178d1dac7436d6fb9035f856a95e2b043a502419984e3d4.png",
         "imageAlt": "Discord depiction of Strange Talon",
         "imageCaption": "Strange Talon"
@@ -15473,7 +15473,7 @@
         ],
         "meta": "Rahu ambassador and state intermediary",
         "article": "sophina",
-        "summary": "The polished diplomatic voice of Rahu interests: willing to bargain and cooperate while defending the law and sovereignty of her own people.",
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access.",
         "image": "assets/characters/sophina.png",
         "imageAlt": "Sophina in dark robes holding a sheathed sword beneath a red and white moon",
         "imageCaption": "Ambassador Sophina"
@@ -15595,7 +15595,7 @@
         ],
         "meta": "Rahu captain and operational officer",
         "article": "captain-hildethrax",
-        "summary": "Second rank, guarded archives, investigations, and supply routes: the practical work behind Rahu authority.",
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people.",
         "image": "assets/characters/hildethrax.webp",
         "imageAlt": "Hildethrax in a monochrome portrait wearing a dark coat and chains",
         "imageCaption": "Captain Hildethrax"
@@ -15716,7 +15716,7 @@
         "title": "Kumai-218",
         "article": "kumai-218",
         "meta": "Arena keeper · trainer and examiner",
-        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation.",
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections.",
         "image": "assets/archive/kumai-218-poster.webp",
         "video": "assets/archive/kumai-218.mp4",
         "aliases": [
@@ -25354,7 +25354,7 @@
       {
         "label": "Guardian Commander Yvette",
         "article": "guardian-commander-yvette",
-        "summary": "A commander whose account of loyal soldiers and their graves gives institutional service a human cost."
+        "summary": "A Guardian commander proud of a lifetime guarding Prima’s sacred ward. Her port is robbed, her corps remembers its dead, and later testimony about her own murder leaves a discrepancy the surviving scenes do not resolve."
       },
       {
         "label": "Fredrick",
@@ -25424,7 +25424,7 @@
       {
         "label": "Guardian Commander Yvette",
         "article": "guardian-commander-yvette",
-        "summary": "A commander whose account of loyal soldiers and their graves gives institutional service a human cost."
+        "summary": "A Guardian commander proud of a lifetime guarding Prima’s sacred ward. Her port is robbed, her corps remembers its dead, and later testimony about her own murder leaves a discrepancy the surviving scenes do not resolve."
       },
       {
         "label": "Thorn",
@@ -26688,7 +26688,7 @@
       {
         "label": "Kumai-218",
         "article": "kumai-218",
-        "summary": "The examiner who asks future Veilguard members what leadership means—and whom they would choose to follow."
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
       },
       {
         "label": "Camilla Blackwood",
@@ -26733,7 +26733,7 @@
       {
         "label": "Kumai-218",
         "article": "kumai-218",
-        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation."
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
       },
       {
         "label": "The Vanguard",
@@ -26861,7 +26861,7 @@
       {
         "label": "Ambassador Sophina",
         "article": "sophina",
-        "summary": "Diplomacy turns a grievance into a Rahu legal position."
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
       },
       {
         "label": "Magnus Niriin",
@@ -26881,7 +26881,7 @@
       {
         "label": "Captain Hildethrax",
         "article": "captain-hildethrax",
-        "summary": "Rahu investigation, guarded access, and practical logistics."
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
       },
       {
         "label": "Rahuvia",
@@ -26903,7 +26903,7 @@
       {
         "label": "Strange Talon",
         "article": "strange-talon",
-        "summary": "The intelligence chief whose case she represents."
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
       },
       {
         "label": "Magnus Niriin",
@@ -26923,7 +26923,7 @@
       {
         "label": "Captain Hildethrax",
         "article": "captain-hildethrax",
-        "summary": "Rahu investigation, guarded access, and practical logistics."
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
       },
       {
         "label": "Rahuvia",
@@ -26990,7 +26990,7 @@
       {
         "label": "Ambassador Sophina",
         "article": "sophina",
-        "summary": "Diplomatic boundaries beside Yami’s magical and cultural ones."
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
       },
       {
         "label": "Rahuvia",
@@ -27002,12 +27002,12 @@
       {
         "label": "Ambassador Sophina",
         "article": "sophina",
-        "summary": "The diplomatic voice of her state."
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
       },
       {
         "label": "Strange Talon",
         "article": "strange-talon",
-        "summary": "The intelligence chief whose grievance becomes state business."
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
       },
       {
         "label": "Yami no Majo",
@@ -27027,7 +27027,7 @@
       {
         "label": "Captain Hildethrax",
         "article": "captain-hildethrax",
-        "summary": "Rahu investigation, guarded access, and practical logistics."
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
       },
       {
         "label": "Rahuvia",
@@ -27198,12 +27198,12 @@
       {
         "label": "Ambassador Sophina",
         "article": "sophina",
-        "summary": "Diplomatic agreements whose logistics she entrusts to Hildethrax."
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
       },
       {
         "label": "Strange Talon",
         "article": "strange-talon",
-        "summary": "The intelligence official whose grievance Hildethrax defends."
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
       },
       {
         "label": "Nienna",
@@ -27303,7 +27303,7 @@
       {
         "label": "Captain Hildethrax",
         "article": "captain-hildethrax",
-        "summary": "Second rank, guarded archives, investigations, and supply routes: the practical work behind Rahu authority."
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
       },
       {
         "label": "Rahuvia",
@@ -27464,17 +27464,17 @@
       {
         "label": "Ambassador Sophina",
         "article": "sophina",
-        "summary": "The diplomatic representative of the state centered here."
+        "summary": "A Rahu ambassador who can respect a refusal, defend a death sentence and sell food in the same evening. Her courtesy serves a state with interests of its own; useful information earns attention, while proximity never guarantees access."
       },
       {
         "label": "Captain Hildethrax",
         "article": "captain-hildethrax",
-        "summary": "The operational officer escorting the peace delegation."
+        "summary": "A Rahu captain who sets boundaries, arranges supplies and leads a peace delegation through the night. His courteous welcome carries firm expectations about rank, obedience and what cooperation should return to his people."
       },
       {
         "label": "Strange Talon",
         "article": "strange-talon",
-        "summary": "Rahu intelligence and state security."
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
       },
       {
         "label": "Yami no Majo",
@@ -27582,7 +27582,7 @@
       {
         "label": "Strange Talon",
         "article": "strange-talon",
-        "summary": "The Rahu official Swift attacks and who kills him in the August confrontation."
+        "summary": "An Owlin intelligence chief who bargains for knowledge, kills Swift Foot during a public confrontation and later defeats Ghilsen. His institutional grievances and increasingly broad hostility remain beside the precise acts the quests record."
       },
       {
         "label": "Scribonia",
@@ -27861,7 +27861,7 @@
       {
         "label": "Kumai-218",
         "article": "kumai-218",
-        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation."
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
       },
       {
         "label": "Camilla Blackwood",
@@ -30250,7 +30250,7 @@
       {
         "label": "Kumai-218",
         "article": "kumai-218",
-        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation."
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
       },
       {
         "label": "Lady Severina Blackveil",
@@ -30262,7 +30262,7 @@
       {
         "label": "Kumai-218",
         "article": "kumai-218",
-        "summary": "An ancient warforged whose trials join combat, judgment and teamwork across the earliest Pristinian training and the new vanguard’s formation."
+        "summary": "An ancient warforged who prepares fighters through difficult tests, calls for a wartime plan and expects results beyond the arena. His judgment can recognize courage and good thinking while his methods provoke real objections."
       },
       {
         "label": "Gael",

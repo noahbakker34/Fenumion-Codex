@@ -2,6 +2,8 @@
 
 **Subsequent owner clarification, 2 November:** the February commander was misnamed as Yvette. Current profiles attribute the graves/investigation dialogue to an unnamed different commander. The apparent contradiction described in this original review is resolved; its historical verification and deltas below predate the answer. Yvette’s exact death scene remains unrecovered. See `content/reference/canon-clarifications.json` and the superseding note in the review ledger.
 
+Published `de36f5e` in successful [Pages run 41396491386](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/41396491386). All five selected production entry/catalog/search/profile/guide files match build `df6c75ef51dfa8e9`. Fresh live Chrome passes the same focused attribution, complete-body, bookmark, source, date, directory, link, search and mobile checks; screenshots are inspected. Timeline, media, roster and complete private payload remain exact. The verified task preview is stopped. This documentation-only receipt triggers no additional deployment.
+
 The owner asks for NPCs after the player-profile batch. Strange Talon, Captain Hildethrax, Ambassador Sophina, Guardian Commander Yvette and Kumai-218 now offer 6,120 words (previously 3,568) in 30 continuous reading chapters. Ghilsen’s existing player page receives a short connected account. Seventeen sections are added across six existing records; there is no new page, identity, event, image or quotation.
 
 ## The histories

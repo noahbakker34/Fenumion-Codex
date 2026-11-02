@@ -13,12 +13,25 @@
   "facts": {
     "Region": "Babel-Ashur",
     "Recorded at": "Skylight Refuge",
-    "Account": "Surviving testimony; exact in-world date unresolved"
+    "Age": "In her twenties at the campfire; hardship makes her appear older",
+    "Succession": "Chosen by an elder; training and accession not established",
+    "Last witnessed": "Skylight Refuge · 5, Month of Moirah, Year 3"
   },
   "sources": [
-    "Babel quest record · campfire testimony, August 2026"
+    "Babel quest record · campfire testimony, August 2026",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534377098699997194",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534390171922071572",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534392333468958822",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534392925784510576",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534396148201164860",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534398250851762364",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534389562913198103",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534382088432648404",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534394509750964226",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534386014691528824",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534404549698388039"
   ],
-  "body": "<p>Quille is among Babel-Ashur’s survivors gathered at <a href=\"#skylight-refuge\">Skylight Refuge</a>. Although hardship makes her appear much older, the account places her in her twenties. Her testimony remembers alternating years of hiding and flight, with the present year the worst.</p><h2 id=\"quille-succession\">An interrupted succession</h2><p>Quille says she was meant to succeed a newly appointed elder. Before that succession could develop, a huge tigerlike creature seized the elder during sleep; almost nobody saw the attack. Quille describes planting knowledge and protective mental magic as things entrusted from elder to elder. The account does not establish that she completed that training, inherited the entire knowledge, or became an elder.</p><h2 id=\"quille-survival\">Counting sleeps</h2><p>Gartina’s meal matters to Quille because it has been years since real food, and some children scarcely know it. Asked how her people measure time, she answers that each night is a success and they count their sleeps. The statement preserves the scale of civilian survival beneath the larger war.</p>",
+  "body": "<p>Quille is a young survivor of <a href=\"#babel-ashur\">Babel-Ashur</a> whose expected future as an elder’s successor is interrupted by a sudden attack. At <a href=\"#skylight-refuge\">Skylight Refuge</a>, she gives the war a civilian measure: years of hiding and flight, children who scarcely know a real meal, and nights counted because getting through each one matters.</p>\n<h2 id=\"quille-young-survivor\">Young, despite the years she appears to carry</h2><p>Quille comes closer with the others as the company begins asking questions at the Refuge. Her appearance suggests a much older person, and Gartina initially addresses her as someone who has endured many years. The narrator clarifies that she is in her twenties. Hardship has changed how she looks; it has not made her one of the community’s elders.</p><p>She describes years when the people could hide long enough for children to be born, alternating with years spent running. The current year has been the worst. Survival is not a single flight from a lost town. It is an uncertain pattern of brief stability and renewed movement.</p>\n<h2 id=\"quille-succession\">An interrupted succession</h2><p>Quille says she was meant to succeed a newly appointed elder. Before that succession could develop, a huge tigerlike creature seized the elder during sleep; almost nobody saw the attack. Quille describes planting knowledge and protective mental magic as things entrusted from elder to elder. The account does not establish that she completed that training, inherited the entire knowledge, or became an elder.</p>\n<h2 id=\"quille-knowledge\">What was meant to be passed on</h2><p>Gartina asks what instructions came with the seed. Quille explains that the knowledge belongs to the elders and passes from one to the next alongside protections for the mind. The tradition promises a way to replant the seeds in the dead Tree’s husk when help and hope return.</p><p>That answer makes the ambush more than the loss of a guide. An elder had only just selected Quille before being taken, leaving an intended successor without an established completed inheritance. Her account cannot be used as proof that she already knows the planting method. Other sects and their elders remain possible sources of what this group has lost.</p>\n<h2 id=\"quille-survival\">Counting sleeps</h2><p>Gartina’s meal matters to Quille because it has been years since real food, and some children scarcely know it. Asked how her people measure time, she answers that each night is a success and they count their sleeps. The statement preserves the scale of civilian survival beneath the larger war.</p>\n<h2 id=\"quille-meal-and-memory\">A meal and the work of remembering</h2><p>When Gartina produces a proper meal, Quille thanks her and explains how long it has been since such food. Some children barely know it. Hunger has made an ordinary communal table something remarkable, and the dozen survivors fall to eating despite the approach of monsters outside.</p><p>After hearing how the elder was taken, Gartina asks Quille to keep telling the stories and singing the names of absent people. She offers tea when the telling wears out her voice. The response recognizes work Quille can still do, rather than assigning her powers or a title the lost succession has not yet delivered. <a href=\"#omari\">Omari</a> gives another account of how stories help the community continue.</p>",
   "image": "assets/characters/quille.jpg",
   "imageAlt": "Quille with braided dark hair, pointed ears, beads and a pale shawl",
   "imageCaption": "Quille",
@@ -27,16 +40,50 @@
   "protected": false,
   "sections": [
     {
+      "id": "quille-young-survivor",
+      "title": "Young, despite the years she appears to carry",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534377098699997194",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534390171922071572",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534392333468958822",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534392925784510576"
+        ]
+      }
+    },
+    {
       "id": "quille-succession",
       "title": "An interrupted succession",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
         "sources": [
-          "Babel quest record · campfire testimony, August 2026"
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534396148201164860",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534398250851762364"
+        ]
+      }
+    },
+    {
+      "id": "quille-knowledge",
+      "title": "What was meant to be passed on",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534396148201164860",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534398250851762364",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534389562913198103"
         ]
       }
     },
@@ -45,12 +92,31 @@
       "title": "Counting sleeps",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
         "sources": [
-          "Babel quest record · campfire testimony, August 2026"
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534382088432648404",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534392925784510576",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534394509750964226"
+        ]
+      }
+    },
+    {
+      "id": "quille-meal-and-memory",
+      "title": "A meal and the work of remembering",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534382088432648404",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534386014691528824",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534398250851762364",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534404549698388039"
         ]
       }
     }
@@ -65,8 +131,41 @@
         "date": "5 Aug 2026 · posting date (UTC)"
       }
     ],
-    "status": "Last dated entry in this selection: 5 Aug 2026 · posting date (UTC). Later status is not established here.",
+    "status": "Last witnessed at Skylight Refuge on 5, Month of Moirah, Year 3. Later individual status is not established.",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "sourceReview": {
+    "latestReview": "2026-11-02",
+    "scope": "Selected native Babel quest scenes: shelter discovery, ridge reconnaissance, statue rescue and the complete campfire conversation; existing later histories retain their earlier source reviews. Map labels checked visually. No exhaustive archive, unseen attachment or protected personal-thread review is claimed."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "quille-years",
+        "title": "The years of hiding and flight",
+        "sections": [
+          "quille-young-survivor"
+        ]
+      },
+      {
+        "id": "quille-inheritance",
+        "title": "The interrupted inheritance",
+        "sections": [
+          "quille-succession",
+          "quille-knowledge"
+        ]
+      },
+      {
+        "id": "quille-keeping-on",
+        "title": "Keeping people and memory alive",
+        "sections": [
+          "quille-survival",
+          "quille-meal-and-memory"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

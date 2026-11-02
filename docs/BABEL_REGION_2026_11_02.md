@@ -1,0 +1,25 @@
+# Babel as a region · 2 November 2026
+
+The owner asks to really flesh out Babel. Seven existing pages grow from 5,184 to 9,419 words, adding 27 sections without adding a person, event, map pin or asset. Babel’s main account now follows its landscapes, first shelter, stone captives, scattered tribes and garden tradition through the existing defense and mist histories. Its regional hub foregrounds four native voices among twelve people and offers seven detailed quest/connected histories.
+
+Greyward Littoral grows from a map-label stub into a 1,205-word coastal history in five continuous chapters. The landing, canyon refuge, dotted routes, paintings, cavern approaches, gathering and civilian life have specific connections. The mapped Unmarked Ruins, incompletely surveyed caverns and later guarded western ruins remain distinct. All mapped sites stay nested within their existing parents.
+
+Kvethe, Quille, Omari and Kyrin gain proportionate personal histories (2,535 words/fifteen chapters), using their original portraits. Kvethe’s secrecy and ecological hope, Quille’s interrupted succession, Omari’s careful inherited storytelling, and Kyrin’s insistence on speaking for himself remain individual choices. Rhea’s thin account is not inflated. Skylight Refuge gains its first witnessed night, Wren’s search and the company’s practical preparation, ahead of its existing history.
+
+## Evidence and boundaries
+
+Selected native quest reading covers 474 cached rows in four bounded windows: the original shelter, ridge crossing, statue rescue and campfire. Discovery and windows are not exhaustive archive review. All 107 newly selected source IDs, timestamps and content hashes match the read-only native cache. Previously reviewed later chronicles retain their evidence scope and supply explicit references for regional synthesis. The annotated Greyward map is inspected visually.
+
+The ridge independently establishes a dry caldera, floating island and frozen city; Kyrin later names Ashur and supplies memories. Omari’s garden of Physisia and Nami Iroh, absence of the gods and conquest remain inherited stories. Quille’s age and Omari’s youth follow explicit corrections. Neither becomes an elder; no completed planting or complete cure of Kyrin’s memory is invented. No unnamed earlier captive is silently relabeled.
+
+The owner’s confirmed Ryvyt death stands beside failed retrieval and uncompleted resurrection. Nymera’s distinct deaths and returns stay in their linked histories. No protected personal-thread identity/origin material, raw transcript, controller/rules text or unreviewed attachment enters public content or Git. Exact source windows remain outside the repository.
+
+## Preservation and validation
+
+All 42 old section IDs, original portraits/media and roles survive. All 392 timeline objects (367 public), dates, calendar adjustments, importance and regions remain byte-for-byte equivalent as JSON objects. No map geometry, alias, quote, 261 browse previews or unrelated content changes. Four NPC and four place directory summaries improve navigation without changing record identity or nesting. The complete private payload remains 5,251,167 bytes with SHA-256 `b7b6f8914c176730c66a9758a491527b435a1f8352f4cefbf624f5c0131bf25e`.
+
+Catalog 306: 647 records, 598 complete public bodies, 2,846 sections, 262 people and 42 story pages/39 library entries. App 273 and reader 15 remain. The existing biography/region regression covers the four native readers and Greyward, with no runtime, style, dependency or workflow stage change.
+
+Content/build/calendar/display/portrait/protected-asset/preview checks and diff whitespace pass. Focused local Chrome verifies 168 complete paragraphs, all 69 section bookmarks and focus/reload, all twenty new continuous chapters and the existing Refuge chapters, facts/references/art, fourteen fresh 390/320px layouts and header clearance, twenty actual person/quest/place/context journeys, map/timeline links, full-text search and protected boundaries without script/public HTTP errors. Representative screenshots are inspected. This is a simulated signed-out test, not a real-account login or physical phone test.
+
+Publication and production verification receipt follows. The existing cached GitHub harness and one tested artifact are reused.

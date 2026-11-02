@@ -6,7 +6,7 @@
   "image": "assets/archive/babel-ashur-southern-coast.webp",
   "imageAlt": "Annotated map of Greyward Littoral on Babel-Ashur’s southern shore",
   "imageCaption": "Greyward Littoral — Babel-Ashur’s southern shore, supplied as an annotated regional map.",
-  "dek": "Babel-Ashur’s named southern shore: an expedition landscape of safe paths, refuge, volcanic crystal, caverns, ruins, and sulphuric wetlands.",
+  "dek": "Babel-Ashur’s southern foothold: a landing beach, narrow canyon shelter and mapped paths leading toward the cavern expeditions. Here paintings become contact, and a temporary camp becomes a civilian refuge.",
   "tags": [
     "Greyward Littoral",
     "Grayward Littoral",
@@ -19,11 +19,14 @@
   "facts": {
     "Parent": "Babel-Ashur",
     "Entry": "Landing Beach",
-    "Safety": "Marked Safe Pathways",
-    "Shelter": "Skylight Refuge",
-    "Features": "Volcanic Crystal Well · Caverns Below · Unmarked Ruins · Sulphuric Swamps"
+    "Safety": "Marked pathways offer local advantages; no permanent guarantee",
+    "Shelter": "Skylight Refuge · western canyons",
+    "Features": "Volcanic Crystal Well · Caverns Below · Unmarked Ruins · Sulphuric Swamps",
+    "Inland": "Cavern entrances and highlands; caldera beyond the mountain crossing",
+    "Settlement": "No confirmed coastal town or regional government",
+    "Name": "Greyward Littoral; Grayward on the annotated map"
   },
-  "body": "<p>Greyward Littoral is the southern shore of Babel-Ashur. The regional map establishes that parent relationship and gives the coast a practical expedition geography: where travelers land, which routes are marked safe, where they can shelter, and which hazards or resources shape movement inland.</p>\n      <h2 id=\"mapped-features\">Mapped features</h2>\n      <p>Landing Beach, Safe Pathways, Skylight Refuge, the Volcanic Crystal Well, Caverns Below, the Mineral Rock Face, Unmarked Ruins, and the Sulphuric Swamps are confirmed labels. Their deeper history is not yet established, so the atlas keeps them as map-backed sublocations rather than inventing narrative functions.</p>\n      <div class=\"callout\"><p><strong>Name note:</strong> the Codex uses the user-confirmed name <em>Greyward Littoral</em>. The map retains “Grayward Littoral” as a searchable cartographic spelling variant.</p></div>",
+  "body": "<p>Greyward Littoral is the southern coastal subregion of <a href=\"#babel-ashur\">Babel-Ashur</a>. Its map holds the practical beginnings of the campaign: a beach to leave, paths to learn, a canyon to sleep in and cavern approaches where signs of other survivors begin to appear. The land becomes familiar through repeated journeys, each carrying new obligations back to the Refuge.</p>\n<h2 id=\"mapped-features\">Mapped features</h2><p>The annotated coast places Landing Beach at the mouth of a branching stream. Inland, the watercourse passes through the wooded center toward the highlands. The Volcanic Crystal Well and Caverns Below are labeled to the north, the Mineral Rock Face to the northwest, and Skylight Refuge among the western rocks. Unmarked Ruins lie to the east above the Sulphuric Swamps.</p><p>The dotted Safe Pathways wind between these features. Their value is practical: they give an arriving company choices other than pushing straight into dense jungle. The labels establish places on the map; they do not identify the builders of the ruins, the contents of every cavern or a reliable supply of drinkable water.</p>\n<h2 id=\"greyward-routes\">Landing and the less dangerous paths</h2><p>Landing Beach is the coast’s entry point, but exposure makes it a poor place to settle. Wren’s early search turns instead toward canyons too narrow for the largest creatures. Thick vegetation and the absence of obvious animal paths offer the hope of hiding their approach. She leads the party in rather than waiting for perfect certainty on the shore.</p><p>A later journey supplies a different test of the mapped routes. On 6, Month of Physisia, Year 3, Olokun, Elenia and Arjahn choose the blue path on their map. The wildlife is noticeably tamer, as if the trail belongs to smaller creatures. They reach the cavern approaches without the usual attack, passing colored minerals on the way. Elenia notices how steep, rocky ground offers little food for a large hunter.</p><p>The expedition learns something useful about the terrain. It does not establish that every dotted path stays safe, that the same journey can never be interrupted or that marked minerals have already become a working mine. The coast rewards observation and repeated travel, not confidence borrowed from a name.</p>\n<h2 id=\"greyward-canyon-refuge\">From canyon shelter to Skylight Refuge</h2><p>Wren does not stop at the first place narrow enough to hide in. The initial passage is wet and uncomfortable; farther in, it opens into a cavity with the sky overhead. She rigs an alarm while Arjahn assesses what can reach them. Creatures able to climb or fly remain a concern, but a concealed single-file approach is a considerable improvement on the beach.</p><p>For Eugene, the opening matters personally. He struggles through the confined approach, then lies where he can see the sky. For the party it means food, watches and rest. The narrator grants them a safe night, a modest beginning for the place later called <a href=\"#skylight-refuge\">Skylight Refuge</a>.</p><p>Rescued residents eventually share that space with the adventurers. A seed needs protection, meals become occasions to exchange history, and the nearby jungle becomes both a source of building materials and a route for attackers. The Refuge’s natural advantages remain important even as its purpose expands. Plans for doors and fortifications are part of its unfinished work, not evidence of a completed coastal fortress.</p>\n<h2 id=\"greyward-paintings\">Paintings along the cavern approaches</h2><p>Olokun leaves a painted answer to the violence of the caverns: people petrified and imprisoned by a Knight. When he returns, the picture has weathered, but someone has marked the place beside it. Pebbles guide the company to a vine-covered wall. Behind it is another painting, with a heart the adventurers recognize as seed-like. Olokun answers with an image of their company protecting it.</p><p>The later blood painting makes that contact urgent. It depicts captives being herded inward. The direction matters: the company must follow the victims into danger, rather than mistake the image for a record of people already escaping. Inside, the adventurers find living captives, a sealed room and an executioner who releases gas.</p><p>Mya’s light helps free and protect the prisoners. A nomad recognizes Olokun as the painter, though recognition does not immediately erase distrust. The eventual gift of a golden seed is an act of trust earned during the rescue. <a href=\"#babel-captive-rescue\">Read The Blood Painting · The Captives and the Seed →</a></p>\n<h2 id=\"greyward-caverns\">The cavern expeditions and the mountain</h2><p>Caverns Below is the map’s name for an inland feature in the highlands. The quests follow cavern entrances, deep passages, petrifying machines, prisoners and an occupied mountain. Their events give those approaches a history, but do not survey the entire underground system or prove that every chamber connects.</p><p>Aravil’s rescue reaches a trophy room full of fixed statues. The later captive rescue reaches people still alive behind a sealed door. In the mountain offensive, rain, redirected water, earthquakes and avalanches change the cavern-bearing terrain itself. Smoke and steam conceal the full aftermath; the people who might remain within are not all accounted for.</p><p>Follow the <a href=\"#babel-ashur?section=babel-stone-captives\">rescue of the stone captives</a>, the <a href=\"#babel-captive-rescue\">living captives and seed</a>, and the <a href=\"#breaking-babels-mountain\">mountain offensive</a> as separate episodes. The Unmarked Ruins on the coastal map have no established shared identity with the human ruins found on the later western expedition. That later place has its own account in <a href=\"#return-to-babels-mist\">The Return to Babel’s Mist</a>.</p>\n<h2 id=\"greyward-resources\">Water, rock and the work of staying</h2><p>The map shows a central watercourse and a feature named the Volcanic Crystal Well. It also labels a Mineral Rock Face. These are useful landmarks, while the origin, treatment and reliable use of the water still need their own evidence. The colored minerals passed on the quieter cavern route are observed resources, not proof of an established quarry or extraction settlement.</p><p>The <a href=\"#mark-of-the-wild\">Mark of the Wild outings</a> show the labor behind remaining on the island. Aravil and Aerrow scout and hunt, Arjahn protects companions, and materials are sought for crafting and construction. A kill does not guarantee a successful harvest; a short outing can end in retreat or death. Supplying a refuge is part of its defense.</p><p>Kvethe’s ecological judgment complicates a purely hostile view of the jungle. She says the animals have been twisted by the island’s rulers, yet still believes they can return to an ecosystem. Elenia’s experience of pacified beasts fleeing like ordinary animals encourages that hope. Their conversation proposes recovery; it does not demonstrate a cure for every creature.</p>\n<h2 id=\"greyward-people-and-future\">The people the coast shelters</h2><p>At the Refuge, <a href=\"#kvethe\">Kvethe</a> speaks about hiding places and the duty to stay, <a href=\"#quille\">Quille</a> about a lost elder and years measured in nights survived, and <a href=\"#omari\">Omari</a> about stories that keep people moving. <a href=\"#kyrin-the-lost\">Kyrin</a> remembers the farms and flowing waters of a lost land. Rhea is also among the listeners, though little of her individual story is preserved.</p><p>The community’s survival does not amount to an island-wide victory. The <a href=\"#defense-of-skylight-refuge\">divided defense</a> keeps the Refuge safe at a terrible personal cost. Later improvements around it allow some ordinary wildlife to return. Beyond those surroundings the routes remain dangerous, and the company brings back both exhausted survivors and news of companions it could not save.</p><p>Greyward Littoral is therefore a foothold with a changing human purpose: landing place, shelter, line of contact, civilian refuge and point of departure. Its wider recovery, permanent defenses and links to other surviving tribes remain unfinished.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
@@ -41,15 +44,303 @@
           "Explicit user spelling decision recorded in the existing regional history: Greyward Littoral; Grayward retained as a source spelling."
         ]
       }
+    },
+    {
+      "id": "greyward-routes",
+      "title": "Landing and the less dangerous paths",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455427682304000062",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455427856963211274",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455427925720567972",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501413751943987262",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501414669493993623",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501415718409998366",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501416507245068421"
+        ]
+      }
+    },
+    {
+      "id": "greyward-canyon-refuge",
+      "title": "From canyon shelter to Skylight Refuge",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455431286268231813",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455431719888097426",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455433613142396992",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455434980984619028",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455436038272188610",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455436413485973661",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455436715186458655",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455438078238916672",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534386014691528824"
+        ]
+      }
+    },
+    {
+      "id": "greyward-paintings",
+      "title": "Paintings along the cavern approaches",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "The selected native scenes and the linked, previously reviewed quest histories support this regional synthesis. Each full history retains its scene-level evidence. Claims and traditions remain attributed; inaccessible geography and uncompleted recoveries are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1465542267489091771",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501417383166742588",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501418064686743623",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501420151424159864",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501421123479404575",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518715163694469161",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518772641874313316",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518790161465475082",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518805393634099240",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518827239913947206",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518840956844113991",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518844290409959444"
+        ]
+      }
+    },
+    {
+      "id": "greyward-caverns",
+      "title": "The cavern expeditions and the mountain",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "The selected native scenes and the linked, previously reviewed quest histories support this regional synthesis. Each full history retains its scene-level evidence. Claims and traditions remain attributed; inaccessible geography and uncompleted recoveries are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501426338039468225",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501429268998258740",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501434242062876742",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518715163694469161",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518772641874313316",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518790161465475082",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518805393634099240",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518827239913947206",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518840956844113991",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518844290409959444",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1543047889926881415",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1543073234117722112",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1543081251529957438",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1543096818135736401",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1543104663631429673",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1543108136359956511",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1543111146104553552",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566620336869482578",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566637478855573524",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566646654650683483",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566655045041258557",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566662033594785933",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566668464343490612",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566667739911819305",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566673431133556808"
+        ]
+      }
+    },
+    {
+      "id": "greyward-resources",
+      "title": "Water, rock and the work of staying",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "The selected native scenes and the linked, previously reviewed quest histories support this regional synthesis. Each full history retains its scene-level evidence. Claims and traditions remain attributed; inaccessible geography and uncompleted recoveries are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501415718409998366",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534396418884632626",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397024454049822",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397575308902441",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457808195644031151",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1461220197238177853",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424029050994823",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1519085359403896933",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1548859747678289993",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1563327855235170337"
+        ]
+      }
+    },
+    {
+      "id": "greyward-people-and-future",
+      "title": "The people the coast shelters",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "The selected native scenes and the linked, previously reviewed quest histories support this regional synthesis. Each full history retains its scene-level evidence. Claims and traditions remain attributed; inaccessible geography and uncompleted recoveries are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534379156035469505",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534382088432648404",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534392353153089607",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534394509750964226",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397209238306816",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534405515403333682",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1539424839486677107",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1539435577131278357",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1539446236116160523",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1539467207745077358",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1539484517427978260",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1539491281787691069",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1539502597483003914",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1561530428257472644",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1561538876726710424",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1561554353075134474",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1561560968234926185",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1561568408427040894",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1561575257587060789",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1561578237929332798",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1561584254763139146",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566620336869482578",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566637478855573524",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566646654650683483",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566655045041258557",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566662033594785933",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566668464343490612",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566667739911819305",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1566673431133556808"
+        ]
+      }
     }
   ],
   "sources": [
     "Annotated Greyward Littoral map · inspected labels, shelter, pathways and coast · assets/archive/babel-ashur-southern-coast.webp",
-    "Explicit user spelling decision recorded in the existing regional history: Greyward Littoral; Grayward retained as a source spelling."
+    "Explicit user spelling decision recorded in the existing regional history: Greyward Littoral; Grayward retained as a source spelling.",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455427682304000062",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455427856963211274",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455427925720567972",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501413751943987262",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501414669493993623",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501415718409998366",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501416507245068421",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455431286268231813",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455431719888097426",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455433613142396992",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455434980984619028",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455436038272188610",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455436413485973661",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455436715186458655",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455438078238916672",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534386014691528824",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1465542267489091771",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501417383166742588",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501418064686743623",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501420151424159864",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501421123479404575",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501426338039468225",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501429268998258740",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501434242062876742",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534396418884632626",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397024454049822",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397575308902441",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534379156035469505",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534382088432648404",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534392353153089607",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534394509750964226",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397209238306816",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534405515403333682",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1518715163694469161",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1518772641874313316",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1518790161465475082",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1518805393634099240",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1518827239913947206",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1518840956844113991",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1518844290409959444",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1543047889926881415",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1543073234117722112",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1543081251529957438",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1543096818135736401",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1543104663631429673",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1543108136359956511",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1543111146104553552",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1566620336869482578",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1566637478855573524",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1566646654650683483",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1566655045041258557",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1566662033594785933",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1566668464343490612",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1566667739911819305",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1566673431133556808",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457808195644031151",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1461220197238177853",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1469424029050994823",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1519085359403896933",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1548859747678289993",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1563327855235170337",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1539424839486677107",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1539435577131278357",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1539446236116160523",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1539467207745077358",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1539484517427978260",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1539491281787691069",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1539502597483003914",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561530428257472644",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561538876726710424",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561554353075134474",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561560968234926185",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561568408427040894",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561575257587060789",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561578237929332798",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1561584254763139146"
   ],
   "sourceReview": {
-    "checkedAt": "2026-10-17",
-    "sourceClass": "map",
-    "scope": "Mapped features verified visually; boundaries and deeper functions are not inferred."
+    "latestReview": "2026-11-02",
+    "scope": "Selected native Babel quest scenes: shelter discovery, ridge reconnaissance, statue rescue and the complete campfire conversation; existing later histories retain their earlier source reviews. Map labels checked visually. No exhaustive archive, unseen attachment or protected personal-thread review is claimed."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "greyward-coast-and-paths",
+        "title": "The coast and its paths",
+        "sections": [
+          "mapped-features",
+          "greyward-routes"
+        ]
+      },
+      {
+        "id": "greyward-shelter",
+        "title": "A shelter becomes a refuge",
+        "sections": [
+          "greyward-canyon-refuge"
+        ]
+      },
+      {
+        "id": "greyward-contact-and-caverns",
+        "title": "Contact and the cavern expeditions",
+        "sections": [
+          "greyward-paintings",
+          "greyward-caverns"
+        ]
+      },
+      {
+        "id": "greyward-living-land",
+        "title": "Resources and the living land",
+        "sections": [
+          "greyward-resources"
+        ]
+      },
+      {
+        "id": "greyward-community",
+        "title": "The people and the unfinished coast",
+        "sections": [
+          "greyward-people-and-future"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

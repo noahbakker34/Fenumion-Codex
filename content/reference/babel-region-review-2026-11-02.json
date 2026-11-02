@@ -1,0 +1,695 @@
+{
+  "reviewed": "2026-11-02",
+  "scope": "A fuller Babel regional account, Greyward coastal history, four native-survivor profiles and the first Refuge night. Bounded source windows hold 474 rows: 137 campfire, 112 shelter (including one following-session boundary), 105 ridge and 120 rescue messages. Text, speaker corrections and endings are reviewed; unrelated channels, images, combat rolls and the protected personal contact thread are not claimed as read. Existing later sections and linked chronicles retain prior review scope.",
+  "authority": "User canon decisions govern; quest narration/actions take precedence over compatible inherited stories and character explanations. The sources of ancient memories remain explicit.",
+  "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+  "receipts": [
+    {
+      "id": "1455427682304000062",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:10:00+00:00",
+      "textSha256": "1e274f703a0558713b07fb01e9d4a89a8132f3d2d68461c3481c8e2c67a9550b"
+    },
+    {
+      "id": "1455427856963211274",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:10:41.642000+00:00",
+      "textSha256": "6ec58268a08f7ef832cdd800b2399eb98d4aaf079d45e6f45ace3e9c4bc7948e"
+    },
+    {
+      "id": "1455427925720567972",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:10:58.035000+00:00",
+      "textSha256": "cc6a47b9f839faf011abb96e965902c8968ef8645ca49f63fb258451410859d0"
+    },
+    {
+      "id": "1455431236414734519",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:24:07.366000+00:00",
+      "textSha256": "b9f1ed19e1683a12f9afc5aa11b010ae77219d6d2e162aced1e1879b89ef6fb5"
+    },
+    {
+      "id": "1455431286268231813",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:24:19.252000+00:00",
+      "textSha256": "4c6acd1e2f68c5b25100fd84a94b8b042758975ad9653783be9f50c4359d72a1"
+    },
+    {
+      "id": "1455431719888097426",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:26:02.635000+00:00",
+      "textSha256": "797475ee42c27112fb699e91f0f8e1760a869fef026229501de2bf7af68d3ec5"
+    },
+    {
+      "id": "1455433613142396992",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:33:34.022000+00:00",
+      "textSha256": "d7d55819975fe0085926ab9f2745f301b70fbe229ce0886ccb93f738a47777a1"
+    },
+    {
+      "id": "1455434980984619028",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:39:00.141000+00:00",
+      "textSha256": "85e5124807c018cfb1ee7320c0fefe3f7ad069e527cf87dc6f0fb09e6ab26110"
+    },
+    {
+      "id": "1455436038272188610",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:43:12.218000+00:00",
+      "textSha256": "49b793f2a0720d449fca63be5b9fda76ca00365d46eb557b4503865885d12dbd"
+    },
+    {
+      "id": "1455436413485973661",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:44:41.676000+00:00",
+      "textSha256": "9e708d4a94901fd8f5d0a281a89e6d195bbf3fe3ce6c14c175aaafb387c7ad75"
+    },
+    {
+      "id": "1455436715186458655",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:45:53.607000+00:00",
+      "textSha256": "05646a4dbd00de94c6fc4a53116ac9663b6959d56dd7724a1f57759527ee2299"
+    },
+    {
+      "id": "1455437393728639068",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:48:35.384000+00:00",
+      "textSha256": "55a3821e62915e4aa9ec4cb416c42e386b03c88d7cb98df8f9ac57c236ac01a2"
+    },
+    {
+      "id": "1455438078238916672",
+      "channel": "1294457593296719873",
+      "timestamp": "2025-12-30T05:51:18.584000+00:00",
+      "textSha256": "d91af935a03f274eac08acc630fa6295e1682b505f6446746bf328e9e858a5b3"
+    },
+    {
+      "id": "1465542267489091771",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-01-27T03:01:45.028000+00:00",
+      "textSha256": "9fe79ae5fc632f4f3393008f07060954df1c39fe7ca0576ef674cb3caf0cfd79"
+    },
+    {
+      "id": "1465553037824360501",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-01-27T03:44:32.876000+00:00",
+      "textSha256": "61650011d16762e0510bb60d41833572c72fe5415ae3a4dbecb1ca80ec710f22"
+    },
+    {
+      "id": "1465553920339349722",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-01-27T03:48:03.284000+00:00",
+      "textSha256": "689effcf8c02b5643b9ad20de022f7a2af6aa5c2fc74d6b4f57c32ebb0a76552"
+    },
+    {
+      "id": "1465559709863121034",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-01-27T04:11:03.614000+00:00",
+      "textSha256": "f042dd9240cdf259d90aa0e361072ea36d20fad54e5160931d78593f85b325b0"
+    },
+    {
+      "id": "1465560122825642037",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-01-27T04:12:42.072000+00:00",
+      "textSha256": "87bfed9ce6d55a515fbe2e45577a3f65bacd0923c7bfa24732ca45134f701590"
+    },
+    {
+      "id": "1465560879855702028",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-01-27T04:15:42.562000+00:00",
+      "textSha256": "bef9949a8c45237c0b686373498ef9ac87476e89baae6768cc0e6a7270952edb"
+    },
+    {
+      "id": "1465562769532129371",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-01-27T04:23:13.096000+00:00",
+      "textSha256": "eb85051a4f551c7e349cf9d2b7bba58fee491e1c8ea4e0930eafd5caab3787ac"
+    },
+    {
+      "id": "1465563345058005145",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-01-27T04:25:30.312000+00:00",
+      "textSha256": "7ce3111bb12ea55b325f53ecb2997d6838001f6b8d7dbb16ef931ed04c3f7bbc"
+    },
+    {
+      "id": "1501413751943987262",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T02:42:13.382000+00:00",
+      "textSha256": "ffa2f4bea499e704585c038a0656d7439593dc11b6cdf004b2f6a0d9fb71a1ad"
+    },
+    {
+      "id": "1501414669493993623",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T02:45:52.143000+00:00",
+      "textSha256": "62e7f71688afe1cf1af4d5c395e69d25d579c175f3fb1eec681c12d94b150198"
+    },
+    {
+      "id": "1501415718409998366",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T02:50:02.224000+00:00",
+      "textSha256": "dd68d89fd19b7ee064407e65072c830758af5b323dbf28e0d8da4da0724a11ec"
+    },
+    {
+      "id": "1501416507245068421",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T02:53:10.297000+00:00",
+      "textSha256": "7a646feb300b627a7376535c1dfa87c83e2c373ce81ac120e7a92104940a21d5"
+    },
+    {
+      "id": "1501417383166742588",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T02:56:39.133000+00:00",
+      "textSha256": "6815a14d65929d2b5db03eab1b1d4aa98c0164154f900947067857723593f5e4"
+    },
+    {
+      "id": "1501418064686743623",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T02:59:21.620000+00:00",
+      "textSha256": "a3ed1059d0da2c8608b02b73e1166949f01846e7d2f0ec98624b016655058caa"
+    },
+    {
+      "id": "1501420151424159864",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T03:07:39.137000+00:00",
+      "textSha256": "c7db6f565fd335fc43dbb9a546da9503d7b31a547892b126a0c9ead42e7c5fe0"
+    },
+    {
+      "id": "1501421123479404575",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T03:11:30.893000+00:00",
+      "textSha256": "9e32541cc1869d24d2e26e6185adb73d0c62dcfc1f9f00fdcf76aa3da5ad4381"
+    },
+    {
+      "id": "1501423949433536572",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T03:22:44.653000+00:00",
+      "textSha256": "a16be4c5455a53b526106749941bb612affa7f959d2b231490dfd85de57734c1"
+    },
+    {
+      "id": "1501426338039468225",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T03:32:14.141000+00:00",
+      "textSha256": "38bab089a8e9cbc1c096689790caeb5e26b8a24ca2b6c08812cb863ad747edca"
+    },
+    {
+      "id": "1501429268998258740",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T03:43:52.936000+00:00",
+      "textSha256": "fc1ffed868947fb48d7f5086499a97721e4ed95607a25e4b2234d2505654395b"
+    },
+    {
+      "id": "1501429317983535124",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T03:44:04.615000+00:00",
+      "textSha256": "e3ec1e67a4f18a21b467fe8fbe8f48e18cd6d7619152cbe08a690969aa23e072"
+    },
+    {
+      "id": "1501430521463443517",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T03:48:51.547000+00:00",
+      "textSha256": "f56ef1ec1c3eb54e87d8609b0c99a212fc7ec27ea41454e7a4ead0d42507367b"
+    },
+    {
+      "id": "1501431580080603156",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T03:53:03.941000+00:00",
+      "textSha256": "2a87623fc188764a8eb3b56c23226bad6db9e05fa63a59f827168c2d7b8550d4"
+    },
+    {
+      "id": "1501432911700951081",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T03:58:21.424000+00:00",
+      "textSha256": "a95e5fa57d8ea36c76676d0e23f616910486fbd2bfbdc47af2d8adaa572852f8"
+    },
+    {
+      "id": "1501434242062876742",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T04:03:38.607000+00:00",
+      "textSha256": "c5cccb1bcdd1c30f7a5d564f8b8c8b97de2cff331934681a260214d87c31d9dd"
+    },
+    {
+      "id": "1501436897262698538",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-05-06T04:14:11.656000+00:00",
+      "textSha256": "43102e6e252cfee4a221634128a751dcd631ec752d1f71e074ba15c8775e0703"
+    },
+    {
+      "id": "1518777039199539230",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-06-23T00:37:43.658000+00:00",
+      "textSha256": "7790b2551a3f4845e20823b2594197f2df9bf0dea427b54a06a9f3fe40843e20"
+    },
+    {
+      "id": "1534376684189515866",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T01:45:08.851000+00:00",
+      "textSha256": "3cc2b192607ba65593655d973520329f99186d17f15bb4a01693ae6c76d44a62"
+    },
+    {
+      "id": "1534376933062742118",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T01:46:08.187000+00:00",
+      "textSha256": "a27af82aa793ec8f2f82a05ffc5b806d4a5925c074ec6db175fe832d9f501ce1"
+    },
+    {
+      "id": "1534377098699997194",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T01:46:47.678000+00:00",
+      "textSha256": "e7720123887c4fbc0ea385f0cd063ffaf4c66350228f16c705b7fd2fe71c5837"
+    },
+    {
+      "id": "1534377369660293296",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T01:47:52.280000+00:00",
+      "textSha256": "f76b7ca71181c6d381107a8e583c696eb256f91a1eff26b146b0a96d1911f6ca"
+    },
+    {
+      "id": "1534378348258787529",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T01:51:45.596000+00:00",
+      "textSha256": "40d5bc9f9bc081d2469750de0335dba5ffca4f7528f1a01afbf2189d6cb755ad"
+    },
+    {
+      "id": "1534379156035469505",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T01:54:58.185000+00:00",
+      "textSha256": "d0e215b4ae373a12fed5c8cb426c53695991621f4409b1738e6c9c7a95d0c441"
+    },
+    {
+      "id": "1534379274969284708",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T01:55:26.541000+00:00",
+      "textSha256": "31108dafc9103dea5b92eaee8e79b942a68362eaefeff56a49282ec00c920211"
+    },
+    {
+      "id": "1534379427864117449",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T01:56:02.994000+00:00",
+      "textSha256": "ea736abe3b7d53bdc5bf83ac381b695ea7842984613e8b2534cfb6549efe890a"
+    },
+    {
+      "id": "1534380335318696006",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T01:59:39.348000+00:00",
+      "textSha256": "353be5cc82a4f063aa7d31a6987674fac2a252b9fe14bd4b14b016204c84f9f1"
+    },
+    {
+      "id": "1534380874773041275",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:01:47.964000+00:00",
+      "textSha256": "c76c0610ff9e1b515df32299f5da1ed3cff6cbd9d4e5c84d44e88562b9fe6924"
+    },
+    {
+      "id": "1534381170370936972",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:02:58.440000+00:00",
+      "textSha256": "6ff1d9ffe8783932499d989fa61b7a122b0cf90cb3cd066b7174fa3f3d4a0a60"
+    },
+    {
+      "id": "1534381534654759092",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:04:25.292000+00:00",
+      "textSha256": "933ceadc3d4b8b1a820151a041a3f4a4c776f3221c8fd396b6fabe9b7ca37e29"
+    },
+    {
+      "id": "1534382088432648404",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:06:37.323000+00:00",
+      "textSha256": "8f021196c5bd55b8e81126068c6137ae08af7b9533d524288964f29d8e4828bd"
+    },
+    {
+      "id": "1534382326451011644",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:07:34.071000+00:00",
+      "textSha256": "1cc220cda91728f399f27869807a891b800f910f522cb3dd27c60f59634044ba"
+    },
+    {
+      "id": "1534382365659631646",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:07:43.419000+00:00",
+      "textSha256": "482f395a66a197bb83d2d859051f9f732a134341e7553a2ee23fbe2f8d189263"
+    },
+    {
+      "id": "1534382703468740828",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:09:03.959000+00:00",
+      "textSha256": "01ba893c711ff2f570371fd8afa5d6eaf7e397ff9410477df13b6ad3b97c46bc"
+    },
+    {
+      "id": "1534383077487415419",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:10:33.132000+00:00",
+      "textSha256": "d7e738c41f0912d272d03d32071555ca1bb363b57d729d920e15e27bd1fc57b1"
+    },
+    {
+      "id": "1534383491318546492",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:12:11.797000+00:00",
+      "textSha256": "c5dc11c801448a0ae0858b115fd280763fbab8c3ff9d92a0624d16cd2b6543ac"
+    },
+    {
+      "id": "1534384168853569628",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:14:53.334000+00:00",
+      "textSha256": "ebf9d8c1ee0030d3d12683887d8d39ff0b5469363007104bb4af61bd6eba48e4"
+    },
+    {
+      "id": "1534385567209357383",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:20:26.728000+00:00",
+      "textSha256": "93fc48c36b10066d5da73d01f494d4f224e290042d798862ce0abfd5fec23f8b"
+    },
+    {
+      "id": "1534386014691528824",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:22:13.416000+00:00",
+      "textSha256": "5e7c05da5380ff35ea6a66cd976223ab2f85ff2c604825d827f7b1d1f6421bfa"
+    },
+    {
+      "id": "1534386387183341660",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:23:42.225000+00:00",
+      "textSha256": "68cf63a48dad43a58d02607693de71a6e152bf0b1fcdbf614e762a521c2fba4c"
+    },
+    {
+      "id": "1534386586546995341",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:24:29.757000+00:00",
+      "textSha256": "b6f058ae38ded7bb048f292665a65c072bd276879af365830f82d5c32a06844e"
+    },
+    {
+      "id": "1534387159606362222",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:26:46.385000+00:00",
+      "textSha256": "e84e06f9d3431c5e42c2288893c50b691271309220bd036b451ed29dca1eb036"
+    },
+    {
+      "id": "1534387310542590084",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:27:22.371000+00:00",
+      "textSha256": "156f6e110f7bcf551df8fcbbb0d5778e73f72f125f75be3931330bedcf979594"
+    },
+    {
+      "id": "1534387450443595960",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:27:55.726000+00:00",
+      "textSha256": "d4299f55d57e2cb2f47dffa20caf0a2cd159b94b0cfb71deb09ac3fd3eba7405"
+    },
+    {
+      "id": "1534387756959269051",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:29:08.805000+00:00",
+      "textSha256": "95d3f04a18f077e1d5c43fadb341221fb4cf231282c29c06c3d20998a1e906f7"
+    },
+    {
+      "id": "1534387928254517248",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:29:49.645000+00:00",
+      "textSha256": "540b2fab1ebdb30a406e6515a3fc1af8fd8f6505998a589a9f8cad25981b94bd"
+    },
+    {
+      "id": "1534389562913198103",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:36:19.378000+00:00",
+      "textSha256": "3fbfbfc8b93a0e80e66bdda1d856985b651e74dc9e8db53be608f236860941fd"
+    },
+    {
+      "id": "1534389688184471743",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:36:49.245000+00:00",
+      "textSha256": "e0a53cd4ea9146024f1bcec0c1e6a47ed10a3ca10580623aec2bc29828a7ee5f"
+    },
+    {
+      "id": "1534390171922071572",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:38:44.577000+00:00",
+      "textSha256": "9e4cbd5834005fdfa64add2778106efe7b75170838139b7de1578296281baa46"
+    },
+    {
+      "id": "1534390953404661760",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:41:50.897000+00:00",
+      "textSha256": "8010eabf75410480402b4ed47de905778b2621c2790c6d6d6d627c3495a7390f"
+    },
+    {
+      "id": "1534391163115667497",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:42:40.896000+00:00",
+      "textSha256": "c75c2cbb9fc6dda6f9e860dc313a1744df6069d9934f6ccdf5cf6f76292459a3"
+    },
+    {
+      "id": "1534391812993581177",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:45:15.839000+00:00",
+      "textSha256": "d5d6a0f11ecde4a140a95f856cfb1229fd90db681e534377c2ceed169261345d"
+    },
+    {
+      "id": "1534392333468958822",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:47:19.930000+00:00",
+      "textSha256": "b2aa4964e3c0b23dbbe5a242179593f76f097d343765e6474a7cb3ae22b54514"
+    },
+    {
+      "id": "1534392353153089607",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:47:24.623000+00:00",
+      "textSha256": "20f8ffba9e215a9224d63977b2f4c513a787cca19316e14c31234ddd3f8e1c24"
+    },
+    {
+      "id": "1534392925784510576",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:49:41.149000+00:00",
+      "textSha256": "5522ffbbac6ea83153e961d9083975174891359bdfd57eec4c8e7f0735e195bf"
+    },
+    {
+      "id": "1534393503621058601",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:51:58.916000+00:00",
+      "textSha256": "68c880b90da51c003825b01f9d34489fc88325f0e45cd3e5c88c5d10ff5a7918"
+    },
+    {
+      "id": "1534393711490760734",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:52:48.476000+00:00",
+      "textSha256": "955f2ca0d0c8920833267386f47cf8ec5a1e5054b5a9cd37e91b24c9da720603"
+    },
+    {
+      "id": "1534394509750964226",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:55:58.796000+00:00",
+      "textSha256": "6c6c5fd6747301478a0a0fe7d8d5011f69ff09c4b4bd17620f9d2eb4cc191aa8"
+    },
+    {
+      "id": "1534394805407449132",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:57:09.286000+00:00",
+      "textSha256": "2ef2b80e7c0936c61f0905791c9ac6caee432054ee194245f944311f7ce1d804"
+    },
+    {
+      "id": "1534395216667082843",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:58:47.338000+00:00",
+      "textSha256": "143b5db12fae9ea133f71fccb8be088b10dfd1fb297985c64021ba8db9c715be"
+    },
+    {
+      "id": "1534395350897524907",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T02:59:19.341000+00:00",
+      "textSha256": "1f22efeb59663b096d2a430164a74562c5b07ed43dc78ff2dfef335103fb2dd6"
+    },
+    {
+      "id": "1534396148201164860",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:02:29.433000+00:00",
+      "textSha256": "586fc05599f25d95910dff4eae17dfbf9abc8929935e13f5f783497fbfa119fe"
+    },
+    {
+      "id": "1534396418884632626",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:03:33.969000+00:00",
+      "textSha256": "cde458426d5f10b398ce8dd78a07f57a61b96741ba27ef5fe9f2a1fbef5db14b"
+    },
+    {
+      "id": "1534396935501250680",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:05:37.140000+00:00",
+      "textSha256": "3fc7a4267f4fa4fe2e848d662a4a9d50e0dcd5e4d74b82d371392557fc34867a"
+    },
+    {
+      "id": "1534397024454049822",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:05:58.348000+00:00",
+      "textSha256": "6da734f4c4b4fc3e46604a4c2bb2af6add6d82558c26c5ccf09043674c4c3d47"
+    },
+    {
+      "id": "1534397209238306816",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:06:42.404000+00:00",
+      "textSha256": "b3e8e13b06494ef0446c8a1e9c661c468fe365b5ceb3df9310e7206902601555"
+    },
+    {
+      "id": "1534397575308902441",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:08:09.682000+00:00",
+      "textSha256": "a699e5484464425581fafa5073aac51083692ba5d95cb6193b44cbf1e06c0ba2"
+    },
+    {
+      "id": "1534397958072828104",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:09:40.940000+00:00",
+      "textSha256": "2844d3e81bcec54c7d065ef3cd22ecd09bb34629a573db4e1450614d2e0063a7"
+    },
+    {
+      "id": "1534398250851762364",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:10:50.744000+00:00",
+      "textSha256": "3ceae7d41396158f2f9e0fae3866a5d28e7cc97465d6f63b1b7c29c5ac9b3db9"
+    },
+    {
+      "id": "1534398400798392401",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:11:26.494000+00:00",
+      "textSha256": "449fc3ab103e733b11cacf11e1dd345379cfab8f65dca6fd57112891b29c2a0f"
+    },
+    {
+      "id": "1534398581891399700",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:12:09.670000+00:00",
+      "textSha256": "716d51f457165dc600ba8bea019d7edd3eeed090d3ee83a7fbeb3611bcdb7be0"
+    },
+    {
+      "id": "1534398904416866454",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:13:26.566000+00:00",
+      "textSha256": "66512059f0b491110290313ada2d1a8dfa130b164518916b1f2c5ebc65ef6b14"
+    },
+    {
+      "id": "1534399531867836516",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:15:56.162000+00:00",
+      "textSha256": "4e272cf39f54b37849ccc77eaf821239e4f0d300f33e0893c0653588f951cdff"
+    },
+    {
+      "id": "1534399708145909800",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:16:38.190000+00:00",
+      "textSha256": "7f5b1a1e502bfbffda54771bf933803f731e8a3c199d87e20abfce4d69ac95b0"
+    },
+    {
+      "id": "1534400527201206394",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:19:53.468000+00:00",
+      "textSha256": "1fd4aedd4724cbff24b4e60798e221d9b5b04c83161d3a66486161dbb1e5b0be"
+    },
+    {
+      "id": "1534400772387901551",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:20:51.925000+00:00",
+      "textSha256": "c9bf1760a67faf106b6ef846136a36b8794c0301434105c9edbcd9a7bfae7b8c"
+    },
+    {
+      "id": "1534400830927540355",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:21:05.882000+00:00",
+      "textSha256": "abb88db24a00e4ab84e5221cd0d2e2235c95ca9e4254e214a92d66ac2f2a91be"
+    },
+    {
+      "id": "1534400882349703338",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:21:18.142000+00:00",
+      "textSha256": "297660ed71d16762c80396eac1227ee0a707cdeabd41ddbde66569527962eee7"
+    },
+    {
+      "id": "1534401086411116605",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:22:06.794000+00:00",
+      "textSha256": "06172a789b9e5058285efc3ac691d95cea0cc661e1c21ad5e1e3c612e4ccfd47"
+    },
+    {
+      "id": "1534401878056636426",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:25:15.537000+00:00",
+      "textSha256": "f208c06bcda23bc502e9b9eb37db47f1ed1fd9929b59707142b5e7a24652f648"
+    },
+    {
+      "id": "1534402643349209198",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:28:17.997000+00:00",
+      "textSha256": "3320b8314d360685b761260f96dbfe1e4531c057afda71002c3bf3f4a9ccda60"
+    },
+    {
+      "id": "1534403788255924367",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:32:50.964000+00:00",
+      "textSha256": "de184a6a77686aedf9b9edca63b8b60f2918420451162e26720c46028d2010a4"
+    },
+    {
+      "id": "1534404451975041187",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:35:29.207000+00:00",
+      "textSha256": "e54dcda721710bcfa786c03557f705760504a46e4c976248720610ee2e66000e"
+    },
+    {
+      "id": "1534404549698388039",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:35:52.506000+00:00",
+      "textSha256": "2e6e5c77aec0f77c0629ecc806b20dfb5c2e75bd7cdaaef5386a5ef7a469f75e"
+    },
+    {
+      "id": "1534404828955152414",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:36:59.086000+00:00",
+      "textSha256": "ea1d76956564d99675a2b8fe62d8579c6bd238f316e163dab4a536ad6e362419"
+    },
+    {
+      "id": "1534405515403333682",
+      "channel": "1294457593296719873",
+      "timestamp": "2026-08-05T03:39:42.748000+00:00",
+      "textSha256": "7c111693d18416c2fc803a3a63da61f4867429d181851c41722913b0f8a62c7e"
+    }
+  ],
+  "records": {
+    "babel-ashur": {
+      "words": 3044,
+      "sections": 20
+    },
+    "grayward-littoral": {
+      "words": 1205,
+      "sections": 7
+    },
+    "kvethe": {
+      "words": 688,
+      "sections": 7
+    },
+    "quille": {
+      "words": 518,
+      "sections": 5
+    },
+    "omari": {
+      "words": 644,
+      "sections": 5
+    },
+    "kyrin-the-lost": {
+      "words": 685,
+      "sections": 6
+    },
+    "skylight-refuge": {
+      "words": 2635,
+      "sections": 19
+    }
+  },
+  "boundaries": [
+    "Ashur is named by Kyrin; the caldera and floating frozen city are independently observed during the ridge quest.",
+    "Ancient garden, Nami Iroh, gods’ absence and conquest remain Omari’s inherited tradition.",
+    "Quille is in her twenties, Omari young, neither becomes an elder by appearance. Kvethe’s leadership does not imply complete planting knowledge.",
+    "Kyrin’s restored speech does not prove complete memory restoration. No earlier unnamed captive is silently relabeled.",
+    "No merge of the coastal Unmarked Ruins, all cavern chambers or the later guarded western ruins. No new coordinates, map pins, generic NPCs or ancient dates.",
+    "Ryvyt’s death remains confirmed; retrieval/resurrection remain incomplete. Nymera’s two deaths and returns remain distinct.",
+    "Protected personal-thread identities/origins, raw transcripts, controller/rules text and unseen attachments remain external."
+  ],
+  "preserved": [
+    "All old section IDs, portraits, assets, roles and public/private boundaries.",
+    "All 392 timeline objects, dates, importance and region metadata; no new event or person.",
+    "Original maps/pins, 261 browse previews, quote selection, full private payload and existing GitHub workflow."
+  ],
+  "inheritedChronicleReferences": "Additional section references reuse the previously reviewed captive/defense/mountain, October mist, November return and Mark of the Wild histories; their earlier reviews remain authoritative for those source versions."
+}

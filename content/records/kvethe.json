@@ -13,12 +13,33 @@
   "facts": {
     "Region": "Babel-Ashur",
     "Recorded at": "Skylight Refuge",
-    "Account": "Surviving testimony; exact in-world date unresolved"
+    "Role": "Local leader and naturalist; no confirmed elder title",
+    "Last witnessed": "Campfire at Skylight Refuge · 5, Month of Moirah, Year 3",
+    "Commitment": "Remain and defend her birthplace; support safety for children",
+    "Seed decision": "Agrees to hiding the entrusted seed away from the island until needed"
   },
   "sources": [
-    "Babel quest record · campfire testimony, August 2026"
+    "Babel quest record · campfire testimony, August 2026",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534376684189515866",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534377369660293296",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534379156035469505",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534380874773041275",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534382365659631646",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534383491318546492",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534387450443595960",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534387756959269051",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534389562913198103",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534398250851762364",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534396418884632626",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397575308902441",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534394805407449132",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397024454049822",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534398581891399700",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534405515403333682",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397958072828104",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1534404828955152414"
   ],
-  "body": "<p>Kvethe is a survivor of <a href=\"#babel-ashur\">Babel-Ashur</a> who appears to lead the group gathered around the fire at <a href=\"#skylight-refuge\">Skylight Refuge</a>. She describes scattered tribes that avoid contact so a captured person cannot reveal the others’ hiding places. In her account, memory-taking magic makes knowledge itself a danger.</p><h2 id=\"kvethe-seeds\">The seeds and the missing elders</h2><p>Kvethe says the other tribes are hiding two remaining seeds. She reports that her own group’s elder died the previous spring; elders in other sects may still preserve knowledge her group has lost. Her story about thawing an Ice King’s throne is inherited testimony, not a witnessed restoration or a proven method. She describes his desire to exchange the seeds for godhood as legend.</p><h2 id=\"kvethe-nature\">A naturalist under occupation</h2><p>She says both hostile rulers breed the jungle’s animals into creatures of darkness and excess. Even so, she believes twisted animals can be brought back into an ecosystem. Her account challenges the idea that the island’s dangerous wildlife must be beyond recovery. It does not establish a successful cure.</p><h2 id=\"kvethe-home\">A home worth defending</h2><p>Kvethe accepts that children might be evacuated and agrees that the entrusted seed could be hidden elsewhere until needed. For herself she insists on staying: the land is her birthplace, and she owes its earlier inhabitants her defense. Her willingness to fight is a personal commitment, not evidence that every survivor chooses the same future.</p>",
+  "body": "<p>Kvethe is a local leader and naturalist among the people sheltered at <a href=\"#skylight-refuge\">Skylight Refuge</a>. She knows the discipline required to remain hidden, believes the damaged jungle can recover, and chooses to defend her birthplace. Her confidence about that duty stands beside painful gaps in what her generation has been allowed to remember.</p>\n<h2 id=\"kvethe-secrecy\">A leader who cannot give every answer</h2><p>Kvethe appears to lead the people who gather as the adventurers talk. Elenia asks whether this is everyone left. Kvethe cannot supply a reassuring count. The tribes have scattered to hide the remaining seeds and keep no contact with one another; in her account, capture can mean having memories taken by magic.</p><p>Keeping others’ whereabouts unknown is a decision made for their protection. It also makes it harder for rescuers to find them or know who still lives. Kvethe accepts that cost. Her account gives the company a reason to look for other groups without pretending she can safely lead them to every hiding place.</p>\n<h2 id=\"kvethe-seeds\">The seeds and the missing elders</h2><p>Kvethe says the other tribes are hiding two remaining seeds. She reports that her own group’s elder died the previous spring; elders in other sects may still preserve knowledge her group has lost. Her story about thawing an Ice King’s throne is inherited testimony, not a witnessed restoration or a proven method. She describes his desire to exchange the seeds for godhood as legend.</p>\n<h2 id=\"kvethe-lost-before\">A past held by absent elders</h2><p>Scribonia asks about life before the Ice King and the lord below. Kvethe answers that her generation has no accessible before: their history has been lost or erased, and the elders do not explain it. When the company looks for someone to question, she has to direct them toward another sect. Her own elder is dead.</p><p>She can repeat the tradition about the throne and the seeds, but cannot turn it into a witnessed account of planting. Her place in the community does not make her an elder or give her the missing knowledge. <a href=\"#quille\">Quille’s interrupted succession</a> explains another part of that loss.</p>\n<h2 id=\"kvethe-nature\">A naturalist under occupation</h2><p>She says both hostile rulers breed the jungle’s animals into creatures of darkness and excess. Even so, she believes twisted animals can be brought back into an ecosystem. Her account challenges the idea that the island’s dangerous wildlife must be beyond recovery. It does not establish a successful cure.</p>\n<h2 id=\"kvethe-recovery\">Twisted animals and a recoverable land</h2><p>Elenia wonders whether an artifact might be driving the beasts mad and remembers pacified creatures fleeing like ordinary wildlife. Kvethe answers with a harsher explanation of their breeding, yet shares the hope behind the question. She distinguishes the jungle animals from what lives deeper inside and trusts their underlying place in nature.</p><p>This is an ecological commitment made under occupation. She can condemn what has been done to the creatures without treating destruction as their only future. The conversation leaves the means of restoration open, while giving the island’s recovery a purpose beyond killing its rulers.</p>\n<h2 id=\"kvethe-home\">A home worth defending</h2><p>Kvethe accepts that children might be evacuated and agrees that the entrusted seed could be hidden elsewhere until needed. For herself she insists on staying: the land is her birthplace, and she owes its earlier inhabitants her defense. Her willingness to fight is a personal commitment, not evidence that every survivor chooses the same future.</p>\n<h2 id=\"kvethe-seed-and-choice\">Protecting a seed without abandoning home</h2><p>When Elenia offers to take the entrusted seed off the island and hide it, Kvethe agrees that this would be wise until it can be used. She also asks whether the adventurers need reinforcements. The exchange keeps two kinds of protection in view: taking something irreplaceable out of reach, and keeping enough strength on Babel to resist.</p><p>Elenia offers another home to people who want to leave. Kvethe accepts that the children should have safety, but her own answer is to stay. She owes the people who came before her a defense of the place where she was born. Her refusal belongs to her; it does not cancel Kyrin’s plea for evacuation or decide for every other survivor. <a href=\"#babel-ashur?section=babel-scattered-tribes\">Read the tribes’ different choices →</a></p>",
   "image": "assets/characters/kvethe.jpg",
   "imageAlt": "Kvethe in a forest, with dark hair and feathered adornments",
   "imageCaption": "Kvethe",
@@ -27,16 +48,52 @@
   "protected": false,
   "sections": [
     {
+      "id": "kvethe-secrecy",
+      "title": "A leader who cannot give every answer",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534376684189515866",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534377369660293296",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534379156035469505"
+        ]
+      }
+    },
+    {
       "id": "kvethe-seeds",
       "title": "The seeds and the missing elders",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
         "sources": [
-          "Babel quest record · campfire testimony, August 2026"
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534379156035469505",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534380874773041275",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534382365659631646",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534383491318546492"
+        ]
+      }
+    },
+    {
+      "id": "kvethe-lost-before",
+      "title": "A past held by absent elders",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534387450443595960",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534387756959269051",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534389562913198103",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534398250851762364"
         ]
       }
     },
@@ -45,12 +102,30 @@
       "title": "A naturalist under occupation",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
         "sources": [
-          "Babel quest record · campfire testimony, August 2026"
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534396418884632626",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397575308902441"
+        ]
+      }
+    },
+    {
+      "id": "kvethe-recovery",
+      "title": "Twisted animals and a recoverable land",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534394805407449132",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534396418884632626",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397024454049822",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397575308902441"
         ]
       }
     },
@@ -59,12 +134,30 @@
       "title": "A home worth defending",
       "chapter": "Places & institutions",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
         "sources": [
-          "Babel quest record · campfire testimony, August 2026"
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534398581891399700",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534405515403333682"
+        ]
+      }
+    },
+    {
+      "id": "kvethe-seed-and-choice",
+      "title": "Protecting a seed without abandoning home",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed testimony",
+        "scope": "section",
+        "summary": "Observed actions and narrator descriptions support the scene. Survivor memories, inherited stories, explanations and intentions retain their speakers; later outcomes are not inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534397958072828104",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534398581891399700",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534404828955152414",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1534405515403333682"
         ]
       }
     }
@@ -79,8 +172,49 @@
         "date": "5 Aug 2026 · posting date (UTC)"
       }
     ],
-    "status": "Last dated entry in this selection: 5 Aug 2026 · posting date (UTC). Later status is not established here.",
+    "status": "Last witnessed at Skylight Refuge on 5, Month of Moirah, Year 3. Later individual status is not established.",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "sourceReview": {
+    "latestReview": "2026-11-02",
+    "scope": "Selected native Babel quest scenes: shelter discovery, ridge reconnaissance, statue rescue and the complete campfire conversation; existing later histories retain their earlier source reviews. Map labels checked visually. No exhaustive archive, unseen attachment or protected personal-thread review is claimed."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "kvethe-guarded-community",
+        "title": "A scattered community",
+        "sections": [
+          "kvethe-secrecy",
+          "kvethe-seeds"
+        ]
+      },
+      {
+        "id": "kvethe-history",
+        "title": "The missing inheritance",
+        "sections": [
+          "kvethe-lost-before"
+        ]
+      },
+      {
+        "id": "kvethe-living-jungle",
+        "title": "A living jungle",
+        "sections": [
+          "kvethe-nature",
+          "kvethe-recovery"
+        ]
+      },
+      {
+        "id": "kvethe-remaining",
+        "title": "The choice to remain",
+        "sections": [
+          "kvethe-home",
+          "kvethe-seed-and-choice"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

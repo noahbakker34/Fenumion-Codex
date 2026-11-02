@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-02
 
+## Babel as a region · 2 November 2026
+
+The owner asks to really flesh out Babel. Seven existing pages grow from 5,184 to 9,419 words: the regional history, Greyward Littoral, Kvethe, Quille, Omari, Kyrin and the first Refuge night. Native survivors are foregrounded in the twelve-person hub; seven quest histories connect the campaign. Greyward and four native profiles have twenty continuous chapters. Details: BABEL_REGION_2026_11_02.md and content/reference/babel-region-review-2026-11-02.json.
+
+All 107 new native-source receipts match; four bounded windows contain 474 rows, without exhaustive archive/attachment claims. Caldera and frozen city observations, Kyrin’s Ashur memories and Omari’s garden tradition retain separate authority. Ages, interrupted succession, secrecy, ecology, civilian choices and damaged memory stay specific. No conflation of cavern/map/guarded ruins, no planted seed, complete cure or new identity. Ryvyt’s confirmed death and unresolved recovery stand. Protected personal-thread/raw/controller/rules material remains external.
+
+All 42 old section IDs, portraits/roles, 392 timeline objects/dates/ratings/regions, maps/quotes/261 previews, unrelated content and complete private payload survive. Catalog 306 has 647 records/598 bodies/2,846 sections, 262 people, 367 public events and 42 story pages/39 library entries. App 273/reader 15 unchanged. Local static/source/preservation and complete-body/69-bookmark/fourteen-fresh-mobile/twenty-link/map/timeline/search checks pass; screenshots inspected. The existing biography gate covers the five new readers, with no new stage/dependency/runtime/style. Publication receipt follows.
+
 ## Three earlier Babel turning points · 2 November 2026
 
 The owner asks for more. The captive rescue/seed, divided Refuge defense and mountain offensive now have 3,523 words in 21 continuous chapters. Four existing Regional timeline milestones open full stories; 20 context sections across seven profiles and three existing place/history pages gain short links. No repeated biography or new event/person/image/map pin. Details: THREE_BABEL_EVENT_STORIES_2026_11_02.md and content/reference/babel-three-stories-review-2026-11-02.json.

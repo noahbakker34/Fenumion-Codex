@@ -15708,7 +15708,7 @@
         "title": "Kvethe",
         "meta": "Survivor · naturalist and local leader",
         "article": "kvethe",
-        "summary": "A defender of Babel’s remaining people who balances secrecy, ecological knowledge, and a refusal to abandon her home.",
+        "summary": "A local leader who keeps the tribes’ hiding places secret, argues for the jungle’s recovery and chooses to remain while supporting safety for children.",
         "image": "assets/characters/kvethe.jpg",
         "imageAlt": "Kvethe in a forest, with dark hair and feathered adornments",
         "imageCaption": "Kvethe",
@@ -15718,7 +15718,7 @@
         "title": "Quille",
         "meta": "Survivor · intended elder successor",
         "article": "quille",
-        "summary": "A young survivor carrying the weight of interrupted succession, hunger, and the daily work of keeping her people alive.",
+        "summary": "An intended elder successor whose training is interrupted by an ambush; her account measures survival in hunger, children born in hiding and nights endured.",
         "image": "assets/characters/quille.jpg",
         "imageAlt": "Quille with braided dark hair, pointed ears, beads and a pale shawl",
         "imageCaption": "Quille"
@@ -15727,7 +15727,7 @@
         "title": "Omari",
         "meta": "Survivor · keeper of inherited stories",
         "article": "omari",
-        "summary": "A young voice preserving Babel’s stories while carefully distinguishing what the elders taught from what Omari has seen.",
+        "summary": "A young survivor carrying stories of Physisia’s garden and the Tree of lives, while distinguishing inherited history from personal sight.",
         "image": "assets/characters/omari.jpg",
         "imageAlt": "Omari with short dark hair, facial scars and a green cloak",
         "imageCaption": "Omari"
@@ -15736,7 +15736,7 @@
         "title": "Kyrin the Lost",
         "meta": "Freed captive · witness to lost Babel",
         "article": "kyrin-the-lost",
-        "summary": "A survivor of petrification whose fragmented memories preserve a beautiful land and the pain of its loss.",
+        "summary": "A freed captive who insists on speaking for himself, remembers Ashur’s farms and pure waters, and asks safety for the children.",
         "image": "assets/characters/kyrin.jpg",
         "imageAlt": "Kyrin with blue skin, horns and a gold forehead ornament",
         "imageCaption": "Kyrin the Lost",
@@ -17272,7 +17272,7 @@
         "type": "vast island",
         "meta": "Babel-Ashur · major region",
         "article": "babel-ashur",
-        "summary": "An enormous island defined by wild biomes and a vast central wound rather than one dominant city.",
+        "summary": "An immense island of jungle, mountain caverns and a caldera beneath a floating frozen city. Scattered native tribes guard seeds while the Called defend a coastal refuge and confront the western mist.",
         "source": "Chronicle + map",
         "aliases": [
           "Babel Ashur"
@@ -17390,7 +17390,7 @@
         "type": "coastal subregion",
         "meta": "Babel-Ashur · southern shore",
         "article": "grayward-littoral",
-        "summary": "Babel-Ashur’s named southern shore, mapped with a landing beach, safe routes, refuge, volcanic crystal, caverns, ruins, and sulphuric swamps.",
+        "summary": "Babel-Ashur’s southern coastal subregion: landing beach, mapped pathways, canyon refuge and cavern approaches. Repeated journeys turn a temporary camp into shelter for displaced residents.",
         "source": "User-confirmed name + annotated map",
         "aliases": [
           "Grayward Littoral",
@@ -18406,7 +18406,7 @@
         "type": "routes",
         "meta": "Babel-Ashur › Greyward Littoral · routes",
         "article": "grayward-littoral",
-        "summary": "Traversable routes explicitly marked safe on the annotated source map.",
+        "summary": "Dotted routes on the Greyward map. A recorded approach passes tamer wildlife and rocky ground; their safety is local and conditional.",
         "source": "Annotated map",
         "aliases": [
           "Safe paths"
@@ -18450,7 +18450,7 @@
         "type": "caverns",
         "meta": "Babel-Ashur › Greyward Littoral · caverns",
         "article": "grayward-littoral",
-        "summary": "Caverns marked along the northern highlands; deeper history is not yet recovered.",
+        "summary": "Mapped caverns in Greyward Littoral’s highlands. Connected expedition histories follow petrified prisoners, a living-captive rescue and the assault on the cavern-bearing mountain; the full underground extent is unsurveyed.",
         "source": "Annotated map",
         "aliases": [
           "Greyward Caverns",

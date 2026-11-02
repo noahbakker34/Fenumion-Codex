@@ -639,6 +639,70 @@
         "nymera",
         "alyhotep-bin-baladin"
       ]
+    },
+    {
+      "article": "babel-captive-rescue",
+      "events": [
+        "Babel’s blood painting leads to living captives",
+        "A Babel nomad entrusts Elenia with a golden seed"
+      ],
+      "chapters": 7,
+      "words": 1223,
+      "sourceReceipts": 167,
+      "existingPublicAccounts": [
+        "skylight-refuge",
+        "babel-ashur",
+        "babel-survival",
+        "gartina",
+        "olokun",
+        "scribonia",
+        "elenia",
+        "eugene",
+        "arjahn",
+        "nymera"
+      ]
+    },
+    {
+      "article": "defense-of-skylight-refuge",
+      "events": [
+        "Skylight Refuge holds through a divided defense"
+      ],
+      "chapters": 7,
+      "words": 1189,
+      "sourceReceipts": 199,
+      "existingPublicAccounts": [
+        "skylight-refuge",
+        "babel-ashur",
+        "babel-survival",
+        "gartina",
+        "olokun",
+        "scribonia",
+        "elenia",
+        "eugene",
+        "arjahn",
+        "nymera"
+      ]
+    },
+    {
+      "article": "breaking-babels-mountain",
+      "events": [
+        "Babel’s defenders reshape the cavern-bearing mountain"
+      ],
+      "chapters": 7,
+      "words": 1111,
+      "sourceReceipts": 156,
+      "existingPublicAccounts": [
+        "skylight-refuge",
+        "babel-ashur",
+        "babel-survival",
+        "gartina",
+        "olokun",
+        "scribonia",
+        "elenia",
+        "eugene",
+        "arjahn",
+        "nymera"
+      ]
     }
   ],
   "calendarCorrection": {

@@ -9030,7 +9030,9 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "story": "babel-captive-rescue",
+        "section": "refuge-warning"
       },
       {
         "title": "A Babel nomad entrusts Elenia with a golden seed",
@@ -9067,7 +9069,9 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "story": "babel-captive-rescue",
+        "section": "refuge-warning"
       },
       {
         "title": "Babel’s survivors tell their own stories",
@@ -9144,7 +9148,9 @@
         },
         "aliases": [
           "Mortals unmake a mountain"
-        ]
+        ],
+        "story": "breaking-babels-mountain",
+        "section": "babel-mountain-assault"
       },
       {
         "title": "Wren keeps a memorial for the fallen",
@@ -12806,7 +12812,9 @@
             "precision": "day",
             "qualifier": "on"
           }
-        }
+        },
+        "story": "defense-of-skylight-refuge",
+        "section": "babel-path-defense"
       },
       {
         "title": "Babel’s first hunts turn field skills into supplies",
@@ -25089,6 +25097,30 @@
         "Event stories",
         "The Return to the Mist · Ryvyt’s Last Stand"
       ]
+    ],
+    [
+      "babel-captive-rescue",
+      [
+        "Timeline",
+        "Event stories",
+        "The Blood Painting · The Captives and the Seed"
+      ]
+    ],
+    [
+      "defense-of-skylight-refuge",
+      [
+        "Timeline",
+        "Event stories",
+        "The Defense of Skylight Refuge"
+      ]
+    ],
+    [
+      "breaking-babels-mountain",
+      [
+        "Timeline",
+        "Event stories",
+        "The Mountain Offensive · Flood and Ash"
+      ]
     ]
   ],
   "subchannelMap": {
@@ -27270,6 +27302,14 @@
       {
         "label": "Aria’s Last Battle",
         "article": "arias-last-battle"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "captain-hildethrax": [
@@ -27873,6 +27913,18 @@
       {
         "label": "The Return to the Mist · Ryvyt’s Last Stand",
         "article": "return-to-babels-mist"
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "cave-company": [
@@ -28079,6 +28131,18 @@
       {
         "label": "The Return to the Mist · Ryvyt’s Last Stand",
         "article": "return-to-babels-mist"
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "ethos-of-fenumion": [
@@ -28159,6 +28223,18 @@
       {
         "label": "The Return to the Mist · Ryvyt’s Last Stand",
         "article": "return-to-babels-mist"
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "kvethe": [
@@ -28236,6 +28312,10 @@
         "label": "Archery Range",
         "article": "archery-range",
         "summary": "Rolen’s range brings together equipment, practice, family lessons and the everyday work of learning from one another."
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
       }
     ],
     "neemah": [
@@ -28608,6 +28688,18 @@
       {
         "label": "The War for Pristinia",
         "article": "war-for-pristinia"
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "adelia-hope": [
@@ -28675,6 +28767,10 @@
       {
         "label": "The Fall of Wrath",
         "article": "fall-of-wrath"
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
       }
     ],
     "saray": [
@@ -30185,6 +30281,18 @@
       {
         "label": "The Return to the Mist · Ryvyt’s Last Stand",
         "article": "return-to-babels-mist"
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "karnak": [
@@ -30236,6 +30344,14 @@
       {
         "label": "The Return to the Mist · Ryvyt’s Last Stand",
         "article": "return-to-babels-mist"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "pelegia": [
@@ -30838,6 +30954,18 @@
       {
         "label": "The Western Mist · The Offer after the Clearing",
         "article": "babel-mist-expedition"
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "training-dungeon": [
@@ -31116,6 +31244,18 @@
       {
         "label": "The Return to the Mist · Ryvyt’s Last Stand",
         "article": "return-to-babels-mist"
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "first-called-arrival": [
@@ -32088,6 +32228,18 @@
       {
         "label": "The Return to the Mist · Ryvyt’s Last Stand",
         "article": "return-to-babels-mist"
+      },
+      {
+        "label": "The Blood Painting · The Captives and the Seed",
+        "article": "babel-captive-rescue"
+      },
+      {
+        "label": "The Defense of Skylight Refuge",
+        "article": "defense-of-skylight-refuge"
+      },
+      {
+        "label": "The Mountain Offensive · Flood and Ash",
+        "article": "breaking-babels-mountain"
       }
     ],
     "return-to-babels-mist": [
@@ -32146,6 +32298,144 @@
       {
         "label": "The Return to the Mist · Ryvyt’s Last Stand",
         "article": "return-to-babels-mist"
+      }
+    ],
+    "babel-captive-rescue": [
+      {
+        "label": "Babel-Ashur",
+        "article": "babel-ashur"
+      },
+      {
+        "label": "Skylight Refuge",
+        "article": "skylight-refuge"
+      },
+      {
+        "label": "Babel-Ashur · Keeping a Foothold",
+        "article": "babel-survival"
+      },
+      {
+        "label": "Olokun",
+        "article": "olokun"
+      },
+      {
+        "label": "Elenia",
+        "article": "elenia"
+      },
+      {
+        "label": "Scribonia",
+        "article": "scribonia"
+      },
+      {
+        "label": "Arjahn",
+        "article": "arjahn"
+      },
+      {
+        "label": "Gartina",
+        "article": "gartina"
+      },
+      {
+        "label": "Aerrow",
+        "article": "aerrow"
+      },
+      {
+        "label": "Event Stories",
+        "article": "event-chronicles"
+      },
+      {
+        "label": "Narrative History",
+        "article": "living-timeline"
+      }
+    ],
+    "defense-of-skylight-refuge": [
+      {
+        "label": "Babel-Ashur",
+        "article": "babel-ashur"
+      },
+      {
+        "label": "Skylight Refuge",
+        "article": "skylight-refuge"
+      },
+      {
+        "label": "Babel-Ashur · Keeping a Foothold",
+        "article": "babel-survival"
+      },
+      {
+        "label": "Olokun",
+        "article": "olokun"
+      },
+      {
+        "label": "Elenia",
+        "article": "elenia"
+      },
+      {
+        "label": "Scribonia",
+        "article": "scribonia"
+      },
+      {
+        "label": "Arjahn",
+        "article": "arjahn"
+      },
+      {
+        "label": "Eugene",
+        "article": "eugene"
+      },
+      {
+        "label": "Nymera",
+        "article": "nymera"
+      },
+      {
+        "label": "Event Stories",
+        "article": "event-chronicles"
+      },
+      {
+        "label": "Narrative History",
+        "article": "living-timeline"
+      }
+    ],
+    "breaking-babels-mountain": [
+      {
+        "label": "Babel-Ashur",
+        "article": "babel-ashur"
+      },
+      {
+        "label": "Skylight Refuge",
+        "article": "skylight-refuge"
+      },
+      {
+        "label": "Babel-Ashur · Keeping a Foothold",
+        "article": "babel-survival"
+      },
+      {
+        "label": "Olokun",
+        "article": "olokun"
+      },
+      {
+        "label": "Elenia",
+        "article": "elenia"
+      },
+      {
+        "label": "Scribonia",
+        "article": "scribonia"
+      },
+      {
+        "label": "Arjahn",
+        "article": "arjahn"
+      },
+      {
+        "label": "Eugene",
+        "article": "eugene"
+      },
+      {
+        "label": "Nymera",
+        "article": "nymera"
+      },
+      {
+        "label": "Event Stories",
+        "article": "event-chronicles"
+      },
+      {
+        "label": "Narrative History",
+        "article": "living-timeline"
       }
     ]
   },
@@ -51999,7 +52289,10 @@
     "return-to-hanas-tower",
     "attack-on-the-chains",
     "kun-ardaire",
-    "return-to-babels-mist"
+    "return-to-babels-mist",
+    "babel-captive-rescue",
+    "defense-of-skylight-refuge",
+    "breaking-babels-mountain"
   ],
   "timelineRegions": [
     {

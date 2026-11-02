@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-02
 
+## Three earlier Babel turning points · 2 November 2026
+
+The owner asks for more. The captive rescue/seed, divided Refuge defense and mountain offensive now have 3,523 words in 21 continuous chapters. Four existing Regional timeline milestones open full stories; 20 context sections across seven profiles and three existing place/history pages gain short links. No repeated biography or new event/person/image/map pin. Details: THREE_BABEL_EVENT_STORIES_2026_11_02.md and content/reference/babel-three-stories-review-2026-11-02.json.
+
+All 517 cited API-cache versions match two read-only corpora. The 880-row windows and three later witness anchors have a bounded text scope; no exhaustive archive, unseen combat/media or inaccessible-thread claim. Fresh inward-leading blood, Mya’s aid, an escaping executioner, two Nymera deaths and distinct returns, the corrected storm, Eugene’s dangerous task, Arjahn’s rescue and the obscured mountain toll retain their distinctions. Protected parentage/helper/origin material and raw/controller/rules content stay external. Older prose/section metadata/subject facts/sources/media and the complete private payload remain exact apart from navigation links and the library count.
+
+Catalog 305: 647 records/598 bodies/2,819 sections; 262 people, 367 public events/392 total and 42 stories/39 library entries. Only four story/section destinations change; all dates/Day 842, 899, 909/importance/regions, maps/quotes/261 previews survive. App 273/reader 15 unchanged. Local static/source/preservation and complete-story/chapter/mobile/timeline/link/library/search checks pass; screenshots are inspected. Publication receipt follows. No runtime/style/dependency/workflow stage.
+
 ## Return to Babel’s mist · 2 November 2026
 
 All 385 supplied incremental texts match native-cache versions. The main expedition becomes a full eight-chapter event story, five profile updates, three place updates and connected-guide links. The owner confirms Ryvyt’s death after the four-person retreat. No body recovery, completed resurrection, safe hypothetical escape, universal revival mechanism or identified prisoner is invented. The separate personal contact thread’s protected disclosures remain outside public pages; raw/media/controller/rules material stays external. Scope and receipts: BABEL_RETURN_2026_11_02.md and content/reference/babel-return-review-2026-11-02.json.

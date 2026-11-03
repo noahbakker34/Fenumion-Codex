@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-02
+Last updated: 2026-11-03
+
+## Hope’s loss, the Veilguard and Oya · 3 November 2026
+
+The owner asks to fill important gaps. Two existing event summaries become 3,411 words in nineteen continuous chapters, preserving all ten old destinations. Hope’s loss includes the next evening’s failed revival, investigation, forest steward, memorial and watch; the Veilguard’s founding includes contested training, peer nominations, Kasiri’s victory, an unfinished leadership decision and later practical organization. Oya’s existing player identity gains a 908-word/six-chapter personal page with her original portrait. Details: HOPE_VEILGUARD_STORIES_2026_11_03.md and hope-veilguard-stories-review-2026-11-03.json.
+
+All 435 cited original/native source versions match. The older generic Hope quest label is corrected to its native RP channel; narrator observations and personal claims remain distinct. Test dilemmas are hypothetical; Kasiri’s win does not automatically appoint her leader. No whole-forest death, completed Hope restoration, definitive private plan, permanent roster or new universal revival rule is invented. Oya/Lucido’s early uncertainty remains, and no sealed letter or mist diagnosis is disclosed. Skiatholos remains in context without a new profile.
+
+Nine older records and seven short context links plus one linked first mention change. All older context prose/metadata/media/facts/sources, all 392 event objects/dates/ratings/regions, existing people/roles/portraits, maps/quotes/261 previews and complete private payload survive. Oya’s directory destination changes intentionally; the 269-person roster does not grow. Catalog 308 has 655 records/606 bodies/2,925 sections; 367 public events/42 stories/39 library entries and app 273/reader 15 remain. No new runtime/style/dependency/workflow stage. Static/source/preservation and ordinary-reader checks pass; focused Chrome checks also pass: three complete pages/80 paragraphs, 25 bookmarks/reload/focus, six fresh mobile layouts/header clearance, nine widths and twenty actual reading journeys, source/fact/art/search/calendar/protected boundaries without script/public HTTP errors. Screenshots are inspected; publication receipt follows.
 
 ## Both Vanguard generations and the Refuge aftermath · 2 November 2026
 

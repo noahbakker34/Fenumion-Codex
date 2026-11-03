@@ -1,0 +1,338 @@
+{
+  "id": "oya",
+  "title": "Oya",
+  "schemaVersion": 1,
+  "protected": false,
+  "category": "People",
+  "type": "Player adventurer · healer and defender",
+  "dek": "A healer who spends a saved diamond trying to revive Hope, then turns toward the living tree and people she can still protect. Her closeness with Nymera and teasing bond with Olokun continue beside the danger.",
+  "tags": [
+    "Gael",
+    "Hope",
+    "Stake",
+    "Olokun",
+    "Nymera",
+    "Lucido",
+    "Ryvyt",
+    "Hana",
+    "Protection",
+    "Prayer"
+  ],
+  "facts": {
+    "Role": "Player character",
+    "Family": "Olokun’s sister",
+    "Faith": "Prays to Namo’o and Istishia",
+    "Gael work": "Healing, scouting, refugees and protecting Stake",
+    "Companions": "Nymera · Lucido · Ryvyt",
+    "Later witnessed quest": "Protects Ryvyt at Hana’s tower and is freed from a psychic grasp by Saelihn",
+    "Record limits": "The selected scenes do not establish her arrival, entire earlier history or a later final fate"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477400729567105024",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477401830421168138",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477402928372256924",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477404928715653151",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477405799260356668",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477405989379637361",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477406583569776856",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477407027742511269",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477409179844218940",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477410042671141076",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477410748622831679",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477411885467959363",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477412156826718249",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477414109950509098",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477415405038469273",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477415770194444340",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477416195572629595",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477417325966790696",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477419997218340976",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477423049673408523",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477424022357807134",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477424246345961514",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477425108049072330",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477426805693485136",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477429794831339633",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477431777109737583",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477436124015104121",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477436470787834078",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477436985273749526",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477438446921449625",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477440574692003921",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477444238735184054",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477444492415078443",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477446340698050633",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477447142653038593",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477447561861140601",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477448051546128587",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477448922191499497",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477449991730626704",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477451444880801816",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477452076744310834",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477452632296525894",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477453713869111438",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477453802947739719",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477454386824347785",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477455771171160279",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477459413953548320",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477459861133594636",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477460262985666701",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1477460468313489428",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771198548713553",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771200691871805",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771202986152119",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773294807326802",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773898027925585",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788488052805767",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788489944309781",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771454015246407",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564772584904466537",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796026781696103",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796092011249727",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796859803897887",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794670754697246",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564795509569224705",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796795564068904",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797046253424866",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564831387671072855",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564833972654186516",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564836672141525125",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564836897723912243",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564838193830953041",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564839316352409713",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564842786346504283",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564843476460503191",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564844164657582121",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564844941987811423",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564846555935014922",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564848836357263383",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564851048470806612",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564852567224230030",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564853128648597615"
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "oya-history-hope",
+        "title": "The diamond she spends on a tree",
+        "sections": [
+          "oya-hope"
+        ]
+      },
+      {
+        "id": "oya-history-stake",
+        "title": "Something living to defend",
+        "sections": [
+          "oya-stake"
+        ]
+      },
+      {
+        "id": "oya-history-brother",
+        "title": "The sister who will not give him the first hug",
+        "sections": [
+          "oya-brother"
+        ]
+      },
+      {
+        "id": "oya-history-nymera",
+        "title": "A farewell with teasing still in it",
+        "sections": [
+          "oya-nymera"
+        ]
+      },
+      {
+        "id": "oya-history-hana",
+        "title": "Protecting the friend who goes first",
+        "sections": [
+          "oya-hana"
+        ]
+      },
+      {
+        "id": "oya-history-open-history",
+        "title": "The work that remains hers",
+        "sections": [
+          "oya-open-history"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "image": "assets/characters/oya.jpg",
+  "imageAlt": "Oya with blue skin and hair, a pale pointed hat and a blue staff",
+  "imageCaption": "Oya",
+  "body": "<p>Oya is an adventurer whose work in Gael includes trying to heal Hope, helping refugees and protecting the people beside her. Olokun is her brother. Nymera is a close companion. Their concern for her meets someone with her own judgment, grief, faith and sense of humor.</p>\n<h2 id=\"oya-hope\">The diamond she spends on a tree</h2><p>Oya joins Lucido when word of Hope’s death reaches the Tower. They do not know who attacked it. She recalls Elenia saying the tree was protected and searches her notes for a spell that might help. At the broken trunk, she tries even though the healing she knows was meant for a creature.</p><p>When it fails, she takes out a diamond she had been saving for another adventurer. She prays to Namo’o and Nuru and casts Revivify. A few leaves briefly regain color before withering again. Oya’s hope rises and collapses with them. Lucido consoles her; she blames her own weakness. Her self-judgment is part of the loss, not proof that saving the tree was within her power.</p><p>She does not let failure be the last thing she learns. Her next examination finds the hallowed ground no different from ordinary soil. She and Lucido begin asking what this change will mean for people who still need shelter. <a href=\"#withering-of-hope?section=hope-revival-flicker\">Read the attempt and the aftermath →</a></p>\n<h2 id=\"oya-stake\">Something living to defend</h2><p>The approaching forest steward frightens her at first. She grips her staff and warns him away from Hope while Lucido moves to shield her. Skiatholos explains that he too is losing strength and that the healthy forest depends on Stake, the other tree.</p><p>Oya immediately wants to check it. Finding it alive gives her relief and a responsibility she can act on. Later she sends Elenia a message, builds a small memorial for Hope and invites Nymera to help by praying. The altar preserves thanks for what has been lost while the women discuss gathering materials and searching for refugees.</p><p>When Nymera asks who to address, Oya names the gods to whom she herself prays, including Istishia. She does not require Nymera to use the same words. Together they decide to keep watch at Stake. Her care moves between a failed healing, practical help and companionship; none requires pretending Hope has already been restored.</p>\n<h2 id=\"oya-brother\">The sister who will not give him the first hug</h2><p>At the later Tower gathering, Olokun opens his arms for her. Oya pushes past him to embrace Nymera and calls him a dork. His theatrical complaint about his own blood rejecting him earns a quick hug and her explanation that she was joking. The exchange reassures him, but it does not stop him looking carefully at her hands, feet and movements.</p><p>She is shaken by the argument over speaking with the gods. Her narration shows no visible sign of what troubles him; his arm around her shoulders is witnessed care, not a diagnosis. She remains a person in the room, responding to the discussion, rather than confirmation that the earlier mist vision was real.</p>\n<h2 id=\"oya-nymera\">A farewell with teasing still in it</h2><p>Nymera says she missed Oya, looks for signs she has been hurt and combs her hair while the others talk. Before returning to Babel she gives Oya money she cannot use there and promises to keep trying to make the world better for her. Their closeness gives the campaign a person to come home to.</p><p>Olokun asks his sister to remain in Gael and protect the land, then trips her during a hug. She tries to kick him, calls him foolish and gives Arjahn a quick drawing of a fish that frightens her brother. Their parting contains trust and irritation at once. Oya’s family role is not exhausted by being someone Olokun worries about; she can answer him back and make the others laugh.</p>\n<h2 id=\"oya-hana\">Protecting the friend who goes first</h2><p>On the return to Hana’s tower, Oya acts when a Tik throws a dagger at Ryvyt. She moves in, strikes it and stuns it. When its ticking finally stops and it falls, she hopes she has avoided killing it, even while recognizing that it looks constructed.</p><p>She suggests knocking at the half-open door and enters carefully, watching the rear while Ryvyt insists on going first. Inside, Hana appears monstrous. Oya begins forming a storm, then finds herself suspended with Pelegia in a psychic grasp. Saelihn warps them back to the ground and the hold breaks.</p><p>Ryvyt offers to make her faster. She accepts but tells him she is not in good enough shape to keep attacking for a while. The person who protected him at the entrance now has to accept protection and admit a limit. The quest’s larger account carries the confrontation onward; these scenes do not reveal the nature of Hana’s claimed mother or make Oya immune to the next danger. <a href=\"#return-to-hanas-tower\">Read the return to Hana’s tower →</a></p>\n<h2 id=\"oya-open-history\">The work that remains hers</h2><p>Across the selected scenes, Oya tries what she knows, asks for help and changes the task when healing cannot undo a loss. Hope’s failed revival leads to warning, remembrance and a watch. At the Tower, family affection survives concern. At Hana’s tower, defending a companion leaves her needing help herself.</p><p>Her earlier arrival and full history remain outside this selected account. So does a completed restoration of Hope. What is witnessed is a recurring commitment to the people and places within reach, carried by someone who can be frightened, playful, disappointed and useful in the same life.</p>",
+  "sections": [
+    {
+      "id": "oya-hope",
+      "title": "The diamond she spends on a tree",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "scope": "section",
+        "summary": "Actions and narrator descriptions establish the sequence. Reports, motives, theories and self-blame retain their speakers; test scenarios are hypothetical. No unseen response, permanent guarantee or missing outcome is invented.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477400729567105024",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477401830421168138",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477402928372256924",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477404928715653151",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477405799260356668",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477405989379637361",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477406583569776856",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477407027742511269",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477409179844218940",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477410042671141076",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477410748622831679",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477411885467959363",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477412156826718249",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477414109950509098",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477415405038469273",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477415770194444340",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477416195572629595",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477417325966790696",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477419997218340976",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477423049673408523"
+        ]
+      }
+    },
+    {
+      "id": "oya-stake",
+      "title": "Something living to defend",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "scope": "section",
+        "summary": "Actions and narrator descriptions establish the sequence. Reports, motives, theories and self-blame retain their speakers; test scenarios are hypothetical. No unseen response, permanent guarantee or missing outcome is invented.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477424022357807134",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477424246345961514",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477425108049072330",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477426805693485136",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477429794831339633",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477431777109737583",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477436124015104121",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477436470787834078",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477436985273749526",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477438446921449625",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477440574692003921",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477444238735184054",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477444492415078443",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477446340698050633",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477447142653038593",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477447561861140601",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477448051546128587",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477448922191499497",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477449991730626704",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477451444880801816",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477452076744310834",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477452632296525894",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477453713869111438",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477453802947739719",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477454386824347785",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477455771171160279",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477459413953548320",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477459861133594636",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477460262985666701",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477460468313489428"
+        ]
+      }
+    },
+    {
+      "id": "oya-brother",
+      "title": "The sister who will not give him the first hug",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "scope": "section",
+        "summary": "Actions and narrator descriptions establish the sequence. Reports, motives, theories and self-blame retain their speakers; test scenarios are hypothetical. No unseen response, permanent guarantee or missing outcome is invented.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771198548713553",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771200691871805",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771202986152119",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773294807326802",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564773898027925585",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788488052805767",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564788489944309781"
+        ]
+      }
+    },
+    {
+      "id": "oya-nymera",
+      "title": "A farewell with teasing still in it",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "scope": "section",
+        "summary": "Actions and narrator descriptions establish the sequence. Reports, motives, theories and self-blame retain their speakers; test scenarios are hypothetical. No unseen response, permanent guarantee or missing outcome is invented.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564771454015246407",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564772584904466537",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796026781696103",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796092011249727",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796859803897887",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564794670754697246",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564795509569224705",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564796795564068904",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1564797046253424866"
+        ]
+      }
+    },
+    {
+      "id": "oya-hana",
+      "title": "Protecting the friend who goes first",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest actions & attributed judgments",
+        "scope": "section",
+        "summary": "Actions and narrator descriptions establish the sequence. Reports, motives, theories and self-blame retain their speakers; test scenarios are hypothetical. No unseen response, permanent guarantee or missing outcome is invented.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564831387671072855",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564833972654186516",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564836672141525125",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564836897723912243",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564838193830953041",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564839316352409713",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564842786346504283",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564843476460503191",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564844164657582121",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564844941987811423",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564846555935014922",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564848836357263383",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564851048470806612",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564852567224230030",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1564853128648597615"
+        ]
+      }
+    },
+    {
+      "id": "oya-open-history",
+      "title": "The work that remains hers",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "scope": "section",
+        "summary": "Actions and narrator descriptions establish the sequence. Reports, motives, theories and self-blame retain their speakers; test scenarios are hypothetical. No unseen response, permanent guarantee or missing outcome is invented.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477410748622831679",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477411885467959363",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477416195572629595",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477447561861140601",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477448051546128587",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477453802947739719",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477460262985666701",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1477460468313489428"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "latestReview": "2026-11-03",
+    "scope": "Selected original quest-export and native Gael/Tower scenes. Source versions, bounded reading windows and specific limits are recorded in hope-veilguard-stories-review-2026-11-03.json. Earlier retained passages retain their prior review scope. No exhaustive archive, attachment or inaccessible-thread reconstruction."
+  }
+}

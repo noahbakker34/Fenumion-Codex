@@ -14364,8 +14364,8 @@
       {
         "title": "Oya",
         "meta": "Player character · quest-RP",
-        "article": "people-directory",
-        "summary": "Olokun’s sister and a recurring adventurer, reunited with Nymera at the Tower; she offers a prayer for Namo’o and remains in Gael as the others leave. On a later return to Hana’s tower, she protects Ryvyt from a Tik and is freed from Hana’s grasp by Saelihn.",
+        "article": "oya",
+        "summary": "A healer who spends a saved diamond trying to revive Hope, then turns toward the living tree and people she can still protect. Her closeness with Nymera and teasing bond with Olokun continue beside the danger.",
         "image": "assets/characters/oya.jpg",
         "imageAlt": "Oya with blue skin and hair, a pale pointed hat and a blue staff",
         "imageCaption": "Oya"
@@ -25222,6 +25222,14 @@
         "Characters K–Z",
         "Modeli"
       ]
+    ],
+    [
+      "oya",
+      [
+        "People of Fenumion",
+        "Characters K–Z",
+        "Oya"
+      ]
     ]
   ],
   "subchannelMap": {
@@ -33885,8 +33893,8 @@
     {
       "title": "Oya",
       "meta": "Player character · quest-RP",
-      "article": "people-directory",
-      "summary": "A frequently played adventurer whose later campaign record crosses expeditions and community scenes.",
+      "article": "oya",
+      "summary": "A healer who spends a saved diamond trying to revive Hope, then turns toward the living tree and people she can still protect. Her closeness with Nymera and teasing bond with Olokun continue beside the danger.",
       "image": "assets/characters/oya.jpg",
       "imageAlt": "Oya with blue skin and hair, a pale pointed hat and a blue staff",
       "imageCaption": "Oya"
@@ -52400,7 +52408,8 @@
     "claire-hearthford",
     "keno",
     "force",
-    "modeli"
+    "modeli",
+    "oya"
   ],
   "timelineRegions": [
     {

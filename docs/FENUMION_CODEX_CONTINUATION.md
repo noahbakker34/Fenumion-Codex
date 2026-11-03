@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-03
 
+## Three rift histories · 3 November 2026
+
+The owner asks to continue important work. Ooze 381→1,201 words, sustained breach 424→1,246 and dark expanse 380→1,129 now have seven chapters each. Reunions, missing friends, changing tactics, a witnessed tuning-fork handoff, a destabilizing meteor, planned-breach evidence, moving heads and timely exits become readable quest histories. Details: THREE_RIFT_HISTORIES_2026_11_03.md and three-rift-histories-review-2026-11-03.json.
+
+All 243 cited native versions match. Bounded 104/100/80-row windows are read without exhaustive archive/attachment/combat-log claims. Early absence reports are not final fates; the giant ooze remains visible during closure. The handoff does not complete a travel service. Ritual evidence applies to one opening, with no recipe, hidden identity, universal anchor or origin theory. Nightmare forms remain hostile perceptions. Head disposal remains proposed/prepared; the narrator assumes all depart in time. No generic/unclassified profile, raw/controller/rules/real-world-reference material is added.
+
+Seven existing records, three library descriptions/review rows and three event people/summary fields change. Twelve old chapter destinations/titles and earlier references survive; all 392 event identities/dates/ratings/regions/destinations and the other 389 complete event objects remain. Catalog310 has 655 records/606 bodies/2,948 sections; 269 people, 367 public events and 42 stories/39 library entries remain. Original media/maps/quotes/261 previews and complete private payload are exact. App273/reader15 unchanged; no runtime/style/dependency/workflow stage. Static/source/preservation, existing rift/full-story and focused Chrome checks pass: three complete stories/70 paragraphs, 21 bookmarks/reload/focus, six fresh mobile layouts/header clearance, nine widths and 21 actual guide/profile/library/filtered timeline journeys, names/search/calendar/protected boundaries without script/public HTTP errors. Screenshots inspected; publication receipt follows.
+
 ## Pristinia’s war and Gael’s refugees · 3 November 2026
 
 The owner asks to continue important gaps. The war story grows 643→2,969 words/fourteen chapters, the refugee settlement 318→1,200/seven and Oya 908→1,251/eight. Bridge choices, civilian relief, the failed mist sortie and its deaths, Melian’s investigation, the later engine assault and divided mercy become a continuous war history. The settlement follows meals, walls, repeated arrivals, housing priorities and three reported homes. Details: PRISTINIA_WAR_AND_GAEL_REFUGEES_2026_11_03.md and pristinia-war-refugees-review-2026-11-03.json.

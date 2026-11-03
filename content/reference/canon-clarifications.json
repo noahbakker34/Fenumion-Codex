@@ -56,5 +56,17 @@
       "babel-ashur",
       "skylight-refuge"
     ]
+  },
+  {
+    "date": "2026-11-02",
+    "subject": "Modeli’s directory identity",
+    "decision": "Modeli is a player character.",
+    "limits": "This establishes player classification, not hidden origin, divine cause or every personal belief.",
+    "articles": [
+      "modeli",
+      "veilguard",
+      "vanguard",
+      "people-directory"
+    ]
   }
 ]

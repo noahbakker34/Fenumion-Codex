@@ -1,0 +1,1740 @@
+{
+  "reviewed": "2026-11-02",
+  "source": "Skylight Refuge incremental export supplied by owner",
+  "scope": "All 214 supplied message texts read, including bot/command/OOC rows excluded from public narrative; no attachment or inaccessible-thread claim. All 214 timestamps and content fields match the native cache, treating the export’s 22 empty-content placeholders as empty strings.",
+  "authority": "Earlier quest outcome and owner-confirmed Ryvyt death govern; compatible RP adds aftermath, work and attributed beliefs. Proposals remain proposals.",
+  "calendar": "27 and 30, Month of Death, Year 3 for the call and prayer; 2, Month of the Wyrm, Year 3 for the continuous recovery conversation. Its UTC midnight crossing does not create another story day. The Day 973 quest keeps its existing date.",
+  "boundaries": [
+    "No completed resurrection, body recovery, fortification, protective item or return expedition.",
+    "No universal bodyless-resurrection rule from personal warnings.",
+    "No objective fault from Elenia or Nymera self-blame.",
+    "No identified prisoner, live daughter inside the mist, deceased Krone/Draygar or unseen attachment claims.",
+    "Earlier portal arrival does not reverse the later owner-confirmed death.",
+    "Controller identities, raw transcripts and detailed recipes stay external."
+  ],
+  "records": [
+    "skylight-refuge",
+    "nymera",
+    "olokun",
+    "arjahn",
+    "elenia",
+    "alyhotep-bin-baladin",
+    "ryvyt",
+    "scribonia",
+    "return-to-babels-mist"
+  ],
+  "receipts": [
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564759521036079184",
+      "timestamp": "2026-10-27T21:55:41.641000+00:00",
+      "textSha256": "8c8e5f235fb6e0aabdd134f8b35c87b1ee3dbd8d340cf244c596f433412f9c02"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564759866864566373",
+      "timestamp": "2026-10-27T21:57:04.093000+00:00",
+      "textSha256": "c07b426642b73c88a0dbbc2dd09e53c2eaadf213ee074a677f486adf7af4b2fd"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564760197400887478",
+      "timestamp": "2026-10-27T21:58:22.899000+00:00",
+      "textSha256": "c195c3cd625dd837187c6150256f22281dd5d5e06a116fd8710a906b46e132ac"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564760249431490681",
+      "timestamp": "2026-10-27T21:58:35.304000+00:00",
+      "textSha256": "75e868a175c6d7de46a6ed7da61771f4e4403fd1b9cd82992f69e23d0ac5e227"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564760581309866016",
+      "timestamp": "2026-10-27T21:59:54.430000+00:00",
+      "textSha256": "b95ee2fc47f5556c824c47307afcd69c2afd41d868f3ad6abe100135aa726af3"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564760685903220747",
+      "timestamp": "2026-10-27T22:00:19.367000+00:00",
+      "textSha256": "036f6a80a3364f7dab2791f9eaa7ba921993ea36e218d3e7d500e5ecdefee116"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564760839133724796",
+      "timestamp": "2026-10-27T22:00:55.900000+00:00",
+      "textSha256": "7546939e8fd0f6100d17beb6481954b134198215d9dc4d0001251411d603799d"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564760997057794109",
+      "timestamp": "2026-10-27T22:01:33.552000+00:00",
+      "textSha256": "806c479728bb0771800770df9344489577b33eb033d2bb290f52948f61360eab"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564761526701793341",
+      "timestamp": "2026-10-27T22:03:39.829000+00:00",
+      "textSha256": "8d6099936e00af8a2a60ddcb4e51a9aa8d054fa62c3627c8ebdc97efcce6fca3"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564762139976007772",
+      "timestamp": "2026-10-27T22:06:06.045000+00:00",
+      "textSha256": "0df785851323212ab16ef330b8373f41d5d4d57d40813faf400827610d41f909"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564762433505992736",
+      "timestamp": "2026-10-27T22:07:16.028000+00:00",
+      "textSha256": "f3ba95620585ab4e150886de8947e3e3c01263d46aab6767223d28fd38d3db74"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564762788642033718",
+      "timestamp": "2026-10-27T22:08:40.699000+00:00",
+      "textSha256": "0482a1a07598d19ed1ac8608e535a52fb4d2e9bc51c8d599d4b97c6b293f630c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564764612732129342",
+      "timestamp": "2026-10-27T22:15:55.596000+00:00",
+      "textSha256": "6ad8d9ff82f08b35eb08578c4205db22fb4261f72098fb024320d99dcc2bb0db"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564764772661203096",
+      "timestamp": "2026-10-27T22:16:33.726000+00:00",
+      "textSha256": "f0c34739b3b08408eb28066aec568bca40665357674b78659c42e59a64c2b3bc"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564764782869880835",
+      "timestamp": "2026-10-27T22:16:36.160000+00:00",
+      "textSha256": "45595e93cb5be2dfe67a7d56e2c7c3f606306b7cedc73f8759f66a0d295a222a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564764864948207648",
+      "timestamp": "2026-10-27T22:16:55.729000+00:00",
+      "textSha256": "54d8a93cf52292ba4acc9ab2fc17d9fd40b7bed903804830440aaa1ca7e7e29e"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564765248639213649",
+      "timestamp": "2026-10-27T22:18:27.208000+00:00",
+      "textSha256": "e0a72b79fe20b85b320a523d87d34bfc335d033b8052d49202902348b2d32c84"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564766383403831491",
+      "timestamp": "2026-10-27T22:22:57.757000+00:00",
+      "textSha256": "2c5d2aba5a32675fa65039f5f8d7e9137aefd4b253cc65475451774cb1d0ec3c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564766486768263169",
+      "timestamp": "2026-10-27T22:23:22.401000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564766580678729901",
+      "timestamp": "2026-10-27T22:23:44.791000+00:00",
+      "textSha256": "c34082274d13d1089b38d5212a8a25cb1eeaff6d59ccb4147b0b9b3f7cc6fa40"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564767257542791189",
+      "timestamp": "2026-10-27T22:26:26.168000+00:00",
+      "textSha256": "1bd91db7a01615cd50c2af7041a3905bdaaf0084369c602f72e7130477d52c54"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564767881777123520",
+      "timestamp": "2026-10-27T22:28:54.997000+00:00",
+      "textSha256": "93f219dac052d7851f2b18e595faeb1ca7981cbabf53b6c581fcd2b0ce7b74ff"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564768393742131304",
+      "timestamp": "2026-10-27T22:30:57.059000+00:00",
+      "textSha256": "896f011aea9585ea50228d1571d082125d2226beb26a147dc56eaaa229378ada"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564768611632025771",
+      "timestamp": "2026-10-27T22:31:49.008000+00:00",
+      "textSha256": "d0e701e8e8f41d60c15c4700169326df6b9296162391e1b3925f82893a193315"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564768733606707332",
+      "timestamp": "2026-10-27T22:32:18.089000+00:00",
+      "textSha256": "588a94897a6196fc5ba0001760b392c5b9ddfe21d58982854f6676fbd643a83c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564768786006016122",
+      "timestamp": "2026-10-27T22:32:30.582000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564768841282617508",
+      "timestamp": "2026-10-27T22:32:43.761000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564768883049496757",
+      "timestamp": "2026-10-27T22:32:53.719000+00:00",
+      "textSha256": "d50b1a452caedc052060941eac7b40301c62a2b947c926789efe773ea3e6558e"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564793666680131637",
+      "timestamp": "2026-10-28T00:11:22.597000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1564793751874961430",
+      "timestamp": "2026-10-28T00:11:42.909000+00:00",
+      "textSha256": "0f33a9214f346f8604bd42c32f885b9d5b9d9db9fe24f344cd097361e64408a6"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1565740816243364034",
+      "timestamp": "2026-10-30T14:55:00.650000+00:00",
+      "textSha256": "83e43d13d7d8e1d2db8d43cc62c78047f728d31030be8a04ac83cb2a771e2472"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1565743237140979825",
+      "timestamp": "2026-10-30T15:04:37.837000+00:00",
+      "textSha256": "ce8b2c8b94d1cf757980e9e1e676584d42e1a7e9ed41739ef772330e5da65fe3"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566576015990329486",
+      "timestamp": "2026-11-01T22:13:47.787000+00:00",
+      "textSha256": "e6597bc96c82ae11c71884a8efce5b3e2f4a4545b7bfe6536689631c673e1143"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566944163369324717",
+      "timestamp": "2026-11-02T22:36:40.962000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566944188724154443",
+      "timestamp": "2026-11-02T22:36:47.007000+00:00",
+      "textSha256": "8a5dcc717533816f280adaf4ff5e0ef16a68166dd4dc95659b4379315ddb2bd0"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566944489682116669",
+      "timestamp": "2026-11-02T22:37:58.761000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566944507679739905",
+      "timestamp": "2026-11-02T22:38:03.052000+00:00",
+      "textSha256": "1c6cb6ec0e35398882b26e4a7861e41b50a943c8319ce34dbfa470b0fc989ae2"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566944632494100603",
+      "timestamp": "2026-11-02T22:38:32.810000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566944795761442887",
+      "timestamp": "2026-11-02T22:39:11.736000+00:00",
+      "textSha256": "60d7ba7c3538713bc6935f2281c7a9c85efbb5973f58e94313d7bc24ca3a46a1"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566944967434436659",
+      "timestamp": "2026-11-02T22:39:52.666000+00:00",
+      "textSha256": "171d16d3b27a1d5c09e2b5086104cef3c09be126218ee4ef6fab44cdb11702a9"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566945049667965113",
+      "timestamp": "2026-11-02T22:40:12.272000+00:00",
+      "textSha256": "3ea530ad65144131792b16cef03802ab94c397463395931d165eec940b0f241e"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566945237509738607",
+      "timestamp": "2026-11-02T22:40:57.057000+00:00",
+      "textSha256": "a36096882a12cd1540de77d97cb2bd051c1dc620967648919dd5a2b7c85d2e9a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566945571036602409",
+      "timestamp": "2026-11-02T22:42:16.576000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566945758307950637",
+      "timestamp": "2026-11-02T22:43:01.225000+00:00",
+      "textSha256": "6b73566f575d28ce50008a327b80914a46d12c3ee2c7d073a561974a18c01814"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566946386275074141",
+      "timestamp": "2026-11-02T22:45:30.944000+00:00",
+      "textSha256": "c233ef85a63db4d2421fdc9914f3398084eaa9543512e9408f16914b49614447"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566946395573719051",
+      "timestamp": "2026-11-02T22:45:33.161000+00:00",
+      "textSha256": "b7624d02bd4599bd8e5c54b5d5fbd291af5b8baa1d6901c91fed5d1555ccccac"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566946941621764137",
+      "timestamp": "2026-11-02T22:47:43.349000+00:00",
+      "textSha256": "987921879588d3dbb5979329ea653bea2c5f651a8cd666dd5559326aaa0080ec"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566947792897712269",
+      "timestamp": "2026-11-02T22:51:06.309000+00:00",
+      "textSha256": "136e337fb8fab34516ce31088a286539023dd3f0c0977af1678e541a09268cf0"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566948005322690646",
+      "timestamp": "2026-11-02T22:51:56.955000+00:00",
+      "textSha256": "fefba87dd2df18a51a6f00a6721ef795511fde9835d629793f76ce3e35bfb28a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566948226014257203",
+      "timestamp": "2026-11-02T22:52:49.572000+00:00",
+      "textSha256": "debeeb893e8269161bbeb3505cea57ad1838899eadfc0fa677e13e3cb760ed0f"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566948316590243864",
+      "timestamp": "2026-11-02T22:53:11.167000+00:00",
+      "textSha256": "d4ccdbc2929ab6123504fab47d2dbefe55e0b04639350a2ac412d2fbc90fe79c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566948801443401768",
+      "timestamp": "2026-11-02T22:55:06.765000+00:00",
+      "textSha256": "9d34d99f59004d50a32d3929d38d1adda28517497ffde06d495d75ca2b57c013"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566949086572060754",
+      "timestamp": "2026-11-02T22:56:14.745000+00:00",
+      "textSha256": "f048c6923e4c65ac856c654a9104c55c0e6891e7b46341bc6bfc9d69f5eaf95e"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566949111410720830",
+      "timestamp": "2026-11-02T22:56:20.667000+00:00",
+      "textSha256": "ea8852b640d3be5ca158c72d6284cc727bb8a129eef56e3cb232f59aa5d94c0c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566949458393170017",
+      "timestamp": "2026-11-02T22:57:43.394000+00:00",
+      "textSha256": "ed88f9af8deca709d9ee995a196e53c248e32977a6acd0859930bc4871d31d06"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566949535656316949",
+      "timestamp": "2026-11-02T22:58:01.815000+00:00",
+      "textSha256": "9e153272920f68d89fb0f3f961ba6d5abdc4989f14d11d7f47c4f892592a5213"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566949971008290907",
+      "timestamp": "2026-11-02T22:59:45.611000+00:00",
+      "textSha256": "49a4c88675e2ea676bb3546286dd47f575282216839eeb2dbab8eb6a7d17ae43"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566950249841561646",
+      "timestamp": "2026-11-02T23:00:52.090000+00:00",
+      "textSha256": "b4d9383977d0675f618373795f0bf9c5ccf476d05f8fe1e041abad4a7165dc77"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566950287024066782",
+      "timestamp": "2026-11-02T23:01:00.955000+00:00",
+      "textSha256": "02db48df25659a8a67617d332ee5ea144fc65f8ea75d5c49fbaa515234634ecf"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566950661197799477",
+      "timestamp": "2026-11-02T23:02:30.165000+00:00",
+      "textSha256": "16d8da0dcff7b31fe2e234b4a98041d77b16a3fc1d621dbb8702c58b3c151b89"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566950709960777770",
+      "timestamp": "2026-11-02T23:02:41.791000+00:00",
+      "textSha256": "c54e7f1b29b1f6b7a0ef85504c4bfcdabdb0d0557b90c1084c7e9f28d65b1a7c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566950747806105771",
+      "timestamp": "2026-11-02T23:02:50.814000+00:00",
+      "textSha256": "79ffdcc7ab8cc0860d04f5fa8b49e2d3e471bfb1f5c47bdee36e8f36e4c4f9db"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566951254582632582",
+      "timestamp": "2026-11-02T23:04:51.639000+00:00",
+      "textSha256": "b3c5bb280a4b3943333bbc256a9d3b10cc6dbe28246679b13150ab5463052e3a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566951443313987587",
+      "timestamp": "2026-11-02T23:05:36.636000+00:00",
+      "textSha256": "e838cffde8116c446a94574b56549bf5c5bba8ce3a8b069054b7e8a17461d888"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566951585798684694",
+      "timestamp": "2026-11-02T23:06:10.607000+00:00",
+      "textSha256": "013a19b84f071d49605424719290433e6e14fcdc5f10fcfb73637d0fbb31f88a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566951911511564412",
+      "timestamp": "2026-11-02T23:07:28.263000+00:00",
+      "textSha256": "e667ed53d1a27b4341162fe8f293619f6c00d5c8632487e9e45679632b65aeb9"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566952084677328977",
+      "timestamp": "2026-11-02T23:08:09.549000+00:00",
+      "textSha256": "51d9bc6e995bd56df9c5390c0d1813efa6592a8b2abbf1fe4ed8e08a002c7461"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566952329058451550",
+      "timestamp": "2026-11-02T23:09:07.814000+00:00",
+      "textSha256": "7b2a064a432c1bd8499cc8d9624b94efec6cb0b6f6bbfd0b22e2fd7e13bb604c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566952982090748089",
+      "timestamp": "2026-11-02T23:11:43.509000+00:00",
+      "textSha256": "b65794b32aebf9d2386e30527ef25fff59b84e2e81f489c4fb976712b519c7c0"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566953381652734006",
+      "timestamp": "2026-11-02T23:13:18.772000+00:00",
+      "textSha256": "90938b9d77ea2f7b45dd774d407555a9211395e7cb1a8cbcbc1c3b964ff8371b"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566953788596551782",
+      "timestamp": "2026-11-02T23:14:55.795000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566953795668414495",
+      "timestamp": "2026-11-02T23:14:57.481000+00:00",
+      "textSha256": "77dc05901efe56c14f94284cb7bc5da00b824afea723df14cbcfb79a1f59df96"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566954107233640479",
+      "timestamp": "2026-11-02T23:16:11.764000+00:00",
+      "textSha256": "f682591358cffefa39dcacfe3669efa1a9fa69f03eb89514bbe562085ccb4310"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566954121691537501",
+      "timestamp": "2026-11-02T23:16:15.211000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566954138732855329",
+      "timestamp": "2026-11-02T23:16:19.274000+00:00",
+      "textSha256": "a4d2c32115314ce7d08fe8f9f39225002260fbf01823dba2731c2f3ca4dc8994"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566954237680947321",
+      "timestamp": "2026-11-02T23:16:42.865000+00:00",
+      "textSha256": "7cfe9f4045e2d7e7e66ce6e0bf6edcf893394ce6aeef25eaa2526a57f217e6d3"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566954398335107184",
+      "timestamp": "2026-11-02T23:17:21.168000+00:00",
+      "textSha256": "b93dfd3f2fc11167938c68dd38b864bb26e6217f95ee43a09d135e9b08fdc0dd"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566954474986152068",
+      "timestamp": "2026-11-02T23:17:39.443000+00:00",
+      "textSha256": "f63201bdd67b2724769f7311514fdc254330b13595226d2b7a9e5caf7145bb42"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566954508343451739",
+      "timestamp": "2026-11-02T23:17:47.396000+00:00",
+      "textSha256": "baaf3e845e7dda73ee23b559859505d38665b4eb7cafafef0585cea768beb2c5"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566954702707368027",
+      "timestamp": "2026-11-02T23:18:33.736000+00:00",
+      "textSha256": "8adb1615fb3409b8d283b5805fc8be44afe8b1b4a18ae74e8bf86df2a3874310"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566954782466248769",
+      "timestamp": "2026-11-02T23:18:52.752000+00:00",
+      "textSha256": "eee493a8bed4ede3fc8691046eeaa3857444dc6a995a16e9ac85639a53e93235"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566955033713578176",
+      "timestamp": "2026-11-02T23:19:52.654000+00:00",
+      "textSha256": "f6fb3e0dd3f17164589fdab59a5356160f0e859a7d9660e05d16136f584f34db"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566955579958890678",
+      "timestamp": "2026-11-02T23:22:02.889000+00:00",
+      "textSha256": "2d9a2a7134ef0dc72ded93d2e57a3119b3c52e523233ee6074111529c612d378"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566955592864763999",
+      "timestamp": "2026-11-02T23:22:05.966000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566955607129587875",
+      "timestamp": "2026-11-02T23:22:09.367000+00:00",
+      "textSha256": "b74057a9636fba6ba6006ce1b7ecf2dc2660362ef490205420382131b3347cd4"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566955781935599817",
+      "timestamp": "2026-11-02T23:22:51.044000+00:00",
+      "textSha256": "41f0892fe06ad9397a1b283bffc246f29925d08c19228616d9d64813989e62b5"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566955889754120203",
+      "timestamp": "2026-11-02T23:23:16.750000+00:00",
+      "textSha256": "926656a21c268f32b91a278931ff832dec715f049db89e9c476414af79d90d93"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566956163898277919",
+      "timestamp": "2026-11-02T23:24:22.111000+00:00",
+      "textSha256": "dfd395a80f8b9fd29333f7c6e03c19d218e45c6e94a75a01ce6682288216f9ae"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566956300737314967",
+      "timestamp": "2026-11-02T23:24:54.736000+00:00",
+      "textSha256": "bc72dd9ea3f0ad4141434bfea7286e6e5a04bde6aca6c43816166019b8206b53"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566956481943961722",
+      "timestamp": "2026-11-02T23:25:37.939000+00:00",
+      "textSha256": "b6c9dd7c1fcb3dee47d4f9f9078252bcf1f3b695e0bf1e3e30aab92e46d7aa58"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566956653037752402",
+      "timestamp": "2026-11-02T23:26:18.731000+00:00",
+      "textSha256": "d63532bab9599b520b77dbfb8d3f6af48effa5bc3694fa75df91247a6908ed90"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566957105154498612",
+      "timestamp": "2026-11-02T23:28:06.524000+00:00",
+      "textSha256": "d9b5ea21cb2dd260866c7cb0a8736c45f48c568075b3ff6507ef90902958b2e8"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566957297849208973",
+      "timestamp": "2026-11-02T23:28:52.466000+00:00",
+      "textSha256": "e8f9caf162b2196a5370316416192204fa1fa40aea2013661a4f58d7985309b8"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566957892261912749",
+      "timestamp": "2026-11-02T23:31:14.185000+00:00",
+      "textSha256": "a2362617c117f8a6e9795d9de50a3fbd7eb468fb7808a12fe3fb44846ba2b310"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566958259099926570",
+      "timestamp": "2026-11-02T23:32:41.646000+00:00",
+      "textSha256": "4d121525162cd6ad5f31ce3c995820a20a86467f30b177eb90f0d974f5d7aab7"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566959690490056746",
+      "timestamp": "2026-11-02T23:38:22.916000+00:00",
+      "textSha256": "fe544a826cf9b3aac49eff9323b5255edefa120d92d3e672ea6b0da3ff92aafa"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566959972989010064",
+      "timestamp": "2026-11-02T23:39:30.269000+00:00",
+      "textSha256": "e28d810c4ed392db127a95e7ff0fbd40ce42799e7a9e8637c7a90264e6cbbd75"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566960034955534387",
+      "timestamp": "2026-11-02T23:39:45.043000+00:00",
+      "textSha256": "cee7de6ea174a3f84320795df276f3f21de9abd25666ecbc0787b69e816b3090"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566960194368569345",
+      "timestamp": "2026-11-02T23:40:23.050000+00:00",
+      "textSha256": "133e555c7649c5f2a16b1f6f1136c18ddcc316de84183e77b579d3993194e2fb"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566960384353505402",
+      "timestamp": "2026-11-02T23:41:08.346000+00:00",
+      "textSha256": "9ad13b79bd4aa1cfbc3a666210fa8473160a596b3ae6f71a334c0f72eccea918"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566960562708021380",
+      "timestamp": "2026-11-02T23:41:50.869000+00:00",
+      "textSha256": "6059da72f2e199016865d1a45468b49ab9790342f71db14e4980d724dc6b6645"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566960631884546079",
+      "timestamp": "2026-11-02T23:42:07.362000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566960725761466412",
+      "timestamp": "2026-11-02T23:42:29.744000+00:00",
+      "textSha256": "0c95bf82d1a0ba8f68bbfad33783951ec921061d93869a387c305e5793896c6a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566960829134545067",
+      "timestamp": "2026-11-02T23:42:54.390000+00:00",
+      "textSha256": "c8a8e54e97bcfccf819377eb21281a4dbd1c6af13b5161bf17c8bebeb4ffb6e8"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566960879881158808",
+      "timestamp": "2026-11-02T23:43:06.489000+00:00",
+      "textSha256": "e0acbad1ff57dab58a2785a5cbcb68569d48bbdfceef216b9dc15709d3f93b28"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566961155329761311",
+      "timestamp": "2026-11-02T23:44:12.161000+00:00",
+      "textSha256": "a86eec74d0980c5ef6f1d5a4de50b4b6263c2f0b210f22b2c08c5aaa017df0e2"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566961396263161878",
+      "timestamp": "2026-11-02T23:45:09.604000+00:00",
+      "textSha256": "507b2beb13c29c108011f9b3a2de788512633aeb35b41a8b16114f0296f8a64c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566961480803553282",
+      "timestamp": "2026-11-02T23:45:29.760000+00:00",
+      "textSha256": "e1877836464ea6a857f125089d8a930b29192214a4b98fc00d636884dc870263"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566961550458224731",
+      "timestamp": "2026-11-02T23:45:46.367000+00:00",
+      "textSha256": "3b4256839e7bc5c6b242cfae68fd94d4f76dcff74a4ccc5a09a7e0edbbdca97a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566961883867779247",
+      "timestamp": "2026-11-02T23:47:05.858000+00:00",
+      "textSha256": "60b77014189dd9c7b801a35a240bf65834ee6ce33562a12389ec56df751f8219"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962079007776839",
+      "timestamp": "2026-11-02T23:47:52.383000+00:00",
+      "textSha256": "68ff1aa3445adbc2187271ee496c35292caea5bb4feb4512932e411aff9e3a86"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962142358540399",
+      "timestamp": "2026-11-02T23:48:07.487000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962217335787723",
+      "timestamp": "2026-11-02T23:48:25.363000+00:00",
+      "textSha256": "81e0b2b361dfe643ff8e68dd3b596dbc8f2cf2804e1572ed3135c63c4bd01f4e"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962322797371593",
+      "timestamp": "2026-11-02T23:48:50.507000+00:00",
+      "textSha256": "a221c2d0116a633b9998646766b55ee61e7e8cddc4782ea76cfa1877a425333f"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962343550918758",
+      "timestamp": "2026-11-02T23:48:55.455000+00:00",
+      "textSha256": "8dfbca021be0b4691b09d57e59e9b37b089182d115d96b6a13e89bbcec903995"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962606416339017",
+      "timestamp": "2026-11-02T23:49:58.127000+00:00",
+      "textSha256": "6c8af421c1ba974e313e40dfd1999a562a63bb0de55750347de96d7359f139ca"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962645754585210",
+      "timestamp": "2026-11-02T23:50:07.506000+00:00",
+      "textSha256": "80e956a6333540064045de3c1f017345be5537cdef52792bbb9384d8d05ab161"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962704818901034",
+      "timestamp": "2026-11-02T23:50:21.588000+00:00",
+      "textSha256": "88d571ee57410c02336246d99564d80c02f89f0f7906387987c04a02fc8c5b07"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962711030407290",
+      "timestamp": "2026-11-02T23:50:23.069000+00:00",
+      "textSha256": "7ea18dc0cdbdce64aa815f153458042e1ee09b9aabf312437f5cea0d2b39cf37"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962739459657920",
+      "timestamp": "2026-11-02T23:50:29.847000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962750314254337",
+      "timestamp": "2026-11-02T23:50:32.435000+00:00",
+      "textSha256": "5cac13de9be0b4907f62325d79facded253054a6bafc568cca7143bbacef1bc2"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566962816274006229",
+      "timestamp": "2026-11-02T23:50:48.161000+00:00",
+      "textSha256": "77e23ebb05342abfd340ec09b355b96e8f28bd7cce9ca8e3b6ae0175cd9e348f"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566963064715354113",
+      "timestamp": "2026-11-02T23:51:47.394000+00:00",
+      "textSha256": "a532fe4eb8ee8205a51f74f3d7d5789de5b367f9e0817e7425d663616cd4625c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566963157350621276",
+      "timestamp": "2026-11-02T23:52:09.480000+00:00",
+      "textSha256": "2901765c3352fafd15d023a227f453c87278ea1f0ae46d5c50b8ea11adc0b3fd"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566963274434613300",
+      "timestamp": "2026-11-02T23:52:37.395000+00:00",
+      "textSha256": "2f1b980674b685996f97aef63b6e919a771d99bcafaa2760f54ad34b3065a976"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566963291669004312",
+      "timestamp": "2026-11-02T23:52:41.504000+00:00",
+      "textSha256": "3206563547991fb3a745d81fd320ffb0702e87134d70b7cfcc5dfbd6c46dabd9"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566963411013607516",
+      "timestamp": "2026-11-02T23:53:09.958000+00:00",
+      "textSha256": "6a3ab57c5ef99f5d6dab73b83d2be4c4619aaac6eed74c42c6cb55d2d9002134"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566963459441299639",
+      "timestamp": "2026-11-02T23:53:21.504000+00:00",
+      "textSha256": "8f5dff62400aeb2bc2c7803770580977d9e498177ef724eeecd415432d190003"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566963653264285747",
+      "timestamp": "2026-11-02T23:54:07.715000+00:00",
+      "textSha256": "75920479c0bebba08720f769669ebe648756f036f19046ff391c5307a4c5a6b1"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566963801939509409",
+      "timestamp": "2026-11-02T23:54:43.162000+00:00",
+      "textSha256": "6a5ddd6514f6eb89ad6527aa163ba3b5be2339e5b697f74380f60abcd83d0d3e"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566963833749246123",
+      "timestamp": "2026-11-02T23:54:50.746000+00:00",
+      "textSha256": "042642efa98cecee08d711114e70735edfacd1206e46a740f21bd2e28d06cc75"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566964024564908193",
+      "timestamp": "2026-11-02T23:55:36.240000+00:00",
+      "textSha256": "412726ecbf526d4fe091d673c338c172ef40ff3d151e00135e3e69d5f559a824"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566964322582925313",
+      "timestamp": "2026-11-02T23:56:47.293000+00:00",
+      "textSha256": "9525ccd5f709751650e97e2a08dff5cfe86425e2e92dfa0bfaecc12cbbc9a904"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566964396465463358",
+      "timestamp": "2026-11-02T23:57:04.908000+00:00",
+      "textSha256": "5e0e4cc23f5db85f4348b1d1ebe8ec01af53a8ed1a59a64f570b02d3eac61104"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566964427276816486",
+      "timestamp": "2026-11-02T23:57:12.254000+00:00",
+      "textSha256": "f1e6ee89ac72753ee2a2d3fbee5ceb2ab9b7147ddb67d4ef23781018a9da849a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566964659267969055",
+      "timestamp": "2026-11-02T23:58:07.565000+00:00",
+      "textSha256": "5db4d378c99b9c67b26116731f90c639127c170a4a984d427f2fbb491fe2c274"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566964709725307014",
+      "timestamp": "2026-11-02T23:58:19.595000+00:00",
+      "textSha256": "760cc17687c6beba089e3ed45c2338605eedbbe97d5930a0ed6b9443477888ea"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566964972167372973",
+      "timestamp": "2026-11-02T23:59:22.166000+00:00",
+      "textSha256": "0013f333080f23b5cf4cad6dac0d3271148512ec30e50a65f75608ce865501e1"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566964991851233444",
+      "timestamp": "2026-11-02T23:59:26.859000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566965043482853457",
+      "timestamp": "2026-11-02T23:59:39.169000+00:00",
+      "textSha256": "2cc56e9cc07e9a7eb368371ee60e3089df87a4240658acdce484accdfb9e6563"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566965203004821646",
+      "timestamp": "2026-11-03T00:00:17.202000+00:00",
+      "textSha256": "a5ff8ccc3ed62f70dd891b7d6b58e8ab8a0eb9bd276a847ac15d140daf56c366"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566965627263131781",
+      "timestamp": "2026-11-03T00:01:58.353000+00:00",
+      "textSha256": "238733922f8f0e24c3d629f0efa3d8f7298c1aa5bbf0a5178ecd932bb805fac3"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566965735245480048",
+      "timestamp": "2026-11-03T00:02:24.098000+00:00",
+      "textSha256": "c400eb5406d30a4485c8c429f1421674c3ebbe0dbce6e1a696e1435905e7aa5a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566966055832653825",
+      "timestamp": "2026-11-03T00:03:40.532000+00:00",
+      "textSha256": "e606db6c974f9380c6146fc6043f5730b7573b44e66ceb5727dd2fc409d5d84b"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566966206156509265",
+      "timestamp": "2026-11-03T00:04:16.372000+00:00",
+      "textSha256": "e878c90b84b1d4cec671a4fbb576d541b358c20766b791fbf0569d6fbf2ef4f7"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566966443810099292",
+      "timestamp": "2026-11-03T00:05:13.033000+00:00",
+      "textSha256": "88ad08d7206fa29d98d976054563e2a72eb34e8dfb2978ff33b606dea8dec812"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566966612375117986",
+      "timestamp": "2026-11-03T00:05:53.222000+00:00",
+      "textSha256": "e07afbb7c010880081af09bffa23eb42843559147883e3bac9cd972d4a8d7efc"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566966852532572233",
+      "timestamp": "2026-11-03T00:06:50.480000+00:00",
+      "textSha256": "91edf0151802352106c3da6c9c5f4c3de554855ba613107a01a6f032e6c534d6"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566967074721370273",
+      "timestamp": "2026-11-03T00:07:43.454000+00:00",
+      "textSha256": "243eaebf67e4b71e84e93360a1b082f4c97f9d53b18b4ba8e9775378ebe97cd8"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566967128274374847",
+      "timestamp": "2026-11-03T00:07:56.222000+00:00",
+      "textSha256": "e73e49904e0e8d4bbcbdcf49d4061998bb7be0ab33e990ae999aa28c81b42499"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566967352363450389",
+      "timestamp": "2026-11-03T00:08:49.649000+00:00",
+      "textSha256": "27a1a2d3867e69985b4d4ca3d07ed74db206ddfd46ee2af82f9528a4e65e7650"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566967444751261950",
+      "timestamp": "2026-11-03T00:09:11.676000+00:00",
+      "textSha256": "600bdd0618104c9e95e6b6cb0742b3c0e62187b88423f79c3de1d1834a3edbc5"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566967938022645795",
+      "timestamp": "2026-11-03T00:11:09.281000+00:00",
+      "textSha256": "e4e178bab58fed075867a8fbbc118261c2f5603e94843e2d84661769d78b7de0"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566968056046035059",
+      "timestamp": "2026-11-03T00:11:37.420000+00:00",
+      "textSha256": "d10b799159f465dc2decaf638571a0449f592038e159b9567f03c2bb7b00a570"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566968343691403285",
+      "timestamp": "2026-11-03T00:12:46+00:00",
+      "textSha256": "1498862e04e693b1943dc620db0d754e9e1586c423324b7ce37f26db642b19e6"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566968889198383190",
+      "timestamp": "2026-11-03T00:14:56.059000+00:00",
+      "textSha256": "2a6b10e685a20fa429320c47c33d121a42db5e7af1c66184233e5f28c25818c2"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566968920076718248",
+      "timestamp": "2026-11-03T00:15:03.421000+00:00",
+      "textSha256": "285eaebe872c26bb60d7ad6ac3f4b1ae97e1b84f1578c383c18086fff71d2bb6"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566969109021982892",
+      "timestamp": "2026-11-03T00:15:48.469000+00:00",
+      "textSha256": "49165bd18210dbb379a006511a3e39df7dc9b5beafbe0838ae72f136dc32906d"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566969490653315184",
+      "timestamp": "2026-11-03T00:17:19.457000+00:00",
+      "textSha256": "7ab986c7149b0f0137ed02aa65b4414a259297985ffcda034cfe7377e068b7cf"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566969595007340635",
+      "timestamp": "2026-11-03T00:17:44.337000+00:00",
+      "textSha256": "f8d1a4d8de5e6b1d9d460e97ba82fe6b6f09862e5b02dced0c9e59c2d04ce137"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566969820967338127",
+      "timestamp": "2026-11-03T00:18:38.210000+00:00",
+      "textSha256": "a771a573a82010490b5f51f6641199fc3907187110b67cf9fed3a57c4df8b18e"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566970595709812829",
+      "timestamp": "2026-11-03T00:21:42.923000+00:00",
+      "textSha256": "269d8edd98b1cf9c736b91ec697187de36fe8aa86e1a02d33538609025ecd36d"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566970663867125841",
+      "timestamp": "2026-11-03T00:21:59.173000+00:00",
+      "textSha256": "a68c3ec983e49208ea01dca1fc30c93196a0ae6b9e2646e0e9527aa58d4a4c38"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566970678970818561",
+      "timestamp": "2026-11-03T00:22:02.774000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566970715268325491",
+      "timestamp": "2026-11-03T00:22:11.428000+00:00",
+      "textSha256": "e8f4a8a8484af769ac5107f518ed15fb7ab8bf3cd4e5f3565e766283a32c4e42"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566971034136219769",
+      "timestamp": "2026-11-03T00:23:27.452000+00:00",
+      "textSha256": "cf2e4c57bc10296b5fd88242cd1999ae656f32a23bb2a94f5e64ea707c14694b"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566971259277942906",
+      "timestamp": "2026-11-03T00:24:21.130000+00:00",
+      "textSha256": "6ed2b0df60cbe1e46a2b2b8a65c097e091e60a2583c3c79042303af3c6ad05db"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566972546451120210",
+      "timestamp": "2026-11-03T00:29:28.016000+00:00",
+      "textSha256": "28b2e841d6796eb5dde85bbf6fd49072cff7cb9ca606420f8fe44370b41339f0"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566972997313503315",
+      "timestamp": "2026-11-03T00:31:15.510000+00:00",
+      "textSha256": "86675a5e5b4d5044b56e9f10c77b6aa4182e5d8540a2e6bb60cbb0586f0a7f64"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566973179539492926",
+      "timestamp": "2026-11-03T00:31:58.956000+00:00",
+      "textSha256": "7be3ac96ffc8382263225554b8bc08f676ca5bd836700b63bccc724931146b2c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566974355152310464",
+      "timestamp": "2026-11-03T00:36:39.244000+00:00",
+      "textSha256": "2c5a4a00ad00189f96166682249efc59a0c43bf7de0e593719f860f301fb978b"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566974709143306391",
+      "timestamp": "2026-11-03T00:38:03.642000+00:00",
+      "textSha256": "6be36322ae4eae1cbfc998560390b9e507232c89a1817924cd67aa00dad1e8c0"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566976522697314426",
+      "timestamp": "2026-11-03T00:45:16.027000+00:00",
+      "textSha256": "1a1ccd24705d28d695a46fc175b6485170bcf2030095fe7378e43ee4ef3ccc99"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566977049497706548",
+      "timestamp": "2026-11-03T00:47:21.626000+00:00",
+      "textSha256": "59d8aff9e67b08d9859a8d414335dae621cd56bc7945f27d9341ca40cf303070"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566978065966563359",
+      "timestamp": "2026-11-03T00:51:23.971000+00:00",
+      "textSha256": "c082833ae68f91b91e794463b04603c3569f543c7a33335c98cb6e8118371a52"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566978340085047377",
+      "timestamp": "2026-11-03T00:52:29.326000+00:00",
+      "textSha256": "bf3fcc1616c50d731ee8b6c6daf7652c1675893a05337b7559e596db27628123"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566979281408626689",
+      "timestamp": "2026-11-03T00:56:13.755000+00:00",
+      "textSha256": "e1560c769c964d461ebc5db663d250660406192fba8f69dcbe852f8d1f751391"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566979699756900503",
+      "timestamp": "2026-11-03T00:57:53.497000+00:00",
+      "textSha256": "b687ead3c5a5c2fb6cfa419b3eeb223c554425346e2f314ded65862b0033b06e"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566980646948053124",
+      "timestamp": "2026-11-03T01:01:39.325000+00:00",
+      "textSha256": "4c6e0c0c80eed6a928495b02d3f413bad2c7856f4ed1f6740be619807327f09a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566981542612434955",
+      "timestamp": "2026-11-03T01:05:12.868000+00:00",
+      "textSha256": "272b72d936ccd4338332276ef9770b8c07b311fec8733d5abdd4380c0db74d5b"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566982006867365969",
+      "timestamp": "2026-11-03T01:07:03.555000+00:00",
+      "textSha256": "d0e1d1d2d6c4d2c28715c5bc2e870f807c9b86a7d89e5ca55cea5c4fdc990c1b"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566982289748000871",
+      "timestamp": "2026-11-03T01:08:10.999000+00:00",
+      "textSha256": "5535e641ba98821c183fbdeeb509636dab857279b71c160354897af7203c8fc6"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566985046412496919",
+      "timestamp": "2026-11-03T01:19:08.239000+00:00",
+      "textSha256": "d6e372b38bd0886a217ad2565b40e76c0912ea6b7c4dd65d8150526dfda1cf56"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566985919947345991",
+      "timestamp": "2026-11-03T01:22:36.506000+00:00",
+      "textSha256": "d6ada841a2666900f0a6cf277f4366e6128076113fc239d6a81758f0fbd9ccf5"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566986038034047047",
+      "timestamp": "2026-11-03T01:23:04.660000+00:00",
+      "textSha256": "fa966b993b5f7bb22ae8ddfbe04b74ab34bb542de953f8d9f63712ee96dc12df"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566986130170060823",
+      "timestamp": "2026-11-03T01:23:26.627000+00:00",
+      "textSha256": "908bbb764b2e660bf70ecfcaa6093ee5c43ca5c7e6ec5659b9b9bbeeffeb1cf0"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566986650397966430",
+      "timestamp": "2026-11-03T01:25:30.659000+00:00",
+      "textSha256": "be70e0752079aea746dc4538a1f48c6b13a48754b9550895b8f07093ef13dffd"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566987644506873909",
+      "timestamp": "2026-11-03T01:29:27.673000+00:00",
+      "textSha256": "cb3cda94eed5db9d34c80701201555ed63db839a6a26e3128b08040abccfbc49"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566988336495599820",
+      "timestamp": "2026-11-03T01:32:12.656000+00:00",
+      "textSha256": "5583eb8f3d6781e80234f84ca67b31ba1296f672435b8b1ef5b42bf3597d9247"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566988952530063441",
+      "timestamp": "2026-11-03T01:34:39.530000+00:00",
+      "textSha256": "7c0d93065c3c7f580cb7c9dbac26f94575f40718841fd55b09377fe01333be2a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566988980153487373",
+      "timestamp": "2026-11-03T01:34:46.116000+00:00",
+      "textSha256": "df2d544f1b7c57147b18e02f165d3d44182e884d654364a9468b2c8b32caa9aa"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566989038458507386",
+      "timestamp": "2026-11-03T01:35:00.017000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566989439899537529",
+      "timestamp": "2026-11-03T01:36:35.728000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566989498884161617",
+      "timestamp": "2026-11-03T01:36:49.791000+00:00",
+      "textSha256": "ff480a160060faade404613821db827a0e7ddcfb97e70364c3e306c20ef23757"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566989578751967373",
+      "timestamp": "2026-11-03T01:37:08.833000+00:00",
+      "textSha256": "df3cc208bb1cbc44a519ddcfe88c3fdab324a85cc26e14e8ec1c9b54458331ec"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566991461352874066",
+      "timestamp": "2026-11-03T01:44:37.680000+00:00",
+      "textSha256": "cccdc7faa66d4c98367f6dde7c81d7aebd4a47b3f56f81b254afca766d4120f3"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566994454219595850",
+      "timestamp": "2026-11-03T01:56:31.235000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566995394079101089",
+      "timestamp": "2026-11-03T02:00:15.315000+00:00",
+      "textSha256": "2d2aa9a47657bf615fa46d92fd4edf49c6bdfb62817ea9c7302c4264e60a1530"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566996107785928718",
+      "timestamp": "2026-11-03T02:03:05.476000+00:00",
+      "textSha256": "9238449724215a9edda36c64b53284889c13779e8b4ef3b693242044785ac83b"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566996755243864196",
+      "timestamp": "2026-11-03T02:05:39.842000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566996874659889254",
+      "timestamp": "2026-11-03T02:06:08.313000+00:00",
+      "textSha256": "70815cb120f571205e936d9bf8302defa5fbf43ff572c5b2fdc9f12461feeddc"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566997683049074759",
+      "timestamp": "2026-11-03T02:09:21.048000+00:00",
+      "textSha256": "b2c88992e0d0191af3832c6a4c3eb68e7148f5658691d9c22d5bde72b59b80c3"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1566998384399622235",
+      "timestamp": "2026-11-03T02:12:08.263000+00:00",
+      "textSha256": "5e00a5dedc1282458a9fb17a794b21c573c519ea22fb39fe7d8c28febe91d988"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567000290366857287",
+      "timestamp": "2026-11-03T02:19:42.681000+00:00",
+      "textSha256": "512dae89c3a57f7442981695e44ca47f478f32826de08bc488787f505bbd4efa"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567000867662733425",
+      "timestamp": "2026-11-03T02:22:00.319000+00:00",
+      "textSha256": "49df5f982faae04d4ca674311e2fefaf5ff215f0b20150f00d9e68a25ccc3f45"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567001489673691218",
+      "timestamp": "2026-11-03T02:24:28.618000+00:00",
+      "textSha256": "c06724f0afd912f1b534b28ab22e8214874b01c692c9e18c3083642d920b8f44"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567002609817092178",
+      "timestamp": "2026-11-03T02:28:55.681000+00:00",
+      "textSha256": "d3c94acbea2239d6f49daa042f9a98406b176aafc6f7015fc02f9a98a2ac294d"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567003612796682293",
+      "timestamp": "2026-11-03T02:32:54.810000+00:00",
+      "textSha256": "05a017afe869d6d39dc4db9714648bec11b629ead90e4e08aad62e4ac3a8368a"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567004911105871884",
+      "timestamp": "2026-11-03T02:38:04.351000+00:00",
+      "textSha256": "53f2e8132f20a8d670e48766370fc39d7e1bc537620ec79354bfc5ceac767b49"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567004997286232105",
+      "timestamp": "2026-11-03T02:38:24.898000+00:00",
+      "textSha256": "9590a884b978745684ca00ce1662599b4df5b3b7cf14dc92df182baf49b639eb"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567005141549453353",
+      "timestamp": "2026-11-03T02:38:59.293000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567005217537523847",
+      "timestamp": "2026-11-03T02:39:17.410000+00:00",
+      "textSha256": "b40dea047926827bb68c81b17de21f34d98e9ea4729e8566d3af9bf56fd2059c"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567005228971204639",
+      "timestamp": "2026-11-03T02:39:20.136000+00:00",
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "corpus": "skylight-refuge-new-2026-11-02-214220/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1455628231091945686",
+      "id": "1567005622191398923",
+      "timestamp": "2026-11-03T02:40:53.887000+00:00",
+      "textSha256": "8cc06a7618d9df635828c17e097b43d27bad2b19607d88f4952dc23bd049db9f"
+    }
+  ]
+}

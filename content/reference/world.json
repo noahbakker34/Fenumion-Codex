@@ -14648,7 +14648,7 @@
         "meta": "Player character · scholar and reluctant bearer",
         "article": "eugene",
         "image": "assets/characters/eugene.png",
-        "summary": "Names himself as a burden immediately before asking the useful question or carrying difficult knowledge."
+        "summary": "Eugene repeatedly names himself as a burden immediately before becoming the person who asks the useful question or carries the difficult knowledge."
       },
       {
         "title": "Gregory Greenleaf",
@@ -14716,14 +14716,14 @@
         "meta": "Oathbound hunter and remembered veteran",
         "article": "aravil",
         "image": "assets/characters/aravil.png",
-        "summary": "Recognizes comrades by shared battles, admits error without surrendering competence, and returns when war becomes consequential."
+        "summary": "An oathbound hunter whose fieldcraft helps Babel’s company survive, until an attempt to save Wren leaves her petrified in Abyss’s collection. Her companions return for her."
       },
       {
         "title": "Arjahn",
         "meta": "Soldier and mapper",
         "article": "arjahn",
         "image": "assets/characters/arjahn.png",
-        "summary": "A soldier and planner whose care for companions and grief for his family lead him to demand useful answers while continuing the fight. After the Tower petition, asks Heimr about the war and grief, and receives an unfulfilled promise of family reunion."
+        "summary": "A soldier and mapper who plans routes, retreat and the fight after the first victory, while trying to bring his companions home."
       },
       {
         "title": "Brianna",
@@ -15015,7 +15015,7 @@
         "meta": "Druidic investigator and emotional witness",
         "article": "wren",
         "image": "assets/characters/wren.png",
-        "summary": "Feels what history costs individual people and keeps helping inside grief, even when responsibility threatens to consume her."
+        "summary": "A druid who maps danger through close attention to the land, notices frightened companions and continues caring for the living while grieving the dead."
       },
       {
         "title": "Alioth",
@@ -15115,7 +15115,7 @@
         "meta": "Seeker · gravedigger and civic servant",
         "article": "pelegia",
         "image": "assets/characters/pell.png",
-        "summary": "Urges retreat from Hana’s tower and returns with Ryvyt to question market residents about the forest. Insists on burial in the harpy cave, helps gather Tabitha’s ingredients and gains purpose through trusted service at Papirak’s funeral. An adventurer who introduces himself to the company, stays close to Carmen and offers healing after a fight. Later returns as Pin, helps Ryvyt after Hana’s death and explores the tower with him.",
+        "summary": "Urges retreat from Hana’s tower and returns with Ryvyt to question market residents about the forest. Insists on burial in the harpy cave, helps gather Tabitha’s ingredients and gains purpose through trusted service at Papirak’s funeral. An adventurer who introduces himself to the company, stays close to Carmen and offers healing after a fight.",
         "aliases": [
           "Pin",
           "Pell",
@@ -15286,6 +15286,51 @@
         "image": "assets/characters/discord/d06b7c850cd809b60e969d72426eaf0971e1245b37eaf4b7d5a42e004b6312c4.png",
         "imageAlt": "Discord depiction of Caravash",
         "imageCaption": "Caravash"
+      },
+      {
+        "title": "Jako",
+        "article": "jako",
+        "meta": "Goblin naturalist and earthworker · First Called",
+        "summary": "A hesitant goblin who finds a voice through shared minds, helps build Pristinia and keeps asking what saving people means when hunger, disease and money divide them."
+      },
+      {
+        "title": "John Smith",
+        "article": "john-smith",
+        "meta": "Blood hunter · early militia organizer",
+        "summary": "A member of the first Gate company who turns protective urgency into recruitment, shared training and an attempt to make Pristinia capable of defending itself.",
+        "aliases": [
+          "John"
+        ]
+      },
+      {
+        "title": "Forgax",
+        "article": "forgax",
+        "meta": "Thri-kreen researcher and armored spellcaster · First Called",
+        "summary": "A proud researcher who enters danger to learn what others cannot see, then survives long enough underground to return with warnings, samples and unfinished notes."
+      },
+      {
+        "title": "Claire Hearthford",
+        "article": "claire-hearthford",
+        "meta": "Herbalist and mother · early Pristinian adventurer",
+        "summary": "A mother who ventures out because people need care, then helps make a stable town in which her daughter can live, learn and form friendships."
+      },
+      {
+        "title": "Keno",
+        "article": "keno",
+        "meta": "Scout and protector · First Called",
+        "summary": "A watchful member of the first Gate company who scouts within reach of the others, notices the moving fungus and puts himself between danger and smaller companions."
+      },
+      {
+        "title": "Force",
+        "article": "force",
+        "meta": "Fire-wielding researcher · First Called",
+        "summary": "A curious spellcaster who studies the Gate and the first undead, then learns that supporting a front line and standing in it are different tasks."
+      },
+      {
+        "title": "Modeli",
+        "article": "modeli",
+        "meta": "Scribe and divine spellcaster · Veilguard founder",
+        "summary": "An inexperienced scribe who runs toward a harbor attack, then tries to become worthy of divine trust without accepting that command must reduce people to numbers."
       }
     ],
     "npcs": [
@@ -25120,6 +25165,62 @@
         "Timeline",
         "Event stories",
         "The Mountain Offensive · Flood and Ash"
+      ]
+    ],
+    [
+      "jako",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "Jako"
+      ]
+    ],
+    [
+      "john-smith",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "John Smith"
+      ]
+    ],
+    [
+      "forgax",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "Forgax"
+      ]
+    ],
+    [
+      "claire-hearthford",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "Claire Hearthford"
+      ]
+    ],
+    [
+      "keno",
+      [
+        "People of Fenumion",
+        "Characters K–Z",
+        "Keno"
+      ]
+    ],
+    [
+      "force",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "Force"
+      ]
+    ],
+    [
+      "modeli",
+      [
+        "People of Fenumion",
+        "Characters K–Z",
+        "Modeli"
       ]
     ]
   ],
@@ -52292,7 +52393,14 @@
     "return-to-babels-mist",
     "babel-captive-rescue",
     "defense-of-skylight-refuge",
-    "breaking-babels-mountain"
+    "breaking-babels-mountain",
+    "jako",
+    "john-smith",
+    "forgax",
+    "claire-hearthford",
+    "keno",
+    "force",
+    "modeli"
   ],
   "timelineRegions": [
     {

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "force",
+  "title": "Force",
+  "category": "People",
+  "type": "Fire-wielding researcher · First Called",
+  "dek": "A curious spellcaster who studies the Gate and the first undead, then learns that supporting a front line and standing in it are different tasks.",
+  "tags": [
+    "Force",
+    "Vanguard",
+    "Pristinia"
+  ],
+  "facts": {
+    "Early company": "First Called · Day 1 of the Final War",
+    "Magic": "Uses fire and fights from behind the front line",
+    "Interest": "The workings of unfamiliar magic and creatures",
+    "Open record": "No established laboratory history, lasting leadership or final fate"
+  },
+  "protected": false,
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214404553446002729",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214421791766749267",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214422138191351858",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214423017418137651",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214432271914762280",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214440768660316181",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214456966563373107",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214458239383511040",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1215044306906120232",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221612645493379205",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221612710559612968",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221619484385874011",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1223093654332375190",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1223111692561678406",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1223113627272482938",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1223116995084423251"
+  ],
+  "body": "<p>Force enters Fenumion wondering what kind of magic made the portal and whether it can be studied. His first response to the extraordinary is curiosity. In the company’s early encounters, that curiosity keeps appearing beside the practical work of casting from a safer position.</p>\n<h2 id=\"force-first-study\">The Gate and the first undead</h2><p>Force studies his surroundings on arrival, then follows from the rear with a spell ready. The undead provoke questions as well as alarm: he wonders what a blood sample might reveal and is more intrigued than frightened when a creature will not stay dead.</p><p>He tries fire, maintains it as companions fight and eventually acknowledges that he cannot collect the sample he wanted from creatures that show no blood. The failed collection is part of the observation. Curiosity does not turn an intended experiment into a completed discovery.</p>\n<h2 id=\"force-experimenting\">Questions that outlast the fight</h2><p>Force has little use for the weapons offered after the battle. In another early encounter he asks an animated fallen tree what gave it power. Later he emerges from a laboratory looking for experiment materials and greets the newer faces in town.</p><p>The references establish a continuing interest in research and some place to work. They do not establish the laboratory’s location, a particular school of magic, its inventory or the results of an experiment. His inquiry remains attached to the questions he actually asks.</p>\n<h2 id=\"force-place-in-company\">A position he can learn to keep</h2><p>On another outing Force says he is a pure magic user and will stay behind the others. In a later exercise he drops his concentration as soon as he recognizes a mistake. His complaint that an opponent should stop learning is followed by a more self-protective joke: his place is in the rear, and he was only demonstrating why a mage should avoid taking the front.</p><p>The bravado does not erase the adjustment. His surviving scenes show a researcher learning how to contribute while others hold the immediate danger. <a href=\"#first-called-arrival\">The first company’s story</a> preserves the shared beginning; a later disappearance or final fate is not supplied.</p>",
+  "sections": [
+    {
+      "id": "force-first-study",
+      "title": "The Gate and the first undead",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214404553446002729",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214421791766749267",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214422138191351858",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214423017418137651",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214432271914762280",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214440768660316181",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214456966563373107"
+        ]
+      }
+    },
+    {
+      "id": "force-experimenting",
+      "title": "Questions that outlast the fight",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214458239383511040",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1215044306906120232",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221612645493379205",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221612710559612968"
+        ]
+      }
+    },
+    {
+      "id": "force-place-in-company",
+      "title": "A position he can learn to keep",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221619484385874011",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1223093654332375190",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1223111692561678406",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1223113627272482938",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1223116995084423251"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "latestReview": "2026-11-02",
+    "scope": "Selected early quest and Babel histories, range conversation and successor-company scenes. Native and original-export versions are distinguished in the review ledger. Existing earlier prose retains its prior review scope; no exhaustive archive, unseen combat or attachment review is claimed."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "force-observing",
+        "title": "Observation in the first battle",
+        "sections": [
+          "force-first-study"
+        ]
+      },
+      {
+        "id": "force-questions",
+        "title": "The questions he keeps asking",
+        "sections": [
+          "force-experimenting"
+        ]
+      },
+      {
+        "id": "force-support",
+        "title": "Finding his place in a fight",
+        "sections": [
+          "force-place-in-company"
+        ]
+      }
+    ],
+    "relationships": []
+  }
+}

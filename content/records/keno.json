@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "keno",
+  "title": "Keno",
+  "category": "People",
+  "type": "Scout and protector · First Called",
+  "dek": "A watchful member of the first Gate company who scouts within reach of the others, notices the moving fungus and puts himself between danger and smaller companions.",
+  "tags": [
+    "Keno",
+    "Vanguard",
+    "Pristinia"
+  ],
+  "facts": {
+    "Early company": "First Called · Day 1 of the Final War",
+    "Observed work": "Scouting, warning and fighting beside Quake",
+    "Record limit": "The selected individual account covers the first arrival; later history and fate remain unknown"
+  },
+  "protected": false,
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214406144060035164",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214411325380366407",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214413387572842526",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214414884805148682",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214417091269103616",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214417843282780240",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214418441084342402",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214419837028401152",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214421392506880000",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214423047919112192",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214436183636189204",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214441214703702037",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214444263115464786",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214454748561022996",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214456779816046629",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214457592936538123"
+  ],
+  "body": "<p>Keno comes through the Gate quietly, sniffing the air and keeping away from the light. His questions quickly become practical: where should the company go, and did anyone obtain directions to the promised village? The surviving first-day scenes show a watchful companion with little interest in letting uncertainty leave everyone standing still.</p>\n<h2 id=\"keno-scouter\">Staying near enough to warn the others</h2><p>Keno keeps the group in sight while scouting the clearing. He notices fungus moving and calls the others’ attention to it, then backs toward people who have been discussing plants. He does not treat a warning as something he must understand alone before sharing.</p><p>He also approaches Empty with an offer of company while the others decide where to go. The first arrivals are strangers; a small invitation makes room for another person before danger forces them to fight together.</p>\n<h2 id=\"keno-protector\">Beside Quake when the fighting begins</h2><p>When the threat becomes visible, Keno asks who the figures are and whether they mean harm. He takes a position beside Quake, trying to stand between the creatures and the smaller members of the party.</p><p>During the battle he urges attention toward the larger danger and questions the shadow that keeps bringing the zombies back. He asks for help against it rather than pretending he can end the fight by himself. His role in the first company is specific: notice, stand close enough to protect and direct effort toward what is prolonging the attack.</p>\n<h2 id=\"keno-after-battle\">The village is still the next task</h2><p>After the fighting, Keno praises the company and returns to the question of reaching the village. The first battle has not supplied a home or an explanation of everything they have seen.</p><p>The record establishes his part in <a href=\"#first-called-arrival\">the first Called’s arrival</a>. It does not establish later command, a personal quest, death or retirement. His page preserves the actions that survive without borrowing a later companion’s history to fill the gap.</p>",
+  "sections": [
+    {
+      "id": "keno-scouter",
+      "title": "Staying near enough to warn the others",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214406144060035164",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214411325380366407",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214413387572842526",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214414884805148682",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214417091269103616",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214417843282780240",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214418441084342402"
+        ]
+      }
+    },
+    {
+      "id": "keno-protector",
+      "title": "Beside Quake when the fighting begins",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214419837028401152",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214421392506880000",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214423047919112192",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214436183636189204",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214441214703702037",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214444263115464786"
+        ]
+      }
+    },
+    {
+      "id": "keno-after-battle",
+      "title": "The village is still the next task",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214454748561022996",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214456779816046629",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214457592936538123"
+        ]
+      }
+    }
+  ],
+  "sourceReview": {
+    "latestReview": "2026-11-02",
+    "scope": "Selected early quest and Babel histories, range conversation and successor-company scenes. Native and original-export versions are distinguished in the review ledger. Existing earlier prose retains its prior review scope; no exhaustive archive, unseen combat or attachment review is claimed."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "keno-watching",
+        "title": "The scout who stays in reach",
+        "sections": [
+          "keno-scouter"
+        ]
+      },
+      {
+        "id": "keno-standing",
+        "title": "Standing between danger and companions",
+        "sections": [
+          "keno-protector"
+        ]
+      },
+      {
+        "id": "keno-continuing",
+        "title": "After the first fight",
+        "sections": [
+          "keno-after-battle"
+        ]
+      }
+    ],
+    "relationships": []
+  }
+}

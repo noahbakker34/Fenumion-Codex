@@ -7,8 +7,8 @@
   "video": "assets/archive/vanguard-symbol.mp4",
   "videoCaption": "The animated symbol of the Vanguard.",
   "category": "Factions",
-  "type": "Anti-Death company · early testimony and later continuity",
-  "dek": "An earlier anti-Death company named by Gartina and Scribonia, whose unfinished responsibilities inform later efforts at cooperation with the Veilguard.",
+  "type": "Adventuring generation · the first front against Death",
+  "dek": "The first Called and the companions who carry their war forward: a changing community whose rescue, research, defense and restoration become the legacy the Veilguard prepares to support.",
   "tags": [
     "Vanguard",
     "Arjahn",
@@ -18,22 +18,65 @@
     "Unresolved"
   ],
   "facts": {
-    "Confirmed testimony": "Gartina · Scribonia",
-    "Early recovered reference": "6 July 2024 · Gartina’s testimony",
-    "Later contact": "Severina proposes collaboration · July 2026",
-    "May 2026 report": "Arjahn in a losing vanguard; exact institutional identity unresolved",
-    "Open record": "Formation, charter, leadership, full roster and later continuity"
+    "Early company": "The First Called; name preserved in first-arrival field notes",
+    "Direct self-identification": "Gartina · Scribonia · John · Arjahn",
+    "Babel front": "Changing expedition company; not one fixed party at every date",
+    "Successor": "New Vanguard becomes the Veilguard; distinct organization",
+    "Leadership record": "Shared decisions, informal authority and disagreement; no complete charter recovered"
   },
   "sources": [
     "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
     "REGIONS_FACTIONS_INSTITUTIONS.md — Babel-Ashur and Knights records",
     "CHARACTER_BIBLE.md — Mya under pressure in Babel-Ashur",
-    "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+    "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214404549926719592",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214404943394635817",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214405083282935829",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214406144060035164",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214404553446002729",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219324672789975169",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219373948693905418",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214401181435035730",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1214403067428999168",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501401544308817962",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501404861315547147",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501404927765905488",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501406114753806358",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501409891288350782",
+    "https://discord.com/channels/1177270231513694249/1198721749030818044/1513679089159114765",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1465509468014907438",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1518716072780501004"
   ],
-  "body": "<p>The Vanguard is named in the earlier Gael record by adventurers describing their own responsibilities. In July 2024, Gartina speaks of “we in the Vanguard” and the sacrifice and consequence they have witnessed. In October, Scribonia identifies himself as having been part of it while describing the losses he has borne in the fight.</p><h2 id=\"vanguard-restoration-duty\">Duty beyond the next battle</h2><p>In February 2025, Gartina again identifies herself as a member. She understands her duty as remaining at the forefront of the struggle against Death, yet chooses to stay where refugees and the new forest still need care. Her testimony keeps restoration within the company’s responsibilities rather than treating it as an interruption of the war.</p><h2 id=\"vanguard-babel-report\">The May 2026 battlefield report</h2><p>The Babel-Ashur record describes Arjahn as part of a vanguard that is losing. That battlefield report remains important, but its lowercase wording alone does not establish whether it names this company, a forward formation or another body. Arjahn’s protective and rescue history is preserved in <a href=\"#arjahn\">his own dossier</a>.</p><h2 id=\"vanguard-veilguard-contact\">A goal of cooperation</h2><p>In the July 2026 Tower conversation, <a href=\"#lady-severina\">Severina</a> says collaboration between the <a href=\"#veilguard\">Veilguard</a> and Vanguard is the goal. Her wording distinguishes them. The Veilguard’s separately recovered founding and leadership history does not establish a merger, identical roster or one uninterrupted command structure.</p><h2 id=\"vanguard-open-history\">The open record</h2><p>Gartina and Scribonia identify themselves with the company, adding evidence beyond the previously recovered battlefield reference. The founding date, charter, full roster, leadership, history of absences and exact relationship between the early company, the losing formation and later successor efforts remain incomplete.</p>",
+  "body": "<p>The Vanguard is the name associated with the earliest Called and the adventurers who carry the struggle against Death beyond their first shelter. Members use it as a shared identity, outsiders as a measure of reputation, and later recruits as a responsibility they hope to inherit. Its history is best read through the people who do the work.</p>\n<h2 id=\"vanguard-first-company\">The first Called and the town they help build</h2><p>The <a href=\"#first-called-arrival\">first Called</a> come through the Gate on Day 1 of the Final War. Their opening questions are already different: how to fight the Wyrm, where to find a home, what magic governs the place and whom they can trust. Their first battle and arrival at Pristinia turn the gods’ appeal into immediate work.</p><p>The early company includes <a href=\"#jiangshi\">Jiangshi</a>, <a href=\"#adelia-hope\">Adelia</a>, <a href=\"#scribonia\">Scribonia</a>, <a href=\"#gartina\">Gartina</a>, <a href=\"#jako\">Jako</a>, <a href=\"#quake\">Quake</a>, <a href=\"#forgax\">Forgax</a>, <a href=\"#empty\">Empty</a>, <a href=\"#john-smith\">John</a>, <a href=\"#keno\">Keno</a>, <a href=\"#force\">Force</a>. Their individual histories preserve different contributions rather than distributing the same heroic description among eleven names.</p><p>The settlement’s work quickly draws in others. <a href=\"#claire-hearthford\">Claire</a> offers herbs and care while raising Katherine, and <a href=\"#rolen\">Rolen</a> helps train people who live there. Ada later remembers departures through the absences felt in the tavern and marketplace. Public remembrance matters, while an honorific in a chronicle is not by itself a complete membership roll.</p>\n<h2 id=\"vanguard-restoration-duty\">Duty beyond the next battle</h2><p>In February 2025, Gartina again identifies herself as a member. She understands her duty as remaining at the forefront of the struggle against Death, yet chooses to stay where refugees and the new forest still need care. Her testimony keeps restoration within the company’s responsibilities rather than treating it as an interruption of the war.</p><p>That broader work is visible in <a href=\"#nienna\">Nienna’s</a> protection of Hope, <a href=\"#jiangshi\">Jiangshi’s</a> continuing care, <a href=\"#dale\">Dale’s</a> returns and relationships, and <a href=\"#st-anky\">Anky’s</a> roads, research and records. <a href=\"#saray\">Saray</a>, <a href=\"#swift-foot\">Swift Foot</a> and <a href=\"#vaemyr\">Vaemyr</a> carry their own histories of trust, combat and cost. These are connected lives; they do not require an invented common rank or one unbroken attendance list.</p>\n<h2 id=\"vanguard-babel-report\">The remaining front in Babel</h2><p>Arjahn explicitly calls himself part of the Vanguard while speaking with Mya in Babel. He feels that the few remaining people are losing. Mya reports the gods’ frustration with the scattered first wave, names fallen friends and asks the survivors to teach those coming after them or reunite enough strength to continue.</p><p>Olokun thinks of old companions who might be gathered again; Elenia turns toward recovering Aravil. The later rescue makes that response concrete. Whatever the company calls itself, continuity now depends on bringing people back, passing on what they know and keeping the shelter alive.</p><p>Scribonia later explains the name to Severina as an association of long-lived adventurers rather than a group containing every great hero. It is his contemporary account of the tradition. The different descriptions can coexist with named actions and direct self-identification without supplying an administrative charter.</p>\n<h2 id=\"vanguard-babel-people\">Babel’s companions and their individual histories</h2><p>Babel’s company changes from outing to outing. These profiles follow the people who scout, shelter, supply, defend and return; they are a guide across the campaign rather than a claim that all twelve stood together in every scene.</p><ul><li><p><strong><a href=\"#aravil\">Aravil</a></strong> — Finds useful routes and materials, tries to save Wren, is captured and later restored.</p></li><li><p><strong><a href=\"#aerrow\">Aerrow</a></strong> — Learns to defer to fieldcraft, survives two deaths and a later restoration, then warns of civilians being hunted.</p></li><li><p><strong><a href=\"#wren\">Wren</a></strong> — Finds the first shelter, survives petrification and makes route knowledge a shared responsibility.</p></li><li><p><strong><a href=\"#eugene\">Eugene</a></strong> — Doubts his place while contributing decisive magic; his aid and his need to be helped both matter.</p></li><li><p><strong><a href=\"#elenia\">Elenia</a></strong> — Restores companions, receives the entrusted seed and weighs how far destructive power can serve care.</p></li><li><p><strong><a href=\"#olokun\">Olokun</a></strong> — Uses paintings to reach strangers and repeatedly faces the cost of not being able to bring everyone home.</p></li><li><p><strong><a href=\"#arjahn\">Arjahn</a></strong> — Plans for survival, carries the wounded and admits how anger and grief have narrowed his duty.</p></li><li><p><strong><a href=\"#scribonia\">Scribonia</a></strong> — Brings research, rescue and overwhelming magic, while struggling with the authority he claims in argument.</p></li><li><p><strong><a href=\"#gartina\">Gartina</a></strong> — Feeds survivors, preserves memory and keeps restoration within the work of fighting Death.</p></li><li><p><strong><a href=\"#nymera\">Nymera</a></strong> — Holds the Refuge’s defense, returns to the company and gives practical care while seeking a place beside powerful companions.</p></li><li><p><strong><a href=\"#ryvyt\">Ryvyt</a></strong> — Builds, heals and tests remedies; the later return ends in his confirmed death and an unsuccessful retrieval.</p></li><li><p><strong><a href=\"#alyhotep-bin-baladin\">Alyhotep</a></strong> — Arrives later, prepares protections and challenges the escape decisions after Ryvyt is left behind.</p></li></ul><p>The separate quest histories in <a href=\"#babel-survival\">Babel’s connected campaign</a> preserve the full battles. The personal pages explain what each participant wanted, chose and carried afterward.</p>\n<h2 id=\"vanguard-veilguard-contact\">A goal of cooperation</h2><p>In the July 2026 Tower conversation, <a href=\"#lady-severina\">Severina</a> says collaboration between the <a href=\"#veilguard\">Veilguard</a> and Vanguard is the goal. Her wording distinguishes them. The Veilguard’s separately recovered founding and leadership history does not establish a merger, identical roster or one uninterrupted command structure.</p><p>The later generation has personal histories too: <a href=\"#lady-severina\">Severina</a>, <a href=\"#pelegia\">Pelegia / Pin</a>, <a href=\"#thorn\">Thorn</a>, <a href=\"#camilla\">Camilla</a>, <a href=\"#kasiri-ruza\">Kasiri</a>, <a href=\"#modeli\">Modeli</a>. <a href=\"#fenwick\">Fenwick</a> later accepts membership while keeping his Ale-Chemy Knights affiliation. The founding trials, ordinary service and Thorn’s recovery test the successor company in different ways. <a href=\"#veilguard\">Read the Veilguard’s own history →</a></p>\n<h2 id=\"vanguard-open-history\">The history that remains open</h2><p>There is no complete roster at every stage, settled charter or uninterrupted chain of command in the reviewed sources. The first-arrival party, the company remembered in Pristinia, Babel’s changing front and the deliberately organized Veilguard should be followed through their named scenes.</p><p>Absence does not by itself establish death or resignation. Keno and Force have limited individual records; their pages preserve what survives. Ryvyt’s death is confirmed by the owner, while Anky’s final expedition has a different established history. The people who remain cannot be understood simply by counting departures.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "vanguard-first-company",
+      "title": "The first Called and the town they help build",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214404549926719592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214404943394635817",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214405083282935829",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214406144060035164",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214404553446002729",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219324672789975169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219373948693905418",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214401181435035730",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1214403067428999168",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936271428194446",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1216936470208581665"
+        ]
+      }
+    },
     {
       "id": "vanguard-restoration-duty",
       "title": "Duty beyond the next battle",
@@ -53,18 +96,36 @@
     },
     {
       "id": "vanguard-babel-report",
-      "title": "The May 2026 battlefield report",
+      "title": "The remaining front in Babel",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
         "sources": [
-          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
-          "REGIONS_FACTIONS_INSTITUTIONS.md — Babel-Ashur and Knights records",
-          "CHARACTER_BIBLE.md — Mya under pressure in Babel-Ashur",
-          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501401544308817962",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501404861315547147",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501404927765905488",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501406114753806358",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501409891288350782",
+          "https://discord.com/channels/1177270231513694249/1198721749030818044/1513679089159114765"
+        ]
+      }
+    },
+    {
+      "id": "vanguard-babel-people",
+      "title": "Babel’s companions and their individual histories",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501404861315547147",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1465509468014907438",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1518716072780501004"
         ]
       }
     },
@@ -87,20 +148,21 @@
     },
     {
       "id": "vanguard-open-history",
-      "title": "The open record",
-      "chapter": "Open questions",
+      "title": "The history that remains open",
+      "chapter": "History & consequences",
       "evidence": {
-        "kind": "unresolved",
-        "label": "Unresolved",
-        "summary": "This section preserves missing evidence, conflicting accounts or unanswered questions. It does not select a definitive explanation.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
         "sources": [
-          "MASTER_TIMELINE.md — Babel-Ashur crisis, 5 May 2026",
-          "REGIONS_FACTIONS_INSTITUTIONS.md — Babel-Ashur and Knights records",
-          "CHARACTER_BIBLE.md — Mya under pressure in Babel-Ashur",
-          "gael-codex-emphasis-corrections.md · reconciled with selected Gael RP scenes, 12 October 2026"
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501404861315547147"
         ]
       }
     }
-  ]
+  ],
+  "sourceReview": {
+    "latestReview": "2026-11-02",
+    "scope": "Selected early quest and Babel histories, range conversation and successor-company scenes. Native and original-export versions are distinguished in the review ledger. Existing earlier prose retains its prior review scope; no exhaustive archive, unseen combat or attachment review is claimed."
+  }
 }

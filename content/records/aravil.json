@@ -7,7 +7,7 @@
   "imageLayout": "portrait-hero",
   "imageAlt": "Portrait of Aravil, an oathbound hunter",
   "imageCaption": "Aravil — oathbound hunter and practical protector.",
-  "dek": "An oathbound hunter whose reputation lives in remembered battles, Aravil returns when war sharpens and recognizes old comrades by what they survived together.",
+  "dek": "An oathbound hunter whose fieldcraft helps Babel’s company survive, until an attempt to save Wren leaves her petrified in Abyss’s collection. Her companions return for her.",
   "tags": [
     "Aravil",
     "Queen",
@@ -21,7 +21,11 @@
     "Principle": "Distance does not annul duty",
     "Method": "Observe → remember → assess → act",
     "Shared history": "Fey Forest hunt with Jiangshi and Scribonia",
-    "New role": "Hunter for Pristinia"
+    "New role": "Hunter for Pristinia",
+    "Babel work": "Shelter, routes, hunting and harvesting",
+    "Captivity": "Petrified while trying to save Wren; taken by Abyss",
+    "Rescue": "Freed through the Gate and restored by Elenia",
+    "Later witness": "Alive with Dale’s rescuers; a complete later itinerary is not established"
   },
   "sources": [
     "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
@@ -39,12 +43,102 @@
     "https://discord.com/channels/1177270231513694249/1455580231250350266/1461237414646386762",
     "https://discord.com/channels/1177270231513694249/1455580231250350266/1461238013500723210",
     "https://discord.com/channels/1177270231513694249/1455580231250350266/1457825690387873993",
-    "https://discord.com/channels/1177270231513694249/1455580231250350266/1461220445406887966"
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1461220445406887966",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1365769309917286542",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1365770350293680299",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1365772052497432709",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1365772700286717965",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1365775346749935628",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1365782235781005353",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1365785152797671494",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1365788579372077189",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1455437393728639068",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457810444705071330",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457810972336062494",
+    "https://discord.com/channels/1177270231513694249/1455580231250350266/1457822701979697277",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1461600553737130064",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1461605876308770826",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1461606089064972430",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1461607754329227369",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1461609328661500036",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1463003543782035579",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1463021472359518494",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1463029679975039152",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1463031194471104612",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1463034470851674215",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1463037210084376618",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1463038050664714274",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1463039335321567341",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501426338039468225",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501429011044110367",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501429268998258740",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501429317983535124",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501432382723588126",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501433215250858115",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501434242062876742",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1501435000514547802",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1511211955267047424",
+    "https://discord.com/channels/1177270231513694249/1294457593296719873/1511213644698878043"
   ],
-  "body": "<p>Aravil arrives hungry, lonely, and still defined by service. She describes herself as a tool separated from its artisan, but corrects Magnus when he assumes that means she wants a new master: her oath remains while she draws breath. Separation has taken away proximity, not obligation.</p>\n      <p>Her wider history gives that discipline a social dimension. Aravil remembers adventurers by the work they did under pressure, and they remember her in return. She does not need to perform experience because shared history has already made it visible.</p>\n      <h2 id=\"aravil-martial-directness\">Action after judgment</h2>\n      <p>Aravil is direct and decisive. Once she believes a fight has truly arrived, she commits without demanding a speech first. In October 2025, when the company presses toward a demonic island, she heads into the battle rather than waiting for ceremony. In a crisis she draws on her training and judges where to fight. The account does not portray that readiness as indiscriminate bloodlust.</p>\n      <h2 id=\"aravil-remembers\">The people she remembers</h2>\n      <p>When Aravil meets Jiangshi again, she recalls their Fey Forest hunt with Scribonia and even Jiangshi’s “violent hairpins.” The specificity is the point. Affection and respect appear as operational memory: a hunt, a method, a moment of competence. Olokun likewise greets her as a returning veteran rather than a new arrival, and Aravil answers the thrum of war as though returning to unfinished work.</p>\n      <h2 id=\"admitting-error\">Admitting error</h2>\n      <p>She openly says she involved herself in a conflict without knowing the people or their capabilities. Competence does not require pretending she was right. The admission becomes part of her posture toward a world she is still learning.</p>\n      <h2 id=\"useful-belonging\">Useful belonging</h2>\n      <p>Later, Pristinia’s food shortage gives Aravil a local role. She recognizes that her hunting skills can help feed the town while she remains sworn to her Queen.</p>\n      <h2 id=\"aravil-zarathis\">Watching institutions reveal themselves</h2>\n      <p>During the December 2025 conflict surrounding Elenia, Magnus, Olokun, and Zarathian religious authority, Aravil watches to see whether demonstrated power will actually make the society reconsider its traditions. Her attention is not passive curiosity. She tests the institution by its response: will it bend, learn, and admit contradiction, or merely invent a new rule that protects the old hierarchy?</p>\n      <p>This skepticism belongs beside her martial directness. Aravil prefers enemies, customs, and authorities to reveal what they truly are. Once they do, she can judge them by their conduct rather than their claims.</p>\n      <h2 id=\"aravil-living-history\">A veteran carried by mutual memory</h2>\n      <p>Aravil’s history accumulates through recognition rather than constant spotlight. Jiangshi’s hairpins, Scribonia’s presence on the Fey Forest hunt, and Olokun’s familiar greeting preserve a network of old operational bonds. She remembers companions through what they did under pressure, and their recognition confirms that her own earlier deeds remain part of the living world.</p>\n      <p>Her development is therefore continuity across absence: skilled participant, remembered veteran, and finally a piece of shared history who can return without being reintroduced. Aravil makes the archive’s persistence visible. People who leave the foreground do not cease to matter when the world continues to remember them.</p><h2 id=\"aravil-gate-0\">Getting Icarus past the patrol</h2><p>When the Gate activates amid the Rahu threat, Aravil runs to reach the newcomer first. She warns Icarus to hide, remains concealed while he becomes a chicken, and waits out the search. Once the patrol leaves, she begins answering his questions and leads him toward Pristinia. Her preference for striking back does not prevent her from accepting a successful escape without combat. <a href=\"#icarus\">Read Icarus’s account</a>.</p>\n<h2 id=\"aravil-babel-hunts\">Babel · skill, supplies and knowing when to leave</h2>\n<p>Aravil defines the Refuge’s initial survival work: wood for fires, fibres for rope and racks for drying hides. In the January hunts her stealth and shooting help companions who are less comfortable in the terrain. She harvests rare components after the first victories, while acknowledging that knowing how to live off a landscape is different from understanding its ecology.</p><p>Her confidence has limits. Against an unidentified danger, she reappears with a warning to flee and says they would need stronger support before facing it. Later the group kills a giant serpent, but she botches the harvest. Her own reproach follows a concrete failed task; it does not erase her role in getting the party through the jungle.</p>\n\n<h2 id=\"aravil-scene-sequence\">Scenes in sequence</h2>\n<ol class=\"scene-sequence\"><li><p class=\"scene-date\">2026-01-05–06 · quest</p><h3>A hunter turns victories into supplies</h3><p>Aravil scouts quietly and harvests components after the first hunts, supplying work the camp cannot do inside the cave.</p><dl><div><dt>Known at this stage</dt><dd>She admits the ecology remains unfamiliar.</dd></div><div><dt>Consequence</dt><dd>Her field skills support other people’s crafting and building.</dd></div><div><dt>Still unresolved</dt><dd>Neither the carvings nor the gathered materials establish a completed fortress.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457808195644031151\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457817949552509103\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457822928606597298\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457825690387873993\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457900061458694165\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457972219643691052\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a></p></li><li><p class=\"scene-date\">2026-01-15 · quest</p><h3>Retreat does not erase competence</h3><p>Aravil warns her companions away from an unidentified threat; after a later serpent fight she fails the harvest.</p><dl><div><dt>Known at this stage</dt><dd>The hunters cannot safely identify or face everything they encounter.</dd></div><div><dt>Consequence</dt><dd>Returning alive and recognizing a failed task matter beside accurate shooting.</dd></div><div><dt>Still unresolved</dt><dd>The earlier threat remains unidentified; confidence is not a guarantee of success.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461220445406887966\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461221227937923175\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461223387790577807\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461237414646386762\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461238013500723210\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a></p></li></ol>\n",
+  "body": "<p>Aravil arrives hungry, lonely, and still defined by service. She describes herself as a tool separated from its artisan, but corrects Magnus when he assumes that means she wants a new master: her oath remains while she draws breath. Separation has taken away proximity, not obligation.</p>\n      <p>Her wider history gives that discipline a social dimension. Aravil remembers adventurers by the work they did under pressure, and they remember her in return. She does not need to perform experience because shared history has already made it visible.</p>\n      \n<h2 id=\"useful-belonging\">Useful belonging</h2>\n      <p>Later, Pristinia’s food shortage gives Aravil a local role. She recognizes that her hunting skills can help feed the town while she remains sworn to her Queen.</p>\n      \n<h2 id=\"aravil-gate-0\">Getting Icarus past the patrol</h2><p>When the Gate activates amid the Rahu threat, Aravil runs to reach the newcomer first. She warns Icarus to hide, remains concealed while he becomes a chicken, and waits out the search. Once the patrol leaves, she begins answering his questions and leads him toward Pristinia. Her preference for striking back does not prevent her from accepting a successful escape without combat. <a href=\"#icarus\">Read Icarus’s account</a>.</p>\n\n<h2 id=\"aravil-range-and-kin\">A shadow-sister at the range</h2><p>Aravil recognizes <a href=\"#aerrow\">Aerrow</a> through a dungeon fight before they meet at the range. She praises the punishment he endured for the company and speaks frankly about how long it took to find her own stride after arriving. His description of feeling half awake makes sense to her: her own dreamlike adjustment ended abruptly when she chose to help another adventurer.</p><p>They admit missing the stimulation of war. That affinity does not make their judgments identical. Aerrow distrusts the apparently harmless Fredrick and fears the danger behind his smile. Aravil remembers receiving her bow from him and weighs danger by whether it can be directed toward their common enemy. She likewise sees Magnus’s ambition and poor discipline without immediately abandoning the possibility of useful cooperation. These are her judgments at the time, before later events can be known.</p>\n<h2 id=\"aravil-martial-directness\">Action after judgment</h2>\n      <p>Aravil is direct and decisive. Once she believes a fight has truly arrived, she commits without demanding a speech first. In October 2025, when the company presses toward a demonic island, she heads into the battle rather than waiting for ceremony. In a crisis she draws on her training and judges where to fight. The account does not portray that readiness as indiscriminate bloodlust.</p>\n      \n<h2 id=\"aravil-remembers\">The people she remembers</h2>\n      <p>When Aravil meets Jiangshi again, she recalls their Fey Forest hunt with Scribonia and even Jiangshi’s “violent hairpins.” The specificity is the point. Affection and respect appear as operational memory: a hunt, a method, a moment of competence. Olokun likewise greets her as a returning veteran rather than a new arrival, and Aravil answers the thrum of war as though returning to unfinished work.</p>\n      \n<h2 id=\"admitting-error\">Admitting error</h2>\n      <p>She openly says she involved herself in a conflict without knowing the people or their capabilities. Competence does not require pretending she was right. The admission becomes part of her posture toward a world she is still learning.</p>\n      \n<h2 id=\"aravil-zarathis\">Watching institutions reveal themselves</h2>\n      <p>During the December 2025 conflict surrounding Elenia, Magnus, Olokun, and Zarathian religious authority, Aravil watches to see whether demonstrated power will actually make the society reconsider its traditions. Her attention is not passive curiosity. She tests the institution by its response: will it bend, learn, and admit contradiction, or merely invent a new rule that protects the old hierarchy?</p>\n      <p>This skepticism belongs beside her martial directness. Aravil prefers enemies, customs, and authorities to reveal what they truly are. Once they do, she can judge them by their conduct rather than their claims.</p>\n      \n<h2 id=\"aravil-living-history\">A veteran carried by mutual memory</h2>\n      <p>Aravil’s history accumulates through recognition rather than constant spotlight. Jiangshi’s hairpins, Scribonia’s presence on the Fey Forest hunt, and Olokun’s familiar greeting preserve a network of old operational bonds. She remembers companions through what they did under pressure, and their recognition confirms that her own earlier deeds remain part of the living world.</p>\n      <p>Her development is therefore continuity across absence: skilled participant, remembered veteran, and finally a piece of shared history who can return without being reintroduced. Aravil makes the archive’s persistence visible. People who leave the foreground do not cease to matter when the world continues to remember them.</p>\n<h2 id=\"aravil-shelter-work\">The work before the hunt</h2><p>In Babel, Aravil helps turn a night’s shelter into a base. Wren finds the open-skied cavity, and the two agree to alternate their watches. Aravil later names the work still needed: wood for fire, plant fibers for rope and racks for drying hides. Her memory of fleeing the Rahu on Prima gives the practical list a past of its own.</p><p>She considers making steep routes the company can climb but large predators cannot, then finds she lacks the equipment. Aerrow follows her path and Arjahn trusts her to guide them, yet she admits that adaptability and living off the land are different from understanding an unfamiliar ecosystem. Her competence includes recognizing what she has not learned.</p>\n<h2 id=\"aravil-babel-hunts\">Babel · skill, supplies and knowing when to leave</h2>\n<p>Aravil defines the Refuge’s initial survival work: wood for fires, fibres for rope and racks for drying hides. In the January hunts her stealth and shooting help companions who are less comfortable in the terrain. She harvests rare components after the first victories, while acknowledging that knowing how to live off a landscape is different from understanding its ecology.</p><p>Her confidence has limits. Against an unidentified danger, she reappears with a warning to flee and says they would need stronger support before facing it. Later the group kills a giant serpent, but she botches the harvest. Her own reproach follows a concrete failed task; it does not erase her role in getting the party through the jungle.</p>\n\n\n<h2 id=\"aravil-cave-judgment\">An exhausted guide in the caverns</h2><p>The first cavern advance wears down even her confidence. A creature swallows her; she struggles to draw her blades inside it and crawls free only after companions cut a path from outside. By the time the party reaches a torn body and a warning on the wall, her skin is burned and her equipment is badly damaged.</p><p>Aravil reads tracks into the smaller passages and concludes that other people escaped while this victim was caught. She warns that the area feels like a killing ground. Turning back would lose their trail; moving on offers no guarantee of safety. She lays out both costs and refuses to choose for everyone. The group hides, with Aravil grateful to have Wren nearby.</p>\n<h2 id=\"aravil-captured\">Trying to bring Wren out</h2><p>When the bone creatures attack, Aravil returns toward Wren and fires from concealment. She brings down two of them, then tells Olokun to find the others while she drags Wren’s petrified body into a room. Before she can get around the corner, another burst of gas knocks her unconscious. Her own body hardens into stone.</p><p>Olokun cannot carry both companions out before the approaching hunter reaches them. He chooses Wren. A dark figure secures Aravil as a trophy; Abyss taunts her while she remains stabilized and petrified. Her captivity follows an attempt to save someone else, not a disappearance from the story after a failed attack.</p>\n<h2 id=\"aravil-gate-rescue\">The friends who come back</h2><p>Elenia, Olokun and Arjahn eventually open a Gate from Gael into the cavern trophy room. Aravil is fixed to the floor with newer fastenings than the other statues. Olokun asks for help; the bonds snap and Elenia casts Greater Restoration. Movement returns, but her limbs are weak and unfamiliar. She makes her way through the opening without being able to help carry anyone else.</p><p>Olokun apologizes for leaving her. Aravil first needs to recover the simple work of speaking and asks where she is and how they reached her. The company brings one other intact statue out as well, while Arjahn’s destruction of many remaining prisoners makes the rescue costly and morally divided. Her survival is a real achievement inside an attempt that did not save everyone. <a href=\"#babel-ashur?section=babel-stone-captives\">Read the stone-captive rescue →</a></p>\n<h2 id=\"aravil-later-company\">A veteran again among the living</h2><p>Aravil later appears with Dale’s rescuers and tells him how the company reached his landing place before other curious presences and was carried away by powerful magic. She also considers selling materials before they leave again. The record returns her to ordinary planning as well as danger.</p><p>Her oath remains an older commitment, while the people who found and freed her now form another history of obligation. Aerrow recognizes her as kin; Wren survives a rescue she tried to carry out; Olokun must live with having chosen someone else first. The story leaves those relationships with their costs rather than treating a restored body as an erased captivity.</p>\n<h2 id=\"aravil-scene-sequence\">Scenes in sequence</h2>\n<ol class=\"scene-sequence\"><li><p class=\"scene-date\">2026-01-05–06 · quest</p><h3>A hunter turns victories into supplies</h3><p>Aravil scouts quietly and harvests components after the first hunts, supplying work the camp cannot do inside the cave.</p><dl><div><dt>Known at this stage</dt><dd>She admits the ecology remains unfamiliar.</dd></div><div><dt>Consequence</dt><dd>Her field skills support other people’s crafting and building.</dd></div><div><dt>Still unresolved</dt><dd>Neither the carvings nor the gathered materials establish a completed fortress.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457808195644031151\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457817949552509103\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457822928606597298\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457825690387873993\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457900061458694165\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1457972219643691052\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 6</a></p></li><li><p class=\"scene-date\">2026-01-15 · quest</p><h3>Retreat does not erase competence</h3><p>Aravil warns her companions away from an unidentified threat; after a later serpent fight she fails the harvest.</p><dl><div><dt>Known at this stage</dt><dd>The hunters cannot safely identify or face everything they encounter.</dd></div><div><dt>Consequence</dt><dd>Returning alive and recognizing a failed task matter beside accurate shooting.</dd></div><div><dt>Still unresolved</dt><dd>The earlier threat remains unidentified; confidence is not a guarantee of success.</dd></div></dl><p class=\"scene-receipts\"><a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461220445406887966\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 1</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461221227937923175\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 2</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461223387790577807\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 3</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461237414646386762\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 4</a> · <a href=\"https://discord.com/channels/1177270231513694249/1455580231250350266/1461238013500723210\" target=\"_blank\" rel=\"noopener noreferrer\">Receipt 5</a></p></li></ol>\n",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "useful-belonging",
+      "title": "Useful belonging",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "aravil-gate-0",
+      "title": "Getting Icarus past the patrol",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Accounts & interpretation",
+        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
+        "scope": "article",
+        "sources": [
+          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
+          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
+          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
+          "Gate chronicle · primary arrival and welcome scenes"
+        ]
+      }
+    },
+    {
+      "id": "aravil-range-and-kin",
+      "title": "A shadow-sister at the range",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Attributed scene & personal testimony",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1365769309917286542",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1365770350293680299",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1365772052497432709",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1365772700286717965",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1365775346749935628",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1365782235781005353",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1365785152797671494",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1365788579372077189"
+        ]
+      }
+    },
     {
       "id": "aravil-martial-directness",
       "title": "Action after judgment",
@@ -97,23 +191,6 @@
       }
     },
     {
-      "id": "useful-belonging",
-      "title": "Useful belonging",
-      "chapter": "History & consequences",
-      "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
-        "sources": [
-          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
-          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
-          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
-          "Gate chronicle · primary arrival and welcome scenes"
-        ]
-      }
-    },
-    {
       "id": "aravil-zarathis",
       "title": "Watching institutions reveal themselves",
       "chapter": "Places & institutions",
@@ -148,19 +225,21 @@
       }
     },
     {
-      "id": "aravil-gate-0",
-      "title": "Getting Icarus past the patrol",
+      "id": "aravil-shelter-work",
+      "title": "The work before the hunt",
       "chapter": "History & consequences",
       "evidence": {
-        "kind": "mixed",
-        "label": "Accounts & interpretation",
-        "summary": "Read observations, attributed statements and interpretation with the qualifications preserved in this section. The listed references support the article as a whole; individual claims have not all received a separate evidence review.",
-        "scope": "article",
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
         "sources": [
-          "Pasted markdown(20260909-022330).md — Aravil, her Queen, and her oath",
-          "Pasted markdown(20260918-182039).md — food pressure and belonging through hunting",
-          "Aravil_Codex_Character_Profile.md — personality, relationships, and Quest RP synthesis",
-          "Gate chronicle · primary arrival and welcome scenes"
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1455437393728639068",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457808195644031151",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457810444705071330",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457810972336062494",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457817949552509103",
+          "https://discord.com/channels/1177270231513694249/1455580231250350266/1457822701979697277"
         ]
       }
     },
@@ -184,6 +263,81 @@
           "https://discord.com/channels/1177270231513694249/1455580231250350266/1461223387790577807",
           "https://discord.com/channels/1177270231513694249/1455580231250350266/1461237414646386762",
           "https://discord.com/channels/1177270231513694249/1455580231250350266/1461238013500723210"
+        ]
+      }
+    },
+    {
+      "id": "aravil-cave-judgment",
+      "title": "An exhausted guide in the caverns",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1461600553737130064",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1461605876308770826",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1461606089064972430",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1461607754329227369",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1461609328661500036",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1463003543782035579"
+        ]
+      }
+    },
+    {
+      "id": "aravil-captured",
+      "title": "Trying to bring Wren out",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1463021472359518494",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1463029679975039152",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1463031194471104612",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1463034470851674215",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1463037210084376618",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1463038050664714274",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1463039335321567341"
+        ]
+      }
+    },
+    {
+      "id": "aravil-gate-rescue",
+      "title": "The friends who come back",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501426338039468225",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501429011044110367",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501429268998258740",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501429317983535124",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501432382723588126",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501433215250858115",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501434242062876742",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1501435000514547802"
+        ]
+      }
+    },
+    {
+      "id": "aravil-later-company",
+      "title": "A veteran again among the living",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest record & attributed accounts",
+        "scope": "section",
+        "summary": "The selected scene supports these actions and statements. Personal explanations and memories retain their speakers. Hypothetical tests are not past deeds; proposals and incomplete outcomes are not completed history.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1511211955267047424",
+          "https://discord.com/channels/1177270231513694249/1294457593296719873/1511213644698878043"
         ]
       }
     },
@@ -248,7 +402,63 @@
     "relationships": "Her absent Queen remains the origin of her oath. Jiangshi and Scribonia live in her memory through the Fey Forest hunt, including Jiangshi’s violent hairpins; Olokun recognizes her as a returning veteran; and Pristinia becomes a second belonging built through useful work rather than replacement loyalty."
   },
   "sourceReview": {
-    "latestReview": "2026-10-20",
-    "scope": "Selected Mark of the Wild character/narrator prose and targeted combat outcomes, with the later primary Babel return scene. No exhaustive mechanics/attachment audit or private revelation import."
+    "latestReview": "2026-11-02",
+    "scope": "Selected early quest and Babel histories, range conversation and successor-company scenes. Native and original-export versions are distinguished in the review ledger. Existing earlier prose retains its prior review scope; no exhaustive archive, unseen combat or attachment review is claimed."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "aravil-service",
+        "title": "An oath and useful belonging",
+        "sections": [
+          "useful-belonging",
+          "aravil-gate-0"
+        ]
+      },
+      {
+        "id": "aravil-comrades",
+        "title": "Warriors, recognition and judgment",
+        "sections": [
+          "aravil-range-and-kin",
+          "aravil-martial-directness",
+          "aravil-remembers",
+          "admitting-error"
+        ]
+      },
+      {
+        "id": "aravil-judging",
+        "title": "Experience without easy certainty",
+        "sections": [
+          "aravil-zarathis",
+          "aravil-living-history"
+        ]
+      },
+      {
+        "id": "aravil-building-a-base",
+        "title": "Making a base in Babel",
+        "sections": [
+          "aravil-shelter-work",
+          "aravil-babel-hunts"
+        ]
+      },
+      {
+        "id": "aravil-loss",
+        "title": "The caverns and captivity",
+        "sections": [
+          "aravil-cave-judgment",
+          "aravil-captured"
+        ]
+      },
+      {
+        "id": "aravil-return",
+        "title": "The companions who return",
+        "sections": [
+          "aravil-gate-rescue",
+          "aravil-later-company"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

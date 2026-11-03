@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-02
 
+## Both Vanguard generations and the Refuge aftermath · 2 November 2026
+
+The owner requests each member across both generations and confirms Modeli as a player character, then supplies the 214-message Skylight Refuge continuation. Seven new legitimate player profiles and fifteen existing personal pages receive work; the guide connects 36 distinct lives across First Called, early continuity, Babel and Veilguard without inventing a fixed roster. Six older profiles gain continuous readers; Babel’s hub now links sixteen people. Details: VANGUARD_AND_SKYLIGHT_2026_11_02.md and the vanguard-profile/skylight-aftermath review ledgers.
+
+All 577 cited source versions match the original read-only corpora. The new Refuge scenes add the call, prayer, active door work, recovery planning and Nymera’s fear and wish for peace. Plans remain unfinished; self-blame remains attributed. Ryvyt’s confirmed death, unknown prisoner and incomplete recovery stand. The continuous recovery scene uses 2, Month of the Wyrm, Year 3; all 392 event objects/dates/ratings/regions stay exact. No raw, controller, protected-origin or unseen-media material enters the public site or Git.
+
+All old section destinations and original media/roles survive; four section metadata objects intentionally clarify Vanguard history. Unrelated canonical files, maps/quotes/261 previews and complete private payload remain exact. Catalog 307 contains 654 records/605 bodies/2,910 sections, 269 people and unchanged 367 public events/42 stories/39 library entries. App 273/reader 15 unchanged; no new runtime/style/dependency/workflow stage. Local static/source/preservation checks and Chrome verification pass: 27 complete pages/964 paragraphs, 368 bookmarks/reload/focus, 54 fresh mobile layouts and 51 actual reading journeys, directory aliases/search/calendar/media/protected boundaries without script/public HTTP errors. Screenshots are inspected; publication receipt follows.
+
 ## Babel as a region · 2 November 2026
 
 The owner asks to really flesh out Babel. Seven existing pages grow from 5,184 to 9,419 words: the regional history, Greyward Littoral, Kvethe, Quille, Omari, Kyrin and the first Refuge night. Native survivors are foregrounded in the twelve-person hub; seven quest histories connect the campaign. Greyward and four native profiles have twenty continuous chapters. Details: BABEL_REGION_2026_11_02.md and content/reference/babel-region-review-2026-11-02.json.

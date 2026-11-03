@@ -1,0 +1,3169 @@
+{
+  "reviewed": "2026-11-02",
+  "request": "Cover both generations, with each member’s personal history accessible. Modeli explicitly confirmed as a player character.",
+  "scope": "First Called, connected early generation, changing Babel company and the later New Vanguard/Veilguard. Selected named statements, bounded scenes and existing reviewed histories; authored-message indexes are discovery aids, not exhaustive scene reading. Attachments and unseen combat are not reconstructed. The later Skylight Refuge supplement is reviewed separately in skylight-aftermath-review-2026-11-02.json.",
+  "authority": "User canon and quest narration govern. Range/Gael/tavern conversations add compatible individual perspectives without overriding quest outcomes. First-arrival field notes and Ada’s remembered roster do not become a complete charter.",
+  "receipts": [
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1198721749030818044",
+      "id": "1513671731125162096",
+      "timestamp": "2026-06-08T22:31:03.361000+00:00",
+      "textSha256": "4c6a77fa6073765960a650baf9719939c972fe92e5ecd8d578fa24a7ebc29093"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1198721749030818044",
+      "id": "1513672921346871376",
+      "timestamp": "2026-06-08T22:35:47.132000+00:00",
+      "textSha256": "aec854f20f6f96b6dbe3f4931e2ace6c112b45c2418267e3ac983400569226ab"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1198721749030818044",
+      "id": "1513673426529816737",
+      "timestamp": "2026-06-08T22:37:47.577000+00:00",
+      "textSha256": "273492cd551fecb5e14189b3d1bc8b622f6fbde3958f382a46bb2843a52a2829"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1198721749030818044",
+      "id": "1513676625563095050",
+      "timestamp": "2026-06-08T22:50:30.286000+00:00",
+      "textSha256": "936e1d9d5404d5465241ac0055dab0834a1dc447e632b9bf5f1267db30a6becc"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1198721749030818044",
+      "id": "1513679089159114765",
+      "timestamp": "2026-06-08T23:00:17.653000+00:00",
+      "textSha256": "1d2820faef58ee237433581a0c94a7564591bd2be8e19a5048b54654d1fad31e"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1198721749030818044",
+      "id": "1513679927181053972",
+      "timestamp": "2026-06-08T23:03:37.453000+00:00",
+      "textSha256": "cd581b0f80989b1699c2b329100cbecd8d179c32d908dd07264e18411060d5b2"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1198721749030818044",
+      "id": "1513681225515008110",
+      "timestamp": "2026-06-08T23:08:47+00:00",
+      "textSha256": "c2cbd1badbead236eaec93e8a978be1db90374982e92a1b48143444cd4f0e21b"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1455427925720567972",
+      "timestamp": "2025-12-30T05:10:58.035000+00:00",
+      "textSha256": "cc6a47b9f839faf011abb96e965902c8968ef8645ca49f63fb258451410859d0"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1455431236414734519",
+      "timestamp": "2025-12-30T05:24:07.366000+00:00",
+      "textSha256": "b9f1ed19e1683a12f9afc5aa11b010ae77219d6d2e162aced1e1879b89ef6fb5"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1455433613142396992",
+      "timestamp": "2025-12-30T05:33:34.022000+00:00",
+      "textSha256": "d7d55819975fe0085926ab9f2745f301b70fbe229ce0886ccb93f738a47777a1"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1455434980984619028",
+      "timestamp": "2025-12-30T05:39:00.141000+00:00",
+      "textSha256": "85e5124807c018cfb1ee7320c0fefe3f7ad069e527cf87dc6f0fb09e6ab26110"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1455437393728639068",
+      "timestamp": "2025-12-30T05:48:35.384000+00:00",
+      "textSha256": "55a3821e62915e4aa9ec4cb416c42e386b03c88d7cb98df8f9ac57c236ac01a2"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1455438078238916672",
+      "timestamp": "2025-12-30T05:51:18.584000+00:00",
+      "textSha256": "d91af935a03f274eac08acc630fa6295e1682b505f6446746bf328e9e858a5b3"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1461600553737130064",
+      "timestamp": "2026-01-16T05:58:47.236000+00:00",
+      "textSha256": "f789dd514c406a3065813601fcb2774423f49eef907dcf02fba2080aef16cc2f"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1461605876308770826",
+      "timestamp": "2026-01-16T06:19:56.236000+00:00",
+      "textSha256": "377a83582011a5673366ca0dcf0eda976c72d8b5264543e03c3e92df06cd8279"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1461606089064972430",
+      "timestamp": "2026-01-16T06:20:46.961000+00:00",
+      "textSha256": "cb9f05add7c242b1ca9596b533bd229de47c9d44d9c76ab2d6b5e15b7dbe0918"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1461607754329227369",
+      "timestamp": "2026-01-16T06:27:23.991000+00:00",
+      "textSha256": "b57acc50215d9251a3f7c83f237269ee59f312f892d4a0a8b8e2017dfa02d8b3"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1461609328661500036",
+      "timestamp": "2026-01-16T06:33:39.341000+00:00",
+      "textSha256": "d1654d0096fd628422646fe45168c024b9701fca153a7d0ca4cd5793571ce190"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463003543782035579",
+      "timestamp": "2026-01-20T02:53:46.129000+00:00",
+      "textSha256": "84156a27d8d575753a3e9922a01a0dbb2a1f698eb8e0f0056261f8d2be2d4c48"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463003968467894374",
+      "timestamp": "2026-01-20T02:55:27.382000+00:00",
+      "textSha256": "78018fd517107dbf9a692b69ff1632d58b38b67acd5df5dc833bfc89fe43ea5f"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463004962291191830",
+      "timestamp": "2026-01-20T02:59:24.328000+00:00",
+      "textSha256": "47896e8f66cf8a270f2ddcbd578947e687861a711f53a00280c007122c2b2597"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463007979346464962",
+      "timestamp": "2026-01-20T03:11:23.650000+00:00",
+      "textSha256": "4d40092d5d69345ba9184f342c7bb192f9e578b11b12be9c8b8d9ec878bf5250"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463015498336833567",
+      "timestamp": "2026-01-20T03:41:16.317000+00:00",
+      "textSha256": "3bae90925eb14e7470273d989dc7ae6efca00d7cc4dcf46178fe456eb775c4cc"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463017473057231021",
+      "timestamp": "2026-01-20T03:49:07.127000+00:00",
+      "textSha256": "bb771228a15149728d56c800202da1eee64ba509ff4263471d751d3feb3ff456"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463021472359518494",
+      "timestamp": "2026-01-20T04:05:00.635000+00:00",
+      "textSha256": "992c1c5a009a69d3a4599cec40c3b00b0f48073883377ed39525e7e302b59a9a"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463023413000933604",
+      "timestamp": "2026-01-20T04:12:43.320000+00:00",
+      "textSha256": "2f43af8dc71d21e7d7742d233d4a03367f35bf8ce2129b091430c9fb0906b7a9"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463029679975039152",
+      "timestamp": "2026-01-20T04:37:37.483000+00:00",
+      "textSha256": "2a5de1d126f3ce878d193cfd25b0bb8bde9190b88f941785446d0f0cde0fdc86"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463031194471104612",
+      "timestamp": "2026-01-20T04:43:38.567000+00:00",
+      "textSha256": "1c82761ea377e2e1cb2a5f40f82416e8f68549205c219bd0d2c479566e2da111"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463034470851674215",
+      "timestamp": "2026-01-20T04:56:39.717000+00:00",
+      "textSha256": "53fcae4907c3f67dfa334a5d45e8a37715b71efe734322cc95fbfa45482455ef"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463035627175018498",
+      "timestamp": "2026-01-20T05:01:15.406000+00:00",
+      "textSha256": "6954ee6bf9ee160f478cc40e8d50e75f0473ceb5d17172a9f5d6e92693e67797"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463035887410610257",
+      "timestamp": "2026-01-20T05:02:17.451000+00:00",
+      "textSha256": "da8b1ddc5afcdcc8a7679fa252ae5365917a4266a087e7b9bbd7e279f373de74"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463037210084376618",
+      "timestamp": "2026-01-20T05:07:32.801000+00:00",
+      "textSha256": "eeecf222f873e383aa6b902772c5df08576c2f9882a76b4e299dc66fc8cd73d0"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463038050664714274",
+      "timestamp": "2026-01-20T05:10:53.211000+00:00",
+      "textSha256": "64610ea44215693457d0d7f6d661d6834cb683ad748abc6dc4abae820a78482d"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463039335321567341",
+      "timestamp": "2026-01-20T05:15:59.497000+00:00",
+      "textSha256": "de23cd70f865f338e1924044e5f654cede814255fddb112b0df7cb448a98c350"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463041128063570060",
+      "timestamp": "2026-01-20T05:23:06.920000+00:00",
+      "textSha256": "ebf03f0480bb227a94672f4e931a55a35dc3d8449dab70fb21172ea3cd9ef0b8"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463041587524145241",
+      "timestamp": "2026-01-20T05:24:56.464000+00:00",
+      "textSha256": "80aece4bba7bd0d9fe51289ee713504824fb8652c1bd4508ec397b012cd66135"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463042408433455224",
+      "timestamp": "2026-01-20T05:28:12.184000+00:00",
+      "textSha256": "2ab214401424eeb1eca9ac85cc147ffcb9e9201e2fb7a91e358af6dd3a359609"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463044166434033719",
+      "timestamp": "2026-01-20T05:35:11.324000+00:00",
+      "textSha256": "315c8c156c963c281aa6a5f7326aa3140d8cb43243374b8a86b93a965f5cf1d2"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463049443556331571",
+      "timestamp": "2026-01-20T05:56:09.488000+00:00",
+      "textSha256": "f828fdd671654f510f8bbb392c5b3f11e229546fc9f8b1921c5a8129818ea24a"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463056128429789361",
+      "timestamp": "2026-01-20T06:22:43.286000+00:00",
+      "textSha256": "a7e163a7607e9726b13decbd4b055521c3737fcb41f26f80aadfcc8a4bd478fa"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1463056573139124297",
+      "timestamp": "2026-01-20T06:24:29.313000+00:00",
+      "textSha256": "055e04eb97b961d88c14620b442f63834dc649b987f7a692221a80ec411f5e8c"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465508864496767160",
+      "timestamp": "2026-01-27T00:49:01.134000+00:00",
+      "textSha256": "71a3fbfc5a1b116630f6c802bcc422e978ed2f0988a5c6ddb6709c39a45aba4c"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465509468014907438",
+      "timestamp": "2026-01-27T00:51:25.024000+00:00",
+      "textSha256": "a80b2398c354aa7de1ece5d29c7004a77dd3841e54a233c0a26169d394f6c277"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465510319169343498",
+      "timestamp": "2026-01-27T00:54:47.955000+00:00",
+      "textSha256": "b4b3ffb710f2f99c5af2beff76fc562edd776d80276c4892cbefe56ce77144ff"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465511523328852175",
+      "timestamp": "2026-01-27T00:59:35.049000+00:00",
+      "textSha256": "1755bb65bef872baa1b2d6099f702c728ee0912f7d42e861515fb9998ce81330"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465513110197506153",
+      "timestamp": "2026-01-27T01:05:53.388000+00:00",
+      "textSha256": "20a083204d1c7fc47826bf42367d324ca358368194fd201c597051702a810ee3"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465514010366705905",
+      "timestamp": "2026-01-27T01:09:28.005000+00:00",
+      "textSha256": "a118aceb378e0e9eec642029781abc3f24002287f80ef3857523d653ed8a604d"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465514762761670872",
+      "timestamp": "2026-01-27T01:12:27.390000+00:00",
+      "textSha256": "9774215da02bc1ce437b377bb14d43bfa62473b0fd4c691d91704b0d308ef4ee"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465541253474160643",
+      "timestamp": "2026-01-27T02:57:43.268000+00:00",
+      "textSha256": "7e98dd73cd170379b5a26652a81929b188455f0908d878b56f2dcee7614904e4"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465541621775863901",
+      "timestamp": "2026-01-27T02:59:11.078000+00:00",
+      "textSha256": "cdbfe1af5025d8c30ec5c05aca099ed808ce293377bf3db30195dcb8066f9f7a"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465553920339349722",
+      "timestamp": "2026-01-27T03:48:03.284000+00:00",
+      "textSha256": "689effcf8c02b5643b9ad20de022f7a2af6aa5c2fc74d6b4f57c32ebb0a76552"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1465564770441760862",
+      "timestamp": "2026-01-27T04:31:10.150000+00:00",
+      "textSha256": "e010970798793b19ed55973c6d54c42113a8597ecac5d353b07ca4e2f85a8998"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501401544308817962",
+      "timestamp": "2026-05-06T01:53:42.855000+00:00",
+      "textSha256": "08cfc62b0ebd19ecaf437a421ba6b103810c1fc8f3a1e116f700efc4a849e18b"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501402492536225853",
+      "timestamp": "2026-05-06T01:57:28.930000+00:00",
+      "textSha256": "89d65cb09789a87b060343a231dcdeb7dc63af892cf0f5da8c94d5e373412773"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501404861315547147",
+      "timestamp": "2026-05-06T02:06:53.691000+00:00",
+      "textSha256": "8210af32ef8e417c20b7936966c4c14848f8cb53170971a935d25f0e85b378df"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501404927765905488",
+      "timestamp": "2026-05-06T02:07:09.534000+00:00",
+      "textSha256": "750e0f76ca6c0475e079acf6377c388724e76d829868bd5096990f2a7629d953"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501406114753806358",
+      "timestamp": "2026-05-06T02:11:52.534000+00:00",
+      "textSha256": "80a9d7df6145265da15897432f2ea183cfde50abd2e1af4d5467aa443819d4fe"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501406675553357918",
+      "timestamp": "2026-05-06T02:14:06.239000+00:00",
+      "textSha256": "683f26017e966b13d74fb2f661c80b516932b6f4a0bda0b62f5d3f0a7cdabdd0"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501409014892986429",
+      "timestamp": "2026-05-06T02:23:23.981000+00:00",
+      "textSha256": "6164f059f449c800f0eaa3b93047620bd2f9e147447b9dfce6e68281603d4960"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501409517009633302",
+      "timestamp": "2026-05-06T02:25:23.695000+00:00",
+      "textSha256": "b2afd08df68f8306046943decb764bf4259b7447ff57a71f97eb0d2981012ecc"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501409891288350782",
+      "timestamp": "2026-05-06T02:26:52.930000+00:00",
+      "textSha256": "15e715a7b4933ef4b9de37cf7b2d0b8876a6cac522c2848a989681875b5ab829"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501410420462850068",
+      "timestamp": "2026-05-06T02:28:59.095000+00:00",
+      "textSha256": "d0fda777dec4f2ed97cab7cc070a2cf33a0be624d3b253a0f531d9db60b16439"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501425792779944110",
+      "timestamp": "2026-05-06T03:30:04.141000+00:00",
+      "textSha256": "e612da372d9141444d841494b9905eb43dc0bf28b934e9bfd11a84fb8799a4a5"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501426338039468225",
+      "timestamp": "2026-05-06T03:32:14.141000+00:00",
+      "textSha256": "38bab089a8e9cbc1c096689790caeb5e26b8a24ca2b6c08812cb863ad747edca"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501426787043905556",
+      "timestamp": "2026-05-06T03:34:01.192000+00:00",
+      "textSha256": "7760ab6efb6853f81be468a9c0cf84610b50def85fbc16fed7950dbfaba2e918"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501429011044110367",
+      "timestamp": "2026-05-06T03:42:51.435000+00:00",
+      "textSha256": "e220f0985cda6c8e88f9d82c8b227477744480ff77ed4cc5f255180784ec3370"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501429268998258740",
+      "timestamp": "2026-05-06T03:43:52.936000+00:00",
+      "textSha256": "fc1ffed868947fb48d7f5086499a97721e4ed95607a25e4b2234d2505654395b"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501429317983535124",
+      "timestamp": "2026-05-06T03:44:04.615000+00:00",
+      "textSha256": "e3ec1e67a4f18a21b467fe8fbe8f48e18cd6d7619152cbe08a690969aa23e072"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501431485339799656",
+      "timestamp": "2026-05-06T03:52:41.353000+00:00",
+      "textSha256": "f6c45361602e11349c5a11e9e0bb6dc797e21fa7e7d89aca7c36c0f34a5d1c3f"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501432382723588126",
+      "timestamp": "2026-05-06T03:56:15.306000+00:00",
+      "textSha256": "aecb16d66f3077951b9e9988a145ecb7dd35f0f3786d74c2dffec7db65cd60ff"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501433215250858115",
+      "timestamp": "2026-05-06T03:59:33.796000+00:00",
+      "textSha256": "25163c032b8a783086ba55128969f45f6b7b6f5346a1d9fe36ee91a9994267a0"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501434242062876742",
+      "timestamp": "2026-05-06T04:03:38.607000+00:00",
+      "textSha256": "c5cccb1bcdd1c30f7a5d564f8b8c8b97de2cff331934681a260214d87c31d9dd"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501435000514547802",
+      "timestamp": "2026-05-06T04:06:39.436000+00:00",
+      "textSha256": "8a748ecb1529d70cb40e71653d57b74775d57a90d749303724c2f6e217ff88a5"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1501436897262698538",
+      "timestamp": "2026-05-06T04:14:11.656000+00:00",
+      "textSha256": "43102e6e252cfee4a221634128a751dcd631ec752d1f71e074ba15c8775e0703"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1511211955267047424",
+      "timestamp": "2026-06-02T03:36:47.096000+00:00",
+      "textSha256": "80acbcfa76307116437895e43d5f5bdbd0cc6d8dfefed4c353e10cb6aae916bc"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1511213644698878043",
+      "timestamp": "2026-06-02T03:43:29.888000+00:00",
+      "textSha256": "639fac9eb4d44dc5ea6301e164b7833c222c8a2eaf1c04e3e078cedfcd91621d"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1518716072780501004",
+      "timestamp": "2026-06-22T20:35:28.131000+00:00",
+      "textSha256": "1c4c6ac7e4f2f1455b6df40d1ab7a1324806fae1f7fc952877c261c5da540303"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1518772641874313316",
+      "timestamp": "2026-06-23T00:20:15.254000+00:00",
+      "textSha256": "761d6d69da1a637825207654a6b642a13dd3a03b4257406992c145b0fef85ee7"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1518773254657933443",
+      "timestamp": "2026-06-23T00:22:41.353000+00:00",
+      "textSha256": "fef251204d1b6b05028b2765b266437e6087c76da77201f57615393056ac3105"
+    },
+    {
+      "corpus": "guild-1177270231513694249/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1294457593296719873",
+      "id": "1518778049389137931",
+      "timestamp": "2026-06-23T00:41:44.506000+00:00",
+      "textSha256": "49c68627ad68fbfc86b8952f34012e3605a9e248dbb7627fbe2e378ec38105cf"
+    },
+    {
+      "corpus": "gael-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1250444114387013673",
+      "id": "1540135893397147658",
+      "timestamp": "2026-08-20T23:10:11.327000+00:00",
+      "textSha256": "fc0be614333343a18eaa98c25989e2fdaa7121c3c3f44cfc72807a54a2a170a3"
+    },
+    {
+      "corpus": "gael-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1250444114387013673",
+      "id": "1540140542543798412",
+      "timestamp": "2026-08-20T23:28:39.770000+00:00",
+      "textSha256": "93343288137edf10bd7eb796de2034f0d6b908f354e00f019bf570fcf8ecf514"
+    },
+    {
+      "corpus": "gael-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1250444114387013673",
+      "id": "1540145590338326679",
+      "timestamp": "2026-08-20T23:48:43.258000+00:00",
+      "textSha256": "a593da80446949a9d2faea97c2876116886a2862b5f6c1c224caa07b1fcb5b79"
+    },
+    {
+      "corpus": "gael-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1250444114387013673",
+      "id": "1540148122209095690",
+      "timestamp": "2026-08-20T23:58:46.903000+00:00",
+      "textSha256": "12c1ac701de0286a9e0995e2c1bba5848134970446c5837706f269685866de2c"
+    },
+    {
+      "corpus": "gael-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1250444114387013673",
+      "id": "1540148911275118692",
+      "timestamp": "2026-08-21T00:01:55.031000+00:00",
+      "textSha256": "2f1659c68c0ba873746ea17ad1e3bba4b7249dd5f8f23e7cd1f2fa814290f735"
+    },
+    {
+      "corpus": "gael-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1250444114387013673",
+      "id": "1540151926421717033",
+      "timestamp": "2026-08-21T00:13:53.898000+00:00",
+      "textSha256": "bb02bff58dd16d32ef0e9cbcf460efe4dccc30189f40ab801de32ad86263533a"
+    },
+    {
+      "corpus": "gael-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1250444114387013673",
+      "id": "1540156542710579220",
+      "timestamp": "2026-08-21T00:32:14.507000+00:00",
+      "textSha256": "44613687071dde7173e1ea2af385bc8a4e3228edc5e765d9acdbecc9329bb51d"
+    },
+    {
+      "corpus": "gael-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1250444114387013673",
+      "id": "1540158615900397649",
+      "timestamp": "2026-08-21T00:40:28.794000+00:00",
+      "textSha256": "7c65a08851993717a3fbe8284d23f47397dd64cf3bcb13e2393585994b434558"
+    },
+    {
+      "corpus": "gael-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1250444114387013673",
+      "id": "1540159943678627841",
+      "timestamp": "2026-08-21T00:45:45.361000+00:00",
+      "textSha256": "8ebfcda33aee7ca7a9332171a65db4e5331c1bffcfae359de4052ab096257f3c"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457808195644031151",
+      "timestamp": "2026-01-05T18:49:18.608000+00:00",
+      "textSha256": "99ed1b11e24edcbb4745e89fc2215e4863edd1c2faaf505ebc2d8e9a96f3b522"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457808560946679950",
+      "timestamp": "2026-01-05T18:50:45.703000+00:00",
+      "textSha256": "3126d73d45acd2824305955a218d326fdb6e1356b2eed2172f50ebdbecd5d6f3"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457809503838797985",
+      "timestamp": "2026-01-05T18:54:30.506000+00:00",
+      "textSha256": "9f61e7ad0b615b2a727216655ca5e318a980a6fb0937e81ccdd95c0963b70b2c"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457810444705071330",
+      "timestamp": "2026-01-05T18:58:14.826000+00:00",
+      "textSha256": "1aaa8c6a3f78e875839f4a98a58c772f15ff98df2e2642a84d581386df7c1e0f"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457810972336062494",
+      "timestamp": "2026-01-05T19:00:20.623000+00:00",
+      "textSha256": "29fb7674256335da3eecf6b693c467a981025d1a631f606aae9811a237f35074"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457812466045161645",
+      "timestamp": "2026-01-05T19:06:16.751000+00:00",
+      "textSha256": "773810bb17fd893b42a4776a84a1cc2d1197dc6c14276e31642157de36ed4f2b"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457813778249810202",
+      "timestamp": "2026-01-05T19:11:29.605000+00:00",
+      "textSha256": "0f8952587933dbd9f894a8406a1441b13205e0814732fdf3c688615505d9cb4d"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457814359723081792",
+      "timestamp": "2026-01-05T19:13:48.239000+00:00",
+      "textSha256": "a86f8d2c32af74d003e3c653bc616253b71d2ef159fba6e094ddefd9176a709a"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457814560168743023",
+      "timestamp": "2026-01-05T19:14:36.029000+00:00",
+      "textSha256": "f1fac6133cbecd8632850e3ecde4949c35333d6cba1612c590b39957ad6482b3"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457817418167619616",
+      "timestamp": "2026-01-05T19:25:57.429000+00:00",
+      "textSha256": "87e01f4734330e1b87465009e2168b9992ab1e0f567556cd6e85a1cbc1121f59"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457817949552509103",
+      "timestamp": "2026-01-05T19:28:04.121000+00:00",
+      "textSha256": "0cd6f82d5a9af862bbf02411ba96e3415ce3f8cccc87d17f85031340393b1a01"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457822587005698069",
+      "timestamp": "2026-01-05T19:46:29.776000+00:00",
+      "textSha256": "ddd7e296952a78897bb06e74430493c1632520aa8a4d3602d977cf4dbe04716f"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0001.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457822701979697277",
+      "timestamp": "2026-01-05T19:46:57.188000+00:00",
+      "textSha256": "852c3cc451784c2b908fad897c9869df81f4787d4ef5bf3c1f6d0fe0eac0797d"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0002.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457825690387873993",
+      "timestamp": "2026-01-05T19:58:49.680000+00:00",
+      "textSha256": "3bf6300e3154af309fb97c90117dfaa3cc3e75e0ded9b1907c42958df319eed1"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0011.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457936962722730215",
+      "timestamp": "2026-01-06T03:20:59.072000+00:00",
+      "textSha256": "dfcef187ea39bd6c49ea4879caf318075cefc76c61d9e46fd948f763d95bd6d4"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0012.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457940449846366266",
+      "timestamp": "2026-01-06T03:34:50.467000+00:00",
+      "textSha256": "b4c922bc28b0ad20c47777897ece8df5ec8baa503234f9deafeff78a94dae544"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0012.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457940891745517589",
+      "timestamp": "2026-01-06T03:36:35.824000+00:00",
+      "textSha256": "3d62c092abd704f0872701a54e5040a91fef89dc3d36c04b334e815b9a41c65f"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0012.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457941189885034769",
+      "timestamp": "2026-01-06T03:37:46.906000+00:00",
+      "textSha256": "99090f26e67b9153e9bb063a490187ba108e8523f1e01dc3c97d2403f902ab62"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0012.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457941358038745231",
+      "timestamp": "2026-01-06T03:38:26.997000+00:00",
+      "textSha256": "7abb9ad6cdbe66b1ff42a83c70d2c1be0d049bc700bab232ab1bdc89f0afd2fd"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0012.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457941655314239499",
+      "timestamp": "2026-01-06T03:39:37.873000+00:00",
+      "textSha256": "201bad416f6f73ed5c9c3bd49eadc9efd92767dc5536c5ba406123abe2ab029c"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0012.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457941702546292909",
+      "timestamp": "2026-01-06T03:39:49.134000+00:00",
+      "textSha256": "5c7a27f0dc013b9941e549454c4d1ebf808e261b037135553c490212a79ab425"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0013.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457941968192802960",
+      "timestamp": "2026-01-06T03:40:52.469000+00:00",
+      "textSha256": "c5f8ff83fe61a319702ad0581c1c5e3ca16c43fc02842fe31c00023a55755de1"
+    },
+    {
+      "corpus": "babel-ashur-mark-of-the-wild/mark-of-the-wild/channels/1455580231250350266/part-0013.md",
+      "version": "original channel export text",
+      "channel": "1455580231250350266",
+      "id": "1457943362756673745",
+      "timestamp": "2026-01-06T03:46:24.959000+00:00",
+      "textSha256": "2a311f285989819af425f5f2b4f65b24924b636714f2c3f510c102b05706da62"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214404549926719592",
+      "timestamp": "2024-03-04T18:50:07.248-08:00",
+      "textSha256": "b161113958fa5c69fbf34551f0a527b5a26c4e2d9458d2008f990963a906b6c5"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214404553446002729",
+      "timestamp": "2024-03-04T18:50:08.087-08:00",
+      "textSha256": "aa9930a9c7c4bbbab9355189c5b984313a8f92202078b9e6604b1c126612e9a4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214404943394635817",
+      "timestamp": "2024-03-04T18:51:41.058-08:00",
+      "textSha256": "cff2f95f464e68da845b873eca1c0fb96678e691de9843c81b67f1a7c2f35922"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214405083282935829",
+      "timestamp": "2024-03-04T18:52:14.41-08:00",
+      "textSha256": "c09d5e8303adbe5d7a79e58fea4c70f41673e134b07624aefcd29b2b733f2dc4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214406144060035164",
+      "timestamp": "2024-03-04T18:56:27.319-08:00",
+      "textSha256": "d8ae64d97cf3e1c942e3cfc26878564adcad52c179722041cb276c27d94ff101"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214407146234716261",
+      "timestamp": "2024-03-04T19:00:26.256-08:00",
+      "textSha256": "a0bd454d7fefc3e5d899f35af15a73bf8ba7a69964079cb9d1f478eb9a16d7a1"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214407260986679297",
+      "timestamp": "2024-03-04T19:00:53.615-08:00",
+      "textSha256": "3d10b2f9d24a7d1ed3d75eeefaa1b865ca340237627a8baffc657c8d60fe09c2"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214409835643142204",
+      "timestamp": "2024-03-04T19:11:07.461-08:00",
+      "textSha256": "62aa44a11d750dcd2a9831d3ee42c6c9523a0175769cea3c642a1f994333b532"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214410460062031922",
+      "timestamp": "2024-03-04T19:13:36.334-08:00",
+      "textSha256": "4984d97b23af2f7d84717db0d625d4855dcdeeb1b100c65bae47212d4e2ca635"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214410879244832778",
+      "timestamp": "2024-03-04T19:15:16.275-08:00",
+      "textSha256": "c23a9524628b4c7d4092d6ccb829460d55bd339d49e35adb4a4c0c80f5848fa9"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214411325380366407",
+      "timestamp": "2024-03-04T19:17:02.642-08:00",
+      "textSha256": "e3018e8dcd518da1a3bcc0bddad0b81511be5ed681b3e8c56171039feb18fe32"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214411409165918319",
+      "timestamp": "2024-03-04T19:17:22.618-08:00",
+      "textSha256": "e8c233bb05ea77fb50773139adfffe836237b7e93ad759926ed3f3e564e82fac"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214413293142417478",
+      "timestamp": "2024-03-04T19:24:51.793-08:00",
+      "textSha256": "786496765addfbe2feea949f9866ab322e385e099efe1f20bfc0b03813597294"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214413387572842526",
+      "timestamp": "2024-03-04T19:25:14.307-08:00",
+      "textSha256": "a56ced56e426ae05768a5dd7512646df5953baf9844375b771b7002ff9f33437"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214413527717249044",
+      "timestamp": "2024-03-04T19:25:47.72-08:00",
+      "textSha256": "837c8e29a3fa1467ebc58e45a1ece1bcb6826b78d486f94a5e1fb0cdb80406a8"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214413652799655936",
+      "timestamp": "2024-03-04T19:26:17.542-08:00",
+      "textSha256": "b3eb9aa6b60d2940743d2500fdf4d4a7fb350a79beba84e894a85f4cde93cb1b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214414884805148682",
+      "timestamp": "2024-03-04T19:31:11.275-08:00",
+      "textSha256": "6c1c2ec97ad3dc9de3cd4f0c9e3684763286920c565fa5b3c2c9c855c5bdca1c"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214415446904803389",
+      "timestamp": "2024-03-04T19:33:25.29-08:00",
+      "textSha256": "f2135441f5d58c635ef0e1fd38eb1ef2d28ac55c62f6b31959ae282485031e4c"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214416253180051456",
+      "timestamp": "2024-03-04T19:36:37.521-08:00",
+      "textSha256": "e88944e4498451da9c790f8f91059eb84aab89cbed428587f407bd92c9beda65"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214417091269103616",
+      "timestamp": "2024-03-04T19:39:57.337-08:00",
+      "textSha256": "2f2d9b32178efb02ab70e33b29cf1466e691bf7898b6d401834213686a4dad65"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214417499987116094",
+      "timestamp": "2024-03-04T19:41:34.783-08:00",
+      "textSha256": "04af658b77ba65cd9cdb04622189e5c8ea25b24be55e725e86937f11509b96e6"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214417843282780240",
+      "timestamp": "2024-03-04T19:42:56.631-08:00",
+      "textSha256": "63a1640842c39754641330756030393a00b42696ba6fa725053f85af2867249d"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214417963046674504",
+      "timestamp": "2024-03-04T19:43:25.185-08:00",
+      "textSha256": "57b4594e54709d2976e7eb33a6d33583bb9e71c9f88a0ba597455be4cefb58a3"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214418441084342402",
+      "timestamp": "2024-03-04T19:45:19.158-08:00",
+      "textSha256": "c11519fbee72f364304ca17c823975423abc6414baafff5f77fc73cb5b467f85"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214418487708094485",
+      "timestamp": "2024-03-04T19:45:30.274-08:00",
+      "textSha256": "0434e01e49afe0d3a3ce31e01819fde07c7d307b94cf1b9ec66bd3c6af1b511d"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214418923932352563",
+      "timestamp": "2024-03-04T19:47:14.278-08:00",
+      "textSha256": "67d118fde2ef5851041d4a0af9cff83ea9e640323349723fc7babb0d157793be"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214419837028401152",
+      "timestamp": "2024-03-04T19:50:51.977-08:00",
+      "textSha256": "5c745e52e288f9a8bdf2e200b8427d43baa9060d33d5979aa306dd32413d650e"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214420524160253964",
+      "timestamp": "2024-03-04T19:53:35.802-08:00",
+      "textSha256": "b87bf1bc31f3a4a77fa087f56a0a8a33ba2834dd3500e9a47f20ffb09c53cca3"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214421392506880000",
+      "timestamp": "2024-03-04T19:57:02.832-08:00",
+      "textSha256": "5da037bf6f3d2eb7091e6bfec6a0250bb314a52b48a005ec2d5f1ba91b25ae2d"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214421791766749267",
+      "timestamp": "2024-03-04T19:58:38.023-08:00",
+      "textSha256": "a5d77ced1fded1c20d720c22859e18c743d6bdb5c52c1ae40178367399022d96"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214421817939460136",
+      "timestamp": "2024-03-04T19:58:44.263-08:00",
+      "textSha256": "02f7e4503acab8aa490aaeba6ced2be757c0a942ae7e68edebb3737f7ca35cf3"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214422059472650291",
+      "timestamp": "2024-03-04T19:59:41.849-08:00",
+      "textSha256": "2b3c80464b820dca0fee622b5667f900706bc49d0cfcf85a3b6819d0246b8c1a"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214422138191351858",
+      "timestamp": "2024-03-04T20:00:00.617-08:00",
+      "textSha256": "4c1740f14ba2a8cba881a481fe7ef8ce6d450dd07f25cedf9e1cd9d6986362d7"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214423017418137651",
+      "timestamp": "2024-03-04T20:03:30.241-08:00",
+      "textSha256": "98eee4a0c83a2c5e6c423548491878de540c050cbe8fb8748cda151e66882b2c"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214423047919112192",
+      "timestamp": "2024-03-04T20:03:37.513-08:00",
+      "textSha256": "88b3667aee9eecb0f8512dc763fa0acab011b86e3a2dcee276bb02285b9b7fb1"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214427494741057557",
+      "timestamp": "2024-03-04T20:21:17.718-08:00",
+      "textSha256": "cec6309cc62b5157253823e08d9a5cf3728c1fd119792409821e37e07491842a"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214432271914762280",
+      "timestamp": "2024-03-04T20:40:16.685-08:00",
+      "textSha256": "630cc085b797f71b9e0d5f7f7b8731c0a0bd8c4afde7d33104c4a5306fabf365"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214432891468120097",
+      "timestamp": "2024-03-04T20:42:44.398-08:00",
+      "textSha256": "346c3428ba13b48eedb88be256a1ede19d8249c13e04d15363a5ca574363d24f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214436183636189204",
+      "timestamp": "2024-03-04T20:55:49.312-08:00",
+      "textSha256": "228422f3b236383c1346f95cd94c43273c39aa5cbff0f3f5cc9b61a8e5df63cc"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214440768660316181",
+      "timestamp": "2024-03-04T21:14:02.467-08:00",
+      "textSha256": "cd2e3718f5d3c2019abef2fb4b4b08aa631372fb1222f57059ebfa0a0adc0a9f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214441214703702037",
+      "timestamp": "2024-03-04T21:15:48.812-08:00",
+      "textSha256": "f15b23ecd69abe7b2663a849f5ab99a32d93159cf7511dbabf673d13fa3322b3"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214443567246745620",
+      "timestamp": "2024-03-04T21:25:09.702-08:00",
+      "textSha256": "64d3e0fa4d9fbeb86cd6508a2d0155012d9ba4f48d564df592db7a5b36cd2f3a"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214444263115464786",
+      "timestamp": "2024-03-04T21:27:55.61-08:00",
+      "textSha256": "68d87b7969033f455501338957891011d12efb7de25fe00b7e490a97e54c9bc2"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214445266804146186",
+      "timestamp": "2024-03-04T21:31:54.908-08:00",
+      "textSha256": "216af12473f692500b14de78a95a45b8f556ed803ddc67b767721de2f2042d8d"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214446583530127400",
+      "timestamp": "2024-03-04T21:37:08.84-08:00",
+      "textSha256": "634540a6d93856a1ec5ca453f61f2b833fb128633131bcb63b218a6123d60d93"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214454748561022996",
+      "timestamp": "2024-03-04T22:09:35.535-08:00",
+      "textSha256": "e95820810c8b0a78c251eb6b372e621e4d0b34c66913385c3730880cdc2c844d"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214456779816046629",
+      "timestamp": "2024-03-04T22:17:39.824-08:00",
+      "textSha256": "9fd61fdb58f52176e750ebd62ae59c1d356558dc9e4d948cda06dedb7d867bfd"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214456966563373107",
+      "timestamp": "2024-03-04T22:18:24.348-08:00",
+      "textSha256": "25819b2046d806114f2ea9997007d484be9424752a14f7e3364db8f9c9d790ab"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214457592936538123",
+      "timestamp": "2024-03-04T22:20:53.687-08:00",
+      "textSha256": "563d0385d86362add8ea6fb76e51bb382fd802fbaa9e599cb437fe8529a60da8"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214458239383511040",
+      "timestamp": "2024-03-04T22:23:27.812-08:00",
+      "textSha256": "b83f4361aad0d0c1553ee5a7e4b7365060074438fc969a0a84dd338af97d7b18"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1214999493578330133",
+      "timestamp": "2024-03-06T10:14:12.868-08:00",
+      "textSha256": "fe823c51030f6dd1bd1ccc5d464b67d439cf24250e1b87a1a7606f5546740a9e"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1215000293465399346",
+      "timestamp": "2024-03-06T10:17:23.576-08:00",
+      "textSha256": "83eb4d18a1b365e0c74f987931fabab30de4d5ed8f4001be563a7ddd650b8c41"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1215002930575450142",
+      "timestamp": "2024-03-06T10:27:52.312-08:00",
+      "textSha256": "ca993be5ca65b935458001f772ecb22723b5a1adf51dc675765a47f3e8dfdda1"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1215003860347912285",
+      "timestamp": "2024-03-06T10:31:33.987-08:00",
+      "textSha256": "48ec94cb6b0a609372494e3976e7ceef12706a102865a88c46b9990833317329"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1215005872787558512",
+      "timestamp": "2024-03-06T10:39:33.79-08:00",
+      "textSha256": "88144389ce7c0d6368b451de3f57eed1efb6e18a4776f920a9a1973ba93fc877"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1215025033982775468",
+      "timestamp": "2024-03-06T11:55:42.175-08:00",
+      "textSha256": "2d336f9d418cd3d9bc9a6359afc4697b948b1c0e4166daca1afb2d83740bfae5"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1215026197302354071",
+      "timestamp": "2024-03-06T12:00:19.532-08:00",
+      "textSha256": "79148a09b293fa082b74280a09f004ffa789ee63f580ebd000605d114fa8da91"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1215032935036756019",
+      "timestamp": "2024-03-06T12:27:05.933-08:00",
+      "textSha256": "8be1a4b844f2d051497527725115b99b0c3c105690b279b975e8c06dfb9c0fb0"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1215044306906120232",
+      "timestamp": "2024-03-06T13:12:17.198-08:00",
+      "textSha256": "57402b263851989142db86d4da1507525277407e2a8df1768b895ba120763d42"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1215058594584723477",
+      "timestamp": "2024-03-06T14:09:03.646-08:00",
+      "textSha256": "cc45290b244fd6d2acacfcb9954b87dcaff2f07643eb8724e33c71e46397bbe1"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217150914633400511",
+      "timestamp": "2024-03-12T09:43:11.619-07:00",
+      "textSha256": "dbf297eb192540bb8c085f092c79ee39e0c5edc037a1006164208af532f3aace"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217151761224040630",
+      "timestamp": "2024-03-12T09:46:33.462-07:00",
+      "textSha256": "f8ff6f4059cb2ffd9d4d324ba879bedd4c84b00327985b7a15569ec5eef6780b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217152714493136937",
+      "timestamp": "2024-03-12T09:50:20.739-07:00",
+      "textSha256": "335b178455784523140ceb4dbc3c3dc2fdf96f1887c0fbe381a12a8272050c7d"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217154556039794832",
+      "timestamp": "2024-03-12T09:57:39.798-07:00",
+      "textSha256": "16f65aae0f212d811c61a2f590b840a825602c39def5e4e01374cee0bfc5085f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217166278427545640",
+      "timestamp": "2024-03-12T10:44:14.633-07:00",
+      "textSha256": "8976030d5477de8e7ae5db18b0fb0c6af16658c2d57f18a20ba91700edaced38"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217167233953042552",
+      "timestamp": "2024-03-12T10:48:02.448-07:00",
+      "textSha256": "e270be234613ed83d1d2e9f865bfed5ae689bb79e85be165893022d2ed487126"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217167950243696660",
+      "timestamp": "2024-03-12T10:50:53.225-07:00",
+      "textSha256": "3ac7cc0d458c8fe853f02cb29381a097fe79eb6358d17d89042f71c7de453ff1"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217168438489911397",
+      "timestamp": "2024-03-12T10:52:49.632-07:00",
+      "textSha256": "000f77ebba34734edf5b84ed81314d134f5ef35ad68c8fd853fb8de0eb031298"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217169614862286969",
+      "timestamp": "2024-03-12T10:57:30.101-07:00",
+      "textSha256": "7193f25378ba4204b965ab2aa1946f9b33275e92e9aa4fe87873c8aad5a73e49"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217171409730666568",
+      "timestamp": "2024-03-12T11:04:38.031-07:00",
+      "textSha256": "aa4faab83a15e06705e7656faa87648d92b2f84c8ba6ad570f2f26338b95dad2"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217171821221384262",
+      "timestamp": "2024-03-12T11:06:16.138-07:00",
+      "textSha256": "925a388b81d0b0a6c217af64a23c26da008707e20956ca5cfd703aa9c5d20987"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217173251982364744",
+      "timestamp": "2024-03-12T11:11:57.258-07:00",
+      "textSha256": "26e8f91327dde405dc8802d9cbbc3eb7a49d57cb7a8abd60b3609f1bb148dcc0"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217175890648109066",
+      "timestamp": "2024-03-12T11:22:26.365-07:00",
+      "textSha256": "cd788e6afa7b46e127f73e032d171b0f8986ee39664b34ace02116eb81a8d3fc"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217176992953405540",
+      "timestamp": "2024-03-12T11:26:49.175-07:00",
+      "textSha256": "1e0e74c30e246784a4f4f2a840507248fdde803dd2ca837a287d582e9e1102bf"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217180505988927610",
+      "timestamp": "2024-03-12T11:40:46.748-07:00",
+      "textSha256": "8729de4a4d4cc6aa1d0f5373db96c4d11e5a4e1bbb7e4b9efa7efc89f86888a6"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217182307258208448",
+      "timestamp": "2024-03-12T11:47:56.204-07:00",
+      "textSha256": "d8d4ffbe8b75c988aa4f725a0e022952d003c31b4d81c957a3ab7edbc54038d6"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217183362599620719",
+      "timestamp": "2024-03-12T11:52:07.817-07:00",
+      "textSha256": "70f8f9c55f06e477d687a5b636c145c73e5c94f38f73f4c10534214015ebd0f9"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217620546758643754",
+      "timestamp": "2024-03-13T16:49:20.643-07:00",
+      "textSha256": "66f147e29a59ed766186c5bcb53d4964991f4ebf8457b09032bdb60d4cae82b6"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217621546357620836",
+      "timestamp": "2024-03-13T16:53:18.966-07:00",
+      "textSha256": "9d2b52223429b3db44614347b23c0ca3550940106537d54f4cb7b89b977a50d0"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1217644871746326528",
+      "timestamp": "2024-03-13T18:26:00.172-07:00",
+      "textSha256": "8e41f43f1523095c8603b358090551d7cbf63db64526b057cce03d9af039107d"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219324672789975169",
+      "timestamp": "2024-03-18T09:40:55.95-07:00",
+      "textSha256": "c589acbec579d94a5320311c5c1678581ed8ee13d42c0eeffc514550641c9b74"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219325713430220820",
+      "timestamp": "2024-03-18T09:45:04.058-07:00",
+      "textSha256": "888066230cda3b9d4f26c0f81d39ca99ddcfbc7472e1c41df8efc81298ee618a"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219325722028413041",
+      "timestamp": "2024-03-18T09:45:06.108-07:00",
+      "textSha256": "c3a77c0f09ae72316bbc9db22829ab83b51ebc8e5c2456d95a32debab93e706b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219327007066685461",
+      "timestamp": "2024-03-18T09:50:12.485-07:00",
+      "textSha256": "eda535888d16128ddfe9407fd16b2bede56b86af39b94483593db19e7705f952"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219327311912894535",
+      "timestamp": "2024-03-18T09:51:25.166-07:00",
+      "textSha256": "8b5874f1c0cb04c6f789b61e86729125fe15682038f8bf1600e477baa9a8eb16"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219327715279372389",
+      "timestamp": "2024-03-18T09:53:01.336-07:00",
+      "textSha256": "bf4a352157f93566af5f4658345b111b1bf6be4bd0997b8e42b2e6a320f1e7ca"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219328109019402384",
+      "timestamp": "2024-03-18T09:54:35.211-07:00",
+      "textSha256": "cac3bf2de92c04001b81d6f9b8de43689e8e431894d70307245ed32d4485e00b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219329471820202126",
+      "timestamp": "2024-03-18T10:00:00.128-07:00",
+      "textSha256": "406a82820439c7c40de6681515d014b6f1c88855d0cde4e203cdd1014b017bba"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219330357657206936",
+      "timestamp": "2024-03-18T10:03:31.328-07:00",
+      "textSha256": "d15dc687fd63801aeef247255234f4b6f1719bba302c7e7f7a68c0bb3a1234cf"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219331149202063430",
+      "timestamp": "2024-03-18T10:06:40.047-07:00",
+      "textSha256": "49c559a7910ebbb08bfaee9b707a7b39beedf308ce944ee1d56b94f431ed35da"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219331387581009931",
+      "timestamp": "2024-03-18T10:07:36.881-07:00",
+      "textSha256": "2d6e14de86cc1c5c192aba055c4103e01caa66d4a63b84cbab042662865383e7"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219338505751101602",
+      "timestamp": "2024-03-18T10:35:53.985-07:00",
+      "textSha256": "a53e8b0c08a0985b77190b2f57e681b695b00abf6352f5feb41e110a08a599c7"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219340629796978738",
+      "timestamp": "2024-03-18T10:44:20.397-07:00",
+      "textSha256": "6723b292ea2eee2b84ba065ca9171446bd829e9363256a5f719ff54bf7c06d15"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219342484237324419",
+      "timestamp": "2024-03-18T10:51:42.53-07:00",
+      "textSha256": "e5964cbe80d484ca7a21bab76f4850cfe44ecabdcc6e500e21ecf934720fe8ae"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219344680492466217",
+      "timestamp": "2024-03-18T11:00:26.158-07:00",
+      "textSha256": "d749ea6f2669a28a1d25381d2a53193a224019a0d56dcad89820f71fb268cf10"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219345863143456920",
+      "timestamp": "2024-03-18T11:05:08.124-07:00",
+      "textSha256": "3de5c40e00c5cea362d7fb6d7423c228990fcfcc89d4f65fd9c34b4647574dab"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219345987294859376",
+      "timestamp": "2024-03-18T11:05:37.724-07:00",
+      "textSha256": "70b8efb1085e7e5cf7f6e0b03e49335e19f6da89ec02e52d64366e7d048540da"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219347151834841201",
+      "timestamp": "2024-03-18T11:10:15.372-07:00",
+      "textSha256": "f43af904ee6055829e859eaa145aa6aec2c125566ce9044a3a176628efa7ef2d"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219349273632833556",
+      "timestamp": "2024-03-18T11:18:41.248-07:00",
+      "textSha256": "7d7c471082d231d93226e006c6fe8567634afd055e9d4a3136ef4ef85fb015c7"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219352579142717450",
+      "timestamp": "2024-03-18T11:31:49.343-07:00",
+      "textSha256": "47666ebabd0010d83e2e270fb858505853907d8d871e435cc68d224d409305c7"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219355702728855675",
+      "timestamp": "2024-03-18T11:44:14.064-07:00",
+      "textSha256": "c10c64a500e9397d59ad06b35fac3c5a7254df979f00fad39fc9c4d1249ffd6f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219356806439108691",
+      "timestamp": "2024-03-18T11:48:37.209-07:00",
+      "textSha256": "aec17268ae0fd23faa4183bd505fbd8346c42743bc21642a7850041efc9aa2c2"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219358320704356455",
+      "timestamp": "2024-03-18T11:54:38.238-07:00",
+      "textSha256": "848215f0db430157ddf18addd8b420eb89bd44830eb257b9dea3252a7e0bfe23"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219359096940265493",
+      "timestamp": "2024-03-18T11:57:43.307-07:00",
+      "textSha256": "25c8f88d8dca606caea29056c44d7e1c2fabf9f37efdc6ce0bebabd529f6b3de"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219359975554678877",
+      "timestamp": "2024-03-18T12:01:12.785-07:00",
+      "textSha256": "8b7003cb44cba6f0a6489c34ed4d66d8a45bb4f82a56f7e978cf0d032c2363fe"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219360776062636092",
+      "timestamp": "2024-03-18T12:04:23.641-07:00",
+      "textSha256": "4d6fb09198071cfea28e8dbbbe0822ea41168cf1087226ab1042fcc1d31ce659"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219361225591488652",
+      "timestamp": "2024-03-18T12:06:10.817-07:00",
+      "textSha256": "9db23aa95f00d9ea664b50e80eea845a638dd4b1544aa6c5d1a83dc31cd5b76c"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219363366674632746",
+      "timestamp": "2024-03-18T12:14:41.291-07:00",
+      "textSha256": "79b8d0dbea672dfb33748813aed04e1470a6c5c85a25a2c89b087102a77857e1"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219364043731501157",
+      "timestamp": "2024-03-18T12:17:22.714-07:00",
+      "textSha256": "727a0bf08994224e472438f4ed4204fe5432734fc4f3da36465255176c3a2319"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219364899751198731",
+      "timestamp": "2024-03-18T12:20:46.805-07:00",
+      "textSha256": "92dce0b28cb3096144e83d347d801534c2cb01a2cd24169ce52831250df6da34"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219373948693905418",
+      "timestamp": "2024-03-18T12:56:44.241-07:00",
+      "textSha256": "39329b3b7a1e3b13fd5e95a822778dc73c5a64be1d74865c8d8987ef722210c9"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219376968437600256",
+      "timestamp": "2024-03-18T13:08:44.204-07:00",
+      "textSha256": "3047587f064967cc2240208180645005834b27805f73bea89064fd2e4356abd4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1219378325668233247",
+      "timestamp": "2024-03-18T13:14:07.793-07:00",
+      "textSha256": "c48d2549b97387b059048d86d7b6d019afbf60becbd54a76581e84bf802b701f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1221612645493379205",
+      "timestamp": "2024-03-24T17:12:31.151-07:00",
+      "textSha256": "1362564a0f091e91c4c3b798b5b0b72f85a0e0369d2adecfe13f2d37dceede50"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1221612710559612968",
+      "timestamp": "2024-03-24T17:12:46.664-07:00",
+      "textSha256": "949591acb8e63d37649cf5ed4fe7a553613a100fdb1937145c9aa7f84eccf0fc"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1221619484385874011",
+      "timestamp": "2024-03-24T17:39:41.67-07:00",
+      "textSha256": "e36dcd46df540e4b799436a1cdcb7afe1c57ccf67a452ec8c4eb672eb9959121"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1222614789851840512",
+      "timestamp": "2024-03-27T11:34:40.985-07:00",
+      "textSha256": "7f221792b62d07ef94fb5c52cdfd1d88059b49a18755ce2fb1074bb70eac7bae"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1222618882393509960",
+      "timestamp": "2024-03-27T11:50:56.723-07:00",
+      "textSha256": "e0fb940d02d60dafc533ba059046643ca11921eca7f864cfdf10b9d3515e760b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1222619175529349202",
+      "timestamp": "2024-03-27T11:52:06.612-07:00",
+      "textSha256": "1176e143e7f26fb9ed3cb1501da535d96400b98c3993412b9563a7c8228cdebc"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1222619388314652672",
+      "timestamp": "2024-03-27T11:52:57.344-07:00",
+      "textSha256": "61d9082aff55119c33aa40756d8131bf908866464e64596c9219e361952ee5a5"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1222620201590456460",
+      "timestamp": "2024-03-27T11:56:11.244-07:00",
+      "textSha256": "c1b44a84989f7ca2b7b4d8c6565746fe3e0b85e68b22fd0695e8348f219f1a55"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1222622439633195141",
+      "timestamp": "2024-03-27T12:05:04.835-07:00",
+      "textSha256": "cd201e5cc72bfddb07f08262884016b6bee2172809309c50335508c7ec830ee0"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1222623146595717194",
+      "timestamp": "2024-03-27T12:07:53.388-07:00",
+      "textSha256": "03d0ea63eee67ee5fd040170323ececd3109c92619bc0a020636431b4087c402"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1222626176523305011",
+      "timestamp": "2024-03-27T12:19:55.779-07:00",
+      "textSha256": "81fc3e25977dde73eb9d9e7e5010ed23aee5e048e97fb1d2c65cd4d7a9bca4ba"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1222627509980626984",
+      "timestamp": "2024-03-27T12:25:13.7-07:00",
+      "textSha256": "84bc80382266242495c3e4c4ec325e270c8e6cc37a4a6d632319269e610fc7b4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1223093654332375190",
+      "timestamp": "2024-03-28T19:17:31.174-07:00",
+      "textSha256": "4e940b37ef178ac97c58b6058fe03c5073803085ae0f45c29e27367998b53b54"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1223111692561678406",
+      "timestamp": "2024-03-28T20:29:11.823-07:00",
+      "textSha256": "2df1e39affdf9eff0c1e55b90286d02ea4f822a1186f1dd656b364c6fe4edabf"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1223113627272482938",
+      "timestamp": "2024-03-28T20:36:53.094-07:00",
+      "textSha256": "c12284d12a53bd6109549f43f5ff1d0fd199e2aa676b2292915701bcba561cc7"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1223116995084423251",
+      "timestamp": "2024-03-28T20:50:16.043-07:00",
+      "textSha256": "c2faebb40ecb241b943f42be6b58f9fcb451af2d2e916d0b4ba17f7562786a06"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227817529058136114",
+      "timestamp": "2024-04-10T20:08:30.674-07:00",
+      "textSha256": "ceb8d54c667b4ecc7c60d4409d3107f72d0914c3cc06896ad360d32de6ee724f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227825889350254713",
+      "timestamp": "2024-04-10T20:41:43.923-07:00",
+      "textSha256": "7e6d927d568500ab5a0722c427bc3357dce505db2dc0a0f8d4b524ff92b1c144"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227827626442227824",
+      "timestamp": "2024-04-10T20:48:38.078-07:00",
+      "textSha256": "98ccdd33a41d70947c6da069585ac48985604891e9ab5c4c146d32fb5710cc38"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227828201104080983",
+      "timestamp": "2024-04-10T20:50:55.088-07:00",
+      "textSha256": "0320abd51393d88528347b2fdc18804a78c7025f63b0195754a8be1bc7b394bc"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227830107239092336",
+      "timestamp": "2024-04-10T20:58:29.546-07:00",
+      "textSha256": "3b3ed8547c9539eff049a2a702a8f4974b4e77291f868f58ed831d4b10bfe4a3"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227837513708736603",
+      "timestamp": "2024-04-10T21:27:55.386-07:00",
+      "textSha256": "2b3fc68ad99a0ccdf488d8d782322a6ba3f8701cb564f2bc671c02d0881889c0"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227838152236863508",
+      "timestamp": "2024-04-10T21:30:27.623-07:00",
+      "textSha256": "530314bbae24fcdb63268b9ddb33bbc584181cea9b822cbcc34d664d14107f62"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227838415408726076",
+      "timestamp": "2024-04-10T21:31:30.368-07:00",
+      "textSha256": "96f2ad1ea16c047935c306a2324c4c8859737889d7ad1622cb0e8cc553615704"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227839387304202352",
+      "timestamp": "2024-04-10T21:35:22.086-07:00",
+      "textSha256": "142ff9827287edacceeb642b2c7480e748408cbf2c65885bb6956c5f24e1b68c"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227840018505138236",
+      "timestamp": "2024-04-10T21:37:52.576-07:00",
+      "textSha256": "4165f3699b4b93d47793e0c70d997585bf215889880bf457381269b6831774a4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227841423944974356",
+      "timestamp": "2024-04-10T21:43:27.659-07:00",
+      "textSha256": "41c7f46396424b10404a473843c22e4acb700f453d41773de64d78f36dec5b10"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1227842569862512641",
+      "timestamp": "2024-04-10T21:48:00.867-07:00",
+      "textSha256": "dd6206c899dfa85a7e41866114181e008a69c86b9b77cb81b7f5111cf83456e6"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1237165357114855425",
+      "timestamp": "2024-05-06T15:13:26.557-07:00",
+      "textSha256": "8285fb37812da61c1ab9ee58e80a596c0f353453b133a2419c48a3dedc8a78d2"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1237166131698077819",
+      "timestamp": "2024-05-06T15:16:31.232-07:00",
+      "textSha256": "72b6f730d55f68e087d760c14d396d68fc72b313b2a3f4dc023e0be781c242e0"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1237178812949856257",
+      "timestamp": "2024-05-06T16:06:54.678-07:00",
+      "textSha256": "f83535b4c58837d780e5cc61fe72b3bf603785d29c2f3f4c6e1d18abe1d41688"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1237187093575241789",
+      "timestamp": "2024-05-06T16:39:48.933-07:00",
+      "textSha256": "e3ef36a2fcea8c76fb6762a27062dab85372c3881e85b98a79d5bc224ab785ab"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1237198540007276644",
+      "timestamp": "2024-05-06T17:25:17.975-07:00",
+      "textSha256": "192f40cffdb01b88c336ac09c47456af669939408ec77cd0ec552d370111a7bd"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1237200779732058223",
+      "timestamp": "2024-05-06T17:34:11.967-07:00",
+      "textSha256": "9a189f47d01f96c8640cb12742ec3a292a098786d2de6de4f7ae98e16e110f68"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1237202890670739596",
+      "timestamp": "2024-05-06T17:42:35.254-07:00",
+      "textSha256": "864249b106d82f76a56ce548debd0285eea0902cce619343cacfaeb6b31a20f9"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1237208699378860043",
+      "timestamp": "2024-05-06T18:05:40.158-07:00",
+      "textSha256": "363b5bc68f948f0d36f5e6146bd1b1ff8b7dddf891df8924f208e30f6d8d40c0"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1237210483489116231",
+      "timestamp": "2024-05-06T18:12:45.523-07:00",
+      "textSha256": "9a40ca9f6c5e207dd933259b9abfe60513aee1be500df3926c995973ba1efb14"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240106188834734100",
+      "timestamp": "2024-05-14T17:59:15.477-07:00",
+      "textSha256": "b9903ea9e63a458bbf672fc98757823706a379c2346aec7d55ce1231cb51fbf2"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240108189882777671",
+      "timestamp": "2024-05-14T18:07:12.564-07:00",
+      "textSha256": "f578e6e6583ae802e320cec51f835d42e1509dc6a4bd863e59b224eaba302c5b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240112928028495922",
+      "timestamp": "2024-05-14T18:26:02.226-07:00",
+      "textSha256": "976bf0d0bce07afec0d7e41619efe46e96dd0214ec49fcff18e39db636d89513"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240113132295295039",
+      "timestamp": "2024-05-14T18:26:50.927-07:00",
+      "textSha256": "cd05ffef000979d6166dfdc640026dc04b1aabd37d4db05e71de8e2a1e53c0b2"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240113865367359549",
+      "timestamp": "2024-05-14T18:29:45.705-07:00",
+      "textSha256": "84db3d21d5fb9bd8ad844805abe62c7b78e1072c6b41cedb2168aaab4b806e2d"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240116706442088558",
+      "timestamp": "2024-05-14T18:41:03.07-07:00",
+      "textSha256": "39633e82d08f788434ef3a0a6e650ecd7c22a954757bfffa454b0e1dd17b7ca7"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240128768111280128",
+      "timestamp": "2024-05-14T19:28:58.796-07:00",
+      "textSha256": "972dc5190e400da322a09f1c0ce6659104dff9c6768351c2df6b48c36b9ebd90"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240133078635118612",
+      "timestamp": "2024-05-14T19:46:06.505-07:00",
+      "textSha256": "48640f6bc0af08e0f4651841f5a485f988877438200a2642d5f6650b9263df57"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240133445435523072",
+      "timestamp": "2024-05-14T19:47:33.957-07:00",
+      "textSha256": "d971e1c6893bbb1eb046bce5361c76fa195311bce0fd7971086318682ddaa485"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240143959288840274",
+      "timestamp": "2024-05-14T20:29:20.655-07:00",
+      "textSha256": "09a960636ea268069a828fe7982226e7360ca4821e8fefa8ef6493d640a759a3"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240147050654466131",
+      "timestamp": "2024-05-14T20:41:37.694-07:00",
+      "textSha256": "0bfea7fda5605f0bde2ed26238340e6515a4077fa040f3c95772d7e0c8b4e97f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240149999933853717",
+      "timestamp": "2024-05-14T20:53:20.857-07:00",
+      "textSha256": "e4d221035a01e482300907e2c2680a9de1ba93504470b0b3450d4ed336047788"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240152507741638736",
+      "timestamp": "2024-05-14T21:03:18.765-07:00",
+      "textSha256": "cb9ee56a5630618b2936491fc79c1e548cc41e2271200fdd674b958ce2bde6bb"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1240154751975559220",
+      "timestamp": "2024-05-14T21:12:13.832-07:00",
+      "textSha256": "e3fc8d6517a5bf09fdaff2284b90c2f66941cdc17f73556c64aa40011488511c"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337270935644016640",
+      "timestamp": "2025-02-06T19:57:16.35-08:00",
+      "textSha256": "b2ac7f006492c87976c3f1af0c8e383afb32a3ec7819302a76c366e56b192a10"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337271756318179359",
+      "timestamp": "2025-02-06T20:00:32.014-08:00",
+      "textSha256": "92e584d33006ddeeb12425c19809d7761d4c66ff5e900856a64d9c815b7d1933"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337272859260883098",
+      "timestamp": "2025-02-06T20:04:54.976-08:00",
+      "textSha256": "a34000d4fc85617fb0a84e76e7842409f8a3c6fd36b298a62b9508b7605e5281"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337276497345384508",
+      "timestamp": "2025-02-06T20:19:22.363-08:00",
+      "textSha256": "a65c047d7a59a6380c2803665336adcda3e283e419f02f3d2a241043f5d64b1c"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337285591007498270",
+      "timestamp": "2025-02-06T20:55:30.461-08:00",
+      "textSha256": "b718e3a3cab2c15f363b2b3632b6238ca46ff873fb463ba0ea5dd8916c6fabe4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337293104335814718",
+      "timestamp": "2025-02-06T21:25:21.778-08:00",
+      "textSha256": "48c3dd3f17ec566182ab9d70025063048ac9283a92bb7b316c51b479eff6482c"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337295292445233152",
+      "timestamp": "2025-02-06T21:34:03.464-08:00",
+      "textSha256": "44b860eebd24b7e4e809a920b363083b5c2f7787f2e46ce0a75f462c431e103b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337296223509418019",
+      "timestamp": "2025-02-06T21:37:45.447-08:00",
+      "textSha256": "8b5e833ba421b4177bb5889e4a1a8c1cae4e29f5401d7b60571079436e16cd77"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337296587709218848",
+      "timestamp": "2025-02-06T21:39:12.279-08:00",
+      "textSha256": "801d22139ef9d1ec9defcb2817cc6707a3dbe491d8a4f0ba2960d46693b24625"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337297843693555723",
+      "timestamp": "2025-02-06T21:44:11.729-08:00",
+      "textSha256": "9d091c962ea7764eb3b7370299fd25bdcff406cb556ea60aea6e4a0f25cd6475"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1337300825210355753",
+      "timestamp": "2025-02-06T21:56:02.578-08:00",
+      "textSha256": "c1f38782f90deb936e89c01bd2153799b4f405580061472fa79fc71f43e095c0"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1341569472128880691",
+      "timestamp": "2025-02-18T16:38:07.311-08:00",
+      "textSha256": "6c185d35e9c5a346f6a4c54367771c3eec6033c76ec1b133a87b80124a699009"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1341570730181136394",
+      "timestamp": "2025-02-18T16:43:07.254-08:00",
+      "textSha256": "bbfd7e0c5c30848dd89e812268431ebe9c6c6ebb41fbeadcc9ac1d15f1eeb583"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1341601387502633005",
+      "timestamp": "2025-02-18T18:44:56.529-08:00",
+      "textSha256": "9ef6e9790094d567d609efb5be58491ace644d4be61f526560932b142f77ba76"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1341602021337337901",
+      "timestamp": "2025-02-18T18:47:27.647-08:00",
+      "textSha256": "030cf2d8ee8ac2559b1329095ab9e8a1a62091396f4535a05204369049c063dc"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1341602125020401676",
+      "timestamp": "2025-02-18T18:47:52.367-08:00",
+      "textSha256": "2c23a8626e7f1ab0cca9587a42c5c011f28d96e8d9e617d3f225a1634f0eb316"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1341603112179470337",
+      "timestamp": "2025-02-18T18:51:47.724-08:00",
+      "textSha256": "aa16fcf0768c200aad8112b7d7db10056696ec3d612f0e860cb00561235e1e0b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1341604518311235635",
+      "timestamp": "2025-02-18T18:57:22.972-08:00",
+      "textSha256": "9f1d1e688186af60d5dc6d7668e42f422430749e9039779741f29aa3172d9b5f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1488689007956328591",
+      "timestamp": "2026-03-31T16:58:38.001-07:00",
+      "textSha256": "2d31e762681f65a783f6b4302134fffa033c216b6b27fff4c2cb2e7f2db967e4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1488695513585946714",
+      "timestamp": "2026-03-31T17:24:29.064-07:00",
+      "textSha256": "0005831f0eba033f797ddb2099f528236a1d8a82279b949ab4f3f537d6682c02"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1488697572817109034",
+      "timestamp": "2026-03-31T17:32:40.023-07:00",
+      "textSha256": "68d5c8bf891ac3685e2a11f743b06638fabe3e9aad1f706149e7aa6c8437caec"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1488700834576601230",
+      "timestamp": "2026-03-31T17:45:37.687-07:00",
+      "textSha256": "3094d870ef8738db90ee71677267013852552df7dcd6cd4d2af9730bc289dc95"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1488705764070789171",
+      "timestamp": "2026-03-31T18:05:12.97-07:00",
+      "textSha256": "82cd9e87a35f752d019ed051a2ad4ddf76c28f05b3d7b14db3eec13c18266d55"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1488706474577236139",
+      "timestamp": "2026-03-31T18:08:02.368-07:00",
+      "textSha256": "a6caea823f912bbf02ce510b86113461a1f69df94c5f34063f6584f0d5bec271"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1488707678803853403",
+      "timestamp": "2026-03-31T18:12:49.478-07:00",
+      "textSha256": "a5f4aa815f661760aa468a7a07e970e412e60e239e0618f5da279416f2cbe7cc"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1488738832516911164",
+      "timestamp": "2026-03-31T20:16:37.102-07:00",
+      "textSha256": "fdf78764829b3868a9f86800a90e5f67635f39dea440c922b3896c75169badfb"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1488743020441505856",
+      "timestamp": "2026-03-31T20:33:15.581-07:00",
+      "textSha256": "a835c5d1e014e1ac1d5a8523a39ef3333a434fd0952a7e68c89600be06156aaf"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1489798460050768133",
+      "timestamp": "2026-04-03T18:27:11.993-07:00",
+      "textSha256": "fc546f27d7cdb3afa974f018f1b5c5b4c79f96cb95897d926773315cfeb36817"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1489836944216297684",
+      "timestamp": "2026-04-03T21:00:07.333-07:00",
+      "textSha256": "2d5d550b883e230c5dd3e6000d61f2e20fc56a05d116749076ccac96c02e44ba"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1489865408507809823",
+      "timestamp": "2026-04-03T22:53:13.749-07:00",
+      "textSha256": "1cd35ca0f73abd977c7290a6a40aa2fa47b9e52e94f4856bc21b83bc376df011"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493768213354250342",
+      "timestamp": "2026-04-14T17:21:34.935-07:00",
+      "textSha256": "5de9a855dd832a5bd47cf746e507f2b99a59d4ec1c0c1ba7f1558be1ff003b79"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493769828543238266",
+      "timestamp": "2026-04-14T17:28:00.026-07:00",
+      "textSha256": "f44bfe923fd1c4d3889a049ca1306c368a6ec064311357b3b9b9a0c848542fd4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493771004483469362",
+      "timestamp": "2026-04-14T17:32:40.392-07:00",
+      "textSha256": "6da08d34c0b9a3ac47b5bab6d0091977a4d67330d3f153ff83476208fd5f2193"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493772033648099328",
+      "timestamp": "2026-04-14T17:36:45.764-07:00",
+      "textSha256": "08cc61d7ce5bc54a490cde2f4ddc97d0156fe6228cda205b967b34eabb9546eb"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493772877902647326",
+      "timestamp": "2026-04-14T17:40:07.05-07:00",
+      "textSha256": "6b89d5c59e2a5b344867b8e718cc212aefd7afa70e9c3263ef0a13c6b1bf07ae"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493775760761159762",
+      "timestamp": "2026-04-14T17:51:34.377-07:00",
+      "textSha256": "654b7490736ae07f179cc280a7f94daea39e077dc4c0d7530f9f5476f4e03e90"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493776076193923142",
+      "timestamp": "2026-04-14T17:52:49.582-07:00",
+      "textSha256": "c9c1e9aa138b3c1885da5b4de1e527344ec240642661683b6e4e6dc1b8605061"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493776639497076817",
+      "timestamp": "2026-04-14T17:55:03.884-07:00",
+      "textSha256": "1626f44fb0074f0efb1d3786ad8a1a595dbc08a44a7ce07ac33717db28cdc9e6"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493777508741414942",
+      "timestamp": "2026-04-14T17:58:31.128-07:00",
+      "textSha256": "ce1331b3eeb7c5a551363ab7af8ed6846adea7ff8e52858c59f739eb40e47769"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493777866683318452",
+      "timestamp": "2026-04-14T17:59:56.468-07:00",
+      "textSha256": "f68423166e8e53d6ac7e927da44c708d252b5ac8ea94a262ed3ac9c7e62cef7f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493778178588672140",
+      "timestamp": "2026-04-14T18:01:10.832-07:00",
+      "textSha256": "e540701623c6a477addfa28ca8cc0c6638b33a67b894d69391052aa7a57c6b31"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493779712193855788",
+      "timestamp": "2026-04-14T18:07:16.472-07:00",
+      "textSha256": "5c20a1a5d37a4b96daa50e54d9d167ea59472db7c79eb2fc7853d5bb4a614301"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493780215808135300",
+      "timestamp": "2026-04-14T18:09:16.543-07:00",
+      "textSha256": "94c9cc336ef6992a7bd896dd9e1fcf5d27784d23b1382e77cb9b216ad883a307"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493780240382824509",
+      "timestamp": "2026-04-14T18:09:22.402-07:00",
+      "textSha256": "3b346a7f485237ec5006d97e75d4d8694c8662cc5f17d2c01fdf67274c6696b4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493782446469021736",
+      "timestamp": "2026-04-14T18:18:08.374-07:00",
+      "textSha256": "48868d5c815401d63441c5741b41afed21ca634f34f77344c5dadb63ace55500"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493782769124376599",
+      "timestamp": "2026-04-14T18:19:25.301-07:00",
+      "textSha256": "6d4851083543d7feffea3338968cd6d487bfd3b229efeb4f133f17c50138a36f"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493785491214958672",
+      "timestamp": "2026-04-14T18:30:14.298-07:00",
+      "textSha256": "fc2b73753a5b0dd599a733c855e623995061b2d091e2d11d7fdc5cfe640f8539"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493788411851571290",
+      "timestamp": "2026-04-14T18:41:50.632-07:00",
+      "textSha256": "60b5486594b0805e146c10bb184aa23646684773e08d7b516f5e51fb6cfb9863"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493790812528447529",
+      "timestamp": "2026-04-14T18:51:22.998-07:00",
+      "textSha256": "095f2bfa77a1fd47185a2c9d9aee9e6578e1984b31e07ea95e807dd6a0a15d82"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493791996161167451",
+      "timestamp": "2026-04-14T18:56:05.198-07:00",
+      "textSha256": "19cfe2e92596d7d05b9383d5a4b9291640fee34453798f89404aeed97d439409"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493792817678516445",
+      "timestamp": "2026-04-14T18:59:21.063-07:00",
+      "textSha256": "b8a2fe80fe77c59a6a54501c99b99008512d25690e8fc2460d0aea3f364d6b21"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493795644274511902",
+      "timestamp": "2026-04-14T19:10:34.976-07:00",
+      "textSha256": "ef8bfaf5d4b9c8ca472055f7b72c834894656c310cd8b47483d4d7a05e3937b9"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493796789881409647",
+      "timestamp": "2026-04-14T19:15:08.11-07:00",
+      "textSha256": "2f6230d69261d9691cbf08e6e6fc9640e66ef129b2f6e9c1ff896a231cc83907"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493797184762810518",
+      "timestamp": "2026-04-14T19:16:42.257-07:00",
+      "textSha256": "ba127311b5c8cc634bce3e0e2778ee50c26f3dbc1013aca17d98d9498ce0bbea"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493805285993615410",
+      "timestamp": "2026-04-14T19:48:53.741-07:00",
+      "textSha256": "8b3d152e938ce7ada33da46607068e4822b2e5f0f72af883d2b0de8b57e0c42b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493808545085259936",
+      "timestamp": "2026-04-14T20:01:50.769-07:00",
+      "textSha256": "bf372fce47ceef8c69444bc87902415c399488328e575b9de2979b241d30554a"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493810948656599171",
+      "timestamp": "2026-04-14T20:11:23.825-07:00",
+      "textSha256": "94980ec31b78dcf24f6a999e2516736847f38bc6446b59b636ab3ce103a5d02b"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493813315280048241",
+      "timestamp": "2026-04-14T20:20:48.072-07:00",
+      "textSha256": "140f8356275f69983e4ad957c592c524ce8f67ed21330366c2f860cf5b946535"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493817622800891964",
+      "timestamp": "2026-04-14T20:37:55.065-07:00",
+      "textSha256": "dd36e59cfd28557c49028a0828c607938f92ebeaa67a5fe49114005ab6cd39df"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493822146017759336",
+      "timestamp": "2026-04-14T20:55:53.484-07:00",
+      "textSha256": "0379976913229557c83cd6e542a669d078e4c185538298cbb0d3ba76c4695195"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493824633550667919",
+      "timestamp": "2026-04-14T21:05:46.558-07:00",
+      "textSha256": "ed01a0813452b439b86fa1255d4cd741955bad5b70b9a9d0fb81c28e15dc3445"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493830427977322616",
+      "timestamp": "2026-04-14T21:28:48.057-07:00",
+      "textSha256": "87a5b12a6129b34e5b82d032efc4322e49b986a66cde8b5d70fa42424ff08ab7"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1493844415410733150",
+      "timestamp": "2026-04-14T22:24:22.921-07:00",
+      "textSha256": "faee2b3d62fdb0ac0c77df70d4a7ee86f7b9f644c744c850926117e591fc21e7"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1506709578228699146",
+      "timestamp": "2026-05-20T10:25:56.76-07:00",
+      "textSha256": "d9be1cafe580dd8774ba652bcbdc4dd876a60cce88df4f784b84f0a2d2d3d7c4"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1506718041323475006",
+      "timestamp": "2026-05-20T10:59:34.519-07:00",
+      "textSha256": "6e608247f5ee08e2b799b807f742e0257b7e9b78ecad88d7e0ae7c3e362766c2"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1512884650257940540",
+      "timestamp": "2026-06-06T11:23:28.659-07:00",
+      "textSha256": "a6ee87a6763a1311c6e6a67ea88dccc0bb8cfa310be1ee427b6ecada22db5a43"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1512887278660223020",
+      "timestamp": "2026-06-06T11:33:55.319-07:00",
+      "textSha256": "12ddc61b89a1e98c8c001f6077fe8f27daec256f0be46422aecc9fb364465678"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1512921146331369676",
+      "timestamp": "2026-06-06T13:48:30.001-07:00",
+      "textSha256": "20509f898580688533437002375aa3aa1bdb1ca9f67dfcb0561d39c8ec9daae1"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1512925803787059253",
+      "timestamp": "2026-06-06T14:07:00.425-07:00",
+      "textSha256": "d33bd2563a4db4986ca292b224319bd190dd4173169070087e42088bb89aa732"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1522660345553096736",
+      "timestamp": "2026-07-03T10:48:36.041-07:00",
+      "textSha256": "7ffbaa9f52d8f18fa69f5fea94a17b83841d0e8db0c072ae163408011cd37583"
+    },
+    {
+      "corpus": "quest-rp-thread-associations/main-archive.sqlite3",
+      "version": "original quest export",
+      "channel": "1199083630354501673",
+      "id": "1522662077368504412",
+      "timestamp": "2026-07-03T10:55:28.938-07:00",
+      "textSha256": "e014a8281a9c04e69ef7e6388b73569b286cb404e112791016b1b381f4143d9e"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365768886338715658",
+      "timestamp": "2025-04-26T19:17:57.262000+00:00",
+      "textSha256": "bd58ba144d25032269a72edf22f91438970ea4c60d5dc5e1b07f29532d53a996"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365769309917286542",
+      "timestamp": "2025-04-26T19:19:38.251000+00:00",
+      "textSha256": "6883e7a843312959721fc44b12e0cc600ef5c1a4b5e3879ce69e5d22fc86b3be"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365769630508908585",
+      "timestamp": "2025-04-26T19:20:54.686000+00:00",
+      "textSha256": "61e6446824222c39e8467b9b5844ea47cbf79bfddae7c6c1fc3c2431c61a6140"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365770350293680299",
+      "timestamp": "2025-04-26T19:23:46.296000+00:00",
+      "textSha256": "83d5d31c933df5478bbb3408991a402681f050c5b4f60c44bcb4505ce9d3d542"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365772052497432709",
+      "timestamp": "2025-04-26T19:30:32.133000+00:00",
+      "textSha256": "fec35f4d5fe23b422ba0fcf70537adbec9dbffba5108982a17562f24adb00cb5"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365772700286717965",
+      "timestamp": "2025-04-26T19:33:06.578000+00:00",
+      "textSha256": "922fcb23979b82df61564777637cc53f221b7c27f36e82ccae4632858984dc8b"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365773847932047479",
+      "timestamp": "2025-04-26T19:37:40.198000+00:00",
+      "textSha256": "a642a34cc617d276dbec6a647d281ef1897e0b7832e6a5ed60d55ba63a68dd14"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365775346749935628",
+      "timestamp": "2025-04-26T19:43:37.544000+00:00",
+      "textSha256": "dfea5fef3efdb1cbcc259aac81cc5d576f6b56070b26369f52f7f33b0ed17390"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365778667678076979",
+      "timestamp": "2025-04-26T19:56:49.315000+00:00",
+      "textSha256": "ccb13b2cc6d28b311224153454456d1ef3223c0c10098a416a44077f4bcf7478"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365782235781005353",
+      "timestamp": "2025-04-26T20:11:00.017000+00:00",
+      "textSha256": "b1beaee69157a90b6122a07c50a0975b3bb2cf4d9df61f59e1a585aab7ad972d"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365783016877592697",
+      "timestamp": "2025-04-26T20:14:06.245000+00:00",
+      "textSha256": "02c82fc69bf7b516079acddc1d649799a30154d39da39cccd854b2837992b9b2"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365784587380330567",
+      "timestamp": "2025-04-26T20:20:20.682000+00:00",
+      "textSha256": "cd6e8716d296469d2256498a4c96e0208012f1019d57e4f11c5e8f006d865f3c"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365785152797671494",
+      "timestamp": "2025-04-26T20:22:35.488000+00:00",
+      "textSha256": "4ea5cf56e8974a53bd02cd9065d9801e5b36d75eda98a282a7a37a753e1f2057"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365785385069973647",
+      "timestamp": "2025-04-26T20:23:30.866000+00:00",
+      "textSha256": "0fd62ca436b1a83d3fef0f1d5b9111044c0e93560c01227fad03e14b0743abdf"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365788579372077189",
+      "timestamp": "2025-04-26T20:36:12.447000+00:00",
+      "textSha256": "8ca2156c3a8ed56a3b401f3f94510728a9df40afcbe789d615b55ba0f28747aa"
+    },
+    {
+      "corpus": "prima-archery-range/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1219690120811384922",
+      "id": "1365788804425711757",
+      "timestamp": "2025-04-26T20:37:06.104000+00:00",
+      "textSha256": "efb6bbcd106b81749b2d47172fd7de7e86f3d0aed7cd7c9539ca6da7bde5b10d"
+    }
+  ],
+  "newRecords": [
+    "jako",
+    "john-smith",
+    "forgax",
+    "claire-hearthford",
+    "keno",
+    "force",
+    "modeli"
+  ],
+  "cohorts": {
+    "firstCalled": [
+      "jiangshi",
+      "adelia-hope",
+      "scribonia",
+      "gartina",
+      "jako",
+      "quake",
+      "forgax",
+      "empty",
+      "john-smith",
+      "keno",
+      "force"
+    ],
+    "earlyContinuity": [
+      "claire-hearthford",
+      "rolen",
+      "nienna",
+      "st-anky",
+      "dale",
+      "saray",
+      "swift-foot",
+      "vaemyr",
+      "arjahn",
+      "olokun",
+      "elenia"
+    ],
+    "babelCompany": [
+      "aravil",
+      "aerrow",
+      "wren",
+      "eugene",
+      "elenia",
+      "olokun",
+      "arjahn",
+      "scribonia",
+      "gartina",
+      "nymera",
+      "ryvyt",
+      "alyhotep-bin-baladin"
+    ],
+    "newVanguard": [
+      "lady-severina",
+      "pelegia",
+      "thorn",
+      "camilla",
+      "kasiri-ruza",
+      "modeli",
+      "fenwick"
+    ]
+  },
+  "profileAudit": {
+    "adelia-hope": {
+      "words": 2764,
+      "chapters": 7,
+      "basis": "First-arrival record"
+    },
+    "aerrow": {
+      "words": 1378,
+      "chapters": 6,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "alyhotep-bin-baladin": {
+      "words": 1471,
+      "chapters": 7,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "aravil": {
+      "words": 1600,
+      "chapters": 6,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "arjahn": {
+      "words": 2814,
+      "chapters": 7,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "camilla": {
+      "words": 1489,
+      "chapters": 7,
+      "basis": "Named founder/later membership"
+    },
+    "claire-hearthford": {
+      "words": 572,
+      "chapters": 5,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "dale": {
+      "words": 1973,
+      "chapters": 7,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "elenia": {
+      "words": 3630,
+      "chapters": 7,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "empty": {
+      "words": 1178,
+      "chapters": 6,
+      "basis": "First-arrival record"
+    },
+    "eugene": {
+      "words": 1837,
+      "chapters": 6,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "fenwick": {
+      "words": 2706,
+      "chapters": 8,
+      "basis": "Named founder/later membership"
+    },
+    "force": {
+      "words": 341,
+      "chapters": 3,
+      "basis": "First-arrival record"
+    },
+    "forgax": {
+      "words": 556,
+      "chapters": 5,
+      "basis": "First-arrival record"
+    },
+    "gartina": {
+      "words": 2852,
+      "chapters": 7,
+      "basis": "First-arrival record"
+    },
+    "jako": {
+      "words": 586,
+      "chapters": 5,
+      "basis": "First-arrival record"
+    },
+    "jiangshi": {
+      "words": 1283,
+      "chapters": 6,
+      "basis": "First-arrival record"
+    },
+    "john-smith": {
+      "words": 554,
+      "chapters": 5,
+      "basis": "First-arrival record"
+    },
+    "kasiri-ruza": {
+      "words": 1731,
+      "chapters": 7,
+      "basis": "Named founder/later membership"
+    },
+    "keno": {
+      "words": 318,
+      "chapters": 3,
+      "basis": "First-arrival record"
+    },
+    "lady-severina": {
+      "words": 1503,
+      "chapters": 6,
+      "basis": "Named founder/later membership"
+    },
+    "modeli": {
+      "words": 773,
+      "chapters": 6,
+      "basis": "Named founder/later membership"
+    },
+    "nienna": {
+      "words": 1484,
+      "chapters": 6,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "nymera": {
+      "words": 2829,
+      "chapters": 6,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "olokun": {
+      "words": 3240,
+      "chapters": 7,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "pelegia": {
+      "words": 842,
+      "chapters": 6,
+      "basis": "Named founder/later membership"
+    },
+    "quake": {
+      "words": 1729,
+      "chapters": 7,
+      "basis": "First-arrival record"
+    },
+    "rolen": {
+      "words": 1442,
+      "chapters": 6,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "ryvyt": {
+      "words": 3363,
+      "chapters": 9,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "saray": {
+      "words": 2162,
+      "chapters": 7,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "scribonia": {
+      "words": 3017,
+      "chapters": 7,
+      "basis": "First-arrival record"
+    },
+    "st-anky": {
+      "words": 1844,
+      "chapters": 6,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "swift-foot": {
+      "words": 1400,
+      "chapters": 7,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "thorn": {
+      "words": 1349,
+      "chapters": 6,
+      "basis": "Named founder/later membership"
+    },
+    "vaemyr": {
+      "words": 3277,
+      "chapters": 7,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    },
+    "wren": {
+      "words": 2170,
+      "chapters": 7,
+      "basis": "Connected early/operational history; not an invented fixed membership roll"
+    }
+  },
+  "preservation": [
+    "All old narrative/scene destinations and portraits/films remain.",
+    "No raw transcript, controller identity, protected origin, private payload or unseen media enters Git.",
+    "All timeline objects, dates, importance and regions remain exact; no added event or map pin."
+  ],
+  "specificLimits": [
+    "Arjahn directly identifies as Vanguard; the earlier blanket uncertainty is narrowed. Formal ranks and complete roster remain unestablished.",
+    "Aravil is captured while trying to save Wren, later freed; Wren’s petrification is not a death.",
+    "Aerrow’s two hunt deaths, temporary Revivify and later restoration stay distinct.",
+    "Kumai’s hypotheticals are test answers, not atrocities carried out by candidates.",
+    "Modeli’s pride, anger, grief and fear remain his own experience; blaming himself does not settle responsibility for Serath’s death.",
+    "Claire’s promises do not establish a cure for Katherine. Keno/Force’s limited records do not acquire invented endings.",
+    "Pin/Pelagia/Pell remains the single Pelegia identity. Veilguard and Vanguard remain distinct.",
+    "Ryvyt’s death stays confirmed; a retrieval or completed revival is not invented."
+  ]
+}

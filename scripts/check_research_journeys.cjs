@@ -22,8 +22,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await go('mark-of-the-wild?section=wild-february-loss');
  assert(await page.locator('#wild-february-loss').evaluate(el=>Boolean(el.closest('.chronicle-chapter'))),'hunting-history legacy anchor remains visible in its continuous story');
  await page.locator('a[href="#aerrow?section=aerrow-february-loss"]').click();
- await page.waitForFunction(()=>byId.get('aerrow')?.bodyLoaded&&document.querySelector('#aerrow-february-loss')?.closest('details')?.open);
- assert(await page.locator('#aerrow-february-loss').evaluate(el=>el.nextElementSibling?.textContent.includes('Revivify')||el.closest('details').textContent.includes('Revivify')));
+ await page.waitForFunction(()=>{const heading=document.querySelector('#aerrow-february-loss');if(!byId.get('aerrow')?.bodyLoaded||!heading?.closest('.biography-section')||document.activeElement!==heading)return false;for(let parent=heading.parentElement;parent;parent=parent.parentElement)if(parent.matches('details')&&!parent.open)return false;return heading.getClientRects().length>0;});
+ assert(await page.locator('#aerrow-february-loss').evaluate(el=>el.nextElementSibling?.textContent.includes('Revivify')||el.closest('.biography-section').textContent.includes('Revivify')));
  for(const id of ['pristinia-campaign','gael-campaign','zarathis-campaign','voraketh-campaign']){
   await go(id);assert.equal(await page.locator('.record-chapter').count(),4,id+' chapters');
   assert.equal(await page.locator('.section-evidence').count(),4,id+' evidence');

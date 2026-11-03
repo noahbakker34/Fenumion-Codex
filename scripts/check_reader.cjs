@@ -9,10 +9,10 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  await page.route('https://auth.fenumion.com/**',r=>r.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
  const go=async id=>{await page.goto(base+'#'+id);await page.waitForFunction(id=>byId.get(id.split('?')[0])?.bodyLoaded,id);await page.locator('#article-content').waitFor();};
  // Keep the ordinary reader-mode coverage on a profile outside the biography group.
- await go('st-anky');
+ await go('djohandrai');
  assert.equal(await page.locator('.character-brief').count(),1);
  assert(await page.locator('.character-brief').innerText().then(t=>/last established status/i.test(t)));
- assert(await page.locator('.section-evidence[data-evidence-kind=testimony]').count()>=1);
+ assert(await page.locator('.section-evidence[data-evidence-kind=mixed]').count()>=1);
  assert.equal(await page.locator('.chapter-guide').count(),1);
  assert.equal(await page.locator('.record-reading-controls > button').count(),1,'one reading-mode control replaces duplicate expand/read buttons');
  assert.equal(await page.locator('#article-content .related').count(),0,'generic recommendation footer is retired');
@@ -26,6 +26,12 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  const open=page.getByRole('button',{name:'Read continuously',exact:true});await open.click();
  assert(await page.locator('.record-chapter').evaluateAll(list=>list.every(d=>d.open)));
  await page.getByRole('button',{name:'Browse sections',exact:true}).click();
+ // Anky now uses the continuous biography reader; keep his identity and testimony covered.
+ await go('st-anky');
+ assert.equal(await page.locator('.biography-section').count(),6,'Anky’s six continuous chapters');
+ assert.equal(await page.locator('.character-brief,.chapter-guide,.record-reading-controls').count(),0,'legacy controls do not duplicate the new reader');
+ assert(await page.locator('.section-evidence[data-evidence-kind=testimony]').count()>=1,'Anky retains attributed testimony');
+ assert.equal(await page.evaluate(()=>archiveIndex.characters.filter(p=>p.article==='st-anky').length),1,'Anky remains one player character');
  // Search an unloaded article, follow the exact section, reload and retain an open destination.
  await page.evaluate(async()=>{search.value='rowboat';await runSearch('rowboat');});
  const result=page.locator('.search-result[data-article=gael][data-search-section="gael-fenwick-coast"]');
@@ -65,8 +71,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
  for(const id of ['fenwick','gael','pristinia','voraketh','training-dungeon','history-in-consequences','visual-archive','living-timeline']){
   await go(id);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),id+' mobile overflow');
  }
- // Keep the ordinary expandable brief covered as Papirak moves to continuous chapters.
- await go('st-anky');await page.screenshot({path:'/tmp/codex-character-summary-mobile.png',fullPage:true});await page.locator('.character-brief').screenshot({path:'/tmp/codex-brief-mobile.png'});
+ // Keep the ordinary expandable brief covered on an unchanged reader.
+ await go('djohandrai');await page.screenshot({path:'/tmp/codex-character-summary-mobile.png',fullPage:true});await page.locator('.character-brief').screenshot({path:'/tmp/codex-brief-mobile.png'});
  // A cold mobile bookmark must remain below the sticky header after late fonts load.
  const cold=await browser.newPage({viewport:{width:320,height:844},reducedMotion:'reduce'});cold.on('pageerror',e=>errors.push(e.message));
  await cold.route('https://auth.fenumion.com/**',r=>r.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));

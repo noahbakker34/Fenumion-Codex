@@ -3,7 +3,7 @@
   "title": "Gael Refugee Settlement",
   "category": "Places",
   "type": "Tower-area settlement history",
-  "dek": "Refugees sheltering near the Tower, where emergency food and housing lead to questions about permanent homes and consultation.",
+  "dek": "Meals at the Tower, walls around a tent camp, an argument over homes and a market, and three houses built: the changing work of making refuge in Gael.",
   "tags": [
     "Gael",
     "Refugees",
@@ -17,64 +17,284 @@
     "Name": "Descriptive history label; no formal town name established",
     "Early shelter": "Huts, shacks and occasional magical accommodation",
     "Longhouse": "Proposed; completion unestablished",
-    "Government": "Not established in this account"
+    "Government": "Not established in this account",
+    "Housing": "Lucido reports three completed refugee homes in the Months of Moirah and Nuru, Year 3; he says more are needed",
+    "Residents": "Successive refugee arrivals; no complete census or single unchanged cohort established"
   },
   "sources": [
     "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
-    "GAEL_RP.md · 24 February 2025 care and planning scene"
+    "GAEL_RP.md · 24 February 2025 care and planning scene",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343632880005550094",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343633351600373791",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343634475963121765",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343634654242275399",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343635528129712152",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343636023061647494",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343638094401765407",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343639017182330921",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343640000570462259",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343641587586039949",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343643791235616788",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343659180933910539",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343660314507350118",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343673523180404846",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343673737509339161",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343674231837163655",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343674336623591464",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343674955501535232",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343675777547501618",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343676237901598730",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343677386725789797",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343636753940090930",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343637012007223419",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343651326160273460",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343651706126467124",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343652470186049651",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343653401363484733",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343653933742030999",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343654460068728875",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343685439105667173",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343686394169528390",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343686514437001338",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343686610599940273",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343647015749423189",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343647391672307754",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343648339161518213",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343650600931561522",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343684202641494107",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1343684483987275879",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1365772324627812435",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1365779255820025857",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1455712678583599135",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1455704511028002928",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1455735004314472480",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1460470406489182231",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1488387819473997835",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500358654614835323",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500359924180324372",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500361043627479233",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500362921815969822",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500364291688103977",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500372697069387917",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1500376066005663775",
+    "https://discord.com/channels/1177270231513694249/1250445552424980590/1535775077486829579",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1547053423298482257"
   ],
-  "body": "<p>The refugees associated with the shipwreck near <a href=\"#crustacean-cove\">Crustacean Cove</a> live around the <a href=\"#tower-of-gael\">Tower of Gael</a> in the recovered February 2025 scene. Huts, shacks and occasional magical accommodation meet immediate needs without establishing a permanent town plan. The surviving account does not establish a formal town name for the community.</p><h2 id=\"refugees-food\">Care requires equipment as well as intention</h2><p><a href=\"#gartina\">Gartina</a> worries that people feel forgotten and prepares chicken noodle soup with <a href=\"#dale\">Dale</a>. When they realize serving equipment is missing, he goes to the Altar and requests four hundred gold pieces’ worth of bowls and utensils, brings them back and hands out spoons as she portions the soup.</p><p>The post records equipment valued at that amount and the action of obtaining it. It does not independently establish a shop purchase or a separate cash payment. Feeding people involves tools, serving and sustained attention as well as food.</p><h2 id=\"refugees-planning\">From emergency shelter to consultation</h2><p>Dale proposes using the wreck’s timber for a longhouse if the ship cannot be repaired. Gartina considers possible materials from Draygar or scouting stone and metal on the Plains. These are possibilities, not completed procurement or construction.</p><p>Dale then asks whether anyone has spoken with the refugees about leadership and settlement plans. Gartina says she has been focused on immediate help and has not had the chance to visit properly. The exchange recognizes that consultation is needed; it does not provide the refugees’ consent, elected leaders or a finished agreement.</p><h2 id=\"refugees-existing-restoration\">Life after victory remains work</h2><p>Wrath’s defeat has not cleared every danger from Gael. The conversation still treats fiendish stragglers as a problem, while Hope, Stake and the new Shadowangel Forest already exist. Later restoration must be read as building on that earlier living foothold.</p><p>The community’s subsequent housing, leadership and longhouse outcome remain open. Existing histories of the Tower and Gael preserve later development without making Dale or Gartina its rulers or moving the settlement to the Cove.</p>",
+  "body": "<p>Around the <a href=\"#tower-of-gael\">Tower of Gael</a>, refugees wait for the things a victory cannot provide by itself: a meal, a safe night and a home. The early shipwreck survivors associated with <a href=\"#crustacean-cove\">Crustacean Cove</a> are part of this history. Later arrivals bring renewed needs. “Gael Refugee Settlement” describes that changing Tower-area community; it is not an established formal town name.</p><h2 id=\"refugees-food\">A meal at the foot of the Tower</h2><p>On 24, Month of Aionia, Year 2, <a href=\"#dale\">Dale</a> comes down to the foot of the <a href=\"#tower-of-gael\">Tower</a> and asks how the refugees are holding up. <a href=\"#gartina\">Gartina</a> puts him to work on carrots and onions while she prepares chicken noodle soup. In her account, people are tired of huts, shacks and occasional magical accommodation, and Scribonia’s absence has made that last comfort less dependable. She wants the meal to remind them they have not been forgotten.</p><p>Their own friends are scattered. Dale misses Elenia’s hooves on the Tower’s stone; Gartina admits she does not know where everyone has gone. Yet she cannot imagine leaving immediately with so many people still needing help. The soup gives that choice a practical shape: chicken, vegetables, noodles, and someone there to serve them.</p><p>At the last moment Gartina realizes she has no bowls or utensils ready. Dale goes to the Altar, asks for four hundred gold pieces’ worth of serving equipment and returns with it in his bag. The scene values the equipment at that amount; it does not show a cash purchase. Gartina fills bowls while he hands out spoons, making an ordinary task funny enough to make her laugh.</p><h2 id=\"refugees-planning\">Whose settlement will it be?</h2><p>Dale sees the need for something that will last longer than temporary shelter. If the wreck near <a href=\"#crustacean-cove\">Crustacean Cove</a> cannot be repaired, he suggests salvaging its timber for a longhouse. Gartina thinks Draygar may have materials, or that she could search the Plains for stone and metal. Neither proposal is a finished building.</p><p>Dale then asks a question the plans have run ahead of: has anyone talked properly with the refugees, and do they have someone in charge? Gartina says she has been concentrating on immediate help rather than visiting with them. Dale goes to ask what they think about using the wreck. The recovered exchange ends without their reply. It therefore records an attempt to consult them, not their consent to a plan.</p><p>They imagine a circus, a tavern and someone trained to cook. Gartina knows the time a proper apprenticeship would take and still feels a duty to the Vanguard’s wider fight. Their hopes for community and their wish to return to the campaign pull on the same limited hours.</p><h2 id=\"refugees-existing-restoration\">After Wrath, a place to stay</h2><p>Wrath’s defeat has not made every road safe. Dale wants to hunt the remaining fiends but will no longer go alone. Gartina wants the refugees to have enough peace to settle. Hope, Stake and the new Shadowangel Forest are already alive in this conversation; later rebuilding begins with that foothold rather than creating Gael’s first life from nothing.</p><p>After lunch they clean the equipment and carry it back inside. Dale goes to talk about salvage; Gartina returns to the Tower. The scene leaves the community with food and attention for that day, alongside a housing problem that neither good intention nor one victory has solved.</p><h2 id=\"refugees-walls\">Walls around a tent camp</h2><p>By 26, Month of Namo’o, Year 2, <a href=\"#alyhotep-bin-baladin\">Alyhotep</a> tells Loistava he has been working with Wren and Arjahn to design and fortify a small settlement. He describes days spent making walls around the tent camp. The work recalls Pristinia for both of them. To him, protecting these refugees offers some redemption for people they lost.</p><p>This is his account of ongoing building, not proof that every planned wall is finished or that he governs those inside it. Later he remembers their first defenses as primitive spiked berms and ramparts, and welcomes improvements. The Tower’s shelter is acquiring an edge that can be defended, while its residents still need more than a boundary.</p><h2 id=\"refugees-new-arrivals\">The work begins again</h2><p>Toward the end of Year 2, the work again includes tents, food and bringing people to safety. Alyhotep asks Loistava to bring her cauldron and says he has tents to deliver. He helps refugees onto a cart and offers food. In the following Month of Talan he speaks of more tents and more people to bring into the fold.</p><p>On 31, Month of War, Year 3, he tells her that much was built before Erebus came and that there is now more to do: supplies, tents, food and provisions for newcomers. These successive scenes should not turn every arrival into one unchanged group of wreck survivors. They show a community around the Tower repeatedly asked to make room for people who have lost somewhere else to live.</p><h2 id=\"refugees-market-and-homes\">A market for people without homes</h2><p>On 3, Month of Physisia, Year 3, <a href=\"#lucido\">Lucido</a> looks at the market under construction and objects. He estimates that roughly five dozen people need homes. Who will buy from the stalls, he asks, when the people outside have nothing? To him, building for the adventurers while refugees sleep on the ground sends the wrong message about whose comfort matters.</p><p><a href=\"#farkur\">Farkur</a> sees a different path to the same goal. He describes fishing work, plans to repair a vessel, preserved catches and earnings that could support a local economy. He says he and Ryvyt have asked for advice but seen few plans, and offers materials for the first refugee house as well as a commission for Lucido to build it. That is his account of the consultation and his offer; the refugees do not collectively answer here.</p><p>Lucido does not reject work or trade. He wants the order changed. Pay the refugees to build their own homes first, he argues; their shipboard experience may have given them useful skills. Wages would also give them money to spend in the market. He says he can fund labor on two houses if materials are supplied, but does not yet know how to pay for all the rest.</p><p>The argument leaves two concrete approaches visible. Farkur wants work and circulation to finance settlement. Lucido wants secure homes to make that work possible in the first place. They can offer each other materials and labor without the scene establishing that every disagreement, shortage or resident’s preference has been resolved.</p><h2 id=\"refugees-three-homes\">Three homes, and more still needed</h2><p>On 8, Month of Moirah, Year 3, Lucido says he is up to three houses for the refugees. On 9, Month of Nuru, he repeats that he has built three. Both times he calls it a start and says it is nowhere near enough. The later account therefore moves beyond the first longhouse proposal: there is a named builder reporting completed homes, alongside his recognition that the housing need remains.</p><p>The record does not supply a formal town name, a complete roll of residents or an established government. Dale’s proposed salvage longhouse remains unconfirmed. The homes Lucido reports should not be silently relabeled as that earlier project. What can be followed is a settlement growing through meals, temporary shelter, defenses, new arrivals, disputed priorities and houses that still do not shelter everyone. <a href=\"#gael\">Explore Gael’s wider history →</a></p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
     {
       "id": "refugees-food",
-      "title": "Care requires equipment as well as intention",
+      "title": "A meal at the foot of the Tower",
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Reviewed history · claims attributed",
-        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
-        "scope": "article",
+        "label": "Observed scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Observed care and conversation establish the actions; plans, estimates and later construction reports retain their speakers. No formal town name, complete census, refugee consent or completed longhouse is inferred.",
         "sources": [
-          "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
-          "GAEL_RP.md · 24 February 2025 care and planning scene"
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343632880005550094",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343633351600373791",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343634475963121765",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343634654242275399",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343635528129712152",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343636023061647494",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343638094401765407",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343639017182330921",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343640000570462259",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343641587586039949",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343643791235616788",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343659180933910539",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343660314507350118",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343673523180404846",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343673737509339161",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343674231837163655",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343674336623591464",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343674955501535232",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343675777547501618",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343676237901598730",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343677386725789797"
         ]
       }
     },
     {
       "id": "refugees-planning",
-      "title": "From emergency shelter to consultation",
+      "title": "Whose settlement will it be?",
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Reviewed history · claims attributed",
-        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
-        "scope": "article",
+        "label": "Observed scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Observed care and conversation establish the actions; plans, estimates and later construction reports retain their speakers. No formal town name, complete census, refugee consent or completed longhouse is inferred.",
         "sources": [
-          "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
-          "GAEL_RP.md · 24 February 2025 care and planning scene"
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343635528129712152",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343636023061647494",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343636753940090930",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343637012007223419",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343651326160273460",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343651706126467124",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343652470186049651",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343653401363484733",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343653933742030999",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343654460068728875",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343685439105667173",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343686394169528390",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343686514437001338",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343686610599940273"
         ]
       }
     },
     {
       "id": "refugees-existing-restoration",
-      "title": "Life after victory remains work",
+      "title": "After Wrath, a place to stay",
       "chapter": "History & consequences",
       "evidence": {
         "kind": "mixed",
-        "label": "Reviewed history · claims attributed",
-        "summary": "Preserved from the previously reviewed rift and location histories. Quest outcomes and explicit canon take precedence; observations, proposals and attributed claims retain their stated limits. Dates identify source postings unless explicitly confirmed otherwise.",
-        "scope": "article",
+        "label": "Observed scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Observed care and conversation establish the actions; plans, estimates and later construction reports retain their speakers. No formal town name, complete census, refugee consent or completed longhouse is inferred.",
         "sources": [
-          "Crustacean_Cove_and_Gael_Refugee_Settlement_Deep_Dossier.md · supplied synthesis",
-          "GAEL_RP.md · 24 February 2025 care and planning scene"
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343643791235616788",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343647015749423189",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343647391672307754",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343648339161518213",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343650600931561522",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343684202641494107",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343684483987275879",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343685439105667173",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343686394169528390",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343686514437001338",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1343686610599940273"
+        ]
+      }
+    },
+    {
+      "id": "refugees-walls",
+      "title": "Walls around a tent camp",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Observed care and conversation establish the actions; plans, estimates and later construction reports retain their speakers. No formal town name, complete census, refugee consent or completed longhouse is inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1365772324627812435",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1365779255820025857",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1455712678583599135"
+        ]
+      }
+    },
+    {
+      "id": "refugees-new-arrivals",
+      "title": "The work begins again",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Observed care and conversation establish the actions; plans, estimates and later construction reports retain their speakers. No formal town name, complete census, refugee consent or completed longhouse is inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1455704511028002928",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1455735004314472480",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1460470406489182231",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1488387819473997835"
+        ]
+      }
+    },
+    {
+      "id": "refugees-market-and-homes",
+      "title": "A market for people without homes",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Observed care and conversation establish the actions; plans, estimates and later construction reports retain their speakers. No formal town name, complete census, refugee consent or completed longhouse is inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1500358654614835323",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1500359924180324372",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1500361043627479233",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1500362921815969822",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1500364291688103977",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1500372697069387917",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1500376066005663775"
+        ]
+      }
+    },
+    {
+      "id": "refugees-three-homes",
+      "title": "Three homes, and more still needed",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "scope": "section",
+        "summary": "Observed care and conversation establish the actions; plans, estimates and later construction reports retain their speakers. No formal town name, complete census, refugee consent or completed longhouse is inferred.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250445552424980590/1535775077486829579",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1547053423298482257"
         ]
       }
     }
   ],
   "sourceReview": {
-    "latestReview": "2026-10-18",
-    "scope": "Merged the reviewed upstream rift/location work from 9e466d4 into canonical records. Newer explicit Aria/Bowene decisions and recovered death scenes retain priority. Raw evidence remains external."
-  }
+    "latestReview": "2026-11-03",
+    "scope": "Selected native Tower and Plains messages. Soup-day text and later building/report anchors are checked directly; no exhaustive arrival roll, unseen residents’ agreement, complete fortification or longhouse outcome is claimed. See pristinia-war-refugees-review-2026-11-03.json."
+  },
+  "biography": {
+    "chapters": [
+      {
+        "id": "settlement-refugees-food",
+        "title": "A meal at the foot of the Tower",
+        "sections": [
+          "refugees-food"
+        ]
+      },
+      {
+        "id": "settlement-refugees-planning",
+        "title": "Whose settlement will it be?",
+        "sections": [
+          "refugees-planning"
+        ]
+      },
+      {
+        "id": "settlement-refugees-existing-restoration",
+        "title": "After Wrath, a place to stay",
+        "sections": [
+          "refugees-existing-restoration"
+        ]
+      },
+      {
+        "id": "settlement-refugees-walls",
+        "title": "Walls around a tent camp",
+        "sections": [
+          "refugees-walls"
+        ]
+      },
+      {
+        "id": "settlement-refugees-new-arrivals",
+        "title": "The work begins again",
+        "sections": [
+          "refugees-new-arrivals"
+        ]
+      },
+      {
+        "id": "settlement-refugees-market-and-homes",
+        "title": "A market for people without homes",
+        "sections": [
+          "refugees-market-and-homes"
+        ]
+      },
+      {
+        "id": "settlement-refugees-three-homes",
+        "title": "Three homes, and more still needed",
+        "sections": [
+          "refugees-three-homes"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "readingLayout": "biography"
 }

@@ -108,11 +108,61 @@
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1564848836357263383",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1564851048470806612",
     "https://discord.com/channels/1177270231513694249/1199083630354501673/1564852567224230030",
-    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564853128648597615"
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1564853128648597615",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377741606345769081",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377743237258940538",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377743895869259922",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377746387948671109",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377748793168236705",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377748857873764395",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377749690186993835",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377749959327350864",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377750358188884049",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377750910330998955",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377754048450658436",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377755117755043981",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377755234201370626",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1377769331374686319",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380213378869628993",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380213925311942839",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380215337261203596",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380217521227169795",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380218047079383141",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380219309271548005",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380223127308603554",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380223969734430801",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380223981633667275",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380231183790772429",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380232542573039708",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380232850150002708",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380232927962468422",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380233105713135657",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380239093145014332",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380239252620840970",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380239853945491517",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380240601605341264",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380241644615504014",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380245431300133047",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380246238099669106",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380246420136656896"
   ],
   "readingLayout": "biography",
   "biography": {
     "chapters": [
+      {
+        "id": "oya-history-siege",
+        "title": "The people beneath the fighting",
+        "sections": [
+          "oya-pristinia-siege"
+        ]
+      },
+      {
+        "id": "oya-history-investigation",
+        "title": "Herb’s death and her brother’s name",
+        "sections": [
+          "oya-herb-and-olokun"
+        ]
+      },
       {
         "id": "oya-history-hope",
         "title": "The diamond she spends on a tree",
@@ -161,8 +211,70 @@
   "image": "assets/characters/oya.jpg",
   "imageAlt": "Oya with blue skin and hair, a pale pointed hat and a blue staff",
   "imageCaption": "Oya",
-  "body": "<p>Oya is an adventurer whose work in Gael includes trying to heal Hope, helping refugees and protecting the people beside her. Olokun is her brother. Nymera is a close companion. Their concern for her meets someone with her own judgment, grief, faith and sense of humor.</p>\n<h2 id=\"oya-hope\">The diamond she spends on a tree</h2><p>Oya joins Lucido when word of Hope’s death reaches the Tower. They do not know who attacked it. She recalls Elenia saying the tree was protected and searches her notes for a spell that might help. At the broken trunk, she tries even though the healing she knows was meant for a creature.</p><p>When it fails, she takes out a diamond she had been saving for another adventurer. She prays to Namo’o and Nuru and casts Revivify. A few leaves briefly regain color before withering again. Oya’s hope rises and collapses with them. Lucido consoles her; she blames her own weakness. Her self-judgment is part of the loss, not proof that saving the tree was within her power.</p><p>She does not let failure be the last thing she learns. Her next examination finds the hallowed ground no different from ordinary soil. She and Lucido begin asking what this change will mean for people who still need shelter. <a href=\"#withering-of-hope?section=hope-revival-flicker\">Read the attempt and the aftermath →</a></p>\n<h2 id=\"oya-stake\">Something living to defend</h2><p>The approaching forest steward frightens her at first. She grips her staff and warns him away from Hope while Lucido moves to shield her. Skiatholos explains that he too is losing strength and that the healthy forest depends on Stake, the other tree.</p><p>Oya immediately wants to check it. Finding it alive gives her relief and a responsibility she can act on. Later she sends Elenia a message, builds a small memorial for Hope and invites Nymera to help by praying. The altar preserves thanks for what has been lost while the women discuss gathering materials and searching for refugees.</p><p>When Nymera asks who to address, Oya names the gods to whom she herself prays, including Istishia. She does not require Nymera to use the same words. Together they decide to keep watch at Stake. Her care moves between a failed healing, practical help and companionship; none requires pretending Hope has already been restored.</p>\n<h2 id=\"oya-brother\">The sister who will not give him the first hug</h2><p>At the later Tower gathering, Olokun opens his arms for her. Oya pushes past him to embrace Nymera and calls him a dork. His theatrical complaint about his own blood rejecting him earns a quick hug and her explanation that she was joking. The exchange reassures him, but it does not stop him looking carefully at her hands, feet and movements.</p><p>She is shaken by the argument over speaking with the gods. Her narration shows no visible sign of what troubles him; his arm around her shoulders is witnessed care, not a diagnosis. She remains a person in the room, responding to the discussion, rather than confirmation that the earlier mist vision was real.</p>\n<h2 id=\"oya-nymera\">A farewell with teasing still in it</h2><p>Nymera says she missed Oya, looks for signs she has been hurt and combs her hair while the others talk. Before returning to Babel she gives Oya money she cannot use there and promises to keep trying to make the world better for her. Their closeness gives the campaign a person to come home to.</p><p>Olokun asks his sister to remain in Gael and protect the land, then trips her during a hug. She tries to kick him, calls him foolish and gives Arjahn a quick drawing of a fish that frightens her brother. Their parting contains trust and irritation at once. Oya’s family role is not exhausted by being someone Olokun worries about; she can answer him back and make the others laugh.</p>\n<h2 id=\"oya-hana\">Protecting the friend who goes first</h2><p>On the return to Hana’s tower, Oya acts when a Tik throws a dagger at Ryvyt. She moves in, strikes it and stuns it. When its ticking finally stops and it falls, she hopes she has avoided killing it, even while recognizing that it looks constructed.</p><p>She suggests knocking at the half-open door and enters carefully, watching the rear while Ryvyt insists on going first. Inside, Hana appears monstrous. Oya begins forming a storm, then finds herself suspended with Pelegia in a psychic grasp. Saelihn warps them back to the ground and the hold breaks.</p><p>Ryvyt offers to make her faster. She accepts but tells him she is not in good enough shape to keep attacking for a while. The person who protected him at the entrance now has to accept protection and admit a limit. The quest’s larger account carries the confrontation onward; these scenes do not reveal the nature of Hana’s claimed mother or make Oya immune to the next danger. <a href=\"#return-to-hanas-tower\">Read the return to Hana’s tower →</a></p>\n<h2 id=\"oya-open-history\">The work that remains hers</h2><p>Across the selected scenes, Oya tries what she knows, asks for help and changes the task when healing cannot undo a loss. Hope’s failed revival leads to warning, remembrance and a watch. At the Tower, family affection survives concern. At Hana’s tower, defending a companion leaves her needing help herself.</p><p>Her earlier arrival and full history remain outside this selected account. So does a completed restoration of Hope. What is witnessed is a recurring commitment to the people and places within reach, carried by someone who can be frightened, playful, disappointed and useful in the same life.</p>",
+  "body": "<p>Oya is an adventurer whose work in Gael includes trying to heal Hope, helping refugees and protecting the people beside her. Olokun is her brother. Nymera is a close companion. Their concern for her meets someone with her own judgment, grief, faith and sense of humor.</p>\n<h2 id=\"oya-pristinia-siege\">The people beneath the fighting</h2><p>In Pristinia on 29, Month of Physisia, Year 2, Oya is horrified by the bombardment. Homes are burning while the adventurers debate how to stop the engines. Beneath them, townspeople are already digging and bracing shelter for the injured and for families who cannot simply leave.</p><p>When armed preparations gather near that refuge, Oya asks Aravil to move them elsewhere. The attack may be necessary, but its preparations could make the civilians a target. She later joins Brianna’s journey over the walls in mist. Once the raid turns into an alarm and retreat, she casts a magical screen for Pappy and urges him to withdraw. The sortie still ends in several deaths. Her presence belongs to a failed attempt whose cost the later victory does not erase. <a href=\"#war-for-pristinia?section=mist-beyond-the-walls\">Read the sortie beyond Pristinia’s walls →</a></p><h2 id=\"oya-herb-and-olokun\">Herb’s death and her brother’s name</h2><p>At the investigation of Melian’s disappearance, backdated by its narrator to 4, Month of Rebirth, Oya finds Herb among the dead. She remembers the man who made sandwiches. Praying for his soul, she tries to understand why this death hurts differently from the warriors’ farewells she has known. Later she wonders whether the adventurers themselves are bringing danger to the town, and whether surrender would end it.</p><p>She does not stop examining the scene. She senses recent magic, studies the disturbed house and comes to believe that Melian was taken alive. When certainty fails her, she asks whether someone can speak to the dead. The scene leaves that question without a completed answer.</p><p>The search then threatens to turn her brother’s former Rahu connection into a verdict on his character. Oya is alarmed by what she hears, but angrily demands proof that Olokun would harm Pristinia. He practically raised her after their father died, she says. The testimony does not settle every fact of his past. It explains why the accusation reaches somewhere deeper than an argument over factions: the man under suspicion is part of how she survived her own loss. <a href=\"#war-for-pristinia?section=an-oath-under-suspicion\">Read the investigation’s divided loyalties →</a></p><h2 id=\"oya-hope\">The diamond she spends on a tree</h2><p>Oya joins Lucido when word of Hope’s death reaches the Tower. They do not know who attacked it. She recalls Elenia saying the tree was protected and searches her notes for a spell that might help. At the broken trunk, she tries even though the healing she knows was meant for a creature.</p><p>When it fails, she takes out a diamond she had been saving for another adventurer. She prays to Namo’o and Nuru and casts Revivify. A few leaves briefly regain color before withering again. Oya’s hope rises and collapses with them. Lucido consoles her; she blames her own weakness. Her self-judgment is part of the loss, not proof that saving the tree was within her power.</p><p>She does not let failure be the last thing she learns. Her next examination finds the hallowed ground no different from ordinary soil. She and Lucido begin asking what this change will mean for people who still need shelter. <a href=\"#withering-of-hope?section=hope-revival-flicker\">Read the attempt and the aftermath →</a></p>\n<h2 id=\"oya-stake\">Something living to defend</h2><p>The approaching forest steward frightens her at first. She grips her staff and warns him away from Hope while Lucido moves to shield her. Skiatholos explains that he too is losing strength and that the healthy forest depends on Stake, the other tree.</p><p>Oya immediately wants to check it. Finding it alive gives her relief and a responsibility she can act on. Later she sends Elenia a message, builds a small memorial for Hope and invites Nymera to help by praying. The altar preserves thanks for what has been lost while the women discuss gathering materials and searching for refugees.</p><p>When Nymera asks who to address, Oya names the gods to whom she herself prays, including Istishia. She does not require Nymera to use the same words. Together they decide to keep watch at Stake. Her care moves between a failed healing, practical help and companionship; none requires pretending Hope has already been restored.</p>\n<h2 id=\"oya-brother\">The sister who will not give him the first hug</h2><p>At the later Tower gathering, Olokun opens his arms for her. Oya pushes past him to embrace Nymera and calls him a dork. His theatrical complaint about his own blood rejecting him earns a quick hug and her explanation that she was joking. The exchange reassures him, but it does not stop him looking carefully at her hands, feet and movements.</p><p>She is shaken by the argument over speaking with the gods. Her narration shows no visible sign of what troubles him; his arm around her shoulders is witnessed care, not a diagnosis. She remains a person in the room, responding to the discussion, rather than confirmation that the earlier mist vision was real.</p>\n<h2 id=\"oya-nymera\">A farewell with teasing still in it</h2><p>Nymera says she missed Oya, looks for signs she has been hurt and combs her hair while the others talk. Before returning to Babel she gives Oya money she cannot use there and promises to keep trying to make the world better for her. Their closeness gives the campaign a person to come home to.</p><p>Olokun asks his sister to remain in Gael and protect the land, then trips her during a hug. She tries to kick him, calls him foolish and gives Arjahn a quick drawing of a fish that frightens her brother. Their parting contains trust and irritation at once. Oya’s family role is not exhausted by being someone Olokun worries about; she can answer him back and make the others laugh.</p>\n<h2 id=\"oya-hana\">Protecting the friend who goes first</h2><p>On the return to Hana’s tower, Oya acts when a Tik throws a dagger at Ryvyt. She moves in, strikes it and stuns it. When its ticking finally stops and it falls, she hopes she has avoided killing it, even while recognizing that it looks constructed.</p><p>She suggests knocking at the half-open door and enters carefully, watching the rear while Ryvyt insists on going first. Inside, Hana appears monstrous. Oya begins forming a storm, then finds herself suspended with Pelegia in a psychic grasp. Saelihn warps them back to the ground and the hold breaks.</p><p>Ryvyt offers to make her faster. She accepts but tells him she is not in good enough shape to keep attacking for a while. The person who protected him at the entrance now has to accept protection and admit a limit. The quest’s larger account carries the confrontation onward; these scenes do not reveal the nature of Hana’s claimed mother or make Oya immune to the next danger. <a href=\"#return-to-hanas-tower\">Read the return to Hana’s tower →</a></p>\n<h2 id=\"oya-open-history\">The work that remains hers</h2><p>Across the selected scenes, Oya tries what she knows, asks for help and changes the task when healing cannot undo a loss. Hope’s failed revival leads to warning, remembrance and a watch. At the Tower, family affection survives concern. At Hana’s tower, defending a companion leaves her needing help herself.</p><p>Her earlier arrival and full history remain outside this selected account. So does a completed restoration of Hope. What is witnessed is a recurring commitment to the people and places within reach, carried by someone who can be frightened, playful, disappointed and useful in the same life.</p>",
   "sections": [
+    {
+      "id": "oya-pristinia-siege",
+      "title": "The people beneath the fighting",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest actions & attributed accounts",
+        "scope": "section",
+        "summary": "Quest narration and actions establish the sequence; suspicions, intentions and personal explanations retain their speakers. The selected text does not reconstruct unseen combat rolls or attachments.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377741606345769081",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377743237258940538",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377743895869259922",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377746387948671109",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377748793168236705",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377748857873764395",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377749690186993835",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377749959327350864",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377750358188884049",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377750910330998955",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377754048450658436",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377755117755043981",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377755234201370626",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1377769331374686319"
+        ]
+      }
+    },
+    {
+      "id": "oya-herb-and-olokun",
+      "title": "Herb’s death and her brother’s name",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest actions & attributed accounts",
+        "scope": "section",
+        "summary": "Quest narration and actions establish the sequence; suspicions, intentions and personal explanations retain their speakers. The selected text does not reconstruct unseen combat rolls or attachments.",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380213378869628993",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380213925311942839",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380215337261203596",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380217521227169795",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380218047079383141",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380219309271548005",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380223127308603554",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380223969734430801",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380223981633667275",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380231183790772429",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380232542573039708",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380232850150002708",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380232927962468422",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380233105713135657",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380239093145014332",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380239252620840970",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380239853945491517",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380240601605341264",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380241644615504014",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380245431300133047",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380246238099669106",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380246420136656896"
+        ]
+      }
+    },
     {
       "id": "oya-hope",
       "title": "The diamond she spends on a tree",
@@ -333,6 +445,6 @@
   ],
   "sourceReview": {
     "latestReview": "2026-11-03",
-    "scope": "Selected original quest-export and native Gael/Tower scenes. Source versions, bounded reading windows and specific limits are recorded in hope-veilguard-stories-review-2026-11-03.json. Earlier retained passages retain their prior review scope. No exhaustive archive, attachment or inaccessible-thread reconstruction."
+    "scope": "Selected original quest-export and native Gael/Tower scenes. Source versions, bounded reading windows and specific limits are recorded in hope-veilguard-stories-review-2026-11-03.json. Earlier retained passages retain their prior review scope. No exhaustive archive, attachment or inaccessible-thread reconstruction. Earlier Pristinia siege and house-investigation scenes are added under pristinia-war-refugees-review-2026-11-03.json; older chapters retain their prior scope."
   }
 }

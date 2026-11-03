@@ -1,0 +1,29 @@
+# Pristinia’s war and Gael’s refugee settlement
+
+The owner asks to continue filling important gaps. This batch expands three existing destinations rather than creating more records: the Rahu war, the community around Gael’s Tower and Oya’s earlier wartime life.
+
+## Reading changes
+
+**The War for Pristinia** grows from 643 to 2,969 words in fourteen continuous chapters. The story follows Magnus’s attempts to gain access to Sophina’s business and his consequential warning, the bridge defense and its divided adventurers, the bombardment’s civilian work, Brianna’s mist journey beyond the walls, Sajhan’s burning tower and the failed retreat, the investigation of Melian’s disappearance, Lucido’s renunciation and the later assault on the remaining engines. Elenia’s earthquake, Eli’s final ballista work, the argument over preserving Magnus for trial and the pyre remain separate actions with different consequences.
+
+Sajhan, Anemone and Pappy’s explicit deaths remain visible. Carmen’s collapse is not made a confirmed death, and Brianna’s evacuation is described without inventing a precise return mechanism. Magnus’s witnessed fall and return remain unexplained by the selected bridge text. A suspect’s burns, disappearing tracks and gas bottle do not give the investigators knowledge of the entire abduction. Oya’s family testimony explains her defense of Olokun without proving everything about his past.
+
+The 11, Month of Rebirth assault explicitly recalls an earlier siege-breaking victory. It cannot safely supply the missing exact date of Elenia’s first intervention. All existing timeline dates therefore remain. The story distinguishes that earlier reprieve from the later destruction of remaining machines. A separate ambiguity in the old campaign overview is corrected: the narrator backdates the investigation itself to 4, Month of Rebirth, soon after discovery; the narration does not insert another day before the search. Eli’s stated reason for destroying Magnus’s head does not become an objective law preventing resurrection. Elenia’s later prayer and attempted divine appeal are not the cause of the earlier earthquake.
+
+**Gael Refugee Settlement** grows from 318 to 1,200 words in seven continuous location chapters. Gartina and Dale’s soup, missing serving equipment, salvage proposal and attempt at consultation lead into Alyhotep’s walls and continuing relief, renewed arrivals, and Lucido and Farkur’s argument over housing and a market. Farkur’s work/trade plan remains alongside Lucido’s housing-first case. Lucido reports three completed homes later, and says they are insufficient.
+
+The page does not invent a formal town name, government, complete census, collective consent, finished longhouse or single unchanged population across successive arrivals. Three reported homes do not become Dale’s earlier proposed longhouse. Equipment valued at four hundred gold pieces does not become a witnessed cash purchase. The community remains around the Tower; the Cove remains the wreck’s location.
+
+**Oya** grows from 908 to 1,251 words, with two earlier chapters added before her six retained chapters. Her concern for civilians beneath the fighting, screening Pappy during retreat, grief for Herb, investigation and defense of her brother give the later Gael caretaker a longer personal history. All prior prose, section destinations, portrait, player identity and source objects survive. No new person is added.
+
+Seven short links across existing pages join these histories to the walls, campaign overview, Elenia, Brianna, Lucido, Alyhotep and the Tower. Context prose and metadata survive apart from the explicit backdating clarification. No repeated story is pasted into another profile.
+
+## Evidence and preservation
+
+`content/reference/pristinia-war-refugees-review-2026-11-03.json` contains 384 source receipts: 329 original quest-export versions and 55 native API-cache versions. Their original timestamps and content hashes match the read-only corpora. Text reading is bounded: the bridge and failed-sortie windows, the backdated investigation, selected information exchange and two stated portions of the later engine assault. The intervening interrogation/travel text, discovery results and combat attachments are not claimed as fully reviewed. The soup-day text and seventeen later refugee anchors are read directly. Earlier public accounts of Melian’s defense/release and the first siege-breaking reputation retain their prior qualifications and mixed evidence labels.
+
+Protected ritual, implant, embassy-weakness and private procedure material remains excluded. No raw transcripts, controller identities, real-world songs, unviewed media or unsupported outcomes enter the site or Git.
+
+All 392 timeline objects, dates, importance levels and regions remain exact. The 269-person roster, maps, quotes, original media, 261 image previews and complete private payload remain. Catalog 309 has 655 records, 606 complete bodies and 2,939 sections. There are still 367 public events, 42 stories and 39 library entries. App 273 and reader 15 remain unchanged. The existing biography gate covers the seven-chapter location and Oya’s eight chapters; no runtime, style, dependency or workflow stage is added.
+
+Static, source-version, preservation, calendar, portrait and protected-asset checks pass. The existing ordinary-reader regression passes. Focused Chrome checks pass: three complete pages/90 paragraphs, all 29 bookmarks and reload/focus, six fresh 390/320px layouts with header clearance, nine widths and twenty-three actual timeline/directory/context reading journeys. Sources, facts, original portrait, full-text search, named-calendar display and protected boundaries pass without script or public HTTP errors. Representative desktop/mobile screenshots are inspected. Publication receipt follows.

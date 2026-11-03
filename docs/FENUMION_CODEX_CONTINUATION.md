@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-03
 
+## Pristinia’s war and Gael’s refugees · 3 November 2026
+
+The owner asks to continue important gaps. The war story grows 643→2,969 words/fourteen chapters, the refugee settlement 318→1,200/seven and Oya 908→1,251/eight. Bridge choices, civilian relief, the failed mist sortie and its deaths, Melian’s investigation, the later engine assault and divided mercy become a continuous war history. The settlement follows meals, walls, repeated arrivals, housing priorities and three reported homes. Details: PRISTINIA_WAR_AND_GAEL_REFUGEES_2026_11_03.md and pristinia-war-refugees-review-2026-11-03.json.
+
+All 384 cited original/native versions match. Earlier siege-breaking and the later 11 Rebirth assault remain distinct; the first exact date stays unresolved. The investigation itself is backdated to 4 Rebirth; the campaign overview’s ambiguous extra-day paraphrase is corrected. Explicit deaths remain, returns stay unexplained where missing, trial intentions do not become a trial, and Eli’s stated aim does not establish a resurrection rule. Earlier public Melian defense/release material retains its prior scope. Three reported homes do not confirm a longhouse, government, census, refugee consent or unchanged cohort. Protected procedures, raw/controller/real-world-song material remain external.
+
+Ten existing records change, with seven short context links. All old destinations, earlier Oya prose, media/roles, 392 timeline objects/dates/ratings/regions, maps/quotes/261 previews and complete private payload survive. Catalog309 contains 655 records/606 bodies/2,939 sections; 269 people, 367 public events and 42 stories/39 library entries remain. App273/reader15 unchanged; no runtime/style/dependency/workflow stage. Static/source/preservation and ordinary-reader checks pass. Focused Chrome also passes: three complete pages/90 paragraphs, 29 bookmarks/reload/focus, six fresh mobile layouts/header clearance, nine widths and 23 actual reading journeys, source/fact/art/search/calendar/protected boundaries without script/public HTTP errors. Screenshots inspected; publication receipt follows.
+
 ## Hope’s loss, the Veilguard and Oya · 3 November 2026
 
 The owner asks to fill important gaps. Two existing event summaries become 3,411 words in nineteen continuous chapters, preserving all ten old destinations. Hope’s loss includes the next evening’s failed revival, investigation, forest steward, memorial and watch; the Veilguard’s founding includes contested training, peer nominations, Kasiri’s victory, an unfinished leadership decision and later practical organization. Oya’s existing player identity gains a 908-word/six-chapter personal page with her original portrait. Details: HOPE_VEILGUARD_STORIES_2026_11_03.md and hope-veilguard-stories-review-2026-11-03.json.

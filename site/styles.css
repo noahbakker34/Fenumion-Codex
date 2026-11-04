@@ -1705,9 +1705,7 @@ body.quotes-view .app-shell { box-shadow: none; }
   opacity: .58;
   filter: saturate(.78) contrast(1.08) brightness(.68);
 }
-body.quotes-view .topbar,
 body.quotes-view .app-shell { position: relative; z-index: 2; }
-body.quotes-view .topbar { position: sticky; }
 body.quotes-view .vault-fab { z-index: 95; }
 body.quotes-view .article-header {
   background:

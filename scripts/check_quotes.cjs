@@ -9,7 +9,21 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   page.on('pageerror',error=>errors.push(error.message));page.on('request',request=>{if(request.url().includes('/assets/voices/'))voiceRequests.push(request.url());});
   if(!process.env.CODEX_LIVE)await page.route('https://auth.fenumion.com/**',route=>route.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
   const go=async id=>{await page.goto(base+'#'+id);await page.locator('#quote-browser').waitFor();};
+  const checkHeader=async()=>{
+   await page.evaluate(()=>scrollTo(0,0));
+   const mobile=page.viewportSize().width<=760,control=page.locator(mobile?'#search-toggle':'#search');
+   assert(await control.evaluate(el=>{
+    const r=el.getBoundingClientRect(),backdrop=document.querySelector('.quotes-water-backdrop');
+    // A pointer-transparent decoration can hide a control while click tests still pass.
+    const previous=backdrop.style.pointerEvents;backdrop.style.pointerEvents='auto';
+    const above=document.elementFromPoint(r.left+r.width/2,r.top+r.height/2)?.closest('.topbar')===el.closest('.topbar');
+    backdrop.style.pointerEvents=previous;return above;
+   }),'Quotes background must not paint over header controls');
+   await control.click();await page.locator('#search').fill('Selwyn');await page.locator('.search-result').first().waitFor();await page.keyboard.press('Escape');
+   if(mobile){await page.locator('#menu-button').click();assert(await page.locator('#sidebar').evaluate(el=>el.classList.contains('open')));await page.locator('#menu-button').click();}
+  };
   await go('memorable-quotes');
+  await checkHeader();
   const records=await page.evaluate(()=>memorableQuoteRecords()),expected=records.map(record=>({id:record.quoteId,text:record.title,speaker:record.speaker}));
   assert.deepEqual(records,world.quotes,'loaded selection and deferred-search catalog agree');
   assert.equal(expected.length,review.legacy.length+review.selected.length);assert.equal(review.selected.length,15);
@@ -70,7 +84,7 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   assert.equal(await page.locator('.quote-voice-tools').count(),4,'rerendering does not duplicate players');
   await page.locator('[data-quote-reset]').click();await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:output+'/quotes-desktop.png'});
   for(const width of [390,320]){
-   await page.setViewportSize({width,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'quote collection fits '+width);
+   await page.setViewportSize({width,height:844});await checkHeader();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'quote collection fits '+width);
    for(const control of [query,speaker,voice,order])assert(await control.evaluate(el=>el.getBoundingClientRect().height>=44&&parseFloat(getComputedStyle(el).fontSize)>=16));
    await page.locator('#memorable-quote-1 .quote-open').click();await page.locator('#quote-dialog[open]').waitFor();assert(await page.locator('#quote-dialog').evaluate(el=>el.scrollWidth<=el.clientWidth),'quote detail fits '+width);
    await page.waitForFunction(()=>!document.querySelector('.quote-source-status').textContent.includes('Finding'));
@@ -95,6 +109,6 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',output=process.e
   assert.equal(await legacy.locator('.quote-browser-card').getAttribute('id'),'memorable-quote-0');
   await legacy.locator('.quote-open').click();assert.equal(await legacy.locator('.quote-detail-context').innerText(),'Synthetic legacy context remains attached to its own quotation.');await legacy.keyboard.press('Escape');
   await legacy.evaluate(()=>lockVault());assert.equal(await legacy.locator('.quote-browser-card').count(),records.length);assert(!(await legacy.locator('#quote-browser').innerText()).includes('Synthetic legacy'));await legacy.close();
-  assert.deepEqual(errors,[]);console.log('PASS 53 quotes/eight themes, all original words/speakers/anchors and new sourced voices; legacy ID-free contexts, single navigator and locked restoration; filters, date order, source limits, recording controls and mobile layout; Hellknights art and dates');
+  assert.deepEqual(errors,[]);console.log('PASS 53 quotes/eight themes, all original words/speakers/anchors and new sourced voices; legacy ID-free contexts, single navigator and locked restoration; header paint order and desktop/mobile search/menu, filters, date order, source limits, recording controls and mobile layout; Hellknights art and dates');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

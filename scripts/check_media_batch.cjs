@@ -32,6 +32,15 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',out=process.env.
    if(film.name==='djohandrai')await p.locator('.article-header').screenshot({path:out+'/djohandrai-mobile.png'});
    await p.setViewportSize({width:1440,height:1000});
   }
+  // A profile preview must not disconnect the underlying movie's viewport lifecycle.
+  await go(p,'olokun');
+  const portrait=p.locator('.chronicle-person-portrait video');await portrait.scrollIntoViewIfNeeded();
+  await p.waitForFunction(()=>{const v=document.querySelector('.chronicle-person-portrait video');return v&&!v.paused&&v.currentTime>.1;});
+  await p.evaluate(async()=>{const person=archiveIndex.npcs.find(person=>person.article==='melian-starguard');await CodexReader.load(byId.get(person.article));openCharacterRecord(person,'NPC');});
+  await p.locator('#record-dialog[open]').waitFor();await p.locator('#record-dialog-close').click();
+  await p.evaluate(()=>scrollTo(0,document.body.scrollHeight));
+  await p.waitForFunction(()=>{const v=document.querySelector('.chronicle-person-portrait video');return v?.paused&&v.getBoundingClientRect().bottom<0;});
+  await portrait.scrollIntoViewIfNeeded();await p.waitForFunction(()=>!document.querySelector('.chronicle-person-portrait video').paused);
   for(const [article,title,scene] of [['gael','Titan’s Watch','titans-watch'],['gael','Citadel of Sorrow','citadel-fortress'],['gael','Vysaeth’s Tomb','vysaeth-tomb'],['fein-uaill','Fein Uaill','fein-uaill']]){
    await go(p,article);assert.equal(await p.locator('.region-hub-intro .article-map-link').count(),1,'interactive regional map retained');
    await p.evaluate(t=>openLocationRecord(archiveIndex.islands.find(x=>x.title===t)),title);
@@ -40,7 +49,10 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',out=process.env.
    assert(await p.locator('#scene-'+scene).evaluate(el=>{for(let p=el.parentElement;p;p=p.parentElement)if(p.matches('details')&&!p.open)return false;return true;}),'destination reveals film');
    assert.equal(await p.locator('.region-history').getAttribute('open'),null,'film does not expand unrelated history');
   }
-  await p.locator('#scene-fein-uaill').screenshot({path:out+'/fein-uaill-film.png'});await p.close();
+  await p.locator('#scene-fein-uaill').screenshot({path:out+'/fein-uaill-film.png'});
+  await go(p,'memorable-quotes');
+  await p.waitForFunction(()=>{const v=document.querySelector('.quotes-water-backdrop video');return v?.readyState>=2&&!v.paused&&v.currentTime>.1;});
+  await p.close();
   for(const mode of ['reduce','saveData']){
    const q=await make({viewport:{width:390,height:844},reducedMotion:mode==='reduce'?'reduce':'no-preference'}),requests=[];
    if(mode==='saveData')await q.addInitScript(()=>Object.defineProperty(navigator,'connection',{value:{saveData:true,effectiveType:'4g'}}));
@@ -74,13 +86,22 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',out=process.env.
   for(const mode of ['reduce','saveData','slow2g']){
    const quiet=await make({reducedMotion:mode==='reduce'?'reduce':'no-preference'}),requests=[];
    if(mode!=='reduce')await quiet.addInitScript(mode=>Object.defineProperty(navigator,'connection',{value:{saveData:mode==='saveData',effectiveType:mode==='slow2g'?'2g':'4g'}}),mode);
-   quiet.on('request',r=>{if(backgrounds.media.some(f=>r.url().includes(f.video)))requests.push(r.url());});
+   quiet.on('request',r=>{if(/\.(mp4|m4v)(?:\?|$)/.test(r.url()))requests.push(r.url());});
    for(const film of backgrounds.media){
     const article=Object.keys(backgrounds.assignments).find(id=>backgrounds.assignments[id]===film.theme);await go(quiet,article);
     assert(await quiet.locator('.character-video-backdrop video').evaluate(v=>v.paused&&!v.querySelector('source').hasAttribute('src')));
    }
-   await go(quiet,'people-directory');await go(quiet,'world-index');assert.deepEqual(requests,[],mode+' never transfers new background videos');await quiet.close();
+   await go(quiet,'memorable-quotes');
+   assert(await quiet.locator('.quotes-water-backdrop video').evaluate(v=>v.paused&&!v.querySelector('source').hasAttribute('src')));
+   await go(quiet,'visual-archive');
+   const videoPlaces=await quiet.evaluate(()=>archiveIndex.islands.filter(place=>isPlayerSafeArticle(place.article)&&place.video&&!place.image).map(place=>place.title));
+   for(const title of videoPlaces){
+    await quiet.evaluate(title=>openLocationRecord(archiveIndex.islands.find(place=>place.title===title)),title);
+    assert(await quiet.locator('#record-dialog video').evaluate(v=>v.paused&&!v.querySelector('source').hasAttribute('src')),title+' respects '+mode);
+    await quiet.locator('#record-dialog-close').click();
+   }
+   await go(quiet,'people-directory');await go(quiet,'world-index');assert.deepEqual(requests,[],mode+' never transfers ambient movies, including quotes and location previews');await quiet.close();
   }
-  assert.deepEqual(errors,[]);console.log('PASS fourteen supplied films and six new backgrounds decode; one active background, route cleanup, static browsing/reduced-motion/data-saving/slow-connection fallbacks, regional maps, mobile fit and protected boundaries');
+  assert.deepEqual(errors,[]);console.log('PASS fourteen supplied films, six backgrounds and quote background decode; profile previews preserve viewport pause/resume; route cleanup, zero ambient transfers in quiet modes including four location previews, regional maps, mobile fit and protected boundaries');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});

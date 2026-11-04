@@ -2,6 +2,12 @@
 
 Last updated: 2026-11-04
 
+## Navigation and media bug audit · 4 November 2026
+
+The owner asks for bugs and broken things. All 620 public routes render at 1440px/320px without script errors, failed local public responses, broken rendered links, duplicate anchors or page-width overflow. A separate audit checks 2,249 internal/chapter links and body assets plus 220 named controls/brief actions without a missing target. This render crawl preloads public bodies; it does not claim 620 cold loads. Details: BUG_AUDIT_2026_11_04.md.
+
+Two reproducible media bugs are fixed: the Quotes background and video-only previews fetched movie metadata even in quiet modes, and opening a profile disconnected viewport monitoring for the underlying page movie. Sources now stay deferred until permitted; rebuilding the observer retains every ambient movie still in the document. The complete media gate covers actual decoding, modal/scroll pause-resume and zero movie requests in reduced-motion/Save-Data/simulated 2G modes, including Quotes and four location previews. Full reader, efficiency and NPC navigation regressions pass. The latter's obsolete always-expanded assumption is corrected to open the real reading-path bookmarks. No lore/private payload/media/classification/timeline changes; no dependency or workflow stage. App 274; catalog 314/build `b0b73b176fd4bd67` and reader 15 remain. Publication receipt follows.
+
 ## Six regional source updates · 4 November 2026
 
 The supplied packet indexes3,024 native message identities; indexing is not exhaustive reading. Both new quest windows, selected civic/household/travel/character bodies and relevant rulings are reviewed, with824 public cited native versions matched. Three full histories follow the Vale investigation (957words/four chapters), Eversong masquerade (962/six) and Selwyn’s return (607/four). Selwyn and Aurélia’s existing player identities receive profiles with original portraits. Twilight Observatory belongs within Prima’s Old Earth Hills; Wheel of Plenty belongs within Pristinia. The owner rules out the aqueduct; none is established. Details: SOURCE_UPDATE_2026_11_04.md and source-update-2026-11-04.json.

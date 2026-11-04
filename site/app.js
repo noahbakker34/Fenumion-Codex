@@ -290,7 +290,7 @@ function openCharacterRecord(person, personLabel = "Character") {
   const profileMedia = person.image
     ? `<figure class="record-dialog-media"><img src="${escapeHtml(person.image)}" alt="Portrait of ${escapeHtml(person.title)}"></figure>`
     : person.video
-      ? `<figure class="record-dialog-media"><video data-ambient-video muted loop playsinline preload="metadata"><source src="${escapeHtml(person.video)}" type="video/mp4"></video></figure>`
+      ? `<figure class="record-dialog-media"><video data-ambient-video muted loop playsinline preload="none"><source data-src="${escapeHtml(person.video)}" type="video/mp4"></video></figure>`
       : "";
   const relatedButton = person.article && person.article !== "people-directory"
     ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(person.article + (person.mediaScene ? "?section=" + encodeURIComponent("scene-" + person.mediaScene) : ""))}">Open related Codex record →</button>`
@@ -316,7 +316,7 @@ function openCharacterRecord(person, personLabel = "Character") {
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
   else if (!recordDialog.open) recordDialog.setAttribute("open", "");
   recordDialog.scrollTop = 0;
-  setupAmbientVideos(recordDialogContent);
+  setupAmbientVideos();
   requestAnimationFrame(() => recordDialogClose?.focus());
 }
 
@@ -333,7 +333,7 @@ function openLocationRecord(place) {
   const media = place.image
     ? `<figure class="record-dialog-media"><img src="${escapeHtml(place.image)}" alt="${escapeHtml(place.title)}"></figure>`
     : place.video
-      ? `<figure class="record-dialog-media"><video data-ambient-video muted loop playsinline preload="metadata"><source src="${escapeHtml(place.video)}" type="video/mp4"></video></figure>`
+      ? `<figure class="record-dialog-media"><video data-ambient-video muted loop playsinline preload="none"><source data-src="${escapeHtml(place.video)}" type="video/mp4"></video></figure>`
       : "";
   recordDialogContent.innerHTML = `
     ${media}
@@ -348,7 +348,7 @@ function openLocationRecord(place) {
     ${window.CodexReader.placeContext(place)}
     ${place.mediaScene ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml((place.mediaArticle || place.article) + "?section=" + encodeURIComponent("scene-" + place.mediaScene))}">Watch this place →</button>` : ""}
     <button class="record-dialog-link" type="button" data-record-article="${escapeHtml(relatedRoute)}">${relatedLabel} →</button>`;
-  setupAmbientVideos(recordDialogContent);
+  setupAmbientVideos();
   window.FenumionCalendar.render(recordDialogContent);
   if (!recordDialog.open && typeof recordDialog.showModal === "function") recordDialog.showModal();
   else if (!recordDialog.open) recordDialog.setAttribute("open", "");
@@ -356,10 +356,11 @@ function openLocationRecord(place) {
   requestAnimationFrame(() => recordDialogClose?.focus());
 }
 
-function setupAmbientVideos(root = document) {
+function setupAmbientVideos() {
   ambientVideoObserver?.disconnect();
   ambientVideoObserver = null;
-  const videos = [...root.querySelectorAll("video[data-ambient-video]")];
+  // A preview or gallery refresh replaces the observer; keep the page's movies observed too.
+  const videos = [...document.querySelectorAll("video[data-ambient-video]")];
   if (!videos.length) return;
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const conserveData=Boolean(navigator.connection?.saveData || ['slow-2g','2g'].includes(navigator.connection?.effectiveType));
@@ -400,9 +401,9 @@ function activateAmbientSource(video) {
 
 document.addEventListener('visibilitychange',()=>{
   if(document.hidden)document.querySelectorAll('video[data-ambient-video], video[data-story-scene]').forEach(video=>video.pause());
-  else setupAmbientVideos(document);
+  else setupAmbientVideos();
 });
-matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',()=>setupAmbientVideos(document));
+matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',()=>setupAmbientVideos());
 
 function isRestrictedArticle(id) {
   return restrictedArticleIds.has(id);
@@ -992,8 +993,8 @@ function renderArticle(route, pushHash = true) {
     </section>` : "";
   const quotesBackdrop = article.id === "memorable-quotes" ? `
     <div class="quotes-water-backdrop" aria-hidden="true">
-      <video data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="metadata" tabindex="-1">
-        <source src="assets/archive/quotes-water-ripples.mp4" type="video/mp4">
+      <video data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" tabindex="-1">
+        <source data-src="assets/archive/quotes-water-ripples.mp4" type="video/mp4">
       </video>
     </div>` : "";
   const ethosBackdrop = article.id === "ethos-of-fenumion" ? `
@@ -1058,10 +1059,10 @@ function renderArticle(route, pushHash = true) {
   window.CodexProtectedMedia?.setup(articleContent, article, () => vaultUnlocked && isRestrictedArticle(article.id));
   articleContent.querySelectorAll('video[data-story-scene]').forEach(video => {
     video.addEventListener('play', () => document.querySelectorAll('video[data-ambient-video]').forEach(ambient => ambient.pause()));
-    video.addEventListener('pause', () => { if (video.isConnected) setupAmbientVideos(document); });
-    video.addEventListener('ended', () => { if (video.isConnected) setupAmbientVideos(document); });
+    video.addEventListener('pause', () => { if (video.isConnected) setupAmbientVideos(); });
+    video.addEventListener('ended', () => { if (video.isConnected) setupAmbientVideos(); });
   });
-  setupAmbientVideos(articleContent);
+  setupAmbientVideos();
   applyPlayerSafeRedactions();
   if (!['memorable-quotes','world-index'].includes(article.id)) setupQuoteVoices();
   updateNavigationHighlight(article);
@@ -1173,7 +1174,7 @@ function setupPeopleGallery() {
     }).join("") : `<div class="timeline-empty"><strong>No character matches that search.</strong><span>Try a name, role, faction, or region.</span></div>`;
     window.CodexVisual?.decorateCards(gallery,codexVisualContext());
     window.FenumionCalendar.render(gallery);
-    setupAmbientVideos(kindBanner.closest(".people-gallery-shell"));
+    setupAmbientVideos();
   };
 
   queryInput.addEventListener("input", () => {
@@ -1328,7 +1329,7 @@ function setupWorldBrowser() {
       ${activeView === 'characters' && characterPages > 1 ? `<nav class="people-pagination" aria-label="Homepage character result pages"><button type="button" data-world-previous${characterPage === 0 ? ' disabled' : ''}>← Previous</button><span>Page ${characterPage + 1} of ${characterPages}</span><button type="button" data-world-next${characterPage === characterPages - 1 ? ' disabled' : ''}>Next →</button></nav>` : ''}`;
     window.CodexVisual?.decorateCards(browser,codexVisualContext());
     window.FenumionCalendar.render(browser);
-    setupAmbientVideos(articleContent);
+    setupAmbientVideos();
   };
 
   browser.addEventListener("click", event => {
@@ -1603,7 +1604,7 @@ function setupLocationExplorer() {
           </button>`; }).join("")}</div>
       </section>`).join("") : `<div class="location-empty"><strong>No recovered place matches that search.</strong><span>Try a region, landmark, building type, or alternate spelling.</span></div>`;
     window.FenumionCalendar.render(results);
-    setupAmbientVideos(results);
+    setupAmbientVideos();
   };
 
   input.addEventListener("input", event => { query = event.target.value; renderResults(); });

@@ -2,6 +2,14 @@
 
 Last updated: 2026-11-03
 
+## Six background artworks · 3 November 2026
+
+The owner supplies six clips and asks to continue. Beginning/middle/end source frames and actual browser views are inspected. The clips become six decorative themes on twelve existing public histories/places: ruins for siege/rebuilding, black hole for Void pages, beach for sea journeys, forest for woodland/Hope, Cthulhu for the crossing and ash for Gael-war histories. Unnamed scenery is a thematic association, not canon geography; the owner may refine names. Details: BACKGROUND_ART_2026_11_03.md and background-art-review-2026-11-03.json.
+
+Originals remain outside Git, 53,771,815 bytes. Full-size/full-rate H.264 CRF18/slow web copies total25,974,715 bytes (51.7% smaller); six WebP posters760,900. All125 frames/24fps/~5.208 seconds, fast-start ordering, actual decode and full-resolution SSIM0.981793–0.992270 are verified. The pinned local FFmpeg helper is restored from a hash-checked PyPI wheel and stays outside Git. Original prompt filenames/real-world references are not copied into the site.
+
+Existing lifecycle supplies one active silent/deferred backdrop, route cleanup, hidden-tab pause/resume and poster-only reduced-motion/data-saving/slow-connection modes. All six older themes/32 mappings survive, now12 themes/44 mappings. All655 record bodies/facts/sources/roles/principal art,392 timeline objects, maps/quotes/261 previews and complete private payload remain exact. Catalog311 keeps655 records/606 bodies/2,948 sections,269 people,367 public events and42 stories/39 library entries; app273/reader15 unchanged. Body/search bundles are identical. No runtime/style/dependency/workflow stage. The existing media gate adds six actual backdrop checks alongside its fourteen films. Public package~930.25MB stays within the1GB ceiling. Static/source/preservation and complete media regression pass. Focused Chrome passes twelve routes/six decoded themes/nine widths/eighteen fresh quiet pages without new movie transfers, six simulated visibility cycles, saved320px chapter/header clearance and protected boundaries without script/public HTTP errors. Screenshots inspected; publication receipt follows.
+
 ## Three rift histories · 3 November 2026
 
 The owner asks to continue important work. Ooze 381→1,201 words, sustained breach 424→1,246 and dark expanse 380→1,129 now have seven chapters each. Reunions, missing friends, changing tactics, a witnessed tuning-fork handoff, a destabilizing meteor, planned-breach evidence, moving heads and timely exits become readable quest histories. Details: THREE_RIFT_HISTORIES_2026_11_03.md and three-rift-histories-review-2026-11-03.json.

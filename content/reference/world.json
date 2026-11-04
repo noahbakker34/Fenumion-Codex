@@ -46849,6 +46849,36 @@
           "label": "Remembrance and loss",
           "video": "assets/character-backgrounds/remembrance.mp4",
           "poster": "assets/character-backgrounds/remembrance.jpg"
+        },
+        "ruins-aftermath": {
+          "label": "Ruins and aftermath",
+          "video": "assets/backgrounds/ruined-city.mp4",
+          "poster": "assets/backgrounds/ruined-city-poster.webp"
+        },
+        "void-horizon": {
+          "label": "The Void",
+          "video": "assets/backgrounds/astral-black-hole.mp4",
+          "poster": "assets/backgrounds/astral-black-hole-poster.webp"
+        },
+        "jungle-crossing": {
+          "label": "Sea journeys",
+          "video": "assets/backgrounds/jungle-beach.mp4",
+          "poster": "assets/backgrounds/jungle-beach-poster.webp"
+        },
+        "old-growth": {
+          "label": "Ancient woodland",
+          "video": "assets/backgrounds/old-growth-forest.mp4",
+          "poster": "assets/backgrounds/old-growth-forest-poster.webp"
+        },
+        "eldritch-presence": {
+          "label": "Cthulhu’s crossing",
+          "video": "assets/backgrounds/cthulhu.mp4",
+          "poster": "assets/backgrounds/cthulhu-poster.webp"
+        },
+        "ash-plains": {
+          "label": "Ash and desolation",
+          "video": "assets/backgrounds/sulfur-plains.mp4",
+          "poster": "assets/backgrounds/sulfur-plains-poster.webp"
         }
       },
       "articles": {
@@ -46883,7 +46913,19 @@
         "saray": "remembrance",
         "melian-starguard": "remembrance",
         "papirak": "remembrance",
-        "elenia": "remembrance"
+        "elenia": "remembrance",
+        "war-for-pristinia": "ruins-aftermath",
+        "rebuilding-prima-fein": "ruins-aftermath",
+        "the-void": "void-horizon",
+        "aria-void-search": "void-horizon",
+        "voyage-to-reheva": "jungle-crossing",
+        "arrival-shining-shores": "jungle-crossing",
+        "first-forest": "old-growth",
+        "last-grove": "old-growth",
+        "hallowing-of-hope": "old-growth",
+        "abyssal-rift-cthulhu": "eldritch-presence",
+        "fall-of-wrath": "ash-plains",
+        "voyage-to-gael": "ash-plains"
       }
     },
     "FENUMION_PLAYER_PERSPECTIVES": {

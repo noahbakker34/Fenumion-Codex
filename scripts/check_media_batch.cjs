@@ -50,6 +50,37 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/',out=process.env.
    await go(q,'world-index');assert.deepEqual(requests,[],mode+' and browsing never transfer these films');
    assert.deepEqual(await q.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief||a.scenes)).map(a=>a.id)),[],'private content remains absent');await q.close();
   }
-  assert.deepEqual(errors,[]);console.log('PASS fourteen supplied films decode, native scenes wait for Play, eight compact portraits, static browsing/quiet fallbacks, regional maps and film destinations, mobile fit and protected boundaries');
+  const backgrounds=require('../content/reference/background-art-review-2026-11-03.json');
+  const backgroundPage=await make();let priorBackground;
+  for(const film of backgrounds.media){
+   const article=Object.keys(backgrounds.assignments).find(id=>backgrounds.assignments[id]===film.theme);
+   await go(backgroundPage,article);
+   if(priorBackground)assert(await priorBackground.evaluate(v=>!v.isConnected&&v.paused),'previous background stops');
+   const video=backgroundPage.locator('.character-video-backdrop video');
+   assert.equal(await video.count(),1,'one background for '+film.theme);
+   assert.equal(await backgroundPage.locator('.death-video-backdrop').count(),0,'themed page has one backdrop');
+   assert.equal(await video.getAttribute('poster'),film.poster);
+   await backgroundPage.waitForFunction(()=>{const v=document.querySelector('.character-video-backdrop video');return v?.readyState>=2&&!v.paused&&v.currentTime>.1;},null,{timeout:20000});
+   assert.deepEqual(await video.evaluate(v=>[v.videoWidth,v.videoHeight]),[film.width,film.height]);
+   assert(await video.evaluate(v=>v.muted&&v.loop&&v.playsInline&&!v.controls));
+   assert(Math.abs(await video.evaluate(v=>v.duration)-film.duration)<.05);
+   priorBackground=await video.elementHandle();
+   await backgroundPage.setViewportSize({width:390,height:844});
+   assert(await backgroundPage.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'background page fits mobile');
+   await backgroundPage.setViewportSize({width:1440,height:1000});
+  }
+  await go(backgroundPage,'world-index');assert.equal(await backgroundPage.locator('.character-video-backdrop').count(),0);
+  await backgroundPage.close();
+  for(const mode of ['reduce','saveData','slow2g']){
+   const quiet=await make({reducedMotion:mode==='reduce'?'reduce':'no-preference'}),requests=[];
+   if(mode!=='reduce')await quiet.addInitScript(mode=>Object.defineProperty(navigator,'connection',{value:{saveData:mode==='saveData',effectiveType:mode==='slow2g'?'2g':'4g'}}),mode);
+   quiet.on('request',r=>{if(backgrounds.media.some(f=>r.url().includes(f.video)))requests.push(r.url());});
+   for(const film of backgrounds.media){
+    const article=Object.keys(backgrounds.assignments).find(id=>backgrounds.assignments[id]===film.theme);await go(quiet,article);
+    assert(await quiet.locator('.character-video-backdrop video').evaluate(v=>v.paused&&!v.querySelector('source').hasAttribute('src')));
+   }
+   await go(quiet,'people-directory');await go(quiet,'world-index');assert.deepEqual(requests,[],mode+' never transfers new background videos');await quiet.close();
+  }
+  assert.deepEqual(errors,[]);console.log('PASS fourteen supplied films and six new backgrounds decode; one active background, route cleanup, static browsing/reduced-motion/data-saving/slow-connection fallbacks, regional maps, mobile fit and protected boundaries');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});

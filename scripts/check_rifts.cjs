@@ -39,8 +39,8 @@ const base = process.env.CODEX_BASE_URL || 'http://127.0.0.1:8880/';
           overflow: document.documentElement.scrollWidth > innerWidth
         };
       });
-      assert.equal(records.events.length, 9);
-      assert.equal(new Set(records.events.map(event => event.title)).size, 9);
+      assert.equal(records.events.length, 10);
+      assert.equal(new Set(records.events.map(event => event.title)).size, 10);
       assert.deepEqual(records.cards, [...records.events].sort((a, b) => a.sort.localeCompare(b.sort)).map(event => event.title));
       assert(records.unchanged);
       assert(records.contextsValid);

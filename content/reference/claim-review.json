@@ -582,16 +582,19 @@
     "id": "selwyn-minerva-compact",
     "subject": "Later quest outcomes",
     "status": "reviewed",
-    "finding": "Selwyn’s roots are released under a bargain in which Minerva goes with the figures.",
-    "limit": "A branch remains. His later condition, Minerva’s unseen ritual and a completed return are not established.",
+    "finding": "The earlier bargain releases Selwyn’s rooted body. Later Minerva is seen back in Gael, and Jiangshi’s wish returns Selwyn with intact memories and the branch still attached.",
+    "limit": "The branch impairs his movement. The earlier unseen ritual, intervening return and any successful removal remain unestablished.",
     "article": "verdelune",
     "references": [
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342398921543691",
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343218035691602",
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343604649730060",
-      "https://discord.com/channels/1177270231513694249/1250338434275348532/1562671717040521390"
+      "https://discord.com/channels/1177270231513694249/1250338434275348532/1562671717040521390",
+      "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993990664855656",
+      "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994963101655153"
     ],
-    "basis": "Directly checked refreshed quest scenes"
+    "basis": "Established quest outcome plus a later narrator-confirmed compatible scene",
+    "reviewedOn": "2026-11-04"
   },
   {
     "id": "pin-seven-years",

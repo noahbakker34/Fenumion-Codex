@@ -703,6 +703,36 @@
         "arjahn",
         "nymera"
       ]
+    },
+    {
+      "article": "vale-household-investigation",
+      "events": [
+        "Mara Vale’s request leads to a living barrier in the woods"
+      ],
+      "chapters": 4,
+      "words": 957,
+      "sourceReceipts": 233,
+      "existingPublicAccounts": []
+    },
+    {
+      "article": "eversong-masquerade",
+      "events": [
+        "The Eversong masquerade turns the travelers’ shadows against them"
+      ],
+      "chapters": 6,
+      "words": 962,
+      "sourceReceipts": 82,
+      "existingPublicAccounts": []
+    },
+    {
+      "article": "selwyns-return",
+      "events": [
+        "Jiangshi brings Selwyn back while the branch remains"
+      ],
+      "chapters": 4,
+      "words": 607,
+      "sourceReceipts": 49,
+      "existingPublicAccounts": []
     }
   ],
   "calendarCorrection": {

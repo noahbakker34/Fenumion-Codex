@@ -1,0 +1,159 @@
+{
+  "id": "twilight-observatory",
+  "title": "Twilight Observatory",
+  "schemaVersion": 1,
+  "protected": false,
+  "category": "Locations",
+  "type": "Prima · Old Earth Hills · observatory",
+  "dek": "Aurélia’s twin-domed observatory overlooks the road from the Gate. Its telescope, orrery, books and terraces give new arrivals a place to look beyond the next battle.",
+  "tags": [
+    "Source update"
+  ],
+  "facts": {
+    "Parent": "Old Earth Hills",
+    "Region": "Prima",
+    "Keeper": "Aurélia / Night",
+    "Setting": "Limestone cliff above the countryside and the Gate road",
+    "Uses": "Astronomy · research · instruction",
+    "Access": "Aurélia opens the doors to visitors"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1565365967729467554",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1565366056384471214",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567186948504952973",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567187724438605834",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567188056052858941",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567188589375262763",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567190558966022186",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567191216892809308",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567193390636990586",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567194586055450635",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567198822755606531",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567201416626311220",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567201626526318774",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567202355533971457",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567204657955078196",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567204766143090859",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567205489102819421",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567206264067465364",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567207059227672698",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567207584992071732",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567211357294829751",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567211888692039823",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567215488310714490",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567218083821519041",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567223324151386227",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567232869062148147",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567258026937679903",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567258567893843993",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567259443941605457",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567260324820947055",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567261307835514941",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567262235858960525",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567273724728713268",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567274061195907275"
+  ],
+  "body": "<p>The Twilight Observatory stands on a limestone cliff in Prima’s Old Earth Hills. Travelers on the road to and from the Gate can see its twin glass domes above the countryside. A winding approach leads toward lit steps and pale stone arches, making it a landmark for people still learning where they have arrived.</p><h2 id=\"observatory-instruments\">Two domes and a shared sky</h2><p>Bronze frames hold the glass domes. The taller shelters a brass telescope beneath a retractable roof, with gears and counterweights for following celestial movements. An orrery occupies the adjoining study hall under the smaller dome.</p><p>A vaulted glass gallery links the towers. Books, chart tables and instrument cabinets support research and teaching, while outdoor terraces and smaller telescopes give observers room beneath the open sky. At night the lamps around the instruments are lowered. The building is designed for watching and recording, not only for being seen from the road.</p><h2 id=\"observatory-opening\">An unlocked door and a first lesson</h2><p>Aurélia opens the building with her key and checks that its doors are unlocked for others. Clive and Thorn come inside. She is uneasy explaining her new place to two people at once, but invites them to look around rather than keeping the rooms private.</p><p>Clive takes up the astronomy books. The narrator describes them as basic works on stars, constellations, planets, moons and eclipses. He begins learning and making notes. His presence gives the observatory an ordinary first use: someone with questions finding books and a quiet place to read.</p><h2 id=\"observatory-conversation\">The town’s concerns follow people inside</h2><p>The visitors talk about craft, scarce materials and the work still needed in Prima. Thorn wants room to create groves and is frustrated by adventurers’ behavior; Clive admits he wishes his flames could heal rather than only harm. Her answer offers a different way of thinking about fire.</p><p>Between lessons, the talk turns toward the work each visitor hopes to do next. Clive wants to learn a kinder use for fire and admits his fear of being discarded for his oddness. Thorn answers that there is nothing wrong with being odd. Study has made room for a more personal conversation beside the instruments.</p><p class=\"chronicle-context-links\"><strong>Continue reading</strong> <a href=\"#aurelia\">Aurélia / Night</a> · <a href=\"#old-earth-hills\">Old Earth Hills</a> · <a href=\"#prima-pristinia\">Prima</a> · <a href=\"#clive-dragoon\">Clive</a> · <a href=\"#thorn\">Thorn</a></p>",
+  "sections": [
+    {
+      "id": "observatory-instruments",
+      "title": "Two domes and a shared sky",
+      "chapter": "Two domes and a shared sky",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1565365967729467554",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1565366056384471214"
+        ]
+      }
+    },
+    {
+      "id": "observatory-opening",
+      "title": "An unlocked door and a first lesson",
+      "chapter": "An unlocked door and a first lesson",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567186948504952973",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567187724438605834",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567188056052858941",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567188589375262763",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567190558966022186",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567191216892809308",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567193390636990586",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567194586055450635",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567198822755606531",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567201416626311220",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567201626526318774",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567202355533971457",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567204657955078196",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567204766143090859",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567205489102819421",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567206264067465364",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567207059227672698"
+        ]
+      }
+    },
+    {
+      "id": "observatory-conversation",
+      "title": "The town’s concerns follow people inside",
+      "chapter": "The town’s concerns follow people inside",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567207584992071732",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567211357294829751",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567211888692039823",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567215488310714490",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567218083821519041",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567223324151386227",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567232869062148147",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567258026937679903",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567258567893843993",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567259443941605457",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567260324820947055",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567261307835514941",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567262235858960525",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567273724728713268",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567274061195907275"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "observatory-instruments",
+        "title": "Two domes and a shared sky",
+        "sections": [
+          "observatory-instruments"
+        ]
+      },
+      {
+        "id": "observatory-opening",
+        "title": "An unlocked door and a first lesson",
+        "sections": [
+          "observatory-opening"
+        ]
+      },
+      {
+        "id": "observatory-conversation",
+        "title": "The town’s concerns follow people inside",
+        "sections": [
+          "observatory-conversation"
+        ]
+      }
+    ],
+    "relationships": []
+  }
+}

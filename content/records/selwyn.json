@@ -1,0 +1,138 @@
+{
+  "id": "selwyn",
+  "title": "Selwyn",
+  "schemaVersion": 1,
+  "protected": false,
+  "category": "People",
+  "type": "Player adventurer · returned from Verdelune",
+  "dek": "Found rooted in the Dark Shroud, Selwyn returns through Jiangshi’s help with his memories intact. The branch remains, leaving his companions with a recovery they can celebrate and a condition they still cannot explain.",
+  "tags": [
+    "Source update"
+  ],
+  "facts": {
+    "Role": "Player character",
+    "Found": "The Dark Shroud, Verdelune",
+    "Return": "2, Month of the Wyrm, Year 3 · Jiangshi’s wish",
+    "Memory": "Intact on waking",
+    "Continuing condition": "Attached branch; impaired speed and reflexes"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566962345668907030",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566964134526849105",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566966768629457048",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566967677678002258",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566968864984793098",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566981415055138998",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566984127331442880",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566989748185338008",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990938167971893",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992271344406669",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992437925388290",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992836828594319",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993106535186574",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993877834141758",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993990664855656",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994371994325134",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994373386698763",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994774341451777",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994963101655153",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566995879557202012",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996482748456991",
+    "#verdelune — earlier public retrieval account retained"
+  ],
+  "body": "<p>Selwyn’s recent history is carried first by the people looking for him, then by the people trying to bring him back. In Verdelune he is found rooted among the Dark Shroud’s trees. Minerva’s bargain obtains his body, but a branch stays attached. The later return at Hope lets him see his companions again without freeing him from that connection.</p><h2 id=\"selwyn-retrieval\">The body that comes home</h2><p>The earlier Verdelune expedition finds a rooted body identified as Selwyn. The figures around him offer their own account of what is happening. Those explanations do not independently establish that he is safe, willingly transformed or already beyond help.</p><p>Minerva negotiates for the body’s release and agrees to go with the figures while the company does not follow. The roots are freed, leaving a branch. This account is preserved in <a href=\"#verdelune?section=verdelune-dark-shroud\">the Dark Shroud history</a>. The unseen ritual and the interval before Minerva’s return remain outside what the companions witness.</p><h2 id=\"selwyn-hope\">Help depends on other people’s choices</h2><p>Minerva takes him to Hope after caring for the body at the Tower. Adelia searches for something that could restore him but discovers that she does not possess it. Her inability to do that particular work does not end the attempt: she suggests Jiangshi.</p><p>When Jiangshi returns from patrol with Bitoshi, she offers help. She describes asking the ancestors and the need for a willing soul. Minerva presents the body and Adelia waits ready for trouble. The restoration is a shared effort, with no claim that the tree or its guardian must simply provide whatever another person requests.</p><h2 id=\"selwyn-awake\">The memory is his; the branch stays</h2><p>Jiangshi casts the wish, and the narrator describes Selwyn awake among Adelia, Minerva and Jiangshi. His memory is intact. The branch is still on him, stitching and restricting him; his movement and reflexes are impaired.</p><p>Minerva asks him to meet her at the Tower after he is fully awake, hoping to study the connection to Verdelune. She offers to escort him back. The return gives him a future in which to answer such questions, but no examination or successful removal follows in this scene. <a href=\"#selwyns-return\">The full recovery story</a> follows the requests, refusals and help that make this moment possible.</p><p class=\"chronicle-context-links\"><strong>Continue reading</strong> <a href=\"#selwyns-return\">Selwyn’s return</a> · <a href=\"#minerva\">Minerva</a> · <a href=\"#jiangshi\">Jiangshi</a> · <a href=\"#verdelune\">Verdelune</a></p>",
+  "sections": [
+    {
+      "id": "selwyn-retrieval",
+      "title": "The body that comes home",
+      "chapter": "The body that comes home",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566962345668907030",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566964134526849105",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566966768629457048",
+          "#verdelune — earlier public retrieval account retained"
+        ]
+      }
+    },
+    {
+      "id": "selwyn-hope",
+      "title": "Help depends on other people’s choices",
+      "chapter": "Help depends on other people’s choices",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566967677678002258",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566968864984793098",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566981415055138998",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566984127331442880",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566989748185338008",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990938167971893",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992271344406669",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992437925388290",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992836828594319",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993106535186574"
+        ]
+      }
+    },
+    {
+      "id": "selwyn-awake",
+      "title": "The memory is his; the branch stays",
+      "chapter": "The memory is his; the branch stays",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992836828594319",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993877834141758",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993990664855656",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994371994325134",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994373386698763",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994774341451777",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994963101655153",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566995879557202012",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996482748456991"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "selwyn-retrieval",
+        "title": "The body that comes home",
+        "sections": [
+          "selwyn-retrieval"
+        ]
+      },
+      {
+        "id": "selwyn-hope",
+        "title": "Help depends on other people’s choices",
+        "sections": [
+          "selwyn-hope"
+        ]
+      },
+      {
+        "id": "selwyn-awake",
+        "title": "The memory is his; the branch stays",
+        "sections": [
+          "selwyn-awake"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "image": "assets/characters/discord/b91beef3862cfec2be43480e91dc1be94b4b21364abe796d4042d6dbfb71b677.png",
+  "imageAlt": "Discord depiction of Selwyn",
+  "imageCaption": "Selwyn"
+}

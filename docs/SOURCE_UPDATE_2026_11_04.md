@@ -1,0 +1,33 @@
+# Incremental source integration · 4 November 2026
+
+The owner supplies six regional export files. Their 3,024 unique message objects match the supplied native change objects by ID, channel, timestamp and verbatim body before attachment metadata. This inventory is distinct from reading. The review reads both new quest windows (253 main-quest and 86 rift rows), selected character/narrator bodies in civic, travel, household and regional scenes, and relevant adjudication. General chat, dice/stat output, rank/reward mechanics, unrelated OOC and unviewed attachments are excluded from public lore. Raw exports stay outside Git. The public ledger contains 824 exact cited native text-version hashes.
+
+## What changes
+
+- Three continuous histories: the Vale investigation (957 words/four chapters), the Eversong masquerade (962/six) and Selwyn’s return (607/four).
+- Two existing player identities receive profiles and retain their original portraits: Selwyn and Aurélia / Night. The character roster remains 269. Six queried newcomer classifications were not resolved by the reply; their appearances are preserved without assigning new profiles or merging identities.
+- Two locations are nested within Prima: Twilight Observatory under Old Earth Hills, and Wheel of Plenty under Pristinia. The owner explicitly rules out the aqueduct. It is absent from the established millhouse and settlement infrastructure.
+- Thirty-two existing records gain connected character, place and consequence material. Melian’s permission for volunteers remains distinct from coercion; Tshuka’s conjured and renewed roofs remain temporary. Adelia declines an immediate shard request. Minerva’s witnessed return and Selwyn’s revival advance current summaries and one claim/open-question row without inventing the unseen ritual.
+- Nine timeline entries record the two quests, Selwyn’s return, volunteer boundary, temporary shelters, observatory opening, two Gate welcomes and the working millhouse’s first description. All 392 earlier event objects, dates, ratings, regions and destinations remain exact. Eversong’s local midnight continuation retains its opening day; the millhouse’s source date is not asserted as a witnessed construction date.
+
+The new Eversong guide card uses the established direct full-story link. The existing rift regression advances from nine to ten records; no test, dependency, runtime, style or workflow stage is added. Existing caching and one-build/one-artifact deployment remain.
+
+## Outcomes and limits
+
+The Vale company stops at living growth and three blue lights. Nhalis’s identity, the cause of Elias’s obsession and Mara’s request remain unresolved. A florist’s enchantment theory does not override the negative magical search. Generic vendors, enemies and memorial names receive no entries.
+
+Eversong’s attack ends with Estella down, the breach contracting and Scribonia beginning to seal it. A fully completed closure and every traveler’s return are not separately shown. Visible transformation does not disclose hidden physiology. Ryvyt’s participation and subsequent transport to Babel precede his confirmed death; later thanks about body recovery does not add a witnessed retrieval or revival.
+
+Selwyn is described awake with intact memories; the branch remains and impairs movement. Neither its removal nor the intervening unseen ritual is supplied. Adelia’s possible future consideration does not become a shard grant. Thorn and Pell retreat from a serpent without taming it or establishing a battle. Supply complaints remain attributed. Wedding hopes do not become a proposal or marriage. Carmen’s motes enter the tree without a reward or a universal exchange threshold.
+
+Protected source material extends one existing authenticated history. Its details, identifiers, locators, review and publication receipt remain solely in the private repository. Every other parsed private payload value, collection, media descriptor and access setting remains exact. Existing user-owned untracked source files are untouched.
+
+## Verification
+
+Catalog 313 contains 662 records, 613 complete bodies and 3,021 sections; 269 people, 401 timeline objects/376 public events, 45 histories/42 library entries, 111 places and 261 browse previews. All twelve background themes/forty-six assignments and original media remain unchanged. App 273 and reader 15 remain. No new media bytes.
+
+Static content/calendar/portrait/protected-asset/preview and source/preservation checks pass. Focused Chrome passes the three complete stories/51 paragraphs, fourteen bookmarks with reload/focus, six fresh mobile layouts/header clearance, nine widths and twenty-one connected reading journeys. New profile/place checks cover four complete bodies, eleven bookmarks/reloads, original portraits, nested regional parents and direct Eversong navigation. Existing regressions pass ten rift records, 36 major destinations and all 45 complete stories. The protected candidate passes complete history, facts/chapter/evidence, new bookmark reload/unlock, nine widths and title/body/search/location hiding after locking, with simulated authorization. No real-account login or physical-device claim is made. Representative screenshots are inspected; production receipts follow.
+
+An initial added-card assertion ran after the hash changed but before the asynchronous story body rendered; waiting for the reader layout resolves the external test race. No runtime change is needed.
+
+Private proof directory: `/Users/nbakker/.codex/visualizations/2026/10/16/01a14614-296d-7342-a94f-12b3a38500e4/codex-source-updates-2026-11-04`.

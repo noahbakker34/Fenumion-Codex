@@ -1,0 +1,77 @@
+{
+  "id": "wheel-of-plenty",
+  "title": "The Wheel of Plenty Millhouse",
+  "schemaVersion": 1,
+  "protected": false,
+  "category": "Locations",
+  "type": "Prima · Pristinia · millhouse",
+  "dek": "A river-driven mill within Pristinia’s walls, where millstones, working timber and grain carts turn the town’s harvest into daily food.",
+  "tags": [
+    "Source update"
+  ],
+  "facts": {
+    "Parent": "Pristinia",
+    "Region": "Prima",
+    "Site": "Beside the river within the walls",
+    "Work": "Grain milling",
+    "Association": "Camilla’s millhouse",
+    "Waterworks": "Millrace and working wheel"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1565356042366226442/1565356042366226442",
+    "https://discord.com/channels/1177270231513694249/1565356042366226442/1565361615245807717"
+  ],
+  "body": "<p>The Wheel of Plenty stands beside the river inside Pristinia’s walls. Pale stone foundations meet an oak-framed building with tiled roofs and windows over the current. The sound of the great wooden wheel carries through a workyard of carts, sacks and spare timber.</p><h2 id=\"mill-river-work\">The river turns the stones</h2><p>A controlled millrace drives the wheel. Under the broad arches, workers can reach the gears, sluice gates and wheel from wooden platforms. Inside, heavy beams span rooms filled with the steady rumble of machinery and the scent of freshly ground grain.</p><p>Millers tend the grain under a haze of flour. Shuttered windows admit air and sunlight above the working floor. The mill’s value is in that repeated work: people bringing a harvest to a machine that can make it useful at the table.</p><h2 id=\"mill-in-pristinia\">One part of a working town</h2><p>The millhouse keeps grain work inside Pristinia’s defenses. Carts can bring in the harvest, workers can tend the gates and wheel, and the millstones can keep turning while the town’s other trades continue around them.</p><p>The river channel is part of the working mill. Carts, grain stores and the people tending the machinery connect it to the rest of the town’s daily labor.</p><p class=\"chronicle-context-links\"><strong>Continue reading</strong> <a href=\"#pristinia\">Pristinia</a> · <a href=\"#prima-pristinia\">Prima</a> · <a href=\"#camilla\">Camilla Blackwood</a> · <a href=\"#pristinia-walls\">Walls and parapets</a></p>",
+  "sections": [
+    {
+      "id": "mill-river-work",
+      "title": "The river turns the stones",
+      "chapter": "The river turns the stones",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1565356042366226442/1565356042366226442",
+          "https://discord.com/channels/1177270231513694249/1565356042366226442/1565361615245807717"
+        ]
+      }
+    },
+    {
+      "id": "mill-in-pristinia",
+      "title": "One part of a working town",
+      "chapter": "One part of a working town",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1565356042366226442/1565356042366226442",
+          "https://discord.com/channels/1177270231513694249/1565356042366226442/1565361615245807717"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "mill-river-work",
+        "title": "The river turns the stones",
+        "sections": [
+          "mill-river-work"
+        ]
+      },
+      {
+        "id": "mill-in-pristinia",
+        "title": "One part of a working town",
+        "sections": [
+          "mill-in-pristinia"
+        ]
+      }
+    ],
+    "relationships": []
+  }
+}

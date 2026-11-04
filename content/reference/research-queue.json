@@ -494,12 +494,12 @@
     "region": "Verdelune",
     "kind": "Bargain and recovery",
     "question": "What follows Minerva’s bargain and Selwyn’s release?",
-    "known": "The figures release Selwyn’s roots while leaving a branch, and Minerva chooses to accompany them under concealed conditions. She later reports herself safe with entry to Nerithra. Later at the Tower of Gael, Fenwick casts Gentle Repose; the narrator confirms its effects while leaving the black branch unchanged.",
-    "missing": "The actual ritual and its effects, Minerva’s eventual return, removal or explanation of the branch, and any restoration of Selwyn to life.",
-    "nextSource": "A witnessed return, examination of the branch or continuation of the concealed ritual; Gentle Repose does not establish resurrection.",
+    "known": "The figures release Selwyn’s roots while leaving a branch, and Minerva chooses to accompany them under concealed conditions. She later reports herself safe with entry to Nerithra. Later at the Tower of Gael, Fenwick casts Gentle Repose; the narrator confirms its effects while leaving the black branch unchanged. In the later Gael scene Minerva is seen back with Selwyn’s body. Jiangshi’s wish returns Selwyn with intact memories, while the branch remains and impairs his movement.",
+    "missing": "The unseen ritual and the intervening return, the branch’s explanation or removal, and the result of the proposed further investigation.",
+    "nextSource": "A witnessed examination or treatment of the branch, or a continuation explaining the unseen ritual and intervening return.",
     "article": "minerva",
     "status": "open",
-    "reviewedOn": "2026-10-24",
+    "reviewedOn": "2026-11-04",
     "references": [
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342398921543691",
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342776589258903",
@@ -507,7 +507,9 @@
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562343604649730060",
       "https://discord.com/channels/1177270231513694249/1250338434275348532/1562671717040521390",
       "https://discord.com/channels/1177270231513694249/1250334670957051958/1562935599747309619",
-      "https://discord.com/channels/1177270231513694249/1250334670957051958/1562938854292455545"
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1562938854292455545",
+      "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993990664855656",
+      "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994963101655153"
     ]
   }
 ]

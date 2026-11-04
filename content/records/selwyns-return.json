@@ -1,0 +1,187 @@
+{
+  "id": "selwyns-return",
+  "title": "Selwyn’s Return · The Branch Remains",
+  "schemaVersion": 1,
+  "protected": false,
+  "category": "History",
+  "type": "Recovery chronicle",
+  "dek": "Minerva brings Selwyn to Hope after retrieving his body from Verdelune. Adelia cannot offer the help she first looks for; Jiangshi’s wish brings him back, with his memories and the branch still present.",
+  "tags": [
+    "Source update",
+    "Event stories"
+  ],
+  "facts": {
+    "Recorded dates": "2 November 2026 · source posts",
+    "Setting": "Hope, Gael; earlier care at the Tower",
+    "People": "Selwyn; Minerva; Adelia; Jiangshi; Bitoshi Nakamoto",
+    "Importance": "Relational",
+    "Outcome": "Selwyn returns with intact memory; the attached branch impairs movement and reflexes"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566962345668907030",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566963010164236288",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566964134526849105",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566965630283026545",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566966768629457048",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566967677678002258",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566968329871040573",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566968864984793098",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566970168364761153",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566973547425959987",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566975401828548660",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566975747904512164",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566978705719558145",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566979539052134515",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566981415055138998",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566983308053586053",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566984127331442880",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566985647581962352",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566986350803165225",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566988320594984993",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566989748185338008",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566989993313042523",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990474923745371",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990857289207949",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990864432238692",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990938167971893",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566991106086797404",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566991510120042638",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992271344406669",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992437925388290",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992836828594319",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993106535186574",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993389142933661",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993441475395756",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993853502726166",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993877834141758",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993990664855656",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994001490477128",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994371994325134",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994373386698763",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994375139917928",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994774341451777",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994792611717272",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994963101655153",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566995879557202012",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996225490681891",
+    "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996482748456991",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1566883038023909377",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1566883326428586102"
+  ],
+  "body": "<p>Minerva has carried Selwyn’s body out of Verdelune, but bringing him home has not brought him back. A branch remains attached. She turns to Adelia at Hope, asking whether the power associated with the tree can restore the man she has been keeping from decay.</p><h2 id=\"the-body\">Care does not answer the branch</h2><p>At the Tower, Minerva prepares to return to Prima with Selwyn so that his condition can be investigated. She describes the branch as growing over him, but the narrator corrects that observation: it has not grown since the body was found. The question is what the existing branch means, not a newly confirmed spread.</p><p>Minerva carries him to Hope and waits while Adelia meditates. She asks for a resurrection and wonders whether Adelia’s bond to a tree might help with Selwyn’s connection to the trees of Verdelune. Adelia does not immediately claim that it can. She searches her belongings for something she thinks could restore him, then acknowledges that she does not possess it.</p><h2 id=\"the-request\">Adelia’s trust cannot be supplied by another name</h2><p>Minerva then asks for a shard, explaining that she, Fenwick, Vessalia, Di’trillio and Pell want to study how such things work. Adelia is uncertain that she has the strength to create one. More than power is at stake: after what happened when Magnus killed Hope, she is reluctant to trust people with something so consequential.</p><p>Minerva suggests that Fenwick could accept it instead. His longer history might reassure her. Adelia says his presence would not change her answer. She will consider the request, but the exchange supplies neither a shard nor a promise to produce one.</p><p>The refusal does not end their attempt to help Selwyn. Adelia suggests Jiangshi, who might be able to wish him back. She and Bitoshi are expected to return from their patrol. Minerva waits for another person’s help rather than treating Adelia’s bond with Hope as a resource she can demand.</p><h2 id=\"jiangshis-wish\">A request to the ancestors</h2><p>Jiangshi returns with Bitoshi and offers to help. She explains her wish in terms of the ancestors and a soul willing to return. Minerva shows her the body. The explanation is Jiangshi’s account of her practice; the outcome still has to happen.</p><p>Jiangshi casts. Adelia readies herself in case something goes wrong. The narrator first gives the ruling that a willing Selwyn can be revived with the branch remaining, then describes him awake among Adelia, Minerva and Jiangshi. His memories are intact.</p><p>The effort leaves Jiangshi stumbling, and Bitoshi catches her. She calls it taxing even through an ancestral wish. Their help has a visible cost, borne by the person doing the work and met by the companion standing ready beside her.</p><h2 id=\"what-return-leaves\">Alive, with another problem to understand</h2><p>Selwyn can see the people around him and the branches still on his body. He feels them stitching him, and his speed and reflexes are impaired. Returning to life has not removed the condition that made Minerva seek help in the first place.</p><p>Minerva thanks the people who helped and asks for Selwyn to meet her at the Tower when he is fully awake. She still wants to understand his bond to Verdelune. Bitoshi takes Jiangshi away to rest and invites Adelia to join them later. Minerva offers to escort Selwyn back.</p><p>The return is witnessed. Removal of the branch, a completed investigation and the unseen details of Minerva’s earlier ritual remain open. For now the company has gained something particular and precious: Selwyn is present again, able to remember, while his companions still have work to do.</p><p class=\"chronicle-context-links\"><strong>Continue reading</strong> <a href=\"#selwyn\">Selwyn</a> · <a href=\"#verdelune\">Verdelune</a> · <a href=\"#minerva\">Minerva</a> · <a href=\"#adelia-hope\">Adelia & Hope</a> · <a href=\"#jiangshi\">Jiangshi</a> · <a href=\"#tower-of-gael\">Tower of Gael</a></p>",
+  "sections": [
+    {
+      "id": "the-body",
+      "title": "Care does not answer the branch",
+      "chapter": "Care does not answer the branch",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566962345668907030",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566963010164236288",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566964134526849105",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566965630283026545",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566966768629457048",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566967677678002258",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566968329871040573",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566968864984793098",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1566883038023909377",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1566883326428586102"
+        ]
+      }
+    },
+    {
+      "id": "the-request",
+      "title": "Adelia’s trust cannot be supplied by another name",
+      "chapter": "Adelia’s trust cannot be supplied by another name",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566970168364761153",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566973547425959987",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566975401828548660",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566975747904512164",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566978705719558145",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566979539052134515",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566981415055138998",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566983308053586053",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566984127331442880",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566985647581962352",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566986350803165225",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566988320594984993"
+        ]
+      }
+    },
+    {
+      "id": "jiangshis-wish",
+      "title": "A request to the ancestors",
+      "chapter": "A request to the ancestors",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566989748185338008",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566989993313042523",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990474923745371",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990857289207949",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990864432238692",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566990938167971893",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566991106086797404",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566991510120042638",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992271344406669",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992437925388290",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992836828594319",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993106535186574",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993389142933661",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993441475395756",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993853502726166",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993877834141758",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993990664855656",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994001490477128",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994371994325134",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994373386698763",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994375139917928"
+        ]
+      }
+    },
+    {
+      "id": "what-return-leaves",
+      "title": "Alive, with another problem to understand",
+      "chapter": "Alive, with another problem to understand",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993877834141758",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993990664855656",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994001490477128",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994371994325134",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994373386698763",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994375139917928",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994774341451777",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994792611717272",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994963101655153",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566995879557202012",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996225490681891",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996482748456991"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "chronicle",
+  "eventChronicle": {
+    "events": [
+      "Jiangshi brings Selwyn back while the branch remains"
+    ]
+  }
+}

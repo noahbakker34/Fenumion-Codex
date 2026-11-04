@@ -1,0 +1,205 @@
+{
+  "id": "aurelia",
+  "title": "Aurélia / Night",
+  "schemaVersion": 1,
+  "protected": false,
+  "category": "People",
+  "type": "Player adventurer · observatory keeper",
+  "dek": "An Academy student who offers a wary welcome at the Gate, treats Bohlale’s contamination and opens a place for studying the sky. Her new observatory makes learning something she can share.",
+  "tags": [
+    "Source update"
+  ],
+  "facts": {
+    "Role": "Player character",
+    "Earlier study": "Magic Academy student",
+    "Names used": "Aurélia · Night · Nébula",
+    "Civic work": "Twilight Observatory, Old Earth Hills, Prima",
+    "Craft work": "Works with Kasiri; depends on materials and other people’s skills"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564085858150256693",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564086571680931981",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564090645881036872",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564092387230359603",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564093309905928274",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564094134199914497",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564096215531003925",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564096540446953525",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564099268132737137",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564099912205865021",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564100442491854879",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564104936109768827",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564106382360449025",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564108255947653192",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564111571662151713",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564119558787170315",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564119728677453884",
+    "https://discord.com/channels/1177270231513694249/1198721306250719293/1564119828304896101",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567186948504952973",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567187724438605834",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567188589375262763",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567190558966022186",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567191216892809308",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567193390636990586",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567194586055450635",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567198822755606531",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567201416626311220",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567201626526318774",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567202355533971457",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567204766143090859",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567206264067465364",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567207059227672698",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567212005579030582",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567212105327841452",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567207584992071732",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567209280858226740",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567209612518621255",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567209843146760315",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567210478772691167",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567211357294829751",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567211888692039823",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567213120110198785",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567214013069131798",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567214115921854556",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567215488310714490",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567215654396895394",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567215762798551124",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567216804676239494",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567217356285935719",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567218083821519041",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567218144320159816",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567218931360342038",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567219647906971729",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567220643215188112",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567220735515164675",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1567221814017392712",
+    "#people-directory — earlier public student classification retained"
+  ],
+  "body": "<p>Aurélia’s public record begins with study at the Magic Academy and concern over the care of Papirak’s staff. Her later work is more practical: welcoming someone who has just arrived, helping someone already hurt, and unlocking a building so that others can use it. At the Gate she introduces herself as Nébula.</p><h2 id=\"aurelia-gate\">A welcome while someone needs help</h2><p>When Kage arrives through the Gate, Aurélia is with an unwell Bohlale. Calling herself Nébula, she explains that the newcomer has entered a world at war. Her immediate advice is to help defend the nearby town and learn the work that lets adventurers contribute.</p><p>She is also careful about Bohlale’s illness. He says a shard of Delerium cut him while he was studying it. She asks about contamination before offering treatment, warning that cleansing it will leave him exhausted. He applies holy water and she completes the spell by touch. The narrator confirms that the contamination is removed at the cost of exhaustion. Her welcome and his care happen together, on the road toward Pristinia.</p><h2 id=\"aurelia-observatory\">Unlocking a place for other people</h2><p>At the Twilight Observatory, Aurélia uses her key and makes sure the doors are unlocked. She has not intended to keep the place for herself. She moves through the rooms, admires the telescope and the table where she can map the sky, and invites Thorn and Clive inside.</p><p>Owning the building does not make talking about it easy. She looks down when asked whether it is hers and becomes unsettled when both visitors question her. She grows more comfortable as the conversation continues. Clive takes up the basic astronomy books while she answers what she can. <a href=\"#twilight-observatory\">The observatory’s history</a> places this small gathering inside a building designed for research and instruction.</p><h2 id=\"aurelia-craft\">Work still needs other hands</h2><p>When she asks whether the visitors need anything crafted, Clive describes fire-salamander gauntlets he cannot yet afford. Aurélia cannot make that particular item. She tells him that work depends on other people, and asks after Kasiri’s safety in Gael.</p><p>Thorn reports a sign about materials going to Gael and is angry about the shortage she believes this creates. Aurélia worries about clients who cannot obtain what they need, while Clive is willing to believe there may be a reason. Their conversation documents concern and competing judgments, not a verified account of every shipment or buyer. Aurélia plans to ask rather than supplying a complete explanation herself.</p><p class=\"chronicle-context-links\"><strong>Continue reading</strong> <a href=\"#twilight-observatory\">Twilight Observatory</a> · <a href=\"#old-earth-hills\">Old Earth Hills</a> · <a href=\"#scribonia\">Scribonia</a> · <a href=\"#gate-clearing\">The Gate</a></p>",
+  "sections": [
+    {
+      "id": "aurelia-gate",
+      "title": "A welcome while someone needs help",
+      "chapter": "A welcome while someone needs help",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564085858150256693",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564086571680931981",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564090645881036872",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564092387230359603",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564093309905928274",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564094134199914497",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564096215531003925",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564096540446953525",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564099268132737137",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564099912205865021",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564100442491854879",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564104936109768827",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564106382360449025",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564108255947653192",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564111571662151713",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564119558787170315",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564119728677453884",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564119828304896101",
+          "#people-directory — earlier public student classification retained"
+        ]
+      }
+    },
+    {
+      "id": "aurelia-observatory",
+      "title": "Unlocking a place for other people",
+      "chapter": "Unlocking a place for other people",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567186948504952973",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567187724438605834",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567188589375262763",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567190558966022186",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567191216892809308",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567193390636990586",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567194586055450635",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567198822755606531",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567201416626311220",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567201626526318774",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567202355533971457",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567204766143090859",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567206264067465364",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567207059227672698",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567212005579030582",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567212105327841452"
+        ]
+      }
+    },
+    {
+      "id": "aurelia-craft",
+      "title": "Work still needs other hands",
+      "chapter": "Work still needs other hands",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scenes & attributed accounts",
+        "summary": "The cited scenes support this sequence. Personal explanations and future intentions retain their speakers; an incomplete outcome remains open.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567207584992071732",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567209280858226740",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567209612518621255",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567209843146760315",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567210478772691167",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567211357294829751",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567211888692039823",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567213120110198785",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567214013069131798",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567214115921854556",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567215488310714490",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567215654396895394",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567215762798551124",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567216804676239494",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567217356285935719",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567218083821519041",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567218144320159816",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567218931360342038",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567219647906971729",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567220643215188112",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567220735515164675",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567221814017392712"
+        ]
+      }
+    }
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "aurelia-gate",
+        "title": "A welcome while someone needs help",
+        "sections": [
+          "aurelia-gate"
+        ]
+      },
+      {
+        "id": "aurelia-observatory",
+        "title": "Unlocking a place for other people",
+        "sections": [
+          "aurelia-observatory"
+        ]
+      },
+      {
+        "id": "aurelia-craft",
+        "title": "Work still needs other hands",
+        "sections": [
+          "aurelia-craft"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "image": "assets/archive/aurelia-portrait.jpg"
+}

@@ -14266,6 +14266,478 @@
           "https://discord.com/channels/1177270231513694249/1294457593296719873/1566674188478058510",
           "https://discord.com/channels/1177270231513694249/1294457593296719873/1566678386552733839"
         ]
+      },
+      {
+        "title": "Mara Vale’s request leads to a living barrier in the woods",
+        "meta": "2026-10-31 · source posts",
+        "sort": "2026-10-31-source-refresh-1",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest encounter",
+        "article": "pristinia",
+        "section": "pristinia-vale-investigation",
+        "location": "Pristinia; market shops; unnamed woods",
+        "people": "Clive L. Dragoon; Di’trillio; Saoirse; Vylaris Monry; Felicity; Mara and Elias Vale",
+        "summary": "The company follows Elias’s lilacs and gifts beyond town. A memorial, a living obstruction and three approaching blue lights leave Nhalis’s identity and Mara’s request unresolved.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 2,
+        "importanceReason": "A Pristinian household’s unresolved request leads the company to a local forest mystery.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established elapsed-posting calendar. Narrated outcomes govern; character explanations remain attributed.",
+          "postingWindow": {
+            "start": "2026-10-31",
+            "end": "2026-10-31",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 972,
+            "end": 972,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566148192603738296",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566153608796573747",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566165112832794625",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566167707231977567",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566174438133862531",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566179557676163115",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566181086281605221",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566184023477190737",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566185284440297503",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566185938621702335",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566186703474135061",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566187715249184850",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1566189220849000599"
+        ],
+        "story": "vale-household-investigation"
+      },
+      {
+        "title": "The Eversong masquerade turns the travelers’ shadows against them",
+        "meta": "2026-10-31–2026-11-01 · source posts",
+        "sort": "2026-10-31-source-refresh-2",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest encounter",
+        "article": "rifts",
+        "section": "rifts-eversong",
+        "location": "The Eversong, beyond the rift",
+        "people": "Scribonia; Aravil; Ryvyt; Pelegia / Pin; Saturnia’s summoned visage",
+        "summary": "Music and masks give way to hostile shadows. Scribonia brings Estella down while Aravil and Pin fight through failing sight; the rift contracts and sealing begins.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 4,
+        "importanceReason": "Travelers from different fronts confront a hostile reality beyond a shared breach and begin closing its access.",
+        "regions": [
+          "other-realms"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established elapsed-posting calendar. Narrated outcomes govern; character explanations remain attributed.",
+          "postingWindow": {
+            "start": "2026-10-31",
+            "end": "2026-11-01",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-31",
+            "reason": "One continuous encounter crosses local midnight without an intervening story day.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566265324389798030",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566267544644620379",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566270739051712512",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566272983545417791",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566272989467770980",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566273727262367764",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566284729005768775",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566305747288195245",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566306071151255594",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566321785035558933",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566324238535884822",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566325244677849169",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566327218542485616",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566327356870762509",
+              "https://discord.com/channels/1177270231513694249/1356070501163991211/1566328633382019093"
+            ]
+          },
+          "finalWar": {
+            "start": 972,
+            "end": 972,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566265324389798030",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566267544644620379",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566270739051712512",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566272983545417791",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566272989467770980",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566273727262367764",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566284729005768775",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566305747288195245",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566306071151255594",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566321785035558933",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566324238535884822",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566325244677849169",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566327218542485616",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566327356870762509",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1566328633382019093"
+        ],
+        "story": "eversong-masquerade"
+      },
+      {
+        "title": "Jiangshi brings Selwyn back while the branch remains",
+        "meta": "2026-11-02 · source posts",
+        "sort": "2026-11-02-source-refresh-3",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "adelia-hope",
+        "section": "adelia-selwyn-and-trust",
+        "location": "Hope, Gael",
+        "people": "Selwyn; Minerva; Adelia; Jiangshi; Bitoshi Nakamoto",
+        "summary": "After Adelia cannot supply an immediate restoration, Jiangshi’s wish returns Selwyn with intact memories. The branch stays attached and impairs movement; Minerva wants to investigate. In this exchange Adelia also declines an immediate shard request.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 1,
+        "importanceReason": "Restores an individual companion without resolving the wider forest or removing his continuing condition.",
+        "regions": [
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established elapsed-posting calendar. Narrated outcomes govern; character explanations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-02",
+            "end": "2026-11-02",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 974,
+            "end": 974,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566967677678002258",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566968864984793098",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566973547425959987",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566978705719558145",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566981415055138998",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566992836828594319",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993877834141758",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993990664855656",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994373386698763",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994774341451777",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994963101655153",
+          "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996482748456991"
+        ],
+        "story": "selwyns-return"
+      },
+      {
+        "title": "Melian permits volunteers and rejects forced service",
+        "meta": "2026-10-31 · source posts",
+        "sort": "2026-10-31-source-refresh-4",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "melian-starguard",
+        "section": "melian-volunteers",
+        "location": "Parapets of Pristinia",
+        "people": "Melian Starguard; Clive L. Dragoon",
+        "summary": "Melian allows Clive to ask for volunteers, forbids coercion and calls for help sheltering fleeing Dasa. No militia or completed refuge is established by the meeting.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 2,
+        "importanceReason": "Sets a concrete consent boundary on local recruitment and directs aid toward Pristinia’s refugee needs.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established elapsed-posting calendar. Narrated outcomes govern; character explanations remain attributed.",
+          "postingWindow": {
+            "start": "2026-10-31",
+            "end": "2026-10-31",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 972,
+            "end": 972,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566113379196866632",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566116641304088798",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566118454921007187",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566118621032484908",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566121388077744199",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566126785442087085",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566128012544577568",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566131682312978453",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566134954482733243",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566135776352411679",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566136200257999099",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566138890648162415"
+        ]
+      },
+      {
+        "title": "Tshuka conjures and renews temporary refuge towers",
+        "meta": "2026-11-02–2026-11-03 · source posts",
+        "sort": "2026-11-02-source-refresh-5",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "pristinia-walls",
+        "section": "walls-temporary-shelter",
+        "location": "Pristinia walls and parapets",
+        "people": "Tshuka Hayim; Clive L. Dragoon",
+        "summary": "Tshuka answers Clive’s permanent-lodging plans with conjured towers, blankets and a bath. She promises to renew them and returns the next day; refugee arrivals and a completed permanent refuge remain unshown.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 2,
+        "importanceReason": "Provides witnessed temporary shelter at the town while the permanent building remains a plan.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established elapsed-posting calendar. Narrated outcomes govern; character explanations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-02",
+            "end": "2026-11-03",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 974,
+            "end": 975,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566909806114115712",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566911827668111533",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566914694709772352",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566915530130980895",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566915668098416813",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566916553272860703",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566918287407980616",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566919363473178806",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566924887551909970",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566925128011489401",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1566939317908152431",
+          "https://discord.com/channels/1177270231513694249/1518624477804757094/1567203575510339716"
+        ]
+      },
+      {
+        "title": "Aurélia opens the Twilight Observatory to visitors",
+        "meta": "2026-11-03 · source posts",
+        "sort": "2026-11-03-source-refresh-6",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "twilight-observatory",
+        "section": "observatory-opening",
+        "location": "Twilight Observatory, Old Earth Hills, Prima",
+        "people": "Aurélia; Clive L. Dragoon; Thorn",
+        "summary": "Aurélia unlocks the twin-domed observatory for others. Clive studies basic astronomy while the visitors discuss craft, supply and the work they still hope to do.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 2,
+        "importanceReason": "An existing local building begins serving study and conversation for Prima’s residents and adventurers.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established elapsed-posting calendar. Narrated outcomes govern; character explanations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-03",
+            "end": "2026-11-03",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 975,
+            "end": 975,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1565365967729467554",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1565366056384471214",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567186948504952973",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567187724438605834",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567188056052858941",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567188589375262763",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567190558966022186",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567191216892809308",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567201626526318774",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567202355533971457",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1567207059227672698"
+        ]
+      },
+      {
+        "title": "Di’trillio welcomes Dorothea without forcing touch",
+        "meta": "2026-11-02 · source posts",
+        "sort": "2026-11-02-source-refresh-7",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "ditrillio",
+        "section": "ditrillio-dorothea",
+        "location": "The Gate and road toward Pristinia",
+        "people": "Di’trillio; Dorothea Waldner",
+        "summary": "Di respects Dorothea’s refusal of touch, offers water and salve, and shares his own scars. She agrees to a visual examination and follows him toward temporary shelter, subject to Vessalia’s agreement.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 1,
+        "importanceReason": "A newly arrived person accepts care and a conditional offer of shelter through a personal exchange of trust.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established elapsed-posting calendar. Narrated outcomes govern; character explanations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-02",
+            "end": "2026-11-02",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 974,
+            "end": 974,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566832023111467039",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566836219516817649",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566840335588528129",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566844938711203862",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566847268881965087",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566848884553289820",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566850906811793564",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566853311779315854",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566853999796162622",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566857231763378189",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566861038039732265",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566869362957090817",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566876065224466605",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566877778886791301",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566879555682181302",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566881681313501318",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1566882064400252992"
+        ]
+      },
+      {
+        "title": "Aurélia treats Bohlale as Kage arrives",
+        "meta": "2026-10-25 · source posts",
+        "sort": "2026-10-25-source-refresh-8",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Observed scene and accounts",
+        "article": "aurelia",
+        "section": "aurelia-gate",
+        "location": "The Gate; road to Pristinia",
+        "people": "Aurélia / Nébula; Bohlale Katsaros; Kage",
+        "summary": "Aurélia completes Bohlale’s cleansing while introducing Kage to the town’s needs. The narrator confirms contamination removed at the cost of exhaustion; Bohlale offers the newcomer company and advice.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 1,
+        "importanceReason": "A narrated cleansing and an individual arrival establish a personal welcome and recovery cost.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established elapsed-posting calendar. Narrated outcomes govern; character explanations remain attributed.",
+          "postingWindow": {
+            "start": "2026-10-25",
+            "end": "2026-10-25",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 966,
+            "end": 966,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564088156167344209",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564090645881036872",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564094134199914497",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564096540446953525",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564100442491854879",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564104936109768827",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564108255947653192",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564111571662151713",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564119728677453884",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564119828304896101",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564121643444469813",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564123854266171443",
+          "https://discord.com/channels/1177270231513694249/1198721306250719293/1564124155916451881"
+        ]
+      },
+      {
+        "title": "The Wheel of Plenty serves Pristinia’s harvest",
+        "meta": "29 October 2026 · source description",
+        "sort": "2026-10-29-source-refresh-9",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Civic infrastructure",
+        "article": "wheel-of-plenty",
+        "section": "mill-river-work",
+        "location": "Wheel of Plenty, within Pristinia’s walls",
+        "people": "Pristinia’s millers and workers",
+        "summary": "A river-driven wheel powers the grain mill inside the walls, where millers, carts and stored harvest connect the water’s work to the town’s food supply.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 2,
+        "importanceReason": "Documents a working town institution serving the local harvest and food supply.",
+        "regions": [
+          "prima"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "The source describes a working millhouse; it does not supply an independent witnessed construction date.",
+          "postingWindow": {
+            "start": "2026-10-29",
+            "end": "2026-10-29",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 970,
+            "end": 970,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1565356042366226442/1565361615245807717"
+        ]
       }
     ],
     "characters": [
@@ -14850,7 +15322,7 @@
         "meta": "Witch; investigator; difficult ally",
         "article": "minerva",
         "image": "assets/characters/minerva.png",
-        "summary": "A witch and Seeker who notices danger, cares for frightened people and can turn urgent conviction into damaged trust, risky alliances and bargains she cannot fully resolve.",
+        "summary": "An investigator whose bargain brings Selwyn’s body out of Verdelune; later back in Gael, she secures help for his return while the unseen ritual remains unexplained.",
         "aliases": [
           "Minerva"
         ]
@@ -14929,9 +15401,9 @@
       },
       {
         "title": "Selwyn",
-        "meta": "Player character · the Verdelune rescue",
-        "article": "people-directory",
-        "summary": "Found rooted in the Dark Shroud; the figures release his body under Minerva’s bargain. His condition after retrieval remains unconfirmed.",
+        "meta": "Player character · returned at Hope",
+        "article": "selwyn",
+        "summary": "Restored through Jiangshi’s wish with his memories intact; the branch from Verdelune remains and impairs his movement.",
         "image": "assets/characters/discord/b91beef3862cfec2be43480e91dc1be94b4b21364abe796d4042d6dbfb71b677.png",
         "imageAlt": "Discord depiction of Selwyn",
         "imageCaption": "Selwyn"
@@ -15028,13 +15500,15 @@
       },
       {
         "title": "Aurélia / Night",
-        "meta": "Magic Academy student",
-        "article": "people-directory",
-        "summary": "A Magic Academy student who favors Scribonia as custodian of Papirak’s staff while voicing discomfort with taking the object from him.",
+        "meta": "Magic Academy student · observatory keeper",
+        "article": "aurelia",
+        "summary": "Treats contamination at the Gate and opens the Twilight Observatory in the Old Earth Hills, while continuing craft and study.",
         "image": "assets/archive/aurelia-portrait.jpg",
         "aliases": [
           "Aurelia",
-          "Night"
+          "Night",
+          "Nébula",
+          "Nebula"
         ]
       },
       {
@@ -18850,6 +19324,30 @@
         ],
         "level": "site",
         "source": "Main quest: first named entry and narrator-confirmed return through the Old Earth Hills; exact coordinates remain unrecovered."
+      },
+      {
+        "title": "Twilight Observatory",
+        "region": "Prima",
+        "parent": "Old Earth Hills",
+        "type": "observatory",
+        "meta": "Prima › Old Earth Hills · observatory",
+        "article": "twilight-observatory",
+        "summary": "Aurélia’s twin-domed observatory above the Gate road, with a telescope, orrery, books and open terraces.",
+        "source": "Narrated location and observed scene",
+        "aliases": [],
+        "level": "site"
+      },
+      {
+        "title": "The Wheel of Plenty Millhouse",
+        "region": "Prima",
+        "parent": "Pristinia",
+        "type": "millhouse",
+        "meta": "Prima › Pristinia · millhouse",
+        "article": "wheel-of-plenty",
+        "summary": "A river-driven grain mill within Pristinia’s walls; its wheel and workyard serve the harvest.",
+        "source": "Narrated location and observed scene",
+        "aliases": [],
+        "level": "site"
       }
     ]
   },
@@ -25987,6 +26485,18 @@
         "label": "Prima · NPCs",
         "article": "npcs-prima",
         "summary": "Browse the island’s NPCs together."
+      },
+      {
+        "label": "Twilight Observatory",
+        "article": "twilight-observatory"
+      },
+      {
+        "label": "The Wheel of Plenty Millhouse",
+        "article": "wheel-of-plenty"
+      },
+      {
+        "label": "Aurélia / Night",
+        "article": "aurelia"
       }
     ],
     "pristinia": [
@@ -26191,6 +26701,14 @@
       {
         "label": "The War for Pristinia",
         "article": "war-for-pristinia"
+      },
+      {
+        "label": "The Wheel of Plenty Millhouse",
+        "article": "wheel-of-plenty"
+      },
+      {
+        "label": "The Vale Investigation · Lilacs and the Living Barrier",
+        "article": "vale-household-investigation"
       }
     ],
     "papirak": [
@@ -28846,6 +29364,10 @@
       {
         "label": "The Abyssal Rift · Pappy’s Rescue and Cthulhu’s Arrival",
         "article": "abyssal-rift-cthulhu"
+      },
+      {
+        "label": "Selwyn’s Return · The Branch Remains",
+        "article": "selwyns-return"
       }
     ],
     "gartina": [
@@ -29486,6 +30008,10 @@
         "label": "Hawthorne",
         "article": "hawthorne",
         "summary": "The scribe who turns Pristinia’s arguments into counted votes, recorded decisions and an institutional memory."
+      },
+      {
+        "label": "Twilight Observatory",
+        "article": "twilight-observatory"
       }
     ],
     "lost-shacks": [
@@ -29604,6 +30130,10 @@
       {
         "label": "From Gael toward Larkhollow",
         "article": "gael-larkhollow-route"
+      },
+      {
+        "label": "Selwyn",
+        "article": "selwyn"
       }
     ],
     "hana": [
@@ -31217,6 +31747,10 @@
       {
         "label": "The Coastal Rift · The Last Wave",
         "article": "coastal-rift"
+      },
+      {
+        "label": "The Eversong Masquerade · A Dance with Shadows",
+        "article": "eversong-masquerade"
       }
     ],
     "eshnunna": [
@@ -32545,6 +33079,48 @@
       {
         "label": "Narrative History",
         "article": "living-timeline"
+      }
+    ],
+    "twilight-observatory": [
+      {
+        "label": "Old Earth Hills",
+        "article": "old-earth-hills"
+      }
+    ],
+    "wheel-of-plenty": [
+      {
+        "label": "Pristinia",
+        "article": "pristinia"
+      }
+    ],
+    "selwyn": [
+      {
+        "label": "Verdelune",
+        "article": "verdelune"
+      }
+    ],
+    "aurelia": [
+      {
+        "label": "Prima",
+        "article": "prima-pristinia"
+      }
+    ],
+    "eversong-masquerade": [
+      {
+        "label": "Rifts",
+        "article": "rifts"
+      }
+    ],
+    "vale-household-investigation": [
+      {
+        "label": "Pristinia",
+        "article": "pristinia"
+      }
+    ],
+    "selwyns-return": [
+      {
+        "label": "Adelia & Hope",
+        "article": "adelia-hope"
       }
     ]
   },
@@ -52453,7 +53029,14 @@
     "keno",
     "force",
     "modeli",
-    "oya"
+    "oya",
+    "vale-household-investigation",
+    "eversong-masquerade",
+    "selwyns-return",
+    "selwyn",
+    "aurelia",
+    "twilight-observatory",
+    "wheel-of-plenty"
   ],
   "timelineRegions": [
     {

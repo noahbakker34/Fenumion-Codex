@@ -10,7 +10,7 @@ The owner supplies six regional export files. Their 3,024 unique message objects
 - Thirty-two existing records gain connected character, place and consequence material. Melian’s permission for volunteers remains distinct from coercion; Tshuka’s conjured and renewed roofs remain temporary. Adelia declines an immediate shard request. Minerva’s witnessed return and Selwyn’s revival advance current summaries and one claim/open-question row without inventing the unseen ritual.
 - Nine timeline entries record the two quests, Selwyn’s return, volunteer boundary, temporary shelters, observatory opening, two Gate welcomes and the working millhouse’s first description. All 392 earlier event objects, dates, ratings, regions and destinations remain exact. Eversong’s local midnight continuation retains its opening day; the millhouse’s source date is not asserted as a witnessed construction date.
 
-The new Eversong guide card uses the established direct full-story link. The existing rift regression advances from nine to ten records; no test, dependency, runtime, style or workflow stage is added. Existing caching and one-build/one-artifact deployment remain.
+The new Eversong guide card uses the established direct full-story link. The existing rift regression advances from nine to ten records; no separate test, dependency, runtime, style or workflow stage is added. Existing caching and one-build/one-artifact deployment remain.
 
 ## Outcomes and limits
 
@@ -31,3 +31,5 @@ Static content/calendar/portrait/protected-asset/preview and source/preservation
 An initial added-card assertion ran after the hash changed but before the asynchronous story body rendered; waiting for the reader layout resolves the external test race. No runtime change is needed.
 
 Private proof directory: `/Users/nbakker/.codex/visualizations/2026/10/16/01a14614-296d-7342-a94f-12b3a38500e4/codex-source-updates-2026-11-04`.
+
+The initial source candidate (`2f5d4d2`, Pages run41787789163) stops before packaging/upload/deployment when the biography gate expects six Aravil chapters instead of the seven now intentionally present. All preceding gates, including45 stories/calendar/locations, pass. The existing biography gate retains all prior subjects, adds the four new biographies and reads expected chapter counts from canonical plans. Original facts, sources, legacy destinations, layout/focus and protected-boundary assertions remain. No public bundle/runtime or workflow stage changes. The entire affected gate is run locally before the corrected candidate. The entire local gate passes all127 prior subjects plus four new biographies, including facts, source/evidence, legacy links, chapter focus/reload, nine widths, regional maps and protected boundaries. The console’s stale historical counts are replaced by a general coverage description. The compiled public build remains `49be78f8b83144ba`.

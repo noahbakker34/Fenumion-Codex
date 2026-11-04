@@ -12117,13 +12117,13 @@
         "kind": "Rift expedition fails",
         "article": "rifts",
         "location": "Dreamlike space beyond the breach",
-        "people": "Expedition participants; names not recovered in this summary",
+        "people": "Arjahn; Harry; Lucido; Yllandaer; Magnus; Dez",
         "tags": [
           "Rifts",
           "Rift",
           "Failure"
         ],
-        "summary": "An expedition encounters a fallen titan’s weapon, acolytes and a living dream. Overwhelmed, the party retreats without fully sealing the breach; the account warns of later ripples and nightmares.",
+        "summary": "Arjahn, Harry, Lucido, Yllandaer, Magnus and Dez face a living dream feeding on a dead titan’s weapon. Harry is crushed, nightmares overwhelm the company, and the retreat leaves the breach unsealed.",
         "importance": 4,
         "importanceReason": "A breach connects separate realms and exposes travelers to consequences beyond a single region.",
         "regions": [
@@ -12370,13 +12370,13 @@
         "kind": "Rift closure",
         "article": "rifts",
         "location": "Volcanic terrain; separate return points on Prima",
-        "people": "Farkur; Djöhandrai; other expedition participants",
+        "people": "Fenwick; Espera; Scribonia; Djöhandrai; Farkur; Ryvyt",
         "tags": [
           "Rifts",
           "Rift",
           "Crystal"
         ],
-        "summary": "Adventurers confront heat, ash, lava and a central crystal. Its destruction is followed by the dimension tearing and the rift closing. Farkur returns to Pristinia; Djöhandrai returns to the trail between Gartina’s estate and the town.",
+        "summary": "Fenwick, Espera, Scribonia, Djöhandrai, Farkur and Ryvyt fight through lava and falling rock. Farkur attacks the renewing crystal as companions restore the fallen; its destruction tears the dimension and forces separate returns.",
         "importance": 4,
         "importanceReason": "A breach connects separate realms and exposes travelers to consequences beyond a single region.",
         "regions": [
@@ -12409,13 +12409,13 @@
         "kind": "Rift encounter",
         "article": "rifts",
         "location": "Sandy shore beyond the breach",
-        "people": "Fenwick; other expedition participants",
+        "people": "Fenwick; Nymera; Vessalia; Di’trillio; Ryvyt",
         "tags": [
           "Rifts",
           "Rift",
           "Coastal battle"
         ],
-        "summary": "Adventurers reach a shore attacked from the sea. After the fighting, Fenwick banishes the three remaining goblins and the beach falls silent; growing instability then whisks everyone back to their respective islands.",
+        "summary": "Nymera holds the shore for Fenwick, Vessalia, Di’trillio and Ryvyt as successive goblin waves arrive. Fenwick brings down meteors and banishes the final three; Vessalia insists the wounded Nymera deserves healing before the company returns.",
         "importance": 4,
         "importanceReason": "A breach connects separate realms and exposes travelers to consequences beyond a single region.",
         "regions": [
@@ -46925,7 +46925,9 @@
         "hallowing-of-hope": "old-growth",
         "abyssal-rift-cthulhu": "eldritch-presence",
         "fall-of-wrath": "ash-plains",
-        "voyage-to-gael": "ash-plains"
+        "voyage-to-gael": "ash-plains",
+        "volcanic-rift": "ash-plains",
+        "coastal-rift": "jungle-crossing"
       }
     },
     "FENUMION_PLAYER_PERSPECTIVES": {

@@ -256,9 +256,9 @@
       "events": [
         "A dreamlike rift remains unsealed"
       ],
-      "chapters": 4,
-      "words": 406,
-      "sourceReceipts": 8,
+      "chapters": 7,
+      "words": 1267,
+      "sourceReceipts": 58,
       "existingPublicAccounts": [
         "rifts",
         "the-void"
@@ -346,9 +346,9 @@
       "events": [
         "A volcanic rift collapses after its crystal is destroyed"
       ],
-      "chapters": 4,
-      "words": 406,
-      "sourceReceipts": 9,
+      "chapters": 7,
+      "words": 1240,
+      "sourceReceipts": 67,
       "existingPublicAccounts": [
         "rifts",
         "farkur",
@@ -363,9 +363,9 @@
       "events": [
         "A coastal rift opens onto a battle from the sea"
       ],
-      "chapters": 4,
-      "words": 410,
-      "sourceReceipts": 9,
+      "chapters": 7,
+      "words": 1167,
+      "sourceReceipts": 80,
       "existingPublicAccounts": [
         "rifts",
         "fenwick",

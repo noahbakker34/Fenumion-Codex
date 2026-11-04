@@ -1,0 +1,1760 @@
+{
+  "reviewed": "2026-11-04",
+  "request": "Continue important connected histories; owner permits supplied art as atmospheric backgrounds where it fits.",
+  "authority": "Explicit owner canon and established quest narration/outcomes govern. Character memories, interpretations and proposed actions remain attributed.",
+  "scope": "All text in three bounded native quest windows was read: 64 dream-rift rows, 104 volcanic rows and 107 coastal rows. The 65th selected dream row is an empty next-session marker and is excluded. Empty/OOC rows, quoted reply duplicates, rules numbers, unviewed attachments and source jokes are not reconstructed as public events. This is not an exhaustive rift archive review.",
+  "boundaries": [
+    "All 392 timeline dates, ratings, regions, event IDs and story destinations survive; only these three people and summary fields change. The early dream posting date remains unresolved against arrival chronology.",
+    "Harry’s crushing is explicit. Arjahn’s collapse and Yllandaer’s dying thought are preserved without inventing rescue, resurrection or a complete casualty list.",
+    "Dream visions do not independently verify the history they depict. Death’s smile establishes no bargain or universal origin of rifts.",
+    "The volcanic crystal collapses after destruction; the finishing attacker or spell is not named. Disintegrate is offered, not witnessed as the final cast.",
+    "Volcanic healing is credited to the witnessed recipients, including Ryvyt’s healing of Djöhandrai while calling to Farkur. The banishment ruling belongs to that encounter.",
+    "The final volcanic impact has no established destination. Shop and meeting invitations are not completed visits.",
+    "Nymera falls and later fights again; no death or resurrection is inferred. Her endurance and Fenwick’s praise do not establish immortality or divinity.",
+    "The brief coastal harvesting interval is not assigned an in-world duration; no invented loot, recipe, army origin or coast identity.",
+    "Private patron names, controller identities and unrelated jokes are omitted. No generic/unclassified character pages are created.",
+    "Ash-plains and jungle-crossing reuse approved atmospheric art; no depicted geography is canonized, and no media bytes or runtime behavior change."
+  ],
+  "windows": [
+    {
+      "article": "dream-rift-retreat",
+      "rows": 64,
+      "firstId": "1356078551576875211",
+      "lastId": "1356109996613570591"
+    },
+    {
+      "article": "volcanic-rift",
+      "rows": 104,
+      "firstId": "1552852907022352414",
+      "lastId": "1552913910254932010"
+    },
+    {
+      "article": "coastal-rift",
+      "rows": 107,
+      "firstId": "1557565835923431564",
+      "lastId": "1557614406353948733"
+    }
+  ],
+  "stories": [
+    {
+      "article": "dream-rift-retreat",
+      "events": [
+        "A dreamlike rift remains unsealed"
+      ],
+      "chapters": 7,
+      "words": 1267,
+      "sourceReceipts": 58,
+      "existingPublicAccounts": [
+        "rifts",
+        "the-void"
+      ]
+    },
+    {
+      "article": "volcanic-rift",
+      "events": [
+        "A volcanic rift collapses after its crystal is destroyed"
+      ],
+      "chapters": 7,
+      "words": 1240,
+      "sourceReceipts": 67,
+      "existingPublicAccounts": [
+        "rifts",
+        "farkur",
+        "fenwick",
+        "scribonia",
+        "ryvyt",
+        "pristinia"
+      ]
+    },
+    {
+      "article": "coastal-rift",
+      "events": [
+        "A coastal rift opens onto a battle from the sea"
+      ],
+      "chapters": 7,
+      "words": 1167,
+      "sourceReceipts": 80,
+      "existingPublicAccounts": [
+        "rifts",
+        "fenwick",
+        "nymera",
+        "vessalia",
+        "ryvyt"
+      ]
+    }
+  ],
+  "contextLinks": [
+    {
+      "record": "rifts",
+      "section": "rifts-retreat",
+      "destination": "dream-rift-retreat?section=chapter-3"
+    },
+    {
+      "record": "rifts",
+      "section": "rifts-sustaining",
+      "destination": "volcanic-rift?section=chapter-2"
+    },
+    {
+      "record": "rifts",
+      "section": "rifts-retreat",
+      "destination": "coastal-rift?section=the-healing-she-deflects"
+    },
+    {
+      "record": "fenwick",
+      "section": "fenwick-method",
+      "destination": "volcanic-rift?section=chapter-2"
+    },
+    {
+      "record": "nymera",
+      "section": "nymera-worth-and-peace",
+      "destination": "coastal-rift?section=the-healing-she-deflects"
+    },
+    {
+      "record": "lucido",
+      "section": "lucido-refugee-homes",
+      "destination": "dream-rift-retreat?section=harrys-fall"
+    }
+  ],
+  "receipts": [
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356078551576875211",
+      "timestamp": "2025-03-31T01:32:01.417000+00:00",
+      "textSha256": "463f7c7653cf96e58b834cacd0b6d534daa24a74ae492b032d0ffc8722b4d03e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356079714913091715",
+      "timestamp": "2025-03-31T01:36:38.778000+00:00",
+      "textSha256": "512d2b3f85773cb6ef29da6445900eb0e0aedfe42605ab868050f6dac71cc921"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356079740829831319",
+      "timestamp": "2025-03-31T01:36:44.957000+00:00",
+      "textSha256": "ee901ab9295c7e7585bd0b2c7d512d466acc402d98f548f1d4a531e8a169f55d"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356080143411445811",
+      "timestamp": "2025-03-31T01:38:20.940000+00:00",
+      "textSha256": "03e7eddb244a59be2396ca2216d704b271aa9d0c475dc4780100b6c56970ef2e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356080256934739969",
+      "timestamp": "2025-03-31T01:38:48.006000+00:00",
+      "textSha256": "9fa3e46f5c400ce7b96185cd840efad1fef09e6d50f80432ecedda59e86c73d2"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356080431694610445",
+      "timestamp": "2025-03-31T01:39:29.672000+00:00",
+      "textSha256": "4873f9844edda890200c7da923f012c37587ce0e929098c13a58162d6695face"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356081497366593719",
+      "timestamp": "2025-03-31T01:43:43.748000+00:00",
+      "textSha256": "ee7d91a39f356e8e8968802eb824432b2dfcb072a6d05eecb0e34476dbfbc154"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356081775633371237",
+      "timestamp": "2025-03-31T01:44:50.092000+00:00",
+      "textSha256": "8b6869e7e18f3e527bfcf8e3b315835d9b8bd8cb852a8577f2e5eb0429dcaca4"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356082187325145110",
+      "timestamp": "2025-03-31T01:46:28.247000+00:00",
+      "textSha256": "76ec2aaf16a881d88657dee2756b5e99cac1bd4021d3efa2556f3b34c25d9724"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356082751924731994",
+      "timestamp": "2025-03-31T01:48:42.858000+00:00",
+      "textSha256": "8e9f4e876701bdfd578f4ee73e952b321c6b45f2a02fabc47ce845b2f2196800"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356082918677549257",
+      "timestamp": "2025-03-31T01:49:22.615000+00:00",
+      "textSha256": "653c6a3236361392f05fa988961a91ad4a446ef96a01e599315688dadf05c8e8"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356082933097566440",
+      "timestamp": "2025-03-31T01:49:26.053000+00:00",
+      "textSha256": "a4d783225b538a0806315611fdbee9539dcaae636f18af07895c713ee244f9a6"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356082979755266181",
+      "timestamp": "2025-03-31T01:49:37.177000+00:00",
+      "textSha256": "b531a6250483cd85512516c18973193b3566b7efa130eb758f953242defe0326"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356083040144855156",
+      "timestamp": "2025-03-31T01:49:51.575000+00:00",
+      "textSha256": "e77611c58bdccaa15528c278a609f00791573e8ca075c580f1e343b4d79005a3"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356083050026500136",
+      "timestamp": "2025-03-31T01:49:53.931000+00:00",
+      "textSha256": "a56cdd429245d84fd503e2b4d8d54937cca4c2911505419d33b610951d8eb225"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356083396580737055",
+      "timestamp": "2025-03-31T01:51:16.556000+00:00",
+      "textSha256": "d4923b0e53ee5505236f0d81fd8e9b9b3941bf422b373c42aa70b9874de4f453"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356083459528855562",
+      "timestamp": "2025-03-31T01:51:31.564000+00:00",
+      "textSha256": "a6541611a30210ac7d77d2eedf5c8e703366cbf416727c7d1cbf380b39726687"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356083686419861504",
+      "timestamp": "2025-03-31T01:52:25.659000+00:00",
+      "textSha256": "725bef87934bd9e7ad876810a5d844eefc6bf7fea21ff473431c43dfbad812af"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356084064901402795",
+      "timestamp": "2025-03-31T01:53:55.896000+00:00",
+      "textSha256": "5c2207ec6d3d735f726b19304c7cbce0a7c6e3e2e0128ac52bdeb61a0ab6489f"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356084420230119507",
+      "timestamp": "2025-03-31T01:55:20.613000+00:00",
+      "textSha256": "fbe9eb1aeedc75e78a97447d671c9c75926ff348e9789449e140c0c87d04b0ca"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356087379022315661",
+      "timestamp": "2025-03-31T02:07:06.044000+00:00",
+      "textSha256": "c6bb7aa9fce2c45893e5d5ba01856129711aa0add3af696636024a9e7576abef"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356087461041934459",
+      "timestamp": "2025-03-31T02:07:25.599000+00:00",
+      "textSha256": "edbbc63ac4ed2123fb598a7f17476902ff12bc47ca10242e71f39205c1d9ac6b"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356087599357493308",
+      "timestamp": "2025-03-31T02:07:58.576000+00:00",
+      "textSha256": "0fef6fd7f3834a4f74ac8e28e85458779aa3395bf1f2e27ce82b699a33696b92"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356087881298346015",
+      "timestamp": "2025-03-31T02:09:05.796000+00:00",
+      "textSha256": "6acf671f5940776a76b43d056c79de1bf9210a5fbc7608a0b3e74f7dd1590887"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356087941167976508",
+      "timestamp": "2025-03-31T02:09:20.070000+00:00",
+      "textSha256": "fc192d34d814576bf9e62f853c0a277aa4c2f92a3e36785904ab846f8606cf8a"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356088158281928824",
+      "timestamp": "2025-03-31T02:10:11.834000+00:00",
+      "textSha256": "164588eacc65dd27d855efb1b8b7c501eb8e6f7ebb59a737d76d5994dcdfd43e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356088592555839490",
+      "timestamp": "2025-03-31T02:11:55.373000+00:00",
+      "textSha256": "accf9558a3d36ddfa3adb57ac6183825a4c0dabf619013c375c3b29a3481028c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356088907107926076",
+      "timestamp": "2025-03-31T02:13:10.368000+00:00",
+      "textSha256": "51c59540db2d076e38b0bc82cee88daa3ab50eb047635422758b0a7423e338ee"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356089801002057910",
+      "timestamp": "2025-03-31T02:16:43.489000+00:00",
+      "textSha256": "c9da76b3a0d540b620df6d76de6cef680a16273c57bc74d21697dfa2aeabe4f7"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356090035518177292",
+      "timestamp": "2025-03-31T02:17:39.402000+00:00",
+      "textSha256": "7e6eff8ed88290212e39afd7fe8d47da1da30f4ce12da102ab18867f4a94cf07"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356094023588380792",
+      "timestamp": "2025-03-31T02:33:30.232000+00:00",
+      "textSha256": "d3460474a128976a7dab90486a8ad26e8a1d1ef70372f49f8a21674d0dab8bf3"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356095250661376215",
+      "timestamp": "2025-03-31T02:38:22.789000+00:00",
+      "textSha256": "f3b4f095d9c5f254391e348d6ab995b3898ae65178c3b368e63f3b19578fc962"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356095490730754228",
+      "timestamp": "2025-03-31T02:39:20.026000+00:00",
+      "textSha256": "800c8b7bf4c8c0c31e78d2782c3b22666a67d1639e8fa598c30574618166b0ff"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356095974186942550",
+      "timestamp": "2025-03-31T02:41:15.291000+00:00",
+      "textSha256": "412874eee2c169c20004450e2cb80717caecc82b8f6bf2594eef828d32a822bb"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356096096585388073",
+      "timestamp": "2025-03-31T02:41:44.473000+00:00",
+      "textSha256": "083bd8593867eeea28413fc835932c3eef0e7f1dedbf320552e0ce71228f9011"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356096200138297434",
+      "timestamp": "2025-03-31T02:42:09.162000+00:00",
+      "textSha256": "41a730da7848157a16c367dba3579449678d36ee6fffe21e3acf530a938af065"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356096785596153928",
+      "timestamp": "2025-03-31T02:44:28.746000+00:00",
+      "textSha256": "38926a617e9bfdbf593fa48c3a886f136ad22885cbb1d4c0546e43f451b339b2"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356098066540925122",
+      "timestamp": "2025-03-31T02:49:34.147000+00:00",
+      "textSha256": "b109de4127a01d978f59d2c301f0fa8c189fd30b42f4ca7475bfa9efc5b36287"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356098284804112424",
+      "timestamp": "2025-03-31T02:50:26.185000+00:00",
+      "textSha256": "11ff91b21d7f08aa53fa97085f8272d63c76ba51495b8298d9f993be46ccc781"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356098530498056362",
+      "timestamp": "2025-03-31T02:51:24.763000+00:00",
+      "textSha256": "f68624336e55349be08ff7e5c352b2b655d6978ea23cf116f4c9a6b5642ac4c4"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356098705668968680",
+      "timestamp": "2025-03-31T02:52:06.527000+00:00",
+      "textSha256": "dff3ada714639f5cdf0d244a946e5e76bda97047333cbfbff32b701a365578d6"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356098925064360097",
+      "timestamp": "2025-03-31T02:52:58.835000+00:00",
+      "textSha256": "fbc2a238c0ccfbcf59346d5eb5b84edcfdeb06ec6549aa21d8cee9b17fd0887c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356099648434995261",
+      "timestamp": "2025-03-31T02:55:51.300000+00:00",
+      "textSha256": "b6c2dad84ba1628004d3b6343ecbb5764302103b6148086a250fb33e4107b3eb"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356100413987885140",
+      "timestamp": "2025-03-31T02:58:53.822000+00:00",
+      "textSha256": "31cd94756f5d37f1bf84618c96c5402964e5c417df6eb52fe95f76b7df623e8a"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356101017753751786",
+      "timestamp": "2025-03-31T03:01:17.771000+00:00",
+      "textSha256": "83009f6d71c61fafadf5d800b56acf775eef1299d53ccd2c8700828f291f45c6"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356101724619673743",
+      "timestamp": "2025-03-31T03:04:06.301000+00:00",
+      "textSha256": "c7236cdc975982f23c054eaf5a98da9aef952b406979ab73f4f7e282cd25c8d9"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356104279127101461",
+      "timestamp": "2025-03-31T03:14:15.343000+00:00",
+      "textSha256": "7fcece633bdd95a985eefc97b7c27cdafc7604c58d108cd9ec71d41237a6b287"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356104553304686765",
+      "timestamp": "2025-03-31T03:15:20.712000+00:00",
+      "textSha256": "21f9d726cd9b054607439f6790cec7a4aed6d5f405dcc8ff3a2a963aec7a2a2e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356105154880868464",
+      "timestamp": "2025-03-31T03:17:44.139000+00:00",
+      "textSha256": "3f7c2ff3bc82ba30decfe23feb39ad6c8448c4fa99841ebea8a5b05db61e8ae2"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356105767337332988",
+      "timestamp": "2025-03-31T03:20:10.160000+00:00",
+      "textSha256": "f5058c39704407223eb9414b6988baf3b63f4ab51599a06f56e0d1840d41b6ba"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356105806382108716",
+      "timestamp": "2025-03-31T03:20:19.469000+00:00",
+      "textSha256": "2ce901f8b1cdd878469a9d8b6c716c51457429978d139dfa57841e360212e27c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356106384730755102",
+      "timestamp": "2025-03-31T03:22:37.358000+00:00",
+      "textSha256": "a7acebc7274241450e0a085dda117f82314ca28d3d0f87ccbdc8327cf99ca794"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356106670052479027",
+      "timestamp": "2025-03-31T03:23:45.384000+00:00",
+      "textSha256": "24cd2845f6f326aaa6a45ed550eb4221df06440891078073d39b898abd00abd8"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356107770331529247",
+      "timestamp": "2025-03-31T03:28:07.711000+00:00",
+      "textSha256": "a9e15e9185c28bcd96d120d2b53a2779a891ced238e2709bd8b4dac8b2bc7d85"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356107805861482670",
+      "timestamp": "2025-03-31T03:28:16.182000+00:00",
+      "textSha256": "788091b7f10cb6b52ad23e6a0e317d7306d6cd21313c3c26f1f7d12ef162c2a6"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356108778986274826",
+      "timestamp": "2025-03-31T03:32:08.193000+00:00",
+      "textSha256": "ca680cd84938066597ab405bd98b9c330dc1e343f0331790a1d1e29658ddd6fa"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356109994814083163",
+      "timestamp": "2025-03-31T03:36:58.069000+00:00",
+      "textSha256": "8ddcb8eee25c4ef5e4e18ad814b9d470da6a088a3043887870ed96ca98508b1e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1356109996613570591",
+      "timestamp": "2025-03-31T03:36:58.498000+00:00",
+      "textSha256": "6410beae79c9da8733aab1bce0611ec60db7f5838fe93f70ee076842fc5f35cc"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552855583651143721",
+      "timestamp": "2026-09-25T01:33:41.804000+00:00",
+      "textSha256": "a1896900feed8c7f88ab6b681361eb599ceeccca8d3cc9cc13238e4b8dc94444"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552856402098393111",
+      "timestamp": "2026-09-25T01:36:56.937000+00:00",
+      "textSha256": "78addaa430055e806ee579a09b334a634970ffb3d35348ccaf7c457b347a4278"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552856454585782283",
+      "timestamp": "2026-09-25T01:37:09.451000+00:00",
+      "textSha256": "f0daf455627e89bc08c657ebe576a905dbb0280a1118aff6cc152de4a1d83531"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552856501406929058",
+      "timestamp": "2026-09-25T01:37:20.614000+00:00",
+      "textSha256": "8030ebdb87dbf649c89773db4df9830a628888ccb83726a1c3f10d6d388f2e27"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552856851824246875",
+      "timestamp": "2026-09-25T01:38:44.160000+00:00",
+      "textSha256": "936615ceac67d5a9dfd848254013c2987e99966939165c300acf065841a5b2a4"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552857692203126906",
+      "timestamp": "2026-09-25T01:42:04.522000+00:00",
+      "textSha256": "17d3e3190113869ef4552a60438aaf11c0ac8ec4ba0dee501a383724b7c77b96"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552857758007558268",
+      "timestamp": "2026-09-25T01:42:20.211000+00:00",
+      "textSha256": "8aca55eb2999ed662d36fe9ece0734d18758c9a999c74728e2fbb9ffc8853b00"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552858850514698260",
+      "timestamp": "2026-09-25T01:46:40.685000+00:00",
+      "textSha256": "37331bf5954ebe9a077e98c0dc61b982f8284a33a9d116ab5fb8c2bc2b10590b"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552860352943890554",
+      "timestamp": "2026-09-25T01:52:38.892000+00:00",
+      "textSha256": "f51e338fdebde8ecc7c08009188e18a93359e0f6ee1410b28ff8f226bb5bef24"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552860947524231269",
+      "timestamp": "2026-09-25T01:55:00.651000+00:00",
+      "textSha256": "ba9c6900f696a7ce2c4c09cba0dfa2c9dbe40a6556f6a9b5143d5aeed48dca53"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552861162008219762",
+      "timestamp": "2026-09-25T01:55:51.788000+00:00",
+      "textSha256": "e0245d0bfc146d773053447cc12843b1b1b3919ee8f9eaf3031452356ab1ab33"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552861313573855303",
+      "timestamp": "2026-09-25T01:56:27.924000+00:00",
+      "textSha256": "849a8a24d35df57b5fa12021af7e10c37cb771f105aba19804936f02e9fefa43"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552861706026225788",
+      "timestamp": "2026-09-25T01:58:01.492000+00:00",
+      "textSha256": "a8d320884b16e1fd77b0382a441da9bce292efd64b6b96598aec1d9fe542dfd5"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552862240657506416",
+      "timestamp": "2026-09-25T02:00:08.958000+00:00",
+      "textSha256": "976009cd9a9985527c1192f81965a89007c1966b2cce0bfa7d0bb41f6e596d4c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552864903914848367",
+      "timestamp": "2026-09-25T02:10:43.928000+00:00",
+      "textSha256": "438c6db7228716046c06195fa257b36e9e989c7a1373626cd57b5e1bb68f095a"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552865794164134020",
+      "timestamp": "2026-09-25T02:14:16.180000+00:00",
+      "textSha256": "b42da87e959419065004aa4f4c9e3ce204916a59e82e1daf27ca94949683f0aa"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552865874552291430",
+      "timestamp": "2026-09-25T02:14:35.346000+00:00",
+      "textSha256": "f5aa12372da081b4353ae9b54282e5cc244e9c1fe84cb34aefc369851866bf96"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552865876192264273",
+      "timestamp": "2026-09-25T02:14:35.737000+00:00",
+      "textSha256": "f4a66617b082b9c85ae6a23134bd1000a25a8285828c7b2da07e0c81a4b6d689"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552868100574290021",
+      "timestamp": "2026-09-25T02:23:26.071000+00:00",
+      "textSha256": "776910f33e36a1a31b1b9243d722c7fad6ca4f94a456bca7c0310ca2eaf0aff0"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552872830591434795",
+      "timestamp": "2026-09-25T02:42:13.795000+00:00",
+      "textSha256": "bf381b14fe17aa80fc810b2704f9ca421b0ff8febf7af35309405aac4b9d7df4"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552873220359590051",
+      "timestamp": "2026-09-25T02:43:46.723000+00:00",
+      "textSha256": "7b32c420284190fc4f1fa9c9bb0f92cf14d6da80ffaef933f7db0b6a358e2a2c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552873510001582114",
+      "timestamp": "2026-09-25T02:44:55.779000+00:00",
+      "textSha256": "666671cb2815f3a372669f38030af7994c68a99c18bd88980e16ee6e576f351a"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552874636306550808",
+      "timestamp": "2026-09-25T02:49:24.311000+00:00",
+      "textSha256": "2688adc0f21c16604d01d62fd88b50f849a7db1257b04c70bb392215a15f19c6"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552875332166483969",
+      "timestamp": "2026-09-25T02:52:10.217000+00:00",
+      "textSha256": "aee98cef0785d1c1723db35e6b49f4279f5e386fa43b7a2d9c4868312edb4522"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552875480674209855",
+      "timestamp": "2026-09-25T02:52:45.624000+00:00",
+      "textSha256": "92f9a79b46a835d0677d75e7dd13d382d2a74f80df5b4817b75eeee8377c662a"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552875898599120958",
+      "timestamp": "2026-09-25T02:54:25.265000+00:00",
+      "textSha256": "ff777823f0df5ee1db395597478f1b8a87cfe3dbc82fe99e16c7b778e0d31968"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552875980438380596",
+      "timestamp": "2026-09-25T02:54:44.777000+00:00",
+      "textSha256": "fbc66248a4a3cedd373e7f5af81d472ef6a2cf0478d3fce72be4752f71f68c24"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552876615371988993",
+      "timestamp": "2026-09-25T02:57:16.157000+00:00",
+      "textSha256": "eee34975c92a59e729f0cd291aed3dadb24dbafdff57affa6a7eeb38dcace40c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552878193806147705",
+      "timestamp": "2026-09-25T03:03:32.485000+00:00",
+      "textSha256": "8ccfd0fbc183bb2dbecd67747e1a6d7372367e7e64d61be6fa5db4a6ece06b74"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552879923142594621",
+      "timestamp": "2026-09-25T03:10:24.791000+00:00",
+      "textSha256": "d214d278bc3c850535a8db85826915efab2c9caea9b9d9035525bcbbcb4acccb"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552880000468910081",
+      "timestamp": "2026-09-25T03:10:43.227000+00:00",
+      "textSha256": "276be725c26372c5e129f82652f8a782a73393cfc63c5a08b18db34aa38ef26a"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552882237253357612",
+      "timestamp": "2026-09-25T03:19:36.518000+00:00",
+      "textSha256": "a1ebe3e371a8f1d130ad50da0c0d859bc5657ea7fd40dce9c1cde66efd5b16c3"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552883680349917287",
+      "timestamp": "2026-09-25T03:25:20.579000+00:00",
+      "textSha256": "391f2f15ff8396dac567487ae57a872aaffe70cfa549aceeff7647abedc2e238"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552888188761284669",
+      "timestamp": "2026-09-25T03:43:15.468000+00:00",
+      "textSha256": "565e49d7eb3918377c544bd9ced72d47e0cc857e92d21252ce11b57f580622bd"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552891012739891211",
+      "timestamp": "2026-09-25T03:54:28.757000+00:00",
+      "textSha256": "88ea756d5308ca247a5fc874787a439b4a03c5d11d2648652b0d347ba40588a5"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552892048061767751",
+      "timestamp": "2026-09-25T03:58:35.597000+00:00",
+      "textSha256": "3bf61a69bed9a82ba3c3b78c7ddeb1a452cf62f9941d8594906e460f63e85598"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552893274161942529",
+      "timestamp": "2026-09-25T04:03:27.922000+00:00",
+      "textSha256": "9675790d1aa09d5384f146c49b5db7261bc233a004ba59bdca2eace9247f72bf"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552894068978098298",
+      "timestamp": "2026-09-25T04:06:37.421000+00:00",
+      "textSha256": "b9adc7f0701e06a670c61d3e0f10d79eaebeadea632200db6ef5238f8edf0ae7"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552894071377498232",
+      "timestamp": "2026-09-25T04:06:37.993000+00:00",
+      "textSha256": "2f4b54900aef5ed1cdadd7f92821202d437cda2f6839959a793639e1900456b3"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552894239564894239",
+      "timestamp": "2026-09-25T04:07:18.092000+00:00",
+      "textSha256": "9229ce944cf8c8e940a5f38bfc050e423d9138a2a62b5da764b61c0b0c87160f"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552898709904167016",
+      "timestamp": "2026-09-25T04:25:03.904000+00:00",
+      "textSha256": "878e6d504ee8ac5365f60c925e3af94ba9a1e0551124a06fb9ac6f187be09947"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552898963286528023",
+      "timestamp": "2026-09-25T04:26:04.315000+00:00",
+      "textSha256": "a4305646a77e2891cc52cc15f86ee810d1a0beebb98cdd977eec9f53f37052ac"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552899292505841787",
+      "timestamp": "2026-09-25T04:27:22.807000+00:00",
+      "textSha256": "956a680199c44d2bb41115c9099afd207eb65f65107d82581e777b98c05b68b0"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552900575497297941",
+      "timestamp": "2026-09-25T04:32:28.696000+00:00",
+      "textSha256": "9c4ab3b25d7469d6428cda2fdf77a257b97262cbdb49c876922b9b1e8f5fc446"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552901380828823573",
+      "timestamp": "2026-09-25T04:35:40.702000+00:00",
+      "textSha256": "819ba44d7e64add4c67cc0bc2050700492b40073bbbdb608095e13d7759d724b"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552902581724913736",
+      "timestamp": "2026-09-25T04:40:27.018000+00:00",
+      "textSha256": "36bdda764845c60976a3d17a07517298d67275cdf17614ff2206c09cc9128ebf"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552903657761144924",
+      "timestamp": "2026-09-25T04:44:43.565000+00:00",
+      "textSha256": "b179b068338ae89e61c5dc105918cc74cfeb4366f54225d23bd95b8b150f4e05"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552904911178440805",
+      "timestamp": "2026-09-25T04:49:42.403000+00:00",
+      "textSha256": "a549c2de3482c08b071a14b311d41056d8cd6cb9966fedc14f53143484993417"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552904946347806871",
+      "timestamp": "2026-09-25T04:49:50.788000+00:00",
+      "textSha256": "869171ac320c46f629b790329752e1ff27e2e83e4a242e2fd1445b936f3d1eda"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552905900459823216",
+      "timestamp": "2026-09-25T04:53:38.266000+00:00",
+      "textSha256": "560c4ae587a372b370260d593bd36ab8a93043d464245e87ef87ca3aed9fff4b"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552907295891923066",
+      "timestamp": "2026-09-25T04:59:10.963000+00:00",
+      "textSha256": "92a1188ed1b46bbbd9e9f207d980fc07abaf5f5caf74b615f91b477bfebbcc0d"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552909337754861639",
+      "timestamp": "2026-09-25T05:07:17.781000+00:00",
+      "textSha256": "7d0ea54384b25f9f3671dc1f6782859711af8b88fcf45fd72e437144816f6fcd"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552909492109316130",
+      "timestamp": "2026-09-25T05:07:54.582000+00:00",
+      "textSha256": "ca6284be0c2d9daa2fc4e3277a3b19e9180c002f29cce0176442418596e79b77"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552909786750910525",
+      "timestamp": "2026-09-25T05:09:04.830000+00:00",
+      "textSha256": "9c26443473a85a9e5b62fcd46f07e1fd68a69ba5ee530374147a30441f6eab0d"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552909920301744129",
+      "timestamp": "2026-09-25T05:09:36.671000+00:00",
+      "textSha256": "d5577a1a070571420a1a3a4dbbdfa3a603890feebc993ef0c1be62d349d902ef"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552910103072477266",
+      "timestamp": "2026-09-25T05:10:20.247000+00:00",
+      "textSha256": "8095fe7ea206c0d44d6e51458391ba99423eb030c07826bd813a01cfabdb8f08"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552910144440901655",
+      "timestamp": "2026-09-25T05:10:30.110000+00:00",
+      "textSha256": "b002a7e5050bcc542e26f894afa33720bd9b648f9b2393a91989ab93ff780614"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552910539632541797",
+      "timestamp": "2026-09-25T05:12:04.331000+00:00",
+      "textSha256": "6015c9669f847958ce11d7908c88860dc99a6f0b172ea77a26852cd782183e9d"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552910729986838539",
+      "timestamp": "2026-09-25T05:12:49.715000+00:00",
+      "textSha256": "4a983d320c673d4481b73c8cfe8168c51110d30b1307d31ec4bcdb4a0499c6a0"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552910751424061585",
+      "timestamp": "2026-09-25T05:12:54.826000+00:00",
+      "textSha256": "6a70138652398afd7ae679255abf4dfc2fc4e99855dc28718c4ee77ad713df3e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552910865119051818",
+      "timestamp": "2026-09-25T05:13:21.933000+00:00",
+      "textSha256": "b11cb694c247253b6c83dbdb8892195865ea98d2811a0867ea80fa427dd51a15"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552911321664721007",
+      "timestamp": "2026-09-25T05:15:10.782000+00:00",
+      "textSha256": "fffd78565e0a231bf635f9235970c25ae138e4189ed29bc1a23b7481ad12cf1b"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552911550228996138",
+      "timestamp": "2026-09-25T05:16:05.276000+00:00",
+      "textSha256": "2761ff23254f9de4c243a0f66b914c8c740232199355000d1a91f44a5ad00573"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552911832963096638",
+      "timestamp": "2026-09-25T05:17:12.685000+00:00",
+      "textSha256": "27975b7ac1518a2f9d5d5527f3e8d1ee8552c6ade3580736c9fa36dcc0ad895b"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552912457851207791",
+      "timestamp": "2026-09-25T05:19:41.670000+00:00",
+      "textSha256": "c798f74a05990f78ec0cff71ad1db4408de700d60b8cd9568a834fc7fb93176e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552912584309608550",
+      "timestamp": "2026-09-25T05:20:11.820000+00:00",
+      "textSha256": "d5223eaaf381e11447eceb343c145ea67f944bb21c02d0318ed3764c6039ed1e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1552913910254932010",
+      "timestamp": "2026-09-25T05:25:27.950000+00:00",
+      "textSha256": "1de24b40a0c94fd3a0b05d0073116d227282766bf9fb709f79100d1dbbd5dac5"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557567681769513093",
+      "timestamp": "2026-10-08T01:37:53.542000+00:00",
+      "textSha256": "9f523a44116bca3a30f2d4e241d891e81c60a8ed146033b88db321d75ffd46fb"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557567928982052875",
+      "timestamp": "2026-10-08T01:38:52.482000+00:00",
+      "textSha256": "5e8d62a4ccc47c8d1f33d17e10adf57eea733c02d04f16d9900ba07f3194b90d"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557568328883638313",
+      "timestamp": "2026-10-08T01:40:27.826000+00:00",
+      "textSha256": "1414d43907ce6be36699551f4086294fa22a09c68358ed34744b01b61974ba00"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557568561117921401",
+      "timestamp": "2026-10-08T01:41:23.195000+00:00",
+      "textSha256": "ba37a2d802be7724928f2d8fede3dc192799e9eb25128893644c73320025e598"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557568637966221327",
+      "timestamp": "2026-10-08T01:41:41.517000+00:00",
+      "textSha256": "5b74a7bf43b71350d0e63fbc9292b6990654b0750dd9668cb9154e1a0fb485d9"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557569423336931380",
+      "timestamp": "2026-10-08T01:44:48.764000+00:00",
+      "textSha256": "2a04c7865800f2973b65d1bdbce1b50c8a507d499116bfbc1b3908662e4fe5ae"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557570137169858642",
+      "timestamp": "2026-10-08T01:47:38.955000+00:00",
+      "textSha256": "0cac63bfc53bd9f6f6b3094e5e7a20f4c2cf019277dc747ace9982253fce6345"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557570405273968691",
+      "timestamp": "2026-10-08T01:48:42.876000+00:00",
+      "textSha256": "540b3a78a379cc8c3153e85f798f42a28eddcbae4c69cee984c4f838aa1a5915"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557570532600184855",
+      "timestamp": "2026-10-08T01:49:13.233000+00:00",
+      "textSha256": "95704a57f2e04701310130eedea402e1d1c52600f53c7b78c14656f8f26cecad"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557571276023922789",
+      "timestamp": "2026-10-08T01:52:10.479000+00:00",
+      "textSha256": "cad8660d2bbf0c6f11ae95d09f9997cd2ad4f777d121d4d593e9e68180a0b499"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557571465618915480",
+      "timestamp": "2026-10-08T01:52:55.682000+00:00",
+      "textSha256": "56a0bfbab0499c26e5769c375736773342e05c1da6894ff9cdfcb40233fb58ef"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557571475068944487",
+      "timestamp": "2026-10-08T01:52:57.935000+00:00",
+      "textSha256": "6553292f689f94ca9e076e727fb92a6110fd8236b3da7bf4b3e9ed2830e54488"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557571746696134677",
+      "timestamp": "2026-10-08T01:54:02.696000+00:00",
+      "textSha256": "cfd530b6008b0de1e143c5c02f1e211c7e84b7f215216630a53343891198bc6a"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557572019350937602",
+      "timestamp": "2026-10-08T01:55:07.702000+00:00",
+      "textSha256": "75d19c0dfb886e7f8380d77d7b8c83ef1b4d89e0bc5131c63d50639e8ad49dbf"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557572104319275039",
+      "timestamp": "2026-10-08T01:55:27.960000+00:00",
+      "textSha256": "2aa932a2c0802c25a936b1aec2eb710beaec6a7ec67cd77ecbd4ea7fa2dabd28"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557572324864303156",
+      "timestamp": "2026-10-08T01:56:20.542000+00:00",
+      "textSha256": "4c719c25c23221819129274cd26ec6d24b155446543755671d5d162a26bf6eb6"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557572592049590394",
+      "timestamp": "2026-10-08T01:57:24.244000+00:00",
+      "textSha256": "5a6a27faeab221a10424c92bc08e226a4bb5013b99acc8ce7845c285e61b72b3"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557572601642094616",
+      "timestamp": "2026-10-08T01:57:26.531000+00:00",
+      "textSha256": "810e740549e4dd8767a58cf44f719e34d0f9ef62168a218745492429e39616c8"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557573117528776798",
+      "timestamp": "2026-10-08T01:59:29.528000+00:00",
+      "textSha256": "1bbc20ee96501dbcae2c66b6deaade35606f18a7dc0643928b4e634c6285e644"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557575187891879999",
+      "timestamp": "2026-10-08T02:07:43.141000+00:00",
+      "textSha256": "3a2cef7d45e81e6cdd145a540c9c9957602af8967dc85a4eedd2752a5fa3d87c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557575386655621255",
+      "timestamp": "2026-10-08T02:08:30.530000+00:00",
+      "textSha256": "94080fde4cb1e896ff828488670746c9b08010634e3d39762923a9d4e1ef28dc"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557575561746976859",
+      "timestamp": "2026-10-08T02:09:12.275000+00:00",
+      "textSha256": "67ed5187690fc978b315914ed003b666a88de5fe4228de50c60449e22b102c7d"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557576040770179133",
+      "timestamp": "2026-10-08T02:11:06.483000+00:00",
+      "textSha256": "e10d92d10cac276fe3a9a4c3561ed4cb9780969a82fbd1208fe7be3308aaea41"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557576357435805746",
+      "timestamp": "2026-10-08T02:12:21.982000+00:00",
+      "textSha256": "60051f22958cbcb51733d551608a59f2b56f4ef2be4837d0d7a7c68d9452ee81"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557578692983529544",
+      "timestamp": "2026-10-08T02:21:38.820000+00:00",
+      "textSha256": "624053377749987fae00eaeff512d4d945d37ee48001dc4b458bcf1394166a12"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557580547323207711",
+      "timestamp": "2026-10-08T02:29:00.929000+00:00",
+      "textSha256": "ed71e150d1cb8a0276bb58545c66da28c2e50070d84e77304f6da9eca2ba70ba"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557580567212728350",
+      "timestamp": "2026-10-08T02:29:05.671000+00:00",
+      "textSha256": "343bd68f7ac24216242e3eeddc4fc9408930d28b7a2adecce9ef9f4ff5995653"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557580638083612744",
+      "timestamp": "2026-10-08T02:29:22.568000+00:00",
+      "textSha256": "27efca9cfbe6cd1caa660e7e77636036ba6ef595ab1300683e42d2c6102b8494"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557581365141049355",
+      "timestamp": "2026-10-08T02:32:15.912000+00:00",
+      "textSha256": "52d18b8c9be13537b1fd683fb0bed9769660329a4d9b6ba4102fb6f99a09360e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557581457923383450",
+      "timestamp": "2026-10-08T02:32:38.033000+00:00",
+      "textSha256": "8f9e0b3e5109cdad153b5addfce3340436f07419c01a75d0c7e31fea7b2752cf"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557582798330663024",
+      "timestamp": "2026-10-08T02:37:57.611000+00:00",
+      "textSha256": "a4a09650f705f3b75d1f135e80a3e8ea58c171eb88aa187392de4b511b082495"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557583086496120900",
+      "timestamp": "2026-10-08T02:39:06.315000+00:00",
+      "textSha256": "d9a020e35f5aafc396937174f2711012c25934a80a8408c44d73d4bf35596193"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557583316075421709",
+      "timestamp": "2026-10-08T02:40:01.051000+00:00",
+      "textSha256": "c77b711754ff5a04e9dbfdea0fe8cbda88de9304305d79ec85b88fe2a61877dd"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557583594828992524",
+      "timestamp": "2026-10-08T02:41:07.511000+00:00",
+      "textSha256": "67c6a2384a6f893a5dd051dad744bdf98cef928835d8682de621462fca8c9cb9"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557583810609291317",
+      "timestamp": "2026-10-08T02:41:58.957000+00:00",
+      "textSha256": "9ef0b76cab8ab7770b241cac5fd8468fc9f91bd3e841788d22e1ffbf8ba49b5f"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557583946840023121",
+      "timestamp": "2026-10-08T02:42:31.437000+00:00",
+      "textSha256": "334eb84e8e1c0f0627aeb0f3072d06cfd6c77052bc51567a4406ea754c5ccd39"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557584257965232131",
+      "timestamp": "2026-10-08T02:43:45.615000+00:00",
+      "textSha256": "f5b002ac3321d2818bcf9c69b1649dcf0d09914a203e672e485655033384723c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557584483924971572",
+      "timestamp": "2026-10-08T02:44:39.488000+00:00",
+      "textSha256": "4c87ff4ba7f01765e3a7d159a0874652d6f8cef542dd7b9f7be6f4473feb58fd"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557585003871866941",
+      "timestamp": "2026-10-08T02:46:43.453000+00:00",
+      "textSha256": "067674c5687c3a98b3e85710e1498eb8cbd8e598ff58eb366d5b3661f366d6b6"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557585937200840736",
+      "timestamp": "2026-10-08T02:50:25.976000+00:00",
+      "textSha256": "4e537df90ff525392e6959db02c5f5c8a945c4d361bb7c9bfad592972998687e"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557588368186146821",
+      "timestamp": "2026-10-08T03:00:05.568000+00:00",
+      "textSha256": "b0f574488f5e18b6d6e010fc63b01887e55cb7b18313d0922783e3a1b8affa13"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557588512671268945",
+      "timestamp": "2026-10-08T03:00:40.016000+00:00",
+      "textSha256": "4fad590aa3d82d24a207df5e9d1d5a0fa18fc6ec71aec8189f1fd35836daaf9d"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557588785473003563",
+      "timestamp": "2026-10-08T03:01:45.057000+00:00",
+      "textSha256": "dd1dfbdb2042444c947e886e6eaa1b14d8c92f52f2ea24bd2679c4ad2fc962e6"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557592380906012693",
+      "timestamp": "2026-10-08T03:16:02.275000+00:00",
+      "textSha256": "4f5522113dc5f64e96677d402209b85aa69da911370693d1284cd41f12f54d9d"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557598033779236955",
+      "timestamp": "2026-10-08T03:38:30.025000+00:00",
+      "textSha256": "9209a4e6c96ba54a1da3907661dff6cbc48490b43cc99f770b947120f8434ff4"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557600063109206139",
+      "timestamp": "2026-10-08T03:46:33.855000+00:00",
+      "textSha256": "323737a44605cb49a1e2a2e3aae3d68ff98c9c6bb83997bfca9fdbc2730fac15"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557600462054625391",
+      "timestamp": "2026-10-08T03:48:08.971000+00:00",
+      "textSha256": "d81e2fb02ada334f95a275b04300bf3ac18d7c4f2e8c9fa3d9df44c20f7bf9c1"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557600986120458272",
+      "timestamp": "2026-10-08T03:50:13.918000+00:00",
+      "textSha256": "b180dc065a5da881db554f82950e72493c8dde4c41ac1e2bed52560b95fffa2c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557601103321899051",
+      "timestamp": "2026-10-08T03:50:41.861000+00:00",
+      "textSha256": "f6fd818774d27330a16b2d167948c39d0f004a459d4d65b9d01c87c6eb5f3c49"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557601224491012138",
+      "timestamp": "2026-10-08T03:51:10.750000+00:00",
+      "textSha256": "8eec70698bba6920dec1a55db342270efd051425aed3724c06dc8f8085a74913"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557601249363234847",
+      "timestamp": "2026-10-08T03:51:16.680000+00:00",
+      "textSha256": "d4b4fa222437050ebacec8e056d49778d16fbfd6d5a6f7022e1c92dd0321f340"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557601369509204011",
+      "timestamp": "2026-10-08T03:51:45.325000+00:00",
+      "textSha256": "53051c5f4d529bdfd1618354630926eb1d3674e13d63e3df86865e536b692590"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557601370276896792",
+      "timestamp": "2026-10-08T03:51:45.508000+00:00",
+      "textSha256": "1d9f15061e628fc9b6fc37874a98d864c724cf0f863fe25cb503d429ea8a337c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557601615500808206",
+      "timestamp": "2026-10-08T03:52:43.974000+00:00",
+      "textSha256": "52415dc9e9d56f3b53984e3f08e971e2e3356bbec31afbd6728d6b85d753aad5"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557604515757424762",
+      "timestamp": "2026-10-08T04:04:15.449000+00:00",
+      "textSha256": "ec6aec2a94fa972999ebc16fda7cacde206095b3373f3c892ffd3d33c3581c6b"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557605359525437502",
+      "timestamp": "2026-10-08T04:07:36.619000+00:00",
+      "textSha256": "36fa50c89882eda85306fb83d35b94f8d3b6345709556e21254974e72d7fd7fc"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557606006710730856",
+      "timestamp": "2026-10-08T04:10:10.920000+00:00",
+      "textSha256": "a96664a4cce61e650b38ebc29b848736a53e261962307b8710d02d61b1defbc4"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557608276039049243",
+      "timestamp": "2026-10-08T04:19:11.970000+00:00",
+      "textSha256": "bbee710818da3c333c84a87648b79bd4c4141e3bc128d15c51d7e4be3db924a2"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557608370389655584",
+      "timestamp": "2026-10-08T04:19:34.465000+00:00",
+      "textSha256": "7ce5371d96ebe5f31d8f457694c534ce4e1984c4233b75f693d224860c741f35"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557608418158706689",
+      "timestamp": "2026-10-08T04:19:45.854000+00:00",
+      "textSha256": "d4778265ba150e3ec569db34e75b1bb4bba429e6e0b2ba105fa6ee82cd3a57e0"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557609554273894421",
+      "timestamp": "2026-10-08T04:24:16.725000+00:00",
+      "textSha256": "fe0bbf3ed594bbdfd209eea7159f8ff46bb547927b25714ab06423fe67915ad5"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557611180170944696",
+      "timestamp": "2026-10-08T04:30:44.369000+00:00",
+      "textSha256": "8dfcfa7dd6caea11c3f9b31cb77c06e63a9fb1331161dc421e3fd6abbad566a1"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557611403123359807",
+      "timestamp": "2026-10-08T04:31:37.525000+00:00",
+      "textSha256": "f01fd08f61a4284c5fed887704401e43f0be31c7f43bd01f0ca12a103edac907"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557611457179287623",
+      "timestamp": "2026-10-08T04:31:50.413000+00:00",
+      "textSha256": "0c12b34ea7c782a548f61d32db3a8b4ba16bb39ded083bcc84bd739377ba5da2"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557611695445123163",
+      "timestamp": "2026-10-08T04:32:47.220000+00:00",
+      "textSha256": "9aac6c45ff344c04b7c17dc35cdd41853f346966ea044599924f6f97d3437175"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557611925054029922",
+      "timestamp": "2026-10-08T04:33:41.963000+00:00",
+      "textSha256": "10c08704651dad5d74260bbdbf0cf05fd1c160aea3fc278bbfe67b706df19e4c"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557612084294844469",
+      "timestamp": "2026-10-08T04:34:19.929000+00:00",
+      "textSha256": "1d021eab9422c2cfe5c08d454160c15d5ae9724ebf8cb7186c09354c387ebca1"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557612174799675423",
+      "timestamp": "2026-10-08T04:34:41.507000+00:00",
+      "textSha256": "ccf7cf473887c754a39d1bf6999a35028db2244e7902ace839de11ec80ed5c98"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557612503691694091",
+      "timestamp": "2026-10-08T04:35:59.921000+00:00",
+      "textSha256": "f35b36d1a43bccb3c030b8e0a4a7fb8eda5cd8d9cee29fc711e4486d2714c459"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557612651926786069",
+      "timestamp": "2026-10-08T04:36:35.263000+00:00",
+      "textSha256": "3fc8d786d126ccfeacecfb334ab912a416abb8c5de27f56bd8a347d69a4b1f76"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557613037089984583",
+      "timestamp": "2026-10-08T04:38:07.093000+00:00",
+      "textSha256": "5124761d96b0d5086dd9d10f2fb9d3960cae3603b211870b912e75a064546f39"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557613166907756586",
+      "timestamp": "2026-10-08T04:38:38.044000+00:00",
+      "textSha256": "de544de7b61291c3f78ec02153f6952b9ded2aa9f4e9cb9ea01212e9c3e80ac5"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557613478733160499",
+      "timestamp": "2026-10-08T04:39:52.389000+00:00",
+      "textSha256": "13b3d62284771e53d9d14eee2780c97c383a3c81b200628bd27a9f5beb4fcf3a"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557613765216833669",
+      "timestamp": "2026-10-08T04:41:00.692000+00:00",
+      "textSha256": "b317019f27946e1250666d7b9ba1ed0b00e0c54a29d6d1b5db6c7ba6f5374f44"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557613805674958959",
+      "timestamp": "2026-10-08T04:41:10.338000+00:00",
+      "textSha256": "9538adf212fe4ec8326c8a2635ce948aa57cb930948727fe6dd56091a91d7dcc"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557614046273085621",
+      "timestamp": "2026-10-08T04:42:07.701000+00:00",
+      "textSha256": "36e90ef11cc381910841ad9cbc685cfd49b12cff2e7d4b44984e10ab3ece3ecd"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557614065403306026",
+      "timestamp": "2026-10-08T04:42:12.262000+00:00",
+      "textSha256": "a8feec6decef231e1a704f19c17750ef066194dd5b2b90e1e246551d528a974a"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557614197670547599",
+      "timestamp": "2026-10-08T04:42:43.797000+00:00",
+      "textSha256": "d6f60efe428378ef61b46e927bf2afdd43ef8295b8968ce0b245e31074d1b48d"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557614291803181149",
+      "timestamp": "2026-10-08T04:43:06.240000+00:00",
+      "textSha256": "df7b3fc8286c4f53910ff2dc0e1a7c99560cdfb822b30bceea2abf2792b7340f"
+    },
+    {
+      "corpus": "rift-rp/rift-rp/.cache/history.sqlite3",
+      "version": "native API cache",
+      "channel": "1356070501163991211",
+      "id": "1557614406353948733",
+      "timestamp": "2026-10-08T04:43:33.551000+00:00",
+      "textSha256": "cd63283a181534d8025fa0c41fc0721f171a5128f1836b00022e2d1040446218"
+    }
+  ]
+}

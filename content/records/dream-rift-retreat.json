@@ -3,7 +3,7 @@
   "title": "The Dream Rift · The Retreat",
   "category": "History",
   "type": "Quest chronicle",
-  "dek": "A breach opens onto a dead titan and a living dream feeding on its weapon. The expedition is overwhelmed and leaves the tear unsealed.",
+  "dek": "Six travelers answer a doorway in the sky. Nightmares scatter their resistance, Harry is crushed, and the company’s escape leaves the breach unsealed.",
   "tags": [
     "Event stories",
     "Rifts",
@@ -13,7 +13,7 @@
   "facts": {
     "Recorded dates": "Source posts · 31 March 2025 · in-world date unresolved",
     "Setting": "Dreamlike space beyond the breach",
-    "People": "Expedition participants; names not recovered in this summary",
+    "People": "Arjahn; Harry; Lucido; Yllandaer; Magnus; Dez",
     "Importance": "Interregional"
   },
   "sources": [
@@ -26,9 +26,59 @@
     "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
     "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
     "#rifts — existing public account; original qualifications retained",
-    "#the-void — existing public account; original qualifications retained"
+    "#the-void — existing public account; original qualifications retained",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356079714913091715",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356079740829831319",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356080143411445811",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356080256934739969",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356080431694610445",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081775633371237",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082187325145110",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082918677549257",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082933097566440",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082979755266181",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083040144855156",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083396580737055",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083459528855562",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083686419861504",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356084064901402795",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356084420230119507",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087461041934459",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087599357493308",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087881298346015",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087941167976508",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356088158281928824",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356088907107926076",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356089801002057910",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356090035518177292",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356088592555839490",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356094023588380792",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095490730754228",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095974186942550",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356096096585388073",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356096200138297434",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356096785596153928",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098066540925122",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098284804112424",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098530498056362",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098705668968680",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098925064360097",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356099648434995261",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356100413987885140",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356101017753751786",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356101724619673743",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104279127101461",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356105154880868464",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356105767337332988",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356105806382108716",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356106384730755102",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356106670052479027",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107805861482670",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356108778986274826",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356109994814083163",
+    "https://discord.com/channels/1177270231513694249/1356070501163991211/1356109996613570591"
   ],
-  "body": "<p>A doorway opens in the sky across the realm, interrupting an ordinary cloudy day. Those who answer do so without knowing the threat beyond it. Entering carries them through a dreamscape of dead ideas, abandoned possibilities and glimpses that resemble their own dreams.</p><h2 id=\"chapter-1\">The weapon beyond the threshold</h2><p>The travelers find one another near a vast dead creature. Its body looks less like a warrior slain in combat than something consumed as food. Its fallen sword hangs in the strange space, and acolytes and a living dream are harvesting power from it.</p><p>The narration connects the feeding with the hole between realities. As the company looks toward the weapon, the creature eating at that opening turns toward them. The expedition has a threat to stop, but little assurance about the world in which it must fight.</p><h2 id=\"chapter-2\">Hunger and fear</h2><p>The battle attacks perception as well as flesh. Struck travelers see nightmares that frighten or paralyze them. One fallen adventurer is seized and crushed by a creature of hunger. A mental attack fails against seers described as mindless, intent on their feeding and their task.</p><p>These details make the defeat more than a tally of enemies left standing. The company is losing the ability to act coherently in a place where it already cannot reliably distinguish dream from reality.</p><h2 id=\"chapter-3\">The failed attempt</h2><p>The closing narration explicitly describes the party as overwhelmed and the attempt to seal the rift as a failure. Their remaining connection to their own reality gives them a way to escape. Leaving is the outcome, rather than a completed victory hidden inside a retreat.</p><p>The breach is not fully sealed. The final account warns of ripples and nightmares beyond the company’s knowledge and describes the day as a victory for Death. That warning remains a consequence announced in the scene; it does not identify every later nightmare as an effect of this particular opening.</p><h2 id=\"chapter-4\">What the survivors can carry home</h2><p>They have seen a dead titan-scale being, its weapon exploited, and a living dream feeding the breach. They have also learned that merely entering together does not guarantee they can finish the work.</p><p>The destination’s exact nature, the complete casualty record and the later fate of the opening remain incomplete. Its source date is preserved as a posting date. It must not be given the safe-return assumptions or successful closure of another rift encounter.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#the-void\">The Void</a></p>",
+  "body": "<p>A doorway in the sky draws adventurers away from unfinished work. Arjahn has been overseeing refugee housing in Gael; Magnus has left the archery range; Harry is tired of his studies. None knows what is waiting. Beyond the opening, the company finds a dead titan, a weapon being drained of power and enemies able to turn memory against them. By the end, the question is whether anyone can still get out.</p><h2 id=\"answering-the-doorway\">Work left unfinished</h2><p>Arjahn puts aside the weariness of paperwork and takes up his armor. Harry’s enthusiasm is more immediate: the chance of an adventure has interrupted a dull stretch of study. Lucido enters armored and eager to learn. Yllandaer packs away his camp and prepares his equipment; Magnus changes direction when the rift interrupts his walk toward the tavern. They answer separately, without a plan for what lies beyond.</p><p>The crossing gives them little on which to build one. Dead ideas and abandoned possibilities surround them. Their own dreams and nightmares become difficult to distinguish from the place itself. Yllandaer encounters giant butterflies. Arjahn, bewildered by flight and wings meant for protection, finds some steadiness in accepting that beauty and terror might coexist here.</p><p>When the travelers find one another, even that recognition is uncertain. Yllandaer waves without knowing whether the others are real. Magnus is awed and anxious. Lucido’s thoughts wander toward a wagon that could spare horses their work. The realm has drawn out different hopes before it shows the company what is feeding there.</p><h2 id=\"chapter-1\">The weapon beyond the threshold</h2><p>A vast dead being lies before them. Its remains suggest a body consumed as food. Its sword hangs nearby, and around that weapon acolytes and a living dream are harvesting power. The feeding has torn a hole between realities: the company has arrived where something is eating through the boundary of its world.</p><p>Yllandaer asks whether they should attack the acolytes, although he is still unsure whether his companions are figments. Magnus asks what this place is. Arjahn sees a beauty capable of destroying worlds, an interpretation shaped by what he has just crossed. None of these reactions gives them control of the scene.</p><p>The creature turns toward them. There is no interval in which the company masters the dreamscape or discovers a reliable way to shut the opening. They must fight while their understanding of the battlefield is still coming apart.</p><h2 id=\"chapter-2\">Hunger and fear</h2><p>The first blows reach into memory. Nightmares frighten and paralyze those struck. Magnus drops to his knees in tears, apologizing to his mother. Lucido recoils from the prospect of returning to Derlusk and tries to hide despite being unable to see. Yllandaer sees the knight he remembers destroying his home. The vision holds him still.</p><p>These are the fears the attack makes them experience; the dream does not provide an independent account of the people or places inside those memories. On the battlefield, their effect is immediate. Companions who entered ready to act can no longer move or judge what is in front of them.</p><p>Arjahn sees Yllandaer fall unconscious and voices his frustration with the company’s inexperience. Lucido answers that the others came when many would not. His defense matters in a fight already stripping them of confidence: he refuses to measure their willingness to help solely by how well they are surviving. Magnus forces himself upright and calls on his spirits. They are still resisting, but resistance is becoming harder to sustain.</p><h2 id=\"harrys-fall\">Harry falls within reach of the hunger</h2><p>Harry has been fighting with magic. Once he is down, the creature of hunger reaches him with inky tendrils. It takes his fallen body and crushes it. The scene offers no rescue between the grasp and the crushing.</p><p>Lucido sees Harry fall and charges the largest threat in anger. Magnus attacks with a flaming rapier near him; Yllandaer struggles back to his feet. Arjahn recovers from being stunned too late to prevent what has happened. The company keeps moving, but it cannot undo the blow by continuing the fight.</p><p>Dez arrives from Prima and sees the fallen rabbit. His attempts to turn an icicle dagger and infernal power against the enemy do not resolve the danger. A mental attack finds no mind to seize in the seers: they are described as intent on hunger and their task. Even an attack that might break a thinking opponent’s resistance has nothing useful to catch here. The defenders of the breach keep feeding while the adventurers lose people and time.</p><h2 id=\"blood-turning-to-ink\">The cost of staying</h2><p>Tendrils drain Lucido’s life, and the blood leaving him turns inky. His limbs grow heavy as that change hardens through him. What he is experiencing goes beyond the ordinary weakening of a wound. His body is becoming less able to carry out the resistance he still wants to offer.</p><p>Dez is badly wounded and clutches his head against the voices driving him away. Magnus receives healing, takes another blow and falls, then gets up again near the edge of his strength. Yllandaer wakes after being knocked unconscious. Their repeated efforts to rise do not create a stable line; another injury can undo the help almost as soon as it arrives.</p><p>Arjahn urges them to use everything they have if they want to live. Lucido eventually apologizes, believing he has failed and finding his hardening body unable to do more. There is no decisive reversal waiting behind that admission. The company has reached the point where remaining in the battle threatens to take away its last chance of leaving.</p><h2 id=\"chapter-3\">The failed attempt</h2><p>The expedition is overwhelmed. The attempt to seal the rift fails. Their remaining attachment to their own reality is the tether by which they can still escape, and Magnus disengages and flees toward the Material Plane.</p><p>Arjahn lies unconscious and heavily wounded, his chest barely moving. The account follows his fall into earth, space and darkness without settling his later condition. Yllandaer’s last contribution is a dying thought about those he can no longer avenge, holding to vengeance in the hope that it might serve him beyond. Neither can be folded into an account of an unharmed company simply stepping back through a door.</p><p>The closing narration gives the company an exit. It does not turn the failed sealing into a victory or supply a witnessed recovery for every fallen traveler. Harry’s crushing, Arjahn’s collapse and Yllandaer’s dying thoughts remain part of the price of the retreat.</p><h2 id=\"chapter-4\">What the survivors can carry home</h2><p>Magnus reaches the Material Plane and waits in town to see who else returns. Dez is sent back unconscious and badly beaten. Lucido leaves a trail of blood on the way to his house. These brief returns give the ending its scale: waiting, an insensible body, and someone hurt enough that his route home can be followed on the ground.</p><p>Behind them, the hole in reality has not been fully sealed. The final warning speaks of ripples and nightmares whose consequences reach beyond the company’s knowledge. It closes with the judgment that Death won that day. Death’s own appearance is a soft smile; no bargain or explanation follows it.</p><p>The travelers have seen the titan’s remains and the weapon being exploited. They have fought the things feeding there and failed to stop them. The later reach of the nightmares, and the complete fate of those who fell, are not supplied by this ending. What remains is an open breach, injured returnees and Magnus waiting for companions who have not yet appeared.</p><p class=\"chronicle-context-links\"><strong>People and places in this history</strong> <a href=\"#rifts\">Rifts</a> · <a href=\"#the-void\">The Void</a></p><p class=\"chronicle-context-links\"><strong>More of the company</strong> <a href=\"#lucido\">Lucido Spettoro</a> · <a href=\"#magnus\">Magnus</a> · <a href=\"#arjahn\">Arjahn Viruth</a></p>",
   "schemaVersion": 1,
   "protected": false,
   "readingLayout": "chronicle",
@@ -39,25 +89,49 @@
   },
   "sections": [
     {
+      "id": "answering-the-doorway",
+      "title": "Work left unfinished",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support this part of the story. Visions, character interpretations and proposed actions remain distinct from witnessed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356079714913091715",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356079740829831319",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356080143411445811",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356080256934739969",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356080431694610445",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081775633371237",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082187325145110",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082918677549257",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082933097566440",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082979755266181",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083040144855156"
+        ]
+      }
+    },
+    {
       "id": "chapter-1",
       "title": "The weapon beyond the threshold",
       "chapter": "The story",
       "evidence": {
         "kind": "quest",
         "label": "Quest scenes & attributed accounts",
-        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
-        "scope": "article",
+        "summary": "The cited quest scenes support this part of the story. Visions, character interpretations and proposed actions remain distinct from witnessed outcomes.",
+        "scope": "section",
         "sources": [
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
           "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
           "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083050026500136",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087379022315661",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095250661376215",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
-          "#rifts — existing public account; original qualifications retained",
-          "#the-void — existing public account; original qualifications retained"
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083396580737055",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083459528855562",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083686419861504",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356084064901402795",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356084420230119507"
         ]
       }
     },
@@ -68,19 +142,63 @@
       "evidence": {
         "kind": "quest",
         "label": "Quest scenes & attributed accounts",
-        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
-        "scope": "article",
+        "summary": "The cited quest scenes support this part of the story. Visions, character interpretations and proposed actions remain distinct from witnessed outcomes.",
+        "scope": "section",
         "sources": [
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083050026500136",
           "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087379022315661",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087461041934459",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087599357493308",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087881298346015",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087941167976508",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356088158281928824",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356088907107926076",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356089801002057910",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356090035518177292"
+        ]
+      }
+    },
+    {
+      "id": "harrys-fall",
+      "title": "Harry falls within reach of the hunger",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support this part of the story. Visions, character interpretations and proposed actions remain distinct from witnessed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356088592555839490",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356094023588380792",
           "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095250661376215",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
-          "#rifts — existing public account; original qualifications retained",
-          "#the-void — existing public account; original qualifications retained"
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095490730754228",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095974186942550",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356096096585388073",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356096200138297434",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356096785596153928",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098066540925122"
+        ]
+      }
+    },
+    {
+      "id": "blood-turning-to-ink",
+      "title": "The cost of staying",
+      "chapter": "The story",
+      "evidence": {
+        "kind": "quest",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The cited quest scenes support this part of the story. Visions, character interpretations and proposed actions remain distinct from witnessed outcomes.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098284804112424",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098530498056362",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098705668968680",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356098925064360097",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356099648434995261",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356100413987885140",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356101017753751786",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356101724619673743",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104279127101461",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356105154880868464"
         ]
       }
     },
@@ -91,19 +209,15 @@
       "evidence": {
         "kind": "quest",
         "label": "Quest scenes & attributed accounts",
-        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
-        "scope": "article",
+        "summary": "The cited quest scenes support this part of the story. Visions, character interpretations and proposed actions remain distinct from witnessed outcomes.",
+        "scope": "section",
         "sources": [
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083050026500136",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087379022315661",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095250661376215",
           "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
-          "#rifts — existing public account; original qualifications retained",
-          "#the-void — existing public account; original qualifications retained"
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356105154880868464",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356105767337332988",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356105806382108716",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356106384730755102",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356106670052479027"
         ]
       }
     },
@@ -114,19 +228,14 @@
       "evidence": {
         "kind": "quest",
         "label": "Quest scenes & attributed accounts",
-        "summary": "The cited quest scenes support the sequence. Character explanations, beliefs and offers remain attributed; missing outcomes are not reconstructed.",
-        "scope": "article",
+        "summary": "The cited quest scenes support this part of the story. Visions, character interpretations and proposed actions remain distinct from witnessed outcomes.",
+        "scope": "section",
         "sources": [
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356078551576875211",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356081497366593719",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356082751924731994",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356083050026500136",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356087379022315661",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356095250661376215",
-          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356104553304686765",
           "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107770331529247",
-          "#rifts — existing public account; original qualifications retained",
-          "#the-void — existing public account; original qualifications retained"
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356107805861482670",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356108778986274826",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356109994814083163",
+          "https://discord.com/channels/1177270231513694249/1356070501163991211/1356109996613570591"
         ]
       }
     }

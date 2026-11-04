@@ -1,6 +1,16 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-03
+Last updated: 2026-11-04
+
+## Dream, volcanic and coastal rifts · 4 November 2026
+
+The owner asks to continue. Three thin Interregional event destinations become seven-chapter stories: dream 1,267 words, volcanic 1,240 and coastal 1,167. The accounts follow six named travelers into the dream defeat, Farkur and the company through the renewing crystal’s defenses, and Nymera/Fenwick/Vessalia through the coastal fight and its care afterward. Details: FINAL_RIFT_STORIES_2026_11_04.md and final-rift-stories-review-2026-11-04.json.
+
+All text in bounded 64/104/107-row native quest windows is read; all205 cited source versions match. Harry’s crushing, the failed sealing and the injured returns remain explicit without an invented complete casualty/resurrection account. Visions and Death’s smile do not prove hidden history or motive. Disintegrate is offered, not assigned the final blow; crystal renewal and banishment are encounter-specific. The unknown impact does not land in a named settlement. Nymera’s endurance and praise remain attributed; no divinity, immortality, loot, army origin or new geography is inferred. Early source dating remains unresolved. No new generic/unclassified profile, hidden patron detail, raw/controller/rules or joke material is added.
+
+Eight existing records, three library descriptions/review rows, six short reading links and three event people/summary fields change. All twelve old chapter IDs/titles and older sources/context prose/profile facts/media/roles survive. All392 event dates/ratings/regions and other389 event objects remain exact;269 people, maps/quotes/261 previews and complete private payload survive. The owner confirms atmospheric use of the six supplied artworks; two existing themes are reused on volcanic/coastal stories. All12 definitions/44 old assignments survive, now46. No new media bytes. Catalog312 has655 records/606 bodies/2,957 sections,367 public events and42 stories/39 library entries; app273/reader15 remain. No runtime/style/dependency/workflow change.
+
+Static/source/preservation checks pass. Focused Chrome passes three complete stories/73 paragraphs,21 bookmarks/reload/focus, six fresh mobile layouts/header clearance, nine widths and21 actual guide/profile/library/timeline journeys, source/fact/search/calendar/protected boundaries without script/public HTTP errors. Representative screenshots are inspected. Existing rift and event-story regressions pass all35 major destinations/42 pages. Both reused backdrops decode, clean up and show reduced-motion posters without movie transfers. Initial broad-check timeouts were a blocked preview logging pipe; a verified server restart with file-based logs resolves them without site changes. Publication receipt follows.
 
 ## Six background artworks · 3 November 2026
 

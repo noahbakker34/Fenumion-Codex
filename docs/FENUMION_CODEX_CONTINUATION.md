@@ -1,6 +1,12 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-04
+Last updated: 2026-11-05
+
+## Three quest NPC histories · 5 November 2026
+
+The owner asks to continue building. Liora Fenwick, Vysaeth and Talan gain thirteen continuous chapters across their existing pages. Liora’s guide, disclosure, consent questions and later public ceremony remain distinct; the mountain ritual is unfinished in the checked account. Vysaeth’s self-justifying journal sits beside the observed empty city, silent conduit, Quake’s promise and disastrous departure. Talan’s public battle role, Aria’s death, Death’s separate killing of the troops, contested justice and later attributed reports retain their different evidence. Existing sealed encounters stay excluded. Details: QUEST_NPC_HISTORIES_2026_11_05.md and quest-npc-histories-review-2026-11-05.json.
+
+Ninety-four public cited original versions match the hash-verified quest export. All six older chapter IDs, Vysaeth/Talan’s older narrative, Liora’s folded census information, original portraits/scenes and sources survive. Two first-mention links connect existing stories to the fuller NPC pages. Three directory summaries and Liora’s role label advance without changing identities, island associations or rankings. All 401 timeline objects and the complete private payload remain exact. Catalog 315 keeps 662 records/613 complete bodies, now 3,028 sections; 269 people, 376 public events/45 histories/42 library entries, 111 places/261 previews remain. App274/styles177/reader15 unchanged; no new asset/runtime/dependency/workflow stage. Static/source/preservation checks, the full 134-subject biography gate and focused reading/bookmark/mobile/media/search/protected-boundary checks pass. Publication receipt follows.
 
 ## Navigation and media bug audit · 4 November 2026
 

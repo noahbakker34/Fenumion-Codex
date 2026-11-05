@@ -16002,7 +16002,7 @@
         "title": "Vysaeth",
         "meta": "King, lich, witness",
         "article": "vysaeth",
-        "summary": "A ruler whose testimony becomes an early lens on Roderick and Endora."
+        "summary": "A king found in his silent underground city, whose journal explains why he chose lichdom to guard his people’s treasures."
       },
       {
         "title": "Commander Yvette",
@@ -16520,7 +16520,7 @@
         "title": "Talan",
         "article": "talan",
         "meta": "God of Justice and Order",
-        "summary": "A divine figure whose confrontation with Aria and attributed place in Voraketh’s history carry lasting consequences.",
+        "summary": "The god of Justice and Order holds Death’s forces at bay, kills Aria in their confrontation, and leaves a disputed demand for justice behind him.",
         "prominence": {
           "consequence": 5,
           "institution": 4,
@@ -16601,8 +16601,8 @@
       {
         "title": "Liora Fenwick",
         "article": "discovery-013",
-        "meta": "Mission and ceremony figure",
-        "summary": "Welcomes adventurers in the Unwelcoming peaks with an account of prophecy and later addresses a Pristinian celebration. Her prophetic statements remain her own.",
+        "meta": "Scholar, mountain guide and ceremonial speaker",
+        "summary": "A scholar who leads the Azarian Peaks expedition to save Vasatzi, then gives Pristinia’s adventurers a public voice at the Heroes’ Revelry.",
         "prominence": {
           "consequence": 3,
           "institution": 3,

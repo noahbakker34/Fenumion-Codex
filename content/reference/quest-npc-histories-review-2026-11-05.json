@@ -1,0 +1,592 @@
+{
+  "reviewedAt": "2026-11-05",
+  "sourceClass": "original quest export; attributed journals and public speeches",
+  "scope": "Selected scene bodies read in bounded original quest windows and the festival, funeral and later report. Window indexing is not exhaustive reading. No attachment or whole-archive certification. Existing sealed encounters excluded; their identifiers and details are not included.",
+  "sourceSha256": "109d61f559cc3dd5e4a072cf206c885e934ac197c3dcd001d17dcb050c2b03d6",
+  "articles": [
+    "discovery-013",
+    "vysaeth",
+    "talan"
+  ],
+  "contextLinks": [
+    "azarian-peaks-expedition",
+    "arias-last-battle"
+  ],
+  "newRecords": 0,
+  "oldDestinationsPreserved": true,
+  "timelineChanged": false,
+  "mediaChanged": false,
+  "privateChanged": false,
+  "legacyCensus": {
+    "Census posts": "40",
+    "Recorded span": "2024-07-12 → 2024-11-01",
+    "Prominence": "59/100 · Provisional",
+    "Recorded presence": "11/20"
+  },
+  "receipts": [
+    {
+      "message": "1259676617932931195",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T18:05:09.375-07:00",
+      "contentSha256": "6708b8e04d61339db64730bff7176db0d12ffadeca444c433fe94facf3e31c3f"
+    },
+    {
+      "message": "1259677108095942726",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T18:07:06.239-07:00",
+      "contentSha256": "25cec65d8529b636097457e0a60955189f24f40c562c0aadb3d494147b6fa414"
+    },
+    {
+      "message": "1259678650081476730",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T18:13:13.877-07:00",
+      "contentSha256": "9bfc629f108dd0b58f4c6bc09e382d471abab64cad574ace84482a62aad101b2"
+    },
+    {
+      "message": "1259686124910018561",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T18:42:56.015-07:00",
+      "contentSha256": "fbb6c5a3d99dc988464b1c760e17f9a9d1762acd1cca40db4cb26fec31fddce6"
+    },
+    {
+      "message": "1259693382159044659",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:11:46.278-07:00",
+      "contentSha256": "876959af89feb8c8ab8dd926fd79f05779efdc24c22aeb34005468774d721bd5"
+    },
+    {
+      "message": "1259693768202915890",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:13:18.318-07:00",
+      "contentSha256": "e60a47083f8ec7d0e7771abe2326d142a351f5e87f8bc8e7905d2d2717410d24"
+    },
+    {
+      "message": "1259694630887493662",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:16:43.998-07:00",
+      "contentSha256": "757727e0ae7f84966d744490d66a5961e9f22e3be8f7b0c69c583147a13d2fc5"
+    },
+    {
+      "message": "1259695262562127902",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:19:14.601-07:00",
+      "contentSha256": "b188f9978c45a0c13b2986038563c2b0a018117b8bd3f0d7d501b6a5c1b238c0"
+    },
+    {
+      "message": "1259696291437613066",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:23:19.904-07:00",
+      "contentSha256": "4d0b357bed3fc329415d673f3b7648ec923b26e4ca1b71994fac1ccfc6ed84fe"
+    },
+    {
+      "message": "1259698546777788418",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:32:17.619-07:00",
+      "contentSha256": "262018716a1ed1e73fea4fd83f70ea59a4c316c5c3e7dac23dc86a2886f8f8b5"
+    },
+    {
+      "message": "1259698634086154250",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:32:38.435-07:00",
+      "contentSha256": "dc1c91c9330fcbae2805e1cc127f44151becebe2c1a58fc7c3f522be052f5730"
+    },
+    {
+      "message": "1259699284673302669",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:35:13.547-07:00",
+      "contentSha256": "9bd9b713b76d1720fd3c127445de099b3d5809fa510e04535ee88856f390e741"
+    },
+    {
+      "message": "1259700203771138109",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:38:52.677-07:00",
+      "contentSha256": "21f6f42a9f030c4b979973f47aaba526199bea82acf223188dd43142faeae295"
+    },
+    {
+      "message": "1259702332803780679",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:47:20.278-07:00",
+      "contentSha256": "64d31ba35ab864e5c99801c05f42abd86bc42a4b76da8b36866869b7102c336f"
+    },
+    {
+      "message": "1259702698941612115",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:48:47.572-07:00",
+      "contentSha256": "f0ce133962746cf194085b4f3360a8d2bb27add2de092f78fe9a9b7bcea431c5"
+    },
+    {
+      "message": "1259704019522424855",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:54:02.423-07:00",
+      "contentSha256": "233729f9a114d944dfcf039c5619688232d06313ebcab42a66bd9e4b8c3e230a"
+    },
+    {
+      "message": "1259705227771379743",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T19:58:50.492-07:00",
+      "contentSha256": "8ee8428da7ff895005e88ec6e70b179a0e092895d32b0aa5ca3e3515317bf77d"
+    },
+    {
+      "message": "1259705521619861515",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:00:00.551-07:00",
+      "contentSha256": "1e8af7ffac59400a8dc80a81ba9745283b36851fa53c7701ea9d7b84b8799b48"
+    },
+    {
+      "message": "1259705653606219927",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:00:32.019-07:00",
+      "contentSha256": "41dc314ca1e5cc93ef34251cbfa9e30af8818bf92eef313d09b120035e129d61"
+    },
+    {
+      "message": "1259706432023040030",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:03:37.608-07:00",
+      "contentSha256": "06f442a413cdf1fa560270780109f507b9c6e0d1140d59c86e28b1973cbfeaba"
+    },
+    {
+      "message": "1259707552011124826",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:08:04.634-07:00",
+      "contentSha256": "d9476b92b507808be65c59785aa8e2946232241703212788826596aa5fcec0a7"
+    },
+    {
+      "message": "1259707886393626657",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:09:24.357-07:00",
+      "contentSha256": "97251b856a18a3a2a399bcd71947cad2178bdd3643239202ebf2d5c8fd1f34c9"
+    },
+    {
+      "message": "1259708149238071369",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:10:27.024-07:00",
+      "contentSha256": "6fd904ff50c29bf99851050967364f19f491a9f0f623b98e1f7ef4d4c3531985"
+    },
+    {
+      "message": "1259708615556857998",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:12:18.203-07:00",
+      "contentSha256": "dc5224b6d5f2d222a13c81d2b575681ef5c8eab0960d2316248dd1ebd65ddb6d"
+    },
+    {
+      "message": "1259709277229285376",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:14:55.958-07:00",
+      "contentSha256": "63063f9f49dca9c9b74e85a304dafb40bd9caf5ae4379416ec43f0fc76d9c6a9"
+    },
+    {
+      "message": "1259710033294262376",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:17:56.218-07:00",
+      "contentSha256": "6c4be70169f9d665e60a39d3cb50dbeb4a0ce6cb88b450b4d0bb8b7d54ce1f4a"
+    },
+    {
+      "message": "1259717078819016727",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:45:56.002-07:00",
+      "contentSha256": "43e6c1f14ccdb5bc8e89266fae476d9195c41f20c622cd6992eccd9787bcb706"
+    },
+    {
+      "message": "1259718370631352333",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:51:03.994-07:00",
+      "contentSha256": "78a04536b2d38b42180bb3457059924d965dedc577761cd4e50694db95045e0c"
+    },
+    {
+      "message": "1259720173460652092",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T20:58:13.822-07:00",
+      "contentSha256": "6a788b3cd58552854055dd7382f7062120c22957f55d89e213c8c1a9d19b126d"
+    },
+    {
+      "message": "1259725355137110017",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T21:18:49.23-07:00",
+      "contentSha256": "1f9fee2d2033d0ae97f73f9c35c953e77ec5adbd0f61252b53833bab22766452"
+    },
+    {
+      "message": "1259728725298380810",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T21:32:12.739-07:00",
+      "contentSha256": "4c5c58ea550e1c500859e811d3ec922c949f0b11cebcbb8f6f9a9d1eb58de0dd"
+    },
+    {
+      "message": "1259731475398524949",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-07T21:43:08.414-07:00",
+      "contentSha256": "3a10627d64001e7e94fed013982e6a0ad854e8734d541c683768a31469de3cc3"
+    },
+    {
+      "message": "1261473447582634017",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:05:06.947-07:00",
+      "contentSha256": "eb2b5116c2bffcbd9257e59cbc3d7866a6c8ec9f6ce909b137ddf7d0a381e739"
+    },
+    {
+      "message": "1261473546727854211",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:05:30.585-07:00",
+      "contentSha256": "64436adbb3218abded27f6688603f341f49f07b67016042527389e6aa72b017b"
+    },
+    {
+      "message": "1261474514584338574",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:09:21.34-07:00",
+      "contentSha256": "cb84f44224269bb5d07487c22d238fc3b887965144a9968e986970a2ce0de906"
+    },
+    {
+      "message": "1261474994328965174",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:11:15.72-07:00",
+      "contentSha256": "06d0b325fbf69854eac0865cc6af258aa9e87910a28a2eb3a4ab355e0e9abd8b"
+    },
+    {
+      "message": "1261475308855623683",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:12:30.709-07:00",
+      "contentSha256": "78e633010723b23f220008c025bb6c4c02ba9415a8ce2b1ab8ebbcc0ac8eedb0"
+    },
+    {
+      "message": "1261475579211812991",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:13:35.167-07:00",
+      "contentSha256": "9cd5308bfb3229a3aefb286333ef2c18bee2c04beaf24b9f09feb049736052f5"
+    },
+    {
+      "message": "1261476630581215292",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:17:45.833-07:00",
+      "contentSha256": "f7f377414285fe0f57c4829aa0864d3e5267031e6ab311ebc5d643e4f485ff4e"
+    },
+    {
+      "message": "1261476764559872060",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:18:17.776-07:00",
+      "contentSha256": "2fe3523a62bc30ae409fa5b1de6e1e29c78ea7df30e34a1a46045dcb156f9d31"
+    },
+    {
+      "message": "1261477988747313256",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:23:09.645-07:00",
+      "contentSha256": "54d85010086b58aab27b2b85df0e1dd0bbfa3e7f034dd231c0ed451342bebedf"
+    },
+    {
+      "message": "1261478675518455821",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:25:53.384-07:00",
+      "contentSha256": "50e7e8a1aa88a162e9997d13c36a840da4ed312f07b071ebce4f92fea4a80f48"
+    },
+    {
+      "message": "1261479204848144434",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:27:59.586-07:00",
+      "contentSha256": "e75c860029c65c965e19c160f1f1b4da2abfa0d9d7a36a96ff38111debe7ce3c"
+    },
+    {
+      "message": "1261479254542254122",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:28:11.434-07:00",
+      "contentSha256": "36655e3b0a731f69108fa206c1c6691128951303f714c237c8f37e87a18f4b1a"
+    },
+    {
+      "message": "1261479574613786694",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:29:27.745-07:00",
+      "contentSha256": "3536e6c3e9f1a4571037fb9580fd240a2e51b422ce40a1d10714b4217aa21491"
+    },
+    {
+      "message": "1261479817120055398",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:30:25.563-07:00",
+      "contentSha256": "a36ea149e06d6f375a879156fbd5b69c942bde2df97cf3b237a82a4b95d28d3c"
+    },
+    {
+      "message": "1261480503064789103",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:33:09.105-07:00",
+      "contentSha256": "68b0207d39209bab8dedeacc8226b6a394fbefa9c0e90932fd1f0d881655a106"
+    },
+    {
+      "message": "1261482916634951741",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T17:42:44.545-07:00",
+      "contentSha256": "2daa0fc6d6b4e5d423bc695465f80c0a06a6769fa523daa43244bcfefd45fb72"
+    },
+    {
+      "message": "1261500780570083411",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T18:53:43.639-07:00",
+      "contentSha256": "cba1352225636912f1a0da04842cab5e4fbbf5489d217631e2171cc4598b8811"
+    },
+    {
+      "message": "1261501235274711122",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T18:55:32.049-07:00",
+      "contentSha256": "f94fead80e10f7a00a9f2de236ec568459d6b6445ebe71ce9f197143a9c94cfa"
+    },
+    {
+      "message": "1261501509502500884",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T18:56:37.43-07:00",
+      "contentSha256": "0f713db5cbdf6e5c6ad04b91787b2dcf04989f8a8e41dda8c68b078fc053a444"
+    },
+    {
+      "message": "1261501977934827590",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T18:58:29.113-07:00",
+      "contentSha256": "2f690dad3ec9b2cae412f8d60007f78347b6e5ece19c6d32565111bf3c57a98c"
+    },
+    {
+      "message": "1261504990825025576",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T19:10:27.442-07:00",
+      "contentSha256": "7bf5c106ef0452e565b6fdf0d163f47c35e5e87e77f4a609722e03c5d1aa6ccd"
+    },
+    {
+      "message": "1261505836673536053",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T19:13:49.108-07:00",
+      "contentSha256": "d156a4a116855a1df4a2c9c9d690c2f767b70bfa6edc57757dd8e83abe85f3ab"
+    },
+    {
+      "message": "1261506607355920400",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T19:16:52.853-07:00",
+      "contentSha256": "d241ee67472b14c267d56320a919416ef728cb10fc68f3eb95c3f9e20ad893e2"
+    },
+    {
+      "message": "1261509661694103622",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T19:29:01.064-07:00",
+      "contentSha256": "592ab069a17dfd5b59cf85d9553f31b75f4eb650caac420dd4fcd0fdc74ab119"
+    },
+    {
+      "message": "1261510249609957449",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T19:31:21.234-07:00",
+      "contentSha256": "fad1c8fce8872fd8adbd40cc56322fd62c94e8867556edc78d39cf052c0b12fe"
+    },
+    {
+      "message": "1261510346439393342",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T19:31:44.32-07:00",
+      "contentSha256": "b5cd3bb4005fbd46ca46069b7af8d6744a66b5854c2cde2bae045a42d300f1e7"
+    },
+    {
+      "message": "1261515688066154538",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T19:52:57.863-07:00",
+      "contentSha256": "9fe07ce22de0caa2a5d7932aef5494cf6b3ab5fc62537ce3abd93f79d4fa6b9a"
+    },
+    {
+      "message": "1261525590713045045",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T20:32:18.838-07:00",
+      "contentSha256": "a911063f986f0a7414182cdc26ad57a8969e303e681f4a77de435d73a7fab23d"
+    },
+    {
+      "message": "1261527293348810905",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T20:39:04.778-07:00",
+      "contentSha256": "81b466d9e9ed3cb713fe7b6c45f5cc2502210cceacadcb08bfd2c3c3c080650c"
+    },
+    {
+      "message": "1261527645472952423",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-12T20:40:28.731-07:00",
+      "contentSha256": "2e041143eb891821747cbe67f3b898fee44031d3e5f02a5e23ff3315db9eb799"
+    },
+    {
+      "message": "1302064273165389835",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-11-01T17:18:33.907-07:00",
+      "contentSha256": "c9bc89c6f77d5751af57fe856d43bd6f6bf169ec606296da6f1c6befe3d1ec58"
+    },
+    {
+      "message": "1302104665235918939",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-11-01T19:59:04.127-07:00",
+      "contentSha256": "3ab12fb09eaf6d4e6a1362579f15a8c3ce80be9fc4af36b549a413f9df623f0c"
+    },
+    {
+      "message": "1302105778030772225",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-11-01T20:03:29.438-07:00",
+      "contentSha256": "834c656bbbe33730f757360024c941277fe3b53bfa0eda6fb45abcb424138d7a"
+    },
+    {
+      "message": "1302107196368097280",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-11-01T20:09:07.596-07:00",
+      "contentSha256": "bbca75d13d95252fc4b85ec56d1a14188c016e81a02a3831ca11dd1f41ffa73c"
+    },
+    {
+      "message": "1302109342127882364",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-11-01T20:17:39.185-07:00",
+      "contentSha256": "081d72e0bfb5e20349870bc0c3bb8b4d12054833f8155be14b2188bd676dedb0"
+    },
+    {
+      "message": "1436189761218805881",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T19:05:22.19-08:00",
+      "contentSha256": "1080699b2e8ff242f6c4dee2432c342902522a1d8e01ec933a9e7285616e16bd"
+    },
+    {
+      "message": "1436189840797335695",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T19:05:41.163-08:00",
+      "contentSha256": "b4d30b79dd6d279f71142af7961e0f39eb53d6bcb94a645cea8b3fc2a97dbd63"
+    },
+    {
+      "message": "1436191735180034078",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T19:13:12.819-08:00",
+      "contentSha256": "cda2224e0ce92bfca40a2805a575bf885dd5a6630fdf02c67b6811f567e7706c"
+    },
+    {
+      "message": "1436195302410555492",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T19:27:23.313-08:00",
+      "contentSha256": "d5d13095edc94164094e506f52504384a2ec5a529fc26ae816e1629bcc4bbca6"
+    },
+    {
+      "message": "1436197503333564589",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T19:36:08.054-08:00",
+      "contentSha256": "0a6445f3dc789d6dae9caf5e920be0eff6f2065be43f20e9f74bfa2d49448e65"
+    },
+    {
+      "message": "1436199104828018821",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T19:42:29.88-08:00",
+      "contentSha256": "49a1d52f9647457338763798dfa7ae6c0bd7e15824d285ac9fa2ec3aa28f57a7"
+    },
+    {
+      "message": "1436199547222360079",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T19:44:15.355-08:00",
+      "contentSha256": "4ab17bb43e902ea49424a616e2d25a040953066579f472589f3e563dbf1142fa"
+    },
+    {
+      "message": "1436200280738762999",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T19:47:10.239-08:00",
+      "contentSha256": "4057ca798af30f1cc576dbeeb7ad5cb50f41416c810e4102c4925f6101f321f8"
+    },
+    {
+      "message": "1436204334655213598",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:03:16.768-08:00",
+      "contentSha256": "8779de78a84312a4386bf5113c9a237bde2da2ee92bb8b6c517e66a02e9681c3"
+    },
+    {
+      "message": "1436205425954652201",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:07:36.954-08:00",
+      "contentSha256": "cd0aa56821e713c6e9a3b49cc3393ae72cd4a19d74cca13e977d3176484ab160"
+    },
+    {
+      "message": "1436207730229510154",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:16:46.336-08:00",
+      "contentSha256": "b3920315f3a624bbbdff1f13daa6eab758148246a9d8b3e3f801009528dd0197"
+    },
+    {
+      "message": "1436207821971656805",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:17:08.209-08:00",
+      "contentSha256": "380e4f2d82cdfbc36b84137276fcec98d972f1ea66c9c0256573801e2e199205"
+    },
+    {
+      "message": "1436208235895066624",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:18:46.896-08:00",
+      "contentSha256": "d015e7fbc3910f954d89cc465d3fc6b7946ded6724b0bd344c7db5fadf3842c3"
+    },
+    {
+      "message": "1436209423864303656",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:23:30.13-08:00",
+      "contentSha256": "51bc1db44420bf9a1decd2ac55a308a3156f3690fbd755b05e210f81fb62808f"
+    },
+    {
+      "message": "1436210962897047694",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:29:37.064-08:00",
+      "contentSha256": "7ad2c8f6d9399047f803d0764745bfb20da38fc4fdca32184f3707ac3f57a19d"
+    },
+    {
+      "message": "1436211265629585531",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:30:49.241-08:00",
+      "contentSha256": "47fa622d6307ad08a34af3f51d3458ff91e3227757519157f83f813e5bd962d0"
+    },
+    {
+      "message": "1436211723416768643",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:32:38.386-08:00",
+      "contentSha256": "793aaedeb5432ac5906214d4a122df0e3a4a2e6a94c1a51d7730bc47dc0f2b1f"
+    },
+    {
+      "message": "1436211805964992561",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:32:58.067-08:00",
+      "contentSha256": "1a2288bcf18c32dfe2c04a5237edad190ce2a9edde15beb2d6400abf2ad4a47a"
+    },
+    {
+      "message": "1436212063717425223",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:33:59.52-08:00",
+      "contentSha256": "94420558fa07ff360856e8724604b755b59ea0c5d1e6305b0bc0968420420550"
+    },
+    {
+      "message": "1436212453556879451",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-06T20:35:32.465-08:00",
+      "contentSha256": "ee6084449ee3bbcbf8657534da0c595ea1eb8201bbd671568a174ea8619cbf5a"
+    },
+    {
+      "message": "1442242743635283968",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-23T11:57:45.657-08:00",
+      "contentSha256": "b5defac8a1934fce3990265724bd76a20078b3483eb482bcdad307bad936f998"
+    },
+    {
+      "message": "1442245618084090061",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-23T12:09:10.979-08:00",
+      "contentSha256": "8f7651be2041d5099adf32006079963c9c9d2e0614e342e34fa471f1849238e8"
+    },
+    {
+      "message": "1442245899526078475",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-23T12:10:18.08-08:00",
+      "contentSha256": "9dc7a0067de4e3f843b2485bf6c3251c46c829d3c3508c4eccf439297b3b54b9"
+    },
+    {
+      "message": "1442270847380488272",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-11-23T13:49:26.112-08:00",
+      "contentSha256": "2056178116d4172db8e2bdbd881799905d95f8eb31ed76bd8449a3623697e8a7"
+    },
+    {
+      "message": "1479321042101997709",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-03-05T19:33:40.893-08:00",
+      "contentSha256": "03b53854aca1e0f3755cc746e1b966ad07da4515f92bcadc75a3a5e785aa2155"
+    },
+    {
+      "message": "1479321182053601462",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-03-05T19:34:14.26-08:00",
+      "contentSha256": "9d990f4e88a5360c57f1048a3ab64cdd5c918f12992e2d29e44df0a0995abe14"
+    },
+    {
+      "message": "1479321252194943088",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-03-05T19:34:30.983-08:00",
+      "contentSha256": "59ac8f2fff84cc27cc58831b391d6a7c5413fe0e7d9c984131289e1c9778a257"
+    }
+  ]
+}

@@ -1,6 +1,12 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-05
+Last updated: 2026-11-07
+
+## Overlooked-character review · 7 November 2026
+
+The owner asks for missed characters. Selected primary quest scenes and the 269-person directory identify nine substantive omissions: Captain Galathorion, Morlena Thistlebottom, Rogof Stonecutter, Hershel, Ignatius, Muddy, Ibere, Amity and Sparrow. The owner provisionally identifies the latter seven as PCs. Loistava, Cobble, Vigr Frami, Eli Voss and Saylor already have directory rows but no personal histories. These are a source-reviewed profile queue, not newly published biographies. Details: CHARACTER_COVERAGE_2026_11_07.md.
+
+The owner identifies Quoth as a pet. The raven's self-introduction supports his messenger role; whole-scene narration under the same posting identity supplies no independent adventuring history. Both existing directory representations gain `characterKind: pet` and a concise corrected description, preserving the original portrait and route without inventing an owner. Ninety-two selected original/continuation source versions match. Only Quoth's two rows and the catalog query change in site inputs; all record bodies, other people, timeline objects and private material remain untouched. Catalog 316/build `fd5ccb72463ae0bd`; app274/styles177/reader15 unchanged. Static content/calendar/portraits/protected-asset/preview checks pass. The existing complete directory regression passes all 269 people on directory and homepage, bounded pagination, filters, aliases, sorting, artwork and four widths. Focused local Chrome verifies Quoth and Rahn in Pets, Quoth excluded from Players, both actual dialog entry paths, original portrait decoding, four widths and empty protected stubs. Desktop/mobile screenshots are inspected. Authentication is simulated signed-out; no real-account login or physical-device check is claimed. Publication verification follows.
 
 ## Three quest NPC histories · 5 November 2026
 

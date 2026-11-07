@@ -14754,12 +14754,13 @@
       },
       {
         "title": "Quoth",
-        "meta": "Player character · quest-RP",
+        "meta": "Raven companion · messenger",
         "article": "people-directory",
-        "summary": "A recurring adventurer whose long quest record includes Hin expeditions, disappearances, rescues, and later regional journeys.",
+        "summary": "A pet raven whose cryptic warnings send the company searching for clues. His owner is not established in the checked account.",
         "image": "assets/characters/discord/d377c62851938fa129dde500420206c9f5d1f05efeb63d819a23dd0b7c744b48.png",
         "imageAlt": "Discord depiction of Quoth",
-        "imageCaption": "Quoth"
+        "imageCaption": "Quoth",
+        "characterKind": "pet"
       },
       {
         "title": "Vaemyr",
@@ -34388,12 +34389,13 @@
     },
     {
       "title": "Quoth",
-      "meta": "Player character · quest-RP",
+      "meta": "Raven companion · messenger",
       "article": "people-directory",
-      "summary": "A recurring adventurer whose long quest record includes Hin expeditions, disappearances, rescues, and later regional journeys.",
+      "summary": "A pet raven whose cryptic warnings send the company searching for clues. His owner is not established in the checked account.",
       "image": "assets/characters/discord/d377c62851938fa129dde500420206c9f5d1f05efeb63d819a23dd0b7c744b48.png",
       "imageAlt": "Discord depiction of Quoth",
-      "imageCaption": "Quoth"
+      "imageCaption": "Quoth",
+      "characterKind": "pet"
     },
     {
       "title": "Vaemyr",

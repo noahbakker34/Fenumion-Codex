@@ -15,10 +15,10 @@ Three locator-cache texts differ only in reply/mention presentation and trailing
 
 All twelve inherited section bookmarks, every earlier paragraph, source, link and original artwork/movie survive. The four existing place summaries advance, and first-mention links connect Papirak and Rolen to the actual location histories. Geography, identities, other canonical bodies, all 401 timeline objects, 269 people, quotations, maps and 261 browse previews remain exact. Existing compact geography rulings and protected boundaries remain in force; the private payload is not modified.
 
-Catalog 317/build `e2efd46c8f80abcb` retains 662 records/613 complete bodies, now 3,041 sections. App274/styles177/reader15 remain. The existing biography/location gate adds the four histories to its roster; there is no new workflow stage, runtime, style, dependency or asset.
+Catalog 317/build `093f227f1a4f93ed` retains 662 records/613 complete bodies, now 3,041 sections. App274/styles177/reader15 remain. The existing biography/location gate adds the four histories to its roster; there is no new workflow stage, runtime, style, dependency or asset.
 
 ## Verification
 
 Static content, calendar, portrait, protected-asset, browse-preview and whitespace checks pass. Focused local Chrome checks all 59 narrative paragraphs, twenty chapters with reload/focus, twelve inherited bookmarks, four widths, fresh 390/320px bookmark/header clearance and six actual reading journeys. Source/fact sets, regional parents and empty protected stubs pass without script/public HTTP errors. Both original place films decode normally and transfer no movie under reduced motion. The new pages satisfy the existing gate's unique-anchor, evidence-panel, calendar and media conventions. Representative desktop/mobile screenshots are inspected. Authentication is simulated signed-out; no real-account login or physical-device check is claimed.
 
-Publication and live verification are recorded in the continuation brief.
+The wreck fact card uses its confirmed month rather than assigning a day across differently offset source timestamps. No existing timeline date changes. Publication and live verification are recorded in the continuation brief.

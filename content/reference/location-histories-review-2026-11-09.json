@@ -1,0 +1,990 @@
+{
+  "reviewedAt": "2026-11-09",
+  "sourceClass": "Quest narration and outcomes; compatible civic RP; legacy player notes retained as testimony",
+  "scope": "Selected scene bodies and bounded source windows, not exhaustive archive reading. Older unchanged paragraphs/sources retain their earlier scope. No attachment reconstruction, controller metadata or protected revelations.",
+  "articles": [
+    "thundering-coast",
+    "training-dungeon",
+    "archery-range",
+    "pilgrims-hearth"
+  ],
+  "contextLinks": [
+    "papirak",
+    "rolen"
+  ],
+  "sectionsReviewed": {
+    "thundering-coast": [
+      {
+        "id": "coast-ranchers-and-work",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1225262282368483411",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1225262660090859631",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1225262991805644863",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1225263242259992616",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1225264108300013589",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1225264401960140832",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1225268250321883186"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "coast-beacon-voyage",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1244734437971726428",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1244736241862311958",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1244740372865744968",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1244740477258043527",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1244741128830451807",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1244741225270083614",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1244741609568866326"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "coast-cove-and-hunter-path",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262205612184440918",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262207779683438704",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262208150933733408",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262208671736397907",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262208990389997668",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262209018571653121",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262209228848762892",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262212861006970891",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262213217963212810",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262213588643483768"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "coast-looking-glass-wreck",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540535323262717983",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540537745095524443",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540538721991131318",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540549773025607790",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540551301228797952",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540551442069454968",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540554879314034798",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540559390665474108",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540562826794635294",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540567307028533258",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540571318766805058",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540571421091176479",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540575153971527750",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540575837018005555",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540576459599515731",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540577544066043914",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540577759980425246"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "coast-known-routes",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1217654903535702158",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1225262282368483411",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1262208150933733408",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1540549773025607790"
+        ],
+        "evidence": "mixed"
+      }
+    ],
+    "training-dungeon": [
+      {
+        "id": "training-teacher-and-place",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1362521735840137539",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555043091931463811"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "training-lessons-carried-outside",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1323378716784590869",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1329984134529028116",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1329988214672330775",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1417580706128855181",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1488695513585946714",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1488700834576601230"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "training-war-and-suspicion",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380243739112636517"
+        ],
+        "evidence": "testimony"
+      },
+      {
+        "id": "training-work-after-burial",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555031936710344788",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555043569214169159",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555060494069407827",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555073059415662676"
+        ],
+        "evidence": "mixed"
+      }
+    ],
+    "archery-range": [
+      {
+        "id": "range-warehouse-and-watch",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219336142454001716",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219349734091657316",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219350918290604113",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219355175190528050",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219356004202840246",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219356905173028925",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219357261038878841",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1222586404224110592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1222587302438633533",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1222587508638875780"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "range-warning-from-the-woods",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221228878664564889",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221229788790915192",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221230461632643163",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221230953511522336",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221231731114250282",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221231875637510246"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "range-felicity-and-upkeep",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564281191094558736",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564282180761292881",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564283995926036673",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564285063984582713",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564286082881691821",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564287962940706949",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564293014325698601",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564293451367972915",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564297937142681730",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564298667588845740",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564298833805054074",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564300057711345718",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564301836968529921",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564302267518165153"
+        ],
+        "evidence": "mixed"
+      }
+    ],
+    "pilgrims-hearth": [
+      {
+        "id": "hearth-hands-in-the-rain",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522656529256284169",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522657316267229254",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522657992325992628",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522658423483797505",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522658461165424661",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522658855002308759",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522659156346011758",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522659562845376636",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1522659881981710487"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "hearth-name-and-return",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1531328406489272330",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1531427242419294368"
+        ],
+        "evidence": "mixed"
+      },
+      {
+        "id": "hearth-ordinary-life",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551008187342266398",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551009734209830922",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551010723814178927",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551011566319706214",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551012479273013370",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551015208401506346",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551015919025660036",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551017308418482238",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551018227960774727",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551018305626570753",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551018720686510232",
+          "https://discord.com/channels/1177270231513694249/1531328406489272330/1551019009359749172"
+        ],
+        "evidence": "mixed"
+      }
+    ]
+  },
+  "sourceSha256": "109d61f559cc3dd5e4a072cf206c885e934ac197c3dcd001d17dcb050c2b03d6",
+  "continuationSha256": "2c7aab84c6482f7d8590d46cab2f637eb638e3a6232713118a5c934ddb0182d0",
+  "sourceVersions": {
+    "original quest export": 73,
+    "supplied quest continuation": 5,
+    "native civic API export": 28
+  },
+  "locatorFormatDifferences": {
+    "messages": [
+      "1540538721991131318",
+      "1540549773025607790",
+      "1540577544066043914"
+    ],
+    "scope": "Only reply/ping presentation and trailing whitespace differ in the locator cache. The original export bodies were read; receipts hash the original versions, not normalized text."
+  },
+  "receipts": [
+    {
+      "message": "1217654903535702158",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-13T19:05:51.937-07:00",
+      "contentSha256": "af0939d9f0250e5cbab648ed1451d803c100f25395b11df5e771a7ebad6c090a",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1219336142454001716",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-18T10:26:30.531-07:00",
+      "contentSha256": "55bc2dfc5e004e1418935055b3a83de35a438f9b733f100334b1f21aff255f32",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1219349734091657316",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-18T11:20:31.03-07:00",
+      "contentSha256": "b15abfb5a10ed0679ff97f2dcec7280e5223f4047c39f8b483225c9400027a06",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1219350918290604113",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-18T11:25:13.365-07:00",
+      "contentSha256": "fba5dfd646788cc3b56d421f073ddd792229577d33c2be4b49ce2cf2c05ed740",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1219355175190528050",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-18T11:42:08.289-07:00",
+      "contentSha256": "a84b1a0aea8f3eede4c3810f1e4699afb425d8c4a6a590e997a5cc28ac5ee219",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1219356004202840246",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-18T11:45:25.941-07:00",
+      "contentSha256": "6bc2f480ae92f591ddda3c2be8a4131ca39d331e4b9ddf8f1dcf25bc9226d026",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1219356905173028925",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-18T11:49:00.749-07:00",
+      "contentSha256": "8db492dceecfd9ea4141795e06b9a7ce36a886be9521a0ab8b806028d0ccd305",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1219357261038878841",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-18T11:50:25.594-07:00",
+      "contentSha256": "3e82f048c2b9d691c11e1ee25e8c0b26200e4607ea1900cdd28a91400232efab",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1221228878664564889",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-23T15:47:34.009-07:00",
+      "contentSha256": "78aea6614c8c42ec0710ee46ca93a82cbce61cc202b37ef003b37c011ce56ebb",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1221229788790915192",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-23T15:51:11-07:00",
+      "contentSha256": "a4d18e391df75bac96daf784633735e83b2d8ddcd3108d10c0417e0b5ab1a110",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1221230461632643163",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-23T15:53:51.418-07:00",
+      "contentSha256": "acdbaffbbde0fcdf0b9af26c6d2523247fd405678f490222b77cc63bfb7a5502",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1221230953511522336",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-23T15:55:48.691-07:00",
+      "contentSha256": "cd40b2cee56eed230763244eb7f00632c1d5874f022e70cdbebabd5566b5abbe",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1221231731114250282",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-23T15:58:54.086-07:00",
+      "contentSha256": "114daf5181d305bd21914ff92f62ed9888e9b0cf4b81bed1957a65779e0ab0bb",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1221231875637510246",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-23T15:59:28.543-07:00",
+      "contentSha256": "5fa7159643b2f3da2e376646ab6fabcd1b1aae277dbf1428f97438fdcecc74d7",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1222586404224110592",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-27T09:41:53.324-07:00",
+      "contentSha256": "32314ceadaa07893d011b29b480cbb842376bf7cefb8517403398ce920b9cc95",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1222587302438633533",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-27T09:45:27.475-07:00",
+      "contentSha256": "8ae283001334ad19cf1500bc19275be5c47372db971333413684b9b4da90efbf",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1222587508638875780",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-03-27T09:46:16.637-07:00",
+      "contentSha256": "32ee4b7a2c892f57fd1d99afedc5eb47f039f4ec9141043ab559cb5c9ce4201f",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1225262282368483411",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-04-03T18:54:52.389-07:00",
+      "contentSha256": "8cef8fc17a0ddeecdb4fbbfdc9be1e60f27d01361edc4e1e0f51f4613387f7c3",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1225262660090859631",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-04-03T18:56:22.445-07:00",
+      "contentSha256": "b67d442022d5ca4b63d1ce2ab4abb423982d195137f972d1b2a751cefb2966dc",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1225262991805644863",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-04-03T18:57:41.532-07:00",
+      "contentSha256": "2ace295fd864ad0bc67607dea708ea656c7aad88432f7d667df81b221a96aa11",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1225263242259992616",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-04-03T18:58:41.245-07:00",
+      "contentSha256": "7de16cb15e65fbd1322335a6e0533bd7d436fdcff327c57691380de5df42d113",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1225264108300013589",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-04-03T19:02:07.725-07:00",
+      "contentSha256": "de4d1727c0072cb6570908c7605b147db996b9fe77bcf9f22baa5878ca2c3393",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1225264401960140832",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-04-03T19:03:17.739-07:00",
+      "contentSha256": "4f8ea3e49ee4b024d8f431f4de7c32ca037740afaea753a9b6cc7acd2bd538ac",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1225268250321883186",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-04-03T19:18:35.26-07:00",
+      "contentSha256": "0cf6e595e3f5a2fa86834dfad8f2aa5c81d34abf3ed732219de299146d57170f",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1244734437971726428",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-05-27T12:30:16.06-07:00",
+      "contentSha256": "ac2ec96822edb99d0348dc64a8b74d8846b9e73ab6e791840c147bd66d173899",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1244736241862311958",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-05-27T12:37:26.141-07:00",
+      "contentSha256": "f59e01ad1bf09ddfe497e36f0bedb664a6112051555337493681e5eec953b18d",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1244740372865744968",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-05-27T12:53:51.049-07:00",
+      "contentSha256": "ff3bcbc08d505d9954c08b1a0e10e8c6eccc3858752e760c80770da289bc2cc8",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1244740477258043527",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-05-27T12:54:15.938-07:00",
+      "contentSha256": "dcb2b8e9040411a10d4c3215c3c10b70ea2eaa88bc04c3a8f720387e90577b69",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1244741128830451807",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-05-27T12:56:51.285-07:00",
+      "contentSha256": "3cbac5a0194311f676afb68c0a64919dfd6f2d3ac89792637d0290812d999e63",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1244741225270083614",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-05-27T12:57:14.278-07:00",
+      "contentSha256": "c08b7a88ffd03aab5a641206148433d9e83e8c3b435a0f7fa236cbdab6f5dcbb",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1244741609568866326",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-05-27T12:58:45.902-07:00",
+      "contentSha256": "0f30badf02e0a497c3d1c983c50efd70cdecc1284896f2ef8ba6fbb14705420d",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262205612184440918",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T17:34:28.591-07:00",
+      "contentSha256": "59f4d4c7edaf1f48be0fb2f1a38f34f8b52a0f4f17dec5bb224719348cc4d5e5",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262207779683438704",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T17:43:05.363-07:00",
+      "contentSha256": "0d52087d379abaa352232f5e05b0cc53430362909a5844142534343661b68520",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262208150933733408",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T17:44:33.876-07:00",
+      "contentSha256": "e33786a2eb57c6593105c576c29d3b8a50529d527d886c492743ef7f8e6a6fe2",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262208671736397907",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T17:46:38.045-07:00",
+      "contentSha256": "3e025e1f5b391409274562e5ec7e62075f253dae88e3896d202cfafba5ca54ca",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262208990389997668",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T17:47:54.018-07:00",
+      "contentSha256": "c8e99aa3ec4e5edbb48aae6c7f91d498c3624120449de786ec7ea1db026942bb",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262209018571653121",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T17:48:00.737-07:00",
+      "contentSha256": "a8c3fc3bcc6845ffa91c25e7984d2c3c6341e0b2c20e634e02a24780ed23d9ab",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262209228848762892",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T17:48:50.871-07:00",
+      "contentSha256": "21fb54552cf0c80409b3c22fe6542dfed80edf6d46055165e831e6ed87d9b2f5",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262212861006970891",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T18:03:16.845-07:00",
+      "contentSha256": "5fa3b4d7c250018d849529f745736ea0ec8cae2660c89f95fbe18ba014185e04",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262213217963212810",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T18:04:41.95-07:00",
+      "contentSha256": "f5e3d1e32ec30203c370ed8d3276342ee4c57eef459f503b3b5c334302bb9991",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1262213588643483768",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-07-14T18:06:10.327-07:00",
+      "contentSha256": "718c46104ba422964b94c72c874e357c440ec5950c0a2a3930a9c335e7c5a863",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1323378716784590869",
+      "channel": "1199083630354501673",
+      "timestamp": "2024-12-30T11:54:33.269-08:00",
+      "contentSha256": "52f3c715658993c6a473a526cba441b232b81a6474520c28cbe6ce9b4e258b15",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1329984134529028116",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-01-17T17:22:07.582-08:00",
+      "contentSha256": "beec8ea82a57f9a0c2d48f12305265164dde6e6f3352a7e15878b32edf13cab2",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1329988214672330775",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-01-17T17:38:20.364-08:00",
+      "contentSha256": "a6528164c305aac423f34f1fd21b77776ce08137eceeb3d77c9af446d6bcf256",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1362521735840137539",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-04-17T13:14:56.254-07:00",
+      "contentSha256": "1e36a1eebd6918d45ad5177b6a2910a79b29af6c69901ce79f55a04270f66215",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1380243739112636517",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-06-05T10:55:51.093-07:00",
+      "contentSha256": "335eaf07921d3fc428e8c4f1d69d87366d5ab03033ea80e354886a44eed04cad",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1417580706128855181",
+      "channel": "1199083630354501673",
+      "timestamp": "2025-09-16T11:39:37.717-07:00",
+      "contentSha256": "f7ccd2981f78cb03d7d1c01a7d512fd35d3c338cfd82070ff8def1a4807c649c",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1488695513585946714",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-03-31T17:24:29.064-07:00",
+      "contentSha256": "0005831f0eba033f797ddb2099f528236a1d8a82279b949ab4f3f537d6682c02",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1488700834576601230",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-03-31T17:45:37.687-07:00",
+      "contentSha256": "3094d870ef8738db90ee71677267013852552df7dcd6cd4d2af9730bc289dc95",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1522657316267229254",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-03T10:36:33.803-07:00",
+      "contentSha256": "fc85e9e999b4a60c93a7662f31c74770a33c360ab8491a15aa5343a98366332c",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1522657992325992628",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-03T10:39:14.988-07:00",
+      "contentSha256": "e2749b762518d1914f8a12b2f4465f297c22d4c0ec1bcd4a69727b3691f698e8",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1522658461165424661",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-03T10:41:06.768-07:00",
+      "contentSha256": "824c85ce5a008b9a43f6cfb905a4d3eae2209257d01092f9998fd5fab7cc7cc3",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1522658855002308759",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-03T10:42:40.666-07:00",
+      "contentSha256": "3e6badc586396f5402852636a77a620a0f7ace9c8ed4377e91a66bf120b5ed34",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1522659156346011758",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-03T10:43:52.512-07:00",
+      "contentSha256": "39da7848bec442d5b0086d3939ef17be919aa96ce0d49620e7c9782ec1020a5c",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1522659562845376636",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-03T10:45:29.429-07:00",
+      "contentSha256": "3d2061ca4a55742da111de70717f8b74d3f7b81c6bd8c9300c15a8ed81faa614",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1522659881981710487",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-07-03T10:46:45.517-07:00",
+      "contentSha256": "17cd8bb02cb8b7ba149a02a569b77dec8c0ebff3c65b4708b076e9027701e428",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540535323262717983",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T18:37:22.828-07:00",
+      "contentSha256": "e7a5ef99979f8c5983955c850da4c07ba3ad6a60d3e96ed627d273c1b4f72866",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540537745095524443",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T18:47:00.238-07:00",
+      "contentSha256": "aea06b6bddcf72b3cb2d6970d9d2bea395a20af1f8e8272c1977d34e69d286e1",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540538721991131318",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T18:50:53.148-07:00",
+      "contentSha256": "49675010a7015334ebe1c50c4956dd78f412f59bcd91778f8e24d045dd178f68",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540549773025607790",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T19:34:47.92-07:00",
+      "contentSha256": "c0756fe360cfb38ae532c126aa60f17bd856ccce53d88dddf42c2eb35cfc04cc",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540551301228797952",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T19:40:52.272-07:00",
+      "contentSha256": "d01d199429cd154b54ede4c49b774294fe54d0999a37987b8438daecd9838752",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540551442069454968",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T19:41:25.851-07:00",
+      "contentSha256": "4f45013aabbb2e1f5bd4e4ec4e704887e514fc4d49b125e788e94c1318701241",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540554879314034798",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T19:55:05.354-07:00",
+      "contentSha256": "bd7bd7241525a6fa0c0cea21d46c0699f7aa4caefdee4d50fcb157c28fbfefff",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540559390665474108",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T20:13:00.944-07:00",
+      "contentSha256": "d024cece9b40365a5a815dbe9c414079a77eeee06d79cc95f50b18c960165a7b",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540562826794635294",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T20:26:40.181-07:00",
+      "contentSha256": "07ebd45f693f5f0377dff06949e7ec009c08cceff3a1fbc912c5f5b9f4fd74ca",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540567307028533258",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T20:44:28.352-07:00",
+      "contentSha256": "c91337eabbcb0ff85f7a5061b8a592f56fbe1d3ea28323987c84258f7d535cae",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540571318766805058",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T21:00:24.825-07:00",
+      "contentSha256": "31857d80b349ec9bc4543e78137878268b1e793dccf57814455fdc9d1c63f075",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540571421091176479",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T21:00:49.221-07:00",
+      "contentSha256": "19305b5b93d66e6d4977cf8f24dc72e674c9be6d34bf1d25f24cde23769fd640",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540575153971527750",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T21:15:39.209-07:00",
+      "contentSha256": "c3610ca468865349663cdd10a49a971bc0ec7a8974c94d387658a3dd06b7d308",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540575837018005555",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T21:18:22.06-07:00",
+      "contentSha256": "9290427bf0e08a3d67603f985cc8622d1fe5bfbdc317f2a6f44888c51b17e2a5",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540576459599515731",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T21:20:50.495-07:00",
+      "contentSha256": "d4ebe848daf3b04948a4cd695c81422461780fefb630ace45cbedcf4e3626ee9",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540577544066043914",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T21:25:09.052-07:00",
+      "contentSha256": "5347cf76cb91b39c0ea9f0a04f249e56f2e4b501eb6112f8177fe8b2b64de62a",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1540577759980425246",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-08-21T21:26:00.53-07:00",
+      "contentSha256": "2c1add89a228142ecea04d40080e78a45daf3803654db921a441308e19c964bd",
+      "sourceClass": "original quest export"
+    },
+    {
+      "message": "1555031936710344788",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-10-01T01:41:44.808000+00:00",
+      "contentSha256": "d288d5982029e2e0a4fd789111949ea81bcfacef83290d8617b843e29f8c7fa6",
+      "sourceClass": "supplied quest continuation"
+    },
+    {
+      "message": "1555043091931463811",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-10-01T02:26:04.420000+00:00",
+      "contentSha256": "3f60ddc0baff1d43f1d3833382a74b0fc3d7121d4aad14adadc422c715639cab",
+      "sourceClass": "supplied quest continuation"
+    },
+    {
+      "message": "1555043569214169159",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-10-01T02:27:58.213000+00:00",
+      "contentSha256": "109ce4cfc1fb1373763566d9c5fcda772d83449f81278e2710bd6d7fc8c96882",
+      "sourceClass": "supplied quest continuation"
+    },
+    {
+      "message": "1555060494069407827",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-10-01T03:35:13.413000+00:00",
+      "contentSha256": "fa42731c985bcffc349cadd7bc1e9b8fb40d77a5a487500ef3dcc0c149b6f210",
+      "sourceClass": "supplied quest continuation"
+    },
+    {
+      "message": "1555073059415662676",
+      "channel": "1199083630354501673",
+      "timestamp": "2026-10-01T04:25:09.225000+00:00",
+      "contentSha256": "7443b93190c2ba8bb6e03b1a9f43f963c16b4bd7626945cb534498e03ca46619",
+      "sourceClass": "supplied quest continuation"
+    },
+    {
+      "message": "1564281191094558736",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T14:14:58.896000+00:00",
+      "contentSha256": "004c5bc25853efd06d7b6c64cb3b3fcd13f9dec6b2d67f8bad5557ae2b57337e",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564282180761292881",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T14:18:54.851000+00:00",
+      "contentSha256": "30fbfe2acd721ea6a2b21c6f226d3c9a3b2287319453b030f779b557e9ef2e8a",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564283995926036673",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T14:26:07.620000+00:00",
+      "contentSha256": "626af6f4201782a7e1e7089dc68c158621e2243f4526780ed5056f0c2bffaef1",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564285063984582713",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T14:30:22.265000+00:00",
+      "contentSha256": "50e5e49c3cd9a830a4c310f05911c88c1e62ebc6ad297abfa3aa46e4e8867be6",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564286082881691821",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T14:34:25.189000+00:00",
+      "contentSha256": "eb66ab3748a38ee454d01403313922b3af2d94e228a16958d573871da60751ad",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564287962940706949",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T14:41:53.430000+00:00",
+      "contentSha256": "0295a80e3d383fcb69f0e13cb14459feeaca03d57b6e22916101a5790cd50be1",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564293014325698601",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T15:01:57.774000+00:00",
+      "contentSha256": "d4121226f5ed72df85452435d3774ef41e43a4ee40083eef4e7922c8b4dcb4b7",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564293451367972915",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T15:03:41.973000+00:00",
+      "contentSha256": "637bb9f9bb6b1b6a4a174b3dee08e8b48e94b8b8872997d4b5ab19d9782e8410",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564297937142681730",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T15:21:31.465000+00:00",
+      "contentSha256": "da1fc5304754e7c8168a3f8c736e23070b97f9c62c1efc11ab5b3459c5f58210",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564298667588845740",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T15:24:25.617000+00:00",
+      "contentSha256": "6259dbc77be8e984ff8dc37173e4225874606cb1ffc1d6d712896c5dea6ded73",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564298833805054074",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T15:25:05.246000+00:00",
+      "contentSha256": "8330d5890f714e3f1ac81ed42008587428002ac74b4c27154352236ae2790567",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564300057711345718",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T15:29:57.048000+00:00",
+      "contentSha256": "aefcd21bb91179b60497d03742757fd274d4127587883f97de7dee87bf1ce7f5",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564301836968529921",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T15:37:01.256000+00:00",
+      "contentSha256": "ef63f873400c1597bd425cb40117d7af54322a84b30500038103c7c0b372c7c6",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1564302267518165153",
+      "channel": "1219690120811384922",
+      "timestamp": "2026-10-26T15:38:43.907000+00:00",
+      "contentSha256": "9c5b3b084052ac11009be416d4416c31ac0030f5d8b1f33d21c67deae2c2deb3",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1531328406489272330",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-07-27T15:52:22.813000+00:00",
+      "contentSha256": "a8b19ce3298912e1c72f00b3300df6d95c1fed031fe56df9a1ec1a7fb84a6661",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1531427242419294368",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-07-27T22:25:07.135000+00:00",
+      "contentSha256": "af43f01a9b76b77fad647c8157f5e044c5467022883b15e3d8cdd5db078a7f8f",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551008187342266398",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:12:48.201000+00:00",
+      "contentSha256": "42cfb2c1170f5e7adbe6867f669a60cba576e4f5a4b92eb9eb98ee5438925834",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551009734209830922",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:18:57.003000+00:00",
+      "contentSha256": "16f896535856b7a2897ec8c0a86b343ba26c4d1831e00762489a9a457ab81bac",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551010723814178927",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:22:52.943000+00:00",
+      "contentSha256": "0ecbe111f83486a28cf799b0bc3f167ca1998b1a688c163c0c3b4de855952874",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551011566319706214",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:26:13.812000+00:00",
+      "contentSha256": "29b73dbe6503498aef1d4155c2061302c70eaa0a2720e87487878b33333a508b",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551012479273013370",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:29:51.477000+00:00",
+      "contentSha256": "f983562f407d235bbc40cdbec3c447c1e32412599810bbd88290b95be652063b",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551015208401506346",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:40:42.152000+00:00",
+      "contentSha256": "95bb9277b51778a8cd145345fa13379691e4d7a5bf1a16de89aba604cfbc8449",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551015919025660036",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:43:31.578000+00:00",
+      "contentSha256": "12205f16087866a0f5606b3808966dab8d55b6e63e8f2eb5343231907f817265",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551017308418482238",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:49:02.835000+00:00",
+      "contentSha256": "10a968d03e35e1ebac67902ec08eb2ed05672b431c5d1cfef40b31be66737159",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551018227960774727",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:52:42.071000+00:00",
+      "contentSha256": "aae01ba68d0e3c5fd743a42a331accf9614f55f0c0745e26925f3364ee8b9574",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551018305626570753",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:53:00.588000+00:00",
+      "contentSha256": "9ebdec72493157fda51120dc1eda1975d34280947285d26fa32a92df1fe1af23",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551018720686510232",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:54:39.546000+00:00",
+      "contentSha256": "10c72d00fa3e943d403b7095aface217c9546428fd8aaa9a65ef45c404f966c3",
+      "sourceClass": "native civic API export"
+    },
+    {
+      "message": "1551019009359749172",
+      "channel": "1531328406489272330",
+      "timestamp": "2026-09-19T23:55:48.371000+00:00",
+      "contentSha256": "07becd064113a0d70c4bf4a1735cc86735a2ecabbdfd28c1ea32ed960b64f410",
+      "sourceClass": "native civic API export"
+    }
+  ],
+  "newRecords": 0,
+  "oldDestinationsPreserved": true,
+  "timelineChanged": false,
+  "mediaChanged": false,
+  "privateChanged": false
+}

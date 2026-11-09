@@ -3,7 +3,7 @@
   "title": "The Training Dungeon",
   "category": "Places",
   "type": "Pristinian training institution",
-  "dek": "Papirak’s training ground, remembered through practical lessons and an unfinished promise to restore it.",
+  "dek": "Papirak’s Pristinian teaching ground: hard exercises, lessons carried into danger, a wartime confession and Scribonia’s unfinished restoration.",
   "tags": [
     "Pristinia",
     "Prima",
@@ -16,18 +16,67 @@
   "facts": {
     "Location": "Pristinia · associated with Papirak’s hill",
     "Testimony": "Boggun’s review · posted 12 February 2026",
-    "Later record": "Restoration promised after Papirak’s death; success unestablished",
-    "Status": "Historical training account; present operation unresolved"
+    "Later record": "Restoration promised and attempted; success unestablished",
+    "Status": "Historical training account; present operation unresolved",
+    "Parent": "Pristinia · Prima",
+    "Observed inheritance": "Scribonia working at the Dungeon during Papirak’s funeral"
   },
   "sources": [
     "Established public Papirak biography and funeral quest history",
     "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471525778163368111",
-    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471526566759497782"
+    "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471526566759497782",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1362521735840137539",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555043091931463811",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1323378716784590869",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1329984134529028116",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1329988214672330775",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1417580706128855181",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1488695513585946714",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1488700834576601230",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1380243739112636517",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555031936710344788",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555043569214169159",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555060494069407827",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1555073059415662676"
   ],
-  "body": "<p>The Training Dungeon is one of <a href=\"#papirak\">Papirak the Strange’s</a> enduring Pristinian institutions. His later funeral follows a road generations of adventurers walked toward his hill and training ground. Its significance includes the habits people learned there, as well as the magic that made the exercises possible.</p><h2 id=\"training-boggun-review\">Boggun’s review · February 2026</h2><p>Boggun’s two location-note posts, posted on 12 February 2026, describes illusion-based training in small rooms with fast waves of enemies. In his account, opponents attack downed combatants, making positioning and the protection of companions urgent. He recommends the experience especially to inexperienced adventurers and those learning to hold the line.</p><p>Boggun values learning tactics, spacing, roles and sacrifice in circumstances he considers survivable. He also mentions some coin. These are his practical judgments about the training he knew, not a guarantee of safety, a fixed reward schedule or universal rules for every session. The note reveals what he thinks a defender owes a group.</p><h2 id=\"training-later-inheritance\">A later promise, an unfinished institution</h2><p>At <a href=\"#papirak-legacy\">Papirak’s funeral</a> in September 2026, Scribonia publicly promises to attempt restoration of the Dungeon. The promise is established; success remains unproven. Boggun’s earlier recommendation does not establish that the institution still operates in the same way afterward.</p><p><a href=\"#crucible-of-gael\">The Crucible of Gael</a> offers a separate history of cooperative training. Shared lessons do not make the two arenas one institution. The Dungeon’s full construction history, complete exercise rules and present operation remain incomplete.</p>",
+  "body": "<p>The Training Dungeon is one of <a href=\"#papirak\">Papirak the Strange’s</a> enduring Pristinian institutions. His later funeral follows a road generations of adventurers walked toward his hill and training ground. Its significance includes the habits people learned there, as well as the magic that made the exercises possible.</p><h2 id=\"training-teacher-and-place\">The teacher and his hill</h2><p>The place begins with <a href=\"#papirak\">Papirak</a> himself. In one quest encounter, Brianna senses the strength of the magic creating his Dungeon despite his outward confusion. The narrator places it at a level far beyond an ordinary practice yard. The teacher’s unreliability in conversation and the power of his work coexist.</p><p>Its physical approach is also remembered. During the funeral procession, mourners recognize the path they once took to Papirak’s hut, commonly called the Training Dungeon. Jon’s newly carved statue stands along the way. The institution belongs to Pristinia’s lived landscape, beside the later <a href=\"#papiraks-mausoleum\">mausoleum</a>, rather than being interchangeable with every magical labyrinth the company enters.</p><h2 id=\"training-lessons-carried-outside\">What students carry out of it</h2><p><a href=\"#st-anky\">Anky</a> buys replacement potions after an unsuccessful run has consumed his first one. Yllandaer returns to the Common Man to clean his armor and sleep after an exercise he calls brutal. He later says the group barely made it out, but won. Their accounts preserve both failure and success, with tired bodies and used supplies afterward.</p><p>Adgrim consciously applies a lesson from his recent failure when he sends two companions against the same target during a later hunt. Modeli remembers being afraid in the Dungeon while running toward real smoke and screams; he admits to the company that he has practiced there only once and had previously been a scribe. An exercise can prepare an adventurer without making that adventurer experienced in everything.</p><p>These are different students in different scenes. They do not establish a uniform difficulty or a guarantee that every session is safe. They show why the place matters after the lesson ends: someone buys supplies, changes a tactic or discovers how little practice feels like enough when other people need help.</p><h2 id=\"training-boggun-review\">Boggun’s review · February 2026</h2><p>Boggun’s two location-note posts, posted on 12 February 2026, describes illusion-based training in small rooms with fast waves of enemies. In his account, opponents attack downed combatants, making positioning and the protection of companions urgent. He recommends the experience especially to inexperienced adventurers and those learning to hold the line.</p><p>Boggun values learning tactics, spacing, roles and sacrifice in circumstances he considers survivable. He also mentions some coin. These are his practical judgments about the training he knew, not a guarantee of safety, a fixed reward schedule or universal rules for every session. The note reveals what he thinks a defender owes a group.</p><h2 id=\"training-war-and-suspicion\">A lesson used against the town</h2><p>During the <a href=\"#war-for-pristinia\">war for Pristinia</a>, Lucido admits that the Rahu have used him to pass information about particular adventurers. He says that, after the war began, they also tried to have him drain the adventurers’ resources, citing his most recent Training Dungeon run.</p><p>His admission gives an ordinary institution another place in the war’s history. A party could enter expecting preparation while one participant had instructions to weaken it. This remains Lucido’s account of his assignment; it does not make Papirak a collaborator, prove that every failed exercise was sabotage or identify every resource lost.</p><h2 id=\"training-work-after-burial\">Work after the burial</h2><p><a href=\"#scribonia\">Scribonia</a> is already working in the Dungeon when he leaves to join Papirak’s funeral procession. A portion of him observes from its entrance. In his speech he calls the institution an arcane work of illusion and refinement that has lost its master, and says he intends to integrate part of himself into it.</p><p>He promises that it will train another generation and that the portion left in Pristinia will teach, guard and offer help. He also admits he does not know how long the work will take or whether he can master it as Papirak did. Afterward he returns to the Dungeon instead of remaining at the celebration. The record establishes work, uncertainty and a public commitment; it does not supply a completed restoration.</p><h2 id=\"training-later-inheritance\">A later promise, an unfinished institution</h2><p>At <a href=\"#papirak-legacy\">Papirak’s funeral</a> in September 2026, Scribonia publicly promises to attempt restoration of the Dungeon. The promise is established; success remains unproven. Boggun’s earlier recommendation does not establish that the institution still operates in the same way afterward.</p><p><a href=\"#crucible-of-gael\">The Crucible of Gael</a> offers a separate history of cooperative training. Shared lessons do not make the two arenas one institution. The Dungeon’s full construction history, complete exercise rules and present operation remain incomplete.</p>",
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "training-teacher-and-place",
+      "title": "The teacher and his hill",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Narration establishes perceived magical power and the familiar hut/funeral route. Similarity to another labyrinth does not establish shared geography, a complete plan or a technical account of its creation.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1362521735840137539",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555043091931463811"
+        ]
+      }
+    },
+    {
+      "id": "training-lessons-carried-outside",
+      "title": "What students carry out of it",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Individual reported training outcomes and later narrated choices retain their scope. No universal survival rule, reward schedule or complete account of the exercises is inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1323378716784590869",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1329984134529028116",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1329988214672330775",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1417580706128855181",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1488695513585946714",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1488700834576601230"
+        ]
+      }
+    },
     {
       "id": "training-boggun-review",
       "title": "Boggun’s review · February 2026",
@@ -40,6 +89,37 @@
         "sources": [
           "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471525778163368111",
           "Player location note · original text checked 17 October 2026 · https://discord.com/channels/1177270231513694249/1201218439008751636/1471526566759497782"
+        ]
+      }
+    },
+    {
+      "id": "training-war-and-suspicion",
+      "title": "A lesson used against the town",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "testimony",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Lucido’s confession is attributed to him. No motive or complicity is assigned to Papirak, other students or the institution as a whole.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1380243739112636517"
+        ]
+      }
+    },
+    {
+      "id": "training-work-after-burial",
+      "title": "Work after the burial",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Observed work and departure are distinct from Scribonia’s intentions, vows and assessment of the institution. A restored teaching program is not confirmed.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555031936710344788",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555043569214169159",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555060494069407827",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1555073059415662676"
         ]
       }
     },
@@ -61,7 +141,44 @@
   ],
   "sourceReview": {
     "checkedAt": "2026-10-17",
-    "sourceClass": "player testimony",
-    "scope": "Original location-notes export checked; protected statements and unseen attachments withheld. No truth status inferred from player authorship."
+    "sourceClass": "Quest scenes and compatible civic RP; inherited player testimony remains attributed",
+    "scope": "Selected quest and compatible civic scenes; accounts retain attribution, plans remain distinct from completed work. Earlier unchanged references retain their previous review scope.",
+    "latestReview": "2026-11-09"
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "dungeon-teacher",
+        "title": "Papirak’s place",
+        "sections": [
+          "training-teacher-and-place"
+        ]
+      },
+      {
+        "id": "dungeon-lessons",
+        "title": "Lessons, failures and fieldwork",
+        "sections": [
+          "training-lessons-carried-outside",
+          "training-boggun-review"
+        ]
+      },
+      {
+        "id": "dungeon-war",
+        "title": "Training during the war",
+        "sections": [
+          "training-war-and-suspicion"
+        ]
+      },
+      {
+        "id": "dungeon-inheritance",
+        "title": "The work left to the living",
+        "sections": [
+          "training-work-after-burial",
+          "training-later-inheritance"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

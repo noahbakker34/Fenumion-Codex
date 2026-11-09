@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-07
+Last updated: 2026-11-09
+
+## Four fuller location histories · 9 November 2026
+
+The owner asks for fuller locations and connections to quest settings. Thundering Coast, Training Dungeon, Archery Range and Pilgrim’s Hearth now have 3,150 words in twenty reading chapters. The coast’s wreck and landing route have explicit quest anchors; the range’s trainee warning does not move the woodland ritual into its building. The Dungeon’s students, wartime confession and observed restoration work retain different evidence; the Hearth’s rebuilding and later company preserve grief alongside ordinary use. Details: LOCATION_HISTORIES_2026_11_09.md and location-histories-review-2026-11-09.json.
+
+106 selected primary versions are checked: 73 original quest export, five separately supplied continuation and 28 native civic API versions. Three locator differences concern reply/mention presentation and trailing whitespace; receipts hash the original texts. No attachment is reconstructed or whole-archive review claimed. All twelve inherited bookmarks, earlier paragraphs/references/art, all 401 timeline objects, 269 people, maps/quotes/261 previews and other canonical bodies survive. Four place summaries and two first-mention links change; no new record or private upload. Catalog317/build `e2efd46c8f80abcb` retains662 records/613 bodies, now3,041 sections. App274/styles177/reader15 unchanged. The existing biography/location gate gains the four histories without a new workflow stage or dependency.
+
+Static/source/preservation checks pass. Focused local Chrome verifies59 narrative paragraphs,20 chapter bookmarks/reloads,12 inherited anchors,4 widths, fresh390/320 bookmark/header clearance and6 actual reading journeys. Facts/sources/parents/protected stubs pass without script/public HTTP errors; both original films decode normally and stay deferred under reduced motion. Existing gate conventions for anchors, evidence, calendar and media pass. Representative screenshots are inspected. Authentication is simulated signed-out; no real-account login or physical-device check is claimed. Publication/live verification follows.
 
 ## Overlooked-character review · 7 November 2026
 

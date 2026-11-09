@@ -3,13 +3,16 @@
   "title": "Archery Range",
   "category": "Places",
   "type": "Pristinia training and craft",
-  "dek": "Rolen’s range brings together equipment, practice, family lessons and the everyday work of learning from one another.",
+  "dek": "From a damaged warehouse to a shared practice space: Rolen’s recruits, craft and family lessons, a warning from the woods and later teaching and upkeep.",
   "facts": {
     "Parent": "Pristinia",
     "Early owner": "Rolen Ofandrus",
-    "Uses": "Training · practice · equipment · craft"
+    "Uses": "Training · practice · equipment · craft",
+    "Original building": "Repaired warehouse offered for indoor training",
+    "Later use": "Borrowed bows, targets, melee dummies and continued maintenance",
+    "Ownership after Rolen": "No transfer established"
   },
-  "body": "<h2 id=\"prima-rp-range-rolen\">Rolen makes the range usable</h2><p>In March 2024, Rolen remodels and cleans the range while preparing bows, crossbows and arrows for business. He identifies himself to Pilanas Cristias as its owner and describes training and practice as its purpose. His work makes a place where equipment, instruction and a welcoming first conversation meet.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219730733761953832\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219894542866845786\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219896613628018769\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219897917100265482\" target=\"_blank\" rel=\"noopener\">4</a>.</p><h2 id=\"prima-rp-range-pilanas\">Pilanas learns the craft</h2><p>Pilanas asks to learn woodworking. Rolen warns that shaping good arrow shafts takes years of practice, then offers a useful starting task: attaching heads to shafts he has prepared. When she hears condescension in his explanation, he clarifies that he meant the task is easier, not that she is incapable. He demonstrates the glue and fitting process, leaving further instruction open. Craft is passed through patient work rather than a promise of instant mastery.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219895726843101204\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219898776160960533\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219900156200357960\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219901601171509268\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219902619661897773\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"prima-rp-range-family\">Learning to protect oneself</h2><p>Claire Hearthford brings Kathie to learn self-defense. Rolen presents a carved training bow, adjusts the trainees’ technique and encourages them after misses. Claire tells Kathie to attend to posture, aim and breathing instead of the target alone. Jako’s account explicitly credits Rolen’s encouragement with easing frustration and improving a shot. The range serves families and newcomers as well as experienced adventurers.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221842792578285721\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221849048793878541\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221859364231577661\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221860123237023884\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221860499336073349\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"prima-rp-range-return\">Practice and unexpected company</h2><p>Eugene arrives hoping to practice bladesinging privately and finds someone already there. The scene records an accidental meeting in a shared training space. Later, Aerrow and Aravil practice and recognize one another as warriors struggling to feel settled after their arrival. Their discussion records their own experiences and affinities; it does not make the range a formal academy or turn every conversation there into policy.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1261037269930741781\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365768886338715658\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365769309917286542\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365772052497432709\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365775346749935628\" target=\"_blank\" rel=\"noopener\">5</a>.</p><p><a href=\"#felicity?section=felicity-range-teaching\">Read Felicity teaching at the range →</a></p>",
+  "body": "<p>The Archery Range is a working training space in <a href=\"#pristinia\">Pristinia</a>, first made usable by <a href=\"#rolen\">Rolen Ofandrus</a>. Its history includes repairs, arrangements for materials and lessons given to people with very different experience. Later visitors still find targets to practice on and people doing the work of replacing them.</p><h2 id=\"range-warehouse-and-watch\">The warehouse and the watch</h2><p>Melian offers an abandoned warehouse as the possible site for an indoor range. The quest narrator finds it badly in need of repairs. Rolen’s plans include practice lanes, a designated space for spellwork and an area near the entrance for selling goods. Melian can spare limited help, but asks for a blueprint; at that point, she says, the building’s chief advantage is that it is dry.</p><p>A messenger carries Rolen’s request for suitable stone to the people working on the fields. Quake separates smaller stones while explaining that larger building material will have to come from the quarry. The range grows out of the same limited supplies and shared labor as the settlement’s other projects. Proposed spell restrictions and rooms are plans, not proof of a finished magical safety system.</p><p>By the later celebration, Rolen announces that the range is open and that he is training the new town watch recruits. He welcomes Alyhotep and explains that ranged practice is his main work, while John Smith leads the melee training. He still thinks the recruits need more practice. Opening the building does not mean the young militia is already an accomplished army.</p><h2 id=\"prima-rp-range-rolen\">Rolen makes the range usable</h2><p>In March 2024, Rolen remodels and cleans the range while preparing bows, crossbows and arrows for business. He identifies himself to Pilanas Cristias as its owner and describes training and practice as its purpose. His work makes a place where equipment, instruction and a welcoming first conversation meet.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219730733761953832\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219894542866845786\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219896613628018769\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219897917100265482\" target=\"_blank\" rel=\"noopener\">4</a>.</p><h2 id=\"prima-rp-range-pilanas\">Pilanas learns the craft</h2><p>Pilanas asks to learn woodworking. Rolen warns that shaping good arrow shafts takes years of practice, then offers a useful starting task: attaching heads to shafts he has prepared. When she hears condescension in his explanation, he clarifies that he meant the task is easier, not that she is incapable. He demonstrates the glue and fitting process, leaving further instruction open. Craft is passed through patient work rather than a promise of instant mastery.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219895726843101204\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219898776160960533\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219900156200357960\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219901601171509268\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1219902619661897773\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"prima-rp-range-family\">Learning to protect oneself</h2><p>Claire Hearthford brings Kathie to learn self-defense. Rolen presents a carved training bow, adjusts the trainees’ technique and encourages them after misses. Claire tells Kathie to attend to posture, aim and breathing instead of the target alone. Jako’s account explicitly credits Rolen’s encouragement with easing frustration and improving a shot. The range serves families and newcomers as well as experienced adventurers.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221842792578285721\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221849048793878541\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221859364231577661\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221860123237023884\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1221860499336073349\" target=\"_blank\" rel=\"noopener\">5</a>.</p><h2 id=\"range-warning-from-the-woods\">A trainee brings a warning</h2><p>One of the archers who has begun training here runs into Pristinia soaked and muddy, terrified by what he and his wife have seen in the woods. He reports a gathering at an old ritual site and fears for the wife who stayed behind to watch. Vigr, Cobble and the gathering company question him and prepare to help.</p><p>The range connects this frightened resident with people able to respond. The warning begins in the town, but its reported ritual lies out in the woods; the encounter is not moved into the practice building merely because its messenger learned archery here.</p><h2 id=\"prima-rp-range-return\">Practice and unexpected company</h2><p>Eugene arrives hoping to practice bladesinging privately and finds someone already there. The scene records an accidental meeting in a shared training space. Later, Aerrow and Aravil practice and recognize one another as warriors struggling to feel settled after their arrival. Their discussion records their own experiences and affinities; it does not make the range a formal academy or turn every conversation there into policy.</p><p class=\"source-note\">Scene evidence: <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1261037269930741781\" target=\"_blank\" rel=\"noopener\">1</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365768886338715658\" target=\"_blank\" rel=\"noopener\">2</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365769309917286542\" target=\"_blank\" rel=\"noopener\">3</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365772052497432709\" target=\"_blank\" rel=\"noopener\">4</a>, <a href=\"https://discord.com/channels/1177270231513694249/1219690120811384922/1365775346749935628\" target=\"_blank\" rel=\"noopener\">5</a>.</p><p><a href=\"#felicity?section=felicity-range-teaching\">Read Felicity teaching at the range →</a></p><h2 id=\"range-felicity-and-upkeep\">Targets, guidance and room to practice</h2><p>Much later, <a href=\"#felicity\">Felicity</a> arrives with replacement bullseyes, intending to clear stray arrows and exchange damaged targets and dummies. Clive is practicing with magic and blades. Kage, visiting for the first time, asks how to begin. Felicity puts down her maintenance supplies to help.</p><p>She shows Kage the lobby and practice area, points out ranged targets and melee dummies, and brings a light-draw shortbow from the borrowed equipment. Kage wants to contribute to the town’s defense from farther away, despite having no archery experience. Felicity demonstrates, watches the first shot reach its target and tells the learner that further skill will take practice.</p><p>The scene also preserves disagreement. Clive thinks the attention is overbearing and wants Kage to find an individual way to practice; Kage thanks Felicity and asks to continue alone. Felicity apologizes to Clive, then returns to clearing up and replacing the dummy he has burned. Instruction, independent practice and maintenance all occupy the same room. None of this establishes a transfer of ownership from Rolen or a formal appointment for Felicity.</p>",
   "relatedRecords": [
     "rolen",
     "pristinia",
@@ -23,11 +26,64 @@
     "RP history"
   ],
   "sources": [
-    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
+    "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates.",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219336142454001716",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219349734091657316",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219350918290604113",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219355175190528050",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219356004202840246",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219356905173028925",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1219357261038878841",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1222586404224110592",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1222587302438633533",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1222587508638875780",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221228878664564889",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221229788790915192",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221230461632643163",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221230953511522336",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221231731114250282",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1221231875637510246",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564281191094558736",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564282180761292881",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564283995926036673",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564285063984582713",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564286082881691821",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564287962940706949",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564293014325698601",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564293451367972915",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564297937142681730",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564298667588845740",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564298833805054074",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564300057711345718",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564301836968529921",
+    "https://discord.com/channels/1177270231513694249/1219690120811384922/1564302267518165153"
   ],
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "range-warehouse-and-watch",
+      "title": "The warehouse and the watch",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "Quest narration and participants establish the building, material arrangements and later reported opening. Proposed magical restrictions and broader military competence are not inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219336142454001716",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219349734091657316",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219350918290604113",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219355175190528050",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219356004202840246",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219356905173028925",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1219357261038878841",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1222586404224110592",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1222587302438633533",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1222587508638875780"
+        ]
+      }
+    },
     {
       "id": "prima-rp-range-rolen",
       "title": "Rolen makes the range usable",
@@ -71,6 +127,25 @@
       }
     },
     {
+      "id": "range-warning-from-the-woods",
+      "title": "A trainee brings a warning",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Quest scenes & attributed accounts",
+        "summary": "The narrator identifies the messenger as a trainee. His report and the company’s response establish a connection, not the claim that the ritual occurred at the range.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221228878664564889",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221229788790915192",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221230461632643163",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221230953511522336",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221231731114250282",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1221231875637510246"
+        ]
+      }
+    },
+    {
       "id": "prima-rp-range-return",
       "title": "Practice and unexpected company",
       "chapter": "History & consequences",
@@ -83,6 +158,87 @@
           "Prima RP — five supplied primary channel exports and companion analyses; 11 October 2026. Posting dates are not established in-world dates."
         ]
       }
+    },
+    {
+      "id": "range-felicity-and-upkeep",
+      "title": "Targets, guidance and room to practice",
+      "chapter": "History & consequences",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed role-play & attributed accounts",
+        "summary": "Observed compatible civic RP. Kage’s learning, Clive’s criticism and Felicity’s response retain their different perspectives; no ownership change or institutional policy is inferred.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564281191094558736",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564282180761292881",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564283995926036673",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564285063984582713",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564286082881691821",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564287962940706949",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564293014325698601",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564293451367972915",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564297937142681730",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564298667588845740",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564298833805054074",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564300057711345718",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564301836968529921",
+          "https://discord.com/channels/1177270231513694249/1219690120811384922/1564302267518165153"
+        ]
+      }
     }
-  ]
+  ],
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "range-from-warehouse",
+        "title": "From warehouse to working range",
+        "sections": [
+          "range-warehouse-and-watch",
+          "prima-rp-range-rolen"
+        ]
+      },
+      {
+        "id": "range-learning-craft",
+        "title": "Arrow-making and first lessons",
+        "sections": [
+          "prima-rp-range-pilanas"
+        ]
+      },
+      {
+        "id": "range-families",
+        "title": "A place for families",
+        "sections": [
+          "prima-rp-range-family"
+        ]
+      },
+      {
+        "id": "range-woodland-warning",
+        "title": "News from beyond the town",
+        "sections": [
+          "range-warning-from-the-woods"
+        ]
+      },
+      {
+        "id": "range-practice-and-company",
+        "title": "Practice and unexpected company",
+        "sections": [
+          "prima-rp-range-return"
+        ]
+      },
+      {
+        "id": "range-later-teaching",
+        "title": "Keeping the range usable",
+        "sections": [
+          "range-felicity-and-upkeep"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "sourceReview": {
+    "latestReview": "2026-11-09",
+    "scope": "Selected quest and compatible civic scenes; accounts retain attribution, plans remain distinct from completed work. Earlier unchanged references retain their previous review scope.",
+    "sourceClass": "Quest scenes and compatible civic RP; inherited player testimony remains attributed"
+  }
 }

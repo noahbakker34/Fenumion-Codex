@@ -60,6 +60,57 @@ const previews=require('../content/reference/browse-images.json').images;
   await fenwick.click();await page.locator('#record-dialog[open]').waitFor();
   assert.equal(await page.locator('#record-dialog .record-dialog-media img').getAttribute('src'),original,'opening a person keeps original art');
   await page.keyboard.press('Escape');
+  // A directory or another person's history must never lend its biography to a preview.
+  for(const name of ['Quoth','Loistava','Karnak','Farkur','Commander Yvette','Paco']){
+   await page.locator('#people-gallery-query').fill(name);
+   await page.locator(`#people-gallery [data-character-title="${name}"]`).click();
+   await page.locator('#record-dialog[open]').waitFor();
+   assert.equal(await page.locator('#record-dialog-title').innerText(),name);
+   const ownProfile=['Karnak','Farkur','Commander Yvette'].includes(name);
+   if(ownProfile){
+    await page.locator('#record-dialog .record-dialog-body strong').filter({hasText:'Last established status'}).waitFor();
+    assert.match(await page.locator('#record-dialog [data-record-article]').first().innerText(),/Read full profile/,'title aliases keep their personal profile');
+   }else{
+    const summary=await page.evaluate(title=>[...archiveIndex.characters,...archiveIndex.npcs].find(p=>p.title===title).summary,name);
+    assert.equal(await page.locator('#record-dialog .record-dialog-body p').first().innerText(),summary,'preview keeps the selected person’s summary');
+    assert.equal(await page.locator('#record-dialog .record-dialog-body strong').filter({hasText:'Last established status'}).count(),0,'no status borrowed from a shared history');
+    assert.equal(await page.locator('#record-dialog .chronicle-relationships').count(),0,'no relationships borrowed from a shared history');
+   }
+   if(name==='Quoth'){
+    assert.equal((await page.locator('#record-dialog .record-dialog-kicker').textContent()).trim(),'Companion preview');
+    assert.equal((await page.locator('#record-dialog .chronicle-role-badges>span').first().textContent()).trim(),'Pet');
+   }
+   if(name==='Paco'){
+    const related=page.locator('#record-dialog [data-record-article="carmen"]');
+    assert.match(await related.innerText(),/Read related history/);
+    await related.click();
+    await page.waitForFunction(()=>document.querySelector('#article-content').dataset.route==='#carmen'&&byId.get('carmen').bodyLoaded);
+   }else await page.keyboard.press('Escape');
+  }
+  // A slow personal body response cannot replace a different preview sharing its route.
+  const race=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+  race.on('pageerror',e=>errors.push(e.message));
+  if(!process.env.CODEX_LIVE)await race.route('https://auth.fenumion.com/**',r=>r.fulfill({status:401,contentType:'application/json',body:'{"error":"signin"}'}));
+  let releaseBody,bodyRequests=0;
+  const heldBody=new Promise(resolve=>releaseBody=resolve);
+  await race.route('**/data/records/carmen.*.json',async route=>{bodyRequests++;await heldBody;await route.continue();});
+  try{
+   await race.goto(base+'#people-directory');
+   await race.locator('#people-gallery-query').fill('Carmen');
+   const requestStarted=race.waitForRequest(/\/data\/records\/carmen\.[^/]+\.json$/);
+   await race.locator('#people-gallery [data-character-title="Carmen"]').click();
+   await requestStarted;
+   await race.keyboard.press('Escape');
+   await race.locator('#people-gallery-query').fill('Paco');
+   await race.locator('#people-gallery [data-character-title="Paco"]').click();
+   assert.equal(await race.locator('#record-dialog-title').innerText(),'Paco');
+   releaseBody();
+   await race.waitForFunction(()=>byId.get('carmen').bodyLoaded);
+   await race.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
+   assert.equal(await race.locator('#record-dialog-title').innerText(),'Paco','a delayed Carmen response leaves Paco selected');
+   assert.equal(bodyRequests,1,'a shared-history preview does not request a personal body');
+  }finally{releaseBody();await race.close();}
+  await page.goto(base+'#people-directory');
   await page.locator('#people-gallery-query').fill('');
   await page.waitForFunction(()=>document.querySelectorAll('#people-gallery .character-card').length===24);
   assert.equal(await page.locator('.people-pagination [data-people-page]').innerText(),'Page 1 of '+Math.ceil(initial.total/24));
@@ -97,6 +148,6 @@ const previews=require('../content/reference/browse-images.json').images;
   await page.locator('#world-browser').screenshot({path:output+'/homepage-characters-mobile.png'});
   assert.deepEqual(await page.evaluate(()=>articles.filter(a=>isRestrictedArticle(a.id)&&(a.body||a.brief)).map(a=>a.id)),[]);
   assert.deepEqual(errors,[]);
-  console.log('PASS lightweight initial artwork, deferred bodies/search, all '+initial.total+' people on directory and homepage, bounded pages, filters/aliases/sorting, original art, focus, four widths and protected boundaries');
+  console.log('PASS lightweight artwork, deferred bodies/search, all '+initial.total+' people, pagination/filters/aliases, accurate shared-history previews, slow-response selection, original art, focus, four widths and protected boundaries');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});

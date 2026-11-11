@@ -16,7 +16,13 @@ body.fenumion-world {
 .fenumion-world :is(h1,h2,h3,.brand strong,.event-copy>strong,.index-card-copy>strong,.gateway-tile>span,.feature-copy>strong) { font-family: var(--serif); }
 .fenumion-world :is(.eyebrow,.article-kicker,.record-dialog-kicker,.event-kind,.character-card-kicker,.browser-summary,.tag,.article-meta,.gateway-overline,.feature-label,.timeline-results-summary) { font-family: var(--sans); font-size: .75rem; letter-spacing: .08em; }
 .fenumion-world .article-body :is(p,li), .fenumion-world .record-dialog-body p { font-size: 1.125rem; line-height: 1.75; }
-.fenumion-world .article-body p { max-width: 78ch; }
+.fenumion-world .article-body p { max-width: 72ch; line-height: 1.8; }
+.fenumion-world .article-body p a { text-decoration-thickness: .055em; text-underline-offset: .18em; text-decoration-skip-ink: auto; }
+body.fenumion-world:not(.home-view) .breadcrumbs { font: 500 .75rem/1.6 var(--sans); color: var(--muted); letter-spacing: .035em; text-transform: none; }
+.fenumion-world.hub-view .article-header .article-meta { display: none; }
+.fenumion-world :is(.biography-layout,.chronicle-layout,.region-hub-layout) .record-summary .fact dt { font-size: .75rem; }
+.fenumion-world .section-evidence>summary { flex-wrap: wrap; row-gap: .35rem; }
+.fenumion-world .evidence-open { font-size: .75rem; color: var(--muted); }
 .fenumion-world :is(.event-summary,.index-card-copy>span:not(.character-card-kicker),.place-summary,.search-result>span) { font: 500 1.0625rem/1.6 var(--text); }
 .fenumion-world .event-people { font: 500 .875rem/1.5 var(--text); color: #c2cbc6; }
 .fenumion-world .event-people b, .fenumion-world .event-tags i { font: 500 .72rem/1.45 var(--sans); }
@@ -111,6 +117,8 @@ body.fenumion-world.timeline-workspace-view .article-header { min-height:0;paddi
 .fenumion-world .chronicle-character-heading h2 { margin:.6rem 0;font-size:clamp(1.5rem,4vw,2.5rem);line-height:1.35; }
 .chronicle-character-panel>.chronicle-relationships { margin-bottom:1.5rem; }
 .fenumion-world .record-dialog :is(.record-dialog-kicker,.npc-region-label,.record-dialog-dek) { font-size:.875rem; }
+.fenumion-world .chronicle-character-heading .record-dialog-kicker { font-size:.75rem; }
+.fenumion-world .record-dialog-link { align-items:center;min-height:44px;font:600 .875rem/1.45 var(--sans); }
 .fenumion-world .record-dialog-body strong { font:600 .8rem/1.5 var(--sans); }
 .fenumion-world .index-card img { object-position:center 18%; }
 .fenumion-world .record-visual-rail .article-hero { border-top:2px solid var(--region-accent); }

@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-09
+Last updated: 2026-11-10
+
+## Restrained presentation polish · 10 November 2026
+
+The owner asks for subtle professional refinements. Reading paragraphs gain a calmer measure/rhythm; breadcrumbs, summary labels, prose links, evidence disclosures and preview buttons become more consistent. Hub headers lose inert repeated tags, and directory/chronology wording is shorter and clearer. The existing fantasy identity and navigation remain. Details: PROFESSIONAL_POLISH_2026_11_10.md.
+
+Personal previews now require a matching People title or established alias before borrowing biography/status/relationships. Quoth and other shared-directory entries keep their own summaries; Paco does not inherit Carmen’s profile. Full profiles, related histories and scenes have distinct action labels. The asynchronous preview guard checks the person as well as the route, so a slow Carmen response cannot replace Paco. The existing directory gate adds these regressions without another workflow stage/dependency.
+
+All 717 canonical content file hashes remain exact: catalog317/build `093f227f1a4f93ed`, 662 records/613 bodies/3,041 sections, 269 people/401 timeline objects. App275/visual CSS15; other runtime/styles, assets and private material unchanged. Static/calendar checks and the complete local directory/reader/visual/quote gates pass, including eighteen-width locked/unlocked header coverage. Focused typography, real wheel scrolling, keyboard evidence disclosures, mobile previews and protected-stub checks pass without script/public HTTP errors. Before/after screenshots are inspected. Publication/production verification follows.
 
 ## Four fuller location histories · 9 November 2026
 

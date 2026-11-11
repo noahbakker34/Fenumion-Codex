@@ -216,7 +216,12 @@ function eventStoryReturnRoute(article) {
 }
 
 function characterRecordKind(person) { return person.characterKind === 'pet' ? 'pet' : 'player'; }
-function characterRecordLabel(person) { return person.characterKind === 'pet' ? 'Player-character pet' : 'Player character'; }
+function characterRecordLabel(person) { return person.characterKind === 'pet' ? 'Pet' : 'Player character'; }
+
+function characterProfileArticle(person) {
+  const article = byId.get(person.article);
+  return article?.category === 'People' && [person.title, ...(person.aliases || [])].includes(article.title) ? article : null;
+}
 
 function npcRegionLabel(person) {
   const group = npcIslandGroups.find(group=>group.people.some(record=>record.name===person.title));
@@ -224,7 +229,7 @@ function npcRegionLabel(person) {
 }
 
 function characterProfileParagraphs(person) {
-  const profile = legacyCharacterProfiles[person.title] || byId.get(person.article)?.profile;
+  const profile = legacyCharacterProfiles[person.title] || characterProfileArticle(person)?.profile;
   return profile ? [profile.personality, profile.achievements, profile.relationships] : [person.summary, '', ''];
 }
 
@@ -238,6 +243,7 @@ function openTimelineRecord(item) {
   if (!recordDialog || !recordDialogContent || isRestrictedTimelineEvent(item)) return;
   recordDialogContent.classList.remove('chronicle-character-panel');
   delete recordDialogContent.dataset.character;
+  delete recordDialogContent.dataset.characterName;
   const [whatHappened, whyItMatters] = timelineDetailParagraphs(item);
   const context = timelineBrowseContext?.route === location.hash && timelineBrowseContext.items.includes(item) ? timelineBrowseContext.items : null;
   const readableTimeline = context ? context.filter(readableTimelineEvent) : archiveIndex.timeline.filter(readableTimelineEvent).sort((a, b) => compareTimelineEvents(a, b, 'oldest'));
@@ -282,9 +288,10 @@ function openCharacterRecord(person, personLabel = "Character") {
   if (!recordDialog || !recordDialogContent) return;
   if (!isPlayerSafeArticle(person.article)) { closeRecordDialog(); renderArticle(person.article); return; }
   recordDialogContent.dataset.character=person.article;
-  const canonical=byId.get(person.article);
+  recordDialogContent.dataset.characterName=person.title;
+  const canonical=characterProfileArticle(person);
   if(canonical && !canonical.bodyLoaded && isPlayerSafeArticle(canonical.id)) window.CodexReader.load(canonical).then(()=>{
-    if(recordDialog.open && recordDialogContent.dataset.character===person.article) openCharacterRecord(person,personLabel);
+    if(recordDialog.open && recordDialogContent.dataset.character===person.article && recordDialogContent.dataset.characterName===person.title) openCharacterRecord(person,personLabel);
   }).catch(()=>{});
   const [personality, achievements, relationships] = characterProfileParagraphs(person);
   const profileMedia = person.image
@@ -293,7 +300,7 @@ function openCharacterRecord(person, personLabel = "Character") {
       ? `<figure class="record-dialog-media"><video data-ambient-video muted loop playsinline preload="none"><source data-src="${escapeHtml(person.video)}" type="video/mp4"></video></figure>`
       : "";
   const relatedButton = person.article && person.article !== "people-directory"
-    ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(person.article + (person.mediaScene ? "?section=" + encodeURIComponent("scene-" + person.mediaScene) : ""))}">Open related Codex record →</button>`
+    ? `<button class="record-dialog-link" type="button" data-record-article="${escapeHtml(person.article + (person.mediaScene ? "?section=" + encodeURIComponent("scene-" + person.mediaScene) : ""))}">${person.mediaScene ? 'View character scene' : canonical ? 'Read full profile' : 'Read related history'} →</button>`
     : "";
   const npcGroup = archiveIndex.npcs.some(item=>item.title===person.title)
     ? npcIslandGroups.find(group=>group.people.some(item=>item.name===person.title)) || npcIslandGroups.find(group=>group.id==='unplaced')
@@ -301,7 +308,7 @@ function openCharacterRecord(person, personLabel = "Character") {
   const islandButton = npcGroup ? `<button class="record-dialog-link" type="button" data-record-article="npcs-${escapeHtml(npcGroup.id)}">${escapeHtml(npcGroup.title)} · NPCs →</button>` : '';
   recordDialogContent.innerHTML = `
     ${profileMedia}
-    <p class="record-dialog-kicker">${escapeHtml(personLabel)} · Expanded profile</p>
+    <p class="record-dialog-kicker">${person.characterKind === 'pet' ? 'Companion preview' : 'Character preview'}</p>
     <h2 id="record-dialog-title">${escapeHtml(person.title)}</h2>
     <p class="record-dialog-dek">${escapeHtml(person.meta)}</p>${npcGroup ? `<p class="npc-region-label">${escapeHtml(npcRegionLabel(person))}</p>` : ""}
     <div class="record-dialog-body">
@@ -323,6 +330,7 @@ function openCharacterRecord(person, personLabel = "Character") {
 function openLocationRecord(place) {
   if (!recordDialog || !recordDialogContent) return;
   delete recordDialogContent.dataset.character;
+  delete recordDialogContent.dataset.characterName;
   recordDialogContent.classList.remove('chronicle-character-panel');
   const relatedLabel = place.article === "visual-archive" ? "Open the Location Atlas" : "Open related location history";
   const related=byId.get(place.article);
@@ -978,7 +986,7 @@ function renderArticle(route, pushHash = true) {
   const peopleGallery = article.id === "people-directory" ? `
     <section class="people-gallery-shell" aria-labelledby="people-gallery-title">
       <div class="people-gallery-heading">
-        <div><p class="eyebrow">Visual character archive</p><h2 id="people-gallery-title">Meet the people of Fenumion</h2><p>Browse every indexed hero, ally, ruler, witness, god, and recurring figure. Open a portrait to read their story.</p></div>
+        <div><p class="eyebrow">Character directory</p><h2 id="people-gallery-title">Browse the cast</h2><p>Search by name, role or story. Select a portrait for a profile preview.</p></div>
         <label class="people-gallery-search" for="people-gallery-query"><span>Search characters</span><input id="people-gallery-query" type="search" placeholder="Name, role, or story…" autocomplete="off"></label>
       </div>
       <div class="people-gallery-filters" id="people-gallery-filters" role="toolbar" aria-label="Filter people by character type"></div>
@@ -1008,12 +1016,16 @@ function renderArticle(route, pushHash = true) {
   const historyBackdrop = article.id === 'living-timeline' ? `<div class="history-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="assets/archive/narrative-history-background-poster.webp" tabindex="-1"><source data-src="assets/archive/narrative-history-background.mp4" type="video/mp4"></video></div>` : '';
   const characterBackdrop=characterBackgroundTheme ? `<div class="character-video-backdrop" aria-hidden="true" style="--character-poster:url('${characterBackgroundTheme.poster}')"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="${characterBackgroundTheme.poster}" tabindex="-1"><source data-src="${characterBackgroundTheme.video}" type="video/mp4"></video></div>` : '';
   const deathBackdrop = deathRelated ? `<div class="death-video-backdrop" aria-hidden="true"><video class="ambient-video" data-ambient-video muted loop playsinline disablepictureinpicture disableremoteplayback preload="none" poster="assets/archive/death-background-poster.webp" tabindex="-1"><source data-src="assets/archive/death-background.mp4" type="video/mp4"></video></div>` : '';
+  const headerCopy = {
+    'people-directory': {type:'Characters, NPCs and companions', dek:'Meet Fenumion’s adventurers, allies, rulers and rivals, and follow the stories that connect them.'},
+    'living-timeline': {type:'Events across Fenumion'}
+  }[article.id];
   articleContent.innerHTML = `
     ${characterBackdrop}${quotesBackdrop}${ethosBackdrop}${deathBackdrop}${locationsBackdrop}${factionsBackdrop}${historyBackdrop}
     <header class="article-header"${hubPage ? ` style="--hub-image:url('${hubImage}')"` : ""}>
-      <p class="article-kicker">${article.type}</p>
+      <p class="article-kicker">${headerCopy?.type || article.type}</p>
       <h1>${article.title}</h1>
-      <p class="dek">${article.dek}</p>
+      <p class="dek">${headerCopy?.dek || article.dek}</p>
       <div class="article-meta">${article.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div>
     </header>
     ${hubSwitcher}

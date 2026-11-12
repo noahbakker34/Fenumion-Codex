@@ -1,6 +1,6 @@
 {
   "reviewed": "2026-10-30",
-  "scope": "All 35 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
+  "scope": "All 37 public Interregional/World Changing milestones plus selected regional and focused histories. Event context links remain distinct from story destinations.",
   "stories": [
     {
       "article": "first-called-arrival",
@@ -607,11 +607,12 @@
     {
       "article": "attack-on-the-chains",
       "events": [
-        "The company stops constructs battering the Chains"
+        "The company stops constructs battering the Chains",
+        "The Maw-bound company camps without enough food or rest"
       ],
-      "chapters": 7,
-      "words": 1138,
-      "sourceReceipts": 147,
+      "chapters": 10,
+      "words": 1584,
+      "sourceReceipts": 227,
       "existingPublicAccounts": [
         "voraketh",
         "ithilrune",
@@ -727,12 +728,23 @@
     {
       "article": "selwyns-return",
       "events": [
-        "Jiangshi brings Selwyn back while the branch remains"
+        "Jiangshi brings Selwyn back while the branch remains",
+        "Selwyn’s branch vanishes after treatment at the Tower"
       ],
-      "chapters": 4,
-      "words": 607,
-      "sourceReceipts": 49,
+      "chapters": 5,
+      "words": 792,
+      "sourceReceipts": 66,
       "existingPublicAccounts": []
+    },
+    {
+      "article": "song-the-wind-cannot-finish",
+      "events": [
+        "The company finds Yen still defending the stone"
+      ],
+      "existingPublicAccounts": [],
+      "chapters": 4,
+      "words": 755,
+      "sourceReceipts": 73
     }
   ],
   "calendarCorrection": {

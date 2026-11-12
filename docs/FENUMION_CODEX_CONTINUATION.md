@@ -1,6 +1,14 @@
 # Fenumion Codex — Continuation Brief
 
-Last updated: 2026-11-10
+Last updated: 2026-11-12
+
+## Regional updates and one tournament · 12 November 2026
+
+The owner supplies regional updates and the remaining 2024-rp text. Forty-four Fenumion records gain sixty-two sections, including a full Yen quest story, later Selwyn treatment and the ongoing Maw march. Five PC histories are added, Yen’s existing route expands, and three people join the directory. Bohlale, Marius and Dorothea are confirmed PCs; Kiralyn is provisional; Zelaria stays unclassified. Details: SOURCE_UPDATE_2026_11_12.md and source-update-2026-11-12.json.
+
+All 5,454 supplied/native bodies match; 636 selected Fenumion versions support the additions. The 213-message 2024 continuation exactly duplicates the packet’s Khars Madar tournament; one story, Evros and nine existing-record extensions stay in Gedankin. Claims, visions, unfinished plans and observed outcomes remain distinct. Selwyn’s branch removal is confirmed without resolving its origin; Yen’s watch and the Maw journey remain unfinished. Ryvyt stays dead, no aqueduct is added, and protected material remains external.
+
+All 401 old timeline objects, existing identities/art, 414 inherited anchors, 943 old narrative paragraphs, maps/quotes/261 previews and the private payload survive. Fenumion: catalog318/build `176b0aecf62ec5fd`, 668 records/619 bodies/3,103 sections, 272 people, 404 events/378 public, 46 stories/43 library entries. Gedankin: data23, 72 people/48 events. One visual CSS16 rule fixes empty portrait-free preview space; app275/styles177/reader15 remain. Existing gates gain coverage without another workflow stage/dependency. Local static, directory, biography, full-event, research and ordinary-reader checks pass. Focused Chrome passes all44 edited bodies/source sets,62 chapter bookmarks/focus,eighteen mobile layouts/header clearance and actual timeline/profile/alias/search journeys. Gedankin has one tournament with working participant/Evros links at four widths. Representative screenshots are inspected; no script/public HTTP errors occur. Authentication is simulated signed-out. Publication/live verification follows.
 
 ## Restrained presentation polish · 10 November 2026
 

@@ -2,26 +2,56 @@
   "id": "discovery-047",
   "title": "Yen",
   "category": "People",
-  "type": "Encounter participant",
-  "dek": "Warns the company to look out and later asks them not to speak about her while walking away.",
+  "type": "Defender of the Dark Shroud stone",
+  "dek": "Yen keeps fighting around an ancient stone while asking why her people have lost the ordinary renewal of life. She wants the battle to end, but fears what would happen to the village if she stopped.",
   "tags": [
     "Yen",
     "npc"
   ],
   "facts": {
-    "Role": "Encounter participant",
-    "Island": "Not established",
-    "Census posts": "20",
-    "Recorded span": "2026-06-29 → 2026-06-29",
-    "Prominence": "Unrated",
-    "Recorded presence": "7/20",
-    "Region": "Unestablished"
+    "Role": "Defender encountered in the Dark Shroud",
+    "Region": "Verdelune",
+    "Protects": "Ancient inscribed stone",
+    "Exile": "She says she was banished for asking unanswered questions",
+    "Latest outcome": "Still defending the stone as Minerva, Thorn and Trougar leave"
   },
   "sources": [
     "Recently Discovered NPCs census · posting spans and raw labels",
-    "Source-checked quest-RP scene anchors"
+    "Source-checked quest-RP scene anchors",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569229608275025970",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569229863494230117",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569230762752872489",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569231114361380936",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569231199895818362",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569231294532026493",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569231821193871432",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232030032732302",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232177001136201",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232368294961214",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232527804207167",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232868335558688",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569233079535411301",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569233305285558384",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569233692042338389",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569233941423071283",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569234076307824682",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569234126148476949",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569234630643683370",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569235927996567553",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569236689870782607",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569237254814048362",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569237346468102145",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569238096598270113",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569238225577574455",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569238806849265685",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569239265999585311",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569239582128472176",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569239949192986736",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569240273031274507",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569241540423848027",
+    "https://discord.com/channels/1177270231513694249/1199083630354501673/1569242986821328927"
   ],
-  "body": "<p>Warns the company to look out and later asks them not to speak about her while walking away.</p><h2 id=\"discovery-047-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-047-record\">Archive record</h2><p>The census records 20 posts across 2026-06-29 → 2026-06-29. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1521340206719176765\">Recorded scene · 1521340206719176765</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1521363862442475551\">Recorded scene · 1521363862442475551</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p>",
+  "body": "<p>Yen is the battered, sword-wielding woman found in the Dark Shroud through Lirael’s riddle. Her immediate work is holding creatures away from an ancient stone. Her larger request is for someone to find out why the life of the island changed.</p><h2 id=\"yen-the-watch\">The work that cannot pause</h2><p>Yen is already fighting when the company arrives. Root creatures come in waves, followed by Children of Viota who seem to grow near the stone. She asks the newcomers to keep their distance until she knows whether she must fight them too. Introductions happen between attacks.</p><p>She says that contact with the stone will strengthen the creatures enough to threaten the village that expelled her. The company sees the repeated fighting and the changing creatures. The village’s future danger and the banishment remain her explanation of why she cannot simply lower her blade.</p><h2 id=\"yen-questions-and-help\">She asked what people would not answer</h2><p>Asked about her exile, she says she questioned why the fey no longer brought children to new life, why the old roots bore no seed and why they waited for mages to bring people. Trougar suggests she is protesting by disrupting a cycle. She rejects that account: she came to understand what was already broken.</p><p>She lets Minerva approach the inscription once Thorn helps defend. That exchange matters. The company can read because someone else is covering the next attacks. The stone’s older text and later challenge to the price of life become leads rather than a solution she claims to possess.</p><h2 id=\"yen-an-opening\">An opening for someone else’s journey</h2><p>Yen asks the travelers to find how the change began. She points toward a carpet seller in Larkhollow who remembers, or toward the four towers. She does not know why Viota crossed, and says asking about it is taboo. Their next search remains open.</p><p>She fights another opening through the creatures so they can leave. Her last observed action is continuing the defence and hoping they meet in better times. Minerva’s subsequent mirror vision offers an image of the crossing, not a return to Yen with an answer. <a href=\"#song-the-wind-cannot-finish\">Read the expedition →</a></p><h2 id=\"discovery-047-prominence\">Prominence and evidence</h2><p><strong>Prominence unrated.</strong> The source footprint alone does not establish the importance of this identity. Consequences, institutional or witness role and relationships need a supported assessment.</p><p>Recorded presence combines dialogue volume and span. A brief appearance can still have lasting consequences; missing context is left unrated rather than assigned a low importance.</p><h2 id=\"discovery-047-record\">Archive record</h2><p>The census records 20 posts across 2026-06-29 → 2026-06-29. These dates identify when messages were posted, not automatically when events happened. An encounter label can refer to a form, a collective or more than one scene identity.</p><ul><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1521340206719176765\">Recorded scene · 1521340206719176765</a></li><li><a href=\"https://discord.com/channels/1177270231513694249/1199083630354501673/1521363862442475551\">Recorded scene · 1521363862442475551</a></li></ul><p><a href=\"#npc-discovery-registry\">Return to all discovery records →</a></p><p>Warns the company to look out and later asks them not to speak about her while walking away.</p>",
   "discoveryProtected": false,
   "image": "assets/characters/discord/b3d659d87589d214591bb48c0f7a45a95afb4de42885e439b3fc6fba687a4e7e.png",
   "imageAlt": "Discord depiction of Yen",
@@ -30,6 +60,77 @@
   "schemaVersion": 1,
   "protected": false,
   "sections": [
+    {
+      "id": "yen-the-watch",
+      "title": "The work that cannot pause",
+      "chapter": "The work that cannot pause",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "summary": "Actions and stated outcomes are preserved. Personal explanations, recollections and proposed next steps retain their speakers.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569229608275025970",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569229863494230117",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569230762752872489",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569231114361380936",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569231199895818362",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569231294532026493",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569231821193871432",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232030032732302",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232177001136201",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232368294961214",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232527804207167"
+        ]
+      }
+    },
+    {
+      "id": "yen-questions-and-help",
+      "title": "She asked what people would not answer",
+      "chapter": "She asked what people would not answer",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "summary": "Actions and stated outcomes are preserved. Personal explanations, recollections and proposed next steps retain their speakers.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569232868335558688",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569233079535411301",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569233305285558384",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569233692042338389",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569233941423071283",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569234076307824682",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569234126148476949",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569234630643683370",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569235927996567553",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569236689870782607"
+        ]
+      }
+    },
+    {
+      "id": "yen-an-opening",
+      "title": "An opening for someone else’s journey",
+      "chapter": "An opening for someone else’s journey",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "summary": "Actions and stated outcomes are preserved. Personal explanations, recollections and proposed next steps retain their speakers.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569237254814048362",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569237346468102145",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569238096598270113",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569238225577574455",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569238806849265685",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569239265999585311",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569239582128472176",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569239949192986736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569240273031274507",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569241540423848027",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569242986821328927"
+        ]
+      }
+    },
     {
       "id": "discovery-047-prominence",
       "title": "Prominence and evidence",
@@ -62,11 +163,59 @@
     }
   ],
   "brief": {
-    "identity": "Encounter participant",
-    "significance": "Warns the company to look out and later asks them not to speak about her while walking away.",
-    "actions": [],
-    "status": "A current status is not established in the dated public record.",
+    "identity": "Defender of the Dark Shroud stone",
+    "significance": "Yen keeps fighting around an ancient stone while asking why her people have lost the ordinary renewal of life. She wants the battle to end, but fears what would happen to the village if she stopped.",
+    "actions": [
+      {
+        "title": "The work that cannot pause",
+        "section": "yen-the-watch"
+      },
+      {
+        "title": "She asked what people would not answer",
+        "section": "yen-questions-and-help"
+      },
+      {
+        "title": "An opening for someone else’s journey",
+        "section": "yen-an-opening"
+      }
+    ],
+    "status": "Yen continues defending the stone as the expedition leaves · 8, Month of the Wyrm, Year 3.",
     "relationships": [],
     "basis": "Existing public dossier, explicit status facts and named timeline participants. Selected events are a reading guide, not a complete list or a ranking of importance."
+  },
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "yen-the-watch",
+        "title": "The work that cannot pause",
+        "sections": [
+          "yen-the-watch"
+        ]
+      },
+      {
+        "id": "yen-questions-and-help",
+        "title": "She asked what people would not answer",
+        "sections": [
+          "yen-questions-and-help"
+        ]
+      },
+      {
+        "id": "yen-an-opening",
+        "title": "An opening for someone else’s journey",
+        "sections": [
+          "yen-an-opening"
+        ]
+      },
+      {
+        "id": "yen-earlier-census",
+        "title": "Earlier encounter record",
+        "sections": [
+          "discovery-047-prominence",
+          "discovery-047-record"
+        ]
+      }
+    ],
+    "relationships": []
   }
 }

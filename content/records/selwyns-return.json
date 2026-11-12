@@ -1,11 +1,11 @@
 {
   "id": "selwyns-return",
-  "title": "Selwyn’s Return · The Branch Remains",
+  "title": "Selwyn’s Return",
   "schemaVersion": 1,
   "protected": false,
   "category": "History",
   "type": "Recovery chronicle",
-  "dek": "Minerva brings Selwyn to Hope after retrieving his body from Verdelune. Adelia cannot offer the help she first looks for; Jiangshi’s wish brings him back, with his memories and the branch still present.",
+  "dek": "Jiangshi’s wish brings Selwyn back with his memories and the branch still present. Later, his companions examine it at the Tower and Severina’s treatment removes what the return left behind.",
   "tags": [
     "Source update",
     "Event stories"
@@ -15,7 +15,8 @@
     "Setting": "Hope, Gael; earlier care at the Tower",
     "People": "Selwyn; Minerva; Adelia; Jiangshi; Bitoshi Nakamoto",
     "Importance": "Relational",
-    "Outcome": "Selwyn returns with intact memory; the attached branch impairs movement and reflexes"
+    "Outcome": "Selwyn returns with intact memory; the attached branch impairs movement and reflexes",
+    "Later outcome": "9 November 2026 · branch removed at the Tower; movement and reflexes restored"
   },
   "sources": [
     "https://discord.com/channels/1177270231513694249/1268984472880287794/1566962345668907030",
@@ -66,9 +67,26 @@
     "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996225490681891",
     "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996482748456991",
     "https://discord.com/channels/1177270231513694249/1250334670957051958/1566883038023909377",
-    "https://discord.com/channels/1177270231513694249/1250334670957051958/1566883326428586102"
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1566883326428586102",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569348484371451979",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569348752366641153",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569356402357436619",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569357271782133761",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569359546680610889",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569359848343216293",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569360805672128596",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569361960519082138",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569362185262596117",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363331557494916",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363527662182471",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363840561455195",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363950028591258",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364254874673276",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364496894529587",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364575214772406",
+    "https://discord.com/channels/1177270231513694249/1250334670957051958/1569365098361786531"
   ],
-  "body": "<p>Minerva has carried Selwyn’s body out of Verdelune, but bringing him home has not brought him back. A branch remains attached. She turns to Adelia at Hope, asking whether the power associated with the tree can restore the man she has been keeping from decay.</p><h2 id=\"the-body\">Care does not answer the branch</h2><p>At the Tower, Minerva prepares to return to Prima with Selwyn so that his condition can be investigated. She describes the branch as growing over him, but the narrator corrects that observation: it has not grown since the body was found. The question is what the existing branch means, not a newly confirmed spread.</p><p>Minerva carries him to Hope and waits while Adelia meditates. She asks for a resurrection and wonders whether Adelia’s bond to a tree might help with Selwyn’s connection to the trees of Verdelune. Adelia does not immediately claim that it can. She searches her belongings for something she thinks could restore him, then acknowledges that she does not possess it.</p><h2 id=\"the-request\">Adelia’s trust cannot be supplied by another name</h2><p>Minerva then asks for a shard, explaining that she, Fenwick, Vessalia, Di’trillio and Pell want to study how such things work. Adelia is uncertain that she has the strength to create one. More than power is at stake: after what happened when Magnus killed Hope, she is reluctant to trust people with something so consequential.</p><p>Minerva suggests that Fenwick could accept it instead. His longer history might reassure her. Adelia says his presence would not change her answer. She will consider the request, but the exchange supplies neither a shard nor a promise to produce one.</p><p>The refusal does not end their attempt to help Selwyn. Adelia suggests Jiangshi, who might be able to wish him back. She and Bitoshi are expected to return from their patrol. Minerva waits for another person’s help rather than treating Adelia’s bond with Hope as a resource she can demand.</p><h2 id=\"jiangshis-wish\">A request to the ancestors</h2><p>Jiangshi returns with Bitoshi and offers to help. She explains her wish in terms of the ancestors and a soul willing to return. Minerva shows her the body. The explanation is Jiangshi’s account of her practice; the outcome still has to happen.</p><p>Jiangshi casts. Adelia readies herself in case something goes wrong. The narrator first gives the ruling that a willing Selwyn can be revived with the branch remaining, then describes him awake among Adelia, Minerva and Jiangshi. His memories are intact.</p><p>The effort leaves Jiangshi stumbling, and Bitoshi catches her. She calls it taxing even through an ancestral wish. Their help has a visible cost, borne by the person doing the work and met by the companion standing ready beside her.</p><h2 id=\"what-return-leaves\">Alive, with another problem to understand</h2><p>Selwyn can see the people around him and the branches still on his body. He feels them stitching him, and his speed and reflexes are impaired. Returning to life has not removed the condition that made Minerva seek help in the first place.</p><p>Minerva thanks the people who helped and asks for Selwyn to meet her at the Tower when he is fully awake. She still wants to understand his bond to Verdelune. Bitoshi takes Jiangshi away to rest and invites Adelia to join them later. Minerva offers to escort Selwyn back.</p><p>The return is witnessed. Removal of the branch, a completed investigation and the unseen details of Minerva’s earlier ritual remain open. For now the company has gained something particular and precious: Selwyn is present again, able to remember, while his companions still have work to do.</p><p class=\"chronicle-context-links\"><strong>Continue reading</strong> <a href=\"#selwyn\">Selwyn</a> · <a href=\"#verdelune\">Verdelune</a> · <a href=\"#minerva\">Minerva</a> · <a href=\"#adelia-hope\">Adelia & Hope</a> · <a href=\"#jiangshi\">Jiangshi</a> · <a href=\"#tower-of-gael\">Tower of Gael</a></p>",
+  "body": "<p>Minerva has carried Selwyn’s body out of Verdelune, but bringing him home has not brought him back. A branch remains attached. She turns to Adelia at Hope, asking whether the power associated with the tree can restore the man she has been keeping from decay.</p><h2 id=\"the-body\">Care does not answer the branch</h2><p>At the Tower, Minerva prepares to return to Prima with Selwyn so that his condition can be investigated. She describes the branch as growing over him, but the narrator corrects that observation: it has not grown since the body was found. The question is what the existing branch means, not a newly confirmed spread.</p><p>Minerva carries him to Hope and waits while Adelia meditates. She asks for a resurrection and wonders whether Adelia’s bond to a tree might help with Selwyn’s connection to the trees of Verdelune. Adelia does not immediately claim that it can. She searches her belongings for something she thinks could restore him, then acknowledges that she does not possess it.</p><h2 id=\"the-request\">Adelia’s trust cannot be supplied by another name</h2><p>Minerva then asks for a shard, explaining that she, Fenwick, Vessalia, Di’trillio and Pell want to study how such things work. Adelia is uncertain that she has the strength to create one. More than power is at stake: after what happened when Magnus killed Hope, she is reluctant to trust people with something so consequential.</p><p>Minerva suggests that Fenwick could accept it instead. His longer history might reassure her. Adelia says his presence would not change her answer. She will consider the request, but the exchange supplies neither a shard nor a promise to produce one.</p><p>The refusal does not end their attempt to help Selwyn. Adelia suggests Jiangshi, who might be able to wish him back. She and Bitoshi are expected to return from their patrol. Minerva waits for another person’s help rather than treating Adelia’s bond with Hope as a resource she can demand.</p><h2 id=\"jiangshis-wish\">A request to the ancestors</h2><p>Jiangshi returns with Bitoshi and offers to help. She explains her wish in terms of the ancestors and a soul willing to return. Minerva shows her the body. The explanation is Jiangshi’s account of her practice; the outcome still has to happen.</p><p>Jiangshi casts. Adelia readies herself in case something goes wrong. The narrator first gives the ruling that a willing Selwyn can be revived with the branch remaining, then describes him awake among Adelia, Minerva and Jiangshi. His memories are intact.</p><p>The effort leaves Jiangshi stumbling, and Bitoshi catches her. She calls it taxing even through an ancestral wish. Their help has a visible cost, borne by the person doing the work and met by the companion standing ready beside her.</p><h2 id=\"what-return-leaves\">Alive, with another problem to understand</h2><p>Selwyn can see the people around him and the branches still on his body. He feels them stitching him, and his speed and reflexes are impaired. Returning to life has not removed the condition that made Minerva seek help in the first place.</p><p>Minerva thanks the people who helped and asks for Selwyn to meet her at the Tower when he is fully awake. She still wants to understand his bond to Verdelune. Bitoshi takes Jiangshi away to rest and invites Adelia to join them later. Minerva offers to escort Selwyn back.</p><p>The return is witnessed. Removal of the branch, a completed investigation and the unseen details of Minerva’s earlier ritual remain open. For now the company has gained something particular and precious: Selwyn is present again, able to remember, while his companions still have work to do.</p><h2 id=\"branch-at-the-tower\">A later treatment at the Tower</h2><p>Selwyn later meets Saelihn, Karnak and Severina at the Tower of Gael. Severina cuts away part of the branch, but something remains within him. Saelihn’s examination finds tissue merged with his body rather than wood merely wound around it. He feels her touch. Her search finds no separate mind; her suggestions of a tumor, parasite or symbiosis remain diagnoses she is considering.</p><p>Saelihn proposes testing it with psychic force and explains that a wrong assumption could hurt Selwyn too. He chooses to wait for Severina. Karnak stands ready to help if needed. After her trance, Severina returns and asks permission to try again.</p><p>The branch shrinks until it is gone. Selwyn’s movements and reflexes return, and the narrator explicitly confirms the removal and restored function. He tests himself and thanks her. Severina calls it a curse; the scene settles the outcome more firmly than the underlying diagnosis.</p><p>This advances what his return at Hope left open. The earlier attached branch was real, and later treatment removes it. Its full origin and Minerva’s earlier unseen bargain are still not explained.</p><p class=\"chronicle-context-links\"><strong>Continue reading</strong> <a href=\"#selwyn\">Selwyn</a> · <a href=\"#verdelune\">Verdelune</a> · <a href=\"#minerva\">Minerva</a> · <a href=\"#adelia-hope\">Adelia & Hope</a> · <a href=\"#jiangshi\">Jiangshi</a> · <a href=\"#tower-of-gael\">Tower of Gael</a></p>",
   "sections": [
     {
       "id": "the-body",
@@ -176,12 +194,43 @@
           "https://discord.com/channels/1177270231513694249/1268984472880287794/1566996482748456991"
         ]
       }
+    },
+    {
+      "id": "branch-at-the-tower",
+      "title": "A later treatment at the Tower",
+      "chapter": "A later treatment at the Tower",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "summary": "Actions and stated outcomes are preserved. Personal explanations, recollections and proposed next steps retain their speakers.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569348484371451979",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569348752366641153",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569356402357436619",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569357271782133761",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569359546680610889",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569359848343216293",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569360805672128596",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569361960519082138",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569362185262596117",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363331557494916",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363527662182471",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363840561455195",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363950028591258",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364254874673276",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364496894529587",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364575214772406",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569365098361786531"
+        ]
+      }
     }
   ],
   "readingLayout": "chronicle",
   "eventChronicle": {
     "events": [
-      "Jiangshi brings Selwyn back while the branch remains"
+      "Jiangshi brings Selwyn back while the branch remains",
+      "Selwyn’s branch vanishes after treatment at the Tower"
     ]
   }
 }

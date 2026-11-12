@@ -110,6 +110,18 @@ const previews=require('../content/reference/browse-images.json').images;
    assert.equal(await race.locator('#record-dialog-title').innerText(),'Paco','a delayed Carmen response leaves Paco selected');
    assert.equal(bodyRequests,1,'a shared-history preview does not request a personal body');
   }finally{releaseBody();await race.close();}
+  // A missing portrait leaves the identity the full available header width.
+  await page.goto(base+'#people-directory');
+  await page.locator('#people-gallery-query').fill('Bohlale Katsaros');
+  await page.locator('#people-gallery [data-character-title="Bohlale Katsaros"]').click();
+  await page.locator('#record-dialog [data-record-article="bohlale-katsaros"]').waitFor();
+  for(const width of [1440,390,320]){
+   await page.setViewportSize({width,height:width<500?844:1000});
+   assert.equal(await page.locator('#record-dialog .record-dialog-media').count(),0,'no invented portrait');
+   assert(await page.locator('#record-dialog .chronicle-character-header').evaluate(header=>header.firstElementChild.getBoundingClientRect().width>=header.getBoundingClientRect().width-1),'portrait-free identity uses full header width');
+   assert(await page.locator('#record-dialog').evaluate(dialog=>dialog.scrollWidth<=dialog.clientWidth),'portrait-free preview fits '+width);
+  }
+  await page.keyboard.press('Escape');
   await page.goto(base+'#people-directory');
   await page.locator('#people-gallery-query').fill('');
   await page.waitForFunction(()=>document.querySelectorAll('#people-gallery .character-card').length===24);

@@ -112,6 +112,7 @@ body.fenumion-world.timeline-workspace-view .article-header { min-height:0;paddi
 .chronicle-relationships strong { display:block;font:600 .8rem/1.4 var(--sans); }
 .chronicle-relationships small { display:block;color:var(--muted);font:400 .75rem/1.45 var(--sans); }
 .chronicle-character-header { display:grid;grid-template-columns:minmax(160px,.4fr) minmax(0,1fr);gap:1.6rem;align-items:center;margin-bottom:1.5rem; }
+.fenumion-world .chronicle-character-header:not(:has(.record-dialog-media)) { grid-template-columns:minmax(0,1fr); }
 .fenumion-world .chronicle-character-header .record-dialog-media { width:100%;height:300px;margin:0;border:1px solid #d8bd7a50;border-radius:6px;overflow:hidden; }
 .fenumion-world .chronicle-character-header .record-dialog-media :is(img,video) { width:100%;height:100%;object-fit:cover;object-position:center 18%; }
 .fenumion-world .chronicle-character-heading h2 { margin:.6rem 0;font-size:clamp(1.5rem,4vw,2.5rem);line-height:1.35; }

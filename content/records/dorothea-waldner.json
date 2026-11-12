@@ -1,0 +1,282 @@
+{
+  "id": "dorothea-waldner",
+  "title": "Dorothea Waldner",
+  "category": "People",
+  "type": "Student of magic · preserving her mother’s teaching",
+  "dek": "Dorothea wants to rebuild her mother’s lost teaching. Burn injuries make speaking, moving and accepting a room difficult, but she still cools Kiralyn’s fire, teaches what she knows and asks how to help the doctor who shelters her.",
+  "tags": [
+    "Dorothea Waldner",
+    "Prima"
+  ],
+  "facts": {
+    "Role": "Player character",
+    "Current setting": "Prima · Twilight Observatory and Alpine Forest scenes",
+    "Shelter": "A room offered by Di’trillio and Vessalia",
+    "Work": "Rebuilding her mother’s magical teaching",
+    "Continuing condition": "Older burns persist despite healing of fresh wounds",
+    "Choice": "Prefers study to the offered pact"
+  },
+  "sources": [
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570123907858432081",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570124370154750074",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570124972603482113",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570125751729004655",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570127140417179731",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570127868497756343",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570128253631594638",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570128823679328348",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568633669726245038",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568636445650849834",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568637922838712493",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568639915929899040",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568642789388976151",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568655000224268331",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568656513827086568",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568660507357880323",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568663759864467609",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568665816369598658",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568670768168960045",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568673395803955311",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568676146210410618",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568679814104227963",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568682166672691332",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568684350835396609",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568691669988155403",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568693225089401126",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568696332024021185",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568699236361576600",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568701632416587859",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568704807387009035",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568708090461814917",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568711592923893861",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1568714238959026349",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1569737379667902591",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1569738008381620345",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1569738401760935978",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1569742481594126419",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1569743825323294875",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1569745634028687455",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1569746172531314819",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1569747037556314163",
+    "https://discord.com/channels/1177270231513694249/1370049582784057528/1569747576675237915",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569577661204926546",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569578069583339583",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569579482677780622",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569579982320304210",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569580208640757794",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569580617648046191",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569581338741317723",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569581897171079270",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569583583486546022",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569584097687502970",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569584607743971451",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569584976205185085",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570130043940642957",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570130794863657094",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570131095314374706",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570131240915439647",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570132123535278182",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570132971359571979",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570133697124896974",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570134015887806597",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570134221521952809",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570134750323146783",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570137635861565573",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570138424256630926",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570139076626088099",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570139643029098577",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570140265296035951",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570140763235418247",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570141403114250431",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570142183728615547",
+    "https://discord.com/channels/1177270231513694249/1422275778846130327/1570143067489701920",
+    "https://discord.com/channels/1177270231513694249/1565355447282700388/1569576927369363547"
+  ],
+  "body": "<p>Dorothea wants to rebuild her mother’s lost teaching. Burn injuries make speaking, moving and accepting a room difficult, but she still cools Kiralyn’s fire, teaches what she knows and asks how to help the doctor who shelters her.</p><h2 id=\"dorothea-room-and-burns\">A room she is allowed to keep</h2><p>Di’trillio and Vessalia give Dorothea a room. She remains uneasy in public, flinching at noise and movement, and movement itself can hurt. Later, walking with Di’trillio, she says she was burned at the stake. She credits a pale woman with saving her; the identity and full act of that rescuer are not established in these conversations.</p><p>When Di’trillio suggests that her growing confidence might eventually make the Pilgrim’s Hearth possible, she hears the possibility of having to leave. He stops to clarify that she is not being asked to go. The room remains available, with salves and help when she is ready. Her gratitude does not turn that reassurance into a completed move.</p><h2 id=\"dorothea-cooling-and-teaching\">What she can already give</h2><p>At the Observatory, Dorothea repeatedly cools the water around Kiralyn with frost. Her own spell movements are stiff and painful. When Kiralyn’s distress turns to rising heat, she still stays close enough to help, then puts her coat around her. Her amulet glows near Kiralyn’s sword, without telling either woman who arranged their arrivals.</p><p>Dorothea explains her mother’s idea of equivalent exchange as a way of understanding magic. She demonstrates healing, then guides Kiralyn in trying to transform her own flame. Fresh wounds close, but the old burns remain. She stops the lesson when Kiralyn hurts her own hands trying to do more.</p><p>Their help continues outside the lesson. Kiralyn shades her from the sun; Dorothea offers cooling and reassurance in return. These scenes supply particular acts of care, while leaving her ongoing pain visible.</p><h2 id=\"dorothea-study-and-pact\">The work she wants to preserve</h2><p>She seeks books and other people’s explanations, hoping to rebuild the journals and teaching she says were all she had left of her mother. Minerva explains a different source of magic: a patron’s shared power. Dorothea asks whether such power can be passed farther on, then listens to the offer of a pact.</p><p>She declines that route. Her preference is to study and preserve what she learns. She asks permission to document the conversation and agrees to keep what Minerva wants private. The planned further discussion in Eovar is still a next step, not a pact or a completed new school of magic.</p><h2 id=\"dorothea-the-doctors-search\">Asking to examine the doctor</h2><p>Dorothea notices Di’trillio’s coughing and asks about his condition. He describes a smog that can collect in his lungs and the mask and herbs he uses to manage it. Before examining him, she explains what her magic would do and receives his permission.</p><p>Her magical examination presents a caustic path through his blood and an animated, mask-shaped presence. This is a vision during the search, not a creature visibly emerging into the forest. She thinks the disease seems aware; it does not respond. Her suggestion that it may be confined to him remains a comforting hypothesis.</p><p>She asks him to stop risking further harm. He will not promise that: he wants to understand the condition and says he has promised Vessalia a future. He does agree to tell Dorothea if it worsens. She hopes to help find a cure. The promise and the search are real developments; a cure is still ahead.</p>",
+  "sections": [
+    {
+      "id": "dorothea-room-and-burns",
+      "title": "A room she is allowed to keep",
+      "chapter": "A room she is allowed to keep",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "summary": "The shelter and conversation are observed. Dorothea’s account of her earlier injuries and rescue retains her attribution.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570123907858432081",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570124370154750074",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570124972603482113",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570125751729004655",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570127140417179731",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570127868497756343",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570128253631594638",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570128823679328348"
+        ]
+      }
+    },
+    {
+      "id": "dorothea-cooling-and-teaching",
+      "title": "What she can already give",
+      "chapter": "What she can already give",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "summary": "Actions and stated outcomes are preserved. Personal explanations, recollections and proposed next steps retain their speakers.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568633669726245038",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568636445650849834",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568637922838712493",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568639915929899040",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568642789388976151",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568655000224268331",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568656513827086568",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568660507357880323",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568663759864467609",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568665816369598658",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568670768168960045",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568673395803955311",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568676146210410618",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568679814104227963",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568682166672691332",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568684350835396609",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568691669988155403",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568693225089401126",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568696332024021185",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568699236361576600",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568701632416587859",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568704807387009035",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568708090461814917",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568711592923893861",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1568714238959026349",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1569737379667902591",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1569738008381620345",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1569738401760935978",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1569742481594126419",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1569743825323294875",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1569745634028687455",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1569746172531314819",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1569747037556314163",
+          "https://discord.com/channels/1177270231513694249/1370049582784057528/1569747576675237915"
+        ]
+      }
+    },
+    {
+      "id": "dorothea-study-and-pact",
+      "title": "The work she wants to preserve",
+      "chapter": "The work she wants to preserve",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "summary": "Actions and stated outcomes are preserved. Personal explanations, recollections and proposed next steps retain their speakers.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569577661204926546",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569578069583339583",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569579482677780622",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569579982320304210",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569580208640757794",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569580617648046191",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569581338741317723",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569581897171079270",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569583583486546022",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569584097687502970",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569584607743971451",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569584976205185085",
+          "https://discord.com/channels/1177270231513694249/1565355447282700388/1569576927369363547"
+        ]
+      }
+    },
+    {
+      "id": "dorothea-the-doctors-search",
+      "title": "Asking to examine the doctor",
+      "chapter": "Asking to examine the doctor",
+      "evidence": {
+        "kind": "mixed",
+        "label": "Observed scene & attributed accounts",
+        "summary": "Actions and stated outcomes are preserved. Personal explanations, recollections and proposed next steps retain their speakers.",
+        "scope": "section",
+        "sources": [
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570128823679328348",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570130043940642957",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570130794863657094",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570131095314374706",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570131240915439647",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570132123535278182",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570132971359571979",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570133697124896974",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570134015887806597",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570134221521952809",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570134750323146783",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570137635861565573",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570138424256630926",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570139076626088099",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570139643029098577",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570140265296035951",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570140763235418247",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570141403114250431",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570142183728615547",
+          "https://discord.com/channels/1177270231513694249/1422275778846130327/1570143067489701920"
+        ]
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "protected": false,
+  "readingLayout": "biography",
+  "biography": {
+    "chapters": [
+      {
+        "id": "dorothea-room-and-burns",
+        "title": "A room she is allowed to keep",
+        "sections": [
+          "dorothea-room-and-burns"
+        ]
+      },
+      {
+        "id": "dorothea-cooling-and-teaching",
+        "title": "What she can already give",
+        "sections": [
+          "dorothea-cooling-and-teaching"
+        ]
+      },
+      {
+        "id": "dorothea-study-and-pact",
+        "title": "The work she wants to preserve",
+        "sections": [
+          "dorothea-study-and-pact"
+        ]
+      },
+      {
+        "id": "dorothea-the-doctors-search",
+        "title": "Asking to examine the doctor",
+        "sections": [
+          "dorothea-the-doctors-search"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "brief": {
+    "identity": "Student of magic · preserving her mother’s teaching",
+    "significance": "Dorothea wants to rebuild her mother’s lost teaching. Burn injuries make speaking, moving and accepting a room difficult, but she still cools Kiralyn’s fire, teaches what she knows and asks how to help the doctor who shelters her.",
+    "actions": [
+      {
+        "title": "A room she is allowed to keep",
+        "section": "dorothea-room-and-burns"
+      },
+      {
+        "title": "What she can already give",
+        "section": "dorothea-cooling-and-teaching"
+      },
+      {
+        "title": "The work she wants to preserve",
+        "section": "dorothea-study-and-pact"
+      }
+    ],
+    "status": "Stays with Di’trillio and Vessalia; continues study and helping others while her older burns persist.",
+    "relationships": [],
+    "basis": "Selected observed scenes and attributed accounts. The reading guide is not an exhaustive chronology or an importance ranking."
+  }
+}

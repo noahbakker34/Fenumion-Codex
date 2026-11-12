@@ -494,12 +494,12 @@
     "region": "Verdelune",
     "kind": "Bargain and recovery",
     "question": "What follows Minerva’s bargain and Selwyn’s release?",
-    "known": "The figures release Selwyn’s roots while leaving a branch, and Minerva chooses to accompany them under concealed conditions. She later reports herself safe with entry to Nerithra. Later at the Tower of Gael, Fenwick casts Gentle Repose; the narrator confirms its effects while leaving the black branch unchanged. In the later Gael scene Minerva is seen back with Selwyn’s body. Jiangshi’s wish returns Selwyn with intact memories, while the branch remains and impairs his movement.",
-    "missing": "The unseen ritual and the intervening return, the branch’s explanation or removal, and the result of the proposed further investigation.",
-    "nextSource": "A witnessed examination or treatment of the branch, or a continuation explaining the unseen ritual and intervening return.",
+    "known": "The figures release Selwyn’s roots while leaving a branch, and Minerva chooses to accompany them under concealed conditions. She later reports herself safe with entry to Nerithra. Later at the Tower of Gael, Fenwick casts Gentle Repose; the narrator confirms its effects while leaving the black branch unchanged. In the later Gael scene Minerva is seen back with Selwyn’s body. Jiangshi’s wish returns Selwyn with intact memories, while the branch remains and impairs his movement. In the subsequent Tower scene, examination finds merged tissue and no separate mind. Severina’s treatment makes the branch shrink away; the narrator confirms restored movement and reflexes.",
+    "missing": "The unseen ritual and intervening return, the full origin of the branch, and how that condition relates to the wider Verdelune history.",
+    "nextSource": "A continuation explaining the branch’s origin or the earlier unseen ritual and intervening return. The witnessed removal no longer needs to be established.",
     "article": "minerva",
     "status": "open",
-    "reviewedOn": "2026-11-04",
+    "reviewedOn": "2026-11-12",
     "references": [
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342398921543691",
       "https://discord.com/channels/1177270231513694249/1199083630354501673/1562342776589258903",
@@ -509,7 +509,24 @@
       "https://discord.com/channels/1177270231513694249/1250334670957051958/1562935599747309619",
       "https://discord.com/channels/1177270231513694249/1250334670957051958/1562938854292455545",
       "https://discord.com/channels/1177270231513694249/1268984472880287794/1566993990664855656",
-      "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994963101655153"
+      "https://discord.com/channels/1177270231513694249/1268984472880287794/1566994963101655153",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569348484371451979",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569348752366641153",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569356402357436619",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569357271782133761",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569359546680610889",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569359848343216293",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569360805672128596",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569361960519082138",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569362185262596117",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363331557494916",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363527662182471",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363840561455195",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363950028591258",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364254874673276",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364496894529587",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364575214772406",
+      "https://discord.com/channels/1177270231513694249/1250334670957051958/1569365098361786531"
     ]
   }
 ]

@@ -14738,6 +14738,186 @@
         "reviewSources": [
           "https://discord.com/channels/1177270231513694249/1565356042366226442/1565361615245807717"
         ]
+      },
+      {
+        "title": "The company finds Yen still defending the stone",
+        "meta": "2026-11-08–2026-11-09 · source posts",
+        "sort": "2026-11-08-november-update-401",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest continuation",
+        "article": "verdelune",
+        "section": "verdelune-yen-and-the-stone",
+        "location": "Eternal River and Dark Shroud, Verdelune",
+        "people": "Minerva; Thorn; Trougar; Yen",
+        "summary": "Lirael’s riddle leads to Yen’s continuing defence. Thorn helps while Minerva reads the stone, then a mirror shows Viota crossing the river without revealing why.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 4,
+        "importanceReason": "Connects an expedition company’s choices, an exiled defender and the unresolved history of Verdelune’s life cycle; the reason for the change remains unknown.",
+        "regions": [
+          "verdelune"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-08",
+            "end": "2026-11-09",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 980,
+            "end": 981,
+            "precision": "range",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569178867846086770",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569229608275025970",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569233692042338389",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569234630643683370",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569238096598270113",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569239949192986736",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569241540423848027",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1569242986821328927"
+        ],
+        "story": "song-the-wind-cannot-finish"
+      },
+      {
+        "title": "Selwyn’s branch vanishes after treatment at the Tower",
+        "meta": "2026-11-09 · source posts",
+        "sort": "2026-11-09-november-update-402",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Recovery · Tower of Gael",
+        "article": "selwyn",
+        "section": "selwyn-branch-removed",
+        "location": "Tower of Gael",
+        "people": "Selwyn; Lady Severina; Saelihn; Karnak",
+        "summary": "After examination and a partial cutting, Severina’s later treatment makes the branch shrink away. The narrator confirms restored movement and reflexes, without settling its full origin.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 1,
+        "importanceReason": "Resolves an individual companion’s continuing physical condition; the wider Verdelune mystery remains open.",
+        "regions": [
+          "gael"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-09",
+            "end": "2026-11-09",
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 981,
+            "end": 981,
+            "precision": "day",
+            "qualifier": "on"
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569348484371451979",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569348752366641153",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569356402357436619",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569357271782133761",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569359546680610889",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569359848343216293",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569360805672128596",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569361960519082138",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569362185262596117",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363331557494916",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363527662182471",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363840561455195",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569363950028591258",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364254874673276",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364496894529587",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569364575214772406",
+          "https://discord.com/channels/1177270231513694249/1250334670957051958/1569365098361786531"
+        ],
+        "story": "selwyns-return"
+      },
+      {
+        "title": "The Maw-bound company camps without enough food or rest",
+        "meta": "2026-11-05–2026-11-06 · source posts",
+        "sort": "2026-10-29-november-update-403",
+        "era": "2026 · Unfinished inheritances",
+        "kind": "Quest continuation",
+        "article": "voraketh",
+        "section": "voraketh-later-maw-camp",
+        "location": "Wasteland, Voraketh",
+        "people": "Ithilrûnë Ailinor; Sildithas; Coralyn; Pappy; Carmen; Paco",
+        "summary": "Carmen rejoins the ongoing march. The company defeats four pursuing flesh creatures, then stops to share inadequate food while the pull makes rest difficult; arrival at the Maw remains ahead.",
+        "tags": [
+          "Source update"
+        ],
+        "importance": 3,
+        "importanceReason": "Continues a dangerous regional expedition and its consequences without establishing a final encounter or safe return.",
+        "regions": [
+          "voraketh"
+        ],
+        "dating": {
+          "kind": "recorded",
+          "note": "Source posting dates follow the established calendar; statements and interpretations remain attributed.",
+          "postingWindow": {
+            "start": "2026-11-05",
+            "end": "2026-11-06",
+            "precision": "range",
+            "qualifier": "on"
+          },
+          "finalWar": {
+            "start": 970,
+            "end": 970,
+            "precision": "day",
+            "qualifier": "on"
+          },
+          "calendarAdjustment": {
+            "date": "2026-10-29",
+            "reason": "The narration explicitly resumes the ongoing march for hours after the previous crossing, with no intervening rest. Retain the established expedition day; preserve the later posting window.",
+            "sources": [
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568092429096190045",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568094303899615283",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568098127578398771",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568098960160063499",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568101581809778880",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568103144238612692",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568107605078048769",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568111825957036156",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568114366992089110",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568125649976299601",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568127332030484521",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568128602195890187",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568129904770289716",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568132364364943363",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568133593690149005",
+              "https://discord.com/channels/1177270231513694249/1199083630354501673/1568136594437709916"
+            ]
+          }
+        },
+        "reviewSources": [
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568092429096190045",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568094303899615283",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568098127578398771",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568098960160063499",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568101581809778880",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568103144238612692",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568107605078048769",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568111825957036156",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568114366992089110",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568125649976299601",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568127332030484521",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568128602195890187",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568129904770289716",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568132364364943363",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568133593690149005",
+          "https://discord.com/channels/1177270231513694249/1199083630354501673/1568136594437709916"
+        ],
+        "story": "attack-on-the-chains"
       }
     ],
     "characters": [
@@ -14805,9 +14985,9 @@
       },
       {
         "title": "Trougar",
-        "meta": "Adventurer · Viota expedition",
-        "article": "people-directory",
-        "summary": "Joins the old-road expedition, finds a carving and watches a shadow child at Viota’s monument.",
+        "meta": "Warrior of Cala · difficult expedition companion",
+        "article": "trougar",
+        "summary": "Trougar wants a fight he can trust and companions he can trust beside him. His disputes with Minerva remain sharp, but on the road he also tries to heal a fallen attacker, follows a clue in the roots and asks why Yen has to keep fighting.",
         "image": "assets/characters/discord/314f65fca19cdd65971d96d10272feaa7de4989266ad58b40fb05a95b0b7f9d9.png",
         "imageAlt": "Discord depiction of Trougar",
         "imageCaption": "Trougar"
@@ -15402,9 +15582,9 @@
       },
       {
         "title": "Selwyn",
-        "meta": "Player character · returned at Hope",
+        "meta": "Player character · branch removed at the Tower",
         "article": "selwyn",
-        "summary": "Restored through Jiangshi’s wish with his memories intact; the branch from Verdelune remains and impairs his movement.",
+        "summary": "Retrieved from the Dark Shroud and returned through Jiangshi’s wish, Selwyn keeps his memories. Later treatment at the Tower removes the branch that had continued to restrict him.",
         "image": "assets/characters/discord/b91beef3862cfec2be43480e91dc1be94b4b21364abe796d4042d6dbfb71b677.png",
         "imageAlt": "Discord depiction of Selwyn",
         "imageCaption": "Selwyn"
@@ -15563,9 +15743,9 @@
       },
       {
         "title": "Marius Antares",
-        "meta": "Magic Academy student",
-        "article": "people-directory",
-        "summary": "Observes changes in Prima and voices a belief about Gael’s economy that remains attributed rather than established.",
+        "meta": "Magic Academy student · guide to newcomers",
+        "article": "marius-antares",
+        "summary": "Marius meets a new arrival’s questions with patient explanations, then cautions her against letting a noble purpose change her beyond recognition. His precision leaves room for someone else’s perspective.",
         "image": "assets/characters/marius-antares.jpeg",
         "imageAlt": "Marius Antares with brown hair, green eyes and a dark coat",
         "imageCaption": "Marius Antares",
@@ -15806,6 +15986,28 @@
         "article": "modeli",
         "meta": "Scribe and divine spellcaster · Veilguard founder",
         "summary": "An inexperienced scribe who runs toward a harbor attack, then tries to become worthy of divine trust without accepting that command must reduce people to numbers."
+      },
+      {
+        "title": "Bohlale Katsaros",
+        "article": "bohlale-katsaros",
+        "meta": "Healer · self-described keeper of peace",
+        "summary": "Bohlale offers healing, watches Minerva’s place while she is away and welcomes the work of people who keep a settlement going. His jokes and stories about an old fighting company accompany a willingness to help here.",
+        "aliases": [
+          "Bohlale",
+          "Boh"
+        ]
+      },
+      {
+        "title": "Kiralyn Mohrn",
+        "article": "kiralyn-mohrn",
+        "meta": "Fire elementalist · learning to heal",
+        "summary": "Kiralyn arrives angry and stranded, then finds people willing to offer a room, explanations and cooling water. With Dorothea she begins learning how her fire can close a wound, while ordinary kindness is still difficult for both of them."
+      },
+      {
+        "title": "Dorothea Waldner",
+        "article": "dorothea-waldner",
+        "meta": "Student of magic · preserving her mother’s teaching",
+        "summary": "Dorothea wants to rebuild her mother’s lost teaching. Burn injuries make speaking, moving and accepting a room difficult, but she still cools Kiralyn’s fire, teaches what she knows and asks how to help the doctor who shelters her."
       }
     ],
     "npcs": [
@@ -16870,8 +17072,8 @@
       {
         "title": "Yen",
         "article": "discovery-047",
-        "meta": "Encounter participant",
-        "summary": "Warns the company to look out and later asks them not to speak about her while walking away.",
+        "meta": "Defender of the Dark Shroud stone",
+        "summary": "Yen keeps fighting around an ancient stone while asking why her people have lost the ordinary renewal of life. She wants the battle to end, but fears what would happen to the village if she stopped.",
         "prominence": null,
         "image": "assets/characters/discord/b3d659d87589d214591bb48c0f7a45a95afb4de42885e439b3fc6fba687a4e7e.png",
         "imageAlt": "Discord depiction of Yen",
@@ -25728,6 +25930,46 @@
         "People of Fenumion",
         "Characters K–Z",
         "Oya"
+      ]
+    ],
+    [
+      "marius-antares",
+      [
+        "People of Fenumion",
+        "Characters K–Z",
+        "Marius Antares"
+      ]
+    ],
+    [
+      "bohlale-katsaros",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "Bohlale Katsaros"
+      ]
+    ],
+    [
+      "kiralyn-mohrn",
+      [
+        "People of Fenumion",
+        "Characters K–Z",
+        "Kiralyn Mohrn"
+      ]
+    ],
+    [
+      "dorothea-waldner",
+      [
+        "People of Fenumion",
+        "Characters A–J",
+        "Dorothea Waldner"
+      ]
+    ],
+    [
+      "trougar",
+      [
+        "People of Fenumion",
+        "Characters K–Z",
+        "Trougar"
       ]
     ]
   ],
@@ -35075,6 +35317,10 @@
         {
           "name": "Lirael",
           "basis": "Directly encountered in the refreshed quest scenes; location describes the encounter, not an inferred birthplace."
+        },
+        {
+          "name": "Yen",
+          "basis": "Directly encountered defending the inscribed stone in the Dark Shroud; the scene does not establish birthplace."
         }
       ]
     },
@@ -41669,6 +41915,10 @@
     [
       "mirwen",
       "mirwen-verdant-circle"
+    ],
+    [
+      "yen",
+      "discovery-047"
     ]
   ],
   "windowData": {
@@ -53038,7 +53288,13 @@
     "selwyn",
     "aurelia",
     "twilight-observatory",
-    "wheel-of-plenty"
+    "wheel-of-plenty",
+    "song-the-wind-cannot-finish",
+    "marius-antares",
+    "bohlale-katsaros",
+    "kiralyn-mohrn",
+    "dorothea-waldner",
+    "trougar"
   ],
   "timelineRegions": [
     {

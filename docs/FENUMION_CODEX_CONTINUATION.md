@@ -12,6 +12,9 @@ Music7 preserves saved choices and the existing player; the heading follows the 
 
 Initial hosted candidate 9c21eea passed actual playback of every Fenumion song but failed the new selector-height assertion on Linux. The existing CSS now guarantees a 44 px select height (styles178), and the assertion is retained. No failed candidate deployed; the corrected release follows.
 
+
+Published release `636699005143eed3e39e19569822c559a9fcaba7` succeeds in [Pages run 43470616254](https://github.com/noahbakker34/Fenumion-Codex/actions/runs/43470616254), including every hosted gate and the actual-playback check for all 40 Fenumion songs. Four live entry/player/style/catalog files match tested bytes. A fresh anonymous live Chrome run again plays all 40 Fenumion recordings and passes both playlists, the 179-track catalogue, seek/navigation/repeat/completion/persistence and four viewport widths. Desktop/mobile screenshots are inspected. All 20 complete public audio files match the supplied source hashes; Four Came In retains its identical existing audio. Canonical content and protected payload remain unchanged. This documentation-only receipt avoids another deployment.
+
 ## Thorn, Modeli and Serath’s sacrifice · 12 November 2026
 
 The owner asks for fuller Thorn and Modeli histories and the sacrifice of Serath for a goddess, then confirms Serath Vareth is a PC. Thorn gains earlier siege relief, the cow bargain, the Great Stag call, personal company and later Yen defence. Modeli gains Aionia’s recognition, Serath’s loss, the work of reading The Before, civic organization and uncertain trust. Serath receives her own player profile, with earlier life before the sacrifice. The new six-chapter event follows the golden trail, Aleister’s strike, the mist, Serath’s soul transfer, the Stag and the difficult return home. Details: THORN_MODELI_SERATH_2026_11_12.md and thorn-modeli-serath-review-2026-11-12.json.

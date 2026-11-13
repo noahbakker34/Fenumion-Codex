@@ -41,6 +41,7 @@ jobs:
         run: |
           python3 scripts/check_final_war_calendar.py
           node scripts/check_calendar_display.cjs
+          node scripts/export_music.cjs --check
           python3 scripts/check_content.py
           python3 scripts/check_portrait_review.py
           python3 scripts/check_protected_assets.py

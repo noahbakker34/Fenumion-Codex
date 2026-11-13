@@ -56,6 +56,9 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
   assert.equal(new Set(entries.map(row=>row.file)).size,179);assert.equal(entries.filter(row=>row.style!=='fenumion').length,139,'original background library remains intact');
   // Every custom song has one thematic home, and no playlist mixes source collections.
   const customFiles=new Set(entries.filter(row=>row.style==='fenumion').map(row=>row.file));
+  const sharedResponse=await page.request.get(base+'music-library.json');assert(sharedResponse.ok(),'shared public playlist catalogue');
+  const shared=await sharedResponse.json();assert.equal(shared.schema_version,1);assert.equal(shared.tracks.length,entries.length);
+  const publicRows=entries.map(row=>({id:new URL(row.src).pathname.split('/assets/music/')[1].replace(/\.mp3$/,''),title:row.title,style:row.style,url:row.src}));assert.deepEqual(shared.tracks,publicRows,'bot catalogue exactly matches the website recordings');
   assert.deepEqual(await group.locator('optgroup').evaluateAll(nodes=>nodes.map(node=>node.label)),['Custom Fenumion · Suno','Background soundtrack']);
   const themes=[['i-am',14],['prima',6],['fenumion-tales',7],['fenumion-places',8],['fenumion-peril',5]],covered=[];
   for(const [id,count] of themes){await group.selectOption(id);const files=await track.locator('option').evaluateAll(nodes=>nodes.map(node=>node.value));assert.equal(files.length,count,id);assert(files.every(file=>customFiles.has(file)),id+' is custom only');covered.push(...files);}
@@ -65,6 +68,8 @@ const base=process.env.CODEX_BASE_URL||'http://127.0.0.1:8880/';
    await group.selectOption(playlist.id);
    const options=await track.locator('option').evaluateAll(nodes=>nodes.map(node=>({file:node.value,title:node.textContent})));
    assert(options.length>0,playlist.id);assert(options.every(row=>customFiles.has(row.file)===playlist.custom),'source isolation '+playlist.id);
+   const sharedPlaylist=shared.playlists.find(row=>row.id===playlist.id);assert(sharedPlaylist,playlist.id+' is shared with Discord');
+   assert.equal(sharedPlaylist.collection,playlist.custom?'custom':'background');assert.deepEqual(sharedPlaylist.track_ids,options.map(row=>publicRows.find(track=>track.url.endsWith('/'+row.file)).id));
    const recommendation=await page.locator('#music-recommendation').getAttribute('data-track');assert(options.some(row=>row.title===recommendation),'recommendation remains in '+playlist.id);
    const selected=await track.inputValue();await page.locator('#music-previous').click();await page.locator('#music-next').click();assert.equal(await track.inputValue(),selected,'navigation remains in '+playlist.id);
   }

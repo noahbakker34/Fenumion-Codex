@@ -1,0 +1,1577 @@
+{
+  "schema_version": 1,
+  "source": "https://fenumion.com/music.js",
+  "styles": {
+    "all": "All background music",
+    "fenumion": "All Fenumion songs",
+    "adventure": "Adventure & Wonder",
+    "battle": "Battle & Pursuit",
+    "dark": "Darkness & Horror",
+    "mystery": "Mystery & Intrigue",
+    "emotion": "Reflection & Sorrow",
+    "magic": "Magic & Ceremony",
+    "exploration": "Ruins & Exploration"
+  },
+  "tracks": [
+    {
+      "id": "fenumion/adventure",
+      "title": "Adventure",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/adventure.mp3"
+    },
+    {
+      "id": "fenumion/aiya-elen-sila",
+      "title": "Aiya, Elen Sila",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/aiya-elen-sila.mp3"
+    },
+    {
+      "id": "fenumion/aria-before-the-crown",
+      "title": "Aria Before the Crown",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/aria-before-the-crown.mp3"
+    },
+    {
+      "id": "fenumion/babel",
+      "title": "Babel",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/babel.mp3"
+    },
+    {
+      "id": "fenumion/breath-of-the-wild",
+      "title": "Breath of the Wild",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/breath-of-the-wild.mp3"
+    },
+    {
+      "id": "fenumion/carmen-and-paco",
+      "title": "Carmen and Paco",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/carmen-and-paco.mp3"
+    },
+    {
+      "id": "fenumion/carry-the-flame",
+      "title": "Carry the Flame",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/carry-the-flame.mp3"
+    },
+    {
+      "id": "fenumion/death",
+      "title": "Death",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/death.mp3"
+    },
+    {
+      "id": "fenumion/death-arrives",
+      "title": "Death Arrives",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/death-arrives.mp3"
+    },
+    {
+      "id": "fenumion/elda",
+      "title": "Elda",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/elda.mp3"
+    },
+    {
+      "id": "fenumion/four-came-in",
+      "title": "Four Came In",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/four-came-in.mp3"
+    },
+    {
+      "id": "fenumion/gael",
+      "title": "Gael",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/gael.mp3"
+    },
+    {
+      "id": "fenumion/go-gently-friend",
+      "title": "Go Gently, Friend",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/go-gently-friend.mp3"
+    },
+    {
+      "id": "fenumion/i-am-adelia",
+      "title": "I Am Adelia",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-adelia.mp3"
+    },
+    {
+      "id": "fenumion/i-am-aria",
+      "title": "I Am Aria",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-aria.mp3"
+    },
+    {
+      "id": "fenumion/i-am-arjahn",
+      "title": "I Am Arjahn",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-arjahn.mp3"
+    },
+    {
+      "id": "fenumion/i-am-dale",
+      "title": "I Am Dale",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-dale.mp3"
+    },
+    {
+      "id": "fenumion/i-am-draygar",
+      "title": "I Am Draygar",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-draygar.mp3"
+    },
+    {
+      "id": "fenumion/i-am-elenia",
+      "title": "I Am Elenia",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-elenia.mp3"
+    },
+    {
+      "id": "fenumion/i-am-fenwick",
+      "title": "I Am Fenwick",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-fenwick.mp3"
+    },
+    {
+      "id": "fenumion/i-am-gartina",
+      "title": "I Am Gartina",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-gartina.mp3"
+    },
+    {
+      "id": "fenumion/i-am-nymera",
+      "title": "I Am Nymera",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-nymera.mp3"
+    },
+    {
+      "id": "fenumion/i-am-olokun",
+      "title": "I Am Olokun",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-olokun.mp3"
+    },
+    {
+      "id": "fenumion/i-am-scribonia",
+      "title": "I Am Scribonia",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-scribonia.mp3"
+    },
+    {
+      "id": "fenumion/i-am-vaerik-2",
+      "title": "I Am Vaerik 2",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-vaerik-2.mp3"
+    },
+    {
+      "id": "fenumion/i-am-wrath",
+      "title": "I Am Wrath",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/i-am-wrath.mp3"
+    },
+    {
+      "id": "fenumion/melian-carries-the-glow",
+      "title": "Melian Carries the Glow",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/melian-carries-the-glow.mp3"
+    },
+    {
+      "id": "fenumion/prima-adventure",
+      "title": "Prima Adventure",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/prima-adventure.mp3"
+    },
+    {
+      "id": "fenumion/prima-battle",
+      "title": "Prima Battle",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/prima-battle.mp3"
+    },
+    {
+      "id": "fenumion/prima-battle-at-home",
+      "title": "Prima Battle at Home",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/prima-battle-at-home.mp3"
+    },
+    {
+      "id": "fenumion/prima-five-note",
+      "title": "Prima Five Note",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/prima-five-note.mp3"
+    },
+    {
+      "id": "fenumion/prima-strings",
+      "title": "Prima Strings",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/prima-strings.mp3"
+    },
+    {
+      "id": "fenumion/prima-strings-alternate",
+      "title": "Prima Strings (Alternate)",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/prima-strings-alternate.mp3"
+    },
+    {
+      "id": "fenumion/pristinia-stands",
+      "title": "Pristinia Stands",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/pristinia-stands.mp3"
+    },
+    {
+      "id": "fenumion/rahu",
+      "title": "Rahu",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/rahu.mp3"
+    },
+    {
+      "id": "fenumion/saint-anky",
+      "title": "Saint Anky",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/saint-anky.mp3"
+    },
+    {
+      "id": "fenumion/the-battle-approaches",
+      "title": "The Battle Approaches",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/d10fccb4981d26359ec4798946f421b623414afe/site/assets/music/fenumion/the-battle-approaches.mp3"
+    },
+    {
+      "id": "fenumion/the-void",
+      "title": "The Void",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/the-void.mp3"
+    },
+    {
+      "id": "fenumion/will-babel-claim-you",
+      "title": "Will Babel Claim You",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/will-babel-claim-you.mp3"
+    },
+    {
+      "id": "fenumion/zarathis",
+      "title": "Zarathis",
+      "style": "fenumion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/fenumion/zarathis.mp3"
+    },
+    {
+      "id": "action-drama/alterac",
+      "title": "Alterac",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/alterac.mp3"
+    },
+    {
+      "id": "action-drama/assemble",
+      "title": "Assemble",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/assemble.mp3"
+    },
+    {
+      "id": "action-drama/dragonflight",
+      "title": "Dragonflight",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dragonflight.mp3"
+    },
+    {
+      "id": "action-drama/dragonflight-mix-b",
+      "title": "Dragonflight Mix B",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dragonflight-mix-b.mp3"
+    },
+    {
+      "id": "action-drama/embers",
+      "title": "Embers",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/embers.mp3"
+    },
+    {
+      "id": "action-drama/exodus",
+      "title": "Exodus",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/exodus.mp3"
+    },
+    {
+      "id": "action-drama/hightower",
+      "title": "Hightower",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/hightower.mp3"
+    },
+    {
+      "id": "action-drama/hightower-evolved",
+      "title": "Hightower Evolved",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/hightower-evolved.mp3"
+    },
+    {
+      "id": "action-drama/intervention",
+      "title": "Intervention",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/intervention.mp3"
+    },
+    {
+      "id": "action-drama/meta-heroic-ensemble",
+      "title": "Meta Heroic Ensemble",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/meta-heroic-ensemble.mp3"
+    },
+    {
+      "id": "action-drama/middle-earth",
+      "title": "Middle Earth",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/middle-earth.mp3"
+    },
+    {
+      "id": "action-drama/middle-earth-b",
+      "title": "Middle Earth B",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/middle-earth-b.mp3"
+    },
+    {
+      "id": "action-drama/outskirts",
+      "title": "Outskirts",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/outskirts.mp3"
+    },
+    {
+      "id": "action-drama/stepstones",
+      "title": "Stepstones",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/stepstones.mp3"
+    },
+    {
+      "id": "action-drama/stepstones-b",
+      "title": "Stepstones B",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/stepstones-b.mp3"
+    },
+    {
+      "id": "action-drama/stepstones-c",
+      "title": "Stepstones C",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/stepstones-c.mp3"
+    },
+    {
+      "id": "action-drama/stepstones-drums",
+      "title": "Stepstones Drums",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/stepstones-drums.mp3"
+    },
+    {
+      "id": "action-drama/the-inspirational-seeker",
+      "title": "The Inspirational Seeker",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/the-inspirational-seeker.mp3"
+    },
+    {
+      "id": "action-drama/viking-encampment",
+      "title": "Viking Encampment",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/viking-encampment.mp3"
+    },
+    {
+      "id": "action-drama/viking-encampment-b-vocals",
+      "title": "Viking Encampment B Vocals",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/viking-encampment-b-vocals.mp3"
+    },
+    {
+      "id": "action-drama/viking-encampment-c",
+      "title": "Viking Encampment C",
+      "style": "adventure",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/viking-encampment-c.mp3"
+    },
+    {
+      "id": "action-drama/aggressive-maneuvers",
+      "title": "Aggressive Maneuvers",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/aggressive-maneuvers.mp3"
+    },
+    {
+      "id": "action-drama/apocalypse-loop",
+      "title": "Apocalypse Loop",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/apocalypse-loop.mp3"
+    },
+    {
+      "id": "action-drama/assault",
+      "title": "Assault",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/assault.mp3"
+    },
+    {
+      "id": "action-drama/battlefield",
+      "title": "Battlefield",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/battlefield.mp3"
+    },
+    {
+      "id": "action-drama/battlefield-b",
+      "title": "Battlefield B",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/battlefield-b.mp3"
+    },
+    {
+      "id": "action-drama/battlefield-drum-loop",
+      "title": "Battlefield Drum Loop",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/battlefield-drum-loop.mp3"
+    },
+    {
+      "id": "action-drama/chokepoint",
+      "title": "Chokepoint",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/chokepoint.mp3"
+    },
+    {
+      "id": "action-drama/combat-drum-loop",
+      "title": "Combat Drum Loop",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/combat-drum-loop.mp3"
+    },
+    {
+      "id": "action-drama/conflict-braam-loop",
+      "title": "Conflict Braam Loop",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/conflict-braam-loop.mp3"
+    },
+    {
+      "id": "action-drama/daring-strings",
+      "title": "Daring Strings",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/daring-strings.mp3"
+    },
+    {
+      "id": "action-drama/destruction",
+      "title": "Destruction",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/destruction.mp3"
+    },
+    {
+      "id": "action-drama/destruction-loop",
+      "title": "Destruction Loop",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/destruction-loop.mp3"
+    },
+    {
+      "id": "action-drama/dramatic-drums",
+      "title": "Dramatic Drums",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dramatic-drums.mp3"
+    },
+    {
+      "id": "action-drama/dramatic-drums-b",
+      "title": "Dramatic Drums B",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dramatic-drums-b.mp3"
+    },
+    {
+      "id": "action-drama/dramatic-legatos",
+      "title": "Dramatic Legatos",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dramatic-legatos.mp3"
+    },
+    {
+      "id": "action-drama/eleventh-hour",
+      "title": "Eleventh Hour",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/eleventh-hour.mp3"
+    },
+    {
+      "id": "action-drama/gulch-drums",
+      "title": "Gulch Drums",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/gulch-drums.mp3"
+    },
+    {
+      "id": "action-drama/gulch-drums-slower",
+      "title": "Gulch Drums Slower",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/gulch-drums-slower.mp3"
+    },
+    {
+      "id": "action-drama/harsh-brass",
+      "title": "Harsh Brass",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/harsh-brass.mp3"
+    },
+    {
+      "id": "action-drama/legion",
+      "title": "Legion",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/legion.mp3"
+    },
+    {
+      "id": "action-drama/legion-mix-b",
+      "title": "Legion Mix B",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/legion-mix-b.mp3"
+    },
+    {
+      "id": "action-drama/lord-of-destruction",
+      "title": "Lord of Destruction",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/lord-of-destruction.mp3"
+    },
+    {
+      "id": "action-drama/massive-epic-ensemble",
+      "title": "Massive Epic Ensemble",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/massive-epic-ensemble.mp3"
+    },
+    {
+      "id": "action-drama/no-time-left",
+      "title": "No Time Left",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/no-time-left.mp3"
+    },
+    {
+      "id": "action-drama/renaissance-combat",
+      "title": "Renaissance Combat",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/renaissance-combat.mp3"
+    },
+    {
+      "id": "action-drama/renaissance-combat-b",
+      "title": "Renaissance Combat B",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/renaissance-combat-b.mp3"
+    },
+    {
+      "id": "action-drama/showdown-b",
+      "title": "Showdown B",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/showdown-b.mp3"
+    },
+    {
+      "id": "action-drama/simple-combat",
+      "title": "Simple Combat",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/simple-combat.mp3"
+    },
+    {
+      "id": "action-drama/simple-combat-atmos",
+      "title": "Simple Combat Atmos",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/simple-combat-atmos.mp3"
+    },
+    {
+      "id": "action-drama/simple-combat-b",
+      "title": "Simple Combat B",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/simple-combat-b.mp3"
+    },
+    {
+      "id": "action-drama/simple-hybrid-combat",
+      "title": "Simple Hybrid Combat",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/simple-hybrid-combat.mp3"
+    },
+    {
+      "id": "action-drama/vigor",
+      "title": "Vigor",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/vigor.mp3"
+    },
+    {
+      "id": "action-drama/viking-combat",
+      "title": "Viking Combat",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/viking-combat.mp3"
+    },
+    {
+      "id": "action-drama/viking-drum-loop",
+      "title": "Viking Drum Loop",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/viking-drum-loop.mp3"
+    },
+    {
+      "id": "action-drama/viking-war",
+      "title": "Viking War",
+      "style": "battle",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/viking-war.mp3"
+    },
+    {
+      "id": "action-drama/anxious-atmos",
+      "title": "Anxious Atmos",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/anxious-atmos.mp3"
+    },
+    {
+      "id": "action-drama/blackrock",
+      "title": "Blackrock",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/blackrock.mp3"
+    },
+    {
+      "id": "action-drama/cinematic-horror",
+      "title": "Cinematic Horror",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/cinematic-horror.mp3"
+    },
+    {
+      "id": "action-drama/cinematic-horror-b",
+      "title": "Cinematic Horror B",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/cinematic-horror-b.mp3"
+    },
+    {
+      "id": "action-drama/corruption",
+      "title": "Corruption",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/corruption.mp3"
+    },
+    {
+      "id": "action-drama/corruption-b",
+      "title": "Corruption B",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/corruption-b.mp3"
+    },
+    {
+      "id": "action-drama/descent",
+      "title": "Descent",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/descent.mp3"
+    },
+    {
+      "id": "action-drama/elven-corruption",
+      "title": "Elven Corruption",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/elven-corruption.mp3"
+    },
+    {
+      "id": "action-drama/hybrid-terror-textures",
+      "title": "Hybrid Terror Textures",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/hybrid-terror-textures.mp3"
+    },
+    {
+      "id": "action-drama/necrotic-strings",
+      "title": "Necrotic Strings",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/necrotic-strings.mp3"
+    },
+    {
+      "id": "action-drama/necrotic-strings-b",
+      "title": "Necrotic Strings B",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/necrotic-strings-b.mp3"
+    },
+    {
+      "id": "action-drama/omen-atmos",
+      "title": "Omen Atmos",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/omen-atmos.mp3"
+    },
+    {
+      "id": "action-drama/outbreak-piano",
+      "title": "Outbreak Piano",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/outbreak-piano.mp3"
+    },
+    {
+      "id": "action-drama/outbreak-piano-b",
+      "title": "Outbreak Piano B",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/outbreak-piano-b.mp3"
+    },
+    {
+      "id": "action-drama/outbreak-piano-c",
+      "title": "Outbreak Piano C",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/outbreak-piano-c.mp3"
+    },
+    {
+      "id": "action-drama/rot-ambience",
+      "title": "Rot Ambience",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/rot-ambience.mp3"
+    },
+    {
+      "id": "action-drama/rot-ambience-b",
+      "title": "Rot Ambience B",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/rot-ambience-b.mp3"
+    },
+    {
+      "id": "action-drama/shadow-atmos",
+      "title": "Shadow Atmos",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/shadow-atmos.mp3"
+    },
+    {
+      "id": "action-drama/tarnished-atmos",
+      "title": "Tarnished Atmos",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/tarnished-atmos.mp3"
+    },
+    {
+      "id": "action-drama/tarnished-atmos-mix-b",
+      "title": "Tarnished Atmos Mix B",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/tarnished-atmos-mix-b.mp3"
+    },
+    {
+      "id": "action-drama/trapped",
+      "title": "Trapped",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/trapped.mp3"
+    },
+    {
+      "id": "action-drama/unholy",
+      "title": "Unholy",
+      "style": "dark",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/unholy.mp3"
+    },
+    {
+      "id": "action-drama/conspiracy-theme",
+      "title": "Conspiracy Theme",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/conspiracy-theme.mp3"
+    },
+    {
+      "id": "action-drama/conspiracy-theme-b",
+      "title": "Conspiracy Theme B",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/conspiracy-theme-b.mp3"
+    },
+    {
+      "id": "action-drama/cryptic-strings",
+      "title": "Cryptic Strings",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/cryptic-strings.mp3"
+    },
+    {
+      "id": "action-drama/deception",
+      "title": "Deception",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/deception.mp3"
+    },
+    {
+      "id": "action-drama/detective-synths",
+      "title": "Detective Synths",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/detective-synths.mp3"
+    },
+    {
+      "id": "action-drama/detective-synths-b",
+      "title": "Detective Synths B",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/detective-synths-b.mp3"
+    },
+    {
+      "id": "action-drama/entropy",
+      "title": "Entropy",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/entropy.mp3"
+    },
+    {
+      "id": "action-drama/etropy-b",
+      "title": "Etropy B",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/etropy-b.mp3"
+    },
+    {
+      "id": "action-drama/foreshadow",
+      "title": "Foreshadow",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/foreshadow.mp3"
+    },
+    {
+      "id": "action-drama/foreshadow-b",
+      "title": "Foreshadow B",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/foreshadow-b.mp3"
+    },
+    {
+      "id": "action-drama/foreshadow-b-atmos",
+      "title": "Foreshadow B Atmos",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/foreshadow-b-atmos.mp3"
+    },
+    {
+      "id": "action-drama/infiltrate",
+      "title": "Infiltrate",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/infiltrate.mp3"
+    },
+    {
+      "id": "action-drama/mother-of-deceit-reprise",
+      "title": "Mother of Deceit Reprise",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/mother-of-deceit-reprise.mp3"
+    },
+    {
+      "id": "action-drama/mother-of-deceit-synths",
+      "title": "Mother of Deceit Synths",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/mother-of-deceit-synths.mp3"
+    },
+    {
+      "id": "action-drama/plot-twist-quartet",
+      "title": "Plot Twist Quartet",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/plot-twist-quartet.mp3"
+    },
+    {
+      "id": "action-drama/politically-dramatic-piano",
+      "title": "Politically Dramatic Piano",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/politically-dramatic-piano.mp3"
+    },
+    {
+      "id": "action-drama/spiraling",
+      "title": "Spiraling",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/spiraling.mp3"
+    },
+    {
+      "id": "action-drama/stray",
+      "title": "Stray",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/stray.mp3"
+    },
+    {
+      "id": "action-drama/stray-b",
+      "title": "Stray B",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/stray-b.mp3"
+    },
+    {
+      "id": "action-drama/veil",
+      "title": "Veil",
+      "style": "mystery",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/veil.mp3"
+    },
+    {
+      "id": "action-drama/a-desperate-prayer",
+      "title": "A Desperate Prayer",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/a-desperate-prayer.mp3"
+    },
+    {
+      "id": "action-drama/alice-guitar",
+      "title": "Alice Guitar",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/alice-guitar.mp3"
+    },
+    {
+      "id": "action-drama/cello-atmos",
+      "title": "Cello Atmos",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/cello-atmos.mp3"
+    },
+    {
+      "id": "action-drama/emotional-atmos",
+      "title": "Emotional Atmos",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/emotional-atmos.mp3"
+    },
+    {
+      "id": "action-drama/emotional-atmos-mix-b",
+      "title": "Emotional Atmos Mix B",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/emotional-atmos-mix-b.mp3"
+    },
+    {
+      "id": "action-drama/lacrimosa-harp",
+      "title": "Lacrimosa Harp",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/lacrimosa-harp.mp3"
+    },
+    {
+      "id": "action-drama/longing",
+      "title": "Longing",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/longing.mp3"
+    },
+    {
+      "id": "action-drama/longing-b",
+      "title": "Longing B",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/longing-b.mp3"
+    },
+    {
+      "id": "action-drama/out-of-time-atmos",
+      "title": "Out of Time Atmos",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/out-of-time-atmos.mp3"
+    },
+    {
+      "id": "action-drama/outplayed",
+      "title": "Outplayed",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/outplayed.mp3"
+    },
+    {
+      "id": "action-drama/outplayed-choir",
+      "title": "Outplayed Choir",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/outplayed-choir.mp3"
+    },
+    {
+      "id": "action-drama/outplayed-piano",
+      "title": "Outplayed Piano",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/outplayed-piano.mp3"
+    },
+    {
+      "id": "action-drama/somber-cello",
+      "title": "Somber Cello",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/somber-cello.mp3"
+    },
+    {
+      "id": "action-drama/sour-piano-improvisation",
+      "title": "Sour Piano Improvisation",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/sour-piano-improvisation.mp3"
+    },
+    {
+      "id": "action-drama/sour-piano-improvisation-b",
+      "title": "Sour Piano Improvisation B",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/sour-piano-improvisation-b.mp3"
+    },
+    {
+      "id": "action-drama/the-moor",
+      "title": "The Moor",
+      "style": "emotion",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/the-moor.mp3"
+    },
+    {
+      "id": "action-drama/choir-ensemble",
+      "title": "Choir Ensemble",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/choir-ensemble.mp3"
+    },
+    {
+      "id": "action-drama/dulcimer-full-loop",
+      "title": "Dulcimer Full Loop",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dulcimer-full-loop.mp3"
+    },
+    {
+      "id": "action-drama/dulcimer-loop",
+      "title": "Dulcimer Loop",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dulcimer-loop.mp3"
+    },
+    {
+      "id": "action-drama/genesis",
+      "title": "Genesis",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/genesis.mp3"
+    },
+    {
+      "id": "action-drama/improvisation-choir",
+      "title": "Improvisation Choir",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/improvisation-choir.mp3"
+    },
+    {
+      "id": "action-drama/olympus",
+      "title": "Olympus",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/olympus.mp3"
+    },
+    {
+      "id": "action-drama/paragon",
+      "title": "Paragon",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/paragon.mp3"
+    },
+    {
+      "id": "action-drama/paragon-dark-dulcimers",
+      "title": "Paragon Dark Dulcimers",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/paragon-dark-dulcimers.mp3"
+    },
+    {
+      "id": "action-drama/sanctum-loop",
+      "title": "Sanctum Loop",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/sanctum-loop.mp3"
+    },
+    {
+      "id": "action-drama/starfield",
+      "title": "Starfield",
+      "style": "magic",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/starfield.mp3"
+    },
+    {
+      "id": "action-drama/buried-halls",
+      "title": "Buried Halls",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/buried-halls.mp3"
+    },
+    {
+      "id": "action-drama/buried-halls-b",
+      "title": "Buried Halls B",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/buried-halls-b.mp3"
+    },
+    {
+      "id": "action-drama/buried-halls-c",
+      "title": "Buried Halls C",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/buried-halls-c.mp3"
+    },
+    {
+      "id": "action-drama/buried-halls-d",
+      "title": "Buried Halls D",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/buried-halls-d.mp3"
+    },
+    {
+      "id": "action-drama/downward",
+      "title": "Downward",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/downward.mp3"
+    },
+    {
+      "id": "action-drama/dungeon-a",
+      "title": "Dungeon A",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dungeon-a.mp3"
+    },
+    {
+      "id": "action-drama/dungeon-ambience",
+      "title": "Dungeon Ambience",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dungeon-ambience.mp3"
+    },
+    {
+      "id": "action-drama/dungeon-b",
+      "title": "Dungeon B",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dungeon-b.mp3"
+    },
+    {
+      "id": "action-drama/dungeon-c",
+      "title": "Dungeon C",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dungeon-c.mp3"
+    },
+    {
+      "id": "action-drama/dungeon-d",
+      "title": "Dungeon D",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/dungeon-d.mp3"
+    },
+    {
+      "id": "action-drama/hostile-jungle",
+      "title": "Hostile Jungle",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/hostile-jungle.mp3"
+    },
+    {
+      "id": "action-drama/hybrid-intermission",
+      "title": "Hybrid Intermission",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/hybrid-intermission.mp3"
+    },
+    {
+      "id": "action-drama/light-cinematic-synth-a",
+      "title": "Light Cinematic Synth A",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/light-cinematic-synth-a.mp3"
+    },
+    {
+      "id": "action-drama/light-cinematic-synth-b",
+      "title": "Light Cinematic Synth B",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/light-cinematic-synth-b.mp3"
+    },
+    {
+      "id": "action-drama/percussion-soft",
+      "title": "Percussion Soft",
+      "style": "exploration",
+      "url": "https://raw.githubusercontent.com/noahbakker34/Fenumion-Codex/e5ac95ca3bd3ef64538ac4c0bb051a6f54dc0518/site/assets/music/action-drama/percussion-soft.mp3"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "fenumion",
+      "name": "All Fenumion songs",
+      "collection": "custom",
+      "description": "Custom Fenumion · Suno · 40 tracks.",
+      "track_ids": [
+        "fenumion/adventure",
+        "fenumion/aiya-elen-sila",
+        "fenumion/aria-before-the-crown",
+        "fenumion/babel",
+        "fenumion/breath-of-the-wild",
+        "fenumion/carmen-and-paco",
+        "fenumion/carry-the-flame",
+        "fenumion/death",
+        "fenumion/death-arrives",
+        "fenumion/elda",
+        "fenumion/four-came-in",
+        "fenumion/gael",
+        "fenumion/go-gently-friend",
+        "fenumion/i-am-adelia",
+        "fenumion/i-am-aria",
+        "fenumion/i-am-arjahn",
+        "fenumion/i-am-dale",
+        "fenumion/i-am-draygar",
+        "fenumion/i-am-elenia",
+        "fenumion/i-am-fenwick",
+        "fenumion/i-am-gartina",
+        "fenumion/i-am-nymera",
+        "fenumion/i-am-olokun",
+        "fenumion/i-am-scribonia",
+        "fenumion/i-am-vaerik-2",
+        "fenumion/i-am-wrath",
+        "fenumion/melian-carries-the-glow",
+        "fenumion/prima-adventure",
+        "fenumion/prima-battle",
+        "fenumion/prima-battle-at-home",
+        "fenumion/prima-five-note",
+        "fenumion/prima-strings",
+        "fenumion/prima-strings-alternate",
+        "fenumion/pristinia-stands",
+        "fenumion/rahu",
+        "fenumion/saint-anky",
+        "fenumion/the-battle-approaches",
+        "fenumion/the-void",
+        "fenumion/will-babel-claim-you",
+        "fenumion/zarathis"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "i-am",
+      "name": "I Am",
+      "collection": "custom",
+      "description": "Custom Fenumion · Suno · 14 tracks.",
+      "track_ids": [
+        "fenumion/i-am-adelia",
+        "fenumion/i-am-aria",
+        "fenumion/i-am-arjahn",
+        "fenumion/i-am-dale",
+        "fenumion/i-am-draygar",
+        "fenumion/i-am-elenia",
+        "fenumion/i-am-fenwick",
+        "fenumion/i-am-gartina",
+        "fenumion/i-am-nymera",
+        "fenumion/i-am-olokun",
+        "fenumion/i-am-scribonia",
+        "fenumion/i-am-vaerik-2",
+        "fenumion/i-am-wrath",
+        "fenumion/saint-anky"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "prima",
+      "name": "Prima",
+      "collection": "custom",
+      "description": "Custom Fenumion · Suno · 6 tracks.",
+      "track_ids": [
+        "fenumion/prima-adventure",
+        "fenumion/prima-battle",
+        "fenumion/prima-battle-at-home",
+        "fenumion/prima-five-note",
+        "fenumion/prima-strings",
+        "fenumion/prima-strings-alternate"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "fenumion-tales",
+      "name": "Tales & Remembrance",
+      "collection": "custom",
+      "description": "Custom Fenumion · Suno · 7 tracks.",
+      "track_ids": [
+        "fenumion/aiya-elen-sila",
+        "fenumion/aria-before-the-crown",
+        "fenumion/carmen-and-paco",
+        "fenumion/elda",
+        "fenumion/four-came-in",
+        "fenumion/go-gently-friend",
+        "fenumion/melian-carries-the-glow"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "fenumion-places",
+      "name": "Places & Journeys",
+      "collection": "custom",
+      "description": "Custom Fenumion · Suno · 8 tracks.",
+      "track_ids": [
+        "fenumion/adventure",
+        "fenumion/babel",
+        "fenumion/breath-of-the-wild",
+        "fenumion/gael",
+        "fenumion/rahu",
+        "fenumion/the-void",
+        "fenumion/will-babel-claim-you",
+        "fenumion/zarathis"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "fenumion-peril",
+      "name": "Peril & Resolve",
+      "collection": "custom",
+      "description": "Custom Fenumion · Suno · 5 tracks.",
+      "track_ids": [
+        "fenumion/carry-the-flame",
+        "fenumion/death",
+        "fenumion/death-arrives",
+        "fenumion/pristinia-stands",
+        "fenumion/the-battle-approaches"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "all",
+      "name": "All background music",
+      "collection": "background",
+      "description": "Background soundtrack · 139 tracks.",
+      "track_ids": [
+        "action-drama/alterac",
+        "action-drama/assemble",
+        "action-drama/dragonflight",
+        "action-drama/dragonflight-mix-b",
+        "action-drama/embers",
+        "action-drama/exodus",
+        "action-drama/hightower",
+        "action-drama/hightower-evolved",
+        "action-drama/intervention",
+        "action-drama/meta-heroic-ensemble",
+        "action-drama/middle-earth",
+        "action-drama/middle-earth-b",
+        "action-drama/outskirts",
+        "action-drama/stepstones",
+        "action-drama/stepstones-b",
+        "action-drama/stepstones-c",
+        "action-drama/stepstones-drums",
+        "action-drama/the-inspirational-seeker",
+        "action-drama/viking-encampment",
+        "action-drama/viking-encampment-b-vocals",
+        "action-drama/viking-encampment-c",
+        "action-drama/aggressive-maneuvers",
+        "action-drama/apocalypse-loop",
+        "action-drama/assault",
+        "action-drama/battlefield",
+        "action-drama/battlefield-b",
+        "action-drama/battlefield-drum-loop",
+        "action-drama/chokepoint",
+        "action-drama/combat-drum-loop",
+        "action-drama/conflict-braam-loop",
+        "action-drama/daring-strings",
+        "action-drama/destruction",
+        "action-drama/destruction-loop",
+        "action-drama/dramatic-drums",
+        "action-drama/dramatic-drums-b",
+        "action-drama/dramatic-legatos",
+        "action-drama/eleventh-hour",
+        "action-drama/gulch-drums",
+        "action-drama/gulch-drums-slower",
+        "action-drama/harsh-brass",
+        "action-drama/legion",
+        "action-drama/legion-mix-b",
+        "action-drama/lord-of-destruction",
+        "action-drama/massive-epic-ensemble",
+        "action-drama/no-time-left",
+        "action-drama/renaissance-combat",
+        "action-drama/renaissance-combat-b",
+        "action-drama/showdown-b",
+        "action-drama/simple-combat",
+        "action-drama/simple-combat-atmos",
+        "action-drama/simple-combat-b",
+        "action-drama/simple-hybrid-combat",
+        "action-drama/vigor",
+        "action-drama/viking-combat",
+        "action-drama/viking-drum-loop",
+        "action-drama/viking-war",
+        "action-drama/anxious-atmos",
+        "action-drama/blackrock",
+        "action-drama/cinematic-horror",
+        "action-drama/cinematic-horror-b",
+        "action-drama/corruption",
+        "action-drama/corruption-b",
+        "action-drama/descent",
+        "action-drama/elven-corruption",
+        "action-drama/hybrid-terror-textures",
+        "action-drama/necrotic-strings",
+        "action-drama/necrotic-strings-b",
+        "action-drama/omen-atmos",
+        "action-drama/outbreak-piano",
+        "action-drama/outbreak-piano-b",
+        "action-drama/outbreak-piano-c",
+        "action-drama/rot-ambience",
+        "action-drama/rot-ambience-b",
+        "action-drama/shadow-atmos",
+        "action-drama/tarnished-atmos",
+        "action-drama/tarnished-atmos-mix-b",
+        "action-drama/trapped",
+        "action-drama/unholy",
+        "action-drama/conspiracy-theme",
+        "action-drama/conspiracy-theme-b",
+        "action-drama/cryptic-strings",
+        "action-drama/deception",
+        "action-drama/detective-synths",
+        "action-drama/detective-synths-b",
+        "action-drama/entropy",
+        "action-drama/etropy-b",
+        "action-drama/foreshadow",
+        "action-drama/foreshadow-b",
+        "action-drama/foreshadow-b-atmos",
+        "action-drama/infiltrate",
+        "action-drama/mother-of-deceit-reprise",
+        "action-drama/mother-of-deceit-synths",
+        "action-drama/plot-twist-quartet",
+        "action-drama/politically-dramatic-piano",
+        "action-drama/spiraling",
+        "action-drama/stray",
+        "action-drama/stray-b",
+        "action-drama/veil",
+        "action-drama/a-desperate-prayer",
+        "action-drama/alice-guitar",
+        "action-drama/cello-atmos",
+        "action-drama/emotional-atmos",
+        "action-drama/emotional-atmos-mix-b",
+        "action-drama/lacrimosa-harp",
+        "action-drama/longing",
+        "action-drama/longing-b",
+        "action-drama/out-of-time-atmos",
+        "action-drama/outplayed",
+        "action-drama/outplayed-choir",
+        "action-drama/outplayed-piano",
+        "action-drama/somber-cello",
+        "action-drama/sour-piano-improvisation",
+        "action-drama/sour-piano-improvisation-b",
+        "action-drama/the-moor",
+        "action-drama/choir-ensemble",
+        "action-drama/dulcimer-full-loop",
+        "action-drama/dulcimer-loop",
+        "action-drama/genesis",
+        "action-drama/improvisation-choir",
+        "action-drama/olympus",
+        "action-drama/paragon",
+        "action-drama/paragon-dark-dulcimers",
+        "action-drama/sanctum-loop",
+        "action-drama/starfield",
+        "action-drama/buried-halls",
+        "action-drama/buried-halls-b",
+        "action-drama/buried-halls-c",
+        "action-drama/buried-halls-d",
+        "action-drama/downward",
+        "action-drama/dungeon-a",
+        "action-drama/dungeon-ambience",
+        "action-drama/dungeon-b",
+        "action-drama/dungeon-c",
+        "action-drama/dungeon-d",
+        "action-drama/hostile-jungle",
+        "action-drama/hybrid-intermission",
+        "action-drama/light-cinematic-synth-a",
+        "action-drama/light-cinematic-synth-b",
+        "action-drama/percussion-soft"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "adventure",
+      "name": "Adventure & Wonder",
+      "collection": "background",
+      "description": "Background soundtrack · 21 tracks.",
+      "track_ids": [
+        "action-drama/alterac",
+        "action-drama/assemble",
+        "action-drama/dragonflight",
+        "action-drama/dragonflight-mix-b",
+        "action-drama/embers",
+        "action-drama/exodus",
+        "action-drama/hightower",
+        "action-drama/hightower-evolved",
+        "action-drama/intervention",
+        "action-drama/meta-heroic-ensemble",
+        "action-drama/middle-earth",
+        "action-drama/middle-earth-b",
+        "action-drama/outskirts",
+        "action-drama/stepstones",
+        "action-drama/stepstones-b",
+        "action-drama/stepstones-c",
+        "action-drama/stepstones-drums",
+        "action-drama/the-inspirational-seeker",
+        "action-drama/viking-encampment",
+        "action-drama/viking-encampment-b-vocals",
+        "action-drama/viking-encampment-c"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "battle",
+      "name": "Battle & Pursuit",
+      "collection": "background",
+      "description": "Background soundtrack · 35 tracks.",
+      "track_ids": [
+        "action-drama/aggressive-maneuvers",
+        "action-drama/apocalypse-loop",
+        "action-drama/assault",
+        "action-drama/battlefield",
+        "action-drama/battlefield-b",
+        "action-drama/battlefield-drum-loop",
+        "action-drama/chokepoint",
+        "action-drama/combat-drum-loop",
+        "action-drama/conflict-braam-loop",
+        "action-drama/daring-strings",
+        "action-drama/destruction",
+        "action-drama/destruction-loop",
+        "action-drama/dramatic-drums",
+        "action-drama/dramatic-drums-b",
+        "action-drama/dramatic-legatos",
+        "action-drama/eleventh-hour",
+        "action-drama/gulch-drums",
+        "action-drama/gulch-drums-slower",
+        "action-drama/harsh-brass",
+        "action-drama/legion",
+        "action-drama/legion-mix-b",
+        "action-drama/lord-of-destruction",
+        "action-drama/massive-epic-ensemble",
+        "action-drama/no-time-left",
+        "action-drama/renaissance-combat",
+        "action-drama/renaissance-combat-b",
+        "action-drama/showdown-b",
+        "action-drama/simple-combat",
+        "action-drama/simple-combat-atmos",
+        "action-drama/simple-combat-b",
+        "action-drama/simple-hybrid-combat",
+        "action-drama/vigor",
+        "action-drama/viking-combat",
+        "action-drama/viking-drum-loop",
+        "action-drama/viking-war"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "dark",
+      "name": "Darkness & Horror",
+      "collection": "background",
+      "description": "Background soundtrack · 22 tracks.",
+      "track_ids": [
+        "action-drama/anxious-atmos",
+        "action-drama/blackrock",
+        "action-drama/cinematic-horror",
+        "action-drama/cinematic-horror-b",
+        "action-drama/corruption",
+        "action-drama/corruption-b",
+        "action-drama/descent",
+        "action-drama/elven-corruption",
+        "action-drama/hybrid-terror-textures",
+        "action-drama/necrotic-strings",
+        "action-drama/necrotic-strings-b",
+        "action-drama/omen-atmos",
+        "action-drama/outbreak-piano",
+        "action-drama/outbreak-piano-b",
+        "action-drama/outbreak-piano-c",
+        "action-drama/rot-ambience",
+        "action-drama/rot-ambience-b",
+        "action-drama/shadow-atmos",
+        "action-drama/tarnished-atmos",
+        "action-drama/tarnished-atmos-mix-b",
+        "action-drama/trapped",
+        "action-drama/unholy"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "mystery",
+      "name": "Mystery & Intrigue",
+      "collection": "background",
+      "description": "Background soundtrack · 20 tracks.",
+      "track_ids": [
+        "action-drama/conspiracy-theme",
+        "action-drama/conspiracy-theme-b",
+        "action-drama/cryptic-strings",
+        "action-drama/deception",
+        "action-drama/detective-synths",
+        "action-drama/detective-synths-b",
+        "action-drama/entropy",
+        "action-drama/etropy-b",
+        "action-drama/foreshadow",
+        "action-drama/foreshadow-b",
+        "action-drama/foreshadow-b-atmos",
+        "action-drama/infiltrate",
+        "action-drama/mother-of-deceit-reprise",
+        "action-drama/mother-of-deceit-synths",
+        "action-drama/plot-twist-quartet",
+        "action-drama/politically-dramatic-piano",
+        "action-drama/spiraling",
+        "action-drama/stray",
+        "action-drama/stray-b",
+        "action-drama/veil"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "emotion",
+      "name": "Reflection & Sorrow",
+      "collection": "background",
+      "description": "Background soundtrack · 16 tracks.",
+      "track_ids": [
+        "action-drama/a-desperate-prayer",
+        "action-drama/alice-guitar",
+        "action-drama/cello-atmos",
+        "action-drama/emotional-atmos",
+        "action-drama/emotional-atmos-mix-b",
+        "action-drama/lacrimosa-harp",
+        "action-drama/longing",
+        "action-drama/longing-b",
+        "action-drama/out-of-time-atmos",
+        "action-drama/outplayed",
+        "action-drama/outplayed-choir",
+        "action-drama/outplayed-piano",
+        "action-drama/somber-cello",
+        "action-drama/sour-piano-improvisation",
+        "action-drama/sour-piano-improvisation-b",
+        "action-drama/the-moor"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "magic",
+      "name": "Magic & Ceremony",
+      "collection": "background",
+      "description": "Background soundtrack · 10 tracks.",
+      "track_ids": [
+        "action-drama/choir-ensemble",
+        "action-drama/dulcimer-full-loop",
+        "action-drama/dulcimer-loop",
+        "action-drama/genesis",
+        "action-drama/improvisation-choir",
+        "action-drama/olympus",
+        "action-drama/paragon",
+        "action-drama/paragon-dark-dulcimers",
+        "action-drama/sanctum-loop",
+        "action-drama/starfield"
+      ],
+      "shuffle": false
+    },
+    {
+      "id": "exploration",
+      "name": "Ruins & Exploration",
+      "collection": "background",
+      "description": "Background soundtrack · 15 tracks.",
+      "track_ids": [
+        "action-drama/buried-halls",
+        "action-drama/buried-halls-b",
+        "action-drama/buried-halls-c",
+        "action-drama/buried-halls-d",
+        "action-drama/downward",
+        "action-drama/dungeon-a",
+        "action-drama/dungeon-ambience",
+        "action-drama/dungeon-b",
+        "action-drama/dungeon-c",
+        "action-drama/dungeon-d",
+        "action-drama/hostile-jungle",
+        "action-drama/hybrid-intermission",
+        "action-drama/light-cinematic-synth-a",
+        "action-drama/light-cinematic-synth-b",
+        "action-drama/percussion-soft"
+      ],
+      "shuffle": false
+    }
+  ]
+}

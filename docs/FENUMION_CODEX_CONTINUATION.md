@@ -2,6 +2,12 @@
 
 Last updated: 2026-11-13
 
+## Shared website and Discord playlists · 13 November 2026
+
+Owner asks that all organized playlists be selectable on both website and Discord bot. The website’s existing fourteen native choices now have a shared public metadata export at music-library.json, generated from the same trusted local music definitions. Existing validation checks freshness; the existing music gate compares all 179 track objects and every selectable membership. No new browser dependency or runtime fetch. Details: SHARED_WEBSITE_DISCORD_PLAYLISTS_2026_11_13.md.
+
+The separate local bot had only 159 songs and three starters. Its staged JSON importer loads all 179 songs and fourteen website playlists, preserves the three starters, validates source separation, and rejects stale modern-JS imports rather than losing new tracks. Panel/autocomplete expose all fourteen choices; browse covers all seventeen and All background no longer mixes custom songs. Existing Discord command names, permissions, voice encryption, credentials and saved panel IDs remain unchanged. Offline selection/import/menu/service checks and website parity/playback checks pass; source apply and idle-service update follow. Unrelated untracked bot work is preserved. No bot tokens/configuration or private lore enter this repository.
+
 ## Separate custom and background playlists · 13 November 2026
 
 Owner asks to organize the remaining music and keep custom Suno tracks in their own playlists. Music8 adds Custom Fenumion · Suno and Background soundtrack option groups and changes the control label to Playlist. No mixed All styles queue remains. Forty custom songs have exactly one thematic home: I Am14, Prima6, Tales & Remembrance7, Places & Journeys8, Peril & Resolve5. The 139 background tracks retain their seven mood playlists; each collection has its own complete-list option. Details: SOUNDTRACK_ORGANIZATION_2026_11_13.md.
